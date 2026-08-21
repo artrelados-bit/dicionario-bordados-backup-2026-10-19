@@ -1,37 +1,25 @@
-import React, { useState, useEffect } from "react";
-import { BookmarkCheck, RotateCcw, Lock, Unlock, ShieldAlert, Plus, BookMarked, BookOpen, X, Search, Check, Trash2, ExternalLink, Sparkles, FileText, Info } from "lucide-react";
+import React, { useState } from "react";
+import { BookmarkCheck, RotateCcw, BookMarked, BookOpen, X, Search, Check, ExternalLink, Sparkles, FileText, Info } from "lucide-react";
 import { DictionaryStats } from "../types";
 import { OFFICIAL_REFERENCES, ReferenceItem } from "../data/referencesData";
 
 interface FooterBarProps {
   stats: DictionaryStats;
   onResetFilters?: () => void;
-  isAdmin: boolean;
-  setIsAdmin: (val: boolean) => void;
-  onAddNewVerbete?: () => void;
 }
 
 export const FooterBar: React.FC<FooterBarProps> = ({
   stats,
   onResetFilters,
-  isAdmin,
-  setIsAdmin,
-  onAddNewVerbete,
 }) => {
-  const [showPasswordModal, setShowPasswordModal] = useState(false);
-  const [passwordInput, setPasswordInput] = useState("");
-  const [passwordError, setPasswordError] = useState(false);
-
   // References modal state
   const [showReferencesModal, setShowReferencesModal] = useState(false);
-  const [references, setReferences] = useState<ReferenceItem[]>(() => {
+  const [references] = useState<ReferenceItem[]>(() => {
     try {
       const saved = localStorage.getItem("dibe_official_references_v3");
       if (saved) {
         const parsed: ReferenceItem[] = JSON.parse(saved);
-        // Ensure new default OFFICIAL_REFERENCES exist
-        const customItems = parsed.filter((item) => item.id.startsWith("ref-custom-"));
-        return [...OFFICIAL_REFERENCES, ...customItems];
+        return parsed.length > 0 ? parsed : OFFICIAL_REFERENCES;
       }
       return OFFICIAL_REFERENCES;
     } catch {
@@ -42,76 +30,10 @@ export const FooterBar: React.FC<FooterBarProps> = ({
   const [refSearch, setRefSearch] = useState("");
   const [copiedId, setCopiedId] = useState<string | null>(null);
 
-  // New reference form (when in Admin mode)
-  const [showAddRefForm, setShowAddRefForm] = useState(false);
-  const [newRefAuthor, setNewRefAuthor] = useState("");
-  const [newRefTitle, setNewRefTitle] = useState("");
-  const [newRefPublisher, setNewRefPublisher] = useState("");
-  const [newRefAccessDate, setNewRefAccessDate] = useState("8 ago. 2026");
-
-  useEffect(() => {
-    try {
-      localStorage.setItem("dibe_official_references_v3", JSON.stringify(references));
-    } catch (err) {
-      console.error("Failed to save references:", err);
-    }
-  }, [references]);
-
-  const handleAdminToggle = () => {
-    if (isAdmin) {
-      setIsAdmin(false);
-    } else {
-      setShowPasswordModal(true);
-      setPasswordInput("");
-      setPasswordError(false);
-    }
-  };
-
-  const handlePasswordSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    const input = passwordInput.toLowerCase().trim();
-    if (input === "artrelados" || input === "1234" || input === "dibe") {
-      setIsAdmin(true);
-      setShowPasswordModal(false);
-      setPasswordInput("");
-      setPasswordError(false);
-    } else {
-      setPasswordError(true);
-    }
-  };
-
   const handleCopyCitation = (ref: ReferenceItem) => {
     navigator.clipboard.writeText(ref.fullCitation);
     setCopiedId(ref.id);
     setTimeout(() => setCopiedId(null), 2000);
-  };
-
-  const handleAddReference = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!newRefAuthor.trim() || !newRefTitle.trim()) return;
-
-    const fullCitation = `${newRefAuthor.toUpperCase().trim()}. ${newRefTitle.trim()}.${newRefPublisher ? ` ${newRefPublisher.trim()}.` : ""} Acesso em: ${newRefAccessDate.trim()}.`;
-
-    const newItem: ReferenceItem = {
-      id: `ref-custom-${Date.now()}`,
-      author: newRefAuthor.trim(),
-      title: newRefTitle.trim(),
-      publisherOrUrl: newRefPublisher.trim(),
-      accessDate: newRefAccessDate.trim(),
-      fullCitation,
-    };
-
-    setReferences((prev) => [newItem, ...prev]);
-    setNewRefAuthor("");
-    setNewRefTitle("");
-    setNewRefPublisher("");
-    setShowAddRefForm(false);
-  };
-
-  const handleDeleteReference = (id: string) => {
-    if (window.confirm("Deseja realmente remover esta referência bibliográfica?")) {
-      setReferences((prev) => prev.filter((item) => item.id !== id));
-    }
   };
 
   const filteredReferences = references.filter((ref) => {
@@ -129,7 +51,7 @@ export const FooterBar: React.FC<FooterBarProps> = ({
     <footer className="mt-16 bg-black text-slate-100 border-t-4 border-amber-500 pt-10 pb-12 shadow-2xl">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
         
-        {/* Ateliê & Editor Control Bar */}
+        {/* Ateliê & Navigation Bar */}
         <div className="bg-zinc-950 border border-zinc-800 rounded-2xl p-5 sm:p-6 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex flex-wrap items-center gap-2.5 justify-center md:justify-start">
             <div className="px-3.5 py-1.5 rounded-xl bg-amber-400 text-slate-950 font-black flex items-center space-x-2 text-xs shadow-md">
@@ -157,33 +79,8 @@ export const FooterBar: React.FC<FooterBarProps> = ({
               title="Ver Referências Bibliográficas e Fontes Técnicas Consultadas"
             >
               <BookMarked className="w-4 h-4 text-amber-400" />
-              <span>📚 Referências & Fontes</span>
+              <span>📚 Referências & Fontes ({references.length})</span>
             </button>
-
-            {/* Admin Toggle */}
-            <button
-              onClick={handleAdminToggle}
-              className={`px-4 py-2 rounded-xl font-black text-xs flex items-center space-x-2 shadow-md border transition cursor-pointer ${
-                isAdmin
-                  ? "bg-emerald-600 hover:bg-emerald-700 text-white border-emerald-500 animate-pulse"
-                  : "bg-amber-400 hover:bg-amber-500 text-slate-950 border-amber-500"
-              }`}
-              title={isAdmin ? "Modo Editora Ativo — Clique para Sair" : "Acesso Restrito da Editora Artrelados para Editar/Excluir"}
-            >
-              {isAdmin ? <Unlock className="w-4 h-4 text-emerald-100" /> : <Lock className="w-4 h-4 text-slate-950" />}
-              <span>{isAdmin ? "Modo Editora Ativo ✏️" : "Área da Editora (Senha)"}</span>
-            </button>
-
-            {isAdmin && onAddNewVerbete && (
-              <button
-                onClick={onAddNewVerbete}
-                className="px-4 py-2 rounded-xl bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-xs flex items-center space-x-1.5 shadow-md border border-amber-500 transition cursor-pointer"
-                title="Adicionar um novo verbete ao DIBE"
-              >
-                <Plus className="w-4 h-4 text-slate-950" />
-                <span>+ Novo Verbete</span>
-              </button>
-            )}
 
             {onResetFilters && (
               <button
@@ -215,64 +112,6 @@ export const FooterBar: React.FC<FooterBarProps> = ({
           </div>
         </div>
       </div>
-
-      {/* Password Modal for Admin Mode */}
-      {showPasswordModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-sm animate-fade-in text-slate-900">
-          <div className="bg-white rounded-3xl border border-amber-300 shadow-2xl max-w-md w-full p-6 space-y-4">
-            <div className="flex items-center space-x-3 text-amber-900">
-              <div className="p-2.5 bg-amber-100 rounded-2xl">
-                <Lock className="w-6 h-6 text-amber-700" />
-              </div>
-              <div>
-                <h3 className="text-lg font-black text-slate-900">Área da Editora Artrelados</h3>
-                <p className="text-xs text-slate-500">Digite a senha para habilitar edição e exclusão de verbetes e referências</p>
-              </div>
-            </div>
-
-            <form onSubmit={handlePasswordSubmit} className="space-y-4">
-              <div>
-                <label className="block text-xs font-bold text-slate-700 uppercase mb-1">
-                  Senha de Acesso:
-                </label>
-                <input
-                  type="password"
-                  value={passwordInput}
-                  onChange={(e) => {
-                    setPasswordInput(e.target.value);
-                    setPasswordError(false);
-                  }}
-                  placeholder="Sua senha de editora (ex: artrelados)"
-                  autoFocus
-                  className="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-amber-500 font-medium"
-                />
-                {passwordError && (
-                  <p className="text-xs text-rose-600 font-bold mt-1.5 flex items-center gap-1">
-                    <ShieldAlert className="w-3.5 h-3.5" />
-                    Senha incorreta! Digite &quot;artrelados&quot;
-                  </p>
-                )}
-              </div>
-
-              <div className="flex items-center justify-end space-x-2 pt-2">
-                <button
-                  type="button"
-                  onClick={() => setShowPasswordModal(false)}
-                  className="px-4 py-2 rounded-xl text-slate-600 hover:bg-slate-100 text-xs font-bold transition cursor-pointer"
-                >
-                  Cancelar
-                </button>
-                <button
-                  type="submit"
-                  className="px-5 py-2.5 rounded-xl bg-amber-400 hover:bg-amber-500 text-slate-950 text-xs font-black transition cursor-pointer shadow-md border border-amber-500"
-                >
-                  Entrar como Editora
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      )}
 
       {/* Bibliographic References Modal — Pristine White Background */}
       {showReferencesModal && (
@@ -342,97 +181,13 @@ export const FooterBar: React.FC<FooterBarProps> = ({
                   {refSearch && (
                     <button
                       onClick={() => setRefSearch("")}
-                      className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700 text-xs"
+                      className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700 text-xs cursor-pointer"
                     >
                       ×
                     </button>
                   )}
                 </div>
-
-                {isAdmin && (
-                  <button
-                    onClick={() => setShowAddRefForm(!showAddRefForm)}
-                    className="px-3.5 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-xs flex items-center space-x-1.5 transition cursor-pointer shadow-sm self-end sm:self-auto"
-                  >
-                    <Plus className="w-3.5 h-3.5" />
-                    <span>{showAddRefForm ? "Cancelar" : "+ Cadastrar Fonte"}</span>
-                  </button>
-                )}
               </div>
-
-              {/* Add Reference Form (Admin Mode) */}
-              {isAdmin && showAddRefForm && (
-                <form onSubmit={handleAddReference} className="bg-slate-50 border-2 border-amber-400 rounded-2xl p-4 sm:p-5 space-y-3 shadow-md animate-fade-in">
-                  <h3 className="text-xs font-black text-slate-900 uppercase tracking-wide flex items-center gap-2">
-                    <Plus className="w-4 h-4 text-emerald-600" />
-                    Adicionar Nova Fonte Técnica
-                  </h3>
-
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
-                    <div>
-                      <label className="block text-slate-700 font-bold mb-1">Autor / Empresa*</label>
-                      <input
-                        type="text"
-                        required
-                        value={newRefAuthor}
-                        onChange={(e) => setNewRefAuthor(e.target.value)}
-                        placeholder="Ex: WILCOM INTERNATIONAL PTY LTD"
-                        className="w-full bg-white border border-slate-300 rounded-lg p-2 text-slate-900 focus:ring-2 focus:ring-amber-500 focus:outline-none"
-                      />
-                    </div>
-
-                    <div>
-                      <label className="block text-slate-700 font-bold mb-1">Título do Documento*</label>
-                      <input
-                        type="text"
-                        required
-                        value={newRefTitle}
-                        onChange={(e) => setNewRefTitle(e.target.value)}
-                        placeholder="Ex: Supported Embroidery Formats"
-                        className="w-full bg-white border border-slate-300 rounded-lg p-2 text-slate-900 focus:ring-2 focus:ring-amber-500 focus:outline-none"
-                      />
-                    </div>
-
-                    <div>
-                      <label className="block text-slate-700 font-bold mb-1">Publicador / Disponibilidade</label>
-                      <input
-                        type="text"
-                        value={newRefPublisher}
-                        onChange={(e) => setNewRefPublisher(e.target.value)}
-                        placeholder="Ex: Wilcom — Supported Embroidery Formats"
-                        className="w-full bg-white border border-slate-300 rounded-lg p-2 text-slate-900 focus:ring-2 focus:ring-amber-500 focus:outline-none"
-                      />
-                    </div>
-
-                    <div>
-                      <label className="block text-slate-700 font-bold mb-1">Data de Acesso</label>
-                      <input
-                        type="text"
-                        value={newRefAccessDate}
-                        onChange={(e) => setNewRefAccessDate(e.target.value)}
-                        placeholder="Ex: 8 ago. 2026"
-                        className="w-full bg-white border border-slate-300 rounded-lg p-2 text-slate-900 focus:ring-2 focus:ring-amber-500 focus:outline-none"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="flex justify-end space-x-2 pt-2">
-                    <button
-                      type="button"
-                      onClick={() => setShowAddRefForm(false)}
-                      className="px-3.5 py-1.5 rounded-lg bg-slate-200 hover:bg-slate-300 text-slate-700 text-xs font-bold"
-                    >
-                      Cancelar
-                    </button>
-                    <button
-                      type="submit"
-                      className="px-4 py-1.5 rounded-lg bg-amber-400 hover:bg-amber-500 text-slate-950 text-xs font-black"
-                    >
-                      Salvar Fonte
-                    </button>
-                  </div>
-                </form>
-              )}
 
               {/* List of 14 ABNT References */}
               <div className="space-y-3">
@@ -446,7 +201,7 @@ export const FooterBar: React.FC<FooterBarProps> = ({
                     <p className="font-bold">Nenhuma fonte encontrada para os termos pesquisados.</p>
                   </div>
                 ) : (
-                  filteredReferences.map((ref, idx) => (
+                  filteredReferences.map((ref) => (
                     <div
                       key={ref.id}
                       className="bg-slate-50 border border-slate-200 rounded-2xl p-4 hover:border-amber-400 transition space-y-2 relative group"
@@ -483,16 +238,6 @@ export const FooterBar: React.FC<FooterBarProps> = ({
                               </>
                             )}
                           </button>
-
-                          {isAdmin && (
-                            <button
-                              onClick={() => handleDeleteReference(ref.id)}
-                              className="p-1 rounded-lg bg-rose-50 hover:bg-rose-100 text-rose-600 border border-rose-200 transition cursor-pointer"
-                              title="Excluir Fonte"
-                            >
-                              <Trash2 className="w-3.5 h-3.5" />
-                            </button>
-                          )}
                         </div>
                       </div>
                     </div>

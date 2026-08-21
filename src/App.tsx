@@ -9,7 +9,6 @@ import { FilterBar } from "./components/FilterBar";
 import { VerbeteCard } from "./components/VerbeteCard";
 import { VerbeteRow } from "./components/VerbeteRow";
 import { VerbeteDetailModal } from "./components/VerbeteDetailModal";
-import { EditVerbeteModal } from "./components/EditVerbeteModal";
 import { TroubleshootingView } from "./components/TroubleshootingView";
 import { FooterBar } from "./components/FooterBar";
 import { Verbete, VerbeteCategory, TroubleshootingGuide, DictionaryStats } from "./types";
@@ -211,13 +210,6 @@ export default function App() {
   // Navigation tab state
   const [activeTab, setActiveTab] = useState<"dictionary" | "troubleshooting" | "favorites">("dictionary");
 
-  // Admin / Editor Mode State (Default true so Janete has full edit/delete control right away)
-  const [isAdmin, setIsAdmin] = useState<boolean>(true);
-
-  // Edit / Create Verbete Modal State
-  const [isEditModalOpen, setIsEditModalOpen] = useState(false);
-  const [verbeteToEdit, setVerbeteToEdit] = useState<Verbete | null>(null);
-
   // Main Verbetes Database State (persisted in localStorage with auto-merge of initial verbetes)
   const [verbetes, setVerbetes] = useState<Verbete[]>(() => {
     try {
@@ -303,75 +295,9 @@ export default function App() {
     }
   };
 
-  // Open Modal to Create New Verbete
-  const handleOpenCreateModal = () => {
-    setVerbeteToEdit(null);
-    setIsEditModalOpen(true);
-  };
-
-  // Open Modal to Edit Verbete
-  const handleOpenEditModal = (verbete: Verbete, e?: React.MouseEvent) => {
-    if (e) e.stopPropagation();
-    setVerbeteToEdit(verbete);
-    setIsEditModalOpen(true);
-  };
-
-  // Save or Update Verbete
-  const handleSaveVerbete = (savedVerbete: Verbete) => {
-    setVerbetes((prev) => {
-      const exists = prev.some((v) => v.id === savedVerbete.id);
-      if (exists) {
-        return prev.map((v) => (v.id === savedVerbete.id ? savedVerbete : v));
-      } else {
-        return [savedVerbete, ...prev];
-      }
-    });
-
-    if (selectedVerbete && selectedVerbete.id === savedVerbete.id) {
-      setSelectedVerbete(savedVerbete);
-    }
-  };
-
-  // Delete Verbete
-  const handleDeleteVerbete = (id: string, e?: React.MouseEvent) => {
-    if (e) e.stopPropagation();
-    setVerbetes((prev) => prev.filter((v) => v.id !== id));
-    if (selectedVerbete && selectedVerbete.id === id) {
-      setSelectedVerbete(null);
-    }
-  };
-
-  // Add Single New Verbete (from AI)
+  // Add Single New Verbete (if needed)
   const handleAddVerbete = (newVerbete: Verbete) => {
     setVerbetes((prev) => [newVerbete, ...prev]);
-  };
-
-  // Batch Import Verbetes (from Document Importer)
-  const handleImportVerbetes = (imported: Verbete[]) => {
-    setVerbetes((prev) => {
-      const sanitizedImported = sanitizeVerbetesList(imported);
-      const existingTermsMap = new Set(prev.map((v) => v.term.toLowerCase().trim()));
-      const existingIdsMap = new Set(prev.map((v) => v.id));
-
-      const preparedNew = sanitizedImported.map((item, idx) => {
-        let uniqueId = item.id;
-        if (!uniqueId || existingIdsMap.has(uniqueId)) {
-          uniqueId = `imp-${Date.now()}-${idx}-${Math.random().toString(36).substring(2, 7)}`;
-        }
-        existingIdsMap.add(uniqueId);
-        return { ...item, id: uniqueId };
-      });
-
-      const filteredNew = preparedNew.filter((item) => !existingTermsMap.has(item.term.toLowerCase().trim()));
-      return sanitizeVerbetesList([...filteredNew, ...prev]);
-    });
-
-    setActiveTab("dictionary");
-    setSearchQuery("");
-    setSelectedCategory("Todos");
-    setSelectedLetter("Todos");
-    setOnlyFavorites(false);
-    setOnlyAiGenerated(false);
   };
 
   // Filtered Verbetes Logic with Intelligent Relevance Ranking
@@ -530,9 +456,6 @@ export default function App() {
         setActiveTab={setActiveTab}
         stats={stats}
         onResetFilters={handleResetFilters}
-        isAdmin={isAdmin}
-        setIsAdmin={setIsAdmin}
-        onAddNewVerbete={handleOpenCreateModal}
       />
 
       {/* Main Container */}
@@ -567,9 +490,6 @@ export default function App() {
                       verbete={verbete}
                       onSelect={setSelectedVerbete}
                       onToggleFavorite={handleToggleFavorite}
-                      isAdmin={isAdmin}
-                      onEdit={handleOpenEditModal}
-                      onDelete={handleDeleteVerbete}
                     />
                   ))}
                 </div>
@@ -581,9 +501,6 @@ export default function App() {
                       verbete={verbete}
                       onSelect={setSelectedVerbete}
                       onToggleFavorite={handleToggleFavorite}
-                      isAdmin={isAdmin}
-                      onEdit={handleOpenEditModal}
-                      onDelete={handleDeleteVerbete}
                     />
                   ))}
                 </div>
@@ -632,29 +549,12 @@ export default function App() {
         onClose={() => setSelectedVerbete(null)}
         onToggleFavorite={handleToggleFavorite}
         onSelectRelatedTerm={handleSelectRelatedTerm}
-        isAdmin={isAdmin}
-        onEdit={(verbete) => {
-          setSelectedVerbete(null);
-          handleOpenEditModal(verbete);
-        }}
-        onDelete={handleDeleteVerbete}
-      />
-
-      {/* Edit / Create Verbete Modal */}
-      <EditVerbeteModal
-        isOpen={isEditModalOpen}
-        onClose={() => setIsEditModalOpen(false)}
-        onSave={handleSaveVerbete}
-        verbeteToEdit={verbeteToEdit}
       />
 
       {/* Footer / Control Bar */}
       <FooterBar
         stats={stats}
         onResetFilters={handleResetFilters}
-        isAdmin={isAdmin}
-        setIsAdmin={setIsAdmin}
-        onAddNewVerbete={handleOpenCreateModal}
       />
     </div>
   );

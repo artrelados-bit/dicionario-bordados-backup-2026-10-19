@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { BookOpen, Wrench, Star, BookmarkCheck, RotateCcw, Lock, Unlock, ShieldAlert, Plus } from "lucide-react";
+import React from "react";
+import { BookOpen, Wrench, Star } from "lucide-react";
 import { DictionaryStats } from "../types";
 
 interface HeaderProps {
@@ -7,9 +7,6 @@ interface HeaderProps {
   setActiveTab: (tab: "dictionary" | "troubleshooting" | "favorites") => void;
   stats: DictionaryStats;
   onResetFilters?: () => void;
-  isAdmin: boolean;
-  setIsAdmin: (val: boolean) => void;
-  onAddNewVerbete?: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -17,37 +14,7 @@ export const Header: React.FC<HeaderProps> = ({
   setActiveTab,
   stats,
   onResetFilters,
-  isAdmin,
-  setIsAdmin,
-  onAddNewVerbete,
 }) => {
-  const [showPasswordModal, setShowPasswordModal] = useState(false);
-  const [passwordInput, setPasswordInput] = useState("");
-  const [passwordError, setPasswordError] = useState(false);
-
-  const handleAdminToggle = () => {
-    if (isAdmin) {
-      setIsAdmin(false);
-    } else {
-      setShowPasswordModal(true);
-      setPasswordInput("");
-      setPasswordError(false);
-    }
-  };
-
-  const handlePasswordSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    const input = passwordInput.toLowerCase().trim();
-    if (input === "artrelados" || input === "1234" || input === "dibe") {
-      setIsAdmin(true);
-      setShowPasswordModal(false);
-      setPasswordInput("");
-      setPasswordError(false);
-    } else {
-      setPasswordError(true);
-    }
-  };
-
   return (
     <header className="dibe-header-yellow bg-[#F9BC06] text-slate-950 border-b-4 border-[#E0A200] shadow-xl relative overflow-hidden">
       {/* Subtle top banner ribbon like the book cover */}
@@ -124,64 +91,6 @@ export const Header: React.FC<HeaderProps> = ({
           </button>
         </nav>
       </div>
-
-      {/* Password Modal for Admin Mode */}
-      {showPasswordModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-sm animate-fade-in text-slate-900">
-          <div className="bg-white rounded-3xl border border-amber-300 shadow-2xl max-w-md w-full p-6 space-y-4">
-            <div className="flex items-center space-x-3 text-amber-900">
-              <div className="p-2.5 bg-amber-100 rounded-2xl">
-                <Lock className="w-6 h-6 text-amber-700" />
-              </div>
-              <div>
-                <h3 className="text-lg font-black text-slate-900">Área da Editora Artrelados</h3>
-                <p className="text-xs text-slate-500">Digite a senha para habilitar edição e exclusão de verbetes</p>
-              </div>
-            </div>
-
-            <form onSubmit={handlePasswordSubmit} className="space-y-4">
-              <div>
-                <label className="block text-xs font-bold text-slate-700 uppercase mb-1">
-                  Senha de Acesso:
-                </label>
-                <input
-                  type="password"
-                  value={passwordInput}
-                  onChange={(e) => {
-                    setPasswordInput(e.target.value);
-                    setPasswordError(false);
-                  }}
-                  placeholder="Sua senha de editora (ex: artrelados)"
-                  autoFocus
-                  className="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-amber-500 font-medium"
-                />
-                {passwordError && (
-                  <p className="text-xs text-rose-600 font-bold mt-1.5 flex items-center gap-1">
-                    <ShieldAlert className="w-3.5 h-3.5" />
-                    Senha incorreta! Digite &quot;artrelados&quot;
-                  </p>
-                )}
-              </div>
-
-              <div className="flex items-center justify-end space-x-2 pt-2">
-                <button
-                  type="button"
-                  onClick={() => setShowPasswordModal(false)}
-                  className="px-4 py-2 rounded-xl text-slate-600 hover:bg-slate-100 text-xs font-bold transition cursor-pointer"
-                >
-                  Cancelar
-                </button>
-                <button
-                  type="submit"
-                  className="px-5 py-2.5 rounded-xl bg-amber-400 hover:bg-amber-500 text-slate-950 text-xs font-black transition cursor-pointer shadow-md border border-amber-500"
-                >
-                  Entrar como Editora
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      )}
     </header>
   );
 };

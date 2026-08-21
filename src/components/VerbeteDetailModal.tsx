@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { X, Star, Sparkles, Gauge, Zap, AlertTriangle, CheckCircle2, Copy, Check, Layers, BookOpen, Edit3, Trash2, BookMarked } from "lucide-react";
+import { X, Star, Gauge, Zap, AlertTriangle, CheckCircle2, Copy, Check, Layers, BookOpen, BookMarked } from "lucide-react";
 import { Verbete } from "../types";
 import { StitchDiagram } from "./StitchDiagram";
 
@@ -8,10 +8,6 @@ interface VerbeteDetailModalProps {
   onClose: () => void;
   onToggleFavorite: (id: string, e: React.MouseEvent) => void;
   onSelectRelatedTerm?: (termName: string) => void;
-  onAskAiToElaborate?: (verbete: Verbete) => void;
-  isAdmin?: boolean;
-  onEdit?: (verbete: Verbete) => void;
-  onDelete?: (id: string) => void;
 }
 
 // Helper Component to render structured Markdown / Rich Text sections in verbetes
@@ -140,13 +136,8 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
   onClose,
   onToggleFavorite,
   onSelectRelatedTerm,
-  onAskAiToElaborate,
-  isAdmin = false,
-  onEdit,
-  onDelete,
 }) => {
   const [copied, setCopied] = useState(false);
-  const [confirmDelete, setConfirmDelete] = useState(false);
 
   if (!verbete) return null;
 
@@ -179,55 +170,9 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             <span className="px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-100 text-slate-800 border border-slate-200">
               {verbete.category}
             </span>
-            {verbete.isAiGenerated && (
-              <span className="hidden sm:inline-flex items-center space-x-1 px-2.5 py-1 rounded-lg text-xs font-bold bg-amber-100 text-amber-900 border border-amber-300">
-                <Sparkles className="w-3.5 h-3.5 text-amber-600" />
-                <span>Enriquecido por IA</span>
-              </span>
-            )}
           </div>
 
           <div className="flex items-center space-x-2 shrink-0">
-            {isAdmin && (
-              <div className="flex items-center space-x-1.5 mr-1 pr-2 border-r border-slate-200">
-                <button
-                  onClick={() => {
-                    if (onEdit) onEdit(verbete);
-                  }}
-                  className="px-3 py-1.5 rounded-xl bg-amber-100 text-amber-900 hover:bg-amber-200 border border-amber-300 transition cursor-pointer text-xs font-bold flex items-center space-x-1"
-                  title="Editar verbete"
-                >
-                  <Edit3 className="w-4 h-4 text-amber-800" />
-                  <span className="hidden sm:inline">Editar</span>
-                </button>
-                {confirmDelete ? (
-                  <button
-                    onClick={() => {
-                      if (onDelete) onDelete(verbete.id);
-                      onClose();
-                    }}
-                    className="px-3 py-1.5 rounded-xl bg-rose-600 hover:bg-rose-700 text-white transition cursor-pointer text-xs font-extrabold flex items-center space-x-1 animate-pulse"
-                    title="Confirmar exclusão definitiva"
-                  >
-                    <Trash2 className="w-4 h-4 text-white" />
-                    <span>Confirmar Exclusão?</span>
-                  </button>
-                ) : (
-                  <button
-                    onClick={() => {
-                      setConfirmDelete(true);
-                      setTimeout(() => setConfirmDelete(false), 4000);
-                    }}
-                    className="px-3 py-1.5 rounded-xl bg-rose-100 text-rose-900 hover:bg-rose-200 border border-rose-300 transition cursor-pointer text-xs font-bold flex items-center space-x-1"
-                    title="Excluir verbete"
-                  >
-                    <Trash2 className="w-4 h-4 text-rose-700" />
-                    <span className="hidden sm:inline">Excluir</span>
-                  </button>
-                )}
-              </div>
-            )}
-
             <button
               onClick={(e) => onToggleFavorite(verbete.id, e)}
               className="p-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-600 hover:text-amber-500 transition cursor-pointer"

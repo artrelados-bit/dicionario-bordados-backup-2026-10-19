@@ -1,26 +1,19 @@
 import React from "react";
-import { Star, Copy, Check, ChevronRight, Edit3, Trash2 } from "lucide-react";
+import { Star, Copy, Check, ChevronRight } from "lucide-react";
 import { Verbete } from "../types";
 
 interface VerbeteRowProps {
   verbete: Verbete;
   onSelect: (verbete: Verbete) => void;
   onToggleFavorite: (id: string, e: React.MouseEvent) => void;
-  isAdmin?: boolean;
-  onEdit?: (verbete: Verbete, e: React.MouseEvent) => void;
-  onDelete?: (id: string, e: React.MouseEvent) => void;
 }
 
 export const VerbeteRow: React.FC<VerbeteRowProps> = ({
   verbete,
   onSelect,
   onToggleFavorite,
-  isAdmin = false,
-  onEdit,
-  onDelete,
 }) => {
   const [copied, setCopied] = React.useState(false);
-  const [confirmDelete, setConfirmDelete] = React.useState(false);
 
   // Guarantee code is never missing
   const displayCode =
@@ -34,22 +27,6 @@ export const VerbeteRow: React.FC<VerbeteRowProps> = ({
     navigator.clipboard.writeText(textToCopy);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
-  };
-
-  const handleEdit = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    if (onEdit) onEdit(verbete, e);
-  };
-
-  const handleDelete = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    if (!confirmDelete) {
-      setConfirmDelete(true);
-      setTimeout(() => setConfirmDelete(false), 4000);
-    } else {
-      setConfirmDelete(false);
-      if (onDelete) onDelete(verbete.id, e);
-    }
   };
 
   return (
@@ -87,38 +64,6 @@ export const VerbeteRow: React.FC<VerbeteRowProps> = ({
 
       {/* Action Buttons */}
       <div className="flex items-center space-x-1 shrink-0 self-end sm:self-start pt-1">
-        {isAdmin && (
-          <div className="flex items-center space-x-1 mr-1 pr-2 border-r border-slate-200">
-            <button
-              onClick={handleEdit}
-              className="p-1.5 rounded-lg bg-amber-100 text-amber-900 hover:bg-amber-200 border border-amber-300 transition cursor-pointer text-xs font-bold flex items-center space-x-1"
-              title="Editar verbete"
-            >
-              <Edit3 className="w-3.5 h-3.5 text-amber-800" />
-              <span className="hidden sm:inline">Editar</span>
-            </button>
-
-            {confirmDelete ? (
-              <button
-                onClick={handleDelete}
-                className="px-2.5 py-1.5 rounded-lg bg-rose-600 hover:bg-rose-700 text-white font-extrabold text-xs shadow-sm transition animate-pulse flex items-center space-x-1 cursor-pointer"
-                title="Clique novamente para confirmar a exclusão"
-              >
-                <Trash2 className="w-3.5 h-3.5 text-white" />
-                <span>Excluir?</span>
-              </button>
-            ) : (
-              <button
-                onClick={handleDelete}
-                className="p-1.5 rounded-lg bg-rose-100 text-rose-900 hover:bg-rose-200 border border-rose-300 transition cursor-pointer text-xs font-bold"
-                title="Excluir verbete"
-              >
-                <Trash2 className="w-3.5 h-3.5 text-rose-700" />
-              </button>
-            )}
-          </div>
-        )}
-
         <button
           onClick={handleCopy}
           className="p-1.5 rounded-lg text-slate-400 hover:text-slate-800 hover:bg-slate-200/60 transition cursor-pointer"
