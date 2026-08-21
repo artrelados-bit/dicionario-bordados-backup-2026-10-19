@@ -1,5 +1,5 @@
 import React from "react";
-import { Search, X, Star, Sparkles, LayoutList, LayoutGrid } from "lucide-react";
+import { Search, X, Star, LayoutList, LayoutGrid } from "lucide-react";
 import { VerbeteCategory } from "../types";
 
 interface FilterBarProps {
@@ -122,18 +122,6 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           >
             <Star className={`w-3.5 h-3.5 ${onlyFavorites ? "fill-amber-500 text-amber-500" : ""}`} />
             <span>Favoritos</span>
-          </button>
-
-          <button
-            onClick={() => setOnlyAiGenerated(!onlyAiGenerated)}
-            className={`flex items-center space-x-1.5 px-3 py-2 rounded-xl text-xs font-bold border transition cursor-pointer ${
-              onlyAiGenerated
-                ? "bg-amber-100 text-amber-900 border-amber-300 shadow-xs"
-                : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
-            }`}
-          >
-            <Sparkles className="w-3.5 h-3.5 text-amber-600" />
-            <span>IA</span>
           </button>
         </div>
       </div>

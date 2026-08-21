@@ -11,12 +11,10 @@ import { VerbeteRow } from "./components/VerbeteRow";
 import { VerbeteDetailModal } from "./components/VerbeteDetailModal";
 import { EditVerbeteModal } from "./components/EditVerbeteModal";
 import { TroubleshootingView } from "./components/TroubleshootingView";
-import { AiTermExpanderView } from "./components/AiTermExpanderView";
-import { DocumentImporterView } from "./components/DocumentImporterView";
 import { FooterBar } from "./components/FooterBar";
 import { Verbete, VerbeteCategory, TroubleshootingGuide, DictionaryStats } from "./types";
 import { INITIAL_VERBETES, INITIAL_TROUBLESHOOTING_GUIDES } from "./data/initialDictionary";
-import { BookOpen, Sparkles, Star, Wrench, FileText, Plus, Check } from "lucide-react";
+import { BookOpen, Search } from "lucide-react";
 
 // Helper to sort verbetes in ascending order by code (e.g. A-001, A-002, A-003, A-026)
 export function sortVerbetesByCode(list: Verbete[]): Verbete[] {
@@ -211,7 +209,7 @@ function sanitizeVerbetesList(list: Verbete[]): Verbete[] {
 
 export default function App() {
   // Navigation tab state
-  const [activeTab, setActiveTab] = useState<"dictionary" | "troubleshooting" | "favorites" | "ai-expander">("dictionary");
+  const [activeTab, setActiveTab] = useState<"dictionary" | "troubleshooting" | "favorites">("dictionary");
 
   // Admin / Editor Mode State (Default true so Janete has full edit/delete control right away)
   const [isAdmin, setIsAdmin] = useState<boolean>(true);
@@ -275,80 +273,6 @@ export default function App() {
 
   // Selected Verbete Modal State
   const [selectedVerbete, setSelectedVerbete] = useState<Verbete | null>(null);
-
-  // Auto-generate state for direct 1-click addition without requiring review
-  const [isAutoGenerating, setIsAutoGenerating] = useState(false);
-  const [autoGenError, setAutoGenError] = useState<string | null>(null);
-
-  // Automatic technical generation and insertion for colloquial search terms
-  const handleAutoGenerateAndInsert = async (colloquialTerm: string) => {
-    if (!colloquialTerm.trim() || isAutoGenerating) return;
-
-    setIsAutoGenerating(true);
-    setAutoGenError(null);
-
-    try {
-      const res = await fetch("/api/gemini/expand-term", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          termName: colloquialTerm.trim(),
-          category: "Pontos Básicos & Decorativos",
-          contextPrompt: "A bordadeira buscou um termo coloquial ou informal. Como especialista do DIBE Artrelados, traduza para o conceito técnico oficial formal do bordado computadorizado, estruture com rigor todas as 16 designações do DIBE e entregue o verbete 100% pronto, revisado e finalizado.",
-        }),
-      });
-
-      const data = await res.json();
-      if (!data.success) {
-        throw new Error(data.error || "Não foi possível gerar o verbete automaticamente.");
-      }
-
-      const raw = data.verbete;
-      const cleanTerm = raw.term || colloquialTerm.trim();
-      const firstLetter = cleanTerm.trim().charAt(0).toUpperCase();
-
-      const newVerbete: Verbete = {
-        id: "ai-" + Date.now(),
-        code: raw.code || `${firstLetter}-${Math.floor(100 + Math.random() * 900)}`,
-        term: cleanTerm,
-        level: raw.level || "Intermediário 🟡",
-        grammarClass: raw.grammarClass || "Substantivo masculino.",
-        origin: raw.origin || "Termo técnico consolidado no bordado eletrônico.",
-        pronunciation: raw.pronunciation,
-        category: raw.category || "Pontos Básicos & Decorativos",
-        summary: raw.summary || "",
-        definition: raw.definition || "",
-        technicalDetails: raw.technicalDetails || "",
-        beginnerExplanation: raw.beginnerExplanation || "",
-        characteristics: raw.characteristics || [],
-        dicaArtrelados: raw.dicaArtrelados || undefined,
-        voceSabia: raw.voceSabia || undefined,
-        practicalExercise: raw.practicalExercise || undefined,
-        quickSummary: raw.quickSummary || raw.summary || undefined,
-        advantages: raw.advantages || [],
-        limitations: raw.limitations || [],
-        commonErrors: raw.commonErrors || [],
-        recommendedSettings: raw.recommendedSettings,
-        applications: raw.applications || [],
-        troubleshootingTips: raw.troubleshootingTips || [],
-        relatedTerms: raw.relatedTerms || [],
-        tags: raw.tags || ["ia", "artrelados", colloquialTerm.toLowerCase().trim()],
-        isAiGenerated: true,
-        updatedAt: new Date().toISOString().split("T")[0],
-      };
-
-      // Automatically add to collection
-      setVerbetes((prev) => [newVerbete, ...prev]);
-
-      // Reset search query and open the ready-made modal immediately for the bordadeira to read
-      setSearchQuery("");
-      setSelectedVerbete(newVerbete);
-    } catch (err: any) {
-      setAutoGenError(err.message || "Erro ao gerar verbete com IA.");
-    } finally {
-      setIsAutoGenerating(false);
-    }
-  };
 
   // Save verbetes to localStorage whenever updated
   useEffect(() => {
@@ -667,11 +591,7 @@ export default function App() {
             ) : (
               <div className="bg-white border border-slate-200 rounded-3xl p-8 sm:p-12 text-center space-y-5 shadow-sm max-w-2xl mx-auto">
                 <div className="w-14 h-14 rounded-2xl bg-amber-100 text-amber-800 flex items-center justify-center mx-auto border border-amber-200 shadow-inner">
-                  {isAutoGenerating ? (
-                    <div className="w-6 h-6 border-3 border-amber-600 border-t-transparent rounded-full animate-spin" />
-                  ) : (
-                    <Sparkles className="w-7 h-7 text-amber-600" />
-                  )}
+                  <Search className="w-7 h-7 text-amber-700" />
                 </div>
                 <div className="space-y-2">
                   <h3 className="text-xl sm:text-2xl font-black text-slate-900">
@@ -681,44 +601,18 @@ export default function App() {
                   </h3>
                   <p className="text-slate-600 text-xs sm:text-sm font-medium leading-relaxed">
                     {searchQuery.trim()
-                      ? `A Inteligência Artificial Artrelados pode transformar "${searchQuery.trim()}" em um verbete técnico oficial completo com as 16 designações do DIBE e adicioná-lo imediatamente ao acervo para você.`
-                      : "Tente limpar os filtros ou digitar o nome de um ponto, dúvida ou técnica na barra de busca."}
+                      ? `Não encontramos nenhum termo correspondente a "${searchQuery.trim()}". Tente buscar por sinônimos ou conferir a ortografia.`
+                      : "Tente limpar os filtros ou selecionar outra letra no índice alfabético."}
                   </p>
                 </div>
 
-                {autoGenError && (
-                  <div className="p-3 rounded-xl bg-red-50 border border-red-200 text-red-700 text-xs font-bold text-center">
-                    {autoGenError}
-                  </div>
-                )}
-
                 <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
-                  {searchQuery.trim() && (
-                    <button
-                      disabled={isAutoGenerating}
-                      onClick={() => handleAutoGenerateAndInsert(searchQuery)}
-                      className="px-6 py-3.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-xs sm:text-sm inline-flex items-center space-x-2 transition shadow-md hover:shadow cursor-pointer disabled:opacity-50"
-                    >
-                      {isAutoGenerating ? (
-                        <>
-                          <div className="w-4 h-4 border-2 border-slate-950 border-t-transparent rounded-full animate-spin" />
-                          <span>Estruturando e Adicionando Verbete...</span>
-                        </>
-                      ) : (
-                        <>
-                          <Sparkles className="w-4 h-4 fill-slate-950" />
-                          <span>Adicionar Verbete Automaticamente (16 Designações)</span>
-                        </>
-                      )}
-                    </button>
-                  )}
                   <button
                     onClick={handleResetFilters}
-                    disabled={isAutoGenerating}
-                    className="px-5 py-3.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-xs sm:text-sm inline-flex items-center space-x-2 transition border border-slate-300 cursor-pointer disabled:opacity-50"
+                    className="px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs sm:text-sm inline-flex items-center space-x-2 transition shadow-xs cursor-pointer"
                   >
-                    <BookOpen className="w-4 h-4 text-slate-600" />
-                    <span>Ver Todos os Verbetes</span>
+                    <BookOpen className="w-4 h-4 text-amber-400" />
+                    <span>Limpar Filtros e Ver Todos os Verbetes</span>
                   </button>
                 </div>
               </div>
@@ -730,16 +624,6 @@ export default function App() {
         {activeTab === "troubleshooting" && (
           <TroubleshootingView guides={troubleshootingGuides} />
         )}
-
-        {/* AI Generator & Expander View */}
-        {activeTab === "ai-expander" && (
-          <AiTermExpanderView
-            onAddVerbete={handleAddVerbete}
-            existingVerbetes={verbetes}
-            initialTerm={searchQuery.trim()}
-            onClearInitialTerm={() => setSearchQuery("")}
-          />
-        )}
       </main>
 
       {/* Verbete Detail Modal */}
@@ -748,7 +632,6 @@ export default function App() {
         onClose={() => setSelectedVerbete(null)}
         onToggleFavorite={handleToggleFavorite}
         onSelectRelatedTerm={handleSelectRelatedTerm}
-        onAskAiToElaborate={handleAskAiToElaborate}
         isAdmin={isAdmin}
         onEdit={(verbete) => {
           setSelectedVerbete(null);

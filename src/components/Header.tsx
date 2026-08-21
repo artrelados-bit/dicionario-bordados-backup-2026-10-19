@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { BookOpen, Wrench, Star, Sparkles, FileText, BookmarkCheck, RotateCcw, Lock, Unlock, ShieldAlert, Plus } from "lucide-react";
+import { BookOpen, Wrench, Star, BookmarkCheck, RotateCcw, Lock, Unlock, ShieldAlert, Plus } from "lucide-react";
 import { DictionaryStats } from "../types";
 
 interface HeaderProps {
-  activeTab: "dictionary" | "troubleshooting" | "favorites" | "ai-expander";
-  setActiveTab: (tab: "dictionary" | "troubleshooting" | "favorites" | "ai-expander") => void;
+  activeTab: "dictionary" | "troubleshooting" | "favorites";
+  setActiveTab: (tab: "dictionary" | "troubleshooting" | "favorites") => void;
   stats: DictionaryStats;
   onResetFilters?: () => void;
   isAdmin: boolean;
@@ -121,18 +121,6 @@ export const Header: React.FC<HeaderProps> = ({
           >
             <Star className="w-4 h-4 text-amber-400 fill-amber-400" />
             <span>3. Meus Favoritos ({stats.totalFavorites})</span>
-          </button>
-
-          <button
-            onClick={() => setActiveTab("ai-expander")}
-            className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-black transition-all whitespace-nowrap cursor-pointer shadow-xs ${
-              activeTab === "ai-expander"
-                ? "bg-slate-950 text-amber-300 border-2 border-amber-300 shadow-md scale-102"
-                : "bg-slate-950/90 text-amber-300/80 hover:text-amber-300 hover:bg-slate-950 border border-slate-900"
-            }`}
-          >
-            <Sparkles className="w-4 h-4 text-amber-400" />
-            <span>4. Gerador IA</span>
           </button>
         </nav>
       </div>

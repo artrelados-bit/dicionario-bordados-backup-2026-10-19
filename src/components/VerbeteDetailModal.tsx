@@ -685,18 +685,10 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
         </div>
 
         {/* Modal Footer Actions */}
-        <div className="sticky bottom-0 bg-white border-t border-slate-200 p-4 sm:p-5 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <button
-            onClick={() => onAskAiToElaborate && onAskAiToElaborate(verbete)}
-            className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-[#101726] hover:bg-slate-800 text-white font-extrabold text-xs sm:text-sm flex items-center justify-center space-x-2 shadow-md transition cursor-pointer"
-          >
-            <Sparkles className="w-4 h-4 text-amber-400" />
-            <span>Expandir ou Tirar Dúvidas com IA</span>
-          </button>
-
+        <div className="sticky bottom-0 bg-white border-t border-slate-200 p-4 sm:p-5 flex items-center justify-end">
           <button
             onClick={onClose}
-            className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs sm:text-sm font-bold transition cursor-pointer"
+            className="w-full sm:w-auto px-6 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white text-xs sm:text-sm font-bold transition cursor-pointer shadow-sm"
           >
             Fechar
           </button>
