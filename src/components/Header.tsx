@@ -3,8 +3,8 @@ import { BookOpen, Wrench, Star, Sparkles, FileText, BookmarkCheck, RotateCcw, L
 import { DictionaryStats } from "../types";
 
 interface HeaderProps {
-  activeTab: "dictionary" | "troubleshooting" | "favorites" | "ai-expander" | "importer";
-  setActiveTab: (tab: "dictionary" | "troubleshooting" | "favorites" | "ai-expander" | "importer") => void;
+  activeTab: "dictionary" | "troubleshooting" | "favorites" | "ai-expander";
+  setActiveTab: (tab: "dictionary" | "troubleshooting" | "favorites" | "ai-expander") => void;
   stats: DictionaryStats;
   onResetFilters?: () => void;
   isAdmin: boolean;
@@ -133,18 +133,6 @@ export const Header: React.FC<HeaderProps> = ({
           >
             <Sparkles className="w-4 h-4 text-amber-400" />
             <span>4. Gerador IA</span>
-          </button>
-
-          <button
-            onClick={() => setActiveTab("importer")}
-            className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-black transition-all whitespace-nowrap cursor-pointer shadow-xs ${
-              activeTab === "importer"
-                ? "bg-slate-950 text-amber-300 border-2 border-amber-300 shadow-md scale-102"
-                : "bg-slate-950/90 text-amber-300/80 hover:text-amber-300 hover:bg-slate-950 border border-slate-900"
-            }`}
-          >
-            <FileText className="w-4 h-4 text-amber-400" />
-            <span>5. Importar Word (500+ pág.)</span>
           </button>
         </nav>
       </div>

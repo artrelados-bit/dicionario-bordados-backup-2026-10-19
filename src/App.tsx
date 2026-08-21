@@ -211,7 +211,7 @@ function sanitizeVerbetesList(list: Verbete[]): Verbete[] {
 
 export default function App() {
   // Navigation tab state
-  const [activeTab, setActiveTab] = useState<"dictionary" | "troubleshooting" | "favorites" | "ai-expander" | "importer">("dictionary");
+  const [activeTab, setActiveTab] = useState<"dictionary" | "troubleshooting" | "favorites" | "ai-expander">("dictionary");
 
   // Admin / Editor Mode State (Default true so Janete has full edit/delete control right away)
   const [isAdmin, setIsAdmin] = useState<boolean>(true);
@@ -738,14 +738,6 @@ export default function App() {
             existingVerbetes={verbetes}
             initialTerm={searchQuery.trim()}
             onClearInitialTerm={() => setSearchQuery("")}
-          />
-        )}
-
-        {/* Word Document Importer View */}
-        {activeTab === "importer" && (
-          <DocumentImporterView
-            onImportVerbetes={handleImportVerbetes}
-            existingVerbetes={verbetes}
           />
         )}
       </main>
