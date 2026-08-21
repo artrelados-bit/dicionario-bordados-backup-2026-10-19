@@ -1,0 +1,24 @@
+import { Verbete } from "../types";
+import { VERBETES_LETTER_I_PART1 } from "./verbetesLetterI1";
+import { VERBETES_LETTER_I_PART2 } from "./verbetesLetterI2";
+import { VERBETES_LETTER_I_PART3 } from "./verbetesLetterI3";
+import { VERBETES_LETTER_I_PART4 } from "./verbetesLetterI4";
+import { VERBETES_LETTER_I_PART5 } from "./verbetesLetterI5";
+import { VERBETES_LETTER_I_PART6 } from "./verbetesLetterI6";
+import { VERBETES_LETTER_I_PART7 } from "./verbetesLetterI7";
+import { VERBETES_LETTER_I_PART8 } from "./verbetesLetterI8";
+import { VERBETES_LETTER_I_PART9 } from "./verbetesLetterI9";
+import { VERBETES_LETTER_I_PART10 } from "./verbetesLetterI10";
+
+export const VERBETES_LETTER_I: Verbete[] = [
+  ...VERBETES_LETTER_I_PART1,
+  ...VERBETES_LETTER_I_PART2,
+  ...VERBETES_LETTER_I_PART3,
+  ...VERBETES_LETTER_I_PART4,
+  ...VERBETES_LETTER_I_PART5,
+  ...VERBETES_LETTER_I_PART6,
+  ...VERBETES_LETTER_I_PART7,
+  ...VERBETES_LETTER_I_PART8,
+  ...VERBETES_LETTER_I_PART9,
+  ...VERBETES_LETTER_I_PART10,
+];

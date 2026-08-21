@@ -1,0 +1,6 @@
+{
+  "name": "Dicionário de Bordados Artrelados",
+  "description": "Aplicativo de acervo e dicionário técnico para bordados eletrônicos com busca rápida, filtros por categoria, favoritos, guias de resolução de problemas, importador de documentos Word e gerador de verbetes alimentado por IA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
