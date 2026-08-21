@@ -450,68 +450,101 @@ export default function App() {
     setOnlyAiGenerated(false);
   };
 
-  // Filtered Verbetes Logic
+  // Filtered Verbetes Logic with Intelligent Relevance Ranking
   const filteredVerbetes = useMemo(() => {
-    const list = verbetes.filter((v) => {
+    const query = searchQuery.trim();
+    const normalize = (str: string) =>
+      str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
+    const rawQ = normalize(query);
+
+    const scoredList: { verbete: Verbete; score: number }[] = [];
+
+    verbetes.forEach((v) => {
       if (activeTab === "favorites" && !v.isFavorite) {
-        return false;
+        return;
       }
 
-      if (onlyFavorites && !v.isFavorite) return false;
-      if (onlyAiGenerated && !v.isAiGenerated) return false;
+      if (onlyFavorites && !v.isFavorite) return;
+      if (onlyAiGenerated && !v.isAiGenerated) return;
 
       if (selectedCategory !== "Todos" && v.category !== selectedCategory) {
-        return false;
+        return;
       }
 
-      if (selectedLetter !== "Todos") {
+      // If there is no search query, filter strictly by selected letter
+      if (!query && selectedLetter !== "Todos") {
         const verbeteLetter = (v.letter || (v.code ? v.code.charAt(0) : v.term.charAt(0))).toUpperCase();
-        if (verbeteLetter !== selectedLetter) return false;
+        if (verbeteLetter !== selectedLetter) return;
       }
 
-      if (searchQuery.trim()) {
-        const normalize = (str: string) =>
-          str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      if (query) {
+        const termNorm = normalize(v.term);
+        const codeNorm = normalize(v.code || "");
+        const summaryNorm = normalize(v.summary || "");
+        const definitionNorm = normalize(v.definition || "");
+        const techNorm = normalize(v.technicalDetails || "");
+        const tagsNorm = normalize((v.tags || []).join(" "));
+        const appsNorm = normalize((v.applications || []).join(" "));
 
-        const rawQ = normalize(searchQuery.trim());
+        const fullContent = `${codeNorm} ${termNorm} ${summaryNorm} ${definitionNorm} ${techNorm} ${tagsNorm} ${appsNorm}`;
 
-        const fullContent = normalize(
-          [
-            v.code || "",
-            v.term,
-            v.summary,
-            v.definition,
-            v.technicalDetails || "",
-            ...(v.tags || []),
-            ...(v.applications || []),
-          ].join(" ")
-        );
+        let score = 0;
 
-        // 1. Direct phrase match anywhere in the verbete
-        if (fullContent.includes(rawQ)) {
-          return true;
+        // Exact match in code or term
+        if (codeNorm === rawQ || termNorm === rawQ) {
+          score += 2000;
+        } else if (termNorm.startsWith(rawQ)) {
+          score += 1500;
+        } else if (new RegExp(`\\b${rawQ}\\b`, "i").test(termNorm)) {
+          score += 1200;
+        } else if (termNorm.includes(rawQ)) {
+          score += 800;
+        } else if (tagsNorm.includes(rawQ)) {
+          score += 500;
+        } else if (summaryNorm.includes(rawQ)) {
+          score += 300;
+        } else if (fullContent.includes(rawQ)) {
+          score += 150;
+        } else {
+          // Word-by-word flexible match (e.g. 'matriz bordado')
+          const stopWords = new Set(["de", "da", "do", "das", "dos", "em", "para", "com", "por", "que", "os", "as", "um", "uma", "tipos", "tipo"]);
+          const words = rawQ.split(/\s+/).filter((w) => w.length > 0);
+          const keyWords = words.filter((w) => !stopWords.has(w) && w.length > 2);
+          const searchWords = keyWords.length > 0 ? keyWords : words;
+
+          const matchesAllWords = searchWords.every((word) => fullContent.includes(word));
+          const matchesAnyWordInTitleOrTags = searchWords.some((word) =>
+            `${termNorm} ${tagsNorm}`.includes(word)
+          );
+
+          if (matchesAllWords) {
+            score += 100;
+          } else if (matchesAnyWordInTitleOrTags) {
+            score += 50;
+          } else {
+            return; // Not matching
+          }
         }
 
-        // 2. Word-by-word flexible match (e.g. 'tipos de arremates')
-        const stopWords = new Set(["de", "da", "do", "das", "dos", "em", "para", "com", "por", "que", "os", "as", "um", "uma", "tipos", "tipo"]);
-        const words = rawQ.split(/\s+/).filter((w) => w.length > 0);
-        const keyWords = words.filter((w) => !stopWords.has(w) && w.length > 2);
-        const searchWords = keyWords.length > 0 ? keyWords : words;
-
-        const matchesAllWords = searchWords.every((word) => fullContent.includes(word));
-        const matchesAnyWordInTitleOrTags = searchWords.some((word) =>
-          normalize([v.term, ...(v.tags || [])].join(" ")).includes(word)
-        );
-
-        if (!matchesAllWords && !matchesAnyWordInTitleOrTags) {
-          return false;
-        }
+        scoredList.push({ verbete: v, score });
+      } else {
+        scoredList.push({ verbete: v, score: 0 });
       }
-
-      return true;
     });
 
-    return sortVerbetesByCode(list);
+    if (query) {
+      // Sort by relevance score descending, then by code
+      scoredList.sort((a, b) => {
+        if (b.score !== a.score) {
+          return b.score - a.score;
+        }
+        return (a.verbete.code || "").localeCompare(b.verbete.code || "", "pt-BR", { numeric: true });
+      });
+      return scoredList.map((item) => item.verbete);
+    }
+
+    return sortVerbetesByCode(scoredList.map((item) => item.verbete));
   }, [
     verbetes,
     activeTab,
