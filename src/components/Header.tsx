@@ -17,14 +17,6 @@ export const Header: React.FC<HeaderProps> = ({
 }) => {
   return (
     <header className="dibe-header-yellow bg-[#F9BC06] text-slate-950 border-b-4 border-[#E0A200] shadow-xl relative overflow-hidden">
-      {/* Subtle top banner ribbon like the book cover */}
-      <div className="absolute top-0 left-4 sm:left-8 flex flex-col items-center bg-[#1E1B18] text-[#F9BC06] px-3 py-2 rounded-b-md shadow-md border-x border-b border-[#3D352E] z-10">
-        <span className="text-[9px] font-black tracking-widest text-[#F9BC06]">👑</span>
-        <span className="text-[8px] font-black tracking-widest text-[#F9BC06] uppercase mt-0.5">INSPIRAR</span>
-        <span className="text-[8px] font-black tracking-widest text-[#F9BC06] uppercase">BORDAR</span>
-        <span className="text-[8px] font-black tracking-widest text-[#F9BC06] uppercase">CRIAR</span>
-      </div>
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-4 sm:pt-5 sm:pb-4.5">
         {/* Title & Byline - Centered Original DIBE Identity */}
         <div className="my-1 text-center">

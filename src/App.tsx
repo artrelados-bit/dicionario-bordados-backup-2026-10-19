@@ -214,31 +214,57 @@ export default function App() {
   // Main Verbetes Database State (persisted in localStorage with auto-merge of initial verbetes)
   const [verbetes, setVerbetes] = useState<Verbete[]>(() => {
     try {
-      const saved = localStorage.getItem("artrelados_verbetes_v1");
-      if (saved) {
-        const parsed = JSON.parse(saved);
-        if (Array.isArray(parsed) && parsed.length > 0) {
-          return sanitizeVerbetesList(parsed);
+      const savedCustom = localStorage.getItem("artrelados_custom_verbetes_v1");
+      const savedFavorites = localStorage.getItem("artrelados_favorite_ids_v1");
+      const favoriteIds = new Set<string>(savedFavorites ? JSON.parse(savedFavorites) : []);
+
+      let customList: Verbete[] = [];
+      if (savedCustom) {
+        const parsed = JSON.parse(savedCustom);
+        if (Array.isArray(parsed)) {
+          customList = parsed;
         }
       }
+
+      // Legacy fallback check
+      if (customList.length === 0) {
+        const legacySaved = localStorage.getItem("artrelados_verbetes_v1");
+        if (legacySaved) {
+          const parsedLegacy = JSON.parse(legacySaved);
+          if (Array.isArray(parsedLegacy) && parsedLegacy.length > 0) {
+            // Keep only user-generated / custom verbetes from legacy storage
+            const initialIds = new Set(INITIAL_VERBETES.map((v) => v.id));
+            customList = parsedLegacy.filter((v) => !initialIds.has(v.id));
+          }
+        }
+      }
+
+      const merged = sanitizeVerbetesList([...INITIAL_VERBETES, ...customList]);
+      return merged.map((v) => ({
+        ...v,
+        isFavorite: favoriteIds.has(v.id) || v.isFavorite || false,
+      }));
     } catch (e) {
       console.error("Erro ao carregar do localStorage", e);
     }
     return INITIAL_VERBETES;
   });
 
-  // Force sanitize state on mount to purge any old cached fragments
+  // Save only custom verbetes and favorites to localStorage to avoid quota errors
   useEffect(() => {
-    setVerbetes((prev) => {
-      const sanitized = sanitizeVerbetesList(prev);
-      try {
-        localStorage.setItem("artrelados_verbetes_v1", JSON.stringify(sanitized));
-      } catch (e) {
-        console.error("Erro ao salvar verbetes higienizados", e);
-      }
-      return sanitized;
-    });
-  }, []);
+    try {
+      const initialIds = new Set(INITIAL_VERBETES.map((v) => v.id));
+      const customVerbetes = verbetes.filter((v) => !initialIds.has(v.id));
+      const favoriteIds = verbetes.filter((v) => v.isFavorite).map((v) => v.id);
+
+      localStorage.setItem("artrelados_custom_verbetes_v1", JSON.stringify(customVerbetes));
+      localStorage.setItem("artrelados_favorite_ids_v1", JSON.stringify(favoriteIds));
+      // Remove legacy heavy key if exists
+      localStorage.removeItem("artrelados_verbetes_v1");
+    } catch (e) {
+      console.error("Erro ao salvar custom verbetes", e);
+    }
+  }, [verbetes]);
 
   // Troubleshooting Guides State
   const [troubleshootingGuides, setTroubleshootingGuides] = useState<TroubleshootingGuide[]>(() => {
@@ -310,15 +336,6 @@ export default function App() {
 
   // Selected Verbete Modal State
   const [selectedVerbete, setSelectedVerbete] = useState<Verbete | null>(null);
-
-  // Save verbetes to localStorage whenever updated
-  useEffect(() => {
-    try {
-      localStorage.setItem("artrelados_verbetes_v1", JSON.stringify(verbetes));
-    } catch (e) {
-      console.error("Erro ao salvar verbetes", e);
-    }
-  }, [verbetes]);
 
   // Save troubleshooting guides
   useEffect(() => {
