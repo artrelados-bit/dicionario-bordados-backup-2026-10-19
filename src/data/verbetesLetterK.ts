@@ -9,6 +9,7 @@ import { VERBETES_LETTER_K_PART7 } from "./verbetesLetterK7";
 import { VERBETES_LETTER_K_PART8 } from "./verbetesLetterK8";
 import { VERBETES_LETTER_K_PART9 } from "./verbetesLetterK9";
 import { VERBETES_LETTER_K_PART10 } from "./verbetesLetterK10";
+import { VERBETES_LETTER_K_PART11 } from "./verbetesLetterK11";
 
 export const VERBETES_LETTER_K: Verbete[] = [
   ...VERBETES_LETTER_K_PART1,
@@ -20,5 +21,6 @@ export const VERBETES_LETTER_K: Verbete[] = [
   ...VERBETES_LETTER_K_PART7,
   ...VERBETES_LETTER_K_PART8,
   ...VERBETES_LETTER_K_PART9,
-  ...VERBETES_LETTER_K_PART10
+  ...VERBETES_LETTER_K_PART10,
+  ...VERBETES_LETTER_K_PART11,
 ];
