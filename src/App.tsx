@@ -10,8 +10,9 @@ import { VerbeteCard } from "./components/VerbeteCard";
 import { VerbeteRow } from "./components/VerbeteRow";
 import { VerbeteDetailModal } from "./components/VerbeteDetailModal";
 import { TroubleshootingView } from "./components/TroubleshootingView";
+import { FavoritesView } from "./components/FavoritesView";
 import { FooterBar } from "./components/FooterBar";
-import { Verbete, VerbeteCategory, TroubleshootingGuide, DictionaryStats } from "./types";
+import { Verbete, VerbeteCategory, TroubleshootingGuide, DictionaryStats, SavedDiagnostic } from "./types";
 import { INITIAL_VERBETES, INITIAL_TROUBLESHOOTING_GUIDES } from "./data/initialDictionary";
 import { BookOpen, Search } from "lucide-react";
 
@@ -255,6 +256,50 @@ export default function App() {
     return INITIAL_TROUBLESHOOTING_GUIDES;
   });
 
+  // Saved Diagnostics State (for favorited custom troubleshooting reports)
+  const [savedDiagnostics, setSavedDiagnostics] = useState<SavedDiagnostic[]>(() => {
+    try {
+      const saved = localStorage.getItem("artrelados_saved_diagnostics_v1");
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed)) {
+          return parsed;
+        }
+      }
+    } catch (e) {
+      console.error("Erro ao carregar diagnósticos salvos", e);
+    }
+    return [];
+  });
+
+  // Save saved diagnostics to localStorage
+  useEffect(() => {
+    try {
+      localStorage.setItem("artrelados_saved_diagnostics_v1", JSON.stringify(savedDiagnostics));
+    } catch (e) {
+      console.error("Erro ao salvar diagnósticos", e);
+    }
+  }, [savedDiagnostics]);
+
+  // Toggle Save Diagnostic Handler
+  const handleToggleSaveDiagnostic = (diagnostic: SavedDiagnostic) => {
+    setSavedDiagnostics((prev) => {
+      const exists = prev.some(
+        (d) => d.title === diagnostic.title && d.problemDescription === diagnostic.problemDescription
+      );
+      if (exists) {
+        return prev.filter(
+          (d) => !(d.title === diagnostic.title && d.problemDescription === diagnostic.problemDescription)
+        );
+      }
+      return [diagnostic, ...prev];
+    });
+  };
+
+  const handleDeleteDiagnostic = (id: string) => {
+    setSavedDiagnostics((prev) => prev.filter((d) => d.id !== id));
+  };
+
   // Filter States
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<VerbeteCategory>("Todos");
@@ -429,10 +474,15 @@ export default function App() {
     return {
       totalTerms: verbetes.length,
       totalCategories: categoriesSet.size,
-      totalFavorites: verbetes.filter((v) => v.isFavorite).length,
+      totalFavorites: verbetes.filter((v) => v.isFavorite).length + savedDiagnostics.length,
       totalAiGenerated: verbetes.filter((v) => v.isAiGenerated).length,
       lastUpdated: new Date().toISOString().split("T")[0],
     };
+  }, [verbetes, savedDiagnostics]);
+
+  // Favorite verbetes list
+  const favoriteVerbetes = useMemo(() => {
+    return sortVerbetesByCode(verbetes.filter((v) => v.isFavorite));
   }, [verbetes]);
 
   // Reset filters & ensure active dictionary view
@@ -460,8 +510,8 @@ export default function App() {
 
       {/* Main Container */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
-        {/* Main Acervo / Dictionary Tab */}
-        {(activeTab === "dictionary" || activeTab === "favorites") && (
+        {/* TAB 1: Main Acervo / Dictionary Tab */}
+        {activeTab === "dictionary" && (
           <div className="space-y-6">
             {/* Filter and Search Bar */}
             <FilterBar
@@ -537,9 +587,28 @@ export default function App() {
           </div>
         )}
 
-        {/* Troubleshooting Offline View */}
+        {/* TAB 2: Troubleshooting Offline View */}
         {activeTab === "troubleshooting" && (
-          <TroubleshootingView guides={troubleshootingGuides} />
+          <TroubleshootingView
+            guides={troubleshootingGuides}
+            savedDiagnostics={savedDiagnostics}
+            onToggleSaveDiagnostic={handleToggleSaveDiagnostic}
+          />
+        )}
+
+        {/* TAB 3: Favorites View (Verbetes & Diagnostics) */}
+        {activeTab === "favorites" && (
+          <FavoritesView
+            favoriteVerbetes={favoriteVerbetes}
+            savedDiagnostics={savedDiagnostics}
+            onSelectVerbete={setSelectedVerbete}
+            onToggleFavorite={handleToggleFavorite}
+            onDeleteDiagnostic={handleDeleteDiagnostic}
+            onNavigateToTroubleshooting={() => {
+              setActiveTab("troubleshooting");
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+          />
         )}
       </main>
 

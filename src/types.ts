@@ -94,3 +94,25 @@ export interface DictionaryStats {
   totalAiGenerated: number;
   lastUpdated: string;
 }
+
+export interface SavedDiagnostic {
+  id: string;
+  savedAt: string;
+  problemDescription: string;
+  machineModel?: string;
+  fabricType?: string;
+  title: string;
+  category: string;
+  severity: "Baixa" | "Média" | "Alta" | "Crítica";
+  summary: string;
+  probableCauses: string[];
+  stepByStepSolution: string[];
+  preventiveAdvice: string;
+  recommendedSettings?: {
+    needle?: string;
+    stabilizer?: string;
+    speed?: string;
+    tension?: string;
+  };
+  artreladosTip: string;
+}

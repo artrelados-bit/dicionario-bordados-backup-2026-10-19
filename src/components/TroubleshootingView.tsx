@@ -1,13 +1,19 @@
 import React, { useState } from "react";
-import { Wrench, AlertTriangle, CheckCircle2, Sparkles, Search, Loader2, ChevronDown, ChevronUp, Copy, Check, RefreshCw, Gauge, ShieldAlert, Zap } from "lucide-react";
-import { TroubleshootingGuide } from "../types";
+import { Wrench, AlertTriangle, CheckCircle2, Sparkles, Search, Loader2, ChevronDown, ChevronUp, Copy, Check, RefreshCw, Gauge, ShieldAlert, Zap, Star } from "lucide-react";
+import { TroubleshootingGuide, SavedDiagnostic } from "../types";
 import { analyzeEmbroideryProblem, DiagnosticResult } from "../utils/diagnosticEngine";
 
 interface TroubleshootingViewProps {
   guides: TroubleshootingGuide[];
+  savedDiagnostics?: SavedDiagnostic[];
+  onToggleSaveDiagnostic?: (diag: SavedDiagnostic) => void;
 }
 
-export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({ guides }) => {
+export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
+  guides,
+  savedDiagnostics = [],
+  onToggleSaveDiagnostic
+}) => {
   const [selectedCategory, setSelectedCategory] = useState<string>("Todas");
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [expandedGuideId, setExpandedGuideId] = useState<string | null>(guides[0]?.id || null);
@@ -19,6 +25,7 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({ guides
   const [fabricType, setFabricType] = useState<string>("");
   const [loadingDiag, setLoadingDiag] = useState<boolean>(false);
   const [diagnosticResult, setDiagnosticResult] = useState<DiagnosticResult | null>(null);
+  const [currentDiagnosticId, setCurrentDiagnosticId] = useState<string>("");
   const [copiedDiag, setCopiedDiag] = useState<boolean>(false);
 
   const categories = ["Todas", "Linhas & Agulhas", "Tensão & Caixilho", "Bastidor & Programação", "Mecânica & Ajustes"];
@@ -39,6 +46,8 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({ guides
 
     setLoadingDiag(true);
     setDiagnosticResult(null);
+    const diagId = `diag_${Date.now()}`;
+    setCurrentDiagnosticId(diagId);
 
     // Provide immediate, highly accurate client-side analysis with realistic feedback delay
     setTimeout(() => {
@@ -59,6 +68,31 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({ guides
     navigator.clipboard.writeText(text);
     setCopiedDiag(true);
     setTimeout(() => setCopiedDiag(false), 2500);
+  };
+
+  const isCurrentSaved = diagnosticResult && savedDiagnostics.some(
+    (d) => d.title === diagnosticResult.title && d.problemDescription === customProblem
+  );
+
+  const handleToggleFavorite = () => {
+    if (!diagnosticResult || !onToggleSaveDiagnostic) return;
+    const itemToSave: SavedDiagnostic = {
+      id: currentDiagnosticId || `diag_${Date.now()}`,
+      savedAt: new Date().toISOString(),
+      problemDescription: customProblem,
+      machineModel: machineModel.trim() || undefined,
+      fabricType: fabricType.trim() || undefined,
+      title: diagnosticResult.title,
+      category: diagnosticResult.category,
+      severity: diagnosticResult.severity,
+      summary: diagnosticResult.summary,
+      probableCauses: diagnosticResult.probableCauses,
+      stepByStepSolution: diagnosticResult.stepByStepSolution,
+      preventiveAdvice: diagnosticResult.preventiveAdvice,
+      recommendedSettings: diagnosticResult.recommendedSettings,
+      artreladosTip: diagnosticResult.artreladosTip
+    };
+    onToggleSaveDiagnostic(itemToSave);
   };
 
   return (
@@ -209,22 +243,39 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({ guides
                   </h4>
                 </div>
 
-                <button
-                  onClick={handleCopyDiagnostic}
-                  className="px-3 py-1.5 rounded-xl bg-white hover:bg-slate-100 text-slate-800 border border-amber-300 text-xs font-bold flex items-center space-x-1.5 transition cursor-pointer shadow-sm self-end sm:self-auto"
-                >
-                  {copiedDiag ? (
-                    <>
-                      <Check className="w-3.5 h-3.5 text-emerald-600" />
-                      <span className="text-emerald-700">Copiado!</span>
-                    </>
-                  ) : (
-                    <>
-                      <Copy className="w-3.5 h-3.5 text-slate-600" />
-                      <span>Copiar Diagnóstico</span>
-                    </>
+                <div className="flex items-center space-x-2 self-end sm:self-auto">
+                  {onToggleSaveDiagnostic && (
+                    <button
+                      onClick={handleToggleFavorite}
+                      className={`px-3 py-1.5 rounded-xl text-xs font-bold flex items-center space-x-1.5 transition cursor-pointer shadow-sm border ${
+                        isCurrentSaved
+                          ? "bg-amber-400 text-slate-950 border-amber-500 font-extrabold"
+                          : "bg-white hover:bg-amber-50 text-slate-800 border-amber-300"
+                      }`}
+                      title={isCurrentSaved ? "Remover dos favoritos" : "Salvar nos favoritos da oficina"}
+                    >
+                      <Star className={`w-3.5 h-3.5 ${isCurrentSaved ? "fill-slate-950 text-slate-950" : "text-amber-600"}`} />
+                      <span>{isCurrentSaved ? "Salvo nos Favoritos" : "Favoritar Diagnóstico"}</span>
+                    </button>
                   )}
-                </button>
+
+                  <button
+                    onClick={handleCopyDiagnostic}
+                    className="px-3 py-1.5 rounded-xl bg-white hover:bg-slate-100 text-slate-800 border border-amber-300 text-xs font-bold flex items-center space-x-1.5 transition cursor-pointer shadow-sm"
+                  >
+                    {copiedDiag ? (
+                      <>
+                        <Check className="w-3.5 h-3.5 text-emerald-600" />
+                        <span className="text-emerald-700">Copiado!</span>
+                      </>
+                    ) : (
+                      <>
+                        <Copy className="w-3.5 h-3.5 text-slate-600" />
+                        <span>Copiar Diagnóstico</span>
+                      </>
+                    )}
+                  </button>
+                </div>
               </div>
 
               {/* Summary Description */}
