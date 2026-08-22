@@ -400,5 +400,256 @@ export const VERBETES_LETTER_S8: Verbete[] = [
     quickSummary: "Sistema de Tensão da Linha é o conjunto de freios e molas que equilibra a tração da linha de cima com a da bobina, garantindo pontos limpos na frente e a regra do 1/3 no verso.",
     relatedTerms: ["Regra do Um Terço (1/3 Rule)", "Caixa de Bobina", "Discos de Tensão", "Tensiómetro Towa", "Estica-Fio"],
     tags: ["tensão", "regulagem", "bobina", "fios", "calibração mecânica"]
+  },
+  {
+    id: "sapatilha-de-calcador-presser-foot-bottom",
+    code: "S-062",
+    letter: "S",
+    term: "Sapatilha de Calcador — Presser Foot Bottom (Base de Apoio & Deslizamento Têxtil)",
+    pronunciation: "sa-pa-ti-lha de cal-ca-dor — pré-sser fut bó-tom",
+    level: "Iniciante 🟢",
+    category: "Componentes da Máquina",
+    grammarClass: "Substantivo feminina composta.",
+    origin: "Do espanhol zapatilla (calçado leve) e do latim calcare (pressionar). Componente mecânico de contato direto com o tecido.",
+    summary: "Base metálica ou de teflon inferior do calcador que mantém o tecido pressionado contra a chapa de ponto no instante exato da formação da laçada.",
+    definition: "A Sapatilha de Calcador (Presser Foot Bottom / Sapata de Bordado / Embroidery Foot Sole) é a superfície inferior do calcador oscilante de bordado que entra em contato físico direto com a superfície do tecido ou entretela. Sua função primária é exercer pressão vertical transitória no momento exato em que a agulha atinge o Ponto Morto Inferior e começa a subir, impedindo o fenômeno do 'Flagging' (elevação indesejada do tecido puxado pela agulha em ascensão), o que causaria falhas de laçada e quebras de linha.",
+    technicalDetails: "Nas máquinas de bordar eletrônicas, ao contrário das máquinas de costura convencionais cujo calcador fica continuamente abaixado sob mola estática, a sapatilha de bordado é animada por uma haste mecânica oscilante sincronizada com o eixo principal (cam-driven). A altura de folga da sapatilha no ponto mais baixo deve ser ajustada entre 0,5 mm e 1,5 mm acima da espessura do tecido montado.",
+    beginnerExplanation: "É o 'pezinho' da máquina que desce bem rápido para segurar o tecido no lugar enquanto a agulha fura e sobe, evitando que o tecido pule junto com a agulha e mantendo os pontos bem assentados e bonitos.",
+    howItWorks: [
+      "1. O bastidor move o tecido para a nova coordenada cartesiana com o calcador no topo da oscilação.",
+      "2. A agulha desce para perfurar o tecido e a sapatilha desce junto empurrando o tecido contra a chapa.",
+      "3. A agulha atinge o fundo e a lançadeira laça a linha superior.",
+      "4. A sapatilha segura o tecido firme enquanto a agulha sobe para a linha não repuxar a peça.",
+      "5. A sapatilha se eleva liberando o bastidor para o próximo salto de ponto.",
+      "6. O ciclo se repete até 1.000 vezes por minuto com extrema precisão mecânica."
+    ],
+    applications: [
+      "Operação diária em todos os tipos de tecidos planos, malhas, toalhas e sintéticos.",
+      "Troca por sapatilhas especiais abertas (Open Toe Foot) para visualização precisa de monogramas.",
+      "Uso de sapatilhas de teflon antiaderente para bordar couro, corino, vinil e sintéticos plastificados.",
+      "Sapatilhas com mola interna de amortecimento para tecidos felpudos com volume."
+    ],
+    characteristics: [
+      "Fabricada em aço temperado cromado de baixo atrito ou polímero fluoropolímero (Teflon).",
+      "Geometria arredondada (circular ou oval) para não enroscar em fios ou relevos.",
+      "Regulagem de altura milimétrica manual ou eletrônica via painel da máquina."
+    ],
+    commonErrors: [
+      "❌ Regular a sapatilha muito alta, fazendo o tecido pular (Flagging) e a máquina falhar pontos direto.",
+      "❌ Regular a sapatilha muito baixa esmagando o tecido, deixando marcas permanentes e travando o bastidor.",
+      "❌ Bordar couro ou plástico com sapatilha metálica sem teflon, fazendo o material grudar e o bastidor perder o passo."
+    ],
+    troubleshootingTips: [
+      "O tecido está pulando para cima junto com a agulha: abaixe a altura do calcador no parafuso da barra ou nas configurações digitais do painel.",
+      "O bastidor está travando ou dando trancos ao bordar: a sapatilha está muito baixa e prensando o tecido contra a chapa; suba a altura do calcador em 0,5 mm.",
+      "Sapatilha batendo no aro plástico do bastidor: reposicione o bordado na tela da máquina para manter pelo menos 1,5 cm de margem das bordas do bastidor."
+    ],
+    dicaArtrelados: "Para bordar materiais sintéticos, corino e tecidos emborrachados sem grudar: cole um pedacinho minúsculo de fita crepe ou fita teflon na sola da sapatilha do calcador. Ela vai deslizar suave como manteiga sem travar o bastidor!",
+    voceSabia: "Nas máquinas industriais multi-cabeças, a altura da sapatilha de cada agulha pode ser calibrada individualmente para permitir que o mesmo cabeçote borde simultaneamente com agulha grossa de cordão e agulha fina de monograma.",
+    practicalExercise: "Coloque um tecido no bastidor e gire o volante da máquina manualmente bem devagar. Observe como a sapatilha desce e prende o tecido antes da agulha subir e repare na folga exata entre a sapatilha e a peça.",
+    quickSummary: "Sapatilha de Calcador é a base metálica ou de teflon que pressiona o tecido na descida da agulha para impedir o salto do tecido e garantir laçadas perfeitas.",
+    relatedTerms: ["Calcador de Bordado", "Flagging (Salto de Tecido)", "Chapa de Ponto", "Altura de Calcador", "Sapatilha de Teflon"],
+    tags: ["sapatilha", "calcador", "componentes", "mecanica", "flagging", "pecas"]
+  },
+  {
+    id: "subponto-de-contorno-edge-run-underlay",
+    code: "S-063",
+    letter: "S",
+    term: "Subponto de Contorno — Edge Run Underlay (Estabilização Perimetral de Colunas Satim)",
+    pronunciation: "sub-pon-to de con-tor-no — é-dji rân ân-der-lei",
+    level: "Intermediário 🟡",
+    category: "Pontos & Estruturas",
+    grammarClass: "Substantivo masculino composto.",
+    origin: "Do latim sub (sob, abaixo) e do inglês edge (borda/margem) e run (corrida). Estrutura de fundação invisível para colunas de pontos cheios.",
+    summary: "Linha de pesponto corrida programada nas bordas internas de colunas de satim para erguer o relevo e dar contornos nítidos e retos.",
+    definition: "O Subponto de Contorno (Edge Run Underlay / Contorno de Margem / Pesponto de Borda Estruturante) é um tipo fundamental de subponto (Underlay) programado para correr paralelamente às duas bordas externas de uma coluna de ponto cheio (Satim), recuado entre 0,2 mm e 0,5 mm da margem final. Ele atua como um 'trilho de sustentação' que ancora o tecido à entretela, define a linha reta do contorno e impede que os pontos de acabamento afundem na trama do tecido.",
+    technicalDetails: "Geralmente combinado com o subponto de ziguezague central (Edge Run + Zigzag) ou com a corrida central simples (Center Run). A margem de recuo (Margin Offset) deve ser calibrada conforme o tipo de tecido: 0,2 mm em tecidos firmes e 0,4 mm em tecidos elásticos ou felpudos para evitar que os fios do subponto apareçam para fora da coluna final.",
+    beginnerExplanation: "É uma costurinha reta invisível que a máquina faz bem nas beiradas das letras antes de cobrir com o ponto cheio. Ela funciona como uma cerquinha que deixa as letras bem gordinhas, com bordas super retas e sem dentes.",
+    howItWorks: [
+      "1. A máquina inicia a coluna costurando uma linha reta pelo lado esquerdo da letra.",
+      "2. Na curva superior, a linha cruza para o lado direito e desce costurando o outro contorno.",
+      "3. Essas duas linhas criam dois trilhos paralelos que esticam o tecido e travam a entretela.",
+      "4. Em seguida, a máquina executa a coluna de satim por cima dessas linhas guias.",
+      "5. Os pontos de satim apoiam-se sobre os dois trilhos, ganhando volume tridimensional.",
+      "6. O contorno final da letra fica perfeitamente nítido, liso e sem rebarbas."
+    ],
+    applications: [
+      "Letras médias e grandes (acima de 7 mm) em fontes com serifa e bastão.",
+      "Bordas de brasões e contornos de escudos que exigem precisão geométrica absoluta.",
+      "Colunas de satim em tecidos de malha, piquet e toalhas para manter bordas retas.",
+      "Contornos de monogramas de alta definição em toalhas de linho e percal."
+    ],
+    characteristics: [
+      "Garante bordas nítidas sem dentes ou serrilhados no acabamento.",
+      "Cria relevo natural sem necessidade de aumentar a densidade de pontos.",
+      "Economiza linha por estruturar a coluna com pouquíssimos pontos extras."
+    ],
+    commonErrors: [
+      "❌ Deixar a margem de recuo muito pequena (ex: 0,05 mm), fazendo o subponto escapar e aparecer para fora da letra.",
+      "❌ Usar Edge Run em microletras menores que 4 mm, sobrecarregando a área e quebrando a agulha.",
+      "❌ Desativar o subponto para 'economizar tempo', deixando as bordas das letras todas tortas e afundadas no tecido."
+    ],
+    troubleshootingTips: [
+      "Linhas do subponto aparecendo para fora da letra: aumente o recuo da margem (Margin Offset) no software para 0,35 mm ou aumente a compensação de repuxo do satim.",
+      "As letras ficaram magras e pontudas: ative o Edge Run combinado com ziguezague para dar corpo e firmeza à coluna.",
+      "Bordas das letras serrilhadas em toalha: certifique-se de que o Edge Run está ativo e use filme hidrossolúvel por cima da toalha."
+    ],
+    dicaArtrelados: "Para letras entre 8 mm e 25 mm: use SEMPRE a combinação de ouro da Artrelados: 'Edge Run (Contorno) + Zigzag (Ziguezague)'. Suas letras vão sair da máquina com relevo de alto padrão, contornos afiados como navalha e acabamento impecável!",
+    voceSabia: "O conceito do Edge Run foi criado na Suíça nos teares manuais do século XIX, onde os mestres bordadores passavam dois cordões de algodão nas laterais dos monogramas antes de cobri-los com fios de seda brilhante.",
+    practicalExercise: "No seu software, digite a letra 'H' com 15 mm de altura. Programe um lado sem subponto e o outro lado com Edge Run ativo com recuo de 0,3 mm. Borde em uma malha e compare a diferença brutal de nitidez nas bordas!",
+    quickSummary: "Subponto de Contorno (Edge Run) é a fundação em pesponto nas margens internas de colunas de satim que garante contornos perfeitamente retos e relevo firme.",
+    relatedTerms: ["Subponto (Underlay)", "Ponto Satim", "Compensação de Repuxo", "Center Run Underlay", "Monogramas"],
+    tags: ["edgerun", "subponto", "underlay", "satim", "estruturas", "programacao"]
+  },
+  {
+    id: "suporte-de-bastidor-pantograph-arm-bracket",
+    code: "S-064",
+    letter: "S",
+    term: "Suporte de Bastidor — Pantograph Arm Bracket (Encaixe Rápido & Alinhamento Mecânico)",
+    pronunciation: "su-por-te de bas-ti-dor — pan-to-gréf arm bré-ket",
+    level: "Intermediário 🟡",
+    category: "Mecânica & Operação",
+    grammarClass: "Substantivo masculino composto.",
+    origin: "Do francês pantographe (mecanismo articulado de cópia geométrica em escala) e bracket (braço de fixação mecânica).",
+    summary: "Braço de conexão mecânica de precisão que acopla o bastidor ao sistema de movimentação nos eixos X e Y da máquina.",
+    definition: "O Suporte de Bastidor (Pantograph Arm Bracket / Braço de Fixação do Pantógrafo / Encaixe do Bastidor) é o conjunto de guias metálicas e travas de liberação rápida localizado nas extremidades do carro de transporte do pantógrafo. É responsável por acoplar o bastidor de bordar com rigidez micrométrica absoluta ao sistema de tração de eixos cartesianos acionado por servomotores ou motores de passo e correias sincronizadas.",
+    technicalDetails: "Projetado com pinos de centragem temperados e parafusos borboleta ou alavancas de pressão rápida (Snap-in). Qualquer folga mecânica (Backlash) superior a 0,05 mm no suporte de bastidor resulta em perda de registro de cores, contornos deslocados do preenchimento e distorção em círculos e formas geométricas perfeitas.",
+    beginnerExplanation: "É o 'braço' de metal ou suporte onde você encaixa e trava o bastidor na máquina. É ele que segura o bastidor bem firme enquanto a máquina puxa para a direita, esquerda, frente e trás para fazer o desenho certinho.",
+    howItWorks: [
+      "1. A bordadeira encaixa os trilhos laterais do bastidor nas guias do suporte do pantógrafo.",
+      "2. Pressiona-se a trava de encaixe rápido (ou aperta-se os parafusos manuais) até ouvir o clique de segurança.",
+      "3. Os motores de passo enviam pulsos de rotação para as correias dentadas.",
+      "4. O suporte transfere a movimentação mecânica direta para o bastidor com acelerações de até 2G.",
+      "5. A firmeza do suporte garante que o bastidor pare exatamente na coordenada X-Y milimétrica.",
+      "6. Ao terminar o bordado, destrava-se o suporte para retirar o bastidor com ergonomia e rapidez."
+    ],
+    applications: [
+      "Fixação estável de bastidores planos para toalhas, camisetas, uniformes e enxovais.",
+      "Encaixe de bastidores tubulares e cilíndricos para mangas e pernas de calça.",
+      "Acoplamento de bastidores magnéticos pesados em produção seriada.",
+      "Troca rápida de bastidores em máquinas multi-agulhas de alta velocidade (1.000 PPM)."
+    ],
+    characteristics: [
+      "Construção em liga de alumínio aeronáutico fundido ou aço inoxidável de alta rigidez.",
+      "Sistema de alinhamento com tolerâncias micrométricas de precisão.",
+      "Mecanismo de engate rápido que dispensa ferramentas em operações diárias."
+    ],
+    commonErrors: [
+      "❌ Encaixar o bastidor torto com apenas um dos lados travado, fazendo o bastidor soltar em alta velocidade e bater na agulha.",
+      "❌ Apertar os parafusos do suporte com alicates, espanando as roscas e empenando o braço do pantógrafo.",
+      "❌ Apoiar o peso do braço ou objetos pesados sobre o suporte, descalibrando o alinhamento dos eixos X e Y."
+    ],
+    troubleshootingTips: [
+      "Bordado apresentando contornos tortos ou deslocados (desencaixe de cor): verifique se o suporte do bastidor está com parafusos frouxos ou folga mecânica no encaixe.",
+      "Barulho de 'estalo' ao movimentar o bastidor: limpe a guia do suporte e inspecione as correias do pantógrafo.",
+      "Bastidor difícil de encaixar: limpe resíduos de cola em spray e poeira têxtil das canaletas do suporte com um pano seco e álcool isopropílico."
+    ],
+    dicaArtrelados: "Crie o hábito do 'Toque Duplo de Segurança': após encaixar o bastidor no suporte da máquina, dê um leve puxãozinho para a frente com as duas mãos. Se estiver 100% travado, você terá a certeza de que o bordado vai correr do início ao fim sem nenhum risco de desencaixe!",
+    voceSabia: "O termo 'Pantógrafo' foi inventado em 1603 pelo astrônomo alemão Christoph Scheiner para duplicar mapas celestes em escalas ampliadas; séculos depois, tornou-se o coração mecânico de todas as máquinas de bordar automáticas do mundo.",
+    practicalExercise: "Examine o suporte de bastidor da sua máquina. Verifique como as travas se fecham sobre as orelhas do bastidor. Limpe as fendas de encaixe com uma escovinha macia e teste o clique suave de travamento.",
+    quickSummary: "Suporte de Bastidor é o braço de engate de alta precisão que conecta o bastidor ao sistema pantográfico X-Y da máquina sem folgas mecânicas.",
+    relatedTerms: ["Pantógrafo", "Bastidor de Bordado", "Eixos X e Y", "Registro de Cor", "Motor de Passo"],
+    tags: ["suporte", "pantografo", "bastidor", "mecanica", "alinhamento", "eixos"]
+  },
+  {
+    id: "sincronismo-agulha-lancadeira-rotary-hook-timing",
+    code: "S-065",
+    letter: "S",
+    term: "Sincronismo Agulha-Lançadeira — Rotary Hook Timing (Calibração de Ponto Morto & Folga Centesimal)",
+    pronunciation: "sin-cro-nis-mo a-gu-lha lan-sa-dei-ra — ro-ta-ri huk tai-ming",
+    level: "Avançado 🔴",
+    category: "Manutenção & Mecânica",
+    grammarClass: "Substantivo masculino composto.",
+    origin: "Do grego syn (junto) e chronos (tempo). Ajuste cinemático fundamental de sincronia temporal entre os eixos principais da máquina de bordar.",
+    summary: "Calibração micrométrica entre o movimento vertical da barra de agulha e a rotação da ponta da lançadeira para laçar o fio com precisão.",
+    definition: "O Sincronismo Agulha-Lançadeira (Rotary Hook Timing / Ponto de Sincronismo / Ponto de Laçada / Timing da Lançadeira) é a relação angular e temporal perfeita entre a subida da barra de agulha e o giro da ponta da lançadeira rotativa. No momento em que a agulha atinge o Ponto Morto Inferior (PMI) e sobe entre 1,8 mm e 2,2 mm, a linha superior forma uma pequena alça (Loop); a ponta afiada da lançadeira deve passar exatamente no centro da cava da agulha (Scarf) a uma distância livre de 0,05 mm a 0,10 mm sem tocar na agulha.",
+    technicalDetails: "Se a lançadeira passar adiantada ou atrasada em fração de milissegundo, a laçada não é capturada (gerando pontos pulados / Skipped Stitches). Se a folga lateral for excessiva, a laçada escapa; se for nula, a lançadeira colide com a agulha, danificando a ponta da lançadeira (Burrs) e quebrando agulhas sucessivamente. Calibrado com relógio comparador ou gabarito técnico de fábrica.",
+    beginnerExplanation: "É o 'casamento perfeito' dentro da máquina: a ponta afiada da lançadeira embaixo precisa passar raspando atrás da agulha no segundo exato em que a linha abre uma laçadinha. Se uma estiver adiantada ou atrasada em um fio de cabelo, a máquina não costura e arrebenta a linha na hora.",
+    howItWorks: [
+      "1. A barra de agulha desce até o limite inferior absoluto (Ponto Morto Inferior).",
+      "2. A agulha inicia a subida de 2,0 mm, afrouxando a linha e abrindo o laço (Loop).",
+      "3. A ponta da lançadeira rotativa chega exatamente no centro da cava da agulha.",
+      "4. A folga entre a ponta da lançadeira e a agulha é calibrada em 0,05 mm (espessura de um papel fino).",
+      "5. A ponta penetra no laço da linha de cima e o expande sobre a caixa de bobina.",
+      "6. A laçada envolve a linha inferior e o estica-fio sobe completando o ponto perfeito."
+    ],
+    applications: [
+      "Manutenção corretiva obrigatória após colisões graves de agulha com o bastidor.",
+      "Revisão periódica semestral de máquinas industriais e domésticas de alto volume.",
+      "Diagnóstico de problemas crônicos de pontos pulados e quebras de agulha sem causa aparente.",
+      "Adaptação da máquina para bordar fios ultragrossos ou materiais pesados."
+    ],
+    characteristics: [
+      "Ajuste mecânico mais crítico e sensível de toda a máquina de bordar.",
+      "Exige precisão de centésimos de milímetro e iluminação focalizada.",
+      "Restaura a máquina ao estado original de fábrica com costura suave e sem falhas."
+    ],
+    commonErrors: [
+      "❌ Tentar mexer nos parafusos da lançadeira com chaves inadequadas sem treinamento técnico.",
+      "❌ Continuar forçando a máquina a bordar após uma colisão forte de agulha que desregulou o ponto de sincronismo.",
+      "❌ Lixar a ponta da lançadeira de forma grosseira alterando o ângulo de penetração da laçada."
+    ],
+    troubleshootingTips: [
+      "Máquina pulando todos os pontos de repente após uma agulha quebrar no bastidor: o impacto desregulou o sincronismo da lançadeira; chame um técnico para reapertar e recalibrar o timing.",
+      "Linha desfiando e quebrando mesmo com agulha nova e tensão solta: passe a unha na ponta da lançadeira; se sentir um dente ou rebarba, faça o polimento suave com lixa 2000 d'água e pasta de diamante.",
+      "Barulho de estalo metálico contínuo: a lançadeira está batendo na agulha; a folga lateral está incorreta."
+    ],
+    dicaArtrelados: "Após qualquer batida forte da agulha no bastidor: desligue a máquina e gire o volante na mão devagar. Se a agulha estiver raspando na lançadeira com barulho de metal, não aperte o 'Start'! Troque a agulha primeiro e, se continuar raspando, é hora de regular a lançadeira!",
+    voceSabia: "Em uma máquina industrial bordando a 1.200 PPM, a ponta da lançadeira rotativa gira a 2.400 rotações por minuto (duas voltas por ponto) e tem apenas 0,012 segundos para capturar a laçada da linha sem errar!",
+    practicalExercise: "Retire a chapa de ponto e a caixa de bobina da sua máquina. Com uma lanterna, gire o volante manualmente no sentido correto e observe a ponta afiada da lançadeira passando exatamente atrás do olho da agulha quando ela sobe 2 milímetros. É uma verdadeira obra-prima da engenharia mecânica!",
+    quickSummary: "Sincronismo Agulha-Lançadeira é o ajuste centesimal de tempo e distância entre a descida da agulha e o giro da lançadeira para capturar a laçada de linha sem falhas.",
+    relatedTerms: ["Lançadeira Rotativa", "Cava da Agulha (Scarf)", "Ponto Morto Inferior (PMI)", "Pontos Pulados", "Polimento de Lançadeira"],
+    tags: ["sincronismo", "timing", "lancadeira", "agulha", "mecanica", "manutencao"]
+  },
+  {
+    id: "software-de-conversao-e-visualizacao-embroidery-viewer",
+    code: "S-066",
+    letter: "S",
+    term: "Software de Conversão e Visualização — Embroidery Viewer & Converter (Gerenciamento de Formatos)",
+    pronunciation: "sóft-uér de con-ver-são e vi-zu-a-li-za-são — em-broi-de-ri viu-er end con-ver-ter",
+    level: "Iniciante 🟢",
+    category: "Softwares & Formatos",
+    grammarClass: "Substantivo masculino composto.",
+    origin: "Do inglês software (programa de computador), viewer (visualizador) e converter (conversor). Ferramentas digitais utilitárias para ateliês de bordado.",
+    summary: "Programas e aplicativos utilizados para pré-visualizar arquivos de bordado, converter extensões (.PES, .DST, .JEF, .EXP) e imprimir fichas de cores.",
+    definition: "O Software de Conversão e Visualização (Embroidery File Viewer & Format Converter / Visualizador de Matrizes / Utilitário de Conversão) é a categoria de softwares leves (como Wilcom TrueSizer, Embird QuickViewer, StitchBuddy, MyEditor, Bernina ArtLink) projetados para permitir que o bordador visualize em miniaturas 3D reais (Thumbnails) as matrizes salvas no computador, converta arquivos entre formatos de diferentes marcas de máquinas, redimensione desenhos dentro de limites seguros (±10%) e imprima gabaritos de posição com cruz de centro em tamanho 100% real.",
+    technicalDetails: "Ao converter matrizes de ponto bruto (Stitch Files como .DST para .PES), esses utilitários preservam a lista de coordenadas X-Y e comandos de salto/corte, mas podem exigir reatribuição manual da paleta de cores, já que formatos industriais brutos (.DST) não armazenam tabelas cromáticas de fabricantes de linhas.",
+    beginnerExplanation: "São aqueles programas práticos e fáceis de usar no computador que mostram a foto do desenho do bordado em vez de um ícone branco genérico, além de mudarem o formato do arquivo (por exemplo de PES da Brother para JEF da Janome) com apenas um clique.",
+    howItWorks: [
+      "1. O bordador abre a pasta com centenas de matrizes no computador.",
+      "2. O visualizador gera miniaturas coloridas (Thumbnails) de cada desenho facilitando a escolha da cliente.",
+      "3. Abre-se a matriz selecionada para conferir o número de pontos, cores e dimensões em centímetros.",
+      "4. Escolhe-se o formato de máquina de destino (ex: salvar em .PES ou .DST).",
+      "5. O software converte o cabeçalho binário do arquivo instantaneamente.",
+      "6. Imprime-se a ficha técnica com o gabarito impresso para posicionar no tecido antes de bordar."
+    ],
+    applications: [
+      "Organização de catálogo de matrizes para apresentação aos clientes no ateliê.",
+      "Conversão de matrizes compradas na internet para o formato específico da máquina em uso.",
+      "Impressão de gabaritos em papel vegetal ou sulfite para marcação precisa de centro em camisas.",
+      "Conferência de dimensões e quantidade de pontos antes de calcular o orçamento da encomenda."
+    ],
+    characteristics: [
+      "Interface simplificada e intuitiva que não exige conhecimento avançado de programação.",
+      "Gera pré-visualizações fiéis com simulação de textura de fios e tecidos.",
+      "Compatibilidade universal com mais de 20 formatos de bordado do mercado."
+    ],
+    commonErrors: [
+      "❌ Redimensionar a matriz em mais de 20% em um simples visualizador sem recalcular a densidade de pontos, deixando o bordado ralo ou pesado.",
+      "❌ Salvar uma matriz colorida em formato .DST e achar que a matriz 'estragou' porque abriu com cores diferentes no programa.",
+      "❌ Não imprimir o gabarito de centro para alinhar o bordado em camisas sociais polo."
+    ],
+    troubleshootingTips: [
+      "As cores da matriz mudaram sozinhas após converter para .DST: o formato .DST não grava cores de linha; use a ficha de cores original ou anote a sequência de trocas no painel da máquina.",
+      "O computador não mostra as miniaturas das matrizes nas pastas: instale uma extensão de miniaturas (Thumbnail Shell Extension) como o Wilcom TrueSizer ou Iconizer do Embird.",
+      "A matriz ficou maior que o bastidor após conversão: abra no visualizador e faça a rotação de 90 graus para encaixar na área útil do bastidor."
+    ],
+    dicaArtrelados: "Tenha sempre o Wilcom TrueSizer ou o StitchBuddy instalado no seu computador de trabalho! Além de ver todas as matrizes organizadas com fotos lindas, você imprime a folha de gabarito com a cruz de centro para colocar em cima da peça do cliente e nunca mais errar a posição do bordado!",
+    voceSabia: "O formato .DST (Tajima Data) foi criado no Japão no final dos anos 1970 para ler dados de fitas magnéticas e é até hoje o formato universal mais aceito por todas as marcas de máquinas industriais do planeta.",
+    practicalExercise: "Instale um visualizador gratuito no seu computador. Abra uma pasta com 10 matrizes. Selecione uma matriz, converta-a de .PES para .DST e imprima a ficha técnica com a folha de gabarito em escala 1:1. Posicione o papel sobre uma camiseta para ver a facilidade de alinhamento.",
+    quickSummary: "Software de Conversão e Visualização é o utilitário digital para organizar matrizes, ver fotos dos desenhos, converter formatos de marcas e imprimir gabaritos de centro.",
+    relatedTerms: ["TrueSizer", "Gabarito de Bordado", "Extensão de Arquivo (.PES/.DST)", "Miniaturas (Thumbnails)", "Ficha Técnica"],
+    tags: ["software", "conversao", "visualizador", "truesizer", "formatos", "organizacao"]
   }
 ];
+

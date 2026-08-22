@@ -282,5 +282,250 @@ export const VERBETES_LETTER_Q8: Verbete[] = [
     quickSummary: "Quick Start é a partida com rampa suave de aceleração que assenta os pontos de amarração iniciais e impede o rompimento da linha na arrancada.",
     relatedTerms: ["Partida Suave (Soft Start)", "Pontos de Amarração (Tie-in)", "Aceleração Progressiva", "Operação de Bordado"],
     tags: ["partida", "início", "aceleração", "operação"]
+  },
+  {
+    id: "quick-trim-corte-rapido-de-linha",
+    code: "Q-062",
+    letter: "Q",
+    term: "Quick Trim — Corte Rápido de Linha (Otimização de Saltos & Acionamento Automático do Trimmer)",
+    pronunciation: "cu-íc trim — kor-ti ra-pi-du de li-nha",
+    level: "Intermediário 🟡",
+    category: "Softwares & Formatos",
+    grammarClass: "Substantivo masculino composto.",
+    origin: "Do inglês quick (rápido) e trim (aparar, podar fios excedentes). Comando digital automatizado de corte.",
+    summary: "Rotina de software e comando mecânico que apara automaticamente os fios de salto entre objetos para eliminar o acabamento manual com tesoura.",
+    definition: "O Quick Trim (Corte Rápido de Linha / Auto-Trim Optimization / Comando de Corte de Salto) é a funcionalidade integrada em softwares de matrizes e no firmware da máquina de bordar que detecta deslocamentos em salto (Jump Stitches) superiores a um limiar configurado (geralmente entre 1,5 mm e 5,0 mm) e insere automaticamente uma sequência de micro-nós de arremate seguida pelo acionamento do cortador de linha inferior.",
+    technicalDetails: "Nos arquivos binários de bordado (.DST, .PES, .EXP, .JEF), o Quick Trim é codificado como uma sequência de comandos de parada com salto nulo ou comando específico de corte (código de faca 0x07). A parametrização correta da distância de corte evita paradas excessivas que prolongariam o tempo de produção desnecessariamente.",
+    beginnerExplanation: "É o comando que manda a máquina cortar a linhazinha sozinha toda vez que ela precisa pular de uma letra para a outra, para você não ter que ficar limpando aquele monte de fiozinho com a tesoura depois que o bordado termina.",
+    howItWorks: [
+      "1. O programador define o limite mínimo de salto para corte no software (ex: 2,0 mm).",
+      "2. Ao finalizar uma letra, o software compara a distância até o próximo caractere.",
+      "3. Se a distância for maior que 2,0 mm, a máquina executa o nó de arremate final (Tie-off).",
+      "4. A faca móvel abaixo da chapa de ponto avança, laça os fios superior e da bobina e realiza o corte rente.",
+      "5. A máquina salta livremente até a próxima letra, executa o nó inicial (Tie-in) e continua bordando."
+    ],
+    applications: [
+      "Bordado de textos, nomes compostos e frases com espaçamento entre palavras.",
+      "Matrizes de logomarcas com múltiplos elementos isolados.",
+      "Produção seriada onde o tempo de limpeza manual de fios precisa ser zero."
+    ],
+    characteristics: [
+      "Elimina quase 100% da necessidade de tosa manual pós-bordado.",
+      "Garante segurança total contra desfiamento através de arremates automáticos.",
+      "Reduz o risco de puxar fios do tecido durante a limpeza com tesourinha."
+    ],
+    commonErrors: [
+      "❌ Configurar o limite de corte muito curto (ex: 0,5 mm), fazendo a máquina cortar a linha a cada 3 pontos e dobrando o tempo de produção.",
+      "❌ Desativar o corte automático achando que vai bordar mais rápido, criando pontes de linha que podem rasgar o tecido se enroscarem no calcador.",
+      "❌ Esquecer de ativar os nós de amarração ao ligar o Quick Trim, fazendo as pontas cortadas desmancharem na lavagem."
+    ],
+    troubleshootingTips: [
+      "A máquina está deixando pontes de linha entre as letras: ative o comando de corte de salto (Trim on Jump) nas propriedades de exportação da matriz.",
+      "A linha escapa do olho da agulha logo após o corte: aumente o comprimento da cauda da linha após o corte nas configurações da máquina ou afrouxe o limpador de fio (Wiper).",
+      "Muitos cortes tornando o bordado lento: agrupe os elementos menores por pontos corridos embutidos sob as áreas de preenchimento antes de acionar o corte."
+    ],
+    dicaArtrelados: "Para textos médios e grandes (letras acima de 8 mm), configure o Quick Trim no seu software com corte a partir de 2,0 mm. Suas peças saem da máquina 100% limpas, perfeitas e prontas para embalar sem você perder 1 segundo na tesourinha!",
+    voceSabia: "Antes da invenção dos cortadores automáticos mecânicos acionados por solenoide nos anos 1980, as fábricas de bordado mantinham equipes inteiras de funcionárias chamadas de 'limpadoras de linha' cuja única função era aparar os fios de salto com pequenas tesouras.",
+    practicalExercise: "No seu software de edição, escreva a palavra 'BORDADO' com espaçamento normal entre letras. Verifique na lista de pontos se há uma tesourinha (comando de Trim) entre cada letra. Simule a costura no visualizador 3D para ver os cortes automáticos.",
+    quickSummary: "Quick Trim é o recurso que aciona o cortador de linha automático da máquina nos saltos entre objetos, entregando o bordado limpo sem pontes de fio.",
+    relatedTerms: ["Cortador Automático (Trimmer)", "Jump Stitch (Salto)", "Tie-off (Arremate)", "Wiper (Limpador de Fio)"],
+    tags: ["quicktrim", "corte", "saltos", "software", "acabamento", "produtividade"]
+  },
+  {
+    id: "quality-check-matriz-inspecao-qualidade",
+    code: "Q-063",
+    letter: "Q",
+    term: "Quality Check de Matriz — Checklist de Qualidade (Inspeção Pré-Produção & Validação Técnica)",
+    pronunciation: "cuó-li-ti tché-ki — ins-pe-são de qua-li-da-de",
+    level: "Intermediário 🟡",
+    category: "Programação de Bordado",
+    grammarClass: "Substantivo masculino composto.",
+    origin: "Do inglês quality (qualidade) e check (conferência, verificação). Protocolo padronizado de controle de qualidade na indústria têxtil.",
+    summary: "Checklist rigoroso de validação técnica da matriz antes de enviar para a máquina, conferindo densidade, sequência, cortes e compensação.",
+    definition: "O Quality Check de Matriz é o protocolo sistemático de inspeção técnica e visual que o programador ou bordador realiza no arquivo de bordado antes de colocá-lo na máquina para produção real. Envolve a verificação de 7 pilares fundamentais: 1) Densidade adequada ao tecido alvo; 2) Pontos de suporte (Underlay) estruturados; 3) Compensação de repuxo correta; 4) Sequência lógica de camadas (do fundo para o topo); 5) Quantidade mínima de cortes e trocas de cor; 6) Enquadramento dentro da área útil do bastidor; e 7) Centralização na origem (0,0).",
+    technicalDetails: "A inspeção é realizada através do simulador de pontos acelerado (Stitch Simulator) e ferramentas de estatísticas da matriz (Production Worksheet). A detecção precoce de pontos curtos (Short Stitches abaixo de 0,3 mm) e cruzamentos com mais de 3 camadas sobrepostas previne quebras de agulha e perfurações no tecido.",
+    beginnerExplanation: "É o 'teste dos 7 erros' que você faz no computador antes de colocar o pendrive na máquina! Você passa o filme do bordado na tela bem rápido para ter certeza de que o desenho não vai furar o pano, não vai ficar duro demais e nem vai bater no bastidor.",
+    howItWorks: [
+      "1. A matriz é aberta no software de visualização técnica.",
+      "2. Confere-se o tamanho exato em centímetros e a compatibilidade com o bastidor físico selecionado.",
+      "3. Executa-se o simulador de costura (Player 3D) em velocidade acelerada.",
+      "4. Verifica-se se o fundo borda antes dos contornos e se as letras bordam na ordem de leitura.",
+      "5. Inspeciona-se se há nós de arremate em todos os inícios e finais de blocos de cor.",
+      "6. Aprovada a matriz no checklist, gera-se a ficha técnica de produção e salva-se o arquivo final."
+    ],
+    applications: [
+      "Validação de matrizes compradas na internet ou encomendadas de terceiros antes de bordar na peça do cliente.",
+      "Homologação de matrizes corporativas para fardamentos em grande escala.",
+      "Prevenção de desperdício de tecidos nobres em ateliês de personalização."
+    ],
+    characteristics: [
+      "Reduz em até 95% os erros e retrabalhos na máquina de bordar.",
+      "Garante padronização de alto padrão em todas as encomendas entregues.",
+      "Documenta as cores de linha e o consumo de pontos por peça."
+    ],
+    commonErrors: [
+      "❌ Colocar a matriz direto no pendrive e bordar sem antes passar no simulador do software.",
+      "❌ Não conferir se o tamanho da matriz cabe no bastidor sem encostar nas bordas plásticas.",
+      "❌ Ignorar avisos de 'pontos muito pequenos' emitidos pelo software de edição."
+    ],
+    troubleshootingTips: [
+      "A máquina começou a bordar o contorno antes do preenchimento: reordene a lista de objetos no software colocando a camada de base acima do contorno.",
+      "Bordado apresentando falhas no simulador: ajuste a compensação de repuxo (Pull Compensation) para cobrir os vãos entre objetos.",
+      "Matriz com pontos muito pesados: utilize a ferramenta de redução automática de densidade ou remoção de pontos ocultos (Remove Hidden Stitches)."
+    ],
+    dicaArtrelados: "Adote a 'Regra dos 30 Segundos' no seu ateliê: antes de salvar qualquer matriz para a máquina, dê o play no simulador acelerado e olhe com atenção. Esses 30 segundinhos no computador salvam peças caras e evitam horas de dor de cabeça!",
+    voceSabia: "Grandes confecções de moda esportiva internacional mantêm equipes dedicadas de 'QA Digitizers' que testam cada matriz em 3 tipos diferentes de tecidos e lavam as peças 5 vezes em laboratório antes de liberar a produção de milhões de camisas.",
+    practicalExercise: "Abra qualquer matriz que você baixou recentemente. Acesse a ficha técnica no software e anote: 1) Total de pontos, 2) Número de trocas de cores e 3) Dimensões em milímetros. Em seguida, dê o play no simulador e confira se a ordem das cores está perfeita.",
+    quickSummary: "Quality Check de Matriz é o checklist prévio de inspeção técnica que valida densidade, sequência, cortes e enquadramento antes do bordado na máquina.",
+    relatedTerms: ["Simulador de Costura (Stitch Player)", "Ficha Técnica", "Densidade de Ponto", "Compensação de Repuxo"],
+    tags: ["qualitycheck", "qualidade", "inspeção", "checklist", "programação", "gestão"]
+  },
+  {
+    id: "quilt-no-bastidor-in-the-hoop",
+    code: "Q-064",
+    letter: "Q",
+    term: "Quilt no Bastidor — Quilting In The Hoop (Matelassê Digital & Acolchoamento Estruturado)",
+    pronunciation: "cuil-ti no bas-ti-dor — in dê hup",
+    level: "Intermediário 🟡",
+    category: "Técnicas de Bastidor",
+    grammarClass: "Substantivo masculino composto.",
+    origin: "Do inglês quilt (acolchoar, unir três camadas com pespontos) e in the hoop (técnica de confecção completa dentro do bastidor de bordar).",
+    summary: "Técnica de costura e acolchoamento de mantas e tecidos executada pela máquina de bordar através de linhas geométricas ou arabescos.",
+    definition: "O Quilt no Bastidor (Quilting In The Hoop / Matelassê Computadorizado / Digital Quilt Block) é a técnica na qual a máquina de bordar eletrônica é utilizada para unir e acolchoar o 'sanduíche de quilt' — composto pelo tecido superior (topo), manta acrílica estruturante (R1, R2 ou manta de algodão) e tecido de forro — através de matrizes contínuas de pespontos decorativos, geométricos ou florais.",
+    technicalDetails: "As matrizes de quilting no bastidor utilizam pontos de corrida simples (Single Run de 2,5 mm a 3,0 mm) ou ponto triplo (Triple / Bean Stitch) com densidade linear baixa para não achatar completamente a manta. As rotinas são programadas com linhas de trajeto contínuo (Continuous Line Quilting) que minimizam cortes e cruzamentos.",
+    beginnerExplanation: "É usar a sua máquina de bordar para fazer aquele efeito acolchoado fofinho de colcha (matelassê) em panos de prato, nécessaires, jogos americanos e almofadas, tudo com desenhos perfeitos e linhas bem retinhas que a máquina faz sozinha.",
+    howItWorks: [
+      "1. A entretela ou manta é montada no bastidor.",
+      "2. A máquina costura uma linha guia indicando onde colocar o tecido de forro e a manta.",
+      "3. Posiciona-se o tecido principal por cima e fixa-se com fita crepe ou alinhavo (Basting).",
+      "4. A máquina executa a matriz de quilting cobrindo a área com linhas geométricas ou desenhos florais contínuos.",
+      "5. As 3 camadas ficam unidas de forma estável com relevo fofo e textura macia.",
+      "6. A peça acolchoada é retirada do bastidor pronta para ser montada na costura ou finalizada com viés."
+    ],
+    applications: [
+      "Confecção de nécessaires estruturadas, bolsas e estojos no bastidor (ITH).",
+      "Confecção de jogos americanos, descansos de prato e pegadores de panela térmicos.",
+      "Blocos de colchas de retalhos (Quilt Blocks) personalizados com temas infantis.",
+      "Barrados acolchoados em toalhas de mesa e cobre-leitos."
+    ],
+    characteristics: [
+      "Precisão milimétrica nas curvas e nos encontros de linhas acolchoadas.",
+      "Relevo tátil macio e estruturado sem necessidade de entretelas rígidas.",
+      "Velocidade incomparavelmente superior ao quilting manual ou livre."
+    ],
+    commonErrors: [
+      "❌ Usar manta muito grossa que não cabe no bastidor, forçando e quebrando o aro plástico.",
+      "❌ Usar pontos muito curtos (menos de 1,8 mm), esmagando a manta e deixando a peça dura como papelão.",
+      "❌ Não usar alinhavo perimetral, fazendo o tecido de cima enrugar e criar bolhas durante o acolchoamento."
+    ],
+    troubleshootingTips: [
+      "O tecido enrugou no meio do bloco acolchoado: ative a função de alinhavo (Basting Box) antes de iniciar a matriz de quilting.",
+      "A agulha está quebrando ao passar pelas emendas da manta: utilize agulha de calibre 80/12 ou 90/14 ponta arredondada ou agulha especial para Quilting.",
+      "A linha inferior está aparecendo no topo: reduza levemente a tensão da linha superior para equilibrar a tração sobre a manta volumosa."
+    ],
+    dicaArtrelados: "Para nécessaires e jogos americanos: use manta R1 (com resina em apenas um lado) e aplique o ferro morno para colar o tecido na manta antes de ir para o bastidor. O sanduíche fica 100% plano e a máquina borda o matelassê com a maciez dos deuses!",
+    voceSabia: "O quilting é uma arte milenar praticada desde o Antigo Egito e a Idade Média para produzir jaquetas acolchoadas que os cavaleiros usavam por baixo das armaduras de metal para amortecer impactos de espadas.",
+    practicalExercise: "Monte um sanduíche com tecido tricoline e manta R1 no bastidor 13x18 cm. Carregue uma matriz de matelassê geométrico simples em ponto de corrida de 3,0 mm e borde. Sinta o relevo macio e fofinho do acolchoamento perfeito.",
+    quickSummary: "Quilt no Bastidor é o método de acolchoar tecido e manta na máquina de bordar, criando texturas de matelassê perfeitas para bolsas, colchas e utilitários.",
+    relatedTerms: ["Matelassê", "Manta R1/R2", "In The Hoop (ITH)", "Ponto Triplo (Bean Stitch)", "Alinhavo (Basting)"],
+    tags: ["quilt", "matelasse", "manta", "ith", "acolchoamento", "bastidor"]
+  },
+  {
+    id: "quilting-needle-agulha-para-quilting",
+    code: "Q-065",
+    letter: "Q",
+    term: "Quilting Needle — Agulha para Quilting (Ponta Cônica Especial & Haste Reforçada para Manta)",
+    pronunciation: "cuil-ting nii-dôl — a-gu-lha pa-ra cuil-ting",
+    level: "Iniciante 🟢",
+    category: "Componentes da Máquina",
+    grammarClass: "Substantivo feminina composta.",
+    origin: "Do inglês quilting (arte de acolchoar) e needle (agulha de costura/bordado mecânico). Sistema de agulha com geometria otimizada.",
+    summary: "Agulha especializada dotada de ponta cônica especial e haste reforçada para perfurar mantas acrílicas sem desviar nem quebrar.",
+    definition: "A Quilting Needle (Agulha de Quilting / Agulha Especial para Acolchoamento / Sistema 130/705 H-Q) é uma agulha técnica projetada especificamente para penetrar com suavidade em múltiplas camadas de tecido sobrepostas com mantas acrílicas, de algodão ou de poliéster. Caracteriza-se por uma ponta ligeiramente afilada mas com cone arredondado suave (Special Taper Point) e uma haste com zona de flexão reforçada que previne deflexões quando a agulha atinge costuras grossas.",
+    technicalDetails: "Disponível nos calibres 75/11, 80/12 e 90/14. Seu olho longo e polido reduz o atrito com linhas de algodão e poliéster durante a formação da laçada através da manta comprimida. A geometria do cone impede que a agulha empurre fiapos da manta para fora da chapa de ponto (fenômeno conhecido como 'Bearding').",
+    beginnerExplanation: "É uma agulha especial super resistente feita para furar tecidos grossos com manta por dentro sem entortar, sem quebrar e sem deixar aqueles pelinhos brancos da manta escaparem para fora da roupa.",
+    howItWorks: [
+      "1. A agulha penetra suavemente no tecido de topo sem cortar as fibras da trama.",
+      "2. A ponta cônica afasta os filamentos da manta acrílica sem prender nem puxar tufos para cima.",
+      "3. A haste reforçada desce reta até o ponto morto inferior sem desviar em direção à lançadeira.",
+      "4. A laçada inferior se abre com folga graças ao canalete longo da agulha.",
+      "5. O ponto é arrematado no centro do sanduíche de quilt com firmeza e sem falhas."
+    ],
+    applications: [
+      "Execução de matrizes de matelassê e quilt no bastidor em tecidos acolchoados.",
+      "Confecção de nécessaires, bolsas e carteiras estruturadas com manta R1 ou R2.",
+      "Bordados em jaquetas acolchoadas, casacos de inverno e cobertores infantis."
+    ],
+    characteristics: [
+      "Ponta cônica especial que previne o vazamento de fibras da manta (Anti-Bearding).",
+      "Haste rígida de aço temperado com alta resistência à quebra por deflexão.",
+      "Olho alongado que facilita a passagem de linhas de diversas espessuras."
+    ],
+    commonErrors: [
+      "❌ Usar agulha fina 65/9 para bordar sobre manta grossa, entortando a agulha e quebrando a ponta na lançadeira.",
+      "❌ Usar agulha de ponta lança cortante (Leather/Couro) em tecidos com manta, cortando as fibras e rasgando o tecido.",
+      "❌ Continuar usando a agulha após mais de 10 horas de uso contínuo em mantas abrasivas."
+    ],
+    troubleshootingTips: [
+      "Pelinhos brancos da manta saindo pelos furos do tecido: troque imediatamente a agulha por uma Quilting Needle 80/12 nova com ponta lisa e sem rebarbas.",
+      "Máquina pulando pontos ao passar por emendas de manta: instale uma agulha Quilting 90/14 para garantir rigidez mecânica total.",
+      "Linha superior desfiando no olho da agulha: verifique se o calibre da agulha é compatível com a espessura da linha utilizada."
+    ],
+    dicaArtrelados: "Se você faz muitas nécessaires e projetos 'No Bastidor' (ITH) com manta R1 ou R2: tenha sempre um pacotinho de agulhas Quilting 80/12 no seu ateliê. Elas duram muito mais e nunca deixam a manta escapar pelos furinhos!",
+    voceSabia: "As agulhas de Quilting da marca alemã Schmetz possuem uma faixa de cor verde no encaixe para facilitar a identificação imediata na bancada de trabalho sem precisar de lupa para ler o calibre.",
+    practicalExercise: "Pegue um pedaço de tecido com manta R2. Experimente bordar 10 cm de ponto de corrida com uma agulha comum gasta e depois com uma Quilting Needle 80/12 nova. Observe como os furos da agulha de quilting fecham suavemente sem deixar marcas.",
+    quickSummary: "Quilting Needle é a agulha com ponta cônica e haste reforçada projetada para perfurar mantas acrílicas sem quebrar e sem puxar fiapos para fora.",
+    relatedTerms: ["Agulha de Bordado", "Manta R1/R2", "Calibre de Agulha", "Bearding", "Matelassê"],
+    tags: ["quiltingneedle", "agulha", "manta", "acolchoamento", "acessorios", "ferramentas"]
+  },
+  {
+    id: "quadrimensional-stitching-bordado-multicamadas",
+    code: "Q-066",
+    letter: "Q",
+    term: "Quadrimensional Stitching — Bordado Multicamadas (Texturas Hiper-Realistas & Profundidade 4D)",
+    pronunciation: "cua-dri-men-shon-al stit-ching — bor-da-do mul-ti-ca-ma-das",
+    level: "Avançado 🔴",
+    category: "Programação de Bordado",
+    grammarClass: "Substantivo masculino composto.",
+    origin: "Do latim quadri (quatro) e dimension (dimensão). Conceito de arte têxtil contemporânea que une altura física, ângulos de luz, textura tátil e tempo de transição cromática.",
+    summary: "Técnica avançada de digitalização artística que sobrepõe camadas de satim, tatami gradiente e pontos flutuantes para criar efeito hiper-realista.",
+    definition: "O Quadrimensional Stitching (Bordado Multicamadas / Bordado Texturizado Hiper-Realista / 4D Dimensional Embroidery) é o ápice da engenharia artística de matrizes, onde o programador combina 4 dimensões de percepção: 1) A geometria do plano X-Y; 2) O relevo de profundidade Z obtido por gradientes de densidade e underlays escalonados; 3) O reflexo dinâmico da luz gerado por múltiplos ângulos de inclinação de satim; e 4) O degradê cromático progressivo (Color Blending / Shading) que confere sensação de volume vivo e movimento a retratos, animais e paisagens.",
+    technicalDetails: "Exige domínio completo de curvas vetoriais, densidades variáveis (de 0,25 mm a 1,20 mm na mesma área), pontos com extremidades plumadas (Feathered Edge / Jagged Edge) e sobreposição de até 6 camadas translúcidas de linhas finas (calibre 60 wt) sem criar excesso de rigidez no tecido.",
+    beginnerExplanation: "É o bordado que parece uma pintura a óleo em 3D de verdade: a bordadeira programa as linhas em direções e cores diferentes para criar pelos de animais, penas de pássaros e rostos tão perfeitos que parecem vivos e brilhantes como uma escultura de linha.",
+    howItWorks: [
+      "1. A imagem de referência de alta resolução é decomposta em mapas de sombra, relevo e reflexo de luz.",
+      "2. Cria-se a camada de base (Base Layer) em tatami aberto com orientação perpendicular à luz.",
+      "3. Sobrepõem-se camadas intermediárias de sombreamento com bordas plumadas e densidades gradientes.",
+      "4. Aplica-se a camada superior de detalhes finos (Top Layer) com colunas satim de ângulos múltiplos que refratam a luz.",
+      "5. A máquina costura a matriz com agulhas finas 65/9 e linhas de alta refletância.",
+      "6. A peça final ganha tridimensionalidade, brilho variável conforme a posição do observador e toque tátil rico."
+    ],
+    applications: [
+      "Quadros de arte têxtil decorativa de altíssimo valor agregado (Hoop Art de luxo).",
+      "Retratos fotorrealistas bordados de animais de estimação (Pet Embroidery) e figuras humanas.",
+      "Peças de alta-costura para passarelas e marcas internacionais de luxo.",
+      "Brasões comemorativos e insígnias cerimoniais de alta complexidade."
+    ],
+    characteristics: [
+      "Efeito visual hiper-realista que impressiona pela riqueza de detalhes e sombras.",
+      "Reflexão dinâmica de brilho conforme a luz do ambiente atinge os diferentes ângulos.",
+      "Toque macio e flexível garantido pelo controle milimétrico de densidades abertas."
+    ],
+    commonErrors: [
+      "❌ Sobrepor muitas camadas sólidas sem bordas plumadas, criando uma 'placa dura de concreto' que quebra agulhas.",
+      "❌ Usar linha grossa em áreas de detalhes minúsculos, deixando o desenho empastado e grosseiro.",
+      "❌ Não usar entretela de corte limpo (Cut-Away) pesada, fazendo o tecido enrugar sob o volume de pontos."
+    ],
+    troubleshootingTips: [
+      "O bordado ficou duro como papelão: diminua a densidade das camadas de fundo (aumente o espaçamento para 0,80 mm a 1,20 mm) e use bordas plumadas para fundir as cores.",
+      "A agulha está quebrando nas sobreposições: ative o recurso de 'Remover Pontos Ocultos' (Remove Underneath Stitches) no software.",
+      "Os pelos do animal não parecem naturais: varie os comprimentos de ponto (Random Stitch Length) e ajuste os ângulos das colunas para acompanhar a anatomia real do animal."
+    ],
+    dicaArtrelados: "Para fazer bordados artísticos e pelos de animais que parecem de verdade: nunca use pontos retos com cortes secos! Ative sempre a borda plumada (Feather Edge) nas duas pontas e misture pelo menos 3 tons de linha da mesma cor (claro, médio e escuro). O efeito é pura magia!",
+    voceSabia: "Artistas têxteis contemporâneos utilizam o Quadrimensional Stitching para reproduzir obras famosas de Van Gogh e Monet com mais de 300.000 pontos e 80 trocas de cor em quadros que levam dias para serem executados.",
+    practicalExercise: "No seu software, desenhe uma folha simples. Divida-a em 3 faixas sobrepostas com bordas plumadas (Feather Edge): verde escuro, verde médio e verde claro. Borde em um retalho e veja como as cores se fundem suavemente sem divisões duras.",
+    quickSummary: "Quadrimensional Stitching é a técnica artística avançada que combina relevo, gradientes cromáticos e múltiplos ângulos de luz para criar bordados hiper-realistas.",
+    relatedTerms: ["Color Blending (Degradê de Linhas)", "Bordas Plumadas (Feather Edge)", "Densidade Variável", "Bordado Fotorrealista"],
+    tags: ["quadrimensional", "multicamadas", "fotorrealismo", "arte", "degrade", "avançado"]
   }
 ];
