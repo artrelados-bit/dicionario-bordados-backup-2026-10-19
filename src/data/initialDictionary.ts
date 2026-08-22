@@ -57,6 +57,66 @@ export const INITIAL_VERBETES: Verbete[] = [
 
 export const INITIAL_TROUBLESHOOTING_GUIDES: TroubleshootingGuide[] = [
   {
+    id: "agulha-torta-empenada",
+    title: "Agulha Torta / Empenada ou Batendo na Chapa de Ponto",
+    category: "Linhas & Agulhas",
+    symptoms: [
+      "Agulha visivelmente torta ou curvada ao olhar de perfil",
+      "Barulho seco metálico (estalo) quando a agulha desce na chapa",
+      "Quebra frequente de agulha ou chapa de ponto riscada",
+      "Pulos de ponto sucessivos e desfiamento da linha no olho da agulha"
+    ],
+    probableCauses: [
+      "Deflexão da agulha ao penetrar em tecido pesado ou área com densidade excessiva",
+      "Puxar ou segurar o bastidor manualmente enquanto a máquina está bordando",
+      "Agulha de numeração muito fina (ex: 70/10) para tecidos rígidos (jeans, sarja, lona)",
+      "Parafuso do fixador de agulha frouxo ou agulha inserida com o lado chato (flat) virado errado",
+      "Bastidor mal travado que se soltou e colidiu com a barra de agulhas"
+    ],
+    stepByStepSolution: [
+      "1. Desligue a máquina de bordar e retire a agulha imediatamente. NUNCA tente desentortar uma agulha; descarte-a com segurança no lixo rígido.",
+      "2. Inspecione a chapa de agulha e a laçadeira com a ponta da unha ou cotonete. Se houver arranhões ou rebarbas metálicas deixadas pela agulha torta, lixe delicadamente com lixa d'água 1200.",
+      "3. Instale uma agulha NOVA própria para bordado (Organ ou Schmetz 75/11 SUK para tecidos médios ou 80/12/90/14 para tecidos grossos), empurrando até o topo do bloco.",
+      "4. Gire o volante manualmente em sua direção (360°) para conferir se a agulha desce perfeitamente centralizada no orifício da chapa.",
+      "5. Reduza a velocidade de bordado para 550 a 650 PPM no painel da sua máquina."
+    ],
+    preventiveAdvice: "Troque a agulha a cada 8 a 10 horas de uso contínuo. Agulhas perdem a rigidez e começam a entortar microscopicamente muito antes de quebrarem.",
+    recommendedProductsOrSettings: {
+      needle: "Organ 75/11 SUK (Ponta Bola) ou 80/12 DBxK5",
+      speed: "600 PPM",
+      stabilizer: "Entretela compatível com a espessura do tecido"
+    }
+  },
+  {
+    id: "ninho-de-passaro-bird-nesting",
+    title: "Ninho de Pássaro (Bird Nesting) / Linha Embolando Embaixo",
+    category: "Tensão & Caixilho",
+    symptoms: [
+      "Grande emaranhado de laçadas e nós embaixo do bastidor",
+      "Máquina trava com mensagem de erro de motor ou corte travado",
+      "Tecido fica 'puxado' para dentro do furo da chapa de agulha"
+    ],
+    probableCauses: [
+      "Linha superior passada com o calcador ABAIXADO (discos de tensão estavam fechados)",
+      "A linha escapou do estica-fio (take-up lever) durante o movimento",
+      "Ponta da linha superior não foi segurada nos primeiros pontos do bordado",
+      "Fiapo ou linha presa nos discos de tensão superiores",
+      "Caixa de bobina solta ou fora do batente de sustentação"
+    ],
+    stepByStepSolution: [
+      "1. Pare a máquina e solte o bastidor com muito cuidado, cortando os fios por baixo com tesourinha de ponta curva sem forçar o pantógrafo.",
+      "2. Retire a caixa de bobina e limpe todos os restos de linha e poeira acumulados na laçadeira.",
+      "3. LEVANTE O CALCADOR DA MÁQUINA e passe a linha superior do zero, conferindo o encaixe no estica-fio.",
+      "4. Recoloque a bobina no sentido correto (formato da letra 'P' ou anti-horário).",
+      "5. Ao reiniciar o bordado, segure o rabicho da linha superior nos primeiros 4 pontos."
+    ],
+    preventiveAdvice: "Regra fundamental da oficina: NUNCA passe a linha com o calcador abaixado. Sempre levante o calcador para abrir os discos de tensão.",
+    recommendedProductsOrSettings: {
+      tension: "Superior 3.2 a 3.8 | Bobina 20g a 24g",
+      speed: "650 PPM"
+    }
+  },
+  {
     id: "linha-superior-quebrando",
     title: "Linha Superior Quebrando Frequentemente",
     category: "Linhas & Agulhas",
@@ -135,5 +195,57 @@ export const INITIAL_TROUBLESHOOTING_GUIDES: TroubleshootingGuide[] = [
       stabilizer: "Entretela Recorta 200g/m² em malhas",
       speed: "700 PPM"
     }
+  },
+  {
+    id: "tecido-enrugado-repuxado-puckering",
+    title: "Tecido Enrugado / Franzido ao Redor do Bordado (Puckering)",
+    category: "Bastidor & Programação",
+    symptoms: [
+      "O tecido ao redor do bordado fica franzido e com ondas depois que sai do bastidor",
+      "O bordado fica rígido como uma tábua e repuxa a peça de roupa"
+    ],
+    probableCauses: [
+      "Puxar as bordas do tecido para esticar na hora de fechar o bastidor (o tecido relaxa depois e enruga)",
+      "Entretela fraca para o peso do tecido ou ausência de entretela recorta em malhas",
+      "Densidade de pontos exagerada na matriz (pontos muito colados abaixo de 0.35mm)",
+      "Tensão superior e de bobina muito apertadas"
+    ],
+    stepByStepSolution: [
+      "1. Não estique o tecido com força ao bastidorar; o tecido deve ficar plano e suave, como estendido em uma mesa.",
+      "2. Para tecidos com elastano, malha e piquet, utilize entretela de recorte (Cutaway) com cola spray temporária.",
+      "3. No programa de bordado, aumente o espaçamento de pontos (densidade 0.40mm no satin e 0.42mm no tatami).",
+      "4. Afrouxe levemente a tensão da linha superior."
+    ],
+    preventiveAdvice: "Use cola temporária em spray 505 para unir o tecido à entretela antes de travar no bastidor.",
+    recommendedProductsOrSettings: {
+      stabilizer: "Entretela Recorta (Cutaway) 80g a 200g",
+      needle: "75/11 Ponta Bola (SES/SUK)"
+    }
+  },
+  {
+    id: "pulos-de-ponto-skipped-stitches",
+    title: "Pulos de Ponto (Skipped Stitches) / Falha na Formação do Ponto",
+    category: "Linhas & Agulhas",
+    symptoms: [
+      "Pontos abertos ou fios soltos flutuando sobre o tecido",
+      "Partes do desenho ficam sem bordar sem que a linha tenha quebrado"
+    ],
+    probableCauses: [
+      "Agulha torta, sem ponta ou colocada na altura errada",
+      "Calcador da máquina muito alto, permitindo que o tecido suba junto com a agulha (bandeiramento)",
+      "Tecido muito espesso ou elástico fazendo o laço de linha colapsar antes da laçadeira pegar"
+    ],
+    stepByStepSolution: [
+      "1. Coloque uma agulha nova própria de bordado e empurre até o topo do encaixe.",
+      "2. Regule a altura do calcador para que ele fique a 1mm acima do tecido quando a agulha estiver no ponto mais baixo.",
+      "3. Se o tecido for felpudo ou elástico, use filme plástico solúvel por cima.",
+      "4. Reduza a velocidade da máquina para 550 PPM."
+    ],
+    preventiveAdvice: "Use sempre agulhas com cava profunda (Deep Scarf / sistema DBxK5) que facilitam a captura da linha pela laçadeira.",
+    recommendedProductsOrSettings: {
+      needle: "Organ 75/11 DBxK5 ou 130/705 H-E",
+      speed: "550 a 600 PPM"
+    }
   }
 ];
+

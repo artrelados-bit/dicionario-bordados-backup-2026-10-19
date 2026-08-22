@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { Wrench, AlertTriangle, CheckCircle2, Sparkles, Search, Loader2, ChevronDown, ChevronUp } from "lucide-react";
+import { Wrench, AlertTriangle, CheckCircle2, Sparkles, Search, Loader2, ChevronDown, ChevronUp, Copy, Check, RefreshCw, Gauge, ShieldAlert, Zap } from "lucide-react";
 import { TroubleshootingGuide } from "../types";
+import { analyzeEmbroideryProblem, DiagnosticResult } from "../utils/diagnosticEngine";
 
 interface TroubleshootingViewProps {
   guides: TroubleshootingGuide[];
@@ -11,14 +12,14 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({ guides
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [expandedGuideId, setExpandedGuideId] = useState<string | null>(guides[0]?.id || null);
 
-  // Custom AI Diagnostic state
-  const [isAiDiagOpen, setIsAiDiagOpen] = useState<boolean>(false);
+  // Custom Diagnostic state
+  const [isAiDiagOpen, setIsAiDiagOpen] = useState<boolean>(true);
   const [customProblem, setCustomProblem] = useState<string>("");
   const [machineModel, setMachineModel] = useState<string>("");
   const [fabricType, setFabricType] = useState<string>("");
-  const [loadingAi, setLoadingAi] = useState<boolean>(false);
-  const [aiError, setAiError] = useState<string | null>(null);
-  const [customGuide, setCustomGuide] = useState<any | null>(null);
+  const [loadingDiag, setLoadingDiag] = useState<boolean>(false);
+  const [diagnosticResult, setDiagnosticResult] = useState<DiagnosticResult | null>(null);
+  const [copiedDiag, setCopiedDiag] = useState<boolean>(false);
 
   const categories = ["Todas", "Linhas & Agulhas", "Tensão & Caixilho", "Bastidor & Programação", "Mecânica & Ajustes"];
 
@@ -32,34 +33,32 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({ guides
     return matchesCat && matchesQuery;
   });
 
-  const handleRunAiTroubleshoot = async (e: React.FormEvent) => {
+  const handleRunDiagnostic = (e: React.FormEvent) => {
     e.preventDefault();
     if (!customProblem.trim()) return;
 
-    setLoadingAi(true);
-    setAiError(null);
-    try {
-      const res = await fetch("/api/gemini/troubleshoot", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          problemDescription: customProblem,
-          machineModel,
-          fabricType,
-        }),
-      });
+    setLoadingDiag(true);
+    setDiagnosticResult(null);
 
-      const data = await res.json();
-      if (!data.success) {
-        throw new Error(data.error || "Erro ao consultar a IA.");
+    // Provide immediate, highly accurate client-side analysis with realistic feedback delay
+    setTimeout(() => {
+      try {
+        const result = analyzeEmbroideryProblem(customProblem, machineModel, fabricType);
+        setDiagnosticResult(result);
+      } catch (err) {
+        console.error(err);
+      } finally {
+        setLoadingDiag(false);
       }
+    }, 450);
+  };
 
-      setCustomGuide(data.guide);
-    } catch (err: any) {
-      setAiError(err.message || "Não foi possível gerar o diagnóstico no momento.");
-    } finally {
-      setLoadingAi(false);
-    }
+  const handleCopyDiagnostic = () => {
+    if (!diagnosticResult) return;
+    const text = `📋 DIAGNÓSTICO DA OFICINA ARTRELADOS\n${diagnosticResult.title}\n\nResumo:\n${diagnosticResult.summary}\n\nCausas Prováveis:\n${diagnosticResult.probableCauses.map((c) => `• ${c}`).join("\n")}\n\nSolução Passo a Passo:\n${diagnosticResult.stepByStepSolution.join("\n")}\n\n${diagnosticResult.artreladosTip}`;
+    navigator.clipboard.writeText(text);
+    setCopiedDiag(true);
+    setTimeout(() => setCopiedDiag(false), 2500);
   };
 
   return (
@@ -70,13 +69,13 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({ guides
           <div className="space-y-1">
             <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full text-xs font-extrabold bg-amber-100 text-amber-900 border border-amber-300">
               <Wrench className="w-3.5 h-3.5 text-amber-700" />
-              <span>Guias de Resolução Técnica Offline</span>
+              <span>Oficina Técnica Artrelados</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-black text-slate-900">
-              Diagnóstico de Problemas em Bordado Eletrônico
+              Diagnóstico e Solução de Problemas
             </h2>
             <p className="text-slate-600 text-xs sm:text-sm max-w-2xl font-medium">
-              Soluções passo a passo para falhas de tensão, quebra de linha, desalinhamento e estragos em tecidos. Funciona mesmo sem internet com os guias nativos.
+              Prescrição técnica imediata para agulhas tortas, falhas de tensão, quebra de linha, desalinhamento e estragos em tecidos. Funciona de forma 100% autônoma e instantânea.
             </p>
           </div>
 
@@ -85,23 +84,29 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({ guides
             className="px-4 py-2.5 rounded-xl bg-[#101726] hover:bg-slate-800 text-white font-extrabold text-xs sm:text-sm flex items-center space-x-2 shadow transition shrink-0 cursor-pointer"
           >
             <Sparkles className="w-4 h-4 text-amber-400" />
-            <span>{isAiDiagOpen ? "Fechar Diagnóstico IA" : "Diagnóstico Personalizado com IA"}</span>
+            <span>{isAiDiagOpen ? "Ocultar Diagnóstico Personalizado" : "Novo Diagnóstico Personalizado"}</span>
           </button>
         </div>
       </div>
 
-      {/* AI Custom Troubleshooting Panel */}
+      {/* Custom Diagnostic Assistant Form */}
       {isAiDiagOpen && (
-        <div className="p-6 rounded-3xl bg-white border border-slate-200 shadow-md space-y-4 animate-fade-in">
-          <div className="flex items-center space-x-2 text-slate-900 font-extrabold text-lg">
-            <Sparkles className="w-5 h-5 text-amber-500" />
-            <h3>Diagnóstico Personalizado da Oficina Artrelados</h3>
+        <div className="p-6 rounded-3xl bg-white border border-amber-300 shadow-md space-y-4 animate-fade-in">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center space-x-2 text-slate-900 font-extrabold text-lg">
+              <Sparkles className="w-5 h-5 text-amber-500" />
+              <h3>Diagnóstico Personalizado da Oficina Artrelados</h3>
+            </div>
+            <span className="text-[11px] font-black px-2.5 py-1 bg-emerald-100 text-emerald-800 rounded-full border border-emerald-300">
+              ✓ Atendimento Imediato
+            </span>
           </div>
+
           <p className="text-slate-600 text-xs sm:text-sm">
-            Descreva detalhadamente o problema que você está enfrentando na sua máquina de bordar (Brother, Janome, Barudan, Tajima, Singer, etc.) para que a IA analise o motivo exato e prescreva a solução.
+            Descreva o que está acontecendo na sua máquina de bordar (Brother, Janome, Barudan, Tajima, Singer, etc.) para receber a análise exata das causas e o passo a passo de correção.
           </p>
 
-          <form onSubmit={handleRunAiTroubleshoot} className="space-y-4">
+          <form onSubmit={handleRunDiagnostic} className="space-y-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div>
                 <label className="block text-xs font-bold text-slate-700 mb-1">
@@ -109,10 +114,10 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({ guides
                 </label>
                 <input
                   type="text"
-                  placeholder="Ex: Brother PE810L, Janome MC550E, Tajima 12 cabeças..."
+                  placeholder="Ex: Janome MC500E, Brother PE810L, Tajima..."
                   value={machineModel}
                   onChange={(e) => setMachineModel(e.target.value)}
-                  className="w-full px-3.5 py-2 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 text-xs sm:text-sm placeholder-slate-400 focus:bg-white focus:border-slate-500 focus:outline-none"
+                  className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 text-xs sm:text-sm placeholder-slate-400 focus:bg-white focus:border-amber-500 focus:ring-2 focus:ring-amber-200 focus:outline-none"
                 />
               </div>
 
@@ -122,10 +127,10 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({ guides
                 </label>
                 <input
                   type="text"
-                  placeholder="Ex: Malha 100% Algodão, Toalha felpuda, Piquê, Couro sintético..."
+                  placeholder="Ex: Algodão, Malha, Toalha felpuda, Piquê, Jeans..."
                   value={fabricType}
                   onChange={(e) => setFabricType(e.target.value)}
-                  className="w-full px-3.5 py-2 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 text-xs sm:text-sm placeholder-slate-400 focus:bg-white focus:border-slate-500 focus:outline-none"
+                  className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 text-xs sm:text-sm placeholder-slate-400 focus:bg-white focus:border-amber-500 focus:ring-2 focus:ring-amber-200 focus:outline-none"
                 />
               </div>
             </div>
@@ -137,75 +142,170 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({ guides
               <textarea
                 rows={3}
                 required
-                placeholder="Ex: A linha superior fica dando laço por baixo do tecido, e quando acelera a máquina acima de 700 PPM faz um barulho forte na laçadeira..."
+                placeholder="Ex: A agulha torta, linha quebrando a cada 200 pontos, ou linha de bobina brotando em cima..."
                 value={customProblem}
                 onChange={(e) => setCustomProblem(e.target.value)}
-                className="w-full p-3 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 text-xs sm:text-sm placeholder-slate-400 focus:bg-white focus:border-slate-500 focus:outline-none"
+                className="w-full p-3 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 text-xs sm:text-sm placeholder-slate-400 focus:bg-white focus:border-amber-500 focus:ring-2 focus:ring-amber-200 focus:outline-none"
               />
             </div>
 
-            <div className="flex justify-end">
-              <button
-                type="submit"
-                disabled={loadingAi || !customProblem.trim()}
-                className="px-5 py-2.5 rounded-xl bg-[#101726] hover:bg-slate-800 disabled:opacity-50 text-white font-extrabold text-xs sm:text-sm flex items-center space-x-2 shadow transition cursor-pointer"
-              >
-                {loadingAi ? (
-                  <>
-                    <Loader2 className="w-4 h-4 animate-spin" />
-                    <span>Analisando Defeito com IA...</span>
-                  </>
-                ) : (
-                  <>
-                    <Sparkles className="w-4 h-4 text-amber-400" />
-                    <span>Gerar Diagnóstico Técnico</span>
-                  </>
+            <div className="flex items-center justify-between pt-1">
+              <div className="text-[11px] text-slate-500 font-medium">
+                💡 Dica: você pode pesquisar por termos como &quot;agulha torta&quot;, &quot;ninho embaixo&quot; ou &quot;tecido repuxando&quot;.
+              </div>
+
+              <div className="flex items-center space-x-2">
+                {diagnosticResult && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setDiagnosticResult(null);
+                      setCustomProblem("");
+                    }}
+                    className="px-3.5 py-2 rounded-xl text-slate-600 hover:bg-slate-100 text-xs font-bold transition cursor-pointer"
+                  >
+                    Limpar
+                  </button>
                 )}
-              </button>
+
+                <button
+                  type="submit"
+                  disabled={loadingDiag || !customProblem.trim()}
+                  className="px-5 py-2.5 rounded-xl bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-xs sm:text-sm flex items-center space-x-2 shadow transition cursor-pointer border border-amber-500 disabled:opacity-50"
+                >
+                  {loadingDiag ? (
+                    <>
+                      <Loader2 className="w-4 h-4 animate-spin text-slate-950" />
+                      <span>Analisando Defeito...</span>
+                    </>
+                  ) : (
+                    <>
+                      <Zap className="w-4 h-4 text-slate-950" />
+                      <span>Gerar Diagnóstico Técnico</span>
+                    </>
+                  )}
+                </button>
+              </div>
             </div>
           </form>
 
-          {aiError && (
-            <div className="p-3 rounded-xl bg-red-50 border border-red-200 text-red-700 text-xs font-bold">
-              {aiError}
-            </div>
-          )}
+          {/* Diagnostic Result Card */}
+          {diagnosticResult && (
+            <div className="mt-5 p-5 sm:p-6 rounded-3xl bg-amber-50/70 border-2 border-amber-400 space-y-5 animate-fade-in text-slate-900 shadow-sm">
+              {/* Card Header */}
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 border-b border-amber-200 pb-3">
+                <div className="space-y-1">
+                  <div className="flex items-center space-x-2">
+                    <span className="px-2.5 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-rose-100 text-rose-800 border border-rose-300">
+                      Severidade: {diagnosticResult.severity}
+                    </span>
+                    <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-white text-slate-700 border border-slate-200">
+                      {diagnosticResult.category}
+                    </span>
+                  </div>
+                  <h4 className="text-base sm:text-lg font-black text-slate-900 flex items-center gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
+                    {diagnosticResult.title}
+                  </h4>
+                </div>
 
-          {/* AI Result Card */}
-          {customGuide && (
-            <div className="mt-4 p-5 rounded-2xl bg-amber-50 border border-amber-200 space-y-4 animate-fade-in text-slate-900">
-              <div className="flex items-center space-x-2 text-slate-900 font-extrabold text-base border-b border-amber-200 pb-2">
-                <CheckCircle2 className="w-5 h-5 text-emerald-600" />
-                <span>{customGuide.title}</span>
+                <button
+                  onClick={handleCopyDiagnostic}
+                  className="px-3 py-1.5 rounded-xl bg-white hover:bg-slate-100 text-slate-800 border border-amber-300 text-xs font-bold flex items-center space-x-1.5 transition cursor-pointer shadow-sm self-end sm:self-auto"
+                >
+                  {copiedDiag ? (
+                    <>
+                      <Check className="w-3.5 h-3.5 text-emerald-600" />
+                      <span className="text-emerald-700">Copiado!</span>
+                    </>
+                  ) : (
+                    <>
+                      <Copy className="w-3.5 h-3.5 text-slate-600" />
+                      <span>Copiar Diagnóstico</span>
+                    </>
+                  )}
+                </button>
               </div>
 
-              <div>
-                <strong className="text-xs uppercase text-slate-600 tracking-wider block mb-1">
-                  Causas Prováveis:
+              {/* Summary Description */}
+              <div className="p-3.5 rounded-2xl bg-white border border-amber-200 text-xs sm:text-sm text-slate-800 leading-relaxed font-medium">
+                {diagnosticResult.summary}
+              </div>
+
+              {/* Probable Causes */}
+              <div className="space-y-2">
+                <strong className="text-xs font-extrabold uppercase text-amber-900 tracking-wider flex items-center gap-1.5">
+                  <AlertTriangle className="w-4 h-4 text-amber-600" />
+                  Causas Prováveis Identificadas:
                 </strong>
-                <ul className="list-disc list-inside text-xs text-slate-800 space-y-1 font-medium">
-                  {customGuide.probableCauses?.map((c: string, idx: number) => (
-                    <li key={idx}>{c}</li>
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-800 font-medium">
+                  {diagnosticResult.probableCauses.map((c, idx) => (
+                    <li key={idx} className="p-2.5 rounded-xl bg-white border border-slate-200 flex items-start space-x-2">
+                      <span className="text-amber-600 font-bold">•</span>
+                      <span>{c}</span>
+                    </li>
                   ))}
                 </ul>
               </div>
 
-              <div>
-                <strong className="text-xs uppercase text-slate-900 font-extrabold tracking-wider block mb-2">
+              {/* Step-by-Step Solution */}
+              <div className="space-y-2">
+                <strong className="text-xs font-black uppercase text-slate-900 tracking-wider flex items-center gap-1.5">
+                  <CheckCircle2 className="w-4 h-4 text-emerald-600" />
                   Passo a Passo de Solução Recomendada:
                 </strong>
-                <ol className="space-y-2 text-xs sm:text-sm text-slate-800 font-medium">
-                  {customGuide.stepByStepSolution?.map((step: string, idx: number) => (
-                    <li key={idx} className="p-2.5 rounded-lg bg-white border border-slate-200 leading-relaxed shadow-sm">
-                      {step}
-                    </li>
+                <div className="space-y-2 text-xs sm:text-sm text-slate-800 font-medium">
+                  {diagnosticResult.stepByStepSolution.map((step, idx) => (
+                    <div key={idx} className="p-3 rounded-xl bg-white border border-slate-200 leading-relaxed shadow-sm flex items-start space-x-3">
+                      <span className="w-5 h-5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-black flex items-center justify-center shrink-0 mt-0.5">
+                        {idx + 1}
+                      </span>
+                      <span>{step}</span>
+                    </div>
                   ))}
-                </ol>
+                </div>
               </div>
 
-              {customGuide.preventiveAdvice && (
-                <div className="p-3 rounded-xl bg-white border border-amber-300 text-xs text-slate-800 font-medium">
-                  <strong className="text-amber-800">Conselho Preventivo:</strong> {customGuide.preventiveAdvice}
+              {/* Recommended Parameters for Machine & Fabric */}
+              {diagnosticResult.recommendedSettings && (
+                <div className="p-4 rounded-2xl bg-white border border-amber-300 space-y-2">
+                  <strong className="text-xs font-extrabold uppercase text-slate-900 tracking-wider flex items-center gap-1.5">
+                    <Gauge className="w-4 h-4 text-amber-600" />
+                    Parâmetros Ideais Recomendados:
+                  </strong>
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs">
+                    {diagnosticResult.recommendedSettings.needle && (
+                      <div className="p-2 bg-slate-50 rounded-lg border border-slate-200">
+                        <span className="text-[10px] text-slate-500 font-bold block uppercase">Agulha</span>
+                        <span className="font-bold text-slate-800">{diagnosticResult.recommendedSettings.needle}</span>
+                      </div>
+                    )}
+                    {diagnosticResult.recommendedSettings.speed && (
+                      <div className="p-2 bg-slate-50 rounded-lg border border-slate-200">
+                        <span className="text-[10px] text-slate-500 font-bold block uppercase">Velocidade</span>
+                        <span className="font-bold text-slate-800">{diagnosticResult.recommendedSettings.speed}</span>
+                      </div>
+                    )}
+                    {diagnosticResult.recommendedSettings.tension && (
+                      <div className="p-2 bg-slate-50 rounded-lg border border-slate-200">
+                        <span className="text-[10px] text-slate-500 font-bold block uppercase">Tensão</span>
+                        <span className="font-bold text-slate-800">{diagnosticResult.recommendedSettings.tension}</span>
+                      </div>
+                    )}
+                    {diagnosticResult.recommendedSettings.stabilizer && (
+                      <div className="p-2 bg-slate-50 rounded-lg border border-slate-200">
+                        <span className="text-[10px] text-slate-500 font-bold block uppercase">Entretela</span>
+                        <span className="font-bold text-slate-800">{diagnosticResult.recommendedSettings.stabilizer}</span>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
+
+              {/* Artrelados Tip */}
+              {diagnosticResult.artreladosTip && (
+                <div className="p-3.5 rounded-2xl bg-amber-100/80 border border-amber-300 text-xs text-amber-950 font-bold">
+                  {diagnosticResult.artreladosTip}
                 </div>
               )}
             </div>
@@ -238,7 +338,7 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({ guides
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-slate-400" />
             <input
               type="text"
-              placeholder="Buscar problema..."
+              placeholder="Buscar problema ou defeito..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full pl-9 pr-3 py-1.5 bg-slate-50 border border-slate-300 rounded-lg text-slate-900 text-xs placeholder-slate-400 focus:outline-none focus:bg-white focus:border-slate-500"
@@ -255,7 +355,7 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({ guides
                 key={guide.id}
                 className={`border rounded-2xl transition-all overflow-hidden ${
                   isExpanded
-                    ? "bg-white border-slate-400 shadow-md"
+                    ? "bg-white border-amber-400 shadow-md"
                     : "bg-white border-slate-200 hover:border-slate-300"
                 }`}
               >
@@ -334,7 +434,7 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({ guides
 
                     {/* Preventive Advice */}
                     {guide.preventiveAdvice && (
-                      <div className="p-3 rounded-xl bg-amber-50 border border-amber-200 text-xs text-slate-800">
+                      <div className="p-3.5 rounded-xl bg-amber-50 border border-amber-200 text-xs text-slate-800 font-medium">
                         <strong className="font-extrabold text-amber-900 block mb-0.5">Dica de Prevenção da Oficina:</strong>
                         {guide.preventiveAdvice}
                       </div>
@@ -348,12 +448,15 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({ guides
           {filteredGuides.length === 0 && (
             <div className="text-center py-12 text-slate-500 space-y-2">
               <Wrench className="w-8 h-8 text-slate-400 mx-auto" />
-              <p className="font-medium">Nenhum guia nativo encontrado para sua busca.</p>
+              <p className="font-medium">Nenhum guia encontrado para os termos pesquisados.</p>
               <button
-                onClick={() => setIsAiDiagOpen(true)}
+                onClick={() => {
+                  setSelectedCategory("Todas");
+                  setSearchQuery("");
+                }}
                 className="text-xs text-amber-700 underline font-extrabold cursor-pointer"
               >
-                Usar o Gerador de Diagnóstico IA para este problema
+                Limpar filtros de busca
               </button>
             </div>
           )}
@@ -362,4 +465,5 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({ guides
     </div>
   );
 };
+
 

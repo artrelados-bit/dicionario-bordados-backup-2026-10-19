@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { X, Star, Gauge, Zap, AlertTriangle, CheckCircle2, Copy, Check, Layers, BookOpen, BookMarked } from "lucide-react";
+import { X, Star, Sparkles, Gauge, Zap, AlertTriangle, CheckCircle2, Copy, Check, Layers, BookOpen, BookMarked } from "lucide-react";
 import { Verbete } from "../types";
 import { StitchDiagram } from "./StitchDiagram";
 
