@@ -307,5 +307,262 @@ export const VERBETES_LETTER_V12: Verbete[] = [
     quickSummary: "Estilo estético clássico e atemporal que utiliza pontos leves, linhas foscas de algodão e motivos nostálgicos para criar peças de elegância nobre.",
     relatedTerms: ["Vintage", "Retrô", "Linho Puro", "Bean Stitch", "Redwork", "Linha de Algodão", "Estética Rústica"],
     tags: ["vintage", "retro", "estilo", "linho", "nostalgia", "algodao", "decorativo"]
+  },
+  {
+    id: "vectorization-node-editing-vetorizacao-edicao-nos",
+    code: "V-062",
+    letter: "V",
+    term: "Vectorization & Node Editing — Vetorização & Edição de Nós de Curva (Curvas Bézier & Modelagem de Matrizes)",
+    pronunciation: "vék-to-rai-zêi-shon end nôud é-di-ting — ve-to-ri-za-são e e-di-são de nós",
+    level: "Intermediário 🟡",
+    category: "Softwares & Formatos",
+    grammarClass: "Substantivo feminina composta.",
+    origin: "Do latim vector (aquele que conduz/transporta) e do francês Pierre Bézier (engenheiro da Renault que desenvolveu as curvas matemáticas paramétricas na década de 1960).",
+    summary: "Processo de desenho e manipulação de curvas paramétricas e pontos de controle vetoriais que definem as formas geométricas antes da geração de pontos de bordado.",
+    definition: "A Vectorization & Node Editing (Vetorização Vetorial & Edição de Nós / Modelagem de Curvas Bézier / Object Node & Shape Editing) é o conjunto de operações fundamentais de desenho em softwares de digitalização de bordado (como Wilcom, Pulse, Embird Studio, Hatch, Bernina Designer). Consiste em traçar sobre uma imagem bitmap (JPEG/PNG) objetos gráficos vetoriais compostos por nós de canto (Corner Nodes / nós quadrados de vértice reto) e nós de curva (Curve Nodes / nós circulares com alças tangentes de suavização), definindo com exatidão matemática o contorno perimetral, o sentido dos pontos e as aberturas internas (Holes) das colunas satim e áreas tatami.",
+    technicalDetails: "A precisão da matriz depende do número e posicionamento estratégico dos nós. O excesso de nós (Over-noding) cria ondulações no contorno e gera microagulhadas indesejadas que aumentam o tempo de máquina; já a falta de nós deforma curvas fechadas. Na edição avançada, o programador utiliza a conversão de nós (tecla de espaço no Wilcom) e a ferramenta 'Reshape' para ajustar tangentes, definir linhas de corte (Split Lines) e orientar os ângulos de ponto (Stitch Angles) perpendicularmente à curvatura do objeto.",
+    beginnerExplanation: "É como desenhar com uma caneta mágica no computador, clicando na tela para criar pequenos pontinhos que você pode puxar e esticar até o desenho ficar com as curvas perfeitamente lisinhas e sem nenhum defeito antes do programa transformar tudo em bordado de verdade!",
+    howItWorks: [
+      "1. O digitador importa a logomarca do cliente em alta resolução no software.",
+      "2. Seleciona a ferramenta de digitalização manual de colunas ou blocos de preenchimento.",
+      "3. Clica com o botão esquerdo para criar pontos retos (nós de quina) e botão direito para nós curvos.",
+      "4. Usa a ferramenta de remodelagem (Reshape / Node Edit) para visualizar as alças de Bézier.",
+      "5. Ajusta as tangentes eliminando nós desnecessários para criar curvas perfeitamente contínuas e suaves.",
+      "6. Define as linhas de ângulo de inclinação de ponto perpendiculares à forma da curva.",
+      "7. O software compila o vetor e gera os pontos com alinhamento e brilho incomparáveis."
+    ],
+    applications: [
+      "Digitalização manual de logotipos corporativos, tipografias personalizadas e ilustrações artísticas.",
+      "Correção de arestas serrilhadas geradas por importações automáticas de bitmaps de baixa qualidade.",
+      "Criação de vazados internos (Holes) em letras como 'O', 'A', 'P' e 'D' em grandes preenchimentos.",
+      "Ajuste fino de compensações de repuxo e sobreposições de cores diretamente na malha vetorial."
+    ],
+    characteristics: [
+      "Controle geométrico absoluto com escalonamento infinito sem perda de resolução.",
+      "Diferenciação clara entre vértices agudos e arcos suaves através de nós Bézier.",
+      "Geração limpa de pontos com número otimizado de agulhadas."
+    ],
+    commonErrors: [
+      "❌ Colocar centenas de nós em uma reta simples, criando serrilhado mecânico e travamento de agulha.",
+      "❌ Usar vetorização automática ('Auto-Digitize') com 1 clique em imagens de baixa qualidade, gerando milhares de nós caóticos e pontos deformados.",
+      "❌ Esquecer de fechar o vetor em áreas de preenchimento, gerando erros de compilação na matriz."
+    ],
+    troubleshootingTips: [
+      "A curva do círculo está cheia de 'bicos' e pontas tortas: abra o modo de edição de nós (tecla 'H' no Wilcom) e delete os nós excessivos, mantendo apenas 4 nós de curva nos pontos cardeais com alças suaves.",
+      "O programa trava ao gerar os pontos de tatami: há cruzamento de linhas vetoriais sobre si mesmas (nó sobre nó); separe os vértices para que o perímetro seja fechado e plano.",
+      "O contorno satim não acompanha a inclinação da curva: adicione linhas guias de ângulo de ponto (Stitch Angles) ao longo do traçado da curva."
+    ],
+    dicaArtrelados: "A regra de ouro da digitalização profissional: 'Menos é Mais'! Uma curva perfeita precisa de apenas 2 nós nas pontas com as alças de curvatura bem puxadas, em vez de 20 pontinhos picados. Quanto menos nós seu desenho tiver, mais rápido sua máquina vai bordar e mais liso vai ficar o brilho da linha!",
+    voceSabia: "Pierre Bézier criou as famosas 'Curvas de Bézier' para desenhar as carrocerias aerodinâmicas dos carros da Renault nos anos 60; hoje, a fórmula matemática dele é usada em todos os programas gráficos do mundo, incluindo Adobe Illustrator, CorelDRAW e Wilcom!",
+    practicalExercise: "No seu programa de bordado, importe o desenho de um círculo. Tente redesenhar o contorno usando apenas 4 cliques com o botão direito (nós curvos). Use as alças para ajustar a forma até ficar perfeitamente redonda e veja como os pontos gerados ficam limpos e perfeitos.",
+    quickSummary: "Vetorização e Edição de Nós é a técnica de desenho e ajuste de curvas e vértices matemáticos que moldam a geometria perfeita dos objetos antes da geração dos pontos de bordado.",
+    relatedTerms: ["Curvas de Bézier", "Nós Vetoriais (Nodes)", "Digitalização Manual", "Reshape Tool", "Ângulos de Ponto", "Wilcom"],
+    tags: ["vetorizacao", "nos", "bezier", "reshape", "programacao", "wilcom", "softwares"]
+  },
+  {
+    id: "viscose-rayon-thread-linha-raiom-viscose-seda",
+    code: "V-063",
+    letter: "V",
+    term: "Viscose / Rayon Embroidery Thread — Linha de Raiom/Viscose (Fio Nobre de Brilho de Seda & Alta-Costura)",
+    pronunciation: "vis-kôus rêi-on tréd — li-nha de rai-on vis-co-se",
+    level: "Iniciante 🟢",
+    category: "Fios & Linhas",
+    grammarClass: "Substantivo feminina composta.",
+    origin: "Do inglês rayon (de ray, raio de luz, batizado em 1924 pelo brilho semelhante à seda natural) e do francês viscose (fibra celulósica regenerada inventada em 1891 por Cross, Bevan e Beadle).",
+    summary: "Linha nobre de bordar produzida a partir de celulose vegetal regenerada que confere brilho acetinado incomparável, toque ultra-macio e caimento luxuoso em peças de alta-costura.",
+    definition: "A Viscose / Rayon Embroidery Thread (Linha de Raiom / Fio de Viscose para Bordado / 100% Rayon Filament Yarn) é a linha de bordar consagrada historicamente pelo brilho suave e profundo semelhante ao da seda pura natural. Confeccionada a partir de filamentos contínuos de celulose purificada de madeira ou línter de algodão, a linha de viscose (espessura universal #40 / 120D/2) destaca-se pela excepcional flexibilidade, maleabilidade tátil e reflexão de luz difusa e elegante, sendo a escolha primordial de ateliês de luxo para bordados em vestidos de noiva, alfaiataria fina, lençóis de algodão egípcio e paramentos eclesiásticos.",
+    technicalDetails: "Possui menor tenacidade à tração e elasticidade quando comparada ao poliéster industrial (o poliéster estica até 20% antes de romper, enquanto o raiom estica cerca de 12% a 15%). Em estado úmido ou molhado, a viscose perde até 30% de sua resistência mecânica temporariamente. Exige passagem de linha com discos tensores mais frouxos (tensão superior de 100 gf a 120 gf, contra 130 gf–150 gf do poliéster) e lubrificação têxtil adequada para operar em altas rotações sem desfiamento.",
+    beginnerExplanation: "É a linha mais linda, macia e brilhante do mundo do bordado! Ela é feita de fibras vegetais naturais e tem um brilho elegante de seda de verdade, sem aquele aspecto de plástico. É a linha perfeita para bordar vestidos de festa, enxovais nobres e peças de bebê que precisam de um toque super macio!",
+    howItWorks: [
+      "1. A linha de viscose é instalada no cabeçote da máquina com passagem suave pelas guias cerâmicas.",
+      "2. Reduz-se ligeiramente a tensão da linha superior para evitar estiramento excessivo da fibra celulósica.",
+      "3. Utiliza-se agulha Schmetz Embroidery 75/11 com olho polido e arredondado para evitar atrito.",
+      "4. A máquina costura a matriz com velocidade de 750 a 850 PPM.",
+      "5. A linha deita com maciez absoluta sobre o tecido sem criar rigidez ou efeito de 'armadura'.",
+      "6. A luz ambiente reflete na superfície acetinada da viscose, criando degradês luminosos e ricos.",
+      "7. A peça bordada mantém toque sedoso e caimento fluido impecável."
+    ],
+    applications: [
+      "Vestidos de noiva, alta-costura, véus de renda e corpetes de gala.",
+      "Enxovais de bebê de alto luxo em percal 400 fios, piquet e cambraia de linho.",
+      "Camisaria sob medida, monogramas em punhos de camisas sociais e gravatas de seda.",
+      "Paramentos religiosos, estolas sacerdotais e toalhas de altar com acabamento nobre."
+    ],
+    characteristics: [
+      "Brilho natural acetinado profundo e incomparável que não parece plástico.",
+      "Extrema maciez ao toque, ideal para peles sensíveis de recém-nascidos.",
+      "Excelente absorção de corantes, resultando em mais de 400 tonalidades ricas e fiéis."
+    ],
+    commonErrors: [
+      "❌ Lavar bordados de raiom com alvejantes à base de cloro ou água sanitária, dissolvendo e desbotando a fibra celulósica.",
+      "❌ Usar a mesma tensão apertada de linha de poliéster, rompendo a linha de viscose por excesso de tração.",
+      "❌ Guardar cones de raiom em locais com muita umidade, enfraquecendo a resistência das fibras antes do bordado."
+    ],
+    troubleshootingTips: [
+      "Linha de viscose quebrando ou desfiando na agulha: a tensão superior está muito alta ou a agulha está com rebarba no olho; afrouxe o tensor e troque por uma agulha nova Schmetz Embroidery.",
+      "Bordado de viscose desbotou na lavagem: oriente o cliente a nunca usar alvejante com cloro; a lavagem deve ser feita com sabão neutro para roupas finas e secagem à sombra.",
+      "A linha fica pulando do carretel no porta-cones: utilize uma redinha elástica de proteção (Spool Net) envolvendo o cone para controlar o desenrolamento suave."
+    ],
+    dicaArtrelados: "Para criar peças de alto padrão que encantam clientes exigentes: tenha no ateliê uma cartela de cores nobres em linha de Viscose/Raiom (como tons de dourado champagne, marfim e prata velho). Quando o cliente pegar o bordado na mão e sentir aquela maciez sedosa inacreditável, ele nunca mais vai querer bordado comum!",
+    voceSabia: "A viscose foi a primeira fibra têxtil sintética/regenerada criada pela humanidade no final do século XIX, desenvolvida justamente para ser uma alternativa acessível e deslumbrante à caríssima seda natural dos bichos-da-seda!",
+    practicalExercise: "Pegue um cone de linha de poliéster e um cone de linha de viscose/raiom da mesma cor. Borde duas amostras idênticas lado a lado em um tecido nobre. Coloque a mão sobre os dois bordados com os olhos fechados e sinta a diferença de maciez; depois observe à luz do sol o brilho sofisticado da viscose.",
+    quickSummary: "Linha nobre de celulose regenerada com brilho acetinado de seda pura e toque ultra-macio, ideal para moda noiva, alta-costura e enxovais de alto luxo.",
+    relatedTerms: ["Raiom (Rayon)", "Linha de Poliéster #40", "Brilho Acetinado", "Tensão de Fio", "Alta-Costura", "Madeira Classic"],
+    tags: ["viscose", "raiom", "rayon", "fios", "linhas", "brilho", "altacostura", "luxo"]
+  },
+  {
+    id: "variable-stitch-length-comprimento-variavel-ponto",
+    code: "V-064",
+    letter: "V",
+    term: "Variable Stitch Length — Comprimento Variável de Ponto & Filtragem Inteligente de Agulhadas",
+    pronunciation: "vé-ri-a-bol stitsh lèngth — com-pri-men-tu va-ri-a-vel de pon-to",
+    level: "Avançado 🔴",
+    category: "Pontos & Estruturas",
+    grammarClass: "Substantivo masculino composto.",
+    origin: "Do latim variabilis (que pode mudar) e do inglês stitch length (extensão métrica linear de cada penetração de agulha). Algoritmo de interpolação em sistemas CAD/CAM.",
+    summary: "Algoritmo inteligente de software que ajusta dinamicamente a distância entre penetrações de agulha em curvas fechadas e cantos para evitar furos e quebras de agulha.",
+    definition: "O Variable Stitch Length (Comprimento Variável de Ponto / Filtragem Dinâmica de Agulhadas / Smart Stitch Length Modulation / Short Stitch Optimization) é o algoritmo matemático embutido nos modernos softwares de digitalização de bordado que altera automaticamente o comprimento linear das agulhadas conforme a geometria do objeto. Em retas longas, o sistema aplica o passo máximo programado (ex.: 2,5 mm a 3,5 mm); ao entrar em curvas apertadas ou ângulos agudos, reduz gradualmente o passo para 1,2 mm–1,8 mm, garantindo contornos suaves sem truncamentos e ativando a filtragem de pontos curtos para eliminar agulhadas microscópicas inferiores a 0,8 mm.",
+    technicalDetails: "Em curvas fechadas de ponto corrido ou contornos satim em cantos de 90° (Corner Stitching), se o comprimento do ponto fosse mantido constante e rígido, a agulha cortaria o tecido em linhas retas formando polígonos feios ou empilharia dezenas de penetrações no mesmo nó central. O algoritmo de comprimento variável modula o deslocamento dos eixos X e Y em tempo real no arquivo de máquina, distribuindo os nós de penetração em formato de leque e reduzindo a tensão mecânica na barra da agulha em até 40%.",
+    beginnerExplanation: "É uma inteligência do programa de bordado que faz a máquina dar passos mais compridos quando está costurando em linha reta e dar passinhos mais curtinhos e espertos quando está fazendo uma curva fechada. Isso faz as curvas ficarem super redondinhas sem furar nem rasgar o pano!",
+    howItWorks: [
+      "1. O programador desenha uma linha de contorno com curvas suaves e curvas fechadas.",
+      "2. Habilita a função de 'Comprimento Variável de Ponto' (Variable Run Length) nas propriedades.",
+      "3. Define o comprimento nominal (2,5 mm) e o comprimento mínimo de curva (1,2 mm).",
+      "4. O software calcula o raio de curvatura em cada nó da trajetória geométrica.",
+      "5. Reduz o passo automaticamente nos trechos sinuosos e expande nos trechos retos.",
+      "6. Aplica o filtro de pontos curtos (Short Stitch Filter) eliminando agulhadas menores que 0,5 mm.",
+      "7. A máquina costura em alta velocidade sem vibrações bruscas e sem picotar o tecido."
+    ],
+    applications: [
+      "Bordados de traços finos (Line Art), contornos de ilustrações e rostos em ponto corrido.",
+      "Bordados tradicionais no estilo Redwork, Bluework e ponto haste eletrônico.",
+      "Cantos de colunas de satim em letras góticas e arabescos decorativos complexos.",
+      "Subpontos de contorno (Edge Run) em logotipos detalhados."
+    ],
+    characteristics: [
+      "Curvaturas fluidas e perfeitas sem aspecto serrilhado ou quebrado.",
+      "Proteção total da integridade da fibra têxtil contra efeito serra.",
+      "Redução drástica do ruído mecânico do pantógrafo em curvas rápidas."
+    ],
+    commonErrors: [
+      "❌ Manter comprimento fixo longo (4,0 mm) em curvas pequenas de 5 mm de raio, transformando círculos em octógonos tortos.",
+      "❌ Desativar o filtro de pontos curtos em curvas complexas, acumulando centenas de nós que travam a lançadeira.",
+      "❌ Usar comprimento de ponto curto demais (0,8 mm) em tecidos frágeis, cortando o tecido como papel picotado."
+    ],
+    troubleshootingTips: [
+      "O círculo ou letra bordada em ponto corrido ficou toda cheia de retas e pontas: ative o 'Comprimento Variável de Ponto' no software e diminua o passo mínimo em curvas para 1,5 mm.",
+      "A máquina faz um barulho seco de metralhadora e rompe a linha em cantos agudos: o software está gerando pontos empilhados menores que 0,4 mm; ative o filtro de eliminação de pontos curtos (Purge Short Stitches).",
+      "O contorno rasgou o tecido ao longo da linha da costura: aumente o comprimento de ponto em 0,5 mm e diminua a tensão da linha superior."
+    ],
+    dicaArtrelados: "Ao criar matrizes de ponto contorno ou desenhos no estilo 'desenho à mão': ative sempre a opção de Comprimento Variável no Wilcom ou Embird com limite entre 1,5 mm e 3,0 mm. O bordado vai deslizar na máquina como uma pluma e as curvas vão parecer desenhadas a nanquim!",
+    voceSabia: "Os primeiros algoritmos de interpolação de pontos curtos em curvas foram desenvolvidos por engenheiros matemáticos da Tajima no Japão em 1986 para permitir que as máquinas pudessem bordar contornos automotivos em couro sem rasgar as bordas dos bancos!",
+    practicalExercise: "No seu software, desenhe uma linha em formato de 'S' bem sinuosa com comprimento de ponto fixo em 4,0 mm e gere outra linha idêntica com Comprimento Variável entre 1,5 mm e 3,0 mm. Observe no simulador 3D como a segunda linha é infinitamente mais curva, suave e natural.",
+    quickSummary: "Variable Stitch Length é o algoritmo de software que adapta o comprimento das agulhadas em curvas e cantos para assegurar trajetórias suaves sem picotar o tecido nem quebrar agulhas.",
+    relatedTerms: ["Ponto Corrido (Run Stitch)", "Pontos Curtos (Short Stitches)", "Curvas de Bézier", "Redwork", "Filtragem de Pontos"],
+    tags: ["pontos", "comprimento", "variavel", "curvas", "algoritmo", "programacao", "wilcom"]
+  },
+  {
+    id: "vacuum-table-holding-fixture-mesa-succao-vacuo",
+    code: "V-065",
+    letter: "V",
+    term: "Vacuum Table & Holding Fixture — Mesa de Sucção a Vácuo & Fixação Industrial sem Bastidor",
+    pronunciation: "vé-kium têi-bol end hôul-ding fiks-tshur — me-sa de suc-são a va-cuo",
+    level: "Avançado 🔴",
+    category: "Componentes da Máquina",
+    grammarClass: "Substantivo feminina composta.",
+    origin: "Do latim vacuus (vazio, desprovido de ar). Sistema industrial de retenção pneumática por pressão negativa atmosférica adaptado ao bordado têxtil de grande formato.",
+    summary: "Bancada técnica industrial com microperfurações e bomba de sucção a vácuo que fixa materiais rígidos, couros e grandes painéis no pantógrafo sem marcas de bastidor.",
+    definition: "A Vacuum Table & Holding Fixture (Mesa de Fixação por Sucção a Vácuo / Platina Pneumática de Retenção / Vacuum Hold-Down Embroidery Pallet) é um dispositivo mecânico e pneumático de alta tecnologia acoplado ao pantógrafo de máquinas de bordar industriais de grande porte (como ZSK, Tajima e Barudan industriais). Consiste em uma mesa plana de alumínio naval microporoso ou perfurado conectada a uma bomba de vácuo de alto fluxo. Ao posicionar tecidos grossos, couros legítimos, feltros de emblemas ou painéis automotivos sobre a mesa, o vácuo exerce uma pressão descendente perfeitamente uniforme de até 80 kPa, mantendo o material 100% esticado e imóvel sem necessidade de aros ou pinças de bastidor convencionais.",
+    technicalDetails: "Elimina completamente o defeito de 'Hoop Burn' (marcas brilhantes ou amassados indeléveis causados pela pressão mecânica do aro de plástico sobre couros nobres, veludos ou tecidos técnicos). Permite a substituição instantânea de peças prontas em menos de 3 segundos no chão de fábrica e viabiliza a produção em série contínua de emblemas e patches militares cortados a laser sem desperdício de entretelas periféricas.",
+    beginnerExplanation: "É uma mesa especial cheia de furinhos microscópicos que 'chupa' e gruda o tecido ou o couro firme na máquina usando o poder do vácuo! Em vez de ter que apertar o tecido num aro duro que amassa e estraga peças caras de couro, você só encosta o material na mesa e a sucção segura tudo retinho como mágica!",
+    howItWorks: [
+      "1. A mesa de vácuo é montada e travada nos braços de suporte do pantógrafo da máquina de bordar.",
+      "2. O operador aciona o pedal pneumático ou botão liga/desliga da bomba de sucção de vácuo.",
+      "3. Posiciona a placa de couro, feltro para patches ou painel de banco automotivo sobre a área útil.",
+      "4. A pressão atmosférica negativa puxa o material contra a mesa, deixando-o perfeitamente plano e rígido.",
+      "5. A máquina de bordar executa o bordado em alta velocidade (1.000 PPM) com zero deflexão de tecido.",
+      "6. Ao finalizar os pontos, o operador desliga o vácuo com o pedal em 1 segundo.",
+      "7. A peça pronta é retirada limpa, sem marcas de aro e pronta para o acabamento.",
+      "8. O próximo painel é posicionado instantaneamente, maximizando a produtividade fabril."
+    ],
+    applications: [
+      "Bordados em painéis de couro para tapeçaria automotiva premium e bancos de aeronaves.",
+      "Produção industrial de alta escala de patches, insígnias militares e emblemas termocolantes.",
+      "Bordados em artigos de couro legítimo de luxo (bolsas, carteiras, sapatos e cintos).",
+      "Bordados contínuos em tecidos nobres e aveludados que não toleram aros mecânicos."
+    ],
+    characteristics: [
+      "Fixação perfeitamente homogênea em 100% da área útil de trabalho.",
+      "Zero marcas de bastidor (eliminação absoluta de 'Hoop Burn').",
+      "Agilidade de carga e descarga de materiais em menos de 3 segundos por ciclo."
+    ],
+    commonErrors: [
+      "❌ Deixar áreas abertas da mesa perfurada sem mascaramento, perdendo a força de sucção por vazamento de ar periférico.",
+      "❌ Tentar fixar tecidos de malha muito porosa sem película de vedação, permitindo a passagem do fluxo de ar e perdendo a retenção.",
+      "❌ Não limpar os filtros da bomba de vácuo periodicamente, permitindo a entrada de fiapos e poeira têxtil."
+    ],
+    troubleshootingTips: [
+      "O couro está se movendo durante o bordado: cubra as áreas vazias da mesa ao redor da peça com uma folha plástica flexível de máscara para concentrar 100% do vácuo sob a peça.",
+      "A bomba de vácuo aquece excessivamente: limpe o elemento filtrante de entrada de ar que pode estar entupido com penugem têxtil.",
+      "A agulha está quebrando ao encostar na mesa: ajuste a altura do calcador e a descida máxima da barra de agulha para manter folga de segurança de 0,5 mm da superfície de alumínio."
+    ],
+    dicaArtrelados: "Se no seu ateliê você faz muitos patches em feltro ou couro sintético: enquanto você não tiver uma mesa de vácuo industrial, utilize a técnica do 'Bastidor de Janela com Entretela Autoadesiva Hidrossolúvel ou Fita Dupla Face'! Você prende apenas a entretela no bastidor e cola o couro por cima, bordando sem deixar nenhuma marca de aro!",
+    voceSabia: "As mesas de vácuo foram adaptadas das mesas de corte CNC da indústria aeroespacial na Alemanha nos anos 90, sendo hoje o padrão obrigatório nas linhas de produção da Ferrari, Porsche e Boeing para bordar seus luxuosos logotipos em couro!",
+    practicalExercise: "Pesquise como é feito o bordado no encosto de cabeça de um carro de luxo. Observe como o couro não possui nenhum vinco ou amassado circular ao redor do emblema, resultado direto do uso da fixação por mesa plana a vácuo.",
+    quickSummary: "Mesa técnica com sistema pneumático de sucção a vácuo que mantém couros, painéis e materiais nobres perfeitamente firmes no pantógrafo sem necessidade de bastidores mecânicos.",
+    relatedTerms: ["Hoop Burn", "Fixação sem Bastidor", "Tapeçaria Automotiva", "Bordado em Couro", "Pantógrafo Industrial", "Patches"],
+    tags: ["vacuutable", "mesadevacuo", "fixacao", "couro", "patches", "maquinasindustriais", "automotivo"]
+  },
+  {
+    id: "vertical-vs-horizontal-spool-pin-pino-porta-carretel",
+    code: "V-066",
+    letter: "V",
+    term: "Vertical vs. Horizontal Spool Pin — Pino Porta-Carretel Vertical vs. Horizontal (Desenrolamento Têxtil & Controle de Torção)",
+    pronunciation: "vér-ti-kol vér-sos ho-ri-zôn-tol spúul pin — pi-no por-ta car-re-tel",
+    level: "Iniciante 🟢",
+    category: "Componentes da Máquina",
+    grammarClass: "Substantivo masculino composto.",
+    origin: "Do latim verticalis (a prumo, em linha vertical) e horizontalis (plano, paralelo ao horizonte) e do inglês spool pin (haste de suporte de carretel/cone de linha).",
+    summary: "Configuração mecânica da posição do suporte de linhas da máquina que determina se o fio se desenrola pela lateral do carretel (giratório) ou pela ponta do cone (estático), prevenindo torções e quebras.",
+    definition: "O Vertical vs. Horizontal Spool Pin (Pino Porta-Carretel Vertical vs. Horizontal / Sistema de Alimentação e Desenrolamento de Fios / Cross-Wound vs. Stacked-Wound Delivery System) é o conjunto de hastes mecânicas de suporte e guias de desbobinamento instaladas nas máquinas de bordar. A orientação do pino deve obrigatoriamente respeitar a engenharia do enrolamento da embalagem da linha: carretéis com enrolamento paralelo reto (Stacked/Parallel-Wound Spools) devem ser posicionados no pino horizontal com disco prendedor para girar livremente; enquanto cones industriais com enrolamento cruzado em 'X' (Cross-Wound Cones) devem ser posicionados no suporte vertical estático onde a linha é puxada para cima pela ponta do cone.",
+    technicalDetails: "Quando um carretel de enrolamento cruzado (cone) é colocado incorretamente em um pino giratório horizontal, o fio sofre uma torção mecânica cumulativa de 360° a cada volta puxada (Twist Accumulation). Em 1.000 pontos, isso adiciona centenas de voltas parasitas na torção do fio (Z-Twist), fazendo a linha enrolar sobre si mesma na descida para a agulha, formando nós conhecidos como 'Pigtails' (rabos de porco) que travam instantaneamente nas guias e partem a linha.",
+    beginnerExplanation: "É o suporte onde você encaixa o seu carretel ou cone de linha na máquina! Cones grandes de bordado (aqueles com formato de cone de trânsito) precisam ficar sempre em pé no pino vertical para a linha subir direto para cima; já carretéis pequenos que têm linhas enroladas retinhas precisam ficar deitados no pino horizontal. Usar a posição certa evita que a linha dê nós e arrebente toda hora!",
+    howItWorks: [
+      "1. O bordador identifica o tipo de bobinamento do cone ou carretel de linha.",
+      "2. Cones industriais de 1.000 m a 5.000 m (enrolamento cruzado em X) são colocados na base vertical da torre de fios.",
+      "3. A linha sai verticalmente pela ponta superior do cone e passa pelo guia passa-fios suspenso diretamente acima.",
+      "4. Carretéis pequenos residenciais (enrolamento reto) são encaixados na haste horizontal com o disco prendedor correspondente ao diâmetro do carretel.",
+      "5. A linha desenrola suavemente pela lateral sem fricção excessiva e sem girar o cone no próprio eixo.",
+      "6. A linha entra nos discos de pré-tensão mantendo sua torção original equilibrada de fábrica.",
+      "7. A máquina borda de forma fluida sem quebras, nós de laçada ou interrupções de produção."
+    ],
+    applications: [
+      "Alimentação correta de cones industriais de poliéster, raiom e fios metalizados em máquinas domésticas e industriais.",
+      "Prevenção de quebras sistemáticas de linha em máquinas compactas de 1 agulha (Brother, Janome, Bernina).",
+      "Adaptação de torres externas de suporte de cones para máquinas que só possuem pinos embutidos.",
+      "Estabilização da tensão de linha superior durante longas jornadas de bordado."
+    ],
+    characteristics: [
+      "Compatibilidade com todos os formatos mundiais de carretéis, tubos e cones.",
+      "Eliminação do acúmulo de torção e nós de desbobinamento.",
+      "Fluxo constante de linha com tensão homogênea do início ao fim do cone."
+    ],
+    commonErrors: [
+      "❌ Colocar cone grande industrial de 4.000 m em pé no pino deitado horizontal, travando o cone e arrebentando a linha.",
+      "❌ Colocar carretel pequeno deitado sem o disco prendedor (tampa), fazendo a linha enroscar na fenda plástica do carretel.",
+      "❌ Não alinhar o guia superior da torre exatamente sobre o centro do cone vertical, fazendo a linha raspar na borda plástica do cone."
+    ],
+    troubleshootingTips: [
+      "A linha fica dando laçadas e nós em espiral ('rabo de porco') antes de entrar na agulha: a linha está sofrendo torção no desenrolamento; certifique-se de que cones de enrolamento cruzado estejam na vertical puxando o fio para cima.",
+      "A linha agarra e quebra a cada 100 pontos em carretel pequeno: o carretel tem uma fenda de trava de fio na borda plástica que está enroscando na linha; vire o carretel com a fenda para o lado de dentro ou use um suporte vertical externo.",
+      "O cone tomba ou vibra na máquina doméstica: use uma base externa porta-cones de mesa pesada posicionada logo atrás da máquina."
+    ],
+    dicaArtrelados: "Se você tem uma máquina doméstica de bordar que só tem suporte para carretel pequeno deitado: compre uma 'Torre Porta-Cones Externa de Mesa' (custa baratinho!). Com ela você pode usar cones industriais grandes e econômicos de 4.000 metros de linha em pé. A linha vai subir soltinha e sua máquina nunca mais vai quebrar linha por peso de cone!",
+    voceSabia: "As linhas industriais de bordado são fabricadas com uma torção específica chamada 'Torção Z' (duas ou três pontas torcidas no sentido anti-horário), projetada milimetricamente para se desenrolar perfeitamente quando puxada pelo topo de um cone vertical em alta velocidade!",
+    practicalExercise: "Examine os cones e carretéis do seu ateliê. Veja como nos cones cônicos os fios se cruzam em formato de 'X' e nos carretéis retos os fios estão enrolados lado a lado em paralelo. Treine passar cada um na posição correta (vertical para cone em X, horizontal com tampa para carretel reto).",
+    quickSummary: "Pino Porta-Carretel Vertical vs. Horizontal é a correta disposição mecânica dos suportes de linha para garantir que cones e carretéis se desenrolem sem torções, atritos ou quebras de fio.",
+    relatedTerms: ["Torção Z (Z-Twist)", "Torre de Linhas (Thread Stand)", "Enrolamento Cruzado (Cross-Wound)", "Disco Prendedor de Carretel", "Passagem de Linha"],
+    tags: ["portacarretel", "spoolpin", "cone", "torcao", "passagemdelinha", "manutencao", "componentes"]
   }
 ];
+
