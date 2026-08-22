@@ -4275,5 +4275,330 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "ARTRELADOS. Ergonomia e Velocidade no Ateliê: Como Usar o Deslocamento de Bastidor Para Trocas Rápidas de Bobina. São Paulo: Artrelados, 2024."
     ],
     "updatedAt": "2026-08-19"
+  },
+  {
+    "id": "d-062-deflexao-da-agulha-needle-deflection",
+    "code": "D-062",
+    "term": "Deflexão da Agulha e Flexão Elástica Dinâmica (Needle Deflection & Needle Bend)",
+    "pronunciation": "de-fle-xao da a-gu-lha",
+    "level": "Avançado 🔴",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Agulhas & Fios",
+    "summary": "Desvio milimétrico lateral ou longitudinal da haste da agulha durante a penetração em tecidos grossos ou em alta velocidade, causando quebras e colisões com a lançadeira.",
+    "origin": "Do latim 'deflectere' (desviar, curvar para fora do eixo). Fenômeno mecatrônico e metalúrgico amplamente estudado na cutelaria têxtil alemã e japonesa para matrizes de alta densidade.",
+    "definition": "A Deflexão da Agulha (Needle Deflection / Needle Dynamic Flexing) é a deformação elástica e o desvio angular momentâneo que a lâmina da agulha sofre em relação ao seu eixo vertical perfeito no momento do impacto contra o tecido, entretela ou costuras sobrepostas. Quando a ponta da agulha penetra em materiais de alta resistência mecânica (como jeans, sarja grossa de boné, couro sintético ou camadas empilhadas de EVA 3D), a força de resistência do substrato empurra a ponta da agulha para os lados. Se a deflexão ultrapassar a folga de segurança (geralmente entre 0,05 mm e 0,10 mm), a agulha colide violentamente com o bico da lançadeira ou com as bordas da chapa de ponto, resultando em quebra instantânea, perda de sincronismo ou pontos pulados.",
+    "technicalDetails": "A resistência à deflexão é determinada pela geometria do cabo, espessura da haste (calibre) e presença de reforços estruturais (como a haste reforçada das agulhas DBxK5 ou Schmetz SERV 7). A força de deflexão aumenta exponencialmente com a velocidade de rotação (SPM) e a espessura do tecido.",
+    "howItWorks": [
+      "1. A barra de agulha desce a agulha em alta aceleração (até 1.000 PPM).",
+      "2. A ponta da agulha encontra uma barreira de alta densidade mecânica (ex: costura frontal de boné ou EVA rígido).",
+      "3. A haste fina da agulha sofre um esforço de flexão lateral e entorta ligeiramente para trás ou para o lado.",
+      "4. Ao atravessar o orifício da chapa, a agulha não desce no centro exato do canal.",
+      "5. Se a deflexão for excessiva, o bico da lançadeira atinge o metal da agulha em vez de pescar a laçada de linha.",
+      "6. O choque mecânico quebra a agulha com estalo sonoro ou amassa o bico da lançadeira.",
+      "7. Se a agulha tiver haste reforçada (reforço cônico SERV 7), ela resiste à flexão e desce em linha reta perfeita."
+    ],
+    "beginnerExplanation": "É quando a agulha da máquina bate em um pano muito duro ou grosso (como a costura de um boné ou uma calça jeans) e 'entorta de leve' na hora de furar o tecido. Por entortar na descida, ela bate na peça de ferro de baixo da máquina (a lançadeira) e quebra com um estalo!",
+    "applications": [
+      "Diagnóstico e prevenção de quebras de agulha em bordados pesados e bonés estruturados",
+      "Bordados tridimensionais (3D Puff) com EVA de alta densidade",
+      "Seleção do calibre correto de agulha (ex: troca de 75/11 para 80/12 ou 90/14 com haste reforçada)",
+      "Digitalização com distribuição gradual de pontos para suavizar o impacto em zonas duras"
+    ],
+    "commonErrors": [
+      "❌ Borda tecidos pesados ou bonés rígidos com agulhas finas 65/9 ou 75/11 de haste comum, que entortam na descida e quebram",
+      "❌ Manter velocidade máxima de 1.000 PPM ao transitar sobre costuras grossas de sarja ou gorgurão",
+      "❌ Usar bastidores frouxos onde o tecido salta (efeito tamborim frouxo), aumentando a deflexão angular da agulha"
+    ],
+    "troubleshootingTips": [
+      "Se a agulha estiver quebrando toda vez que passa por cima de uma costura grossa: Instale uma agulha de haste reforçada (Schmetz SERV 7 ou Organ PD 80/12) e reduza a velocidade para 600 PPM",
+      "Se a máquina estiver pulando pontos em tecidos sintéticos densos: Verifique se a agulha não está flexionando para longe do bico da lançadeira no momento da laçada",
+      "Se a ponta da agulha apresentar arranhões laterais: A agulha está raspando na borda interna da placa de ponto devido à deflexão"
+    ],
+    "dicaArtrelados": "Vai bordar boné ou jeans grosso? Use agulha com haste reforçada anti-deflexão (como a Schmetz SERV 7 ou Organ DBxK5 80/12 Titânio). O corpinho dela é mais grosso e cônico perto do topo, o que impede a agulha de entortar e garante que ela fure o tecido reto como uma flecha!",
+    "voceSabia": "As agulhas com tecnologia SERV 7 possuem uma área cônica reforçada que oferece o dobro de rigidez mecânica contra a deflexão do que uma agulha convencional do mesmo calibre, sem precisar aumentar o tamanho do furo no tecido!",
+    "practicalExercise": "Pegue uma agulha 70/10 comum e tente empurrar a pontinha dela de lado com o dedo: sinta como ela verga fácil. Agora pegue uma agulha 80/12 SERV 7 de haste reforçada: sinta como ela é incrivelmente firme e rígida!",
+    "quickSummary": "Desvio elástico momentâneo da agulha durante o impacto em tecidos grossos que causa quebras e desvios de sincronismo.",
+    "relatedTerms": [
+      "Agulha de Bordado Computadorizado",
+      "Bico da Lançadeira",
+      "Agulha de Titânio / Revestimento PD",
+      "Placa de Agulha / Chapa de Ponto"
+    ],
+    "tags": [
+      "d-062",
+      "deflexao da agulha",
+      "needle deflection",
+      "quebra de agulha",
+      "serv 7",
+      "mecanica",
+      "resistencia",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "SCHMETZ. Technical Guide: SERV 7 Needles for Deflection and Skip-Stitch Prevention. Aachen, 2022.",
+      "GROZ-BECKERT. Needle Deflection and Penetration Forces in High-Speed Industrial Embroidery. Albstadt, 2021."
+    ],
+    "updatedAt": "2026-08-22"
+  },
+  {
+    "id": "d-063-desfiamento-de-linha-thread-fraying",
+    "code": "D-063",
+    "term": "Desfiamento de Linha e Separação de Filamentos (Thread Fraying & Filament Shredding)",
+    "pronunciation": "des-fi-a-men-to de li-nha",
+    "level": "Fundamental 🟢",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Agulhas & Fios",
+    "summary": "Abrasão mecânica ou atrito térmico excessivo que rompe os microfilamentos da linha de bordar antes que ela consiga formar o ponto, criando 'ninhos' de fiapos no olho da agulha.",
+    "origin": "Do latim 'disfilare' (separar os fios). Ocorrência cotidiana nos ateliês decorrente de incompatibilidade entre calibre de agulha, tensão ou qualidade da linha.",
+    "definition": "O Desfiamento de Linha (Thread Fraying / Thread Shredding) é o processo de degradação física e abrasão mecânica contínua sofrido pelo fio superior de bordado ao passar repetidas vezes (de 20 a 40 vezes antes de ser definitivamente ancorado no tecido) através do olho da agulha e dos discos de tensão. Quando a linha encontra arestas cortantes (burrs), olho de agulha muito apertado, atrito térmico elevado ou tensão excessiva, os microfilamentos individuais que compõem o cabo de poliéster ou a lâmina metálica começam a se romper e se amontoar em forma de bola de fiapos imediatamente acima do olho da agulha, até travar e quebrar a linha.",
+    "technicalDetails": "Para linhas padrão de bordado 120/2 (40wt), a espessura da linha deve ocupar no máximo 40% a 50% da abertura útil do olho da agulha. Se o olho estiver desgastado ou tiver micro-ranhuras causadas pelo uso contínuo de fios metálicos, a taxa de cisalhamento dos filamentos aumenta em até 300%.",
+    "howItWorks": [
+      "1. A linha passa pelo olho da agulha para baixo e para cima dezenas de vezes em alta velocidade.",
+      "2. Uma micro-rebarba no olho da agulha ou nos guias de linha começa a raspar a superfície do fio.",
+      "3. Os filamentos externos de poliéster ou a fita metalizada rompem-se e começam a deslizar para trás.",
+      "4. Cria-se um pequeno tufo ou casulo de penugem acumulada sobre o olho da agulha.",
+      "5. O tufo de fiapos fica grande demais para atravessar o tecido ou o orifício da placa de ponto.",
+      "6. A linha é estrangulada mecânica e termicamente e parte-se por tração.",
+      "7. A máquina detecta a quebra e aciona o sensor de parada."
+    ],
+    "beginnerExplanation": "É quando a linha de bordar não arrebenta de uma vez só, mas começa a 'esfiar' e formar uma bolinha de fiapos peludinhos bem em cima do buraquinho da agulha até a linha travar e arrebentar. Parece que a agulha está 'mastigando' a linha!",
+    "applications": [
+      "Identificação e diagnóstico de problemas de atrito nos tensores e passagens de fio",
+      "Manutenção preventiva de agulhas gastas com ranhuras microscópicas",
+      "Adequação de agulhas para linhas metálicas e fios foscos de algodão",
+      "Calibração da tensão da linha superior para evitar estiramento dos filamentos"
+    ],
+    "commonErrors": [
+      "❌ Insistir em bordar com a mesma agulha depois que ela começou a desfiar a linha, achando que o problema é a marca da linha",
+      "❌ Usar agulha de costura comum 70/10 com olho pequeno para bordar em alta velocidade com linha 40wt",
+      "❌ Passar a linha por guias metálicos enferrujados, sujos com cola spray seca ou com rebarbas",
+      "❌ Borda em velocidade máxima de 1.000 PPM com linhas metálicas secas e sem lubrificante"
+    ],
+    "troubleshootingTips": [
+      "Se a linha começar a esfiar e acumular fiapos no olho da agulha: Troque a agulha imediatamente por uma agulha nova própria para bordado (com olho 2x maior) ou agulha Topstitch/Titânio",
+      "Se o desfiamento ocorrer com linha metálica: Passe 2 gotas de silicone líquido para linha no cone e use agulha Metallic tamanho 80/12 ou 90/14",
+      "Se a linha estiver desfiando antes mesmo de chegar na agulha: Verifique se o cone de linha não está com rebarbas plásticas na base raspando o fio"
+    ],
+    "dicaArtrelados": "Linha esfiando como um espanadorzinho em cima da agulha? NÃO PERCA TEMPO: 95% das vezes é a agulha que já deu o tempo de vida dela e criou uma micro-rebarba invisível no furinho! Coloque uma agulha nova e você vai ver a linha deslizar como manteiga!",
+    "voceSabia": "Antes de um ponto ser fixado no tecido, cada pedacinho da linha de bordar sobe e desce pelo olho da agulha em média 35 vezes devido ao movimento alternado do estica-fio!",
+    "practicalExercise": "Pegue uma agulha velha que desfiou linha e passe um pedaço de fio dental ou linha de costura pelo olho puxando para os lados com os olhos fechados: sinta com a sensibilidade dos dedos os 'degraus' e rebarbas que estavam cortando a sua linha!",
+    "quickSummary": "Degradação e quebra de microfilamentos da linha por atrito excessivo com rebarbas ou olho inadequado de agulha.",
+    "relatedTerms": [
+      "Agulha de Bordado Computadorizado",
+      "Cera e Lubrificante de Linha / Óleo de Silicone",
+      "Ajuste de Tensão da Linha",
+      "Linha de Poliéster 120/2"
+    ],
+    "tags": [
+      "d-063",
+      "desfiamento",
+      "thread fraying",
+      "shredding",
+      "fiapos",
+      "quebra de linha",
+      "agulha gasta",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "SUPERIOR THREADS. Thread Fraying, Eye Abrasion and Friction Mechanics. Utah, 2021.",
+      "MADEIRA. Thread Tension & Needle Compatibility Guide: Solving Shredding Issues. Freiburg, 2022."
+    ],
+    "updatedAt": "2026-08-22"
+  },
+  {
+    "id": "d-064-densidade-fracionada-e-pontos-curtos-short-stitch-filter",
+    "code": "D-064",
+    "term": "Densidade Fracionada e Filtro de Pontos Curtos (Fractional Density & Short Stitch Filter)",
+    "pronunciation": "den-si-da-de fra-ci-o-na-da / pon-tos cur-tos",
+    "level": "Avançado 🔴",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Programação de Bordado",
+    "summary": "Algoritmo de processamento vetorial que recua as pontadas internas em cantos afiados e curvas fechadas para evitar concentração destrutiva de perfurações de agulha.",
+    "origin": "Do latim 'fractio' (divisão em frações) e do inglês 'short stitch' (ponto curto). Recurso patenteado desenvolvido pela Wilcom e Tajima nos anos 1990 para digitalização de precisão.",
+    "definition": "A Densidade Fracionada com Filtro de Pontos Curtos (Fractional Stitch Density / Short Stitch Filtering / Corner Stitch Reduction) é o algoritmo matemático de controle de perfuração que analisa a geometria de cantos vivos (pontas agudas em 'V'), curvas sinuosas e vértices estreitos em colunas de ponto cheio (satim). Como os pontos de bordado convergem em direção ao vértice, a densidade física no ponto de encontro tenderia ao infinito, resultando em dezenas de perfurações no mesmo milímetro cúbico. O filtro fracionado encurta e omite alternadamente as penetrações internas, recuando-as em 30% a 60% da largura da coluna, mantendo a cobertura visual sem perfurar o tecido em excesso.",
+    "technicalDetails": "Configurável no software de matrizes sob parâmetros como 'Short Stitch Length' e 'Margin Threshold'. Em ângulos inferiores a 45°, o filtro elimina automaticamente até 50% dos pontos internos enquanto preserva a totalidade das penetrações no raio externo do desenho.",
+    "howItWorks": [
+      "1. O programador cria uma forma vetorial com pontas afiadas (ex: as pontas de uma estrela ou a cauda de uma letra).",
+      "2. O motor do software detecta o ângulo agudo estreito no vértice da coluna.",
+      "3. O algoritmo de pontos curtos é acionado automaticamente pelo software de bordado.",
+      "4. Um ponto viaja até a borda externa, o ponto seguinte recua para 40% da coluna e o terceiro recua para 70%.",
+      "5. A máquina executa o bordado suavemente sem concentrar agulhadas no mesmo local.",
+      "6. A ponta fica nítida, afiada, sem calombo endurecido no avesso e sem furar o tecido.",
+      "7. A agulha não sofre choque mecânico e a linha não arrebenta."
+    ],
+    "beginnerExplanation": "Sabe quando você vai bordar a pontinha de uma estrela ou um biquinho de triângulo e a máquina fica batendo 15 vezes no mesmo buraquinho até cortar o tecido? O filtro de pontos curtos é uma função inteligente no programa que faz a máquina 'escalonar' os pontinhos para trás, deixando a ponta perfeita e fininha sem judiar do tecido!",
+    "applications": [
+      "Pontas de estrelas, triângulos, brasões corporativos e bicos geométricos",
+      "Serifas e caudas de letras tipográficas elegantes em monogramas",
+      "Curvas de 90° a 180° em colunas satim sem acúmulo de linha",
+      "Preservação de tecidos finos e malhas contra rasgos em cantos pontiagudos"
+    ],
+    "commonErrors": [
+      "❌ Desativar o filtro de pontos curtos nas propriedades do software para 'garantir cobertura', criando uma bola dura de linha no avesso",
+      "❌ Usar recuos muito longos (acima de 80%), criando uma faixa de tecido vazia no meio da coluna satim",
+      "❌ Digitalizar vértices muito agudos (menos de 15°) com ponto cheio em vez de finalizar em ponto de costura reto (Run Stitch)"
+    ],
+    "troubleshootingTips": [
+      "Se a ponta da letra estiver fazendo um nó duro que quebra a agulha: Acesse as propriedades de satim no Wilcom/Hatch e marque a caixa 'Pontos Curtos / Short Stitches' com espaçamento automático",
+      "Se o bico da estrela furar o tecido: Reduza a densidade da ponta e ative o escalonamento fracionário de pontos",
+      "Se a ponta externa parecer falhada: Certifique-se de que os pontos de ancoragem externos continuam indo até o contorno vetorial"
+    ],
+    "dicaArtrelados": "Ao programar estrelas, brasões ou letras com pontas fininhas no computador: mantenha o recurso de 'Pontos Curtos' (Short Stitches) SEMPRE ativado! Suas pontas vão ficar finas, pontudinhas, brilhantes e nunca mais vão fazer calombos de linha ou rasgar o tecido!",
+    "voceSabia": "Sem o filtro de pontos curtos, uma ponta de estrela de 30 graus com densidade padrão de 0.40mm acumula mais de 16 perfurações de agulha em uma área menor que a cabeça de um alfinete!",
+    "practicalExercise": "Digitalize um triângulo com ponta bem fina em satim: primeiro sem pontos curtos e veja a nuvem densa de pontinhos azuis amontoados na ponta; agora ative o 'Short Stitch' e observe como os pontos se escalonam em degraus suaves e elegantes!",
+    "quickSummary": "Algoritmo que recua alternadamente os pontos em vértices e curvas fechadas para evitar nós duros e furos no tecido.",
+    "relatedTerms": [
+      "Ponto Cheio (Satin)",
+      "Auto-Spaced Satin",
+      "Densidade de Pontos",
+      "Ângulo de Ponto (Stitch Angle)"
+    ],
+    "tags": [
+      "d-064",
+      "densidade fracionada",
+      "pontos curtos",
+      "short stitch",
+      "cantos",
+      "vertices",
+      "programacao",
+      "wilcom",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM INTERNATIONAL. Cornering, Turning Angles and Short Stitches Master Reference. Sydney, 2022.",
+      "PULSE MICROSYSTEMS. Advanced Geometric Vector Filtering and Fractional Satin Control. Dallas, 2021."
+    ],
+    "updatedAt": "2026-08-22"
+  },
+  {
+    "id": "d-065-digitalizacao-manual-punching",
+    "code": "D-065",
+    "term": "Digitalização Manual / Criação Vetorial Ponto a Ponto (Manual Digitizing & Punching)",
+    "pronunciation": "di-gi-ta-li-za-cao ma-nu-al / pan-ching",
+    "level": "Avançado 🔴",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Programação de Bordado",
+    "summary": "Método artesanal e profissional de programação de matrizes onde o digitalizador desenha cada vetor, define o sentido das agulhadas e calibra manualmente o underlay e as compensações.",
+    "origin": "Do inglês 'punching' (furar cartões perfurados no tear Jacquard e nas primeiras máquinas de bordar automáticas do século XIX) e do latim 'digitale' (feito com os dedos / digital).",
+    "definition": "A Digitalização Manual (Manual Digitizing / Professional Embroidery Punching) é a arte e técnica especializada de criar matrizes de bordado computadorizado a partir de ilustrações ou logotipos vetoriais, na qual o programador de matrizes (Puncher / Digitizer) desenha manualmente cada bloco de objeto, define a ordem cronológica exata de costura, seleciona os tipos de pontos adequados (tatami, satim, costura reta), direciona as linhas de fluxo e ângulos de ponto, programa os pontos estruturais de base (underlays) e aplica compensações matemáticas de encolhimento específicas para o tecido em que a peça será confeccionada.",
+    "technicalDetails": "Diferencia-se fundamentalmente da 'Auto-Digitalização' (Auto-Digitizing / Varinha Mágica automática dos softwares), que gera excesso descontrolado de pontos, cortes desnecessários e ausência de camadas de suporte. A digitalização manual produz matrizes com até 40% menos pontos, bordado macio, avesso limpo e zero quebra de linha.",
+    "howItWorks": [
+      "1. O programador importa a imagem de referência em alta resolução no software de criação.",
+      "2. Faz o planejamento mental da sequência: o que está no fundo borda primeiro, o que está na frente borda por último.",
+      "3. Desenha os blocos com ferramentas vetoriais de curvas de Bézier respeitando a anatomia do desenho.",
+      "4. Define a inclinação exata dos ângulos de ponto para criar reflexos de luz e relevo.",
+      "5. Aplica camadas de sustentação (underlay) adequadas para a gramatura do tecido final.",
+      "6. Insere conexões inteligentes (travamentos e pontos de salto planejados) para evitar cortes de linha excessivos.",
+      "7. Testa o arquivo na máquina física para validar a maciez e o caimento do bordado real."
+    ],
+    "beginnerExplanation": "É o jeito profissional de criar matrizes no computador desenhando tudo com carinho e precisão, ponto por ponto, em vez de usar aquele botão automático do programa que faz tudo torto e cheio de cortes de linha. Uma matriz digitalizada à mão borda muito mais rápido, gasta menos linha e fica linda e macia no pano!",
+    "applications": [
+      "Logomarcas corporativas de alta fidelidade para camisas polo e uniformes",
+      "Matrizes de enxoval de luxo infantil com pontos leves e avesso ultra limpo",
+      "Bordados em relevo 3D, apliques e rendas nobres",
+      "Otimização de tempo e produtividade industrial em confecções de grande escala"
+    ],
+    "commonErrors": [
+      "❌ Confiar na ferramenta de 'Auto-Digitalização' de um clique para bordar produtos comerciais de clientes",
+      "❌ Não planejar a ordem de sobreposição das camadas, fazendo a máquina bordar um detalhe da frente e depois ter que voltar para o fundo",
+      "❌ Deixar todos os objetos com o mesmo ângulo reto de ponto (90°), resultando em um bordado plano, sem brilho e sem profundidade visual"
+    ],
+    "troubleshootingTips": [
+      "Se a matriz comprada pela internet estiver quebrando linha e cheia de cortes: Abra no software e redesenhe as conexões manualmente usando ponto de costura reto escondido (Run Stitch connection)",
+      "Se o bordado parecer pesado e duro como papelão: Refaça a digitalização manual reduzindo a densidade para 0.42 mm e ajustando o underlay para uma camada única de tatami aberto",
+      "Se os contornos ficarem desencaixados do preenchimento: Aumente a compensação de encolhimento manual para 0.35 mm no objeto de fundo"
+    ],
+    "dicaArtrelados": "O maior diferencial de uma bordadeira profissional de sucesso é saber digitalizar manualmente! Fuja da digitalização automática de um clique: desenhar cada pedacinho da matriz no Wilcom ou no Embird é o que faz o seu bordado ter brilho de seda, avesso limpo e encantar qualquer cliente!",
+    "voceSabia": "Nos anos 1970, antes dos computadores pessoais, a profissão de 'Puncher' de bordado exigia furar fitas de papel cartão gigantescas com um teclado mecânico e pedais pesados para programar cada coordenada X e Y da máquina de bordar!",
+    "practicalExercise": "Escolha um desenho simples de uma maçã com uma folha. Em vez de usar o botão automático, pegue a ferramenta de desenho manual do seu software e crie a folha com ângulo inclinado a 45° e a maçã com ângulo a 90°. Borde e compare o brilho deslumbrante que os ângulos manuais dão à peça!",
+    "quickSummary": "Criação profissional e artesanal de matrizes no computador desenhando cada vetor, ângulo e suporte estrutural.",
+    "relatedTerms": [
+      "Ângulo de Ponto (Stitch Angle)",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Estrutura de Base (Underlay)",
+      "Densidade de Pontos"
+    ],
+    "tags": [
+      "d-065",
+      "digitalizacao manual",
+      "punching",
+      "matriz",
+      "wilcom",
+      "hatch",
+      "embird",
+      "programacao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "DEVERSON, B. The Master Digitizer: Manual Punching and Machine Stitch Architecture. London, 2021.",
+      "WILCOM INTERNATIONAL. Embroidery Studio Manual Digitizing Masterclass Reference. Sydney, 2023."
+    ],
+    "updatedAt": "2026-08-22"
+  },
+  {
+    "id": "d-066-dupla-face-bordado-clean-back",
+    "code": "D-066",
+    "term": "Dupla Face no Bordado Computadorizado (Clean Back & Reversible Embroidery)",
+    "pronunciation": "du-pla fa-ce no bor-da-do",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Técnicas de Bordado",
+    "summary": "Método de execução e digitalização especializado para peças transparentes ou com duas vistas, onde o avesso do bordado é perfeitamente idêntico e limpo como a frente.",
+    "origin": "Do latim 'duplus' e 'facies' (duas faces). Inspirado no célebre bordado tradicional de dupla face chinês de Suzhou (Xiang embroidery) adaptado ao maquinário computadorizado moderno.",
+    "definition": "O Bordado Dupla Face Computadorizado (Clean Back Embroidery / Reversible Machine Embroidery) é a técnica avançada de preparação, digitalização e montagem no bastidor na qual a peça final apresenta um verso absolutamente limpo, estético e simétrico, sem fios soltos, sem nós aparentes, sem entretelas visíveis e com a mesma cor e brilho da linha superior reproduzida na linha de bobina. É a técnica de excelência exigida para artigos nobres que exibem ambos os lados durante o uso, como toalhas de lavabo nobres, xales transparentes de organza, guardanapos de linho, cortinas, véus e bandeiras comemorativas.",
+    "technicalDetails": "Requer o uso de linha de bordar idêntica (mesma cor e mesmo fio 40wt de poliéster ou seda) tanto no cone superior quanto na bobina inferior. Utiliza-se entretela hidrossolúvel de filme solúvel em água (Solvy) que desaparece completamente após a lavagem, deixando o avesso do tecido 100% livre de resíduos sintéticos.",
+    "howItWorks": [
+      "1. A bordadeira enche a bobina da máquina com a mesma linha de bordado colorida usada no carretel de cima.",
+      "2. O tecido (linho, cambraia ou toalha) é montado no bastidor com entretela hidrossolúvel na frente e no verso.",
+      "3. A tensão superior é ajustada para equilíbrio neutro 1:1 com a tensão inferior (sem puxar mais para baixo).",
+      "4. A matriz programada deve conter pontos de amarração invisíveis embutidos sob os próprios pontos cheios.",
+      "5. Os cortes de salto são eliminados ou programados para caminhar por baixo de áreas preenchidas.",
+      "6. Após o bordado, a peça é enxaguada em água corrente para dissolver toda a entretela.",
+      "7. A peça seca exibindo uma frente e um verso igualmente belos e sem defeitos."
+    ],
+    "beginnerExplanation": "É quando você borda uma toalha ou um guardanapo de linho e o verso do bordado fica tão perfeito, lindo e com a mesma cor da linha da frente que a pessoa nem sabe qual é o lado certo e qual é o lado do avesso! Nada de entretela branca colada nem fiapos soltos atrás!",
+    "applications": [
+      "Guardanapos de mesa posta e jogos americanos de linho puro",
+      "Toalhas de lavabo e banho de alto luxo para presentes finos",
+      "Bandeiras de cerimônia, estandartes e flâmulas com dupla visualização",
+      "Véus de noiva, cortinas de voil e peças de vestuário transparente"
+    ],
+    "commonErrors": [
+      "❌ Usar linha de bobina branca comum de poliéster fino, deixando o avesso cheio de linhas brancas misturadas com a cor do bordado",
+      "❌ Usar entretela rasgável comum que fica presa no avesso e não sai, estragando o visual da peça",
+      "❌ Deixar saltos longos de linha atravessando o avesso do bordado",
+      "❌ Tensão desregulada que puxa a linha da bobina para a frente do tecido"
+    ],
+    "troubleshootingTips": [
+      "Se o verso estiver mostrando pontinhos brancos: Encha uma canelinha com a mesma linha de cima e calibre a tensão superior e inferior para ficarem perfeitamente equilibradas",
+      "Se ficarem resíduos de entretela no avesso: Mergulhe a peça em uma vasilha com água morna por 10 minutos para dissolver completamente a película hidrossolúvel",
+      "Se o avesso estiver com pontas de linha arrepiadas: Faça o arremate manual das pontas com uma agulha de mão fina antes de molhar a peça"
+    ],
+    "dicaArtrelados": "Para fazer um guardanapo de linho chique com avesso perfeito: encha a bobina com a MESMA linha de bordar colorida do cone de cima e use entretela hidrossolúvel que some na água. Seu cliente vai virar o guardanapo do avesso e ficar de boca aberta com a perfeição!",
+    "voceSabia": "Na China Imperial, as mestras bordadeiras de Suzhou criavam peças em seda transparente onde bordavam um gato de um lado e um cachorro do outro lado do mesmo tecido usando apenas uma única agulha manual!",
+    "practicalExercise": "Encha uma bobina com linha de bordar azul royal igual ao seu cone superior. Monte um pedaço de tricoline branca com entretela hidrossolúvel e borde uma flor simples. Lave na torneira e veja a magia de ter um bordado com frente e verso idênticos!",
+    "quickSummary": "Técnica que cria um bordado com avesso limpo e idêntico à frente usando bobina colorida e entretela hidrossolúvel.",
+    "relatedTerms": [
+      "Entretela Hidrossolúvel",
+      "Ajuste de Tensão da Linha",
+      "Bainha Aberta Computadorizada",
+      "Linha de Bobina"
+    ],
+    "tags": [
+      "d-066",
+      "dupla face",
+      "clean back",
+      "avesso perfeito",
+      "mesa posta",
+      "guardanapo",
+      "enxoval de luxo",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "MADEIRA. Reversible Embroidery & Water-Soluble Backing Solutions for Fine Linens. Freiburg, 2022.",
+      "DEVERSON, B. Clean-Back Machine Techniques and Heirloom Finishing. London, 2021."
+    ],
+    "updatedAt": "2026-08-22"
   }
 ];
+

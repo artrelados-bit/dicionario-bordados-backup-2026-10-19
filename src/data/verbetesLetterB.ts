@@ -4672,5 +4672,324 @@ export const VERBETES_LETTER_B: Verbete[] = [
       "ARTRELADOS. Operação Prática no Ateliê: Tudo Sobre o Painel e o Botão Start/Stop da Sua Máquina. São Paulo: Artrelados, 2024."
     ],
     "updatedAt": "2026-08-19"
+  },
+  {
+    "id": "b-062-bastidor-de-bone-cap-frame-270",
+    "code": "B-062",
+    "term": "Bastidor de Boné / Moldura Tubular 270° (Cap Frame & Wide Angle Driver)",
+    "pronunciation": "bas-ti-dor de bo-ne",
+    "level": "Avançado 🔴",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Bastidores & Fixação",
+    "summary": "Dispositivo rotativo cilíndrico mecatrônico de alta precisão que permite bordar a superfície curva frontal e lateral contínua de bonés estruturados em ângulo de até 270 graus.",
+    "origin": "Do latim 'bastum' (suporte) e do francês 'bonnet' (cobertura de cabeça). Sistema de tração radial desenvolvido pela Tajima e Barudan no Japão nos anos 1980 para a indústria esportiva.",
+    "definition": "O Bastidor de Boné (Cap Frame / Wide Cap Driver 270°) é um conjunto mecânico especializado composto por um anel curvo de aço inox articulado com presilhas dentadas, uma cinta de tensão com cabo de aço e um acionador giratório (Cap Driver) montado diretamente no eixo do pantógrafo da máquina de bordar industrial ou semi-industrial. Em vez de mover o tecido em um plano cartesiano reto X/Y, o driver converte o movimento do eixo X em rotação circular contínua ao redor do braço tubular da máquina, permitindo bordar bonés aba curva ou reta desde a lateral esquerda, passando pelo painel frontal estruturado até a lateral direita em uma única etapa.",
+    "technicalDetails": "Requer o uso do gabarito de montagem na bancada (Cap Gauge / Station). A velocidade da máquina deve ser reduzida para 600 a 750 PPM devido ao centro de gravidade rotativo. O bordado DEVE ser digitalizado do centro para as laterais (Center-Out) e de baixo para cima (Bottom-Up) para neutralizar o repuxo e evitar ondulações no entretelamento duro de entretela cap de 100 g/m².",
+    "howItWorks": [
+      "1. O boné é encaixado no gabarito de bancada puxando a faixa de suor para trás.",
+      "2. A entretela pesada especial para boné (Tearaway Cap 100g) é posicionada por baixo da costura central.",
+      "3. A cinta de aço metálica abraça a curvatura do boné e as presilhas travam a aba com firmeza.",
+      "4. O conjunto montado é acoplado no driver rotativo da máquina de bordar com engate rápido de roletes.",
+      "5. A máquina rotaciona o boné em sentido radial enquanto a barra da agulha executa a matriz centralizada.",
+      "6. A compensação de curvatura evita que o calcador colida com a aba rígida do boné."
+    ],
+    "beginnerExplanation": "É aquele bastidor redondo especial feito de metal curvo que abraça o boné como se fosse uma cabeça de ferro! Ele gira de um lado para o outro na máquina para bordar na frente e nas laterais do boné sem amassar a aba e sem entortar o desenho.",
+    "applications": [
+      "Bordados corporativos, esportivos e promocionais em bonés estruturados tipo trucker, dad hat e snapback",
+      "Bordados frontais em 3D com EVA de alta densidade (3D Puff Embroidery)",
+      "Bordados contínuos de orelha a orelha (270 graus) em bonés fechados",
+      "Viseiras, gorros e chapéus estilo bucket hat com suporte tubular"
+    ],
+    "commonErrors": [
+      "❌ Digitalizar a matriz no sentido tradicional (de fora para dentro), acumulando uma sobra de tecido e fazendo uma dobra horrível na costura central do boné",
+      "❌ Borda boné sem prender a faixa de suor com fita crepe ou presilha, fazendo o tecido fofo embolar sob a placa de agulha",
+      "❌ Usar agulhas finas comuns (75/11 cromadas leves) que sofrem deflexão na entretela dura do boné e quebram; deve-se usar 80/12 Titânio (PD)",
+      "❌ Não centralizar o ponto de origem no topo da costura, colidindo o calcador da máquina contra a aba plástica rígida"
+    ],
+    "troubleshootingTips": [
+      "Se o bordado na costura central do boné abrir falhas ou desalinhamentos: Digitalize a matriz com sequência 'Center-Out' (bordando do meio para os lados) e aumente a compensação de encolhimento para 0.45 mm",
+      "Se a linha arrebentar na costura grossa da frente: Reduza a velocidade para 650 PPM e instale agulha DBxK5 PD 80/12 com ponta bola leve",
+      "Se a aba do boné raspar no cabeçote: Ajuste a altura do driver e verifique o limite da área útil do bastidor (geralmente 50 a 60 mm de altura por 150 a 270 mm de largura)"
+    ],
+    "dicaArtrelados": "REGRA DE OURO PARA BONÉS: Sempre digitalize o bordado começando rigorosamente do centro para as laterais (Center-Out) e de baixo para cima! Isso empurra o tecido uniformemente para fora e elimina 100% daquelas rugas feias na costura da frente!",
+    "voceSabia": "A indústria esportiva da Major League Baseball (MLB) nos Estados Unidos produz mais de 10 milhões de bonés oficiais por ano utilizando máquinas industriais com bastidores rotativos de 270 graus em 3D puff!",
+    "practicalExercise": "Monte um boné no bastidor de boné na bancada: certifique-se de que a costura central da frente esteja perfeitamente alinhada com a marcação vermelha do gabarito. Puxe a cinta de aço e sinta como o tecido fica tão firme e esticado quanto uma casca de noz.",
+    "quickSummary": "Dispositivo rotativo cilíndrico mecatrônico para bordar a superfície curva contínua de bonés estruturados até 270 graus.",
+    "relatedTerms": [
+      "Bastidor Tubular",
+      "Efeito 3D com EVA (Puffy Foam)",
+      "Compensação de Encolhimento",
+      "Agulha de Titânio / PD"
+    ],
+    "tags": [
+      "b-062",
+      "bastidor de bone",
+      "cap frame",
+      "270 graus",
+      "wide cap driver",
+      "bone",
+      "industrial",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA. Cap Frame System & Wide Driver 270 Operational Standards. Nagoya, 2022.",
+      "BARUDAN. Cap Embroidery Digitizing & Framing Technical Handbook. Tokyo, 2021."
+    ],
+    "updatedAt": "2026-08-22"
+  },
+  {
+    "id": "b-063-barra-de-agulha-needle-bar",
+    "code": "B-063",
+    "term": "Barra de Agulha e Parafuso de Fixação (Needle Bar & Needle Clamp)",
+    "pronunciation": "bar-ra de a-gu-lha",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Componentes da Máquina",
+    "summary": "Haste de aço cementado de alta resistência com movimento vertical retilíneo alternativo que conduz a agulha com sincronismo micrométrico até a lançadeira.",
+    "origin": "Do latim 'barra' (haste rígida de metal) e 'acucula' (agulha). Peça basilar da engenharia mecatrônica de máquinas têxteis desenvolvida desde os primórdios da revolução industrial.",
+    "definition": "A Barra de Agulha (Needle Bar) é a haste cilíndrica de aço retificado de alta precisão que realiza o movimento retilíneo vertical alternativo em alta frequência (até 1.200 ciclos por minuto) acionada pelo eixo de manivela principal do cabeçote. Na extremidade inferior da barra situa-se o prendedor com parafuso de fixação (Needle Clamp) e o orifício guia onde o cabo da agulha é inserido até o batente final. O ajuste milimétrico de sua altura em relação ao bico da lançadeira é o fator determinante para a captura perfeita da laçada de linha sem quebras ou pontos pulados.",
+    "technicalDetails": "A calibração da altura da barra de agulha possui tolerância de apenas 0,05 mm. Nas máquinas industriais multi-agulhas, cada barra possui suas próprias molas de amortecimento e sensores de quebra de linha independentes. O aperto do parafuso da agulha deve ser firme com chave de fenda apropriada, sem torque excessivo para não espanar a rosca de alumínio/aço do cabeçote.",
+    "howItWorks": [
+      "1. O motor principal transmite rotação para o eixo de manivela superior do cabeçote.",
+      "2. A biela aciona a barra de agulha em movimento descendente suave e retilíneo.",
+      "3. A agulha perfura o tecido no centro da placa de ponto e atinge seu Ponto Morto Inferior (PMI).",
+      "4. Ao iniciar a subida de retorno (cerca de 1.8 mm a 2.2 mm), a linha forma uma barriga (laçada/loop) atrás da cava (scarf).",
+      "5. A ponta da lançadeira passa rente à barra e engata a laçada de linha.",
+      "6. A barra sobe ao Ponto Morto Superior enquanto o estica-fio aperta o nó no avesso."
+    ],
+    "beginnerExplanation": "É aquele ferrinho prateado brilhante que sobe e desce bem rápido segurando a agulha na ponta. É onde você aperta o parafusinho com a chave de fenda quando vai trocar a agulha da sua máquina.",
+    "applications": [
+      "Condução vertical e posicionamento angular rigoroso da agulha de bordar",
+      "Sincronização mecatrônica com o tempo da lançadeira rotativa e do estica-fio",
+      "Fixação segura do cabo da agulha através do bloco de aperto (Needle Clamp)",
+      "Seleção automática de cores em máquinas multi-agulhas industriais de 6 a 15 agulhas"
+    ],
+    "commonErrors": [
+      "❌ Inserir a agulha sem empurrá-la até o topo do batente da barra, deixando a agulha muito comprida e colidindo com a lançadeira",
+      "❌ Apertar o parafuso da agulha com chave errada ou força bruta, espanando a rosca do bloco de fixação",
+      "❌ Continuar trabalhando após uma batida violenta no bastidor sem verificar se a barra de agulha desceu de nível ou entortou",
+      "❌ Usar alicates para apertar o parafuso da barra de agulha"
+    ],
+    "troubleshootingTips": [
+      "Se a máquina começou a pular todos os pontos após uma agulha quebrar: A barra de agulha pode ter subido com o impacto; chame a assistência técnica para calibrar a altura de ponto morto da barra",
+      "Se a agulha cair durante o bordado: Aperte o parafuso de fixação com a chave de fenda original da máquina com firmeza moderada",
+      "Se a linha desfiar logo na descida: Verifique se o furo de inserção da barra de agulha não está com folga lateral excessiva"
+    ],
+    "dicaArtrelados": "Ao trocar a agulha: solte o parafuso, empurre a agulha nova PARA CIMA com o dedo até sentir que ela bateu no teto metálico da barra e aperte com a chavezinha de fenda. Se não empurrar até o batente, a ponta bate na lançadeira e quebra na primeira descida!",
+    "voceSabia": "Em uma máquina bordando a 1.000 PPM, a barra de agulha percorre mais de 70 metros de distância linear para cima e para baixo a cada minuto dentro de buchas lubrificadas com tolerância de micra!",
+    "practicalExercise": "Pegue a chave de fenda da sua máquina: solte a agulha, examine o orifício cilíndrico na ponta da barra de agulha e reinsira a agulha sentindo com a ponta dos dedos o batente de encosto superior antes de parafusar.",
+    "quickSummary": "Haste de aço de alta precisão que realiza o movimento retilíneo vertical e sustenta a agulha sincronizada com a lançadeira.",
+    "relatedTerms": [
+      "Agulha de Bordado Computadorizado",
+      "Bico da Lançadeira",
+      "Placa de Agulha / Chapa de Ponto",
+      "Calcador de Bordado"
+    ],
+    "tags": [
+      "b-063",
+      "barra de agulha",
+      "needle bar",
+      "needle clamp",
+      "mecanica",
+      "sincronismo",
+      "calibragem",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "SCHMETZ. Needle Bar Height Calibration & Rotary Hook Timing Mechanics. Aachen, 2021.",
+      "BROTHER. Technical Service Manual: Needle Bar Module Replacement & Alignment. Nagoya, 2022."
+    ],
+    "updatedAt": "2026-08-22"
+  },
+  {
+    "id": "b-064-bico-da-lancadeira-hook-point",
+    "code": "B-064",
+    "term": "Bico da Lançadeira / Ponta do Gancho (Rotary Hook Point & Hook Tip)",
+    "pronunciation": "bi-co da lan-ca-dei-ra",
+    "level": "Avançado 🔴",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Componentes da Máquina",
+    "summary": "Extremidade cônica afiada de aço temperado da lançadeira rotativa que passa a frações de milímetro da agulha para laçar o fio superior.",
+    "origin": "Do latim 'beccus' (ponta afiada) e 'lanceare' (arremessar laçadas). Desenvolvido por Allen B. Wilson em 1851 na invenção da lançadeira rotativa contínua.",
+    "definition": "O Bico da Lançadeira (Hook Point / Rotary Hook Tip) é a extremidade afilada e lapidada em micro-geometria de alta precisão do corpo da lançadeira rotativa ou oscilante. Seu papel fundamental na formação do ponto de bordado é transitar exatamente no vão da cava posterior da agulha (scarf) no instante em que a barra de agulha sobe 2,0 mm do Ponto Morto Inferior. Ao penetrar na laçada aberta pelo fio superior, o bico da lançadeira fisga o filamento, expande a laçada e a conduz em giro de 360 graus ao redor da caixa de bobina, entrelaçando a linha de cima com a linha de baixo.",
+    "technicalDetails": "A distância livre (clearance gap) entre a ponta do bico da lançadeira e a cava da agulha deve ser calibrada rigorosamente entre 0,05 mm e 0,10 mm (a espessura de uma folha de papel de seda). Se o bico estiver muito longe, ocorrem pontos pulados; se estiver encostando na agulha, ocorrem quebras de agulha, desgaste prematuro e rebarbas de metal.",
+    "howItWorks": [
+      "1. A agulha desce com a linha superior e atinge o ponto mais baixo.",
+      "2. A agulha sobe 2 mm e o atrito com o tecido expande a laçada de linha atrás da agulha.",
+      "3. O bico da lançadeira chega com sincronismo milimétrico e entra no centro da laçada.",
+      "4. A rotação contínua da lançadeira puxa a laçada por cima da caixa de bobina.",
+      "5. A linha superior envolve a linha da bobina e é recolhida pelo estica-fio para o avesso do tecido.",
+      "6. O bico da lançadeira completa o giro pronto para capturar a próxima pontada."
+    ],
+    "beginnerExplanation": "É a pontinha de metal super afiada da lançadeira que gira embaixo do tecido e 'pesca' a linha que a agulha traz de cima. É ela quem amarra a linha de cima com a linha de baixo para criar cada pontinho do bordado.",
+    "applications": [
+      "Formação impecável de 100% dos pontos executados na máquina de bordar",
+      "Sincronização de alta velocidade para suportar até 1.200 rotações por minuto",
+      "Trabalho com linhas finas e espessas sem perder laçadas",
+      "Eliminação de pontos pulados e quebras de linha por atrito no gancho"
+    ],
+    "commonErrors": [
+      "❌ Bater a agulha na lançadeira e continuar bordando com o bico amassado ou com rebarbas, cortando a linha a cada 10 pontos",
+      "❌ Tentar afiar o bico da lançadeira com lima grossa em vez de lixa diamantada de polimento 2000, estragando o ângulo original de fábrica",
+      "❌ Deixar acumular resíduos endurecidos de cola spray e fiapos de poliéster na ponta do bico",
+      "❌ Operar a máquina com folga excessiva entre a agulha e o bico"
+    ],
+    "troubleshootingTips": [
+      "Se a linha superior desfiar ou quebrar constantemente no mesmo ponto: Passe o dedo com cuidado ou um fio de linha de pesca no bico da lançadeira para sentir se há rebarbas; se houver, faça um polimento leve com lixa d'água 2000",
+      "Se a máquina pular pontos em tecidos grossos: Aproxime a folga do bico da lançadeira em relação à agulha para 0,05 mm",
+      "Se ouvir barulho metálico de atrito contínuo: Lubrifique a pista da lançadeira com uma gota de óleo mineral branco puro para máquinas de costura"
+    ],
+    "dicaArtrelados": "Toda vez que uma agulha quebrar com estalo forte: tire a placa de agulha e passe a pontinha do dedo na ponta do bico da lançadeira. Se sentir uma fisgada ou rebarba, lixe com lixa 2000 e passe uma gotinha de óleo. Isso evita 90% das quebras de linha misteriosas!",
+    "voceSabia": "O bico de uma lançadeira industrial de bordado dá mais de 1.000 voltas por minuto, percorrendo o equivalente a mais de 8 quilômetros de rotação contínua em um único dia de trabalho no ateliê!",
+    "practicalExercise": "Com a máquina desligada e a chapa de agulha removida, gire o volante manualmente no sentido correto. Observe com uma lanterna o momento exato em que a pontinha afiada do bico da lançadeira passa raspando por trás da agulha para capturar a linha.",
+    "quickSummary": "Ponta afiada de aço temperado da lançadeira que pesca a laçada de linha superior para entrelaçá-la com a bobina.",
+    "relatedTerms": [
+      "Lançadeira Rotativa",
+      "Barra de Agulha",
+      "Caixa de Bobina",
+      "Placa de Agulha / Chapa de Ponto"
+    ],
+    "tags": [
+      "b-064",
+      "bico da lancadeira",
+      "hook point",
+      "rotary hook",
+      "sincronismo",
+      "ponto pulado",
+      "manutencao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "KOBAN HOOKS. Rotary Hook Timing & Point Maintenance Technical Manual. Osaka, 2021.",
+      "TAJIMA. Rotary Hook Timing Synchronization & Scarf Clearance Standards. Nagoya, 2022."
+    ],
+    "updatedAt": "2026-08-22"
+  },
+  {
+    "id": "b-065-bainha-aberta-computadorizada-openwork",
+    "code": "B-065",
+    "term": "Bainha Aberta Computadorizada (Machine Openwork & Entre-Deux Heirloom)",
+    "pronunciation": "ba-i-nha a-ber-ta com-pu-ta-do-ri-za-da",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Técnicas de Bordado",
+    "summary": "Técnica de matriz decorativa que recria o efeito vazado e arejado do bordado tradicional de entremeios e bainhas em linho, cambraia e algodão puro.",
+    "origin": "Do francês 'entre-deux' (entre dois) e do latim 'vagina' (bainha protetora). Técnica aristocrática de enxovais nobres europeus (Heirloom Sewing) adaptada para digitalização computadorizada.",
+    "definition": "A Bainha Aberta Computadorizada (Machine Openwork / Entre-Deux / Richelieu Linear) é a técnica de bordado eletrônico pela qual a matriz programa sequências geométricas de pontos perfurantes e amarrações laterais em ponto cheio estreito ou caseado para gerar a ilusão de tecidos desfiados, vazados e entremeios rendados. Pode ser executada com agulha comum sobre entretela hidrossolúvel recortada ou com a agulha asa (Wing Needle), criando barrados de alta nobreza em enxovais de bebê, toalhas de lavabo e jogos de cama de alto luxo.",
+    "technicalDetails": "Requer tecidos de fios retilíneos bem definidos (linho 100%, tricoline 100% algodão ou percal). A densidade dos pontos de borda deve ser calibrada entre 0.35 mm e 0.40 mm com largura de coluna de 1.5 mm a 2.0 mm. Utiliza-se linha de algodão 50wt/60wt ou poliéster fosco (Matte) para reproduzir a textura fosca do trabalho feito à mão.",
+    "howItWorks": [
+      "1. O tecido é estabilizado no bastidor com entretela hidrossolúvel (Solvy de base) para manter as fibras abertas.",
+      "2. A máquina executa os pontos de perfuração que afastam ou furam os feixes de fios.",
+      "3. As colunas laterais em zigue-zague amarram as bordas dos orifícios em sequência contínua.",
+      "4. A máquina tece pequenas pontes ou barras de satim (Bars) ligando um lado ao outro do vão vazado.",
+      "5. Ao finalizar e dissolver a entretela na água morna, o entremeio permanece firme, limpo e transparente.",
+      "6. A peça adquire a estética inconfundível de um bordado manual clássico de herança familiar."
+    ],
+    "beginnerExplanation": "É aquele bordado clássico que deixa buraquinhos decorativos e rendinhas vazadas no barrado de toalhas e roupas de batizado. Parece que foi desfiado e bordado à mão durante semanas pelas bordadeiras antigas, mas é feito todinho na sua máquina de bordar!",
+    "applications": [
+      "Barrados nobres de lençóis, fronhas e jogos de berço de alta linha",
+      "Batas de batizado, vestidos infantis e camisas finas de alfaiataria",
+      "Toalhas de lavabo com entremeios clássicos e monogramas em relevo",
+      "Jogos americanos e guardanapos de linho puro para mesa posta"
+    ],
+    "commonErrors": [
+      "❌ Executar bainha aberta em tecidos sintéticos que derretem ou desfiam descontroladamente (como cetim de poliéster)",
+      "❌ Usar entretela rasgável grossa que fica presa dentro dos buraquinhos vazados e não sai na lavagem",
+      "❌ Borda com linhas de poliéster brilhante ultra refletivas, que tiram o aspecto refinado e artesanal da peça"
+    ],
+    "troubleshootingTips": [
+      "Se os buraquinhos ficarem cheios de fiapos: Use sempre entretela hidrossolúvel de filme espesso ou tecido solúvel e lave a peça em água morna corrente após bordar",
+      "Se o tecido repuxar no meio da faixa: Diminua a tensão da linha superior e ative a compensação de encolhimento de 0.35 mm no software",
+      "Se as pontes de renda se romperem: Aumente o número de passadas de travamento (Underlay) sob as pontes de satim"
+    ],
+    "dicaArtrelados": "Para fazer bainha aberta em fraldas e toalhas de bebê: use linha de bordar 100% algodão ou linha fosca na mesma cor exata do tecido com entretela hidrossolúvel. O resultado fica tão macio e delicado que parece bordado da Ilha da Madeira!",
+    "voceSabia": "O bordado 'Entre-deux' (que significa 'entre dois' tecidos) era usado na corte real francesa do século XVIII para unir duas faixas de linho nobre com uma tira de renda transparente sem costura aparente!",
+    "practicalExercise": "Em um pedaço de tricoline branca engomada com entretela hidrossolúvel, borde uma matriz de entremeio vazado de 10 cm. Lave em água morna para dissolver a entretela e sinta a leveza dos buraquinhos abertos perfeitamente acabados.",
+    "quickSummary": "Técnica que reproduz o efeito clássico vazado de entremeios e rendas tradicionais em tecidos nobres de algodão e linho.",
+    "relatedTerms": [
+      "Agulha Lança / Agulha Asa",
+      "Entretela Hidrossolúvel",
+      "Ponto Haste Computadorizado",
+      "Bordado Richelieu"
+    ],
+    "tags": [
+      "b-065",
+      "bainha aberta",
+      "entre deux",
+      "openwork",
+      "heirloom",
+      "enxoval",
+      "renda",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "DEVERSON, B. Heirloom Machine Embroidery & Openwork Techniques. London, 2021.",
+      "MADEIRA. Openwork, Richelieu & Ajour Classics for Machine Embroidery. Freiburg, 2022."
+    ],
+    "updatedAt": "2026-08-22"
+  },
+  {
+    "id": "b-066-bandeja-de-desbobinamento-porta-cones-thread-stand",
+    "code": "B-066",
+    "term": "Bandeja de Desbobinamento / Porta-Cones Externo (Thread Stand & Cone Holder)",
+    "pronunciation": "ban-de-ja de des-bo-bi-na-men-to / por-ta co-nes",
+    "level": "Fundamental 🟢",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Acessórios & Suportes",
+    "summary": "Suporte vertical com haste guia elevada que desfaz a torção helicoidal de cones grandes de linha antes que o fio entre nos discos de tensão da máquina.",
+    "origin": "Do francês 'bande' e do latim 'conus'. Acessório desenvolvido para permitir o uso econômico de cones industriais de 4.000m e 5.000m em máquinas domésticas e industriais.",
+    "definition": "A Bandeja de Desbobinamento (Porta-Cones Externo / Multi-Thread Stand) é o dispositivo auxiliar de suporte composto por uma base pesada e estável com pinos para cones de linha e uma torre metálica vertical telescópica com ilhoses-guia posicionados a pelo menos 30 cm a 45 cm de altura acima dos cones. Sua função física essencial é permitir que a linha de poliéster ou metálica saia do cone pelo topo em movimento helicoidal suave e amplo (Overhead Delivery), desfazendo as espirais de torção antes que o fio entre no primeiro guia-fio do cabeçote, eliminando laçadas falsas, nós e variações súbitas de tensão.",
+    "technicalDetails": "Cones de bordado industriais (King Spools de 4.000m e cones cônicos) foram projetados para desbobinamento vertical pelo topo (Cross-Wound), NUNCA deitados na horizontal. Usar cones grandes deitados no pino da máquina doméstica trava o carretel, gera picos de tensão de mais de 250 gramas e quebra a linha repetidamente.",
+    "howItWorks": [
+      "1. O cone grande de linha (1.000m a 5.000m) é apoiado sobre a base de borracha antiderrapante da bandeja.",
+      "2. A linha é puxada verticalmente para cima e passa pelo ilhós elevado na ponta da haste metálica.",
+      "3. O percurso vertical permite que as espirais de torção do fio se abram livremente no ar.",
+      "4. A linha desce suavemente e entra no percurso de enfiamento normal do cabeçote da máquina.",
+      "5. A tensão permanece uniforme do primeiro ao último ponto do bordado sem trancos mecânicos.",
+      "6. A bordadeira pode organizar várias cores em sequência acelerando as trocas manuais."
+    ],
+    "beginnerExplanation": "É aquela torre ou suporte alto que você coloca ao lado da sua máquina para usar cones grandes e econômicos de linha! Como a torre tem um ganchinho bem alto, a linha sai subindo soltinha sem engasgar e sem dar aqueles nós que fazem a máquina arrebentar a linha.",
+    "applications": [
+      "Uso de cones econômicos de 4.000 e 5.000 metros em máquinas de bordar domésticas de uma agulha",
+      "Organização de linhas metálicas delicadas que precisam de espaço vertical para desenrolar",
+      "Bordados longos com grandes quantidades de pontos sem necessidade de trocar carretéis pequenos",
+      "Redução drástica de quebras de fio causadas por cone travando no pino da máquina"
+    ],
+    "commonErrors": [
+      "❌ Colocar o cone grande de pé na bancada sem passar pela haste guia elevada, fazendo a linha enroscar na base plástica do cone",
+      "❌ Deitar o cone industrial grande no pino horizontal da máquina com prendedor pequeno, travando o cone e arrebentando a linha",
+      "❌ Posicionar o porta-cones muito longe da máquina, deixando o fio frouxo bater na carcaça e prender em parafusos externos"
+    ],
+    "troubleshootingTips": [
+      "Se a linha estiver dando nós e laçadas antes de entrar no tensor: Eleve a haste telescópica do porta-cones até a altura máxima (45 cm acima do cone)",
+      "Se a linha estiver escorregando e caindo na base do cone (puddle effect): Coloque uma redinha elástica de proteção de carretel (Thread Net) cobrindo o cone",
+      "Se o suporte tombar: Certifique-se de que a base de metal pesado esteja apoiada em superfície plana e nivelada"
+    ],
+    "dicaArtrelados": "Quer economizar muito dinheiro comprando cones grandes industriais de 4.000m para sua máquina doméstica? Use sempre um porta-cones externo com haste alta e coloque uma redinha elástica no cone se for linha metálica ou trilobal bem lisa. A linha corre macia e nunca mais arrebenta!",
+    "voceSabia": "Cones industriais são enrolados no sistema 'Cross-Wound' (em X cruzado) feito exclusivamente para a linha sair voando para cima; já os carretéis pequenos de costura são enrolados em paralelo (Straight-Wound) para girarem deitados no pino!",
+    "practicalExercise": "Coloque um cone grande no porta-cones externo e puxe 1 metro de linha pelo ganchinho alto: repare como o fio desce retinho sem nenhuma ondulação em espiral, pronto para alimentar a máquina com tensão perfeita!",
+    "quickSummary": "Suporte vertical com torre elevada que desenrola cones grandes pelo topo com fluidez, eliminando nós e picos de tensão.",
+    "relatedTerms": [
+      "Ajuste de Tensão da Linha",
+      "Linha de Poliéster 120/2",
+      "Linha Metálica",
+      "Passador de Linha Automático"
+    ],
+    "tags": [
+      "b-066",
+      "porta cones",
+      "thread stand",
+      "bandeja",
+      "desbobinamento",
+      "cones grandes",
+      "economia",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "SUPERIOR THREADS. Thread Delivery Systems: Horizontal vs Vertical Spool Stands. Utah, 2021.",
+      "MADEIRA. Thread Stand Setup and Tension Optimization for King Spools. Freiburg, 2022."
+    ],
+    "updatedAt": "2026-08-22"
   }
 ];
+

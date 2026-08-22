@@ -4138,5 +4138,321 @@ export const VERBETES_LETTER_A: Verbete[] = [
       "ARTRELADOS. O Segredo da Velocidade Certa: Como Regular os Saltos da Máquina Para Não Quebrar Agulhas. São Paulo: Artrelados, 2024."
     ],
     "updatedAt": "2026-08-19"
+  },
+  {
+    "id": "a-062-agulha-lanca-asa-wing-needle",
+    "code": "A-062",
+    "term": "Agulha Lança / Agulha Asa (Wing Needle & Hemstitch Needle)",
+    "pronunciation": "a-gu-lha lan-ca / a-gu-lha a-sa",
+    "level": "Avançado 🔴",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Agulhas & Fios",
+    "summary": "Agulha especializada com aletas laterais largas em forma de asas que afastam as tramas do tecido para criar orifícios decorativos permanentes em bainhas abertas e rendas.",
+    "origin": "Do inglês 'wing needle' e do francês 'point de Paris'. Desenvolvida na cutelaria europeia para recriar mecanicamente o bordado aberto artesanal de linho e cambraia (Hemstitching / Ajour) do século XIX.",
+    "definition": "A Agulha Lança (também denominada Agulha Asa, Wing Needle ou Hemstitch Needle) é um tipo especializado de agulha de perfuração mecânica cuja haste apresenta duas aletas metálicas laterais largas e achatadas que se projetam para fora ao longo da lâmina. Ao descer no tecido sob a ação da barra da agulha, essas aletas alargam e afastam mecanicamente os fios de urdume e trama do tecido fibroso (linho, cambraia ou percal 100% algodão), abrindo um orifício circular expressivo. Logo em seguida, os pontos de amarração programados na matriz ancoram as tramas abertas, impedindo que o orifício se feche e gerando a nobre estética vazada do bordado à jour.",
+    "technicalDetails": "Disponível principalmente nos calibres 100/16 e 120/19 no sistema 130/705 H-WING. O espaçamento e a velocidade da máquina devem ser calibrados para no máximo 500 a 600 PPM para evitar vibração excessiva da chapa de agulha. NUNCA deve ser utilizada com passador de linha automático mecânico, pois as asas laterais quebram instantaneamente o micro-gancho.",
+    "howItWorks": [
+      "1. A ponta fina da agulha penetra na trama do tecido de fibra natural.",
+      "2. As aletas laterais (asas) entram logo em seguida, empurrando os fios do tecido para os lados e abrindo uma cavidade limpa.",
+      "3. O ponto programado na matriz executa uma laçada dupla ou tripla ao redor do buraco aberto.",
+      "4. A agulha sobe e as aletas saem da cavidade sem cortar os filamentos do tecido.",
+      "5. A linha de algodão fino fixa a borda do orifício, mantendo o efeito de renda vazada aberto e estável.",
+      "6. A máquina translada o bastidor para o próximo passo repetindo o padrão de bainha aberta."
+    ],
+    "beginnerExplanation": "É uma agulha que parece ter duas 'asinhas' de metal dos lados. Quando ela entra no pano de algodão ou linho, essas asinhas abrem um buraquinho redondo bem bonito e a linha costura em volta, fazendo aquele efeito clássico de toalha de banquete e enxoval fino de bebê.",
+    "applications": [
+      "Bainhas abertas (Hemstitching) em toalhas de mesa nobres, jogos americanos e guardanapos de linho",
+      "Ponto Paris e detalhes rendados em batas de batizado, vestidos infantis e enxovais de berço",
+      "Molduras decorativas vazadas ao redor de monogramas clássicos",
+      "Barrados vazados em lençóis de percal 300 e 400 fios"
+    ],
+    "commonErrors": [
+      "❌ Acionar o passador de linha automático com a agulha asa instalada, quebrando o gancho do passador",
+      "❌ Usar a agulha asa em tecidos sintéticos elásticos (como malha ou lycra), onde as fibras voltam para o lugar e não seguram os furos",
+      "❌ Bordar em velocidade máxima de 1.000 PPM, causando deflexão violenta da lâmina contra a placa de ponto",
+      "❌ Utilizar entretela plástica grossa que fecha o orifício ao invés de entretela hidrossolúvel leve"
+    ],
+    "troubleshootingTips": [
+      "Se os buraquinhos decorativos ficarem fechados ou imperceptíveis: Use tecido de fibras naturais soltas (linho puro ou cambraia de algodão 100%) e goma líquida leve",
+      "Se a linha superior arrebentar: Reduza a velocidade da máquina para 500 PPM e passe a linha manualmente pelo olho da agulha",
+      "Se a agulha bater na chapa de ponto: Verifique se a placa de agulha instalada tem abertura suficiente para a largura das aletas (mínimo de 2.5 mm de abertura)"
+    ],
+    "dicaArtrelados": "Para um efeito de bainha aberta espetacular: engome levemente o linho antes de prender no bastidor e use linha de algodão 50wt ou 60wt da mesma cor do tecido com entretela hidrossolúvel fina (Solvy). Os furos ficam abertos, nítidos e com caimento artesanal de alta-costura!",
+    "voceSabia": "A técnica de agulha asa foi inspirada no bordado 'Ajour' feito manualmente pelas freiras dos conventos franceses e portugueses desde o século XVII, onde cada orifício era aberto fio a fio com um punção de osso!",
+    "practicalExercise": "Instale uma agulha asa 100/16 na sua máquina. Escolha uma matriz de ponto paris ou bainha aberta simples. Borde em um retalho de linho puro sem esticar o tecido e veja a perfeição dos buraquinhos redondos formados pelas aletas metálicas.",
+    "quickSummary": "Agulha especial com aletas laterais projetadas para abrir orifícios decorativos duradouros em tecidos de linho e algodão simulando bainha aberta.",
+    "relatedTerms": [
+      "Agulha de Bordado Computadorizado",
+      "Placa de Agulha / Chapa de Ponto",
+      "Entretela Hidrossolúvel",
+      "Ponto Haste Computadorizado"
+    ],
+    "tags": [
+      "a-062",
+      "agulha asa",
+      "wing needle",
+      "hemstitch",
+      "ajour",
+      "linho",
+      "bainha aberta",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "SCHMETZ. Specialty Needles Technical Bulletin: Wing Needles & Hemstitching. Aachen, 2022.",
+      "MADEIRA. Openwork and Heirloom Embroidery with Wing Needles. Freiburg, 2021."
+    ],
+    "updatedAt": "2026-08-22"
+  },
+  {
+    "id": "a-063-agulha-titanio-pd-titanium-needle",
+    "code": "A-063",
+    "term": "Agulha de Titânio / Revestimento PD (Titanium Nitride Coated Needle)",
+    "pronunciation": "a-gu-lha de ti-ta-ni-o / re-ves-ti-men-to pe-de",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Agulhas & Fios",
+    "summary": "Agulha de bordado revestida com camada dourada de nitreto de titânio (PVD) que reduz o atrito térmico e multiplica a durabilidade da ponta em até cinco vezes.",
+    "origin": "Do grego 'Titanes' (divindades mitológicas de grande força). Tecnologia de deposição física de vapor (PVD) originada na indústria aeroespacial e de usinagem industrial na década de 1980.",
+    "definition": "A Agulha de Titânio (também identificada comercialmente como PD - Perfect Durability, Gold Needle ou Titanium Nitride Coated Needle) é uma agulha de aço temperado de alta pureza que recebe um tratamento superficial de revestimento cerâmico de Nitreto de Titânio (TiN) através de deposição molecular a vácuo. O revestimento dourado confere uma dureza superficial de mais de 2.500 Vickers (duas vezes superior ao cromo tradicional), reduzindo drasticamente o coeficiente de atrito cinético, dissipando o calor em altas rotações e mantendo a ponta afiada e o olho sem rebarbas por mais de 5 a 8 milhões de pontos contínuos.",
+    "technicalDetails": "Disponível nos formatos industriais DBxK5 PD e domésticos 130/705 H-ET nos tamanhos 65/9 a 90/14. O revestimento de nitreto de titânio é biologicamente inerte e resiste à adesão de colas temporárias em spray, resinas de termocolantes e adesivos de entretelas, reduzindo o travamento da linha no olho da agulha em matrizes densas de aplique.",
+    "howItWorks": [
+      "1. A camada ultra-lisa de nitreto de titânio penetra o tecido gerando até 30% menos atrito térmico do que o cromo.",
+      "2. A agulha permanece em temperatura operacional fria (abaixo de 70°C) mesmo operando acima de 900 PPM.",
+      "3. O olho dourado hiper-polido conduz a linha de poliéster ou metálica sem raspar os filamentos de brilho.",
+      "4. A ponta de nitreto de titânio resiste ao impacto com entretelas duras sem entortar ou criar micro-rebarbas.",
+      "5. A formação da laçada permanece perfeitamente estável ao longo de milhares de peças produzidas."
+    ],
+    "beginnerExplanation": "É aquela agulha dourada especial que dura até 5 vezes mais que a agulha prateada comum! Ela não esquenta durante o bordado rápido, não desgasta a pontinha e não gruda cola de spray de entretela, sendo a queridinha dos ateliês profissionais.",
+    "applications": [
+      "Produções industriais contínuas e confecção de grandes volumes de uniformes",
+      "Bordados em materiais abrasivos (jeans grosso, bonés estruturados, lona e couro sintético)",
+      "Trabalhos com colas temporárias em spray e entretelas adesivas",
+      "Uso com linhas metálicas delicadas que sofrem com o atrito térmico de agulhas comuns"
+    ],
+    "commonErrors": [
+      "❌ Manter a agulha de titânio na máquina por meses esquecendo que, embora o revestimento seja ultra resistente, o corpo de aço ainda pode sofrer micro-empenamento mecânico após batidas no bastidor",
+      "❌ Confundir agulha de titânio genuína (tratamento TiN com certificação Gebedur/Organ PD) com agulhas chinesas piratas apenas pintadas de amarelo",
+      "❌ Borda malhas delicadas com agulhas de titânio de ponta afiada (Sharp) em vez de titânio ponta bola (SES PD)"
+    ],
+    "troubleshootingTips": [
+      "Se você usa muito spray adesivo temporário e a agulha vive engripando: Substitua as agulhas comuns pelo modelo de Titânio PD ou Anti-Adhesive",
+      "Se estiver bordando linhas metálicas que arrebentam por calor: Instale a agulha de Titânio 75/11 ou 80/12 para diminuir o atrito na passagem do fio",
+      "Se a linha começar a desfiar após 30 camisetas: Passe uma agulha nova de titânio e note a suavidade imediata da costura"
+    ],
+    "dicaArtrelados": "Para bordar bonés estruturados e tecidos pesados de uniforme: use agulha de Titânio DBxK5 PD tamanho 80/12. Ela penetra a sarja grossa sem deflexão, não esquenta a linha e economiza dezenas de trocas de agulhas no mês!",
+    "voceSabia": "O revestimento dourado de Nitreto de Titânio utilizado nas agulhas de bordado é o mesmo material de alta tecnologia aplicado nas brocas de perfuração de poços de petróleo e em implantes ortopédicos espaciais devido à sua dureza extrema!",
+    "practicalExercise": "Coloque uma agulha de titânio na posição 1 da sua máquina e uma agulha cromada comum na posição 2. Borde 5 bonés ou 10 toalhas felpudas em cada uma e compare o estado das pontas com uma lupa: a agulha de titânio estará dourada e afiada como nova!",
+    "quickSummary": "Agulha com revestimento cerâmico de nitreto de titânio que reduz o atrito, dissipa o calor e oferece vida útil até cinco vezes maior.",
+    "relatedTerms": [
+      "Agulha de Bordado Computadorizado",
+      "Agulha Ponta Bola",
+      "Linha Metálica",
+      "Velocidade de Bordado (SPM)"
+    ],
+    "tags": [
+      "a-063",
+      "agulha de titanio",
+      "titanium needle",
+      "pd",
+      "gebedur",
+      "durabilidade",
+      "ouro",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "GROZ-BECKERT. GEBEDUR Titanium Nitride Coated Needles Technical Sheet. Albstadt, 2022.",
+      "ORGAN NEEDLES. PD (Perfect Durability) Titanium Embroidery Needles Manual. Tokyo, 2021."
+    ],
+    "updatedAt": "2026-08-22"
+  },
+  {
+    "id": "a-064-alongamento-de-ponto-stitch-elongation",
+    "code": "A-064",
+    "term": "Alongamento de Ponto (Stitch Elongation & Pitch Calibration)",
+    "pronunciation": "a-lon-ga-men-to de pon-to",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Programação de Bordado",
+    "summary": "Recurso de software que amplia a distância longitudinal entre penetrações consecutivas de pontos ornamentais mantendo a densidade e o preenchimento inalterados.",
+    "origin": "Do latim 'elongare' (alongar, distanciar). Função pioneira dos módulos de edição digital para adaptar motivos decorativos e linhas ornamentais sem distorcer o cálculo de pontos.",
+    "definition": "O Alongamento de Ponto (Stitch Elongation / Pitch Adjustment) é o parâmetro geométrico de software que controla a escala longitudinal do ciclo de repetição de um ponto decorativo, motivo vetorial ou linha de contorno (como ponto cruz, ponto haste ou motivos ornamentais) sem alterar a densidade transversal nem a contagem interna de perfurações por centímetro. Permite que um mesmo motivo estilístico (ex: arabesco de 5 mm) seja esticado para 10 mm ou 15 mm preservando a integridade das curvas e a proporção de linha no tecido.",
+    "technicalDetails": "No cálculo vetorial, o fator de alongamento varia de 1.0x a 5.0x (ou de 50% a 300%). Em pontos de preenchimento do tipo tatami, o alongamento do comprimento de ponto (Stitch Length) de 3.5 mm para 5.0 mm reduz o número total de perfurações e melhora o brilho de áreas grandes, mas exige compensação de encolhimento adequada para evitar folga de fios.",
+    "howItWorks": [
+      "1. O programador seleciona um objeto linear decorativo ou motivo vetorial na matriz.",
+      "2. No painel de propriedades do ponto, acessa o campo 'Alongamento / Elongation Factor' ou 'Comprimento de Passo'.",
+      "3. Ajusta o multiplicador (ex: de 1.0x para 1.8x).",
+      "4. O software recalcula os pontos intermediários recalculando a curvatura pelas fórmulas de Bézier.",
+      "5. A máquina executa os passos decorativos mais espaçados com total fluidez mecânica.",
+      "6. A peça ganha leveza visual e flexibilidade sem ficar rígida ou pesada de linha."
+    ],
+    "beginnerExplanation": "É a regulagem que estica o comprimento de um pontinho decorativo sem estragar o formato dele! Em vez de ficar tudo apertadinho e duro de tanta linha, o desenho fica mais espaçado, leve e macio no tecido.",
+    "applications": [
+      "Barrados decorativos longos em lençóis, toalhas de banho e trilhos de mesa",
+      "Alívio de peso e rigidez em grandes áreas de preenchimento tatami",
+      "Adaptação de motivos ornamentais clássicos para faixas de roupas infantis",
+      "Ajuste da proporção de pontos cruz e arabescos para caberem exatamente no bastidor"
+    ],
+    "commonErrors": [
+      "❌ Alongar pontos cheios (satim) para além de 9.0 mm sem ativar a divisão automática de pontos (Auto Split), gerando fios soltos fáceis de enganchar",
+      "❌ Comprimir demais o alongamento (abaixo de 0.8 mm), fazendo a agulha bater repetidas vezes no mesmo lugar e cortar o tecido",
+      "❌ Usar passos muito longos em curvas fechadas, transformando círculos suaves em polígonos cheios de bicos retos"
+    ],
+    "troubleshootingTips": [
+      "Se o motivo decorativo ficar rígido como uma tábua: Aumente o fator de alongamento do ponto em 30% para abrir mais espaço entre as penetrações",
+      "Se as pontas soltas ficarem frouxas na lavagem: Reduza o comprimento máximo de ponto no software para no máximo 6.0 mm",
+      "Se o desenho em curva perder a forma redonda: Reduza o valor do alongamento nas zonas de curva fechada"
+    ],
+    "dicaArtrelados": "Ao bordar preenchimentos grandes em tecidos leves como percal: aumente o comprimento de ponto do tatami de 3.5 mm para 4.5 mm! O bordado fica incrivelmente mais brilhante, macio, gasta menos linha e não repuxa o tecido da cliente!",
+    "voceSabia": "Ao aumentar o comprimento de ponto do tatami em apenas 1 mm em uma área grande de bordado, você pode economizar mais de 25% do tempo total de máquina e deixar a peça com caimento de seda!",
+    "practicalExercise": "Crie dois retângulos de 5x5 cm no seu software de matrizes: programe o primeiro com comprimento de ponto de 3.0 mm e o segundo com 5.0 mm. Borde os dois e passe a mão sobre eles: o retângulo com 5.0 mm é muito mais macio e reflete o brilho da linha como um espelho!",
+    "quickSummary": "Parâmetro que ajusta a distância longitudinal entre pontos decorativos mantendo o equilíbrio e a densidade sem rigidez.",
+    "relatedTerms": [
+      "Densidade de Ponto",
+      "Ponto Tatami",
+      "Divisão Automática de Ponto (Auto Split)",
+      "Ponto Cheio (Satin)"
+    ],
+    "tags": [
+      "a-064",
+      "alongamento",
+      "stitch elongation",
+      "passo de ponto",
+      "programacao",
+      "wilcom",
+      "maciez",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM INTERNATIONAL. Stitch Length, Elongation and Density Control Reference. Sydney, 2022.",
+      "DEVERSON, B. Creative Machine Stitch Tuning and Elongation Mastery. London, 2021."
+    ],
+    "updatedAt": "2026-08-22"
+  },
+  {
+    "id": "a-065-auto-spaced-satin-espacamento-automatico",
+    "code": "A-065",
+    "term": "Auto-Spaced Satin (Satim com Espaçamento Automático em Curvas)",
+    "pronunciation": "au-to es-pei-st sa-tin",
+    "level": "Avançado 🔴",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Programação de Bordado",
+    "summary": "Algoritmo inteligente de matriz que recalcula a distribuição dos pontos cheios em curvas fechadas, abrindo o leque no raio externo e espaçando o raio interno.",
+    "origin": "Do inglês 'auto-spaced' (espaçado automaticamente) e 'satin' (ponto cheio acetinado). Algoritmo patenteado desenvolvido para softwares de ponta como Wilcom e Tajima DG/ML.",
+    "definition": "O Auto-Spaced Satin (ou Espaçamento Automático de Ponto Cheio em Curvas) é a função algorítmica avançada na geração de colunas satim que resolve o clássico problema da geometria em leque nas curvas pronunciadas. Em curvas fechadas, os pontos naturalmente se amontoam no raio interno (criando excesso de densidade e nós duros) e se abrem no raio externo (deixando o tecido transparente). O algoritmo do Auto-Spaced Satin calcula a curvatura média e redistribui dinamicamente as penetrações da agulha, aplicando pontos curtos alternados no lado interno e mantendo a cobertura perfeita no lado externo.",
+    "technicalDetails": "O recurso opera em conjunto com o filtro de 'Pontos Fracionários / Fractional Stitches'. Quando o raio de curvatura interno atinge densidades inferiores a 0.20 mm, o software omite automaticamente uma a cada duas penetrações internas, fazendo o ponto recuar para a linha de centro (Short Stitches), mantendo a densidade média constante em 0.40 mm.",
+    "howItWorks": [
+      "1. O programador desenha uma coluna de ponto cheio com curvas sinuosas ou letras com cantos arredondados.",
+      "2. No menu de propriedades de satim do software, ativa-se o 'Auto-Spacing' ou 'Espaçamento Inteligente'.",
+      "3. O software analisa os trilhos interno e externo do vetor.",
+      "4. Nas curvas acentuadas, o sistema injeta pontos curtos (Short Stitches) alternados no arco fechado.",
+      "5. A máquina executa a curva sem concentrar agulhadas no mesmo ponto milimétrico.",
+      "6. A coluna mantém a espessura visual uniforme, sem calombos no avesso e sem quebras de linha."
+    ],
+    "beginnerExplanation": "Sabe quando você vai bordar uma letra cheia de curvas e a máquina fica batendo um montão de vezes no mesmo cantinho de dentro até fazer um buraco no tecido? Esse recurso é um botão inteligente no programa que espalha os pontinhos para a máquina não mastigar o tecido nas curvas!",
+    "applications": [
+      "Letras cursivas, monogramas rebuscados e caligrafias com curvas estreitas",
+      "Arabescos ornamentais, laços infantis e contornos circulares perfeitos",
+      "Bordados em tecidos delicados que rasgam com acúmulo de perfurações",
+      "Eliminação de relevos duros e desconfortáveis no verso de peças de bebê"
+    ],
+    "commonErrors": [
+      "❌ Desativar o recurso de pontos curtos nas curvas ao programar alfabetos pequenos, criando nós duros que quebram agulhas",
+      "❌ Aumentar manualmente a densidade geral para tapar o vão externo da curva, piorando ainda mais o embolamento do lado de dentro",
+      "❌ Deixar os pontos curtos recuarem para além de 50% da coluna, criando uma linha de costura visível no meio do satim"
+    ],
+    "troubleshootingTips": [
+      "Se a máquina fizer barulho de batida forte e cortar a linha em curvas de letras: Ative o Auto-Spaced Satin e os Pontos Curtos (Short Stitches) no software de matriz",
+      "Se o lado de fora da curva estiver transparente mostrando o tecido: Aumente ligeiramente a densidade base do satim ou acrescente um underlay de zigue-zague",
+      "Se o avesso da curva ficar com uma bola grossa de linha: Verifique se os pontos fracionários estão configurados para no mínimo 35% de recuo"
+    ],
+    "dicaArtrelados": "Ao digitalizar letras cursivas com voltas apertadas: ative sempre a função 'Pontos Curtos Automáticos' (Short Stitches) no seu programa de matrizes! Suas letras vão deslizar na máquina sem bater, sem furar o tecido e com avesso super limpinho!",
+    "voceSabia": "Sem o algoritmo de espaçamento automático, uma curva de 180° em ponto satim de 4 mm pode concentrar mais de 12 penetrações de agulha no mesmo raio de 0,5 mm, o que é suficiente para cortar o tecido como uma serra!",
+    "practicalExercise": "Desenhe a letra 'S' em ponto cheio de 5 mm de largura no software. Gere os pontos sem o recurso de pontos curtos e conte quantas perfurações ocorrem no centro da curva. Depois, ative o 'Auto-Spaced Satin' com pontos curtos e observe como o software alterna as agulhadas perfeitamente!",
+    "quickSummary": "Algoritmo que equilibra a distribuição de pontos cheios em curvas fechadas evitando acúmulo interno e falhas externas.",
+    "relatedTerms": [
+      "Ponto Cheio (Satin)",
+      "Pontos Curtos (Short Stitches)",
+      "Densidade de Ponto",
+      "Ângulo de Ponto (Stitch Angle)"
+    ],
+    "tags": [
+      "a-065",
+      "auto spaced",
+      "satin",
+      "curvas",
+      "pontos curtos",
+      "wilcom",
+      "matriz",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM. Satin Stitch Geometric Auto-Spacing & Short Stitches Reference Manual. Sydney, 2022.",
+      "TAJIMA DG/ML BY PULSE. Advanced Column Cornering and Curve Management. Dallas, 2021."
+    ],
+    "updatedAt": "2026-08-22"
+  },
+  {
+    "id": "a-066-alavanca-do-calcador-presser-foot-lifter",
+    "code": "A-066",
+    "term": "Alavanca do Calcador e Sensor de Altura (Presser Foot Lifter & Safety Sensor)",
+    "pronunciation": "a-la-van-ca do cal-ca-dor",
+    "level": "Fundamental 🟢",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Componentes da Máquina",
+    "summary": "Mecanismo manual ou servo-motorizado que eleva o calcador de bordado, liberando os discos de tensão e acionando o sensor de segurança da máquina.",
+    "origin": "Do latim 'alavari' (erguer) e 'calcare' (pressionar o solo). Mecanismo clássico da engenharia de máquinas de costura e bordado aprimorado com sensores ópticos nas últimas décadas.",
+    "definition": "A Alavanca do Calcador (Presser Foot Lifter / Auto Presser Foot Motor) é o componente mecânico articulado ou eletrônico localizado na parte posterior ou acionado por botão no painel frontal do cabeçote da máquina de bordar. Sua função primária é levantar e abaixar a sapata do calcador de bordado (Pé de Mola / Darning Foot). Ao ser levantada, a alavanca aciona um excêntrico mecânico que abre fisicamente os discos de tensão superior para permitir a passagem livre da linha e aciona um micro-sensor de segurança eletrônico que desativa o motor principal da máquina.",
+    "technicalDetails": "Nas máquinas modernas (Brother, Janome, Bernina e Tajima), a alavanca está conectada a um microswitch e encoder óptico. Se a alavanca estiver levantada, o botão Start/Stop permanece vermelho e o painel bloqueia o início do bordado, prevenindo que a máquina costure com os discos de tensão abertos (o que geraria ninhos gigantescos de linha no avesso em menos de 3 segundos).",
+    "howItWorks": [
+      "1. A bordadeira levanta a alavanca para encaixar o bastidor sob a barra da agulha com folga de altura.",
+      "2. A subida da alavanca empurra o pino de liberação que abre os discos de tensão da linha superior.",
+      "3. O operador passa a linha pelas canaletas sem encontrar resistência de atrito.",
+      "4. Ao encaixar o bastidor e posicionar a agulha, a bordadeira abaixa a alavanca do calcador.",
+      "5. Os discos de tensão se fecham sobre a linha e o sensor eletrônico envia sinal liberando o botão Start/Stop (luz verde).",
+      "6. Durante o bordado, o calcador sobe e desce ritmicamente acionado pela mola interna a cada descida da agulha."
+    ],
+    "beginnerExplanation": "É aquela alavanquinha atrás da máquina que você levanta para colocar o bastidor e abaixa antes de apertar o botão verde para começar a bordar. Quando ela está levantada, a linha corre soltinha para você passar na agulha; quando você abaixa, a máquina prende a linha com a força certa para bordar.",
+    "applications": [
+      "Inserção e retirada segura de bastidores pequenos, médios e magnéticos",
+      "Passagem correta e sem engasgos da linha superior através dos discos de tensão",
+      "Segurança operacional impedindo que a máquina funcione sem pressão de tensão",
+      "Regulagem de altura do calcador para tecidos grossos, atoalhados e com EVA 3D"
+    ],
+    "commonErrors": [
+      "❌ Passar a linha pela máquina com a alavanca do calcador ABAIXADA, fazendo a linha não entrar entre os discos de tensão e embolar toda embaixo no avesso",
+      "❌ Esquecer de abaixar a alavanca antes de iniciar (o painel avisa com luz vermelha e bipe sonoro)",
+      "❌ Forçar a alavanca para cima com bastidores muito grossos, descalibrando o sensor eletrônico interno"
+    ],
+    "troubleshootingTips": [
+      "Se a linha estiver embolando como uma 'barba' de nós gigantesca no avesso: Você passou a linha com o calcador abaixado! Levante a alavanca, retire a linha e passe tudo de novo com o pé levantado",
+      "Se o botão da máquina estiver vermelho e não iniciar: Certifique-se de ter abaixado a alavanca do calcador até o final",
+      "Se o calcador estiver arrastando no tecido fofo: Ajuste a altura do calcador no menu de configurações da máquina para 1.5 mm ou 2.0 mm"
+    ],
+    "dicaArtrelados": "REGRA DE OURO número 1 do ateliê: SEMPRE levante a alavanca do pé calcador antes de passar a linha na máquina! Isso abre os discos de tensão para a linha entrar no fundo. Se passar com o pé abaixado, o bordado vai embolar na primeira pontada!",
+    "voceSabia": "Nas máquinas de bordar industriais e domésticas de ponta, o calcador é levantado e abaixado automaticamente por um servomotor silencioso toda vez que a máquina conclui um bloco de cor ou faz o corte automático de linha!",
+    "practicalExercise": "Com a máquina ligada, tente puxar a linha da agulha com o calcador levantado: note como ela corre macia e solta. Agora abaixe o calcador e puxe a linha novamente: sinta como ela fica firme e presa pelos discos de tensão!",
+    "quickSummary": "Alavanca de comando que eleva o calcador, abre os discos de tensão para enfiamento e controla o sensor de segurança da máquina.",
+    "relatedTerms": [
+      "Calcador de Bordado (Pé de Mola)",
+      "Ajuste de Tensão da Linha",
+      "Botão Start/Stop",
+      "Passador de Linha Automático"
+    ],
+    "tags": [
+      "a-066",
+      "alavanca do calcador",
+      "presser foot lifter",
+      "sensor",
+      "tensao",
+      "seguranca",
+      "operacao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BROTHER. Operation Manual: Presser Foot Lifter & Tension Release Mechanism. Nagoya, 2022.",
+      "JANOME. Machine Mechanics: Presser Foot Height and Safety Switch Guide. Tokyo, 2021."
+    ],
+    "updatedAt": "2026-08-22"
   }
 ];
+

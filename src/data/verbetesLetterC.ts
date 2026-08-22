@@ -3912,5 +3912,322 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "ARTRELADOS. Dominando os Sensores da Sua Máquina: Como Regular o Aviso de Bobina Sem Desperdício. São Paulo: Artrelados, 2024."
     ],
     "updatedAt": "2026-08-19"
+  },
+  {
+    "id": "c-062-calibracao-ponto-zero-central",
+    "code": "C-062",
+    "term": "Calibração de Ponto Zero / Ponto Central (Zero Point Calibration & Center Origin)",
+    "pronunciation": "ca-li-bra-cao de pon-to ze-ro",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Operação da Máquina",
+    "summary": "Procedimento mecatrônico de zeramento dos eixos X e Y que sincroniza a origem cartesiana do bastidor com o centro geométrico da matriz de bordado.",
+    "origin": "Do latim 'calibrare' e do árabe 'sifr' (zero). Rotina de inicialização geométrica originada nas máquinas-ferramenta CNC e adaptada aos pantógrafos eletrônicos de bordado.",
+    "definition": "A Calibração de Ponto Zero (Zero Point Homing & Center Origin Calibration) é o procedimento eletrônico e mecânico no qual o pantógrafo da máquina de bordar desloca os eixos X (lateral) e Y (profundidade) até acionar os sensores ópticos de fim de curso (Home Sensors) para estabelecer o marco referencial de coordenadas (0,0). A partir dessa origem absoluta de fábrica, o computador de bordo calcula a área útil segura do bastidor instalado e centraliza o ponto inicial da matriz, impedindo que a barra da agulha colida com as bordas plásticas ou metálicas do aro durante o ciclo de trabalho.",
+    "technicalDetails": "Nas máquinas modernas, a rotina de Home Positioning ocorre automaticamente ao ligar o equipamento ou ao acoplar a unidade de bordado. O alinhamento manual de centro (Origin Set) permite à bordadeira redefinir o ponto central da matriz com precisão de 0.1 mm usando mira laser cruzada (Laser Pointer) ou câmera de alta resolução no cabeçote.",
+    "howItWorks": [
+      "1. Ao ligar a máquina ou acoplar o módulo de bordado, o motor de passo move o carro até o batente dos sensores ópticos X e Y.",
+      "2. O sistema emite um bipe de calibração e fixa a coordenada absoluta (0,0) na memória da placa-mãe.",
+      "3. A bordadeira seleciona o tamanho do bastidor correto na tela touchscreen.",
+      "4. A máquina move o bastidor automaticamente para a posição central exata (Center Point).",
+      "5. Se necessário, o operador faz o micro-ajuste da agulha sobre a marcação física desenhada no tecido.",
+      "6. A máquina executa o bordado perfeitamente centralizado sem risco de colisão lateral com a borda do bastidor."
+    ],
+    "beginnerExplanation": "É quando a máquina mexe o braço do bastidor para os lados logo que você liga, dando aquele 'passeio' de teste para achar o centro certinho da tela. Isso garante que o desenho vai ser bordado bem no meio do bastidor e a agulha não vai bater no plástico!",
+    "applications": [
+      "Inicialização segura da máquina ao ligar o ateliê pela manhã",
+      "Centralização exata de monogramas em bolsos, toalhas e camisas",
+      "Alinhamento milimétrico em bordados contínuos com múltiplos re-enquadramentos de bastidor",
+      "Prevenção de quebras catastróficas de agulha contra o aro do bastidor"
+    ],
+    "commonErrors": [
+      "❌ Ligar a máquina de bordar com as mãos ou objetos pesados segurando o carro do bastidor, travando os motores de passo e descalibrando o ponto zero",
+      "❌ Colocar um bastidor grande (ex: 20x30 cm) na máquina tendo selecionado na tela um bastidor pequeno, correndo o risco de colisão",
+      "❌ Desligar a máquina no meio de um movimento de deslocamento rápido sem aguardar o retorno suave ao centro"
+    ],
+    "troubleshootingTips": [
+      "Se o bordado começar descentralizado ou torto após um tropeço no cabo: Desligue a máquina, retire o bastidor, ligue novamente e deixe ela fazer a calibração de ponto zero sozinha",
+      "Se o braço da máquina fizer um estalo de engrenagem ao ligar: Verifique se não há tesouras, réguas ou tecidos travando o trilho do pantógrafo atrás da máquina",
+      "Se a máquina avisar 'Retire o bastidor para calibrar': Remova o aro, toque em OK na tela e recoloque o bastidor após a movimentação de inicialização"
+    ],
+    "dicaArtrelados": "Sempre ligue a sua máquina SEM o bastidor encaixado! Deixe o braço do pantógrafo se movimentar livre e achar o ponto zero com toda a suavidade. Depois que ela parar no centro e fizer o bipe, aí sim você encaixa o bastidor com o tecido.",
+    "voceSabia": "As máquinas de bordar industriais utilizam encoders com mais de 4.000 pulsos por volta para garantir que a agulha volte exatamente ao mesmo décimo de milímetro mesmo após bordar mais de 100.000 pontos contínuos!",
+    "practicalExercise": "Ligue sua máquina de bordar e observe a dança dos eixos: veja como o carro viaja até o canto traseiro para achar o sensor de fim de curso e depois retorna com elegância parando no centro exato da área de costura!",
+    "quickSummary": "Rotina mecatrônica de zeramento dos eixos que sincroniza a origem cartesiana e centraliza a matriz com máxima segurança.",
+    "relatedTerms": [
+      "Bastidor Tubular",
+      "Traçagem de Área Útil (Trace)",
+      "Motor de Passo (Stepper Motor)",
+      "Operação da Máquina"
+    ],
+    "tags": [
+      "c-062",
+      "ponto zero",
+      "zero point",
+      "calibracao",
+      "centralizacao",
+      "home position",
+      "seguranca",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BROTHER. Embroidery Carriage Initialization & Zero Point Homing Standards. Nagoya, 2022.",
+      "JANOME. Memory Craft Axis Calibration and Center Origin Setup Guide. Tokyo, 2023."
+    ],
+    "updatedAt": "2026-08-22"
+  },
+  {
+    "id": "c-063-caixa-transporte-dentes-rebaixados",
+    "code": "C-063",
+    "term": "Caixa de Transporte e Dentes Impulsores Rebaixados (Drop Feed Mechanism & Darning Plate)",
+    "pronunciation": "cai-xa de trans-por-te / den-tes im-pul-so-res",
+    "level": "Fundamental 🟢",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Componentes da Máquina",
+    "summary": "Mecanismo de desengate dos dentes de serrilha inferiores que desativa o arraste unidirecional para permitir a movimentação livre e multidirecional do bastidor de bordado.",
+    "origin": "Do latim 'transportare' e do inglês 'drop feed' (abaixar dentes de transporte). Sistema mecânico inventado para alternar máquinas de costura entre costura reta e bordado livre/computadorizado.",
+    "definition": "A Caixa de Transporte com Dentes Impulsores Rebaixados (Drop Feed Lever / Feed Dog Disengage / Darning Cover) é o conjunto mecânico localizado sob a chapa de ponto da máquina que controla a atuação das serrilhas de arraste do tecido. Na costura tradicional, os dentes sobem e empurram o pano em linha reta para trás. No modo de bordado computadorizado ou livre, uma alavanca na traseira da máquina ou um sensor mecatrônico automático rebaixa os dentes para baixo do nível da chapa de agulha (ou aplica-se uma tampa de isolamento / Darning Plate), permitindo que o pantógrafo mova o tecido com total liberdade e sem atrito em qualquer direção (360 graus).",
+    "technicalDetails": "Se os dentes de transporte permanecerem levantados durante o bordado computadorizado, a serrilha de aço raspa e corta o verso da entretela a cada avanço do bastidor, além de oferecer resistência mecânica contra os motores de passo dos eixos X/Y, podendo causar perda de passos e desalinhamento de contornos.",
+    "howItWorks": [
+      "1. A bordadeira aciona a alavanca de rebaixamento dos dentes (Drop Feed) na carcaça da máquina ou encaixa o módulo de bordado que desativa os dentes automaticamente.",
+      "2. O excêntrico mecânico faz a barra das serrilhas recuar para baixo da linha da chapa de ponto.",
+      "3. A superfície da placa de metal fica 100% lisa e nivelada.",
+      "4. O bastidor desliza suavemente sobre a chapa em todas as direções comandado pelo pantógrafo.",
+      "5. A agulha perfura o tecido sem que nenhum dente interfira na formação do ponto.",
+      "6. Ao retornar para o modo de costura convencional, basta acionar a alavanca e girar o volante uma volta para os dentes subirem novamente."
+    ],
+    "beginnerExplanation": "São aqueles 'dentinhos' de metal que ficam embaixo do pezinho da máquina e puxam o pano para trás na costura normal. No bordado, nós abaixamos esses dentinhos para a máquina ficar com o chão bem lisinho e o bastidor conseguir deslizar para frente, para trás e para os lados sem enroscar!",
+    "applications": [
+      "Preparação obrigatória de máquinas domésticas híbridas (costura e bordado) antes de acoplar o bastidor",
+      "Bordado livre com bastidor manual (Free-Motion Quilting & Freehand Embroidery)",
+      "Proteção da entretela e do tecido contra rasgos provocados pela serrilha metálica",
+      "Eliminação de esforço de tração sobre os motores de passo do pantógrafo"
+    ],
+    "commonErrors": [
+      "❌ Esquecer os dentes levantados ao bordar em máquina híbrida, rasgando o avesso da entretela e fazendo a máquina perder o alinhamento",
+      "❌ Acionar a alavanca para subir os dentes e achar que quebrou porque eles não sobem de imediato (é necessário dar uma volta completa no volante com a mão para engatar a mola)",
+      "❌ Deixar poeira compactada entre as fendas dos dentes impedindo que eles desçam totalmente"
+    ],
+    "troubleshootingTips": [
+      "Se o bastidor estiver travando ou fazendo barulho de atrito no fundo: Verifique imediatamente se a alavanca do Drop Feed está na posição de dentes rebaixados",
+      "Se os dentes não subirem ao voltar para o modo costura: Mova a alavanca para a posição de costura e dê um giro completo no volante manual em sua direção",
+      "Se a chapa estiver com serrilha saliente: Retire a chapa de agulha e limpe os fiapos com o pincel do kit de acessórios"
+    ],
+    "dicaArtrelados": "Se sua máquina for daquelas que costura e borda (como a Brother linha NV ou Janome Skyline): toda vez que for colocar o bastidor de bordar, confira se a chavinha dos dentinhos atrás da máquina está no modo 'Abaixado'. Isso garante um bordado macio e sem travamento!",
+    "voceSabia": "Nas máquinas exclusivas de bordado (como a Brother BP2150 ou Janome MC550E), a fábrica nem sequer coloca dentes de transporte: a chapa de aço já nasce 100% lisa e fechada de fábrica!",
+    "practicalExercise": "Localize a alavanca de rebaixar dentes na sua máquina: empurre-a para o lado e veja os dentinhos de metal afundarem sob a chapa de aço, deixando a mesa totalmente plana para deslizar o bastidor!",
+    "quickSummary": "Mecanismo que recolhe as serrilhas de tração para deixar a mesa lisa e permitir o livre movimento do bastidor em 360 graus.",
+    "relatedTerms": [
+      "Placa de Agulha / Chapa de Ponto",
+      "Calcador de Bordado (Pé de Mola)",
+      "Pantógrafo Computadorizado",
+      "Motor de Passo (Stepper Motor)"
+    ],
+    "tags": [
+      "c-063",
+      "caixa de transporte",
+      "dentes rebaixados",
+      "drop feed",
+      "darning",
+      "serrilha",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "SINGER. Mechanics of Drop Feed and Free-Motion Embroidery Mechanisms. New York, 2021.",
+      "JANOME. Drop Feed Lever Operation and Maintenance Guide. Tokyo, 2022."
+    ],
+    "updatedAt": "2026-08-22"
+  },
+  {
+    "id": "c-064-curvatura-de-ponto-bezier-tuning",
+    "code": "C-064",
+    "term": "Curvatura de Ponto e Nós de Bézier (Stitch Curve Tuning & Bezier Nodes)",
+    "pronunciation": "cur-va-tu-ra de pon-to / nos de be-zi-er",
+    "level": "Avançado 🔴",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Programação de Bordado",
+    "summary": "Método de modelagem vetorial por pontos de controle e alças de tangência que suaviza o traçado de colunas e preenchimentos orgânicos na digitalização de matrizes.",
+    "origin": "Em homenagem ao engenheiro francês Pierre Bézier (1910–1999), pioneiro das curvas matemáticas no design automotivo e computação gráfica.",
+    "definition": "A Curvatura de Ponto e Ajuste por Nós de Bézier (Curve Tuning & Bezier Stitch Generation) é o conjunto de ferramentas e cálculos matemáticos vetoriais nos softwares de digitalização profissional (Wilcom EmbroideryStudio, Tajima DG/ML, Bernina Designer e Embird) que define o contorno orgânico de linhas, colunas de satim e blocos de tatami. Por meio da manipulação de nós de curva (Smooth Nodes, Corner Nodes e Cusp Nodes) e de suas respectivas alças de tangência, o programador controla com precisão a taxa de deflexão do arco, garantindo que o algoritmo de geração de pontos crie transições ultra-suaves sem facetas poligonais pontiagudas.",
+    "technicalDetails": "No cálculo vetorial do software de bordado, a tolerância de aproximação de curva (Curve Chord Tolerance) deve ser mantida entre 0.15 mm e 0.25 mm. Curvas com poucos nós e alças harmônicas geram matrizes mais leves, com passos de agulha fluidos e menor vibração do pantógrafo em alta velocidade.",
+    "howItWorks": [
+      "1. O programador importa o desenho em alta resolução para a tela do software.",
+      "2. Utiliza a ferramenta de linhas complexas ou colunas digitando pontos de clique esquerdo (retas) e clique direito (curvas de Bézier).",
+      "3. Ajusta o ângulo das alças azuis de tangência para moldar o arco exato da ilustração.",
+      "4. O motor gráfico calcula a rotação contínua dos ângulos de ponto acompanhando a curvatura (Turning Angles).",
+      "5. A matriz gera os comandos de ponto seguindo arcos suaves sem cantos quebrados.",
+      "6. A máquina de bordar borda a curva com aceleração constante e acabamento perfeito."
+    ],
+    "beginnerExplanation": "É a técnica no computador onde você clica com o botão direito do mouse para fazer curvas perfeitas e redondinhas em vez de linhas retas duras e cheias de bicos. É o que faz um coração, uma flor ou uma letra parecerem desenhados à mão com perfeição!",
+    "applications": [
+      "Digitalização profissional de logomarcas com formas orgânicas, folhas e pétalas",
+      "Letras caligráficas, alfabetos infantis e monogramas com arabescos perfeitos",
+      "Contornos de animais, ilustrações realistas e rostos estilizados",
+      "Suavização de vetores brutos importados de arquivos CorelDRAW ou Adobe Illustrator"
+    ],
+    "commonErrors": [
+      "❌ Colocar dezenas de nós de curva colados uns aos outros em vez de usar apenas dois nós com boas alças de Bézier, gerando trepidação e travamento de pontos na máquina",
+      "❌ Deixar cantos retos em desenhos que deveriam ser redondos, criando pontas duras que espetam",
+      "❌ Não alinhar os ângulos de ponto na direção da curva, fazendo os pontos ficarem enviesados e feios"
+    ],
+    "troubleshootingTips": [
+      "Se a curva do bordado estiver parecendo um octógono cheio de linhas retas: Entre no modo de edição de nós do software e transforme os nós de canto em nós de curva suave (Smooth Curve Nodes)",
+      "Se o arquivo estiver muito pesado e cheio de nós inúteis: Aplique a função 'Otimizar Nós / Smooth Outline' do software para reduzir a contagem de pontos de controle",
+      "Se a linha repuxar na curva: Ajuste os ângulos de ponto para que fiquem perpendiculares ao arco"
+    ],
+    "dicaArtrelados": "SEGREDO DE PROGRAMAÇÃO PROFISSIONAL: Menos é mais! Quanto menos pontos de nó você colocar em uma curva, mais lisa e brilhante ela vai ficar na máquina. Use poucos nós e estique as alcinhas de Bézier para dar a forma!",
+    "voceSabia": "As mesmas fórmulas matemáticas de curvas de Bézier que você usa para digitalizar uma pétala de rosa na matriz de bordado foram criadas nos anos 1960 para desenhar a aerodinâmica dos carros da montadora Renault na França!",
+    "practicalExercise": "No seu software de matrizes, tente desenhar um círculo perfeito usando apenas 4 nós de curva nos pontos cardeais (topo, base, esquerda e direita). Puxe as alças de Bézier e veja como o círculo fica matematicamente perfeito!",
+    "quickSummary": "Modelagem vetorial por alças matemáticas que garante traçados e preenchimentos orgânicos ultra-suaves sem facetas duras.",
+    "relatedTerms": [
+      "Ângulo de Ponto (Stitch Angle)",
+      "Auto-Spaced Satin",
+      "Densidade de Ponto",
+      "Edição e Redução de Nós Vetoriais"
+    ],
+    "tags": [
+      "c-064",
+      "curvatura de ponto",
+      "bezier",
+      "nos vetoriais",
+      "programacao",
+      "wilcom",
+      "matriz",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM INTERNATIONAL. Vector Shapes, Bezier Node Editing and Curve Stitching Guide. Sydney, 2022.",
+      "BÉZIER, P. Curves and Surfaces for Computer-Aided Geometric Design. Academic Press, 1986."
+    ],
+    "updatedAt": "2026-08-22"
+  },
+  {
+    "id": "c-065-cera-lubrificante-de-linha-silicone-oil",
+    "code": "C-065",
+    "term": "Cera e Lubrificante de Linha / Óleo de Silicone Líquido (Thread Lubricant & Silicone Floss)",
+    "pronunciation": "ce-ra e lu-bri-fi-can-te de li-nha",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Insumos & Acessórios",
+    "summary": "Fluido de silicone puro ou cera vegetal microcristalina aplicado ao fio para reduzir o atrito térmico e a quebra de linhas metálicas e fios secos.",
+    "origin": "Do latim 'cera' e 'lubricus' (escorregadio). Prática introduzida na tecelagem de alta velocidade e consolidada no bordado industrial com fios sintéticos e metálicos.",
+    "definition": "O Lubrificante de Linha (Thread Lubricant / Sewer's Aid / Óleo de Silicone Mineral Puro 100%) é um agente químico desmoldante e redutor de atrito formulado à base de polidimetilsiloxano ou cera solúvel. Aplicado diretamente sobre cones de linha metálica, linhas de poliéster com ressecamento por armazenamento ou feltros de lubrificação de máquinas industriais, o fluido cria uma micro-película escorregadia invisível que não mancha o tecido e dissipa instantaneamente o calor gerado pela fricção da agulha em altas velocidades (acima de 800 PPM).",
+    "technicalDetails": "Deve ser estritamente óleo de silicone puro atóxico e inodoro (viscosidade 350 a 1.000 cSt). NUNCA utilize óleos automotivos, desengripantes tipo WD-40 ou vaselinas oleosas, pois atacam as borrachas de vedação da máquina e deixam manchas escuras e gordurosas permanentes nos tecidos dos clientes.",
+    "howItWorks": [
+      "1. A bordadeira pinga 2 a 3 gotas de óleo de silicone no topo do cone de linha ou embebe a esponja do lubrificador de linha da máquina.",
+      "2. À medida que o fio é desenrolado, o fluido se espalha uniformemente pelos filamentos da linha.",
+      "3. A linha passa pelos discos de tensão com coeficiente de atrito reduzido e estabilidade de tração.",
+      "4. Ao penetrar no olho da agulha quente, o filme de silicone dissipa a caloria e evita que a linha de poliéster se parta por fusão térmica.",
+      "5. A linha desliza no tecido denso sem formar laçadas tortas nem esfiapamentos.",
+      "6. O lubrificante evapora ou sai facilmente na primeira lavagem sem deixar resíduos de cor."
+    ],
+    "beginnerExplanation": "É um olhinho especial de silicone transparente (que parece água e não mancha o tecido) que a gente passa nas linhas metálicas douradas ou prateadas que vivem quebrando. Ele faz a linha escorregar bem lisinha pela agulha sem esquentar e sem arrebentar!",
+    "applications": [
+      "Bordados com linhas metálicas douradas, prateadas e holográficas em tecidos pesados",
+      "Recuperação de cones de linha de poliéster antigos ou ressecados pelo tempo e calor",
+      "Bordados contínuos em couro sintético, lona e materiais que esquentam a agulha",
+      "Trabalhos com linhas especiais de nylon, monofilamento transparente e fios grossos 30wt"
+    ],
+    "commonErrors": [
+      "❌ Encharcar o cone com óleo comum de máquina de costura, manchando o bordado todo de amarelo e sujando os sensores ópticos de linha",
+      "❌ Usar produtos inflamáveis ou à base de solvente que ressecam e partem a linha",
+      "❌ Aplicar lubrificante em excesso a ponto de escorrer para dentro da caixa de bobina"
+    ],
+    "troubleshootingTips": [
+      "Se a linha metálica estiver quebrando a cada 20 pontos mesmo com agulha especial: Pingue 2 gotas de lubrificante de silicone líquido no topo do cone e aguarde 5 minutos antes de bordar",
+      "Se a linha estiver desfiando na passagem do tensor: Passe um fio embebido em lubrificante pelo trajeto para limpar e suavizar as guias",
+      "Se o tecido for muito claro (branco ou seda): Faça um teste em um retalho antes para garantir que o lubrificante utilizado é 100% incolor e livre de óleo mineral cru"
+    ],
+    "dicaArtrelados": "Linha dourada metálica partindo direto no ateliê? Pegue um frasquinho de silicone líquido para linha (Sewer's Aid), pingue duas gotinhas no cone de linha e reduza a velocidade da máquina para 600 PPM. O bordado vai rodar até o final sem arrebentar uma única vez!",
+    "voceSabia": "A temperatura de uma agulha bordando a 900 PPM em tecido sintético pode ultrapassar 120°C, temperatura mais que suficiente para derreter o filamento plástico da linha de poliéster se ela não tiver lubrificação adequada!",
+    "practicalExercise": "Pegue um pedaço de linha metálica seca e puxe com as duas mãos até arrebentar. Agora passe um pingo de silicone líquido em outro pedaço da mesma linha e puxe novamente: sinta como a linha fica flexível, macia e muito mais resistente!",
+    "quickSummary": "Fluido de silicone especial aplicado à linha para reduzir o calor de atrito e evitar a quebra de fios metálicos e sintéticos.",
+    "relatedTerms": [
+      "Linha Metálica",
+      "Agulha de Titânio / PD",
+      "Ajuste de Tensão da Linha",
+      "Velocidade de Bordado (SPM)"
+    ],
+    "tags": [
+      "c-065",
+      "lubrificante de linha",
+      "silicone liquido",
+      "sewers aid",
+      "linha metalica",
+      "atrito",
+      "insumos",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "MADEIRA. Metallic Threads Processing & Liquid Lubrication Guidelines. Freiburg, 2022.",
+      "SUPERIOR THREADS. Sewer's Aid Silicone Lubrication and Thread Friction Control. Utah, 2021."
+    ],
+    "updatedAt": "2026-08-22"
+  },
+  {
+    "id": "c-066-corte-salto-jump-stitch-trim",
+    "code": "C-066",
+    "term": "Corte de Ponto de Salto Automático (Jump Stitch Trim & Thread Trimming)",
+    "pronunciation": "cor-te de pon-to de sal-to au-to-ma-ti-co",
+    "level": "Fundamental 🟢",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Operação da Máquina",
+    "summary": "Sistema eletromecânico com lâmina móvel e fixa que corta automaticamente o fio superior em deslocamentos longos entre letras e objetos da matriz.",
+    "origin": "Do latim 'curtare' e do inglês 'jump stitch trim'. Avanço mecatrônico crucial introduzido nas máquinas eletrônicas nos anos 1990 para eliminar o corte manual de fios com tesourinha.",
+    "definition": "O Corte de Ponto de Salto Automático (Jump Stitch Trimming / Auto Thread Trimmer) é o mecanismo automatizado composto por um solenóide ou servomotor, um gancho móvel de captura de linha e uma faca de corte situada sob a chapa de ponto da máquina de bordar. Quando o software detecta um salto de pantógrafo (Jump Stitch) cuja distância linear supera o limite programado (ex: acima de 5.0 mm ou configurável no painel), a máquina desacelera, aciona os pontos de amarração, movimenta a faca para seccionar as linhas superior e inferior rente ao avesso e salta para a próxima letra sem deixar linhas esticadas na frente do tecido.",
+    "technicalDetails": "Configurável no menu da máquina em milímetros (geralmente entre 3 mm e 10 mm). Requer matrizes com comandos explóricos de corte (Trim Command / Tr). Máquinas que realizam o corte de salto economizam até 80% do tempo de pós-produção e limpeza manual com tesoura de arremate.",
+    "howItWorks": [
+      "1. A máquina conclui uma letra ou objeto do bordado executando os pontos de amarração final.",
+      "2. O comando de corte programado na matriz aciona o solenóide do cortador.",
+      "3. A lâmina móvel se desloca sob a chapa de ponto e abraça o fio da agulha e da bobina.",
+      "4. A faca corta os dois fios rente ao verso do tecido e o pescador retém a ponta da linha.",
+      "5. O pantógrafo viaja em velocidade máxima até a coordenada da próxima letra.",
+      "6. A barra da agulha desce iniciando a nova letra com pontos de ancoragem sem nenhum fio atravessado no topo.",
+      "7. A peça sai da máquina com acabamento limpo, sem pontes de linha entre as letras."
+    ],
+    "beginnerExplanation": "É a função mágica da máquina que corta a linha sozinha embaixo do tecido toda vez que ela termina de bordar uma letra e vai pular para a outra! Assim você não precisa ficar cortando um montão de fiapos de linha com a tesourinha depois que o bordado acaba.",
+    "applications": [
+      "Bordado de nomes, frases e textos com letras separadas sem linhas de conexão na frente",
+      "Matrizes com múltiplos pequenos elementos espaçados (ex: estrelas, bolinhas e flores)",
+      "Economia maciça de tempo de limpeza e arremate no ateliê",
+      "Acabamento profissional imediato de alto padrão estético"
+    ],
+    "commonErrors": [
+      "❌ Desativar a função de corte de salto no painel da máquina e achar que a máquina está com defeito porque deixou linhas ligando as letras",
+      "❌ Usar tesouras velhas para puxar a linha durante o corte da máquina, entortando a faquinha móvel inferior",
+      "❌ Programar saltos muito curtos (abaixo de 2 mm) para cortarem toda hora, desgastando o solenóide e deixando a máquina lenta",
+      "❌ Acúmulo de fiapos e cola de spray presos na lâmina de corte embaixo da caixa de bobina"
+    ],
+    "troubleshootingTips": [
+      "Se a máquina não estiver cortando as linhas entre as letras: Vá no menu de configurações da tela (ícone de tesoura) e ative o 'Corte de Linha Automático / Jump Stitch Trim' regulando a distância para 5 mm",
+      "Se a linha escapar do olho da agulha logo após o corte: Aumente o comprimento da sobra de linha inicial (Tail Length) no menu da máquina",
+      "Se o corte estiver mastigando a linha sem decepar: Retire a chapa de agulha e limpe fiapos compactados na faquinha móvel com a pinça"
+    ],
+    "dicaArtrelados": "Para nomes bordados perfeitos: ative o corte de salto na sua máquina configurado para 5 mm! Entre uma letra e outra a máquina corta o fio por baixo e seu bordado sai do bastidor pronto para entregar para a cliente, sem precisar de tesourinha!",
+    "voceSabia": "Antes da invenção do corte automático de salto nos anos 1990, uma toalha com o nome 'Maria Eduarda' exigia que a bordadeira cortasse manualmente mais de 20 pontes de linha com uma tesoura de ponta curva uma a uma!",
+    "practicalExercise": "Escreva um nome com 5 letras separadas no seu software de bordado. Verifique se o comando de corte (Trim) está ativo entre as letras. Borde na máquina e veja a lâmina cortar a linha por baixo a cada letra finalizada!",
+    "quickSummary": "Sistema automático que corta as linhas superior e inferior durante saltos entre letras e elementos eliminando fios passantes.",
+    "relatedTerms": [
+      "Ponto de Salto (Jump Stitch)",
+      "Ponto de Amarração Inicial e Final",
+      "Tesoura de Arremate / Tesoura Pelicano",
+      "Operação da Máquina"
+    ],
+    "tags": [
+      "c-066",
+      "corte de salto",
+      "jump stitch trim",
+      "corte automatico",
+      "tesoura",
+      "acabamento",
+      "limpeza",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BROTHER. Auto Thread Trimmer & Jump Stitch Trimming Configuration Manual. Nagoya, 2022.",
+      "TAJIMA. Automatic Under-bed Thread Trimming Mechanism & Timing. Nagoya, 2021."
+    ],
+    "updatedAt": "2026-08-22"
   }
 ];
+
