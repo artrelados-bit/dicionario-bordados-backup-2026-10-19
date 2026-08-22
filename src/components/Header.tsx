@@ -18,7 +18,7 @@ export const Header: React.FC<HeaderProps> = ({
   return (
     <header className="dibe-header-yellow bg-[#F9BC06] text-slate-950 border-b-4 border-[#E0A200] shadow-xl relative overflow-hidden">
       {/* Subtle top banner ribbon like the book cover */}
-      <div className="absolute top-0 left-6 sm:left-12 hidden sm:flex flex-col items-center bg-[#1E1B18] text-[#F9BC06] px-3 py-2 rounded-b-md shadow-md border-x border-b border-[#3D352E] z-10">
+      <div className="absolute top-0 left-4 sm:left-8 flex flex-col items-center bg-[#1E1B18] text-[#F9BC06] px-3 py-2 rounded-b-md shadow-md border-x border-b border-[#3D352E] z-10">
         <span className="text-[9px] font-black tracking-widest text-[#F9BC06]">👑</span>
         <span className="text-[8px] font-black tracking-widest text-[#F9BC06] uppercase mt-0.5">INSPIRAR</span>
         <span className="text-[8px] font-black tracking-widest text-[#F9BC06] uppercase">BORDAR</span>
@@ -26,7 +26,7 @@ export const Header: React.FC<HeaderProps> = ({
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-4 sm:pt-5 sm:pb-4.5">
-        {/* Title & Byline - Compact and Balanced */}
+        {/* Title & Byline - Centered Original DIBE Identity */}
         <div className="my-1 text-center">
           <h1
             style={{ fontFamily: "'Slackey', cursive, sans-serif", color: "#0a0a0a" }}
@@ -55,38 +55,41 @@ export const Header: React.FC<HeaderProps> = ({
         {/* Navigation Tabs - Compact Centered Row */}
         <nav className="mt-3.5 sm:mt-4 flex flex-wrap items-center justify-center gap-2 sm:gap-2.5 border-t-2 border-slate-950/20 pt-3">
           <button
+            id="tab-dictionary"
             onClick={() => setActiveTab("dictionary")}
             className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-black transition-all whitespace-nowrap cursor-pointer shadow-xs ${
               activeTab === "dictionary"
-                ? "bg-slate-950 text-amber-300 border-2 border-amber-300 shadow-md scale-102"
-                : "bg-slate-950/90 text-amber-300/80 hover:text-amber-300 hover:bg-slate-950 border border-slate-900"
+                ? "bg-slate-950 text-[#F9BC06] border-2 border-slate-950 scale-105"
+                : "bg-amber-400 text-slate-950 hover:bg-amber-300 border border-slate-950/40"
             }`}
           >
-            <BookOpen className="w-4 h-4 text-amber-400" />
+            <BookOpen className="w-4 h-4" />
             <span>1. Acervo & Verbetes</span>
           </button>
 
           <button
+            id="tab-troubleshooting"
             onClick={() => setActiveTab("troubleshooting")}
             className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-black transition-all whitespace-nowrap cursor-pointer shadow-xs ${
               activeTab === "troubleshooting"
-                ? "bg-slate-950 text-amber-300 border-2 border-amber-300 shadow-md scale-102"
-                : "bg-slate-950/90 text-amber-300/80 hover:text-amber-300 hover:bg-slate-950 border border-slate-900"
+                ? "bg-slate-950 text-[#F9BC06] border-2 border-slate-950 scale-105"
+                : "bg-amber-400 text-slate-950 hover:bg-amber-300 border border-slate-950/40"
             }`}
           >
-            <Wrench className="w-4 h-4 text-amber-400" />
+            <Wrench className="w-4 h-4" />
             <span>2. Guias de Problemas</span>
           </button>
 
           <button
+            id="tab-favorites"
             onClick={() => setActiveTab("favorites")}
             className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-black transition-all whitespace-nowrap cursor-pointer shadow-xs ${
               activeTab === "favorites"
-                ? "bg-slate-950 text-amber-300 border-2 border-amber-300 shadow-md scale-102"
-                : "bg-slate-950/90 text-amber-300/80 hover:text-amber-300 hover:bg-slate-950 border border-slate-900"
+                ? "bg-slate-950 text-[#F9BC06] border-2 border-slate-950 scale-105"
+                : "bg-amber-400 text-slate-950 hover:bg-amber-300 border border-slate-950/40"
             }`}
           >
-            <Star className="w-4 h-4 text-amber-400 fill-amber-400" />
+            <Star className="w-4 h-4 fill-current" />
             <span>3. Meus Favoritos ({stats.totalFavorites})</span>
           </button>
         </nav>
