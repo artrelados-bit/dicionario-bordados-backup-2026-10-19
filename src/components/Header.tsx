@@ -25,35 +25,35 @@ export const Header: React.FC<HeaderProps> = ({
         <span className="text-[8px] font-black tracking-widest text-[#F9BC06] uppercase">CRIAR</span>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-7 pb-6 sm:pt-9 sm:pb-7">
-        {/* Title & Byline - Imposing, Generous Spacing */}
-        <div className="my-2 text-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-4 sm:pt-5 sm:pb-4.5">
+        {/* Title & Byline - Compact and Balanced */}
+        <div className="my-1 text-center">
           <h1
             style={{ fontFamily: "'Slackey', cursive, sans-serif", color: "#0a0a0a" }}
-            className="dibe-header-title text-6xl sm:text-7xl md:text-8xl text-slate-950 font-slackey tracking-wider uppercase leading-none mx-auto drop-shadow-sm"
+            className="dibe-header-title text-4xl sm:text-5xl md:text-6xl text-slate-950 font-slackey tracking-wider uppercase leading-none mx-auto drop-shadow-xs"
           >
             DIBE
           </h1>
 
-          {/* Subtitle perfectly fitted with fluid text scaling so it NEVER clips or crops */}
-          <div className="mt-3 sm:mt-4 flex items-center justify-center font-slackey text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl leading-tight tracking-wide whitespace-nowrap px-1 max-w-full text-center">
-            <span className="text-[#0a0a0a] drop-shadow-xs mr-1.5 sm:mr-2.5 md:mr-3">DICIONÁRIO</span>
-            <span className="text-[#c47700] drop-shadow-xs mr-1.5 sm:mr-2.5 md:mr-3">DE BORDADOS</span>
+          {/* Subtitle perfectly fitted with fluid text scaling */}
+          <div className="mt-2 sm:mt-2.5 flex items-center justify-center font-slackey text-xs sm:text-base md:text-xl lg:text-2xl leading-tight tracking-wide whitespace-nowrap px-1 max-w-full text-center">
+            <span className="text-[#0a0a0a] drop-shadow-xs mr-1.5 sm:mr-2 md:mr-2.5">DICIONÁRIO</span>
+            <span className="text-[#c47700] drop-shadow-xs mr-1.5 sm:mr-2 md:mr-2.5">DE BORDADOS</span>
             <span className="text-[#008cc9] font-slackey drop-shadow-xs">
               ELETRÔNICOS
             </span>
           </div>
 
-          <p className="text-sm sm:text-base font-extrabold text-slate-900 mt-3.5">
+          <p className="text-xs sm:text-sm font-extrabold text-slate-900 mt-2">
             Consultoria Técnica de Termos, Pontos & Matrizes de Bordado
           </p>
-          <p className="text-xs sm:text-sm font-black tracking-widest text-slate-800 uppercase mt-1">
+          <p className="text-[11px] sm:text-xs font-black tracking-widest text-slate-800 uppercase mt-0.5">
             © 2026 — JANETE M. C. SILVA • ARTRELADOS
           </p>
         </div>
 
-        {/* Navigation Tabs - Spacious Centered Row */}
-        <nav className="mt-6 sm:mt-7 flex flex-wrap items-center justify-center gap-2 sm:gap-3 border-t-2 border-slate-950/20 pt-4.5">
+        {/* Navigation Tabs - Compact Centered Row */}
+        <nav className="mt-3.5 sm:mt-4 flex flex-wrap items-center justify-center gap-2 sm:gap-2.5 border-t-2 border-slate-950/20 pt-3">
           <button
             onClick={() => setActiveTab("dictionary")}
             className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-black transition-all whitespace-nowrap cursor-pointer shadow-xs ${
