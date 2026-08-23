@@ -118,7 +118,7 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
             className="px-4 py-2.5 rounded-xl bg-[#101726] hover:bg-slate-800 text-white font-extrabold text-xs sm:text-sm flex items-center space-x-2 shadow transition shrink-0 cursor-pointer"
           >
             <Sparkles className="w-4 h-4 text-amber-400" />
-            <span>{isAiDiagOpen ? "Ocultar Diagnóstico Personalizado" : "Novo Diagnóstico Personalizado"}</span>
+            <span>{isAiDiagOpen ? "Ocultar Diagnóstico IA" : "Novo Diagnóstico IA"}</span>
           </button>
         </div>
       </div>
@@ -129,7 +129,7 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2 text-slate-900 font-extrabold text-lg">
               <Sparkles className="w-5 h-5 text-amber-500" />
-              <h3>Diagnóstico Personalizado da Oficina Artrelados</h3>
+              <h3>Diagnóstico Personalizado IA</h3>
             </div>
             <span className="text-[11px] font-black px-2.5 py-1 bg-emerald-100 text-emerald-800 rounded-full border border-emerald-300">
               ✓ Atendimento Imediato
@@ -486,7 +486,7 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                     {/* Preventive Advice */}
                     {guide.preventiveAdvice && (
                       <div className="p-3.5 rounded-xl bg-amber-50 border border-amber-200 text-xs text-slate-800 font-medium">
-                        <strong className="font-extrabold text-amber-900 block mb-0.5">Dica de Prevenção da Oficina:</strong>
+                        <strong className="font-extrabold text-amber-900 block mb-0.5">Dica de Prevenção para o Ateliê:</strong>
                         {guide.preventiveAdvice}
                       </div>
                     )}
