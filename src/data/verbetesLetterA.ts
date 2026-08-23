@@ -4453,6 +4453,331 @@ export const VERBETES_LETTER_A: Verbete[] = [
       "JANOME. Machine Mechanics: Presser Foot Height and Safety Switch Guide. Tokyo, 2021."
     ],
     "updatedAt": "2026-08-22"
+  },
+  {
+    "id": "a-067-alinhavo-de-fixacao",
+    "code": "A-067",
+    "term": "Alinhavo de Fixação (Basting Stitch / Ponto de Grade Perimetral)",
+    "level": "Iniciante 🟢",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Técnicas de Bastidor",
+    "origin": "Do português arcaico 'alinhar' / 'linho' (preparar a costura com pontos largos provisórios) e do inglês 'basting'. Incorporado aos softwares modernos de bordado como função perimetral de segurança prévia.",
+    "summary": "Costura perimetral com pontos longos e espaçados realizada antes do bordado para ancorar tecidos e entretelas sem deformar as fibras.",
+    "definition": "O Alinhavo de Fixação (Basting Stitch) é uma rotina programada de costura preliminar que executa uma moldura com pontos corridos longos (geralmente entre 4.0 mm e 7.0 mm) ao redor da área de bordado ou no contorno do bastidor. Sua finalidade é prender firmemente o tecido principal sobre a entretela estufada no bastidor, evitando o deslocamento (shifting), o enrugamento e dispensando a colocação direta de tecidos nobres, veludos, toalhas ou peças prontas dentro dos anéis plásticos do bastidor (técnica de bastidor flutuante).",
+    "technicalDetails": "Pode ser programado como moldura geométrica retangular (Hoop Basting) ou seguir o contorno exato do desenho com recuo de 2 a 5 mm (Design Basting). Como os pontos são longos e não possuem nós de arremate densos, a remoção após o término do bordado é feita puxando a linha com uma pinça sem deixar furos ou marcas no tecido.",
+    "beginnerExplanation": "É como colocar alfinetes invisíveis de linha antes de começar a bordar. A máquina faz uma costura bem larga em volta de tudo só para segurar o tecido bem retinho na entretela. Quando o bordado termina, você só puxa essa linha com a mão e ela sai inteira num segundo!",
+    "howItWorks": [
+      "1. A bordadeira prende apenas a entretela firme no bastidor (método flutuante).",
+      "2. Posiciona o tecido por cima da entretela (com ou sem cola temporária em spray).",
+      "3. Encaixa o bastidor na máquina e ativa a função 'Basting' no painel da máquina ou na matriz.",
+      "4. A máquina costura uma moldura rápida com pontos largos de 5 mm prendendo o tecido na entretela.",
+      "5. A máquina inicia o bordado principal com o tecido perfeitamente estabilizado e sem folgas.",
+      "6. Ao finalizar o bordado, a costura de alinhavo é puxada e descartada facilmente."
+    ],
+    "applications": [
+      "Bordado em toalhas felpudas e roupões (prende o plástico hidrossolúvel de topo sem prender no bastidor)",
+      "Bordados em veludo, couro sintético, camurça e tecidos com elastano que marcam no aro",
+      "Fixação de peças pequenas como golas, punhos, bodies de bebê e bolsos prontos",
+      "Garantia extra de registro e alinhamento em matrizes com mais de 30.000 pontos"
+    ],
+    "commonErrors": [
+      "❌ Usar ponto muito curto (ex: 2.0 mm) no alinhavo, tornando quase impossível remover a linha sem furar o tecido.",
+      "❌ Fazer nós de arremate pesados no início e no final do alinhavo.",
+      "❌ Cortar o tecido com a tesoura na hora de retirar os pontos de alinhavo por falta de uma pinça de ponta fina."
+    ],
+    "troubleshootingTips": [
+      "Se os furos do alinhavo ficarem visíveis: Use agulha calibre 70/10 e passe um vapor leve de ferro ou gotinha de água para fechar as fibras.",
+      "Se o tecido enrugar durante o alinhavo: Alise o tecido com as mãos do centro para as bordas enquanto a máquina faz a moldura em baixa velocidade."
+    ],
+    "recommendedSettings": {
+      "needleType": "75/11 Ponta Bola ou Universal",
+      "stabilizer": "Entretela Rasga Fácil ou Hidrossolúvel",
+      "speedPPM": "400 a 600 PPM durante o alinhavo",
+      "density": "Comprimento de ponto de 5.0 mm a 7.0 mm"
+    },
+    "dicaArtrelados": "Sempre que for bordar toalhas de banho ou veludo, NUNCA prenda a toalha no aro do bastidor para não quebrar a felpa. Prenda só a entretela no bastidor, deite a toalha por cima, coloque o filme hidrossolúvel no topo e rode o Alinhavo de Fixação. O acabamento fica digno de alta costura!",
+    "voceSabia": "As máquinas de bordar domésticas modernas das marcas Brother e Janome possuem um botão na tela de edição que insere a moldura de alinhavo automaticamente em qualquer matriz com apenas um toque!",
+    "practicalExercise": "Abra um retalho de malha, prenda somente a entretela no bastidor, ative a função de alinhavo de 5 mm e observe como a malha fica totalmente plana sem esticar nem um milímetro antes de receber o bordado.",
+    "quickSummary": "Costura perimetral provisória com pontos largos para estabilizar tecidos e filmes no bastidor sem danificar a peça.",
+    "relatedTerms": [
+      "Bastidor Flutuante (Floating Technique)",
+      "Filme Solúvel em Água (Solvy)",
+      "Registro de Matriz",
+      "Ponto Corrido (Running Stitch)"
+    ],
+    "tags": [
+      "a-067",
+      "alinhavo",
+      "basting stitch",
+      "bastidor flutuante",
+      "toalhas",
+      "estabilizacao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "KEMP, Amanda. Machine Embroidery: The Basting Stitch Masterclass. London: Textile Press, 2021.",
+      "BROTHER INTERNATIONAL. Embroidery Framing and Basting Techniques Guide. Nagoya, 2023."
+    ],
+    "updatedAt": "2026-08-23"
+  },
+  {
+    "id": "a-068-abrasao-de-linha",
+    "code": "A-068",
+    "term": "Abrasão de Linha (Friction Wear / Desgaste Mecânico do Fio)",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo feminino.",
+    "category": "Agulhas & Fios",
+    "origin": "Do latim abrasio (ação de raspar, desgastar por fricção). Termo da física têxtil e da engenharia mecânica aplicado ao atrito dinâmico das linhas de filamento contínuo em guias e agulhas.",
+    "summary": "Desgaste mecânico e térmico sofrido pelo filamento da linha ao passar sob tensão e alta velocidade pelos componentes da máquina.",
+    "definition": "Abrasão de Linha é o fenômeno físico-químico de degradação da estrutura superficial e dos filamentos da linha de bordado (poliéster trilobal, rayon ou algodão), provocado pelo atrito repetido contra os discos de tensão, estica-fio, guias passa-fio e, principalmente, o olho e a ranhura da agulha em rotações elevadas (600 a 1.000 PPM). Quando a abrasão atinge o nível crítico, ocorre a perda de torção, o esfarelamento da cera lubrificante do fio, o desfiamento (fuzzing) e a ruptura da linha.",
+    "technicalDetails": "Em cada ciclo de descida da agulha, o mesmo segmento de linha passa de 20 a 40 vezes pelo olho da agulha antes de ser finalmente fixado no tecido pelo laço inferior. Se o olho da agulha for estreito, apresentar rebarbas microscópicas ou se a linha estiver com tensão excessiva (acima de 120-140 gf), o calor gerado pelo atrito derrete o poliéster e rompe os filamentos.",
+    "beginnerExplanation": "Sabe quando a linha de cima não quebra de uma vez, mas começa a 'desfiar', formando um 'bigodinho' ou fiapos na ponta da agulha até arrebentar? Isso é a abrasão! É a linha raspando com muita força no buraquinho da agulha ou nos ferrinhos da máquina por causa da velocidade ou agulha inadequada.",
+    "howItWorks": [
+      "1. A linha corre do cone passando pelos discos de tensão sob tração contínua.",
+      "2. Ao entrar na ranhura da agulha, ela sobe e desce repetidas vezes em altíssima velocidade.",
+      "3. O atrito mecânico eleva a temperatura no olho da agulha para mais de 100°C a 160°C.",
+      "4. Se a agulha for muito fina para a espessura da linha (ex: linha 120 com agulha 65), os filamentos raspam nas bordas de aço.",
+      "5. A linha perde a lubrificação, começa a criar penugem, desfia e finalmente se rompe."
+    ],
+    "applications": [
+      "Diagnóstico e prevenção de quebras contínuas de linha de poliéster e metálica",
+      "Seleção correta do calibre da agulha (tamanho 75/11 vs 90/14) de acordo com o título do fio",
+      "Manutenção preventiva e polimento de guias de linha, laçadeira e chapa de agulha",
+      "Ajuste da velocidade de rotação da máquina para bordados com fios delicados"
+    ],
+    "commonErrors": [
+      "❌ Usar linha de bordado grossa (ex: metálica ou fio 30) em agulha comum fina 70/10.",
+      "❌ Continuar bordando com uma agulha que possui rebarba no olho ou na ranhura frontal.",
+      "❌ Usar linha de má qualidade, ressecada, guardada no sol ou sem banho de silicone de fábrica."
+    ],
+    "troubleshootingTips": [
+      "Se a linha estiver desfiando antes de quebrar: Troque a agulha por uma nova de calibre 75/11 ou 80/12 e verifique se o caminho da linha não está preso em alguma rebarba do cone.",
+      "Se estiver usando linha metálica: Reduza a velocidade da máquina para 500 PPM e use agulha especial Metallic com olho alongado."
+    ],
+    "recommendedSettings": {
+      "needleType": "75/11 H-E ou 80/12 H-E (ou Titânio H-ET para alta rotação)",
+      "threadTension": "100 a 120 gf na linha superior",
+      "speedPPM": "600 a 750 PPM para poliéster; 450 a 550 PPM para metálicos",
+      "stabilizer": "Adequado ao tecido para evitar repuxamento"
+    },
+    "dicaArtrelados": "Se você estiver tendo muitas quebras com linha 'desfiando', passe um pedacinho de linha comum de algodão no olho da agulha e puxe para os lados: se a agulha cortar ou raspar o fio, o olho está com rebarba! Troque a agulha na hora e o problema desaparecerá como mágica.",
+    "voceSabia": "As agulhas profissionais de bordado (como Organ e Schmetz) recebem um polimento especial a laser no interior do olho para reduzir o coeficiente de atrito dinâmico em até 40% em comparação com agulhas normais de costura!",
+    "practicalExercise": "Corte 50 cm de linha de bordado. Passe pelo olho de uma agulha 65/9 e puxe rapidamente para cima e para baixo. Depois faça o mesmo numa agulha 75/11 e numa 90/14 Topstitch. Veja com seus próprios olhos a diferença no deslizamento do fio!",
+    "quickSummary": "Desgaste mecânico e térmico provocado pelo atrito do fio contra a agulha e guias em alta rotação, que causa desfiamento e quebras.",
+    "relatedTerms": [
+      "Agulha de Bordado Computadorizado",
+      "Linha de Poliéster Trilobal",
+      "Tensão Superior da Linha",
+      "Rebarba na Agulha ou Chapa"
+    ],
+    "tags": [
+      "a-068",
+      "abrasao",
+      "desgaste da linha",
+      "desfiamento",
+      "agulhas",
+      "quebra de linha",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "COATS INDUSTRIAL. Thread Friction and Needle Heat in High-Speed Embroidery. London: Coats Technical Services, 2020.",
+      "MADEIRA THREADS. Embroidery Thread Performance & Needle Compatibility Guide. Freiburg, 2022."
+    ],
+    "updatedAt": "2026-08-23"
+  },
+  {
+    "id": "a-069-agulha-titanio",
+    "code": "A-069",
+    "term": "Agulha Titânio / Nitreto de Titânio (Titanium Needle - H-ET)",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Agulhas & Fios",
+    "origin": "Do grego Titanes (deuses gigantes da força) e da metalurgia aeroespacial moderna. A Schmetz e a Organ introduziram o revestimento cerâmico de Nitreto de Titânio (TiN - cor dourada) nas agulhas têxteis industriais na década de 1990.",
+    "summary": "Agulha de alta resistência tratada com nitreto de titânio dourado, oferecendo até 5x mais durabilidade, menor aquecimento e proteção contra adesivos.",
+    "definition": "A Agulha de Titânio (classificada pelo sufixo PD, TN, H-ET ou Gold) é uma agulha de bordado computadorizado fabricada em núcleo de aço temperado e revestida com uma camada microscópica de Nitreto de Titânio (TiN). Esse tratamento confere à agulha uma característica tonalidade dourada brilhante e uma dureza superficial incomparável (cerca de 2.500 Vickers, contra 800 Vickers do cromo tradicional), prolongando sua vida útil em até cinco vezes.",
+    "technicalDetails": "O revestimento de TiN dissipa o calor por atrito de forma muito mais eficiente e reduz drasticamente o acúmulo de goma de colas spray temporárias e entretelas termocolantes ou resinadas. Além disso, a ponta e o olho da agulha sofrem menor desgaste por abrasão de fibras sintéticas ásperas (como lona, sarja pesada, ripstop e couro).",
+    "beginnerExplanation": "É aquela agulha 'douradinha' super resistente! Ela não fica cega fácil, não esquenta tanto e não gruda cola de spray temporário nem cola de entretela. Dura muito mais tempo na máquina que a agulha prateada comum.",
+    "howItWorks": [
+      "1. A ponta endurecida com nitreto de titânio perfura tecidos densos sem perder a afiação geométrica.",
+      "2. O corpo cerâmico reduz o atrito e não permite que a cola do spray grude nas paredes do olho da agulha.",
+      "3. O calor gerado em rotações de 800 a 1.000 PPM é dissipado sem queimar a linha de poliéster.",
+      "4. Mantém a integridade do chanfro (scarf) por até 30 a 50 horas de bordado contínuo."
+    ],
+    "applications": [
+      "Bordados em alta velocidade em máquinas industriais e domésticas pesadas",
+      "Bordados que utilizam cola temporária em spray (505, Odif) e entretelas autoadesivas (peel & stick)",
+      "Materiais duros ou abrasivos: jeans pesado, bonés estruturados, couro ecológico, velcros e patches",
+      "Bordados tridimensionais (3D Puff com borracha EVA)"
+    ],
+    "commonErrors": [
+      "❌ Achar que por ser de titânio a agulha nunca quebra (se bater no bastidor ou na chapa de ponto, ela quebra como qualquer outra).",
+      "❌ Usar ponta fina cortante em tecidos de malha (mesmo sendo de titânio, deve-se escolher o modelo com ponta bola SES para malhas).",
+      "❌ Deixar de trocar a agulha quando ela sofrer um empenamento mecânico imperceptível a olho nu."
+    ],
+    "troubleshootingTips": [
+      "Se a linha estiver arrebentando toda vez que passa por cima de cola spray: Coloque uma agulha de Titânio 75/11 e passe uma gotinha de óleo de silicone no topo do olho da agulha.",
+      "Se o bordado 3D em EVA estiver picotando a linha: A agulha de titânio número 80/12 ou 90/14 penetra a borracha suavemente sem superaquecer."
+    ],
+    "recommendedSettings": {
+      "needleType": "130/705 H-ET (Doméstica) ou DBxK5 PD (Industrial) 75/11 a 90/14",
+      "speedPPM": "600 a 1.000 PPM com segurança total",
+      "threadTension": "Padrão calibrado (100 a 120 gf)",
+      "stabilizer": "Entretela resinada, filme EVA 3D ou adesiva"
+    },
+    "dicaArtrelados": "Para quem faz muito aplique com termocolante ou usa spray adesivo temporário para o bastidor flutuante, a agulha de Titânio é um divisor de águas! Ela evita que aquela 'gosma' preta de cola entupa o olho da agulha e pare a produção a cada cinco minutos.",
+    "voceSabia": "O Nitreto de Titânio (TiN) é o mesmo composto cerâmico ultraflexível e ultraduro utilizado pela NASA em componentes espaciais e na broca de perfuração de rochas profundas!",
+    "practicalExercise": "Coloque uma agulha prateada comum e uma agulha dourada de titânio lado a lado. Aplique cola spray num retalho e borde 2.000 pontos com cada uma. Observe como a dourada sai limpinha enquanto a prateada junta fiapos e grumos de cola.",
+    "quickSummary": "Agulha dourada com revestimento cerâmico de alta dureza que resiste ao calor, abrasão e acúmulo de colas e adesivos.",
+    "relatedTerms": [
+      "Agulha de Bordado Computadorizado",
+      "Bordado 3D (3D Foam / Puff)",
+      "Cola Temporária em Spray",
+      "Abrasão de Linha"
+    ],
+    "tags": [
+      "a-069",
+      "agulha de titanio",
+      "gold needle",
+      "nitreto de titanio",
+      "durabilidade",
+      "cola spray",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "SCHMETZ. Titanium Nitride (TiN) Needles: Industrial & Household Technical Report. Alsdorf, 2021.",
+      "ORGAN NEEDLE CO. PD/TN Needles Technical Specifications for Embroidery. Tokyo, 2022."
+    ],
+    "updatedAt": "2026-08-23"
+  },
+  {
+    "id": "a-070-amortecedor-de-linha",
+    "code": "A-070",
+    "term": "Amortecedor de Linha / Mola de Compensação (Check Spring / Take-up Spring)",
+    "level": "Avançado 🔴",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Componentes da Máquina",
+    "origin": "Do francês amortir (abrandar, suavizar) e do inglês check spring / take-up spring. Componente vital da mecânica de ponto fixo (Lockstitch 301) introduzido no século XIX para equalizar a dinâmica do puxa-fio.",
+    "summary": "Mola mecânica de precisão no conjunto de tensão que absorve a folga repentina da linha durante o movimento rápido do estica-fio.",
+    "definition": "O Amortecedor de Linha (conhecido na mecânica como Mola de Compensação, Mola Puxa-Fio ou Check Spring) é uma mola helicoidal de arame de aço calibrado instalada internamente no conjunto tensor da linha superior. Sua função primária é amortecer o tranco e manter uma leve tensão elástica constante sobre a linha no instante exato em que a agulha penetra o tecido e o estica-fio (take-up lever) desce rapidamente, impedindo que a linha fique frouxa ou escape do canal da laçadeira.",
+    "technicalDetails": "A mola de compensação deve atuar em um curso angular de aproximadamente 5 mm a 8 mm e com pressão de 8 a 15 gramas-força. Se a mola estiver partida, destravada ou com a altura regulada incorretamente, o excesso de linha solta é arrastado para dentro da caixa de bobina, formando laçadas imperfeitas, nós falsos e 'bolhas' de linha no topo do bordado.",
+    "beginnerExplanation": "É uma molinha delicada de aço que fica escondida perto dos botões ou rodinhas de tensão da máquina. Quando a máquina borda bem rápido, essa mola funciona como o amortecedor de um carro: ela estica e volta para não deixar a linha ficar 'bamba' nem dar trancos fortes na agulha.",
+    "howItWorks": [
+      "1. A linha passa entre os discos de tensão e é encaixada por baixo do gancho da mola amortecedora.",
+      "2. Quando o estica-fio sobe para apertar o ponto, a mola cede levemente absorvendo o impacto da tração.",
+      "3. Quando o estica-fio desce para entregar linha para a agulha furar o tecido, a mola recolhe a folga imediata.",
+      "4. Garante que a linha fique esticada sem folgas até que a ponta da agulha entre completamente no tecido.",
+      "5. Libera a linha suavemente para a laçadeira formar a laçada sem quebras."
+    ],
+    "applications": [
+      "Regulagem fina de máquinas multiagulhas e industriais para bordado em alta velocidade",
+      "Eliminação de pontos frouxos, laçadas abertas no topo e 'pips' brancos de bobina",
+      "Trabalho com linhas finas e sensíveis (como poliéster 60 ou fios de seda/rayon)",
+      "Manutenção preventiva do conjunto de tensão superior"
+    ],
+    "commonErrors": [
+      "❌ Passar a linha na máquina pulando o engate da mola amortecedora (passagem errada por fora da canaleta).",
+      "❌ Ignorar uma mola partida ou sem pressão, achando que o problema de laçada é apenas na bobina.",
+      "❌ Apertar os discos de tensão ao máximo para compensar a folga causada por uma mola com defeito."
+    ],
+    "troubleshootingTips": [
+      "Se o bordado apresentar pequenas alças ou laçadas soltas no topo mesmo com a tensão dos discos apertada: Verifique se a linha está devidamente encaixada na mola amortecedora do cabeçote.",
+      "Em máquinas multiagulhas: Teste com o dedo se a mola do canal de cor correspondente está com ação elástica viva e retornando à posição de descanso."
+    ],
+    "recommendedSettings": {
+      "needleType": "75/11 DBxK5 ou 130/705 H-E",
+      "threadTension": "Pressão da mola entre 8 gf e 15 gf",
+      "speedPPM": "750 a 1.000 PPM",
+      "stabilizer": "Adequado à estrutura do bordado"
+    },
+    "dicaArtrelados": "Ao passar a linha na máquina, puxe o fio suavemente para a frente antes de colocar na agulha e observe: você deve ver e sentir a molinha do tensor 'dançando' e puxando o fio de volta com suavidade. Se ela não se mexer, a linha não está encaixada no tensor!",
+    "voceSabia": "A mola de compensação é um dos componentes mais testados em laboratórios de engenharia têxtil: em um único dia de produção, ela oscila mais de 400.000 vezes sem perder sua elasticidade de projeto!",
+    "practicalExercise": "Com a máquina desligada e a linha passada, puxe o fio para baixo e solte lentamente: observe a ação elástica da mola amortecedora subindo e descendo para manter a linha perfeitamente esticada.",
+    "quickSummary": "Mola elástica de precisão que absorve o tranco do puxa-fio e elimina a folga de linha durante a formação do ponto.",
+    "relatedTerms": [
+      "Conjunto de Tensão Superior",
+      "Estica-Fio (Take-up Lever)",
+      "Laçadeira Rotativa (Rotary Hook)",
+      "Formação do Ponto de Bordado"
+    ],
+    "tags": [
+      "a-070",
+      "amortecedor de linha",
+      "mola de compensacao",
+      "check spring",
+      "mecanica",
+      "tensao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA TECHNICAL SERVICE. Embroidery Machine Mechanics: Tension Base and Check Spring Adjustment. Nagoya, 2021.",
+      "BARUDAN EMBROIDERY. Mechanical Maintenance Manual: Take-up and Spring Calibration. Tokyo, 2020."
+    ],
+    "updatedAt": "2026-08-23"
+  },
+  {
+    "id": "a-071-assentamento-de-ponto",
+    "code": "A-071",
+    "term": "Assentamento de Ponto (Underlay Foundation / Estruturação Prévia)",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Programação de Bordado",
+    "origin": "Do latim assidere (estabelecer-se firmemente, pousar) e do inglês underlay (camada inferior / fundação). Conceito básico de arquitetura de matrizes desenvolvido na digitalização computadorizada.",
+    "summary": "Camada de pontos estruturais preliminares bordada antes dos pontos de cobertura para ancorar e estabilizar o tecido.",
+    "definition": "O Assentamento de Ponto (Underlay Foundation) é a grade estrutural invisível de pontos de suporte bordada diretamente sobre a entretela e o tecido antes da aplicação do bordado final (Pontos Cheios / Satin ou Pontos Tatami). Sua função é achatar e compactar as fibras e felpas do tecido, prender o tecido à entretela para anular a deformação por tração (pull-push effect) e criar um 'colchão' volumétrico que eleva os pontos superiores, garantindo nitidez e impedindo afundamentos.",
+    "technicalDetails": "Os principais tipos de pontos de assentamento incluem: Ponto de Centro (Center Run), Ponto de Borda Dupla (Edge Walk), Ziguezague de Fundação (Zigzag Underlay) e Grade Dupla Tatami (Double Tatami Grid). Para letras finas de 4 a 6 mm, usa-se apenas Center Run; para colunas largas de ponto cheio (acima de 3 mm), combina-se Edge Walk com Ziguezague para dar sustentação lateral.",
+    "beginnerExplanation": "O assentamento é como o alicerce de uma casa! Antes de colocar o telhado bonito e colorido (o ponto cheio final), a máquina faz uma costurinha leve por baixo para nivelar o tecido, prender a entretela e não deixar o bordado afundar nem ficar 'magrinho' ou torto.",
+    "howItWorks": [
+      "1. A matriz inicia o elemento executando uma linha de ponto corrido no centro ou nas bordas do desenho.",
+      "2. Em seguida, traça um ziguezague ou grade aberta de baixa densidade (cerca de 1.5 a 3.0 mm de espaçamento).",
+      "3. Esses pontos comprimem a trama do tecido e unem a peça à entretela inferior de forma rígida.",
+      "4. Por fim, a máquina cobre toda essa estrutura com o ponto cheio (satin) ou tatami denso a 0.40 mm.",
+      "5. A estrutura interna fica 100% escondida, conferindo relevo, firmeza e perfeição visual."
+    ],
+    "applications": [
+      "Bordados em toalhas, moletons, piquet, malhas e tecidos com relevo ou textura",
+      "Textos pequenos, monogramas, nomes escolares e logotipos de uniformes corporativos",
+      "Prevenção absoluta de frestas e aberturas brancas de tecido entre dois blocos de cor",
+      "Conquista de relevo e aspecto tridimensional elegante no bordado"
+    ],
+    "commonErrors": [
+      "❌ Desativar o assentamento no programa achando que vai 'economizar pontos' (o bordado fica ralo, frouxo e torto).",
+      "❌ Colocar assentamento muito próximo da borda extrema do objeto, fazendo os pontos de fundação escaparem para fora do ponto cheio.",
+      "❌ Usar assentamento pesado e denso demais em tecidos finos como seda ou crepe, criando uma 'placa dura' desconfortável."
+    ],
+    "troubleshootingTips": [
+      "Se as pontas das letras estiverem saindo finas e sumindo dentro da toalha: Aumente o assentamento para Ziguezague com Edge Walk e adicione um filme plástico hidrossolúvel por cima.",
+      "Se os pontos de assentamento estiverem aparecendo nas beiradas: No software de matriz, configure o recuo de margem (Underlay Margin / Inset) para 0.4 mm ou 0.6 mm para dentro do desenho."
+    ],
+    "recommendedSettings": {
+      "density": "Espaçamento de assentamento de 1.5 mm a 2.5 mm; Recuo de borda de 0.4 mm",
+      "needleType": "75/11 Ponta Bola ou Universal",
+      "stabilizer": "Entretela Rasga-Fácil ou Malha",
+      "speedPPM": "650 a 850 PPM"
+    },
+    "dicaArtrelados": "Um bordado profissional NUNCA é feito apenas com pontos de acabamento! O segredo da nitidez que não deforma na primeira lavagem está no assentamento correto. Nunca remova a fundação da sua matriz para economizar pontos, pois o prejuízo na qualidade é imenso!",
+    "voceSabia": "Matrizes de alta qualidade gastam entre 15% e 25% do seu total de pontos apenas na fundação de assentamento invisível! É esse alicerce que diferencia uma matriz profissional de uma amadora.",
+    "practicalExercise": "No seu software de bordado (Wilcom, Embird ou PE-Design), digite uma palavra e desmarque o botão 'Underlay/Assentamento'. Borde uma amostra. Depois reative o assentamento e borde outra lado a lado. Veja a diferença gritante de volume e nitidez!",
+    "quickSummary": "Estrutura preliminar de pontos de suporte que ancora o tecido, evita deformações e impede o afundamento dos pontos principais.",
+    "relatedTerms": [
+      "Ponto Cheio (Satin Stitch)",
+      "Ponto Tatami (Fill Stitch)",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Digitalização de Matrizes (Digitizing)"
+    ],
+    "tags": [
+      "a-071",
+      "assentamento de ponto",
+      "underlay",
+      "fundacao",
+      "programacao de matrizes",
+      "estrutura",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM INTERNATIONAL. Embroidery Digitizing Guide: Underlay Foundations and Fabric Mechanics. Sydney, 2022.",
+      "DEVEREUX, Keith. The Science of Stitch Structure: Underlays and Density Control. Nottingham, 2021."
+    ],
+    "updatedAt": "2026-08-23"
   }
 ];
 

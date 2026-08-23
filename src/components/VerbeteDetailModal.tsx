@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { X, Star, Sparkles, Gauge, Zap, AlertTriangle, CheckCircle2, Copy, Check, Layers, BookOpen, BookMarked } from "lucide-react";
+import { X, Star, Sparkles, Gauge, Zap, AlertTriangle, CheckCircle2, Copy, Check, Layers, BookOpen, BookMarked, Calculator, ExternalLink } from "lucide-react";
 import { Verbete } from "../types";
 import { StitchDiagram } from "./StitchDiagram";
 
@@ -607,6 +607,32 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
               </p>
             </div>
           )}
+
+          {/* Contextual Recommendation: Calculadora Artrelados */}
+          <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-amber-50 to-amber-100/70 border-2 border-amber-300 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4 shadow-2xs">
+            <div className="flex items-start space-x-3">
+              <div className="w-10 h-10 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center shrink-0 mt-0.5 shadow-xs">
+                <Calculator className="w-5 h-5" />
+              </div>
+              <div className="space-y-0.5">
+                <h4 className="text-xs sm:text-sm font-black text-slate-950">
+                  Precificação no Ateliê: Quanto vale este trabalho?
+                </h4>
+                <p className="text-xs text-slate-700 font-medium leading-relaxed">
+                  Calcule o custo exato de pontos, linhas, entretelas e tempo de máquina com a <strong>Calculadora Oficial Artrelados</strong>.
+                </p>
+              </div>
+            </div>
+            <a
+              href="https://www.artrelados.com.br/comprar-calculadora"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 rounded-xl bg-slate-950 hover:bg-slate-900 text-amber-300 hover:text-amber-200 text-xs font-bold shrink-0 inline-flex items-center space-x-1.5 transition shadow-xs cursor-pointer"
+            >
+              <span>Conhecer Calculadora</span>
+              <ExternalLink className="w-3.5 h-3.5 text-amber-400" />
+            </a>
+          </div>
 
           {/* Related Terms */}
           {verbete.relatedTerms && verbete.relatedTerms.length > 0 && (

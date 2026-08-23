@@ -14,6 +14,7 @@ import { FavoritesView } from "./components/FavoritesView";
 import { FooterBar } from "./components/FooterBar";
 import { Verbete, VerbeteCategory, TroubleshootingGuide, DictionaryStats, SavedDiagnostic } from "./types";
 import { INITIAL_VERBETES, INITIAL_TROUBLESHOOTING_GUIDES } from "./data/initialDictionary";
+import { CalculatorPromoBanner } from "./components/CalculatorPromoBanner";
 import { BookOpen, Search } from "lucide-react";
 
 // Helper to sort verbetes in ascending order by code (e.g. A-001, A-002, A-003, A-026)
@@ -548,6 +549,9 @@ export default function App() {
               viewMode={viewMode}
               setViewMode={setViewMode}
             />
+
+            {/* Banner Oficial da Calculadora Artrelados */}
+            <CalculatorPromoBanner />
 
             {/* Verbetes Presentation (Clean Dictionary List or Cards Grid) */}
             {filteredVerbetes.length > 0 ? (
