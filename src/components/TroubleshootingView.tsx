@@ -23,6 +23,19 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
   const [customProblem, setCustomProblem] = useState<string>("");
   const [machineModel, setMachineModel] = useState<string>("");
   const [fabricType, setFabricType] = useState<string>("");
+  
+  // New specific parameters
+  const [threadType, setThreadType] = useState<string>("");
+  const [needleNumber, setNeedleNumber] = useState<string>("");
+  const [needleTip, setNeedleTip] = useState<string>("");
+  const [stabilizerType, setStabilizerType] = useState<string>("");
+  const [stabilizerLayers, setStabilizerLayers] = useState<string>("");
+  const [matrixPoints, setMatrixPoints] = useState<string>("");
+  const [matrixHistory, setMatrixHistory] = useState<string>("");
+  const [speedSetting, setSpeedSetting] = useState<string>("");
+  const [tensionSetting, setTensionSetting] = useState<string>("");
+  const [showAdvancedParams, setShowAdvancedParams] = useState<boolean>(false);
+
   const [loadingDiag, setLoadingDiag] = useState<boolean>(false);
   const [diagnosticResult, setDiagnosticResult] = useState<DiagnosticResult | null>(null);
   const [currentDiagnosticId, setCurrentDiagnosticId] = useState<string>("");
@@ -52,7 +65,17 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
     // Provide immediate, highly accurate client-side analysis with realistic feedback delay
     setTimeout(() => {
       try {
-        const result = analyzeEmbroideryProblem(customProblem, machineModel, fabricType);
+        const result = analyzeEmbroideryProblem(customProblem, machineModel, fabricType, {
+          threadType,
+          needleNumber,
+          needleTip,
+          stabilizerType,
+          stabilizerLayers,
+          matrixPoints,
+          matrixHistory,
+          speedSetting,
+          tensionSetting
+        });
         setDiagnosticResult(result);
       } catch (err) {
         console.error(err);
@@ -64,7 +87,10 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
 
   const handleCopyDiagnostic = () => {
     if (!diagnosticResult) return;
-    const text = `📋 DIAGNÓSTICO DIBE ARTRELADOS\n${diagnosticResult.title}\n\nResumo:\n${diagnosticResult.summary}\n\nCausas Prováveis:\n${diagnosticResult.probableCauses.map((c) => `• ${c}`).join("\n")}\n\nSolução Passo a Passo:\n${diagnosticResult.stepByStepSolution.join("\n")}\n\n${diagnosticResult.artreladosTip}`;
+    const alertsText = diagnosticResult.criticalAlerts && diagnosticResult.criticalAlerts.length > 0
+      ? `\nAlertas Críticos:\n${diagnosticResult.criticalAlerts.map(a => `• ${a}`).join("\n")}\n`
+      : "";
+    const text = `📋 DIAGNÓSTICO DIBE ARTRELADOS\n${diagnosticResult.title}\n${alertsText}\nResumo:\n${diagnosticResult.summary}\n\nCausas Prováveis:\n${diagnosticResult.probableCauses.map((c) => `• ${c}`).join("\n")}\n\nSolução Passo a Passo:\n${diagnosticResult.stepByStepSolution.join("\n")}\n\n${diagnosticResult.artreladosTip}`;
     navigator.clipboard.writeText(text);
     setCopiedDiag(true);
     setTimeout(() => setCopiedDiag(false), 2500);
@@ -82,6 +108,15 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
       problemDescription: customProblem,
       machineModel: machineModel.trim() || undefined,
       fabricType: fabricType.trim() || undefined,
+      threadType: threadType.trim() || undefined,
+      needleNumber: needleNumber.trim() || undefined,
+      needleTip: needleTip.trim() || undefined,
+      stabilizerType: stabilizerType.trim() || undefined,
+      stabilizerLayers: stabilizerLayers.trim() || undefined,
+      matrixPoints: matrixPoints.trim() || undefined,
+      matrixHistory: matrixHistory.trim() || undefined,
+      speedSetting: speedSetting.trim() || undefined,
+      tensionSetting: tensionSetting.trim() || undefined,
       title: diagnosticResult.title,
       category: diagnosticResult.category,
       severity: diagnosticResult.severity,
@@ -137,6 +172,7 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
           </p>
 
           <form onSubmit={handleRunDiagnostic} className="space-y-4">
+            {/* Informações Básicas da Máquina e Tecido (Mantidos com destaque) */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div>
                 <label className="block text-xs font-bold text-slate-700 mb-1">
@@ -163,6 +199,174 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                   className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 text-xs sm:text-sm placeholder-slate-400 focus:bg-white focus:border-amber-500 focus:ring-2 focus:ring-amber-200 focus:outline-none"
                 />
               </div>
+            </div>
+
+            {/* Parâmetros Específicos do Bordado (Linha, Agulha, Entretela, Matriz, Configurações) */}
+            <div className="p-4 rounded-2xl bg-amber-50/60 border border-amber-200 space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="text-xs font-black text-slate-900 flex items-center gap-1.5">
+                  <Gauge className="w-4 h-4 text-amber-600" />
+                  Parâmetros de Trabalho da Oficina (Opcionais para Alta Precisão)
+                </span>
+                <button
+                  type="button"
+                  onClick={() => setShowAdvancedParams(!showAdvancedParams)}
+                  className="text-[11px] font-bold text-amber-900 hover:text-slate-950 underline cursor-pointer"
+                >
+                  {showAdvancedParams ? "Ocultar detalhes" : "Preencher todos os parâmetros +"}
+                </button>
+              </div>
+
+              {/* Sempre visíveis os 3 principais: Linha, Agulha e Entretela */}
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <div>
+                  <label className="block text-[11px] font-bold text-slate-700 mb-1">
+                    🧵 Linha Utilizada
+                  </label>
+                  <select
+                    value={threadType}
+                    onChange={(e) => setThreadType(e.target.value)}
+                    className="w-full px-3 py-2 bg-white border border-slate-300 rounded-xl text-slate-900 text-xs focus:border-amber-500 focus:ring-2 focus:ring-amber-200 focus:outline-none"
+                  >
+                    <option value="">Selecione a linha...</option>
+                    <option value="Poliéster 120/2 (Padrão)">Poliéster 120/2 (Padrão)</option>
+                    <option value="Rayon / Viscose">Rayon / Viscose (Alto brilho)</option>
+                    <option value="Algodão">Algodão (Fosca / Vintage)</option>
+                    <option value="Metálica / Metalizada">Metálica / Metalizada (Ouro/Prata)</option>
+                    <option value="Outra / Especial">Outra / Especial</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label className="block text-[11px] font-bold text-slate-700 mb-1">
+                    🪡 Agulha (Número & Ponta)
+                  </label>
+                  <div className="grid grid-cols-2 gap-1.5">
+                    <select
+                      value={needleNumber}
+                      onChange={(e) => setNeedleNumber(e.target.value)}
+                      className="w-full px-2 py-2 bg-white border border-slate-300 rounded-xl text-slate-900 text-xs focus:border-amber-500 focus:outline-none"
+                    >
+                      <option value="">Calibre...</option>
+                      <option value="65/9">65/9 (Muito fina)</option>
+                      <option value="75/11">75/11 (Padrão)</option>
+                      <option value="80/12">80/12 (Média)</option>
+                      <option value="90/14">90/14 (Grossa)</option>
+                    </select>
+                    <select
+                      value={needleTip}
+                      onChange={(e) => setNeedleTip(e.target.value)}
+                      className="w-full px-2 py-2 bg-white border border-slate-300 rounded-xl text-slate-900 text-xs focus:border-amber-500 focus:outline-none"
+                    >
+                      <option value="">Ponta...</option>
+                      <option value="Ponta Bola (SES/SUK)">Ponta Bola (Malha)</option>
+                      <option value="Universal / Seta">Universal</option>
+                      <option value="Microtex / Aguda">Microtex / Aguda</option>
+                      <option value="Topstitch / Metallic">Topstitch / Metallic</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div>
+                  <label className="block text-[11px] font-bold text-slate-700 mb-1">
+                    📏 Entretela / Estabilizador
+                  </label>
+                  <div className="grid grid-cols-2 gap-1.5">
+                    <select
+                      value={stabilizerType}
+                      onChange={(e) => setStabilizerType(e.target.value)}
+                      className="w-full px-2 py-2 bg-white border border-slate-300 rounded-xl text-slate-900 text-xs focus:border-amber-500 focus:outline-none"
+                    >
+                      <option value="">Tipo...</option>
+                      <option value="Rasgável (Tearaway)">Rasgável (Tearaway)</option>
+                      <option value="Recorte (Cutaway)">Recorte (Cutaway)</option>
+                      <option value="Hidrossolúvel (Solúvel)">Hidrossolúvel</option>
+                      <option value="Termocolante">Termocolante</option>
+                      <option value="Sem entretela">Sem entretela</option>
+                    </select>
+                    <select
+                      value={stabilizerLayers}
+                      onChange={(e) => setStabilizerLayers(e.target.value)}
+                      className="w-full px-2 py-2 bg-white border border-slate-300 rounded-xl text-slate-900 text-xs focus:border-amber-500 focus:outline-none"
+                    >
+                      <option value="">Camadas...</option>
+                      <option value="1 camada">1 camada</option>
+                      <option value="2 camadas">2 camadas</option>
+                      <option value="3 ou mais">3 ou mais</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              {/* Parâmetros Complementares: Matriz e Configurações da Máquina */}
+              {showAdvancedParams && (
+                <div className="pt-2 border-t border-amber-200/80 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 animate-fade-in">
+                  <div>
+                    <label className="block text-[11px] font-bold text-slate-700 mb-1">
+                      💻 Densidade da Matriz
+                    </label>
+                    <select
+                      value={matrixPoints}
+                      onChange={(e) => setMatrixPoints(e.target.value)}
+                      className="w-full px-2.5 py-2 bg-white border border-slate-300 rounded-xl text-slate-900 text-xs focus:border-amber-500 focus:outline-none"
+                    >
+                      <option value="">Densidade / Pontos...</option>
+                      <option value="Leve (Até 8.000 pontos)">Leve (Até 8.000 pts)</option>
+                      <option value="Média (8.000 a 20.000 pontos)">Média (8k a 20k pts)</option>
+                      <option value="Muito densa / Pesada (+25.000 pts)">Muito pesada (+25k pts)</option>
+                    </select>
+                  </div>
+
+                  <div>
+                    <label className="block text-[11px] font-bold text-slate-700 mb-1">
+                      💻 Histórico da Matriz
+                    </label>
+                    <select
+                      value={matrixHistory}
+                      onChange={(e) => setMatrixHistory(e.target.value)}
+                      className="w-full px-2.5 py-2 bg-white border border-slate-300 rounded-xl text-slate-900 text-xs focus:border-amber-500 focus:outline-none"
+                    >
+                      <option value="">Histórico...</option>
+                      <option value="Já bordou com sucesso antes">Já bordou bem antes</option>
+                      <option value="Matriz nova / Baixada na internet">Matriz nova / Baixada</option>
+                      <option value="Programação própria recente">Programação recente</option>
+                    </select>
+                  </div>
+
+                  <div>
+                    <label className="block text-[11px] font-bold text-slate-700 mb-1">
+                      ⚙️ Velocidade Atual
+                    </label>
+                    <select
+                      value={speedSetting}
+                      onChange={(e) => setSpeedSetting(e.target.value)}
+                      className="w-full px-2.5 py-2 bg-white border border-slate-300 rounded-xl text-slate-900 text-xs focus:border-amber-500 focus:outline-none"
+                    >
+                      <option value="">Velocidade (PPM)...</option>
+                      <option value="Baixa (400 - 500 PPM)">Baixa (400 - 500 PPM)</option>
+                      <option value="Média (550 - 650 PPM)">Média (550 - 650 PPM)</option>
+                      <option value="Alta (700 - 850 PPM)">Alta (700 - 850 PPM)</option>
+                      <option value="Industrial (900+ PPM)">Industrial (900+ PPM)</option>
+                    </select>
+                  </div>
+
+                  <div>
+                    <label className="block text-[11px] font-bold text-slate-700 mb-1">
+                      ⚙️ Tensão Regulada
+                    </label>
+                    <select
+                      value={tensionSetting}
+                      onChange={(e) => setTensionSetting(e.target.value)}
+                      className="w-full px-2.5 py-2 bg-white border border-slate-300 rounded-xl text-slate-900 text-xs focus:border-amber-500 focus:outline-none"
+                    >
+                      <option value="">Tensão superior...</option>
+                      <option value="Padrão de fábrica (Auto / ~3.4)">Padrão de fábrica (~3.4)</option>
+                      <option value="Muito frouxa / Solta">Muito frouxa / Solta</option>
+                      <option value="Muito apertada / Alta">Muito apertada / Alta</option>
+                    </select>
+                  </div>
+                </div>
+              )}
             </div>
 
             <div>
@@ -273,6 +477,24 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                   </button>
                 </div>
               </div>
+
+              {/* Critical Alerts Banner (When Incompatibility detected) */}
+              {diagnosticResult.criticalAlerts && diagnosticResult.criticalAlerts.length > 0 && (
+                <div className="p-3.5 rounded-2xl bg-rose-50 border-2 border-rose-400 space-y-1.5 animate-fade-in">
+                  <div className="flex items-center space-x-2 text-rose-900 font-extrabold text-xs sm:text-sm">
+                    <ShieldAlert className="w-4 h-4 text-rose-600 shrink-0" />
+                    <span>Incompatibilidade Detectada nos Parâmetros:</span>
+                  </div>
+                  <ul className="space-y-1 text-xs text-rose-900 font-medium">
+                    {diagnosticResult.criticalAlerts.map((alert, idx) => (
+                      <li key={idx} className="flex items-start space-x-1.5">
+                        <span>•</span>
+                        <span>{alert}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
 
               {/* Summary Description */}
               <div className="p-3.5 rounded-2xl bg-white border border-amber-200 text-xs sm:text-sm text-slate-800 leading-relaxed font-medium">

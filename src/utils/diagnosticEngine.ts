@@ -1,10 +1,11 @@
-import { TroubleshootingGuide } from "../types";
+import { DiagnosticInputs } from "../types";
 
 export interface DiagnosticResult {
   title: string;
   category: string;
   severity: "Baixa" | "Média" | "Alta" | "Crítica";
   summary: string;
+  criticalAlerts?: string[];
   probableCauses: string[];
   stepByStepSolution: string[];
   preventiveAdvice: string;
@@ -20,14 +21,52 @@ export interface DiagnosticResult {
 export function analyzeEmbroideryProblem(
   problem: string,
   machineModel?: string,
-  fabricType?: string
+  fabricType?: string,
+  detailedInputs?: Partial<DiagnosticInputs>
 ): DiagnosticResult {
   const p = problem.toLowerCase();
   const m = (machineModel || "").toLowerCase();
   const f = (fabricType || "").toLowerCase();
 
+  const thread = detailedInputs?.threadType || "";
+  const needleNum = detailedInputs?.needleNumber || "";
+  const needleTip = detailedInputs?.needleTip || "";
+  const stabType = detailedInputs?.stabilizerType || "";
+  const stabLayers = detailedInputs?.stabilizerLayers || "";
+  const matrixPts = detailedInputs?.matrixPoints || "";
+  const matrixHist = detailedInputs?.matrixHistory || "";
+  const speed = detailedInputs?.speedSetting || "";
+  const tension = detailedInputs?.tensionSetting || "";
+
   const machineLabel = machineModel?.trim() || "Máquina de bordar";
   const fabricLabel = fabricType?.trim() || "Tecido em uso";
+
+  const criticalAlerts: string[] = [];
+
+  // Verificações Cruzadas Inteligentes de Incompatibilidade
+  if (thread.toLowerCase().includes("metálica") || thread.toLowerCase().includes("metalizada")) {
+    if (speed.toLowerCase().includes("alta") || speed.toLowerCase().includes("700") || speed.toLowerCase().includes("800")) {
+      criticalAlerts.push("⚠️ Incompatibilidade Crítica: Linha Metálica combinada com Alta Velocidade causa atrito excessivo, superaquecimento do olho da agulha e desfiamento constante.");
+    }
+    if (needleNum === "65/9" || needleNum === "70/10" || needleNum === "75/11") {
+      criticalAlerts.push("⚠️ Calibre Inadequado: Linha Metálica exige agulha com olho especial alargado (Topstitch ou Metallic) e numeração mínima 80/12 ou 90/14.");
+    }
+  }
+
+  if (f.includes("malha") || f.includes("piquet") || f.includes("viscolycra") || f.includes("dry")) {
+    if (stabType.toLowerCase().includes("rasgável") || stabType.toLowerCase().includes("rasga")) {
+      criticalAlerts.push("⚠️ Estabilização Instável: Tecidos de malha com elasticidade não suportam entretela rasgável comum, provocando enrugamento (puckering) e descompasso de contornos.");
+    }
+    if (needleTip.toLowerCase().includes("universal") || needleTip.toLowerCase().includes("aguda") || needleTip.toLowerCase().includes("microtex")) {
+      criticalAlerts.push("⚠️ Risco de Perfuração da Malha: Agulhas com ponta cortante furam as fibras da malha gerando furinhos e rasgos ao redor dos pontos. Utilize ponta bola (SES / SUK).");
+    }
+  }
+
+  if (matrixHist.toLowerCase().includes("nova") || matrixHist.toLowerCase().includes("baixada")) {
+    if (matrixPts.toLowerCase().includes("muito densa") || matrixPts.toLowerCase().includes("pesada") || matrixPts.toLowerCase().includes("30.000")) {
+      criticalAlerts.push("💡 Fator Matriz: Por ser uma matriz nova/baixada com alta densidade, verifique se há excesso de subpontos sobrepostos ou nós de travamento acumulados.");
+    }
+  }
 
   // 1. Agulha torta / Agulha empenada / Agulha batendo / Quebra de agulha
   if (
@@ -59,6 +98,7 @@ export function analyzeEmbroideryProblem(
         `4. Gire o volante MANUALMENTE em sua direção (sentido anti-horário) para dar um ciclo completo de 360° e certificar-se de que a nova agulha entra no centro exato da chapa sem tocar nas laterais.`,
         `5. Reduza a velocidade de bordado para cerca de 550 a 650 PPM no painel da sua ${machineLabel}.`
       ],
+      criticalAlerts: criticalAlerts.length > 0 ? criticalAlerts : undefined,
       preventiveAdvice: `Troque a agulha a cada 8 horas corridas de bordado. Agulhas perdem a têmpera e o fio muito antes de quebrarem, começando a entortar microscopicamente e danificar matrizes.`,
       recommendedSettings: {
         needle: f.includes("malha") || f.includes("algodão") ? "75/11 SUK (Ponta Bola)" : "80/12 ou 90/14 Ponta Seta/Universal",

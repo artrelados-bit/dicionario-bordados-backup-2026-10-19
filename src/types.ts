@@ -95,12 +95,36 @@ export interface DictionaryStats {
   lastUpdated: string;
 }
 
+export interface DiagnosticInputs {
+  problemDescription: string;
+  machineModel?: string;
+  fabricType?: string;
+  threadType?: string;
+  needleNumber?: string;
+  needleTip?: string;
+  stabilizerType?: string;
+  stabilizerLayers?: string;
+  matrixPoints?: string;
+  matrixHistory?: string;
+  speedSetting?: string;
+  tensionSetting?: string;
+}
+
 export interface SavedDiagnostic {
   id: string;
   savedAt: string;
   problemDescription: string;
   machineModel?: string;
   fabricType?: string;
+  threadType?: string;
+  needleNumber?: string;
+  needleTip?: string;
+  stabilizerType?: string;
+  stabilizerLayers?: string;
+  matrixPoints?: string;
+  matrixHistory?: string;
+  speedSetting?: string;
+  tensionSetting?: string;
   title: string;
   category: string;
   severity: "Baixa" | "Média" | "Alta" | "Crítica";
