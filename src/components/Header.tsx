@@ -55,47 +55,58 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
         </div>
 
-        {/* Navigation Tabs - Compact Centered Row */}
-        <nav className="mt-3.5 sm:mt-4 flex flex-wrap items-center justify-center gap-2 sm:gap-2.5 border-t-2 border-slate-950/20 pt-3">
-          <button
-            id="tab-dictionary"
-            onClick={() => setActiveTab("dictionary")}
-            className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-black transition-all whitespace-nowrap cursor-pointer shadow-xs ${
-              activeTab === "dictionary"
-                ? "bg-slate-950 text-[#F9BC06] border-2 border-slate-950 scale-105"
-                : "bg-amber-400 text-slate-950 hover:bg-amber-300 border border-slate-950/40"
-            }`}
-          >
-            <BookOpen className="w-4 h-4" />
-            <span>1. Acervo & Verbetes</span>
-          </button>
+        {/* Navigation Tabs - Aligned with the 3 words of the title above */}
+        <div className="mt-3.5 sm:mt-4 border-t-2 border-slate-950/20 pt-3">
+          <nav className="max-w-4xl mx-auto w-full grid grid-cols-1 sm:grid-cols-3 items-center gap-2 sm:gap-4 px-1">
+            {/* 1. Aligned to the left (under DICIONÁRIO) */}
+            <div className="flex justify-center sm:justify-start">
+              <button
+                id="tab-dictionary"
+                onClick={() => setActiveTab("dictionary")}
+                className={`w-full sm:w-auto flex items-center justify-center space-x-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-black transition-all whitespace-nowrap cursor-pointer shadow-xs ${
+                  activeTab === "dictionary"
+                    ? "bg-slate-950 text-[#F9BC06] border-2 border-slate-950 scale-105"
+                    : "bg-amber-400 text-slate-950 hover:bg-amber-300 border border-slate-950/40"
+                }`}
+              >
+                <BookOpen className="w-4 h-4" />
+                <span>1. Acervo & Verbetes</span>
+              </button>
+            </div>
 
-          <button
-            id="tab-troubleshooting"
-            onClick={() => setActiveTab("troubleshooting")}
-            className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-black transition-all whitespace-nowrap cursor-pointer shadow-xs ${
-              activeTab === "troubleshooting"
-                ? "bg-slate-950 text-[#F9BC06] border-2 border-slate-950 scale-105"
-                : "bg-amber-400 text-slate-950 hover:bg-amber-300 border border-slate-950/40"
-            }`}
-          >
-            <Wrench className="w-4 h-4" />
-            <span>2. Guias de Problemas</span>
-          </button>
+            {/* 2. Aligned in the exact center (under DE BORDADOS) */}
+            <div className="flex justify-center">
+              <button
+                id="tab-troubleshooting"
+                onClick={() => setActiveTab("troubleshooting")}
+                className={`w-full sm:w-auto flex items-center justify-center space-x-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-black transition-all whitespace-nowrap cursor-pointer shadow-xs ${
+                  activeTab === "troubleshooting"
+                    ? "bg-slate-950 text-[#F9BC06] border-2 border-slate-950 scale-105"
+                    : "bg-amber-400 text-slate-950 hover:bg-amber-300 border border-slate-950/40"
+                }`}
+              >
+                <Wrench className="w-4 h-4" />
+                <span>2. Guias de Problemas</span>
+              </button>
+            </div>
 
-          <button
-            id="tab-favorites"
-            onClick={() => setActiveTab("favorites")}
-            className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-black transition-all whitespace-nowrap cursor-pointer shadow-xs ${
-              activeTab === "favorites"
-                ? "bg-slate-950 text-[#F9BC06] border-2 border-slate-950 scale-105"
-                : "bg-amber-400 text-slate-950 hover:bg-amber-300 border border-slate-950/40"
-            }`}
-          >
-            <Star className="w-4 h-4 fill-current" />
-            <span>3. Meus Favoritos ({stats.totalFavorites})</span>
-          </button>
-        </nav>
+            {/* 3. Aligned to the right (under ELETRÔNICOS) */}
+            <div className="flex justify-center sm:justify-end">
+              <button
+                id="tab-favorites"
+                onClick={() => setActiveTab("favorites")}
+                className={`w-full sm:w-auto flex items-center justify-center space-x-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-black transition-all whitespace-nowrap cursor-pointer shadow-xs ${
+                  activeTab === "favorites"
+                    ? "bg-slate-950 text-[#F9BC06] border-2 border-slate-950 scale-105"
+                    : "bg-amber-400 text-slate-950 hover:bg-amber-300 border border-slate-950/40"
+                }`}
+              >
+                <Star className="w-4 h-4 fill-current" />
+                <span>3. Meus Favoritos ({stats.totalFavorites})</span>
+              </button>
+            </div>
+          </nav>
+        </div>
       </div>
     </header>
   );
