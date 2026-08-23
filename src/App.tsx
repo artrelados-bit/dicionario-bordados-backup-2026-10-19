@@ -269,11 +269,13 @@ export default function App() {
   // Troubleshooting Guides State
   const [troubleshootingGuides, setTroubleshootingGuides] = useState<TroubleshootingGuide[]>(() => {
     try {
-      const saved = localStorage.getItem("artrelados_troubleshooting_v1");
+      const saved = localStorage.getItem("artrelados_troubleshooting_v2");
       if (saved) {
         const parsed = JSON.parse(saved);
         if (Array.isArray(parsed) && parsed.length > 0) {
-          return parsed;
+          const existingIds = new Set(parsed.map((g: TroubleshootingGuide) => g.id));
+          const missingInitials = INITIAL_TROUBLESHOOTING_GUIDES.filter((g) => !existingIds.has(g.id));
+          return [...parsed, ...missingInitials];
         }
       }
     } catch (e) {
@@ -340,7 +342,7 @@ export default function App() {
   // Save troubleshooting guides
   useEffect(() => {
     try {
-      localStorage.setItem("artrelados_troubleshooting_v1", JSON.stringify(troubleshootingGuides));
+      localStorage.setItem("artrelados_troubleshooting_v2", JSON.stringify(troubleshootingGuides));
     } catch (e) {
       console.error("Erro ao salvar guias", e);
     }
