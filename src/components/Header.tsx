@@ -42,6 +42,17 @@ export const Header: React.FC<HeaderProps> = ({
           <p className="text-[11px] sm:text-xs font-black tracking-widest text-slate-800 uppercase mt-0.5">
             © 2026 — JANETE M. C. SILVA • ARTRELADOS
           </p>
+          <div className="mt-1">
+            <a
+              href="https://www.artrelados.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs sm:text-sm font-black text-slate-950 hover:text-amber-950 underline decoration-slate-900/40 hover:decoration-slate-950 transition tracking-wide"
+              title="Acessar o site oficial Artrelados"
+            >
+              https://www.artrelados.com.br/
+            </a>
+          </div>
         </div>
 
         {/* Navigation Tabs - Compact Centered Row */}

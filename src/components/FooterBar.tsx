@@ -102,6 +102,17 @@ export const FooterBar: React.FC<FooterBarProps> = ({
           </p>
           <div className="flex flex-wrap items-center justify-center gap-2 max-w-2xl mx-auto text-zinc-400 text-[11px]">
             <span>Consultoria técnica desenvolvida por <strong className="text-amber-400 font-bold">Janete MC Silva</strong> (Artrelados).</span>
+            <span className="text-zinc-600">•</span>
+            <a
+              href="https://www.artrelados.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-amber-400 hover:text-amber-300 underline font-bold tracking-wide transition"
+              title="Acessar o portal Artrelados"
+            >
+              https://www.artrelados.com.br/
+            </a>
+            <span className="text-zinc-600">•</span>
             <button
               onClick={() => setShowReferencesModal(true)}
               className="text-amber-300 hover:underline font-bold inline-flex items-center gap-1 cursor-pointer"
