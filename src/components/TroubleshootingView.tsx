@@ -64,7 +64,7 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
 
   const handleCopyDiagnostic = () => {
     if (!diagnosticResult) return;
-    const text = `📋 DIAGNÓSTICO DA OFICINA ARTRELADOS\n${diagnosticResult.title}\n\nResumo:\n${diagnosticResult.summary}\n\nCausas Prováveis:\n${diagnosticResult.probableCauses.map((c) => `• ${c}`).join("\n")}\n\nSolução Passo a Passo:\n${diagnosticResult.stepByStepSolution.join("\n")}\n\n${diagnosticResult.artreladosTip}`;
+    const text = `📋 DIAGNÓSTICO DIBE ARTRELADOS\n${diagnosticResult.title}\n\nResumo:\n${diagnosticResult.summary}\n\nCausas Prováveis:\n${diagnosticResult.probableCauses.map((c) => `• ${c}`).join("\n")}\n\nSolução Passo a Passo:\n${diagnosticResult.stepByStepSolution.join("\n")}\n\n${diagnosticResult.artreladosTip}`;
     navigator.clipboard.writeText(text);
     setCopiedDiag(true);
     setTimeout(() => setCopiedDiag(false), 2500);
@@ -100,11 +100,7 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
       {/* Top Banner */}
       <div className="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-          <div className="space-y-1">
-            <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full text-xs font-extrabold bg-amber-100 text-amber-900 border border-amber-300">
-              <Wrench className="w-3.5 h-3.5 text-amber-700" />
-              <span>Oficina Técnica Artrelados</span>
-            </div>
+          <div className="space-y-1.5">
             <h2 className="text-2xl sm:text-3xl font-black text-slate-900">
               Diagnóstico e Solução de Problemas
             </h2>
