@@ -27,16 +27,16 @@ export const Header: React.FC<HeaderProps> = ({
             DIBE
           </h1>
 
-          {/* Subtitle perfectly fitted with fluid text scaling */}
-          <div className="mt-2 sm:mt-2.5 flex items-center justify-center font-slackey text-xs sm:text-base md:text-xl lg:text-2xl leading-tight tracking-wide whitespace-nowrap px-1 max-w-full text-center">
-            <span className="text-[#0a0a0a] drop-shadow-xs mr-1.5 sm:mr-2 md:mr-2.5">DICIONÁRIO</span>
-            <span className="text-[#c47700] drop-shadow-xs mr-1.5 sm:mr-2 md:mr-2.5">DE BORDADOS</span>
+          {/* Subtitle perfectly fitted with fluid text scaling, kept strictly on a single line */}
+          <div className="mt-2 sm:mt-2.5 flex items-center justify-center font-slackey text-[14px] xs:text-[17px] sm:text-[23px] md:text-[30px] lg:text-[35px] leading-tight tracking-wide whitespace-nowrap px-1 max-w-full text-center select-none">
+            <span className="text-[#0a0a0a] drop-shadow-xs mr-2 sm:mr-2.5 md:mr-3">DICIONÁRIO</span>
+            <span className="text-[#c47700] drop-shadow-xs mr-2 sm:mr-2.5 md:mr-3">DE BORDADOS</span>
             <span className="text-[#008cc9] font-slackey drop-shadow-xs">
               ELETRÔNICOS
             </span>
           </div>
 
-          <p className="text-xs sm:text-sm font-extrabold text-slate-900 mt-2">
+          <p className="text-xs sm:text-sm md:text-base font-extrabold text-slate-900 mt-2 whitespace-nowrap overflow-hidden text-ellipsis px-2">
             Consultoria Técnica de Termos, Pontos & Matrizes de Bordado
           </p>
           <p className="text-[11px] sm:text-xs font-black tracking-widest text-slate-800 uppercase mt-0.5">
