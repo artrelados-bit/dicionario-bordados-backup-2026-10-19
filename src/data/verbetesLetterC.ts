@@ -4287,6 +4287,422 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "KAHN, Max. Digitizing Masterclass for Commercial Embroidery. New York: Textile Press, 2021."
     ],
     "updatedAt": "2026-08-24"
+  },
+  {
+    "id": "c-068-chenille-e-ponto-lacada-efeito-toalha",
+    "code": "C-068",
+    "letter": "C",
+    "term": "Chenille e Ponto Laçada / Efeito Ponto Toalha (Chenille Stitch & Loop Embroidery)",
+    "level": "Avançado 🔴",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Técnicas de Bordado",
+    "origin": "Do francês chenille (lagarta), devido à aparência felpuda e aveludada do fio de laçada em relevo.",
+    "summary": "Técnica de bordado que cria laçadas abertas ou tosquiadas em relevo alto, conferindo aspecto felpudo e aveludado semelhante a toalha ou veludo cotelê.",
+    "definition": "O Ponto Chenille (Loop Stitch / Ponto Laçada) é uma técnica especializada de bordado em que o fio superior é projetado em laçadas frouxas e volumosas sobre o tecido sem a tensão convencional da bobina, ou com agulha especial de gancho (Loch/Moss stitch), formando uma superfície aveludada e de alto relevo tátil.",
+    "technicalDetails": "Pode ser executado com dispositivos específicos de laçada em máquinas industriais multi-cabeças ou simulado em máquinas planas através de fios grossos de lã/acrílico, baixa tensão de linha superior e programação com pontos de preenchimento soltos com densidade entre 0.80 mm e 1.20 mm.",
+    "howItWorks": [
+      "1. A matriz é programada com caminhos de contorno espiralados ou preenchimentos em zigue-zague aberto",
+      "2. A máquina insere a linha criando uma alça ou laçada contínua que não se achata contra a base",
+      "3. Uma camada de entretela grossa de rasga-fácil ou hidrossolúvel pesada sustenta a estrutura das alças",
+      "4. O resultado final é um aplique ou brasão com textura felpuda e volume marcante",
+      "5. Em emblemas clássicos, as laçadas podem ser mantidas intactas (ponto esponja) ou cortadas superficialmente (chenille tosquiado)"
+    ],
+    "beginnerExplanation": "É aquele bordado bem fofinho e felpudo que parece uma toalha ou o brasão das jaquetas de times universitários de filmes americanos. Ele fica com um relevo alto e gostoso de passar a mão.",
+    "applications": [
+      "Confecção de letras e números para jaquetas college / jaquetas universitárias",
+      "Emblemas de alta costura, bonés comemorativos e peças infantis com efeito sensorial",
+      "Bordados em moletons e jaquetas esportivas de inverno"
+    ],
+    "commonErrors": [
+      "❌ Usar tensão de linha muito alta, o que puxa a laçada para o avesso e desfaz todo o relevo felpudo",
+      "❌ Programar densidade muito fechada (0.35 mm), que perfura e corta o próprio fio de lã ou acrílico",
+      "❌ Não arrematar com trava dupla as pontas das laçadas, fazendo o bordado desfiar ao lavar"
+    ],
+    "troubleshootingTips": [
+      "Se as laçadas estiverem murchando: Diminua a tensão do tensor superior da linha e use entretela de gramatura 80g para dar suporte",
+      "Se a linha grossa estiver desfiando na agulha: Troque para agulha de olho grande (Topstitch ou agulha especial tamanho 100/16 ou 110/18)"
+    ],
+    "dicaArtrelados": "Para simular o efeito felpudo de toalha em máquina doméstica ou profissional convencional sem dispositivo de chenille, utilize linha de crochê fina ou lã de meada na bobina e borde com a peça virada do avesso (técnica de Bobbin Work com ponto esponja)!",
+    "voceSabia": "O chenille tradicional foi patenteado na França no século XVIII e virou febre mundial na década de 1950 nos Estados Unidos com as famosas 'Letterman Jackets' dos atletas do ensino médio.",
+    "practicalExercise": "Experimente colocar linha de bordar grossa ou fio de meada na bobina da sua máquina, afrouxe levemente a tensão da caixa de bobina e faça uma linha reta no tecido virado do avesso para ver as laçadas fofas se formarem!",
+    "quickSummary": "Bordado volumoso com laçadas de fio que criam acabamento felpudo e aveludado característico de peças universitárias e esportivas.",
+    "relatedTerms": [
+      "Trabalho de Bobina (Bobbin Work)",
+      "Ponto Cheio (Satin)",
+      "Relevo 3D com EVA (Puffy Foam)",
+      "Entretela Rasga-Fácil (Tear-Away)"
+    ],
+    "tags": [
+      "c-068",
+      "chenille",
+      "ponto toalha",
+      "loop embroidery",
+      "relevo",
+      "college",
+      "sensorial",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA. Chenille & Chain Stitch Technical Operation Manual. Nagoya, 2021.",
+      "WILCOM. Specialized Stitch Types: Loop & Chenille Processing. Sydney, 2023."
+    ],
+    "updatedAt": "2026-08-24"
+  },
+  {
+    "id": "c-069-compensacao-de-encolhimento-textil",
+    "code": "C-069",
+    "letter": "C",
+    "term": "Compensação de Encolhimento Têxtil (Fabric Shrinkage Compensation)",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Programação de Bordado",
+    "origin": "Do conceito têxtil de retração dimensional pós-lavagem e pós-vaporização, integrado à engenharia de matrizes de bordado.",
+    "summary": "Ajuste na escala e densidade da matriz de bordado projetado especificamente para compensar a retração que o tecido sofre após a primeira lavagem ou passagem a ferro.",
+    "definition": "A Compensação de Encolhimento Têxtil é o cálculo preventivo realizado na matriz de bordado para tecidos de fibra natural (como algodão cru, linho, malha 100% algodão e viscose) que encolhem entre 3% e 8% após serem lavados e secados pelo cliente final, evitando que o bordado fique enrugado como um prato fundo.",
+    "technicalDetails": "Diferente da compensação de repuxo (que atua na largura durante o bordar), a compensação de encolhimento reduz a densidade em 10% a 15% e prevê a direção do fio da trama, permitindo que a malha encolha sem que a rigidez dos pontos impeça a movimentação natural da fibra.",
+    "howItWorks": [
+      "1. O programador identifica o tipo de tecido em que a peça será bordada (ex: malha piquet 100% algodão)",
+      "2. É aplicada uma densidade mais arejada (0.45 mm em vez de 0.38 mm) nos pontos de cobertura",
+      "3. Os pontos de suporte (underlays) são programados em grade flexível (Tatami de suporte com ângulo cruzado)",
+      "4. Quando a peça bordada é lavada e encolhe, o bordado flexível acompanha a retração sem formar papos nem repuxar o tecido"
+    ],
+    "beginnerExplanation": "O algodão e o linho encolhem um pouquinho depois que você lava a primeira vez. Se a matriz for muito pesada e cheia de pontos duros, a camiseta encolhe mas o bordado não, e a peça fica toda franzida e feia em volta do desenho.",
+    "applications": [
+      "Bordados em camisas polo piquet, camisetas de algodão e toalhas de banho",
+      "Uniformes profissionais e fardamentos submetidos a lavagens industriais frequentes",
+      "Enxovais de bebê e roupas de cama em percal e linho puro"
+    ],
+    "commonErrors": [
+      "❌ Bordar tecidos naturais sem pré-lavagem com matriz de densidade excessiva (0.35 mm), causando ondulação após a primeira lavagem",
+      "❌ Usar entretela muito rígida e não lavável em tecidos finos que sofrerão retração"
+    ],
+    "troubleshootingTips": [
+      "Se o bordado ficou perfeito no bastidor mas ondulou após a lavagem: Reduza a densidade da matriz em 15% e utilize entretela solúvel ou malha rasga-fácil que amacie após a lavagem",
+      "Se for bordar em linho cru: Oriente o cliente a molhar o tecido antes do corte ou programe a matriz com pontos de suporte bem elásticos"
+    ],
+    "dicaArtrelados": "Ao programar matrizes para malhas 100% algodão e toalhas felpudas, configure a densidade do Tatami para 0.45 mm e ative compensação de repuxo de 0.40 mm. O bordado fica leve, macio ao toque e não deforma na máquina de lavar!",
+    "voceSabia": "A fibra de algodão natural pode encolher até 7% no comprimento e 4% na largura na primeira lavagem com água morna devido ao relaxamento da torção dos fios durante a fiação têxtil.",
+    "practicalExercise": "Borde um quadrado de tatami com densidade pesada (0.35 mm) e outro com densidade equilibrada (0.45 mm) em um retalho de malha de algodão. Lave o retalho com água e sabão, deixe secar e veja como o quadrado mais leve permanece liso!",
+    "quickSummary": "Planejamento de densidade e suporte na matriz que permite ao tecido encolher nas lavagens sem enrugar ou deformar o desenho.",
+    "relatedTerms": [
+      "Compensação de Puxão (Pull Compensation)",
+      "Densidade de Ponto",
+      "Ponto de Suporte (Underlay)",
+      "Entretela Hidrossolúvel"
+    ],
+    "tags": [
+      "c-069",
+      "encolhimento",
+      "lavagem",
+      "tecido natural",
+      "algodao",
+      "matriz",
+      "flexibilidade",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "AMERICAN EMBROIDERY DIGEST. Fabric Shrinkage & Digitizing Density Control. Atlanta, 2022.",
+      "KAHN, Max. Digitizing Masterclass for Commercial Embroidery. New York: Textile Press, 2021."
+    ],
+    "updatedAt": "2026-08-24"
+  },
+  {
+    "id": "c-070-cartela-de-cores-personalizada-no-software",
+    "code": "C-070",
+    "letter": "C",
+    "term": "Cartela de Cores Personalizada no Software (Custom Color Palette & Thread Catalog)",
+    "level": "Iniciante 🟢",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Programação de Bordado",
+    "origin": "Da digitalização de catálogos físicos de fios de poliéster e viscose para dentro das tabelas RGB/CMYK dos softwares de bordado.",
+    "summary": "Configuração no programa de matrizes com a lista exata das marcas e códigos numéricos de linhas disponíveis no estoque físico do ateliê.",
+    "definition": "A Cartela de Cores Personalizada (Custom Thread Palette / Catálogo de Linhas) é um recurso presente em programas como Wilcom, Embird, Pe-Design e Hatch que permite criar uma paleta digital exclusiva contendo os códigos e nomes das linhas de bordar que a bordadeira realmente possui em sua prateleira (como Setta, Lumina, Ricamare, Linhas Corrente, Madeira ou Polyfast).",
+    "technicalDetails": "Permite associar cada objeto vetorizado ao número de referência comercial da linha e ao código RGB calibrado, gerando a ficha técnica (Worksheet / Folha de Produção) com as paradas de cor exatas e a ordem das agulhas da máquina.",
+    "howItWorks": [
+      "1. A bordadeira lista as cores e marcas de cones que tem no seu ateliê",
+      "2. No software de matrizes, cria uma nova paleta ('Minhas Linhas Ateliê')",
+      "3. Adiciona as cores correspondentes com seus respectivos códigos numéricos (ex: Lumina 2140 - Dourado)",
+      "4. Ao criar ou abrir qualquer matriz, o software faz a correspondência automática de cores com os cones reais da prateleira",
+      "5. A folha de impressão sai com o número exato do cone que a operadora deve colocar na máquina"
+    ],
+    "beginnerExplanation": "É você colocar no programa do computador a lista certinha com os números das linhas que você comprou e tem na sua gaveta. Assim, o desenho na tela fica com a cor idêntica à linha que vai para a máquina, sem confusão de tons.",
+    "applications": [
+      "Geração de folhas de aprovação de cores fiéis para clientes antes de bordar",
+      "Agilização da troca de linhas em máquinas multiagulhas (1 a 6 ou 1 a 12 cores)",
+      "Padronização de logomarcas corporativas que exigem códigos de linha estritos"
+    ],
+    "commonErrors": [
+      "❌ Programar usando cores genéricas do software (RGB aleatório) sem código de cone, fazendo a bordadeira perder tempo procurando tons parecidos na prateleira",
+      "❌ Não atualizar a cartela digital quando comprar novos cones ou trocar de marca de linha"
+    ],
+    "troubleshootingTips": [
+      "Se a cor na tela parecer muito diferente do cone real: Acesse o editor de paletas do software e ajuste o tom visual para o RGB fiel da cartela física sob luz natural",
+      "Se o cliente exigir uma cor exata de logotipo (Pantone): Utilize a ferramenta de conversão Pantone-para-Linha do seu software para encontrar o cone correspondente"
+    ],
+    "dicaArtrelados": "Crie uma paleta no seu software chamada 'Meu Estoque Artrelados' com apenas os cones que você tem no ateliê! Ao abrir qualquer matriz nova, clique em 'Mapear para Minha Paleta' e o software converte todas as cores automaticamente para as suas linhas!",
+    "voceSabia": "A maioria dos softwares de bordado traz tabelas pré-instaladas de fabricantes internacionais (como Isacord e Madeira), mas você pode importar e salvar tabelas completas de marcas brasileiras como Setta e Lumina!",
+    "practicalExercise": "Abra o seu software de bordados, vá em 'Configurações de Cores / Thread Charts', crie uma nova cartela com o nome do seu ateliê e adicione 5 cores básicas que você mais usa com o código numérico do cone!",
+    "quickSummary": "Tabela digital personalizada no programa de bordado com os códigos reais dos cones de linha existentes no ateliê.",
+    "relatedTerms": [
+      "Cartão de Cores e Tabela de Conversão de Linhas",
+      "Código de Cores de Linha",
+      "Folha de Produção / Ficha Técnica (Worksheet)",
+      "Troca de Cor Automática"
+    ],
+    "tags": [
+      "c-070",
+      "cartela de cores",
+      "paleta de linhas",
+      "cones",
+      "estoque",
+      "wilcom",
+      "embird",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM. EmbroideryStudio: Custom Thread Charts & Palette Management Guide. Sydney, 2023.",
+      "BROTHER. PE-Design Thread Chart Customization Manual. Nagoya, 2022."
+    ],
+    "updatedAt": "2026-08-24"
+  },
+  {
+    "id": "c-071-camera-integrada-de-posicionamento-e-escaneamento",
+    "code": "C-071",
+    "letter": "C",
+    "term": "Câmera Integrada de Posicionamento e Escaneamento de Bastidor (Built-in Hoop Camera & Smart Scanner)",
+    "level": "Avançado 🔴",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Equipamentos e Máquinas",
+    "origin": "Da tecnologia de visão computacional e sensores ópticos CCD/CMOS incorporados aos cabeçotes de bordadeiras eletrônicas a partir dos anos 2010.",
+    "summary": "Sistema de câmera óptica inteligente instalada na máquina que fotografa o tecido no bastidor e projeta a matriz sobre a imagem na tela para encaixe perfeito.",
+    "definition": "A Câmera Integrada de Posicionamento (Built-in Camera / Live Hoop Scanner) é um recurso de tecnologia avançada presente em bordadeiras modernas e semi-industriais que fotografa a área interna do bastidor em tempo real, exibindo o tecido na tela LCD para que a bordadeira posicione, gire e encaixe a matriz exatamente sobre listras, golas, bolsos ou emendas de bordados contínuos.",
+    "technicalDetails": "Utiliza sensores de alta resolução acoplados ao lado da barra de agulha e algoritmos de calibração geométrica com marcadores ópticos (adesivos Snowman / alvos reflexivos), garantindo precisão de alinhamento com tolerância inferior a 0.5 mm.",
+    "howItWorks": [
+      "1. A peça é colocada no bastidor (mesmo que fique ligeiramente torta) e encaixada na máquina",
+      "2. A bordadeira toca no botão de escaneamento de câmera na tela sensível ao toque",
+      "3. O pantógrafo movimenta o bastidor enquanto a câmera captura fotos de toda a área útil",
+      "4. A imagem real da peça com sua estampa ou corte aparece na tela do visor",
+      "5. A operadora arrasta e gira a matriz de bordado diretamente em cima da imagem da peça",
+      "6. A máquina recalcula as coordenadas X/Y e borda com precisão milimétrica"
+    ],
+    "beginnerExplanation": "É uma camerazinha dentro da máquina de bordar que tira uma foto da toalha ou da camisa presa no bastidor. Você vê a foto na tela da máquina e pode colocar o bordado no lugar certinho com o dedo, sem precisar riscar giz nem medir com fita métrica.",
+    "applications": [
+      "Bordados em peças prontas com espaço limitado como bolsos, punhos e golas",
+      "Alinhamento perfeito de monogramas em tecidos xadrez, listrados ou com estampas geométricas",
+      "Conexão precisa de bordados gigantes que precisam ser divididos em vários bastidores (Endless Embroidery)"
+    ],
+    "commonErrors": [
+      "❌ Tentar escanear com iluminação ambiente muito fraca ou sombras fortes sobre o bastidor, dificultando a leitura óptica",
+      "❌ Colocar a mão ou ferramentas dentro da área do bastidor durante o movimento de escaneamento do pantógrafo",
+      "❌ Não calibrar a lente da câmera nas configurações periódicas de fábrica da máquina"
+    ],
+    "troubleshootingTips": [
+      "Se a imagem escaneada na tela estiver desalinhada em relação à agulha: Acesse o menu de manutenção da máquina e execute a 'Calibração de Ponto da Câmera' utilizando a folha de calibração original",
+      "Se a máquina não reconhecer o adesivo marcador (Snowman): Limpe a lente da câmera com um pano de microfibra seco e certifique-se de que o adesivo não está amassado"
+    ],
+    "dicaArtrelados": "A câmera de posicionamento é a maior aliada para bordar toalhas com barra de étamine ou renda: escaneie a toalha no bastidor e ajuste a matriz para que o primeiro ponto comece a exatamente 2 milímetros acima da costura da barra!",
+    "voceSabia": "As primeiras câmeras integradas em máquinas de bordado comercial surgiram na linha Innov-is da Brother e nas máquinas da marca Janome e Bernina, revolucionando a emenda de bordados infinitos.",
+    "practicalExercise": "Coloque um tecido com listras no bastidor de forma intencionalmente inclinada. Use a câmera de escaneamento da máquina para girar a matriz no mesmo ângulo da listra e veja como o bordado fica 100% alinhado!",
+    "quickSummary": "Câmera que fotografa o tecido no bastidor e permite alinhar e girar a matriz diretamente sobre a imagem na tela da máquina.",
+    "relatedTerms": [
+      "Calcador com Mira LED / Ponteiro de Luz",
+      "Centralização Automática no Bastidor",
+      "Operação da Máquina",
+      "Ponto de Origem e Alinhamento"
+    ],
+    "tags": [
+      "c-071",
+      "camera",
+      "scanner",
+      "posicionamento",
+      "alinhamento",
+      "snowman",
+      "tecnologia",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BROTHER. Innov-is Camera Scanning & Visual Positioning Guide. Nagoya, 2023.",
+      "BERNINA. Smart Placement & Camera Alignment System Manual. Steckborn, 2022."
+    ],
+    "updatedAt": "2026-08-24"
+  },
+  {
+    "id": "c-072-camuflagem-de-arremate-e-ponto-escondido",
+    "code": "C-072",
+    "letter": "C",
+    "term": "Camuflagem de Arremate e Ponto Escondido (Hidden Tie-off & Stealth Fastenings)",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Programação de Bordado",
+    "origin": "Do conceito de costura invisível e engenharia de finalização de matrizes no software Wilcom e Pulse nos anos 2000.",
+    "summary": "Técnica de programação que oculta os pequenos pontos de trava (nós) de início e fim sob as colunas de ponto cheio ou tatami, deixando o acabamento liso e sem caroços.",
+    "definition": "A Camuflagem de Arremate (Hidden Tie-in / Tie-off & Stealth Stitches) é uma técnica de digitalização avançada que posiciona os micro-pontos de travamento de linha (amarração inicial e final) exatamente no centro geométrico do objeto, por baixo do ponto de suporte (underlay) ou sob a cobertura final de ponto cheio, evitando que os nós fiquem visíveis na borda do bordado.",
+    "technicalDetails": "Substitui os nós externos convencionais por sequências de 3 a 4 micro-pontos (0.6 mm a 0.8 mm) com recuo angular de 45° direcionados para o núcleo da coluna, garantindo retenção de tensão sem criar nódulos táteis no contorno.",
+    "howItWorks": [
+      "1. Ao finalizar um elemento, o software projeta a agulha para o centro do desenho e não para a borda externa",
+      "2. Executa 3 micropontos de trava seguros no meio da estrutura interna",
+      "3. O ponto cheio passa por cima cobrindo totalmente a amarração",
+      "4. No final do objeto, a trava é executada recuando 1 mm para dentro antes do comando de corte (Trim)",
+      "5. A frente e o verso do bordado ficam com aspecto polido, limpo e sem pontas soltas"
+    ],
+    "beginnerExplanation": "Sabe quando você termina de bordar uma letra e fica aquela bolinha ou pontinha feia de linha na beirada? A camuflagem de arremate esconde esse nozinho bem no meio do bordado, por baixo dos outros pontos, deixando tudo lisinho.",
+    "applications": [
+      "Bordado de pequenos textos e monogramas finos (fontes menores que 8 mm)",
+      "Bordados em peças de luxo, camisaria sob medida e roupas íntimas",
+      "Prevenção de nós visíveis em bordados com linha metálica dourada ou prateada"
+    ],
+    "commonErrors": [
+      "❌ Deixar o nó de arremate na ponta fina de letras cursivas (como as pernas das letras 'e' e 'a'), criando uma ponta grossa e deformada",
+      "❌ Desativar totalmente o arremate para tentar 'limpar' o visual, fazendo o bordado desmanchar após a lavagem"
+    ],
+    "troubleshootingTips": [
+      "Se as letras pequenas estiverem com bolinhas nas pontas: No software, mude o tipo de arremate de 'Padrão' para 'Arremate Embutido / Inside Tie-off'",
+      "Se a linha estiver escapando após o corte: Aumente o número de micropontos embutidos de 2 para 4 pontos"
+    ],
+    "dicaArtrelados": "Em fontes pequenas cursivas, configure o arremate final para 'No Centro da Coluna' (Center Line Tie-off). A pontinha da letra fica fininha e pontiaguda como se tivesse sido desenhada com caneta tinteiro!",
+    "voceSabia": "Bordados de alta-costura europeus avaliam a qualidade de uma matriz pela ausência de nós visíveis no contorno externo das letras e figuras.",
+    "practicalExercise": "Programe duas palavras iguais no software: uma com arremate comum na borda e outra com arremate camuflado no centro. Borde as duas e compare o acabamento das pontas das letras com uma lupa!",
+    "quickSummary": "Programação de micropontos de trava posicionados no miolo do objeto para garantir fixação sem nós visíveis nas bordas.",
+    "relatedTerms": [
+      "Ponto de Amarração Inicial e Final",
+      "Ponto de Salto (Jump Stitch)",
+      "Corte Automático de Linha",
+      "Ponto Cheio (Satin)"
+    ],
+    "tags": [
+      "c-072",
+      "arremate",
+      "camuflagem",
+      "tie-off",
+      "letras pequenas",
+      "acabamento fino",
+      "matriz",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM. Quality Digitizing: Advanced Tie-in and Tie-off Techniques. Sydney, 2022.",
+      "KAHN, Max. Commercial Embroidery Fundamentals. New York: Textile Press, 2021."
+    ],
+    "updatedAt": "2026-08-24"
+  },
+  {
+    "id": "c-073-canhao-de-luz-e-iluminacao-led-da-area-de-bordado",
+    "code": "C-073",
+    "letter": "C",
+    "term": "Canhão de Luz e Iluminação LED da Área de Bordado (Embroidery Field LED Illumination)",
+    "level": "Iniciante 🟢",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Equipamentos e Máquinas",
+    "origin": "Da evolução das lâmpadas incandescentes amarelas para fitas e canhões de LED de alta intensidade (5000K a 6500K) em máquinas de costura e bordado.",
+    "summary": "Sistema de iluminação LED de luz branca fria direcionado ao redor da barra de agulha e do braço livre para visualização clara de pontos, linhas e defeitos.",
+    "definition": "O Canhão de Luz LED (Needle Area LED Lighting / Daylight Illumination) é o conjunto de emissores de luz de alta eficiência instalados ao redor da barra de agulha e sob o braço da máquina de bordar que projeta luz branca natural sem sombras e sem gerar calor sobre a área de trabalho, facilitando o enfiamento da agulha, a inspeção de pontos e a identificação precoce de quebras de fio.",
+    "technicalDetails": "Opera com temperatura de cor entre 5500K e 6500K (luz do dia) e índice de reprodução de cor (CRI) superior a 85, eliminando a distorção visual de tons de linha e evitando aquecimento na chapa de agulha que ressecaria as linhas sintéticas.",
+    "howItWorks": [
+      "1. LEDs de alta durabilidade são posicionados em múltiplos ângulos ao redor da barra de agulha",
+      "2. Ao ligar a máquina, o feixe de luz elimina as sombras projetadas pelo calcador e pela carcaça",
+      "3. A bordadeira consegue enxergar com clareza o olho da agulha para troca rápida de linha",
+      "4. Durante o bordado em alta velocidade, permite acompanhar a formação da laçada e detectar desfiamentos instantaneamente",
+      "5. Reduz a fadiga ocular em longas jornadas de produção no ateliê"
+    ],
+    "beginnerExplanation": "São as luzes LED branquinhas e fortes que ficam bem em cima de onde a agulha bate na máquina. Elas clareiam tudo sem esquentar o tecido e sem fazer sombra, permitindo que você veja qualquer fiapo ou linha fora do lugar com facilidade.",
+    "applications": [
+      "Trabalho em ateliês e oficinas com iluminação ambiente reduzida",
+      "Bordados com linhas pretas ou escuras sobre tecidos escuros (onde o contraste é difícil)",
+      "Passagem manual de linha em agulhas finas (tamanho 65/9 e 75/11)"
+    ],
+    "commonErrors": [
+      "❌ Substituir lâmpadas originais por lâmpadas incandescentes comuns que esquentam e derretem peças plásticas da carcaça",
+      "❌ Deixar poeira e fiapos de linha acumularem sobre a lente do LED, diminuindo a potência da luz"
+    ],
+    "troubleshootingTips": [
+      "Se a luz da sua máquina antiga for amarela e fraca: Instale uma fita adesiva de LED de 12V específica para máquinas de costura no braço superior",
+      "Se os olhos ficarem cansados após bordar por muito tempo: Verifique se a luz ambiente da sala está equilibrada com a luz do LED da máquina para evitar contraste excessivo"
+    ],
+    "dicaArtrelados": "Mantenha a lente do LED sempre limpa com um pincelzinho macio! O acúmulo de pó de entretela cria uma névoa que reduz o brilho e cansa a visão durante a produção de encomendas noturnas!",
+    "voceSabia": "As antigas máquinas industriais usavam lâmpadas incandescentes de 15W que esquentavam tanto que chegavam a ressecar a lubrificação da barra de agulha após 4 horas de uso contínuo!",
+    "practicalExercise": "Limpe a lente da luz LED da sua máquina com um cotonete seco e observe como a nitidez das cores dos pontos e a visibilidade da chapa de agulha melhoram imediatamente!",
+    "quickSummary": "Iluminação LED de alta definição direcionada para a agulha que elimina sombras, não esquenta e facilita a inspeção e a passagem de linha.",
+    "relatedTerms": [
+      "Chapa de Agulha (Needle Throat Plate)",
+      "Cabo de Agulha / Bloco Fixador de Agulha",
+      "Calcador com Mira LED / Ponteiro de Luz",
+      "Operação da Máquina"
+    ],
+    "tags": [
+      "c-073",
+      "led",
+      "iluminacao",
+      "canhao de luz",
+      "visao",
+      "manutencao",
+      "ergonomia",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "JANOME. Ergonomics & LED Workspace Lighting Technology. Tokyo, 2022.",
+      "BROTHER. Embroidery Machine Maintenance and Lighting Standards. Nagoya, 2021."
+    ],
+    "updatedAt": "2026-08-24"
+  },
+  {
+    "id": "c-074-compensacao-dinamica-de-densidade-por-tamanho",
+    "code": "C-074",
+    "letter": "C",
+    "term": "Compensação Dinâmica de Densidade por Tamanho (Dynamic Density Scaling)",
+    "level": "Avançado 🔴",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Programação de Bordado",
+    "origin": "Do processamento algorítmico de objetos vetoriais em softwares de digitalização de bordados CAD/CAM (Wilcom Stitch Processor).",
+    "summary": "Recálculo automático da quantidade e do espaçamento entre pontos quando uma matriz é ampliada ou reduzida de tamanho, preservando a textura original.",
+    "definition": "A Compensação Dinâmica de Densidade (Dynamic Stitch Scaling / Intelligent Stitch Processor) é a capacidade de um software de matrizes de recalcular o número total de pontos em tempo real ao redimensionar um desenho. Se o objeto for aumentado em 200%, novos pontos são gerados mantendo o espaçamento constante; se for reduzido, os pontos excedentes são eliminados para evitar que o bordado vire uma placa rígida.",
+    "technicalDetails": "Diferencia o redimensionamento vetorial baseado em objetos (que recalcula a densidade mantendo o valor padrão de 0.40 mm) do redimensionamento direto de arquivos de pontos finais (.DST ou .PES sem dados de contorno), aplicando filtragem de pontos curtos e reposicionamento de underlays.",
+    "howItWorks": [
+      "1. A bordadeira seleciona um desenho e altera seu tamanho na tela (ex: de 10 cm para 5 cm)",
+      "2. O processador inteligente analisa a densidade de cada elemento (Tatami, Satin e Contornos)",
+      "3. Em vez de simplesmente espremer os pontos no espaço menor, o software remove proporcionalmente os pontos intermediários",
+      "4. Ajusta o comprimento mínimo de ponto para que a agulha não perfure várias vezes a menos de 1 mm",
+      "5. A matriz reduzida borda com maciez e sem quebrar a agulha ou picotar o tecido"
+    ],
+    "beginnerExplanation": "Quando você diminui um desenho pela metade, os pontos não podem ficar todos espremidos no mesmo lugarzinho, senão o bordado fica duro como uma tábua e quebra a agulha. A compensação dinâmica tira os pontinhos que sobraram para deixar o desenho perfeitinho e macio.",
+    "applications": [
+      "Adaptação de um logotipo grande de costas de jaqueta para o tamanho de peito (bolso)",
+      "Redimensionamento proporcional de brasões infantis para fraldas e toalhinhas",
+      "Prevenção de quebra de agulhas e acúmulo de pontos em desenhos miniaturizados"
+    ],
+    "commonErrors": [
+      "❌ Redimensionar arquivos já convertidos (.DST ou .PES) diretamente na tela da máquina em mais de 20%, sem recálculo de pontos, deixando o bordado duro como pedra ou ralo como peneira",
+      "❌ Aumentar uma matriz em 300% sem o recálculo inteligente, fazendo as colunas de ponto cheio ficarem com fios soltos de mais de 10 mm"
+    ],
+    "troubleshootingTips": [
+      "Se a matriz reduzida estiver quebrando agulha: Abra o arquivo original vetorial (.EMB ou .ART) no software, ative a opção 'Recalcular Pontos / Auto-Density' e redimensione antes de exportar para a máquina",
+      "Se a matriz ampliada ficou rala: Certifique-se de que a densidade do Tatami foi recalculada para 0.40 mm no tamanho novo"
+    ],
+    "dicaArtrelados": "Nunca aumente nem diminua matrizes na tela da máquina de bordar em mais de 10%! Para mudanças maiores de tamanho, use sempre o software no computador abrindo o arquivo matriz e ativando o recálculo automático de pontos!",
+    "voceSabia": "Um desenho de 10.000 pontos reduzido para a metade do tamanho sem compensação dinâmica terá a densidade de uma lixa de madeira e poderá quebrar até 3 agulhas nos primeiros minutos!",
+    "practicalExercise": "No seu software, redimensione um círculo de ponto cheio de 10 cm para 3 cm com a opção 'Recalcular Pontos' ativada e observe a contagem total de pontos diminuir proporcionalmente na barra de status!",
+    "quickSummary": "Recálculo inteligente que adiciona ou remove pontos ao redimensionar matrizes, garantindo densidade e flexibilidade corretas.",
+    "relatedTerms": [
+      "Densidade de Ponto",
+      "Comprimento do Ponto",
+      "Conversão de Arquivo de Bordado",
+      "Ponto Curto Automático"
+    ],
+    "tags": [
+      "c-074",
+      "densidade dinamica",
+      "redimensionamento",
+      "escala",
+      "recalculo de pontos",
+      "wilcom",
+      "matriz",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM. EmbroideryStudio Technical Guide: Stitch Processing & Dynamic Resizing. Sydney, 2023.",
+      "KAHN, Max. Digitizing Masterclass for Commercial Embroidery. New York: Textile Press, 2021."
+    ],
+    "updatedAt": "2026-08-24"
   }
 ];
+
 
