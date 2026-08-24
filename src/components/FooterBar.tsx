@@ -63,11 +63,6 @@ export const FooterBar: React.FC<FooterBarProps> = ({
               <span className="text-zinc-400">🏷️ ATELIÊ:</span>
               <span className="text-amber-400 font-extrabold">ARTRELADOS</span>
             </div>
-
-            <div className="px-3.5 py-1.5 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-200 font-bold text-xs flex items-center space-x-1.5">
-              <BookmarkCheck className="w-4 h-4 text-amber-400" />
-              <span>Verbetes Cadastrados: <strong className="text-amber-300 font-black">{stats.totalTerms}</strong></span>
-            </div>
           </div>
 
           {/* Action Tools */}
@@ -81,26 +76,20 @@ export const FooterBar: React.FC<FooterBarProps> = ({
               <BookMarked className="w-4 h-4 text-amber-400" />
               <span>📚 Referências & Fontes ({references.length})</span>
             </button>
-
-            {onResetFilters && (
-              <button
-                onClick={onResetFilters}
-                className="px-4 py-2 rounded-xl bg-zinc-900 hover:bg-zinc-800 text-zinc-200 font-bold text-xs flex items-center space-x-1.5 shadow transition cursor-pointer border border-zinc-800 hover:text-white"
-                title="Limpar todos os filtros do dicionário"
-              >
-                <RotateCcw className="w-4 h-4 text-amber-400" />
-                <span>Zerar Filtros</span>
-              </button>
-            )}
           </div>
         </div>
 
-        {/* Footer Copyright & Credits */}
-        <div className="text-center space-y-2 text-xs text-zinc-400 pt-2 border-t border-zinc-900">
-          <p className="font-medium text-zinc-300">
-            Dicionário de Bordados Artrelados (DIBE) &copy; {new Date().getFullYear()} — Acervo Técnico de Bordado Eletrônico
+        {/* Footer Copyright, Legal Notice & Credits */}
+        <div className="text-center space-y-3 text-xs text-zinc-400 pt-6 border-t border-zinc-900">
+          <p className="font-bold text-sm text-amber-400">
+            &copy; {new Date().getFullYear()} DIBE – Dicionário de Bordados Eletrônicos · Artrelados
           </p>
-          <div className="flex flex-wrap items-center justify-center gap-2 max-w-2xl mx-auto text-zinc-400 text-[11px]">
+
+          <p className="max-w-3xl mx-auto text-zinc-400 text-[11px] leading-relaxed">
+            Obra autoral, técnica e educacional desenvolvida para capacitação e padronização da comunidade de bordado computadorizado. As marcas comerciais, softwares e fabricantes citados pertencem aos seus respectivos titulares e são referenciados com finalidade estritamente didática, informativa e de compatibilidade técnica (Uso Nominal / Fair Use).
+          </p>
+
+          <div className="flex flex-wrap items-center justify-center gap-2 max-w-2xl mx-auto text-zinc-400 text-[11px] pt-1">
             <span>Consultoria técnica desenvolvida por <strong className="text-amber-400 font-bold">Janete MC Silva</strong> (Artrelados).</span>
             <span className="text-zinc-600">•</span>
             <a
