@@ -10,6 +10,7 @@ import { VERBETES_LETTER_F_PART8 } from "./verbetesLetterF8";
 import { VERBETES_LETTER_F_PART9 } from "./verbetesLetterF9";
 import { VERBETES_LETTER_F_PART10 } from "./verbetesLetterF10";
 import { VERBETES_LETTER_F_PART11 } from "./verbetesLetterF11";
+import { VERBETES_LETTER_F_PART12 } from "./verbetesLetterF12";
 
 export const VERBETES_LETTER_F: Verbete[] = [
   ...VERBETES_LETTER_F_PART1,
@@ -23,5 +24,6 @@ export const VERBETES_LETTER_F: Verbete[] = [
   ...VERBETES_LETTER_F_PART9,
   ...VERBETES_LETTER_F_PART10,
   ...VERBETES_LETTER_F_PART11,
+  ...VERBETES_LETTER_F_PART12,
 ];
 

@@ -4599,6 +4599,529 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "DEVERSON, B. Clean-Back Machine Techniques and Heirloom Finishing. London, 2021."
     ],
     "updatedAt": "2026-08-22"
+  },
+  {
+    "id": "d-067-desbobinador-conico-rede-contencao-linha",
+    "code": "D-067",
+    "term": "Desbobinador Cônico e Rede de Contenção de Linha (Thread Net & Cone Unwinder Sock)",
+    "level": "Iniciante 🟢",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Acessórios e Insumos",
+    "origin": "Do desenvolvimento de redes elásticas tubulares de poliamida na indústria têxtil para controlar o desbobinamento de fios sintéticos escorregadios e filamentos metálicos.",
+    "summary": "Redinha elástica protetora colocada sobre cones de linha de bordar para evitar que o fio despenque, forme laços soltos na base e quebre por atrito na máquina.",
+    "definition": "O Desbobinador Cônico e Rede de Contenção de Linha (Thread Netting / Spool Sock) é um acessório têxtil em malha tubular flexível que envolve o cone de linha de poliéster, viscose, fio metálico ou multifilamento, aplicando uma leve pressão perimétrica que impede que os enrolamentos de linha escorreguem para a base do cone (efeito cascata) antes de serem puxados pelo guia-fio superior.",
+    "technicalDetails": "Essencial para cones do tipo King Spool (1.000m a 5.000m) e carretéis cruzados (Cross-Wound), mantendo o ângulo de saída vertical constante e eliminando variações repentinas no tensor superior que causam franzimento ou quebra.",
+    "beginnerExplanation": "É aquela 'meinha' ou redinha furadinha que a gente veste no cone de linha de bordar. Ela serve para a linha não escorregar toda para o chão ou ficar caindo no pé do cone, evitando que a linha dê nós e arrebente a agulha.",
+    "howItWorks": [
+      "1. A bordadeira veste a rede de contenção no cone de linha de baixo para cima.",
+      "2. Puxa a ponta da linha pelo topo aberto da redinha até o mastro guia-fio.",
+      "3. A rede exerce uma contenção suave enquanto o cone gira ou desbobina estático.",
+      "4. Fios escorregadios (como linha dourada metálica ou trilobal 100% poliéster) saem sem criar laçadas caídas.",
+      "5. A máquina borda em velocidade máxima sem paradas por travamento de cone."
+    ],
+    "applications": [
+      "Uso indispensável com fios metálicos (dourado, prateado e furta-cor)",
+      "Cones grandes de 4.000m ou 5.000m de poliéster em máquinas domésticas e industriais",
+      "Linhas finas de viscose ou fios de alta torção que enrolam no próprio eixo"
+    ],
+    "commonErrors": [
+      "❌ Apertar a rede em excesso no topo do cone, travando a passagem da linha e aumentando a tensão a ponto de arrebentar o fio.",
+      "❌ Deixar o cone de fio metálico solto sem rede, permitindo que a linha caia e se enrole no pino suporte do carretel.",
+      "❌ Usar pedaços de rede rasgados que enroscam na linha durante o bordado."
+    ],
+    "troubleshootingTips": [
+      "Se a linha estiver arrebentando a cada 2 minutos com fio metálico: Vista a redinha cobrindo do meio para baixo do cone e diminua a velocidade da máquina para 500 PPM.",
+      "Se a linha estiver saindo muito dura da redinha: Corte a redinha na metade do comprimento para reduzir a pressão elástica."
+    ],
+    "recommendedSettings": {
+      "density": "N/A",
+      "needleType": "Topstitch 90/14 ou Metallic Needle 80/12",
+      "stabilizer": "Adequada ao tecido",
+      "speedPPM": "500 a 700 PPM para fios metálicos com rede"
+    },
+    "dicaArtrelados": "Ao bordar com linha metálica dourada ou prateada, vista a redinha cobrindo todo o cone e passe uma gota de silicone líquido têxtil na rede! A linha deslizará como seda, sem arrebentar nenhuma vez!",
+    "voceSabia": "A maioria dos fabricantes de máquinas multiagulhas e linhas premium (como Madeira e Gutermann) inclui pacotes de redes de contenção originais na caixa de acessórios básicos da máquina.",
+    "practicalExercise": "Pegue um cone de linha metálica e puxe a ponta sem a rede: repare como a linha cai e se enrola. Agora coloque a rede de contenção e puxe novamente: veja como o fio sai perfeitamente alinhado e controlado!",
+    "quickSummary": "Rede elástica tubular colocada sobre o cone de linha para evitar o desmoronamento e enrosco de fios escorregadios e metálicos.",
+    "relatedTerms": [
+      "Carretel de Linha",
+      "Desbobinamento de Linha e Sentido do Fio",
+      "Ajuste de Tensão da Linha",
+      "Cera e Lubrificante de Linha / Óleo de Silicone Líquido"
+    ],
+    "tags": [
+      "d-067",
+      "redinha",
+      "rede de contencao",
+      "cone de linha",
+      "fio metalico",
+      "desbobinador",
+      "acessorios",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "SUPERIOR THREADS. Thread Delivery Systems: Cone Unwinding & Thread Net Guidelines. St. George, 2022.",
+      "MADEIRA. Metallic Embroidery Thread Handling & Spool Net Application. Freiburg, 2021."
+    ],
+    "updatedAt": "2026-08-24"
+  },
+  {
+    "id": "d-068-deslocamento-gradual-ponto-angulo-curvatura",
+    "code": "D-068",
+    "term": "Deslocamento Gradual de Ponto em Ângulo / Curvatura de Ponto (Stitch Angle Shifting & Wave Effect)",
+    "level": "Avançado 🔴",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Programação de Bordado",
+    "origin": "Do desenvolvimento de ferramentas de preenchimento inteligente de contorno complexo com linhas de direção múltiplas nos softwares Wilcom ES e Compucon.",
+    "summary": "Técnica de programação que faz a direção dos pontos girar suavemente acompanhando a anatomia do desenho, criando reflexos de luz e movimento natural no fio.",
+    "definition": "O Deslocamento Gradual de Ponto em Ângulo (Curved Stitch Angles / Flowing Stitch Direction) é o método avançado de digitalização de matrizes em que múltiplos ângulos de inclinação são distribuídos ao longo de um objeto sinuoso (como uma fita ondulada, corpo de animal, folha ou pétala de rosa), fazendo com que cada ponto siga a curvatura orgânica da forma em vez de manter uma direção fixa e estática.",
+    "technicalDetails": "Permite criar o efeito de gradiente óptico de brilho (Sheen Gradient), já que o filamento de poliéster reflete a luz ambiente de acordo com o ângulo em que está assentado sobre o tecido.",
+    "beginnerExplanation": "Em vez de bordar tudo reto na mesma direção, os pontos vão fazendo a curva do desenho devagarzinho, como se fossem a pintura de um pincel. Quando a luz bate no bordado, a linha brilha e parece que o desenho está vivo e em movimento!",
+    "howItWorks": [
+      "1. O programador cria o contorno do objeto no software de matrizes.",
+      "2. Em vez de definir apenas um ângulo global, adiciona várias 'linhas de direção de ponto' ao longo da curva.",
+      "3. O software interpola matematicamente a transição angular entre cada linha guia.",
+      "4. A máquina executa os pontos girando fração por fração de grau a cada batida de agulha.",
+      "5. O resultado é um preenchimento curvo perfeito, anatômico e sem cantos duros."
+    ],
+    "applications": [
+      "Pétalas de flores, folhas, ramos e arabescos clássicos",
+      "Cabelos, pelos de animais e penas de pássaros com aspecto hiper-realista",
+      "Fitas decorativas, laços, bandeiras ondulantes e letras cursivas grossas"
+    ],
+    "commonErrors": [
+      "❌ Colocar linhas de ângulo muito próximas e em direções opostas repentinas, criando um ponto de cruzamento que forma um 'caroço' duro na matriz.",
+      "❌ Não ativar a compensação de repuxo adequada para objetos curvos, deixando frestas de tecido aparecendo nas dobras da curva."
+    ],
+    "troubleshootingTips": [
+      "Se a linha estiver amontoando no lado interno da curva: Ative a opção 'Pontos Curtos Automáticos' (Auto Short Stitch) no menu do software para desbastar o raio interno.",
+      "Se a curvatura parecer serrilhada: Aumente a quantidade de linhas de direção intermediárias para suavizar a transição angular."
+    ],
+    "recommendedSettings": {
+      "density": "0.40 mm a 0.42 mm",
+      "needleType": "75/11 Ponta Bola",
+      "stabilizer": "Entretela Rasga-Fácil 80g",
+      "speedPPM": "650 a 800 PPM"
+    },
+    "dicaArtrelados": "Ao criar folhas e pétalas, nunca use um único ângulo reto de 45°! Adicione 3 linhas de ângulo acompanhando a nervura central da folha. A diferença de brilho e realismo no bordado pronto é simplesmente profissional!",
+    "voceSabia": "O brilho característico das linhas de bordado de poliéster trilobal ocorre porque cada filamento tem seção transversal triangular, funcionando como pequenos prismas que refletem a luz de acordo com o ângulo do ponto!",
+    "practicalExercise": "No seu software, desenhe uma letra 'S' em ponto cheio com ângulo único de 90° e outra letra 'S' com ângulos curvos acompanhando a letra. Borde as duas lado a lado e compare o brilho sob a luz do ateliê!",
+    "quickSummary": "Distribuição de ângulos variáveis que acompanham as curvas do desenho, criando reflexos de luz naturais e acabamento orgânico.",
+    "relatedTerms": [
+      "Ângulo de Ponto (Stitch Angle)",
+      "Curva Bézier na Digitalização",
+      "Ponto Cheio (Satin)",
+      "Brilho da Linha de Bordado"
+    ],
+    "tags": [
+      "d-068",
+      "angulo curvo",
+      "curvatura de ponto",
+      "brilho",
+      "realismo",
+      "wilcom",
+      "matriz",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM. Stitch Angles and Flowing Curves Mastery Guide. Sydney, 2023.",
+      "KAHN, Max. Digitizing Masterclass for Commercial Embroidery. New York: Textile Press, 2021."
+    ],
+    "updatedAt": "2026-08-24"
+  },
+  {
+    "id": "d-069-desativacao-ponto-curto-curvas-fechadas",
+    "code": "D-069",
+    "term": "Desativação de Ponto Curto em Curvas Fechadas (Short Stitch Inactivation in Acute Curves)",
+    "level": "Avançado 🔴",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Programação de Bordado",
+    "origin": "Do controle de parâmetros algorítmicos em digitalização avançada para gestão de furos na chapa e cortes de tecido em bordados finos.",
+    "summary": "Configuração no software que desabilita ou recalcula a filtragem de micropontos em curvas muito estreitas para preservar a cobertura total sem perfurar o tecido.",
+    "definition": "A Desativação ou Calibração de Ponto Curto em Curvas Fechadas (Short Stitch Control / Custom Corner Stitch Filter) é o ajuste técnico nos parâmetros de preenchimento em ponto cheio (Satin) que define se o software deve ou não suprimir alternadamente os pontos internos de uma curva acentuada. Quando desativado ou calibrado com precisão, garante que áreas delicadas (como pontas de folhas ou cantos de letras góticas) mantenham o contorno nítido sem criar buracos no tecido por perfuração repetida.",
+    "technicalDetails": "Por padrão, o filtro de pontos curtos remove até 50% dos pontos no raio interno de uma curva para evitar acúmulo. No entanto, em linhas muito finas (menores que 1.5 mm), essa filtragem pode deixar o tecido exposto, exigindo a desativação manual ou redução da porcentagem de filtragem para 20%.",
+    "beginnerExplanation": "Quando a máquina faz uma curva bem fechadinha, ela pode dar muitas agulhadas no mesmo buraquinho e rasgar o tecido. Esse ajuste no computador decide se a máquina pula alguns pontinhos por dentro da curva para não furar o pano, mantendo o desenho bonito e seguro.",
+    "howItWorks": [
+      "1. O programador identifica um objeto com curvas fechadas ou cantos agudos na matriz.",
+      "2. Acessa as propriedades do objeto na aba 'Pontos Curtos / Short Stitches'.",
+      "3. Avalia a largura da coluna: se for muito estreita, reduz o comprimento mínimo do filtro.",
+      "4. Define se o ponto curto será alternado em 1:1, 1:2 ou desativado para aquele segmento específico.",
+      "5. O software gera a distribuição perfeita de furos na chapa de agulha sem picotar o tecido.",
+      "6. A peça borda com contorno liso e sem rasgos na borda."
+    ],
+    "applications": [
+      "Letras pequenas com serifas ou detalhes góticos pontiagudos",
+      "Contornos de olhos, bicos e detalhes em bordados realistas miniaturizados",
+      "Bordados em tecidos delicados que picotam fácil (seda, cetim, organza e malha fina)"
+    ],
+    "commonErrors": [
+      "❌ Deixar o filtro padrão de ponto curto ativado em colunas finas de 1 mm, resultando em pontas desdentadas e tecido aparente.",
+      "❌ Desativar o filtro em colunas largas e pesadas de 6 mm, gerando acúmulo de linha e quebra de agulha no vértice interno."
+    ],
+    "troubleshootingTips": [
+      "Se a curva fechada da letra estiver abrindo um buraco no tecido: Ative o ponto curto em nível alto (40%) e diminua a densidade do objeto.",
+      "Se a ponta da letra estiver parecendo 'mordida' ou rala: Reduza o filtro de ponto curto para 15% ou desative-o apenas naquele objeto fino."
+    ],
+    "recommendedSettings": {
+      "density": "0.38 mm a 0.40 mm",
+      "needleType": "65/9 ou 75/11 Ponta Aguda Microtex",
+      "stabilizer": "Entretela Rasga-Fácil de boa sustentação",
+      "speedPPM": "600 PPM em detalhes pequenos"
+    },
+    "dicaArtrelados": "Em fontes pequenas (menores que 8 mm de altura), configure a compensação de canto para 'Canto Inteligente' (Smart Corner) e ajuste o ponto curto para 20%! Suas letrinhas ficarão nítidas e com as pontas perfeitamente desenhadas!",
+    "voceSabia": "Sem o recurso de ponto curto, uma curva fechada de 90 graus em ponto cheio chegaria a concentrar até 12 perfurações de agulha em um espaço de apenas meio milímetro, cortando o tecido como se fosse uma tesoura!",
+    "practicalExercise": "Programe um triângulo pontiagudo com ponto curto 0% e outro com ponto curto 50%. Aplique o simulador de pontos na tela com zoom máximo e veja como o segundo distribui os furos suavemente ao longo do canto!",
+    "quickSummary": "Controle algorítmico no software que gerencia a quantidade de pontos no interior de curvas fechadas para evitar rasgos no tecido.",
+    "relatedTerms": [
+      "Compensação de Fração de Ponto e Ponto Curto Automático",
+      "Cantos Vivos e Esquadro de Ponto",
+      "Ponto Cheio (Satin)",
+      "Densidade de Pontos"
+    ],
+    "tags": [
+      "d-069",
+      "ponto curto",
+      "curvas fechadas",
+      "filtragem",
+      "letras pequenas",
+      "wilcom",
+      "matriz",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM. Advanced Digitizing: Corner Stitching and Short Stitch Filtering. Sydney, 2022.",
+      "DEVEREUX, Keith. The Science of Stitch Structure and Needle Penetration. Nottingham, 2021."
+    ],
+    "updatedAt": "2026-08-24"
+  },
+  {
+    "id": "d-070-densidade-progressiva-sombra-relevo-optico",
+    "code": "D-070",
+    "term": "Densidade Progressiva para Sombra e Relevo Óptico (Progressive Shading Density)",
+    "level": "Avançado 🔴",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Programação de Bordado",
+    "origin": "Da fusão da técnica de pintura de agulha (Thread Painting) com o controle paramétrico de densidade gradiente nos softwares modernos de matrizes.",
+    "summary": "Técnica de programação onde a densidade varia gradualmente de fechada para aberta no mesmo objeto, criando transição de cor, luz, sombra e volume 3D.",
+    "definition": "A Densidade Progressiva para Sombra e Relevo Óptico (Gradient Density / Variable Stitch Pitch) é a técnica de digitalização que programa um único objeto de preenchimento (Tatami ou Satin) com espaçamento de pontos dinâmico, variando suavemente de uma área densa e compacta (ex: 0.35 mm) até uma área rarefeita e translúcida (ex: 1.20 mm ou 2.0 mm). Essa variação permite misturar duas cores sobrepostas ou deixar o tecido de fundo transparecer, criando efeitos de luz, sombra e volume tridimensional sem cortes de linha.",
+    "technicalDetails": "Permite curvas de aceleração linear, exponencial ou senoidal na distribuição de pontos, sendo fundamental para bordados realistas (animais, rostos, paisagens e frutas) e efeitos de metal polido.",
+    "beginnerExplanation": "É como fazer um sombreado no desenho usando lápis de cor: você aperta forte de um lado e vai soltando a mão devagarzinho para clarear. No bordado, a máquina dá muitos pontinhos juntos onde é escuro e vai afastando os pontos onde é claro, criando uma pintura linda com relevo!",
+    "howItWorks": [
+      "1. O programador cria o primeiro objeto de base com densidade progressiva (ex: escuro embaixo clareando para cima).",
+      "2. Cria um segundo objeto sobreposto com cor mais clara e densidade invertida (aberto embaixo fechando em cima).",
+      "3. Os pontos das duas cores se intercalam perfeitamente no meio do caminho.",
+      "4. A máquina borda primeiro a cor escura e depois a clara com o mesmo ângulo de ponto.",
+      "5. A fusão das duas cores cria um degradê contínuo e sem emendas marcadas."
+    ],
+    "applications": [
+      "Bordados realistas de rostos humanos, pelagem de animais e plumagem de aves",
+      "Efeitos de brilho metálico em letras douradas, prata e bronze",
+      "Pétalas de flores com transição suave do miolo para as bordas",
+      "Logotipos modernos com estética de gradiente de cor"
+    ],
+    "commonErrors": [
+      "❌ Usar ângulos de ponto diferentes nas camadas sobrepostas de degradê, quebrando a harmonia da mistura de fios.",
+      "❌ Programar a transição com início muito brusco, criando uma linha de corte visível em vez de uma sombra suave.",
+      "❌ Deixar a camada de cima com densidade muito pesada, cobrindo totalmente a cor de baixo."
+    ],
+    "troubleshootingTips": [
+      "Se o degradê ficou com uma faixa dura no meio: Aumente o comprimento da zona de transição no software e use o perfil de gradiente senoidal (suave).",
+      "Se o tecido de fundo estiver aparecendo onde não deveria: Coloque uma camada prévia de tatami leve de suporte sob a área antes de iniciar o sombreado."
+    ],
+    "recommendedSettings": {
+      "density": "Variação de 0.35 mm a 1.50 mm no mesmo objeto",
+      "needleType": "75/11 Ponta Bola ou Microtex 70/10",
+      "stabilizer": "Entretela Rasga-Fácil dupla ou Malha Estável",
+      "speedPPM": "600 a 750 PPM"
+    },
+    "dicaArtrelados": "Para fazer efeito de ouro envelhecido ou brilho 3D em letras de brasão: programe a base com linha marrom em densidade progressiva de 0.40 mm a 1.0 mm e cubra com linha dourada em densidade invertida. O resultado parece joia reluzente!",
+    "voceSabia": "A técnica de densidade progressiva foi desenvolvida originalmente no Japão para reproduzir a milenar técnica de bordado manual 'Nihon Shishu' em máquinas computadorizadas Tajima e Barudan.",
+    "practicalExercise": "Crie um quadrado no software com preenchimento tatami e ative o efeito 'Gradiente de Densidade' variando de 0.35 mm na esquerda até 1.20 mm na direita. Borde em linha vermelha sobre tecido branco e veja o lindo degradê surgir!",
+    "quickSummary": "Variação programada no espaçamento de pontos que cria sombras, luz e fusão de cores para efeito realista e tridimensional.",
+    "relatedTerms": [
+      "Degradê de Pontos / Ponto Sombreado",
+      "Densidade de Pontos",
+      "Pintura de Agulha (Thread Painting)",
+      "Ponto Tatami"
+    ],
+    "tags": [
+      "d-070",
+      "densidade progressiva",
+      "sombreado",
+      "degrade",
+      "realismo",
+      "relevo optico",
+      "wilcom",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM. Color Blending and Gradient Stitching Manual. Sydney, 2023.",
+      "GORDON, Jill. Machine Embroidery: The Art of Realistic Shading. London, 2021."
+    ],
+    "updatedAt": "2026-08-24"
+  },
+  {
+    "id": "d-071-dreno-eletricidade-estatica-maquinas-bordar",
+    "code": "D-071",
+    "term": "Dreno de Eletricidade Estática em Máquinas de Bordar (Static Electricity Grounding & Discharge)",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Manutenção e Cuidados",
+    "origin": "Da eletrotécnica aplicada a equipamentos industriais automatizados para proteção de placas eletrônicas e microprocessadores contra descargas eletrostáticas (ESD).",
+    "summary": "Sistema e procedimentos de aterramento elétrico para dissipar cargas estáticas geradas pelo atrito de linhas de poliéster e tecidos sintéticos em alta velocidade.",
+    "definition": "O Dreno de Eletricidade Estática (ESD Protection & Machine Grounding) é o conjunto de medidas técnicas de aterramento e descarga eletrostática na carcaça, chapa de agulha e mastro guia-fio da máquina de bordar. O atrito constante de linhas 100% poliéster e tecidos sintéticos (como tactel, microfibra e nylon) em ambientes secos com ar-condicionado gera milhares de volts de eletricidade estática que podem causar travamentos no painel LCD, descalibração do pantógrafo ou queima de sensores ópticos.",
+    "technicalDetails": "Requer tomada com aterramento padrão (fio terra com resistência inferior a 5 ohms), controle de umidade relativa do ar no ateliê entre 45% e 60% e fios de cobre ou escovas de descarga estática nos suportes de cone em linhas de alta produção.",
+    "beginnerExplanation": "Quando você borda muito rápido com linha de poliéster em dia seco ou no ar-condicionado, a linha gera choque de eletricidade estática. Se a máquina não tiver um bom fio terra, esse choque pode fazer a tela digital piscar, travar no meio do bordado ou queimar uma plaquinha cara da máquina.",
+    "howItWorks": [
+      "1. Durante o bordado em alta rotação (800 PPM), o atrito do fio de poliéster nos tensores gera cargas elétricas estáticas.",
+      "2. As cargas acumulam na carcaça metálica e no pantógrafo da máquina.",
+      "3. O sistema de aterramento conduz com segurança essa eletricidade para o solo pelo pino terra da tomada.",
+      "4. Se o ateliê estiver muito seco, o uso de umidificador de ar ou spray antiestático no suporte de linhas neutraliza as cargas.",
+      "5. A eletrônica da máquina opera com estabilidade total e sem bugs ou reinicializações involuntárias."
+    ],
+    "applications": [
+      "Ateliês e fábricas climatizadas com ar-condicionado contínuo e clima seco",
+      "Bordados em larga escala em tecidos sintéticos (tactel, oxford, nylon e soft)",
+      "Proteção de máquinas modernas com telas touchscreen e conexão Wi-Fi"
+    ],
+    "commonErrors": [
+      "❌ Quebrar ou remover o terceiro pino (pino terra) do plugue da máquina para usar em tomadas antigas de dois furos.",
+      "❌ Ligar a máquina de bordar na mesma extensão ou régua de ferro de passar roupa a vapor, causando ruído e surtos elétricos.",
+      "❌ Deixar o ateliê com umidade abaixo de 30%, aumentando as faíscas estáticas."
+    ],
+    "troubleshootingTips": [
+      "Se a tela da máquina piscar ou reiniciar sozinha quando você toca no bastidor: Desligue imediatamente e providencie a instalação de uma tomada com aterramento verdadeiro com eletricista.",
+      "Se você estiver levando pequenos choques ao tocar na máquina: Coloque um tapete de borracha antiestático no chão onde a operadora trabalha e use umidificador de ambiente."
+    ],
+    "recommendedSettings": {
+      "density": "N/A",
+      "needleType": "N/A",
+      "stabilizer": "N/A",
+      "speedPPM": "Velocidade padrão com aterramento ativo"
+    },
+    "dicaArtrelados": "Nunca corte o pino terra da sua máquina de bordar! A placa mãe e o visor touch custam caro para consertar. Um bom aterramento elétrico no ateliê garante que sua máquina dure muitos anos sem dar nenhum susto nem queimar à toa!",
+    "voceSabia": "O simples movimento de desenrolar 1.000 metros de linha de poliéster em alta velocidade pode gerar uma carga estática de mais de 10.000 volts, suficiente para danificar circuitos integrados de microprocessadores!",
+    "practicalExercise": "Verifique a tomada onde sua máquina está ligada. Certifique-se de que o plugue tem os 3 pinos originais e teste se a tomada possui aterramento real com um testador de tomadas simples.",
+    "quickSummary": "Procedimentos e aterramento elétrico para eliminar cargas estáticas geradas pelo atrito de linhas sintéticas e proteger a eletrônica da máquina.",
+    "relatedTerms": [
+      "Operação da Máquina",
+      "Manutenção Preventiva",
+      "Carcaça da Máquina de Bordado",
+      "Controle de Velocidade"
+    ],
+    "tags": [
+      "d-071",
+      "eletricidade estatica",
+      "aterramento",
+      "dreno estatico",
+      "protecao eletrica",
+      "manutencao",
+      "seguranca",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA. Technical Maintenance Guide: Electrical Grounding and ESD Protection. Nagoya, 2022.",
+      "BROTHER. Safety and Power Installation Standards for Embroidery Machines. Nagoya, 2021."
+    ],
+    "updatedAt": "2026-08-24"
+  },
+  {
+    "id": "d-072-duplicacao-contorno-compensacao-sobreposicao",
+    "code": "D-072",
+    "term": "Duplicação de Contorno com Compensação de Sobreposição (Contour Duplication with Overlap Compensation)",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Programação de Bordado",
+    "origin": "Das regras fundamentais de engenharia de digitalização de matrizes para evitar frestas e deslocamentos de registro entre preenchimento e contorno final.",
+    "summary": "Técnica de matriz que cria uma margem de segurança e sobreposição calculada entre o preenchimento de fundo e o contorno externo para que eles nunca se desencontrem.",
+    "definition": "A Duplicação de Contorno com Compensação de Sobreposição (Overlap Border Compensation / Registration Trapping) é o procedimento técnico executado no software de bordado em que o contorno de um objeto preenchido é ligeiramente expandido para dentro da área de preenchimento (sobreposição de 0.8 mm a 1.2 mm). Isso assegura que, mesmo com a tração mecânica do tecido durante a costura (repuxo), o contorno final de ponto cheio ou ponto cordão cubra perfeitamente a borda do desenho sem deixar fendas de tecido cru aparentes.",
+    "technicalDetails": "Diferencia-se da simples duplicata geométrica por aplicar compensação direcional de tração (Pull Compensation) apenas no eixo perpendicular à direção do ponto, alinhando a sequência de costura do centro para fora.",
+    "beginnerExplanation": "Sabe quando você borda um desenho e o contorno preto de fora fica torto, saindo do lugar e deixando um espaço em branco feio entre o desenho e o contorno? Essa técnica faz o contorno 'entrar' um milímetrozinho para dentro da cor de fundo, garantindo que o encaixe fique sempre perfeito, mesmo que o tecido puxe um pouco!",
+    "howItWorks": [
+      "1. O programador cria o objeto de preenchimento de fundo (ex: círculo vermelho em tatami).",
+      "2. Duplica a forma vetorial para gerar o contorno de acabamento (ex: ponto cheio preto).",
+      "3. Aplica uma sobreposição para dentro de 1.0 mm (Overlap/Trapping).",
+      "4. Adiciona ponto de suporte (underlay) no preenchimento para firmar o tecido na entretela.",
+      "5. Programa a ordem de costura para bordar o fundo primeiro e o contorno logo em seguida.",
+      "6. Na máquina, o contorno fecha perfeitamente colado ao desenho, sem frestas."
+    ],
+    "applications": [
+      "Emblemas, brasões e logotipos corporativos com contornos contrastantes",
+      "Personagens infantis e desenhos animados com traços pretos externos fortes",
+      "Bordados em tecidos elásticos (malha, pique, moletom e lycra)"
+    ],
+    "commonErrors": [
+      "❌ Desenhar o contorno encostando exatamente na borda teórica do desenho (sem sobreposição), fazendo o repuxo abrir uma fresta branca entre o fundo e a borda.",
+      "❌ Fazer sobreposição excessiva de mais de 2.5 mm, criando uma faixa dura e grossa no encontro dos pontos."
+    ],
+    "troubleshootingTips": [
+      "Se o contorno estiver saindo fora do lugar no lado direito: Aumente a sobreposição para 1.2 mm e aumente a compensação de repuxo do preenchimento no software.",
+      "Se o contorno estiver quebrando linha ao passar por cima do fundo: Reduza a densidade do preenchimento nas bordas ou mude o underlay de tatami para traço simples."
+    ],
+    "recommendedSettings": {
+      "density": "Contorno em Satin 0.40 mm com sobreposição de 1.0 mm",
+      "needleType": "75/11 Ponta Bola",
+      "stabilizer": "Entretela Rasga-Fácil 80g ou Entretela de Malha",
+      "speedPPM": "700 a 800 PPM"
+    },
+    "dicaArtrelados": "Regra de ouro do ateliê Artrelados: NUNCA faça contorno de bordado encostando na beiradinha exata! Deixe sempre 1 milímetro de preenchimento passando por baixo do contorno. É o segredo para ter matrizes perfeitas que nunca saem do registro!",
+    "voceSabia": "Na indústria gráfica de impressão offset, esse mesmo conceito de sobreposição preventiva para evitar frestas brancas entre cores é chamado de 'Trapping' (armadilha de cores).",
+    "practicalExercise": "No seu software, desenhe um quadrado azul e coloque um contorno preto de 2 mm de largura com 1 mm de sobreposição para dentro. Borde em um pedaço de malha e veja como o encaixe fica 100% perfeito e sem nenhuma folga!",
+    "quickSummary": "Técnica de matriz que cria uma margem de sobreposição entre o fundo e o contorno para evitar frestas e desalinhamento causados pelo repuxo do tecido.",
+    "relatedTerms": [
+      "Alinhamento de Contorno (Registration Alignment)",
+      "Compensação de Puxão (Pull Compensation)",
+      "Contorno de Bordado",
+      "Ponto Cheio (Satin)"
+    ],
+    "tags": [
+      "d-072",
+      "contorno",
+      "sobreposicao",
+      "registro",
+      "trapping",
+      "alinhamento",
+      "matriz",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM. EmbroideryStudio: Outlines, Borders and Overlap Compensation Guide. Sydney, 2023.",
+      "KAHN, Max. Commercial Embroidery Fundamentals. New York: Textile Press, 2021."
+    ],
+    "updatedAt": "2026-08-24"
+  },
+  {
+    "id": "d-073-desencaixe-encaixe-rapido-bastidor-trava-magnetica",
+    "code": "D-073",
+    "term": "Desencaixe e Encaixe Rápido de Bastidor / Trava Magnética (Quick-Release Hoop Clamping System)",
+    "level": "Iniciante 🟢",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Equipamentos e Máquinas",
+    "origin": "Do desenvolvimento de sistemas ergonômicos de fixação rápida e bastidores magnéticos de neodímio para alta produtividade em confecções e ateliês modernos.",
+    "summary": "Mecanismo de engate rápido e bastidores magnéticos que travam o tecido no bastidor instantaneamente com ímãs sem necessidade de parafusos manuais.",
+    "definition": "O Desencaixe e Encaixe Rápido de Bastidor com Trava Magnética (Magnetic Quick-Release Hoop System) é a tecnologia de fixação que substitui os tradicionais anéis plásticos com parafuso de aperto manual por aros dotados de potentes ímãs industriais de neodímio. O sistema permite posicionar, travar e retirar tecidos finos, toalhas grossas ou peças já costuradas em segundos, eliminando o cansaço dos punhos da bordadeira e prevenindo marcas de esmagamento (marcas de bastidor) nos tecidos delicados.",
+    "technicalDetails": "Proporciona pressão perimétrica homogênea e autorregulável que se adapta automaticamente a qualquer espessura de material (de 0.2 mm a 8.0 mm) sem exigir ajustes mecânicos de parafusos.",
+    "beginnerExplanation": "É um bastidor moderno que fecha com ímãs super fortes em vez de você ter que ficar apertando parafuso com a mão até doer os dedos. Você coloca a entretela, o tecido em cima e encosta o aro de cima: ele gruda na hora, não marca a toalha e você tira num clique rápido!",
+    "howItWorks": [
+      "1. A bordadeira apoia a base inferior do bastidor magnético na bancada com a entretela.",
+      "2. Posiciona a peça a ser bordada (ex: camiseta ou toalha) sobre a base.",
+      "3. Aproxima o aro superior magnético, que é atraído e trava instantaneamente o tecido com pressão uniforme.",
+      "4. Encaixa o bastidor no suporte do pantógrafo da máquina através da trava de engate rápido.",
+      "5. Borda a matriz com total estabilidade e sem folgas.",
+      "6. Ao terminar, puxa a alça de desencaixe rápido e libera a peça pronta em um segundo."
+    ],
+    "applications": [
+      "Produção de grande escala de uniformes, camisas polo e camisetas",
+      "Peças delicadas que marcam fácil (veludo, camurça, cetim e couro sintético)",
+      "Toalhas felpudas grossas e peças com zíper ou botões próximos à borda do bastidor",
+      "Ergonomia para operadoras evitando tendinite e dores nas mãos"
+    ],
+    "commonErrors": [
+      "❌ Deixar os dedos entre os ímãs de neodímio durante o fechamento do bastidor, causando beliscões fortes.",
+      "❌ Aproximar cartões de crédito, relógios mecânicos ou pendrives dos ímãs de alta intensidade.",
+      "❌ Puxar o tecido após o fechamento magnético, desfiando a trama."
+    ],
+    "troubleshootingTips": [
+      "Se o tecido escorregar no bastidor magnético em bordados pesados: Use entretela adesiva ou coloque uma tira de entretela rasga-fácil dobrada nas bordas para aumentar a fricção.",
+      "Se o bastidor estiver difícil de soltar na bancada: Deslize o aro superior lateralmente em vez de puxar para cima reto."
+    ],
+    "recommendedSettings": {
+      "density": "N/A",
+      "needleType": "Adequada ao tecido",
+      "stabilizer": "Entretela Rasga-Fácil ou Hidrossolúvel",
+      "speedPPM": "Velocidade máxima suportada pela máquina"
+    },
+    "dicaArtrelados": "Os bastidores magnéticos são a salvação para bordar toalhas de veludo e camisas de linho! Eles nunca deixam aquele 'aro brilhante' de tecido esmagado que o bastidor tradicional com parafuso costuma deixar!",
+    "voceSabia": "Os ímãs de neodímio utilizados em bastidores magnéticos profissionais são compostos por uma liga de neodímio, ferro e boro (NdFeB), sendo os ímãs permanentes mais potentes já criados pela ciência moderna!",
+    "practicalExercise": "Experimente colocar uma toalha de banho bem grossa em um bastidor magnético e outra no bastidor comum de parafuso. Compare a rapidez do encaixe e veja como no magnético a toalha não fica deformada nem mastigada!",
+    "quickSummary": "Sistema de bastidores com ímãs de alta potência que prendem o tecido instantaneamente sem parafusos e sem marcar a peça.",
+    "relatedTerms": [
+      "Aro do Bastidor / Anel Interno e Externo",
+      "Clipe de Bastidor e Travas de Retenção de Tecido",
+      "Operação da Máquina",
+      "Marcas de Bastidor (Hoop Burn)"
+    ],
+    "tags": [
+      "d-073",
+      "bastidor magnetico",
+      "engate rapido",
+      "ima de neodimio",
+      "ergonomia",
+      "produtividade",
+      "acessorios",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "MIGHTY HOOP. Magnetic Hoop System Technical Specifications and Safety Manual. Minneapolis, 2023.",
+      "SEW TECH. Magnetic Quick-Release Embroidery Clamping Guidelines. Shenzhen, 2022."
+    ],
+    "updatedAt": "2026-08-24"
+  },
+  {
+    "id": "d-074-divisao-ponto-longo-ponto-dividido-automatico",
+    "code": "D-074",
+    "term": "Divisão de Ponto Longo e Ponto Dividido Automático (Auto-Split Long Stitches)",
+    "level": "Avançado 🔴",
+    "grammarClass": "Substantivo feminino composto.",
+    "category": "Programação de Bordado",
+    "origin": "Da evolução dos processadores de matrizes nos softwares de digitalização para respeitar o limite mecânico de amplitude da lançadeira e da agulha.",
+    "summary": "Recurso que divide automaticamente pontos cheios excessivamente largos em múltiplos pontos menores para evitar fios soltos que enroscam e quebram.",
+    "definition": "A Divisão de Ponto Longo (Auto-Split Satin / Split Stitch Function) é o algoritmo presente nos softwares de digitalização de bordado que fraciona automaticamente pontos cheios (Satin) cuja largura ultrapasse o limite de segurança estrutural (geralmente entre 7.0 mm e 9.0 mm). O software insere uma ou mais penetrações intermediárias de agulha com padrão alternado, impedindo que o fio fique frouxo, sem sustentação ou vulnerável a desfiamentos durante o uso e a lavagem da peça.",
+    "technicalDetails": "Permite configurar o comprimento máximo de ponto (ex: limite de 7.5 mm) e o padrão de intercalação dos furos intermediários (estilo randomizado para acabamento invisível ou estilo texturizado para efeitos decorativos).",
+    "beginnerExplanation": "A máquina de bordar não pode dar um ponto comprido demais de um lado até o outro (como um ponto de mais de 1 centímetro), porque o fio fica solto e frouxo, podendo enroscar no dedo da pessoa ou rasgar na máquina de lavar. Essa função divide esse ponto grandão em pontinhos menores firmes e seguros sem estragar o visual do bordado.",
+    "howItWorks": [
+      "1. O programador cria uma letra grande ou figura em ponto cheio que possui larguras variando entre 4 mm e 12 mm.",
+      "2. No menu de propriedades do ponto cheio, ativa a opção 'Divisão Automática / Auto-Split'.",
+      "3. Define o comprimento máximo permitido (ex: 7.0 mm).",
+      "4. Nos trechos estreitos, a máquina borda ponto cheio liso tradicional.",
+      "5. Nos trechos que ultrapassam 7 mm, o software insere penetrações intermediárias imperceptíveis.",
+      "6. A matriz borda macia, resistente e com acabamento plano e durável."
+    ],
+    "applications": [
+      "Letras grandes em brasões, jaquetas universitárias e toalhas de banho",
+      "Figuras com folhas largas, asas de pássaros e pétalas volumosas",
+      "Uniformes esportivos submetidos a atrito constante e lavagens pesadas",
+      "Prevenção de paradas na máquina por limite máximo de deslocamento de quadro"
+    ],
+    "commonErrors": [
+      "❌ Deixar pontos cheios com mais de 10 mm sem divisão automática, resultando em laços frouxos que se soltam na primeira lavagem do cliente.",
+      "❌ Alinhar todas as divisões na mesma linha reta, criando uma 'risca' feia no meio da letra em vez de uma divisão suave intercalada."
+    ],
+    "troubleshootingTips": [
+      "Se o cliente reclamou que o fio da letra grande está repuxando ou solto: Abra a matriz no software, ative 'Auto-Split' com limite de 7.0 mm e marque a opção 'Divisão Aleatória / Random Split'.",
+      "Se a máquina acusar erro de 'Salto Excedido / Max Stitch Length': Aplique a divisão de pontos longos para que nenhum ponto ultrapasse 9.0 mm."
+    ],
+    "recommendedSettings": {
+      "density": "0.40 mm com divisão ativa acima de 7.0 mm",
+      "needleType": "75/11 ou 90/14 Ponta Bola",
+      "stabilizer": "Entretela Rasga-Fácil 80g",
+      "speedPPM": "750 a 850 PPM"
+    },
+    "dicaArtrelados": "Sempre ative a 'Divisão Automática de Ponto' com valor máximo de 7.0 mm em letras grandes! Use a opção de divisão com textura sutil ou aleatória. O bordado fica luxuoso, resistente a puxões e parece um trabalho de alta-costura!",
+    "voceSabia": "A maioria das máquinas de bordar domésticas possui um limite mecânico rígido de segurança de 12.7 mm de salto; se a matriz tiver um ponto maior que isso, a máquina trava ou converte o ponto em um corte forçado com salto!",
+    "practicalExercise": "No seu software, desenhe uma barra retangular de ponto cheio com 15 mm de largura sem divisão e outra com 'Auto-Split' ativado em 7 mm. Observe no simulador 3D como a segunda fica perfeitamente assentada e firme!",
+    "quickSummary": "Recurso que divide pontos cheios maiores que 7 mm em pontos menores e firmes para evitar fios soltos e garantir durabilidade.",
+    "relatedTerms": [
+      "Ponto Cheio (Satin)",
+      "Comprimento do Ponto",
+      "Densidade de Pontos",
+      "Ponto Tatami"
+    ],
+    "tags": [
+      "d-074",
+      "divisao de ponto",
+      "auto-split",
+      "ponto longo",
+      "letras grandes",
+      "durabilidade",
+      "wilcom",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM. EmbroideryStudio Technical Manual: Auto-Split Satin & Stitch Length Limits. Sydney, 2023.",
+      "KAHN, Max. Digitizing Masterclass for Commercial Embroidery. New York: Textile Press, 2021."
+    ],
+    "updatedAt": "2026-08-24"
   }
 ];
 
