@@ -4228,6 +4228,65 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "TAJIMA. Automatic Under-bed Thread Trimming Mechanism & Timing. Nagoya, 2021."
     ],
     "updatedAt": "2026-08-22"
+  },
+  {
+    "id": "c-067-cantos-vivos-e-esquadro-de-ponto",
+    "code": "C-067",
+    "letter": "C",
+    "term": "Cantos Vivos e Esquadro de Ponto (Smart Corners / Mitred Corners)",
+    "level": "Avançado 🔴",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Programação de Bordado",
+    "origin": "Do termo de marcenaria mitre joint (junta em meia-esquadria), adaptado para a digitalização de matrizes de bordado computadorizado na década de 1980.",
+    "summary": "Técnica de programação em software para chanfrar ou esquadrinhar curvas e cantos agudos sem acumular pontos sobrepostos no vértice.",
+    "definition": "O recurso de Cantos Vivos (Smart Corner / Canto em Esquadria) é uma funcionalidade avançada nos softwares de matrizes de bordado que recalcula automaticamente a inclinação das linhas de ponto nas quinas fechadas e cantos de 90°. Em vez de girar os pontos em leque fechado sobrecarregando o vértice interno, o software divide a coluna em ângulo de 45° ou meia-esquadria, criando uma costura plana e perfeita.",
+    "technicalDetails": "Divide a coluna de ponto cheio (Satin) em dois segmentos angulados no vértice de junção, redistribuindo as perfurações da agulha para eliminar nós espessos e manter a densidade uniforme em 0.40 mm.",
+    "howItWorks": [
+      "1. O programador desenha uma coluna de ponto cheio fazendo uma curva fechada ou quina de 90°",
+      "2. O software reconhece a angulação aguda e aplica o corte em meia-esquadria de 45°",
+      "3. O primeiro segmento de ponto finaliza no chanfro com pontos de amarração interna",
+      "4. O segundo segmento inicia exatamente na linha de emenda sem sobreposição excessiva",
+      "5. Na máquina de bordar, a agulha não bate repetidamente no mesmo furo, evitando rasgos e quebra de linha"
+    ],
+    "beginnerExplanation": "Quando uma letra ou bordado vira uma esquina de 90 graus (como a quina da letra L ou de um retângulo), os pontos não podem ficar todos amontoados na curva interna. O canto inteligente divide a viradinha em duas partes bem cortadinhas, como a moldura de um quadro.",
+    "applications": [
+      "Digitalização de letras maiúsculas geométricas (L, T, H, E, F) com cantos bem delineados",
+      "Bordado de molduras retangulares, brasões e faixas decorativas sem nós nos quatro cantos",
+      "Prevenção de quebra de agulhas e rasgos de tecido em bordados corporativos"
+    ],
+    "commonErrors": [
+      "❌ Deixar a curva girando em leque sem canto inteligente em colunas largas acima de 5 mm, criando um caroço duro de linha no avesso",
+      "❌ Não aplicar compensação de encolhimento na linha de emenda do canto chanfrado, deixando uma fresta entre as partes"
+    ],
+    "troubleshootingTips": [
+      "Se a quina do bordado estiver ficando dura e rasgando a entretela: Ative a opção Smart Corner / Mitred Corner nas propriedades do objeto no software de matrizes",
+      "Se houver uma fresta visível na emenda da quina: Aumente a compensação de repuxo (Pull Compensation) para 0.35 mm no objeto"
+    ],
+    "dicaArtrelados": "No Wilcom ou Embird, ative sempre o recurso 'Smart Corner' (Canto Inteligente) nas propriedades de Coluna C e selecione a opção 'Mitred' (Meia-esquadria) para letras corporativas e molduras geométricas!",
+    "voceSabia": "Antes da criação dos cantos inteligentes digitais, os programadores manuais precisavam calcular e desenhar cada linha de ponto inclinada à mão no papel milimetrado com transferidor de ângulos.",
+    "practicalExercise": "Digitalize uma letra L maiúscula no seu software com canto comum em leque e outra com Canto Inteligente (Mitred Corner). Borde as duas lado a lado e compare o relevo e a maciez no avesso do tecido!",
+    "quickSummary": "Ajuste de quinas em colunas de ponto cheio que evita sobreposição excessiva de perfurações e confere acabamento nítido.",
+    "relatedTerms": [
+      "Ponto Cheio (Satin)",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Densidade de Ponto",
+      "Programação de Bordado"
+    ],
+    "tags": [
+      "c-067",
+      "cantos vivos",
+      "smart corner",
+      "mitred corner",
+      "esquadria",
+      "wilcom",
+      "matriz",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM. Designing Embroidery: Smart Corners & Column Processing Guide. Sydney, 2023.",
+      "KAHN, Max. Digitizing Masterclass for Commercial Embroidery. New York: Textile Press, 2021."
+    ],
+    "updatedAt": "2026-08-24"
   }
 ];
 

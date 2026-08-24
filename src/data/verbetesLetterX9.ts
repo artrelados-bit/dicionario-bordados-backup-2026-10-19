@@ -80,6 +80,11 @@ export const VERBETES_LETTER_X9: Verbete[] = [
       "Distribuição uniforme de pressão em todo o perímetro do aro.",
       "Compatibilidade com fitas antiderrapantes de silicone para tecidos finos."
     ],
+    applications: [
+      "Fixação estável de tecidos e entretelas em bastidores planos e tubulares",
+      "Prevenção de marcas de bastidor (Hoop Burn) em tecidos nobres e toalhas aveludadas",
+      "Eliminação de enrugamento e repuxo por deslocamento do tecido durante o bordado"
+    ],
     commonErrors: [
       "❌ Usar alicates ou chaves de fenda com força bruta para apertar o parafuso do bastidor, quebrando a rosca plástica.",
       "❌ Puxar as bordas do tecido DEPOIS que o bastidor já está totalmente apertado, deformando a trama.",

@@ -670,7 +670,7 @@ export const ALL_TROUBLESHOOTING_GUIDES: TroubleshootingGuide[] = [
     ],
     preventiveAdvice: "Bordados confortáveis em roupas de bebê e vestuário devem ter toque leve e densidades bem arejadas.",
     recommendedProductsOrSettings: {
-      density: "0.40mm a 0.45mm de espaçamento",
+      tension: "0.40mm a 0.45mm de espaçamento",
       needle: "75/11 H-E",
       speed: "650 PPM"
     }
