@@ -4778,6 +4778,205 @@ export const VERBETES_LETTER_A: Verbete[] = [
       "DEVEREUX, Keith. The Science of Stitch Structure: Underlays and Density Control. Nottingham, 2021."
     ],
     "updatedAt": "2026-08-23"
+  },
+  {
+    "id": "a-072-ajuste-de-altura-do-calcador-tecidos-espessos",
+    "code": "A-072",
+    "term": "Ajuste de Altura do Calcador para Tecidos Espessos (Presser Foot Height Clearance & Thickness Adjustment)",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Equipamentos e Máquinas",
+    "origin": "Da engenharia mecânica de máquinas de bordado computadorizado para controle de folga dinâmica entre o calcador flutuante (hopping foot) e a chapa de agulha.",
+    "summary": "Regulagem da folga e curso vertical do pé calcador para permitir a passagem suave de materiais grossos, toalhas felpudas, couro ou relevo 3D sem amassar ou travar o bastidor.",
+    "definition": "O Ajuste de Altura do Calcador para Tecidos Espessos é o procedimento mecânico ou digital que calibra a distância mínima entre a base inferior do calcador de bordado e a superfície do tecido no momento em que a agulha penetra na chapa. Essa folga garante que o calcador comprima o tecido apenas o suficiente para evitar o levantamento (flagging), sem prensar em excesso nem arrastar materiais volumosos como toalhas de banho felpudas, moletons pesados, mantas acolchoadas, couro sintético ou camadas de EVA 3D.",
+    "technicalDetails": "Nas máquinas modernas, o ajuste é feito no painel digital em milímetros (geralmente entre 1.0 mm e 3.5 mm) ou por parafuso de regulagem na barra do calcador. A folga ideal é de aproximadamente a espessura de uma folha de papel dobrada ao meio sobre o tecido comprimido (cerca de 0.5 mm a 1.0 mm acima da superfície).",
+    "beginnerExplanation": "Quando você vai bordar uma toalha bem fofa, uma manta de bebê ou um boné com EVA 3D alto, o pezinho de metal da máquina não pode ficar raspando ou esmagando o tecido. Esse ajuste faz o pezinho subir um pouquinho para trabalhar livre e suave, sem deixar a peça escapar do bastidor.",
+    "howItWorks": [
+      "1. A bordadeira monta o tecido espesso ou com relevo no bastidor.",
+      "2. Acessa as configurações da máquina ou o parafuso de regulagem manual da barra do calcador.",
+      "3. Aumenta a altura do calcador (ex: de 1.0 mm padrão para 2.0 mm ou 2.5 mm).",
+      "4. Gira o volante manualmente para verificar se a base do calcador encosta levemente no tecido na descida da agulha sem prensá-lo com força.",
+      "5. Inicia o bordado com movimento suave do pantógrafo, sem atrito nem marcas de pressão no tecido.",
+      "6. Após concluir o trabalho pesado, retorna o calcador à altura padrão para tecidos finos."
+    ],
+    "applications": [
+      "Bordados em toalhas de banho aveludadas, roupões e mantas felpudas de microfibra",
+      "Bordados em relevo 3D com EVA (Puffy Foam) em bonés e jaquetas",
+      "Couro legítimo, courino, camurça e tecidos estruturados com espuma",
+      "Trabalhos com bastidores magnéticos e peças tubulares grossas"
+    ],
+    "commonErrors": [
+      "❌ Deixar o calcador muito baixo em toalhas felpudas, fazendo o pé prender nas alças da felpa e arrastar o tecido para fora do bastidor.",
+      "❌ Deixar o calcador excessivamente alto em tecidos finos, causando o efeito 'flagging' (o tecido sobe junto com a agulha, falhando pontos e quebrando a linha).",
+      "❌ Esquecer de retornar à altura normal após terminar uma peça grossa."
+    ],
+    "troubleshootingTips": [
+      "Se o calcador estiver deixando marcas circulares brilhantes (marcas de esmagamento) no tecido: Aumente a altura do calcador em 0.5 mm a 1.0 mm no menu da máquina.",
+      "Se a linha estiver arrebentando e a máquina estiver pulando pontos no topo do EVA 3D: O calcador está muito baixo e esmagando o EVA; aumente a folga da altura no painel."
+    ],
+    "recommendedSettings": {
+      "density": "Espaçamento padrão conforme o tipo de ponto",
+      "needleType": "90/14 Topstitch ou Ponta Redonda Reforçada",
+      "stabilizer": "Entretela Rasga-Fácil 80g + Plástico Hidrossolúvel de Topo",
+      "speedPPM": "500 a 650 PPM em materiais espessos"
+    },
+    "dicaArtrelados": "Ao bordar peças acolchoadas ou toalhas muito fofas, faça o 'teste da folha': com o volante abaixado no ponto mais baixo da agulha, passe uma tirinha de papel entre o calcador e o tecido. O papel deve deslizar com uma leve resistência, sem rasgar nem ficar solto demais!",
+    "voceSabia": "Máquinas industriais multiagulhas de última geração possuem sensores ultrassônicos ou ópticos de espessura que medem a altura do tecido automaticamente e ajustam a altura de cada cabeça de bordado em frações de segundo!",
+    "practicalExercise": "Coloque um pedaço de toalha felpuda dobrada no bastidor. Acesse o menu de configurações da sua máquina, altere a altura do calcador de 1.0 mm para 2.5 mm e gire o volante devagar para observar como o calcador flutua perfeitamente sobre a felpa sem amassá-la!",
+    "quickSummary": "Calibração da distância do pé calcador para permitir a passagem livre de materiais grossos, felpudos ou com relevo 3D sem atrito.",
+    "relatedTerms": [
+      "Calcador de Bordado / Calcador Pula-Pula (Embroidery Hopping Foot)",
+      "Relevo 3D com EVA (Puffy Foam)",
+      "Regulagem de Pressão do Calcador",
+      "Chapa de Agulha (Needle Throat Plate)"
+    ],
+    "tags": [
+      "a-072",
+      "altura do calcador",
+      "tecidos espessos",
+      "presser foot height",
+      "toalha felpuda",
+      "eva 3d",
+      "regulagem",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BROTHER. Embroidery Machine Operation & Presser Foot Height Calibration Manual. Nagoya, 2023.",
+      "TAJIMA. High-Thickness Fabric & 3D Foam Hopping Foot Adjustment Guide. Nagoya, 2022."
+    ],
+    "updatedAt": "2026-08-24"
+  },
+  {
+    "id": "a-073-arranjo-circular-e-espelhamento-radial",
+    "code": "A-073",
+    "term": "Arranjo Circular e Espelhamento Radial no Software (Circular & Radial Array in Digitizing)",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Programação de Bordado",
+    "origin": "Da computação gráfica vetorial e do design paramétrico geométrico aplicado aos softwares de criação de matrizes (Wilcom, Hatch, Embird e Bernina).",
+    "summary": "Ferramenta de matriz que multiplica e rotaciona um elemento ao redor de um eixo central em 360 graus com espaçamento e ângulos perfeitamente simétricos.",
+    "definition": "O Arranjo Circular e Espelhamento Radial (Circular / Radial Array & Kaleidoscope Tool) é uma função algorítmica presente em softwares profissionais de digitalização de matrizes que permite clonar, espelhar e distribuir um elemento de bordado (como uma pétala, folha, laço ou arabesco) em padrão rotacional simétrico ao redor de um ponto de origem central, gerando mandalas, guirlandas florais, rosetas e brasões circulares com precisão geométrica absoluta.",
+    "technicalDetails": "Calcula a divisão angular exata (360° / N repetições) e otimiza a sequência de costura e conexões entre cada braço da mandala, permitindo unificar as paradas de cor e reduzir saltos com cortes automáticos intermediários.",
+    "howItWorks": [
+      "1. O programador desenha apenas um único elemento detalhado (ex: uma folhinha com flor).",
+      "2. Seleciona a ferramenta 'Arranjo Circular / Espelhamento Radial' no menu do software.",
+      "3. Clica no ponto que será o centro da mandala e define o número de repetições (ex: 6, 8 ou 12 vezes).",
+      "4. O programa gera instantaneamente a mandala circular completa com rotação perfeita de ângulos e pontos.",
+      "5. O software reordena a sequência de bordado para bordar todas as partes verdes juntas e depois todas as flores juntas.",
+      "6. A matriz fica simétrica, elegante e rápida de produzir na máquina."
+    ],
+    "beginnerExplanation": "É uma ferramenta mágica do programa de bordado! Você desenha só uma florzinha ou uma pétala, clica no meio da tela e o programa cria uma coroa de flores redondinha ou uma mandala inteira perfeita e simétrica em um segundo.",
+    "applications": [
+      "Criação de mandalas decorativas para toalhas de mesa e almofadas",
+      "Brasões circulares de famílias, monogramas de casamento e coroas florais de bebê",
+      "Bordados em barras circulares de toalhas redondas, sousplats e jogos americanos"
+    ],
+    "commonErrors": [
+      "❌ Esquecer de reordenar a sequência de cores após gerar o arranjo, fazendo a máquina trocar de linha 8 ou 12 vezes desnecessariamente.",
+      "❌ Centralizar o arranjo com sobreposição excessiva de pontos no miolo central, criando um 'buraco duro' que quebra agulhas."
+    ],
+    "troubleshootingTips": [
+      "Se o miolo da mandala ficou com pontos acumulados e grossos demais: Deixe um pequeno raio de folga no centro do arranjo ou diminua a densidade dos elementos internos.",
+      "Se a máquina estiver cortando a linha em cada pétala: Agrupe os elementos por cor e aplique caminhos de conexão em ponto corrido sob áreas que serão cobertas."
+    ],
+    "recommendedSettings": {
+      "density": "0.40 mm no Ponto Cheio; 0.42 mm no Tatami",
+      "needleType": "75/11 Ponta Bola ou Universal",
+      "stabilizer": "Entretela Rasga-Fácil ou Hidrossolúvel para sousplat",
+      "speedPPM": "650 a 800 PPM"
+    },
+    "dicaArtrelados": "Ao criar mandalas circulares, use sempre número par de repetições (6, 8 ou 12) e ative a opção 'Espelhar a Cada Passo' (Mirror Copy). O desenho ganha uma harmonia visual profissional incrível para enxovais de luxo!",
+    "voceSabia": "A técnica de simetria radial foi inspirada nas rosáceas de catedrais góticas medievais e nos fractais da natureza, sendo um dos estilos de bordado mais valorizados comercialmente no mundo inteiro.",
+    "practicalExercise": "No seu programa de bordado, desenhe um pequeno coração em ponto cheio. Ative o 'Arranjo Circular' com 8 repetições e raio de 30 mm para ver surgir uma linda coroa de corações perfeitamente simétrica!",
+    "quickSummary": "Ferramenta do software que multiplica e gira um elemento em torno do centro em 360°, criando mandalas e coroas perfeitas.",
+    "relatedTerms": [
+      "Autodigitização (Auto-Digitizing)",
+      "Ângulo de Ponto (Stitch Angle)",
+      "Curva Bézier na Digitalização",
+      "Ponto de Entrada e Saída"
+    ],
+    "tags": [
+      "a-073",
+      "arranjo circular",
+      "espelhamento radial",
+      "mandala",
+      "simetria",
+      "wilcom",
+      "hatch",
+      "programacao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM. EmbroideryStudio: Radial & Mirror Symmetry Design Guide. Sydney, 2023.",
+      "HATCH EMBROIDERY. Creating Mandalas & Circular Layouts User Manual. Sydney, 2022."
+    ],
+    "updatedAt": "2026-08-24"
+  },
+  {
+    "id": "a-074-abastecimento-automatico-de-bobina-enchedor",
+    "code": "A-074",
+    "term": "Abastecimento Automático de Bobina e Enchedor Integrado (Built-in Bobbin Winder & Independent Winding Motor)",
+    "level": "Iniciante 🟢",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Equipamentos e Máquinas",
+    "origin": "Da introdução de motores auxiliares independentes em máquinas de costura e bordado a partir dos anos 1990 para permitir o enchimento contínuo de canelinhas sem parar a produção.",
+    "summary": "Mecanismo independente que enche canelinhas de linha inferior automaticamente com controle de tensão e limitador de volume, mesmo enquanto a máquina está bordando.",
+    "definition": "O Abastecimento Automático de Bobina e Enchedor Integrado (Independent Bobbin Winding System) é o dispositivo mecânico e elétrico acoplado à carcaça superior da máquina de bordar projetado para bobinar a linha de fundo (fio de poliéster 60wt ou 120/2) no carretel plástico ou metálico da canelinha de forma uniforme, rápida e com tensão calibrada, parando automaticamente quando o carretel atinge a capacidade total.",
+    "technicalDetails": "Nas máquinas com motor independente dedicado, o enchedor pode operar simultaneamente enquanto a máquina está bordando em alta velocidade (800 PPM), mantendo um estoque contínuo de bobinas prontas sem paradas produtivas no ateliê.",
+    "howItWorks": [
+      "1. A bordadeira encaixa o carretel da bobina vazia no pino do enchedor.",
+      "2. Passa a linha de bobina pelo disco de pré-tensão específico do topo da máquina.",
+      "3. Dá algumas voltas de fio na bobina ou passa pela ranhura guia.",
+      "4. Empurra a trava do enchedor para a direita (ou aperta o botão de acionamento do motor independente).",
+      "5. O motor gira em alta rotação enrolando a linha de forma reta e compacta.",
+      "6. A trava desativa automaticamente assim que a bobina enche, cortando a rotação sem transbordar linha."
+    ],
+    "applications": [
+      "Produção seriada de bordados e encomendas com alto volume de pontos",
+      "Enchimento prévio de várias bobinas da mesma cor para troca rápida",
+      "Garantia de tensão homogênea no avesso do bordado"
+    ],
+    "commonErrors": [
+      "❌ Passar a linha fora do disco de pré-tensão do topo, gerando uma bobina frouxa e 'fofa' que causa embaraçamento e laçadas soltas no bordado.",
+      "❌ Forçar o limitador e encher a bobina até transbordar, travando a rotação dentro da caixa de bobina.",
+      "❌ Usar carretéis de tamanho ou altura incompatíveis com a máquina (ex: usar bobina alta em máquina de perfil baixo)."
+    ],
+    "troubleshootingTips": [
+      "Se a bobina estiver enchendo mais de um lado do que do outro (formato de cone): Ajuste a altura do guia de linha do enchedor afrouxando levemente o parafuso guia para cima ou para baixo.",
+      "Se a linha da bobina estiver aparecendo na frente do bordado: Verifique se a bobina foi enchida muito frouxa ou muito apertada; refaça o enchimento passando corretamente pelo disco tensor."
+    ],
+    "recommendedSettings": {
+      "density": "N/A",
+      "needleType": "N/A",
+      "stabilizer": "N/A",
+      "speedPPM": "Velocidade padrão automática do enchedor"
+    },
+    "dicaArtrelados": "Deixe sempre de 3 a 5 bobinas cheias prontas antes de começar a produção do dia! Ao encher, aperte levemente a canelinha com os dedos: ela deve estar durinha e compacta como um carretel novo de fábrica!",
+    "voceSabia": "Uma bobina cheia com linha especial de bordado 60wt contém cerca de 80 a 110 metros de linha contínua, o suficiente para bordar entre 25.000 e 40.000 pontos em média!",
+    "practicalExercise": "Encha uma bobina passando a linha pelo disco tensor e outra sem passar pelo disco. Aperte as duas com os dedos e veja a diferença de firmeza: a firme é a única que deve ir para a sua máquina!",
+    "quickSummary": "Sistema automático que enche canelinhas com linha de fundo com tensão uniforme e desarme automático ao atingir o volume total.",
+    "relatedTerms": [
+      "Caixa da Bobina",
+      "Canoa da Bobina",
+      "Controle de Tensão da Linha",
+      "Linha de Bobina / Fio de Fundo"
+    ],
+    "tags": [
+      "a-074",
+      "enchedor de bobina",
+      "canelinha",
+      "bobbin winder",
+      "abastecimento",
+      "linha de fundo",
+      "manutencao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "JANOME. Memory Craft Bobbin Winding and Thread Tension Guide. Tokyo, 2022.",
+      "BROTHER. Embroidery Machine Operation Manual: Independent Bobbin Winding. Nagoya, 2021."
+    ],
+    "updatedAt": "2026-08-24"
   }
 ];
+
 
