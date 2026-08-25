@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { X, Star, Sparkles, Gauge, Zap, AlertTriangle, CheckCircle2, Copy, Check, Layers, BookOpen, BookMarked, Calculator, ExternalLink } from "lucide-react";
+import { X, Star, Sparkles, Gauge, Zap, AlertTriangle, CheckCircle2, Copy, Check, Layers, BookOpen, BookMarked, Calculator, ExternalLink, Share2 } from "lucide-react";
 import { Verbete } from "../types";
 import { StitchDiagram } from "./StitchDiagram";
 
@@ -138,6 +138,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
   onSelectRelatedTerm,
 }) => {
   const [copied, setCopied] = useState(false);
+  const [shareSuccess, setShareSuccess] = useState(false);
 
   if (!verbete) return null;
 
@@ -146,6 +147,31 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
     navigator.clipboard.writeText(textToCopy);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
+  };
+
+  const handleShare = async () => {
+    const termClean = verbete.term.replace(/^[🟢🟡🔴\s]+/, "");
+    const codeParam = encodeURIComponent(verbete.code || verbete.id);
+    const shareUrl = `${window.location.origin}/?verbete=${codeParam}`;
+    const shareText = `🧵 *DIBE Artrelados: ${verbete.code ? `[${verbete.code}] ` : ""}${termClean}*\n\n${verbete.summary}\n\n📖 Veja o verbete completo no Dicionário Ilustrado de Bordado Eletrônico:`;
+
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: `${termClean} — DIBE Artrelados`,
+          text: `${shareText}\n${shareUrl}`,
+          url: shareUrl,
+        });
+        return;
+      } catch (err) {
+        // Fallback to clipboard if user dismissed or unsupported
+      }
+    }
+
+    // Fallback: Copy link to clipboard
+    navigator.clipboard.writeText(`${shareText}\n${shareUrl}`);
+    setShareSuccess(true);
+    setTimeout(() => setShareSuccess(false), 2500);
   };
 
   return (
@@ -173,6 +199,27 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
           </div>
 
           <div className="flex items-center space-x-2 shrink-0">
+            <button
+              onClick={handleShare}
+              className={`p-2 rounded-xl border transition cursor-pointer flex items-center gap-1.5 text-xs font-bold ${
+                shareSuccess
+                  ? "bg-emerald-50 text-emerald-700 border-emerald-300"
+                  : "bg-amber-50 hover:bg-amber-100 text-amber-900 border-amber-200"
+              }`}
+              title="Compartilhar verbete com link direto"
+            >
+              {shareSuccess ? (
+                <>
+                  <Check className="w-4 h-4 text-emerald-600" />
+                  <span className="hidden sm:inline">Copiado!</span>
+                </>
+              ) : (
+                <>
+                  <Share2 className="w-4 h-4 text-amber-700" />
+                  <span className="hidden sm:inline">Compartilhar</span>
+                </>
+              )}
+            </button>
             <button
               onClick={(e) => onToggleFavorite(verbete.id, e)}
               className="p-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-600 hover:text-amber-500 transition cursor-pointer"

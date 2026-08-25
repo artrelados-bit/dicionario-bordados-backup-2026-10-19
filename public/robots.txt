@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dicionario.artrelados.com.br/sitemap.xml

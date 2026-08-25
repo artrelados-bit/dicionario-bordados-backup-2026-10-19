@@ -3,6 +3,7 @@ import path from "path";
 import { createServer as createViteServer } from "vite";
 import { GoogleGenAI, Type } from "@google/genai";
 import dotenv from "dotenv";
+import { generateSitemapXml } from "./src/utils/sitemapGenerator";
 
 dotenv.config();
 
@@ -11,6 +12,18 @@ const PORT = 3000;
 
 app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ extended: true, limit: "50mb" }));
+
+// Sitemap XML Route for Search Engines
+app.get("/sitemap.xml", (_req, res) => {
+  res.header("Content-Type", "application/xml");
+  res.send(generateSitemapXml());
+});
+
+// Robots TXT Route
+app.get("/robots.txt", (_req, res) => {
+  res.type("text/plain");
+  res.send("User-agent: *\nAllow: /\nSitemap: https://dicionario.artrelados.com.br/sitemap.xml\n");
+});
 
 // Helper to get Gemini client
 function getGeminiClient() {

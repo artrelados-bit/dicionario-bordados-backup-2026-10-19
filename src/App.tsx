@@ -16,6 +16,7 @@ import { Verbete, VerbeteCategory, TroubleshootingGuide, DictionaryStats, SavedD
 import { INITIAL_VERBETES, INITIAL_TROUBLESHOOTING_GUIDES } from "./data/initialDictionary";
 import { CalculatorPromoBanner } from "./components/CalculatorPromoBanner";
 import { BookOpen, Search } from "lucide-react";
+import { updateDocumentMeta } from "./utils/seoHelper";
 
 // Helper to sort verbetes in ascending order by code (e.g. A-001, A-002, A-003, A-026)
 export function sortVerbetesByCode(list: Verbete[]): Verbete[] {
@@ -339,6 +340,52 @@ export default function App() {
 
   // Selected Verbete Modal State
   const [selectedVerbete, setSelectedVerbete] = useState<Verbete | null>(null);
+
+  // Synchronize URL on initial load and handle browser back/forward buttons
+  useEffect(() => {
+    const handleUrlChange = () => {
+      const params = new URLSearchParams(window.location.search);
+      const verbeteParam = params.get("verbete") || params.get("termo") || params.get("id");
+      if (verbeteParam) {
+        const decoded = decodeURIComponent(verbeteParam).trim().toLowerCase();
+        const found = verbetes.find(
+          (v) =>
+            (v.code && v.code.toLowerCase() === decoded) ||
+            v.id.toLowerCase() === decoded ||
+            v.term.toLowerCase() === decoded ||
+            v.term.toLowerCase().includes(decoded)
+        );
+        if (found) {
+          setSelectedVerbete(found);
+        }
+      } else {
+        setSelectedVerbete(null);
+      }
+    };
+
+    handleUrlChange();
+    window.addEventListener("popstate", handleUrlChange);
+    return () => window.removeEventListener("popstate", handleUrlChange);
+  }, [verbetes]);
+
+  // Update URL and Metatags when selected verbete changes
+  useEffect(() => {
+    updateDocumentMeta(selectedVerbete);
+
+    const currentUrl = new URL(window.location.href);
+    if (selectedVerbete) {
+      const paramVal = selectedVerbete.code || selectedVerbete.id;
+      if (currentUrl.searchParams.get("verbete") !== paramVal) {
+        currentUrl.searchParams.set("verbete", paramVal);
+        window.history.pushState({}, "", currentUrl.toString());
+      }
+    } else {
+      if (currentUrl.searchParams.has("verbete")) {
+        currentUrl.searchParams.delete("verbete");
+        window.history.pushState({}, "", currentUrl.toString());
+      }
+    }
+  }, [selectedVerbete]);
 
   // Save troubleshooting guides
   useEffect(() => {
