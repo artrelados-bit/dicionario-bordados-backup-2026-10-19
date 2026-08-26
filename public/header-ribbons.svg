@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 240" fill="none" preserveAspectRatio="none">
+  <!-- Dynamic, fine embroidery thread curves inspired by Artrelados thread aesthetics -->
+  
+  <!-- 1. Main sweeping ribbon - fine tapered wave -->
+  <path d="M -20,12 C 320,45 680,185 1050,150 C 1300,125 1480,40 1620,10 L 1620,16 C 1480,46 1300,131 1050,156 C 680,191 320,51 -20,18 Z" fill="#E11D48" opacity="0.9"/>
+  
+  <!-- 2. Second tapered ribbon - swooping diagonally down and across -->
+  <path d="M -20,40 C 220,110 500,195 850,180 C 1200,165 1420,70 1620,45 L 1620,52 C 1420,77 1200,172 850,187 C 500,202 220,117 -20,47 Z" fill="#D91656" opacity="0.95"/>
+  
+  <!-- 3. Fine thread 1 - top delicate arch -->
+  <path d="M -20,10 C 280,30 580,140 920,160 C 1250,180 1480,110 1620,70" stroke="#BE123C" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.85"/>
+  
+  <!-- 4. Fine thread 2 - main center crossing strand -->
+  <path d="M -20,80 C 350,150 720,190 1080,155 C 1320,130 1490,140 1620,165" stroke="#E11D48" stroke-width="2.2" stroke-linecap="round" fill="none" opacity="0.9"/>
+  
+  <!-- 5. Bundle filaments in the center-right -->
+  <path d="M 650,195 C 880,185 1100,155 1300,135 C 1440,120 1540,140 1620,160" stroke="#BE123C" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.75"/>
+  <path d="M 720,198 C 930,188 1140,160 1340,142 C 1470,130 1560,145 1620,165" stroke="#E11D48" stroke-width="0.9" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M 780,202 C 980,192 1180,168 1380,150 C 1500,140 1580,152 1620,170" stroke="#BE123C" stroke-width="0.8" stroke-linecap="round" fill="none" opacity="0.65"/>
+  
+  <!-- 6. Bottom subtle tail on the left -->
+  <path d="M -20,140 C 160,180 380,215 650,225 L 650,229 C 380,219 160,184 -20,144 Z" fill="#BE123C" opacity="0.85"/>
+  <path d="M -20,200 C 180,225 400,235 680,230 L 680,236 C 400,241 180,231 -20,206 Z" fill="#D91656" opacity="0.8"/>
+  <path d="M -20,160 C 200,200 450,225 750,220" stroke="#E11D48" stroke-width="1.4" stroke-linecap="round" fill="none" opacity="0.7"/>
+</svg>
