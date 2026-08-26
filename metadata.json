@@ -1,6 +1,6 @@
 {
   "name": "Dicionário de Bordados Artrelados",
-  "description": "Aplicativo de acervo e dicionário técnico para bordados eletrônicos com busca rápida, filtros por categoria, favoritos, guias de resolução de problemas, importador de documentos Word e gerador de verbetes alimentado por IA.",
+  "description": "DIBE – Dicionário de Bordados Eletrônicos por Janete M. C. Silva • Artrelados. Enciclopédia técnica de termos, pontos, matrizes para máquinas de bordar, guias de resolução de problemas e acervo para bordadeiras.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
