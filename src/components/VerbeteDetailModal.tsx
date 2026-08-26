@@ -282,6 +282,27 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             {verbete.summary}
           </div>
 
+          {/* Technical Illustration Banner if present */}
+          {verbete.imageUrl && (
+            <div className="rounded-2xl border-2 border-slate-800 bg-white shadow-md overflow-hidden p-4 text-center">
+              <div className="bg-white flex flex-col items-center justify-center">
+                <img
+                  src={verbete.imageUrl}
+                  alt={`Prancha técnica ilustrada do verbete ${verbete.term}`}
+                  className="max-h-96 w-auto object-contain mx-auto"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              {verbete.imageCaption && (
+                <div className="mt-3 pt-3 border-t border-slate-200">
+                  <p className="text-xs sm:text-sm font-semibold text-slate-800 italic px-2">
+                    {verbete.imageCaption}
+                  </p>
+                </div>
+              )}
+            </div>
+          )}
+
           {/* Stitch Diagram if exists */}
           {verbete.stitchDiagramType && (
             <div>

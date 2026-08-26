@@ -69,6 +69,8 @@ export interface Verbete {
   practicalExercise?: string; // 📝 Exercício Prático
   quickSummary?: string; // 📚 Resumo Rápido
   beginnerExplanation?: string; // 🧵 Explicação para quem está começando
+  imageUrl?: string; // 🖼️ Ilustração técnica / prancha anatômica
+  imageCaption?: string; // 📝 Legenda explicativa da imagem
 }
 
 export interface TroubleshootingGuide {
