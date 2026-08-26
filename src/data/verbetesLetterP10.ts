@@ -512,5 +512,80 @@ export const VERBETES_LETTER_P_PART10: Verbete[] = [
       "NATIONAL EMBROIDERY GUILD. Standard Operating Procedures & Job Ticket Systems for Embroidery Shops. Dallas, 2022."
     ],
     updatedAt: "2026-08-24"
+  },
+  {
+    id: "p-075-precificacao-e-formacao-de-preco-no-bordado",
+    code: "P-075",
+    term: "Precificação e Formação de Preço no Bordado (Cálculo de Custos e Milheiro)",
+    pronunciation: "pre-si-fi-ka-sau e for-ma-sau de pre-so",
+    level: "Fundamental 🟢",
+    grammarClass: "Substantivo feminino composto.",
+    category: "Gestão do Ateliê e Produção",
+    origin: "Do latim 'pretium' (preço, valor de troca) e 'facere' (fazer, estabelecer). Estruturado na economia industrial e adaptado para a decoração têxtil profissional com base na contabilidade de custos de tempo de máquina e insumos fracionados.",
+    summary: "Metodologia matemática de cálculo para determinar o preço de venda de bordados e peças personalizadas, cobrindo custos fixos, variáveis, depreciação e margem de lucro real.",
+    definition: "A Precificação no Bordado (Embroidery Pricing & Cost Formulation) é o método técnico-financeiro estruturado para quantificar e compor o preço final de venda de um serviço ou produto bordado. A fórmula integra o Custo Variável Direto (metragem de linha superior e de bobina consumida, área de entretela, plástico termossolúvel, agulha e embalagem), o Custo Fixo Operacional Rateado (energia elétrica, aluguel, internet, depreciação e manutenção preventiva da máquina), o Custo da Mão de Obra / Hora Técnica do Bordador (incluindo tempo de bastidoramento e acabamento) e a Margem de Lucro Líquido desejada.",
+    technicalDetails: "A precificação profissional contemporânea abandona a tabela ingênua de 'R$ X por mil pontos' e adota a fórmula: Preço = (Custo Insumos + Custo Peça Base + [Tempo de Produção em Horas x Custo Hora da Máquina/Ateliê]) / (1 - [Impostos% + Taxas Cartão% + Margem Lucro%]).",
+    beginnerExplanation: "É o jeito certinho de calcular quanto cobrar por cada bordado sem ter prejuízo! Você soma o que gastou de linha, entretela e toalha, adiciona o tempo que a máquina e você trabalharam na peça, e coloca o seu lucro merecido no final.",
+    howItWorks: [
+      "1. Calcula o custo dos insumos do bordado (linha consumida por contagem de pontos + entretela + termossolúvel + agulha).",
+      "2. Adiciona o custo de aquisição da peça virgem (toalha, camiseta, etc.), se fornecida pelo ateliê.",
+      "3. Cronometra o tempo total: preparação da matriz + montagem no bastidor + tempo real de máquina + limpeza de fiapos.",
+      "4. Multiplica o tempo pela 'Hora-Máquina' do ateliê (custos fixos divididos pelas horas produtivas do mês).",
+      "5. Adiciona o valor do desenvolvimento/adaptação da matriz se for um logotipo novo.",
+      "6. Aplica a margem de lucro líquido (geralmente entre 30% e 50%) e as taxas de cartão/impostos para obter o preço de venda final."
+    ],
+    applications: [
+      "Formação de orçamentos precisos para encomendas de varejo (enxovais, presentes, toalhas)",
+      "Tabelas de atacado escalonadas com desconto progressivo por quantidade de peças",
+      "Cobrança justa de taxa de digitalização/programação de matriz para clientes corporativos",
+      "Análise de lucratividade real de cada tipo de serviço oferecido no ateliê"
+    ],
+    characteristics: [
+      "Planilha ou aplicativo de custos automatizado",
+      "Diferenciação clara entre faturamento bruto e lucro líquido",
+      "Blindagem contra prejuízos em matrizes pesadas de muitos pontos"
+    ],
+    commonErrors: [
+      "❌ Cobrar apenas 'olhando o preço do concorrente na internet' sem saber os custos reais do próprio ateliê.",
+      "❌ Cobrar um valor fixo baixo por mil pontos em um bordado denso com 80.000 pontos em veludo e passar 2 horas bordando por quase nada.",
+      "❌ Não cobrar a taxa de criação/programação de matriz exclusiva do cliente.",
+      "❌ Esquecer de incluir o tempo gasto cortando fiapos e passando a peça a ferro no cálculo do tempo."
+    ],
+    troubleshootingTips: [
+      "Se o cliente achar o orçamento caro: Explique o valor da durabilidade do bordado computadorizado, a nobreza dos fios de poliéster e o acabamento limpo com entretela macia.",
+      "Se o ateliê estiver sempre cheio de encomendas mas sem dinheiro no fim do mês: Recalcule a Hora-Máquina urgente, elimine serviços deficitários e aumente a margem de lucro nas peças personalizadas.",
+      "Para pedidos acima de 50 peças: Ofereça desconto apenas no tempo de máquina (otimizando a produção em lote), nunca no custo dos insumos."
+    ],
+    dicaArtrelados: "Nunca tenha vergonha de cobrar o preço justo pelo seu trabalho! Bordado eletrônico é uma arte técnica de precisão que exige equipamento caro, estudo e dedicação. Quem compete apenas por preço baixo fecha as portas; quem entrega perfeição e cobra certo constrói um negócio próspero!",
+    "voceSabia": "Em média, uma máquina de bordar gasta apenas cerca de R$ 0,15 a R$ 0,30 de energia elétrica por hora de funcionamento contínuo, provando que o maior valor do bordado está no tempo e no talento da bordadeira!",
+    practicalExercise: "Pegue uma toalha de lavabo bordada com um nome de 12.000 pontos. Calcule na ponta do lápis: valor da toalha + R$ 1,20 de insumos + 20 minutos do seu tempo (a R$ 30/hora = R$ 10) + 40% de lucro. Descubra o preço de venda ideal para essa peça!",
+    quickSummary: "Método financeiro para compor o preço de venda somando insumos, tempo de ateliê, custos fixos e margem de lucro real.",
+    recommendedSettings: {
+      density: "Otimizar contagem de pontos da matriz para reduzir tempo de máquina sem perder cobertura"
+    },
+    relatedTerms: [
+      "Ficha Técnica de Produção",
+      "Ordem de Serviço (OS)",
+      "Contagem de Pontos (Stitch Count)",
+      "Gestão do Ateliê e Produção",
+      "Orçamento e Proposta Comercial"
+    ],
+    tags: [
+      "p-075",
+      "precificacao",
+      "custos",
+      "milheiro",
+      "gestao",
+      "financeiro",
+      "lucro",
+      "orcamento",
+      "artrelados"
+    ],
+    bibliographicReferences: [
+      "ARTRELADOS. Manual de Precificação Lucrativa e Gestão Financeira para Ateliês de Bordado. São Paulo, 2024.",
+      "NATIONAL EMBROIDERY GUILD. Pricing Strategies & Production Economics for Apparel Decorators. Dallas, 2022.",
+      "SEBRAE. Formação do Preço de Venda no Artesanato e na Pequena Indústria Têxtil. Brasília, 2023."
+    ],
+    updatedAt: "2026-08-26"
   }
 ];

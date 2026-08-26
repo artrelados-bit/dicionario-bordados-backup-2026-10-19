@@ -400,5 +400,81 @@ export const VERBETES_LETTER_T11: Verbete[] = [
     quickSummary: "Termos de Garantia e Política de Trocas são as regras transparentes de aprovação prévia de layout que protegem o ateliê e garantem a satisfação das clientes em peças personalizadas.",
     relatedTerms: ["Aprovação de Layout (Mockup)", "Gestão de Ateliê", "Instruções de Lavagem", "Precificação", "Pós-Venda"],
     tags: ["garantia", "trocas", "politica", "personalizados", "gestao", "contrato", "atendimento"]
+  },
+  {
+    id: "t-075-titulo-e-numeracao-de-linhas-tex-denier-no40-no60",
+    code: "T-075",
+    term: "Título e Numeração de Linhas (Tex, Denier, No 40 e No 60)",
+    pronunciation: "ti-tu-lo e nu-me-ra-sau de li-nhas / teks / de-ni-er",
+    level: "Intermediário 🟡",
+    grammarClass: "Substantivo masculino composto.",
+    category: "Agulhas & Fios",
+    origin: "Do latim 'titulus' (inscrição, medida de classificação) e 'textilis' (tecido, de onde se origina o sistema métrico internacional Tex). Padronizado pela ISO e ASTM no século XX para unificar a metrologia têxtil global.",
+    summary: "Sistemas métricos de classificação de espessura de fios (Tex, Denier, Nm, No 40 e No 60) que determinam a agulha, a densidade da matriz e a nitidez de microletras.",
+    definition: "O Título de uma Linha (Thread Weight / Yarn Count / Linear Mass Density) é a grandeza física que expressa a relação entre o peso (massa) e o comprimento de um fio têxtil. Nos sistemas diretos (Tex e Denier), quanto maior o número, mais grossa é a linha (ex: Tex 27 = 27 gramas por 1.000 metros). Nos sistemas indiretos (como o padrão No 40 e No 60 para bordado / Weight 'wt'), quanto maior o número, mais fino é o filamento (a linha No 60 é mais fina que a clássica No 40). O título dita o tamanho exato do olho da agulha (canaleta) e o espaçamento de densidade na matriz digital.",
+    technicalDetails: "A linha padrão de bordado No 40 possui Tex 24 a 27 (requer agulha 75/11 e densidade 0.40 mm). A micro linha No 60 possui Tex 14 a 16 (requer agulha 60/8 ou 65/9 e densidade fechada de 0.28 a 0.32 mm para letras menores que 4 mm). A linha de bobina geralmente é Tex 10 a 12 (No 70 a No 80).",
+    beginnerExplanation: "É a numeração que diz se a linha é fininha ou grossa! No bordado, a linha comum que todo mundo usa é a No 40. Mas quando você precisa bordar letrinhas minúsculas de 3 ou 4 milímetros que ficam borradas, a gente usa a linha No 60 com uma agulha bem fininha para os detalhes ficarem perfeitos e legíveis!",
+    howItWorks: [
+      "1. O programador avalia o tamanho dos elementos da matriz (ex: microletras de 3,5 mm).",
+      "2. Escolhe a linha No 60 (mais fina) em vez da No 40 tradicional.",
+      "3. Ajusta o espaçamento de densidade no software de 0.40 mm para 0.30 mm para cobrir o tecido com o fio fino.",
+      "4. Troca a agulha da máquina para calibre 65/9 (olho menor compatível com a linha fina).",
+      "5. Alivia levemente a tensão superior para compensar a menor massa linear do fio.",
+      "6. A máquina borda os microtextos com nitidez cirúrgica e sem empelotamento."
+    ],
+    applications: [
+      "Microletras de 2,5 mm a 5 mm em jalecos médicos, crachás e etiquetas industriais (com linha No 60)",
+      "Bordados em geral, flores, arabescos, apliques e brasões corporativos (com linha padrão No 40)",
+      "Bordados rústicos com aspecto manual e relevo espesso (com linha grossa No 30 ou No 12)",
+      "Calibração milimétrica da abertura de colunas e sob-pontos no software de matrizes"
+    ],
+    characteristics: [
+      "Classificação internacional direta (Tex: g / 1.000 m; Denier: g / 9.000 m)",
+      "Classificação comercial indireta de bordado (No 40 = padrão; No 60 = ultrafina)",
+      "Relação física direta com o canal da agulha (o fio deve ocupar 40% do canal)"
+    ],
+    commonErrors: [
+      "❌ Tentar bordar letrinhas de 3 mm com linha grossa No 40 e agulha 90/14, fazendo as letras virarem um borrão ilegível.",
+      "❌ Usar linha fina No 60 com matriz programada para densidade de linha No 40 (0.40 mm), deixando o tecido aparecendo entre os pontos.",
+      "❌ Passar linha grossa em agulha ultrafina 65/9, esmagando o fio no olho da agulha e arrebentando a linha a cada 10 segundos."
+    ],
+    troubleshootingTips: [
+      "Se as letras pequenas estiverem ilegíveis: Troque o cone de linha para No 60 (fio fino), instale agulha 65/9 e aperte a densidade no software para 0.30 mm.",
+      "Se a linha fina No 60 arrebentar com frequência: Reduza a velocidade para 600 PPM e diminua a tensão da mola superior.",
+      "Para bordar monogramas finos em cambraia de linho ou seda: A combinação de linha No 60 e agulha 65/9 entrega acabamento de alta costura."
+    ],
+    dicaArtrelados: "Tenha sempre no ateliê pelo menos 2 cones de linha No 60 (um preto e um branco) e uma cartela de agulhas 65/9! Quando entrar aquele jaleco médico com nomes e números de CRM minúsculos, você vai entregar uma perfeição que nenhuma concorrente consegue!",
+    "voceSabia": "A unidade 'Denier' tem origem histórica na França medieval, onde era o peso de uma moeda de prata de 1 denier que equilibrava uma meada de 9.000 metros de fio de seda pura produzida nas fábricas de Lyon!",
+    practicalExercise: "Digitalize uma palavra com altura de letra de 4 mm. Borde uma versão com linha No 40 e agulha 75/11; em seguida, borde a mesma palavra com linha No 60 (densidade 0.30 mm) e agulha 65/9. Coloque as duas lado a lado e veja a diferença brutal de nitidez!",
+    quickSummary: "Sistemas de medida de espessura de linhas; a No 40 é a padrão do ateliê e a No 60 é a ultrafina para microletras perfeitas.",
+    recommendedSettings: {
+      speedPPM: "600 a 800 PPM (para No 60)",
+      needleType: "60/8 ou 65/9 (para No 60) | 75/11 (para No 40)",
+      density: "0.28 mm a 0.32 mm (para No 60) | 0.38 mm a 0.42 mm (para No 40)"
+    },
+    relatedTerms: [
+      "Linha de Poliéster 120",
+      "Microletras e Fontes Pequenas",
+      "Agulha de Ponta Fina / Microtex",
+      "Densidade do Ponto",
+      "Tensão da Linha Superior e Inferior"
+    ],
+    tags: [
+      "t-075",
+      "titulo de linha",
+      "tex",
+      "denier",
+      "linha 40",
+      "linha 60",
+      "microletras",
+      "espessura de fio",
+      "artrelados"
+    ],
+    bibliographicReferences: [
+      "MADEIRA THREADS. Thread Weight, Tex Systems & Micro-Lettering Guide. Freiburg, 2022.",
+      "GUNOLD EMBROIDERY. Technical Thread Specifications: From Heavy No. 30 to Ultra-Fine No. 60. Kennesaw, 2021.",
+      "ARTRELADOS. Guia Definitivo de Microletras, Títulos de Linhas e Agulhas Especiais. São Paulo, 2024."
+    ],
+    updatedAt: "2026-08-26"
   }
 ];

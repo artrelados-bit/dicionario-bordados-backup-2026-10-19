@@ -496,5 +496,231 @@ export const VERBETES_LETTER_B1: Verbete[] = [
       "MELCO EMBROIDERY SYSTEMS. Free-Arm Tubular Embroidery Best Practices. Denver, 2022."
     ],
     "updatedAt": "2026-08-23"
+  },
+  {
+    "id": "b-075-bastidor-de-bone-cap-frame-sistema-270",
+    "code": "B-075",
+    "term": "Bastidor de Boné (Cap Frame / Sistema 270°)",
+    "pronunciation": "bas-ti-dor de bo-ne / kep freim",
+    "level": "Avançado 🔴",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Bastidores e Fixação",
+    "origin": "Do francês 'bâtidor' (armação de suporte) e do francês antigo 'bonet' (cobertura têxtil de cabeça). Desenvolvido pela indústria mecatrônica têxtil japonesa e alemã com a introdução dos cabeçotes de braço cilíndrico na década de 1980.",
+    "summary": "Dispositivo curvo rotativo especial que permite fixar bonés em máquinas industriais e semi-industriais, bordando até 270° em torno da copa.",
+    "definition": "O Bastidor de Boné (Cap Frame / Cap Driver / Sistema 270°) é um mecanismo rotativo cilíndrico de alta precisão que substitui o pantógrafo plano em máquinas de braço livre, permitindo a rotação e fixação de bonés estruturados e desestruturados ao longo de um arco contínuo de até 270 graus. O sistema mantém a curvatura natural da copa e estabiliza a costura central reforçada sob a ação rápida da barra de agulhas sem deformar a aba frontal rígida.",
+    "technicalDetails": "Requer montagem em estação de travamento (Cap Framing Gauge) com entretela pesada de 80g/m² a 100g/m². A programação da matriz deve obrigatoriamente seguir a sequência 'do centro para as laterais' e 'de baixo para cima' (Center-Out Sequence), com compensação de puxão reforçada (+0,40 mm a +0,50 mm) e velocidade calibrada entre 550 e 700 PPM.",
+    "beginnerExplanation": "É uma armação metálica redonda especial que segura o boné firme e vai girando enquanto a máquina borda! Ela serve para bordar a frente e as laterais do boné sem você amassar a aba e sem entortar o desenho na costura do meio.",
+    "howItWorks": [
+      "1. A entretela pesada especial para boné é posicionada na estação de montagem externa.",
+      "2. O boné é encaixado com a carneira (aba interna de suor) virada para trás e fixada com fita.",
+      "3. A cinta de aço flexível abraça a base da copa bem rente à costura da aba e é travada sob pressão.",
+      "4. O conjunto é acoplado ao driver rotativo de 270 graus no braço livre da máquina de bordar.",
+      "5. A máquina executa o bordado girando o boné no sentido radial e axial com a sequência de dentro para fora.",
+      "6. Após o término, o boné é destravado mantendo sua curvatura original perfeita."
+    ],
+    "applications": [
+      "Bordados frontais e laterais em bonés trucker, snapback, strapback e 6 gomos",
+      "Viseiras esportivas e gorros com costuras estruturadas pesadas",
+      "Uniformes corporativos, linhas promocionais e marcas de streetwear",
+      "Personalização de peças com bordados contínuos de orelha a orelha (270°)"
+    ],
+    "characteristics": [
+      "Curvatura mecânica cilíndrica de alta rigidez",
+      "Cinta de aço com dentes de tração para a costura da aba",
+      "Compatibilidade com braço livre cilíndrico de máquinas multiagulhas"
+    ],
+    "commonErrors": [
+      "❌ Programar a matriz das pontas para o centro, criando uma bolha de tecido repuxado na costura central da copa.",
+      "❌ Deixar folga entre a cinta de aço e a aba, fazendo o boné oscilar e sair do registro durante os pontos cheios.",
+      "❌ Usar agulha fina 65/9 ou 70/10 que deflete e se quebra ao bater na junção grossa dos gomos do boné."
+    ],
+    "troubleshootingTips": [
+      "Se o bordado ficar descentralizado ou desalinhado: Centralize a agulha exatamente na costura do meio do boné antes de definir a origem X/Y.",
+      "Se houver quebra de agulha na costura central: Troque para agulha 80/12 SES (ponta bola leve) ou agulha com revestimento de titânio (SAN 1).",
+      "Se o tecido formar ondas na parte superior: Aumente a densidade do underlay de tatami e adicione mais uma camada de entretela pesada."
+    ],
+    "dicaArtrelados": "Ao montar bonés de 6 gomos, passe sempre uma fita crepe larga prendendo a carneira interna para trás e alinhe o centro do desenho exatamente sobre a linha da costura central. Isso garante 100% de simetria no resultado final!",
+    "voceSabia": "O sistema Cap Frame de 270 graus foi uma das maiores revoluções da indústria têxtil nos anos 1980, pois antes dele era necessário descosturar a aba de cada boné para conseguir bordar a copa em uma máquina plana!",
+    "practicalExercise": "No seu software de digitalização, pegue um logotipo de 50 mm e reordene a lista de objetos para que os elementos bordem primeiro do centro exato e se expandam sucessivamente em direção às pontas direita e esquerda.",
+    "quickSummary": "Bastidor cilíndrico rotativo para bonés; exige programação de dentro para fora, entretela grossa e velocidade moderada.",
+    "recommendedSettings": {
+      "speedPPM": "550 a 700 PPM",
+      "needleType": "80/12 SES Ponta Bola Leve ou Titânio",
+      "stabilizer": "Entretela pesada para boné 80g a 100g",
+      "density": "0.38 mm a 0.42 mm com pull compensation +0.45 mm"
+    },
+    "relatedTerms": [
+      "Bastidor Tubular",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Puffy Foam / Bordado 3D",
+      "Ponto de Entrada e Saída",
+      "Agulha Ponta Bola (Ball Point)"
+    ],
+    "tags": [
+      "b-075",
+      "bastidor de bone",
+      "cap frame",
+      "270 graus",
+      "bones",
+      "trucker",
+      "snapback",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA EMBROIDERY SYSTEMS. Cap Frame 270 Operations and Hooping Manual. Nagoya, 2021.",
+      "BARUDAN EMBROIDERY CO. Cap Embroidery Setup and Digitizing Standards. Tóquio, 2022.",
+      "ARTRELADOS. Guia Definitivo de Bordados em Bonés e Peças Curvas. São Paulo, 2024."
+    ],
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "id": "b-076-bastidor-magnetico-de-neodimio",
+    "code": "B-076",
+    "term": "Bastidor Magnético de Neodímio (Magnetic Hoop)",
+    "pronunciation": "bas-ti-dor mag-ne-ti-co / mag-ne-tik hup",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Bastidores e Fixação",
+    "origin": "Do latim 'magnes' (ímã, pedra magnética da região da Grécia antiga) e 'bâtidor'. Desenvolvido nos Estados Unidos e Europa na década de 2010 com a popularização dos ímãs de terras raras (NdFeB).",
+    "summary": "Sistema de bastidor inovador que fixa tecidos e entretelas através de atração magnética homogênea, eliminando marcas de bastidor e parafusos de aperto.",
+    "definition": "O Bastidor Magnético (Magnetic Embroidery Hoop / Mighty Hoop) é um dispositivo de fixação para máquinas de bordar constituído por uma moldura base metálica ferromagnética e um aro superior integrado com múltiplos blocos de ímãs de neodímio de alta indução magnética. Sua tecnologia permite travar tecidos finos, grossos, aveludados ou rígidos instantaneamente por pressão magnética contínua e perfeitamente equilibrada, sem a necessidade de aperto manual de parafusos e sem estirar traumaticamente as fibras têxteis.",
+    "technicalDetails": "Proporciona força de fechamento uniforme de até 15 kgf distribuída em todo o perímetro. Elimina a tensão assimétrica e o deslizamento de tecidos difíceis. Reduz drasticamente o estresse mecânico no pantógrafo por não exigir sobretorque nos suportes de encaixe.",
+    "beginnerExplanation": "É um bastidor moderno que segura o tecido com ímãs superfortes! Você só encosta a tampa de cima e ela 'gruda' e prende a roupa na hora, sem você precisar ficar sofrendo para girar parafuso e sem deixar aquela marca feia redonda no tecido.",
+    "howItWorks": [
+      "1. A base metálica inferior com entretela é posicionada sob o tecido.",
+      "2. A peça de vestuário é alinhada com as marcações de centro.",
+      "3. O aro magnético superior é aproximado e atrai a base instantaneamente.",
+      "4. A pressão magnética homogênea prende todas as camadas com força calibrada e uniforme.",
+      "5. O conjunto é encaixado no pantógrafo da máquina de bordar.",
+      "6. Ao terminar, o aro superior é desacoplado com um leve movimento de alavanca sem puxar o tecido."
+    ],
+    "applications": [
+      "Bordados em tecidos aveludados, suedine, toalhas felpudas e tecidos de pelúcia",
+      "Jaquetas grossas de inverno, moletons forrados, couro sintético e bolsas",
+      "Produções seriadas rápidas onde a troca constante de bastidor precisa ser ágil",
+      "Peças delicadas e sedas que sofrem com marcas permanentes de atrito (hoop burn)"
+    ],
+    "characteristics": [
+      "Ímãs de neodímio de alta densidade magnética permanente",
+      "Superfície plana sem parafusos de regulagem manual",
+      "Fechamento autorregulável para qualquer espessura de tecido"
+    ],
+    "commonErrors": [
+      "❌ Deixar os dedos entre os aros durante o fechamento brusco dos ímãs (risco de pinçamento).",
+      "❌ Tentar puxar o tecido pelas pontas com o bastidor fechado, forçando o atrito contra o campo magnético.",
+      "❌ Guardar o bastidor colado a cartões de crédito, celulares ou sensores eletrônicos sensíveis."
+    ],
+    "troubleshootingTips": [
+      "Se o tecido for muito escorregadio (como cetim): Aplique uma folha de entretela adesiva ou borrife leve spray temporário para reforçar o atrito.",
+      "Se a máquina acusar sobrepeso no pantógrafo: Verifique se o modelo do bastidor magnético é compatível com o suporte de engate do seu fabricante.",
+      "Para abrir com facilidade: Deslize a parte superior lateralmente em vez de puxar para cima em linha reta."
+    ],
+    "dicaArtrelados": "O bastidor magnético é o melhor amigo de quem borda toalhas aveludadas e jaquetas grossas: ele acaba de vez com aquele brilho e marca redonda que o bastidor comum deixa na peça, entregando um acabamento limpo e profissional!",
+    "voceSabia": "Os ímãs de neodímio usados nos bastidores modernos são formados por uma liga de Neodímio, Ferro e Boro (NdFeB) e são os ímãs permanentes mais potentes criados pela ciência moderna!",
+    "practicalExercise": "Compare o tempo de montagem de 5 toalhas felpudas em um bastidor tradicional de parafuso e no bastidor magnético: cronometre a diferença de tempo e inspecione o verso das toalhas para verificar a ausência total de marcas de pressão.",
+    "quickSummary": "Bastidor com ímãs de neodímio que prende tecidos por atração magnética uniforme, sem parafusos e sem marcar tecidos sensíveis.",
+    "recommendedSettings": {
+      "speedPPM": "650 a 900 PPM",
+      "needleType": "75/11 a 90/14 conforme o tecido",
+      "stabilizer": "Entretela rasgável ou recortável de 60g a 80g"
+    },
+    "relatedTerms": [
+      "Marca de Bastidor (Hoop Burn)",
+      "Flutuação (Floating)",
+      "Entretela Termocolante",
+      "Tensão do Tecido no Bastidor",
+      "Bastidor Tubular"
+    ],
+    "tags": [
+      "b-076",
+      "bastidor magnetico",
+      "mighty hoop",
+      "neodimio",
+      "marcas de bastidor",
+      "toalhas",
+      "jaquetas",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "SEW TECH INDUSTRY. Magnetic Framing Systems Engineering and Application Guide. Shenzhen, 2022.",
+      "HOOPMASTER. Mighty Hoop Operational Manual & Garment Holding Standards. Wisconsin, 2023.",
+      "ARTRELADOS. Técnicas Avançadas de Bastidoramento e Eliminação de Hoop Burn. São Paulo, 2024."
+    ],
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "id": "b-077-bordado-tubular-pecas-fechadas-e-tubulares",
+    "code": "B-077",
+    "term": "Bordado Tubular (Peças Fechadas e Tubulares)",
+    "pronunciation": "bor-da-do tu-bu-lar / pe-sas fe-sha-das",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo masculino composto.",
+    "category": "Técnicas de Bordado e Produção",
+    "origin": "Do latim 'tubulus' (pequeno tubo, cano cilíndrico) e do francês 'broder'. Consolidado como padrão de confecção com o surgimento das máquinas de bordar industriais de braço livre na segunda metade do século XX.",
+    "summary": "Técnica de bordado em peças de vestuário prontas e fechadas (mangas, pernas, punhos, meias e bolsas) utilizando o braço livre da máquina.",
+    "definition": "O Bordado Tubular (Tubular Garment Embroidery) é o método e processo de fixação e costura executado em artigos têxteis confeccionados que possuem formato fechado ou cilíndrico — tais como mangas de camisas, pernas de calças, meias, punhos, bolsas, mochilas e peitos de camisetas prontas. A técnica baseia-se no uso de máquinas com cabeçote de braço livre suspenso, onde a peça é 'vestida' externamente de modo que apenas a camada frontal fique sob a chapa de agulhas, enquanto a parte traseira corre livre por baixo da carcaça mecânica.",
+    "technicalDetails": "Requer rotação prévia da matriz (90°, 180° ou 270°) para alinhamento com o sentido de introdução da peça. Exige inspeção tátil manual constante antes do acionamento e limitação de campo ao perímetro útil do bastidor estreito de mangas.",
+    "beginnerExplanation": "É o jeito de bordar roupas prontas — como a manga de uma camisa, uma meia ou uma camiseta fechada — vestindo a peça no braço da máquina para não costurar a frente junto com as costas da roupa!",
+    "howItWorks": [
+      "1. A peça fechada é aberta pela barra ou abertura natural.",
+      "2. A entretela e o bastidor tubular ou estreito são posicionados no local desejado.",
+      "3. A peça é 'vestida' sobre o braço livre cilíndrico da máquina de bordar.",
+      "4. O operador passa as mãos por baixo de todo o braço para garantir que o forro e as costas da roupa estejam totalmente soltos.",
+      "5. A matriz é rotacionada no painel para que o bordado saia na orientação correta de leitura.",
+      "6. A máquina executa o bordado com movimentação livre nos eixos X e Y sem prender o tecido de trás."
+    ],
+    "applications": [
+      "Logotipos e monogramas em mangas, punhos de camisa e golas polo",
+      "Bordados em bolsos frontais prontos, pernas de calças jeans e moletons",
+      "Personalização de meias esportivas, gorros, mochilas e necessaires",
+      "Peças prontas de boutique onde é proibido descosturar a confecção original"
+    ],
+    "characteristics": [
+      "Utilização do braço cilíndrico inferior da máquina",
+      "Rotação angular da matriz no painel ou software",
+      "Liberdade de movimento sem obstrução do tecido de trás"
+    ],
+    "commonErrors": [
+      "❌ Não passar a mão por baixo do braço antes de iniciar, costurando as costas da camisa junto com o bordado frontal.",
+      "❌ Usar um bastidor muito grande que estica as costuras laterais da manga e deforma a modelagem.",
+      "❌ Esquecer de rotacionar a matriz no software, bordando o nome de cabeça para baixo na manga."
+    ],
+    "troubleshootingTips": [
+      "Se a peça estiver prendendo embaixo da lançadeira: Use prendedores plásticos de costura para recolher e segurar o excesso de tecido da roupa atrás do braço.",
+      "Se o bastidor raspar na lateral da máquina: Execute sempre a função de teste de traçado (Trace) para conferir a margem de movimentação.",
+      "Para punhos muito apertados: Utilize a técnica de flutuação (floating) com entretela adesiva sobre um bastidor plano estreito."
+    ],
+    "dicaArtrelados": "Regra sagrada de segurança Artrelados: antes de apertar o botão verde de início, passe a mão inteira por baixo do braço livre da máquina para ter 100% de certeza de que as costas da peça estão livres e soltinhas!",
+    "voceSabia": "Antes da invenção do braço tubular, para bordar uma manga ou bolso pronto em máquinas de mesa plana, as bordadeiras tinham que descosturar toda a lateral da roupa com lâmina, bordar a peça aberta e depois levar de volta para a máquina de costura!",
+    "practicalExercise": "Coloque a manga de uma camiseta velha em um bastidor estreito, vista no braço da máquina e faça o teste do traçado (Trace) confirmando se o tecido traseiro está livre antes de executar uma letra de teste.",
+    "quickSummary": "Técnica de bordar peças prontas e fechadas aproveitando o braço livre da máquina para não costurar a parte de trás junto.",
+    "recommendedSettings": {
+      "speedPPM": "600 a 800 PPM",
+      "needleType": "75/11 conforme o tecido",
+      "stabilizer": "Entretela recortável ou rasgável de 60g"
+    },
+    "relatedTerms": [
+      "Bastidor Tubular",
+      "Braço Livre (Free-Arm)",
+      "Traçado de Limites (Trace Function)",
+      "Flutuação (Floating)",
+      "Rotação de Matriz"
+    ],
+    "tags": [
+      "b-077",
+      "bordado tubular",
+      "mangas",
+      "pecas fechadas",
+      "braco livre",
+      "camisetas",
+      "bolsos",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA SEWING MACHINE CO. Tubular Framing & Garment Hooping Operations. Nagoya, 2021.",
+      "MELCO EMBROIDERY SYSTEMS. Free-Arm Tubular Embroidery Best Practices. Denver, 2022.",
+      "ARTRELADOS. Manual de Bordados em Peças Prontas, Mangas e Bolsos. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-26"
   }
 ];

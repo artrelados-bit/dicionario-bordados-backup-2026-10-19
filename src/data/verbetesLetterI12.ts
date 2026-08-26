@@ -513,5 +513,79 @@ export const VERBETES_LETTER_I_PART12: Verbete[] = [
       "JANOME. Hoop Capacity and Frame Safety Clearance Guide. Tóquio, 2022."
     ],
     updatedAt: "2026-08-24"
+  },
+  {
+    id: "i-075-inteligencia-artificial-no-bordado-ia-no-atelie",
+    code: "I-075",
+    term: "Inteligência Artificial no Bordado (IA no Ateliê e Softwares)",
+    pronunciation: "in-te-li-gen-si-a ar-ti-fi-si-al no bor-da-do",
+    level: "Avançado 🔴",
+    grammarClass: "Substantivo feminino composto.",
+    category: "Softwares, Digitalização & Tecnologias",
+    origin: "Do latim 'intelligentia' (capacidade de discernir e compreender) e 'artificialis' (feito com arte ou técnica). Desenvolvido a partir de algoritmos de visão computacional, redes neurais convolucionais e modelos generativos integrados aos CADs de bordado na década de 2020.",
+    summary: "Aplicação de algoritmos de aprendizado de máquina e redes neurais na vetorização automática, previsão de repuxo e otimização de caminhos de bordado.",
+    definition: "A Inteligência Artificial no Bordado (AI Embroidery Digitizing & Optimization) compreende o conjunto de algoritmos de visão computacional, redes neurais e processamento generativo aplicados à conversão inteligente de imagens rasterizadas em traçados vetoriais de pontos, reconhecimento automático de tipos de tecido, predição física de distorção de encolhimento (pull/push compensation) e auto-otimização das rotas de corte e salto de linha para maximizar a produtividade e qualidade do bordado.",
+    technicalDetails: "Utiliza redes neurais treinadas em milhões de matrizes industriais para segmentar automaticamente contornos em ponto cheio (satin) e preenchimentos em tatami, sugerindo ângulos de ponto que cancelam o estresse do tecido e gerando pontos de ancoragem automáticos com arremate invisível.",
+    beginnerExplanation: "É o uso de programas modernos superinteligentes que ajudam você a transformar fotos e desenhos em matrizes de bordado muito mais rápido! O software inteligente já reconhece as letras, descobre sozinho para que lado os pontos devem deitar e ajuda a evitar falhas no bordado.",
+    howItWorks: [
+      "1. A imagem do cliente (JPG, PNG ou foto) é carregada no software com módulo de IA.",
+      "2. O algoritmo faz a limpeza automática de ruídos e vetorização com segmentação semântica de cores.",
+      "3. A IA identifica a tipologia dos elementos (letras finas = ponto cheio; áreas largas = tatami).",
+      "4. O sistema analisa o tipo de tecido selecionado (ex: malha piquet) e ajusta a compensação de repuxo e sob-ponto automaticamente.",
+      "5. A rota de percurso calcula o menor número possível de saltos e cortes de linha.",
+      "6. O programador faz o refinamento manual e exporta a matriz final (DST, PES, EXP, JEF)."
+    ],
+    applications: [
+      "Vetorização e conversão automatizada de rascunhos e logotipos de baixa resolução",
+      "Simulação hiper-realista de textura 3D e iluminação de linha para aprovação visual de clientes",
+      "Otimização de tempo e corte de linhas em ordens de produção industrial seriada",
+      "Assistentes virtuais de diagnóstico de erros e parametrização de tensão no ateliê"
+    ],
+    characteristics: [
+      "Reconhecimento semântico de objetos e fontes tipográficas",
+      "Ajuste preditivo automático de densidade e sob-pontos (underlay)",
+      "Redução de até 70% no tempo bruto de desenho vetorial básico"
+    ],
+    commonErrors: [
+      "❌ Confiar 100% na conversão automática sem fazer a revisão manual dos ângulos de entrada e saída dos pontos.",
+      "❌ Usar imagens borradas sem contraste e esperar que a IA adivinhe letras ilegíveis sem conferência do operador.",
+      "❌ Deixar de testar a matriz na máquina real antes de colocar em produção seriada de clientes."
+    ],
+    troubleshootingTips: [
+      "Se os pontos cheios ficarem muito finos na conversão: Aumente manualmente a compensação de repuxo (pull compensation) em +0.35 mm.",
+      "Se a IA gerar muitas trocas desnecessárias de cor: Agrupe as camadas da mesma cor antes de rodar a otimização de percurso.",
+      "Para logotipos corporativos com fontes específicas: Utilize a IA para o contorno visual e redigite o texto com a fonte digitalizada original do software."
+    ],
+    dicaArtrelados: "A Inteligência Artificial é uma excelente assistente, mas o olhar humano da bordadeira é insubstituível! Use a IA para acelerar a parte demorada de vetorizar e limpar a imagem, mas sempre revise os pontos de suporte e a sequência antes de bordar!",
+    "voceSabia": "Os novos softwares industriais usam algoritmos de machine learning capazes de prever com precisão de 0,1 mm quanto uma malha vai encolher antes mesmo da máquina começar a bater a primeira agulhada!",
+    practicalExercise: "Importe um logotipo simples em formato PNG em um software com auto-conversão inteligente. Observe como o sistema separa as cores e compare o resultado automático com uma versão que você ajustar manualmente.",
+    quickSummary: "Uso de redes neurais e visão computacional para converter imagens, otimizar caminhos e prever repuxos de matrizes com rapidez.",
+    recommendedSettings: {
+      needleType: "Conforme o tecido do projeto",
+      stabilizer: "Adequado à densidade predita pela matriz"
+    },
+    relatedTerms: [
+      "Vetorização e Digitalização",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Ponto Tatami (Tatami Fill)",
+      "Ponto Cheio (Satin Stitch)",
+      "Softwares de Digitalização de Bordado"
+    ],
+    tags: [
+      "i-075",
+      "inteligencia artificial",
+      "ia",
+      "machine learning",
+      "softwares",
+      "digitalizacao",
+      "vetorizacao",
+      "artrelados"
+    ],
+    bibliographicReferences: [
+      "WILCOM INTERNATIONAL. AI Assisted Digitizing and Machine Learning in Embroidery Design. Sydney, 2023.",
+      "PULSE MICROSYSTEMS. Next-Generation Neural Vectorization for Apparel Decoration. Toronto, 2023.",
+      "ARTRELADOS. A Nova Era da Digitalização: Inteligência Artificial e Produtividade no Bordado. São Paulo, 2024."
+    ],
+    updatedAt: "2026-08-26"
   }
 ];

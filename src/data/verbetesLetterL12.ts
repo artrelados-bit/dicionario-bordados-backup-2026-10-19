@@ -509,5 +509,79 @@ export const VERBETES_LETTER_L_PART12: Verbete[] = [
       "ISO 9001:2015. Quality Management Systems: Traceability and Production Control. Genebra, 2022."
     ],
     updatedAt: "2026-08-24"
+  },
+  {
+    id: "l-075-linha-de-bobina-fio-inferior-pre-wound",
+    code: "L-075",
+    term: "Linha de Bobina (Fio Inferior / Bobinas Pré-Enroladas Pre-Wound)",
+    pronunciation: "li-nha de bo-bi-na / pri-waund",
+    level: "Fundamental 🟢",
+    grammarClass: "Substantivo feminino composto.",
+    category: "Agulhas & Fios",
+    origin: "Do latim 'linum' (linho, fio para costura) e do francês 'bobine' (cilindro para enrolar fios). Padronizado internacionalmente com a invenção da bobina de papelão descartável (Class L e Class M) por fabricantes têxteis norte-americanos na década de 1970.",
+    summary: "Fio contínuo de poliéster 100% ou filamento fino (geralmente No 60 a No 80) alojado na caixa de bobina que entrelaça a linha superior no verso do bordado.",
+    definition: "A Linha de Bobina (Bobbin Thread / Fio de Canelinha / Pre-Wound Bobbin) é o fio inferior de alta tenacidade e baixo calibre (normalmente filamento de poliéster contínuo 60 wt, 70 wt ou 80 wt) que opera na caixa de bobina sob a chapa de agulha. Sua função físico-mecânica é criar a laçada de travamento com o fio superior no exato terço central do avesso dos pontos cheios, proporcionando um verso macio, sem volume excessivo e com estabilidade dimensional inalterável.",
+    technicalDetails: "Apresenta tensão calibrada de 18 g a 25 g em tensiômetros mecânicos (TOWAs). As bobinas pré-enroladas industriais (Pre-Wound Bobbins) contêm até 40% a mais de metragem do que bobinas enroladas manualmente em máquina de costura, além de tensão perfeitamente uniforme da primeira à última volta.",
+    beginnerExplanation: "É a linha fina (normalmente branca ou preta) que fica escondidinha na parte de baixo da máquina, dentro da caixinha da bobina. Ela 'abraça' a linha colorida de cima por baixo do tecido, deixando o bordado bem preso e com o avesso lisinho e fofo!",
+    howItWorks: [
+      "1. A bobina pré-enrolada ou cheia é inserida na caixa de bobina respeitando o sentido de rotação horário ou anti-horário indicado pelo fabricante.",
+      "2. O fio passa pela mola de tensão da caixa de bobina e pela guia de saída.",
+      "3. A ponta da agulha desce com a linha superior e o bico da lançadeira laça o fio inferior.",
+      "4. Ao tracionar, a linha de bobina deve aparecer no verso ocupando 1/3 da largura da coluna de ponto cheio (regra de ouro de tensão 1/3 - 1/3 - 1/3).",
+      "5. Os sensores ópticos da máquina monitoram o volume restante de fio e avisam no painel antes da bobina esvaziar totalmente."
+    ],
+    applications: [
+      "Bordados em geral em máquinas domésticas e industriais",
+      "Enxovais de bebê, roupas íntimas e peças em contato direto com a pele (onde o avesso deve ser extra macio)",
+      "Bordados em toalhas de banho e artigos com verso aparente (usando bobina da mesma cor da linha superior)",
+      "Produções de alta velocidade contínua (800 a 1.200 PPM)"
+    ],
+    characteristics: [
+      "Filamento contínuo de poliéster 100% de alta tenacidade",
+      "Espessura fina (calibre 60/2 ou 80/2)",
+      "Disponibilidade em bobinas plásticas, magnéticas ou pré-enroladas com laterais de papelão (cardboard sides)"
+    ],
+    commonErrors: [
+      "❌ Enrolar linha de costura comum grossa na bobina, criando bolhas, nós e travando a lançadeira.",
+      "❌ Enrolar a bobina frouxa manualmente, gerando oscilações severas de tensão no meio do bordado.",
+      "❌ Usar linha de bobina branca em tecidos e matrizes pretas sem conferir se a tensão está puxando o fio branco para a frente da peça."
+    ],
+    troubleshootingTips: [
+      "Se a linha branca da bobina estiver aparecendo na frente do bordado: A linha superior está com tensão muito apertada ou a bobina está muito frouxa (aperte o parafuso da caixa de bobina levemente).",
+      "Se a linha superior estiver sendo puxada toda para o avesso: A bobina está muito apertada ou a linha de cima está frouxa.",
+      "Para toalhas de rosto e banho onde o verso fica visível: Utilize linha de bobina na mesma cor da linha superior (ex: linha azul em cima e bobina azul embaixo)."
+    ],
+    dicaArtrelados: "Economize tempo e dor de cabeça no ateliê usando Bobinas Pré-Enroladas (Pre-Wound)! Elas vêm de fábrica com a tensão perfeita de ponta a ponta e cabem quase o dobro de linha que a bobina que enrolamos na máquina!",
+    "voceSabia": "Uma bobina pré-enrolada padrão Classe L possui cerca de 120 metros de fio contínuo, enquanto uma bobina enrolada manualmente pela bordadeira raramente passa de 75 metros por conta do enrolamento menos compactado!",
+    practicalExercise: "Borde uma coluna de teste de ponto cheio de 5 cm com linha superior vermelha e linha de bobina branca. Olhe o avesso: você deve ver uma faixa branca de 1/3 certinha no meio e duas faixas vermelhas de 1/3 em cada lateral!",
+    quickSummary: "Fio inferior fino de poliéster para a caixa de bobina; essencial para a laçada perfeita e equilíbrio de tensão 1/3 no avesso.",
+    recommendedSettings: {
+      threadTension: "18 g a 25 g na caixa de bobina",
+      needleType: "75/11",
+      stabilizer: "Conforme o tecido"
+    },
+    relatedTerms: [
+      "Tensão da Linha Superior e Inferior",
+      "Caixa de Bobina (Bobbin Case)",
+      "Lançadeira Rotativa (Rotary Hook)",
+      "Regra do Terço Central (1/3 - 1/3 - 1/3)",
+      "Linha de Poliéster 120"
+    ],
+    tags: [
+      "l-075",
+      "linha de bobina",
+      "canelinha",
+      "pre-wound",
+      "fio inferior",
+      "tensao",
+      "avesso",
+      "artrelados"
+    ],
+    bibliographicReferences: [
+      "COATS & CLARK INDUSTRIAL. Embroidery Bobbin Thread Standards & Tension Balancing. Charlotte, 2021.",
+      "MADEIRA THREADS. Bobbinfill Polyester Filaments and Pre-wound Performance. Freiburg, 2022.",
+      "ARTRELADOS. Guia Prático de Tensão Perfeita e Calibração de Bobinas. São Paulo, 2024."
+    ],
+    updatedAt: "2026-08-26"
   }
 ];

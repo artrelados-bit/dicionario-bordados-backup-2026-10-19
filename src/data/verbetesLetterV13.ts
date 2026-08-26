@@ -402,5 +402,81 @@ export const VERBETES_LETTER_V13: Verbete[] = [
     quickSummary: "Viés do Tecido é a elasticidade natural da diagonal a 45° que exige alinhamento correto e entretela multidirecional para evitar que o bordado fique torto ou ovalado.",
     relatedTerms: ["Fio Reto (Grainline)", "Urdume e Trama", "Entretela Multidirecional", "Hooping (Colocação no Bastidor)", "Distorção Romboidal"],
     tags: ["vies", "bias", "fioreto", "urdume", "trama", "elasticidade", "bastidor", "tecidos"]
+  },
+  {
+    id: "v-075-vetorizacao-e-digitalizacao-de-logotipos",
+    code: "V-075",
+    term: "Vetorização e Digitalização de Logotipos (Conversão Imagem para Matriz)",
+    pronunciation: "ve-to-ri-za-sau e di-ji-ta-li-za-sau de lo-go-ti-pos",
+    level: "Avançado 🔴",
+    grammarClass: "Substantivo feminino composto.",
+    category: "Softwares, Digitalização & Tecnologias",
+    origin: "Do latim 'vector' (o que conduz, segmento orientado) e 'digitus' (dedo, contagem, representação numérica). Estabelecido com os sistemas CAD/CAM de bordado gráfico desenvolvidos no final dos anos 1970 por Wilcom e Barudan.",
+    summary: "Processo técnico de conversão de imagens visuais (pixels/vetores) em comandos mecatrônicos de perfuração, tipos de pontos, densidades e cortes de linha.",
+    definition: "A Vetorização e Digitalização de Logotipos (Embroidery Digitizing / Punching / Vector-to-Stitch Conversion) é a engenharia artística e técnica de transformar uma arte visual bidimensional (arquivos vetoriais EPS, SVG, AI ou imagens matriciais JPG, PNG) em um arquivo executável para máquinas de bordar (DST, PES, EXP, JEF). O processo define a anatomia dos pontos (satin, tatami, corrido), as camadas de sob-pontos (underlays), as compensações de repuxamento (pull compensation), a angulação de penetração dos fios e a ordem exata de costura para garantir que a matriz borde sem rugas, sem falhas de registro e com produtividade máxima.",
+    technicalDetails: "Envolve o cálculo de ângulos de pontos que se equilibram, definição de densidades (passos de 0.38 a 0.45 mm), pontos de fixação inicial (tie-in) e arremate final (tie-off), além da compensação de deformação específica para cada tecido (ex: +0.40 mm para malha piquet; +0.20 mm para sarja plana).",
+    beginnerExplanation: "É a mágica de pegar um desenho ou logotipo no computador e ensinar para a máquina de bordar exatamente como ela deve costurar cada detalhe! O programador escolhe onde a agulha entra, onde ela sai, que tipo de ponto usar e em que ordem as cores serão bordadas.",
+    howItWorks: [
+      "1. A imagem do logotipo é importada e redimensionada na escala real (1:1) no software de bordado.",
+      "2. O digitalizador analisa a hierarquia visual e separa os objetos por ordem lógica (do fundo para a frente, de dentro para fora).",
+      "3. Letras finas e colunas estreitas são programadas como ponto cheio (satin) com ângulos perpendiculares.",
+      "4. Áreas grandes e fundos são traçados em ponto tatami com ângulos a 45° para evitar repuxo excessivo.",
+      "5. São adicionadas as camadas de suporte e travamento inferior (underlay em zigue-zague ou tatami leve).",
+      "6. São ajustados os pontos de entrada, saída, comandos de corte automático de linha e a compensação de repuxo.",
+      "7. A matriz é simulada no visualizador 3D e exportada no formato nativo da máquina de bordar."
+    ],
+    applications: [
+      "Digitalização de logomarcas empresariais, uniformes corporativos e escolares",
+      "Criação de brasões militares, distintivos de segurança e emblemas termocolantes",
+      "Matrizes artísticas de enxovais de bebê, monogramas nobres e personagens",
+      "Padronização e otimização de arquivos para produção seriada industrial em alta velocidade"
+    ],
+    characteristics: [
+      "Conversão manual vetor-a-ponto com controle total de nós e curvas de Bézier",
+      "Definição independente de densidade, sob-ponto e compensação de puxão por objeto",
+      "Geração de código binário mecatrônico de comando de motores de passo X/Y"
+    ],
+    commonErrors: [
+      "❌ Usar a função de 'conversão automática mágica de 1 clique' em logotipos complexos sem revisar a orientação dos pontos e sob-pontos.",
+      "❌ Digitalizar tudo no mesmo ângulo de ponto, fazendo o tecido encolher violentamente em uma única direção.",
+      "❌ Borda contorno fino sem aplicar compensação de repuxo no preenchimento de baixo, deixando um vão branco entre o contorno e o miolo."
+    ],
+    troubleshootingTips: [
+      "Se o contorno preto ficar descolado da cor de preenchimento: Aumente a compensação de repuxo (Pull Compensation) do preenchimento para +0.40 mm e certifique-se de que o contorno borde imediatamente após o preenchimento daquela mesma área.",
+      "Se o bordado ficar duro como uma placa de papelão: Reduza a densidade dos pontos tatami (aumente o espaçamento para 0.42 mm ou 0.45 mm) e alivie o excesso de sob-pontos.",
+      "Se as letras ficarem ilegíveis e empelotadas: Elimine sob-pontos pesados em colunas com menos de 1,5 mm de largura e utilize ponto corrido central leve."
+    ],
+    dicaArtrelados: "A regra de ouro da boa digitalização: digitalize sempre pensando no comportamento físico do tecido real! O tecido não é uma folha de papel rígida; ele estica, cede e encolhe com a puxada da linha. Respeite as compensações de repuxo e seu bordado sairá perfeito na primeira tentativa!",
+    "voceSabia": "Antes dos computadores e dos mouses, na década de 1960 os primeiros 'punchers' (perfuradores) criavam matrizes industriais perfurando fitas de papel cartão manualmente com furadores mecânicos, ponto a ponto, enquanto olhavam o desenho ampliado 6 vezes em uma mesa de desenho gigante!",
+    practicalExercise: "Pegue a letra 'A' de uma fonte em formato imagem. Desenhe manualmente as colunas no software de matrizes definindo a perna esquerda, a perna direita e por último a travessa central com os pontos de amarração corretos. Gere a simulação 3D e confira o caminho da agulha.",
+    quickSummary: "Processo de programação mecatrônica que transforma desenhos e vetores em matrizes de bordado precisas, equilibrando densidades e repuxo.",
+    recommendedSettings: {
+      density: "0.38 mm a 0.42 mm para ponto cheio | 0.40 mm a 0.45 mm para tatami",
+      stabilizer: "Conforme o tecido e a contagem total de pontos"
+    },
+    relatedTerms: [
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Ponto Tatami (Tatami Fill)",
+      "Ponto Cheio (Satin Stitch)",
+      "Sob-Ponto / Estrutura de Base (Underlay)",
+      "Inteligência Artificial no Bordado"
+    ],
+    tags: [
+      "v-075",
+      "vetorizacao",
+      "digitalizacao",
+      "matriz",
+      "logotipos",
+      "programacao",
+      "punching",
+      "softwares",
+      "artrelados"
+    ],
+    bibliographicReferences: [
+      "WILCOM INTERNATIONAL. Embroidery Digitizing Principles & Applied Push-Pull Mechanics. Sydney, 2022.",
+      "DE LEEUW, B. Digitizing Made Easy: Create Professional Embroidery Designs. Iola: Krause Publications, 2021.",
+      "ARTRELADOS. Manual de Engenharia de Matrizes e Digitalização de Elite. São Paulo, 2024."
+    ],
+    updatedAt: "2026-08-26"
   }
 ];
