@@ -91,10 +91,10 @@ export const Header: React.FC<HeaderProps> = ({
               <button
                 id="tab-troubleshooting"
                 onClick={() => setActiveTab("troubleshooting")}
-                className={`w-full sm:w-auto flex items-center justify-center space-x-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-black transition-all whitespace-nowrap cursor-pointer shadow-xs ${
+                className={`w-full sm:w-auto flex items-center justify-center space-x-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-black transition-all whitespace-nowrap cursor-pointer shadow-md ${
                   activeTab === "troubleshooting"
-                    ? "bg-slate-950 text-[#F9BC06] border-2 border-slate-950 scale-105"
-                    : "bg-amber-400 text-slate-950 hover:bg-amber-300 border border-slate-950/40"
+                    ? "bg-[#9F1239] text-white border-2 border-slate-950 scale-105 shadow-rose-950/30"
+                    : "bg-[#E11D48] text-white hover:bg-[#BE185D] border border-slate-950/40"
                 }`}
               >
                 <Wrench className="w-4 h-4" />
@@ -107,10 +107,10 @@ export const Header: React.FC<HeaderProps> = ({
               <button
                 id="tab-favorites"
                 onClick={() => setActiveTab("favorites")}
-                className={`w-full sm:w-auto flex items-center justify-center space-x-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-black transition-all whitespace-nowrap cursor-pointer shadow-xs ${
+                className={`w-full sm:w-auto flex items-center justify-center space-x-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-black transition-all whitespace-nowrap cursor-pointer shadow-md ${
                   activeTab === "favorites"
-                    ? "bg-slate-950 text-[#F9BC06] border-2 border-slate-950 scale-105"
-                    : "bg-amber-400 text-slate-950 hover:bg-amber-300 border border-slate-950/40"
+                    ? "bg-[#075985] text-white border-2 border-slate-950 scale-105 shadow-sky-950/30"
+                    : "bg-[#0284C7] text-white hover:bg-[#0369A1] border border-slate-950/40"
                 }`}
               >
                 <Star className="w-4 h-4 fill-current" />
