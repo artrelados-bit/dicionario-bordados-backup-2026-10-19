@@ -17,9 +17,9 @@ export const Header: React.FC<HeaderProps> = ({
 }) => {
   return (
     <header className="dibe-header-yellow bg-[#F9BC06] text-slate-950 border-b-4 border-[#E0A200] shadow-xl relative overflow-hidden">
-      {/* Decorative Embroidery Waves Background - Behind all texts and buttons */}
+      {/* Decorative Embroidery Waves Background - Strict Background Plane */}
       <div 
-        className="absolute inset-0 pointer-events-none z-0 flex items-center justify-center opacity-95 select-none overflow-hidden"
+        className="absolute inset-0 pointer-events-none z-0 flex items-center justify-center opacity-85 select-none overflow-hidden"
         aria-hidden="true"
       >
         <img
@@ -29,7 +29,7 @@ export const Header: React.FC<HeaderProps> = ({
         />
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-4 sm:pt-5 sm:pb-4.5 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-3.5 pb-4 sm:pt-4.5 sm:pb-4.5 relative z-10">
         {/* Title & Byline - Centered Original DIBE Identity */}
         <div className="my-1 text-center">
           <h1
