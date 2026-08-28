@@ -86,7 +86,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "WILCOM. Stitch Density and Spacing Reference Manual. Sydney: Wilcom International, 2022.",
       "DEVERSON, D. Complete Embroidery Digitizing Masterclass. London: Textile Press, 2020.",
       "ARTRELADOS. Guia de Densidade e Estruturação de Matrizes. São Paulo: Ateliê Artrelados, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-002-densidade-de-bordado",
@@ -161,7 +162,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "TAJIMA. Industrial Embroidery Operation & Quality Guide. Nagoya: Tokai Industrial Sewing Machine Co., 2021.",
       "KRAUSZ, P. The Industrial Embroidery Handbook. New York: Textile Media, 2019.",
       "ARTRELADOS. Manual de Planejamento e Precificação no Bordado. São Paulo: Ateliê Artrelados, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-003-densidade-variavel",
@@ -235,7 +237,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "HATCH BY WILCOM. Creating Realistic Textures with Variable Density. Sydney, 2023.",
       "NICOLAS, C. Art of Shading and Thread Blending in Machine Embroidery. Paris: Éditions Têxteis, 2021.",
       "ARTRELADOS. Técnicas de Degradê e Pintura com Agulha no Bordado Eletrônico. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-004-densidade-excessiva",
@@ -307,7 +310,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "MADEIRA. Embroidery Troubleshooting & Needle Deflection Manual. Freiburg: Madeira Garnfabrik, 2022.",
       "SCHMETZ. Needle Heat, Friction and Excessive Penetration in Automatic Embroidery. Herzogenrath, 2021.",
       "ARTRELADOS. Prevenção de Falhas Mecânicas e Alívio de Matrizes. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-005-densidade-insuficiente",
@@ -376,7 +380,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "COATS INDUSTRIAL. Machine Embroidery Coverage, Thread Count and Underlay Dynamics. London, 2021.",
       "EMBIRD. Underlay versus Density Balance in Modern Digitizing. Bratislava, 2023.",
       "ARTRELADOS. Segredos da Cobertura Perfeita sem Sobrecarga de Pontos. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-006-desenho-de-bordado",
@@ -450,7 +455,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "PUNDOLE, F. Graphic Adaptation for Machine Embroidery Systems. Mumbai: Stitches Publishing, 2020.",
       "LEE, C. From Vector Artwork to Machine Embroidery. Seoul: Design & Threads, 2022.",
       "ARTRELADOS. Guia de Análise Visual e Viabilidade Técnica de Desenhos. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-007-desenho-digitalizado",
@@ -524,7 +530,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "CORELDRAW. CorelDRAW for Embroidery Designers: Vector Preparation. Ottawa: Alludo, 2023.",
       "ADOBE. Vector Graphics for Textile Application. San Jose: Adobe Press, 2021.",
       "ARTRELADOS. Preparação de Imagens e Vetores para Digitalização Profissional. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-008-digitalizacao-de-bordado",
@@ -598,7 +605,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "BLANCO, R. Manual de Ponchado y Digitalización Textil. Madri: Ediciones Técnicas, 2021.",
       "WILCOM. Digitizing Fundamentals & Object Properties. Sydney: Wilcom International, 2023.",
       "ARTRELADOS. Fundamentos da Digitalização Profissional de Matrizes. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-009-digitalizacao-manual",
@@ -673,7 +681,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "GARCIA, E. Advanced Embroidery Digitizing and Node Editing. Barcelona: Marcombo, 2022.",
       "TAJIMA. DGML by Pulse: Advanced Manual Stitch Manipulation. Dallas: Pulse Microsystems, 2023.",
       "ARTRELADOS. Maestria em Digitalização Manual e Otimização de Percurso. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-010-digitalizacao-automatica",
@@ -747,7 +756,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "BROTHER. PE-Design Auto-Digitizing Features and Limitations. Nagoya: Brother Industries, 2022.",
       "BERNINA. Embroidery Software 9 Designer Manual: Auto-Punch vs Manual. Steckborn, 2023.",
       "ARTRELADOS. Como Auditar e Corrigir Matrizes Automáticas. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-011-digitalizador-de-bordado",
@@ -822,7 +832,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "NNEP. National Network of Embroidery Professionals Guidebook. Canton: NNEP, 2022.",
       "STITCHES MAGAZINE. The Professional Digitizer: Skills and Market Demands. Atlanta, 2021.",
       "ARTRELADOS. A Profissão de Digitalizador de Bordados no Brasil. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-012-direcao-do-ponto",
@@ -899,7 +910,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "MADEIRA. Light Reflection and Thread Sheen in Rayon & Polyester. Freiburg, 2021.",
       "WILCOM. Stitch Angles and Multi-Angle Object Mastery. Sydney: Wilcom, 2023.",
       "ARTRELADOS. O Poder do Brilho e Direção dos Pontos na Composição Visual. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-013-direcao-de-costura",
@@ -973,7 +985,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "BARUDAN. Pantograph Movement and Sewing Path Efficiency. Tokyo: Barudan Co., 2021.",
       "KRAUSZ, P. Digitizing Mechanics: Sewing Direction & Fabric Push. New York, 2020.",
       "ARTRELADOS. Rotas de Costura e Redução de Tempo de Máquina. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-014-direcao-do-bordado",
@@ -1047,7 +1060,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "TAJIMA. Hooping Orientation and Garment Clamping Guide. Nagoya, 2022.",
       "BROTHER. Embroidery Orientation & Hoop Alignment Manual. Nagoya, 2023.",
       "ARTRELADOS. Posicionamento Estratégico de Peças no Bastidor. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-015-deslocamento-da-matriz",
@@ -1121,7 +1135,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "JANOME. Machine Screen Coordinate System & Design Movement. Tokyo, 2022.",
       "SINGER. EM9305 Embroidery Centering and Positioning Manual. LaVergne, 2021.",
       "ARTRELADOS. Alinhamento a Laser e Centralização Perfeita de Bordados. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-016-deslocamento-de-bastidor",
@@ -1195,7 +1210,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "BARUDAN. Servo Motors & Pantograph Motion Mechanics. Tokyo, 2022.",
       "HAPPY JAPAN. HCD2 Series Multi-Needle Mechanics Manual. Yamagata, 2023.",
       "ARTRELADOS. Manutenção e Cuidados com o Sistema de Pantógrafo. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-017-deslocamento-de-ponto",
@@ -1269,7 +1285,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "KRAUSZ, P. Troubleshooting Stitch Registration & Fabric Shift. New York: Textile Press, 2021.",
       "MADEIRA. Embroidery Quality Audit: Overcoming Stitch Misalignment. Freiburg, 2023.",
       "ARTRELADOS. Como Eliminar Desalinhamento de Contornos no Bordado. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-018-deslocamento-de-linha",
@@ -1343,7 +1360,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "COATS THREADS. Filament Thread Stability & Tension Control in Embroidery. London, 2022.",
       "GUNOLD. Thread Tension, Friction & Laying Precision Guide. Stockstadt, 2021.",
       "ARTRELADOS. Tensão e Fixação de Linhas para Alta Durabilidade. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-019-distancia-entre-pontos",
@@ -1416,7 +1434,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "WILCOM. Stitch Length and Pitch Guidelines in Digitizing. Sydney: Wilcom, 2022.",
       "BERNINA. Stitch Length Fundamentals for Freehand and Automated Embroidery. Steckborn, 2021.",
       "ARTRELADOS. Calibração de Comprimento de Ponto para Cada Tipo de Tecido. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-020-distancia-de-seguranca",
@@ -1489,7 +1508,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "BROTHER. Safety Clearances and Hoop Margin Operating Instructions. Nagoya, 2022.",
       "TAJIMA. Frame Collision Prevention & Border Clearance Manual. Nagoya, 2021.",
       "ARTRELADOS. Guia de Segurança e Proteção de Bastidores no Ateliê. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-021-densidade-de-pontos-avancada",
@@ -1562,7 +1582,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "DEVERSON, D. Master Guide to Stitch Density Calibration. London: Textile Press, 2022.",
       "WILCOM. Fabric Assistant & Automatic Density Calibration Guide. Sydney, 2023.",
       "ARTRELADOS. Tabela Mestra de Calibração de Densidades por Tecido. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-022-densidade-variavel-efeitos",
@@ -1635,7 +1656,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "NICOLAS, C. Machine Embroidery as Fine Art: Shading & Perspective. Paris, 2022.",
       "HATCH. Artistic Shading & Gradient Effects in Modern Embroidery. Sydney: Wilcom, 2023.",
       "ARTRELADOS. Efeitos Especiais e Pintura com Agulha no Bordado Computadorizado. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-023-distribuicao-de-pontos",
@@ -1708,7 +1730,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "WILCOM. Stitch Distribution, Smart Corners & Density Balancing. Sydney: Wilcom, 2022.",
       "DEVERSON, D. Vector Topologies for Textile Embroidery. London: Textile Press, 2021.",
       "ARTRELADOS. Distribuição Harmônica de Pontos e Tratamento de Cantos Agudos. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-024-desenho-de-bordado-pratica",
@@ -1781,7 +1804,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "LEE, C. Practical Artwork Adaptation for Machine Embroidery. Seoul, 2022.",
       "PUNDOLE, F. Graphic Principles for Embroidery Digitizers. Mumbai, 2021.",
       "ARTRELADOS. Metodologia Artrelados de Triagem e Adaptação de Desenhos. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-025-digitalizacao-automatica-regras",
@@ -1855,7 +1879,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "BERNINA. Auto-Digitizing Best Practices & Quality Control. Steckborn, 2023.",
       "HATCH. When to Use Auto-Digitize and How to Fix It. Sydney: Wilcom, 2022.",
       "ARTRELADOS. Manual de Sobrevivência e Otimização para Matrizes Automáticas. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-026-digitalizacao-manual-tecnica",
@@ -1930,7 +1955,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "GARCIA, E. Decision Making in Advanced Embroidery Digitizing. Barcelona, 2022.",
       "TAJIMA. Pulse DGML Advanced Master Series. Dallas: Pulse Microsystems, 2023.",
       "ARTRELADOS. A Arte da Decisão: Sequenciamento e Estruturação de Matrizes. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-027-digitalizacao-por-objetos",
@@ -2005,7 +2031,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "WILCOM. Object-Based Embroidery Design Architecture. Sydney: Wilcom, 2022.",
       "EMBIRD. Working with Vector Objects and Properties in Digitizing. Bratislava, 2023.",
       "ARTRELADOS. O Poder dos Objetos Vetoriais na Criação e Redimensionamento. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-028-desenho-de-matriz",
@@ -2064,7 +2091,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "KRAUSZ, P. The Art of Embroidery Digitizing: From Graphic Concept to Master Stitch. New York, 2021.",
       "ARTRELADOS. Fundamentos do Desenho de Matrizes: Estrutura, Camadas e Encaixes Perfeitos. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "D"
   },
   {
     "id": "d-029-deslocamento-de-origem",
@@ -2124,7 +2152,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "BROTHER. Origin Setting and Needle Position Alignment Procedures. Nagoya, 2023.",
       "ARTRELADOS. Posicionamento e Deslocamento de Origem sem Erros de Batida de Bastidor. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "D"
   },
   {
     "id": "d-030-digitalizacao-de-logotipo",
@@ -2200,7 +2229,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "NNEP. Commercial Logo Embroidery: Quality Standards & Lettering. Canton, 2022.",
       "BLANCO, R. Ponchado de Logotipos Corporativos y Marcas. Madri: Ediciones Técnicas, 2021.",
       "ARTRELADOS. Como Bordar Logotipos Perfeitos em Uniformes e Piquê. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-031-desenho-vetorial",
@@ -2274,7 +2304,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "ADOBE. Illustrator Vector Graphics Reference Manual. San Jose: Adobe Press, 2022.",
       "CORELDRAW. Working with Bézier Curves & Vector Shapes. Ottawa: Alludo, 2023.",
       "ARTRELADOS. Guia de Vetores Essenciais para Bordadeiras e Programadores. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-032-definicao-de-sequencia",
@@ -2334,7 +2365,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "DEVERSON, D. Layering and Sequencing for Multi-Color Commercial Embroidery. London, 2021.",
       "ARTRELADOS. Otimização de Sequência de Matrizes: Como Reduzir Minutos Preciosos na Produção. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "D"
   },
   {
     "id": "d-033-detalhamento-da-matriz",
@@ -2408,7 +2440,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "NICOLAS, C. Micro-Detailing and High-Definition Machine Embroidery. Paris, 2022.",
       "MADEIRA. Specialty Threads (40wt vs 60wt) for Fine Lettering and Details. Freiburg, 2023.",
       "ARTRELADOS. Segredos do Detalhamento e Linhas Finas no Bordado Infantil. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-034-direcao-de-preenchimento",
@@ -2484,7 +2517,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "WILCOM. Fill Stitch Directions and Fabric Stress Management. Sydney, 2022.",
       "KRAUSZ, P. Fill Stitch Engineering and Directional Aesthetics. New York, 2021.",
       "ARTRELADOS. Ângulos de Preenchimento: Equilíbrio Têxtil e Estética Visual. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-035-distancia-de-salto",
@@ -2559,7 +2593,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "TAJIMA. Trimming Mechanisms and Jump Length Parameters. Nagoya, 2022.",
       "BROTHER. Jump Stitch Length and Automatic Thread Trimming. Nagoya, 2023.",
       "ARTRELADOS. Como Configurar Saltos e Eliminar Fiados de Linha na Produção. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-036-diagrama-de-pontos",
@@ -2633,7 +2668,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "WILCOM. Stitch View, Needle Points and Sequence Inspection. Sydney, 2022.",
       "TAJIMA. DGML Stitch Editing and Sequence Diagram. Dallas: Pulse Microsystems, 2023.",
       "ARTRELADOS. Como Ler e Auditar o Diagrama de Pontos de uma Matriz. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-037-dimensao-da-matriz",
@@ -2706,7 +2742,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "BROTHER. Embroidery Field Limits and Hoop Dimension Chart. Nagoya, 2022.",
       "JANOME. Hoop Sizing and Design Scaling Precautions. Tokyo, 2023.",
       "ARTRELADOS. Guia de Dimensões Padrão para Cada Tipo de Peça e Bastidor. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-038-densidade-de-linha",
@@ -2780,7 +2817,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "MADEIRA. Thread Weights (40, 60, 75) and Corresponding Stitch Density. Freiburg, 2023.",
       "GUNOLD. Technical Guide to Specialty Threads & Density Setup. Stockstadt, 2022.",
       "ARTRELADOS. Escolha de Linhas Especiais e Calibração de Densidade. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-039-deteccao-de-cores",
@@ -2854,7 +2892,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "WILCOM. Color Palette Reduction & Automatic Color Classification. Sydney, 2022.",
       "BERNINA. Managing Thread Charts and Automatic Color Separation. Steckborn, 2023.",
       "ARTRELADOS. Como Padronizar Paletas de Cores de Linhas Nacionais no Software. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-040-distorcao-do-bordado",
@@ -2927,7 +2966,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "KRAUSZ, P. Push and Pull Dynamics in Machine Embroidery. New York: Textile Press, 2021.",
       "TAJIMA. Fabric Distortion Control and Mechanical Stability. Nagoya, 2022.",
       "ARTRELADOS. Guia Definitivo contra Deformações e Repuxo no Bordado. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-041-definicao-do-bordado",
@@ -3002,7 +3042,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "SCHMETZ. Needle Sharpness and Edge Definition in Automated Stitching. Germany, 2022.",
       "MADEIRA. Achieving Crisp Lettering and High Definition in Embroidery. Freiburg, 2023.",
       "ARTRELADOS. Como Atingir Nitidez Máxima em Nomes e Detalhes Pequenos. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-042-deformacao-do-bordado",
@@ -3075,7 +3116,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "COATS INDUSTRIAL. Puckering and Fabric Deformation: Root Causes & Solutions. London, 2022.",
       "GUNOLD. Hooping Techniques to Prevent Garment Distortion. Stockstadt, 2021.",
       "ARTRELADOS. O Bastidoramento Correto: Como Evitar Franzimentos em Malhas. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-043-defeito-de-bordado",
@@ -3152,7 +3194,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "MADEIRA. Complete Embroidery Troubleshooting Guide: From Cause to Cure. Freiburg, 2023.",
       "BARUDAN. Technical Troubleshooting Manual for Commercial Embroidery. Tokyo, 2022.",
       "ARTRELADOS. Manual Mestre de Diagnóstico e Solução de Defeitos no Bordado. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-044-discos-de-tensao",
@@ -3211,7 +3254,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "TAJIMA. Tension Disc Maintenance, Cleaning and Gram-Force Gauging. Nagoya, 2023.",
       "ARTRELADOS. O Segredo dos Discos de Tensão: Como Evitar Laçadas e Ninhos no Avesso. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "D"
   },
   {
     "id": "d-045-desfiador-de-bordado",
@@ -3270,7 +3314,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "KRAUSZ, P. Repair, Stitch Removal and Garment Salvage in Industrial Embroidery. New York, 2021.",
       "ARTRELADOS. Como Desmanchar Bordados em Minutos Sem Rasgar o Tecido: O Passo a Passo Definitivo. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "D"
   },
   {
     "id": "d-046-dinamica-da-lacada",
@@ -3330,7 +3375,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "SCHMETZ. The Anatomy of Lockstitch Formation: Timing, Clearance & Needle Deflection. Alsdorf, 2023.",
       "ARTRELADOS. Mecânica da Laçada Perfeita: Por Que a Máquina Pula Pontos e Como Resolver. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "D"
   },
   {
     "id": "d-047-divisao-de-matriz",
@@ -3390,7 +3436,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "BERNINA. Multi-Hooping Masterclass: Aligning Split Embroidery Files. Steckborn, 2023.",
       "ARTRELADOS. O Segredo dos Grandes Bordados: Como Dividir Matrizes e Emendar Sem Cicatrizes. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "D"
   },
   {
     "id": "d-048-dupla-face-bordado-limpo",
@@ -3450,7 +3497,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "KRAUSZ, P. Luxury Monogramming: Double-Sided Techniques for High-End Linens. London, 2021.",
       "ARTRELADOS. O Avesso Perfeito: Técnicas para Encantar Clientes de Enxovais Finos. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "D"
   },
   {
     "id": "d-049-debrum-bordado",
@@ -3509,7 +3557,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "COATS INDUSTRIAL. Edge Binding, Trimming and Overcasting Mechanics. London, 2021.",
       "ARTRELADOS. Barrados e Debruns no Bastidor: Acabamentos Nobres para Panos de Prato e Toalhas. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "D"
   },
   {
     "id": "d-050-degrade-de-pontos",
@@ -3569,7 +3618,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "KRAUSZ, P. Thread Painting: Principles of Gradient Stitching and Multi-Tone Shading. New York, 2021.",
       "ARTRELADOS. A Arte do Degradê no Bordado Computadorizado: Como Criar Sombras e Realismo. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "D"
   },
   {
     "id": "d-051-deslocamento-do-pantografo",
@@ -3629,7 +3679,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "BARUDAN. XY-Carriage Motion Dynamics and Timing Integration. Tokyo: Barudan, 2023.",
       "ARTRELADOS. A Mecânica dos Eixos X e Y: Como Cuidar do Pantógrafo da sua Bordadeira. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "D"
   },
   {
     "id": "d-052-desbobinamento-de-linha-e-sentido-do-fio",
@@ -3693,7 +3744,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "BROTHER. Spool Cap Sizing and Thread Guide Delivery Standards. Nagoya, 2023.",
       "ARTRELADOS. O Segredo do Desbobinamento Perfeito: Como Posicionar Cones e Carretéis Sem Quebras. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "D"
   },
   {
     "id": "d-053-dispositivo-de-bone-para-maquinas-domesticas",
@@ -3757,7 +3809,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "JANOME. Hat Hoop & Cap Insert Attachment User Manual. Tokyo, 2023.",
       "ARTRELADOS. Bonés Perfeitos na Máquina Doméstica: O Guia Definitivo do Dispositivo de Boné no Ateliê. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "D"
   },
   {
     "id": "d-054-dupla-entretela-estabilizacao-em-camadas",
@@ -3822,7 +3875,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "MADEIRA. Backing Selection & Density Matrix Guidelines. Freiburg, 2023.",
       "ARTRELADOS. O Segredo da Dupla Entretela: Como Acabar de Vez com Enrugamentos e Contornos Fora do Lugar. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "D"
   },
   {
     "id": "d-055-dente-do-calcador-e-altura-de-flutuacao",
@@ -3887,7 +3941,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "JANOME. Memory Craft Presser Foot Clearance & Fabric Thickness Guide. Tokyo, 2023.",
       "ARTRELADOS. O Pulo do Gato do Calcador: Como Regular a Altura Para Bordar Toalhas e Mantas Sem Trancos. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "D"
   },
   {
     "id": "d-056-deslocamento-por-queda-de-energia-retomada-de-ponto",
@@ -3953,7 +4008,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "JANOME. Memory Craft Stitch Memory Resume Operations Guide. Tokyo, 2023.",
       "ARTRELADOS. Salvação de Peças no Ateliê: Como Retomar Bordados Após Quedas de Energia Sem Deixar Marcas. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "D"
   },
   {
     "id": "d-057-dinamometro-textil-medidor-de-tensao-towa",
@@ -4017,7 +4073,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "SUPERIOR THREADS. Calibrating Thread Tension with Towa Tension Gauges Master Guide. St. George, 2023.",
       "ARTRELADOS. A Ciência da Tensão Perfeita: Como Usar o Dinamômetro Towa Para Eliminar Erros de Ponto. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "D"
   },
   {
     "id": "d-058-digitalizacao-de-monogramas-e-micro-letras",
@@ -4082,7 +4139,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "BROTHER. PE-Design Small Font Typographic Standards for Medical Apparel. Nagoya, 2023.",
       "ARTRELADOS. O Segredo das Letras Perfeitas em Jalecos: Como Bordar Nomes Pequenos com Nitidez Absoluta. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "D"
   },
   {
     "id": "d-059-desgaste-e-rebarba-de-agulha",
@@ -4145,7 +4203,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "ORGAN NEEDLES. Technical Manual: Needle Wear, Point Deformation and Thread Breakage. Tokyo, 2023.",
       "ARTRELADOS. O Segredo da Agulha Perfeita: Como Detectar Rebarbas e Evitar Quebras de Linha no Ateliê. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "D"
   },
   {
     "id": "d-060-distorcao-termica-em-entretela-termossoluvel",
@@ -4209,7 +4268,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "MADEIRA. Chemical & Thermal Backing Processing in High-End Embroidery. Freiburg, 2023.",
       "ARTRELADOS. O Segredo da Entretela Termossolúvel: Como Fazer Limpeza a Seco em Tecidos Delicados. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "D"
   },
   {
     "id": "d-061-deslocamento-do-eixo-y-troca-de-bobina-estacionamento",
@@ -4274,7 +4334,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "JANOME. Memory Craft Hoop Clearance Shift & Bobbin Access Manual. Tokyo, 2023.",
       "ARTRELADOS. Ergonomia e Velocidade no Ateliê: Como Usar o Deslocamento de Bastidor Para Trocas Rápidas de Bobina. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "D"
   },
   {
     "id": "d-062-deflexao-da-agulha-needle-deflection",
@@ -4338,7 +4399,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "SCHMETZ. Technical Guide: SERV 7 Needles for Deflection and Skip-Stitch Prevention. Aachen, 2022.",
       "GROZ-BECKERT. Needle Deflection and Penetration Forces in High-Speed Industrial Embroidery. Albstadt, 2021."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-08-22",
+    "letter": "D"
   },
   {
     "id": "d-063-desfiamento-de-linha-thread-fraying",
@@ -4403,7 +4465,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "SUPERIOR THREADS. Thread Fraying, Eye Abrasion and Friction Mechanics. Utah, 2021.",
       "MADEIRA. Thread Tension & Needle Compatibility Guide: Solving Shredding Issues. Freiburg, 2022."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-08-22",
+    "letter": "D"
   },
   {
     "id": "d-064-densidade-fracionada-e-pontos-curtos-short-stitch-filter",
@@ -4468,7 +4531,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "WILCOM INTERNATIONAL. Cornering, Turning Angles and Short Stitches Master Reference. Sydney, 2022.",
       "PULSE MICROSYSTEMS. Advanced Geometric Vector Filtering and Fractional Satin Control. Dallas, 2021."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-08-22",
+    "letter": "D"
   },
   {
     "id": "d-065-digitalizacao-manual-punching",
@@ -4533,7 +4597,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "DEVERSON, B. The Master Digitizer: Manual Punching and Machine Stitch Architecture. London, 2021.",
       "WILCOM INTERNATIONAL. Embroidery Studio Manual Digitizing Masterclass Reference. Sydney, 2023."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-08-22",
+    "letter": "D"
   },
   {
     "id": "d-066-dupla-face-bordado-clean-back",
@@ -4598,7 +4663,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "MADEIRA. Reversible Embroidery & Water-Soluble Backing Solutions for Fine Linens. Freiburg, 2022.",
       "DEVERSON, B. Clean-Back Machine Techniques and Heirloom Finishing. London, 2021."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-08-22",
+    "letter": "D"
   },
   {
     "id": "d-067-desbobinador-conico-rede-contencao-linha",
@@ -4663,7 +4729,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "SUPERIOR THREADS. Thread Delivery Systems: Cone Unwinding & Thread Net Guidelines. St. George, 2022.",
       "MADEIRA. Metallic Embroidery Thread Handling & Spool Net Application. Freiburg, 2021."
     ],
-    "updatedAt": "2026-08-24"
+    "updatedAt": "2026-08-24",
+    "letter": "D"
   },
   {
     "id": "d-068-deslocamento-gradual-ponto-angulo-curvatura",
@@ -4727,7 +4794,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "WILCOM. Stitch Angles and Flowing Curves Mastery Guide. Sydney, 2023.",
       "KAHN, Max. Digitizing Masterclass for Commercial Embroidery. New York: Textile Press, 2021."
     ],
-    "updatedAt": "2026-08-24"
+    "updatedAt": "2026-08-24",
+    "letter": "D"
   },
   {
     "id": "d-069-desativacao-ponto-curto-curvas-fechadas",
@@ -4792,7 +4860,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "WILCOM. Advanced Digitizing: Corner Stitching and Short Stitch Filtering. Sydney, 2022.",
       "DEVEREUX, Keith. The Science of Stitch Structure and Needle Penetration. Nottingham, 2021."
     ],
-    "updatedAt": "2026-08-24"
+    "updatedAt": "2026-08-24",
+    "letter": "D"
   },
   {
     "id": "d-070-densidade-progressiva-sombra-relevo-optico",
@@ -4858,7 +4927,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "WILCOM. Color Blending and Gradient Stitching Manual. Sydney, 2023.",
       "GORDON, Jill. Machine Embroidery: The Art of Realistic Shading. London, 2021."
     ],
-    "updatedAt": "2026-08-24"
+    "updatedAt": "2026-08-24",
+    "letter": "D"
   },
   {
     "id": "d-071-dreno-eletricidade-estatica-maquinas-bordar",
@@ -4923,7 +4993,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "TAJIMA. Technical Maintenance Guide: Electrical Grounding and ESD Protection. Nagoya, 2022.",
       "BROTHER. Safety and Power Installation Standards for Embroidery Machines. Nagoya, 2021."
     ],
-    "updatedAt": "2026-08-24"
+    "updatedAt": "2026-08-24",
+    "letter": "D"
   },
   {
     "id": "d-072-duplicacao-contorno-compensacao-sobreposicao",
@@ -4988,7 +5059,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "WILCOM. EmbroideryStudio: Outlines, Borders and Overlap Compensation Guide. Sydney, 2023.",
       "KAHN, Max. Commercial Embroidery Fundamentals. New York: Textile Press, 2021."
     ],
-    "updatedAt": "2026-08-24"
+    "updatedAt": "2026-08-24",
+    "letter": "D"
   },
   {
     "id": "d-073-desencaixe-encaixe-rapido-bastidor-trava-magnetica",
@@ -5055,7 +5127,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "MIGHTY HOOP. Magnetic Hoop System Technical Specifications and Safety Manual. Minneapolis, 2023.",
       "SEW TECH. Magnetic Quick-Release Embroidery Clamping Guidelines. Shenzhen, 2022."
     ],
-    "updatedAt": "2026-08-24"
+    "updatedAt": "2026-08-24",
+    "letter": "D"
   },
   {
     "id": "d-074-divisao-ponto-longo-ponto-dividido-automatico",
@@ -5121,7 +5194,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "WILCOM. EmbroideryStudio Technical Manual: Auto-Split Satin & Stitch Length Limits. Sydney, 2023.",
       "KAHN, Max. Digitizing Masterclass for Commercial Embroidery. New York: Textile Press, 2021."
     ],
-    "updatedAt": "2026-08-24"
+    "updatedAt": "2026-08-24",
+    "letter": "D"
   },
   {
     "id": "d-075",
@@ -5190,7 +5264,9 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "MADEIRA THREADS. Color Blending and Shading in Machine Embroidery. Freiburg, 2022.",
       "ARTRELADOS. Guia de Degradê e Sombreado Realista no Bordado Computadorizado. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "code": "D-075",
+    "letter": "D"
   },
   {
     "id": "d-076",
@@ -5258,7 +5334,9 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "BROTHER INDUSTRIES. Service Manual: Feed Dog Mechanism & Embroidery Unit Interlocking. Nagoya, 2022.",
       "ARTRELADOS. Manual de Operação e Mecânica Básica para Bordadeiras. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "code": "D-076",
+    "letter": "D"
   },
   {
     "id": "d-077",
@@ -5326,7 +5404,9 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "WILCOM EMBROIDERYSTUDIO. Digitizing for Fabric Types: Managing Push-Pull Forces. Sydney, 2023.",
       "ARTRELADOS. A Física do Bordado: Dominando o Efeito Push-Pull e Encaixes Perfeitos. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "code": "D-077",
+    "letter": "D"
   },
   {
     "id": "d-078",
@@ -5395,7 +5475,9 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "EMBROIDERY SOFTWARE ASSOCIATION. Universal Machine File Formats: The DST Standard. Atlanta, 2022.",
       "ARTRELADOS. Guia Definitivo de Formatos e Extensões de Arquivos de Bordado. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "code": "D-078",
+    "letter": "D"
   },
   {
     "id": "d-079",
@@ -5464,7 +5546,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "MADEIRA GARN. Industrial Thread Feeding and Spool Stand Optimization. Freiburg, 2023.",
       "ARTRELADOS. Acessórios Essenciais e Estrutura de Ateliê de Bordados. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "code": "D-079",
+    "letter": "D"
   }
 ];
-

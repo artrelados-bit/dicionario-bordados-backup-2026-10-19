@@ -66,7 +66,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "TAJIMA. Industrial Embroidery Head Mechanics & Timing Manual. Nagoya: Tajima Industries, 2022.",
       "BARUDAN. Multi-Head Embroidery Technical Specifications. Tokyo: Barudan Co., 2021.",
       "ARTRELADOS. Anatomia do Cabeçote: Cuidados e Regulagens Diárias. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-002-caixa-da-bobina",
@@ -130,7 +131,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "TOWA. Bobbin Case Tension Gauge User Guide. Tokyo: Towa Industrial Co., 2022.",
       "SCHMETZ. Lower Thread Delivery & Bobbin Case Interaction. Alsdorf: Schmetz GmbH, 2023.",
       "ARTRELADOS. Como Regular a Caixa de Bobina com Precisão Milimétrica. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-003-carcaca-da-maquina-de-bordado",
@@ -193,7 +195,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "BROTHER. Machine Chassis Engineering & Vibration Damping. Nagoya: Brother Industries, 2022.",
       "JANOME. Structural Rigidity and Noise Reduction in Home Embroidery Machines. Tokyo, 2021.",
       "ARTRELADOS. Estabilidade e Cuidados com a Carcaça e Mesa de Bordado. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-004-carregamento-de-matriz",
@@ -259,7 +262,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "WILCOM. Embroidery File Formats and Machine Communication Protocol. Sydney, 2022.",
       "TAJIMA. USB and LAN Design Transfer Instructions. Nagoya: Tajima, 2023.",
       "ARTRELADOS. Boas Práticas de Pen Drive e Organização de Pastas de Bordado. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-005-carro-da-maquina-de-bordado",
@@ -325,7 +329,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "BARUDAN. Pantograph Carriage Mechanism and Stepper Motors. Tokyo, 2022.",
       "BROTHER. Embroidery Arm Alignment and Linear Bearings. Nagoya, 2023.",
       "ARTRELADOS. Cuidados com o Carro de Bordado: Como Evitar Perda de Passo nos Eixos. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-006-carretel-de-linha",
@@ -390,7 +395,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "MADEIRA. Thread Cone Storage, Unwinding and Tension Uniformity. Freiburg, 2023.",
       "LUMINA. Fios de Poliéster para Bordado de Alta Velocidade. São Paulo, 2022.",
       "ARTRELADOS. Guia de Armazenamento e Uso de Cones de Linha no Ateliê. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-007-corte-automatico-de-linha",
@@ -455,7 +461,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "TAJIMA. Automatic Thread Trimmer Mechanism: Knife Timing & Replacement. Nagoya, 2022.",
       "BROTHER. Auto Thread Cutting Assembly and Maintenance. Nagoya, 2023.",
       "ARTRELADOS. Como Manter a Faca de Corte Automático Sempre Afiada e Limpa. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-008-corte-de-linha-manual",
@@ -519,7 +526,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "GINGHER. Precision Embroidery Scissors & Snips Technical Guide. Greensboro, 2022.",
       "DEVERSON, D. Finishing and Trimming Techniques in Machine Embroidery. London, 2021.",
       "ARTRELADOS. Técnicas de Arremate Manual Perfeito com Tesoura de Ponta Curva. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-009-caminho-de-costura",
@@ -584,7 +592,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "WILCOM. Stitch Path Optimization & Branching Logic. Sydney: Wilcom, 2022.",
       "TAJIMA. Pulse DGML Smart Path Routing Algorithms. Dallas, 2023.",
       "ARTRELADOS. Otimização de Caminhos de Costura para Redução de Tempo e Cortes. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-010-camada-de-bordado",
@@ -649,7 +658,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "KRAUSZ, P. Multi-Layer Embroidery Design & Fabric Stability. New York, 2021.",
       "BERNINA. Layer Management and Stitch Sequence in Embroidery Software. Steckborn, 2023.",
       "ARTRELADOS. Construção de Camadas: Do Underlay ao Contorno de Destaque. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-011-camadas-de-pontos",
@@ -713,7 +723,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "WILCOM. Managing Layered Stitch Structures and Density Build-up. Sydney, 2022.",
       "DEVERSON, D. Vector Layering for High-Relief Embroidery. London, 2021.",
       "ARTRELADOS. Como Evitar Placas Duras em Matrizes com Múltiplas Camadas de Pontos. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-012-canal-de-linha",
@@ -779,7 +790,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "BROTHER. Upper Thread Threading Guide & Tension Disc Channels. Nagoya, 2022.",
       "JANOME. Thread Path Integrity and Friction Elimination. Tokyo, 2023.",
       "ARTRELADOS. O Caminho Correto da Linha Superior: Passo a Passo Sem Erros. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-013-canoa-da-bobina",
@@ -843,7 +855,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "KOBAN. Rotary Hook and Bobbin Basket Technical Specification. Osaka: Koban Co., 2022.",
       "SCHMETZ. Needle Deflection and Hook Basket Damage Prevention. Alsdorf, 2023.",
       "ARTRELADOS. Como Inspecionar e Recuperar a Canoa da Bobina do Ateliê. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-014-carregador-de-bobina",
@@ -908,7 +921,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "MADEIRA. Bobbin Winding Density & Tension Guidelines. Freiburg, 2023.",
       "BROTHER. Bobbin Winder Operation and Sensor Adjustment. Nagoya, 2022.",
       "ARTRELADOS. Segredos do Enchimento de Bobina Perfeito para Evitar Nós. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-015-cabecote-multiagulhas",
@@ -971,7 +985,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "TAJIMA. Multi-Needle Color Change System and Cam Alignment. Nagoya, 2022.",
       "BARUDAN. Multi-Needle Mechanics & Needle Bar Drivers. Tokyo, 2021.",
       "ARTRELADOS. Operação e Manutenção Preventiva em Máquinas Multiagulhas. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-016-carro-de-bordado",
@@ -1035,7 +1050,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "BROTHER. Embroidery Arm Assembly and Micro-Stepping Drive. Nagoya, 2023.",
       "TAJIMA. Pantograph Dynamics and X-Y Axis High Speed Drive. Nagoya, 2022.",
       "ARTRELADOS. Como Encaixar e Cuidar do Encaixe do Carro de Bordado. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-017-codigo-de-cores-de-linha",
@@ -1099,7 +1115,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "MADEIRA. Color Card & Pantone Conversion Index for Embroidery Threads. Freiburg, 2023.",
       "LUMINA. Tabela Oficial de Cores de Linha de Poliéster. São Paulo, 2023.",
       "ARTRELADOS. Como Montar a Paleta Padrão do seu Ateliê e Evitar Erros de Cores. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-018-comprimento-de-salto",
@@ -1163,7 +1180,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "WILCOM. Jump Stitch Thresholds & Automated Trimming Parameters. Sydney, 2022.",
       "BARUDAN. Jump Motion Settings & Thread Trimmer Activation. Tokyo, 2021.",
       "ARTRELADOS. Otimização de Comprimento de Salto para Economizar Tempo e Linha. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-019-corte-automatico-de-linha-funcoes",
@@ -1226,7 +1244,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "BROTHER. Embroidery Machine Custom Settings & Trimming Parameters. Nagoya, 2023.",
       "JANOME. Auto-Thread Trimmer Logic and User Preferences. Tokyo, 2022.",
       "ARTRELADOS. Dominando o Menu de Corte Automático da sua Máquina de Bordar. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-020-corte-de-linha-manual-manutencao",
@@ -1289,7 +1308,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "TAJIMA. Knife Maintenance, Sharpening & Lubrication Protocols. Nagoya, 2022.",
       "BARUDAN. Preventative Maintenance for Under-Bed Trimmers. Tokyo, 2021.",
       "ARTRELADOS. Cronograma Semanal de Limpeza e Lubrificação da Chapa de Agulha. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-021-costura-de-contorno",
@@ -1354,7 +1374,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "WILCOM. Outline Creation, Border Alignment & Pull Compensation. Sydney, 2022.",
       "HATCH. Digitizing Outlines and Satin Borders. Sydney: Wilcom, 2023.",
       "ARTRELADOS. Como Fazer Contornos que Encaixam Perfeitamente Sem Sair Fora. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-022-costura-de-fixacao",
@@ -1419,7 +1440,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "BROTHER. Basting Functions and Temporary Stabilization. Nagoya, 2022.",
       "GUNOLD. Framing and Basting Workflows for Delicate Garments. Stockstadt, 2021.",
       "ARTRELADOS. Técnica de Flutuação com Costura de Fixação: Praticidade e Segurança. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-023-costura-de-reforco",
@@ -1483,7 +1505,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "KRAUSZ, P. Reinforcement Stitching & Foundation Engineering. New York, 2021.",
       "WILCOM. Structural Underlays and Fabric Reinforcement. Sydney: Wilcom, 2022.",
       "ARTRELADOS. O Papel da Costura de Reforço em Malhas e Tecidos Finos. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-024-costura-de-uniao",
@@ -1548,7 +1571,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "TAJIMA. Continuous Running Stitch Pathing & Object Union. Nagoya, 2022.",
       "WILCOM. Connecting Runs and Travel Stitches. Sydney: Wilcom, 2023.",
       "ARTRELADOS. Estratégias de Caminho Oculto para Matrizes sem Cortes Excessivos. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-025-costura-de-underlay",
@@ -1613,7 +1637,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "WILCOM. The Master Guide to Embroidery Underlays. Sydney: Wilcom International, 2022.",
       "KRAUSZ, P. Underlay Engineering: The Hidden Backbone of Quality Embroidery. New York, 2021.",
       "ARTRELADOS. Guia Artrelados dos 4 Tipos Fundamentais de Underlay. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-026-cores-de-linha",
@@ -1679,7 +1704,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "MADEIRA. Color Matching, Contrast & Lighting in Embroidery. Freiburg, 2023.",
       "COATS INDUSTRIAL. Color Fastness and Thread Selection for Apparel. London, 2022.",
       "ARTRELADOS. Teoria das Cores Aplicada ao Bordado Computadorizado. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-027-comprimento-do-ponto",
@@ -1744,7 +1770,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "SCHMETZ. Stitch Length, Needle Penetration & Fabric Integrity. Alsdorf, 2022.",
       "WILCOM. Stitch Length Optimization and Filter Thresholds. Sydney, 2023.",
       "ARTRELADOS. O Tamanho Ideal do Ponto para Cada Tecido e Finalidade. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-028-compensacao-de-empurrar-e-puxar",
@@ -1809,7 +1836,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "KRAUSZ, P. Mastering Push and Pull Dynamics in Digitizing. New York: Textile Press, 2021.",
       "TAJIMA. Push-Pull Mechanics and Directional Fabric Movement. Nagoya, 2022.",
       "ARTRELADOS. A Física do Repuxo: Guia Prático de Push & Pull no Ateliê. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-029-controle-de-velocidade",
@@ -1872,7 +1900,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "BARUDAN. Speed Control and Mechanical Harmonic Vibration. Tokyo, 2022.",
       "MADEIRA. High Speed Embroidery Thread Mechanics & Heat Dissipation. Freiburg, 2023.",
       "ARTRELADOS. Qual Velocidade Usar? Guia de PPM para Cada Tipo de Tecido e Linha. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-030-corte-de-bobina",
@@ -1935,7 +1964,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "TAJIMA. Under-Bed Trimmer Knife Timing & Bobbin Thread Tail Length. Nagoya, 2022.",
       "BROTHER. Movable and Fixed Knife Adjustment Guide. Nagoya, 2023.",
       "ARTRELADOS. Como Evitar que a Linha da Bobina Escape Após o Corte. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-031-corte-de-fita",
@@ -1998,7 +2028,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "SCHIFFLI. History of Automatic Embroidery & Jacquard Punch Cards. New Jersey, 2021.",
       "WILCOM. Legacy Tape Formats and Modern Digital Stitch Translation. Sydney, 2022.",
       "ARTRELADOS. Da Fita Perfurada ao Pen Drive: A Fascinante História da Matriz. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-032-corte-de-linha",
@@ -2061,7 +2092,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "TAJIMA. Complete Guide to Thread Trimming Systems & Knotting. Nagoya, 2022.",
       "BROTHER. Trimming Cycle Mechanics and Sensor Feedback. Nagoya, 2023.",
       "ARTRELADOS. Entendendo o Ciclo de Corte de Linha para Evitar Desfiamento. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-033-coluna-de-satin",
@@ -2126,7 +2158,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "WILCOM. Satin Stitch Columns, Turning Angles & Auto-Split. Sydney: Wilcom, 2022.",
       "KRAUSZ, P. Column Stitch Geometry and Lustre Optimization. New York, 2021.",
       "ARTRELADOS. Segredos da Coluna de Satin Perfeita: Larguras e Ângulos. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-034-controle-de-tensao-da-linha",
@@ -2190,7 +2223,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "TOWA. Digital Thread Tension Measurement Guide. Tokyo: Towa Industrial, 2022.",
       "MADEIRA. Upper & Lower Thread Tension Balancing in Commercial Embroidery. Freiburg, 2023.",
       "ARTRELADOS. O Teste de 1/3 da Bobina: Como Regular a Tensão em 5 Minutos. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-035-compensacao-de-puxao-pull-compensation",
@@ -2253,7 +2287,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "WILCOM. Pull Compensation Algorithms and Fabric Properties. Sydney: Wilcom, 2022.",
       "HATCH. Mastering Pull Compensation for Different Fabrics. Sydney, 2023.",
       "ARTRELADOS. Tabela Mestre de Pull Compensation para Malhas, Jeans e Piquet. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-036-configuracao-da-maquina-de-bordado",
@@ -2319,7 +2354,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "BROTHER. Initial Machine Setup & Operational Safety Guide. Nagoya, 2022.",
       "JANOME. Embroidery Machine Preferences & Sensor Calibration. Tokyo, 2023.",
       "ARTRELADOS. Check-List de Decolagem Artrelados para Começar o Dia sem Falhas. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-037-conector-usb",
@@ -2383,7 +2419,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "USB-IF. Universal Serial Bus Specification Standards. Beaverton, 2021.",
       "BROTHER. USB Flash Drive Compatibility & File System Requirements. Nagoya, 2022.",
       "ARTRELADOS. Como Formatar e Cuidar do Pen Drive para Não Travar o Painel. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-038-conversao-de-arquivo-de-bordado",
@@ -2449,7 +2486,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "WILCOM. Embroidery File Format Specification & Conversion Matrix. Sydney, 2022.",
       "EMBIRD. Stitch File Conversion and Compatibility Reference. Bratislava, 2023.",
       "ARTRELADOS. Guia Definitivo de Extensões de Arquivos: PES, JEF, DST, EXP e XXX. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-039-correcao-de-pontos",
@@ -2514,7 +2552,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "WILCOM. Stitch-by-Stitch Editing & Error Correction. Sydney: Wilcom, 2022.",
       "TAJIMA. DGML Point Editing & Quality Assurance. Dallas: Pulse Microsystems, 2023.",
       "ARTRELADOS. Como Auditar e Limpar Matrizes Prontas Antes de Colocar na Máquina. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-040-costura-de-seguranca",
@@ -2578,7 +2617,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "WILCOM. Tie-in and Tie-off Locking Stitches: Parameters and Security. Sydney, 2022.",
       "MADEIRA. Lock Stitch Durability and Wash-Fastness in Apparel. Freiburg, 2023.",
       "ARTRELADOS. Por que os Arremates São a Alma da Durabilidade no Bordado. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-041-contorno-de-bordado",
@@ -2643,7 +2683,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "WILCOM. Outlining Principles, Contrast & Border Synchronization. Sydney, 2022.",
       "HATCH. Creating Clean Vector Outlines in Embroidery. Sydney, 2023.",
       "ARTRELADOS. O Segredo dos Contornos que Não Deslocam em Tecidos Elásticos. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-042-corte-de-apontamento-jump-cut",
@@ -2710,7 +2751,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "TAJIMA. Jump Cut Logic and Mechanical Solenoid Response. Nagoya, 2022.",
       "BROTHER. Jump Stitch Trimming Configuration for Multi-Object Designs. Nagoya, 2023.",
       "ARTRELADOS. Configuração de Jump Cuts para Produções de Alta Escala. São Paulo, 2024."
-    ]
+    ],
+    "letter": "C"
   },
   {
     "id": "c-043-compensacao-de-empurrao-push-compensation",
@@ -2801,7 +2843,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "DEVERTER, Bonnie. The ABCs of Machine Embroidery Digitizing: Physical Dynamics. Chicago, 2020.",
       "ARTRELADOS. Física e Mecânica da Digitalização de Matrizes. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "C"
   },
   {
     "id": "c-044-calcador-de-bordado",
@@ -2860,7 +2903,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "TAJIMA. Hopping Foot Dynamics & Flagging Prevention. Nagoya: Tajima, 2023.",
       "ARTRELADOS. A Importância da Regulagem de Altura do Calcador de Bordado. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "C"
   },
   {
     "id": "c-045-chapa-de-agulha",
@@ -2919,7 +2963,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "TAJIMA. Needle Plate Inspection, Polishing and Clearance Standards. Nagoya, 2023.",
       "ARTRELADOS. Guia de Manutenção da Chapa de Agulha: Como Eliminar Rebarbas e Evitar Quebras de Linha. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "C"
   },
   {
     "id": "c-046-curva-bezier-digitalizacao",
@@ -2978,7 +3023,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "HATCH. Mastering Curve Controls & Stitch Angles. Sydney: Wilcom, 2023.",
       "ARTRELADOS. A Arte dos Nós Bézier na Digitalização de Bordados Profissionais. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "C"
   },
   {
     "id": "c-047-camada-cobertura-topping",
@@ -3038,7 +3084,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "MADEIRA. Avalon Film & Water Soluble Stabilizers Technical Reference. Freiburg, 2023.",
       "ARTRELADOS. O Segredo do Bordado Impecável em Toalhas: Uso Correto do Topping Hidrossolúvel. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "C"
   },
   {
     "id": "c-048-conectividade-wifi-nuvem",
@@ -3098,7 +3145,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "BERNINA. Cloud Connectivity and Smart Machine Ecosystems. Steckborn, 2023.",
       "ARTRELADOS. Automação no Ateliê: Como Usar o Wi-Fi para Ganhar Tempo na Produção. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "C"
   },
   {
     "id": "c-049-centralizacao-automatica-bastidor",
@@ -3157,7 +3205,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "HATCH. Managing Design Position & Bounding Box Calculations. Sydney, 2023.",
       "ARTRELADOS. Alinhamento e Centralização: O Passo Crucial Antes de Ligar a Máquina. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "C"
   },
   {
     "id": "c-050-cabo-de-agulha-fixador",
@@ -3216,7 +3265,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "BROTHER. Needle Clamp Assembly and Replacement Guide. Nagoya, 2023.",
       "ARTRELADOS. Como Trocar a Agulha Corretamente: Altura, Encaixe e Torque do Parafuso. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "C"
   },
   {
     "id": "c-051-cera-lubrificante-linhas-silicone",
@@ -3275,7 +3325,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "COATS INDUSTRIAL. Synthetic Thread Lubrication & Heat Dissipation in High-Speed Sewing. London, 2022.",
       "ARTRELADOS. Segredos da Linha Metálica: Como Bordar com Brilho Sem Nenhuma Quebra. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "C"
   },
   {
     "id": "c-052-caneta-fantasma-termoapagavel",
@@ -3339,7 +3390,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "BROTHER. Embroidery Alignment & Fabric Marking Tools Guide. Nagoya: Brother Industries, 2023.",
       "ARTRELADOS. Marcação Sem Erros: O Guia Definitivo das Canetas Fantasma no Bordado Computadorizado. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "C"
   },
   {
     "id": "c-053-calcador-com-mira-led-ponteiro-de-luz",
@@ -3402,7 +3454,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "JANOME. Memory Craft Optical LED Positioning Device User Guide. Tokyo, 2023.",
       "ARTRELADOS. O Segredo do Calcador com Mira LED: Como Alinhar e Emendar Barrados Perfeitos. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "C"
   },
   {
     "id": "c-054-cola-temporaria-em-spray-505",
@@ -3465,7 +3518,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "SUPERIOR THREADS. Machine Embroidery Stabilizers & Adhesives Master Guide. St. George, 2023.",
       "ARTRELADOS. O Segredo do Spray 505: Como Usar Cola Temporária Sem Sujar Sua Máquina. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "C"
   },
   {
     "id": "c-055-compensacao-de-fracao-de-ponto-ponto-curto",
@@ -3529,7 +3583,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "KRAUSZ, P. Curve Density Management and Needle Hole Distribution in Digitizing. New York, 2021.",
       "ARTRELADOS. Curvas Perfeitas no Bordado: O Segredo dos Pontos Curtos Para Não Rasgar o Tecido. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "C"
   },
   {
     "id": "c-056-clipe-de-bastidor-e-travas-laterais",
@@ -3591,7 +3646,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "JANOME. Hoop Clamping and Bulk Fabric Safety Standards. Tokyo, 2023.",
       "ARTRELADOS. Nunca Mais Perca Uma Peça: O Guia de Segurança com Clipes de Bastidor no Ateliê. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "C"
   },
   {
     "id": "c-057-conversao-de-formatos-de-matriz",
@@ -3657,7 +3713,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "BROTHER. PE-Design Format Exporting & Machine Version Standards. Nagoya, 2023.",
       "ARTRELADOS. O Dicionário dos Formatos de Matriz: Entenda de Vez PES, JEF, EXP e DST Sem Confusão. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "C"
   },
   {
     "id": "c-058-caixa-de-bobina-para-linha-grossa-bobbin-work",
@@ -3721,7 +3778,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "BERNINA. Creative Bobbin Play & Free-Motion Bobbin Work Techniques. Steckborn, 2023.",
       "ARTRELADOS. O Poder do Bobbin Work: Como Criar Efeitos de Linha Grossa e Fitas na Sua Máquina. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "C"
   },
   {
     "id": "c-059-cartao-de-cores-e-tabela-de-conversao-de-linhas",
@@ -3783,7 +3841,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "MADEIRA THREADS. Pantone Matching System & Global Thread Color Conversion Guide. Freiburg, 2023.",
       "ARTRELADOS. O Segredo das Cores Perfeitas: Como Usar Cartelas de Linhas Para Acertar Tons de Primeira. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "C"
   },
   {
     "id": "c-060-correia-dentada-do-pantografo-e-eixo-xy",
@@ -3847,7 +3906,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "JANOME. Memory Craft Service Standards: X/Y Carriage Belt Calibration. Tokyo, 2023.",
       "ARTRELADOS. A Mecânica do Alinhamento Perfeito: Como Funcionam as Correias e Motores da Sua Bordadeira. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "C"
   },
   {
     "id": "c-061-calibragem-do-sensor-de-bobina",
@@ -3911,7 +3971,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "JANOME. Memory Craft Low Bobbin Optical Sensor Sensitivity Guide. Tokyo, 2023.",
       "ARTRELADOS. Dominando os Sensores da Sua Máquina: Como Regular o Aviso de Bobina Sem Desperdício. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "C"
   },
   {
     "id": "c-062-calibracao-ponto-zero-central",
@@ -3974,7 +4035,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "BROTHER. Embroidery Carriage Initialization & Zero Point Homing Standards. Nagoya, 2022.",
       "JANOME. Memory Craft Axis Calibration and Center Origin Setup Guide. Tokyo, 2023."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-08-22",
+    "letter": "C"
   },
   {
     "id": "c-063-caixa-transporte-dentes-rebaixados",
@@ -4036,7 +4098,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "SINGER. Mechanics of Drop Feed and Free-Motion Embroidery Mechanisms. New York, 2021.",
       "JANOME. Drop Feed Lever Operation and Maintenance Guide. Tokyo, 2022."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-08-22",
+    "letter": "C"
   },
   {
     "id": "c-064-curvatura-de-ponto-bezier-tuning",
@@ -4099,7 +4162,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "WILCOM INTERNATIONAL. Vector Shapes, Bezier Node Editing and Curve Stitching Guide. Sydney, 2022.",
       "BÉZIER, P. Curves and Surfaces for Computer-Aided Geometric Design. Academic Press, 1986."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-08-22",
+    "letter": "C"
   },
   {
     "id": "c-065-cera-lubrificante-de-linha-silicone-oil",
@@ -4162,7 +4226,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "MADEIRA. Metallic Threads Processing & Liquid Lubrication Guidelines. Freiburg, 2022.",
       "SUPERIOR THREADS. Sewer's Aid Silicone Lubrication and Thread Friction Control. Utah, 2021."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-08-22",
+    "letter": "C"
   },
   {
     "id": "c-066-corte-salto-jump-stitch-trim",
@@ -4227,7 +4292,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "BROTHER. Auto Thread Trimmer & Jump Stitch Trimming Configuration Manual. Nagoya, 2022.",
       "TAJIMA. Automatic Under-bed Thread Trimming Mechanism & Timing. Nagoya, 2021."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-08-22",
+    "letter": "C"
   },
   {
     "id": "c-067-cantos-vivos-e-esquadro-de-ponto",
@@ -4771,7 +4837,9 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "GUNOLD GMBH. Bobbin Thread Selection and Tension Management in Automated Embroidery. Stockstadt, 2023.",
       "ARTRELADOS. Guia de Fios e Linhas para Máquinas de Bordar Computadorizadas. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "code": "C-075",
+    "letter": "C"
   },
   {
     "id": "c-076",
@@ -4840,7 +4908,9 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "TAJIMA INDUSTRIES. Tajima Technical Service Manual: Throat Plate Calibration. Nagoya, 2021.",
       "ARTRELADOS. Manual de Manutenção Preventiva e Cuidados Mecânicos para Máquinas de Bordar. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "code": "C-076",
+    "letter": "C"
   },
   {
     "id": "c-077",
@@ -4909,7 +4979,9 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "HATCH EMBROIDERY. Mastering Stitch Angles in Curved Lettering and Monograms. Austin, 2022.",
       "ARTRELADOS. Segredos da Digitalização Avançada de Matrizes de Bordado. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "code": "C-077",
+    "letter": "C"
   },
   {
     "id": "c-078",
@@ -4978,7 +5050,9 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "JANOME EMBROIDERY. Template Alignment and Precision Hooping Guide. Tóquio, 2021.",
       "ARTRELADOS. Guia de Posicionamento Perfeito e Alinhamento no Bordado Computadorizado. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "code": "C-078",
+    "letter": "C"
   },
   {
     "id": "c-079",
@@ -5047,8 +5121,1561 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "WILCOM EMBROIDERYSTUDIO. Automatic Trimming & Tie-off Settings in Commercial Digitizing. Sydney, 2023.",
       "ARTRELADOS. Guia de Produtividade e Acabamento Perfeito no Bordado Computadorizado. Curitiba, 2024."
     ],
+    "updatedAt": "2026-08-28",
+    "code": "C-079",
+    "letter": "C"
+  },
+  {
+    "id": "c-080-comutador-de-cores-motor-de-passo",
+    "code": "C-080",
+    "letter": "C",
+    "term": "Comutador de Cores / Motor de Passo da Troca de Agulhas (Color Change Stepping Motor & Geneva Mechanism)",
+    "level": "Avançado 🔴",
+    "category": "Equipamentos e Máquinas",
+    "grammarClass": "Substantivo masculino composto por substantivos e locuções adjetivas.",
+    "origin": "Do latim commutare (trocar, alternar posições) e do inglês step motor (motor de passos angulares controlados por pulsos eletromagnéticos). Desenvolvido pela engenharia mecatrônica japonesa nos anos 1980.",
+    "summary": "Sistema eletromecânico de alta precisão composto por motor de passo e came helicoidal que desloca o bloco frontal de agulhas para engatar a barra selecionada em milissegundos.",
+    "definition": "O comutador de cores e motor de passo da troca de agulhas (color change stepping motor, linear needle case actuator and Geneva indexing mechanism) é o conjunto mecatrônico de indexação posicional responsável por deslocar linearmente o cabeçote móvel com as barras de agulha (de 4 até 15 ou mais agulhas) para a posição exata de costura do bloco da lançadeira e da alavanca estica-fio. O sistema lê o comando de troca de cor inserido no arquivo de matriz (.DST, .PES, etc.), aciona o motor de passo com controle de malha fechada ou encoder absoluto, gira o parafuso sem-fim ou came indexador e trava mecanicamente a agulha escolhida sob o acionador principal com precisão micrométrica em menos de 0,8 segundo.",
+    "technicalDetails": "O acionador de troca de cores opera com passos angulares de 1,8° por pulso (frequentemente subdivididos em micro-passos por drivers PWM), garantindo repetibilidade de posicionamento de ±0,02 mm. Um sensor óptico ou chave fim de curso magnética (Hall effect home sensor) calibra a agulha de origem (posição inicial 1). O mecanismo conta com travamento mecânico tipo Cruz de Malta ou perfil cilíndrico helicoidal que absorve as cargas de inércia do cabeçote em alta velocidade sem provocar folgas axiais.",
+    "howItWorks": [
+      "1. O arquivo da matriz envia um comando de mudança de bloco de cor (Stop / Color Change).",
+      "2. A máquina finaliza a cor anterior, dá pontos de arremate, corta a linha superior e recolhe a haste para a posição morta superior (100° do ciclo).",
+      "3. O motor de passo de troca de cores recebe o trem de pulsos da CPU e gira o eixo com o came espiral.",
+      "4. O bloco frontal de agulhas desliza suavemente sobre trilhos retificados até que a nova agulha fique perfeitamente alinhada com a barra de impacto e a lançadeira.",
+      "5. O sensor de confirmação valida o engate e a máquina reinicia a costura instantaneamente na nova cor."
+    ],
+    "beginnerExplanation": "É o 'trocador automático de linhas' da sua máquina multiagulhas! Em vez de você ter que parar o trabalho, tirar a linha e passar outra na mesma agulha toda vez que a cor do desenho muda, a máquina tem um motorzinho super rápido que anda com o carrinho de agulhas para o lado e coloca a agulha da próxima cor certinha no lugar de costurar!",
+    "applications": [
+      "Máquinas de bordar industriais e semi-industriais multiagulhas (4, 6, 10, 12 e 15 agulhas).",
+      "Bordados complexos e policromáticos com mais de 8 trocas de cor consecutivas.",
+      "Aumento drástico de produtividade comercial, reduzindo o tempo de troca de cor de minutos para menos de 1 segundo.",
+      "Sincronização perfeita de fios especiais (linha metálica em uma agulha, poliéster em outra e rayon em uma terceira)."
+    ],
+    "characteristics": [
+      "Indexação linear ultrarrápida com amortecimento eletrônico de parada.",
+      "Sensor de posição zero absoluto para evitar desalinhamento de agulha.",
+      "Trilhos de aço temperado com esferas recirculantes para mínimo atrito."
+    ],
+    "commonErrors": [
+      "❌ Forçar manualmente o deslizamento do cabeçote de agulhas com a máquina ligada, danificando o engrenamento do motor de passo",
+      "❌ Trabalhar com falta de lubrificação no trilho deslizante do cabeçote, causando erro de 'Color Change Error' ou travamento no meio da troca",
+      "❌ Deixar pontas de linhas desfiadas ou cones caídos enroscarem nos guias de agulhas vizinhas durante a movimentação rápida do carro"
+    ],
+    "troubleshootingTips": [
+      "Se a máquina emitir o alarme 'Color Change Time Out / Error': Limpe o trilho horizontal do cabeçote com pincel e aplique uma gota de óleo lubrificante de alta pureza nas guias de esferas.",
+      "Se a agulha descer torta e bater na chapa de ponto após a troca: O sensor óptico de posição de agulha pode estar sujo com fiapos de linha; limpe a fenda do sensor com ar comprimido suave.",
+      "Se o cabeçote fizer barulho metálico estalando ao mudar de cor: Verifique se o parafuso de calibração do came de engate está solto e solicite ajuste mecânico autorizado."
+    ],
+    "dicaArtrelados": "Mantenha sempre uma rotina de limpeza semanal dos trilhos de troca de cor: passe um pincel de cerdas macias para tirar todo o pó de linha e aplique apenas meia gotinha de óleo de máquina Singer/Tajima nos trilhos. Isso faz a troca de cor trabalhar silenciosa e suave por anos!",
+    "voceSabia": "Nas primeiras máquinas industriais automáticas dos anos 1960, a troca de cor era feita manualmente por um operador que girava uma grande manivela metálica numerada no topo do cabeçote para selecionar cada cor!",
+    "practicalExercise": "No painel da sua máquina multiagulhas, acesse o menu de teste manual de agulhas. Comande a troca sequencial da agulha 1 para a 6 e observe o deslocamento fluido do cabeçote e o alinhamento da haste com a chapa de ponto.",
+    "quickSummary": "Mecanismo inteligente com motor de passo que move o conjunto de agulhas e engata a próxima cor de bordado em fração de segundo.",
+    "recommendedSettings": {
+      "speedPPM": "Ciclo automático em ~0,7 segundo por troca de cor",
+      "needleType": "Calibração para todas as agulhas 65/9 a 90/14",
+      "stabilizer": "N/A (Mecatrônica de cabeçote)"
+    },
+    "relatedTerms": [
+      "Cabeçote de Bordado Industrial",
+      "Barra de Agulha",
+      "Comutação de Ponto e Salto",
+      "Arremate Automático (Tie-off)",
+      "Chapa de Agulha"
+    ],
+    "tags": [
+      "c-080",
+      "comutador de cores",
+      "motor de passo",
+      "color change",
+      "multiagulhas",
+      "cabeçote",
+      "mecanica",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA EMBROIDERY SYSTEMS. Electronic Color Change Mechanism & Stepping Motor Maintenance Manual. Nagoya, 2022.",
+      "BARUDAN CO. Multi-Needle Head Drive & Linear Indexing Systems. Ichinomiya, 2021.",
+      "ARTRELADOS. Engenharia e Mecatrônica das Bordadeiras Computadorizadas no DIBE. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-081-cone-de-linha-fotoluminescente",
+    "code": "C-081",
+    "letter": "C",
+    "term": "Cone de Linha Fotoluminescente / Linha que Brilha no Escuro (Glow-in-the-Dark Phosphorescent Thread)",
+    "level": "Fundamental 🟢",
+    "category": "Insumos & Fios",
+    "grammarClass": "Locução substantiva feminina composta.",
+    "origin": "Do grego phos (luz) e phoros (portador), acrescido do latim linea (fio). Desenvolvida pela indústria química têxtil com micropartículas de aluminato de estrôncio sintetizadas nos anos 1990.",
+    "summary": "Linha especial de bordado impregnada com pigmentos fosforescentes que absorvem luz ambiente e emitem luminescência verde, azul ou amarela em ambientes escuros.",
+    "definition": "O cone de linha fotoluminescente (glow-in-the-dark specialty embroidery thread, phosphorescent polyester filament) é um insumo técnico composto por filamento de poliéster 100% ou náilon revestido ou extrudado com partículas microcristalizadas de aluminato de estrôncio dopado com európio (SrAl2O4:Eu). Essas partículas têm a propriedade física de armazenar energia fotônica proveniente de luz natural (solar) ou artificial (lâmpadas LED, fluorescentes ou ultravioleta) e liberá-la lentamente através de luminescência visível no escuro por períodos de 20 minutos a mais de 4 horas, mantendo a maleabilidade de bordado.",
+    "technicalDetails": "A linha fotoluminescente possui espessura padrão 40wt (120/2) ou 30wt ligeiramente mais encorpada, com textura superficial ligeiramente mais áspera devido aos microcristais cerâmicos minerais. Apresenta tensão de ruptura ligeiramente menor que o poliéster trilobal convencional (cerca de 850 cN), exigindo canaleta de passagem limpa, redução de tensão superior em 10% a 15% e preferência por agulha com furo e canaleta ampliados (Topstitch ou Agulha de Titânio 80/12).",
+    "howItWorks": [
+      "1. O cone é instalado no porta-fios da máquina, passando pelos guias de linha e tensores ajustados com tração suave.",
+      "2. A máquina borda o desenho normalmente em contornos de ponto cheio, tatami ou detalhes de roupas infantis e uniformes de segurança.",
+      "3. O bordado pronto é exposto a uma fonte de luz comum durante o dia ou por 5 minutos sob luz direta.",
+      "4. Ao entrar em local escuro, o bordado emite um brilho suave e contínuo (geralmente esverdeado ou azul neon), criando um efeito visual impressionante sem necessidade de baterias ou fios elétricos."
+    ],
+    "beginnerExplanation": "É a famosa 'linha que brilha no escuro'! De dia, ela parece uma linha branca, amarelinha ou clarinha normal. Mas basta deixar a peça na luz e depois ir para um quarto escuro que o bordado acende todinho com uma luz mágica verde ou azul! É a linha favorita para pijamas infantis, roupas de festa e fantasias de Halloween!",
+    "applications": [
+      "Pijamas infantis, fantasias, almofadas e enxovais temáticos de estrelas e galáxias.",
+      "Uniformes de ciclistas, coletes de segurança noturna e jaquetas esportivas.",
+      "Logotipos criativos de casas noturnas, festivais, eventos musicais e bonés de streetwear.",
+      "Detalhes secretos de monogramas em presentes personalizados de alta exclusividade."
+    ],
+    "characteristics": [
+      "Emissão de luz sustentada por até várias horas após poucos minutos de carga fotônica.",
+      "Alta resistência a lavagens domésticas convencionais sem perda do efeito fosforescente.",
+      "Toque macio no tecido após bordado, sem a rigidez de circuitos eletrônicos."
+    ],
+    "commonErrors": [
+      "❌ Bordar na velocidade máxima de 1.000 PPM, gerando aquecimento excessivo pelo atrito dos microcristais e partindo a linha com frequência",
+      "❌ Usar agulha fina 65/9 que esmaga a linha no furo e descasca os cristais luminosos",
+      "❌ Aplicar ferro de passar roupa fervendo diretamente sobre o bordado sem tecido protetor, danificando o revestimento polimérico brilhante"
+    ],
+    "troubleshootingTips": [
+      "Se a linha fotoluminescente estiver quebrando muito: Troque a agulha por uma Topstitch ou Bordado 80/12 e reduza a velocidade da máquina para 650 PPM.",
+      "Se o brilho parecer fraco: 'Carregue' a peça colocando-a por 2 minutos bem debaixo de uma luminária LED ou luz solar direta e teste no escuro total.",
+      "Se a linha estiver desfiando na passagem: Aplique uma gotinha de óleo de silicone lubrificante na esponja guia antes da entrada nos tensores."
+    ],
+    "dicaArtrelados": "Para criar um efeito noturno deslumbrante que surpreende qualquer cliente, use a linha fotoluminescente apenas nos contornos ou detalhes internos de um desenho bordado com linhas escuras normais (como olhos de bichinhos, estrelas no céu ou o contorno de um nome): o contraste no escuro fica surreal!",
+    "voceSabia": "As partículas de aluminato de estrôncio usadas nas linhas fotoluminescentes modernas brilham até 10 vezes mais forte e por 10 vezes mais tempo do que as antigas tintas à base de sulfeto de zinco usadas no século passado, e são 100% atóxicas e livres de radiação!",
+    "practicalExercise": "Programe uma matriz com o desenho de uma lua e estrelinhas. Borde as estrelas com linha fotoluminescente e o contorno com linha preta convencional. Carregue o bordado sob a luz e apague a luz do ateliê para admirar o resultado!",
+    "quickSummary": "Linha especial com pigmentos que absorvem luz e brilham no escuro, ideal para peças infantis, segurança e moda criativa.",
+    "recommendedSettings": {
+      "speedPPM": "600 a 700 PPM",
+      "needleType": "80/12 Topstitch ou Titânio Ponta Leve Bola",
+      "stabilizer": "Entretela rasgável ou hidrossolúvel de boa gramatura (50g)"
+    },
+    "relatedTerms": [
+      "Cone de Linha de Poliéster 120/2 (40wt Standard)",
+      "Linha Metálica de Alma Sintética",
+      "Tensão de Linha Superior",
+      "Agulha Topstitch / Bordado Especial",
+      "Velocidade em PPM"
+    ],
+    "tags": [
+      "c-081",
+      "linha fotoluminescente",
+      "brilha no escuro",
+      "glow in the dark",
+      "fosforescente",
+      "insumos",
+      "infantil",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "MADEIRA THREADS. Specialty Phosphorescent & Luminescent Embroidery Guide. Freiburg, 2022.",
+      "GUNOLD GMBH. Glow Line Threads: Processing, Washing & Technical Applications. Stockstadt, 2021.",
+      "ARTRELADOS. Guia de Fios Especiais e Efeitos Criativos no Bordado Computadorizado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-082-cera-silicone-liquido-passagem-linha",
+    "code": "C-082",
+    "letter": "C",
+    "term": "Cera de Silicone Líquido para Passagem de Linha (Liquid Silicone Thread Lubricant)",
+    "level": "Intermediário 🟡",
+    "category": "Insumos & Manutenção",
+    "grammarClass": "Locução substantiva feminina composta.",
+    "origin": "Do latim cera (substância emoliente untuosa) e do elemento químico silício (polímero sintético de siloxano). Criado na indústria têxtil alemã nos anos 1970 para facilitar a passagem de fios em alta fricção.",
+    "summary": "Fluido lubrificante atóxico e incolor formulado à base de silicone de grau técnico para reduzir o coeficiente de atrito, aquecimento e estática em linhas de bordar difíceis.",
+    "definition": "A cera e óleo de silicone líquido para passagem de linha (thread lubricant, liquid silicone sewing aid, anti-friction thread balm) é um composto sintético fluido límpido e transparente de polidimetilsiloxano formulado especificamente para uso em bordadeiras industriais e domésticas. Sua aplicação em esponjas ou filtros guia ao longo da rota da linha cria uma película monomolecular ultrarresvaladiça sobre o filamento, reduzindo drasticamente o atrito gerado nos discos tensores, ilhoses guia e no olho da agulha (onde a temperatura pode passar de 150 °C a 1.000 PPM), prevenindo o desfiamento, formação de nós falsos e quebras repentinas de linhas metálicas, algodão e poliéster ressecado.",
+    "technicalDetails": "Possui viscosidade controlada (entre 100 e 350 cSt a 25 °C), ponto de fulgor superior a 300 °C, sendo 100% quimicamente inerte e volátil a seco em tecidos após a lavagem. Não mancha fibras de algodão, poliéster ou seda, não amarela tecidos brancos e possui propriedades antiestáticas que impedem o acúmulo de eletricidade estática gerada pelo atrito em fios metálicos e sintéticos.",
+    "howItWorks": [
+      "1. Aplica-se de 2 a 3 gotas do silicone líquido na pequena esponja ou feltro alojado na guia superior do porta-fios da máquina.",
+      "2. Conforme o fio desenrola do cone em direção aos tensores, ele desliza pela esponja umedecida, recebendo uma microcamada invisível e uniforme.",
+      "3. Ao passar em alta velocidade pelo olho aquecido da agulha, a película de silicone atua como escudo térmico e lubrificante mecânico.",
+      "4. O bordado flui sem nenhuma quebra de linha, e a peça finalizada não fica com resíduos pegajosos ou manchas oleosas."
+    ],
+    "beginnerExplanation": "É como se fosse um 'hidratante mágico' para as linhas da sua máquina! Sabe quando uma linha metálica brilhante ou uma linha mais velhinha fica desfiando e quebrando toda hora? Você pinga uma gotinha desse silicone na esponjinha da máquina e a linha passa lisinha pelos furinhos, sem enroscar nem arrebentar!",
+    "applications": [
+      "Bordados com linhas metálicas (ouro, prata e purpurina) em alta velocidade.",
+      "Uso em linhas de rayon e viscose propensas a estática e desfiamento.",
+      "Bordados densos sobre tecidos duros e ásperos (lona, couro, jeans pesado e sarja).",
+      "Recuperação e aproveitamento de cones de linha que ficaram ressecados pelo tempo ou clima seco."
+    ],
+    "characteristics": [
+      "Incolor, inodoro e 100% seguro para roupas de bebê e tecidos delicados.",
+      "Reduz em até 70% o aquecimento da agulha por fricção mecânica contínua.",
+      "Não deixa mancha permanente e sai na primeira lavagem convencional."
+    ],
+    "commonErrors": [
+      "❌ Encharcar o cone inteiro com óleo de máquina comum amarelo, arruinando a linha e manchando irremediavelmente o tecido do cliente",
+      "❌ Usar desengripante automotivo ou silicone doméstico em spray com solventes corrosivos que atacam os plásticos da máquina",
+      "❌ Deixar a esponja acumular poeira de anos sem lavar, transformando o lubrificante em uma pasta abrasiva suja"
+    ],
+    "troubleshootingTips": [
+      "Se a linha metálica estiver quebrando a cada 200 pontos: Umedeça a esponjinha guia com 2 gotas de silicone líquido e diminua a velocidade para 650 PPM.",
+      "Se o silicone pingar no tecido: Não esfregue a seco; passe um pano limpo com água morna e sabão neutro para dissolver imediatamente.",
+      "Se a esponja guia estiver dura e escura: Lave-a com sabão neutro em água corrente, deixe secar completamente e recarregue com 2 gotinhas de silicone novo."
+    ],
+    "dicaArtrelados": "Tenha sempre um frasquinho conta-gotas de silicone puro para bordado (Sewer's Aid) na sua bancada: quando aquela linha dourada teimosa quiser te dar trabalho na véspera da entrega, duas gotinhas na guia resolvem a situação como mágica!",
+    "voceSabia": "Em máquinas industriais de alta velocidade operando a 1.200 PPM, a fricção contínua da linha no olho de uma agulha sem lubrificação pode fazer a ponta de aço atingir temperaturas suficientes para derreter filamentos de poliéster no milésimo de segundo do arremate!",
+    "practicalExercise": "Pegue um cone de linha metálica que costuma arrebentar. Borde um desenho de teste sem lubrificante e anote as quebras. Depois, aplique duas gotas de silicone na esponja guia e borde o mesmo desenho na mesma velocidade. Compare a suavidade do ponto!",
+    "quickSummary": "Fluido de silicone neutro que lubrifica a linha e resfria a agulha, eliminando quebras e desfiamentos em fios difíceis.",
+    "recommendedSettings": {
+      "speedPPM": "Permite bordar fios metálicos com segurança a 650-750 PPM",
+      "needleType": "Agulha Metallic 80/12 ou Titânio",
+      "stabilizer": "Compatível com todo tipo de entretela"
+    },
+    "relatedTerms": [
+      "Cone de Linha Metálica de Alma Sintética",
+      "Aquecimento e Fricção de Agulha",
+      "Discos Tensores de Linha",
+      "Agulha Titânio / Metallic",
+      "Manutenção Preventiva do Cabeçote"
+    ],
+    "tags": [
+      "c-082",
+      "silicone liquido",
+      "lubrificante de linha",
+      "sewers aid",
+      "antifriccao",
+      "linha metalica",
+      "manutencao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "AMANN GROUP. Thread Lubrication and High-Speed Friction Management in Automated Embroidery. Bönnigheim, 2022.",
+      "COATS INDUSTRIAL. Synthetic Thread Finishes & Lubrication Dynamics. Londres, 2021.",
+      "ARTRELADOS. Guia Definitivo de Insumos e Cuidados com Linhas Especiais no DIBE. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-083-controlador-tensao-eletronico-digital",
+    "code": "C-083",
+    "letter": "C",
+    "term": "Controlador de Tensão Eletrônico Digital (Electronic Active Thread Tension Control)",
+    "level": "Avançado 🔴",
+    "category": "Equipamentos e Máquinas",
+    "grammarClass": "Substantivo masculino composto com adjetivos qualificadores.",
+    "origin": "Do francês contrôle (verificação e comando), do latim tensio (estiramento de força) e do grego digitus (representado por valores numéricos discretos). Desenvolvido pela engenharia suíça e japonesa de máquinas industriais a partir de 2015.",
+    "summary": "Sistema mecatrônico computadorizado que substitui a regulagem manual por molas por atuadores eletromagnéticos que ajustam a pressão da linha milissegundo a milissegundo.",
+    "definition": "O controlador de tensão eletrônico digital (active electronic thread delivery & tension actuator system, dynamic digital tension module) é uma inovação mecatrônica avançada embarcada em máquinas de bordar industriais de última geração. O sistema elimina ou complementa os tradicionais discos tensores de mola mecânica por meio de microssolenoides lineares, roletes motorizados alimentadores (feed rollers) e células de carga piezelétricas integradas. Esse módulo mede continuamente a força de tração do fio a cada perfuração e ajusta eletronicamente o comprimento e a pressão de linha entregues de acordo com o tipo de tecido, a espessura do fio e o tipo de ponto programado na matriz (ponto cheio largo, tatami denso ou ponto de corrida).",
+    "technicalDetails": "O sistema realiza a leitura dinâmica de tensão em frequências superiores a 1 kHz (1.000 medições por segundo), permitindo que a máquina aplique, por exemplo, 110 gf de tensão em pontos de contorno nítidos e reduza automaticamente para 60 gf em pontos cheios largos ou curvas para evitar o enrugamento de tecidos elásticos. A parametrização pode ser gravada na própria matriz de bordado por meio de comandos de metadados digitais.",
+    "howItWorks": [
+      "1. O operador cadastra no painel digital o tipo de tecido montado no bastidor (ex: Malha Piquet, Seda, Sarja ou Jeans).",
+      "2. O sensor do cabeçote monitora a resistência de passagem do fio superior em tempo real durante a costura.",
+      "3. O microcontrolador processa a curva de ponto e comanda os microssolenoides para abrir ou fechar a pressão nos discos instantaneamente.",
+      "4. Em cantos vivos ou reversões de pantógrafo, a tensão é aliviada no milésimo exato da virada, impedindo o estalido e a quebra da linha.",
+      "5. O bordado é concluído com homogeneidade absoluta de brilho e ponto em 100% das cabeças da máquina simultaneamente."
+    ],
+    "beginnerExplanation": "Imagine que a sua máquina tem um 'computadorzinho de dedo mágico' que aperta ou afrouxa a linha sozinho a cada pontinho que ela dá! Em tecidos finos que costumam enrugar, ela borda macia e soltinha; em letras pequenas que precisam ficar bem firmes, ela aperta a linha no ponto exato. Você nunca mais precisa ficar rodando botões de mola na mão para adivinhar a tensão certa!",
+    "applications": [
+      "Máquinas industriais e semi-industriais inteligentes de alta velocidade (ZSK, Tajima, Melco e Brother Luminaire).",
+      "Bordados complexos que misturam tecidos hiperelásticos (Lycra e Suplex) com couro ou sarja pesada na mesma peça.",
+      "Padronização e repetibilidade perfeita em fábricas com dezenas de cabeçotes, onde todas as cabeças bordam exatamente com a mesma tensão sem intervenção humana.",
+      "Bordado de alta costura com fios delicados de seda pura e fios de ouro verdadeiro."
+    ],
+    "characteristics": [
+      "Calibração numérica no painel touch-screen com memória de perfis de tecido.",
+      "Eliminação de variações de tensão causadas pelo desgaste e fadiga de molas mecânicas.",
+      "Detecção ultrarrápida de quebra ou fim de linha por perda de sinal de carga."
+    ],
+    "commonErrors": [
+      "❌ Tentar girar tensores eletrônicos com chave de fenda ou alicates manuais, quebrando os microssolenoides internos de precisão",
+      "❌ Ignorar a seleção do tipo de tecido no painel, fazendo a máquina operar com o perfil padrão rígido em tecidos ultrassensíveis",
+      "❌ Deixar fiapos acumularem no canal do sensor piezelétrico, gerando leituras falsas de tensão excessiva"
+    ],
+    "troubleshootingTips": [
+      "Se o ponto estiver frouxo mesmo com o valor aumentado no painel digital: Limpe a fenda do sensor eletrônico com jato de ar seco para desobstruir o leitor óptico.",
+      "Se a máquina indicar 'Tension Motor Overload': Desligue a máquina, verifique se a linha não enrolou no eixo do rolete interno e reinicie para recalibrar o ponto zero.",
+      "Se as cores trocarem com tensões desiguais: Acesse o menu de calibração eletrônica e execute o teste de balanceamento automático de tensores (Auto-Tension Balance Routine)."
+    ],
+    "dicaArtrelados": "Quando for bordar tecidos muito nobres ou malhas com elastano na sua máquina computadorizada, aproveite os perfis de tecido salvos na memória: selecione o perfil 'Knit/Piquet' e deixe o controle eletrônico entregar a folga perfeita para o bordado não repuxar nem um milímetro!",
+    "voceSabia": "Os sistemas de tensão ativa digital foram desenvolvidos inicialmente para a costura de precisão de tecidos de fibra de carbono na fuselagem de aviões da indústria aeroespacial antes de serem adaptados para as máquinas de bordado computadorizado de luxo!",
+    "practicalExercise": "No painel da sua máquina que possui regulagem eletrônica de tensão, altere a tensão digital de +2 para -2 e borde duas colunas de ponto cheio em um retalho de malha. Observe como a linha inferior e o toque do relevo mudam com precisão milimétrica!",
+    "quickSummary": "Módulo mecatrônico inteligente que regula a tensão da linha eletronicamente via software a cada ponto do bordado.",
+    "recommendedSettings": {
+      "speedPPM": "Até 1.200 PPM com ajuste dinâmico em tempo real",
+      "needleType": "Compatível com todas as numerações de agulha",
+      "stabilizer": "Configurado automaticamente pelo perfil de tecido no painel"
+    },
+    "relatedTerms": [
+      "Tensão de Linha Superior",
+      "Caixa de Bobina",
+      "Equilíbrio de Ponto (Balanço 1/3)",
+      "Cabeçote de Bordado Industrial",
+      "Sensor de Quebra de Linha"
+    ],
+    "tags": [
+      "c-083",
+      "controlador de tensao",
+      "tensao eletronica",
+      "active tension",
+      "automacao",
+      "mecatronica",
+      "alta tecnologia",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "ZSK STICKMASCHINEN. Active Digital Thread Tensioning and Dynamic Stitch Control. Krefeld, 2023.",
+      "TAJIMA INDUSTRIES. Smart Thread Tension Actuator Systems in Industrial Heads. Nagoya, 2022.",
+      "ARTRELADOS. Inovações Tecnológicas e Mecatrônica no DIBE Artrelados. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-084-capuz-de-moletom-bastidoramento",
+    "code": "C-084",
+    "letter": "C",
+    "term": "Capuz de Moletom / Técnica de Bastidoramento de Peça Fechada (Hooded Sweatshirt Hooping Technique)",
+    "level": "Fundamental 🟢",
+    "category": "Técnicas Especiais & Bastidores",
+    "grammarClass": "Locução substantiva feminina composta.",
+    "origin": "Do latim cappa (manto com cobertura para a cabeça) e do inglês sweatshirt (blusa de malha moletom felpada). Técnica desenvolvida em oficinas de personalização de moda streetwear nos anos 1990.",
+    "summary": "Metodologia técnica de posicionamento, isolamento do forro duplo e fixação em bastidor para bordar capuzes de casacos e moletons sem costurar a peça fechada.",
+    "definition": "A técnica de bastidoramento de capuz de moletom e peças fechadas (hooded sweatshirt hooping protocol, multi-layer hood embroidery technique) compreende o conjunto de procedimentos de preparação, marcação de centro anatômico, estabilização e isolamento mecânico de tecidos volumosos de malha com forro duplo. Por ser uma peça tubular cônica com costura central curva e tecido grosso felpado, o bordado no capuz exige a abertura do forro (quando possível) ou a utilização de entretela rasgável encorpada (60g a 80g), base flutuante com adesivo temporário e pinças de fixação perimetral para manter o restante do casaco completamente afastado da área de deslocamento do pantógrafo e da barra de agulha.",
+    "technicalDetails": "O moletom de capuz possui alta densidade superficial (geralmente entre 300 e 420 g/m²) com forro interno de meia malha 100% algodão. Essa estrutura dupla é suscetível a deslizamento entre camadas se bastidorada com pressão convencional. Recomenda-se o uso de bastidor magnético ou bastidor plano com técnica de 'flutuação pura' (hooping stabilizer only), aplicando filme plástico hidrossolúvel (topping) na face superior para evitar que a felpa e os nós da malha engulam os pontos de contorno.",
+    "howItWorks": [
+      "1. Marca-se o centro do bordado na lateral ou na aba frontal do capuz com giz de alfaiate ou caneta fantasminha, alinhando em relação à costura central curva.",
+      "2. Prende-se no bastidor apenas a entretela encorpada (ou entretela hidrossolúvel grossa) bem esticada como um tambor.",
+      "3. Aplica-se uma névoa leve de cola temporária em spray 505 sobre a entretela presa no bastidor.",
+      "4. O capuz é posicionado sobre a entretela colante, abrindo o corpo do casaco para trás e prendendo todo o excesso de tecido com presilhas plásticas na armação do pantógrafo.",
+      "5. Coloca-se uma folha de plástico hidrossolúvel por cima da área a ser bordada e executa-se o bordado com velocidade moderada (650 PPM)."
+    ],
+    "beginnerExplanation": "Bordar capuz de moletom é super lucrativo, mas tem um grande segredo: você nunca deve tentar prender o casaco inteiro apertado no bastidor plástico normal, senão vai marcar o tecido e você corre o risco de costurar o outro lado do capuz junto! O segredo é prender só a entretela no bastidor, colar o capuz por cima 'flutuando' e usar presilhas para enrolar o casaco e não deixar ele entrar embaixo da agulha!",
+    "applications": [
+      "Personalização de moletons universitários, casacos de grifes de streetwear e marcas esportivas.",
+      "Bordado de logotipos na lateral da orelha do capuz, na borda frontal ou na nuca externa.",
+      "Uniformes de inverno corporativos e jaquetas de equipes de esportes motorizados.",
+      "Casacos infantis com carinhas de bichinhos e orelhinhas bordadas no capuz."
+    ],
+    "characteristics": [
+      "Preservação total da maciez do tecido sem deixar marcas circulares esbranquiçadas (hoop burn).",
+      "Garante que a costura central curva do capuz fique perfeitamente alinhada com os eixos X e Y da matriz.",
+      "Eliminação de risco de furos causados pelo atrito do aro plástico em tecidos grossos."
+    ],
+    "commonErrors": [
+      "❌ Esquecer de isolar o corpo do moletom e deixar a manga ou o peito da blusa passar por baixo do bastidor, costurando a roupa fechada",
+      "❌ Bordar sem filme hidrossolúvel na parte superior, fazendo com que as pontas das letras afundem na felpa grossa do moletom",
+      "❌ Usar agulha ponta aguda fina em vez de ponta bola (SES/SUK), furando e rompendo a trama elástica da malha do capuz"
+    ],
+    "troubleshootingTips": [
+      "Se o capuz estiver pesado e puxando o bastidor para baixo: Apoie o corpo do casaco sobre uma mesa auxiliar ou suporte de extensão plano acoplado à frente da máquina.",
+      "Se a costura do forro interno ficar solta: Use o comando de alinhavo prévio (basting box) no contorno da área antes de começar o bordado principal.",
+      "Se ficarem marcas de cola no tecido: Passe um pano levemente umedecido em água morna que a cola temporária hidrossolúvel sai instantaneamente."
+    ],
+    "dicaArtrelados": "Ao bordar a lateral de um capuz de moletom, faça sempre uma moldura de alinhavo (basting) antes dos pontos definitivos e use clips de costura para enrolar o casaco como um rocambole atrás do cabeçote: assim você borda com 100% de segurança e tranquilidade!",
+    "voceSabia": "A personalização de capuzes de moletom com bordados nas laterais tornou-se um fenômeno global de moda urbana a partir de meados dos anos 2000, impulsionada por marcas de skate e artistas de hip-hop em Nova York e Tóquio!",
+    "practicalExercise": "Pegue um casaco de moletom velho com capuz. Treine a técnica de fixação flutuante: prenda a entretela no bastidor, borrife spray temporário, posicione a lateral do capuz com plástico hidrossolúvel por cima e borde um monograma de 5x5 cm.",
+    "quickSummary": "Técnica de fixação por flutuação e isolamento que permite bordar capuzes volumosos com segurança, sem marcar nem prender o forro.",
+    "recommendedSettings": {
+      "speedPPM": "600 a 650 PPM",
+      "needleType": "75/11 ou 80/12 Ponta Bola Leve (SES)",
+      "stabilizer": "Entretela rasgável de 80g na base + Plástico hidrossolúvel no topo (Topping)"
+    },
+    "relatedTerms": [
+      "Bastidor Magnético de Alta Aderência",
+      "Entretela Rasgável de Alta Gramatura",
+      "Cola Temporária em Spray 505",
+      "Costura de Alinhavo (Basting Stitch)",
+      "Marcas de Bastidor (Hoop Burn)"
+    ],
+    "tags": [
+      "c-084",
+      "capuz de moletom",
+      "moletom",
+      "hoodie",
+      "bastidoramento",
+      "flutuacao",
+      "streetwear",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "EMBROIDERY MAGAZINE. Heavyweight Hoodies & Tubular Outerwear Hooping Masterclass. Londres, 2023.",
+      "MELCO INTERNATIONAL. Hooping Thick Garments and Hooded Sweatshirts. Denver, 2022.",
+      "ARTRELADOS. Guia de Bastidoramento de Peças Desafiadoras no Bordado Computadorizado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-085-costura-conexao-embutida-ponto-ligacao",
+    "code": "C-085",
+    "letter": "C",
+    "term": "Costura de Conexão Embutida e Ponto de Ligação Direta (Direct Branching & Seamless Connectors)",
+    "level": "Intermediário 🟡",
+    "category": "Programação de Bordado",
+    "grammarClass": "Substantivo feminino composto com adjetivos qualificadores.",
+    "origin": "Do latim consutura (união de fios por agulha), conexio (ligação contínua) e do inglês branching (ramificação algorítmica de caminhos). Criado na digitalização de matrizes com Wilcom e Pulse nos anos 1990.",
+    "summary": "Técnica de programação que traça linhas de costura corridas por baixo de objetos que serão preenchidos posteriormente, eliminando cortes desnecessários e saltos de linha.",
+    "definition": "A costura de conexão embutida e ponto de ligação direta (branching algorithm, hidden connector run stitch, travel stitch underneath layers) é uma metodologia avançada de programação de matrizes de bordado que consiste em planejar estrategicamente o traçado dos pontos de corrida de deslocamento para que passem exatamente por dentro das áreas geométricas que receberão camadas posteriores de suporte (underlay) ou cobertura (tatami/satin). Ao 'esconder' a linha de conexão sob objetos futuros da mesma cor, a matriz evita paradas para corte automático (trims), pontos de arremate redundantes e pontas soltas de linha, resultando em um bordado extremamente limpo, rápido e com avesso impecável.",
+    "technicalDetails": "O algoritmo de ramificação (Branching) analisa a árvore de objetos vetoriais selecionados, calcula a rota de menor custo topológico (Eulerian path) e divide automaticamente as colunas em subcamadas de ida e volta. O comprimento de ponto ideal para conectores embutidos varia de 2,0 mm a 2,8 mm com velocidade plena (850-1.000 PPM), mantendo a integridade estrutural sem criar calombos de espessura perceptíveis na face da peça.",
+    "howItWorks": [
+      "1. O digitalizador desenha várias letras cursivas ou galhos de uma árvore que compartilham a mesma cor de linha no software de bordado.",
+      "2. Em vez de deixar a máquina cortar a linha e arrematar a cada letra, seleciona todos os objetos e aplica a função de 'Ramificação / Conexão Automática' (Branching).",
+      "3. O software gera pontos de corrida de viagem (travel runs) que caminham por dentro da primeira metade do objeto e voltam cobrindo tudo com ponto cheio perfeito.",
+      "4. A máquina borda todo o conjunto do início ao fim em um único fluxo contínuo de linha, sem dar um único corte ou salto de tesoura.",
+      "5. O tempo de execução da matriz cai em até 30% a 40% com acabamento perfeito."
+    ],
+    "beginnerExplanation": "É o 'caminho secreto' que o programador cria para a agulha viajar de uma parte do desenho para a outra sem ter que cortar a linha! A agulha dá uns passinhos de corrida bem no lugar onde daqui a pouco vai entrar um bordado grosso por cima. Assim, os pontinhos de viagem ficam 100% escondidos embaixo do bordado principal e você não tem nenhuma linha solta para cortar na frente!",
+    "applications": [
+      "Nomes e frases em fontes cursivas manuscritas conectadas.",
+      "Bordados de arabescos, galhos florais, monogramas clássicos e mandalas.",
+      "Otimização de tempo e produtividade em grandes produções industriais de uniformes.",
+      "Eliminação do risco de desfazer nós de arremate em peças que passam por lavagens industriais constantes."
+    ],
+    "characteristics": [
+      "Redução dramática do número de comandos de corte (Trims) na matriz de bordado.",
+      "Avesso muito mais limpo, liso e confortável ao toque contra a pele.",
+      "Aumento expressivo da vida útil dos solenoides e lâminas de corte da máquina."
+    ],
+    "commonErrors": [
+      "❌ Passar a costura de conexão por fora do desenho sobre o tecido cru em vez de embutir, deixando uma linha visível indesejada na frente da peça",
+      "❌ Fazer conexões com pontos muito longos (maiores que 4 mm) por baixo de tecidos finos, fazendo a linha de viagem transparecer como sombra",
+      "❌ Usar conexões embutidas entre cores diferentes, criando contaminação de cor por baixo da camada superior clara"
+    ],
+    "troubleshootingTips": [
+      "Se a linha de conexão estiver aparecendo na frente do bordado: Verifique no software se o traçado do ponto de corrida está perfeitamente centralizado no interior da coluna de ponto cheio.",
+      "Se o bordado ficar com calombo grosso onde passou a conexão: Reduza a densidade do underlay naquela área específica para compensar a espessura da linha de viagem.",
+      "Se a máquina insistir em cortar a linha entre as letras: Verifique se a distância mínima de corte no software não está configurada para um valor menor do que o comprimento da conexão."
+    ],
+    "dicaArtrelados": "Sempre que for programar fontes cursivas (estilo manuscrito), use a ferramenta de ramificação (Branching/Agrupamento Inteligente): além de economizar até 3 minutos por bordado na máquina, o avesso da peça fica tão limpo e sem nós que parece alta costura italiana!",
+    "voceSabia": "A lógica matemática de traçado contínuo usada nos algoritmos de conexão embutida de bordado é baseada no clássico problema das 'Pontes de Königsberg', formulado pelo brilhante matemático Leonhard Euler em 1736!",
+    "practicalExercise": "No seu programa de bordado, digite uma palavra em letra cursiva. Borde a primeira versão com cortes automáticos entre as letras. Depois, aplique a ferramenta de ramificação/conexão embutida na mesma matriz e borde a segunda versão. Compare o tempo de máquina e o avesso das duas peças!",
+    "quickSummary": "Técnica que esconde linhas de viagem por baixo de pontos futuros, eliminando cortes de linha e tornando o bordado mais rápido e limpo.",
+    "recommendedSettings": {
+      "speedPPM": "800 a 1.000 PPM",
+      "needleType": "75/11 Standard ou Ponta Bola",
+      "stabilizer": "Compatível com todo tipo de tecido"
+    },
+    "relatedTerms": [
+      "Corte Automático de Linha Superior e Inferior",
+      "Ponto de Corrida (Running Stitch)",
+      "Estrutura de Suporte (Underlay)",
+      "Ponto de Arremate (Tie-off / Tie-in)",
+      "Ordem de Costura (Stitch Sequence)"
+    ],
+    "tags": [
+      "c-085",
+      "conexao embutida",
+      "branching",
+      "ramificacao",
+      "ponto de viagem",
+      "otimizacao",
+      "programacao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM INTERNATIONAL. Branching & Intelligent Stitch Sequencing Guide. Sydney, 2023.",
+      "PULSE MICROSYS. Advanced Vector Stitch Routing and Seamless Connectivity. Toronto, 2022.",
+      "ARTRELADOS. Programação de Matrizes e Otimização de Produtividade no DIBE. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-086-cartao-calibracao-tensao-bobina-tensiometro",
+    "code": "C-086",
+    "letter": "C",
+    "term": "Cartão de Calibração de Tensão de Bobina / Tensiómetro Digital (Towa Digital Bobbin Tension Gauge)",
+    "level": "Fundamental 🟢",
+    "category": "Equipamentos & Medição",
+    "grammarClass": "Substantivo masculino composto por substantivos e adjetivos.",
+    "origin": "Do latim charta (folha de medida/registro), do grego tonos (tensão mecânica) e metron (medida). Equipamento de referência industrial desenvolvido pela fabricante japonesa Towa Precision nos anos 1980.",
+    "summary": "Instrumento mecânico ou digital de alta precisão utilizado para medir e calibrar numericamente a força de tração da mola da caixa de bobina em gramas-força (gf).",
+    "definition": "O cartão de calibração de tensão de bobina e tensiômetro de caixa de bobina (bobbin case tension gauge, Towa tension meter, digital dynamic tension tester) é o instrumento metrológico padrão da indústria de bordado para aferição quantitativa da tensão exercida pela mola de lâmina da caixa de bobina sobre a linha inferior. Em vez de depender de métodos empíricos imprecisos (como suspender a caixa de bobina pela linha para ver se ela cai), o tensiômetro encaixa a caixa de bobina em um suporte calibrado com polias montadas em mancais de rubi e sensor de mola espiral ou célula digital, exibindo com exatidão matemática o valor de tração estática e dinâmica em gramas-força (gf) ou centinewtons (cN).",
+    "technicalDetails": "A faixa operacional padrão para bordado computadorizado situa-se entre 18 gf e 25 gf para linha de bobina de poliéster filamento contínuo 60wt/70wt (estilo L ou estilo M). Tensões abaixo de 15 gf provocam laçadas soltas e 'ninhos de pássaro' (birdnesting) no avesso, enquanto tensões acima de 30 gf puxam a linha superior para o avesso em excesso, partem a linha e causam enrugamento acentuado em tecidos leves.",
+    "howItWorks": [
+      "1. A caixa de bobina com a canelinha já passada na mola é encaixada no compartimento de teste do tensiômetro Towa.",
+      "2. A ponta da linha é passada suavemente entre as roldanas de medição e puxada de forma contínua e retilínea.",
+      "3. O ponteiro mecânico ou visor LCD indica instantaneamente o valor numérico exato da tensão em gramas-força (ex: 22 gf).",
+      "4. Se o valor estiver fora da faixa ideal, ajusta-se o microparafuso da mola de lâmina com uma chave de fenda de relojoeiro (girar no sentido horário para aumentar ou anti-horário para diminuir).",
+      "5. Repete-se a puxada para conferir a regulagem precisa antes de colocar a caixa na máquina de bordar."
+    ],
+    "beginnerExplanation": "É a 'balança de precisão' da sua caixa de bobina! Sabe quando o bordado fica feio e a gente não sabe se a culpa é da linha de cima ou da linha de baixo? Com esse aparelhinho, você mede a força exata da linha de baixo com um número no visor. Acabou a adivinhação: regulou no número 22 gf, o bordado fica perfeito de primeira em qualquer máquina!",
+    "applications": [
+      "Padronização de tensão idêntica em todas as cabeças de máquinas industriais multicabeçotes.",
+      "Diagnóstico rápido de problemas de ponto solto, linha puxada ou quebras constantes.",
+      "Calibração de caixas de bobina específicas para linhas especiais (fio de algodão grosso, linha metalizada de bobina ou elástico).",
+      "Manutenção preventiva e controle de qualidade diário em ateliês e fábricas de bordado."
+    ],
+    "characteristics": [
+      "Leitura direta em gramas-força com repetibilidade metrológica absoluta.",
+      "Modelos dedicados para caixas de bobina tipo L (domésticas/industriais padrão) e tipo M (jumbo).",
+      "Corpo compacto e robusto de alumínio usinado ou polímero industrial com longa vida útil."
+    ],
+    "commonErrors": [
+      "❌ Regular a caixa de bobina 'no olho' girando o parafuso meia volta inteira de uma vez, espanando a rosca microscópica da mola",
+      "❌ Fazer o teste de tensão com sujeira ou fiapo de linha preso embaixo da mola de lâmina, gerando leituras completamente falsas",
+      "❌ Puxar a linha com solavancos bruscos durante o teste em vez de fazer uma puxada suave e uniforme"
+    ],
+    "troubleshootingTips": [
+      "Se a leitura do tensiômetro oscilar descontroladamente: Passe um cartão fino de visita ou lâmina plástica por baixo da mola da caixa de bobina para retirar poeira invisível de linha.",
+      "Se o parafuso girar e a tensão não mudar: A mola de lâmina da caixa de bobina está fadigada ou deformada e deve ser substituída por uma mola nova.",
+      "Se o valor estiver perfeito no aparelho (22 gf) mas o ponto continuar feio na máquina: O problema está na tensão superior da máquina ou na passagem incorreta da linha de cima."
+    ],
+    "dicaArtrelados": "Gire o parafuso da caixa de bobina como se fosse o ponteiro de um relógio: movimente apenas '5 minutos' por vez! Um micro-ajuste de apenas um oitavo de volta já altera a tensão em cerca de 4 a 5 gramas-força!",
+    "voceSabia": "A japonesa Towa Precision começou fabricando relógios mecânicos e instrumentos de medição náutica antes de inventar o primeiro tensiômetro portátil de bobinas, que hoje é utilizado por 100% das grandes montadoras mundiais de máquinas de bordado!",
+    "practicalExercise": "Coloque a sua caixa de bobina no tensiômetro (ou use uma balança digital de precisão com linha amarrada). Puxe a linha e anote o valor. Ajuste um quarto de volta no parafuso e observe como o número se desloca com precisão na escala!",
+    "quickSummary": "Instrumento de medição que afere a tensão exata da caixa de bobina em gramas-força, eliminando adivinhações na regulagem do ponto.",
+    "recommendedSettings": {
+      "speedPPM": "N/A (Ferramenta de calibração mecânica)",
+      "needleType": "Compatível com caixas de bobina tipo L e tipo M",
+      "stabilizer": "Tensão ideal recomendada: 20 a 25 gf para poliéster 60wt"
+    },
+    "relatedTerms": [
+      "Caixa de Bobina (Bobbin Case)",
+      "Canelinha / Fio de Bobina Inferior",
+      "Equilíbrio de Ponto (Balanço 1/3)",
+      "Tensão de Linha Superior",
+      "Manutenção Preventiva do Cabeçote"
+    ],
+    "tags": [
+      "c-086",
+      "towa",
+      "tensiometro",
+      "tensao de bobina",
+      "calibracao",
+      "caixa de bobina",
+      "qualidade",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TOWA PRECISION CO. Operating & Calibration Manual: Digital & Analog Bobbin Tension Gauges. Tóquio, 2022.",
+      "MADEIRA THREADS. Bobbin Tension Mastery & Quality Assurance Standards. Freiburg, 2021.",
+      "ARTRELADOS. Guia de Regulagem de Tensão e Precisão no DIBE Artrelados. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-087-chiffon-musseline-toque-de-seda",
+    "code": "C-087",
+    "letter": "C",
+    "term": "Chiffon e Musseline Toque de Seda / Protocolo de Estabilização Ultra-Leve (Silk Chiffon Embroidery Stabilization)",
+    "level": "Intermediário 🟡",
+    "category": "Tecidos & Estabilizadores",
+    "grammarClass": "Locução substantiva feminina composta.",
+    "origin": "Do francês chiffon (pano leve, trapo fino translúcido) e do árabe mousseline (tecido ultrafino originário da cidade de Mossul). Protocolo refinado na alta costura parisiense e italiana nos anos 1980.",
+    "summary": "Procedimento técnico especializado para bordar tecidos ultrafinos, transparentes e instáveis utilizando entretela hidrossolúvel de lavagem rápida, agulha 65/9 e matrizes de baixa densidade.",
+    "definition": "O protocolo de estabilização e bordado em chiffon, musseline e tecidos toque de seda (ultra-sheer fabric embroidery, silk chiffon stabilization protocol) é a metodologia técnica desenvolvida para viabilizar o bordado mecânico computadorizado sobre bases têxteis de extrema transparência, leveza (gramatura entre 25 e 60 g/m²) e alta mobilidade de urdume e trama. Pela ausência de massa estrutural do tecido, qualquer perfuração com agulha grossa ou ponto denso causa franzimento irreversível, corte de fios da trama e efeito 'buraco de bala'. O protocolo exige o uso de entretela hidrossolúvel em filme duplo (sanduíche) ou entretela termossolúvel, agulha de calibre ultrafino 65/9 com ponta bola fina (SES) e matrizes redesenhadas com redução de densidade de 30% a 40%.",
+    "technicalDetails": "O chiffon de seda ou poliéster possui espaçamento aberto entre os filamentos. O coeficiente de repuxo (Pull Distortion) é multiplicado por quatro se comparado a uma sarja de algodão. A matriz de bordado deve privilegiar pontos de contorno leves (Redwork/Bean stitch), pontos cheios estreitos (largura máxima de 3,0 mm com densidade aliviada de 0,55 mm) e underlay exclusivamente em ponto de corrida central simples (Center Walk), banindo sobriedades de tatami pesado ou underlay de zigue-zague denso.",
+    "howItWorks": [
+      "1. Corta-se o tecido no esquadro, evitando esticar as fibras enviesadas na hora do manuseio.",
+      "2. Monta-se um 'sanduíche': coloca-se uma folha de entretela hidrossolúvel encorpada na base, o chiffon no meio sem esticar (apenas assentado) e outra folha de filme hidrossolúvel fino no topo.",
+      "3. Prende-se o conjunto no bastidor com aperto suave apenas para não deslizar, ou usa-se bastidor magnético / flutuação pura.",
+      "4. A máquina opera com velocidade reduzida (550 a 600 PPM), agulha nova 65/9 SES e tensão superior e inferior aliviadas e equilibradas.",
+      "5. Ao término, a peça é lavada em água morna corrente: a entretela dissolve completamente em segundos, deixando o bordado macio, flutuante e sem marcas na transparência do chiffon."
+    ],
+    "beginnerExplanation": "Bordar tecidos transparentes como musseline, seda e véus de noiva parece mágica, mas é pura técnica! Como o tecido é fininho como uma teia de aranha, a agulha não pode ser grossa e o bordado não pode ser pesado. Você coloca o tecido entre duas folhas de plástico que derretem na água (hidrossolúvel), borda com pontinhos leves e depois lava na torneira: o plástico some todinho e o bordado fica perfeito como se tivesse nascido na seda!",
+    "applications": [
+      "Vestidos de noiva, véus, mantilhas e saias de alta costura em seda e tule fino.",
+      "Lenços de seda, écharpes, xales finos e roupas de festa com transparência elegante.",
+      "Blusas femininas fluidas, camisas sociais de musseline e detalhes em mangas transparentes.",
+      "Lingeries finas de luxo e roupões de cetim com aplicações delicadas de monogramas."
+    ],
+    "characteristics": [
+      "Transparência 100% preservada sem restos visíveis de entretelas rígidas no avesso.",
+      "Ausência total de franzimento, repuxo ou deformação nas bordas dos motivos bordados.",
+      "Toque extremamente macio e flexível que acompanha o caimento natural da seda."
+    ],
+    "commonErrors": [
+      "❌ Usar entretela rasgável ou entretela de papel comum que fica aparecendo pelo lado transparente do tecido após rasgar",
+      "❌ Usar agulha 80/12 ou 90/14 grossa, que perfura e arrebenta a trama delicada do chiffon deixando furos abertos no tecido",
+      "❌ Esticar o chiffon com força no bastidor de rosca, gerando ondas e deformações eternas na fibra após desbastidorar"
+    ],
+    "troubleshootingTips": [
+      "Se o tecido estiver repuxando e enrugando ao redor das letras: Aumente o espaçamento entre os pontos no software (reduza a densidade para 0,55 mm) e verifique se a agulha é realmente 65/9 ou 70/10.",
+      "Se a agulha estiver puxando fios da musseline: A agulha está com a ponta rombuda ou com micro-rebarba; troque imediatamente por uma agulha nova Ponta Bola Fina (SES).",
+      "Se sobrarem resíduos grudentos de entretela após a lavagem: Enxágue em água corrente morna abundante por 2 minutos e deixe secar sobre uma toalha sem torcer."
+    ],
+    "dicaArtrelados": "Para bordar musseline e tecidos translúcidos sem erro, nunca aperte o parafuso do bastidor com força no tecido: prenda apenas a entretela hidrossolúvel no aro e assente o chiffon delicadamente por cima com spray temporário — o caimento da seda agradece e fica divino!",
+    "voceSabia": "Na alta costura francesa, o bordado direto sobre musseline e chiffon de seda foi popularizado nos vestidos lendários da Maison Chanel e Christian Dior nos anos 1950, exigindo matrizes com o mínimo absoluto de pontos para não comprometer a fluidez do tecido!",
+    "practicalExercise": "Pegue um pedaço de musseline ou véu transparente. Borde um desenho floral leve utilizando o método do sanduíche de entretela hidrossolúvel com agulha 65/9. Lave a peça na pia e sinta a leveza e a perfeição do bordado flutuando no tecido transparente!",
+    "quickSummary": "Protocolo para bordar tecidos transparentes e ultrafinos com entretela hidrossolúvel, agulha fina 65/9 e matrizes leves.",
+    "recommendedSettings": {
+      "speedPPM": "500 a 600 PPM",
+      "needleType": "65/9 ou 70/10 Ponta Bola Leve (SES)",
+      "stabilizer": "Entretela hidrossolúvel dupla (base + filme superior Topping)"
+    },
+    "relatedTerms": [
+      "Entretela Hidrossolúvel",
+      "Agulha 65/9 Ponta Bola (SES)",
+      "Camada de Cobertura / Topping",
+      "Compensação de Repuxo (Pull Compensation)",
+      "Marcas de Bastidor (Hoop Burn)"
+    ],
+    "tags": [
+      "c-087",
+      "chiffon",
+      "musseline",
+      "seda",
+      "alta costura",
+      "hidrossoluvel",
+      "delicado",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "HAUTE COUTURE EMBROIDERY INSTITUTE. Sheer Fabrics, Silks & Chiffon Machine Techniques. Paris, 2022.",
+      "MADEIRA GARN. Stabilizing Sheer & Transparent Fabrics for High-End Embroidery. Freiburg, 2021.",
+      "ARTRELADOS. Guia de Bordado em Tecidos Finos e Alta Costura no DIBE. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-088-compensacao-dinamica-deformacao-angular",
+    "code": "C-088",
+    "letter": "C",
+    "term": "Compensação Dinâmica de Deformação Angular em Ponto Cheio (Dynamic Corner Pull Angle Compensation)",
+    "level": "Avançado 🔴",
+    "category": "Programação de Bordado",
+    "grammarClass": "Locução substantiva feminina composta.",
+    "origin": "Do latim compensare (equilibrar forças contrárias), dynamis (força motora) e angulus (vértice geométrico). Algoritmo desenvolvido na ciência da computação gráfica aplicada ao bordado nos anos 2000.",
+    "summary": "Cálculo algorítmico que modula o ângulo dos pontos e a densidade ao redor de vértices agudos e curvas fechadas para evitar acúmulo de linha e cantos arredondados indesejados.",
+    "definition": "A compensação dinâmica de deformação angular em ponto cheio (smart corner algorithm, dynamic mitred and cap corner angle compensation) é a rotina vetorial avançada presente em softwares profissionais de digitalização de matrizes (Wilcom, Tajima DG/ML, Pulse) que corrige a distorção morfológica sofrida pelas colunas de ponto cheio ao realizarem curvas bruscas ou dobrarem em cantos vivos (ângulos inferiores a 90°). Quando uma coluna de pontos vira em ângulo fechado, o lado interno do vértice sofre compressão geométrica extrema (acumulando dezenas de perfurações de agulha no mesmo ponto), enquanto o lado externo sofre dilatação e perda de cobertura, além de ser puxado pela tensão do fio, transformando cantos que deveriam ser pontiagudos em cantos frouxos e arredondados. O algoritmo decompõe o vértice em cantos mitrados (esquadro a 45°) ou cantos sobrepostos com divisão de pontos curtos automáticos.",
+    "technicalDetails": "O algoritmo divide o objeto em dois blocos angulares independentes com corte diagonal (Mitre Corner) quando o ângulo interno estiver entre 45° e 75°, ou aplica cantos tampados (Cap Corner) em ângulos inferiores a 45°. Ao mesmo tempo, ativa a compensação de pontos curtos fracionados (Short Stitches), onde 30% a 50% dos pontos da face interna são encurtados para não perfurarem o mesmo orifício central, reduzindo a densidade pontual em até 60% e evitando o corte do tecido pela agulha.",
+    "howItWorks": [
+      "1. O digitalizador desenha uma borda geométrica, moldura ou letra com cantos pontiagudos (como as letras 'A', 'M', 'N' ou estrelas).",
+      "2. O software detecta os vértices onde a mudança de direção angular ultrapassa o limiar crítico de 60°.",
+      "3. O algoritmo de canto inteligente calcula a bissetriz do ângulo e divide a costura em duas colunas encaixadas com junta de esquadro (mitre line).",
+      "4. São inseridos pontos de ancoragem curtos e a densidade da curva interna é aliviada automaticamente.",
+      "5. Na máquina de bordar, o canto é costurado liso, afiado, perfeitamente pontiagudo e sem nenhum caroço ou perfuração excessiva de tecido."
+    ],
+    "beginnerExplanation": "Sabe quando você borda uma estrela ou uma letra pontuda (como a letra 'M' ou 'V') e a pontinha fica feia, arredondada ou com um caroço duro de linha onde a agulha bateu um monte de vezes no mesmo lugar? Essa ferramenta inteligente do software corta a viradinha no meio como uma moldura de quadro: assim a ponta fica super afiada, fininha e elegante, parecendo feita à mão!",
+    "applications": [
+      "Molduras geométricas, brasões heráldicos, estrelas e losangos de emblemas militares.",
+      "Letras de fontes serifadas e góticas com pontas e hastes angulares finas.",
+      "Bordados de alta precisão em uniformes corporativos e monogramas clássicos.",
+      "Contornos de logotipos esportivos que exigem simetria e cantos milimetricamente perfeitos."
+    ],
+    "characteristics": [
+      "Cantos vivos e afiados sem deformação por puxão elástico da linha.",
+      "Eliminação de calombos e sobreposição exagerada de pontos no vértice interno.",
+      "Proteção do tecido contra cortes causados por sucessivas penetrações de agulha no mesmo ponto."
+    ],
+    "commonErrors": [
+      "❌ Deixar o ponto cheio virar uma curva fechada contínua de 45° sem canto mitrado, criando um caroço grosso e quebrando a agulha",
+      "❌ Desativar a função de pontos curtos nos cantos para tentar deixar o bordado mais grosso, rasgando o tecido no meio do vértice",
+      "❌ Ignorar a compensação de encolhimento no vértice externo, fazendo a ponta do desenho encolher e parecer torta após desbastidorar"
+    ],
+    "troubleshootingTips": [
+      "Se a ponta do triângulo ou letra estiver ficando arredondada: Ative a opção 'Canto em Esquadro / Canto Mitrado' (Smart Corner) nas propriedades da coluna de ponto cheio no seu software.",
+      "Se a agulha quebrar sempre que passar pelo mesmo canto da matriz: Verifique se não há dezenas de nós no vértice interno; ative a filtragem de pontos curtos fracionados.",
+      "Se o tecido furar no canto vivo: Aumente a compensação de repuxo para +0,35 mm e reduza a densidade na curva interna."
+    ],
+    "dicaArtrelados": "Ao digitalizar molduras ou letras com cantos retos de 90° no seu software, configure sempre o estilo de canto para 'Canto Mitrado' (esquadro a 45°): a linha reflete a luz em duas direções diferentes e dá um brilho acetinado chiquérrimo de alta joalheria ao contorno!",
+    "voceSabia": "A técnica do corte mitrado em ângulo de 45° usada hoje nos softwares digitais de bordado foi herdada diretamente da marcenaria clássica renascentista, utilizada na montagem de molduras de quadros da realeza europeia no século XVI!",
+    "practicalExercise": "No seu programa de matrizes, crie um quadrado de 5x5 cm com contorno em ponto cheio de 3 mm de largura. Borde um quadrado com canto contínuo padrão e outro com 'Canto Mitrado Inteligente'. Compare a nitidez dos 4 cantos dos dois bordados sob boa iluminação!",
+    "quickSummary": "Algoritmo inteligente de software que divide curvas fechadas em cantos esquadrados para manter pontas vivas e sem acúmulo de pontos.",
+    "recommendedSettings": {
+      "speedPPM": "750 a 850 PPM",
+      "needleType": "75/11 Ponta Bola ou Universal",
+      "stabilizer": "Entretela rasgável ou recortável de acordo com o tecido"
+    },
+    "relatedTerms": [
+      "Cordonê / Ponto Cheio Acetinado de Alta Densidade",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Compensação de Fração de Ponto e Ponto Curto Automático",
+      "Ângulo de Ponto (Stitch Angle)",
+      "Ordem de Costura (Stitch Sequence)"
+    ],
+    "tags": [
+      "c-088",
+      "deformacao angular",
+      "canto mitrado",
+      "smart corner",
+      "ponto cheio",
+      "geometria",
+      "programacao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM INTERNATIONAL. Smart Corners & Mitred Column Density Algorithms in EmbroideryStudio. Sydney, 2023.",
+      "TAJIMA DG/ML BY PULSE. Corner Fractioning & Stitch Angle Geometry Manual. Tóquio, 2022.",
+      "ARTRELADOS. Geometria Sagrada e Algoritmos de Digitalização no DIBE Artrelados. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-089-cortador-circular-rotativo-apliques",
+    "code": "C-089",
+    "letter": "C",
+    "term": "Cortador Circular Rotativo para Apliques e Emblemas (Rotary Appliqué Fabric Cutter)",
+    "level": "Fundamental 🟢",
+    "category": "Ferramentas & Acabamento",
+    "grammarClass": "Substantivo masculino composto por adjetivos e locuções prepositivas.",
+    "origin": "Do latim curtare (cortar), circularis (em formato de círculo) e rotare (girar em torno de um eixo). Criado pela empresa japonesa Olfa em 1979 para a indústria de patchwork e adotado mundialmente no bordado de apliques.",
+    "summary": "Ferramenta manual de corte ergonômica equipada com disco circular de aço tungstênio de alta afiação, ideal para cortar tecidos de aplique, sarjas e entretelas com bordas retas e limpas.",
+    "definition": "O cortador circular rotativo de tecidos para apliques e patches (rotary cutter, rolling fabric blade, circular appliqué trimming tool) é um instrumento manual de corte de precisão composto por uma lâmina circular giratória de aço tungstênio de altíssima dureza (diâmetros padrões de 18 mm, 28 mm e 45 mm) montada em um cabo anatômico com trava de segurança retrátil. No bordado computadorizado, o cortador rotativo de 18 mm e 28 mm é a ferramenta essencial para o corte rápido e contínuo de tecidos de base de apliques (feltros, sarjas, tecidos sintéticos e courvin) e refilamento de emblemas sobre base de corte auto-regenerativa (cutting mat), garantindo bordas retilíneas perfeitas e sem rebarbas antes ou depois do acabamento em ponto cheio.",
+    "technicalDetails": "A lâmina giratória de aço carbono ou liga de tungstênio opera por cisalhamento rotativo contínuo sob pressão perpendicular (cerca de 5 a 15 N), eliminando o puxão e a deformação da trama que tesouras comuns costumam provocar ao cortar tecidos finos ou elásticos. O modelo de 18 mm é específico para curvas fechadas e cantos de apliques delicados, enquanto o de 45 mm é ideal para cortar dezenas de tiras de entretela ou tecidos planos com auxílio de régua acrílica milimetrada de patchwork.",
+    "howItWorks": [
+      "1. O tecido a ser utilizado no aplique (ou a folha de sarja termocolante) é colocado sobre a placa de corte verde auto-cicatrizante.",
+      "2. Apoia-se a régua de acrílico alinhada com as medidas do desenho da matriz.",
+      "3. O operador destrava a guarda de segurança do cortador rotativo e desliza a lâmina rente à régua com pressão constante para frente.",
+      "4. O tecido é cortado instantaneamente com uma única passada, entregando bordas 100% retas, sem nenhum fio solto ou picote.",
+      "5. Trava-se a proteção da lâmina imediatamente após o uso para total segurança no ateliê."
+    ],
+    "beginnerExplanation": "É como se fosse um 'cortador de pizza super afiado' feito especialmente para tecidos! Em vez de ficar sofrendo e mastigando o tecido com uma tesoura velha, você passa o cortador rotativo com uma régua por cima do tecido e ele corta retinho como uma lâmina de barbear em menos de dois segundos! É a melhor ferramenta para cortar tecidinhos de apliques e pedaços de entretela!",
+    "applications": [
+      "Corte rápido e em série de tecidos para apliques (feltro, sarja, tecido tricoline e glitter).",
+      "Refilamento geométrico de patches e emblemas bordados com corte reto.",
+      "Fracionamento de rolos de entretela rasgável e hidrossolúvel no tamanho exato dos bastidores.",
+      "Corte de filmes termocolantes definitivos para colagem de emblemas a quente."
+    ],
+    "characteristics": [
+      "Corte milimetricamente limpo e contínuo sem repuxar nem mastigar a fibra têxtil.",
+      "Lâmina de alta durabilidade com troca fácil por refis descartáveis.",
+      "Cabo ergonômico ambidestro que previne dores e lesões por esforço repetitivo (LER/DORT) nas mãos."
+    ],
+    "commonErrors": [
+      "❌ Usar o cortador rotativo diretamente sobre a mesa de madeira ou tampo de vidro sem base de corte, cegando a lâmina na primeira passada",
+      "❌ Esquecer a trava de segurança aberta na bancada, criando risco de acidentes e cortes graves nos dedos",
+      "❌ Cortar por cima de alfinetes metálicos, quebrando e denteando a lâmina circular na mesma hora"
+    ],
+    "troubleshootingTips": [
+      "Se o cortador estiver 'pulando' e deixando pedacinhos sem cortar no tecido: A lâmina está com um dente cego; descarte a lâmina gasta com segurança e coloque um refil novo.",
+      "Se a lâmina estiver girando dura ou travando: Desparafuse a porca do eixo, limpe os fiapos de tecido acumulados por trás da arruela e aplique uma gota de óleo mineral leve.",
+      "Se o corte sair torto mesmo usando régua: Pressione a régua firmemente com a mão aberta espalmada para baixo e mantenha o cortador em ângulo de 90° perpendicular à mesa."
+    ],
+    "dicaArtrelados": "Para cortar retalhos de aplique e entretela na velocidade da luz sem cansar a mão, tenha sempre na sua bancada um cortador rotativo de 28 mm e uma régua acrílica de 15x30 cm: sua produção de apliques vai triplicar de velocidade no mesmo dia!",
+    "voceSabia": "O cortador rotativo foi inventado no Japão pelo fundador da empresa OLFA em 1979, inspirado no mecanismo de corte suave das facas circulares de corte de papel e fatiadores de frios da culinária!",
+    "practicalExercise": "Coloque um pedaço de tecido tricoline com entretela termocolante sobre a base de corte. Usando uma régua e o cortador rotativo, corte 5 quadrados perfeitos de 10x10 cm em menos de 1 minuto. Compare a precisão das bordas com um corte feito na tesoura comum!",
+    "quickSummary": "Lâmina circular giratória de alta precisão para cortar tecidos de aplique, sarjas e entretelas com velocidade e bordas perfeitas.",
+    "recommendedSettings": {
+      "speedPPM": "N/A (Ferramenta manual de preparação e acabamento)",
+      "needleType": "N/A",
+      "stabilizer": "Usar sempre em conjunto com Base de Corte Auto-Cicatrizante (Cutting Mat)"
+    },
+    "relatedTerms": [
+      "Tesoura Pelicano (Bico de Pato)",
+      "Borracha Termoplástica para Apliques Tridimensionais / TPU Patch",
+      "Cola Temporária em Spray 505",
+      "Borda Selada a Laser / Corte Térmico de Emblemas",
+      "Entretela Termocolante"
+    ],
+    "tags": [
+      "c-089",
+      "cortador rotativo",
+      "rotary cutter",
+      "aplique",
+      "corte de tecido",
+      "patchwork",
+      "ferramentas",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "OLFA CORPORATION. Rotary Cutting Safety & Precision Guide for Textile Crafts. Osaka, 2022.",
+      "AMERICAN QUILTER'S SOCIETY. Precision Fabric Preparation & Rotary Cutting Standards. Paducah, 2021.",
+      "ARTRELADOS. Ferramentas Essenciais de Bancada no Bordado Computadorizado no DIBE. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-090-conversao-paletas-rgb-linhas-comerciais",
+    "code": "C-090",
+    "letter": "C",
+    "term": "Conversão de Paletas RGB para Tabela de Linhas Comerciais (RGB-to-Thread Color Match Algorithm)",
+    "level": "Intermediário 🟡",
+    "category": "Programação & Cores",
+    "grammarClass": "Locução substantiva feminina composta.",
+    "origin": "Do latim conversio (transformação de estado), da sigla inglesa RGB (Red, Green, Blue) e do francês palette (tabela de cores). Desenvolvido nos softwares de bordado computadorizado a partir dos anos 1990.",
+    "summary": "Algoritmo de cálculo de distância colorimétrica (Delta-E / CIE-Lab) que mapeia cores de imagens digitais na tela para os códigos reais de cones de linhas físicas dos fabricantes.",
+    "definition": "A conversão de paletas RGB para tabela de linhas comerciais (RGB to thread color conversion algorithm, Delta-E thread matching engine) é o processo matemático executado por softwares de digitalização e visualização de matrizes para traduzir os valores cromáticos digitais aditivos da tela do monitor (gerados em espaço de cor sRGB ou CMYK) para os códigos de catálogo de fios reais de fabricantes industriais (como Madeira, Coats, Gütermann, Amann, Setta, Lumina e Ricamare). Como a tela emite luz direta por fósforos/LEDs e as linhas de poliéster/rayon refletem a luz ambiente através de brilho trilobal anisotrópico, o algoritmo converte as coordenadas RGB para o espaço perceptivo tridimensional CIELAB e calcula a menor distância euclidiana (fórmula Delta-E CIE76 ou CIEDE2000) para selecionar o cone físico mais próximo da cor da arte original.",
+    "technicalDetails": "O cálculo colorimétrico utiliza a transformação não linear: sRGB -> XYZ -> L*a*b*, onde L* representa a luminosidade (0 a 100), a* o eixo verde-vermelho e b* o eixo azul-amarelo. O software compara o vetor da cor do desenho com a base de dados de até 500 cores de cada catálogo físico de linha, selecionando o código com menor índice ΔE. Variações de ΔE inferiores a 1,5 são praticamente imperceptíveis ao olho humano sob luz natural padronizada (iluminante D65).",
+    "howItWorks": [
+      "1. O programador importa uma imagem gráfica vetorial ou bitmap (logotipo de um cliente com código RGB #003366) para o software de bordado.",
+      "2. Seleciona o catálogo do fabricante de linhas que possui no seu ateliê (ex: Setta Lumina Poliéster ou Madeira Polyneon).",
+      "3. O software executa a conversão automática 'Match to Thread Chart' e identifica instantaneamente o cone físico mais fiel (ex: Lumina cor 2145, com Delta-E de 0,8).",
+      "4. O relatório de produção (ficha técnica da matriz) é impresso com os números exatos dos cones físicos para o operador colocar na máquina.",
+      "5. O bordado sai com fidelidade de cor perfeita e aprovada pela marca do cliente sem discrepâncias visuais."
+    ],
+    "beginnerExplanation": "É o 'tradutor de cores' do seu programa de bordado! Você abre o desenho do cliente no computador e clica em converter: o programa compara a cor da tela com as linhas reais que você tem na sua prateleira e te diz exatamente: 'Use o cone de linha número 2145 da marca Lumina!'. Assim você nunca mais erra a cor e o bordado sai idêntico ao logotipo do cliente!",
+    "applications": [
+      "Fidelização de cores corporativas de logotipos de empresas (marcas com manual de identidade visual rigoroso).",
+      "Geração de fichas técnicas de produção com listagem exata de cones para o operador de máquina.",
+      "Simulação realista em 3D do bordado na tela do computador para aprovação prévia do cliente pelo WhatsApp/e-mail.",
+      "Padronização de cores entre diferentes turnos e fábricas de bordado terceirizadas."
+    ],
+    "characteristics": [
+      "Precisão colorimétrica calculada em espaço tridimensional CIELAB.",
+      "Compatibilidade com dezenas de catálogos nacionais e importados de fios.",
+      "Visualização de brilho e textura realistas de linha na simulação digital da matriz."
+    ],
+    "commonErrors": [
+      "❌ Escolher a cor da linha olhando apenas para a tela do monitor descalibrado com brilho no máximo, gerando diferenças gritantes no tecido real",
+      "❌ Não atualizar as tabelas de cores do software quando o fabricante de linha lança novos lotes ou novas numerações de cones",
+      "❌ Comparar cores de linhas físicas sob lâmpadas fluorescentes amareladas antigas em vez de iluminação neutra diurna (5000K-6500K)"
+    ],
+    "troubleshootingTips": [
+      "Se a cor bordada na máquina parecer mais escura que na tela: Confira sempre com a cartela física de fios reais sob boa luz natural antes de iniciar a produção.",
+      "Se o software sugerir uma cor de cone que você não tem em estoque: Utilize a ferramenta de 'Cores Semelhantes' (Closest Match) para encontrar a segunda melhor opção disponível no seu ateliê.",
+      "Se o cliente exigir código Pantone exato: Digite o código Pantone na busca da tabela de linhas do software para mapear o cone correspondente homologado."
+    ],
+    "dicaArtrelados": "Tenha sempre uma Cartela de Cores Física com mechas reais de fios do seu fabricante favorito colada na parede do ateliê: o monitor do computador ajuda muito, mas a certeza final na mecha física sob a luz do dia é o segredo dos ateliês de luxo!",
+    "voceSabia": "Os monitores de computador utilizam o modelo de cor aditivo RGB (luz direta), enquanto os tecidos e linhas funcionam pelo modelo subtrativo CMYK/Lab (absorção e reflexão de luz): por isso a matemática de conversão Delta-E é tão sofisticada e essencial!",
+    "practicalExercise": "No seu software de bordado, crie um círculo com a cor azul marinho exata. Abra a ferramenta de paleta de linhas, selecione o catálogo do seu fabricante de fios e observe os 3 códigos mais próximos sugeridos pelo sistema. Pegue os cones reais na sua prateleira e compare!",
+    "quickSummary": "Algoritmo matemático que traduz as cores do desenho na tela para os códigos exatos dos cones de linhas físicas reais.",
+    "recommendedSettings": {
+      "speedPPM": "N/A (Processo de digitalização e gestão de cores)",
+      "needleType": "N/A",
+      "stabilizer": "Iluminação recomendada de bancada para conferência: 5.000K a 6.500K (Luz do Dia / CRI > 90)"
+    },
+    "relatedTerms": [
+      "Cartão de Cores e Tabela de Conversão de Linhas",
+      "Cone de Linha de Poliéster 120/2 (40wt Standard)",
+      "Cone de Linha de Rayon / Viscose 40wt",
+      "Calibração de Monitor e Paleta de Cores",
+      "Contraste de Brilho de Linha"
+    ],
+    "tags": [
+      "c-090",
+      "conversao de cores",
+      "rgb para linha",
+      "delta-e",
+      "pantone",
+      "tabela de cores",
+      "software",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "CIE (INTERNATIONAL COMMISSION ON ILLUMINATION). Colorimetry & Delta-E Color Difference Formulae Standards. Viena, 2021.",
+      "WILCOM EMBROIDERYSTUDIO. Thread Matching Engines & TrueSizer Color Management. Sydney, 2023.",
+      "ARTRELADOS. Gestão de Cores e Fidelidade Cromática no Bordado Computadorizado no DIBE. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-091-caneta-hidrossoluvel-marcacao-rapida",
+    "code": "C-091",
+    "letter": "C",
+    "term": "Caneta Hidrossolúvel de Marcação Rápida (Water-Erasable Blue Fabric Marker)",
+    "level": "Fundamental 🟢",
+    "category": "Insumos & Acessórios",
+    "grammarClass": "Substantivo feminino composto por substantivo, adjetivo e locução adjetiva.",
+    "origin": "Do latim canna (haste de junco para escrita), hydro (água) e solubilis (que se dissolve). Desenvolvida pela indústria química japonesa de materiais para patchwork e costura criativa nos anos 1980.",
+    "summary": "Marcador de ponta de feltro especial com tinta lavável azul ou verde que desaparece instantaneamente ao contato com borrifo de água pura sem deixar resíduos.",
+    "definition": "A caneta hidrossolúvel de marcação rápida para tecidos (water-soluble fabric marker, water-erasable transfer pen) é uma ferramenta indispensável de medição e posicionamento em bordado computadorizado. Sua tinta contém corantes orgânicos solúveis em água com polímeros carreadores de baixa fixação que aderem temporariamente às fibras naturais e sintéticas sem manchar nem reagir com as linhas de poliéster. Ao contrário das canetas termoapagáveis (que podem ressurgir sob frio intenso), a tinta hidrossolúvel é permanentemente eliminada da estrutura molecular do tecido com uma simples borrifada de água pura ou na primeira lavagem úmida da peça pronta.",
+    "technicalDetails": "Ponta de fibra de poliéster porosa com diâmetro de traço de 0,8 mm a 1,2 mm, fluxo contínuo por capilaridade e pH neutro (entre 6,5 e 7,2). Fórmula 100% livre de solventes à base de álcool, xileno ou tolueno, impedindo o ataque a fibras delicadas como seda, linho e cambraia de algodão. Não deve ser submetida a ferro de passar quente antes de ser lavada, pois o calor extremo pode fixar quimicamente alguns tipos de pigmentos minerais azuis.",
+    "howItWorks": [
+      "1. O operador utiliza a régua ou gabarito do bastidor para traçar o ponto central (origem X/Y) e os eixos de nivelamento sobre a peça.",
+      "2. O tecido marcado é posicionado e preso no bastidor, alinhando a cruzeta da caneta com a agulha ou ponteiro laser da máquina.",
+      "3. O bordado é executado normalmente cobrindo a área central.",
+      "4. Ao finalizar, borrifa-se água limpa com um pulverizador sobre qualquer traço de caneta que tenha ficado visível fora do bordado.",
+      "5. A marca azul desvanece e desaparece por completo em 3 segundos, secando sem manchas."
+    ],
+    "beginnerExplanation": "É a 'canetinha mágica lavável' do bordado! Você usa para riscar o meinho da toalha, da camiseta ou do body de bebê com régua antes de colocar no bastidor. Quando o bordado termina, basta espirrar um pouquinho de água limpa que a marquinha azul some como mágica na hora, sem deixar cheiro nem mancha!",
+    "applications": [
+      "Marcação de eixos centrais em toalhas de banho, fraldas, bodies de bebê e enxovais.",
+      "Posicionamento milimétrico de bolsos, golas e punhos de camisas sociais.",
+      "Traçado de linhas de montagem de blocos em técnicas de bordado no bastidor (In-The-Hoop / ITH).",
+      "Desenho de guias de alinhamento em tecidos claros e de fibras nobres (linho e percal)."
+    ],
+    "characteristics": [
+      "Remoção imediata com água fria ou morna sem necessidade de sabão ou esfregação.",
+      "Traço nítido de alta visibilidade sobre tecidos brancos, pastéis e estampas claras.",
+      "Secagem ao toque em 10 segundos, sem borrar as mãos da bordadeira durante o manuseio."
+    ],
+    "commonErrors": [
+      "❌ Passar o ferro de passar quente diretamente sobre a marca azul antes de molhar, correndo o risco de 'cozinhar' a tinta na fibra do tecido",
+      "❌ Usar caneta esferográfica comum ou caneta permanente de CD para marcar tecidos, manchando a peça do cliente para sempre",
+      "❌ Guardar a caneta destampada na bancada, ressecando a ponta de feltro e inutilizando a tinta hidrossolúvel"
+    ],
+    "troubleshootingTips": [
+      "Se a marca azul demorar a sair com borrifador leve: Umedeça uma esponja macia com água morna e pressione suavemente sobre o traço por 5 segundos.",
+      "Se a ponta da caneta estiver meio seca: Mergulhe a pontinha de feltro por 2 segundos em água pura e tampe bem a caneta por 10 minutos para reidratar.",
+      "Se você passou o ferro por engano sobre a marca: Lave a peça com sabão neutro e umas gotinhas de detergente líquido transparente em água corrente."
+    ],
+    "dicaArtrelados": "Nunca passe ferro de passar roupa sobre a marquinha da caneta azul antes de borrifar água: borrife a água primeiro, espere secar ao natural e só depois passe o ferro morninho pelo avesso da peça!",
+    "voceSabia": "As tintas hidrossolúveis foram criadas originalmente por químicos têxteis para marcar cortes cirúrgicos em tecidos estéreis hospitalares antes de serem adotadas com paixão pelas bordadeiras do mundo inteiro!",
+    "practicalExercise": "Pegue um retalho de tecido branco de algodão. Faça um 'X' com a caneta hidrossolúvel azul. Em seguida, pegue um borrifador com água limpa e dê uma única borrifada em cima: cronometre os 3 segundos mágicos do desaparecimento completo da tinta!",
+    "quickSummary": "Caneta especial com tinta azul solúvel em água que desaparece instantaneamente ao borrifar água pura, ideal para marcações seguras.",
+    "recommendedSettings": {
+      "speedPPM": "N/A (Ferramenta de marcação manual)",
+      "needleType": "Compatível com todo tipo de tecido claro",
+      "stabilizer": "Remoção com água pura à temperatura ambiente"
+    },
+    "relatedTerms": [
+      "Caneta Fantasma / Caneta Termoapagável que Apaga com Calor",
+      "Cruzeta de Centro e Alinhamento do Bastidor",
+      "Giz de Alfaiate",
+      "Centralização Automática no Bastidor",
+      "Camada de Cobertura / Topping"
+    ],
+    "tags": [
+      "c-091",
+      "caneta hidrossoluvel",
+      "marcador lavavel",
+      "marcacao",
+      "posicionamento",
+      "insumos",
+      "agua",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "CLOVER NEEDLEWORK CO. Water-Erasable Marking Pens: Chemistry and Garment Safety Guide. Osaka, 2022.",
+      "PRYM CONSUMER. Textile Marking Instruments & Precision Hooping Manual. Stolberg, 2021.",
+      "ARTRELADOS. Guia de Marcação, Alinhamento e Higiene Têxtil no DIBE. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-092-cording-aplicacao-cordao-grosso",
+    "code": "C-092",
+    "letter": "C",
+    "term": "Cording / Aplicação Computadorizada de Cordão Grosso (Computerized Cording Device & Presser Foot)",
+    "level": "Intermediário 🟡",
+    "category": "Técnicas Especiais & Dispositivos",
+    "grammarClass": "Substantivo masculino originário do inglês técnico com locução adjetiva.",
+    "origin": "Do inglês cord (cordão torcido, cordel derivado do grego chorde) e do sufixo de processo -ing. Introduzido em máquinas industriais automáticas pela Tajima e ZSK no final dos anos 1990.",
+    "summary": "Dispositivo mecânico especial acoplado ao cabeçote que guia e costura cordões grossos, fios de lã, fitas e soutaches sobre o tecido usando pontos zigue-zague sincronizados.",
+    "definition": "O cording ou dispositivo de aplicação mecânica de cordão computadorizado (computerized cording attachment, rotary cording device, passive loop-cord guide) é um acessório especializado montado na barra do calcador ou no cabeçote de bordadeiras industriais e domésticas avançadas. Seu mecanismo consiste em um calcador com canaleta tubular central vazada e uma guia aérea por onde um cordão espesso (de 1,0 mm a 4,0 mm de diâmetro) é alimentado de um carretel externo. Conforme o pantógrafo movimenta o bastidor, a máquina executa pontos zigue-zague estreitos ou pontos de cobertura rápida que laçam o cordão de um lado para o outro, fixando-o com firmeza e criando contornos de altíssimo relevo tátil e visual tridimensional.",
+    "technicalDetails": "O dispositivo exige a substituição do calcador padrão por um calcador de cording com furo rebaixado e túnel chanfrado que mantém o cordão perfeitamente centrado sob o eixo de descida da agulha. Em máquinas industriais com motor rotativo de cording (Active Cording Device), a guia gira 360° acompanhando a tangente da curva vetorial programada na matriz. Utiliza-se linha de bordar convencional 40wt ou monofilamento de poliamida transparente (fio de náilon invisível) para costurar o cordão sem alterar sua cor original.",
+    "howItWorks": [
+      "1. O carretel com o cordão (de algodão, seda, lã ou lurex) é posicionado no suporte aéreo da máquina.",
+      "2. O cordão é passado pelos anéis de guia e inserido pelo túnel central do calcador de cording até sair sob a base da sapatilha.",
+      "3. O arquivo de matriz programado especificamente para cording é iniciado na máquina com velocidade reduzida (450 a 600 PPM).",
+      "4. A agulha desce alternadamente à esquerda e à direita do cordão em zigue-zague, prendendo-o firmemente contra o tecido a cada avanço do pantógrafo.",
+      "5. O bordado resulta em letras, arabescos e molduras com textura de relevo incomparável e aspecto de passamanaria de luxo."
+    ],
+    "beginnerExplanation": "É um aparelhinho que faz a máquina 'costurar um cordão grosso' por cima da roupa! Em vez de preencher uma letra com milhares de pontinhos de linha comum, a máquina vai puxando um cordãozinho roliço ou fita bonita e dando pontinhos de zigue-zague para prender ele certinho no desenho. O resultado fica com um relevo altinho e fofinho maravilhoso, estilo alta-costura!",
+    "applications": [
+      "Bordados de luxo em vestidos de noiva, véus, mantilhas e moda festa clássica.",
+      "Uniformes militares de gala, brasões heráldicos e jaquetas com detalhes em soutache dourado.",
+      "Decoração de interiores, almofadas clássicas, cortinas e colchas acolchoadas.",
+      "Roupas folclóricas, figurinos teatrais e peças artesanais de alta gama."
+    ],
+    "characteristics": [
+      "Criação de relevo tridimensional extremo sem necessidade de usar EVA ou espumas internas.",
+      "Economia drástica de pontos e tempo de máquina em relação a preenchimentos cheios maciços.",
+      "Possibilidade de combinar texturas metálicas do cordão com linhas contrastantes."
+    ],
+    "commonErrors": [
+      "❌ Usar velocidade excessiva acima de 700 PPM, fazendo o cordão escapar da canaleta do calcador e ser perfurado no meio pela agulha",
+      "❌ Programar zigue-zague muito estreito que não ultrapassa a largura total do cordão, esmagando e quebrando o fio guia",
+      "❌ Utilizar cordões muito rígidos ou com nós de emenda que travam no interior da canaleta do calcador especial"
+    ],
+    "troubleshootingTips": [
+      "Se a agulha estiver picando o cordão no meio: Aumente a largura do ponto zigue-zague no software de matrizes em +0,5 mm para dar folga lateral.",
+      "Se o cordão estiver enrugando o tecido nas curvas: Verifique se o carretel de cordão está desenrolando livremente sem puxar com tensão excessiva.",
+      "Se a linha de costura ficar muito visível: Troque a linha superior por um fio de monofilamento de náilon transparente 100% invisível."
+    ],
+    "dicaArtrelados": "Para criar monogramas de luxo em toalhas de lavabo com efeito cordonê francês, use cordão soutache acetinado ou fio de seda torcido com linha invisível no calcador de cording: o bordado fica pronto em menos de 2 minutos e parece feito à mão por uma bordadeira artesanal de Paris!",
+    "voceSabia": "A técnica de cording remonta ao século XVI na corte da Rainha Elizabeth I da Inglaterra, onde artesãos reais passavam meses costurando manualmente fios de ouro puro sobre veludos reais para criar as famosas vestes de coroação!",
+    "practicalExercise": "Instale o calcador de cording na sua máquina. Passe um cordão fino de algodão colorido pela guia. Programe um ponto de zigue-zague com 2,5 mm de largura e 1,5 mm de comprimento. Borde uma linha ondulada em um retalho e sinta a textura do relevo com os dedos!",
+    "quickSummary": "Dispositivo e técnica que fixa cordões e fitas grossas sobre o tecido em zigue-zague, gerando relevos sofisticados e rápidos.",
+    "recommendedSettings": {
+      "speedPPM": "450 a 600 PPM",
+      "needleType": "80/12 ou 90/14 Standard com canaleta ampla",
+      "stabilizer": "Entretela rasgável de 60g ou hidrossolúvel encorpada"
+    },
+    "relatedTerms": [
+      "Calcador de Bordado / Sapatilha de Pulo",
+      "Ponto Zigue-Zague Computadorizado",
+      "Linha Metálica de Alma Sintética",
+      "Chenille Computadorizado / Efeito Ponto Musgo",
+      "Bordado Tridimensional 3D com EVA"
+    ],
+    "tags": [
+      "c-092",
+      "cording",
+      "cordao",
+      "soutache",
+      "relevo",
+      "alta costura",
+      "dispositivo",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA INDUSTRIES. High-Speed Rotary Cording Device Operation & Design Manual. Nagoya, 2022.",
+      "ZSK STICKMASCHINEN. Special Devices: Cording, Looping and Ribbon Attachment in Modern Embroidery. Krefeld, 2021.",
+      "ARTRELADOS. Técnicas Especiais e Dispositivos Mecatrônicos no DIBE Artrelados. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-093-compensacao-elasticidade-malha-ribana",
+    "code": "C-093",
+    "letter": "C",
+    "term": "Compensação de Elasticidade em Malha Ribana e Canelados (Rib Knit Stretch Compensation)",
+    "level": "Avançado 🔴",
+    "category": "Programação de Bordado",
+    "grammarClass": "Substantivo feminino composto com locuções adjetivas e preposicionais.",
+    "origin": "Do latim compensare (equilibrar forças opostas), elasticus (propriedade de retornar à forma original) e do francês riban (fita canelada com canais salientes). Conceito desenvolvido na engenharia têxtil de malharia nos anos 1990.",
+    "summary": "Estratégia avançada de digitalização e estabilização que recalcula densidades, underlays em grade cruzada e sobre-compensações de repuxo para neutralizar a deformação sanfonada de tecidos canelados.",
+    "definition": "A compensação de elasticidade em malha ribana e tecidos canelados (rib knit pull-push dynamics compensation, high-elasticity structural compensation protocol) é a parametrização técnica aplicada na programação de matrizes e na preparação de bastidor para peças confeccionadas em malha com estrutura de tricotagem 1x1 ou 2x2 com canais verticais sanfonados e alta porcentagem de elastano (como punhos, golas, regatas caneladas e vestidos de ribana). Devido à forte tendência da malha ribana de se retrair no sentido da largura e se esticar no sentido do comprimento sob a tração dos fios, a matriz exige uma compensação de repuxo extrema (entre +0,45 mm e +0,70 mm), underlays duplos perpendiculares travados e ancoragens perimetrais para impedir que círculos fiquem ovais e letras fiquem comprimidas.",
+    "technicalDetails": "A malha ribana possui coeficiente de deformação biaxial assimétrico (alongamento transversal de até 120% e longitudinal de 40%). Para estabilizar essa base, aplica-se obrigatoriamente um underlay de Tatami Aberto (espaçamento de 2,5 mm) em ângulo de 90° em relação às nervuras do canelado, seguido por underlay de contorno duplo (Edge Run). A densidade do ponto de cobertura superior deve ser reduzida em 15% a 20% (espaçamento de 0,45 mm a 0,50 mm) para não sobrecarregar a elasticidade da fibra com excesso de perfurações concentradas.",
+    "howItWorks": [
+      "1. No software de matrizes, o programador analisa o sentido das nervuras da malha canelada que será bordada.",
+      "2. Configura a compensação de repuxo (Pull Compensation) com valor reforçado de 0,50 mm nas colunas de ponto cheio.",
+      "3. Adiciona uma grade de sustentação preliminar (tatami underlay cruzado) que costura antes de tudo para fixar a malha na entretela.",
+      "4. No ateliê, o tecido é assentado sem esticar sobre entretela de recorte (Cut-away) de malha colada com spray temporário.",
+      "5. A máquina borda a matriz suavemente a 650 PPM, e ao retirar do bastidor a malha relaxa sem deformar o desenho nem formar 'buracos' entre as colunas."
+    ],
+    "beginnerExplanation": "Bordar tecido canelado e malha ribana (aquele tecido de gola e punho de casaco que estica parecendo uma sanfoninha) é um grande desafio porque ele puxa a linha e encolhe tudo! A compensação é o segredo do programador: ele desenha as letras um pouquinho mais gordinhas no computador e coloca uma 'redinha de pontos invisíveis' por baixo. Quando a máquina borda, o tecido estica e o desenho fica perfeito, retinho e redondo!",
+    "applications": [
+      "Bordados em golas, punhos e barras caneladas de moletons e jaquetas universitárias.",
+      "Regatas femininas de ribana canelada, tops esportivos e vestidos de malha com elastano.",
+      "Toucas de inverno em tricô canelado, gorros de lã e polainas.",
+      "Uniformes de academias e moda fitness confeccionados em tecidos canelados de poliamida."
+    ],
+    "characteristics": [
+      "Anulação completa do efeito 'sanfona' que costuma engolir contornos em tecidos elásticos.",
+      "Manutenção da geometria exata de logotipos circulares, quadrados e textos finos.",
+      "Prevenção de furos e rompimento dos fios de elastano da malha pela agulha."
+    ],
+    "commonErrors": [
+      "❌ Esticar a malha ribana ao puxar no bastidor, fazendo o bordado enrugar como uma passa assim que o tecido for solto do aro",
+      "❌ Usar entretela rasgável fina que se rompe com o movimento elástico da roupa na primeira lavagem",
+      "❌ Digitalizar com densidade muito alta (0,30 mm), criando uma placa dura e pesada que quebra o caimento da malha no corpo"
+    ],
+    "troubleshootingTips": [
+      "Se o bordado circular ficar ovalado na ribana: Aumente a compensação de repuxo no sentido perpendicular às canaletas da malha em mais +0,20 mm.",
+      "Se o tecido canelado estiver aparecendo no meio das letras: Adicione uma camada de underlay em zigue-zague ou tatami aberto antes das colunas de cetim.",
+      "Se a máquina cortar fios da malha e abrir buraquinhos: Troque imediatamente a agulha por uma de Ponta Bola Média (SUK) calibre 75/11."
+    ],
+    "dicaArtrelados": "Ao bastidorar malha canelada ou ribana, trate o tecido com muito carinho: nunca puxe nem estique o tecido com os dedos! Cole a ribana delicadamente sobre entretela de recorte (Cut-away) com spray adesivo temporário e use agulha ponta bola — o bordado fica impecável sem enrugar nada!",
+    "voceSabia": "A estrutura canelada da malha ribana foi criada no século XIX na Inglaterra inspirada nas costelas do corpo humano (daí o nome 'rib', que significa costela em inglês), exatamente para permitir que golas e punhos expandissem e voltassem ao tamanho original sem afrouxar!",
+    "practicalExercise": "Pegue um pedaço de punho de ribana canelada. Borde uma letra 'O' com compensação padrão (0,20 mm) e outra letra 'O' com compensação para ribana (0,55 mm + tatami underlay). Solte do bastidor, estique a malha com as mãos e compare a estabilidade dos dois círculos!",
+    "quickSummary": "Técnica de programação e suporte que anula a retração elástica de malhas caneladas, mantendo o desenho perfeitamente alinhado.",
+    "recommendedSettings": {
+      "speedPPM": "600 a 700 PPM",
+      "needleType": "75/11 Ponta Bola Média (SUK / Ball Point)",
+      "stabilizer": "Entretela de malha de recorte (Cut-away Mesh) de 60g a 80g"
+    },
+    "relatedTerms": [
+      "Compensação de Encolhimento e Repuxo (Pull Compensation)",
+      "Agulha Ponta Bola (Ball Point / SES / SUK)",
+      "Entretela de Recorte (Cut-away)",
+      "Estrutura de Suporte (Underlay)",
+      "Camisa Polo / Malha Piquet e suas Deformações"
+    ],
+    "tags": [
+      "c-093",
+      "ribana",
+      "canelado",
+      "malha canelada",
+      "elasticidade",
+      "pull compensation",
+      "programacao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "KNITTING & EMBROIDERY TECHNICAL DIGEST. Distortion Dynamics on Rib Knit Garments. Leicester, 2022.",
+      "WILCOM EMBROIDERYSTUDIO. Digitizing for Elastic Fabrics and Rib Knits. Sydney, 2023.",
+      "ARTRELADOS. Guia de Programação para Malhas e Tecidos Elásticos no DIBE. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-094-centralizacao-marcacao-giz-alfaiate",
+    "code": "C-094",
+    "letter": "C",
+    "term": "Centralização por Marcação a Giz de Alfaiate (Tailor's Chalk Alignment Protocol)",
+    "level": "Fundamental 🟢",
+    "category": "Técnicas de Ateliê & Marcação",
+    "grammarClass": "Locução substantiva feminina composta com adjetivos.",
+    "origin": "Do latim calcis (pedra calcária natural), do português giz e do árabe al-khayyat (costureiro profissional, alfaiate). Tradição secular da alfaiataria clássica europeia aplicada ao posicionamento têxtil de precisão.",
+    "summary": "Protocolo manual de marcação de esquadro, centro e eixos ortogonais em tecidos escuros, lãs, veludos e couros utilizando giz mineral de alfaiataria facilmente removível por escovação.",
+    "definition": "A centralização por marcação a giz de alfaiate (tailor's chalk centering protocol, chalk marking crosshair alignment) é a técnica clássica e segura de transferência de coordenadas cartesianas (eixo horizontal X e eixo vertical Y) para tecidos texturizados, escuros ou nobres (como lã fria, veludo, brim preto, sarja escura e couro camurça), nos quais canetas hidrossolúveis ou canetas fantasmas térmicas não proporcionam visibilidade suficiente ou apresentam risco de manchas químicas. Utiliza-se lâminas triangulares ou lápis de giz de esteatita (pedra-sabão) ou carbonato de cálcio prensado com aresta afiada que traçam linhas ultrafinas e nítidas de 0,5 mm sem danificar a trama da peça.",
+    "technicalDetails": "O giz de alfaiate de boa procedência é composto por 98% de silicato de magnésio natural (esteatita pura) ou gesso cerâmico prensado sem aditivos gordurosos ou cera permanente. Não reage sob calor moderado e é completamente removido das fibras através de escovação mecânica leve com escova de cerdas macias de crina de cavalo ou pano ligeiramente umedecido com água. Sua baixa tensão de adesão superficial garante que o traço não migre nem manche as linhas de bordar durante a costura rápida da máquina.",
+    "howItWorks": [
+      "1. O operador afia a borda do giz de alfaiate em um lixador de giz ou com a lâmina da tesoura para obter uma aresta bem fininha.",
+      "2. Com a régua de esquadro de costura, traça uma cruz ortogonal perfeita (ponto central 0,0) no local exato onde o bordado deve ficar na roupa escura.",
+      "3. O tecido é montado no bastidor fazendo coincidir as ranhuras do gabarito transparente ou a mira laser da máquina com o traço branco de giz.",
+      "4. O bordado é executado com total precisão de nivelamento e posicionamento.",
+      "5. Ao retirar a peça da máquina, passa-se uma escovinha de roupas macia sobre o tecido e todo o pó de giz sai instantaneamente, entregando a peça limpa e pronta para o cliente."
+    ],
+    "beginnerExplanation": "É o método mais tradicional e seguro do mundo para marcar roupas escuras! Em tecidos pretos, azuis marinho ou marrons onde a canetinha azul não aparece, você usa a pedrinha de giz de alfaiate branquinha para fazer a cruzeta do meio. Depois que a máquina borda tudo no lugar certo, basta passar uma escovinha de roupa ou a mão que o pózinho de giz sai todinho na hora!",
+    "applications": [
+      "Marcação de blazers, ternos, casacos de lã e coletes de alfaiataria escura.",
+      "Bordado de logotipos em uniformes pretos, jaquetas de brim escuro e jeans pesados.",
+      "Posicionamento em veludos, camurças sintéticas e tecidos aveludados onde canetas comuns podem grudar.",
+      "Bordados sacros e eclesiásticos em túnicas escuras e paramentos litúrgicos."
+    ],
+    "characteristics": [
+      "Excelente contraste e visibilidade imediata sobre qualquer tecido escuro ou preto.",
+      "Remoção 100% mecânica a seco apenas com escovinha, sem precisar molhar a roupa.",
+      "Totalmente livre de produtos químicos agressivos que poderiam desbotar tecidos finos."
+    ],
+    "commonErrors": [
+      "❌ Usar giz de cera escolar infantil que derrete com o calor da agulha e deixa uma mancha de gordura eterna no tecido",
+      "❌ Marcar com o giz grosso e cego, fazendo um traço de 5 mm de largura que tira a precisão do ponto central",
+      "❌ Esfregar o tecido com força excessiva para tirar o giz, causando atrito e esbranquiçando a fibra da roupa"
+    ],
+    "troubleshootingTips": [
+      "Se o traço de giz estiver saindo muito grosso: Raspe a borda do giz com a lâmina de uma tesoura para afiar uma aresta bem fina como navalha.",
+      "Se ficarem resíduos de giz presos na trama do tecido: Passe uma escova de cerdas naturais no sentido do fio ou use um rolinho adesivo de tirar pelos.",
+      "Se o giz não quiser riscar em tecido impermeável: Troque por um lápis dermatográfico branco ou fita crepe de baixa aderência com marcação a caneta."
+    ],
+    "dicaArtrelados": "Mantenha sempre um pequeno pedaço de lixa de unha na gaveta da máquina para afiar o seu giz de alfaiate em dois segundos antes de riscar: um traço fino como um fio de cabelo garante que o bordado fique no centro exato do peito sem errar um milímetro!",
+    "voceSabia": "Os mestres alfaiates da lendária rua Savile Row em Londres utilizam exatamente a mesma fórmula de giz de esteatita natural desde o século XVIII para marcar os ternos da nobreza e da realeza britânica!",
+    "practicalExercise": "Pegue um retalho de tecido preto ou brim escuro. Afie o giz de alfaiate e trace uma cruzeta perfeita de 10 cm com a régua. Encaixe no bastidor, centralize pela cruz e borde um pequeno brasão. Depois, limpe com uma escova macia e veja a limpeza impecável!",
+    "quickSummary": "Método clássico e seguro de marcação com giz mineral em tecidos escuros, removível a seco com simples escovação.",
+    "recommendedSettings": {
+      "speedPPM": "N/A (Técnica de marcação de ateliê)",
+      "needleType": "Compatível com todos os tecidos escuros e nobres",
+      "stabilizer": "Remoção a seco com escova de cerdas macias"
+    },
+    "relatedTerms": [
+      "Cruzeta de Centro e Alinhamento do Bastidor",
+      "Caneta Hidrossolúvel de Marcação Rápida",
+      "Centralização Automática no Bastidor",
+      "Gabarito de Posicionamento para Bordado",
+      "Ponteiro Laser Cruzado"
+    ],
+    "tags": [
+      "c-094",
+      "giz de alfaiate",
+      "tailors chalk",
+      "marcacao",
+      "tecidos escuros",
+      "posicionamento",
+      "atelie",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "SAVILE ROW BESPOKE ASSOCIATION. Tailoring Tools & Precision Marking Standards. Londres, 2021.",
+      "TAJIMA OPERATOR GUIDE. Garment Preparation, Centering and Origin Alignment. Nagoya, 2022.",
+      "ARTRELADOS. Guia de Marcação Profissional e Alinhamento no DIBE Artrelados. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-095-contorno-duplo-triplo-ponto-grao-feijao",
+    "code": "C-095",
+    "letter": "C",
+    "term": "Contorno Duplo e Triplo / Ponto Grão de Feijão (Bean Stitch & Heavy Outline Run)",
+    "level": "Intermediário 🟡",
+    "category": "Tipos de Pontos & Estilos",
+    "grammarClass": "Substantivo masculino composto por substantivos e locuções adjetivas.",
+    "origin": "Do inglês bean stitch (ponto feijão, devido ao relevo alongado e gordinho do ponto que lembra um grão de feijão) e do latim contornare (delinear as bordas). Popularizado na digitalização de matrizes nos anos 1980.",
+    "summary": "Sequência de costura linear onde a agulha dá três, cinco ou sete passadas para frente e para trás sobre a mesma coordenada, criando uma linha de contorno grossa, forte e com visual artesanal marcante.",
+    "definition": "O contorno duplo e triplo ou ponto grão de feijão (bean stitch, triple run stitch, multi-pass heavy outline, back-and-forth decorative run) é um tipo de ponto linear decorativo e estrutural fundamental na programação de matrizes de bordado computadorizado. Diferente do ponto de corrida simples (que penetra a agulha apenas uma vez em cada passo linear), o ponto feijão executa uma cinemática de avanço e recuo: avança 1 ponto, recua 1 ponto no mesmo furo e avança novamente, repetindo o ciclo 3 vezes (triplo) ou 5 vezes (quíntuplo). Isso triplica a massa de linha na mesma trajetória, resultando em um traço nítido, encorpado e com altíssima resistência mecânica sem a rigidez pesada de uma coluna de ponto cheio estreita.",
+    "technicalDetails": "O comprimento de ponto ideal para o ponto bean varia entre 2,5 mm e 3,5 mm. Comprimentos menores que 2,0 mm acumulam excesso de perfurações na mesma coordenada, correndo o risco de furar tecidos delicados ou partir o fio; comprimentos maiores que 4,0 mm reduzem a definição de curvas fechadas. É amplamente utilizado como acabamento de contorno externo de apliques de tecido (appliqué outline), traçado de desenhos infantis estilo rústico e costuras de pesponto decorativo em artigos de couro e jeanswear.",
+    "howItWorks": [
+      "1. O digitalizador desenha o vetor de contorno no software de bordado e seleciona o tipo de ponto como 'Ponto Triplo / Bean Stitch'.",
+      "2. Configura o comprimento do ponto para 3,0 mm e o número de repetições para 3 passadas (ou 5 passadas para traço extra grosso).",
+      "3. A máquina recebe o arquivo e executa o movimento rítmico: perfura o ponto A, vai para o ponto B, volta no ponto A e retorna ao ponto B antes de seguir para o ponto C.",
+      "4. O fio se sobrepõe três vezes em perfeita sincronia, criando um relevo arredondado e contínuo.",
+      "5. O contorno finaliza com grande impacto visual, destacando o desenho mesmo sobre tecidos felpados ou estampados."
+    ],
+    "beginnerExplanation": "É aquele ponto de contorno 'gordinho e bem marcado' que parece feito à mão com linha grossa! A máquina dá um passinho para frente, volta um passinho para trás no mesmo buraquinho e vai para frente de novo. Como a linha passa três vezes no mesmo lugar, o contorno fica bem grossinho, forte e bonito, perfeito para contornar apliques e desenhos infantis!",
+    "applications": [
+      "Contorno de fixação e acabamento de apliques de tecido em roupas infantis e enxovais.",
+      "Bordados em estilo 'Redwork', 'Blackwork' e ilustrações vintage que imitam bordado livre feito à mão.",
+      "Pespontos decorativos de imitação de costura pesada em jaquetas jeans, bolsas e calçados.",
+      "Destaque de contornos em desenhos sobre tecidos texturizados como piquê, moletom e brim."
+    ],
+    "characteristics": [
+      "Espessura e visibilidade de 3 a 5 vezes maior que o ponto de corrida simples convencional.",
+      "Excelente flexibilidade e caimento suave no tecido, sem empedrar a roupa.",
+      "Consumo moderado de pontos e execução extremamente rápida na máquina de bordar."
+    ],
+    "commonErrors": [
+      "❌ Programar pontos feijão com comprimento muito curto (menos de 1,8 mm), fazendo a agulha martelar 3 vezes no mesmo ponto e furar o tecido",
+      "❌ Usar ponto feijão em cantos muito pontiagudos sem arredondar os nós vetoriais, criando pontas duras e nós acumulados de linha",
+      "❌ Esquecer de alinhar o ponto feijão sobre a borda exata do tecido de aplique, deixando fiapos do tecido escaparem para fora"
+    ],
+    "troubleshootingTips": [
+      "Se o contorno parecer que está cortando o tecido: Aumente o comprimento do ponto feijão no software para 3,2 mm e utilize agulha ponta bola macia.",
+      "Se a linha quebrar durante a execução do ponto triplo: Reduza a velocidade da máquina para 750 PPM e alivie levemente a tensão superior.",
+      "Se o contorno não cobrir bem a borda do aplique: No programa, aumente a compensação ou use o ponto feijão de 5 passadas (Quintuple Bean) para ganhar mais corpo."
+    ],
+    "dicaArtrelados": "Para criar matrizes infantis fofas e rápidas de bordar, troque os contornos pesados de ponto cheio por Ponto Feijão Triplo (Bean Stitch) com comprimento de 3,0 mm: o bordado fica leve, com carinha de feito à mão e a máquina termina a peça na metade do tempo!",
+    "voceSabia": "O nome 'Bean Stitch' foi criado nos Estados Unidos nos anos 1970 pelas bordadeiras tradicionais que notaram que a repetição tripla da linha entre duas perfurações criava uma pequena elevação ovalada idêntica à silhueta de um grãozinho de feijão!",
+    "practicalExercise": "No seu programa de matrizes, desenhe duas linhas curvas idênticas: configure uma como 'Ponto Corrido Simples' (1x) e a outra como 'Ponto Feijão Triplo' (3x). Borde as duas lado a lado em um tecido e compare a diferença impressionante de presença visual e relevo!",
+    "quickSummary": "Ponto linear reforçado que avança e recua sobre o mesmo traço, criando contornos grossos, resistentes e com charme artesanal.",
+    "recommendedSettings": {
+      "speedPPM": "750 a 850 PPM",
+      "needleType": "75/11 Standard ou Ponta Bola Leve",
+      "stabilizer": "Entretela rasgável ou de recorte conforme o tecido"
+    },
+    "relatedTerms": [
+      "Ponto de Corrida (Running Stitch)",
+      "Ponto Cheio (Satin Stitch)",
+      "Aplique de Tecido (Appliqué)",
+      "Redwork e Blackwork Computadorizado",
+      "Comprimento do Ponto (Stitch Length)"
+    ],
+    "tags": [
+      "c-095",
+      "ponto feijao",
+      "bean stitch",
+      "ponto triplo",
+      "contorno",
+      "aplique",
+      "artesanal",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM INTERNATIONAL. Vector Run Types, Bean Stitches & Decorative Outlines. Sydney, 2023.",
+      "EMBROIDERY DIGITIZING GUILD. Outline Mastery: Single, Triple and Quintuple Runs. Austin, 2022.",
+      "ARTRELADOS. Guia de Pontos Decorativos e Estilos de Digitalização no DIBE. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-096-came-excentrico-elevacao-calcador",
+    "code": "C-096",
+    "letter": "C",
+    "term": "Came Excêntrico de Elevação do Calcador (Hopping Foot Lift Cam & Stroke Timing)",
+    "level": "Avançado 🔴",
+    "category": "Equipamentos e Máquinas",
+    "grammarClass": "Substantivo masculino composto por substantivo, adjetivo e locuções adjetivas.",
+    "origin": "Do francês came (peça rotativa perfilada mecânica derivada do holandês kam/dente de engrenagem) e do latim eccentricus (fora do centro de rotação). Mecanismo clássico da engenharia mecatrônica de costura industrial alemã e japonesa.",
+    "summary": "Disco metálico usinado excêntrico acoplado ao eixo superior da máquina que converte o giro contínuo do motor no pulo vertical sincronizado do calcador de bordado.",
+    "definition": "O came excêntrico de elevação do calcador (hopping foot lift cam, presser foot eccentric driver, dynamic stroke eccentric mechanism) é o componente mecânico de precisão montado no eixo principal superior do cabeçote de bordado responsável por gerar o movimento alternado oscilante de subida e descida da sapatilha (calcador pula-pula). O perfil excêntrico do disco empurra uma biela acoplada à mola de compressão do calcador, sincronizando com precisão de frações de grau angular o momento exato em que a base do calcador deve prensar o tecido contra a chapa de agulha (durante a descida e saída da agulha) e o momento em que deve se elevar (curso de pulo de 0,5 mm a 2,5 mm) para que o pantógrafo desloque o bastidor livremente sem prender a peça.",
+    "technicalDetails": "Fabricado em aço carbono SAE 4140 ou 8620 com tratamento térmico de cementação e têmpera (dureza superficial de 58 a 62 HRC) e acabamento retificado. Possui bucha com parafusos de fixação tangenciais para regulagem angular de sincronismo de fase (timing angular, ajustado tipicamente a 25° a 30° antes do ponto morto superior da alavanca estica-fio) e curso de elevação vertical ajustável para alternar entre tecidos finos e materiais acolchoados espessos como mantas e couro automotivo.",
+    "howItWorks": [
+      "1. O motor principal do cabeçote gira o eixo superior a velocidades de até 1.200 RPM.",
+      "2. O lóbulo saliente do came excêntrico entra em contato com o rolamento seguidor da biela do calcador.",
+      "3. O came força a haste do calcador para baixo exatamente no instante em que a ponta da agulha perfura o tecido, impedindo que o pano se mova ou suba junto com a agulha (flagging).",
+      "4. Conforme o came gira e a ponta da agulha sai totalmente da chapa de ponto, o perfil excêntrico libera a haste e a mola eleva o calcador.",
+      "5. O vão livre formado permite que o carro X/Y do bastidor transporte o tecido para a coordenada do próximo ponto em milésimos de segundo sem raspar."
+    ],
+    "beginnerExplanation": "É a 'pecinha de aço mágica' que faz o pezinho da máquina pular para cima e para baixo sem parar! Sabe quando a máquina está bordando rápido e o pezinho parece uma britadeirinha? Esse came é um disquinho de aço que gira lá dentro e empurra o pezinho para segurar o tecido no milésimo de segundo que a agulha entra, e solta o tecido na hora que a agulha sai para o bastidor poder andar!",
+    "applications": [
+      "Sincronismo mecânico em máquinas de bordar industriais multicabeçotes e domésticas de alta velocidade.",
+      "Ajuste de altura de pulo do calcador para bordar materiais espessos (couro, bonés estruturados, toalhas e mantas).",
+      "Eliminação completa do efeito de flutuação e repuxamento de tecido (anti-flagging mecânico).",
+      "Manutenção preventiva e calibração de sincronismo após travamentos mecânicos graves de linha."
+    ],
+    "characteristics": [
+      "Usinagem micrométrica de alta dureza para suportar milhões de ciclos contínuos sem desgaste.",
+      "Canal de lubrificação por gotejamento ou feltro banhado a óleo mineral transparente.",
+      "Regulagem de altura do curso de pulo (stroke) por parafuso excêntrico micrométrico."
+    ],
+    "commonErrors": [
+      "❌ Soltar os parafusos do came sem ferramentas de medição angular de fábrica, perdendo o sincronismo e quebrando agulhas no calcador",
+      "❌ Operar a máquina sem lubrificação nas faces de contato do came, causando aquecimento, chiado metálico e desgaste prematuro",
+      "❌ Regular o curso do calcador muito alto em tecidos finos, permitindo que o tecido pule solto e gere nós no avesso"
+    ],
+    "troubleshootingTips": [
+      "Se a máquina fizer um barulho de 'martelinho estalando' no topo do cabeçote: Verifique se há folga no rolamento seguidor do came excêntrico e aplique duas gotas de óleo nas guias.",
+      "Se o tecido estiver subindo junto com a agulha (flagging): Aumente a pressão da mola ou ajuste a altura do calcador para descer 0,5 mm mais próximo da chapa de ponto.",
+      "Se a agulha bater na borda do furo do calcador: O sincronismo de descida do came está adiantado ou o calcador está torto; recalibre o alinhamento da haste."
+    ],
+    "dicaArtrelados": "Quando for bordar toalhas bem grossas ou peças acolchoadas com manta, ajuste a altura do calcador no menu da máquina ou no parafuso de regulagem para ele subir 1 mm a mais: isso evita que o pezinho arraste na felpa e garante pontos super limpos!",
+    "voceSabia": "O princípio do came excêntrico foi aperfeiçoado pelo gênio renascentista Leonardo da Vinci em seus cadernos de desenhos mecânicos em 1490 para automatizar teares e bombas d'água mecânicas!",
+    "practicalExercise": "Com a máquina desligada da tomada, gire a manopla do volante manual superior bem devagar. Olhe atentamente para o pezinho do calcador e perceba como ele desce, segura o tecido e sobe no tempo exato em sincronia com o movimento da agulha!",
+    "quickSummary": "Disco excêntrico de precisão que converte a rotação do motor no pulo vertical sincronizado do calcador de bordado.",
+    "recommendedSettings": {
+      "speedPPM": "Projetado para operar com suavidade de 400 a 1.200 PPM",
+      "needleType": "Compatível com todas as barras de agulha industriais e domésticas",
+      "stabilizer": "Lubrificação periódica com óleo branco mineral de alta pureza"
+    },
+    "relatedTerms": [
+      "Calcador de Bordado / Sapatilha de Pulo",
+      "Barra de Agulha",
+      "Sincronismo de Lançadeira e Agulha",
+      "Chapa de Agulha",
+      "Manutenção Preventiva do Cabeçote"
+    ],
+    "tags": [
+      "c-096",
+      "came excentrico",
+      "elevacao do calcador",
+      "hopping foot",
+      "mecanica",
+      "sincronismo",
+      "engenharia",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BARUDAN CO. Mechanical Drive Systems, Hopping Foot Cam & Needle Timing. Ichinomiya, 2022.",
+      "TAJIMA TECHNICAL SERVICE. Cam Timing, Stroke Adjustments and Head Kinematics. Nagoya, 2021.",
+      "ARTRELADOS. Mecânica Avançada e Dinâmica de Cabeçotes no DIBE Artrelados. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-097-clipes-retencao-magnetica-bastidores-planos",
+    "code": "C-097",
+    "letter": "C",
+    "term": "Clipes de Retenção Magnética para Bastidores Planos (Magnetic Clamp Retainers)",
+    "level": "Fundamental 🟢",
+    "category": "Bastidores & Fixação",
+    "grammarClass": "Substantivo masculino composto por substantivo e locuções adjetivas.",
+    "origin": "Do inglês clip (presilha de aperto derivada do saxão clyppan) e do grego magnes (ímã mineral da região da Magnésia). Criados nos Estados Unidos e Alemanha no início dos anos 2010.",
+    "summary": "Travas e presilhas equipadas com ímãs de neodímio de alta potência que prendem tecidos grossos, toalhas e mantas nas bordas do bastidor plano sem deformar a rosca plástica do aro.",
+    "definition": "Os clipes de retenção magnética para bastidores planos (magnetic hoop clamp retainers, auxiliary magnetic edge grips, snap-on magnetic brackets) são acessórios auxiliares de fixação ergonômica projetados para complementar ou substituir o aperto mecânico de parafusos em bastidores de bordado convencionais. Equipados com poderosos ímãs de terras raras de neodímio-ferro-boro (NdFeB de grau N45 a N52) encapsulados em carcaças emborrachadas ou polímeros de alta resistência, esses clipes são posicionados estrategicamente nas bordas externas do aro plástico. Eles exercem uma força de compressão vertical plana e uniforme sobre o tecido e a entretela, impedindo deslizamentos durante bordados de grande formato sem esmagar as fibras nem deixar marcas circulares indeléveis (hoop burn).",
+    "technicalDetails": "Cada clipe magnético gera uma força de atração axial de 3 kg a 8 kg de pressão perpendicular, com superfície de contato texturizada em silicone antiaderente ou borracha sintética nitrílica que não risca o aro do bastidor. São compatíveis com bordados em tecidos pesados (como sarjas de 400 g/m², mantas acolchoadas, couros e toalhas de banho felpudas), permitindo prender e soltar a peça em menos de 5 segundos sem forçar a articulação do punho do operador.",
+    "howItWorks": [
+      "1. A entretela e o tecido a ser bordado são assentados sobre o aro inferior do bastidor plano.",
+      "2. Em vez de apertar o parafuso com força excessiva para tentar travar o tecido grosso, o aro superior é posicionado levemente encaixado.",
+      "3. Os clipes magnéticos são aplicados nas quatro laterais do bastidor, clicando instantaneamente com forte atração magnética.",
+      "4. O tecido fica perfeitamente esticado, nivelado e firme como a pele de um tambor.",
+      "5. Ao término do bordado, basta puxar a aba ergonômica dos clipes magnéticos para soltar a peça pronta instantaneamente sem marcas."
+    ],
+    "beginnerExplanation": "São 'super presilhas magnéticas com ímãs super fortes' que você coloca na borda do bastidor! Em vez de ficar sofrendo e quase quebrando o parafuso do bastidor quando vai bordar uma toalha de banho grossa ou um cobertorzinho de bebê, você só encosta essas presilhas magnéticas nas beiradas: elas grudam com uma força incrível, seguram o tecido retinho e soltam com um puxãozinho super fácil!",
+    "applications": [
+      "Fixação rápida de toalhas de banho aveludadas, roupões felpudos e panos de prato grossos.",
+      "Bordados em jaquetas de inverno acolchoadas, moletons grossos e mantas de microfibra.",
+      "Trabalhos de bordado contínuo em barrados longos de lençóis e toalhas de mesa.",
+      "Proteção contra marcas de aro em tecidos nobres e sensíveis à pressão mecânica (veludo e camurça)."
+    ],
+    "characteristics": [
+      "Fixação ultrarrápida com ganho de até 60% no tempo de montagem do bastidor.",
+      "Eliminação total do risco de quebrar a rosca e a orelha plástica do parafuso do bastidor.",
+      "Força magnética permanente que não enfraquece com o tempo de uso diário."
+    ],
+    "commonErrors": [
+      "❌ Deixar os clipes magnéticos muito perto do percurso da barra de agulha, correndo o risco do calcador bater no metal do ímã",
+      "❌ Prender os dedos entre dois ímãs de neodímio fortes por descuido no manuseio",
+      "❌ Guardar clipes magnéticos grudados diretamente sobre telas sensíveis de celulares ou pendrives com matrizes"
+    ],
+    "troubleshootingTips": [
+      "Se o tecido grosso ainda deslizar no centro: Use 4 clipes (um em cada lado do bastidor) e aplique uma leve camada de spray adesivo temporário na entretela.",
+      "Se o ímã estiver arranhando o plástico do bastidor: Verifique se a borracha de proteção da base do clipe não se soltou; recoloque o protetor de silicone.",
+      "Se a máquina acusar erro de limite de área: Certifique-se de que o clipe magnético foi posicionado fora da margem útil de bordado do bastidor."
+    ],
+    "dicaArtrelados": "Quando for bordar toalhas felpudas bem fofinhas, use clipes magnéticos nas quatro bordas do bastidor em vez de apertar o parafuso até o fim: a toalha fica super firme, não deforma a trama e sai da máquina sem aquela marca feia redonda de bastidor!",
+    "voceSabia": "Os ímãs de neodímio utilizados nesses clipes de alta tecnologia são feitos de uma liga metálica descoberta em 1982 que consegue sustentar mais de 600 vezes o seu próprio peso em força de atração magnética!",
+    "practicalExercise": "Experimente prender uma toalha de banho grossa no bastidor usando apenas o aperto do parafuso e observe a força no punho. Depois, monte a mesma toalha usando os clipes de retenção magnética nas bordas e sinta a praticidade e a firmeza sem esforço!",
+    "quickSummary": "Presilhas com ímãs de neodímio que fixam tecidos grossos e toalhas nas bordas do bastidor com rapidez e sem deixar marcas.",
+    "recommendedSettings": {
+      "speedPPM": "Compatível com velocidades de até 850 PPM",
+      "needleType": "Compatível com todos os bastidores planos do mercado",
+      "stabilizer": "Fixação universal para entretelas rasgáveis, solúveis e de recorte"
+    },
+    "relatedTerms": [
+      "Bastidor Magnético de Alta Aderência",
+      "Marcas de Bastidor (Hoop Burn)",
+      "Cruzeta de Centro e Alinhamento do Bastidor",
+      "Cola Temporária em Spray 505",
+      "Entretela Rasgável de Alta Gramatura"
+    ],
+    "tags": [
+      "c-097",
+      "clipes magneticos",
+      "retencao magnetica",
+      "imas de neodimio",
+      "bastidor",
+      "toalhas",
+      "fixacao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "MIGHTY HOOP & HOOPMASTER. Magnetic Clamping Technology & Fast Framing Systems. Wisconsin, 2022.",
+      "EMBROIDERY MAGAZINE. Ergonomic Hooping Tools and Magnetic Clamping Innovations. Londres, 2021.",
+      "ARTRELADOS. Guia de Bastidores, Fixação Magnética e Produtividade no DIBE. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-098-costura-reforco-tatami-underlay-cruzado",
+    "code": "C-098",
+    "letter": "C",
+    "term": "Costura de Reforço em Ponto Tatami / Underlay Cruzado Duplo (Double Tatami Underlay Lattice)",
+    "level": "Intermediário 🟡",
+    "category": "Programação de Bordado",
+    "grammarClass": "Substantivo feminino composto com locuções adjetivas e qualificadoras.",
+    "origin": "Do latim consutura (costura unida por fios), do japonês tatami (esteira tradicional de palha entrelaçada em grade) e do inglês underlay (camada de base estrutural). Desenvolvido nos softwares de matrizes nos anos 1980.",
+    "summary": "Malha de sustentação preliminar formada por duas camadas ortogonais entrecruzadas em ângulo de 90° digitalizada antes do preenchimento principal para blindar o tecido contra repuxo e afundamento.",
+    "definition": "A costura de reforço em ponto tatami e underlay cruzado duplo (double tatami underlay lattice, double grid underlay foundation, orthogonal mesh underlay) é a mais robusta e estável estrutura de suporte utilizada na engenharia de digitalização de matrizes de bordado computadorizado. Consiste na geração automática ou manual de duas camadas consecutivas de pontos de corrida abertos e espaçados (comprimento de 3,0 mm a 4,5 mm e espaçamento entre linhas de 2,0 mm a 4,0 mm) orientadas em ângulos complementares cruzados (tipicamente +45° e -45° ou 0° e 90°). Essa grade ortogonal é bordada antes da camada de cobertura definitiva, fundindo o tecido à entretela e criando uma 'laje de sustentação' rígida que impede deformações, enrugamentos e a visualização da cor do tecido de fundo através do bordado.",
+    "technicalDetails": "O underlay tatami duplo consome entre 10% e 15% do total de pontos do objeto, mas reduz a deformação mecânica por cisalhamento elástico (Shear strain) do tecido em mais de 75%. É indispensável em grandes áreas de preenchimento (acima de 5x5 cm), brasões maciços sobre malhas elásticas, tecidos com tramas abertas (como piquê e linho rústico) e materiais felpados (toalhas e moletons), nos quais impede que os pontos de acabamento afundem entre as fibras.",
+    "howItWorks": [
+      "1. No software de matrizes, o programador cria um grande objeto de preenchimento tatami (ex: o fundo de um escudo heráldico).",
+      "2. Nas propriedades de suporte (Underlay), ativa a opção 'Tatami Duplo' (Double Tatami / Grid Underlay).",
+      "3. A máquina inicia o bordado traçando primeiro uma grade de linhas paralelas espaçadas a 45°.",
+      "4. Imediatamente após, traça a segunda grade perpendicular a 135°, amarrando a fibra do tecido contra a entretela em formato de xadrez.",
+      "5. Por fim, a máquina aplica a camada superior de cobertura densa (Top Stitch), resultando em uma superfície perfeitamente lisa, plana e sem rugas ao redor."
+    ],
+    "beginnerExplanation": "É a 'fundação de concreto armado' do seu bordado! Assim como uma casa grande precisa de uma laje de ferro bem forte no chão antes de levantar as paredes, um bordado grande e fechado precisa de uma redinha de pontos cruzados por baixo antes de receber o preenchimento de cima. Com essa redinha cruzada, o tecido não enruga, o bordado não afunda e a peça fica lisinha como uma pintura!",
+    "applications": [
+      "Grandes brasões e escudos esportivos para jaquetas e quimonos.",
+      "Bordados de preenchimento amplo sobre tecidos elásticos (malha polo piquê e moletom).",
+      "Bordados em toalhas de banho e veludos para evitar que os pelinhos da felpa atravessem a linha.",
+      "Bordado de logos corporativos com fundos maciços sobre uniformes de brim pesado."
+    ],
+    "characteristics": [
+      "Máxima estabilidade dimensional e retenção geométrica em bordados de grande formato.",
+      "Superfície superior perfeitamente plana e uniforme, com brilho homogêneo da linha de cobertura.",
+      "Eliminação completa do efeito de repuxamento assimétrico nas bordas externas do desenho."
+    ],
+    "commonErrors": [
+      "❌ Usar underlay tatami com densidade excessivamente fechada (menos de 1,5 mm), deixando o bordado duro como papelão e quebrando agulhas",
+      "❌ Alinhar o underlay exatamente no mesmo ângulo da camada de cobertura superior, fazendo os pontos superiores caírem dentro dos sulcos da base",
+      "❌ Desativar o underlay para economizar pontos em desenhos grandes, resultando em um tecido enrugado e cheio de falhas visíveis"
+    ],
+    "troubleshootingTips": [
+      "Se a cor do tecido estiver aparecendo através do bordado tatami: Ative o underlay tatami duplo com espaçamento de 2,5 mm e verifique a densidade superior (0,40 mm).",
+      "Se o bordado ficar muito duro e espesso: Aumente o espaçamento das linhas da grade de underlay para 3,5 mm ou 4,0 mm para deixá-lo mais maleável.",
+      "Se o tecido repuxar nas pontas do escudo: Certifique-se de que o underlay possua uma margem de recuo (inset margin) de 1,0 mm a 1,5 mm em relação à borda externa."
+    ],
+    "dicaArtrelados": "Em bordados grandes de jaquetas ou fundos de brasões, nunca economize no underlay: use sempre o Underlay Tatami Duplo em grade a 45°/135° com recuo de 1,2 mm da borda. O bordado fica plano como um espelho e a peça não enruga mesmo após dezenas de lavagens!",
+    "voceSabia": "A estrutura de grade cruzada em 90° utilizada no underlay de bordado computadorizado é matematicamente idêntica às estruturas de treliça de aço usadas pelos engenheiros civis na construção de pontes suspensas e arranha-céus para suportar cargas de torção!",
+    "practicalExercise": "No seu programa de bordado, crie dois quadrados de 6x6 cm com ponto tatami: um sem underlay e o outro com Underlay Tatami Cruzado Duplo. Borde os dois em um tecido de malha piquê e compare a diferença brutal de estabilidade e lisura entre eles!",
+    "quickSummary": "Estrutura de suporte em grade ortogonal que ancora o tecido à entretela, garantindo superfícies lisas e sem enrugamento.",
+    "recommendedSettings": {
+      "speedPPM": "800 a 1.000 PPM",
+      "needleType": "75/11 Standard ou Ponta Bola",
+      "stabilizer": "Entretela de boa densidade (rasgável 50g ou de recorte)"
+    },
+    "relatedTerms": [
+      "Estrutura de Suporte (Underlay)",
+      "Ponto Tatami / Ponto Esteira (Fill Stitch)",
+      "Compensação de Encolhimento e Repuxo",
+      "Densidade de Pontos (Stitch Density)",
+      "Camada de Bordado (Embroidery Layer)"
+    ],
+    "tags": [
+      "c-098",
+      "tatami underlay",
+      "underlay cruzado",
+      "grade ortogonal",
+      "suporte",
+      "estabilidade",
+      "programacao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM INTERNATIONAL. Underlay Architecture & Structural Stability in Commercial Digitizing. Sydney, 2023.",
+      "PULSE MICROSYS. Advanced Tatami Mesh Underlay Optimization Guidelines. Toronto, 2022.",
+      "ARTRELADOS. Engenharia de Estruturas de Suporte e Underlays no DIBE Artrelados. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-099-curva-aceleracao-frenagem-pantografo-s-curve",
+    "code": "C-099",
+    "letter": "C",
+    "term": "Curva de Aceleração e Frenagem do Pantógrafo / S-Curve Kinematics (S-Curve Motion Smoothing)",
+    "level": "Avançado 🔴",
+    "category": "Equipamentos e Máquinas",
+    "grammarClass": "Substantivo feminino composto por substantivos, adjetivos e termos técnicos mecatrônicos.",
+    "origin": "Do latim curva (linha arqueada contínua), celerare (mover com rapidez) e do inglês S-Curve (curva de controle cinemático em formato de S derivado do cálculo de derivada terceira de posição/Jerk). Criado na robótica japonesa nos anos 1990.",
+    "summary": "Algoritmo mecatrônico de controle de movimento que suaviza as partidas e paradas dos servomotores X/Y do bastidor com aceleração senoidal, eliminando solavancos e vibrações mecânicas.",
+    "definition": "A curva de aceleração e frenagem do pantógrafo e suavização cinemática em curva S (S-curve motion profile, jerk-limited acceleration control, pantograph dynamic deceleration algorithm) é a tecnologia mecatrônica avançada embarcada nos servodrivers e controladores de movimento (DSP/FPGA) das máquinas de bordar modernas. Em vez de aplicar uma aceleração linear brusca (perfil trapezoidal comum, que causa trancos no início e no fim do salto de ponto), o algoritmo em curva S modula a taxa de variação da aceleração (controlando o Jerk ou sobressalto), iniciando o movimento do bastidor suavemente, acelerando até o pico de velocidade e desacelerando com amortecimento milimétrico no instante exato em que a agulha penetra o tecido.",
+    "technicalDetails": "O cálculo cinemático de curva S é executado em tempo real a cada 250 microssegundos para sincronizar o deslocamento cartesiano do pantógrafo com o ângulo de rotação do eixo principal (resolução de encoder de 1.000 a 4.096 pulsos por volta). Isso reduz o estresse mecânico nas correias dentadas e rolamentos em mais de 60%, permite que o bastidor salte distâncias de até 12 mm entre perfurações consecutivas sem perder o sincronismo e garante que contornos finos fiquem perfeitamente alinhados com preenchimentos sem trepidação a 1.200 PPM.",
+    "howItWorks": [
+      "1. A CPU da máquina de bordar lê a coordenada do próximo ponto no arquivo da matriz.",
+      "2. O processador de controle de movimento (Motion Controller) calcula a distância vetorial euclidiana entre os dois pontos.",
+      "3. O algoritmo divide o tempo de deslocamento em 7 fases cinemáticas suaves (aumento suave de aceleração, aceleração constante, redução suave, velocidade máxima e frenagem amortecida em S).",
+      "4. Os servomotores AC dos eixos X e Y recebem as correntes elétricas moduladas e movimentam o bastidor de forma silenciosa e fluida como seda.",
+      "5. O bastidor para com precisão de microns no destino exatamente quando o calcador e a agulha descem para a perfuração."
+    ],
+    "beginnerExplanation": "É como se a sua máquina de bordar tivesse um 'motorista suave de limusine' dirigindo o carrinho do bastidor! Em vez de arrancar e frear dando trancos secos a cada pontinho (o que faria o bastidor chacoalhar e o bordado tremer), a máquina acelera macio e freia suave como um carro de luxo. Assim, mesmo na velocidade máxima de 1.000 pontinhos por minuto, ela trabalha macia, silenciosa e sem errar a mira!",
+    "applications": [
+      "Máquinas de bordar industriais de alta velocidade (Tajima, Barudan, ZSK, Happy e SWF).",
+      "Bordados de extrema precisão com letras pequeninas de 3 mm a 5 mm e micro-detalhes.",
+      "Eliminação de vibrações em bastidores grandes e pesados de jaquetas (40x50 cm).",
+      "Aumento expressivo da vida útil de correias, fusos de esferas e guias lineares da máquina."
+    ],
+    "characteristics": [
+      "Movimento cinemático ultra-suave com ausência total de solavancos mecânicos e ruídos de impacto.",
+      "Precisão de parada micrométrica (repetibilidade posicional de ±0,01 mm).",
+      "Adaptação dinâmica automática de velocidade de acordo com o tamanho do ponto da matriz."
+    ],
+    "commonErrors": [
+      "❌ Desativar o amortecimento eletrônico no menu de fábrica da máquina tentando forçar saltos instantâneos, quebrando correias dentadas",
+      "❌ Operar com correias do pantógrafo frouxas, criando folga mecânica (backlash) que anula o controle de suavização da curva S",
+      "❌ Tentar bordar pontos de salto gigantescos (maiores que 15 mm) sem deixar a máquina reduzir a velocidade de ciclo"
+    ],
+    "troubleshootingTips": [
+      "Se a máquina estiver chacoalhando a mesa com trancos secos em saltos longos: Ative a função 'S-Curve Motion Smoothing / High Inertia Mode' no menu de configurações do pantógrafo.",
+      "Se o contorno não encaixar no preenchimento apenas em alta velocidade: Verifique a tensão das correias dentadas X e Y e reduza a aceleração máxima no painel.",
+      "Se os motores emitirem um zumbido agudo em repouso: Solicite a calibração dos ganhos de malha (PID Tuning) dos servodrivers da máquina."
+    ],
+    "dicaArtrelados": "Mantenha a sua máquina de bordar sempre nivelada sobre uma base ou mesa bem firme e pesada: a combinação de uma máquina estável com a curva de aceleração suave do pantógrafo faz os seus bordados ganharem uma nitidez tão perfeita que parecem impressos em alta definição!",
+    "voceSabia": "Os mesmos algoritmos de aceleração em curva S utilizados nas máquinas de bordar computadorizadas de ponta são empregados nos braços robóticos de cirurgia médica a laser e nos telescópios espaciais da NASA para apontar estrelas distantes com precisão de frações de milímetro!",
+    "practicalExercise": "No painel da sua máquina industrial, observe a diferença de som ao bordar um desenho cheio de saltos a 600 PPM e a 900 PPM. Perceba como a máquina modula a aceleração do bastidor suavemente sem solavancos mecânicos!",
+    "quickSummary": "Algoritmo de controle mecatrônico que move o bastidor com aceleração suave e frenagem amortecida, eliminando trepidações a altas velocidades.",
+    "recommendedSettings": {
+      "speedPPM": "Otimizado para operações contínuas de 750 a 1.200 PPM",
+      "needleType": "Compatível com todo tipo de agulha e cabeçote",
+      "stabilizer": "N/A (Engenharia de controle de movimento e servomotores)"
+    },
+    "relatedTerms": [
+      "Pantógrafo / Carro de Movimentação X-Y",
+      "Correia Dentada Sincronizadora do Pantógrafo",
+      "Velocidade em PPM (Pontos Por Minuto)",
+      "Salto de Ponto (Jump Stitch)",
+      "Balanço de Ponto e Compensação de Inércia"
+    ],
+    "tags": [
+      "c-099",
+      "curva s",
+      "s-curve",
+      "aceleracao",
+      "frenagem",
+      "pantografo",
+      "servomotor",
+      "mecatronica",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "IEEE TRANSACTIONS ON INDUSTRIAL ELECTRONICS. S-Curve Acceleration and Jerk-Limited Trajectory Planning for Textile CNC Systems. Nova York, 2022.",
+      "TAJIMA SERVO SYSTEMS. Motion Control Algorithms & High-Speed Dynamic Smooth Drive Manual. Nagoya, 2021.",
+      "ARTRELADOS. Mecatrônica Avançada, Robótica e Cinética de Máquinas no DIBE. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-100-certificacao-oeko-tex-standard-100-fios",
+    "code": "C-100",
+    "letter": "C",
+    "term": "Certificação OEKO-TEX Standard 100 para Fios de Bordado (OEKO-TEX Class 1 Baby-Safe Certification)",
+    "level": "Fundamental 🟢",
+    "category": "Insumos & Qualidade",
+    "grammarClass": "Locução substantiva feminina composta com siglas e termos normativos internacionais.",
+    "origin": "Do grego oikos (casa, ambiente natural/ecológico), do latim textilis (tecido entrelaçado) e da Associação Internacional OEKO-TEX fundada na Áustria e Alemanha em 1992.",
+    "summary": "Selo internacional rigoroso de conformidade ecológica e toxicológica que atesta que as linhas, entretelas e insumos de bordado são 100% livres de substâncias nocivas, metais pesados e seguros para bebês.",
+    "definition": "A certificação OEKO-TEX Standard 100 para fios, linhas e entretelas de bordado computadorizado (OEKO-TEX Standard 100 Class I certification for embroidery supplies, baby-safe textile safety seal) é o mais respeitado e rigoroso sistema global independente de testes e certificação para matérias-primas e produtos têxteis em todas as etapas de processamento. Para obter a certificação máxima Classe 1 (produtos para bebês e crianças de até 3 anos), as linhas de bordar (como as linhas de poliéster 120/2 e viscose) são submetidas a mais de 100 ensaios laboratoriais para garantir a ausência total de formaldeído, pesticidas, corantes cancerígenos azoicos, metais pesados tóxicos (chumbo, cádmio, níquel), ftalatos e substâncias alergênicas, atestando resistência extrema à saliva e ao suor sem liberação de resíduos químicos.",
+    "technicalDetails": "Os ensaios analíticos são conduzidos anualmente por institutos independentes credenciados (como Hohenstein na Alemanha e Shirley Technologies no Reino Unido) sob os padrões da norma ISO 17050-1. As linhas certificadas Classe 1 possuem índice de solidez de cor à saliva e ao suor com nota máxima (Grau 5 na escala cinza), garantindo que um bebê possa colocar a roupinha bordada na boca sem qualquer risco de intoxicação química ou irritação dermatológica.",
+    "howItWorks": [
+      "1. O fabricante das linhas de bordar seleciona polímeros puros e corantes orgânicos atóxicos de altíssima pureza.",
+      "2. Lotes regulares de cones de linha são enviados para os laboratórios credenciados da OEKO-TEX na Europa.",
+      "3. Amostras passam por espectrometria de massa, cromatografia e testes de liberação em contato com saliva sintética.",
+      "4. Sendo aprovado em todos os testes, o fabricante recebe o número de certificado oficial OEKO-TEX Standard 100 Classe 1.",
+      "5. O ateliê de bordado utiliza esses insumos certificados para confeccionar enxovais infantis com a garantia de segurança total para as mães e bebês."
+    ],
+    "beginnerExplanation": "É o 'selo de ouro de segurança e saúde' das linhas de bordar! Quando você compra um cone de linha de qualidade que tem o selinho OEKO-TEX Classe 1, você tem a certeza absoluta de que aquela linha é 100% pura, sem venenos, sem chumbo e sem produtos químicos perigosos. É a linha que toda mãe quer nas roupinhas do seu bebê, porque a criança pode até morder a bordinha da fralda bordada que não tem perigo nenhum de alergia!",
+    "applications": [
+      "Bordados em enxovais de bebês, fraldas de boca, bodies, mantas de maternidade e naninhas.",
+      "Roupas hospitalares, aventais cirúrgicos e lençóis para UTIs neonatais.",
+      "Roupas íntimas, lingeries de luxo e pijamas que ficam em contato direto com a pele.",
+      "Uniformes escolares e brinquedos de pelúcia com detalhes bordados para exportação internacional."
+    ],
+    "characteristics": [
+      "Atestado internacional com rastreabilidade pública por QR Code no site oficial OEKO-TEX.",
+      "Hipoalergênico e 100% seguro para peles ultrassensíveis de recém-nascidos.",
+      "Alta solidez de cor que não sangra nem desbota mesmo com lavagens frequentes com água quente e sabão neutro."
+    ],
+    "commonErrors": [
+      "❌ Comprar linhas de marcas piratas sem procedência nem certificação para bordar peças de bebê, arriscando alergias dermatológicas infantis",
+      "❌ Usar entretelas industriais pesadas impregnadas com resinas químicas de cheiro forte em enxovais de recém-nascidos",
+      "❌ Divulgar que o produto é '100% seguro para bebês' utilizando insumos que não possuem o selo verificado de atoxicidade"
+    ],
+    "troubleshootingTips": [
+      "Se a cliente for uma mãe exigente e perguntar sobre a segurança da linha: Mostre o selo OEKO-TEX impresso na etiqueta do seu cone de linha e explique que o seu ateliê só trabalha com insumos certificados de padrão internacional.",
+      "Se a linha soltar cheiro químico forte ao ser passada a ferro: Descarte o cone de linha de procedência duvidosa e substitua por marcas certificadas (Madeira, Setta, Lumina, Ricamare, Gunold).",
+      "Para proteger o verso do bordado na pele do bebê: Aplique uma película termocolante suave de proteção de avesso (Comfort Seal / Soft Touch) sobre os pontos."
+    ],
+    "dicaArtrelados": "Use a certificação OEKO-TEX das suas linhas como um super argumento de vendas no seu ateliê: crie uma etiquetinha fofa dizendo 'Bordado com Fios Certificados OEKO-TEX 100 - Seguro para a Pele do seu Bebê' — suas clientes mães vão se apaixonar e valorizar o seu trabalho!",
+    "voceSabia": "A norma OEKO-TEX Standard 100 é tão exigente que ela atualiza sua lista de substâncias proibidas todo mês de janeiro, banindo até mesmo compostos químicos novos antes mesmo que as leis governamentais de muitos países entrem em vigor!",
+    "practicalExercise": "Pegue os cones de linha do seu ateliê e procure na etiqueta o símbolo da florzinha azul da OEKO-TEX com a inscrição 'Standard 100'. Verifique o número de certificação e acesse o site oficial oeko-tex.com para conferir a validade do seu fornecedor!",
+    "quickSummary": "Certificação ecológica global que atesta que linhas e insumos são atóxicos, livres de substâncias nocivas e seguros para bebês.",
+    "recommendedSettings": {
+      "speedPPM": "Compatível com todas as velocidades da máquina",
+      "needleType": "Compatível com todas as agulhas para peças de bebê (65/9 a 75/11 Ponta Bola)",
+      "stabilizer": "Entretela hidrossolúvel de lavagem total ou entretela de toque macio certificada"
+    },
+    "relatedTerms": [
+      "Cone de Linha de Poliéster 120/2 (40wt Standard)",
+      "Linha de Rayon / Viscose 40wt",
+      "Protetor de Avesso Termocolante (Soft Touch)",
+      "Entretela Hidrossolúvel de Lavagem Rápida",
+      "Higienização e Cuidados com Enxoval de Bebê"
+    ],
+    "tags": [
+      "c-100",
+      "oeko-tex",
+      "standard 100",
+      "seguranca infantil",
+      "enxoval de bebe",
+      "qualidade",
+      "insumos",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "OEKO-TEX ASSOCIATION. Standard 100 by OEKO-TEX: Testing Methods & Limit Values for Class I (Baby Articles). Zurique, 2023.",
+      "HOHENSTEIN INSTITUTE. Textile Safety, Toxicology and Baby-Safe Embroidery Quality Standards. Bönnigheim, 2022.",
+      "ARTRELADOS. Guia de Qualidade, Saúde Têxtil e Sustentabilidade no DIBE Artrelados. Curitiba, 2024."
+    ],
     "updatedAt": "2026-08-28"
   }
 ];
-
-
