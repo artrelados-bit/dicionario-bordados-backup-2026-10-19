@@ -203,7 +203,7 @@ export const VERBETES_LETTER_M_PART1: Verbete[] = [
   },
   {
     id: "m-005-monograma-letras-tipografia-lettering-monogram",
-    code: "L-005",
+    code: "M-005",
     term: "Monograma e Tipografia de Bordado (Monogram, Lettering & Embroidery Typography)",
     letter: "M",
     level: "Fundamental 🟢",
