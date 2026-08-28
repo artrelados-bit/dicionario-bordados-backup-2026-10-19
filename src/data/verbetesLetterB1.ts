@@ -722,5 +722,346 @@ export const VERBETES_LETTER_B1: Verbete[] = [
       "ARTRELADOS. Manual de Bordados em Peças Prontas, Mangas e Bolsos. Curitiba, 2024."
     ],
     "updatedAt": "2026-08-26"
+  },
+  {
+    "id": "b-078",
+    "term": "Borda de Patch / Acabamento Merrow de Emblemas",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo feminino.",
+    "origin": "Do francês bord (margem, extremidade) e do inglês Merrow (homenagem a J. M. Merrow, inventor da máquina de overlock em 1838). Refere-se à moldura espessa de reforço perimetral que sela as bordas de emblemas e brasões.",
+    "category": "Apliques & Acabamentos",
+    "summary": "Moldura de ponto cheio de alta densidade executada na extremidade de um aplique ou emblema para selar os fios do tecido e permitir o recorte preciso sem desfiar.",
+    "definition": "Moldura de ponto cheio de alta densidade executada na extremidade de um aplique ou emblema para selar os fios do tecido e permitir o recorte preciso sem desfiar.",
+    "technicalDetails": "Elemento estrutural perimetral gerado por colunas de ponto cheio (satin) ou ponto de overlock bordado com largura entre 3,5 mm e 5,0 mm e densidade reforçada (0,35 mm a 0,38 mm), precedido por linha de posicionamento (running placement) e pontos de amarração interna, garantindo a contenção mecânica das fibras do tecido base e conferindo rigidez para recorte manual ou a laser.",
+    "howItWorks": [
+      "1. A máquina executa uma linha simples que desenha o formato do patch sobre a entretela hidrossolúvel ou termoadesiva.",
+      "2. O tecido base (nylon 600, sarja ou feltro) é posicionado e preso por uma costura de fixação (tackdown).",
+      "3. O excesso de tecido é refilado rente à costura com tesoura pelicano.",
+      "4. A máquina cobre a margem com uma coluna espessa de ponto cheio, encapsulando completamente a borda cortada."
+    ],
+    "beginnerExplanation": "É a bordinha grossa e brilhante que contorna os escudos e chaveiros bordados. Ela serve como uma moldura bem apertadinha que 'abraça' a beirada do pano para que ele não desfie e você possa recortar o patch perfeito.",
+    "applications": [
+      "Confecção de brasões escolares e emblemas de empresas aplicados com ferro quente (termofixáveis).",
+      "Produção de chaveiros bordados com entretela hidrossolúvel, onde a borda sela a frente e o verso da peça.",
+      "Patches militares e de motociclistas com fundo em sarja militar e acabamento perimetral reforçado."
+    ],
+    "characteristics": [
+      "Exige compensação de encolhimento elevada (0,40 mm a 0,55 mm) para evitar fiapos expostos.",
+      "Requer ponto de suporte central (edge walk ou zig-zag) para dar volume tridimensional à moldura perimetral."
+    ],
+    "commonErrors": [
+      "❌ Usar ponto cheio muito fino (menos de 2,5 mm), fazendo com que as pontas do tecido escapem após o recorte",
+      "❌ Recortar o tecido longe demais da linha de fixação, deixando fiapos aparentes na borda final",
+      "❌ Deixar a densidade muito rala (acima de 0,45 mm), permitindo que a cor do fundo apareça entre os fios"
+    ],
+    "troubleshootingTips": [
+      "Se ao recortar o patch o tecido começar a desmanchar: Aumente a largura do ponto cheio para pelo menos 4,0 mm no software.",
+      "Se o contorno ficar mole ou ondulado: Insira ponto de suporte tipo zigue-zague interno antes do ponto cheio de cobertura.",
+      "Se os cantos ficarem embolados: Ative a opção de cantos em mitra ou encurtamento automático de curvas no digitalizador."
+    ],
+    "dicaArtrelados": "Ao refilar o excesso de tecido do patch antes do ponto cheio final, use uma tesourinha de bico de pato (pelicano) com a lâmina chata encostada no tecido — isso garante corte rente sem nenhum risco de perfurar a entretela de sustentação!",
+    "voceSabia": "A máquina Merrow original foi inventada em 1838 para criar bordas resistentes em tecidos de malha para meias. Hoje, os softwares de bordado computadorizado emulam perfeitamente o visual clássico da borda Merrow usando pontos cheios duplos intercalados!",
+    "practicalExercise": "Crie no seu software um círculo simples de 8 cm com linha de marcação, linha de corte e borda de ponto cheio de 4,0 mm (densidade 0,38 mm). Borde sobre sarja, recorte e teste a firmeza da borda com os dedos.",
+    "quickSummary": "Acabamento espesso e firme de ponto cheio ao redor de emblemas e patches para selar o tecido e permitir acabamento perfeito.",
+    "recommendedSettings": {
+      "speedPPM": "600 a 750 PPM",
+      "needleType": "Ponta bola ou ponta lança 75/11",
+      "stabilizer": "Entretela hidrossolúvel 80g dupla ou termoadesiva especial para patches"
+    },
+    "relatedTerms": [
+      "Aplique / Appliqué",
+      "Bico de Pato (Tesoura Pelicano)",
+      "Ponto Cheio (Satin Stitch)",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Entretela Hidrossolúvel"
+    ],
+    "tags": [
+      "b-078",
+      "borda de patch",
+      "merrow",
+      "emblemas",
+      "apliques",
+      "chaveiros",
+      "ponto cheio",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM INTERNATIONAL. Designing Borders and Emblems for Patches. Sydney, 2023.",
+      "MADEIRA GARN. Professional Badge & Emblem Finishing Guide. Freiburg, 2022.",
+      "ARTRELADOS. Manual Prático de Produção de Patches, Brasões e Emblemas. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-079",
+    "term": "Bastidoramento / Processo de Enquadramento no Bastidor",
+    "level": "Fundamental 🟢",
+    "grammarClass": "Substantivo masculino.",
+    "origin": "Do português bastidor (armação de madeira ou plástico para esticar panos) derivado do provençal bastir (construir, armar). No bordado eletrônico, é o procedimento padrão de preparação e tensionamento do conjunto tecido-entretela.",
+    "category": "Bastidores & Fixação",
+    "summary": "Etapa fundamental de esticar e travar o tecido junto à entretela entre os aros do bastidor, conferindo estabilidade sem distorcer o fio do tecido.",
+    "definition": "Etapa fundamental de esticar e travar o tecido junto à entretela entre os aros do bastidor, conferindo estabilidade sem distorcer o fio do tecido.",
+    "technicalDetails": "Operação física preliminar de montagem na qual a peça a ser bordada e seu respectivo estabilizador têxtil são acomodados e prensados entre o aro interno e o aro externo do bastidor, calibrando a tensão superficial do tecido segundo a 'regra do tambor' (firmeza elástica sem deformação da urdidura e trama) e alinhando os eixos ortogonais (X e Y) com as marcas de centro do gabarito.",
+    "howItWorks": [
+      "1. Afrouxa-se o parafuso do bastidor externo e coloca-se o aro sobre uma superfície plana e antiderrapante.",
+      "2. Acomoda-se a entretela adequada por baixo do tecido.",
+      "3. Posiciona-se o aro interno sobre a marcação de centro do tecido, empurrando-o para dentro do aro externo de forma homogênea.",
+      "4. Ajusta-se o parafuso de fixação com os dedos até que o tecido fique esticado e sem rugas."
+    ],
+    "beginnerExplanation": "É o ato de prender o tecido e a entretela dentro do bastidor da máquina, deixando o tecido retinho e esticado como a pele de um tamborzinho, para que a máquina possa bordar sem o pano embolar ou enrugar.",
+    "applications": [
+      "Bastidorar toalhas felpudas com entretela rasgável embaixo e plástico hidrossolúvel em cima.",
+      "Prender camisetas de malha 100% algodão sem puxar as bordas para não criar ondas e deformar a gola.",
+      "Montar jalecos e camisas sociais alinhando o centro do bolso com a cruzeta guia do bastidor."
+    ],
+    "characteristics": [
+      "Um bastidoramento frouxo anula as compensações de encolhimento da matriz.",
+      "Um bastidoramento repuxado gera ondas e rugas no tecido assim que sai do bastidor."
+    ],
+    "commonErrors": [
+      "❌ Puxar as pontas do tecido com o aro já apertado, deformando as fibras da malha permanentemente",
+      "❌ Apertar o parafuso com alicate, podendo trincar a rosca ou o plástico do bastidor",
+      "❌ Não esticar a entretela até as bordas do aro, deixando áreas centrais sem sustentação mecânica"
+    ],
+    "troubleshootingTips": [
+      "Se ao dar um leve toque com o dedo no tecido o som for oco e firme: O bastidoramento está perfeito.",
+      "Se o tecido formar 'barriga' ou afundar ao toque: Solte o parafuso e repita o bastidoramento com firmeza uniforme.",
+      "Se ficarem marcas brancas de pressão no tecido (hoop burn): Use entretela mais espessa ou proteja a borda com feltro de proteção."
+    ],
+    "dicaArtrelados": "Nunca puxe o tecido pelas beiradas depois que o bastidor já estiver encaixado! O segredo é esticar a entretela e assentar o tecido suavemente sobre ela antes de descer o aro interno.",
+    "voceSabia": "O termo 'pele de tambor' é usado internacionalmente na indústria têxtil (drum-tight hooping) porque a acústica do toque no tecido bem bastidorado emite exatamente o mesmo timbre de ressonância de uma caixa de percussão!",
+    "practicalExercise": "Pegue um pedaço de tecido plano e monte no bastidor 13x18 cm. Dê uma leve batidinha com a ponta do dedo no centro para ouvir o som de tambor e confira se a trama do tecido continua perfeitamente reta em cruz.",
+    "quickSummary": "Procedimento essencial de esticar o tecido e a entretela no bastidor com firmeza e alinhamento corretos para garantir um bordado sem rugas.",
+    "recommendedSettings": {
+      "speedPPM": "Não se aplica (operação manual)",
+      "needleType": "Não se aplica",
+      "stabilizer": "Entretela proporcional à gramatura e elasticidade do tecido"
+    },
+    "relatedTerms": [
+      "Bastidor",
+      "Gabarito de Posicionamento",
+      "Marcas de Bastidor (Hoop Burn)",
+      "Flutuação (Floating)",
+      "Entretela Rasgável"
+    ],
+    "tags": [
+      "b-079",
+      "bastidoramento",
+      "bastidor",
+      "enquadramento",
+      "tensao do tecido",
+      "pele de tambor",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BROTHER INDUSTRIES. Guide to Proper Hooping Techniques. Nagoya, 2022.",
+      "EMBROIDERY TRADE ASSOCIATION. Standard Practice for Fabric Clamping and Framing. Dallas, 2021.",
+      "ARTRELADOS. Guia Definitivo do Bastidoramento Perfeito no Bordado Computadorizado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-080",
+    "term": "Base de Alinhamento / Ponto de Alinhave e Fixação (Basting Stitch)",
+    "level": "Fundamental 🟢",
+    "grammarClass": "Substantivo feminino.",
+    "origin": "Do francês antigo bastir (alinhavar, costurar com pontos largos) e do latim basis (fundamento, sustentação). No bordado eletrônico, designa o contorno preliminar de pontos largos que prende o tecido antes do bordado real.",
+    "category": "Pontos & Estruturas",
+    "summary": "Costura perimetral provisória em pontos longos que fixa o tecido na entretela para evitar deslizamentos durante o bordado, sendo facilmente removida ao final.",
+    "definition": "Costura perimetral provisória em pontos longos que fixa o tecido na entretela para evitar deslizamentos durante o bordado, sendo facilmente removida ao final.",
+    "technicalDetails": "Rotina de costura programada executada no início do ciclo operacional, composta por pontos retos corridos de passo alongado (geralmente entre 4,0 mm e 7,0 mm) dispostos ao longo do perímetro externo do desenho ou na margem interna do bastidor, projetada para ancorar mecanicamente tecidos flutuantes ou escorregadios sem penetrações densas que possam danificar a estrutura da fibra.",
+    "howItWorks": [
+      "1. Ao carregar a matriz na máquina, ativa-se a função 'Alinhavo' (Basting).",
+      "2. A máquina realiza uma moldura de pontos bem largos contornando toda a área onde o desenho será bordado.",
+      "3. O tecido fica prensado contra a entretela que está presa no bastidor.",
+      "4. Após a conclusão de todo o bordado colorido, basta puxar a ponta da linha do alinhavo para retirá-la sem deixar marcas."
+    ],
+    "beginnerExplanation": "É uma costurinha temporária com pontos bem compridos que a máquina faz ao redor do bordado logo no comecinho. Ela funciona como se fossem vários 'alfinetes invisíveis' segurando o pano no lugar para que ele não saia da posição.",
+    "applications": [
+      "Fixação de tecidos aveludados, couro sintético ou toalhas em bastidores na técnica de flutuação (sem prender o tecido nos aros).",
+      "Estabilização de plástico filme solúvel sobre tecidos felpudos para não deixar os pelinhos subirem.",
+      "Bordado de peças pequenas (como meias, golas e punhos) que não alcançam as duas laterais do aro do bastidor."
+    ],
+    "characteristics": [
+      "Executada sempre como primeiro bloco de costura.",
+      "Utiliza consumo ínfimo de linha (menos de 100 pontos) e não perfura agressivamente o tecido."
+    ],
+    "commonErrors": [
+      "❌ Usar pontos de alinhavo muito curtos (menores que 3,0 mm), tornando muito difícil desmanchar e puxar a linha depois",
+      "❌ Usar cor de linha muito contrastante que possa soltar fiapos dentro de tecidos claros",
+      "❌ Esquecer de remover a linha de alinhavo antes de entregar a peça pronta para o cliente"
+    ],
+    "troubleshootingTips": [
+      "Se o tecido estiver escorregando ou formando ondas na técnica de flutuação: Adicione o alinhavo de segurança como primeiro passo.",
+      "Se os pontos de alinhavo ficarem difíceis de puxar com a pinça: Aumente o comprimento do ponto (stitch length) no software para 5,0 mm ou mais.",
+      "Se o alinhavo passar por cima de uma área que receberá ponto tatami fechado: Programe o alinhavo apenas nas margens externas do desenho."
+    ],
+    "dicaArtrelados": "Use uma cor de linha suave e contrastante na medida certa (como um cinza claro ou bege) para o alinhavo. Com uma boa pinça de bico fino Artrelados, você remove todo o contorno de segurança em apenas três segundos puxando uma única ponta!",
+    "voceSabia": "Muitas máquinas modernas possuem um botão dedicado na tela touch que adiciona o alinhavo automaticamente ao redor de qualquer matriz carregada via pen drive, sem que você precise abrir o arquivo no computador!",
+    "practicalExercise": "Coloque apenas a entretela no bastidor, apoie um retalho de tecido por cima sem colar e use a função Basting da sua máquina para ver como o retalho fica 100% travado antes de bordar.",
+    "quickSummary": "Costura de pontos largos feita antes do bordado para prender o tecido na entretela e evitar que ele se mova.",
+    "recommendedSettings": {
+      "speedPPM": "700 a 850 PPM",
+      "needleType": "75/11",
+      "stabilizer": "Entretela presa no aro do bastidor"
+    },
+    "relatedTerms": [
+      "Flutuação (Floating)",
+      "Ponto Corrido (Running Stitch)",
+      "Bastidoramento",
+      "Entretela Hidrossolúvel",
+      "Pinça de Limpeza"
+    ],
+    "tags": [
+      "b-080",
+      "base de alinhamento",
+      "basting stitch",
+      "alinhavo",
+      "flutuacao",
+      "fixacao temporaria",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "JANOME SEWING MACHINE CO. Basting Function Applications in Modern Embroidery. Tokyo, 2022.",
+      "BERNINA INTERNATIONAL. Creative Machine Embroidery Techniques: Floating and Basting. Steckborn, 2023.",
+      "ARTRELADOS. Guia de Fixação e Alinhavo de Segurança para Bordados Perfeitos. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-081",
+    "term": "Braço Cilíndrico / Estrutura Free-Arm do Cabeçote",
+    "level": "Avançado 🔴",
+    "grammarClass": "Substantivo masculino.",
+    "origin": "Do português braço (haste mecânica saliente) e do grego kylindrikós (em forma de rolo). No maquinário têxtil, indica a extensão estreita e tubular que abriga o mecanismo da lançadeira sob a chapa de agulha.",
+    "category": "Equipamentos & Hardware",
+    "summary": "Estrutura mecânica suspensa e estreita onde fica a lançadeira da máquina, permitindo encaixar e bordar peças tubulares e fechadas sem prender o verso.",
+    "definition": "Estrutura mecânica suspensa e estreita onde fica a lançadeira da máquina, permitindo encaixar e bordar peças tubulares e fechadas sem prender o verso.",
+    "technicalDetails": "Módulo estrutural em balanço que projeta o conjunto chapa de agulha, caixa de bobina e lançadeira rotativa horizontalmente no espaço livre inferior da máquina, eliminando a superfície plana de apoio de mesa contínua e viabilizando o giro livre de artigos cilíndricos tridimensionais (como mangas, pernas de calças, bonés e bolsas) ao redor do eixo mecânico de formação da laçada.",
+    "howItWorks": [
+      "1. O tecido tubular (ex: uma manga de jaqueta) é 'vestido' diretamente ao redor do braço cilíndrico.",
+      "2. O bastidor é acoplado ao pantógrafo que se move no plano superior.",
+      "3. Conforme a agulha penetra na chapa, a parte de trás da peça corre livremente por baixo do braço suspenso, sem que o tecido das costas seja costurado junto à frente."
+    ],
+    "beginnerExplanation": "É o 'bracinho comprido e suspenso' que fica embaixo da agulha da máquina industrial ou semi-industrial. Ele parece um braço aberto onde você pode 'vestir' uma manga, boné ou bolsa como se estivesse vestindo uma luva, sem que a parte de trás fique presa no bordado.",
+    "applications": [
+      "Bordado de bonés montados no bastidor curvo com rotação de 270 graus.",
+      "Bordado em bolsas e mochilas prontas com forro já costurado.",
+      "Personalização de punhos de camisas e barras de calças jeans sem necessidade de abrir as costuras laterais."
+    ],
+    "characteristics": [
+      "Permite a rotação e o caimento livre de peças tridimensionais fechadas.",
+      "Elimina a necessidade de descosturar laterais de vestuário pronto."
+    ],
+    "commonErrors": [
+      "❌ Deixar o excesso de tecido da peça enrolado ou prensado contra o fundo do braço cilíndrico, travando o motor",
+      "❌ Esquecer de verificar se o verso da peça não caiu por baixo da chapa de agulha durante o bordado",
+      "❌ Não lubrificar a pista da lançadeira situada no topo do braço cilíndrico no intervalo correto de horas de trabalho"
+    ],
+    "troubleshootingTips": [
+      "Se a peça pronta não entrar no bastidor convencional de mesa plana: Utilize uma máquina equipada com braço cilíndrico ou adote a técnica de flutuação.",
+      "Se houver ruído metálico na ponta do braço: Verifique a folga entre o bico da lançadeira e a agulha e aplique uma gota de óleo mineral.",
+      "Se o bastidor tubular bater nas laterais do braço: Realize o teste de contorno (trace) antes de iniciar o bordado."
+    ],
+    "dicaArtrelados": "Ao trabalhar com o braço cilíndrico em jaquetas ou mochilas pesadas, apoie o peso excedente da peça com as mãos ou sobre uma mesa auxiliar para que o peso do tecido não force os motores do pantógrafo!",
+    "voceSabia": "A transição das máquinas de bordar de mesa plana (flatbed) para máquinas de braço cilíndrico na década de 1980 revolucionou a indústria do vestuário esportivo, permitindo a produção em massa dos primeiros bonés e jaquetas personalizadas para a NBA e a NFL!",
+    "practicalExercise": "Observe a sua máquina de bordar: identifique onde fica a chapa de agulha e analise o espaço livre ao redor dela para planejar quais tipos de peças fechadas podem ser vestidas com segurança.",
+    "quickSummary": "Estrutura estreita e suspensa da máquina que permite vestir e bordar peças cilíndricas como mangas, bonés e bolsas sem prender o verso.",
+    "recommendedSettings": {
+      "speedPPM": "750 a 1000 PPM",
+      "needleType": "75/11 ou 80/12 conforme o artigo",
+      "stabilizer": "Entretela recortável resinada para artigos estruturados"
+    },
+    "relatedTerms": [
+      "Bordado Tubular",
+      "Bastidor Tubular",
+      "Lançadeira Rotativa",
+      "Chapa de Agulha",
+      "Pantógrafo"
+    ],
+    "tags": [
+      "b-081",
+      "braco cilindrico",
+      "free arm",
+      "braco livre",
+      "maquinas industriais",
+      "mangas",
+      "bones",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BARUDAN CO. Multi-Head Cylindrical Arm Maintenance Manual. Ichinomiya, 2021.",
+      "SWF EMBROIDERY MACHINES. Free-Arm Mechanism and Tubular Frame Operations. Seul, 2022.",
+      "ARTRELADOS. Anatomia e Operação de Máquinas de Bordar Computadorizadas. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-082",
+    "term": "Balanço de Tensão da Linha (Proporção 1/3 Artrelados)",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo masculino.",
+    "origin": "Do latim bilanx (balança de dois pratos) e do latim tensio (ato de esticar). No bordado mecânico, expressa a perfeita relação de forças opostas entre a linha superior colorida e a linha inferior da bobina.",
+    "category": "Tensão & Mecânica",
+    "summary": "Calibração precisa entre o aperto da linha de cima e da linha de baixo, visível no verso do bordado como uma faixa central de bobina ocupando um terço da largura.",
+    "definition": "Calibração precisa entre o aperto da linha de cima e da linha de baixo, visível no verso do bordado como uma faixa central de bobina ocupando um terço da largura.",
+    "technicalDetails": "Estado de equilíbrio dinâmico hidromecânico obtido pela regulagem combinada dos discos tensores superiores (geralmente entre 100 gf e 130 gf) e da mola de tensão da caixa de bobina (entre 20 gf e 25 gf), cuja manifestação padrão em colunas de ponto cheio resulta na proporção visual de 1/3: a linha de bobina branca ocupa o terço central no avesso, flanqueada simetricamente por 1/3 da linha superior de cada lado.",
+    "howItWorks": [
+      "1. O tensor superior segura a linha de cima que passa pelos discos.",
+      "2. A mola da caixa de bobina segura o fio inferior.",
+      "3. Quando a agulha desce e a lançadeira dá o laço, as duas linhas se encontram no meio do tecido.",
+      "4. Com o balanço correto, a linha de cima é puxada ligeiramente para o avesso, garantindo que nenhum ponto branco da bobina apareça na frente do bordado."
+    ],
+    "beginnerExplanation": "É o equilíbrio perfeito entre o puxão da linha de cima e o puxão da linha de baixo. Para saber se está certo, basta virar o bordado do avesso: você deve ver uma fitinha branca no meio que ocupa exatamente um terço da largura, com a linha colorida aparecendo nas duas beiradas.",
+    "applications": [
+      "Calibração matinal da máquina bordando uma sequência de 5 letras 'I' maiúsculas em ponto cheio com 4 mm de largura.",
+      "Ajuste de tensão ao trocar de linha comum de poliéster 120 para linha metálica dourada mais sensível.",
+      "Correção de tensão em toalhas felpudas para evitar que a linha de baixo seja puxada para o lado direito da peça."
+    ],
+    "characteristics": [
+      "Manifesta-se no avesso através da proporção simétrica 1/3 colorido - 1/3 branco - 1/3 colorido.",
+      "Garante nós de laçada escondidos a 0,1 mm da face do tecido."
+    ],
+    "commonErrors": [
+      "❌ Apertar demais a linha de cima, fazendo com que a linha branca da bobina suba e apareça na frente do bordado",
+      "❌ Deixar a linha de cima muito frouxa, gerando laçadas soltas e 'ninhos de pássaro' no avesso",
+      "❌ Tentar regular a tensão mexendo apenas no botão superior quando a caixa de bobina está suja de pó de linha ou desregulada"
+    ],
+    "troubleshootingTips": [
+      "Se a linha branca da bobina aparecer na frente do bordado: A linha de cima está muito apertada ou a bobina está muito frouxa.",
+      "Se o verso estiver totalmente coberto pela cor de cima sem nenhuma linha branca: A linha de cima está excessivamente frouxa.",
+      "Se a proporção no avesso for de 1/3 de cor na esquerda, 1/3 branco no centro e 1/3 de cor na direita: O balanço está perfeito e calibrado."
+    ],
+    "dicaArtrelados": "Faça o teste do 'I maiúsculo' Artrelados toda segunda-feira ou sempre que trocar de marca de linha: borde três letras 'I' de 3 cm em ponto cheio. Olhe o verso: se a faixa branca do centro estiver perfeitamente dividida em 1/3, sua máquina está pronta para trabalhar a semana toda com qualidade máxima!",
+    "voceSabia": "A regra de 1/3 da tensão existe há mais de 100 anos. Ela foi calculada para garantir que o nó da laçada fique escondido a exatamente 0,1 mm abaixo da face frontal do tecido, protegendo o ponto contra atrito e lavagens!",
+    "practicalExercise": "Borde uma coluna de ponto cheio de 5 cm de comprimento na sua máquina. Vire o tecido do avesso, pegue uma régua e meça se a linha branca da bobina ocupa exatamente um terço do meio da coluna.",
+    "quickSummary": "Equilíbrio de tração entre a linha de cima e a linha de baixo, confirmado no verso pela regra clássica de 1/3 de faixa central de bobina.",
+    "recommendedSettings": {
+      "speedPPM": "650 a 800 PPM",
+      "needleType": "75/11",
+      "stabilizer": "Entretela rasgável de 60g sobre tecido de teste"
+    },
+    "relatedTerms": [
+      "Tensão da Linha",
+      "Caixa de Bobina",
+      "Linha de Bobina",
+      "Ninho de Linha (Birdnesting)",
+      "Ponto Cheio (Satin Stitch)"
+    ],
+    "tags": [
+      "b-082",
+      "balanco de tensao",
+      "regra de um terco",
+      "tensao da linha",
+      "caixa de bobina",
+      "avesso perfeito",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "COATS INDUSTRIAL. Embroidery Thread Tension Balance & Stitch Formation. Londres, 2021.",
+      "MADEIRA THREADS. Technical Guide: Perfect Tension Ratio in High-Speed Embroidery. Freiburg, 2023.",
+      "ARTRELADOS. O Método dos 3 Terços para Tensão Perfeita no Bordado Eletrônico. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
   }
 ];

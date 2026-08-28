@@ -4702,6 +4702,352 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "KAHN, Max. Digitizing Masterclass for Commercial Embroidery. New York: Textile Press, 2021."
     ],
     "updatedAt": "2026-08-24"
+  },
+  {
+    "id": "c-075",
+    "term": "Canelinha / Fio de Bobina Inferior (Bobbin Thread 60wt / 70wt)",
+    "level": "Fundamental 🟢",
+    "grammarClass": "Substantivo feminino.",
+    "origin": "Do português canela (pequeno carretel tubular derivado do formato da canela vegetal) e do latim filum (fio). No bordado mecânico, designa a linha especial de altíssima resistência e calibre ultrafino que alimenta a lançadeira inferior.",
+    "category": "Agulhas & Fios",
+    "summary": "Linha especial ultrafina de poliéster 100% (geralmente título 60wt ou 70wt) projetada exclusivamente para a bobina, oferecendo máxima metragem e avesso macio sem criar volume.",
+    "definition": "Linha especial ultrafina de poliéster 100% (geralmente título 60wt ou 70wt) projetada exclusivamente para a bobina, oferecendo máxima metragem e avesso macio sem criar volume.",
+    "technicalDetails": "Filamento contínuo de poliéster de alta tenacidade sem torção excessiva, com calibragem métrica padrão 60/2 (60wt) ou 70/2 (70wt), formulado com acabamento lubrificado a seco para reduzir o atrito dinâmico no estojo da caixa de bobina e na pista da lançadeira. Possui elasticidade controlada para absorver as tensões de alta velocidade (até 1200 PPM) sem enrugar o avesso da peça.",
+    "howItWorks": [
+      "1. O fio de bobina é enrolado de forma compacta e homogênea na canelinha de metal ou plástico (ou utiliza-se bobinas pré-bobinadas magnetic core).",
+      "2. A canelinha é inserida na caixa de bobina, passando sob a mola de lâmina regulada entre 20 gf e 25 gf.",
+      "3. Quando a agulha desce com a linha superior (40wt), a ponta da lançadeira captura o laço superior e o entrelaça com o fio fino da bobina.",
+      "4. Por ser muito mais fino que a linha de cima, o fio da canelinha acomoda-se perfeitamente no centro da coluna de ponto cheio sem marcar a frente."
+    ],
+    "beginnerExplanation": "É a linha que vai lá embaixo, escondidinha na caixa de bobina da máquina. Ela é bem mais fininha e sedosa que a linha colorida de cima (normalmente branca ou preta) para caber bastante linha na canelinha e deixar as costas do bordado lisinhas e confortáveis.",
+    "applications": [
+      "Uso diário em todas as matrizes e programas de bordado computadorizado em máquinas domésticas e industriais.",
+      "Bordados em roupas de bebê (body, macacão e fraldas), onde o avesso precisa ser extremamente macio para não irritar a pele sensível.",
+      "Bordados em toalhas de banho e rosto, utilizando linha de bobina na cor da toalha para avesso imperceptível."
+    ],
+    "characteristics": [
+      "Título 60wt ou 70wt (cerca de 30% a 40% mais fina que a linha 40wt de bordar).",
+      "Alta resistência mecânica à tração contínua e baixíssimo desprendimento de penugem/fiapos."
+    ],
+    "commonErrors": [
+      "❌ Usar linha comum de costura na bobina, que é grossa e solta penugem, entupindo a caixa de bobina e travando a lançadeira",
+      "❌ Encher a canelinha de forma fofa, com velocidade irregular ou com ondulações, gerando laçadas descontroladas no bordado",
+      "❌ Misturar marcas e espessuras diferentes de fio de bobina no mesmo trabalho sem recalibrar a tensão da mola"
+    ],
+    "troubleshootingTips": [
+      "Se a linha de bobina estiver subindo para a frente do bordado: Limpe a sujeira embaixo da mola da caixa de bobina com um pincel fino e aperte 1/8 de volta no parafuso da mola.",
+      "Se a canelinha estiver acabando muito rápido: Utilize bobinas pré-bobinadas industriais de núcleo magnético que comportam até 40% mais metragem.",
+      "Se o avesso estiver grosso e áspero: Substitua a linha por fio genuíno de bobina 60wt ou 70wt 100% poliéster."
+    ],
+    "dicaArtrelados": "Para encher canelinhas perfeitas na sua máquina, nunca segure a linha com os dedos para 'dar mais aperto'. Deixe a linha passar exatamente pelas guias de metal e pelo tensor de enchimento próprio da máquina com velocidade média e constante!",
+    "voceSabia": "Uma canelinha comum cheia com linha de costura tradicional comporta cerca de 35 a 45 metros de fio, enquanto a mesma canelinha abastecida com fio técnico de bobina 60wt comporta mais de 80 a 95 metros de linha contínua!",
+    "practicalExercise": "Pegue duas canelinhas vazias: encha uma com linha de costura comum e outra com fio de bobina para bordado 60wt. Compare a textura com a ponta dos dedos e observe como a canelinha própria para bordado é infinitamente mais lisa, macia e brilhante.",
+    "quickSummary": "Linha técnica ultrafina de poliéster para a bobina da máquina que garante alta metragem, avesso macio e perfeita formação de laçada.",
+    "recommendedSettings": {
+      "speedPPM": "650 a 1000 PPM",
+      "needleType": "Ponta bola ou ponta leve 75/11",
+      "stabilizer": "Entretela rasgável ou recortável de acordo com o artigo"
+    },
+    "relatedTerms": [
+      "Caixa de Bobina",
+      "Tensão da Linha",
+      "Balanço de Tensão da Linha (Proporção 1/3 Artrelados)",
+      "Lançadeira Rotativa",
+      "Ninho de Linha (Birdnesting)"
+    ],
+    "tags": [
+      "c-075",
+      "canelinha",
+      "fio de bobina",
+      "bobbin thread",
+      "60wt",
+      "70wt",
+      "poliester",
+      "avesso",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "COATS INDUSTRIAL. Technical Data Sheet: Filament Polyester Bobbin Thread. Londres, 2022.",
+      "GUNOLD GMBH. Bobbin Thread Selection and Tension Management in Automated Embroidery. Stockstadt, 2023.",
+      "ARTRELADOS. Guia de Fios e Linhas para Máquinas de Bordar Computadorizadas. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-076",
+    "term": "Chapa de Agulha (Needle Plate / Throat Plate)",
+    "level": "Fundamental 🟢",
+    "grammarClass": "Substantivo feminino.",
+    "origin": "Do francês plaque (lâmina de metal plana) e do latim acus (agulha). Na engenharia mecânica têxtil, é a superfície de precisão usinada em aço temperado sobre a qual o tecido é suportado no instante da penetração.",
+    "category": "Equipamentos & Hardware",
+    "summary": "Placa de metal polida com furo de precisão sobre a qual o tecido desliza, garantindo suporte firme e evitando que tecidos finos sejam puxados para dentro da lançadeira.",
+    "definition": "Placa de metal polida com furo de precisão sobre a qual o tecido desliza, garantindo suporte firme e evitando que tecidos finos sejam puxados para dentro da lançadeira.",
+    "technicalDetails": "Componente plano confeccionado em liga de aço cromado ou niquelado com dureza superficial retificada, dotado de orifício central circular de pequeno diâmetro (entre 1,2 mm e 1,8 mm nas chapas específicas para bordado) ou oblongo de costura (fenda de 5 mm a 7 mm). A chapa de bordado com orifício circular reduz o vão livre sob o tecido a zero, impedindo a flexão elástica da fibra e a ocorrência de afundamento têxtil (flagging).",
+    "howItWorks": [
+      "1. A chapa é parafusada sobre a base do cabeçote ou braço cilíndrico, cobrindo o conjunto da lançadeira e os dentes impelidores (que ficam rebaixados no bordado).",
+      "2. O tecido esticado no bastidor repousa a décimos de milímetro da face superior polida da chapa.",
+      "3. Quando a agulha desce a 800 PPM, a chapa oferece contra-apoio rígido milimétrico, permitindo que a ponta perfure o tecido sem empurrá-lo para baixo.",
+      "4. Ao subir, o calcador mantém o tecido prensado contra a chapa para que a laçada se forme livremente embaixo."
+    ],
+    "beginnerExplanation": "É aquela plaquinha de metal prateada e brilhante que fica embaixo da agulha da sua máquina. O tecido fica apoiado em cima dela para não afundar quando a agulha bate bem rápido para fazer os pontinhos.",
+    "applications": [
+      "Suporte físico para todos os tipos de tecidos durante a operação da máquina de bordar.",
+      "Instalação de chapa de ponto reto (furo redondo pequeno) para bordar tecidos delicados, seda, tule e malhas finas sem engolir o tecido.",
+      "Orientação de guias milimétricas gravadas a laser para conferência de alinhamento e esquadro."
+    ],
+    "characteristics": [
+      "Superfície com polimento espelhado para não criar atrito nem puxar fios da peça.",
+      "Orifício de bordado circular calibrado para agulhas do sistema 130/705 H ou DBxK5."
+    ],
+    "commonErrors": [
+      "❌ Bordar com agulha torta ou descentralizada, que bate na beirada do furo da chapa e quebra ou cria rebarbas cortantes no metal",
+      "❌ Continuar bordando com a chapa marcada por batidas de agulha, fazendo com que as rebarbas de metal fiquem desfiando a linha de bordar",
+      "❌ Usar chapa de fenda larga de zigue-zague para bordar tecidos elásticos sem entretela suficiente, fazendo a máquina 'engolir' a peça"
+    ],
+    "troubleshootingTips": [
+      "Se a linha estiver arrebentando misteriosamente a cada 2 minutos: Passe a ponta do dedo ou um pedaço de meia-calça fina na borda do furo da chapa; se enroscar, lixe a rebarba com lixa d'água 1200 ou substitua a chapa.",
+      "Se o tecido estiver sendo sugado para dentro do furo da agulha: Utilize entretela mais estruturada ou troque pela chapa de furo redondo para bordado.",
+      "Se a máquina travar com barulho metálico: Desligue imediatamente e confira se a agulha não quebrou dentro do orifício da chapa."
+    ],
+    "dicaArtrelados": "Sempre que uma agulha quebrar durante o trabalho, retire a chapa de agulha e faça uma inspeção visual com uma boa lanterna. Uma micro-rebarba invisível a olho nu na borda do orifício é a causa número 1 de quebra repetitiva de linhas no ateliê!",
+    "voceSabia": "A diferença de suporte entre uma chapa de furo redondo (específica de bordado) e uma chapa de costura comum (com fenda de 7 mm) reduz a vibração do tecido em até 70%, o que melhora instantaneamente a nitidez de letrinhas pequenas de 4 mm!",
+    "practicalExercise": "Retire o bastidor da máquina e observe a sua chapa de agulha. Verifique se o furo é redondo ou comprido e passe suavemente a ponta da unha na borda do orifício para conferir se ela está 100% lisa e livre de batidas de agulha.",
+    "quickSummary": "Placa de metal de alta precisão sob a agulha que sustenta o tecido e viabiliza a formação perfeita do ponto sem deformações.",
+    "recommendedSettings": {
+      "speedPPM": "Suporta até 1200 PPM",
+      "needleType": "Agulhas 65/9 a 90/14",
+      "stabilizer": "Adequado ao tecido"
+    },
+    "relatedTerms": [
+      "Agulha de Bordado Computadorizado",
+      "Lançadeira Rotativa",
+      "Calcador de Bordado",
+      "Afundamento Têxtil (Flagging)",
+      "Braço Cilíndrico"
+    ],
+    "tags": [
+      "c-076",
+      "chapa de agulha",
+      "needle plate",
+      "throat plate",
+      "hardware",
+      "rebarba",
+      "manutencao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "SCHMETZ NEEDLES. Mechanical Interaction of Needle, Plate and Hook in Automated Embroidery. Herzogenrath, 2022.",
+      "TAJIMA INDUSTRIES. Tajima Technical Service Manual: Throat Plate Calibration. Nagoya, 2021.",
+      "ARTRELADOS. Manual de Manutenção Preventiva e Cuidados Mecânicos para Máquinas de Bordar. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-077",
+    "term": "Curvatura e Ângulo de Ponto (Stitch Angle & Stitch Curvature)",
+    "level": "Avançado 🔴",
+    "grammarClass": "Substantivo feminino.",
+    "origin": "Do latim curvatura (dobradura, arco) e do latim angulus (canto, inclinação). No software de digitalização, indica a orientação vetorial das linhas de penetração dos pontos ao longo da geometria do objeto.",
+    "category": "Programação de Matrizes (Softwares)",
+    "summary": "Direcionamento vetorial das linhas de costura em pétalas, letras e curvas, criando o fluxo visual da luz, o brilho acetinado e a flexibilidade anatômica do bordado.",
+    "definition": "Direcionamento vetorial das linhas de costura em pétalas, letras e curvas, criando o fluxo visual da luz, o brilho acetinado e a flexibilidade anatômica do bordado.",
+    "technicalDetails": "Conjunto de linhas-guia vetoriais (inclinations / stitch angles) associadas a um objeto de preenchimento (ponto cheio ou tatami) que definem a trajetória angular relativa entre as perfurações de entrada e saída da agulha. Em objetos curvos, a definição de múltiplos ângulos concêntricos ou tangenciais gera o giro gradativo dos pontos, evitando comprimentos excessivos e eliminando o aspecto serrilhado em contornos sinuosos.",
+    "howItWorks": [
+      "1. Ao digitalizar um objeto curvo no software (como a letra 'S' ou uma pétala de flor), o programador desenha as linhas de contorno.",
+      "2. Em seguida, adiciona linhas de ângulo de ponto perpendiculares ao fluxo da forma geométrica.",
+      "3. O software interpola os ângulos suavemente entre cada guia, fazendo com que a agulha borde cada ponto acompanhando a curva da peça.",
+      "4. Quando a luz atinge o bordado pronto, os fios refletem o brilho de forma contínua e tridimensional ao longo da curvatura."
+    ],
+    "beginnerExplanation": "É a direção para onde os pontinhos estão deitados dentro do desenho. Quando você programa uma flor ou uma letra cheia de voltinhas, você pode 'ensinar' a máquina a girar os pontos suavemente acompanhando a curva, como se estivesse penteando os fios na direção certa.",
+    "applications": [
+      "Digitalização de fontes cursivas e monogramas elegantes com ponto cheio contínuo em curvas complexas.",
+      "Bordados realistas e sombreados de animais, folhagens e pétalas de flores com reflexo natural de luz.",
+      "Preenchimentos em ponto tatami com ângulos contrastantes entre peças vizinhas para criar sensação de relevo e profundidade sem mudar de cor de linha."
+    ],
+    "characteristics": [
+      "Ângulos suaves com transição gradual de até 15° entre pontos adjacentes para evitar nós.",
+      "Controle de comprimento para não ultrapassar 8 mm em pontos cheios em curvas abertas."
+    ],
+    "commonErrors": [
+      "❌ Deixar um único ângulo reto estático para uma forma circular ou curva, gerando pontos compridos demais e pontas denteadas",
+      "❌ Colocar linhas de ângulo muito cruzadas e próximas, fazendo com que a agulha dê pontos quase no mesmo lugar e fure o tecido",
+      "❌ Ignorar a direção da elasticidade do tecido ao planejar os ângulos principais da matriz"
+    ],
+    "troubleshootingTips": [
+      "Se os pontos ficarem com aspecto de dente de serrote nas curvas: Adicione mais 2 ou 3 guias de ângulo de ponto distribuídas uniformemente na curva no software.",
+      "Se o bordado na curva ficar repuxando excessivamente: Rotacione o ângulo em 45° em relação ao sentido do fio de urdidura do tecido.",
+      "Se o centro da curva ficar muito grosso e pesado: Ative a ferramenta de Ponto Curto Automático (Auto-Shortening) no software."
+    ],
+    "dicaArtrelados": "Para criar efeitos de relevo e profundidade espetaculares sem gastar nem trocar de linha, borde duas pétalas vizinhas com a mesma cor exata, mas com ângulos de ponto divergentes em 90°: a refração da luz fará uma pétala parecer iluminada e a outra sombreada!",
+    "voceSabia": "O fio de bordar de poliéster trilobal possui uma seção transversal microscópica em formato de triângulo de 3 pontas. Por isso, mudar o ângulo do ponto em apenas 30° altera completamente a quantidade de luz refletida para os olhos de quem vê o bordado!",
+    "practicalExercise": "No seu programa de matrizes, crie um círculo com ponto tatami a 0°. Duplique o círculo e mude o ângulo para 45°. Simule no modo 3D TrueView e repare na diferença espetacular de brilho e textura entre as duas peças.",
+    "quickSummary": "Orientação e inclinação dos pontos na matriz que conduzem o brilho, a curvatura perfeita e a tridimensionalidade do bordado.",
+    "recommendedSettings": {
+      "speedPPM": "Não se aplica (parâmetro de digitalização)",
+      "needleType": "75/11",
+      "stabilizer": "Compatível com a densidade programada"
+    },
+    "relatedTerms": [
+      "Ponto Cheio (Satin Stitch)",
+      "Ponto Tatami (Fill Stitch)",
+      "Ponto Curto Automático",
+      "Compensação de Encolhimento",
+      "Fio de Poliéster Trilobal"
+    ],
+    "tags": [
+      "c-077",
+      "angulo de ponto",
+      "curvatura",
+      "stitch angle",
+      "direcao de ponto",
+      "wilcom",
+      "brilho trilobal",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM INTERNATIONAL. EmbroideryStudio Vector Stitch Direction and Flow Angles. Sydney, 2023.",
+      "HATCH EMBROIDERY. Mastering Stitch Angles in Curved Lettering and Monograms. Austin, 2022.",
+      "ARTRELADOS. Segredos da Digitalização Avançada de Matrizes de Bordado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-078",
+    "term": "Cruzeta de Centro e Alinhamento do Bastidor (Centering Crosshair Guide)",
+    "level": "Fundamental 🟢",
+    "grammarClass": "Substantivo feminino.",
+    "origin": "Do português cruz (formato em cruz dos eixos ortogonais X e Y) e do latim alinhare (dispor em linha reta). Designa o gabarito plástico transparente milimetrado que define o centro exato do bastidor.",
+    "category": "Bastidores & Fixação",
+    "summary": "Gabarito plástico transparente e furado que encaixa perfeitamente no bastidor para marcar o ponto de origem (0,0) e os eixos X e Y no tecido com precisão milimétrica.",
+    "definition": "Gabarito plástico transparente e furado que encaixa perfeitamente no bastidor para marcar o ponto de origem (0,0) e os eixos X e Y no tecido com precisão milimétrica.",
+    "technicalDetails": "Máscara rígida ou semirrígida moldada em acetato transparente ou acrílico de alta transparência, dotada de guias de encaixe perimetrais dimensionadas para as ranhuras internas do bastidor, com gravação serigráfica milimetrada dos eixos cartesianos ortogonais (eixo horizontal X e eixo vertical Y) e orifício central de punção para transferência física do ponto zero (0,0) para o tecido através de marcadores temporários.",
+    "howItWorks": [
+      "1. O tecido a ser bordado recebe a marcação de centro e nível (cruz) feita com régua de costura e caneta fantasminha ou giz de alfaiate.",
+      "2. A cruzeta plástica transparente é encaixada nos entalhes do aro interno do bastidor.",
+      "3. O operador sobrepõe o aro sobre o tecido, alinhando visualmente as linhas impressas da cruzeta sobre a cruz riscada na peça.",
+      "4. Após prender o tecido e apertar o parafuso do bastidor, a cruzeta é removida para liberar a área de bordado antes de acoplar o bastidor à máquina."
+    ],
+    "beginnerExplanation": "É aquela régua plástica transparente cheia de quadradinhos e com uma cruz no meio que vem dentro da caixa de cada bastidor da sua máquina. Você encaixa ela no bastidor para enxergar exatamente onde fica o centro e não deixar o bordado torto na camisa.",
+    "applications": [
+      "Alinhamento milimétrico de bordados sobre o bolso esquerdo de camisas polo, sociais e jalecos médicos.",
+      "Centralização de nomes e monogramas em barras de toalhas e lençóis de bebê.",
+      "Montagem repetitiva de dezenas de peças de uniforme em produção em série com esquadro idêntico."
+    ],
+    "characteristics": [
+      "Material 100% transparente com graduações em centímetros e polegadas.",
+      "Orifícios e recortes estratégicos para inserção de ponta de caneta sem retirar a peça."
+    ],
+    "commonErrors": [
+      "❌ Esquecer a cruzeta plástica montada dentro do bastidor ao dar início ao bordado, provocando a quebra imediata da agulha e do gabarito",
+      "❌ Confiar apenas 'no olho' para alinhar uniformes sem marcar a cruzeta de centro, gerando bordados desnivelados e caídos",
+      "❌ Guardar as cruzetas soltas em gavetas sob peso, o que pode entortar o plástico e perder o esquadro perfeito"
+    ],
+    "troubleshootingTips": [
+      "Se o bordado final ficar girado ou torto em relação ao tecido: Use sempre a cruzeta para alinhar tanto o ponto central quanto as linhas de nível horizontal da peça.",
+      "Se você perdeu a cruzeta original do seu bastidor: Imprima a folha de gabarito com cruzeta em papel vegetal 100% em escala real direto do seu software de bordado.",
+      "Se a marcação da caneta não sair: Utilize sempre canetas termoapagáveis (fantasminhas) autênticas que somem completamente ao vapor do ferro."
+    ],
+    "dicaArtrelados": "Crie o hábito sagrado de 'Checagem Dupla Artrelados': após encaixar o bastidor na máquina, antes de apertar o botão verde de iniciar, faça o movimento de conferência dos 4 cantos da matriz (função Trace / Checar Área) para ter 100% de certeza de que a cruzeta foi retirada e a agulha não baterá no aro!",
+    "voceSabia": "A cruzeta de alinhamento com eixos X e Y é baseada no sistema de coordenadas cartesianas criado pelo matemático René Descartes em 1637, o mesmo princípio matemático que move os motores do pantógrafo das máquinas de bordar hoje!",
+    "practicalExercise": "Pegue um retalho de tecido e desenhe uma cruz com régua e caneta fantasminha. Encaixe a cruzeta no seu bastidor 10x10 cm e monte o tecido fazendo as linhas da cruzeta coincidirem com perfeição sobre o traço do tecido.",
+    "quickSummary": "Gabarito transparente milimetrado que garante o posicionamento e o esquadro perfeitos do bordado no tecido.",
+    "recommendedSettings": {
+      "speedPPM": "Não se aplica (ferramenta de preparação)",
+      "needleType": "Não se aplica",
+      "stabilizer": "Entretela adequada"
+    },
+    "relatedTerms": [
+      "Bastidor",
+      "Bastidoramento / Processo de Enquadramento no Bastidor",
+      "Gabarito de Posicionamento",
+      "Marcas de Bastidor (Hoop Burn)",
+      "Ponto de Origem (Ponto Zero / 0,0)"
+    ],
+    "tags": [
+      "c-078",
+      "cruzeta",
+      "alinhamento",
+      "gabarito",
+      "centro",
+      "esquadro",
+      "bastidor",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BROTHER INDUSTRIES. Operation Manual: Using the Embroidery Frame Template. Nagoya, 2022.",
+      "JANOME EMBROIDERY. Template Alignment and Precision Hooping Guide. Tóquio, 2021.",
+      "ARTRELADOS. Guia de Posicionamento Perfeito e Alinhamento no Bordado Computadorizado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-079",
+    "term": "Corte Automático de Pulos e Conexões (Auto-Jump Trimming)",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo masculino.",
+    "origin": "Do latim curtare (encurtar, decepar) e do grego automatos (que age por si próprio). No maquinário computadorizado, refere-se ao mecanismo eletromecânico e pneumático de tesoura acionado entre saltos de coordenadas.",
+    "category": "Comandos & Automação",
+    "summary": "Recurso automático da máquina e da matriz que apara a linha superior ao saltar de uma letra ou objeto para outro, entregando o bordado limpo e sem fios soltos.",
+    "definition": "Recurso automático da máquina e da matriz que apara a linha superior ao saltar de uma letra ou objeto para outro, entregando o bordado limpo e sem fios soltos.",
+    "technicalDetails": "Ciclo mecatrônico coordenado ativado por comandos específicos inseridos no código de máquina (como o código de corte em arquivos DST, PES ou EXP), onde um servomotor ou solenoide aciona o movimento oscilante de uma lâmina fixa e uma lâmina móvel sob a chapa de agulha sempre que o vetor de deslocamento sem costura (jump stitch) ultrapassa o limiar configurado (geralmente entre 1,5 mm e 3,0 mm), precedido por 3 a 5 micropontos de arremate final e sucedido por arremate inicial.",
+    "howItWorks": [
+      "1. A máquina conclui uma letra e encontra no arquivo da matriz a instrução para saltar para a próxima letra.",
+      "2. A agulha para na posição superior e a máquina executa o ciclo de arremate de segurança.",
+      "3. O gancho recolhedor (picker) e a lâmina de corte sob a chapa de agulha são acionados, cortando a linha superior e a de bobina rente ao avesso.",
+      "4. O pantógrafo move o bastidor rapidamente para a coordenada da próxima letra e a máquina reinicia a costura sem deixar nenhuma linha conectando as duas letras pela frente."
+    ],
+    "beginnerExplanation": "É a 'tesourinha automática' que a máquina tem lá dentro. Quando você borda um nome com várias letrinhas separadas, ela corta a linha sozinha antes de pular de uma letra para a outra, para você não ter que ficar cortando fiozinho por fiozinho na mão depois.",
+    "applications": [
+      "Bordado de textos, nomes próprios, frases e monogramas com espaçamento nítido e profissional entre as letras.",
+      "Matrizes de ramos florais e arabescos com múltiplos elementos espalhados pelo bastidor.",
+      "Produção em escala industrial de uniformes e peças de atacado, economizando até 80% do tempo de acabamento e limpeza manual."
+    ],
+    "characteristics": [
+      "Gera acabamento frontal limpo sem necessidade de limpeza manual com tesoura.",
+      "Exige pontos de arremate automáticos antes e depois de cada corte para não desmanchar."
+    ],
+    "commonErrors": [
+      "❌ Desativar os pontos de arremate na programação da matriz para economizar pontos, fazendo com que as pontas cortadas desmanchem na primeira lavagem",
+      "❌ Configurar o limiar de corte para distâncias curtas demais (menos de 1,0 mm), fazendo a máquina cortar a linha desnecessariamente a todo momento e reduzindo a produtividade",
+      "❌ Trabalhar com a faca de corte cega ou com fiapos acumulados no mecanismo, resultando em pontas desfiadas ou falha no corte da linha"
+    ],
+    "troubleshootingTips": [
+      "Se a máquina estiver deixando 'rabinhos' compridos de linha na frente ao iniciar a próxima letra: Ative a opção de puxar a ponta inicial para o avesso no painel da máquina.",
+      "Se o corte automático não estiver acontecendo: Verifique se a opção 'Cortar Linha em Saltos' está habilitada no software ao exportar o arquivo da matriz e no painel da sua máquina.",
+      "Se a linha escapar da agulha logo após o corte: Aumente o comprimento da sobra da linha de corte (tail length) no menu de configurações da máquina."
+    ],
+    "dicaArtrelados": "Para bordar letrinhas pequenas de 4 mm a 6 mm com perfeição, programe o corte automático de pulo apenas entre palavras e use conectores curtos corridos da mesma cor entre as letrinhas da mesma palavra — isso evita excesso de arremates que podem empedrar o tecido!",
+    "voceSabia": "Antes da invenção do sistema de corte automático de linha na década de 1970 pelas fabricantes Tajima e Barudan, as empresas de bordado tinham equipes inteiras de funcionárias chamadas de 'limpadoras', que passavam o dia todo cortando manualmente as linhas conectoras de cada bordado com pequenas tesouras!",
+    "practicalExercise": "Abra um arquivo de nome no seu programa de matrizes. Acesse as propriedades de corte e configure o corte automático para saltos maiores que 2,0 mm. Salve o arquivo, borde na sua máquina e observe a limpeza impecável entre as letras.",
+    "quickSummary": "Mecanismo inteligente que apara automaticamente a linha entre saltos de desenho, garantindo acabamento limpo e alta produtividade.",
+    "recommendedSettings": {
+      "speedPPM": "700 a 850 PPM",
+      "needleType": "75/11",
+      "stabilizer": "Entretela adequada ao artigo"
+    },
+    "relatedTerms": [
+      "Salto de Ponto (Jump Stitch)",
+      "Ponto de Arremate (Tie-off / Tie-in)",
+      "Chapa de Agulha",
+      "Tesoura Pelicano (Bico de Pato)",
+      "Velocidade em PPM"
+    ],
+    "tags": [
+      "c-079",
+      "corte automatico",
+      "auto trim",
+      "jump stitch",
+      "salto de ponto",
+      "arremate",
+      "acabamento",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA TECHNICAL MANUAL. Thread Trimming System: Solenoid and Knife Adjustments. Nagoya, 2022.",
+      "WILCOM EMBROIDERYSTUDIO. Automatic Trimming & Tie-off Settings in Commercial Digitizing. Sydney, 2023.",
+      "ARTRELADOS. Guia de Produtividade e Acabamento Perfeito no Bordado Computadorizado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
   }
 ];
 

@@ -1561,5 +1561,354 @@ export const VERBETES_LETTER_D2: Verbete[] = [
       "BARUDAN. Technical Troubleshooting Manual for Commercial Embroidery. Tokyo, 2022.",
       "ARTRELADOS. Manual Mestre de Diagnóstico e Solução de Defeitos no Bordado. São Paulo, 2024."
     ]
+  },
+  {
+    "id": "d-085-densidade-fracionada-gradiente",
+    "code": "D-085",
+    "term": "Densidade Fracionada / Densidade Gradiente (Gradient Density)",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Locução nominal formada pelos substantivos densidade, fração e gradiente.",
+    "category": "Programação de Bordado",
+    "summary": "Técnica de variação progressiva do espaçamento entre pontos para criar degradês suaves, sombreados realistas e transições de cor perfeitas sem sobrecarregar o tecido.",
+    "definition": "A densidade fracionada ou gradiente é a técnica de digitalização avançada em que a distância entre as linhas de penetração de ponto não permanece constante, mas varia de forma progressiva e contínua ao longo de um eixo geométrico (por exemplo, iniciando em uma densidade fechada de 0,38 mm e espaçando gradativamente até 1,20 mm ou 2,00 mm). Isso permite misturar duas ou mais cores de fios sobrepostas sem gerar acúmulo excessivo de massa de linha nem rigidez no tecido.",
+    "technicalDetails": "Baseia-se em curvas de distribuição matemática (linear, exponencial ou logarítmica) aplicadas ao cálculo das linhas de varredura no software de matrizes. Ao sobrepor dois blocos de pontos com gradientes invertidos (um abrindo de 0,4 mm para 1,5 mm e o seguinte fechando de 1,5 mm para 0,4 mm com outra cor), os fios se intercalam opticamente, gerando a ilusão de uma terceira cor intermediária por síntese aditiva visual.",
+    "howItWorks": [
+      "1. No software de matrizes, seleciona-se o objeto de preenchimento (tatami ou ponto cheio).",
+      "2. Ativa-se a ferramenta de 'Gradiente de Densidade / Efeito Acordeom'.",
+      "3. Define-se a densidade inicial (ex: 0,40 mm) e a densidade final (ex: 1,50 mm), bem como o sentido do gradiente.",
+      "4. Cria-se uma segunda camada sobreposta com a cor secundária e o gradiente no sentido inverso.",
+      "5. A máquina borda primeiro a cor de base e depois a cor de sobreposição, mesclando os fios perfeitamente."
+    ],
+    "beginnerExplanation": "É o jeito de fazer 'degradê' no bordado, como o pôr do sol ou o sombreado de uma pétala. Em vez de preencher tudo apertadinho, a máquina vai deixando os pontinhos cada vez mais afastados, permitindo que outra cor de linha se misture por cima sem ficar um bloco duro de linha.",
+    "applications": [
+      "Bordados realistas de animais (pelagem com transições suaves de cor).",
+      "Pétalas de flores, folhagens botânicas e efeitos de luz e sombra em rostos e paisagens.",
+      "Logotipos corporativos modernos com degradê de marcas que antes eram impossíveis de bordar com fidelidade."
+    ],
+    "characteristics": [
+      "Reduz a contagem de pontos em até 40% em relação a preenchimentos maciços convencionais.",
+      "Elimina a rigidez (efeito 'placa de papelão') em desenhos grandes sombreados."
+    ],
+    "commonErrors": [
+      "❌ Deixar as duas camadas com densidade padrão fechada (0,40 mm), gerando sobreposição pesada que quebra agulha e empedra o tecido",
+      "❌ Espaçar demais a densidade final (acima de 2,5 mm) em tecidos de malha, fazendo a cor de fundo do tecido vazar de forma descontrolada",
+      "❌ Usar ponto de suporte (underlay) muito denso embaixo da área de degradê, que compete visualmente com a transição de cores"
+    ],
+    "troubleshootingTips": [
+      "Se a transição de cor ficar marcada como uma linha reta: Aumente o intervalo de sobreposição das duas camadas em pelo menos 3 mm no software.",
+      "Se o degradê ficar ralo e sem cor: Diminua a densidade máxima para 1,2 mm e utilize linha trilobal de alto brilho.",
+      "Se a agulha quebrar na área de encontro das cores: Desative o underlay da segunda camada de gradiente."
+    ],
+    "dicaArtrelados": "Para fazer o degradê perfeito no estilo Artrelados, use underlay apenas na primeira cor de fundo. A segunda cor do gradiente deve entrar com 'Underlay Nenhum' e compensação de encolhimento de 0,35 mm — o resultado fica leve, sedoso e com toque de veludo!",
+    "voceSabia": "A técnica de gradiente de densidade foi inspirada no pontilhismo da pintura impressionista francesa do século XIX (como nas obras de Georges Seurat), onde pequenos pontos de cores puras colocados lado a lado são mesclados diretamente pelo olho humano!",
+    "practicalExercise": "Crie no seu software um retângulo de 6x4 cm dividido em duas metades com gradiente invertido (uma azul abrindo para a direita e uma amarela abrindo para a esquerda). Borde sobre tricoline e veja como o centro forma um verde suave e natural.",
+    "quickSummary": "Variação progressiva do espaçamento dos pontos para criar degradês suaves, sombreados e transições de cores realistas.",
+    "recommendedSettings": {
+      "speedPPM": "650 a 800 PPM",
+      "needleType": "75/11 Ponta Bola",
+      "stabilizer": "Entretela rasgável de boa sustentação"
+    },
+    "relatedTerms": [
+      "Densidade de Pontos",
+      "Ponto Tatami (Fill Stitch)",
+      "Curvatura e Ângulo de Ponto",
+      "Ponto de Suporte (Underlay)",
+      "Fio de Poliéster Trilobal"
+    ],
+    "tags": [
+      "d-085",
+      "densidade fracionada",
+      "densidade gradiente",
+      "degrade",
+      "sombreamento",
+      "mistura de cores",
+      "artrelados"
+    ],
+    "origin": "Do latim densitas (espessura, compressão) e do latim gradiens (que caminha por degraus).",
+    "updatedAt": "2026-08-28",
+    "bibliographicReferences": [
+      "WILCOM INTERNATIONAL. Gradient Density & Accordion Stitching Techniques. Sydney, 2023.",
+      "MADEIRA THREADS. Color Blending and Shading in Machine Embroidery. Freiburg, 2022.",
+      "ARTRELADOS. Guia de Degradê e Sombreado Realista no Bordado Computadorizado. Curitiba, 2024."
+    ]
+  },
+  {
+    "id": "d-086-dentes-impelidores-rebaixados",
+    "code": "D-086",
+    "term": "Dentes Impelidores Rebaixados (Drop Feed / Feed Dogs Inactive)",
+    "level": "Fundamental 🟢",
+    "grammarClass": "Locução nominal formada por substantivo masculino plural e adjetivo.",
+    "category": "Equipamentos & Hardware",
+    "summary": "Mecanismo dentado sob a chapa que fica obrigatoriamente abaixado ou desativado no bordado computadorizado para que o bastidor seja guiado exclusivamente pelo pantógrafo.",
+    "definition": "Os dentes impelidores (feed dogs) constituem o sistema de tração mecânica dentada situado logo abaixo da chapa de agulha das máquinas de costura convencionais. No bordado computadorizado, esse mecanismo deve permanecer permanentemente rebaixado (drop feed) ou fisicamente desconectado do eixo principal, garantindo que o transporte do tecido seja executado de forma 100% autônoma e bidirecional pelos servomotores do pantógrafo nos eixos cartesianos X e Y.",
+    "technicalDetails": "Nas máquinas industriais exclusivas de bordado, os dentes impelidores nem sequer existem de fábrica, sendo a base do cabeçote totalmente lisa. Nas máquinas domésticas híbridas (costura e bordado), existe uma alavanca traseira ou controle eletrônico que rebaixa os dentes abaixo do nível da chapa de agulha (ou utiliza-se uma tampa de cobertura plástica darning plate), evitando que as garras de aço arranhem o tecido ou entrem em conflito com a movimentação omnidirecional do bastidor.",
+    "howItWorks": [
+      "1. Ao acoplar a unidade de bordado na máquina híbrida, a máquina emite o aviso para rebaixar os dentes impelidores.",
+      "2. O operador move a chave mecânica 'Drop Feed' na parte traseira da máquina para a posição de dentes baixos.",
+      "3. Os dentes descem cerca de 1,5 mm abaixo da superfície da chapa de agulha.",
+      "4. O bastidor fica livre para deslizar suavemente em qualquer ângulo de 360 graus sob a ação do pantógrafo."
+    ],
+    "beginnerExplanation": "São aqueles 'dentinhos de serrote' que ficam embaixo da agulha na máquina de costura comum para puxar o pano para frente. No bordado computadorizado, eles precisam ficar sempre abaixados e escondidos, porque é o próprio bastidor da máquina que vai movimentar o tecido para lá e para cá sozinho.",
+    "applications": [
+      "Configuração obrigatória em todas as máquinas domésticas de costura e bordado antes de iniciar qualquer trabalho de bordado.",
+      "Prevenção de danos e desfiamentos na parte inferior de tecidos finos e acetinados.",
+      "Garantia de movimentação suave e livre do bastidor em alta velocidade."
+    ],
+    "characteristics": [
+      "Permanecem totalmente imóveis e abaixo da linha da chapa durante todo o ciclo de bordado.",
+      "Evitam resistência por atrito contra a entretela montada no bastidor."
+    ],
+    "commonErrors": [
+      "❌ Esquecer os dentes levantados ao encaixar o módulo de bordado, fazendo os dentes rasgarem a entretela por baixo e travando o bastidor",
+      "❌ Forçar a alavanca de rebaixamento com a agulha abaixada ou com a máquina em movimento",
+      "❌ Acumular fiapos de linha e poeira entre as ranhuras dos dentes rebaixados, impedindo que eles desçam até o final"
+    ],
+    "troubleshootingTips": [
+      "Se o bastidor estiver travando ou dando trancos ao se mover: Verifique se os dentes impelidores estão totalmente rebaixados.",
+      "Se a alavanca de drop feed não descer: Gire o volante manualmente uma volta completa para liberar a engrenagem interna.",
+      "Se a máquina não tiver alavanca de rebaixo: Encaixe a plaquinha plástica de cobertura (tampa isoladora de dentes) que acompanha o kit da máquina."
+    ],
+    "dicaArtrelados": "Ao fazer a limpeza semanal da sua máquina, retire a chapa de agulha e passe o pincel entre as ranhuras dos dentes impelidores: o acúmulo de pó de entretela e óleo velho pode travar o rebaixo e arranhar o fundo dos seus bastidores!",
+    "voceSabia": "O sistema de dentes impelidores foi patenteado por Allen B. Wilson em 1850 (chamado de four-motion feed) e transformou a história da costura no mundo. Porém, para que o bordado computadorizado nascesse na década de 1970, foi necessário anular completamente essa invenção para dar lugar aos motores de passo X e Y!",
+    "practicalExercise": "Localize a chave de dentes impelidores na sua máquina. Mova para a esquerda e veja os dentinhos afundarem; depois passe o dedo suavemente sobre a chapa de agulha para sentir a superfície totalmente plana e segura para o bastidor.",
+    "quickSummary": "Mecanismo de dentes que fica abaixado no bordado para que o bastidor deslize livremente guiado pelos motores da máquina.",
+    "recommendedSettings": {
+      "speedPPM": "Não se aplica (estado mecânico)",
+      "needleType": "Não se aplica",
+      "stabilizer": "Não se aplica"
+    },
+    "relatedTerms": [
+      "Chapa de Agulha",
+      "Pantógrafo",
+      "Bastidor",
+      "Bastidoramento",
+      "Braço Cilíndrico"
+    ],
+    "tags": [
+      "d-086",
+      "dentes impelidores",
+      "drop feed",
+      "transporte do tecido",
+      "pantografo",
+      "hardware",
+      "artrelados"
+    ],
+    "origin": "Do latim dens (dente) e do latim impellere (empurrar para a frente).",
+    "updatedAt": "2026-08-28",
+    "bibliographicReferences": [
+      "SINGER SEWING COMPANY. Mechanics of Feed Dog Systems and Free-Motion Embroidery. Elizabeth, 2021.",
+      "BROTHER INDUSTRIES. Service Manual: Feed Dog Mechanism & Embroidery Unit Interlocking. Nagoya, 2022.",
+      "ARTRELADOS. Manual de Operação e Mecânica Básica para Bordadeiras. Curitiba, 2024."
+    ]
+  },
+  {
+    "id": "d-087-distorcao-push-pull",
+    "code": "D-087",
+    "term": "Distorção de Push-Pull (Push and Pull Distortion)",
+    "level": "Avançado 🔴",
+    "grammarClass": "Locução nominal de origem mista (substantivo português e termos técnicos em inglês).",
+    "category": "Física & Dinâmica do Bordado",
+    "summary": "Fenômeno físico em que os pontos encolhem o tecido no sentido da linha (Pull) e esticam o tecido no sentido do avanço da costura (Push), gerando vãos e desalinhamentos.",
+    "definition": "A distorção de push-pull é a resposta mecânica e viscoelástica intrínseca de qualquer substrato têxtil submetido à penetração e tração contínua de linhas de bordar. O efeito 'Pull' (encolhimento) ocorre ao longo do eixo das colunas de pontos, onde a tensão do fio puxa as bordas do tecido para dentro; simultaneamente, o efeito 'Push' (empurramento) ocorre na direção perpendicular (no sentido do avanço do bloco), onde a inserção física repetitiva dos fios empurra as fibras do tecido para fora, transformando círculos perfeitos em ovais e gerando frestas entre o preenchimento e o contorno externo.",
+    "technicalDetails": "A intensidade do push-pull é diretamente proporcional à densidade da matriz, à largura do ponto e à elasticidade do tecido, e inversamente proporcional à rigidez do estabilizador. A equação de compensação exige o acréscimo de sobreposição geométrica nas extremidades do eixo de tração (Pull Compensation entre 0,35 mm e 0,60 mm) e o recuo milimétrico no eixo de avanço (Push Offset de -0,20 mm a -0,30 mm).",
+    "howItWorks": [
+      "1. A máquina costura uma sequência de pontos de preenchimento na horizontal.",
+      "2. Cada laçada traciona o tecido nas pontas esquerda e direita, fazendo a forma encolher no sentido horizontal (Pull).",
+      "3. Ao mesmo tempo, o volume dos milhares de fios entrando lado a lado empurra o tecido para cima e para baixo (Push).",
+      "4. Ao chegar a hora do contorno final, se a matriz não tiver compensação programada, o contorno não se encaixa nas laterais (deixando frestas brancas) e invade o tecido nas pontas superior e inferior."
+    ],
+    "beginnerExplanation": "É o que faz um círculo perfeito virar um ovo ou o contorno preto ficar fora do lugar (com aquele espacinho em branco feio entre o desenho e a linha de contorno). A linha quando aperta puxa o tecido para dentro de um lado e empurra para fora do outro.",
+    "applications": [
+      "Programação de matrizes profissionais de alta precisão para roupas esportivas, malhas e tecidos elásticos.",
+      "Ajuste de logotipos geométricos complexos com contornos finos de 1 mm colados em letras e escudos.",
+      "Controle dimensional de bordados técnicos com tolerância milimétrica em uniformes industriais."
+    ],
+    "characteristics": [
+      "Acontece em 100% dos bordados computadorizados do mundo em maior ou menor grau.",
+      "Pode ser completamente neutralizado com matriz bem programada e entretela correta."
+    ],
+    "commonErrors": [
+      "❌ Culpar a máquina ou a agulha pelo contorno fora do lugar, quando na verdade o erro é a falta de compensação de push-pull na matriz",
+      "❌ Tentar corrigir o push-pull esticando o tecido com força excessiva no bastidor, o que deforma o tecido ainda mais",
+      "❌ Digitalizar círculos e quadrados com linhas geométricas puras sem sobreposição de encaixe nas bordas"
+    ],
+    "troubleshootingTips": [
+      "Se houver fresta vazia entre o preenchimento e o contorno lateral: Aumente a compensação de encolhimento (Pull Compensation) para 0,45 mm no software.",
+      "Se o contorno superior/inferior estiver invadindo a área de fora: Recue o limite do preenchimento em 0,2 mm na direção do avanço dos pontos.",
+      "Se o bordado estiver deformando em malha piquet: Utilize entretela recortável resinada de 80g e adicione ponto de suporte em tatami leve cruzado."
+    ],
+    "dicaArtrelados": "Lembre-se da Regra Mestra Artrelados: 'No sentido em que a agulha vai e volta (linha), o bordado encolhe. No sentido em que o bordado caminha para a frente, o bordado empurra'. Programe sempre a compensação a favor da linha e seu contorno vai cravar com precisão cirúrgica!",
+    "voceSabia": "Em tecidos extremamente elásticos como lycra ou suplex de academia, o efeito de encolhimento (pull) pode fazer um desenho de 10 cm encolher até 4 mm inteiros se não houver entretela recortável e compensação de matriz!",
+    "practicalExercise": "Crie um quadrado de 4x4 cm preenchido com tatami horizontal e coloque um contorno de ponto cheio exatamente em cima das bordas sem compensação. Borde em um retalho de malha e veja com os próprios olhos as frestas laterais criadas pelo efeito push-pull.",
+    "quickSummary": "Comportamento físico em que a linha encolhe o tecido de um lado e o empurra do outro, exigindo compensação milimétrica na matriz.",
+    "recommendedSettings": {
+      "speedPPM": "700 a 850 PPM",
+      "needleType": "75/11 Ponta Bola em malhas",
+      "stabilizer": "Entretela recortável 80g em tecidos elásticos"
+    },
+    "relatedTerms": [
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Ponto de Suporte (Underlay)",
+      "Bastidoramento",
+      "Ponto Tatami (Fill Stitch)",
+      "Ponto Cheio (Satin Stitch)"
+    ],
+    "tags": [
+      "d-087",
+      "push pull",
+      "distorcao",
+      "encolhimento",
+      "compensacao de encolhimento",
+      "registro de contorno",
+      "artrelados"
+    ],
+    "origin": "Dos verbos ingleses to push (empurrar) e to pull (puxar/tracionar) e do latim distortio (ato de deformar).",
+    "updatedAt": "2026-08-28",
+    "bibliographicReferences": [
+      "KAHN, Max. Push and Pull Phenomena in Computerized Embroidery. Nova York, 2022.",
+      "WILCOM EMBROIDERYSTUDIO. Digitizing for Fabric Types: Managing Push-Pull Forces. Sydney, 2023.",
+      "ARTRELADOS. A Física do Bordado: Dominando o Efeito Push-Pull e Encaixes Perfeitos. Curitiba, 2024."
+    ]
+  },
+  {
+    "id": "d-088-dst-formato-universal-tajima",
+    "code": "D-088",
+    "term": "DST (Data Stitch Tajima / Formato Universal de Matriz)",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Sigla substantivada masculina.",
+    "origin": "Sigla em inglês para Data Stitch Tajima, criada na década de 1980 pela corporação japonesa Tajima Industries Ltd. Tornou-se o padrão internacional universal de código de máquina para bordado industrial.",
+    "category": "Formatos & Arquivos de Bordado",
+    "summary": "O formato de arquivo de bordado mais universal do mundo, compatível com quase todas as marcas de máquinas industriais e domésticas existentes.",
+    "definition": "O arquivo DST é um formato binário de baixo nível (stitch-based / formato de máquina puro) que armazena exclusivamente instruções sequenciais de coordenadas de deslocamento cartesiano relativo (delta X e delta Y), comandos de salto (jump), instruções de parada (stop) e comandos de corte de linha (trim). Por ser um formato puramente mecânico, o DST não embute em seu cabeçalho a tabela de cores RGB dos fios nem as propriedades vetoriais originais dos objetos, cabendo ao operador atribuir as cores das linhas diretamente no painel da máquina.",
+    "technicalDetails": "Utiliza codificação ternária compactada de 3 bytes por coordenada de ponto, com limite máximo de salto simples de 12,1 mm por comando (saltos maiores são fracionados em múltiplos comandos de jump sequenciais). O cabeçalho (header) de 512 bytes em código ASCII armazena metadados básicos como nome do arquivo, contagem total de pontos, extensões máximas (+X, -X, +Y, -Y) e número de paradas para troca de cor.",
+    "howItWorks": [
+      "1. O programador finaliza a matriz no software e exporta o arquivo no formato .DST.",
+      "2. O arquivo é transferido para o pen drive e espetado na máquina de bordar.",
+      "3. O processador da máquina lê os comandos binários de X e Y, movendo os servomotores passo a passo.",
+      "4. Quando o arquivo encontra um comando 'Stop', a máquina para e solicita a próxima cor (que o operador define no painel ou nas agulhas)."
+    ],
+    "beginnerExplanation": "É o tipo de arquivo de bordado mais famoso do mundo. É como se fosse o 'PDF' ou 'MP3' do bordado: quase qualquer máquina de qualquer marca (Tajima, Barudan, Brother, Janome, Happy, Ricoma) consegue ler e bordar um arquivo .DST sem reclamar!",
+    "applications": [
+      "Padrão universal para envio de matrizes para clientes que possuem marcas variadas de máquinas de bordar.",
+      "Formato nativo de produção em máquinas industriais multicabeças de grande escala.",
+      "Backup de emergência de arquivos de bordado para leitura garantida em qualquer equipamento."
+    ],
+    "characteristics": [
+      "Compatibilidade universal com 99,9% das máquinas computadorizadas do mercado.",
+      "Arquivo leve (poucos kilobytes) e imune a erros de incompatibilidade de versão de software."
+    ],
+    "commonErrors": [
+      "❌ Abrir um arquivo DST na máquina e achar que a matriz está estragada porque as cores aparecem trocadas na tela (o formato DST não grava as cores originais, apenas o aviso de troca de linha)",
+      "❌ Tentar redimensionar um arquivo DST em mais de 10% no painel da máquina sem recalcular a densidade de pontos no software",
+      "❌ Salvar por cima do arquivo vetorial original (.EMB ou .JAN) apenas em DST, perdendo a capacidade de editar os objetos vetoriais com facilidade no futuro"
+    ],
+    "troubleshootingTips": [
+      "Se as cores na tela da máquina ficarem estranhas: Defina a ordem de cores manualmente no painel da máquina consultando a ficha técnica (PDF de produção) da matriz.",
+      "Se a máquina não reconhecer o pen drive com DST: Certifique-se de que o pen drive está formatado em FAT32 e que o nome do arquivo tem menos de 8 caracteres sem acentos.",
+      "Se você precisa alterar o tamanho da matriz: Redimensione sempre no software a partir do arquivo original de criação (.EMB, .PES, etc.) antes de exportar o novo DST."
+    ],
+    "dicaArtrelados": "Ao enviar matrizes para clientes ou alunas, envie sempre a duplinha de ouro Artrelados: o arquivo .DST (para rodar em qualquer máquina) acompanhado da Ficha Técnica em PDF colorida com a lista exata da ordem das cores de linha!",
+    "voceSabia": "O formato DST foi criado originalmente para ser lido através de fitas de papel perfuradas (paper tape punchers) que eram inseridas nas primeiras máquinas de bordar computadorizadas nos anos 1980, antes da existência dos disquetes e pen drives!",
+    "practicalExercise": "Exporte uma matriz simples do seu software em .DST e em .PES. Abra os dois arquivos em um visualizador e compare: observe como o DST abre com cores aleatórias padrão, mas tem exatamente a mesma perfeição e contagem de pontos do arquivo nativo.",
+    "quickSummary": "Formato de arquivo universal para bordado industrial e doméstico, compatível com quase todas as máquinas do mercado.",
+    "recommendedSettings": {
+      "speedPPM": "Suporta qualquer velocidade da máquina",
+      "needleType": "Conforme a matriz",
+      "stabilizer": "Conforme o artigo"
+    },
+    "relatedTerms": [
+      "Formatos de Arquivo de Bordado",
+      "PES (Formato Brother / Babylock)",
+      "JEF (Formato Janome)",
+      "EXP (Formato Bernina / Melco)",
+      "Ponto de Parada (Stop / Color Change)"
+    ],
+    "tags": [
+      "d-088",
+      "dst",
+      "tajima",
+      "formato de arquivo",
+      "formato universal",
+      "matriz",
+      "software",
+      "artrelados"
+    ],
+    "updatedAt": "2026-08-28",
+    "bibliographicReferences": [
+      "TAJIMA INDUSTRIES. Tajima DST File Specification & Protocol Standard. Nagoya, 2021.",
+      "EMBROIDERY SOFTWARE ASSOCIATION. Universal Machine File Formats: The DST Standard. Atlanta, 2022.",
+      "ARTRELADOS. Guia Definitivo de Formatos e Extensões de Arquivos de Bordado. Curitiba, 2024."
+    ]
+  },
+  {
+    "id": "d-089-desbobinador-suporte-cone-linha",
+    "code": "D-089",
+    "term": "Desbobinador / Suporte de Cone de Linha (Thread Stand / Spool Pin)",
+    "level": "Fundamental 🟢",
+    "grammarClass": "Locução nominal formada pelos substantivos desbobinador, suporte, cone e linha.",
+    "category": "Equipamentos & Hardware",
+    "summary": "Haste vertical com guia de fio suspensa que permite ao cone grande de linha desenrolar suavemente para cima, eliminando trancos e quebras de linha.",
+    "definition": "O desbobinador ou suporte externo de cones (thread stand) é um dispositivo mecânico vertical dotado de base com lastro pesado e haste telescópica de metal culminando em um olhal guia-fio suspenso a pelo menos 25 cm a 35 cm acima do topo do carretel. Sua função técnica primária é permitir o desbobinamento axial superior (desenrolamento pelo topo sem rotação física do cone), neutralizando a inércia do peso do cone de 4000 metros e entregando o filamento à bateria de tensores da máquina com tensão residual próxima de zero.",
+    "technicalDetails": "Diferencia o desenrolamento tangencial (usado em pequenos carretéis domésticos horizontais de 100m, onde o carretel gira sobre o próprio eixo) do desenrolamento axial vertical (obrigatório para cones industriais cônicos de 1000m a 5000m). O desbobinamento axial requer espaço aéreo vertical livre para que a espiral de saída da linha se desfaça no ar antes de entrar no primeiro tensor, evitando torções e a formação de laços parasitas.",
+    "howItWorks": [
+      "1. O cone grande de linha de bordar (1000m ou 4000m) é posicionado na base do suporte atrás ou ao lado da máquina.",
+      "2. A ponta da linha sobe em linha reta e passa de cima para baixo pelo olhal da haste suspensa do desbobinador.",
+      "3. A linha desce suavemente e entra no trajeto normal de passagem de linha da máquina de bordar.",
+      "4. Quando a máquina borda a 800 PPM, a linha se desprende do cone em círculos perfeitos no ar, sem puxar o carretel e sem dar trancos."
+    ],
+    "beginnerExplanation": "É aquela torre ou suporte alto de metal que fica do lado da máquina para segurar os cones grandes de linha. Ele serve para fazer a linha sair por cima do cone bem levinha e solta, sem enroscar no pé do carretel e sem ficar quebrando a linha toda hora.",
+    "applications": [
+      "Uso indispensável de cones industriais econômicos de 4000 metros em máquinas domésticas de bordar.",
+      "Alimentação estável de linhas especiais e delicadas como fios metálicos (ouro/prata) e fios de poliéster trilobal.",
+      "Suporte múltiplo de cones para organização de sequências de cores em produção contínua."
+    ],
+    "characteristics": [
+      "Base estável com peso para não tombar com a vibração da máquina.",
+      "Haste alta ajustável que garante ângulo perfeito de saída da linha."
+    ],
+    "commonErrors": [
+      "❌ Colocar um cone grande de 4000m deitado no pino horizontal da máquina doméstica, fazendo o carretel travar e arrebentar a linha instantaneamente",
+      "❌ Deixar a haste do suporte muito baixa, fazendo a linha raspar na borda plástica do cone e desfiar o fio",
+      "❌ Passar a linha com o suporte muito longe da máquina, criando curvatura excessiva e atrito desnecessário"
+    ],
+    "troubleshootingTips": [
+      "Se a linha estiver arrebentando a cada 50 pontos com cone grande: Instale um suporte de cone vertical e erga a haste no ponto mais alto possível.",
+      "Se a linha metálica estiver enrolando em espiral e dando nós: Coloque uma redinha elástica de proteção (thread net) envolvendo o cone no desbobinador.",
+      "Se o cone estiver vibrando e dançando na base: Coloque um feltro circular ou base de borracha sob o cone de linha."
+    ],
+    "dicaArtrelados": "Se você usa cones grandes de 4000m na sua máquina doméstica, o suporte de cone externo de metal é o melhor investimento do seu ateliê! Mantenha a haste sempre bem esticada para o alto — isso reduz em 90% as quebras de linha e economiza muito dinheiro comprando cones grandes em vez de tubinhos pequenos!",
+    "voceSabia": "Cones industriais possuem aquele formato cônico afunilado para cima justamente para permitir que a linha voe livremente para o ar a velocidades de até 1500 pontos por minuto sem que o carretel precise se mover nem 1 milímetro!",
+    "practicalExercise": "Monte um cone de 4000 metros no suporte vertical e puxe 2 metros de linha com a mão rapidamente para o alto: repare como a linha desenrola suavemente em espirais fluidas no ar sem nenhum esforço ou tranco.",
+    "quickSummary": "Suporte vertical com guia alta que permite usar cones grandes de linha com desenrolamento suave e sem quebras.",
+    "recommendedSettings": {
+      "speedPPM": "Suporta qualquer velocidade",
+      "needleType": "Não se aplica",
+      "stabilizer": "Não se aplica"
+    },
+    "relatedTerms": [
+      "Fio de Poliéster Trilobal",
+      "Fio Metálico",
+      "Tensão da Linha",
+      "Redinha de Linha (Thread Net)",
+      "Velocidade em PPM"
+    ],
+    "tags": [
+      "d-089",
+      "desbobinador",
+      "suporte de cone",
+      "thread stand",
+      "cone de linha",
+      "passagem de linha",
+      "hardware",
+      "artrelados"
+    ],
+    "origin": "Do português desbobinar (tirar da bobina/carretel) e do latim supportare (sustentar).",
+    "updatedAt": "2026-08-28",
+    "bibliographicReferences": [
+      "SUPERIOR THREADS. Thread Delivery Systems: Vertical Stands vs Horizontal Pins. Utah, 2022.",
+      "MADEIRA GARN. Industrial Thread Feeding and Spool Stand Optimization. Freiburg, 2023.",
+      "ARTRELADOS. Acessórios Essenciais e Estrutura de Ateliê de Bordados. Curitiba, 2024."
+    ]
   }
 ];
+
