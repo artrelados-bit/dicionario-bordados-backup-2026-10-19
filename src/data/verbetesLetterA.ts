@@ -1,4 +1,4 @@
-import { Verbete } from "../types";
+import { Verbete } from '../types';
 
 export const VERBETES_LETTER_A: Verbete[] = [
   {
@@ -4976,7 +4976,1426 @@ export const VERBETES_LETTER_A: Verbete[] = [
       "BROTHER. Embroidery Machine Operation Manual: Independent Bobbin Winding. Nagoya, 2021."
     ],
     "updatedAt": "2026-08-24"
-  }
-];
+  },
+  {
+    "id": "a-075-angulo-de-chanfro-da-agulha",
+    "code": "A-075",
+    "term": "Ã‚ngulo de Chanfro da Agulha (Needle Scarf Angle & Clearance)",
+    "level": "IntermediÃ¡rio ğŸŸ¡",
+    "grammarClass": "LocuÃ§Ã£o nominal formada por substantivo masculino, preposiÃ§Ã£o e substantivo.",
+    "origin": "Do latim angulus (canto/esquina), do francÃªs antigo escharpe (corte em bisel) e do latim vulgar acucula (agulha). Criado na transiÃ§Ã£o para mÃ¡quinas de alta rotaÃ§Ã£o para acomodar a ponta da lanÃ§adeira rotativa.",
+    "category": "Agulhas & Fios",
+    "summary": "Rebaixo cÃ´ncavo milimÃ©trico usinado na lÃ¢mina da agulha logo acima do olho que permite Ã  lanÃ§adeira laÃ§ar a linha a 0,05 mm sem bater na agulha.",
+    "definition": "O Ã¢ngulo de chanfro da agulha (needle scarf) Ã© a cavidade cÃ´ncava ou rebaixo usinado com tolerÃ¢ncia micromÃ©trica na face posterior da lÃ¢mina da agulha, situado imediatamente acima do orifÃ­cio do olho. Sua funÃ§Ã£o geomÃ©trica e mecÃ¢nica Ã© criar um espaÃ§o livre de passagem milimÃ©trica para que a ponta afiada da lanÃ§adeira rotativa intercepte e capture o laÃ§o formado pela linha superior no momento exato de sua expansÃ£o, operando com uma folga crÃ­tica entre 0,05 mm e 0,10 mm sem encostar na haste de aÃ§o.",
+    "technicalDetails": "Em agulhas de alta performance para bordado industrial (como o sistema DBxK5 ou 130/705H-E), o chanfro possui curvatura mais pronunciada e Ã¢ngulo de saÃ­da otimizado para gerar maior estabilidade na laÃ§ada mesmo quando o tecido vibra sob a pressÃ£o de 1000 PPM. O alinhamento correto da agulha exige que o chanfro fique voltado 100% para o lado da ponta da lanÃ§adeira (para trÃ¡s nas mÃ¡quinas convencionais ou para a direita dependendo da arquitetura do cabeÃ§ote).",
+    "howItWorks": [
+      "1. A agulha desce atÃ© o ponto morto inferior (Bottom Dead Center) perfurando o tecido e a entretela.",
+      "2. Ao iniciar a subida de 1,8 mm a 2,2 mm, a linha superior afrouxa e projeta uma laÃ§ada circular (loop) para fora.",
+      "3. A ponta da lanÃ§adeira rotativa passa rasante na cavidade do chanfro da agulha.",
+      "4. A laÃ§ada entra no bico da lanÃ§adeira e Ã© conduzida ao redor da canelinha para entrelaÃ§ar com a linha da bobina.",
+      "5. A agulha sobe livremente sem colidir com o mecanismo rotativo."
+    ],
+    "beginnerExplanation": "Ã‰ aquela 'cavidade' ou 'covinha' que fica nas costas da agulha, bem pertinho do buraquinho onde passa a linha. Ela serve para o gancho giratÃ³rio lÃ¡ de baixo (a lanÃ§adeira) passar raspando sem bater na agulha e conseguir laÃ§ar a linha perfeitamente.",
+    "applications": [
+      "Garantia de laÃ§ada perfeita em bordados de alta velocidade acima de 800 PPM.",
+      "PrevenÃ§Ã£o de falhas de ponto (pontos pulados) em tecidos elÃ¡sticos como malha e suplex.",
+      "ProteÃ§Ã£o mecÃ¢nica contra quebras de agulha e danos na ponta da lanÃ§adeira."
+    ],
+    "characteristics": [
+      "Usinagem em bisel com acabamento polido espelhado para nÃ£o desfiar o filamento da linha.",
+      "Profundidade calibrada de acordo com a espessura da lÃ¢mina (Nm 65 a Nm 90)."
+    ],
+    "commonErrors": [
+      "âŒ Inserir a agulha com o chanfro virado para a frente ou de lado, impedindo a laÃ§ada e quebrando a agulha na lanÃ§adeira",
+      "âŒ Usar agulha com chanfro arranhado por colisÃµes anteriores, que passa a desfiar e cortar a linha a cada 100 pontos",
+      "âŒ Tentar compensar folga excessiva entre lanÃ§adeira e chanfro apertando a tensÃ£o da linha superior"
+    ],
+    "troubleshootingTips": [
+      "Se a mÃ¡quina estiver pulando pontos direto: Verifique com uma lupa se a agulha estÃ¡ colocada com o chanfro (a covinha) voltado para a posiÃ§Ã£o exata indicada no manual.",
+      "Se a linha estiver desfiando na subida: Troque a agulha; uma rebarba microscÃ³pica no chanfro corta o fio de poliÃ©ster com o atrito.",
+      "Se ouvir um barulho metÃ¡lico 'tec-tec': A barra de agulha pode estar descentralizada e a ponta da lanÃ§adeira estÃ¡ batendo na borda do chanfro."
+    ],
+    "dicaArtrelados": "Ao trocar a agulha no seu ateliÃª, use a ponta do dedo para sentir a ranhura longa na frente e a 'covinha' do chanfro nas costas. Se o chanfro estiver nem que seja 5 graus torto para o lado, a mÃ¡quina vai falhar ponto e quebrar linha!",
+    "voceSabia": "A distÃ¢ncia entre a ponta da lanÃ§adeira e o fundo do chanfro da agulha Ã© de apenas 0,05 mm â€” isso Ã© mais fino do que a espessura de um fio de cabelo humano!",
+    "practicalExercise": "Pegue uma agulha nova nÃºmero 75/11 e passe a unha na parte de trÃ¡s logo acima do furinho: sinta o degrau cÃ´ncavo do chanfro. Compare com a frente, onde corre a canaleta comprida.",
+    "quickSummary": "Rebaixo cÃ´ncavo nas costas da agulha que permite Ã  lanÃ§adeira capturar a linha a fraÃ§Ãµes de milÃ­metro sem colisÃ£o.",
+    "recommendedSettings": {
+      "speedPPM": "650 a 850 PPM",
+      "needleType": "75/11 DBxK5 ou 130/705H-E",
+      "stabilizer": "Entretela conforme o substrato"
+    },
+    "relatedTerms": [
+      "Agulha de Bordado Computadorizado",
+      "LanÃ§adeira Rotativa",
+      "Barra de Agulha",
+      "Ponto Pulado / Falha de Ponto",
+      "FormaÃ§Ã£o do Ponto de Bordado"
+    ],
+    "tags": [
+      "a-075",
+      "chanfro da agulha",
+      "needle scarf",
+      "agulha",
+      "lancadeira",
+      "mecanica",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "GROZ-BECKERT. Precision Needles for Embroidery and Sewing Mechanics. Albstadt, 2022.",
+      "SCHMETZ NEEDLES. Technical Guide: Scarf Geometry & Loop Formation. Herzogenrath, 2021.",
+      "ARTRELADOS. Guia de Anatomia e MecÃ¢nica de Agulhas para Bordado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "a-076-alavanca-de-tensao-auxiliar",
+    "code": "A-076",
+    "term": "Alavanca de TensÃ£o Auxiliar / PrÃ©-TensÃ£o (Pre-Tension Bracket & Guide)",
+    "level": "Fundamental ğŸŸ¢",
+    "grammarClass": "LocuÃ§Ã£o nominal formada por substantivo feminino, preposiÃ§Ã£o e substantivo.",
+    "origin": "Do latim levare (erguer/alavancar), tendere (esticar) e auxiliaris (que presta ajuda). Desenvolvido para estabilizar o fluxo contÃ­nuo de linha de cones industriais.",
+    "category": "Equipamentos e MÃ¡quinas",
+    "summary": "Primeiro conjunto de guia e disco tensor superior que estabiliza o fio e neutraliza oscilaÃ§Ãµes antes de entrar no bloco tensor principal.",
+    "definition": "A alavanca de tensÃ£o auxiliar (ou conjunto de prÃ©-tensÃ£o) Ã© o dispositivo mecÃ¢nico posicionado no topo do trajeto de passagem de linha da mÃ¡quina de bordar, antecedendo a bateria principal de discos tensores. Sua funÃ§Ã£o Ã© aplicar uma resistÃªncia suave e constante (cerca de 5 a 10 gramas-forÃ§a) ao fio recÃ©m-saÃ­do do cone, eliminando laÃ§adas parasitas, 'efeito chicote' e vibraÃ§Ãµes que ocorrem quando a mÃ¡quina borda em velocidades elevadas.",
+    "technicalDetails": "Composta por pequenos discos metÃ¡licos com mola de baixa compressÃ£o e ilhoses cerÃ¢micos polidos. A prÃ©-tensÃ£o garante que a linha chegue perfeitamente assentada entre os discos tensores principais, evitando que o filamento escape da canaleta de fricÃ§Ã£o durante paradas bruscas e mudanÃ§as de direÃ§Ã£o do pantÃ³grafo.",
+    "howItWorks": [
+      "1. A linha sobe do cone e passa pelo olhal suspenso da torre.",
+      "2. Entra no conjunto da prÃ©-tensÃ£o, passando entre os disquinhos metÃ¡licos superiores.",
+      "3. A mola suave alinha a linha reta, absorvendo a folga da espiral do carretel.",
+      "4. A linha segue com fluxo suave e contÃ­nuo para o tensor principal e para o estica-fio.",
+      "5. Evita que a linha dÃª nÃ³s ou escape do circuito de alimentaÃ§Ã£o da agulha."
+    ],
+    "beginnerExplanation": "Ã‰ o 'primeiro freio suave' onde a linha passa no alto da mÃ¡quina. Ele serve para tirar as voltinhas e ondas da linha do cone antes que ela chegue no regulador de tensÃ£o principal, evitando que o fio embole ou saia do lugar.",
+    "applications": [
+      "Uso de cones industriais grandes de 4000m que soltam linha com muita folga.",
+      "Controle de fios especiais de alta elasticidade ou fios metÃ¡licos com memÃ³ria de mola.",
+      "ProduÃ§Ã£o contÃ­nua em mÃ¡quinas industriais e multicabeÃ§as."
+    ],
+    "characteristics": [
+      "PressÃ£o leve de calibragem que nÃ£o deforma a fibra do fio de poliÃ©ster.",
+      "Ilhoses de cerÃ¢mica que nÃ£o aquecem e nÃ£o desgastam com o atrito da linha."
+    ],
+    "commonErrors": [
+      "âŒ Apertar a prÃ©-tensÃ£o em excesso, esticando a linha antes do tempo e causando quebras frequentes",
+      "âŒ Pular a passagem pela prÃ©-tensÃ£o achando que ela nÃ£o faz diferenÃ§a, gerando laÃ§adas frouxas no topo do bordado",
+      "âŒ Deixar poeira de linha acumular entre os discos da prÃ©-tensÃ£o, travando a passagem do fio"
+    ],
+    "troubleshootingTips": [
+      "Se a linha estiver saindo do tensor principal durante cortes: Aumente levemente o aperto do disquinho da prÃ©-tensÃ£o.",
+      "Se a linha estiver arrebentando sem motivo aparente: Verifique se a prÃ©-tensÃ£o nÃ£o estÃ¡ apertada demais (ela deve oferecer apenas uma resistÃªncia suave ao puxar com a mÃ£o).",
+      "Se o fio estiver dando laÃ§adas soltas em cima do bordado: Limpe os discos da prÃ©-tensÃ£o passando uma linha grossa com um nÃ³."
+    ],
+    "dicaArtrelados": "Ao passar a linha na mÃ¡quina, segure o fio perto do cone com uma mÃ£o e puxe a ponta com a outra: sinta a linha 'encaixar' no meio dos disquinhos da prÃ©-tensÃ£o com um clique suave. Se o fio ficar por fora, a tensÃ£o da mÃ¡quina vai oscilar o tempo todo!",
+    "voceSabia": "Em mÃ¡quinas de 15 agulhas, cada cabeÃ§ote possui uma fileira inteira de 15 prÃ©-tensores individuais para garantir que todas as cores tenham exatamente o mesmo comportamento de entrega de linha!",
+    "practicalExercise": "Puxe a linha logo apÃ³s a prÃ©-tensÃ£o com a mÃ£o: sinta como ela desliza suave e reta, sem a espiral ondulada que tinha ao sair do cone.",
+    "quickSummary": "Dispositivo superior que aplica resistÃªncia suave para tirar ondas da linha antes dos tensores principais.",
+    "recommendedSettings": {
+      "speedPPM": "Suporta qualquer velocidade (600 a 1000 PPM)",
+      "needleType": "NÃ£o se aplica",
+      "stabilizer": "NÃ£o se aplica"
+    },
+    "relatedTerms": [
+      "Controle de TensÃ£o da Linha",
+      "Mola de CompensaÃ§Ã£o (Check Spring)",
+      "Estica-Fio (Take-up Lever)",
+      "Desbobinador / Suporte de Cone de Linha (Thread Stand / Spool Pin)",
+      "Fio de PoliÃ©ster Trilobal"
+    ],
+    "tags": [
+      "a-076",
+      "pre-tensao",
+      "alavanca auxiliar",
+      "tensao",
+      "passagem de linha",
+      "hardware",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA TECHNICAL SERVICE. Upper Thread Tension and Pre-Tension Alignment Manual. Nagoya, 2022.",
+      "BARUDAN EMBROIDERY. Thread Feeding Mechanics & Pre-Tension Adjustments. Tokyo, 2021.",
+      "ARTRELADOS. Manual de TensÃ£o e Passagem Perfeita de Fios no Bordado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "a-077-amortecimento-dinamico-de-cabecote",
+    "code": "A-077",
+    "term": "Amortecimento DinÃ¢mico de CabeÃ§ote (Head Vibration Dampening & Stabilization)",
+    "level": "AvanÃ§ado ğŸ”´",
+    "grammarClass": "LocuÃ§Ã£o nominal formada por substantivo masculino, adjetivo, preposiÃ§Ã£o e substantivo.",
+    "origin": "Do latim amortire (reduzir a forÃ§a de um impacto), do grego dynamis (forÃ§a em movimento) e do latim caput (cabeÃ§a/cabeÃ§ote da mÃ¡quina).",
+    "category": "Equipamentos e MÃ¡quinas",
+    "summary": "Sistema de absorÃ§Ã£o de vibraÃ§Ãµes e contrapesos na barra de agulha que neutraliza oscilaÃ§Ãµes a mais de 1000 PPM para garantir contornos perfeitos.",
+    "definition": "O amortecimento dinÃ¢mico de cabeÃ§ote Ã© o conjunto de soluÃ§Ãµes de engenharia mecÃ¢nica â€” incluindo contrapesos balanceados no eixo virabrequim, buchas sinterizadas de precisÃ£o, coxins de elastÃ´mero e blocos absorvedores de inÃ©rcia â€” instalados no cabeÃ§ote das mÃ¡quinas de bordar industriais e semiprofissionais. Seu objetivo Ã© dissipar as forÃ§as harmÃ´nicas geradas pelo movimento alternado vertical da barra de agulha e do estica-fio em velocidades superiores a 1.000 pontos por minuto, mantendo a ponta da agulha com desvio lateral nulo (zero deflection).",
+    "technicalDetails": "Quando a barra de agulha oscila para cima e para baixo 16 a 20 vezes por segundo, a inÃ©rcia cria micro-vibraÃ§Ãµes que, sem amortecimento, fariam o cabeÃ§ote defletir em atÃ© 0,3 mm. O sistema de contrapesos dinÃ¢micos anula a ressonÃ¢ncia mecÃ¢nica, preservando a vida Ãºtil dos rolamentos e garantindo que bordados com contornos ultra-finos (0,8 mm) e micro-textos fiquem milimetricamente alinhados.",
+    "howItWorks": [
+      "1. O motor principal gira o eixo superior em alta rotaÃ§Ã£o.",
+      "2. Contrapesos excÃªntricos balanceados geram uma forÃ§a oposta Ã  aceleraÃ§Ã£o da barra de agulha.",
+      "3. Coxins de absorÃ§Ã£o estrutural isolam o bloco do cabeÃ§ote da mesa e do chassi de aÃ§o.",
+      "4. A barra de agulha sobe e desce em trajetÃ³ria 100% reta e perpendicular ao tecido.",
+      "5. Os pontos caem com precisÃ£o microscÃ³pica exatamente nas coordenadas X e Y programadas na matriz."
+    ],
+    "beginnerExplanation": "Ã‰ o 'sistema de suspensÃ£o e balanceamento' da mÃ¡quina de bordar. Ele absorve o chacoalhar do motor e da agulha para que a mÃ¡quina nÃ£o trema na mesa e consiga fazer letrinhas minÃºsculas e contornos perfeitos sem borrar nada.",
+    "applications": [
+      "Bordado de alta precisÃ£o em logotipos corporativos com letras de 4 mm.",
+      "ProduÃ§Ã£o em velocidade mÃ¡xima (1000 PPM a 1200 PPM) sem perda de qualidade visual.",
+      "ReduÃ§Ã£o drÃ¡stica do ruÃ­do acÃºstico no ambiente do ateliÃª."
+    ],
+    "characteristics": [
+      "NeutralizaÃ§Ã£o de forÃ§as de inÃ©rcia em mÃºltiplos eixos mecÃ¢nicos.",
+      "Garantia de estabilidade dimensional do ponto ao longo de turnos contÃ­nuos de 8 horas."
+    ],
+    "commonErrors": [
+      "âŒ Instalar a mÃ¡quina sobre mesas bambas ou pisos desnivelados, anulando o efeito do amortecimento interno e gerando desalinhamento de matrizes",
+      "âŒ Trabalhar sem lubrificaÃ§Ã£o das buchas do cabeÃ§ote, aumentando a folga e a vibraÃ§Ã£o mecÃ¢nica",
+      "âŒ NÃ£o nivelar os pÃ©s de apoio emborrachados da mÃ¡quina de bordar"
+    ],
+    "troubleshootingTips": [
+      "Se os contornos finos ficarem tremidos ou fora do lugar em alta velocidade: Reduza a velocidade de 1000 PPM para 750 PPM e verifique se a mesa de apoio estÃ¡ 100% firme.",
+      "Se a mÃ¡quina estiver fazendo um ruÃ­do oco e vibrando na bancada: Coloque uma placa de borracha EVA de alta densidade (10 mm) sob os pÃ©s da mÃ¡quina.",
+      "Se o cabeÃ§ote apresentar folga manual: Chame a assistÃªncia tÃ©cnica para ajuste das buchas da barra de agulha."
+    ],
+    "dicaArtrelados": "Uma bancada de ateliÃª pesada e estÃ¡vel Ã© o melhor parceiro do cabeÃ§ote da sua mÃ¡quina! Nunca apoie sua mÃ¡quina de bordar em mesas leves de plÃ¡stico ou dobrÃ¡veis: a vibraÃ§Ã£o rouba a nitidez dos seus pontos mais bonitos!",
+    "voceSabia": "Nas mÃ¡quinas de bordar industriais de Ãºltima geraÃ§Ã£o, o virabrequim do cabeÃ§ote Ã© balanceado a laser com tolerÃ¢ncia de menos de 0,01 grama, a mesma tecnologia usada em motores de carros de FÃ³rmula 1!",
+    "practicalExercise": "Coloque um copo pequeno com dois dedos de Ã¡gua sobre a mesa ao lado da mÃ¡quina enquanto ela borda a 800 PPM: observe as ondas na Ã¡gua para avaliar o nÃ­vel de estabilidade da sua bancada.",
+    "quickSummary": "Engenharia de contrapesos e buchas que elimina trepidaÃ§Ã£o da agulha para garantir contornos nÃ­tidos e bordados perfeitos.",
+    "recommendedSettings": {
+      "speedPPM": "750 a 1000 PPM em mÃ¡quinas com chassi calibrado",
+      "needleType": "75/11 ou 70/10",
+      "stabilizer": "Adequado Ã  peÃ§a"
+    },
+    "relatedTerms": [
+      "Barra de Agulha",
+      "PantÃ³grafo",
+      "Velocidade em PPM (Pontos Por Minuto)",
+      "DistorÃ§Ã£o de Push-Pull (Push and Pull Distortion)",
+      "Registro de Contorno"
+    ],
+    "tags": [
+      "a-077",
+      "amortecimento",
+      "cabecote",
+      "vibracao",
+      "estabilidade",
+      "hardware",
+      "precisao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA RESEARCH & DEVELOPMENT. Structural Dynamics and Vibration Control in Embroidery Heads. Nagoya, 2023.",
+      "JAPAN SOCIETY OF MECHANICAL ENGINEERS. Precision Textile Machinery Dynamics. Tokyo, 2022.",
+      "ARTRELADOS. ManutenÃ§Ã£o Preventiva e Estrutura FÃ­sica para AteliÃªs de Alta Produtividade. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "a-078-acoplamento-magnetico-de-bastidor",
+    "code": "A-078",
+    "term": "Acoplamento MagnÃ©tico de Bastidor (Magnetic Hoop Clamping & Docking)",
+    "level": "IntermediÃ¡rio ğŸŸ¡",
+    "grammarClass": "LocuÃ§Ã£o nominal formada por substantivo masculino, adjetivo, preposiÃ§Ã£o e substantivo.",
+    "origin": "Do latim copulare (unir/juntar), do grego magnes (Ã­mÃ£ de MagnÃ©sia) e do francÃªs antigo bastir (construir/emoldurar). Desenvolvido nos anos 2010 como evoluÃ§Ã£o dos aros plÃ¡sticos de pressÃ£o por parafuso.",
+    "category": "Bastidores & Bastidoramento",
+    "summary": "Sistema de bastidoramento que utiliza Ã­mÃ£s potentes de neodÃ­mio para prender tecidos sem marcas de pressÃ£o e sem necessidade de apertar parafusos.",
+    "definition": "O acoplamento magnÃ©tico de bastidor (magnetic hooping system) Ã© a tecnologia de fixaÃ§Ã£o tÃªxtil constituÃ­da por um aro inferior de aÃ§o polido ou composto ferromagnÃ©tico e uma moldura superior equipada com mÃºltiplos Ã­mÃ£s de terras raras (neodÃ­mio N52). O sistema prende o tecido e a entretela atravÃ©s de forÃ§a de atraÃ§Ã£o magnÃ©tica uniforme distribuÃ­da em 360 graus, eliminando a deformaÃ§Ã£o de fibras, o atrito por cisalhamento e o esmagamento irreversÃ­vel do tecido comumente causados pelos aros plÃ¡sticos tradicionais de parafuso.",
+    "technicalDetails": "Diferente do bastidor mecÃ¢nico tradicional que exige forÃ§a de aperto manual e estiramento forÃ§ado das bordas, o bastidor magnÃ©tico exerce pressÃ£o vertical pura e homogÃªnea (entre 1,2 kg/cmÂ² e 2,5 kg/cmÂ²). Essa dinÃ¢mica previne a 'marca de bastidor' (hoop burn) em artigos nobres e permite encaixar tecidos de espessuras variadas (como zÃ­peres, costuras de moletons e bolsas) sem descalibrar a folga do aro.",
+    "howItWorks": [
+      "1. A base metÃ¡lica do bastidor Ã© posicionada sob a peÃ§a de tecido com a entretela.",
+      "2. A moldura superior com os Ã­mÃ£s de neodÃ­mio Ã© aproximada sobre a Ã¡rea desejada.",
+      "3. O campo magnÃ©tico atrai a moldura instantaneamente com pressÃ£o vertical perfeita.",
+      "4. O tecido fica assentado plano, sem esticar a trama e sem marcas de aperto.",
+      "5. O conjunto Ã© acoplado aos braÃ§os do pantÃ³grafo da mÃ¡quina para inÃ­cio imediato do bordado."
+    ],
+    "beginnerExplanation": "Ã‰ aquele bastidor moderno que fecha com Ã­mÃ£s super fortes em vez de parafuso. VocÃª sÃ³ encosta a parte de cima e ele 'trava' o tecido sozinho em um segundo, sem cansar a mÃ£o e sem deixar aquela marca redonda amassada e feia que nÃ£o sai na lavagem.",
+    "applications": [
+      "Bordado em tecidos nobres e sensÃ­veis como veludo, couro, camurÃ§a, cetim e microfibra.",
+      "PeÃ§as grossas ou com costuras volumosas como jaquetas, moletons e bolsas estruturadas.",
+      "ProduÃ§Ã£o de alta velocidade onde o tempo de bastidoramento precisa ser reduzido em atÃ© 70%."
+    ],
+    "characteristics": [
+      "Fechamento instantÃ¢neo com pressÃ£o vertical contÃ­nua.",
+      "NÃ£o desgasta roscas nem deforma plÃ¡sticos com o uso contÃ­nuo."
+    ],
+    "commonErrors": [
+      "âŒ Aproximar cartÃµes magnÃ©ticos, relÃ³gios mecÃ¢nicos ou marcapassos perto dos Ã­mÃ£s de neodÃ­mio do bastidor",
+      "âŒ Deixar os dedos entre os aros durante o fechamento (o impacto dos Ã­mÃ£s Ã© forte e pode causar beliscÃµes dolorosos)",
+      "âŒ Puxar o tecido pelas pontas depois que os Ã­mÃ£s jÃ¡ travaram, distorcendo as fibras tÃªxteis"
+    ],
+    "troubleshootingTips": [
+      "Se o tecido escorregar no bastidor magnÃ©tico durante o bordado de alta densidade: Use entretela de gramatura superior (80g) ou aplique uma fita antiderrapante nas bordas de contato.",
+      "Se tiver dificuldade para desacoplar a parte superior: Deslize a moldura magnÃ©tica para o lado em vez de tentar puxar direto para cima.",
+      "Se a mÃ¡quina acusar colisÃ£o de bastidor: Verifique se as aletas de fixaÃ§Ã£o do bastidor magnÃ©tico estÃ£o compatÃ­veis com o sensor de limite do pantÃ³grafo."
+    ],
+    "dicaArtrelados": "Para quem tem problemas de dor no punho ou tendinite pelo aperto repetitivo de parafusos de bastidores tradicionais, o bastidor magnÃ©tico Ã© um divisor de Ã¡guas no ateliÃª! AlÃ©m de salvar suas mÃ£os, ele entrega toalhas e camisas de linho sem nenhuma marca de aro!",
+    "voceSabia": "Os Ã­mÃ£s de neodÃ­mio usados nos bastidores magnÃ©ticos modernos tÃªm capacidade de sustentaÃ§Ã£o de atÃ© 300 vezes o seu prÃ³prio peso e mantÃªm sua forÃ§a magnÃ©tica intacta por mais de 100 anos!",
+    "practicalExercise": "Monte uma toalha de veludo em um bastidor de parafuso comum e outra no bastidor magnÃ©tico. Retire ambas apÃ³s 10 minutos e compare as marcas: veja como o magnÃ©tico nÃ£o deixa nenhum esmagamento nas fibras!",
+    "quickSummary": "Bastidor com Ã­mÃ£s de neodÃ­mio que prende tecidos instantaneamente com pressÃ£o uniforme e sem marcas de aperto.",
+    "recommendedSettings": {
+      "speedPPM": "650 a 900 PPM",
+      "needleType": "75/11 Ponta Bola ou Universal",
+      "stabilizer": "Entretela rasgÃ¡vel ou resinada"
+    },
+    "relatedTerms": [
+      "Bastidor",
+      "Bastidoramento / Processo de Enquadramento no Bastidor",
+      "Marcas de Bastidor (Hoop Burn)",
+      "PantÃ³grafo",
+      "Entretela RasgÃ¡vel (Tear-Away)"
+    ],
+    "tags": [
+      "a-078",
+      "bastidor magnetico",
+      "magnetic hoop",
+      "neodimio",
+      "bastidoramento",
+      "hoop burn",
+      "acessorios",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "MIGHTY HOOP & HOOPMASTER. Magnetic Clamping Technology in Commercial Embroidery. Texas, 2023.",
+      "EMBROIDERY MAGAZINE. Eliminating Hoop Burn: The Evolution of Magnetic Frames. London, 2022.",
+      "ARTRELADOS. AcessÃ³rios Essenciais e Bastidoramento sem EsforÃ§o. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "a-079-auto-densidade-adaptativa",
+    "code": "A-079",
+    "term": "Auto-Densidade Adaptativa (Adaptive Auto-Density & Curve Thinning)",
+    "level": "IntermediÃ¡rio ğŸŸ¡",
+    "grammarClass": "LocuÃ§Ã£o nominal formada por prefixo grego auto-, substantivo feminino e adjetivo.",
+    "origin": "Do grego autos (por si mesmo), do latim densitas (espessura) e adaptare (ajustar). Criado na engenharia de algoritmos de digitalizaÃ§Ã£o de bordado nos anos 2000.",
+    "category": "ProgramaÃ§Ã£o de Matrizes (Softwares)",
+    "summary": "Algoritmo inteligente do software que reduz a concentraÃ§Ã£o de pontos no raio interno de curvas fechadas para evitar perfuraÃ§Ãµes repetidas e quebra de agulhas.",
+    "definition": "A auto-densidade adaptativa (adaptive stitch density / auto-spacing) Ã© uma funÃ§Ã£o computacional avanÃ§ada em softwares de digitalizaÃ§Ã£o de matrizes que recalcula dinamicamente a distÃ¢ncia entre as penetraÃ§Ãµes de agulha ao longo de geometrias curvilÃ­neas em colunas de ponto cheio (satin) e curvas de contorno. Quando uma coluna executa uma curva fechada, a borda externa se expande enquanto a borda interna se comprime; o algoritmo detecta essa convergÃªncia e suprime automaticamente pontos redundantes no raio interno (curva curta), mantendo o preenchimento uniforme sem perfurar o mesmo ponto repetidas vezes.",
+    "technicalDetails": "Sem a auto-densidade, uma curva de 90Â° em ponto cheio com densidade nominal de 0,40 mm chega a concentrar penetraÃ§Ãµes com menos de 0,08 mm de intervalo na borda interna. Essa concentraÃ§Ã£o excessiva cria um efeito 'broca', cortando as fibras do tecido como uma guilhotina e causando quebras consecutivas de agulha. O algoritmo aplica a tÃ©cnica de 'pontos fracionados' (short stitches), alternando pontos longos com pontos que param antes do bordo interno.",
+    "howItWorks": [
+      "1. O programador desenha uma coluna de ponto cheio com curvas acentuadas (ex: uma letra 'S' cursiva ou espiral).",
+      "2. O software calcula o comprimento dos arcos interno e externo da curva.",
+      "3. O mÃ³dulo de Auto-Densidade identifica que o raio interno estÃ¡ abaixo da distÃ¢ncia de seguranÃ§a de 0,35 mm.",
+      "4. O algoritmo insere pontos curtos automÃ¡ticos, fazendo com que apenas metade dos pontos chegue atÃ© a borda de dentro.",
+      "5. A mÃ¡quina borda a curva com perfeiÃ§Ã£o visual e espaÃ§amento mecÃ¢nico saudÃ¡vel em toda a volta."
+    ],
+    "beginnerExplanation": "Quando uma curva de bordado dobra muito fechada (como numa letra 'S' ou 'C'), os pontinhos do lado de dentro ficam muito colados uns nos outros. Essa ferramenta inteligente do programa faz a mÃ¡quina pular alguns furinhos do lado de dentro para nÃ£o furar o tecido no mesmo lugar e nÃ£o quebrar a agulha!",
+    "applications": [
+      "DigitalizaÃ§Ã£o de fontes caligrÃ¡ficas cursivas com arabescos e voltas estreitas.",
+      "Bordado de logotipos com curvas acentuadas e detalhes circulares pequenos.",
+      "PrevenÃ§Ã£o de furos e rasgos em tecidos finos e malhas delicadas."
+    ],
+    "characteristics": [
+      "DistribuiÃ§Ã£o harmoniosa do volume de linha em qualquer Ã¢ngulo de curvatura.",
+      "ReduÃ§Ã£o de atÃ© 20% no acÃºmulo de pontos desnecessÃ¡rios nas curvas."
+    ],
+    "commonErrors": [
+      "âŒ Desativar a funÃ§Ã£o de pontos curtos automÃ¡ticos no software achando que a curva vai ficar 'mais cheia', resultando em tecido rasgado",
+      "âŒ ForÃ§ar densidade manual ultrabaixa (0,30 mm) em curvas sem compensaÃ§Ã£o adaptativa",
+      "âŒ Borda interna formando um caroÃ§o duro e alto de linha que incomoda no avesso da peÃ§a"
+    ],
+    "troubleshootingTips": [
+      "Se a agulha estiver quebrando sempre na curva fechada da mesma letra: Abra a matriz no software e ative a opÃ§Ã£o 'Pontos Curtos AutomÃ¡ticos / Auto-Spacing'.",
+      "Se o tecido estiver furando e abrindo buraco no canto de dentro da curva: Aumente a porcentagem de supressÃ£o de pontos curtos para 35%.",
+      "Se a curva estiver parecendo rala por fora: Aumente a compensaÃ§Ã£o de encolhimento (Pull Compensation) na borda externa."
+    ],
+    "dicaArtrelados": "Sempre que estiver programando letras cursivas no Wilcom ou no seu software favorito, verifique se a opÃ§Ã£o 'Pontos Curtos' (Short Stitches) estÃ¡ com status ATIVADA! Isso garante que suas letras tenham curvas suaves como veludo e zero quebras de linha na mÃ¡quina!",
+    "voceSabia": "A tecnologia de auto-densidade por pontos curtos foi inspirada na tÃ©cnica secular de bordadeiras manuais de alta-costura, que davam pontos menores no lado interno dos leques e pÃ©talas para nÃ£o encavalar as linhas de seda!",
+    "practicalExercise": "No seu software, desenhe uma letra 'O' grossa em ponto cheio. DÃª zoom mÃ¡ximo na curva e observe como alguns pontos param antes de encostar no centro: isso Ã© a auto-densidade adaptativa trabalhando por vocÃª!",
+    "quickSummary": "Algoritmo que equilibra a distÃ¢ncia dos pontos em curvas fechadas, evitando agulhas furando no mesmo lugar e rasgando o tecido.",
+    "recommendedSettings": {
+      "density": "0.40 mm padrÃ£o com Pontos Curtos Ativados (Short Stitches)",
+      "needleType": "75/11 Ponta Bola",
+      "stabilizer": "Entretela adequada ao tecido",
+      "speedPPM": "650 a 850 PPM"
+    },
+    "relatedTerms": [
+      "Ponto Cheio (Satin Stitch)",
+      "Pontos Curtos (Short Stitches)",
+      "Densidade de Pontos",
+      "Curva BÃ©zier na DigitalizaÃ§Ã£o",
+      "CompensaÃ§Ã£o de Encolhimento"
+    ],
+    "tags": [
+      "a-079",
+      "auto-densidade",
+      "pontos curtos",
+      "curvas",
+      "short stitches",
+      "software",
+      "programacao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM INTERNATIONAL. Digitizing Best Practices: Curves, Corners & Adaptive Stitching. Sydney, 2023.",
+      "KAHN, Max. Master Guide to Software Stitch Generation. Nova York, 2022.",
+      "ARTRELADOS. Segredos da ProgramaÃ§Ã£o de Matrizes de Alta Nitidez. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "a-080-alinhamento-de-ponto-de-parada-tie-off",
+    "code": "A-080",
+    "term": "Alinhamento de Ponto de Parada / Tie-Off AutomÃ¡tico (Auto Tie-Off & Tie-In)",
+    "level": "AvanÃ§ado ğŸ”´",
+    "grammarClass": "LocuÃ§Ã£o nominal formada por substantivos masculinos e termos tÃ©cnicos em inglÃªs.",
+    "origin": "Do latim adlineare (colocar em linha), pausare (interromper) e do inglÃªs to tie off (amarrar/arrematar ao final). Desenvolvido nos anos 1980 com os primeiros cortadores automÃ¡ticos de linha.",
+    "category": "ProgramaÃ§Ã£o de Matrizes (Softwares)",
+    "summary": "SequÃªncia matemÃ¡tica de micro-pontos de ancoragem no inÃ­cio e no final de cada objeto que trava o fio para nÃ£o desmanchar apÃ³s o corte automÃ¡tico.",
+    "definition": "O alinhamento de ponto de parada e travamento automÃ¡tico (tie-off / tie-in) Ã© a rotina algorÃ­tmica programada na matriz que gera uma sequÃªncia precisa de 3 a 5 micro-pontos de amarraÃ§Ã£o (com comprimento calibrado entre 0,4 mm e 0,8 mm) antes de um salto ou corte de linha, e no inÃ­cio do prÃ³ximo segmento bordado. Sua finalidade Ã© travar a tensÃ£o mecÃ¢nica do fio superior com a linha da bobina na face inferior do tecido, impedindo que o bordado se desfaÃ§a durante a lavagem ou com o atrito do uso diÃ¡rio, sem criar nÃ³dulos visÃ­veis na superfÃ­cie.",
+    "technicalDetails": "Existem duas geometrias principais de arremate: o 'Star/Cross Tie-Off' (em formato de micro-cruz ou estrela, ideal para preenchimentos tatami) e o 'Linear / In-Line Tie-Off' (onde os micro-pontos correm exatamente na mesma direÃ§Ã£o da coluna de ponto cheio, ficando 100% ocultos sob os pontos principais). Um arremate com pontos menores que 0,3 mm pode causar emperramento mecÃ¢nico, enquanto pontos maiores que 1,2 mm tornam-se visÃ­veis a olho nu.",
+    "howItWorks": [
+      "1. A mÃ¡quina conclui o preenchimento do Ãºltimo ponto de um elemento bordado.",
+      "2. Antes de disparar o comando de corte (trim), o software gera 3 a 4 micro-pontos sobrepostos ou em micro-zigue-zague.",
+      "3. Esses pontos entrelaÃ§am a linha superior e inferior firmemente dentro da entretela.",
+      "4. A faca inferior Ã© acionada, cortando a linha com folga segura de 5 mm a 8 mm.",
+      "5. No inÃ­cio do prÃ³ximo objeto, a mÃ¡quina executa o 'Tie-In' (arremate inicial) para fixar a ponta da linha antes de acelerar.",
+      "6. A peÃ§a pode ser lavada e esticada sem nenhum risco de desfiar."
+    ],
+    "beginnerExplanation": "Ã‰ o 'nÃ³ invisÃ­vel' que a mÃ¡quina faz sozinha antes de cortar a linha e na hora que comeÃ§a uma cor nova. SÃ£o 3 ou 4 pontinhos minÃºsculos que travam a linha para que o bordado nunca desfie na mÃ¡quina de lavar, mas feitos de um jeito tÃ£o caprichado que ninguÃ©m vÃª onde foi feito.",
+    "applications": [
+      "Uniformes profissionais e roupas esportivas submetidas a lavagens industriais pesadas.",
+      "Toalhas de banho e enxovais de bebÃª que exigem arremates macios e seguros.",
+      "Bordados em peÃ§as de alto padrÃ£o onde o avesso precisa ser extremamente limpo."
+    ],
+    "characteristics": [
+      "Pontos micromÃ©tricos que nÃ£o aumentam a espessura da peÃ§a.",
+      "ReduÃ§Ã£o de retrabalho manual com tesourinha e cola de arremate."
+    ],
+    "commonErrors": [
+      "âŒ Desativar o Tie-Off automÃ¡tico para 'economizar pontos', fazendo as letras desmancharem na primeira lavagem do cliente",
+      "âŒ Usar Tie-Off em cruz no topo de ponto cheio acetinado fino (deixando um ponto feio aparente na frente da letra)",
+      "âŒ Programar micro-pontos abaixo de 0,3 mm em tecidos grossos, fazendo a agulha bater no mesmo furo e quebrar a linha no corte"
+    ],
+    "troubleshootingTips": [
+      "Se as pontas das letras estiverem desfiando apÃ³s o corte: Ative o Tie-Off tipo 'In-Line' com 4 pontos e comprimento de 0,6 mm no software.",
+      "Se o arremate estiver aparecendo na frente do bordado: Mude a posiÃ§Ã£o do arremate final para dentro da Ã¡rea que jÃ¡ foi preenchida pelo bordado anterior.",
+      "Se a linha escapar da agulha no inÃ­cio da prÃ³xima cor: Aumente o nÃºmero de pontos do Tie-In (arremate inicial) para 4 pontos."
+    ],
+    "dicaArtrelados": "No ateliÃª Artrelados, a regra de ouro para monogramas perfeitos Ã© usar sempre o arremate 'Em Linha' (In-Line Tie-Off) escondido sob o prÃ³prio ponto cheio. Assim, a frente fica lisa como um espelho e o verso fica super seguro!",
+    "voceSabia": "Antes da invenÃ§Ã£o dos cortadores automÃ¡ticos e do Tie-Off digital nos anos 1980, as bordadeiras tinham que parar a mÃ¡quina manualmente, cortar os fios com tesourinha e dar nÃ³s Ã  mÃ£o no verso de cada letra!",
+    "practicalExercise": "Crie uma palavra simples no seu software e ative o simulador de pontos em cÃ¢mera lenta: observe como a agulha dÃ¡ 3 micro-pontinhos rÃ¡pidos antes de saltar para a prÃ³xima letra.",
+    "quickSummary": "Micro-pontos invisÃ­veis de amarraÃ§Ã£o que travam o fio antes e depois do corte, garantindo que o bordado nunca desmanche.",
+    "recommendedSettings": {
+      "density": "0.5 mm a 0.7 mm (3 a 4 micro-pontos)",
+      "needleType": "In-Line para Satin / Star para Tatami",
+      "speedPPM": "750 a 900 PPM"
+    },
+    "relatedTerms": [
+      "Corte AutomÃ¡tico de Linha (Jump & Trim)",
+      "Ponto de Parada (Stop Command)",
+      "Ponto Cheio (Satin Stitch)",
+      "Ponto Tatami (Fill Stitch)",
+      "Faca de Corte da LanÃ§adeira"
+    ],
+    "tags": [
+      "a-080",
+      "tie-off",
+      "tie-in",
+      "arremate",
+      "ponto de parada",
+      "corte de linha",
+      "programacao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM INTERNATIONAL. Tie-in and Tie-off Parameters and Optimization. Sydney, 2023.",
+      "TAJIMA EMBROIDERY SOFTWARE. Stitch Lock Systems and Automated Trimming Protocols. Nagoya, 2022.",
+      "ARTRELADOS. Acabamento Profissional e SeguranÃ§a de Arremates no Bordado Computadorizado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "a-081-angulo-de-preenchimento-conflitante",
+    "code": "A-081",
+    "term": "Ã‚ngulo de Preenchimento Conflitante (Conflicting Stitch Angles & Light Reflection)",
+    "level": "IntermediÃ¡rio ğŸŸ¡",
+    "grammarClass": "LocuÃ§Ã£o nominal formada por substantivo masculino, preposiÃ§Ã£o e adjetivo.",
+    "origin": "Do latim angulus (canto/inclinaÃ§Ã£o), complere (encher/preencher) e conflictus (choque/confronto). Conceito derivado da Ã³ptica tÃªxtil e da fÃ­sica de reflexÃ£o de luz em fios trilobais.",
+    "category": "ProgramaÃ§Ã£o de Matrizes (Softwares)",
+    "summary": "Erro de digitalizaÃ§Ã£o em que elementos vizinhos utilizam a mesma inclinaÃ§Ã£o de ponto ou direÃ§Ãµes incoerentes, gerando reflexo chapado e perda de profundidade 3D.",
+    "definition": "O Ã¢ngulo de preenchimento conflitante ocorre quando dois ou mais objetos geomÃ©tricos adjacentes ou sobrepostos em uma matriz de bordado sÃ£o programados com a mesma inclinaÃ§Ã£o angular de ponto (ou com direÃ§Ãµes que anulam a volumetria natural do desenho). Como o fio de poliÃ©ster trilobal reflete a luz de forma direcional especular, objetos com Ã¢ngulos idÃªnticos se fundem opticamente em um bloco plano e sem contraste, enquanto Ã¢ngulos contrastantes (diferenÃ§a de 30Â° a 90Â°) criam relevo, sombra dinÃ¢mica e sensaÃ§Ã£o de profundidade tridimensional.",
+    "technicalDetails": "Na fÃ­sica da reflexÃ£o tÃªxtil, o brilho mÃ¡ximo do fio ocorre quando a fonte de luz incide perpendicularmente ao filamento. Variando o Ã¢ngulo de ponto entre pÃ©talas de uma flor, asas de um pÃ¡ssaro ou dobras de uma bandeira, o programador controla exatamente como o bordado 'acende' e 'apaga' conforme o observador se movimenta, eliminando a sensaÃ§Ã£o de arte chapada.",
+    "howItWorks": [
+      "1. O programador vetoriza elementos vizinhos (como as duas metades de uma folha ou um escudo bipartido).",
+      "2. Em vez de usar 0Â° para tudo, define 45Â° para o lado esquerdo e 135Â° para o lado direito.",
+      "3. A mÃ¡quina borda os fios apontando em direÃ§Ãµes opostas.",
+      "4. Quando a luz do ambiente atinge a peÃ§a, um lado brilha intensamente enquanto o outro projeta um tom acetinado mais escuro.",
+      "5. O bordado ganha volume escultural e realismo sem precisar trocar a cor da linha."
+    ],
+    "beginnerExplanation": "Ã‰ o segredo de mudar a direÃ§Ã£o dos pontinhos para o bordado parecer vivo e 3D! Se vocÃª bordar uma folha inteira na mesma direÃ§Ã£o, ela fica reta e sem graÃ§a; se vocÃª fizer uma metade inclinada para a direita e a outra para a esquerda, a linha brilha diferente e a folha parece saltar do tecido.",
+    "applications": [
+      "Bordados monocromÃ¡ticos (onde o desenho tem apenas uma cor de linha e precisa de relevo visual).",
+      "Folhagens, flores botÃ¢nicas, cabelos, pelagens de animais e asas de pÃ¡ssaros.",
+      "Logotipos herÃ¡ldicos, brasÃµes e bandeiras tridimensionais."
+    ],
+    "characteristics": [
+      "CriaÃ§Ã£o de ilusÃ£o de Ã³tica de mÃºltiplas tonalidades usando uma Ãºnica cor de cone de linha.",
+      "EquilÃ­brio da tensÃ£o de repuxo no tecido em vÃ¡rias direÃ§Ãµes."
+    ],
+    "commonErrors": [
+      "âŒ Programar toda a matriz no Ã¢ngulo horizontal padrÃ£o de 0Â°, resultando em um bordado plano, sem vida e com repuxo severo em uma sÃ³ direÃ§Ã£o",
+      "âŒ Usar Ã¢ngulos muito discrepantes (90Â°) em partes do mesmo objeto que deveriam ser contÃ­nuas, criando uma emenda feia e quebrada",
+      "âŒ Esquecer de alinhar o Ã¢ngulo de ponto com a anatomia real do objeto (ex: bordar o caule de uma flor atravessado em vez de longitudinal)"
+    ],
+    "troubleshootingTips": [
+      "Se o bordado monocromÃ¡tico parecer uma mancha Ãºnica sem definiÃ§Ã£o: Altere os Ã¢ngulos dos objetos vizinhos com uma diferenÃ§a de 45Â° a 60Â° no software.",
+      "Se o tecido repuxar muito na vertical: Alterne os Ã¢ngulos dos preenchimentos para distribuir as forÃ§as de traÃ§Ã£o em vÃ¡rios sentidos.",
+      "Se a linha estiver parecendo fosca: Gire o Ã¢ngulo do preenchimento principal em 90Â° em relaÃ§Ã£o Ã  luz ambiente predominante."
+    ],
+    "dicaArtrelados": "Truque de Mestre Artrelados: ao bordar um brasÃ£o ou laÃ§o clÃ¡ssico todo dourado ou todo branco, divida a fita em 3 partes e use Ã¢ngulos de 30Â°, 90Â° e 150Â°. A mesma linha vai parecer ouro claro, ouro mÃ©dio e ouro escuro sÃ³ com o reflexo da luz!",
+    "voceSabia": "A tÃ©cnica de variaÃ§Ã£o de Ã¢ngulos de bordado para simular luz e sombra foi desenvolvida nos ateliÃªs imperiais chineses da dinastia Song hÃ¡ mais de mil anos, usando fios puros de seda torcida!",
+    "practicalExercise": "Borde um coraÃ§Ã£o dividido ao meio com a mesma linha vermelha: coloque o lado esquerdo a 45Â° e o direito a 135Â°. Olhe o bordado de frente e depois incline a peÃ§a sob a luz da janela para ver o efeito mÃ¡gico de duas cores!",
+    "quickSummary": "VariaÃ§Ã£o estratÃ©gica da direÃ§Ã£o dos pontos para criar reflexos de luz, contraste e efeito 3D mesmo com uma Ãºnica cor de linha.",
+    "recommendedSettings": {
+      "density": "0.40 mm a 0.42 mm (DiferenÃ§a de 30Â° a 60Â° entre elementos)",
+      "needleType": "PoliÃ©ster Trilobal ou Viscose de alto brilho",
+      "speedPPM": "700 a 850 PPM"
+    },
+    "relatedTerms": [
+      "Ponto Tatami (Fill Stitch)",
+      "Ponto Cheio (Satin Stitch)",
+      "Curvatura e Ã‚ngulo de Ponto",
+      "Fio de PoliÃ©ster Trilobal",
+      "DistorÃ§Ã£o de Push-Pull (Push and Pull Distortion)"
+    ],
+    "tags": [
+      "a-081",
+      "angulo de ponto",
+      "reflexo de luz",
+      "volume 3d",
+      "preenchimento",
+      "programacao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM EMBROIDERYSTUDIO. Stitch Angles, Light Refraction and 3D Visual Effects. Sydney, 2023.",
+      "MADEIRA THREADS. Optical Properties of Trilobal Polyester and Rayon Filaments. Freiburg, 2022.",
+      "ARTRELADOS. Efeitos Esculturais e IluminaÃ§Ã£o no Bordado Computadorizado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "a-082-agrupamento-logico-de-cores",
+    "code": "A-082",
+    "term": "Agrupamento LÃ³gico de Cores (Color Sequence Optimization & Grouping)",
+    "level": "Fundamental ğŸŸ¢",
+    "grammarClass": "LocuÃ§Ã£o nominal formada por substantivo masculino, adjetivo, preposiÃ§Ã£o e substantivo.",
+    "origin": "Do latim adgrupare (reunir em grupo), do grego logikos (racional/coerente) e do latim color (cor). Desenvolvido na automaÃ§Ã£o industrial tÃªxtil para reduzir o tempo ocioso de parada de mÃ¡quinas.",
+    "category": "ProgramaÃ§Ã£o de Matrizes (Softwares)",
+    "summary": "TÃ©cnica de organizaÃ§Ã£o da matriz que agrupa elementos da mesma cor na sequÃªncia correta de camadas, eliminando trocas de linha desnecessÃ¡rias.",
+    "definition": "O agrupamento lÃ³gico de cores (color sorting / sequence optimization) Ã© o mÃ©todo tÃ©cnico de ordenaÃ§Ã£o da lista de objetos de uma matriz de bordado no software, projetado para consolidar todos os elementos que compartilham a mesma tonalidade de linha em um nÃºmero mÃ­nimo de blocos de execuÃ§Ã£o contÃ­nua. Essa otimizaÃ§Ã£o respeita rigorosamente a hierarquia de sobreposiÃ§Ã£o das camadas visuais (fundo, meio e frente), reduzindo o tempo de parada da mÃ¡quina com trocas de carretel em atÃ© 40% e minimizando a quantidade de comandos de corte (trims).",
+    "technicalDetails": "Em uma mÃ¡quina de uma Ãºnica agulha, cada troca de linha exige entre 20 a 45 segundos do operador humano. Se uma matriz de 10.000 pontos tiver 12 trocas de cor desorganizadas (onde a cor preta entra 4 vezes em momentos separados), o tempo de mÃ¡quina parada supera o tempo real de bordado. O agrupamento lÃ³gico reorganiza a Ã¡rvore de objetos para que a cor preta entre apenas uma ou duas vezes, garantindo mÃ¡xima rentabilidade operacional.",
+    "howItWorks": [
+      "1. O programador finaliza a digitalizaÃ§Ã£o de todos os elementos visuais do desenho.",
+      "2. No software, abre a ferramenta de 'Otimizador de SequÃªncia de Cores' (Color Sorter).",
+      "3. O software analisa as sobreposiÃ§Ãµes: se um objeto azul nÃ£o fica embaixo de um amarelo, eles podem ser agrupados.",
+      "4. O programa une os blocos da mesma cor e remove comandos de corte intermediÃ¡rios sempre que possÃ­vel.",
+      "5. A matriz final reduz as trocas de cor de 10 para 4 passos, mantendo a ordem estÃ©tica perfeita."
+    ],
+    "beginnerExplanation": "Ã‰ o jeito inteligente de arrumar a ordem do bordado no computador para a mÃ¡quina nÃ£o ficar pedindo para trocar a mesma cor de linha toda hora. Em vez de colocar vermelho, depois azul, depois vermelho de novo, o programa junta tudo o que Ã© vermelho de uma vez sÃ³ (desde que nÃ£o estrague o desenho por baixo)!",
+    "applications": [
+      "OtimizaÃ§Ã£o de matrizes para mÃ¡quinas domÃ©sticas de 1 agulha (economizando tempo e cansaÃ§o da bordadeira).",
+      "ProduÃ§Ã£o seriada de uniformes e brindes promocionais em grande escala.",
+      "ReduÃ§Ã£o do desgaste do sistema de corte automÃ¡tico de linha da mÃ¡quina."
+    ],
+    "characteristics": [
+      "DiminuiÃ§Ã£o direta do custo de produÃ§Ã£o e do tempo de ciclo por peÃ§a.",
+      "PreservaÃ§Ã£o da integridade das camadas de fundo e contornos superiores."
+    ],
+    "commonErrors": [
+      "âŒ Usar a funÃ§Ã£o de juntar cores automÃ¡tica 'cega' do programa, fazendo o contorno preto bordar antes do preenchimento colorido e sumir embaixo da linha",
+      "âŒ Criar matrizes com 15 trocas de cor para desenhos simples de 3 cores por falta de planejamento de camadas",
+      "âŒ Deixar saltos quilomÃ©tricos de linha entre objetos da mesma cor agrupados em lados opostos do bastidor"
+    ],
+    "troubleshootingTips": [
+      "Se o contorno ficou coberto pelo preenchimento apÃ³s agrupar cores: DesfaÃ§a o agrupamento desse objeto e mova o contorno manualmente para o final da lista de produÃ§Ã£o.",
+      "Se a mÃ¡quina estiver demorando 30 minutos para bordar 5.000 pontos: Abra a matriz e verifique se nÃ£o hÃ¡ trocas repetidas da mesma cor de linha.",
+      "Se houver muitos fios longos atravessando a peÃ§a: Insira comandos de corte entre objetos da mesma cor distantes mais de 30 mm."
+    ],
+    "dicaArtrelados": "Antes de salvar a matriz final para sua mÃ¡quina de 1 agulha, passe o olho na lista de paradas: se a mesma cor aparecer mais de duas vezes, pergunte-se: 'Esse detalhe pode bordar junto com a primeira camada?'. Essa checagem rÃ¡pida economiza horas de trabalho no mÃªs!",
+    "voceSabia": "Em ateliÃªs industriais de alta produÃ§Ã£o com 10 mÃ¡quinas trabalhando juntas, otimizar o agrupamento de cores para economizar 2 minutos por peÃ§a representa um ganho de mais de 80 peÃ§as extras bordadas por dia!",
+    "practicalExercise": "Abra uma matriz antiga no seu programa e conte quantas trocas de cor ela tem. Use a lista de objetos para agrupar manualmente as cores iguais que estÃ£o no mesmo nÃ­vel de camada e veja o tempo total de produÃ§Ã£o cair na simulaÃ§Ã£o.",
+    "quickSummary": "OrganizaÃ§Ã£o estratÃ©gica da ordem dos elementos na matriz para bordar cores iguais juntas, economizando tempo e cortes de linha.",
+    "recommendedSettings": {
+      "density": "Hierarquia Fundo -> Detalhes -> Contornos",
+      "speedPPM": "750 a 900 PPM"
+    },
+    "relatedTerms": [
+      "Troca de Linha e Parada de Cor",
+      "Ordem de ProduÃ§Ã£o da Matriz",
+      "Corte AutomÃ¡tico de Linha (Jump & Trim)",
+      "Ponto de Parada (Stop Command)",
+      "Camadas e NÃ­veis de VetorizaÃ§Ã£o"
+    ],
+    "tags": [
+      "a-082",
+      "agrupamento de cores",
+      "color sorting",
+      "sequencia",
+      "produtividade",
+      "otimizacao",
+      "software",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM INTERNATIONAL. Color Sorting Algorithms and Production Optimization. Sydney, 2023.",
+      "EMBROIDERY BUSINESS JOURNAL. Lean Manufacturing: Reducing Color Change Downtime. Chicago, 2022.",
+      "ARTRELADOS. GestÃ£o de Tempo e Produtividade MÃ¡xima no Bordado Computadorizado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "a-083-auto-rastreamento-vetorial",
+    "code": "A-083",
+    "term": "Auto-Rastreamento Vetorial (Vector Auto-Tracing for Embroidery)",
+    "level": "IntermediÃ¡rio ğŸŸ¡",
+    "grammarClass": "LocuÃ§Ã£o nominal formada por prefixo auto-, substantivo masculino e adjetivo.",
+    "origin": "Do grego autos (por si prÃ³prio), do latim tractus (caminho/rastro) e do latim vector (aquele que conduz). Desenvolvido nos anos 1990 com a integraÃ§Ã£o de visÃ£o computacional em softwares CAD/CAM tÃªxteis.",
+    "category": "ProgramaÃ§Ã£o de Matrizes (Softwares)",
+    "summary": "Ferramenta de conversÃ£o automÃ¡tica de imagens bitmap (PNG/JPEG) em vetores para bordado, exigindo limpeza e simplificaÃ§Ã£o de nÃ³s para evitar matrizes defeituosas.",
+    "definition": "O auto-rastreamento vetorial (auto-digitizing / bitmap vectorization) Ã© a funcionalidade de software que analisa matrizes de pixels em imagens rasterizadas (JPEG, PNG, BMP) atravÃ©s de algoritmos de detecÃ§Ã£o de bordas e quantizaÃ§Ã£o de cores, gerando contornos vetoriais fechados (curvas BÃ©zier) para posterior conversÃ£o em pontos de bordado. Embora acelere o processo inicial de desenho, o rastreamento automÃ¡tico sem ediÃ§Ã£o manual gera excesso de nÃ³s Ã¢ncora, contornos serrilhados e sobreposiÃ§Ãµes desordenadas que exigem refinamento tÃ©cnico do programador.",
+    "technicalDetails": "Imagens com baixa resoluÃ§Ã£o ou compressÃ£o JPEG apresentam artefatos de interpolaÃ§Ã£o nas bordas (ruÃ­do de pixels). O rastreador automÃ¡tico interpreta esses degradÃªs falsos como dezenas de cores microscÃ³picas, criando micro-objetos de menos de 1 mm que travam a mÃ¡quina de bordar. O processo profissional exige prÃ©-processamento da imagem (posterizaÃ§Ã£o/limpeza de ruÃ­do), reduÃ§Ã£o de nÃ³s vetoriais e redefiniÃ§Ã£o manual de pontos de entrada, saÃ­da e compensaÃ§Ã£o de encolhimento.",
+    "howItWorks": [
+      "1. A imagem do logotipo do cliente Ã© importada para o software de bordado.",
+      "2. Aplica-se a ferramenta de 'ReduÃ§Ã£o de Cores' (quantizaÃ§Ã£o) para limitar a paleta Ã s cores reais.",
+      "3. O algoritmo de auto-rastreamento traÃ§a as linhas de contorno em curvas vetoriais.",
+      "4. O programador faz a 'Limpeza de NÃ³s' (Node Smoothing), eliminando pontos Ã¢ncora duplicados.",
+      "5. Atribuem-se os tipos de pontos corretos (tatami para Ã¡reas grandes, satin para letras e contornos) com compensaÃ§Ã£o de repuxo.",
+      "6. A matriz fica limpa, fluida e pronta para rodar na mÃ¡quina com qualidade impecÃ¡vel."
+    ],
+    "beginnerExplanation": "Ã‰ a 'mÃ¡gica' do programa que tenta transformar uma foto ou desenho da internet em bordado sozinho com um clique. Mas como o computador nÃ£o entende de tecido, o resultado costuma vir cheio de pontinhos tortos e nÃ³s a mais, precisando que a bordadeira dÃª uma limpada e ajeite as curvas para ficar perfeito.",
+    "applications": [
+      "VetorizaÃ§Ã£o rÃ¡pida de silhuetas simples, Ã­cones geomÃ©tricos e formas sÃ³lidas de alto contraste.",
+      "Economia de tempo no rascunho inicial de desenhos complexos para posterior ediÃ§Ã£o.",
+      "DigitalizaÃ§Ã£o assistida de artes enviadas em boa resoluÃ§Ã£o por clientes."
+    ],
+    "characteristics": [
+      "Agilidade na conversÃ£o de artes de alto contraste preto e branco.",
+      "Necessidade mandatÃ³ria de revisÃ£o e limpeza manual de nÃ³s para matrizes profissionais."
+    ],
+    "commonErrors": [
+      "âŒ Clicar em 'Auto-Bordar' direto em uma foto da internet e mandar direto para a mÃ¡quina sem revisar, resultando em quebra de linha, furos no tecido e desenho torto",
+      "âŒ Rastrear imagens borradas do WhatsApp sem antes redesenhar ou limpar o contraste",
+      "âŒ Manter centenas de nÃ³s em uma linha reta gerada pelo rastreador, criando trancos no pantÃ³grafo"
+    ],
+    "troubleshootingTips": [
+      "Se o rastreamento criar dezenas de cores que nÃ£o existem na arte: Use a ferramenta de reduÃ§Ã£o de paleta para limitar a imagem a apenas 2 ou 3 cores antes de traÃ§ar.",
+      "Se os contornos ficarem cheios de ondinhas e serrilhados: Selecione o objeto vetorizado e aplique a funÃ§Ã£o 'Suavizar Curvas / Reduzir NÃ³s'.",
+      "Se o bordado gerado ficar muito pesado: Apague os micro-objetos menores que 2 mm que foram gerados por sujeira na imagem."
+    ],
+    "dicaArtrelados": "O auto-rastreamento deve ser usado apenas como um 'rascunho rÃ¡pido', nunca como o bordado final! A diferenÃ§a entre uma matriz amadora e uma matriz de luxo Artrelados estÃ¡ nos 5 minutinhos que vocÃª gasta alinhando os nÃ³s, escolhendo o Ã¢ngulo certo e aplicando a compensaÃ§Ã£o de repuxo!",
+    "voceSabia": "Os primeiros algoritmos de auto-rastreamento vetorial para bordado foram desenvolvidos nos laboratÃ³rios da NASA na dÃ©cada de 1970 para mapear fotografias de satÃ©lite da Terra e sÃ³ depois foram adaptados para a indÃºstria tÃªxtil!",
+    "practicalExercise": "Importe um logo preto e branco no seu software e use o rastreamento automÃ¡tico. Depois, conte quantos 'nÃ³s' o programa criou na curva e use a ferramenta de suavizaÃ§Ã£o para reduzir esses nÃ³s pela metade, sentindo a curva ficar limpa e redonda.",
+    "quickSummary": "ConversÃ£o automÃ¡tica de imagens em vetores de bordado que exige limpeza de nÃ³s e ajustes para gerar matrizes perfeitas.",
+    "recommendedSettings": {
+      "density": "PNG 300 DPI -> SuavizaÃ§Ã£o de nÃ³s a 0.2 mm",
+      "speedPPM": "650 a 800 PPM"
+    },
+    "relatedTerms": [
+      "Curva BÃ©zier na DigitalizaÃ§Ã£o",
+      "NÃ³s e Pontos Ã‚ncora de Vetor",
+      "ProgramaÃ§Ã£o de Matrizes (Softwares)",
+      "CompensaÃ§Ã£o de Encolhimento",
+      "Ponto Tatami (Fill Stitch)"
+    ],
+    "tags": [
+      "a-083",
+      "auto-rastreamento",
+      "vetorizacao",
+      "auto-digitizing",
+      "nos ancoras",
+      "software",
+      "programacao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BERNINA INTERNATIONAL. Mastering Auto-Digitizing and Vector Cleanup Tools. Steckborn, 2022.",
+      "WILCOM EMBROIDERYSTUDIO. Vector Graphic Conversion & Node Optimization Manual. Sydney, 2023.",
+      "ARTRELADOS. Manual de DigitalizaÃ§Ã£o Vetorial e CriaÃ§Ã£o de Matrizes Perfeitas. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "a-084-acetato-e-tecidos-termossensiveis",
+    "code": "A-084",
+    "term": "Acetato e Tecidos TermossensÃ­veis (Acetate & Heat-Sensitive Fabrics)",
+    "level": "Fundamental ğŸŸ¢",
+    "grammarClass": "LocuÃ§Ã£o nominal formada por substantivo masculino, conjunÃ§Ã£o e substantivo com adjetivo.",
+    "origin": "Do latim acetum (vinagre/Ã¡cido acÃ©tico) e do grego therme (calor) com o latim sensibilitas. Fibra semi-sintÃ©tica derivada da celulose e anidrido acÃ©tico desenvolvida pelos irmÃ£os Dreyfus em 1904.",
+    "category": "Tecidos & EstabilizaÃ§Ã£o",
+    "summary": "Tecidos nobres e delicados (forros de alfaiataria, cetim de acetato e tafetÃ¡) que exigem agulha fina 65/9, entretela solÃºvel a frio e ferro com temperatura branda para nÃ£o derreter.",
+    "definition": "O acetato Ã© uma fibra tÃªxtil semissintÃ©tica celulÃ³sica acetilada de toque sedoso e brilho luxuoso, amplamente empregada na confecÃ§Ã£o de forros de alta-costura, vestidos de festa, becas acadÃªmicas e artigos litÃºrgicos. No contexto do bordado computadorizado, o acetato e outros materiais termossensÃ­veis (como nÃ¡ilon fino e organza de poliÃ©ster) apresentam baixa resistÃªncia tÃ©rmica (iniciam amolecimento tÃ©rmico a partir de 110Â°C) e elevada suscetibilidade a furos permanentes de agulha e marcas mecÃ¢nicas irreversÃ­veis causadas pela pressÃ£o de aros de bastidores.",
+    "technicalDetails": "Por possuir filamentos contÃ­nuos de baixa tenacidade e alta sensibilidade ao atrito, a penetraÃ§Ã£o de agulhas grossas (80/12 ou 90/14) causa corte imediato das fibras (efeito escada/desfiamento). O atrito repetitivo em velocidades acima de 700 PPM gera calor por fricÃ§Ã£o na ponta da agulha que pode fundir microscopicamente o tecido ao redor do furo. Exige agulhas finas Nm 65/9 ou 70/10 com ponta bola fina (SES), entretelas hidrossolÃºveis a frio ou rasgÃ¡veis leves (40g) aplicadas no mÃ©todo flutuante (floating) sem prender a peÃ§a no aro.",
+    "howItWorks": [
+      "1. A entretela Ã© colocada e esticada sozinha no bastidor da mÃ¡quina.",
+      "2. Aplica-se uma nÃ©voa suave de adesivo temporÃ¡rio reposicionÃ¡vel em spray na entretela.",
+      "3. O tecido de acetato Ã© posicionado e alisado suavemente por cima (bordado flutuante), sem ser prensado pelos aros plÃ¡sticos.",
+      "4. Instala-se uma agulha fina 65/9 ou 70/10 com ponta bola fina para penetrar suavemente entre as tramas.",
+      "5. Ajusta-se a velocidade da mÃ¡quina para 600 a 650 PPM, reduzindo o calor de atrito.",
+      "6. Ao finalizar, retira-se o excesso de entretela e passa-se o ferro a vapor apenas pelo avesso com temperatura para 'Seda/SintÃ©ticos' (mÃ¡ximo 110Â°C)."
+    ],
+    "beginnerExplanation": "O acetato Ã© aquele tecido brilhoso e macio muito usado em forros de ternos, vestidos de festa e fitas. Ele Ã© super sensÃ­vel ao calor do ferro e fura muito fÃ¡cil! Para bordar nele sem estragar, a gente usa agulha bem fininha (65/9), nÃ£o aperta o tecido dentro do bastidor (cola por cima da entretela) e toma muito cuidado com o ferro quente para nÃ£o derreter o pano.",
+    "applications": [
+      "PersonalizaÃ§Ã£o de forros internos de paletÃ³s, sobretudos e jaquetas de alfaiataria.",
+      "Faixas de formandos, becas universitÃ¡rias, estolas sacerdotais e bandeiras de cerimÃ´nia.",
+      "Vestidos de noiva e debutante em cetim de acetato e tafetÃ¡ fino."
+    ],
+    "characteristics": [
+      "Brilho refinado semelhante Ã  seda natural com caimento fluido.",
+      "Sensibilidade extrema ao calor, vapor excessivo e fricÃ§Ã£o mecÃ¢nica de agulhas."
+    ],
+    "commonErrors": [
+      "âŒ Passar ferro quente comum direto em cima do acetato, derretendo o tecido instantaneamente ou deixando manchas lustrosas e espelhadas",
+      "âŒ Prender o tecido com forÃ§a no bastidor com parafuso, deixando anÃ©is brancos amassados que nunca mais saem",
+      "âŒ Usar agulha grossa 80/12 ou universal de ponta aguda, cortando os fios e abrindo furos que desfilam com o uso"
+    ],
+    "troubleshootingTips": [
+      "Se o tecido estiver derretendo ou enrugando perto do bordado: Reduza a densidade da matriz para 0,45 mm e diminua a velocidade da mÃ¡quina para 600 PPM.",
+      "Se o bastidor estiver deixando marcas esbranquiÃ§adas: NÃ£o prenda o tecido no aro; use a tÃ©cnica do bastidor flutuante colando com spray temporÃ¡rio sobre a entretela.",
+      "Se a agulha estiver picotando e abrindo buracos no tecido: Substitua a agulha por uma Schmetz/Groz-Beckert 65/9 Ponta Bola Fina (SES)."
+    ],
+    "dicaArtrelados": "Para passar peÃ§as bordadas em acetato sem nenhum risco de queimar, coloque sempre um pano de algodÃ£o branco 100% (um tricoline limpo) entre o ferro e a peÃ§a, e regule a temperatura no mÃ­nimo! Esse segredinho simples salva vestidos carÃ­ssimos no seu ateliÃª!",
+    "voceSabia": "Durante a Primeira Guerra Mundial, o acetato de celulose foi usado em larga escala como verniz protetor e antichamas para revestir as asas de tecido dos aviÃµes de combate, antes de se tornar um dos tecidos mais nobres da moda internacional!",
+    "practicalExercise": "Pegue um retalho de forro de acetato e passe o ferro bem quente em uma ponta: veja como ele encolhe e derrete. Na outra ponta, passe com pano de algodÃ£o por cima e temperatura branda: sinta a diferenÃ§a de um acabamento profissional perfeito.",
+    "quickSummary": "Tecido brilhante e termossensÃ­vel que exige agulha fina 65/9, bordado flutuante e calor brando para nÃ£o furar nem derreter.",
+    "recommendedSettings": {
+      "needleType": "65/9 ou 70/10 Ponta Bola Fina (SES)",
+      "stabilizer": "Entretela rasgÃ¡vel leve 40g ou HidrossolÃºvel",
+      "speedPPM": "600 a 650 PPM"
+    },
+    "relatedTerms": [
+      "Bordado Flutuante (Floating)",
+      "Agulha de Ponta Bola (Ball Point)",
+      "Marcas de Bastidor (Hoop Burn)",
+      "Entretela HidrossolÃºvel (Water Soluble)",
+      "Adesivo TemporÃ¡rio em Spray"
+    ],
+    "tags": [
+      "a-084",
+      "acetato",
+      "tecidos termossensiveis",
+      "forro",
+      "alta costura",
+      "bastidor flutuante",
+      "tecidos delicados",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TEXTILE INSTITUTE. Man-Made Fibres: Acetate Chemistry and Thermal Behavior. Manchester, 2021.",
+      "SCHMETZ. Needles for Delicate, Microfiber and Synthetic Wovens. Aachen, 2022.",
+      "ARTRELADOS. Bordado em Tecidos Finos, Forros e Artigos LitÃºrgicos de Luxo. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "a-085-alargamento-de-ponto-pull-compensation",
+    "code": "A-085",
+    "term": "Alargamento de Ponto / CompensaÃ§Ã£o AutomÃ¡tica de Encolhimento (Auto Pull Compensation)",
+    "level": "IntermediÃ¡rio ğŸŸ¡",
+    "grammarClass": "LocuÃ§Ã£o nominal formada por substantivo masculino, preposiÃ§Ã£o e substantivo.",
+    "origin": "Do latim largus (amplo/largo) e compensare (pesar junto/equilibrar). Desenvolvido nos softwares de CAD/CAM para contrabalanÃ§ar as forÃ§as elÃ¡sticas de repuxo do fio.",
+    "category": "ProgramaÃ§Ã£o de Matrizes (Softwares)",
+    "summary": "ExpansÃ£o deliberada da largura das colunas de pontos na matriz para compensar o encolhimento fÃ­sico que a linha causa no tecido.",
+    "definition": "O alargamento de ponto ou compensaÃ§Ã£o automÃ¡tica de encolhimento (pull compensation) Ã© o parÃ¢metro geomÃ©trico programado no software de digitalizaÃ§Ã£o que estende as extremidades das colunas de ponto cheio (satin) e blocos de preenchimento alÃ©m dos limites teÃ³ricos do desenho vetorial original (geralmente entre 0,20 mm e 0,55 mm). Essa sobreposiÃ§Ã£o milimÃ©trica compensa a perda dimensional natural causada pela tensÃ£o de traÃ§Ã£o do fio de poliÃ©ster ao entrelaÃ§ar-se com a bobina, garantindo que o bordado final atinja exatamente as medidas nominais e encaixe os contornos sem frestas.",
+    "technicalDetails": "Quando um ponto de 4 mm Ã© bordado, a tensÃ£o mecÃ¢nica de 110 gf a 130 gf traciona as bordas do tecido para dentro, reduzindo a largura real bordada para aproximadamente 3,6 mm (perda de 10% a 15%). O alargamento de ponto pode ser configurado de forma absoluta (valor fixo em milÃ­metros, ex: +0,35 mm) ou percentual (ex: +110%), sendo mandatÃ³rio aplicar valores superiores em malhas piquet, moletons e tecidos com elastano.",
+    "howItWorks": [
+      "1. O programador desenha uma coluna de ponto cheio de 3,0 mm de largura no software.",
+      "2. No painel de propriedades do objeto, define a CompensaÃ§Ã£o de Encolhimento em +0,35 mm.",
+      "3. O software recalcula as coordenadas dos pontos, gerando uma largura digital de 3,35 mm.",
+      "4. Durante a execuÃ§Ã£o na mÃ¡quina, a tensÃ£o do fio puxa o tecido para dentro.",
+      "5. Ao final do processo, a coluna de pontos atinge fisicamente os 3,0 mm exatos planejados na arte, casando perfeitamente com os contornos adjacentes."
+    ],
+    "beginnerExplanation": "Ã‰ o 'aumento de seguranÃ§a' que a gente coloca na largura das letrinhas e desenhos no computador. Como a linha aperta e repuxa o tecido para dentro na hora de bordar, o desenho encolhe; colocando essa folguinha a mais, o bordado fica exatamente no tamanho certo e sem nenhum vÃ£o branco entre o desenho e o contorno!",
+    "applications": [
+      "Bordado de contornos finos em letras e logotipos corporativos.",
+      "CompensaÃ§Ã£o de elasticidade em camisetas de malha fria, viscolycra e piquet.",
+      "PrevenÃ§Ã£o de frestas em bordados com mÃºltiplas cores encostadas."
+    ],
+    "characteristics": [
+      "PreservaÃ§Ã£o do alinhamento geomÃ©trico milimÃ©trico de contornos.",
+      "Ajuste flexÃ­vel por tipo de tecido (tecidos planos: 0,25 mm / malhas elÃ¡sticas: 0,40 a 0,50 mm)."
+    ],
+    "commonErrors": [
+      "âŒ Deixar a compensaÃ§Ã£o zerada (0,0 mm), gerando contornos completamente fora do lugar e letras finas que parecem esquelÃ©ticas",
+      "âŒ Exagerar na compensaÃ§Ã£o acima de 0,7 mm em tecidos planos rÃ­gidos, engrossando letras pequenas a ponto de fechar o meio do 'e' e do 'o'",
+      "âŒ Tentar compensar o encolhimento puxando o tecido com forÃ§a excessiva na hora de prender no bastidor"
+    ],
+    "troubleshootingTips": [
+      "Se aparecer uma fresta branca entre o preenchimento e o contorno preto: Aumente o alargamento de ponto (Pull Compensation) para 0,40 mm no software.",
+      "Se as letras pequenas (5 mm) estiverem fechando os buraquinhos internos: Reduza a compensaÃ§Ã£o para 0,20 mm e utilize agulha fina 65/9 com linha 60.",
+      "Se o bordado estiver deformando em toalhas de banho: Aumente a compensaÃ§Ã£o para 0,35 mm e aplique entretela hidrossolÃºvel por cima."
+    ],
+    "dicaArtrelados": "Regra prÃ¡tica de ateliÃª Artrelados: para tecido plano de algodÃ£o (tricoline/linho), use compensaÃ§Ã£o de 0,30 mm; para toalhas de banho felpudas, use 0,35 mm; e para malhas e piquet elÃ¡stico, suba para 0,45 mm. Com essa tabelinha na cabeÃ§a, seus contornos nunca mais vÃ£o falhar!",
+    "voceSabia": "O efeito de encolhimento por traÃ§Ã£o de linha foi documentado pela primeira vez na indÃºstria suÃ­Ã§a de bordados de St. Gallen em 1890, onde os mestres perfuradores de cartÃµes jÃ¡ desenhavam os moldes maiores para compensar a forÃ§a das linhas de algodÃ£o!",
+    "practicalExercise": "Crie no seu programa duas letras 'A' de 20 mm: uma com compensaÃ§Ã£o 0,0 mm e outra com compensaÃ§Ã£o 0,40 mm. Borde as duas em um retalho de malha e meÃ§a a largura das pernas da letra com uma rÃ©gua milimÃ©trica para ver a diferenÃ§a nÃ­tida.",
+    "quickSummary": "Aumento planejado da largura dos pontos na matriz para neutralizar o repuxo da linha e garantir encaixe perfeito de contornos.",
+    "recommendedSettings": {
+      "density": "Tricoline: 0.30 mm / Toalhas: 0.35 mm / Malhas: 0.45 mm",
+      "needleType": "75/11 Ponta Bola ou Universal",
+      "speedPPM": "700 a 850 PPM"
+    },
+    "relatedTerms": [
+      "CompensaÃ§Ã£o de Encolhimento",
+      "DistorÃ§Ã£o de Push-Pull (Push and Pull Distortion)",
+      "Ponto Cheio (Satin Stitch)",
+      "Ponto Tatami (Fill Stitch)",
+      "Controle de TensÃ£o da Linha"
+    ],
+    "tags": [
+      "a-085",
+      "alargamento de ponto",
+      "pull compensation",
+      "compensacao de encolhimento",
+      "encaixe",
+      "contorno",
+      "software",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM EMBROIDERYSTUDIO. Pull Compensation Fundamentals and Fabric Elasticity. Sydney, 2023.",
+      "KAHN, Max. The Science of Push-Pull Compensation in Embroidery. New York, 2022.",
+      "ARTRELADOS. Guia de CompensaÃ§Ã£o de Repuxo e Encaixes de Alta PrecisÃ£o. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "a-086-ajuste-fino-de-lancadeira-rotativa",
+    "code": "A-086",
+    "term": "Ajuste Fino de LanÃ§adeira Rotativa (Micrometric Hook Timing & Gap Gauge)",
+    "level": "AvanÃ§ado ğŸ”´",
+    "grammarClass": "LocuÃ§Ã£o nominal formada por substantivos, adjetivos e preposiÃ§Ã£o.",
+    "origin": "Do latim adiuxtare (alinhar/ajustar), finus (perfeito/apurado) e do verbo rotare (girar em cÃ­rculo). Desenvolvido por Allen B. Wilson e Isaac Singer no sÃ©culo XIX para sincronizaÃ§Ã£o micromÃ©trica do laÃ§o.",
+    "category": "Equipamentos e MÃ¡quinas",
+    "summary": "Calibragem milimÃ©trica do tempo de encontro e folga (0,05 mm) entre o bico da lanÃ§adeira e a agulha para eliminar falhas de ponto e quebra de agulhas.",
+    "definition": "O ajuste fino de lanÃ§adeira rotativa (hook timing and needle clearance) Ã© o procedimento tÃ©cnico de manutenÃ§Ã£o e precisÃ£o mecÃ¢nica que sincroniza a rotaÃ§Ã£o contÃ­nua da lanÃ§adeira com o movimento oscilatÃ³rio vertical da barra de agulha. Compreende dois parÃ¢metros crÃ­ticos: o 'Ponto de Tempo' (quando a agulha sobe exatamente 1,8 mm a 2,2 mm a partir do ponto morto inferior e o bico da lanÃ§adeira cruza o centro da lÃ¢mina) e a 'Folga Axial' (distÃ¢ncia entre a ponta da lanÃ§adeira e o rebaixo do chanfro da agulha, calibrada estritamente entre 0,05 mm e 0,10 mm).",
+    "technicalDetails": "Se o sincronismo estiver adiantado ou atrasado em fraÃ§Ãµes de grau, a ponta da lanÃ§adeira passa antes ou depois da expansÃ£o mÃ¡xima da laÃ§ada de linha, gerando falhas consecutivas de ponto. Se a folga for menor que 0,05 mm, a agulha colide contra o bico metÃ¡lico, quebrando a ponta e gerando rebarbas abrasivas; se a folga for superior a 0,15 mm, a laÃ§ada escapa sem ser capturada, causando parada com aviso falso de 'linha arrebentada'.",
+    "howItWorks": [
+      "1. Desliga-se a mÃ¡quina e remove-se a chapa de agulha e a caixa de bobina para expor o conjunto rotativo.",
+      "2. Gira-se o volante manualmente atÃ© que a agulha desÃ§a ao nÃ­vel mais baixo e inicie a subida de sincronismo.",
+      "3. Utiliza-se um calibre de folga (gap gauge) de 0,05 mm para medir a distÃ¢ncia entre a agulha e o bico da lanÃ§adeira.",
+      "4. Afrouxam-se os parafusos de fixaÃ§Ã£o no eixo da lanÃ§adeira para ajustar o Ã¢ngulo e a aproximaÃ§Ã£o lateral.",
+      "5. Aperta-se o conjunto com torque calibrado e realiza-se teste manual de laÃ§ada com linha de poliÃ©ster 120.",
+      "6. Remontam-se a caixa de bobina e a chapa para retomar a produÃ§Ã£o sem falhas de ponto."
+    ],
+    "beginnerExplanation": "Ã‰ a regulagem mais importante do coraÃ§Ã£o da mÃ¡quina! Ã‰ o ajuste do momento exato em que a pontinha do gancho giratÃ³rio lÃ¡ de baixo passa pertinho da agulha para 'pescar' a linha. Se esse gancho passar adiantado, atrasado ou longe demais da agulha, a mÃ¡quina comeÃ§a a falhar pontos, mastigar o tecido e quebrar linha a cada 10 segundos.",
+    "applications": [
+      "ManutenÃ§Ã£o corretiva apÃ³s colisÃ£o violenta de bastidor ou quebra pesada de agulha.",
+      "EliminaÃ§Ã£o de pontos pulados em bordados sobre tecidos grossos (couro, lona e bonÃ©s estruturados).",
+      "RevisÃ£o tÃ©cnica periÃ³dica preventiva a cada 2 milhÃµes de pontos bordados."
+    ],
+    "characteristics": [
+      "TolerÃ¢ncia mecÃ¢nica de precisÃ£o micromÃ©trica (centÃ©simos de milÃ­metro).",
+      "Garantia de laÃ§ada estÃ¡vel mesmo em velocidades extremas de 1000 PPM."
+    ],
+    "commonErrors": [
+      "âŒ Tentar mexer nos parafusos da lanÃ§adeira com chaves de fenda inadequadas ou sem conhecimento tÃ©cnico, desregulando completamente o sincronismo da mÃ¡quina",
+      "âŒ Continuar bordando com uma lanÃ§adeira cheia de rebarbas apÃ³s uma colisÃ£o de agulha",
+      "âŒ Deixar fiapos e restos de linha presos atrÃ¡s da pista da lanÃ§adeira, travando o giro suave do mecanismo"
+    ],
+    "troubleshootingTips": [
+      "Se a mÃ¡quina comeÃ§ou a pular pontos direto apÃ³s uma agulha quebrar: O impacto pode ter girado a lanÃ§adeira no eixo; verifique o sincronismo de tempo da lanÃ§adeira.",
+      "Se a linha superior desfia e arrebenta no primeiro ponto: Passe a unha no bico da lanÃ§adeira para sentir se hÃ¡ rebarbas Ã¡speras (se houver, faÃ§a o polimento com lixa d'Ã¡gua 2000).",
+      "Se a mÃ¡quina fizer um barulho de estalo metÃ¡lico: Desligue imediatamente e verifique se a agulha nÃ£o estÃ¡ encostando na ponta da lanÃ§adeira."
+    ],
+    "dicaArtrelados": "Sempre que uma agulha quebrar com um estalo forte na sua mÃ¡quina, nunca coloque uma agulha nova e continue bordando na pressa! Desmonte a chapa, passe o dedo suavemente no bico da lanÃ§adeira e gire o volante na mÃ£o para ter certeza de que nada entortou. Esse cuidado simples evita estragar o cesto da bobina!",
+    "voceSabia": "A lanÃ§adeira rotativa de uma mÃ¡quina de bordar industrial a 1000 PPM gira duas voltas completas para cada ponto dado, o que significa que o mecanismo atinge 2.000 rotaÃ§Ãµes por minuto em um espaÃ§o menor que uma xÃ­cara de cafÃ©!",
+    "practicalExercise": "Retire a chapa da sua mÃ¡quina, pegue uma lanterna e gire o volante bem devagar com a mÃ£o: observe o bico da lanÃ§adeira se aproximando e passando exatamente no meio da covinha da agulha para pescar o fio.",
+    "quickSummary": "Regulagem de precisÃ£o micromÃ©trica da distÃ¢ncia e do tempo entre o bico da lanÃ§adeira e a agulha para garantir a laÃ§ada perfeita.",
+    "recommendedSettings": {
+      "density": "Folga axial: 0.05 mm a 0.10 mm / Subida da agulha: 2.0 mm",
+      "needleType": "75/11 ou 80/12 DBxK5 / 130/705H-E",
+      "speedPPM": "750 a 1000 PPM apÃ³s calibragem"
+    },
+    "relatedTerms": [
+      "LanÃ§adeira Rotativa",
+      "Ã‚ngulo de Chanfro da Agulha (Needle Scarf Angle & Clearance)",
+      "Ponto Pulado / Falha de Ponto",
+      "Barra de Agulha",
+      "Caixa de Bobina (Bobbin Case)"
+    ],
+    "tags": [
+      "a-086",
+      "lancadeira rotativa",
+      "hook timing",
+      "sincronismo",
+      "mecanica",
+      "manutencao",
+      "ponto pulado",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA TECHNICAL MANUAL. Rotary Hook Timing, Clearance & Needle Synchronization. Nagoya, 2022.",
+      "KOBAN HOOKS. Precision Rotary Hook Maintenance for High-Speed Embroidery. Tokyo, 2021.",
+      "ARTRELADOS. Manual de MecÃ¢nica e Regulagem de LanÃ§adeira para Bordadeiras. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "a-087-agulha-com-revestimento-de-titanio",
+    "code": "A-087",
+    "term": "Agulha com Revestimento de Nitreto de TitÃ¢nio / Dourada (Titanium Needle - PD/TN)",
+    "level": "Fundamental ğŸŸ¢",
+    "grammarClass": "LocuÃ§Ã£o nominal formada por substantivo feminino, preposiÃ§Ã£o e substantivos compostos.",
+    "origin": "Do latim acucula (agulha), do grego nitron e Titan (gigantes da mitologia grega, sÃ­mbolo de forÃ§a extrema). Tecnologia de revestimento PVD desenvolvida pela indÃºstria aeroespacial nos anos 1980.",
+    "category": "Agulhas & Fios",
+    "summary": "Agulha especial com banho dourado de nitreto de titÃ¢nio que dura atÃ© 5 vezes mais, reduz o atrito tÃ©rmico e nÃ£o adere colas de entretelas adesivas.",
+    "definition": "A agulha com revestimento de nitreto de titÃ¢nio (tambÃ©m identificada pelas siglas PD - Perfect Durability ou TN - Titanium Nitride) Ã© uma ferramenta de perfuraÃ§Ã£o fabricada em aÃ§o de alta liga e revestida por deposiÃ§Ã£o fÃ­sica de vapor (PVD) com uma camada cerÃ¢mica dourada de nitreto de titÃ¢nio de 2 a 3 micrÃ´metros de espessura. Esse tratamento eleva a dureza superficial da agulha de 800 HV (aÃ§o cromado padrÃ£o) para mais de 2.500 HV na escala Vickers, conferindo resistÃªncia extrema ao desgaste abrasivo, reduÃ§Ã£o drÃ¡stica do coeficiente de atrito e proteÃ§Ã£o contra o acÃºmulo de adesivos termocolantes.",
+    "technicalDetails": "Em produÃ§Ãµes contÃ­nuas de alta velocidade (800 a 1000 PPM), a fricÃ§Ã£o contra entretelas resinadas, tecidos pesados (como sarja e jeans) e fios sintÃ©ticos gera calor na ponta da agulha que pode ultrapassar 180Â°C. O nitreto de titÃ¢nio atua como dissipador tÃ©rmico e barreira antiaderente, evitando que o olho da agulha queime o fio de poliÃ©ster ou fique obstruÃ­do por resÃ­duos gomosos de sprays adesivos temporÃ¡rios.",
+    "howItWorks": [
+      "1. A agulha de titÃ¢nio Ã© instalada no cabeÃ§ote da mÃ¡quina de bordar.",
+      "2. Durante o bordado em alta rotaÃ§Ã£o, o revestimento cerÃ¢mico de nitreto de titÃ¢nio dissipa o calor por fricÃ§Ã£o.",
+      "3. A lÃ¢mina desliza suavemente por entre as tramas sem sofrer micro-desgastes no olho e na ponta.",
+      "4. Ao perfurar camadas com adesivo em spray ou entretela colante, a resina nÃ£o gruda na haste metÃ¡lica.",
+      "5. A agulha mantÃ©m sua ponta afiada e chanfro intactos por atÃ© 25 a 35 horas de trabalho contÃ­nuo sem quebras.",
+      "6. O bordado segue fluido e limpo do inÃ­cio ao fim."
+    ],
+    "beginnerExplanation": "Ã‰ aquela famosa 'agulha dourada' de bordar! Ela tem um banho especial de titÃ¢nio que a deixa super resistente, fazendo com que ela dure atÃ© 5 vezes mais que a agulha prateada comum. Ela Ã© excelente porque nÃ£o esquenta tanto, nÃ£o quebra fÃ¡cil e a cola do spray de entretela nÃ£o gruda nela.",
+    "applications": [
+      "Bordados em peÃ§as com apliques colados, entretelas termocolantes e adesivos em spray temporÃ¡rio.",
+      "Bordados contÃ­nuos de alta produÃ§Ã£o em uniformes pesados, jeans, lona, couro e bonÃ©s.",
+      "Costuras de alta densidade em 3D com EVA onde o atrito da agulha Ã© severo."
+    ],
+    "characteristics": [
+      "Cor dourada brilhante caracterÃ­stica do nitreto de titÃ¢nio.",
+      "Vida Ãºtil atÃ© 500% superior Ã s agulhas tradicionais de cromo.",
+      "Propriedade antiaderente e resistente Ã  corrosÃ£o."
+    ],
+    "commonErrors": [
+      "âŒ Achar que por ser de titÃ¢nio a agulha Ã© eterna e nunca mais trocÃ¡-la (mesmo o titÃ¢nio sofre fadiga mecÃ¢nica apÃ³s milhÃµes de impactos)",
+      "âŒ Continuar usando a agulha de titÃ¢nio apÃ³s uma batida forte no bastidor que entortou a haste",
+      "âŒ Usar ponta fina aguda de titÃ¢nio em malhas e tecidos de elastano, furando e cortando as fibras"
+    ],
+    "troubleshootingTips": [
+      "Se a linha estiver arrebentando por causa de cola de spray acumulada no olho da agulha: Troque a agulha comum por uma Schmetz/Groz-Beckert Titanium/Anti-Glue.",
+      "Se o bordado 3D com EVA estiver esquentando e derretendo a linha: Instale agulha de titÃ¢nio 80/12 ponta bola para reduzir o calor de atrito.",
+      "Se a ponta da agulha perder a cor dourada: Ã‰ sinal de que o revestimento chegou ao fim de sua vida Ãºtil e a agulha deve ser substituÃ­da."
+    ],
+    "dicaArtrelados": "Se vocÃª trabalha bastante com apliques ou usa cola spray temporÃ¡ria para fazer bordado flutuante, a agulha de titÃ¢nio dourada Ã© o melhor investimento do seu ateliÃª! Ela praticamente elimina aquelas paradas chatas para limpar cola da agulha com Ã¡lcool!",
+    "voceSabia": "O revestimento de nitreto de titÃ¢nio (TiN) Ã© o mesmo material dourado biocompatÃ­vel utilizado para revestir brocas cirÃºrgicas e prÃ³teses mÃ©dicas ortopÃ©dicas de titÃ¢nio devido Ã  sua extrema resistÃªncia e baixa fricÃ§Ã£o!",
+    "practicalExercise": "Coloque uma agulha de titÃ¢nio na mÃ¡quina e borde um aplique com cola spray por 30 minutos. Retire a agulha e observe como a haste fica limpa, enquanto uma agulha prateada comum estaria cheia de goma preta grudada.",
+    "quickSummary": "Agulha com banho cerÃ¢mico dourado ultra-resistente que dura 5x mais, dissipa calor e nÃ£o gruda cola de entretela.",
+    "recommendedSettings": {
+      "density": "Tricoline, Sarja, Malhas e Apliques",
+      "needleType": "75/11 ou 80/12 Ponta Bola Fina (PD / Titanium)",
+      "speedPPM": "750 a 950 PPM"
+    },
+    "relatedTerms": [
+      "Agulha de Bordado Computadorizado",
+      "Agulha Antiaderente (Anti-Glue Needle)",
+      "Adesivo TemporÃ¡rio em Spray",
+      "Bordado 3D com EVA (Puff Embroidery)",
+      "Ã‚ngulo de Chanfro da Agulha (Needle Scarf Angle & Clearance)"
+    ],
+    "tags": [
+      "a-087",
+      "agulha de titanio",
+      "revestimento dourado",
+      "titanium needle",
+      "nitreto de titanio",
+      "anti-glue",
+      "agulhas",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "GROZ-BECKERT. GEBEDUR Titanium Nitride Coated Needles: Technical Specifications. Albstadt, 2022.",
+      "SCHMETZ. Titanium Golden Needles for High Friction & Adhesive Embroidery. Aachen, 2021.",
+      "ARTRELADOS. Guia de Agulhas Especiais e Revestimentos de Alta Performance. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "a-088-auto-enfiador-de-linha",
+    "code": "A-088",
+    "term": "Auto-Enfiador de Linha e Mecanismos Auxiliares (Auto Needle Threader Mechanism)",
+    "level": "Fundamental ğŸŸ¢",
+    "grammarClass": "LocuÃ§Ã£o nominal formada por prefixo auto-, substantivo masculino, preposiÃ§Ã£o e substantivo.",
+    "origin": "Do grego autos (por si mesmo), do latim infiare (passar fio atravÃ©s de) e mechanisma (estrutura mecÃ¢nica). Criado nas mÃ¡quinas domÃ©sticas japonesas nos anos 1990 para conforto do operador.",
+    "category": "Equipamentos e MÃ¡quinas",
+    "summary": "Dispositivo mecÃ¢nico com micro-gancho de arame ultrafino que atravessa o olho da agulha e puxa a linha automaticamente sem esforÃ§o visual.",
+    "definition": "O auto-enfiador de linha (semi-automatic / automatic needle threader) Ã© o mecanismo auxiliar mecÃ¢nico ou eletropneumÃ¡tico integrado Ã  barra de agulha das mÃ¡quinas de bordar modernas, projetado para conduzir o filamento da linha superior atravÃ©s do orifÃ­cio do olho da agulha sem a necessidade de enfiamento manual com os olhos. Opera atravÃ©s de um micro-gancho de arame de aÃ§o temperado com espessura inferior a 0,15 mm que avanÃ§a pelo chanfro posterior, penetra no olho da agulha, laÃ§a o fio posicionado na guia e recua suavemente, formando a laÃ§ada frontal de passagem.",
+    "technicalDetails": "Para que o auto-enfiador funcione com precisÃ£o milimÃ©trica, a barra de agulha precisa estar rigorosamente estacionada no Ponto Morto Superior (Top Dead Center / posiÃ§Ã£o de troca de agulha) e a agulha deve ser de numeraÃ§Ã£o compatÃ­vel (geralmente entre Nm 70 e Nm 100). Em agulhas ultrafinas (Nm 60/8 ou 65/9), o orifÃ­cio do olho Ã© estreito demais para a passagem do arame do enfiador, havendo risco iminente de entortar o gancho se for forÃ§ado.",
+    "howItWorks": [
+      "1. A barra de agulha Ã© elevada Ã  posiÃ§Ã£o mais alta atravÃ©s do botÃ£o de subida no painel.",
+      "2. A linha superior Ã© passada por todo o circuito de tensores e colocada no cortador/guia lateral da agulha.",
+      "3. O operador abaixa a alavanca do enfiador (ou aperta o botÃ£o elÃ©trico de auto-threading).",
+      "4. O mecanismo gira e insere o micro-gancho de aÃ§o de trÃ¡s para a frente atravÃ©s do olho da agulha.",
+      "5. A linha Ã© capturada pelo gancho e puxada para trÃ¡s conforme a alavanca Ã© solta.",
+      "6. A ponta da linha Ã© puxada manualmente pela frente, completando a passagem em menos de 2 segundos."
+    ],
+    "beginnerExplanation": "Ã‰ aquele 'bracinho mecÃ¢nico' maravilhoso da mÃ¡quina que passa a linha no buraquinho da agulha para vocÃª! VocÃª sÃ³ puxa a alavanca, encaixa a linha no guia e solta: a mÃ¡quina passa a linha na hora sem vocÃª precisar forÃ§ar a vista ou molhar a ponta da linha.",
+    "applications": [
+      "Trocas rÃ¡pidas de cor em mÃ¡quinas domÃ©sticas de bordado de 1 agulha.",
+      "AuxÃ­lio essencial para bordadeiras que possuem fadiga visual ou trabalham em ateliÃªs com iluminaÃ§Ã£o indireta.",
+      "Agilidade na retomada de bordado apÃ³s quebras acidentais de linha."
+    ],
+    "characteristics": [
+      "OperaÃ§Ã£o rÃ¡pida em menos de 2 segundos.",
+      "Mecanismo delicado que exige alinhamento perfeito da agulha."
+    ],
+    "commonErrors": [
+      "âŒ Tentar usar o enfiador com a agulha abaixada ou fora do ponto mais alto, entortando ou quebrando o araminho interno do gancho",
+      "âŒ ForÃ§ar o enfiador automÃ¡tico em agulhas muito finas nÃºmero 60/8 ou 65/9",
+      "âŒ Usar o enfiador com fios grossos especiais (como linhas metÃ¡licas grossas ou fios de lÃ£/chenille)"
+    ],
+    "troubleshootingTips": [
+      "Se o enfiador nÃ£o estiver conseguindo passar a linha no olho da agulha: Verifique se a agulha foi inserida atÃ© o batente mais alto na barra de fixaÃ§Ã£o.",
+      "Se o gancho do enfiador estiver torto e batendo na lateral da agulha: Utilize uma pinÃ§a de precisÃ£o para desentortar o araminho com extremo cuidado.",
+      "Se a linha escapar do gancho: Corte a ponta da linha na diagonal com uma tesoura afiada antes de engatar no guia."
+    ],
+    "dicaArtrelados": "Cuide do seu enfiador automÃ¡tico como uma joia! Nunca puxe a alavanca com pressa ou forÃ§a bruta. Um toque suave e a agulha posicionada 100% no topo garantem que seu enfiador dure anos sem precisar de troca de pecinha!",
+    "voceSabia": "O primeiro enfiador automÃ¡tico de agulhas mecÃ¢nico portÃ¡til foi patenteado na Alemanha em 1912 por um relojoeiro que usou molas de relÃ³gio de bolso para criar o micro-gancho flexÃ­vel!",
+    "practicalExercise": "Acione o enfiador bem devagar na sua mÃ¡quina com uma lanterna apontada: observe o momento exato em que o pequeno ganchinho de arame passa pelo olho da agulha e pega o fio.",
+    "quickSummary": "Dispositivo mecÃ¢nico com micro-gancho que conduz a linha pelo olho da agulha de forma rÃ¡pida, sem esforÃ§o visual.",
+    "recommendedSettings": {
+      "density": "Agulhas compatÃ­veis: Nm 70/10 a Nm 90/14",
+      "needleType": "75/11 Ponta Bola ou Universal (Haste no topo)",
+      "speedPPM": "NÃ£o se aplica (mÃ¡quina parada)"
+    },
+    "relatedTerms": [
+      "Agulha de Bordado Computadorizado",
+      "Barra de Agulha",
+      "Troca de Linha e Parada de Cor",
+      "Passagem de Linha",
+      "Corte AutomÃ¡tico de Linha (Jump & Trim)"
+    ],
+    "tags": [
+      "a-088",
+      "auto-enfiador",
+      "needle threader",
+      "passagem de linha",
+      "agulha",
+      "hardware",
+      "conforto",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BROTHER INDUSTRIES. Needle Threading Mechanism Maintenance & Alignment Guide. Nagoya, 2021.",
+      "JANOME SEWING MACHINE CO. Operation Manual: Automatic Threading System. Tokyo, 2022.",
+      "ARTRELADOS. OperaÃ§Ã£o e ConservaÃ§Ã£o MecÃ¢nica de MÃ¡quinas de Bordar. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "a-089-arredondamento-de-cantos-em-ponto-cheio",
+    "code": "A-089",
+    "term": "Arredondamento de Cantos e Esquadros em Ponto Cheio (Cap, Mitered & Lap Cornering)",
+    "level": "Fundamental ğŸŸ¢",
+    "grammarClass": "LocuÃ§Ã£o nominal formada por substantivo masculino, preposiÃ§Ã£o e substantivos plurais.",
+    "origin": "Do latim rotundeare (tornar redondo) e cantus (canto/aresta). Desenvolvido nos softwares de bordado para resolver a transiÃ§Ã£o geomÃ©trica de colunas em Ã¢ngulos retos e agudos.",
+    "category": "ProgramaÃ§Ã£o de Matrizes (Softwares)",
+    "summary": "TÃ©cnicas de uniÃ£o de colunas de ponto cheio em quinas e esquinas (Mitra, SobreposiÃ§Ã£o e Tampa) para evitar acÃºmulo de linha e cantos deformados.",
+    "definition": "O arredondamento e tratamento de cantos em ponto cheio (corner stitching methods) Ã© o conjunto de tÃ©cnicas algorÃ­tmicas de digitalizaÃ§Ã£o aplicadas na junÃ§Ã£o angular de duas colunas de ponto cheio (satin) quando elas se encontram em curvas fechadas, Ã¢ngulos retos (90Â°) ou agudos (<60Â°). Compreende trÃªs mÃ©todos principais de esquadro: o 'Canto em Meia-Esquadria / Mitra' (Mitered Corner - corte diagonal a 45Â° similar a molduras de quadros), a 'SobreposiÃ§Ã£o / Lap Corner' (onde uma coluna passa reta e a outra encosta por cima) e a 'Tampa / Cap Corner' (arredondamento contÃ­nuo em leque), que distribuem o volume de linha evitando deformaÃ§Ãµes e pontos encavalados.",
+    "technicalDetails": "Se duas colunas de ponto cheio forem conectadas em um Ã¢ngulo de 90Â° sem tratamento especial de cantos, o software forÃ§a os pontos a girarem como um leque sobre um Ãºnico ponto Ã¢ncora interno. Essa convergÃªncia gera mais de 10 perfuraÃ§Ãµes no mesmo milÃ­metro quadrado, quebrando a agulha e criando uma ponta externa arredondada e murcha em vez de uma quina viva e reta.",
+    "howItWorks": [
+      "1. O programador desenha uma moldura quadrada ou letra com quinas vivas (ex: letra 'L' ou 'T').",
+      "2. No software de matrizes, seleciona o tipo de tratamento de canto desejado (Mitra, Lap ou Cap).",
+      "3. O software divide a esquina em duas seÃ§Ãµes anguladas com linha de corte limpa a 45Â°.",
+      "4. A mÃ¡quina borda o primeiro braÃ§o da coluna atÃ© a linha diagonal de esquadro.",
+      "5. A mÃ¡quina inicia o segundo braÃ§o a partir da mesma linha, formando uma quina perfeita de 90Â° sem caroÃ§o de linha.",
+      "6. A moldura final apresenta pontas afiadas, planas e com estÃ©tica de alfaiataria."
+    ],
+    "beginnerExplanation": "Ã‰ o jeito certo de fazer as quinas e esquinas dos desenhos (como a ponta de um quadrado ou a quina da letra 'L'). Se vocÃª nÃ£o avisar o programa, a mÃ¡quina amontoa um monte de linha no cantinho de dentro e a quina fica redonda e feia. Usando o corte em 'esquadro' (como uma moldura de quadro), a quina fica retinha, afiada e linda!",
+    "applications": [
+      "Bordado de molduras geomÃ©tricas, brasÃµes retangulares e faixas de toalhas.",
+      "Letras maiÃºsculas de fontes serifadas e blocadas (E, F, H, L, T, Z).",
+      "Bordados herÃ¡ldicos e divisas militares onde as pontas precisam ser afiadas."
+    ],
+    "characteristics": [
+      "EliminaÃ§Ã£o de nÃ³dulos e acÃºmulo excessivo de pontos nas quinas internas.",
+      "PreservaÃ§Ã£o da geometria afiada e nÃ­tida de bordas retangulares."
+    ],
+    "commonErrors": [
+      "âŒ Deixar o software girar o ponto cheio em leque contÃ­nuo em esquinas de 90Â°, criando um caroÃ§o duro e rasgando o tecido no vÃ©rtice",
+      "âŒ NÃ£o aplicar sobreposiÃ§Ã£o de seguranÃ§a na linha de meia-esquadria (mitra), abrindo uma fresta branca no canto com a traÃ§Ã£o da linha",
+      "âŒ Usar cantos em meia-esquadria em colunas muito finas (menores que 1,5 mm), onde a sobreposiÃ§Ã£o simples ficaria mais limpa"
+    ],
+    "troubleshootingTips": [
+      "Se a quina do quadrado estiver abrindo um vÃ£o no meio da diagonal: Aumente a sobreposiÃ§Ã£o de encaixe da meia-esquadria para 0,35 mm no software.",
+      "Se a agulha quebrar sempre ao virar a esquina da moldura: Mude o tipo de canto no software de 'Giro ContÃ­nuo' para 'Canto em Meia-Esquadria (Mitered)'.",
+      "Se o canto estiver muito grosso e duro: Ative a opÃ§Ã£o de 'Pontos Curtos na Mitra' para suprimir a densidade no vÃ©rtice interno."
+    ],
+    "dicaArtrelados": "Para bordar monogramas clÃ¡ssicos com letras romanas elegantes (como Times New Roman), use sempre o Canto em Meia-Esquadria (Mitra) nas quinas do 'L' e do 'E'. As pontas ficam tÃ£o retinhas e afiadas que parecem esculpidas na madeira!",
+    "voceSabia": "A tÃ©cnica de canto em meia-esquadria (mitra) foi copiada diretamente da marcenaria clÃ¡ssica renascentista, onde os artesÃ£os cortavam as molduras de quadros a 45 graus para que as fibras da madeira se encontrassem em harmonia perfeita!",
+    "practicalExercise": "Desenhe uma moldura quadrada de 5x5 cm no seu programa. Teste gerar a matriz com canto em leque e com canto em meia-esquadria (mitra): compare no simulador 3D como a mitra deixa a quina afiada e muito mais profissional.",
+    "quickSummary": "TÃ©cnicas de uniÃ£o de colunas em quinas (como o corte em 45Â° estilo moldura) para evitar acÃºmulo de pontos e criar esquinas afiadas.",
+    "recommendedSettings": {
+      "density": "0.38 mm a 0.42 mm com sobreposiÃ§Ã£o de 0.30 mm na mitra",
+      "needleType": "75/11 Ponta Bola ou Universal",
+      "speedPPM": "700 a 850 PPM"
+    },
+    "relatedTerms": [
+      "Ponto Cheio (Satin Stitch)",
+      "Curvatura e Ã‚ngulo de Ponto",
+      "Pontos Curtos (Short Stitches)",
+      "Auto-Densidade Adaptativa (Adaptive Auto-Density & Curve Thinning)",
+      "ProgramaÃ§Ã£o de Matrizes (Softwares)"
+    ],
+    "tags": [
+      "a-089",
+      "cantos",
+      "meia-esquadria",
+      "mitra",
+      "mitered corners",
+      "ponto cheio",
+      "satin",
+      "programacao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM EMBROIDERYSTUDIO. Cornering Styles & Stitch Manipulation: Mitered, Cap and Lap. Sydney, 2023.",
+      "KAHN, Max. Architectural Geometry in Embroidery Digitizing. New York, 2022.",
+      "ARTRELADOS. A Arte dos Monogramas e Molduras Perfeitas no Bordado Computadorizado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "a-090-alimentacao-positiva-de-fio",
+    "code": "A-090",
+    "term": "AlimentaÃ§Ã£o Positiva de Fio / Motores de TraÃ§Ã£o Ativa (Active Positive Thread Feed)",
+    "level": "IntermediÃ¡rio ğŸŸ¡",
+    "grammarClass": "LocuÃ§Ã£o nominal formada por substantivos, adjetivos e preposiÃ§Ã£o.",
+    "origin": "Do latim alimentatio (fornecimento contÃ­nuo), positivus (afirmado/forÃ§ado) e filum (linha). Desenvolvido na robÃ³tica tÃªxtil pela Melco e Tajima nos anos 2000 para substituir tensores passivos por controle digital de milÃ­metros de linha.",
+    "category": "Equipamentos e MÃ¡quinas",
+    "summary": "Sistema tecnolÃ³gico que calcula e entrega ativamente a quantidade exata de linha por ponto atravÃ©s de micro-motores de passo, eliminando discos de tensÃ£o manuais.",
+    "definition": "A alimentaÃ§Ã£o positiva de fio (positive thread feed / acti-feed) Ã© uma tecnologia avanÃ§ada de entrega de linha que substitui os tradicionais discos de tensÃ£o mecÃ¢nicos por roletes motorizados controlados eletronicamente por microprocessadores e sensores Ã³pticos. O sistema calcula a distÃ¢ncia matemÃ¡tica exata de cada ponto a ser executado na matriz (somando o comprimento do ponto, a espessura do tecido e a altura da coluna) e aciona o motor de passo para desenrolar e alimentar precisamente essa fraÃ§Ã£o de milÃ­metro de fio antes da descida da agulha, operando com tensÃ£o prÃ³xima de zero na face superior.",
+    "technicalDetails": "Nas mÃ¡quinas convencionais de tensÃ£o passiva por fricÃ§Ã£o, o fio Ã© puxado pelo movimento de alavanca estica-fio, o que submete filamentos elÃ¡sticos ou metÃ¡licos a variaÃ§Ãµes de tensÃ£o entre 80 gf e 180 gf, causando quebras por atrito e repuxo severo. Na alimentaÃ§Ã£o positiva, a forÃ§a de tracionamento Ã© neutralizada, permitindo bordar tecidos ultraleves (seda, organza) e malhas de lycra com encolhimento praticamente nulo e velocidade sustentada de atÃ© 1.200 PPM.",
+    "howItWorks": [
+      "1. A CPU da mÃ¡quina lÃª as coordenadas do prÃ³ximo ponto no arquivo da matriz.",
+      "2. O sensor mede a espessura do tecido no bastidor durante a perfuraÃ§Ã£o.",
+      "3. O software calcula o consumo exato de fio necessÃ¡rio para aquele ponto especÃ­fico (ex: 4,2 mm).",
+      "4. O motor de passo gira o rolete de traÃ§Ã£o, entregando exatamente 4,2 mm de linha com folga milimÃ©trica.",
+      "5. A agulha desce e a laÃ§ada Ã© formada na lanÃ§adeira sem nenhum esforÃ§o de traÃ§Ã£o ou estiramento mecÃ¢nico.",
+      "6. O bordado fica plano, macio ao toque e sem enrugar o tecido ao redor."
+    ],
+    "beginnerExplanation": "Em vez de a mÃ¡quina 'puxar' a linha Ã  forÃ§a por entre discos apertados, ela tem um motorzinho inteligente que desenrola e 'entrega na mÃ£o' da agulha o tamanho exato de linha que cada ponto precisa! Isso faz com que a linha nunca arrebente por aperto e o tecido nunca fique franzido ou repuxado.",
+    "applications": [
+      "Bordados em tecidos extremamente delicados e elÃ¡sticos (viscolycra, poliamida, tule e seda pura).",
+      "Uso de fios difÃ­ceis de bordar (fios metÃ¡licos, fios que mudam de cor, fios 100% algodÃ£o fosco).",
+      "ProduÃ§Ã£o industrial de alta velocidade (acima de 1.000 PPM) com taxa mÃ­nima de paradas."
+    ],
+    "characteristics": [
+      "EliminaÃ§Ã£o da necessidade de regular parafusos ou botÃµes de tensÃ£o manual.",
+      "Toque extremamente macio do bordado no avesso da peÃ§a."
+    ],
+    "commonErrors": [
+      "âŒ Inserir a espessura errada do tecido no painel digital, fazendo a mÃ¡quina entregar linha a mais (gerando laÃ§adas soltas) ou a menos (repuxando o tecido)",
+      "âŒ Deixar poeira ou resÃ­duos de cera nos roletes de alimentaÃ§Ã£o motorizados, causando deslizamento do fio",
+      "âŒ Passar a linha fora do canal Ã³ptico do sensor de alimentaÃ§Ã£o positiva"
+    ],
+    "troubleshootingTips": [
+      "Se o bordado estiver com 'ninhos' de linha solta na frente: Diminua o valor de alimentaÃ§Ã£o no painel digital da mÃ¡quina em 2 a 3 pontos.",
+      "Se o tecido estiver franzindo ao redor das letras: Aumente o valor de entrega de fio (Feed Number) no software de controle da mÃ¡quina.",
+      "Se o sensor acusar falta de linha com o cone cheio: Limpe o leitor Ã³ptico com um pincel macio ou jato de ar comprimido seco."
+    ],
+    "dicaArtrelados": "Se a sua mÃ¡quina possui controle digital de entrega de linha (como o Acti-Feed), meÃ§a a espessura do tecido junto com a entretela usando um paquÃ­metro ou o prÃ³prio medidor da mÃ¡quina antes de iniciar. Essa calibragem de 5 segundos garante pontos perfeitos como veludo!",
+    "voceSabia": "A tecnologia de alimentaÃ§Ã£o positiva foi originalmente criada na SuÃ­Ã§a para teares de malharia de precisÃ£o para evitar que fios de elastano e Lycra fossem esticados durante a tecelagem de meias finas!",
+    "practicalExercise": "Se vocÃª usa uma mÃ¡quina com alimentaÃ§Ã£o positiva, aumente o valor de entrega de fio no painel enquanto borda uma letra e sinta com os dedos o relevo ficar alto e fofo como um cordÃ£o acetinado.",
+    "quickSummary": "Sistema computadorizado que entrega ativamente a quantidade milimÃ©trica exata de linha por ponto, dispensando ajustes manuais de tensÃ£o.",
+    "recommendedSettings": {
+      "density": "Ajuste automÃ¡tico por espessura do material",
+      "needleType": "75/11 Ponta Bola ou Universal",
+      "speedPPM": "800 a 1100 PPM"
+    },
+    "relatedTerms": [
+      "Controle de TensÃ£o da Linha",
+      "Alavanca Estica-Fio",
+      "DistorÃ§Ã£o de Push-Pull (Push and Pull Distortion)",
+      "Velocidade de OperaÃ§Ã£o em PPM",
+      "Sensor de Quebra de Linha"
+    ],
+    "tags": [
+      "a-090",
+      "alimentacao positiva",
+      "acti-feed",
+      "positive feed",
+      "tensao digital",
+      "hardware",
+      "inovacao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "MELCO INTERNATIONAL. Acti-Feed Technology & Digital Thread Delivery Systems. Denver, 2022.",
+      "TAJIMA TECHNICAL JOURNAL. Positive Thread Drive and Tensionless Embroidery Physics. Tokyo, 2023.",
+      "ARTRELADOS. InovaÃ§Ãµes TecnolÃ³gicas e MecatrÃ´nica no Bordado Moderno. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "a-091-almofada-de-agulhas-e-amortecimento",
+    "code": "A-091",
+    "term": "Almofada de Agulhas e Amortecedor de CabeÃ§ote (Needle Bar Cushion & Stopper)",
+    "level": "Fundamental ğŸŸ¢",
+    "grammarClass": "LocuÃ§Ã£o nominal formada por substantivos femininos, masculinos e preposiÃ§Ãµes.",
+    "origin": "Do latim pulvinus / al-mokhaddÃ¢ (Ã¡rabe: travesseiro/almofada) e do francÃªs amortir (abrandar/suavizar). Criado na indÃºstria tÃªxtil mecÃ¢nica para absorver o impacto das barras em alta rotaÃ§Ã£o.",
+    "category": "Equipamentos e MÃ¡quinas",
+    "summary": "AnÃ©is de borracha de uretano ou feltro especial posicionados nas barras de agulha para absorver o impacto da descida, silenciar a mÃ¡quina e evitar desgaste metÃ¡lico.",
+    "definition": "A almofada de agulhas e amortecedor de cabeÃ§ote (needle bar cushion, buffer and rubber stoppers) Ã© o conjunto de anÃ©is elastomÃ©ricos de poliuretano vulcanizado, feltro tÃ©cnico lubrificado ou silicone de alta densidade instalados no batente superior e inferior de cada barra de agulha individual no cabeÃ§ote de bordar. Sua funÃ§Ã£o mecÃ¢nica primÃ¡ria Ã© dissipar a energia cinÃ©tica e a onda de choque gerada a cada ciclo de impacto da barra de agulha (que sobe e desce atÃ© 20 vezes por segundo), silenciando a mÃ¡quina e protegendo os mancais contra fadiga por micro-impactos.",
+    "technicalDetails": "Sem amortecedores elÃ¡sticos calibrados, o choque direto metal-contra-metal da barra de agulha a 1000 PPM gera micro-fissuras no suporte do calcador, vibraÃ§Ã£o parasita no cabeÃ§ote e afrouxamento gradual dos parafusos do bloco de agulhas. Com o tempo (aproximadamente 12 a 18 meses de uso contÃ­nuo), esses anÃ©is sofrem ressecamento ou esmagamento permanente, devendo ser inspecionados para manter o nÃ­vel de ruÃ­do baixo e o ponto perfeitamente alinhado.",
+    "howItWorks": [
+      "1. O excÃªntrico principal do motor impulsiona a barra de agulha para baixo em alta velocidade.",
+      "2. Ao atingir o final do curso, a almofada de uretano comprime-se milimetricamente, absorvendo o choque final.",
+      "3. A mola de retorno eleva a barra suavemente atÃ© o batente superior com amortecimento.",
+      "4. A energia de vibraÃ§Ã£o Ã© convertida em dissipaÃ§Ã£o elÃ¡stica em vez de reverberar pela carcaÃ§a de alumÃ­nio.",
+      "5. A mÃ¡quina opera de forma macia, silenciosa e com vida Ãºtil prolongada de suas engrenagens."
+    ],
+    "beginnerExplanation": "SÃ£o pequenas 'borrachinhas amortecedoras' que ficam nas hastes onde as agulhas sÃ£o presas. Elas funcionam exatamente como o amortecedor de um carro: impedem que as peÃ§as de metal fiquem batendo com forÃ§a umas nas outras a cada ponto, deixando a mÃ¡quina bem mais silenciosa e sem tremer a mesa do ateliÃª.",
+    "applications": [
+      "ManutenÃ§Ã£o preventiva periÃ³dica em mÃ¡quinas industriais e semi-industriais multi-agulhas.",
+      "ReduÃ§Ã£o de ruÃ­do e conforto acÃºstico em ateliÃªs residenciais e pequenos estÃºdios de bordado.",
+      "PrevenÃ§Ã£o de afrouxamento involuntÃ¡rio de parafusos de agulha por trepidaÃ§Ã£o constante."
+    ],
+    "characteristics": [
+      "Material elastomÃ©rico de alta resiliÃªncia e resistÃªncia a Ã³leos lubrificantes.",
+      "ReduÃ§Ã£o de atÃ© 6 decibÃ©is no nÃ­vel de ruÃ­do sonoro do cabeÃ§ote em rotaÃ§Ã£o."
+    ],
+    "commonErrors": [
+      "âŒ Deixar as borrachinhas ressecarem e esfarelarem sem troca, permitindo batidas secas de metal contra metal",
+      "âŒ Usar solventes quÃ­micos agressivos (querosene ou tiner) para limpar o cabeÃ§ote, dissolvendo os amortecedores de borracha",
+      "âŒ Substituir por borrachas comuns de papelaria ou materiais inadequados que travam a barra"
+    ],
+    "troubleshootingTips": [
+      "Se a mÃ¡quina comeÃ§ou a fazer um barulho metÃ¡lico 'seco' e alto ao bordar: Inspecione as borrachas amortecedoras das barras de agulha para checar se nÃ£o estÃ£o ressecadas ou partidas.",
+      "Se houver farelos pretos caindo sobre o tecido bordado: SÃ£o resÃ­duos de amortecedores desgastados que precisam de substituiÃ§Ã£o imediata.",
+      "Se a barra de agulha parecer pesada para descer: Limpe os batentes e aplique uma Ãºnica gota de Ã³leo mineral branco especial para mÃ¡quinas."
+    ],
+    "dicaArtrelados": "Uma mÃ¡quina bem cuidada e silenciosa Ã© o maior prazer de quem borda! Durante a limpeza mensal do cabeÃ§ote, verifique com uma lanterna se os anÃ©is de amortecimento continuam macios e inteiros. MÃ¡quina silenciosa Ã© sinal de bordado com precisÃ£o suÃ­Ã§a!",
+    "voceSabia": "As mÃ¡quinas de bordar modernas utilizam o mesmo tipo de poliuretano termoplÃ¡stico (TPU) de alta performance utilizado nas solas dos tÃªnis de corrida de maratona para absorver o impacto das barras de agulha!",
+    "practicalExercise": "Abra a tampa frontal de proteÃ§Ã£o da sua mÃ¡quina (com ela desligada) e pressione suavemente uma barra de agulha para cima e para baixo com o dedo: sinta a maciez do batente de borracha ao final do curso.",
+    "quickSummary": "AnÃ©is amortecedores de uretano que absorvem o impacto das barras de agulha, reduzindo ruÃ­dos e protegendo a mecÃ¢nica.",
+    "recommendedSettings": {
+      "density": "SubstituiÃ§Ã£o preventiva a cada 24 meses de uso",
+      "needleType": "CompatÃ­vel com todos os sistemas de agulhas",
+      "speedPPM": "750 a 1000 PPM"
+    },
+    "relatedTerms": [
+      "Barra de Agulha",
+      "Amortecimento DinÃ¢mico de CabeÃ§ote (Head Vibration Dampening & Stabilization)",
+      "ManutenÃ§Ã£o Preventiva de MÃ¡quinas de Bordar",
+      "LubrificaÃ§Ã£o PeriÃ³dica",
+      "Velocidade de OperaÃ§Ã£o em PPM"
+    ],
+    "tags": [
+      "a-091",
+      "almofada de agulhas",
+      "amortecedor",
+      "needle bar cushion",
+      "silenciamento",
+      "manutencao",
+      "hardware",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BARUDAN CO. Mechanical Maintenance Manual: Head Cushions and Vibration Dampening. Ichinomiya, 2021.",
+      "SWF EMBROIDERY MACHINERY. Technical Service Guide: Needle Bar Assembly & Buffers. Seoul, 2022.",
+      "ARTRELADOS. Guia Definitivo de ConservaÃ§Ã£o MecÃ¢nica e AcÃºstica no AteliÃª. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "a-092-algoritmo-de-compensacao-de-deformacao-nao-linear",
+    "code": "A-092",
+    "term": "Algoritmo de CompensaÃ§Ã£o de DeformaÃ§Ã£o NÃ£o-Linear (Non-Linear Fabric Warp Algorithm)",
+    "level": "AvanÃ§ado ğŸ”´",
+    "grammarClass": "LocuÃ§Ã£o nominal formada por substantivo masculino, preposiÃ§Ã£o e adjetivos compostos.",
+    "origin": "Do Ã¡rabe al-Khwarizmi (matemÃ¡tico persa, criador dos algoritmos), do latim compensare (equilibrar) e deformare (alterar a forma). Tecnologia de fÃ­sica computacional tÃªxtil desenvolvida nos anos 2010.",
+    "category": "ProgramaÃ§Ã£o de Matrizes (Softwares)",
+    "summary": "CÃ¡lculo matemÃ¡tico avanÃ§ado que prevÃª e ajusta a deformaÃ§Ã£o curva e elÃ¡stica do tecido durante o bordado, evitando que cÃ­rculos virem ovais em malhas.",
+    "definition": "O algoritmo de compensaÃ§Ã£o de deformaÃ§Ã£o nÃ£o-linear (non-linear mesh warp compensation) Ã© o modelo matemÃ¡tico de simulaÃ§Ã£o de elementos finitos integrado aos motores de geraÃ§Ã£o de pontos de softwares CAD profissionais, projetado para calcular a deformaÃ§Ã£o elÃ¡stica tridimensional e assimÃ©trica do tecido conforme os pontos sÃ£o sequencialmente executados. Diferente da compensaÃ§Ã£o linear simples (que aplica um valor fixo em milÃ­metros), esse algoritmo mapeia os vetores de forÃ§a em tempo real e deforma a geometria da matriz em sentido oposto (contra-curvatura), garantindo que formas perfeitamente redondas ou quadradas permaneÃ§am impecÃ¡veis apÃ³s a remoÃ§Ã£o do bastidor.",
+    "technicalDetails": "Tecidos elÃ¡sticos de malharia por trama (como suplex, poliamida com elastano e malha canelada) possuem mÃ³dulo de elasticidade diferente no sentido do urdume (comprimento) e da trama (largura). Quando um cÃ­rculo de 100 mm com preenchimento tatami a 45Â° Ã© bordado, a traÃ§Ã£o combinada dos pontos distorce o tecido em um padrÃ£o elÃ­ptico parabÃ³lico. O algoritmo nÃ£o-linear gera uma geometria inicial propositalmente ovalada e com densidade assimÃ©trica para que, ao relaxar a tensÃ£o no final do bordado, o cÃ­rculo assuma geometria 100% perfeita.",
+    "howItWorks": [
+      "1. O programador desenha o logotipo (ex: um escudo circular perfeito de 80 mm).",
+      "2. Seleciona o perfil tÃªxtil avanÃ§ado no software (ex: 'Malha Piquet com 5% Elastano').",
+      "3. O algoritmo calcula a matriz de deformaÃ§Ã£o nÃ£o-linear baseada no sentido dos pontos e na densidade.",
+      "4. A matriz Ã© gerada com micro-compensaÃ§Ãµes curvas progressivas (mais larga no centro e mais estreita nos polos).",
+      "5. A mÃ¡quina executa o bordado aplicando as tensÃµes calculadas.",
+      "6. Ao soltar a peÃ§a do bastidor, as forÃ§as elÃ¡sticas do tecido se equilibram e o cÃ­rculo atinge simetria perfeita."
+    ],
+    "beginnerExplanation": "Ã‰ uma 'super inteligÃªncia matemÃ¡tica' do programa de computador que sabe que tecidos com elastano esticam e entortam quando a gente borda. Em vez de fazer um cÃ­rculo certinho na tela que vai virar um ovo torto na camiseta, o programa desenha o cÃ­rculo ligeiramente achatado de propÃ³sito para que, na hora que vocÃª tirar do bastidor, o tecido volte para o lugar e fique uma bola perfeitamente redonda!",
+    "applications": [
+      "Bordados geomÃ©tricos rigorosos (cÃ­rculos, brasÃµes perfeitamente simÃ©tricos e caixas quadradas) em malhas elÃ¡sticas.",
+      "Uniformes esportivos de alta performance em tecidos de compressÃ£o e Dry-Fit.",
+      "Bordados de grande formato (costas de jaquetas e moletons pesados) onde a deformaÃ§Ã£o cumulativa Ã© crÃ­tica."
+    ],
+    "characteristics": [
+      "SimulaÃ§Ã£o vetorial baseada na fÃ­sica e elasticidade dos tecidos.",
+      "EliminaÃ§Ã£o do efeito de 'cÃ­rculo ovalado' e contornos descasados em malhas."
+    ],
+    "commonErrors": [
+      "âŒ Desenhar cÃ­rculos geomÃ©tricos perfeitos para camisetas de malha usando compensaÃ§Ã£o padrÃ£o plana, entregando bordados visivelmente ovais ao cliente",
+      "âŒ Aplicar compensaÃ§Ã£o nÃ£o-linear excessiva em tecidos planos e rÃ­gidos (como sarja grossa), fazendo o desenho ficar torto",
+      "âŒ Bordar sem entretela estÃ¡vel de gramatura adequada acreditando que o software faz milagre sozinho sem estabilizaÃ§Ã£o fÃ­sica"
+    ],
+    "troubleshootingTips": [
+      "Se o cÃ­rculo perfeito na tela ficar ovalado na camiseta de malha: Ative a compensaÃ§Ã£o de malha elÃ¡stica no software e aumente a compensaÃ§Ã£o no sentido da elasticidade do tecido.",
+      "Se o contorno circular comeÃ§ar no lugar certo e terminar 2 mm fora: Ajuste a ordem de preenchimento para que o bordado comece do centro para as bordas (Center-Out).",
+      "Se o tecido repuxar em ondas nas pontas: Reduza a densidade central do tatami de 0,38 mm para 0,44 mm e reforce a entretela com duas camadas de rasgÃ¡vel 40g em sentidos cruzados."
+    ],
+    "dicaArtrelados": "Sempre que for bordar um escudo redondo em camiseta polo ou tecido com elastano, use a tÃ©cnica do bordado do 'Centro para Fora' (Center-Out Sequence) e combine com a compensaÃ§Ã£o elÃ¡stica do software. O cÃ­rculo fica tÃ£o perfeito que dÃ¡ gosto de medir no compasso!",
+    "voceSabia": "Os mesmos modelos matemÃ¡ticos de elementos finitos usados nesses algoritmos de bordado sÃ£o utilizados pela engenharia aeroespacial para calcular como a fuselagem dos aviÃµes se deforma sob a pressÃ£o do ar em alta altitude!",
+    "practicalExercise": "Borde um cÃ­rculo de 5 cm em um retalho de malha de camiseta: primeiro borde com preenchimento de cima para baixo; depois borde outro com sequÃªncia do centro para fora. Compare os dois e meÃ§a o diÃ¢metro com uma fita mÃ©trica para ver o poder do equilÃ­brio de forÃ§as.",
+    "quickSummary": "CÃ¡lculo computacional que prÃ©-deforma a matriz na medida certa para que o bordado em tecidos elÃ¡sticos termine perfeitamente simÃ©trico.",
+    "recommendedSettings": {
+      "density": "0.40 mm a 0.44 mm com sequÃªncia Center-Out",
+      "needleType": "75/11 Ponta Bola Fina (SES)",
+      "speedPPM": "700 a 800 PPM"
+    },
+    "relatedTerms": [
+      "DistorÃ§Ã£o de Push-Pull (Push and Pull Distortion)",
+      "CompensaÃ§Ã£o de Encolhimento",
+      "Ponto Tatami (Fill Stitch)",
+      "Alargamento de Ponto / CompensaÃ§Ã£o AutomÃ¡tica de Encolhimento (Auto Pull Compensation)",
+      "Entretela para Malhas"
+    ],
+    "tags": [
+      "a-092",
+      "deformacao nao-linear",
+      "push-pull",
+      "elasticidade",
+      "fisica textil",
+      "malhas",
+      "software",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM EMBROIDERYSTUDIO. Non-Linear Fabric Stretch Modeling & Distortion Correction. Sydney, 2023.",
+      "JOURNAL OF TEXTILE APPAREL, TECHNOLOGY AND MANAGEMENT. Finite Element Modeling of Embroidery Tension. Raleigh, 2022.",
+      "ARTRELADOS. FÃ­sica e Engenharia de Matrizes para Tecidos de Alta Elasticidade. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "a-093-anel-limitador-de-profundidade-do-bastidor",
+    "code": "A-093",
+    "term": "Anel Limitador de Profundidade do Bastidor (Hoop Depth Limiter Ring & Shim)",
+    "level": "IntermediÃ¡rio ğŸŸ¡",
+    "grammarClass": "LocuÃ§Ã£o nominal formada por substantivos masculinos, adjetivos e preposiÃ§Ãµes.",
+    "origin": "Do latim anellus (pequeno anel), limitare (estabelecer fronteira) e profundus (fundo). Criado na marcenaria de bastidores e aperfeiÃ§oado na injeÃ§Ã£o plÃ¡stica para bordado industrial.",
+    "category": "Bastidores e FixaÃ§Ã£o",
+    "summary": "Ressalto ou calÃ§o plÃ¡stico nas bordas do aro interno que impede que o bastidor afunde alÃ©m do nÃ­vel ideal, mantendo a superfÃ­cie do tecido nivelada.",
+    "definition": "O anel limitador de profundidade e calÃ§os de nivelamento do bastidor (hoop depth stop ring, rim collar and bottom shims) Ã© o ressalto perimÃ©trico moldado ou conjunto de espaÃ§adores removÃ­veis localizado nas bordas do aro interno do bastidor de bordar. Sua funÃ§Ã£o tÃ©cnica Ã© calibrar e limitar o rebaixamento axial do aro interno ao ser inserido dentro do aro externo, garantindo que o tecido e a entretela fiquem perfeitamente alinhados com o plano zero da chapa de agulha (chapa de pontos), sem formar bolsas cÃ´ncavas ou sobre-elevaÃ§Ãµes que causem arrasto ou colisÃ£o do calcador.",
+    "technicalDetails": "Quando o operador pressiona o aro interno com forÃ§a excessiva sem um limitador de profundidade, o tecido afunda alÃ©m do fundo do aro externo, criando um desnÃ­vel de 2 mm a 4 mm em relaÃ§Ã£o Ã  base da mÃ¡quina. Esse vÃ£o livre faz o tecido vibrar verticalmente como uma membrana durante a perfuraÃ§Ã£o da agulha (efeito bumbo/flagging), resultando em laÃ§adas frouxas, falhas de ponto e risco de a agulha bater na borda plÃ¡stica do bastidor em movimentos rÃ¡pidos do pantÃ³grafo.",
+    "howItWorks": [
+      "1. O tecido e a entretela sÃ£o posicionados sobre o aro externo aberto.",
+      "2. O operador encaixa o aro interno alinhando os cantos.",
+      "3. Ao pressionar, os anÃ©is ou abas limitadoras de profundidade encontram o batente superior do aro externo.",
+      "4. O aro para de descer exatamente na profundidade regulamentada (com o fundo nivelado rente Ã  base).",
+      "5. O parafuso de tensÃ£o Ã© apertado com firmeza sem deformar o plano do tecido.",
+      "6. O bastidor Ã© encaixado no pantÃ³grafo da mÃ¡quina perfeitamente plano e pronto para rodar com estabilidade total."
+    ],
+    "beginnerExplanation": "SÃ£o aquelas 'abazinhas' ou beiradas salientes no aro de cima do bastidor que nÃ£o deixam ele afundar demais para dentro do aro de baixo. Elas servem para deixar o tecido retinho e lisinho na altura certa da mÃ¡quina, sem ficar parecendo uma bacia funda que faz o tecido pular na hora que a agulha bate.",
+    "applications": [
+      "Bastidores de jaquetas pesadas, moletons e toalhas felpudas grossas.",
+      "Garantia de nivelamento perfeito em bastidores grandes de 20x30 cm ou maiores.",
+      "PrevenÃ§Ã£o do efeito 'bumbo' (tecido pulando para cima e para baixo durante o bordado)."
+    ],
+    "characteristics": [
+      "FabricaÃ§Ã£o em plÃ¡stico de engenharia POM ou policarbonato de alta rigidez dimensional.",
+      "ManutenÃ§Ã£o da distÃ¢ncia crÃ­tica de 1,0 mm a 1,5 mm entre o tecido e a chapa de agulha."
+    ],
+    "commonErrors": [
+      "âŒ Empurrar o aro interno torto com uma das pontas afundada demais e a outra levantada, criando desnÃ­vel no pantÃ³grafo",
+      "âŒ ForÃ§ar o fechamento do bastidor em tecidos super grossos sem desapertar o parafuso previamente, trincando as abas do limitador",
+      "âŒ Usar bastidores paralelos de baixa qualidade sem limitadores de profundidade em peÃ§as de alta precisÃ£o"
+    ],
+    "troubleshootingTips": [
+      "Se o tecido estiver quicando para cima e para baixo conforme a agulha costura: O bastidor afundou demais; solte o aro e monte novamente usando o batente do limitador para nivelar o fundo.",
+      "Se o pÃ© calcador estiver raspando na lateral do bastidor: Verifique se o aro interno estÃ¡ perfeitamente nivelado e travado na profundidade correta.",
+      "Se a linha de baixo estiver subindo em pontos aleatÃ³rios: Confira se o tecido nÃ£o estÃ¡ frouxo no centro devido Ã  montagem torta do bastidor."
+    ],
+    "dicaArtrelados": "Ao colocar o bastidor sobre uma mesa plana, passe a palma da mÃ£o no fundo do aro montado: o fundo deve estar plano e liso como o tampo da mesa! Se o tecido estiver afundado como uma tigela, desmonte e nivele usando as abas de profundidade. Isso garante bordados sem nenhuma laÃ§ada solta!",
+    "voceSabia": "A precisÃ£o da altura do bastidor em relaÃ§Ã£o Ã  chapa de agulha Ã© de apenas 1,2 mm! Se o bastidor estiver 1 mm mais alto ou mais baixo que o padrÃ£o, a formaÃ§Ã£o da laÃ§ada na lanÃ§adeira perde atÃ© 40% da sua estabilidade mecÃ¢nica!",
+    "practicalExercise": "Coloque uma toalha no bastidor e aperte. Apoie o bastidor de cabeÃ§a para baixo sobre a mesa de vidro: veja se a toalha toca a mesa de maneira 100% plana ou se ficou torta em algum dos quatro cantos.",
+    "quickSummary": "Batentes no aro interno que garantem a profundidade exata de montagem do bastidor, mantendo o tecido perfeitamente plano.",
+    "recommendedSettings": {
+      "density": "Nivelamento plano a 1.2 mm da chapa de agulha",
+      "needleType": "CompatÃ­vel com todos os modelos",
+      "speedPPM": "750 a 900 PPM"
+    },
+    "relatedTerms": [
+      "Bastidor de Bordado Computadorizado",
+      "Marcas de Bastidor (Hoop Burn)",
+      "PÃ© Calcador de Bordado (Presser Foot)",
+      "Chapa de Agulha",
+      "Acoplamento MagnÃ©tico de Bastidor (Magnetic Hoop Clamping & Docking)"
+    ],
+    "tags": [
+      "a-093",
+      "limitador de profundidade",
+      "bastidor",
+      "hoop depth",
+      "nivelamento",
+      "fixacao",
+      "hardware",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA EMBROIDERY MACHINERY. Framing and Hooping Precision Standards for Flat Garments. Nagoya, 2021.",
+      "HOOPTECH PRODUCTS. Precision Depth Rings and Clamping Physics. Cincinnati, 2022.",
+      "ARTRELADOS. TÃ©cnicas AvanÃ§adas de Enquadramento e Montagem em Bastidores. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "a-094-arame-guia-fio-de-espiral-dupla",
+    "code": "A-0xœ¼}KoY–Ş¾Å­ªI™¥’TU¬±•UâŒøh’êŒq3ãf2¤È¸Yñ`I2¼ñÎ€—ŞÓ5½h mh¼éeç?ñ/ğOğùÎ9÷ÆÌ¤]ÕÓ‹.ŠÌŒ¸óüÎëëû¿üÂĞÿ~Ù¸jñËCóËQeÎ|×ævømîMæÌ¸^æ•-ÌãvYX³ûØ·“Â™ó|ŞØ¼0W×•³¾@ım^¹½ğÄÂİ¸ü¶-3zhÙĞCşß?ıÓ?‡ÌéU[¶®ñ¹§~Ú®şeõGoJ¿ÈKúôÌW›Y³ô•©ÛIİØ²Éo¼YØzÚyé½_;c³ç?î‡wø*Ÿç%şØ›Â6ùÂXìpav§~R¹;3ÚäÂ5«‹|ê÷fN;7»ô5¬7óÕ=U ¯é;muc“_ĞÊööÍÑµ¥5bÍ&/çÅê_kÓ¬ŞLKzNo©ç´[Ù‰üÂWô"úé&§oYoj×ÊFÚÁ‚¹úo®Ö“g¶ˆ[™ÚÆÍ}õ
+›ßæK>S_ÓOV?Ò/J[‡ÏÖ-N–?Š«Ä{ù±K_à­ôšğFú‹nçNo…æûÖ=cöµ5%TOiY†2õ%=–6kh+k_¹z`òÅÒey™é#NxÙÉĞ+ù{Meé–x¶ §™x<3sq¯™›åeŞä¯îLîŒïf8ËÓE›L¨2ª§İUÎ™*ï˜Âû¥ùÄi°ZZùbI‹/Gw?]ıs¸,>#"«—y¶ú‘–ÎË·ü§áÂÓ»¦•çïâõêİ˜KhÃÌÜôÿÍK¢Ğ‚iÄšk[Ó[éçº¥sÆ’ˆÿæıÕ :¢§©8z-}ˆ>ìªœ¸€·ĞËÆ7'¾Êlµo.[kæÎ!WtÛ´²şñĞ—9=†~"^³sú@µúq‰{¤kYı8¥#Ëô¦è2Œ§/€øÍî„–k™&m¥wY‚d‰áè×Cë¢õ–ß·Ä…^nŸš×ù”	Ô1
+ªéÆéšè>#9LójÚæ8Å¶²ø¼­ÍM>©è«ÿCçnÈmy"¾"üû§s-qié¦ˆBíÔ.>`Rµ5};=»ıNìM¯ñìâ±á°ú5í„×.ä‘ÌE¾zCWá_÷÷ 4*¢{¢'z¡++Ï7lÍ]üñüüdÀÇU“šÚÏ*g*ßX‘pöeN·CÏoVoKº¼]7s8Úşœ¹î©ü H&ÚÖåIšÖ|¨KŸÑMN¯‰zG÷ãÂEÑo™Îp¯qîõ¾9Ñé“ÖĞĞ‹‰x«¶$r,@•Ó\–M´Iÿ­@1újc'y‘¿–eD>¦›ÅÛ•€2b³Fo¾†ˆ¿á!İ%Ñ;éåöË„=Ë§8¢ šè¾%œãòh—VD–.¦&â¼ÆÊ3p„Õ/¯ŞNóNr\û›ßúê®ò?ñïè·w÷Í(P Ÿ89Uƒ[—eB&ùe·¾ÀXYÔ#ôˆ{8ÂÈÌG&a‘P‰`Â&é\şF—/Ç‹oˆo˜è¢vv’·|·lÊfåcË\ÑÉcúúşò§iDÚˆ\–$·†«‚¤	·`+ºW$¯»¿oÆ*…#mÖĞ#É&ÒsÄúAÀ´'ğb¸áÊæ¡Ä+$(²HpÉKt—mâ @ıJ4–ÿÄ¢©¦–«w56
+ºRŞÁûòzÊ¯5ËjõfíÃ|“ÍäñF+t¤HßÔ}¸yëN”·{ÑÔly€kfDüÌTj›8².JW_Òõ”6(¬Õ7–@
+	dA¯ñ)ßõÇ©]şDĞ¼;ÌÛÄtÒ«ñiâF;0ˆuùGJ©z‰l3ã›¨nTĞ‚ïƒğÆ£k›ÇAğËùƒá»gø02—¿¤'„›'en«N†ÂU¬³xY°µDofø5®°€ÇK“Q‹M}É(ÌÙØ.—¤Nù@{Œ<2(^c_Pvútq)jB$¶3ÉÇyE¦jÈËµ«7•cãŠe*Dî´j_ót$aù¤Ú¢É‡vŞ’hâ—=„x ‹H^rDr[Í[’]7|wĞõ,ÖHşåüefÅ òhòjXœã£7Ìn"Éä¨ì”¸/¯IÂõÎî[t¦QòD‘u›ÙÓ¸¼2¨hj¬á ƒUé‘¥²Ã`d0»©«kş&¶r–3M‘!Ö¨r,1g-Ñ ØNëìFŸZør\U¾êíìÿş¯ÿax‘Ú¥Ãí¸’Î¨	>D09dçµZÛĞ]‘ò•Oj3E;6Š\"ô%[gËŠäI^±¤·t§Õ<–ñ¢téBæ†hóô"İ³}Ho<K°%§Å`ñ$	pŸòe•ãı7>Ãîñ6lzæªª}NH6­ğº…<£5Tnb«‰šÄ t}ñš©ì±«±+´ßõµ÷t^ó«|Ù»œËôğÈ9£'C‚`»rV-#l\Š3v©&Œ?4GPÚ³œ–=¬™†:ÿ"#ª%¹xã!¦eá¶Y?&êIìœmjé2<,¬RÎ†ÅUÙˆ ™^»9Ë¹Îá9dÊs \²|™•˜[æ>y²FYßİÑ‹â,=°¢gÒ«–¸®@´
+’ştíDˆ0ÄÈad©ø$ôàißHá=°›hüb"öZ¬eüóĞŒp%¸šè‘ğ-°X„ÿw/mĞË¥fÓ@Dœ5÷Ìt¡Ò¨ÅØ¨z¾ÆÆ=cT5•ƒ’`“ûÙz¸r"j<$@XÈBl1’³°W Ã‡+CÛ	şã²ò*YÃ¥–ÎÚ´êmf“§®šò7!¼a+A@e¤ÍI³ÂêÓ½’¬4,#Å³F×íÍNgÉ3íïÀxË+¾H²y*Qª_AR8”­úKµ$Â²Ÿexã§î’ä®g8‘T:oW=`ut®^°¤*§«·K¢m8‰«7d{“ÃÛ6¹Zˆ$æ¡Él%Êw}“«y‡W-Ú’íäÌ§VÅwÃ&¢Èô4j\-ïë\Y’¶â“½Ydd2ÅM.¡¶@\ã—tyíx³±c:÷‘r&¨‰zğ<›‚ÂâŠé/ó‘Å{tLaå Á°zI,_Ìœ°Y½#wv‡E:dp v®Ø¦f3¬G=[-ÜnÒ •M_\nÁeÖ¯l×Ùï*“¢Ï¤Ú‡XÖT8³ïíKå MIë¸ìÒ5ÜàÄÿ$	É­:ox¥ç|y2ÄÔÀë…ñe™8ƒÔ*íÄQé\V¸«WK¾Ì#ËtÂoaaàŒ@K5°#X9İ—Hà¹Œh|åËxß=q©EŠü×¸Â6.»"=İ×7°r$ÀÊ9+ßXé^3*ìém¾ƒ+uFíKb	ºì;ænEøı.Yˆü:óˆõ…kÌ¯ôÜÛn=Å•ô¬?‰ƒÙûTáÒõËsúúÖÎ{¶Ãƒ¯ïw
+(Y÷•	İ/”Ô’ODè©û]ß®î~Ofö±F÷ÛÉò¾w”OŠÜ“¾$ÿñÂ‘QBæ˜ë­ıjô÷Ç'#3>ytqvüx|ñ{s2:zr|J?ílù²!eˆHÛå š¡Áæ%GW.çRÜƒæÕ¾9µsÿŠ¼“{÷î&*ò»g§gO›ïN=‰oxVş@ÜD,`¿"2'»ùPhg`.—Şä”ã>eZÒGöée~úÖeÃo¹—¼etqu1~:z|v¹o§Ÿ k`6("4ø6ÁD¾b|‰|º£¶"kt"û¹¿¦PÛeV5àúûÃáÁWÃ{_áCÌ-ÂÕ¿Ì3üäò`h•ü‡™²1¤k¢Wãß ıÈÄ¨"òì3fà¾¹0Hù2jõƒÊõIf÷×Ã#¢¦¥¹ ]
+¨ç)©æj3^pğ`A±E„~üé!ƒ™£¿sÄ€t+Z¹ºAé‡j†ë¦óû„,} üX+mŠöqc«;…x›uÁ –ûfÊßuåœ.*x»{ûæLŸµ¯sF‡ëÄ¯$Õ™‰*Û˜.y‡¬uÉD¢Ã±h-ÕT÷µgÕäÄT­øì§†ˆ`‰ÒaA°ÃÆKÇ¹ÚäÊa©Ôr´Â’È•îh&Š‰t¢%°xäGà›JDûw{)Y™“çW‹ï~Mfû)ØïŒ~Ã¤lén‰Œzëá3ˆè6CÄù&†r•’ \$¸{Y:ò È!á?µ‹!)ÌæƒŒ~R{ª&¯Ú‘¦ëEfäê	51Zô’(¤‹vÁ!ƒôœ’h€6{©6YÿôváıÀ~yeù»;¿ß»ù?ĞşÔ/«öeø,0Ñ†=!KîAaÊÕŸy7ZÉg.ˆp8İ	Gİàh—d¤9±+q$%%(ÊB{Ì‹ùL¨W/$j£§æåê~vı,jÆËŠ9ŞåĞÓ{ÁûÓawıëé¨ŠNpâÙM„#N^Ãµ1B’$GEŸ˜zìü|qß*VoXœ¦gßq.~­‚Ñ1…wÚÅêm	'ÓTÀoø—d!Ã®ªë<Øæ‚WŞFÕj¸›%É³zÈÏtõo%ß-ÄcÔ`næº:áŞ€Aã\:SaÕ–|ÅÕ+(‘3Šó³¤æ,7ID"æş½x4¸¥#5•h±eßz¤ßüåî™Åâc@û',§E›C†ˆéd`§„‚ã:Î´¦ò2 00îm¸~ûßMÏ>H/Y¿òKã9 ƒ7Áô]Cğ‰i. ’Ä!7Æ>Ùìzç‚YhLàOÛçOä€–N<×>xÖgd+‚_OÈBfà­âiU«wpˆºo-<‡¹ñI²Í,-TÓV$«>zŸÄn7=4>–	=Œ´-Ğİàó6œa”‡Ä¾ˆ5d¶×ÓÎ|ƒ¿—ˆUX¡e:Ê<È“hU‘äÎı‡R	Ôøi@½5;²zĞÚuO`Oÿ*Lt'GúN„wO2+yLFO”İÈa›“07sõ‡uıI®Äe…\§İN!•>3¿ñ¤IL½z'T‰M~ÂµV=*‚$=~ı$® ¨^G¾5ÃM@Dàó–êÑC*äYĞ¦?ˆÃŸw‡Nzn3•—rÜDj'Ä9Ë ogO”Yåètw„ôĞò«u5n³w^«µÓ}ÏàN!„vNom*O>À
+“ş”¼a\Í=ŒFÖ7Ù:¼q¥¢øjÉÙ°± ùe0<œÆ…ê€z¯BÍÌÌ…³Ü/z:ÅKÙ9€W–dÃ$Ö¶`®L	T2's½&KeCª]¸p=™æh|uğ9ö…9–)G‰WÎ5Ø¼í$3(Èx|¤vI	¼1cs=S%ÅëOqğHÖ5 İj’Ñ‡¿¿ÅUH˜š*›äí8¾TğÑË;‰×Aóu¢UÉÌY Œ +Rnï)­¨ÿÒ¶µÛ0ˆd´]pÜ¬„g´UyeO[ˆªşTˆ=
+ıŠ,‚N ·Y5¢xÍf?4#Q«*FEáJ¦¡çm- J$È¬¯'û&F”N>ÑuÆPİ"º6"¦É¦C§ohÌBcÉ–å›65÷‚ïÓÊI6Nª°Šbõ¶ÉÅ—² «Û.²’G+¢CûÁHQU‘][Š<$3€~BÒÂëCóâ_ÇÊï1%È
+qÄ?z…ñgt/½f§À0ÜŒmm‚â´ÌV ®-Àvì""ÁÉ"/Ğæƒ¶Š'uIôæê=RÂØŸ§ƒNEb@‡Kšj>×&{cå'ld!ƒ0"sågf¼•´‹îèÆæbzÈqû,ÏámÙ­Èwd¿—ø6±™Ï‰n$§O6 fs$7Ñ©9ésÕ=ùˆüCÒ#¾`{âî×dæ+}z¨Lø‰uOSKÈ¹ªø\4fÆf8®YxºD‚ı{Ş4Gp‰ïG}èıøyEÊ—QŞ­ŞºıÏäIÊ×.¡‘îtõ£‰7Yù`	ÍÉ]Ü³¼Z¸×ë
+ãõÜŞNOİŠq_ª»Ü³	õ„ÄÆr"ò×l­ÔĞïû¬º¶¢'µa>é¾"°¢Nóşš·ø5äÅì³óÉp÷ÂgD€ïG¼>ñ>OÎæÑ/ àêÌë¹ÿnøûî•˜ë hƒ·œôÊQ¡Ìdj•zM¬>¾‡ß; 'O ™0Î<õWæ±Ÿ¾ ŸRä!X’ò9¿!krFV»­OËO{ì–Íµ|ƒÙ…<÷ò:_$}$Úùi~S¹tSWí„ÕînøáÛÊ¹á¨ZĞ…Úp{†×t/R9È`i+!w¿IĞ¦g‡`\3ÖĞVÀóÁ4ıwİ/y5>¹Ü7Ó€vı.ƒÍ<5çº‘åµÀâuoO‘ğG£‹gG§ft2¾8>…W]Ûr®o8ñäâ—¯ /êCs{œ4°ÏH;x%ïÙ7—$˜ËT¿‡·CçŠå{ª&’,DÀFç®b¸˜Î"fD†ZNÊ©£úçÆİÉù$µã†œõü…xAÖÉ¹@ğ!\{w¸»—€jÎÏ—'¥‘£Çy¹úg<ËìjH#Ä:B¤ä·öÆa÷fD+zUçõ&?@%ÿ?ÿí'cğuá—i¦>µ‘Oì´>ò>¯ÜœüŠ¥{ÁY·»z|şùÃˆ£ÜÈ‡¤eğ7Lb÷ÌŞ‰ æŞ>‰Ro7¾¸‰VQay<.ÓXÒÉ\ı™ÁwÓ¬şõe“¤`yÇôŠçùãµ¨ÒZ3AÈt¯½+Ãëò¹Øß%[„ÔÊVH>ııºµE ÖÑÔNzÑ·œêrNC Í‹OG·[0Ü(	Â'ÜÃ‹dKÁ+vŠçô
+r8!¹ ’Ÿ‹À.¸¨$b’éF'¢¨­äÅti8@Ø&)Jµ	Õªu)ÕÆôÍj3¥ZÍäo”jTK†­¯‚fÑT:v$'d94Ô»šU”Ìo¡ë“yö"EåX?I‰ è©­_¦[»ç!ı/$1}ÎX&ù4?‘Ì¸¶ª}Ì­gÇ.qo0°¤šDrÚ%Î§şpD³´Ä:¬áÒÄˆ#ãSyGŠ7¹`IE”È›¤kÎ×”½ÀV%°Ñ9fœu
+;ëŠØšWª`÷XI›Ü4²W½ÙÅç5“Z„»÷Ì|F+¸÷~ ¤£¬2ó˜&,Pâœ|·I¥y'?áüS8›nÚÇE;©øAİàIThHF9™ı€$oØ»õÅuz&	½Â`‡SµKÉæI²õß`ÀÇ§¿´YÅĞ¹ùZì5³ûğáàáÚµ1Šã%‰_…òÕÓáXøÕ\m7LHƒşÍ5@Ä´tØ
+¡!¨.ÌE¯84w÷X›µ‘vL,Ô‰»ßıâ`ø€/äsoü´)ËuÈ¹@Ş™*ÁË×X³ûÕÁğî]}ÂôÆö%×¹$'A^ØÅê¨ÍìŞ½Oßr ÎˆÀ¦(°ÓØ¤ìşşo[„ÀB»z›$¢&"ÕìşÇ/(uºÌÑåÑI†TàUÍyLPö²¿gN›Q´¦T¤
+^/‘ûûñuR! y;1Û‰·"Ki²&fºLCÎô3×ƒúÒgt’Ú\ˆRèÉ1(a³jn9ìØ]°¾k¹?Ò¶k*‰jŒY}Aê^æH~C‰lIe¼Ê¯À’$Am?¨ÁÔ!ÀiÄKÉìE¡	¤5Œ´‚ºà°@âÔZ²°×©àÌ×¬}mRQ‚^ˆúnDW8ÎÑUòA«xIÁ…':•tB³6º„mMİœI
+´¯9œ{Fl?[¨ğín½^!‰kXXÇt„€º^;ñîB…B^‚*ÉP'G£AÁ:ñ†Y&5~d\„!¥d¤Ù­;të‚d¹y4'vÀLBR\'nägt•ª2Ó|p¶´P¹dbİıL6€f5CÁK2V¨†v±zSç‹ˆ@”ÚZxÄèX2GJÔ%)=Éƒ1Llj®TKYE®60L/“;Ü&²3“Ôä-‡
+? ÉÊÇ1]£$x}[d%¸‘ö:;’˜m®2Ùlª¥7 •F‹cÑøVèt÷ÜMÀÏ)íú%,c›“œ×Bõm—~…B4C¿fha'}1”h.=,ŸÂ«¼êê$3Á$©+É;§ÖÙÀ©DX%XŞáKœš…3¬/¸išRĞÅ÷{/ùØHË‰˜1 +•?R—“¨•Œ‹áj©~‹aR/¼NwE£ù$`²)†³æ$²˜º¬{ÛŸl!1ÄÖcXŸÜ¾‚1A•©ì	k%ô*¥Û²'%c6ğÎ#	Ñâkb–IérŸ¸"Ék°z$/: ºr_/9ë¿î›`‹GêCX=GLâ(/|f§N+ŠÕ„_×§Ø2Éø-ŸR‰²$ØÈÑHF
+ì:"éŒ˜#¿ eÌıĞ<!­ÔíÁ˜`£ƒ(s)Ô%Òr%f™÷l’õJ¨™0êRÕÁ¦~%ª05[:gÄpÉù¦3¢Å¢“ ‚u”ˆƒKFli9å’Å¹(ızYÙW€vb[¯¯0ÔÇKHE
+:Y±ˆíªÊ¡ÁCR¯YH		ëyî5›„¼ú¬U3Ÿ|n:IäÊ¤Ğ6HÕœoµÎO›¡•|ÔRp¤vT'ë8ÌŒKAt£+…“ĞŠnUy°ŠV¬<Byã`§Cè®î1]ç|ûîÆƒÉÀJr6¦l¯Ø‰Ä&ÓbÉ	4¸J°ùA¿lQ
 
-
+XoCiV\L•K	
+-{ ¥X\k ®á|¿=ŞƒoŠ8È\¥á{}w„X²]±Fğ›àrÁ”š¨™àŠßÑÒ…š¥êĞKrŠ¶Z‘û³<Ñ€âsñ	%‰Ù:<1—°
+é’Ê—¤ä¤èûtt9zåhûÑäïJÅ`'É·^@¨N"W>®;d¯ÈÁsÃ0kÅ›±"@4”9)™H(¥‘²-ş€’“ÚË¥Õ;i…[I·bÖU^èß´Ù…³mÀß'ITQÅ9²°\ıÜ:VÃÔMF	j±z“å‰6!'—}O„Gîóe?Ø¯XÖmñ˜/Ü¹{×œ?6Wy+Ã'àİšÚØšùê€C3w?%4óŞ¬ş¤!Ô Ş"XèÁrÇœøˆN]…ñGvGSÈÚğPŞoiÙ{©p"î×|gøicŠÅkÿ6­ ¸:ûí±š’¹ê4v@³º ÍÙ6ØÍ’‡_Ñï"æümçnyØ½YñòNæ$‘FÍÍjÎ&Or‘ê‰¤5q“ÀƒÁ¶÷ÅŸgÿîêøéØ\Œ/Ç£‹£'æïÏ]œî›`ò0lÍ“|~=¼ı™ã`æäÌü€H	2–Ç‹IåóÌU¯öÍS2O¶„E4Òs5>zrz|4zJK9?»¸Ú7ÄéÃ+¢:s.”ÃítÑUó+¤›WFiyß\ù¯<¿ë‹[B0'˜¢8®ÔpsfO·tß‚ü¹Ã/_¹ìÒúá’ŒÜ¡’÷»œFBï\¾Ü,tĞŠÍsäàİ1ãùê-¾lÀ¥,Ç/áäÒUÌ‘“Áû}ìÕ’LÄW4^6vY 0©i|ùïÜ*‰>
+ğºZ½[J]„ÙtYıX‘½Ešwø}Û´¥ÙE«{ûr×ÈD!÷(ŠÍ“·s.»>×r°İ£çÜxZ³
+*x‰wo,ú­ŞTt ¹ œæd ÀCşoîÌw¾®_-óedLCQÀÊAÕı6|M:1äšK?r÷¶ZPFW"7[b*WêR«ÕQ¼«ˆy‡çYüºXÃëøâ½x-†sæ‹f±ØHEŸGQ6òâª teüXN$^X!¤R,)ºJ”½ŠO}{S¤AöŠŠãiïvK3µĞŞ”i¤ùøéå´ñXX8Ê8Dv³œœf”¥dó¬ü¡ä¥˜Y®Yº\ÔtëE=GÆg®XU†X,Š9ÓZ°1Rå°â3£Wİçÿî2DÍuÆüÛ{üÛ,Ù)}à†/ƒ‹=-Ğ¥=âåÔ-å1Á}ø~”šI<çDs÷’Í´«‘|w5Ö
+$Ô› G°—”à1[°<Aï<ÖP2ü˜¸E ıE+Ù“Úìi 6¯Ô¡]Œ$Y]WÏÎ‘F÷#àFŞc–µf®¤Ğõ¶¨Æ#Y¨ÀÕ—q¼S:ˆ	))è>™§œû»ÆL˜´™éU@¯œæĞ9a%¶úXH½bƒû÷ä²é§‡Â@ÁH>óNéŒ­Ëñ¥9]˜‡î|e|ypçîÁIS/¯ó¬"ÚôÅêÏ8 Á¶ËAAò
+ÙÍ÷
+ì¯aµNá8=¼­a7&ô÷JwÌ"C|Ä©”ºp}k
+®˜Ú¸\š#
+@Ç‹šÓÃ&RNùõDï‹7HÎ¿¼yãôi·Q¬ŞtÕšÖ’4%‘®pàƒ³ Ñz+¤g<e1.WÂ·Á§/™Êìñ=ñKQÆHjj~!Hä(ñÒÊ£rÅtÒBäéZ‚AS¼ViŒÈó~.­ƒÔÉ\l´†etnĞ —Eq…XÚK~¯‹­ç0â})^F7ÍÑÒİ/Å-Ø“º€ífF6UÈ1À’ÇÄdŞd·uGJÛq ª
+hfƒù1VKè/1¶kHúc‰¾±1†^¹ƒ[’&úÔ•ÎŠ–+¼Š)!3¸œd3Î»\9W¾ô7I›¡ºğoğf§r¹øï¼Eb»ÏÌ%¶ÊA°5éÊ:Ÿõ¦v¨¢ÕÕ]£I‰•.Lu_¢]{´y *¯$Ø…W¾à5âAÒ%£ºÓõè¨$­{–’Y½Dºg=`{+‡ÈğºDôv º»*rÏ“â¡-¹z“Cä½›SDÍ10($À‘¨ÜFšà‰O‘ÜÉÉËµÉ†ˆS (øpS¥äî ôıóz¸¦ºš5‘,{hà(Lı`€ªœœÙœ`xíR•¥›Hö••&.J?]&YˆŒ,|b~5ÔĞïì0ÔÃÔÒ
+êKÏ‘Æ<Jí4Şs_KÓ- ¨‡ÕH²Huz!—‰I½†Â;¶’qT5	8­`šÇWÀñÚàŞ'„¸PhF5‡ÚƒEú‰å{_Ó÷÷T8Ò,h|ª¾¢º
+®Ã•£{	~3¡;™ö´Õ–6DQÉsæ°ëœ.jI;å/¹ñPˆ
+d­ä"x)Z(ìÔvıÎ8©ô-<È¬ß· UÇŠe—C<@¶'û1f¼¦Á%W.ªŸ+àôÇÍ«›	i9g¡±MÅğ4B¨,‘L…Ë¯BÑŞ!ªç%ªÌÑÂfÍ9_×#èÒoƒÍ³gÔhBä¥S€±JAÄ™P÷“BË×Ğã!ÓqbĞe§jçB–d,í0+q&6„j`¹CºáÔ¸JñbPäĞÃƒÊãÖ,0¶*ç†‹„4Ñ—ÔLƒ<#·¾Ô@’Û!iÔ©	Ù+KHh'dÈ!›	Üÿ$]g%Í˜“!¶±fñó%í_¤û9šÀÃàş eíé•iÙõ‡âç\‚'6u<:N=Éº¡Ë\  ØjŞèu¢T£3¼Øæ’‚Éî¨D»0†]HØ Q¢eG‘5“\¾)E%!®şVaî@·UalZ ¶…Â1İİïSGŞyîøé«/9?ñ$GZäs­-f
+7bÈ@ ;Ÿ	ÀtÌ+¸yÓB„#âr%—µhmòİÏÙX÷œ>¤SÀBÈCq»ìåEÜ#²E@ª±…ôjd ­Oq¶-ßIïï*P¶İò!'¹è­iÿ(•·\¨ƒ€#‡´ÖHÅÚŒ,gÀò;Sã.dFÓM’ñâiİõµm*1dYÁKY5\¢vd0Ğ„6±ƒƒil,Eÿ`fü±ƒıèî³s}-¶şm€«¸]¸n <äÚTh|4ş©$CÒ¹4¸ ©DBê*‘8æ¹R}G,z$ÖP‚¶
+ó'«ß}d‹‚~‘—9å›¡éoæ$ˆ"H¢–}<î´Šãw_6y3½6åJ>Êÿ²{b¯fÙK0¿íC±ô‡w¿å¤ˆ½ĞW
+ş‹£ ¶éÏ‚ã]]šãÓ£³‹ó³‹ÑÕøñ~öš¨àr´"Wg¬—BĞÊˆ7J&ÆßışüêxtjôÅ£ËË³£ãÑÕñÙé¾yb+6põ¹ç’Ë—Ë2JR8YmüL„ï&äŒ7æ•ı„ö+Šö6ËU~<e(:+è¾rú)üÏİ5äîåä@ 	df‡%YPÄCtà	‘¡ŠÿÕ:Š¿úoüfG~Gˆå1æDú­ìĞNĞN¸—äReş¡$qk.¯ÑæzTÎ‹-CşM‹>½LB'`‹-ÊBQ¥s'/§ğ¿ø•{ôÈ¦±0VÍ®%ˆlŸêN[æ•4¿±(™5»‚®Hk›Åâ~HÖ
+ˆ­Ø¡½Ÿq(U“®öÉOÚ‹¼/‰kjÿ)Ãbüeº}s [·¤]uÂ–’•qŸ=³™¢2‘·ôà«#æÌõ$»Cİ°Ü­à=X C!g“VV#1¬IF¸H)=,~w¡$Ú(‰¾`¶J†9šO“|¨™hQ;g`ˆ­1$Rz0]GÈØ`î÷§"ö†•£ıÙŒ[ŠdœÕ­iK!À_şD»ûÕ_şÄé‡Fàü!Õ•±rÂŞrò·t=×ş¾µYÕµá:œ¬5)];#†˜Ùİ8Q$=³*ış+mqÕ;ş.¯JRĞ)4ì×İnY6SFY·V;Äf–a¨C’ÛÕË°[À;B¿Y©—†É½”‘Y~/ºÏÔŠÓ<­™bNñ@ws«°4à>¸<É?±›í¬ğmÒ~ĞË q“Ø»wwğÀœBğô¨ÅÕ;ïµ²¿q¯•­~Í8üM¬ÉŸ98Iİá¹-¶†‹³3Ğ‹c ]b4ã	)ıÒ³«{òÒ¦
+©‚N›*ûõHÎÌ¢ßz“Lë.ıF¹ÿŒ Ÿ€Ôo43B°¬ğÓÀ]GÑÆ6°fmÑHãr¹ÄulˆÁyÍ]<Ö°ùÑº°‘¶³˜dÁ´$àÊéõzwúIcCß™ÛÜ÷Ñø³ğ%á­$í^¯yp¯–ğ¾úğû‘/±fŞÖ…éÃËLúî4ÜŸ]å²Æ×DWJ¬Û!wvU]ŠT™Mójõçj)Éeƒ}îw‹Îë<ÄÆvë-"é‰(#WShÃªÚá»IÏ¦¼’ßuşøGFòRçÜwj]+îÈø•yê(“!h$ÁµÙ´Ké*”E"ê¤ógæ×­ıÑåA»&tôL@Û+¦‹ÔŠ–âîƒÎ}Júš£ì„Ù©ã ¹…ZÎä0HÆİôk<t&”å'¶lc;Ç*^3¿‰ÚWï2mĞd_oZQŒì>Cã§‰Ë¢™94Ï]¥¨1*^Ê´Ô=ÂCøAŒÂ­ÙŞ9mmÊ&³}ÖA|
+·–$ed@
+™2Ï
+ú5•V‚u«%vŸt¿1|€'i»'——Ü+Ñ5’/. K[Î9¼we_ıƒëcÔÿË¦"IxîÔFNtr9ÑY|ôô¨¼l‘w[+ÕŞt­¯´¿Ï”¬Z©V\€Ä312±MèsÕYœJ¥‹@Ï}°ûJÒĞ­QHU+ŞWĞıu ²¹¹‚S
+Â¡-AÈÙeb[ıÈW¶µÅQLPmB¸•³ô»ì|Ñ5ï5>}Š@¿Ø¦2;ÓĞéYË ²vy¸&k}V‰ü÷ô¸Øji×u…oû'¤xó7`µ ÒŠt\¬€“ïçì6ÊäÕ¯ÉwA´éû&Ü‹´…z"iÙRr)|§>Ç¡¹„s˜cnSÒNwM0×ßh™ûy…«ÍëõeÅX3GZ´G{’Ø\ø¹ïÍ»Šñµ•¤?T¸r¯İ\4[”K@µ”{™O_¸ê-oŠ¢8µ´Y˜œc|à‘Ö˜ `Ù€Ä«­›÷ÔqW¸1m$³$fwÚOb±WQB‹rLA+.úa™•ÆuwùTµ»Uìöyb±·ÑP˜Iå6ì± çãûi`Œ¨˜ì…ÛRö{9è¡ªnÍC)5ÜÑş‘v€t¼~ú‹óbqçZG³tí.X¹û ‰ÔŸ‰g6÷n¯æ¯0¤úZ#úÈ‹çÖ2ZÖÔ¥>È".ºK= é2,Şà_ ævRğqÆ@Ï™•ÎiÓXº!–®¸±İÁñÇ¢Õ¢ÖBÀÌî¥£<÷îb³WÜcN>˜µ’½–N§àÈ²Yı¡–Hš>¿–0h„nôSÏ÷æ_pğ4$
+¼Ô;èÁ›%*ôˆú—å¶éjş
+<?AãÖÀ…C,ƒ’‚ÇÃC·P$î˜ÓOî¾¤ÆÙÏØ~éˆW>êÛxÒè÷ïÛÅíé«^³¢£@„‚â'9õóä¹ã¼ˆfˆÅVdu—‘&\¨Á²ğ5õşˆ4H-X±C©AÄÕ"ö[}Şÿª{´]3&’›	â'AiÙ˜J•w‚à‹9ÜıbÁ}ÈSKäoÑ©K’?>C–ş†®½ÿëÅ¡BÂW°ÏˆOĞáP0	ÿáƒ}‘.Ç¿9>›GÏ>_ŸîÇ·H”.&Å+¢Ÿoó—´yç…Cnƒy¡'Òñô:–¼eÜA/+?öôî‘AœK€–3±Íãi°^%şÜˆş×C[U$Î¦Öı¼@ïO!k€ü<?m¤ÿõFb>?&H»Qú Y|)	@Ê’aª;ĞÑòd;}q’ÿYù½NH1Cÿc[!­Ş±©ÜuIÅ¤˜ò×¶º#s«½ŒßC €ÎÃ ´Å;¡h]ÇHC¥æÚ½pˆğ¸“9˜t9÷I:¯ª—¦ç\¨a9:¦êYi–U¯gu¡K[œÂ[3&on¹½íÑ‡²ñO¤£O¢S “^­«’“uB^’Ô¡˜¸"`f”!L9Õ‰Fªè—µñ£+ÎnL0LNDÑw)ØèoÔ£ÅQ÷ÆBËë{kê€5”y¼QX^10×ØjqÄ(âgJÆT•)Îßw¸íG–k J;²ÜÙêm-B wÄä©Nr¡}©Ğ…=±š{iÑ¼çúÔ+Åj»K7ŸxÄ#ïÈ¨IZ š‘ÎÉÌm¤áV-[ÒÇÙaM/‰ã<M*èÂe²&fµÅ£™v%á@Œªû>7ÈYü„>)— nšüë–Ø2½É¥ûÿî³ßìœë_×^2ö¯9±œc´zËÑ1à9f)”IC"idİæ8·gÉ:Éæœ­:ÏHGè’Ğ+¤-çm‰ö:âÑt9$ï…ùú4Í—ÁWŒä]ıVüÌ!¨ÜsÄƒñÅ€~YúÎabÉÂ¾oÉòÈ§}ŒóëtD©â;3ì‡æ_<ø\²0Ö*ué¥]W+y•@ÜõÄ7¶›î‹Šéô÷ÍHF* »vĞ5PrÔ±Ò!ï™3W„©¤D¼NÆK–½áû0ƒ4ôäÒ˜¶ÙáñgêxJ\F+&ıƒ4‰_§p…^,/")4¯“òÜµdÖÛcgµî"t†Ò¶Y’é
+À0ã<wà`Z€MS¿¹C@èœœmı{o¿S<|EC×Ú‰­VâAOı0CaÛ®]’V«··`ÕÖäu@—3¿–·ß{]5‡gÜèQ(Nâ÷’ãÓ%¨LˆÃ/E Ôvz­Š§æ÷£cÙÚPã³ ŸØÍé\nP¡"…ÓöïüåOGp&îÓ÷ØÓô[t0ëˆø SÖÒS¹<8’pÓº‰8ièÂ\Gw²ª‚%|é@¤ŸA¥şz9(¸À1¯SK³÷ëà8y-qUT7äûä2+!áÄEbëqßß×qü²ôCDñÜ'äì?ç/FT)éN¯R†Ğ eòšÆN-wôY7MS&9İoÔ8¾e_È=p @>ü{H÷wò2¢o¦,„½9§Aº·¨øØ‚¤nŸÛSÜCâV¬A@VSqJ…ã°ªR¦×®»{¥×ì¯+Ô¢%Ï­ä>Š±,^Ùs¶E×şù¶ ÃYOK“$Ó,
+ñ´Ô
+c(Ä.À„âjzd›:tÚ†Ñ§qy¢V”ÍPš z–@Ö1k4aÒ	UÙGLZNSp×Æ£D[s¦UKuwm²Fy@÷¨©;P¹‘2{`â\¼®Êo(ô¨éÃ=ojùµ¾œZEÓŠàt¡ÛœŸ&ãv4-€¸Ñ±¡ÌÌÅ`oOóF{ÜäæÜ@î¸»1Jõ}	…ê×ø‡€€n¤±kK±›3U3³³Àpã3ÆNb'Fi¸¥ª;©Ø&è
+÷4.Œ|rîq§ÊóÈÑõ¡ßÌÂø -tö/Gµ¢İØÓw*f”ébí¹QÔêÏ‘}´bn"É€4j¼‡ù¾ğ3I*ï™ã]ân «Ÿ:ø8öÓYª¡[˜«–Ö’2¾—¸bõÍ}Ğ(GèÏÒfÉ1åız'¡§=ï7Ú¡+$K'c‰ËĞ}&É$®]„.hÛÃÉ”„îÚT-IÎqÛ|ÍıÒ<[Ş·hÂ¬—ŒßÓ†S¯…&:ÇX‡†,\¾Ùl¬ØU”ÒZ¨q±¾tïBÓ&RñÁüà´úe6LÛ¾Y
+ÁšÌjÄ–V=§áƒAŠ÷ŸÊ®Œ"BĞ¶Öy­7x‹,»ò	°©|.Áƒ¨ZÇ…®×a.ÌÆë¨SÂÀPñ†ä„\­hpúÚæ6}E›%n1„àĞFç¯íA‹Ñ‹¶ÖÉ
+VpÏ´Œ;=·$¾Õ¬X~¿†mó®
+AƒÄ)MüL²IÑäQ*ÄÌgåÎ‡éñ$"Báæ#pšÚè¹°.ÍbÊ;O©¦-Â@&Ï¾-|œwŒ$¨€|`À±(w×7º}¤z½§ÖõÒíë–Î„]üz„­<¢¾á×®™îï±_/ä‰e±¦vCRP¨ä t£çFÇpŒ~P#XÚœ,Rä"Ï…
+‰û&\!“d„7^e=tñÈ³A•ä‰ö@Šmxà<jÔmà8S”~ÅFØ=T'óëFé_ÁèÃèT0dWÂ ‰><ø|nñÉA‹Û'$s³¼Zfã°I×³÷ÑMŠ>0œ8şå¼ƒ2ø¨CÁİ{İ§/T´G‡GaØ¾’¨O¤ùÇMl>RKH éÓM–üÁˆÅ×İ{g•Æ%Ršè~(qjÓÃİÉÒÛ	ŞXïcÌ$?O¸âdôx||12WO.Æ£Ç—ûiw 81™‘ì‚ÅŒi&ÉÀãò†äa©P¶öóéêö1#Ÿ´Õ|#Z±mjò’È»ö@ç	RyHO"úŒøâ;:jzéÆÈäÛ"}Ÿ¹õE>—L®dºÃXÜ>šÎD±Ñsøyƒw†Èåví€»èúM!p1ã°Éfä‚¾¼¹À³z-QÑX+öë¤-~+1R+[Âsfw$í‹]fN,b@İ×_ñ¸rÌS?Ÿ'X~Şñ$jgH	äSôc]`cĞÅ;>eÜ
+Á“\¦U!ºAÇ<Ïqü/\^š]4‘tU™W€™¯Éõçáöã3·g¤ê}Qúø‚qr03XÜ¿€\ÿ#Ì0Å¤ÀÍæUçôr-r=$ã™“*–h4
+cÂÊ”Áª
+Å	G£Óá¤í;ÅepşïÜ=ø©õq ’v]Ë;Îè¥Êsú˜öüëæè¹`r³m¬p¢´ÇÜ é›0ÜĞÿß»¿ÇHNÎHI4\ÆØñíı‰"§tÔİô¨{©{‘Rw×5')LC	¢/9 tã®ÍĞœ=z<ˆ~…|¥yÊ:æ ğ ©y¶L˜ãLtš&ijˆ¡X½›ód Æ]—ôşq†¼²0ºàu¨åçŒ„fyîSî
+óHâ R¾ÓËèhx\gH;pª™‘äÆ¾[6ajs:ëww~?è^I^RµÍ¢]»@ÀÛğseª6c.Aé*îj€½á³ò GHD@#ÍìõÒRº’Ø)zx"’íµ¢Mñ3Ñqo"!îÆŞÃ?º²n¿œÌƒN‡(wäÆ$ÑŞ×>ùñb)“ú2EŞÜğÆĞO3.õ	xŞ£KIóÖyˆ9ÆS5¾^ëiå\9@î\pÚuC1‡VâD)l‹Ì Ö_ç4­‘ÊĞ)1ö®€y‹
+Pú×µ{I6#’òr†%mO§<ïº—‡Ì¤Ze«¿È›âq:²ıVòúß}r°
+ÉpG‰Â(ä]Îm$£Ş0b¢¹oX*ÈW™}w2-1óšªíta?…¦\‰áÎäy+=ß4m2t…á]=0íÔãdC´dî­f'ôd/CÀn‹à$óC‘SşÇk?ëÉT©Âx‘l‚³ìŸ]^‘:÷?¸jxVšK²¸†Wô·=¼­K;ŠÂ'æ™¸×Ç<^÷—ÁG,‹bÄBımL¸–Æ­¾îÄ†h²Øa»Kmî5{íi.{]ï‚¤Z«şŒfñØU42vÃ¦´T&ï~Ğrk·%É—D¹«æ¹İ’šĞ‚ø 7Êå06é_¥¯|?PsØ{]  xÕäd”öÚùF¹whÅ82ı”wW1LP%kv'´³××$S³á"´2ãu+‚i
+şßøµ`ƒ|¾¸‘ùİ~R@¨Êø9Ù8'G²…AFM7ºã£C8;z&‰-±³½îN˜­•LõBmîŠİUs†<š£ù‰&Û1q²¤¢Ğ	Àá‘ /N·–æ£Ì‘6€Ğ(=ÙëÍ^–MDTéÏK@Za4„Ì6E÷¤A†i­ºË¾ô¥à¬´úäÈ»Íj¼8,Î>ğ‰tÕÖn.1@Û%:„…•Æ²¶(plĞTtÖëR1NOHèîI§.³õ%"¤NBƒš¢	 ,Äu	Ò^a’”ƒÓâIiô§êö{LW›`‹Bh#PÔ|´ò&2ãl~›“÷à]{ãŸÌ‰JFD¤ô‚ç›*B“¤i¦Ü»`ºcYJwüœµÏXë!A…©ªñMRÈ&µşÇ´Z24öIñŞıµz)QNÚå1}]¹QÅ5YÏb£‚0Ïâ°”~h%Îš@%dè¯¡“´<ÉYİ1Ëjm@WZeÅYbˆw-ñ5©h™ÅIŞë3_5~á¶vÕ1¶s­p	f‘*E˜/?¡æDµ wMÔï<‰Ø ¦7ìğ`„I®9éÌ7•béPs4\æ6Œş›®“öüá3×#'ÓÊé!kñ3€”¢°˜5ÅÄå!zOH¾›Ëk;kØ£%
+-µéá†$ùµê¯P/ÁH$— u‰s 2$ÛT«ë÷Î¯Hí51ĞE0¼)(‘ñªÂDk›òÁ1O9ØÁNb?Rû)©[òÊ"„l§j;áĞ0ó¼úpÄ&5¦£ LÆÃ6˜I™H[ÿi?¯"•?3£Ò7©Õö“¹zT3¯-ìEë0W ]Ÿ=°YWŸ‹‘Wq4ST÷-¬sì«6}-û:Şİ2í,Ïú5”Z‚°2wKI½ÕUO…»4fÃ•¬£êºEdõš˜kMh6¬SÈttÂ5ªñI,â”›Dj‹ÚKÌ%­“Õ³2\”-IO!2ÁÕb°ìbW!‹ƒhCJ˜í¦«s÷¯¼ôíûã7£)w^ä¦S­b	³|Ş5ÍÖHGÒ0ÛJ¼a‘‘;Ç\å¿ââ<;XÛÎ‘jcÁß¡wv4#r°†æºn³jëµ×>ç>”U&Ôá¢û!ö¹5s™xğdRhl	ŞÆgæ.±itD„˜Ü^ğ”î,v·òEÛ›şWM€oÃ>)g°­›ÍßAÓßÚê'í¾÷)U#ŸX‰‘HÒr8rÅÆ%ctÜ¡†'&=!_Ã[Ìî““cù°yœ×dh;>KûFıÆGÈ\aÄa¯g:„ÿ\ÃÙÓO›ãHÁ§d•\“L
+L‹GÇìÅgşÆóµOFGOOé§}“LÇ¸ê›8u8' g|Çí¥$gWOÆæøôñ³Ë«‹ãñ%|ùê&Ÿ:­ù8ÔXÀĞôá¿Ò}·–¬Ü¡I†9Œ;Ÿd`ÒhØşRxZ…Ó·¡oìß`âÃ/şñßüâHz®vÑ’ÕÄ‘)ş”d†«Fæ?˜ßŒ/¯Æ—ÿùéøêj|ñŸGß¼÷G˜L¾íkû…+çÍõ7¿øÿ   ÿÿ 	¨2

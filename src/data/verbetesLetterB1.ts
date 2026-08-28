@@ -725,6 +725,7 @@ export const VERBETES_LETTER_B1: Verbete[] = [
   },
   {
     "id": "b-078",
+    "code": "B-078",
     "term": "Borda de Patch / Acabamento Merrow de Emblemas",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo feminino.",
@@ -794,6 +795,7 @@ export const VERBETES_LETTER_B1: Verbete[] = [
   },
   {
     "id": "b-079",
+    "code": "B-079",
     "term": "Bastidoramento / Processo de Enquadramento no Bastidor",
     "level": "Fundamental 🟢",
     "grammarClass": "Substantivo masculino.",
@@ -862,6 +864,7 @@ export const VERBETES_LETTER_B1: Verbete[] = [
   },
   {
     "id": "b-080",
+    "code": "B-080",
     "term": "Base de Alinhamento / Ponto de Alinhave e Fixação (Basting Stitch)",
     "level": "Fundamental 🟢",
     "grammarClass": "Substantivo feminino.",
@@ -930,6 +933,7 @@ export const VERBETES_LETTER_B1: Verbete[] = [
   },
   {
     "id": "b-081",
+    "code": "B-081",
     "term": "Braço Cilíndrico / Estrutura Free-Arm do Cabeçote",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo masculino.",
@@ -998,6 +1002,7 @@ export const VERBETES_LETTER_B1: Verbete[] = [
   },
   {
     "id": "b-082",
+    "code": "B-082",
     "term": "Balanço de Tensão da Linha (Proporção 1/3 Artrelados)",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo masculino.",
@@ -1061,6 +1066,1321 @@ export const VERBETES_LETTER_B1: Verbete[] = [
       "COATS INDUSTRIAL. Embroidery Thread Tension Balance & Stitch Formation. Londres, 2021.",
       "MADEIRA THREADS. Technical Guide: Perfect Tension Ratio in High-Speed Embroidery. Freiburg, 2023.",
       "ARTRELADOS. O Método dos 3 Terços para Tensão Perfeita no Bordado Eletrônico. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-083-bastidor-de-meia-e-punho-mini-clamp",
+    "code": "B-083",
+    "term": "Bastidor de Meia e Punho / Mini-Clamp (Sock & Wristband Framing Clamp)",
+    "level": "Intermediário 🟡",
+    "category": "Bastidores & Fixação",
+    "grammarClass": "Locução nominal composta por substantivos masculinos, femininos e adjetivos.",
+    "origin": "Do português bastidor (armação de suporte) e do inglês clamp (grampo de aperto rápido). Desenvolvido por fabricantes mecânicos nos anos 1990 para permitir a personalização seriada de peças tubulares com menos de 7 cm de diâmetro.",
+    "summary": "Dispositivo mecânico compacto com garras de aperto rápido e perfil ultrafino, projetado para fixar meias, punhos de camisas sociais e luvas no pantógrafo sem repuxar as fibras elásticas.",
+    "definition": "O bastidor de meia e punho (sock and wristband mini-clamp / micro-tubular frame) é um dispositivo mecânico de fixação especializado, composto por braçadeiras de aço inoxidável ou alumínio aeronáutico acionadas por alavanca de pressão excêntrica ou pinçamento por molas de torção. Possui dimensões compactas de trabalho (geralmente entre 40x40 mm e 60x80 mm) e perfil ultrafino que permite ser introduzido diretamente no interior de tubos têxteis estreitos, como canos de meias de compressão, punhos de camisas sociais, luvinhas de bebê e tiras de mochilas, eliminando a necessidade de descosturar a peça ou deformar a elasticidade do tecido durante o bastidoramento.",
+    "technicalDetails": "Ao contrário dos bastidores circulares tradicionais de 9 cm que exigem pelo menos 11 cm de abertura de tecido para o aro externo descer, o Mini-Clamp de meia utiliza mordentes planos revestidos com borracha vulcanizada antiderrapante que prendem a borda superior da meia sob pressão de 15 N a 20 N. Esse mecanismo mantém a área do bordado perfeitamente esticada sem esticar o elastano da meia em excesso (o que provocaria o encolhimento distorcido do bordado após o relaxamento da peça).",
+    "howItWorks": [
+      "1. O operador veste o cano da meia ou o punho da camisa sobre o suporte metálico inferior do mini-clamp com a entretela rasgável inserida por dentro.",
+      "2. Alinha-se o centro do desenho com o gabarito óptico ou marcação física do acessório.",
+      "3. A alavanca de pressão superior é abaixada, travando os mordentes emborrachados sobre as bordas do tecido com um único clique suave.",
+      "4. O bastidor é acoplado ao braço do pantógrafo tubular da máquina de bordar.",
+      "5. A máquina executa o bordado em velocidade moderada (600 a 700 PPM) com movimentos contidos do carro X/Y.",
+      "6. Ao término, a alavanca é destravada em 1 segundo e a peça sai pronta sem marcas de aro e sem deformações."
+    ],
+    "beginnerExplanation": "É um 'mini-bastidor de garrinha' feito especialmente para bordar peças bem estreitinhas que não cabem no bastidor normal, como cano de meia, punho de camisa social e luvinha de bebê! Em vez de ficar sofrendo tentando encaixar aros redondos apertados, você só veste a meia nele e fecha a garrinha com um clique rápido.",
+    "applications": [
+      "Bordado de iniciais e monogramas refinados em punhos de camisas sociais de alfaiataria.",
+      "Personalização seriada de meias esportivas, meias de compressão e meias infantis de enxoval.",
+      "Bordado de pequenos logotipos em luvas de goleiro, munhequeiras esportivas e tiras de bolsas.",
+      "Execução de marcas em golas polo fechadas e pequenas lapelas sem abrir as costuras laterais."
+    ],
+    "characteristics": [
+      "Perfil mecânico ultra-estreito que penetra em aberturas tubulares a partir de 5 cm de diâmetro.",
+      "Mordentes emborrachados que seguram o tecido sem esticar o elastano nem deixar marcas permanentes de pressão."
+    ],
+    "commonErrors": [
+      "❌ Esticar a meia com força ao prender na garrinha, fazendo o bordado enrugar todo assim que a meia relaxar fora da máquina",
+      "❌ Utilizar matrizes muito grandes ou densas (acima de 5 cm), fazendo o calcador bater nas bordas metálicas do clamp",
+      "❌ Esquecer de fazer o teste de traçado (trace) no painel antes de dar partida, colidindo a barra de agulha contra a garra de aço"
+    ],
+    "troubleshootingTips": [
+      "Se a meia estiver escorregando da garra durante os pontos: Limpe o revestimento de borracha do clamp com álcool isopropílico e use entretela rasgável de 60g por dentro.",
+      "Se o bordado ficar deformado após tirar da máquina: Reduza a tensão manual ao vestir a meia; ela deve ficar apenas assentada e lisa, nunca puxada como elástico esticado.",
+      "Se o calcador raspar no corpo do clamp: Reduza a escala do desenho no software em 10% para garantir margem de segurança de pelo menos 8 mm de cada lado."
+    ],
+    "dicaArtrelados": "Para bordar monogramas em punhos de camisas sociais sem desmanchar nenhuma costura, vista o punho aberto no mini-clamp com a abotoadura voltada para fora e use agulha fininha 70/10 Ponta Bola (SES): o acabamento fica impecável e digno de alfaiataria de luxo!",
+    "voceSabia": "Antes da invenção dos mini-clamps mecânicos nos anos 1990, bordadeiras industriais precisavam descosturar o cano da meia inteiro na máquina de costura, bordar a peça aberta na mesa plana e depois costurar a meia de volta na overloque!",
+    "practicalExercise": "Pegue uma meia velha de algodão com elastano: tente prender em um bastidor redondo comum de 10 cm e veja como ela estica e distorce. Depois coloque sobre uma superfície com uma presilha reta simulando o mini-clamp e perceba como a malha fica descansada e perfeita.",
+    "quickSummary": "Bastidor mecânico compacto de garra rápida projetado para segurar peças tubulares estreitas como meias e punhos sem esticar o tecido.",
+    "recommendedSettings": {
+      "density": "0.40 mm a 0.45 mm com pontos de suporte leves",
+      "needleType": "70/10 ou 75/11 Ponta Bola Fina (SES)",
+      "speedPPM": "600 a 700 PPM"
+    },
+    "relatedTerms": [
+      "Bastidor Tubular / Braço Livre (Tubular Free-Arm Framing)",
+      "Bastidor Magnético de Neodímio (Magnetic Hoop)",
+      "Braço Cilíndrico / Estrutura Free-Arm do Cabeçote",
+      "Bordado Tubular (Peças Fechadas e Tubulares)",
+      "Marcas de Bastidor (Hoop Burn)"
+    ],
+    "tags": [
+      "b-083",
+      "bastidor de meia",
+      "mini-clamp",
+      "punhos",
+      "meias",
+      "pequenas pecas",
+      "bastidores",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA EMBROIDERY SYSTEMS. Specialty Framing Clamps: Socks, Cuffs and Gloves Guide. Nagoya, 2022.",
+      "HOOPMASTER / EMS. Clamp Systems for Tubular and Small Garment Embroidery. Dallas, 2021.",
+      "ARTRELADOS. Guia de Bordados Especiais em Peças Pequenas, Meias e Alfaiataria. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-084-base-antiestatica-para-cones-de-linha",
+    "code": "B-084",
+    "term": "Base Antiestática para Cones de Linha (Anti-Static Spool Mat & Base Pad)",
+    "level": "Fundamental 🟢",
+    "category": "Insumos & Fios",
+    "grammarClass": "Locução nominal composta por substantivo feminino, adjetivo e preposições.",
+    "origin": "Do grego anti- (contra), statikos (que causa parada/equilíbrio elétrico) e do latim conus (carretel). Criada com a introdução de linhas de poliéster 100% de alta velocidade em ambientes climatizados com baixa umidade relativa do ar.",
+    "summary": "Disco ou manta dissipativa de feltro com fibras de carbono ou silicone condutivo instalado na base do porta-fios para neutralizar o acúmulo de eletricidade estática durante o desbobinamento da linha.",
+    "definition": "A base antiestática para cones e carretéis de linha (anti-static thread stand mat / ESD spool pad) é um acessório de proteção têxtil e metrológica confeccionado em feltro condutivo com filamentos de carbono entrelaçados ou elastômero sintético dissipador de cargas eletrostáticas (resistividade superficial na faixa de 10⁶ a 10⁹ ohms/sq). Posicionada na bandeja de suporte sob a base plástica dos cones industriais de bordar (cones de 1.000m a 5.000m), sua função é amortecer a vibração mecânica do carretel em alta rotação e drenar continuamente para a carcaça aterrada da máquina as cargas triboelétricas geradas pelo atrito do filamento de poliéster ao desenrolar em velocidades superiores a 800 PPM.",
+    "technicalDetails": "Quando a linha de poliéster sintético se desenrola do cone em alta velocidade em salas com ar-condicionado (onde a umidade relativa costuma ficar abaixo de 40%), o atrito gera eletricidade estática que atrai o fio contra o corpo plástico do cone ou contra as hastes metálicas vizinhas, provocando laçadas falsas, travamento repentino do fio no tensor e quebras inexplicáveis. A base antiestática neutraliza esse campo magnético local, garantindo saída axial 100% livre e fluida do filamento.",
+    "howItWorks": [
+      "1. O disco de base antiestática é encaixado no pino vertical do porta-cones da máquina de bordar.",
+      "2. O cone de linha de poliéster ou viscose é assentado firmemente sobre a base felpuda condutiva.",
+      "3. Conforme a máquina borda a 800-1000 PPM, o fio é puxado para cima pelo guia-fio superior em espiral.",
+      "4. O atrito contínuo de rotação não acumula cargas triboelétricas porque a base dissipa a estática para a estrutura metálica aterrada.",
+      "5. A linha sobe reta, sem 'grudar' no plástico do cone e sem chicotear nas hastes vizinhas.",
+      "6. A taxa de quebras por atrito elétrico cai para zero, mantendo a tensão de costura constante e uniforme."
+    ],
+    "beginnerExplanation": "É aquela 'almofadinha redondinha' de feltro especial que a gente coloca embaixo do cone de linha no suporte da máquina! Ela serve para amortecer o cone para ele não ficar dançando e para tirar a 'eletricidade estática' (aquele choque que faz a linha grudar no plástico do cone quando a máquina borda bem rápido). Com essa base, a linha sobe levinha e soltinha até a agulha sem enroscar.",
+    "applications": [
+      "Ateliês climatizados com ar-condicionado constante onde o ar seco gera muita eletricidade estática.",
+      "Uso com cones grandes de 4.000 e 5.000 metros de linha de poliéster 120 e linhas metálicas sensíveis.",
+      "Máquinas industriais e semi-industriais operando em velocidades elevadas (850 a 1050 PPM).",
+      "Eliminação de trepidação sonora de cones plásticos soltos batendo na bandeja do porta-fios."
+    ],
+    "characteristics": [
+      "Feltro com microfibras condutivas que drenam cargas eletrostáticas estáticas continuamente.",
+      "Superfície antiderrapante que estabiliza a base do cone impedindo que ele gire falso ou tombe no suporte."
+    ],
+    "commonErrors": [
+      "❌ Deixar o cone de linha direto na chapa de plástico lisa do suporte, fazendo a linha grudar por estática e arrebentar",
+      "❌ Usar pedaços de papelão ou feltros grossos normais que acumulam ainda mais estática e soltam fiapos na linha",
+      "❌ Não limpar a poeira que cai sobre a base antiestática, reduzindo sua capacidade de dissipação de carga"
+    ],
+    "troubleshootingTips": [
+      "Se você notar que a linha parece 'ímã' grudando na lateral do cone de plástico: Instale uma base antiestática de feltro condutivo e umedeça levemente o ambiente com umidificador de ar.",
+      "Se o cone ficar pulando e fazendo barulho no porta-fios durante o bordado rápido: Coloque o disco de feltro sob a base do carretel para absorver a vibração mecânica.",
+      "Se a linha quebrar repetidamente sempre no mesmo cone: Verifique se a base do carretel não está com rebarba plástica prendendo o fio na descida."
+    ],
+    "dicaArtrelados": "Em dias muito secos ou em salas com ar-condicionado gelado, se você não tiver uma base antiestática de fábrica, use uma rodela de feltro fino de lã pura de 5 cm de diâmetro sob o cone e coloque uma redinha no carretel: a linha desenrola macia como seda sem nenhum choque elétrico!",
+    "voceSabia": "A eletricidade estática gerada pelo desbobinamento de fios sintéticos em alta velocidade pode acumular mais de 5.000 Volts de potencial elétrico estático sobre a superfície do carretel plástico, o suficiente para fazer fios ultrafinos repelirem o ar e grudarem uns nos outros!",
+    "practicalExercise": "Passe a mão rapidamente sobre um cone de linha de poliéster em um dia seco e aproxime a ponta do fio da parede do cone: observe como o fio é atraído pelo plástico. Depois coloque o cone sobre uma base condutiva aterrada e repita o teste para ver a neutralização imediata.",
+    "quickSummary": "Disco dissipativo de feltro condutivo instalado sob o cone de linha para neutralizar a eletricidade estática e garantir desbobinamento suave.",
+    "recommendedSettings": {
+      "density": "Compatível com todos os parâmetros de matriz",
+      "needleType": "Compatível com todos os modelos",
+      "speedPPM": "750 a 1050 PPM"
+    },
+    "relatedTerms": [
+      "Bandeja de Desbobinamento / Porta-Cones Externo (Thread Stand & Cone Holder)",
+      "Redinha Protetora de Cone (Thread Net)",
+      "Cone de Linha de Bordado",
+      "Arrumação e Armazenamento de Cones de Linha (Thread Spool & Cone Rack Storage)",
+      "Alimentação Positiva de Fio / Motores de Tração Ativa (Active Positive Thread Feed)"
+    ],
+    "tags": [
+      "b-084",
+      "base antiestatica",
+      "feltro de cone",
+      "eletricidade estatica",
+      "porta fios",
+      "desbobinamento",
+      "linhas",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "MADEIRA THREADS. Static Electricity Control in High-Speed Industrial Embroidery. Freiburg, 2022.",
+      "GUNOLD GMBH. Thread Stand Accessories & Anti-Static Solutions for Modern Ateliers. Stockstadt, 2021.",
+      "ARTRELADOS. Eletrostática, Tensão e Boas Práticas de Alimentação de Fios no Bordado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-085-bloco-excentrico-do-estica-fio",
+    "code": "B-085",
+    "term": "Bloco Excêntrico do Estica-Fio (Thread Take-up Lever Cam & Drive Assembly)",
+    "level": "Avançado 🔴",
+    "category": "Equipamentos e Máquinas",
+    "grammarClass": "Locução nominal composta por substantivos masculinos, adjetivos e preposições.",
+    "origin": "Do latim ex-centrum (fora do centro) e do francês bloc (massa sólida/conjunto mecânico). Desenvolvido no século XIX pela engenharia mecânica de máquinas de costura e aprimorado com aços liga cementados nas máquinas de bordar modernas.",
+    "summary": "Conjunto mecânico interno sincronizado composto por biela e came excêntrico que converte a rotação contínua do eixo superior no movimento oscilatório vertical milimétrico da alavanca estica-fio.",
+    "definition": "O bloco excêntrico do estica-fio (thread take-up lever cam, driving crank and slide block assembly) é o subsistema cinemático de precisão alojado no interior do cabeçote da máquina de bordar computadorizada. Acoplado diretamente ao eixo principal superior (main driving shaft), ele utiliza uma ranhura de perfil curvilíneo excêntrico usinada em aço temperado de alta resistência para transformar a rotação angular de 360° do eixo em um movimento alternativo senoidal não-linear da alavanca estica-fio, sincronizado milissegundo a milissegundo com a descida da barra de agulha e a rotação do bico da lançadeira.",
+    "technicalDetails": "A geometria da pista do excêntrico é calibrada com tolerância de usinagem de ±0,005 mm para produzir um curso diferenciado: descida rápida com desaceleração controlada para liberar linha quando o bico da lançadeira engata a laçada (entre 195° e 220° de ângulo do eixo principal) e subida vigorosa acelerada para puxar e travar o nó de laçada no centro do tecido (entre 280° e 320° do ciclo). Folgas mecânicas no pino ou desgaste na bucha de bronze sinterizado do bloco provocam pontos frouxos no avesso e ruído metálico característico.",
+    "howItWorks": [
+      "1. O motor principal da máquina gira o eixo superior a velocidades de até 1.200 RPM.",
+      "2. O bloco excêntrico montado no eixo gira solidário, conduzindo o rolete guia através da ranhura de came.",
+      "3. Conforme o rolete percorre a pista excêntrica, a biela articula a alavanca estica-fio para baixo, liberando folga de linha para a lançadeira envolver a bobina.",
+      "4. No momento exato em que a agulha inicia a subida, a ranhura do excêntrico força a alavanca estica-fio a subir rapidamente.",
+      "5. A puxada vertical fecha a laçada sob o tecido com pressão uniforme.",
+      "6. O ciclo se repete perfeitamente até 20 vezes por segundo com sincronismo milimétrico garantido."
+    ],
+    "beginnerExplanation": "É a 'engrenagem mestra' de formato oval que fica escondida dentro da cabeça da máquina! Ela faz o braço do estica-fio subir e descer no ritmo certinho: ela abaixa o estica-fio bem na hora que a agulha entra no pano e puxa o estica-fio para cima bem na hora de fechar o nó do ponto lá embaixo na bobina!",
+    "applications": [
+      "Manutenção preventiva e sincronismo mecânico em máquinas de bordar multi-agulhas e industriais.",
+      "Eliminação de folgas de ponto e pontos frouxos gerados por desgaste de mancais em altas rotações.",
+      "Garantia de tensão homogênea em produções pesadas e contínuas de 24 horas por dia."
+    ],
+    "characteristics": [
+      "Fabricação em aço especial cementado com tratamento térmico anti-desgaste.",
+      "Ranhura de came de dupla ação que controla subida e descida sem depender de molas de retorno."
+    ],
+    "commonErrors": [
+      "❌ Deixar a máquina trabalhar sem lubrificação regular de óleo mineral nas articulações do excêntrico, gerando atrito e folga",
+      "❌ Usar graxas pesadas inadequadas na ranhura do came que ressecam e travam o rolete guia em dias frios",
+      "❌ Tentar forçar o giro manual do volante com a barra de agulha travada, danificando o pino guia do bloco"
+    ],
+    "troubleshootingTips": [
+      "Se o cabeçote fizer um barulho de 'martelinho batendo' na parte superior: Há folga mecânica no rolete do bloco excêntrico; consulte assistência técnica autorizada para ajuste de bucha.",
+      "Se a linha superior ficar frouxa no avesso mesmo com os tensores apertados no máximo: O sincronismo de ângulo do excêntrico do estica-fio pode ter saído do ponto (fora dos graus padrão do manual).",
+      "Se o estica-fio travar no meio do curso: Desligue a máquina na hora e verifique se não há fios de linha enrolados em volta do eixo do excêntrico."
+    ],
+    "dicaArtrelados": "A cada 15 dias de produção intensa, aplique 2 gotas de óleo de máquina transparente nas guias da alavanca do estica-fio conforme o mapa de lubrificação do seu manual. Estica-fio macio garante laçadas limpas e deixa o motor da máquina trabalhando leve e silencioso!",
+    "voceSabia": "Em uma máquina de bordar industrial operando a 1.000 PPM, o bloco excêntrico faz a alavanca estica-fio subir e descer mais de 60.000 vezes por hora, suportando acelerações mecânicas equivalentes a mais de 15 vezes a força da gravidade!",
+    "practicalExercise": "Com a máquina desligada da tomada, gire o volante manual lentamente na direção correta: olhe para a alavanca estica-fio e veja como ela desce bem devagarzinho quando a agulha perfura o tecido e sobe super rápido no final para fechar o ponto.",
+    "quickSummary": "Mecanismo excêntrico interno que converte a rotação do motor no movimento sincronizado de subida e descida do estica-fio.",
+    "recommendedSettings": {
+      "density": "Ângulo de sincronismo de subida: 280° a 310° no encoder do eixo principal",
+      "needleType": "Compatível com todos os sistemas",
+      "speedPPM": "750 a 1100 PPM"
+    },
+    "relatedTerms": [
+      "Alavanca Estica-Fio",
+      "Eixo Principal e Sensores de Posição Angular (Main Shaft & Position Sensors)",
+      "Lançadeira Rotativa",
+      "Barra de Agulhas Múltiplas / Bloco de Troca de Cor (Multi-Needle Bar & Color Changer)",
+      "Manutenção Preventiva de Máquinas de Bordar"
+    ],
+    "tags": [
+      "b-085",
+      "bloco excentrico",
+      "estica-fio",
+      "mecanica",
+      "sincronismo",
+      "came",
+      "hardware",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BARUDAN CO. Mechanical Engineering & Take-Up Cam Kinematics Manual. Ichinomiya, 2021.",
+      "TAJIMA TECHNICAL BULLETIN. Timing and Adjustment of Thread Take-up Lever Cam Mechanism. Nagoya, 2022.",
+      "ARTRELADOS. Engenharia Mecânica e Cinemática de Cabeçotes de Bordado Computadorizado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-086-borda-em-ponto-pico-picot-stitching",
+    "code": "B-086",
+    "term": "Borda em Ponto Picô / Picot Stitching (Heirloom Picot Border & Edge Loop)",
+    "level": "Fundamental 🟢",
+    "category": "Técnicas Especiais",
+    "grammarClass": "Locução nominal composta por substantivo feminino, preposição e substantivo masculino de origem francesa.",
+    "origin": "Do francês picot (pequena ponta saliente/bico de renda) e do latim borda (margem). Técnica artesanal de renda de bilro e crochê do século XVII incorporada com alta fidelidade aos softwares de digitalização de bordado nos anos 1990.",
+    "summary": "Contorno decorativo composto por pequenos laços e dentes salientes regulares projetados para fora da borda do ponto cheio, conferindo acabamento nobre estilo rendado e clássico.",
+    "definition": "A borda em ponto picô (picot border / heirloom picot edge stitching) é uma técnica clássica de acabamento e ornamentação perimetral programada no software de matrizes de bordado. Consiste na intercalação rítmica de pontos cheios (satin) estreitos na base com laçadas projetadas intencionalmente para fora da linha perimetral do tecido (geralmente entre 1,5 mm e 3,0 mm de projeção), simulando os bicos de renda artesanal, pontos de festonê vazados ou nós de frivolitê clássicos de enxovais de família (estilo Heirloom).",
+    "technicalDetails": "Para que as laçadas externas do picô mantenham sua forma arqueada sem murchar ou desfiar na lavagem, a matriz requer uma coluna de ponto cheio de base densa (0,38 mm) com ponto de suporte interno (running stitch de borda) e micro-pontos de ancoragem dupla em cada dente de projeção. É frequentemente executada sobre entretela hidrossolúvel de 80g ou tecidos de linho puro e percal com linha de algodão 50 ou poliéster brilhante 120.",
+    "howItWorks": [
+      "1. O digitalizador desenha o contorno da peça aplicando o efeito de picô ou festonê dentado no software de matrizes.",
+      "2. A máquina borda primeiramente uma linha de suporte reta ao longo da margem do tecido.",
+      "3. Em seguida, a agulha executa a coluna de ponto cheio, projetando a laçada lateral para fora a cada 4 ou 6 pontos.",
+      "4. O nó de entrelaçamento com a bobina é ancorado com firmeza na margem interna do tecido.",
+      "5. Ao concluir, as pontinhas salientes formam uma fileira de mini-bicos regulares como uma renda fina.",
+      "6. A peça ganha acabamento vintage refinado em toalhas, golas e enxovais nobres."
+    ],
+    "beginnerExplanation": "É aquele 'biquinho rendado' cheio de ondinhas ou dentinhos fofos que a gente borda nas beiradas de fraldinhas de boca, toalhas de batizado e paninhos de prato! Fica parecendo um biquinho de crochê ou renda antiga feito à mão, mas a máquina de bordar faz tudo sozinha em minutos com perfeição.",
+    "applications": [
+      "Bordas decorativas em toalhinhas de boca, fraldas de tecido duplo e mantas de bebê.",
+      "Acabamento de guardanapos de linho nobre, jogos americanos e toalhas de lavabo para casamentos.",
+      "Golas decoradas estilo vintage em vestidos infantis e camisas femininas clássicas.",
+      "Substituição de rendas costuradas em artigos de enxoval de luxo e alta costura."
+    ],
+    "characteristics": [
+      "Bordas com dentes ornamentais regulares que imitam rendas tradicionais europeias.",
+      "Excelente resistência mecânica a lavagens quando programado com travamento duplo."
+    ],
+    "commonErrors": [
+      "❌ Programar dentes de picô muito compridos (acima de 4 mm) sem ponto de fixação, fazendo os laços engancharem e puxarem fios no uso",
+      "❌ Bordar picô em tecidos de malha elástica sem entretela firme, fazendo a borda ondular como babado desajeitado",
+      "❌ Usar linha de bobina frouxa, fazendo o nó branco subir e aparecer na pontinha dos bicos de renda"
+    ],
+    "troubleshootingTips": [
+      "Se os bicos de picô ficarem caídos ou moles: Aumente a densidade do ponto cheio de sustentação para 0,36 mm e use entretela hidrossolúvel mais encorpada.",
+      "Se a borda do tecido enrugar durante o bordado: Insira uma linha de suporte prévia (underlay edge walk) antes de iniciar a coluna de picô.",
+      "Se a ponta do bico soltar após lavar: Verifique no software se a opção de travamento final (tie-off) está ativada nas extremidades do contorno."
+    ],
+    "dicaArtrelados": "Para um efeito de renda artesanal dos sonhos em toalhinhas de batizado, use linha de bordar fosca (Frosted Matt ou algodão egípcio) no tom da toalha e entretela hidrossolúvel: quando você lavar e dissolver a entretela, os biquinhos de picô ficam macios, leves e parecem feitos pelas mãos de uma vovó rendeira!",
+    "voceSabia": "A palavra 'picot' vem do francês antigo e significa literalmente 'pequeno dente perfurado'. Na corte francesa do rei Luís XIV, roupas com bordas em ponto picô eram sinal de altíssima nobreza e status real!",
+    "practicalExercise": "No seu software de bordado, crie um retângulo de 10x5 cm e aplique o contorno em ponto cheio com efeito Picô ou Festonê dentado espaçado a cada 3 mm. Borde sobre uma toalhinha de lavabo e veja o visual elegante de renda que se forma nas bordas!",
+    "quickSummary": "Contorno decorativo com pequenos laços e bicos salientes regulares que imitam rendas clássicas e nobres de enxoval.",
+    "recommendedSettings": {
+      "density": "0.36 mm a 0.40 mm com ponto de suporte perimetral",
+      "needleType": "75/11 Ponta Bola ou Ponta Aguda conforme o tecido",
+      "speedPPM": "650 a 750 PPM"
+    },
+    "relatedTerms": [
+      "Bainha Aberta Computadorizada (Machine Openwork & Entre-Deux Heirloom)",
+      "Ponto Cheio (Satin Stitch)",
+      "Festonê / Ponto de Festão (Scallop Stitch)",
+      "Entretela Hidrossolúvel",
+      "Monograma em Bordado Computadorizado"
+    ],
+    "tags": [
+      "b-086",
+      "ponto pico",
+      "picot",
+      "renda",
+      "heirloom",
+      "enxovais",
+      "toalhas",
+      "vintage",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM INTERNATIONAL. Heirloom Embroidery & Picot Stitch Borders Guide. Sydney, 2022.",
+      "MADEIRA GARN. Classic Heirloom Techniques for Fine Table Linen and Babywear. Freiburg, 2023.",
+      "ARTRELADOS. Guia de Rendas Computadorizadas, Festonês e Acabamentos Nobres. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-087-balanco-de-ponto-e-compensacao-de-inercia-do-pantografo",
+    "code": "B-087",
+    "term": "Balanço de Ponto e Compensação de Inércia do Pantógrafo (Pantograph Inertia Stitch Balance)",
+    "level": "Avançado 🔴",
+    "category": "Digitalização e Software",
+    "grammarClass": "Locução nominal composta por substantivos masculinos, femininos e preposições.",
+    "origin": "Do latim bilanx (equilíbrio) e inertia (propriedade da matéria de resistir à aceleração). Criado na década de 1980 com os primeiros servomotores digitais japoneses e controladores CNC de eixos X e Y.",
+    "summary": "Algoritmo avançado do software e da máquina que calcula a massa física do bastidor e desacelera o carro de movimentação antes de curvas fechadas e saltos, mantendo círculos e contornos com formato perfeito.",
+    "definition": "O balanço de ponto e compensação de inércia do pantógrafo (pantograph dynamic inertia balance and servo acceleration curve compensation) é a rotina algorítmica de controle de movimento e digitalização vetorial que modula a curva de aceleração e frenagem (S-curve jerk filtering) dos motores de passo e servomotores que movimentam o bastidor nos eixos cartesianos X e Y. Seu objetivo é contrapor as forças de inércia e flexão geradas pelo peso do bastidor e do tecido em velocidades acima de 800 PPM, impedindo que círculos perfeitos se tornem ovais achatados e garantindo que o início e o fim de contornos fechados se encontrem com precisão micrométrica sem sobreposições desiguais.",
+    "technicalDetails": "Em máquinas industriais, o conjunto de bastidor e pantógrafo pode pesar entre 1,5 kg e 6 kg. A uma velocidade de 1.000 PPM, o pantógrafo dispõe de apenas 25 a 35 milissegundos para se mover, parar e estabilizar a vibração antes que a agulha penetre no tecido. A compensação de inércia insere micro-desacelerações automáticas nos pontos imediatamente anteriores a curvas de raio fechado (<2 mm) e ajusta o avanço de fase dos motores em até ±0,08 mm para compensar o arrasto mecânico da inércia.",
+    "howItWorks": [
+      "1. O arquivo da matriz é lido pelo processador digital de sinal (DSP) da máquina de bordar.",
+      "2. O algoritmo analisa o vetor dos próximos 5 a 10 pontos à frente (look-ahead trajectory filter).",
+      "3. Se detectar uma mudança brusca de ângulo (como um canto de 90° ou curva circular fechada), o sistema calcula a força de inércia da massa do bastidor.",
+      "4. A máquina aplica uma rampa suave de desaceleração fracionária aos servomotores X/Y no milissegundo exato.",
+      "5. O bastidor para na coordenada nominal sem oscilação elástica ou ressonância mecânica.",
+      "6. A agulha penetra com precisão cirúrgica, resultando em círculos 100% redondos e contornos perfeitamente alinhados."
+    ],
+    "beginnerExplanation": "É como se fosse o 'piloto automático inteligente' da máquina que sabe quando frear nas curvas! Como o bastidor é pesado e a máquina borda super rápido, se ela fizer uma curva de uma vez só, o bastidor balança e o círculo sai meio torto ou achatado como um ovo. Esse sistema freia um tiquinho de nada antes da curva e acelera na reta para deixar o desenho perfeitamente redondo e alinhado!",
+    "applications": [
+      "Bordados de logotipos com círculos geométricos perfeitos, brasões e anéis concêntricos.",
+      "Contornos finos de letras pequenas (menos de 6 mm) que precisam casar perfeitamente sobre o preenchimento.",
+      "Operação com bastidores pesados (bastidores de jaquetas de 40x50 cm ou bastidores de boné) em alta rotação.",
+      "Eliminação de folgas de encaixe entre diferentes cores de um mesmo desenho."
+    ],
+    "characteristics": [
+      "Filtro preditivo de trajetória que analisa múltiplos pontos futuros para calcular a inércia.",
+      "Preserva a geometria exata do desenho original sem perder o ritmo de alta produção."
+    ],
+    "commonErrors": [
+      "❌ Forçar a máquina a 1.000 PPM em desenhos cheios de círculos pequenos com bastidor gigante pesado, deformando os círculos em elipses",
+      "❌ Deixar as correias dentadas dos eixos X e Y frouxas, criando folga mecânica que anula a compensação eletrônica de inércia",
+      "❌ Não usar ponto de suporte concêntrico no software para ancorar o tecido antes do contorno circular final"
+    ],
+    "troubleshootingTips": [
+      "Se os círculos do seu logotipo estiverem saindo ovais ou achatados na direção horizontal: Reduza a velocidade da máquina para 700 PPM e verifique a tensão das correias do eixo X.",
+      "Se o contorno final de ponto cheio terminar 1 mm afastado do início: Aumente a compensação de encolhimento no software e ative a compensação de inércia nas configurações de máquina.",
+      "Se a máquina vibrar e chacoalhar a mesa em detalhes muito rápidos: Ajuste o parâmetro de aceleração de pantógrafo (Ramp-up / Jerk control) no painel de serviço."
+    ],
+    "dicaArtrelados": "Quando for bordar desenhos com círculos perfeitamente redondos (como bolas de futebol, alvos ou relógios), use bastidor redondo o mais justo possível ao tamanho do desenho e baixe a velocidade para 650 PPM: quanto menor e mais leve o bastidor, menor é a inércia e mais perfeito fica o círculo!",
+    "voceSabia": "Os algoritmos de controle de inércia usados nos pantógrafos das máquinas de bordar modernas utilizam a mesma matemática de curvas 'S-Curve' aplicada nos braços robóticos de precisão das fábricas de montagem de satélites espaciais!",
+    "practicalExercise": "No seu software, desenhe um círculo perfeito de 5 cm de diâmetro apenas com linha de contorno simples. Borde no bastidor a 900 PPM e meça o diâmetro com uma régua nas duas direções (X e Y) para conferir a simetria milimétrica da sua máquina!",
+    "quickSummary": "Algoritmo inteligente de compensação mecânica que desacelera o pantógrafo nas curvas para manter círculos e contornos com geometria perfeita.",
+    "recommendedSettings": {
+      "density": "Compatível com todos os parâmetros",
+      "needleType": "75/11 Titânio de alta rigidez",
+      "speedPPM": "650 a 800 PPM em curvas complexas"
+    },
+    "relatedTerms": [
+      "Pantógrafo / Carro de Movimentação X-Y",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Bastidor de Bordado Computadorizado",
+      "Motores de Passo e Servomotores",
+      "Densidade de Ponto (Stitch Density)"
+    ],
+    "tags": [
+      "b-087",
+      "balanco de ponto",
+      "inercia",
+      "pantografo",
+      "circulos perfeitos",
+      "precisao",
+      "engenharia",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA EMBROIDERY SYSTEMS. High-Speed Pantograph Dynamics & Servo Control Algorithms. Nagoya, 2022.",
+      "BARUDAN CO. Precision Motion Control and Inertia Compensation in Multi-Head Machinery. Ichinomiya, 2021.",
+      "ARTRELADOS. Física Mecânica, Inércia e Geometria Perfeita no Bordado Computadorizado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-088-barramento-can-bus-em-maquinas-de-bordar",
+    "code": "B-088",
+    "term": "Barramento de Comunicação CAN-Bus em Máquinas de Bordar (Controller Area Network Embroidery Protocol)",
+    "level": "Avançado 🔴",
+    "category": "Equipamentos e Máquinas",
+    "summary": "Rede digital industrial de altíssima velocidade e blindagem eletromagnética que interliga a placa-mãe principal, os cabeçotes individuais e os sensores de quebra de linha da máquina de bordar.",
+    "grammarClass": "Locução nominal composta por substantivos masculinos, femininos, siglas e adjetivos.",
+    "origin": "Do inglês Controller Area Network (CAN), desenvolvido pela empresa alemã Robert Bosch GmbH nos anos 1980 para a indústria automotiva e adaptado às máquinas de bordar computadorizadas japonesas e alemãs nos anos 2000.",
+    "definition": "O barramento de comunicação CAN-Bus em máquinas de bordar computadorizadas (Controller Area Network high-speed differential bus system) é a arquitetura de rede digital serial multiponto e diferencial (baseada nas linhas CAN-H e CAN-L) que realiza a comunicação bidirecional em tempo real entre a placa controladora central (Main CPU / HMI Touchscreen) e os nós periféricos inteligentes da máquina (placas controladoras de cada cabeçote individual, drivers dos servomotores X/Y, sensores ópticos de quebra de linha e solenoides de corte automático). Operando em taxas de até 1 Mbps com protocolo de imunidade a ruídos eletromagnéticos e detecção automática de erros por CRC, o barramento garante que comandos de troca de cor, parada de emergência e sincronismo ocorram em frações de microssegundos em todos os cabeçotes simultaneamente.",
+    "technicalDetails": "Em máquinas industriais multi-cabeçotes tradicionais sem CAN-Bus, cada sensor e solenoide exigia chicotes de fiação volumosos de dezenas de fios individuais passando por todo o chassi, sujeitos a mau contato, quebras por vibração e indução eletromagnética dos motores. Com o barramento CAN-Bus, apenas dois fios trançados de sinal diferencial e dois fios de alimentação (24V) interligam em cascata todos os cabeçotes, com resistores de terminação de 120 ohms nas extremidades para evitar reflexão de sinal.",
+    "howItWorks": [
+      "1. A tela touch-screen da máquina envia um comando de troca para a cor de agulha número 4.",
+      "2. O processador central empacota a instrução em uma mensagem padronizada CAN com código de prioridade máxima.",
+      "3. O sinal elétrico diferencial de alta velocidade trafega pelo par trançado blindado em menos de 1 milissegundo.",
+      "4. A placa microcontroladora do cabeçote ativo decodifica o pacote e aciona o motor de passo do seletor de agulhas.",
+      "5. Sensores de posição do cabeçote respondem pela mesma rede confirmando o engate perfeito da barra de agulha.",
+      "6. A máquina retoma o bordado com sincronismo absoluto e sem risco de perda de pacotes por interferência externa."
+    ],
+    "beginnerExplanation": "É como se fosse a 'internet interna ultra-rápida' da máquina de bordar! Em vez de ter centenas de fios grossos e pesados passando por dentro da máquina para cada lâmpada, motor e sensor, ela usa apenas dois fiozinhos inteligentes trançados que conversam em alta velocidade com todas as cabeças e sensores da máquina ao mesmo tempo, sem dar interferência nem falhas.",
+    "applications": [
+      "Máquinas multi-cabeçotes industriais (de 2 a 24 cabeças) operando em sincronia milimétrica.",
+      "Comunicação instantânea de sensores inteligentes de quebra de linha com a tela principal.",
+      "Diagnóstico remoto computadorizado de falhas em placas de cabeçote individuais via código OBD.",
+      "Automação de troca de cor rápida e posicionamento de laser de alinhamento."
+    ],
+    "characteristics": [
+      "Imunidade absoluta a ruídos eletromagnéticos gerados por motores e bobinas de alta potência.",
+      "Redução de mais de 70% na quantidade de fios e chicotes elétricos dentro da estrutura da máquina."
+    ],
+    "commonErrors": [
+      "❌ Romper a malha de blindagem ou o resistor de terminação de 120 ohms durante manutenções elétricas, causando instabilidade na rede",
+      "❌ Passar cabos de rede de sinal encostados diretamente em fiações de alta tensão sem aterramento adequado",
+      "❌ Tentar lavar o chassi da máquina com água ou solventes agressivos que oxidam os conectores CAN"
+    ],
+    "troubleshootingTips": [
+      "Se a máquina acusar erro de 'Falha de Comunicação com Cabeçote': Verifique se o cabo do barramento CAN não está com conector frouxo ou pino oxidado no cabeçote correspondente.",
+      "Se todos os sensores pararem de responder ao mesmo tempo: Meça com um multímetro a resistência entre os pinos CAN-H e CAN-L com a máquina desligada (deve indicar cerca de 60 ohms se os dois terminadores estiverem perfeitos).",
+      "Se o painel reiniciar durante trocas de cor: Verifique o aterramento elétrico principal da tomada do ateliê para eliminar picos de indução estática."
+    ],
+    "dicaArtrelados": "Garanta que a sua máquina de bordar esteja conectada a uma tomada com aterramento elétrico real de boa qualidade (pino terra verdadeiro) e preferencialmente a um nobreak senoidal: isso protege as placas eletrônicas e a rede de comunicação interna contra surtos da rede elétrica da rua!",
+    "voceSabia": "O protocolo CAN-Bus é tão seguro e à prova de falhas que é o mesmo sistema obrigatório utilizado em todos os carros modernos, em aviões comerciais Boeing e Airbus e até nos módulos da Estação Espacial Internacional (ISS)!",
+    "practicalExercise": "Abra o menu de diagnóstico da sua máquina no painel touch-screen e procure a aba 'Status de Rede / Cabeçotes' ou 'Diagnóstico de Sensores': veja como cada sensor e cabeçote responde com uma luzinha verde instantânea a cada comando!",
+    "quickSummary": "Rede digital industrial rápida e blindada que conecta a placa-mãe, sensores e cabeçotes com imunidade total a ruídos elétricos.",
+    "recommendedSettings": {
+      "density": "Taxa de transmissão: 500 kbps a 1 Mbps com terminação de 120 ohms",
+      "needleType": "Compatível com todos os sistemas",
+      "speedPPM": "750 a 1200 PPM"
+    },
+    "relatedTerms": [
+      "Auto-Diagnóstico e Telemetria de Falhas em Máquinas de Bordar (Automated Machine Telemetry & Error Logging)",
+      "Painel Touch-Screen e Interface Homem-Máquina (HMI Touch Display & OS)",
+      "Sensor de Quebra de Linha",
+      "Barra de Agulhas Múltiplas / Bloco de Troca de Cor (Multi-Needle Bar & Color Changer)",
+      "Manutenção Preventiva de Máquinas de Bordar"
+    ],
+    "tags": [
+      "b-088",
+      "can-bus",
+      "comunicacao",
+      "eletronica",
+      "redes",
+      "cabecotes",
+      "hardware",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BOSCH. CAN Specification Version 2.0 & Industrial Automation Guidelines. Stuttgart, 2021.",
+      "TAJIMA EMBROIDERY MACHINERY. Electronic Architecture & High-Speed CAN Bus Diagnostics. Nagoya, 2022.",
+      "ARTRELADOS. Engenharia Eletrônica, Barramentos Digitais e Redes em Máquinas de Bordar. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-089-bobinador-externo-de-carretilhas-bobbin-winder",
+    "code": "B-089",
+    "term": "Bobinador Externo de Carretilhas / Bobbin Winder Independente",
+    "level": "Fundamental 🟢",
+    "category": "Equipamentos e Máquinas",
+    "grammarClass": "Locução nominal composta por substantivos masculinos e adjetivos.",
+    "origin": "Do francês bobine (pequeno cilindro de enrolar fios) e do inglês winder (enrolador mecânico). Surgiu nos anos 1970 para atender a demanda de produção ininterrupta em confecções e ateliês profissionais.",
+    "summary": "Equipamento elétrico de bancada com motor dedicado e sensor de diâmetro regulável, utilizado para encher bobinas de linha inferior em paralelo à produção sem ocupar a máquina de bordar.",
+    "definition": "O bobinador externo de carretilhas (stand-alone motorized bobbin winder / independent spooling station) é um dispositivo eletromecânico auxiliar de bancada equipado com motor elétrico independente de corrente contínua (DC) de alta rotação (2.500 a 4.000 RPM), tensor de disco pré-calibrado para linha de bobina (60wt a 80wt) e chave fim de curso mecânica ou óptica com desligamento automático ajustável por diâmetro. Sua função é permitir o enchimento rápido, homogêneo e com tensão controlada de carretilhas metálicas ou plásticas (tamanhos L, M ou A) enquanto a máquina de bordar trabalha na produção regular.",
+    "technicalDetails": "O bobinador externo aplica um tensionamento mecânico constante de 25 cN a 35 cN através de um conjunto duplo de discos com mola de compressão e guia oscilante de vaivém. Isso garante que a linha de bobina de poliéster 100% (60wt a 80wt) seja enrolada em camadas paralelas e compactas, evitando o encavalamento de voltas ou o 'efeito carretel mole' que gera travamento e desequilíbrio na caixa de bobina.",
+    "howItWorks": [
+      "1. O operador instala o cone grande de linha de bobina (de 5.000m a 20.000m) no suporte traseiro do bobinador.",
+      "2. Passa o fio pelos discos tensores e pela guia oscilante de distribuição lateral.",
+      "3. Encaixa a carretilha vazia no eixo de rotação e dá 4 a 5 voltas manuais no núcleo.",
+      "4. Empurra a alavanca do sensor de diâmetro contra a carretilha e pressiona o botão de partida.",
+      "5. O motor enrola a linha de maneira perfeitamente nivelada e uniforme em menos de 30 segundos.",
+      "6. Ao atingir 85% a 90% da capacidade volumétrica, o sensor desarma o motor instantaneamente, entregando uma carretilha pronta para uso."
+    ],
+    "beginnerExplanation": "É um aparelhinho elétrico de bancada que serve só para encher bobinas rapidinho! Em vez de você ter que parar a máquina de bordar no meio do serviço para encher carretilhas, você usa esse aparelhinho separado para deixar dezenas de bobinas cheias e guardadas, prontas para trocar em 5 segundos no ateliê!",
+    "applications": [
+      "Produção contínua e seriada em ateliês e fábricas de bordado computadorizado.",
+      "Padronização de tensão uniforme em todas as carretilhas de linha inferior.",
+      "Enchimento de carretilhas grandes (estilo Jumbo M) para máquinas industriais e de boné.",
+      "Economia de tempo operacional eliminando paradas de máquina para enrolar fio."
+    ],
+    "characteristics": [
+      "Motor independente de alta rotação com desligamento automático por batente.",
+      "Distribuidor mecânico em vaivém que enche a bobina de forma perfeitamente reta sem barrigas."
+    ],
+    "commonErrors": [
+      "❌ Encher a bobina até transbordar pelas laterais, fazendo o carretel raspar nas paredes da caixa de bobina e travar",
+      "❌ Enrolar a linha com tensor frouxo demais, deixando a bobina 'esponjosa' que arrebenta no meio do bordado",
+      "❌ Usar velocidade excessiva em linhas de baixa qualidade sem passar pelo tensor, criando nós internos no carretel"
+    ],
+    "troubleshootingTips": [
+      "Se a carretilha encher mais em um lado do que no outro (formato cônico): Regule a altura do parafuso da guia de distribuição oscilante no corpo do bobinador.",
+      "Se a bobina estiver murcha e mole ao apertar com o dedo: Aperte a porca dos discos tensores do bobinador em meia volta para aumentar a pressão de enrolamento.",
+      "Se o motor não desligar sozinho ao terminar: Ajuste a distância da haste de desarme mecânico para encostar na borda da linha a 1 mm da borda do carretel."
+    ],
+    "dicaArtrelados": "Nunca encha a carretilha até a tampa! Deixe sempre 1 mm de folga antes da borda metálica: isso evita que a bobina fique raspando dentro da caixa de bobina e garante que a linha saia macia e fluida durante todo o bordado!",
+    "voceSabia": "Uma carretilha de tamanho L cheia em um bobinador com tensão correta contém cerca de 110 metros de linha de bobina 60wt, o suficiente para bordar aproximadamente 40.000 a 50.000 pontos sem precisar trocar a linha inferior!",
+    "practicalExercise": "Encha duas carretilhas: uma com o tensor bem solto e outra com o tensor ajustado corretamente. Aperte ambas entre o polegar e o indicador: a correta deve ser firme como um cilindro de madeira maciça, enquanto a errada cede como uma esponja mole.",
+    "quickSummary": "Aparelho elétrico independente de bancada para encher carretilhas de bobina com rapidez, tensão uniforme e desligamento automático.",
+    "recommendedSettings": {
+      "density": "Capacidade ideal de enchimento: 85% a 90% do volume da carretilha",
+      "needleType": "Compatível com carretilhas tipo L, M e domésticas A",
+      "speedPPM": "Rotação de bobinamento: 3.000 RPM"
+    },
+    "relatedTerms": [
+      "Bobina de Bordado / Linha de Bobina 60wt-70wt (Bobbin Thread & Tension Balance)",
+      "Caixa de Bobina (Bobbin Case)",
+      "Balanço de Tensão da Linha (Proporção 1/3 Artrelados)",
+      "Lançadeira Rotativa",
+      "Sensor de Linha de Bobina"
+    ],
+    "tags": [
+      "b-089",
+      "bobinador",
+      "bobbin winder",
+      "carretilha",
+      "linha de bobina",
+      "equipamentos",
+      "acessorios",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "GUNOLD GMBH. Bobbin Winding & Thread Tension Management for Industrial Embroidery. Stockstadt, 2021.",
+      "TAJIMA EMBROIDERY SYSTEMS. Auxiliary Equipment: Electric Bobbin Winders User Manual. Nagoya, 2022.",
+      "ARTRELADOS. Guia de Gestão de Linhas, Bobinas e Produtividade em Ateliê. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-090-batimento-de-chapa-e-desvio-de-agulha",
+    "code": "B-090",
+    "term": "Batimento de Chapa e Desvio de Agulha (Needle Deflection & Needle Plate Striking)",
+    "level": "Intermediário 🟡",
+    "category": "Equipamentos e Máquinas",
+    "grammarClass": "Locução nominal composta por substantivos masculinos, preposições e substantivos femininos.",
+    "origin": "Do latim battere (golpear repetidamente), tabula (chapa de metal) e desviare (sair da rota retilínea). Fenômeno mecatrônico identificado desde os primeiros teares de bordar mecânicos de alta velocidade no século XX.",
+    "summary": "Colisão mecânica da haste ou ponta da agulha contra o orifício da chapa metálica de ponto provocada pela flexão lateral da agulha ao penetrar tecidos densos ou por aceleração do pantógrafo.",
+    "definition": "O batimento de chapa e desvio de agulha (needle deflection, bending torque and needle plate throat strike) é a falha mecânica dinâmica caracterizada pela flexão elástica ou plástica da haste da agulha sob a ação de forças vetoriais transversais no momento da penetração ou retirada do tecido. Essa deflexão faz com que a ponta da agulha se desloque do eixo central e colida violentamente contra as bordas internas do orifício da chapa de agulha (throat plate hole) ou contra a garra protetora da lançadeira, provocando quebra instantânea da agulha, formação de rebarbas cortantes de metal na chapa e descalibração do sincronismo mecânico.",
+    "technicalDetails": "O orifício da chapa de agulha para bordado possui diâmetro padrão entre 1,6 mm e 2,2 mm. Uma agulha 75/11 tem diâmetro de haste de apenas 0,75 mm, restando uma folga perimetral de menos de 0,5 mm de tolerância. Em tecidos grossos (como jeans pesado, lona e couro sintético de 1,2 mm) ou quando a matriz possui pontos com densidade excessiva (>0,30 mm), a resistência de penetração gera uma força de flexão lateral superior a 8 N, curvando a agulha e ocasionando o impacto.",
+    "howItWorks": [
+      "1. A barra de agulha desce na velocidade de 800 PPM para perfurar o tecido.",
+      "2. Se o tecido for excessivamente duro ou o bastidor estiver se movendo antes da saída total da ponta, a agulha sofre flexão lateral (deflexão).",
+      "3. A ponta curvada perde o alinhamento com o centro do orifício da chapa de agulha.",
+      "4. A ponta da agulha bate com impacto de alta energia na borda de aço da chapa de ponto.",
+      "5. Acontece um estalo metálico audível: a agulha quebra ou fica com a ponta rombuda e a chapa ganha uma marca rebarbada.",
+      "6. Os bordados seguintes passam a desfiar a linha e quebrar constantemente até que a chapa seja polida e a agulha substituída."
+    ],
+    "beginnerExplanation": "É quando a agulha enverga de lado e 'bate com tudo' no buraquinho de metal por onde ela deveria passar livremente! Isso acontece quando o tecido é muito duro, quando o desenho tem pontos demais amontoados no mesmo lugar ou quando a agulha é muito fininha para o tecido. Faz um barulho de 'clack' e a agulha quebra na hora!",
+    "applications": [
+      "Diagnóstico rápido de quebras frequentes de agulha e desfiamento repentino de linha.",
+      "Manutenção corretiva com polimento de chapa de ponto para remover rebarbas com lixa 1200.",
+      "Seleção correta de agulhas de haste reforçada (revestidas de titânio ou sistema DBxK5) para materiais grossos.",
+      "Ajuste de matrizes para evitar concentração perigosa de micro-pontos em áreas densas."
+    ],
+    "characteristics": [
+      "Sintoma marcado por ruído de impacto metálico seco e quebra da agulha na altura da canaleta.",
+      "Gera micro-rebarbas afiadas na chapa de agulha que cortam a linha do bordado a cada poucos pontos."
+    ],
+    "commonErrors": [
+      "❌ Continuar bordando após uma batida de agulha sem lixar a rebarba da chapa de ponto, arrebentando linhas sem parar",
+      "❌ Usar agulha 65/9 ultrafina para bordar tecidos pesados como jaquetas jeans ou courvin espesso",
+      "❌ Não ativar a limpeza de pontos curtos no software de bordado, acumulando 10 pontos no mesmo pixel"
+    ],
+    "troubleshootingTips": [
+      "Se você ouvir um 'clack' e a agulha quebrar: Passe a ponta do dedo na borda do buraquinho da chapa; se sentir uma rebarba áspera, lustre com lixa d'água 1200 e fio dental com pasta de polir.",
+      "Se a agulha flexionar em tecidos grossos: Troque por uma agulha 80/12 ou 90/14 de Titânio com haste reforçada antitorção.",
+      "Se a batida acontecer durante curvas rápidas: Diminua a velocidade da máquina para 650 PPM no painel."
+    ],
+    "dicaArtrelados": "Sempre que uma agulha quebrar com estalo forte na máquina, passe uma meia de seda fina ou a ponta da unha na borda da chapa de ponto: se enganchar, há uma rebarba invisível que vai cortar sua linha o dia todo. Uma passadinha rápida de lixa d'água 1200 resolve em 1 minuto!",
+    "voceSabia": "Em uma colisão de agulha contra a chapa a 1.000 PPM, a ponta de aço experimenta uma desaceleração instantânea com impacto equivalente a uma pancada de mais de 50 kg concentrada em uma área microscópica menor que 0,1 milímetro quadrado!",
+    "practicalExercise": "Retire a chapa de agulha da sua máquina e examine o orifício de entrada sob boa iluminação com uma lupa: veja se as bordas são 100% lisas e arredondadas ou se há marquinhas de batidas antigas de agulha que precisam de polimento.",
+    "quickSummary": "Colisão mecânica da agulha contra a borda da chapa de ponto por envergamento lateral, exigindo troca de agulha e polimento da chapa.",
+    "recommendedSettings": {
+      "density": "Eliminar micro-pontos menores que 0.8 mm na matriz",
+      "needleType": "75/11 a 90/14 Titânio (DBxK5 SAN 1 Gebedur)",
+      "speedPPM": "600 a 750 PPM em materiais rígidos"
+    },
+    "relatedTerms": [
+      "Chapa de Agulha e Orifício de Ponto (Needle Throat Plate)",
+      "Agulha de Titânio (Titanium Nitride Coated Needle)",
+      "Lançadeira Rotativa",
+      "Bico da Lançadeira / Ponta do Gancho (Rotary Hook Point & Hook Tip)",
+      "Filtro de Pontos Curtos (Short Stitch Filter)"
+    ],
+    "tags": [
+      "b-090",
+      "batimento de chapa",
+      "deflexao",
+      "quebra de agulha",
+      "chapa de ponto",
+      "manutencao",
+      "mecanica",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "SCHMETZ NEEDLES. Needle Deflection, Bending Forces & Throat Plate Damage Technical Guide. Herzogenrath, 2022.",
+      "GROZ-BECKERT. Sewing and Embroidery Machine Needles: Deflection and Clearance Analysis. Albstadt, 2021.",
+      "ARTRELADOS. Manual de Diagnóstico de Falhas, Rebarbas e Ajustes Mecânicos. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-091-buffer-de-memoria-e-fila-de-pontos-da-cpu",
+    "code": "B-091",
+    "term": "Buffer de Memória e Fila de Pontos da CPU (Embroidery Stitch Buffer & DSP Cache)",
+    "level": "Avançado 🔴",
+    "category": "Equipamentos e Máquinas",
+    "grammarClass": "Locução nominal composta por substantivos masculinos, femininos e siglas técnicas.",
+    "origin": "Do inglês buffer (amortecedor/reserva de memória temporária) e do latim memoria. Introduzido nos painéis computadorizados de bordado nos anos 1990 com a chegada dos processadores RISC e DSP de 32 bits.",
+    "summary": "Memória volátil de alta velocidade (SRAM/DRAM) no processador da máquina que pré-carrega e decodifica milhares de coordenadas de pontos para garantir movimento contínuo dos motores sem travamentos.",
+    "definition": "O buffer de memória e fila de pontos da CPU (embroidery stitch pipeline buffer, DSP motion cache and FIFO queue) é a área de armazenamento temporário de altíssima velocidade localizada na arquitetura de memória do controlador eletrônico principal da máquina de bordar. Sua função primária é efetuar o pré-carregamento (look-ahead caching) de um bloco contínuo de 2.000 a 10.000 pontos da matriz a partir do pendrive ou memória Flash interna, decodificando as coordenadas binárias em pulsos de passo de aceleração e desaceleração para os servomotores X/Y e motor de costura.",
+    "technicalDetails": "Em velocidades de 1.000 PPM, a máquina executa 16,6 pontos por segundo, consumindo dados com rigor de tempo real absoluto. Se a máquina lesse cada coordenada diretamente de um pendrive USB lento ou de uma porta serial a cada descida de agulha, qualquer latência de barramento (I/O latency de 5 ms) provocaria micro-pausas na costura, vibrações no pantógrafo e nós no verso. O buffer FIFO mantém a fila sempre cheia com redundância de tempo, garantindo fluidez contínua.",
+    "howItWorks": [
+      "1. O arquivo de bordado (formato DST, PES, EXP) é carregado na memória de trabalho da máquina.",
+      "2. O processador principal (CPU) lê os blocos de dados e os deposita na fila do buffer FIFO (First-In, First-Out).",
+      "3. O processador de sinal digital (DSP) interpola os vetores geométricos em frequências de pulsos elétricos para os drivers dos motores.",
+      "4. Conforme os pontos são executados na tela, o buffer descarta os pontos antigos e puxa novos pontos do arquivo antecipadamente.",
+      "5. Se ocorrer uma queda momentânea de velocidade de leitura USB, o buffer absorve a oscilação sem que a máquina vacile.",
+      "6. O pantógrafo desliza suavemente com precisão temporal de nanossegundos."
+    ],
+    "beginnerExplanation": "É como o 'estoque de pontos adiantados' da memória da máquina! É a mesma coisa de quando você assiste a um vídeo na internet e aquela barrinha cinza carrega um pedacinho na frente para o vídeo não ficar travando e engasgando. A máquina de bordar lê milhares de pontos com antecedência para bordar lisinho e sem parar nem por um segundo!",
+    "applications": [
+      "Execução fluida de matrizes complexas com mais de 100.000 pontos em alta velocidade.",
+      "Prevenção de paradas e engasgos causados por pendrives lentos ou arquivos corrompidos.",
+      "Possibilidade de retomar o bordado exatamente no ponto de corte após queda de energia elétrica.",
+      "Cálculo em tempo real de estimativa de tempo restante e contagem regressiva de pontos."
+    ],
+    "characteristics": [
+      "Arquitetura de fila FIFO com latência de resposta inferior a 50 microssegundos.",
+      "Permite retorno ou avanço de centenas de pontos na tela com resposta instantânea ao toque."
+    ],
+    "commonErrors": [
+      "❌ Usar pendrives de 64GB ou 128GB lotados de arquivos pesados, sobrecarregando o sistema de leitura e esvaziando o buffer",
+      "❌ Puxar o pendrive da máquina com o bordado em andamento, causando erro de estouro de buffer (Buffer Underrun Error)",
+      "❌ Salvar arquivos com nomes gigantescos cheios de caracteres especiais que travam a fila de decodificação da CPU"
+    ],
+    "troubleshootingTips": [
+      "Se a máquina der pequenas 'engasgadinhas' de 1 segundo entre as seções do desenho: Transfira a matriz diretamente para a memória interna da máquina em vez de bordar direto do pendrive.",
+      "Se aparecer mensagem de erro 'Buffer Error' ou 'Memory Overflow': Salve a matriz em pendrive formatado em FAT32 de capacidade moderada (4GB a 8GB).",
+      "Se a máquina demorar para responder ao botão de pausa: Aguarde 2 segundos; o processador está finalizando o bloco de segurança do buffer ativo."
+    ],
+    "dicaArtrelados": "Para que sua máquina de bordar trabalhe sempre rápida e nunca dê erros de memória, use pendrives dedicados de 4GB a 8GB formatados em FAT32 e guarde apenas as matrizes que você vai bordar no dia. Máquina com memória limpa roda suave e nunca trava no meio do serviço!",
+    "voceSabia": "As primeiras máquinas de bordar computadorizadas dos anos 1980 tinham um buffer de memória de apenas 16 Kilobytes (KB) e liam as coordenadas diretamente de fitas perfuradas de papel a cada sequência de 500 pontos!",
+    "practicalExercise": "No painel da sua máquina, clique no botão de 'Avançar/Recuar Pontos' (+100 / -100 pontos): perceba a velocidade instantânea com que a agulha virtual se move na tela graças ao buffer de pontos pré-carregado na memória.",
+    "quickSummary": "Memória temporária ultrarrápida da CPU da máquina que pré-carrega milhares de pontos da matriz para garantir costura contínua e sem travamentos.",
+    "recommendedSettings": {
+      "density": "Compatível com matrizes de até 500.000 pontos",
+      "needleType": "Compatível com todos os modelos",
+      "speedPPM": "750 a 1200 PPM"
+    },
+    "relatedTerms": [
+      "Painel Touch-Screen e Interface Homem-Máquina (HMI Touch Display & OS)",
+      "Barramento de Comunicação CAN-Bus em Máquinas de Bordar (Controller Area Network Embroidery Protocol)",
+      "Auto-Diagnóstico e Telemetria de Falhas em Máquinas de Bordar (Automated Machine Telemetry & Error Logging)",
+      "Formatos de Arquivo de Bordado (DST, PES, EXP, JEF)",
+      "Motores de Passo e Servomotores"
+    ],
+    "tags": [
+      "b-091",
+      "buffer",
+      "memoria",
+      "cpu",
+      "processador",
+      "fila de pontos",
+      "eletronica",
+      "hardware",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA SYSTEMS. Microcontroller Hardware Architecture & Real-Time Motion Control. Nagoya, 2022.",
+      "BARUDAN TECHNICAL PAPERS. Stitch Buffer Management and Memory Allocation. Ichinomiya, 2021.",
+      "ARTRELADOS. Computação Embarcada, Memória e Processamento em Bordado Eletrônico. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-092-borda-ondulada-em-festone-frances",
+    "code": "B-092",
+    "term": "Borda Ondulada em Festonê Francês (French Scalloped Edge & Cutwork Border)",
+    "level": "Fundamental 🟢",
+    "category": "Técnicas Especiais",
+    "grammarClass": "Locução nominal composta por substantivos femininos, masculinos e adjetivos pátrios.",
+    "origin": "Do francês feston (ornamento em forma de guirlanda curva) e do latim orla (margem). Técnica nobre tradicional da alta-costura e enxovais franceses dos séculos XVIII e XIX adaptada para matrizes de bordado digital.",
+    "summary": "Contorno decorativo composto por arcos e curvas onduladas contínuas em ponto cheio com reforço interno e corte rente, utilizado em barras de lençóis, toalhas de mesa e vestidos de noiva.",
+    "definition": "A borda ondulada em festonê francês (French scalloped cutwork border / embroidered wave edge) é uma técnica clássica de acabamento de barras e orlas têxteis que dispensa bainhas convencionais costuradas. Caracteriza-se por uma sequência contínua de semicírculos convexos regulares (arcos de 10 mm a 25 mm de largura) bordados em ponto cheio (satin) de alta densidade (0,35 mm a 0,38 mm), precedidos por uma densa estrutura de suporte (duas linhas de costura perimetral paralelas preenchidas com zigue-zague de sustentação). Após o bordado sobre entretela hidrossolúvel ou termorrígida, o tecido excedente é recortado rente com tesoura pelicano, criando uma barra ondulada nobre e perfeitamente selada contra desfiamento.",
+    "technicalDetails": "Para resistir a dezenas de lavagens industriais sem que o tecido escape por entre as laçadas na curva do arco, o festonê francês digitalizado exige obrigatoriamente três etapas sequenciais na matriz: 1) Linha de marcação e corte guia (run line); 2) Ponto de enchimento estrutural (underlay zigzag com densidade 1,2 mm); 3) Cobertura final em ponto cheio perpendicular ao raio da curva com compensação de repuxo de +0,4 mm.",
+    "howItWorks": [
+      "1. O tecido é montado no bastidor com entretela hidrossolúvel encorpada de 80g por baixo.",
+      "2. A máquina borda a linha de corrida perimetral definindo o desenho dos arcos ondulados.",
+      "3. Em seguida, borda o zigue-zague de suporte interno que cria corpo tridimensional e sela as tramas do tecido.",
+      "4. A coluna final de ponto cheio com ângulo radial cobre todo o suporte com acabamento acetinado.",
+      "5. A peça é retirada do bastidor e o excesso de tecido externo é cortado com tesoura bico de pato rente ao ponto.",
+      "6. Ao lavar com água morna, a entretela se dissolve, revelando uma borda ondulada solta, macia e luxuosa."
+    ],
+    "beginnerExplanation": "É aquela barrinha cheia de ondas redondinhas e perfeitas que a gente vê em barras de lençóis caros de hotel 5 estrelas e toalhas de mesa chiques! Você borda as ondinhas cheias com a máquina e depois corta o excesso de tecido bem pertinho com uma tesoura pelicano. Não precisa fazer bainha na máquina de costura: a própria borda de bordado vira o acabamento da peça!",
+    "applications": [
+      "Barras de jogos de cama de casal e solteiro em percal 300 e 400 fios.",
+      "Acabamento de toalhas de mesa nobres para jantares e eventos formais.",
+      "Babados e golas de vestidos de noiva, vestidos de batizado e roupas infantis.",
+      "Fraldas de boca e mantas de bebê com acabamento clássico de alta classe."
+    ],
+    "characteristics": [
+      "Borda ondulada recortável com selamento total contra desfiamento de fios.",
+      "Visual de alta-costura com textura macia e relevo suave ao toque."
+    ],
+    "commonErrors": [
+      "❌ Cortar o tecido antes do bordado sem deixar margem de segurança, fazendo o ponto cheio escapar no vazio",
+      "❌ Programar o ponto cheio sem zigue-zague de suporte interno, fazendo o tecido desfiar e abrir buracos na primeira lavagem",
+      "❌ Usar tesoura comum com ponta reta que perfura a linha do ponto cheio durante o corte do excesso"
+    ],
+    "troubleshootingTips": [
+      "Se a barra do festonê enrugar formando ondas tortas: Aumente a firmeza do bastidoramento e use duas camadas de entretela hidrossolúvel sob o tecido.",
+      "Se alguns fios do tecido escaparem para fora após o corte: Aumente a largura da coluna de ponto cheio para pelo menos 3,5 mm na matriz.",
+      "Se o tecido ficar repuxado nos encontros dos arcos: Aplique compensação de encolhimento de +0,4 mm nas junções internas dos arcos no software."
+    ],
+    "dicaArtrelados": "Para um corte perfeito e sem medo de estragar o bordado, use sempre a Tesoura Pelicano (Bico de Pato): a pá redonda inferior da tesoura afasta o tecido de baixo e desliza protegendo a linha do ponto cheio, permitindo cortar o excesso a 0,5 mm da borda com total segurança e rapidez!",
+    "voceSabia": "Na França dos séculos XVIII e XIX, a confecção de barras em festonê de um único jogo de lençóis de linho exigia semanas de trabalho manual minucioso de bordadeiras reais. Hoje, uma máquina computadorizada executa a mesma barra inteira em menos de 15 minutos!",
+    "practicalExercise": "Pegue um retalho de tecido de percal com entretela hidrossolúvel: programe uma barra ondulada de 15 cm com 5 arcos de festonê. Após o bordado, use a tesoura pelicano para aparar o excesso e lave em água morna para sentir o toque macio e solto da borda finalizada.",
+    "quickSummary": "Contorno ondulado decorativo em arcos de ponto cheio selados que substitui a bainha tradicional em lençóis e toalhas nobres.",
+    "recommendedSettings": {
+      "density": "0.35 mm a 0.38 mm com zigue-zague duplo de suporte",
+      "needleType": "75/11 Ponta Aguda (RG) para tecidos planos",
+      "speedPPM": "650 a 750 PPM"
+    },
+    "relatedTerms": [
+      "Festonê / Ponto de Festão (Scallop Stitch)",
+      "Bico de Pato / Tesoura Pelicano (Duckbill Appliqué Scissors)",
+      "Borda em Ponto Picô / Picot Stitching (Heirloom Picot Border & Edge Loop)",
+      "Bainha Aberta Computadorizada (Machine Openwork & Entre-Deux Heirloom)",
+      "Entretela Hidrossolúvel"
+    ],
+    "tags": [
+      "b-092",
+      "festone frances",
+      "borda ondulada",
+      "lencois",
+      "toalhas de mesa",
+      "enxovais",
+      "recorte",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "WILCOM INTERNATIONAL. Scalloped Edges & Cutwork Border Digitizing Guide. Sydney, 2022.",
+      "MADEIRA GARN. French Heirloom Embroidery and Edge Finishing Masterclass. Freiburg, 2023.",
+      "ARTRELADOS. Guia de Bordados Nobres para Cama, Mesa e Banho de Luxo. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-093-barra-estabilizadora-de-tensao-superior-pente-guia-fios",
+    "code": "B-093",
+    "term": "Barra Estabilizadora de Tensão Superior / Pente Guia-Fios (Thread Guide Comb & Tension Rail)",
+    "level": "Intermediário 🟡",
+    "category": "Equipamentos e Máquinas",
+    "grammarClass": "Locução nominal composta por substantivos femininos, masculinos e preposições.",
+    "origin": "Do latim barra (trave de sustentação), stabilis (firme/constante) e pecten (pente organizador). Desenvolvida pela engenharia têxtil com a criação das primeiras máquinas industriais multi-agulhas de 6 a 15 cores nos anos 1980.",
+    "summary": "Barra metálica ranhurada com ilhoses cerâmicos ou feltros de retenção que organiza e estabiliza a descida paralela dos múltiplos cones de linha até os blocos tensores individuais sem cruzamento ou chicoteamento.",
+    "definition": "A barra estabilizadora de tensão superior e pente guia-fios (thread guide comb rail, eyelet tension bracket and anti-twist stabilizer) é um perfil estrutural de alumínio extrudado ou aço inoxidável posicionado estrategicamente entre o mastro telescópico superior e os blocos de tensores primários do cabeçote da máquina de bordar multi-agulhas. Equipada com fileiras de ilhoses cerâmicos de alta dureza (zircônia/alumina), orifícios com feltro de pré-tensão e pinos separadores angulares, sua função é amortecer a vibração e o efeito de chicoteamento helicoidal dos fios em alta velocidade, assegurando que cada uma das 6 a 15 linhas desça em trajetória perfeitamente retilínea, paralela e sem atrito estático cruzado.",
+    "technicalDetails": "Conforme a máquina borda a 1.000 PPM, os cones inativos vibram por ressonância mecânica e o cone ativo desenrola fio em movimentos helicoidais de até 50 Hz. Sem a barra estabilizadora, os fios inativos vizinhos são arrastados por turbulência de ar e atrito eletrostático, enroscando-se nas hastes vizinhas e provocando quebras simultâneas. Os anéis cerâmicos da barra possuem coeficiente de atrito inferior a 0,15 e dissipam o calor gerado pela passagem contínua da linha.",
+    "howItWorks": [
+      "1. Cada fio sai do topo do seu respectivo cone no porta-fios e sobe até a haste guia superior.",
+      "2. Na descida para o cabeçote, o fio passa individualmente pelo orifício cerâmico dedicado na barra estabilizadora (pente guia).",
+      "3. O anel cerâmico alinha o fio em um ângulo exato de 90° em relação à entrada do disco tensor primário.",
+      "4. Feltros de pré-tensão integrados na barra removem ondulações e espirais do fio antes que ele entre nos discos tensores.",
+      "5. Durante as trocas rápidas de cor, os fios que estão parados permanecem firmes nos seus canais sem cair ou cruzar.",
+      "6. O cabeçote borda com estabilidade de tensão homogênea em todas as agulhas do início ao fim do lote."
+    ],
+    "beginnerExplanation": "É aquela 'barrinha organizadora' cheia de buraquinhos de cerâmica brilhante que fica na parte de cima da cabeça da máquina! Ela funciona como um pente que arruma todos os fios para descerem bem retinhos e separados até as agulhas, sem que uma linha passe por cima da outra ou embole nos cones vizinhos quando a máquina estiver bordando rápido!",
+    "applications": [
+      "Máquinas de bordar multi-agulhas de 6, 9, 12 e 15 agulhas por cabeçote.",
+      "Eliminação de laçadas falsas causadas pelo chicoteamento de fios finos ou metálicos.",
+      "Manutenção da pré-tensão correta antes da entrada nos tensores eletrônicos e manuais.",
+      "Prevenção de nós acidentais na troca automática de cores."
+    ],
+    "characteristics": [
+      "Ilhoses em cerâmica nobre polida com altíssima resistência a desgaste por abrasão de poliéster.",
+      "Canais individuais paralelos que eliminam qualquer possibilidade de cruzamento de linhas."
+    ],
+    "commonErrors": [
+      "❌ Pular um dos furos da barra estabilizadora ao passar a linha, deixando o fio solto chicoteando no ar",
+      "❌ Cruzar os fios de dois cones diferentes no mesmo canal do pente, fazendo uma linha travar a outra na troca de cor",
+      "❌ Deixar acúmulo de poeira e fiapos nos ilhoses cerâmicos, aumentando a tensão da linha de forma descontrolada"
+    ],
+    "troubleshootingTips": [
+      "Se a linha estiver pulando para fora do tensor durante o bordado rápido: Verifique se o fio está passando corretamente pelo orifício central da barra estabilizadora.",
+      "Se o fio apresentar marcas de desfiamento antes de chegar na agulha: Examine os anéis cerâmicos da barra com uma lupa; se houver cerâmica trincada ou com sulco afiado, substitua o ilhós.",
+      "Se uma linha inativa cair e enrolar no cone vizinho: Passe o fio pelo feltro de retenção da barra estabilizadora para mantê-lo levemente esticado."
+    ],
+    "dicaArtrelados": "Ao passar a linha em máquinas multi-agulhas, faça o teste visual olhando a máquina de frente: todas as linhas devem formar linhas retas paralelas perfeitas, como as cordas de um violão bem afinado! Se alguma linha estiver torta ou cruzada na barra estabilizadora, corrija antes de dar a partida!",
+    "voceSabia": "Os ilhoses cerâmicos usados nas barras estabilizadoras de máquinas industriais são fabricados com cerâmica de Óxido de Zircônio (Zircônia), o mesmo material ultrarresistente e biocompatível utilizado na fabricação de próteses dentárias de luxo e escudos térmicos aeroespaciais!",
+    "practicalExercise": "Observe o caminho que a linha faz desde o cone até a agulha na sua máquina: identifique a barra estabilizadora com seus anéis cerâmicos e sinta com o dedo a suavidade da cerâmica que permite a linha deslizar sem esquentar.",
+    "quickSummary": "Barra estrutural com guias cerâmicos que organiza a descida paralela dos múltiplos fios até os tensores sem cruzamentos nem nós.",
+    "recommendedSettings": {
+      "density": "Compatível com todas as densidades de bordado",
+      "needleType": "Compatível com todos os sistemas de agulha",
+      "speedPPM": "750 a 1100 PPM"
+    },
+    "relatedTerms": [
+      "Bandeja de Desbobinamento / Porta-Cones Externo (Thread Stand & Cone Holder)",
+      "Barra de Agulhas Múltiplas / Bloco de Troca de Cor (Multi-Needle Bar & Color Changer)",
+      "Balanço de Tensão da Linha (Proporção 1/3 Artrelados)",
+      "Alavanca Estica-Fio",
+      "Arrumação e Armazenamento de Cones de Linha (Thread Spool & Cone Rack Storage)"
+    ],
+    "tags": [
+      "b-093",
+      "barra estabilizadora",
+      "pente guia-fios",
+      "guias ceramicos",
+      "passagem de linha",
+      "multi-agulhas",
+      "hardware",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BARUDAN CO. Thread Path Dynamics & Ceramic Guide Rail Maintenance Manual. Ichinomiya, 2021.",
+      "TAJIMA EMBROIDERY SYSTEMS. Multi-Needle Thread Stand & Upper Tension Comb Specifications. Nagoya, 2022.",
+      "ARTRELADOS. Guia de Passagem de Fio, Tensores e Alinhamento em Máquinas Industriais. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-094-braco-oscilador-do-corta-fio-inferior",
+    "code": "B-094",
+    "term": "Braço Oscilador do Corta-Fio Inferior (Under-Bed Trimmer Driving Arm & Knife Linkage)",
+    "level": "Avançado 🔴",
+    "category": "Equipamentos e Máquinas",
+    "grammarClass": "Locução nominal composta por substantivos masculinos, adjetivos e preposições.",
+    "origin": "Do latim bracchium (braço/haste mecânica), oscillare (mover em vaivém) e do português cortar. Desenvolvido com os primeiros sistemas de corte automático sob a chapa (Under-bed Trimmer) pela indústria japonesa nos anos 1970.",
+    "summary": "Conjunto articulado mecânico acionado por solenoide de pulso eletromagnético ou biela mecânica sob a chapa de agulha que movimenta a navalha móvel para capturar e cortar as linhas superior e inferior.",
+    "definition": "O braço oscilador do corta-fio inferior (under-bed thread trimmer driving arm, knife lever and actuator linkage) é o subsistema mecânico cinemático montado sob a chapa de ponto e adjacente à caixa de bobina. Acoplado a um solenoide eletromagnético de alta potência (ou a um came de acionamento mecânico no eixo inferior), o braço converte o pulso elétrico de corte disparado pela placa-mãe em um movimento angular rápido e coordenado de vaivém de 45° a 60°, conduzindo a faca móvel em arco para laçar conjuntamente a linha da bobina e a linha superior, puxá-las contra a navalha fixa e decepá-las por cisalhamento de alta precisão em menos de 80 milissegundos.",
+    "technicalDetails": "O braço oscilador é usinado em liga de aço-cromo de alta dureza com buchas autolubrificantes e mola de retorno calibrada com força de 12 N a 18 N. O sincronismo do seu acionamento é milimetricamente programado para ocorrer exatamente entre os ângulos de 285° e 315° do ciclo do eixo principal da máquina, momento em que a agulha já atingiu a posição superior (Top Dead Center) e a laçada foi completamente liberada pelo bico da lançadeira. Qualquer atraso milissegundo no movimento do braço resulta em corte falho ou puxamento de linha com perda de ponto inicial.",
+    "howItWorks": [
+      "1. A matriz atinge um comando de salto longo ou troca de cor no programa.",
+      "2. A placa-mãe envia um pulso de 24V/48V para a bobina do solenoide de corte.",
+      "3. O solenoide atrai a haste de ferro, articulando o braço oscilador para a frente.",
+      "4. O braço oscilador empurra a faca móvel por baixo da chapa de agulha.",
+      "5. A navalha móvel em formato de gancho abraça o fio da agulha e o fio da bobina simultaneamente.",
+      "6. A mola de retorno puxa o braço oscilador de volta: o fio é pressionado e cortado contra a navalha fixa, deixando uma sobra perfeita de 2 cm a 3 cm presa na mola de retenção."
+    ],
+    "beginnerExplanation": "É a 'hastinha de metal articulada' que fica escondida debaixo da chapa de agulha! Quando a máquina precisa trocar de cor ou pular de uma letra para outra, esse bracinho se move super rápido para a frente, passa a faquinha que pega as duas linhas (a de cima e a da bobina), puxa e corta tudo num piscar de olhos, sem você precisar usar tesourinha manual!",
+    "applications": [
+      "Acionamento do corte automático de linhas entre letras, saltos e trocas de cor.",
+      "Ajuste de curso mecânico para garantir sobras de linha no tamanho ideal para o próximo início de costura.",
+      "Eliminação de acabamentos manuais de corte de linha pós-bordado.",
+      "Manutenção preventiva e sincronismo do conjunto de facas sob a lançadeira."
+    ],
+    "characteristics": [
+      "Cinemática de resposta ultrarrápida com ciclo completo de corte em menos de 80 milissegundos.",
+      "Mola de retorno de alta durabilidade que recolhe a navalha móvel para a posição de repouso segura."
+    ],
+    "commonErrors": [
+      "❌ Deixar acumular bolos de poeira de linha e fiapos em volta do braço oscilador, travando o movimento da navalha",
+      "❌ Ajustar o parafuso limitador de curso do braço sem gabarito, fazendo a faca móvel colidir com a caixa de bobina",
+      "❌ Lubrificar o braço com graxas pegajosas que atraem sujeira e endurecem com o tempo sob a chapa"
+    ],
+    "troubleshootingTips": [
+      "Se a máquina tentar cortar mas deixar a linha inteira sem cortar: Retire a chapa de agulha e verifique se o braço oscilador não está travado por fiapos ou se a faca móvel está sem corte.",
+      "Se a agulha despassar na primeira pontada logo após o corte: O braço oscilador está cortando o fio curto demais; ajuste o ângulo de parada da faca ou a tensão da mola de retenção.",
+      "Se o solenoide fizer um estalo alto mas a faca não se mover: O pino de articulação do braço oscilador pode estar sem lubrificação leve ou com a mola de retorno quebrada."
+    ],
+    "dicaArtrelados": "Uma vez por semana, retire a chapa de agulha e use um pincel macio com um jato de ar para limpar todos os fiapos ao redor do braço oscilador e das navalhas. Nunca use óleo comum no solenoide: mantenha o conjunto limpinho e seco para cortes perfeitos que nunca falham!",
+    "voceSabia": "Em uma produção diária de 50 camisetas com monogramas bordados, o braço oscilador do corta-fio executa mais de 1.500 movimentos de corte automáticos, poupando o bordador de fazer mais de 3.000 cortes manuais com tesoura por dia!",
+    "practicalExercise": "No painel da sua máquina, ative a função de teste de corte manual ('Manual Trim Test'): observe com a tampa aberta (ou pelo som) o movimento preciso e rápido do braço oscilador puxando e recolhendo a faca em fração de segundo.",
+    "quickSummary": "Braço mecânico articulado sob a chapa de agulha que movimenta a navalha móvel para capturar e cortar as linhas automaticamente.",
+    "recommendedSettings": {
+      "density": "Tempo de ciclo de corte: 60 a 80 ms",
+      "needleType": "Compatível com todos os modelos",
+      "speedPPM": "Corte executado na desaceleração a 150-200 RPM"
+    },
+    "relatedTerms": [
+      "Ângulo de Ataque da Navalha Móvel (Movable Trimmer Knife Shear Angle)",
+      "Corte Automático de Linha (Auto Thread Trimmer)",
+      "Chapa de Agulha e Orifício de Ponto (Needle Throat Plate)",
+      "Caixa de Bobina (Bobbin Case)",
+      "Lançadeira Rotativa"
+    ],
+    "tags": [
+      "b-094",
+      "braco oscilador",
+      "corta-fio",
+      "navalha movel",
+      "solenoide",
+      "mecanica",
+      "corte automatico",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA EMBROIDERY SYSTEMS. Underbed Trimming Mechanism & Driving Arm Kinematics. Nagoya, 2022.",
+      "BARUDAN CO. Automatic Thread Trimmer (ATH) Service and Adjustment Manual. Ichinomiya, 2021.",
+      "ARTRELADOS. Mecatrônica e Cinemática de Sistemas de Corte em Máquinas de Bordar. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-095-borda-selada-a-laser-corte-termico-de-emblemas",
+    "code": "B-095",
+    "term": "Borda Selada a Laser / Corte Térmico de Emblemas (Laser-Cut Sealed Patch Border)",
+    "level": "Fundamental 🟢",
+    "category": "Técnicas Especiais",
+    "grammarClass": "Locução nominal composta por substantivos femininos, masculinos, adjetivos e preposições.",
+    "origin": "Do inglês laser (Light Amplification by Stimulated Emission of Radiation) e do português selar (cauterizar termicamente). Tecnologia desenvolvida na Europa e Ásia nos anos 2000 integrando tubos de laser CO2 galvanométricos diretamente aos cabeçotes de bordado.",
+    "summary": "Técnica de corte e acabamento perimetral onde um feixe concentrado de laser funde e cauteriza as fibras sintéticas de poliéster e sarja nas bordas de patches e apliques, dispensando bordas grossas de ponto cheio ou overloque.",
+    "definition": "A borda selada a laser e corte térmico de emblemas (galvo-laser sealed edge, thermal fusion cutwork & patch contouring) é um processo de manufatura têxtil avançado que combina o bordado computadorizado com a foto-ablação térmica por feixe de laser infravermelho de CO2 (comprimento de onda de 10,6 µm). Ao incidir com precisão micrométrica sobre os tecidos sintéticos da base do emblema (como poliéster, sarja ripstop, microfibra e nylon), o calor focalizado sublima instantaneamente as fibras e funde suas extremidades moleculares em um micro-cordão vítreo de polímero termoplástico, selando a orla do emblema de maneira 100% lisa, ultrafina e imune a qualquer desfiamento por uso ou lavagem contínua.",
+    "technicalDetails": "O feixe de corte a laser atua com potência modulada entre 25W e 60W e velocidade focal de 100 a 400 mm/s. Ao selar tecidos sintéticos, cria-se uma borda de apenas 0,15 mm de espessura (comparada aos 3,5 mm a 5,0 mm de uma borda tradicional em ponto cheio ou costura Merrow). A matriz de bordado necessita apenas de uma linha simples de costura de ancoragem interna (running stitch a 0,8 mm da linha de corte), economizando até 70% do tempo de máquina e 80% do consumo de linha por patch.",
+    "howItWorks": [
+      "1. O tecido sintético (sarja de poliéster ou feltro sintético) é montado no bastidor e os detalhes internos do logotipo são bordados normalmente.",
+      "2. A matriz executa uma linha simples de suporte perimetral delimitando a borda externa do emblema.",
+      "3. O cabeçote de laser óptico da máquina (ou a máquina de corte a laser externa com câmera CCD) é acionado.",
+      "4. O feixe de laser percorre o vetor perimetral exato a 0,3 mm da linha de costura.",
+      "5. O calor instantâneo derrete as pontas das fibras de poliéster, cauterizando a orla sem queimar a linha do bordado.",
+      "6. O emblema se destaca da matriz pronto para aplicação, com toque suave e acabamento ultrafino de alta tecnologia."
+    ],
+    "beginnerExplanation": "É aquela bordinha de aplique ou emblema 'cortada e queimadinha a laser' com precisão cirúrgica! Em vez de ter que fazer aquela borda grossa e pesada de ponto cheio para tampar o tecido, o laser corta o contorno e derrete a pontinha dos fios sintéticos ao mesmo tempo. A peça sai limpa, levíssima, nunca desfia e fica com acabamento de roupa esportiva de primeira linha!",
+    "applications": [
+      "Emblemas, patches militares, brasões policiais e distintivos esportivos de alto padrão.",
+      "Apliques detalhados em camisetas e jaquetas corta-vento onde bordas grossas deixariam a peça pesada.",
+      "Etiquetas externas personalizadas e puxadores de zíper com termocolante no verso.",
+      "Produção em massa de chaveiros bordados e tags têxteis com corte automático."
+    ],
+    "characteristics": [
+      "Borda perfeitamente selada por fusão térmica sem fios soltos nem desfiamentos.",
+      "Economia de mais de 70% no número total de pontos da matriz em relação a bordas bordadas convencionais."
+    ],
+    "commonErrors": [
+      "❌ Tentar selar a laser tecidos de algodão 100% puro (o algodão não derrete, apenas queima e carboniza com borda preta)",
+      "❌ Usar potência excessiva de laser, queimando e amarelando a linha de bordar nas proximidades da orla",
+      "❌ Não fazer a sucção e exaustão adequada de fumaça durante o corte, manchando o tecido com resíduos de fuligem"
+    ],
+    "troubleshootingTips": [
+      "Se a borda do patch ficar preta ou chamuscada: Reduza a potência do laser no software e aumente a velocidade do feixe de corte.",
+      "Se o tecido continuar desfiando após o corte: Certifique-se de que a base do patch contém pelo menos 70% de fibras sintéticas (poliéster ou nylon) para que ocorra a fusão térmica.",
+      "Se o corte sair desalinhado com o bordado: Calibre o sistema óptico da câmera CCD ou o alinhamento de ponteiro laser do cabeçote."
+    ],
+    "dicaArtrelados": "Para criar patches cortados a laser com acabamento de grife esportiva internacional, use Sarja de Poliéster 100% ou Tecido Micro Ripstop com termocolante importado já aplicado no verso antes do corte: o emblema sai da máquina selado, durinho e pronto para colar a quente em segundos!",
+    "voceSabia": "Os uniformes e jaquetas oficiais dos astronautas da NASA e das equipes de Fórmula 1 utilizam exclusivamente patches com borda selada a laser, pois são mais de 60% mais leves e não acumulam atrito nem peso aerodinâmico durante as missões!",
+    "practicalExercise": "Pegue um pedaço de sarja de poliéster e corte um pedaço com tesoura comum e outro pedaço passe rapidamente a chama de um isqueiro na borda (cauterização térmica manual): puxe as fibras e veja como a borda cauterizada fica firme, selada e nunca mais solta nenhum fiapo.",
+    "quickSummary": "Fusão e cauterização térmica da orla de patches sintéticos por feixe de laser, garantindo acabamento ultrafino, leve e imune a desfiamento.",
+    "recommendedSettings": {
+      "density": "Linha simples de corrida perimetral com passo de 2.0 mm",
+      "needleType": "75/11 Ponta Aguda (RG)",
+      "speedPPM": "750 a 1000 PPM no bordado / 25W-40W no laser"
+    },
+    "relatedTerms": [
+      "Borda de Patch / Acabamento Merrow de Emblemas",
+      "Borda em Ponto Cheio / Contorno Cordonê (Satin Border & Appliqué Seal)",
+      "Termocolante Permanente (Heat Seal Adhesive Film)",
+      "Aplique / Patch Bordado",
+      "Bico de Pato / Tesoura Pelicano (Duckbill Appliqué Scissors)"
+    ],
+    "tags": [
+      "b-095",
+      "borda selada a laser",
+      "corte a laser",
+      "patches",
+      "emblemas",
+      "cauterizacao",
+      "tecnicas especiais",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "EUROLASER GMBH. Laser Cutting and Edge Sealing in Technical Textiles and Embroidery. Lüneburg, 2022.",
+      "TAJIMA EMBROIDERY SYSTEMS. TLMX Laser Embroidery System Operational Manual. Nagoya, 2021.",
+      "ARTRELADOS. Guia de Patches, Emblemas e Corte a Laser no Bordado Moderno. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-096-base-flutuante-em-entretela-hidrossoluvel",
+    "code": "B-096",
+    "term": "Base Flutuante em Entretela Hidrossolúvel (Water-Soluble Floating Base Technique)",
+    "level": "Intermediário 🟡",
+    "category": "Entretelas & Estabilizadores",
+    "grammarClass": "Locução nominal composta por substantivos femininos, adjetivos e preposições.",
+    "origin": "Do latim bassus (base de apoio), fluctuare (flutuar livremente) e do inglês water-soluble. Técnica consagrada nos ateliês europeus de alta costura para preservação de tecidos nobres sem marcas de aro mecânico.",
+    "summary": "Técnica de enquadramento onde apenas a entretela solúvel em água é presa nos aros do bastidor, enquanto o tecido nobre ou felpudo flutua livre por cima fixado por cola temporária ou alinhave perimetral.",
+    "definition": "A base flutuante em entretela hidrossolúvel (water-soluble film floating method / hooped soluble foundation technique) é uma metodologia especializada de bastidoramento e estabilização de materiais delicados, nobres ou texturizados (como veludo cotelê, seda pura, musseline, renda de tule, toalhas aveludadas e couro fino). Consiste em prender exclusivamente a película ou manta de entretela hidrossolúvel (PVA de 40g a 80g) nos aros do bastidor com firmeza de tambor, assentando o artigo têxtil sobre ela sem a compressão física dos aros plásticos, fixando-o por meio de adesivo temporário em spray de baixa migração, fita dupla-face hidrossolúvel ou ponto de alinhave perimetral programado (basting outline).",
+    "technicalDetails": "O bastidoramento tradicional comprime tecidos nobres entre os aros sob pressão mecânica superior a 25 N, gerando esmagamento permanente das fibras de veludo (marcas de bastidor / hoop burn) e repuxamento irregular de tramas de seda. Na base flutuante hidrossolúvel, a tensão de tração dos pontos é absorvida 100% pela película de PVA polimerizado, mantendo a estrutura do tecido original intocada. Após o bordado, a imersão em água morna (30°C a 40°C) dissolve completamente a base sem deixar resíduos sintéticos rígidos no verso.",
+    "howItWorks": [
+      "1. O operador prende apenas a entretela hidrossolúvel no bastidor, esticando até soar como um tambor afinado.",
+      "2. Aplica-se uma névoa suave de adesivo temporário em spray sobre a superfície da entretela a 25 cm de distância.",
+      "3. A peça delicada (ex: toalha de banho nobre ou roupinha de seda) é alisada e assentada suavemente sobre a base com as mãos.",
+      "4. O bastidor é acoplado à máquina e executa-se primeiramente um ponto de alinhave largo (basting box de 5 mm) para segurar as bordas.",
+      "5. A máquina borda o desenho completo sobre a peça sem que o tecido sofra atrito ou compressão de aro.",
+      "6. Retira-se a peça, corta-se o excesso de entretela e dissolve-se o restante com um enxágue rápido de água morna, revelando maciez total."
+    ],
+    "beginnerExplanation": "É a técnica mágica de prender 'só a entretela que derrete na água' no bastidor e colocar o tecido nobre soltinho por cima! Assim você nunca mais amassa o veludo, não marca toalha aveludada e não corre o risco de estragar tecidos caros de seda ou linho com os aros do bastidor. O tecido fica flutuando livre e o bordado sai perfeito e macio!",
+    "applications": [
+      "Bordados de monogramas em toalhas nobres aveludadas, roupões felpudos e enxovais de banho de luxo.",
+      "Personalização de tecidos ultra-sensíveis como veludo alemão, cetim de seda pura e tule de noiva.",
+      "Bordados em peças com zíperes, botões grossos ou costuras altas que não cabem dentro do aro.",
+      "Confecção de rendas vazadas e monogramas rendados com acabamento macio e flexível no verso."
+    ],
+    "characteristics": [
+      "Eliminação de 100% das marcas de compressão e brilho de bastidor (hoop burn).",
+      "Dissolução hidrossolúvel total em água sem necessidade de puxar ou rasgar o verso do bordado."
+    ],
+    "commonErrors": [
+      "❌ Usar cola spray em excesso, empastando a agulha com resíduos grudentos que fazem a linha arrebentar",
+      "❌ Não esticar a entretela hidrossolúvel no bastidor, deixando a base mole e gerando rugas no tecido",
+      "❌ Lavar com água fria com gelo que retarda a dissolução do PVA, deixando a goma endurecida no verso"
+    ],
+    "troubleshootingTips": [
+      "Se o tecido se mover durante o bordado na base flutuante: Execute sempre o ponto de alinhave perimetral (basting frame) na máquina antes de começar o desenho principal.",
+      "Se a agulha ficar pegajosa por causa do spray: Limpe a haste da agulha com um pano umedecido em óleo mineral ou álcool isopropílico.",
+      "Se o bordado ficar rígido após lavar: Deixe a peça de molho por 5 minutos em água morna com algumas gotas de amaciante suave para hidratar as fibras."
+    ],
+    "dicaArtrelados": "Quando for bordar toalhas aveludadas com base flutuante, coloque uma folha de plástico hidrossolúvel bem fininho por cima do bordado e a entretela hidrossolúvel encorpada na base flutuante por baixo: o ponto de bordado fica altinho, nítido e com acabamento de cinema sem esmagar um único fio da felpa!",
+    "voceSabia": "A entretela hidrossolúvel é feita de Polímero de Álcool Polivinílico (PVA), o mesmo material biodegradável e 100% seguro usado na fabricação de cápsulas solúveis de remédios e cápsulas de sabão de lava-louças modernas!",
+    "practicalExercise": "Prenda uma folha de entretela hidrossolúvel no bastidor. Passe uma camada leve de spray temporário e assente um pedaço de veludo por cima sem prender o veludo no aro. Borde uma letra simples e passe água morna no verso: veja como o veludo não tem nenhuma marca de aro e o verso fica limpinho!",
+    "quickSummary": "Técnica onde apenas a entretela solúvel é presa no aro do bastidor e o tecido delicado flutua por cima, evitando marcas de aro e garantindo toque macio.",
+    "recommendedSettings": {
+      "density": "0.38 mm a 0.42 mm com ponto de suporte tatami leve",
+      "needleType": "75/11 Ponta Bola Fina (SES) ou Ponta Aguda (RG)",
+      "speedPPM": "650 a 750 PPM"
+    },
+    "relatedTerms": [
+      "Entretela Hidrossolúvel",
+      "Marcas de Bastidor (Hoop Burn)",
+      "Base de Alinhamento / Ponto de Alinhave e Fixação (Basting Stitch)",
+      "Adesivo Temporário em Spray",
+      "Bordado em Veludo e Tecidos Texturizados"
+    ],
+    "tags": [
+      "b-096",
+      "base flutuante",
+      "entretela hidrossoluvel",
+      "veludo",
+      "toalhas",
+      "hoop burn",
+      "enxovais",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "SULKY OF AMERICA. Water Soluble Stabilizers & Advanced Floating Techniques Guide. Kennesaw, 2022.",
+      "MADEIRA GARN. Stabilizer Solutions for Delicate and Pile Fabrics. Freiburg, 2023.",
+      "ARTRELADOS. Guia Definitivo de Bastidoramento, Estabilizadores e Base Flutuante. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-097-barra-estabilizadora-de-agulhas-multiplas-e-guia-anti-deflexao",
+    "code": "B-097",
+    "term": "Barra Estabilizadora de Agulhas Múltiplas e Guia Anti-Deflexão (Multi-Needle Stabilizer Bar & Guide)",
+    "level": "Avançado 🔴",
+    "category": "Equipamentos e Máquinas",
+    "grammarClass": "Locução nominal composta por substantivos femininos, plurais, adjetivos e preposições.",
+    "origin": "Do latim barra (haste de contenção), stabilis (firmeza) e anti-deflectere (impedir a curvatura). Desenvolvida nos centros de engenharia mecatrônica do Japão e Alemanha no início dos anos 2000.",
+    "summary": "Trilho de aço temperado retificado e retentor usinado posicionado logo acima do calcador do cabeçote que atua como guia rígida para o bloco de barras de agulha, eliminando a vibração de alta frequência e deflexão em velocidades de até 1.200 PPM.",
+    "definition": "A barra estabilizadora de agulhas múltiplas e guia mecânica anti-deflexão (multi-needle bar vibration stabilizer rail, needle clamp steady-rest and anti-flexion guide) é um conjunto de suporte estrutural de alta rigidez estática e dinâmica fixado no bloco frontal do cabeçote de bordado multi-agulhas. Posicionada milimetricamente acima do conjunto de calcadores independentes, sua função técnica é engatar a barra de agulha ativa durante todo o seu curso descendente, restringindo qualquer oscilação lateral ou flexão transversal (tolerância de folga inferior a 0,02 mm) induzida pela força de penetração em tecidos pesados ou pelo torque de arraste do pantógrafo em alta velocidade.",
+    "technicalDetails": "Em velocidades de 1.000 a 1.200 PPM, a barra de agulha individual sofre acelerações verticais superiores a 20G. Quando a ponta perfura materiais densos (como bonés estruturados com entretela de buckram pesada de 200g ou jaquetas de couro), a haste da agulha e a barra sofrem flexão oscilatória de alta frequência (ressonância mecânica entre 120 Hz e 300 Hz). A barra estabilizadora amortece e canaliza essa energia para a coluna fundida do cabeçote, assegurando que o bico da agulha passe a exatamente 0,05 mm a 0,10 mm da ponta do gancho da lançadeira sem colisão e sem falhas de laçada.",
+    "howItWorks": [
+      "1. O seletor de cores da máquina move o bloco de agulhas para engatar a barra de agulha ativa no acionador superior.",
+      "2. Ao descer, a barra de agulha desliza por dentro da canaleta de bronze retificado da barra estabilizadora anti-deflexão.",
+      "3. A guia rígida restringe qualquer movimento parasita nas direções X e Y.",
+      "4. A agulha perfura o tecido de forma perfeitamente perpendicular ao plano da chapa de ponto.",
+      "5. A folga entre a agulha e o bico da lançadeira permanece invariável no milésimo de segundo do laçamento.",
+      "6. O cabeçote opera silencioso, sem trepidação metálica e com precisão de ponto impecável."
+    ],
+    "beginnerExplanation": "É como se fosse uma 'guia de trilho super firme' de aço polido que segura a barra da agulha bem retinha enquanto ela sobe e desce feito um raio! Em vez de a agulha ficar chacoalhando ou vibrando quando a máquina borda bem rápido em tecidos grossos, essa barra estabilizadora segura tudo firme no lugar para a agulha nunca entortar nem bater na lançadeira lá embaixo!",
+    "applications": [
+      "Bordados pesados em bonés estruturados, jaquetas de couro e mochilas de lona grossa.",
+      "Máquinas industriais e semi-industriais multi-agulhas de alta velocidade (1.000 a 1.200 PPM).",
+      "Eliminação de quebras repetitivas de agulha em matrizes de alta densidade.",
+      "Manutenção da estabilidade de laçada em bordados tridimensionais com EVA espesso."
+    ],
+    "characteristics": [
+      "Usinagem de precisão com tolerância de folga mecânica micrométrica (±0,02 mm).",
+      "Redução expressiva do ruído e vibração estrutural do cabeçote de costura."
+    ],
+    "commonErrors": [
+      "❌ Deixar acumular resíduos de poeira e fiapos com graxa na canaleta da barra guia, endurecendo o movimento da barra de agulha",
+      "❌ Afrouxar os parafusos de calibragem de fábrica da guia durante manutenções amadoras sem relógio comparador",
+      "❌ Forçar a troca manual de cor com a barra de agulha engatada no trilho estabilizador"
+    ],
+    "troubleshootingTips": [
+      "Se a barra de agulha descer pesada ou travar no meio do curso: Aplique 1 gota de óleo de máquina puro na canaleta da barra estabilizadora e movimente manualmente.",
+      "Se você ouvir um zumbido de vibração aguda no cabeçote em 1.000 PPM: Verifique o aperto dos parafusos de fixação da barra estabilizadora no chassi frontal.",
+      "Se a agulha raspar na lançadeira apenas quando borda tecidos grossos: A barra estabilizadora pode estar com folga excessiva nas buchas guias."
+    ],
+    "dicaArtrelados": "Ao fazer a limpeza periódica do seu cabeçote com pincel macio, certifique-se de passar o pincel na fresta da barra estabilizadora frontal e pingar uma gotinha de óleo de alta pureza nas guias: o barulho da máquina diminui na hora e ela trabalha macia como nova!",
+    "voceSabia": "As guias de estabilização anti-deflexão utilizadas nos cabeçotes industriais de bordado de última geração são revestidas com Diamond-Like Carbon (DLC), uma película de carbono com dureza próxima à do diamante que reduz o atrito em mais de 80%!",
+    "practicalExercise": "Com a máquina desligada, tente empurrar suavemente com o dedo a ponta da barra de agulha na direção lateral: sinta como a barra estabilizadora impede qualquer folga de lado a lado, garantindo que a agulha desça perfeitamente reta no centro do orifício.",
+    "quickSummary": "Trilho rígido de aço retificado no cabeçote que guia a barra de agulha e elimina a vibração e deflexão em alta velocidade.",
+    "recommendedSettings": {
+      "density": "Compatível com todas as densidades",
+      "needleType": "DBxK5 SAN 1 ou Titânio",
+      "speedPPM": "800 a 1200 PPM"
+    },
+    "relatedTerms": [
+      "Barra de Agulhas Múltiplas / Bloco de Troca de Cor (Multi-Needle Bar & Color Changer)",
+      "Batimento de Chapa e Desvio de Agulha (Needle Deflection & Needle Plate Striking)",
+      "Bico da Lançadeira / Ponta do Gancho (Rotary Hook Point & Hook Tip)",
+      "Eixo Principal e Sensores de Posição Angular (Main Shaft & Position Sensors)",
+      "Agulha de Titânio (Titanium Nitride Coated Needle)"
+    ],
+    "tags": [
+      "b-097",
+      "barra estabilizadora",
+      "anti-deflexao",
+      "cabecote",
+      "agulhas multiplas",
+      "mecanica",
+      "hardware",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA EMBROIDERY MACHINERY. Needle Bar Driving Mechanism & Anti-Deflection Guide Rail Specifications. Nagoya, 2022.",
+      "BARUDAN CO. Precision Engineering and Needle Bar Guide Bushing Maintenance. Ichinomiya, 2021.",
+      "ARTRELADOS. Engenharia e Cinemática de Precisão em Cabeçotes de Alta Rotação. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-098-borracha-termoplastica-para-apliques-tridimensionais-tpu-patch",
+    "code": "B-098",
+    "term": "Borracha Termoplástica para Apliques Tridimensionais / TPU Patch",
+    "level": "Fundamental 🟢",
+    "category": "Insumos & Fios",
+    "grammarClass": "Locução nominal composta por substantivo feminino, adjetivo e siglas industriais.",
+    "origin": "Do inglês Thermoplastic Polyurethane (TPU). Desenvolvida pela química de polímeros sintéticos nos anos 1960 e incorporada com grande destaque aos uniformes esportivos de alta performance e calçados nos anos 2010.",
+    "summary": "Lâminas e emblemas pré-moldados de poliuretano termoplástico flexível e texturizado de alta durabilidade, fixados com pontos de contorno ou prensagem térmica em bonés, jaquetas corta-vento e roupas esportivas.",
+    "definition": "A borracha termoplástica para apliques tridimensionais (thermoplastic polyurethane TPU patch & high-frequency embossed rubber appliqué) é um insumo polimérico avançado de alta elasticidade, memória mecânica e resistência à abrasão. Apresenta-se na forma de placas maleáveis (espessuras de 0,5 mm a 2,5 mm) gravadas a laser ou fundidas por alta frequência com relevos táteis, acabamentos foscos, metálicos, holográficos ou fotoluminescentes. No bordado eletrônico, é utilizada como elemento central de relevo de luxo, sendo fixada sobre a peça têxtil por meio de colunas estreitas de ponto cheio (satin) perimetral, pontos de alinhave decorativos ou fusão térmica combinada com entretela termoplástica.",
+    "technicalDetails": "Diferente do EVA convencional (Puffy Foam) que é perfurado e triturado pela agulha sob a cobertura de ponto cheio, o TPU possui resistência tênsil superior a 35 MPa e alongamento de ruptura de até 500%. Ele atua como um escudo emborrachado permanente sobre o tecido. A digitalização para apliques de TPU requer agulhas de ponta esférica fina (75/11 SES) e perfurações perimetrais com densidade contida (passo de 2,5 mm a 3,0 mm) com folga interna de 1,0 mm da borda da borracha para evitar que a agulha corte o polímero como uma lâmina de perfuração contínua.",
+    "howItWorks": [
+      "1. O arquivo da matriz borda uma linha simples de marcação e posicionamento (placement stitch) no tecido montado no bastidor.",
+      "2. A máquina pausa automaticamente e o operador assenta a lâmina ou emblema de borracha TPU sobre a marcação com adesivo spray suave.",
+      "3. A máquina executa uma linha de alinhave e fixação mecânica (tackdown stitch) que ancora a borracha sobre o tecido.",
+      "4. Em seguida, a agulha borda o contorno de acabamento (ponto cheio de 2,5 mm ou ponto triplo decorativo) prendendo a aba do TPU com firmeza.",
+      "5. Se o TPU for recortável, o excesso é destacado suavemente pelas micro-perfurações guiadas da matriz.",
+      "6. O emblema final apresenta relevo emborrachado luxuoso, 100% à prova d'água e imune a desbotamento."
+    ],
+    "beginnerExplanation": "É aquele aplique de 'borrachinha moderna e emborrachada' que a gente vê nos brasões de camisas oficiais de futebol da Copa do Mundo, em bonés de marca e em mochilas caras! Você coloca a pecinha de borracha no tecido e a máquina borda em volta prendendo tudo com pontinhos firmes. Fica com um visual 3D super moderno e chique que nunca desbota nem quebra na lavagem!",
+    "applications": [
+      "Escudos e emblemas tridimensionais em camisas oficiais de clubes de futebol e seleções.",
+      "Bordados em relevo em bonés esportivos de sarja e poliéster estruturado.",
+      "Personalização de jaquetas impermeáveis, casacos corta-vento e roupas de motoqueiro.",
+      "Detalhes emborrachados em tênis, chuteiras e mochilas táticas."
+    ],
+    "characteristics": [
+      "Toque emborrachado nobre de alta elasticidade que não resseca nem esfarela com o tempo.",
+      "Impermeabilidade total e altíssima resistência a atrito, água e lavagens industriais repetidas."
+    ],
+    "commonErrors": [
+      "❌ Programar pontos de contorno com densidade excessiva (muito apertados), picotando a borracha de TPU como se fosse um papel serrilhado",
+      "❌ Usar agulhas de ponta cortante ou muito grossas que deixam buracos visíveis e rasgam a borda do aplique",
+      "❌ Aplicar calor excessivo de ferro de passar direto sobre a borracha sem pano de proteção, derretendo o relevo"
+    ],
+    "troubleshootingTips": [
+      "Se a borracha de TPU rasgar ao longo da costura: Aumente o comprimento do ponto de fixação para pelo menos 2,8 mm e reduza a densidade do ponto cheio de borda.",
+      "Se a agulha esquentar e grudar na borracha: Utilize agulha revestida de Titânio antiaderente (Super Universal ou Gebedur) e reduza a velocidade para 650 PPM.",
+      "Se o aplique sair do lugar durante o contorno: Use adesivo temporário em spray de boa aderência ou fita dupla-face hidrossolúvel no verso do aplique."
+    ],
+    "dicaArtrelados": "Para criar emblemas de TPU com acabamento profissional de camisas de time europeu, use agulha de Titânio 75/11 Ponta Bola (SES) e programe um ponto de contorno cordonê fino de 2 mm de largura: o resultado fica liso, perfeito e com uma durabilidade impressionante!",
+    "voceSabia": "O TPU é um dos materiais mais sustentáveis e recicláveis da indústria de polímeros modernos: ele não contém plastificantes tóxicos, não emite odores e pode ser 100% reciclado e reprocessado em novos produtos térmicos!",
+    "practicalExercise": "Pegue uma tira de borracha TPU ou vinil sintético flexível: no software, crie uma linha de costura reta com pontos bem pertinhos (1 mm) e outra com pontos normais (3 mm). Puxe as duas tiras com a mão: veja como a com pontos normais aguenta tração máxima, enquanto a com pontos muito juntos rasga fácil no picotado.",
+    "quickSummary": "Lâminas e emblemas de poliuretano termoplástico flexível aplicados com contornos bordados para relevo 3D de alta performance.",
+    "recommendedSettings": {
+      "density": "Comprimento de ponto de fixação: 2.5 mm a 3.0 mm",
+      "needleType": "75/11 Ponta Bola (SES) revestida de Titânio",
+      "speedPPM": "600 a 700 PPM"
+    },
+    "relatedTerms": [
+      "Bordado em Relevo 3D / Puffy Foam (Bordado com EVA)",
+      "Aplique / Patch Bordado",
+      "Borda em Ponto Cheio / Contorno Cordonê (Satin Border & Appliqué Seal)",
+      "Agulha de Titânio (Titanium Nitride Coated Needle)",
+      "Termocolante Permanente (Heat Seal Adhesive Film)"
+    ],
+    "tags": [
+      "b-098",
+      "tpu",
+      "borracha termoplastica",
+      "aplique 3d",
+      "emblemas esportivos",
+      "insumos",
+      "relevo",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "DESMA GMBH. TPU & Polyurethane Processing in Modern Textile Applications. Achim, 2021.",
+      "GUNOLD GMBH. Specialty 3D Materials and High-Tech Appliqué Techniques. Stockstadt, 2022.",
+      "ARTRELADOS. Guia de Insumos Nobres, Relevo 3D e Apliques Modernos em Bordado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-099-bracadeira-de-fixacao-rapida-para-tubulares-quick-sleeve-clamp",
+    "code": "B-099",
+    "term": "Braçadeira de Fixação Rápida para Tubulares / Quick Sleeve Clamp",
+    "level": "Intermediário 🟡",
+    "category": "Bastidores & Fixação",
+    "grammarClass": "Locução nominal composta por substantivos femininos, adjetivos e preposições.",
+    "origin": "Do português braço/braçadeira e do inglês quick clamp (garra rápida de travamento). Criada pela indústria de engenharia de acessórios nos Estados Unidos e Japão nos anos 1990 para agilizar a personalização seriada de mangas compridas e pernas de calça.",
+    "summary": "Dispositivo mecânico tubular com perfil alongado e garras laterais acionadas por alavanca excêntrica ou mola rápida, projetado para fixar mangas de camisas, pernas de calça e bolsas tubulares no braço livre da máquina.",
+    "definition": "A braçadeira de fixação rápida para peças tubulares e mangas (quick sleeve & pant leg tubular clamp / fast-frame clamping arm) é uma estrutura mecânica esbelta confeccionada em liga de alumínio estrutural anodizado e aço mola. Projetada especificamente para acoplamento direto no braço livre (free-arm) do pantógrafo de máquinas de bordar industriais e semi-industriais, possui formato alongado e estreito (larguras de 5 cm a 8 cm e comprimentos de 15 cm a 30 cm) com mordentes periféricos de engate rápido que seguram o tecido tensionado nas bordas externas sem a necessidade de aros circulares internos, permitindo que mangas compridas e pernas de calça sejam vestidas inteiras sobre o suporte sem abrir nenhuma costura.",
+    "technicalDetails": "Ao enquadrar uma manga comprida de moletom ou camisa em bastidores tradicionais, o volume de tecido enrolado na traseira colide contra o corpo do cabeçote ou força a barra de agulha. A braçadeira rápida possui vão livre inferior aberto e garras com pressão de 18 N revestidas de cortiça sintética ou borracha texturizada que prendem apenas as margens laterais do tecido sobre a entretela rasgável, permitindo bordados verticais de até 25 cm de comprimento contínuo.",
+    "howItWorks": [
+      "1. O operador veste a manga da blusa ou a perna da calça diretamente sobre o braço estreito da braçadeira rápida com a entretela por dentro.",
+      "2. Ajusta-se o alinhamento visual com o gabarito central ou o ponteiro laser de posicionamento.",
+      "3. Baixa-se a alavanca rápida ou encaixa-se a presilha de pressão lateral em 2 segundos.",
+      "4. O bastidor é acoplado ao pantógrafo tubular da máquina de bordar.",
+      "5. Executa-se o teste de área (trace) para garantir que o movimento X/Y não colida com as laterais metálicas da garra.",
+      "6. O bordado vertical é realizado em velocidade de 650 a 750 PPM e a peça é liberada instantaneamente com um único toque na alavanca."
+    ],
+    "beginnerExplanation": "É uma 'garra compridinha de metal' feita sob medida para bordar mangas de blusas, pernas de calça e bolsas compridas! Em vez de ficar sofrendo tentando encaixar um bastidor redondo dentro de uma manga apertada (e correr o risco de costurar a manga fechada junto!), você só veste a manga nessa garra longa e fecha a presilha em dois segundos!",
+    "applications": [
+      "Bordado de escritas e logotipos verticais em mangas de moletons, jaquetas e camisetas de manga longa.",
+      "Personalização seriada de pernas de calças jeans, uniformes esportivos e calças de moletom.",
+      "Bordados em bolsas tubulares de viagem, sacolas esportivas e capas de raquetes.",
+      "Personalização rápida de aventais e tiras de macacões industriais sem descosturar."
+    ],
+    "characteristics": [
+      "Perfil mecânico ultra-esbelto que permite vestir mangas estreitas a partir de 8 cm de diâmetro.",
+      "Sistema de aperto rápido por alavanca excêntrica com troca de peça em menos de 5 segundos."
+    ],
+    "commonErrors": [
+      "❌ Não fazer o teste de traçado (trace) no painel antes de iniciar, fazendo a agulha bater nas hastes laterais da braçadeira",
+      "❌ Deixar o restante do tecido da blusa caído solto por baixo do braço livre, costurando acidentalmente a parte de trás da manga junto",
+      "❌ Apertar a alavanca com força excessiva em tecidos muito finos de malha, esticando o tecido e gerando enrugamento"
+    ],
+    "troubleshootingTips": [
+      "Se a manga escorregar durante o bordado vertical: Cole uma tira de fita crepe larga ou fita adesiva dupla-face nas abas laterais da braçadeira para aumentar o atrito.",
+      "Se o tecido embolar embaixo do braço livre da máquina: Use presilhas plásticas (clips de tecido) para prender e recolher o excesso de tecido da peça para trás do cabeçote.",
+      "Se a matriz for muito larga e bater na garra: Reduza a largura máxima do desenho no software para garantir pelo menos 10 mm de margem livre das bordas metálicas."
+    ],
+    "dicaArtrelados": "Ao bordar mangas compridas, use sempre presilhas plásticas de costura (clips para patchwork) para enrolar e prender todo o excesso de tecido da camiseta na parte de trás: isso garante que a parte de trás da manga fique 100% longe da agulha e você nunca corre o risco de bordar a manga fechada por engano!",
+    "voceSabia": "A utilização de braçadeiras rápidas tipo Fast-Clamp em fábricas de uniformes esportivos aumenta a produtividade de bordados em mangas em mais de 300% em comparação com os bastidores manuais tradicionais de parafuso!",
+    "practicalExercise": "Pegue uma camisa de manga comprida e tente colocar um bastidor redondo normal de 10 cm dentro da manga: veja como o tecido fica amassado e repuxado. Agora imagine como o formato esbelto e reto da braçadeira rápida permite vestir a manga suavemente sem nenhuma dobra.",
+    "quickSummary": "Dispositivo mecânico alongado com presilhas de aperto rápido para bordar mangas, pernas de calça e peças tubulares compridas com alta agilidade.",
+    "recommendedSettings": {
+      "density": "0.38 mm a 0.42 mm com ponto de suporte simples",
+      "needleType": "75/11 Ponta Bola (SES)",
+      "speedPPM": "650 a 750 PPM"
+    },
+    "relatedTerms": [
+      "Bastidor de Meia e Punho / Mini-Clamp (Sock & Wristband Framing Clamp)",
+      "Bastidor Tubular / Braço Livre (Tubular Free-Arm Framing)",
+      "Braço Cilíndrico / Estrutura Free-Arm do Cabeçote",
+      "Bordado Tubular (Peças Fechadas e Tubulares)",
+      "Bastidor Magnético de Neodímio (Magnetic Hoop)"
+    ],
+    "tags": [
+      "b-099",
+      "bracadeira rapida",
+      "mangas",
+      "sleeve clamp",
+      "pernas de calca",
+      "tubulares",
+      "bastidores",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "HOOPMASTER / EMS. Fast Frames and Sleeve Clamping Systems for Embroidery Machinery. Dallas, 2022.",
+      "TAJIMA SYSTEMS. Tubular Garment and Sleeve Clamping Solutions Manual. Nagoya, 2021.",
+      "ARTRELADOS. Guia de Produtividade, Bastidores Especiais e Peças Tubulares. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-100-borda-de-seguranca-anti-vibracao-e-compensacao-dinamica-de-bordo",
+    "code": "B-100",
+    "term": "Borda de Segurança Anti-Vibração e Compensação Dinâmica de Bordo (Dynamic Anti-Vibration Edge Buffer)",
+    "level": "Avançado 🔴",
+    "category": "Programação de Bordado",
+    "grammarClass": "Locução nominal composta por substantivos femininos, adjetivos e preposições.",
+    "origin": "Do latim borda (limite perimetral), securitas (proteção garantida) e dynamis (força e movimento). Criada pela engenharia mecatrônica de algoritmos vetoriais japoneses e alemães nos anos 2010 para matrizes de alta velocidade.",
+    "summary": "Algoritmo avançado de digitalização e firmware da máquina que gera micro-compensações de velocidade, margens de desaceleração e pontos de ancoragem reforçada nos extremos do campo de bordado para anular a flexão elástica do bastidor.",
+    "definition": "A borda de segurança anti-vibração e compensação dinâmica de bordo (dynamic perimeter anti-vibration buffer, boundary margin deceleration and frame resonance compensation) é o protocolo algorítmico integrado de controle cinemático presente nos softwares de digitalização de matrizes e nos sistemas operacionais de controle de máquinas de bordar industriais. Sua função principal é detectar quando o pantógrafo opera nos 15% extremos dos limites periféricos do bastidor (onde a alavancagem mecânica e a flexão elástica dos braços plásticos ou metálicos atingem o pico de oscilação de ressonância) e modular automaticamente a velocidade de costura (redução progressiva de 15% a 25%), inserindo micro-pontos de amortecimento e ancoragem dinâmica para assegurar que os contornos e pontos cheios mantenham nitidez absoluta sem trepidações ou desalinhamento de cores.",
+    "technicalDetails": "No centro geométrico de um bastidor de 30x30 cm, a rigidez estrutural é máxima. No entanto, nas bordas periféricas a 14 cm do eixo central, a inércia do movimento X/Y gera um momento fletor mecânico que induz micro-vibrações de amplitude de até ±0,35 mm no aro plástico. A compensação dinâmica recalcula as curvas de aceleração e desaceleração (Jerk smoothing) nos pontos perimetrais, antecipa as reversões de movimento dos servomotores em 40 microssegundos e insere margens de segurança de 8 mm para evitar que o calcador raspe na borda do aro.",
+    "howItWorks": [
+      "1. O software de matrizes analisa as coordenadas geométricas máximas e mínimas de todos os blocos de pontos.",
+      "2. Identifica automaticamente as seções do desenho que se aproximam das bordas do bastidor cadastrado.",
+      "3. Aplica o buffer perimetral anti-vibração, inserindo pontos de suporte reforçados e suavizando curvas fechadas nos limites externos.",
+      "4. O arquivo é enviado à máquina de bordar com a tag de controle de velocidade dinâmica de bordo ativada.",
+      "5. Ao costurar no centro, a máquina opera na velocidade máxima de 1.000 PPM; ao se aproximar dos extremos, a CPU desacelera suavemente para 750 PPM.",
+      "6. O bordado termina com estabilidade geométrica 100% perfeita em toda a extensão do campo sem nenhuma perda de qualidade periférica."
+    ],
+    "beginnerExplanation": "É como o 'sistema inteligente de segurança e estabilidade' da máquina que cuida das beiradas do bastidor! Quando a máquina borda bem no meio do bastidor, tudo é super firme e ela pode correr bastante. Mas quando o desenho chega pertinho das bordas do bastidor, a máquina sabe que a armação pode vibrar um pouquinho com o peso, então ela reduz a velocidade suavemente e coloca pontinhos de apoio mais firmes para o desenho não sair tremido nem torto nas pontas!",
+    "applications": [
+      "Bordados de grande formato que ocupam toda a área útil de bastidores grandes (30x30 cm, 40x40 cm e jaquetas de 50x40 cm).",
+      "Bordados perimetrais contínuos em toalhas de mesa, mantas e barrados longos de cama.",
+      "Prevenção de colisões acidentais do calcador ou da barra de agulha contra a borda do aro do bastidor.",
+      "Garantia de alinhamento perfeito entre contornos finos e preenchimentos em desenhos amplos."
+    ],
+    "characteristics": [
+      "Controle adaptativo e automático de velocidade baseado na posição cartesiana relativa ao centro do bastidor.",
+      "Eliminação completa de vibrações parasitas e distorções elásticas nas extremidades da área de trabalho."
+    ],
+    "commonErrors": [
+      "❌ Tentar bordar a 1.000 PPM com o desenho colado a 1 mm da borda plástica do bastidor, fazendo o calcador bater e quebrar agulhas",
+      "❌ Desativar o limite de margem de segurança (soft boundary limit) no painel da máquina para forçar desenhos maiores que o bastidor",
+      "❌ Usar bastidores velhos com travas frouxas em bordados de grande formato, amplificando a trepidação periférica"
+    ],
+    "troubleshootingTips": [
+      "Se os pontos ficarem meio tremidos ou desalinhados apenas nos cantos do bordado: Ative a opção de redução automática de velocidade em bordas no software de matrizes ou reduza a velocidade geral da máquina.",
+      "Se a máquina emitir o alarme de 'Limite de Bastidor Excedido' (Hoop Limit Error): Reduza a escala do desenho em 5% para respeitar a margem de segurança de pelo menos 10 mm do aro.",
+      "Se o bastidor chacoalhar com barulho de vibração nas pontas: Verifique se os parafusos de aperto do suporte do pantógrafo estão firmemente ajustados."
+    ],
+    "dicaArtrelados": "Mesmo que o seu software diga que o bastidor tem 20x20 cm, reserve sempre 1 cm de margem de segurança livre em toda a volta (usando no máximo 18x18 cm para o desenho): trabalhar com folga garante estabilidade total, evita que a máquina bata no aro e entrega pontos com acabamento digno de alta relojoaria!",
+    "voceSabia": "O conceito de compensação dinâmica de bordo é inspirado diretamente nos sistemas de amortecimento ativo de ressonância utilizados nas pontes suspensas modernas e nas asas de aviões a jato supersônicos para absorver turbulências do vento!",
+    "practicalExercise": "No seu software, crie duas matrizes idênticas com um quadrado de ponto cheio de 2x2 cm: borde um quadrado exatamente no centro do bastidor e o outro colado a 5 mm da borda extrema. Compare a nitidez dos pontos sob boa luz e perceba a importância da margem de estabilidade!",
+    "quickSummary": "Algoritmo mecatrônico que desacelera o pantógrafo e reforça pontos nas extremidades do bastidor para eliminar a vibração elástica e garantir precisão total.",
+    "recommendedSettings": {
+      "density": "Compensação de encolhimento perimetral: +0.40 mm nas bordas",
+      "needleType": "75/11 ou 80/12 Titânio de alta rigidez",
+      "speedPPM": "700 a 750 PPM nas proximidades da borda / 900-1000 PPM no centro"
+    },
+    "relatedTerms": [
+      "Balanço de Ponto e Compensação de Inércia do Pantógrafo (Pantograph Inertia Stitch Balance)",
+      "Pantógrafo / Carro de Movimentação X-Y",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Bastidor de Bordado Computadorizado",
+      "Marcas de Bastidor (Hoop Burn)"
+    ],
+    "tags": [
+      "b-100",
+      "borda de seguranca",
+      "anti-vibracao",
+      "compensacao de bordo",
+      "pantografo",
+      "estabilidade",
+      "engenharia",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA EMBROIDERY SYSTEMS. Boundary Resonance & Dynamic Frame Deceleration Algorithms. Nagoya, 2022.",
+      "BARUDAN CO. Pantograph Resonance Control and Frame Margin Optimization in Large-Field Embroidery. Ichinomiya, 2021.",
+      "ARTRELADOS. Mecatrônica Avançada, Dinâmica Estrutural e Algoritmos de Precisão no DIBE. Curitiba, 2024."
     ],
     "updatedAt": "2026-08-28"
   }
