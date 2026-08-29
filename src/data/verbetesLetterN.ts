@@ -9,6 +9,10 @@ import { VERBETES_LETTER_N_PART7 } from "./verbetesLetterN7";
 import { VERBETES_LETTER_N_PART8 } from "./verbetesLetterN8";
 import { VERBETES_LETTER_N_PART9 } from "./verbetesLetterN9";
 import { VERBETES_LETTER_N_PART10 } from "./verbetesLetterN10";
+import { VERBETES_LETTER_N_PART11 } from "./verbetesLetterN11";
+import { VERBETES_LETTER_N_PART12 } from "./verbetesLetterN12";
+import { VERBETES_LETTER_N_PART13 } from "./verbetesLetterN13";
+import { VERBETES_LETTER_N_PART14 } from "./verbetesLetterN14";
 
 export const VERBETES_LETTER_N: Verbete[] = [
   ...VERBETES_LETTER_N_PART1,
@@ -21,5 +25,8 @@ export const VERBETES_LETTER_N: Verbete[] = [
   ...VERBETES_LETTER_N_PART8,
   ...VERBETES_LETTER_N_PART9,
   ...VERBETES_LETTER_N_PART10,
+  ...VERBETES_LETTER_N_PART11,
+  ...VERBETES_LETTER_N_PART12,
+  ...VERBETES_LETTER_N_PART13,
+  ...VERBETES_LETTER_N_PART14,
 ];
-
