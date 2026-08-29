@@ -11,6 +11,8 @@ import { VERBETES_LETTER_J_PART9 } from "./verbetesLetterJ9";
 import { VERBETES_LETTER_J_PART10 } from "./verbetesLetterJ10";
 import { VERBETES_LETTER_J_PART11 } from "./verbetesLetterJ11";
 import { VERBETES_LETTER_J_PART12 } from "./verbetesLetterJ12";
+import { VERBETES_LETTER_J_PART13 } from "./verbetesLetterJ13";
+import { VERBETES_LETTER_J_PART14 } from "./verbetesLetterJ14";
 
 export const VERBETES_LETTER_J: Verbete[] = [
   ...VERBETES_LETTER_J_PART1,
@@ -25,5 +27,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   ...VERBETES_LETTER_J_PART10,
   ...VERBETES_LETTER_J_PART11,
   ...VERBETES_LETTER_J_PART12,
+  ...VERBETES_LETTER_J_PART13,
+  ...VERBETES_LETTER_J_PART14,
 ];
 
