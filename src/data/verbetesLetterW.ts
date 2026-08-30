@@ -14,6 +14,7 @@ import { VERBETES_LETTER_W_PART12 } from "./verbetesLetterW_part12";
 import { VERBETES_LETTER_W_PART13 } from "./verbetesLetterW_part13";
 import { VERBETES_LETTER_W_PART14 } from "./verbetesLetterW_part14";
 import { VERBETES_LETTER_W_PART15 } from "./verbetesLetterW_part15";
+import { VERBETES_LETTER_W_PART16 } from "./verbetesLetterW_part16";
 
 export const VERBETES_LETTER_W: Verbete[] = [
   ...VERBETES_LETTER_W_PART1,
@@ -31,4 +32,5 @@ export const VERBETES_LETTER_W: Verbete[] = [
   ...VERBETES_LETTER_W_PART13,
   ...VERBETES_LETTER_W_PART14,
   ...VERBETES_LETTER_W_PART15,
+  ...VERBETES_LETTER_W_PART16,
 ];
