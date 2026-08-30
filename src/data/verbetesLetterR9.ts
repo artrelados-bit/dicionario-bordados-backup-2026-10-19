@@ -512,5 +512,761 @@ export const VERBETES_LETTER_R9: Verbete[] = [
       "KOTLER, Philip. Marketing 5.0: Tecnologia para a Humanidade e Gestão da Experiência do Cliente. Rio de Janeiro, 2022."
     ],
     updatedAt: "2026-08-24"
+  },
+  {
+    id: "r-075-ranhura-de-passagem-de-agulha-na-chapa",
+    code: "R-075",
+    term: "Ranhura de Passagem de Agulha na Chapa (Needle Plate Clearance Slot)",
+    letter: "R",
+    level: "Avançado 🔴",
+    category: "Componentes e Mecânica da Máquina",
+    grammarClass: "Locução substantiva feminina.",
+    origin: "Do francês rainure (entalhe/canaleta) e do latim acus (agulha). Peça de geometria crítica presente no leito inferior de todas as máquinas de costura e bordado.",
+    summary: "Orifício calibrado na chapa metálica onde a agulha penetra, cujo diâmetro e polimento impedem o tecido de afundar e a linha de arrebentar.",
+    definition: "A Ranhura de Passagem de Agulha na Chapa (Needle Plate Clearance Slot / Throat Plate Hole) é a abertura circular ou oval calibrada existente na chapa de ponto inferior de aço temperado da máquina de bordar. Suas dimensões (geralmente entre 1,6 mm e 2,2 mm de diâmetro interno para bordado industrial e doméstico) determinam a folga radial entre a lâmina da agulha e a borda metálica, proporcionando apoio rígido ao tecido durante a penetração e impedindo que as fibras sejam empurradas para dentro da caixa de bobina (efeito 'flagging' ou afundamento do tecido).",
+    technicalDetails: "A chapa para bordado plano possui formato cilíndrico de furo pequeno (High-Grade Single Needle Hole Ø 1,6 mm a 1,8 mm), garantindo suporte contra a deflexão de agulha e evitando pontos pulados (*skipped stitches*). O polimento de borda interna exige rugosidade Ra < 0,1 µm para eliminar rebarbas cortantes geradas por colisões acidentais de agulha.",
+    beginnerExplanation: "É aquele buraquinho de metal por onde a agulha desce para dentro da máquina. Ele precisa estar lisinho como um espelho e ter o tamanho certinho para a agulha passar sem encostar e para o tecido não ser empurrado para dentro do buraco quando a agulha bate.",
+    howItWorks: [
+      "1. A agulha desce carregando a linha superior em alta velocidade através do tecido e da entretela.",
+      "2. O tecido é pressionado firmemente contra a face superior plana da chapa de agulha.",
+      "3. A agulha atravessa o centro da ranhura com folga perimétrica homogênea de aproximadamente 0,4 mm.",
+      "4. O orifício sustenta a malha do tecido enquanto a agulha sobe 2 mm para formar o laço de linha.",
+      "5. A ponta da lançadeira captura a linha livremente abaixo da chapa sem obstruções mecânicas."
+    ],
+    construction: [
+      "Chapa em liga de aço cromo-níquel com têmpera superficial de alta dureza (60 HRC)",
+      "Orifício central chanfrado com raio de transição arredondado",
+      "Rasgos de fixação para parafusos de retenção escareados",
+      "Revestimento espelhado anti-fricção"
+    ],
+    mainTypes: [
+      "Chapa de Furo Pequeno / Redondo Padrão para Bordado (Standard Round Hole)",
+      "Chapa de Ranhura Larga para Ponto Zigue-Zague e Agulha Dupla (Oval Slot)",
+      "Chapa com Inserto Cerâmico Anti-Desgaste"
+    ],
+    characteristics: [
+      "Sustentação plana impecável em tecidos finos, malhas e sedas",
+      "Prevenção do efeito de sucção do tecido para dentro da lançadeira",
+      "Superfície polida que não desfia os filamentos da linha de bordar"
+    ],
+    applications: [
+      "Bordados em tecidos ultra-leves e flexíveis (organza, malha jersey, viscose).",
+      "Manutenção corretiva após impactos violentos de agulha no bastidor.",
+      "Calibração de folgas em agulhas de alta titulação (75/11 a 90/14)."
+    ],
+    commonErrors: [
+      "❌ Continuar bordando com a chapa de agulha cheia de marcas de agulhada e 'picados' cortantes de metal",
+      "❌ Usar lixa grossa para tirar rebarbas, alargando o furo e fazendo o tecido afundar no bordado",
+      "❌ Apertar os parafusos da chapa de forma desalinhada, inclinando a placa e causando colisão de agulha"
+    ],
+    troubleshootingTips: [
+      "Se a linha estiver arrebentando a cada 100 pontos: Passe o dedo delicadamente ao redor do buraquinho da chapa; se sentir uma rebarba áspera, passe lixa d'água 1500 com óleo ou faça o polimento.",
+      "Se o tecido estiver sendo 'engolido' para dentro do furo: Substitua a chapa por uma com furo menor de bordado ou use entretela mais encorpada.",
+      "Se a agulha estiver batendo na borda do furo: Verifique se a barra de agulha está centrada e se os parafusos da chapa estão bem assentados."
+    ],
+    dicaArtrelados: "O teste do cotonete: passe a pontinha de um cotonete de algodão por dentro do buraquinho da chapa de agulha. Se prender qualquer fiapinho de algodão, há uma lasquinha de metal afiada lá dentro que está cortando a sua linha de bordar! Um polimento com pasta de polir e linha de algodão resolve na hora!",
+    voceSabia: "Em máquinas industriais multicabeças de alta velocidade, a troca da chapa de furo oval para chapa de furo redondo pequeno reduz o rompimento de linha em tecidos elásticos em até 40%!",
+    practicalExercise: "Retire a chapa de agulha da sua máquina com a chave de fenda apropriada. Limpe toda a poeira de linha acumulada embaixo dela e examine o orifício contra a luz com uma lupa para checar se está liso e sem arranhões.",
+    quickSummary: "Orifício calibrado na chapa de metal que apoia o tecido e guia a descida da agulha com precisão e superfície ultra-polida.",
+    recommendedSettings: {
+      speedPPM: "750 a 900 PPM",
+      needleType: "75/11 Universal ou Ponta Bola",
+      stabilizer: "Conforme tecido"
+    },
+    relatedTerms: [
+      "Chapa de Agulha (Needle Plate)",
+      "Deflexão de Agulha (Needle Deflection)",
+      "Flagging (Afundamento do Tecido)",
+      "Lançadeira Rotativa",
+      "Manutenção Preventiva"
+    ],
+    tags: ["r-075", "ranhura de agulha", "chapa de agulha", "mecanica", "polimento", "quebra de linha", "artrelados"],
+    bibliographicReferences: [
+      "TAJIMA TECHNICAL BULLETIN. Throat Plate Geometry and Flagging Prevention Standards. Nagoya, 2022.",
+      "SCHMETZ NEEDLES. Needle Plate Clearances and Thread Protection Guidelines. Albstadt, 2021.",
+      "ARTRELADOS. Guia de Mecânica, Chapas de Ponto e Diagnóstico de Avarias em Máquinas de Bordar. Curitiba, 2024."
+    ],
+    updatedAt: "2026-08-30"
+  },
+  {
+    id: "r-076-reacao-viscoelastica-da-linha-de-bordar",
+    code: "R-076",
+    term: "Reação Viscoelástica da Linha de Bordar (Viscoelastic Thread Relaxation)",
+    letter: "R",
+    level: "Avançado 🔴",
+    category: "Agulhas e Fios de Bordado",
+    grammarClass: "Locução substantiva feminina.",
+    origin: "Do latim viscosus (viscoso) e elasticus (que volta à forma). Conceito de física de polímeros têxteis aplicado à dinâmica de tração contínua.",
+    summary: "Comportamento dinâmico de estiramento e recuperação de forma da linha sob tração contínua nos tensores e na agulha.",
+    definition: "A Reação Viscoelástica da Linha de Bordar (Viscoelastic Thread Relaxation / Dynamic Tensile Hysteresis) é a propriedade mecânica combinada de viscosidade e elasticidade que filamentos sintéticos de poliéster e viscose exibem quando submetidos a ciclos contínuos e ultrarrápidos de tensão, estiramento e alívio durante a costura (mais de 15 ciclos de tração por segundo a 900 PPM). O fio não responde como uma mola perfeita, apresentando uma histerese de relaxamento que afeta diretamente o tamanho do laço formado para a lançadeira.",
+    technicalDetails: "O módulo elástico de Young das linhas de poliéster 120D/2 situa-se entre 3,5 e 5,0 GPa, com alongamento na ruptura entre 15% e 22%. Sob tração rápida nos discos tensores, a deformação elástica instantânea é seguida por uma deformação viscosa retardada; se a mola tira-fio estiver mal regulada, o fio não recupera o comprimento a tempo, provocando laçadas frouxas ou pontos pulados.",
+    beginnerExplanation: "Quando a linha corre rápido pela máquina sendo puxada e soltada o tempo todo, ela se comporta como um elástico inteligente que estica quando puxa e demora um pedacinho de segundo para voltar ao normal. Entender isso ajuda a calibrar a pressão dos tensores para a linha não ficar nem esticada demais nem frouxa.",
+    howItWorks: [
+      "1. O fio é puxado do cone e sofre tração ao passar pelos discos tensores superiores.",
+      "2. A alavanca puxa-fio sobe bruscamente, aplicando o pico de tensão máxima para assentar o nó do ponto.",
+      "3. O filamento se estica elasticamente na fração de milissegundos da tração.",
+      "4. A alavanca desce e a mola tira-fio recolhe o excesso de linha enquanto o polímero se relaxa.",
+      "5. A laçada é formada com volume e estabilidade geométrica ideais para a lançadeira pescar."
+    ],
+    construction: [
+      "Filamento contínuo de poliéster 100% trilobal ou viscose",
+      "Torção balanceada tipo 'Z' de 600 a 700 voltas/metro",
+      "Acabamento com emulsão lubrificante de silicone (2% a 4% em peso)",
+      "Estrutura molecular semi-cristalina orientada"
+    ],
+    mainTypes: [
+      "Comportamento Viscoelástico de Poliéster Trilobal (Alta Tenacidade e Recuperação Rápida)",
+      "Comportamento de Viscose Rayon (Baixo Módulo de Elasticidade e Toque Macio)",
+      "Comportamento de Fio Metálico (Alma de Poliamida com Fita de Alumínio - Alta Rigidez)"
+    ],
+    characteristics: [
+      "Excelente assentamento de ponto em desenhos densos e contornos complexos",
+      "Absorção dinâmica dos solavancos da alavanca puxa-fio sem ruptura",
+      "Necessidade de lubrificação de superfície de silicone para fluidez nos tensores"
+    ],
+    applications: [
+      "Bordados industriais de alta velocidade (acima de 850 PPM).",
+      "Calibração de tensores dinâmicos e molas compensadoras.",
+      "Seleção de linhas adequadas para tecidos de alta elasticidade (lycra, suplex)."
+    ],
+    commonErrors: [
+      "❌ Apertar a tensão da linha até o limite achando que o ponto frouxo é falta de aperto, esticando a linha além do limite elástico",
+      "❌ Usar cones velhos ressecados que perderam a emulsão lubrificante e quebram secos",
+      "❌ Misturar marcas de linha com elasticidades totalmente diferentes na mesma matriz sem recalibrar a máquina"
+    ],
+    troubleshootingTips: [
+      "Se a linha estiver formando laçadas pequenas no avesso: Regule a mola tira-fio para aumentar o curso de recolhimento da linha relaxada.",
+      "Se o bordado repuxar após 24 horas fora do bastidor: A linha foi bordada sob tensão excessiva; solte o tensor superior em 1 volta.",
+      "Se o fio metálico desmanchar a capa: Reduza a velocidade da máquina para 550 PPM para diminuir a fadiga por histerese."
+    ],
+    dicaArtrelados: "Nunca guarde seus cones de linha perto de janelas com sol direto ou lugares muito quentes! O calor e a luz do sol ressecam o silicone natural da linha e fazem o fio perder toda a elasticidade boa, virando uma linha quebradiça que vai te dar dor de cabeça na máquina!",
+    voceSabia: "Uma linha de poliéster de bordar de boa qualidade consegue esticar até 20% do seu comprimento original e voltar exatamente ao tamanho inicial sem arrebentar!",
+    practicalExercise: "Puxe 30 cm de linha de poliéster do cone com as mãos. Estique suavemente e solte: observe como ela estica e retorna ao formato normal como um micromolécula elástica perfeitamente balanceada.",
+    quickSummary: "Propriedade física de elasticidade e recuperação que a linha de bordar possui sob tração rápida, fundamental para a formação estável do ponto.",
+    recommendedSettings: {
+      speedPPM: "700 a 850 PPM",
+      needleType: "75/11 Universal ou Titânio",
+      stabilizer: "Conforme tecido"
+    },
+    relatedTerms: [
+      "Poliéster Trilobal (Trilobal Polyester)",
+      "Mola Tira-Fio (Check Spring)",
+      "Tensão de Linha Superior",
+      "Alavanca Puxa-Fio (Take-up Lever)",
+      "Elasticidade Residual"
+    ],
+    tags: ["r-076", "reacao viscoelastica", "elasticidade", "poliester", "fios", "tensao", "artrelados"],
+    bibliographicReferences: [
+      "MADEIRA GARN. Viscoelastic Properties and Thread Tension Dynamics in High-Speed Embroidery. Freiburg, 2022.",
+      "COATS INDUSTRIAL THREADS. Synthetic Thread Elongation and Recovery Standards. London, 2021.",
+      "ARTRELADOS. Física das Linhas de Bordado: Elasticidade, Tensão e Comportamento Molecular. Curitiba, 2024."
+    ],
+    updatedAt: "2026-08-30"
+  },
+  {
+    id: "r-077-rebaixo-de-compensacao-de-trapezio",
+    code: "R-077",
+    term: "Rebaixo de Compensação de Trapézio (Trapezoid Satin Narrowing)",
+    level: "Avançado 🔴",
+    category: "Programação de Bordado",
+    grammarClass: "Locução substantiva masculino.",
+    origin: "Do latim rebaixare (diminuir/rebaixar) e do grego trapezion (figura geométrica de quatro lados com dois paralelos). Algoritmo de geometria vetorial de digitalização.",
+    summary: "Estreitamento proporcional inteligente nas pontas finas e cantos vivos de letras para evitar o acúmulo de linha em formato de bolota dura.",
+    definition: "O Rebaixo de Compensação de Trapézio (Trapezoid Satin Narrowing / Smart Corner Narrowing / Tapered Corner Compensation) é o algoritmo de digitalização vetorial aplicado nas extremidades pontiagudas, vértices fechados e cantos em cunha de colunas de ponto cheio (cetim). À medida que as linhas de contorno convergem em um ângulo agudo (< 45°), o software calcula o estreitamento progressivo e reduz a densidade volumétrica, impedindo que dezenas de perfurações de agulha se concentrem no mesmo milímetro e formem um caroço duro ou quebrem a agulha.",
+    technicalDetails: "Em cantos afilados, a densidade linear atinge valores críticos (> 25 pontos/mm). O rebaixo de trapézio aplica uma função de transição trapezoidal ou recorte angular (Cap / Mitered Join) que interrompe a descida da agulha antes do vértice extremo e redistribui as pontas com espaçamento mínimo seguro de 0,4 mm.",
+    beginnerExplanation: "Quando uma letra ou desenho tem uma pontinha muito fina e afiada (como a perninha da letra 'A' ou a ponta de uma estrela), a máquina quer dar muitos pontos no mesmo buraquinho minúsculo, fazendo um nó feio e duro. O rebaixo de trapézio é um ajuste no programa que diminui os pontinhos na ponta para o bico ficar fininho, lindo e macio.",
+    howItWorks: [
+      "1. O programador desenha uma coluna de cetim terminando em ponta aguda no software.",
+      "2. O algoritmo detecta que a largura da coluna é inferior a 1,0 mm no vértice.",
+      "3. O recurso de compensação de trapézio calcula a curva de decaimento de pontos.",
+      "4. Os pontos são encurtados progressivamente em formato trapezoidal ou em corte chanfrado.",
+      "5. A agulha executa a ponta com espaçamento perfeito, sem empavilar linha nem furar o tecido."
+    ],
+    construction: [
+      "Nó vetorial de extremidade em curva Bezier",
+      "Parâmetro de largura mínima de ponto (Minimum stitch length limiter)",
+      "Ângulo de corte de canto (Cap angle limiter)",
+      "Compensação de repuxo diferencial na ponta"
+    ],
+    mainTypes: [
+      "Rebaixo Trapezoidal Automático em Letras Finas",
+      "Canto Mitrado com Junção em Trapézio (Mitered Trapezoid Join)",
+      "Afilamento Suave de Pontas de Folhas e Estrelas (Auto-Tapering)"
+    ],
+    characteristics: [
+      "Pontas afiladas extremamente nítidas e elegantes no bordado",
+      "Eliminação de nódulos duros de linha que pinicam na pele",
+      "Redução drástica de quebras de agulha em vértices finos"
+    ],
+    applications: [
+      "Bordado de monogramas elegantes, letras manuscritas e fontes cursivas finas.",
+      "Pontas de brasões, coroas, estrelas e arabescos detalhados.",
+      "Logotipos corporativos com serifas estreitas e traços afilados."
+    ],
+    commonErrors: [
+      "❌ Deixar colunas de cetim com bicos pontudos sem rebaixo, fazendo a agulha bater 30 vezes no mesmo milímetro",
+      "❌ Cortar a ponta de forma tão brusca que a letra perde a forma geométrica original",
+      "❌ Usar linha grossa 40 em pontas minúsculas sem reduzir a densidade do trapézio"
+    ],
+    troubleshootingTips: [
+      "Se a ponta da letra estiver virando uma 'bolotinha' dura de linha: Ative o recurso 'Compensação de Canto / Auto-Tapering' no software e defina a largura mínima para 0.8 mm.",
+      "Se a agulha quebrar sempre na ponta da estrela: Diminua a densidade na extremidade e ative o corte de cantos vivos.",
+      "Se a ponta fina sumir no tecido: Coloque uma costura de base (underlay) de ponto corrido único no centro da ponta."
+    ],
+    dicaArtrelados: "Para letrinhas manuscritas finas ficarem perfeitas e sem caroço na ponta: programe as pontinhas com rebaixo trapezoidal e use agulha 65/9 ou linha de espessura 60! O traço fica fino como se tivesse sido desenhado com caneta de ponta de ouro!",
+    voceSabia: "Em softwares de ponta como Wilcom e Embird, os algoritmos de trapézio utilizam cálculos de trigonometria hiperbólica para recalcular os ângulos de cada ponto em menos de 2 milissegundos durante a geração da matriz!",
+    practicalExercise: "Digitalize uma letra 'V' maiúscula com ponta fina no seu software. Observe os pontos no vértice: ative o 'Canto Mitrado / Smart Corner' e veja como o programa redistribui os pontos em formato de leque trapezoidal suave.",
+    quickSummary: "Algoritmo de programação que alivia a quantidade de pontos em pontas e cantos vivos para garantir bicos finos sem nós de linha.",
+    recommendedSettings: {
+      density: "0.40 mm com afilamento de ponta (Tapering)",
+      speedPPM: "750 a 850 PPM",
+      needleType: "70/10 Ponta Bola Fina ou 65/9 Microtex",
+      stabilizer: "Conforme tecido"
+    },
+    relatedTerms: [
+      "Ponto Cheio / Cetim (Satin Stitch)",
+      "Canto Mitrado (Mitered Corner)",
+      "Densidade de Ponto (Stitch Density)",
+      "Digitalização de Bordado (Digitizing)",
+      "Compensação de Repuxo (Pull Compensation)"
+    ],
+    tags: ["r-077", "rebaixo de trapezio", "canto fino", "pontas", "digitalizacao", "wilcom", "artrelados"],
+    bibliographicReferences: [
+      "WILCOM EMBROIDERY STUDIO. Advanced Lettering & Smart Corner Stitch Digitizing Standards. Sydney, 2023.",
+      "PULSE MICROSYS. Vector Geometry & Trapezoidal Corner Narrowing in CAD. Toronto, 2022.",
+      "ARTRELADOS. Segredos da Programação de Fontes Finas, Serifas e Arabescos de Luxo. Curitiba, 2024."
+    ],
+    updatedAt: "2026-08-30"
+  },
+  {
+    id: "r-078-rebobinamento-concentrico-de-linha-de-bobina",
+    code: "R-078",
+    term: "Rebobinamento Concêntrico de Linha de Bobina (Concentric Bobbin Winding Dynamics)",
+    level: "Intermediário 🟡",
+    category: "Componentes e Mecânica da Máquina",
+    grammarClass: "Locução substantiva masculino.",
+    origin: "Do latim re (de novo) e do francês bobine (carretel/cilindro) e do latim concentricus (com o mesmo centro). Princípio mecânico de bobinamento rotativo.",
+    summary: "Processo de encher a bobina com tensão firme, uniforme e enrolamento perfeitamente paralelo para evitar variações de tensão no avesso.",
+    definition: "O Rebobinamento Concêntrico de Linha de Bobina (Concentric Bobbin Winding Dynamics / Precision Bobbin Spooling) é o processo mecânico de transferência da linha de bobina (poliéster 150D/1 ou 60wt) do cone alimentador para o carretel metálico ou plástico inferior da máquina. A linha deve ser distribuída em camadas paralelas perfeitamente concêntricas com tensão constante e controlada, gerando um cilindro sólido e denso sem 'barrigas', espiras frouxas ou calombos laterais.",
+    technicalDetails: "Uma bobina cheia com enrolamento concêntrico ideal possui densidade volumétrica homogênea com força de saída entre 18gf e 24gf (medida em tensiômetro Towa). Bobinas enroladas frouxamente ou de forma cônica causam variações imprevisíveis de até 15gf na tensão inferior ao longo do bordado, provocando subida repentina da linha branca no direito da peça.",
+    beginnerExplanation: "É o jeito certo de encher a carretilha/bobina de linha: ela precisa ficar durinha, lisinha e com a linha enrolada reta de cima a baixo como se fosse um carretel que veio pronto de fábrica. Se ficar fofa ou torta, a linha de baixo vai puxar a linha de cima e estragar o bordado.",
+    howItWorks: [
+      "1. A linha sai do cone superior e passa obrigatoriamente pelo disco pré-tensor do enchedor.",
+      "2. Dá-se algumas voltas manuais na carretilha para ancorar a ponta do fio.",
+      "3. O pino do enchedor gira a bobina em alta rotação sincronizada.",
+      "4. O operador ou a guia oscilante distribui a linha de forma nivelada entre as abas superior e inferior.",
+      "5. A trava automática desarma quando a bobina atinge 85% a 90% da sua capacidade máxima."
+    ],
+    construction: [
+      "Eixo giratório do enchedor com mola de retenção",
+      "Disco pré-tensor de bobinador com mola calibrada",
+      "Guia-fio de deflexão e nivelamento",
+      "Sensor ou limitador mecânico de parada por diâmetro"
+    ],
+    mainTypes: [
+      "Enchedor de Bobina Integrado no Chassi da Máquina",
+      "Enchedor de Bobina Independente de Alta Velocidade (Motor Externo)",
+      "Bobinas Pré-Enroladas Industriais com Miolo Plástico (Pre-Wound Magnetic Core Bobbins)"
+    ],
+    characteristics: [
+      "Saída de linha ultra-estável do primeiro ao último metro",
+      "Avesso do bordado com a proporção áurea perfeita (1/3 branco centralizado no cetim)",
+      "Eliminação completa de nós e laçadas soltas por travamento interno de fio"
+    ],
+    applications: [
+      "Preparação diária de carretilhas no início da jornada de trabalho do ateliê.",
+      "Produção de alta qualidade em toalhas, enxovais e uniformes.",
+      "Controle de custo de linha de bobina de alto rendimento."
+    ],
+    commonErrors: [
+      "❌ Encher a bobina sem passar a linha pelo tensor do enchedor, deixando a carretilha mole e fofa como esponja",
+      "❌ Encher a bobina até transbordar pelas laterais, fazendo o carretel travar dentro da caixa de bobina",
+      "❌ Usar carretilha com a borda de plástico amassada ou lascada que desvia o enrolamento"
+    ],
+    troubleshootingTips: [
+      "Se você apertar a bobina cheia com o dedo e ela afundar fofa: Descarte a linha e encha novamente passando o fio firmemente dentro dos discos de tensão do enchedor.",
+      "Se a linha branca estiver subindo para a frente do bordado: A bobina foi enrolada frouxa e está escorregando; troque por uma bobina cheia com boa firmeza.",
+      "Se a máquina estiver fazendo barulho de carretilha batendo: A bobina está muito cheia e raspando na tampa; retire 1 metro de linha."
+    ],
+    dicaArtrelados: "O teste da unha na bobina: pegue a bobina que você acabou de encher e aperte a linha com a unha com força! A linha precisa estar durinha e firme como se fosse uma pedra lisa! Se a sua unha afundar na linha, ela está fofa e vai desregular a tensão do seu bordado inteiro!",
+    voceSabia: "As bobinas pré-enroladas de fábrica (Pre-Wound Bobbins) utilizam bobinamento industrial a laser a vácuo, conseguindo colocar até 30% mais metros de linha no mesmo espaço da carretilha comum!",
+    practicalExercise: "Encha uma bobina sem passar pelo tensor e outra passando pelo tensor com firmeza. Aperte as duas com os dedos e sinta a diferença de densidade entre elas. Coloque na máquina e compare o avesso do bordado.",
+    quickSummary: "Processo de encher a carretilha com linha paralela, firme e sob tensão controlada para assegurar tensão estável e avesso perfeito.",
+    recommendedSettings: {
+      speedPPM: "Velocidade média do enchedor",
+      needleType: "Compatível",
+      stabilizer: "Conforme tecido",
+      threadTension: "18gf a 24gf no tensiômetro Towa"
+    },
+    relatedTerms: [
+      "Caixa de Bobina (Bobbin Case)",
+      "Linha de Bobina (Bobbin Thread)",
+      "Tensiômetro de Bobina (Towa Gauge)",
+      "Bobina Pré-Enrolada (Pre-Wound Bobbin)",
+      "Tensão Inferior"
+    ],
+    tags: ["r-078", "rebobinamento", "bobina", "carretilha", "tensao inferior", "enchedor", "artrelados"],
+    bibliographicReferences: [
+      "FIL-TEC BOBBIN INNOVATIONS. Bobbin Winding Density & Tension Consistency Standards. Maryland, 2022.",
+      "BROTHER EMBROIDERY SYSTEMS. Bobbin Winder Setup and Thread Path Guide. Nagoya, 2021.",
+      "ARTRELADOS. O Segredo da Tensão Inferior Perfeita: Bobinas, Molas e Caixas de Linha. Curitiba, 2024."
+    ],
+    updatedAt: "2026-08-30"
+  },
+  {
+    id: "r-079-recobrimento-de-cetim-em-zigue-zague-gradiente",
+    code: "R-079",
+    term: "Recobrimento de Cetim em Zigue-Zague Gradiente (Gradient Satin Zigzag Shading)",
+    level: "Avançado 🔴",
+    category: "Programação de Bordado",
+    grammarClass: "Locução substantiva masculino.",
+    origin: "Do francês recouvrir (cobrir por cima), satin (tecido brilhante de seda) e do alemão zickzack (linhas alternadas em zigue-zague). Técnica artística de pintura com agulha digital.",
+    summary: "Técnica de programação que intercala comprimentos variáveis de ponto cheio para criar transições suaves e realistas de luz e sombra.",
+    definition: "O Recobrimento de Cetim em Zigue-Zague Gradiente (Gradient Satin Zigzag Shading / Jagged Satin Stitch Blending / Feathered Edge Stitching) é a técnica de digitalização avançada onde as bordas de duas ou mais camadas consecutivas de ponto cheio (cetim) são geradas com comprimentos de pontos alternados de forma aleatória ou senoidal (bordas dentadas ou 'bico de pena'). Essa interpolação faz com que os fios de cores diferentes se entrelacem gradualmente na transição, eliminando linhas duras de divisão e produzindo gradientes contínuos de cor e volume tridimensional.",
+    technicalDetails: "O algoritmo modula o comprimento individual de cada ponto alternando entre 30% e 100% da largura da coluna (Jagged Edge / Feathering = 50% a 70%). As pontas longas de uma cor penetram nos interstícios das pontas curtas da cor subsequente, criando uma ilusão óptica de fusão tonal contínua sem criar sobreposição espessa de pontos.",
+    beginnerExplanation: "É a técnica que faz o bordado parecer uma pintura realista feita com linhas! Em vez de ter uma linha reta separando uma cor da outra, o programa faz os pontos de cetim terminarem em 'dentes de serrote' irregulares que entram uns dentro dos outros, misturando as cores suavemente como em uma pétala de rosa ou no pelo de um cachorrinho.",
+    howItWorks: [
+      "1. O programador desenha a primeira camada de cor de base (ex: vermelho escuro).",
+      "2. Ativa a função 'Borda Dentada / Bico de Pena' (Feathering / Jagged Edge) em uma das laterais da coluna de cetim.",
+      "3. O software gera pontos com comprimentos irregulares alternados.",
+      "4. Digitaliza a segunda cor (ex: vermelho claro ou rosa) com a borda dentada casando na direção oposta.",
+      "5. A máquina borda as duas cores sucessivamente, fundindo os filamentos de linha com efeito degradê suave."
+    ],
+    construction: [
+      "Coluna vetorial de cetim com vetor de interpolação",
+      "Modulador de comprimento aleatório de ponto (Jagged length randomizer)",
+      "Densidade aliviada nas áreas de cruzamento (0.50 mm a 0.60 mm)",
+      "Diretriz angular paralela para alinhamento do reflexo de luz"
+    ],
+    mainTypes: [
+      "Degradê em Borda Dentada Unilateral (Single Side Jagged)",
+      "Degradê em Borda Dentada Bilateral (Double Side Feathering)",
+      "Pintura com Agulha Fotográfica em Múltiplas Camadas (Thread Painting / Long & Short Stitch)"
+    ],
+    characteristics: [
+      "Transições tonais suaves e realistas sem linhas duras ou artificiais",
+      "Toque macio sem acúmulo de camadas pesadas de pontos",
+      "Efeito de profundidade e luminosidade tridimensional em motivos botânicos e animais"
+    ],
+    applications: [
+      "Pétalas de flores, folhas botânicas e paisagens de alta nobreza.",
+      "Retratos realistas, animais de estimação (pets) e penas de aves.",
+      "Brasões nobres e monogramas com efeito metálico sombreado."
+    ],
+    commonErrors: [
+      "❌ Deixar a densidade normal de 0.40 mm nas duas camadas sobrepostas, criando uma emenda grossa e dura",
+      "❌ Mudar o ângulo do ponto bruscamente entre as duas cores, quebrando a reflexão de luz do degradê",
+      "❌ Usar cores com contraste excessivo sem uma cor intermediária de transição"
+    ],
+    troubleshootingTips: [
+      "Se a emenda entre as cores ficar visível como uma linha: Aumente a profundidade da borda dentada (Feathering Depth) para 60% a 70%.",
+      "Se o bordado ficar muito duro no meio: Alivie a densidade da camada de cima para 0.55 mm.",
+      "Se a linha estiver quebrando na transição: Verifique se não há pontos minúsculos inferiores a 0.8 mm gerados na ponta dos dentes."
+    ],
+    dicaArtrelados: "Para fazer degradês de rosas que parecem vivas: use sempre fios de poliéster trilobal brilhante e mantenha os ângulos de ponto das duas cores perfeitamente paralelos! A luz vai bater na mesma direção nas duas cores e a transição vai ficar tão suave que ninguém vai acreditar que foi feito na máquina!",
+    voceSabia: "A técnica de pintura com agulha (Thread Painting) surgiu na China antiga no século XI durante a dinastia Song, onde mestres bordadores passavam anos misturando fios de seda para criar quadros perfeitos de pássaros e flores!",
+    practicalExercise: "No seu software de bordado, crie uma folha verde: divida em verde escuro e verde claro e ative o 'Bico de Pena' na junção das duas cores. Borde em um retalho e veja o efeito de luz natural da folha.",
+    quickSummary: "Técnica de digitalização com pontos de comprimentos alternados que mescla cores suavemente para criar efeitos realistas de luz e sombra.",
+    recommendedSettings: {
+      density: "0.48 mm a 0.55 mm na zona de transição de cores",
+      speedPPM: "650 a 800 PPM",
+      needleType: "70/10 Ponta Bola Fina ou Microtex",
+      stabilizer: "Entretela compatível com tecido estável"
+    },
+    relatedTerms: [
+      "Ponto Cheio / Cetim (Satin Stitch)",
+      "Degradê de Cores (Color Blending / Gradient)",
+      "Pintura com Agulha (Thread Painting)",
+      "Ponto Longo e Curto (Long & Short Stitch)",
+      "Densidade Gradiente"
+    ],
+    tags: ["r-079", "recobrimento de cetim", "degrade", "zigue zague", "pintura com agulha", "sombreamento", "artrelados"],
+    bibliographicReferences: [
+      "WILCOM EMBROIDERY STUDIO. Artistic Shading, Feathering & Color Blending Techniques. Sydney, 2023.",
+      "ROYAL SCHOOL OF NEEDLEWORK. Silk Shading and Long & Short Stitch Masterclass. London, 2021.",
+      "ARTRELADOS. Guia de Pintura com Agulha, Degradês e Sombreamento no Bordado Computadorizado. Curitiba, 2024."
+    ],
+    updatedAt: "2026-08-30"
+  },
+  {
+    id: "r-080-reducao-de-velocidade-em-saltos-longos",
+    code: "R-080",
+    letter: "R",
+    term: "Redução de Velocidade em Saltos Longos (Long Jump Speed Deceleration)",
+    level: "Intermediário 🟡",
+    category: "Componentes e Mecânica da Máquina",
+    grammarClass: "Locução substantiva feminina.",
+    origin: "Do latim reductio (diminuição) e velocitas (rapidez). Algoritmo de controle cinemático em servomotores CNC industriais.",
+    summary: "Parâmetro eletrônico da máquina que freia o cabeçote antes de grandes deslocamentos do bastidor para proteger a mecânica.",
+    definition: "A Redução de Velocidade em Saltos Longos (Long Jump Speed Deceleration / Jump Stitch Velocity Limiting) é a rotina de controle cinemático do sistema de acionamento eletrônico (DSP / Servomotores) da máquina de bordar que desacelera a rotação do eixo principal (de 900 PPM para 300-450 PPM) quando o código da matriz comanda um deslocamento de salto (Jump) com distância superior ao limiar pré-definido (geralmente saltos acima de 8,0 mm a 12,0 mm).",
+    technicalDetails: "Durante um salto longo, o pantógrafo precisa transladar o bastidor com aceleração lateral de até 2G. Se o eixo principal continuasse em 1.000 PPM, o tempo entre a subida e a descida da agulha (cerca de 30 milissegundos) seria insuficiente para o bastidor percorrer a distância e parar completamente, resultando em deflexão severa de agulha, batida no bastidor ou perda de passos no motor X/Y.",
+    beginnerExplanation: "É um freio automático inteligente da máquina: quando o desenho precisa pular de um lado longe para o outro sem costurar, a máquina dá uma desacelerada suave para dar tempo do bastidor andar até lá sem dar tranco forte e sem arrebentar a agulha.",
+    howItWorks: [
+      "1. A placa controladora da máquina lê o comando de salto longo na matriz de bordado.",
+      "2. O circuito DSP envia sinal de redução de frequência para o inversor do servomotor principal.",
+      "3. A máquina desacelera suavemente a rotação do cabeçote.",
+      "4. O pantógrafo movimenta o bastidor com rampa suave de aceleração e frenagem até as novas coordenadas.",
+      "5. A agulha desce na posição exata e a máquina retoma a velocidade nominal automaticamente."
+    ],
+    construction: [
+      "Controlador DSP de controle de movimento multieixo",
+      "Servomotor Brushless com encoder óptico absoluto",
+      "Módulo de freio dinâmico regenerativo",
+      "Parâmetro de limiar de salto longo configurável no painel"
+    ],
+    mainTypes: [
+      "Desaceleração Automática por Limiar de Comprimento de Salto (Jump Threshold)",
+      "Frenagem por Parada de Corte de Fio (Trim & Jump Deceleration)",
+      "Rampa Cinemática em Curva 'S' para Pantógrafos Pesados"
+    ],
+    characteristics: [
+      "Proteção total contra deflexão de agulha e quebras mecânicas",
+      "Eliminação de perda de coordenadas (deslocamento de matriz) durante o bordado",
+      "Movimentação suave e silenciosa do bastidor em qualquer tamanho de desenho"
+    ],
+    applications: [
+      "Matrizes com muitos objetos espalhados pelo bastidor.",
+      "Bordados em bastidores pesados de jaquetas e colchas.",
+      "Operação segura em máquinas monocabeça e industriais multicabeças."
+    ],
+    commonErrors: [
+      "❌ Desativar a função de desaceleração no painel da máquina para tentar bordar mais rápido, causando batida de agulha",
+      "❌ Deixar saltos gigantescos de 15 cm sem comando de corte de linha na matriz",
+      "❌ Usar bastidores excessivamente pesados sem calibrar a aceleração do pantógrafo"
+    ],
+    troubleshootingTips: [
+      "Se a máquina der um tranco seco ou barulho forte nos saltos: Reduza o parâmetro 'Jump Speed' no menu de configurações do painel da máquina.",
+      "Se o bordado ficar descentralizado após um salto longo: O motor perdeu passos por excesso de velocidade; ative a desaceleração de salto.",
+      "Se a agulha entortar ao pular de uma letra para outra: Verifique se o cortador de linha automático está funcionando antes do salto."
+    ],
+    dicaArtrelados: "Se você tem uma matriz com muitas letrinhas ou detalhes separados: certifique-se de que a matriz tenha comandos de corte de linha (Trim) entre os saltos longos! A máquina corta, pula devagarzinho e recomeça limpa, sem deixar aquele monte de fios compridos atravessando a sua peça!",
+    voceSabia: "Em uma máquina bordando a 1.000 PPM, cada ponto acontece em apenas 60 milissegundos; o freio eletrônico consegue detectar um salto e desacelerar a máquina em menos de um décimo de segundo!",
+    practicalExercise: "Borde um desenho que tenha duas estrelas afastadas 10 cm uma da outra. Observe como a máquina borda rápido a primeira estrela, diminui o ritmo suavemente no salto e acelera novamente ao começar a segunda estrela.",
+    quickSummary: "Controle eletrônico que desacelera a máquina antes de deslocamentos longos do bastidor para garantir precisão e proteger a agulha.",
+    recommendedSettings: {
+      speedPPM: "Ajuste automático (350 PPM nos saltos / 800 PPM na costura)",
+      needleType: "75/11 Universal",
+      stabilizer: "Conforme tecido"
+    },
+    relatedTerms: [
+      "Ponto de Salto (Jump Stitch)",
+      "Corte de Fio Automático (Auto-Trim)",
+      "Pantógrafo de Bordado",
+      "Servomotor e Encoder",
+      "Deflexão de Agulha"
+    ],
+    tags: ["r-080", "reducao de velocidade", "salto longo", "jump stitch", "mecanica", "painel", "artrelados"],
+    bibliographicReferences: [
+      "BARUDAN PRECISION EMBROIDERY. Servo Drive Kinetics & Long Jump Deceleration Standards. Ichinomiya, 2022.",
+      "TAJIMA TECHNICAL JOURNAL. Multi-Axis Motion Control & Dynamic Acceleration in Embroidery. Nagoya, 2021.",
+      "ARTRELADOS. Guia de Parâmetros Eletrônicos, Velocidades e Otimização de Máquinas de Bordar. Curitiba, 2024."
+    ],
+    updatedAt: "2026-08-30"
+  },
+  {
+    id: "r-081-reforco-de-borda-em-pico-eletronico",
+    code: "R-081",
+    letter: "R",
+    term: "Reforço de Borda em Picô Eletrônico (Electronic Picot Edge Stitching)",
+    level: "Intermediário 🟡",
+    category: "Técnicas de Aplique e Efeitos Especiais",
+    grammarClass: "Locução substantiva masculino.",
+    origin: "Do francês picot (pequena ponta/biquinho pontiagudo). Ponto decorativo clássico de rendas e passamanarias de Paris adaptado para o bordado digital.",
+    summary: "Ponto decorativo rendado em formato de pequenos bicos pontiagudos programado para acabamento nobre em bordas de toalhas e lenços.",
+    definition: "O Reforço de Borda em Picô Eletrônico (Electronic Picot Edge Stitching / Digitized Picot Edge Finish) é o padrão de ponto decorativo e estrutural composto por pequenas alças pontiagudas, nós salientes ou 'biquinhos' geométricos bordados em intervalos regulares ao longo da borda externa de uma peça têxtil. Além do valor ornamental que reproduz as rendas de agulha e crochê clássicas, o picô eletrônico ancora as fibras da orla cortada do tecido com nós travados de alta resistência mecânica contra desfiamentos pós-lavagem.",
+    technicalDetails: "A matriz é programada com sequência de micro-pontos de amarração (Locking Nodes) que se projetam 1,5 mm a 3,0 mm para fora da linha guia de corte, seguidos por uma coluna de cordão de cetim denso (0.35 mm de densidade). Executado frequentemente sobre entretela hidrossolúvel pesada (80g) para que os bicos fiquem suspensos no ar após a lavagem.",
+    beginnerExplanation: "É aquele acabamento lindo que parece um biquinho de renda delicada ou crochêzinho feito na ponta de toalhas de lavabo, lenços e fraldinhas de bebê. A máquina faz as pontinhas decorativas e ao mesmo tempo sela o tecido para ele nunca desfiar na máquina de lavar.",
+    howItWorks: [
+      "1. A máquina borda a linha de posicionamento da borda da peça sobre entretela solúvel.",
+      "2. O operador assenta a borda do tecido de linho ou percal sobre a linha guia.",
+      "3. A máquina borda os pontos de ancoragem interna que prendem o tecido.",
+      "4. Executa a sequência de laçadas do picô que projetam os biquinhos para fora do tecido.",
+      "5. Borda o cordão de cetim denso de reforço unindo tudo.",
+      "6. A peça é lavada em água morna para dissolver a entretela, deixando os biquinhos de picô perfeitos e suspensos."
+    ],
+    construction: [
+      "Linha de corte guia (Placement line)",
+      "Projeção triangular do bico de picô (Picot node loop)",
+      "Coluna de travamento em ponto cheio (Satin border anchor)",
+      "Substrato em entretela hidrossolúvel grossa"
+    ],
+    mainTypes: [
+      "Picô Clássico Triangular Simples",
+      "Picô Redondo / Bolinha (Pearl Picot Edge)",
+      "Picô Duplo com Renda Suspensa (Heirloom Picot Border)"
+    ],
+    characteristics: [
+      "Visual clássico e romântico de enxoval de alta nobreza",
+      "Bordas 100% seladas contra desfiamento",
+      "Substituição rápida e perfeita de bicos manuais de crochê"
+    ],
+    applications: [
+      "Toalhinhas de lavabo, panos de bandeja e caminhos de mesa de linho nobre.",
+      "Fraldas de boca, babadores e mantas de enxoval de bebê de luxo.",
+      "Lenços finos de noiva, vestidos de batizado e paramentos litúrgicos."
+    ],
+    commonErrors: [
+      "❌ Usar entretela rasgável comum, deixando pedacinhos de papel feios presos dentro dos bicos de picô",
+      "❌ Programar os bicos com pouca densidade de linha, fazendo o picô murchar e desmanchar na primeira lavagem",
+      "❌ Cortar o tecido rente demais antes da costura de travamento, soltando os fios da trama"
+    ],
+    troubleshootingTips: [
+      "Se os bicos de picô ficarem frouxos após lavar a entretela: Aumente a densidade do ponto de cetim para 0.35 mm e use duas camadas de entretela solúvel.",
+      "Se a linha desfiar durante a costura do picô: Reduza a velocidade para 550 PPM e use agulha ponta aguda 70/10 Microtex.",
+      "Se o tecido repuxar na borda: Use bastidor bem tensionado e aplique uma costura de alinhavo prévia."
+    ],
+    dicaArtrelados: "Para fazer toalhas de lavabo com picô de arrancar suspiros das clientes: use linha de bordar com brilho acetinado na cor dourada suave ou branca sobre linho cru e lave em água morna com umas gotinhas de amaciante neutro! A borda fica macia, perfumada e com caimento de peça de castelo europeu!",
+    voceSabia: "O ponto picô era um dos acabamentos mais caros da corte da rainha Maria Antonieta na França do século XVIII, onde cada metro de renda com picô feito à mão valia o equivalente a semanas de trabalho de um artesão real!",
+    practicalExercise: "Digitalize ou teste uma matriz de borda com picô em um retalho de tecido fino sobre entretela solúvel. Lave na torneira com água morna e veja como a água dissolve o plástico e revela uma borda rendada perfeita.",
+    quickSummary: "Ponto decorativo rendado em pequenos bicos pontiagudos que sela a borda do tecido e confere acabamento clássico de luxo.",
+    recommendedSettings: {
+      density: "0.35 mm a 0.38 mm no cordão e bicos",
+      speedPPM: "550 a 650 PPM",
+      needleType: "70/10 ou 75/11 Ponta Aguda Microtex",
+      stabilizer: "Duas camadas de entretela hidrossolúvel de 80g"
+    },
+    relatedTerms: [
+      "Bordado Richelieu (Cutwork)",
+      "Entretela Hidrossolúvel (Water-Soluble)",
+      "Ponto Cheio / Cetim (Satin Stitch)",
+      "Acabamento Heirloom / Enxoval de Luxo",
+      "Renda Têxtil"
+    ],
+    tags: ["r-081", "reforco de borda", "pico eletronico", "renda", "enxoval", "luxo", "toalhas", "artrelados"],
+    bibliographicReferences: [
+      "ECOLE LESAGE PARIS. Classical French Embroidery Finishes & Picot Edge Traditions. Paris, 2022.",
+      "WILCOM INTERNATIONAL. Digitizing Heirloom Borders and Picot Lace Finishes. Sydney, 2023.",
+      "ARTRELADOS. Guia de Bordas Rendadas, Picô e Acabamentos Finos para Enxovais. Curitiba, 2024."
+    ],
+    updatedAt: "2026-08-30"
+  },
+  {
+    id: "r-082-regulagem-de-tensao-da-mola-tira-fio",
+    code: "R-082",
+    letter: "R",
+    term: "Regulagem de Tensão da Mola Tira-Fio (Check Spring Stroke and Tension Adjustment)",
+    level: "Avançado 🔴",
+    category: "Componentes e Mecânica da Máquina",
+    grammarClass: "Locução substantiva feminina.",
+    origin: "Do inglês check spring (mola de verificação/compensação) e do latim regulare (ajustar por regra). Componente de micro-dinâmica de linha desde os primórdios da máquina de costura.",
+    summary: "Ajuste milimétrico da força e do curso de movimento da mola flexível que mantém o fio esticado no instante da laçada.",
+    definition: "A Regulagem de Tensão da Mola Tira-Fio (Check Spring Stroke and Tension Adjustment / Take-up Spring Calibration) é o procedimento mecânico de alta precisão que calibra dois parâmetros fundamentais do conjunto tensor superior: 1) A pressão da mola helicoidal interna (força de retorno); e 2) O curso angular de deflexão (movimento vertical de 5 mm a 8 mm delimitado pelo batente metálico). Sua função é manter a linha superior sob suave tração residual até que a ponta da agulha penetre no tecido e a ponta da lançadeira capture o laço.",
+    technicalDetails: "Se a mola estiver muito frouxa ou com curso curto, o fio fica solto antes da descida da agulha, provocando laçadas duplas (*bird nesting*) e quebras de agulha; se estiver muito dura ou com curso excessivo, a mola puxa o fio antes da captura pela lançadeira, gerando pontos pulados sistemáticos. A regulagem é feita através do parafuso fenda central do bloco tensor.",
+    beginnerExplanation: "A mola tira-fio é aquela molinha fina como um cabelinho de aço que fica pulando para cima e para baixo do lado do botão de tensão onde você passa a linha. Ela precisa estar regulada certinha para segurar a linha esticadinha na hora exata em que a agulha desce para furar o tecido.",
+    howItWorks: [
+      "1. A linha passa entre os discos tensores e é enganchada na curva da mola tira-fio.",
+      "2. Conforme a alavanca puxa-fio sobe, a mola é defletida para cima absorvendo a tensão.",
+      "3. Quando a agulha desce, a mola mantém o fio esticado impedindo que ele embole.",
+      "4. No momento em que a agulha atinge o tecido, a mola encosta suavemente no batente e libera a linha.",
+      "5. A lançadeira entra no laço perfeitamente formado sem folgas de fio."
+    ],
+    construction: [
+      "Mola em fio de aço-mola fosfatizado de alta elasticidade (Ø 0,4 mm a 0,6 mm)",
+      "Eixo tensor fatiado com rosca de ajuste micrométrico",
+      "Placa de batente de fim de curso (Stopper plate)",
+      "Porca de trava e anel cônico de retenção"
+    ],
+    mainTypes: [
+      "Mola Tira-Fio para Máquinas Monocabeça Domésticas / Semi-Industriais",
+      "Conjunto de Mola Tira-Fio de Cabeçote Industrial Multiagulhas",
+      "Mola Tira-Fio Revestida para Fios Metálicos Especiais"
+    ],
+    characteristics: [
+      "Eliminação de 100% de pontos frouxos e bolinhas de linha no início das costuras",
+      "Formação geométrica impecável do laço de linha para a lançadeira",
+      "Operação macia e silenciosa da passagem de linha"
+    ],
+    applications: [
+      "Revisão mecânica periódica e diagnóstico de quebras crônicas de linha.",
+      "Adaptação da máquina para fios muito finos (60wt/75wt) ou muito grossos (30wt).",
+      "Manutenção corretiva após embaraçamento severo de linha no bloco tensor."
+    ],
+    commonErrors: [
+      "❌ Bordar com a mola tira-fio quebrada, torta ou desencaixada da ranhura",
+      "❌ Apertar o parafuso com força excessiva a ponto de travar o movimento elástico da mola",
+      "❌ Não limpar poeiras de linha e fiapos acumulados atrás do bloco da mola"
+    ],
+    troubleshootingTips: [
+      "Se a máquina estiver fazendo um ninho de linha embaixo do tecido logo no primeiro ponto: Verifique se a linha está devidamente passada por dentro da mola tira-fio.",
+      "Se a linha estiver arrebentando sempre que a máquina acelera: A mola tira-fio está com pressão muito forte; solte meia volta no parafuso central.",
+      "Se a mola estiver caída e mole sem voltar para cima: A mola perdeu a pressão interna ou quebrou o encaixe; faça a troca da pecinha."
+    ],
+    dicaArtrelados: "A mola tira-fio é a 'alma' da tensão da sua máquina! Para saber se ela está perfeita: puxe a linha com a mão para baixo e solte; a molinha deve descer macia e pular de volta para cima instantaneamente como um gafanhoto ágil! Se ela voltar devagar ou ficar caída, ela precisa de regulagem!",
+    voceSabia: "Uma mola tira-fio em uma máquina industrial trabalhando 8 horas por dia oscila mais de 400.000 vezes em uma única jornada de trabalho sem perder a elasticidade do aço temperado!",
+    practicalExercise: "Com a máquina desligada, puxe a linha superior com a mão e observe de perto a molinha de aço se movimentando para baixo até bater no limitador e voltar. Sinta a maciez e a força do retorno elástico.",
+    quickSummary: "Regulagem da força e do curso da mola compensadora que mantém a linha esticada no instante exato da descida da agulha.",
+    recommendedSettings: {
+      speedPPM: "750 a 900 PPM",
+      needleType: "75/11 Universal",
+      stabilizer: "Conforme tecido"
+    },
+    relatedTerms: [
+      "Mola Tira-Fio (Check Spring)",
+      "Tensor de Linha Superior",
+      "Alavanca Puxa-Fio (Take-Up Lever)",
+      "Ninho de Linha (Birdnesting)",
+      "Lançadeira Rotativa"
+    ],
+    tags: ["r-082", "regulagem de tensao", "mola tira fio", "check spring", "mecanica", "tensores", "artrelados"],
+    bibliographicReferences: [
+      "TAJIMA APPAREL MACHINERY. Check Spring Calibration & Tension Assembly Standards. Nagoya, 2022.",
+      "BARUDAN INDUSTRIAL EMBROIDERY. Upper Thread Path Maintenance & Tension Spring Dynamics. Ichinomiya, 2021.",
+      "ARTRELADOS. Guia Definitivo de Mecânica, Molas e Ajuste Fino de Tensores de Bordado. Curitiba, 2024."
+    ],
+    updatedAt: "2026-08-30"
+  },
+  {
+    id: "r-083-ressonancia-harmonica-de-chassi-de-bordadeira",
+    code: "R-083",
+    letter: "R",
+    term: "Ressonância Harmônica de Chassi de Bordadeira (Machine Frame Harmonic Resonance)",
+    level: "Avançado 🔴",
+    category: "Componentes e Mecânica da Máquina",
+    grammarClass: "Locução substantiva feminina.",
+    origin: "Do latim resonantia (eco/repercussão de som) e do grego harmonikos (acordo sonoro). Física de vibrações mecânicas em estruturas industriais.",
+    summary: "Vibração mecânica excessiva que ocorre quando a velocidade da máquina atinge a frequência natural da mesa, causando bordados tremidos.",
+    definition: "A Ressonância Harmônica de Chassi de Bordadeira (Machine Frame Harmonic Resonance / Chassis Dynamic Resonance Vibration) é o fenômeno físico oscilatório que se manifesta quando a frequência de rotação do eixo principal e a alternância dos motores do pantógrafo (em uma faixa específica de velocidade, como 720-780 PPM) coincidem exatamente com a frequência natural de ressonância do chassi metálico ou da mesa de suporte da máquina. A energia de vibração se amplifica exponencialmente, provocando trepidação visível do cabeçote, ruído sonoro estridente e micro-desvios de traçado na matriz de bordado.",
+    technicalDetails: "A ressonância induz acelerações oscilatórias de pico superiores a 1,8G na barra de agulha e no pantógrafo, provocando deslocamentos laterais de até 0,35 mm no ponto de descida da agulha. Pode ser eliminada alterando a velocidade de trabalho em ± 50 PPM (saindo do ponto harmônico crítico) ou instalando calços de desacoplamento elastomérico sob os pés da mesa.",
+    beginnerExplanation: "É quando a máquina começa a tremer e chacoalhar a mesa muito forte em uma velocidade específica (por exemplo, quando está em 750 pontinhos por minuto), parecendo um carro em marcha errada. Se você aumentar um pouquinho ou abaixar um pouquinho a velocidade, a máquina volta a ficar lisinha e silenciosa na hora.",
+    howItWorks: [
+      "1. A máquina atinge a rotação que coincide com a frequência natural da mesa de apoio.",
+      "2. As pequenas vibrações naturais do motor se somam às ondas da estrutura.",
+      "3. O chassi entra em ressonância e amplifica a trepidação em toda a máquina.",
+      "4. O bastidor sofre micro-oscilações no momento da descida da agulha.",
+      "5. O bordado apresenta contornos tremidos e letras serrilhadas se a frequência for mantida."
+    ],
+    construction: [
+      "Chassi estrutural fundido em liga de alumínio ou ferro nodular",
+      "Pés de apoio niveladores com sapatas de borracha vulcanizada",
+      "Tampo de mesa reforçado em compensado naval multilaminado",
+      "Travas e tirantes de contraventamento estrutural"
+    ],
+    mainTypes: [
+      "Ressonância Estrutural por Desnivelamento de Piso",
+      "Ressonância por Mesa / Cavalete Leve de Madeira Frágil",
+      "Ressonância Harmônica Interna de Braço Tubular de Pantógrafo"
+    ],
+    characteristics: [
+      "Trepidação intensa da mesa e de copos ou cones de linha ao redor",
+      "Contornos de letras finas com aparência serrilhada ou ondulada",
+      "Ruído metálico que desaparece ao mudar a velocidade em 50 PPM"
+    ],
+    applications: [
+      "Instalação, montagem e nivelamento de novas máquinas no ateliê.",
+      "Diagnóstico de problemas de alinhamento e qualidade de ponto.",
+      "Projetos de isolamento acústico e redução de ruído em ateliês residenciais."
+    ],
+    commonErrors: [
+      "❌ Colocar a máquina de bordar sobre mesinhas de escritório fracas, leves ou com rodízios sem trava",
+      "❌ Trabalhar com a máquina desnivelada com um dos pés solto no ar sem encostar no chão",
+      "❌ Ignorar a vibração violenta, causando fadiga precoce de parafusos e placas eletrônicas"
+    ],
+    troubleshootingTips: [
+      "Se a máquina começar a vibrar muito forte em uma velocidade específica: Mude a velocidade no painel aumentando 50 PPM ou diminuindo 50 PPM; a vibração sumirá imediatamente.",
+      "Se a mesa chacoalhar: Coloque um tapete de borracha de alta densidade (EVA rígido ou borracha de pneu reciclado) sob os pés da mesa.",
+      "Se o piso for irregular: Nivele os 4 pés da máquina com um nível de bolha de pedreiro até a bolha ficar 100% centralizada."
+    ],
+    dicaArtrelados: "Uma máquina de bordar precisa de uma mesa firme e pesada como uma rocha! Se a sua mesa treme, coloque um tapetinho emborrachado grosso embaixo dos pés da mesa e ajuste a velocidade para a máquina trabalhar suave e gostosa como um carro de luxo na estrada!",
+    voceSabia: "O mesmo princípio de ressonância harmônica que faz uma máquina de bordar tremer foi o responsável pelo colapso da famosa ponte Tacoma Narrows nos Estados Unidos em 1940, quando ventos moderados atingiram a frequência natural da estrutura!",
+    practicalExercise: "Ligue sua máquina e varie a velocidade de 600 PPM até 850 PPM de 50 em 50 pontos. Observe com a mão sobre a mesa em qual velocidade a máquina vibra mais e em qual velocidade ela roda mais macia e silenciosa.",
+    quickSummary: "Vibração que acontece quando a velocidade da máquina coincide com a frequência natural da mesa, facilmente solucionada mudando a rotação ou nivelando a base.",
+    recommendedSettings: {
+      speedPPM: "Evitar a faixa de ressonância crítica (operar em 700 ou 800 PPM)",
+      needleType: "75/11 Universal",
+      stabilizer: "Conforme tecido"
+    },
+    relatedTerms: [
+      "Velocidade de Bordado (PPM)",
+      "Nivelamento de Máquina",
+      "Amortecedor de Balanço",
+      "Vibração Mecânica",
+      "Pantógrafo de Bordado"
+    ],
+    tags: ["r-083", "ressonancia harmonica", "vibracao", "chassi", "nivelamento", "mecanica", "artrelados"],
+    bibliographicReferences: [
+      "TAJIMA INDUSTRIAL MACHINERY. Vibration Isolation & Structural Dynamic Resonance Standards. Nagoya, 2022.",
+      "BARUDAN PRECISION ENGINEERING. Mechanical Frame Stability and Noise Control Manual. Ichinomiya, 2021.",
+      "ARTRELADOS. Nivelamento, Ergonomia e Instalação Perfeita de Máquinas de Bordar no Ateliê. Curitiba, 2024."
+    ],
+    updatedAt: "2026-08-30"
+  },
+  {
+    id: "r-084-retracao-higroscopica-de-fio-de-algodao-e-viscose",
+    code: "R-084",
+    letter: "R",
+    term: "Retração Higroscópica de Fio de Algodão e Viscose (Hygroscopic Thread Shrinkage)",
+    level: "Avançado 🔴",
+    category: "Agulhas e Fios de Bordado",
+    grammarClass: "Locução substantiva feminina.",
+    origin: "Do latim retractio (encolhimento) e do grego hygros (umidade) e skopein (observar). Comportamento termohigrométrico de fibras têxteis celulósicas.",
+    summary: "Absorção e perda de umidade ambiente pelas linhas naturais que altera a espessura do fio e causa encolhimento pós-lavagem.",
+    definition: "A Retração Higroscópica de Fio de Algodão e Viscose (Hygroscopic Thread Shrinkage / Regain-Induced Fiber Swelling) é o fenômeno físico-químico característico das fibras têxteis de origem celulósica (algodão natural, viscose rayon e linho) pelo qual a estrutura macromolecular absorve moléculas de água da umidade relativa do ar (tendo taxa de recuperação de umidade natural de 8,5% a 13%, comparada a apenas 0,4% do poliéster). Essa hidratação provoca o inchaço transversal da fibra e um encurtamento longitudinal de até 3% a 5% após o primeiro ciclo de lavagem e secagem.",
+    technicalDetails: "Ao absorver umidade, o diâmetro do fio de viscose aumenta em até 15%, reduzindo os interstícios da matriz bordada e tornando o preenchimento mais fechado; porém, na secagem, o encolhimento longitudinal gera forças de tração radial que podem repuxar tecidos leves se a matriz tiver sido programada com densidade excessiva (> 0.38 mm) ou compensação de repuxo insuficiente (< 0.40 mm).",
+    beginnerExplanation: "As linhas feitas de algodão ou viscose são como esponjinhas naturais que 'bebem' a umidade do ar e encolhem um pouquinho quando a peça é lavada pela primeira vez. Saber disso evita que a sua toalha ou camisa fique toda repuxada e enrugada em volta do bordado depois da primeira lavada.",
+    howItWorks: [
+      "1. A linha de viscose ou algodão absorve umidade do ar do ateliê durante o bordado.",
+      "2. Os pontos são assentados no tecido com o fio em estado expandido.",
+      "3. O cliente lava a peça bordada e a coloca para secar ao sol ou na secadora.",
+      "4. As moléculas de água evaporam e as pontes de hidrogênio da celulose se contraem.",
+      "5. O fio encolhe suavemente no comprimento; se houver entretela recortável estável por baixo, o tecido permanece 100% plano.",
+      "6. O bordado preserva seu caimento macio e brilho sedoso original."
+    ],
+    construction: [
+      "Polímero de celulose regenerada de polpa de madeira (Viscose Rayon)",
+      "Acabamento hidrofílico com agentes antiestáticos e amaciantes",
+      "Taxa padrão de umidade comercial (Moisture Regain: 11% para Viscose, 8.5% para Algodão)",
+      "Resistência à tração úmida (Wet Tenacity)"
+    ],
+    mainTypes: [
+      "Retração em Linha de Viscose Rayon (Brilho Intenso e Alta Absorção)",
+      "Retração em Linha de 100% Algodão Mercerizado Egípcio (Toque Fosco Vintage)",
+      "Retração Diferencial em Tecidos Mistos (Bordado em Viscose sobre Tecido de Poliéster)"
+    ],
+    characteristics: [
+      "Toque incomparavelmente macio e caimento ultra-fluido na pele",
+      "Brilho suave de nobreza artística superior ao poliéster",
+      "Exigência de entretela estável e lavagem com água fria e sabão neutro"
+    ],
+    applications: [
+      "Enxovais de bebê de alto luxo, vestidos de batizado e batas nobres.",
+      "Bordados em vestidos de noiva de seda, linho puro e cetim de viscose.",
+      "Peças com efeito artesanal vintage e restauração têxtil."
+    ],
+    commonErrors: [
+      "❌ Bordar com linha de viscose em matriz super densa com entretela rasgável fina e lavar em água quente, enrugando todo o tecido",
+      "❌ Guardar cones de viscose em locais úmidos ou com mofo, alterando a resistência mecânica do fio",
+      "❌ Usar alvejante com cloro em bordados de viscose, dissolvendo as fibras celulósicas"
+    ],
+    troubleshootingTips: [
+      "Se o bordado de viscose enrugar após a primeira lavagem: Oriente sempre o cliente a passar a peça a ferro pelo avesso com vapor e um paninho de algodão por cima.",
+      "Se você bordar em tecidos finos de linho com linha de viscose: Utilize sempre entretela recortável (Cutaway) de 60g a 80g para travar a estrutura mecânica.",
+      "Se a linha de viscose quebrar fácil: Aumente a umidade do ateliê (com umidificador) ou use agulha 75/11 com olho polido."
+    ],
+    dicaArtrelados: "A linha de viscose rayon tem o brilho mais lindo e macio do mundo para roupinhas de bebê e paramentos! O segredo de mestre da Artrelados: use entretela de boa qualidade e sempre inclua o 'Cartãozinho de Cuidados' avisando a cliente para lavar com sabão neutro e secar na sombra! O bordado fica impecável por décadas!",
+    voceSabia: "A viscose foi a primeira fibra têxtil artificial do mundo, criada em 1884 pelo cientista francês Hilaire de Chardonnet a partir da polpa de madeira para imitar a seda natural!",
+    practicalExercise: "Borde uma pequena inicial com linha de poliéster e outra com linha de viscose no mesmo pedaço de tricoline. Molhe as duas amostras com água fria e deixe secar na mesa: sinta como a viscose fica com toque sedoso e caimento incrivelmente macio.",
+    quickSummary: "Comportamento das linhas de algodão e viscose que absorvem umidade do ar e exigem entretela estável para evitar enrugamento pós-lavagem.",
+    recommendedSettings: {
+      density: "0.42 mm a 0.46 mm (mais arejada que o poliéster)",
+      speedPPM: "600 a 750 PPM",
+      needleType: "70/10 ou 75/11 Ponta Bola Fina ou Microtex",
+      stabilizer: "Entretela recortável ou hidrossolúvel de boa gramatura",
+      threadTension: "Leve e equilibrada (90gf a 100gf)"
+    },
+    relatedTerms: [
+      "Linha de Viscose Rayon (Rayon Thread)",
+      "Linha de Algodão (Cotton Thread)",
+      "Higroscopia Têxtil (Moisture Regain)",
+      "Entretela Recortável (Cutaway)",
+      "Cuidados e Lavagem de Bordados"
+    ],
+    tags: ["r-084", "retracao higroscopica", "viscose", "algodao", "fios", "lavagem", "enxoval", "artrelados"],
+    bibliographicReferences: [
+      "MADEIRA GARN. Viscose Rayon Embroidery Threads: Processing, Moisture Regain and Care Standards. Freiburg, 2022.",
+      "GUNOLD GMBH. Rayon vs Polyester Dynamics in Fine Embroidery. Stockstadt, 2021.",
+      "ARTRELADOS. Guia Técnico de Fios Nobres: Viscose, Algodão e Fibras Naturais no Bordado Eletrônico. Curitiba, 2024."
+    ],
+    updatedAt: "2026-08-30"
   }
 ];
+
