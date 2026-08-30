@@ -12,6 +12,7 @@ import { VERBETES_LETTER_U10 } from "./verbetesLetterU10";
 import { VERBETES_LETTER_U11 } from "./verbetesLetterU11";
 import { VERBETES_LETTER_U12 } from "./verbetesLetterU12";
 import { VERBETES_LETTER_U13 } from "./verbetesLetterU13";
+import { VERBETES_LETTER_U14 } from "./verbetesLetterU14";
 
 export const VERBETES_LETTER_U: Verbete[] = [
   ...VERBETES_LETTER_U1,
@@ -27,4 +28,5 @@ export const VERBETES_LETTER_U: Verbete[] = [
   ...VERBETES_LETTER_U11,
   ...VERBETES_LETTER_U12,
   ...VERBETES_LETTER_U13,
+  ...VERBETES_LETTER_U14,
 ];
