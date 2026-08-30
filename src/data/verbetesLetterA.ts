@@ -5049,8 +5049,9 @@ export const VERBETES_LETTER_A: Verbete[] = [
     "updatedAt": "2026-08-28"
   },
   {
-    "id": "a-094-arame-guia-fio-de-espiral-dupla",
-    "code": "A-094",
+    "id": "a-076-arame-guia-fio-de-espiral-dupla",
+    "code": "A-076",
+    "letter": "A",
     "term": "Arame Guia-Fio de Espiral Dupla (Pigtail Thread Guide Wire)",
     "level": "Intermediário 🟡",
     "grammarClass": "Locução nominal técnica composta por substantivos masculinos e femininos e adjetivos relacionais.",
