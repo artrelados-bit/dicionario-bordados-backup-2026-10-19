@@ -47,7 +47,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
     ],
     "voceSabia": "Uma matriz profissional nÃ£o procura necessariamente utilizar o maior nÃºmero possÃ­vel de pontos. O objetivo Ã© encontrar o equilÃ­brio exato entre cobertura, qualidade, estabilidade e eficiÃªncia, eliminando pontos desnecessÃ¡rios.",
     "curiosidadeTecnica": "A densidade pode ser representada de formas diferentes nos softwares: alguns usam o espaÃ§amento linear em milÃ­metros (quanto menor o nÃºmero, mais denso), enquanto outros utilizam linhas por polegada ou densidade percentual.",
-    "dicaArtrelados": "NÃ£o pense que 'mais pontos = melhor bordado'. Antes de aumentar a densidade, procure descobrir por que o tecido estÃ¡ aparecendo. Verifique: tipo de ponto â†’ direÃ§Ã£o â†’ underlay â†’ tecido â†’ estabilizador â†’ linha â†’ densidade. E lembre-se: pontos desnecessÃ¡rios custam dinheiro em tempo de mÃ¡quina e linha!",
+    "dicaArtrelados": "NÃ£o pense que 'mais pontos = melhor bordado'. Antes de aumentar a densidade, procure descobrir por que o tecido estÃ¡ aparecendo. Verifique: tipo de ponto   direÃ§Ã£o   underlay   tecido   estabilizador   linha   densidade. E lembre-se: pontos desnecessÃ¡rios custam dinheiro em tempo de mÃ¡quina e linha!",
     "recommendedSettings": {
       "density": "0.40mm a 0.45mm para Tatami; 0.38mm a 0.42mm para Satin",
       "needleType": "75/11 DBxK5 ou 130/705H-E",
@@ -2273,7 +2273,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "âŒ NÃ£o simplificar nÃ³s desnecessÃ¡rios antes de importar no software de bordado."
     ],
     "voceSabia": "O CorelDRAW Ã© o motor grÃ¡fico por trÃ¡s do software Wilcom EmbroideryStudio: vocÃª desenha em vetor de um lado e o programa gera os pontos de bordado em tempo real do outro!",
-    "curiosidadeTecnica": "A sequÃªncia recomendada para iniciantes Ã©: 1. Imagem (Ideia visual) â†’ 2. Vetor (OrganizaÃ§Ã£o geomÃ©trica de formas) â†’ 3. Matriz (TraduÃ§Ã£o fÃ­sica em pontos de linha).",
+    "curiosidadeTecnica": "A sequÃªncia recomendada para iniciantes Ã©: 1. Imagem (Ideia visual)   2. Vetor (OrganizaÃ§Ã£o geomÃ©trica de formas)   3. Matriz (TraduÃ§Ã£o fÃ­sica em pontos de linha).",
     "dicaArtrelados": "O vetor Ã© o desenho organizado; a matriz Ã© o desenho traduzido para a linguagem da mÃ¡quina! E guarde a regra de ouro: NÃ£o tente fazer a mÃ¡quina bordar tudo o que seus olhos conseguem ver no vetor. Escolha o que realmente precisa e consegue aparecer com qualidade no tecido!",
     "applications": [
       "Base essencial para digitalizaÃ§Ã£o de logotipos, brasÃµes, mascotes e tipografias."
@@ -2328,7 +2328,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
     ],
     "beginnerExplanation": "Ã‰ a organizaÃ§Ã£o da 'fila' de costura: vocÃª decide qual parte do desenho a mÃ¡quina vai bordar primeiro, qual vem no meio e qual fica por Ãºltimo. Fazer na ordem certa Ã© o que garante que o fundo fique por baixo e os contornos e olhinhos fiquem certinhos por cima!",
     "applications": [
-      "Montagem de apliques (ordem: marcaÃ§Ã£o â†’ fixaÃ§Ã£o â†’ acabamento)",
+      "Montagem de apliques (ordem: marcaÃ§Ã£o   fixaÃ§Ã£o   acabamento)",
       "ReduÃ§Ã£o do tempo total de bordado atravÃ©s da otimizaÃ§Ã£o de trocas de cor",
       "Controle de repuxo em tecidos elÃ¡sticos bordando sempre de dentro para fora",
       "SobreposiÃ§Ã£o correta de sombras, degradÃªs e contornos em personagens"
@@ -2339,7 +2339,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "Bordar das bordas para o centro, empurrando uma bolha de tecido para o meio do desenho"
     ],
     "troubleshootingTips": [
-      "Use a regra clÃ¡ssica da engenharia de bordado: 1Âº Underlay â†’ 2Âº Fundo â†’ 3Âº Detalhes mÃ©dios â†’ 4Âº Contornos finais",
+      "Use a regra clÃ¡ssica da engenharia de bordado: 1Âº Underlay   2Âº Fundo   3Âº Detalhes mÃ©dios   4Âº Contornos finais",
       "Acione a ferramenta 'Color Sort' (Agrupar Cores) no software antes de exportar o arquivo final",
       "Arraste os objetos na barra lateral de sequÃªncia do software para corrigir a ordem visual com facilidade"
     ],
@@ -2639,7 +2639,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
     ],
     "voceSabia": "A imagem 3D do software Ã© como a foto de uma casa pronta; o diagrama de pontos Ã© a planta baixa arquitetÃ´nica com todas as vigas e encanamentos!",
     "curiosidadeTecnica": "Ao observar o diagrama de pontos, densidades muito altas aparecem como manchas escuras e sÃ³lidas de furos de agulha concentrados.",
-    "dicaArtrelados": "NÃ£o olhe uma matriz apenas como uma imagem: aprenda a enxergÃ¡-la como um caminho feito de pontos! Quando vocÃª comeÃ§a a observar onde comeÃ§a â†’ por onde passa â†’ onde termina â†’ para onde vai depois, vocÃª passa a entender como a mÃ¡quina pensa!",
+    "dicaArtrelados": "NÃ£o olhe uma matriz apenas como uma imagem: aprenda a enxergÃ¡-la como um caminho feito de pontos! Quando vocÃª comeÃ§a a observar onde comeÃ§a   por onde passa   onde termina   para onde vai depois, vocÃª passa a entender como a mÃ¡quina pensa!",
     "applications": [
       "RevisÃ£o tÃ©cnica de arquivos, auditoria de matrizes compradas na internet e controle de qualidade."
     ],
@@ -3129,7 +3129,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
     "category": "SoluÃ§Ã£o de Problemas",
     "summary": "Guia completo de diagnÃ³stico e soluÃ§Ã£o para qualquer falha, irregularidade ou resultado indesejado na produÃ§Ã£o.",
     "definition": "Um defeito de bordado Ã© qualquer alteraÃ§Ã£o, falha mecÃ¢nica, imperfeiÃ§Ã£o visual ou irregularidade estrutural que comprometa a aparÃªncia, a qualidade, a durabilidade ou o acabamento esperado de uma peÃ§a bordada. O defeito pode ter origem na matriz digital, na preparaÃ§Ã£o do tecido, na estabilizaÃ§Ã£o, na escolha da agulha e linha, na calibraÃ§Ã£o de tensÃ£o ou na mecÃ¢nica da mÃ¡quina de bordar.",
-    "technicalDetails": "Exige metodologia de diagnÃ³stico investigativo: isolar variÃ¡veis uma a uma (agulha â†’ linha â†’ tensÃ£o â†’ entretela â†’ bastidor â†’ matriz) para descobrir a causa raiz sem trocar mÃºltiplos parÃ¢metros simultaneamente.",
+    "technicalDetails": "Exige metodologia de diagnÃ³stico investigativo: isolar variÃ¡veis uma a uma (agulha   linha   tensÃ£o   entretela   bastidor   matriz) para descobrir a causa raiz sem trocar mÃºltiplos parÃ¢metros simultaneamente.",
     "construction": [
       "AnÃ¡lise do aspecto visual frontal",
       "InspeÃ§Ã£o tÃ©cnica do verso do bordado (1/3 de bobina)",
@@ -3164,7 +3164,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
     ],
     "voceSabia": "O avesso do bordado conta a verdadeira histÃ³ria do que aconteceu: olhar a proporÃ§Ã£o de 1/3 da linha de bobina no verso revela instantaneamente se o problema era tensÃ£o superior ou inferior!",
     "curiosidadeTecnica": "Crie um 'caderno de ocorrÃªncias do ateliÃª': fotografe a frente, o verso e anote a soluÃ§Ã£o encontrada para cada defeito resolvido. Com o tempo, vocÃª terÃ¡ seu prÃ³prio manual de maestria em bordado.",
-    "dicaArtrelados": "NÃ£o tente corrigir um defeito antes de descobrir sua causa real! Siga sempre a regra de ouro do DIBE: Observar â†’ Investigar â†’ Identificar â†’ Corrigir â†’ Testar. Assim, cada problema superado deixa de ser uma frustraÃ§Ã£o e se torna um degrau na sua evoluÃ§Ã£o profissional!",
+    "dicaArtrelados": "NÃ£o tente corrigir um defeito antes de descobrir sua causa real! Siga sempre a regra de ouro do DIBE: Observar   Investigar   Identificar   Corrigir   Testar. Assim, cada problema superado deixa de ser uma frustraÃ§Ã£o e se torna um degrau na sua evoluÃ§Ã£o profissional!",
     "applications": [
       "SoluÃ§Ã£o de problemas em ateliÃªs, manutenÃ§Ã£o preventiva, controle de qualidade e treinamento."
     ],
@@ -6634,7 +6634,33 @@ export const VERBETES_LETTER_D: Verbete[] = [
     "voceSabia": "O silicone foi desenvolvido na dÃ©cada de 1930 e sua incrÃ­vel propriedade antiderrapante e biocompatÃ­vel foi descoberta ao ser utilizado em luvas de cirurgiÃµes para manusear bisturis de aÃ§o sem risco de deslizamento!",
     "practicalExercise": "Experimente soltar e trocar uma agulha da mÃ¡quina com os dedos nus. Em seguida, coloque a dedeira de silicone e faÃ§a a troca novamente: sinta como o aperto do parafuso e a firmeza na agulha ficam infinitamente mais fÃ¡ceis e confortÃ¡veis!",
     "quickSummary": "AcessÃ³rio ergonÃ´mico de silicone que protege os dedos e garante aderÃªncia para trocas rÃ¡pidas de agulhas sem escorregar.",
-    "recommendedSettings": {xœl“ÍnÓ@ÇïyŠQN­Ô8‚ª…“ãš€(Iä„¨‡‰wâ¬°wÍî:R*õa$$N<B^Œñ&©TË’í™ßüçÃğWW²Òíºo ;í‡p¦díş¯‘Ai´£ı¯ıOd2­t!ñ²{Õ9†+"‘ÓrWRMˆtQ¢ÛÿÙR©.Ài¡-ğí°@µáfbVå„‹ë×ı[@ıámiKfÎçŸ%}v2—(´g"ûß+©J4(`~åHy­—]Ïz: »†rt$–d
-ËĞ¯§Dc4ÈŠB¯¨Q0gàº²ú%ßÒèôÅ Ãwík#XmãŠ6¸¥Úó”ğGæ†RiYjënÙ…'®7?+p˜)$HšVrËJµ¢Æâ'—b+Áóø“;ƒÿ³&nMAÊ¡mŒh\İJé¹º•\åRgËLâXR¼EmÁ³dNaÇw÷1D³ ¦~oàƒ²dœÔ
-P	XPZ‚(Ç¢”*ã.é”›l Kım§¯`4ƒFÒ$™}éãècœ,XàšNä÷ÌkH¥§ŒÑ9,ÑÆ†ùÊ:Î“G-r˜,“ø>¼›-˜TÒwé„Aş”Uyß”†ĞQ.÷¿[Ó·Pÿ³µñËËÉ¢ÊH'Wè“½
-Î»X•¢ŞÒĞÕ{ÏşëŞà¦7º©=uŞvş  ÿÿ TN
+    "recommendedSettings": {
+      "density": "N/A (AcessÃ³rio de proteÃ§Ã£o e ergonomia)",
+      "needleType": "CompatÃ­vel com todos os tamanhos de agulha (65/9 a 120/19)",
+      "speedPPM": "N/A (Utilizado com a mÃ¡quina parada para manutenÃ§Ã£o)"
+    },
+    "relatedTerms": [
+      "Barra de Agulha",
+      "Parafuso de Agulha",
+      "Troca de Agulha",
+      "Agulha de Bordado",
+      "Chave de Fenda de PrecisÃ£o",
+      "Cava da Agulha"
+    ],
+    "tags": [
+      "dedeira",
+      "silicone",
+      "protecao",
+      "ergonomia",
+      "troca de agulha",
+      "ferramentas",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "ORGAN NEEDLE CO. Needle Insertion and Secure Clamping Procedures. Tokyo, 2021.",
+      "GROZ-BECKERT. Safe Needle Handling and Ergonomic Tool Standards. Albstadt, 2022.",
+      "ARTRELADOS. Guia de Ergonomia e SeguranÃ§a no AteliÃª de Bordados Computadorizados. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-08-28"
+  }
+];
