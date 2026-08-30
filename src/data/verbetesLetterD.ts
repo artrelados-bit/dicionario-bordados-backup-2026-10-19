@@ -1,3 +1,4 @@
+// DIBE Artrelados - Letra D Atualizada e Validada
 import { Verbete } from "../types";
 
 export const VERBETES_LETTER_D: Verbete[] = [
@@ -6633,6 +6634,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
     "voceSabia": "O silicone foi desenvolvido na dÃ©cada de 1930 e sua incrÃ­vel propriedade antiderrapante e biocompatÃ­vel foi descoberta ao ser utilizado em luvas de cirurgiÃµes para manusear bisturis de aÃ§o sem risco de deslizamento!",
     "practicalExercise": "Experimente soltar e trocar uma agulha da mÃ¡quina com os dedos nus. Em seguida, coloque a dedeira de silicone e faÃ§a a troca novamente: sinta como o aperto do parafuso e a firmeza na agulha ficam infinitamente mais fÃ¡ceis e confortÃ¡veis!",
     "quickSummary": "AcessÃ³rio ergonÃ´mico de silicone que protege os dedos e garante aderÃªncia para trocas rÃ¡pidas de agulhas sem escorregar.",
-    "recommendedSettings": {
-      "density": "N/A (AcessÃ³rio de proteÃ§Ã£o e xœl“Ín›@Çï~Š§DŠñ‡Ú(iO˜P·jj[˜^Zå0fÇxUØ¥Ëb)•ò0U•*õ)x±ë p„Ììüæ?É´Ò…ÄKïjîò‘È)y,É{^¨‹mó÷H9¤º «…®€o‹ª¿Ìêü€pqızr³ùt2» «’™›Í§¸špñÙÊ\ş@¡¡h~~¯¥B(Ñ 8=€ùµ%Õün~éKÏ±NHÏP–DB¦¨úµK´@Ã¬(pŠzîëJ¿äKŒN_:}·…6‚Õö®ğ€Gj=ïH	wdc(•KÂ#»°ã:óÃs³3å‚I3H^q‡R­¨·”F[Jq€ºñõ&Ûƒÿ³'nMAÊbÕÑØ¶•<Òsu;¹Ë¥Î–™ÆÄ±¤R:¼—Á
-VQtwA¸öaåö>¨ŠŒ•Z*[JkCæX”ReÜ%’`SåC¢¿=ê+˜Oç3¿—´Œ×_Æ‹(üÅ‰[ÜSG~ÏÀ¼…´àè¹ô”1:‡­e#ÁØ ßU…uäù€ÄIİwë­ËZº.ub­Ym÷Ai,å²ù3˜~íÏP3[·¼œ,¬´r‡.Ù+ÿ¼‹u)Ú-l»÷ì¿OoÆó›öĞÓèáíè   ÿÿ úeø
+    "recommendedSettings": {xœl“ÍnÓ@ÇïyŠQN­Ô8‚ª…“ãš€(Iä„¨‡‰wâ¬°wÍî:R*õa$$N<B^Œñ&©TË’í™ßüçÃğWW²Òíºo ;í‡p¦díş¯‘Ai´£ı¯ıOd2­t!ñ²{Õ9†+"‘ÓrWRMˆtQ¢ÛÿÙR©.Ài¡-ğí°@µáfbVå„‹ë×ı[@ıámiKfÎçŸ%}v2—(´g"ûß+©J4(`~åHy­—]Ïz: »†rt$–d
+ËĞ¯§Dc4ÈŠB¯¨Q0gàº²ú%ßÒèôÅ Ãwík#XmãŠ6¸¥Úó”ğGæ†RiYjënÙ…'®7?+p˜)$HšVrËJµ¢Æâ'—b+Áóø“;ƒÿ³&nMAÊ¡mŒh\İJé¹º•\åRgËLâXR¼EmÁ³dNaÇw÷1D³ ¦~oàƒ²dœÔ
+P	XPZ‚(Ç¢”*ã.é”›l Kım§¯`4ƒFÒ$™}éãècœ,XàšNä÷ÌkH¥§ŒÑ9,ÑÆ†ùÊ:Î“G-r˜,“ø>¼›-˜TÒwé„Aş”Uyß”†ĞQ.÷¿[Ó·Pÿ³µñËËÉ¢ÊH'Wè“½
+Î»X•¢ŞÒĞÕ{ÏşëŞà¦7º©=uŞvş  ÿÿ TN
