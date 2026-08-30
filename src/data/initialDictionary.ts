@@ -1,6 +1,8 @@
 import { Verbete, TroubleshootingGuide } from "../types";
 import { VERBETES_LETTER_A } from "./verbetesLetterA";
 import { VERBETES_LETTER_A1 } from "./verbetesLetterA1";
+import { VERBETES_LETTER_A2 } from "./verbetesLetterA2";
+import { VERBETES_LETTER_A3 } from "./verbetesLetterA3";
 import { VERBETES_LETTER_B } from "./verbetesLetterB";
 import { VERBETES_LETTER_B1 } from "./verbetesLetterB1";
 import { VERBETES_LETTER_C } from "./verbetesLetterC";
@@ -31,6 +33,8 @@ import { VERBETES_LETTER_Z } from "./verbetesLetterZ";
 export const INITIAL_VERBETES: Verbete[] = [
   ...VERBETES_LETTER_A,
   ...VERBETES_LETTER_A1,
+  ...VERBETES_LETTER_A2,
+  ...VERBETES_LETTER_A3,
   ...VERBETES_LETTER_B,
   ...VERBETES_LETTER_B1,
   ...VERBETES_LETTER_C,
