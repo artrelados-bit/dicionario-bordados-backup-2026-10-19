@@ -1267,6 +1267,762 @@ export const VERBETES_LETTER_R9: Verbete[] = [
       "ARTRELADOS. Guia Técnico de Fios Nobres: Viscose, Algodão e Fibras Naturais no Bordado Eletrônico. Curitiba, 2024."
     ],
     updatedAt: "2026-08-30"
+  },
+  {
+    id: "r-085-ranhura-longitudinal-da-haste-da-agulha",
+    code: "R-085",
+    letter: "R",
+    term: "Ranhura Longitudinal da Haste da Agulha (Needle Blade Long Groove)",
+    level: "Avançado 🔴",
+    category: "Agulhas e Fios de Bordado",
+    grammarClass: "Locução substantiva feminina.",
+    origin: "Do francês rainure (canaleta/entalhe) e do latim acus (agulha). Detalhe anatômico patenteado nas primeiras agulhas de máquina de costura no século XIX.",
+    summary: "Calha côncava ao longo do corpo da agulha onde a linha se esconde para não ser esmagada contra o tecido na penetração.",
+    definition: "A Ranhura Longitudinal da Haste da Agulha (Needle Blade Long Groove / Front Thread Channel) é o canal côncavo retilíneo usinado ao longo de toda a extensão frontal da lâmina da agulha de bordar, estendendo-se do cabo superior até a borda superior do olho. Sua função geométrica e aerodinâmica primordial é abrigar e proteger o filamento da linha de bordar durante a descida em alta velocidade, permitindo que a linha deslize sem sofrer atrito de esmagamento ou cisalhamento contra a trama densa do tecido e a entretela.",
+    technicalDetails: "A profundidade da ranhura longitudinal corresponde a aproximadamente 40% a 50% do diâmetro total da lâmina da agulha (ex: em uma agulha 75/11 de Ø 0,75 mm, a profundidade do canal é de cerca de 0,32 mm). Se a titulação da linha for incompatível com o tamanho da agulha (ex: fio grosso 30wt em agulha 65/9), a linha ultrapassa a borda da ranhura, sofre fricção severa e se rompe por aquecimento ou desfiamento.",
+    beginnerExplanation: "É aquela canaletinha fundinha que corre na frente da agulha de cima a baixo. Quando a agulha fura o pano bem rápido, a linha 'se esconde' dentro dessa canaleta para não ser espremida contra o tecido. Se a agulha for fina demais para a linha, a linha sobra para fora do canal e arrebenta.",
+    howItWorks: [
+      "1. A linha superior corre alinhada na face frontal da agulha.",
+      "2. Ao penetrar no tecido, o filamento se acomoda perfeitamente no interior da ranhura longitudinal.",
+      "3. A agulha atravessa o tecido e a entretela sem esmagar as fibras da linha.",
+      "4. Quando a agulha atinge o ponto morto inferior e inicia a subida de 2 mm, a linha do lado da ranhura desliza livremente.",
+      "5. No lado oposto (onde não há ranhura contínua), o atrito com o tecido retém a linha e força a abertura do laço perfeito para a lançadeira pescar."
+    ],
+    construction: [
+      "Lâmina em aço carbono ligado ou temperado de alta retidão",
+      "Canal côncavo usinado com acabamento espelhado de ultra-baixa rugosidade (Ra < 0,05 µm)",
+      "Transição arredondada para o orifício do olho da agulha",
+      "Revestimento externo em Cromo duro ou Nitreto de Titânio"
+    ],
+    mainTypes: [
+      "Ranhura Padrão Universal (Standard Single Groove)",
+      "Ranhura Profunda Reforçada para Bordado (Deep Thread Groove / System DBxK5)",
+      "Ranhura Dupla para Fios Especiais e Metálicos"
+    ],
+    characteristics: [
+      "Proteção integral dos filamentos da linha contra desfiamento",
+      "Redução drástica do aquecimento da agulha por fricção mecânica",
+      "Formação assimétrica fundamental para a abertura estável do laço inferior"
+    ],
+    applications: [
+      "Bordados em tecidos pesados, sarjas, jeans, bonés e couro.",
+      "Diagnóstico e correção de quebras repetitivas de linha superior.",
+      "Seleção correta da relação calibre de agulha versus espessura de linha."
+    ],
+    commonErrors: [
+      "❌ Usar linha grossa em agulha fina (ex: linha 30wt em agulha 70/10), deixando o fio desprotegido fora da ranhura",
+      "❌ Instalar a agulha virada de lado ou ao contrário na barra de agulha, escondendo a ranhura na posição errada",
+      "❌ Continuar bordando com a ranhura suja de cola adesiva de spray ressecada"
+    ],
+    troubleshootingTips: [
+      "Se a linha estiver desfiando em 'pelinhos' antes de quebrar: A linha está muito grossa para a agulha; troque para uma agulha de calibre maior (ex: passe de 75/11 para 80/12 ou 90/14).",
+      "Se a máquina não formar ponto nenhum: Verifique se a agulha foi colocada com a ranhura virada estritamente para a frente (ou para o lado correto indicado pelo manual).",
+      "Se houver quebra constante em tecidos sintéticos: Limpe a ranhura da agulha com álcool isopropílico para retirar resíduos de cola de entretela."
+    ],
+    dicaArtrelados: "O teste da agulha inclinada: pegue a agulha fora da máquina, passe um pedaço da sua linha pelo olho e incline a agulha a 45 graus. A agulha deve escorregar suavemente pela linha sob o próprio peso! Se ela travar ou descer agarrando, a linha é grossa demais para a ranhura daquela agulha!",
+    voceSabia: "Nas máquinas de bordar industriais com agulhas de cabo redondo (sistema DBxK5), a ranhura longa é até 15% mais profunda que nas agulhas de costura comum para suportar velocidades de mais de 1.000 pontos por minuto!",
+    practicalExercise: "Pegue uma agulha nova sob boa luz. Passe a ponta da sua unha ao longo da haste frontal e sinta o canal profundo da ranhura. Em seguida, vire a agulha e observe a parte de trás lisa e a cava (scarf) perto do olho.",
+    quickSummary: "Canaleta na frente da agulha que protege a linha contra atrito e esmagamento durante a penetração no tecido.",
+    recommendedSettings: {
+      speedPPM: "750 a 900 PPM",
+      needleType: "Agulha compatível com a espessura da linha (ex: 75/11 para linha 40wt)",
+      stabilizer: "Conforme tecido"
+    },
+    relatedTerms: [
+      "Cava da Agulha (Needle Scarf)",
+      "Olho da Agulha (Needle Eye)",
+      "Calibre da Agulha (Needle Size)",
+      "Linha de Bordar 40wt",
+      "Formação do Laço (Loop Formation)"
+    ],
+    tags: ["r-085", "ranhura de agulha", "agulha", "haste", "fios", "mecanica", "artrelados"],
+    bibliographicReferences: [
+      "ORGAN NEEDLES CO. Industrial Embroidery Needle Anatomy & Groove Engineering Standards. Tokyo, 2022.",
+      "SCHMETZ. Technical Needle Compendium: Long Groove and Scarf Dynamics. Albstadt, 2021.",
+      "ARTRELADOS. Anatomia da Agulha de Bordado: Ranhuras, Pontas, Cabos e Calibração. Curitiba, 2024."
+    ],
+    updatedAt: "2026-08-30"
+  },
+  {
+    id: "r-086-regulagem-de-altura-da-barra-do-calcador",
+    code: "R-086",
+    letter: "R",
+    term: "Regulagem de Altura da Barra do Calcador (Presser Foot Bar Height Clearance Calibration)",
+    level: "Avançado 🔴",
+    category: "Componentes e Mecânica da Máquina",
+    grammarClass: "Locução substantiva feminina.",
+    origin: "Do latim regulare (ajustar) e do francês presseur (que pressiona). Calibração fundamental de tolerância vertical em máquinas de costura e bordado.",
+    summary: "Ajuste milimétrico da folga entre a sola do calcador e a chapa de agulha para bordar materiais grossos sem prensar o relevo.",
+    definition: "A Regulagem de Altura da Barra do Calcador (Presser Foot Bar Height Clearance Calibration / Foot Stroke Setting) é o procedimento mecânico de ajuste da folga vertical existente entre a face inferior do pé calcador e a chapa de agulha quando a barra de agulha se encontra no ponto morto inferior (Bottom Dead Center - BDC). A distância padrão recomendada situa-se entre 0,5 mm e 1,2 mm (aproximadamente a espessura de uma folha de papel dobrada em duas a quatro partes ou um cartão de visitas de 300g).",
+    technicalDetails: "Se a folga for insuficiente (< 0,3 mm), o calcador esmaga o tecido, criando marcas permanentes de atrito em tecidos aveludados e impedindo a expansão do bordado em relevo 3D (EVA); se a folga for excessiva (> 1,8 mm), o calcador não apoia o tecido no momento da subida da agulha, causando o efeito *flagging* (o tecido sobe junto com a agulha), resultando em pontos pulados e quebras de linha.",
+    beginnerExplanation: "É o ajuste da 'altura do pezinho da máquina' quando ele desce todo: ele não pode esmagar o tecido como uma prensa nem pode ficar voando alto demais no ar. Ele precisa descer apenas encostando suavemente no pano para segurar o tecido firme sem marcar.",
+    howItWorks: [
+      "1. Gira-se o volante manual até a agulha atingir a posição mais baixa (ponto morto inferior).",
+      "2. Solta-se o parafuso de fixação da barra do pé calcador no cabeçote.",
+      "3. Insere-se um gabarito de espessura (ou cartão de visitas/calibrador de lâminas de 0,8 mm) entre a sola do calcador e a chapa.",
+      "4. Encosta-se o calcador sobre o gabarito sem forçar.",
+      "5. Aperta-se firmemente o parafuso de retenção da barra e gira-se o volante para conferir o movimento livre."
+    ],
+    construction: [
+      "Barra de guia cilíndrica em aço retificado",
+      "Abraçadeira de aperto com parafuso sextavado ou fenda de fixação",
+      "Mola de impulsão e mola de retorno vertical",
+      "Pé calcador com orifício de agulha centralizado"
+    ],
+    mainTypes: [
+      "Regulagem Mecânica por Parafuso de Barra (Padrão Industrial)",
+      "Regulagem Eletrônica de Altura do Calcador no Painel (Modelos Computadorizados Modernos)",
+      "Calcador de Altura Flutuante com Mola Compensadora Automática"
+    ],
+    characteristics: [
+      "Bordado impecável em toalhas atoalhadas sem achatar a felpa",
+      "Perfeita preservação da altura e definição em bordados 3D com EVA",
+      "Eliminação definitiva do efeito de tecido 'pulando' (*flagging*)"
+    ],
+    applications: [
+      "Bordados em jaquetas acolchoadas, couro espesso e bonés estruturados.",
+      "Bordados em relevo 3D (puffy foam) para bonés e jaquetas.",
+      "Toalhas de banho felpudas, veludo e cobertores de bebê."
+    ],
+    commonErrors: [
+      "❌ Deixar o calcador muito baixo ao bordar toalhas, esmagando a felpa e deixando marcas circulares brilhantes",
+      "❌ Deixar o calcador muito alto ao bordar tecidos finos, fazendo o pano pular e a linha arrebentar",
+      "❌ Apertar o parafuso da barra fora do esquadro, entortando o calcador contra a descida da agulha"
+    ],
+    troubleshootingTips: [
+      "Se o pé calcador estiver batendo e fazendo barulho estalado forte no tecido: Ele está muito baixo; suba a barra em 0,5 mm.",
+      "Se os pontos estiverem pulando em tecido fino elástico: O calcador está muito alto e não está segurando o tecido; abaixe a barra.",
+      "Se a agulha bater no pezinho: O calcador foi apertado desalinhado; solte e centralize o furo do calcador com a descida exata da agulha."
+    ],
+    dicaArtrelados: "O truque do cartão de visitas para toalhas e tecidos normais: coloque a agulha toda para baixo, coloque um cartão de visitas de papel comum embaixo do pezinho e aperte o parafuso até o cartão passar com uma leve fricção! É a folga perfeita para bordar 95% de todos os tecidos do seu ateliê!",
+    voceSabia: "Em máquinas industriais de última geração como Tajima e Barudan, a altura do calcador pode ser programada digitalmente ponto a ponto na própria matriz, subindo e descendo conforme o relevo do desenho!",
+    practicalExercise: "Com a máquina desligada, gire o volante até a agulha descer no ponto mais baixo. Tente passar uma folha de papel embaixo do pezinho calcador e sinta a folga existente na sua máquina.",
+    quickSummary: "Calibração da distância entre o pé calcador e a chapa de agulha para estabilizar o tecido sem esmagar as fibras nem deixar o pano pular.",
+    recommendedSettings: {
+      speedPPM: "700 a 850 PPM",
+      needleType: "75/11 ou 80/12 Ponta Bola",
+      stabilizer: "Conforme tecido"
+    },
+    relatedTerms: [
+      "Pé Calcador (Presser Foot)",
+      "Flagging (Afundamento do Tecido)",
+      "Bordado 3D em Relevo (Puffy Foam)",
+      "Ponto Morto Inferior (BDC)",
+      "Manutenção Preventiva"
+    ],
+    tags: ["r-086", "regulagem do calcador", "pe calcador", "altura", "mecanica", "toalha", "artrelados"],
+    bibliographicReferences: [
+      "TAJIMA EMBROIDERY MACHINERY. Presser Foot Height & Stroke Mechanical Alignment Manual. Nagoya, 2022.",
+      "BARUDAN INDUSTRIAL EMBROIDERY. Presser Foot Clearance & Flagging Prevention. Ichinomiya, 2021.",
+      "ARTRELADOS. Manual de Mecânica e Regulagens Finas para Bordadeiras Industriais e Domésticas. Curitiba, 2024."
+    ],
+    updatedAt: "2026-08-30"
+  },
+  {
+    id: "r-087-retencao-magnetica-de-caixa-de-bobina",
+    code: "R-087",
+    letter: "R",
+    term: "Retenção Magnética de Caixa de Bobina (Magnetic Core Bobbin Retention System)",
+    level: "Intermediário 🟡",
+    category: "Componentes e Mecânica da Máquina",
+    grammarClass: "Locução substantiva feminina.",
+    origin: "Do latim retentio (ato de reter/segurar) e do grego magnes (ímã). Inovação tecnológica moderna em sistemas de alimentação de fio inferior.",
+    summary: "Sistema com ímã permanente no fundo da caixa de bobina que impede a carretilha de girar em falso e oscilar a tensão.",
+    definition: "A Retenção Magnética de Caixa de Bobina (Magnetic Core Bobbin Retention System / Magnetic Anti-Backlash Bobbin Case) é a tecnologia empregada em caixas de bobina de alto desempenho que incorpora um ímã permanente de neodímio sinterizado na base cilíndrica interna ou utiliza carretilhas industriais com núcleo magnético. Sua finalidade é criar uma atração magnética constante sobre a carretilha, eliminando a folga axial e prevenindo a rotação inercial livre (o fenômeno de *backlash* ou giro em falso quando a máquina para bruscamente de 900 para 0 PPM).",
+    technicalDetails: "Ao eliminar o giro inercial da carretilha, a força magnética estabiliza o torque de desenrolamento entre 18gf e 22gf com desvio padrão inferior a 1,5gf ao longo de todo o diâmetro da bobina (desde o cone cheio até os últimos 5 metros de fio), evitando o afrouxamento e o embaraçamento de linha inferior dentro da pista da lançadeira.",
+    beginnerExplanation: "É uma caixa de bobina especial que tem um ímã no fundo: ela 'puxa' a carretilha de ferro ou magnética para baixo, fazendo a carretilha girar macia e parar na hora exata em que a máquina para, sem deixar a linha de baixo sobrar solta e embolar.",
+    howItWorks: [
+      "1. A bobina com núcleo magnético ou carretilha metálica é inserida na caixa de bobina.",
+      "2. O campo magnético permanente atrai o miolo da bobina contra o leito da caixa.",
+      "3. Conforme a máquina costura, a linha se desenrola sob tensão de frenagem magnética constante.",
+      "4. Quando a máquina desacelera ou para para cortar a linha, o ímã freia a carretilha instantaneamente.",
+      "5. Elimina-se completamente a mola de folga (*backlash spring*) de metal tradicional que desgastava com o tempo."
+    ],
+    construction: [
+      "Corpo da caixa de bobina em liga de aço inoxidável amagnética ou polímero de engenharia",
+      "Pastilha de ímã de Neodímio-Ferro-Boro (NdFeB) embutida na base",
+      "Mola de tensão inferior em lâmina de aço carbono",
+      "Parafuso de ajuste de tensão micrométrica"
+    ],
+    mainTypes: [
+      "Caixa de Bobina com Ímã Permanente na Base",
+      "Bobinas Descartáveis de Núcleo Magnético (Magnetic Core Fil-Tec Bobbins)",
+      "Insertos Magnéticos Retroadaptáveis para Caixas Padrão"
+    ],
+    characteristics: [
+      "Tensão inferior ultra-uniforme do primeiro ao último ponto",
+      "Zero enrolamento de linha no eixo da lançadeira por parada brusca",
+      "Avesso do bordado 100% constante mesmo em alta velocidade (1.000 PPM)"
+    ],
+    applications: [
+      "Produção industrial ininterrupta em confecções e ateliês de alto volume.",
+      "Bordados finos onde variações de tensão na linha branca são inaceitáveis.",
+      "Uso com bobinas industriais pré-enroladas de alto rendimento."
+    ],
+    commonErrors: [
+      "❌ Tentar usar bobinas de plástico comuns em caixas magnéticas esperando efeito de atração",
+      "❌ Deixar poeira metálica ou limalha grudar no ímã da caixa de bobina sem limpar",
+      "❌ Colocar a bobina magnética virada do lado invertido (com o polo para cima)"
+    ],
+    troubleshootingTips: [
+      "Se a linha branca estiver subindo para a frente no final da bobina: A bobina comum está girando em falso; utilize bobinas magnéticas ou instale uma mola anti-backlash.",
+      "Se a carretilha estiver pesada para girar: Limpe a face do ímã com um pincel macio para remover poeira e fiapos de linha acumulados.",
+      "Se a caixa de bobina não segurar a tensão: Verifique se o parafuso da mola de lâmina não está frouxo."
+    ],
+    dicaArtrelados: "Se você trabalha com produção e quer nunca mais ver a linha branca subindo no finalzinho da carretilha: experimente as bobinas magnéticas (tipo Fil-Tec Magna-Glide)! Elas mantêm a tensão perfeita até o último centímetro de linha e você nunca mais vai perder uma toalha por causa de carretilha desregulada!",
+    voceSabia: "O sistema magnético foi desenvolvido originalmente nos Estados Unidos para substituir as molinhas de aço que perdiam a pressão após alguns meses de uso intenso nas fábricas de bordado de uniformes!",
+    practicalExercise: "Aproxime um clipe de papel do fundo da sua caixa de bobina para verificar se a sua máquina já possui retenção magnética. Se o clipe for atraído, você tem uma caixa magnética pronta para bobinas de núcleo metálico!",
+    quickSummary: "Sistema com ímã permanente que estabiliza o giro da carretilha e mantém a tensão da linha inferior uniforme até o final.",
+    recommendedSettings: {
+      speedPPM: "800 a 1000 PPM",
+      needleType: "Compatível",
+      stabilizer: "Conforme tecido",
+      threadTension: "18gf a 22gf no tensiômetro"
+    },
+    relatedTerms: [
+      "Caixa de Bobina (Bobbin Case)",
+      "Bobina Pré-Enrolada (Pre-Wound Bobbin)",
+      "Tensiômetro Towa",
+      "Backlash (Giro em Falso da Bobina)",
+      "Tensão Inferior"
+    ],
+    tags: ["r-087", "retencao magnetica", "bobina", "caixa de bobina", "tensao inferior", "magna glide", "artrelados"],
+    bibliographicReferences: [
+      "FIL-TEC EMBROIDERY PRODUCTS. Magnetic Core Bobbin Technology & Tension Consistency Reports. Maryland, 2022.",
+      "TOWA APPARATUS MFG. Electronic & Mechanical Bobbin Tension Measurement Standards. Tokyo, 2021.",
+      "ARTRELADOS. Guia de Componentes Magnéticos e Estabilidade de Ponto no Bordado Industrial. Curitiba, 2024."
+    ],
+    updatedAt: "2026-08-30"
+  },
+  {
+    id: "r-088-repuxamento-por-tensao-diagonal",
+    code: "R-088",
+    letter: "R",
+    term: "Repuxamento por Tensão Diagonal (Bias Grain Pull Distortion)",
+    level: "Avançado 🔴",
+    category: "Física e Comportamento dos Tecidos",
+    grammarClass: "Locução substantiva masculino.",
+    origin: "Do francês repousser (empurrar de volta) e do grego diagonios (que passa pelos vértices opostos). Princípio de anisotropia mecânica de tecidos planos.",
+    summary: "Deformação e enrugamento severo que ocorre quando os pontos são bordados a 45 graus em relação ao sentido do fio do tecido.",
+    definition: "O Repuxamento por Tensão Diagonal (Bias Grain Pull Distortion / 45-Degree Fabric Bias Shrinkage) é a deformação mecânica anisotrópica resultante da aplicação de linhas de pontos com ângulo orientado a aproximadamente 45° em relação aos eixos ortogonais da trama e do urdume de um tecido plano ou malha. Como o viés (diagonal) é a direção de menor rigidez estrutural e máxima elasticidade por cisalhamento do tecido, as forças de tração do ponto provocam um encurtamento diagonal acentuado, gerando pregas diagonais permanentes e distorção dos contornos.",
+    technicalDetails: "O módulo de elasticidade ao cisalhamento no viés de um tecido de algodão pode ser até 70% inferior ao módulo nos eixos da trama e do urdume. Para mitigar o repuxamento diagonal, a compensação de repuxo (*pull compensation*) deve ser incrementada em pelo menos +0,15 mm a +0,25 mm, e a costura de base deve utilizar obrigatoriamente grade ortogonal dupla (Full Tatami Underlay) ancorada nos eixos principais de 0° e 90°.",
+    beginnerExplanation: "Todo tecido estica muito mais quando você puxa ele na diagonal (no viés). Quando o bordado é feito com pontos deitados nessa mesma diagonal de 45 graus, a linha puxa o tecido com muita força e faz o pano enrugar e ficar torto. Para evitar isso, usamos entretelas mais firmes e reforços no programa.",
+    howItWorks: [
+      "1. A matriz executa pontos de cetim ou tatami com inclinação a 45 graus em relação à trama.",
+      "2. A tração natural de retorno elástico da linha puxa as fibras do tecido na direção do viés.",
+      "3. As interseções dos fios de trama e urdume deslizam umas sobre as outras sem resistência rígida.",
+      "4. O tecido se fecha na diagonal, criando dobras diagonais e afastando os contornos externos.",
+      "5. A matriz perde o encaixe perfeito com a linha de contorno bordada em seguida."
+    ],
+    construction: [
+      "Estrutura têxtil em tafetá, sarja ou malha jersey",
+      "Vetor de direção do ponto orientado no viés (45° / 135°)",
+      "Costura de base com grade de sustentação ortogonal (0°/90°)",
+      "Entretela de alta estabilidade multidirecional"
+    ],
+    mainTypes: [
+      "Repuxamento Diagonal em Tecidos Planos de Algodão e Linho",
+      "Distorção por Cisalhamento em Malhas Elásticas (Piquet e Meia Malha)",
+      "Deformação em Sedas e Tecidos Finos no Viés"
+    ],
+    characteristics: [
+      "Causa número 1 de desalinhamento de contornos em matrizes complexas",
+      "Formação de ondas e pregas diagonais que não saem no ferro de passar",
+      "Necessidade de reforço de base ortogonal de travamento"
+    ],
+    applications: [
+      "Programação de logotipos e brasões com múltiplos ângulos de preenchimento.",
+      "Bordados em camisas sociais de tricoline, polos piquet e linho.",
+      "Diagnóstico de matrizes que enrugam mesmo com bastidor bem colocado."
+    ],
+    commonErrors: [
+      "❌ Bordar blocos grandes de tatami a 45° sem colocar costura de base prévia em grade",
+      "❌ Usar entretela rasgável que rasga na diagonal junto com o movimento dos pontos",
+      "❌ Aumentar a tensão da linha achando que vai resolver o problema de tecido enrugado"
+    ],
+    troubleshootingTips: [
+      "Se o contorno externo ficar afastado do preenchimento nas diagonais: Aumente a compensação de repuxo para 0.45 mm no software e mude o ângulo do ponto para 30° ou 60°.",
+      "Se o tecido formar ondas diagonais: Use entretela recortável multidirecional (Cutaway) e ative a costura de base em grade dupla.",
+      "Se o bordado repuxar na camisa polo: Aplique entretela de malha termocolante no avesso antes de colocar no bastidor."
+    ],
+    dicaArtrelados: "A regra de ouro dos ângulos: evite sempre colocar os pontos exatamente a 45 graus do tecido! Se você inclinar o ponto para 35 graus ou 55 graus, você quebra a linha do viés e o tecido fica retinho e sem nenhuma ruga! É um segredo simples de programação que salva qualquer camisa social!",
+    voceSabia: "Os alfaiates de alta costura utilizam o corte no viés para fazer vestidos com caimento fluido exatamente porque o tecido se deforma na diagonal; no bordado, fazemos o oposto para travar essa elasticidade!",
+    practicalExercise: "Pegue um pedaço quadrado de tricoline: puxe na horizontal (não estica), puxe na vertical (não estica) e puxe nas pontas diagonais (estica muito!). Sinta nos dedos a física do repuxamento diagonal acontecendo.",
+    quickSummary: "Deformação que ocorre quando os pontos são bordados na direção diagonal do tecido, exigindo reforço de base e entretela estável.",
+    recommendedSettings: {
+      density: "0.40 mm com compensação de repuxo de 0.40 mm a 0.45 mm",
+      speedPPM: "700 a 800 PPM",
+      needleType: "70/10 ou 75/11 Ponta Bola Fina",
+      stabilizer: "Entretela recortável de alta estabilidade (Cutaway 70g a 80g)"
+    },
+    relatedTerms: [
+      "Compensação de Repuxo (Pull Compensation)",
+      "Costura de Base (Underlay)",
+      "Sentido do Fio (Grainline)",
+      "Entretela Recortável (Cutaway)",
+      "Distorção de Matriz"
+    ],
+    tags: ["r-088", "repuxamento diagonal", "vies", "tecidos", "deformacao", "compensacao", "artrelados"],
+    bibliographicReferences: [
+      "TEXTILE INSTITUTE INTERNATIONAL. Anisotropic Tensile Properties and Bias Strain in Woven Fabrics. Manchester, 2021.",
+      "WILCOM EMBROIDERY STUDIO. Fabric Distortion Management & Underlay Engineering. Sydney, 2023.",
+      "ARTRELADOS. Física Têxtil Aplicada ao Bordado: Fio, Trama, Urdume e Viés. Curitiba, 2024."
+    ],
+    updatedAt: "2026-08-30"
+  },
+  {
+    id: "r-089-reforco-de-costura-em-grade-cruzada",
+    code: "R-089",
+    letter: "R",
+    term: "Reforço de Costura em Grade Cruzada (Cross-Hatch Underlay Grid Stabilization)",
+    level: "Intermediário 🟡",
+    category: "Programação de Bordado",
+    grammarClass: "Locução substantiva masculino.",
+    origin: "Do inglês cross-hatch (hachura cruzada) e do latim stabilis (firme/estável). Técnica de engenharia de bases vetoriais de digitalização.",
+    summary: "Estrutura prévia de sustentação com duas camadas de pontos em 90 graus que cria uma rede firme sobre tecidos difíceis.",
+    definition: "O Reforço de Costura em Grade Cruzada (Cross-Hatch Underlay Grid Stabilization / Double Tatami Mesh Underlay / Grid Underlay) é o padrão de costura de base estrutural formado por duas passagens consecutivas de pontos corridos longos (3,5 mm a 4,5 mm de comprimento) com espaçamento aberto (entre 1,5 mm e 3,0 mm entre linhas), dispostas ortogonalmente em ângulos cruzados (tipicamente 45° e 135°, ou 0° e 90°). Essa malha prévia ancora o tecido à entretela em formato de treliça bidimensional antes da execução do preenchimento final.",
+    technicalDetails: "A grade cruzada cria um suporte de micro-vigas de poliéster que distribui as tensões pontuais em uma área 80% maior, suprimindo o afundamento dos pontos de acabamento em tecidos com felpa alta (como toalhas de banho), malhas caneladas e veludos, sem criar a rigidez excessiva de uma camada sólida de tatami.",
+    beginnerExplanation: "É como se a máquina fizesse uma 'redinha de pesca' ou gradezinha de pontos abertos no tecido antes de bordar o desenho por cima. Essa redinha segura o tecido firme preso na entretela e não deixa os pelos da toalha ou a elasticidade da malha estragarem o bordado final.",
+    howItWorks: [
+      "1. A máquina inicia o objeto bordando uma primeira camada de linhas paralelas abertas (ex: a 45 graus).",
+      "2. Em seguida, sem cortar a linha, borda a segunda camada em sentido cruzado a 90 graus da primeira (a 135 graus).",
+      "3. Forma-se uma tela quadriculada suave que prensa as fibras superficiais do tecido contra a entretela.",
+      "4. A máquina borda o preenchimento de acabamento (tatami ou cetim) sobre essa base estável.",
+      "5. Os pontos finais ficam perfeitamente assentados, nítidos e com toque macio."
+    ],
+    construction: [
+      "Vetor de contorno do objeto de preenchimento",
+      "Camada de base 1 com espaçamento de 2,0 mm a 3,0 mm",
+      "Camada de base 2 em ângulo ortogonal cruzado",
+      "Margem de recuo da borda externa (Underlay Inset = 0.8 mm)"
+    ],
+    mainTypes: [
+      "Grade Cruzada Tatami Aberta (Open Mesh Tatami Underlay)",
+      "Grade Cruzada Ortogonal com Contorno de Borda (Edge Run + Grid)",
+      "Grade Fina para Veludo e Pelúcia"
+    ],
+    characteristics: [
+      "Estabilidade dimensional máxima em tecidos altamente elásticos",
+      "Toque final flexível e agradável sem 'efeito papelão'",
+      "Eliminação de felpas e pelos escapando entre os pontos de acabamento"
+    ],
+    applications: [
+      "Bordados grandes em toalhas de banho e roupões atoalhados.",
+      "Jaquetas de fleece, moletons felpudos e tecidos de plush/veludo.",
+      "Logotipos chapados em camisas polo piquet e malha fria."
+    ],
+    commonErrors: [
+      "❌ Programar a grade com linhas muito juntas (< 1.0 mm), transformando a base num bloco grosso e pesado",
+      "❌ Deixar a grade encostar na borda extrema do desenho, fazendo pontinhas da base aparecerem para fora do contorno",
+      "❌ Não usar grade cruzada ao bordar brasões grandes em tecidos elásticos"
+    ],
+    troubleshootingTips: [
+      "Se os pontos do bordado estiverem afundando e sumindo dentro da toalha: Ative o reforço de grade cruzada com espaçamento de 2,5 mm e coloque plástico hidrossolúvel por cima.",
+      "Se o bordado ficar muito duro e armado como uma placa: Aumente o espaçamento da grade para 3,5 mm ou reduza a densidade da camada superior.",
+      "Se as pontas da grade aparecerem fora do bordado: Aumente o recuo da borda (Underlay Inset / Margem) para 1,0 mm no software."
+    ],
+    dicaArtrelados: "Para bordar toalhas atoalhadas grossas sem o desenho afundar: use sempre a grade cruzada na base da matriz e coloque uma folhinha de plástico hidrossolúvel por cima da toalha no bastidor! O bordado fica lisinho como se tivesse sido feito em cima de uma seda!",
+    voceSabia: "O conceito de grade cruzada no bordado foi inspirado nas treliças de vigas de aço utilizadas pelos engenheiros civis na construção de pontes suspensas para suportar cargas pesadas com peso mínimo de material!",
+    practicalExercise: "No seu programa de matrizes, crie um círculo de 5 cm: configure a costura de base com 'Tatami Duplo / Grade Cruzada' com espaçamento de 2,5 mm. Simule os pontos na tela e veja a formação perfeita da rede de sustentação.",
+    quickSummary: "Estrutura prévia de pontos cruzados em 90 graus que estabiliza tecidos difíceis e impede que os pontos finais afundem.",
+    recommendedSettings: {
+      density: "Espaçamento da grade de 2.0 mm a 3.0 mm (comprimento de ponto 4.0 mm)",
+      speedPPM: "750 a 850 PPM",
+      needleType: "75/11 Ponta Bola",
+      stabilizer: "Entretela rasgável ou recortável conforme tecido"
+    },
+    relatedTerms: [
+      "Costura de Base (Underlay)",
+      "Ponto Tatami / Preenchimento (Tatami Stitch)",
+      "Compensação de Repuxo (Pull Compensation)",
+      "Plástico Hidrossolúvel (Solvy Film)",
+      "Digitalização Estrutural"
+    ],
+    tags: ["r-089", "grade cruzada", "underlay", "costura de base", "estabilizacao", "toalhas", "artrelados"],
+    bibliographicReferences: [
+      "WILCOM EMBROIDERY STUDIO. Structural Underlay Engineering and Mesh Foundations. Sydney, 2023.",
+      "PULSE MICROSYS. Vector Underlay Grid Architectures in Industrial Digitizing. Toronto, 2022.",
+      "ARTRELADOS. O Segredo das Estruturas de Base: Underlays, Grades e Sustentação de Matrizes. Curitiba, 2024."
+    ],
+    updatedAt: "2026-08-30"
+  },
+  {
+    id: "r-090-revestimento-de-nitreto-de-cromo-em-agulhas",
+    code: "R-090",
+    letter: "R",
+    term: "Revestimento de Nitreto de Cromo em Agulhas (Chromium Nitride Needle Coating - CrN)",
+    level: "Avançado 🔴",
+    category: "Agulhas e Fios de Bordado",
+    grammarClass: "Locução substantiva masculino.",
+    origin: "Do grego chroma (cor) e do latim nitrogenium (formador de salitre). Avanço da engenharia de materiais e deposição física de vapor (PVD).",
+    summary: "Acabamento metalúrgico ultra-duro e prateado na agulha que dissipa calor e não deixa cola de adesivo grudar no olho.",
+    definition: "O Revestimento de Nitreto de Cromo em Agulhas (Chromium Nitride Needle Coating / CrN Physical Vapor Deposition) é a aplicação metalúrgica de uma micro-camada cerâmica de nitreto de cromo (espessura de 1 a 3 micrômetros) sobre o corpo de aço de agulhas de bordado de alto desempenho (como a linha Schmetz SERV 7 ou Organ PD/LP). O tratamento confere extrema dureza superficial (aproximadamente 2.000 a 2.500 HV na escala Vickers), coeficiente de atrito ultrabaixo e excelente resistência antiaderente contra colas, adesivos em spray e resinas de entretelas.",
+    technicalDetails: "O revestimento CrN reduz a temperatura da ponta da agulha em até 35°C durante o bordado contínuo a 1.000 PPM em materiais sintéticos densos. Sua superfície hidrofóbica e anti-adesiva impede o acúmulo de 'gomas' de adesivo no olho e na ranhura da agulha, eliminando a quebra de linha por fricção adesiva.",
+    beginnerExplanation: "É uma agulha especial que recebe uma camada de proteção ultra-resistente e prateada feita com tecnologia de alta precisão. Ela não esquenta fácil, quase não gasta e não deixa a cola do spray de entretela grudar no buraquinho da agulha, evitando que a linha quebre e embole toda hora.",
+    howItWorks: [
+      "1. A agulha de aço carbono de alta precisão é colocada em uma câmara de vácuo de plasma PVD.",
+      "2. Átomos de cromo e nitrogênio são fundidos na superfície molecular da agulha.",
+      "3. Cria-se uma película cerâmica ultra-lisa, dura e prateada brilhante.",
+      "4. Durante o bordado em tecidos colados ou sintéticos, a agulha penetra suavemente sem grudar resíduos.",
+      "5. A linha corre fria e desimpedida pelo olho e pela ranhura, com vida útil até 3 vezes maior que agulhas de cromo comum."
+    ],
+    construction: [
+      "Núcleo em liga de aço cromo-vanádio temperado",
+      "Micro-camada de Nitreto de Cromo (CrN) depositada por PVD",
+      "Dureza superficial de 2.200 HV",
+      "Geometria reforçada na lâmina anti-deflexão"
+    ],
+    mainTypes: [
+      "Agulhas CrN Anti-Adesivas para Tecidos com Cola e Sprays (Non-Stick)",
+      "Agulhas CrN de Ponta Bola para Malhas Sintéticas Densas",
+      "Agulhas CrN Reforçadas para Bonés e Couro (SERV 7 CrN)"
+    ],
+    characteristics: [
+      "Resistência superior ao acúmulo de colas e gomas de entretelas",
+      "Dissipação térmica de alto nível em alta rotação",
+      "Durabilidade mecânica excepcional contra desgaste abrasivo"
+    ],
+    applications: [
+      "Bordados em apliques com termocolante e adesivo temporário em spray.",
+      "Bordados em couro legítimo, sintéticos plastificados e impermeáveis.",
+      "Produções industriais contínuas em alta velocidade (acima de 900 PPM)."
+    ],
+    commonErrors: [
+      "❌ Limpar agulhas CrN com facas ou estiletes metálicos que riscam a película protetora",
+      "❌ Usar agulhas comuns sem revestimento em tecidos com muito spray de cola, sofrendo com quebras a cada 2 minutos",
+      "❌ Não trocar a agulha após impactos fortes no bastidor"
+    ],
+    troubleshootingTips: [
+      "Se a agulha estiver ficando 'melada' de cola e partindo a linha: Substitua imediatamente por uma agulha com revestimento antiaderente de Nitreto de Cromo ou Titânio.",
+      "Se a linha estiver derretendo por calor em tecido sintético: A agulha está superaquecendo; use agulha CrN e reduza a velocidade para 700 PPM.",
+      "Se o furo no tecido ficar muito aberto: Verifique se o calibre da agulha não está grosso demais para o material."
+    ],
+    dicaArtrelados: "Se você faz muitos apliques usando termocolante ou cola spray temporária: tenha sempre no seu ateliê agulhas antiaderentes (Non-Stick / CrN)! A cola simplesmente não gruda no buraquinho da agulha e você vai bordar os apliques do começo ao fim sem arrebentar nenhuma linha!",
+    voceSabia: "O Nitreto de Cromo é o mesmo revestimento metalúrgico utilizado em brocas de perfuração aeroespacial e turbinas de aviões para suportar atrito severo e altas temperaturas!",
+    practicalExercise: "Examine uma agulha antiaderente CrN ou de Titânio ao lado de uma agulha comum sob luz forte: observe o acabamento brilhante impecável e a ausência total de porosidades na superfície metálica.",
+    quickSummary: "Tratamento de alta tecnologia na agulha que dissipa calor, reduz atrito e impede que cola de entretela grude na lâmina.",
+    recommendedSettings: {
+      speedPPM: "800 a 1000 PPM",
+      needleType: "75/11 ou 80/12 CrN Anti-Stick / SERV 7",
+      stabilizer: "Entretela com adesivo ou termocolante"
+    },
+    relatedTerms: [
+      "Agulha de Titânio (Titanium Needle)",
+      "Agulha Antiaderente (Super Non-Stick)",
+      "Adesivo Temporário em Spray",
+      "Aquecimento da Agulha (Needle Heat)",
+      "Calibre de Agulha"
+    ],
+    tags: ["r-090", "nitreto de cromo", "crn", "agulhas", "antiaderente", "cola spray", "materiais", "artrelados"],
+    bibliographicReferences: [
+      "SCHMETZ NEEDLES. High Performance Needle Coatings: CrN, Titanium and Anti-Stick Technologies. Albstadt, 2022.",
+      "ORGAN NEEDLE CO. Surface Engineering & PVD Coatings for Industrial Embroidery. Tokyo, 2021.",
+      "ARTRELADOS. Guia Definitivo de Agulhas Especiais: Titânio, Nitreto de Cromo e Soluções Anti-Adesivas. Curitiba, 2024."
+    ],
+    updatedAt: "2026-08-30"
+  },
+  {
+    id: "r-091-resolucao-angular-de-rotacao-do-pantografo",
+    code: "R-091",
+    letter: "R",
+    term: "Resolução Angular de Rotação do Pantógrafo (Pantograph Angular Motion Resolution)",
+    level: "Avançado 🔴",
+    category: "Componentes e Mecânica da Máquina",
+    grammarClass: "Locução substantiva feminina.",
+    origin: "Do latim resolutio (capacidade de separar/distinguir) e do grego pantographos (que desenha tudo). Parâmetro mecatrônico de sistemas CNC de posicionamento de eixos X e Y.",
+    summary: "Capacidade de precisão micrométrica com que os motores movem o bastidor em curvas suaves e microletras sem 'serrilhar'.",
+    definition: "A Resolução Angular de Rotação do Pantógrafo (Pantograph Angular Motion Resolution / Microstepping Positioning Accuracy) é a menor unidade discreta de deslocamento linear (geralmente entre 0,01 mm e 0,05 mm por micropasso) que os servomotores ou motores de passo híbridos dos eixos X e Y transmitem ao chassi do pantógrafo através de correias sincronizadoras e guias lineares retificadas. Essa resolução determina a fidelidade com que a máquina reproduz curvas complexas, ângulos fechados e detalhes minúsculos da matriz digital sem produzir bordas denteadas ou deformações geométricas.",
+    technicalDetails: "Em sistemas industriais com servomotores AC equipados com encoders ópticos absolutos de 17 a 23 bits (mais de 130.000 a 8.000.000 de pulsos por volta), o erro de repetibilidade posicional do pantógrafo situa-se abaixo de ± 0,02 mm. Em contrapartida, folgas mecânicas em correias dentadas frouxas podem degradar a resolução efetiva para ± 0,3 mm, causando contornos desalinhados e letras tremidas.",
+    beginnerExplanation: "É a precisão dos 'passinhos' que o braço da máquina dá para mexer o bastidor: quanto mais delicados e perfeitamente calibrados forem os motores, mais redondinhas saem as curvas, os círculos e as letrinhas minúsculas, sem parecerem quadradinhas ou tremidas.",
+    howItWorks: [
+      "1. A placa controladora da máquina decodifica as coordenadas X e Y do próximo ponto da matriz.",
+      "2. O circuito de controle emite um trem de pulsos de micropassos de alta frequência para os servodrives.",
+      "3. Os motores X e Y giram frações de grau precisas simultaneamente.",
+      "4. As correias sincronizadas com alma de aço ou fusos de esferas movem o pantógrafo com o bastidor.",
+      "5. O bastidor atinge a coordenada exata com precisão micrométrica no instante em que a agulha desce."
+    ],
+    construction: [
+      "Servomotores AC Brushless ou Motores de Passo com Micropasso (1/16 a 1/64)",
+      "Guias lineares retificadas de esferas recirculantes",
+      "Correias sincronizadoras de poliuretano com alma de aço (passo HTD 3M / 5M)",
+      "Polias de alta concentricidade balanceadas dinamicamente"
+    ],
+    mainTypes: [
+      "Resolução por Servomotores Digitais Industriais de Alta Resolução",
+      "Resolução por Motores de Passo Híbridos com Controle em Malha Fechada (Closed Loop)",
+      "Sistemas de Acionamento Direto por Motor Linear"
+    ],
+    characteristics: [
+      "Círculos perfeitos e contornos curvos suaves sem dentes de serrote",
+      "Nitidez impecável em microletras de 3 mm a 5 mm de altura",
+      "Repetibilidade dimensional exata entre diferentes cabeçotes da máquina"
+    ],
+    applications: [
+      "Bordado de microletras em crachás, uniformes militares e etiquetas de luxo.",
+      "Círculos perfeitos em logotipos corporativos de precisão técnica.",
+      "Avaliação de qualidade mecânica e ajuste de tensão de correias do pantógrafo."
+    ],
+    commonErrors: [
+      "❌ Bordar com as correias do pantógrafo frouxas, gerando folga (*backlash*) e letras ovais ou tremidas",
+      "❌ Deixar sujeira e poeira de linha acumulada nos trilhos das guias lineares do bastidor",
+      "❌ Usar bastidor excessivamente pesado em máquina doméstica sem calibrar a velocidade"
+    ],
+    troubleshootingTips: [
+      "Se os círculos estiverem saindo ovais ou com pontas achatadas: As correias dos eixos X ou Y estão com tensão desigual; faça o tensionamento correto das correias.",
+      "Se as letrinhas minúsculas saírem ilegíveis e tremidas: Reduza a velocidade de bordado para 600 PPM e verifique se o bastidor está bem travado no pantógrafo.",
+      "Se o pantógrafo der solavancos nas curvas: Limpe e lubrifique os trilhos lineares com graxa branca especial recomendada pelo fabricante."
+    ],
+    dicaArtrelados: "Para saber se o pantógrafo da sua máquina está com folga mecânica: desligue a máquina, segure o braço do pantógrafo com a mão e tente mexer suavemente para frente e para trás. Não deve haver nenhuma folga solta ('jogo')! Se balançar frouxo, é hora de esticar a correia com o técnico!",
+    voceSabia: "As máquinas de bordar modernas possuem resolução de movimento tão alta que conseguiriam bordar uma linha reta perfeita com a espessura de um fio de cabelo humano ao longo de 1 metro de distância!",
+    practicalExercise: "Borde um círculo perfeito de 2 cm com contorno fino na sua máquina. Meça com uma régua o diâmetro horizontal e vertical: se der exatamente a mesma medida (ex: 20 mm nos dois eixos), o pantógrafo da sua máquina está com calibração perfeita!",
+    quickSummary: "Precisão micrométrica do movimento dos motores nos eixos X e Y que garante curvas redondas perfeitas e letrinhas nítidas.",
+    recommendedSettings: {
+      speedPPM: "650 a 800 PPM para microletras e detalhes de precisão",
+      needleType: "65/9 ou 70/10 Ponta Aguda",
+      stabilizer: "Entretela recortável firme"
+    },
+    relatedTerms: [
+      "Pantógrafo de Bordado",
+      "Servomotor e Encoder",
+      "Microletras (Micro Lettering)",
+      "Correia Sincronizadora",
+      "Calibração Mecânica"
+    ],
+    tags: ["r-091", "resolucao angular", "pantografo", "motores", "precisao", "mecanica", "artrelados"],
+    bibliographicReferences: [
+      "BARUDAN PRECISION MACHINERY. Multi-Axis Pantograph Kinematics & Resolution Standards. Ichinomiya, 2022.",
+      "TAJIMA INDUSTRIAL GROUP. Servo Motion Control & Micro-Stepping Accuracy in Embroidery. Nagoya, 2021.",
+      "ARTRELADOS. Engenharia Mecatrônica de Máquinas de Bordar: Eixos, Guias e Precisão CNC. Curitiba, 2024."
+    ],
+    updatedAt: "2026-08-30"
+  },
+  {
+    id: "r-092-recorte-a-quente-por-ferro-cauterio",
+    code: "R-092",
+    letter: "R",
+    term: "Recorte a Quente por Ferro Cautério (Soldering Iron Thermal Cutwork)",
+    level: "Intermediário 🟡",
+    category: "Técnicas de Aplique e Efeitos Especiais",
+    grammarClass: "Locução substantiva masculino.",
+    origin: "Do latim cauterium (ferro em brasa para marcar/selar) e do francês découpe (corte). Técnica de acabamento térmico em tecidos sintéticos.",
+    summary: "Técnica de selagem e corte térmico com ponta aquecida que queima as bordas de patches e bordados Richelieu sem desfiar.",
+    definition: "O Recorte a Quente por Ferro Cautério (Soldering Iron Thermal Cutwork / Hot Knife Edge Sealing / Pyrography Cutwork) é o método térmico utilizado no ateliê para cortar e selar simultaneamente as bordas externas de emblemas (patches), apliques e aberturas em bordados vazados (Richelieu) confeccionados sobre tecidos de composição 100% sintética (poliéster, nylon, cetim sintético ou organza). A ponta metálica de alta precisão aquecida a cerca de 200°C a 250°C funde as fibras plásticas instantaneamente ao redor do cordão de cetim, criando uma orla selada, limpa e imune a desfiamentos.",
+    technicalDetails: "O calor do cautério derrete a cadeia polimérica do poliéster (cujo ponto de fusão situa-se entre 250°C e 260°C). Como as linhas de bordar 100% poliéster possuem proteção parcial pela densidade e volume do cordão de cetim, a lâmina aquecida desliza encostando suavemente na borda externa sem cortar os pontos, desde que a velocidade de corte manual seja uniforme (cerca de 2 a 3 cm/segundo).",
+    beginnerExplanation: "É usar um aparelhinho tipo soldador elétrico com ponta fina quente (ou pirógrafo) para queimar e cortar a beiradinha de fora de brasões, patches e chaveiros bordados em tecidos sintéticos. Ele corta na hora e ao mesmo tempo 'derrete' as pontinhas do tecido para nunca mais soltar fiapos nem desfiar.",
+    howItWorks: [
+      "1. A máquina borda o patch com uma coluna de ponto cheio (cordão de cetim) bem fechada sobre tecido sintético (ex: nylon ou sarja de poliéster).",
+      "2. A peça bordada é retirada do bastidor e colocada sobre uma superfície de vidro plano grosso ou placa cerâmica.",
+      "3. O operador aquece o ferro cautério com ponta fina chanfrada ou agulha.",
+      "4. Encosta a ponta quente rente à borda externa do cordão de cetim com movimento contínuo.",
+      "5. O calor queima o tecido excedente, soltando o patch perfeito com borda selada brilhante."
+    ],
+    construction: [
+      "Ferro cautério / Pirógrafo de 30W a 60W com controle de temperatura",
+      "Ponta fina de latão ou cobre niquelado (agulha ou faca chanfrada)",
+      "Base de apoio em placa de vidro temperado de 6 mm a 8 mm",
+      "Tecido base em poliéster 100% (Oxford, Sarja de poliéster, Feltro sintético)"
+    ],
+    mainTypes: [
+      "Recorte Térmico de Patches e Emblemas Termocolantes",
+      "Recorte a Quente de Richelieu em Organza Sintética",
+      "Selagem de Bordas de Fitas e Passamanarias Personalizadas"
+    ],
+    characteristics: [
+      "Acabamento 100% limpo sem nenhum fiozinho desfiado",
+      "Rapidez incomparável em relação ao corte manual com tesourinha",
+      "Substituto artesanal de baixo custo para o corte a laser industrial"
+    ],
+    applications: [
+      "Confecção de patches para motos, coletes, jaquetas e uniformes.",
+      "Bordados Richelieu vazados em toalhas de organza e voil sintético.",
+      "Chaveiros bordados em feltro sintético e couro sintético com borda selada."
+    ],
+    commonErrors: [
+      "❌ Fazer recorte a quente em tecidos de algodão 100% ou linho puro (o algodão queima e fica preto em vez de derreter e selar)",
+      "❌ Parar a ponta quente no mesmo lugar, queimando e derretendo os pontos de cetim do bordado",
+      "❌ Fazer o corte em cima de mesas de madeira ou plástico sem a placa de vidro de proteção"
+    ],
+    troubleshootingTips: [
+      "Se a borda ficar preta e com cheiro de queimado: A temperatura do cautério está muito alta ou o tecido tem mistura de algodão; use tecido 100% poliéster e diminua a temperatura.",
+      "Se o ferro estiver derretendo o bordado de cetim: Mantenha a ponta quente inclinada apontando para fora do bordado e movimente a mão sem parar.",
+      "Se o tecido não estiver soltando: Aumente a potência do ferro e limpe a ponta do cautério em uma esponja de metal úmida."
+    ],
+    dicaArtrelados: "A regra de ouro do recorte a quente: use SEMPRE uma placa de vidro de janela velha ou vidro temperado como base na mesa! O vidro não queima, não gruda o tecido derretido e faz o ferrinho quente deslizar suave como manteiga derretida!",
+    voceSabia: "O recorte a laser industrial de patches funciona sob o exato mesmo princípio físico do cautério térmico: o feixe de luz aquece o poliéster até o ponto de fusão para selar a orla instantaneamente!",
+    practicalExercise: "Borde um pequeno círculo em tecido Oxford 100% poliéster com borda de cetim. Coloque sobre um vidro e use um pirógrafo com ponta fina para recortar a volta. Veja como o patch se solta sozinho, perfeito e selado.",
+    quickSummary: "Método de corte e selagem térmica com ponta quente que finaliza bordas de patches e apliques sintéticos sem desfiar.",
+    recommendedSettings: {
+      density: "0.36 mm a 0.40 mm no cordão de cetim de borda",
+      speedPPM: "750 a 850 PPM",
+      needleType: "75/11 Universal",
+      stabilizer: "Entretela termocolante ou resinada"
+    },
+    relatedTerms: [
+      "Emblema / Patch Termocolante",
+      "Bordado Richelieu (Cutwork)",
+      "Corte a Laser de Bordados",
+      "Ponto Cheio / Cetim (Satin Stitch)",
+      "Termocolante Definitivo"
+    ],
+    tags: ["r-092", "recorte a quente", "cauterio", "patches", "richelieu", "pirografo", "selagem", "artrelados"],
+    bibliographicReferences: [
+      "EMBROIDERY TRADE ASSOCIATION. Thermal Cutting & Edge Sealing for Patches and Emblems. Dallas, 2022.",
+      "STAHLS' INTERNATIONAL. Laser & Thermal Finishing of Embroidered Appliques. Michigan, 2021.",
+      "ARTRELADOS. Guia Prático de Patches, Emblemas e Recorte a Quente Profissional. Curitiba, 2024."
+    ],
+    updatedAt: "2026-08-30"
+  },
+  {
+    id: "r-093-reducao-de-ponto-por-filtro-inteligente",
+    code: "R-093",
+    letter: "R",
+    term: "Redução de Ponto por Filtro Inteligente (Smart Stitch Length Filter & Short Stitch Purge)",
+    level: "Avançado 🔴",
+    category: "Programação de Bordado",
+    grammarClass: "Locução substantiva feminina.",
+    origin: "Do latim reductio (diminuição) e filtrum (feltro/separador). Recurso essencial de otimização algorítmica de arquivos de máquina (DST/PES/JEF).",
+    summary: "Filtro de software que elimina micro-pontos menores que 0,3 mm que travam a máquina, furam o tecido e arrebentam a linha.",
+    definition: "A Redução de Ponto por Filtro Inteligente (Smart Stitch Length Filter & Short Stitch Purge / Stitch Cleaner / Small Stitch Filter) é a rotina algorítmica executada durante a conversão ou exportação da matriz de bordado que detecta e remove sistematicamente todos os pontos cujo deslocamento linear seja inferior ao limiar crítico (normalmente calibrado entre 0,2 mm e 0,4 mm). Esses micro-pontos (frequentemente gerados em cantos afilados, curvas fechadas ou nós de amarração) não agregam cobertura visual e sobrecarregam a mecânica da máquina.",
+    technicalDetails: "A presença de micro-pontos (< 0,3 mm) faz com que a agulha penetre repetidamente no mesmo orifício microscópico em intervalos de milissegundos sem avanço de bastidor, gerando atrito térmico concentrado, rompimento das fibras estruturais do tecido (buraco no tecido) e acúmulo de linha que trava a lançadeira (*thread jam*). O filtro inteligente combina os pontos adjacentes preservando a integridade do contorno original.",
+    beginnerExplanation: "É uma limpeza automática que o programa de bordado faz na matriz antes de mandar para a máquina: ele apaga aqueles pontinhos minúsculos quase invisíveis (menores que a ponta de um alfinete) que só servem para a agulha bater no mesmo lugar, furar o pano e embolar a linha embaixo da chapa.",
+    howItWorks: [
+      "1. O programador finaliza a matriz e aciona a rotina 'Processar / Limpar Pequenos Pontos' (Purge Short Stitches).",
+      "2. O software escaneia a lista completa de coordenadas de todos os pontos da matriz.",
+      "3. Identifica qualquer coordenada cuja distância do ponto anterior seja menor que 0,3 mm.",
+      "4. O algoritmo funde o ponto curto com o ponto vizinho ou redistribui a distância suavemente.",
+      "5. A matriz final é exportada com 5% a 15% menos pontos totais, bordando mais rápido e com zero travamentos."
+    ],
+    construction: [
+      "Módulo de filtragem vetorial de comprimento de ponto",
+      "Parâmetro de limiar mínimo configurável (Threshold = 0.3 mm a 0.5 mm)",
+      "Preservador de nós de amarração e paradas de corte",
+      "Otimizador de ordem de percurso de agulha"
+    ],
+    mainTypes: [
+      "Filtro de Pequenos Pontos na Exportação de Arquivos de Máquina (DST/PES)",
+      "Limpador de Pontos Acumulados em Cantos Vivos (Corner Short Stitch Purge)",
+      "Otimizador Inteligente de Densidade Dinâmica"
+    ],
+    characteristics: [
+      "Eliminação de 90% das quebras de agulha e linha por acúmulo de pontos",
+      "Redução do tempo total de execução do bordado na máquina",
+      "Preservação da maciez do tecido sem endurecimento central"
+    ],
+    applications: [
+      "Otimização de matrizes compradas na internet ou digitalizadas automaticamente.",
+      "Bordados delicados em tecidos finos e sedas sujeitos a furos de agulha.",
+      "Produção em alta velocidade (acima de 850 PPM) sem paradas frequentes."
+    ],
+    commonErrors: [
+      "❌ Deixar o filtro desativado em matrizes com muitas curvas e pontas finas",
+      "❌ Configurar o limiar de filtro muito alto (> 1.2 mm), apagando detalhes importantes de olhos e letrinhas",
+      "❌ Apagar pontos de amarração finais junto com os pontos curtos, fazendo o bordado desmanchar na lavagem"
+    ],
+    troubleshootingTips: [
+      "Se a agulha ficar batendo no mesmo lugar parecendo uma metralhadora: A matriz tem excesso de pequenos pontos; passe a matriz pelo filtro de redução de pontos no software.",
+      "Se abrir um buraco no tecido durante o bordado de um detalhe: Havia dezenas de pontos menores que 0.2 mm concentrados; remova-os e aumente a compensação de repuxo.",
+      "Se a linha de baixo embolar sempre no mesmo pedaço do desenho: Limpe os micro-pontos acumulados naquele objeto no software."
+    ],
+    dicaArtrelados: "Sempre passe todas as matrizes que você baixar da internet pelo filtro de 'Limpeza de Pequenos Pontos' (Short Stitch Filter) com valor de 0,3 mm antes de colocar na máquina! A matriz vai bordar mais rápido, a sua máquina vai trabalhar macia e você nunca mais vai ver a agulha quebrando à toa!",
+    voceSabia: "Em matrizes grandes de brasões com mais de 50.000 pontos, um simples filtro inteligente de micro-pontos consegue eliminar até 7.000 pontos desnecessários sem que ninguém consiga notar qualquer diferença a olho nu!",
+    practicalExercise: "Abra uma matriz no seu software e use a ferramenta de estatísticas de pontos: veja quantos pontos têm menos de 0,4 mm. Ative a ferramenta 'Purge / Filtrar Pequenos Pontos' e observe a redução no número total de pontos.",
+    quickSummary: "Algoritmo que elimina pontos minúsculos desnecessários na matriz para evitar furos no tecido, quebras de agulha e embaraçamento de linha.",
+    recommendedSettings: {
+      density: "Limiar de filtro configurado para 0.3 mm a 0.4 mm",
+      speedPPM: "Velocidade livre (750 a 900 PPM)",
+      needleType: "75/11 Universal",
+      stabilizer: "Conforme tecido"
+    },
+    relatedTerms: [
+      "Densidade de Ponto (Stitch Density)",
+      "Ponto Curto (Short Stitch)",
+      "Otimização de Matriz",
+      "Formato DST / PES / JEF",
+      "Ponto de Amarração (Tie-off)"
+    ],
+    tags: ["r-093", "reducao de pontos", "filtro inteligente", "otimizacao", "micro pontos", "software", "artrelados"],
+    bibliographicReferences: [
+      "WILCOM INTERNATIONAL. Short Stitch Filter & Machine File Optimization Protocols. Sydney, 2023.",
+      "PULSE MICROSYS. Vector Data Sanitization & Knot Elimination in CNC Embroidery. Toronto, 2022.",
+      "ARTRELADOS. Otimização Avançada de Matrizes: Limpeza de Pontos, Velocidade e Redução de Desgaste. Curitiba, 2024."
+    ],
+    updatedAt: "2026-08-30"
+  },
+  {
+    id: "r-094-rotacao-de-matriz-e-compensacao-de-sentido-de-ponto",
+    code: "R-094",
+    letter: "R",
+    term: "Rotação de Matriz e Compensação de Sentido de Ponto (Design Rotation & Grainline Orientation)",
+    level: "Intermediário 🟡",
+    category: "Programação de Bordado",
+    grammarClass: "Locução substantiva feminina.",
+    origin: "Do latim rotatio (movimento em círculo) e compensare (pesar junto/equilibrar). Conceito fundamental de física óptica e mecânica têxtil.",
+    summary: "Impacto no brilho e na deformação do tecido ao girar uma matriz em 90 ou 180 graus no painel da máquina.",
+    definition: "A Rotação de Matriz e Compensação de Sentido de Ponto (Design Rotation & Grainline Orientation / Directional Reflection & Tension Shift) é o conjunto de fenômenos ópticos e mecânicos que ocorrem quando uma matriz de bordado é rotacionada (tipicamente em 90°, 180° ou 270°) no painel da máquina de bordar para caber no bastidor ou ajustar o alinhamento da peça. Essa rotação altera a relação angular entre as linhas de pontos e o sentido do fio do tecido (trama/urdume), bem como o ângulo de incidência da luz sobre os filamentos brilhantes de poliéster ou viscose.",
+    technicalDetails: "Ao girar uma matriz em 90°, a direção que antes sofria repuxamento longitudinal passa a sofrer repuxamento transversal (onde a maioria dos tecidos possui elasticidade diferente). Além disso, a reflexão especular da luz nos filamentos trilobais gira 90°, podendo alterar a tonalidade aparente do bordado quando comparado a outra peça bordada na posição original.",
+    beginnerExplanation: "Quando você gira um desenho na tela da máquina de lado para caber melhor no bastidor, os pontos mudam de direção em relação ao fio do tecido e à luz do ambiente. Isso faz a cor parecer um pouquinho mais clara ou escura por causa do brilho da linha e pode fazer o tecido enrugar para o outro lado se a entretela não for boa.",
+    howItWorks: [
+      "1. A matriz original é projetada com compensação de repuxo calculada para a direção vertical da máquina.",
+      "2. O operador rotaciona o desenho em 90 graus no painel da máquina para bordar na horizontal.",
+      "3. As forças de tração da linha superior passam a agir perpendicularmente à direção original.",
+      "4. Os filamentos de poliéster refletem a luz ambiente em novo ângulo óptico.",
+      "5. A peça final mantém a geometria se tiver sido utilizada entretela com estabilidade multidirecional."
+    ],
+    construction: [
+      "Transformação matricial afim de rotação de coordenadas (X' = X cos θ - Y sin θ)",
+      "Estrutura do tecido com eixos ortogonais de trama e urdume",
+      "Filamento de poliéster trilobal com 3 faces ópticas de reflexão",
+      "Entretela recortável multidirecional (Cutaway)"
+    ],
+    mainTypes: [
+      "Rotação de 90 Graus para Encaixe em Bastidores Longos / Magnéticos",
+      "Rotação de 180 Graus para Bordados em Bolsos e Bonés com Aba para Cima",
+      "Rotação Livre Angular em Composições Artísticas"
+    ],
+    characteristics: [
+      "Variação sutil de brilho e intensidade de cor conforme a direção da luz",
+      "Mudança na direção de repuxo do tecido que exige entretela uniforme",
+      "Flexibilidade total de posicionamento em peças prontas e espaços reduzidos"
+    ],
+    applications: [
+      "Bordados em bolsos prontos de camisas, bonés de aba curva e mangas de jaquetas.",
+      "Otimização de aproveitamento de área útil dentro de bastidores ovais ou retangulares.",
+      "Padronização de conjuntos de peças bordadas para não haver diferença de brilho entre elas."
+    ],
+    commonErrors: [
+      "❌ Bordar a frente de uma camisa com o desenho a 0° e as costas com o mesmo desenho girado a 90°, criando tonalidades de cor visivelmente diferentes sob a luz",
+      "❌ Girar a matriz em tecido elástico usando entretela rasgável unidirecional que só sustenta um lado",
+      "❌ Não recalcular o ponto de origem após rotacionar a matriz no painel, batendo o bastidor na lateral"
+    ],
+    troubleshootingTips: [
+      "Se a cor do bordado parecer diferente na mesma linha: Verifique se todas as peças foram bordadas com a matriz no mesmo sentido de rotação.",
+      "Se o bordado repuxar após ser girado em 90 graus: Use entretela recortável multidirecional pesada para segurar as duas direções do tecido.",
+      "Se o desenho sair fora do bastidor após a rotação: Faça o teste de traçado de perímetro (Trace / Border Check) no painel antes de apertar o botão de iniciar."
+    ],
+    dicaArtrelados: "O segredo do brilho uniforme: quando for bordar várias peças do mesmo cliente (ex: 20 camisas polo de uma empresa), borde TODAS com a matriz na MESMA posição de rotação! Se você girar algumas para caber mais fácil no bastidor, as peças que foram giradas vão parecer que foram bordadas com outra cor de linha quando bater a luz!",
+    voceSabia: "O fio de poliéster de bordar é chamado de 'trilobal' porque possui três facetas microscópicas em formato de triângulo que agem como pequenos espelhos; a rotação de 90° muda o ângulo desses espelhos em relação aos olhos de quem olha!",
+    practicalExercise: "Borde duas amostras pequenas de 3 cm da mesma cor: uma na posição normal (0°) e outra girada em 90°. Coloque as duas lado a lado sob a luz da janela e observe a diferença fascinante de reflexão e tonalidade entre elas.",
+    quickSummary: "Efeitos ópticos de reflexão de luz e mecânicos de tração que ocorrem ao girar o desenho no painel da máquina.",
+    recommendedSettings: {
+      density: "0.40 mm",
+      speedPPM: "750 a 850 PPM",
+      needleType: "75/11 Universal",
+      stabilizer: "Entretela recortável multidirecional (Cutaway)"
+    },
+    relatedTerms: [
+      "Sentido do Fio (Grainline)",
+      "Poliéster Trilobal (Trilobal Polyester)",
+      "Compensação de Repuxo (Pull Compensation)",
+      "Traçado de Perímetro (Trace / Frame Check)",
+      "Entretela Recortável (Cutaway)"
+    ],
+    tags: ["r-094", "rotacao de matriz", "brilho", "sentido do fio", "painel da maquina", "poliester", "artrelados"],
+    bibliographicReferences: [
+      "MADEIRA THREADS. Optical Properties and Light Reflection of Trilobal Embroidery Threads. Freiburg, 2022.",
+      "TAJIMA EMBROIDERY SYSTEMS. Machine Orientation, Design Rotation & Grainline Alignment. Nagoya, 2021.",
+      "ARTRELADOS. Guia de Posicionamento, Rotação e Física Óptica de Fios no Bordado Computadorizado. Curitiba, 2024."
+    ],
+    updatedAt: "2026-08-30"
   }
 ];
 
