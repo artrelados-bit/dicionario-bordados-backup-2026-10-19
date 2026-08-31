@@ -43,6 +43,8 @@ export const VERBETES_LETTER_E_PART1: Verbete[] = [
     practicalExercise: "Pegue um pedaço de entretela rasgável e tente rasgá-la em linha reta; depois rasgue na diagonal. Observe a textura macia das fibras de celulose se separando sem esgarçar!",
     quickSummary: "Estabilizador temporário à base de celulose que sustenta o tecido e se rasga facilmente ao redor do bordado.",
     relatedTerms: ["Backing (Estabilizador / Entretela de Base)", "Entretela Hidrossolúvel", "Entretela Recortável de Malha", "Dupla Entretela / Dupla Camada de Estabilizador"],
+    imageUrl: "/images/e001_entretela_rasgavel_v1.jpg?v=1",
+    imageCaption: "Esquema Técnico da Entretela Rasgável: Estrutura em camadas (sanduíche de bordado com tecido e estabilizador de 50g/60g) e método de remoção por tração manual rente aos pontos.",
     tags: ["e-001", "entretela rasgavel", "tear-away", "estabilizador", "pano de prato", "toalhas", "artrelados"],
     bibliographicReferences: [
       "GUNOLD. Tear-Away Stabilizers Technical Compendium & Application Matrix. Kenzingen, 2022.",

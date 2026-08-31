@@ -43,6 +43,8 @@ export const VERBETES_LETTER_F_PART1: Verbete[] = [
     practicalExercise: "Pegue um retalho com bordado feito em linha de poliéster e aplique uma gota de água sanitária ou cloro puro sobre as cores: enxágue após 5 minutos e observe como a cor permanece 100% intacta!",
     quickSummary: "Fio sintético 100% poliéster trilobal 40wt de alta resistência mecânica e brilho acetinado, imune a alvejantes e desbotamento.",
     relatedTerms: ["Fio de Viscose / Rayon para Bordado", "Fio de Bobina / Linha de Baixo", "Tensão Superior da Linha", "Agulha 75/11"],
+    imageUrl: "/images/f001_fio_poliester_v1.jpg?v=1",
+    imageCaption: "Esquema Técnico do Fio de Poliéster 120D/2 (40wt): Anatomia do cone de ateliê com trava-fio, torção dos 2 cabos e microestrutura trilobal reflexiva de alto brilho.",
     tags: ["f-001", "fio de poliester", "polyester thread", "trilobal", "linha de bordado", "resistencia", "artrelados"],
     bibliographicReferences: [
       "MADEIRA THREADS. Polyneon Technical Guide & Colorfastness Standards. Freiburg: Madeira Garnfabrik, 2023.",

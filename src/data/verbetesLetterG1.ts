@@ -47,6 +47,8 @@ export const VERBETES_LETTER_G_PART1: Verbete[] = [
     practicalExercise: "Borde um pequeno brinco ou medalhão de renda guipir com a mesma linha na bobina: lave na água morna, retire, seque sobre papel toalha e sinta a firmeza e perfeição do entrelaçamento dos fios sem nenhum tecido de base!",
     quickSummary: "Renda nobre bordada inteiramente sobre entretela solúvel, revelando estrutura autoportante e vazada após a lavagem.",
     relatedTerms: ["FSL (Free Standing Lace)", "Entretela Hidrossolúvel", "Ponto Cheio / Satin Stitch", "Fio de Bobina"],
+    imageUrl: "/images/g001_guipure_renda_v1.jpg?v=1",
+    imageCaption: "Esquema Técnico do Bordado Guipure: Construção da grade de suporte sobre entretela hidrossolúvel, conexão dos cordões de união e resultado final da renda autoportante após a lavagem.",
     tags: ["g-001", "guipure", "guipir", "renda", "fsl", "chemical lace", "hidrossoluvel", "alta costura", "artrelados"],
     bibliographicReferences: [
       "BERNINA INTERNATIONAL AG. The Art of Free-Standing Lace and Guipure Mastery. Steckborn, 2023.",
