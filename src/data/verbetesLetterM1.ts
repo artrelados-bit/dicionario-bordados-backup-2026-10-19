@@ -44,6 +44,8 @@ export const VERBETES_LETTER_M_PART1: Verbete[] = [
     practicalExercise: "Abra um software de bordado gratuito ou o visualizador da sua máquina: carregue um arquivo de matriz, visualize a simulação do trajeto ponto a ponto e observe como cada elemento é construído antes de iniciar a cor seguinte!",
     quickSummary: "Arquivo digital com coordenadas cartesianas e comandos que instruem a máquina de bordar a costurar o desenho no tecido.",
     relatedTerms: ["Digitalização de Matrizes", "Formato DST", "Formato PES", "Densidade de Ponto", "Compensação de Repuxo"],
+    imageUrl: "/images/m001_matriz_bordado_anatomia_v2.jpg?v=2",
+    imageCaption: "Anatomia da Matriz de Bordado: Da programação vetorial de pontos e ângulos no software à conversão em coordenadas X/Y e comandos de máquina para execução no bastidor de 1 agulha.",
     tags: ["m-001", "matriz de bordado", "arquivo de bordado", "punching", "dst", "pes", "wilcom", "programacao", "artrelados"],
     bibliographicReferences: [
       "WILCOM INTERNATIONAL. Embroidery Studio: Digitizing Fundamentals and Stitch Architecture. Sydney: Wilcom, 2022.",

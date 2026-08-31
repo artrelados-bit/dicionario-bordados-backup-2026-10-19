@@ -41,6 +41,8 @@ export const VERBETES_LETTER_N_PART1: Verbete[] = [
     practicalExercise: "No seu software de programação, crie dois quadrados de tatami idênticos de 3x3 cm. No primeiro, ative o nó de arremate final de 4 micro-pontos; no segundo, desative o arremate e envie para a máquina. Ao retirar do bastidor, corte a cauda de linha rente ao tecido em ambos e esfregue vigorosamente com a unha no avesso: observe a diferença de fixação.",
     quickSummary: "Micro-pontos de travamento programados no final de cada objeto que impedem o desfiamento do bordado após o corte e uso.",
     relatedTerms: ["Nó de Entrada (Tie-in)", "Corte de Linha (Trim)", "Ponto de Salto (Jump)", "Densidade de Ponto"],
+    imageUrl: "/images/n001_no_arremate_v1.jpg?v=1",
+    imageCaption: "Anatomia do Nó de Arremate: Micro-pontos de ancoragem executados antes do corte de linha e os padrões de arremate linear (para monogramas) e em triângulo (para tatami) em máquina de 1 agulha.",
     tags: ["n-001", "no de arremate", "tie-off", "lock stitch", "corte", "arremate", "artrelados"],
     bibliographicReferences: [
       "WILCOM INTERNATIONAL. Embroidery Studio: Digitizing Fundamentals and Stitch Architecture. Sydney: Wilcom, 2022.",
