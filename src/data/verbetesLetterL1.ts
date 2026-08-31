@@ -44,6 +44,8 @@ export const VERBETES_LETTER_L_PART1: Verbete[] = [
     practicalExercise: "Retire a chapa de agulha e a caixa de bobina da sua máquina. Gire o volante com a mão bem devagarzinho olhando com uma lanterna: veja a agulha descer, subir 2 milímetros e o bico pontiagudo da lançadeira passar exatamente atrás do furinho da agulha pescando a linha!",
     quickSummary: "Momento mecânico em que o bico da lançadeira captura a alça de linha superior formada no rebaixo da agulha para entrelaçar o ponto.",
     relatedTerms: ["Lançadeira Rotativa", "Ponto Morto Inferior", "Scarf da Agulha", "Ponto Pulado", "Check Spring"],
+    imageUrl: "/images/l001_lacada_lancadeira_v1.jpg?v=1",
+    imageCaption: "Cinemática da Formação de Laçada: Abertura da alça de linha no rebaixo da agulha, captura pelo bico da lançadeira rotativa e entrelaçamento com a linha da bobina em máquina de 1 agulha.",
     tags: ["l-001", "lacada", "formacao de lacada", "hook timing", "lancadeira", "ponto fixo", "mecanica", "artrelados"],
     bibliographicReferences: [
       "KOBAN HOOK MANUFACTURING CO. Technical Manual on Rotary Hook Dynamics and Loop Catching Tolerances. Osaka: Koban, 2022.",

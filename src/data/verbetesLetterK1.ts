@@ -43,6 +43,8 @@ export const VERBETES_LETTER_K_PART1: Verbete[] = [
     practicalExercise: "Digitalize um símbolo geométrico simples de 6x6 cm, aplique contorno em ponto cheio de 3,5 mm com subtrama Edge Run e borde sobre um retalho estampado com linhas douradas para avaliar a legibilidade visual!",
     quickSummary: "Técnica de bordado de alto impacto visual sobre tecidos e estampas africanas com estabilização firme e compensação de textura.",
     relatedTerms: ["Compensação de Encolhimento", "Ponto Cheio (Satin)", "Entretela Cut-away", "Aplique Bordado"],
+    imageUrl: "/images/k001_tecido_kente_bordado_v1.jpg?v=1",
+    imageCaption: "Esquema Técnico para Tecidos Kente em 1 Agulha: Bastidor retangular com estampa étnica, criação de ilha de aplique liso para neutralizar a estampa de fundo e bordado heráldico de alto contraste.",
     tags: ["k-001", "kente", "africano", "tecidos", "etnico", "geometria", "artrelados"],
     bibliographicReferences: [
       "ROSS, Doran H. Wrapped in Pride: Ghanaian Kente and African American Identity. Los Angeles: UCLA Fowler Museum, 2021.",
