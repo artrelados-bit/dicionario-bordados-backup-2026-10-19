@@ -49,6 +49,8 @@ export const VERBETES_LETTER_U1: Verbete[] = [
     practicalExercise: "Crie um quadrado de 4x4 cm no seu software de bordado. Programe um quadrado sem nenhum underlay e outro idêntico com underlay em grade. Borde ambos em uma malha de camiseta e sinta na prática a diferença inacreditável de firmeza e acabamento.",
     quickSummary: "Estrutura oculta de pontos de fundação costurada sob o bordado para unir tecido e entretela, evitar rugas e dar sustentação aos pontos de cobertura.",
     relatedTerms: ["Center Walk", "Edge Walk", "Zigzag Underlay", "Compensação de Encolhimento", "Densidade", "Puckering"],
+    imageUrl: "/images/u001_underlay_v1.jpg?v=1",
+    imageCaption: "Anatomia do Subponto (Underlay): a camada de fundação invisível que ancora o tecido na entretela e a comparação prática entre um bordado com suporte firme versus sem suporte.",
     tags: ["underlay", "subponto", "fundacao", "estrutura", "programacao", "wilcom", "estabilidade"]
   },
   {

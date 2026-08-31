@@ -53,7 +53,7 @@ export const VERBETES_LETTER_V13: Verbete[] = [
   },
   {
     id: "viscosidade-cinematica-e-reologia-de-oleos-texteis-iso-vg",
-    code: "U-068",
+    code: "V-068",
     letter: "V",
     term: "Viscosidade Cinemática e Reologia de Óleos Minerais Têxteis (Lubricant Viscosity & ISO VG Standards)",
     pronunciation: "vis-co-zi-da-de ci-ne-má-ti-ca e re-o-lo-gi-a de ó-le-os têx-teis",

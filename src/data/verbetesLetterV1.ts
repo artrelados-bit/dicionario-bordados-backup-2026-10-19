@@ -49,6 +49,8 @@ export const VERBETES_LETTER_V1: Verbete[] = [
     practicalExercise: "Importe o logotipo de uma letra simples (como a letra 'V') em formato PNG de baixa qualidade no seu software. Trace manualmente com a ferramenta de curvas, inserindo apenas 4 nós mestres. Aplique ponto cheio e observe como o contorno fica ultra-suave.",
     quickSummary: "Processo de conversão de imagens em pontos e pixels para curvas matemáticas vetoriais que guiam o cálculo das coordenadas de costura da máquina.",
     relatedTerms: ["Curvas de Bézier", "Nós de Controle", "Auto-Digitalização", "Ponto Tatami", "Ponto Cheio", "DST"],
+    imageUrl: "/images/v001_vetorizacao_v1.jpg?v=1",
+    imageCaption: "Anatomia da Vetorização de Matrizes: a conversão de imagens pixeladas em curvas vetoriais matemáticas limpas para a geração de pontos acetinados e preenchimentos perfeitos na máquina.",
     tags: ["vetorizacao", "vetor", "bezier", "software", "programacao", "wilcom", "desenho"]
   },
   {
