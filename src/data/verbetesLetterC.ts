@@ -50,6 +50,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "Caixa da Bobina",
       "Carro da Máquina de Bordado"
     ],
+    "imageUrl": "/images/c001_cabecote_domestica_v3.jpg?v=3",
+    "imageCaption": "Esquema Técnico do Cabeçote de Bordadeira Eletrônica Doméstica (1 Agulha): Passador Automático de Linha, Guia Numerado, Barra de Agulha e Calcador Salteador com Mola.",
     "tags": [
       "c-001",
       "cabecote",
