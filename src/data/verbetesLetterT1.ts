@@ -48,6 +48,8 @@ export const VERBETES_LETTER_T1: Verbete[] = [
     practicalExercise: "Crie um quadrado de 50x50 mm no seu programa de matrizes. Configure um tatami com comprimento de 4,0 mm e espaçamento de 0,42 mm, com subponto tatami leve a 90°. Borde em tricoline e sinta a flexibilidade do toque final.",
     quickSummary: "Ponto de preenchimento para médias e grandes áreas com pontos corridos entrelaçados, garantindo alta estabilidade dimensional e cobertura uniforme.",
     relatedTerms: ["Tatami Stitch", "Tatami de Alta Densidade", "Tatami de Baixa Densidade", "Satin Stitch", "Subponto Tatami"],
+    imageUrl: "/images/t001_tatami_dibe_v1.jpg?v=1",
+    imageCaption: "Anatomia do Ponto Tatami (Preenchimento) na sigla DIBE: passadas com furos de agulha alternados a 45° para cobrir grandes áreas com estabilidade e a grade interna de suporte.",
     tags: ["tatami", "preenchimento", "fill stitch", "pontos", "estruturas"]
   },
   {

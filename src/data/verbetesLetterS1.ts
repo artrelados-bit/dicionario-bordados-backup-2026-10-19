@@ -48,6 +48,8 @@ export const VERBETES_LETTER_S1: Verbete[] = [
     practicalExercise: "Digitalize uma letra 'L' em cetim com 4 mm de largura e espaçamento de 0,40 mm com suporte central. Borde em uma malha e observe a firmeza e o brilho do resultado.",
     quickSummary: "Satin Stitch é o ponto cheio clássico de bordas paralelas, brilho acetinado e alto relevo, ideal para letras, contornos e detalhes nobres.",
     relatedTerms: ["Satin Curto", "Satin Longo", "Densidade do Ponto", "Compensação de Puxamento", "Ponto Tatami"],
+    imageUrl: "/images/s001_satin_artrelados_v1.jpg?v=1",
+    imageCaption: "Anatomia do Ponto Cheio (Satin) na tipografia ARTRELADOS: passadas paralelas de borda a borda com brilho acetinado e a estrutura interna de suporte que garante relevo e firmeza.",
     tags: ["satin", "ponto cheio", "pontos", "letras", "brilho"]
   },
   {

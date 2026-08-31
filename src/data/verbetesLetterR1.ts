@@ -46,6 +46,8 @@ export const VERBETES_LETTER_R1: Verbete[] = [
     practicalExercise: "Compare um cone de Rayon e um cone de Poliéster sob a luz da luminária do seu ateliê: note como o Rayon reflete um brilho quente e sedoso homogêneo, enquanto o poliéster tem um reflexo mais vítreo.",
     quickSummary: "Rayon é a fibra de celulose nobre de brilho sedoso e toque macio, ideal para peças delicadas, alta costura e enxovais de bebê.",
     relatedTerms: ["Linha Rayon", "Viscose", "Linha de Poliéster", "Brilho Sedoso"],
+    imageUrl: "/images/r001_rayon_v1.jpg?v=1",
+    imageCaption: "Anatomia e uso do fio de Rayon: fibra macia à base de celulose com brilho sedoso, caimento aveludado e ajuste de tensão suave para máquina de 1 agulha.",
     tags: ["rayon", "linha", "viscose", "brilho", "fibras"]
   },
   {
