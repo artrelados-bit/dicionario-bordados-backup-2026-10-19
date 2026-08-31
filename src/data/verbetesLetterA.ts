@@ -79,6 +79,8 @@ export const VERBETES_LETTER_A: Verbete[] = [
       "Lançadeira",
       "Caixa de Bobina"
     ],
+    "imageUrl": "/images/a001_agulha_clean_v3.jpg?v=3",
+    "imageCaption": "Esquema Técnico da Agulha de Bordado Computadorizado: Cabo, Haste, Canaleta Frontal, Chanfro e Geometria da Ponta.",
     "tags": [
       "a-001",
       "agulha",

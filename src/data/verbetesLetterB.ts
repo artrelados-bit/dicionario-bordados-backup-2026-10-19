@@ -71,6 +71,8 @@ export const VERBETES_LETTER_B: Verbete[] = [
       "Flutuação (Floating)",
       "Marcas de Bastidor (Hoop Burn)"
     ],
+    "imageUrl": "/images/b001_bastidor_clean_v3.jpg?v=3",
+    "imageCaption": "Esquema Técnico dos Bastidores Retangulares para Bordadeiras Eletrônicas: Aros com Cantos Arredondados, Encaixe no Pantógrafo e Gabarito de Alinhamento.",
     "tags": [
       "b-001",
       "bastidor",

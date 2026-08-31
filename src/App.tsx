@@ -145,7 +145,7 @@ function sanitizeVerbetesList(list: Verbete[]): Verbete[] {
   const deduplicatedMap = new Map<string, Verbete>();
   const seenNormTerms = new Set<string>();
 
-  // Add initial verbetes first
+  // Add initial verbetes first (with latest definitions and images)
   INITIAL_VERBETES.forEach((v) => {
     const codeKey = (v.code || v.id).trim().toUpperCase();
     const normTerm = v.term.toLowerCase().trim().replace(/^[🟢🟡🔴\s]+/, "");
@@ -153,11 +153,19 @@ function sanitizeVerbetesList(list: Verbete[]): Verbete[] {
     seenNormTerms.add(normTerm);
   });
 
-  // Then merge filtered verbetes from storage, updating or adding new ones without duplication
+  // Then merge filtered verbetes from storage, keeping official initial verbetes up to date
   filtered.forEach((v) => {
     const codeKey = (v.code || v.id).trim().toUpperCase();
     const normTerm = v.term.toLowerCase().trim().replace(/^[🟢🟡🔴\s]+/, "");
-    if (!deduplicatedMap.has(codeKey) && !seenNormTerms.has(normTerm)) {
+    if (deduplicatedMap.has(codeKey)) {
+      // Merge user edits/notes without overwriting new images from initial data
+      const official = deduplicatedMap.get(codeKey)!;
+      deduplicatedMap.set(codeKey, {
+        ...v,
+        imageUrl: official.imageUrl || v.imageUrl,
+        imageCaption: official.imageCaption || v.imageCaption,
+      });
+    } else if (!seenNormTerms.has(normTerm)) {
       deduplicatedMap.set(codeKey, v);
       seenNormTerms.add(normTerm);
     }

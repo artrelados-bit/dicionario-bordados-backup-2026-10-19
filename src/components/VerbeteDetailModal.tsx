@@ -263,17 +263,38 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
                 </span>
               )}
             </div>
-
-            {verbete.origin && (
-              <div className="p-3 rounded-xl bg-blue-50/70 border border-blue-200/80 text-xs sm:text-sm text-slate-800 flex items-start gap-2.5 leading-relaxed mt-2 shadow-2xs">
-                <span className="text-base shrink-0">🌎</span>
-                <div>
-                  <strong className="font-bold text-blue-950 block sm:inline mr-1.5">Origem:</strong>
-                  <span>{verbete.origin}</span>
-                </div>
-              </div>
-            )}
           </div>
+
+          {/* Technical Illustration Banner right below title & grammar class */}
+          {verbete.imageUrl && (
+            <div className="rounded-2xl border border-slate-200 bg-white shadow-xs overflow-hidden p-3 sm:p-4 text-center">
+              <div className="bg-white flex flex-col items-center justify-center">
+                <img
+                  src={verbete.imageUrl}
+                  alt={`Prancha técnica ilustrada do verbete ${verbete.term}`}
+                  className="w-full max-h-[380px] object-contain mx-auto rounded-lg"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              {verbete.imageCaption && (
+                <div className="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between text-xs text-slate-600">
+                  <span className="font-serif italic">{verbete.imageCaption}</span>
+                  <span className="text-[10px] font-sans uppercase tracking-wider font-semibold text-slate-400">Manual Técnico DIBE</span>
+                </div>
+              )}
+            </div>
+          )}
+
+          {verbete.origin && (
+            <div className="p-3 rounded-xl bg-blue-50/70 border border-blue-200/80 text-xs sm:text-sm text-slate-800 flex items-start gap-2.5 leading-relaxed shadow-2xs">
+              <span className="text-base shrink-0">🌎</span>
+              <div>
+                <strong className="font-bold text-blue-950 block sm:inline mr-1.5">Origem:</strong>
+                <span>{verbete.origin}</span>
+              </div>
+            </div>
+          )}
+
           {/* Summary Box */}
           <div className="p-4 rounded-2xl bg-amber-50/80 border border-amber-200/90 text-slate-900 text-sm leading-relaxed">
             <strong className="text-amber-900 font-extrabold block mb-1 uppercase text-xs tracking-wider">
@@ -281,27 +302,6 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             </strong>
             {verbete.summary}
           </div>
-
-          {/* Technical Illustration Banner if present */}
-          {verbete.imageUrl && (
-            <div className="rounded-2xl border-2 border-slate-800 bg-white shadow-md overflow-hidden p-4 text-center">
-              <div className="bg-white flex flex-col items-center justify-center">
-                <img
-                  src={verbete.imageUrl}
-                  alt={`Prancha técnica ilustrada do verbete ${verbete.term}`}
-                  className="max-h-96 w-auto object-contain mx-auto"
-                  referrerPolicy="no-referrer"
-                />
-              </div>
-              {verbete.imageCaption && (
-                <div className="mt-3 pt-3 border-t border-slate-200">
-                  <p className="text-xs sm:text-sm font-semibold text-slate-800 italic px-2">
-                    {verbete.imageCaption}
-                  </p>
-                </div>
-              )}
-            </div>
-          )}
 
           {/* Stitch Diagram if exists */}
           {verbete.stitchDiagramType && (
