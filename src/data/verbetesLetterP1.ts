@@ -45,6 +45,8 @@ export const VERBETES_LETTER_P_PART1: Verbete[] = [
     practicalExercise: "Digitalize no software um retângulo de 5 mm x 30 mm em ponto satim com densidade 0.40 mm. Borde uma versão sem ponto suporte e outra com ponto suporte de zigue-zague. Compare o relevo e a nitidez ao toque!",
     quickSummary: "Ponto contínuo em zigue-zague de borda a borda que confere alto relevo, brilho acetinado e bordas nítidas a letras e contornos.",
     relatedTerms: ["Ponto Tatami", "Compensação de Encolhimento (Pull Compensation)", "Underlay (Ponto Suporte)", "Divisão Automática (Auto-Split)"],
+    imageUrl: "/images/p001_ponto_satim_v1.jpg?v=1",
+    imageCaption: "Anatomia do Ponto Satim (Cetim): Fios contínuos paralelos com brilho acetinado, compensação de repuxo e camadas de subtrama de traço central e zigue-zague em máquina de 1 agulha.",
     tags: ["p-001", "ponto satim", "ponto cetim", "satin stitch", "coluna", "artrelados"],
     bibliographicReferences: [
       "WILCOM INTERNATIONAL. Digitizing Best Practices: Perfect Satin Columns & Lettering. Sydney, 2022.",

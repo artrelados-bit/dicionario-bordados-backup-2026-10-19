@@ -41,11 +41,13 @@ export const VERBETES_LETTER_Q1: Verbete[] = [
       "Fios brancos aparecendo na frente: afrouxe a tensão superior ou aperte levemente a caixa da bobina.",
       "Contorno deslocado do recheio: altere a direção dos pontos de suporte e aumente a sobreposição."
     ],
-    dicaArtrelados: "A regra de ouro da Artrelados: um bom bordado se reconhece pelo verso! Se o verso estiver limpo, sem tufos de linha e com o terço central de linha branca perfeito, a frente estará impecável.",
+    dicaArtrelados: "O segredo de ouro está no avesso! Vire o bordado: a linha branca de baixo deve ficar certinha no meio da coluna, e o verso deve estar limpinho, sem nós nem bolo de linha. Se o verso estiver bonito, a frente fica perfeita!",
     voceSabia: "Na indústria aeroespacial e militar, os bordados de insígnias passam por testes ópticos computadorizados de reflexão de luz para garantir que a densidade do ponto satim não varie mais do que 0,02 mm.",
     practicalExercise: "Pegue um retalho de tecido plano e borde uma matriz de teste com círculos satim e quadrados tatami. Ao retirar do bastidor, examine com lupa o alinhamento do contorno e meça a proporção da linha no verso.",
     quickSummary: "Qualidade do bordado é a perfeita harmonia entre matriz, tecido, entretela e máquina, resultando em nitidez, toque agradável e durabilidade.",
     relatedTerms: ["Qualidade da Matriz", "Qualidade do Ponto", "Balanço de Tensão", "Compensação de Encolhimento"],
+    imageUrl: "/images/q001_qualidade_bordado_v2.jpg?v=2",
+    imageCaption: "Como reconhecer a qualidade do bordado: na frente, o tecido liso e os pontos sem frestas; no verso (avesso), a linha branca bem dividida no meio sem embolar fios.",
     tags: ["qualidade", "inspeção", "acabamento", "fundamentos"]
   },
   {
