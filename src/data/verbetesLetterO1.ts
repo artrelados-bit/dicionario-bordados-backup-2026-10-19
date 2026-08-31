@@ -46,6 +46,8 @@ export const VERBETES_LETTER_O_PART1: Verbete[] = [
     practicalExercise: "Pegue uma agulha de costura comum 75/11 e uma agulha de bordar 75/11. Coloque as duas lado a lado sob uma boa luz (ou lupa) e observe como o olho da agulha de bordado é mais largo e polido.",
     quickSummary: "Orifício inferior usinado e ultra-polido por onde a linha superior passa em alta velocidade para formar a laçada de ponto.",
     relatedTerms: ["Agulha de Bordar", "Cava da Agulha (Scarf)", "Canaleta da Agulha (Groove)", "Fio Metálico para Bordar"],
+    imageUrl: "/images/o001_olho_agulha_v1.jpg?v=1",
+    imageCaption: "Anatomia Microscópica do Olho da Agulha de Bordar: Orifício elíptico ampliado e ultra-polido com canaleta de proteção e o Teste do Escorregador a 45° em máquina de 1 agulha.",
     tags: ["o-001", "olho da agulha", "needle eye", "passagem de linha", "agulhas", "artrelados"],
     bibliographicReferences: [
       "SCHMETZ NEEDLES. Embroidery Needle Anatomy & Eye Geometry. Schmetz Technical Papers, 2021.",
