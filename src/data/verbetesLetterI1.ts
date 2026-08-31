@@ -51,6 +51,8 @@ export const VERBETES_LETTER_I_PART1: Verbete[] = [
     practicalExercise: "Baixe uma matriz gratuita de chaveiro em formato ITH (tipo tag de mala): monte a entretela no bastidor, siga os comandos de parada (Stop) inserindo o courvin na marcação e veja seu primeiro chaveiro nascer 100% pronto no bastidor!",
     quickSummary: "Técnica que confecciona peças inteiras (bolsinhas, nécessaires, chaveiros) montadas e costuradas dentro do bastidor.",
     relatedTerms: ["Placement Stitch / Ponto de Marcação", "Tackdown Stitch / Ponto de Fixação", "Bean Stitch / Ponto Grão", "Stop Code / Parada Programada"],
+    imageUrl: "/images/i001_ith_bastidor_retangular_v2.jpg?v=2",
+    imageCaption: "Esquema Técnico In-the-Hoop (ITH) em Bastidor Retangular de 1 Agulha: Linha de marcação no estabilizador, montagem de tecidos e costura perimetral com abertura para desvirar a peça pronta.",
     tags: ["i-001", "in-the-hoop", "ith", "necessaires", "chaveiros", "projetos no bastidor", "costura criativa", "artrelados"],
     bibliographicReferences: [
       "IN-THE-HOOP EMBROIDERY ESSENTIALS. Step-by-Step Construction & Digitizing Sequences. Melbourne, 2023.",

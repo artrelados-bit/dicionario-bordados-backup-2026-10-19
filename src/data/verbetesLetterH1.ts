@@ -46,6 +46,8 @@ export const VERBETES_LETTER_H_PART1: Verbete[] = [
     practicalExercise: "No seu software, desenhe um quadrado de 4x4cm formado por blocos Kloster de 5 pontos cheios perpendiculares: teste a matriz em um retalho de linho com hidrossolúvel e experimente o corte interno!",
     quickSummary: "Adaptação digital do bordado geométrico norueguês com blocos cheios em ângulo reto e janelas vazadas rendadas.",
     relatedTerms: ["Bordado Richelieu", "Guipure / Renda Guipir", "Entretela Hidrossolúvel", "Ponto Cheio / Ponto Satin"],
+    imageUrl: "/images/h001_hardanger_eletronico_v1.jpg?v=1",
+    imageCaption: "Esquema Técnico do Hardanger Eletrônico: Blocos de travamento em ponto cheio (Kloster), recorte de precisão do tecido interno e tecimento das barras rendadas sobre o vão vazado.",
     tags: ["h-001", "hardanger", "noruegues", "renda", "cutwork", "linho", "mesa posta", "alta costura", "artrelados"],
     bibliographicReferences: [
       "NORWEGIAN TRADITIONAL NEEDLEWORK SOCIETY. Hardanger Embroidery: Geometry and Digital Adaptation. Oslo, 2023.",
