@@ -44,6 +44,8 @@ export const VERBETES_LETTER_J_PART1: Verbete[] = [
     practicalExercise: "Abra o seu software de bordado, importe um desenho e exporte-o como .JEF escolhendo o bastidor RE20b (140x200mm): abra o arquivo gerado e verifique se as dimensões e cores permaneceram fiéis!",
     quickSummary: "Formato nativo de arquivo de bordado para máquinas Janome e Elna com coordenadas e cores indexadas.",
     relatedTerms: ["Formatos de Matriz de Bordado", "Janome Digitizer", "DST / Formato Tajima", "PES / Formato Brother"],
+    imageUrl: "/images/j001_formato_jef_janome_v1.jpg?v=1",
+    imageCaption: "Esquema Técnico do Formato JEF: Estrutura binária de coordenadas X/Y e paradas de cor, organização no pendrive (pasta EMB) e leitura no painel da máquina Janome de 1 agulha.",
     tags: ["j-001", "jef", "janome", "formatos", "matriz", "memory craft", "arquivos", "artrelados"],
     bibliographicReferences: [
       "JANOME SEWING MACHINE CO. Memory Craft Technical Specifications & File Protocol. Tokyo: Janome Corp., 2023.",
