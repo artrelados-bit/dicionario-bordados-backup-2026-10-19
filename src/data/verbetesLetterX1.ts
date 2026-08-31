@@ -49,6 +49,8 @@ export const VERBETES_LETTER_X1: Verbete[] = [
     practicalExercise: "No painel da sua máquina de bordar, acesse o modo de rastreamento (Trace/Outline). Observe como o braço do pantógrafo se desloca no eixo X horizontal e verifique se o calcador mantém uma folga segura de pelo menos 1 cm das bordas internas do bastidor.",
     quickSummary: "Eixo horizontal do pantógrafo responsável por mover o bastidor lateralmente com precisão centesimal para formar cada ponto da matriz.",
     relatedTerms: ["Y-Axis (Eixo Y)", "Z-Axis (Eixo Z)", "Pantógrafo", "Servomotor", "Passo de Ponto", "Coordenadas Cartesianas", "DST Format"],
+    imageUrl: "/images/x001_eixo_x_pantografo_v1.jpg?v=1",
+    imageCaption: "Anatomia do Eixo X (X-Axis): o sistema de movimentação horizontal do pantógrafo por correias dentadas e o plano cartesiano que desloca o bastidor a cada ponto da matriz.",
     tags: ["xaxis", "eixox", "pantografo", "mecanica", "coordenadas", "hardware", "manutencao"]
   },
   {

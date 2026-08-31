@@ -50,6 +50,8 @@ export const VERBETES_LETTER_W_PART1: Verbete[] = [
     practicalExercise: "Pegue um retalho de tecido de algodão (tricoline) e tente esticar no sentido do comprimento (urdume) e depois na largura (trama). Sinta como o urdume é muito mais rígido e estável.",
     quickSummary: "Sentido longitudinal dos fios do tecido plano paralelo à ourela, caracterizado por alta rigidez e menor elasticidade, essencial para o alinhamento no bastidor.",
     relatedTerms: ["Urdume", "Trama", "Weft", "Ourela", "Fio Reto", "Compensação de Repuxo", "Tecido Plano"],
+    imageUrl: "/images/w001_warp_urdume_v1.jpg?v=1",
+    imageCaption: "Anatomia do Urdume (Warp): a direção longitudinal dos fios do tecido plano de máxima estabilidade e o alinhamento com as marcas centrais do bastidor para bordados perfeitamente retos.",
     tags: ["warp", "urdume", "urdidura", "tecido", "estrutura", "fioreto", "alinhamento"]
   },
   {
