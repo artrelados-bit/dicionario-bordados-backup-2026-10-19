@@ -117,6 +117,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "Tensão de Linha",
       "Lançadeira"
     ],
+    "imageUrl": "/images/c002_caixa_bobina_v1.jpg?v=1",
+    "imageCaption": "Anatomia da Caixa da Bobina: o mecanismo da lâmina tensora e parafuso micrométrico que regulam a saída da linha inferior, garantindo o equilíbrio perfeito de 1/3 da linha no avesso do bordado.",
     "tags": [
       "c-002",
       "caixa da bobina",
@@ -181,6 +183,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "Estrutura Mecânica",
       "Manutenção Preventiva"
     ],
+    "imageUrl": "/images/c003_carcaca_maquina_v1.jpg?v=1",
+    "imageCaption": "Anatomia da Carcaça da Máquina de Bordar: a integração do chassi interno fundido de alta rigidez com a carenagem protetora e pés amortecedores, garantindo absorção de vibrações e estabilidade milimétrica do pantógrafo.",
     "tags": [
       "c-003",
       "carcaca",
