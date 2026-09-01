@@ -100,6 +100,8 @@ export const VERBETES_LETTER_G_PART1: Verbete[] = [
     voceSabia: "As entretelas não-tecidas (TNT) de alta tecnologia são fabricadas por um processo chamado Spunbond ou Wetlaid, onde milhões de filamentos microscópicos de celulose e poliéster são prensados a quente em direções multidirecionais para garantir que a entretela não estique para lado nenhum!",
     practicalExercise: "Pegue três pedaços de entretelas de gramaturas diferentes (40g, 60g e 80g): segure contra a janela contra a luz do sol e repare na densidade das fibras e sinta a diferença de rigidez e flexibilidade ao toque!",
     quickSummary: "Peso em g/m² que define a densidade e resistência da entretela, equilibrando sustentação mecânica e maciez do tecido.",
+    imageUrl: "/images/g002_gramatura_entretela_v1.jpg?v=1",
+    imageCaption: "Fundamentos da Gramatura de Entretela (g/m²): a medida de densidade de fibras por metro quadrado que determina o suporte ideal para cada tecido e densidade de pontos, equilibrando sustentação dimensional e maciez ao toque.",
     relatedTerms: ["Entretela Rasgável", "Entretela Recortável", "Entretela Hidrossolúvel", "Compensação de Repuxo"],
     tags: ["g-002", "gramatura", "entretela", "gsm", "estabilizador", "peso", "sustentacao", "artrelados"],
     bibliographicReferences: [
@@ -152,6 +154,8 @@ export const VERBETES_LETTER_G_PART1: Verbete[] = [
     voceSabia: "Nas máquinas de bordar industriais de alta velocidade (1.200 PPM), os guia-fios são feitos de cerâmica de safira sintética de altíssima dureza, pois o atrito contínuo do poliéster em alta velocidade é capaz de cortar o aço comum em menos de seis meses!",
     practicalExercise: "Retire a linha da sua máquina e repasse do início acompanhando com calma cada etapa numerada: confira com os olhos se a linha entrou bem fundo no guia-fio metálico acima da agulha e sinta a suavidade da tração manual!",
     quickSummary: "Conjunto de ganchos e canaletas metálicas que conduzem o fio do carretel à agulha sem atrito nem desvios.",
+    imageUrl: "/images/g003_guia_fio_passa_fio_v1.jpg?v=1",
+    imageCaption: "Anatomia dos Guia-Fios e Trajetória de Linha: o sistema de olhais e canaletas polidas que conduz a linha do mastro até o olho da agulha sem atrito, garantindo tensão constante e eliminando quebras mecânicas.",
     relatedTerms: ["Passagem de Linha", "Estica-Fio / Alavanca Puxa-Fio", "Tensão Superior da Linha", "Fricção do Fio no Olho da Agulha"],
     tags: ["g-003", "guia-fio", "passa-fio", "olhal", "conducao", "componentes", "passagem de linha", "artrelados"],
     bibliographicReferences: [
