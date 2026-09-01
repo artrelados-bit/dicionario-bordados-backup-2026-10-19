@@ -93,6 +93,8 @@ export const VERBETES_LETTER_F_PART1: Verbete[] = [
     voceSabia: "Durante décadas, antes da popularização do poliéster trilobal, mais de 90% de todos os bordados industriais do mundo eram feitos exclusivamente com fio de rayon viscose!",
     practicalExercise: "Borde o mesmo arabesco em dois tecidos idênticos: um com linha de poliéster e outro com linha de viscose. Compare o reflexo de luz sob o sol e sinta com a ponta dos dedos a maciez de cada um!",
     quickSummary: "Fio semissintético de celulose vegetal com brilho acetinado natural e toque nobre, exigindo cuidados na lavagem sem cloro.",
+    imageUrl: "/images/f002_fio_viscose_rayon_v1.jpg?v=1",
+    imageCaption: "Anatomia do Fio de Viscose/Rayon (40wt): a nobreza da fibra celulósica regenerada que proporciona brilho acetinado contínuo e caimento macio inigualável para peças finas e alta-costura, exigindo tensão de máquina suave e lavagem sem cloro.",
     relatedTerms: ["Fio de Poliéster para Bordado", "Fio de Seda para Bordado de Alta-Costura", "Tensão Superior da Linha"],
     tags: ["f-002", "viscose", "rayon", "linha de seda artificial", "brilho", "alta costura", "artrelados"],
     bibliographicReferences: [
@@ -144,6 +146,8 @@ export const VERBETES_LETTER_F_PART1: Verbete[] = [
     voceSabia: "Na Antiguidade e Idade Média, os fios metálicos eram feitos martelando ouro e prata puros em lâminas finíssimas enroladas sobre fios de seda; hoje a tecnologia aeroespacial de metalização a vácuo permite criar o mesmo brilho com alta durabilidade!",
     practicalExercise: "Borde um pequeno monograma com linha metálica dourada: primeiro a 800 PPM com agulha comum, e depois a 550 PPM com agulha Metallic 80/12 lubrificada. Sinta a diferença brutal na fluidez do processo!",
     quickSummary: "Fio com película metalizada para efeitos reluzentes de ouro e prata, exigindo agulha Metallic e velocidade moderada.",
+    imageUrl: "/images/f003_fio_metalico_v1.jpg?v=1",
+    imageCaption: "Anatomia do Fio Metálico (Lurex): a estrutura composta de alma têxtil revestida por fita espiral metalizada a vácuo, exigindo agulha Metallic de olho alongado, redinha protetora e velocidade moderada para garantir bordados contínuos com brilho radiante de joia.",
     relatedTerms: ["Agulha Metallic / Agulha para Fio Metálico", "Velocidade em PPM", "Tensão Superior da Linha", "Fio de Poliéster para Bordado"],
     tags: ["f-003", "fio metalico", "lurex", "linha dourada", "linha prateada", "metallic thread", "artrelados"],
     bibliographicReferences: [
