@@ -50,6 +50,8 @@ export const VERBETES_LETTER_Y1: Verbete[] = [
     practicalExercise: "No painel da sua máquina de bordar, utilize as teclas direcionais para movimentar o bastidor para cima e para baixo. Observe como o braço do pantógrafo desliza suavemente sobre as guias e note como a tela atualiza os valores de coordenadas milimétricas do eixo Y.",
     quickSummary: "Movimento longitudinal anteroposterior do pantógrafo da máquina de bordar que posiciona o bastidor com precisão no eixo vertical.",
     relatedTerms: ["X-Axis", "Z-Axis", "Pantógrafo", "Coordenadas Cartesianas", "Trace", "Ponto Zero", "Servomotor"],
+    imageUrl: "/images/y001_eixo_y_pantografo_v1.jpg?v=1",
+    imageCaption: "Anatomia do Eixo Y (Y-Axis Movement): o sistema de movimentação vertical (frente e trás) do pantógrafo e a importância da área livre na bancada para o curso total do bastidor sem colisões.",
     tags: ["yaxis", "eixoy", "movimento", "pantografo", "mecanica", "operacao", "precisao"]
   },
   {

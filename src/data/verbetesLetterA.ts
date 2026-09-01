@@ -155,6 +155,8 @@ export const VERBETES_LETTER_A: Verbete[] = [
       "Tipos de Tecidos",
       "Entretela Malha"
     ],
+    "imageUrl": "/images/a002_agulha_ponta_bola_v1.jpg?v=1",
+    "imageCaption": "Anatomia da Agulha Ponta Bola (SES/SUK): a microesfera na ponta que afasta as fibras da malha e tecidos elásticos sem cortar as tramas, garantindo bordados impecáveis e livres de furos pós-lavagem.",
     "tags": [
       "a-002",
       "ponta-bola",
@@ -225,6 +227,8 @@ export const VERBETES_LETTER_A: Verbete[] = [
       "Agulha Ponta Bola",
       "Densidade de Ponto"
     ],
+    "imageUrl": "/images/a003_agulha_ponta_lanca_v1.jpg?v=1",
+    "imageCaption": "Anatomia da Agulha Ponta Lança / Cortante (DI/LL): os microbiséis afiados que executam incisões limpas em couro, vinil e sintéticos, e o espaçamento correto da matriz para evitar o picote do material.",
     "tags": [
       "a-003",
       "ponta-lanca",

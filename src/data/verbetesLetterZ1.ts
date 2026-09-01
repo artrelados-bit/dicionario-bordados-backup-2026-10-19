@@ -50,6 +50,8 @@ export const VERBETES_LETTER_Z1: Verbete[] = [
     practicalExercise: "Com a máquina desligada, localize o volante manual na lateral do cabeçote. Gire o volante suavemente com a mão e observe a janela com a graduação de graus (0° a 360°). Note como a barra de agulha desce no tecido e como o estica-fio atinge o topo exatamente quando a escala marca a posição de descanso.",
     quickSummary: "Eixo rotativo mestre da máquina que comanda o ciclo da agulha, estica-fio e lançadeira com sincronismo angular de 0° a 360°.",
     relatedTerms: ["X-Axis", "Y-Axis", "Hook Timing", "Encoder Principal", "Barra da Agulha", "Estica-Fio", "Volante Manual"],
+    imageUrl: "/images/z001_eixo_z_arvore_v1.jpg?v=1",
+    imageCaption: "Anatomia do Eixo Z (Z-Axis): o eixo principal da árvore que coordena o sincronismo mecânico de 0° a 360° entre a barra de agulha, o estica-fio e a lançadeira rotativa.",
     tags: ["zaxis", "eixoz", "mecanica", "sincronismo", "hardware", "manutencao", "lancadeira"]
   },
   {
