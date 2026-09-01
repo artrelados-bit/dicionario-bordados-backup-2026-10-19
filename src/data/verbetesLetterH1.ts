@@ -100,6 +100,8 @@ export const VERBETES_LETTER_H_PART1: Verbete[] = [
     voceSabia: "As hastes de barra de agulha modernas passam por um processo de retificação com diamante e banho de cromo duro que confere resistência para suportar mais de 100 milhões de ciclos de perfuração ao longo de sua vida útil!",
     practicalExercise: "Com a máquina desligada, gire o volante manual e observe a haste da barra de agulha deslizando suavemente por dentro da bucha: veja como o movimento é perfeitamente suave e sem folgas laterais!",
     quickSummary: "Eixo retificado de aço que guia o movimento vertical da agulha com tolerância milimétrica dentro de buchas de bronze.",
+    imageUrl: "/images/h002_haste_barra_agulha_bucha_v1.jpg?v=1",
+    imageCaption: "Anatomia da Haste da Barra de Agulhas e Bucha: o conjunto de guia linear de aço retificado e buchas de bronze que assegura o movimento vertical micrométrico da agulha, exigindo lubrificação periódica e alinhamento perfeito com a lançadeira.",
     relatedTerms: ["Gancho da Lançadeira / Bico da Lançadeira", "Agulha de Bordado", "Gaxeta de Feltro Lubrificadora", "Hook Timing"],
     tags: ["h-002", "haste de agulha", "barra de agulhas", "bucha", "mecanica", "manutencao", "precisao", "artrelados"],
     bibliographicReferences: [
@@ -153,6 +155,8 @@ export const VERBETES_LETTER_H_PART1: Verbete[] = [
     voceSabia: "O mecanismo de calcador flutuante de salto alternado (Stepping Presser Foot) foi inventado para permitir que o bastidor de bordado se mova livremente em qualquer direção enquanto a agulha está fora do tecido!",
     practicalExercise: "Coloque um pedaço de moletom grosso sob o calcador: gire o volante até a agulha descer e confira se o calcador está prensando forte ou com a folga recomendada de 1mm!",
     quickSummary: "Haste ajustável que segura o calcador e calibra sua altura para impedir que o tecido pule com a agulha.",
+    imageUrl: "/images/h003_haste_calcador_altura_v1.jpg?v=1",
+    imageCaption: "Anatomia da Haste do Calcador e Ajuste de Altura: a barra de calibração que sustenta o calcador flutuante e regula a folga ideal de 1,0 mm sobre o tecido no Ponto Morto Inferior, prevenindo o flagging e garantindo laçadas perfeitas sem travar o bastidor.",
     relatedTerms: ["Haste da Barra de Agulhas & Bucha Superior", "Hook Timing", "Marca de Bastidor (Hoop Burn)", "Agulha de Bordado"],
     tags: ["h-003", "haste do calcador", "presser foot", "ajuste de altura", "flagging", "mecanica", "regulagem", "artrelados"],
     bibliographicReferences: [
