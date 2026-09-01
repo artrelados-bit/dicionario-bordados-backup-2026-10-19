@@ -97,6 +97,8 @@ export const VERBETES_LETTER_J_PART1: Verbete[] = [
     voceSabia: "Em robôs industriais e centros de usinagem CNC de ponta, o termo 'Jog' vem dos antigos operadores de telégrafo e trens a vapor do século XIX, que 'sacudiam' (jogged) as alavancas para testar a pressão dos pistões antes da partida!",
     practicalExercise: "Coloque um retalho no bastidor com uma cruz de caneta no centro: use as setas de Jog da sua máquina para levar a agulha exatamente até o centro da cruz e dê o comando de Trace!",
     quickSummary: "Comando de setas no painel que movimenta o bastidor para alinhar a agulha exatamente onde você quer bordar.",
+    imageUrl: "/images/j002_jog_pantografo_movimentacao_v2.jpg?v=2",
+    imageCaption: "Cinemática do Jog de Pantógrafo na Máquina de 1 Agulha: o controle eletrônico que desloca o bastidor plano nos eixos X e Y através do módulo de bordar para centralizar a agulha única na marcação do tecido antes da costura.",
     relatedTerms: ["Pantógrafo da Máquina", "Ponto de Origem / Ponto Zero", "Trace / Traçado Perimétrico", "Painel de Controle Touchscreen"],
     tags: ["j-002", "jog", "pantografo", "setas", "posicionamento", "alinhamento", "painel", "artrelados"],
     bibliographicReferences: [
@@ -149,6 +151,8 @@ export const VERBETES_LETTER_J_PART1: Verbete[] = [
     voceSabia: "O algoritmo de Branching utilizado nos softwares de bordado é baseado no clássico problema matemático da 'Teoria dos Grafos' e no 'Problema do Carteiro Chinês' formulado pelo matemático Mei-Ko Kwan em 1960 para encontrar o menor trajeto contínuo possível sem repetir caminhos!",
     practicalExercise: "No seu software de digitalização, crie três letras ou três círculos lado a lado: selecione-os e aplique a ferramenta 'Branching'. Observe como os cortes de linha desaparecem e o desenho vira um fluxo único!",
     quickSummary: "Ferramenta de software que unifica objetos da mesma cor em um percurso contínuo, eliminando cortes de linha e acelerando a produção.",
+    imageUrl: "/images/j003_juncao_branching_v2.jpg?v=2",
+    imageCaption: "Engenharia de Ramificação e Junção Vetorial (Branching): a ferramenta de software que funde múltiplos objetos da mesma cor através de percursos subterrâneos ocultos, permitindo que a máquina de 1 agulha borde letreiros cursivos e arabescos em fluxo contínuo sem cortes de linha.",
     relatedTerms: ["Vetorização Manual & Punching", "Underlay / Estrutura de Base", "Corta-Fio Automático / Trimmer", "Ponto de Conexão / Travel Run"],
     tags: ["j-003", "juncao", "branching", "solda", "otimizacao", "corte de linha", "wilcom", "artrelados"],
     bibliographicReferences: [
