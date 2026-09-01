@@ -152,6 +152,8 @@ export const VERBETES_LETTER_B: Verbete[] = [
       "Flutuação (Floating)",
       "Bastidoramento"
     ],
+    "imageUrl": "/images/b002_bastidor_magnetico_v1.jpg?v=1",
+    "imageCaption": "Anatomia do Bastidor Magnético: a fixação instantânea por atração de neodímio que distribui a pressão perpendicular uniformemente, eliminando marcas de aro (hoop burn) em toalhas felpudas e veludos.",
     "tags": [
       "b-002",
       "bastidor magnetico",
@@ -175,25 +177,26 @@ export const VERBETES_LETTER_B: Verbete[] = [
     "origin": "Do provençal bastidor e do francês bonnet (cobertura de cabeça). Criado nos anos 1980 com o desenvolvimento do acionador rotativo semicircular (Cap Driver) para máquinas de bordar industriais.",
     "category": "Técnicas de Bastidor",
     "summary": "Dispositivo semicircular e rotativo projetado especificamente para fixar e bordar painéis curvos de bonés e viseiras.",
-    "definition": "O bastidor de boné (Cap Frame) é um acessório mecânico especializado de curvatura cilíndrica (geralmente com arco útil de 270° ou 360°) que fixa a copa frontal e as abas laterais do boné de forma perfeitamente curvada e tensionada. Conecta-se a um mecanismo acionador rotativo (Cap Driver) acoplado ao pantógrafo da máquina, permitindo que a agulha execute pontos em alta velocidade sobre a superfície convexa tridimensional da peça.",
-    "technicalDetails": "Opera em movimento angular radial coordenado com o eixo X da máquina. Exige compensação de puxão específica na digitalização e entretela pesada estruturada (80g a 100g) para suportar a densidade de pontos sobre a costura frontal central sem afundamento.",
-    "beginnerExplanation": "Como o boné é curvo e tem a copa arredondada, não dá para colocá-lo esticado em um bastidor reto normal. O bastidor de boné é uma cinta de metal curva que 'veste' a frente do boné e o gira de um lado para o outro debaixo da agulha enquanto a máquina borda!",
+    "definition": "O bastidor de boné (Cap Frame) é um acessório mecânico especializado de curvatura cilíndrica (geralmente com arco útil de 270° ou 360°) que fixa a copa frontal e as abas laterais do boné de forma perfeitamente curvada e tensionada. Conecta-se a um mecanismo acionador rotativo (Cap Driver) acoplado ao pantógrafo da máquina, permitindo que a agulha execute pontos em alta velocidade sobre a superfície convexa tridimensional da peça em máquinas equipadas com braço livre tubular.",
+    "technicalDetails": "Opera em movimento angular radial coordenado com o eixo X da máquina industrial ou semi-industrial de braço livre. Para máquinas domésticas tradicionais de mesa plana (onde a base fechada impede o giro do boné), a bordadeira utiliza o acessório plano com prensa de aba (Cap Insert) ou a consagrada técnica de Flutuação com entretela rasgável e cola temporária.",
+    "beginnerExplanation": "Como o boné é curvo e tem a copa arredondada, não dá para colocá-lo esticado em um bastidor reto normal. Nas máquinas industriais com braço livre, o bastidor de boné é uma cinta de metal curva que 'veste' a frente do boné e o gira de um lado para o outro debaixo da agulha. Já nas máquinas domésticas de mesa plana, como a base é reta e o boné não consegue girar por baixo, a bordadeira utiliza a técnica da Flutuação, colando a copa do boné aberta sobre uma entretela grossa bem esticada no bastidor plano!",
     "construction": [
-      "Armação cilíndrica de aço inoxidável",
+      "Armação cilíndrica de aço inoxidável (ou garra plana para máquina doméstica)",
       "Cinta de fixação flexível com trava de pressão rápida",
       "Garras de encaixe para a aba e tira de suor do boné",
-      "Acionador rotativo pantográfico (Cap Driver)",
+      "Acionador rotativo pantográfico (Cap Driver para braço livre)",
       "Estação de montagem e gabarito de bancada (Cap Gauge / Station)"
     ],
     "howItWorks": [
-      "1. A tira de suor interna do boné é virada para fora e fixada sob a cinta de aço.",
-      "2. Uma tira de entretela de alta gramatura é colocada por dentro da copa frontal.",
-      "3. O boné é travado com firmeza na estação de bastidoramento cilíndrica.",
+      "1. A tira de suor interna do boné é virada para fora e fixada sob a cinta de aço (ou desvirada na flutuação).",
+      "2. Uma tira de entretela de alta gramatura (80g a 100g) é colocada por dentro da copa frontal.",
+      "3. O boné é travado com firmeza na estação de bastidoramento cilíndrica (ou colado e alfinetado no bastidor plano).",
       "4. O bastidor é montado no eixo do Cap Driver da máquina, que gira o boné sob a agulha durante o bordado."
     ],
     "mainTypes": [
-      "Bastidor Wide 270° (Permite bordar da lateral esquerda à lateral direita em uma única etapa)",
-      "Bastidor Semi-Wide (Para área frontal padrão de 6cm x 13cm)",
+      "Bastidor Cilíndrico Wide 270° (Exclusivo para máquinas de braço livre tubular / industriais)",
+      "Bastidor Plano com Prensa de Aba / Cap Insert (Acessório com garra para bastidor plano doméstico)",
+      "Técnica de Flutuação no Bastidor 13x18cm (Método artesanal mais versátil e econômico para domésticas)",
       "Bastidor de Viseiras e Chapéus Bucket"
     ],
     "advantages": [
@@ -203,24 +206,26 @@ export const VERBETES_LETTER_B: Verbete[] = [
       "✔ Suporta técnicas de bordado 3D em alto relevo com E.V.A."
     ],
     "limitations": [
-      "Exige máquina compatível com acionador de boné (sistema tubular/braço livre) e redução na velocidade máxima de operação."
+      "O sistema rotativo cilíndrico (270°) exige máquina com braço livre tubular (não cabe na mesa fechada da máquina doméstica). Na máquina doméstica plana, o bordado deve ser feito por flutuação com área limitada a cerca de 5cm x 10cm para a aba não bater no cabeçote."
     ],
     "commonErrors": [
+      "❌ Tentar forçar um bastidor rotativo cilíndrico em máquina doméstica de mesa plana.",
       "❌ Esquecer de inverter o desenho na matriz em 180° caso o sistema da máquina trabalhe de ponta-cabeça.",
       "❌ Não esticar a entretela adequadamente sobre a costura central, fazendo a agulha quebrar.",
       "❌ Bastidorar o boné torto na estação de montagem, resultando em logotipo inclinado."
     ],
     "troubleshootingTips": [
       "Se a agulha quebrar ou entortar ao bater na costura central dura do boné, utilize agulhas 80/12 ou 90/14 com ponta afiada revestida em titânio.",
-      "Digitalize a matriz começando pelo centro e expandindo para as laterais (Center-Out) para não enrugar a copa."
+      "Digitalize a matriz começando pelo centro e expandindo para as laterais (Center-Out) para não enrugar a copa.",
+      "Na máquina doméstica plana, reduza a velocidade para 400 a 500 PPM e monitore a aba para não encostar na carcaça da máquina."
     ],
     "applications": [
       "Bonés modelo trucker, snapback, dad hat, 6 gomos, bonés militares e viseiras esportivas."
     ],
-    "practicalExercise": "Monte um boné na estação de bastidoramento usando entretela de 80g. Antes de travar a cinta, certifique-se de que a costura central do boné esteja perfeitamente alinhada com o risco zero do gabarito central: essa conferência é o segredo de um bordado 100% reto!",
-    "quickSummary": "Bastidor semicircular que gira e fixa bonés e viseiras para permitir bordados precisos na superfície curva da peça.",
-    "voceSabia": "Na produção de bonés com bordado 3D (E.V.A.), a máquina de bordar opera em velocidades reduzidas (cerca de 550 a 650 PPM) para garantir que a agulha perfure a lona grossa e a espuma sem aquecer excessivamente!",
-    "dicaArtrelados": "Para matrizes de boné, programe sempre a sequência de bordado saindo do centro para as pontas (Center-Out) e de baixo para cima! Isso 'empurra' o tecido do boné para fora e elimina qualquer bolha ou dobra na costura central!",
+    "practicalExercise": "Monte um boné na estação de bastidoramento usando entretela de 80g (ou faça a flutuação no bastidor 13x18cm na sua doméstica). Antes de iniciar, certifique-se de que a costura central do boné esteja perfeitamente alinhada com o centro do bastidor: essa conferência é o segredo de um bordado 100% reto!",
+    "quickSummary": "Dispositivo para fixar e bordar bonés curvos, operando por sistema rotativo cilíndrico em máquinas de braço livre ou por bastidor plano/flutuação em máquinas domésticas.",
+    "voceSabia": "Na produção de bonés com bordado 3D (E.V.A.), a máquina de bordar opera em velocidades reduzidas (cerca de 450 a 600 PPM) para garantir que a agulha perfure a lona grossa e a espuma sem aquecer excessivamente!",
+    "dicaArtrelados": "Atenção bordadeira: o bastidor cilíndrico rotativo (270°) exige máquina com braço livre tubular (onde o boné gira por baixo). Se você tem máquina de bordar doméstica de mesa plana (como Brother PE/BP ou Janome MC), utilize o método da Flutuação: estique entretela rasgável grossa (80g) no bastidor 13x18cm com cola spray temporária, desvire a tira de suor, achate a copa do boné colando-o sobre a entretela e fixe as laterais com fita crepe ou alfinetes nas bordas longe da agulha. Programe a arte saindo do centro para as pontas (Center-Out), limite a altura a no máximo 5 cm e borde em velocidade reduzida (400 a 500 PPM)!",
     "recommendedSettings": {
       "speedPPM": "550 a 700 PPM",
       "needleType": "DBxK5 tamanho 80/12 Titânio Ponta Fina Aguda (Sharp)",
@@ -233,6 +238,8 @@ export const VERBETES_LETTER_B: Verbete[] = [
       "Bordado em 3D (Alto Relevo)",
       "Braço Livre"
     ],
+    "imageUrl": "/images/b003_bastidor_bone_v1.jpg?v=1",
+    "imageCaption": "Anatomia do Bastidor de Boné (Cap Hoop): a armação cilíndrica acoplada ao acionador rotativo de 270° e a sequência de bordado saindo do centro para as laterais (Center-Out), garantindo curvas perfeitas e sem pregas na costura central.",
     "tags": [
       "b-003",
       "bone",
