@@ -143,11 +143,13 @@ export const VERBETES_LETTER_D: Verbete[] = [
     ],
     "relatedTerms": [
       "Densidade de Pontos",
-      "Densidade VariÃ¡vel",
+      "Densidade Variável",
       "Matriz de Bordado",
       "Underlay",
-      "DigitalizaÃ§Ã£o"
+      "Digitalização"
     ],
+    "imageUrl": "/images/d002_densidade_bordado_v1.jpg?v=1",
+    "imageCaption": "Análise da Densidade de Bordado: a distribuição global de pontos sobre a área total do projeto, comparando o endurecimento de uma matriz excessivamente densa com o caimento suave e econômico de uma matriz equilibrada.",
     "tags": [
       "d-002",
       "densidade de bordado",
@@ -223,6 +225,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "Efeitos Visuais",
       "Underlay"
     ],
+    "imageUrl": "/images/d003_densidade_variavel_v1.jpg?v=1",
+    "imageCaption": "Mecânica da Densidade Variável: a transição gradual do espaçamento entre pontos para criar efeitos de luz, sombra e fusão de cores (degradê), conferindo realismo e leveza à matriz.",
     "tags": [
       "d-003",
       "densidade variavel",
