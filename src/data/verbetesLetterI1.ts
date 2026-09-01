@@ -104,6 +104,8 @@ export const VERBETES_LETTER_I_PART1: Verbete[] = [
     voceSabia: "O grupo AMANN, fabricante da Isacord, começou sua história em 1854 produzindo linhas de seda pura para a nobreza europeia. Com a evolução da química moderna, transformou essa tradição secular de brilho nobre na mais avançada tecnologia de filamentos de poliéster do mundo!",
     practicalExercise: "Coloque um cone de Isacord em uma agulha da sua máquina e uma linha comum em outra: borde o mesmo desenho em alta velocidade e compare o brilho, a maciez do ponto e a ausência de fiapos na lançadeira!",
     quickSummary: "Linha alemã de poliéster trilobal 40wt de alta tenacidade e brilho prismático, imune a cloro e lavagens industriais.",
+    imageUrl: "/images/i002_isacord_poliester_trilobal_v1.jpg?v=1",
+    imageCaption: "Anatomia e Óptica do Fio de Poliéster Trilobal (Isacord): a seção transversal com três lóbulos prismáticos que reflete a luz com brilho sedoso e intensidade de cor, combinada com alta tenacidade à tração, resistência ao cloro e suporte a velocidades de 800+ PPM sem quebras.",
     relatedTerms: ["High-Luster Trilobal Polyester", "Tensão da Linha Superior", "Gasto de Linha & Consumo", "Gramatura & Titulagem de Fio"],
     tags: ["i-002", "isacord", "amann", "poliester trilobal", "linhas de bordar", "resistencia", "cloro", "artrelados"],
     bibliographicReferences: [
@@ -157,6 +159,8 @@ export const VERBETES_LETTER_I_PART1: Verbete[] = [
     voceSabia: "Antes da invenção das máquinas de prensar metal no século XIX, todos os ilhoses de espartilhos reais, velas de navios e armaduras medievais eram costurados à mão com fios encerados de linho e seda, levando horas para cada orifício!",
     practicalExercise: "No seu software, crie um círculo com contorno de ponto cheio de 2mm de largura e diâmetro de 5mm: borde em um retalho de jeans, fure o centro com um furador e sinta a firmeza e perfeição do acabamento!",
     quickSummary: "Orifício circular reforçado por costura densa de ponto cheio radial para ventilação e passagem de cordões.",
+    imageUrl: "/images/i003_ilhos_bordado_perfuracao_v1.jpg?v=1",
+    imageCaption: "Anatomia e Engenharia do Ilhós Bordado: a técnica de costura radial em 360° sobre anel de sustentação circular, combinada com perfuração cônica central, que cria orifícios ornamentais e funcionais sem desfiar as tramas do tecido.",
     relatedTerms: ["Hole Punching & Digitalização de Ilhoses", "Ponto Cheio / Ponto Satin", "Compensação de Repuxo", "Broderie Anglaise"],
     tags: ["i-003", "ilhos bordado", "eyelet", "bones", "passador de cordao", "richelieu", "software", "artrelados"],
     bibliographicReferences: [
