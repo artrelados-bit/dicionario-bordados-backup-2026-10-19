@@ -94,6 +94,8 @@ export const VERBETES_LETTER_E_PART1: Verbete[] = [
     voceSabia: "O polímero de álcool polivinílico (PVA) usado na entretela hidrossolúvel é o mesmo material biocompatível utilizado em cápsulas de remédios que se dissolvem no estômago e na película das pastilhas de lava-louças!",
     practicalExercise: "Corte um pedacinho de filme hidrossolúvel e coloque dentro de um copo com água morna: mexa com o dedo por 3 segundos e sinta o plástico desaparecer 100% sem deixar nenhum rastro!",
     quickSummary: "Estabilizador solúvel em água em filme ou tecido, usado sobre toalhas felpudas (topping) e para rendas FSL.",
+    imageUrl: "/images/e002_entretela_hidrossoluvel_v1.jpg?v=1",
+    imageCaption: "Mecânica da Entretela Hidrossolúvel: o filme de topo (topping) que impede o afundamento dos pontos em tecidos atoalhados e a base solúvel para rendas puras (FSL), dissolvendo-se integralmente em água sem deixar resíduos.",
     relatedTerms: ["Filme Plástico Hidrossolúvel (Topping)", "Bordado em Renda / Free Standing Lace (FSL)", "Entretela Rasgável", "Entretela Termossolúvel"],
     tags: ["e-002", "hidrossoluvel", "solvy", "topping", "toalhas", "rendas fsl", "plastico magico", "artrelados"],
     bibliographicReferences: [
@@ -145,6 +147,8 @@ export const VERBETES_LETTER_E_PART1: Verbete[] = [
     voceSabia: "Nas grandes confecções de uniformes dos Estados Unidos e da Europa, o uso de entretela Cut-Away (recortável) em camisas polo é uma norma técnica obrigatória de controle de qualidade para evitar devoluções de clientes!",
     practicalExercise: "Borde o mesmo logotipo em dois retalhos de malha de camiseta: um usando entretela rasgável e outro usando entretela recortável de malha. Lave e torça os dois retalhos na pia: veja como o da entretela rasgável fica todo enrugado, enquanto o da recortável continua lisinho e perfeito!",
     quickSummary: "Estabilizador permanente e macio que é recortado com tesoura, indispensável para manter malhas e polos lisas para sempre.",
+    imageUrl: "/images/e003_entretela_recortavel_v1.jpg?v=1",
+    imageCaption: "Anatomia da Entretela Recortável de Malha (Cut-Away): a sustentação permanente indispensável para tecidos elásticos e bodies de bebê, garantindo que o bordado permaneça liso mesmo após sucessivas lavagens, com técnica de recorte seguro em margens arredondadas.",
     relatedTerms: ["Entretela Rasgável", "Protetor de Bordado / Termoprotetor de Avesso (Toque de Pluma)", "Compensação de Repuxo", "Tesoura de Pato / Tesoura Duckbill"],
     tags: ["e-003", "recortavel", "cut-away", "mesh", "malha", "body de bebe", "camisetas", "piquet", "artrelados"],
     bibliographicReferences: [
