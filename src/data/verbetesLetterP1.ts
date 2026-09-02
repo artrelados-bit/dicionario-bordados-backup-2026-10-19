@@ -95,6 +95,8 @@ export const VERBETES_LETTER_P_PART1: Verbete[] = [
     voceSabia: "O ponto tatami foi o primeiro algoritmo de preenchimento vetorial computadorizado desenvolvido nos anos 1970 para os computadores industriais de bordado da Marco e Tajima.",
     practicalExercise: "Borde dois quadrados de 40 mm x 40 mm com Tatami de mesma densidade (0.42 mm): no primeiro, use ângulo de 0°; no segundo, use ângulo de 45°. Observe no tecido como o de 45° deforma muito menos a peça!",
     quickSummary: "Ponto de preenchimento estrutural uniforme com penetrações intercaladas, perfeito para cobrir grandes áreas com durabilidade e estabilidade.",
+    imageUrl: "/images/p002_ponto_tatami_v1.jpg?v=1",
+    imageCaption: "Engenharia do Ponto Tatami em 1 Agulha: preenchimento estrutural com fileiras de pontos retos alternados em padrão tijolinho, camada de suporte e variação angular para cobertura uniforme e reflexão de luz.",
     relatedTerms: ["Ponto Satim", "Densidade de Ponto", "Ângulo de Ponto (Stitch Angle)", "Underlay (Ponto Suporte)"],
     tags: ["p-002", "ponto tatami", "ponto de preenchimento", "tatami stitch", "fill stitch", "artrelados"],
     bibliographicReferences: [
@@ -144,6 +146,8 @@ export const VERBETES_LETTER_P_PART1: Verbete[] = [
     voceSabia: "O ponto corrido é a base do estilo de bordado tradicional inglês 'Redwork' do século XIX, que se tornou famoso por usar linha vermelha de algodão da Turquia sobre linho branco.",
     practicalExercise: "Desenhe uma espiral no software com 50 mm de diâmetro. Gere o bordado com ponto corrido de 2.5 mm. Borde em um retalho e observe como o pantógrafo desenha suavemente a curva sem produzir ruídos mecânicos bruscos.",
     quickSummary: "Sequência linear de pontos retos simples para traçados finos, marcações de aplique e deslocamentos subterrâneos da máquina.",
+    imageUrl: "/images/p003_ponto_corrido_v2.jpg?v=2",
+    imageCaption: "Engenharia do Ponto Corrido e Ponto Triplo em 1 Agulha: sucessão linear de pontos simples com comprimento programado, pontos de penetração sequenciais e reforço triplo (Bean Stitch) para contornos destacados.",
     relatedTerms: ["Ponto Triplo (Bean Stitch)", "Ponto de Viagem (Travel Stitch)", "Ponto de Alinhavação (Basting)", "Underlay (Ponto Suporte)"],
     tags: ["p-003", "ponto corrido", "ponto reto", "running stitch", "walk stitch", "artrelados"],
     bibliographicReferences: [
