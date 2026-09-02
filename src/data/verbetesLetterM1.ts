@@ -95,6 +95,8 @@ export const VERBETES_LETTER_M_PART1: Verbete[] = [
     voceSabia: "O tecido de malha foi introduzido na alta moda feminina no início da década de 1920 pela estilista francesa Coco Chanel, que utilizou o tecido Jersey (antes restrito a roupas de baixo masculinas) para criar vestidos confortáveis e revolucionários!",
     practicalExercise: "Pegue uma camiseta velha de malha: corte um retalho, aplique entretela de corte no avesso, prenda no bastidor sem esticar, use agulha ponta bola e borde um monograma. Compare com outro retalho montado com entretela rasgável e agulha afiada para ver a diferença colossal de estabilidade!",
     quickSummary: "Tecido elástico de laçadas entrelaçadas que exige agulha ponta bola, entretela de corte e estabilização sem estiramento no bastidor.",
+    imageUrl: "/images/m002_malha_elasticos_v2.jpg?v=2",
+    imageCaption: "Engenharia de Bordado em Malhas e Tecidos Elásticos em Bastidor Eletrônico de 1 Agulha: bastidor retangular de encaixe no pantógrafo com estabilização sem tensão, entretela Cut-Away no verso, filme hidrossolúvel superior e agulha Ponta Bola.",
     relatedTerms: ["Agulha Ponta Bola", "Entretela de Corte (Cut-Away)", "Flutuação (Float)", "Enrugamento (Puckering)", "Suedine"],
     tags: ["m-002", "malha", "jersey", "tecidos elasticos", "camiseta", "body de bebe", "cut-away", "ponta bola", "artrelados"],
     bibliographicReferences: [
@@ -145,6 +147,8 @@ export const VERBETES_LETTER_M_PART1: Verbete[] = [
     voceSabia: "O raio da ponta de uma agulha Microtex é de apenas 0,02 mm (quase cinco vezes mais afiado que o raio de uma agulha de ponta bola padrão de 0,10 mm)!",
     practicalExercise: "Coloque uma agulha Microtex 70/10 na máquina e borde uma palavra pequena em letra cursiva sobre um retalho de cetim: observe a limpeza das curvas e a ausência total de repuxados no brilho do tecido!",
     quickSummary: "Agulha de ponta extremamente afiada e cônica, ideal para penetração cirúrgica em tecidos finos, densos, cetins e microfibras.",
+    imageUrl: "/images/m003_microtex_agulhas_v2.jpg?v=2",
+    imageCaption: "Geometria de Alta Precisão da Agulha Microtex em 1 Agulha: ponta cônica ultra-afiada de 0,02 mm com penetração retilínea sem deflexão em cetim e sedas densas, assegurando pontos cheios e micro-letras perfeitas.",
     relatedTerms: ["Agulha Ponta Bola", "Calibre de Agulha", "Micro-Letras", "Cetim", "Deflexão de Agulha"],
     tags: ["m-003", "microtex", "agulha afiada", "ponta aguda", "cetim", "seda", "micro-letras", "schmetz", "organ", "artrelados"],
     bibliographicReferences: [
