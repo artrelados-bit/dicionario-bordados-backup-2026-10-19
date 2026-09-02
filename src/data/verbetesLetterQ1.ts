@@ -94,6 +94,8 @@ export const VERBETES_LETTER_Q1: Verbete[] = [
     voceSabia: "Uma matriz mal otimizada pode gastar até 40% mais tempo de máquina e 30% a mais de linha comparada a uma matriz digitalizada com técnicas avançadas de branching e sequenciamento.",
     practicalExercise: "Abra um software de bordado, importe um arquivo e utilize o simulador de costura (Stitch Player). Observe a ordem dos objetos e identifique onde há saltos que poderiam ser evitados.",
     quickSummary: "Qualidade da matriz é a programação inteligente do arquivo digital que garante fluidez de costura, estabilidade do tecido e fidelidade visual.",
+    imageUrl: "/images/q002_qualidade_matriz_v1.jpg?v=1",
+    imageCaption: "Engenharia de Qualidade da Matriz em 1 Agulha: sequenciamento lógico de dentro para fora, compensação de repuxo precisa para junção sem frestas, camadas de suporte estruturado e trajetos internos otimizados.",
     relatedTerms: ["Qualidade do Bordado", "Compensação de Encolhimento", "Sequenciamento", "Pontos de Suporte"],
     tags: ["matriz", "digitalização", "programação", "software"]
   },
@@ -141,6 +143,8 @@ export const VERBETES_LETTER_Q1: Verbete[] = [
     voceSabia: "Em uma máquina operando a 800 PPM, a laçada do ponto é formada, entrelaçada e puxada em menos de 0,075 segundos por ciclo.",
     practicalExercise: "Borde uma tira de 10 cm de ponto satim com 4 mm de largura. Observe a uniformidade das bordas e meça com paquímetro se a largura se manteve constante do início ao fim.",
     quickSummary: "Qualidade do ponto é a firmeza e precisão da laçada formada entre a agulha e a lançadeira, gerando beleza visual e toque suave.",
+    imageUrl: "/images/q003_qualidade_ponto_v1.jpg?v=1",
+    imageCaption: "Engenharia da Qualidade do Ponto em 1 Agulha: formação perfeita da laçada têxtil, tensão balanceada com entrelaçamento centralizado, assentamento uniforme sem fios soltos e penetração precisa da agulha.",
     relatedTerms: ["Ponto Satim", "Ponto Tatami", "Formação da Laçada", "Tensão de Linha"],
     tags: ["ponto", "laçada", "mecânica", "qualidade"]
   },
