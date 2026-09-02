@@ -98,6 +98,8 @@ export const VERBETES_LETTER_O_PART1: Verbete[] = [
     voceSabia: "Nos vestidos de alta costura da corte de Versalhes no século XVIII, a organza era tecida à mão com fios de seda tão finos que um rolo de 10 metros cabia fechado dentro de uma pequena caixa de sapatos!",
     practicalExercise: "Coloque uma folha de organza com entretela hidrossolúvel no bastidor. Carregue uma florzinha simples e borde com linha rosa no topo e linha rosa na bobina com agulha 70/10. Lave com água morna e admire o resultado translúcido.",
     quickSummary: "Tecido transparente nobre; exige entretela hidrossolúvel, agulha fina 65/9-70/10 e linha combinada ou invisível na bobina.",
+    imageUrl: "/images/o002_organza_tecidos_v1.jpg?v=1",
+    imageCaption: "Alta-Costura e Engenharia em Organza e Tecidos Transparentes em 1 Agulha: bastidor retangular eletrônico com entretela hidrossolúvel, agulha fina Microtex 65/9 e linha de bobina combinada para bordados de noiva translúcidos sem avesso visível.",
     relatedTerms: ["Nylon Monofilamento como Fio de Bobina", "Filme Hidrossolúvel", "Agulha Microtex / RG", "Aplique 3D"],
     tags: ["o-002", "organza", "tecidos transparentes", "alta costura", "flores 3d", "veus", "artrelados"],
     bibliographicReferences: [
@@ -155,6 +157,8 @@ export const VERBETES_LETTER_O_PART1: Verbete[] = [
     voceSabia: "O óleo mineral branco utilizado em máquinas de costura japonesas é tão puro e atóxico que passa pelos mesmos testes rigorosos da indústria farmacêutica exigidos para cosméticos e produtos medicinais!",
     practicalExercise: "Retire a chapa de agulha e a caixa de bobina da máquina. Limpe os fiapos com o pincel. Aplique 1 única gota de óleo mineral branco na pista da lançadeira e gire o volante três voltas na mão. Sinta como o movimento fica incrivelmente suave e silencioso.",
     quickSummary: "Óleo 100% transparente, sem ácidos e inodoro; essencial para lubrificar a lançadeira diariamente sem manchar tecidos.",
+    imageUrl: "/images/o003_oleo_lubrificante_v2.jpg?v=2",
+    imageCaption: "Engenharia de Lubrificação Preventiva em 1 Agulha: aplicação precisa de 1 micro-gota de óleo mineral branco na pista da lançadeira rotativa com dosador de agulha, garantindo rotação suave, dissipação térmica e proteção anticorrosiva.",
     relatedTerms: ["Lançadeira Rotativa", "Caixa de Bobina", "Manutenção Preventiva", "Nó de Encerramento do Ciclo de Produção e Manutenção Preventiva"],
     tags: ["o-003", "oleo mineral branco", "lubrificacao", "manutencao", "lancadeira", "iso vg 10", "artrelados"],
     bibliographicReferences: [
