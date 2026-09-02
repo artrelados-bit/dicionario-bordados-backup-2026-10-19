@@ -94,6 +94,8 @@ export const VERBETES_LETTER_L_PART1: Verbete[] = [
     voceSabia: "As primeiras lançadeiras industriais japonesas eram polidas manualmente uma a uma por mestres cuteleiros e espadachins com pedras naturais de afiação de espadas Katana!",
     practicalExercise: "Abra a tampa inferior da sua máquina, retire a caixa de bobina e use ar comprimido ou pincel para remover todos os fiapos acumulados na pista da lançadeira rotativa. Pingue uma gotinha de óleo e gire o volante manualmente para sentir a maciez do movimento!",
     quickSummary: "Gancho giratório contínuo de 360° em aço temperado que captura a laçada superior e envolve a bobina com máxima estabilidade.",
+    imageUrl: "/images/l002_lancadeira_rotativa_v1.jpg?v=1",
+    imageCaption: "Mecânica de Alta Precisão da Lançadeira Rotativa em 1 Agulha: rotação contínua de 360° em aço temperado capturando a laçada superior no rebaixo da agulha e envolvendo a bobina com lubrificação periódica da pista.",
     relatedTerms: ["Laçada da Lançadeira", "Caixa de Bobina", "Trava da Lançadeira", "Óleo Mineral Branco", "Hirose"],
     tags: ["l-002", "lancadeira", "rotary hook", "gancho rotativo", "koban", "hirose", "mecanica", "artrelados"],
     bibliographicReferences: [
@@ -143,6 +145,8 @@ export const VERBETES_LETTER_L_PART1: Verbete[] = [
     voceSabia: "O sistema de lançadeira oscilante foi aclamado na Exposição Universal de Paris de 1889 como o ápice da confiabilidade mecânica residencial, equipando mais de 100 milhões de lares durante o século XX!",
     practicalExercise: "Em uma máquina doméstica de sistema CB, solte as duas travas plásticas, retire o anel e a meia-lua da lançadeira: limpe a pista com um pincel macio, sinta o peso do aço temperado e recoloque tudo no lugar travando com segurança!",
     quickSummary: "Mecanismo oscilante semicircular de vaivém clássico, altamente robusto e com limite de velocidade moderado.",
+    imageUrl: "/images/l003_lancadeira_oscilante_v1.jpg?v=1",
+    imageCaption: "Mecânica da Lançadeira Oscilante (Sistema CB) em 1 Agulha: movimento pendular de vaivém em arco de 180° para captura da laçada, com anel de retenção de destravamento rápido para limpeza e manutenção preventiva.",
     relatedTerms: ["Lançadeira Rotativa", "Sistema CB", "Caixa de Bobina", "Manutenção Preventiva"],
     tags: ["l-003", "lancadeira oscilante", "shuttle hook", "cb hook", "meia lua", "mecanica", "domestica", "artrelados"],
     bibliographicReferences: [
