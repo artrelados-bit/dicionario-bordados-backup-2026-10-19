@@ -91,6 +91,8 @@ export const VERBETES_LETTER_N_PART1: Verbete[] = [
     voceSabia: "A técnica ITH nasceu no início dos anos 2000 nos Estados Unidos e na Austrália, revolucionando pequenos ateliês que não dominavam corte e costura mas queriam produzir peças utilitárias com alto valor agregado e padronização geométrica perfeita.",
     practicalExercise: "Programe ou baixe uma matriz simples de porta-moedas ITH. Siga a ordem das cores rigorosamente: marque a entretela, fixe o zíper, borde um pequeno monograma no tecido principal, abra o cursor até o meio, coloque o forro traseiro e execute o fechamento. Desvire e confira o esquadro dos 4 cantos.",
     quickSummary: "Confecção de bolsas e estojos com zíper e forro embutidos executados 100% no bastidor através de etapas automatizadas.",
+    imageUrl: "/images/n002_necessaire_ith_v1.jpg?v=1",
+    imageCaption: "Engenharia da Técnica Nécessaire no Bastidor (ITH) em 1 Agulha: confecção 100% automatizada no bastidor retangular com fixação do zíper, matelassê decorativo, cursor aberto para desviramento e forro embutido com acabamento invisível.",
     relatedTerms: ["In The Hoop (ITH)", "Matriz de Bordado", "Ponto Reto de Costura", "Entretela Rasga-Fácil"],
     tags: ["n-002", "necessaire", "in the hoop", "ith", "ziper", "bastidor", "artrelados"],
     bibliographicReferences: [
@@ -138,6 +140,8 @@ export const VERBETES_LETTER_N_PART1: Verbete[] = [
     voceSabia: "O termo 'Nylon' foi popularizado como um acrônimo urbano para 'New York (NY) e London (LON)', embora a DuPont tenha registrado originalmente como uma variação fonética agradável derivada de 'norun' (que não desfia).",
     practicalExercise: "Faça um teste de bordado em um retalho de nylon tactel: borde um círculo de 4 cm com densidade padrão de 0,40 mm e agulha 80/12; ao lado, borde o mesmo círculo com densidade aliviada de 0,48 mm, agulha 70/10 SES e compensação de repuxo de 0,45 mm. Compare o enrugamento de ambos.",
     quickSummary: "Fibra sintética de alta tenacidade usada em tecidos técnicos; exige alívio de densidade e agulhas finas para evitar perfurações irreversíveis.",
+    imageUrl: "/images/n003_nylon_sinteticos_v2.jpg?v=2",
+    imageCaption: "Engenharia de Bordado em Tecidos Sintéticos de Nylon e Poliamida em 1 Agulha: bastidor retangular eletrônico com assentamento plano, entretela No-Show Mesh no verso, agulha fina 70/10 e densidade aliviada a 0,48 mm para prevenir o picote e corte do substrato.",
     relatedTerms: ["Compensação de Repuxo", "Entretela No-Show Mesh", "Agulha Microtex", "Densidade de Ponto"],
     tags: ["n-003", "nylon", "poliamida", "tactel", "cordura", "sinteticos", "artrelados"],
     bibliographicReferences: [
