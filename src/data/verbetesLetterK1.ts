@@ -93,6 +93,8 @@ export const VERBETES_LETTER_K_PART1: Verbete[] = [
     voceSabia: "Uma linha de Kevlar de mesma espessura que uma linha de pesca comum pode segurar um peso de mais de 30 kg sem arrebentar!",
     practicalExercise: "Configure uma matriz simples de texto em ponto reto com comprimento de ponto fixado em 4 mm, desative os comandos de corte e observe a formação regular da laçada em baixa velocidade!",
     quickSummary: "Fibra de para-aramida de ultra-alta resistência mecânica e térmica para bordados técnicos de segurança e EPIs.",
+    imageUrl: "/images/k002_kevlar_fios_aramida_v2.jpg?v=2",
+    imageCaption: "Engenharia de Fios de Aramida e Kevlar em 1 Agulha: parâmetros operacionais para bordados técnicos de alta temperatura e proteção balística, com agulha de titânio, tensão aliviada e desativação do corta-fio automático para preservação da máquina.",
     relatedTerms: ["Agulha de Titânio", "Velocidade PPM", "Linhas Especiais", "Tensão Superior"],
     tags: ["k-002", "kevlar", "aramida", "fios tecnicos", "anti-chama", "alta resistencia", "artrelados"],
     bibliographicReferences: [
@@ -143,6 +145,8 @@ export const VERBETES_LETTER_K_PART1: Verbete[] = [
     voceSabia: "Nos palácios do Império Otomano em Istambul, os Kaftans reais eram bordados com fios de prata e ouro puros por corporações de bordadores chamadas 'Nakkaşhane', levando até um ano para finalizar uma única peça!",
     practicalExercise: "Pratique a técnica de bastidor flutuante em um retalho de cetim ou crepe: prenda entretela solúvel no bastidor, aplique spray adesivo, posicione o tecido, faça o alinhavo de fixação e borde um arabesco delicado!",
     quickSummary: "Técnica avançada de bordado flutuante em tecidos nobres e escorregadios para golas e túnicas elegantes.",
+    imageUrl: "/images/k003_kaftans_tunicas_seda_v1.jpg?v=1",
+    imageCaption: "Alta Costura em Kaftans e Túnicas de Seda na Máquina de 1 Agulha: técnica de montagem em bastidor flutuante com película hidrossolúvel e agulha Microtex 65/9, garantindo arabescos orientais perfeitos sem marcar nem repuxar tecidos fluidos.",
     relatedTerms: ["Bastidor Flutuante", "Entretela Hidrossolúvel", "Agulha Microtex", "Alinhavo (Basting)"],
     tags: ["k-003", "kaftan", "tunicas", "seda", "alta costura", "flutuante", "artrelados"],
     bibliographicReferences: [
