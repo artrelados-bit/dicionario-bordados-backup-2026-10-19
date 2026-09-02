@@ -94,6 +94,8 @@ export const VERBETES_LETTER_R1: Verbete[] = [
     voceSabia: "As maiores marcas mundiais de linhas de bordar, como Madeira (Classic Rayon) e Sulky, mantêm o Rayon como seu padrão 'Premium Gold' para concursos internacionais de bordado artístico.",
     practicalExercise: "Borde o mesmo monograma de 5 cm em dois pedaços de tecido: um com linha Rayon e outro com linha Poliéster. Coloque-os lado a lado e compare a textura ao toque e o brilho sob a luz natural.",
     quickSummary: "Linha Rayon é o fio nobre de viscose para máquina de bordar, famoso pela maciez, brilho acetinado e acabamento de altíssima elegância.",
+    imageUrl: "/images/r002_linha_rayon_v1.jpg?v=1",
+    imageCaption: "Linha Rayon em 1 Agulha: filamento nobre de viscose com enrolamento cruzado, alimentação suave por tensores calibrados e formação de bordados com brilho sedoso no bastidor eletrônico.",
     relatedTerms: ["Rayon", "Linha de Bordar", "Poliéster 40wt", "Madeira Classic"],
     tags: ["linha", "rayon", "viscose", "agulhas", "fios"]
   },
@@ -141,6 +143,8 @@ export const VERBETES_LETTER_R1: Verbete[] = [
     voceSabia: "O formato de filamento trilobal foi inspirado na estrutura microscópica dos fios tecidos pelo bicho-da-seda (Bombyx mori), cujas seções triangulares funcionam como prismas naturais.",
     practicalExercise: "Borde duas pequenas estrelas lado a lado: uma em Rayon normal e outra em Rayon de alta brilhância. Mova o tecido sob uma luminária e repare na diferença de reflexão angular.",
     quickSummary: "Linha Rayon de alta brilhância é o fio de viscose com reflexão de luz maximizada para efeitos visuais luminosos e acabamentos de grande luxo.",
+    imageUrl: "/images/r003_linha_rayon_alta_brilhancia_v1.jpg?v=1",
+    imageCaption: "Linha Rayon de Alta Brilhância em 1 Agulha: filamentos de viscose com seção trilobal polida para máxima reflexão da luz, alimentação suave e formação de bordados com acabamento acetinado espelhado.",
     relatedTerms: ["Rayon", "Filamento Trilobal", "Brilho Especular", "Bordado de Gala"],
     tags: ["brilho", "rayon", "luxo", "fios"]
   },
