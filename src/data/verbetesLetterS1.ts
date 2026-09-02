@@ -98,6 +98,8 @@ export const VERBETES_LETTER_S1: Verbete[] = [
     voceSabia: "Em matrizes industriais de alta precisão para etiquetas de luxo, utiliza-se linha 60wt ou 75wt para permitir satins curtos de até 0,6 mm de largura com total perfeição.",
     practicalExercise: "Programe um traço fino de 1,5 mm de largura com densidade de 0,45 mm e outro igual com densidade 0,30 mm. Borde em uma malha e veja como a densidade mais aberta fica muito mais bonita e não deforma a peça.",
     quickSummary: "Satin Curto é o ponto cheio estreito para detalhes finos e letras pequenas, que requer densidade equilibrada para não picotar o tecido.",
+    imageUrl: "/images/s002_satin_curto_v1.jpg?v=1",
+    imageCaption: "Engenharia do Ponto Satin Curto em 1 Agulha: controle de densidade aliviada em colunas estreitas de 0,8 a 2,0 mm, suporte central linear para letras pequenas e penetração sem perfuração excessiva do tecido.",
     relatedTerms: ["Satin Stitch", "Satin Longo", "Short Stitch", "Linha 60wt Micro", "Underlay Center Run"],
     tags: ["satin curto", "detalhes", "pontos", "precisão", "letras"]
   },
@@ -147,6 +149,8 @@ export const VERBETES_LETTER_S1: Verbete[] = [
     voceSabia: "Em normas industriais de vestuário infantil nos EUA e Europa, é proibido usar pontos de satim soltos com mais de 6,0 mm de comprimento por questões de segurança (risco de prender dedos de bebês).",
     practicalExercise: "Crie um retângulo de 10 mm de largura no software. Gere um satim simples sem divisão e outro com Auto-Split ativado em 6 mm. Compare o simulador e perceba a diferença de sustentação.",
     quickSummary: "Satin Longo é o ponto cheio em colunas largas que necessita de divisão automática (Auto-Split) para manter os fios presos e seguros contra repuxões.",
+    imageUrl: "/images/s003_satin_longo_v1.jpg?v=1",
+    imageCaption: "Engenharia do Ponto Satin Longo em 1 Agulha: colunas largas de 7,0 a 12,0 mm com divisão automática intermediária para fixação dos fios, suporte estruturado inferior e sustentação sem frouxidão no bastidor eletrônico.",
     relatedTerms: ["Auto-Split", "Satin em Coluna", "Ponto Tatami", "Compensação de Puxamento", "Segurança de Ponto"],
     tags: ["satin longo", "auto-split", "pontos", "largura", "durabilidade"]
   },
