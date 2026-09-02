@@ -50,8 +50,8 @@ export const VERBETES_LETTER_W_PART1: Verbete[] = [
     practicalExercise: "Pegue um retalho de tecido de algodão (tricoline) e tente esticar no sentido do comprimento (urdume) e depois na largura (trama). Sinta como o urdume é muito mais rígido e estável.",
     quickSummary: "Sentido longitudinal dos fios do tecido plano paralelo à ourela, caracterizado por alta rigidez e menor elasticidade, essencial para o alinhamento no bastidor.",
     relatedTerms: ["Urdume", "Trama", "Weft", "Ourela", "Fio Reto", "Compensação de Repuxo", "Tecido Plano"],
-    imageUrl: "/images/w001_warp_urdume_v1.jpg?v=1",
-    imageCaption: "Anatomia do Urdume (Warp): a direção longitudinal dos fios do tecido plano de máxima estabilidade e o alinhamento com as marcas centrais do bastidor para bordados perfeitamente retos.",
+    imageUrl: "/images/w001_warp_urdume_v2.jpg?v=2",
+    imageCaption: "Anatomia Têxtil do Urdume em 1 Agulha: o alinhamento dos fios longitudinais de máxima rigidez com as marcas de centro do bastidor retangular eletrônico, prevenindo deformações e garantindo bordados perfeitamente alinhados.",
     tags: ["warp", "urdume", "urdidura", "tecido", "estrutura", "fioreto", "alinhamento"]
   },
   {
@@ -102,6 +102,8 @@ export const VERBETES_LETTER_W_PART1: Verbete[] = [
     voceSabia: "Em um tecido de algodão de 400 fios, existem mais de 200 fios de urdume por polegada quadrada, cada um mais fino que um fio de cabelo humano!",
     practicalExercise: "Desfie 1 cm da ponta de um retalho de tecido plano. Isole um fio de urdume (longitudinal) e um de trama (transversal). Tente arrebentar os dois com as mãos e sinta a maior tenacidade do fio de urdume.",
     quickSummary: "Filamento individual longitudinal do tecido plano caracterizado por alta torção e firmeza, que deve ser preservado pelo uso de agulhas adequadas para evitar furos.",
+    imageUrl: "/images/w002_warp_thread_v1.jpg?v=1",
+    imageCaption: "Dinâmica do Fio de Urdume em 1 Agulha: a ação da agulha de ponta bola fina (SES 70/10) deslizando entre os filamentos longitudinais no bastidor eletrônico, preservando a integridade das fibras contra cortes e furos na camisaria nobre.",
     relatedTerms: ["Warp", "Urdume", "Fio de Trama", "Weft Thread", "Agulha Ponta Bola", "SES", "Densidade de Fios"],
     tags: ["warpthread", "fiodeurdume", "urdume", "filamento", "tecido", "agulhas", "resistencia"]
   },
