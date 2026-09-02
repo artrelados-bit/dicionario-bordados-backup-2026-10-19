@@ -99,6 +99,8 @@ export const VERBETES_LETTER_U1: Verbete[] = [
     voceSabia: "Softwares modernos como o Wilcom usam o Center Walk não apenas como reforço, mas como caminho estratégico para a agulha viajar de uma letra para a outra sem precisar cortar a linha!",
     practicalExercise: "Escreva uma palavra com letras de 8 mm no software. Em uma versão, deixe sem subponto; na outra, ative o Center Walk com comprimento 1.8 mm. Borde as duas e compare a nitidez e retilinização de cada uma.",
     quickSummary: "Subponto linear simples costurado ao longo da linha central de colunas estreitas e letras pequenas para ancoragem ágil e sem volume.",
+    imageUrl: "/images/u002_underlay_center_walk_v1.jpg?v=1",
+    imageCaption: "Engenharia do Subponto Corrido Central em 1 Agulha: trajeto linear no eixo central da coluna para fixação rápida de tecidos e sustentação de letras pequenas, garantindo alta definição sem rigidez no bastidor eletrônico.",
     relatedTerms: ["Underlay", "Edge Walk", "Travel Run", "Ponto Cheio (Satin)", "Microletras"],
     tags: ["center walk", "subponto central", "underlay", "letras pequenas", "wilcom", "programacao"]
   },
@@ -149,6 +151,8 @@ export const VERBETES_LETTER_U1: Verbete[] = [
     voceSabia: "O conceito do Edge Walk é baseado nas técnicas de cantaria e estucaria da Grécia Antiga, onde os artesãos fixavam perfis metálicos nas bordas antes de aplicar o gesso decorativo para garantir arestas perfeitamente retas.",
     practicalExercise: "Abra o software e crie uma letra 'H' de 25 mm em ponto cheio. Em uma coluna aplique apenas Center Walk; na outra, aplique Edge Walk com recuo de 0.4 mm. Borde sobre tecido piquet e observe com uma lupa a perfeição das bordas no lado com Edge Walk.",
     quickSummary: "Subponto de trilhos paralelos que contorna as margens internas do ponto cheio, garantindo arestas nítidas, regulares e livres de serrilhado.",
+    imageUrl: "/images/u003_underlay_edge_walk_v1.jpg?v=1",
+    imageCaption: "Engenharia do Subponto Edge Walk em 1 Agulha: trilhos duplos paralelos com recuo calibrado de 0,4 mm nas margens internas, eliminando o efeito dente de serra e garantindo contornos nítidos e retilíneos no bastidor eletrônico.",
     relatedTerms: ["Underlay", "Center Walk", "Zigzag Underlay", "Inset Distance (Recuo de Margem)", "Ponto Cheio (Satin)", "Piquet"],
     tags: ["edge walk", "borda dupla", "underlay", "contorno", "nitidez", "programacao", "wilcom"]
   },
