@@ -100,6 +100,8 @@ export const VERBETES_LETTER_V1: Verbete[] = [
     voceSabia: "Mais de 70% dos chamados de assistência técnica por 'máquina desregulada' ou 'linha quebrando' são, na verdade, causados por matrizes geradas em conversão automática sem compensação de encolhimento!",
     practicalExercise: "Pegue a imagem de uma estrela de 5 pontas. Crie uma versão com a varinha mágica automática e outra desenhada manualmente nó por nó com ângulos radiais saindo do centro. Borde as duas lado a lado e compare a perfeição do brilho e a firmeza dos cantos.",
     quickSummary: "Diferença crucial entre a geração automática por software (rápida, porém instável e propensa a falhas) e a programação manual qualificada (estável, perfeita e macia).",
+    imageUrl: "/images/v002_vetorizacao_manual_vs_automatica_v2.jpg?v=2",
+    imageCaption: "Comparativo da Vetorização Manual vs Automática em 1 Agulha: a diferença estrutural entre curvas anatômicas com nós limpos e compensação de repuxo (manual) contra o excesso de micropontos e nós caóticos que picotam o tecido (automática) no bastidor eletrônico.",
     relatedTerms: ["Vetorização", "Compensação de Encolhimento", "Pull Compensation", "Branching", "Underlay", "Pontos Curtos"],
     tags: ["manual", "automatica", "autodigitizing", "programacao", "wilcom", "qualidade", "matriz"]
   },
@@ -150,6 +152,8 @@ export const VERBETES_LETTER_V1: Verbete[] = [
     voceSabia: "Pierre Bézier não patenteou sua fórmula matemática para que toda a humanidade pudesse se beneficiar dela; hoje, ela é usada desde a animação dos filmes da Disney e Pixar até o corte a laser e o bordado eletrônico!",
     practicalExercise: "Tente desenhar a letra 'S' no seu software usando apenas 6 nós de controle Bézier. Ajuste as alças até que a letra fique perfeitamente simétrica e fluida, sem nenhum degrau visual.",
     quickSummary: "Entidades geométricas paramétricas que permitem desenhar curvas e contornos de bordado anatômicos e suaves utilizando nós e hastes tangenciais.",
+    imageUrl: "/images/v003_bezier_nodes_v1.jpg?v=1",
+    imageCaption: "Geometria das Curvas de Bézier em 1 Agulha: nós de ancoragem mestres e hastes tangenciais modelando contornos fluidos com mínima quantidade de vértices, gerando pontos cheios anatômicos e brilho contínuo no bastidor eletrônico.",
     relatedTerms: ["Nós de Controle", "Vetorização", "Turning Satin", "Ponto Cheio", "Pantógrafo", "Interpolação"],
     tags: ["bezier", "vetor", "curvas", "nos", "geometria", "wilcom", "desenho"]
   },
