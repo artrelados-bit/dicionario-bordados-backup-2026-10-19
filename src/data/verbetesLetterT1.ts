@@ -98,6 +98,8 @@ export const VERBETES_LETTER_T1: Verbete[] = [
     voceSabia: "Os primeiros programas de matrizes dos anos 1980 tinham apenas uma fórmula fixa de tatami. Hoje, os softwares modernos permitem programar curvas de defasagem senoidais e padrões aleatórios.",
     practicalExercise: "No seu programa, crie três círculos de 30 mm com tatami. No primeiro, use offset de 0,50; no segundo, 0,25; no terceiro, 0,33. Borde os três lado a lado e compare a textura e o reflexo da luz sob diferentes ângulos.",
     quickSummary: "Conjunto de parâmetros matemáticos de comprimento e defasagem de perfuração que formam a textura e a resistência mecânica do ponto tatami.",
+    imageUrl: "/images/t002_tatami_stitch_v1.jpg?v=1",
+    imageCaption: "Estrutura do Ponto Tatami em 1 Agulha: arquitetura geométrica com comprimento de ponto calibrado, espaçamento uniforme entre fileiras e defasagem matemática de penetrações para preenchimento homogêneo no bastidor eletrônico.",
     relatedTerms: ["Tatami", "Comprimento do Ponto", "Espaçamento de Ponto", "Offset de Ponto", "Densidade do Ponto"],
     tags: ["tatami stitch", "estrutura", "geometria", "matriz", "digitalização"]
   },
@@ -146,6 +148,8 @@ export const VERBETES_LETTER_T1: Verbete[] = [
     voceSabia: "Em patches oficiais de forças armadas internacionais, a densidade do tatami é padronizada por normas técnicas de resistência para suportar abrasão em campo sem desfiar.",
     practicalExercise: "Digitalize duas matrizes iguais de um círculo de 40 mm com linha amarela sobre tecido preto: uma com densidade padrão de 0,42 mm e outra com alta densidade de 0,32 mm. Compare a opacidade visual e a maleabilidade das duas amostras.",
     quickSummary: "Configuração de preenchimento tatami com espaçamento reduzido (≤ 0,35 mm) para máxima cobertura e opacidade, exigindo controle de rigidez e estabilização.",
+    imageUrl: "/images/t003_tatami_alta_densidade_v1.jpg?v=1",
+    imageCaption: "Tatami de Alta Densidade em 1 Agulha: espaçamento fechado de até 0,35 mm com sobreposição cruzada a 90 graus, garantindo opacidade total, saturação de cor e estabilidade sem endurecer a peça no bastidor eletrônico.",
     relatedTerms: ["Tatami", "Tatami de Baixa Densidade", "Densidade do Ponto", "Cobertura de Ponto", "Pull Compensation"],
     tags: ["tatami", "alta densidade", "cobertura", "patches", "opacidade"]
   },
