@@ -155,6 +155,8 @@ export const VERBETES_LETTER_W_PART1: Verbete[] = [
     voceSabia: "Em teares a jato de ar industriais modernos, o fio de trama é lançado de um lado a outro do tear em velocidades superiores a 100 km/h por rajadas de ar comprimido ultraprecisas!",
     practicalExercise: "Puxe um tecido no sentido da largura (trama) e solte: observe como ele cede levemente e depois volta. Agora imagine centenas de pontos puxando essa trama: por isso a entretela é tão importante nesse sentido.",
     quickSummary: "Sentido transversal dos fios do tecido plano que cruza o urdume a 90°, caracterizado por maior maleabilidade e alta sensibilidade ao repuxamento de pontos.",
+    imageUrl: "/images/w003_weft_trama_v8.jpg?v=8",
+    imageCaption: "Ilustração Técnica Anatômica da Trama (Weft) no Bordado Computadorizado: cabeçote com calcador de bordado autêntico de mola e orifício circular atuando sobre o bastidor com tecido plano tensionado, demonstrando o entrelaçamento ortogonal a 90° dos fios de trama sobre o urdume em traço preto nanquim puro de alto contraste.",
     relatedTerms: ["Trama", "Urdume", "Warp", "Weft Thread", "Pull Compensation", "Estabilização Cruzada", "Tecido Plano"],
     tags: ["weft", "trama", "transversal", "tecido", "estrutura", "repuxo", "elasticidade"]
   },
