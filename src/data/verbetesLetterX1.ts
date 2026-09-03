@@ -100,6 +100,8 @@ export const VERBETES_LETTER_X1: Verbete[] = [
     voceSabia: "Os primeiros softwares de bordado computadorizado na década de 1980 só tinham o modo 'Raio-X' (linhas aramadas verdes sobre fundo preto em monitores fósforo verde), pois os computadores da época não tinham poder de processamento para calcular texturas 3D de linha em tempo real!",
     practicalExercise: "Abra uma matriz de monograma ou brasão no seu software de edição e ative a transparência dos pontos. Encontre a camada de subponto (underlay) e meça com a ferramenta de régua se ela está recuada pelo menos 0,4 mm da borda externa do satim.",
     quickSummary: "Modo de visualização transparente e aramada em softwares CAD que revela as estruturas internas, pontos de suporte e conexões ocultas da matriz.",
+    imageUrl: "/images/x002_xray_view_cad_v1.jpg?v=1",
+    imageCaption: "Prancha Técnica da Visualização em Raio-X (X-Ray View CAD): corte didático de inspeção em software de matrizes mostrando a transição entre o ponto cheio superficial renderizado e a malha translúcida interna, revelando as camadas ocultas de suporte (underlay zigue-zague e borda), trajetos de salto e pontos de penetração em traço preto nanquim puro de alto contraste.",
     relatedTerms: ["TrueView", "Underlay", "Wireframe", "Densidade", "Simulação de Bordado", "Wilcom", "Embird"],
     tags: ["xrayview", "raiox", "software", "wilcom", "wireframe", "programacao", "inspecao"]
   },
@@ -151,6 +153,8 @@ export const VERBETES_LETTER_X1: Verbete[] = [
     voceSabia: "O ponto cruz é uma das formas de bordado mais antigas da humanidade, com fragmentos arqueológicos preservados em tumbas do Antigo Egito (500 a.C.) e na Rota da Seda na Ásia Central!",
     practicalExercise: "Crie uma matriz simples de um coração ou letra inicial no módulo de ponto cruz do seu software com grade de 2,0 mm e 2 repetições por haste. Borde em um retalho de tecido de algodão a 600 PPM e compare o resultado visual com um bordado satim tradicional.",
     quickSummary: "Ponto digital programado em grade ortogonal que replica o charme e a textura do ponto cruz manual com precisão eletrônica.",
+    imageUrl: "/images/x003_xstitch_eletronico_v3.jpg?v=3",
+    imageCaption: "Ilustração Técnica do Ponto Cruz no Bordado Eletrônico Computadorizado (X-Stitch): cabeçote da máquina de bordar com barra de agulha e calcador circular de bordado autêntico com mola vertical operando sobre bastidor eletrônico retangular acoplado ao pantógrafo, formando os pontos em cruz perfeitos (X) no tecido tensionado, em traço preto nanquim puro de alto contraste sobre fundo branco límpido e sem requadros.",
     relatedTerms: ["Cross-Stitch Module", "Ponto Decorativo", "Ponto de Corrida", "Grade Vetorial", "Linha Fosca", "Pixel Art"],
     tags: ["xstitch", "pontocruz", "artesanal", "decorativo", "toalhas", "enxoval", "wilcom"]
   },
