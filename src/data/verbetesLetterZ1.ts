@@ -103,6 +103,8 @@ export const VERBETES_LETTER_Z1: Verbete[] = [
     practicalExercise: "No seu programa de bordado, crie um círculo com contorno de Ponto Zigue-Zague com largura de 3,0 mm e espaçamento de 2,5 mm. Simule na tela e observe como ele cria uma fixação firme com metade da quantidade de pontos de um cordão satim tradicional.",
     quickSummary: "Ponto mecânico alternado esquerda-direita de largura regulável, ideal para prender apliques e bordas com flexibilidade.",
     relatedTerms: ["Aplique (Appliqué)", "Tackdown", "Ponto Satim", "Ponto de Percurso (Run Stitch)", "Underlay", "Tesoura de Aplique"],
+    imageUrl: "/images/z002_zigzag_stitch_v2.jpg?v=1",
+    imageCaption: "Prancha Técnica do Ponto Zigue-Zague Computadorizado (Zig-Zag Stitch / Tackdown): formação coordenada pelo pantógrafo nos eixos X/Y, bastidor eletrônico de bordado com entalhes de alinhamento em cruz, calcador de bordado (hopping foot) em alta velocidade executando a fixação do aplique com tosa rente por tesoura pato/curva e Checagem em Verde da Faixa de Conformidade Ideal (largura 2,5 a 3,5 mm e passo 2,0 a 2,5 mm), sem requadros e sobre fundo branco contínuo.",
     tags: ["zigzagstitch", "pontoziguezague", "tiposdeponto", "aplique", "tackdown", "costura", "software"]
   }
 ];

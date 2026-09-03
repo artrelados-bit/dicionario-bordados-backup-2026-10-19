@@ -156,8 +156,8 @@ export const VERBETES_LETTER_Y1: Verbete[] = [
     practicalExercise: "Se você tiver acesso a um medidor Towa, meça a tensão da sua caixa de bobina atual. Anote o valor. Em seguida, gire o parafuso em apenas 1/8 de volta no sentido horário e meça novamente: observe como um movimento quase invisível no parafuso altera a leitura em cerca de 4 a 6 gramas-força.",
     quickSummary: "Instrumento dinamométrico de alta precisão que mede e calibra em gramas-força a tensão exata das linhas da máquina de bordar.",
     relatedTerms: ["Towa Gauge", "Tensão Superior", "Caixa de Bobina", "Gramas-Força", "Mola Tensora", "Equilíbrio de Ponto", "Calibração"],
-    imageUrl: "/images/y003_yarn_tension_v1.jpg?v=1",
-    imageCaption: "Prancha Técnica do Tensiotrômetro de Linha e Bobina (Yarn Tension Gauge): instrumento dinamométrico com mostrador calibrado em gramas-força (gf), berço de encaixe da caixa de bobina (faixa ideal de 18 a 25 gf) e medição de tração contínua da linha superior (100 a 130 gf), com legendas legíveis em português no padrão clássico do DIBE sobre fundo branco sem requadros.",
+    imageUrl: "/images/y003_towa_gauge_real_v1.jpg?v=1",
+    imageCaption: "Prancha Técnica do Tensiotrômetro Towa Original para Caixa de Bobina (Towa Bobbin Tension Gauge TM-1/TM-3): alojamento de precisão para caixa de bobina metálica (tamanhos L ou M), percurso da linha através de roletes dinamométricos e mostrador analógico calibrado de 0 a 50 gf com Checagem em Verde da Faixa de Conformidade Ideal (18 a 25 gf) para bordado eletrônico de alta precisão, sem requadros e sobre fundo branco contínuo.",
     tags: ["yarntensiongauge", "tensiotrometro", "towagauge", "dinamometro", "regulagem", "tensao", "ferramentas"]
   },
   {

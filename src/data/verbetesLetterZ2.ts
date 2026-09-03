@@ -50,6 +50,8 @@ export const VERBETES_LETTER_Z2: Verbete[] = [
     practicalExercise: "No seu software de digitalização, desenhe uma letra 'M' em ponto satim com largura de 5 mm. Teste duas opções de suporte: apenas ponto central (Center Run) e suporte em Zig-Zag com recuo de 0,5 mm. Compare em 3D como a fundação em zigue-zague encorpa a estrutura da letra.",
     quickSummary: "Ponto de suporte interno em zigue-zague que atua como fundação estrutural sob colunas satim, garantindo relevo e impedindo afundamentos.",
     relatedTerms: ["Underlay", "Ponto Satim", "Ponto de Suporte", "Edge Run", "Plástico Hidrossolúvel", "Densidade", "Wilcom"],
+    imageUrl: "/images/z003_masterpiece_davinci.jpg?v=5",
+    imageCaption: "Prancha Técnica Oficial do Ponto de Suporte em Zigue-Zague (Receita Artrelados): corte tridimensional em camadas revelando a entretela, a felpa da toalha domada pela base e pelo filme hidrossolúvel, e a coluna de ponto cheio em relevo nobre (loft); à direita, vista da coluna no software com os dois trilhos retos laterais, o zigue-zague aberto de sustentação com recuo de segurança (0,5 mm) e Checagem em Verde da Receita Artrelados, com tipografia digital de alta definição 100% em português sobre fundo branco puro sem requadros.",
     tags: ["zigzagunderlay", "subponto", "underlay", "suporte", "satim", "programacao", "wilcom"]
   },
   {
