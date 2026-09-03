@@ -103,6 +103,8 @@ export const VERBETES_LETTER_Y1: Verbete[] = [
     practicalExercise: "Pegue um cone de linha comum e passe um pedaço do fio entre os dedos para sentir o atrito. Em seguida, umedeça a ponta do dedo com uma microgota de silicone têxtil e passe novamente no fio: sinta a maciez imediata e o deslizamento suave que ele proporciona.",
     quickSummary: "Tratamento com película microscópica de silicone puro que reduz o atrito e o calor da agulha, evitando quebras em alta velocidade.",
     relatedTerms: ["Silicone Líquido", "Linha Metálica", "Aquecimento da Agulha", "Tensão Superior", "Fios de Poliéster", "Passa-Fios"],
+    imageUrl: "/images/y002_yarn_silicone_v3.jpg?v=3",
+    imageCaption: "Prancha Técnica de Silicionamento e Lubrificação de Linhas de Bordar (Yarn Silicone Lubrication): trajeto da linha desde o cone industrial passando pelo dosador com feltro embebido em óleo de silicone puro (350 cSt), percorrendo os discos tensores e descendo até o cabeçote eletrônico com calcador de mola e agulha operando sobre o bastidor a 1.000 PPM, com legendas legíveis em português no padrão clássico do DIBE sobre fundo branco sem requadros.",
     tags: ["yarnsilicone", "lubrificacao", "silicone", "fios", "manutencao", "qualidade", "agulhas"]
   },
   {
@@ -154,6 +156,8 @@ export const VERBETES_LETTER_Y1: Verbete[] = [
     practicalExercise: "Se você tiver acesso a um medidor Towa, meça a tensão da sua caixa de bobina atual. Anote o valor. Em seguida, gire o parafuso em apenas 1/8 de volta no sentido horário e meça novamente: observe como um movimento quase invisível no parafuso altera a leitura em cerca de 4 a 6 gramas-força.",
     quickSummary: "Instrumento dinamométrico de alta precisão que mede e calibra em gramas-força a tensão exata das linhas da máquina de bordar.",
     relatedTerms: ["Towa Gauge", "Tensão Superior", "Caixa de Bobina", "Gramas-Força", "Mola Tensora", "Equilíbrio de Ponto", "Calibração"],
+    imageUrl: "/images/y003_yarn_tension_v1.jpg?v=1",
+    imageCaption: "Prancha Técnica do Tensiotrômetro de Linha e Bobina (Yarn Tension Gauge): instrumento dinamométrico com mostrador calibrado em gramas-força (gf), berço de encaixe da caixa de bobina (faixa ideal de 18 a 25 gf) e medição de tração contínua da linha superior (100 a 130 gf), com legendas legíveis em português no padrão clássico do DIBE sobre fundo branco sem requadros.",
     tags: ["yarntensiongauge", "tensiotrometro", "towagauge", "dinamometro", "regulagem", "tensao", "ferramentas"]
   },
   {
