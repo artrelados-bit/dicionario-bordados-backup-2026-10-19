@@ -43,6 +43,24 @@ export function updateDocumentMeta(verbete: Verbete | null) {
       document.head.appendChild(canonical);
     }
     canonical.setAttribute("href", url);
+
+    // Dynamic DefinedTerm JSON-LD for rich Google Snippets
+    let scriptTerm = document.getElementById("jsonld-active-verbete");
+    if (!scriptTerm) {
+      scriptTerm = document.createElement("script");
+      scriptTerm.id = "jsonld-active-verbete";
+      scriptTerm.setAttribute("type", "application/ld+json");
+      document.head.appendChild(scriptTerm);
+    }
+    scriptTerm.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "DefinedTerm",
+      "name": termClean,
+      "termCode": verbete.code || verbete.id,
+      "description": verbete.definition || verbete.summary || desc,
+      "inDefinedTermSet": "https://dicionario-bordados-eletronicos.pages.dev",
+      "url": url
+    });
   } else {
     document.title = defaultTitle;
 
@@ -59,6 +77,12 @@ export function updateDocumentMeta(verbete: Verbete | null) {
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute("href", defaultUrl);
+
+    // Remove active verbete JSON-LD on main screen
+    const scriptTerm = document.getElementById("jsonld-active-verbete");
+    if (scriptTerm) {
+      scriptTerm.remove();
+    }
   }
 }
 

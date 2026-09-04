@@ -25,7 +25,7 @@
     <meta property="og:title" content="DIBE – Dicionário de Bordados Eletrônicos | Artrelados" />
     <meta property="og:description" content="Enciclopédia técnica e prática completa de bordado eletrônico e programação de matrizes. Consulte termos técnicos, dicas práticas de ateliê, agulhas, linhas, bastidores e resolva defeitos com rapidez." />
     <meta property="og:url" content="https://dicionario-bordados-eletronicos.pages.dev" />
-    <link rel="canonical" href="https://dicionario-bordados-eletronicos.pages.dev/" />
+    <link rel="canonical" id="canonical-link" href="https://dicionario-bordados-eletronicos.pages.dev/" />
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -39,44 +39,54 @@
     
     <!-- Dados Estruturados Schema.org para o Google (JSON-LD) -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "DefinedTermSet",
-      "name": "DIBE – Dicionário de Bordados Eletrônicos",
-      "description": "Enciclopédia e dicionário terminológico técnico para bordado computadorizado, ateliês de bordado e programadores de matrizes.",
-      "url": "https://dicionario-bordados-eletronicos.pages.dev",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Artrelados",
-        "email": "artrelados@gmail.com"
-      },
-      "inLanguage": "pt-BR",
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Bordado Eletrônico e Máquinas de Bordar"
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "DIBE – Dicionário de Bordados Eletrônicos",
+        "alternateName": ["Dicionário Artrelados", "Enciclopédia de Bordado Eletrônico", "DIBE"],
+        "url": "https://dicionario-bordados-eletronicos.pages.dev",
+        "description": "Maior enciclopédia terminológica e prática de bordado computadorizado e programação de matrizes do Brasil.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Artrelados",
+          "url": "https://artrelados.com.br",
+          "email": "artrelados@gmail.com"
         },
-        {
-          "@type": "Thing",
-          "name": "Matrizes para Máquinas de Bordar"
-        },
-        {
-          "@type": "Thing",
-          "name": "Glossário e Enciclopédia de Bordado"
-        },
-        {
-          "@type": "Thing",
-          "name": "Programação de Matrizes de Bordado"
-        },
-        {
-          "@type": "Thing",
-          "name": "Mecânica e Resolução de Problemas no Bordado"
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://dicionario-bordados-eletronicos.pages.dev/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
         }
-      ]
-    }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "DIBE – Dicionário Ilustrado de Bordados Eletrônicos",
+        "description": "Enciclopédia e dicionário terminológico técnico para bordado computadorizado, ateliês de bordado e programadores de matrizes.",
+        "url": "https://dicionario-bordados-eletronicos.pages.dev",
+        "author": {
+          "@type": "Person",
+          "name": "Janete M. C. Silva"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Artrelados"
+        },
+        "inLanguage": "pt-BR"
+      }
+    ]
     </script>
   </head>
   <body class="bg-[#f1f5f9] text-slate-900 font-sans">
+    <!-- Índice Semântico para Robôs de Busca (Googlebot, Bingbot) e Acessibilidade -->
+    <noscript>
+      <header>
+        <h1>DIBE – Dicionário de Bordados Eletrônicos | Artrelados</h1>
+        <p>Por Janete M. C. Silva • Artrelados Bordados</p>
+        <p>Mais de 2.400 verbetes técnicos explicados para bordadeiras, programadores de matrizes e profissionais têxteis: pontos de suporte (underlay), agulhas, entretelas, linhas, compensação de puxão, software Wilcom e resolução de defeitos.</p>
+      </header>
+    </noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
