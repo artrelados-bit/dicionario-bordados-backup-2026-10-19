@@ -16,7 +16,7 @@ export const FooterBar: React.FC<FooterBarProps> = ({
   const [showReferencesModal, setShowReferencesModal] = useState(false);
   const [references] = useState<ReferenceItem[]>(() => {
     try {
-      const saved = localStorage.getItem("dibe_official_references_v5");
+      const saved = localStorage.getItem("dibe_official_references_v6");
       if (saved) {
         const parsed: ReferenceItem[] = JSON.parse(saved);
         return parsed.length >= OFFICIAL_REFERENCES.length ? parsed : OFFICIAL_REFERENCES;
