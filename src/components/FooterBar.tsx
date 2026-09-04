@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BookmarkCheck, RotateCcw, BookMarked, BookOpen, X, Search, Check, ExternalLink, Sparkles, FileText, Info } from "lucide-react";
+import { BookmarkCheck, RotateCcw, BookMarked, BookOpen, X, Search, Check, ExternalLink, Sparkles, FileText, Info, ShieldAlert } from "lucide-react";
 import { DictionaryStats } from "../types";
 import { OFFICIAL_REFERENCES, ReferenceItem } from "../data/referencesData";
 
@@ -16,10 +16,10 @@ export const FooterBar: React.FC<FooterBarProps> = ({
   const [showReferencesModal, setShowReferencesModal] = useState(false);
   const [references] = useState<ReferenceItem[]>(() => {
     try {
-      const saved = localStorage.getItem("dibe_official_references_v3");
+      const saved = localStorage.getItem("dibe_official_references_v5");
       if (saved) {
         const parsed: ReferenceItem[] = JSON.parse(saved);
-        return parsed.length > 0 ? parsed : OFFICIAL_REFERENCES;
+        return parsed.length >= OFFICIAL_REFERENCES.length ? parsed : OFFICIAL_REFERENCES;
       }
       return OFFICIAL_REFERENCES;
     } catch {
@@ -113,7 +113,7 @@ export const FooterBar: React.FC<FooterBarProps> = ({
         </div>
       </div>
 
-      {/* Bibliographic References Modal — Pristine White Background */}
+      {/* Bibliographic References Modal — Clean Direct Full List */}
       {showReferencesModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-slate-950/70 backdrop-blur-md animate-fade-in text-slate-900">
           <div className="bg-white text-slate-900 rounded-3xl border-2 border-amber-400 shadow-2xl max-w-4xl w-full max-h-[92vh] flex flex-col overflow-hidden">
@@ -156,14 +156,17 @@ export const FooterBar: React.FC<FooterBarProps> = ({
                 </p>
               </div>
 
-              {/* AI Notice Box */}
-              <div className="p-5 rounded-2xl bg-amber-50 border-2 border-amber-300 text-slate-900 space-y-2 shadow-sm">
-                <div className="flex items-center space-x-2 text-amber-900 font-extrabold text-xs sm:text-sm">
-                  <Sparkles className="w-4 h-4 text-amber-600 shrink-0" />
-                  <span>Observação sobre a participação da inteligência artificial</span>
+              {/* Termo de Isenção de Responsabilidade Técnica & Aviso Legal */}
+              <div className="p-5 rounded-2xl bg-rose-50/80 border-2 border-rose-300 text-slate-900 space-y-2.5 shadow-xs">
+                <div className="flex items-center space-x-2 text-rose-950 font-black text-xs sm:text-sm">
+                  <ShieldAlert className="w-4 h-4 text-rose-600 shrink-0" />
+                  <span>⚖️ AVISO LEGAL & TERMO DE ISENÇÃO DE RESPONSABILIDADE TÉCNICA</span>
                 </div>
-                <p className="text-xs sm:text-sm text-slate-700 leading-relaxed italic">
-                  A inteligência artificial foi utilizada como ferramenta de apoio à pesquisa, organização, elaboração, revisão e desenvolvimento textual deste projeto. O conteúdo final foi selecionado, avaliado, revisado e organizado sob a direção da autora, responsável pelas decisões editoriais e pelo conteúdo publicado nesta edição.
+                <p className="text-xs text-slate-700 leading-relaxed font-medium">
+                  As orientações, diagnósticos de defeitos e parâmetros técnicos fornecidos pelo DIBE Artrelados possuem finalidade estritamente didática, educativa e de apoio operacional para ateliês de bordado. Ajustes mecânicos de precisão (como temporização de lançadeira rotativa, regulagem de sincronismo de cabeçotes e desmontagem de conjuntos de corte) exigem ferramentas milimétricas e conhecimento técnico habilitado.
+                </p>
+                <p className="text-xs text-slate-700 leading-relaxed font-medium">
+                  O <strong>DIBE Artrelados e sua coordenação técnica não se responsabilizam</strong> por danos materiais, quebras de peças mecânicas ou prejuízos operacionais resultantes de imperícia, intervenção indevida ou má interpretação das recomendações. Em caso de dúvidas sobre a integridade ou garantia do seu equipamento, <strong>consulte sempre a assistência técnica autorizada ou o técnico especializado da sua marca</strong>.
                 </p>
               </div>
 
@@ -189,11 +192,11 @@ export const FooterBar: React.FC<FooterBarProps> = ({
                 </div>
               </div>
 
-              {/* List of 14 ABNT References */}
+              {/* Full Direct List of References (No tabs, complete and direct) */}
               <div className="space-y-3">
                 <h3 className="text-xs font-black text-slate-500 uppercase tracking-wider flex items-center gap-1.5 pt-2">
                   <FileText className="w-3.5 h-3.5 text-amber-500" />
-                  <span>Relação de Documentações & Publicações Consultadas ({filteredReferences.length})</span>
+                  <span>Relação Completa de Documentações & Publicações Consultadas ({filteredReferences.length})</span>
                 </h3>
 
                 {filteredReferences.length === 0 ? (
@@ -201,47 +204,49 @@ export const FooterBar: React.FC<FooterBarProps> = ({
                     <p className="font-bold">Nenhuma fonte encontrada para os termos pesquisados.</p>
                   </div>
                 ) : (
-                  filteredReferences.map((ref) => (
-                    <div
-                      key={ref.id}
-                      className="bg-slate-50 border border-slate-200 rounded-2xl p-4 hover:border-amber-400 transition space-y-2 relative group"
-                    >
-                      <div className="flex items-start justify-between gap-3">
-                        <div className="space-y-1 flex-1">
-                          <p className="text-xs sm:text-sm font-medium text-slate-800 leading-relaxed font-mono">
-                            <strong className="text-slate-950 font-black">{ref.author}.</strong>{" "}
-                            <span>{ref.title}</span>{" "}
-                            {ref.publisherOrUrl && (
-                              <span className="text-slate-600">Disponível em: <u className="decoration-amber-400">{ref.publisherOrUrl}</u>.</span>
-                            )}{" "}
-                            {ref.accessDate && (
-                              <span className="text-slate-500">Acesso em: {ref.accessDate}.</span>
-                            )}
-                          </p>
-                        </div>
+                  <div className="divide-y divide-slate-200 bg-slate-50/70 border border-slate-200 rounded-2xl overflow-hidden">
+                    {filteredReferences.map((ref) => (
+                      <div
+                        key={ref.id}
+                        className="p-4 hover:bg-amber-50/50 transition space-y-2 relative group"
+                      >
+                        <div className="flex items-start justify-between gap-3">
+                          <div className="space-y-1 flex-1">
+                            <p className="text-xs sm:text-sm font-medium text-slate-800 leading-relaxed font-mono">
+                              <strong className="text-slate-950 font-black">{ref.author}.</strong>{" "}
+                              <span>{ref.title}</span>{" "}
+                              {ref.publisherOrUrl && (
+                                <span className="text-slate-600">Disponível em: <u className="decoration-amber-400">{ref.publisherOrUrl}</u>.</span>
+                              )}{" "}
+                              {ref.accessDate && (
+                                <span className="text-slate-500">Acesso em: {ref.accessDate}.</span>
+                              )}
+                            </p>
+                          </div>
 
-                        <div className="flex items-center space-x-1.5 shrink-0 pt-0.5">
-                          <button
-                            onClick={() => handleCopyCitation(ref)}
-                            className="px-2.5 py-1 rounded-lg bg-white hover:bg-slate-100 text-slate-700 text-xs font-bold border border-slate-300 flex items-center space-x-1 transition cursor-pointer shadow-2xs"
-                            title="Copiar citação ABNT"
-                          >
-                            {copiedId === ref.id ? (
-                              <>
-                                <Check className="w-3 h-3 text-emerald-600" />
-                                <span className="text-emerald-700 text-[11px]">Copiado</span>
-                              </>
-                            ) : (
-                              <>
-                                <ExternalLink className="w-3 h-3 text-amber-500" />
-                                <span className="text-[11px]">Copiar</span>
-                              </>
-                            )}
-                          </button>
+                          <div className="flex items-center space-x-1.5 shrink-0 pt-0.5">
+                            <button
+                              onClick={() => handleCopyCitation(ref)}
+                              className="px-2.5 py-1 rounded-lg bg-white hover:bg-slate-100 text-slate-700 text-xs font-bold border border-slate-300 flex items-center space-x-1 transition cursor-pointer shadow-2xs"
+                              title="Copiar citação ABNT"
+                            >
+                              {copiedId === ref.id ? (
+                                <>
+                                  <Check className="w-3 h-3 text-emerald-600" />
+                                  <span className="text-emerald-700 text-[11px]">Copiado</span>
+                                </>
+                              ) : (
+                                <>
+                                  <ExternalLink className="w-3 h-3 text-amber-500" />
+                                  <span className="text-[11px]">Copiar</span>
+                                </>
+                              )}
+                            </button>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  ))
+                    ))}
+                  </div>
                 )}
               </div>
 

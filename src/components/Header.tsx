@@ -98,7 +98,7 @@ export const Header: React.FC<HeaderProps> = ({
                 }`}
               >
                 <Wrench className="w-4 h-4" />
-                <span>2. Guias de Problemas</span>
+                <span>2. Oficina do Bordado</span>
               </button>
             </div>
 

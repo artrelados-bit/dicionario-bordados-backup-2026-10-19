@@ -64,7 +64,11 @@ export const INITIAL_VERBETES: Verbete[] = [
 ];
 
 import { ALL_TROUBLESHOOTING_GUIDES } from "./troubleshootingGuides";
+import { MULTI_HEAD_TROUBLESHOOTING_GUIDES } from "./multiHeadTroubleshootingData";
 
-export const INITIAL_TROUBLESHOOTING_GUIDES: TroubleshootingGuide[] = ALL_TROUBLESHOOTING_GUIDES;
+export const INITIAL_TROUBLESHOOTING_GUIDES: TroubleshootingGuide[] = [
+  ...ALL_TROUBLESHOOTING_GUIDES,
+  ...MULTI_HEAD_TROUBLESHOOTING_GUIDES
+];
 
 

@@ -1,7 +1,10 @@
 import React, { useState } from "react";
-import { Wrench, AlertTriangle, CheckCircle2, Sparkles, Search, Loader2, ChevronDown, ChevronUp, Copy, Check, RefreshCw, Gauge, ShieldAlert, Zap, Star } from "lucide-react";
+import { Wrench, AlertTriangle, CheckCircle2, Sparkles, Search, Loader2, ChevronDown, ChevronUp, Copy, Check, RefreshCw, Gauge, ShieldAlert, Zap, Star, BookOpen, Layers, Maximize2, ShieldCheck, ExternalLink } from "lucide-react";
 import { TroubleshootingGuide, SavedDiagnostic } from "../types";
 import { analyzeEmbroideryProblem, DiagnosticResult } from "../utils/diagnosticEngine";
+import { FabricRecipesModalOrSection } from "./FabricRecipesSection";
+import { HoopGuideSection } from "./HoopGuideSection";
+import { ManualsSection } from "./ManualsSection";
 
 interface TroubleshootingViewProps {
   guides: TroubleshootingGuide[];
@@ -14,6 +17,9 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
   savedDiagnostics = [],
   onToggleSaveDiagnostic
 }) => {
+  // Navigation sub-tab state inside Troubleshooting
+  const [troubleSubTab, setTroubleSubTab] = useState<"diagnostico" | "receituario" | "bastidores" | "manuais">("diagnostico");
+
   const [selectedCategory, setSelectedCategory] = useState<string>("Todas");
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [expandedGuideId, setExpandedGuideId] = useState<string | null>(guides[0]?.id || null);
@@ -41,7 +47,7 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
   const [currentDiagnosticId, setCurrentDiagnosticId] = useState<string>("");
   const [copiedDiag, setCopiedDiag] = useState<boolean>(false);
 
-  const categories = ["Todas", "Linhas & Agulhas", "Tensão & Caixilho", "Bastidor & Programação", "Mecânica & Ajustes"];
+  const categories = ["Todas", "Linhas & Agulhas", "Tensão & Caixilho", "Bastidor & Programação", "Mecânica & Ajustes", "Multiagulhas & Industriais"];
 
   const filteredGuides = guides.filter((g) => {
     const matchesCat = selectedCategory === "Todas" || g.category === selectedCategory;
@@ -133,29 +139,110 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
   return (
     <div className="space-y-6">
       {/* Top Banner */}
-      <div className="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm">
-        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-          <div className="space-y-1.5">
-            <h2 className="text-2xl sm:text-3xl font-black text-slate-900">
-              Diagnóstico e Solução de Problemas
-            </h2>
+      <div className="p-5 sm:p-6 rounded-3xl bg-white border border-slate-200 shadow-xs">
+        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-3">
+          <div className="space-y-1">
+            <div className="flex items-center space-x-2 text-slate-900 font-extrabold text-base sm:text-lg">
+              <Wrench className="w-5 h-5 text-amber-500" />
+              <h2>Oficina do Bordado</h2>
+            </div>
             <p className="text-slate-600 text-xs sm:text-sm max-w-2xl font-medium">
-              Prescrição técnica imediata para agulhas tortas, falhas de tensão, quebra de linha, desalinhamento e estragos em tecidos. Funciona de forma 100% autônoma e instantânea.
+              Consultoria completa de bancada: diagnóstico para falhas mecânicas, receituário de tecidos, gabarito de bastidores e manuais oficiais de suporte técnico.
             </p>
           </div>
 
+          {troubleSubTab === "diagnostico" && (
+            <button
+              onClick={() => setIsAiDiagOpen(!isAiDiagOpen)}
+              className="px-4 py-2.5 rounded-xl bg-[#101726] hover:bg-slate-800 text-white font-extrabold text-xs sm:text-sm flex items-center space-x-2 shadow transition shrink-0 cursor-pointer"
+            >
+              <Sparkles className="w-4 h-4 text-amber-400" />
+              <span>{isAiDiagOpen ? "Ocultar Diagnóstico IA" : "Novo Diagnóstico IA"}</span>
+            </button>
+          )}
+        </div>
+
+        {/* Sub-Navigation Tabs */}
+        <div className="flex items-center space-x-2 border-t border-slate-100 pt-4 mt-4 overflow-x-auto scrollbar-none">
           <button
-            onClick={() => setIsAiDiagOpen(!isAiDiagOpen)}
-            className="px-4 py-2.5 rounded-xl bg-[#101726] hover:bg-slate-800 text-white font-extrabold text-xs sm:text-sm flex items-center space-x-2 shadow transition shrink-0 cursor-pointer"
+            onClick={() => setTroubleSubTab("diagnostico")}
+            className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-black flex items-center space-x-2 transition cursor-pointer shrink-0 ${
+              troubleSubTab === "diagnostico"
+                ? "bg-[#101726] text-white shadow-sm"
+                : "bg-slate-100 text-slate-700 hover:bg-slate-200"
+            }`}
           >
-            <Sparkles className="w-4 h-4 text-amber-400" />
-            <span>{isAiDiagOpen ? "Ocultar Diagnóstico IA" : "Novo Diagnóstico IA"}</span>
+            <Wrench className="w-4 h-4 text-amber-400" />
+            <span>Diagnóstico IA & Guias de Defeitos</span>
+          </button>
+
+          <button
+            onClick={() => setTroubleSubTab("receituario")}
+            className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-black flex items-center space-x-2 transition cursor-pointer shrink-0 ${
+              troubleSubTab === "receituario"
+                ? "bg-[#101726] text-white shadow-sm"
+                : "bg-slate-100 text-slate-700 hover:bg-slate-200"
+            }`}
+          >
+            <Layers className="w-4 h-4 text-amber-500" />
+            <span>🧵 Receituário de Tecidos</span>
+          </button>
+
+          <button
+            onClick={() => setTroubleSubTab("bastidores")}
+            className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-black flex items-center space-x-2 transition cursor-pointer shrink-0 ${
+              troubleSubTab === "bastidores"
+                ? "bg-[#101726] text-white shadow-sm"
+                : "bg-slate-100 text-slate-700 hover:bg-slate-200"
+            }`}
+          >
+            <Maximize2 className="w-4 h-4 text-amber-500" />
+            <span>📏 Gabarito de Bastidores</span>
+          </button>
+
+          <button
+            onClick={() => setTroubleSubTab("manuais")}
+            className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-black flex items-center space-x-2 transition cursor-pointer shrink-0 ${
+              troubleSubTab === "manuais"
+                ? "bg-[#101726] text-white shadow-sm"
+                : "bg-slate-100 text-slate-700 hover:bg-slate-200"
+            }`}
+          >
+            <BookOpen className="w-4 h-4 text-amber-500" />
+            <span>📖 Manuais & Fontes Técnicas</span>
           </button>
         </div>
       </div>
 
-      {/* Custom Diagnostic Assistant Form */}
-      {isAiDiagOpen && (
+      {/* RENDER CONTENT ACCORDING TO ACTIVE SUBTAB */}
+
+      {/* SUBTAB 2: Receituário de Tecidos */}
+      {troubleSubTab === "receituario" && (
+        <div className="animate-fade-in">
+          <FabricRecipesModalOrSection />
+        </div>
+      )}
+
+      {/* SUBTAB 3: Gabarito de Bastidores */}
+      {troubleSubTab === "bastidores" && (
+        <div className="animate-fade-in">
+          <HoopGuideSection />
+        </div>
+      )}
+
+      {/* SUBTAB 4: Manuais & Fontes Técnicas */}
+      {troubleSubTab === "manuais" && (
+        <div className="animate-fade-in">
+          <ManualsSection />
+        </div>
+      )}
+
+      {/* SUBTAB 1: Diagnóstico IA & Guias de Defeitos */}
+      {troubleSubTab === "diagnostico" && (
+        <>
+          {/* Custom Diagnostic Assistant Form */}
+          {isAiDiagOpen && (
+
         <div className="p-6 rounded-3xl bg-white border border-amber-300 shadow-md space-y-4 animate-fade-in">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2 text-slate-900 font-extrabold text-lg">
@@ -180,7 +267,7 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                 </label>
                 <input
                   type="text"
-                  placeholder="Ex: Janome MC500E, Brother PE810L, Tajima..."
+                  placeholder="Ex: Typical, Brother PE810L, Janome MC500E, Tajima, Barudan..."
                   value={machineModel}
                   onChange={(e) => setMachineModel(e.target.value)}
                   className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 text-xs sm:text-sm placeholder-slate-400 focus:bg-white focus:border-amber-500 focus:ring-2 focus:ring-amber-200 focus:outline-none"
@@ -577,6 +664,30 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                   {diagnosticResult.artreladosTip}
                 </div>
               )}
+
+              {/* 🛡️ RECOMENDAÇÃO PREVENTIVA OBRIGATÓRIA & RESPONSABILIDADE TÉCNICA */}
+              <div className="p-4 rounded-2xl bg-slate-900 text-slate-100 space-y-2 border-2 border-amber-400 shadow-md">
+                <div className="flex items-center space-x-2 text-amber-400 font-black text-xs sm:text-sm">
+                  <ShieldCheck className="w-4 h-4 text-amber-400 shrink-0" />
+                  <span>🛡️ RECOMENDAÇÃO PREVENTIVA ARTRELADOS & RESPONSABILIDADE TÉCNICA</span>
+                </div>
+                <p className="text-xs text-slate-300 leading-relaxed">
+                  Este diagnóstico fornece um direcionamento operacional baseado em manuais técnicos de fabricantes (Brother, Janome, Tajima, Barudan) e nas normas de tolerância de agulhas e laçadeiras (Schmetz, Groz-Beckert, Hirose).
+                </p>
+                <p className="text-xs text-amber-200 font-bold leading-relaxed bg-slate-800/80 p-2.5 rounded-xl border border-slate-700">
+                  ⚠️ Se a sua máquina ainda estiver no período de garantia, se a intervenção exigir abertura de tampas mecânicas ou desmontagem da lançadeira/bloco de facas, ou se você não tiver treinamento para tal, <strong className="text-amber-300 underline">não deixe de procurar um técnico especializado ou a assistência técnica autorizada da sua marca</strong>.
+                </p>
+                <div className="flex flex-wrap items-center justify-between gap-2 pt-1 text-[11px] text-slate-400">
+                  <span>Fontes consultadas: Manuais Oficiais & Tolerâncias Técnicas</span>
+                  <button
+                    onClick={() => setTroubleSubTab("manuais")}
+                    className="text-amber-400 hover:text-amber-300 font-bold underline flex items-center gap-1 cursor-pointer"
+                  >
+                    <span>Ver Manuais e Fontes Oficiais</span>
+                    <ExternalLink className="w-3 h-3" />
+                  </button>
+                </div>
+              </div>
             </div>
           )}
         </div>
@@ -708,6 +819,25 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                         {guide.preventiveAdvice}
                       </div>
                     )}
+
+                    {/* Disclaimer & Authorized Tech Reminder */}
+                    <div className="p-3 rounded-xl bg-slate-100 border border-slate-200 text-[11px] text-slate-600 space-y-1">
+                      <div className="flex items-center justify-between">
+                        <span className="font-bold text-slate-800 flex items-center gap-1">
+                          <ShieldAlert className="w-3.5 h-3.5 text-rose-500" />
+                          <span>Recomendação de Oficina Artrelados:</span>
+                        </span>
+                        <button
+                          onClick={() => setTroubleSubTab("manuais")}
+                          className="text-amber-600 hover:text-amber-800 font-bold underline cursor-pointer text-[10px]"
+                        >
+                          Consultar Manuais Oficiais →
+                        </button>
+                      </div>
+                      <p className="leading-relaxed">
+                        Se este procedimento exigir abertura mecânica interna da máquina ou se a falha persistir após os testes básicos, <strong>não deixe de procurar um técnico especializado ou a assistência técnica autorizada da sua marca</strong>.
+                      </p>
+                    </div>
                   </div>
                 )}
               </div>
@@ -731,8 +861,11 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
           )}
         </div>
       </div>
+        </>
+      )}
     </div>
   );
 };
+
 
 

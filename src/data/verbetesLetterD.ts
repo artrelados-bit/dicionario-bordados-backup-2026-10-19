@@ -6401,6 +6401,24 @@ export const VERBETES_LETTER_D: Verbete[] = [
     "characteristics": [
       "Olhais cerâmicos ultrassuaves que não esquentam nem desfiam a linha.",
       "Identificação numérica ou por cores correspondente a cada agulha do cabeçote."
+    ],
+    "troubleshootingTips": [
+      "Se a linha estiver saindo do cone e enroscando no cone vizinho, verifique se a haste do guia-fios aéreo está na altura máxima estendida.",
+      "Limpe os olhais de cerâmica com álcool isopropílico para retirar poeira acumulada de cera de linha."
+    ],
+    "relatedTerms": [
+      "Suporte de Cones",
+      "PrPré-Tensionador",
+      "Torre de Tensão",
+      "Guia-Fios"
+    ],
+    "tags": [
+      "guia de fios",
+      "suporte de cones",
+      "maquinas industriais",
+      "multiagulhas",
+      "artrelados"
     ]
   }
 ];
+

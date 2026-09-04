@@ -68,6 +68,55 @@ export function analyzeEmbroideryProblem(
     }
   }
 
+  // Alerta para máquinas industriais / multicabeças
+  if (m.includes("cabeça") || m.includes("cabeca") || m.includes("typical") || m.includes("jack") || m.includes("tajima") || m.includes("barudan") || m.includes("swf") || m.includes("feiya") || m.includes("promaker") || m.includes("multi")) {
+    criticalAlerts.push("🏭 Ambiente Industrial / Cabeçote de Alta Produção detectado: A calibração de folga da lançadeira rotativa (0.05 a 0.08mm) e o sistema de agulhas cilíndricas DBxK5 / DPx5 operam com padrão de fábrica industrial.");
+  }
+
+  // 0. Problemas específicos de Máquinas Multicabeças ou Multiagulhas
+  if (
+    p.includes("cabeça") ||
+    p.includes("cabeca") ||
+    p.includes("uma cabeça") ||
+    p.includes("outra cabeça") ||
+    p.includes("troca de cor") ||
+    p.includes("multiagulha") ||
+    p.includes("multicabeça") ||
+    p.includes("wiper") ||
+    p.includes("picker") ||
+    p.includes("falso alarme") ||
+    p.includes("sensor de quebra")
+  ) {
+    return {
+      title: `Diagnóstico Especializado: Ocorrência em Sistema Multiagulhas / Multicabeças (${machineLabel})`,
+      category: "Multiagulhas & Industriais",
+      severity: "Alta",
+      summary: `Identificamos uma inconsistência operacional típica de equipamentos industriais ou multicabeças em ${machineLabel}. Em máquinas com múltiplas estações, falhas que afetam apenas uma agulha ou cabeça específica geralmente decorrem de microrrebarbas na chapa, sincronismo individual de laçadeira (hook timing) ou sujeira no sensor de rotação daquela estação.`,
+      probableCauses: [
+        `Rebarba ou arranhão na chapa de agulha ou na ponta da laçadeira da cabeça específica afetada.`,
+        `Roldana do sensor óptico de quebra de linha com poeira têxtil ou linha não encaixada com volta de 360°.`,
+        `Desalinhamento milimétrico do gancho móvel de corte inferior ou do limpador (wiper/picker).`,
+        `Barra de agulha vizinha ligeiramente desencaixada do travador superior, gerando travamento no comando de troca de cor.`
+      ],
+      stepByStepSolution: [
+        `1. Isole a cabeça ou agulha afetada: limpe o orifício da chapa com lixa d'água 1500 enrolada em palito e aplique ar comprimido no sensor óptico correspondente.`,
+        `2. Verifique se a linha superior dá uma volta completa de 360° na roldana codificadora do sensor antes de seguir para os tensores.`,
+        `3. Gire o volante manual até a marca de sincronismo (aprox. 198° a 201°) e confira se a ponta da laçadeira passa no centro da cava da agulha sem tocá-la.`,
+        `4. Inspecione o conjunto de corte e wiper retirando resíduos de cola de entretela adesiva com álcool isopropílico.`,
+        `5. Se o problema for de tensão em uma cor específica, passe fio dental não encerado entre os discos e confira se a mola tira-fio tem ação de retorno elástica livre.`
+      ],
+      criticalAlerts: criticalAlerts.length > 0 ? criticalAlerts : undefined,
+      preventiveAdvice: `Em equipamentos multiagulhas, realize semanalmente a limpeza com ar comprimido de todas as roldanas de sensor e lubrificação das guias prismáticas do bloco de troca de cores.`,
+      recommendedSettings: {
+        needle: "DBxK5 NY2 Titânio (Tamanho 75/11 ou 80/12)",
+        speed: "750 a 850 PPM",
+        tension: "Bobina aferida com tensiômetro Towa entre 110g e 130g"
+      },
+      artreladosTip: `Dica de Ouro Artrelados: Quando apenas UMA cabeça apresentar defeito, troque a caixinha de bobina e o cone de linha por aqueles da cabeça ao lado que está funcionando perfeitamente. Se o defeito continuar na mesma cabeça, a causa é 100% mecânica (chapa ou laçadeira); se mudar de cabeça, o defeito era no fio ou na bobina!`
+    };
+  }
+
+
   // 1. Agulha torta / Agulha empenada / Agulha batendo / Quebra de agulha
   if (
     p.includes("agulha torta") ||

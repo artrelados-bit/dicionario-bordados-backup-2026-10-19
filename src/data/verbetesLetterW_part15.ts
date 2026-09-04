@@ -86,7 +86,6 @@ export const VERBETES_LETTER_W_PART15: Verbete[] = [
     level: "Iniciante 🟢",
     category: "Estruturação & Estabilizadores",
     grammarClass: "Substantivo masculino composto.",
-    category: "Estruturação & Estabilizadores",
     origin: "Do inglês 'water-soluble' (solúvel em água) e 'topper' (cobertura/topo). Tecnologia de polímeros de álcool polivinílico (PVA) desenvolvida para controle de relevo superficial.",
     summary: "Película plástica temporária solúvel em água colocada sobre tecidos texturizados ou felpudos para impedir que os pontos afundem nas tramas e felpas.",
     definition: "O Water-Soluble Topper (Película Plástica Hidrossolúvel de Superfície / PVA Top Stabilizer / Solvy Topping Film) é um filme fino transparente extrudado à base de álcool polivinílico (PVA) com espessura microscópica calibrada (geralmente 20 a 35 micras). Posicionado sobre a face externa de tecidos com relevo irregular, laçadas abertas ou pelos altos (como toalhas de banho, veludo, plush, piquet, fleece e malhas caneladas), o topper cria uma plataforma lisa temporária. Os pontos de bordado apoiam-se sobre essa barreira plástica sem afundar na felpa, gerando bordas afiadas e alto-relevo impecável. Ao término do bordado, o filme excedente é rasgado e os resíduos microscópicos dissolvem-se 100% em segundos com um leve borrifo de água limpa.",
