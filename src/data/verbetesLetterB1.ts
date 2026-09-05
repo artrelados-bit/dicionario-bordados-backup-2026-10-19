@@ -2690,5 +2690,108 @@ export const VERBETES_LETTER_B1: Verbete[] = [
       "ARTRELADOS. Guia de Excelência e Alta Costura no Bordado Computadorizado. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-05"
+  },
+  {
+    "id": "b-104-baby-lock-maquinas-de-bordado-eletronico",
+    "code": "B-104",
+    "term": "Baby Lock (Máquinas de Bordado Eletrônico)",
+    "pronunciation": "bêi-bi lók (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    "letter": "B",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Máquinas e Equipamentos",
+    "grammarClass": "Substantivo próprio / Locução substantiva.",
+    "origin": "Fundada nos Estados Unidos na década de 1960 por um grupo de engenheiros pioneiros que miniaturizaram máquinas industriais com foco no uso doméstico descomplicado (notabilizando-se pela invenção da primeira overloque compacta do mundo). No segmento de bordado computadorizado, estabeleceu sólida aliança mecatrônica de fabricação no Japão, desenvolvendo tecnologias patenteadas revolucionárias voltadas à automação intuitiva e inteligência visual de posicionamento.",
+    "summary": "Grife americana/japonesa de altíssimo luxo, célebre pela projeção de luz guia sobre a peça (Solaris Vision), tecnologia IQ Designer de digitalização automática por foto, séries Array e Valiant de 6 e 10 agulhas e formato .PES.",
+    "definition": "A Baby Lock é uma marca de alto luxo americana e japonesa renomada mundialmente por suas máquinas computadorizadas de bordar de 1 agulha (séries Solaris Vision, Meridian e Flare) e semi-industriais multiagulhas de braço livre (séries Array de 6 agulhas e Valiant de 10 agulhas). Notabilizou-se pela integração de tecnologias exclusivas como o sistema óptico de projeção no tecido (Projector Technology), câmeras de alta definição integradas ao cabeçote (NeedleCam), conversão instantânea de ilustrações e fotos em matrizes de bordado na própria tela (IQ Designer) e ampla compatibilidade com o formato .PES.",
+    "technicalDetails": "Equipada com tela sensível ao toque LCD colorida de alta definição capacitiva de 10.1 polegadas. Sistema de projeção de luz LED ultrapreciso que projeta o desenho real, linhas de grade e pontos guias sobre o tecido no bastidor. Sensor de câmera digital com reconhecimento de marcadores ópticos e aplicativo móvel IQ Intuition Positioning via Wi-Fi. Velocidade ajustável entre 400 e 1.050 PPM em modelos planos e até 1.000 PPM nas multiagulhas. Corte de salto automático, sensores de quebra de linha ópticos e passador de agulha elétrico automatizado por botão. Suporta os formatos .PES, .PHC e .DST.",
+    "construction": [
+      "Chassi estrutural fundido em liga de alumínio reforçada com amortecimento acústico de alta absorção",
+      "Projetor óptico de LED embutido no cabeçote com ajuste de ângulo, tamanho e grade milimétrica de guia",
+      "Câmera digital integrada de alta resolução montada rente à barra de agulha para escaneamento do tecido",
+      "Módulo de bordado de longo curso com rolamentos selados e bastidores magnéticos de até 272 x 408 mm",
+      "Caneta stylus eletrônica multifunções para calibração e posicionamento direto sobre a projeção de luz",
+      "Sistema de iluminação do campo de trabalho com múltiplos LEDs brancos circundando a barra de agulha sem sombras",
+      "Conexão Wi-Fi integrada para transmissão direta de arquivos e sincronização com o aplicativo IQ Intuition"
+    ],
+    "howItWorks": [
+      "1. A matriz de bordado em formato .PES é transferida sem fios do computador ou smartphone diretamente para a Baby Lock via Wi-Fi ou através de pendrive USB.",
+      "2. Na tela de 10.1 polegadas ou acionando o Projetor de Luz embutido, a bordadeira visualiza a imagem do desenho projetada com luz verde/branca exatamente em cima do tecido real montado no bastidor.",
+      "3. Com a caneta stylus eletrônica ou no visor touch, o operador gira, desloca e ajusta milimetricamente a posição da matriz até alinhá-la perfeitamente com a costura ou estampa da peça.",
+      "4. A bordadeira aperta o botão do enfiador elétrico, que passa a linha pelo olho da agulha em uma fração de segundo com um simples toque.",
+      "5. Ao acionar o botão de partida, a máquina costura com aceleração suave a até 1.050 PPM, adaptando a pressão do calcador à espessura do tecido.",
+      "6. A faca de corte inferior apara as laçadas e saltos de ponto automaticamente, puxando a linha para o verso sem necessidade de limpeza manual posterior."
+    ],
+    "beginnerExplanation": "A Baby Lock é a máquina dos sonhos de quem ama luxo com facilidade total! O maior encanto dela é que você nunca mais vai errar a posição do bordado: ela tem um pequeno projetor de luz que joga o desenho iluminado em cima da roupa de verdade antes de você costurar! Você olha para a camisa ou para a toalha e vê a luz mostrando exatamente onde cada ponto vai cair! E se você ou uma criança desenhar uma florzinha num papel com caneta, basta tirar uma foto com o celular e a máquina transforma o desenho em um bordado perfeitinho na hora com a função IQ Designer!",
+    "applications": [
+      "Bordados em peças de alta costura, vestidos de noiva e sedas com alinhamento visual por projeção de luz",
+      "Personalização precisa em golas de camisas sociais, punhos e barras de toalhas sem necessidade de riscar o tecido",
+      "Digitalização instantânea de assinaturas, logotipos simples e desenhos infantis direto na tela (IQ Designer)",
+      "Quilting no bastidor e grandes colchas com bastidores generosos de até 27 x 40 cm (série Solaris)",
+      "Produção semi-industrial e comercial de bonés estruturados, jaquetas e uniformes com as linhas Array e Valiant"
+    ],
+    "mainTypes": [
+      "Baby Lock Solaris Vision: A nave-mãe de 1 agulha topo de linha mundial com projetor óptico de luz e tela de 10.1 polegadas",
+      "Baby Lock Meridian: Máquina pura de bordar de grande porte com câmera integrada e bastidor de 24x36 cm",
+      "Baby Lock Flare: Modelo compacto intermediário de 1 agulha de alto desempenho com área de 16x26 cm",
+      "Baby Lock Array (6 Agulhas): Modelo semi-industrial de braço tubular para produção de bonés e peças montadas",
+      "Baby Lock Valiant (10 Agulhas): O ápice comercial multiagulhas com velocidade de 1.000 PPM e iluminação LED nos tensores"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "750 a 850 PPM para acabamento acetinado de luxo; até 1.050 PPM em áreas planas de tatami",
+      "needleType": "Sistema doméstico 130/705 H (tamanhos 75/11 a 90/14) e DBxK5 / HAx130EBBR na série multiagulhas",
+      "stabilizer": "Entretela rasgável de algodão macio de 50g/m² ou hidrossolúvel em toalhas e veludos"
+    },
+    "advantages": [
+      "✔ Sistema exclusivo de projeção óptica de luz no tecido que elimina totalmente erros de enquadramento",
+      "✔ Ferramenta IQ Designer que digitaliza desenhos e fotos do celular em matrizes de bordado na própria tela",
+      "✔ Câmera de alta precisão NeedleCam com calibração milimétrica por marcadores de adesivo (Snowman)",
+      "✔ Total compatibilidade com o ecossistema .PES e conectividade sem fios Wi-Fi com o app IQ Intuition"
+    ],
+    "limitations": [
+      "Equipamento de luxo de elevado valor de investimento, posicionado no segmento premium de mercado.",
+      "A tela de 10.1 polegadas e o sistema de projeção exigem cuidado na manipulação e ambiente livre de poeira excessiva."
+    ],
+    "commonErrors": [
+      "❌ Utilizar carretilhas plásticas altas ou carretilhas de metal na laçadeira horizontal (exige padrão SA156/Class 15).",
+      "❌ Usar canetas convencionais ou pontiagudas na tela touch em vez da caneta stylus de ponta macia homologada.",
+      "❌ Esquecer de calibrar a câmera digital ao alternar entre tecidos ultra-finos (voil) e mantas acolchoadas de quilt.",
+      "❌ Deixar acumular fiapos de cola spray sobre a lente de projeção de LED do cabeçote."
+    ],
+    "troubleshootingTips": [
+      "Projeção de luz fora de foco ou desalinhada: Acesse o menu de configurações do Projetor e execute a calibração com a caneta stylus nos 4 pontos de calibragem na chapa.",
+      "Imagem do celular não carrega no IQ Designer: Verifique se o smartphone e a Baby Lock estão conectados exatamente na mesma rede Wi-Fi de 2.4 GHz.",
+      "Linha de carretilha aparecendo na superfície: Limpe a caixa de bobina horizontal retirando poeira acumulada sob a mola metálica de tensão."
+    ],
+    "dicaArtrelados": "Na Baby Lock Solaris, quando você for bordar um monograma em uma gola de camisa ou barra de toalha de banho, ative a Projeção de Grade (Grid Projection)! Ela projeta uma régua luminosa verde milimetrada sobre a peça: basta você alinhar a linha reta da luz exatamente com a costura da barra da toalha. O bordado sai perfeitamente retinho e nivelado sem você precisar riscar nem um milímetro de caneta ou giz no tecido nobre da sua cliente!",
+    "voceSabia": "A marca 'Baby Lock' recebeu esse nome carinhoso nos anos 1960 porque os engenheiros japoneses conseguiram compactar uma máquina industrial gigante em um aparelho tão pequeno e gracioso que as pessoas exclamavam encantadas: 'Parece um bebê de máquina!' (A baby of a lockstitch machine!). Até hoje, a marca mantém essa tradição de transformar as máquinas mais avançadas do mundo em equipamentos extremamente fáceis e amigáveis de usar!",
+    "practicalExercise": "Bordando um Desenho Feito à Mão com IQ Designer: Em uma folha de papel branco, faça o contorno de um coração ou escreva o seu nome com uma canetinha preta grossa. Abra o aplicativo IQ Intuition no celular, fotografe o papel e envie para a máquina. Na tela da Baby Lock, abra o menu IQ Designer, toque no desenho, escolha o ponto cheio (satin) e veja o desenho se transformar em bordado na hora. Encaixe o bastidor e borde a sua própria criação!",
+    "quickSummary": "Grife americana/japonesa de altíssimo luxo, célebre pela projeção de luz na peça (Solaris Vision), tecnologia IQ Designer de digitalização automática por foto, séries Array/Valiant de 6 e 10 agulhas e formato .PES.",
+    "relatedTerms": [
+      "Brother (Máquinas de Bordado Eletrônico)",
+      "Bernina / Bernette (Máquinas de Bordado Eletrônico)",
+      "Janome (Máquinas de Bordado Eletrônico)",
+      "Formato PES",
+      "Bastidor de Bordado",
+      "Agulha Cabo Chato (130/705 H)",
+      "Velocidade PPM"
+    ],
+    "tags": [
+      "b-104",
+      "babylock",
+      "solaris",
+      "meridian",
+      "array",
+      "valiant",
+      "maquinas",
+      "equipamento",
+      "pes",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BABY LOCK USA / TACONY CORP. Instruction and Reference Guide: Solaris Vision & Meridian Embroidery Systems. Fenton: Baby Lock, 2023.",
+      "BABY LOCK USA. IQ Designer & IQ Intuition Positioning User Handbook. Fenton, 2023.",
+      "ARTRELADOS. Inovação e Ergonomia Visual no Bordado Computadorizado de Alto Padrão. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-05"
   }
 ];

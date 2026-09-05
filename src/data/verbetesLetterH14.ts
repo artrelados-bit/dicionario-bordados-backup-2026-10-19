@@ -1329,5 +1329,211 @@ export const VERBETES_LETTER_H_PART14: Verbete[] = [
       "threadTension": "110 a 115gf",
       "density": "Sobreposição (Overlap) de +0.40 mm"
     }
+  },
+  {
+    "id": "h-101-husqvarna-viking-pfaff-maquinas-de-bordado-eletronico",
+    "code": "H-101",
+    "term": "Husqvarna Viking / Pfaff (Máquinas de Bordado Eletrônico)",
+    "pronunciation": "rus-kvar-na vi-king / pfaf (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    "letter": "H",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Máquinas e Equipamentos",
+    "grammarClass": "Substantivo próprio / Locução substantiva.",
+    "origin": "Husqvarna fundada em 1689 na cidade de Huskvarna (Suécia) como fábrica real de armamentos de precisão, iniciando a produção de máquinas de costura em 1872. Pfaff fundada em 1862 em Kaiserslautern (Alemanha) por Georg Michael Pfaff. Hoje integradas ao grupo SVP Worldwide, representam a mais sofisticada fusão da ergonomia escandinava com a engenharia mecânica alemã no bordado computadorizado residencial e de alta costura.",
+    "summary": "Dupla lendária de grifes europeias (Suécia e Alemanha) no bordado computadorizado de luxo, famosas pelo sistema exclusivo de transporte duplo integrado IDT, tecnologia de sensor de linha deLuxe Stitch System, bastidores gigantes Majestic Hoop (36x35 cm) e formato nativo .VP3.",
+    "definition": "Husqvarna Viking e Pfaff são marcas irmãs europeias de prestígio global que lideram a vanguarda do design e inovação tecnológica em máquinas computadorizadas de bordar e costurar combinadas. Famosas por suas telas panorâmicas capacitivas semelhantes a tablets de até 10 polegadas, sistema de nuvem mySewnet com conectividade Wi-Fi total, bastidores monumentais sem necessidade de re-enquadramento (como o Majestic Hoop de 360x350 mm e o Turnable Hoop) e a revolucionária tecnologia patenteada deLuxe Stitch System, que analisa a espessura do tecido e seleciona ativamente entre alimentação por tensão ou por dispensação métrica de linha.",
+    "technicalDetails": "Equipadas com servomotor eletrônico de passo de alta resolução, iluminação LED com espectro de luz natural sem sombras e enfiador de agulha totalmente automatizado por botão. Sistema de transporte integrado original Pfaff (IDT - Integrated Dual Feed) e tecnologia de sensores de tecido Exclusive Sensor System (ESS) da Husqvarna Viking, que regula automaticamente a altura do calcador conforme o relevo do bordado. Velocidade de costura de até 1.050 PPM. Suporta nativamente o ecossistema de formatos europeus .VP3 e .VIP, com leitura universal de .DST.",
+    "construction": [
+      "Chassi reforçado em liga de alumínio de alta rigidez estrutural com design escandinavo premiado",
+      "Braço livre alongado com o maior espaço de manuseio à direita da agulha da categoria (mais de 310 mm)",
+      "Tela sensível ao toque colorida capacitiva antirreflexo de 10.1 polegadas com gestos multitoque",
+      "Módulo de bordado desacoplável de alta precisão com rolamentos selados e passos micrométricos",
+      "Mecanismo de transporte duplo integrado original IDT (Pfaff) que traciona o tecido por cima e por baixo",
+      "Conjunto de bastidores ergonômicos com mola de travamento rápido Quick Release (incluindo o Majestic de 36x35 cm)",
+      "Sensor óptico duplo de linha superior e inferior com alerta antecipado de término de carretilha"
+    ],
+    "howItWorks": [
+      "1. A matriz em formato nativo .VP3 é enviada sem fios do computador ou celular diretamente para a tela da máquina através da nuvem mySewnet via Wi-Fi.",
+      "2. Na tela de 10 polegadas, o operador visualiza a matriz com renderização fotorrealista e utiliza a função Design Positioning para casar o bordado exatamente sobre a estampa do tecido com 4 pontos de toque.",
+      "3. O tecido é posicionado no bastidor Quick Release e conectado ao módulo de bordado de longo curso.",
+      "4. Ao iniciar, a tecnologia deLuxe Stitch System afere a resistência e a espessura do tecido através da agulha, decidindo automaticamente se alimenta a linha por tensão mecânica ou por dispensação exata de comprimento.",
+      "5. A máquina corta automaticamente os pontos de salto, puxa a ponta do fio para o avesso do tecido e amarra os pontos sem deixar fiapos na superfície.",
+      "6. O aplicativo móvel avisa a bordadeira no celular quando a máquina terminar uma cor de linha ou necessitar de troca de bobina."
+    ],
+    "beginnerExplanation": "A Husqvarna Viking e a Pfaff são consideradas o 'smartphone de última geração' das máquinas de bordar! Elas combinam o design lindo e moderno da Suécia com a força mecânica da Alemanha. O que torna essas máquinas mágicas é que você não precisa quebrar a cabeça regulando tensão de linha: ela tem um cérebro eletrônico (deLuxe Stitch System) que 'sente' se o tecido é fino ou grosso e solta a linha na medida exata! E você ainda consegue mandar a matriz do seu computador direto para a máquina pela internet sem precisar de pendrive!",
+    "applications": [
+      "Alta costura, vestidos de festa e bordados delicados em sedas puras, cetim e organza",
+      "Confecção de grandes colchas, painéis decorativos e mantas com o bastidor gigante Majestic Hoop de 36x35 cm",
+      "Técnicas de Quilting no bastidor e aplicação combinada de tecidos com auxílio do transporte duplo IDT",
+      "Bordados em peças de veludo cotelê, plush, toalhas felpudas e couro fino com ajuste automático de calcador",
+      "Personalização refinada de camisas sociais e monogramas em lenços de algodão egípcio"
+    ],
+    "mainTypes": [
+      "Husqvarna Viking Designer EPIC / EPIC 2 / EPIC 3: A nave-mãe sueca de bordado com tela monumental e costura a laser",
+      "Pfaff creative icon / creative icon 2: A obra-prima alemã com inteligência artificial, reconhecimento de voz e transporte IDT",
+      "Husqvarna Viking Designer Ruby / Sapphire: Modelos intermediários premium para ateliês exigentes",
+      "Pfaff creative 3.0 / 4.5: Máquinas combinadas de costura e bordado de grande robustez e precisão matemática",
+      "Husqvarna Viking Designer Jade 35: Modelo de entrada compacto com design nórdico moderno e elegante"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "750 a 900 PPM para acabamento sedoso de alta costura; até 1.050 PPM em áreas planas de tatami",
+      "needleType": "Sistema cabo chato 130/705 H (tamanhos 70/10 para sedas e rendas até 90/14 para lona e jeans)",
+      "stabilizer": "Entretela rasgável de toque macio de algodão de 50g/m² ou hidrossolúvel de filme duplo para tecidos finos"
+    },
+    "advantages": [
+      "✔ Sistema deLuxe Stitch System que dosa a quantidade milimétrica de linha por ponto sem franzir",
+      "✔ Maior área de trabalho e opções de bastidores gigantescos de até 360 x 350 mm sem emenda",
+      "✔ Integração total mySewnet por Wi-Fi com envio direto de matrizes e alertas no celular da bordadeira",
+      "✔ Função Design Positioning que permite casar contornos e desenhos contínuos com precisão de um toque na tela"
+    ],
+    "limitations": [
+      "Investimento financeiro elevado, posicionado no segmento de máquinas residenciais de luxo.",
+      "As carretilhas e caixas de bobina são proprietárias de cada modelo, exigindo suprimentos originais da marca."
+    ],
+    "commonErrors": [
+      "❌ Usar carretilhas genéricas transparentes de outras marcas que travam o leitor do sensor de bobina.",
+      "❌ Não esticar uniformemente o tecido nos bastidores gigantes Majestic Hoop, permitindo folga no centro.",
+      "❌ Desativar a função de corte de salto automático ao bordar matrizes densas com muitas letras pequenas.",
+      "❌ Esquecer de limpar a fresta dos sensores ópticos sob a chapa de agulha a cada troca de trabalho felpudo."
+    ],
+    "troubleshootingTips": [
+      "Alarme de Bobina Vazia no início do bordado: Retire a tampa da lançadeira e limpe a lente do sensor infravermelho de bobina com um pincel macio.",
+      "Linha metálica quebrando frequentemente: Altere a configuração do deLuxe Stitch System de 'Tension' para 'Thread Portioning' para a máquina alimentar o fio sem puxar.",
+      "Bastidor não reconhecido na tela: Encaixe o bastidor no braço do módulo e aperte a trava Quick Release até ouvir o estalo mecânico completo."
+    ],
+    "dicaArtrelados": "Ao bordar com linhas difíceis (como linhas metálicas, fios que brilham no escuro ou linhas acetinadas 100% seda) na sua Viking ou Pfaff, acesse o menu de costura na tela e selecione o modo 'Thread Portioning' (Porcionamento de Linha)! Em vez de prender a linha entre discos de tensão e arriscar arrebentar, a máquina desenrola o comprimento exato de fio que o ponto precisa: a linha metálica desliza suave como manteiga!",
+    "voceSabia": "A Husqvarna começou sua história no ano de 1689 como fábrica real de espingardas e mosquetes de precisão para o Rei da Suécia! O logotipo clássico da marca (uma mira de fuzil coroada com a letra 'H') é preservado com orgulho até hoje nas suas máquinas de bordar mais modernas como símbolo de pontaria e precisão cirúrgica!",
+    "practicalExercise": "Experimente o Alinhamento Perfeito com Design Positioning: Desenhe uma linha reta com giz de alfaiate no retalho. Prenda o tecido no bastidor meio torto de propósito. Na tela da EPIC ou creative icon, use a ferramenta Design Positioning e toque em dois pontos da tela para girar a matriz e alinhá-la exatamente em cima do traço do giz. Borde e comprove o alinhamento impecável!",
+    "quickSummary": "Consagrada aliança sueco-alemã de ultra-luxo e alta costura, líder mundial em telas panorâmicas, sistema deLuxe Stitch System, bastidor gigante Majestic de 36x35 cm e formato nativo .VP3.",
+    "relatedTerms": [
+      "Bernina / Bernette (Máquinas de Bordado Eletrônico)",
+      "Brother (Máquinas de Bordado Eletrônico)",
+      "Janome (Máquinas de Bordado Eletrônico)",
+      "Formato VP3",
+      "Bastidor de Bordado",
+      "Agulha Cabo Chato (130/705 H)",
+      "Velocidade PPM",
+      "Compensação de Repuxo"
+    ],
+    "tags": [
+      "h-101",
+      "husqvarna",
+      "viking",
+      "pfaff",
+      "maquinas",
+      "equipamento",
+      "epic",
+      "creativeicon",
+      "vp3",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "SVP WORLDWIDE. Husqvarna Viking Designer EPIC Series Operator Manual & deLuxe Stitch System Guide. Huskvarna: SVP Worldwide, 2023.",
+      "SVP WORLDWIDE. Pfaff creative icon 2 User Reference & IDT Precision Sewing Handbook. Kaiserslautern: SVP Worldwide, 2023.",
+      "ARTRELADOS. Alta Costura e Engenharia Europeia no Bordado Computadorizado Contemporâneo. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-05"
+  },
+  {
+    "id": "h-102-happyjapan-maquinas-de-bordado-eletronico",
+    "code": "H-102",
+    "term": "HappyJapan (Máquinas de Bordado Eletrônico)",
+    "pronunciation": "ré-pi dja-pan (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    "letter": "H",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Máquinas e Equipamentos",
+    "grammarClass": "Substantivo próprio / Locução substantiva.",
+    "origin": "Fundada em 1923 na província de Yamagata (Japão) como Happy Industrial Co., Ltd. (posteriormente HappyJapan Inc.). Pioneira no desenvolvimento de cabeçotes rotativos compactos para bordado comercial em metal fundido de alta resistência e fornecedora de tecnologia mecatrônica de precisão para a indústria japonesa.",
+    "summary": "Tradicionalíssima fabricante japonesa (Yamagata, 1923), famosa pela mecânica de alta resistência em ferro fundido, modelos compactos comerciais (HCH Journey e HCS Voyager de 7 e 12 agulhas) e formato .TAP/.DST.",
+    "definition": "A HappyJapan é uma consagrada fabricante japonesa de máquinas industriais e comerciais de bordado computadorizado de 1 até 12 cabeças (com 7, 12 ou 15 agulhas). Ganhou reputação lendária de durabilidade e robustez extrema no mercado internacional com as séries compactas HCH-701-30 'Journey' (7 agulhas, ideal para iniciantes comerciais), HCS2-1201 'Voyager' (12 agulhas, célebre para personalização móvel em quiosques e feiras) e HCD2-1501 (15 agulhas de alta velocidade contínua de até 1.200 PPM). Opera com comando computadorizado em tela touch colorida de 7 polegadas com integração via rede LAN pelo software HappyLink e formato binário .DST e .TAP.",
+    "technicalDetails": "Equipada com servomotores AC sem escovas de alta rotação sincronizados com parada de eixo a 100°. Velocidade operacional ajustável entre 450 e 1.200 PPM. Laçadeira rotativa vertical industrial tipo 'L' de precisão milimétrica, sistema de corte automático por faca móvel rápida de aço temperado com retentor de fio antivazamento e encoders ópticos de quebra de linha com indicação visual por LED no cabeçote. Suporta arquivos nos formatos Tajima (.DST) e proprietário Happy (.TAP).",
+    "construction": [
+      "Chassi monobloco fundido em ferro nodular maciço japonês com alta capacidade de absorção de vibrações",
+      "Cabeçote cilíndrico tubular estreito reforçado para bonés estruturados, sapatos e mangas",
+      "Conjunto seletor de agulhas para 7, 12 ou 15 cores com trilho linear de troca rápida por motor de passo",
+      "Painel de comando computadorizado colorido sensível ao toque de 7 polegadas com interface gráfica intuitiva",
+      "Sistema de corte de linha automático inferior de alta velocidade com recolhimento de ponta de fio",
+      "Ponteiro laser de alinhamento com função de traçado perimetral de segurança (Trace)",
+      "Porta de rede LAN Ethernet e entrada USB para transferência direta de arquivos a partir do software HappyLink"
+    ],
+    "howItWorks": [
+      "1. A matriz de bordado em formato .DST ou .TAP é enviada do computador diretamente para a máquina pelo cabo de rede LAN via software HappyLink ou por pendrive USB.",
+      "2. Na tela touch de 7 polegadas, o operador seleciona a matriz, programa a sequência de cores associando cada etapa a uma das agulhas (1 a 12 ou 1 a 15) e escolhe o bastidor.",
+      "3. A peça é fixada no bastidor tubular ou de boné e travada com precisão no pantógrafo de alta rigidez.",
+      "4. O operador aciona o botão Trace com o ponteiro laser para verificar se o desenho respeita as margens de segurança do bastidor.",
+      "5. Ao apertar o botão verde de partida, a máquina acelera suavemente com controle senoidal até 1.000 ou 1.200 PPM.",
+      "6. Em caso de quebra de linha ou fim de bobina, os sensores ópticos param o bordado instantaneamente e permitem recuar os pontos necessários para retoque perfeito."
+    ],
+    "beginnerExplanation": "A HappyJapan é conhecida no mundo do bordado como o 'tanque de guerra japonês'! É uma máquina comercial super resistente, feita inteiramente de metal maciço no Japão, mas compacta e fácil de manusear. Se você sonha em montar um negócio profissional para bordar bonés, camisetas de empresas, uniformes escolares e jalecos com muita rapidez sem se preocupar com quebras mecânicas, os modelos da Happy (como a Journey de 7 agulhas ou a Voyager de 12 agulhas) são lendários porque você pode carregar até para feiras e eventos!",
+    "applications": [
+      "Bordados em peças prontas como polos empresariais, camisas de algodão, jalecos e calças profissionais",
+      "Bordados em bonés montados estruturados de 6 gomos em 270° com o dispositivo cilíndrico de boné",
+      "Personalização móvel em eventos esportivos, quiosques de shopping e feiras de artesanato (série Voyager)",
+      "Produção seriada em grande volume com as linhas multi-cabeças industriais HCR3",
+      "Bordados com alto relevo 3D (EVA), couro automotivo e emblemas militares pesados"
+    ],
+    "mainTypes": [
+      "Happy HCH-701-30 'Journey': Modelo compacto de 1 cabeça e 7 agulhas com tela touch, perfeito para pequenos ateliês",
+      "Happy HCS2-1201 'Voyager': Modelo comercial campeão de 12 agulhas com velocidade de 1.000 PPM para produção flexível",
+      "Happy HCD2-1501 / HCD3: Máquina industrial pesada de 15 agulhas e velocidade de até 1.200 PPM para trabalho 24 horas",
+      "Happy HCR3 Multi-Cabeças (2, 4, 6 e 8 cabeças): Linha de alta produção para grandes indústrias de confecção"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "850 a 1.000 PPM para peças planas normais; 650 a 750 PPM para bonés estruturados e EVA 3D",
+      "needleType": "Sistema industrial DBxK5 (tamanhos 70/10 para malhas e camisas até 90/14 para bonés e jeans)",
+      "stabilizer": "Entretela rasgável de 70g/m² a 80g/m² ou entretela resinada especial para bonés estruturados"
+    },
+    "advantages": [
+      "✔ Chassi mecânico maciço em ferro fundido de fabricação 100% japonesa de altíssima durabilidade",
+      "✔ Modelos compactos (Journey e Voyager) com excelente portabilidade para eventos e ateliês com espaço reduzido",
+      "✔ Software HappyLink gratuito que permite enviar matrizes do computador direto para a máquina via rede LAN",
+      "✔ Passagem de linha simplificada e direta com tensores manuais precisos e graduados"
+    ],
+    "limitations": [
+      "Utiliza agulhas industriais de cabo redondo (DBxK5), exigindo atenção manual no correto alinhamento da canaleta.",
+      "Painel de 7 polegadas focado em produtividade direta, com menos recursos de desenho artístico na própria tela."
+    ],
+    "commonErrors": [
+      "❌ Mover a chave manual de troca de agulha com a máquina fora da posição de parada angular de 100°.",
+      "❌ Iniciar o bordado sem fazer o teste perimetral com o ponteiro laser (botão Trace) para checar colisão com o bastidor.",
+      "❌ Deixar de colocar uma gota de óleo mineral na pista da laçadeira rotativa vertical a cada início de expediente.",
+      "❌ Não engatar corretamente a presilha traseira da cinta de aço ao enquadrar bonés estruturados."
+    ],
+    "troubleshootingTips": [
+      "Fio escapando do olho da agulha após o corte: Ajuste a mola de retenção superior de linha (Picker Spring) e limpe resíduos na faca sob a chapa.",
+      "Alarme de Thread Break com linha intacta: Limpe os roletes ópticos do cabeçote com ar comprimido seco para remover fiapos de linha.",
+      "Pontos pulados em tecidos grossos: Verifique se a agulha DBxK5 está inserida até o batente superior com a canaleta longa voltada exatamente para a frente."
+    ],
+    "dicaArtrelados": "Nas máquinas HappyJapan, a regulagem de tensão é super estável graças aos tensores rotativos manuais graduados. Para que todas as 12 ou 15 agulhas bordem com a mesma beleza e brilho uniforme, use um tensiômetro de precisão na ponta de cada linha: calibre a linha de cima entre 110 e 120 gramas-força e a caixinha de bobina em 25 gramas-força. Os seus pontos cheios vão sair com acabamento de ateliê japonês!",
+    "voceSabia": "O nome 'Happy' (Feliz) foi escolhido pelos fundadores da fábrica no Japão em 1923 porque eles acreditavam que costurar e bordar roupas bonitas deveria trazer alegria e felicidade tanto para quem produz quanto para quem veste! Além das bordadeiras consagradas, a HappyJapan fabrica peças mecânicas de precisão cirúrgica para marcas de automóveis japonesas mundiais como Toyota e Honda!",
+    "practicalExercise": "Envio sem Fios ou por Cabo via HappyLink: Conecte a sua HappyJapan ao computador pelo cabo de rede. No programa HappyLink no seu computador, abra uma matriz em .DST, arraste as cores correspondentes para cada número de agulha e clique em 'Send'. Veja a matriz aparecer no painel touch de 7 polegadas da sua Happy pronta para costurar num piscar de olhos!",
+    "quickSummary": "Tradicionalíssima fabricante japonesa (Yamagata, 1923), famosa pela mecânica de alta resistência em ferro fundido, modelos compactos comerciais (HCH Journey e HCS Voyager de 7 e 12 agulhas) e formato .TAP/.DST.",
+    "relatedTerms": [
+      "Tajima",
+      "Barudan (Máquinas de Bordado Eletrônico)",
+      "Brother (Máquinas de Bordado Eletrônico)",
+      "Formato DST",
+      "Agulha DBxK5",
+      "Bastidor de Boné",
+      "Velocidade PPM"
+    ],
+    "tags": [
+      "h-102",
+      "happyjapan",
+      "happy",
+      "japonesa",
+      "maquinas",
+      "equipamento",
+      "voyager",
+      "journey",
+      "dst",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "HAPPYJAPAN INC. Instruction Manual: HCS2-1201 Voyager & HCD2 Commercial Embroidery Machines. Yamagata: HappyJapan, 2023.",
+      "HAPPYJAPAN INC. HappyLink & HappyDesign Network Communication Guide. Yamagata, 2022.",
+      "ARTRELADOS. Guia Técnico e Comparativo de Máquinas Compactas Japonesas no Mercado Brasileiro. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-05"
   }
 ];

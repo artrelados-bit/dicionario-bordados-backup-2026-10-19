@@ -924,5 +924,108 @@ export const VERBETES_LETTER_Z7: Verbete[] = [
       "ARTRELADOS. Engenharia de Materiais Têxteis: Cerâmicas Técnicas, Passa-Fios e Dinâmica de Fricção. São Paulo, 2024."
     ],
     updatedAt: "2026-08-30"
+  },
+  {
+    id: "z-027-zsk-maquinas-de-bordado-eletronico",
+    code: "Z-027",
+    term: "ZSK (Máquinas de Bordado Eletrônico)",
+    pronunciation: "zê-es-ká (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    letter: "Z",
+    level: "Avançado 🔴",
+    category: "Máquinas e Equipamentos",
+    grammarClass: "Substantivo próprio / Locução substantiva.",
+    origin: "Fundada em Krefeld (Alemanha) como divisão têxtil de precisão da histórica Zangs (fundada em 1875). Em 1984, refundada como ZSK Stickmaschinen GmbH. Pioneira absoluta no desenvolvimento do primeiro cabeçote eletrônico multi-agulhas de acoplamento magnético da Europa e líder global em máquinas de bordado técnico para a indústria aeroespacial, médica e automotiva.",
+    summary: "Fabricante alemã de prestígio supremo mundial em máquinas industriais de bordado tubular e plano de 1 até 56 cabeças (séries Sprint e Racer de 12 e 18 agulhas), célebre pelo menor braço tubular do mercado, velocidade de até 1.400 PPM e liderança em bordado técnico.",
+    definition: "A ZSK é uma das mais respeitadas e avançadas fabricantes mundiais de maquinário industrial de bordado computadorizado de altíssima precisão. Notabilizou-se globalmente pela engenharia alemã sem folgas, chassi monobloco de inércia absoluta e pelo menor e mais estreito braço tubular da indústria têxtil internacional (sem palhetas ou guias externas salientes), o que viabiliza o bordado em locais inacessíveis como bolsos de camisas prontas, tênis, meias e luvas. É pioneira na tecnologia TFP (Tailored Fiber Placement) para bordar fios de fibra de carbono em compósitos estruturais aeroespaciais e automotivos, operando com o software BasePac e formato nativo .Z?? / padrão .DST.",
+    technicalDetails: "Equipada com servomotores digitais alemães de altíssimo torque com controle computadorizado T8-2 em tela touch industrial. Acionamento de seleção de agulhas por acoplamento magnético patenteado de desgaste zero, dispensando molas de tração convencionais. Velocidade contínua de até 1.400 PPM em peças planas e 1.200 PPM em peças tubulares. Laçadeira rotativa vertical industrial de tolerância micrométrica, corte inferior com tesoura rotativa de aço temperado e retenção pneumática de linha. Suporta nativamente arquivos nos formatos ZSK (.Z01 a .Z99) e Tajima (.DST).",
+    construction: [
+      "Chassi monobloco fundido em liga de aço alemã de alta rigidez para absorção total de vibrações",
+      "Braço cilíndrico tubular estreito exclusivo (o mais fino do mundo, sem chapa inferior saliente)",
+      "Cabeçotes compactos de alta precisão com conjuntos de 12, 18 ou 24 agulhas acionadas magneticamente",
+      "Painel de comando industrial T8-2 colorido sensível ao toque com interface multilíngue e diagnósticos",
+      "Sistema de corte inferior ultrarrápido por tesoura rotativa acionada eletronicamente",
+      "Dispositivo especial para calçados (Shoe Frame), bastidores de boné e mesas pantográficas de leito plano",
+      "Sensores ópticos duplos de linha superior e inferior com indicação luminosa por LED em cada cabeçote"
+    ],
+    howItWorks: [
+      "1. A matriz de bordado em formato nativo ZSK (.Z??) ou binário .DST é carregada no comando T8-2 via pendrive USB ou conexão de rede Ethernet.",
+      "2. O operador seleciona a matriz, atribui as cores correspondentes às agulhas ativas (de 1 a 18) e ajusta a altura micrométrica do calcador independente para a espessura da peça.",
+      "3. A peça (como o bico de um tênis esportivo ou um bolso de camisa pronta) é montada no bastidor especial e encaixada no braço tubular ultrafino da ZSK.",
+      "4. O operador aciona o teste perimetral com o ponteiro laser para conferir as margens de segurança milimétricas.",
+      "5. A máquina inicia a costura em alta velocidade com aceleração senoidal germânica, mantendo estabilidade inabalável entre 1.000 e 1.400 PPM.",
+      "6. O sistema magnético troca as cores em frações de segundo e a tesoura rotativa apara os fios rentes ao tecido, entregando um bordado limpo sem fios soltos."
+    ],
+    beginnerExplanation: "A ZSK é como o 'Porsche' ou a 'Audi' das máquinas de bordar industriais! Ela é fabricada na Alemanha com a precisão dos relógios e motores mais perfeitos do mundo. A maior maravilha da ZSK é o seu braço de bordar: ele é tão fininho que você consegue vestir um bolso de camisa social já pronta ou o bico de um tênis sem precisar descosturar nada! Além de roupas, as máquinas ZSK são tão perfeitas que bordam até circuitos de ouro em roupas de astronautas e peças de carros de corrida!",
+    applications: [
+      "Bordados em locais extremamente estreitos e de difícil acesso como bolsos prontos, bicos de tênis, meias e luvas",
+      "Bordados de altíssima costura e monogramas milimétricos em camisas sociais e alfaiataria fina",
+      "Bordado técnico aeroespacial e automotivo (costura de fios condutivos de cobre, sensores e fibra de carbono)",
+      "Produção seriada pesada de uniformes, jaquetas e bonés estruturados em regimes de 24 horas ininterruptas",
+      "Confecção de emblemas, brasões militares e peças em alto relevo 3D com densidades extremas"
+    ],
+    mainTypes: [
+      "ZSK Sprint 6 / Sprint 7: Máquinas tubulares compactas de 1 cabeça e 18 agulhas, o ápice da precisão para ateliês de moda e calçados",
+      "ZSK Racer Series (1 a 12 cabeças): A linha de produção de alta velocidade com 12 ou 18 agulhas por cabeçote",
+      "ZSK Challenger: Linha pesada de grande formato plano com até 56 cabeças para tecidos de metragem e cortinas",
+      "ZSK Technical Embroidery Systems (TFP): Máquinas desenvolvidas para colocar fios elétricos e fibras estruturais"
+    ],
+    recommendedSettings: {
+      speedPPM: "950 a 1.200 PPM para peças tubulares e bonés; até 1.400 PPM em retas e planos",
+      needleType: "Sistema industrial DBxK5 (tamanhos 65/9 para monogramas finos até 90/14 para sapatos e bonés)",
+      stabilizer: "Entretela rasgável de algodão de 70g/m² a 90g/m² ou entretela resinada especial para sapatos"
+    },
+    advantages: [
+      "✔ O menor e mais estreito braço tubular cilíndrico da indústria mundial, permitindo bordar peças tubulares fechadas",
+      "✔ Sistema de seleção de agulhas por acoplamento magnético livre de atrito e sem molas de desgaste",
+      "✔ Cabeçotes com até 18 agulhas em formato compacto, minimizando trocas de cones e paradas de linha",
+      "✔ Liderança global e tecnologia exclusiva para bordados técnicos de alta engenharia e materiais compósitos"
+    ],
+    limitations: [
+      "Alto investimento financeiro inicial, justificado pela fabricação 100% alemã de altíssimo padrão mecânico.",
+      "Exige equipe técnica treinada e manutenção preventiva com lubrificantes originais sintéticos recomendados pela ZSK."
+    ],
+    commonErrors: [
+      "❌ Utilizar óleos comuns vegetais ou minerais viscosos no cabeçote magnético em vez do óleo sintético homologado ZSK.",
+      "❌ Não ajustar a altura do calcador ao alternar de camisas finas de algodão para couro espesso de calçado.",
+      "❌ Forçar o bastidor no braço tubular sem engatar o pino de trava rápida na posição correta.",
+      "❌ Tentar operar a máquina com o comando T8-2 sem conferir o aterramento elétrico industrial obrigatório."
+    ],
+    troubleshootingTips: [
+      "Mensagem de Maintenance Required no painel T8-2: Execute o plano de lubrificação guiado na tela touch e confirme o reset do contador de horas.",
+      "Ponta de fio superior solta após o corte: Verifique o alinhamento da tesoura rotativa sob a chapa de agulha e limpe fiapos com ar comprimido seco.",
+      "Alarme de quebra em alta velocidade com linha inteira: Ajuste a sensibilidade dos encoders ópticos no menu de calibração do T8-2."
+    ],
+    dicaArtrelados: "O braço tubular da ZSK Sprint é uma obra de arte da engenharia porque ele não tem nenhuma protuberância ou chapa grossa embaixo: o tecido desliza em volta dele como uma luva. Ao bordar bolsos de camisas prontas ou calçados, utilize o bastidor magnético ou o bastidor de bolso específico da ZSK: você veste a peça com a maior tranquilidade do mundo e não precisa descosturar nenhuma costura de fábrica!",
+    voceSabia: "As máquinas ZSK são utilizadas pelas agências espaciais europeias para bordar os circuitos térmicos e sensores dos trajes dos astronautas! A precisão dos seus servomotores permite costurar fios de ouro e de cobre mais finos que um fio de cabelo diretamente sobre o tecido com precisão de 0,01 milímetro!",
+    practicalExercise: "Bordando no Braço Ultrafino da ZSK: Em uma ZSK Sprint, selecione uma camisa social com bolso frontal fechado. Vista o bolso no braço tubular estreito com o bastidor especial para bolsos. No painel T8-2, alinhe o monograma de 2 cm com o ponteiro laser e borde a 900 PPM com agulha fina 70/10. Retire a camisa e admire como o bolso permanece perfeito, sem vincos nem marcas de aperto!",
+    quickSummary: "Fabricante alemã de supremo prestígio internacional (Krefeld), famosa pela engenharia de precisão sem folgas, menor braço tubular da indústria, séries Sprint e Racer de 18 agulhas e liderança em bordado técnico.",
+    relatedTerms: [
+      "Tajima",
+      "Barudan (Máquinas de Bordado Eletrônico)",
+      "SWF / SunStar (Máquinas de Bordado Eletrônico)",
+      "Typical (Máquinas de Bordado Eletrônico)",
+      "Formato DST",
+      "Agulha DBxK5",
+      "Bastidor de Boné",
+      "Velocidade PPM"
+    ],
+    tags: [
+      "z-027",
+      "zsk",
+      "maquinas",
+      "equipamento",
+      "sprint",
+      "racer",
+      "alema",
+      "industrial",
+      "dst",
+      "artrelados"
+    ],
+    bibliographicReferences: [
+      "ZSK STICKMASCHINEN GMBH. Technical Manual: SPRINT & RACER Series Precision Embroidery Systems. Krefeld: ZSK, 2023.",
+      "ZSK STICKMASCHINEN GMBH. Technical Embroidery & Tailored Fiber Placement (TFP) Handbook. Krefeld, 2022.",
+      "ARTRELADOS. Panorama da Engenharia Germânica no Bordado Computadorizado e Têxteis Inteligentes. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-05"
   }
 ];

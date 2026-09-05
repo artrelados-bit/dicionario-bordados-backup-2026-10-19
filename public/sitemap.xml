@@ -1431,6 +1431,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Verbete: [b-104-baby-lock-maquinas-de-bordado-eletronico] Baby Lock (Máquinas de Bordado Eletrônico) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=b-104-baby-lock-maquinas-de-bordado-eletronico</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Verbete: [c-001-cabecote-de-bordado] Cabeçote de Bordado -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=c-001-cabecote-de-bordado</loc>
@@ -3464,6 +3471,13 @@
   <!-- Verbete: [e-100-engenharia-otimizacao-global-trajetoria-reducao-saltos] Engenharia de Otimização Global de Trajetória e Redução de Saltos (Branching, Pathfinding &amp; Jump Stitch Elimination) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=e-100-engenharia-otimizacao-global-trajetoria-reducao-saltos</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [e-101-elna-maquinas-de-bordado-eletronico] Elna (Máquinas de Bordado Eletrônico) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=e-101-elna-maquinas-de-bordado-eletronico</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -5564,6 +5578,20 @@
   <!-- Verbete: [h-100-histerese-mecanica-compensacao-folga-xy-backlash] Histerese Mecânica e Compensação de Folga X/Y (Backlash Hysteresis Compensation in Digitizing) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=h-100-histerese-mecanica-compensacao-folga-xy-backlash</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [h-101-husqvarna-viking-pfaff-maquinas-de-bordado-eletronico] Husqvarna Viking / Pfaff (Máquinas de Bordado Eletrônico) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=h-101-husqvarna-viking-pfaff-maquinas-de-bordado-eletronico</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [h-102-happyjapan-maquinas-de-bordado-eletronico] HappyJapan (Máquinas de Bordado Eletrônico) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=h-102-happyjapan-maquinas-de-bordado-eletronico</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -17184,6 +17212,13 @@
   <!-- Verbete: [z-026-zirconia-coated-ceramic-eyelets-and-thread-guides] Zirconia-Coated Ceramic Eyelets &amp; Thread Guides (Passa-Fios e Guia-Linhas em Cerâmica de Zircônia) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=z-026-zirconia-coated-ceramic-eyelets-and-thread-guides</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [z-027-zsk-maquinas-de-bordado-eletronico] ZSK (Máquinas de Bordado Eletrônico) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=z-027-zsk-maquinas-de-bordado-eletronico</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

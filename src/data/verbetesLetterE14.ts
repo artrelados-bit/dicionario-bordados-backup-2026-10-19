@@ -1339,5 +1339,107 @@ export const VERBETES_LETTER_E_PART14: Verbete[] = [
       "threadTension": "105 a 115gf",
       "density": "0.40 mm com Ramificação Inteligente ativada"
     }
+  },
+  {
+    "id": "e-101-elna-maquinas-de-bordado-eletronico",
+    "code": "E-101",
+    "term": "Elna (Máquinas de Bordado Eletrônico)",
+    "pronunciation": "él-na (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    "letter": "E",
+    "level": "Iniciante a Intermediário 🟢🟡",
+    "category": "Máquinas e Equipamentos",
+    "grammarClass": "Substantivo próprio / Locução substantiva.",
+    "origin": "Fundada em Genebra (Suíça) em 1940 pelo inventor e industrial Ramon Casas Robert. Ficou imortalizada na história do design industrial mundial ao criar a lendária 'Elna 1' (a célebre máquina verde que integra o acervo de design permanente do Museu de Arte Moderna de Nova York - MoMA). Integrou-se tecnologicamente ao grupo Janome mantendo seu DNA exclusivo de design ergonômico europeu, suavidade operacional e robustez mecânica.",
+    "summary": "Fabricante suíça histórica consagrada no acervo permanente do MoMA de Nova York, célebre pela suavidade mecânica ultrassilenciosa, série eXpressive (de 1 a 7 agulhas), campos amplos de até 20x36 cm e formato .JEF.",
+    "definition": "A Elna é uma conceituada marca suíça de máquinas de bordado computadorizado e costura de alto padrão, notabilizada pela precisão relojoeira de Genebra, estética contemporânea refinada e funcionamento ultrassilencioso. Destaca-se pela consagrada série de bordado eXpressive (como a eXpressive 830 / 830L dedicada exclusivamente ao bordado com amplos bastidores de 200x360 mm, os modelos combinados eXpressive 860 e 920, e a semi-industrial multiagulhas eXpressive 970 de 7 agulhas e braço tubular). Utiliza laçadeira horizontal rotativa à prova de travamentos com tampa transparente de acrílico e formato universal .JEF.",
+    "technicalDetails": "Acionamento por motor digital eletrônico de baixo consumo e vibração atenuada por amortecedores de chassi. Velocidade ajustável entre 400 e 860 PPM em modelos planos e até 800 PPM no modelo multiagulhas 970. Tela sensível ao toque colorida de alta resolução com edição na própria máquina (rotação, redimensionamento de 80% a 120%, espelhamento e combinação de fontes). Corte de linha superior e inferior automático com sensor de término de bobina e enfiador de agulha guiado superior. Leitura e gravação direta no formato .JEF e .JEF+.",
+    "construction": [
+      "Chassi monobloco fundido em liga de alumínio leve de alta rigidez com isolamento acústico suíço",
+      "Laçadeira horizontal rotativa com caixa de bobina de polímero técnico e imã de estabilização",
+      "Braço livre amplo com mesa extensora de apoio ergonômico para grandes projetos e colchas",
+      "Painel de comando colorido LCD touchscreen capacitivo com navegação por ícones intuitivos",
+      "Sistema de iluminação multiponto com lâmpadas LED brancas distribuídas ao longo do braço livre",
+      "Conjunto de bastidores magnéticos e de parafuso ergonômico com presilhas de cantos reforçados",
+      "Porta USB lateral para conexão imediata de pendrive com matrizes de bordado"
+    ],
+    "howItWorks": [
+      "1. A matriz de bordado em formato .JEF é salva no pendrive e conectada na porta USB lateral da máquina Elna.",
+      "2. Na tela colorida touch, a bordadeira visualiza o desenho com renderização de fios, ajusta o posicionamento e confirma o tamanho do bastidor correspondente.",
+      "3. O tecido e a entretela são montados no bastidor e travados no carro pantográfico com o sistema de encaixe rápido de um clique.",
+      "4. A bordadeira passa a linha pelo percurso numerado e aciona o enfiador de agulha automático integrado.",
+      "5. Ao apertar o botão Start/Stop verde, a máquina inicia o bordado com aceleração gradual macia, costurando silenciosamente a até 860 PPM.",
+      "6. Ao finalizar a cor ou o desenho, a faca interna apara as linhas rente ao tecido e levanta a barra de agulha automaticamente."
+    ],
+    "beginnerExplanation": "A Elna é o sonho de consumo de quem ama um ateliê silencioso, gostoso e sem sustos! O barulho dela funcionando é tão baixinho e suave que você consegue bordar assistindo à sua novela ou ouvindo música com a maior tranquilidade. A tampa de onde fica a carretilha é transparente, então você bate o olho e vê quanta linha ainda tem antes de começar um bordado grande. É a máquina perfeita para bordar fraldinhas de bebê, toalhas de banho e vestidos finos com um brilho de linha espetacular!",
+    "applications": [
+      "Enxovais refinados de bebê, fraldas de luxo, mantas de piquê e roupinhas com monogramas delicados",
+      "Personalização de toalhas de banho e rosto, roupões e jogos de cama com o bastidor gigante de 20x36 cm",
+      "Bordados em peças de alfaiataria, camisas sociais e vestidos de festa em seda pura e linho",
+      "Quilting no bastidor e aplicação de tecidos (appliqué) com corte preciso de contornos",
+      "Bordados comerciais em pequenas séries e peças prontas tubulares com a Elna multiagulhas eXpressive 970"
+    ],
+    "mainTypes": [
+      "Elna eXpressive 830 / 830L: Máquinas puras de bordar com área ampla de 200x280 mm até 200x360 mm, as favoritas dos ateliês",
+      "Elna eXpressive 860 / 920: Modelos híbridos topo de linha que unem costura avançada e módulo de bordar de alta precisão",
+      "Elna eXpressive 970: Modelo semi-industrial de 7 agulhas de braço livre para bonés e produção contínua",
+      "Elna eXpressive 820: Modelo clássico consagrado por sua durabilidade mecânica e simplicidade operacional"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "600 a 750 PPM para acabamento acetinado de luxo; 800 a 860 PPM para tatami em áreas planas",
+      "needleType": "Sistema cabo chato doméstico 130/705 H (Ponta Bola / Blue Tip para malhas e 75/11 para algodão e linho)",
+      "stabilizer": "Entretela rasgável macia de 50g/m² a 60g/m² ou hidrossolúvel em relevos de toalhas"
+    },
+    "advantages": [
+      "✔ Mecânica suíça ultrassilenciosa com quase zero vibração na bancada durante a costura",
+      "✔ Laçadeira horizontal transparente à prova de travamentos com corte automático de carretilha",
+      "✔ Grande variedade de bastidores de alta rigidez com áreas generosas de até 200 x 360 mm",
+      "✔ Compatibilidade nativa com o formato universal .JEF, facilitando encontrar matrizes em qualquer lugar"
+    ],
+    "limitations": [
+      "Nos modelos de 1 agulha, a troca de cor de linha é manual a cada etapa indicada na tela da máquina.",
+      "As carretilhas devem ser exclusivamente de acrílico alto (padrão Janome/Elna), evitando carretilhas metálicas."
+    ],
+    "commonErrors": [
+      "❌ Utilizar carretilhas de metal ou carretilhas plásticas baixas que danificam a caixa de bobina de polímero.",
+      "❌ Puxar o tecido esticado pelas bordas depois de apertar o parafuso do bastidor, gerando franzimento após o bordado.",
+      "❌ Iniciar o bordado sem abaixar a alavanca do calcador (a máquina emite sinal sonoro de segurança).",
+      "❌ Esquecer de colocar entretela hidrossolúvel por cima de toalhas felpudas, afundando os pontos cheios."
+    ],
+    "troubleshootingTips": [
+      "Linha inferior aparecendo por cima do bordado: Verifique se a linha superior passou corretamente pelo estica-fio e aumente a tensão superior na tela em +1 ou +2 pontos.",
+      "Alarme de bastidor não reconhecido: Encaixe o pino do bastidor no suporte do carro pantográfico até ouvir o clique e confirme na tela.",
+      "Pontos pulados em malhas elásticas: Substitua a agulha por uma agulha nova Ponta Bola SES ou Agulha Ponta Azul (Blue Tip)."
+    ],
+    "dicaArtrelados": "Nas máquinas Elna da linha eXpressive, o segredo da perfeição nos bordados delicados é a agulha de Ponta Azul (Blue Tip)! Ela foi calibrada com um olho levemente arredondado que evita atrito com o fio e uma ponta que desvia das tramas do tecido sem furar ou cortar os fios da sua peça. Se você vai bordar toalhinhas finas de batizado ou camisas de linho, coloque uma agulha ponta azul e veja o ponto sair liso como uma pintura a óleo!",
+    "voceSabia": "A primeira máquina de costura criada pela Elna em 1940 (a famosa Elna 1 'Gafanhoto', pintada em verde metálico clássico) foi um divisor de águas tão colossal na história do design que sua própria maleta de transporte de metal se transformava na mesa extensora da máquina! O Museu de Arte Moderna de Nova York (MoMA) colocou a Elna 1 em sua coleção permanente como um dos maiores ícones do design industrial do século XX!",
+    "practicalExercise": "Colocação Perfeita da Bobina na Elna: Deslize a travinha preta da tampa de acrílico da carretilha. Segure a carretilha cheia com o fio saindo para a esquerda (formando um 'P' perfeito). Encaixe na caixa de bobina, passe o fio pela ranhura metálica até o cortador automático e feche a tampa. Ligue a máquina, carregue um pequeno coração e borde sem encostar na linha inferior: você verá o ponto nascer perfeito e amarradinho no verso!",
+    "quickSummary": "Fabricante suíça histórica consagrada no acervo do MoMA de Nova York, famosa pelo silêncio mecânico extremo, série eXpressive (de 1 a 7 agulhas), campos de até 20x36 cm e formato .JEF.",
+    "relatedTerms": [
+      "Janome (Máquinas de Bordado Eletrônico)",
+      "Bernina / Bernette (Máquinas de Bordado Eletrônico)",
+      "Brother (Máquinas de Bordado Eletrônico)",
+      "Formato JEF",
+      "Agulha Cabo Chato (130/705 H)",
+      "Caixa de Bobina",
+      "Velocidade PPM"
+    ],
+    "tags": [
+      "e-101",
+      "elna",
+      "suica",
+      "maquinas",
+      "equipamento",
+      "expressive",
+      "830l",
+      "jef",
+      "silenciosa",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "ELNA INTERNATIONAL CORP. SA. Instruction Manual: Elna eXpressive 830L & 920 Precision Systems. Genebra: Elna, 2023.",
+      "ELNA INTERNATIONAL CORP. SA. The Story of Swiss Design in Sewing & Embroidery. Genebra, 2022.",
+      "ARTRELADOS. A Nobreza dos Ateliês: O Silêncio e a Precisão da Engenharia Suíça no Bordado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-05"
   }
 ];
