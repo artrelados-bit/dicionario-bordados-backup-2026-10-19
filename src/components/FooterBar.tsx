@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BookmarkCheck, RotateCcw, BookMarked, BookOpen, X, Search, Check, ExternalLink, Sparkles, FileText, Info, ShieldAlert } from "lucide-react";
+import { BookmarkCheck, RotateCcw, BookMarked, BookOpen, X, Search, Check, ExternalLink, Sparkles, FileText, Info, ShieldAlert, ShieldCheck, Scale } from "lucide-react";
 import { DictionaryStats } from "../types";
 import { OFFICIAL_REFERENCES, ReferenceItem } from "../data/referencesData";
 
@@ -14,6 +14,8 @@ export const FooterBar: React.FC<FooterBarProps> = ({
 }) => {
   // References modal state
   const [showReferencesModal, setShowReferencesModal] = useState(false);
+  // Legal notice & intellectual property modal state
+  const [showLegalNoticeModal, setShowLegalNoticeModal] = useState(false);
   const [references] = useState<ReferenceItem[]>(() => {
     try {
       const saved = localStorage.getItem("dibe_official_references_v6");
@@ -67,6 +69,16 @@ export const FooterBar: React.FC<FooterBarProps> = ({
 
           {/* Action Tools */}
           <div className="flex flex-wrap items-center justify-center gap-2.5">
+            {/* Legal Notice & Autorship Button */}
+            <button
+              onClick={() => setShowLegalNoticeModal(true)}
+              className="px-4 py-2 rounded-xl bg-zinc-900 hover:bg-zinc-800 text-zinc-300 hover:text-white font-black text-xs flex items-center space-x-2 shadow border border-zinc-700 hover:border-zinc-500 transition cursor-pointer"
+              title="Ver Aviso Legal, Blindagem Editorial e Propriedade Intelectual"
+            >
+              <Scale className="w-4 h-4 text-amber-400" />
+              <span>⚖️ Aviso Legal & Direitos</span>
+            </button>
+
             {/* References Button */}
             <button
               onClick={() => setShowReferencesModal(true)}
@@ -101,6 +113,14 @@ export const FooterBar: React.FC<FooterBarProps> = ({
             >
               https://www.artrelados.com.br/
             </a>
+            <span className="text-zinc-600">•</span>
+            <button
+              onClick={() => setShowLegalNoticeModal(true)}
+              className="text-zinc-400 hover:text-white hover:underline font-bold inline-flex items-center gap-1 cursor-pointer"
+            >
+              <Scale className="w-3 h-3 text-amber-400" />
+              <span>Aviso Legal</span>
+            </button>
             <span className="text-zinc-600">•</span>
             <button
               onClick={() => setShowReferencesModal(true)}
@@ -273,6 +293,114 @@ export const FooterBar: React.FC<FooterBarProps> = ({
                 className="px-5 py-2.5 rounded-xl bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-xs transition cursor-pointer shadow-md border border-amber-500"
               >
                 Concluir Consulta
+              </button>
+            </div>
+
+          </div>
+        </div>
+      )}
+
+      {/* Modal: Aviso Legal, Blindagem Editorial e Propriedade Intelectual */}
+      {showLegalNoticeModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-slate-950/75 backdrop-blur-md animate-fade-in text-slate-900">
+          <div className="bg-white text-slate-900 rounded-3xl border-2 border-amber-400 shadow-2xl max-w-3xl w-full max-h-[92vh] flex flex-col overflow-hidden">
+            
+            {/* Modal Header */}
+            <div className="p-5 sm:p-6 bg-amber-400 border-b-2 border-amber-500 flex items-center justify-between shrink-0">
+              <div className="flex items-center space-x-3">
+                <div className="p-3 bg-slate-950 text-amber-400 rounded-2xl shadow-md">
+                  <Scale className="w-6 h-6" />
+                </div>
+                <div>
+                  <h2 className="text-xl sm:text-2xl font-black text-slate-950 tracking-tight uppercase">
+                    AVISO LEGAL & DIRETRIZES EDITORIAIS
+                  </h2>
+                  <p className="text-xs font-bold text-slate-800 mt-0.5">
+                    Propriedade intelectual, natureza consultiva e termos de uso do DIBE
+                  </p>
+                </div>
+              </div>
+
+              <button
+                onClick={() => setShowLegalNoticeModal(false)}
+                className="p-2 rounded-full bg-slate-950 hover:bg-slate-800 text-amber-400 transition cursor-pointer shadow-sm"
+                title="Fechar"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            {/* Modal Content Scroll Area */}
+            <div className="p-5 sm:p-7 overflow-y-auto space-y-5 flex-1 custom-scrollbar text-xs sm:text-sm leading-relaxed text-slate-700 bg-white">
+              
+              {/* 1. Natureza da Obra */}
+              <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-2">
+                <div className="flex items-center space-x-2 text-slate-950 font-black text-xs sm:text-sm uppercase tracking-wide">
+                  <ShieldCheck className="w-4 h-4 text-amber-600" />
+                  <span>1. Natureza Didática, Intelectual e Doutrinária</span>
+                </div>
+                <p>
+                  O <strong>DIBE – Dicionário Ilustrado de Bordado Eletrônico</strong> é uma obra autoral, técnico-científica e de compilação enciclopédica, protegida pela legislação brasileira de Direitos Autorais (<strong>Lei nº 9.610/1998</strong>) e fundamentada no princípio constitucional da livre manifestação do pensamento, da criação intelectual e da pesquisa científica (<strong>Art. 5º, IX, da Constituição Federal</strong>).
+                </p>
+                <p>
+                  Sua finalidade é exclusivamente didática, cultural e educativa, destinada à capacitação, organização conceitual e apoio profissional da comunidade de bordadeiras, programadores de matrizes e operadores de máquinas industriais e domésticas.
+                </p>
+              </div>
+
+              {/* 2. Terminologia e Amparo Bibliográfico */}
+              <div className="p-4 rounded-2xl bg-amber-50/70 border border-amber-200 space-y-2">
+                <div className="flex items-center space-x-2 text-slate-950 font-black text-xs sm:text-sm uppercase tracking-wide">
+                  <FileText className="w-4 h-4 text-amber-600" />
+                  <span>2. Fundamentação Bibliográfica e Pluralidade Técnica</span>
+                </div>
+                <p>
+                  Os conceitos, métricas e análises técnicas contidos nesta obra têm como alicerce formal as normas técnicas nacionais e internacionais (<strong>ABNT, ISO, ASTM, AATCC</strong>), bem como os manuais oficiais de engenharia, boletins de calibração e publicações públicas dos principais fabricantes globais de maquinários, agulhas, insumos e softwares citados em nosso acervo de 50 fontes catalogadas.
+                </p>
+                <p>
+                  O setor de bordado computadorizado é caracterizado por múltiplas nomenclaturas comerciais, variações regionais de linguagem e diferenças entre ambientes de software (ex: Wilcom, Hatch, Embird, Tajima DG/ML). O DIBE adota padronização própria e fundamentada, sem obrigação de subordinação a convenções informais ou interpretações subjetivas de terceiros.
+                </p>
+              </div>
+
+              {/* 3. Isenção de Responsabilidade Operacional */}
+              <div className="p-4 rounded-2xl bg-rose-50/80 border-2 border-rose-300 space-y-2 text-slate-800">
+                <div className="flex items-center space-x-2 text-rose-950 font-black text-xs sm:text-sm uppercase tracking-wide">
+                  <ShieldAlert className="w-4 h-4 text-rose-600" />
+                  <span>3. Caráter Consultivo e Isenção de Responsabilidade</span>
+                </div>
+                <p>
+                  Todas as orientações, diagnósticos de defeitos, receituários de tecidos e recomendações de parâmetros são de caráter estritamente consultivo e educativo. O resultado final do bordado depende de variáveis multifatoriais incontroláveis pelo aplicativo, tais como lote do tecido, estabilidade da entretela, afiação de agulhas, estado de conservação do equipamento e destreza do operador.
+                </p>
+                <p>
+                  É dever imperativo de cada profissional realizar <strong>testes preliminares de amostra em retalhos idênticos</strong> antes de qualquer produção definitiva.
+                </p>
+                <p className="font-semibold text-rose-950">
+                  A Artrelados, o DIBE e sua coordenação autoral isentam-se integralmente de qualquer responsabilidade por perdas materiais, quebras de componentes mecânicos, retrabalhos ou danos operacionais decorrentes de intervenções práticas ou interpretações efetuadas pelos usuários.
+                </p>
+              </div>
+
+              {/* 4. Marcas Registradas e Uso Nominal */}
+              <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-2 text-slate-600">
+                <div className="flex items-center space-x-2 text-slate-900 font-bold text-xs uppercase tracking-wider">
+                  <Info className="w-4 h-4 text-slate-600" />
+                  <span>4. Propriedade de Marcas de Terceiros (Uso Nominal / Fair Use)</span>
+                </div>
+                <p>
+                  Todas as marcas comerciais, patentes, nomes de modelos e logotipos citados nesta obra (incluindo Brother, Janome, Barudan, Tajima, Typical, Jack, Groz-Beckert, Schmetz, Madeira, Coats, Wilcom, entre outros) são de propriedade exclusiva de seus respectivos titulares. A sua citação nesta publicação obedece rigorosamente aos limites da identificação funcional e descritiva, sem qualquer intuito de apropriação, associação indevida ou endosso comercial.
+                </p>
+              </div>
+
+            </div>
+
+            {/* Modal Footer */}
+            <div className="p-4 bg-slate-100 border-t border-slate-200 flex items-center justify-between gap-3 text-xs text-slate-600 shrink-0">
+              <span className="font-medium text-slate-500 text-[11px]">
+                DIBE Artrelados · Obra Intelectual Protegida
+              </span>
+              <button
+                onClick={() => setShowLegalNoticeModal(false)}
+                className="px-5 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 text-amber-400 font-black text-xs transition cursor-pointer shadow-md"
+              >
+                Entendido e Ciente
               </button>
             </div>
 
