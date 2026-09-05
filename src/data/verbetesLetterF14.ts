@@ -1327,5 +1327,109 @@ export const VERBETES_LETTER_F_PART14: Verbete[] = [
       "threadTension": "80 a 90gf (Tensão mais suave)",
       "density": "0.42 mm a 0.45 mm (Densidade ligeiramente mais aberta)"
     }
+  },
+  {
+    "id": "f-101-feiya-maquinas-de-bordado-eletronico",
+    "code": "F-101",
+    "term": "Feiya (Máquinas de Bordado Eletrônico)",
+    "pronunciation": "fêi-ya (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    "letter": "F",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Máquinas e Equipamentos",
+    "grammarClass": "Substantivo próprio / Locução substantiva.",
+    "origin": "Fundada na década de 1980 na cidade de Zhuji, província de Zhejiang (China), como Feiya Multi-Head Embroidery Machine Co., Ltd. Consolidou-se como uma das maiores produtoras industriais do mundo em volume de cabeçotes de bordado computadorizado, exportando para mais de 100 países e tornando-se extremamente popular no parque têxtil e de confecção brasileiro pelo imbatível custo-benefício e durabilidade mecânica.",
+    "summary": "Gigante fabril chinesa (Zhejiang, anos 1980), líder em volume de máquinas industriais de 1 a 32 cabeças, integrada aos comandos computadorizados Dahao, laçadeiras rotativas Koban e formato universal .DST.",
+    "definition": "A Feiya é uma das maiores e mais difundidas fabricantes industriais de máquinas de bordado computadorizado do planeta, fornecendo modelos de 1 até 32 cabeças (com 9, 12 ou 15 agulhas por cabeçote) em configurações tubulares de braço livre e leito plano pantográfico. Notabilizou-se pela sinergia consagrada com os comandos computadorizados Dahao (telas coloridas touch de 8 a 10 polegadas), servomotores digitais AC nos eixos pantográficos e cabeçote, laçadeiras rotativas industriais japonesas (Koban / Hirose) e plena compatibilidade com arquivos binários nos formatos .DST e .DSB.",
+    "technicalDetails": "Equipada com servomotores digitais nos eixos X/Y e motor principal de alta resposta com parada de eixo a 100°. Velocidade contínua ajustável entre 850 e 1.000 PPM (com modelos de alta velocidade atingindo até 1.200 PPM). Painel Dahao de alta capacidade com memória para mais de 100 milhões de pontos e 800 matrizes. Sistema de corte automático inferior por solenoide de ação direta com lâmina fixa e navalha móvel de aço temperado. Encoders ópticos e roletes de quebra de linha com aviso luminoso em LED vermelho no cabeçote. Suporta nativamente arquivos .DST, .DSB e .FDR.",
+    "construction": [
+      "Chassi monobloco fundido em aço de alta liga com tratamento térmico de alívio de tensões para estabilidade anti-vibração",
+      "Cabeçotes industriais modulares com barra de agulhas e seletores acionados por motor de passo de troca rápida",
+      "Braço tubular de perfil estreito reforçado para bonés montados estruturados e peças tubulares fechadas",
+      "Painel de comando computadorizado Dahao colorido touchscreen de 8 a 10 polegadas com suporte multilíngue",
+      "Laçadeiras rotativas industriais de alta velocidade importadas do Japão (Koban)",
+      "Sistema de iluminação do cabeçote com lâmpadas LED industriais de alta intensidade e baixo consumo",
+      "Porta USB frontal e conexão de rede Ethernet LAN para integração com softwares de produção industrial"
+    ],
+    "howItWorks": [
+      "1. A matriz de bordado em formato universal Tajima .DST ou .DSB é carregada na máquina via pendrive USB comum ou enviada pela rede Ethernet do ateliê.",
+      "2. No painel computadorizado Dahao, o operador visualiza a matriz, associa cada troca de cor às agulhas desejadas (1 a 12 ou 15) e escolhe o bastidor correspondente.",
+      "3. As peças (camisetas, polos, jalecos ou bonés) são montadas nos bastidores tubulares ou no aro de boné e travadas no pantógrafo reforçado.",
+      "4. O operador aciona o teste perimetral com ponteiro laser para garantir que a matriz respeita com segurança os limites do bastidor.",
+      "5. Ao apertar o botão verde de partida, a Feiya inicia a costura acelerando progressivamente até 900 ou 1.000 PPM.",
+      "6. A cada etapa, o trilho de agulhas se desloca lateralmente de forma automática e a faca inferior corta a linha, deixando a peça limpa e sem laçadas soltas."
+    ],
+    "beginnerExplanation": "A Feiya é o verdadeiro 'cavalo de batalha' das confecções e fábricas de uniformes do Brasil! Sabe aquelas empresas que precisam bordar centenas de jalecos, camisas polo de firmas, jaquetas e bonés todos os dias? Elas usam máquinas industriais como a Feiya! Ela é uma máquina pesada, feita de metal maciço para aguentar trabalhar o dia inteiro sem parar. O cérebro dela é o clássico computador Dahao, que quase todo mecânico e bordador profissional do Brasil sabe mexer de olhos fechados, com peças de reposição fáceis de achar em qualquer lugar!",
+    "applications": [
+      "Bordados em larga escala de uniformes profissionais, jalecos médicos e roupas corporativas",
+      "Bordados em bonés montados estruturados em 270° com o dispositivo rotativo de boné",
+      "Bordados em alto relevo 3D (EVA) para marcas de streetwear, bonés e jaquetas",
+      "Emblemas, brasões escolares e patches termocolantes em bastidores planos pantográficos",
+      "Aplicações decorativas com dispositivos opcionais de lantejoulas (paetê), cordões e corte a laser"
+    ],
+    "mainTypes": [
+      "Feiya CT / CTF Series (1 Cabeça): Modelo compacto tubular de 12 ou 15 agulhas, ideal para ateliês em expansão e bonés",
+      "Feiya Multi-Cabeças Tubulares (2, 4, 6 e 8 cabeças): As campeãs de produção seriada para confecções de médio e grande porte",
+      "Feiya Flat Series (até 24 cabeças planas): Máquinas industriais de leito pantográfico amplo para emblemas e rolos de tecido",
+      "Feiya Special Line: Máquinas híbridas com dispositivos de aplicação de cordão, lantejoulas e cabeça de corte a laser"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "850 a 950 PPM para tecidos planos normais; 650 a 750 PPM para bonés estruturados e EVA 3D",
+      "needleType": "Sistema industrial de cabo redondo DBxK5 (tamanhos 70/10 a 90/14 de acordo com a gramatura)",
+      "stabilizer": "Entretela rasgável de 70g/m² a 80g/m² ou entretela resinada própria para bonés estruturados"
+    },
+    "advantages": [
+      "✔ Excelente relação custo-benefício com robustez mecânica para regimes de trabalho contínuo de 2 ou 3 turnos",
+      "✔ Sistema de comando Dahao consagrado mundialmente, com imensa facilidade de assistência técnica e operadores treinados",
+      "✔ Laçadeiras rotativas japonesas Koban de alta precisão que minimizam aquecimento e desgaste prematuro",
+      "✔ Compatibilidade universal com o formato .DST, permitindo usar matrizes criadas em qualquer software"
+    ],
+    "limitations": [
+      "Máquina de grande porte e elevado peso estrutural, exigindo piso nivelado e espaço físico adequado no ateliê.",
+      "Troca de agulhas industriais de cabo redondo (DBxK5) requer atenção manual no alinhamento correto da canaleta."
+    ],
+    "commonErrors": [
+      "❌ Iniciar o bordado em boné estruturado sem verificar a distância do calcador e a folga perimetral da cinta de aço.",
+      "❌ Esquecer de lubrificar a laçadeira rotativa e as barras de agulha nos períodos recomendados pelo manual.",
+      "❌ Operar em alta velocidade (acima de 1.000 PPM) com linhas de baixa qualidade ou com tensores descalibrados.",
+      "❌ Deixar poeira e resíduos de entretela acumularem nos roletes ópticos de detecção de quebra de linha."
+    ],
+    "troubleshootingTips": [
+      "Linha superior soltando da agulha na partida: Ative a função de Partida Lenta (Soft Start) no painel Dahao para 3 pontos a 400 PPM e ajuste o avanço do pegador de linha (picker).",
+      "Alarme de parada com aviso de 100° fora de ponto: Gire o volante manual traseiro da máquina até alinhar exatamente na marcação de 100° do mostrador digital.",
+      "Ponto frouxo no verso da peça: Verifique se a caixa de bobina metálica está limpa e aperte ligeiramente o parafuso da lâmina de tensão da bobina."
+    ],
+    "dicaArtrelados": "Nas máquinas Feiya com painel Dahao, uma dica de ouro para nunca ter linha escapando da agulha após a troca de cor é ativar o 'Soft Start' (Partida Suave) configurado para 3 pontadas a 400 PPM! A máquina amarra o nozinho com delicadeza e só depois dispara para 950 PPM: suas letras pequenas começam limpas, sem fiapo solto e sem falhas de ponto!",
+    "voceSabia": "As estruturas e vigas de ferro fundido das máquinas Feiya passam por um processo clássico da engenharia mecânica chamado 'envelhecimento térmico natural', no qual o metal descansa ao ar livre durante meses após a fundição! Isso faz com que todas as tensões internas da matéria-prima se acomodem, garantindo que o chassi nunca empene mesmo após anos trabalhando 24 horas por dia em fábricas industriais!",
+    "practicalExercise": "Ajuste de Ponto Morto (100°) no Painel Dahao da Feiya: No painel Dahao da sua Feiya, observe o mostrador digital de graus do eixo principal. Vá até o volante traseiro da máquina e gire com a mão até que o número marque exatamente 100°. Veja na tela que o ícone do eixo fica verde: isso confirma que a barra de agulha está no ponto mais alto e a máquina está liberada para bordar com total segurança mecânica!",
+    "quickSummary": "Gigante fabril chinesa (Zhejiang, anos 1980), líder em volume de máquinas industriais de 1 a 32 cabeças, integrada aos comandos Dahao, laçadeiras Koban e formato universal .DST.",
+    "relatedTerms": [
+      "Tajima",
+      "Barudan (Máquinas de Bordado Eletrônico)",
+      "SWF / SunStar (Máquinas de Bordado Eletrônico)",
+      "Formato DST",
+      "Agulha DBxK5",
+      "Bastidor de Boné",
+      "Caixa de Bobina",
+      "Velocidade PPM"
+    ],
+    "tags": [
+      "f-101",
+      "feiya",
+      "dahao",
+      "chinesa",
+      "industrial",
+      "maquinas",
+      "equipamento",
+      "dst",
+      "tubular",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "FEIYA MULTI-HEAD EMBROIDERY MACHINE CO., LTD. Operation and Technical Maintenance Manual: Tubular & Flat High-Speed Series. Zhuji: Feiya, 2023.",
+      "BEIJING DAHAO TECHNOLOGY CORP., LTD. Dahao Computerized Embroidery Machine Control System Manual. Pequim: Dahao, 2023.",
+      "ARTRELADOS. Engenharia e Manutenção de Máquinas Industriais de Alto Desempenho no Brasil. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-05"
   }
 ];
+

@@ -1027,5 +1027,109 @@ export const VERBETES_LETTER_Z7: Verbete[] = [
       "ARTRELADOS. Panorama da Engenharia Germânica no Bordado Computadorizado e Têxteis Inteligentes. Curitiba, 2024."
     ],
     updatedAt: "2026-09-05"
+  },
+  {
+    id: "z-028-zoje-maquinas-de-bordado-eletronico",
+    code: "Z-028",
+    term: "Zoje (Máquinas de Bordado Eletrônico)",
+    pronunciation: "zo-je (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    letter: "Z",
+    level: "Intermediário a Avançado 🟡🔴",
+    category: "Máquinas e Equipamentos",
+    grammarClass: "Substantivo próprio / Locução substantiva.",
+    origin: "Fundada em 1994 em Yuhuan, província de Zhejiang (China), como Zoje Sewing Machine Co., Ltd. Consolidou-se como uma das maiores multinacionais de maquinário têxtil de capital aberto na Bolsa de Valores de Shenzhen, destacando-se por investimentos bilionários em fundição automatizada e centros de usinagem com robôs industriais alemães.",
+    summary: "Gigante fabril chinesa de capital aberto (Zhejiang, 1994), referência em maquinário industrial pesado e bordadeiras tubulares ZJ-1201 e ZJ-1501 de 15 agulhas integradas ao sistema Dahao, laçadeiras japonesas e formato .DST.",
+    definition: "A Zoje é uma grande fabricante global de maquinário têxtil industrial e bordadeiras computadorizadas tubulares de braço livre e de leito plano (disponíveis em configurações de 1 cabeça compacta até 12 cabeças industriais, com 12 ou 15 agulhas por cabeçote). Notabilizou-se pela alta estabilidade estrutural das séries ZJ-1201 e ZJ-1501 (modelos tubulares de 1 cabeça e 12/15 agulhas com campo amplo para peças abertas e bonés em 270°), integração com comandos de bordo computadorizados Dahao em telas touch coloridas de 8 a 10 polegadas, servomotores digitais nos eixos cartesianos X/Y e cabeçote, laçadeiras rotativas de fabricação japonesa e plena compatibilidade com o formato universal .DST.",
+    technicalDetails: "Acionamento principal e pantográfico por servomotores digitais AC de alto torque e baixa inércia com parada precisa de ponto morto superior a 100°. Velocidade contínua ajustável de 450 a 1.200 PPM. Laçadeira rotativa vertical industrial tipo 'L' de precisão milimétrica, sistema de corte automático inferior por solenoide de alta durabilidade com lâmina fixa e navalha móvel temperada, ponteiro laser para pré-visualização de contorno perimetral e memória interna Dahao para até 20 milhões de pontos e centenas de desenhos.",
+    construction: [
+      "Chassi monobloco usinado por robôs em ferro fundido de alta densidade para anular vibrações estruturais",
+      "Braço tubular cilíndrico de perfil estreito reforçado para facilitar o giro de bonés montados e peças fechadas",
+      "Mesa de extensão plana removível com tampo de madeira laminada de alta resistência para peças grandes",
+      "Painel de comando computadorizado Dahao colorido touchscreen de 8 a 10 polegadas com suporte multilíngue",
+      "Conjunto de troca automática de cores acionado por came helicoidal e motor de passo linear",
+      "Laçadeira rotativa industrial japonesa Koban de alta durabilidade e lubrificação por pavio",
+      "Ponteiro de feixe laser vermelho para teste de perímetro e definição de origem do bordado"
+    ],
+    howItWorks: [
+      "1. A matriz de bordado formatada em extensão padrão universal Tajima .DST ou .DSB é transferida via pendrive USB para o painel Dahao da máquina Zoje.",
+      "2. Na tela digital touch, o operador seleciona o desenho, define a ordem sequencial das cores e associa cada etapa a uma das agulhas físicas (1 a 12 ou 15).",
+      "3. A peça (camiseta, polo, jaleco ou boné) é enquadrada no bastidor tubular ou aro de boné e travada com firmeza no pantógrafo reforçado.",
+      "4. O operador aciona o ponteiro laser e executa a função de traçado perimetral para checar visualmente se o desenho cabe com folga dentro da área útil do bastidor.",
+      "5. Ao apertar o botão verde Start, a máquina inicia o ciclo operacional com partida suave, acelerando até a rotação de cruzeiro de até 1.000 ou 1.200 PPM.",
+      "6. A cada etapa, o trilho de agulhas se desloca automaticamente e a faca inferior apara o fio, retendo a ponta superior para a próxima partida limpa."
+    ],
+    beginnerExplanation: "A Zoje é uma das marcas industriais mais famosas e confiáveis das confecções do Brasil! É aquela marca que quando você entra numa fábrica de camisas polo, uniformes ou calças jeans, com certeza vê várias máquinas dela alinhadas trabalhando o dia inteiro sem parar. As bordadeiras da Zoje são feitas com ferro fundido super pesado, têm peças de reposição baratas e fáceis de achar em qualquer cidade e usam o clássico computador Dahao, que qualquer bordador aprende a mexer rapidinho!",
+    applications: [
+      "Bordados em larga escala de uniformes corporativos, jalecos médicos e roupas profissionais",
+      "Bordados em bonés montados estruturados em 270° com o dispositivo cilíndrico de boné",
+      "Bordados em peças tubulares prontas como mangas, punhos, pernas de calça e bolsas esportivas",
+      "Confecção seriada de emblemas, distintivos e patches termocolantes com pontos de alta densidade",
+      "Bordados em artigos pesados como couro ecológico, brim, jaquetas jeans e toalhas atoalhadas"
+    ],
+    mainTypes: [
+      "Zoje ZJ-1501 (1 Cabeça e 15 Agulhas): O modelo tubular mais vendido, perfeito para ateliês em crescimento, uniformes e bonés",
+      "Zoje ZJ-1201 (1 Cabeça e 12 Agulhas): Versão ágil e econômica para personalização rápida de logotipos corporativos",
+      "Zoje Multi-Cabeças (2, 4, 6 e 8 Cabeças): Máquinas industriais de produção seriada para confecções de médio e grande porte",
+      "Zoje Programable Cycle: Máquinas industriais de ciclo programado de bordado e costura técnica para calçados e bolsas"
+    ],
+    recommendedSettings: {
+      speedPPM: "850 a 1.000 PPM para peças planas normais; 650 a 750 PPM para bonés estruturados",
+      needleType: "Sistema industrial de cabo redondo DBxK5 (tamanhos 70/10 a 90/14 de acordo com a gramatura)",
+      stabilizer: "Entretela rasgável pesada de 70g/m² a 80g/m² ou entretela resinada especial para bonés estruturados"
+    },
+    advantages: [
+      "✔ Estrutura mecânica maciça fundida com centros robóticos que garante estabilidade mesmo a 1.000 PPM",
+      "✔ Sistema eletrônico Dahao universalmente consagrado, facilitando operação e assistência técnica em todo o Brasil",
+      "✔ Laçadeira rotativa japonesa Koban que minimiza aquecimento e proporciona ponto acetinado de alto brilho",
+      "✔ Mesa extensora plana de engate rápido inclusa de fábrica, ideal para toalhas de banho e mantas pesadas"
+    ],
+    limitations: [
+      "Utiliza agulhas industriais de cabo redondo (DBxK5), exigindo atenção manual para o correto alinhamento da cava.",
+      "Equipamento de grande porte e elevado peso estrutural que requer bancada firme e aterramento elétrico adequado."
+    ],
+    commonErrors: [
+      "❌ Iniciar o bordado ou movimentar o pantógrafo sem conferir se o ângulo do eixo principal está exatamente em 100° no painel Dahao.",
+      "❌ Montar a agulha de cabo redondo com a cava virada para a direção errada (deve ficar voltada para trás, na direção da laçadeira).",
+      "❌ Esquecer de montar a mesa extensora ao bordar peças pesadas como toalhas de banho, deixando o peso puxar o bastidor.",
+      "❌ Deixar de lubrificar a laçadeira rotativa vertical e as guias de barra de agulha a cada turno de trabalho de 8 horas."
+    ],
+    troubleshootingTips: [
+      "Linha superior escapando na primeira pontada da agulha: Ative a função de Partida Suave (Soft Start) no painel Dahao para 3 pontos a 400 PPM e ajuste o avanço do pegador de linha (picker).",
+      "Alarme de parada com aviso de ângulo fora de 100°: Gire o volante traseiro da máquina com a mão até o mostrador digital indicar exatamente 100°.",
+      "Ponto frouxo no verso da peça: Verifique se a caixa de bobina metálica está limpa e aperte ligeiramente o parafuso da lâmina de tensão."
+    ],
+    dicaArtrelados: "Nas bordadeiras Zoje, a mesa plana extensora de madeira laminada que vem de fábrica é uma verdadeira aliada para bordar toalhas de banho pesadas e roupões! Em vez de deixar a toalha pendurada puxando o bastidor para baixo com o peso (o que entorta o bordado e pode quebrar agulhas), monte a mesinha de engate rápido: a toalha desliza suavemente sobre a superfície plana e o seu bordado fica 100% alinhado e sem repuxo!",
+    voceSabia: "O parque fabril da Zoje na China conta com mais de 300 robôs industriais alemães de alta precisão que usinam as carcaças de ferro fundido das máquinas em salas climatizadas! Isso garante que cada furo de parafuso e cada encaixe de rolamento tenham uma precisão de milésimos de milímetro, garantindo que as máquinas trabalhem anos a fio com baixíssimo nível de vibração e desgaste mecânico!",
+    practicalExercise: "Instalação da Mesa de Apoio na Zoje ZJ-1501: Pegue a mesa plana de madeira laminada que acompanha sua bordadeira Zoje. Encaixe-a na base do braço tubular pelas guias de engate rápido até travar. Coloque uma toalha de banho com bastidor grande sobre a mesa e faça o movimento pantográfico manual: sinta como a toalha corre solta e sem peso, garantindo estabilidade máxima na costura!",
+    quickSummary: "Gigante fabril chinesa de capital aberto (Zhejiang, 1994), referência em maquinário industrial pesado e bordadeiras tubulares ZJ-1201 e ZJ-1501 de 15 agulhas integradas ao sistema Dahao e laçadeiras japonesas.",
+    relatedTerms: [
+      "Typical (Máquinas de Bordado Eletrônico)",
+      "Feiya (Máquinas de Bordado Eletrônico)",
+      "Tajima",
+      "Formato DST",
+      "Agulha DBxK5",
+      "Bastidor de Boné",
+      "Caixa de Bobina",
+      "Velocidade PPM"
+    ],
+    tags: [
+      "z-028",
+      "zoje",
+      "zj1501",
+      "zj1201",
+      "dahao",
+      "maquinas",
+      "equipamento",
+      "dst",
+      "industrial",
+      "artrelados"
+    ],
+    bibliographicReferences: [
+      "ZOJE SEWING MACHINE CO., LTD. Operation and Technical Maintenance Manual: ZJ Series Computerized Embroidery Machines. Yuhuan: Zoje, 2023.",
+      "BEIJING DAHAO TECHNOLOGY CORP. Computerized Control System for Embroidery Machines: User Manual. Pequim: Dahao, 2023.",
+      "ARTRELADOS. Guia de Operação, Segurança e Manutenção de Bordadeiras Industriais no Brasil. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-05"
   }
 ];
+

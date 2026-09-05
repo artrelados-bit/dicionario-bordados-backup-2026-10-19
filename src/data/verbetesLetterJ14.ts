@@ -1850,5 +1850,109 @@ export const VERBETES_LETTER_J_PART14: Verbete[] = [
       "ARTRELADOS. Guia de Operação e Bastidores Especiais Janome para Grandes Dimensões. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-05"
+  },
+  {
+    "id": "j-102-juki-maquinas-de-bordado-eletronico",
+    "code": "J-102",
+    "term": "Juki (Máquinas de Bordado Eletrônico)",
+    "pronunciation": "dju-ki (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    "letter": "J",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Máquinas e Equipamentos",
+    "grammarClass": "Substantivo próprio / Locução substantiva.",
+    "origin": "Fundada em 1938 em Tóquio (Japão) como Tokyo Juki Industrial Co., Ltd. Consolidou-se como a maior fabricante do planeta em maquinário industrial para vestuário e equipamentos mecatrônicos têxteis pesados. No bordado computadorizado, foi pioneira absoluta no desenvolvimento da primeira máquina com passagem de linha 100% autônoma por motor elétrico e sucção na tela LCD (série HZL-010) e nas consagradas máquinas industriais de bordado de ciclo programável da série AMS.",
+    "summary": "Lendária fabricante japonesa (Tóquio, 1938), líder mundial em maquinário industrial pesado, célebre pela inovadora série HZL com enfiador robótico autônomo e pelas imponentes máquinas computadorizadas de bordado de ciclo programável AMS a até 2.800 PPM.",
+    "definition": "A Juki é uma gigante industrial japonesa e a mais respeitada autoridade mundial em engenharia mecatrônica de costura e bordado programado. Destaca-se pelas inovadoras máquinas combinadas residenciais de bordado computadorizado da série HZL (como a lendária HZL-010, pioneira mundial no enfiamento de linha 100% automático por motor elétrico, tela colorida sensível ao toque e formato .JUK) e pela linha industrial líder global de bordados de ciclo programável da série AMS (modelos AMS-210EN, AMS-221EN e AMS-224EN), indispensáveis nas maiores indústrias de calçados esportivos, artigos em couro automotivo, jaquetas técnicas, cintos de segurança e etiquetas de marcas de luxo operando via formato universal .DST.",
+    "technicalDetails": "Nas máquinas da série residencial HZL, o módulo de bordado de engate rápido opera com carro pantográfico motorizado de alta suavidade, leitura de cartões SmartMedia e formato .JUK/.DST. Na consagrada linha industrial programável AMS, os eixos X/Y são acionados por motores de passo de micropasso com servomotor direto AC no cabeçote atingindo até 2.800 PPM. Possui calcador intermediário programável com ajuste digital de altura a cada ponto, corte automático de linha pesada por lâmina rotativa de corte duplo e painel de comando programável IP-420 colorido touchscreen.",
+    "construction": [
+      "Chassi monobloco em ferro fundido de altíssima densidade mecânica para resistência a vibrações em alta velocidade",
+      "Calcador intermediário programável acionado por motor de passo com regulagem digital de altura ponto a ponto",
+      "Sistema de enfiador de agulha totalmente elétrico e autônomo acionado por botão (série HZL)",
+      "Módulo de corte automático de linha reforçado com contrafaca temperada para cortar fios grossos e técnicos",
+      "Painel de programação digital avançado IP-420 colorido com tela sensível ao toque e porta USB",
+      "Laçadeira rotativa industrial de capacidade ampliada com lubrificação automática microdosada",
+      "Grampos de fixação pneumáticos ou mecânicos de alta pressão para estabilização de couros e tecidos densos"
+    ],
+    "howItWorks": [
+      "1. A matriz de bordado técnico ou decorativo em formato .DST ou .JUK é transferida para o painel de comando da máquina Juki via pendrive USB.",
+      "2. No painel digital colorido, o operador confere os contornos do desenho, define a altura do calcador intermediário e ajusta a velocidade ideal para a gramatura do material.",
+      "3. A peça (seja uma etiqueta nobre, cabedal de calçado, cinto ou tecido estruturado) é encaixada no grampo pantográfico e travada com segurança mecânica ou pneumática.",
+      "4. O operador aciona o teste perimetral óptico para garantir que o ciclo de costura ocorrerá com folga total em relação às bordas metálicas da chapa.",
+      "5. Ao pressionar o pedal de comando ou botão Start, a máquina inicia o ciclo operacional, acelerando até 2.500 ou 2.800 PPM com fixação milimétrica de cada ponto.",
+      "6. Ao concluir o ciclo, a navalha de aço temperado corta o fio rente ao avesso e o calcador se eleva automaticamente, liberando a peça finalizada com perfeição industrial."
+    ],
+    "beginnerExplanation": "A Juki é a verdadeira rainha da força e da durabilidade no mundo da costura e do bordado! Sabe aquele tênis de corrida famoso que tem um bordado de reforço perfeito nas laterais, ou aquela jaqueta de couro e bolsa de marca que duram décadas sem soltar um único ponto? Quase tudo isso é feito em máquinas Juki! No ateliê, ela ficou famosa por inventar máquinas que colocavam a linha no buraquinho da agulha sozinhas com um simples toque na tela, e nas indústrias ela é a máquina mais respeitada do mundo quando você precisa bordar materiais grossos que nenhuma outra máquina consegue aguentar!",
+    "applications": [
+      "Bordados técnicos e decorativos em calçados esportivos, tênis e chuteiras de alta performance",
+      "Gravação e bordado de monogramas e logotipos em couro nobre, bolsas e estofamentos automotivos",
+      "Fixação de etiquetas tecidas e emblemas de marcas de luxo em camisas polo, jeans e jaquetas",
+      "Bordados de reforço estrutural em cintos de segurança, mochilas táticas e equipamentos de proteção",
+      "Bordados decorativos residenciais em roupas finas e enxovais com a linha combinada HZL"
+    ],
+    "mainTypes": [
+      "Juki HZL-010 / HZL-009: Máquinas combinadas lendárias com enfiador elétrico robotizado e módulo de bordado",
+      "Juki AMS-210EN: Máquina industrial de ciclo programável de bordado compacto (áreas de 13x10 cm e 22x10 cm)",
+      "Juki AMS-221EN: Modelo industrial de médio porte de alta precisão (área de 25x16 cm e 30x20 cm)",
+      "Juki AMS-224EN: Modelo de grande formato para couros automotivos e jaquetas com campo de até 60x40 cm"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "2.000 a 2.500 PPM em materiais industriais planos; 1.500 a 1.800 PPM em couros espessos e linhas grossas",
+      "needleType": "Sistema industrial pesado DPx17 ou DPx5 (tamanhos 90/14 a 130/21) e 130/705 H na série doméstica HZL",
+      "stabilizer": "Entretela resinada pesada, tecido termocolante estruturado ou bases plásticas de reforço industrial"
+    },
+    "advantages": [
+      "✔ Líder mundial incontestável em robustez mecânica, precisão e longevidade operacional contínua",
+      "✔ Calcador intermediário programável que elimina totalmente o salto do tecido e a perda de pontos em materiais grossos",
+      "✔ Velocidades de trabalho extraordinárias de até 2.800 PPM com estabilidade de ponto insuperável",
+      "✔ Corte automático de linha de alta potência capaz de cortar linhas grossas de nylon e poliéster técnico"
+    ],
+    "limitations": [
+      "A linha industrial AMS é projetada para ciclos programados e requer conhecimentos de fixação em gabaritos metálicos.",
+      "Equipamentos industriais de alto investimento voltados primariamente para produção especializada e confecção pesada."
+    ],
+    "commonErrors": [
+      "❌ Bordar couro ou sintético com a altura do calcador intermediário desregulada, gerando marcas de compressão na superfície.",
+      "❌ Utilizar agulhas de ponta comum redonda em couros rígidos em vez de agulhas com ponta cortante tipo LR ou S.",
+      "❌ Operar em velocidades superiores a 2.000 PPM sem verificar o nível de óleo no cárter com bomba automática.",
+      "❌ Esquecer de calibrar a pressão do grampo de fixação de acordo com a espessura do material bordado."
+    ],
+    "troubleshootingTips": [
+      "Ponto pulando ou quebra de linha em tecidos grossos: Ajuste a altura do calcador intermediário programável no painel IP-420 para descer 0,5 mm mais rente à peça no momento da subida da agulha.",
+      "Faca de corte não apara linha espessa: Afie ou substitua a navalha móvel temperada e verifique a pressão da mola do mecanismo de corte inferior.",
+      "Alarme de erro no enfiador automático da linha HZL: Limpe os sensores ópticos do cabeçote com pincel macio e confirme se o estica-fio está no ponto mais alto."
+    ],
+    "dicaArtrelados": "Ao bordar etiquetas ou detalhes em couro em uma máquina programável Juki AMS, o segredo de mestre é a regulagem milimétrica do Calcador Intermediário Programável! Programe a descida do calcador para encostar suavemente no couro (deixando apenas 0,3 a 0,5 mm de folga): o couro não sobe junto com a agulha (acabando com o efeito de repuxo) e o seu bordado fica com uma definição geométrica tão perfeita que parece feito a laser!",
+    "voceSabia": "O nome 'JUKI' é uma homenagem à tradição da mecânica de precisão japonesa: ele nasce da união das palavras japonesas 'JU' (que remete a armas de alta precisão e engenharia de tolerâncias micrométricas) e 'KI' (máquina)! A engenharia da Juki é tão avançada que a empresa colabora com tecnologias têxteis utilizadas inclusive em roupas e equipamentos da indústria aeroespacial!",
+    "practicalExercise": "Ajuste Fino de Altura de Calcador no Painel Juki: Em uma máquina Juki com comando digital, acesse a tela de parâmetros do calcador intermediário. Posicione uma peça de couro de 2 mm de espessura no grampo de fixação. Altere o parâmetro de altura de 1.5 mm para 2.5 mm. Acione o ciclo de teste sem linha: observe como o calcador toca no couro sem esmagar o relevo e sobe suavemente sem fazer barulho nem deixar marcas na peça!",
+    "quickSummary": "Lendária fabricante japonesa (Tóquio, 1938), líder mundial em maquinário industrial pesado, célebre pela inovadora série HZL com enfiador robótico e pelas imponentes máquinas programáveis de bordado AMS a até 2.800 PPM.",
+    "relatedTerms": [
+      "Janome (Máquinas de Bordado Eletrônico)",
+      "Brother (Máquinas de Bordado Eletrônico)",
+      "Tajima",
+      "Formato DST",
+      "Agulha DPx17",
+      "Calcador de Bordado",
+      "Velocidade PPM"
+    ],
+    "tags": [
+      "j-102",
+      "juki",
+      "maquinas",
+      "equipamento",
+      "ams210en",
+      "ams221en",
+      "hzl",
+      "industrial",
+      "dst",
+      "japonesa",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "JUKI CORPORATION. Instruction Manual and Engineering Technical Reference: Computer-Controlled Cycle Machine AMS-EN Series. Tokyo: Juki, 2023.",
+      "JUKI CORPORATION. The Heritage of Precision Stitching and Industrial Mecatronics. Tokyo, 2022.",
+      "ARTRELADOS. Máquinas Industriais Programáveis e Tecnologia Mecatrônica Japonesa no Bordado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-05"
   }
 ];
+

@@ -1438,6 +1438,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Verbete: [b-105-bai-baili-maquinas-de-bordado-eletronico] BAI / Baili (Máquinas de Bordado Eletrônico) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=b-105-bai-baili-maquinas-de-bordado-eletronico</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Verbete: [c-001-cabecote-de-bordado] Cabeçote de Bordado -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=c-001-cabecote-de-bordado</loc>
@@ -4178,6 +4185,13 @@
   <!-- Verbete: [f-100-fio-metalizado-alma-poliamida-revestimento-prata] Fio Metalizado com Alma de Poliamida e Revestimento de Prata Pura (Pure Silver Coated Metallized Yarn on Nylon Core) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=f-100-fio-metalizado-alma-poliamida-revestimento-prata</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [f-101-feiya-maquinas-de-bordado-eletronico] Feiya (Máquinas de Bordado Eletrônico) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=f-101-feiya-maquinas-de-bordado-eletronico</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -6999,6 +7013,13 @@
   <!-- Verbete: [j-101-janome-maquinas-de-bordado-eletronico] Janome (Máquinas de Bordado Eletrônico) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=j-101-janome-maquinas-de-bordado-eletronico</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [j-102-juki-maquinas-de-bordado-eletronico] Juki (Máquinas de Bordado Eletrônico) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=j-102-juki-maquinas-de-bordado-eletronico</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -13296,6 +13317,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Verbete: [s-104-singer-maquinas-de-bordado-eletronico] Singer (Máquinas de Bordado Eletrônico) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=s-104-singer-maquinas-de-bordado-eletronico</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Verbete: [tatami-ponto-tatami-fill-stitch] Tatami (Ponto Tatami / Fill Stitch) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=tatami-ponto-tatami-fill-stitch</loc>
@@ -14020,6 +14048,20 @@
   <!-- Verbete: [t-104-typical-maquinas-de-bordado-eletronico] Typical (Máquinas de Bordado Eletrônico) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=t-104-typical-maquinas-de-bordado-eletronico</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [t-105-toyota-maquinas-de-bordado-eletronico] Toyota (Máquinas de Bordado Eletrônico) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=t-105-toyota-maquinas-de-bordado-eletronico</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [t-106-tajima-maquinas-de-bordado-eletronico] Tajima (Máquinas de Bordado Eletrônico) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=t-106-tajima-maquinas-de-bordado-eletronico</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -17219,6 +17261,13 @@
   <!-- Verbete: [z-027-zsk-maquinas-de-bordado-eletronico] ZSK (Máquinas de Bordado Eletrônico) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=z-027-zsk-maquinas-de-bordado-eletronico</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [z-028-zoje-maquinas-de-bordado-eletronico] Zoje (Máquinas de Bordado Eletrônico) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=z-028-zoje-maquinas-de-bordado-eletronico</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

@@ -2793,5 +2793,110 @@ export const VERBETES_LETTER_B1: Verbete[] = [
       "ARTRELADOS. Inovação e Ergonomia Visual no Bordado Computadorizado de Alto Padrão. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-05"
+  },
+  {
+    "id": "b-105-bai-baili-maquinas-de-bordado-eletronico",
+    "code": "B-105",
+    "term": "BAI / Baili (Máquinas de Bordado Eletrônico)",
+    "pronunciation": "bái / bái-li (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    "letter": "B",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Máquinas e Equipamentos",
+    "grammarClass": "Substantivo próprio / Sigla comercial / Locução substantiva.",
+    "origin": "Fundada na década de 2010 na província de Guangdong (China) como Dongguan Baili Machinery Co., Ltd. Sob a marca global 'BAI Embroidery Machines', notabilizou-se por uma estratégia moderna de conexão direta da fábrica com pequenos empreendedores, ateliês residenciais e criadores de conteúdo pelo mundo, tornando-se uma das marcas de máquinas multiagulhas (12 e 15 agulhas) mais populares e vendidas da era digital.",
+    "summary": "Fabricante contemporânea chinesa (Guangdong, anos 2010), fenômeno global entre pequenos ateliês e criadores de conteúdo com as séries multiagulhas The Mirror, Vision e Kemei de 15 agulhas e formato .DST.",
+    "definition": "A BAI (Baili) é uma fabricante global contemporânea de máquinas industriais compactas e semi-industriais multiagulhas de bordado computadorizado (disponíveis em 1, 2 e 4 cabeças, com 12 ou 15 agulhas por cabeçote). Ganhou destaque internacional pelas séries The Mirror (modelo tubular de 1 cabeça e 15 agulhas para bonés e peças montadas), Vision (versão de alto desempenho mecânico com menor vibração), Koala e Kemei. Caracteriza-se pelo fornecimento de pacotes completos de fábrica com múltiplos bastidores tubulares, aro e estação de boné em 270°, ponteiro laser de posicionamento, comandos digitais Dahao ou próprios com tela touch colorida de 10 polegadas, laçadeira rotativa japonesa Koban e suporte universal aos formatos .DST e .DSB.",
+    "technicalDetails": "Equipada com servomotores digitais nos eixos cartesianos X/Y e motor principal de acionamento contínuo atingindo velocidades operacionais de 850 a 1.200 PPM. Painel eletrônico colorido touchscreen de 10 polegadas com suporte multilíngue (incluindo português) e capacidade para armazenar milhões de pontos. Sistema mecânico de troca automática de agulha com trilho linear guiado por motor de passo e came helicoidal. Corte automático de linha inferior e superior por solenoide de alta precisão com retentor móvel de fio. Leitura de matrizes via porta USB frontal ou rede LAN Ethernet.",
+    "construction": [
+      "Chassi monobloco fundido com base metálica pesada para absorção de ressonância em bancadas e pedestais com rodízios",
+      "Braço tubular de perfil estreito reforçado para bonés montados estruturados e peças tubulares fechadas",
+      "Conjunto de 15 barras de agulha com tensores duplos individuais graduados e molas puxa-fio independentes",
+      "Painel de comando touchscreen digital colorido de alta resolução de 10 polegadas com botões físicos de emergência",
+      "Laçadeira rotativa industrial de alta velocidade Koban de fabricação japonesa",
+      "Ponteiro de feixe laser vermelho de alinhamento para teste de contorno perimetral e definição de ponto zero",
+      "Porta USB lateral e placa de rede Ethernet para integração com sistemas computacionais de ateliê"
+    ],
+    "howItWorks": [
+      "1. A matriz de bordado em formato universal Tajima .DST ou .DSB é carregada na máquina via pendrive USB comum ou transferida via rede Ethernet.",
+      "2. No painel digital colorido touch, a bordadeira escolhe a matriz, ajusta dimensões ou orientação e associa as etapas de cor às agulhas desejadas (1 a 15).",
+      "3. A peça (camiseta, jaleco, toalha ou boné) é montada com entretela no bastidor tubular ou aro de boné e travada no braço pantográfico.",
+      "4. A operadora aciona o traçado de contorno com o feixe laser para confirmar visualmente que o desenho cabe com folga no bastidor.",
+      "5. Ao apertar o botão verde Start, a máquina inicia a costura acelerando até a velocidade programada (850 a 1.000 PPM).",
+      "6. A cada etapa de cor, o cabeçote efetua o corte automático da linha, troca a barra de agulha com precisão e retoma o bordado imediatamente."
+    ],
+    "beginnerExplanation": "A BAI é aquela máquina moderna e colorida que você vê fazendo sucesso nos vídeos de bordadeiras na internet! Ela foi criada exatamente para quem tinha uma máquina doméstica de 1 agulha (que demora muito para trocar linha e tem bastidor pequeno) e queria dar o pulo para uma máquina industrial de 15 agulhas sem gastar uma fortuna! Com ela, você passa 15 cones de cores diferentes de uma vez só: ela borda bonés de marca curvados, jaquetas, camisas e toalhas trocando as cores sozinha na hora e cortando as linhazinhas perfeitamente!",
+    "applications": [
+      "Bordados industriais de alta velocidade em uniformes profissionais, jalecos médicos e roupas corporativas",
+      "Bordados em bonés montados estruturados em 270° com o dispositivo rotativo de boné",
+      "Bordados em peças tubulares prontas como mangas, punhos, pernas de calça e bolsas esportivas",
+      "Confecção seriada de emblemas, brasões escolares e patches termocolantes com corte limpo de fio",
+      "Bordados em alto relevo 3D (EVA) para bonés de streetwear e jaquetas esportivas pesadas"
+    ],
+    "mainTypes": [
+      "BAI The Mirror (1 Cabeça e 15 Agulhas): O modelo mais vendido da marca, compacto para ateliê, com campo amplo de até 500x350 mm",
+      "BAI Vision (15 Agulhas): Série aprimorada com estrutura antivibração reforçada e servomotores silenciosos de alta rotação",
+      "BAI Koala / Kemei Series: Modelos compactos projetados especificamente para pequenas bancadas e espaços reduzidos",
+      "BAI Multi-Cabeças (2 e 4 cabeças): Versões para confecções de médio porte que buscam dobrar ou quadruplicar a produção"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "850 a 950 PPM para tecidos planos normais; 650 a 750 PPM para bonés estruturados e relevo 3D",
+      "needleType": "Sistema industrial de cabo redondo DBxK5 (tamanhos 75/11 para camisas a 90/14 para bonés e sarjas)",
+      "stabilizer": "Entretela rasgável de 70g/m² a 80g/m² ou entretela resinada especial para bonés estruturados"
+    },
+    "advantages": [
+      "✔ Excelente custo-benefício que democratizou o acesso a máquinas industriais de 15 agulhas para pequenos ateliês",
+      "✔ Pacote de acessórios riquíssimo de fábrica, incluindo múltiplos bastidores tubulares e kit completo de boné",
+      "✔ Painel moderno touchscreen colorido de 10 polegadas muito intuitivo e com suporte ao português",
+      "✔ Enorme comunidade global online com milhares de usuários trocando vídeos, matrizes e soluções de bordado"
+    ],
+    "limitations": [
+      "Utiliza agulhas industriais de cabo redondo (DBxK5), exigindo atenção manual para o correto alinhamento da cava.",
+      "Equipamento de peso estrutural elevado que necessita de bancada firme e aterramento elétrico adequado."
+    ],
+    "commonErrors": [
+      "❌ Iniciar o bordado sem executar o traçado com o ponteiro laser para conferir se o bastidor não sofrerá colisão.",
+      "❌ Instalar a agulha DBxK5 com a canaleta voltada para a posição incorreta, causando quebras sucessivas de linha.",
+      "❌ Borda bonés sem esticar a entretela resinada e a fita metálica do aro rotativo com firmeza uniforme.",
+      "❌ Deixar poeira e resíduos de entretela acumularem nos roletes ópticos do sensor de quebra de linha."
+    ],
+    "troubleshootingTips": [
+      "Linha escapando da agulha na primeira pontada: Ative a função de Partida Suave (Soft Start) no painel e ajuste a mola do pegador de linha (picker).",
+      "Alarme de parada com aviso de ângulo fora de 100°: Gire o volante traseiro da máquina com a mão até o display marcar 100° exatos.",
+      "Bordado com laçadas soltas embaixo: Retire a caixa de bobina metálica, passe um pincel para tirar poeira e aperte levemente o parafuso da lâmina de tensão."
+    ],
+    "dicaArtrelados": "As máquinas BAI Mirror vêm com uma variedade enorme de bastidores plásticos! Quando for bordar camisas polo, jalecos ou toalhas, use sempre o menor bastidor que acomode a sua matriz com cerca de 2 cm de folga: usar um bastidor pequeno e justinho reduz a vibração do tecido durante a alta rotação de 900 PPM e garante que as letrinhas pequenas do bordado fiquem com um acabamento cirúrgico!",
+    "voceSabia": "A BAI construiu uma das maiores comunidades ativas de bordadeiras empreendedoras da história da internet: seus grupos nas redes sociais contam com dezenas de milhares de donos de ateliês no mundo inteiro que trocam vídeos diários, tiram dúvidas e compartilham experiências de negócios, transformando a máquina em uma verdadeira rede de colaboração entre bordadeiras!",
+    "practicalExercise": "Programação Rápida de Cores na BAI The Mirror: Conecte um pendrive com uma matriz de 3 cores (azul, vermelho e amarelo) no formato .DST. No painel touchscreen de 10 polegadas, entre no menu de agulhas e vincule: Cor 1 à Agulha 1 (cone azul), Cor 2 à Agulha 2 (cone vermelho) e Cor 3 à Agulha 3 (cone amarelo). Acione o teste perimetral com laser e aperte o botão verde Start para ver as trocas automáticas limpas e sem nenhuma parada manual!",
+    "quickSummary": "Fabricante contemporânea chinesa (Guangdong, anos 2010), fenômeno global entre pequenos ateliês e criadores de conteúdo com as séries multiagulhas The Mirror, Vision e Kemei de 15 agulhas e formato .DST.",
+    "relatedTerms": [
+      "Typical (Máquinas de Bordado Eletrônico)",
+      "Feiya (Máquinas de Bordado Eletrônico)",
+      "Tajima",
+      "Formato DST",
+      "Agulha DBxK5",
+      "Bastidor de Boné",
+      "Caixa de Bobina",
+      "Velocidade PPM"
+    ],
+    "tags": [
+      "b-105",
+      "bai",
+      "the-mirror",
+      "vision",
+      "koala",
+      "kemei",
+      "maquinas",
+      "equipamento",
+      "dst",
+      "industrial",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "DONGGUAN BAILI MACHINERY CO., LTD. User and Maintenance Manual: BAI The Mirror & Vision Multi-Needle Series. Dongguan: BAI, 2023.",
+      "BAI EMBROIDERY ACADEMY. Mastering Commercial Multi-Needle Embroidery and Cap Systems. Dongguan, 2023.",
+      "ARTRELADOS. O Fenômeno das Máquinas Multiagulhas Compactas no Empreendedorismo de Ateliê. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-05"
   }
 ];
+

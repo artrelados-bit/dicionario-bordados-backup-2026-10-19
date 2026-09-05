@@ -1175,5 +1175,107 @@ export const VERBETES_LETTER_S11: Verbete[] = [
       "ARTRELADOS. Guia Técnico e Comparativo das Grandes Fabricantes Mundiais de Bordado. Curitiba, 2024."
     ],
     updatedAt: "2026-09-05"
+  },
+  {
+    id: "s-104-singer-maquinas-de-bordado-eletronico",
+    code: "S-104",
+    term: "Singer (Máquinas de Bordado Eletrônico)",
+    pronunciation: "sín-guer (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    letter: "S",
+    level: "Iniciante a Intermediário 🟢🟡",
+    category: "Máquinas e Equipamentos",
+    grammarClass: "Substantivo próprio / Locução substantiva.",
+    origin: "Fundada em 1851 em Nova York (Estados Unidos) por Isaac Merritt Singer e Edward Clark como I.M. Singer & Co. Pioneira mundial na produção seriada de máquinas de costura doméstica e no desenvolvimento do primeiro motor elétrico prático. No bordado computadorizado, democratizou o acesso residencial às bordadeiras microprocessadas com as séries Quantum Stylist e Futura, criando a clássica extensão de matriz .XXX.",
+    summary: "Fabricante americana mais tradicional da história (Nova York, 1851), pioneira na popularização do bordado residencial acessível com as séries Quantum Stylist EM200, Futura e SE9185, e criadora do formato .XXX.",
+    definition: "A Singer é a mais icônica e tradicional fabricante de máquinas de costura e bordado do mundo, pertencente ao grupo multinacional SVP Worldwide (ao lado das suecas Husqvarna Viking e da alemã Pfaff). No segmento de bordado computadorizado, notabilizou-se pelo pioneirismo em bordadeiras residenciais de baixo custo e alta acessibilidade, com destaque para a bordadeira pura Singer Quantum Stylist EM200 (Superb, com campo amplo de 260x150 mm), a linha híbrida Singer Futura (XL-400 e XL-580 com interface conectada ao computador) e a moderna linha combinada SE9185 com tela colorida touch e conectividade Wi-Fi via ecossistema mySewnet. Utiliza laçadeira horizontal rotativa com caixa de bobina plástica e suporta nativamente formatos .XXX e .DST.",
+    technicalDetails: "Acionamento por motor digital eletrônico de torque constante ajustado para até 700 PPM. Equipada com sistema de iluminação de 3 lâmpadas LED StayBright sem aquecimento nem sombras. Tela LCD de navegação para edição básica de matrizes (redimensionamento em escala, rotação em passos de 1° a 90°, espelhamento horizontal e vertical e combinação de alfabetos). Corte automático de linha superior e inferior acionado por solenoide, passador de agulha automático mecânico e sensores ópticos de fim de bobina e quebra de fio superior. Formato nativo Singer .XXX e padrão universal .DST.",
+    construction: [
+      "Chassi interno fundido em liga de alumínio reforçada para estabilidade em bancadas residenciais",
+      "Laçadeira horizontal rotativa com caixa de bobina em polímero e tampa plástica transparente de acrílico",
+      "Carro pantográfico com acoplamento frontal e motor de passo para eixo X/Y de curso suave",
+      "Conjunto de iluminação com 3 lâmpadas LED brancas StayBright posicionadas ao redor da área de trabalho",
+      "Tela LCD integrada para visualização de parâmetros, troca de cores e seleção de bastidores",
+      "Módulo de corte de linha inferior automático com lâmina fixa e faca móvel de aço temperado",
+      "Porta USB lateral para leitura direta de matrizes a partir de pendrives convencionais"
+    ],
+    howItWorks: [
+      "1. A matriz de bordado em formato .XXX ou .DST é salva em um pendrive USB comum e conectada na porta lateral da máquina Singer.",
+      "2. Na tela LCD da máquina, a bordadeira escolhe a matriz, ajusta o tamanho ou orientação e confirma o bastidor recomendado (Grande 26x15 cm ou Pequeno 10x10 cm).",
+      "3. O tecido e a entretela são montados no bastidor e encaixados no carro pantográfico com a trava de clique sonoro.",
+      "4. A bordadeira passa a linha pelo percurso guiado numerado e aciona o passador de agulha embutido.",
+      "5. Ao pressionar o botão verde Start/Stop, a máquina borda com velocidade ajustável de até 700 PPM, parando automaticamente a cada troca de cor programada.",
+      "6. Ao finalizar a matriz, a tesoura automática interna apara as linhas rente ao tecido e avisa o operador com sinal sonoro suave."
+    ],
+    beginnerExplanation: "A Singer é aquela marca amiga que todo mundo conhece e que já faz parte da história da nossa família! No bordado computadorizado, a Singer ajudou milhares de bordadeiras a abrirem seus primeiros ateliês sem precisar fazer dívidas enormes. A Quantum Stylist EM200, por exemplo, é uma bordadeira pura que já vem com um bastidor bem grandão de 26x15 cm: você pode bordar toalhas de banho inteiras, almofadas, camisas e enxovais de bebê com muita facilidade e com a confiança de uma marca centenária!",
+    applications: [
+      "Bordados em toalhas de banho, rosto e lavabo com o bastidor grande de 260x150 mm",
+      "Personalização de fraldas, mantas de piquê, bodys e roupas infantis de algodão",
+      "Monogramas e nomes escolares em jalecos, aventais e camisas de uniforme",
+      "Almofadas decorativas, panos de prato temáticos e peças de patchwork",
+      "Bordados de pequenos logotipos e brasões corporativos em peças planas"
+    ],
+    mainTypes: [
+      "Singer Quantum Stylist EM200 (Superb): Bordadeira pura com campo de 260x150 mm e 200 desenhos embutidos",
+      "Singer Futura XL-400 / XL-580: Modelos híbridos que conectam ao computador para envio direto de matrizes",
+      "Singer SE9185: Linha contemporânea conectada com tela colorida touch de 7 polegadas e nuvem mySewnet",
+      "Singer Legacy SE300: Máquina combinada de costura e bordado de alto desempenho com 250 pontos"
+    ],
+    recommendedSettings: {
+      speedPPM: "550 a 650 PPM para acabamento acetinado regular; até 700 PPM em tatami e contornos",
+      needleType: "Sistema doméstico cabo chato 130/705 H (tamanhos 75/11 para tecidos leves a 90/14 para toalhas)",
+      stabilizer: "Entretela rasgável de 50g/m² a 60g/m² ou filme hidrossolúvel para o relevo de toalhas felpudas"
+    },
+    advantages: [
+      "✔ Excelente custo-benefício com bastidor grande de fábrica (260 x 150 mm na linha EM200)",
+      "✔ Marca consagrada com ampla rede de peças de reposição e assistência técnica no Brasil",
+      "✔ Laçadeira horizontal à prova de travamentos com tampa de acrílico para visualização da linha",
+      "✔ Leitura direta de pendrive sem necessidade de computadores conectados na bancada"
+    ],
+    limitations: [
+      "Velocidade máxima de 700 PPM, ligeiramente inferior à de máquinas industriais ou semi-industriais.",
+      "Troca de linha manual a cada cor, comum em equipamentos de agulha única."
+    ],
+    commonErrors: [
+      "❌ Utilizar carretilhas plásticas convencionais retas em vez do padrão curvo original Class 15J.",
+      "❌ Puxar as bordas do tecido depois de travar o parafuso do bastidor, gerando franzimento após o bordado.",
+      "❌ Iniciar a costura sem certificar-se de que a alavanca do calcador foi abaixada.",
+      "❌ Deixar poeira e fiapos de linha acumularem na fenda da faca de corte inferior sob a chapa."
+    ],
+    troubleshootingTips: [
+      "Linha da carretilha aparecendo por cima do bordado: Reduza ligeiramente a tensão da linha superior no disco manual graduado (ajuste de 4 para 3 ou 2.5).",
+      "Aviso sonoro com máquina parada ao apertar Start: Abaixe a alavanca do calcador e confira se a haste do enfiador de linha retornou ao ponto mais alto.",
+      "Bordado desalinhado no bastidor: Encaixe as abas plásticas do bastidor no carro pantográfico com firmeza até ouvir o clique duplo de engate."
+    ],
+    dicaArtrelados: "Nas máquinas Singer Quantum Stylist EM200 e SE9185, a carretilha oficial tem um design especial com bordas levemente abauladas chamado Class 15J. Quando for comprar carretilhas extras para o seu ateliê, nunca use carretilhas de metal e exija sempre a 15J transparente: ela desliza sem vibrar dentro da caixinha de bobina e os seus pontos cheios de contorno saem perfeitos sem nenhuma falha!",
+    voceSabia: "A primeira máquina de costura patenteada por Isaac Singer em 1851 custava cerca de 100 dólares na época (o equivalente a vários meses de salário de uma família)! Para tornar a máquina acessível a todas as mulheres, a Singer inventou o primeiro sistema de crediário e venda a prazo da história moderna: as bordadeiras compravam a máquina pagando uma pequena entrada e quitavam as parcelas com o próprio dinheiro que faturavam com suas costuras!",
+    practicalExercise: "Encaixe Firme de Bastidor na EM200: Pegue o bastidor grande de 26x15 cm e monte um retalho de algodão com entretela rasgável. Aproxime o bastidor do carro pantográfico da sua Singer e empurre com os dedos nas duas orelhas plásticas de fixação até ouvir o estalo duplo da trava. Puxe levemente para cima para confirmar o travamento seguro e dê a partida para bordar sem nenhum desvio milimétrico!",
+    quickSummary: "Fabricante americana mais tradicional da história (Nova York, 1851), pioneira na popularização do bordado residencial com as séries Quantum Stylist EM200, Futura e SE9185, e criadora do formato .XXX.",
+    relatedTerms: [
+      "Husqvarna Viking / Pfaff (Máquinas de Bordado Eletrônico)",
+      "Brother (Máquinas de Bordado Eletrônico)",
+      "Janome (Máquinas de Bordado Eletrônico)",
+      "Formato XXX",
+      "Agulha Cabo Chato (130/705 H)",
+      "Caixa de Bobina",
+      "Velocidade PPM"
+    ],
+    tags: [
+      "s-104",
+      "singer",
+      "quantum",
+      "em200",
+      "futura",
+      "se9185",
+      "maquinas",
+      "equipamento",
+      "xxx",
+      "artrelados"
+    ],
+    bibliographicReferences: [
+      "SVP WORLDWIDE / SINGER CO. Instruction Manual: Singer Quantum Stylist EM200 & SE9185 Systems. Nashville: Singer, 2023.",
+      "SINGER SEWING CO. The Heritage and Innovation of Machine Embroidery. Nova York, 2022.",
+      "ARTRELADOS. A História Viva da Costura e o Bordado Computadorizado Acessível. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-05"
   }
 ];

@@ -1154,5 +1154,213 @@ export const VERBETES_LETTER_T13: Verbete[] = [
       "ARTRELADOS. Guia de Operação, Segurança e Manutenção de Bordadeiras Industriais no Brasil. Curitiba, 2024."
     ],
     updatedAt: "2026-09-05"
+  },
+  {
+    id: "t-105-toyota-maquinas-de-bordado-eletronico",
+    code: "T-105",
+    term: "Toyota (Máquinas de Bordado Eletrônico)",
+    pronunciation: "to-yo-ta (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    letter: "T",
+    level: "Intermediário a Avançado 🟡🔴",
+    category: "Máquinas e Equipamentos",
+    grammarClass: "Substantivo próprio / Locução substantiva.",
+    origin: "Fundada em 1926 em Kariya, província de Aichi (Japão), por Sakichi Toyoda como Toyoda Automatic Loom Works (o berço industrial de todo o grupo Toyota, concebido muito antes da divisão automobilística). No bordado computadorizado, a divisão Toyota Apparel Equipment desenvolveu nos anos 1980 e 1990 cabeçotes industriais de extrema precisão micrométrica, consagrando a lendária série Toyota Expert e o clássico formato binário de matriz .10O.",
+    summary: "Lendária fabricante japonesa (Aichi, 1926), berço do grupo Toyota, célebre pela histórica linha industrial compacta Toyota Expert (AD800 a AD860 de 6 a 12 agulhas) e pelo clássico formato de arquivo .10O.",
+    definition: "A Toyota é uma histórica e venerada fabricante japonesa de máquinas industriais compactas de bordado computadorizado de 1 e multi-cabeças (com 6, 9 ou 12 agulhas), celebrada mundialmente pela durabilidade de sua série Toyota Expert (modelos AD800, AD820, AD830, AD850 e AD860). Notabilizou-se pela mecânica de tolerância micrométrica herdada da engenharia de precisão japonesa, cabeçote tubular reforçado para bonés em 270°, sistema de corte rápido com recolhimento de ponta de fio, comunicação serial de alta fidelidade e suporte nativo ao formato proprietário Toyota .10O e ao padrão universal Tajima .DST.",
+    technicalDetails: "Acionamento por servomotores AC japoneses de alta inércia e baixíssimo ruído acoplados a eixos cartesianos X/Y de alta rigidez com parada em ponto morto superior a 100°. Velocidade contínua regulável entre 450 e 1.200 PPM. Laçadeira rotativa vertical industrial tipo 'L' de tolerância milimétrica com lubrificação por pavio, conjunto de corte automático por navalha de aço temperado e retentor de linha acionado por came. Conexão original via porta serial RS-232C para o software Toyota Stitch Composer e suporte a emuladores USB modernos. Arquivos suportados: .10O e .DST.",
+    construction: [
+      "Chassi monobloco fundido em ferro nodular japonês com altíssima absorção de vibração e estabilidade",
+      "Braço tubular de perfil estreito e longo para facilitar a rotação de bonés estruturados e peças tubulares fechadas",
+      "Torre de tensores manuais duplos graduados com mola puxa-fio de alta sensibilidade para cada agulha",
+      "Mecanismo de troca de agulhas linear rápida acionado por came mecânico de precisão",
+      "Painel de comando integrado de alta durabilidade com display LCD monocromático e teclado de membrana reforçado",
+      "Laçadeiras rotativas verticais industriais japonesas Koban de lubrificação contínua",
+      "Interface de comunicação serial RS-232C com possibilidade de adaptação para leitores de pendrive USB"
+    ],
+    howItWorks: [
+      "1. A matriz de bordado criada em formato proprietário Toyota .10O ou universal Tajima .DST é transferida para a máquina via cabo serial ou através de emulador de pendrive USB.",
+      "2. No painel de comando da máquina, o operador visualiza a numeração do desenho, programa a sequência de cores associando cada etapa às agulhas disponíveis (1 a 6, 9 ou 12) e ajusta a orientação.",
+      "3. O tecido estruturado com entretela ou o boné montado é fixado no bastidor tubular ou no aro de boné em 270° e travado no pantógrafo.",
+      "4. O operador realiza o traçado manual de área perimetral para confirmar que a agulha não atingirá a borda do bastidor.",
+      "5. Ao acionar o botão de partida, o motor acelera suavemente com rotação silenciosa até atingir a velocidade de cruzeiro de até 1.000 ou 1.200 PPM.",
+      "6. A cada mudança de cor, o cabeçote efetua o corte automático da linha, recolhe a ponta superior e desloca a barra de agulha com sincronismo perfeito."
+    ],
+    beginnerExplanation: "Você sabia que a famosa Toyota, fabricante de carros como o Corolla e a Hilux, nasceu na verdade como uma fábrica de máquinas de tecer e bordar no Japão? No mundo do bordado profissional, as máquinas da linha Toyota Expert são verdadeiras joias clássicas! Elas são tão resistentes, suaves e bem feitas que até hoje, décadas após a fabricação, continuam bordando bonés, toalhas e camisas com uma perfeição e um brilho de ponto cheio que deixa qualquer um encantado!",
+    applications: [
+      "Bordados industriais de alta precisão em camisas polo, uniformes corporativos e jalecos",
+      "Bordados em bonés montados estruturados em 270° com o dispositivo cilíndrico de boné",
+      "Bordados em peças tubulares prontas como mangas, punhos, bolsas e mochilas",
+      "Personalização de emblemas, distintivos e patches termocolantes com pontos de alta densidade",
+      "Trabalhos pesados em tecidos encorpados como brim, lona, couro e jaquetas esportivas"
+    ],
+    mainTypes: [
+      "Toyota Expert AD800 / AD820 (6 Agulhas): O clássico modelo compacto de entrada industrial que popularizou os ateliês profissionais",
+      "Toyota Expert AD830 / AD850 (9 Agulhas): Modelo intermediário de alta agilidade para produções comerciais com maior variedade de cores",
+      "Toyota Expert AD860 (12 Agulhas): A máquina topo de linha da série Expert com 12 agulhas e velocidade de até 1.200 PPM",
+      "Toyota Multi-Cabeças: Versões industriais de 2, 4 e 6 cabeças para confecções de alto volume"
+    ],
+    recommendedSettings: {
+      speedPPM: "850 a 1.000 PPM para peças planas normais; 650 a 750 PPM para bonés estruturados",
+      needleType: "Sistema industrial de cabo redondo DBxK5 (tamanhos 70/10 para malhas a 90/14 para bonés e brim)",
+      stabilizer: "Entretela rasgável de 70g/m² a 80g/m² ou entretela resinada especial para bonés estruturados"
+    },
+    advantages: [
+      "✔ Mecânica japonesa de precisão cirúrgica de durabilidade lendária e baixíssimo índice de manutenção",
+      "✔ Formato .10O consagrado e suportado por praticamente todos os softwares de digitalização profissionais",
+      "✔ Funcionamento extremamente macio e silencioso em comparação com máquinas convencionais da época",
+      "✔ Braço tubular longo e fino que facilita o manuseio de peças tubulares pequenas e bonés montados"
+    ],
+    limitations: [
+      "Modelos clássicos utilizavam originalmente comunicação serial RS-232C ou disquetes, demandando atualização para emulador USB.",
+      "Utiliza agulhas industriais de cabo redondo (DBxK5), exigindo atenção manual para o correto alinhamento da cava."
+    ],
+    commonErrors: [
+      "❌ Iniciar o bordado sem converter a matriz para o formato proprietário .10O ou universal .DST.",
+      "❌ Instalar a agulha DBxK5 com a cava virada para frente em vez de voltada para trás (direção da laçadeira).",
+      "❌ Deixar de engraxar as engrenagens cônicas e lubrificar a laçadeira com óleo mineral apropriado periodicamente.",
+      "❌ Esquecer de fazer o teste manual de área antes de iniciar a operação em bastidores de boné."
+    ],
+    troubleshootingTips: [
+      "Erro de leitura de matriz na porta USB emulada: Verifique se o pendrive está formatado em FAT16/FAT32 com arquivos nomeados com até 8 caracteres sem símbolos especiais.",
+      "Ruído seco no braço tubular durante o bordado: Pingue uma gota de óleo mineral na pista da laçadeira rotativa e gire o volante manualmente uma volta.",
+      "Quebra frequente de agulha em bonés estruturados: Certifique-se de que a agulha é DBxK5 de espessura adequada (85/13 ou 90/14) e que a velocidade foi reduzida para 700 PPM."
+    ],
+    dicaArtrelados: "As máquinas da linha Toyota Expert são famosas por produzirem um ponto acetinado muito fechado e com brilho impecável! Mas preste muita atenção na instalação da agulha DBxK5: como o cabo dela é redondo, use uma chavinha de fenda pequena encostada na lâmina para garantir que a cava fique exatamente virada para trás (na posição das 12 horas). Isso evita que a ponta da laçadeira japonesa encoste na agulha e garante um bordado macio e sem falhas!",
+    "voceSabia": "O fundador da Toyota, Sakichi Toyoda, é reverenciado no Japão como o 'Rei dos Inventores'! Em 1924, ele inventou o primeiro tear mecânico automático do mundo com parada instantânea ao romper o fio, criando o conceito industrial de 'Jidoka' (automação com toque humano), que deu origem ao mundialmente famoso Sistema Toyota de Produção (Lean Manufacturing), hoje aplicado em fábricas do mundo inteiro!",
+    "practicalExercise": "Exportando uma Matriz para Formato Toyota .10O: Abra o seu programa de bordado (como Wilcom ou Embird). Abra uma matriz qualquer de logotipo. Vá no menu Arquivo > Salvar Como / Exportar, selecione a extensão 'Toyota (*.10O)' e salve no pendrive. Conecte na sua máquina Toyota Expert e veja os pontos e as paradas de agulha serem reconhecidos instantaneamente com a máxima fidelidade japonesa!",
+    "quickSummary": "Lendária fabricante japonesa (Aichi, 1926), berço do grupo Toyota, célebre pela histórica linha industrial compacta Toyota Expert (AD800 a AD860 de 6 a 12 agulhas) e pelo clássico formato de arquivo .10O.",
+    "relatedTerms": [
+      "Tajima",
+      "Barudan (Máquinas de Bordado Eletrônico)",
+      "HappyJapan (Máquinas de Bordado Eletrônico)",
+      "Formato DST",
+      "Agulha DBxK5",
+      "Bastidor de Boné",
+      "Velocidade PPM"
+    ],
+    tags: [
+      "t-105",
+      "toyota",
+      "expert",
+      "ad860",
+      "ad850",
+      "ad800",
+      "maquinas",
+      "equipamento",
+      "10o",
+      "japonesa",
+      "artrelados"
+    ],
+    bibliographicReferences: [
+      "TOYOTA APPAREL EQUIPMENT / AISIN SEIKI CO., LTD. Instruction and Parts Manual: Toyota Expert AD850 / AD860 Series. Kariya: Toyota, 2020.",
+      "TOYOTA MOTOR CORP. The Heritage of Sakichi Toyoda and Textile Machinery Engineering. Nagoya, 2021.",
+      "ARTRELADOS. Tradição e Robustez: O Legado das Máquinas Japonesas Toyota no Bordado Profissional. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-05"
+  },
+  {
+    id: "t-106-tajima-maquinas-de-bordado-eletronico",
+    code: "T-106",
+    term: "Tajima (Máquinas de Bordado Eletrônico)",
+    pronunciation: "ta-ji-ma (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    letter: "T",
+    level: "Intermediário a Avançado 🟡🔴",
+    category: "Máquinas e Equipamentos",
+    grammarClass: "Substantivo próprio / Locução substantiva.",
+    origin: "Fundada em 1944 em Nagoya (Japão) por Tokujiro Tajima como Tajima Kogyo Co., Ltd. Em 1964, a Tajima revolucionou a história mundial da indústria têxtil ao desenvolver a primeira máquina de bordar multi-cabeças do planeta (modelo TM). Nos anos 1970 e 1980, desenvolveu a tecnologia pioneira de fita de papel perfurado e o formato binário .DST (Tajima Data Stitch), que se estabeleceu como o padrão universal absoluto e definitivo de todo o bordado computadorizado global.",
+    summary: "Fabricante japonesa máxima (Nagoya, 1944), líder mundial incontestável em tecnologia industrial, criadora do formato universal .DST, pioneira da tecnologia de calcador digital DCP e do sistema inteligente de linha i-TM.",
+    definition: "A Tajima é internacionalmente reverenciada como o padrão ouro máximo e a maior inovadora global em engenharia mecatrônica de bordado computadorizado. O Tajima Group desenvolve desde modelos industriais compactos de alta precisão (como a sofisticada Tajima SAI de 8 agulhas e as séries tubulares TMBR-SC e TMBP-SC de 1 cabeça e 15 agulhas) até imponentes linhas industriais planas e tubulares de 2, 4, 6, 8, 12 e até 56 cabeças de produção em massa. Notabilizou-se pela invenção da tecnologia patenteada DCP (Digitally Controlled Presser Foot - Calcador Controlado Digitalmente), corte dinâmico de altíssima velocidade, sistema inteligente de balanceamento de tensão i-TM e pela criação do consagrado formato de arquivo .DST.",
+    technicalDetails: "Acionamento mecatrônico de alta precisão por servomotores AC japoneses de altíssima inércia e resposta imediata com parada em ponto morto superior a 100°. Velocidade contínua ajustável de 450 a 1.200 PPM com nível de vibração próximo de zero. Sistema patenteado DCP que mede eletronicamente a espessura do material e ajusta a altura de descida do calcador a cada ponto em frações de milissegundo. Sistema i-TM (Intelligent Thread Management) para alimentação automatizada de linha sem ajuste manual por atrito mecânico. Laçadeiras rotativas verticais japonesas Koban e formato nativo/universal .DST.",
+    construction: [
+      "Chassi monobloco em ferro fundido especial com estabilização térmica para eliminação total de vibrações em alta velocidade",
+      "Tecnologia patenteada DCP com calcador eletrônico acionado por servomotor digital independente",
+      "Sistema de alimentação inteligente de linha i-TM que calcula e entrega o comprimento exato de linha para cada ponto",
+      "Braço tubular de perfil ultra estreito reforçado para rotação de bonés em 270°/360° e peças tubulares profundas",
+      "Painel de comando digital colorido touchscreen de alta resolução com interface intuitiva e suporte multilíngue",
+      "Laçadeiras rotativas verticais japonesas Koban de alta precisão milimétrica com lubrificação microdosada",
+      "Dispositivo de corte de linha de curso ultracurto com retentor elétrico de fio superior para recomeço invisível"
+    ],
+    howItWorks: [
+      "1. A matriz de bordado criada em formato nativo universal Tajima .DST é transferida para o computador da máquina via pendrive USB, cabo de rede LAN ou sistema DG by Pulse.",
+      "2. No painel digital colorido, o operador visualiza o desenho, programa a sequência de cores entre as agulhas (1 a 8, 12 ou 15) e define os parâmetros do calcador digital DCP.",
+      "3. O tecido estruturado ou o boné é encaixado no bastidor tubular ou aro de boné em 270° e travado com precisão milimétrica no pantógrafo reforçado.",
+      "4. O operador aciona o teste perimetral com ponteiro laser para validar visualmente os limites da área útil de bordado.",
+      "5. Ao acionar o botão de início, a máquina acelera com suavidade impressionante até atingir a velocidade de cruzeiro de até 1.200 PPM.",
+      "6. A cada mudança de cor, o cabeçote executa o corte automático de linha em frações de segundo, desloca a barra de agulha e retoma o bordado com perfeição cirúrgica."
+    ],
+    beginnerExplanation: "A Tajima é a marca número um do mundo, o verdadeiro padrão ouro absoluto do bordado industrial! Sabe quando você vê um bordado perfeito de marcas famosas como Nike ou Adidas, ou o escudo de um time de futebol famoso, sem nenhuma pontinha de linha solta e com um brilho de ponto cheio deslumbrante? Quase sempre foi feito em uma Tajima! Foi a Tajima quem inventou o famoso arquivo .DST, que é o formato que toda máquina de bordar do planeta sabe ler. Ter uma Tajima no ateliê é o maior sonho de qualquer bordador profissional!",
+    applications: [
+      "Bordados industriais de altíssimo luxo em camisas polo, ternos, jaquetas e uniformes corporativos de alto padrão",
+      "Bordados em bonés montados estruturados em 270° e 360° com o dispositivo rotativo de boné Tajima",
+      "Bordados em peças tubulares difíceis como mangas de camisas, punhos, meias, pernas de calça e mochilas",
+      "Confecção de emblemas, brasões militares e patches termocolantes com máxima densidade de ponto",
+      "Bordados em alto relevo 3D (EVA) com definição angular perfeita utilizando a tecnologia do calcador DCP"
+    ],
+    mainTypes: [
+      "Tajima SAI (8 Agulhas): O modelo compacto industrial mais refinado do mundo, ideal para boutiques e quiosques de personalização",
+      "Tajima TMBR-SC / TMBP-SC (15 Agulhas): As máquinas tubulares de 1 cabeça mais famosas do planeta com tecnologia de calcador DCP",
+      "Tajima Multi-Cabeças (Séries TFMX e TMAR): Linhas industriais pesadas de 2 a 30 cabeças para produções industriais em larga escala",
+      "Tajima Especializadas (Chenille / Lantejoulas / Cordão): Equipamentos híbridos para efeitos de moda e alta-costura"
+    ],
+    recommendedSettings: {
+      speedPPM: "950 a 1.200 PPM para tecidos planos normais; 750 a 850 PPM para bonés estruturados e relevo 3D",
+      needleType: "Sistema industrial de cabo redondo DBxK5 (tamanhos 65/9 para detalhes ultrafinos a 90/14 para bonés e sarja)",
+      stabilizer: "Entretela rasgável de alta densidade (70 a 80 g/m²) ou entretela resinada especial para bonés"
+    },
+    advantages: [
+      "✔ Líder mundial incontestável em qualidade de ponto, durabilidade mecânica e retenção de valor de revenda",
+      "✔ Tecnologia exclusiva de Calcador Controlado Digitalmente (DCP) que elimina o enrugamento do tecido e falhas de ponto",
+      "✔ Sistema de alimentação de linha i-TM que simplifica a tensão e assegura equilíbrio perfeito ponto a ponto",
+      "✔ Criadora do formato de arquivo .DST, garantindo 100% de compatibilidade e fidelidade com qualquer software de criação"
+    ],
+    limitations: [
+      "Equipamento de investimento financeiro elevado, posicionado no segmento de máxima categoria industrial.",
+      "Utiliza agulhas industriais de cabo redondo (DBxK5), demandando atenção manual para o correto alinhamento da cava."
+    ],
+    commonErrors: [
+      "❌ Operar o calcador DCP com altura descalibrada para apliques em alto relevo 3D com EVA, amassando o material.",
+      "❌ Deixar de fazer o teste perimetral com o ponteiro laser antes de iniciar a operação em aros de boné.",
+      "❌ Utilizar carretilhas de baixa qualidade com rebarbas mecânicas na laçadeira de tolerância micrométrica japonesa.",
+      "❌ Utilizar lubrificantes não homologados nos eixos e rolamentos lineares de alta precisão do cabeçote."
+    ],
+    troubleshootingTips: [
+      "Tecido levantando junto com a agulha em tecidos felpudos (flagging): Ajuste a altura mínima do calcador digital DCP no painel touch para que ele desça ligeiramente mais rente à base.",
+      "Bordado em alto relevo 3D perdendo volume: Eleve a altura de trabalho do calcador DCP em 0,8 mm a 1,0 mm para não comprimir a espuma de EVA durante a perfuração.",
+      "Quebra de linha em tecidos elásticos: Verifique a calibração do sensor de alimentação inteligente i-TM no menu de tensão automática."
+    ],
+    dicaArtrelados: "Se você tiver o privilégio de bordar em uma Tajima equipada com calcador digital DCP, explore o ajuste fino de altura ponto a ponto! Para bordados 3D com EVA em bonés, programe a descida do calcador para ficar 0,8 mm a 1,0 mm acima do tecido: o calcador não amassa o relevo da espuma, a agulha penetra suave e as quinas do seu bordado em relevo ficam tão nítidas e esculpidas que parecem moldadas em metal!",
+    voceSabia: "O formato de arquivo .DST (Tajima Data Stitch) foi criado originalmente no final da década de 1970 para ser lido por fitas de papel perfurado (Punch Cards)! A lógica binária japonesa desenvolvida pelos engenheiros da Tajima foi tão perfeita e econômica que, mesmo após quase cinco décadas e o surgimento de tecnologias digitais ultrassofisticadas, o .DST continua sendo a língua franca indiscutível de todas as máquinas de bordar do planeta Terra!",
+    practicalExercise: "Operando o Enquadramento de Boné na Tajima: Pegue um boné estruturado e posicione-o na estação de enquadramento cilíndrica oficial Tajima. Estique a fita de aço flexível sobre a costura da aba, encaixe o aro no braço tubular da máquina até travar e acione o teste perimetral óptico a laser. Observe a fluidez impecável do movimento de rotação em 270° guiado pelos servomotores japoneses!",
+    quickSummary: "Fabricante japonesa máxima (Nagoya, 1944), líder mundial indiscutível em tecnologia industrial, criadora do formato universal .DST, pioneira da tecnologia de calcador digital DCP e do sistema inteligente de linha i-TM.",
+    relatedTerms: [
+      "Barudan (Máquinas de Bordado Eletrônico)",
+      "Formato DST",
+      "Agulha DBxK5",
+      "Bastidor de Boné",
+      "Calcador de Bordado",
+      "Velocidade PPM"
+    ],
+    tags: [
+      "t-106",
+      "tajima",
+      "sai",
+      "tmbr",
+      "tmbp",
+      "dcp",
+      "itm",
+      "dst",
+      "maquinas",
+      "equipamento",
+      "japonesa",
+      "artrelados"
+    ],
+    bibliographicReferences: [
+      "TAJIMA GROUP / TOKAI INDUSTRIAL SEWING MACHINE CO., LTD. Instruction and Technology Manual: TMBR / TMBP & DCP Series. Kasugai: Tajima, 2023.",
+      "TAJIMA GROUP. 80 Years of World Leadership in Industrial Embroidery Machinery. Nagoya, 2024.",
+      "ARTRELADOS. A Engenharia Tajima e o Padrão Ouro do Bordado Computadorizado Mundial. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-05"
   }
 ];
+
+
