@@ -7024,6 +7024,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Verbete: [j-103-jack-maquinas-de-bordado-eletronico-e-automacao-textil] Jack (Máquinas de Bordado Eletrônico e Automação Têxtil) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=j-103-jack-maquinas-de-bordado-eletronico-e-automacao-textil</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Verbete: [k-001-kente-tecidos-etnicos-africanos] Kente, Tecidos Étnicos Africanos &amp; Bordados Geométricos de Alto Contraste -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=k-001-kente-tecidos-etnicos-africanos</loc>
@@ -13320,6 +13327,13 @@
   <!-- Verbete: [s-104-singer-maquinas-de-bordado-eletronico] Singer (Máquinas de Bordado Eletrônico) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=s-104-singer-maquinas-de-bordado-eletronico</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [s-105-sun-special-maquinas-de-bordado-eletronico] Sun Special (Máquinas de Bordado Eletrônico) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=s-105-sun-special-maquinas-de-bordado-eletronico</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

@@ -1953,6 +1953,110 @@ export const VERBETES_LETTER_J_PART14: Verbete[] = [
       "ARTRELADOS. Máquinas Industriais Programáveis e Tecnologia Mecatrônica Japonesa no Bordado. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-05"
+  },
+  {
+    "id": "j-103-jack-maquinas-de-bordado-eletronico-e-automacao-textil",
+    "code": "J-103",
+    "term": "Jack (Máquinas de Bordado Eletrônico e Automação Têxtil)",
+    "pronunciation": "djek (má-qui-nas de bor-da-do e-le-trô-ni-co e au-to-ma-ção têx-til)",
+    "letter": "J",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Máquinas e Equipamentos",
+    "grammarClass": "Substantivo próprio / Marca comercial / Locução substantiva.",
+    "origin": "Fundada em 1995 em Taizhou, província de Zhejiang (China), como Jack Technology Co., Ltd. Consolidou-se como a maior fabricante global em volume de vendas de equipamentos de costura e mecatrônica têxtil do planeta, pioneira mundial na integração de inteligência artificial com comandos por voz em português, servomotores diretos integrados e sistemas computadorizados de bordado de ciclo programável da série JK-T.",
+    "summary": "Maior fabricante mundial em volume da atualidade (Zhejiang, 1995), líder em tecnologia têxtil com comandos por voz em português, servomotores inteligentes e máquinas industriais de bordado de ciclo programável JK-T a até 2.700 PPM.",
+    "definition": "A Jack Technology é uma das mais inovadoras e dominantes corporações globais de engenharia têxtil contemporânea, com presença expressiva e liderança de mercado nas confecções e ateliês de todo o Brasil. No segmento de bordado computadorizado e pesponto decorativo, consagrou-se com as avançadas máquinas computadorizadas de bordado de ciclo programável da série JK-T (como a JK-T1900, JK-T1906 e a versátil JK-T3020 para áreas de 30x20 cm), amplamente utilizadas para bordar logotipos, etiquetas tecidas, reforços geométricos, calçados, bolsas e detalhes decorativos em couro e tecidos pesados. Destaca-se por painéis digitais touchscreen coloridos com comandos e avisos falados por voz em português, motores de passo de micropasso nos eixos X/Y, servomotor direct-drive no cabeçote e total compatibilidade com o formato universal .DST.",
+    "technicalDetails": "Equipada com servomotor de acionamento direto AC Direct-Drive coaxial acoplado ao cabeçote (eliminando correias e ruídos) e motores de passo de alta resolução nos eixos cartesianos X/Y para movimentação pantográfica do grampo com tolerância de 0,05 mm. Velocidade programável de costura e bordado técnico de até 2.700 PPM. Painel digital touchscreen com assistente de voz falada em língua portuguesa, porta USB frontal para importação de matrizes em formato universal Tajima .DST ou formato de padrão programado .VDP/.DXF, sistema de corte automático de linha com ponta ultracurta de até 2 mm e calcador intermediário programável com controle digital de altura.",
+    "construction": [
+      "Chassi monobloco fundido em ferro de alta densidade com pintura eletrostática anticorrosiva e design ergonômico moderno",
+      "Servomotor Direct-Drive integrado diretamente no eixo superior sem correias de transmissão para silêncio e resposta imediata",
+      "Motores de passo de micropasso independentes para os eixos cartesianos X e Y de alta precisão pantográfica",
+      "Painel digital colorido touchscreen capacitivo com alto-falante integrado e inteligência de comando e aviso por voz",
+      "Calcador intermediário programável com regulagem digital de altura ponto a ponto para evitar vibração do material",
+      "Mecanismo de corte automático de linha reforçado com lâminas de aço rápido para corte de fios grossos e técnicos",
+      "Grampos de fixação de troca rápida (mecânicos ou pneumáticos) com gabaritos vazados para áreas de até 300x200 mm"
+    ],
+    "howItWorks": [
+      "1. A matriz de bordado técnico ou decorativo em formato universal Tajima .DST é inserida via pendrive USB na porta do painel Jack.",
+      "2. A máquina reproduz uma saudação por voz em português confirmando a leitura do arquivo e exibe a prévia gráfica na tela touch.",
+      "3. O operador seleciona o desenho, define a altura do calcador intermediário de acordo com a espessura da peça e fixa o material no grampo de aperto.",
+      "4. O operador aciona o pedal de aproximação: o grampo desce prendendo firmemente a peça (etiqueta, bolso, calçado ou cinto).",
+      "5. Ao acionar o pedal de costura, a máquina borda em altíssima velocidade (até 2.700 PPM), executando o desenho programado com exatidão micrométrica.",
+      "6. Ao finalizar, o sistema corta a linha rente ao avesso, eleva o grampo e avisa por voz em português que a operação foi concluída com sucesso."
+    ],
+    "beginnerExplanation": "A Jack é a marca de máquinas inteligentes mais moderna e famosa do Brasil hoje em dia! O diferencial mais incrível dela é que as máquinas literalmente 'falam' com você em português! Se a linha arrebentar, se o óleo estiver baixo ou se ela terminar o bordado, uma voz simpática da própria máquina te avisa pelo alto-falante o que aconteceu! As máquinas de bordado programado da Jack são aquelas usadas para bordar etiquetas perfeitas de marcas famosas em camisas polo, bolsos de calças jeans e reforços de tênis esportivos em segundos!",
+    "applications": [
+      "Bordados técnicos e decorativos de logotipos em etiquetas de marcas de luxo e camisas polo",
+      "Gravação e bordados geométricos em calçados esportivos, tênis e chuteiras de couro e sintético",
+      "Bordados de reforço estrutural em bolsos de calças jeans, jaquetas e uniformes profissionais pesados",
+      "Bordados personalizados e costuras programadas em alças de mochilas, bolsas e cintos de segurança",
+      "Bordados em peças de couro legítimo, estofamentos automotivos e artigos de marroquinaria"
+    ],
+    "mainTypes": [
+      "Jack JK-T1900: Máquina computadorizada de ciclo de alta velocidade para presilhas, travetes e pequenos bordados técnicos",
+      "Jack JK-T1906: Modelo programável para bordados de etiquetas e monogramas compactos em área de 60x50 mm",
+      "Jack JK-T3020: Máquina de bordado de ciclo programável de médio formato com campo amplo de 300x200 mm",
+      "Jack JK-T6040: Modelo industrial de grande formato para painéis de couro, jaquetas técnicas e peças automotivas"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "2.000 a 2.500 PPM para tecidos planos e sarjas; 1.500 a 1.800 PPM para couros e linhas grossas",
+      "needleType": "Sistema industrial resistente DPx17 ou DPx5 (tamanhos 80/12 a 120/19 de acordo com o material)",
+      "stabilizer": "Entretela resinada pesada, tecido termocolante estruturado ou bases plásticas de reforço industrial"
+    },
+    "advantages": [
+      "✔ Sistema interativo inovador com voz falada em português que orienta o operador e avisa sobre erros em tempo real",
+      "✔ Servomotor Direct-Drive integrado extremamente econômico, gerando até 70% de economia de energia e zero ruído",
+      "✔ Altíssima produtividade industrial operando em velocidades de até 2.700 PPM com estabilidade absoluta",
+      "✔ Compatibilidade universal com o formato Tajima .DST, permitindo usar matrizes criadas em Wilcom e Embird"
+    ],
+    "limitations": [
+      "Equipamento de ciclo programado com grampo de fixação, voltado para peças dentro da área útil do gabarito (ex.: 30x20 cm).",
+      "Exige atenção ao posicionamento dos gabaritos metálicos para não haver colisão da agulha com a chapa de aperto."
+    ],
+    "commonErrors": [
+      "❌ Iniciar o ciclo sem fazer a simulação visual sem linha para verificar se a agulha não toca na borda do grampo metálico.",
+      "❌ Borda materiais espessos com o calcador intermediário muito alto, provocando repuxo e quebra de agulha.",
+      "❌ Utilizar agulhas normais de ponta redonda em couros rígidos em vez de agulhas especiais com ponta tipo espada (LR).",
+      "❌ Esquecer de ativar o volume da voz no painel digital, perdendo os alertas inteligentes de manutenção."
+    ],
+    "troubleshootingTips": [
+      "Mensagem de voz avisando sobre sobrecarga no motor (Error E-07): Verifique se há linha enrolada no volante ou sob a chapa da agulha e reinicie a máquina.",
+      "Ponta de linha sobrando muito comprida no final do ciclo: Acesse o menu de parâmetros de corte no painel touch e calibre a folga da navalha móvel para 1.5 mm.",
+      "Ponto pulando no início do bordado: Ajuste a altura do calcador intermediário para descer 0,5 mm mais próximo da peça na tela digital."
+    ],
+    "dicaArtrelados": "Nas máquinas Jack com tecnologia de voz, ative sempre a função de Alerta de Manutenção Preventiva! A própria máquina monitora a quantidade de pontos executados e te avisa por voz exatamente quando é hora de colocar a gotinha de óleo na laçadeira e limpar a caixa de bobina: isso evita aquecimento prematuro das peças e mantém a sua Jack com precisão de fábrica por muitos anos!",
+    "voceSabia": "A Jack foi a primeira fabricante do mundo a introduzir inteligência artificial com processamento de voz em máquinas têxteis industriais! Seus engenheiros gravaram vozes nativas em dezenas de idiomas — incluindo o português do Brasil com sotaque perfeitamente natural — para que operadores iniciantes possam aprender a operar a máquina sem sequer precisarem ler o manual impresso!",
+    "practicalExercise": "Importação de Matriz .DST e Teste de Gabarito na Jack JK-T3020: Salve um logotipo de 10x10 cm em formato .DST em um pendrive. Conecte o pendrive na porta USB frontal da Jack. Ouça a confirmação sonora da máquina, toque no desenho na tela touch e acione a função 'Trace' (Traçado sem costura). Observe o grampo se mover enquanto a voz confirma o término do teste, garantindo segurança total para iniciar o bordado!",
+    "quickSummary": "Maior fabricante mundial em volume da atualidade (Zhejiang, 1995), líder em tecnologia têxtil com comandos por voz em português, servomotores inteligentes e máquinas industriais de bordado de ciclo programável JK-T a até 2.700 PPM.",
+    "relatedTerms": [
+      "Zoje (Máquinas de Bordado Eletrônico)",
+      "Typical (Máquinas de Bordado Eletrônico)",
+      "Juki (Máquinas de Bordado Eletrônico)",
+      "Formato DST",
+      "Agulha DPx17",
+      "Calcador de Bordado",
+      "Velocidade PPM"
+    ],
+    "tags": [
+      "j-103",
+      "jack",
+      "jkt3020",
+      "jkt1900",
+      "voz",
+      "directdrive",
+      "maquinas",
+      "equipamento",
+      "dst",
+      "industrial",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "JACK TECHNOLOGY CO., LTD. Operation and Electronic Programming Manual: JK-T Series Computer-Controlled Cycle Machine. Taizhou: Jack, 2023.",
+      "JACK TECHNOLOGY CO., LTD. Smart Sewing and IoT Mechanics in Modern Garment Production. Taizhou, 2023.",
+      "ARTRELADOS. Inovações Tecnológicas, Interatividade por Voz e Produtividade no Bordado Industrial. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-05"
   }
 ];
+
 

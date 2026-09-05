@@ -1277,5 +1277,109 @@ export const VERBETES_LETTER_S11: Verbete[] = [
       "ARTRELADOS. A História Viva da Costura e o Bordado Computadorizado Acessível. Curitiba, 2024."
     ],
     updatedAt: "2026-09-05"
+  },
+  {
+    id: "s-105-sun-special-maquinas-de-bordado-eletronico",
+    code: "S-105",
+    term: "Sun Special (Máquinas de Bordado Eletrônico)",
+    pronunciation: "sãn es-pé-shi-au (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    letter: "S",
+    level: "Intermediário a Avançado 🟡🔴",
+    category: "Máquinas e Equipamentos",
+    grammarClass: "Substantivo próprio / Marca comercial / Locução substantiva.",
+    origin: "Marca brasileira fundada na década de 1990 em São Paulo (SP), com forte base de distribuição comercial no polo têxtil do Bom Retiro e Brás. Especializou-se na importação, tropicalização mecânica, montagem e suporte técnico de máquinas industriais têxteis e bordadeiras computadorizadas fabricadas sob rigorosos padrões internacionais em parceria com grandes plantas industriais asiáticas.",
+    summary: "Consagrada marca brasileira com sede em São Paulo, referência nacional em distribuição de maquinário têxtil e bordadeiras tubulares industriais multiagulhas das séries SS-1201 e SS-1501 equipadas com sistema Dahao, laçadeira japonesa e formato .DST.",
+    definition: "A Sun Special é uma das marcas mais populares, difundidas e comercializadas no mercado têxtil brasileiro de confecção, polo industrial e ateliês profissionais de bordado computadorizado. Oferece desde modelos industriais tubulares compactos de 1 cabeça (com 12 ou 15 agulhas, como as clássicas séries SS-1201 e SS-1501) até imponentes linhas industriais multi-cabeças de 2, 4, 6 e 8 cabeças para produção em grande escala. Caracteriza-se pela alta disponibilidade de peças de reposição e técnicos especializados no Brasil, comando eletrônico computadorizado Dahao em telas touch coloridas de 8 a 10 polegadas, laçadeiras rotativas verticais japonesas Koban, kit completo de bastidores tubulares planos e dispositivo rotativo de boné em 270°, operando com os formatos universais .DST e .DSB.",
+    technicalDetails: "Equipada com servomotores digitais AC nos eixos cartesianos X/Y e no eixo principal com sincronização precisa de ponto morto superior a 100°. Velocidade contínua ajustável de 450 a 1.000 ou 1.200 PPM. Painel digital touchscreen colorido Dahao de alta resolução com suporte integral ao idioma português, pré-visualização gráfica de contorno e memória interna para até 20 milhões de pontos. Sistema de corte automático de linha inferior e superior por navalhas temperadas de alta durabilidade com solenoide dedicado e retentor mecânico de linha superior para reinício de ponto sem desfiamento.",
+    construction: [
+      "Chassi monobloco fundido em ferro pesado com tratamento térmico para absorção de vibrações em alta rotação",
+      "Braço tubular cilíndrico de perfil estreito reforçado para facilitar o giro de bonés montados e peças fechadas",
+      "Mesa de extensão plana removível com tampo de madeira laminada de alta resistência para peças grandes",
+      "Painel de comando computadorizado Dahao colorido touchscreen de 8 a 10 polegadas com suporte multilíngue em português",
+      "Conjunto de 12 ou 15 barras de agulha acionadas por motor de passo linear com troca rápida de cor",
+      "Laçadeira rotativa vertical industrial tipo 'L' japonesa Koban de alta precisão e lubrificação por pavio",
+      "Ponteiro de feixe laser vermelho para teste de perímetro e definição de origem do bordado"
+    ],
+    howItWorks: [
+      "1. A matriz de bordado em formato universal Tajima .DST ou .DSB é transferida via pendrive USB para o painel Dahao da máquina Sun Special.",
+      "2. Na tela digital touch em português, o operador escolhe a matriz, ajusta dimensões ou orientação e associa as etapas de cor às agulhas desejadas (1 a 12 ou 15).",
+      "3. A peça (camiseta, jaleco, toalha ou boné) é enquadrada no bastidor tubular ou aro de boné e travada com firmeza no pantógrafo reforçado.",
+      "4. O operador aciona o ponteiro laser e executa a função de traçado perimetral para checar visualmente se o desenho cabe com folga dentro da área útil do bastidor.",
+      "5. Ao apertar o botão verde Start, a máquina inicia o ciclo operacional com partida suave, acelerando até a rotação de cruzeiro de até 1.000 ou 1.200 PPM.",
+      "6. A cada etapa, o trilho de agulhas se desloca automaticamente e a faca inferior apara o fio, retendo a ponta superior para a próxima partida limpa."
+    ],
+    beginnerExplanation: "A Sun Special é aquela marca super famosa que você encontra em praticamente todas as lojas de máquinas de costura e bordado do Brasil, especialmente no Brás e Bom Retiro em São Paulo! As bordadeiras da Sun Special são robustas, aguentam o tranco do trabalho diário pesado, vêm com o computador Dahao em português (que é facílimo de mexer) e contam com peças de reposição e técnicos em qualquer canto do país. São perfeitas para quem quer começar a bordar bonés, camisetas e uniformes de empresas com rapidez profissional!",
+    applications: [
+      "Bordados industriais de alta velocidade em uniformes corporativos, camisas polo e jalecos profissionais",
+      "Bordados em bonés montados estruturados em 270° com o dispositivo cilíndrico de boné",
+      "Bordados em peças tubulares prontas como mangas, punhos, pernas de calça e bolsas esportivas",
+      "Confecção seriada de emblemas, distintivos e patches termocolantes com pontos de alta densidade",
+      "Bordados em artigos pesados como couro ecológico, brim, jaquetas jeans e toalhas atoalhadas"
+    ],
+    mainTypes: [
+      "Sun Special SS-1201 (1 Cabeça e 12 Agulhas): O modelo tubular clássico e ágil para uniformes e pequenas confecções",
+      "Sun Special SS-1501 (1 Cabeça e 15 Agulhas): Versão com 15 agulhas e campo ampliado para matrizes multicolores complexas",
+      "Sun Special Multi-Cabeças (2, 4, 6 e 8 Cabeças): Máquinas de produção seriada para confecções de médio e grande porte",
+      "Sun Special Linha Doméstica/Ateliê: Modelos compactos para personalizações pontuais e pequenos negócios artesanais"
+    ],
+    recommendedSettings: {
+      speedPPM: "850 a 1.000 PPM para peças planas normais; 650 a 750 PPM para bonés estruturados",
+      needleType: "Sistema industrial de cabo redondo DBxK5 (tamanhos 70/10 a 90/14 de acordo com a gramatura)",
+      stabilizer: "Entretela rasgável pesada de 70g/m² a 80g/m² ou entretela resinada especial para bonés estruturados"
+    },
+    advantages: [
+      "✔ Ampla rede de distribuição, peças de reposição e suporte técnico especializado em todo o território brasileiro",
+      "✔ Sistema eletrônico Dahao universalmente consagrado, com menus e telas totalmente traduzidos para o português",
+      "✔ Laçadeira rotativa japonesa Koban que garante estabilidade de laçada e ponto de alto acabamento",
+      "✔ Pacote de fábrica completo com vários bastidores tubulares, aro de boné e mesa extensora plana inclusa"
+    ],
+    limitations: [
+      "Utiliza agulhas industriais de cabo redondo (DBxK5), exigindo atenção manual para o correto alinhamento da cava.",
+      "Equipamento de peso estrutural elevado que requer bancada firme e aterramento elétrico adequado."
+    ],
+    commonErrors: [
+      "❌ Iniciar o bordado ou movimentar o pantógrafo sem conferir se o ângulo do eixo principal está exatamente em 100° no painel Dahao.",
+      "❌ Montar a agulha de cabo redondo com a cava virada para a direção errada (deve ficar voltada para trás, na direção da laçadeira).",
+      "❌ Operar em altas velocidades em peças pesadas como toalhas de banho sem montar a mesa extensora de apoio plana.",
+      "❌ Deixar de lubrificar a laçadeira rotativa vertical e as guias de barra de agulha a cada turno de trabalho de 8 horas."
+    ],
+    troubleshootingTips: [
+      "Linha superior escapando na primeira pontada da agulha: Ative a função de Partida Suave (Soft Start) no painel Dahao para 3 pontos a 400 PPM e ajuste o avanço do pegador de linha (picker).",
+      "Alarme de parada com aviso de ângulo fora de 100°: Gire o volante traseiro da máquina com a mão até o mostrador digital indicar exatamente 100°.",
+      "Ponto frouxo no verso da peça: Verifique se a caixa de bobina metálica está limpa e aperte ligeiramente o parafuso da lâmina de tensão."
+    ],
+    dicaArtrelados: "Nas bordadeiras Sun Special com painel Dahao, você pode salvar a sequência de cores das suas linhas favoritas como predefinição! Se você usa sempre as agulhas 1, 2 e 3 com branco, preto e dourado para bordar uniformes, salve essa ordem na memória de agulhas: toda vez que você abrir uma matriz nova, basta vincular com um único toque, economizando minutos preciosos a cada lote de produção!",
+    voceSabia: "A Sun Special é uma das marcas que mais investiram na formação de operadores e mecânicos de bordado no Brasil: seus centros técnicos em São Paulo já treinaram milhares de bordadeiras e profissionais que hoje comandam ateliês e confecções de sucesso em todos os estados do país!",
+    practicalExercise: "Ajuste de Partida Suave no Painel Dahao da Sun Special: Acesse o menu de parâmetros da máquina no painel touchscreen. Localize a opção 'Soft Start' (Partida Suave) e defina para 3 pontos na velocidade reduzida de 400 PPM. Inicie o bordado: veja como a máquina dá os primeiros 3 pontinhos bem devagar para prender o fio firmemente na entretela e depois acelera sozinha até 950 PPM sem arrebentar a linha!",
+    quickSummary: "Consagrada marca brasileira com sede em São Paulo, referência nacional em distribuição de maquinário têxtil e bordadeiras tubulares industriais multiagulhas das séries SS-1201 e SS-1501 com sistema Dahao e laçadeira japonesa.",
+    relatedTerms: [
+      "Typical (Máquinas de Bordado Eletrônico)",
+      "Feiya (Máquinas de Bordado Eletrônico)",
+      "Tajima",
+      "Formato DST",
+      "Agulha DBxK5",
+      "Bastidor de Boné",
+      "Caixa de Bobina",
+      "Velocidade PPM"
+    ],
+    tags: [
+      "s-105",
+      "sun-special",
+      "ss1201",
+      "ss1501",
+      "dahao",
+      "maquinas",
+      "equipamento",
+      "dst",
+      "industrial",
+      "brasileira",
+      "artrelados"
+    ],
+    bibliographicReferences: [
+      "SUN SPECIAL MÁQUINAS INDUSTRIAIS. Manual de Operação e Manutenção Técnica: Bordadeiras Industriais Séries SS-1201 e SS-1501. São Paulo: Sun Special, 2023.",
+      "BEIJING DAHAO TECHNOLOGY CORP. Manual de Operação do Sistema Computadorizado Dahao em Língua Portuguesa. Pequim / São Paulo, 2023.",
+      "ARTRELADOS. Panorama do Maquinário Industrial e Suporte Técnico Têxtil no Brasil. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-05"
   }
 ];
