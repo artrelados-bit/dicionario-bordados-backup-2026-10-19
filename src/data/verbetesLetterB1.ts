@@ -2383,5 +2383,312 @@ export const VERBETES_LETTER_B1: Verbete[] = [
       "ARTRELADOS. Mecatrônica Avançada, Dinâmica Estrutural e Algoritmos de Precisão no DIBE. Curitiba, 2024."
     ],
     "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "b-101-brother-maquinas-de-bordado-eletronico",
+    "code": "B-101",
+    "term": "Brother (Máquinas de Bordado Eletrônico)",
+    "pronunciation": "bró-der (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo próprio / Locução substantiva.",
+    "category": "Máquinas e Equipamentos",
+    "origin": "Fundada em 1908 em Nagoia (Japão) por Kanekichi Yasui como Yasui Sewing Machine Co., tornando-se posteriormente Brother Industries Ltd. A empresa foi a grande pioneira global na democratização e popularização do bordado computadorizado residencial e de ateliê com a criação do formato nativo PES.",
+    "summary": "Fabricante japonesa líder mundial em bordadeiras computadorizadas, notória pelo ecossistema nativo PES, laçadeiras horizontais drop-in, linhas PE, BP e multiagulhas PR.",
+    "definition": "A Brother é uma das maiores e mais influentes fabricantes globais de maquinário de bordado eletrônico e costura computadorizada. Suas máquinas de bordar dividem-se em três grandes famílias operacionais: a Linha PE (máquinas domésticas de cabeçote único compacto voltadas ao artesanato e personalização leve com bastidores de 10x10 cm a 13x18 cm), a Linha BP (máquinas semi-industriais robustas de mesa plana com bastidores estendidos de até 20x30 cm como as aclamadas BP-1430L, BP-1530L e BP-2150L) e a Linha PR / VR (máquinas multiagulhas de braço livre cilíndrico de 1, 6 e 10 agulhas destinadas à produção intensiva de ateliê, bonés montados e peças tubulares prontas).",
+    "technicalDetails": "Operam sob laçadeira rotativa horizontal silenciosa (bobina drop-in com altura padrão de 11,5 mm - tipo SA156/Class 15) nos modelos PE e BP, e laçadeira rotativa vertical industrial tipo 'L' na linha multiagulha PR. Velocidade operacional de 400 a 850 PPM nos modelos planos domésticos e até 1.000 PPM na linha PR. Compatibilidade de leitura nativa nos formatos .PES, .PHC e .DST via porta USB 2.0 e conectividade sem fio Wi-Fi nos modelos mais recentes.",
+    "howItWorks": [
+      "1. A matriz de bordado formatada em arquivo .PES ou .DST é carregada na máquina via pendrive USB ou transmitida por Wi-Fi através do software PE-Design ou aplicativo Artspira.",
+      "2. Na tela touchscreen colorida, a bordadeira seleciona o desenho, realiza eventuais ajustes de escala (até ±20%), rotação de ângulo, espelhamento e pré-visualização de cores.",
+      "3. O bastidor adequado à dimensão do bordado é travado firmemente no mecanismo de encaixe do carro pantográfico (eixos X e Y).",
+      "4. O enfiador automático de agulha avançado da Brother posiciona o fio no olho da agulha com acionamento por alavanca única.",
+      "5. A máquina aciona o sensor de abaixamento do calcador e inicia o ciclo com partida suave, executando automaticamente as trocas de cores e o corte de linha superior e inferior.",
+      "6. Sensores ópticos e mecânicos monitoram continuamente a passagem da linha superior e a quantidade restante na carretilha inferior, pausando o bordado instantaneamente em caso de quebra ou término."
+    ],
+    "beginnerExplanation": "A Brother é a marca de máquina de bordar mais famosa e querida dos ateliês brasileiros! Elas são super fáceis e amigáveis de usar, têm tela colorida sensível ao toque, cortam a linha sozinhas no final de cada cor e possuem aquele passador de linha automático maravilhoso na agulha que não deixa você forçar a vista.",
+    "applications": [
+      "Personalização de enxovais de bebê, fraldas, toalhas de banho e artigos de cama e banho (Linhas PE e BP)",
+      "Bordados corporativos em uniformes, jalecos médicos e camisas polo (Linha BP e PR)",
+      "Bordado de bonés estruturados em curva de 270° com bastidor de boné cilíndrico (Linha PR-680W e PR-1055X)",
+      "Confecção de matrizes aplicadas, rendas em Richelieu e patches termocolantes em larga escala",
+      "Produção profissional contínua de ateliê com trocas automáticas de até 10 cores sem intervenção manual (Linha PR-1055X)"
+    ],
+    "commonErrors": [
+      "❌ Utilizar agulha de cabo redondo de máquina industrial (sistema DBx1 ou DBxK5) nas linhas PE ou BP, o que quebra a agulha, destrói a caixa de bobina plástica e descalibra a laçadeira.",
+      "❌ Utilizar carretilhas metálicas antigas de costura reta na laçadeira horizontal da Brother: a bobina deve ser obrigatoriamente plástica transparente de 11,5 mm (padrão SA156).",
+      "❌ Puxar a linha de bordado pelo caminho inverso (de baixo para cima) ao trocar de cor, entupindo os discos de tensão e o sensor óptico com fiapos acumulados.",
+      "❌ Não travar completamente a alavanca do bastidor no braço de encaixe do pantógrafo, fazendo o bastidor soltar em movimento e perder o registro da matriz."
+    ],
+    "troubleshootingTips": [
+      "Mensagem persistente de 'Verifique a linha superior': Retire a linha, levante o pé calcador, passe novamente o fio garantindo que ele entre bem fundo entre os discos tensores e no estica-fio mecânico.",
+      "Linha inferior (branca) subindo e aparecendo em cima do bordado: Limpe o pó de entretela acumulado sob a mola de tensão da caixinha de bobina passando um cartão fino ou fio dental sem cera.",
+      "Máquina não reconhece o arquivo do pendrive: Certifique-se de que a matriz está salva na extensão .PES, com bastidor compatível com o modelo (não maior que a área máxima da máquina) e pendrive formatado em FAT32 de até 16GB ou 32GB."
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Linha PE/BP: 600 a 750 PPM; Linha PR: 700 a 900 PPM",
+      "needleType": "Linhas PE e BP: Sistema 130/705 H (HAx1) Schmetz ou Organ 75/11 ou 90/14; Linha PR: Sistema 130EBBR / DBxK5",
+      "stabilizer": "Entretela rasgável ou recortável de 60g/m² a 80g/m² conforme o tecido"
+    },
+    "construction": [
+      "Painel Touchscreen Colorido LCD de alta resolução com botões de edição rápida",
+      "Carro pantográfico com acionamento por motores de passo de alta precisão (eixos X e Y)",
+      "Sistema de laçadeira horizontal drop-in (PE/BP) ou laçadeira industrial vertical (PR)",
+      "Caixa de bobina plástica antifricção com mola de tensão calibrada para linha 60wt",
+      "Mecanismo de corte automático de linha com faca móvel e contrafaca temperada",
+      "Enfiador mecânico avançado de agulha com gatilho de descida automática",
+      "Porta USB e módulo receptor de Wi-Fi para transferência de matrizes sem fio"
+    ],
+    "mainTypes": [
+      "Linha PE de Entrada e Intermediária (PE-430, PE-450, PE-770, PE-810L, PE-910L): Bastidores 10x10 cm e 13x18 cm",
+      "Linha BP de Alta Performance para Ateliê (BP-1430L, BP-1530L, BP-2150L): Bastidores 16x26 cm, 20x30 cm e multi-posição",
+      "Linha VR de Cabeçote Cilíndrico de 1 Agulha: Ponte perfeita entre o modelo plano e o tubular",
+      "Linha PR Multiagulhas Profissional (PR-655, PR-670E, PR-680W de 6 agulhas; PR-1050X, PR-1055X de 10 agulhas com câmera de precisão)"
+    ],
+    "advantages": [
+      "✔ A maior comunidade de bordadeiras e assistência técnica disponível no Brasil",
+      "✔ Formato nativo .PES universalmente aceito e suportado por todos os softwares de matrizes",
+      "✔ Enfiador de agulha extremamente rápido, confiável e anatômico",
+      "✔ Corte de linha preciso que minimiza o tempo de acabamento e limpeza manual das peças"
+    ],
+    "limitations": [
+      "As linhas PE e BP são de uma agulha única, exigindo troca manual do cone a cada mudança de cor da matriz.",
+      "A caixinha de bobina plástica requer limpeza periódica de fiapos e não tolera quedas de agulha descalibrada."
+    ],
+    "dicaArtrelados": "Na sua máquina Brother, use sempre carretilhas plásticas originais com altura de 11,5 mm (padrão SA156). Carretilhas de metal ou mais baixas danificam a caixa de bobina e desregulam a tensão. Para cortar o fio ao terminar de bordar, corte sempre rente ao cone de linha no topo e puxe a linha por baixo pela agulha: nunca puxe o fio de volta pelo caminho contrário para não deixar fiapos no passador!",
+    "voceSabia": "A Brother foi a criadora do famoso formato .PES (que significa 'Personal Embroidery System'). O formato se tornou tão popular e querido no mundo todo que praticamente qualquer programa de matriz de bordado existente hoje salva ou converte arquivos para .PES!",
+    "practicalExercise": "Faça o famoso 'Teste das 3 Colunas' (I-Test de Tensão): Borde 3 colunas de ponto cheio (satin) de 2 cm de altura em um retalho de sarja com entretela rasgável. Vire o tecido do avesso: a linha colorida de cima deve aparecer em 1/3 em cada lateral, e a linha de bobina branca deve ocupar perfeitamente o 1/3 central!",
+    "quickSummary": "Fabricante japonesa líder mundial de bordadeiras, famosa pela durabilidade, corte automático e pelo ecossistema de matrizes .PES nas linhas PE, BP e multiagulhas PR.",
+    "relatedTerms": [
+      "Janome (Máquinas de Bordado)",
+      "Formato PES",
+      "Caixa de Bobina",
+      "Bastidor de Bordado",
+      "Agulha Cabo Chato (130/705 H)",
+      "Compensação de Repuxo",
+      "Tensão de Linha"
+    ],
+    "tags": [
+      "b-101",
+      "brother",
+      "maquinas",
+      "equipamento",
+      "pe810l",
+      "bp1430l",
+      "pr680w",
+      "pes",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BROTHER INDUSTRIES LTD. Operation and Maintenance Manual: Embroidery Machines PE & BP Series. Nagoya: Brother, 2023.",
+      "BROTHER INDUSTRIES LTD. PR-Series Multi-Needle Embroidery Operations and Timing Specifications. Nagoya, 2024.",
+      "ARTRELADOS. Guia de Escolha e Calibração de Máquinas Brother para Ateliês. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-05"
+  },
+  {
+    "id": "b-102-barudan-maquinas-de-bordado-eletronico",
+    "code": "B-102",
+    "term": "Barudan (Máquinas de Bordado Eletrônico)",
+    "pronunciation": "ba-ru-dan (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    "letter": "B",
+    "level": "Avançado 🔴",
+    "category": "Máquinas e Equipamentos",
+    "grammarClass": "Substantivo próprio / Locução substantiva.",
+    "origin": "Fundada em 1959 em Ichinomiya, província de Aichi (Japão), por Yoshio Shibata. A Barudan produziu a primeira máquina de bordar industrial multi-cabeças do Japão e, em 1977, surpreendeu o mundo têxtil ao lançar a primeira máquina computadorizada do planeta comandada por fita perfurada, tornando-se o padrão internacional de durabilidade mecânica extrema e precisão micrométrica inabalável.",
+    "summary": "Fabricante japonesa lendária no setor industrial de bordado de 1 até 56 cabeças, célebre pela robustez indestrutível de chassi, tecnologia de corte rápido Smart Action e bastidores de boné Advantage.",
+    "definition": "A Barudan é uma das mais respeitadas e tradicionais fabricantes de máquinas industriais de bordado de alto rendimento do mundo, produzindo desde modelos de cabeçote único tubular (com 15 agulhas) para ateliês de altíssimo padrão até linhas gigantescas de múltiplas cabeças (com até 56 cabeçotes simultâneos). Famosa pelo consagrado sistema mecânico de pantógrafo reforçado, pelo exclusivo acionamento positivo com tração controlada de linha, comandos eletrônicos avançados da série KT e painéis touchscreen coloridos da série SH. Suporta nativamente o formato binário universal .DST e os formatos proprietários Barudan .U01 / .FDR.",
+    "technicalDetails": "Equipada com servomotores digitais AC de alta inércia acoplados diretamente ao eixo mestre e ao pantógrafo, com controle milimétrico de ponto morto superior a 100°. Velocidade operacional contínua entre 850 e 1.300 PPM sem perda de alinhamento. Mecanismo patenteado de corte de fio com faca rotativa e tracionador positivo que impede o escape do fio superior nas trocas de cor. Calcador com regulagem individual de altura por agulha, laçadeira rotativa vertical industrial de alta velocidade e carretilha metálica tamanho 'L'.",
+    "construction": [
+      "Chassi monobloco fundido em aço e ferro de alta densidade para absorção total de vibração estrutural",
+      "Braço cilíndrico tubular estreito reforçado para calçados, bolsas e bonés montados",
+      "Painel de comando computadorizado colorido sensível ao toque SH com processamento gráfico em tempo real",
+      "Sistema de troca automática de agulhas e cores por motor de passo de alta precisão",
+      "Sensor rotativo óptico e mecânico traseiro de quebra de fio superior e término de bobina",
+      "Faca rotativa temperada de acionamento pneumático/solenoide com tracionador positivo de linha",
+      "Bastidor de boné Advantage Cap Frame com travas laterais e curso de 270 graus de bordado contínuo"
+    ],
+    "howItWorks": [
+      "1. A matriz em formato .DST ou formato nativo Barudan (.U01) é carregada via pendrive na memória do comando eletrônico KT/SH.",
+      "2. O operador seleciona a matriz, atribui as cores correspondentes às agulhas ativas (de 1 a 15) e calibra a altura do calcador independente para o tecido da peça.",
+      "3. A peça (como um boné pesado ou jaqueta de couro) é montada no bastidor Advantage e travada no braço tubular.",
+      "4. A máquina efetua a conferência de limites perimetrais e inicia a produção em velocidade progressiva de até 1.300 PPM.",
+      "5. Em cada troca de cor ou corte de salto, o sistema Smart Action aciona a faca rotativa e segura a ponta do fio com o tracionador positivo, permitindo recomeçar o ponto imediatamente sem pontas soltas ou laçadas soltas.",
+      "6. Em caso de quebra de fio, o sensor dinâmico interrompe o ciclo instantaneamente e permite recuo exato de pontos para sobreposição invisível."
+    ],
+    "beginnerExplanation": "A Barudan é conhecida pelos bordadeiros mais experientes como 'o tanque de guerra japonês do bordado'! É uma máquina construída para durar décadas funcionando sem parar, dia e noite. Enquanto máquinas convencionais sofrem e vibram ao bordar tecidos muito duros ou bonés grossos, a Barudan perfura com a maior facilidade do mundo, mantendo os pontos alinhados com precisão cirúrgica sem entortar a agulha nem repuxar o tecido.",
+    "applications": [
+      "Bordados de alta precisão em bonés montados estruturados de 6 gomos (com o sistema Advantage Cap Frame)",
+      "Bordados corporativos pesados em jaquetas de couro, jeans denso, lona e mochilas de viagem",
+      "Produção de emblemas, brasões em alto relevo 3D (com EVA) e patches militares com densidades extremas",
+      "Confecção industrial em larga escala de uniformes profissionais e camisas polo em baterias multi-cabeças",
+      "Bordado de peças tubulares montadas como mangas de camisa, pernas de calça e tênis esportivos"
+    ],
+    "mainTypes": [
+      "Barudan BKTX / BEKT-S1501CBII (Elite Pro): Modelo compacto de 1 cabeça e 15 agulhas, o padrão de ouro para ateliês de elite",
+      "Barudan BEVT / BENT (Multi-Cabeças Compactas): Modelos de 2, 4, 6 e 8 cabeças para confecções de vestuário de alta rotação",
+      "Barudan BEYX / BEDY (Multi-Cabeças Pesadas): Máquinas gigantes de até 56 cabeças planas para leitos de tecelagem e moda praia",
+      "Acessórios Especiais Barudan: Dispositivo de lantejoulas/paetês duplos, dispositivo de cordão (Cording) e bastidores magnéticos"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "900 a 1.100 PPM para peças planas normais; 750 a 850 PPM para bonés estruturados e bordados 3D com EVA",
+      "needleType": "Sistema industrial DBxK5 (tamanhos 75/11 a 90/14; recomendação de agulhas revestidas com Titânio PD para alta durabilidade)",
+      "stabilizer": "Entretela rasgável pesada de 80g/m² a 100g/m² para peças estruturadas ou hidrossolúvel para tecidos com felpa"
+    },
+    "advantages": [
+      "✔ Chassi e barramento mecânico com a maior inércia e resistência estrutural da indústria têxtil",
+      "✔ Sistema de corte e retenção positiva de linha que praticamente zera o escape de pontas na troca de cor",
+      "✔ Bastidor de bonés Advantage que borda mais próximo da aba do que qualquer outro concorrente do mercado",
+      "✔ Regulagem de altura do calcador independente por barra de agulha para diferentes espessuras de tecido"
+    ],
+    "limitations": [
+      "Equipamento de alto investimento inicial e peso elevado, exigindo fundação ou piso industrial reforçado.",
+      "Uso exclusivo de agulhas industriais de cabo redondo (DBxK5), demandando cuidado do operador na orientação da canaleta."
+    ],
+    "commonErrors": [
+      "❌ Alterar a altura do calcador de forma descuidada sem verificar a folga do tecido, podendo prensar a peça ou permitir vibração da malha.",
+      "❌ Usar carretilhas plásticas na laçadeira industrial de alta rotação (deve-se usar carretilhas metálicas balanceadas tipo 'L').",
+      "❌ Deixar de soprar ou limpar o sensor óptico rotativo traseiro de linha, ocasionando alarmes falsos de quebra de fio.",
+      "❌ Não aplicar óleo lubrificante de alta viscosidade nas guias prismáticas e nas barras de agulha conforme o cronograma de horas do manual."
+    ],
+    "troubleshootingTips": [
+      "Ponta da linha desfiando em alta velocidade: Verifique o alinhamento da agulha DBxK5 (cava virada rigorosamente para trás a 5 graus à direita) e cheque se a agulha não foi arranhada por agulheiro gasto.",
+      "Alarme de fim de curso (Limit Switch Error): Centralize novamente a matriz na tela do comando KT/SH garantindo que o desenho fique dentro da margem de segurança do bastidor.",
+      "Bordado 3D em boné furando o EVA sem cobrir: Reduza a velocidade para 700 PPM, aumente o ponto cheio em 15% de sobreposição e utilize agulha de ponta SES (Light Ball Point) tamanho 80/12."
+    ],
+    "dicaArtrelados": "O sistema de bastidor de bonés Advantage da Barudan é lendário porque consegue esticar a frente do boné com pressão lateral perfeita, como a lona de um tambor. Para o bordado sair impecável sem a menor onda no centro do boné, programe sempre a matriz para bordar do centro para as bordas (Center-Out) e de baixo para cima (Bottom-Up). Essa simples regrinha garante qualidade de boutique em qualquer boné!",
+    "voceSabia": "A Barudan foi a empresa escolhida para bordar os uniformes oficiais e agasalhos das delegações olímpicas do Japão e dos Estados Unidos! A precisão dos seus motores é tão extrema que a tolerância de encaixe entre contornos e preenchimentos é menor que a espessura de um fio de cabelo humano (menos de 0,05 mm)!",
+    "practicalExercise": "Aprenda a regular o calcador independente: Em uma Barudan de 15 agulhas, utilize a chave de regulagem no cabeçote da Agulha 1 e calibre o calcador para 1,0 mm da chapa (para camisetas de algodão). Em seguida, vá na Agulha 15 e ajuste a altura para 3,0 mm (para bordar boné com EVA grosso). Borde duas amostras e observe como a peça mais grossa não sofre amassamento e a agulha não puxa o tecido!",
+    "quickSummary": "Fabricante japonesa lendária, símbolo supremo de precisão e resistência mecânica no bordado industrial de 15 agulhas e multi-cabeças, com tecnologia Smart Action e bastidor Advantage.",
+    "relatedTerms": [
+      "Tajima",
+      "Typical (Máquinas de Bordado Eletrônico)",
+      "Brother (Máquinas de Bordado Eletrônico)",
+      "Formato DST",
+      "Bastidor de Boné",
+      "Agulha DBxK5",
+      "Velocidade PPM",
+      "Ponto Tatami"
+    ],
+    "tags": [
+      "b-102",
+      "barudan",
+      "maquinas",
+      "equipamento",
+      "industrial",
+      "bktx",
+      "bevt",
+      "bones",
+      "dst",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BARUDAN CO., LTD. Instruction and Parts Manual: BEKT and BEVT Multi-Needle Series. Ichinomiya: Barudan, 2023.",
+      "BARUDAN AMERICA INC. Advantage Cap Frame and High-Speed Embroidery Production Guide. Cleveland, 2022.",
+      "ARTRELADOS. Panorama das Grandes Marcas Mundiais de Bordado Industrial. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-05"
+  },
+  {
+    "id": "b-103-bernina-bernette-maquinas-de-bordado-eletronico",
+    "code": "B-103",
+    "term": "Bernina / Bernette (Máquinas de Bordado Eletrônico)",
+    "pronunciation": "ber-ni-na / ber-ne-te (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    "letter": "B",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Máquinas e Equipamentos",
+    "grammarClass": "Substantivo próprio / Locução substantiva.",
+    "origin": "Fundada em 1893 em Steckborn (Suíça) por Karl Friedrich Gegauf, inventor pioneiro da primeira máquina para bainha aberta (ajour). Batizada em homenagem ao majestoso Piz Bernina (o pico mais alto dos Alpes Orientais Suíços). O grupo desenvolveu a marca irmã Bernette (homenagem que combina 'Bernina' e 'Odette', nome de uma das ilustres herdeiras da família fundadora) para levar a precisão suíça a criadores e ateliês modernos.",
+    "summary": "Ícone supremo da engenharia e relojoaria suíça em bordado computadorizado de alta costura, com laçadeira rotativa patenteada Bernina Hook, Bobina Jumbo (70% mais linha), tecnologia silenciosa SDT e formato .EXP.",
+    "definition": "A Bernina é a mais prestigiosa fabricante suíça de máquinas computadorizadas de bordar e costurar de luxo do mundo, reverenciada pelo setor têxtil internacional pelo rigor milimétrico de sua fabricação, tolerâncias mecânicas da alta relojoaria, chassi fundido antivibração e pela exclusiva laçadeira patenteada Bernina Hook. Oferece desde modelos consagrados de bordado livre e plano (como as séries B 500, B 700, B 790 PRO e B 880 PLUS) até a linha moderna Bernette (como a b70 DECO e b79). Seu ecossistema utiliza nativamente arquivos no formato .EXP acompanhados do cabeçalho de paleta de cores .INF.",
+    "technicalDetails": "Equipada com a laçadeira patenteada Bernina Hook de alta velocidade (até 1.000 PPM), combinando a estabilidade da laçadeira oscilante tradicional com a fluidez da rotativa contínua. Carretilha Jumbo de metal nobre com 70% a mais de capacidade de linha e sensor óptico infravermelho de nível de fio. Módulo de bordado independente com tecnologia SDT (Smart Drive Technology) para movimentação sem trepidação em sedas e tules. Enfiador de agulha semipneumático ou totalmente motorizado, corte de salto programável e tela panorâmica capacitiva de alta sensibilidade.",
+    "construction": [
+      "Chassi e mesa interna fundidos em liga estrutural de alta precisão com acabamento suíço",
+      "Laçadeira patenteada Bernina Hook totalmente desmontável com travamento magnético",
+      "Bobina Jumbo de aço com marcações ópticas para leitura de sensor de nível por infravermelho",
+      "Módulo de bordado desacoplável com tecnologia SDT (Smart Drive Technology) de passo suave",
+      "Sistema de bastidores com fecho ergonômico de engate rápido (Bastidores Midi, Maxi e Jumbo de até 40x26 cm)",
+      "Tela sensível ao toque colorida capacitiva de até 7 a 10 polegadas com tutoriais e consultoria integrada",
+      "Ponteiro de luz LED e posicionador inteligente de agulha com precisão a laser na série PRO"
+    ],
+    "howItWorks": [
+      "1. A matriz digitalizada é salva na extensão padrão .EXP (juntamente com o arquivo auxiliar de cores .INF) e inserida na máquina via pendrive USB.",
+      "2. O operador acopla o módulo de bordado SDT ao corpo da Bernina até escutar o duplo clique mecânico de travamento dos barramentos.",
+      "3. O tecido estruturado no bastidor ergonômico (como o bastidor Maxi ou Jumbo) é encaixado na presilha do carro de tração.",
+      "4. Na tela touch, a bordadeira utiliza as funções Pinpoint Placement (posicionamento milimétrico por 2 pontos de referência) para casar o desenho perfeitamente na peça.",
+      "5. A máquina aciona a costura com aceleração ultrassuave: os pontos de salto são automaticamente cortados por baixo e os fios puxados para o avesso, deixando o direito impecavelmente limpo.",
+      "6. Caso a linha da bobina Jumbo chegue a 10% do fim, o sensor óptico avisa na tela antes mesmo de o fio acabar, permitindo trocar a carretilha sem perder nenhum ponto da matriz."
+    ],
+    "beginnerExplanation": "A Bernina é considerada a 'Mercedes-Benz' ou o 'Relógio Suíço' das máquinas de bordar! Tudo nela é incrivelmente macio, silencioso e preciso. O grande encanto da Bernina é a sua Bobina Jumbo: ela é quase duas vezes maior que as carretilhas comuns, então cabe tanta linha que você consegue bordar toalhas, vestidos e mantas gigantes sem ter que ficar parando para encher carretilha toda hora. E a marca irmã Bernette traz toda essa qualidade suíça com um visual super moderno e preço acessível para quem está abrindo seu ateliê!",
+    "applications": [
+      "Bordados de alta costura e monogramas requintados em vestidos de noiva, sedas puras, rendas e tules",
+      "Enxovais refinados de bebê em cambraia de linho e percal com pontos cheios acetinados e brilhantes",
+      "Confecção de grandes peças de cama e mesa com o bastidor Jumbo de 40x26 cm sem necessidade de emendas",
+      "Aplicação de técnicas de Quilt no bastidor (In-The-Hoop Quilting) com alinhamento a laser milimétrico",
+      "Bordados criativos e peças de moda jovem autoral com os modelos Bernette b70 DECO e b79"
+    ],
+    "mainTypes": [
+      "Bernina Série 5 (B 500 / B 590): Máquinas compactas de luxo para bordado e costura de alta precisão em espaços reduzidos",
+      "Bernina Série 7 (B 700 / B 790 PRO): Campeãs de ateliês de moda, com bastidor Maxi (40x21 cm), laçadeira Bernina Hook e tecnologia a laser",
+      "Bernina Série 8 (B 880 PLUS): O ápice do luxo tecnológico com enfiador de agulha 100% automático e bastidor Jumbo (40x26 cm)",
+      "Bernette Linha b70 DECO: Máquina dedicada exclusivamente ao bordado computadorizado com bastidores de até 26x16 cm e preço acessível",
+      "Bernette Linha b79: Máquina combinada de costura criativa e bordado para ateliês dinâmicos"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "750 a 900 PPM para velocidade de cruzeiro com acabamento impecável; até 1.000 PPM em tatamis",
+      "needleType": "Sistema cabo chato 130/705 H (com recomendação especial de agulhas Schmetz Gold Embroidery ou Microtex)",
+      "stabilizer": "Entretela rasgável de algodão macia de 60g/m² ou hidrossolúvel de precisão (Avalon / Solvy) para tecidos finos"
+    },
+    "advantages": [
+      "✔ Bobina Jumbo patenteada com 70% a mais de capacidade de linha de bobina",
+      "✔ Módulo de bordado SDT com movimentação extremamente suave, macia e sem ruídos",
+      "✔ Função Pinpoint Placement para alinhamento milimétrico de bordados através de 2 pontos na tela",
+      "✔ Laçadeira Bernina Hook de metal maciço que garante pontos acetinados com brilho uniforme"
+    ],
+    "limitations": [
+      "Requer carretilhas Jumbo originais metálicas com gravações para o sensor óptico (não aceita carretilhas plásticas comuns).",
+      "Exige que o arquivo .EXP esteja acompanhado do arquivo .INF para que a máquina exiba as cores corretas das linhas na tela."
+    ],
+    "commonErrors": [
+      "❌ Inserir carretilha comum de plástico na laçadeira Bernina Hook: isso trava a laçadeira e pode riscar a caixa de metal nobre.",
+      "❌ Não acoplar o módulo de bordado com firmeza até o clique duplo, fazendo o painel acusar módulo desconectado.",
+      "❌ Esquecer de pingar a gota de óleo mineral específico na pista magnética da laçadeira quando a máquina solicita a manutenção na tela.",
+      "❌ Salvar apenas o arquivo .EXP puro sem o .INF no pendrive, ficando com todas as cores do desenho trocadas na tela da máquina."
+    ],
+    "troubleshootingTips": [
+      "Aviso constante de fim de bobina com a carretilha ainda cheia: Remova a caixa de bobina e limpe a lente óptica infravermelha com um pincel macio e seco para tirar os fiapos de linha.",
+      "Bordado apresentando laçadas frouxas embaixo: Verifique se a laçadeira Bernina Hook foi encaixada no ponto magnético correto e confirme a passagem do fio pelo sensor de tensão superior.",
+      "Desenho fora de centro: Utilize a função de centralização automática ou calibração de bastidor nas ferramentas de configuração do painel."
+    ],
+    "dicaArtrelados": "O formato .EXP das máquinas Bernina e Bernette é maravilhoso e super leve, mas ele sozinho não armazena a cor das linhas! Por isso, toda vez que salvar uma matriz para sua Bernina no seu computador, exporte sempre em .EXP mantendo junto o arquivo de texto .INF que o programa gera automaticamente. Coloque ambos na pasta do pendrive: é o .INF que 'pinta' a matriz com as cores certinhas na tela touch da sua suíça!",
+    "voceSabia": "A fábrica histórica da Bernina em Steckborn, às margens do Lago de Constança na Suíça, é uma das raríssimas no mundo onde cada laçadeira de aço é retificada e polida à mão por mestres artesãos com instrumentos de relojoaria! A precisão de ajuste de folga da laçadeira Bernina Hook é de impressionantes 0,001 milímetro (um milésimo de milímetro)!",
+    "practicalExercise": "Pratique a troca e verificação da Bobina Jumbo: Abra a tampa da laçadeira da Bernina, pressione a alavanca e retire a carretilha Jumbo. Observe o tamanho avantajado e as marcações reflexivas no fundo da bobina. Coloque a linha na caixa de bobina deslizando pelo guia de tensão até ouvir o estalo. Encaixe na máquina, observe o indicador de 100% na tela e sinta a tranquilidade de bordar sem interrupções!",
+    "quickSummary": "Fabricante suíça de ultra-luxo e alta engenharia, mundialmente celebrada pela laçadeira Bernina Hook, Bobina Jumbo (70% mais linha), módulo silencioso SDT e formato .EXP.",
+    "relatedTerms": [
+      "Brother (Máquinas de Bordado Eletrônico)",
+      "Janome (Máquinas de Bordado Eletrônico)",
+      "Barudan (Máquinas de Bordado Eletrônico)",
+      "Formato EXP",
+      "Caixa de Bobina",
+      "Agulha Cabo Chato (130/705 H)",
+      "Velocidade PPM",
+      "Compensação de Repuxo"
+    ],
+    "tags": [
+      "b-103",
+      "bernina",
+      "bernette",
+      "maquinas",
+      "equipamento",
+      "b700",
+      "b790",
+      "b70deco",
+      "exp",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BERNINA INTERNATIONAL AG. User Manual: BERNINA 7 Series & 8 Series Embroidery Operations. Steckborn: Bernina, 2023.",
+      "BERNETTE SWISS DESIGN. Instruction Manual: b70 DECO / b79 Embroidery Systems. Steckborn, 2023.",
+      "ARTRELADOS. Guia de Excelência e Alta Costura no Bordado Computadorizado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-05"
   }
 ];

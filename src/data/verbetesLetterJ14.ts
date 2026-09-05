@@ -1747,5 +1747,108 @@ export const VERBETES_LETTER_J_PART14: Verbete[] = [
     "quickSummary": "O equilíbrio perfeito entre partes cheias e partes leves na matriz para o bordado ficar macio e o tecido nunca enrugar.",
     "beginnerExplanation": "É o grande segredo dos mestres do bordado: dosar a quantidade certa de linhas para que o bordado fique lindo, brilhante e bem coberto, mas sem ficar pesado ou duro como uma tábua. A roupa continua macia, gostosa de vestir e perfeitamente lisinha!",
     "updatedAt": "2026-08-29"
+  },
+  {
+    "id": "j-101-janome-maquinas-de-bordado-eletronico",
+    "code": "J-101",
+    "term": "Janome (Máquinas de Bordado Eletrônico)",
+    "pronunciation": "ja-nô-mi (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    "letter": "J",
+    "level": "Intermediário 🟡",
+    "category": "Máquinas e Equipamentos",
+    "grammarClass": "Substantivo próprio / Locução substantiva.",
+    "origin": "Fundada em 1921 em Tóquio (Japão) por Yosaku Ose como Pine Sewing Machine Mill, adotando em 1954 o nome definitivo Janome (que em japonês significa literalmente 'Olho de Serpente' 蛇の目, devido ao formato perfeitamente circular de sua inovadora carretilha rotativa). Pioneira global na introdução da primeira máquina de bordar e costurar computadorizada residencial do mundo (Memory Craft 8000 em 1990).",
+    "summary": "Fabricante japonesa de renome mundial, consagrada pelo formato nativo .JEF, mecânica super robusta, linha Memory Craft e bastidores gigantes de até 20x36 cm.",
+    "definition": "A Janome é uma das mais tradicionais, prestigiadas e respeitadas fabricantes japonesas de máquinas de costura e bordado eletrônico computadorizado do planeta. Destaca-se globalmente pela excepcional durabilidade mecânica de sua transmissão interna, baixíssimo nível de vibração e pela aclamada linha de bordado plano Memory Craft (com modelos reverenciados no Brasil como a MC-400E, MC-500E e a gigante MC-550E), além das multiagulhas semi-industriais compactas de braço livre MB-4S (4 agulhas) e MB-7 (7 agulhas). Seu ecossistema opera sob o padrão nativo de arquivos .JEF e .JPX.",
+    "technicalDetails": "Equipadas com laçadeira rotativa horizontal magnética silenciosa com caixa de bobina de encaixe rápido e mola de tensão de alta sensibilidade para linha 60wt. Velocidade ajustável entre 400 e 860 PPM. Sistema exclusivo de pantógrafo com acionamento linear de alta precisão angular que suporta bastidores extragrandes sem deflexão do braço mecânico. Leitura de matrizes via porta USB 2.0 (formatada em FAT32) e suporte ao software de digitalização Digitizer MBX / Artistic Digitizer.",
+    "construction": [
+      "Chassi estrutural fundido em liga de alumínio reforçado com blindagem antivibração",
+      "Tela sensível ao toque LCD colorida panorâmica de alta resolução com edição na tela",
+      "Sistema de fixação do bastidor por pinos de travamento duplo de alta estabilidade",
+      "Enfiador automático de agulha com proteção de descida para evitar empenamento",
+      "Sensor duplo de quebra de linha: óptico superior e tacômetro de rotação na bobina",
+      "Mecanismo de corte automático e programável de salto de pontos e final de cor",
+      "Iluminação em LED distribuída em 5 pontos focais sobre toda a área do bastidor"
+    ],
+    "howItWorks": [
+      "1. A matriz criada no software é exportada na extensão .JEF (ou .JPX com pré-visualização gráfica de alta resolução).",
+      "2. O arquivo é transferido para o pendrive dentro da pasta padrão criada pela própria máquina ('Embf' ou 'MyDesign').",
+      "3. O bastidor Janome adequado à dimensão do bordado é travado no carro pantográfico através dos pinos de encaixe com clique sonoro.",
+      "4. Na tela colorida, a bordadeira visualiza o layout, ajusta escala, faz rotações finas em passos de 1 grau ou 45 graus e executa a simulação do traçado perimetral (Trace).",
+      "5. A máquina inicia suavemente o ciclo de costura em aceleração progressiva, desacelerando automaticamente em curvas complexas de ponto cheio.",
+      "6. Em caso de quebra ou término de fio, o sensor interrompe o motor em menos de 0,1 segundo e permite recuar os pontos com exatidão cirúrgica para retomar sem falhas visíveis."
+    ],
+    "beginnerExplanation": "A Janome é uma das máquinas de bordar mais queridas e resistentes do mundo! O grande destaque dela são os bastidores enormes: enquanto muitas máquinas domésticas só bordam até 13x18 cm, modelos como a Janome MC-500E bordam até 20x28 cm e a MC-550E chega a incríveis 20x36 cm! Isso significa que você borda toalhas de banho inteiras, costas de jaquetas e mantas grandiosas sem precisar ficar dividindo nem emendando a matriz.",
+    "applications": [
+      "Bordados contínuos de grande porte em barras de toalhas de banho e rosto sem emenda (bastidores RE28b e RE36b)",
+      "Bordados infantis e de enxovais delicados com agulha especial Blue Tip para não furar malhas",
+      "Personalização corporativa de jaquetas, casacos pesados e roupões atoalhados com alta densidade",
+      "Bordados em peças tubulares montadas e bonés com os modelos multiagulhas MB-4S e MB-7",
+      "Confecção de apliques e rendas FSL (Free Standing Lace) com estabilidade milimétrica"
+    ],
+    "mainTypes": [
+      "Linha Memory Craft Histórica e Entrada (MC-200E, MC-300E, MC-350E): Bastidores 14x14 cm e 14x20 cm",
+      "Linha Intermediária Robusta (MC-400E): Campo de bordado quadrado de 20x20 cm com mesa extensora",
+      "Linha Campeã de Ateliê (MC-500E): Bastidor de 20x28 cm e pacote com 4 bastidores inclusos (14x14, 14x20, 20x20 e 20x28 cm)",
+      "Linha de Bastidor Gigante (MC-550E): Bastidor monumental RE36b de 20x36 cm e mesa de extensão extralarga",
+      "Linha Multiagulhas Profissional de Bancada (MB-4S de 4 agulhas e MB-7 de 7 agulhas): Troca automática de cones de linha e cilindro livre"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "MC-500E / MC-550E: 650 a 750 PPM para detalhes finos; até 860 PPM em pontos tatami",
+      "needleType": "Sistema cabo chato 130/705 H (com recomendação das originais Janome Blue Tip 75/11 ou Red Tip 90/14)",
+      "stabilizer": "Entretela rasgável de 60g/m² a 80g/m² ou entretela hidrossolúvel dupla para toalhas aveludadas"
+    },
+    "advantages": [
+      "✔ Um dos maiores campos úteis de bordado em máquinas de cabeçote plano no mundo (20x36 cm na MC-550E)",
+      "✔ Chassi metálico super reforçado que garante estabilidade e reduz a vibração ao mínimo",
+      "✔ Sistema de fixação de bastidor que não empena nem desliza durante o bordado de peças pesadas",
+      "✔ Mesa extensora generosa de série que suporta colchas e toalhas sem puxar o carro mecânico"
+    ],
+    "limitations": [
+      "A máquina não lê matrizes cujo desenho exceda em 1 mm o limite do bastidor selecionado, exigindo atenção ao dimensionar no computador.",
+      "Pendrives devem ser rigorosamente formatados em FAT32 e de capacidade moderada (até 16GB ou 32GB) para leitura ágil."
+    ],
+    "commonErrors": [
+      "❌ Tentar abrir arquivos com bastidor maior do que a máquina suporta: a tela simplesmente não exibe a matriz ou emite mensagem de erro de tamanho.",
+      "❌ Salvar a matriz fora da pasta padrão criada pela Janome no pendrive ('Embf'): a máquina não enxerga arquivos soltos na raiz.",
+      "❌ Forçar o encaixe do bastidor para baixo sem acionar a alavanca de liberação dos pinos de pressão, danificando os rolamentos do pantógrafo.",
+      "❌ Usar carretilhas plásticas de altura errada ou metálicas antigas na laçadeira horizontal, o que desregula o tensor inferior."
+    ],
+    "troubleshootingTips": [
+      "Máquina não reconhece o pendrive: Conecte o pendrive limpo na máquina e entre no menu para formatá-lo diretamente na Janome. Ela criará a pasta oficial 'Embf'. Depois, coloque a matriz em .JEF dentro dessa pasta.",
+      "Linha de cima quebrando em pontos pequenos: Substitua a agulha por uma Janome Blue Tip 75/11 original e reduza a velocidade da máquina de 860 para 650 PPM no menu de configurações.",
+      "Ponto de bobina aparecendo em cima: Verifique se a linha superior não escapou do estica-fio móvel ou se não há poeira de entretela presa sob a lâmina da caixa de bobina."
+    ],
+    "dicaArtrelados": "O segredo de ouro das máquinas Janome é a agulha Blue Tip (tamanho 75/11 de ponta azul). Ela foi projetada com uma ponta bola especial e um olho ligeiramente ampliado que praticamente zera a perda de pontos (skipped stitches) e protege tecidos de malha e toalhas atoalhadas de puxarem fios. E nunca se esqueça: antes de passar suas matrizes para o pendrive, insira o pendrive virgem na Janome para ela criar a pastinha oficial dela!",
+    "voceSabia": "A palavra 'Janome' (蛇の目) significa literalmente 'Olho de Cobra' em japonês! Esse nome foi escolhido pelo fundador em 1921 porque as primeiras carretilhas de bobina redonda que ele inventou para substituir as antigas laçadeiras longas de ferro pareciam exatamente com os olhos redondos e vigilantes de uma cobra!",
+    "practicalExercise": "Aprenda o protocolo de formatação e pastas Janome: Insira um pendrive de 8GB ou 16GB na porta USB da sua máquina Janome. Acesse a tela de configurações e selecione 'Formatar USB'. Retire o pendrive e espete no computador: observe que foi criada automaticamente a pasta 'Embf'. Salve um bordado teste em .JEF dentro dela e espete de volta na máquina para comprovar a leitura instantânea!",
+    "quickSummary": "Fabricante japonesa sinônimo de robustez e alta engenharia, mundialmente consagrada pelos bastidores gigantescos de 20x28 cm e 20x36 cm da linha Memory Craft e pelo formato .JEF.",
+    "relatedTerms": [
+      "Brother (Máquinas de Bordado Eletrônico)",
+      "Formato JEF",
+      "Bastidor de Bordado",
+      "Agulha Blue Tip Janome",
+      "Caixa de Bobina",
+      "Tensão de Linha",
+      "Ponto Tatami"
+    ],
+    "tags": [
+      "j-101",
+      "janome",
+      "maquinas",
+      "equipamento",
+      "mc500e",
+      "mc550e",
+      "mc400e",
+      "mb7",
+      "jef",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "JANOME SEWING MACHINE CO. Memory Craft 500E/550E Instruction Book and Service Reference. Tokyo: Janome, 2023.",
+      "JANOME SEWING MACHINE CO. MB-Series Multi-Needle Embroidery Technical Guide. Tokyo, 2022.",
+      "ARTRELADOS. Guia de Operação e Bastidores Especiais Janome para Grandes Dimensões. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-05"
   }
 ];

@@ -1759,5 +1759,108 @@ export const VERBETES_LETTER_M_PART14: Verbete[] = [
     "quickSummary": "Uso de medidores de calor a laser para achar peças com atrito antes que elas quebrem ou travem a máquina.",
     "beginnerExplanation": "O mapeamento térmico é como tirar a temperatura da máquina de bordar: com um termômetro a laser, você descobre se tem alguma pecinha esquentando demais por falta de óleo antes que ela quebre, mantendo sua máquina sempre saudável e pronta para trabalhar!",
     "updatedAt": "2026-08-29"
+  },
+  {
+    "id": "m-101-melco-maquinas-de-bordado-eletronico",
+    "code": "M-101",
+    "term": "Melco (Máquinas de Bordado Eletrônico)",
+    "pronunciation": "mel-co (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    "letter": "M",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Máquinas e Equipamentos",
+    "grammarClass": "Substantivo próprio / Locução substantiva.",
+    "origin": "Fundada em 1972 em Denver, Colorado (Estados Unidos), pioneira global no desenvolvimento do primeiro sistema computadorizado de monogramas e digitalização digital de bordado da história. Revolucionou o mercado têxtil mundial ao introduzir a primeira máquina modular industrial sem fios de tensão manuais do mundo (sistema Acti-Feed).",
+    "summary": "Fabricante norte-americana pioneira em máquinas industriais modulares de 16 agulhas (linha EMT16X), famosa pela tecnologia patenteada Acti-Feed sem botões de tensão manual, velocidade de até 1.500 PPM e formato .EXP / .OFM.",
+    "definition": "A Melco é uma das mais inovadoras e lendárias fabricantes norte-americanas de equipamentos de bordado computadorizado do planeta. Destaca-se mundialmente pelo conceito de bordado industrial modular de 16 agulhas (com modelos célebres como a Melco EMT16 e EMT16X, e a clássica Amaya), onde múltiplas máquinas operam em rede a partir de um único computador central com o software Melco OS. Sua maior inovação é o sistema patenteado Acti-Feed, que substituiu completamente os tradicionais botões mecânicos de tensão manual por roletes acionados por microprocessadores que alimentam a quantidade exata de linha requerida por cada ponto.",
+    "technicalDetails": "Equipada com o sistema patenteado de alimentação ativa de fio Acti-Feed (Active Thread Delivery), que mede a espessura do tecido e entrega a metragem micrométrica de linha por ponto, eliminando tensões manuais. Velocidade de até 1.500 PPM em peças planas e bonés. Braço tubular cilíndrico ultra-compacto com menor diâmetro de costura para bolsos pequenos e bonés estruturados. Conexão em rede Ethernet operacional modular gerenciando até 30 cabeçotes independentes via Melco OS / DesignShop. Suporte a arquivos no formato proprietário .OFM e ao padrão universal .EXP.",
+    "construction": [
+      "Chassi de aço tubular de alta precisão com pés emborrachados antivibração",
+      "Cabeçote móvel com conjunto de 16 agulhas acionadas por servomotores digitais",
+      "Sistema de roletes motorizados Acti-Feed com sensores de pressão e espessura têxtil",
+      "Braço cilíndrico de perfil fino para peças tubulares estreitas e bonés de alta curvatura",
+      "Corte automático de linha por solenoides ultrarrápidos com pega-fio integrado",
+      "Ponteiro de feixe laser duplo para alinhamento e cruzamento de ângulos no tecido",
+      "Interface de comunicação Ethernet de alta velocidade com controle central no Melco OS"
+    ],
+    "howItWorks": [
+      "1. A matriz em formato nativo .OFM ou .EXP é enviada do computador do ateliê diretamente para o software Melco OS via rede local.",
+      "2. O operador seleciona as cores associando aos 16 cones de linha instalados na máquina e define o tipo de tecido no sistema Acti-Feed (como sarja, malha ou couro).",
+      "3. O tecido é montado no bastidor e travado no braço pantográfico cilíndrico estreito.",
+      "4. O feixe laser duplo confere o centro e o ângulo exato do bordado.",
+      "5. A máquina inicia a costura: o sistema Acti-Feed calcula instantaneamente a espessura do material e desenrola apenas a quantidade exata de fio superior necessária para cada ponto.",
+      "6. Em caso de quebra ou término de linha, apenas aquela máquina modular específica pausa, enquanto as outras máquinas da mesma rede continuam bordando normalmente sem parar a produção."
+    ],
+    "beginnerExplanation": "A Melco é famosa por ser uma das máquinas industriais mais fáceis e inteligentes de mexer no mundo! Sabe aqueles vários botões de rosquear que as máquinas comuns têm para regular a tensão da linha? Na Melco eles não existem! Ela tem uma tecnologia chamada Acti-Feed, onde um microcomputador calcula a espessura do tecido e solta a quantidade exata de linha que a agulha precisa para dar o ponto perfeito. Além disso, ela tem 16 agulhas e pode ser ligada em rede: você começa com uma máquina e vai adicionando outras conforme seu negócio for crescendo!",
+    "applications": [
+      "Bordados em bonés montados estruturados de alta curvatura com velocidade de até 1.200 PPM",
+      "Personalização sob demanda em ateliês e quiosques de shopping com flexibilidade de 16 cores",
+      "Bordado em pequenos bolsos montados, mangas e luvas devido ao braço cilíndrico super fino",
+      "Produção seriada em redes modulares (onde cada máquina pode bordar uma peça ou cor diferente)",
+      "Bordados em peças delicadas ou elásticas (malhas dry-fit e sedas) com controle de tensão Acti-Feed"
+    ],
+    "mainTypes": [
+      "Melco EMT16X: A geração topo de linha atual com 16 agulhas, velocidade de 1.500 PPM e novo sistema de corte",
+      "Melco EMT16: Geração consagrada em milhares de ateliês industriais pelo mundo",
+      "Melco Amaya (XT / Bravo): A lendária máquina precursora que introduziu a tecnologia modular e o Acti-Feed",
+      "Melco Bravo: Versão simplificada para pequenos empreendedores e ateliês de personalização de presentes"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "1.000 a 1.200 PPM para cruzeiro em peças normais; até 1.500 PPM em retas tatami e 900 PPM em bonés",
+      "needleType": "Sistema industrial DBxK5 (tamanhos 70/10 para malhas finas até 90/14 para bonés e sarjas)",
+      "stabilizer": "Entretela rasgável de 60g/m² a 80g/m² ou entretela de recorte para malhas esportivas"
+    },
+    "advantages": [
+      "✔ Sistema Acti-Feed automático patenteado que elimina completamente os ajustes manuais de tensão",
+      "✔ Conjunto amplo de 16 agulhas/cores, reduzindo ao mínimo a necessidade de trocar cones de linha",
+      "✔ Conceito modular: se uma máquina da rede quebrar uma linha, as outras continuam produzindo sem interrupção",
+      "✔ Braço cilíndrico extremamente fino que facilita bordar em áreas apertadas onde outras máquinas não entram"
+    ],
+    "limitations": [
+      "Depende de conexão com computador executando o software Melco OS para envio e controle de produção.",
+      "Requer que o operador compreenda os parâmetros digitais do Acti-Feed no computador para tecidos muito elásticos."
+    ],
+    "commonErrors": [
+      "❌ Selecionar o perfil errado de tecido no Acti-Feed (ex: deixar ajustado para couro ao bordar uma malha fina de algodão, soltando linha em excesso).",
+      "❌ Passar a linha fora dos roletes motorizados do Acti-Feed, impedindo o tracionamento controlado do fio.",
+      "❌ Desligar o cabo de rede Ethernet ou fechar o software Melco OS no meio da transmissão da matriz.",
+      "❌ Não fazer a calibração periódica da espessura do tecido (Material Thickness Test) ao trocar para tecidos com espuma 3D."
+    ],
+    "troubleshootingTips": [
+      "Linha de bobina subindo para cima do bordado: Aumente o valor do Acti-Feed (Auto Lower Limit) em 2 ou 3 pontos no software Melco OS para soltar mais linha superior.",
+      "Bordado fofo ou com laçadas visíveis no direito: Reduza o valor do Acti-Feed no painel do computador para tornar a alimentação de linha mais firme.",
+      "Máquina não comunica com o computador: Verifique se o cabo de rede Ethernet está conectado e se o endereço IP da máquina está sincronizado no Melco OS."
+    ],
+    "dicaArtrelados": "Na Melco, o grande pulo do gato é dominar o Acti-Feed! Para tecidos normais como piquê e algodão, deixe a configuração em 'Auto'. Mas quando for bordar bonés estruturados ou bordados 3D com EVA, defina o limite inferior manual (Lower Limit) em torno de 4 a 6 pontos a mais: isso dá a folga exata para a linha abraçar a espessura do boné sem puxar o tecido e sem quebrar!",
+    "voceSabia": "A Melco foi a criadora do primeiro sistema computadorizado de digitalização de bordado do mundo em 1972! Antes da Melco, não existiam computadores para desenhar bordados: os artesãos precisavam desenhar os pontos à mão em papel quadriculado gigante e perfurar fitas de papel cartão com socadores manuais!",
+    "practicalExercise": "Ajuste fino do Acti-Feed: No software Melco OS, selecione um padrão de teste de letras pequenas de 1 cm. Borde a primeira amostra no modo 'Auto Acti-Feed'. Depois, borde uma segunda amostra alterando o parâmetro em +3 pontos. Vire as duas peças do avesso e compare a perfeição do balanceamento da linha de bobina no verso de cada letra!",
+    "quickSummary": "Fabricante norte-americana pioneira e revolucionária em máquinas industriais modulares de 16 agulhas (EMT16X), famosa pelo sistema Acti-Feed sem tensores manuais e velocidade de 1.500 PPM.",
+    "relatedTerms": [
+      "Tajima",
+      "Barudan (Máquinas de Bordado Eletrônico)",
+      "Typical (Máquinas de Bordado Eletrônico)",
+      "Formato EXP",
+      "Agulha DBxK5",
+      "Bastidor de Boné",
+      "Velocidade PPM",
+      "Tensão de Linha"
+    ],
+    "tags": [
+      "m-101",
+      "melco",
+      "maquinas",
+      "equipamento",
+      "emt16x",
+      "actifeed",
+      "modular",
+      "industrial",
+      "ofm",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "MELCO INTERNATIONAL LLC. Melco EMT16X Operator Manual & Acti-Feed System Reference. Denver: Melco, 2023.",
+      "MELCO INTERNATIONAL LLC. DesignShop v12 Digitizing & Melco OS Network Operations. Denver, 2024.",
+      "ARTRELADOS. A Revolução da Tensão Digital: Como Opera o Sistema Acti-Feed no Bordado Moderno. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-05"
   }
 ];

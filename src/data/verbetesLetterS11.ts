@@ -1072,5 +1072,108 @@ export const VERBETES_LETTER_S11: Verbete[] = [
       "ARTRELADOS. O Guia Definitivo do Bordado de Bonés: Bastidores, Técnicas, Entretelas e 3D. Curitiba, 2024."
     ],
     updatedAt: "2026-08-30"
+  },
+  {
+    id: "s-103-swf-sunstar-maquinas-de-bordado-eletronico",
+    code: "S-103",
+    term: "SWF / SunStar (Máquinas de Bordado Eletrônico)",
+    pronunciation: "és-dáblio-éfe / san-star (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    letter: "S",
+    level: "Intermediário a Avançado 🟡🔴",
+    category: "Máquinas e Equipamentos",
+    grammarClass: "Substantivo próprio / Locução substantiva.",
+    origin: "Desenvolvida em Incheon (Coreia do Sul) pela SunStar Co., Ltd. (empresa fundada originalmente em 1974 como Korea Cutting Machine). A divisão SWF (acrograma de Sewing With Fine arts) projetou a Coreia do Sul ao estrelato global nos anos 1990 e 2000 ao patentear a lendária tecnologia Dual Function, que permite operar duas alas de cabeçotes com matrizes totalmente diferentes ao mesmo tempo em uma única máquina.",
+    summary: "Gigante industrial sul-coreana em máquinas computadorizadas de bordado de 1 até 56 cabeças (séries MAN, E-T1501 e K-Series), pioneira na tecnologia patenteada Dual Function e leitora universal .DST e .SST.",
+    definition: "A SWF é uma das três mais célebres fabricantes industriais de máquinas de bordado computadorizado do planeta, com forte tradição e presença maciça em polos têxteis e confecções no Brasil e no mundo. Desenvolve desde equipamentos compactos de cabeçote único tubular com 15 agulhas (como a série E-T1501 e a moderna MAS-12 com tela touch de 10.4 polegadas) até linhas monumentais multi-cabeças (com até 56 cabeçotes simultâneos). Seu maior marco histórico é o sistema patenteado Dual Function, que divide o pantógrafo em seções independentes, permitindo bordar trabalhos diferentes na mesma máquina simultaneamente.",
+    technicalDetails: "Acionamento por servomotores AC digitais de alta rotação sincronizados com parada de agulha a 100°. Velocidade de operação ajustável de 450 a 1.200 PPM. Laçadeira rotativa vertical industrial tipo 'L' de alta precisão com lubrificação concentrada, sistema de corte de linha rápido por faca rotativa com solenoide, encoders ópticos de quebra de fio superior e inferior e tela touchscreen de alta resolução. Suporta arquivos binários universais .DST e o formato proprietário .SST.",
+    construction: [
+      "Chassi monobloco construído em aço estrutural de alta inércia para absorção de vibrações em alta rotação",
+      "Cabeçotes independentes com conjunto seletor para 12 ou 15 agulhas acionados por motor de passo",
+      "Sistema de pantógrafo dividido com alavancas mecânicas para operação no modo Dual Function",
+      "Braço cilíndrico tubular estreito reforçado para bonés estruturados, mangas e calçados",
+      "Painel de comando computadorizado colorido de até 10.4 polegadas com interface gráfica interativa",
+      "Conjunto de corte automático de linha com retenção por mola e faca rotativa temperada",
+      "Ponteiro laser de alinhamento com função de traçado perimetral de segurança (Trace)"
+    ],
+    howItWorks: [
+      "1. A matriz de bordado formatada em extensão .DST ou .SST é transferida para o computador de bordo da SWF via pendrive USB ou conexão de rede.",
+      "2. No painel colorido, o operador escolhe a matriz, associa cada cor a uma das agulhas ativas (de 1 a 15) e seleciona o tipo de bastidor.",
+      "3. O operador aciona o teste de contorno (Trace) com o feixe laser para certificar que o desenho possui margem segura de borda.",
+      "4. A máquina inicia o ciclo operacional com aceleração senoidal progressiva, mantendo rotações entre 850 e 1.200 PPM.",
+      "5. Em modelos com Dual Function, o operador pode desacoplar o pantógrafo central e carregar uma matriz diferente para cada lado da máquina, bordando bonés na ala esquerda e camisetas na ala direita ao mesmo tempo.",
+      "6. Em caso de quebra de linha ou fim de bobina, o sensor óptico para o cabeçote instantaneamente e permite recuar os pontos com precisão cirúrgica."
+    ],
+    beginnerExplanation: "A SWF é a grande concorrente sul-coreana das máquinas industriais japonesas! Ela é famosa por ser uma máquina forte, rápida e com peças de aço que duram décadas. A grande sacada que deixou a SWF famosa no mundo todo foi a tecnologia 'Dual Function': em uma máquina de várias cabeças, você pode mandar metade da máquina bordar um desenho (como camisetas da empresa X) e a outra metade bordar outro desenho completamente diferente (como bonés da empresa Y), dobrando a produtividade do ateliê!",
+    applications: [
+      "Bordados industriais de alta velocidade em uniformes empresariais, camisas polo e jalecos",
+      "Bordados em bonés montados estruturados de 6 gomos em 270° com o dispositivo cilíndrico",
+      "Produção de peças tubulares prontas como mangas de jaqueta, calças jeans e bolsas esportivas",
+      "Produção flexível de pedidos fracionados utilizando a tecnologia Dual Function em multi-cabeças",
+      "Bordados de alta densidade em couro, mochilas pesadas e emblemas militares com relevo 3D (EVA)"
+    ],
+    mainTypes: [
+      "SWF MAN-12 / MAS-12: Modelo de 1 cabeça e 12 agulhas compacto com tela touch de 10.4\", ideal para ateliês modernos",
+      "SWF E-T1501: Modelo clássico comercial de cabeçote único com 15 agulhas, robustez incomparável e alta versatilidade",
+      "SWF Série Dual Function (D-Series de 2, 4, 6 e 8 Cabeças): O sistema patenteado que borda 2 trabalhos diferentes na mesma máquina",
+      "SWF Série K / KS (Multi-Cabeças Industriais): Máquinas de produção pesada de até 1.200 PPM para grandes fábricas"
+    ],
+    recommendedSettings: {
+      speedPPM: "850 a 1.050 PPM para peças planas normais; 650 a 750 PPM para bonés estruturados e bordados 3D com EVA",
+      needleType: "Sistema industrial de cabo redondo DBxK5 (tamanhos 75/11 para tecidos normais até 90/14 para bonés)",
+      stabilizer: "Entretela rasgável de 80g/m² ou entretela resinada especial para bonés estruturados"
+    },
+    advantages: [
+      "✔ Chassi pesado de aço sul-coreano que proporciona estabilidade superior e vibração nula em 1.000 PPM",
+      "✔ Tecnologia patenteada Dual Function que permite bordar 2 pedidos diferentes simultaneamente em uma mesma máquina",
+      "✔ Painel colorido interativo de alta resolução com tutoriais e diagnóstico eletrônico integrado",
+      "✔ Sistema de corte de linha rápido e preciso que reduz o tempo morto entre saltos de matriz"
+    ],
+    limitations: [
+      "Utiliza agulhas industriais de cabo redondo (DBxK5), necessitando de prática do operador para alinhar a canaleta da agulha.",
+      "Equipamento de porte industrial que requer instalação com aterramento elétrico de qualidade e piso nivelado."
+    ],
+    commonErrors: [
+      "❌ Ligar o modo Dual Function sem liberar a trava mecânica do pantógrafo central, forçando os motores de passo.",
+      "❌ Iniciar o bordado sem certificar se o ponteiro de ângulo do eixo principal está exatamente em 100°.",
+      "❌ Deixar de soprar e limpar com pincel a faca de corte rotativa e o sensor de linha inferior a cada fim de semana.",
+      "❌ Não lubrificar a laçadeira rotativa vertical com uma gota de óleo mineral no início de cada turno de trabalho."
+    ],
+    troubleshootingTips: [
+      "Alarme de Head Synchronization Error: Verifique se todas as chaves manuais de desengate dos cabeçotes estão na mesma posição e reinicie o comando no painel.",
+      "Corte de fio deixando pontas compridas ou escapando da agulha: Limpe a área sob a chapa de agulha e regule a mola de retenção superior (Thread Holding Spring).",
+      "Alarme falso de quebra de linha: Limpe o leitor óptico traseiro com um cotonete seco para remover poeira e fiapos de linha acumulados."
+    ],
+    dicaArtrelados: "Nas máquinas SWF, a lubrificação da laçadeira rotativa é o coração da máquina! Crie o hábito de dar UMA única gota de óleo mineral puro na canaleta da laçadeira todo dia antes de começar o primeiro bordado da manhã. E a cada semana, coloque uma gotinha nas canaletas das barras de agulha: sua SWF vai manter aquele som macio e silencioso de fábrica por mais de uma década!",
+    voceSabia: "A tecnologia Dual Function da SWF foi uma das invenções mais premiadas da história da indústria têxtil mundial! Antes dela, se uma fábrica tinha uma máquina de 4 cabeças e recebia uma encomenda urgente de apenas 2 camisas, as outras 2 cabeças eram obrigadas a ficar paradas sem produzir nada. Com a SWF, a fábrica coloca as 2 camisas na esquerda e continua bordando bonés na direita!",
+    practicalExercise: "Conferência de Limites na SWF: Carregue um desenho novo no painel da SWF, selecione o bastidor redondo de 15 cm e pressione o botão 'Trace' com o ponteiro laser ligado. Acompanhe com os olhos a agulha contornando o tecido e certifique-se de que ela mantém pelo menos 1,5 cm de distância da borda plástica do bastidor antes de apertar a partida!",
+    quickSummary: "Gigante industrial sul-coreana da SunStar, mundialmente celebrada pelas máquinas de 12 e 15 agulhas, velocidade de até 1.200 PPM e pela pioneira tecnologia patenteada Dual Function.",
+    relatedTerms: [
+      "Tajima",
+      "Barudan (Máquinas de Bordado Eletrônico)",
+      "Typical (Máquinas de Bordado Eletrônico)",
+      "Ricoma (Máquinas de Bordado Eletrônico)",
+      "Formato DST",
+      "Bastidor de Boné",
+      "Agulha DBxK5",
+      "Velocidade PPM"
+    ],
+    tags: [
+      "s-103",
+      "swf",
+      "sunstar",
+      "maquinas",
+      "equipamento",
+      "dualfunction",
+      "et1501",
+      "industrial",
+      "dst",
+      "artrelados"
+    ],
+    bibliographicReferences: [
+      "SUNSTAR PRECISION CO., LTD. SWF Operation & Maintenance Manual: Dual Function Series & Compact Systems. Incheon: SunStar, 2023.",
+      "SWF EMBROIDERY MACHINERY. Technical Specifications & Cap Frame Integration Guide. Seul, 2022.",
+      "ARTRELADOS. Guia Técnico e Comparativo das Grandes Fabricantes Mundiais de Bordado. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-05"
   }
 ];

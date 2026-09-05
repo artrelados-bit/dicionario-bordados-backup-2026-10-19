@@ -1051,5 +1051,108 @@ export const VERBETES_LETTER_T13: Verbete[] = [
       "ARTRELADOS. Inovações e Ergonomia no Ateliê: O Poder dos Bastidores Magnéticos. São Paulo, 2024."
     ],
     updatedAt: "2026-08-30"
+  },
+  {
+    id: "t-104-typical-maquinas-de-bordado-eletronico",
+    code: "T-104",
+    term: "Typical (Máquinas de Bordado Eletrônico)",
+    pronunciation: "tí-pi-cal (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    letter: "T",
+    level: "Intermediário a Avançado 🟡🔴",
+    category: "Máquinas e Equipamentos",
+    grammarClass: "Substantivo próprio / Locução substantiva.",
+    origin: "Marca pertencente ao prestigiado conglomerado industrial Xi'an Typical Industries Co., Ltd. (fundado em 1946 na histórica província de Shaanxi, China). É uma das maiores e mais antigas fabricantes mundiais de maquinário de costura e bordado industrial, com ampla rede de distribuição, reposição de peças e assistência técnica consolidada no mercado brasileiro.",
+    summary: "Fabricante industrial de renome global em máquinas de bordado eletrônico de 12 e 15 agulhas, com sistema operacional Dahao, operação plana e tubular para bonés e alta velocidade de até 1.200 PPM.",
+    definition: "A Typical é uma conceituada marca de máquinas industriais de bordado computadorizado de cabeçote único e múltiplas cabeças cilíndricas (com 12 ou 15 agulhas por cabeçote), amplamente utilizada em confecções e ateliês profissionais de personalização. Equipadas com o célebre computador de bordo com sistema Dahao (painéis touchscreen coloridos de 8 a 10 polegadas), destacam-se pela robustez do chassi em ferro fundido de alta inércia, estabilidade vibratória em altas velocidades, leitura direta do formato universal .DST e versatilidade na transição entre bordados planos e peças tubulares montadas ou bonés estruturados em curva de 270 graus.",
+    technicalDetails: "Acionamento principal e eixos cartesianos X/Y controlados por servomotores digitais de alta resposta dinâmica com parada sincronizada da agulha em ponto morto superior a 100°. Velocidade operacional ajustável de 450 a 1.200 PPM. Laçadeira rotativa vertical industrial tipo 'L' de precisão milimétrica, sistema de corte automático com faca móvel e contrafaca temperada, ponteiro laser para pré-visualização de enquadramento perimetral e memória interna para até 20 milhões de pontos ou 200 matrizes.",
+    construction: [
+      "Estrutura mecânica reforçada em ferro fundido monobloco com pés niveladores e rodízios industriais",
+      "Braço tubular cilíndrico de diâmetro reduzido para bordar mangas, bolsos e bonés montados",
+      "Mesa plana removível de engate rápido com tampo laminado de alta resistência",
+      "Painel de comando computadorizado Dahao colorido de alta resolução com botões físicos e touch",
+      "Sistema de troca automática de cores acionado por motor de passo e came helicoidal",
+      "Conjunto de faca e contrafaca de corte automático de fio superior e inferior",
+      "Ponteiro de feixe laser vermelho para conferência do ponto zero e contorno de segurança"
+    ],
+    howItWorks: [
+      "1. A matriz de bordado formatada em extensão padrão .DST é transferida via pendrive USB para a memória do painel Dahao.",
+      "2. Na tela, o operador seleciona o desenho e define a ordem sequencial de cores, associando cada passo da matriz a uma das 12 ou 15 agulhas físicas da máquina.",
+      "3. A peça é enquadrada no bastidor tubular, plano ou de boné e fixada no braço pantográfico.",
+      "4. O operador ativa o ponteiro laser e executa a função de traçado perimetral (Border Trace) para checar se o bordado cabe com folga dentro do bastidor sem risco de colisão.",
+      "5. A máquina inicia o ciclo operacional com partida progressiva, controlando a rotação de acordo com o comprimento dos pontos gerados.",
+      "6. Durante a execução, os sensores ópticos de quebra de fio e os tensores de disco com mola compensadora monitoram a passagem da linha, pausando a operação imediatamente se houver ruptura."
+    ],
+    beginnerExplanation: "A Typical representa o grande salto de quem sai das máquinas domésticas de uma agulha só e entra no mundo do bordado industrial profissional! Enquanto na máquina caseira você precisa parar e trocar o cone de linha na mão a cada cor diferente, na Typical você já deixa 12 ou 15 cones passados na máquina ao mesmo tempo. Ela troca de cor sozinha em segundos, borda bonés fechados perfeitos e trabalha o dia inteiro sem cansar!",
+    applications: [
+      "Produção de uniformes profissionais, camisas polo corporativas e jalecos médicos em escala comercial",
+      "Bordados em bonés montados estruturados em 270° utilizando o dispositivo cilíndrico rotativo",
+      "Bordado de peças tubulares prontas como mangas de jaquetas, pernas de calça e bolsas esportivas",
+      "Confecção seriada de emblemas, brasões militares e patches termocolantes de alta densidade",
+      "Bordados em artigos pesados como couro sintético, lona, jaquetas jeans e toalhas atoalhadas"
+    ],
+    mainTypes: [
+      "Typical Linha TC-1201 (1 Cabeça e 12 Agulhas): Modelo compacto ideal para pequenos ateliês e personalização ágil",
+      "Typical Linha TC-1501 (1 Cabeça e 15 Agulhas): O modelo mais consagrado para alta versatilidade de cores e bonés",
+      "Typical Linha TC-1502 (2 Cabeças e 15 Agulhas): Dobra a capacidade produtiva em um único comando",
+      "Typical Linha Multi-Cabeças (4, 6, 8 ou 12 Cabeças): Para confecções e facções de vestuário em larga escala"
+    ],
+    recommendedSettings: {
+      speedPPM: "850 a 1.000 PPM para peças planas; 650 a 750 PPM para bonés estruturados",
+      needleType: "Sistema industrial de cabo redondo DBxK5 (tamanhos 75/11 a 90/14 conforme o tecido)",
+      stabilizer: "Entretela rasgável pesada de 80g/m² ou entretela resinada especial para bonés"
+    },
+    advantages: [
+      "✔ Chassi super pesado e estável que absorve vibrações mesmo acima de 900 PPM",
+      "✔ Sistema eletrônico Dahao universal, consagrado mundialmente e de facílima operação",
+      "✔ Ampla facilidade de encontrar agulhas industriais DBxK5, carretilhas tipo L e peças de reposição",
+      "✔ Dispositivo de boné completo em 270° incluso de fábrica com estação de montagem"
+    ],
+    limitations: [
+      "Utiliza agulhas industriais de cabo redondo (DBxK5), exigindo atenção manual no correto alinhamento da cava da agulha durante a colocação.",
+      "Equipamento de porte industrial que requer espaço físico dedicado, piso nivelado e aterramento elétrico adequado."
+    ],
+    commonErrors: [
+      "❌ Iniciar o bordado ou movimentar o pantógrafo sem conferir se o ângulo do eixo principal está exatamente em 100° no painel Dahao.",
+      "❌ Montar a agulha de cabo redondo com a cava virada para a direção errada (deve ficar voltada para trás, voltada para a ponta da laçadeira).",
+      "❌ Esquecer de executar o traçado de contorno com o laser antes de iniciar o bordado em bastidores de boné, podendo causar colisão violenta da agulha com a chapa metálica.",
+      "❌ Não lubrificar a laçadeira rotativa vertical e as guias de agulha a cada turno de trabalho de 8 horas."
+    ],
+    troubleshootingTips: [
+      "Erro de Corte de Linha (Trimming Error / Faca Não Retornou): Verifique se não há fiapos ou pedaços de linha travando a faca móvel sob a chapa de agulha e limpe com ar comprimido e pincel.",
+      "A máquina não troca de cor e emite alarme de motor de cor: Verifique se não há fios embolados no came do trocador de barras ou se o seletor manual foi desengatado.",
+      "Linha escapando do olho da agulha no início da cor: Regule a mola pega-fio superior (thread holding spring) para segurar a ponta do fio com firmeza no corte."
+    ],
+    dicaArtrelados: "Em máquinas industriais como a Typical, o teste de contorno perimetral com ponteiro laser (Border Trace) deve ser sagrado na sua rotina antes de apertar o botão verde de partida! Esse simples cuidado de 5 segundos evita que a agulha bata na borda do bastidor, quebre a barra de agulha e cause um prejuízo desnecessário. E mantenha sempre a agulha na posição de 100° no painel Dahao antes de qualquer ajuste manual!",
+    voceSabia: "O painel computadorizado Dahao presente nas máquinas Typical é tão dominante no mercado mundial que praticamente 8 a cada 10 máquinas industriais de bordado produzidas na Ásia utilizam essa mesma tecnologia eletrônica! Isso torna o aprendizado dos seus comandos um passaporte universal para operar quase qualquer bordadeira industrial do mundo.",
+    practicalExercise: "Treine o sequenciamento rápido de cores no Dahao: Salve uma matriz de 4 cores no formato .DST, insira o pendrive na Typical, acesse o menu de cores e vincule: Cor 1 à Agulha 3 (fio azul), Cor 2 à Agulha 1 (fio branco), Cor 3 à Agulha 7 (fio vermelho) e Cor 4 à Agulha 12 (fio preto). Ligue o laser, confirme a área e execute um teste em retalho de sarja.",
+    quickSummary: "Fabricante industrial global de alta robustez, consagrada pelas máquinas eletrônicas de 12 e 15 agulhas com sistema Dahao, velocidade de até 1.200 PPM e dispositivo para bonés.",
+    relatedTerms: [
+      "Tajima",
+      "Formato DST",
+      "Painel Dahao",
+      "Agulha DBxK5",
+      "Bastidor de Boné",
+      "Velocidade PPM",
+      "Troca Automática de Cor",
+      "Ponteiro Laser"
+    ],
+    tags: [
+      "t-104",
+      "typical",
+      "maquinas",
+      "equipamento",
+      "tc1501",
+      "tc1201",
+      "dahao",
+      "industrial",
+      "dst",
+      "artrelados"
+    ],
+    bibliographicReferences: [
+      "XI'AN TYPICAL INDUSTRIES CO., LTD. Operation and Technical Maintenance Manual: Multi-Needle Embroidery Machines TC Series. Xi'an: Typical, 2023.",
+      "BEIJING DAHAO TECHNOLOGY CORP. Computerized Control System for Embroidery Machines: User Manual. Pequim: Dahao, 2023.",
+      "ARTRELADOS. Guia de Operação, Segurança e Manutenção de Bordadeiras Industriais no Brasil. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-05"
   }
 ];

@@ -2023,6 +2023,110 @@ export const VERBETES_LETTER_R9: Verbete[] = [
       "ARTRELADOS. Guia de Posicionamento, Rotação e Física Óptica de Fios no Bordado Computadorizado. Curitiba, 2024."
     ],
     updatedAt: "2026-08-30"
+  },
+  {
+    id: "r-095-ricoma-maquinas-de-bordado-eletronico",
+    code: "R-095",
+    term: "Ricoma (Máquinas de Bordado Eletrônico)",
+    pronunciation: "ri-co-ma (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    letter: "R",
+    level: "Intermediário a Avançado 🟡🔴",
+    category: "Máquinas e Equipamentos",
+    grammarClass: "Substantivo próprio / Locução substantiva.",
+    origin: "Fundada em Miami, Flórida (Estados Unidos) por Frank Ma, com polo fabril tecnológico e centros de distribuição em mais de 160 países. Destacou-se globalmente pela democratização do acesso a máquinas multiagulhas comerciais, integrando um ecossistema completo de suporte, treinamento em vídeo de alto alcance e o software de digitalização Chroma.",
+    summary: "Fabricante internacional de máquinas de bordado computadorizado de 1 até 12 cabeças (séries MT, TC e SWD de 15 e 20 agulhas), célebre pelo cabeçote aberto para itens volumosos, tela touch de 8\" e leitura .DST.",
+    definition: "A Ricoma é uma conceituada fabricante global de máquinas de bordado computadorizado comerciais e industriais de 1 até 12 cabeças (com 12, 15 ou 20 agulhas por cabeçote). Ganhou imensa projeção no mercado mundial com as séries tubulares compactas TC-1501, MT-1501 / MT-2001 (notável pela sua ampla folga vertical e chassi aberto em formato de 'C' para bordar itens volumosos como bolsas de golfe, malas e jaquetas pesadas) e SWD (com campo de bordado extragrande de até 80x50 cm). Seus modelos são equipados com painel touchscreen de alta definição de 8 polegadas com visualização 3D em tempo real, porta USB e conectividade de rede sem fio Wi-Fi.",
+    technicalDetails: "Acionamento principal e eixos cartesianos X/Y comandados por servomotores digitais de alta precisão com parada sincronizada do eixo mestre a 100°. Velocidade ajustável entre 450 e 1.200 PPM. Laçadeira rotativa vertical industrial tipo 'L' de precisão milimétrica, sistema de corte automático com acionamento por solenoide, ponteiro laser para pré-visualização perimetral e memória interna para até 20 milhões de pontos ou 200 matrizes. Formatos suportados: .DST e .DSB.",
+    construction: [
+      "Chassi aberto reforçado em formato de 'C' na série MT, permitindo a rotação livre de peças volumosas",
+      "Cabeçote cilíndrico estreito com conjunto seletor para 15 ou 20 agulhas",
+      "Painel de controle computadorizado colorido de 8 polegadas sensível ao toque com interface gráfica 3D",
+      "Sistema de corte de linha superior e inferior automatizado com tracionador de fio",
+      "Dispositivo de boné com curvatura ampla de 210° a 270° com estação de montagem externa",
+      "Ponteiro laser para traçado de perímetro de segurança e cruzamento de centro",
+      "Mesa plana removível e rodízios metálicos industriais com travas de nivelamento"
+    ],
+    howItWorks: [
+      "1. A matriz de bordado em extensão .DST é enviada para a Ricoma via pendrive USB ou conexão direta Wi-Fi a partir do computador.",
+      "2. Na tela touch de 8 polegadas, o operador seleciona o desenho e programa a sequência de cores, vinculando cada etapa da matriz a uma das 15 ou 20 agulhas.",
+      "3. A peça é fixada no bastidor tubular ou de boné e travada no pantógrafo reforçado.",
+      "4. O operador ativa a função Contour Trace com o ponteiro laser para checar se a agulha não irá colidir com a borda do bastidor.",
+      "5. A máquina inicia a costura com aceleração inteligente progressiva, adaptando a velocidade de 450 a 1.200 PPM de acordo com a amplitude dos pontos.",
+      "6. Sensores ópticos de quebra de linha superior e inferior pausam o trabalho imediatamente caso ocorra qualquer ruptura de fio."
+    ],
+    beginnerExplanation: "A Ricoma é a máquina que transformou a vida de milhares de bordadeiras e ateliês que queriam dar o grande salto das máquinas domésticas para as máquinas industriais! O grande diferencial dela é o cabeçote aberto bem alto: enquanto numa máquina comum é um sufoco bordar uma mochila grossa ou uma jaqueta pesada, na Ricoma a peça fica solta e tem espaço de sobra para movimentar. Além disso, ter 15 ou 20 agulhas prontas significa que você coloca todas as cores do seu ateliê na máquina e não precisa ficar trocando linha na mão toda hora!",
+    applications: [
+      "Bordados em peças volumosas, mochilas escolares, bolsas esportivas e malas de viagem (série MT)",
+      "Bordados em bonés montados estruturados de 6 gomos com o bastidor curvo em 270°",
+      "Produção seriada em grande volume de camisas polo empresariais, jalecos e uniformes profissionais",
+      "Grandes brasões para jaquetas de motoqueiro e estandartes em campo estendido (série SWD de 80x50 cm)",
+      "Emblemas termocolantes, patches com ponto cheio reforçado e bordados com alto relevo 3D (EVA)"
+    ],
+    mainTypes: [
+      "Ricoma EM-1010: Modelo de 10 agulhas super compacto para pequenos ateliês e personalização ágil",
+      "Ricoma TC-1501: Modelo clássico comercial de 15 agulhas para uniformes e camisetas",
+      "Ricoma MT-1501 / MT-2001: Campeã de vendas mundial com chassi aberto para malas e 15 a 20 agulhas",
+      "Ricoma SWD-1501: Máquina de campo monumental de 80x50 cm para colchas e toalhas de mesa",
+      "Ricoma Séries CHT2 e MT Multi-Cabeças (2 a 4 cabeças): Para escala comercial expandida"
+    ],
+    recommendedSettings: {
+      speedPPM: "850 a 1.000 PPM para peças planas normais; 650 a 750 PPM para bonés estruturados e EVA 3D",
+      needleType: "Sistema industrial de cabo redondo DBxK5 (tamanhos 75/11 para camisas até 90/14 para bonés)",
+      stabilizer: "Entretela rasgável pesada de 80g/m² ou entretela resinada especial para bonés estruturados"
+    },
+    advantages: [
+      "✔ Chassi aberto inovador na série MT que proporciona o maior vão vertical da categoria para itens volumosos",
+      "✔ Painel sensível ao toque de 8 polegadas intuitivo com pré-visualização em 3D de alta fidelidade",
+      "✔ Conjunto de 15 a 20 agulhas que minimiza trocas de cones e agiliza a produção diária",
+      "✔ Kit completo de fábrica com dispositivo de boné em 270°, estação de bancada e bastidores variados"
+    ],
+    limitations: [
+      "Utiliza agulhas industriais de cabo redondo (DBxK5), exigindo atenção manual no correto alinhamento da canaleta.",
+      "Necessita de espaço adequado para circulação do pantógrafo nas peças de campo gigante (como a SWD)."
+    ],
+    commonErrors: [
+      "❌ Iniciar o bordado ou movimentar o pantógrafo sem conferir se o eixo principal está exatamente em 100° no painel.",
+      "❌ Montar bonés no bastidor curvo sem travar a fita de aço traseira, gerando ondulação e quebra de agulha.",
+      "❌ Deixar de fazer o teste perimetral com o ponteiro laser (Contour Trace) antes de apertar a partida.",
+      "❌ Deixar de lubrificar a laçadeira rotativa vertical e as hastes das barras de agulha a cada 8 horas de operação."
+    ],
+    troubleshootingTips: [
+      "Alarme de Color Change Timeout: Verifique se não há fiapos no came helicoidal de troca de agulhas e aplique uma gota de óleo lubrificante no trilho.",
+      "Fio escapando do olho da agulha após o corte: Ajuste a mola superior de retenção de linha (Pick-up Spring) e limpe a faca sob a chapa.",
+      "Sensor acusando quebra de linha com fio intacto: Aumente a sensibilidade do sensor óptico nas configurações de serviço do painel touch."
+    ],
+    dicaArtrelados: "Na Ricoma série MT, a grande vantagem é o espaço livre embaixo do cabeçote aberto! Ao bordar mochilas pesadas ou malas de viagem, nunca deixe o peso da mochila puxar o bastidor para baixo: apoie o corpo da mochila suavemente sobre uma mesinha auxiliar na mesma altura do braço pantográfico. Isso evita sobrecarregar os motores de passo dos eixos X e Y e garante contornos perfeitamente alinhados!",
+    voceSabia: "O canal oficial da Ricoma no YouTube é o maior canal de máquinas de bordado do planeta, ultrapassando 50 milhões de visualizações com vídeos ensinando passo a passo desde como bordar bonés até como criar negócios lucrativos de personalização!",
+    practicalExercise: "Enquadramento de Boné na Estação Ricoma: Monte o bastidor curvo na estação de preparação de bancada, posicione a entretela resinada e vista um boné de sarja. Puxe a cinta de aço flexível sobre a costura da aba, aperte a presilha traseira até a frente ficar esticada como um tambor. Encaixe no braço tubular da Ricoma e confirme o alinhamento com o laser!",
+    quickSummary: "Fabricante internacional globalmente reconhecida por popularizar as máquinas multiagulhas de 15 e 20 cores (séries MT, TC e SWD) com painel touch de 8\", chassi aberto para bolsas e bonés.",
+    relatedTerms: [
+      "Tajima",
+      "Barudan (Máquinas de Bordado Eletrônico)",
+      "Typical (Máquinas de Bordado Eletrônico)",
+      "Formato DST",
+      "Bastidor de Boné",
+      "Agulha DBxK5",
+      "Software de Digitalização (Digitizing Software)",
+      "Velocidade PPM"
+    ],
+    tags: [
+      "r-095",
+      "ricoma",
+      "maquinas",
+      "equipamento",
+      "mt1501",
+      "tc1501",
+      "swd",
+      "industrial",
+      "dst",
+      "artrelados"
+    ],
+    bibliographicReferences: [
+      "RICOMA INTERNATIONAL CORP. User Manual: MT & TC Series Multi-Needle Commercial Embroidery Systems. Miami: Ricoma, 2023.",
+      "RICOMA INTERNATIONAL CORP. Chroma Embroidery Digitizing & 8-Inch Touchscreen Operational Guide. Miami, 2023.",
+      "ARTRELADOS. Guia de Operação e Rentabilidade com Máquinas Multiagulhas no Brasil. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-05"
   }
 ];
 
