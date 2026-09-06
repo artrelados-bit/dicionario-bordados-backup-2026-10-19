@@ -1582,7 +1582,215 @@ export const VERBETES_LETTER_S11: Verbete[] = [
       "ARTRELADOS. A Força Eletromagnética do Bordado: Ajuste, Diagnóstico e Segredos do Solenoide de Tensão. Curitiba, 2024."
     ],
     updatedAt: "2026-09-06"
+  },
+  {
+    id: "s-108-solenoide-eletromagnetico-atuacao-disparo",
+    code: "S-108",
+    term: "Solenoide Eletromagnético de Atuação e Disparo (Electromagnetic Actuator Solenoid / Plunger Solenoid)",
+    pronunciation: "so-le-nói-de e-le-tro-mag-nê-ti-co de a-tu-a-ção e dis-pá-ro (i-lek-tro-mag-nê-tik ák-tu-ei-tor so-le-nóid / plán-djer so-le-nóid)",
+    letter: "S",
+    level: "Avançado 🔴",
+    category: "Mecânica & Manutenção",
+    grammarClass: "Locução substantiva masculina.",
+    origin: "Originado no século XIX a partir dos estudos de eletromagnetismo de André-Marie Ampère e Michael Faraday. Na indústria do bordado mecânico, foi pioneiramente introduzido no final dos anos 1970 pela Tajima e Barudan para substituir alavancas mecânicas manuais e cabos de aço por pulsos digitais automáticos comandados pela CPU da máquina.",
+    summary: "Dispositivo mecatrônico de ação linear ultrarrápida composto por uma bobina de cobre esmaltado e um êmbolo de ferro macio (plunger) que converte pulsos elétricos digitais em força mecânica instantânea de tração ou empuxo para acionar guilhotinas de corte, travas de reciprocador e alívio de tensores.",
+    definition: "O Solenoide Eletromagnético de Atuação e Disparo (universalmente conhecido como Plunger Solenoid, Eletroímã de Atuação Mecatrônica ou Linear Actuator Solenoid) é o músculo eletromecânico primordial responsável por converter comandos lógicos digitais da placa-mãe em movimento físico linear instantâneo nos cabeçotes e na base inferior da máquina de bordar computadorizada. Sua estrutura consiste em um enrolamento helicoidal denso de fio de cobre eletrolítico isolado por verniz poliuretânico (bobina solenoide) instalado dentro de uma carcaça de blindagem magnética de aço carbono de baixo teor de silício. No centro oco da bobina, desliza com folga micrométrica um êmbolo cilíndrico móvel (plunger) usinado em ferro doce de alta permeabilidade magnética acoplado a uma mola helicoidal de retorno em aço inox. Em repouso (desenergizado), o êmbolo permanece retraído pela mola. No instante exato em que a máquina necessita executar uma ação automática — como disparar o cortador de linha (ATH Trimmer), engatar o reciprocador na troca de agulha, acionar a trava de elevação do calcador, fechar o captador de linha superior (thread wiper) ou destravar a barra de agulha —, a placa de potência descarrega um pulso elétrico controlado de 24V ou 36V DC na bobina. Isso cria um campo magnético toroidal de altíssima densidade de fluxo que atrai violentamente o êmbolo para o núcleo em menos de 15 a 30 milissegundos, gerando uma força mecânica de impacto calibrada entre 10 N e 45 N. Cessado o pulso elétrico, o campo colapsa e a mola de retorno devolve instantaneamente o êmbolo à sua posição de repouso.",
+    technicalDetails: "Alimentado por tensão nominal de 24V DC a 36V DC via circuitos de chaveamento PWM (Pulse Width Modulation) com duplo estágio: um pulso de pico (Peak Current) de 2A a 3A durante os primeiros 20 ms para vencer a inércia mecânica e o atrito estático, seguido de uma corrente de sustentação reduzida (Hold Current) de 0,5A a 0,8A para evitar superaquecimento térmico da bobina. A resistência ôhmica da bobina varia entre 8 Ω e 24 Ω com classe de isolamento térmico Classe F ou H (resistente até 155°C ou 180°C). Possui diodo de retorno (flyback diode) soldado em paralelo para dissipar a tensão reversa de autoindução (contra-EMF) que atinge até 200V no desligamento, protegendo os transistores MOSFET da placa principal contra queima por pico de tensão.",
+    construction: [
+      "Carcaça Metálica de Blindagem Magnética (Flux Frame): Corpo externo de aço que concentra as linhas de força do campo magnético",
+      "Carretel Isolante de Bobinamento (Bobbin Spool): Tubo central em poliamida ou baquelite onde o fio condutor é enrolado",
+      "Bobina de Cobre Esmaltado de Alta Condutividade: Fio eletrolítico com milhares de espiras compactadas e resinadas contra vibração",
+      "Êmbolo Central Móvel de Ferro Doce (Magnetic Plunger): Núcleo cilíndrico retificado que se move pelo centro da bobina com banho de níquel",
+      "Mola Helicoidal de Retorno Rápido (Return Spring): Mola de compressão em aço inox que recolhe o êmbolo ao cessar a eletricidade",
+      "Haste de Acoplamento Mecânico com Pino de Articulação: Conexão direta com a biela da faca de corte, trava do reciprocador ou alavanca"
+    ],
+    howItWorks: [
+      "1. A CPU da máquina de bordar emite a ordem digital de ação (ex: 'Cortar Linha' ou 'Trocar de Cor').",
+      "2. O circuito driver aciona o transistor MOSFET, enviando uma rajada de 24V DC para a bobina do solenoide.",
+      "3. A corrente elétrica que percorre as espiras cria um campo magnético vigoroso no centro do tubo.",
+      "4. O êmbolo de ferro é atraído para o fundo do núcleo com velocidade extrema (em cerca de 20 milissegundos).",
+      "5. A ponta do êmbolo puxa ou empurra a biela mecânica, engatando a faca de corte ou desarmando a trava.",
+      "6. A CPU corta a corrente de pico e desliga o solenoide; o campo magnético zera instantaneamente.",
+      "7. A mola de retorno empurra o êmbolo de volta para o ponto inicial, completando o ciclo mecânico com o característico estalo 'téc' da máquina!"
+    ],
+    beginnerExplanation: "O Solenoide de Disparo é o 'músculo elétrico invisível' da máquina de bordar! Na máquina mecânica antiga da vovó, você tinha que usar a força da mão para puxar alavancas, cortar linhas e apertar pedais. Na máquina computadorizada, quem faz essa força pesada por você são esses pequenos 'eletroímãs mágicos' espalhados pelo cabeçote e embaixo da mesa! Eles são como pequenas bobininhas de fio de cobre que, quando recebem um choque de eletricidade da placa da máquina, se transformam num ímã super forte em menos de um piscar de olhos, puxam uma pecinha de ferro com força para disparar o cortador de linha ou travar a agulha, e depois soltam na mesma hora! Aquele estalo sequinho e gostoso 'téc!' que a máquina faz quando corta a linha ou quando muda de agulha é o solenoide trabalhando firme para você!",
+    "applications": [
+      "Acionamento do mecanismo mecânico da guilhotina e faca móvel de corte de linha (ATH Solenoid)",
+      "Engate e desengate do reciprocador plástico na barra de agulha selecionada nas máquinas multiagulhas",
+      "Alívio e abertura forçada dos pratos dos tensores de linha superior durante saltos de ponto e cortes",
+      "Atuação da alavanca pegadora de linha (Thread Wiper) que joga a ponta da linha para cima do calcador",
+      "Trava de segurança eletromagnética do pantógrafo e intertravamento de cabeçotes em máquinas industriais"
+    ],
+    "mainTypes": [
+      "Solenoide de Tração (Pull Type): O êmbolo é puxado para dentro do corpo magnético ao ser energizado (padrão no cortador de linha)",
+      "Solenoide de Empuxo (Push Type): O êmbolo possui uma haste que se projeta para fora empurrando o mecanismo (comum no desarmador de tensores)",
+      "Solenoide Biestável com Trava Magnética (Latching Solenoid): Mantém a posição engatada por ímã permanente sem gastar energia contínua",
+      "Solenoide Rotativo (Rotary Solenoid): Converte o pulso eletromagnético em movimento angular de giro de até 45°"
+    ],
+    recommendedSettings: {
+      speedPPM: "Disparo instantâneo com motor em rotação controlada ou ponto morto de corte (tempo de resposta de 15 a 30 ms)",
+      needleType: "Universal para todos os cabeçotes",
+      stabilizer: "Universal para todas as entretelas"
+    },
+    advantages: [
+      "✔ Velocidade ultrarrápida de resposta (milissegundos), indispensável para máquinas que operam a 1.000 PPM",
+      "✔ Confiabilidade extrema com vida útil projetada para milhões de disparos mecânicos contínuos",
+      "✔ Elimina sistemas complexos e barulhentos de cabos mecânicos, hastes pesadas e engrenagens adicionais",
+      "✔ Acionamento direto por controle digital via microcontrolador com precisão angular absoluta"
+    ],
+    limitations: [
+      "Se mantido energizado por tempo prolongado devido a falha no transistor da placa, a bobina esquenta e queima.",
+      "Acúmulo de óleo sujo e pó de tecido no êmbolo pode torná-lo pegajoso, atrasando o retorno mecânico da mola."
+    ],
+    commonErrors: [
+      "❌ Lubrificar o êmbolo do solenoide com graxa grossa ou óleos viscosos, que criam uma pasta com o pó de linha e travam o movimento.",
+      "❌ Borda com a fiação do solenoide esticada ou raspando nas partes móveis do cabeçote, gerando curto-circuito.",
+      "❌ Tentar forçar o êmbolo com alicate quando emperrado, entortando a haste retificada e inutilizando o solenoide.",
+      "❌ Substituir um solenoide queimado por modelo de voltagem inadequada (ex: colocar solenoide de 12V em circuito de 24V)."
+    ],
+    troubleshootingTips: [
+      "A máquina emite o comando de corte mas o cortador de linha não se move e não se escuta o estalo característico: O solenoide de corte não está recebendo os 24V da placa (fusível queimado ou fio rompido) ou a bobina abriu; teste a resistência com multímetro (deve marcar entre 8 Ω e 24 Ω).",
+      "O solenoide dispara com barulho fraco e o êmbolo não volta completamente: O êmbolo está sujo de óleo seco ou a mola de retorno perdeu a pressão; retire o êmbolo, limpe com desengraxante e álcool isopropílico seco e recoloque sem óleo.",
+      "Cheiro de verniz queimado vindo do cabeçote e solenoide pelando de quente: O transistor driver na placa-mãe entrou em curto e travou o solenoide ligado direto com 24V contínuos; desligue a máquina imediatamente da tomada para não queimar a fiação."
+    ],
+    dicaArtrelados: "Atenção ao mandamento de ouro da manutenção mecatrônica da Artrelados: 'Solenoide NUNCA se lambuza de graxa!' O êmbolo de aço do solenoide foi projetado para trabalhar a seco ou no máximo com uma névoa invisível de silicone desengordurado. Se você jogar óleo comum de máquina de costura ou graxa branca dentro da bobina do solenoide, o pozinho de entretela que voa no ar vai grudar ali dentro e virar uma cola dura! O êmbolo começa a ficar preguiçoso, atrasa o corte e você vai achar que a máquina pifou. Solenoide limpo e sequinho é sinônimo de disparos perfeitos e anos de paz no ateliê!",
+    voceSabia: "O solenoide foi inventado em 1820 pelo cientista francês André-Marie Ampère — o mesmo que deu nome à unidade de corrente elétrica 'Ampère' (A)! A palavra 'solenoide' vem do grego 'solen', que significa tubo ou canaleta. Essa invenção de mais de 200 anos é hoje a peça que dispara airbags de carros, portas de bancos e os cortadores cirúrgicos das máquinas de bordado mais avançadas do mundo!",
+    "practicalExercise": "Localização e Reconhecimento Tátil do Estalo do Solenoide: Com a máquina desligada e desconectada da tomada, retire a tampa plástica lateral do cabeçote ou a tampa de serviço inferior. Localize a bobina cilíndrica com fios coloridos e um ferrinho no meio (o êmbolo do solenoide). Com o dedo, empurre o êmbolo para dentro contra a mola: sinta a pressão suave da mola e como ele se recolhe macio e volta sozinho assim que você solta o dedo. Essa é a mecânica viva que o eletromagnetismo aciona em milissegundos!",
+    quickSummary: "Dispositivo mecatrônico de bobina e êmbolo que transforma pulsos elétricos digitais em movimento mecânico veloz para disparar cortadores de linha, reciprocadores e tensores.",
+    relatedTerms: [
+      "Cortador de Fio Superior e Inferior / Guilhotina Mecânica de Linha (Thread Trimmer Knife Mechanism)",
+      "Reciprocador de Barra de Agulha",
+      "Tensor Superior e Discos de Tensão",
+      "Solenoide de Tensão",
+      "Pescador de Linha / Alavanca Pega-Fio do Trimmer",
+      "Placa Principal da Máquina de Bordar"
+    ],
+    tags: [
+      "s-108",
+      "solenoide",
+      "eletroima",
+      "atuador-linear",
+      "plunger-solenoid",
+      "disparo",
+      "corte-de-linha",
+      "mecanica",
+      "eletronica",
+      "artrelados"
+    ],
+    sourceReference: "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    bibliographicReferences: [
+      "AMPÈRE, André-Marie. Théorie des Phénomènes Électro-dynamiques. Paris: Académie des Sciences, 1826.",
+      "TAJIMA GROUP. Solenoid Actuation Systems and Driver Board Architecture Service Manual. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Linear Solenoids Maintenance, Timing and Coil Resistance Standards. Ichinomiya, 2022.",
+      "ARTRELADOS. O Músculo Eletromagnético da Máquina: Diagnóstico, Bobinas e Cuidados com o Solenoide. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-06"
+  },
+  {
+    id: "s-109-sensor-fim-linha-bobina-infravermelho-fibra-optica",
+    code: "S-109",
+    term: "Sensor de Fim de Linha de Bobina por Infravermelho / Fibra Óptica (Bobbin Thread Optical Sensor / Under-Thread Detector)",
+    pronunciation: "sen-sor de fĩm de lín-nha de bo-bí-na por in-fra-ver-me-lho / fí-bra óp-ti-ca (bó-bin tréd óp-ti-col sén-sor / ân-der-tréd di-ték-tor)",
+    letter: "S",
+    level: "Avançado 🔴",
+    category: "Mecânica & Manutenção",
+    grammarClass: "Locução substantiva masculina.",
+    origin: "Desenvolvido no Japão pela Barudan e Tajima nos anos 1990 e aprimorado pela Brother e Bernina com a introdução de microprocessadores dedicados. Foi criado para sanar a maior dor de cabeça do bordado eletrônico: a bobina que acabava no meio do bordado e fazia a máquina costurar dezenas de pontos vazios 'furando o tecido no escuro' sem formar ponto.",
+    summary: "Dispositivo optoeletrônico que emite e recebe feixes de luz infravermelha modulada direcionados para a bobina sob a chapa, detectando por reflexão no cubo metálico quando a meada de linha está nos últimos metros e parando a máquina preventivamente.",
+    definition: "O Sensor de Fim de Linha de Bobina por Infravermelho (tecnicamente denominado Bobbin Thread Optical Detector, Sensor de Fio Residual Inferior ou Under-Thread Monitor) é o sistema de monitoramento optoeletrônico preventivo responsável por vigiar a quantidade de linha remanescente na carretilha da caixa de bobina. Em máquinas sem esse sistema, o aviso de falta de linha inferior só ocorre por via indireta após a linha acabar por completo (quando o sensor superior detecta que a linha da agulha não está mais sendo puxada pela laçada inferior, momento em que a agulha já perfurou o tecido em falso de 5 a 15 vezes). O sensor óptico moderno opera sob o princípio da reflexão ou transmissão fotométrica de luz infravermelha não visível (comprimento de onda de 850 nm a 940 nm). O conjunto é montado na carcaça inferior próximo à laçadeira rotativa e é composto por um diodo emissor (LED infravermelho) e um fototransistor receptor (ou cabo de fibra óptica resistente à poeira). O feixe de luz é direcionado através de aberturas na caixa de bobina e nas laterais da carretilha. Enquanto a bobina estiver cheia ou com volume de linha seguro, as camadas opacas de linha absorvem e bloqueiam o reflexo luminoso. Quando a meada se esgota e atinge uma espessura residual crítica (geralmente entre 1 e 3 metros finais), o feixe de luz atinge o cubo central metálico polido (espelhado) da carretilha; a luz é refletida de volta para o fototransistor receptor, que dispara um sinal de interrupção na CPU da máquina. A máquina completa o ponto atual, aciona o freio magnético, ergue a agulha no ponto superior e exibe na tela o alerta antecipado: 'Linha da Bobina Quase no Fim — Substitua a Bobina', permitindo uma troca tranquila sem nenhuma falha no bordado.",
+    technicalDetails: "Opera com feixe de luz infravermelha pulsada em alta frequência (modulação de 38 kHz a 40 kHz) para imunizar o circuito contra a luz ambiente de lâmpadas fluorescentes, LEDs de bancada ou luz solar direta. O limiar de disparo fotoelétrico possui sensibilidade programável no software da máquina (ajuste de sensibilidade de 1 a 5 níveis para diferentes espessuras de linha de bobina, como filamento 60 wt ou 70 wt). O tempo de resposta para frenagem é inferior a 1 rotação do eixo principal (< 10 ms a 1.000 PPM). Algumas máquinas utilizam ponteiras de fibra óptica de sílica protegidas por lentes de cristal de safira para resistir à fricção de fiapos e óleo.",
+    construction: [
+      "LED Emissor Infravermelho Modulado (IR Emitter): Diodo de arsenieto de gálio que projeta um feixe de luz invisível concentrado",
+      "Fototransistor Receptor de Alta Sensibilidade (IR Receiver): Sensor óptico com filtro espectral que só enxerga a luz refletida modulada",
+      "Guia de Fibra Óptica ou Lente Protetora: Condutor de luz blindado que leva o sinal até o interior estreito do berço da laçadeira",
+      "Carretilha com Núcleo Espelhado ou Perfurado: Bobina metálica ou acrílica especial com acabamento refletivo para retorno de luz",
+      "Circuito Integrado Comparador / DSP: Chip que filtra ruídos elétricos do motor e calcula a variação do sinal fotoelétrico",
+      "Cabo de Sinal com Blindagem Eletrostática: Fiação com malha de aterramento para evitar interferências dos motores de passo vizinhos"
+    ],
+    howItWorks: [
+      "1. A máquina inicia o bordado e o emissor infravermelho dispara pulsos de luz invisíveis em direção à carretilha da bobina.",
+      "2. Com a bobina cheia, a linha enrolada bloqueia a luz; o receptor não recebe sinal de retorno e a máquina borda normalmente.",
+      "3. Conforme o bordado avança, a meada de linha vai afinando ao redor do eixo central da carretilha.",
+      "4. Quando restam apenas 2 ou 3 metros de linha, o metal brilhante do miolo da carretilha fica exposto.",
+      "5. O feixe infravermelho bate no miolo espelhado e rebate direto no receptor óptico.",
+      "6. A placa-mãe recebe o pulso de luz refletida e identifica: 'Atenção, a bobina vai acabar em poucos segundos!'",
+      "7. A máquina desacelera suavemente, para com a agulha em cima e avisa a bordadeira na tela, antes mesmo do último pedaço de linha escapar da caixa!"
+    ],
+    beginnerExplanation: "O Sensor de Linha da Bobina é o 'olho mágico invisível' que fica vigiando a carretilha por baixo da máquina! Sabe aquele pânico que toda bordadeira já passou de deixar a máquina bordando, sair para tomar um café, e quando voltar descobrir que a linha da bobina acabou no meio do nome e a máquina ficou batendo agulha no seco furando o tecido sem bordar nada? Esse sensor inteligente acaba com esse pesadelo! Ele lança uma luzinha mágica que bate na bobina; enquanto tem linha, a luz não volta. Mas quando a linha está quase no finzinho e o ferrinho brilhante da bobina aparece, a luz reflete e a máquina para sozinha na mesma hora, avisando: 'Pode trocar a bobininha!' Você troca a carretilha com calma e o bordado continua perfeito sem nenhum ponto faltando!",
+    "applications": [
+      "Aviso antecipado e preventivo de esgotamento da linha inferior antes que a meada acabe no meio do bordado",
+      "Prevenção de furos em falso e danos estruturais em tecidos delicados provocados por agulhamento sem formação de ponto",
+      "Eliminação do desperdício de tempo com retorno manual de matriz e desmanche de pontos em falso",
+      "Operação contínua de alta produtividade em máquinas multiagulhas e ateliês com operadores múltiplos",
+      "Inspeção fotométrica sem contato físico, sem atrito e sem desgaste mecânico sobre a linha de bobina"
+    ],
+    "mainTypes": [
+      "Sensor Infravermelho Reflexivo Direto: O emissor e receptor ficam lado a lado sob a chapa apontados para a bobina (mais comum)",
+      "Sensor por Transmissão Cruzada (Barreira Óptica): O emissor fica de um lado e o receptor do outro, atravessando os furos da bobina",
+      "Sensor de Fibra Óptica Flexível: Transmite a luz por filamentos de vidro até áreas extremamente apertadas de máquinas industriais",
+      "Sensor Acústico/Piezoelétrico Híbrido: Detecta a frequência de vibração da caixa de bobina associada à leitura óptica"
+    ],
+    recommendedSettings: {
+      speedPPM: "Leitura contínua em qualquer velocidade operacional de 0 a 1.200 PPM",
+      needleType: "Universal para qualquer calibre",
+      stabilizer: "Universal para todas as entretelas"
+    },
+    advantages: [
+      "✔ Aviso antecipado que impede a máquina de furar o tecido sem linha no meio de um bordado",
+      "✔ Monitoramento óptico 100% não invasivo que não gera atrito nem repuxa a linha da bobina",
+      "✔ Economia colossal de tempo: a bordadeira troca a bobina exatamente na hora certa sem adivinhar",
+      "✔ Luz pulsada modulada imune à interferência de lâmpadas externas do ateliê ou luz do sol"
+    ],
+    limitations: [
+      "O acúmulo de poeira de linha, fiapos e óleo sobre a lente do sensor pode gerar falsos alertas de bobina vazia.",
+      "Exige o uso de carretilhas originais recomendadas com furos ou acabamento refletivo compatível com o feixe."
+    ],
+    commonErrors: [
+      "❌ Utilizar carretilhas plásticas foscas ou pretas piratas em máquinas que usam sensor de reflexão óptica.",
+      "❌ Deixar um 'carpete' de fiapos de entretela cobrir a lentezinha do sensor no fundo do berço da laçadeira.",
+      "❌ Limpar a lente óptica com solventes agressivos que deixam o acrílico do sensor opaco e cego.",
+      "❌ Desativar o sensor nas configurações do painel achando que é defeito quando na verdade a lente só precisa de uma limpeza com pincel."
+    ],
+    troubleshootingTips: [
+      "A máquina avisa na tela que a bobina acabou mas a carretilha ainda está quase cheia: A lente do sensor óptico está coberta de penugem de linha e poeira têxtil; retire a caixa de bobina e limpe a lente com um cotonete seco ou jato suave de ar comprimido.",
+      "A linha da bobina acaba completamente e a máquina não para (não dá nenhum alerta): O sensor está desativado no menu de configurações do painel ou foram utilizadas carretilhas transparentes não refletivas; ative o sensor no painel e use as carretilhas metálicas originais.",
+      "O aviso de bobina dispara toda vez que a máquina atinge alta rotação: O cabo de fibra óptica ou conector está com vibração mecânica e mau contato; fixe os chicotes da fiação com presilhas adesivas na carcaça."
+    ],
+    "dicaArtrelados": "Se a sua máquina de bordar começou a dar aquele aviso chato de 'Bobina Vazia' a cada dez minutos mesmo com a bobina cheia, não entre em desespero: 99% das vezes a máquina não tem defeito nenhum! Faça o 'Ritual do Pincel Mágico' da Artrelados: retire a chapa da agulha e a caixinha preta da bobina. Olhe lá no fundinho com a lanterna do celular: você verá duas bolinhas minúsculas de vidro ou acrílico transparente (são os olhinhos do sensor). Passe um pincel macio bem seco ou um cotonete limpo para tirar a poeirinha branca da entretela. Pronto! O sensor volta a enxergar perfeitamente e os alarmes falsos somem como num passe de mágica!",
+    "voceSabia": "Nas primeiras máquinas de bordar computadorizadas nos anos 1980, não existia sensor para a bobina! As bordadeiras tinham que cronometrar no relógio ou contar os pontos mentalmente para adivinhar a hora de trocar a carretilha. O desenvolvimento do sensor infravermelho pela engenharia aeroespacial e sua adaptação para o bordado nos anos 1990 é considerado um dos cinco maiores avanços de automação têxtil de todos os tempos!",
+    "practicalExercise": "Localização e Limpeza dos Olhos do Sensor da Bobina: Com a máquina desligada, retire a tampa da bobina e a caixa de bobina. Acenda a lanterna do celular e aponte para o interior da laçadeira: localize o pequeno orifício ou lentezinha transparente por onde passa a luz do sensor. Passe um pincel macio delicadamente sobre a lente e observe como mesmo uma sujeirinha microscópica é removida. Esse cuidado simples garante paz e tranquilidade a cada bordado!",
+    quickSummary: "Dispositivo optoeletrônico que emite luz infravermelha para a carretilha sob a chapa, avisando com antecedência quando a linha da bobina está no fim antes que o tecido seja furado em falso.",
+    relatedTerms: [
+      "Caixa de Bobina / Cápsula da Bobina",
+      "Sensor de Quebra de Linha",
+      "Laçadeira Rotativa",
+      "Cortador de Fio Superior e Inferior / Guilhotina Mecânica de Linha (Thread Trimmer Knife Mechanism)",
+      "Carretilha / Canelinha de Bobina",
+      "Painel Touch Screen"
+    ],
+    tags: [
+      "s-109",
+      "sensor-de-bobina",
+      "sensor-optico",
+      "infravermelho",
+      "fibra-optica",
+      "bobbin-sensor",
+      "alerta-preventivo",
+      "mecanica",
+      "eletronica",
+      "artrelados"
+    ],
+    sourceReference: "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    bibliographicReferences: [
+      "TAJIMA GROUP. Under-Thread Detection System and Optical Sensor Alignment Service Manual. Nagoya: Tajima, 2023.",
+      "BROTHER INDUSTRIES, LTD. Advanced Bobbin Thread Sensor Architecture and Maintenance Guide. Nagoya, 2022.",
+      "BERNINA INTERNATIONAL AG. Optical Lower Thread Monitoring System in Computerized Embroidery. Steckborn, 2023.",
+      "ARTRELADOS. O Olho Invisível da Bobina: Diagnóstico, Limpeza de Sensores e Paz no Ateliê. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-06"
   }
 ];
+
+
 
 

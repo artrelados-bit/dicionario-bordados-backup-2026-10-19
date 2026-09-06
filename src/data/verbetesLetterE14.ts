@@ -1751,8 +1751,113 @@ export const VERBETES_LETTER_E_PART14: Verbete[] = [
       "ARTRELADOS. O Toque Perfeito na Montagem de Peças Bordadas: Segredos do Walking Foot, Transporte Duplo e Quilting. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "e-105-eixo-came-mudanca-automatica-cores-espiral-agulha",
+    "code": "E-105",
+    "term": "Eixo Came de Mudança Automática de Cores / Came Espiral de Troca de Agulha (Color Change Cam Shaft / Spiral Needle Change Cam)",
+    "pronunciation": "êi-xo câm de mu-dân-ça au-to-má-ti-ca de có-res / câm es-pi-rál de tró-ca de a-gú-lha (có-lor tchêindj câm sháft / spái-ral ní-del tchêindj câm)",
+    "letter": "E",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Criado nos anos 1970 pela engenharia industrial japonesa da Tajima e Barudan para viabilizar as primeiras máquinas de bordar automáticas multiagulhas. O desenvolvimento do tambor com canaleta cilíndrica helicoidal substituiu a antiga troca manual de carretéis e os sistemas pneumáticos barulhentos por uma cinemática rotativa de alta velocidade acionada por servomotor elétrico independente.",
+    "summary": "Eixo cilíndrico de aço temperado dotado de ranhura espiral helicoidal profunda de geometria contínua, acoplado a um motor de passo dedicado que, ao girar um ângulo exato, desloca lateralmente todo o bloco das barras de agulha do cabeçote, engatando a cor selecionada sob o acionador principal com precisão centesimal.",
+    "definition": "O Eixo Came de Mudança Automática de Cores (universalmente denominado Color Change Cam Shaft, Tambor Came Helicoidal de Troca de Agulha ou Came Cilindrico Linear de Seleção de Cor) é o coração cinemático mecatrônico responsável pela alternância ultrarrápida e automatizada entre as agulhas (de 4 até 15 cores por cabeçote) na máquina de bordar computadorizada industrial e multiagulhas profissional. Posicionado na parte superior traseira do cabeçote, o eixo came consiste em um tambor de aço de alta resistência usinado com uma canaleta helicoidal contínua (estilo rosca sem-fim ou came globoidal). Dentro dessa canaleta corre um pino roletado de precisão (Cam Follower / Rolete Seguidor) fixado solidariamente à carcaça móvel deslizante das barras de agulha (Needle Bar Case). Quando o software da matriz envia o comando de Stop / Troca de Cor (por exemplo, passar da agulha 3 para a agulha 7), a máquina freia o motor principal com a alavanca e a agulha na posição de repouso superior; no mesmo instante, um servomotor ou motor de passo de alta resolução gira o eixo came um número exato de graus (geralmente 360° por cada passo de agulha). A canaleta espiral converte instantaneamente essa rotação em deslocamento linear horizontal perfeito, empurrando o bloco inteiro de agulhas para a esquerda ou para a direita até alinhar a agulha escolhida rigorosamente sob o pino de engate da biela motriz e da alavanca pega-fio. O sistema conta com microchaves fim-de-curso (Home Position Switch) e um disco sensor codificador óptico que confirmam para a CPU que a agulha solicitada está exatamente travada no centro antes do motor principal receber autorização para acelerar novamente.",
+    "technicalDetails": "Usinado em aço-liga cromo-molibdênio SCM440 ou aço ferramenta SAE 4140 com tratamento térmico de cementação e têmpera por indução das pistas helicoidais, atingindo dureza superficial de 58 a 62 HRC e rugosidade retificada Ra < 0,1 µm. A inclinação da canaleta helicoidal obedece a uma curva cicloidal de aceleração suave para eliminar choques mecânicos nas paradas, com passo linear exato equivalente à distância entre os centros das barras de agulha (geralmente 12,0 mm a 16,0 mm por rotação de 360°). O acionamento é feito por servomotor DC sem escovas (Brushless) ou motor de passo bipolar híbrido de 24V/48V com precisão angular de 0,05° e tempo de troca de agulha entre cores adjacentes de apenas 0,3 a 0,6 segundos.",
+    "construction": [
+      "Tambor de Aço com Canaleta Helicoidal Usinada: Cilindro temperado com ranhura espiral contínua de paredes retificadas",
+      "Pino Roletado Seguidor (Cam Follower / Roller Bearing): Rolamento de agulhas montado no bloco das agulhas que desliza pela canaleta",
+      "Eixo de Transmissão Longitudinal: Haste retificada montada sobre mancais com rolamentos de esferas de alta precisão",
+      "Disco Codificador Óptico de Posição (Encoder Wheel): Roda com fendas numéricas que informa à placa-mãe qual agulha está engatada",
+      "Sensor de Ponto Zero / Posição Inicial (Home Sensor): Sensor óptico ou magnético que calibra a referência da agulha número 1",
+      "Flange de Acoplamento Elástico ao Motor: Junta flexível que conecta o eixo came ao eixo do servomotor de troca de cor"
+    ],
+    "howItWorks": [
+      "1. A máquina conclui a costura da cor atual, corta a linha inferior/superior e para com a agulha no ponto morto superior.",
+      "2. A CPU lê na memória da matriz o comando para a próxima cor (ex: mudar da Agulha 2 para a Agulha 5).",
+      "3. A placa de comando aciona o servomotor do Eixo Came, que gira três voltas completas (1.080 graus).",
+      "4. Conforme o tambor cilíndrico gira, a ranhura helicoidal em espiral força o pino roletado a caminhar para a esquerda.",
+      "5. O pino puxa todo o bloco móvel das barras de agulha suavemente, deslizando sobre os trilhos do cabeçote.",
+      "6. A Agulha 5 atinge o centro e o disco codificador envia o sinal digital 'Posição Confirmada' para o computador.",
+      "7. A trava mecânica de retenção (Detent Ball) se encaixa com um leve clique e a máquina recomeça o bordado em menos de 1 segundo!"
+    ],
+    "beginnerExplanation": "O Eixo Came de Mudança de Cores é o 'maquinista inteligente' que troca as linhas da sua máquina multiagulhas num piscar de olhos! Já reparou como numa máquina de 6, 10 ou 15 agulhas a frente inteira da máquina desliza para a esquerda e para a direita sozinha quando acaba uma cor, sem você precisar mexer em nada? Quem faz essa mágica é um cilindro de ferro bem grosso e pesado que fica escondido lá em cima atrás do cabeçote, com uma ranhura espiral cavada nele (parecendo uma broca gigante ou uma rosca sem fim). Quando a máquina precisa de linha azul, um motorzinho gira esse cilindro; a ranhura espiral empurra todas as agulhas para o lado como um carrossel e para a agulha azul exatamente embaixo do motor de costura! É graças a esse sistema engenhoso que você pode colocar uma matriz com 12 cores, apertar o play e ir tomar um café enquanto ela borda tudo sozinha!",
+    "applications": [
+      "Deslocamento horizontal automatizado do bloco de barras de agulha em máquinas multiagulhas (4 a 15 agulhas)",
+      "Troca sequencial rápida de linhas multicoloridas sem intervenção manual da operadora",
+      "Sincronização com o cortador automático e com a alavanca pega-fio para trocas de cor limpas",
+      "Alinhamento milimétrico do engate mecânico da barra de agulha ativa com o excêntrico de acionamento do motor principal",
+      "Identificação digital contínua da agulha em uso através de sensores de fenda e placas codificadoras"
+    ],
+    "mainTypes": [
+      "Came Helicoidal Cilíndrico de Eixo Único: Padrão dominante em máquinas industriais (Tajima, Barudan, SWF)",
+      "Sistema de Fuso Esférico / Rosca Sem-Fim Linear: Utilizado em cabeçotes compactos multiagulhas (Brother PR, Janome MB4)",
+      "Came Globoidal Indexador (Rotary Indexer): Sistema rotativo de alta velocidade para cabeçotes ultra-rápidos de até 20 agulhas",
+      "Came com Seleção Pneumática Auxiliar: Versões especiais de troca assistida para cabeçotes híbridos de lantejoula e chenille"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Giro executado durante a parada de 0 PPM (tempo total de troca de 0,4 a 0,8 segundos antes do retorno a 1.200 PPM)",
+      "needleType": "Universal para todas as agulhas do cabeçote",
+      "stabilizer": "Universal para todas as entretelas"
+    },
+    "advantages": [
+      "✔ Automação total: permite bordar desenhos complexos de até 15 cores sem nenhuma pausa manual",
+      "✔ Movimento suave e contínuo por curva cicloidal que não dá trancos mecânicos na estrutura da máquina",
+      "✔ Posicionamento centesimal que garante que a agulha selecione exatamente no prumo da laçadeira",
+      "✔ Construção em aço temperado retificado com vida útil projetada para mais de 20 anos de produção industrial"
+    ],
+    "limitations": [
+      "Se a graxa da canaleta espiral secar ou empelotar com fiapos de linha, o motor de troca de cor pode perder passos e travar.",
+      "Se houver colisão de agulha ou se a máquina for forçada com a mão durante o giro do came, pode descalibrar o sensor de ponto zero."
+    ],
+    "commonErrors": [
+      "❌ Empurrar o bloco de agulhas com a mão à força enquanto a máquina está ligada, forçando o rolete contra o came.",
+      "❌ Deixar poeira têxtil e restos de linha cortada entrarem na canaleta espiral do eixo came sem limpeza semestral.",
+      "❌ Desconectar o cabo do sensor codificador de cores com a máquina ligada, apagando os parâmetros de posição no painel.",
+      "❌ Tentar bordar com a agulha entre duas posições (fora do centro do clique mecânico de retenção)."
+    ],
+    "troubleshootingTips": [
+      "O painel acusa erro 'Color Change Error' ou 'Needle Position Alarm' e a máquina para: O sensor óptico de posição do came está com poeira ou o bloco das agulhas encontrou resistência mecânica nos trilhos; limpe os sensores ópticos do cabeçote e aplique graxa branca limpa na ranhura do came.",
+      "O bloco de agulhas se move mas erra o número da agulha (ex: pede a cor 4 e para na cor 3): O acoplamento flexível do motor ao eixo came afrouxou ou a máquina perdeu o ponto zero (Home Position); acesse o menu técnico no painel e execute a rotina 'Color Change Origin / Auto-Home'.",
+      "Barulho de rangido ou esforço excessivo do motor elétrico ao trocar de cor: A canaleta helicoidal do came está com graxa ressecada ou as guias lineares do bloco de agulhas estão secas; desengraxe o came, aplique graxa sintética nova e mova manualmente pelo volante de manutenção."
+    ],
+    "dicaArtrelados": "Sua máquina multiagulhas começou a dar aquele susto com o alarme de 'Erro de Troca de Agulha' bem no meio de um bordado longo? Não se desespere! Anote o 'Truque do Giro Manual do Came' da Artrelados: desligue a máquina na chave geral. Atrás do cabeçote ou na lateral, localize o pequeno botãozinho estriado ou fenda sextavada do eixo do came de troca de cor. Gire com a mão suavemente no sentido horário até você sentir um gostoso clique mecânico (o 'clique de repouso'). Olhe na frente da máquina: a agulha deve estar perfeitamente centralizada no orifício do calcador. Ligue a máquina novamente: a placa-mãe reconhece a posição instantaneamente e a máquina volta a bordar suave sem perder o ponto do desenho!",
+    "voceSabia": "Antes da invenção do Eixo Came automático no final dos anos 1970, as máquinas de bordar industriais tinham apenas UMA agulha por cabeçote! Quando uma toalha ou jaqueta tinha um brasão de 8 cores, a bordadeira precisava ficar em pé ao lado da máquina o dia inteiro, parando a máquina a cada troca de cor, cortando a linha, tirando o cone, passando o novo cone na mão agulha por agulha e dando o play novamente! O Eixo Came de troca automática aumentou a produtividade das confecções em mais de 1.000%!",
+    "practicalExercise": "Acompanhamento Visual da Dança do Came de Cores: Programe na máquina um pequeno teste com duas cores alternadas (ex: agulha 1 e agulha 2). Retire a tampa superior traseira de proteção do cabeçote com a máquina no modo de manutenção ou observe pela fresta superior de ventilação. Dê o comando de troca de cor no painel: veja o tambor espiral de aço girar uma volta completa, como uma rosca sem-fim, e observe o bloco inteiro das agulhas deslizar com a suavidade de um relógio suíço até travar na próxima agulha. É a obra-prima da mecatrônica têxtil em ação!",
+    "quickSummary": "Tambor de aço com ranhura espiral helicoidal acionado por servomotor que desloca o bloco de agulhas lateralmente, engatando a cor selecionada com precisão centesimal.",
+    "relatedTerms": [
+      "Barra de Agulha e Bucha Guia",
+      "Alavanca Pega-Fio / Pescador de Linha Superior com Sensor de Ruptura (Thread Take-Up Lever & Breakage Sensor)",
+      "Sensor de Ponto Zero (Home Position Sensor)",
+      "Servomotor de Troca de Cor (Color Change Motor)",
+      "Cortador de Fio Superior e Inferior / Guilhotina Mecânica de Linha (Thread Trimmer Knife Mechanism)",
+      "Bloco Móvel das Agulhas (Needle Bar Case)"
+    ],
+    "tags": [
+      "e-105",
+      "eixo-came",
+      "came-espiral",
+      "troca-de-cor",
+      "color-change",
+      "multiagulhas",
+      "mecatronica",
+      "tajima",
+      "barudan",
+      "brother",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Color Change Mechanism, Cam Timing, Motor Calibration and Origin Sensor Standards. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Spiral Color Change Cam Maintenance and Needle Selection Mechanics. Ichinomiya, 2022.",
+      "BROTHER INDUSTRIES, LTD. PR Series Multi-Needle Color Change Cam & Stepper Drive Troubleshooting. Nagoya, 2023.",
+      "ARTRELADOS. A Dança das Cores no Cabeçote: Segredos do Eixo Came, Sincronismo e Automação Multiagulhas. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
   }
 ];
+
 
 
 

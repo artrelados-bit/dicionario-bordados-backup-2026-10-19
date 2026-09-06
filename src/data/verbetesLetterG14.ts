@@ -1327,5 +1327,211 @@ export const VERBETES_LETTER_G_PART14: Verbete[] = [
       "threadTension": "Padrão",
       "density": "Padrão"
     }
+  },
+  {
+    "id": "g-101-guia-linear-esferas-recirculantes-eixos-x-y",
+    "code": "G-101",
+    "term": "Guia Linear de Esferas Recirculantes dos Eixos X e Y (Linear Motion Guide & Recirculating Ball Bearing Slide)",
+    "pronunciation": "guí-a li-ne-ar de es-fê-ras re-cir-cu-lân-tes dos éi-shos shis e íp-si-lon (lí-ni-ar móu-shon gáid end ri-ser-kiu-lêi-tin ból bé-rin sláid)",
+    "letter": "G",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Pioneiramente inventada no Japão pela THK e NSK na década de 1970 para máquinas-ferramenta de altíssima precisão. No bordado eletrônico, foi incorporada pela Tajima, Barudan e ZSK para substituir os pesados eixos retificados com buchas de bronze, possibilitando que o pantógrafo se desloque com atrito de rolamento quase nulo em acelerações superiores a 2 G sem folga mecânica.",
+    "summary": "Sistema mecatrônico de movimentação cartesiana composto por um trilho de aço temperado com pistas retificadas e um bloco móvel (patim/carro) preenchido com centenas de micro-esferas de aço que circulam continuamente em circuito fechado, sustentando o bastidor com rigidez absoluta e desvio inferior a 5 micrômetros.",
+    "definition": "A Guia Linear de Esferas Recirculantes dos Eixos X e Y (universalmente conhecida como LM Guide - Linear Motion Guide, Trilho de Precisão com Patim de Esferas ou Carro Guia do Pantógrafo) é a espinha dorsal mecânica responsável pela sustentação, alinhamento geométrico e deslocamento sem folgas do pantógrafo e do bastidor de bordado. Em máquinas antigas ou de baixo custo, o bastidor deslizava sobre hastes redondas com buchas deslizantes, que acumulavam folga lateral e vibravam a cada frenagem. A guia linear de recirculação de esferas resolveu definitivamente esse problema substituindo o atrito de deslizamento pelo atrito de rolamento puro: o conjunto é formado por um perfil retangular de aço-liga especial com pistas góticas ou circulares retificadas em arco nas quatro faces e um bloco deslizante (patim / carriage) que abriga múltiplos circuitos infinitos de micro-esferas de aço cromo de altíssima dureza. Conforme o pantógrafo é tracionado pelas correias dentadas nos eixos X e Y, as esferas rolam suavemente entre as pistas do trilho e as canaletas internas do bloco; ao atingirem o final do bloco, entram em tubos defletores de polímero que as recirculam continuamente de volta para o início do circuito. Esse sistema suporta cargas simultâneas em todas as direções (radial, radial inversa e momento de torção lateral) mantendo o bastidor rigorosamente paralelo ao plano da chapa de agulha com repetibilidade posicional micrométrica (desvio menor que 0,005 mm), garantindo que matrizes complexas com contornos finos e sobreposições de cores nunca desloquem ou deformem.",
+    "technicalDetails": "Fabricada em aço para rolamentos SAE 52100 (SUJ2) com têmpera por indução e dureza superficial superior a 58 a 62 HRC. As pistas de rolamento possuem arco de contato gótico de 45° que equaliza a capacidade de carga estática e dinâmica nos quatro quadrantes. O bloco do patim opera com classe de pré-carga leve a média (Z0 a ZA) para eliminar qualquer folga radial residual sem aumentar o torque de arraste. A tolerância de paralelismo de movimento ao longo de 1.000 mm de curso é inferior a 0,006 mm (classe de precisão H ou P). Conta com placas frontais de raspagem dupla (End Seals & Side Wipers) em elastômero sintético NBR de alta vedação e graxeiras cônicas M4/M6 integradas para relubrificação periódica com graxa de sabão de lítio consistência NLGI 2.",
+    "construction": [
+      "Trilho Retificado de Perfil Rígido (Rail): Barra de aço temperado com furos escareados para fixação micrométrica na estrutura da máquina",
+      "Bloco Móvel / Patim Deslizante (Carriage Block): Corpo usinado de alta rigidez onde o braço do pantógrafo é parafusado",
+      "Circuitos Fechados de Recirculação: Quatro canais internos que guiam as fileiras infinitas de esferas sem que elas caiam",
+      "Micro-Esferas de Aço Cromo G10 (Steel Balls): Esferas retificadas de tolerância micrométrica que transferem a carga por rolamento",
+      "Retentores e Raspadores Frontais (Dust Wipers): Vedantes de borracha nos dois topos do bloco que limpam o trilho e barram a poeira têxtil",
+      "Bico Graxeiro Micrométrico (Grease Nipple): Ponto de lubrificação de engate rápido para injeção de graxa lubrificante especial"
+    ],
+    "howItWorks": [
+      "1. O servomotor aciona a correia dentada do eixo X ou Y, aplicando tração no braço do pantógrafo.",
+      "2. O bloco do patim da Guia Linear começa a se mover ao longo do trilho de aço temperado.",
+      "3. As centenas de micro-esferas dentro do bloco rolam suavemente entre as canaletas do trilho e do patim.",
+      "4. Quando uma esfera chega na extremidade do bloco, ela é capturada pelo defletor de plástico e viaja pelo túnel de retorno até o outro lado.",
+      "5. O atrito de rolamento é tão incrivelmente baixo (coeficiente µ entre 0,002 e 0,003) que o bastidor parece flutuar sobre o trilho.",
+      "6. Mesmo com o motor dando freadas e arrancadas violentas a 1.000 PPM, a guia impede qualquer torção ou vibração lateral.",
+      "7. A agulha perfura o tecido exatamente no mesmo décimo de milímetro projetado no software de matrizes!"
+    ],
+    "beginnerExplanation": "A Guia Linear com Esferas Recirculantes é o 'trilho de trem de alta precisão' onde o bastidor da sua máquina desliza! Sabe como um carrinho de montanha-russa corre em cima dos trilhos com rodinhas perfeitas para não descarrilar nem tremer? Na sua máquina de bordar é quase igual: embaixo da mesa tem uma barra de aço super lisa e brilhante, e preso no bastidor tem um bloquinho de ferro cheio de bolinhas de aço minúsculas dentro dele. Quando o motor empurra o bastidor, essas bolinhas rolam pelo trilho e dão a volta por dentro do bloquinho sem parar! Graças a essa guia mágica, o bastidor da máquina anda para lá e para cá liso como sabão, sem nenhum jogo ou folga. Se não fosse por ela, quando a máquina bordasse a 1.000 pontos por minuto o bastidor ia chacoalhar tanto que os contornos sairiam todos tortos e fora do lugar!",
+    "applications": [
+      "Sustentação estrutural e deslocamento cartesiano de altíssima precisão dos eixos X e Y do pantógrafo",
+      "Absorção de esforços de torção e tombamento gerados por bastidores pesados carregados de jaquetas ou couro",
+      "Garantia de alinhamento perfeito e esquadro absoluto em bordados contínuos de grandes dimensões e peças fechadas",
+      "Eliminação de vibrações estruturais que causam quebra de agulhas e perda de definição em pontos pequenos",
+      "Manutenção da vida útil mecânica da máquina com precisão posicional inalterada por mais de uma década"
+    ],
+    "mainTypes": [
+      "Guia Linear com Patim de Quatro Fileiras de Esferas (Equal Load Type): Suporta forças iguais de cima, de baixo e dos lados (padrão de mercado)",
+      "Guia Linear com Patim Miniatura (Miniature Series): Versão compacta ultra-leve em aço inoxidável para cabeçotes e pantógrafos pequenos",
+      "Guia Linear com Esferas Enjauladas (Ball Chain Caged): As esferas são separadas por uma fita plástica flexível, eliminando o ruído metálico",
+      "Guia Linear com Patim Longo Flangeado: Oferece área de apoio estendida com furos roscados para fixação direta de perfis pesados de alumínio"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Suporta velocidades lineares de até 3 m/s e acelerações de 30 m/s² (projetada para bordados de 0 a 1.200 PPM)",
+      "needleType": "Universal para todas as agulhas",
+      "stabilizer": "Universal para todas as entretelas"
+    },
+    "advantages": [
+      "✔ Atrito de rolamento quase nulo (µ = 0,002), poupando os motores e garantindo movimentos suaves e silenciosos",
+      "✔ Rigidez mecânica extrema sem folgas: o bastidor não torce nem chacoalha nas paradas bruscas",
+      "✔ Vedação dupla com raspadores frontais que impedem que a penugem de entretela entre nas esferas",
+      "✔ Vida útil extraordinária de dezenas de milhões de metros de curso com relubrificação periódica adequada"
+    ],
+    "limitations": [
+      "Se faltar graxa ou se poeira abrasiva entrar no patim, as esferas travam e riscam o trilho de aço temperado.",
+      "Nunca se deve retirar o patim para fora do trilho sem guia plástica de retenção, sob risco das esferas caírem no chão."
+    ],
+    "commonErrors": [
+      "❌ Lubrificar a guia linear com óleo fino de costura (o óleo escorre rápido e o patim exige graxa sintética de lítio).",
+      "❌ Puxar o bloco do patim para fora do trilho com a mão na desmontagem (as micro-esferas se espalham e perdem-se).",
+      "❌ Deixar uma camada grossa de poeira e fiapos secos acumular nas laterais do trilho sem passar pano limpo.",
+      "❌ Bater no trilho de precisão com martelo ou chave de fenda, criando dentes nas pistas retificadas."
+    ],
+    "troubleshootingTips": [
+      "O bastidor está pesado de mover com a mão (máquina desligada) ou o motor do eixo perde passos a alta velocidade: O patim está ressecado sem graxa ou cheio de penugem acumulada sob os raspadores; injete graxa nova com a pistola pela graxeira até a graxa velha escura sair pelas pontas e limpe o trilho.",
+      "Ruído metálico áspero de 'trituração' ou estalos quando o pantógrafo anda: Uma ou mais esferas do circuito quebraram ou o trilho está marcado por corrosão/impacto; é necessária a substituição do conjunto trilho e patim.",
+      "O bordado está saindo com contornos ligeiramente inclinados ou ovalados: Os parafusos de fixação do trilho na carcaça da máquina afrouxaram; reaperte todos os parafusos Allen do trilho com torquímetro seguindo a ordem do centro para as pontas."
+    ],
+    "dicaArtrelados": "Sabe aquele conselho errado que muita gente dá no ateliê de passar óleo de máquina no trilho prateado do bastidor? Não faça isso! A 'Regra dos Trilhos da Artrelados' é clara: o trilho de aço temperado deve ser limpo apenas com um pano macio e seco (ou levemente umedecido em querosene/álcool isopropílico para tirar a cera antiga). O único lugar que precisa de graxa é DENTRO do patim, através daquele minúsculo biquinho de metal (graxeira)! Uma aplicação semestral de uma graxa especial branca de lítio com uma seringa mantém as esferas rolando como seda, sem grudar poeira de entretela no trilho e garantindo que sua máquina dure décadas!",
+    "voceSabia": "A tecnologia das guias lineares de esferas recirculantes é a mesma utilizada nos aparelhos de tomografia computadorizada dos hospitais e nos braços robóticos das fábricas da NASA! O princípio físico de transformar o atrito de deslizamento em rolamento infinito com micro-esferas reduziu o consumo de energia dos servomotores das máquinas de bordar em mais de 70%!",
+    "practicalExercise": "Inspeção Visual e Teste de Deslizamento da Guia Linear: Com a máquina desligada e sem bastidor, retire a proteção do trilho do pantógrafo. Observe a barra de aço reluzente: verifique se não há riscos, manchas escuras ou fiapos presos nos raspadores de borracha do patim. Com a palma da mão, empurre o pantógrafo suavemente de ponta a ponta: sinta a maciez uniforme do rolamento, sem nenhum tranco, estalo ou ponto duro ao longo de todo o curso. Esse é o padrão de fábrica da Artrelados!",
+    "quickSummary": "Sistema mecatrônico de trilho temperado e patim com esferas em circuito fechado que guia o bastidor nos eixos X e Y com atrito mínimo, rigidez total e desvio menor que 5 micras.",
+    "relatedTerms": [
+      "Pantógrafo / Carro de Movimentação dos Eixos X e Y",
+      "Polia Sincronizadora Dentada do Pantógrafo / Eixos X e Y (Timing Pulley of Pantograph Drive)",
+      "Polia Tensora / Rolo Tensor da Correia do Pantógrafo (Idler Pulley & Belt Tensioner)",
+      "Correia Dentada Sincronizadora do Pantógrafo",
+      "Servomotor de Passo dos Eixos X e Y",
+      "Deslocamento de Matriz (Outline Shift)"
+    ],
+    "tags": [
+      "g-101",
+      "guia-linear",
+      "patim",
+      "esferas-recirculantes",
+      "lm-guide",
+      "pantografo",
+      "eixos-x-y",
+      "precisao-cnc",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "THK CO., LTD. Linear Motion Systems: Technical Design, Preload Standards & Maintenance Manual. Tokyo: THK, 2023.",
+      "NSK LTD. Precision Linear Guides and Ball Slides for Robotics and Automated Textile Machinery. Tokyo, 2022.",
+      "TAJIMA GROUP. Pantograph Linear Guide Rail Alignment and Grease Lubrication Standards. Nagoya: Tajima, 2023.",
+      "ARTRELADOS. O Trilho Mágico do Pantógrafo: Segredos da Guia Linear, Cuidados com as Esferas e Precisão Absoluta. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "g-102-guia-fio-intermediario-barra-agulha-espiral-pigtail",
+    "code": "G-102",
+    "term": "Guia-Fio Intermediário da Barra de Agulha / Espiral de Passagem de Fio (Needle Bar Thread Guide & Pigtail Wire)",
+    "pronunciation": "guí-a fío in-ter-me-di-á-ri-o da bâr-ra de a-gú-lha / es-pi-rál de pas-sá-gem de fío (ní-del bar tréd gáid end píg-têil uái-er)",
+    "letter": "G",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Desenvolvido com o aprimoramento das barras de agulha industriais de ponto fixo no início do século XX pela Singer e Union Special. No bordado computadorizado moderno (Tajima, Barudan, Brother, SWF), evoluiu para geometrias em espiral aberta ('rabo de porco' / pigtail) usinadas em aço inoxidável espelhado ou cerâmica técnica, permitindo a passagem rápida do fio sem enfiamento cego e garantindo descida perfeitamente vertical da linha.",
+    "summary": "Pequeno condutor metálico curvo em forma de espiral helicoidal ou olhal fechado afixado na base inferior da barra de agulha, cuja função é direcionar a linha superior em linha reta e alinhada ao canalete da agulha antes do orifício do olho.",
+    "definition": "O Guia-Fio Intermediário da Barra de Agulha (universalmente denominado Needle Bar Thread Guide, Pigtail Thread Guide, Guia Espiral Inferior ou Rabicho da Barra de Agulha) é o último elemento condutor do percurso superior antes de a linha ser enfiada no olho da agulha na máquina de bordar industrial e semi-industrial. Montado na extremidade inferior da barra de agulha (integrado à bucha do parafuso de fixação da agulha ou preso por presilha independente), sua função cinemática é forçar o fio superior a descer rigorosamente paralelo e concêntrico à haste da agulha. Sem esse guia intermediário, a linha viria diretamente da alavanca pega-fio superior em um ângulo oblíquo aberto; com o movimento de vai-e-vem da barra a 1.000 PPM, essa inclinação faria a linha chicotear e bater contra a cabeça do parafuso da agulha, gerando fricção lateral descontrolada, desfiamento dos filamentos de poliéster, formação de 'nós no ar' e frequente desenfiamento da agulha em saltos de ponto. O design clássico em espiral helicoidal de volta e meia ('Pigtail') permite que a bordadeira passe a linha com um único movimento de laçada lateral ('enroscar com os dedos') sem precisar passar a ponta do fio por dentro de um furo cego, economizando centenas de horas operacionais na preparação e troca de linhas no ateliê.",
+    "technicalDetails": "Confeccionado em arame de aço inoxidável austenítico AISI 304 trefilado e polido por eletropolimento químico (rugosidade superficial Ra < 0,02 µm) para impedir o atrito e abrasão com linhas de poliéster texturizadas ou metálicas. Em máquinas industriais pesadas de alta produção, pode receber revestimento cerâmico de nitreto de titânio (TiN dourado) com dureza superior a 80 HRC. A abertura da espiral possui vão milimétrico calibrado entre 0,8 mm e 1,2 mm, permitindo a entrada fácil do fio dobrado sem permitir que ele escape espontaneamente durante as vibrações das freadas e paradas de corte do cabeçote.",
+    "construction": [
+      "Espiral Helicoidal Curva (Pigtail Loop): Laço de arame polido em volta e meia que retém a linha sem fechamento estanque",
+      "Haste de Fixação / Braçadeira da Barra: Base metálica furada que se acopla ao pino inferior da barra de agulha",
+      "Parafuso de Fixação e Ajuste Angular: Micro-parafuso Allen ou fenda que prende o guia e a agulha simultaneamente",
+      "Abertura Lateral de Engate Rápido: Fenda calibrada que possibilita passar a linha com um simples giro com as mãos",
+      "Superfície Retificada Ultra-Lisa: Acabamento espelhado antiabrasivo que não queima o fio sintético pelo atrito a 1.000 PPM",
+      "Canalete de Alinhamento Axial: Encaixe que garante que a espiral fique centralizada exatamente sobre a frente da agulha"
+    ],
+    "howItWorks": [
+      "1. A linha desce da alavanca pega-fio e atinge o cabeçote inferior da barra de agulha.",
+      "2. A bordadeira engata a linha na espiral do Guia-Fio Intermediário com um simples movimento circular.",
+      "3. O guia força a linha a entrar no canalete frontal da agulha com ângulo de descida rigorosamente reto de 90°.",
+      "4. A barra de agulha sobe e desce em altíssima velocidade (até 20 ciclos por segundo).",
+      "5. A espiral impede que a linha chicoteie para os lados ou encoste no parafuso de aperto da agulha.",
+      "6. A linha entra no olho da agulha estável, fria e sem torções, formando uma laçada inferior perfeita na laçadeira.",
+      "7. O resultado é um ponto fixo limpo, uniforme e sem quebras aleatórias de linha!"
+    ],
+    "beginnerExplanation": "O Guia-Fio da Barra de Agulha (o famoso 'rabicho de porco' ou espiralzinha) é o último porteiro da linha antes dela entrar no buraquinho da agulha! Sabe aquele araminho espiral enroladinho que fica bem pertinho do parafuso que prende a agulha? Muita gente na correria pula esse araminho e enfia a linha direto na agulha. Que perigo! Se você não passar a linha dentro desse rabicho, a linha desce torta, bate na cabeça do parafuso da agulha a mil por hora, esquenta, desfia parecendo um pincel e arrebenta a cada 2 minutos! Passar a linha dentro dele é super fácil: você nem precisa passar a ponta pelo buraco, basta enrolar a linha na voltinha dele como se estivesse dando uma voltinha no dedo. Pronto: a linha desce retinha e sua máquina borda suave sem quebrar!",
+    "applications": [
+      "Alinhamento axial da linha superior diretamente com a ranhura longa frontal da agulha",
+      "Prevenção do atrito nocivo da linha contra o parafuso do prendedor de agulha da barra",
+      "Eliminação do chicoteamento do fio em altas velocidades de rotação (acima de 800 PPM)",
+      "Redução drástica do aquecimento da linha sintética antes da penetração no tecido",
+      "Garantia de laçadas regulares na laçadeira e eliminação de pontos falhados na costura"
+    ],
+    "mainTypes": [
+      "Guia Espiral Pigtail Simples: Arame em volta e meia clássico, o mais popular e de enfiamento mais rápido",
+      "Guia Espiral Duplo (Double Pigtail): Possui duas voltas cruzadas que impedem que linhas metálicas rígidas saltem fora",
+      "Guia com Olhal Fechado e Inserto Cerâmico: Usado na alta indústria para linhas de poliamida abrasiva e bordado contínuo",
+      "Bloco Prende-Agulha com Guia Integrado: Peça única fundida que serve ao mesmo tempo de grampo da agulha e guia-fio"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Suporta vibração contínua e atrito em velocidades de 0 a 1.200 PPM",
+      "needleType": "Universal para todas as agulhas (70/10 a 110/18)",
+      "stabilizer": "Universal para todas as entretelas"
+    },
+    "advantages": [
+      "✔ Passagem de linha instantânea em 1 segundo graças ao design aberto em caracol (pigtail)",
+      "✔ Garante que a linha entre no olho da agulha 100% alinhada sem desvios angulares",
+      "✔ Protege filamentos frágeis de poliéster e viscose contra desfiamento e nós no ar",
+      "✔ Construção em aço inoxidável espelhado de longa vida útil imune à ferrugem"
+    ],
+    "limitations": [
+      "Se a espiral entortar por batida de bastidor, a linha pode escapar durante saltos de ponto rápidos.",
+      "Linhas de má qualidade com rebarbas de cola podem abrir ranhuras microscópicas na curva do arame com os anos."
+    ],
+    "commonErrors": [
+      "❌ Pular o guia-fio por preguiça e enfiar a linha direto da alavanca pega-fio para o olho da agulha.",
+      "❌ Passar a linha no guia no sentido inverso, fazendo o fio escapar na primeira parada de corte.",
+      "❌ Bater com o bastidor alto no rabicho da agulha, amassando o arame de encontro à barra.",
+      "❌ Usar alicate comum para entortar a espiral, riscando a superfície de contato da linha."
+    ],
+    "troubleshootingTips": [
+      "A linha superior desfiando e partindo logo acima do olho da agulha: A linha não foi passada dentro da espiral do guia da barra ou o guia está com uma ranhura cortante de desgaste; passe a linha pelo guia ou substitua a espiral.",
+      "A linha escapa sozinha de dentro do rabicho toda vez que a máquina corta o fio: A espiral de arame abriu a fenda com o tempo por alguma batida; com uma pinça fina, feche delicadamente a folga do laço deixando cerca de 1 mm de abertura.",
+      "Pontos pulados frequentes na mesma agulha da máquina multiagulhas: O guia da barra de agulha está torto para o lado, puxando a linha fora do canalete da agulha e deformando o laço da laçadeira; alinhe o guia no centro exato da agulha."
+    ],
+    "dicaArtrelados": "Sabe aquele bordado em que uma agulha específica da máquina multiagulhas insiste em quebrar a linha ou falhar ponto, enquanto todas as outras bordam perfeitamente? Faça o 'Check-in do Rabicho da Artrelados': olhe a agulha de frente. A espiral do guia-fio deve estar rigorosamente centralizada com o furo da agulha! Se ela estiver torta para a esquerda ou para a direita, a linha entra na agulha 'raspando na quina' do buraco. Solte o parafusinho da barra de agulha meio milímetro, aponte o rabicho retinho para a sua frente e aperte de novo. O problema some instantaneamente e a agulha volta a bordar sem uma única falha!",
+    "voceSabia": "O formato em espiral dessa peça é conhecido carinhosamente na indústria têxtil mundial de língua inglesa como 'Pigtail' (rabinho de porco) há mais de 100 anos! A ideia de criar uma espiral com abertura lateral surgiu para acabar com a fadiga das costureiras das fábricas do século XIX, que perdiam minutos preciosos tentando enfiar pontas de linha através de buraquinhos minúsculos em barras escuras de ferro!",
+    "practicalExercise": "Treino da Passagem Rápida no Pigtail com uma Mão Só: Com a máquina desligada e a linha vindo do tensor, segure a linha esticada com a mão direita e, com o indicador esquerdo, faça um rápido movimento circular de meia-volta ao redor da espiral do guia da agulha. Ouça o leve estalinho do fio assentando dentro da curva. Veja como a linha desce imediatamente em um prumo perfeito na direção do olho da agulha. Pratique até fazer esse movimento em menos de 1 segundo!",
+    "quickSummary": "Espiral de arame polido na base da barra de agulha que alinha a linha superior verticalmente com o canalete da agulha, evitando chicoteamento, atrito e nós no ar.",
+    "relatedTerms": [
+      "Barra de Agulha e Bucha Guia",
+      "Alavanca Pega-Fio / Pescador de Linha Superior com Sensor de Ruptura (Thread Take-Up Lever & Breakage Sensor)",
+      "Mola de Tensão de Retorno / Mola Pega-Fio do Tensor (Check Spring / Take-Up Spring)",
+      "Agulha de Bordado Eletrônico",
+      "Canaleta da Agulha (Needle Groove)",
+      "Ponto Falhado (Skipped Stitch)"
+    ],
+    "tags": [
+      "g-102",
+      "guia-fio",
+      "barra-de-agulha",
+      "espiral-pigtail",
+      "rabicho-agulha",
+      "alinhamento-de-linha",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Needle Bar Components, Thread Guide Alignment and Maintenance Standards. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Needle Drive Mechanism and Lower Thread Guide Servicing Manual. Ichinomiya, 2022.",
+      "BROTHER SEWING. Multi-Needle Needle Bar Thread Guide Replacement and Pigtail Calibration. Nagoya, 2022.",
+      "ARTRELADOS. O Último Porteiro da Linha: Segredos do Guia Pigtail, Alinhamento de Agulha e Ponto Perfeito. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
   }
 ];
+
+

@@ -726,7 +726,213 @@ export const VERBETES_LETTER_A3: Verbete[] = [
       "ARTRELADOS. O Toque Aveludado do Bordado: Tudo sobre Agulhas de Gancho, Ponto Chenille e Cuidados Técnicos. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "a-103-alavanca-pega-fio-pescador-linha-superior-sensor-ruptura",
+    "code": "A-103",
+    "term": "Alavanca Pega-Fio / Pescador de Linha Superior com Sensor de Ruptura (Thread Take-Up Lever & Breakage Sensor)",
+    "pronunciation": "a-la-vân-ca pé-ga fío / pes-ca-dor de lín-nha su-pe-ri-or com sen-sor de rup-tu-ra (tréd têik-ap lé-ver end brei-kêidj sén-sor)",
+    "letter": "A",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Concebida no século XIX com as primeiras patentes de ponto fixo (Lockstitch) de Elias Howe e Isaac Singer, tornando-se o coração cinemático da costura. No bordado computadorizado moderno (Tajima, Barudan, Brother, Janome), a alavanca foi dotada de balanceamento dinâmico em liga leve de titânio ou alumínio aeronáutico e integrada a sensores de movimento rotativo ou óptico para detecção de quebra em frações de segundo.",
+    "summary": "Braço articulado oscilante acoplado ao eixo principal do cabeçote que sobe e desce em harmonia com a barra de agulha para ceder linha durante a laçada inferior e tracioná-la para cima no topo do curso para fechar o nó do ponto com aperto calibrado.",
+    "definition": "A Alavanca Pega-Fio (conhecida universalmente como Thread Take-Up Lever, Estica-Fio, Pescador de Linha Superior ou Balancim de Tensão) é o componente cinemático de ação rápida mais dinâmico do cabeçote da máquina de bordar eletrônica. Posicionada na face frontal do cabeçote entre os discos tensores e a barra de agulha, sua missão mecânica é controlar o fluxo e a folga da linha superior ao longo dos 360 graus de cada rotação do eixo principal: (1) Fase de Alimentação / Cedência: quando a agulha desce e a laçadeira rotativa engata o laço de linha embaixo da chapa, a alavanca desce vertiginosamente, liberando uma folga generosa de fio para que a laçada envolva livremente a caixa de bobina sem arrebentar; (2) Fase de Tração e Amarração: assim que a laçada contorna a carretilha, a alavanca é impulsionada para o seu ápice superior com aceleração máxima, puxando a linha para cima com força suficiente para retirar o excesso de folga da laçadeira e tracionar o nó do ponto exatamente para o centro geométrico do tecido (o cruzamento ideal do ponto fixo); e (3) Fase de Extração do Retentor: retira a quantidade exata de novo fio do carretel através dos tensores para o ponto seguinte. Nas máquinas computadorizadas modernas, o conjunto opera conjugado a um Sensor de Ruptura de Linha (por disco codificador óptico ou roda de pulsos magnéticos) que monitora o ritmo de tração; se a alavanca oscilar sem puxar fio por mais de 3 ou 4 rotações (indicando que a linha superior quebrou ou desenfiou da agulha), o sensor envia um sinal de parada emergencial à CPU, que breca o motor principal imediatamente e preserva o alinhamento da matriz.",
+    "technicalDetails": "Usinada em liga forjada de alumínio aeronáutico 7075-T6 ou aço-níquel temperado com furo de passagem de fio revestido em nitreto de titânio (TiN) ou cerâmica de zircônia espelhada com dureza de até 80 HRC e rugosidade Ra < 0,05 µm, impedindo que linhas abrasivas de poliéster ou metálicas abram ranhuras de serra (grooving) no metal. Seu curso oscilatório vertical varia de 28 mm a 38 mm com ciclo harmônico sincronizado em defasagem angular de 60° a 80° em relação à barra de agulha. Em velocidades industriais de 1.000 a 1.200 PPM, a alavanca atinge acelerações instantâneas superiores a 40 G no ponto de reversão superior.",
+    "construction": [
+      "Olhal Retificado de Passagem de Fio: Canaleta com guia cerâmica ou banho de nitreto de titânio ultra-liso que não atrita com a linha",
+      "Corpo Aliviado de Baixa Inércia: Haste de alumínio ou aço temperado com furos estruturais de alívio de peso para alta rotação",
+      "Pino de Articulação e Rolamento de Agulhas: Eixo de giro retificado com micro-rolamentos autolubrificantes de longa durabilidade",
+      "Biela de Acoplamento ao Came Principal: Braço cinemático excêntrico que transmite o movimento giratório do eixo em vai-e-vem vertical",
+      "Roda Codificadora / Encoder do Sensor de Ruptura: Roldana montada antes da alavanca com fendas ópticas que lê a passagem contínua do fio",
+      "Guia-Fio Protetor Antidesarme: Lamela de arame flexível que impede a linha de escapar de dentro do olhal da alavanca durante trancos"
+    ],
+    "howItWorks": [
+      "1. A linha sai do cone, passa pelos tensores e entra no olhal da Alavanca Pega-Fio antes de descer para a agulha.",
+      "2. A agulha desce furando o tecido; a alavanca desce junto, fornecendo fio frouxo para a laçadeira engatar a laçada embaixo.",
+      "3. A laçadeira gira e passa a linha por trás da carretilha da bobina.",
+      "4. No momento exato em que a laçada se completa, a alavanca sobe como um raio em direção ao topo do cabeçote.",
+      "5. Essa subida rápida puxa a linha para cima com precisão, apertando o ponto no meio do tecido e puxando mais linha nova do carretel.",
+      "6. A roldana do sensor de quebra gira a cada puxada da alavanca, confirmando para a CPU que a linha está intacta.",
+      "7. Se a linha arrebentar, a roldana para de girar; a máquina breca no mesmo instante, soa um bipe e avisa: 'Linha Superior Quebrada'!"
+    ],
+    "beginnerExplanation": "A Alavanca Pega-Fio (o famoso 'estica-fio') é o 'coração que bate' na frente da sua máquina de bordar! Já reparou como aquele ganchinho de metal fica subindo e descendo sem parar, super rápido, enquanto a máquina borda? Ele é quem comanda toda a dança da linha: quando a agulha desce, ele desce junto para dar linha frouxa para a laçadeira embaixo fazer o ponto; e quando a agulha sobe, ele sobe com tudo puxando a linha para cima para fechar o nó bem apertadinho e bonito! Se você esquecer de passar a linha dentro dele, a máquina não consegue dar nem um ponto sequer e a linha embola inteira embaixo como um novelo! E nas máquinas modernas, ele ainda tem um sensor espertíssimo que percebe se a linha arrebentou e para a máquina na hora para você não perder o bordado!",
+    "applications": [
+      "Regulagem dinâmica da folga e tensão de amarração de cada ponto do bordado computadorizado",
+      "Recolhimento cirúrgico da laçada inferior gerada pela laçadeira rotativa em alta velocidade",
+      "Extração e avanço suave da linha superior através dos discos de tensão e pré-tensores",
+      "Detecção instantânea de quebra, nós e desenfiamento de linha em conjunto com o sensor de movimento",
+      "Garantia de que o nó do ponto fique exatamente escondido no meio do tecido sem aparecer na frente nem atrás"
+    ],
+    "mainTypes": [
+      "Alavanca Pega-Fio Cam-Driven (Came Curvo): Padrão em máquinas industriais (Tajima, Barudan), com sincronismo preciso por canaleta de came",
+      "Alavanca Articulada de Quatro Barras (Link Type): Sistema comum em máquinas domésticas e compactas (Brother, Janome, Bernina)",
+      "Pega-Fio Individual por Agulha: Em máquinas multiagulhas, cada barra de agulha possui sua própria alavanca independente",
+      "Alavanca Pega-Fio com Olhal Aberto / Fenda Rápida: Permite passar a linha com um simples deslizar lateral sem precisar enfiar pelo buraco"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Sincronizado milimetricamente de 0 a 1.200 PPM acompanhando o eixo principal",
+      "needleType": "Universal para todas as agulhas de bordado",
+      "stabilizer": "Universal para todas as entretelas"
+    },
+    "advantages": [
+      "✔ Amarração de ponto firme e perfeita que impede bordados soltos, frouxos ou desfiados",
+      "✔ Olhal cerâmico/revestido que resiste a anos de atrito de linhas ásperas sem abrir ranhuras",
+      "✔ Resposta mecânica ultrarrápida que evita a formação de laçadas mortas na laçadeira",
+      "✔ Proteção total contra perda de alinhamento com parada imediata quando a linha quebra"
+    ],
+    "limitations": [
+      "Se a linha for passada fora da alavanca, a máquina embola um ninho de linha gigante embaixo da chapa no primeiro ponto.",
+      "Fios metálicos muito torcidos podem pular para fora do olhal da alavanca se o passa-fio superior estiver desregulado."
+    ],
+    "commonErrors": [
+      "❌ Esquecer de engatar a linha dentro do olhal da alavanca pega-fio durante a passagem de linha.",
+      "❌ Passar a linha com a alavanca no ponto morto inferior em vez de deixá-la no ponto mais alto.",
+      "❌ Bater o bastidor ou ferramentas na alavanca pega-fio durante o trabalho, empenando o braço metálico.",
+      "❌ Deixar linha de poliéster de baixa qualidade cortar uma ranhura cortante de serra no orifício da alavanca."
+    ],
+    "troubleshootingTips": [
+      "A máquina começou a dar um ninho gigante de linha embaixo da chapa logo no primeiro ponto e travou: A linha escapou ou não foi passada dentro da alavanca pega-fio; refaça toda a passagem de linha garantindo que o fio entre no olhal da alavanca.",
+      "A linha superior arrebenta toda hora no mesmo lugar e o fio sai desfiado como um pincel: O orifício da alavanca pega-fio está com uma microrranhura afiada provocada por anos de atrito de linha de poliéster; faça o teste do fio dental ou substitua a alavanca pega-fio.",
+      "A máquina para a cada poucos segundos acusando falsamente 'Linha Quebrada' mas a linha está inteira: O sensor de rotação da linha (roldana) está com poeira ou a linha não está abraçando a roldana com tração suficiente; limpe o canal do sensor e ajuste a passagem."
+    ],
+    "dicaArtrelados": "Sabe aquele mistério em que a máquina começa a arrebentar a linha a cada 3 minutos e ninguém descobre por quê? Faça o 'Teste do Fio Dental da Artrelados': pegue um pedaço de fio dental comum de dente, passe dentro do buraquinho da alavanca pega-fio e puxe para lá e para cá em vários ângulos. Se o fio dental desfiar ou agarrar em algum pontinho, pronto: você achou o culpado! Com o tempo, as linhas de poliéster e metálicas cavam uma 'serrinha' invisível no metal da alavanca que corta a linha de bordar como gilete. Se encontrar a serrinha, passe uma lixa d'água 2000 dobradinha ou troque a alavanca: a máquina volta a bordar macia como veludo!",
+    "voceSabia": "A alavanca pega-fio é a peça que mais se move e mais sofre aceleração em toda a máquina de bordar! Em uma máquina industrial rodando a 1.200 pontos por minuto, essa pequena haste sobe e desce 20 vezes a cada segundo, atingindo uma força de aceleração que equivale a 40 vezes a força da gravidade (40 G) — quatro vezes mais do que um piloto de caça supersônico suporta em uma curva!",
+    "practicalExercise": "Sentindo o Ritmo da Alavanca Pega-Fio com o Volante: Com a máquina desligada e a linha passada, gire o volante lentamente com a mão na sua direção. Observe a alavanca pega-fio: veja como ela afunda no momento exato em que a agulha perfura o tecido, e como ela sobe com tudo puxando o nó assim que a agulha sai do pano. Essa sincronia perfeita é o milagre mecânico da costura de ponto fixo!",
+    "quickSummary": "Haste oscilante do cabeçote que cede linha na laçada inferior e puxa o fio para cima com precisão no topo do curso para fechar o nó do ponto e acionar o sensor de quebra.",
+    "relatedTerms": [
+      "Barra de Agulha e Bucha Guia",
+      "Tensor Superior e Discos de Tensão",
+      "Laçadeira Rotativa",
+      "Sensor de Quebra de Linha",
+      "Caixa de Bobina / Cápsula da Bobina",
+      "Ponto Fixo (Lockstitch)"
+    ],
+    "tags": [
+      "a-103",
+      "alavanca-pega-fio",
+      "estica-fio",
+      "pescador-de-linha",
+      "take-up-lever",
+      "sensor-de-quebra",
+      "mecanica",
+      "manutencao",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Thread Take-Up Mechanism, Cam Timing & Breakage Sensor Calibration Manual. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Take-Up Lever Dynamic Balancing and High-Speed Stitch Formation. Ichinomiya, 2022.",
+      "BROTHER INDUSTRIES, LTD. Advanced Thread Monitoring and Take-Up Lever Servicing Standards. Nagoya, 2022.",
+      "ARTRELADOS. O Coração que Bate na Máquina: Sincronismo, Desgaste e Segredos da Alavanca Pega-Fio no Bordado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "a-104-alavanca-pegadora-fio-superior-limpador-linha-wiper",
+    "code": "A-104",
+    "term": "Alavanca Pegadora de Fio Superior / Limpador de Linha Pós-Corte (Thread Wiper Mechanism)",
+    "pronunciation": "a-la-vân-ca pe-ga-dó-ra de fío su-pe-ri-or / lim-pa-dor de lín-nha pós-cór-te (tréd uái-per me-ca-ní-zem)",
+    "letter": "A",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Criada nos anos 1980 pela mecatrônica japonesa industrial (Tajima, Barudan e Juki) em conjunto com o cortador automático de fio. Foi projetada para resolver um defeito visual crítico na alta-costura: o pedaço de linha que ficava pendurado no olho da agulha após o corte inferior e acabava sendo costurado e pisoteado por cima do bordado no ponto seguinte.",
+    "summary": "Mecanismo eletromecânico acionado por solenoide composto por um gancho varredor articulado ao lado da barra de agulha que oscila rapidamente após o corte de linha, puxando a cauda superior para cima do calcador e prendendo-a para um recomeço limpo.",
+    "definition": "A Alavanca Pegadora de Fio Superior e Limpador de Linha (consagrada internacionalmente como Thread Wiper, Alavanca Varredora de Fio ou Pente Mecânico Limpador) é o dispositivo mecatrônico de acabamento posicionado na face inferior do cabeçote de bordado, imediatamente adjacente à barra de agulha e ao pé calcador. Sua função é eliminar o 'fio fantasma' ou cauda residual superior que permanece projetada para baixo no orifício da agulha após a guilhotina inferior (trimmer) cortar as linhas embaixo da chapa. Se essa pontinha de linha (geralmente com 15 mm a 25 mm) permanecer caída livremente sobre o tecido, na descida da primeira pontada do próximo elemento a agulha perfura o tecido e o próprio ponto passa por cima dessa ponta solta, aprisionando-a sobre o bordado e criando uma rebarba antiestética ('ponta de fio presa') que exigiria recorte manual arriscado com tesoura. O mecanismo do Thread Wiper atua no milissegundo imediatamente subsequente ao disparo do cortador de linha: a máquina para com a agulha no ponto morto superior e um solenoide eletromagnético específico ou biela motriz dispara uma palheta em formato de foice ou gancho curvo de arame de aço mola. Essa palheta avança horizontalmente por baixo da ponta da agulha, pesca a ponta solta da linha superior e a varre velozmente para trás e para cima, acomodando-a por cima da sapata do calcador ou prendendo-a contra uma almofada de velcro/mola retentora no cabeçote. Dessa forma, a zona de agulhamento sobre o bastidor fica 100% livre e limpa, garantindo que o início do novo bloco de bordado comece sem nenhuma ponta de linha aparente na face do tecido.",
+    "technicalDetails": "Usinada em arame trefilado de aço-mola inoxidável AISI 302 ou lâmina de titânio de 0,8 mm a 1,2 mm de diâmetro com ponta em gancho polida mecanicamente (sem cantos vivos para não desfiar filamentos sintéticos). O acionamento é executado por um solenoide linear de 24V DC dedicado com curso angular de 60° a 90° e mola helicoidal de retorno em aço temperado, operando com tempo de varredura completa de 40 a 70 milissegundos. A folga vertical de passagem do gancho abaixo da ponta da agulha (com a agulha na posição de parada superior) é rigorosamente calibrada entre 1,5 mm e 2,5 mm, e 2,0 mm a 3,0 mm acima da base do pé calcador erguido, prevenindo qualquer choque mecânico contra peças em movimento.",
+    "construction": [
+      "Haste de Varredura em Gancho (Wiper Hook Arm): Vareta curva de aço flexível polido que intercepta a cauda da linha superior",
+      "Solenoide Eletromagnético do Wiper: Atuador de 24V DC que fornece o impulso de avanço angular ultra-rápido da haste",
+      "Mola Helicoidal de Retorno da Alavanca: Mola de torção ou tração que recolhe a haste para a posição de repouso recuada",
+      "Bloco de Fixação e Bucha Guia Excêntrica: Suporte com parafuso oblongo no cabeçote que permite calibrar a altura e o curso do gancho",
+      "Presilha Retentora de Linha / Almofada Suporte (Thread Catch Spring): Lamela ou esponja que segura suavemente a ponta da linha varrida",
+      "Fiação com Conector Molex Rápido: Chicote elétrico conectado à placa controladora de atuadores secundários da máquina"
+    ],
+    "howItWorks": [
+      "1. A máquina conclui um objeto do bordado e o cortador de linha inferior (trimmer) secciona as linhas sob a chapa.",
+      "2. O motor principal para com a barra de agulha rigorosamente no seu ponto mais alto (ponto morto superior a 100° de sincronismo).",
+      "3. Uma sobra de linha superior de cerca de 2 cm fica pendurada no olho da agulha voltada para baixo.",
+      "4. A placa-mãe envia um pulso elétrico de 24V para o solenoide da Alavanca Limpadora (Thread Wiper).",
+      "5. O gancho de aço dispara em arco, passando rente sob a ponta da agulha.",
+      "6. A ponta em foice do gancho fisga a pontinha da linha e a puxa violentamente para cima e para trás, jogando-a por cima do pé calcador.",
+      "7. A mola de retorno recolhe o gancho para trás da carcaça; a área fica livre e a máquina recomeça o próximo ponto com acabamento cirúrgico!"
+    ],
+    "beginnerExplanation": "A Alavanca Pegadora de Fio (ou Thread Wiper) é a 'vassourinha mágica' da máquina de bordar! Quando a máquina termina de bordar uma florzinha e vai pular para outra, a tesoura embaixo corta a linha, certo? Mas fica uma pontinha de linha pendurada na agulha, como se fosse um cabelinho caído. Se ninguém tirar aquele cabelinho dali, quando a agulha descer na próxima florzinha ela vai costurar por cima daquele cabelinho e vai ficar aquela ponta feia presa no meio do bordado que depois você tem que cortar na tesoura com medo de furar o tecido! A Alavanca Limpadora resolve isso: é um ganchinho metálico que passa voando na frente da agulha logo depois do corte, dá uma 'vassourada' na linha para cima do pezinho e esconde o fio! É por isso que nas máquinas profissionais o bordado começa tão limpinho e perfeito!",
+    "applications": [
+      "Varredura e remoção automática da cauda de linha superior após ciclos de corte (trimming) e saltos",
+      "Prevenção do aprisionamento de pontas de linha sob os pontos cheios e contornos no reinício da costura",
+      "Eliminação do acabamento manual com pinça e tesoura de arremate na face externa das peças bordadas",
+      "Manutenção da área do bastidor totalmente desimpedida para movimentos velozes do pantógrafo",
+      "Garantia de acabamento padrão de exportação em camisas polo, bonés e uniformes corporativos"
+    ],
+    "mainTypes": [
+      "Thread Wiper Superior Individual por Agulha: Em máquinas industriais multiagulhas, montado na frente do bloco de troca de cor",
+      "Thread Wiper Único com Barra Coletora Articulada: Atende todas as agulhas do cabeçote através de uma lâmina transversal",
+      "Limpador de Fio Pneumático por Sopro de Ar: Utiliza um jato de ar comprimido micro-dosado no lugar da haste metálica mecânica",
+      "Limpador de Fio Embutido Eletrônico (Compact Type): Modelos compactos onde a varredura é feita por um minúsculo braço sob o cabeçote"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Atuação imediata na parada de corte (duração do pulso de 50 a 80 ms antes do reinício de 0 a 1.200 PPM)",
+      "needleType": "Universal para agulhas sistema DBxK5, 130/705H e DPx5",
+      "stabilizer": "Universal para todas as entretelas"
+    },
+    "advantages": [
+      "✔ Elimina 100% das rebarbas e pontas de fio presas sob o início dos blocos de bordado",
+      "✔ Reduz a zero a necessidade de recortar pontinhas de linha à mão com tesoura após o bordado pronto",
+      "✔ Movimento ultrarrápido em menos de um décimo de segundo que não diminui a produtividade da máquina",
+      "✔ Gancho em aço inoxidável flexível que não entorta com facilidade e preserva o alinhamento"
+    ],
+    "limitations": [
+      "Se a haste entortar por batida de bastidor, pode colidir com a agulha e quebrá-la na descida seguinte.",
+      "Em máquinas com linhas metálicas muito rígidas, a haste pode precisar de ajuste de curvatura para não soltar o fio."
+    ],
+    "commonErrors": [
+      "❌ Bater o bastidor alto de boné na haste do Wiper ao retirar a peça sem aguardar o retorno completo.",
+      "❌ Entortar a ponta do gancho com alicate sem conferir a folga milimétrica de passagem sob a ponta da agulha.",
+      "❌ Deixar linha embaraçada enrolada no eixo do solenoide do Wiper, travando o retorno da mola mecânica.",
+      "❌ Desativar a função Wiper no painel da máquina sem necessidade, tendo que limpar pontas de linha manualmente depois."
+    ],
+    "troubleshootingTips": [
+      "A agulha quebrou bem no primeiro ponto após o corte e a ponta do Wiper está riscada: A haste do Thread Wiper entortou e ficou parada no caminho da agulha; desligue a máquina, desentorte suavemente a vareta com uma pinça fina deixando 2 mm de folga livre abaixo da agulha erguida.",
+      "A pontinha da linha continua ficando presa debaixo do bordado após o corte: O Wiper está avançando alto demais ou baixo demais e errando a fisgada da linha; solte o parafuso do bloco de fixação e calibre a altura do gancho para passar exatamente na frente do olho da agulha.",
+      "A alavanca avança mas não volta sozinha (fica travada na frente): A mola helicoidal de retorno quebrou ou soltou do pino de ancoragem; recoloque a mola de torção ou substitua o conjunto do solenoide."
+    ],
+    "dicaArtrelados": "Percebeu que no começo de cada letra do seu bordado está ficando aquela pontinha de linha amarrada por baixo do ponto que você tem que ficar puxando com pinça para cortar? Verifique o 'Passo de Dança do Wiper' da Artrelados: coloque a máquina para fazer um corte de teste e olhe bem de perto para a agulha. Se o ganchinho do Wiper passar direto sem puxar a linha para cima, a ponta do gancho está apenas 1 milímetro aberta demais! Dê uma micro-pressão com uma pinça curvando a pontinha dele levemente para dentro (como o bico de um passarinho): na próxima parada ele vai pescar a linha na mosca, jogá-la para cima do calcador e seus bordados vão sair com acabamento limpo de alta-costura!",
+    "voceSabia": "Nas primeiras máquinas de bordar industriais da década de 1970, o limpador de fio não existia. As empresas de confecção empregavam equipes inteiras de jovens chamadas de 'limpadoras de rebarba', cujo único trabalho durante oito horas por dia era caçar com pequenas tesourinhas de ourives cada pontinha de linha que o início do ponto engolia! A invenção do Thread Wiper japonês nos anos 1980 eliminou essa tarefa penosa e padronizou a estética perfeita do bordado moderno!",
+    "practicalExercise": "Inspeção Visual do Ponto Morto Superior do Wiper: Com a máquina desligada da tomada, localize a varetinha de arame brilhante posicionada logo atrás ou ao lado da barra da agulha número 1. Com a ponta do dedo, empurre a vareta suavemente para a frente: veja como ela descreve uma curva perfeita que passa exatamente sob a agulha e como a mola puxa ela de volta no mesmo instante em que você solta o dedo. Essa mecânica leve e flexível é o segredo de um ateliê sem rebarbas!",
+    "quickSummary": "Dispositivo mecatrônico de haste em foice acionado por solenoide que varre a cauda superior de linha para cima do calcador após o corte, evitando pontas presas no início dos pontos.",
+    "relatedTerms": [
+      "Cortador de Fio Superior e Inferior / Guilhotina Mecânica de Linha (Thread Trimmer Knife Mechanism)",
+      "Solenoide Eletromagnético de Atuação e Disparo (Electromagnetic Actuator Solenoid / Plunger Solenoid)",
+      "Barra de Agulha e Bucha Guia",
+      "Calcador de Bordado",
+      "Alavanca Pega-Fio / Pescador de Linha Superior com Sensor de Ruptura (Thread Take-Up Lever & Breakage Sensor)",
+      "Salto de Ponto (Jump Stitch)"
+    ],
+    "tags": [
+      "a-104",
+      "alavanca-pegadora-de-fio",
+      "limpador-de-linha",
+      "thread-wiper",
+      "acabamento",
+      "solenoide",
+      "sem-rebarbas",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Thread Wiper Mechanism Calibration, Solenoid Timing and Clearance Standards. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Automatic Thread Wiper Adjustment and Anti-Entanglement Service Manual. Ichinomiya, 2022.",
+      "JUKI CORPORATION. Industrial Sewing & Embroidery Automated Thread Wiper Engineering Standards. Tokyo, 2022.",
+      "ARTRELADOS. O Toque Invisível do Acabamento: Segredos do Thread Wiper, Eliminação de Rebarbas e Alta-Costura. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
   }
 ];
+
+
 
 

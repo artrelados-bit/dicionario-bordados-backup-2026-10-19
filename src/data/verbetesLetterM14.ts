@@ -2063,7 +2063,110 @@ export const VERBETES_LETTER_M_PART14: Verbete[] = [
       "ARTRELADOS. O Segredo do Calcador Perfeito: Ajuste de Altura, Amortecimento e Eliminação do Efeito Flagging. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "m-104-mola-tensao-retorno-pega-fio-tensor-check-spring",
+    "code": "M-104",
+    "term": "Mola de Tensão de Retorno / Mola Pega-Fio do Tensor (Check Spring / Take-Up Spring)",
+    "pronunciation": "mó-la de ten-são de re-tór-no / mó-la pé-ga fío do ten-sór (tchék sprin / têik-ap sprin)",
+    "letter": "M",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Criada nos primórdios da evolução das máquinas de costura industriais de ponto fixo no final do século XIX para estabilizar o fio superior sob velocidades crescentes. No bordado computadorizado moderno (Tajima, Barudan, Brother, Janome), tornou-se o elemento de ajuste fino mais sensível do bloco tensor para permitir o uso seguro de fios difíceis (fios metalizados, poliamida ultra-fina e poliéster de alta torção).",
+    "summary": "Mola espiral de torção em arame de aço temperado montada no bloco do tensor principal, com uma haste externa curva que oscila verticalmente a cada ponto, mantendo uma suave tensão elástica contínua sobre a linha superior até a agulha penetrar no tecido.",
+    "definition": "A Mola de Tensão de Retorno e Estabilização do Tensor (universalmente conhecida como Check Spring, Thread Take-Up Spring, Mola Pega-Fio Auxiliar ou Mola Amortecedora de Tensão) é o microcomponente mecânico de alta precisão instalado coaxialmente no conjunto de discos do tensor superior da máquina de bordar eletrônica. Sua função cinemática essencial ocorre entre a descida da alavanca pega-fio e a penetração da agulha no tecido: quando a alavanca pega-fio principal desce com extrema velocidade para ceder linha à laçadeira inferior, a linha superior tenderia a ficar flácida e desgovernada no ar entre os tensores e o olho da agulha; a haste da Check Spring atua justamente nesse instante, flexionando-se para cima e recolhendo instantaneamente qualquer excesso de folga residual de linha até que a ponta da agulha entre firmemente no tecido. Assim que a agulha perfura o material e a alavanca puxa o nó, a linha vence a resistência da mola, puxando-a para baixo até encostar no seu batente mecânico ajustável. Essa ação elástica constante (com curso vertical de 5 mm a 8 mm e força de 5 a 15 gf) impede que o fio superior forme laços mortos (loops), evita que a linha pule para fora dos discos tensores em paradas bruscas e protege fios frágeis (como linhas metalizadas douradas ou prateadas) contra estiramentos e rompimentos causados pelos trancos secos da alavanca pega-fio a 1.000 PPM.",
+    "technicalDetails": "Confeccionada em arame trefilado de aço-carbono para molas temperado ASTM A228 (Music Wire) ou aço inoxidável AISI 302 com diâmetro de fio de 0,4 mm a 0,6 mm. Possui corpo com 3 a 5 espiras helicoidais internas que se alojam dentro do tambor ranhurado do eixo tensor e um braço saliente externo com terminação em gancho arredondado polido espelhado (Ra < 0,1 µm) para contato sem atrito. A tensão da mola é regulável girando o eixo tensor com chave de fenda (faixa de trabalho ideal de 8 a 12 gramas-força medida com tensiômetro de precisão), e a amplitude do curso de oscilação é calibrada pela posição angular do colar limitador excêntrico (Stop Plate) entre 5 mm e 8 mm de curso livre.",
+    "construction": [
+      "Braço Oscilante com Gancho de Apoio: Haste elástica curva por onde a linha superior passa apoiada ao sair dos discos de tensão",
+      "Corpo Espiral Helicoidal de Torção: 3 a 5 voltas de arame de aço de altíssima resiliência que armazenam a energia elástica",
+      "Ponta de Ancoragem Interna: Extremidade reta que se encaixa no rasgo do pino ranhurado do eixo tensor",
+      "Eixo Ranhurado e Parafuso de Bloqueio: Pino central que permite girar e calibrar a pré-carga de torção da mola",
+      "Batente Limitador de Curso (Stop Plate): Chapa metálica excêntrica ajustável que define exatamente onde a mola para de descer",
+      "Manga Protetora de Teflon / Arruela Guia: Espaçador antiatrito que mantém a mola alinhada sem raspar nos discos tensores"
+    ],
+    "howItWorks": [
+      "1. A linha superior sai dos discos do tensor e passa por cima do gancho da Mola de Retorno (Check Spring).",
+      "2. A alavanca pega-fio desce para fornecer linha à laçadeira inferior embaixo da chapa.",
+      "3. Conforme a linha afrouxa, a mola sobe suavemente, mantendo o fio levemente esticado e guiado em linha reta.",
+      "4. A ponta da agulha perfura o tecido com a linha perfeitamente controlada, sem nenhuma folga solta.",
+      "5. No instante em que a agulha penetra o tecido, a linha puxa a Check Spring para baixo até ela encostar no batente.",
+      "6. A alavanca pega-fio sobe como um raio para fechar o nó; a mola permanece firme no batente sem atrapalhar a puxada.",
+      "7. Esse ciclo se repete perfeitamente a cada rotação, evitando laçadas frouxas e rompimentos de fios sensíveis!"
+    ],
+    "beginnerExplanation": "A Mola de Tensão de Retorno (ou Check Spring) é o 'amortecedor elástico da linha' da sua máquina de bordar! Já percebeu uma molinha fininha com um bracinho de arame que fica pulando para cima e para baixo bem ali onde você passa a linha nos discos de tensão? Ela faz um trabalho de ouro: quando a máquina está bordando a toda velocidade, a linha quer ficar chicoteando e dançando no ar; essa molinha inteligente segura a linha com carinho e recolhe a folga bem na hora em que a agulha vai furar o pano. Se essa molinha quebrar ou perder a força, a linha fica frouxa, faz laçadas feias parecendo 'argolinhas' em cima do bordado, ou pior: arrebenta toda hora com trancos secos, principalmente se for linha dourada metálica! Cuidar dessa molinha é o grande segredo para bordar com linhas metalizadas sem nenhum estresse!",
+    "applications": [
+      "Recolhimento instantâneo da folga de linha superior antes da agulha penetrar no tecido",
+      "Prevenção absoluta de laçadas frouxas (loops) e nós na face superior do bordado",
+      "Amortecimento elástico dos trancos da alavanca pega-fio em linhas frágeis e metalizadas",
+      "Estabilização da passagem do fio em altas rotações industriais (de 800 a 1.200 PPM)",
+      "Garantia de que a linha superior não salte para fora dos discos tensores durante cortes e saltos de ponto"
+    ],
+    "mainTypes": [
+      "Check Spring em Espiral Interna (Padrão Industrial): Montada dentro do tambor do eixo tensor (padrão Tajima e Barudan)",
+      "Check Spring Frontal Exposta (Padrão Doméstico/Semi-Industrial): Visível na lateral do tensor com ajuste por mola externa (Janome/Brother)",
+      "Check Spring de Alta Flexibilidade para Fio Metálico: Arame mais fino (0,4 mm) com menor resistência para proteger fios delicados",
+      "Check Spring Reforçada para Linha Grossa de Cordão: Arame de 0,6 mm para costura de linhas pesadas de algodão ou ponto chenille"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Projetada para oscilar perfeitamente em velocidades de 0 a 1.200 PPM sem fadiga mecânica",
+      "needleType": "Universal para todas as agulhas",
+      "stabilizer": "Universal para todas as entretelas"
+    },
+    "advantages": [
+      "✔ Elimina 100% dos 'pelinhos' e argolinhas de linha frouxa que surgem na superfície do bordado",
+      "✔ Permite bordar com linhas metálicas douradas e prateadas na velocidade máxima sem quebrar o fio",
+      "✔ Ajuste duplo: calibragem de curso (milímetros) e calibragem de força (gramas-força)",
+      "✔ Construção em aço-mola de alta durabilidade que suporta centenas de milhões de oscilações"
+    ],
+    "limitations": [
+      "Se a mola quebrar a pontinha do gancho, a linha passa direto e os pontos cheios ficam cheios de laçadas soltas.",
+      "Uma mola com força excessiva repuxa a linha antes da descida da agulha, entortando a agulha em tecidos grossos."
+    ],
+    "commonErrors": [
+      "❌ Passar a linha sem engatar na haste da mola tensora, deixando o fio livre e sem amortecimento.",
+      "❌ Deixar a mola com a haste travada embaixo no batente sem nenhuma folga para oscilar para cima.",
+      "❌ Entortar a haste da mola com alicate ou tesoura durante a limpeza de fiapos no bloco tensor.",
+      "❌ Apertar a pressão da mola no máximo achando que vai resolver problema de tensão de bobina."
+    ],
+    "troubleshootingTips": [
+      "O bordado está ficando com pequenas 'laçadas' ou pontinhos frouxos de linha na frente do tecido: A mola Check Spring perdeu a força elástica ou quebrou a ponta; gire o eixo do tensor para dar mais pré-carga na mola ou substitua a mola de retorno.",
+      "A linha metalizada dourada arrebenta toda vez que a máquina atinge 600 PPM: A mola Check Spring está com o curso muito curto ou com pressão muito dura, dando trancos secos no fio metálico; afrouxe a tensão da mola para cerca de 8 gf e aumente o curso para 8 mm.",
+      "A mola não se move e fica presa no fundo: Há fiapos de linha e cera de lubrificação acumulados dentro do tambor da mola; desmonte o conjunto tensor, limpe o tambor com álcool isopropílico e remonte."
+    ],
+    "dicaArtrelados": "Quer bordar aquele brasão dourado lindo com linha metálica sem a linha arrebentar nem uma vez? Anote o 'Segredo dos Oito Milímetros' da Artrelados: confira a sua Check Spring! A haste da mola deve ter um curso livre de exatamente 8 milímetros e deve ser tão macia que uma leve soprada quase faça ela se mexer (cerca de 8 a 10 gramas-força de resistência). Quando a agulha fura o tecido, a molinha deve tocar no batente exatamente no instante em que a ponta da agulha toca o tecido. Esse amortecimento suave é como uma suspensão de veludo que protege a linha metálica mais delicada do mundo!",
+    "voceSabia": "A Check Spring é tão crucial para o equilíbrio dinâmico da costura que, em um bordado industrial longo de 100.000 pontos, ela sobe e desce exatamente 100.000 vezes! Por causa dessa fadiga extrema, os melhores fabricantes do mundo usam o mesmo aço 'Music Wire' empregado nas cordas dos pianos de cauda da orquestra sinfônica, capazes de vibrar sem perder o tom nem a elasticidade por décadas!",
+    "practicalExercise": "Sentindo a Elasticidade da Check Spring com o Dedo: Com a máquina desligada e a linha passada, encoste suavemente a ponta do indicador na haste da mola Check Spring logo abaixo do disco tensor. Empurre-a suavemente para baixo e solte: sinta como ela desce macia até o batente de metal e, ao soltar, pula imediatamente para cima com vivacidade elástica. Esse movimento lépido e sem atrito é a assinatura de uma máquina regulada pela Artrelados!",
+    "quickSummary": "Mola helicoidal de torção no bloco tensor que recolhe a folga do fio superior antes da agulha entrar no tecido, eliminando laçadas soltas e trancos em linhas metalizadas.",
+    "relatedTerms": [
+      "Tensor Superior e Discos de Tensão",
+      "Alavanca Pega-Fio / Pescador de Linha Superior com Sensor de Ruptura (Thread Take-Up Lever & Breakage Sensor)",
+      "Barra de Agulha e Bucha Guia",
+      "Laçadas na Frente do Tecido (Top Loops)",
+      "Linha Metálica",
+      "Tensiômetro de Precisão"
+    ],
+    "tags": [
+      "m-104",
+      "mola-check-spring",
+      "mola-pega-fio-tensor",
+      "take-up-spring",
+      "tensor-superior",
+      "amortecedor-de-linha",
+      "fio-metalico",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Upper Thread Tension Assembly, Check Spring Calibration & Stroke Adjustment Manual. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Thread Tension Dynamics, Check Spring Tensioning for Metallic Threads. Ichinomiya, 2022.",
+      "BROTHER INDUSTRIES, LTD. Thread Control Mechanisms and Check Spring Maintenance in Multi-Needle Machines. Nagoya, 2022.",
+      "ARTRELADOS. A Dança Suave da Linha: Segredos da Check Spring, Linhas Metálicas e Ponto Perfeito. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
   }
 ];
+
 
 

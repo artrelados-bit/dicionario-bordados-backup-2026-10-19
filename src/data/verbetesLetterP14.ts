@@ -1015,7 +1015,213 @@ export const VERBETES_LETTER_P_PART14: Verbete[] = [
       "ARTRELADOS. A Mãozinha Invisível do Cabeçote: Segredos, Ajustes e Calibragem do Pescador de Linha (Wiper). Curitiba, 2024."
     ],
     "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "p-103-polia-sincronizadora-dentada-pantografo-eixos-x-y",
+    "code": "P-103",
+    "term": "Polia Sincronizadora Dentada do Pantógrafo / Eixos X e Y (Timing Pulley of Pantograph Drive)",
+    "pronunciation": "po-lí-a sin-cro-ni-za-dó-ra den-tá-da do pan-tó-gra-fo / éi-shos shis e íp-si-lon (tái-min pú-li ov pan-tó-graf dráiv)",
+    "letter": "P",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Originada da engenharia de controle numérico (CNC) e robótica nos anos 1970 no Japão e Alemanha. No bordado eletrônico, foi introduzida pela Tajima, ZSK e Barudan para substituir engrenagens helicoidais pesadas e cabos de aço por correias dentadas e polias sincrônicas leves, permitindo acelerações ultrarrápidas do bastidor sem folga angular (zero backlash).",
+    "summary": "Roda dentada de alta precisão usinada em liga de alumínio aeronáutico ou duralumínio, acoplada aos eixos dos servomotores X e Y, cujos dentes trapezoidais ou curvilíneos engrenam perfeitamente na correia dentada para tracionar o pantógrafo com precisão centesimal.",
+    "definition": "A Polia Sincronizadora Dentada dos Eixos X e Y do Pantógrafo (universalmente conhecida como Timing Pulley, Polia Dentada de Sincronismo CNC ou Drive Pulley) é o componente mecatrônico de transmissão direta responsável por converter o torque e a rotação angular dos servomotores de passo em deslocamento linear milimétrico e rigoroso do bastidor de bordado. Instalada nas pontas dos eixos dos motores dos eixos X (transversal) e Y (longitudinal), a polia apresenta uma coroa periférica de dentes usinados em perfil especial (como GT2, HTD 3M/5M ou T5) com passos padronizados que se casam sem atrito nem folga com os dentes da correia dentada de poliuretano com alma de aço ou Kevlar. Durante o bordado a 1.000 PPM, o pantógrafo precisa se deslocar de 0,1 mm a mais de 12 mm entre duas descidas consecutivas da agulha em uma janela temporal de apenas 30 a 50 milissegundos. A polia sincronizadora transfere essa aceleração e desaceleração instantâneas (de até 2 G) sem derrapagem (escorregamento zero), garantindo que os contornos de ponto cheio, apliques e encaixes de letras fiquem perfeitamente alinhados, sem deslocamento de matriz e sem deformações nos eixos cartesianos.",
+    "technicalDetails": "Usinada em liga de alumínio 6061-T6 ou 7075-T6 com acabamento anodizado duro para prevenir o desgaste por atrito com os dentes da correia. Conta com flanges laterais duplas de retenção (Side Flanges) em chapa de aço zincado rebitadas para impedir que a correia escape lateralmente sob tranco. O perfil dos dentes é curvilíneo de alta precisão (tipo GT2/3M) com tolerância de usinagem DIN 7721 ou ISO 5294 (excentricidade radial máxima < 0,02 mm). A fixação no eixo do motor é feita através de cubo bipartido com bucha cônica cravada ou parafusos prisioneiros Allen (duplo M4/M5 a 90°) cravados sobre o rebaixo chanfrado (D-Cut) do eixo.",
+    "construction": [
+      "Coroa Dentada de Perfil Curvilíneo: Dentes usinados milimetricamente que abraçam a correia dentada sem folga de retorno",
+      "Flanges Laterais de Guia e Retenção: Dois aros circulares de contenção que evitam que a correia escorregue para fora da polia",
+      "Furo Central Retificado (Bore): Alojamento cilíndrico de alta tolerância (H7) para encaixe perfeito no eixo de 6 mm, 8 mm ou 10 mm",
+      "Parafusos Prisioneiros de Fixação (Set Screws): Parafusos sem cabeça tipo Allen cravados a 90° que travam a polia no eixo do motor",
+      "Cubo Aliviado de Inércia: Rebaixos internos de torneamento que diminuem a massa rotacional da peça para respostas mais rápidas",
+      "Tratamento de Anodização Protetora: Camada micrométrica que protege o alumínio contra corrosão e desgaste mecânico contínuo"
+    ],
+    "howItWorks": [
+      "1. A CPU da máquina calcula o próximo salto de ponto da matriz e envia os pulsos digitais para o servomotor do eixo X ou Y.",
+      "2. O motor gira um ângulo exato (ex: 7,2 graus) em uma fração de milissegundo.",
+      "3. O eixo do motor gira solidariamente a Polia Sincronizadora Dentada.",
+      "4. Os dentes da polia empurram os dentes correspondentes da correia dentada do pantógrafo.",
+      "5. A correia traciona o carro do bastidor em linha reta, movendo o tecido exatamente a distância exigida pelo ponto.",
+      "6. O motor para e trava magneticamente a polia no milímetro exato em que a agulha perfura o tecido.",
+      "7. Essa dança sincronizada se repete mais de 15 vezes a cada segundo, desenhando curvas e letras perfeitas no bastidor!"
+    ],
+    "beginnerExplanation": "A Polia Sincronizadora é a 'engrenagem mestra' que comanda o movimento do seu bastidor! Já reparou como o bastidor da máquina anda para a frente, para trás e para os lados de um jeito super rápido, firme e sem tremer? Quem faz essa mágica são duas rodinhas de metal cheias de dentinhos que ficam escondidas dentro da máquina, presas nos motores dos eixos X e Y. Elas encaixam numa correia de borracha dentada (como a correia do motor de um carro) e puxam o bastidor para lá e para cá no milímetro exato. Se essa rodinha estivesse frouxa ou se os dentes escorregassem, o desenho do bordado sairia torto, o contorno não fecharia em cima do ponto cheio e o nome ficaria todo deformado! É ela quem garante que o bastidor pare exatamente onde a agulha precisa descer!",
+    "applications": [
+      "Transmissão primária de movimento do motor de passo para a correia do pantógrafo nos eixos X e Y",
+      "Posicionamento micrométrico do bastidor para execução de contornos perfeitos e apliques sem desencaixe",
+      "Absorção e transferência de torques de aceleração e frenagem em altas velocidades (acima de 1.000 PPM)",
+      "Manutenção da repetibilidade geométrica de matrizes grandes em peças fechadas e bonés",
+      "Eliminação de folga reversa (backlash) na inversão rápida de sentido do bastidor"
+    ],
+    "mainTypes": [
+      "Polia de Perfil Curvilíneo GT2 / GT3: A mais moderna e silenciosa, com folga quase zero, ideal para bordados de alta definição",
+      "Polia de Dente Trapezoidal T5 / T2.5: Padrão mecânico clássico europeu, altamente robusta para pantógrafos pesados",
+      "Polia com Bucha Cônica de Travamento (Taper-Lock): Sistema que dispensa parafusos prisioneiros e oferece aperto cônico 100% concêntrico",
+      "Polia Dupla de Redução / Desmultiplicação: Conjunto com dois diâmetros que reduz a velocidade e multiplica o torque do motor"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Projetada para suportar acelerações instantâneas de 0 a 1.200 PPM com frenagem dinâmica de 2 G",
+      "needleType": "Universal para todas as agulhas",
+      "stabilizer": "Universal para todas as entretelas"
+    },
+    "advantages": [
+      "✔ Escorregamento zero: garante que os contornos e sombras do bordado encaixem com precisão cirúrgica",
+      "✔ Construção em duralumínio leve que diminui a inércia rotacional e poupa os motores de passo",
+      "✔ Flanges laterais de segurança que impedem que a correia pule fora da polia mesmo em trancos fortes",
+      "✔ Operação extremamente silenciosa e sem necessidade de lubrificação com graxa líquida"
+    ],
+    "limitations": [
+      "Se os parafusos prisioneiros afrouxarem no eixo, a polia desliza em falso e o bordado perde totalmente o alinhamento.",
+      "Acúmulo de poeira têxtil compactada entre os dentes da polia altera o diâmetro primitivo e deforma os círculos."
+    ],
+    "commonErrors": [
+      "❌ Apertar os parafusos de fixação fora do chanfro plano (D-Cut) do eixo, permitindo que a polia gire solta sob torque.",
+      "❌ Passar graxa ou óleo nos dentes da polia sincronizadora (a correia dentada deve trabalhar 100% limpa e a seco).",
+      "❌ Tensionar a correia com alavanca de forma excessiva, entortando o eixo do motor e quebrando os rolamentos da polia.",
+      "❌ Deixar linha de bordar embaraçar e enrolar por trás do flange da polia, travando o motor do pantógrafo."
+    ],
+    "troubleshootingTips": [
+      "O bordado está saindo com contorno deslocado 2 mm para a direita ou letras inclinadas: A polia do eixo X está com os parafusos prisioneiros levemente frouxos no eixo do motor; aperte firmemente os dois parafusos Allen sobre a parte chata do eixo.",
+      "Círculos perfeitos estão sendo bordados como ovais achatados: Há poeira e fiapos compactados no fundo dos dentes da polia de um dos eixos ou a correia correspondente está folgada; limpe as fendas da polia com uma escova de cerdas duras e ajuste a tensão da correia.",
+      "Ruído agudo de chiado ou rangido quando o bastidor se move velozmente: A polia está desalinhada em relação à correia e a borda da correia está raspando com força contra o flange lateral de metal; alinhe a polia milimetricamente no eixo longitudinal."
+    ],
+    "dicaArtrelados": "Se você notou que o contorno preto do seu bordado começou a ficar 'descolado' do preenchimento colorido (como se o desenho tivesse escorregado para o lado), não culpe o digitalizador da matriz antes de fazer o 'Teste do Tranco Suave' da Artrelados: com a máquina desligada e sem bastidor, pegue com a mão no braço metálico do pantógrafo e dê leves puxadinhas para a frente e para trás, para a esquerda e para a direita. Não pode haver nenhuma 'folguinha morta' ou jogo mecânico! Se você sentir um pequeno estalo antes da máquina se mexer, a polia sincronizadora do motor está com o parafusinho prisioneiro Allen solto. Basta apertar aquele parafusinho com uma chave Allen bem justa e seus contornos voltam a bater em cima da linha com perfeição cirúrgica!",
+    "voceSabia": "A primeira máquina de bordar computadorizada da Tajima nos anos 1970 usava engrenagens pesadas de bronze e cabos de aço que pesavam vários quilos para movimentar o bastidor! A introdução das pequenas polias sincronizadoras de duralumínio aeronáutico reduziu o peso do sistema em mais de 80%, permitindo que as máquinas modernas atinjam mais de 1.000 pontos por minuto sem quebrar o bastidor nem derrubar a mesa de costura!",
+    "practicalExercise": "Inspeção da Tensão e Dentes da Polia do Pantógrafo: Com a máquina desligada da tomada, retire a tampa de inspeção lateral do pantógrafo. Localize a polia dentada de alumínio brilhante acoplada ao servomotor. Observe os dentes limpos e como a correia de borracha abraça a polia. Pressione a correia levemente com o dedo: ela deve ceder cerca de 3 a 5 mm com firmeza elástica, sem ficar frouxa nem esticada como corda de violão. Esse equilíbrio é o que dá vida aos contornos mais difíceis do bordado!",
+    "quickSummary": "Roda dentada de duralumínio fixada ao motor que engrena na correia dentada para movimentar o pantógrafo nos eixos X e Y com precisão milimétrica e escorregamento zero.",
+    "relatedTerms": [
+      "Pantógrafo / Carro de Movimentação dos Eixos X e Y",
+      "Correia Dentada Sincronizadora do Pantógrafo",
+      "Servomotor de Passo dos Eixos X e Y",
+      "Bastidor de Bordado",
+      "Deslocamento de Matriz (Outline Shift)",
+      "Ponto Cheio (Satin Stitch)"
+    ],
+    "tags": [
+      "p-103",
+      "polia-sincronizadora",
+      "timing-pulley",
+      "eixos-x-y",
+      "pantografo",
+      "servomotor",
+      "precisao-cnc",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Pantograph Drive System, Timing Pulleys & Belt Tensioning Service Guide. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. X-Y Axis Motion Mechanics, Backlash Elimination and Pulley Alignment. Ichinomiya, 2022.",
+      "GATES CORPORATION. Timing Belt and Pulley Drive Design Manual for Precision Motion. Denver, 2022.",
+      "ARTRELADOS. A Dança dos Eixos X e Y: Segredos da Polia Sincronizadora, Correias e Contornos Perfeitos. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "p-104-polia-tensora-rolo-tensor-correia-pantografo",
+    "code": "P-104",
+    "term": "Polia Tensora / Rolo Tensor da Correia do Pantógrafo (Idler Pulley & Belt Tensioner)",
+    "pronunciation": "po-lí-a ten-só-ra / ró-lo ten-sór da cor-rêi-a do pan-tó-gra-fo (ái-dler pú-li end belt ten-shon-er)",
+    "letter": "P",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Desenvolvida com a aplicação da mecânica fina de automação nos anos 1970 pelas marcas japonesas e alemãs (Tajima, ZSK, Pfaff). Foi criada para estabilizar o laço fechado de transmissão das correias dos eixos X e Y do pantógrafo, compensando a fadiga elástica do poliuretano sob acelerações brutais e eliminando vibrações harmônicas de alta velocidade.",
+    "summary": "Roda livre lisa ou dentada equipada com rolamentos de esferas blindados de alta rotação e montada em suporte articulado ou excêntrico no extremo oposto do motor, responsável por manter a tensão elástica ideal permanente na correia do pantógrafo.",
+    "definition": "A Polia Tensora e Rolo Esticador da Correia do Pantógrafo (universalmente denominada Idler Pulley, Return Pulley, Tensioning Roller ou Polia Louca de Sincronismo) é o elemento mecânico passivo montado nas extremidades opostas dos motores de passo ou servomotores dos eixos X e Y da máquina de bordar industrial e semi-industrial. Enquanto a polia motriz (P-103) puxa e empurra ativamente a correia dentada, a polia tensora funciona como o ponto de retorno e suporte do laço fechado de transmissão. Montada sobre um par de micro-rolamentos de esferas com vedação de borracha dupla (tipo 608-2RS ou 688-2RS) de baixíssimo atrito e lubrificação permanente, ela pode ter perfil liso (para apoiar no dorso liso da correia) ou dentado (para engrenar nos dentes internos sem esmagá-los). Sua fixação é ancorada em uma placa tensora deslizante dotada de rasgo oblongo, parafuso de calibração micrométrica ou mola helicoidal calibrada de pressão constante. A sua missão é manter a correia dentada sob uma deflexão pré-tensionada de 3 mm a 5 mm sob carga de 1,5 kgf a 2,0 kgf. Essa tensão exata absorve as ondas de chicoteamento e vibrações harmônicas geradas pelas paradas bruscas e reversões de sentido do bastidor a 1.000 PPM, impedindo tanto a flacidez da correia (que causaria o 'pulo de dente', perda de coordenadas X/Y e bordados deformados) quanto a sobretensão excessiva (que sobrecarregaria o eixo do servomotor, empenaria guias lineares e provocaria desgaste prematuro nos rolamentos).",
+    "technicalDetails": "Fabricada em alumínio naval 6061 usinado em torno CNC de alta precisão ou aço temperado com banho de cromo duro (dureza de 58 a 62 HRC) para suportar velocidades periféricas superiores a 15 m/s. Apresenta diâmetro externo de 25 mm a 45 mm com flanges laterais de retenção cravadas para manter a correia perfeitamente alinhada na pista central do perfil de alumínio do pantógrafo. Os rolamentos internos operam com folga radial C3 e graxa sintética de poliureia de ampla faixa térmica (-30°C a +150°C), prevenindo travamentos por aquecimento. A concentricidade da polia em relação ao pino de fixação é de rigorosos 0,01 mm (zero batimento radial).",
+    "construction": [
+      "Corpo Cilíndrico da Polia (Liso ou Coroado): Superfície retificada espelhada com acabamento fino para não desgastar o dorso da correia",
+      "Duplo Rolamento de Esferas Blindado (2RS Sealed Bearings): Micro-rolamentos industriais com vedação labial contra poeira têxtil e fiapos",
+      "Flanges de Retenção Lateral (Guide Flanges): Paredes laterais que guiam a correia e impedem seu descolamento axial",
+      "Pino Eixo Retificado em Aço Carbono: Eixo central de alta rigidez tratado termicamente que ancora os rolamentos na mesa",
+      "Placa de Ajuste com Fenda Oblonga: Suporte metálico que permite deslizar a polia milimetricamente para tensionar a correia",
+      "Parafuso Tensor Micrométrico com Porca de Travamento: Haste rosqueada que aplica a tração precisa e impede o afrouxamento por vibração"
+    ],
+    "howItWorks": [
+      "1. A correia dentada do pantógrafo dá a volta completa na extremidade da mesa, abraçando a Polia Tensora.",
+      "2. Conforme o motor principal e o servomotor imprimem arrancadas bruscas no bastidor, a correia tenta ondular e chicotear.",
+      "3. A polia tensora oferece uma superfície de apoio firme, suave e sem atrito para a correia rolar.",
+      "4. Os dois rolamentos internos giram em alta velocidade no mesmo instante em que a correia se move, sem opor resistência mecânica.",
+      "5. O parafuso tensor mantém a distância calibrada entre a polia motora e a tensora, mantendo a correia sempre esticada no ponto doce.",
+      "6. Mesmo quando a máquina inverte o sentido do bastidor em milissegundos, a tensão contínua impede qualquer folga de retorno.",
+      "7. O resultado é um movimento do bastidor suave como seda, sem solavancos e com silêncio absoluto na movimentação do pantógrafo!"
+    ],
+    "beginnerExplanation": "A Polia Tensora é a 'rodinha esticadora' que não deixa a correia do seu bastidor ficar frouxa nem bamba! Pense na corrente da sua bicicleta: se ela estiver frouxa, ela fica caindo e chacoalhando; se estiver esticada demais, o pedal fica duro e pode arrebentar a corrente. Na máquina de bordar é a mesma coisa: de um lado da mesa tem o motor que puxa o bastidor, e do outro lado tem essa rodinha giratória de metal (a polia tensora) com um parafusinho regulador. Ela fica ali rodando soltinha, apoiando a correia e mantendo ela esticadinha na medida certa! Se a correia estivesse frouxa, o bastidor tremeria todo a 1.000 pontos por minuto e o bordado sairia parecendo uma gelatina trepidando. É essa rodinha silenciosa que garante que o bastidor ande firme e suave!",
+    "applications": [
+      "Manutenção da tensão estática e dinâmica ideal nas correias dentadas dos eixos X e Y do pantógrafo",
+      "Eliminação de vibrações harmônicas e chicoteamento da correia em reversões bruscas de direção",
+      "Prevenção do salto de dentes (tooth skipping) que causa perda fatal das coordenadas do bordado",
+      "Alinhamento axial da correia dentada, impedindo que ela raspe nas paredes dos perfis de alumínio da máquina",
+      "Redução do esforço radial sobre os mancais e eixos dos motores de passo e servomotores CNC"
+    ],
+    "mainTypes": [
+      "Polia Tensora de Pista Lisa: Rola sobre as costas planas da correia, sendo a mais silenciosa e de menor desgaste",
+      "Polia Tensora Dentada com Perfil Correspondente: Engrena diretamente nos dentes internos da correia, garantindo alinhamento perfeito",
+      "Tensor Automático por Mola / Amortecedor de Mola: Ajusta a tensão continuamente compensando a dilatação térmica do poliuretano",
+      "Polia Tensora Excêntrica (Cam Adjuster): Calibrada pelo giro de um eixo excêntrico que avança ou recua a polia com precisão de décimos de milímetro"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Suporta rotação contínua e reversões de sentido em velocidades de bordado de 0 a 1.200 PPM",
+      "needleType": "Universal para todas as agulhas",
+      "stabilizer": "Universal para todas as entretelas"
+    },
+    "advantages": [
+      "✔ Estabilidade geométrica absoluta do bastidor: círculos saem perfeitamente redondos e letras finas não tremem",
+      "✔ Vida útil extrema graças aos rolamentos blindados 2RS que impedem a entrada de pó de entretela e fiapos",
+      "✔ Regulagem micrométrica fácil através de parafuso com contraporca de bloqueio à prova de vibração",
+      "✔ Reduz a carga e o aquecimento dos servomotores principais, prolongando a vida útil da eletrônica"
+    ],
+    "limitations": [
+      "Se os rolamentos internos engriparem por falta de lubrificação, a polia trava e a correia queima pelo atrito.",
+      "Aperto excessivo no parafuso tensor pode arquear a mesa do pantógrafo e quebrar o flange da polia."
+    ],
+    "commonErrors": [
+      "❌ Apertar o parafuso tensor 'até não dar mais', esticando a correia como corda de violino e forçando os mancais do motor.",
+      "❌ Deixar a correia tão frouxa que, ao acelerar a máquina a 800 PPM, ela encosta e raspa na carcaça metálica.",
+      "❌ Lavar a polia com solventes desengraxantes que penetrem pela vedação de borracha do rolamento, secando a graxa de fábrica.",
+      "❌ Esquecer de reapertar a contraporca de travamento após calibrar o esticador, deixando o parafuso soltar com a vibração."
+    ],
+    "troubleshootingTips": [
+      "O bastidor dá um tranco seco no meio do bordado e desloca 5 mm para a frente: A correia do eixo correspondente está muito folgada e a polia tensora soltou a regulagem, fazendo a correia 'pular um dente'; aperte o parafuso do tensor e confira a tensão elástica da correia.",
+      "Barulho de zumbido áspero ou 'ronco' vindo do canto da mesa quando o bastidor se mexe: Os micro-rolamentos da polia tensora secaram ou foram contaminados com fiapos de linha; retire a polia e substitua os rolamentos blindados.",
+      "A correia do pantógrafo está com a borda desfiando e soltando fiapos pretos de borracha: A polia tensora está torta em relação ao plano da mesa, fazendo a correia correr desalinhada e raspar na flange lateral; afrouxe a base e alinhe a polia no esquadro exato."
+    ],
+    "dicaArtrelados": "Quer saber se a correia do seu bastidor está com a tensão perfeita sem precisar de um tensiômetro caro de oficina mecânica? Use o 'Teste do Toque de Harpa' da Artrelados: com a máquina desligada, dê um leve 'beliscão' com o polegar e o indicador no meio da correia do eixo X ou Y. Ela deve ter uma resistência elástica gostosa, cedendo entre 3 e 5 milímetros quando você aperta com a ponta dos dedos. Se ela estiver mole como elástico velho, aperte o parafusinho da polia tensora; se ela estiver dura feito uma barra de ferro, solte uma volta! No ponto doce, o bastidor desliza suave como se estivesse flutuando sobre trilhos de gelo!",
+    "voceSabia": "As correias e polias tensoras modernas das máquinas de bordar usam a mesma tecnologia dos sistemas de sincronismo dos carros de Fórmula 1! As correias de poliuretano com alma de aço e as polias tensoras de alta precisão foram desenvolvidas para que, mesmo em acelerações que fariam um objeto comum se deformar, o movimento se mantenha estável em 99,99% de precisão centesimal!",
+    "practicalExercise": "Verificação Tátil do Giro Livre da Polia Tensora: Com a máquina desligada da tomada, localize a polia no canto oposto ao motor do pantógrafo. Retire a correia da pista da polia com cuidado ou, se o acesso permitir, gire a polia com a ponta do dedo indicador. Sinta o giro: ela deve girar macia, silenciosa e sem nenhuma sensação de 'areia' ou travamento nos rolamentos. Esse giro livre é a garantia de que seu motor não está sofrendo para empurrar o bastidor!",
+    "quickSummary": "Roda com rolamentos blindados e parafuso regulador no extremo oposto ao motor que mantém a correia do pantógrafo na tensão ideal, prevenindo vibrações e pulo de dentes.",
+    "relatedTerms": [
+      "Polia Sincronizadora Dentada do Pantógrafo / Eixos X e Y (Timing Pulley of Pantograph Drive)",
+      "Correia Dentada Sincronizadora do Pantógrafo",
+      "Pantógrafo / Carro de Movimentação dos Eixos X e Y",
+      "Servomotor de Passo dos Eixos X e Y",
+      "Bastidor de Bordado",
+      "Deslocamento de Matriz (Outline Shift)"
+    ],
+    "tags": [
+      "p-104",
+      "polia-tensora",
+      "rolo-tensor",
+      "idler-pulley",
+      "pantografo",
+      "tensao-de-correia",
+      "rolamento-blindado",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Pantograph Tensioning Idler Pulleys and Guide Rail Alignment Service Standards. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Belt Tensioning Specifications, Idler Bearing Replacement and Calibration Manual. Ichinomiya, 2022.",
+      "SKF GROUP. Precision Miniature Ball Bearings and Idler Systems for High-Speed Automation. Göteborg, 2022.",
+      "ARTRELADOS. O Equilíbrio Perfeito das Correias: Cuidados com a Polia Tensora, Rolamentos e Ajustes no Pantógrafo. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
   }
 ];
+
+
 
 

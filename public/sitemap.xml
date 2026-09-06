@@ -724,6 +724,20 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Verbete: [a-103-alavanca-pega-fio-pescador-linha-superior-sensor-ruptura] Alavanca Pega-Fio / Pescador de Linha Superior com Sensor de Ruptura (Thread Take-Up Lever &amp; Breakage Sensor) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=a-103-alavanca-pega-fio-pescador-linha-superior-sensor-ruptura</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [a-104-alavanca-pegadora-fio-superior-limpador-linha-wiper] Alavanca Pegadora de Fio Superior / Limpador de Linha Pós-Corte (Thread Wiper Mechanism) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=a-104-alavanca-pegadora-fio-superior-limpador-linha-wiper</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Verbete: [b-001-bastidor-de-bordado] Bastidor de Bordado -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=b-001-bastidor-de-bordado</loc>
@@ -3580,6 +3594,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Verbete: [e-105-eixo-came-mudanca-automatica-cores-espiral-agulha] Eixo Came de Mudança Automática de Cores / Came Espiral de Troca de Agulha (Color Change Cam Shaft / Spiral Needle Change Cam) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=e-105-eixo-came-mudanca-automatica-cores-espiral-agulha</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Verbete: [f-001-fio-de-poliester-para-bordado] Fio de Poliéster para Bordado (Polyester Embroidery Thread - 120D/2 / 40wt) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=f-001-fio-de-poliester-para-bordado</loc>
@@ -4983,6 +5004,20 @@
   <!-- Verbete: [g-100-gramatura-entretela-fator-rigidez-metro-quadrado] Gramatura de Entretela e Fator de Rigidez por Metro Quadrado (Backing Grammage / GSM &amp; Fabric Rigidity Index) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=g-100-gramatura-entretela-fator-rigidez-metro-quadrado</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [g-101-guia-linear-esferas-recirculantes-eixos-x-y] Guia Linear de Esferas Recirculantes dos Eixos X e Y (Linear Motion Guide &amp; Recirculating Ball Bearing Slide) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=g-101-guia-linear-esferas-recirculantes-eixos-x-y</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [g-102-guia-fio-intermediario-barra-agulha-espiral-pigtail] Guia-Fio Intermediário da Barra de Agulha / Espiral de Passagem de Fio (Needle Bar Thread Guide &amp; Pigtail Wire) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=g-102-guia-fio-intermediario-barra-agulha-espiral-pigtail</loc>
     <lastmod>2026-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -9243,6 +9278,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Verbete: [m-104-mola-tensao-retorno-pega-fio-tensor-check-spring] Mola de Tensão de Retorno / Mola Pega-Fio do Tensor (Check Spring / Take-Up Spring) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=m-104-mola-tensao-retorno-pega-fio-tensor-check-spring</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Verbete: [n-001-no-de-arremate-tie-off-lock-stitch] Nó de Arremate (Tie-off / Lock Stitch) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=n-001-no-de-arremate-tie-off-lock-stitch</loc>
@@ -11364,6 +11406,20 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Verbete: [p-103-polia-sincronizadora-dentada-pantografo-eixos-x-y] Polia Sincronizadora Dentada do Pantógrafo / Eixos X e Y (Timing Pulley of Pantograph Drive) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=p-103-polia-sincronizadora-dentada-pantografo-eixos-x-y</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [p-104-polia-tensora-rolo-tensor-correia-pantografo] Polia Tensora / Rolo Tensor da Correia do Pantógrafo (Idler Pulley &amp; Belt Tensioner) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=p-104-polia-tensora-rolo-tensor-correia-pantografo</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Verbete: [qualidade-do-bordado] Qualidade do Bordado -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=qualidade-do-bordado</loc>
@@ -13474,6 +13530,20 @@
   <!-- Verbete: [s-107-solenoide-de-tensao-solenoide-de-liberacao-de-linha] Solenoide de Tensão / Solenoide de Liberação de Linha (Thread Tension Release Solenoid) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=s-107-solenoide-de-tensao-solenoide-de-liberacao-de-linha</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [s-108-solenoide-eletromagnetico-atuacao-disparo] Solenoide Eletromagnético de Atuação e Disparo (Electromagnetic Actuator Solenoid / Plunger Solenoid) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=s-108-solenoide-eletromagnetico-atuacao-disparo</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [s-109-sensor-fim-linha-bobina-infravermelho-fibra-optica] Sensor de Fim de Linha de Bobina por Infravermelho / Fibra Óptica (Bobbin Thread Optical Sensor / Under-Thread Detector) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=s-109-sensor-fim-linha-bobina-infravermelho-fibra-optica</loc>
     <lastmod>2026-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
