@@ -1464,8 +1464,109 @@ export const VERBETES_LETTER_T13: Verbete[] = [
       "ARTRELADOS. A Nobreza dos Softwares Industriais: Precisão Mecatrônica e Produção de Alta Escala com o Tajima DG by Pulse. Curitiba, 2024."
     ],
     updatedAt: "2026-09-06"
+  },
+  {
+    id: "t-108-trava-de-seguranca-alavanca-calcador-sensor-altura",
+    code: "T-108",
+    term: "Trava de Segurança da Alavanca do Calcador e Sensor de Altura (Presser Foot Safety Lock & Lifter Sensor)",
+    pronunciation: "trá-va de se-gu-ran-ça da a-la-vân-ca do cal-ca-dor e sen-sor de al-tu-ra (pré-sser fut seif-ti lók end líf-ter sén-sor)",
+    letter: "T",
+    level: "Intermediário 🟡",
+    category: "Mecânica & Manutenção",
+    grammarClass: "Locução substantiva feminina.",
+    origin: "Desenvolvida com a eletrificação e microprocessamento das máquinas de costura e bordado nos anos 1980 e 1990 no Japão (Brother, Janome e Juki). Foi criada como um circuito de intertravamento de segurança obrigatório para evitar acidentes graves com os dedos da operadora e impedir a quebra violenta de agulhas e discos de tensão quando a máquina é acionada por engano com o calcador erguido.",
+    summary: "Dispositivo mecatrônico composto por uma trava mecânica de retenção biestável e um sensor eletrônico (óptico ou microrruptor) acoplado à alavanca do calcador que bloqueia o motor principal se o pé estiver levantado e comuta a liberação dos discos de tensão superior.",
+    definition: "A Trava de Segurança da Alavanca do Calcador e seu Sensor de Altura (Presser Foot Lifter Sensor & Safety Lockout Mechanism) formam o sistema primário de proteção operacional e intertravamento eletromecânico das máquinas de costura e bordado eletrônico. A alavanca de elevação do calcador possui duas posições mecânicas padronizadas: Posição Baixa (engatada para trabalho, onde a mola comprime o tecido e os discos de tensão se fecham) e Posição Alta (levantada para inserção do bastidor, troca de tecido ou passagem de linha, com abertura forçada dos discos tensores). O conjunto mecatrônico atua em duas frentes vitais: (1) Bloqueio Eletrônico de Partida (Safety Interlock): um sensor óptico de fenda ou microrruptor lê a posição da alavanca; se a bordadeira pressionar o botão 'Start' ou pisar no pedal com o calcador erguido, o processador corta instantaneamente a ignição do motor, acende uma luz de alerta vermelha e exibe a mensagem 'Abaixe o Calcador' no painel touch, impedindo a formação catastrófica de 'ninhos de linha' gigantes na laçadeira; e (2) Trava de Altura Extra (Extra Lift Position): uma lingueta mecânica com ressalto de came que permite empurrar a alavanca além do batente normal (ganhando de 3 mm a 6 mm extras de vão livre) para acomodar a borda volumosa de bastidores, mantas grossas, toalhas e jaquetas sem forçar o cabeçote.",
+    technicalDetails: "O sensor de detecção opera sob lógica digital de 5V TTL através de uma chave microswitch de contato banhado a ouro ou fototransistor infravermelho de barreira com tempo de resposta inferior a 2 milissegundos. A trava mecânica do came é usinada em liga de zinco ou náilon com fibra de vidro, possuindo ranhura de clique de retenção calibrada para suportar a carga de retorno da mola mestra do calcador (até 15 N). O conjunto integra a barra de alívio do tensor (Tension Release Cam Pin), garantindo que ao elevar a alavanca, um pino de aço empurre o disco móvel do conjunto tensor em 0,8 mm a 1,2 mm, liberando a linha superior para ser puxada livremente sem resistência.",
+    construction: [
+      "Alavanca Externa do Calcador (Lifter Lever): Haste ergonômica metálica ou plástica situada na lateral ou traseira do cabeçote",
+      "Came Excêntrico de Elevação (Lift Cam): Ressalto mecânico que converte o giro da alavanca na elevação linear da barra do calcador",
+      "Pino Desarmador do Disco de Tensão (Tension Release Pin): Haste de aço que afasta os pratos do tensor superior ao levantar o calcador",
+      "Sensor Eletrônico de Posição (Foot Position Sensor): Microrruptor ou sensor óptico que informa a CPU sobre a posição do calcador",
+      "Trava de Altura Estendida (Extra-Lift Stop): Batente com mola que sustenta o calcador em altura máxima temporária para tecidos grossos",
+      "Luz Indicadora de Segurança (Start/Stop LED): Indicador luminoso que fica vermelho quando o calcador está alto e verde quando está abaixado e pronto para bordar"
+    ],
+    howItWorks: [
+      "1. A bordadeira levanta a alavanca para encaixar o bastidor sob a agulha.",
+      "2. O came mecânico sobe a barra do calcador e o pino desarmador abre os discos de tensão para soltar a linha.",
+      "3. Uma palheta metálica sai da frente do sensor óptico interno (ou desativa o microrruptor).",
+      "4. A placa-mãe lê o circuito aberto: o botão de partida fica vermelho e o motor é eletricamente travado.",
+      "5. Se a usuária apertar o botão Start, a máquina emite um bipe de alerta e não roda.",
+      "6. A bordadeira abaixa a alavanca: o calcador assenta sobre o tecido, os pratos de tensão se fecham abraçando o fio e o sensor fecha contato.",
+      "7. O botão de partida acende a luz verde radiante: a máquina autoriza o início do bordado com 100% de segurança!"
+    ],
+    beginnerExplanation: "A Trava e o Sensor do Calcador são o 'anjo da guarda' da sua máquina! Sabe aquele botão de ligar que fica VERMELHO quando o pezinho da máquina está levantado e só fica VERDE quando você abaixa a alavanca? É esse mecanismo! Se você tentasse bordar com o pezinho levantado, a linha ficaria solta sem pressão nenhuma, embolaria um novelo gigante de linha embaixo da chapa, quebraria a agulha na hora e poderia até machucar seu dedo! Por isso, a máquina tem esse sensor inteligente que diz: 'Opa, o pezinho está alto, eu não vou rodar nem um milímetro enquanto você não abaixar a alavanca!' E a alavanca ainda tem um 'segundo estágio' que sobe mais alto para você enfiar aquela toalha grossa sem amassar o bastidor!",
+    "applications": [
+      "Intertravamento elétrico de segurança que bloqueia o motor contra partidas acidentais com calcador levantado",
+      "Abertura automática dos discos de tensão superior ao erguer o calcador para passar a linha ou retirar o bastidor",
+      "Liberação do vão livre estendido (Extra Lift) para acomodar bastidores de boné, toalhas felpudas e couro",
+      "Comunicação direta com o painel touch screen exibindo alertas gráficos de orientação à bordadeira",
+      "Prevenção contra o enrolamento de linha no eixo da laçadeira provocado por falta de tensão superior"
+    ],
+    "mainTypes": [
+      "Alavanca Traseira Manual com Microrruptor: O padrão consagrado em máquinas domésticas e semiprofissionais",
+      "Sistema de Joelheira Mecânica ou Hidráulica: Permite erguer e travar o calcador com a pressão do joelho sem tirar as mãos do tecido",
+      "Calcador Automatizado com Motor de Passo / Solenoide: Presente em máquinas modernas onde o calcador sobe e desce sozinho por comando digital",
+      "Sensor de Sensorização Ultrassônica / Pressão Digital: Mede eletronicamente a espessura exata do tecido sob o calcador"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Motor travado em 0 PPM com o calcador levantado; libera de 400 a 1.200 PPM assim que o sensor fecha contato",
+      "needleType": "Universal para todas as agulhas",
+      "stabilizer": "Universal para todas as entretelas"
+    },
+    "advantages": [
+      "✔ Elimina 100% dos acidentes causados por bordar com linha frouxa e ninhos de linha na laçadeira",
+      "✔ Alívio instantâneo da tensão que evita puxar a barra de agulha ao retirar a peça da máquina",
+      "✔ Função Extra Lift que facilita o encaixe de bastidores altos sem riscar o tecido",
+      "✔ Indicação visual clara através da mudança de cor do botão de partida (Verde / Vermelho)"
+    ],
+    "limitations": [
+      "Se o sensor acumular poeira têxtil ou fiapos, pode acusar falsamente que o calcador está levantado mesmo quando abaixado.",
+      "Se o microrruptor interno desalinhar por batida mecânica, a máquina se recusa a iniciar o bordado."
+    ],
+    "commonErrors": [
+      "❌ Forçar a alavanca para cima além do limite do Extra Lift, quebrando o came plástico interno de acionamento.",
+      "❌ Passar a linha na máquina com o calcador ABAIXADO (os pratos de tensão ficam fechados e a linha não entra entre eles).",
+      "❌ Bater o aro do bastidor na alavanca do calcador ao movimentar peças volumosas na área de trabalho.",
+      "❌ Ignorar a mensagem de alerta no visor e tentar forçar a rotação girando o volante à força."
+    ],
+    "troubleshootingTips": [
+      "A máquina exibe a mensagem 'Abaixe o Pé Calcador' e o botão fica vermelho mesmo com a alavanca totalmente abaixada: O sensor óptico ou a alavanca interna do microrruptor está com penugem de linha presa; desmonte a tampa lateral e limpe o contato com pincel seco e álcool isopropílico.",
+      "A linha fica completamente frouxa e cheia de laçadas embaixo do bordado logo no início: A bordadeira passou a linha superior com o calcador abaixado (o fio não entrou entre os discos tensores); levante a alavanca, refaça toda a passagem de linha e abaixe o calcador antes de apertar Start.",
+      "A alavanca do calcador está 'mole' e cai sozinha sem segurar na posição levantada: A mola de retenção do came desarmou ou quebrou; substitua a mola de torção da alavanca na assistência técnica."
+    ],
+    "dicaArtrelados": "Grave para sempre essa Regra de Ouro da Artrelados: 'Para passar a linha na máquina, calcador SEMPRE NO ALTO; para bordar, calcador SEMPRE EMBAIXO!' Quando você levanta a alavanca, os pratinhos de tensão se abrem para a linha escorregar bem lá no fundo deles; se você passar a linha com o calcador abaixado, ela fica solta por fora dos discos e quando você aperta o Start a máquina dá aquele ninho de passarinho que trava tudo! Lembre-se sempre de olhar a luz do botão: luz verde no botão é paz no coração do ateliê!",
+    "voceSabia": "Antes dos anos 1980, as máquinas de costura não tinham sensores eletrônicos no calcador. As operadoras frequentemente esqueciam de abaixar a alavanca e a linha superior corria totalmente solta, criando um nó tão violento na laçadeira que entortava o eixo da máquina! A introdução do simples sensor de 5 volts com luz verde/vermelha reduziu em mais de 70% os chamados de assistência técnica por travamento de laçadeira no mundo inteiro!",
+    "practicalExercise": "Compreendendo o Alívio da Tensão com os Próprios Dedos: Com a máquina desligada e a linha passada normalmente na agulha, segure a ponta da linha perto da agulha com a mão. Com o calcador abaixado, puxe a linha: você sentirá uma resistência firme e pesada (os discos estão apertando o fio). Agora, levante a alavanca do calcador e puxe a linha de novo: ela corre soltinha e macia como seda! Esse milagre é a alavanca abrindo os discos tensores para você trabalhar em paz!",
+    "quickSummary": "Dispositivo mecatrônico com trava de retenção e sensor eletrônico que bloqueia o motor se o pé estiver erguido e abre os discos de tensão para passagem suave da linha.",
+    "relatedTerms": [
+      "Calcador de Bordado",
+      "Tensor Superior e Discos de Tensão",
+      "Sensor de Quebra de Linha",
+      "Laçadeira Rotativa",
+      "Barra de Agulha e Bucha Guia",
+      "Bastidor de Bordado"
+    ],
+    "tags": [
+      "t-108",
+      "trava-do-calcador",
+      "sensor-de-altura",
+      "alavanca-do-calcador",
+      "presser-foot-lifter",
+      "seguranca",
+      "intertravamento",
+      "mecanica",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BROTHER INDUSTRIES, LTD. Technical Manual: Presser Foot Sensor Microswitch & Interlock Circuitry. Nagoya, 2022.",
+      "JANOME SEWING MACHINE CO. Safety Standards & Mechanical Sensor Architecture. Tokyo, 2023.",
+      "ARTRELADOS. A Nobreza dos Mecanismos de Proteção: Segredos do Sensor do Calcador, Tensão e Segurança no Ateliê. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
   }
 ];
+
 
 
 

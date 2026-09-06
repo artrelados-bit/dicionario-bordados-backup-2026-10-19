@@ -527,5 +527,206 @@ export const VERBETES_LETTER_A3: Verbete[] = [
       "ARTRELADOS. Manual Completo de Lubrificação, Cuidados Mecânicos e Vida Útil de Máquinas de Bordar. Curitiba, 2024."
     ],
     updatedAt: "2026-08-30"
+  },
+  {
+    id: "a-101-acoplador-da-barra-de-agulha-reciprocador",
+    code: "A-101",
+    term: "Acoplador da Barra de Agulha / Reciprocador (Needle Bar Driver / Reciprocator)",
+    pronunciation: "a-co-pla-dor da bá-rra de a-gú-lha / re-ci-pro-ca-dor (ni-dol bar drai-ver / re-sí-pro-kei-tor)",
+    letter: "A",
+    level: "Avançado 🔴",
+    category: "Mecânica & Manutenção",
+    grammarClass: "Locução substantiva masculina.",
+    origin: "Desenvolvido com o advento das máquinas de bordar industriais automáticas multiagulhas nos anos 1970 e 1980 no Japão (Tajima e Barudan). Foi concebido como um elemento de transmissão linear com função de 'fusível mecânico de sacrifício', projetado especificamente para se romper antes que um impacto severo de agulha contra o bastidor destrua o virabrequim principal ou a laçadeira rotativa.",
+    summary: "Bloco usinado em polímero técnico de engenharia (ou liga de alumínio fundido) articulado à biela do eixo excêntrico que se engata seletivamente à barra de agulha em uso, transmitindo a força de descida e subida e atuando como fusível mecânico de sacrifício em caso de colisão violenta.",
+    definition: "O Acoplador da Barra de Agulha (tecnicamente denominado Reciprocador da Barra de Agulha ou pelos termos em inglês Needle Bar Driver / Reciprocator) é o componente mecânico de conexão e transmissão de força motriz situado no interior do cabeçote das máquinas de bordar industriais e semiprofissionais multiagulhas. Enquanto uma máquina doméstica de uma única agulha possui a barra conectada diretamente à biela, em uma máquina de 6, 10, 12 ou 15 agulhas apenas UMA agulha pode descer por vez. O Reciprocador permanece fixo no centro do cabeçote, subindo e descendo continuamente impulsionado pelo eixo virabrequim da máquina. Ele possui uma fenda guia com garra de engate (drive pin slot) que abraça o mordente da barra de agulha que foi posicionada exatamente em frente a ele pela Caixa de Troca de Cor. As outras 14 agulhas permanecem suspensas no alto por molas e travas. Além de converter o movimento rotativo em translação vertical com precisão milimétrica, o reciprocador é mundialmente conhecido como o 'fusível mecânico': fabricado em poliacetal (POM / Delrin) ou liga especial de zinco frangível, ele é calibrado para quebrar imediatamente se a agulha colidir com a borda do bastidor, poupando o motor, os eixos retificados e a laçadeira de um colapso catastrófico de milhares de reais.",
+    technicalDetails: "Injetado em resina de poliacetal (POM / Delrin de alta cristalinidade) aditivada com PTFE ou liga de alumínio fundido com ponto de cisalhamento controlado (Shear Stress Limit). Suporta acelerações verticais alternadas de até 1.200 ciclos por minuto (PPM) com curso vertical padrão de 32 mm a 36 mm. Possui ranhura central com tolerância de encaixe de 0,02 mm a 0,03 mm em relação ao pino da barra de agulha para eliminar qualquer folga que cause ruído ou vibração harmônica. A resistência mecânica é calculada para suportar até 250 N de força de perfuração em tecidos grossos (couro, lona e bonés estruturados), mas cisalhar instantaneamente sob impactos laterais ou frontais superiores a 400 N decorrentes de choques contra o aro plástico ou metálico do bastidor.",
+    construction: [
+      "Corpo Principal do Reciprocador: Bloco usinado em Delrin/POM autolubrificante de alta tenacidade e baixo coeficiente de atrito",
+      "Fenda de Engate da Barra (Drive Slot): Ranhura transversal com canal de encaixe rápido para o mordente da barra de agulha",
+      "Pino de Cisalhamento Calibrado (Shear Pin): Seção propositalmente mais delgada projetada para se romper sob impacto destrutivo",
+      "Mancal de Articulação da Biela: Furo com bucha de latão ou rolamento de agulhas para conexão com a haste oscilante excêntrica",
+      "Canaleta de Deslizamento do Eixo Guia: Alojamento cilíndrico retificado que corre sobre a barra guia vertical de sustentação",
+      "Mola Retentora de Posição: Mola de aço inox que evita o desencaixe acidental da barra durante a vibração de alta velocidade"
+    ],
+    howItWorks: [
+      "1. A Caixa de Troca de Cor desliza o bloco de agulhas e posiciona a Agulha 5 no centro do cabeçote.",
+      "2. O mordente metálico da Barra de Agulha 5 desliza para dentro da fenda receptora do Reciprocador.",
+      "3. As outras barras de agulha ficam fora da fenda, mantidas no Ponto Morto Superior por suas molas superiores.",
+      "4. O motor principal aciona o eixo excêntrico, que empurra a biela e faz o Reciprocador descer e subir em linha reta.",
+      "5. O reciprocador conduz a Barra de Agulha 5 até furar o tecido e alcançar a laçadeira a mais de 800 vezes por minuto.",
+      "6. Se por acidente o bastidor bater na agulha durante o bordado, a resistência extrema quebra o pino de plástico do Reciprocador num estalo seco, desacoplando a barra instantaneamente e salvando a mecânica nobre da máquina de ser destruída!"
+    ],
+    beginnerExplanation: "O Reciprocador (ou Acoplador) é o 'guarda-costas mecânico' da sua máquina multiagulhas! Pense comigo: a sua máquina tem 12 ou 15 agulhas, mas só pode bordar com uma agulha por vez, certo? Quem escolhe e puxa para baixo a agulha da cor certa é o reciprocador! Ele é uma pecinha de plástico super-resistente que sobe e desce sem parar. Quando o carrinho troca de cor, a agulha certa encaixa nele e ele a puxa para bordar! E o mais genial: ele é feito de um plástico especial para quebrar de propósito! Se um dia o bastidor bater com tudo na agulha, essa pecinha quebra com um estalo e para a máquina na hora, evitando que o motor queime ou que o ferro da máquina entorte!",
+    applications: [
+      "Acoplamento seletivo e acionamento vertical exclusivo da agulha em uso em máquinas industriais multiagulhas",
+      "Proteção de fusível mecânico de sacrifício contra colisões destrutivas de bastidor e agulha",
+      "Absorção de vibrações de alta frequência geradas pela penetração da agulha a mais de 1.000 PPM",
+      "Manutenção da concentricidade do curso da agulha em relação ao orifício da chapa e bico da laçadeira",
+      "Transmissão homogênea de torque em bordados pesados de bonés, jaquetas de couro e calçados"
+    ],
+    mainTypes: [
+      "Reciprocador de Plástico Técnico (POM / Delrin): O padrão mundial mais seguro (Tajima, Brother, Bai, RiCOMA), projetado para romper sob choque",
+      "Reciprocador Metálico de Alumínio / Zamak: Utilizado em modelos industriais pesados com pino de quebra postiço substituível",
+      "Reciprocador Duplo para Máquinas de Ponto Duplo: Mecanismo que engata duas barras paralelas para bordados com agulha gêmea",
+      "Reciprocador de Troca Rápida (Quick-Release): Modelo moderno que permite substituir a peça rompida em menos de 10 minutos sem desmontar o cabeçote"
+    ],
+    recommendedSettings: {
+      speedPPM: "Projetado para operar estavelmente em regimes contínuos de 400 a 1.200 PPM",
+      needleType: "Universal para todos os calibres de agulha industrial (DBxK5 e 130/705 H)",
+      stabilizer: "Universal para todas as entretelas"
+    },
+    advantages: [
+      "✔ Atua como seguro de vida da máquina: uma pecinha barata de reposição que salva um cabeçote inteiro de milhares de reais",
+      "✔ Funcionamento suave e silencioso proporcionado pelo baixo coeficiente de atrito do poliacetal",
+      "✔ Encaixe milimétrico que elimina o jogo vertical e garante a altura exata do laço inferior",
+      "✔ Peça padronizada e de fácil aquisição no mercado de reposição de bordado eletrônico"
+    ],
+    limitations: [
+      "É uma peça de desgaste e sacrifício: em caso de batida severa de bastidor, ela se romperá e exigirá substituição.",
+      "Requer lubrificação periódica do seu eixo guia de aço com graxa branca para evitar aquecimento por atrito."
+    ],
+    commonErrors: [
+      "❌ Substituir um reciprocador quebrado de plástico por uma peça caseira de ferro maciço, transferindo a pancada da próxima batida para o eixo principal da máquina.",
+      "❌ Borda sem conferir a área de bordado no botão Trace do painel, fazendo o bastidor colidir de frente com o cabeçote.",
+      "❌ Deixar o eixo guia do reciprocador seco e sem graxa de lítio, causando aquecimento, deformação plástica e travamento da barra.",
+      "❌ Continuar forçando o motor da máquina após ouvir o estalo característico de rompimento do reciprocador."
+    ],
+    troubleshootingTips: [
+      "A máquina faz o barulho do motor girando normal mas a agulha não sobe nem desce: O reciprocador quebrou (geralmente após uma quebra feia de agulha ou batida de bastidor); retire a tampa plástica frontal do cabeçote e verifique se a orelha de plástico do reciprocador está partida ao meio.",
+      "A máquina perdeu a sincronia e começou a bater agulha na chapa logo após trocar de reciprocador: A altura do reciprocador ou o mordente da barra foi fixado fora da marcação milimétrica de fábrica; recalibre a altura da barra com o gabarito padrão.",
+      "Cheiro de plástico quente ou chiado no cabeçote em alta velocidade: O reciprocador está deslizando a seco sobre a haste guia de aço; aplique graxa branca especial para engrenagens plásticas na canaleta traseira."
+    ],
+    dicaArtrelados: "Bordadeira prevenida nunca para a produção! O reciprocador custa uma fração do valor de uma revisão técnica e é a peça que mais protege a sua máquina de bordar multiagulhas. A Dica de Ouro da Artrelados para donas de ateliê é: tenha sempre UM reciprocador reserva novinho guardado na gaveta de ferramentas da sua máquina! Se um dia um bastidor de boné escapar ou bater e quebrar o reciprocador, em meia hora você ou seu técnico trocam a pecinha e seu ateliê volta a faturar no mesmo dia, sem esperar semanas por encomendas de peças!",
+    "voceSabia": "A engenharia do reciprocador foi inspirada nos parafusos de cisalhamento das hélices de barcos e dos aviões monomotores! Em vez de tentar fazer uma peça indestrutível que arrebentaria o motor se a hélice batesse numa pedra, os engenheiros criaram uma peça que se quebra primeiro para salvar todo o resto. No bordado computadorizado, o reciprocador já salvou milhões de cabeçotes de irem para a sucata após batidas de bastidor!",
+    "practicalExercise": "Localização Visual do Reciprocador no Cabeçote: Com a máquina desligada e em segurança, olhe por cima ou pela fresta frontal das barras de agulha com o auxílio de uma lanterna. Observe que no centro do cabeçote existe um bloco de plástico branco ou preto onde a barra de agulha que está no meio fica encaixada. Gire o volante com a mão devagar: veja como esse bloco sobe e desce abraçando a barra de agulha, enquanto todas as outras barras laterais ficam dormindo quietinhas no alto! Essa dança é a mágica do reciprocador!",
+    "quickSummary": "Componente de transmissão linear em polímero técnico que engata na barra de agulha selecionada e atua como fusível mecânico de sacrifício contra colisões de bastidor.",
+    "relatedTerms": [
+      "Barra de Agulha e Bucha Guia",
+      "Caixa de Troca de Cor / Came Seletor de Agulhas",
+      "Calcador de Bordado",
+      "Velocidade PPM",
+      "Chapa de Agulha",
+      "Traçado da Área de Bordado (Trace)"
+    ],
+    "tags": [
+      "a-101",
+      "acoplador",
+      "reciprocador",
+      "needle-bar-driver",
+      "fusivel-mecanico",
+      "multiagulhas",
+      "mecanica",
+      "manutencao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Needle Bar Driver & Reciprocator Replacement Procedure Manual. Nagoya: Tajima, 2023.",
+      "BROTHER INDUSTRIES, LTD. Technical Bulletin: Multi-Needle Reciprocator Assembly and Shear Safety Standards. Nagoya, 2022.",
+      "ARTRELADOS. O Guarda-Costas da Máquina: Diagnóstico, Substituição e Segredos do Reciprocador no Bordado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "a-102-agulha-de-gancho-crochet-lingueta-chenille",
+    "code": "A-102",
+    "term": "Agulha de Gancho / Agulha Crochet com Lingueta (Chenille Latch Needle)",
+    "pronunciation": "a-gú-lha de gán-cho / a-gú-lha cro-chê com lin-guê-ta (xe-níl látch ní-dol)",
+    "letter": "A",
+    "level": "Avançado 🔴",
+    "category": "Agulhas & Linhas",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Inventada no século XIX para teares circulares de malharia por Matthew Townsend (1849) e adaptada na virada do século XX para as máquinas manuais de bordado em corrente e chenille (Cornely na França e Lintz & Eckhardt na Alemanha). Foi incorporada à mecatrônica computadorizada nos anos 1980 pela Tajima e Barudan com os cabeçotes mistos automáticos de ponto esponja.",
+    "summary": "Agulha técnica sem olho convencional dotada de ponta em formato de gancho curvo e uma micro-lingueta basculante articulada, utilizada em cabeçotes de bordado chenille para pescar a linha grossa por baixo da chapa e laçá-la na superfície formando o ponto toalhado.",
+    "definition": "A Agulha de Gancho ou Agulha Crochet com Lingueta (conhecida internacionalmente como Chenille Latch Needle, Moss Stitch Needle ou Agulha Cornely) é a ferramenta de penetração e laçada exclusiva dos cabeçotes de bordado estilo Chenille (ponto esponja/moss stitch e ponto corrente/chain stitch). Ao contrário de qualquer agulha de costura ou bordado convencional — que possui um olho perfurado no meio da lâmina por onde o fio corre continuamente —, a agulha de chenille é totalmente oca por fora, terminando em um bico curvo semelhante a uma microagulha de crochê associada a uma minúscula lingueta de aço articulada sobre um rebite microscópico. A máquina de chenille opera com o rolo de linha de lã, acrílico ou meada grossa posicionado por BAIXO da chapa de agulha. A agulha desce totalmente vazia, fura o tecido com a lingueta aberta; sob a chapa, o bico direcionador (nipple/looper) enrola o fio grosso dentro do gancho. Quando a agulha inicia a subida, a própria resistência do tecido empurra a lingueta contra o bico do gancho, fechando-o hermeticamente para não perder o fio. Ao emergir na face superior do tecido, a agulha puxa uma alça fofa de fio; o bocal superior retém a laçada na altura calibrada e a agulha desce novamente para o próximo furo, onde a laçada anterior abre a lingueta e se liberta, criando a textura aveludada contínua característica das jaquetas universitárias.",
+    "technicalDetails": "Fabricada em aço-carbono ligado ao vanádio retificado e polido com dureza superior a 62 HRC para suportar o atrito abrasivo de fios grossos e ásperos de acrílico e lã. As numerações típicas para bordado chenille variam do calibre 1 a 6 (equivalentes a diâmetros de haste de 0,9 mm a 2,0 mm, ou sistemas de fábrica como Schmetz 240/120 ou Organ Chenille). A micro-lingueta basculante (latch) possui curso angular de 140° a 160° com folga de articulação inferior a 0,005 mm para não morder filamentos. A profundidade de penetração é controlada digitalmente para regular a altura do veludo toalhado entre 1,5 mm e 4,0 mm.",
+    "construction": [
+      "Haste de Fixação Cilíndrica: Corpo robusto que se encaixa no mandril do cabeçote de chenille",
+      "Lâmina Cilíndrica Fina Retificada: Seção delgada que penetra o tecido sem romper a trama têxtil",
+      "Gancho Curvo de Captura (Hook): Extremidade em formato de semicírculo polido que retém a meada de fio",
+      "Lingueta Basculante Móvel (Latch / Tongue): Pequena lâmina de aço que gira sobre um micro-rebite fechando a boca do gancho na subida",
+      "Rebite Articulado Microscópico: Eixo transversal de tolerância cirúrgica que permite o basculamento livre da lingueta",
+      "Ranhura de Acomodação (Latch Slot): Rebaixo na lâmina onde a lingueta descansa totalmente nivelada para não prender no tecido"
+    ],
+    "howItWorks": [
+      "1. A agulha de gancho desce com a lingueta aberta, perfurando o tecido e a entretela.",
+      "2. A ponta do gancho ultrapassa a chapa inferior e atinge o nível da tubeira direcionadora de fio.",
+      "3. A tubeira (looper) gira 360° ao redor da agulha e laça a meada grossa de lã dentro do gancho aberto.",
+      "4. A agulha inicia a subida: o atrito do tecido empurra a lingueta para cima, fechando o gancho e aprisionando a linha com segurança.",
+      "5. A agulha sobe através do tecido trazendo a laçada fechada para a superfície.",
+      "6. No topo, a lingueta se abre ao bater no bocal de retenção e solta a alça de linha fofa no direito da peça.",
+      "7. O pantógrafo se move um passo e o ciclo se repete: centenas de laçadas densas ficam em pé lado a lado formando o veludo toalhado (chenille)!"
+    ],
+    "beginnerExplanation": "A Agulha de Gancho de Chenille é como se fosse uma 'mini-agulha de crochê mágica' que trabalha na máquina! Em vez de ter um buraquinho no meio igual à agulha comum, ela tem um ganchinho com uma tampinha que abre e fecha (a lingueta)! Ela fura o tecido vazia, pega uma linha grossa e quentinha de lã lá embaixo por baixo da chapa, fecha a portinha para não deixar a linha cair, sobe puxando uma alça fofa para cima do pano e solta a laçada! É assim que nascem aqueles bordados toalhados fofinhos e peludinhos de letras de jaquetas americanas colegiais!",
+    "applications": [
+      "Confecção de bordados toalhados tipo Chenille (Moss Stitch) em jaquetas universitárias (Letterman jackets)",
+      "Bordado de ponto corrente contínuo (Chain Stitch) para monogramas clássicos e caligrafia retrô",
+      "Customização de moletons pesados, casacos de lã, tapeçarias e almofadas decorativas",
+      "Combinação em cabeçotes híbridos (máquinas que bordam ponto cheio tradicional e chenille na mesma peça)",
+      "Bordados infantis com textura tátil tridimensional que imita pelos de ursinhos e animais de pelúcia"
+    ],
+    "mainTypes": [
+      "Agulha de Gancho Fina (Calibre 1 a 2): Para fios de acrílico finos e contornos delicados de ponto corrente",
+      "Agulha de Gancho Média (Calibre 3 a 4): O padrão industrial universal para ponto esponja em moletons e jaquetas",
+      "Agulha de Gancho Grossa (Calibre 5 a 6): Projetada para meadas de lã grossa, fios mesclados e tapeçaria rústica",
+      "Agulha de Gancho com Ponta de Bola: Especial para malhas de tricô evitando perfurações ou rompimento de pontos"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "500 a 700 PPM em cabeçotes de chenille computadorizados para evitar o desfilamento do fio",
+      "needleType": "Sistema Organ Chenille ou Schmetz 240 / Latch Needle",
+      "stabilizer": "Entretela rasgável pesada ou entretela hidrossolúvel de filme grosso"
+    },
+    "advantages": [
+      "✔ Cria texturas aveludadas e fofas incomparáveis que nenhuma agulha convencional consegue reproduzir",
+      "✔ Sistema de lingueta móvel autossuficiente que dispensa a presença de laçadeira rotativa superior",
+      "✔ Agilidade e densidade impressionantes com cobertura volumosa e rápida de grandes áreas",
+      "✔ Elevado valor agregado comercial nas peças de vestuário e moda jovem"
+    ],
+    "limitations": [
+      "A lingueta é extremamente delicada: se a agulha bater em um botão ou zíper, a lingueta entorta e a agulha se torna inutilizável.",
+      "Requer calibragem milimétrica da sincronia entre a descida da agulha e a rotação da tubeira de fio inferior."
+    ],
+    "commonErrors": [
+      "❌ Tentar desentortar a lingueta de aço com alicate comum, quebrando o micro-rebite de articulação.",
+      "❌ Usar linha de costura comum de poliéster 120, que escapa do gancho por ser fina demais para o calibre da agulha.",
+      "❌ Borda sobre tecidos com apliques de metal ou rebites que colidam diretamente com o bico do gancho.",
+      "❌ Não limpar a canaleta da lingueta, acumulando felpas de lã que impedem o fechamento completo da agulha."
+    ],
+    "troubleshootingTips": [
+      "O bordado toalhado está se desmanchando como se o ponto estivesse desfiando: A agulha de gancho está com a lingueta emperrada aberta ou torta; a laçada não foi fechada na subida e o fio não ancorou; substitua a agulha por uma nova.",
+      "A agulha corta o tecido em vez de laçar a lã: A numeração da agulha está grossa demais para a trama do tecido; reduza o calibre para número 2 ou 3 e verifique se a ponta do gancho não possui rebarbas.",
+      "Falhas constantes na formação das alças fofas: O bico direcionador (looper inferior) está fora de tempo em relação ao gancho; regule o sincronismo angular da tubeira inferior de acordo com o manual do cabeçote."
+    ],
+    "dicaArtrelados": "Ao trabalhar com agulhas de gancho chenille, faça o 'Teste do Sopro e da Queda Livre' da Artrelados: segure a agulha na vertical contra a luz e dê um sopro leve na lingueta. Ela deve cair para baixo e bascular para cima com a facilidade de uma folha seca ao vento, sem travar nem raspar na canaleta! Se a lingueta estiver dura ou pesada, passe uma escovinha macia com álcool isopropílico no micro-rebite: ela precisa estar 100% livre para laçar o fio a 600 batidas por minuto!",
+    "voceSabia": "A agulha de lingueta revolucionou o mundo têxtil no século XIX quando Matthew Townsend percebeu que as bordadeiras perdiam horas fazendo laçadas com agulhas manuais. A sua invenção mecânica foi tão perfeita que o mesmíssimo princípio daquela patente de 1849 é utilizado até hoje nas máquinas de bordar industriais mais caras e modernas do Japão e da Alemanha!",
+    "practicalExercise": "Inspeção Visual com Lupa da Lingueta de Chenille: Pegue uma agulha de gancho de chenille e observe a ponta com uma lupa ou a câmera de zoom do celular. Movimente a lingueta com a ponta de uma linha: veja como ela se encaixa com perfeição milimétrica dentro do gancho, formando uma ponte contínua e lisa para o tecido escorregar na subida sem enroscar. É uma verdadeira joia da microengenharia de precisão!",
+    "quickSummary": "Agulha sem olho com ponta em gancho e micro-lingueta basculante que pesca o fio grosso sob a chapa e produz o ponto toalhado chenille na superfície do tecido.",
+    "relatedTerms": [
+      "Bico Direcionador de Fio / Tubeira de Laçada (Looper Nozzle)",
+      "Ponto Chenille (Ponto Toalhado)",
+      "Ponto Corrente (Chain Stitch)",
+      "Cabeçote Misto de Bordado",
+      "Entretela Rasgável",
+      "Barra de Agulha e Bucha Guia"
+    ],
+    "tags": [
+      "a-102",
+      "agulha-de-gancho",
+      "chenille",
+      "latch-needle",
+      "crochet-needle",
+      "ponto-esponja",
+      "ponto-toalhado",
+      "moss-stitch",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Chenille and Chain Stitch Head Operations & Latch Needle Calibration Guide. Nagoya: Tajima, 2023.",
+      "SCHMETZ NEEDLES GMBH. Special Purpose Needles: Latch and Crochet Needles for Industrial Embroidery. Herzogenrath, 2022.",
+      "ARTRELADOS. O Toque Aveludado do Bordado: Tudo sobre Agulhas de Gancho, Ponto Chenille e Cuidados Técnicos. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
   }
 ];
+
+

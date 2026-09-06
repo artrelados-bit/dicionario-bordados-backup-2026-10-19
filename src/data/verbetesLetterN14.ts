@@ -807,5 +807,108 @@ export const VERBETES_LETTER_N_PART14: Verbete[] = [
     "quickSummary": "O selo mundial que garante que suas linhas e entretelas não têm veneno e são 100% seguras para roupas de bebê.",
     "beginnerExplanation": "É um selo internacional de garantia de saúde que prova que as linhas e entretelas que você usa não têm produtos químicos perigosos, chumbo ou tintas que façam mal: assim as mamães podem ficar tranquilas porque a roupinha bordada é 100% segura para a pele e a boquinha do bebê recém-nascido!",
     "updatedAt": "2026-08-29"
+  },
+  {
+    "id": "n-101-navalha-movel-e-navalha-fixa-do-corte-de-linha-trimmer",
+    "code": "N-101",
+    "term": "Navalha Móvel e Navalha Fixa do Corte de Linha (Lâminas do Trimmer / Moving & Fixed Knife)",
+    "pronunciation": "na-va-lha mó-vel e na-va-lha fik-sa do cór-ti de li-nha (lâ-mi-nas do tri-mer / mu-vin end fik-sed nai-fi)",
+    "letter": "N",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Desenvolvido na segunda metade do século XX com a automação eletromecânica das primeiras máquinas de bordar industriais multi-cabeças no Japão (Tajima, Barudan e Brother). Substituiu a demorada e arriscada limpeza manual de fios de salto feita com tesouras de arremate, incorporando um sistema de corte automatizado acionado por solenoides elétricos sob a chapa de agulha.",
+    "summary": "Conjunto de corte automatizado de alta precisão situado sob a chapa da agulha, composto por uma lâmina oscilante em formato de gancho (navalha móvel) que captura simultaneamente a linha da agulha e a linha da bobina e as cisalha contra uma lâmina de aço de alta dureza (navalha fixa).",
+    "definition": "A Navalha Móvel e a Navalha Fixa (conhecidas conjuntamente como Conjunto de Lâminas do Trimmer, Tesoura Automática de Base ou Moving & Fixed Knife Assembly) formam o núcleo mecânico do sistema de corte automático de linha (Underbed Thread Trimmer - UTT) de qualquer máquina de bordar computadorizada moderna. Instalado estrategicamente no leito inferior imediatamente abaixo da chapa de agulha e ao lado da laçadeira rotativa, o mecanismo opera em fração de segundo após o término de um bloco de pontos, em trocas de cor de linha ou antes de saltos de bastidor. A navalha móvel (dotada de um gancho perfilado e fio cortante) avança tracionada por uma biela, solenoide ou servomotor, 'pesca' simultaneamente a perna do fio da agulha e a ponta da linha da bobina, puxa-as em direção ao centro e as pressiona em movimento de tesoura (cisalhamento mecânico) contra o gume retificado da navalha fixa de aço rápido (HSS), decepando ambas as linhas com corte limpo e deixando sobras milimétricas ideais para a retomada do próximo ponto.",
+    "technicalDetails": "Fabricadas em aço-ferramenta de alta liga e dureza extrema (HRC 60 a 64 na escala Rockwell C) ou pastilhas de metal duro (carbureto de tungstênio) para resistir ao atrito abrasivo contínuo de fios de poliéster e filamentos metálicos. A pressão de contato entre a navalha móvel e a navalha fixa é mantida por molas de pressão calibradas ou parafusos micrométricos de ajuste. O curso de avanço da navalha móvel varia entre 12 mm e 22 mm dependendo da marca e modelo da máquina. Em conjunto com a navalha fixa, atua uma lâmina elástica de retenção (Thread Retaining Spring / Bobbin Thread Holder), responsável por prender a pontinha da linha da bobina cortada para que ela não escape da caixa de bobina no reinício do bordado.",
+    "construction": [
+      "Navalha Móvel (Moving Knife): Lâmina curva com gancho capturador na ponta e gume de corte chanfrado na lateral",
+      "Navalha Fixa (Fixed Knife / Counter Knife): Barra plana de aço retificado de alta dureza aparafusada na base do chassi inferior",
+      "Mola Retentora de Linha da Bobina: Lâmina de latão ou aço mola que segura suavemente a ponta da linha de baixo após o corte",
+      "Biela e Alavanca de Acionamento: Haste mecânica conectada ao solenoide de disparo ou ao excêntrico do eixo principal",
+      "Parafuso de Regulagem de Pressão: Elemento que calibra a pressão de contato entre as duas lâminas para evitar mordedura sem corte",
+      "Solenoide de Corte de Linha: Eletroímã de disparo rápido que puxa o conjunto de navalhas no instante exato determinado pelo comando do software"
+    ],
+    "howItWorks": [
+      "1. A máquina conclui o bordado de uma letra ou cor e a agulha sobe até a posição de parada superior.",
+      "2. A placa de comando eletrônico aciona o solenoide ou motor de corte embaixo da chapa da agulha.",
+      "3. A Navalha Móvel avança em arco por baixo da chapa de agulha e entra no espaço entre a laçadeira e a caixa de bobina.",
+      "4. O ganchinho da navalha móvel engata as duas linhas (a linha superior que vem da agulha e a linha inferior que sai da bobina).",
+      "5. Ao recuar, a navalha móvel puxa as duas linhas contra o gume afiado da Navalha Fixa, realizando o cisalhamento instantâneo em forma de tesoura.",
+      "6. A mola retentora prende a pontinha da linha da bobina para o próximo início, e o bastidor salta livremente para o próximo ponto sem repuxar o bordado!"
+    ],
+    "beginnerExplanation": "A Navalha Móvel e a Navalha Fixa são a 'tesourinha secreta' que mora escondidinha embaixo da chapa da sua máquina de bordar! Sabe quando a máquina termina de bordar uma letrinha e dá aquele estalinho gostoso 'clic!', corta a linha sozinha e pula para a próxima letra sem você precisar fazer nada? Foram essas duas lâminas! A navalha móvel é como um ganchinho com faquinha que vai lá no fundo, pesca as duas linhas (a de cima e a de baixo), traz de volta e esmaga contra a faquinha fixa, cortando tudo num piscar de olhos! Se elas ficarem cegas ou cheias de fiapos, a linha não corta e a máquina sai arrastando o tecido pelo bastidor!",
+    "applications": [
+      "Corte automatizado de saltos de linha entre letras, palavras e objetos isolados da matriz",
+      "Corte limpo de fios em trocas automáticas de cores em máquinas multiagulhas e domésticas",
+      "Prevenção do estiramento e deformação do tecido durante deslocamentos rápidos do pantógrafo",
+      "Redução drástica do tempo de acabamento e limpeza manual de fios no ateliê de bordado",
+      "Manutenção da ponta residual exata de linha de bobina para evitar desenfiamentos no ponto inicial"
+    ],
+    "mainTypes": [
+      "Sistema de Corte Rotativo (Rotary Trimmer): Encontrado em máquinas industriais Tajima e Barudan, com navalha móvel em disco rotativo",
+      "Sistema de Corte Linear / Oscilante (Reciprocating Trimmer): Sistema tradicional com haste móvel deslizante encontrado em máquinas Brother, Janome e Bai",
+      "Navalhas com Pastilha de Metal Duro (Tungsten Carbide): Modelos de alta durabilidade projetados para resistir ao corte abrasivo de linhas metálicas e de lurex",
+      "Conjunto de Navalha com Sucção a Vácuo: Módulo industrial de altíssimo padrão que aspira as pontas cortadas de linha para dentro de um coletor"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "O ciclo de corte opera durante a desaceleração programada da máquina de 100 a 250 RPM até a parada no ponto morto superior",
+      "needleType": "Projetado para operar em perfeita harmonia com agulhas finas e grossas (tamanhos 65/9 a 90/14)",
+      "stabilizer": "Adequado para todas as entretelas, exigindo atenção especial à limpeza de resíduos de entretela solúvel ou adesiva"
+    },
+    "advantages": [
+      "✔ Agilidade incomparável na produção, realizando cortes precisos em menos de 0,3 segundo",
+      "✔ Elimina 95% do trabalho manual cansativo de cortar linhas de salto com tesourinha de arremate",
+      "✔ Mantém o comprimento da ponta de linha perfeitamente calibrado para a retomada do próximo ponto",
+      "✔ Fabricado em aços especiais temperados de alta dureza para suportar centenas de milhares de cortes sem perder o fio"
+    ],
+    "limitations": [
+      "Sujeito a cegamento prematuro se a máquina bordar constantemente fios metálicos abrasivos sem limpeza.",
+      "Acúmulo de poeira de entretela e cerdas de linha sob a chapa pode travar o movimento do mecanismo."
+    ],
+    "commonErrors": [
+      "❌ Continuar bordando quando a máquina falha o corte, permitindo que o bastidor salte e repuxe o tecido deformando a peça.",
+      "❌ Limpar a área das navalhas com chaves de fenda ou tesouras pontiagudas de aço duro, riscando ou lascando o fio afiado das lâminas.",
+      "❌ Apertar excessivamente o parafuso de regulagem das navalhas, travando o solenoide de corte e queimando o fusível ou bobina eletrônica.",
+      "❌ Deixar fiapos de linha embolados na mola retentora, fazendo com que a linha da bobina escape da caixa no primeiro ponto."
+    ],
+    "troubleshootingTips": [
+      "Máquina dá o comando de corte mas a linha não corta e arrasta o bastidor: Retire a chapa da agulha e limpe com um pincel e ar comprimido; se não houver sujeira, a navalha fixa e a móvel perderam o fio de corte e precisam ser substituídas ou afiadas por um técnico.",
+      "Linha da bobina escapando da caixa logo após o corte (a máquina começa a bordar no ar): A molinha de retenção de linha de baixo está com fiapo ou sem pressão; limpe a molinha de latão com uma folha de papel sulfite dobrada.",
+      "Barulho de batida seca 'clac!' no momento do corte seguido de aviso de erro de corte no painel: A navalha móvel não conseguiu voltar à posição inicial por acúmulo de sujeira na guia da biela; limpe os trilhos de deslizamento e aplique uma gota de óleo mineral branco."
+    ],
+    "dicaArtrelados": "Se a sua máquina começar a 'mascar' a linha na hora de cortar (desfiando o fio sem decepar de vez), nunca tente afiar as navalhas com lixas comuns! As lâminas têm um ângulo micrométrico de 45° retificado a laser. Mas faça este truque de ateliê da Artrelados: desmonte a chapa da agulha, retire a navalha móvel e a fixa e passe a pontinha de um pano com álcool isopropílico. Nove entre dez vezes a navalha não está cega: é apenas cola invisível de entretela termocolante e cera de linha grudada no gume que impede o fechamento perfeito da lâmina! Limpe, remonte com carinho e veja ela voltar a cortar com um estalo perfeito!",
+    "voceSabia": "Antes da invenção do sistema de corte automático de navalhas sob a chapa, cada bordado que tinha 10 cores e 15 nomes exigia que a bordadeira ficasse com uma tesourinha na mão cortando manualmente cada pedacinho de linha que cruzava as letras! O sistema de navalha móvel e fixa economiza mais de 40 minutos de trabalho braçal em uma única jaqueta ou toalha bordada, sendo uma das maiores invenções de produtividade de toda a história têxtil!",
+    "practicalExercise": "Diagnóstico Visual das Navalhas de Corte: Desligue a máquina, retire o bastidor e remova os dois parafusos da chapa da agulha com a chave original. Com uma lanterna bem forte ou o flash do celular, ilumine a área da laçadeira e localize a ponta de aço curvada da navalha móvel. Com um pincel de cerdas macias, varra todo o pó acumulado e os restos de linha cortada que ficam na gavetinha das lâminas. Veja como a tesourinha fica brilhando limpa e pronta para o próximo trabalho!",
+    "quickSummary": "Conjunto de lâminas de alta precisão (uma fixa e uma móvel em forma de gancho) que decepa automaticamente as linhas superior e inferior em saltos e trocas de cor.",
+    "relatedTerms": [
+      "Chapa de Agulha",
+      "Caixa de Bobina",
+      "Laçadeira Rotativa",
+      "Salto de Ponto",
+      "Quebra de Linha",
+      "Tempo da Máquina de Bordar",
+      "Mola Tira-Fio / Mola de Compensação"
+    ],
+    "tags": [
+      "n-101",
+      "navalha-movel",
+      "navalha-fixa",
+      "trimmer",
+      "corte-de-linha",
+      "moving-knife",
+      "fixed-knife",
+      "mecanica",
+      "manutencao",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Thread Trimming Mechanism: Technical Manual & Knife Timing Adjustment. Nagoya: Tajima, 2023.",
+      "BROTHER INDUSTRIES, LTD. Service Manual: Underbed Thread Trimmer (UTT) Assembly and Blade Replacement. Nagoya, 2022.",
+      "ARTRELADOS. A Tesourinha Secreta da Máquina: Manutenção, Limpeza e Diagnóstico das Navalhas de Corte de Linha. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
   }
 ];
+

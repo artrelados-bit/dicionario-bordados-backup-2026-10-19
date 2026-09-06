@@ -914,6 +914,108 @@ export const VERBETES_LETTER_P_PART14: Verbete[] = [
       "ARTRELADOS. O Ecossistema Brother: Criatividade, Digitalização e Produção com o PE-Design. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "p-102-pescador-de-linha-alavanca-pega-fio-do-trimmer-wiper",
+    "code": "P-102",
+    "term": "Pescador de Linha / Alavanca Pega-Fio do Trimmer (Thread Wiper / Hook Wiper)",
+    "pronunciation": "pes-ca-dor de li-nha / a-la-van-ca pé-ga fío do tri-mer (tréd uai-per / ruk uai-per)",
+    "letter": "P",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Criado na década de 1970 pelos pioneiros da mecatrônica de bordado industrial no Japão (Tajima e Barudan). Desenvolvido para resolver o antigo problema do 'fio enterrado': quando a navalha cortava a linha da agulha por baixo da chapa, a ponta superior solta caía sobre o tecido e era costurada por cima no recomeço do ponto, obrigando as bordadeiras a fazerem um retrabalho manual exaustivo com pinças para puxar o fio preso.",
+    "summary": "Mecanismo eletromecânico articulado localizado na parte frontal inferior do cabeçote, dotado de um gancho metálico oscilante que desce em fração de segundo após o corte de linha automático, laça a ponta superior do fio rente à agulha e a arremessa para cima ou para trás do calcador.",
+    "definition": "O Pescador de Linha (conhecido tecnicamente na engenharia de máquinas industriais como Alavanca Pega-Fio do Trimmer, Vareta Limpadora de Linha ou pelo termo internacional Thread Wiper / Hook Wiper) é um mecanismo auxiliar do sistema de corte automático de linha (Trimmer) montado na face frontal inferior do cabeçote da máquina de bordar, imediatamente adjacente à barra de agulha e ao pé calcador. Consiste em uma haste delgada de aço mola ou arame conformado de precisão com extremidade em forma de gancho curvo, acionada por um solenoide magnético independente ou por tirantes mecânicos sincronizados com a biela de corte. No exato milissegundo em que a navalha inferior decepa o fio sob a chapa de agulha e a barra de agulha atinge o ponto morto superior, o solenoide do wiper dispara: a haste desce rapidamente em movimento pendular rasante pela frente da agulha, 'pesca' a ponta da linha que sobrou pendurada no olho da agulha e a joga para cima e para trás, alojando-a sobre o pé calcador ou em uma presilha elástica de velcro/mola superior. Esse movimento impede que a sobra de linha caia na área de costura e seja engolida e costurada pelos primeiros pontos do próximo objeto de bordado.",
+    "technicalDetails": "Usinado em arame de aço inoxidável austenítico polido (diâmetro de 1,0 mm a 1,6 mm) para evitar rebarbas que possam desfiar filamentos de poliéster ou cortar fios metálicos. O acionamento é feito por um solenoide de curso curto de 24V DC com tempo de atuação inferior a 25 milissegundos (ms). A altura de passagem da ponta do gancho do pescador em relação à ponta da agulha no Ponto Morto Superior (PMS) é rigorosamente calibrada entre 1,5 mm e 2,5 mm, e a distância lateral da lâmina da agulha deve ser mantida em 1,0 mm a 1,5 mm. Se o gancho passar colado demais, colide com o olho da agulha e a entorta; se passar muito afastado, falha na pescaria do fio.",
+    "construction": [
+      "Haste Oscilante do Pescador (Wiper Arm): Vareta de aço conformado com ponta em gancho polido espelhado",
+      "Solenoide de Acionamento do Wiper: Eletroímã de ação ultrarrápida responsável pelo disparo descendente da haste",
+      "Mola de Retorno Helicoidal: Micro-mola que recolhe o pescador para a posição de repouso acima do cabeçote",
+      "Eixo de Articulação com Bucha de Latão: Mancal de giro suave que garante alinhamento angular estável",
+      "Parafuso de Calibragem de Altura e Folga: Elemento de regulagem milimétrica para ajuste do arco de varredura do gancho",
+      "Presilha Superior de Espera (Thread Hook / Clip): Lâmina ou feltro que segura a linha pescada longe da zona de descida da agulha"
+    ],
+    "howItWorks": [
+      "1. A máquina borda o último ponto de uma cor ou letra e para a agulha no Ponto Morto Superior (PMS).",
+      "2. A navalha móvel embaixo da chapa corta a linha superior e a linha da bobina.",
+      "3. No instante do corte, a pontinha da linha superior fica frouxa e pendurada para fora do furo da agulha.",
+      "4. O solenoide do Pescador de Linha (Wiper) dispara com um clique seco e projeta a haste metálica para baixo em arco.",
+      "5. O ganchinho passa milimetricamente pela frente da agulha e engancha a sobra de linha solta.",
+      "6. Ao retornar em alta velocidade impulsionado pela mola, o pescador puxa a linha para cima e a joga por cima do pé calcador.",
+      "7. O bastidor salta livremente e, ao reiniciar o próximo bordado, a ponta da linha fica estendida para cima, garantindo um início limpo sem nenhuma linha presa ou embolada embaixo dos pontos!"
+    ],
+    "beginnerExplanation": "O Pescador de Linha (ou Wiper) é como uma 'mãozinha rápida' com um ganchinho que desce na frente da agulha assim que a máquina corta a linha! Sabe quando a máquina corta a linha e sobra aquela pontinha de fio pendurada no buraquinho da agulha? Se ninguém fizesse nada, essa pontinha cairia no tecido e, quando a máquina começasse a bordar a próxima letra, passaria por cima dela e costuraria a ponta soterrada debaixo do bordado! É aí que o Pescador desce rapidinho feito um raio, 'pesca' essa pontinha de linha e joga ela para cima do pezinho da máquina! Assim o bordado novo começa limpinho, perfeito e sem nenhuma ponta feia enterrada!",
+    "applications": [
+      "Remoção automática da ponta de linha do olho da agulha após o corte em máquinas industriais e semiprofissionais",
+      "Prevenção do defeito de 'linha soterrada' (fio preso sob os pontos iniciais de preenchimentos e contornos)",
+      "Garantia de acabamento de alta-costura em bordados sobre tecidos claros com linhas escuras",
+      "Eliminação do retrabalho manual de corte de pontas soltas na superfície do bordado com pinça",
+      "Alocação correta da linha para o recolhimento suave pelo estica-fio na descida do primeiro ponto"
+    ],
+    "mainTypes": [
+      "Pescador de Linha Eletromagnético por Solenoide (Mais comum): Atuador elétrico frontal de disparo independente (Tajima, Barudan, Bai)",
+      "Pescador Mecânico Integrado à Biela de Corte: Haste movida mecanicamente pelo mesmo tirante que puxa a navalha inferior",
+      "Pescador de Ar Comprimido (Air Wiper): Sistema pneumático que sopra um jato de ar de alta pressão jogando a ponta da linha para cima",
+      "Pescador com Garra Retentora (Velcro Clip): Modelo que pesca a linha e a prende em uma tirinha de velcro frontal para evitar que ela escape com a ventania do cabeçote"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "O ciclo do wiper opera com a máquina estática no ponto morto superior após desaceleração de corte",
+      "needleType": "Compatível com todas as agulhas (65/9 a 90/14), exigindo calibração da folga lateral para agulhas mais grossas",
+      "stabilizer": "Universal para todas as entretelas e bases têxteis"
+    },
+    "advantages": [
+      "✔ Acabamento superficial impecável, eliminando 100% das pontinhas de linha presas sob as primeiras laçadas",
+      "✔ Agilidade operacional espetacular, executando o movimento completo de pescaria em menos de 0,05 segundo",
+      "✔ Economia colossal de mão de obra de limpeza manual de fios na expedição do produto bordado",
+      "✔ Fabricado em arame de aço inoxidável polido que não perde a regulagem facilmente"
+    ],
+    "limitations": [
+      "Se entortar por colisão de bastidor, o gancho pode bater de frente na agulha e quebrar a agulha ou a haste do solenoide.",
+      "Se a linha estiver frouxa demais ou muito esticada, o gancho pode passar no vazio e não pescar a ponta."
+    ],
+    "commonErrors": [
+      "❌ Bater a quina de um bastidor alto (como bastidor de boné) na haste do pescador durante trocas manuais de bastidor.",
+      "❌ Tentar desentortar a haste do pescador com alicate comum sem medir a folga com a agulha, fazendo o gancho colidir com a barra.",
+      "❌ Deixar linha embaraçada no eixo do solenoide do wiper, impedindo o retorno da mola e deixando o gancho travado embaixo.",
+      "❌ Desativar a função de Wiper no painel da máquina sem necessidade, tendo que limpar todas as pontas de linha na mão depois."
+    ],
+    "troubleshootingTips": [
+      "A máquina corta a linha mas a ponta superior continua caindo no tecido e sendo costurada por baixo: O pescador de linha não está descendo ou está passando alto demais; verifique se a função Wiper está ligada no painel e ajuste a altura do parafuso do gancho para descer 1 mm mais rente ao olho da agulha.",
+      "Barulho de colisão metálica 'téc-plec' e agulha quebrada logo após o corte de linha: A haste do pescador está torta para dentro e colidiu com a haste da agulha; alinhe a haste delicadamente com os dedos até que passe a 1,5 mm de distância livre da agulha.",
+      "O pescador desce mas fica travado embaixo e a máquina dá erro de cabeçote: A mola de retorno quebrou ou há fiapos de linha enrolados no eixo móvel; retire a tampa frontal do cabeçote, remova a sujeira com pinça e aplique uma microgota de óleo mineral fino no eixo."
+    ],
+    "dicaArtrelados": "Sabe aquele pontinho preto feio que aparece no meio de uma letra branca ou amarela novinha? Quase sempre não é sujeira: é a ponta da linha da cor anterior que o pescador de linha não jogou para trás e foi engolida e costurada por baixo dos pontos brancos! Faça o 'Teste da Passagem Livre' da Artrelados: com a máquina desligada e a agulha no alto, empurre a hastezinha do pescador para baixo com o dedo: ele deve descer macio, cruzar bem na frente do olho da agulha sem encostar no metal e subir sozinho num estalo rápido pela força da mola! Se ele descer pesado ou arranhar na agulha, regule o parafusinho da base: seus bordados nunca mais terão fios intrusos soterrados!",
+    "voceSabia": "Nas máquinas industriais multiagulhas que têm 15 cores, existe um sistema de pescador individual ou sincronizado que realiza essa pescaria em cada uma das 15 agulhas! Em um pedido de 500 polos bordadas onde cada logo tem 4 cortes de cor, o pescador de linha executa mais de 2.000 pescarias perfeitas sem errar uma única vez, poupando a bordadeira de usar a pinça mais de duas mil vezes ao dia!",
+    "practicalExercise": "Observação Visual do Movimento do Pescador (Wiper): Coloque a máquina para bordar duas letras separadas com corte de linha entre elas. Fique com os olhos atentos na altura da agulha no momento em que ela terminar a primeira letra. Você verá um movimento ultrarrápido (parece uma piscadela de olhos!): a pecinha de arame desce em arco, pega a ponta da linha e a puxa para cima do calcador num piscar de olhos antes do bastidor se mover para a próxima letra. É uma das coreografias mecânicas mais bonitas de se assistir no ateliê!",
+    "quickSummary": "Mecanismo eletromecânico com gancho de aço oscilante que desce após o corte de linha, recolhe a ponta superior do fio e a arremessa para cima do calcador para evitar pontas enterradas no bordado.",
+    "relatedTerms": [
+      "Navalha Móvel e Navalha Fixa do Corte de Linha",
+      "Calcador de Bordado",
+      "Solenoide de Tensão / Solenoide de Liberação de Linha",
+      "Agulha de Bordado Eletrônico",
+      "Salto de Ponto",
+      "Quebra de Linha"
+    ],
+    "tags": [
+      "p-102",
+      "pescador-de-linha",
+      "alavanca-pega-fio",
+      "thread-wiper",
+      "hook-wiper",
+      "trimmer",
+      "corte-de-linha",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Thread Wiper Mechanism & Solenoid Stroke Adjustment Manual. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Industrial Embroidery Head Mechanisms: Wiper Assembly & Timing Service Guide. Ichinomiya, 2022.",
+      "ARTRELADOS. A Mãozinha Invisível do Cabeçote: Segredos, Ajustes e Calibragem do Pescador de Linha (Wiper). Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
   }
 ];
+
 

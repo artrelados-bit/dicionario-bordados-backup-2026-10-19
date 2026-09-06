@@ -3002,7 +3002,310 @@ export const VERBETES_LETTER_B1: Verbete[] = [
       "ARTRELADOS. A Alta-Costura do Bordado: Criatividade, Luxo e Inovação com o Bernina DesignerPlus. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "b-107-barra-de-agulha-e-bucha-guia-needle-bar-bushing",
+    "code": "B-107",
+    "term": "Barra de Agulha e Bucha Guia (Needle Bar & Bushing)",
+    "pronunciation": "bá-rra de a-gú-lha e bú-cha guí-a (ni-dol bar end bú-shin)",
+    "letter": "B",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Invenção basilar da mecatrônica de costura do século XIX por Elias Howe e Isaac Singer, aperfeiçoada no século XX pela engenharia de precisão japonesa e alemã (Tajima, Brother, Pfaff e Schmetz). Evoluiu de hastes de ferro fundido para eixos de aço cromo-molibdênio retificados com tolerâncias micrométricas e buchas de bronze sinterizado autolubrificante com microcanais de retenção de óleo.",
+    "summary": "Conjunto mecânico linear de movimento alternativo vertical de alta velocidade, formado por um eixo cilíndrico de aço temperado espelhado (barra de agulha) e anéis de deslizamento de bronze ou latão fosforoso (buchas guias), responsável por conduzir a agulha com rigidez absoluta até o miolo do tecido e a laçadeira.",
+    "definition": "A Barra de Agulha e a Bucha Guia (Needle Bar & Needle Bar Bushing) formam o eixo linear de translação mais exigido e veloz do cabeçote de qualquer máquina de bordar computadorizada. A Barra de Agulha é uma haste cilíndrica maciça ou tubular de aço temperado e retificado com precisão milimétrica, cuja extremidade inferior sustenta o parafuso e o prendedor da agulha (agulheiro) e a extremidade superior se conecta à biela e manivela excêntrica do eixo principal. As Buchas Guias (superior e inferior) são cilindros ocos de alta precisão usinados em bronze sinterizado autolubrificante ou ligas especiais de cobre-estanho cravadas no bloco do cabeçote. Sua função técnica primordial é orientar a descida e a subida da agulha em uma trajetória perfeitamente perpendicular ao plano do bastidor até 1.000 ou 1.200 vezes por minuto, absorvendo as forças laterais de deflexão provocadas pela densidade do tecido e garantindo que a ponta da agulha passe a uma distância microscópica de 0,05 mm a 0,10 mm da ponta da laçadeira rotativa sem colidir.",
+    "technicalDetails": "Fabricada em aço cromo-molibdênio ou aço-ferramenta temperado por indução superficial (dureza de 58 a 62 HRC) com acabamento retificado polido espelhado (tolerância dimensional h6, variação máxima de diâmetro inferior a 0,005 mm). O diâmetro típico da barra varia de 6,0 mm a 7,24 mm em máquinas industriais e de 5,0 mm a 6,5 mm em máquinas domésticas. A folga diametral de trabalho entre a barra e as buchas de bronze é de rigorosos 0,01 mm a 0,02 mm (uma folga acima de 0,05 mm já é considerada jogo mecânico excessivo, provocando salto de ponto e risco iminente de quebra de agulha contra a laçadeira). A altura da barra de agulha é calibrada com precisão milimétrica: na subida de retorno de 1,8 mm a 2,2 mm após o Ponto Morto Inferior (PMI), a ponta da laçadeira deve cruzar exatamente entre 0,5 mm e 1,0 mm acima do olho da agulha.",
+    "construction": [
+      "Haste Cilíndrica Retificada: Corpo principal de aço polido espelhado de alta dureza com canaleta de escorrimento de óleo",
+      "Prendedor de Agulha Inferior (Clamp / Agulheiro): Bloco usinado com parafuso de aperto e pino limitador de topo da agulha",
+      "Conector da Biela / Mordente de Acionamento: Abraçadeira com pino esférico que transfere o movimento rotativo do eixo em descida linear",
+      "Bucha Guia Superior: Anel de bronze sinterizado com ranhura espiral interna para retenção e dispersão de lubrificante",
+      "Bucha Guia Inferior: Bucha de guia primária submetida ao maior estresse mecânico, posicionada logo acima da chapa de agulha",
+      "Feltro de Retenção de Lubrificante: Anel de feltro de lã pura que dosa a quantidade exata de óleo mineral na descida da barra"
+    ],
+    "howItWorks": [
+      "1. O motor principal gira o eixo de manivelas central da máquina a mais de 800 rotações por minuto.",
+      "2. A biela excêntrica converte o giro circular em movimento linear ascendente e descendente na Barra de Agulha.",
+      "3. A barra desliza suavemente para baixo abraçada pelas duas Buchas Guias de bronze, mantendo a verticalidade absoluta.",
+      "4. A agulha fura o tecido, atravessa a entretela e alcança o Ponto Morto Inferior (PMI) embaixo da chapa.",
+      "5. Ao iniciar a subida de 2 milímetros, a linha folga e forma a laçada (loop): a ponta da laçadeira passa a 0,05 mm da fenda da agulha e laça a linha.",
+      "6. A barra de agulha sobe velozmente para o topo, o estica-fio fecha o ponto e o ciclo se repete até 20 vezes por segundo!"
+    ],
+    "beginnerExplanation": "A Barra de Agulha e a Bucha Guia são como o 'elevador de alta velocidade' da agulha da sua máquina! A barra de agulha é aquele caninho de aço brilhante que você vê subindo e descendo rapidíssimo enquanto a máquina borda. Já a bucha guia é o anel de bronze que fica escondidinho lá dentro, abraçando esse caninho para que ele não balance para os lados. Se você deixar de colocar aquela gotinha mágica de óleo mineral na máquina, o aço esquenta no bronze, desgasta e a barra ganha um 'joguinho' bambo: aí a agulha desce torta, bate na beirada da chapa ou na laçadeira e quebra com um estalo assustador!",
+    "applications": [
+      "Condução linear de agulhas domésticas e industriais em regimes contínuos de 400 a 1.200 PPM",
+      "Absorção de impactos e resistência à deflexão ao perfurar tecidos pesados (jeans, sarja, couro e lonas)",
+      "Sincronização micrométrica com o tempo de rotação da laçadeira e alavanca estica-fio",
+      "Isolamento do cabeçote contra vibrações excessivas durante bordados de alta velocidade",
+      "Sustentação do conjunto do pé calcador e mola de compressão em máquinas multiagulhas"
+    ],
+    "mainTypes": [
+      "Barra de Agulha com Encaixe Cabo Redondo (Industrial DBxK5): Haste com alojamento cônico e parafuso de fenda lateral",
+      "Barra de Agulha com Encaixe Cabo Chato (Doméstica 130/705 H): Haste com rebaixo plano frontal que impede colocar a agulha ao contrário",
+      "Barra de Agulha com Revestimento Cerâmico ou DLC (Diamond-Like Carbon): Acabamento escuro de altíssima dureza que reduz atrito e opera com menos óleo",
+      "Conjunto de Bloco Móvel de Barras (Multiagulhas): Matriz deslizante com 6, 10, 12 ou 15 barras paralelas montadas em um único carro trocador de cor"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Projetada para suportar acelerações extremas com segurança mecânica de 400 a 1.200 PPM",
+      "needleType": "Calibrada para agulhas padrão domésticas (130/705 H) e industriais (DBxK5 e DBx1)",
+      "stabilizer": "Universal para todas as entretelas e bases têxteis"
+    },
+    "advantages": [
+      "✔ Rigidez estrutural milimétrica que mantém a agulha firme mesmo furando 6 camadas de tecido pesado",
+      "✔ Acabamento espelhado retificado que minimiza o atrito térmico e o desgaste mecânico",
+      "✔ Buchas de bronze sinterizado com alta durabilidade que absorvem microvibrações do motor",
+      "✔ Permite regulagem precisa de altura para ajuste fino do laço inferior em linhas de qualquer espessura"
+    ],
+    "limitations": [
+      "Componente que não tolera operar a seco: a ausência de lubrificação regular causa engripamento imediato.",
+      "Se sofrer impacto violento de quebra de agulha contra o bastidor, a barra pode entortar ligeiramente e exigir troca completa."
+    ],
+    "commonErrors": [
+      "❌ Esquecer de lubrificar a barra de agulha com óleo mineral branco especial de máquina de costura.",
+      "❌ Usar óleos grossos de motor de carro, óleos de cozinha ou desengripantes tipo WD-40, que ressecam o bronze e colam poeira.",
+      "❌ Apertar o parafuso do agulheiro com alicate ou força bruta, espanando a rosca micrométrica da barra de agulha.",
+      "❌ Continuar usando a máquina após o bastidor bater violentamente na agulha, trabalhando com a barra torta e arranhando a bucha."
+    ],
+    "troubleshootingTips": [
+      "Agulha quebrando a cada 2 minutos ou batendo na ponta da laçadeira: Verifique se a barra de agulha ganhou 'jogo'; com a máquina desligada e a agulha abaixada na metade do curso, pegue na barra e balance para frente e para trás: se você sentir folga folgada, as buchas gastaram e precisam ser trocadas.",
+      "Máquina fazendo um rangido agudo metálico no cabeçote superior: Falta urgente de lubrificação; aplique uma única gota de óleo mineral branco no feltro superior da barra de agulha e faça girar a máquina manualmente pelo volante.",
+      "Pontos pulados constantes sem que a linha quebre: A barra de agulha pode ter escorregado para cima após uma batida de bastidor; chame um técnico ou calibre a altura da barra para que o furo da agulha fique entre 0,5 mm e 1,0 mm abaixo da ponta da laçadeira."
+    ],
+    "dicaArtrelados": "Faça o 'Teste do Toque de Seda' da Artrelados para saber se a sua barra de agulha está pedindo socorro! Com a máquina desligada, passe a pontinha do dedo indicador limpo na haste de aço da barra de agulha logo acima do parafuso da agulha: o dedo deve sair com uma película invisível, quase aveludada, de óleo mineral límpido. Se o seu dedo sair completamente seco ou com uma graxa preta e pegajosa, pare tudo! Limpe a barra com um papel toalha e coloque UMA única gotinha de óleo de máquina Singer ou óleo mineral branco para bordado no feltro superior: você vai ver como o barulho da máquina fica suave e silencioso na mesma hora!",
+    "voceSabia": "A uma velocidade de 1.000 pontos por minuto, a barra de agulha sobe e desce mais de 16 vezes a cada ÚNICO segundo! Isso significa que em uma jornada de trabalho de 6 horas em um ateliê com várias peças, essa haste de aço percorre para cima e para baixo uma distância acumulada de mais de 10 quilômetros dentro da bucha de bronze! É por isso que uma gotinha diária de óleo limpo é o maior ato de amor que você pode ter pela sua máquina!",
+    "practicalExercise": "Diagnóstico Tátil da Folga da Barra de Agulha: Com a máquina desligada da tomada e sem agulha instalada, gire o volante na sua direção até a barra de agulha ficar na metade do seu caminho de descida. Segure a pontinha da barra de agulha com a ponta dos dedos polegar e indicador e tente movimentá-la delicadamente para frente e para trás e para os lados. O movimento deve ser 100% rígido e firme, sem nenhum 'cleque-cleque' solto. Se ela estiver firme, suas buchas estão em perfeito estado e seus bordados continuarão com precisão milimétrica!",
+    "quickSummary": "Conjunto mecânico linear formado pelo eixo de aço retificado (barra de agulha) e anéis de deslizamento de bronze (buchas) que conduz a agulha até a laçadeira com estabilidade vertical absoluta.",
+    "relatedTerms": [
+      "Agulha de Bordado Eletrônico",
+      "Laçadeira Rotativa",
+      "Ponto Morto Inferior (PMI)",
+      "Tempo da Máquina de Bordar",
+      "Calcador de Bordado",
+      "Velocidade PPM",
+      "Quebra de Agulha"
+    ],
+    "tags": [
+      "b-107",
+      "barra-de-agulha",
+      "bucha-guia",
+      "needle-bar",
+      "needle-bar-bushing",
+      "mecanica",
+      "manutencao",
+      "lubrificacao",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Mechanical Head Assembly & Needle Bar Reciprocator Technical Manual. Nagoya: Tajima, 2023.",
+      "BROTHER INDUSTRIES, LTD. Technical Service Guide: Needle Bar Height & Clearance Calibration. Nagoya, 2022.",
+      "ARTRELADOS. A Espinha Dorsal do Ponto: Manutenção, Diagnóstico de Folgas e Segredos da Barra de Agulha. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "b-108-bico-direcionador-de-fio-tubeira-de-lacada-chenille",
+    "code": "B-108",
+    "term": "Bico Direcionador de Fio / Tubeira de Laçada (Thread Nipple / Looper Nozzle)",
+    "pronunciation": "bí-co di-re-cio-na-dor de fío / tu-bei-ra de la-ça-da (tréd ní-pol / lú-per nó-zol)",
+    "letter": "B",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Criado na França no fim do século XIX por Antoine Cornely para as primeiras máquinas de manivela de bordado em corrente e ponto esponja (Cornely A e LG3). Modernizado nos anos 1980 pela engenharia industrial japonesa (Tajima TMCE e Barudan BELM) ao acoplar micromotores de rotação contínua de 360 graus sincronizados por correias dentadas e encoders digitais com o movimento do pantógrafo.",
+    "summary": "Tubo metálico oco giratório instalado sob a chapa de agulha do cabeçote de chenille que gira 360° em sincronia com o pantógrafo, guiando a meada grossa de lã ou acrílico diretamente para o interior do gancho da agulha de lingueta em cada perfuração.",
+    "definition": "O Bico Direcionador de Fio (tecnicamente denominado Tubeira de Laçada, Guia Giratório Inferior de Chenille ou pelos termos em inglês Thread Nipple / Looper Nozzle) é o órgão mecânico de alimentação inferior exclusivo das máquinas e cabeçotes de bordado computadorizado estilo Chenille (ponto toalhado e ponto corrente). Enquanto nas máquinas de bordar tradicionais o fio inferior vem de uma pequena bobina que não se move lateralmente, no bordado chenille o cone de lã ou acrílico fica montado na parte inferior ou traseira da máquina e seu fio sobe por dentro de uma engrenagem oca concêntrica até sair pela ponta do Bico Direcionador. Este bico consiste em um tubo recurvado de aço inoxidável ou bronze com furo polido espelhado montado imediatamente abaixo do orifício da chapa de agulha. Em cada ciclo de penetração, o bico executa um giro helicoidal completo (360°) ao redor da haste da agulha de gancho, 'enrolando' a linha milimetricamente dentro da boca aberta da lingueta. Simultaneamente, um motor de passo de rotação angular (Directional Looper Motor) gira a base da tubeira para acompanhar o vetor de direção do pantógrafo, assegurando que o fio seja sempre apresentado pelo lado correto do gancho, independentemente de o bordado estar fazendo curvas fechadas, ziguezagues ou círculos perfeitos.",
+    "technicalDetails": "Usinado em aço inoxidável austenítico com revestimento de nitreto de titânio (TiN) ou cromo duro, atingindo rugosidade superficial ultrabaixa (Ra < 0,1 µm) para impedir qualquer atrito ou desfiamento das fibras sensíveis de lã e acrílico. O diâmetro interno do canal varia de 1,2 mm a 2,5 mm, acomodando desde meadas finas até fios duplos de tapeçaria. O sincronismo angular com a agulha possui tolerância máxima de ±2°: a tubeira deve alcançar a posição de enrolamento quando a ponta da agulha estiver 1,5 mm abaixo da borda inferior da chapa. A rotação do eixo direcional atinge até 750 RPM em perfeita harmonia com o sistema de coordenadas X/Y do bastidor.",
+    "construction": [
+      "Tubo Guia Oco em Aço Inox (Nozzle Tube): Tubo curvo retificado por onde a meada de lã desliza sem folga excessiva",
+      "Bico de Saída Chanfrado e Polido (Thread Outlet Tip): Extremidade cônica espelhada que aproxima a linha do gancho sem colidir",
+      "Engrenagem Cônica de Rotação Cíclica: Mecanismo que converte o movimento do eixo principal no giro orbital de laçada",
+      "Eixo Direcional Oco com Rolamento de Esferas: Conjunto giratório que permite o livre trânsito do fio enquanto o bico gira 360°",
+      "Polia Dentada Sincronizadora: Conexão via correia microdentada com o motor de passo de direção do cabeçote",
+      "Mola Retentora de Pré-Tensão Inferior: Arame de amortecimento que evita o recuo elástico do fio grosso após a laçada"
+    ],
+    "howItWorks": [
+      "1. A agulha de gancho desce e atravessa o tecido, entrando no vão oco da chapa inferior.",
+      "2. O Bico Direcionador (Looper Nozzle), posicionado sob a chapa, inicia o movimento orbital rápido ao redor da agulha.",
+      "3. Ao passar rente à lâmina da agulha, a ponta do bico deposita o fio de lã exatamente dentro da abertura do gancho.",
+      "4. Ao mesmo tempo, o motor direcional orienta o bico conforme o ângulo em que o bastidor está se movendo na matriz.",
+      "5. A agulha sobe, a lingueta se fecha capturando o fio e a laçada é puxada para cima da peça.",
+      "6. O bico direcionador desacelera suavemente e se prepara para a próxima descida da agulha no ponto seguinte, mantendo o fluxo ininterrupto do bordado toalhado!"
+    ],
+    "beginnerExplanation": "O Bico Direcionador de Fio é como se fosse um 'garçom mecânico' que serve a linha na boca da agulha lá por baixo do tecido! Como a máquina de ponto toalhado (chenille) usa uma linha bem grossa de lã que não cabe em uma bobininha comum, esse rolo de lã fica embaixo da máquina. Toda vez que a agulha fura o pano e desce lá no escuro por baixo da chapa, esse tubinho de metal gira em volta da agulha num passe de mágica e 'entrega' o fio quentinho direto no ganchinho da agulha! Se esse tubinho atrasar ou entupir de fiapo, a agulha sobe vazia e o bordado não cria as laçadinhas toalhadas fofas!",
+    "applications": [
+      "Alimentação contínua de fios de lã e meadas acrílicas grossas em cabeçotes industriais de chenille",
+      "Formação de pontos toalhados (ponto esponja) uniformes em casacos, jaquetas universitárias e moletons",
+      "Execução de caligrafia contínua em ponto corrente (chain stitch) para alta-costura e moda retrô",
+      "Orientação angular dinâmica de 360 graus para contornos curvos suaves sem repuxar o tecido",
+      "Produção de peças táteis e sensoriais para enxovais infantis, pelúcias e tapeçaria decorativa"
+    ],
+    "mainTypes": [
+      "Bico Direcionador de Furo Estreito (1,2 mm a 1,5 mm): Ideal para fios finos de acrílico e ponto corrente delicado",
+      "Bico Direcionador de Furo Largo (1,8 mm a 2,5 mm): Projetado para lãs volumosas, fios mesclados e ponto esponja alto",
+      "Bico com Ponta de Cerâmica Especial: Modelo de altíssima durabilidade contra o desgaste abrasivo de fios sintéticos ásperos",
+      "Tubeira Dupla para Fio Mesclado: Permite a passagem simultânea de dois fios de cores diferentes para criar chenille bicolor"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "500 a 700 PPM em operação estável de chenille computadorizado",
+      "needleType": "Agulha de Gancho / Latch Needle compatível com o calibre interno do bico",
+      "stabilizer": "Entretela rasgável de 80g a 100g para suportar o volume das laçadas inferiores"
+    },
+    "advantages": [
+      "✔ Permite bordar com fios extremamente grossos que jamais passariam pelo olho de uma agulha convencional",
+      "✔ Rotação direcional inteligente de 360 graus que acompanha qualquer curva do vetor da matriz",
+      "✔ Acabamento espelhado interno que preserva a textura felpuda e o brilho natural das fibras têxteis",
+      "✔ Construção robusta em aço inox austenítico com vida útil superior a milhões de ciclos de giro"
+    ],
+    "limitations": [
+      "Acumula facilmente penugem e fiapos de lã no interior do tubo, exigindo limpeza diária com ar comprimido.",
+      "Se colidir com a agulha de gancho por folga no sincronismo, pode riscar a ponta e exigir polimento técnico."
+    ],
+    "commonErrors": [
+      "❌ Passar fio grosso demais com nós na tubeira estreita, provocando travamento e aquecimento do motor direcional.",
+      "❌ Borda sem aspirar os resíduos de lã acumulados sob a chapa no final de cada dia de produção.",
+      "❌ Tentar desobstruir o canal do bico com arames duros ou agulhas de mão, arranhando o polimento espelhado interno.",
+      "❌ Girar o conjunto da tubeira com força manual quando o cabeçote estiver travado pelo motor de passo."
+    ],
+    "troubleshootingTips": [
+      "A agulha sobe sem nenhuma laçada e o bordado toalhado fica com áreas 'carecas': A tubeira está entupida com fiapos de lã ou a linha acabou na parte inferior; desobstrua o canal com um jato suave de ar comprimido e refaça a passagem da linha com o passador flexível.",
+      "O ponto toalhado só se forma quando o bastidor anda para a frente, mas falha nas curvas e para os lados: O motor de passo direcional do cabeçote perdeu o sincronismo angular de 360°; recalibre o ponto zero (Looper Home Angle) no menu técnico do painel.",
+      "A linha de lã se desfaz ou arrebenta antes de subir para o tecido: A ponta do bico direcionador está com uma micro-rebarba causada por batida de agulha; lustre a extremidade da tubeira com fio dental embebido em massa de polir fina."
+    ],
+    "dicaArtrelados": "Ao trabalhar com máquinas de chenille e toalhado, adote a 'Rotina do Sopro Limpo' da Artrelados: como a linha de lã solta muita penugem, no final de cada expediente ou a cada troca de cor, dê um jato de ar comprimido ou use um pincelzinho macio embaixo da chapa para limpar o Bico Direcionador e o mecanismo giratório. Um bico livre de penugem entrega laçadas com a mesma maciez e densidade de uma toalha novinha em folha!",
+    "voceSabia": "Nas máquinas antigas manuais de ponto corrente inventadas por Cornely na França, a bordadeira precisava girar uma manivela embaixo da mesa com a mão esquerda para orientar o bico na direção do bordado enquanto controlava o tecido com a mão direita! Hoje, os computadores das máquinas modernas fazem esse cálculo matemático instantaneamente, girando o bico até 700 vezes por minuto com precisão de frações de milímetro!",
+    "practicalExercise": "Inspeção do Canal com Passador Flexível de Fio: Com a máquina desligada e a chapa aberta, pegue um passador de linha flexível longo de náilon e introduza-o pelo furo do Bico Direcionador de baixo para cima. Puxe-o suavemente: observe como o canal interno é macio e como o bico gira livremente nos seus rolamentos. Essa suavidade é o que garante que a meada de lã corra macia sem nenhum tranco durante o bordado!",
+    "quickSummary": "Tubo metálico oco giratório instalado sob a chapa que gira 360° para entregar o fio grosso de lã diretamente no gancho da agulha de chenille.",
+    "relatedTerms": [
+      "Agulha de Gancho / Agulha Crochet com Lingueta (Chenille Latch Needle)",
+      "Ponto Chenille (Ponto Toalhado)",
+      "Ponto Corrente (Chain Stitch)",
+      "Cabeçote Misto de Bordado",
+      "Chapa de Agulha",
+      "Velocidade PPM"
+    ],
+    "tags": [
+      "b-108",
+      "bico-direcionador",
+      "tubeira-de-lacada",
+      "thread-nipple",
+      "looper-nozzle",
+      "chenille",
+      "ponto-toalhado",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Multi-Color Chenille Head Mechanism: Looper Nozzle Timing and Maintenance. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Chenille Looper and Needle Coordination Technical Manual. Ichinomiya, 2022.",
+      "ARTRELADOS. A Dança das Laçadas: Segredos, Ajustes e Limpeza do Bico Direcionador no Ponto Chenille. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "b-109-barra-de-iluminacao-led-spot-focado-agulha",
+    "code": "B-109",
+    "term": "Barra de Iluminação LED Flexível / Spot Focado de Agulha (Needle Area LED Illumination Bar)",
+    "pronunciation": "bá-rra de i-lu-mi-na-ção lé-di fle-xí-vel / spót fo-ca-do de a-gú-lha (ní-dol é-ria él-i-dí i-lu-mi-nêi-shon bar)",
+    "letter": "B",
+    "level": "Iniciante a Intermediário 🟢🟡",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Criada nos anos 2000 em substituição às antigas lâmpadas incandescentes amarelas (tubulares tipo baioneta ou rosca) que aqueciam perigosamente o cabeçote e queimavam com a vibração mecânica contínua da máquina de bordar. A mecatrônica japonesa e alemã adotou fitas e spots rígidos de LEDs SMD de estado sólido nos cabeçotes industriais e domésticos modernos.",
+    "summary": "Módulo optoeletrônico composto por diodos emissores de luz (LEDs SMD) de alta intensidade e elevado índice de reprodução de cor (CRI > 90) instalado no cabeçote que banha a zona de penetração da agulha e a chapa com luz fria e uniforme sem sombras.",
+    "definition": "A Barra de Iluminação LED Flexível e o Spot Focado de Agulha (Needle Area LED Illumination Bar & Working Spot) constituem o sistema de iluminação de precisão integrado à área de costura e bordado eletrônico. Em máquinas clássicas, a iluminação dependia de uma única lâmpada incandescente de 15W, que esquentava a carcaça, alterava a viscosidade dos óleos de lubrificação da barra de agulha e emitia luz amarelada e com sombras duras. O sistema moderno de LED utiliza uma matriz linear de microdiodos semicondutores montados em placa de circuito impresso com dissipador de alumínio ou haste flexível posicionada estrategicamente ao redor da barra de agulha e sob o braço livre da máquina. Sua função é projetar um feixe de luz branca neutra ou fria (temperatura de cor entre 5.000K e 6.500K) com dispersão difusa de 120 graus diretamente sobre a ponta da agulha, a ranhura da chapa e o calcador. Isso elimina 100% dos pontos cegos e das sombras projetadas pelo próprio cabeçote, permitindo que a bordadeira enxergue com nitidez absoluta o enfiamento da linha no olho da agulha, a formação da laçada, o alinhamento de contornos milimétricos e a detecção precoce de fiapos, nós ou micro-desfiamentos em tecidos escuros sem qualquer fadiga ocular.",
+    "technicalDetails": "Equipada com chips de LED de montagem em superfície (SMD 2835 ou 3014) alimentados por corrente contínua estabilizada (12V ou 5V DC via fonte chaveada com isolamento galvânico), prevenindo o efeito estroboscópico (flicker-free) sob altas frequências de rotação da agulha (acima de 1.000 PPM). Apresenta fluxo luminoso entre 250 e 600 lúmens com consumo irrisório de apenas 2W a 5W, índice de reprodução cromática (CRI/Ra) superior a 90 (revelando a cor real das linhas de bordado sem distorção espectral) e vida útil projetada superior a 50.000 horas de trabalho ininterrupto em regime industrial sob intensa vibração harmônica.",
+    "construction": [
+      "Matriz de LEDs SMD de Alta Potência: Diodos semicondutores de fósforo branco com espectro contínuo livre de radiação ultravioleta",
+      "Lente Difusora em Policarbonato Óptico: Capa translúcida fosca que espalha o feixe luminoso de forma homogênea sem ofuscar a visão",
+      "Placa de Circuito Impresso em Alumínio (Metal Core PCB): Substrato metálico que dissipa instantaneamente o calor gerado pelos diodos",
+      "Haste Flexível Articulada ou Encaixe de Cabeçote: Suporte ajustável em pescoço de ganso (gooseneck) ou calha rígida embutida no chassis",
+      "Driver Eletrônico Regulador de Corrente: Circuito com filtro anti-ruído que estabiliza a voltagem mesmo durante picos do motor principal",
+      "Interruptor Touch ou Controle Digital de Brilho: Botão de toque ou regulador no painel com múltiplos níveis de intensidade de luz"
+    ],
+    "howItWorks": [
+      "1. A máquina de bordar é ligada na chave geral e o driver eletrônico alimenta a Barra de LED com corrente contínua estabilizada de 12V.",
+      "2. Os micro-LEDs acendem instantaneamente com brilho total, sem zumbido nem tempo de aquecimento.",
+      "3. A lente difusora quebra a luz direta em múltiplos ângulos cruzados (feixe multidirecional).",
+      "4. A luz envolve a barra de agulha e o pé calcador por todos os lados, anulando a sombra que a própria haste faria sobre a chapa.",
+      "5. A área de penetração do tecido fica tão clara quanto a luz do meio-dia, permitindo enxergar a trama do tecido e o fio preto em fundo escuro.",
+      "6. Durante todo o dia de produção, o sistema permanece completamente frio ao toque, sem queimar os dedos da bordadeira nem ressecar as peças plásticas do cabeçote!"
+    ],
+    "beginnerExplanation": "A Barra de Iluminação LED é o 'holofote de precisão' que cuida dos seus olhos no ateliê! Lembra daquelas máquinas antigas que tinham uma lâmpada amarela que esquentava tanto que se você encostasse a mão queimava o dedo, e que ainda deixava uma sombra escura bem em cima do buraquinho da agulha? O LED moderno mudou isso para sempre! Ele ilumina tudo com uma luz branca, límpida e fria, como a luz do dia na janela! Você consegue enxergar a pontinha da agulha e passar a linha preta num tecido preto sem forçar a vista, sem dor de cabeça no fim do dia e sem esquentar a sua máquina de bordar!",
+    "applications": [
+      "Iluminação cirúrgica da zona de agulhamento, chapa e calcador durante o processo de bordado e costura",
+      "Facilitação extrema da passagem manual ou automática da linha através do olho da agulha",
+      "Inspeção visual em tempo real de contornos delicados, ponto cheio e letras pequenas em tecidos escuros",
+      "Ajuste e conferência do alinhamento do bastidor nas marcações a laser ou emendas de matrizes",
+      "Trabalho noturno ou em ateliês com iluminação ambiente reduzida sem provocar cansaço visual"
+    ],
+    "mainTypes": [
+      "Barra de LED Embutida de Fábrica: Faixa rígida integrada diretamente na carcaça plástica sob o braço da máquina (padrão moderno)",
+      "Spot de LED Flexível com Imã (Gooseneck): Luminária externa com base magnética e haste maleável que se fixa em qualquer parte de ferro",
+      "Sistema de LED Multicolorido com Alerta de Status: Máquinas onde a cor do LED muda (branco para trabalho, vermelho para erro ou troca de linha)",
+      "Anel de LED Circular ao Redor da Agulha: Matriz em formato de arruela que cerca a barra de agulha com iluminação em 360 graus"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Iluminação contínua 'flicker-free' sem cintilação de 0 a 1.200 PPM",
+      "needleType": "Universal para todas as espessuras",
+      "stabilizer": "Universal para todas as entretelas"
+    },
+    "advantages": [
+      "✔ Luz fria que não aquece o cabeçote, não altera o óleo de lubrificação e não queima as mãos",
+      "✔ Iluminação uniforme e difusa que anula sombras duras ao redor do pé calcador",
+      "✔ Altíssimo índice de reprodução de cor (CRI > 90) que mostra as cores reais das linhas de bordar",
+      "✔ Vida útil extrema de mais de 50.000 horas, imune às vibrações que queimavam as lâmpadas de filamento"
+    ],
+    "limitations": [
+      "Se queimar em modelos com barras proprietárias coladas na carcaça, requer a troca do módulo eletrônico completo.",
+      "O acúmulo de pó e fiapos de entretela sobre a lente difusora pode reduzir a intensidade luminosa com o tempo."
+    ],
+    "commonErrors": [
+      "❌ Limpar a lente acrílica do LED com solventes agressivos (como acetona ou tíner), deixando a lente fosca e opaca.",
+      "❌ Instalar spots genéricos de LED que não possuam circuito anti-cintilação (flicker), causando dor de cabeça e cansaço visual após horas de trabalho.",
+      "❌ Puxar a haste flexível com força excessiva, rompendo os fios internos de alimentação elétrica.",
+      "❌ Deixar uma camada grossa de poeira e óleo secar sobre os diodos de LED, reduzindo a dissipação térmica."
+    ],
+    "troubleshootingTips": [
+      "O LED está piscando ou com brilho fraco: A fiação interna está com mau contato ou a fonte de 12V da máquina está com oscilação; reaperte os conectores na placa-mãe ou teste com outra fonte regulada.",
+      "A luz parece mais fraca do que quando a máquina era nova: A lente plástica protetora está coberta com micro-fiapos e resíduos de óleo; limpe suavemente a superfície com pano de microfibra umedecido em álcool isopropílico.",
+      "A luminária flexível externa não segura na posição e cai com a vibração da máquina: A haste metálica perdeu a rigidez das articulações; aperte os parafusos da base magnética ou envolva a articulação com fita termoencolhível para dar mais firmeza."
+    ],
+    "dicaArtrelados": "Trabalha muito com tecidos escuros, como toalhas pretas, jaquetas jeans ou bonés marinho, e tem dificuldade de ver onde a agulha está descendo? Use o 'Truque do Contraste Suave' da Artrelados: coloque um pequeno pedaço de fita crepe branca ou papel branco sobre a chapa de agulha logo atrás do calcador. A luz branca do LED vai bater no papel branco e rebater suavemente para cima, criando um fundo claro de contraste que faz o fio preto da agulha se destacar como se estivesse sob a luz do sol!",
+    "voceSabia": "As lâmpadas incandescentes antigas de máquinas de costura podiam atingir mais de 120°C na sua superfície de vidro após apenas meia hora de uso! Esse calor intenso ressecava as correias de borracha, afinava o óleo mineral da barra de agulha a ponto de fazê-lo pingar no tecido bordado e queimava com facilidade porque o filamento de tungstênio em brasa não resistia à vibração mecânica das batidas da agulha!",
+    "practicalExercise": "Avaliação do Efeito de Sombra e Conforto Visual: Com a máquina ligada e o LED aceso, posicione uma agulha com a mão sobre a chapa de bordado. Observe a área abaixo do calcador: a luz deve cobrir todo o contorno sem formar sombras pretas recortadas. Passe a mão sob a luz por 1 minuto: sinta como a região permanece 100% fria e acolhedora para suas mãos!",
+    "quickSummary": "Módulo de iluminação com LEDs de luz fria e alta fidelidade de cor que elimina sombras na zona de agulha, garantindo conforto visual e precisão sem aquecer o cabeçote.",
+    "relatedTerms": [
+      "Barra de Agulha e Bucha Guia",
+      "Calcador de Bordado",
+      "Chapa de Agulha",
+      "Laser de Posicionamento e Alinhamento",
+      "Sensor de Quebra de Linha",
+      "Enfiador Automático de Linha na Agulha"
+    ],
+    "tags": [
+      "b-109",
+      "barra-de-led",
+      "spot-de-agulha",
+      "iluminacao",
+      "luz-fria",
+      "conforto-visual",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "BROTHER INDUSTRIES, LTD. Advanced LED Needle Illumination and Energy Efficient Lighting Architecture. Nagoya, 2022.",
+      "TAJIMA GROUP. Industrial Embroidery Machine Lighting Ergonomics and Operator Vision Care Standards. Nagoya, 2023.",
+      "ARTRELADOS. A Luz que Transforma o Ateliê: Ergonomia, Tecnologia LED e Cuidados com a Visão no Bordado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
   }
 ];
+
+
+
 
 

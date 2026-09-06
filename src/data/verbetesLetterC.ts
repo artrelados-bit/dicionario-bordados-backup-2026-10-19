@@ -6683,5 +6683,209 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "ARTRELADOS. Guia de Qualidade, Saúde Têxtil e Sustentabilidade no DIBE Artrelados. Curitiba, 2024."
     ],
     "updatedAt": "2026-08-28"
+  },
+  {
+    "id": "c-101-caixa-de-troca-de-cor-came-seletor-de-agulhas",
+    "code": "C-101",
+    "term": "Caixa de Troca de Cor / Came Seletor de Agulhas (Color Change Cam & Needle Selector Box)",
+    "pronunciation": "cái-xa de tró-ca de cor / cá-mi se-le-tor de a-gú-lhas (có-lor cheindj cám end ní-dol se-léc-tor bóks)",
+    "letter": "C",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Desenvolvido na virada dos anos 1970 para os anos 1980 pela engenharia industrial japonesa (Tajima e Barudan) e alemã (ZSK). Revolucionou o mercado têxtil ao transformar a máquina de bordar de uma única cor manual em um sistema robotizado multicor capaz de alternar automaticamente entre 6, 9, 12 ou 15 agulhas sem intervenção da bordadeira.",
+    "summary": "Conjunto eletromecânico de alta precisão montado na lateral ou traseira do cabeçote industrial, composto por um motor de passo acoplado a um parafuso sem-fim com canaletas de came helicoidais que translada o bloco inteiro de barras de agulha lateralmente até posicionar a cor programada sobre a laçadeira.",
+    "definition": "A Caixa de Troca de Cor e o Came Seletor de Agulhas (conhecidos tecnicamente como Mecanismo de Mudança de Cor, Conjunto Redutor de Troca de Agulhas ou pelos termos em inglês Color Change Box / Needle Selector Barrel Cam) constituem o módulo robótico responsável pela seleção e posicionamento automático das diferentes cores de linha em máquinas de bordar industriais e semiprofissionais multiagulhas. O coração do mecanismo é um cilindro de aço retificado usinado com ranhuras em formato de came helicoidal (ou parafuso de passo variável) acoplado a um motor elétrico independente (motor de passo ou servomotor). Ao receber o comando de troca de cor da matriz (código STOP / Color Change no arquivo .DST ou .PES), a máquina desacelera até a parada total, eleva todas as barras de agulha ao Ponto Morto Superior e gira o came seletor. Os pinos seguidores instalados na base do bloco deslizante entram nas ranhuras do came e empurram o conjunto inteiro de 6 a 15 barras de agulha lateralmente nos trilhos retificados, travando a agulha escolhida exatamente no centro do furo da chapa de agulha e alinhada ao reciprocador do cabeçote por meio de uma esfera de retenção calibrada sob pressão de mola (Detent Ball / Indexing Lock).",
+    "technicalDetails": "O came seletor é usinado em aço-carbono cementado ou liga de bronze fosforoso de alta dureza para suportar dezenas de milhares de ciclos de giro com desgaste quase nulo. A precisão angular de parada é garantida por encoders magnéticos ou sensores ópticos de fim de curso (Color Change Position Sensor / Needle Home Sensor). O tempo médio de transição entre duas cores adjacentes varia de 0,4 a 0,8 segundo, e o deslocamento de um extremo a outro (da agulha 1 para a agulha 15) leva entre 1,5 e 2,2 segundos. O alinhamento concêntrico final da agulha com a laçadeira deve possuir tolerância de desvio inferior a ±0,05 mm. Um microrruptor de segurança elétrico corta a alimentação do motor principal se o bloco de agulhas estiver parado fora da posição indexada (Needle Position Alarm).",
+    "construction": [
+      "Came Helicoidal Cilíndrico (Barrel Cam): Eixo de aço usinado com ranhuras espirais de passo constante que convertem rotação em deslocamento linear",
+      "Motor de Passo de Troca de Cor (Color Change Stepper Motor): Motor elétrico de posicionamento angular com redução planetária ou correia dentada",
+      "Pinos Seguidores de Came (Cam Followers / Rollers): Rolamentos ou pinos de aço temperado montados na carcaça do bloco de agulhas",
+      "Mecanismo de Travamento por Esfera (Detent Ball & Spring): Esfera de rolamento de alta dureza pressionada por mola que trava a canaleta da agulha no clique exato",
+      "Sensor Óptico de Posição Zero (Needle Position Sensor): Sensor que calibra a referência da Agulha 1 e lê os orifícios da roda codificadora",
+      "Manípulo Manual de Troca de Cor (Manual Knob): Botão ou volante externo que permite girar o came e trocar de agulha manualmente com a máquina desligada"
+    ],
+    "howItWorks": [
+      "1. A máquina conclui o bordado de um elemento com a Agulha 3 e o comando de troca de cor é lido no software.",
+      "2. A agulha sobe ao Ponto Morto Superior, a navalha corta a linha e o estica-fio para no topo.",
+      "3. A CPU comanda o acionamento do motor da Caixa de Troca de Cor.",
+      "4. O Came Cilíndrico gira no sentido horário ou anti-horário: suas ranhuras espirais guiam os roletes do bloco de barras.",
+      "5. O bloco com as 15 agulhas desliza suavemente para o lado sobre guias lineares retificadas.",
+      "6. Ao atingir a Agulha 7, o sensor óptico acusa a posição, a esfera de retenção cai na ranhura com um clique firme ('clac!') e o motor trava.",
+      "7. A nova barra de agulha engata perfeitamente no reciprocador central e a máquina retoma o bordado na nova cor sem perder um único milímetro de alinhamento!"
+    ],
+    "beginnerExplanation": "A Caixa de Troca de Cor é o 'trocador de marchas robótico' da sua máquina multiagulhas! Sabe quando você coloca 12 ou 15 cones de cores diferentes na máquina e ela borda o vermelho, para sozinha, dá um estalo gostoso, o cabeçote todo anda para o lado deslizando macio e para exatamente na agulha do azul marinho sem você precisar levantar da cadeira? É esse mecanismo! Dentro da caixinha existe um parafuso especial todo esculpido (o came) que gira empurrando o carrinho das agulhas para o lado. Se essa peça estiver suja ou desregulada, o carrinho para 'no meio do caminho', a agulha desce fora do buraco e bate com tudo na chapa!",
+    "applications": [
+      "Transição totalmente automatizada de linhas em matrizes multicoloridas de 6 a 15 cores",
+      "Eliminação do tempo ocioso de parada de máquina para trocas manuais de cone de linha",
+      "Sincronização do acoplamento do reciprocador apenas com a agulha selecionada",
+      "Indexação mecânica rígida para evitar vibrações laterais da barra de agulha durante o bordado",
+      "Garantia de repetibilidade industrial idêntica em lotes de milhares de peças bordadas"
+    ],
+    "mainTypes": [
+      "Came Helicoidal Cilíndrico com Ranhuras (Cylindrical Barrel Cam): Sistema tradicional japonês (Tajima e Barudan), considerado o mais robusto do mundo",
+      "Sistema por Fuso de Esferas com Servomotor: Sistema moderno ultrarrápido utilizado em máquinas industriais de última geração de altíssima velocidade",
+      "Sistema por Corrente ou Correia Sincronizada: Solução compacta encontrada em máquinas semiprofissionais de 6 e 10 agulhas (Brother PR e Janome MB)",
+      "Caixa de Troca com Came Linear Escalonado: Mecanismo de alavancas horizontais presente em modelos industriais chineses clássicos"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "A troca de cor é executada com o motor principal parado em 0 RPM no ângulo exato de 100° do cabeçote",
+      "needleType": "Universal para todas as 6, 10, 12 ou 15 agulhas montadas no cabeçote",
+      "stabilizer": "Universal para qualquer entretela ou tecido"
+    },
+    "advantages": [
+      "✔ Autonomia produtiva total, permitindo que a máquina borde logotipos de até 15 cores sem nenhuma intervenção humana",
+      "✔ Precisão geométrica microscópica com tolerância de encaixe de agulha inferior a 0,05 mm",
+      "✔ Transição de cor veloz e macia em menos de um segundo entre agulhas adjacentes",
+      "✔ Mecanismo blindado com longa vida útil protegido contra poeira e resíduos têxteis"
+    ],
+    "limitations": [
+      "Requer lubrificação periódica com graxa branca de lítio especial nas ranhuras do came para não travar.",
+      "Se houver colisão e o cabeçote parar entre duas agulhas, o sistema eletrônico bloqueia a descida para evitar danos catastróficos."
+    ],
+    "commonErrors": [
+      "❌ Tentar forçar o deslocamento do bloco de agulhas com as mãos enquanto a máquina estiver ligada ou no meio do ciclo de corte.",
+      "❌ Deixar as canaletas do came acumularem poeira de linha endurecida com graxa velha sem limpeza semestral.",
+      "❌ Ignorar o alarme de 'Color Change Timeout' ou 'Needle Sensor Error' no painel, tentando forçar a partida.",
+      "❌ Lubrificar o came com óleos líquidos finos que escorrem para a chapa em vez de usar graxa pastosa de lítio apropriada."
+    ],
+    "troubleshootingTips": [
+      "A máquina exibe erro 'Color Change Error' ou 'Needle Position Error' e não começa a bordar: O bloco parou fora da posição indexada (a agulha não está centralizada); desligue a máquina, gire o manípulo manual da caixa de troca de cor até ouvir o 'clique' firme da esfera de retenção e confirme o número da agulha no visor.",
+      "Troca de cor muito lenta, pesada ou rangendo ao andar para o lado: As guias lineares e as ranhuras do came estão secas; limpe a graxa velha com um pano e aplique uma camada fina de graxa branca de lítio com PTFE nas ranhuras do came helicoidal.",
+      "A agulha bate na borda da chapa de agulha logo na primeira descida após trocar de cor: O sensor de posição da agulha está descalibrado ou o parafuso de regulagem do came afrouxou; chame a assistência técnica para recalibrar o ponto zero (Home Position) do came seletor."
+    ],
+    "dicaArtrelados": "Se a sua máquina multiagulhas apresentar erro de troca de cor logo após uma quebra de linha feia, não se apavore! Quase sempre não quebrou nada: é apenas a linha quebrada que enroscou atrás do bloco deslizante e travou o carrinho! Vá até a lateral do cabeçote, pegue o manípulo manual de troca de cor (aquela pecinha redonda preta) e gire com a mão suavemente para a direita e para a esquerda: você vai sentir na ponta dos dedos o came andando e o clique exato de cada agulha. Se sentir resistência, olhe com uma lanterna por trás das barras e puxe o fio preso com uma pinça: ela volta a funcionar novinha em folha!",
+    "voceSabia": "A precisão do came seletor é tão fascinante que em um cabeçote com 15 agulhas alinhadas lado a lado em um espaço de apenas 30 centímetros, cada agulha precisa parar exatamente no mesmíssimo furo de 2 milímetros da chapa sem desviar nem a largura de um fio de cabelo! Se o came errasse por apenas 0,3 milímetros, a agulha bateria no metal e se estilhaçaria na mesma hora!",
+    "practicalExercise": "Troca de Cor Manual Guiada pelo Clique: Com a máquina desligada da tomada e o cabeçote na posição de parada superior, localize o manípulo manual da Caixa de Troca de Cor (geralmente na lateral direita ou atrás do cabeçote). Gire devagar no sentido horário: observe o came cilíndrico girando e veja o bloco de agulhas deslizando para o lado. Preste atenção no momento exato em que a agulha seguinte entra no centro: você sentirá nos dedos e ouvirá um clique metálico suave e delicioso! Esse clique é a esfera de retenção confirmando que a agulha está perfeitamente travada e segura para bordar!",
+    "quickSummary": "Módulo eletromecânico com motor de passo e came helicoidal que translada automaticamente o bloco de barras de agulha lateralmente para posicionar a cor correta sobre a laçadeira.",
+    "relatedTerms": [
+      "Barra de Agulha e Bucha Guia",
+      "Pescador de Linha / Alavanca Pega-Fio do Trimmer",
+      "Chapa de Agulha",
+      "Cabeçote de Bordado",
+      "Painel de Controle da Máquina de Bordar",
+      "Troca Automática de Cor (Color Change)"
+    ],
+    "tags": [
+      "c-101",
+      "caixa-de-troca-de-cor",
+      "came-seletor",
+      "color-change",
+      "barrel-cam",
+      "multiagulhas",
+      "mecanica",
+      "manutencao",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Color Change Mechanism & Barrel Cam Timing Service Manual. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Needle Drive and Color Change Stepper Systems Technical Guide. Ichinomiya, 2022.",
+      "ARTRELADOS. O Balé das Agulhas: Diagnóstico, Manutenção e Segredos da Troca de Cor em Máquinas Multiagulhas. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "c-102-cortador-de-fio-superior-inferior-guilhotina-linha",
+    "code": "C-102",
+    "term": "Cortador de Fio Superior e Inferior / Guilhotina Mecânica de Linha (Thread Trimmer Knife Mechanism)",
+    "pronunciation": "cor-ta-dor de fío su-pe-ri-or e in-fe-ri-or / gui-lho-tí-na me-câ-ni-ca de lín-nha (tréd trí-mer náif me-ca-ní-zem)",
+    "letter": "C",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Pioneiramente patenteado no início da década de 1980 pelas fabricantes japonesas Tajima e Barudan. Foi o divisor de águas que transformou o bordado industrial: antes da guilhotina mecânica automática, as bordadeiras tinham que parar a máquina manualmente a cada troca de cor e a cada salto de ponto para cortar com tesoura todos os fios soltos sobre as peças.",
+    "summary": "Sistema mecatrônico de alta precisão composto por uma lâmina móvel (gancho pescador), uma lâmina fixa de corte e um solenoide (ou servomotor) sob a chapa que laça, puxa e secciona simultaneamente a linha da agulha e a linha da bobina ao final de cada bloco de bordado.",
+    "definition": "O Cortador de Fio Superior e Inferior (universalmente denominado Thread Trimmer Mechanism, Faca de Corte Automático ou Guilhotina de Linha) é o dispositivo mecatrônico automatizado responsável pela secção instantânea e limpa das linhas superior e inferior ao término de cada elemento bordado, salto de ponto (jump stitch) ou comando de troca de cor na matriz. Localizado milimetricamente sob a chapa de agulha e na vizinhança imediata da laçadeira rotativa, o mecanismo é composto por duas lâminas afiadas e retificadas: a Faca Móvel (Moving Knife / Picker Blade) e a Faca Fixa (Counter Knife / Fixed Blade). Ao receber o comando digital de corte emitido pelo arquivo da matriz, o processador da máquina desacelera o eixo principal e posiciona a agulha no ângulo de sincronismo de corte (geralmente entre 270° e 300°). Nesse instante, um solenoide eletromagnético de alta potência ou um motor de passo de comando dispara o acoplamento da faca móvel; a lâmina em formato de bico de gancho avança em arco sob a chapa, entra no triângulo de laçada formado pela linha da agulha e da bobina, puxa ambos os filamentos para trás contra o fio de navalha da faca fixa e os secciona com um golpe de tesoura cirúrgico. Concomitantemente, uma mola retentora inferior (Bobbin Thread Holder Spring) pinça a ponta da linha da bobina para que ela não escape da caixa, enquanto o captador superior garante uma ponta livre milimétrica para a reinicialização suave do ponto seguinte sem desfiamentos.",
+    "technicalDetails": "Usinado em aço-ferramenta de alta liga (aço rápido HSS ou metal duro revestido de carboneto de tungstênio) com dureza superior a 64 HRC para resistir a centenas de milhares de ciclos de corte sem perder o fio de navalha. A folga de ajuste entre a faca móvel e a faca fixa é regulada por parafuso micrométrico com tolerância de 0,01 mm a 0,02 mm (pressão de corte tipo cisalhamento puro). O tempo de ciclo completo do disparo mecânico de corte é de apenas 150 a 250 milissegundos. Possui curso angular de 45° a 70° e opera em sincronia eletrônica com o freio magnético do motor principal para garantir que a linha superior seja cortada deixando uma cauda residual de 20 mm a 30 mm, ideal para não desarmar da agulha na próxima descida.",
+    "construction": [
+      "Faca Móvel em Formato de Gancho (Moving Knife): Lâmina articulada com ponta em bico curvo que pesca as linhas da laçadeira",
+      "Faca Fixa de Contra-Corte (Fixed Counter Knife): Lâmina retificada com borda de navalha aparafusada na carcaça do cabeçote",
+      "Solenoide Eletromagnético de Disparo (Trimmer Solenoid): Atuador elétrico de alta velocidade que engata a biela do cortador no excêntrico",
+      "Biela e Came de Acionamento (Trimmer Drive Cam): Conjunto mecânico que converte o giro do eixo inferior no movimento de vai-e-vem da faca",
+      "Mola de Retenção da Linha da Bobina (Under-Thread Holder): Lamela de aço flexível que prende a ponta da linha cortada para a próxima costura",
+      "Parafuso Micrométrico de Calibração de Pressão: Parafuso que ajusta a pressão de cisalhamento entre as duas lâminas sem esmagar o fio"
+    ],
+    "howItWorks": [
+      "1. A máquina conclui o bordado de uma letra ou recebe o comando de corte (trim) da matriz.",
+      "2. O motor principal reduz a rotação e para o eixo no ângulo exato programado (ex: 285°).",
+      "3. O solenoide dispara um pulso elétrico, engatando o braço da Faca Móvel no came motriz.",
+      "4. A Faca Móvel avança por baixo da chapa de agulha e seu bico em gancho entra na laçada das duas linhas.",
+      "5. Em seguida, a lâmina móvel recua velozmente, arrastando a linha da agulha e a linha da bobina contra o gume afiado da Faca Fixa.",
+      "6. As duas linhas são cortadas de forma limpa por cisalhamento em menos de um quarto de segundo.",
+      "7. A mola retentora segura a pontinha da linha da bobina, o pantógrafo move o bastidor para a próxima posição e o bordado recomeça limpo e sem fios soltos!"
+    ],
+    "beginnerExplanation": "O Cortador de Fio (ou Guilhotina Automática) é a 'tesoura invisível' da sua máquina de bordar! Imagine se a cada vez que a máquina terminasse uma letra, você tivesse que pegar uma tesourinha na mão, cortar a linha de cima, cortar a linha de baixo e só depois deixar a máquina continuar? Você ficaria louca e não conseguiria fazer nada! O cortador automático faz isso sozinho e num piscar de olhos: embaixo da chapa tem um ganchinho de aço afiado que corre, pega as duas linhas, passa por uma navalha e corta tudo retinho em menos de meio segundo! É graças a ele que a sua peça bordada sai da máquina limpinha, sem aquele emaranhado de fios cruzando de uma letra para a outra!",
+    "applications": [
+      "Secção automática e precisa das linhas superior e inferior em saltos de ponto (jump stitches)",
+      "Corte instantâneo de linha nas trocas de cor de linhas em máquinas multiagulhas e monocabeças",
+      "Eliminação total do trabalho manual demorado de limpeza de fios soltos sobre a superfície da peça",
+      "Manutenção da cauda de linha no comprimento ideal para evitar que a agulha desenfie na retomada",
+      "Aumento drástico da produtividade industrial, economizando horas de produção por lote de bordado"
+    ],
+    "mainTypes": [
+      "Sistema de Faca Rotativa Orbital: Comum em máquinas industriais de alta velocidade (Tajima e Barudan), com corte ultrarrápido",
+      "Sistema de Faca Linear Deslizante: Padrão em máquinas domésticas e semiprofissionais (Brother, Janome, Bernina), com movimento retilíneo",
+      "Cortador Térmico por Fio Quente: Utilizado em máquinas de quilting contínuo para fios sintéticos pesados",
+      "Sistema de Trimmer com Captura Pneumática: Modelos industriais com sucção a vácuo que aspira os restos de fio cortado"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "O ciclo de corte opera na parada controlada do motor (desacelera de 1.000 PPM para corte instantâneo em 0 PPM e retoma a velocidade plena)",
+      "needleType": "Universal para todos os calibres",
+      "stabilizer": "Universal para todas as entretelas"
+    },
+    "advantages": [
+      "✔ Economia colossal de tempo de produção, dispensando o acabamento manual com tesourinha de arremate",
+      "✔ Acabamento profissional de altíssimo nível, sem pontas desfiadas ou nós aparentes na face do bordado",
+      "✔ Retenção perfeita da linha inferior pela mola suporte, garantindo início de ponto suave",
+      "✔ Lâminas em aço de alta dureza (64 HRC) que mantêm o corte afiado por centenas de milhares de disparos"
+    ],
+    "limitations": [
+      "Se as lâminas acumularem poeira e cola de entretela adesiva, podem mastigar a linha em vez de cortar limpo.",
+      "Requer regulagem micrométrica: faca frouxa não corta a linha; faca apertada demais engripa e quebra o solenoide."
+    ],
+    "commonErrors": [
+      "❌ Borda tecidos com cola em spray excessiva sem limpar a navalha inferior, criando uma pasta gomosa que cega o corte.",
+      "❌ Tentar afiar a lâmina móvel de bordado com lixa comum de unha, alterando o ângulo cirúrgico de corte.",
+      "❌ Puxar o bastidor com força com a mão no momento exato em que a máquina está executando o ciclo de corte.",
+      "❌ Deixar restos de linha cortada acumularem dentro da caixa do solenoide de disparo sob a mesa."
+    ],
+    "troubleshootingTips": [
+      "A máquina faz o barulho do corte mas a linha não é cortada (continua inteira e puxa o tecido no salto): As lâminas estão gastas, desreguladas ou com acúmulo de fiapos e cola; retire a chapa da agulha, limpe as duas facas com álcool isopropílico e ajuste a pressão da faca fixa no parafuso regulador.",
+      "A linha arrebenta ou desenfia do olho da agulha logo no primeiro ponto após o corte: A cauda de linha deixada pelo cortador está curta demais (menos de 20 mm); calibre o ângulo de parada do corte (Trimmer Angle) no painel ou verifique a mola retentora superior.",
+      "Barulho metálico seco e forte de travamento no momento do corte: A faca móvel colidiu com a laçadeira ou a faca fixa está desalinhada; pare a máquina imediatamente e solicite a recalibração do tempo de corte pelo técnico."
+    ],
+    "dicaArtrelados": "Se a sua máquina de bordar começou a 'mastigar' a linha em vez de cortar de primeira, antes de chamar o técnico faça o 'Teste do Álcool com Cotonete' da Artrelados: retire a chapa da agulha e a caixa de bobina, umedeça um cotonete em álcool isopropílico e passe delicadamente na pontinha da faca móvel e na faca fixa. Em 90% dos casos, o problema não é faca cega, mas sim uma borra invisível de cola de entretela adesiva ou cera de linha que gruda na navalha! Depois de limpar, pingue uma micro-gota de óleo fino na articulação e a tesourinha invisível volta a cortar como lâmina de barbear!",
+    "voceSabia": "Antes da invenção do cortador de fio automático nos anos 1980, as fábricas de bordado tinham um setor inteiro chamado de 'arrematadeiras' — dezenas de funcionárias que passavam o dia inteiro apenas com tesourinhas de ponta curva cortando os fios de ligação entre cada letra dos bordados! O sistema de faca automática reduziu o custo de produção de um bordado em mais de 60% e possibilitou a existência dos ateliês modernos de uma pessoa só!",
+    "practicalExercise": "Observando a Faca Móvel em Ação Manual: Com a máquina desligada e a chapa da agulha retirada, localize a lâmina curva brilhante ao lado da caixa de bobina. Com a ponta do dedo ou uma pinça, empurre suavemente o braço da faca móvel: observe como ela descreve uma curva suave passando rente à faca fixa e como a mola de retenção segura a linha da bobina. É pura engenharia mecânica de alta relojoaria!",
+    "quickSummary": "Mecanismo mecatrônico de navalhas sob a chapa acionado por solenoide que corta automaticamente as linhas superior e inferior a cada salto e troca de cor.",
+    "relatedTerms": [
+      "Caixa de Bobina / Cápsula da Bobina",
+      "Laçadeira Rotativa",
+      "Chapa de Agulha",
+      "Salto de Ponto (Jump Stitch)",
+      "Pescador de Linha / Alavanca Pega-Fio do Trimmer",
+      "Troca Automática de Cor (Color Change)"
+    ],
+    "tags": [
+      "c-102",
+      "cortador-de-fio",
+      "trimmer",
+      "faca-de-corte",
+      "guilhotina",
+      "solenoide",
+      "mecanica",
+      "manutencao",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Automatic Thread Trimmer Mechanism (ATH): Disassembly, Adjustment & Knife Clearance Standards. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Trimmer System Timing, Under-Thread Retainer & Solenoid Service Guide. Ichinomiya, 2022.",
+      "ARTRELADOS. A Tesoura Invisível da Máquina: Segredos de Regulagem, Limpeza e Afiação do Cortador de Linha. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
   }
 ];
+
+

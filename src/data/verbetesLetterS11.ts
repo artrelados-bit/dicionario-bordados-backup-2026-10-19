@@ -1381,5 +1381,208 @@ export const VERBETES_LETTER_S11: Verbete[] = [
       "ARTRELADOS. Panorama do Maquinário Industrial e Suporte Técnico Têxtil no Brasil. Curitiba, 2024."
     ],
     updatedAt: "2026-09-05"
+  },
+  {
+    id: "s-106-sensor-de-quebra-de-linha-rodinha-sensora-optica",
+    code: "S-106",
+    term: "Sensor de Quebra de Linha / Rodinha Sensora Óptica (Thread Break Sensor / Optical Encoder Wheel)",
+    pronunciation: "sen-sor de que-bra de li-nha / ro-di-nha sen-so-ra óp-ti-ca (tréd breik sen-sor / óp-ti-cal en-co-der uil)",
+    letter: "S",
+    level: "Intermediário a Avançado 🟡🔴",
+    category: "Mecânica & Manutenção",
+    grammarClass: "Locução substantiva masculina.",
+    origin: "Desenvolvido a partir da década de 1980 com a informatização dos cabeçotes de bordado computadorizado no Japão e Alemanha (Tajima, ZSK e Barudan). Substituiu os antigos contatos mecânicos elétricos de arame (que oxidavam com facilidade e falhavam) por encoders rotativos ópticos infravermelhos sem contato físico, garantindo detecção imediata de rompimento de linha em frações de segundo a mais de 1.000 PPM.",
+    summary: "Dispositivo eletro-óptico de alta precisão composto por uma micro-roldana ranhurada acoplada a um sensor infravermelho por onde a linha superior passa, monitorando o fluxo contínuo do fio e parando a máquina em menos de 3 pontos em caso de quebra ou término de linha.",
+    definition: "O Sensor de Quebra de Linha (conhecido tecnicamente como Rodinha Sensora de Movimento de Fio, Sensor Óptico de Alimentação de Linha ou pelos termos em inglês Thread Break Sensor / Optical Rotary Encoder) é um módulo eletrônico inteligente posicionado estrategicamente na trajetória superior da linha da máquina de bordar, geralmente situado entre a torre de pré-tensão e os discos tensores principais ou imediatamente após a alavanca estica-fio. O dispositivo é composto por uma polia cilíndrica ultraleve com canaleta emborrachada ou ranhurada, solidária a um disco codificador com microfuros que gira entre um emissor de luz infravermelha (LED) e um fototransistor receptor. Conforme a linha é puxada pela agulha e laçadeira durante o bordado, o atrito linear faz a rodinha girar continuamente, gerando pulsos elétricos de frequência proporcional à velocidade PPM. Se a linha se rompe, salta para fora do disco ou o cone acaba, a rotação é interrompida instantaneamente: a placa-mãe detecta a ausência de pulsos em um intervalo de 2 a 4 pontos e emite a ordem de frenagem de emergência do motor, acionando o aviso sonoro e a mensagem no painel.",
+    technicalDetails: "Funciona com tensão de operação de 5V DC via barramento de sinal TTL/CMOS. O disco codificador (encoder) possui tipicamente de 8 a 16 fendas radiais, gerando resolução de detecção de fluxo de aproximadamente 2,5 mm a 4,0 mm de avanço de linha por pulso elétrico. O circuito integra filtro digital passa-baixa para evitar falsos alarmes causados por desacelerações momentâneas em pontos curtos ou saltos de bastidor. Máquinas modernas industriais possuem sensibilidade ajustável por software de 1 a 7 níveis (parâmetro Thread Break Detection Sensitivity no painel Dahao, Tajima ou Brother).",
+    construction: [
+      "Roldana de Deslizamento Ranhurada: Micro-polia de alumínio ou polímero antifricção com canaleta em 'V' que recebe o fio de bordar",
+      "Disco Codificador Óptico (Chopper Wheel): Lâmina circular perfurada que fraciona o feixe luminoso ao girar",
+      "Emissor de Luz Infravermelha (LED IR): Diodo semicondutor que emite feixe de luz invisível constante",
+      "Fototransistor Receptor: Sensor fotossensível que converte as passagens de luz em pulsos elétricos quadrados",
+      "Placa de Circuito Integrado com Conector: Microplaca selada contra umidade que envia os sinais para a CPU do cabeçote",
+      "Rolete de Pressão Auxiliar: Pequena rodinha de borracha que mantém a linha assentada no fundo da ranhura"
+    ],
+    howItWorks: [
+      "1. Ao passar a linha superior na máquina, a bordadeira faz a linha dar uma volta completa ao redor da canaleta da rodinha sensora.",
+      "2. A máquina inicia o bordado e, a cada descida da agulha, a linha é puxada e gira a rodinha sensora.",
+      "3. A rotação da rodinha faz o disco perfurado cortar o feixe de luz infravermelha, gerando pulsos de sinal elétrico contínuos.",
+      "4. A placa-mãe processa os pulsos e 'sabe' que a linha está fluindo normalmente e que o bordado está sendo formado.",
+      "5. Se a linha quebrar ou o cone esgotar, a linha para de puxar a rodinha e o disco para de girar.",
+      "6. Em apenas 2 a 3 pontos após a parada da rodinha, a máquina interrompe o motor principal, freia o bastidor e exibe o alerta: 'Linha Superior Quebrada'!"
+    ],
+    beginnerExplanation: "O Sensor de Quebra de Linha é o 'olhinho mágico e eletrônico' da sua máquina de bordar! Você já reparou naquela rodinha pretinha bem pequenininha com um canalzinho no meio por onde a gente passa a linha antes de descer para a agulha? É ela! A máquina não tem olhos de verdade para enxergar se tem linha na agulha: ela sabe que está tudo bem porque a linha faz essa rodinha ficar rodando o tempo todo enquanto borda. Se a linha arrebentar ou o cone acabar, a rodinha para de girar na hora. Em menos de três pontinhos a máquina dá um apito e para sozinha na hora certa, sem você perder o trabalho nem furar o pano à toa!",
+    applications: [
+      "Interrupção imediata da costura em menos de 0,2 segundo após a quebra do fio superior",
+      "Prevenção de bordados 'no ar' que danificam o tecido furando sem linha e descalibram matrizes",
+      "Monitoramento individual de cada uma das 12 ou 15 agulhas em máquinas industriais multiagulhas",
+      "Sinalização luminosa no cabeçote (LED vermelho ou verde) indicando a agulha exata com problema",
+      "Facilidade para retorno automático de pontos (Backstitch) para retomar exatamente de onde o fio quebrou"
+    ],
+    mainTypes: [
+      "Sensor Óptico Rotativo por Roldana (Mais popular): Encontrado em máquinas Brother, Janome, Sun Special, Tajima e Bai",
+      "Sensor por Mola Oscilante de Contato Eletromecânico: Sistema clássico com alavanca que fecha contato com o chassi quando o fio perde a tensão",
+      "Sensor de Tensão Piezoelétrico: Sistema ultrassensível de última geração que detecta as microvibrações acústicas da passagem do fio",
+      "Sensor Óptico de Barreira de Fio Livre: Sensor que lê diretamente a sombra do fio suspenso sem necessidade de polia mecânica"
+    ],
+    recommendedSettings: {
+      speedPPM: "Capaz de ler pulsos com absoluta estabilidade em velocidades de 300 a 1.200 PPM",
+      needleType: "Universal para todas as espessuras de agulha e passagens de fios industriais e domésticos",
+      stabilizer: "Compatível com qualquer entretela, exigindo limpeza periódica em trabalhos com entretela peluda"
+    },
+    advantages: [
+      "✔ Evita que a máquina continue bordando dezenas de pontos sem linha, economizando tempo precioso no ateliê",
+      "✔ Sistema sem contato físico nos componentes ópticos internos, garantindo vida útil de milhões de rotações",
+      "✔ Permite regular a sensibilidade no painel da máquina para fios delicados (como fios metálicos)",
+      "✔ Facilita o trabalho de quem opera mais de uma máquina ao mesmo tempo no ateliê, avisando pelo som onde houve parada"
+    ],
+    limitations: [
+      "Vulnerável ao acúmulo de poeira de linha e cera têxtil, que bloqueia o feixe infravermelho gerando alarmes falsos.",
+      "Se a linha não for passada dando a volta completa na rodinha, o fio escorrega sem girar e acusa falso erro."
+    ],
+    commonErrors: [
+      "❌ Passar a linha reta por cima da rodinha em vez de dar a volta completa de 360° na canaleta, fazendo o fio escorregar sem girar.",
+      "❌ Trabalhar com a sensibilidade no nível máximo ao usar fios metálicos ou linhas frouxas, causando paradas falsas a cada 50 pontos.",
+      "❌ Deixar poeira de linha e fiapos de entretela acumularem dentro da carcaça do sensor óptico sem limpeza preventiva.",
+      "❌ Puxar a linha com força excessiva para o lado, desgastando o eixo plástico da micro-roldana sensora."
+    ],
+    troubleshootingTips: [
+      "Máquina apitando 'Linha Superior Quebrada' mas a linha está perfeitamente passada e intacta: Há poeira ou penugem de linha bloqueando a fenda do sensor óptico interno; aplique um jato de ar comprimido ou assopre com um canudo para limpar o feixe infravermelho.",
+      "A linha quebra mas a máquina continua bordando no ar por mais de 20 pontos antes de parar: A sensibilidade do sensor no painel está muito baixa ou a rodinha está travada girando por inércia; aumente a sensibilidade no painel da máquina.",
+      "A rodinha sensora não gira quando a linha é puxada manualmente: Há restos de linha enrolados no eixo da rodinha; desmonte a proteção plástica com cuidado e retire os fios presos com uma pinça de bico fino."
+    ],
+    dicaArtrelados: "A sua máquina está com aquela 'mania irritante' de parar a cada 2 minutos dizendo que a linha quebrou, mesmo a linha estando perfeitamente inteira na agulha? Não se desespere e não gaste com técnico antes de fazer isso: pegue uma latinha de ar comprimido (ou até mesmo um canudinho de refrigerante) e dê um sopro certeiro bem na frestinha por onde a rodinha preta gira! Na imensa maioria das vezes, uma simples 'penugem' invisível de linha de poliéster caiu na frente da lâmpada infravermelha do sensor e estava tampando a visão dele. Limpou com o sopro, a máquina volta a bordar sem parar uma única vez!",
+    voceSabia: "Nas máquinas industriais multiagulhas que têm 12 ou 15 cores, existe um sensor desse para cada agulha individualmente! Antigamente, quando não existiam sensores ópticos, se uma linha quebrasse em uma confecção com 10 máquinas industriais de 6 cabeças cada, o operador só percebia quando a camisa já estava toda furada e estragada no bastidor! O sensor de quebra de linha salvou bilhões de peças de roupas do lixo ao longo das últimas décadas!",
+    practicalExercise: "Teste de Sensibilidade da Rodinha Sensora: Com a máquina ligada e o bastidor montado com retalho, inicie o bordado. Enquanto a máquina estiver bordando normalmente a 600 PPM, pegue uma tesoura de arremate e corte a linha superior bem pertinho do cone no porta-cones. Conte mentalmente os pontinhos: você verá que em exatos 2 a 3 pontos a máquina para imediatamente e acende a luz de alerta! Isso comprova que o seu sensor óptico está calibrado e em perfeito estado de funcionamento!",
+    quickSummary: "Dispositivo óptico eletrônico com roldana ranhurada e feixe infravermelho que monitora o fluxo da linha superior e interrompe o motor em menos de 3 pontos em caso de quebra ou término de linha.",
+    relatedTerms: [
+      "Mola Tira-Fio / Mola de Compensação",
+      "Conjunto de Tensão Superior",
+      "Quebra de Linha",
+      "Painel de Controle da Máquina de Bordar",
+      "Alavanca Estica-Fio",
+      "Velocidade PPM"
+    ],
+    tags: [
+      "s-106",
+      "sensor-de-quebra",
+      "rodinha-sensora",
+      "thread-break-sensor",
+      "sensor-optico",
+      "mecanica",
+      "eletronica",
+      "manutencao",
+      "artrelados"
+    ],
+    sourceReference: "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    bibliographicReferences: [
+      "TAJIMA GROUP. Electronic Sensor and Thread Motion Detection Systems: Service and Troubleshooting Guide. Nagoya: Tajima, 2023.",
+      "BEIJING DAHAO TECHNOLOGY CORP. Dahao Embroidery Computer Control System: Thread Break Sensor Parameters and Calibration. Pequim, 2022.",
+      "ARTRELADOS. A Eletrônica Invisível do Cabeçote: Diagnóstico, Limpeza e Segredos do Sensor de Quebra de Linha. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-06"
+  },
+  {
+    id: "s-107-solenoide-de-tensao-solenoide-de-liberacao-de-linha",
+    code: "S-107",
+    term: "Solenoide de Tensão / Solenoide de Liberação de Linha (Thread Tension Release Solenoid)",
+    pronunciation: "so-le-nói-di de ten-são / so-le-nói-di de li-be-ra-ção de li-nha (tréd ten-shon ri-lís so-le-noid)",
+    letter: "S",
+    level: "Intermediário a Avançado 🟡🔴",
+    category: "Mecânica & Manutenção",
+    grammarClass: "Locução substantiva masculina.",
+    origin: "Desenvolvido com a integração da mecatrônica eletromagnética aos cabeçotes de costura e bordado industrial na década de 1970 no Japão e Alemanha (Tajima, Brother, Barudan e Pfaff). Substituiu os antigos mecanismos puramente mecânicos de cames e varetas empurradoras por atuadores magnéticos rápidos acionados digitalmente pelo software da máquina.",
+    summary: "Atuador eletromagnético de alta resposta situado no conjunto de tensão superior que dispara um pulso magnético para afastar instantaneamente os pratinhos de tensão metálicos, liberando o fio sem resistência durante saltos de bastidor, cortes de linha e trocas automáticas de cor.",
+    definition: "O Solenoide de Tensão (conhecido na engenharia têxtil como Solenoide de Alívio de Tensão de Linha, Eletroímã de Abertura de Tensores ou pelo termo em inglês Thread Tension Release Solenoid) é um atuador eletromecânico montado na estrutura posterior da torre de tensão superior de máquinas de bordar domésticas avançadas e industriais multiagulhas. Consiste em uma bobina de cobre enrolada em torno de um núcleo de ferro-doce acoplada a um êmbolo móvel (plunger) que atua sobre um pino central transversal que atravessa o eixo do tensor. No instante milimétrico em que a máquina conclui um objeto de bordado, vai realizar o corte automático de linha ou executar um salto longo de bastidor (pantógrafo), a CPU envia um pulso de corrente contínua (tipicamente 24V ou 36V DC) para a bobina: o campo eletromagnético atrai o êmbolo, empurrando o pino central que afasta os dois pratinhos de tensão metálicos. Com os discos abertos, a linha superior corre 100% livre e sem atrito, permitindo que a navalha puxe o fio sem tranco e o bastidor se movimente rapidamente sem repuxar o tecido.",
+    technicalDetails: "Alimentado por tensão de pico de 24V a 36V DC com acionamento por modulação por largura de pulso (PWM) para evitar o superaquecimento da bobina em paradas prolongadas. O tempo de resposta mecânica de abertura é inferior a 15 milissegundos (ms). O curso linear do êmbolo varia de 1,2 mm a 2,5 mm, promovendo um afastamento entre os pratinhos de tensão de 0,6 mm a 1,2 mm, suficiente para permitir o livre escorregamento de qualquer título de linha (de fios 120 a fios metálicos e linhas cordonê). Em máquinas multiagulhas, há um solenoide individual para cada agulha ou uma barra coletora de alívio acionada por um solenoide mestre conectado à árvore de seleção de cor.",
+    construction: [
+      "Bobina de Cobre Esmaltado: Enrolamento indutivo encapsulado em resina de alta temperatura que gera o campo magnético",
+      "Êmbolo Móvel Ferromagnético (Plunger): Pistão de aço-silício de alta permeabilidade magnética que avança sob atração eletromagnética",
+      "Pino Central Empurrador (Tension Release Pin): Haste de aço cilíndrica temperada de 1 mm a 2 mm que passa por dentro do parafuso oco do tensor",
+      "Mola de Retorno Cônica: Micro-mola espiral que recoloca o êmbolo e o pino na posição de repouso assim que a energia cessa",
+      "Diodo de Roda Livre (Flyback Diode): Componente eletrônico de proteção que dissipa picos de contra-eletromotriz na placa-mãe",
+      "Conector com Fiação Blindada: Cabo de sinal e potência interligado ao driver de acionamento do cabeçote"
+    ],
+    howItWorks: [
+      "1. Durante a costura normal, o solenoide permanece desenergizado: a mola do tensor aperta os pratinhos, mantendo a tensão de bordado calibrada.",
+      "2. A máquina atinge o último ponto de uma letra ou cor e se prepara para o corte ou salto de bastidor.",
+      "3. A placa-mãe envia um pulso elétrico instantâneo de 24V para o Solenoide de Tensão.",
+      "4. O solenoide dispara e projeta o pino central para a frente com um estalo rápido e preciso.",
+      "5. O pino empurra o pratinho externo do tensor, abrindo uma fresta livre entre os discos metálicos.",
+      "6. Com a linha totalmente solta, a navalha de corte puxa a quantidade exata de fio sem esticar e o bastidor salta livremente sem repuxar nem franzir o tecido!",
+      "7. Assim que a agulha inicia a nova sequência, o solenoide desliga e os discos se fecham instantaneamente na tensão correta!"
+    ],
+    beginnerExplanation: "O Solenoide de Tensão é como se fosse uma 'mãozinha invisível' que abre os discos de tensão da sua máquina toda vez que ela precisa respirar! Sabe quando a máquina termina de bordar uma florzinha e vai dar aquele pulo longo no bastidor para bordar outra flor lá do outro lado? Se a máquina mantivesse a linha presa e apertada durante esse pulo, ela sairia puxando a linha como um cabo de guerra, entortando a agulha e enrugando todo o seu tecido! É aí que esse solenoide dá um estalinho metálico e afasta os pratinhos de linha: a linha fica soltinha como uma pluma, o bastidor pula livre e leve, e na hora que a agulha vai furar de novo, ele fecha os pratinhos na mesma hora!",
+    applications: [
+      "Alívio instantâneo da linha superior antes do disparo da navalha móvel de corte sob a chapa",
+      "Deslocamento suave e sem repuxamento do bastidor durante saltos longos de linha entre letras e monogramas",
+      "Facilidade para a troca automática de cores em máquinas de bordar industriais multiagulhas",
+      "Prevenção do desenfiamento da agulha no recomeço do bordado após o corte de linha",
+      "Proteção de tecidos finos e delicados (seda, organza e tule) contra repuxamentos e deformações no bastidor"
+    ],
+    mainTypes: [
+      "Solenoide Individual por Agulha: Sistema independente instalado em cada um dos 12 a 15 tensores em máquinas de alta precisão",
+      "Solenoide Coletivo por Barra de Alívio (Wiper / Lifter Bar): Atuador único potente que empurra uma barra horizontal aliviando todos os tensores simultaneamente",
+      "Solenoide de Alívio Pneumático: Sistema operado por pequenos cilindros de ar comprimido em máquinas industriais pesadas de bordado schiffli",
+      "Mecanismo de Came Mecânico com Solenoide Auxiliar: Combinação híbrida mecânica e elétrica utilizada em máquinas domésticas compactas"
+    ],
+    recommendedSettings: {
+      speedPPM: "Projetado para atuar em sincronia milissegunda durante desacelerações de corte a 100-200 RPM",
+      needleType: "Universal para todos os tipos de agulhas e sistemas de enfiamento automático",
+      stabilizer: "Fundamental para estabilidade dimensional de entretelas finas hidrossolúveis e filmes plásticos"
+    },
+    advantages: [
+      "✔ Elimina 100% da tensão mecânica sobre o tecido durante os saltos e movimentos rápidos do pantógrafo",
+      "✔ Garante que a navalha de corte puxe o comprimento correto de sobra de linha sem esticar ou arrebentar o fio",
+      "✔ Evita o encurvamento acidental da lâmina da agulha provocado por puxões bruscos de linha presa",
+      "✔ Vida útil extraordinária com capacidade para dezenas de milhões de ciclos de disparo magnético"
+    ],
+    limitations: [
+      "Se queimar ou engripar por sujeira mecânica na posição aberta, a máquina bordará totalmente frouxa com ninhos gigantes no avesso.",
+      "Se travar fechado, a linha continuará sob pressão durante o corte, quebrando o fio no nó e deixando a ponta curta demais na agulha."
+    ],
+    commonErrors: [
+      "❌ Deixar poeira de linha, cera e fiapos acumularem no pino empurrador central, travando o solenoide mecanicamente.",
+      "❌ Ignorar o aviso de solenoide preso no painel, permitindo que a bobina opere superaquecida até queimar a placa de acionamento.",
+      "❌ Lubrificar o núcleo móvel do solenoide com óleos pesados ou graxa, criando uma pasta pegajosa que retarda o movimento magnético.",
+      "❌ Puxar a fiação do solenoide durante manutenções manuais no conjunto de tensores superiores."
+    ],
+    troubleshootingTips: [
+      "A máquina corta a linha mas na hora de recomeçar a agulha está desenfiada: O solenoide de tensão não abriu os pratinhos no momento do corte; a navalha cortou a linha sob tensão máxima, encurtando a ponta e fazendo a linha escapar da agulha.",
+      "O bordado está ficando todo solto e com laçadas enormes no direito como se não houvesse tensão: O solenoide travou na posição aberta (ativado) ou o pino central emperrou para a frente mantendo os pratinhos sempre afastados; limpe o pino com álcool isopropílico e verifique a mola de retorno.",
+      "Tecido repuxando e enrugando em linha reta entre duas letras separadas: O solenoide não disparou no salto de ponto; verifique as conexões elétricas e o fusível de 24V do cabeçote."
+    ],
+    dicaArtrelados: "Quer fazer o 'Teste Auditivo do Estalinho' da Artrelados para ter certeza de que o seu solenoide de tensão está funcionando com saúde plena? Fique bem pertinho da frente do cabeçote enquanto a máquina borda um texto com várias letrinhas separadas. No exato instante em que ela termina uma letra e vai pular para a outra, escute com atenção: você deve ouvir um estalo sequinho e metálico 'téc!' vindo de dentro do cabeçote superior. Esse é o barulho do solenoide disparando com força total e abrindo os pratinhos! Se a máquina saltar em silêncio absoluto e você sentir a linha esticada e tensa feito corda de violão durante o pulo, seu solenoide está travado ou desligado e precisa de uma limpeza no pino central!",
+    voceSabia: "Em um bordado comemorativo cheio de nomes, brasões e detalhes onde acontecem 300 cortes de linha e saltos de cor, esse pequenino eletroímã dispara e recolhe mais de 300 vezes em meia hora com a precisão de um relógio atômico! É a perfeita união entre a eletricidade, o magnetismo e a arte do bordado trabalhando em segredo para que cada letra do seu trabalho fique perfeita e sem fios repuxados!",
+    practicalExercise: "Teste Manual de Alívio de Tensão: Com a máquina ligada no modo de passagem de linha ou com o pé calcador levantado (que em muitas máquinas domésticas ativa o mecanismo de alívio), passe os dedos na linha logo abaixo dos discos tensores e puxe: a linha deve correr completamente leve e sem nenhuma resistência. Agora, abaixe o calcador ou acione o modo de bordado e puxe de novo: a linha fica imediatamente firme e presa! Esse teste simples comprova que o pino e os discos estão abrindo e fechando com 100% de precisão mecânica!",
+    quickSummary: "Atuador eletromagnético que dispara e afasta os pratinhos de tensão superior, liberando a linha sem atrito durante cortes automáticos e saltos do bastidor.",
+    relatedTerms: [
+      "Conjunto de Tensão Superior",
+      "Navalha Móvel e Navalha Fixa do Corte de Linha",
+      "Mola Tira-Fio / Mola de Compensação",
+      "Salto de Ponto",
+      "Painel de Controle da Máquina de Bordar",
+      "Quebra de Linha"
+    ],
+    tags: [
+      "s-107",
+      "solenoide-de-tensao",
+      "alivio-de-tensao",
+      "tension-release-solenoid",
+      "eletroima",
+      "corte-de-linha",
+      "mecanica",
+      "eletronica",
+      "artrelados"
+    ],
+    sourceReference: "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    bibliographicReferences: [
+      "TAJIMA GROUP. Electronic Head Controls & Solenoid Drive Assemblies Technical Manual. Nagoya: Tajima, 2023.",
+      "BROTHER INDUSTRIES, LTD. Technical Service Manual: Upper Thread Tension Release Mechanism and Solenoid Circuitry. Nagoya, 2022.",
+      "ARTRELADOS. A Força Eletromagnética do Bordado: Ajuste, Diagnóstico e Segredos do Solenoide de Tensão. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-06"
   }
 ];
+
+

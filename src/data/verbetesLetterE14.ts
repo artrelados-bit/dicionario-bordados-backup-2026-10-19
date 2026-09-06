@@ -1649,7 +1649,110 @@ export const VERBETES_LETTER_E_PART14: Verbete[] = [
       "ARTRELADOS. A Revolução do Mac e das Fontes de Teclado no Bordado com o Embrilliance. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "e-104-eixo-de-transporte-superior-calcador-avanco-duplo",
+    "code": "E-104",
+    "term": "Eixo de Transporte Superior / Calcador de Avanço Duplo (Walking Foot / Dual Feed Drive Shaft)",
+    "pronunciation": "êi-xo de trans-pór-te su-pe-ri-or / cal-ca-dor de a-vân-ço dú-plo (uó-king fut / dú-al fíd draiv sháft)",
+    "letter": "E",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Desenvolvido na segunda metade do século XX na Alemanha e Japão (Pfaff IDT - Integrated Dual Feed em 1968, Bernina e Brother) para resolver o descompasso entre camadas na costura de tecidos difíceis. Tornou-se um acessório mecânico indispensável em ateliês de bordado computadorizado na fase de montagem de colchas, sanduíches de manta acrílica, nécessaires forradas e peças com quilting.",
+    "summary": "Mecanismo cinemático dotado de serrilha móvel superior acionada pelo parafuso da barra de agulha (ou por eixo motriz interno no cabeçote) que caminha em sincronia absoluta com os dentes inferiores, tracionando a camada de cima do tecido no mesmo milímetro da camada de baixo.",
+    "definition": "O Eixo de Transporte Superior e o Calcador de Avanço Duplo (consagrados internacionalmente como Walking Foot, Pé de Transporte Duplo, Even Feed Foot ou Dual Feed Drive System) constituem o sistema de tração simultânea superior e inferior para máquinas de costura e montagem têxtil do ateliê de bordado. Em uma máquina convencional com calcador padrão, apenas a serrilha inferior puxa o tecido; o atrito da base do calcador sobre a camada superior provoca o 'deslizamento diferencial' — fazendo com que a camada de cima sobre no final da costura, forme rugas em tecidos com elastano ou desloque o forro e a manta em peças bordadas. O Calcador de Avanço Duplo soluciona esse problema através de um mecanismo interno de alavanca oscilante (fork arm) que se apoia sobre o parafuso aperta-agulha da barra de agulha. Conforme a agulha sobe, a alavanca aciona um conjunto de dentes de borracha ou aço na base do próprio calcador, que descem, 'mordem' a face superior do tecido e avançam horizontalmente exatamente na mesma velocidade e distância da serrilha inferior. Em máquinas eletrônicas avançadas (como Pfaff com sistema IDT ou Brother com calcador motorizado MuVit), essa tração superior é acionada por um eixo motriz excêntrico ou servomotor independente embutido atrás do cabeçote.",
+    "technicalDetails": "Nas versões mecânicas acopláveis, a carcaça é usinada em resina termoplástica de alta resistência e engrenagens internas de aço temperado, operando com relação de transmissão 1:1 com o curso da barra de agulha. Nos sistemas integrados de fábrica (como o IDT ou eixos de transporte duplo industrial), o eixo de transmissão superior é feito em aço-cromo usinado ligado à árvore principal, sincronizado em fase angular de 180° com os dentes da chapa. A velocidade de operação recomendada varia de 400 a 800 PPM para garantir o assentamento perfeito das camadas espessas sem deflexão de agulha. Possui trilho de engate traseiro para instalação de guias de acolchoado (quilting guide bar) com regulagem de espaçamento milimétrico.",
+    "construction": [
+      "Braço de Acoplamento em Garfo (Fork Arm): Alavanca mecânica que repousa sobre o parafuso da barra de agulha e capta o movimento vertical",
+      "Serrilha Dentada Superior (Upper Feed Dogs): Sapata interna articulada com dentes de tração que empurram a camada de cima do tecido",
+      "Mola Helicoidal de Retorno Rápido: Mola interna de aço que recolhe os dentes superiores na descida da agulha",
+      "Haste de Fixação ao Eixo do Calcador (Shank Mount): Encaixe padrão curto (Low Shank) ou alto (High Shank) com parafuso de aperto",
+      "Orifício Central de Passagem da Agulha: Abertura retificada alargada para permitir costura reta e zigue-zague sem colisão",
+      "Barra Guia de Pesponto e Quilting (Edge Guide): Haste de metal em L que desliza no orifício traseiro para costuras paralelas perfeitas"
+    ],
+    "howItWorks": [
+      "1. O tecido multicamadas (tecido bordado + manta R1/R2 + forro de tricoline) é posicionado sob o calcador de avanço duplo.",
+      "2. A barra de agulha desce para furar o tecido e o garfo mecânico sobe, desengatando temporariamente a serrilha superior.",
+      "3. O ponto é laçado embaixo na caixa de bobina.",
+      "4. Conforme a agulha sobe e sai do tecido, o parafuso da barra empurra o garfo do Walking Foot para baixo.",
+      "5. A alavanca interna projeta a serrilha superior contra o tecido, prensando-o simultaneamente contra a serrilha inferior.",
+      "6. As duas serrilhas (inferior e superior) caminham juntas para trás no mesmíssimo milissegundo, puxando o 'sanduíche' de tecidos como um bloco único.",
+      "7. No final da costura, o forro e a peça bordada terminam com as pontas rigorosamente alinhadas, sem nenhuma ruga, onda ou sobra de pano!"
+    ],
+    "beginnerExplanation": "O Calcador de Avanço Duplo (ou Walking Foot) é o 'calcador que anda' da sua máquina! Você já tentou costurar duas camadas de tecido juntas — como uma toalha grossa com forro ou uma almofada bordada com manta fofinha dentro — e no final a parte de cima sobrou torta e enrugada? Isso acontece porque a máquina só tem dentes embaixo, então ela puxa a parte de baixo mais rápido do que a parte de cima! O Walking Foot resolve isso como mágica: ele tem 'dentinhos em cima' também! Toda vez que a máquina anda, ele dá um passinho em cima junto com a serrilha de baixo. É como se duas mãos estivessem puxando o tecido ao mesmo tempo: o sanduíche corre retinho e o acabamento da sua peça bordada fica digno de capa de revista!",
+    "applications": [
+      "Montagem final de peças bordadas com manta acrílica (R1, R2, feltro e espuma Pack) sem deslize de camadas",
+      "Quilting reto de alta precisão em colchas, caminhos de mesa e painéis decorativos com bordados centrais",
+      "Costura de tecidos extremamente escorregadios ou elásticos (cetim, seda, microfibra, neoprene e malha)",
+      "Fechamento de nécessaires estruturadas, bolsas de couro sintético, vinil e plástico cristal",
+      "Pespontos paralelos decorativos guiados pela barra guia de acolchoamento"
+    ],
+    "mainTypes": [
+      "Walking Foot Mecânico com Braço em Garfo: O modelo clássico universal que se encaixa em qualquer máquina doméstica pelo parafuso da agulha",
+      "Sistema IDT Integrado (Integrated Dual Feed): Sistema embutido de fábrica atrás do cabeçote (Pfaff), rebatível com um toque de dedo",
+      "Calcador de Avanço Motorizado Digital (Brother MuVit): Modelo eletrônico com correia dentada de borracha acionada por servomotor",
+      "Pé de Avanço Duplo com Ponteiras Intercambiáveis: Permite trocar a sapata para ponto reto fechado, sapata aberta de bordado ou sapata de zíper"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Velocidade moderada a média (400 a 700 PPM) para controle absoluto de tecidos volumosos",
+      "needleType": "Agulha de Quilting ou Jeans (calibres 80/12 a 100/16 conforme a espessura do recheio)",
+      "stabilizer": "Não utilizado sob o calcador de costura, mas essencial na etapa prévia do bordado"
+    },
+    "advantages": [
+      "✔ Erradica 100% das sobras, ondas e enrugamentos entre o tecido principal, a manta e o forro",
+      "✔ Avanço uniforme em couros ecológicos e plásticos sem grudar na base do calcador",
+      "✔ Excelente visibilidade da linha de costura com alinhamento milimétrico de emendas bordadas",
+      "✔ Compatível com guias de costura paralela para pespontos geométricos elegantes"
+    ],
+    "limitations": [
+      "Não deve ser utilizado em altíssima velocidade (acima de 900 PPM) para não desgastar as engrenagens plásticas do garfo.",
+      "Não é adequado para costuras em marcha a ré prolongada ou pontos decorativos complexos que se movem de lado."
+    ],
+    "commonErrors": [
+      "❌ Esquecer de encaixar o garfo móvel sobre o parafuso da agulha, deixando o calcador solto sem acionar a tração superior.",
+      "❌ Usar o Walking Foot com a serrilha inferior rebaixada (ambos os transportes precisam trabalhar juntos na costura).",
+      "❌ Puxar o sanduíche de manta com força para trás, forçando a barra de agulha e empenando a haste de fixação.",
+      "❌ Tentar usar o Walking Foot no modo de bordado com bastidor eletrônico (o bastidor exige calcador livre de bordado sem dentes)."
+    ],
+    "troubleshootingTips": [
+      "O calcador está montado na máquina mas o tecido continua escorregando e sobrando em cima: O garfo do Walking Foot foi instalado por baixo do parafuso da agulha em vez de ficar montado abraçando o parafuso por cima; solte o parafuso e encaixe o garfo corretamente sobre o suporte da agulha.",
+      "Barulho de estalo plástico 'clec-clec' alto a cada ponto da costura: A mola de retorno interno do calcador está ressecada ou o garfo está torto; aplique uma microgota de óleo mineral no orifício de articulação superior da alavanca.",
+      "O tecido grosso não entra debaixo do calcador: Eleve a alavanca do calcador até o segundo estágio de altura máxima (Extra Lift) para acomodar o sanduíche com conforto antes de abaixar o pezinho."
+    ],
+    "dicaArtrelados": "Ao montar uma bolsa, nécessaire ou almofada bordada com manta acrílica R1 ou R2, nunca costure com o calcador comum de metal da máquina! Faça o 'Truque do Sanduíche Impecável' da Artrelados: coloque o Calcador de Avanço Duplo (Walking Foot) e aumente o comprimento do ponto de costura para 3,0 mm ou 3,5 mm. As duas camadas de tecido e a manta vão deslizar tão perfeitamente unidas que as costuras laterais vão se encontrar milímetro com milímetro, sem nenhuma ruga e com acabamento de alta-costura!",
+    "voceSabia": "O sistema de transporte duplo foi patenteado pela primeira vez para costurar tecidos pesados de estofamento de carruagens no século XIX! Nos anos 1960, a marca alemã Pfaff revolucionou a indústria ao criar o sistema IDT, miniaturizando o mecanismo para dentro do cabeçote doméstico. Hoje, quem experimenta o avanço duplo na montagem de peças bordadas e quilting nunca mais consegue viver sem ele!",
+    "practicalExercise": "Teste Comparativo do Retalho Sanduíche: Pegue duas tiras compridas de tecido de 30 cm e coloque um pedaço de manta acrílica no meio. Costure metade com o calcador comum de zigue-zague e a outra metade com o Walking Foot instalado com o garfo sobre o parafuso da agulha. Ao terminar, compare o final das duas tiras: na costura com o Walking Foot, as duas pontas terminam perfeitamente niveladas; na costura comum, a parte de cima sobrará com mais de 1 cm de diferença!",
+    "quickSummary": "Mecanismo cinemático com serrilha móvel superior acionada pela barra de agulha que traciona a camada de cima do tecido junto com a serrilha inferior, eliminando o deslizamento em mantas e peças com bordado.",
+    "relatedTerms": [
+      "Dentes Impulsores / Serrilha de Transporte (Feed Dogs)",
+      "Calcador de Bordado",
+      "Barra de Agulha e Bucha Guia",
+      "Comprimento do Ponto (Stitch Length)",
+      "Quilting e Acolchoamento",
+      "Manta Acrílica R1 e R2"
+    ],
+    "tags": [
+      "e-104",
+      "eixo-de-transporte-superior",
+      "calcador-de-avanco-duplo",
+      "walking-foot",
+      "dual-feed",
+      "even-feed",
+      "costura",
+      "montagem",
+      "quilting",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "PFAFF SEWING MACHINES. The Original IDT System: Integrated Dual Feed Engineering & Application Guide. Kaiserslautern, 2022.",
+      "BROTHER INDUSTRIES, LTD. Multi-Function Walking Foot & MuVit Digital Dual Feed Service Manual. Nagoya, 2023.",
+      "ARTRELADOS. O Toque Perfeito na Montagem de Peças Bordadas: Segredos do Walking Foot, Transporte Duplo e Quilting. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
   }
 ];
+
 
 

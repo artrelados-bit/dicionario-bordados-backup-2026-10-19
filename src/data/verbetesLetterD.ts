@@ -6419,6 +6419,211 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "multiagulhas",
       "artrelados"
     ]
+  },
+  {
+    "id": "d-092-dedo-posicionador-da-caixa-de-bobina-dedo-retentor",
+    "code": "D-092",
+    "term": "Dedo Posicionador da Caixa de Bobina / Dedo Retentor (Position Bracket / Bobbin Case Stopper)",
+    "pronunciation": "dê-do po-zi-si-o-na-dor da cái-xa de bo-bi-na / dê-do re-ten-tor (po-zí-shon bré-ket / bó-bin keis stó-per)",
+    "letter": "D",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Desenvolvido na transição do século XIX para o século XX com o surgimento das laçadeiras rotativas de movimento contínuo (sistemas Wheeler & Wilson e aperfeiçoados pela Hirose e Koban no Japão). Nasceu da necessidade mecânica de imobilizar o cesto interno da bobina contra o arrasto centrífugo da laçadeira sem bloquear a passagem do laço de linha da agulha.",
+    "summary": "Lingueta mecânica de aço retificado fixada na estrutura inferior da máquina que se projeta para dentro do entalhe da caixa de bobina, retendo-a contra o giro da laçadeira e mantendo uma folga micrométrica milimétrica (0,4 mm a 0,7 mm) para o livre deslizamento do fio superior.",
+    "definition": "O Dedo Posicionador da Caixa de Bobina (também conhecido tecnicamente como Dedo Retentor da Caixa de Bobina, Suporte de Posicionamento ou pelos termos em inglês Position Bracket / Bobbin Case Stopper) é um componente mecânico fundamental de alta precisão localizado na área inferior do leito da máquina de bordar, imediatamente abaixo da chapa de agulha e adjacente à laçadeira rotativa. Consiste em uma haste ou lingueta de aço temperado e polido fixada por parafusos à carcaça da máquina, cuja extremidade saliente se aloja com extrema precisão dentro da ranhura de posicionamento (entalhe superior) da caixa de bobina. Sua função técnica insubstituível é reter e imobilizar a caixa de bobina (ou cesto interno da laçadeira) para que ela não gire junto com o corpo externo da laçadeira rotativa a 800–1.200 RPM, ao mesmo tempo em que mantém uma folga micrométrica rigorosamente calibrada (geralmente entre 0,4 mm e 0,7 mm) entre a lingueta e as paredes do entalhe, permitindo que a linha da agulha contorne toda a caixa de bobina sem ser esmagada, desfiada ou interrompida durante a laçada do ponto.",
+    "technicalDetails": "Usinado em aço carbono de ferramenta temperado e cromado com acabamento superficial retificado espelhado (rugosidade Ra inferior a 0,2 µm) para evitar qualquer atrito cortante com a linha de bordar poliéster ou metálica. A calibragem da folga de escape da linha (Thread Clearance Gap) entre o dente do dedo posicionador e a face interna do recorte da caixa de bobina é ajustada com calibre de lâminas (espessímetro mecânico) em 0,5 mm a 0,7 mm para linhas industriais título 120 (40 wt) e até 0,8 mm para fios pesados ou linhas metálicas. Uma folga inferior a 0,3 mm estrangula a linha na saída da laçadeira, enquanto uma folga superior a 0,9 mm permite jogo axial da caixa, provocando desvio da agulha e impacto catastrófico no protetor da laçadeira.",
+    "construction": [
+      "Corpo Base com Fendas de Ajuste: Placa metálica com orifícios oblongos que permitem translação milimétrica para aproximação ou afastamento da caixa",
+      "Parafusos de Fixação e Travamento: Elementos de rosca métrica de alta dureza que travam o dedo no leito inferior após a calibragem com calibre de lâminas",
+      "Lingueta Saliente de Retenção (Dedo): Extrusão de aço retificado de cantos arredondados que penetra no rebaixo superior da caixa de bobina",
+      "Superfície Guia de Deslizamento de Linha: Zona polida de espelho onde o laço de linha de cima escorrega ao completar o giro de 360°",
+      "Batente Amortecedor de Encosto: Ponto de tolerância mecânica que absorve as microvibrações geradas pela rotação da laçadeira"
+    ],
+    "howItWorks": [
+      "1. A laçadeira rotativa gira a mais de 800 rotações por minuto ao redor da caixa de bobina cheia de linha de baixo.",
+      "2. Pela força do atrito rotacional, a caixa de bobina tentaria girar junto com a laçadeira.",
+      "3. O Dedo Posicionador segura a caixa pelo entalhe superior, travando-a no lugar e mantendo a orientação do furo da agulha perfeitamente centralizado.",
+      "4. Quando a ponta da laçadeira captura a linha de cima da agulha, ela puxa o fio dando a volta completa ao redor da caixa de bobina.",
+      "5. Ao atingir o topo da caixa, a linha passa livremente pela folga micrométrica calibrada (0,5 mm) entre o dedo retentor e o entalhe da caixa.",
+      "6. A linha é puxada para cima pela alavanca estica-fio sem nenhum obstáculo, fechando o ponto perfeito no miolo do tecido!"
+    ],
+    "beginnerExplanation": "O Dedo Posicionador é como se fosse o 'guarda de trânsito' da caixinha de bobina da sua máquina! Imagina que a laçadeira (aquela peça redonda de aço que gira lá embaixo) fica rodando a quase mil voltas por minuto. Por natureza, a caixinha de bobina iria sair rodando feito louca junto com ela! É o dedo posicionador que fica ali quietinho segurando a caixinha no lugar com todo o carinho, mas com um segredo: ele não aperta a caixinha; ele deixa um vãozinho invisível de meio milímetro para a linha de cima passar escorregando lisinha e dar o laço do bordado!",
+    "applications": [
+      "Estabilização mecânica da caixa de bobina em velocidades de 400 a 1.200 PPM em máquinas domésticas e industriais",
+      "Garantia de passagem livre e desobstruída do laço da linha superior ao redor da bobina sem trancos",
+      "Preservação da integridade de linhas finas, fios metálicos e linhas de rayon contra desfiamento inferior",
+      "Alinhamento milimétrico do orifício de entrada da agulha em relação à ponta da laçadeira",
+      "Evitar o travamento catastrófico e o giro da caixa de bobina durante quebras de agulha acidentais"
+    ],
+    "mainTypes": [
+      "Dedo Posicionador de Máquinas Industriais Multiagulhas: Lingueta de aço regulável por parafuso duplo fixada abaixo do leito (Tajima, Barudan, SWF, Bai)",
+      "Lingueta Retentora da Chapa de Agulha (Doméstica Horizontal): Encontrada em máquinas Brother e Janome, onde o dedo posicionador é uma lingueta metálica ou batente plástico embutido na própria estrutura do bloco ou da chapa da agulha",
+      "Dedo Posicionador com Tratamento DLC (Diamond-Like Carbon): Versão de altíssima durabilidade com revestimento preto antifricção para indústrias que operam 24 horas",
+      "Dedo Amortecido com Mola Plana: Modelos com flexibilidade mecânica sutil para reduzir o ruído metálico do batimento da caixa de bobina"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Projetado para manter estabilidade mecânica sob rotações contínuas de 400 a 1.200 PPM",
+      "needleType": "Projetado para harmonizar com agulhas 130/705 H e industriais DBxK5 de espessura 65/9 a 90/14",
+      "stabilizer": "Adequado para todas as classes de entretelas e bases têxteis"
+    },
+    "advantages": [
+      "✔ Impede o giro descontrolado da caixa de bobina, evitando a colisão direta e a quebra violenta da agulha",
+      "✔ Garante que o laço de linha de cima passe suavemente sem sofrer atrito mecânico cortante",
+      "✔ Permite calibragem milimétrica para se adequar a diferentes espessuras de linhas (de linhas 60 finas a linhas 30 pesadas)",
+      "✔ Fabricado em aço temperado com alta resistência ao desgaste por fricção contínua"
+    ],
+    "limitations": [
+      "Extremamente vulnerável a impactos de agulhas quebradas, que podem amassar ou criar rebarbas cortantes na sua ponta.",
+      "Exige precisão instrumental com calibrador de lâminas para ajuste profissional após desmonte da laçadeira."
+    ],
+    "commonErrors": [
+      "❌ Apertar o dedo posicionador encostado colado na caixa de bobina sem deixar folga, esmagando a linha e quebrando o fio a cada 5 pontos.",
+      "❌ Deixar folga excessiva (acima de 1,0 mm), permitindo que a caixa balance livremente e a agulha fure a lateral da caixa de bobina.",
+      "❌ Continuar bordando após quebrar uma agulha sem verificar se a agulha bateu no dedo posicionador e deixou uma rebarba áspera.",
+      "❌ Usar lixas grossas de construção para limpar rebarbas do dedo, deformando o perfil geométrico da lingueta de aço."
+    ],
+    "troubleshootingTips": [
+      "Linha superior quebrando com ponta desfiada em formato de vassourinha ou espanador: Retire a chapa da agulha e examine a ponta do dedo posicionador; passe uma agulha ou a unha nele procurando rebarbas de colisões anteriores de agulha e faça o polimento.",
+      "Ruído metálico estridente de 'clac-clac' na área da bobina: O dedo posicionador pode estar com folga excessiva ou solto; reaperte os parafusos de fixação após calibrar a folga com lâmina de 0,5 mm.",
+      "Linha superior embolando toda embaixo da chapa no primeiro ponto: A folga entre o dedo e a caixa de bobina está muito apertada (a linha não consegue escapar da laçadeira); afrouxe o parafuso e afaste o dedo em 0,2 mm."
+    ],
+    "dicaArtrelados": "Sabe aquele mistério em que você troca a agulha, troca a linha, mexe na tensão e a linha de cima continua arrebentando a cada 10 pontos? Faça o 'Teste da Meia-Calça' ou do pedacinho de algodão da Artrelados! Tire a chapa da agulha e passe a pontinha de um pedaço de meia-calça feminina ou de algodão bem de leve na beiradinha do dedo posicionador. Se a meia-calça puxar um único fiozinho ou se o algodão agarrar fiapos, bingo: há uma rebarbinha afiada como gilete ali deixada por alguma agulha que quebrou no passado! Passe um pedacinho de lixa d'água 1200 com um pingo de óleo de máquina bem suavemente e depois lustre com uma flanelinha: sua máquina voltará a bordar como manteiga!",
+    "voceSabia": "Se o Dedo Posicionador não existisse, a caixa de bobina sairia voando ou girando loucamente no mesmo milissegundo em que a máquina ligasse! Em menos de meio segundo a agulha desceria como uma estaca e bateria em cheio no plástico ou no metal da caixa, estilhaçando a agulha e destruindo o sincronismo da laçadeira! Essa pecinha minúscula de aço é a verdadeira sentinela que salva a sua máquina todos os dias!",
+    "practicalExercise": "Verificação Prática da Folga do Dedo Posicionador: Com a máquina desligada da tomada, retire a chapa da agulha e retire o bastidor. Olhe atentamente para o topo da caixa de bobina e localize onde a lingueta metálica do dedo posicionador entra no recorte da caixa. Com a ponta do dedo indicador limpo, empurre a caixa de bobina de um lado para o outro delicadamente: você deve sentir um joguinho bem suave e milimétrico (cerca de meio milímetro). Esse é o espaço exato onde a linha desliza livremente para formar os seus bordados!",
+    "quickSummary": "Lingueta mecânica de aço retificado que retém a caixa de bobina contra o giro da laçadeira e mantém a folga micrométrica necessária para a passagem livre do laço de linha superior.",
+    "relatedTerms": [
+      "Caixa de Bobina",
+      "Laçadeira Rotativa",
+      "Chapa de Agulha",
+      "Quebra de Agulha",
+      "Quebra de Linha",
+      "Tempo da Máquina de Bordar",
+      "Folga da Laçadeira"
+    ],
+    "tags": [
+      "d-092",
+      "dedo-posicionador",
+      "dedo-retentor",
+      "bobbin-case-stopper",
+      "position-bracket",
+      "caixa-bobina",
+      "lacadeira",
+      "mecanica",
+      "manutencao",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "HIROSE MANUFACTURING CO., LTD. Rotary Hook & Bobbin Case Position Bracket Technical Specification Handbook. Osaka: Hirose, 2023.",
+      "TAJIMA GROUP. Maintenance & Calibration Manual: Rotary Hook Stopper Alignment. Nagoya: Tajima, 2023.",
+      "ARTRELADOS. Segredos da Mecânica Invisível: Ajuste, Diagnóstico e Polimento do Dedo Posicionador da Bobina. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "d-093-dentes-impulsores-serrilha-de-transporte-feed-dogs",
+    "code": "D-093",
+    "term": "Dentes Impulsores / Serrilha de Transporte (Feed Dogs / Drop Feed System)",
+    "pronunciation": "dên-tes im-pul-so-res / ser-rí-lha de trans-pór-te (fíd dógz / dróp fíd sís-tem)",
+    "letter": "D",
+    "level": "Intermediário 🟡",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina plural.",
+    "origin": "Patenteado em 1854 pelo inventor norte-americano Allen B. Wilson (a famosa 'Wilson Four-Motion Feed' ou alimentação de quatro movimentos), tornando-se a espinha dorsal de todas as máquinas de costura do mundo (Singer, Pfaff, Bernina). No bordado computadorizado e no bordado livre, a serrilha precisou ser rebaixada ou coberta para que o bastidor assumisse o controle total da movimentação do tecido em 360 graus.",
+    "summary": "Conjunto de barras de aço temperado com dentes angulares serrilhados que se projetam pelas fendas da chapa de agulha com movimento orbital em quatro tempos para tracionar o tecido para a frente na costura, devendo ser rebaixado ou desacoplado no bordado computadorizado e no quilting livre.",
+    "definition": "Os Dentes Impulsores (tecnicamente denominados Serrilha de Transporte, Dentes de Arraste ou pelo termo em inglês Feed Dogs) constituem o mecanismo primordial de avanço linear do tecido nas máquinas de costura doméstica e industrial utilizadas na preparação e montagem de peças no ateliê de bordado. O conjunto é composto por duas a quatro fileiras paralelas de blocos de aço cementado entalhados com microserrilhas angulares inclinadas no sentido do fluxo de costura. O mecanismo opera sob o clássico ciclo mecânico elíptico de 'quatro movimentos': (1) elevação acima da chapa de agulha através das fendas retificadas; (2) tração horizontal do tecido para trás em sincronia com a subida da agulha; (3) descida e retração abaixo do nível da chapa; e (4) retorno linear inferior à posição inicial. Enquanto na costura reta e de fechamento a serrilha é vital para garantir o comprimento uniforme do ponto, no BORDADO ELETRÔNICO COMPUTADORIZADO ela é terminantemente desativada (rebaixada através da alavanca de Drop Feed ou substituída por uma chapa lisa de bordado sem fendas). Isso ocorre porque no bordado a máquina precisa mover o tecido livremente em qualquer direção (vetores X e Y de 360 graus) através do pantógrafo robotizado; se os dentes estivessem ativos, eles mastigariam a entretela, travariam o pantógrafo e causariam a perda fatal do alinhamento do bordado.",
+    "technicalDetails": "Usinados em aço-ferramenta cementado e temperado com dureza superficial entre 58 e 62 HRC para resistir ao atrito abrasivo de tecidos pesados, jeans e lonas. O perfil dos dentes possui inclinação de 45° a 60° na face frontal de tração e arredondamento microscópico nas pontas para não rasgar fibras delicadas de seda ou viscose. A altura de projeção da serrilha no ápice do curso superior é milimetricamente calibrada entre 0,8 mm e 1,2 mm acima da superfície da chapa de agulha. Em máquinas combinadas (costura e bordado, como a linha Brother Innov-is e Janome Memory Craft), o acoplamento do módulo de bordado aciona automaticamente um microrruptor elétrico que comanda um solenoide para rebaixar os dentes abaixo do nível zero da chapa.",
+    "construction": [
+      "Placa de Dentes de Aço Temperado (Feed Dog Body): Bloco retificado com fileiras de dentes usinados com alta dureza superficial",
+      "Eixo Excêntrico de Elevação (Lift Cam): Eixo inferior sincronizado que empurra a serrilha para cima e para baixo",
+      "Eixo Excêntrico de Avanço Horizontal (Rock Shaft): Eixo oscilante que desloca a serrilha para a frente e para trás regulando o comprimento do ponto",
+      "Alavanca de Rebaixo da Serrilha (Drop Feed Lever): Mecanismo manual ou eletromecânico que desengata o eixo de elevação para bordado livre e quilting",
+      "Parafusos de Fixação de Precisão: Elementos que garantem o alinhamento paralelo dos dentes nas canaletas da chapa de agulha",
+      "Molas Antifolga: Molas que mantêm a serrilha firme sem folga lateral durante a costura rápida"
+    ],
+    "howItWorks": [
+      "1. Na costura comum, a agulha sobe e sai do tecido, liberando o caminho para o transporte.",
+      "2. O eixo excêntrico empurra os dentes para cima através dos rasgos da chapa de agulha.",
+      "3. Os dentes 'mordem' a parte inferior do tecido e o pressionam contra a base do pé calcador.",
+      "4. O mecanismo avança na horizontal, empurrando o tecido exatamente a distância programada (ex: 2,5 mm).",
+      "5. Os dentes afundam para baixo da chapa e a agulha desce para dar o próximo ponto com o tecido imóvel.",
+      "6. No BORDADO ELETRÔNICO: ao encaixar a unidade de bordado ou mudar a alavanca para a posição 'Bordado', os dentes descem e ficam permanentemente escondidos embaixo da chapa.",
+      "7. Com a mesa totalmente lisa, o braço robótico (pantógrafo) desliza o bastidor livremente para qualquer direção sem atrito nem resistência!"
+    ],
+    "beginnerExplanation": "Os Dentes Impulsores (ou Serrilha) são como pequenas 'garras de ferro' que ficam embaixo da chapa da máquina de costura empurrando o pano para a frente enquanto você costura! Mas atenção, bordadeira: no BORDADO COMPUTADORIZADO, os dentes precisam 'dormir' lá embaixo escondidos! Por quê? Porque na costura o pano só anda para a frente em linha reta; mas no bordado computadorizado o bastidor precisa voar para a esquerda, para a direita, para cima e em círculos! Se os dentes ficassem levantados, eles furariam a entretela, arranhariam o tecido e segurariam o bastidor, entortando todo o bordado! Por isso, toda máquina de bordar tem a chapa lisa ou uma chavinha mágica atrás que abaixa os dentes na hora de bordar!",
+    "applications": [
+      "Avanço preciso e regular de tecidos na costura reta, zigue-zague e preparação de peças no ateliê",
+      "Montagem e fechamento de almofadas, nécessaires, toalhas e vestuário após a finalização do bordado",
+      "Rebaixamento obrigatório (Drop Feed) para conversão da máquina em modo de bordado computadorizado",
+      "Desativação para execução de Free-Motion Embroidery (Bordado Livre) e Quilting livre com bastidor de mão",
+      "Alimentação sincronizada em tecidos planos finos e médios com controle do comprimento do ponto"
+    ],
+    "mainTypes": [
+      "Serrilha Padrão de 3 Fileiras: O modelo tradicional mais comum em máquinas domésticas mecânicas e eletrônicas",
+      "Serrilha de 7 Pontos de Contato (7-Piece Feed Dog): Sistema moderno com dentes frontais e traseiros para puxar o tecido desde o primeiro milímetro",
+      "Serrilha de Arraste Retangular (Box Feed): Tecnologia industrial que mantém os dentes em contato plano com o tecido por mais tempo",
+      "Serrilha Emborrachada ou com Dentes de Borracha: Especial para tecidos finos, sedas e vinil, evitando marcas de dentes no material"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Na costura de fechamento: 600 a 900 PPM; No bordado: dentes 100% rebaixados e inativos",
+      "needleType": "Conforme a operação de costura (Universal 75/11 a 90/14)",
+      "stabilizer": "Não se aplica diretamente aos dentes, mas a entretela de bordado exige que a serrilha esteja rebaixada"
+    },
+    "advantages": [
+      "✔ Transporte uniforme e estável que garante pontos com comprimento rigorosamente idêntico na costura",
+      "✔ Sistema de quatro movimentos suaves que não repuxa nem enruga tecidos elásticos",
+      "✔ Possibilidade de desativação instantânea por alavanca traseira para prática de bordado livre e quilting",
+      "✔ Fabricada em aço temperado de altíssima durabilidade resistente a décadas de uso diário"
+    ],
+    "limitations": [
+      "Se os dentes estiverem sujos de fiapos compactados nas ranhuras, perdem a aderência e o tecido não anda.",
+      "Se a altura estiver regulada alta demais (acima de 1,2 mm), os dentes marcam e furam tecidos sensíveis como cetim e seda."
+    ],
+    "commonErrors": [
+      "❌ Tentar bordar com bastidor em máquina combinada sem ter abaixado a alavanca da serrilha (ou sem colocar a tampa protetora de dentes).",
+      "❌ Deixar acumular um 'tijolo' de fiapos de linha e pó de tecido entre os vãos dos dentes da serrilha embaixo da chapa.",
+      "❌ Puxar o tecido à força com as mãos na costura em vez de deixar os dentes fazerem o transporte natural.",
+      "❌ Utilizar chave de fenda com força excessiva nos parafusos da serrilha, espanando a rosca do bloco oscilante."
+    ],
+    "troubleshootingTips": [
+      "A máquina de costura está costurando no mesmo lugar e o tecido não anda para a frente: A alavanca de rebaixar a serrilha (Drop Feed) está ativada na posição de bordado/quilting; empurre a alavanca de volta para a posição de costura e gire o volante com a mão para os dentes subirem.",
+      "A unidade de bordado dá erro de travamento do bastidor no início do bordado: Os dentes da máquina combinada estão levantados e engalfinharam no fundo da entretela; abaixe a serrilha pela alavanca traseira e recomece.",
+      "Os dentes estão subindo tortos e raspando nas canaletas da chapa de agulha com barulho metálico: Os parafusos de fixação da serrilha afrouxaram; retire a chapa, alinhe os dentes paralelamente às fendas e aperte os parafusos com firmeza."
+    ],
+    "dicaArtrelados": "Quem é bordadeira sabe: o lugar mais 'escondidinho' e que mais junta sujeira na máquina de costura é exatamente o vão entre os dentes da serrilha! A cada duas semanas ou após costurar tecidos peludos como plush e toalhas, tire a chapa da agulha e dê uma olhada com uma lanterninha: você vai encontrar uma massinha cinza de fiapos bem dura presa entre os dentes! Pegue um pincelzinho duro ou uma pinça e tire toda essa sujeira: a serrilha volta a morder o tecido com suavidade e sua máquina nunca mais vai falhar o tamanho do ponto!",
+    "voceSabia": "A invenção da serrilha de quatro movimentos por Allen B. Wilson em 1854 foi tão revolucionária que a empresa Singer pagou uma fortuna para licenciar a patente! Antes disso, as máquinas de costura usavam rodas com espinhos ou pinças manuais que rasgavam as roupas. O sistema do Wilson foi tão perfeito que até hoje — mais de 170 anos depois — todas as máquinas de costura do planeta usam exatamente o mesmo princípio mecânico!",
+    "practicalExercise": "Observação dos Quatro Movimentos da Serrilha: Com a máquina no modo de costura e desligada da tomada, retire a linha da agulha e observe a serrilha de lado na altura dos olhos. Gire o volante lentamente na sua direção: veja como os dentes sobem, andam para trás arrastando o ar, descem e voltam escondidos por baixo da chapa. Esse ciclo contínuo é o famoso balé dos quatro movimentos!",
+    "quickSummary": "Mecanismo de aço dentado que avança o tecido na costura linear e que deve ser obrigatoriamente rebaixado no bordado computadorizado para permitir o movimento livre do bastidor.",
+    "relatedTerms": [
+      "Chapa de Agulha",
+      "Calcador de Bordado",
+      "Pantógrafo do Bastidor",
+      "Bastidor de Bordado",
+      "Comprimento do Ponto (Stitch Length)",
+      "Bordado Livre (Free-Motion)"
+    ],
+    "tags": [
+      "d-093",
+      "dentes-impulsores",
+      "serrilha",
+      "feed-dogs",
+      "drop-feed",
+      "transporte",
+      "costura",
+      "mecanica",
+      "manutencao",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "WILSON, Allen B. Four-Motion Feed Mechanism for Sewing Machinery. US Patent Office, 1854.",
+      "BROTHER INDUSTRIES, LTD. Home Sewing & Embroidery Machine Service Manual: Feed Dog Mechanism & Drop Feed Calibration. Nagoya, 2022.",
+      "ARTRELADOS. Da Costura Reta ao Bordado Computadorizado: Segredos da Serrilha, Ajuste de Altura e Limpeza. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
   }
 ];
+
+
 

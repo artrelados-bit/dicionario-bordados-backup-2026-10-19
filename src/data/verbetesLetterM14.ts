@@ -1862,5 +1862,208 @@ export const VERBETES_LETTER_M_PART14: Verbete[] = [
       "ARTRELADOS. A Revolução da Tensão Digital: Como Opera o Sistema Acti-Feed no Bordado Moderno. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-05"
+  },
+  {
+    "id": "m-102-mola-tira-fio-mola-de-compensacao-check-spring",
+    "code": "M-102",
+    "term": "Mola Tira-Fio / Mola de Compensação (Check Spring / Take-Up Spring)",
+    "pronunciation": "mó-la ti-ra-fi-o / mó-la de com-pen-sa-ção (tché-ki sprin-gui)",
+    "letter": "M",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Originada na engenharia mecânica das primeiras máquinas de costura e bordado industrial do século XIX (Singer e Wheeler & Wilson). Foi aperfeiçoada no século XX pelos fabricantes japoneses (Tajima, Barudan e Brother) com a introdução de ligas de aço mola temperado de altíssima resistência à fadiga elástica contínua para suportar regimes de alta rotação acima de 1.000 PPM.",
+    "summary": "Mola helicoidal de aço temperado com haste extensora integrada ao conjunto de tensão superior da máquina, responsável por absorver o chicoteamento da linha, manter o fio esticado durante a descida da agulha e estabilizar a formação do laço inferior na laçadeira.",
+    "definition": "A Mola Tira-Fio (também denominada tecnicamente como Mola de Compensação, Mola Amortecedora de Tensão ou em inglês Check Spring / Thread Take-Up Spring) é um microcomponente mecânico de extrema precisão localizado junto ao disco do tensor superior de linha de máquinas de bordar domésticas, industriais e semi-industriais. Trata-se de uma mola espiral de arame de aço carbono calibrado dotada de uma haste móvel em formato de gancho ou arco que oscila contra um batente fixo. Sua função primária e vital é amortecer a inércia da linha no instante em que a alavanca estica-fio desce repentinamente para liberar fio para a agulha, impedindo que a linha forme uma laçada frouxa antes da penetração no tecido e garantindo que a linha permaneça sob leve tensão controlada até o momento exato em que a ponta da agulha entra no tecido e a laçadeira engata o laço inferior.",
+    "technicalDetails": "Fabricada em aço-mola fosfatizado ou niquelado de alta resistência dinâmica à fadiga por torção (diâmetro do fio de aço entre 0,35 mm e 0,55 mm dependendo da classe da máquina). O curso mecânico de oscilação angular da haste da mola varia entre 5,0 mm e 9,0 mm antes do repouso no batente limitador. A força elástica de deflexão é calibrada entre 25 gf e 45 gf (gramas-força). Opera em sincronismo com a árvore de comando da laçadeira: quando a agulha atinge o ponto morto inferior (PMI) e sobe entre 1,8 mm e 2,2 mm para abrir o laço, a mola tira-fio deve atingir seu batente de descanso, transferindo a tensão integralmente para a laçadeira para evitar a perda do laço.",
+    "construction": [
+      "Corpo Helicoidal Interno: Espiral cilíndrica de torção que se aloja dentro do tubo do eixo do conjunto de tensão superior",
+      "Haste Oscilante Externa: Braço longo de arame polido com terminação curva por onde a linha superior passa apoiada",
+      "Pino Batente de Fim de Curso: Limitador mecânico metálico que restringe a descida máxima da haste da mola",
+      "Anel Excêntrico de Regulagem: Cilindro fendido que permite girar o corpo da mola para endurecer ou suavizar a pressão elástica",
+      "Porca ou Parafuso de Bloqueio: Trava micrométrica que fixa o eixo do tensor na carcaça do cabeçote da máquina"
+    ],
+    "howItWorks": [
+      "1. A linha sai do cone, passa pelos guias de linha superiores e entra entre os pratinhos de tensão metálicos.",
+      "2. Ao sair dos pratinhos, a linha engata na haste curva da mola tira-fio antes de subir para a alavanca do estica-fio.",
+      "3. Quando a máquina inicia o ciclo de ponto, o estica-fio desce bruscamente: a mola tira-fio se flexiona para cima, recolhendo instantaneamente a folga de linha.",
+      "4. Conforme a agulha desce em direção ao tecido, a mola acompanha o movimento mantendo a linha perfeitamente esticada sem chicotear.",
+      "5. No instante em que a ponta da agulha toca o tecido, a haste da mola encosta no seu batente metálico inferior e para de descer.",
+      "6. Com a mola parada, a linha fica imóvel e a laçadeira captura o laço perfeitamente formado embaixo da chapa, gerando o ponto com laçamento firme!"
+    ],
+    "beginnerExplanation": "A Mola Tira-Fio é como se fosse o 'amortecedorzinho invisível' da linha da sua máquina de bordar! Sabe aquele araminho fininho e delicado que parece um bigodinho de gato que fica pulando alegremente para cima e para baixo ali perto dos discos onde a linha passa? É ela! Quando a máquina está bordando a 800 pontos por minuto, a linha dá trancos fortíssimos a cada segundo. Se não fosse essa molinha elástica puxando a linha de volta toda vez que ela fica frouxa, a linha embolaria toda na ponta da agulha antes mesmo de furar o pano, criando aqueles bolos horríveis de linha embaixo do bastidor!",
+    "applications": [
+      "Estabilização dinâmica da linha em velocidades industriais e domésticas de 400 a 1.200 PPM",
+      "Prevenção absoluta de laçadas frouxas e nós na descida da agulha ao bordar pontos cheios largos",
+      "Controle de amortecimento para linhas delicadas que quebram facilmente por estresse térmico e mecânico (como fios metálicos e rayon)",
+      "Uniformização da laçada em tecidos volumosos como toalhas felpudas, piquet e malhas elásticas",
+      "Ajuste da firmeza do ponto no avesso do bordado em conjunto com a caixa de bobina"
+    ],
+    "mainTypes": [
+      "Mola Tira-Fio Externa de Cabeçote Único (Doméstica): Encontrada em máquinas Brother, Janome e Singer, com mola semiexposta próxima ao estica-fio",
+      "Mola Tira-Fio de Cartucho / Sub-Tensor (Industrial): Módulo encapsulado individual para cada agulha em máquinas Tajima, Barudan, SWF e Bai",
+      "Mola Tira-Fio de Alta Tensão: Arame mais grosso calibrado para linhas pesadas de calçados, couros e estofados",
+      "Mola Tira-Fio Macia de Baixa Tensão: Arame ultrafino desenvolvido para linhas de poliamida fina e fios metálicos brilhantes"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Projetada para responder instantaneamente a oscilações mecânicas de 400 a 1.200 ciclos por minuto",
+      "needleType": "Compatível com agulhas domésticas cabo chato (130/705 H) e industriais de cabo redondo (DBxK5)",
+      "stabilizer": "Adequada para todas as categorias de entretelas (rasgáveis, hidrossolúveis e filmes plásticos)"
+    },
+    "advantages": [
+      "✔ Elimina o chicoteamento da linha e a oscilação livre do fio entre o tensor superior e o olho da agulha",
+      "✔ Garante que o laço inferior seja formado com formato e tamanho perfeitamente idênticos a cada fração de segundo",
+      "✔ Protege os fios metálicos e linhas frágeis contra rompimentos bruscos causados pelo tranco do estica-fio",
+      "✔ Melhora a estética visual do bordado, deixando a superfície acetinada sem pontinhos frouxos ou desfiados"
+    ],
+    "limitations": [
+      "Componente sujeito a desgaste físico e fadiga elástica após milhões de pontos bordados, exigindo substituição periódica.",
+      "Extremamente vulnerável a puxões bruscos de linha na direção errada durante a passagem manual de linha pela bordadeira."
+    ],
+    "commonErrors": [
+      "❌ Puxar a linha do cone para trás com força ao despassar a máquina, entortando ou quebrando o arame da mola tira-fio.",
+      "❌ Permitir o acúmulo de cera de linha, cola de entretela adesiva e poeira dentro do eixo da mola, travando o seu movimento.",
+      "❌ Regular a pressão da mola excessivamente dura, fazendo com que a linha arrebente assim que a agulha tenta penetrar no tecido.",
+      "❌ Regular a mola sem pressão alguma (solta), permitindo que a linha forme alças frouxas no avesso do bordado."
+    ],
+    "troubleshootingTips": [
+      "Bordado formando alças e laçadas frouxas no avesso sem motivo aparente: Verifique se a mola tira-fio está se movimentando livremente; se ela estiver travada para baixo ou caída, desmonte o conjunto do tensor e faça a limpeza ou troca.",
+      "Linha quebrando constantemente logo após o corte ou na troca de cor: A mola tira-fio pode estar com o curso muito curto, dando tranco excessivo no início do ponto; ajuste o anel limitador para aumentar o curso em 2 mm.",
+      "Fio metálico desfiando antes de chegar na agulha: Alivie a pressão da mola tira-fio girando o eixo do tensor levemente no sentido anti-horário para torná-la mais macia."
+    ],
+    "dicaArtrelados": "Quer saber se a sua mola tira-fio está viva e saudável em menos de 5 segundos? Com a máquina desligada e a linha passada, puxe a linha com a mão logo acima do olho da agulha: a molinha tem que descer suavemente e, assim que você soltar a linha, ela deve 'pular' de volta para cima instantaneamente com energia! Se ela demorar para subir, ficar emperrada no meio do caminho ou estiver caída sem força, passe um pedaço de fio dental sem cera entre os discos e ao redor da mola para tirar fiapos velhos ou chame o técnico para trocá-la!",
+    "voceSabia": "Em um bordado de tamanho médio com 40.000 pontos bordado em uma máquina a 800 PPM, a haste dessa pequenina mola de arame sobe, desce e amortece a linha nada menos que 40.000 vezes em apenas 50 minutos! Ela é uma das peças mecânicas que mais se movimenta em todo o planeta, trabalhando incansavelmente para que cada pontinho do seu bordado fique impecável!",
+    "practicalExercise": "Diagnóstico Visual da Mola Tira-Fio em Funcionamento: Coloque a sua máquina para bordar um pedaço de retalho em velocidade lenta (400 PPM). Fique olhando atentamente para a frente do cabeçote, na altura do conjunto de tensão. Observe como a molinha tira-fio pula em perfeita sincronia com o estica-fio: a cada descida da agulha ela recolhe a linha frouxa. Se você notar que em alguma agulha ela não se mexe, você acabou de descobrir por que aquela cor vivia arrebentando linha!",
+    "quickSummary": "Mola elástica helicoidal integrada ao tensor superior que amortece o tranco da linha, recolhe folgas e estabiliza a formação do laço inferior na laçadeira durante a rotação da máquina.",
+    "relatedTerms": [
+      "Conjunto de Tensão Superior",
+      "Estica-Fio",
+      "Laçadeira Rotativa",
+      "Caixa de Bobina",
+      "Quebra de Linha",
+      "Tempo da Máquina de Bordar",
+      "Velocidade PPM"
+    ],
+    "tags": [
+      "m-102",
+      "mola-tira-fio",
+      "mola-compensacao",
+      "check-spring",
+      "tensor",
+      "estica-fio",
+      "mecanica",
+      "manutencao",
+      "pecas",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Industrial Embroidery Machine Maintenance & Tension Adjustment Manual. Nagoya: Tajima, 2023.",
+      "BROTHER INDUSTRIES, LTD. Technical Service Manual: Upper Thread Tension Assembly & Check Spring Calibration. Nagoya, 2022.",
+      "ARTRELADOS. A Mecânica Invisível do Bordado: Segredos, Ajustes e Diagnóstico da Mola Tira-Fio. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "m-103-mola-de-compressao-do-pe-calcador-amortecedor",
+    "code": "M-103",
+    "term": "Mola de Compressão do Pé Calcador e Amortecedor (Presser Foot Spring & Cushion Assembly)",
+    "pronunciation": "mó-la de com-pres-são do pé cal-ca-dor e a-mor-te-ce-dor (pré-sser fut spring end cú-shon as-sém-bli)",
+    "letter": "M",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Concebida no final do século XIX nas primeiras máquinas de costura industrial e aperfeiçoada no pós-guerra pela indústria mecatrônica japonesa e alemã (Tajima, ZSK, Brother e Pfaff) para suportar os impactos verticais em altíssimas rotações (acima de 800 PPM), eliminando a flutuação do tecido (flagging) e amortecendo os choques contra o leito da máquina.",
+    "summary": "Mola helicoidal de aço temperado e anel amortecedor de poliuretano montados na haste vertical do pé calcador que exercem pressão descendente precisa no momento da penetração e recuo da agulha, impedindo que o tecido suba junto com o fio e estabilizando a formação do laço inferior.",
+    "definition": "A Mola de Compressão do Pé Calcador e seu Amortecedor Elastômero (Presser Foot Spring & Cushion Assembly) compõem o sistema de retenção dinâmica do tecido no cabeçote de bordado eletrônico. Diferente das máquinas de costura convencionais — onde o calcador fica continuamente abaixado e arrastando sobre o tecido —, no bordado computadorizado o pé calcador salta ritmicamente em sincronia com a barra de agulha (movimento 'hop'). A mola de compressão é um elemento elástico helicoidal de aço de alta resiliência posicionado ao redor da haste do calcador, delimitado por um colar de ajuste superior e um anel amortecedor de borracha nitrílica ou poliuretano na base. Sua função primordial é aplicar uma força elástica descendente instantânea e calibrada (tipicamente entre 150 g e 400 g de pressão) sobre o pé calcador exatamente na fração de segundo em que a agulha atinge o Ponto Morto Inferior e começa a sua ascensão de 2 mm. Essa pressão mecânica impede o 'efeito de flutuação' (flagging) — fenômeno em que a elasticidade do tecido o faz subir colado à lâmina da agulha —, garantindo que o tecido permaneça perfeitamente imóvel e rente à chapa para que a laçadeira rotativa capture a alça da linha com tolerância zero de erro.",
+    "technicalDetails": "Fabricada em fio de aço-mola fosfatado ou aço inoxidável temperado com constante elástica (k) rigorosamente calibrada entre 1,8 N/mm e 3,5 N/mm, dependendo da classe da máquina (doméstica leve ou industrial pesada). A mola suporta ciclos de compressão contínua de até 20 Hz (1.200 batidas por minuto) sem perder a memória elástica. O anel amortecedor (cushion washer) de poliuretano ou borracha termoplástica de dureza 70 a 85 Shore A absorve o impacto do retorno da haste do calcador, reduzindo o ruído mecânico do cabeçote em até 6 dB e impedindo a transmissão de microvibrações harmônicas que possam descalibrar os sensores ópticos superiores.",
+    "construction": [
+      "Mola Helicoidal de Compressão (Helical Spring): Corpo em espiral de aço temperado com extremidades retificadas planas para assentamento uniforme",
+      "Anel Amortecedor de Impacto (Cushion Washer / Rubber Stopper): Arruela de poliuretano de alta densidade que dissipa a energia de choque do calcador",
+      "Haste Vertical do Pé Calcador (Presser Foot Bar): Eixo de aço polido que guia o deslizamento coaxial da mola e sustenta a sapata inferior",
+      "Colar de Pré-Carga com Parafuso Sextavado (Spring Collar): Anel limitador que permite elevar ou baixar a compressão inicial da mola",
+      "Bucha Guia do Calcador: Mancal de bronze ou bucha plástica autolubrificante cravada no bloco do cabeçote",
+      "Sapata Circular de Contato (Presser Foot Ring): Extremidade inferior em anel aberto ou fechado que prensa o tecido ao redor do orifício da agulha"
+    ],
+    "howItWorks": [
+      "1. A barra de agulha inicia a descida em alta velocidade empurrada pela biela central.",
+      "2. O came mecânico aciona a haste do pé calcador, que desce antes da agulha atingir o tecido.",
+      "3. O anel inferior do pé calcador toca o tecido e a haste para momentaneamente; a descida contínua do cabeçote comprime a Mola de Compressão.",
+      "4. A agulha fura o tecido, atravessa a entretela e alcança o Ponto Morto Inferior (PMI).",
+      "5. Quando a agulha inicia a subida de 2 milímetros, o tecido tenta ser puxado para cima pelo atrito da linha e da agulha.",
+      "6. A Mola de Compressão reage instantaneamente, empurrando o pé calcador contra o tecido com força firme e mantendo o pano colado na chapa.",
+      "7. A laçada perfeita se forma embaixo, a ponta da laçadeira captura a linha e, logo em seguida, a haste sobe e o anel amortecedor absorve o impacto suavemente sem barulho metálico!"
+    ],
+    "beginnerExplanation": "A Mola do Pé Calcador é como se fosse o 'dedinho protetor' da máquina que segura o pano na hora certa! Você já tentou puxar uma agulha de dentro de um pano grosso e sentiu que o pano quer vir junto grudado na agulha? Na máquina de bordar é a mesma coisa: se o pano subir junto com a agulha, a linha embola lá embaixo e a máquina dá ponto pulado! É aí que essa mola entra em ação: toda vez que a agulha fura e vai subir, a mola aperta o pezinho da máquina com firmeza contra o tecido para o pano não levantar nem um milímetro! E a borrachinha amortecedora serve para que o pezinho não fique batendo com barulho de 'martelo' no ferro da máquina!",
+    "applications": [
+      "Eliminação absoluta do efeito de flutuação do tecido (flagging) em malhas elásticas, piquet e tecidos flexíveis",
+      "Prevenção contra a quebra de agulhas provocada pelo levantamento do tecido e deflexão da lâmina",
+      "Garantia de laçadas inferiores nítidas e uniformes na laçadeira rotativa em velocidades de 600 a 1.200 PPM",
+      "Amortecimento acústico e dissipação de ondas de choque metálicas no interior do cabeçote de bordado",
+      "Estabilização de bordados 3D com EVA espesso, mantendo a espuma firme sem deformar a peça"
+    ],
+    "mainTypes": [
+      "Mola de Compressão Cilíndrica Padrão (Mais comum): Espiral cilíndrica uniforme usada em máquinas Brother, Janome, Sun Special e Tajima",
+      "Mola de Compressão Cônica Progressiva: Molas cônicas que oferecem resistência progressiva suave no início e rígida no final do curso",
+      "Conjunto de Calcador com Amortecedor Hidráulico / Mola Dupla: Utilizado em cabeçotes industriais alemães de altíssima performance (ZSK)",
+      "Sistema de Calcador Eletrônico Ajustável por Motor (Digital Foot): Sistema moderno onde um motor de passo substitui a pré-carga mecânica da mola"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Calibrada para responder com estabilidade milissegunda em rotações contínuas de 400 a 1.200 PPM",
+      "needleType": "Universal para todas as espessuras de agulha (65/9 a 100/16)",
+      "stabilizer": "Vital para manter tecidos finos e flexíveis colados em entretelas hidrossolúveis e rasgáveis"
+    },
+    "advantages": [
+      "✔ Previne o descalibramento do laço inferior, erradicando falhas de ponto em tecidos difíceis",
+      "✔ Anel amortecedor de poliuretano que reduz drasticamente o ruído e o estresse mecânico no cabeçote",
+      "✔ Resposta elástica instantânea que acompanha o ritmo vertiginoso de até 20 batidas por segundo",
+      "✔ Permite regular a altura e a pressão do calcador para bordar desde organza ultrafina até toalhas felpudas e jaquetas grossas"
+    ],
+    "limitations": [
+      "Com o passar dos anos e milhões de batidas, a mola sofre fadiga mecânica e perde a força de expansão original.",
+      "O anel amortecedor de borracha resseca, racha e esfarela com o calor e a poeira têxtil, aumentando o ruído da máquina."
+    ],
+    "commonErrors": [
+      "❌ Deixar o anel amortecedor de borracha se desgastar até o calcador bater ferro com ferro contra o cabeçote.",
+      "❌ Regular o colar da mola com pressão excessiva ao bordar tecidos aveludados, deixando marcas permanentes de esmagamento no tecido.",
+      "❌ Regular a mola frouxa demais ao bordar bonés estruturados ou couro, fazendo o tecido subir junto com a agulha e quebrar o fio.",
+      "❌ Utilizar molas de caneta ou molas genéricas de dureza inadequada em substituição à peça original de fábrica."
+    ],
+    "troubleshootingTips": [
+      "A máquina está fazendo um 'tec-tec-tec' muito alto e estalado no cabeçote a cada descida da agulha: O anel amortecedor de poliuretano (cushion washer) se rompeu ou esfarelou; substitua o anel de borracha na haste do calcador para restaurar o amortecimento silencioso.",
+      "Pontos pulados frequentes apenas em tecidos elásticos (como lycra ou malha fria) sem que a linha arrebente: A mola de compressão do calcador está fraca ou com altura muito alta, permitindo que a malha suba junto com a agulha (flagging); abaixe a regulagem da altura do calcador em 0,5 mm para aumentar a pressão sobre o tecido.",
+      "Bordado deixando um anel amassado e brilhoso em volta de cada flor em tecidos de veludo ou microfibra: A pressão da mola está excessiva; afrouxe ligeiramente o colar de ajuste superior para diminuir a carga da mola sobre o tecido."
+    ],
+    "dicaArtrelados": "Está bordando aquela toalha grossa de banho bem felpuda ou um tecido com espuma 3D e percebeu que a máquina começou a dar pulo de ponto ou fazer um barulho estalado? Faça o 'Ajuste do Milímetro de Ouro' da Artrelados: com a máquina desligada e a agulha no Ponto Morto Inferior (lá no fundo do curso), afrouxe o parafuso de regulagem da haste do pé calcador e deixe ele descer até tocar a felpa da toalha sem esmagar o tecido, mantendo uma pressão firme da mola. Você vai ver que a toalha para de pular, a agulha entra macia e o laço embaixo fica tão perfeito que parece uma pintura!",
+    "voceSabia": "Em um bordado médio de 25.000 pontos bordado a 800 PPM, essa pequena mola de compressão é esmagada e liberada exatamente 25.000 vezes em pouco mais de meia hora! O aço de alta resiliência utilizado nessas molas é o mesmo grau de liga metálica empregado nas molas de válvulas de motores de corrida de Fórmula 1, projetado para suportar milhões de compressões sem perder a sua elasticidade milimétrica!",
+    "practicalExercise": "Diagnóstico do Amortecedor e Elasticidade da Mola: Com a máquina desligada e o bastidor retirado, pegue a sapata do pé calcador com a ponta dos dedos e empurre-a para cima contra a resistência da mola. Sinta a força: ela deve subir oferecendo uma resistência elástica suave e firme e, ao soltá-la, deve retornar para baixo imediatamente com um toque macio e silencioso. Se você ouvir uma pancada seca de metal contra metal, o anel amortecedor precisa de troca; se a volta for lenta ou arranhada, uma gotinha de óleo mineral na haste resolverá na hora!",
+    "quickSummary": "Mola helicoidal de aço e arruela amortecedora que aplicam pressão dinâmica sobre o pé calcador na subida da agulha, evitando a flutuação do tecido e silenciando o cabeçote.",
+    "relatedTerms": [
+      "Calcador de Bordado",
+      "Barra de Agulha e Bucha Guia",
+      "Laçadeira Rotativa",
+      "Efeito Flagging (Flutuação do Tecido)",
+      "Ponto Morto Inferior (PMI)",
+      "Velocidade PPM"
+    ],
+    "tags": [
+      "m-103",
+      "mola-do-calcador",
+      "presser-foot-spring",
+      "amortecedor",
+      "flagging",
+      "calcador",
+      "mecanica",
+      "manutencao",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Presser Foot Mechanism, Spring Tension and Hop Timing Calibration. Nagoya: Tajima, 2023.",
+      "ZSK STICKMASCHINEN GMBH. Mechanical Head Components: Presser Foot Cushion Dampers & Springs. Krefeld, 2022.",
+      "ARTRELADOS. O Segredo do Calcador Perfeito: Ajuste de Altura, Amortecimento e Eliminação do Efeito Flagging. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
   }
 ];
+
+
