@@ -810,5 +810,110 @@ export const VERBETES_LETTER_P_PART14: Verbete[] = [
     "quickSummary": "O botão vermelho de emergência que para a máquina na mesma hora para evitar acidentes e proteger a bordadeira.",
     "beginnerExplanation": "O botão de emergência é aquele botão vermelho grande que parece um cogumelo e fica bem fácil de alcançar na máquina. Se alguma coisa der errado (como o bastidor bater ou uma tesoura cair), você só precisa bater a mão nele: a máquina para imediatamente na mesma hora, protegendo os seus dedos e a sua máquina!",
     "updatedAt": "2026-08-29"
+  },
+  {
+    "id": "p-101-pe-design-software-de-criacao-e-edicao-brother",
+    "code": "P-101",
+    "term": "PE-Design (Software de Criação e Edição Brother)",
+    "pronunciation": "pê-ê de-sain (sof-tu-ér de cri-a-ção e e-di-ção bró-der)",
+    "letter": "P",
+    "level": "Iniciante a Avançado 🟢🟡🔴",
+    "category": "Softwares & Programação",
+    "grammarClass": "Substantivo próprio / Marca de software / Locução substantiva.",
+    "origin": "Desenvolvido no Japão pela Brother Industries, Ltd., com lançamento da primeira versão comercial na década de 1990. Evoluiu continuamente ao longo de mais de três décadas através de marcos icônicos (PE-Design 7, 8, Next, PE-Design 10 e o consolidado PE-Design 11), estabelecendo-se como o software proprietário oficial de digitalização e criação do ecossistema mundial de máquinas Brother.",
+    "summary": "Software oficial de digitalização e criação da Brother Industries (Japão, anos 1990), padrão absoluto para geração do formato nativo .PES/.PEC, consagrado pelas ferramentas Photostitch, conversão automática de vetores, criação de fontes de monogramas e comunicação sem fio Link Wireless com as máquinas Brother.",
+    "definition": "O PE-Design é a suíte oficial e proprietária de digitalização, edição, arranjo e criação de matrizes de bordado computadorizado desenvolvida pela multinacional japonesa Brother Industries. Projetado especificamente para harmonizar com toda a linha de máquinas de bordar domésticas (como a linha BP, Innov-is e NQ) e semi-industriais multiagulhas (como a consagrada série PR de 6 e 10 agulhas), o PE-Design destaca-se por sua interface visual moderna baseada no estilo Microsoft Office (Ribbon), ampla biblioteca de mais de 130 fontes digitalizadas pré-calibradas, assistente avançado de fotobordado (Photostitch), conversão automática de imagens vetoriais (SVG, EMF, WMF) e bitmap (PNG, JPEG), suporte nativo a bastidores gigantes com rotação em 360° e conectividade sem fio Link Wireless para envio direto de arquivos para até 10 máquinas Brother conectadas à rede Wi-Fi sem necessidade de pendrive.",
+    "technicalDetails": "Motor de geração vetorial paramétrica com suporte completo às extensões nativas .PES (com cabeçalhos de dados de versão v1 a v11, dados de corte de linha e catálogo de linhas de fabricantes mundiais) e .PEC. Possui algoritmos avançados de preenchimento inteligente (Intelligent Color Blending) para degradês suaves de cor, controle dinâmico de compensação de repuxo (Pull Compensation) de 0,0 mm a 2,0 mm, ajuste de direção de ponto por múltiplos vetores de inclinação em ponto cheio e tatami, e suporte à exportação para formatos industriais como .DST, .EXP, .HUS, .VIP, .VP3, .JEF e .SEW.",
+    "construction": [
+      "Layout & Editing: O ambiente principal de trabalho para digitalização manual vetorial, aplicação de pontos e configuração de bastidores",
+      "Design Center: Módulo clássico para processamento e vetorização de desenhos manuais escaneados e traços lineares",
+      "Photostitch: Assistente matemático exclusivo de alta fidelidade para conversão automática de fotos de pessoas e pets em bordado",
+      "Font Creator: Ferramenta especializada para desenhar e digitalizar novas fontes tipográficas personalizadas com regras de salto",
+      "Design Database: Gerenciador de arquivos para catalogar, buscar por palavras-chave e pré-visualizar matrizes salvas no computador",
+      "Módulo Link Wireless: Sistema de rede sem fio para transmissão de matrizes e monitoramento de status de até 10 máquinas Brother PR",
+      "Assistente de Aplique Automático: Gerador automático de etapas de contorno, corte de tecido e ponto de acabamento (festonê ou caseado)"
+    ],
+    "howItWorks": [
+      "1. No Layout & Editing, o usuário seleciona o bastidor exato da sua máquina Brother (como 10x10, 13x18, 16x26, 20x30 ou bastidor de boné).",
+      "2. O usuário importa uma imagem ou logotipo (PNG, JPEG ou vetor SVG) e utiliza as ferramentas de desenho com curvas Bézier para definir as formas.",
+      "3. A cada forma criada, escolhe o tipo de ponto (Ponto Cheio/Satim, Ponto de Preenchimento Tatami, Ponto de Haste, Ponto Cruz ou Ponto Decorativo de Fantasia).",
+      "4. No painel de atributos de costura, define a densidade (ex.: 4,5 linhas/mm), a compensação de repuxo (ex.: 0,2 mm a 0,4 mm) e o tipo de subponto de ancoragem.",
+      "5. Para textos e nomes, digita diretamente na ferramenta de texto escolhendo entre as mais de 130 fontes pré-digitalizadas com controle de espaçamento kerning.",
+      "6. Aciona a simulação 3D no computador para checar a ordem das cores e envia o arquivo .PES via rede sem fio Wi-Fi diretamente para o visor da máquina Brother!"
+    ],
+    "beginnerExplanation": "O PE-Design é o programa oficial feito sob medida para quem tem máquina de bordar da Brother! Sabe quando você quer escrever o nome de um bebê em uma fraldinha com uma letra linda e redondinha, ou quer transformar uma fotinho fofa do seu cachorrinho em bordado? O PE-Design faz isso com uma facilidade incrível! Ele já vem com as medidas exatas de todos os bastidores da Brother na tela, tem mais de cem tipos de letras prontas que bordam perfeitas sem repuxar e, se a sua máquina tiver Wi-Fi, você manda a matriz do seu computador direto para a tela da máquina sem precisar de pendrive!",
+    "applications": [
+      "Criação e digitalização completa de logotipos de empresas, brasões e monogramas para máquinas Brother",
+      "Geração automática de fotobordados artísticos em camisetas e quadros utilizando o assistente Photostitch",
+      "Criação rápida de matrizes de aplique com três etapas automáticas (marcação, fixação e acabamento acetinado)",
+      "Bordados contínuos de quilt e acolchoamento decorativo ao redor de blocos de patchwork",
+      "Transmissão e monitoramento sem fio em tempo real de matrizes para ateliês com múltiplas máquinas Brother PR"
+    ],
+    "mainTypes": [
+      "PE-Design 11: A versão mais completa e topo de linha, com criação vetorial total, Photostitch avançado e envio sem fio Wi-Fi",
+      "PE-Design 10: Versão anterior clássica consagrada, com chave de segurança USB dongle física e recursos completos",
+      "PE-Design Plus / Plus 2: Versões simplificadas voltadas para ateliês iniciantes focados em edição básica, nomes e apliques",
+      "PE-Design Next: Versão histórica que introduziu a interface moderna Ribbon e a gestão de múltiplos bastidores"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Gera arquivos .PES otimizados para operar com suavidade de 400 a 1.050 PPM em máquinas domésticas e semi-industriais",
+      "needleType": "Projetado para harmonizar com agulhas domésticas cabo chato 130/705 H e industriais HAx130EBBR / DBxK5",
+      "stabilizer": "Entretela rasgável de 40 a 60 g/m² ou hidrossolúvel para toalhas e malhas com pontos leves"
+    },
+    "advantages": [
+      "✔ Integração nativa absoluta com o formato .PES e com todas as especificações mecânicas e bastidores das máquinas Brother",
+      "✔ Mais de 130 fontes pré-digitalizadas de alta qualidade com compensação de curva e conexão perfeita entre as letras",
+      "✔ O consagrado assistente Photostitch, referência mundial em facilidade para criar bordados a partir de fotos coloridas",
+      "✔ Conectividade sem fio Link Wireless inovadora, eliminando o desgaste de portas USB e o uso constante de pendrives"
+    ],
+    "limitations": [
+      "Software comercial proprietário de valor de aquisição mais elevado que alternativas básicas.",
+      "Compatibilidade oficial voltada prioritariamente para o sistema operacional Windows."
+    ],
+    "commonErrors": [
+      "❌ Salvar a matriz em uma versão de .PES mais recente do que o firmware da sua máquina Brother suporta (ex.: salvar em v11 para uma máquina que só lê até v9).",
+      "❌ Reduzir fontes com serifa pequenas para menos de 7 mm de altura, causando amontoamento de linha e nós na agulha.",
+      "❌ Digitalizar desenhos no Photostitch a partir de fotos escuras ou com fundo poluído sem fazer o recorte prévio da imagem.",
+      "❌ Esquecer de ativar o subponto (Underlay) em preenchimentos grandes sobre tecidos elásticos como piquet ou malha."
+    ],
+    "troubleshootingTips": [
+      "Máquina Brother exibe mensagem 'Arquivo não pode ser lido': Abra o arquivo no PE-Design, vá em 'Save As' e escolha uma versão anterior do formato .PES (como v9 ou v6).",
+      "Pontos pulando nas curvas de letras pequenas: Acesse as propriedades de costura do texto e aumente a compensação de repuxo (Pull Compensation) para 0,2 mm.",
+      "Bordado de foto ficando muito duro e pesado: No assistente Photostitch, aumente o espaçamento de linha e reduza o número de cores para no máximo 4 a 6 tonalidades."
+    ],
+    "dicaArtrelados": "Se a sua máquina Brother for mais antiga e não reconhecer uma matriz salva no PE-Design 11, nunca se desespere! Na hora de salvar o arquivo, clique em 'Save As' (Salvar Como), clique no campo 'Tipo' e escolha 'PES v9' ou 'PES v6'! As versões mais antigas do formato .PES mantêm todo o desenho intacto e são lidas com 100% de sucesso por qualquer máquina Brother fabricada nos últimos 20 anos!",
+    "voceSabia": "A Brother foi a criadora do famoso formato .PES nos anos 1990 e batizou o formato com as iniciais do próprio software: **PE-S** significa literalmente **P**ersonal **E**mbroidery **S**oftware! Hoje, o formato .PES é tão universal e respeitado que até mesmo máquinas de marcas concorrentes já incluem leitores capazes de interpretar arquivos .PES criados no PE-Design!",
+    "practicalExercise": "Criando um Aplique Perfeito no PE-Design: Abra o Layout & Editing. Desenhe um coração usando a ferramenta de formas. Com o coração selecionado, clique no botão 'Appliqué Wizard' (Assistente de Aplique). Escolha a opção de acabamento com Ponto Cheio (Satim) e largura de 3,5 mm. O PE-Design gera automaticamente as três etapas de cor perfeitas: a marcação na entretela, a costura de fixação do tecido e o acabamento final!",
+    "quickSummary": "Software oficial de criação da Brother Industries (Japão, anos 1990), padrão absoluto para geração do formato nativo .PES/.PEC, célebre pelo Photostitch, criação de monogramas e comunicação sem fio Link Wireless.",
+    "relatedTerms": [
+      "Brother (Máquinas de Bordado Eletrônico)",
+      "Formato PES",
+      "Embird (Software Modular de Bordado Eletrônico)",
+      "Wilcom EmbroideryStudio",
+      "Compensação de Encolhimento",
+      "Densidade de Ponto",
+      "Ponto Cheio",
+      "Ponto Tatami"
+    ],
+    "tags": [
+      "p-101",
+      "pe-design",
+      "brother",
+      "pes",
+      "pec",
+      "photostitch",
+      "layout-editing",
+      "softwares",
+      "programacao",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "BROTHER INDUSTRIES, LTD. PE-Design 11 Instruction and Digitizing Reference Manual. Nagoya: Brother, 2023.",
+      "BROTHER INTERNATIONAL CORP. Embroidery Software Technology and Wireless Link Operations. Bridgewater, 2022.",
+      "ARTRELADOS. O Ecossistema Brother: Criatividade, Digitalização e Produção com o PE-Design. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
   }
 ];
+

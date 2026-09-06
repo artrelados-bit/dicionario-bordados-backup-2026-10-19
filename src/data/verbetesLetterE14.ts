@@ -1441,5 +1441,215 @@ export const VERBETES_LETTER_E_PART14: Verbete[] = [
       "ARTRELADOS. A Nobreza dos Ateliês: O Silêncio e a Precisão da Engenharia Suíça no Bordado. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-05"
+  },
+  {
+    "id": "e-102-embird-software-modular-de-bordado-eletronico",
+    "code": "E-102",
+    "term": "Embird (Software Modular de Bordado Eletrônico)",
+    "pronunciation": "em-bérd (sof-tu-ér mo-du-lar de bor-da-do e-le-trô-ni-co)",
+    "letter": "E",
+    "level": "Iniciante a Avançado 🟢🟡🔴",
+    "category": "Softwares & Programação",
+    "grammarClass": "Substantivo próprio / Marca de software / Locução substantiva.",
+    "origin": "Desenvolvido no final dos anos 1990 na Eslováquia pela empresa BALARAD s.r.o. Nasceu com a proposta pioneira e visionária de oferecer uma arquitetura modular de baixo custo, alta compatibilidade e extrema leveza computacional para ateliês independentes e bordadeiras artesanais, que não dispunham de orçamentos para arcar com as caríssimas licenças de softwares industriais proprietários da época.",
+    "summary": "Software modular independente clássico (Eslováquia, BALARAD, anos 1990), considerado o verdadeiro 'canivete suíço' dos ateliês mundiais para conversão em lote entre mais de 70 formatos (.PES, .JEF, .DST), divisão de bastidores e o lendário fotobordado Sfumato Stitch.",
+    "definition": "O Embird é uma das plataformas de software mais tradicionais, populares, democráticas e versáteis de toda a história do bordado computadorizado mundial. Desenvolvido para computadores pessoais (Windows/PC), estrutura-se em um núcleo central e módulos independentes que podem ser adquiridos sob demanda: o Embird Manager (o catálogo e gerenciador de arquivos com visualizador 3D e conversor em lote entre mais de 70 extensões de bordado), o Embird Editor (estação de trabalho para edição ponto a ponto, redimensionamento paramétrico com recálculo de densidade, rotação e a consagrada divisão automática para bastidores de 2 e 3 estágios), o Studio Digitizing Tools (módulo completo de criação vetorial de matrizes), o Sfumato Stitch (gerador matemático de fotobordados realistas a partir de fotos coloridas) e o Font Engine (conversor automático de fontes TrueType e OpenType em bordado).",
+    "technicalDetails": "Arquitetura de software de 32 e 64 bits de altíssimo rendimento e processamento direto de coordenadas vetoriais e binárias de ponto. Suporta leitura e conversão nativa entre formatos como .PES, .PEC, .JEF, .DST, .EXP, .HUS, .VP3, .VIP, .XXX, .SEW, .SHV, .10O e dezenas de outros. Algoritmo avançado de compensação de repuxo (Pull Compensation) com tolerância de 0,05 mm a 0,8 mm. Filtro inteligente de remoção de pontos densos (Remove Dense Stitches) e de limpeza de micropontos (Short Stitch Filter) com corte paramétrico ajustável para comprimentos inferiores a 0,4 mm. Suporte a bastidores pré-configurados de praticamente todas as marcas mundiais e geração automática de pontos guia de alinhamento.",
+    "construction": [
+      "Embird Manager: Catálogo visual com navegação por pastas, miniaturas 3D hiper-realistas, impressões de fichas técnicas e conversão em lote",
+      "Embird Editor: Ambiente para fatiamento de matrizes, espelhamento, separação de cores, ordenação de blocos e recálculo dinâmico de densidade",
+      "Studio Digitizing Tools: Módulo vetorial para criação de matrizes do zero com curvas Bézier, pontos cheios, tatami e contornos artísticos",
+      "Sfumato Stitch: Módulo exclusivo que converte fotos e retratos em bordados contínuos com transições de sombra em relevo",
+      "Font Engine: Módulo gerador de monogramas que digitaliza instantaneamente qualquer fonte instalada no Windows para pontos de bordado",
+      "Cross Stitch: Módulo especializado para digitalização automática e manual de desenhos com efeito clássico de Ponto Cruz",
+      "Iconizer: Plugin de sistema que exibe miniaturas reais de arquivos de bordado diretamente no Windows Explorer do computador"
+    ],
+    "howItWorks": [
+      "1. No Embird Manager, o usuário visualiza as matrizes armazenadas no computador em miniaturas 3D coloridas com a simulação real do fio e do tecido de fundo.",
+      "2. O usuário seleciona matrizes de diferentes formatos (como .PES da Brother) e aciona a conversão em lote (Batch Conversion) para convertê-las instantaneamente para .JEF (Janome) ou .DST (Industrial).",
+      "3. No Embird Editor, ao abrir um desenho grande, o usuário seleciona um bastidor de múltiplos estágios (como 13x18 multi-posicional) e clica em 'Auto-Split'.",
+      "4. O software divide a matriz matematicamente em duas ou três partes contínuas, inserindo cruzes de alinhamento com tolerância micrométrica nas emendas.",
+      "5. Antes de salvar, o usuário aciona o filtro 'Remove Dense Stitches', que limpa pontos sobrepostos desnecessários para amaciar o bordado e evitar quebra de agulhas.",
+      "6. Os arquivos finais divididos e conferidos são salvos no pendrive prontos para irem direto para a máquina de bordar."
+    ],
+    "beginnerExplanation": "O Embird é o verdadeiro 'canivete suíço' que toda bordadeira que tem computador precisa conhecer! Sabe quando você encontra uma matriz linda na internet que só veio em formato .PES (para máquinas Brother), mas a sua máquina é da Janome e só lê .JEF? O Embird resolve isso com dois cliques, convertendo a matriz na hora com as cores certinhas! E sabe quando a matriz é maior que o seu bastidor e você precisa cortar o desenho ao meio para bordar em duas etapas sem que ninguém perceba a emenda? O Embird divide a matriz sozinho e ainda coloca as marquinhas de encaixe para você não errar o alinhamento!",
+    "applications": [
+      "Conversão rápida de coleções inteiras de matrizes entre formatos domésticos e industriais (.PES, .JEF, .DST, .EXP)",
+      "Divisão de matrizes grandes (como barras de toalhas e lençóis) para bastidores de 2 e 3 estágios (multi-posicionais)",
+      "Remoção automática de camadas de pontos densos e pesados acumulados sob o bordado para evitar quebras de agulha",
+      "Criação de fotobordados de alta fidelidade e retratos de animais e pessoas através do consagrado módulo Sfumato Stitch",
+      "Personalização de nomes e monogramas rápidos utilizando qualquer fonte tipográfica TrueType do computador"
+    ],
+    "mainTypes": [
+      "Embird Manager & Editor: O pacote base fundamental indispensável para todo ateliê de bordado moderno",
+      "Embird Studio (Digitizing Tools): O módulo opcional para quem deseja desenhar e digitalizar matrizes profissionais do zero",
+      "Embird Sfumato Stitch: O módulo artístico premiado para fotobordados realistas em degradê e relevo",
+      "Embird Font Engine: O módulo para transformar qualquer fonte do Windows em bordado sem precisar desenhar letra por letra"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Gera matrizes calibradas para operar de 400 a 1.000 PPM conforme o tipo de ponto programado",
+      "needleType": "Compatível com todas as agulhas domésticas (130/705 H) e industriais (DBxK5 / DPx5)",
+      "stabilizer": "Adequado para todas as entretelas rasgáveis, hidrossolúveis e termocolantes do mercado"
+    },
+    "advantages": [
+      "✔ Arquitetura modular inteligente: permite comprar apenas os módulos que você realmente precisa, custando uma fração de softwares industriais",
+      "✔ Campeão absoluto em compatibilidade de formatos, convertendo em lote centenas de matrizes de uma só vez em segundos",
+      "✔ O melhor algoritmo de divisão de matrizes para bastidores de múltiplos estágios, com marcações automáticas de emenda perfeita",
+      "✔ Software leve, rápido e estável, que roda com extrema fluidez até mesmo em computadores e notebooks mais modestos"
+    ],
+    "limitations": [
+      "Desenvolvido nativamente para o sistema operacional Windows, necessitando de emuladores para rodar no macOS da Apple.",
+      "A interface gráfica mantém uma estética clássica e funcional dos anos 2000, priorizando praticidade sobre efeitos visuais modernos."
+    ],
+    "commonErrors": [
+      "❌ Reduzir ou aumentar o tamanho de uma matriz em mais de 20% no Editor sem ativar a opção de recálculo dinâmico de pontos.",
+      "❌ Salvar uma matriz dividida para bastidor multi-posicional sem conferir se a ordem das cruzes guia de alinhamento ficou no início da segunda etapa.",
+      "❌ Converter matrizes para o formato .DST e esquecer que esse formato não salva a paleta de cores original (exigindo ficha de cores manual).",
+      "❌ Desativar o filtro de pontos curtos, permitindo que a máquina dê pontadas de 0,1 mm que embolam a linha sob a chapa da agulha."
+    ],
+    "troubleshootingTips": [
+      "Matriz com pontos muito duros que quebram agulha na máquina: Abra a matriz no Embird Editor, clique no menu 'Filter' e selecione 'Remove Dense Stitches' (Remover Pontos Densos).",
+      "Arquivo não reconhecido pela máquina Janome: Abra o arquivo no Embird, confira se o bastidor selecionado corresponde a um bastidor homologado Janome e salve novamente em .JEF.",
+      "Emenda de bastidor ficando torta: No Embird Editor, posicione as cruzes de alinhamento em pontos visíveis da entretela e use a pontada de agulha lenta para casar perfeitamente a segunda etapa."
+    ],
+    "dicaArtrelados": "Se você comprou uma matriz da internet e a sua máquina está arrebentando a linha por excesso de nós, abra o arquivo no Embird Editor, vá em 'Filter' e clique em 'Remove Dense Stitches' (Remover Pontos Densos)! O Embird analisa o arquivo matematicamente e deleta todas aquelas camadas escondidas de pontos velhos que ficaram soterradas por baixo, deixando o seu bordado macio, fofinho e sem quebrar uma única agulha!",
+    "voceSabia": "O módulo Sfumato Stitch do Embird foi batizado em homenagem direta à técnica de pintura renascentista 'Sfumato', desenvolvida e imortalizada por Leonardo da Vinci no lendário quadro da Monalisa! O algoritmo do Sfumato Stitch analisa a gradação de luz e sombra dos pixels de uma fotografia digital e calcula trajetórias de curvas de nível contínuas de linha, permitindo bordar rostos humanos no tecido com um nível de realismo fotográfico impressionante!",
+    "practicalExercise": "Divisão de Matriz para Barra de Toalha no Embird: Abra o Embird Editor. Vá em 'Options' > 'Hoop Size' e selecione um bastidor de múltiplos estágios (ex: 13x18 multi-posicional). Abra uma matriz comprida de 10x28 cm. Clique em 'Edit' > 'Auto-Split'. O Embird divide a matriz em Parte 1 e Parte 2 e adiciona cruzes de alinhamento automáticas. Salve os arquivos e veja como é fácil bordar barras compridas sem emendas visíveis!",
+    "quickSummary": "Software modular independente clássico (Eslováquia, BALARAD, anos 1990), o 'canivete suíço' dos ateliês mundiais para conversão em lote entre mais de 70 formatos (.PES, .JEF, .DST), divisão de bastidores e o lendário Sfumato Stitch.",
+    "relatedTerms": [
+      "Wilcom EmbroideryStudio",
+      "Formato PES",
+      "Formato JEF",
+      "Formato DST",
+      "Compensação de Encolhimento",
+      "Densidade de Ponto",
+      "Bastidor de Múltiplos Estágios",
+      "Velocidade PPM"
+    ],
+    "tags": [
+      "e-102",
+      "embird",
+      "balarad",
+      "manager",
+      "editor",
+      "sfumato",
+      "studio",
+      "softwares",
+      "programacao",
+      "conversao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BALARAD S.R.O. Embird Complete User Guide and Technical Reference Manual. Eslováquia: Balarad, 2023.",
+      "BALARAD S.R.O. Sfumato Stitch: Advanced Photo-Realistic Embroidery Techniques. Eslováquia, 2022.",
+      "ARTRELADOS. O Canivete Suíço dos Ateliês: Praticidade e Conversão de Matrizes com o Embird. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "e-103-embrilliance-software-multiplataforma-de-bordado",
+    "code": "E-103",
+    "term": "Embrilliance (Software Multiplataforma de Bordado)",
+    "pronunciation": "em-bri-li-ans (sof-tu-ér mul-ti-pla-ta-for-ma de bor-da-do)",
+    "letter": "E",
+    "level": "Iniciante a Avançado 🟢🟡🔴",
+    "category": "Softwares & Programação",
+    "grammarClass": "Substantivo próprio / Marca de software / Locução substantiva.",
+    "origin": "Desenvolvido a partir de 2010 nos Estados Unidos por Brian Bailie e pela BriTon Leap, Inc. Nasceu com o objetivo pioneiro de romper o monopólio exclusivo do sistema operacional Windows no bordado digital, criando a primeira plataforma profissional moderna com código nativo simultâneo para Apple macOS e Microsoft Windows, além de inventar o revolucionário formato de fonte instalável para teclado .BX.",
+    "summary": "Consagrada plataforma multiplataforma independente (EUA, BriTon Leap, 2010), pioneira em suporte nativo para Apple Mac (macOS) e Windows, célebre pela invenção do formato de fontes de teclado .BX e pela suíte modular com Essentials, StitchArtist, Enthusiast e AlphaTricks.",
+    "definition": "O Embrilliance é uma das suítes de software de bordado computadorizado mais modernas, acessíveis e populares do mundo, amplamente aclamada por bordadeiras e ateliês por sua compatibilidade universal e arquitetura modular integrada. É a referência mundial absoluta para usuários de computadores Apple Mac (funcionando de forma nativa e fluida no macOS sem necessidade de máquinas virtuais ou emuladores como Parallels ou Boot Camp), mantendo paridade idêntica no Windows. Sua estrutura modular é composta pelo Embrilliance Essentials (núcleo para dimensionamento com recálculo dinâmico de pontos, rotação, espelhamento, divisão de bastidores e edição de cores), o StitchArtist (módulo progressivo de digitalização vetorial em níveis 1, 2 e 3), o AlphaTricks (mapeador e organizador de alfabetos), o Enthusiast (ferramenta avançada para curvatura de textos, emendas, densidade e knockdown stitch) e o Density Repair Kit (DRK, para tratamento de micropontos e densidade excessiva). Destaca-se globalmente pela criação do formato proprietário .BX, que permite instalar alfabetos inteiros como fontes digitáveis diretamente no teclado do computador com um simples arrastar de mouse.",
+    "technicalDetails": "Arquitetura de software de 64 bits compilada nativamente para processadores Intel e Apple Silicon (séries M1, M2, M3 e M4) e Windows. Algoritmo avançado de reconstrução vetorial e recálculo paramétrico de densidade de pontos durante ampliações ou reduções dimensionais. Suporte de leitura e gravação nativa para os formatos .PES, .PEC, .JEF, .SEW, .DST, .EXP, .HUS, .VP3, .VIP, .XXX, .SHV, .PCS e arquivos gráficos vetoriais SVG e EPS. Formato de instalação de fontes proprietário .BX com incorporação de kerning, linhas de base variáveis e compensação automática de repuxo para letras pequenas.",
+    "construction": [
+      "Embrilliance Essentials: O coração do sistema para manipulação de desenhos, mudança de cores, redimensionamento paramétrico e remoção de sobreposições",
+      "StitchArtist (Níveis 1, 2 e 3): Módulo de desenho e digitalização que vai do nível iniciante ao design avançado de curvas Bézier e pontos de fantasia",
+      "AlphaTricks: Ferramenta inteligente para importar coleções de letras avulsas e transformá-las em fontes de teclado funcionais",
+      "Enthusiast: Módulo para efeitos avançados de curvatura de texto (envelope), grade de quilting e pontos de base tipo Knockdown Stitch para toalhas",
+      "Merrowly: Módulo especializado para criação automática de bordas de brasões e patches com efeito clássico de overloque americano (ponto Merrow)",
+      "Density Repair Kit (DRK): Conjunto de filtros cirúrgicos para remoção de pontos densos acumulados e alívio de nós em tecidos delicados",
+      "Mecanismo de Fontes .BX: Tecnologia exclusiva de arrastar e soltar que instala instantaneamente alfabetos digitalizados no teclado do computador"
+    ],
+    "howItWorks": [
+      "1. O usuário abre o Embrilliance no Mac ou PC e escolhe o tamanho do bastidor correspondente à sua máquina de bordar.",
+      "2. Ao arrastar um arquivo de fonte no formato .BX para dentro da tela, o software instala o alfabeto inteiro instantaneamente na memória.",
+      "3. O usuário clica na ferramenta de texto, digita o nome desejado no teclado comum do computador e o Embrilliance gera as letras bordadas perfeitamente alinhadas.",
+      "4. Ao mesclar um desenho com o nome, o software remove automaticamente os pontos do desenho que ficariam escondidos sob as letras (Remove Hidden Stitches).",
+      "5. Para bordar toalhas felpudas, aciona a função 'Knockdown Stitch', que gera uma caminha de pontos leves sob o bordado para as cerdas da toalha não escaparem.",
+      "6. O usuário salva o projeto e o Embrilliance gera simultaneamente o arquivo mestre de trabalho (.BE) e o arquivo final (.PES, .JEF ou .DST) para o pendrive."
+    ],
+    "beginnerExplanation": "O Embrilliance é o programa favorito de quem usa computador da Apple (Mac) e de quem ama personalizar nomes e fraldinhas de bebê! Você já comprou aqueles alfabetos lindos na internet que vêm com 26 letrinhas soltas, onde você tinha que puxar letrinha por letrinha para montar um nome? Com o Embrilliance isso acabou! Graças ao famoso formato .BX criado por ele, você só joga o arquivo dentro do programa e pronto: as letras vão direto para o teclado do seu computador! Você digita o nome da criança como se estivesse escrevendo no WhatsApp e o programa monta o bordado prontinho na hora!",
+    "applications": [
+      "Personalização rápida e ágil de nomes, monogramas e enxovais infantis com fontes instaladas em teclado (.BX)",
+      "Edição, mesclagem e redimensionamento seguro de matrizes comerciais sem perda de densidade de pontos",
+      "Criação automática de esteira de sustentação (Knockdown Stitch) para bordados limpos sobre toalhas de banho felpudas",
+      "Digitalização manual e artística de desenhos e matrizes com o módulo progressivo StitchArtist",
+      "Divisão inteligente de matrizes para bordar em bastidores multi-posicionais de múltiplos estágios"
+    ],
+    "mainTypes": [
+      "Embrilliance Essentials: O módulo essencial que todo ateliê precisa para editar, redimensionar e combinar matrizes e nomes",
+      "Embrilliance StitchArtist: O módulo de digitalização dividido em 3 níveis (Nível 1 simples, Nível 2 intermediário e Nível 3 profissional)",
+      "Embrilliance AlphaTricks: Módulo para transformar coleções de letras soltas em fontes instaladas digitáveis pelo teclado",
+      "Embrilliance Enthusiast: Módulo para recursos avançados como curvatura circular de textos, divisão precisa e pontos knockdown"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Gera matrizes equilibradas para operar de 400 a 1.000 PPM em qualquer máquina doméstica ou industrial",
+      "needleType": "Compatível com todas as agulhas domésticas (130/705 H) e industriais de cabo redondo (DBxK5)",
+      "stabilizer": "Adequado para entretelas rasgáveis, hidrossolúveis e filmes plásticos de sobreposição"
+    },
+    "advantages": [
+      "✔ Suporte nativo e perfeito para computadores Apple Mac (macOS) e Windows com uma única licença comercial",
+      "✔ Criador do revolucionário formato .BX, permitindo digitar monogramas e nomes diretamente pelo teclado do computador",
+      "✔ Arquitetura modular que funciona toda dentro de uma única tela limpa, sem janelas separadas confusas",
+      "✔ Salva o arquivo de trabalho (.BE) com objetos editáveis sem alterar a qualidade original da matriz ao longo do tempo"
+    ],
+    "limitations": [
+      "Cada módulo avançado (como StitchArtist ou Enthusiast) requer aquisição separada conforme a necessidade do ateliê.",
+      "A interface visual prioriza a simplicidade e a rapidez operacional sobre recursos tridimensionais pesados."
+    ],
+    "commonErrors": [
+      "❌ Salvar a matriz e esquecer de exportar o arquivo da máquina (.PES, .JEF, etc.), enviando apenas o arquivo de trabalho (.BE) para o pendrive.",
+      "❌ Redimensionar letras sem selecionar o objeto de texto correto, impedindo o recálculo paramétrico da densidade.",
+      "❌ Tentar abrir arquivos de fontes .BX em outros programas concorrentes que não possuem a licença da tecnologia BriTon Leap.",
+      "❌ Desativar a remoção automática de pontos ocultos ao sobrepor um nome sólido sobre um desenho denso."
+    ],
+    "troubleshootingTips": [
+      "Bordado de toalha sumindo entre as cerdas: No menu de utilitários do Embrilliance, ative a opção 'Knockdown Stitch' para criar uma grade de pontos leves que achata os pelos da toalha.",
+      "Máquina não reconhece o pendrive: Certifique-se de ter usado a opção 'Save As' escolhendo a extensão correta da sua máquina (.PES para Brother, .JEF para Janome, .DST para industrial).",
+      "Letras ficando muito juntas ou encavaladas: Ajuste o parâmetro 'Space' (Espaçamento/Kerning) no painel de propriedades do texto antes de gerar os pontos finais."
+    ],
+    "dicaArtrelados": "Ao bordar toalhas atoalhadas ou tecidos com pelo como cobertorzinhos de bebê, nunca deixe de usar a ferramenta 'Knockdown Stitch' do Embrilliance! Ela cria uma caminha geométrica invisível de pontos levinhos na mesma cor do tecido antes de bordar o nome: as cerdas da toalha ficam perfeitamente presas por baixo e o seu bordado fica lisinho, nítido e com acabamento de boutique sem você precisar gastar plástico hidrossolúvel de topo!",
+    "voceSabia": "Antes da invenção do formato .BX pelo Embrilliance, bordar um nome com uma fonte comprada na internet era um pesadelo: o bordador precisava abrir a pasta do computador, importar o 'A', depois importar o 'N', depois o 'A' de novo, alinhar letrinha por letrinha na régua e espaçar no olho! A tecnologia .BX da BriTon Leap transformou essas dezenas de passos lentos em um clique: você arrasta o arquivo .BX para a tela e escreve qualquer nome no teclado em menos de três segundos!",
+    "practicalExercise": "Instalação de Fonte .BX e Aplicação de Knockdown Stitch no Embrilliance: Baixe um alfabeto gratuito no formato .BX. Abra o Embrilliance e arraste o arquivo da pasta para dentro da janela do programa (ele exibirá a mensagem de que a fonte foi instalada com sucesso). Clique no ícone 'A' da barra de ferramentas, digite o seu nome e selecione a fonte instalada. Em seguida, vá ao menu 'Utility' e clique em 'Add Knockdown Stitching'. Veja na tela a grade de proteção perfeita criada ao redor do nome!",
+    "quickSummary": "Consagrada plataforma multiplataforma independente (EUA, BriTon Leap, 2010), pioneira em suporte nativo para Mac (macOS) e Windows, célebre pelas fontes de teclado .BX e pelos módulos Essentials, StitchArtist e Enthusiast.",
+    "relatedTerms": [
+      "Embird (Software Modular de Bordado Eletrônico)",
+      "PE-Design (Software de Criação e Edição Brother)",
+      "Wilcom EmbroideryStudio",
+      "Formato PES",
+      "Formato JEF",
+      "Formato DST",
+      "Compensação de Encolhimento",
+      "Densidade de Ponto"
+    ],
+    "tags": [
+      "e-103",
+      "embrilliance",
+      "essentials",
+      "stitchartist",
+      "bx",
+      "mac",
+      "macos",
+      "windows",
+      "softwares",
+      "programacao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BRITON LEAP, INC. Embrilliance Software Suite: User Guide and StitchArtist Reference Manual. Albuquerque: BriTon Leap, 2023.",
+      "BAILIE, Brian. Modern Embroidery Digitizing and Multi-Platform Architecture. Estados Unidos, 2022.",
+      "ARTRELADOS. A Revolução do Mac e das Fontes de Teclado no Bordado com o Embrilliance. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
   }
 ];
+
+

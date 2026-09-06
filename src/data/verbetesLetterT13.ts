@@ -1360,7 +1360,112 @@ export const VERBETES_LETTER_T13: Verbete[] = [
       "ARTRELADOS. A Engenharia Tajima e o Padrão Ouro do Bordado Computadorizado Mundial. Curitiba, 2024."
     ],
     updatedAt: "2026-09-05"
+  },
+  {
+    id: "t-107-tajima-dg-by-pulse-software-de-digitalizacao-industrial",
+    code: "T-107",
+    term: "Tajima DG by Pulse (Software de Digitalização Industrial)",
+    pronunciation: "ta-ji-ma de-gê bai pal-se (sof-tu-ér de di-gi-ta-li-za-ção in-dus-tri-al)",
+    letter: "T",
+    level: "Avançado 🔴",
+    category: "Softwares & Programação",
+    grammarClass: "Substantivo próprio / Marca de software / Locução substantiva.",
+    origin: "Desenvolvido a partir do final da década de 1980 pela empresa canadense Pulse Microsystems Ltd. (Mississauga, Ontário) em aliança tecnológica estratégica exclusiva e global com o Tajima Group (Nagoya, Japão). Foi o primeiro software de bordado industrial do mundo a ser desenvolvido nativamente para ambiente gráfico computacional com controle direto e vetorial dos comandos mecatrônicos de máquinas multi-cabeças.",
+    summary: "Suíte de digitalização industrial de topo mundial (Pulse / Tajima Group), referência máxima em mecatrônica de bordado para controle vetorial do calcador digital DCP, geração de bordados em alto relevo 3D de alta densidade, lantejoulas e automação fabril em rede.",
+    definition: "O Tajima DG by Pulse (frequentemente abreviado como DG/ML by Pulse ou Tajima DG16) é internacionalmente reconhecido, ao lado do Wilcom EmbroideryStudio, como um dos dois maiores e mais avançados ecossistemas de software de digitalização profissional e automação industrial do planeta. Criado sob medida para extrair 100% do potencial da engenharia mecânica das máquinas Tajima, o software destaca-se por integrar o desenho vetorial de pontos diretamente aos microcontroladores da máquina: controla digitalmente a altura e a pressão do calcador eletrônico DCP (Digitally Controlled Presser Foot) ponto a ponto, programa dispositivos de lantejoulas duplas, cordões e corte a laser, e gerencia redes industriais inteiras de máquinas através do sistema Pulse Cloud e Tajima LAN.",
+    technicalDetails: "Arquitetura paramétrica baseada no formato mestre vetorial .PXF (Pulse eXtended Format) e geração pura do código de máquina binário .DST. Algoritmo avançado de compensação de repuxo vetorial variável por espessura de tecido (Variable Pull Compensation), controle de comprimento de salto com desaceleração dinâmica, suporte nativo aos dados de comando de calcador eletrônico DCP embutidos na matriz e integração direta com o sistema de nuvem Pulse Cloud para aprovação de amostras por clientes via navegador e dispositivos móveis.",
+    construction: [
+      "Ambiente de Digitalização Vetorial: Motor gráfico avançado com suporte a curvas Bézier de precisão milimétrica e preenchimentos orgânicos",
+      "Controle Mecatrônico DCP: Módulo que programa a altura exata de subida e descida do calcador da máquina Tajima para cada objeto do desenho",
+      "Módulo 3D Foam e Quinas Vivas: Algoritmo patenteado que calcula a perfuração angular das extremidades para cortar o EVA 3D sem deixar pontas",
+      "Pulse Cloud Networking: Plataforma em nuvem para envio de matrizes para máquinas Tajima em qualquer lugar do mundo e telemetria de produção",
+      "Módulo de Efeitos Especiais: Controle digital de cabeçotes de lantejoulas, dispositivo de cordão (coiling), corte a laser e perfuração (boring)",
+      "Vetorizador Automático Autodigitizing: Converte logotipos vetoriais do Adobe Illustrator e CorelDRAW em pontos industriais perfeitos",
+      "Formatos Suportados: .PXF nativo, .DST universal, .DSB, .EXP, .PES, .JEF, .TAP, .U01 e mais de 50 extensões industriais"
+    ],
+    howItWorks: [
+      "1. O programador de bordado importa a arte vetorial do cliente (AI, EPS, PDF ou SVG) diretamente para a área de trabalho do Tajima DG by Pulse.",
+      "2. Utilizando as ferramentas de ponto cheio e tatami, define o sentido dos ângulos de ponto para criar o direcionamento ideal de luz e relevo.",
+      "3. Em logotipos em alto relevo 3D para bonés, ativa o recurso '3D Foam', que cria automaticamente os pontos de corte de quina viva para decepar a espuma de EVA.",
+      "4. Nas propriedades de cada objeto, calibra a altura do calcador digital DCP (ex.: 2,5 mm para o relevo 3D e 0,8 mm para o contorno plano).",
+      "5. O programador salva o arquivo mestre em formato vetorial editável .PXF e exporta o arquivo de produção industrial Tajima .DST.",
+      "6. Através do sistema de rede Pulse LAN ou Pulse Cloud, a matriz é enviada via cabo de rede diretamente para a memória da máquina Tajima na fábrica!"
+    ],
+    beginnerExplanation: "O Tajima DG by Pulse é o programa de computador que as maiores fábricas de roupas e uniformes do mundo usam para criar os bordados mais perfeitos do mercado! Sabe aqueles bordados em alto relevo super altos e duros que você vê em bonés originais da New Era ou da Fórmula 1, onde o relevo é tão perfeito que parece uma escultura plástica? O programador fez isso no Pulse! Ele conversa diretamente com a máquina Tajima, dizendo até a altura exata que o pezinho da máquina (calcador) tem que descer em cada pontinho para não amassar o relevo!",
+    applications: [
+      "Digitalização industrial de alta complexidade para uniformes esportivos, marcas de luxo e montadoras automotivas",
+      "Criação de matrizes perfeitas para bonés estruturados em relevo 3D (EVA) com a tecnologia de corte de quina viva",
+      "Programação de dispositivos industriais especiais como lantejoulas duplas, cordões e corte a laser integrado",
+      "Automação e gestão de chão de fábrica com envio de matrizes em tempo real para dezenas de máquinas Tajima via rede",
+      "Personalização corporativa em massa através de criação de códigos de barras para carregamento automático de matrizes"
+    ],
+    mainTypes: [
+      "Tajima DG Composer: Nível profissional voltado para criação de letras, monogramas de alto padrão e edição avançada",
+      "Tajima DG Creator: Nível intermediário completo para digitalização manual vetorial e pequenas confecções industriais",
+      "Tajima DG Illustrator Extreme: O nível topo de linha máximo com controle total mecatrônico de calcador DCP, 3D Foam e efeitos especiais",
+      "Pulse Cloud / Passport: Sistema corporativo em nuvem para gerenciamento de fluxo de trabalho de bordado e pedidos online"
+    ],
+    recommendedSettings: {
+      speedPPM: "Gera matrizes industriais de alta performance para operar com estabilidade máxima de 850 a 1.200 PPM em máquinas Tajima",
+      needleType: "Calibrado com perfeição para o sistema de agulhas industriais de cabo redondo DBxK5 (tamanhos 65/9 a 90/14)",
+      stabilizer: "Entretelas industriais de alta densidade (70 a 80 g/m²) e espumas especiais de EVA 3D de 2 mm a 3 mm"
+    },
+    advantages: [
+      "✔ Integração mecatrônica exclusiva com as máquinas Tajima, permitindo controlar o calcador digital DCP direto pelo software",
+      "✔ O melhor algoritmo da indústria mundial para bordados em alto relevo 3D com EVA, gerando quinas vivas sem falhas",
+      "✔ Formato mestre .PXF extremamente robusto que preserva 100% dos dados vetoriais, atributos de pontos e comandos especiais",
+      "✔ Sistema Pulse Cloud de vanguarda que permite monitorar a produção da fábrica em tempo real pelo celular"
+    ],
+    limitations: [
+      "Software industrial de alto investimento financeiro, direcionado para empresas, digitalizadores profissionais e confecções.",
+      "Curva de aprendizado técnico avançada, exigindo conhecimentos aprofundados sobre física de pontos e mecatrônica têxtil."
+    ],
+    commonErrors: [
+      "❌ Exportar matrizes em .DST sem salvar o arquivo mestre em .PXF, perdendo as propriedades vetoriais editáveis do desenho.",
+      "❌ Programar objetos de relevo 3D sem fechar as pontas do contorno, permitindo que a espuma de EVA fique aparente após o bordado.",
+      "❌ Configurar valores incorretos de altura do calcador DCP nas propriedades do objeto, fazendo o calcador bater no bastidor.",
+      "❌ Utilizar densidades excessivas (inferiores a 0,30 mm) em bordados 3D com linhas metálicas, causando quebras sucessivas."
+    ],
+    troubleshootingTips: [
+      "Espuma de EVA aparecendo nas quinas do bordado 3D: No Pulse, selecione o objeto, acione a propriedade '3D Foam Capping' e aumente o ângulo de fechamento para 45°.",
+      "Calcador da máquina amassando o relevo em bonés: No menu de atributos do objeto no software, aumente a altura programada do calcador DCP em +0,8 mm.",
+      "Arquivo não transfere via rede Pulse LAN: Verifique o endereço de IP da máquina Tajima no painel touch e confirme a liberação da porta de comunicação no roteador."
+    ],
+    dicaArtrelados: "No Tajima DG by Pulse, ao digitalizar letras em relevo 3D para bonés, ative sempre a função '3D Foam Underlay' com fechamento duplo de pontas! O software cria uma linha de perfuração perpendicular exata na beiradinha da letra que funciona como uma lâmina invisível: quando a máquina termina de bordar, você puxa o excesso de EVA com os dedos e ele se solta de forma tão limpa e perfeita que você não precisa nem passar o soprador térmico!",
+    voceSabia: "A Pulse Microsystems foi a primeira empresa de software de bordado do mundo a criar um sistema de digitalização baseado na nuvem (Cloud Computing) e a integrar códigos de barras em ordens de serviço têxteis! Em grandes fábricas industriais, o operador da máquina Tajima só precisa escanear um código de barras impresso na ordem de serviço com um leitor óptico: o software na nuvem localiza a matriz correta e carrega o desenho no visor da máquina em menos de 2 segundos!",
+    practicalExercise: "Programando a Altura do Calcador DCP no Tajima DG by Pulse: Abra o software e crie um círculo com ponto cheio largo (simulando um aplique). Abra a janela de 'Object Properties' (Propriedades do Objeto). Localize a aba 'DCP Settings'. Altere a altura padrão de descida do calcador de 'Auto' para 'Manual: +1.2 mm'. Ao bordar esse arquivo na sua Tajima, observe como o calcador flutua suavemente sobre a espessura do aplique sem esmagar o tecido!",
+    quickSummary: "Suíte de digitalização industrial de topo mundial (Pulse / Tajima Group), referência máxima em mecatrônica de bordado para controle vetorial do calcador digital DCP, relevo 3D de alta densidade e automação fabril em rede.",
+    relatedTerms: [
+      "Tajima (Máquinas de Bordado Eletrônico)",
+      "Wilcom EmbroideryStudio",
+      "Formato DST",
+      "Bordado 3D com EVA",
+      "Calcador de Bordado",
+      "Compensação de Encolhimento",
+      "Densidade de Ponto",
+      "Velocidade PPM"
+    ],
+    tags: [
+      "t-107",
+      "tajima-dg",
+      "pulse",
+      "pxf",
+      "dst",
+      "dcp",
+      "foam-3d",
+      "industrial",
+      "softwares",
+      "programacao",
+      "artrelados"
+    ],
+    bibliographicReferences: [
+      "PULSE MICROSYSTEMS LTD. Tajima DG by Pulse User Guide & Advanced Digitizing Reference Manual. Mississauga: Pulse, 2023.",
+      "TAJIMA GROUP. Software and Mecatronics Integration in Industrial Embroidery. Nagoya, 2023.",
+      "ARTRELADOS. A Nobreza dos Softwares Industriais: Precisão Mecatrônica e Produção de Alta Escala com o Tajima DG by Pulse. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-06"
   }
 ];
+
 
 

@@ -2897,6 +2897,112 @@ export const VERBETES_LETTER_B1: Verbete[] = [
       "ARTRELADOS. O Fenômeno das Máquinas Multiagulhas Compactas no Empreendedorismo de Ateliê. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-05"
+  },
+  {
+    "id": "b-106-bernina-embroidery-software-designerplus",
+    "code": "B-106",
+    "term": "Bernina Embroidery Software / DesignerPlus",
+    "pronunciation": "ber-ni-na em-brói-de-ri sof-tu-ér / de-sai-ner-plas",
+    "letter": "B",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Softwares & Programação",
+    "grammarClass": "Substantivo próprio / Marca de software / Locução substantiva.",
+    "origin": "Desenvolvido a partir da década de 1990 pela Bernina International AG (Steckborn, Suíça) em parceria tecnológica de engenharia com a Wilcom International (Sydney, Austrália). Une a lendária precisão mecânica suíça ao mais poderoso motor matemático de processamento de pontos e objetos vetoriais do mundo têxtil, evoluindo pelas consagradas versões V6, V7, V8 e o moderno Bernina Embroidery Software 9 (DesignerPlus e Creator).",
+    "summary": "Suíte suíça de alto luxo e precisão (Bernina / Wilcom), referência máxima em criatividade e inovação por integrar o motor vetorial Wilcom com as tecnologias DesignWorks (CutWork para cortes vazados, PaintWork para pintura têxtil e CrystalWork para strass), além do revolucionário recurso de feltragem PunchWork e pontos de preenchimento 3D Globe Effect.",
+    "definition": "O Bernina Embroidery Software (na sua edição máxima e consagrada DesignerPlus) é amplamente considerado uma das plataformas de software de criação, arte e digitalização mais sofisticadas, completas e elegantes de todo o mercado mundial. Nascido da cooperação pioneira entre a Bernina suíça e a Wilcom, o software opera sobre o poderoso núcleo vetorial de objetos paramétricos .ART e .EMB com integração nativa ao CorelDRAW SE incluso na suíte. Destaca-se internacionalmente por transcender as fronteiras da linha e da agulha tradicional: gerencia os módulos de ferramentas especiais Bernina DesignWorks (como o cortador rotativo mecânico CutWork para recortes vazados e richelieu computadorizado, a ferramenta de dispersão de strass e pedrarias CrystalWork e as canetas de pintura têxtil PaintWork), o módulo PunchWork para feltragem artística por agulhamento sem linha, e recursos visuais de relevo de vanguarda como os efeitos tridimensionais Globe Effect, Trapunto, bordados com cordões e pontos de textura em relevo.",
+    "technicalDetails": "Motor de processamento de pontos com tecnologia patenteada Wilcom Object-Based Vector Processing integrada ao formato proprietário suíço Bernina .ART (versões v1 a v9) e exportação nativa com dados expandidos de corte e cor para .EXP, .PES, .JEF, .DST, .SEW, .VIP e .VP3. Integração com CorelDRAW SE que permite alternar instantaneamente com um clique entre arte vetorial gráfica e pontos de bordado. Suporte completo ao bastidor gigante Maxi e Jumbo Hoop com rotação automática, compensação de repuxo paramétrica avançada, biblioteca com mais de 100 fontes digitalizadas e ferramenta avançada de divisão automática para bastidores de grande formato.",
+    "construction": [
+      "Ambiente de Digitalização DesignerPlus: Estação gráfica completa para criação livre e ponto a ponto com curvas Bézier e pontos de fantasia",
+      "Integração CorelDRAW SE: Modo gráfico vetorial completo integrado, permitindo desenhar ou importar vetores e convertê-los com um clique",
+      "Módulo CutWork: Programação de trajetórias para a navalha rotativa CutWork, realizando cortes perfeitos de tecidos para apliques e Richelieu",
+      "Módulo CrystalWork: Criação automática de gabaritos perfurados para aplicação seriada de cristais, strass e pedrarias termocolantes",
+      "Módulo PunchWork: Programação de padrões artísticos de feltragem mecânica de lã e tecidos por punção de agulhas sem fio",
+      "Efeitos Tridimensionais 3D: Ferramenta Globe Effect (curvatura esférica de pontos), efeito Trapunto e preenchimentos orgânicos ondulados",
+      "Bernina WiFi Device: Transmissão sem fio criptografada direta do computador para o painel touch das máquinas Bernina Série 5, 7 e 8"
+    ],
+    "howItWorks": [
+      "1. No modo CorelDRAW ou DesignerPlus, o usuário desenha a arte gráfica com linhas vetoriais perfeitas ou importa um logotipo de cliente.",
+      "2. Ao clicar no botão de conversão, o motor da Wilcom calcula instantaneamente os pontos ideais de satim, tatami ou contorno com subpontos automáticos.",
+      "3. Para projetos de Richelieu ou aplique rendado, o usuário aciona a ferramenta CutWork: o software gera os 4 ângulos de corte da navalha mecânica.",
+      "4. Se desejar relevo esférico, aplica a função 'Globe Effect' em uma área de tatami: o software altera a densidade e a curvatura simulando uma esfera 3D.",
+      "5. O usuário visualiza a simulação tridimensional realista com texturas de fios metálicos, algodão ou seda e confere o encaixe no bastidor Jumbo.",
+      "6. Com um clique, a matriz é transmitida sem fio via Bernina WiFi Device direto para a tela da máquina Bernina no ateliê!"
+    ],
+    "beginnerExplanation": "O Bernina Embroidery Software DesignerPlus é o programa mais luxuoso e criativo do mundo do bordado! Sabe quando você vê um bordado richelieu com recortes vazados tão perfeitos que parecem feitos com um bisturi a laser, ou uma toalha com pedrarias e cristais de strass reluzentes perfeitamente encaixados ao redor do desenho? Foi feito no software da Bernina! Ele não serve só para costurar linha: ele controla navalhas especiais que cortam o tecido no bastidor, gabaritos de strass que brilham e até agulhas especiais de feltrar lã, fazendo o seu ateliê parecer uma verdadeira casa de alta-costura de Paris!",
+    "applications": [
+      "Criação de alta-costura com técnicas mistas combinando bordado tradicional, recorte CutWork e cristais CrystalWork",
+      "Digitalização avançada de monogramas e brasões heráldicos com texturas tridimensionais exclusivas e efeito Trapunto",
+      "Confecção de bordados vazados clássicos tipo Richelieu de altíssima precisão com navalha rotativa",
+      "Feltragem artística computadorizada de lã e tecidos sobre bases têxteis através do módulo PunchWork",
+      "Integração de estampas gráficas e ilustrações vetoriais do CorelDRAW convertidas diretamente em pontos de bordado"
+    ],
+    "mainTypes": [
+      "Bernina DesignerPlus (Versão 9 / 8): A versão máxima com todas as ferramentas de criação vetorial, CutWork, 3D e efeitos especiais",
+      "Bernina Creator (Versão 9): Versão intermediária ideal para hobbistas e pequenos ateliês focados em edição, monogramas e apliques",
+      "Bernina Toolbox: Versão simplificada em nuvem e aplicativo para tablets e computadores focada em monogramas e edição rápida",
+      "Bernina DesignWorks Suite: Módulo dedicado para corte (CutWork), pedrarias (CrystalWork) e pintura com canetas (PaintWork)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Gera matrizes refinadas calibradas para operar com perfeição de 500 a 1.000 PPM em máquinas Bernina",
+      "needleType": "Projetado para agulhas 130/705 H, agulhas de asa (Wing Needle) e acessórios CutWork / PunchWork",
+      "stabilizer": "Entretelas nobres como solúveis em água (hidrossolúvel pesada) para richelieu e rasgáveis de algodão puro"
+    },
+    "advantages": [
+      "✔ Alimentado pelo motor vetorial de pontos da Wilcom, o mais confiável, preciso e prestigiado do mundo",
+      "✔ Pacote completo que já inclui o CorelDRAW SE totalmente integrado, permitindo desenhar vetores gráficos profissionais",
+      "✔ Acesso aos recursos exclusivos da suíte DesignWorks: recorte com navalha CutWork, pedrarias CrystalWork e pintura têxtil",
+      "✔ Os mais avançados e belos preenchimentos de relevo tridimensional da história, como o Globe Effect e o efeito Trapunto"
+    ],
+    "limitations": [
+      "Software de categoria premium de alto investimento financeiro, voltado para ateliês de alto padrão e profissionais exigentes.",
+      "Desenvolvido nativamente para o sistema operacional Windows (requer Parallels Desktop ou emulador no Mac)."
+    ],
+    "commonErrors": [
+      "❌ Utilizar a ferramenta CutWork sem substituir a agulha comum pela navalha rotativa de 4 posições na máquina Bernina.",
+      "❌ Tentar abrir arquivos salvos em formato nativo .ART recente em máquinas de outras marcas sem exportar antes para .EXP ou .PES.",
+      "❌ Aplicar densidades excessivamente pesadas no efeito Globe Effect, causando rigidez exagerada na curvatura central da esfera.",
+      "❌ Esquecer de ativar o calcador especial de feltragem ao executar matrizes criadas com o módulo PunchWork."
+    ],
+    "troubleshootingTips": [
+      "Máquina Bernina não reconhece arquivo via pendrive: Certifique-se de salvar a matriz no formato Bernina .EXP, que grava o arquivo de pontos acompanhado dos arquivos de suporte de cor (.INF) e imagem (.BMP).",
+      "Navalha CutWork mastigando o tecido: No DesignerPlus, verifique se os 4 ângulos de corte (posições 1, 2, 3 e 4) foram programados na sequência correta e use entretela hidrossolúvel bem esticada.",
+      "Texto com curvas apresentando repuxo no tecido: Ative a opção de Compensação de Repuxo Automática (Auto Pull Compensation) nas propriedades do objeto de texto."
+    ],
+    "dicaArtrelados": "Ao criar bordados Richelieu com o módulo CutWork no Bernina DesignerPlus, use sempre uma camada dupla de entretela hidrossolúvel pesada bem firme no bastidor! O corte da navalha rotativa guiada pelo software sai tão perfeito e cirúrgico que o tecido recortado se solta com a pontinha de uma pinça: depois que a máquina faz o ponto festonê de acabamento e você lava a peça, o efeito vazado fica com a perfeição das toalhas de linho dos palácios europeus!",
+    "voceSabia": "A parceria entre a Bernina suíça e a Wilcom australiana é uma das mais longevas e bem-sucedidas da história da informática têxtil! Quando você abre o Bernina DesignerPlus, você tem literalmente o poder do Wilcom EmbroideryStudio customizado com a ergonomia suíça: por isso, quem aprende a mexer no software da Bernina consegue operar qualquer software industrial do mundo sem nenhuma dificuldade!",
+    "practicalExercise": "Aplicação do Efeito Tridimensional 'Globe Effect' no Bernina DesignerPlus: Abra o software e crie um círculo de 6 cm com ponto de preenchimento Tatami comum. Selecione o círculo, vá até a barra de ferramentas de efeitos artísticos e clique em 'Globe Effect'. Observe instantaneamente na tela 3D como os pontos se curvam e alteram a densidade criando a ilusão óptica perfeita de uma esfera sólida em relevo, pronta para ser bordada com um brilho de luz deslumbrante!",
+    "quickSummary": "Suíte suíça de alto luxo e precisão (Bernina / Wilcom), referência máxima em criatividade por integrar o motor vetorial Wilcom com as ferramentas DesignWorks (CutWork, PaintWork e CrystalWork), PunchWork e relevo 3D Globe Effect.",
+    "relatedTerms": [
+      "Bernina / Bernette (Máquinas de Bordado Eletrônico)",
+      "Wilcom EmbroideryStudio",
+      "Formato EXP",
+      "Richelieu Computadorizado",
+      "Compensação de Encolhimento",
+      "Densidade de Ponto",
+      "Calcador de Bordado",
+      "Velocidade PPM"
+    ],
+    "tags": [
+      "b-106",
+      "bernina",
+      "designerplus",
+      "wilcom",
+      "coreldraw",
+      "cutwork",
+      "crystalwork",
+      "punchwork",
+      "art",
+      "softwares",
+      "programacao",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BERNINA INTERNATIONAL AG. Bernina Embroidery Software 9 DesignerPlus: Reference Manual and User Guide. Steckborn: Bernina, 2023.",
+      "WILCOM INTERNATIONAL & BERNINA. Object-Based Embroidery Technology and Multi-Media Stitch Architecture. Sydney / Steckborn, 2022.",
+      "ARTRELADOS. A Alta-Costura do Bordado: Criatividade, Luxo e Inovação com o Bernina DesignerPlus. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
   }
 ];
+
 
