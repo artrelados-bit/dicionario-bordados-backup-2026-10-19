@@ -3510,6 +3510,212 @@ export const VERBETES_LETTER_B1: Verbete[] = [
       "ARTRELADOS. O Engate Perfeito: Como Regular o Bloco Condutor da Barra de Agulha e Nunca Mais Falhar Pontos. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "b-112-bomba-lubrificacao-centralizada-pistao-manual",
+    "code": "B-112",
+    "term": "Bomba de Lubrificação Centralizada / Pistão Manual de Óleo e Circuito Distribuidor do Cabeçote (Central Lubrication Pump & Manual Oil Distribution Circuit)",
+    "pronunciation": "bõm-ba de lu-bri-fi-ka-sãw sẽyn-tra-li-zá-da / pis-tãw ma-nu-ál de ó-li-u i sir-kú-i-tu dis-tri-bwi-dór du ka-be-só-ti (sén-tral lu-bri-kêi-shan pãmp end mǽn-yu-al óil dis-tri-biú-shan sér-kit)",
+    "letter": "B",
+    "level": "Intermediário 🟡",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Criada nos anos 1980 pelos fabricantes japoneses de máquinas industriais de bordar (Tajima e Barudan) para superar o grande desafio da lubrificação manual em máquinas multicabeçotes (com até 20 ou 30 cabeçotes). O método antigo de pingar óleo manualmente agulha por agulha exigia horas diárias de manutenção e frequentemente provocava manchas de óleo nos tecidos por excesso de aplicação. A introdução de um sistema centralizado acionado por pistão manual com reservatório translúcido e rede capilar de microtubos dosadores padronizou a quantidade exata de óleo mineral entregue a cada bucha em segundos.",
+    "summary": "Sistema de lubrificação composto por reservatório graduado, êmbolo manual com mola e rede capilar de microtubos que distribui microgotas de óleo simultaneamente para todas as buchas e guias do cabeçote.",
+    "definition": "A Bomba de Lubrificação Centralizada e Pistão Manual de Óleo com Circuito Distribuidor do Cabeçote (tecnicamente denominada Central Lubrication Pump, One-Touch Manual Oiler, Bomba de Êmbolo para Lubrificação Manual, Distribuidor de Óleo de Pulso Central ou Bomba de Óleo do Cabeçote) é o conjunto hidráulico de baixa pressão montado na lateral ou na estrutura posterior de máquinas de bordar industriais e semi-industriais. Seu objetivo é pressurizar e distribuir óleo mineral branco de grau têxtil (ISO VG 10 a VG 22) de forma homogênea, instantânea e calibrada para múltiplos pontos críticos de atrito do cabeçote: buchas das barras de agulha superiores e inferiores, calhas deslizantes dos blocos condutores, eixos das alavancas estica-fio e bielas excêntricas. Ao ser acionada manualmente pela operadora através de um puxão firme em sua manopla ou alavanca de mola, o êmbolo interno aspira o óleo do reservatório plástico através de uma válvula de retenção de esferas e um filtro de malha de bronze de 40 a 60 mícrons. Na sequência, a mola de compressão calibrada empurra o pistão de volta à sua posição de repouso, gerando uma pressão hidráulica de 0,15 a 0,35 MPa no circuito de microtubos de poliamida transparente. O fluido passa por blocos distribuidores de latão equipados com dosadores volumétricos capilares (Restritores de Fluxo ou Válvulas Dosadoras de Gotas), que restringem a vazão para entregar apenas uma película de 0,02 a 0,05 ml em cada mancal. Esse controle volumétrico estrito elimina o risco de gotejamento por gravidade sobre os bastidores e os tecidos.",
+    "technicalDetails": "Reservatório moldado em policarbonato translúcido resistente a impactos com capacidade volumétrica de 150 ml a 350 ml, provido de marcas visíveis de nível mínimo e máximo (Min/Max). Elemento filtrante lavável em tela de latão ou sinterizado metálico com retenção de partículas de até 50 µm para proteção das válvulas capilares. Pressão de trabalho entre 1,5 bar e 3,5 bar com tempo de descarga controlada pela mola de 15 a 30 segundos. Linhas de distribuição em tubos de náilon semi-rígido flexível (diâmetro externo de 4 mm e diâmetro interno de 2,5 mm) conectados por conexões de engate rápido tipo Push-In ou porcas de compressão metálicas com anéis bicônicos.",
+    "construction": [
+      "Corpo Transparente em Policarbonato Graduado com Tampa Superior de Abastecimento e Respiro",
+      "Êmbolo com Pistão Metálico e Vedações em Borracha Nitrílica NBR ou Poliuretano",
+      "Mola Helicoidal de Compressão em Aço Especial para Retorno Controlado de Pressão Lenta",
+      "Válvula de Retenção Anti-Retorno de Esfera e Assento Cônico para Evitar Retorno de Óleo",
+      "Filtro de Sucção de Malha Metálica Micrométrica contra Poeira e Fiapos de Entretela",
+      "Blocos Coletores Distribuidores de Latão com Dosadores Capilares Regulados para Cada Ponto"
+    ],
+    "howItWorks": [
+      "1. A operadora puxa a manopla da bomba de óleo até o final do curso antes de iniciar o turno de trabalho.",
+      "2. O êmbolo aspira o óleo mineral limpo do reservatório através da válvula e do filtro de sucção.",
+      "3. Ao soltar a manopla, a mola interna assume o controle e empurra o pistão suavemente para baixo.",
+      "4. O óleo pressurizado percorre a teia de tubos plásticos transparentes que sobem até o cabeçote.",
+      "5. Os distribuidores de latão dividem o fluxo em doses microscópicas idênticas para cada barra e biela.",
+      "6. O óleo penetra nas buchas de bronze sinterizado, formando uma película protetora anti-desgaste.",
+      "7. A máquina opera de 800 a 1.000 PPM de forma suave e silenciosa sem respingar uma única gota na roupa!"
+    ],
+    "beginnerExplanation": "A Bomba de Lubrificação Centralizada é como o 'coração que distribui óleo para todo o corpo da sua máquina de bordar com um único aperto de mão'! Imagine ter que pegar uma garrafinha de óleo com bico fino e pingar gotinha por gotinha em 15 agulhas, nas molas, nos estica-fios e nos rolamentos todos os dias antes de começar a produzir: além de demorar um tempão, é quase certeza que você ia errar a mão em alguma agulha, colocar óleo demais e a primeira camisa branca bordada ia sair manchada de graxa preta! Com essa bombinha na lateral da máquina, você só precisa olhar se o copinho transparente está com óleo limpo, puxar a alavanca para cima uma única vez e soltar. A mola faz todo o trabalho sozinha: ela empurra o óleo pelas mangueirinhas transparentes e manda a quantidade exata de remédio para cada peça, sem respingar nada no tecido!",
+    "applications": [
+      "Lubrificação simultânea de buchas superiores e inferiores das barras de agulha em cabeçotes multiagulhas",
+      "Alimentação de óleo controlada para mancais de estica-fios, bielas e virabrequins em alta rotação",
+      "Padronização da manutenção diária e redução drástica do tempo de lubrificação de ateliês",
+      "Prevenção absoluta de manchas acidentais de óleo nas peças confeccionadas por excesso de lubrificação manual",
+      "Aumento exponencial da durabilidade dos cabeçotes mecânicos com redução de folgas e atrito seco"
+    ],
+    "mainTypes": [
+      "Bomba Manual de Alavanca de Retorno por Mola (Padrão mais robusto e popular em máquinas industriais)",
+      "Bomba Automática com Motor Elétrico Temporizado (Dispara micro-pulsos de óleo a cada 4 horas de bordado)",
+      "Bomba Pneumática Acionada por Ar Comprimido (Comum em máquinas de grande porte com 20 cabeçotes)",
+      "Sistema de Lubrificação Capilar por Pavio com Reservatório Central (Distribuição por gravidade contínua)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Garante película protetora estável de 0 a 1.200 PPM",
+      "needleType": "Universal para todos os conjuntos de agulha e cabeçotes mecânicos",
+      "stabilizer": "Totalmente seguro para bordados sobre tecidos brancos, sedas e uniformes sensíveis",
+      "threadTension": "A lubrificação homogênea das buchas reduz variações de atrito no movimento da barra"
+    },
+    "advantages": [
+      "✔ Praticidade absoluta: lubrifica todo o cabeçote em 3 segundos com um único puxão de alavanca",
+      "✔ Dosagem de precisão que protege o maquinário sem sujar roupas nem encharcar o bastidor",
+      "✔ Tubos transparentes que permitem conferir visualmente a subida e a presença do óleo",
+      "✔ Filtro interno que impede que impurezas e fiapos de linha cheguem aos mancais de alta rotação"
+    ],
+    "limitations": [
+      "Não substitui a lubrificação direta periódica da lançadeira rotativa (que requer óleo manual diário na pista).",
+      "Se o óleo ficar velho e oxidar no reservatório, os microtubos e dosadores capilares podem entupir."
+    ],
+    "commonErrors": [
+      "❌ Colocar óleo automotivo queimado, óleo de cozinha ou óleo grosso que entope as mangueiras capilares.",
+      "❌ Puxar a alavanca dez vezes seguidas com força bruta, inundando o cabeçote de óleo e manchando tecidos.",
+      "❌ Deixar o nível do reservatório zerar, permitindo que a bomba aspire ar e bolhas para dentro do circuito.",
+      "❌ Esquecer a tampa do reservatório aberta, deixando entrar poeira de algodão e pó de entretela no óleo."
+    ],
+    "troubleshootingTips": [
+      "Você puxa a alavanca da bomba, mas ela sobe e desce totalmente solta, sem resistência de óleo: O circuito sugou ar porque o nível do copo baixou demais; complete o reservatório com óleo mineral branco novo e puxe a alavanca de 5 a 8 vezes lentamente para purgar o ar das mangueiras.",
+      "O óleo está no nível certo, mas não sobe nos tubos transparentes do cabeçote: O filtro de malha de bronze no fundo do reservatório está colmatado com fiapos; desmonte o copo plástico, lave a tela de sucção com solvente limpo e monte novamente.",
+      "Uma das barras de agulha está seca e esquentando, enquanto as outras estão lubrificadas: O dosador de latão daquela agulha específica entupiu com resíduo de cola de entretela; desconecte o microtubo e desobstrua o bico injetor com ar comprimido ou agulha fina de limpeza."
+    ],
+    "dicaArtrelados": "O 'Ritual de Bombeamento Matinal da Artrelados': Crie o hábito de ouro no seu ateliê: toda manhã, antes de ligar a máquina na chave geral, dê UMA única puxada suave e completa na alavanca da bomba de lubrificação centralizada e solte. Olhe as mangueirinhas subindo para o cabeçote e observe a bolinha de ar ou o movimento do óleo descendo calmo pela ação da mola. Esse ritual de 5 segundos garante que, quando você der a primeira partida a 900 PPM, todas as buchas já estarão flutuando em um filme fresquinho de óleo protetor, sem gastar ferro com ferro e sem sujar o bordado do seu cliente!",
+    "voceSabia": "O óleo mineral branco utilizado na bomba centralizada é tão puro e refinado que atende a especificações medicinais e alimentícias (Grau USP/Farmacopeico)! Por ser transparente e sem aditivos escuros, mesmo que uma microgota acidental caia sobre o tecido branco, ela sai com facilidade na primeira lavagem com sabão neutro sem deixar manchas amarelas!",
+    "practicalExercise": "Inspeção do Nível e Teste de Pulso do Óleo: Vá até o reservatório da bomba na sua máquina de bordar. Observe as marcas de 'Min' e 'Max' no copo plástico transparente e verifique se o óleo está limpo e cristalino como água. Puxe a alavanca da bomba para cima e sinta a resistência macia do pistão. Acompanhe com os olhos os tubinhos transparentes que sobem até o cabeçote e veja a cor límpida do óleo fluindo para as agulhas!",
+    "quickSummary": "Conjunto com reservatório e êmbolo manual com mola que distribui microdoses calibradas de óleo mineral simultaneamente para todas as buchas e mancais do cabeçote com um único puxão de alavanca.",
+    "relatedTerms": [
+      "Óleo Mineral Branco USP vs. Óleos Sintéticos de Alta Viscosidade",
+      "Carcaça Frontal Deslizante de Agulhas / Bloco Seletor de Cores do Cabeçote",
+      "Trilho Linear de Troca de Cor / Guia de Deslizamento da Carcaça Frontal",
+      "Pavio de Feltro da Laçadeira / Filtro de Lubrificação Capilar do Gancho Rotativo",
+      "Barra de Agulha e Parafuso de Fixação (Needle Bar & Needle Clamp)",
+      "Pino de Arraste da Barra de Agulha / Pino Condutor da Biela Principal"
+    ],
+    "tags": [
+      "b-112",
+      "bomba-de-lubrificacao",
+      "lubrificacao-centralizada",
+      "oleo-mineral",
+      "distribuidor-de-oleo",
+      "manutencao-preventiva",
+      "cabecote",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Centralized Lubrication System, Pump Specifications & Maintenance Protocols. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Head Lubrication Circuits, One-Touch Oiler and Piping Maintenance. Ichinomiya, 2022.",
+      "SHOWA CORPORATION. Manual One-Shot Lubrication Pumps and Flow Restrictor Systems in Industrial Machines. Tokyo: Showa, 2021.",
+      "ARTRELADOS. O Coração do Cabeçote: Segredos da Bomba de Lubrificação Centralizada e Como Proteger Suas Agulhas Sem Manchar Roupas. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "b-113-bandeja-coletora-oleo-residual-drenagem-cabecote",
+    "code": "B-113",
+    "term": "Bandeja Coletora de Óleo Residual e Filtro de Drenagem do Cabeçote / Reservatório de Descarte (Oil Drain Pan & Residual Head Catch Basin)",
+    "pronunciation": "bãn-dé-zha ko-le-tó-ra de ó-li-u re-zi-dw-ál i fíl-tru de dre-ná-zhem du ka-be-só-ti / re-zer-va-tó-ri-u de dez-kár-ti (óil drêin pæn end re-zí-dju-al héd kætch bêi-sin)",
+    "letter": "B",
+    "level": "Intermediário 🟡",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Concebida pelas principais montadoras industriais japonesas (Tajima, Barudan e Brother) entre o final dos anos 1970 e meados de 1980. Com o aumento da velocidade de costura para mais de 800 PPM e a introdução da lubrificação contínua ou semiautomática, as forças centrífugas e a gravidade faziam o óleo sujo descer carregado de micropartículas e poeira de entretela. Sem uma calha selada de drenagem, esse resíduo contaminava os cabos elétricos, o pantógrafo e as peças de tecido bordadas, tornando obrigatório o uso de bandejas coletoras decantadoras com feltros absorventes e drenos inferiores de esgotamento.",
+    "summary": "Bandeja metálica ou de polímero com manta de feltro decantadora fixada sob a carcaça do cabeçote que coleta o óleo usado, retém fiapos e evita o gotejamento acidental sobre as roupas bordadas e a bancada.",
+    "definition": "A Bandeja Coletora de Óleo Residual e Filtro de Drenagem do Cabeçote com Reservatório de Descarte (tecnicamente denominada Oil Drain Pan, Residual Catch Basin, Bandeja de Decantação de Óleo Usado, Reservatório de Purga Inferior ou Cuba Coletora de Drenagem do Cabeçote) é o recipiente metálico estampado ou moldado em polímero técnico fixado sob a base do cabeçote e das canaletas internas de retorno de máquinas de bordar industriais. Sua função essencial é interceptar e canalizar o excedente de óleo mineral que escorre por gravidade das buchas das barras de agulha, dos mancais dos estica-fios e da biela do virabrequim após cumprirem seu ciclo de lubrificação ativa. A bandeja é equipada com uma manta de feltro sintético de alta densidade (Oil Absorbing Pad) que atua como barreira decantadora mecânica: ela retém poeira de algodão, fiapos de linha cortada e resíduos de entretela hidrossolúvel ou rasgável arrastados pelo fluxo, impedindo que essa sujeira retorne às peças móveis ou forme crostas pegajosas. Nas máquinas multicabeçotes, as bandejas possuem canais inclinados em ângulo de 3° a 5° que direcionam o óleo usado para copos de descarte translúcidos rosqueados na parte inferior da bancada, permitindo a sangria e o descarte ecologicamente correto sem sujar os operadores ou o chão do ateliê.",
+    "technicalDetails": "Fabricada em chapa de aço galvanizado de 0,8 mm a 1,2 mm com pintura eletrostática a pó epóxi ou polietileno de alta densidade (PEAD) injetado imune ao ataque químico de solventes e óleos industriais. Capacidade de retenção de 50 ml a 150 ml por cabeçote. Equipada com feltro de poliéster agulhado com espessura de 3 mm a 5 mm e densidade de 0,25 g/cm³. Dreno de saída com bico canulado de 6 mm conectado a mangueira flexível de PVC cristal ou copo de purga com rosca de 1/2 polegada e vedação em elastômero NBR.",
+    "construction": [
+      "Corpo Estampado em Aço Tratado Anticorrosão ou Cuba Injetada em Polímero de Engenharia",
+      "Manta de Feltro Absorvente Decantadora Removível para Retenção de Fiapos e Poeira Têxtil",
+      "Bico de Drenagem Inferior Rosqueado com Conexão para Mangueira ou Copo Coletor",
+      "Defletores Internos de Contenção de Óleo contra Turbulência Causada pela Alta Velocidade",
+      "Presilhas Laterais de Encaixe Rápido para Facilitar a Remoção e Lavagem Periódica",
+      "Junta de Vedação Perimetral em Espuma de Célula Fechada contra Vazamentos Laterais"
+    ],
+    "howItWorks": [
+      "1. Durante a produção a 800-1.000 PPM, as microgotas de óleo escorrem pelas guias e buchas das agulhas.",
+      "2. A gravidade faz o óleo residual descer pelas calhas internas da estrutura do cabeçote.",
+      "3. O fluido sujo goteja diretamente sobre a manta de feltro da Bandeja Coletora.",
+      "4. O feltro absorve o óleo e filtra os fiapos de linha e poeira de entretela suspensos.",
+      "5. O óleo decantado escorre lentamente pelo fundo inclinado em direção ao orifício de saída.",
+      "6. A mangueira de drenagem deposita o resíduo líquido no copo de descarte transparente.",
+      "7. O tecido bordado no bastidor e a bancada da máquina permanecem 100% limpos e protegidos!"
+    ],
+    "beginnerExplanation": "A Bandeja Coletora de Óleo é como o 'babador protetor da sua máquina de bordar'! Quando você lubrifica a máquina, o óleo faz o trabalho dele de amaciar as agulhas e os estica-fios. Mas depois que a máquina trabalha por horas a fio, aquele óleo usado precisa ir para algum lugar, certo? Ele desce escorrendo limpinho lá por dentro do cabeçote. Se não existisse essa bandejinha embaixo com um feltro absorvente fofinho, o óleo sujo ia pingar bem em cima do bastidor, na camisa branca do cliente ou nas suas pernas enquanto você opera a máquina! Essa bandeja fica escondidinha segurando todo o óleo velho e segurando a sujeirinha de linha. Uma vez por semana ou no final do mês, você só precisa passar um paninho ou trocar o feltro para sua máquina continuar brilhando e trabalhando limpa como um espelho!",
+    "applications": [
+      "Interceptação e retenção de óleo mineral residual escorrido de barras de agulha e bielas",
+      "Filtragem e decantação de poeira de algodão, fiapos de linha e resíduos de entretela",
+      "Proteção total de bastidores, tecidos bordados e vestuário contra gotejamento de óleo sujo",
+      "Canalização do descarte de óleo usado para copos de sangria em máquinas multicabeçotes",
+      "Diagnóstico visual da saúde mecânica através da análise da coloração e pureza do óleo descartado"
+    ],
+    "mainTypes": [
+      "Bandeja com Manta de Feltro Absorvente Descartável/Lavável (Padrão mais comum em máquinas compactas)",
+      "Bandeja com Dreno e Copo Plástico de Purga Rosqueado (Padrão em máquinas industriais multicabeçotes)",
+      "Cuba Coletora com Sensor Eletrônico de Nível Máximo (Avisa no painel quando é hora de esvaziar o dreno)",
+      "Bandeja Magnética Removível de Limpeza Rápida (Facilita a manutenção sem uso de parafusos)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Projetada com defletores para conter respingos mesmo em velocidades extremas de 1.200 PPM",
+      "needleType": "Compatível com todos os modelos de cabeçote de 1 a 15 agulhas",
+      "stabilizer": "Retém resíduos secos de entretelas hidrossolúveis, rasgáveis e resinadas",
+      "threadTension": "Mantém as canaletas mecânicas desobstruídas, assegurando suavidade aos componentes"
+    },
+    "advantages": [
+      "✔ Zero risco de óleo sujo pingar nas peças bordadas do seu cliente ou no piso do ateliê",
+      "✔ Retém a poeira têxtil antes que ela empaste com o óleo e trave as buchas inferiores",
+      "✔ Fácil de inspecionar e limpar em poucos minutos na rotina de sexta-feira do ateliê",
+      "✔ Ajuda o meio ambiente permitindo o descarte consciente e correto do óleo mineral usado"
+    ],
+    "limitations": [
+      "Se o feltro absorvente nunca for limpo ou trocado, ele satura de óleo e o resíduo pode transbordar pelas bordas.",
+      "Exige atenção periódica da operadora para esvaziar o copinho de purga antes que ele atinja o nível máximo."
+    ],
+    "commonErrors": [
+      "❌ Deixar o copo de drenagem encher até a boca, fazendo o óleo sujo transbordar pela mangueira de volta ao cabeçote.",
+      "❌ Retirar o feltro absorvente da bandeja e esquecer de recolocar, permitindo que fiapos entupam o dreno.",
+      "❌ Lavar a bandeja com solventes corrosivos que ressecam e trincam o plástico de policarbonato do copinho.",
+      "❌ Jogar o óleo drenado na pia comum em vez de recolher em garrafa plástica para descarte ecológico."
+    ],
+    "troubleshootingTips": [
+      "Apareceram gotículas pretas de óleo na parte de trás da entretela após o bordado: A bandeja coletora ou o feltro absorvente estão saturados de óleo velho; remova o feltro, lave com sabão neutro (ou substitua por um novo) e limpe a cuba com pano seco.",
+      "O óleo está transbordando na lateral do cabeçote: A mangueirinha plástica de drenagem está dobrada ou entupida com fiapos de linha; desconecte a mangueira, passe um arame macio para desobstruir e recoloque na posição reta.",
+      "O óleo recolhido na bandeja está com coloração cinza metálica ou pequenos farelos brilhantes: Alerta mecânico de desgaste severo por atrito seco em alguma bucha ou biela; chame o técnico para verificar folgas mecânicas antes que ocorra quebra de componentes."
+    ],
+    "dicaArtrelados": "O 'Termômetro Visual da Bandeja da Artrelados': A bandeja coletora de óleo é como o exame de sangue da sua máquina de bordar! Uma vez por semana, dê uma espiadinha no óleo acumulado no feltro ou no copinho de descarte. Se o óleo estiver límpido ou apenas levemente amarelado, parabéns: sua máquina está saudável e muito bem lubrificada! Mas se o óleo estiver preto e denso como graxa velha, é sinal de que você está demorando muito para trocar o óleo ou usando óleo impróprio. E se tiver um brilho cinzento de metal, pare e chame socorro técnico imediatamente. Saber ler a bandeja economiza fortunas em peças!",
+    "voceSabia": "Em grandes confecções industriais com máquinas de 20 cabeçotes trabalhando 24 horas por dia, as bandejas coletoras recolhem juntas cerca de 2 litros de óleo usado por mês! Esse óleo é armazenado e enviado para empresas de rerrefino ecológico, gerando novos lubrificantes sem poluir a natureza!",
+    "practicalExercise": "Inspeção e Limpeza da Bandeja de Drenagem: Olhe por baixo do cabeçote ou da bancada da sua máquina de bordar e localize a bandejinha ou o copo coletor transparente. Avalie a cor do óleo e o estado do feltro. Se o feltro estiver encharcado e pesado, retire-o, esprema suavemente em papel toalha velho, limpe a bandeja plástica com um paninho embebido em desengraxante e recoloque o conjunto no lugar. Sinta a tranquilidade de um cabeçote limpo!",
+    "quickSummary": "Bandeja montada sob o cabeçote que coleta o óleo mineral usado, filtra fiapos têxteis e direciona o descarte para evitar manchas em peças bordadas e sujeira no ateliê.",
+    "relatedTerms": [
+      "Bomba de Lubrificação Centralizada / Pistão Manual de Óleo e Circuito Distribuidor do Cabeçote",
+      "Válvula Dosadora de Óleo / Restritor de Fluxo Capilar de Lubrificação do Cabeçote",
+      "Óleo Mineral Branco USP vs. Óleos Sintéticos de Alta Viscosidade",
+      "Pavio de Feltro da Laçadeira / Filtro de Lubrificação Capilar do Gancho Rotativo",
+      "Carcaça Frontal Deslizante de Agulhas / Bloco Seletor de Cores do Cabeçote",
+      "Química de Removedores de Manchas de Óleo e Adesivos"
+    ],
+    "tags": [
+      "b-113",
+      "bandeja-coletora",
+      "oleo-residual",
+      "drenagem-do-cabecote",
+      "decantador-de-oleo",
+      "lubrificacao",
+      "manutencao-preventiva",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Oil Drainage Systems, Head Catch Basins & Environmental Safety Standards. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Waste Oil Disposal, Pan Cleaning and Filter Maintenance. Ichinomiya, 2022.",
+      "BROTHER INDUSTRIES. Multi-Needle Embroidery Waste Oil Management & Safety Protocols. Nagoya, 2023.",
+      "ARTRELADOS. O Babador do Cabeçote: Segredos da Bandeja Coletora de Óleo e Como Evitar Manchas Negras nas Suas Roupas. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
   }
 ];
 

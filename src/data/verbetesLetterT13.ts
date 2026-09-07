@@ -1668,6 +1668,110 @@ export const VERBETES_LETTER_T13: Verbete[] = [
       "ARTRELADOS. Patins no Gelo do Cabeçote: Como Cuidar do Trilho Linear de Troca de Cor e Eliminar Travamentos. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "t-110-trava-superior-barra-agulha-lingueta-retencao",
+    "code": "T-110",
+    "term": "Trava Superior da Barra de Agulha / Lingueta de Retenção do Ponto Morto Superior (Needle Bar Upper Latch & Resting Catch Assembly)",
+    "pronunciation": "trá-va su-pe-ri-ór da bár-ra de a-gú-lha / lĩn-gwé-ta de re-tẽyn-sãw du põn-tu mór-tu su-pe-ri-ór (ní-dl bar á-per lætch end rés-ting kætch a-sém-bli)",
+    "letter": "T",
+    "level": "Intermediário 🟡",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Desenvolvida no Japão no início dos anos 1980 pelas pioneiras industriais Tajima e Barudan com a introdução dos primeiros cabeçotes multiagulhas (de 6 a 12 cores). Em máquinas de alta velocidade, a vibração harmônica contínua e a gravidade faziam com que as barras de agulha inativas escorregassem lentamente para baixo; isso causava colisões catastróficas contra o calcador ativo, o bastidor ou a chapa de agulha. A invenção de um sistema individual de trava superior por lingueta oscilante de aço temperado com mola de compressão e rampa de desengate automático garantiu que todas as agulhas em repouso permaneçam rigorosamente travadas no Ponto Morto Superior (PMS).",
+    "summary": "Mecanismo mecânico de retenção por lingueta ou esfera com mola que trava com firmeza as barras de agulha inativas no topo do cabeçote, evitando que caiam por gravidade ou vibração durante o bordado.",
+    "definition": "A Trava Superior da Barra de Agulha e Lingueta de Retenção do Ponto Morto Superior (tecnicamente denominada Needle Bar Upper Latch, Resting Catch Assembly, Trava Mecânica da Barra em Repouso, Lingueta de Bloqueio Superior ou Engate do Ponto Morto da Agulha) é o dispositivo mecânico de alta precisão montado na extremidade superior de cada estação de agulha na carcaça frontal deslizante do cabeçote de bordado industrial. Sua função primária é reter mecanicamente a barra de agulha na posição mais elevada de seu curso — o Ponto Morto Superior (PMS) —, com força de retenção calibrada entre 12 N e 25 N, enquanto a máquina opera a até 1.200 PPM. O conjunto é formado por uma lingueta basculante em aço cromo temperado (ou pino com mola de retenção) que se aloja em um rebaixo usinado na própria barra de agulha. Durante a costura, apenas a barra da agulha selecionada é destravada pela rampa de abertura do bloco condutor acoplado ao pino de arraste da biela principal; todas as outras 14 barras de agulha permanecem rigidamente bloqueadas. Esse intertravamento mecânico impede que a trepidação inerente ao funcionamento em alta rotação faça uma barra inativa escorregar, provocando choque mecânico contra a chapa, quebra de agulha, rasgo do tecido ou danos ao calcador.",
+    "technicalDetails": "Fabricada em aço liga cromo-molibdênio AISI 4140 forjado com têmpera e revenimento superficial, atingindo dureza de 54 a 58 HRC para resistência extrema ao impacto repetitivo. Mola de pressão helicoidal em fio de aço para molas DIN 17223 com carga de retenção de 15 N a 20 N. Tolerância dimensional de encaixe entre a lingueta e o chanfro da barra de agulha de 0,02 mm a 0,04 mm. Bucha pivô autolubrificante em bronze fosforoso ou polímero técnico antifricção. Curso angular de basculamento de 8° a 12° acionado por rampa de came com ângulo de desengate de 45°.",
+    "construction": [
+      "Corpo da Lingueta Basculante em Aço Cromo Temperado Usinado em Centro CNC de Precisão",
+      "Pino de Articulação Retificado de Baixa Folga com Bucha de Bronze Autolubrificante",
+      "Mola Helicoidal de Compressão Calibrada de Alta Fadiga para Retorno Imediato da Trava",
+      "Rampa Frontal de Desengate Automático para Acoplamento Suave na Troca de Cor",
+      "Chanfro Retangular de Travamento que se Encaixa no Entalhe Superior da Barra de Agulha",
+      "Calço de Amortecimento em Borracha Nitrílica NBR para Redução de Ruído de Engate"
+    ],
+    "howItWorks": [
+      "1. A máquina costura com a agulha 4; as outras 14 barras estão estacionadas no topo do cabeçote.",
+      "2. A Trava Superior de cada agulha inativa mantém sua lingueta encaixada no rebaixo da barra.",
+      "3. A pressão da mola impede qualquer deslocamento descendente, mesmo com a máquina a 1.000 PPM.",
+      "4. Quando a matriz comanda a troca de cor para a agulha 5, a carcaça frontal desliza no trilho linear.",
+      "5. A rampa do bloco condutor atinge a lingueta da agulha 5, basculando-a para trás e liberando a barra.",
+      "6. O pino de arraste da biela engata no bloco condutor da agulha 5 para iniciar o movimento de subida e descida.",
+      "7. A agulha 4, ao subir ao PMS, reengata na sua respectiva trava superior, ficando trancada com segurança!"
+    ],
+    "beginnerExplanation": "A Trava Superior da Barra de Agulha é como o 'freio de estacionamento de cada agulha da sua máquina de bordar'! Imagine uma máquina com 15 agulhas trabalhando a mil por hora: o cabeçote todo treme e vibra com o motor. Se não houvesse essa travinha segurando as outras 14 agulhas lá no teto, sabe o que aconteceria? Por causa da trepidação e do próprio peso de ferro da barra, uma agulha que não era para estar costurando ia começar a escorregar para baixo devagarzinho, até bater com tudo no bastidor ou na agulha que está bordando, quebrando tudo em pedacinhos! Essa travinha tem uma lingueta com mola de aço que 'abraça' a barra de agulha no topo como uma presilha firme. Ela só solta a agulha no segundo exato em que a máquina escolhe aquela cor para bordar; enquanto a cor não é chamada, a agulha fica paradinha lá no alto, quietinha e segura!",
+    "applications": [
+      "Retenção mecânica contínua das barras de agulha inativas no Ponto Morto Superior (PMS)",
+      "Eliminação absoluta do risco de descida acidental de barras de agulha por gravidade e vibração",
+      "Intertravamento físico durante a translação horizontal da carcaça na troca automática de cores",
+      "Proteção do bastidor tubular e das peças confeccionadas contra perfurações indevidas",
+      "Prevenção de colisões mecânicas destrutivas entre agulhas adjacentes e calcadores móveis"
+    ],
+    "mainTypes": [
+      "Trava Superior por Lingueta Basculante com Mola (Padrão consagrado Tajima, Barudan e Happy)",
+      "Trava de Retenção por Esfera e Mola de Pressão Cônica (Detent Ball Latch em máquinas compactas)",
+      "Mecanismo de Garra de Bloqueio Duplo Superior e Inferior (Utilizado em bordadeiras pesadas para calçados)",
+      "Trava Magnética Assistida com Ímã de Neodímio (Silenciosa e livre de atrito mecânico)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Garante bloqueio inabalável em rotações industriais severas de até 1.200 PPM",
+      "needleType": "Compatível com todas as barras de agulha padrão de 1 a 15 cores",
+      "stabilizer": "Protege todos os tipos de tecido contra marcas acidentais de agulhas caídas",
+      "threadTension": "A estabilidade estática das barras inativas evita que a linha de espera seja puxada"
+    },
+    "advantages": [
+      "✔ Segurança operacional máxima: impede que agulhas fora de uso despenquem sobre o trabalho",
+      "✔ Troca de cor limpa e macia graças às rampas de alívio temperadas e polidas",
+      "✔ Alta durabilidade mecânica de milhões de ciclos de engate sem deformação plástica",
+      "✔ Projeto compacto instalado no topo do cabeçote com fácil acesso para inspeção visual"
+    ],
+    "limitations": [
+      "Se fiapos compactados com óleo seco acumularem atrás da lingueta, a mola pode não ter força para engatar.",
+      "Se a mola de retenção cansar ou quebrar por fadiga, a barra correspondente pode cair durante o bordado."
+    ],
+    "commonErrors": [
+      "❌ Empurrar a barra de agulha para baixo com a mão com força bruta sem liberar a lingueta da trava, entortando a rampa.",
+      "❌ Deixar acúmulo de poeira de entretela e óleo virar uma massa dura que trava a lingueta aberta.",
+      "❌ Montar a barra de agulha invertida (com o entalhe virado para o lado errado), impossibilitando o travamento superior.",
+      "❌ Ignorar ruídos de 'estalo metálico agudo' no momento em que a carcaça troca de cor."
+    ],
+    "troubleshootingTips": [
+      "A barra de agulha de uma cor inativa (ex: agulha 7) cai repentinamente sobre o tecido enquanto outra agulha está bordando: A mola da trava superior da agulha 7 quebrou ou a lingueta travou aberta com sujeira; desmonte a tampa superior, limpe o alojamento com desengraxante e substitua a mola de compressão.",
+      "A máquina trava com erro mecânico no meio da troca de cor com barulho de 'engasgo': A rampa de desengate da lingueta está com rebarba de desgaste ou falta de óleo; passe uma lixa d'água 1.200 suavemente no chanfro e aplique uma gota de óleo mineral.",
+      "Você sobe a barra de agulha manualmente após trocar uma agulha mas ela não fica presa no alto: A barra foi montada com o rebaixo fora de alinhamento; gire a barra até que o chanfro fique voltado perfeitamente para a lingueta até ouvir o 'clique' de retenção."
+    ],
+    "dicaArtrelados": "O 'Teste do Clique de Segurança no Topo da Artrelados': Sempre que você fizer manutenção, troca de agulha ou limpeza no cabeçote, faça este teste rápido com os dedos: empurre cada uma das barras de agulha suavemente para cima até o final do curso. Você DEVE ouvir e sentir um 'clique' mecânico bem gostoso e firme, e a agulha deve ficar paradinha lá no alto sem descer nem meio milímetro quando você solta. Em seguida, dê um leve puxãozinho para baixo com a ponta do dedo: ela deve resistir firme! Se alguma barra descer frouxa sem resistência, não borde antes de limpar e calibrar a travinha daquela agulha!",
+    "voceSabia": "A velocidade com que a lingueta da trava superior precisa desengatar e reengatar durante uma troca de cor rápida em máquinas industriais modernas é de menos de 100 milissegundos! Por isso, o aço dessa pecinha passa por um tratamento térmico especial chamado carbonitretação, que deixa sua casca tão dura quanto a lâmina de um bisturi cirúrgico!",
+    "practicalExercise": "Sentindo a Força da Trava Superior: Com a máquina desligada e em posição segura, escolha uma barra de agulha inativa (por exemplo, a agulha 2). Coloque a ponta do dedo indicador logo abaixo do bloco da barra e puxe para baixo com uma pressão moderada. Sinta a mola da trava superior resistir firmemente ao puxão. Agora, empurre de volta para cima e escute o estalo nítido da lingueta reengatando no topo. Esse é o barulho da segurança do seu ateliê!",
+    "quickSummary": "Mecanismo com lingueta e mola de precisão montado no topo do cabeçote que trava as barras de agulha inativas no Ponto Morto Superior, prevenindo quedas por gravidade e colisões no bordado.",
+    "relatedTerms": [
+      "Bloco Condutor da Barra de Agulha / Engate de Arraste da Agulha Ativa",
+      "Pino de Arraste da Barra de Agulha / Pino Condutor da Biela Principal",
+      "Barra de Agulha e Parafuso de Fixação (Needle Bar & Needle Clamp)",
+      "Carcaça Frontal Deslizante de Agulhas / Bloco Seletor de Cores do Cabeçote",
+      "Trilho Linear de Troca de Cor / Guia de Deslizamento da Carcaça Frontal",
+      "Ponto Morto Superior da Barra de Agulha (Top Dead Center - TDC)"
+    ],
+    "tags": [
+      "t-110",
+      "trava-superior",
+      "lingueta-de-retencao",
+      "needle-bar-latch",
+      "ponto-morto-superior",
+      "bloqueio-de-agulha",
+      "seguranca-mecanica",
+      "cabecote",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Needle Bar Stop Mechanism, Catch Latches & Safety Interlocks. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Needle Bar Resting Latch and Color Change Engagement Standards. Ichinomiya, 2022.",
+      "HAPPY JAPAN. Multi-Needle Head Assembly and Needle Bar Retention Troubleshooting. Yamagata, 2023.",
+      "ARTRELADOS. O Freio do Cabeçote: Segredos da Trava Superior da Barra de Agulha e Como Evitar Acidentes de Colisão. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
   }
 ];
 

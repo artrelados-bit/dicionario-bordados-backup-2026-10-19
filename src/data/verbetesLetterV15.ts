@@ -1043,5 +1043,109 @@ export const VERBETES_LETTER_V15: Verbete[] = [
       "ARTRELADOS. Gestão da Qualidade Total e Zero Defeito no Ateliê de Bordado Computadorizado. São Paulo, 2024."
     ],
     updatedAt: "2026-08-30"
+  },
+  {
+    id: "v-104-valvula-dosadora-oleo-restritor-fluxo-capilar",
+    code: "V-104",
+    term: "Válvula Dosadora de Óleo / Restritor de Fluxo Capilar de Lubrificação do Cabeçote (Oil Metering Valve & Capillary Lubrication Restrictor)",
+    pronunciation: "vál-vu-la do-za-dó-ra de ó-li-u / res-tri-tór de flú-ksu ka-pi-lár de lu-bri-fi-ka-sãw du ka-be-só-ti (óil mí-te-ring vælv end kǽ-pi-le-ri lu-bri-kêi-shan ri-strík-ter)",
+    letter: "V",
+    level: "Intermediário 🟡",
+    category: "Mecânica & Manutenção",
+    grammarClass: "Locução substantiva feminina.",
+    origin: "Desenvolvida no Japão nas décadas de 1970 e 1980 pelas fabricantes especializadas em automação de lubrificação Showa Corporation e LUBE Corporation para atender às máquinas têxteis industriais e multicabeçotes Tajima e Barudan. Em circuitos hidráulicos ramificados, o óleo viscoso sempre busca a via de menor perda de carga (as primeiras agulhas mais próximas da bomba), deixando os pontos distantes em atrito seco. A invenção de microválvulas proporcionais dosadoras em latão com orifícios calibrados a laser e esferas de retenção com mola permitiu equalizar a vazão volumétrica em dezenas de estações sob um único pulso de pressão manual.",
+    summary: "Microválvula de precisão em latão instalada nos ramais do cabeçote que fraciona o pulso de óleo em microgotas calibradas de 0,02 a 0,05 ml para cada barra de agulha e veda o circuito para evitar gotejamentos no tecido.",
+    definition: "A Válvula Dosadora de Óleo e Restritor de Fluxo Capilar de Lubrificação do Cabeçote (tecnicamente denominada Oil Metering Valve, Capillary Lubrication Restrictor, Válvula Proporcional de Descarga Volumétrica, Válvula Dosadora de Latão com Retenção ou Injetor Capilar de Óleo do Cabeçote) é a microválvula hidráulica usinada em latão maciço com rosca M6 ou M8 montada nos blocos coletores ou diretamente nas tomadas de lubrificação de cada barra de agulha, biela excêntrica e alavanca estica-fio do cabeçote de bordado industrial. Sua função mecatrônica essencial é equalizar as perdas de carga da rede de microtubos, fracionando o pulso hidráulico gerado pela bomba manual centralizada em microgotas estritamente calibradas (entre 0,02 ml e 0,05 ml por ciclo de acionamento) entregues simultaneamente a todos os pontos de atrito, da agulha 1 à agulha 15. Internamente, a válvula incorpora uma mola de retenção com esfera retificada que atua como válvula de retenção anti-retorno (Check Valve): a esfera apenas se afasta da sede cônica quando a pressão do circuito supera 0,12 MPa (1,2 bar); assim que a alavanca da bomba atinge o fim do curso e a pressão hidrostática cai, a mola fecha imediatamente a esfera contra a sede, cortando o fluxo e impedindo que o óleo residual continue escorrendo por gravidade através das buchas sobre o tecido esticado no bastidor.",
+    technicalDetails: "Corpo usinado em liga de latão de alta usinabilidade CW614N (CuZn39Pb3) com acabamento niquelado brilhante anticorrosão. Esfera de vedação em aço cromo AISI 52100 de 1,5 mm lapidada com mola helicoidal em aço inox 302 tarada para abertura a 0,12 MPa ± 0,02 MPa (1,2 bar). Orifício de estrangulamento capilar calibrado por eletroerosão ou furação a laser com diâmetro de 0,15 mm a 0,30 mm, correspondendo aos padrões de vazão ISO 1 (0,02 ml), ISO 2 (0,03 ml) e ISO 3 (0,05 ml). Rosca de montagem métrica cônica M6x0,75 ou M8x1,0 com anel de vedação o-ring em borracha fluorada (FKM/Viton). Pressão máxima de trabalho de até 3,5 MPa (35 bar).",
+    construction: [
+      "Corpo Sextavado em Latão Niquelado de Alta Resistência Mecânica com Rosca Métrica de Encaixe",
+      "Micro-Orifício Calibrado a Laser para Restrição Capilar e Divisão Proporcional do Fluxo",
+      "Esfera de Retenção Esférica Lapidada em Aço Cromo de Alta Dureza",
+      "Mola Helicoidal Calibrada de Fechamento Instantâneo Anti-Gotejamento Gravitacional",
+      "Anel de Vedação O-Ring em Borracha Fluorada Resistente a Solventes e Óleo Mineral",
+      "Conexão de Entrada Push-In para Microtubo de Náilon Transparente de 4 mm"
+    ],
+    howItWorks: [
+      "1. A operadora puxa a manopla da bomba centralizada e solta, pressurizando o circuito em cerca de 2 bar.",
+      "2. O óleo mineral percorre as mangueiras plásticas e atinge a entrada de todas as válvulas dosadoras do cabeçote.",
+      "3. A pressão hidrostática vence a força da micro-mola interna, empurrando a esfera para trás.",
+      "4. O óleo flui através do orifício capilar calibrado, liberando rigorosamente 0,03 ml em cada ponto.",
+      "5. A microgota umedece a bucha da barra de agulha e a canaleta do bloco condutor sem excessos.",
+      "6. A mola da bomba conclui seu curso e a pressão da linha cai para zero.",
+      "7. A micro-mola da válvula dosadora fecha a esfera instantaneamente na sede cônica, travando qualquer gotejamento!"
+    ],
+    beginnerExplanation: "A Válvula Dosadora de Óleo é como o 'conta-gotas de ouro de cada agulha da sua máquina de bordar'! Se você ligasse a bomba de óleo diretamente nas mangueirinhas sem essas valvulinhas, sabe o que ia acontecer? O óleo ia todo para a primeira agulha que está pertinho da bomba, afogando ela em óleo e manchando a camisa do cliente, enquanto as últimas agulhas lá na ponta ficavam completamente secas, rangendo e esquentando! Essa pecinha de latão dourado pequenininha fica na ponta de cada mangueira e funciona como um porteiro rigoroso: quando você puxa a bomba, ela abre a passagem e deixa sair apenas UMA única gotinha microscópica para a agulha dela. Na mesma hora ela se tranca e não deixa vazar mais nada! É graças a essa precisão que todas as 15 agulhas trabalham com a mesma leveza sem derramar uma gota na roupa!",
+    applications: [
+      "Equalização volumétrica de óleo em cabeçotes multiagulhas com até 15 estações de barra de agulha",
+      "Vedação anti-gotejamento por gravidade para eliminar manchas de óleo em peças e bordados brancos",
+      "Lubrificação de precisão nos rolamentos excêntricos dos estica-fios e bielas principais",
+      "Proteção de buchas de bronze sinterizado contra atrito seco e desgaste ovalizado prematuro",
+      "Equilíbrio de pressão hidrostática em máquinas multicabeçotes de grande porte (com 6 a 20 cabeçotes)"
+    ],
+    mainTypes: [
+      "Válvula Dosadora Proporcional de Latão Rosqueada (Padrão universal em cabeçotes Tajima, Barudan e Happy)",
+      "Dosador de Bloco Manifold de Múltiplas Saídas (Distribui para 4 a 6 agulhas em um bloco usinado único)",
+      "Injetor Volumétrico de Pulso Positivo PDI (Positive Displacement Injector para sistemas elétricos)",
+      "Válvula com Visor de Microgota em Acrílico (Permite conferir o gotejamento a olho nu no ateliê)"
+    ],
+    recommendedSettings: {
+      speedPPM: "Assegura película hidrodinâmica perfeita em rotações de 800 a 1.200 PPM",
+      needleType: "Universal para todas as estações de agulhas e conjuntos mecânicos",
+      stabilizer: "Garante ambiente têxtil 100% livre de respingos e manchas oleosas",
+      threadTension: "A suavidade homogênea em todas as barras impede oscilações de tensão entre cores diferentes"
+    },
+    advantages: [
+      "✔ Cada agulha recebe a mesma quantidade matemática de óleo, da agulha 1 à agulha 15",
+      "✔ Sistema anti-gotejamento absoluto: nunca escorre óleo com a máquina desligada no final de semana",
+      "✔ Latão maciço niquelado imune à corrosão e que suporta décadas de ciclos de pressão",
+      "✔ Manutenção simples por desobstrução rápida com ar comprimido ou substituição individual"
+    ],
+    limitations: [
+      "Por ter um micro-orifício capilar menor que a ponta de um alfinete, pode entupir se o óleo estiver contaminado com fiapos.",
+      "Se a mola interna travar aberta por sujeira, o óleo da mangueira pode escorrer lentamente pela bucha."
+    ],
+    commonErrors: [
+      "❌ Injetar óleo lubrificante sujo ou reciclado na bomba central, entupindo instantaneamente os furos capilares.",
+      "❌ Enfiar agulhas grossas de costura dentro do orifício da válvula para desentupir, destruindo o calibre micrométrico.",
+      "❌ Apertar a rosca da válvula com força bruta no bloco de alumínio, quebrando a rosca M6 do cabeçote.",
+      "❌ Retirar a válvula dosadora e ligar a mangueira direto no cabeçote, causando um vazamento incontrolável de óleo."
+    ],
+    troubleshootingTips: [
+      "Uma agulha específica (ex: agulha 9) esquenta muito e range após uma hora de bordado, enquanto as outras continuam frias: A válvula dosadora daquela estação está entupida com pó de entretela; desmonte a válvula, faça uma limpeza por imersão em álcool isopropílico ou use spray desengraxante limpa-contato e sopre com ar comprimido.",
+      "Ao deixar a máquina desligada durante a noite, amanhece uma mancha de óleo no feltro do calcador da agulha 3: A esfera de retenção interna da válvula da agulha 3 está com um fiapo impedindo o fechamento hermético; limpe a sede da esfera ou substitua a válvula dosadora.",
+      "O óleo sobe nas mangueiras transparentes, mas nenhuma agulha recebe óleo: O óleo utilizado no reservatório é muito viscoso (pesado); drene o copo da bomba e abasteça exclusivamente com óleo mineral branco fino de grau têxtil (ISO VG 10 ou VG 15)."
+    ],
+    dicaArtrelados: "O 'Teste do Papel Absorvente das Agulhas da Artrelados': Quer conferir se todas as 15 válvulas dosadoras do seu cabeçote estão descarregando com a mesma perfeição? Com a máquina desligada, coloque uma tira comprida de papel toalha branco dobrada bem embaixo de todas as barras de agulha. Dê uma única puxada na alavanca da bomba de lubrificação centralizada e aguarde 2 minutos. Ao retirar o papel, você deverá ver 15 pontinhos redondos de óleo com exatamente o mesmo tamanho de uma moeda de dez centavos! Se algum ponto estiver enorme e encharcado ou se algum estiver seco, você acabou de identificar a válvula que precisa de carinho!",
+    voceSabia: "O diâmetro do micro-orifício capilar dessa válvula dosadora (cerca de 0,2 mm) é tão fino quanto a espessura de dois fios de cabelo humano juntos! É por essa precisão extrema que ela consegue dosar 0,03 mililitros — o equivalente a menos de uma gota comum de água!",
+    practicalExercise: "Localização e Inspeção das Válvulas Dosadoras: Abra a tampa protetora lateral do cabeçote da sua máquina de bordar (ou olhe por trás da carcaça frontal com uma lanterna). Encontre as mangueirinhas transparentes e observe onde cada uma se conecta nos blocos de latão sextavados de onde sai o óleo para as barras. Veja como cada agulha possui a sua própria válvula independente!",
+    quickSummary: "Microválvula em latão que divide o fluxo de óleo mineral da bomba centralizada em microdoses idênticas de 0,02 a 0,05 ml para cada barra de agulha e veda o circuito para evitar gotejamentos no tecido.",
+    relatedTerms: [
+      "Bomba de Lubrificação Centralizada / Pistão Manual de Óleo e Circuito Distribuidor do Cabeçote",
+      "Óleo Mineral Branco USP vs. Óleos Sintéticos de Alta Viscosidade",
+      "Barra de Agulha e Parafuso de Fixação (Needle Bar & Needle Clamp)",
+      "Carcaça Frontal Deslizante de Agulhas / Bloco Seletor de Cores do Cabeçote",
+      "Pavio de Feltro da Laçadeira / Filtro de Lubrificação Capilar do Gancho Rotativo",
+      "Alavanca Estica-Fio / Conjunto Estica-Fio do Cabeçote (Take-Up Lever)"
+    ],
+    tags: [
+      "v-104",
+      "valvula-dosadora",
+      "restritor-capilar",
+      "oil-metering-valve",
+      "lubrificacao-centralizada",
+      "oleo-mineral",
+      "anti-gotejamento",
+      "manutencao-preventiva",
+      "mecanica",
+      "artrelados"
+    ],
+    sourceReference: "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    bibliographicReferences: [
+      "SHOWA CORPORATION. Lubrication Engineering & Volumetric Flow Restrictors Manual. Tokyo: Showa, 2022.",
+      "LUBE CORPORATION. Centralized Lubrication Units and Metering Valves for Precision Machinery. Nagoya, 2021.",
+      "TAJIMA GROUP. Multi-Needle Head Lubrication Circuits, Check Valves and Maintenance Specs. Nagoya: Tajima, 2023.",
+      "ARTRELADOS. A Medida Exata da Gota: Segredos das Válvulas Dosadoras do Cabeçote e a Proteção das Roupas Claras. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-07"
   }
 ];

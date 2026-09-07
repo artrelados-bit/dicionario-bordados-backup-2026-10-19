@@ -1995,6 +1995,110 @@ export const VERBETES_LETTER_S11: Verbete[] = [
       "ARTRELADOS. O Pulo da Linha: Segredos do Solenoide de Abertura de Tensão e o Fim do Desfie no Início do Bordado. Curitiba, 2024."
     ],
     updatedAt: "2026-09-07"
+  },
+  {
+    id: "s-112-solenoide-salto-desengate-barra-agulha",
+    code: "S-112",
+    term: "Solenoide de Salto e Desengate da Barra de Agulha / Atuador Eletromagnético de Pulo do Cabeçote (Jump Stitch Solenoid & Needle Bar Disengagement Actuator)",
+    pronunciation: "so-le-nój-di de sál-tu i de-zẽyn-gá-ti da bár-ra de a-gú-lha / a-tu-a-dór e-le-tru-mag-nê-ti-ku de pú-lu du ka-be-só-ti (djãmp stitch só-le-noid end ní-dl bar dis-en-gêidj-ment ǽk-chu-êi-ter)",
+    letter: "S",
+    level: "Intermediário 🟡",
+    category: "Mecânica & Manutenção",
+    grammarClass: "Locução substantiva masculina.",
+    origin: "Desenvolvido no Japão pela Tajima e Barudan no final da década de 1970 durante a transição do bordado mecânico por cartões Jacquard perfurados para as primeiras controladoras digitais com microprocessadores. No bordado clássico, qualquer deslocamento do bastidor entre elementos afastados exigia paradas mecânicas lentas ou perfurações contínuas de pontos frouxos. A invenção de um solenoide eletromagnético linear ultrarrápido capaz de desacoplar o martelo da barra de agulha em menos de 20 milissegundos permitiu que o eixo principal da máquina girasse no vazio a até 1.000 rotações por minuto enquanto o pantógrafo realizava saltos extensos sem descer a agulha e sem perfurar o tecido.",
+    summary: "Atuador eletromagnético de alta velocidade montado no cabeçote que desacopla mecanicamente a barra de agulha do pino de arraste durante pontos de salto, permitindo o deslocamento do bastidor sem perfurar o tecido.",
+    definition: "O Solenoide de Salto e Desengate da Barra de Agulha (tecnicamente denominado Jump Stitch Solenoid, Needle Bar Disengagement Actuator, Eletroímã de Pulo do Cabeçote, Atuador de Salto de Ponto ou Solenoide de Desacoplamento da Agulha Ativa) é o transdutor eletromecânico linear de resposta ultrarrápida instalado na parte superior posterior de cada cabeçote de bordado industrial. Sua função é receber pulsos de corrente contínua (24 VCC a 36 VCC) emitidos pela placa controladora do cabeçote (Head Driver Board) toda vez que a matriz lê códigos binários de salto (Jump Command) ou comandos de deslocamento sem costura. Ao ser energizado por um intervalo transitório de 20 a 50 milissegundos, o êmbolo do solenoide é atraído magneticamente e bascula a alavanca de bloqueio de salto (Jump Lever / Interlock Pawl). Essa manobra afasta temporariamente a garra do bloco condutor móvel do pino de arraste oscilante da biela principal: o virabrequim da máquina completa um ou mais giros de 360° em falso enquanto a barra de agulha permanece estática, ancorada no Ponto Morto Superior (PMS) pela trava superior. Simultaneamente, os servomotores dos eixos X e Y aceleram o pantógrafo e o bastidor em direção às novas coordenadas do desenho. Ao cessar o comando de salto, o solenoide desenergiza, a mola de retorno recoloca a alavanca na posição de engate e a agulha recomeça a costurar instantaneamente no local programado.",
+    technicalDetails: "Solenoide linear de tração eletromagnética para serviço intermitente classe F com alimentação nominal de 24 VCC (podendo operar com pico transitório de aceleração de 36 VCC). Resistência interna da bobina de 14 Ω a 22 Ω com fio de cobre esmaltado duplo de 155 °C. Força de retenção magnética instantânea de 10 N a 18 N com curso útil de êmbolo de 4 mm a 7 mm. Tempo de atracamento elétrico inferior a 18 ms e tempo de desengate mecânico de 12 ms. Núcleo móvel com tratamento de niquelagem química e batente de borracha de alta densidade para absorção de choques cinéticos e redução de emissão acústica.",
+    construction: [
+      "Carcaça Metálica de Aço Doce com Blindagem Eletromagnética para Evitar Ruídos na Placa Controladora",
+      "Bobina Eletromagnética de Cobre Esmaltado Selada com Resina Epóxi Termoestável",
+      "Êmbolo Móvel em Ferro Magnético Tratado Termicamente contra Remanência Magnética",
+      "Mola Cônica em Aço Inox para Retorno Mecânico Instantâneo da Alavanca de Bloqueio",
+      "Haste de Articulação de Alta Resistência Conectada à Alavanca Basculante de Desengate (Jump Lever)",
+      "Conector Chicote Bipolar de Engate Rápido com Diodo Snubber Interno contra Picos Indutivos Reversos"
+    ],
+    howItWorks: [
+      "1. A controladora da máquina lê um comando de salto (Jump) na matriz digital de bordado.",
+      "2. A placa eletrônica envia um pulso de 24 VCC que energiza a bobina do solenoide de salto.",
+      "3. O êmbolo é puxado com força eletromagnética instantânea, puxando a haste de articulação.",
+      "4. A alavanca de desengate bascula e afasta o bloco condutor da barra de agulha do pino da biela.",
+      "5. O eixo principal gira sem empurrar a barra de agulha, que fica travada no Ponto Morto Superior.",
+      "6. O bastidor é acelerado pelos motores X e Y para o próximo ponto do bordado sem furar o tecido.",
+      "7. O solenoide desliga, a mola reengata a alavanca e a agulha desce no ponto exato do próximo elemento!"
+    ],
+    beginnerExplanation: "O Solenoide de Salto é como o 'pedal de embreagem eletrônico da sua máquina de bordar'! Sabe quando você está dirigindo um carro e pisa na embreagem para o motor acelerar sem o carro andar? O solenoide de salto faz a mesmíssima coisa no cabeçote de bordar! Quando o desenho precisa dar um 'pulo' de um lado para o outro da camisa sem costurar nada no meio do caminho, a máquina não precisa desligar o motor. Ela só manda uma faísca elétrica para esse eletroímã; ele 'puxa a embreagem' lá em cima, solta a agulha e o motor gira no vazio enquanto o bastidor corre para o outro lado sem dar nenhum furo no tecido! Quando o bastidor chega no destino, o eletroímã solta a trava e a agulha volta a costurar na mesma hora. Se essa pecinha quebrar, a agulha desce no susto e fura o tecido no lugar errado!",
+    applications: [
+      "Desacoplamento mecânico instantâneo da barra de agulha durante saltos de bastidor (Jump Stitches)",
+      "Proteção de tecidos nobres contra furos indesejados e pontos falsos em deslocamentos rápidos",
+      "Execução suave de matrizes complexas com múltiplos elementos isolados (letras soltas, brasões e apliques)",
+      "Sincronização entre o giro do motor principal e a aceleração máxima dos motores de passo e servos X/Y",
+      "Prevenção de quebra de agulha causada pelo impacto da agulha descendo enquanto o bastidor ainda se move"
+    ],
+    mainTypes: [
+      "Solenoide de Salto Coletivo de Cabeçote (Bloqueia a descida de qualquer agulha que estiver ativa)",
+      "Solenoide de Salto Individual por Agulha (Presente em cabeçotes industriais de altíssima rotação)",
+      "Sistema de Desengate de Pulo Mecânico por Came Excêntrico (Acionado pelo giro reverso do eixo)",
+      "Solenoide de Salto com Sensor Hall Integrado (Informa à controladora a confirmação física de desengate)"
+    ],
+    recommendedSettings: {
+      speedPPM: "Compatível com sequências contínuas de saltos em alta rotação de até 1.000 PPM",
+      needleType: "Universal para todos os calibres de agulha sem interferência no sistema",
+      stabilizer: "Preserva a integridade de entretelas finas e tecidos delicados sem rasgos no salto",
+      threadTension: "Evita que a linha superior seja puxada em excesso durante as translações do bastidor"
+    },
+    advantages: [
+      "✔ Movimentação ultrarrápida do bastidor sem risco de furar o tecido fora do desenho",
+      "✔ Agulha fica perfeitamente imóvel e segura no Ponto Morto Superior durante todo o pulo",
+      "✔ Resposta mecatrônica em menos de 18 milissegundos sem diminuir a produtividade do ateliê",
+      "✔ Menor desgaste na lançadeira e na faca inferior em matrizes cheias de pequenos saltos"
+    ],
+    limitations: [
+      "Se fiapos e óleo velho empastarem a haste mecânica, o êmbolo pode travar e a máquina não saltar.",
+      "Se o diodo de proteção da bobina queimar, o pico de contra-tensão pode desarmar o driver eletrônico."
+    ],
+    commonErrors: [
+      "❌ Bater com martelo ou chave de fenda na haste do solenoide para tentar 'destravar' com a máquina ligada.",
+      "❌ Deixar pó de entretela e fiapos de linha se acumularem na alavanca basculante de pulo.",
+      "❌ Jogar óleo mineral comum diretamente dentro da carcaça elétrica do solenoide, atraindo poeira condutiva.",
+      "❌ Programar matrizes sem cortes intermediários forçando dezenas de saltos seguidos em velocidade máxima."
+    ],
+    troubleshootingTips: [
+      "A máquina deveria dar um salto, mas a agulha continua descendo e faz uma linha esticada costurada por cima do tecido: O solenoide de salto não atuou; verifique se o conector elétrico bipolar da bobina está solto ou se a haste mecânica está engripada com fiapos acumulados.",
+      "A agulha para de descer e a máquina pula todos os pontos como se estivesse bordando no ar: O êmbolo do solenoide travou recolhido na posição de desengate permanente; desligue a máquina, limpe a haste com álcool isopropílico e verifique se a mola de retorno devolve a alavanca.",
+      "A máquina exibe erro de 'Jump Failure' ou desarma o cabeçote no painel: A resistência interna da bobina está em curto ou aberta; teste com um multímetro na escala de resistência (deve marcar entre 14 Ω e 22 Ω); se marcar zero ou infinito, substitua o solenoide."
+    ],
+    dicaArtrelados: "O 'Diagnóstico do Estalo do Pulo da Artrelados': Você quer ter certeza de que o seu solenoide de salto está saudável e disparando com força total? Pelo painel da sua máquina, escolha o comando de deslocamento manual de bastidor com salto (Jump Step). Coloque a mão suavemente na lateral da carcaça do cabeçote (ou aproxime o ouvido): no exato instante em que o bastidor arranca para o pulo, você DEVE escutar um 'clac' seco e firme do eletroímã atraindo a alavanca lá em cima! Se o bastidor andar sem você ouvir esse estalo vigoroso e a agulha der um soquinho para baixo, o solenoide está cansado ou a alavanca precisa de limpeza imediata!",
+    voceSabia: "O tempo que o solenoide de salto tem para desacoplar a agulha é de apenas 18 milissegundos — o piscar de olhos humano dura cerca de 300 milissegundos! Isso significa que esse eletroímã consegue puxar e soltar a alavanca mecânica mais de 15 vezes no tempo que você leva para piscar uma única vez!",
+    practicalExercise: "Identificando o Solenoide de Salto no Cabeçote: Com a máquina desligada na chave geral, retire a tampa plástica superior ou traseira do cabeçote com a ajuda de uma chave Philips. Encontre a bobina cilíndrica com dois fios elétricos finos que se conecta a uma alavanquinha móvel de aço. Empurre manualmente o êmbolo do solenoide para dentro e observe a lingueta de desengate se afastando do pino da biela. Sinta a mola trazer tudo de volta à posição original!",
+    quickSummary: "Atuador eletromagnético no cabeçote que desacopla a barra de agulha da biela durante pontos de salto, permitindo que o bastidor se desloque velozmente sem perfurar o tecido.",
+    relatedTerms: [
+      "Trava Superior da Barra de Agulha / Lingueta de Retenção do Ponto Morto Superior",
+      "Bloco Condutor da Barra de Agulha / Engate de Arraste da Agulha Ativa",
+      "Pino de Arraste da Barra de Agulha / Pino Condutor da Biela Principal",
+      "Solenoide de Abertura de Tensão / Atuador de Alívio dos Discos Tensores no Corte de Linha",
+      "Ajuste de Salto e Velocidade Máxima (Jump Stitch Timing & Speed Limiter)",
+      "Ponto Morto Superior da Barra de Agulha (Top Dead Center - TDC)"
+    ],
+    tags: [
+      "s-112",
+      "solenoide-de-salto",
+      "jump-solenoid",
+      "desengate-de-agulha",
+      "jump-stitch",
+      "ponto-de-salto",
+      "cabecote",
+      "eletromagnetica",
+      "mecanica",
+      "artrelados"
+    ],
+    sourceReference: "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    bibliographicReferences: [
+      "TAJIMA GROUP. Jump Solenoids, Needle Bar Disengagement Mechanisms & Head Driver Specs. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Jump Mechanism & Needle Bar Interlock Servicing Guide. Ichinomiya, 2022.",
+      "SWF EMBROIDERY. Solenoid Actuator Maintenance & Timing Procedures for Multi-Needle Machines. Incheon, 2023.",
+      "ARTRELADOS. A Embreagem do Cabeçote: Segredos do Solenoide de Salto e Como Eliminar Furos Indesejados no Tecido. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-07"
   }
 ];
 

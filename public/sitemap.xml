@@ -1529,6 +1529,20 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Verbete: [b-112-bomba-lubrificacao-centralizada-pistao-manual] Bomba de Lubrificação Centralizada / Pistão Manual de Óleo e Circuito Distribuidor do Cabeçote (Central Lubrication Pump &amp; Manual Oil Distribution Circuit) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=b-112-bomba-lubrificacao-centralizada-pistao-manual</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [b-113-bandeja-coletora-oleo-residual-drenagem-cabecote] Bandeja Coletora de Óleo Residual e Filtro de Drenagem do Cabeçote / Reservatório de Descarte (Oil Drain Pan &amp; Residual Head Catch Basin) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=b-113-bandeja-coletora-oleo-residual-drenagem-cabecote</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Verbete: [c-001-cabecote-de-bordado] Cabeçote de Bordado -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=c-001-cabecote-de-bordado</loc>
@@ -13758,6 +13772,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Verbete: [s-112-solenoide-salto-desengate-barra-agulha] Solenoide de Salto e Desengate da Barra de Agulha / Atuador Eletromagnético de Pulo do Cabeçote (Jump Stitch Solenoid &amp; Needle Bar Disengagement Actuator) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=s-112-solenoide-salto-desengate-barra-agulha</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Verbete: [tatami-ponto-tatami-fill-stitch] Tatami (Ponto Tatami / Fill Stitch) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=tatami-ponto-tatami-fill-stitch</loc>
@@ -14517,6 +14538,13 @@
   <!-- Verbete: [t-109-trilho-linear-troca-de-cor-guia-carcaca] Trilho Linear de Troca de Cor / Guia de Deslizamento da Carcaça Frontal (Color Change Carriage Guide Rail &amp; Linear Slide Track) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=t-109-trilho-linear-troca-de-cor-guia-carcaca</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [t-110-trava-superior-barra-agulha-lingueta-retencao] Trava Superior da Barra de Agulha / Lingueta de Retenção do Ponto Morto Superior (Needle Bar Upper Latch &amp; Resting Catch Assembly) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=t-110-trava-superior-barra-agulha-lingueta-retencao</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -15952,6 +15980,13 @@
   <!-- Verbete: [v-103-validacao-de-matriz-por-amostra-piloto] Validação de Matriz por Amostra Piloto (Pre-Production Strike-Off &amp; Proofing Sample Protocol) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=v-103-validacao-de-matriz-por-amostra-piloto</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [v-104-valvula-dosadora-oleo-restritor-fluxo-capilar] Válvula Dosadora de Óleo / Restritor de Fluxo Capilar de Lubrificação do Cabeçote (Oil Metering Valve &amp; Capillary Lubrication Restrictor) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=v-104-valvula-dosadora-oleo-restritor-fluxo-capilar</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
