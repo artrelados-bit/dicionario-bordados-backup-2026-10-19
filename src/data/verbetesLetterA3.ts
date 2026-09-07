@@ -930,6 +930,213 @@ export const VERBETES_LETTER_A3: Verbete[] = [
       "ARTRELADOS. O Toque Invisível do Acabamento: Segredos do Thread Wiper, Eliminação de Rebarbas e Alta-Costura. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "a-105-alavanca-de-trava-caixa-de-bobina-trinco-extracao",
+    "code": "A-105",
+    "term": "Alavanca de Trava da Caixa de Bobina / Trinco de Extração e Retenção da Bobina (Bobbin Case Latch Lever & Locking Hasp)",
+    "pronunciation": "a-la-vân-ka de trá-va da kái-sha de bo-bí-na / trín-ko de eks-tra-são e re-ten-são da bo-bí-na (bó-bin kêis látsh lê-ver end ló-king rasp)",
+    "letter": "A",
+    "level": "Intermediário 🟡",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Desenvolvida no final do século XIX nas primeiras caixas de bobina cilíndricas rotativas tipo Singer e padronizada pela indústria mecânica alemã e japonesa (Towa, Koban e Hirose) entre as décadas de 1950 e 1980. Foi projetada para conferir retenção mecânica positiva e extração ergonômica monomanual da carretilha em máquinas de alta rotação sem necessidade de desmontar componentes do cesto.",
+    "summary": "Pequena alavanca de aço estampada articulada na face externa da caixa de bobina que, acionada por mola interna, trava a cápsula no pino central do cesto e prende a carretilha ao ser puxada para extração.",
+    "definition": "A Alavanca de Trava da Caixa de Bobina e Trinco de Extração e Retenção da Bobina (tecnicamente denominada Bobbin Case Latch, Latch Lever, Locking Hasp, Trava Articulada da Bobina ou Trinco da Cápsula) é o componente mecânico basculante de precisão montado na face frontal da Caixa de Bobina (Bobbin Case), conectado a um pino pivô e a uma mola de lâmina ou mola helicoidal interna minúscula. Possui duas funções cinemáticas distintas e indispensáveis na operação da máquina de bordar computadorizada: 1) Função de Travamento e Posicionamento Axial: quando a caixa de bobina é inserida no Cesto da Laçadeira (C-104) e a alavanca é mantida fechada em sua posição de repouso, sua lingueta semicircular interna penetra exatamente no rebaixo anelar usinado do pino central (Center Stud Groove) do cesto. Essa ancoragem impede que a caixa de bobina se desloque para a frente ou seja ejetada axialmente sob a vibração intensa e as forças centrífugas a mais de 1.000 PPM; 2) Função de Pinçamento e Extração Segura: quando o operador puxa a alavanca articulada para fora com os dedos indicador e polegar, uma garra excêntrica interna avança em direção ao centro e morde suavemente a borda da carretilha de linha, travando-a dentro da cápsula. Isso permite retirar a caixa de bobina da máquina virada de boca para baixo sem que a carretilha escape e role pelo chão. Se a mola interna perder a elasticidade, o pino pivô afrouxar ou a lingueta de engate sofrer desgaste abrasivo, a caixa de bobina ganha jogo axial (folga longitudinal superior a 0,2 mm). Esse desalinhamento faz com que a caixa oscile para a frente, provocando batidas violentas da agulha na borda da caixa, laçadas frouxas no avesso do bordado ou quebras recorrentes da linha superior.",
+    "technicalDetails": "Fabricada em lâmina de aço carbono temperado SAE 1070/SK5 com dureza de 48 a 52 HRC e acabamento niquelado brilhante ou cromado antiferrugem. A mola interna de torção ou lâmina elástica exerce força de retenção pré-calibrada entre 1,5 N e 3,0 N (suficiente para garantir o clique audível e evitar folgas sem dificultar a abertura manual). A tolerância dimensional da lingueta de encaixe no pino do cesto é de ± 0,02 mm. O jogo axial da caixa de bobina travada no pino central deve permanecer estritamente entre 0,05 mm e 0,15 mm.",
+    "construction": [
+      "Pá Externa de Pega (Finger Pull Tab): Aba anatômica dobrada com ranhuras antiderrapantes para manuseio com os dedos",
+      "Eixo Pivô Retificado (Hinge Pin): Rebite ou pino de aço cimentado que permite a oscilação suave sem folga lateral",
+      "Lingueta de Encaixe no Pino Central (Center Stud Locking Latch): Gancho usinado que se aloja na ranhura do eixo do cesto",
+      "Garra Excêntrica Interna de Retenção da Carretilha: Saliência que pressiona a bobina contra o fundo da caixa ao abrir",
+      "Micro-Mola de Pressão Interna: Mola de lâmina ou espiral minúscula que mantém a alavanca permanentemente fechada",
+      "Batente de Abertura Máxima: Limitador que restringe a articulação a 90°, evitando sobretensão e deformação da mola"
+    ],
+    "howItWorks": [
+      "1. A operadora puxa a alavanca da caixa de bobina para a posição aberta (90°).",
+      "2. A garra excêntrica interna segura a carretilha de linha, permitindo manusear a caixinha com segurança.",
+      "3. A caixa é empurrada sobre o pino central cilíndrico do Cesto da Laçadeira.",
+      "4. A operadora solta a alavanca: a micro-mola interna força a lingueta a deslizar para a ranhura do pino central.",
+      "5. Ouve-se o característico 'clique' metálico que confirma o travamento mecânico 100% positivo.",
+      "6. Durante o bordado a 1.000 PPM, a lingueta impede que a vibração desloque a caixa de bobina para frente.",
+      "7. Na hora da troca, basta puxar a alavanca novamente: ela destrava o pino e saca a bobina perfeitamente!"
+    ],
+    "beginnerExplanation": "A Alavanca de Trava da Caixa de Bobina é o 'trinquinho da porta' da sua carretilha! Sabe quando você vai fechar a porta de casa e ela faz aquele 'clique' gostoso avisando que trancou com segurança? É exatamente isso o que essa alavanquinha faz! Toda vez que você vai colocar a caixinha de bobina na máquina, você solta a alavanquinha e ela abraça um pininho de metal no fundo da laçadeira com um 'clic!'. Isso garante que a caixinha não vai pular para fora nem tremer enquanto a máquina costura a mil por hora! E tem um segredo genial nela: quando você puxa a alavanquinha para tirar a caixa, ela morde a carretilha por dentro como se fosse uma mãozinha segurando a sua linha, para que a bobina não caia no chão e não saia rolando e desenrolando linha pelo ateliê!",
+    "applications": [
+      "Travamento axial mecânico positivo da caixa de bobina no pino central do cesto da laçadeira",
+      "Prevenção do deslocamento frontal da cápsula sob vibrações harmônicas de alta velocidade (1.000 PPM)",
+      "Pinçamento automático da carretilha de linha durante a extração manual para evitar quedas no chão",
+      "Manutenção da folga longitudinal de 0,1 mm para que o laço de linha superior passe livre pelo cesto",
+      "Facilitação da troca ágil e ergonômica de bobinas em produções seriadas de bordado computadorizado"
+    ],
+    "mainTypes": [
+      "Alavanca Padrão Fechada com Mola de Lâmina (Design clássico Towa / Koban para caixas tamanho L padrão)",
+      "Alavanca com Mola Helicoidal Espiral de Alta Durabilidade (Para regime industrial pesado 24h)",
+      "Alavanca Rebaixada para Cabeçotes Cilíndricos e de Boné (Perfil compacto que não interfere no pantógrafo)",
+      "Alavanca com Trava Reforçada para Caixas Jumbo Tamanho M (Com maior área de contato para carretilhas pesadas)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Suporta operação estável e retenção sem folgas em velocidades de 0 a 1.200 PPM",
+      "needleType": "Compatível com agulhas DBxK5 de qualquer calibre",
+      "stabilizer": "Universal para todas as entretelas",
+      "threadTension": "Folga axial de trabalho da caixa travada deve ser mantida entre 0,05 mm e 0,15 mm"
+    },
+    "advantages": [
+      "✔ Sistema de engate rápido monomanual: permite trocar a bobina em menos de 5 segundos sem ferramentas",
+      "✔ Garra interna anti-queda que elimina o desperdício de carretilhas caindo no chão e desenrolando linha",
+      "✔ 'Clique' audível inconfundível que dá certeza absoluta ao operador de que a máquina está pronta para rodar",
+      "✔ Aço temperado de alta resistência ao impacto que suporta centenas de milhares de ciclos de abertura"
+    ],
+    "limitations": [
+      "Se a mola interna cansar ou quebrar, a alavanca fica mole e a caixa de bobina solta durante o bordado.",
+      "Se o operador soltar a alavanca pela metade sem encaixar no pino, a agulha desce direto na caixa e se quebra."
+    ],
+    "commonErrors": [
+      "❌ Empurrar a caixa de bobina na máquina com a alavanca aberta e não certificar-se de ouvir o 'clique' de fechamento.",
+      "❌ Puxar a alavanca com alicate ou entortá-la com força excessiva achando que a caixa está presa.",
+      "❌ Deixar acumular poeira de entretela e fiapos duros sob a dobradiça da alavanca, impedindo que a mola a feche.",
+      "❌ Usar uma caixa de bobina cuja alavanca perdeu a mola e fica frouxa, arriscando destruir a agulha e a laçadeira."
+    ],
+    "troubleshootingTips": [
+      "A caixa de bobina pula para fora da laçadeira e quebra a agulha assim que a máquina começa a bordar: A lingueta da alavanca não travou na ranhura do pino central ou a micro-mola quebrou; limpe fiapos sob a alavanca, teste a pressão da mola com o dedo e certifique-se de ouvir o 'clique' ao inserir.",
+      "A caixa de bobina fica com um jogo para frente e para trás de quase 1 milímetro: A lingueta da alavanca ou a ranhura do pino central estão desgastadas por atrito prolongado; substitua a caixa de bobina por uma nova (preferencialmente original Towa ou Koban).",
+      "A carretilha de bobina cai no chão toda vez que você puxa a caixa da máquina: A garra excêntrica da alavanca entortou ou quebrou e não está pinçando a borda da bobina ao abrir; substitua a alavanca ou adquira uma caixa de bobina nova."
+    ],
+    "dicaArtrelados": "Faça o 'Teste do Clique e do Puxãozinho da Artrelados' toda vez que trocar a bobina: 1) Empurre a caixinha no pino até ouvir nitidamente o 'CLIC!'; 2) Sem puxar a alavanquinha, dê um leve puxãozinho na caixinha com a ponta dos dedos tentando tirá-la para fora. Se ela não se mexer nada, está 100% segura! Se ela vier na sua mão sem você abrir a alavanca, o trinco não encaixou e você acabou de salvar a sua máquina de uma quebra feia de agulha!",
+    "voceSabia": "A caixa de bobina padrão das máquinas de bordar foi desenhada de tal forma que a gravidade sozinha não consegue mantê-la no lugar, já que o eixo fica na posição horizontal apontando para frente. Se não fosse pela alavanca de trava com sua mola de aço, as máquinas de bordar modernas jamais poderiam usar o sistema tubular de braço livre que permite bordar camisetas prontas, bolsos e bonés!",
+    "practicalExercise": "O Teste de Mordida da Carretilha: Pegue uma caixa de bobina fora da máquina com uma carretilha cheia dentro. Segure a caixa pela alavanquinha aberta (puxada para fora a 90°) e vire a caixa completamente de cabeça para baixo sobre a sua bancada. Observe como a carretilha não cai! Agora feche a alavanca com a caixa virada para baixo: a carretilha escorrega livre na sua mão. Esse é o engenhoso mecanismo de mordida excêntrica funcionando!",
+    "quickSummary": "Alavanca articulada de aço com mola embutida na caixa de bobina que trava a cápsula no pino central do cesto e retém a carretilha ao ser puxada para fora.",
+    "relatedTerms": [
+      "Caixa de Bobina (Bobbin Case)",
+      "Cesto da Laçadeira / Porta-Cápsula da Bobina no Gancho Rotativo",
+      "Laçadeira Rotativa (Rotary Hook)",
+      "Mola de Retenção de Linha da Bobina / Mola Anti-Giro da Caixa de Bobina",
+      "Corpo Giratório da Laçadeira / Carcaça Externa do Gancho Rotativo",
+      "Dedo Posicionador da Laçadeira / Trava de Parada da Caixa de Bobina"
+    ],
+    "tags": [
+      "a-105",
+      "alavanca-de-trava",
+      "caixa-de-bobina",
+      "latch-lever",
+      "bobbin-case",
+      "trinco",
+      "cesto-lacadeira",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TOWA INDUSTRIAL CO., LTD. Bobbin Case Latch Mechanism, Tension Springs & Maintenance Manual. Tokyo: Towa, 2023.",
+      "KOBAN INDUSTRIAL HOOKS. Bobbin Case & Inner Hook Center Stud Latching Specifications. Osaka, 2022.",
+      "TAJIMA GROUP. Operator Maintenance Guide: Bobbin Case Insertion & Rotary Hook Safety. Nagoya: Tajima, 2023.",
+      "ARTRELADOS. O Clique da Segurança: Como Funciona a Alavanca de Trava da Bobina e Como Evitar Acidentes no Ateliê. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "a-106-amortecedor-borracha-barra-agulha-anel-batente",
+    "code": "A-106",
+    "term": "Amortecedor de Borracha da Barra de Agulha / Anel Batente de Impacto do Cabeçote (Needle Bar Rubber Cushion & Stop Ring Buffer)",
+    "pronunciation": "a-mor-te-se-dór de bor-rá-sha da bár-ra de a-gú-lha / a-nél ba-tên-te de im-pák-tu do ka-be-só-te (ní-dl bar rá-ber kú-shan end stóp ring bá-fer)",
+    "letter": "A",
+    "level": "Intermediário 🟡",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Desenvolvido com a introdução das barras de agulha com acionamento excêntrico e trocas automáticas de cor nos anos 1970 pelas fabricantes japonesas Tajima e Barudan. Com o avanço das velocidades operacionais de 400 para 800-1.200 PPM, os impactos de retorno no ponto morto superior causavam ruído excessivo, quebra por fadiga metálica dos blocos condutores e afrouxamento constante dos parafusos de fixação das agulhas, exigindo a introdução de anéis elastoméricos amortecedores resistentes ao óleo de costura.",
+    "summary": "Anel elastomérico resiliente montado na haste de cada barra de agulha que absorve o choque de fim de curso e neutraliza a vibração metálica estridente no retorno superior do cabeçote.",
+    "definition": "O Amortecedor de Borracha da Barra de Agulha e Anel Batente de Impacto do Cabeçote (tecnicamente denominado Needle Bar Rubber Cushion, Needle Bar Buffer Ring, Anel Amortecedor do Condutor da Agulha, Batente Superior de Borracha da Barra ou Coxim de Impacto de Fim de Curso) é o anel elastomérico toroidal ou cilíndrico montado coaxialmente na barra de agulha individual em cada canaleta do cabeçote de bordado. Posicionado estrategicamente entre o Bloco Condutor da Barra de Agulha (Needle Bar Driver / Connecting Stud) e a bucha ou limitador de curso superior da carcaça frontal (Needle Case), o amortecedor desempenha um papel crítico de atenuação viscoelástica. Quando a máquina opera em alta velocidade (de 800 a 1.200 PPM), cada barra de agulha realiza de 13 a 20 ciclos completos de subida e descida por segundo. Ao atingir o Ponto Morto Superior (PMS), a energia cinética acumulada pela haste de aço é bruscamente desacelerada. O amortecedor de borracha absorve e dissipa essa energia de choque mecânico em milissegundos, evitando a colisão direta e seca de metal contra metal, suprimindo harmônicos acústicos estressantes, protegendo as guias retificadas e garantindo que a barra de agulha retorne com suavidade e precisão micrométrica à posição de espera, sem folgas axiais que comprometam o sincronismo com o estica-fio e a laçadeira.",
+    "technicalDetails": "Moldado em elastômero de borracha nitrílica hidrogenada (HNBR) ou poliuretano termoplástico (TPU) de alta densidade com dureza Shore A entre 75 e 85. Essa formulação específica garante resiliência elástica contínua, baixa deformação residual sob compressão repetitiva (Compression Set < 15% após 10 milhões de ciclos) e total imunidade ao inchamento ou degradação química em contato constante com óleo mineral branco lubrificante (ISO VG 10/22). As dimensões padrão para barras de agulha industriais de diâmetro externo de 6,0 mm são: diâmetro interno de 5,8 mm a 5,9 mm (com ajuste sob leve interferência elástica), diâmetro externo de 9,5 mm a 11,0 mm e espessura axial de 2,0 mm a 3,5 mm.",
+    "construction": [
+      "Corpo Toroidal / Cilíndrico em Elastômero de Alto Desempenho (HNBR/TPU)",
+      "Furo Central Calibrado sob Interferência para Encaixe Firme na Barra de Aço",
+      "Faces Paralelas Brunidas para Distribuição Uniforme da Carga de Compressão",
+      "Tratamento Superficial Anti-Aderente para Não Colar na Bucha de Alumínio",
+      "Composto Químico Estabilizado Térmico (Resistência de -20°C a +120°C)",
+      "Tolerância Dimensional Métrica Rigorosa (± 0,05 mm)"
+    ],
+    "howItWorks": [
+      "1. A máquina aciona a barra de agulha selecionada através da biela e do excêntrico principal.",
+      "2. A barra desce para perfurar o tecido e formar a laçada com a laçadeira rotativa.",
+      "3. No curso ascendente, a barra sobe impulsionada em altíssima velocidade rumo ao Ponto Morto Superior.",
+      "4. No milissegundo de desaceleração final, o bloco condutor atinge o Amortecedor de Borracha.",
+      "5. O anel elastomérico sofre deformação viscoelástica elástica controlada, absorvendo 95% do pico de impacto.",
+      "6. O impacto metálico seco é transformado em um suave toque abafado, protegendo parafusos e componentes internos.",
+      "7. A barra é travada no batente superior perfeitamente posicionada para o próximo ponto ou troca de agulha!"
+    ],
+    "beginnerExplanation": "O Amortecedor de Borracha da Barra de Agulha é como o 'tênis de corrida com amortecimento de ar' da agulha da sua máquina! Imagina se você pulasse no chão duro descalço mil vezes por minuto: seu joelho ia doer muito, não é? A barra de agulha faz exatamente isso: ela sobe e desce mais de mil vezes por minuto no metal da máquina. Essa borrachinha pequenininha fica montada na haste de metal para servir de almofada. Toda vez que a agulha sobe correndo, em vez de bater ferro com ferro fazendo aquele barulho seco e horrível de 'tec-tec-tec', ela bate macio nessa borrachinha. Quando essa borrachinha resseca, fica velha ou quebra, a máquina começa a fazer um barulho estranho, os parafusos da agulha começam a cair sozinhos e a máquina treme todinha! É uma peça baratinha, mas que cuida da saúde e do silêncio de todo o seu cabeçote!",
+    "applications": [
+      "Absorção do choque mecânico de retorno no Ponto Morto Superior (PMS) da barra de agulha",
+      "Redução de até 12 dB no nível de ruído metálico do cabeçote em rotação de 1.000 PPM",
+      "Prevenção do afrouxamento espontâneo do parafuso prendedor de agulha causado por vibração de impacto",
+      "Proteção da carcaça e das buchas guia contra microfissuras e desgaste prematuro por martelamento",
+      "Estabilização da altura de repouso da barra de agulha durante as trocas automáticas de cor (Color Change)"
+    ],
+    "mainTypes": [
+      "Anel Amortecedor Simples em Borracha Nitrílica NBR (Padrão universal de reposição econômica)",
+      "Coxim Amortecedor em Poliuretano Translúcido de Alta Durabilidade (Linha industrial Tajima e Barudan)",
+      "Anel Amortecedor com Arruela Metálica de Encosto Vulcanizada (Para máquinas de altíssima rotação acima de 1.200 PPM)",
+      "Batente Duplo Superior e Inferior (Utilizado em cabeçotes especiais de ponto corrente ou chenille)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Amortecimento ideal de 0 a 1.200 PPM de operação contínua",
+      "needleType": "Compatível com todas as barras de agulha padrão 6.0 mm (agulhas DBxK5)",
+      "stabilizer": "Universal para todas as entretelas",
+      "threadTension": "A integridade do anel assegura a altura precisa de penetração da agulha sem folga de retorno"
+    },
+    "advantages": [
+      "✔ Reduz drasticamente o ruído estridente do cabeçote, tornando o ambiente do ateliê muito mais agradável",
+      "✔ Impede que o parafuso da agulha se solte sozinho no meio de um bordado delicado",
+      "✔ Vida útil prolongada de mais de 50 a 100 milhões de pontos quando livre de ressecamento",
+      "✔ Substituição simples e de custo irrisório que evita manutenções corretivas caríssimas no cabeçote"
+    ],
+    "limitations": [
+      "A borracha sofre envelhecimento natural e pode ressecar, rachar ou esfarelar após 3 a 5 anos de uso intenso.",
+      "O uso de solventes abrasivos ou querosene na limpeza do cabeçote pode degradar o elastômero."
+    ],
+    "commonErrors": [
+      "❌ Continuar bordando com a máquina estalando alto após a borrachinha ter esfarelado e caído na bancada.",
+      "❌ Substituir o amortecedor por arruelas duras de plástico ou metal, eliminando a absorção de impacto.",
+      "❌ Usar desengraxantes agressivos à base de acetona que atacam e dissolvem a borracha do amortecedor.",
+      "❌ Montar o anel fora da posição correta na barra de agulha, limitando o curso e quebrando agulha na chapa."
+    ],
+    "troubleshootingTips": [
+      "Uma das agulhas faz um estalo metálico agudo ('téc-téc-téc') muito mais alto que as outras agulhas ao bordar: O amortecedor de borracha daquela barra de agulha ressecou, partiu ou caiu; inspecione visualmente a haste e substitua o anel por um novo de poliuretano.",
+      "O parafuso que prende a agulha vive afrouxando sozinho e a agulha cai no meio do bordado: A falta de amortecimento no topo da barra está transferindo o choque da batida direto para o prendedor de agulha; coloque um amortecedor novo na barra para anular a vibração.",
+      "Encontrou pedacinhos pretos ou amarelados esfarelados em cima da chapa de agulha: São restos do amortecedor de borracha desintegrado pelo tempo e pelo óleo antigo; limpe o cabeçote e instale um conjunto novo de anéis amortecedores em todas as agulhas."
+    ],
+    "dicaArtrelados": "O 'Teste da Unha na Borrachinha da Artrelados': A cada seis meses, faça uma ronda de inspeção no cabeçote da sua máquina! Com a máquina desligada, olhe por trás das barras de agulha e aperte a borrachinha do amortecedor com a ponta da unha. Se a borrachinha estiver macia, flexível e a marca da unha sumir logo em seguida, ela está com saúde perfeita! Se ela estiver dura como plástico, rachada ou soltar farelinho preto no seu dedo, troque-a imediatamente. Manter essas borrachinhas macias é o maior segredo para ter uma máquina macia, silenciosa e que borda parecendo uma seda!",
+    "voceSabia": "Nas grandes fábricas de confecção que rodam 24 horas por dia, a substituição preventiva de todos os amortecedores de borracha das barras de agulha é feita uma vez por ano. Essa manutenção simples reduz as quebras de agulha por vibração em mais de 35% e faz os motores de passo do pantógrafo durarem anos a mais!",
+    "practicalExercise": "Comparação Auditiva de Impacto: Em uma máquina que esteja com os amortecedores em bom estado, selecione a agulha 1 e gire o volante manualmente até ela subir ao topo: sinta o toque emborrachado abafado. Se tiver alguma agulha cujo amortecedor esteja desgastado, repita o movimento e escute a batida seca metálica. Essa diferença sonora é a sua bússola para identificar a hora exata da troca!",
+    "quickSummary": "Anel de borracha montado na barra de agulha que absorve o impacto do retorno no ponto morto superior, eliminando ruídos metálicos e protegendo o cabeçote.",
+    "relatedTerms": [
+      "Barra de Agulha e Parafuso de Fixação (Needle Bar & Needle Clamp)",
+      "Cabo de Agulha / Bloco Fixador de Agulha (Needle Clamp & Set Screw)",
+      "Troca Automática de Cores (Color Change)",
+      "Agulha DBxK5",
+      "Mola de Compressão do Pé Calcador e Amortecedor",
+      "Manutenção de Molas & Hastes dos Calcadores Independentes"
+    ],
+    "tags": [
+      "a-106",
+      "amortecedor-da-barra-de-agulha",
+      "rubber-cushion",
+      "stop-ring-buffer",
+      "anel-batente",
+      "ruido-cabecote",
+      "ponto-morto-superior",
+      "mecanica",
+      "manutencao",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Needle Bar Assembly, Rubber Cushions & Mechanical Vibration Standards. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Embroidery Machine Head Parts Catalog: Needle Bar Driving Studs & Buffers. Ichinomiya, 2022.",
+      "HAPPY JAPAN. Multi-Needle Head Maintenance: Rubber Stopper Replacement & Noise Reduction. Yamagata, 2023.",
+      "ARTRELADOS. O Silêncio da Máquina Perfeita: Como Cuidar dos Amortecedores da Barra de Agulha e Evitar Desgastes. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
   }
 ];
 

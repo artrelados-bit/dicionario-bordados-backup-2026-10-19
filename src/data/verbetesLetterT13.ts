@@ -1564,6 +1564,110 @@ export const VERBETES_LETTER_T13: Verbete[] = [
       "ARTRELADOS. A Nobreza dos Mecanismos de Proteção: Segredos do Sensor do Calcador, Tensão e Segurança no Ateliê. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "t-109-trilho-linear-troca-de-cor-guia-carcaca",
+    "code": "T-109",
+    "term": "Trilho Linear de Troca de Cor / Guia de Deslizamento da Carcaça Frontal (Color Change Carriage Guide Rail & Linear Slide Track)",
+    "pronunciation": "trí-lhu li-ne-ár de tró-ka de kór / gí-a de dez-li-za-mẽyn-tu da kar-ká-sa frõn-tál (ká-lor tchêindj ká-ridj gáid rêil end lí-ni-ar sláid træk)",
+    "letter": "T",
+    "level": "Intermediário 🟡",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Desenvolvido com a introdução das máquinas de bordar industriais automáticas japonesas (Tajima, Barudan e Happy) entre as décadas de 1970 e 1980. O salto tecnológico de cabeçotes monoagulha para blocos multiagulhas (de 6 a 15 agulhas) exigiu a criação de um sistema de trilho linear retificado com tolerâncias micrométricas para suportar o peso e a inércia do bloco seletor móvel, permitindo deslocamentos laterais velozes sem qualquer oscilação na distância crítica entre a agulha e a laçadeira rotativa.",
+    "summary": "Barra de aço temperado retificada montada horizontalmente no cabeçote que serve de pista de alta precisão para o deslizamento lateral da carcaça de agulhas durante a troca de cor.",
+    "definition": "O Trilho Linear de Troca de Cor e Guia de Deslizamento da Carcaça Frontal (tecnicamente denominado Color Change Carriage Guide Rail, Linear Slide Track, Trilho de Deslocamento do Cabeçote, Guia Prismática de Troca de Agulhas ou Eixo Guia da Carcaça Frontal) é o perfil guia usinado e retificado em aço temperado de alta resistência mecânica (ou perfil composto com pistas de rolamento retificadas) fixado horizontalmente na estrutura rígida do cabeçote de bordado industrial. Sua função cinemática primária é atuar como a pista de apoio e sustentação geométrica para os patins deslizantes da Carcaça Frontal de Agulhas (Needle Case Assembly). Durante a troca automática de cores (Color Change), o motor de passo ou servomotor translada todo o conjunto de agulhas e estica-fios sobre esse trilho linear. O Trilho Linear assegura três condições cinemáticas cruciais: paralelismo absoluto entre as canaletas das barras de agulha e a linha de centro da lançadeira; manutenção rigorosa da folga frontal milimétrica (cerca de 0,05 mm a 0,10 mm) entre a agulha ativa e a ponta da laçadeira rotativa independente da agulha selecionada (da agulha 1 à 15); e absorção integral das forças inerciais e das vibrações de impacto geradas pelas penetrações em rotações de 800 a 1.200 PPM, impedindo vibrações harmônicas que causariam perda de registro em contornos finos.",
+    "technicalDetails": "Fabricado em aço-liga para rolamento AISI 52100 (100Cr6) temperado por indução superficial com dureza de 58 a 62 HRC e retificação de precisão centesimal (tolerância de retilinidade inferior a 0,005 mm por metro de comprimento). Planicidade e paralelismo das pistas de contato lapidadas com rugosidade Ra ≤ 0,2 µm. Fixado à estrutura de ferro fundido do cabeçote por parafusos Allen de classe 12.9 com torque de aperto de 4,5 N·m a 5,5 N·m. Equipado com raspadores de feltro nas extremidades dos patins para impedir a penetração de fiapos têxteis e pó de entretela nas pistas.",
+    "construction": [
+      "Perfil Retificado em Aço-Ferramenta Temperado e Estabilizado Termicamente",
+      "Pistas de Deslizamento Prismáticas ou Cilíndricas com Retificação Centesimal",
+      "Furos Rebaixados e Calibrados para Parafusos de Fixação Estrutural de Alta Rigidez",
+      "Batentes Mecânicos Emborrachados de Fim de Curso em Ambas as Extremidades",
+      "Raspadores Protetores de Feltro ou Poliuretano Integrados aos Patins Móveis",
+      "Superfície Protegida com Tratamento de Oxidação Negra ou Cromo Duro Anticorrosão"
+    ],
+    "howItWorks": [
+      "1. O comando de troca de cor é acionado pela matriz e o servomotor gira o fuso ou correia de tração.",
+      "2. A Carcaça Frontal de Agulhas desliza suavemente sobre o Trilho Linear em movimento horizontal retilíneo.",
+      "3. Os patins de baixo atrito absorvem o peso do bloco e guiam o movimento sem folgas laterais.",
+      "4. O sensor de posicionamento óptico confirma a estação da nova agulha e freia o movimento.",
+      "5. A agulha selecionada fica perfeitamente centralizada sob a biela do motor principal.",
+      "6. A máquina reinicia a costura; o Trilho Linear absorve os impactos verticais de até 1.200 PPM.",
+      "7. A rigidez do trilho mantém a ponta da agulha a exatos 0,05 mm da laçadeira em todas as 15 agulhas!"
+    ],
+    "beginnerExplanation": "O Trilho Linear de Troca de Cor é como os 'trilhos de um trem-bala de alta precisão' dentro do cabeçote da sua máquina de bordar! Sabe aquela carcaça bonita com 10, 12 ou 15 agulhas que corre de um lado para o outro quando a máquina troca de linha? Ela não corre solta nem pendurada no ar: ela anda em cima desse trilho de aço super polido e reto como uma régua de engenheiro. Se esse trilho estiver sempre bem limpinho e com uma gotinha de óleo, a troca de cor acontece num piscar de olhos, silenciosa e macia. Mas se o trilho ficar cheio de poeira de entretela ou sem óleo, a carcaça engasga, o motor de troca de cor faz força demais e o painel acusa erro de cor!",
+    "applications": [
+      "Sustentação estrutural e deslizamento retilíneo da carcaça frontal de agulhas em máquinas multiagulhas",
+      "Manutenção constante da distância frontal entre agulha e laçadeira em todas as agulhas do cabeçote",
+      "Eliminação de folgas laterais e vibrações que causariam falhas de contorno em bordados detalhados",
+      "Amortecimento mecânico das forças de impacto transmitidas durante o bordado em alta rotação",
+      "Garantia de trocas automáticas de cores velozes, silenciosas e sem perdas de passo"
+    ],
+    "mainTypes": [
+      "Trilho Guia Prismático com Patins de Esferas Recirculantes (Padrão de alta precisão em máquinas Tajima e Barudan)",
+      "Eixo-Guia Cilíndrico Retificado Duplo com Buchas Lineares de Bronze ou Teflon (Equipa modelos compactos)",
+      "Trilho de Alumínio Anodizado com Fita de Aço Inox Retificada (Leveza para acelerações ultrarrápidas)",
+      "Guia Linear com Amortecimento Magnético Integrado (Tecnologia de ponta para redução de ruído)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Garante estabilidade dinâmica em acelerações e frenagens de 0 a 1.200 PPM",
+      "needleType": "Compatível com todas as agulhas DBxK5 de calibre 65/9 a 110/18",
+      "stabilizer": "Universal para todas as entretelas e bases têxteis",
+      "threadTension": "A ausência de trepidação no trilho assegura tensão de linha perfeitamente homogênea"
+    },
+    "advantages": [
+      "✔ Movimento lateral ultrassuave que poupa o motor de troca de cor e economiza energia",
+      "✔ Alinhamento milimétrico idêntico para todas as agulhas, da cor 1 à cor 15",
+      "✔ Aço temperado de até 62 HRC imune ao desgaste mecânico durante décadas de uso",
+      "✔ Manutenção simples e rápida realizada em minutos no próprio ateliê"
+    ],
+    "limitations": [
+      "Sensível ao acúmulo de poeira de entretela e cola spray, que podem empastar com o óleo e endurecer o movimento.",
+      "Se sofrer impacto mecânico direto (como queda de ferramentas ou batida de bastidor), pode sofrer marcas que travam o patim."
+    ],
+    "commonErrors": [
+      "❌ Aplicar graxa pesada automotiva no trilho linear, criando uma pasta pegajosa com a poeira de linha que trava o cabeçote.",
+      "❌ Deixar o trilho seco sem lubrificação por meses, causando desgaste abrasivo e chiado agudo na troca de cor.",
+      "❌ Bater o bastidor ou ferramentas de ferro contra as pistas polidas do trilho, provocando dentes no metal.",
+      "❌ Usar lixas ou esponjas de aço para limpar o trilho, destruindo a retificação centesimal e a camada temperada."
+    ],
+    "troubleshootingTips": [
+      "A máquina trava no meio da troca de cor com aviso 'Color Change Time Out': O trilho linear está sujo de poeira ou seco; limpe as pistas com pano de microfibra umedecido em óleo mineral fino e comande trocas de cor de ponta a ponta.",
+      "O contorno do bordado fecha perfeitamente nas agulhas centrais, mas fica ligeiramente torto nas pontas (agulha 1 ou 15): O trilho linear está com leve empenamento ou folga nos parafusos de sustentação lateral; verifique o aperto dos parafusos do trilho com chave Allen.",
+      "O cabeçote emite um ruído de rangido ou vibração rouca ao transladar de cor: O feltro raspador do patim está seco e acumulou fiapos; limpe os feltros com pincel e adicione duas gotas de óleo de máquina em cada feltro."
+    ],
+    "dicaArtrelados": "O 'Teste do Deslizamento com a Ponta do Dedo da Artrelados': Com a máquina desligada e liberada a trava mecânica de cor (ou girando o seletor manual com suavidade), empurre a carcaça frontal devagarzinho de um lado para o outro. O movimento sobre o trilho deve parecer um 'patins no gelo' — liso, contínuo e sem nenhum degrau ou ponto duro! Se você sentir que em algum pedaço o trilho fica 'pesado' ou 'áspero', pare imediatamente: ali tem poeira acumulada ou falta de óleo. Limpe bem com um paninho macio, passe duas gotinhas de óleo de máquina e sinta a leveza voltar!",
+    "voceSabia": "Os trilhos lineares de máquinas industriais de bordar utilizam o mesmo princípio e tolerâncias geométricas das máquinas de usinagem CNC aeroespaciais! Uma variação de míseros 0,02 mm na retitude desse trilho já seria suficiente para a agulha bater na borda da chapa e quebrar a 1.000 pontos por minuto!",
+    "practicalExercise": "Inspeção e Limpeza do Trilho Linear: Com a máquina desligada, localize o trilho horizontal de metal brilhante por trás e na base da carcaça frontal de agulhas. Pegue um pano de microfibra limpo embebido com duas gotinhas de óleo mineral e passe suavemente de um lado ao outro por toda a extensão do trilho. Observe a sujeira preta de pó de entretela que sai no pano. Em seguida, acione a troca manual da agulha 1 para a 15 e sinta a diferença no som suave!",
+    "quickSummary": "Barra retificada em aço temperado fixada no cabeçote que serve de guia de alta precisão para o deslocamento horizontal da carcaça de agulhas na troca automática de cor.",
+    "relatedTerms": [
+      "Carcaça Frontal Deslizante de Agulhas / Bloco Seletor de Cores do Cabeçote",
+      "Troca Automática de Cores (Color Change)",
+      "Motor de Troca de Cor (Color Change Motor)",
+      "Bloco Condutor da Barra de Agulha / Engate de Arraste da Agulha Ativa",
+      "Pino de Arraste da Barra de Agulha / Pino Condutor da Biela Principal",
+      "Alavanca Estica-Fio / Conjunto Estica-Fio do Cabeçote (Take-Up Lever)"
+    ],
+    "tags": [
+      "t-109",
+      "trilho-linear",
+      "guia-de-deslizamento",
+      "linear-rail",
+      "color-change-track",
+      "troca-de-cor",
+      "cabecote",
+      "mecanica",
+      "manutencao",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Linear Guide Rails, Carriage Tolerances and Color Change Standards. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Linear Slide Tracks, Lubrication Protocols and Head Carriage Alignment. Ichinomiya, 2022.",
+      "THK CO., LTD. Precision Linear Motion Systems in Textile and Embroidery Machinery. Tokyo: THK, 2021.",
+      "ARTRELADOS. Patins no Gelo do Cabeçote: Como Cuidar do Trilho Linear de Troca de Cor e Eliminar Travamentos. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
   }
 ];
 

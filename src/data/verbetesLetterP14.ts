@@ -1426,8 +1426,529 @@ export const VERBETES_LETTER_P_PART14: Verbete[] = [
       "ARTRELADOS. O Escudo Invisível da Laçadeira: Como o Protetor de Agulha Salva Bordados em Bonés e Tecidos Pesados. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "p-107-pavio-de-feltro-lacadeira-filtro-lubrificacao-capilar",
+    "code": "P-107",
+    "term": "Pavio de Feltro da Laçadeira / Filtro de Lubrificação Capilar do Gancho Rotativo (Rotary Hook Oil Wick & Felt Lubricating Filter)",
+    "pronunciation": "pa-ví-u de fêl-tro da la-sa-dêi-ra / fíl-tro de lu-bri-fi-ka-são ka-pi-lár do gân-sho ro-ta-tí-vo (rôu-ta-ri ruk óil uík end felt lú-bri-kêi-ting fíl-ter)",
+    "letter": "P",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Desenvolvido no Japão nas décadas de 1960 e 1970 pelas indústrias de engenharia de precisão têxtil Koban (Sabun Industrial Co.) e Hirose Hooks. A tecnologia de capilaridade por feltro de lã virgem prensada surgiu para resolver o dilema crítico das laçadeiras rotativas operando em alta velocidade: evitar o engripamento mecânico por atrito seco sem permitir que o óleo lubrificante fosse expelido por força centrífuga sobre o tecido e as linhas do bordado.",
+    "summary": "Pavio cilíndrico ou pastilha porosa de feltro de lã virgem de alta densidade alojado nos microcanais internos da laçadeira, responsável por dosar o óleo mineral por capilaridade e filtrar impurezas para manter a pista lubrificada sem manchar o bordado.",
+    "definition": "O Pavio de Feltro da Laçadeira e Filtro de Lubrificação Capilar do Gancho Rotativo (tecnicamente denominado Rotary Hook Oil Wick, Lubrication Felt Pad, Filtro Capilar de Óleo da Laçadeira ou Pavio Dosador da Pista) é o elemento filtrante e regulador microestruturado confeccionado em fibras densamente entrelaçadas de lã natural ou feltro sintético térmico de alta porosidade, embutido no canal condutor de lubrificante da carcaça externa da laçadeira rotativa (C-105). A cinemática do bordado industrial impõe um desafio tribológico severo: a carcaça da laçadeira gira a velocidades angulares de até 2.400 RPM em contato íntimo com a flange do cesto da bobina (C-104). Se o óleo mineral fosse injetado na forma líquida livre, a aceleração centrífuga extrema projetaria microgotículas de lubrificante para cima, atravessando a abertura da chapa de agulha e manchando irreparavelmente tecidos claros, piquês finos e fios de bordado. O Pavio de Feltro soluciona esse impasse operando como uma esponja capilar de pressão controlada: ele armazena o óleo proveniente do circuito de lubrificação automática ou da aplicação manual diária, conduzindo o fluido exclusivamente por atração molecular capilar através de seus microporos até a superfície de deslizamento da pista. Ele deposita de forma contínua e homogênea um filme hidrodinâmico microscópico de espessura submilimétrica (inferior a 2 micrômetros) na canaleta de corrida. Paralelamente, atua como filtro de barreira mecânica, retendo microfragmentos de fiapos de poliéster, poeira de entretela e partículas metálicas microscópicas geradas pelo atrito, impedindo que esses contaminantes abrasivos penetrem no canal de óleo e bloqueiem a lubrificação do cabeçote.",
+    "technicalDetails": "Composto por feltro de pura lã virgem prensada de densidade calibrada (0,28 a 0,36 g/cm³) segundo a norma industrial japonesa JIS L 3201 ou feltro fenólico sinterizado resistente a altas temperaturas (até 140 °C). Exibe taxa de absorção capilar otimizada para óleos minerais brancos de baixa viscosidade cinemática (graus ISO VG 10 a ISO VG 15). O canal de alojamento possui diâmetro interno típico de 1,5 mm a 2,5 mm com comprimento de 6 mm a 12 mm. Em laçadeiras com sistema de microdosagem ajustável (como Koban KHS12-RYP e Hirose HSH-7.94BTR), o fluxo é regulado por um parafuso com ponta cônica que comprime ou descomprime o feltro, variando a vazão capilar entre 0,02 e 0,08 ml por hora de operação contínua.",
+    "construction": [
+      "Núcleo Poroso de Lã Virgem Prensada: Fibras densas com alta capilaridade que puxam o óleo contra a gravidade e a força centrífuga",
+      "Ponta de Contato Hidrodinâmico: Face chanfrada polida que toca diretamente a pista circular de deslizamento do cesto",
+      "Corpo Cilíndrico Calibrado: Ajuste sob leve interferência no microcanal usinado da carcaça giratória da laçadeira",
+      "Mola Espiral de Pré-Carga (em modelos avançados): Mantém o feltro constantemente pressionado contra a pista mesmo com desgaste",
+      "Parafuso de Calibração de Vazão (Oil Flow Adjusting Screw): Agulha cônica que esmaga milimetricamente o pavio para controlar o gotejamento",
+      "Micro-Câmara de Retenção e Decantação: Espaço interno que acumula pequenas impurezas e fiapos retidos pelo feltro"
+    ],
+    "howItWorks": [
+      "1. O óleo mineral é introduzido no canal de lubrificação central da laçadeira (manualmente ou pela bomba de óleo automática).",
+      "2. O Pavio de Feltro absorve o lubrificante instantaneamente por atração capilar em seus microporos.",
+      "3. Quando a máquina começa a bordar a 1.000 PPM, a carcaça da laçadeira gira em alta velocidade a 2.000 RPM.",
+      "4. A força centrífuga tenta arremessar o óleo para fora, mas a retenção capilar das fibras de feltro segura o excesso de líquido.",
+      "5. O pavio libera apenas uma película molecular ultrafina de óleo sobre a pista de aço onde o cesto desliza.",
+      "6. O cesto desliza com atrito quase zero, gerando o clássico sussurro mecânico suave sem superaquecer.",
+      "7. Zero gotículas de óleo voam para fora, garantindo que o tecido e a linha branca do bordado permaneçam imaculados!"
+    ],
+    "beginnerExplanation": "O Pavio de Feltro da Laçadeira é como a ponta macia de uma canetinha hidrocor inteligente que fica escondida dentro do motorzinho da sua laçadeira! Já reparou que quando você encosta uma canetinha no papel, ela não derrama uma poça de tinta, mas solta apenas a quantidade exata de tinta para desenhar uma linha perfeita? O pavio de feltro faz exatamente a mesma coisa com o óleo! Se você jogasse óleo solto dentro da laçadeira girando a mil por hora, a máquina ia espirrar óleo para todo lado, sujando a camisa branca de cliente ou a toalha de batizado. O feltro de lã bebe o óleo e deixa passar apenas um 'suor' microscópico para o cesto deslizar suave sem esquentar nem fundir o metal. Ele lubrifica tudo com carinho e protege o seu bordado de levar manchas de graxa!",
+    "applications": [
+      "Dosagem capilar de óleo mineral branco na pista circular de deslizamento da laçadeira rotativa",
+      "Prevenção total de respingos e gotículas de óleo que manchariam tecidos claros e linhas superiores",
+      "Proteção térmica contra o travamento mecânico do cesto da bobina por atrito seco a mais de 1.000 PPM",
+      "Filtragem mecânica contínua retendo micro-fiapos de linha e poeira de entretela na entrada do canal de lubrificação",
+      "Amortecimento da pressão hidráulica em máquinas com bomba de óleo automatizada e circuito fechado"
+    ],
+    "mainTypes": [
+      "Pavio Cilíndrico de Lã Natural Pura (Padrão clássico japonês Koban/Hirose de alta durabilidade e pureza capilar)",
+      "Pastilha de Feltro Sintético Termorresistente (Desenvolvida para regime ininterrupto de 24 horas em bordados industriais)",
+      "Pavio com Núcleo Metálico / Mola Interna (Garante que o feltro mantenha a forma geométrica sem desintegrar)",
+      "Pavio com Válvula de Parafuso Excêntrico (Permite ao operador ajustar com chave de fenda mais ou menos óleo na pista)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Garante película de lubrificação estável de 0 a 1.200 PPM de bordado contínuo",
+      "needleType": "Compatível com qualquer calibre de agulha industrial",
+      "stabilizer": "Universal para todas as entretelas",
+      "threadTension": "Ideal para uso com óleo mineral branco especial de alta pureza (viscosidade ISO VG 10 ou VG 15)"
+    },
+    "advantages": [
+      "✔ Elimina o pesadelo de peças brancas ou claras manchadas com respingos escuros de óleo da laçadeira",
+      "✔ Garante que o cesto da laçadeira nunca trabalhe seco, aumentando a vida útil da peça em até 400%",
+      "✔ Filtra e retém fiapos de poliéster e pó abrasivo, prevenindo arranhões na pista circular retificada",
+      "✔ Baixíssimo custo de reposição: uma pecinha minúscula que evita prejuízos de milhares de reais em laçadeiras fundidas"
+    ],
+    "limitations": [
+      "Com os anos de uso e o calor do atrito, o feltro pode carbonizar (ficar preto e duro), perdendo a capacidade de sugar óleo.",
+      "Se for cutucado com agulha ou chave de fenda afiada por engano, o feltro se rompe e o óleo passa descontrolado."
+    ],
+    "commonErrors": [
+      "❌ Puxar ou cutucar o feltro com uma pinça ou agulha achando que é um 'fiapo de linha entupido' dentro da laçadeira.",
+      "❌ Usar óleos grossos, óleos automotivos ou desengripantes tipo WD-40, que entopem os microporos do feltro e o destroem.",
+      "❌ Deixar o feltro secar completamente por semanas sem pingar óleo, fazendo a lã queimar pelo atrito quente do aço.",
+      "❌ Apertar o parafuso de regulagem de óleo até o fundo, esmagando o pavio e bloqueando totalmente a passagem do lubrificante."
+    ],
+    "troubleshootingTips": [
+      "O bordado branco sai com pequenas manchinhas cinzentas ou pontinhos pretos de óleo: O pavio de feltro está encharcado de óleo velho misturado com fuligem de linha, ou o parafuso dosador está muito aberto; retire o excesso com papel absorvente, aperte 1/4 de volta o parafuso de dosagem e passe um pano limpo na pista antes de começar.",
+      "A laçadeira começa a chiar, esquenta e cheira a metal quente: O pavio de feltro ressecou, carbonizou ou foi retirado por engano; pingue 3 gotas de óleo mineral branco diretamente no orifício do feltro e aguarde 2 minutos para que a capilaridade reidrate a lã.",
+      "A máquina trava de repente no meio do bordado e o volante fica duro: O feltro carbonizado não entregou óleo à pista e o cesto sofreu engripamento leve; espere esfriar, aplique óleo fino na fenda da pista e gire o volante manualmente devagar para soltar sem quebrar peças."
+    ],
+    "dicaArtrelados": "Nunca cometa o erro de principiante de tentar 'limpar' o orifício de lubrificação da laçadeira cutucando com uma agulha! Muitas bordadeiras olham lá dentro, veem uma massinha branca ou cinza e pensam: 'Nossa, tem um pedaço de linha entupindo o buraquinho!' — e enfiam a pinça para puxar! Aquilo NÃO é sujeira, é o sagrado Pavio de Feltro que cuida da vida da sua laçadeira! Para limpá-lo, apenas dê um jato de ar comprimido suave ou use a ponta de um pincel macio com uma gotinha de óleo limpo. O feltro vai durar a vida toda da sua máquina!",
+    "voceSabia": "A lã natural de ovelha usada nos pavios de laçadeira tem uma estrutura celular microscópica em escamas que a torna o melhor condutor capilar do planeta! Nenhum feltro sintético criado até hoje conseguiu superar a durabilidade e a capacidade de autorregulação da lã pura, que absorve até 30% do seu próprio peso em óleo mineral sem escorrer uma única gota solta!",
+    "practicalExercise": "O Teste do Papel Toalha da Lubrificação: Com a máquina desligada e a caixinha de bobina retirada, pegue uma tirinha de papel toalha branco bem limpo. Encoste a quina do papel suavemente na pista interna da laçadeira onde fica o pavio de feltro. O papel toalha deve puxar uma manchinha translúcida de óleo claro de cerca de 2 mm a 3 mm de diâmetro: isso prova que o feltro está úmido, ativo e dosando o óleo perfeitamente! Se o papel sair seco, aplique uma gota de óleo; se o papel encharcar com óleo escuro, faça a limpeza da pista!",
+    "quickSummary": "Elemento filtrante cilíndrico de feltro de lã prensada embutido no canal de lubrificação da laçadeira que dosa o óleo por capilaridade e retém impurezas sem respingar no bordado.",
+    "relatedTerms": [
+      "Corpo Giratório da Laçadeira / Carcaça Externa do Gancho Rotativo",
+      "Cesto da Laçadeira / Porta-Cápsula da Bobina no Gancho Rotativo",
+      "Protetor de Agulha da Laçadeira / Placa Defletora de Agulha do Gancho Rotativo",
+      "Laçadeira Rotativa (Rotary Hook)",
+      "Sincronismo da Laçadeira (Hook Timing)",
+      "Eixo Inferior Principal da Máquina de Bordar / Eixo de Transmissão da Laçadeira"
+    ],
+    "tags": [
+      "p-107",
+      "pavio-de-feltro",
+      "feltro-lacadeira",
+      "oil-wick",
+      "lubrificacao-capilar",
+      "filtro-de-oleo",
+      "lacadeira-rotativa",
+      "manutencao-preventiva",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "KOBAN INDUSTRIAL HOOKS. Capillary Lubrication & Oil Wick Replacement Guide in High-Speed Hooks. Osaka: Sabun Industrial Co., 2023.",
+      "HIROSE HOOK MANUFACTURING CO. Technical Manual: Rotary Hook Lubrication Dynamics and Felt Filter Maintenance. Osaka, 2022.",
+      "JAPAN INDUSTRIAL STANDARDS COMMITTEE. JIS L 3201: Pressed Wool Felts for Industrial Use. Tokyo: JSA, 2020.",
+      "ARTRELADOS. O Coração que Não Pode Secar: Segredos do Pavio de Feltro e da Lubrificação Sem Manchas no Bordado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "p-108-palheta-tensora-caixa-de-bobina-mola-lamina-tensao",
+    "code": "P-108",
+    "term": "Palheta Tensora da Caixa de Bobina / Mola de Lâmina de Tensão Inferior (Bobbin Case Tension Leaf Spring & Regulating Screw)",
+    "pronunciation": "pa-lhê-ta ten-só-ra da kái-sha de bo-bí-na / mó-la de lâ-mi-na de ten-são in-fe-ri-ór (bó-bin kêis tên-shan lif spring end rê-guiu-lêi-ting skru)",
+    "letter": "P",
+    "level": "Intermediário 🟡",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Criada nos primórdios da evolução da máquina de costura no século XIX para regular o freio por fricção da linha inferior e refinada com alta precisão fotomecânica no Japão pela Towa Industrial Co. e Koban a partir dos anos 1960. O formato arqueado em lâmina de aço mola ultra-polida com microparafusos de rosca micrométrica tornou-se o padrão internacional indispensável para o controle uniforme de gramas-força em bordados computadorizados de alta velocidade.",
+    "summary": "Lâmina elástica curva de aço mola temperado parafusada na lateral da caixa de bobina que comprime suavemente a linha da carretilha contra o corpo da cápsula, calibrando a tensão milimétrica do fio inferior.",
+    "definition": "A Palheta Tensora da Caixa de Bobina e Mola de Lâmina de Tensão Inferior (tecnicamente denominada Bobbin Tension Leaf Spring, Mola Lamelar da Caixa de Bobina, Mola Plana de Tensão Inferior ou Palheta Freio da Bobina) é a lâmina elástica arqueada de aço-mola de precisão montada na face externa cilíndrica da Caixa de Bobina (Bobbin Case). O conjunto é fixado por dois microparafusos com funções mecânicas distintas: 1) o Parafuso Traseiro Menor de Fixação (Anchor / Pivot Screw), que ancora solidamente a base da palheta à carcaça da caixa; e 2) o Parafuso Frontal Maior de Regulagem de Tensão (Tension Regulating Screw), que atua como fuso de ajuste micrométrico, aumentando ou diminuindo o arqueamento e a pressão de contato da lâmina contra o corpo metálico da caixa. No bordado eletrônico, a formação do ponto 301 de alta definição depende do equilíbrio dinâmico exato entre a linha superior (poliéster ou viscose) e a linha da bobina (poliéster 60 ou filamento contínuo). Ao sair da carretilha, a linha inferior passa pela ranhura da caixa e desliza longitudinalmente por baixo da palheta tensora antes de emergir pelo orifício guia superior. A palheta exerce uma força de fricção contínua e controlada, gerando a resistência nominal exigida para o bordado industrial — rigidamente calibrada entre 18 gf e 25 gf (gramas-força), aferida em tensiômetro analógico ou digital Towa. Essa resistência impede que a inércia da carretilha solte linha em excesso e garante que o nó da laçada fique embutido no meio do tecido, formando a clássica proporção de um terço de linha branca centralizada no avesso das colunas de ponto cheio (satin stitch). Qualquer deformação na curvatura da mola, desgaste por atrito contínuo de linha, resíduo de cera ou fiapo microscópico prensado sob a lâmina anula a pressão mecânica, provocando laçadas frouxas, emaranhamentos em ninho no avesso e arrebentamentos sucessivos no início do bordado.",
+    "technicalDetails": "Estampada a partir de fita de aço-mola de alto carbono temperado e revenido (AISI 1095 ou JIS SK5) com espessura nominal de 0,15 mm a 0,22 mm e dureza elástica entre 50 e 54 HRC. Apresenta curvatura convexa calculada para distribuir a pressão uniformemente sobre a linha e polimento espelhado a diamante (Ra < 0,02 µm) na face inferior de contato para prevenir ranhuras causadas por fios abrasivos. O parafuso de regulagem possui rosca micrométrica M1,4 x 0,25 mm, onde cada 1/8 de volta (45°) altera a tensão em aproximadamente 3 a 5 gf. Faixa de trabalho ideal para máquinas de bordar: 18 a 22 gf para linha 60/2 e 22 a 25 gf para linha 75D/2.",
+    "construction": [
+      "Corpo Arqueado em Aço-Mola (Leaf Spring Body): Lâmina flexível temperada que gera a força de compressão elástica",
+      "Parafuso de Regulagem de Tensão (Maior): Fuso micrométrico central que ajusta a pressão da palheta com chave de fenda de fenda plana",
+      "Parafuso de Fixação e Ancoragem (Menor): Parafuso de retenção traseiro que mantém a palheta alinhada e firme na caixa",
+      "Ranhura de Entrada de Linha (Thread Slit): Guia chanfrada que direciona a linha para o leito central de compressão",
+      "Bico Guia de Saída (Thread Guide Pigtail/Exit Lip): Dobra arredondada que direciona a linha para a chapa sem atrito cortante",
+      "Face Inferior com Polimento Diamantado: Superfície de contato espelhada que não abrasiona nem esfiapa filamentos de poliéster"
+    ],
+    "howItWorks": [
+      "1. A operadora puxa a ponta da linha da bobina através da fenda da caixa de bobina.",
+      "2. A linha escorrega e penetra por baixo da Palheta Tensora até sair pela guia frontal.",
+      "3. A palheta de aço-mola pressiona a linha contra a parede externa da caixa de bobina.",
+      "4. Quando a agulha sobe e o estica-fio traciona o ponto, a palheta oferece uma resistência exata de 20 gramas-força.",
+      "5. A linha da bobina sobe esticada e firme na medida certa, sem travar nem sobrar frouxa.",
+      "6. A laçada da linha superior abraça a linha da bobina e puxa o nó suavemente para o centro do tecido.",
+      "7. O resultado no avesso do bordado é a coluna perfeita: 1/3 de linha de bobina no meio e 1/3 de linha de cor de cada lado!"
+    ],
+    "beginnerExplanation": "A Palheta Tensora da Caixa de Bobina é o 'freio de mão sensível' da sua carretilha de linha! Já tentou andar de bicicleta com a roda solta sem freio nenhum? A bicicleta sai desgovernada, né? Pois se a linha da bobina saísse da caixinha sem freio, a cada ponto a carretilha ia girar solta, cuspir um monte de linha de uma vez e virar um ninho de passarinho embolado no avesso do seu bordado! Essa palhetinha é uma laminazinha de aço super lisinha que fica do lado de fora da caixa de bobina, presa por dois parafusinhos. A linha passa bem debaixo dela. Ela aperta a linha com a força exata de uma carícia firme: segura a linha para ela não sair voando, mas deixa a linha correr macia quando o bordado pede. E aquele parafusinho maior é o botão mágico: se você girar para a direita (sentido horário) aperta o freio; se girar para a esquerda (anti-horário) solta o freio!",
+    "applications": [
+      "Calibração milimétrica da resistência à tração da linha inferior (18 a 25 gramas-força)",
+      "Formação do avesso perfeito do bordado industrial (regra de ouro de 1/3 de branco e 2/3 de cor)",
+      "Eliminação de embolamentos, nós e 'ninhos de pássaro' de linha de bobina no avesso da peça",
+      "Prevenção de pontos brancos vazando para o direito do bordado causados por linha de bobina frouxa",
+      "Controle dinâmico da frenagem de carretilhas plásticas, metálicas ou bobinas pré-bobinadas tipo Magna-Glide"
+    ],
+    "mainTypes": [
+      "Palheta Padrão de Fenda Reta (Padrão universal Towa / Koban para caixas de bobina tamanho L)",
+      "Palheta com Guia Estendida Tipo Rabo de Porco (Pigtail Guide para maior estabilidade em bordados tubulares e de boné)",
+      "Palheta com Revestimento Cerâmico ou Cromo Rígido (Para linhas técnicas abrasivas e alta produção contínua)",
+      "Palheta para Caixas Jumbo M (Com maior largura e espessura reforçada de 0,22 mm para carretilhas grandes)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Garante estabilidade de tensão uniforme de 0 a 1.200 PPM de rotação",
+      "needleType": "Compatível com todas as agulhas industriais de bordado",
+      "stabilizer": "Universal para todas as entretelas e bases de bordado",
+      "threadTension": "Calibragem nominal recomendada no tensiômetro Towa: 18 a 22 gf para malhas e 22 a 25 gf para bonés e sarja"
+    },
+    "advantages": [
+      "✔ Sensibilidade micrométrica: ajustes finos de 1/8 de volta corrigem qualquer problema de ponto no avesso",
+      "✔ Aço elástico temperado (50-54 HRC) que mantém a memória da curvatura sem fadiga por milhões de pontos",
+      "✔ Polimento espelhado que não desfilia nem rompe a linha mesmo em paradas bruscas do trimmer",
+      "✔ Fácil substituição: componente de baixo custo facilmente trocado quando desgastado ou riscado"
+    ],
+    "limitations": [
+      "Um único grão de poeira de entretela ou fiapo microscópico preso sob a palheta é suficiente para zerar a tensão da bobina.",
+      "Se o parafuso de regulagem for apertado com força excessiva, a rosca da caixa de bobina espana irreversivelmente."
+    ],
+    "commonErrors": [
+      "❌ Passar a linha da bobina na caixinha sem encaixar por baixo da palheta tensora, deixando a linha 100% solta.",
+      "❌ Apertar ou soltar o parafuso de regulagem dando várias voltas completas de uma só vez em vez de micro-ajustes de 1/8 de volta.",
+      "❌ Usar chave de fenda de ponta grossa ou torta que escorrega e amassa a palheta ou risca o corpo da caixa.",
+      "❌ Enfiar agulha de costura pontiaguda debaixo da palheta para tentar limpar sujeira, entortando a curvatura elástica de fábrica."
+    ],
+    "troubleshootingTips": [
+      "A linha branca da bobina está aparecendo por cima do bordado nas letras e desenhos: A tensão da bobina está frouxa demais ou a palheta está com fiapo entupido; passe um pedaço de papel cartão ou fio dental sob a palheta para tirar a sujeira e, se necessário, aperte 1/8 de volta no parafuso maior no sentido horário.",
+      "A linha da bobina está arrebentando toda vez que a máquina corta o fio ou inicia o ponto: O parafuso da palheta está apertado em excesso (tensão acima de 30 gf) esmagando a linha; solte 1/8 de volta no sentido anti-horário e teste no tensiômetro Towa.",
+      "A tensão da bobina varia sem parar mesmo sem mexer no parafuso: A face inferior da palheta sofreu desgaste abrasivo e formou uma micro-ranhura ou 'canaleta' invisível a olho nu por onde a linha corre; substitua a palheta tensora por uma nova com os dois microparafusos."
+    ],
+    "dicaArtrelados": "Faça a 'Regra do Cartão de Visitas da Artrelados': se o avesso do seu bordado começar a soltar laços frouxos do nada, não mexa no parafuso antes de fazer este teste! Pegue a quina de um cartão de visitas de papel grosso comum ou um pedaço de fita de seda e passe delicadamente deslizando por baixo da palheta tensora da caixinha. Na maioria das vezes, vai sair um minúsculo 'tufinho' cinzento de penugem de entretela com cera de linha que estava levantando a palheta feito calço de porta! Limpou, a tensão volta a 20 gf perfeita sem precisar girar nem um quarto de volta no parafuso!",
+    "voceSabia": "A Towa inventou nos anos 1980 o famoso Tensiômetro de Caixa de Bobina (Towa Bobbin Tension Gauge), que é o equipamento de cabeceira de todo bordador profissional do mundo! Antes dele, as pessoas testavam a tensão da bobina 'pendurando a caixinha pela linha e dando um tranco com a mão feito ioiô' — um método super impreciso que fazia as produções industriais perderem milhares de peças por desbalanceamento de pontos!",
+    "practicalExercise": "O Teste Visual da Coluna de Cetim no Avesso: Borde um retângulo simples com 10 colunas de ponto cheio (satin stitch) de 4 mm de largura em um retalho com entretela. Vire a peça no avesso e observe: cada coluna deve apresentar uma listra central branca de linha de bobina ocupando exatamente 1/3 da largura total (cerca de 1,3 mm), com 1/3 de linha colorida de cada lado. Se a listra branca tiver mais de metade da coluna, aperte a bobina ou solte a linha de cima; se quase não tiver branco, solte a bobina!",
+    "quickSummary": "Lâmina elástica arqueada de aço temperado na caixa de bobina que comprime a linha inferior com fricção calibrada por microparafuso para assegurar o avesso perfeito do bordado.",
+    "relatedTerms": [
+      "Caixa de Bobina (Bobbin Case)",
+      "Alavanca de Trava da Caixa de Bobina / Trinco de Extração e Retenção da Bobina",
+      "Mola de Retenção de Linha da Bobina / Mola Anti-Giro da Caixa de Bobina",
+      "Towa Bobbin Tension Gauge (Tensiômetro de Bobina)",
+      "Cesto da Laçadeira / Porta-Cápsula da Bobina no Gancho Rotativo",
+      "Pavio de Feltro da Laçadeira / Filtro de Lubrificação Capilar do Gancho Rotativo"
+    ],
+    "tags": [
+      "p-108",
+      "palheta-tensora",
+      "leaf-spring",
+      "mola-de-lamina",
+      "tensao-da-bobina",
+      "towa-gauge",
+      "caixa-de-bobina",
+      "regulagem-ponto",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TOWA INDUSTRIAL CO., LTD. Instruction Manual: Bobbin Tension Leaf Spring Calibration & Digital Tension Gauge. Tokyo: Towa, 2023.",
+      "KOBAN INDUSTRIAL HOOKS. Bobbin Case Maintenance, Tension Leaf Mechanics & Spring Replacement. Osaka, 2022.",
+      "TAJIMA GROUP. Quality Embroidery Standards: Bobbin Thread Tension Balancing and Leaf Spring Cleanliness. Nagoya: Tajima, 2023.",
+      "ARTRELADOS. O Freio de Mão do Bordado: Como Regular a Palheta Tensora da Bobina e Conseguir o Avesso Perfeito. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "p-109-pino-central-cesto-lacadeira-eixo-ancoragem",
+    "code": "P-109",
+    "term": "Pino Central do Cesto da Laçadeira / Eixo de Ancoragem da Caixa de Bobina (Rotary Hook Center Stud & Bobbin Case Spindle)",
+    "pronunciation": "pí-nu sen-trál do sês-tu da la-sa-dêi-ra / êi-shu de an-ko-rá-gem da kái-sha de bo-bí-na (rôu-ta-ri ruk sên-ter stad end bó-bin kêis spín-dl)",
+    "letter": "P",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Desenvolvido com a introdução das laçadeiras rotativas de eixo horizontal por Wheeler & Wilson e Singer na virada do século XIX para o XX, e aperfeiçoado pela metalurgia mecânica de alta precisão japonesa (Hirose Hooks e Koban) entre as décadas de 1960 e 1980. O pino retificado com canal anelar de engate rápido estabeleceu a padronização global para acomodação e retenção positiva de caixas de bobina cilíndricas em máquinas industriais de alta velocidade.",
+    "summary": "Pino cilíndrico de aço retificado de alta dureza projetado no centro do cesto da laçadeira que serve de eixo de sustentação para a caixa de bobina e provê a ranhura de travamento da alavanca.",
+    "definition": "O Pino Central do Cesto da Laçadeira e Eixo de Ancoragem da Caixa de Bobina (tecnicamente denominado Rotary Hook Center Stud, Inner Hook Center Post, Eixo da Bobina do Gancho Rotativo ou Spindle da Caixa de Bobina) é a coluna cilíndrica usinada em balanço que se projeta exatamente a partir do centro geométrico do Cesto da Laçadeira (C-104). Sua função cinemática é atuar como eixo primário de apoio, guia concêntrico e ponto de ancoragem mecânica para o tubo central da Caixa de Bobina (Bobbin Case). Enquanto o Corpo Giratório da Laçadeira (C-105) rotaciona a até 2.400 RPM em torno do cesto estacionário, o Pino Central suporta a carretilha e a cápsula de bobina sob rigorosa tolerância centesimal de concentricidade (desvio radial inferior a 0,015 mm). Na sua extremidade anterior, o pino apresenta uma ranhura anelar rebaixada (Center Stud Locking Groove) usinada em perfil semicircular, projetada especificamente para receber a lingueta da Alavanca de Trava da Caixa de Bobina (A-105). Quando a alavanca se fecha, a lingueta penetra nessa ranhura, travando a caixa no sentido axial com uma folga controlada de apenas 0,05 mm a 0,15 mm. Essa retenção é crítica: ela impede que a caixa oscile para a frente e entre na trajetória de descida da agulha, ao mesmo tempo em que preserva a fresta livre para a passagem suave do laço de linha superior sem atrito cortante. Qualquer impacto mecânico acidental de agulha torta ou desincronizada contra a ponta chanfrada do pino central cria micro-rebarbas ou ranhuras cortantes que desfiam ou partem instantaneamente a linha superior a cada volta da laçadeira.",
+    "technicalDetails": "Usinado a partir de barra de aço-liga cromo-molibdênio ou aço ferramenta cimentado (JIS SCM415 / AISI 4140) com núcleo tenaz e camada superficial endurecida por cementação e têmpera (dureza de 58 a 62 HRC na escala Rockwell C). Diâmetro nominal de 5,98 mm (+0 / -0,008 mm) para caixas de bobina tamanho L padrão e acabamento superficial retificado superacabado com rugosidade Ra ≤ 0,08 µm. O canal anelar de travamento possui profundidade de 0,40 mm a 0,55 mm com bordas arredondadas e polidas para facilitar o deslizamento da trava sem rebarbas.",
+    "construction": [
+      "Corpo Cilíndrico Retificado (Spindle Body): Eixo retificado de extrema precisão sobre o qual o canhão da caixa desliza",
+      "Ranhura Anelar de Travamento (Locking Groove): Canal rebaixado circunferencial onde a lingueta da alavanca encaixa com o clique",
+      "Ponta Chanfrada Guia (Chamfered Nose): Geometria cônica suave que facilita a introdução cega da caixa pelo operador",
+      "Base de Fixação Integrada ao Cesto: Conexão monolítica forjada ou soldada a laser com o fundo côncavo do cesto da laçadeira",
+      "Superfície Cementada Anti-Desgaste: Camada endurecida termicamente que suporta anos de fricção e vibrações sem criar folga",
+      "Canal Central de Lubrificação (em modelos selecionados): Micro-orifício que conduz vestígios de óleo por capilaridade do feltro"
+    ],
+    "howItWorks": [
+      "1. A operadora empurra a caixa de bobina apontando seu tubo central sobre o Pino Central do cesto.",
+      "2. A ponta chanfrada do pino alinha automaticamente a caixa no centro exato da laçadeira.",
+      "3. Ao chegar ao batente de fundo, a lingueta da alavanca de trava alinha-se com a ranhura anelar do pino.",
+      "4. A mola da alavanca empurra a lingueta para dentro da ranhura, emitindo o 'clic!' mecânico de segurança.",
+      "5. O pino central mantém a caixa perfeitamente centralizada a uma distância micrométrica da descida da agulha.",
+      "6. A laçadeira gira em alta velocidade em volta do cesto e a linha superior passa contornando a caixa sem encavalar no pino.",
+      "7. Durante horas de bordado contínuo a 1.000 PPM, o pino suporta todas as vibrações mecânicas sem oscilação radial."
+    ],
+    "beginnerExplanation": "O Pino Central do Cesto da Laçadeira é o 'poste guia' onde a sua caixinha de bobina se encaixa para não ficar solta! Imagine um poste de carrossel de parque infantil bem retinho e firme, onde você encaixa a cadeirinha. Quando você coloca a caixa de bobina na máquina, ela tem um tubinho no meio que desliza direitinho por cima desse poste de metal prateado. Na pontinha do pino tem uma valetinha esculpida no aço: quando você solta a alavanquinha da caixa de bobina, ela entra nessa valetinha com aquele barulhinho delicioso de 'clic!' e fica trancada. É esse pino que não deixa a caixa de bobina balançar para frente nem bater na agulha enquanto a máquina borda a mil por hora! E ele é tão polido e lisinho que parece um espelho para que a linha deslize por ele sem enroscar!",
+    "applications": [
+      "Sustentação axial e posicionamento concêntrico da caixa de bobina no cesto da laçadeira rotativa",
+      "Ancoragem mecânica positiva para a alavanca de trava através de sua ranhura perimetral",
+      "Manutenção da distância de segurança de 0,05 mm a 0,1 mm em relação à trajetória de descida da agulha",
+      "Facilitação da montagem e desmontagem rápida de carretilhas com uma única mão pelo operador",
+      "Amortecimento e dispersão de vibrações causadas pela inércia de rotação da carretilha em alta velocidade"
+    ],
+    "mainTypes": [
+      "Pino Central Padrão Tamanho L (Diâmetro 5,98 mm para laçadeiras industriais padrão Tajima, Barudan e Brother)",
+      "Pino Central Jumbo Tamanho M (Diâmetro reforçado e comprimento estendido para máquinas com caixas grandes)",
+      "Pino com Canal de Lubrificação Interno (Com microfuro capilar ligado ao feltro de óleo da laçadeira)",
+      "Pino com Revestimento de Nitreto de Titânio Dourado (TiN - para ultra-resistência a arranhões de agulha)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Garante estabilidade concêntrica perfeita de 0 a 1.200 PPM",
+      "needleType": "Projetado com clearance de segurança para agulhas DBxK5 de calibre #65 a #90",
+      "stabilizer": "Universal para todas as entretelas",
+      "threadTension": "Folga axial da caixa travada no pino deve ser rigorosamente entre 0,05 mm e 0,15 mm"
+    },
+    "advantages": [
+      "✔ Alinhamento centesimal perfeito: impede que a caixa de bobina fique torta ou trepide em alta velocidade",
+      "✔ Aço cementado de 58 a 62 HRC que resiste ao atrito diário por milhões de rotações sem criar folga",
+      "✔ Geometria chanfrada que torna a colocação da caixa de bobina intuitiva e rápida até no escuro",
+      "✔ Superfície retificada espelhada que não machuca a linha quando o laço do ponto 301 a envolve"
+    ],
+    "limitations": [
+      "Se a agulha entortar e descer direto na ponta do pino, o aço pode lascar ou criar uma rebarba que parte a linha.",
+      "Não é uma peça avulsa substituível separadamente: se for danificado, é necessário trocar o cesto inteiro ou a laçadeira."
+    ],
+    "commonErrors": [
+      "❌ Bater a caixa de bobina torta ou com força excessiva contra o pino, amassando a ponta chanfrada.",
+      "❌ Lixar o pino central com lixa grossa para 'tirar ferrugem', diminuindo seu diâmetro e gerando folga na caixa.",
+      "❌ Deixar linha arrebentada enrolada na raiz do pino central, impedindo a caixa de entrar até o final da trava.",
+      "❌ Continuar bordando após quebra violenta de agulha sem passar a unha no pino para checar se ele ganhou rebarba."
+    ],
+    "troubleshootingTips": [
+      "A linha superior desfia ou arrebenta repetidamente exatamente quando o ponto está sendo laçado embaixo: A ponta do pino central foi atingida por uma agulha quebrada e criou uma micro-rebarba cortante; passe uma lixa d'água grão 1.500 ou 2.000 com uma gota de óleo apenas na ponta afiada para polir o arranhão até a unha deslizar lisa sem travar.",
+      "A caixa de bobina não faz o 'clique' e não entra até o fim no pino: Há restos de linha embaraçada ou felpa de entretela compactada no fundo da raiz do pino central ou dentro do canhão da caixa; limpe com uma pinça fina e ar comprimido.",
+      "A caixa de bobina fica oscilando solta para os lados dentro da laçadeira: O pino central ou o tubo da caixa sofreram desgaste por atrito a seco e perderam a tolerância centesimal; faça a substituição da caixa de bobina ou do cesto da laçadeira."
+    ],
+    "dicaArtrelados": "Faça o 'Teste da Meia-Calça da Artrelados' na ponta do pino central! Se a sua máquina começou a arrebentar linha sem motivo aparente logo após uma quebra feia de agulha, desligue a máquina, tire a caixa de bobina e pegue um pedaço de meia-calça de nylon feminina velha ou um fio de linha de poliéster bem fininho. Passe a meia-calça ou a linha esfregando suavemente por toda a superfície e pela ponta do pino central. Se a meia desfiar ou o fio prender numa quina áspera invisível aos olhos, você achou a causa: é uma micro-rebarba de agulha! Um leve polimento com lixa d'água 2.000 resolve na hora sem precisar chamar o técnico!",
+    "voceSabia": "A tolerância dimensional entre o pino central e o furo da caixa de bobina é tão minúscula (menos da metade da espessura de um fio de cabelo humano!) que, se entrar uma única partícula de poeira de entretela de 0,02 mm ali dentro, a caixa de bobina já fica dura para girar e pode causar arrebentamento do ponto!",
+    "practicalExercise": "A Verificação Tátil de Concentricidade: Com a máquina desligada, coloque a caixa de bobina vazia sobre o pino central até ouvir o clique. Segure a caixa de bobina com a ponta dos dedos e tente movimentá-la para cima e para baixo, e depois para frente e para trás. Você deve sentir uma retenção firme e sólida, com uma folguinha axial imperceptível (cerca de 0,1 mm) apenas para não engripar. Se a caixa balançar frouxa mais de 0,5 mm, o pino ou a caixa estão gastos!",
+    "quickSummary": "Eixo cilíndrico de aço temperado e retificado no centro do cesto da laçadeira que acomoda a caixa de bobina com precisão centesimal e ranhura de travamento mecânico.",
+    "relatedTerms": [
+      "Alavanca de Trava da Caixa de Bobina / Trinco de Extração e Retenção da Bobina",
+      "Cesto da Laçadeira / Porta-Cápsula da Bobina no Gancho Rotativo",
+      "Caixa de Bobina (Bobbin Case)",
+      "Corpo Giratório da Laçadeira / Carcaça Externa do Gancho Rotativo",
+      "Palheta Tensora da Caixa de Bobina / Mola de Lâmina de Tensão Inferior",
+      "Laçadeira Rotativa (Rotary Hook)"
+    ],
+    "tags": [
+      "p-109",
+      "pino-central",
+      "center-stud",
+      "spindle",
+      "cesto-lacadeira",
+      "caixa-de-bobina",
+      "alinhamento-mecanico",
+      "manutencao",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "KOBAN INDUSTRIAL HOOKS. Inner Hook Center Stud Specifications, Tolerances & Alignment in Multihead Embroidery. Osaka: Sabun Industrial Co., 2022.",
+      "HIROSE HOOK MANUFACTURING CO. Technical Handbook: Rotary Hook Center Post Geometry and Anti-Wear Treatments. Osaka, 2023.",
+      "TOWA INDUSTRIAL CO., LTD. Bobbin Case Internal Bore & Stud Mating Tolerances. Tokyo: Towa, 2021.",
+      "ARTRELADOS. O Eixo Invisível da Precisão: Segredos do Pino Central da Laçadeira e Como Evitar Quebras Misteriosas de Linha. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "p-110-pino-arraste-barra-agulha-condutor-biela",
+    "code": "P-110",
+    "term": "Pino de Arraste da Barra de Agulha / Pino Condutor da Biela Principal (Needle Bar Driving Stud & Connecting Drive Pin)",
+    "pronunciation": "pí-nu de a-rrás-ti da bár-ra de a-gú-lha / pí-nu kõn-du-tór da bi-é-la prin-si-pál (ní-dl bar drái-ving stád end ko-nék-ting dráiv pin)",
+    "letter": "P",
+    "level": "Intermediário 🟡",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Desenvolvido no Japão nas décadas de 1970 e 1980 pela Tajima e Barudan para viabilizar o acionamento dinâmico em cabeçotes industriais multiagulhas. A necessidade de transferir o torque oscilante do eixo de manivelas do motor principal para cada agulha individual móvel exigiu a criação de um pino de arraste cilíndrico temperado usinado em aço-ferramenta retificado com tolerância centesimal, permitindo engate e desengate suave durante o deslocamento horizontal do cabeçote na troca automática de cores (Color Change).",
+    "summary": "Pino cilíndrico retificado de aço temperado montado na ponta da biela principal que engata na fenda do bloco condutor da agulha selecionada, transmitindo a força de descida e subida do motor principal.",
+    "definition": "O Pino de Arraste da Barra de Agulha e Pino Condutor da Biela Principal (tecnicamente denominado Needle Bar Driving Stud, Connecting Drive Pin, Pino da Biela Oscilante, Pino de Acoplamento do Excêntrico, Rolete Condutor de Arraste ou Pino Macho de Seleção de Agulha) é o componente cilíndrico retificado de alta dureza mecânica fixado na extremidade inferior da biela de acionamento do cabeçote de bordado. Sua função cinemática primária é atuar como o elemento macho de acoplamento que se encaixa com precisão centesimal na fenda fresada do Bloco Condutor da barra de agulha ativa. Em máquinas de bordar industriais multiagulhas, durante o processo de troca automática de cor (Color Change), o bloco de agulhas translada horizontalmente sobre o trilho-guia. O Pino de Arraste permanece alinhado com o eixo excêntrico fixo da máquina, deslizando através do canal transversal contínuo formado pelas fendas de todas as agulhas inativas. Quando a agulha programada atinge a estação de trabalho, o pino fica centralizado no seu respectivo bloco condutor. Conforme o motor principal inicia a rotação (de 800 a 1.200 PPM), o Pino de Arraste transmite integralmente os impulsos verticais de descida para penetração da agulha no tecido e de subida para o recolhimento, suportando forças de impacto repetitivas de mais de 150 kg de empuxo axial sem deformação plástica, ruído de martelamento ou desvio angular.",
+    "technicalDetails": "Fabricado em aço-liga cromo-molibdênio AISI 4140 ou aço-ferramenta cementado e temperado (AISI 8620) com dureza superficial retificada de 58 a 62 HRC e profundidade de camada endurecida de 0,6 mm a 0,8 mm. Rugosidade superficial cilíndrica Ra ≤ 0,15 µm (lapidada ao espelho para minimizar o atrito com o bloco condutor). Diâmetro calibrado sob classe de tolerância g6 ou h6 (diâmetro típico de 4,98 mm a 5,98 mm para fendas de 5,00 mm a 6,00 mm, assegurando folga diametral funcional entre 0,015 mm e 0,028 mm). Lubrificado com graxa sintética complexa de lítio com PTFE (NLGI grau 2) resistente a altas cargas (EP) e rotações contínuas.",
+    "construction": [
+      "Corpo Cilíndrico Maciço em Aço Cromo-Molibdênio Temperado e Cementado (58-62 HRC)",
+      "Superfície Externa Retificada e Lapidada ao Espelho para Baixo Atrito Cinético",
+      "Ponta com Chanfro Suave de Entrada (15° a 30°) para Transição Suave na Troca de Cor",
+      "Base de Fixação Roscada ou sob Interferência Cônica na Ponta da Biela Principal",
+      "Canal Central ou Furo de Alívio para Retenção de Filme de Graxa Lubrificante com PTFE",
+      "Tratamento Superficial Fosfatizado ou Oxidação Negra para Resistência à Corrosão"
+    ],
+    "howItWorks": [
+      "1. A máquina comanda a troca de cor e o motor de passo move lateralmente o cabeçote de agulhas.",
+      "2. O chanfro arredondado do Pino de Arraste guia sua passagem pelas fendas dos blocos condutores.",
+      "3. Ao alcançar a agulha programada, o motor de troca de cor para e o pino fica alojado no centro da fenda.",
+      "4. O motor principal inicia o giro; a biela desce e a face inferior do pino empurra o bloco condutor para baixo.",
+      "5. A barra de agulha perfura o tecido com força total para a laçada com a laçadeira rotativa.",
+      "6. No curso de retorno, a face superior do pino puxa o bloco condutor para cima até o ponto morto superior.",
+      "7. A lubrificação com filme de graxa com PTFE evita o desgaste abrasivo e elimina o barulho metálico!"
+    ],
+    "beginnerExplanation": "O Pino de Arraste da Barra de Agulha é como o 'dedo de ferro da biela que pega no braço da agulha para bordar'! Imagine que a sua máquina tem 12 ou 15 agulhas enfileiradas lado a lado, mas tem apenas um braço de motor girando lá dentro. Esse pino de aço polido fica na ponta desse braço do motor. Quando o cabeçote corre para o lado para trocar de linha, o pino fica quietinho e as agulhas passam por ele como se fossem portas abertas. Assim que a agulha da cor certa para na frente dele, o pino 'entra' dentro do buraquinho do bloquinho daquela agulha. Aí o motor liga, o pino empurra a agulha para baixo e puxa de volta para cima mil vezes por minuto! Se esse pino estiver bem lubrificadinho com graxa branca, a máquina trabalha macia e silenciosa. Mas se faltar graxa e o ferro gastar, ele começa a bater com folga, fazendo um barulho de martelinho que avisa que precisa de manutenção!",
+    "applications": [
+      "Transmissão primária de empuxo axial e tração vertical da biela excêntrica para a barra de agulha",
+      "Acoplamento desmontável instantâneo nas trocas automáticas de cores em cabeçotes multiagulhas",
+      "Absorção de picos de carga de impacto na perfuração de tecidos pesados, estruturados e sintéticos",
+      "Sincronização mecânica rígida da descida da agulha em relação ao giro da laçadeira rotativa",
+      "Preservação da perpendicularidade do movimento vertical sem deflexão torcional da haste"
+    ],
+    "mainTypes": [
+      "Pino de Arraste Cilíndrico Maciço com Ponta Chanfrada (Padrão consagrado Tajima e Barudan)",
+      "Pino de Arraste com Rolete de Agulhas Externo (Equipa máquinas de altíssima rotação acima de 1.200 PPM)",
+      "Pino de Arraste com Bucha de Nylon Autolubrificante (Projetado para redução acústica ultra-silenciosa)",
+      "Pino Condutor com Canaleta de Lubrificação Espiral (Garante retenção de graxa em turnos de 24 horas)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Desempenho estável de 0 a 1.200 PPM de operação contínua sob regime industrial",
+      "needleType": "Compatível com todos os conjuntos de barras padrão 6,0 mm e agulhas DBxK5",
+      "stabilizer": "Universal para todas as entretelas e bases têxteis",
+      "threadTension": "A folga correta do pino assegura ponto uniforme sem vibrações parasitas na tensão da linha"
+    },
+    "advantages": [
+      "✔ Dureza de até 62 HRC que resiste a centenas de milhões de ciclos sem desgaste prematuro",
+      "✔ Transições laterais de troca de cor suaves, sem engasgos ou travamentos no motor de passo",
+      "✔ Capacidade extrema de transmissão de torque sem flexão mesmo em couros e bonés rígidos",
+      "✔ Manutenção simples com graxa sintética especial a cada 200 a 300 horas de produção"
+    ],
+    "limitations": [
+      "A falta crônica de graxa com PTFE provoca desgaste abrasivo e folga de folga metálica entre o pino e o bloco.",
+      "Se o cabeçote sofrer colisão violenta com o bastidor, o pino pode empenar ligeiramente, travando a troca de cor."
+    ],
+    "commonErrors": [
+      "❌ Deixar o pino de arraste trabalhar completamente seco sem graxa, desgastando a fenda do bloco condutor.",
+      "❌ Usar graxa grafitada escura ou graxa automotiva pesada que empasta com a poeira e trava o cabeçote.",
+      "❌ Forçar a troca de cor manual com alavanca quando o pino estiver desalinhado na entrada da fenda.",
+      "❌ Lixar o pino com lixas ásperas após uma batida, removendo a camada cementada e arruinando a precisão."
+    ],
+    "troubleshootingTips": [
+      "A máquina faz um barulho metálico seco de 'martelinho' ('clac-clac-clac') a cada ponto bordado: O pino de arraste ou a fenda do bloco condutor estão desgastados, gerando folga axial superior a 0,1 mm; faça a medição com calibre de lâminas e substitua o pino e o bloco condutor.",
+      "O cabeçote dá erro de troca de cor ('Color Change Timeout / Motor Error') sempre que tenta entrar em uma agulha específica: A ponta chanfrada do pino de arraste criou uma rebarba de impacto ou o bloco daquela agulha está ligeiramente torcido na barra; inspecione a ponta do pino com lupa, faça um polimento leve com lixa 2.000 e alinhe o bloco.",
+      "A máquina esquenta a carcaça frontal e fica pesada para girar o volante manual no topo do curso: O pino de arraste está sem lubrificação e acumulou fiapos de linha queimados na fenda; limpe a área com desengraxante e aplique uma pequena porção de graxa sintética com PTFE."
+    ],
+    "dicaArtrelados": "O 'Segredo da Graxa Invisível da Artrelados': A cada 200 horas de produção (ou uma vez por mês), aplique uma porção minúscula — do tamanho de uma cabecinha de fósforo — de graxa branca sintética especial com Teflon/PTFE direto na fenda do bloco condutor e no pino de arraste com a ponta de um palito de dente de madeira. Nunca encha de graxa até transbordar! O excesso de graxa espirra no tecido branco e atrai fiapo de linha como um ímã. Apenas essa fina película de graxa branca garante trocas de cor que parecem manteiga e elimina qualquer ruído de ferro com ferro no seu ateliê!",
+    "voceSabia": "Durante a troca de cores em uma máquina rápida de 15 agulhas, o pino de arraste percorre até 35 centímetros de deslocamento lateral em menos de meio segundo! A precisão com que ele entra na canaleta da nova agulha é de meros 0,02 mm — uma façanha de sincronismo mecânico e eletrônico entre o sensor de cor e o motor de passo!",
+    "practicalExercise": "Inspeção Visual do Engate do Pino: Com a máquina desligada e sem linha nas agulhas, comande uma troca de cor girando o botão seletor manual ou pelo painel. Observe por trás da barra de agulha o momento exato em que o pino cilíndrico desliza para fora do bloco da agulha atual e se acomoda perfeitamente no centro do bloco da próxima agulha. Sinta com a mão a ausência de atrito ou folga no encaixe!",
+    "quickSummary": "Pino cilíndrico de aço temperado montado na biela principal que engata na fenda do bloco condutor, transmitindo o movimento de vai-e-vem do motor principal para a agulha ativa.",
+    "relatedTerms": [
+      "Bloco Condutor da Barra de Agulha / Engate de Arraste da Agulha Ativa",
+      "Barra de Agulha e Parafuso de Fixação (Needle Bar & Needle Clamp)",
+      "Troca Automática de Cores (Color Change)",
+      "Motor de Troca de Cor (Color Change Motor)",
+      "Amortecedor de Borracha da Barra de Agulha / Anel Batente de Impacto do Cabeçote",
+      "Bucha da Barra de Agulha / Guia de Deslizamento em Bronze Autolubrificante"
+    ],
+    "tags": [
+      "p-110",
+      "pino-de-arraste",
+      "driving-stud",
+      "connecting-pin",
+      "biela-principal",
+      "bloco-condutor",
+      "troca-de-cor",
+      "mecanica",
+      "manutencao",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Needle Bar Driving Studs, Tolerances & Connecting Rod Assembly. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Drive Pin Geometry, Hardness Specifications and Head Maintenance. Ichinomiya, 2022.",
+      "HAPPY JAPAN. Mechanical Engineering Manual: Needle Drive Linkage & Color Change Stud Alignment. Yamagata, 2023.",
+      "ARTRELADOS. O Dedo de Ferro da Biela: Segredos do Pino de Arraste da Agulha e Como Evitar Ruídos de Martelamento. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "p-111-potenciometro-troca-cor-sensor-posicao-agulha",
+    "code": "P-111",
+    "term": "Potenciômetro de Troca de Cor / Sensor Absoluto de Posição da Agulha (Color Change Potentiometer & Needle Position Sensor)",
+    "pronunciation": "po-tẽyn-si-ô-me-tru de tró-ka de kór / sẽyn-sór ab-so-lú-tu de po-zi-sãw da a-gú-lha (ká-lor tchêindj po-tẽyn-shi-ó-me-ter end ní-dl po-zí-shan sén-sor)",
+    "letter": "P",
+    "level": "Intermediário 🟡",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Desenvolvido no Japão nas décadas de 1980 e 1990 pelas fabricantes de bordado Tajima, Barudan e Brother. A substituição das antigas microchaves eletromecânicas (que falhavam com o acúmulo de poeira e fiapos têxteis) por transdutores potenciométricos rotativos de plástico condutivo de alta durabilidade viabilizou a leitura analógica contínua e a precisão centesimal do posicionamento angular do cabeçote durante as trocas automáticas de agulhas.",
+    "summary": "Transdutor rotativo de alta precisão acoplado ao eixo de troca de cor que informa à placa-mãe a posição exata da agulha selecionada, autorizando a costura e prevenindo quebras de agulha.",
+    "definition": "O Potenciômetro de Troca de Cor e Sensor Absoluto de Posição da Agulha (tecnicamente denominado Color Change Potentiometer, Needle Position Sensor, Transdutor Angular de Posição da Cor, Sensor de Parada do Cabeçote, Sensor de Posição da Agulha ou Codificador Potenciométrico de Cor) é o componente eletromecânico rotativo de alta precisão montado na extremidade do eixo came ou fuso helicoidal do sistema de troca de cores de cada cabeçote de bordado industrial. Sua função mecatrônica essencial é traduzir a posição mecânica angular do bloco seletor de agulhas em uma tensão elétrica contínua (sinal analógico proporcional entre 0 V e 5 V) transmitida em tempo real ao circuito conversor analógico-digital (A/D) da placa-mãe (CPU). A memória do sistema armazena uma tabela de calibração na qual cada agulha (da agulha 1 à agulha 15) corresponde a uma janela restrita de voltagem (por exemplo: Agulha 1 = 0,45 V; Agulha 2 = 0,78 V; Agulha 3 = 1,12 V... Agulha 15 = 4,75 V, com tolerância crítica de ±0,02 V). Durante o ciclo de troca automática de linha, o motor de passo gira o eixo até que a leitura do sensor atinja exatamente o valor calibrado da agulha solicitada. Esse sensor funciona como um intertravamento de segurança indispensável: se a tensão lida estiver fora da tolerância (indicando meia-posição ou travamento no trilho), a máquina aborta o disparo do motor principal, aciona o alarme de segurança no painel e impede que a agulha desça desalinhada e colida contra a chapa ou o bastidor.",
+    "technicalDetails": "Potenciômetro de plástico condutivo (Conductive Plastic Element) com rotação contínua sem batente mecânico de 360° (Endless Rotation) e curso elétrico efetivo de 340° a 350°. Resistência nominal típica de 1 kΩ, 2 kΩ ou 5 kΩ com linearidade independente estrita de ±0,5% a ±0,25%. Vida útil mecânica superior a 10 milhões de rotações completas. Tensão de alimentação regulada de +5,0 VCC gerada por fonte estabilizada com ruído residual inferior a 5 mV. Carcaça selada com grau de proteção IP50/IP54 contra impregnação de pó de algodão, fiapos e névoa de óleo lubrificante.",
+    "construction": [
+      "Carcaça Cilíndrica Selada em Alumínio Anodizado ou Polímero Técnico Anti-Estático",
+      "Pista Resistiva Circular em Filme de Plástico Condutivo Homogêneo de Longa Duração",
+      "Eixo de Acionamento em Aço Inox Retificado com Encaixe Chanfrado em D (D-Cut Shaft)",
+      "Cursor de Contato Multifilamentar em Liga de Ouro-Paládio para Sinal sem Ruído Elétrico",
+      "Acoplamento Flexível Elastomérico Anti-Folga com o Eixo Came de Troca de Cor",
+      "Chicote com Conector Selado de 3 Vias (+5Vcc, Saída de Sinal Analógico e Aterramento GND)"
+    ],
+    "howItWorks": [
+      "1. A matriz comanda a troca de cor e o motor de passo gira o eixo came do cabeçote.",
+      "2. O eixo do Potenciômetro de Troca de Cor gira solidário ao fuso, deslocando o cursor interno.",
+      "3. A voltagem na perna de sinal sobe ou desce proporcionalmente ao deslocamento da carcaça frontal.",
+      "4. A placa-mãe compara a voltagem em tempo real com a tabela de calibração gravada na memória.",
+      "5. Ao atingir o valor nominal exato da agulha selecionada (ex: 2,45 V ± 0,02 V), o motor para.",
+      "6. O sistema valida o status de 'Agulha Alinhada' (Needle In Position) e destrava o freio principal.",
+      "7. O motor principal inicia o bordado com a certeza matemática de que a agulha descerá no centro do furo!"
+    ],
+    "beginnerExplanation": "O Potenciômetro de Troca de Cor é como os 'olhos eletrônicos de mira da sua máquina de bordar'! Sabe quando você manda a máquina trocar da agulha 2 para a agulha 8 e o cabeçote corre para o lado? A máquina não pode simplesmente 'chutar' onde a agulha 8 está e descer a barra com tudo; se ela errar meio milímetro, a agulha bate em cheio no ferro da chapa e estoura com um estrondo! Esse sensor pequenininho fica escondido lá atrás do cabeçote conectado no eixo que empurra as agulhas. Ele mede a posição como se fosse um velocímetro elétrico e fala para o computador da máquina: 'Pode parar o motor, a agulha 8 está no centro certinho!'. Quando esse sensor fica sujo de fiapo ou descalibrado, a máquina fica insegura, dá aquele aviso chato de 'Erro de Troca de Cor' no painel e recusa-se a costurar para proteger a sua máquina!",
+    "applications": [
+      "Leitura analógica ou digital da posição física exata da agulha selecionada no cabeçote",
+      "Intertravamento eletrônico de segurança contra descida de barra de agulha desalinhada",
+      "Sincronismo de parada do servomotor ou motor de passo do sistema de troca de cores",
+      "Diagnóstico e calibração automática da tabela de tensões das agulhas pelo menu técnico",
+      "Prevenção absoluta de colisões entre a ponta da agulha e a borda da chapa de agulha"
+    ],
+    "mainTypes": [
+      "Potenciômetro Rotativo Analógico de Plástico Condutivo (Padrão consagrado Tajima, Barudan e Brother)",
+      "Encoder Óptico Absoluto de Troca de Cor (Tecnologia digital sem contato físico e imune ao desgaste)",
+      "Sensor Magnético por Efeito Hall Multipolar (Resistente a ambientes industriais com alta poeira têxtil)",
+      "Potenciômetro com Ajuste de Zero Mecânico Integrado (Facilita a regulagem fina pelo técnico)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Garante leitura confiável em trocas de cor de até 0,3 segundo entre agulhas adjacentes",
+      "needleType": "Universal para todas as estações de agulha de 1 a 15 cores",
+      "stabilizer": "Universal para todos os bordados",
+      "threadTension": "O alinhamento central perfeito assegura que a agulha penetre sem atrito lateral com a chapa"
+    },
+    "advantages": [
+      "✔ Segurança total contra quebras de agulha e danos catastróficos à laçadeira e carcaça",
+      "✔ Alta repetibilidade centesimal que assegura parada suave no milímetro exato",
+      "✔ Calibração simples realizada diretamente pelo painel digital da máquina sem ferramentas pesadas",
+      "✔ Longa vida útil de milhões de ciclos operacionais sem manutenção interna"
+    ],
+    "limitations": [
+      "Com o passar dos anos, o acúmulo de poeira de carvão ou desgaste da pista plástica pode gerar ruído elétrico ('flicker' de voltagem).",
+      "Se o acoplamento mecânico com o eixo afrouxar, o sensor perde o sincronismo angular com a posição real da agulha."
+    ],
+    "commonErrors": [
+      "❌ Espirrar óleo spray ou desengripante (WD-40) dentro do potenciômetro, destruindo a pista de plástico condutivo.",
+      "❌ Mexer no parafuso de fixação do potenciômetro sem entrar no modo de calibração do painel.",
+      "❌ Forçar o cabeçote com a mão quando o motor de troca de cor estiver travado, descalibrando o acoplamento.",
+      "❌ Ignorar avisos repetidos de 'Meia Posição' no painel até a agulha quebrar na borda da chapa."
+    ],
+    "troubleshootingTips": [
+      "A máquina exibe o erro 'Color Change Error' ou 'Needle Half Position' logo após a troca de cor: O potenciômetro está com leve desvio de calibração; acesse a tela de menu de serviço técnico ('Needle Position Calibration'), verifique o valor da voltagem da agulha atual e pressione a tecla de confirmação para salvar o novo centro.",
+      "O valor da voltagem no painel fica oscilando loucamente (ex: pulando de 2,1 V para 3,8 V sem mexer a máquina): O cursor interno do potenciômetro acumulou poeira condutiva ou o cabo de aterramento está frouxo; limpe o conector elétrico ou substitua o potenciômetro desgastado.",
+      "A máquina troca de agulha, mas para sempre 1 milímetro fora do centro do furo da chapa: O acoplamento do eixo do potenciômetro afrouxou; comande a máquina para ir à agulha 1, solte o parafuso Allen do acoplamento, ajuste a voltagem para o valor de fábrica da agulha 1 e aperte o parafuso."
+    ],
+    "dicaArtrelados": "O 'Segredo da Calibração da Agulha 1 da Artrelados': Quando sua máquina começar a 'reclamar' de erro de troca de cor em várias agulhas, não precisa entrar em pânico! Na maioria das vezes, basta recalibrar a agulha de referência número 1. Acesse o menu técnico da máquina na tela de 'Color Change Setup', selecione manualmente a agulha 1 e veja a agulha descer suavemente no furo da chapa. Quando ela estiver no centro perfeitamente, pressione o botão de 'Calibrar Zero / Salvar Agulha 1'. Como o sistema calcula as outras agulhas a partir da primeira, esse simples toque de mágica no painel reorganiza todas as 12 ou 15 agulhas e sua máquina volta a trabalhar lisinha na mesma hora!",
+    "voceSabia": "A precisão da leitura do potenciômetro de troca de cor é tão microscópica que ele consegue distinguir uma rotação de menos de um terço de grau (0,3°)! Isso equivale a perceber um deslocamento da barra de agulha menor do que a espessura de uma folha de papel de seda!",
+    "practicalExercise": "Visualização dos Valores de Voltagem no Painel: No painel touch-screen da sua máquina, acesse o menu de Diagnóstico de Entradas/Saídas (I/O Monitor ou Service Menu). Localize a linha 'Color Change Volts / Potentiometer'. Observe o número mudar conforme você seleciona a agulha 1, a agulha 5 e a agulha 12. Repare na lógica perfeita: cada agulha possui a sua própria 'identidade elétrica'!",
+    "quickSummary": "Sensor rotativo de alta precisão montado no eixo de troca de cor que informa à placa-mãe a posição exata da agulha selecionada, garantindo alinhamento e autorizando o início do bordado.",
+    "relatedTerms": [
+      "Troca Automática de Cores (Color Change)",
+      "Motor de Troca de Cor (Color Change Motor)",
+      "Carcaça Frontal Deslizante de Agulhas / Bloco Seletor de Cores do Cabeçote",
+      "Trilho Linear de Troca de Cor / Guia de Deslizamento da Carcaça Frontal",
+      "Chapa de Agulha",
+      "Encoder do Eixo Principal e Sensor de Posição Angular de Sincronismo"
+    ],
+    "tags": [
+      "p-111",
+      "potenciometro-de-cor",
+      "sensor-posicao-agulha",
+      "color-change-sensor",
+      "potentiometer",
+      "troca-de-cor",
+      "alinhamento-de-agulha",
+      "eletronica",
+      "manutencao",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Color Change Potentiometer Specifications, Calibration & Voltage Tables. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Electronic Head Sensors, Potentiometer Alignment and DSP Setup. Ichinomiya, 2022.",
+      "BROTHER INDUSTRIES. Professional Multi-Needle Technical Service Manual: Sensor Diagnostics. Nagoya, 2023.",
+      "ARTRELADOS. A Mira Perfeita do Cabeçote: Segredos do Potenciômetro de Cor e Como Eliminar Erros de Meia Posição. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
   }
 ];
+
 
 
 

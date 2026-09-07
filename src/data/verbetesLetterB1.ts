@@ -3302,6 +3302,214 @@ export const VERBETES_LETTER_B1: Verbete[] = [
       "ARTRELADOS. A Luz que Transforma o Ateliê: Ergonomia, Tecnologia LED e Cuidados com a Visão no Bordado. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "b-110-bucha-barra-agulha-guia-bronze-sinterizado",
+    "code": "B-110",
+    "term": "Bucha da Barra de Agulha / Guia de Deslizamento em Bronze Autolubrificante (Needle Bar Bushing & Self-Lubricating Sintered Bronze Sleeve)",
+    "pronunciation": "bú-sha da bár-ra de a-gú-lha / gí-a de dez-li-za-mên-tu ẽyn brõn-ze aw-to-lu-bri-fi-kãn-ti (ní-dl bar bú-shing end sélf-lu-bri-kei-ting sín-terd brónz slíiv)",
+    "letter": "B",
+    "level": "Intermediário 🟡",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Do baixo-latim buxula (caixa pequena / cilindro oco) e do alemão Büchse. No setor de maquinário de costura e bordado, foi introduzida no final do século XIX pela Singer e padronizada pela indústria japonesa (Tajima e Barudan) através de mangas em bronze sinterizado poroso impregnado a vácuo com óleo sintético para suportar até 1.200 ciclos verticais alternados por minuto.",
+    "summary": "Tubo-guia cilíndrico retificado de bronze sinterizado montado na carcaça frontal que assegura o alinhamento perpendicular micrométrico e o deslizamento suave da barra de agulha.",
+    "definition": "A Bucha da Barra de Agulha e Guia de Deslizamento em Bronze Autolubrificante (tecnicamente denominada Needle Bar Bushing, Needle Bar Guide Sleeve, Casquilho da Barra de Agulha, Bucha Superior e Inferior do Bloco Frontal ou Mancal Deslizante Sinterizado) é o componente mecânico cilíndrico de altíssima precisão montado por prensagem na carcaça frontal (Needle Case) de cada agulha da máquina de bordar computadorizada. Cada canaleta de agulha possui duas buchas alinhadas coaxialmente: a bucha superior (Upper Bushing) e a bucha inferior (Lower Bushing). Sua função primordial é guiar o deslocamento linear alternado vertical da haste de aço retificada da barra de agulha, limitando a folga radial a tolerâncias microscópicas (entre 0,010 mm e 0,025 mm). Fabricada por metalurgia do pó em bronze sinterizado fosforoso ou bronze com grafite, a bucha possui uma rede de microporos interconectados (porosidade volumétrica de 18% a 25%) impregnada a vácuo com óleo mineral lubrificante ISO VG 10/22. À medida que a barra desliza em altíssima velocidade (800 a 1.200 PPM), o atrito hidrodinâmico aquece microscopicamente o mancal, extraindo o óleo dos poros por capilaridade e criando uma película lubrificante molecular ininterrupta que previne o travamento da barra, impede o desgaste mecânico e garante que a agulha desça com precisão cirúrgica a exatamente 0,05 mm da ponta da laçadeira rotativa.",
+    "technicalDetails": "Diâmetro interno calibrado sob classe de ajuste H7 (tolerância de +0,012 mm / 0,000 mm) para barras de agulha de 6,0 mm (-0,005 mm / -0,015 mm). Comprimento axial típico de 15 mm a 22 mm e rugosidade superficial interna Ra ≤ 0,1 µm. Dureza do bronze entre 60 e 80 HB (Brinell), assegurando desgaste sacrificial controlado para proteger a barra de agulha temperada. Permite vazão capilar contínua de lubrificante sob pressão hidrodinâmica de até 15 MPa·m/s.",
+    "construction": [
+      "Corpo Tubular Monobloco em Bronze Fosforoso Sinterizado (CuSn8P)",
+      "Rede de Microporos Capilares Impregnados com Óleo Lubrificante a Vácuo",
+      "Chanfro de Entrada Arredondado para Inserção Livre da Barra de Agulha",
+      "Superfície Externa Retificada para Encaixe sob Pressão (Interferência m6 na Carcaça)",
+      "Ranhura Circular Externa para Retenção de Anel Trava ou Feltro de Lubrificação",
+      "Acabamento Interno Lapidado por Mandrilamento de Precisão Submicrométrica"
+    ],
+    "howItWorks": [
+      "1. A barra de agulha recebe movimento vertical alternado do condutor conectado à biela excêntrica principal.",
+      "2. A haste desliza através do canal interno das buchas superior e inferior milhares de vezes por minuto.",
+      "3. O atrito inicial aquece os microporos do bronze, liberando uma névoa microscópica de óleo por efeito capilar.",
+      "4. Forma-se uma camada hidrodinâmica fluida entre o aço da barra e o bronze da bucha, eliminando o atrito seco.",
+      "5. A bucha absorve as forças laterais geradas pela penetração da agulha em tecidos pesados (jeans, sarja, bonés).",
+      "6. Ao parar a máquina, o óleo refrigera e retorna por sucção capilar aos microporos da bucha.",
+      "7. A folga radial permanece travada em menos de 0,02 mm, garantindo o sincronismo da laçadeira ponto a ponto!"
+    ],
+    "beginnerExplanation": "A Bucha da Barra de Agulha é como o 'trilho de trem invisível e oleado' que faz a agulha descer sempre no mesmo buraquinho sem titubear! Se você tentar passar uma barra de ferro comprida dentro de um buraco largo, ela vai ficar sambando para os lados, não é? Na máquina de bordar, a agulha passa a uma distância tão fina quanto uma folha de papel da ponta da laçadeira que pega a linha embaixo. Se a agulha balançar meio milímetro para o lado, ela tromba na laçadeira, quebra com um barulhão e estraga a máquina inteira! Essa bucha é um caninho feito de um bronze mágico que parece sólido, mas por dentro é cheio de furinhos microscópicos cheios de óleo. Ela abraça a barra de agulha tão justinha que a agulha só consegue andar para cima e para baixo, reta feito uma flecha!",
+    "applications": [
+      "Manutenção da perpendicularidade absoluta da agulha em relação à chapa de bordado",
+      "Prevenção do contato acidental entre a ponta da agulha e a laçadeira rotativa em alta rotação",
+      "Suporte às forças de deflexão e empuxo lateral ao bordar tecidos grossos e couros",
+      "Amortecimento acústico de vibrações transversais na carcaça de alumínio do cabeçote",
+      "Garantia de laçadas consistentes e ponto cheio com bordas retas e perfeitamente definidas"
+    ],
+    "mainTypes": [
+      "Bucha Cilíndrica Sinterizada em Bronze Autolubrificante (Padrão industrial Tajima, Barudan, Brother e Ricoma)",
+      "Bucha com Rasgo de Canaleta de Óleo e Pavio de Feltro Integrado (Para regimes severos 24 horas)",
+      "Bucha com Flange de Posicionamento Axial (Para travamento mecânico sem risco de deslocamento vertical)",
+      "Bucha em Aço-Ferramenta Temperado e Retificado (Utilizada em máquinas industriais pesadas de calçados)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Deslizamento perfeito em velocidades contínuas de 0 a 1.200 PPM",
+      "needleType": "Projetada para barras de agulhas DBxK5 com diâmetro calibrado de 6,0 mm",
+      "stabilizer": "Universal para todas as entretelas e materiais rígidos",
+      "threadTension": "A ausência de folga radial na bucha garante ponto com tensão estável e contornos afiados"
+    },
+    "advantages": [
+      "✔ Evita quebras catastróficas de agulha contra a ponta afiada da laçadeira rotativa",
+      "✔ Deslizamento ultra-suave com baixíssimo coeficiente de atrito cinético (µ < 0,08)",
+      "✔ Tecnologia autolubrificante que protege o cabeçote mesmo entre os ciclos de lubrificação manual",
+      "✔ Peça de sacrifício calculada: desgasta o bronze macio e preserva intacta a carcaça cara de alumínio"
+    ],
+    "limitations": [
+      "O acúmulo de poeira de entretela e fiapos de linha misturados com óleo seco forma uma pasta abrasiva que desgasta a bucha.",
+      "A substituição de buchas prensadas requer ferramentas extratoras e mandril de calibração específicos de oficina mecânica."
+    ],
+    "commonErrors": [
+      "❌ Ficar meses sem pingar óleo na barra de agulha achando que o bronze sinterizado dispensa totalmente a lubrificação diária.",
+      "❌ Tentar desentortar a barra de agulha martelando-a montada no cabeçote, ovalizando e estourando a bucha de bronze.",
+      "❌ Lavar o cabeçote com solventes agressivos como querosene ou tíner, removendo o óleo original dos microporos do bronze.",
+      "❌ Ignorar o 'jogo' lateral da agulha até ela raspar na chapa de agulha e quebrar ganchos rotativos repetidamente."
+    ],
+    "troubleshootingTips": [
+      "A agulha está quebrando sem motivo aparente e a ponta da laçadeira está arranhada: Segure a ponta da barra de agulha com os dedos e force suavemente para frente e para trás; se sentir um 'jogo' folgado ou estalinho perceptível (folga superior a 0,05 mm), a bucha inferior de bronze está desgastada e deve ser substituída.",
+      "A barra de agulha fica pesada, engasga ou não sobe até o topo após a máquina esquentar: Resíduos de óleo queimado e fiapos de entretela criaram uma crosta escura dentro da bucha; limpe a barra com pano limpo e álcool isopropílico e aplique óleo mineral novo ISO VG 10 de alta pureza.",
+      "O contorno de ponto cheio está saindo torto ou desalinhado em relação ao preenchimento: A deflexão excessiva da barra de agulha dentro da bucha gasta está desviando o ponto sob a tração da linha; troque as buchas da agulha correspondente."
+    ],
+    "dicaArtrelados": "O 'Teste do Relógio da Artrelados': Quer saber com certeza absoluta se as buchas das suas agulhas estão na hora de trocar? Com a máquina desligada e a agulha abaixada perto da chapa, pegue a haste da agulha com a ponta dos dedos indicador e polegar e tente balançar bem de leve para os lados e para frente. Se você sentir a barra rígida e firme como uma rocha, suas buchas estão 100% novas! Mas se você sentir um pequeno 'nheco-nheco' ou folga de lado a lado, a bucha já gastou. Fazer esse teste a cada 6 meses evita que a agulha raspe na laçadeira e salva centenas de reais em peças caras!",
+    "voceSabia": "O bronze sinterizado autolubrificante foi criado na década de 1930 para a indústria aeronáutica porque os aviões precisavam de mancais que continuassem girando suavemente mesmo se a bomba de óleo congelasse nas altitudes frias da estratosfera! Essa mesma tecnologia espacial hoje garante que a sua máquina de bordar dê milhões de pontos por dia sem travar o cabeçote!",
+    "practicalExercise": "Verificação Tátil de Folga Radial: Selecione a agulha número 1 da sua máquina. Desça a barra manualmente até metade do curso. Com a ponta do indicador, empurre suavemente a barra de agulha na direção da laçadeira e solte: sinta a resistência firme do mancal. Repita na agulha mais usada do seu ateliê (geralmente a cor preta ou branca) e compare a firmeza entre as duas!",
+    "quickSummary": "Manga cilíndrica de bronze sinterizado autolubrificante que guia a barra de agulha com tolerância micrométrica, garantindo perpendicularidade e prevenindo quebras contra a laçadeira.",
+    "relatedTerms": [
+      "Barra de Agulha e Parafuso de Fixação (Needle Bar & Needle Clamp)",
+      "Amortecedor de Borracha da Barra de Agulha / Anel Batente de Impacto do Cabeçote",
+      "Oscilação da Haste da Agulha e Folga Radial na Bucha de Bronze",
+      "Laçadeira Rotativa / Gancho Rotativo (Rotary Hook)",
+      "Chapa de Agulha",
+      "Pavio de Feltro da Laçadeira / Filtro de Lubrificação Capilar do Gancho Rotativo"
+    ],
+    "tags": [
+      "b-110",
+      "bucha-da-barra-de-agulha",
+      "needle-bar-bushing",
+      "bronze-sinterizado",
+      "guia-de-deslizamento",
+      "folga-radial",
+      "perpendicularidade",
+      "mecanica",
+      "manutencao",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Needle Bar Bushings, Tolerances and Radial Play Inspection Manual. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Sintered Bronze Bushing Lubrication and Head Maintenance Standards. Ichinomiya, 2022.",
+      "SINGER CORPORATION. Practical Mechanics of Sewing and Embroidery Machine Bushings. New York, 2020.",
+      "ARTRELADOS. A Precisão Oculta do Cabeçote: Segredos das Buchas de Bronze, Fim do Jogo da Agulha e Proteção da Laçadeira. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "b-111-bloco-condutor-barra-agulha-engate-arraste",
+    "code": "B-111",
+    "term": "Bloco Condutor da Barra de Agulha / Engate de Arraste da Agulha Ativa (Needle Bar Driver & Connecting Stud Block)",
+    "pronunciation": "bló-ku kõn-du-tór da bár-ra de a-gú-lha / ẽyn-gá-ti de a-rrás-ti da a-gú-lha a-tí-va (ní-dl bar drái-ver end ko-nék-ting stád blók)",
+    "letter": "B",
+    "level": "Intermediário 🟡",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Desenvolvido no Japão nas décadas de 1970 e 1980 pela Tajima e Barudan para viabilizar as primeiras máquinas de bordar multiagulhas de cabeçote compacto. Em vez de duplicar motores ou bielas para cada agulha (o que tornaria o cabeçote pesado e energeticamente inviável), os engenheiros criaram o sistema de seletor móvel de canaleta, no qual uma única biela principal engata no bloco condutor da agulha selecionada através de um pino de arraste (driving stud), mantendo todas as agulhas inativas suspensas e imóveis no ponto morto superior.",
+    "summary": "Bloco usinado de precisão fixado na barra de agulha que engata no braço mecânico do motor principal durante a troca de cor, transmitindo o movimento vertical de penetração e regulando a altura da agulha.",
+    "definition": "O Bloco Condutor da Barra de Agulha e Engate de Arraste da Agulha Ativa (tecnicamente denominado Needle Bar Driver, Needle Bar Connecting Stud, Driving Block, Bloco de Arraste da Barra de Agulha, Guia do Condutor da Agulha ou Acoplador Excêntrico da Agulha Ativa) é o componente mecânico de precisão confeccionado em liga metálica usinada montado rigidamente na seção intermediária da haste de cada barra de agulha. Sua função cinemática é atuar como a interface mecânica de acoplamento desmontável entre o mecanismo oscilante do motor principal (biela excêntrica) e a barra de agulha individual em operação. Nas máquinas industriais multiagulhas, o bloco frontal desloca-se lateralmente durante a troca de cores (Color Change). Ao posicionar a cor selecionada, o pino de arraste do condutor principal encaixa com folga microscópica na fenda fresada do Bloco Condutor. A partir deste engate, todo o movimento vertical de penetração e recuo (de 800 a 1.200 PPM) é transferido para a barra, empurrando-a contra tecidos pesados, estruturados ou couros. Paralelamente à função dinâmica de arraste, o Bloco Condutor atua como a âncora de calibração estática da altura da agulha: através do afrouxamento e aperto de seu parafuso central de fenda ou Allen (Needle Bar Driver Clamp Screw), o técnico posiciona com precisão de décimos de milímetro os traços de referência da barra de agulha em relação à bucha inferior, determinando a profundidade exata da descida da agulha e a laçada perfeita com a laçadeira rotativa.",
+    "technicalDetails": "Usinado em aço-ferramenta médio carbono (AISI 1045) ou ferro nodular fundido temperado por indução (dureza de 45 a 52 HRC) para suportar forças de impacto repetitivas de penetração sem deformação plástica da fenda de arraste. O canal de engate possui tolerância dimensional micrométrica de +0,020 mm / +0,005 mm para garantir deslizamento lateral suave do pino durante a troca de cores sem folga axial superior a 0,03 mm (que geraria vibração harmônica e ruído). Fixado na barra de agulha de 6,0 mm por parafuso M3 ou M4 classe 10.9 ou 12.9 com torque de aperto calibrado entre 1,8 N·m e 2,4 N·m.",
+    "construction": [
+      "Corpo Prisma Usinado em Aço de Alta Resistência Mecânica Temperado",
+      "Furo Coaxial Calibrado para Encaixe Justo na Barra de Agulha de 6,0 mm",
+      "Rasgo de Engate Fresado e Retificado para Encaixe do Pino da Biela (Driving Stud)",
+      "Parafuso de Travamento e Calibração de Altura de Alta Dureza (Allen ou Fenda M3/M4)",
+      "Rebaixo Lateral de Alívio para Não Interferir com a Mola de Retorno da Barra",
+      "Superfícies Planas Paralelas Polidas para Assentamento do Amortecedor de Borracha"
+    ],
+    "howItWorks": [
+      "1. A máquina executa o comando de troca de cor (Color Change) e o motor de passo desloca a carcaça frontal.",
+      "2. O pino de arraste da biela do motor principal desliza para dentro da fenda do Bloco Condutor da nova agulha.",
+      "3. As demais agulhas do cabeçote ficam desacopladas e seguras no topo pela força de suas molas de retorno.",
+      "4. O motor principal inicia o giro; a biela desce e o pino empurra o Bloco Condutor para baixo com força máxima.",
+      "5. A barra de agulha desce, comprimindo a mola de retorno e perfurando o tecido no ponto milimétrico exato.",
+      "6. No retorno ascendente, o Bloco Condutor sobe até o amortecedor de borracha no Ponto Morto Superior.",
+      "7. Se a agulha encontrar resistência de tecido grosso, o bloco garante que a haste não escorregue nem 0,1 mm!"
+    ],
+    "beginnerExplanation": "O Bloco Condutor da Barra de Agulha é como o 'engate de vagão de trem' da sua máquina de bordar! Pense comigo: a sua máquina tem 10, 12 ou 15 agulhas, mas o motor lá de dentro é um só. Como é que o motor sabe qual agulha ele tem que empurrar e deixa as outras todas quietinhas lá em cima sem mexer? É graças a esse bloquinho de ferro! Cada barra de agulha tem o seu próprio bloquinho preso nela com um parafuso bem apertado. Quando a máquina decide que é a hora de bordar com a linha vermelha, o cabeçote corre para o lado e encaixa o 'braço de ferro' do motor direto no vãozinho do bloquinho daquela agulha! Aí o motor empurra e a agulha fura o pano com toda a força do mundo. E tem outro segredo: é apertando ou soltando o parafuso desse bloquinho que o técnico ajusta se a agulha vai descer mais fundo ou mais rasa para casar certinho com a laçadeira!",
+    "applications": [
+      "Transmissão rígida e instantânea da força de penetração do motor principal para a barra de agulha ativa",
+      "Seleção cinemática individual de agulhas em máquinas industriais multiagulhas de 1 a 24 cabeçotes",
+      "Calibração micrométrica da altura da barra de agulha e profundidade da penetração (Needle Bar Height)",
+      "Interface de assentamento com o amortecedor de borracha e a extremidade superior da mola de retorno",
+      "Garantia de laçadas regulares em tecidos de alta densidade como bonés, coturno, couro e mochilas pesadas"
+    ],
+    "mainTypes": [
+      "Bloco Condutor Monobloco em Aço Temperado com Parafuso Traseiro (Padrão clássico Tajima e Barudan)",
+      "Bloco Condutor Bipartido de Aperto Duplo (Utilizado em máquinas de bordado para tecidos extragrossos)",
+      "Bloco Condutor com Rasgo Aberto em U (Facilita o engate ultrarrápido em trocas de cor de menos de 0,3 s)",
+      "Conjunto Condutor com Guia Antigiro Incorporada (Evita que a barra de agulha gire sobre o próprio eixo)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Suporta cargas dinâmicas de aceleração e desaceleração de 0 a 1.200 PPM",
+      "needleType": "Compatível com barras de 6,0 mm e agulhas DBxK5 de calibre 65/9 a 110/18",
+      "stabilizer": "Universal para todas as entretelas e bases rígidas",
+      "threadTension": "A fixação correta do bloco assegura laçada estável sem falhas de ponto por altura errada de agulha"
+    },
+    "advantages": [
+      "✔ Transfere 100% da força do motor sem deformação ou perda de potência na penetração",
+      "✔ Permite regulagem milimétrica e independente da altura de cada agulha do cabeçote",
+      "✔ Geometria polida que garante trocas de cor suaves, sem engasgos ou ruídos de travamento",
+      "✔ Construção em aço temperado com vida útil praticamente infinita quando bem lubrificado"
+    ],
+    "limitations": [
+      "Se o parafuso de fixação não for apertado com a chave correta e o torque correto, o bloco pode escorregar na haste.",
+      "O desgaste prematuro da fenda de arraste por falta de graxa especial gera folga axial e barulho de batida metálica."
+    ],
+    "commonErrors": [
+      "❌ Apertar o parafuso do condutor com chave gasta ou tamanho errado, espanando a fenda e inutilizando a peça.",
+      "❌ Desapertar o bloco sem marcar os traços de referência da barra de agulha, perdendo o ponto de altura com a laçadeira.",
+      "❌ Deixar o bloco desalinhado angularmente, fazendo a fenda ficar torta e travando o pino na troca de cor.",
+      "❌ Esquecer de lubrificar com graxa branca o canal de arraste do bloco, gerando desgaste abrasivo precoce."
+    ],
+    "troubleshootingTips": [
+      "A máquina começou a falhar pontos repetidamente em uma agulha específica após bater em um bastidor grosso: A agulha bateu com força e empurrou a barra para cima, fazendo o Bloco Condutor escorregar alguns milímetros na haste; use o gabarito de altura da barra, afrouxe o parafuso do bloco, alinhe o traço correto com a bucha e reaperte com firmeza.",
+      "A máquina trava na hora da troca de cor e dá alarme de falha de motor de cor: O Bloco Condutor de uma agulha girou ligeiramente sobre o eixo da barra e sua fenda está desalinhada com o pino de arraste; alinhe a fenda perfeitamente paralela ao trilho e reaperte o parafuso.",
+      "Ouve-se um estalo de folga toda vez que a agulha penetra o tecido duro: A fenda do Bloco Condutor está gasta ou o pino de arraste está com folga excessiva; inspecione a folga com um calibre de lâminas e substitua o bloco condutor desgastado."
+    ],
+    "dicaArtrelados": "O 'Segredo dos Risquinhos da Barra da Artrelados': Você já reparou que toda barra de agulha original tem dois ou três risquinhos fininhos gravados no metal? Esses risquinhos são a sua bússola de ouro! O risquinho superior indica o Ponto Morto Superior e o risquinho inferior é a referência exata para o sincronismo com a laçadeira. Ao regular o Bloco Condutor com uma chave adequada, alinhe o traço indicado no manual exatamente rente à face de baixo da bucha inferior. Quando você aperta o parafuso do bloco nessa posição milimétrica, a laçada se forma tão perfeita que a máquina borda lona grossa ou cetim delicado sem arrebentar um único fio!",
+    "voceSabia": "O parafuso minúsculo que aperta o Bloco Condutor na barra de agulha aguenta uma pressão equivalente a mais de 150 kg de empuxo instantâneo quando a agulha perfura tecidos pesados de bonés estruturados! É por isso que ele é feito de aço especial de aviação e nunca deve ser substituído por um parafuso comum de ferro doce!",
+    "practicalExercise": "Identificação do Bloco Condutor e da Fenda de Arraste: Com a máquina desligada e a tampa frontal aberta, localize o bloco metálico preso na barra da agulha 1. Observe a fenda horizontal no centro dele. Agora, movimente manualmente o mecanismo de troca de cor e observe o pino de aço da biela deslizando suavemente de uma fenda para a outra como um trem entrando na estação. É a engenharia mecânica pura da sua máquina!",
+    "quickSummary": "Bloco em aço montado na barra de agulha que engata no motor principal durante a troca de cor, transferindo força de penetração e permitindo o ajuste milimétrico da altura da agulha.",
+    "relatedTerms": [
+      "Barra de Agulha e Parafuso de Fixação (Needle Bar & Needle Clamp)",
+      "Amortecedor de Borracha da Barra de Agulha / Anel Batente de Impacto do Cabeçote",
+      "Bucha da Barra de Agulha / Guia de Deslizamento em Bronze Autolubrificante",
+      "Mola de Retorno da Barra de Agulha / Mola de Recuperação Superior",
+      "Troca Automática de Cores (Color Change)",
+      "Laçadeira Rotativa / Gancho Rotativo (Rotary Hook)"
+    ],
+    "tags": [
+      "b-111",
+      "bloco-condutor",
+      "needle-bar-driver",
+      "connecting-stud",
+      "engate-de-arraste",
+      "altura-da-barra-de-agulha",
+      "troca-de-cor",
+      "mecanica",
+      "manutencao",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Needle Bar Drivers, Connecting Studs and Height Calibration Standards. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Needle Case Driving Blocks, Tolerances and Color Change Mechanics. Ichinomiya, 2022.",
+      "HAPPY JAPAN. Technical Service Manual: Needle Bar Timing, Clamp Blocks & Stud Alignment. Yamagata, 2023.",
+      "ARTRELADOS. O Engate Perfeito: Como Regular o Bloco Condutor da Barra de Agulha e Nunca Mais Falhar Pontos. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
   }
 ];
 

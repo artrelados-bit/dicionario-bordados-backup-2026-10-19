@@ -2123,10 +2123,113 @@ export const VERBETES_LETTER_R9: Verbete[] = [
     ],
     bibliographicReferences: [
       "RICOMA INTERNATIONAL CORP. User Manual: MT & TC Series Multi-Needle Commercial Embroidery Systems. Miami: Ricoma, 2023.",
-      "RICOMA INTERNATIONAL CORP. Chroma Embroidery Digitizing & 8-Inch Touchscreen Operational Guide. Miami, 2023.",
+      "RICOMA INTERNATIONAL CORP. Chroma Embroidery Digitizing & 8-Inch Touchscreen Operational Guide. Miami: Ricoma, 2023.",
       "ARTRELADOS. Guia de Operação e Rentabilidade com Máquinas Multiagulhas no Brasil. Curitiba, 2024."
     ],
     updatedAt: "2026-09-05"
+  },
+  {
+    id: "r-096-roda-de-pulso-sensor-quebra-linha-polia-rotativa",
+    code: "R-096",
+    term: "Roda de Pulso do Sensor de Quebra de Linha / Polia Rotativa com Disco Óptico (Thread Break Sensor Pulley & Rotary Pulse Chopper Wheel)",
+    pronunciation: "rô-da de púl-su do sen-sór de kê-bra de lí-nha / po-lí-a ro-ta-tí-va kõn dís-ku óp-ti-ku (thrêd brêik sên-ser pú-li end rôu-ta-ri pals tchó-per uíl)",
+    level: "Avançado 🔴",
+    category: "Elétrica & Eletrônica",
+    grammarClass: "Locução substantiva feminina.",
+    origin: "Desenvolvida no Japão pela Tajima e Barudan entre as décadas de 1980 e 1990 para superar as limitações dos antigos sensores de contato elétrico com alavanca de mola (Drop-Wire / Switch-Bar). O uso de um encoder fotoelétrico incremental com polia ranhurada e disco fatiador de feixe infravermelho permitiu detectar a ruptura do fio em frações de segundo sem adicionar atrito mecânico nocivo à linha superior.",
+    summary: "Roldana ranhurada acoplada a um encoder com disco de fendas que gira por fricção da linha superior, gerando pulsos eletrônicos para o computador da máquina monitorar o avanço contínuo do fio e frear o cabeçote em caso de quebra.",
+    definition: "A Roda de Pulso do Sensor de Quebra de Linha e Polia Rotativa com Disco Óptico (tecnicamente denominada Rotary Thread Break Sensor Pulley, Optical Chopper Wheel, Codificador Óptico de Fluxo de Linha, Polia do Encoder de Ruptura de Fio ou Sensor de Pulso Rotativo da Agulha) é o transdutor mecatrônico de velocidade angular montado na travessa intermediária de cada agulha no cabeçote de bordado. O componente consiste em uma polia de ultra-baixa inércia confeccionada em poliacetal (POM) ou alumínio anodizado, montada sobre um eixo de aço microretificado suportado por microrrolamentos de esferas blindados. A periferia da polia apresenta uma canaleta em 'V' revestida por elastômero de silicone ou usinada com microrrecartilhado, onde a linha superior dá uma volta completa de 360° (ou abraça um arco mínimo de 180°) logo após sair do sub-tensor (C-106) e antes de atingir o tensor principal. No mesmo eixo da polia, gira um disco encoder de fendas radiais (Chopper Disc) que intercepta ciclicamente o feixe de luz emitido por um fototransistor infravermelho montado na placa eletrônica do cabeçote. A cada fração de milímetro de linha puxada pela agulha e pelo estica-fio, a rotação da roda de pulso gera uma onda quadrada (pulsos digitais TTL). O microprocessador da placa-mãe compara a frequência desses pulsos com a velocidade angular do eixo principal (medida em PPM): se o motor principal der de 2 a 4 pontos consecutivos sem que a roda de pulso emita interrupções de feixe óptico, o sistema interpreta instantaneamente que a linha quebrou, desfiou ou o cone acabou, acionando o freio do cabeçote e interrompendo o pantógrafo antes que a agulha fure o tecido no vazio.",
+    technicalDetails: "A polia possui diâmetro externo típico de 12 mm a 16 mm com canaleta de 0,8 mm a 1,2 mm e microrrolamento classe ABEC-5 com torque de atrito estático inferior a 0,02 mN·m para girar com tração mínima de 3 gf sem deslizar. O disco chopper óptico integrado possui entre 8 e 24 ranhuras (slots) fotogravadas, gerando de 8 a 24 pulsos elétricos digitais por rotação completa da polia. O circuito óptico opera na faixa de comprimento de onda infravermelho de 940 nm com fotodiodo acoplado em nível lógico alto/baixo (0 V a 5 V). A tolerância do software de controle (Thread Break Sensitivity / Pulse Timeout) é configurável no painel da máquina entre 1 e 5 pontos de tolerância para disparar o alarme sonoro e a parada de emergência do cabeçote.",
+    construction: [
+      "Polia de Baixa Inércia (Pulley Hub): Carretilha usinada em resina acetálica POM leve para girar sem arrasto de peso",
+      "Canaleta Antiderrapante com Perfil em V: Garganta revestida de elastômero de atrito que impede patinamento da linha",
+      "Disco Fatiador Óptico (Chopper Wheel): Lâmina circular com fendas radiais microestampadas que interrompem o infravermelho",
+      "Eixo Central de Aço Inox com Microrrolamento: Eixo de sustentação com rolamento blindado livre de folga e lubrificado a seco",
+      "Bloco Sensor Fotoacoplador Infravermelho: Emissor LED e fototransistor montados na placa PCB do cabeçote",
+      "Capa Protetora Anti-Penugem: Caixa plástica que veda a câmara óptica contra poeira de entretela e fiapos de linha"
+    ],
+    howItWorks: [
+      "1. Ao sair do sub-tensor superior, a linha dá uma volta completa de 360° ao redor da canaleta da Roda de Pulso.",
+      "2. Quando a agulha desce e o estica-fio traciona o ponto, a linha puxa a borda da polia por fricção positiva.",
+      "3. A polia gira livremente sobre seu microrrolamento, girando o disco óptico de fendas radiais na mesma velocidade.",
+      "4. Cada fenda do disco passa entre o emissor e o receptor infravermelho, gerando uma sequência de pulsos elétricos.",
+      "5. A placa-mãe recebe a contagem de pulsos e confirma em tempo real: 'A linha está correndo perfeitamente!'.",
+      "6. Se a linha arrebentar ou acabar o cone, o atrito cessa e a roda de pulso para de girar no mesmo instante.",
+      "7. A CPU detecta a ausência de pulsos em 3 pontos, freia o motor principal e acende a luz vermelha de quebra de linha!"
+    ],
+    beginnerExplanation: "A Roda de Pulso do Sensor de Quebra de Linha é o 'odômetro e espião eletrônico' que vigia a sua linha de bordar sem piscar! Já reparou naquela rodinha pretinha que fica no cabeçote onde a gente dá uma voltinha com a linha antes de passar no tensor grandão? Ela parece uma rodinha boba de brinquedo, mas por dentro do cabeçote ela tem um disquinho cheio de furinhos minúsculos que fica girando na frente de uma luzinha invisível de raio infravermelho. Toda vez que a máquina dá um ponto, a linha puxa a rodinha; a rodinha gira e o disquinho pisca a luzinha para o computador da máquina dizendo: 'Tá tudo bem, a linha tá correndo!'. Mas se a linha arrebentar lá embaixo na agulha ou o cone acabar, a rodinha para de girar na hora. O computador vê que a luzinha parou de piscar, freia a máquina em fração de segundo e apita na sua tela avisando: 'Atenção bordadeira, a linha quebrou!'. Se essa rodinha não existisse, a máquina continuaria batendo a agulha no seco por horas, furando o tecido sem bordar nada!",
+    applications: [
+      "Monitoramento contínuo em tempo real do avanço da linha superior em todas as agulhas do cabeçote",
+      "Parada eletrônica automática e instantânea da máquina no ponto exato após ruptura do fio",
+      "Contagem volumétrica do consumo linear de linha para estimativa de rendimento e custos de produção",
+      "Diferenciação inteligente entre quebra real de linha superior, quebra de bobina e falso disparo",
+      "Proteção de tecidos finos e nobres contra perfurações desnecessárias da agulha sem fio"
+    ],
+    mainTypes: [
+      "Roda de Pulso Óptica com Disco Fatiador Embutido (Padrão industrial Tajima, Barudan, Happy e Ricoma)",
+      "Polia de Contato Magnético por Efeito Hall (Com ímã de neodímio integrado e sensor semicondutor sem frestas)",
+      "Polia Metálica com Estria Diamantada (Para linhas técnicas abrasivas e alta fricção sem desgaste do canal)",
+      "Sensor de Alavanca de Tensão Mecânica Tipo Drop-Wire (Tecnologia analógica antecessora utilizada em máquinas antigas)"
+    ],
+    recommendedSettings: {
+      speedPPM: "Monitoramento óptico de altíssima precisão de 0 a 1.200 PPM",
+      needleType: "Compatível com qualquer espessura de agulha e calibre de linha (#60 a #30)",
+      stabilizer: "Universal para todas as entretelas",
+      threadTension: "A linha deve dar preferencialmente 1 volta completa (360°) na polia para garantir atrito positivo sem patinar"
+    },
+    advantages: [
+      "✔ Detecção quase instantânea (entre 2 e 4 pontos), poupando tempo na hora de voltar os pontos no painel",
+      "✔ Sistema fotoelétrico sem contato físico no sensor, assegurando vida útil ilimitada livre de desgaste elétrico",
+      "✔ Não amassa, não desfia e não marca filamentos delicados de viscose, seda ou poliéster brilhante",
+      "✔ Opera perfeitamente em alta rotação (mais de 1.000 PPM) sem gerar inércia mecânica nem ruído"
+    ],
+    limitations: [
+      "Poeira de entretela e fiapos de linha acumulados dentro do sensor fotoelétrico podem bloquear o feixe óptico.",
+      "Se a linha for passada frouxa sem dar a volta completa na canaleta, a polia patina e gera falsos alarmes de quebra."
+    ],
+    commonErrors: [
+      "❌ Passar a linha apenas encostando na polia em vez de dar a volta completa de 360°, fazendo o fio escorregar sem girar a roda.",
+      "❌ Aplicar óleo lubrificante líquido na canaleta da polia, deixando a borracha escorregadia e atraindo poeira preta.",
+      "❌ Bater ar comprimido forte de perto sem proteger a câmara do sensor, entupindo a lente fototransistora com cotão.",
+      "❌ Deixar linha arrebentada enrolar no eixo da polia até travar o microrrolamento e quebrar o pino de sustentação."
+    ],
+    troubleshootingTips: [
+      "A máquina para acusando 'quebra de linha' mas a linha está perfeita e bordando: A linha está patinando na canaleta da polia porque não deu a volta completa de 360° ou há fiapo entupindo a lente do fotossensor; passe a linha dando a volta completa na rodinha e use um pincel macio com ar leve para limpar a janela óptica.",
+      "A máquina não para quando a linha arrebenta e continua furando o tecido sem linha por vários centímetros: O microrrolamento da polia está travado ou a sensibilidade do sensor no painel está com muitos pontos de tolerância (acima de 6); verifique se a rodinha gira macia com um sopro leve e configure a sensibilidade no painel para 3 ou 4 pontos.",
+      "A rodinha está dura ou chia ao girar com a mão: Fiapos finos de linha penetraram no vão do microrrolamento por trás da polia; retire a polia com uma pinça fina, remova os fios embaraçados no eixo e monte novamente."
+    ],
+    dicaArtrelados: "O 'Teste do Sopro da Artrelados': Quer saber se a roda de pulso de uma agulha está em perfeito estado sem precisar desmontar o cabeçote? Pegue um canudo comum ou sopre suavemente com a boca bem de perto em cima da rodinha preta. Uma polia saudável com o rolamento limpo deve girar com a força de um simples sopro leve e continuar rodando soltinha por um ou dois segundos! Se ela não girar com o sopro ou parar dura no mesmo instante, há fiapos enrolados no eixo ou poeira de entretela compactada no mancal. Uma limpezinha rápida com pincel e álcool isopropílico recupera o giro livre na hora!",
+    voceSabia: "Nas máquinas industriais modernas de alta velocidade, a roda de pulso gira a mais de 1.500 RPM quando a máquina está a 1.000 PPM! Nesse ritmo alucinante, o disco óptico interrompe o feixe infravermelho centenas de vezes por segundo, enviando milhares de pulsos elétricos por minuto para o computador central calcular o consumo de linha com precisão milimétrica!",
+    practicalExercise: "Simulação de Resposta da Roda de Pulso no Painel: Coloque a máquina em modo de teste de sensores no painel de comando. Localize a agulha ativa e, com a ponta do dedo ou um pedaço de linha, gire a rodinha de pulso bem devagar: observe a tela do painel alternar entre '0' e '1' (ou piscar o indicador digital) a cada fenda que passa pelo feixe infravermelho. Esse exercício ensina a confirmar o funcionamento de 100% dos sensores do seu cabeçote!",
+    quickSummary: "Polia mecatrônica com encoder fotoelétrico que gira pelo atrito da linha superior, gerando pulsos digitais para frear a máquina instantaneamente se a linha quebrar.",
+    relatedTerms: [
+      "Fotossensor de Detecção de Quebra de Linha por Infravermelho",
+      "Haste do Sensor de Quebra de Linha Rotativo",
+      "Conjunto de Pré-Tensão da Linha Superior / Sub-Tensor de Entrada da Cabeça de Bordado",
+      "Tensor Superior da Linha / Conjunto de Tensão Principal da Agulha",
+      "Offset do Sensor Óptico de Ruptura de Linha",
+      "Alavanca Puxa-Fio (Take-up Lever)"
+    ],
+    tags: [
+      "r-096",
+      "roda-de-pulso",
+      "sensor-de-quebra",
+      "chopper-wheel",
+      "encoder-optico",
+      "polia-rotativa",
+      "parada-emergencia",
+      "eletronica",
+      "mecanica",
+      "artrelados"
+    ],
+    sourceReference: "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    bibliographicReferences: [
+      "TAJIMA GROUP. Technical Manual: Electronic Thread Break Sensors & Rotary Encoder Calibration. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Embroidery Machine Electronics: Pulse Wheel Sensors & Optical Chopper Assembly. Ichinomiya, 2022.",
+      "HAPPY JAPAN. Multi-Needle Electronic Head: Rotary Thread Sensor Operation & Maintenance. Yamagata, 2023.",
+      "ARTRELADOS. O Espião Eletrônico da Máquina: Segredos da Roda de Pulso, Sensores Ópticos e Fim dos Falsos Alarmes de Linha. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-07"
   }
 ];
 

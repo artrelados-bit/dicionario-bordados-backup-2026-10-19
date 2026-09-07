@@ -1891,6 +1891,110 @@ export const VERBETES_LETTER_S11: Verbete[] = [
       "ARTRELADOS. A Bússola do Cabeçote: Segredos do Sensor de Origem, Trocas de Cor e Diagnósticos Rápidos. Curitiba, 2024."
     ],
     updatedAt: "2026-09-06"
+  },
+  {
+    id: "s-111-solenoide-abertura-tensao-alivio-discos-tensores",
+    code: "S-111",
+    term: "Solenoide de Abertura de Tensão / Atuador de Alívio dos Discos Tensores no Corte de Linha (Tension Release Solenoid & Thread Trimming Disk Opener)",
+    pronunciation: "so-le-nój-di de a-ber-tú-ra de tẽyn-sãw / a-tu-a-dór de a-lí-vi-u duz dís-kuz tẽyn-só-riz nu kór-ti de lín-nha (tẽyn-shan ri-lís só-le-noid end tréd trí-ming dísk óup-ner)",
+    letter: "S",
+    level: "Intermediário 🟡",
+    category: "Mecânica & Manutenção",
+    grammarClass: "Locução substantiva masculina.",
+    origin: "Criado nas décadas de 1970 e 1980 pela Tajima e Barudan no Japão durante o desenvolvimento dos primeiros sistemas industriais de corte automático de linha (Underbed Thread Trimmer). Sem um alívio mecânico da tensão durante o avanço da faca de corte móvel, a linha superior permanecia sob forte aperto dos discos tensores; isso fazia a linha ser cortada sob tração extrema, deixando uma sobra minúscula (menor que 1 cm) que escapava do olho da agulha na primeira penetração da cor seguinte. A introdução de um solenoide linear de curso rápido sincronizado com o ciclo da faca resolveu definitivamente a formação da cauda de linha ideal.",
+    summary: "Atuador eletromagnético montado atrás dos tensores do cabeçote que afasta momentaneamente os discos tensores no instante do corte de linha, permitindo puxar a sobra necessária para a agulha recomeçar sem desfiar.",
+    definition: "O Solenoide de Abertura de Tensão e Atuador de Alívio dos Discos Tensores no Corte de Linha (tecnicamente denominado Tension Release Solenoid, Thread Trimming Tension Opener, Atuador Eletromagnético de Alívio de Tensão, Solenoide de Liberação dos Discos Tensores ou Eletroímã Abridor de Tensão) é o dispositivo mecatrônico de curso linear montado na parte posterior do bloco de tensores superiores de cada cabeçote de bordado industrial. Sua função primária é desacoplar temporariamente a pressão exercida pelas molas de compressão sobre os pratinhos metálicos de atrito da linha no exato milissegundo em que a sequência de corte automático de linha (Trimming Cycle) é executada. Conectado mecanicamente a uma barra oscilante transversal dotada de pinos empurradores (Tension Release Pins), o solenoide recebe um pulso de corrente contínua de 24 VCC a 36 VCC da placa controladora de atuadores (Driver Board). Ao ser magnetizado por um intervalo de 40 a 80 milissegundos, o núcleo de ferro doce é recolhido com força repentina, projetando os pinos contra o centro dos discos tensores e afastando-os entre 0,8 mm e 1,5 mm. Esse alívio instantâneo do atrito permite que a faca móvel de corte, ao avançar sob a chapa de agulha, puxe livremente entre 25 mm e 35 mm de linha virgem do cone superior sem esticar ou romper a fibra. No instante seguinte ao corte pela contra-lâmina fixa, o solenoide é desenergizado e a mola de retorno fecha imediatamente os discos tensores, garantindo que o cabeçote inicie o bordado do próximo elemento com a linha perfeitamente calibrada e com a cauda segura na mola retentora.",
+    technicalDetails: "Solenoide linear de tração ou empuxo para regime intermitente com ciclo de trabalho (Duty Cycle) de 10% a 25% acionado por 24 VCC a 36 VCC. Resistência ôhmica da bobina entre 12 Ω e 28 Ω com enrolamento em fio de cobre esmaltado classe H (suporta até 180 °C de temperatura interna). Força eletromagnética de pico de 8 N a 15 N (suficiente para vencer simultaneamente a resistência de até 15 conjuntos de molas de tensores). Tempo de atuação ultrarrápido entre 15 ms e 25 ms. Haste interna retificada em aço inoxidável austenítico com anel amortecedor de borracha nitrílica (NBR) para atenuação de ruído acústico de impacto.",
+    construction: [
+      "Carcaça Cilíndrica ou Prismática em Aço Baixo Carbono Niquelado de Blindagem Magnética",
+      "Bobina Eletromagnética de Fio de Cobre Esmaltado com Isolamento Térmico Classe H",
+      "Núcleo Móvel (Plunger) em Ferro Doce Tratado Termicamente para Baixa Retentividade Magnética",
+      "Haste de Ligação Mecânica com Barra Transversal de Pinos Empurradores de Tensão",
+      "Mola Cônica de Retorno de Alta Resistência para Fechamento Instantâneo dos Discos",
+      "Amortecedores Elastoméricos nas Extremidades de Curso para Absorção do Impacto do Golpe"
+    ],
+    howItWorks: [
+      "1. A máquina alcança o comando de salto ou troca de cor na matriz e inicia o ciclo de corte.",
+      "2. A placa-mãe envia o pulso de disparo para o circuito excitador do solenoide de abertura de tensão.",
+      "3. A bobina é energizada em 24 VCC e cria um campo magnético intenso que atrai o núcleo móvel.",
+      "4. O movimento do núcleo empurra a barra de pinos, que afasta os pratinhos de metal de todas as agulhas.",
+      "5. A faca de corte sob a chapa se movimenta e puxa livremente cerca de 3 cm de linha direto do cone.",
+      "6. A faca corta a linha e o segura-fio prende a pontinha solta com a folga necessária.",
+      "7. O solenoide é desenergizado, a mola fecha os discos tensores e a máquina recomeça sem escapar a linha da agulha!"
+    ],
+    beginnerExplanation: "O Solenoide de Abertura de Tensão é como as 'mãozinhas invisíveis que abrem os pratinhos de linha na hora da tesoura bater'! Pense comigo: quando a sua máquina está bordando, os pratinhos de metal da linha ficam bem apertados segurando o fio para o ponto ficar firme e bonito. Mas o que aconteceria se a tesoura lá embaixo cortasse a linha com os pratinhos ainda trancados com força? A ponta da linha cortada ia ficar tão curtinha que, quando a agulha desse o primeiro pulo na cor seguinte, o fio ia escapar do buraquinho da agulha e a máquina ia chiar na mesma hora avisando que a linha desfiou! É aí que esse eletroímã entra em ação: no exato milissegundo em que a faca vai cortar, ele dá um 'estalo' seco, afasta os pratinhos e deixa a linha soltinha para puxar uma sobra de 3 centímetros. Assim que corta, ele fecha os pratinhos de novo e a máquina recomeça o bordado como uma rainha, sem nunca perder a ponta da linha!",
+    applications: [
+      "Liberação instantânea da fricção dos discos tensores superiores durante o corte automático de linha",
+      "Formação controlada do comprimento da cauda de linha inicial (25 mm a 35 mm) para a próxima partida",
+      "Eliminação absoluta do desfie de linha do olho da agulha no recomeço pós-corte (Thread Pull-Out Prevention)",
+      "Redução da tensão mecânica sobre as facas móvel e fixa do sistema de corte inferior (Trimmer)",
+      "Proteção da fibra da linha contra esgarçamento e quebra por estiramento brusco no ciclo de corte"
+    ],
+    mainTypes: [
+      "Solenoide de Abertura Coletiva de Cabeçote (Uma barra única afasta os discos de todas as agulhas simultaneamente)",
+      "Solenoide com Acionamento Seletivo Individual (Abre exclusivamente o tensor da agulha que acabou de costurar)",
+      "Mecanismo de Alívio Mecânico por Came (Acionado diretamente pelo eixo do trimmer em máquinas compactas)",
+      "Solenoide Duplo com Amortecimento Pneumático (Desenvolvido para bordado ultrassilencioso em turnos noturnos)"
+    ],
+    recommendedSettings: {
+      speedPPM: "Ciclo de atuação milimétrico compatível com cortes em alta rotação de até 1.200 PPM",
+      needleType: "Universal para todos os diâmetros e materiais de linha (poliéster 40 wt, metálicas e algodão)",
+      stabilizer: "Universal para todas as aplicações têxteis",
+      threadTension: "Permite usar tensões normais de 100 a 130 gf sem risco de desfie de ponta após o corte"
+    },
+    advantages: [
+      "✔ Fim definitivo da perda de tempo com agulhas desfiando no primeiro ponto de cada cor",
+      "✔ Cauda de linha com comprimento uniforme em todos os cortes de matrizes industriais",
+      "✔ Resposta ultrarrápida (menos de 25 ms) que não atrasa o ciclo de produção da máquina",
+      "✔ Atuador robusto e selado projetado para suportar mais de 50 milhões de disparos de corte"
+    ],
+    limitations: [
+      "Se fiapos de linha ou pó de entretela entrarem no túnel da haste, o solenoide pode engripar na posição aberta.",
+      "Se o conector elétrico queimar ou o fusível da placa abrir, o solenoide não atua e todas as linhas desfilam no corte."
+    ],
+    commonErrors: [
+      "❌ Lubrificar a haste do solenoide com óleo líquido, criando uma crosta de graxa pegajosa com o pó têxtil que trava o êmbolo.",
+      "❌ Entortar a barra transversal com alicate ao tentar limpar os tensores, fazendo os pinos abrirem de forma desigual.",
+      "❌ Apertar o parafuso do batente do solenoide excessivamente, impedindo que ele atinja o curso total de abertura.",
+      "❌ Ignorar o ruído de vibração contínua ('zumbido elétrico') se o solenoide travar com corrente contínua ligada."
+    ],
+    troubleshootingTips: [
+      "A agulha sempre desfie e perde a linha no primeiro ponto após qualquer corte de linha: O solenoide de abertura de tensão não está disparando; verifique se você ouve o 'estalo' característico no cabeçote no momento do corte ou se a haste travou por fiapos.",
+      "A máquina começou a bordar com a linha completamente frouxa e cheia de laçadas soltas por cima do tecido: O solenoide disparou mas ficou travado na posição aberta porque o êmbolo está sujo; desligue a máquina, limpe a haste com álcool isopropílico e verifique se a mola de retorno fecha os discos.",
+      "O solenoide dispara mas os pratinhos quase não se mexem: O curso mecânico da barra de pinos está desregulado; solte a porca de ajuste do êmbolo, aumente o curso em 0,5 mm até que os discos abram cerca de 1 mm e reaperte a porca."
+    ],
+    dicaArtrelados: "O 'Teste Auditivo do Estalo da Artrelados': Você quer saber se o seu solenoide de abertura de tensão está 100% com saúde sem precisar abrir a máquina com ferramentas? Fique ao lado do cabeçote e comande um corte de linha manual pelo painel (Trim). Preste atenção nos barulhos: primeiro você ouve o 'clique' firme e seco do solenoide abrindo os pratinhos no topo do cabeçote, logo em seguida o som da faquinha correndo lá embaixo e, por último, o 'tlec' dos pratinhos fechando de novo! Se você ouvir a faquinha cortando mas não ouvir o estalo dos pratinhos lá em cima, pare tudo: o solenoide não atuou e a sua linha vai escapar na largada seguinte!",
+    voceSabia: "A força instantânea do puxão do solenoide de abertura de tensão é capaz de erguer um peso de mais de 1,5 kg em menos de dois centésimos de segundo! Essa força tremenda é necessária para vencer a pressão somada das 15 molas de tensão de todas as agulhas do cabeçote de uma só vez!",
+    practicalExercise: "Inspeção Visual da Abertura dos Discos Tensores: Posicione-se de lado em relação aos tensores superiores da máquina com uma boa iluminação. Acione o comando de corte manual pelo painel. Observe com atenção o momento exato em que os pratinhos de metal se afastam cerca de 1 mm como se estivessem respirando e depois se fecham firmes novamente. Sinta a linha de bordar correr leve por um instante com os dedos durante o corte!",
+    quickSummary: "Atuador eletromagnético que afasta momentaneamente os discos tensores durante o corte automático, permitindo puxar a sobra de linha necessária para a agulha recomeçar a costura sem escapar da ponta.",
+    relatedTerms: [
+      "Sistema Trimmer / Cortador Automático de Linha (Automatic Thread Trimmer)",
+      "Disco de Tensão Superior / Pratinhos Tensores da Linha (Thread Tension Discs)",
+      "Mola Segura-Linha Superior do Cabeçote / Mola Retentora de Linha Pós-Corte",
+      "Potenciômetro de Troca de Cor / Sensor Absoluto de Posição da Agulha",
+      "Troca Automática de Cores (Color Change)",
+      "Cauda de Linha / Rabinho de Início de Bordado (Thread Tail)"
+    ],
+    tags: [
+      "s-111",
+      "solenoide-de-abertura",
+      "tension-release",
+      "alivio-de-tensao",
+      "corte-de-linha",
+      "trimmer",
+      "discos-tensores",
+      "mecanica",
+      "eletronica",
+      "artrelados"
+    ],
+    sourceReference: "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    bibliographicReferences: [
+      "TAJIMA GROUP. Tension Release Solenoids, Timing Specifications & Thread Tail Standards. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Thread Trimming & Tension Disc Opener Servicing Manual. Ichinomiya, 2022.",
+      "HAPPY JAPAN. Multi-Head Embroidery Technical Guide: Solenoid Drives and Needle Start Reliability. Yamagata, 2023.",
+      "ARTRELADOS. O Pulo da Linha: Segredos do Solenoide de Abertura de Tensão e o Fim do Desfie no Início do Bordado. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-07"
   }
 ];
 

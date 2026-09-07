@@ -7195,6 +7195,214 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "ARTRELADOS. O Pião de Aço da Máquina: Como Regular, Balancear e Cuidar da Carcaça da Laçadeira para Bordados Perfeitos. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "c-106-conjunto-de-pre-tensao-linha-superior-sub-tensor",
+    "code": "C-106",
+    "term": "Conjunto de Pré-Tensão da Linha Superior / Sub-Tensor de Entrada da Cabeça de Bordado (Upper Thread Pre-Tension Assembly & Sub-Tensioner)",
+    "pronunciation": "kon-jún-tu de pré-ten-são da lí-nha su-pe-ri-ór / sub-ten-sór de en-trá-da da ka-bé-sa de bor-dá-du (á-per thrêd pri-tên-shan a-sêm-bli end sab-tên-sha-ner)",
+    "letter": "C",
+    "level": "Intermediário 🟡",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Desenvolvido com a introdução das primeiras máquinas industriais de bordar automáticas multivaretas nos anos 1970 por fabricantes como Tajima, Barudan e ZSK. À medida que as velocidades de costura saltaram de 400 para mais de 1.000 PPM, os engenheiros têxteis constataram que a linha puxada diretamente do cone chegava ao tensor principal com memória helicoidal de torção e oscilações bruscas de inércia, exigindo um primeiro estágio de frenagem e amortecimento estático antes da passagem pelos sensores ópticos de quebra de fio.",
+    "summary": "Mecanismo preliminar composto por haste roscada, dois pratinhos convexos e mola leve localizado no topo da cabeça de bordado que remove o encacheamento da linha e aplica uma pré-carga constante de 5 a 10 gramas-força.",
+    "definition": "O Conjunto de Pré-Tensão da Linha Superior e Sub-Tensor de Entrada da Cabeça de Bordado (tecnicamente denominado Upper Thread Pre-Tension Assembly, Sub-Tensioner, Tensor Auxiliar Superior, Pré-Freio de Linha ou Estágio Primário de Tensão) é o módulo mecânico de fricção montado na travessa superior de cada agulha no cabeçote de bordado computadorizado. Posicionado estrategicamente logo após a saída dos tubos guias da árvore de cones e imediatamente antes da Roda de Pulso do Sensor de Quebra de Linha e do Tensor Principal (Main Tension Disc Assembly), o sub-tensor opera como um condicionador dinâmico do fio. Quando a linha de poliéster ou viscose é desenrolada do cone a alta velocidade (mais de 15 metros lineares por minuto por agulha), ela retém uma curvatura em espiral ('memória mecânica de bobinamento') e sofre vibrações de chicoteamento aéreo. Ao passar entre os dois pratinhos côncavos de aço inox sob compressão de uma mola helicoidal de baixa constante elástica (ajustada por um botão recartilhado com rosca micrométrica), o fio sofre uma pressão de alisamento planar que desarruga as espirais e aplica uma resistência inicial suave entre 5 gf e 10 gf. Essa pré-carga estabiliza o fluxo de alimentação, garantindo que o fio não salte para fora da canaleta do sensor óptico/rotativo e permitindo que o tensor principal atue com precisão milimétrica, sem a necessidade de aperto excessivo das molas de amortecimento do estica-fio.",
+    "technicalDetails": "Montado sobre haste metálica roscada M3 ou M4 com pratinhos convexos em aço inoxidável AISI 304 com polimento espelhado (rugosidade Ra ≤ 0,04 µm) e tratamento térmico anti-sulco. A mola helicoidal cônica de pré-tensão possui constante elástica baixa (k ≈ 0,08 N/mm a 0,15 N/mm), permitindo calibração ultra-sensível de 0 a 20 gramas-força (gf). O botão giratório de regulagem recartilhado (knurled nut) possui passo de rosca de 0,5 mm com ranhuras de fricção para retenção anti-vibração mecânica. A faixa de calibração operacional padrão para linha de bordado #40 (poliéster 120D/2) é de 5 gf a 8 gf; para fios metálicos delicados, ajusta-se entre 2 gf e 4 gf; e para linhas grossas #30, calibra-se entre 8 gf e 12 gf.",
+    "construction": [
+      "Haste Central Roscada (Tension Stud): Eixo de suporte de precisão fixado na carcaça superior da cabeça de costura",
+      "Par de Pratinhos Convexos em Aço Inoxidável (Pre-Tension Discs): Discos polidos espelhados que pressionam a linha",
+      "Mola Helicoidal Cônica Suave (Light Pre-Tension Spring): Mola elástica que exerce pressão linear e progressiva",
+      "Porca Plástica ou Metálica Recartilhada (Knurled Adjusting Knob): Botão giratório de ajuste manual sem ferramentas",
+      "Arruela Amortecedora de Feltro ou Borracha (Felt Cushion): Anel que absorve vibrações do cabeçote e impede desafrouxamento",
+      "Guia-Fio de Entrada e Saída Cerâmico ou Cromado (Eyelet Guides): Olhais que direcionam o trajeto do fio reto entre os pratinhos"
+    ],
+    "howItWorks": [
+      "1. A linha superior desce da árvore de cones passando pelo olhal superior da cabeça de bordado.",
+      "2. O fio penetra entre os dois pratinhos convexos do Conjunto de Pré-Tensão.",
+      "3. A mola suave comprime os pratinhos com uma pressão de 5 a 8 gramas-força.",
+      "4. Ao ser puxada pelo estica-fio, a linha perde a memória de espiral do cone e fica perfeitamente esticada e alinhada.",
+      "5. O fio entra na roda do sensor de quebra de linha sem saltar da canaleta nem falsear a leitura óptica.",
+      "6. Em seguida, a linha avança para o tensor principal perfeitamente estabilizada para a calibração final do ponto.",
+      "7. Durante as paradas de corte do trimmer, o sub-tensor impede que a sobra de linha volte frouxa para trás!"
+    ],
+    "beginnerExplanation": "O Sub-Tensor (ou Pré-Tensão) é o 'alisador de cabelo da linha do seu cone'! Quando a linha sai do cone grande na traseira da máquina, ela vem toda enroladinha e ondulada, cheia de voltinhas parecendo um cachinho de mola. Se esse fio entrasse direto no tensor principal todo encacheado, ele ia dar trancos, pular fora da rodinha do sensor e fazer a máquina apitar acusando quebra de linha falsa toda hora! O sub-tensor é aquele joguinho com dois pratinhos pequenos e uma porquinha redonda lá no topo de cada agulha. Ele aperta a linha com uma forcinha bem de leve — só o suficiente para pentear o fio, tirar o amassado e deixá-lo bem retinho e calmo antes de entrar no tensor grandão de baixo. É graças a ele que a sua máquina não engasga nem dá falsos alarmes de quebra!",
+    "applications": [
+      "Eliminação da memória mecânica helicoidal e torção residual de linhas de poliéster, viscose e poliamida",
+      "Aplicação de resistência de frenagem preliminar constante (5 a 10 gf) antes do tensor principal",
+      "Estabilização da passagem do fio sobre a roda de pulso e sensor óptico de ruptura de linha",
+      "Prevenção do retorno inercial e frouxidão do fio superior durante paradas bruscas e cortes de trimmer",
+      "Suavização da alimentação de linhas metálicas reflexivas e lurex que tendem a embolar no cabeçote"
+    ],
+    "mainTypes": [
+      "Sub-Tensor Clássico de Pratinhos Duplos Metálicos (Padrão universal Tajima, Barudan, Brother e SWF)",
+      "Sub-Tensor com Pratinhos Revestidos em Cerâmica (Para bordado contínuo 24h com linhas de aramida ou técnicas)",
+      "Sub-Tensor Rotativo de Rolete Emborrachado (Combina fricção de contato com rotação livre sem torção)",
+      "Sub-Tensor Integrado com Olhal Espiral Pigtail (Guia em espiral incorporada para passagem ultra-rápida de fio)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Projetado para manter tensão estável de 0 a 1.200 PPM de rotação contínua",
+      "needleType": "Universal para todas as linhas e agulhas industriais",
+      "stabilizer": "Universal para todas as entretelas",
+      "threadTension": "Calibragem ideal no dinamômetro de entrada: 5 a 8 gf para linhas #40 comuns e 2 a 4 gf para fios metálicos"
+    },
+    "advantages": [
+      "✔ Remove 100% da torção e do encacheamento do fio que causam laçadas feias no bordado",
+      "✔ Reduz em mais de 80% os falsos disparos do sensor de quebra de linha causados por fio pulando fora da roldana",
+      "✔ Permite que o tensor principal trabalhe mais frouxo e macio, preservando a elasticidade natural da linha",
+      "✔ Ajuste manual rápido sem necessidade de chaves: basta girar a porquinha recartilhada com a ponta dos dedos"
+    ],
+    "limitations": [
+      "Se a operadora apertar o sub-tensor como se fosse o tensor principal, a linha arrebenta por estrangulamento.",
+      "Acúmulo de pó de parafina e felpa de linha entre os pratinhos pode anular a pressão ou travar o fio."
+    ],
+    "commonErrors": [
+      "❌ Apertar o sub-tensor com força excessiva, somando mais de 20 gf de tensão antes mesmo do tensor principal.",
+      "❌ Esquecer de passar a linha por dentro dos pratinhos do sub-tensor, deixando o fio passar solto pela frente da haste.",
+      "❌ Deixar crostas endurecidas de cera e fiapos entre os pratinhos sem limpeza periódica com ar ou pincel.",
+      "❌ Usar pratinhos enferrujados ou com sulcos cortantes provocados por anos de atrito com fios abrasivos."
+    ],
+    "troubleshootingTips": [
+      "A máquina para acusando 'quebra de linha', mas a linha está inteira e passada na agulha: O fio está pulando fora da canaleta da roda do sensor óptico porque a pré-tensão está 100% frouxa; aperte 1 volta no botão do sub-tensor para firmar a linha contra a roldana.",
+      "A linha superior arrebenta com frequência logo após o início do bordado, mesmo com o tensor principal bem solto: O sub-tensor está apertado demais ou com fiapo travando o pratinho; solte o botão do sub-tensor deixando apenas uma leve resistência (ao puxar com a mão, deve parecer o peso de uma moeda de 10 centavos).",
+      "A linha metálica ou lurex desfia e forma nós antes de chegar na agulha: A memória de torção do cone está fazendo o fio enrolar sobre si mesmo; passe a linha no sub-tensor com pressão mínima (cerca de 3 gf) apenas para esticar as dobras sem esticar a alma metálica."
+    ],
+    "dicaArtrelados": "Faça o 'Teste do Peso da Moeda da Artrelados' para regular o sub-tensor: puxe a linha com a mão logo abaixo do sub-tensor (antes do tensor principal). Você deve sentir apenas uma leve resistência suave e sedosa, como se estivesse arrastando uma leve folha de papel ou levantando uma moedinha de 10 centavos! Nunca deve parecer pesado nem tracionar com força. O sub-tensor não existe para apertar o ponto — quem comanda a beleza da coluna de cetim é o tensor principal de baixo. O sub-tensor é apenas o mordomo gentil que entrega a linha retinha e penteada para o espetáculo do bordado!",
+    "voceSabia": "Muitas bordadeiras têm problemas crônicos ao bordar com linhas metálicas douradas ou prateadas justamente porque tentam regular a tensão apenas no tensor de baixo. Quando você solta o tensor principal e aperta 1/4 de volta a mais no sub-tensor do topo da cabeça, a linha metálica para de enrolar instantaneamente e borda liso como manteiga!",
+    "practicalExercise": "A Diferença Tátil com e sem Pré-Tensão: Puxe 1 metro de linha diretamente do cone sem passar por nenhum guia e segure a ponta solta no ar: repare como ela se enrola em espirais sobre si mesma. Agora passe a ponta por entre os pratinhos do sub-tensor e puxe suavemente: observe como o fio sai perfeitamente retilíneo, sem ondulações nem tendência a formar laços cegos. Essa é a estabilização planar em ação!",
+    "quickSummary": "Dispositivo mecânico no topo da cabeça de bordado com haste, mola leve e pratinhos convexos que retira a torção do fio e garante uma pré-tensão estável de 5 a 10 gramas-força.",
+    "relatedTerms": [
+      "Tensor Superior da Linha / Conjunto de Tensão Principal da Agulha",
+      "Haste Roscada de Pré-Tensão do Carretel (Thread Spool Tensioner Threaded Post & Discs)",
+      "Fotossensor de Detecção de Quebra de Linha por Infravermelho",
+      "Haste do Sensor de Quebra de Linha Rotativo",
+      "Mola de Alívio do Estica-Fio / Mola de Amortecimento do Tensor (Check Spring)",
+      "Árvore de Linha / Suporte de Cones de Bordado"
+    ],
+    "tags": [
+      "c-106",
+      "conjunto-de-pre-tensao",
+      "sub-tensor",
+      "pre-tension-assembly",
+      "tensao-superior",
+      "alisador-de-linha",
+      "estabilidade-ponto",
+      "mecanica",
+      "cabecote",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Upper Thread Tension Assembly & Pre-Tension Adjustment Standards. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Embroidery Head Mechanical Maintenance: Sub-Tension & Rotary Sensor Alignment. Ichinomiya, 2022.",
+      "ZSK STICKMASCHINEN GMBH. Technical Manual: Upper Thread Path Dynamics and Pre-Tension Calibration. Krefeld, 2023.",
+      "ARTRELADOS. O Mordomo da Linha: Como Regular o Sub-Tensor e Eliminar Falsas Quebras de Linha no Bordado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "c-107-carcaca-frontal-deslizante-agulhas-bloco-seletor",
+    "code": "C-107",
+    "term": "Carcaça Frontal Deslizante de Agulhas / Bloco Seletor de Cores do Cabeçote (Needle Case Assembly & Color Change Carriage)",
+    "pronunciation": "kar-ká-sa frõn-tál dez-li-zãn-ti de a-gú-lhas / bló-ku se-le-tór de kó-riz du ka-be-só-ti (ní-dl kéis a-sém-bli end ká-lor tchêindj ká-ridj)",
+    "letter": "C",
+    "level": "Intermediário 🟡",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Criada no Japão pelas fabricantes pioneiras Tajima e Barudan nos anos 1970 e 1980 durante o advento das máquinas de bordar automáticas multiagulhas. Para evitar a complexidade de ter um cabeçote separado para cada cone de linha, os engenheiros desenharam um bloco monobloco móvel usinado em liga de alumínio que desliza horizontalmente sobre trilhos lineares, posicionando com precisão milimétrica qualquer uma das agulhas sob a biela do motor principal.",
+    "summary": "Estrutura usinada em alumínio de alta precisão montada na frente do cabeçote que abriga todas as barras de agulha, molas e estica-fios, transladando suavemente sobre trilhos lineares durante a troca de cor.",
+    "definition": "A Carcaça Frontal Deslizante de Agulhas e Bloco Seletor de Cores do Cabeçote (tecnicamente denominada Needle Case Assembly, Color Change Carriage, Bloco de Agulhas, Carcaça Deslizante do Cabeçote, Torre de Agulhas ou Bloco Seletor Frontal) é a estrutura mecânica monobloco usinada em liga nobre de alumínio fundido de alta estabilidade dimensional que constitui a face móvel de cada cabeçote de bordado industrial. Projetada com usinagem CNC de precisão centesimal, ela integra de 6 a 15 canaletas verticais estritamente paralelas que acomodam o conjunto completo de cada cor: buchas de deslizamento em bronze sinterizado, barras de agulha, amortecedores de borracha, molas de retorno, blocos condutores de arraste, calcadores independentes e o conjunto das alavancas dos estica-fios. A Carcaça Frontal é montada sobre guias prismáticas retificadas e patins lineares de baixo atrito, sendo acoplada ao sistema de transmissão de troca automática de cores (movido por motor de passo ou servomotor através de fuso helicoidal ou correia sincronizada). Durante a operação, o sistema eletrônico translada a Carcaça Frontal para a esquerda ou direita em frações de segundo, posicionando a agulha selecionada exatamente sobre a linha de centro da biela e do orifício da chapa de agulha. Sua rigidez estrutural é vital para absorver forças inerciais, manter a folga micrométrica entre agulha e laçadeira rotativa em até 1.200 PPM e evitar desvios de contorno no bordado.",
+    "technicalDetails": "Fundida em liga de alumínio-silício-cobre (AlSi9Cu3) tratada termicamente (T6) para neutralizar tensões internas e empenamento térmico, com peso otimizado para minimizar a inércia durante acelerações bruscas na troca de cores. As canaletas para as buchas das barras de agulha são usinadas com tolerância de paralelismo entre eixos inferior a 0,015 mm ao longo de todo o curso vertical de 180 mm. As faces de guia traseiras são retificadas com planicidade inferior a 0,01 mm para assentamento nos trilhos lineares de aço temperado (dureza 60 HRC). Acabamento superficial por anodização dura de 25 µm para resistência à corrosão por óleo e suor de manuseio.",
+    "construction": [
+      "Corpo Monobloco em Liga Leve de Alumínio Fundido e Usinado CNC em 5 Eixos",
+      "Canaletas Verticais Retificadas para Alojamento das Buchas Superior e Inferior",
+      "Ranhuras Frontais Paralelas para Movimento Oscilante das Alavancas Estica-Fio",
+      "Guias Prismáticas Traseiras com Patins de Deslizamento em Resina de Baixo Atrito",
+      "Ponto de Engate com Rosca de Precisão para Conexão com o Fuso do Motor de Troca de Cor",
+      "Canecas e Guias Passa-Fio Superiores Integradas para Condução Retilínea das Linhas"
+    ],
+    "howItWorks": [
+      "1. A matriz comanda a troca de linha e o painel eletrônico envia pulso ao motor de troca de cores.",
+      "2. O motor aciona o fuso ou correia que puxa a Carcaça Frontal lateralmente ao longo dos trilhos-guia.",
+      "3. Todas as barras de agulha e estica-fios se movem em bloco harmonioso sobre a frente do cabeçote.",
+      "4. O sensor óptico ou encoder detecta a posição exata da agulha selecionada e trava o deslocamento.",
+      "5. O pino de arraste da biela principal engata no bloco condutor da nova agulha armada.",
+      "6. A máquina reinicia a costura; a carcaça absorve a vibração das batidas de 1.000 PPM com rigidez total.",
+      "7. A perpendicularidade perfeita da carcaça garante que a agulha desça a exatamente 0,05 mm da laçadeira!"
+    ],
+    "beginnerExplanation": "A Carcaça Frontal Deslizante é como o 'prédio de apartamentos onde moram todas as agulhas da sua máquina'! Repare na frente da sua máquina de bordar: aquele bloco grande de metal bonito que segura as 10, 12 ou 15 agulhas, com todos os ferrinhos, molinhas e alavancas estica-fio organizadinhos em fileira. Quando a máquina termina de bordar com a cor amarela e precisa da cor azul, é esse bloco inteiro que 'anda de lado' em cima de um trilho, como se fosse um trenzinho suave. Ele desliza, para exatamente no lugar certo e coloca a agulha azul na mira do motor. Para tudo funcionar macio, esse trilho precisa estar sempre limpinho e lubrificado. Se ele travar ou ficar sujo, a máquina perde a mira, bate agulha e avisa no painel que deu erro de troca de cor!",
+    "applications": [
+      "Alojamento e alinhamento geométrico paralelo de todos os conjuntos de agulha de 1 a 15 cores",
+      "Deslocamento lateral sincronizado nas trocas automáticas de cor em frações de segundo",
+      "Sustentação estrutural das alavancas estica-fios, buchas e guias-linha frontais",
+      "Absorção e amortecimento das vibrações mecânicas geradas pelas batidas em alta rotação",
+      "Garantia de que todas as agulhas tenham exatamente a mesma distância e sincronismo com a laçadeira"
+    ],
+    "mainTypes": [
+      "Carcaça Frontal Monobloco de 15 Agulhas em Alumínio Anodizado (Padrão industrial Tajima e Barudan)",
+      "Carcaça Compacta de 6 a 10 Agulhas (Equipa máquinas compactas semi-industriais Brother e Janome)",
+      "Carcaça em Liga de Magnésio de Ultra-Baixa Inércia (Desenvolvida para trocas de cor em menos de 0,25 segundo)",
+      "Carcaça Bipartida Modular (Facilita a manutenção individual de buchas e hastes sem desmontar o bloco todo)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Estabilidade dimensional de 0 a 1.200 PPM com rigidez anti-vibração",
+      "needleType": "Projetada para módulos de agulha DBxK5 de calibre 65/9 a 110/18",
+      "stabilizer": "Universal para todas as entretelas e materiais",
+      "threadTension": "O paralelismo da carcaça assegura passagem de linha fluida e tensão equilibrada em todas as cores"
+    },
+    "advantages": [
+      "✔ Agilidade nas trocas de cor: alterna entre 15 linhas diferentes sem perda de tempo",
+      "✔ Paralelismo centesimal que assegura a mesma qualidade de ponto em todas as agulhas",
+      "✔ Estrutura leve em liga nobre que reduz a inércia e o esforço do motor de passo",
+      "✔ Vida útil estendida por décadas quando os trilhos lineares são higienizados regularmente"
+    ],
+    "limitations": [
+      "Batidas violentas do bastidor ou pantógrafo contra a carcaça podem empenar os trilhos-guia ou a carcaça de alumínio.",
+      "O acúmulo de fiapos de linha empastados com graxa seca nos trilhos trava o motor de troca de cor."
+    ],
+    "commonErrors": [
+      "❌ Deixar os trilhos lineares da carcaça secos sem graxa, fazendo o bloco chiar e travar na troca de cor.",
+      "❌ Empurrar a carcaça com a mão com força bruta enquanto a máquina estiver ligada e energizada.",
+      "❌ Bater o aro de plástico do bastidor na parte inferior da carcaça ao carregar peças volumosas no pantógrafo.",
+      "❌ Lavar a carcaça com desengraxantes cáusticos que corroem a camada de anodização do alumínio."
+    ],
+    "troubleshootingTips": [
+      "A máquina trava na metade da troca de cor e exibe o alarme 'Color Change Overcurrent / Error': Os trilhos de deslizamento da carcaça estão emperrados por poeira de entretela e graxa velha; limpe os trilhos com pano limpo e aplique uma fina camada de óleo mineral com graxa branca com PTFE.",
+      "Os círculos e contornos bordados saem perfeitamente alinhados na agulha 1, mas saem deslocados na agulha 12: A carcaça frontal está com folga angular nos patins ou leve desalinhamento nos parafusos de fixação do trilho; reajuste a folga dos patins nos parafusos excêntricos de ajuste.",
+      "Ouve-se um rangido agudo toda vez que o cabeçote corre de lado: As guias traseiras da carcaça estão com atrito seco; aplique três gotas de óleo mineral nas ranhuras superiores do trilho e execute trocas de cor manuais completas da cor 1 à 15."
+    ],
+    "dicaArtrelados": "O 'Ritual do Pincel Seco da Artrelados': Uma vez por semana, antes de iniciar a produção, pegue um pincel de cerdas macias médio (exclusivo para essa tarefa) e passe por trás da Carcaça Frontal, entre o bloco e os trilhos de metal. Você vai ver cair uma 'nuvenzinha' de pozinho de linha e entretela! Depois de tirar a poeira, coloque apenas 2 gotinhas de óleo de máquina no trilho superior e comande uma troca da agulha 1 para a 15 pelo painel. A carcaça vai deslizar macia, silenciosa e o motor de passo vai trabalhar sem esforço a semana inteira!",
+    "voceSabia": "A precisão de repetição de parada da Carcaça Frontal de uma máquina industrial de ponta é de menos de 0,01 milímetro — o equivalente a um décimo da espessura de um fio de cabelo humano! Se essa precisão variasse meio milímetro, a agulha acertaria a borda de metal da chapa de agulha e se estilhaçaria na mesma hora!",
+    "practicalExercise": "Acompanhamento do Deslocamento Lateral: Selecione um desenho na máquina e observe a troca automática da cor 1 para a cor 2. Veja como a Carcaça Frontal inteira desliza suavemente sobre os trilhos e como o sensor óptico (ou roda dentada) lê o ponto exato de parada. Repare no som macio e mecânico desse balé do cabeçote!",
+    "quickSummary": "Estrutura usinada em alumínio na frente do cabeçote que abriga todas as barras de agulha, molas e estica-fios, deslizando sobre trilhos para posicionar a agulha ativa na troca de cor.",
+    "relatedTerms": [
+      "Troca Automática de Cores (Color Change)",
+      "Motor de Troca de Cor (Color Change Motor)",
+      "Barra de Agulha e Parafuso de Fixação (Needle Bar & Needle Clamp)",
+      "Bloco Condutor da Barra de Agulha / Engate de Arraste da Agulha Ativa",
+      "Pino de Arraste da Barra de Agulha / Pino Condutor da Biela Principal",
+      "Alavanca Estica-Fio / Conjunto Estica-Fio do Cabeçote (Take-Up Lever)"
+    ],
+    "tags": [
+      "c-107",
+      "carcaca-frontal",
+      "needle-case",
+      "color-change-carriage",
+      "bloco-de-agulhas",
+      "troca-de-cor",
+      "trilho-linear",
+      "mecanica",
+      "cabecote",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Needle Case Assembly, Alignment Standards and Color Change Mechanics. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Embroidery Machine Carriage Rails, Lubrication & Head Servicing Manual. Ichinomiya, 2022.",
+      "BROTHER INDUSTRIES. Professional Multi-Needle Head Structure and Needle Case Tolerances. Nagoya, 2023.",
+      "ARTRELADOS. O Prédio das Agulhas: Como Cuidar da Carcaça Frontal Deslizante e Ter Trocas de Cor Macias e Silenciosas. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
   }
 ];
 

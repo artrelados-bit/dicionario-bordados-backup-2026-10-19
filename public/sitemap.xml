@@ -738,6 +738,20 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Verbete: [a-105-alavanca-de-trava-caixa-de-bobina-trinco-extracao] Alavanca de Trava da Caixa de Bobina / Trinco de Extração e Retenção da Bobina (Bobbin Case Latch Lever &amp; Locking Hasp) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=a-105-alavanca-de-trava-caixa-de-bobina-trinco-extracao</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [a-106-amortecedor-borracha-barra-agulha-anel-batente] Amortecedor de Borracha da Barra de Agulha / Anel Batente de Impacto do Cabeçote (Needle Bar Rubber Cushion &amp; Stop Ring Buffer) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=a-106-amortecedor-borracha-barra-agulha-anel-batente</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Verbete: [b-001-bastidor-de-bordado] Bastidor de Bordado -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=b-001-bastidor-de-bordado</loc>
@@ -1501,6 +1515,20 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Verbete: [b-110-bucha-barra-agulha-guia-bronze-sinterizado] Bucha da Barra de Agulha / Guia de Deslizamento em Bronze Autolubrificante (Needle Bar Bushing &amp; Self-Lubricating Sintered Bronze Sleeve) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=b-110-bucha-barra-agulha-guia-bronze-sinterizado</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [b-111-bloco-condutor-barra-agulha-engate-arraste] Bloco Condutor da Barra de Agulha / Engate de Arraste da Agulha Ativa (Needle Bar Driver &amp; Connecting Stud Block) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=b-111-bloco-condutor-barra-agulha-engate-arraste</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Verbete: [c-001-cabecote-de-bordado] Cabeçote de Bordado -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=c-001-cabecote-de-bordado</loc>
@@ -2232,6 +2260,20 @@
   <!-- Verbete: [c-105-corpo-giratorio-lacadeira-carcaca-externa-gancho-rotativo] Corpo Giratório da Laçadeira / Carcaça Externa do Gancho Rotativo (Rotary Hook Outer Body &amp; Driving Shell) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=c-105-corpo-giratorio-lacadeira-carcaca-externa-gancho-rotativo</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [c-106-conjunto-de-pre-tensao-linha-superior-sub-tensor] Conjunto de Pré-Tensão da Linha Superior / Sub-Tensor de Entrada da Cabeça de Bordado (Upper Thread Pre-Tension Assembly &amp; Sub-Tensioner) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=c-106-conjunto-de-pre-tensao-linha-superior-sub-tensor</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [c-107-carcaca-frontal-deslizante-agulhas-bloco-seletor] Carcaça Frontal Deslizante de Agulhas / Bloco Seletor de Cores do Cabeçote (Needle Case Assembly &amp; Color Change Carriage) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=c-107-carcaca-frontal-deslizante-agulhas-bloco-seletor</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -5067,6 +5109,20 @@
   <!-- Verbete: [g-102-guia-fio-intermediario-barra-agulha-espiral-pigtail] Guia-Fio Intermediário da Barra de Agulha / Espiral de Passagem de Fio (Needle Bar Thread Guide &amp; Pigtail Wire) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=g-102-guia-fio-intermediario-barra-agulha-espiral-pigtail</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [g-103-guia-fio-rabo-de-porco-caixa-de-bobina-espiral-guia] Guia-Fio Tipo Rabo de Porco da Caixa de Bobina / Espiral Guia da Linha Inferior (Bobbin Case Pigtail Thread Guide &amp; Spiral Delivery Wire) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=g-103-guia-fio-rabo-de-porco-caixa-de-bobina-espiral-guia</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [g-104-gib-da-lacadeira-placa-retentora-pista-carcaca] Gib da Laçadeira / Placa Retentora da Pista da Carcaça Giratória (Rotary Hook Gib &amp; Raceway Retaining Plate) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=g-104-gib-da-lacadeira-placa-retentora-pista-carcaca</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -9355,6 +9411,20 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Verbete: [m-106-mola-segura-linha-superior-retentora-pos-corte] Mola Segura-Linha Superior do Cabeçote / Mola Retentora de Linha Pós-Corte (Upper Thread Holding Spring &amp; Pick-Up Spring Wire) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=m-106-mola-segura-linha-superior-retentora-pos-corte</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [m-107-mola-retorno-barra-agulha-recuperacao-superior] Mola de Retorno da Barra de Agulha / Mola de Recuperação Superior (Needle Bar Return Spring &amp; Recoil Spring) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=m-107-mola-retorno-barra-agulha-recuperacao-superior</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Verbete: [n-001-no-de-arremate-tie-off-lock-stitch] Nó de Arremate (Tie-off / Lock Stitch) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=n-001-no-de-arremate-tie-off-lock-stitch</loc>
@@ -11504,6 +11574,41 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Verbete: [p-107-pavio-de-feltro-lacadeira-filtro-lubrificacao-capilar] Pavio de Feltro da Laçadeira / Filtro de Lubrificação Capilar do Gancho Rotativo (Rotary Hook Oil Wick &amp; Felt Lubricating Filter) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=p-107-pavio-de-feltro-lacadeira-filtro-lubrificacao-capilar</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [p-108-palheta-tensora-caixa-de-bobina-mola-lamina-tensao] Palheta Tensora da Caixa de Bobina / Mola de Lâmina de Tensão Inferior (Bobbin Case Tension Leaf Spring &amp; Regulating Screw) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=p-108-palheta-tensora-caixa-de-bobina-mola-lamina-tensao</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [p-109-pino-central-cesto-lacadeira-eixo-ancoragem] Pino Central do Cesto da Laçadeira / Eixo de Ancoragem da Caixa de Bobina (Rotary Hook Center Stud &amp; Bobbin Case Spindle) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=p-109-pino-central-cesto-lacadeira-eixo-ancoragem</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [p-110-pino-arraste-barra-agulha-condutor-biela] Pino de Arraste da Barra de Agulha / Pino Condutor da Biela Principal (Needle Bar Driving Stud &amp; Connecting Drive Pin) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=p-110-pino-arraste-barra-agulha-condutor-biela</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [p-111-potenciometro-troca-cor-sensor-posicao-agulha] Potenciômetro de Troca de Cor / Sensor Absoluto de Posição da Agulha (Color Change Potentiometer &amp; Needle Position Sensor) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=p-111-potenciometro-troca-cor-sensor-posicao-agulha</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Verbete: [qualidade-do-bordado] Qualidade do Bordado -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=qualidade-do-bordado</loc>
@@ -12869,6 +12974,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Verbete: [r-096-roda-de-pulso-sensor-quebra-linha-polia-rotativa] Roda de Pulso do Sensor de Quebra de Linha / Polia Rotativa com Disco Óptico (Thread Break Sensor Pulley &amp; Rotary Pulse Chopper Wheel) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=r-096-roda-de-pulso-sensor-quebra-linha-polia-rotativa</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Verbete: [satin-stitch-ponto-cheio] Satin Stitch (Ponto Cheio) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=satin-stitch-ponto-cheio</loc>
@@ -13639,6 +13751,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Verbete: [s-111-solenoide-abertura-tensao-alivio-discos-tensores] Solenoide de Abertura de Tensão / Atuador de Alívio dos Discos Tensores no Corte de Linha (Tension Release Solenoid &amp; Thread Trimming Disk Opener) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=s-111-solenoide-abertura-tensao-alivio-discos-tensores</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Verbete: [tatami-ponto-tatami-fill-stitch] Tatami (Ponto Tatami / Fill Stitch) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=tatami-ponto-tatami-fill-stitch</loc>
@@ -14391,6 +14510,13 @@
   <!-- Verbete: [t-108-trava-de-seguranca-alavanca-calcador-sensor-altura] Trava de Segurança da Alavanca do Calcador e Sensor de Altura (Presser Foot Safety Lock &amp; Lifter Sensor) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=t-108-trava-de-seguranca-alavanca-calcador-sensor-altura</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [t-109-trilho-linear-troca-de-cor-guia-carcaca] Trilho Linear de Troca de Cor / Guia de Deslizamento da Carcaça Frontal (Color Change Carriage Guide Rail &amp; Linear Slide Track) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=t-109-trilho-linear-troca-de-cor-guia-carcaca</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

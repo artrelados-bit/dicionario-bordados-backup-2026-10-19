@@ -1531,7 +1531,216 @@ export const VERBETES_LETTER_G_PART14: Verbete[] = [
       "ARTRELADOS. O Último Porteiro da Linha: Segredos do Guia Pigtail, Alinhamento de Agulha e Ponto Perfeito. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "g-103-guia-fio-rabo-de-porco-caixa-de-bobina-espiral-guia",
+    "code": "G-103",
+    "term": "Guia-Fio Tipo Rabo de Porco da Caixa de Bobina / Espiral Guia da Linha Inferior (Bobbin Case Pigtail Thread Guide & Spiral Delivery Wire)",
+    "pronunciation": "guí-a fíu tí-pu rá-bu de pór-ku da kái-sha de bo-bí-na / es-pi-rál guí-a da lí-nha in-fe-ri-ór (bó-bin kêis píg-têil thrêd gáid end spái-ral de-lí-ve-ri uáir)",
+    "letter": "G",
+    "level": "Intermediário 🟡",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Criado e patenteado no Japão pela Towa Industrial Co., Ltd. e Sabun Industrial (Koban) entre as décadas de 1970 e 1980 para caixas de bobina de alto rendimento utilizadas em máquinas multivaretas de bordado tubular e de boné. O projeto helicoidal aberto foi desenvolvido para guiar a linha da bobina com trajeto perpendicular direto até a chapa de agulha sem aumentar a tensão de fricção e sem exigir ferramentas para passagem do fio.",
+    "summary": "Espiral helicoidal de arame de aço polido acoplada à extremidade da caixa de bobina que alinha a linha inferior diretamente sob o furo da agulha e impede chicoteamento ou aspiração do fio pelo redemoinho da laçadeira.",
+    "definition": "O Guia-Fio Tipo Rabo de Porco da Caixa de Bobina e Espiral Guia da Linha Inferior (tecnicamente denominado Bobbin Case Pigtail Thread Guide, Spiral Wire Thread Delivery Guide, Espiral Direcionadora da Bobina ou Rabicho da Caixa de Bobina) é a alça helicoidal de arame de aço inoxidável ou bronze fosforoso elástico fixada na extensão frontal superior da Caixa de Bobina (Bobbin Case). Sua função mecânica primária é atuar como o último ponto de direcionamento e estabilização geométrica da linha da bobina antes de sua subida vertical em direção à fenda da Chapa de Agulha (C-102). Após ser tracionada e dosada sob a Palheta Tensora (P-108) com a carga regulada de 18 gf a 25 gf, a linha inferior é laçada por uma volta completa dentro da espiral do pigtail. Essa geometria helicoidal proporciona três vantagens mecânicas vitais para o bordado computadorizado a mais de 1.000 PPM: 1) Alinhamento Central e Trajetória Reta: posiciona a saída do fio exatamente no centro do furo da agulha, evitando que a linha saia em ângulo diagonal e sofra atrito desnecessário na lateral do orifício da chapa; 2) Amortecimento Anti-Chicoteamento (Anti-Backlash Dampening): durante paradas bruscas, cortes automáticos de linha pelo trimmer e acelerações repentinas do pantógrafo, a espiral restringe o movimento inercial do fio, evitando que a ponta solta forme laçadas desordenadas; 3) Blindagem Aerodinâmica contra Sucção Turbilhonar: no bordado tubular em braço livre, a rotação ultrarrápida da carcaça da laçadeira a 2.400 RPM gera correntes de ar centrífugas que tendem a sugar a ponta da linha inferior para dentro da pista do cesto. O pigtail confina a linha em seu canal polido, impedindo que ela seja mastigada pelo cesto ou enrosque no pino central (P-109).",
+    "technicalDetails": "Confeccionado em arame de aço inoxidável trefilado mola (AISI 302/304) ou arame de bronze fosforoso de 0,8 mm a 1,0 mm de diâmetro, submetido a polimento eletroquímico e espelhamento mecânico ultrafino (Ra < 0,015 µm) para assegurar coeficiente de fricção praticamente nulo. A espiral possui diâmetro interno de 2,2 mm a 3,0 mm com abertura perimétrica de introdução de 0,6 mm a 0,8 mm, permitindo que a linha entre com um leve giro sem risco de escape espontâneo durante o bordado. Fixado ao corpo da caixa por solda de ponto de precisão ou rebite de aço cimentado com resistência à tração superior a 40 N.",
+    "construction": [
+      "Espiral Helicoidal de Guia (Pigtail Loop): Laço circular de arame de aço que retém o fio em 360° sem estrangular a passagem",
+      "Fenda Perimétrica de Entrada Rápida: Abertura calibrada que permite introduzir a linha com um movimento circular em 1 segundo",
+      "Haste de Ancoragem Estrutural: Braço metálico soldado ou cravado diretamente na parede frontal da caixa de bobina",
+      "Face Interna Eletropolida a Diamante: Superfície espelhada onde o fio de bobina desliza sem desgaste abrasivo nem desfilamento",
+      "Ponta Curva Arredondada (Nose Curl): Extremidade sem quinas vivas projetada para repelir o laço da linha superior",
+      "Geometria Elevada de Saída: Posiciona o fio ligeiramente acima do plano da caixa para um ângulo suave em direção à chapa"
+    ],
+    "howItWorks": [
+      "1. A operadora insere a carretilha cheia na caixa de bobina e passa a linha sob a Palheta Tensora.",
+      "2. Ao sair da palheta tensora, a ponta da linha é laçada dentro da espiral do Rabo de Porco com um leve giro dos dedos.",
+      "3. A linha agora está perfeitamente alinhada na vertical, apontando diretamente para o orifício da chapa de agulha.",
+      "4. Quando a agulha desce e a laçadeira fisga a linha superior, o laço de cima abraça a caixa de bobina por fora.",
+      "5. A linha inferior sobe esticada e estável pelo centro da espiral, sem vibrar nem se aproximar do cesto giratório.",
+      "6. No momento do corte da faca do trimmer, a espiral amortece a chicotada e mantém a sobra de linha em pé.",
+      "7. O início do próximo bordado ocorre sem falhas de laçada e sem perda do fio de bobina!"
+    ],
+    "beginnerExplanation": "O Guia-Fio Tipo Rabo de Porco da Caixa de Bobina é o 'rabinho enroladinho de porquinho' feito de arame brilhante que fica na pontinha de cima da sua caixinha de bobina! Depois que você passa a linha da bobina por baixo do freio (a palhetinha com o parafusinho), muita gente fica na dúvida: 'Passo a linha dentro desse araminho enrolado ou deixo solta?'. A resposta é: passe SEMPRE dentro dele! Ele funciona como uma guilhotina invertida de carinho: você dá uma voltinha com o fio e ele entra na espiral num estalo. Esse rabinho segura a linha de bobina bem no meio do caminho, apontando retinho para o buraco onde a agulha fura o tecido. Sem ele, a linha inferior ia ficar dançando solta para lá e para cá, e o vento forte que a laçadeira faz girando a mil por hora ia puxar a linha para dentro das engrenagens, embolando tudo!",
+    "applications": [
+      "Direcionamento axial e centralização precisa da linha da bobina rumo à chapa de agulha",
+      "Estabilização dinâmica do fio inferior em bordados industriais operando entre 800 e 1.200 PPM",
+      "Amortecimento da chicotada do fio durante o corte de linha automático e acionamento do trimmer",
+      "Prevenção absoluta de pontas soltas de linha sugadas pelo vórtice de ar da laçadeira rotativa",
+      "Padronização da alimentação de bobinas em caixas modelo Towa BC-DBM e BC-DBZ para bonés e tubulares"
+    ],
+    "mainTypes": [
+      "Pigtail Padrão Aberto em Espiral Simples (Universal nas caixas Towa para bordado industrial plano e tubular)",
+      "Pigtail de Espiral Dupla (Para linhas extra-finas ou filamentos contínuos escorregadios que exigem retenção extra)",
+      "Pigtail com Olhal Fechado (Exige passar a ponta da linha pelo orifício; comum em máquinas de costura pesada)",
+      "Caixa de Bobina sem Pigtail (Design liso clássico; comum em máquinas domésticas onde a laçadeira gira em baixa velocidade)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Excelente estabilidade operacional em qualquer rotação de 0 a 1.200 PPM",
+      "needleType": "Compatível com todas as agulhas industriais de bordado (DBxK5)",
+      "stabilizer": "Universal para todas as entretelas e suportes",
+      "threadTension": "A passagem pelo pigtail adiciona entre 1 e 2 gf de estabilização sem alterar a calibragem da palheta"
+    },
+    "advantages": [
+      "✔ Elimina o chicoteamento da linha inferior que provoca pontos soltos no avesso logo após o corte",
+      "✔ Facilíssima passagem: design em espiral aberta permite laçar o fio em menos de um segundo sem enfiador",
+      "✔ Impede que a ponta da linha caia na pista da laçadeira e seja mastigada ou encharcada de óleo",
+      "✔ Aço inoxidável polido que não enferruja, não cria rebarbas e não desfia fios sintéticos"
+    ],
+    "limitations": [
+      "Se a espiral sofrer batida mecânica, pode entortar ou fechar a fenda, prendendo a linha e arrebentando o ponto.",
+      "Se a bordadeira esquecer de passar a linha pelo pigtail, a linha da bobina fica instável e pode falhar no início do bordado."
+    ],
+    "commonErrors": [
+      "❌ Não passar a linha pelo pigtail por pressa na troca de bobina, deixando o fio sair solto e instável.",
+      "❌ Dar mais de uma volta na espiral achando que vai 'aumentar a tensão', travando a linha e quebrando o fio inferior.",
+      "❌ Tentar entortar o arame com alicate grosso para mudar o ângulo, quebrando a solda de fixação na caixa de bobina.",
+      "❌ Usar caixas de bobina com pigtail áspero ou riscado por quedas no chão, desfiando a linha de bobina a cada ponto."
+    ],
+    "troubleshootingTips": [
+      "A linha da bobina sempre escapa ou arrebenta no primeiro ponto logo após o trimmer cortar: A linha não foi passada pela espiral do pigtail ou a espiral está aberta demais; certifique-se de passar o fio pelo rabo de porco e, com uma pinça delicada, ajuste a fenda para cerca de 0,7 mm.",
+      "A tensão da bobina ficou extremamente dura de repente, mesmo com o parafuso solto: A linha foi enrolada duas vezes dentro do pigtail por engano ou deu um laço cego ao redor da haste; retire a linha e passe novamente com apenas uma volta simples.",
+      "A linha da bobina sai cheia de pelos brancos ou desfiada: O interior do arame do pigtail sofreu desgaste ou amassou em uma queda no chão e ganhou uma quina cortante; passe um fio de polimento ou substitua a caixa de bobina."
+    ],
+    "dicaArtrelados": "Faça a 'Regra da Meia-Volta da Artrelados' ao colocar a linha na caixa de bobina: 1) Puxe a linha por baixo da palheta tensora até ela encaixar na ranhura; 2) Segure a ponta da linha e faça um movimento suave de meia-lua contornando a espiral do rabinho de porco de fora para dentro. Você vai sentir a linha 'escorregar' para dentro do anel como mágica! Nunca puxe para cima com força bruta; o movimento é circular e suave. Esse segundo a mais na hora da troca garante que o seu bordado comece sem nenhuma falha de corte e sem pontas soltas!",
+    "voceSabia": "Muitas bordadeiras acreditavam no passado que o rabinho de porco servia para 'aumentar a tensão da bobina'. Estudos de engenharia mecânica realizados pela Sabun Industrial no Japão comprovaram que o pigtail quase não altera a tensão em repouso (aumenta menos de 1,5 gf), mas reduz a variação dinâmica de tensão em mais de 60% durante o bordado veloz, mantendo os pontos do avesso impecavelmente homogêneos!",
+    "practicalExercise": "Comparação Prática com e sem Pigtail: Pegue uma peça de teste. Borde um nome simples com a linha passada perfeitamente por dentro do pigtail da caixa de bobina. Em seguida, tire a caixa, tire a linha de dentro do pigtail (deixando-a passar apenas pela palheta tensora) e borde o mesmo nome ao lado. Vire no avesso: observe como a primeira amostra tem as bordas dos pontos perfeitamente retas e o início pós-corte limpo, enquanto a segunda apresenta pequenas oscilações e pontinhas soltas!",
+    "quickSummary": "Espiral helicoidal de arame polido na caixa de bobina que centraliza a saída da linha inferior rumo à chapa, prevenindo chicoteamento, nós e sucção pelo gancho rotativo.",
+    "relatedTerms": [
+      "Caixa de Bobina (Bobbin Case)",
+      "Palheta Tensora da Caixa de Bobina / Mola de Lâmina de Tensão Inferior",
+      "Alavanca de Trava da Caixa de Bobina / Trinco de Extração e Retenção da Bobina",
+      "Pino Central do Cesto da Laçadeira / Eixo de Ancoragem da Caixa de Bobina",
+      "Chapa de Agulha e Fenda de Costura (Needle Plate)",
+      "Laçadeira Rotativa (Rotary Hook)"
+    ],
+    "tags": [
+      "g-103",
+      "guia-fio-rabo-de-porco",
+      "pigtail-thread-guide",
+      "caixa-de-bobina",
+      "espiral-guia",
+      "bobbin-case",
+      "alinhamento-de-linha",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TOWA INDUSTRIAL CO., LTD. Bobbin Case Models BC-DBM & BC-DBZ: Pigtail Thread Guide Specifications. Tokyo: Towa, 2023.",
+      "KOBAN INDUSTRIAL HOOKS. Bobbin Thread Delivery Dynamics and Spiral Guide Applications in Embroidery. Osaka, 2022.",
+      "TAJIMA GROUP. Cap Embroidery and Tubular Frame Maintenance: Bobbin Case Threading Procedures. Nagoya: Tajima, 2023.",
+      "ARTRELADOS. O Rabinho de Porco que Salva o Ponto: Como Usar o Guia Pigtail da Bobina para Evitar Falhas no Bordado. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "g-104-gib-da-lacadeira-placa-retentora-pista-carcaca",
+    "code": "G-104",
+    "term": "Gib da Laçadeira / Placa Retentora da Pista da Carcaça Giratória (Rotary Hook Gib & Raceway Retaining Plate)",
+    "pronunciation": "guíb da la-sa-dêi-ra / plá-ka re-ten-tó-ra da pís-ta da kar-ká-sa ji-ra-tó-ria (rôu-ta-ri ruk guíb end rêis-uêi re-têi-ning plêit)",
+    "letter": "G",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "O termo 'Gib' deriva da engenharia mecânica clássica anglo-saxônica dos séculos XVIII e XIX, referindo-se a uma peça em cunha ou placa de ajuste projetada para reter e calibrar folgas de componentes deslizantes. Foi introduzido nas laçadeiras rotativas pela Wheeler & Wilson e Singer e padronizado em escala micrométrica no Japão pelas indústrias de engenharia de precisão Hirose Hooks e Koban (Sabun Industrial) a partir da década de 1960 para viabilizar rotações contínuas superiores a 2.000 RPM sem engripamento.",
+    "summary": "Placa curva retificada de aço cromo-níquel de alta precisão fixada por parafusos na carcaça giratória da laçadeira que fecha a pista circular e retém o cesto da bobina sob folga centesimal de deslizamento.",
+    "definition": "O Gib da Laçadeira e Placa Retentora da Pista da Carcaça Giratória (tecnicamente denominado Rotary Hook Gib, Hook Gib Plate, Placa Guia da Pista do Gancho, Tampa da Canaleta da Laçadeira ou Gib Retentor do Cesto) é o segmento de anel curvo em aço retificado de alta tenacidade montado e parafusado na borda frontal do Corpo Giratório da Laçadeira (C-105). Sua função mecânica primária é constituir a parede de fechamento anterior da pista circular retificada (raceway), mantendo a flange deslizante do Cesto da Laçadeira (C-104) rigidamente confinada dentro da canaleta de rotação enquanto a carcaça gira a velocidades angulares de até 2.400 RPM. Sem o Gib, o cesto da bobina seria ejetado para fora pela inércia e pela força centrífuga do movimento. O Gib é fixado tipicamente por dois ou três microparafusos de precisão (Gib Screws) assentados em orifícios escareados usinados com rigor centesimal. Ele estabelece uma folga axial de deslizamento calibrada rigidamente entre 0,03 mm e 0,06 mm em relação à flange do cesto. Essa folga é um dos parâmetros tribológicos mais críticos de toda a máquina de bordar: se for inferior a 0,02 mm, o filme de óleo entregue pelo Pavio de Feltro (P-107) é rompido e o cesto sofre engripamento térmico violento por dilatação; se exceder 0,08 mm, o cesto oscila e bate contra a ponta afiada da laçadeira, estragando o sincronismo (hook timing) e provocando batidas de agulha. Adicionalmente, o contorno externo e as quinas do Gib possuem acabamento espelhado a diamante (Ra ≤ 0,02 µm) para permitir que o laço de linha superior escorregue suavemente por cima dele ao contornar a caixa de bobina, sem sofrer o menor arranhão ou desfiamento.",
+    "technicalDetails": "Fabricado em aço cromo-níquel cementado e temperado (JIS SNCM420 ou SAE 8620) ou aço ferramenta JIS SKD11 com têmpera profunda e dureza de 60 a 64 HRC. A curvatura de contato da pista é retificada por eletroerosão a fio e brunimento cilíndrico com tolerância geométrica de circularidade e paralelismo de faces inferior a 0,003 mm. Os parafusos de fixação métricos M1,6 a M2,0 recebem torque de aperto calibrado entre 0,35 N·m e 0,50 N·m. Em laçadeiras para alta produção contínua, o Gib recebe revestimento superficial DLC (Diamond-Like Carbon) ou Nitreto de Titânio (TiN) para reduzir o coeficiente de atrito a seco para µ < 0,15.",
+    "construction": [
+      "Lâmina Curva Segmentada em Aço Ferramenta: Perfil em arco retificado com raio perfeitamente concêntrico à carcaça",
+      "Pista Interna Retificada de Deslizamento: Superfície espelhada onde desliza a aba cilíndrica do cesto da bobina",
+      "Furos Escareados de Fixação Micrométrica: Alojamentos de precisão que embutem as cabeças dos microparafusos sem sobressaltos",
+      "Borda Defletora de Linha Superior (Thread Passing Lip): Chanfro polido a diamante que guia o laço de linha sem corte",
+      "Ranhura de Drenagem e Distribuição de Óleo: Micro-canal que espalha o lubrificante vindo do pavio de feltro por toda a pista",
+      "Face Traseira de Encosto Usinada: Assentamento retificado plano contra o corpo da laçadeira que garante paralelismo absoluto"
+    ],
+    "howItWorks": [
+      "1. A flange do cesto da bobina é assentada dentro da pista usinada na carcaça giratória da laçadeira.",
+      "2. O Gib é posicionado sobre a abertura frontal da pista, fechando a canaleta como uma tampa protetora.",
+      "3. Os microparafusos do Gib são apertados com chave de fenda de precisão, mantendo a folga de 0,04 mm.",
+      "4. Quando a máquina borda a 1.000 PPM, a carcaça da laçadeira gira a 2.000 RPM levando o Gib consigo.",
+      "5. O Gib retém o cesto da bobina com firmeza absoluta no sentido axial, impedindo que ele salte para fora.",
+      "6. A linha superior fisgada pela ponta da laçadeira desliza suavemente sobre o perfil chanfrado do Gib.",
+      "7. Na manutenção preventiva periódica, o técnico solta os parafusos do Gib para extrair o cesto e remover fiapos presos!"
+    ],
+    "beginnerExplanation": "O Gib da Laçadeira é a 'tampa da pista de corrida' da sua máquina de bordar! Lembra da metáfora de que o cesto da bobina é uma cadeirinha que fica parada dentro de um carrossel que gira a mil por hora? Pois bem: se a pista não tivesse uma grade de proteção fechando a canaleta, a cadeirinha ia voar longe pela força do giro! O Gib é exatamente essa pecinha curva de aço prateado, presa por dois ou três parafusinhos minúsculos na borda da laçadeira, que serve de cerca de segurança. Ela prende o cesto lá dentro, mas deixa uma folguinha microscópica (menor que a espessura de uma folha de papel de seda!) para o cesto deslizar macio e ensopadinho de óleo. Quando a máquina quebra uma agulha feio e a linha começa a desfiar, muitas vezes a agulha bateu na beiradinha do Gib e deixou uma lasquinha afiada. E é desparafusando o Gib que o técnico consegue abrir a laçadeira por dentro para fazer uma faxina completa!",
+    "applications": [
+      "Fechamento mecânico frontal da pista circular de corrida do cesto da laçadeira rotativa",
+      "Retenção axial segura do porta-cápsula contra as forças de ejeção centrífugas a até 2.400 RPM",
+      "Calibração centesimal da folga de deslizamento da flange do cesto (0,03 mm a 0,06 mm)",
+      "Guia defletora para a passagem livre e suave do laço de linha superior durante o ciclo do ponto 301",
+      "Acesso e desmontagem rápida do cesto para remoção de nós de linha engripados e higienização profunda"
+    ],
+    "mainTypes": [
+      "Gib Padrão Retificado em Aço Cromo-Níquel (Universal em laçadeiras industriais Koban e Hirose tipo DBM)",
+      "Gib com Revestimento DLC / TiN Dourado (Ultra-resistente ao desgaste por atrito e abrasão de linhas técnicas)",
+      "Gib de Perfil Rebaixado para Bordado Tubular (Otimizado para passar linhas grossas sem prender no braço livre)",
+      "Gib com Parafusos de Cabeça Cônica Auto-Centralizadora (Garante concentricidade perfeita a cada remontagem)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Projetado para resistir a forças inerciais severas em velocidades de 0 a 1.200 PPM",
+      "needleType": "Distância de segurança da ponta do Gib à agulha calibrada entre 0,15 mm e 0,25 mm",
+      "stabilizer": "Universal para todas as entretelas",
+      "threadTension": "Folga axial de trabalho entre o Gib e a flange do cesto: rigorosamente 0,04 mm a 0,05 mm"
+    },
+    "advantages": [
+      "✔ Retenção mecânica sólida que suporta centenas de milhões de rotações sem deformação de pista",
+      "✔ Polimento diamantado (Ra ≤ 0,02 µm) que reduz a fricção e elimina o risco de corte da linha superior",
+      "✔ Sistema desmontável por parafusos: permite desengripar laçadeiras travadas por linhas sem precisar trocá-las",
+      "✔ Aço temperado a 64 HRC que resiste a pequenas batidas acidentais de agulha sem rachar"
+    ],
+    "limitations": [
+      "Se os parafusos do Gib forem apertados em excesso ou com sujeira por baixo, a pista entorta e a laçadeira engripa.",
+      "Se uma agulha quebrar e bater na quina do Gib, a rebarba criada arrebentará a linha a cada 10 pontos."
+    ],
+    "commonErrors": [
+      "❌ Apertar os parafusos do Gib com o cesto fora de centro, travando a rotação e forçando o motor da máquina.",
+      "❌ Usar chave de fenda com ponta gasta que espana a fenda dos microparafusos do Gib, inviabilizando sua remoção.",
+      "❌ Esquecer de reapertar firmemente os parafusos após limpeza da pista, fazendo o Gib soltar durante o bordado e destruir a laçadeira.",
+      "❌ Montar o Gib invertido ou sem limpar fiapos na base de encosto, descalibrando a folga axial da pista."
+    ],
+    "troubleshootingTips": [
+      "A linha superior desfia ou estoura repetidamente e o volante parece prender levemente ao girar: Uma ponta de agulha quebrada bateu na borda do Gib e deixou uma mossa ou rebarba; passe a unha no contorno do Gib para localizar o ponto áspero e faça um polimento com pedra de Arkansas ou lixa d'água 2.000 lubrificada com óleo.",
+      "A laçadeira fica dura para girar manualmente logo após uma limpeza de rotina: Um fiapinho de linha ficou prensado sob a base do Gib ao recolocá-lo, ou os parafusos foram apertados desalinhados; solte os parafusos, limpe o leito com pincel, reposicione o Gib e aperte alternadamente aos poucos verificando a leveza do cesto.",
+      "O cesto da bobina chacoalha com barulho metálico excessivo durante o bordado: Os parafusos do Gib afrouxaram pela vibração ou a pista do Gib sofreu desgaste após anos de trabalho a seco; reaperte os parafusos com torque adequado ou substitua o Gib."
+    ],
+    "dicaArtrelados": "O 'Segredo dos Parafusos Alternados da Artrelados' ao montar o Gib: nunca aperte um parafuso do Gib até o fundo de uma só vez! Os parafusos do Gib devem ser apertados exatamente como as porcas de roda de um carro esportivo: aperte um pouquinho o primeiro, um pouquinho o segundo, depois o terceiro; gire o cesto com os dedos para sentir se ele continua rodando macio e solto como uma pluma; depois dê o aperto final em cada um! Se você apertar um sozinho até o fim, a placa entorta meio centésimo de milímetro e o cesto prende na hora!",
+    "voceSabia": "A tolerância de folga entre o Gib e o cesto da laçadeira (0,04 mm) é menor do que a espessura de uma folha de papel sulfite comum (que mede 0,10 mm)! É por essa razão que um único fiapinho de linha de poliéster 120 (que mede cerca de 0,12 mm) preso na pista sob o Gib é capaz de travar completamente uma máquina industrial de 12 cabeças operando a toda velocidade!",
+    "practicalExercise": "O Teste de Folga e Leveza do Cesto Retido pelo Gib: Com a máquina desligada e a chapa de agulha retirada, empurre levemente o cesto da bobina para a frente e para trás com o indicador. Você deve sentir um minúsculo 'jogo' tátil quase imperceptível (cerca de 0,04 mm) acompanhado de um ruído metálico seco e suave ('tlac-tlac'), e ao soltar o cesto, ele deve girar com a leveza de uma brisa dentro da carcaça. Se não houver folga nenhuma e o cesto estiver pesado, o Gib está muito apertado ou a pista está ressecada!",
+    "quickSummary": "Lâmina curva retificada de aço temperado fixada por microparafusos na carcaça giratória que fecha a pista e retém o cesto da bobina sob folga centesimal precisa.",
+    "relatedTerms": [
+      "Corpo Giratório da Laçadeira / Carcaça Externa do Gancho Rotativo",
+      "Cesto da Laçadeira / Porta-Cápsula da Bobina no Gancho Rotativo",
+      "Pavio de Feltro da Laçadeira / Filtro de Lubrificação Capilar do Gancho Rotativo",
+      "Pino Central do Cesto da Laçadeira / Eixo de Ancoragem da Caixa de Bobina",
+      "Laçadeira Rotativa (Rotary Hook)",
+      "Sincronismo da Laçadeira (Hook Timing)"
+    ],
+    "tags": [
+      "g-104",
+      "gib-da-lacadeira",
+      "hook-gib",
+      "placa-retentora",
+      "pista-de-deslizamento",
+      "carcaca-giratoria",
+      "cesto-lacadeira",
+      "mecanica-fina",
+      "manutencao",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "HIROSE HOOK MANUFACTURING CO. Hook Gib Adjustment, Clearance Tolerances & Maintenance Manual. Osaka, 2023.",
+      "KOBAN INDUSTRIAL HOOKS. Rotary Hook Gib Replacement and Raceway Calibration Guide. Osaka: Sabun Industrial Co., 2022.",
+      "TAJIMA GROUP. Multi-Head Rotary Hook Overhaul, Gib Cleaning & Timing Manual. Nagoya: Tajima, 2023.",
+      "ARTRELADOS. A Tampa da Pista: Como Regular o Gib da Laçadeira, Evitar Engripamentos e Salvar a Sua Máquina. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
   }
 ];
+
+
 
 

@@ -2267,6 +2267,214 @@ export const VERBETES_LETTER_M_PART14: Verbete[] = [
       "ARTRELADOS. O Freio Invisível da Carretilha: Segredos da Mola Anti-Giro, Fim dos Ninhos e Tensão Perfeita. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "m-106-mola-segura-linha-superior-retentora-pos-corte",
+    "code": "M-106",
+    "term": "Mola Segura-Linha Superior do Cabeçote / Mola Retentora de Linha Pós-Corte (Upper Thread Holding Spring & Pick-Up Spring Wire)",
+    "pronunciation": "mó-la se-gú-ra lí-nha su-pe-ri-ór do ka-be-só-te / mó-la re-ten-tó-ra de lí-nha pós-kór-te (á-per thrêd hôul-ding spring end pík-ap spring uáir)",
+    "letter": "M",
+    "level": "Intermediário 🟡",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Desenvolvida no Japão pela Tajima e Barudan no final da década de 1970 com o advento das primeiras máquinas de bordar multiagulhas com corte automático inferior (Under-Bed Thread Trimmer). Antes de sua invenção, a chicotada ascendente do estica-fio ao retornar aos 100° pós-corte frequentemente despassava a agulha recém-cortada, obrigando a introdução de uma mola de retenção resiliente montada na parte frontal do bloco de agulhas.",
+    "summary": "Arame elástico de aço harmônico curvado em gancho ou espiral posicionado acima do prendedor de agulha que retém levemente a ponta da linha superior após o corte do trimmer, impedindo que o fio escape do olho da agulha no recomeço do bordado.",
+    "definition": "A Mola Segura-Linha Superior do Cabeçote e Mola Retentora de Linha Pós-Corte (tecnicamente denominada Upper Thread Holding Spring, Pick-Up Spring Wire, Thread Retaining Spring, Mola Pega-Fio do Bloco de Agulhas ou Mola Trava-Linha da Troca de Cor) é o componente elástico passivo montado na régua frontal do bloco deslizante de agulhas (Needle Case) ou integrado logo acima do parafuso prendedor de cada agulha (Needle Clamp). Sua função mecânica e operacional é atuar como uma pinça elástica de retenção temporária para a extremidade cortada da linha superior. Quando a faca móvel do trimmer executa o corte sob a chapa de agulha e a alavanca puxa-fio (estica-fio) completa seu curso ascendente até a posição angular de parada a 100°, a linha superior sofre uma rápida aceleração para cima. A Mola Segura-Linha abraça a linha com uma pressão de retenção calibrada de 2 gf a 5 gf: firme o suficiente para evitar que o chicoteamento puxe o rabo de linha para fora do furo da agulha (despassando o fio), mas flexível e suave o bastante para que, no instante em que a barra de agulha desce para dar o primeiro ponto da próxima cor ou salto de bastidor, a linha se desprenda do arame sem oferecer resistência, formando a laçada perfeita com a lançadeira rotativa sem ruptura.",
+    "technicalDetails": "Confeccionada em fio de aço-mola de alto carbono estufado (aço harmônico JIS G3521 SWIC ou aço inoxidável AISI 302 temperado) com diâmetro calibrado entre 0,4 mm e 0,6 mm. O arame possui extremidade arredondada por polimento eletroquímico ou brunimento abrasivo (Ra ≤ 0,025 µm) para evitar qualquer corte ou desgaste abrasivo na linha de poliéster ou viscose. Fixada por microparafusos M2 ou cravada sob pressão em buchas plásticas na régua guia do cabeçote. A força de deflexão elástica nominal situa-se entre 0,03 N e 0,06 N, assegurando retenção estática do fio e liberação dinâmica instantânea no primeiro ciclo de penetração.",
+    "construction": [
+      "Haste de Ancoragem e Fixação: Base metálica reta prensada ou parafusada na chapa frontal do bloco de agulhas",
+      "Corpo Arqueado de Flexão Elástica: Seção de arame mola temperado que absorve impactos e oscilações do cabeçote",
+      "Alça de Retenção em Gancho ou Espiral (Wire Loop): Vão calibrado onde a ponta da linha repousa sob suave pressão",
+      "Ponta Polida Anti-Abrasão (Rounded Nose): Extremidade sem quinas vivas para não desfiar filamentos ao liberar a linha",
+      "Alojamento de Calibração de Altura: Fenda de regulagem que permite aproximar ou afastar a mola em relação à haste da agulha",
+      "Tratamento Superficial Niquelado ou Cromado: Proteção anticorrosiva que mantém o arame espelhado por anos"
+    ],
+    "howItWorks": [
+      "1. A máquina conclui a sequência de uma cor e o trimmer corta a linha superior embaixo da chapa de agulha.",
+      "2. O estica-fio sobe para a posição de 100°, puxando a sobra de linha cerca de 3 a 5 cm para cima.",
+      "3. A ponta cortada da linha superior se apoia na curva elástica da Mola Segura-Linha.",
+      "4. A mola retém a pontinha do fio com uma pressão delicada, mantendo-a apontada para baixo e impedindo que ela fuja pelo olho da agulha.",
+      "5. O cabeçote faz a troca de cor (Color Change), deslocando o bloco de agulhas para a direita ou esquerda.",
+      "6. Na partida da nova agulha, a barra desce; a ponta da linha é puxada para dentro do tecido e se solta suavemente da mola.",
+      "7. O primeiro ponto é laçado com sucesso embaixo pela laçadeira sem falhas e sem despassar a agulha!"
+    ],
+    "beginnerExplanation": "A Mola Segura-Linha Superior é a 'mãozinha invisível' que segura a pontinha da linha para ela não fugir do buraco da agulha! Sabe quando a máquina corta a linha para trocar de cor ou saltar de uma letra para outra, e o estica-fio dá aquele puxão para cima? Se não tivesse nada segurando a ponta da linha ali perto da agulha, o puxão ia sugar a linha inteira para fora do furinho, e você teria que parar a máquina, pegar a pinça e enfiar a linha na agulha tudo de novo! A mola segura-linha é aquele araminho brilhante e fininho que fica bem em cima da agulha. Ela dá um 'beliscãozinho' super carinhoso na linha — forte o bastante para o vento e o tranco não levarem o fio embora, mas leve como um beijo para a linha se soltar sozinha no primeiro ponto que a máquina furar o tecido!",
+    "applications": [
+      "Retenção passiva e segura da cauda da linha superior após corte automático do trimmer",
+      "Prevenção absoluta de despassamento de agulha (agulha sem linha) no início de blocos de bordado",
+      "Estabilização de pontas de linha durante movimentos rápidos de troca de cor (Color Change)",
+      "Padronização do comprimento da ponta de linha inicial para avessos limpos sem pontas compridas",
+      "Compatibilidade com máquinas multiagulhas industriais e semicomerciais de 1 a 20 agulhas por cabeçote"
+    ],
+    "mainTypes": [
+      "Mola Segura-Linha em Arame Simples em Gancho (Padrão clássico Tajima, Barudan e Happy)",
+      "Mola em Espiral Helicoidal Dupla (Garante retenção superior para linhas escorregadias de viscose e seda)",
+      "Mola Retentora Integrada na Guia de Barra de Agulha (Montada individualmente em cada haste de agulha)",
+      "Sistema de Retenção Magnética com Palheta Auxiliar (Presente em cabeçotes eletrônicos ultra-silenciosos de última geração)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Suporta desacelerações bruscas e retomadas instantâneas de 0 a 1.200 PPM",
+      "needleType": "Compatível com agulhas DBxK5 de espessura 65/9 a 90/14",
+      "stabilizer": "Universal para todas as entretelas",
+      "threadTension": "A pressão de retenção do arame deve ser mínima (2 a 5 gf), suficiente apenas para segurar o peso da sobra de linha"
+    },
+    "advantages": [
+      "✔ Elimina o despassamento automático da agulha após o corte, economizando dezenas de paradas por hora",
+      "✔ Mantém a ponta da linha sempre orientada na vertical, facilitando a captura pela laçadeira no 1º ponto",
+      "✔ Peça simples, de altíssima durabilidade e sem componentes elétricos propensos a falhas",
+      "✔ Arame polido a diamante que não marca, não amassa e não desfia fios finos de poliéster ou metálicos"
+    ],
+    "limitations": [
+      "Se o arame for entortado com força por um esbarrão, ele pode apertar demais a linha e arrebentar o fio no 1º ponto.",
+      "Se a mola ficar muito aberta ou amassada para trás, a linha não é retida e a agulha despassa no corte."
+    ],
+    "commonErrors": [
+      "❌ Puxar panos ou bastidores com força esbarrando nas molas e entortando os arames para os lados.",
+      "❌ Apertar o arame com alicate grosso achando que precisa 'prender com força', travando a linha e quebrando agulha.",
+      "❌ Não passar a linha pelo vão da mola na hora de passar a linha na agulha, deixando o fio solto no ar.",
+      "❌ Deixar linha quebrada embaraçada no arame da mola, acumulando tensão extra e desfiando o bordado."
+    ],
+    "troubleshootingTips": [
+      "Toda vez que a máquina corta a linha e troca para uma cor específica, a linha escapa do olho da agulha no primeiro ponto: A mola segura-linha daquela agulha está amassada para fora ou frouxa demais; com uma pinça delicada, empurre suavemente o arame para mais perto da haste até ele encostar levemente na linha sem estrangular.",
+      "A linha arrebenta logo no primeiro ponto após a troca de cor: O arame da mola foi amassado com muita pressão contra a barra de agulha e está prensando o fio como um alicate; afaste o arame cerca de meio milímetro para que a linha corra macia.",
+      "A ponta inicial do bordado está ficando com um fiapo comprido de 5 cm no lado direito do tecido: O trimmer está deixando muita sobra de linha ou a mola segura-linha está fora da posição correta; alinhe a altura da mola conforme o gabarito do manual."
+    ],
+    "dicaArtrelados": "O 'Ajuste da Pinça de Sobrancelha da Artrelados': Se você notar que a linha de uma agulha específica vive escapando do buraquinho logo após o corte, nunca use um alicate de eletricista para entortar a molinha! Pegue a sua pinça de ponta fina de passar linha (ou uma pinça comum de sobrancelha) e aperte delicadamente a curvinha do arame bem na base. Dê um toque minúsculo de meio milímetro para dentro. Teste passando um pedacinho de linha: ao puxar com a mão, você deve sentir a linha deslizar macia como se estivesse passando entre as cerdas de uma escova de dentes macia! Essa calibragem cirúrgica acaba com o despassamento de agulha para sempre no seu ateliê!",
+    "voceSabia": "Em uma produção de uniformes com 10.000 peças bordadas contendo 5 trocas de cor cada, a máquina executa 50.000 cortes automáticos de linha! Se as molas segura-linha estiverem desreguladas e falharem em apenas 1% dos cortes, a bordadeira terá que enfiar a agulha na mão 500 vezes, perdendo mais de 3 horas de produção útil de trabalho!",
+    "practicalExercise": "O Teste de Retenção e Liberação da Linha Superior: Com a agulha passada, corte a linha manualmente sob a chapa deixando cerca de 4 cm de ponta. Encaixe a linha no araminho da mola segura-linha. Agora, gire o volante da máquina bem devagar com a mão fazendo a agulha descer: observe como a mola segura o fio até a agulha quase furar o tecido e, no instante certo, solta a pontinha suavemente. É a harmonia mecânica em ação!",
+    "quickSummary": "Arame elástico de aço montado acima da agulha que segura levemente a ponta da linha após o corte do trimmer, impedindo o despassamento no início da próxima costura.",
+    "relatedTerms": [
+      "Barra de Agulha e Parafuso de Fixação (Needle Bar & Needle Clamp)",
+      "Agulha DBxK5",
+      "Navalha Móvel e Navalha Fixa do Corte de Linha (Lâminas do Trimmer / Moving & Fixed Knife)",
+      "Troca Automática de Cores (Color Change)",
+      "Lâmina Segura-Fio do Trimmer / Mola Retentora da Linha da Bobina na Faca Fixa",
+      "Alavanca Puxa-Fio (Thread Take-Up Lever)"
+    ],
+    "tags": [
+      "m-106",
+      "mola-segura-linha",
+      "mola-retentora",
+      "pick-up-spring",
+      "upper-thread-holder",
+      "despassamento-de-agulha",
+      "pos-corte",
+      "mecanica",
+      "cabecote",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Needle Case Assembly, Upper Thread Holding Spring Adjustment & Maintenance. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Multi-Head Needle Bar & Thread Retaining Wire Alignment Standards. Ichinomiya, 2022.",
+      "HAPPY JAPAN. Technical Service Manual: Needle Clamp Thread Springs & Trimmer Recovery. Yamagata, 2023.",
+      "ARTRELADOS. Adeus Agulha Despassada: Como Regular a Mola Segura-Linha Superior e Produzir sem Paradas. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "m-107-mola-retorno-barra-agulha-recuperacao-superior",
+    "code": "M-107",
+    "term": "Mola de Retorno da Barra de Agulha / Mola de Recuperação Superior (Needle Bar Return Spring & Recoil Spring)",
+    "pronunciation": "mó-la de re-tór-nu da bár-ra de a-gú-lha / mó-la de re-ku-pe-ra-sãw su-pe-ri-ór (ní-dl bar ri-têrn spring end rí-kóil spring)",
+    "letter": "M",
+    "level": "Intermediário 🟡",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Originada nos sistemas mecânicos de costura e aperfeiçoada com as máquinas de bordar automáticas japonesas (Tajima, Barudan e Brother) nas décadas de 1970 e 1980. O princípio de recuperação elástica por mola helicoidal de compressão axial foi adotado para desacoplar a barra de agulha do mecanismo condutor excêntrico após cada ciclo de ponto, viabilizando o movimento lateral independente da carcaça de agulhas (Needle Case) durante a troca automática de cores (Color Change) sem que as agulhas inativas ficassem projetadas para baixo.",
+    "summary": "Mola helicoidal cilíndrica de compressão montada ao redor da haste da barra de agulha que impulsiona a barra instantaneamente de volta ao ponto morto superior, mantendo-a armada no topo e evitando colisões na troca de cor.",
+    "definition": "A Mola de Retorno da Barra de Agulha e Mola de Recuperação Superior (tecnicamente denominada Needle Bar Return Spring, Needle Bar Recoil Spring, Mola de Rearme da Barra ou Mola de Suspensão de Agulha Inativa) é o elemento elástico helicoidal de compressão instalado concentricamente ao redor da haste cilíndrica de cada barra de agulha, situado no vão axial entre a bucha inferior da carcaça e o bloco condutor da agulha (Needle Bar Driver / Guide Block). Sua função primordial na cinemática do cabeçote é assegurar o retorno mecânico ultrarrápido da barra de agulha ao Ponto Morto Superior (PMS) assim que o pino condutor do excêntrico principal completa a fase de penetração e ascensão. Quando a barra de agulha é selecionada para bordar, o condutor empurra a haste para baixo, comprimindo a mola e armazenando energia potencial elástica. Conforme a biela sobe, a mola se expande instantaneamente, empurrando a barra de agulha para cima contra o batente com amortecedor elastomérico. Adicionalmente, quando o cabeçote realiza a troca automática de cor (Color Change) e o pino condutor desengata da agulha atual para engatar na próxima, é a Mola de Retorno que mantém a agulha inativa rigidamente travada no topo. Se essa mola perder sua constante elástica ou se romper, a barra de agulha despenca pela ação da gravidade, colidindo violentamente contra a chapa, a carcaça ou o bastidor durante o deslocamento horizontal do cabeçote.",
+    "technicalDetails": "Fabricada em fio de aço-corda para piano de alto carbono estufado JIS G3522 SWP-A/B ou aço inoxidável mola AISI 302 temperado, com diâmetro de fio calibrado entre 0,7 mm e 0,9 mm. O diâmetro externo da espiral situa-se entre 8,0 mm e 9,5 mm (com diâmetro interno livre de 6,4 mm a 7,2 mm para permitir folga radial com a barra de agulha de 6,0 mm sem atrito parasita). Comprimento livre inicial de 65 mm a 85 mm, número de espiras ativas entre 22 e 32 com extremidades esquadrejadas e retificadas (Square & Ground Ends). A constante elástica (k) varia de 0,15 N/mm a 0,28 N/mm, desenvolvendo força de retenção estática no PMS de 3,5 N a 5,0 N, suficiente para resistir a acelerações inerciais de até 15G em trocas de cor em menos de 0,4 segundo.",
+    "construction": [
+      "Corpo Helicoidal Cilíndrico em Fio de Aço-Mola Temperado (SWP-A / AISI 302)",
+      "Espiras com Passo Uniforme para Deformação Axial Perfeitamente Linear",
+      "Extremidades Esquadrejadas e Retificadas Planas para Apoio Firme sem Inclinação",
+      "Diâmetro Interno Calibrado com Folga Livre para Deslizamento sem Tocar na Barra",
+      "Tratamento Térmico de Alívio de Tensões após Enrolamento a Frio (250°C - 300°C)",
+      "Revestimento Superficial Fosfatizado ou Niquelado com Alta Resistência ao Óleo Mineral"
+    ],
+    "howItWorks": [
+      "1. A máquina engata o condutor na barra de agulha selecionada para a sequência de bordado.",
+      "2. O condutor desce empurrando a barra; a Mola de Retorno é comprimida acumulando energia elástica.",
+      "3. A agulha perfura o tecido, a laçadeira rotativa captura o laço da linha e a biela inicia o retorno.",
+      "4. A Mola de Retorno empurra vigorosamente a barra para cima, auxiliando o motor principal a vencer a inércia.",
+      "5. No topo do curso (Ponto Morto Superior), o amortecedor de borracha dissipa o choque de chegada.",
+      "6. Ao finalizar a cor, o condutor desengata da barra; a mola mantém a agulha armada e erguida no teto da canaleta.",
+      "7. O cabeçote se move suavemente de lado (Color Change) sem que nenhuma agulha raspe ou bata no bastidor!"
+    ],
+    "beginnerExplanation": "A Mola de Retorno da Barra de Agulha é como o 'pula-pula interno' da agulha da sua máquina! Toda vez que a máquina fura o tecido, a máquina empurra a barra de agulha para baixo com muita força. Essa mola espiral, que fica enrolada na barra de ferro, é esmagada feito uma sanfona. Assim que a agulha termina de furar o pano, a mola dá um pulo elástico e joga a barra de volta lá para cima num piscar de olhos! E tem mais: sabe quando a máquina termina uma cor e o cabeçote corre para o lado para pegar a próxima cor? Todas as agulhas que estão 'dormindo' precisam ficar quietinhas lá no alto, encolhidas. Se uma dessas molas quebrar ou ficar fraca, a agulha cai solta para baixo. Aí, na hora que o cabeçote correr de lado, a agulha caída bate com tudo na chapa ou no bastidor e quebra no meio com um barulho assustador! Essa molinha é a sentinela que mantém cada agulha no seu devido lugar!",
+    "applications": [
+      "Retorno elástico instantâneo da barra de agulha ao Ponto Morto Superior após a formação do ponto",
+      "Sustentação gravitacional e travamento superior das barras de agulha inativas durante a operação",
+      "Prevenção absoluta de colisões de agulhas caídas contra o bastidor na troca automática de cores",
+      "Alívio de carga inercial no eixo excêntrico principal em regimes severos de até 1.200 PPM",
+      "Estabilização do ciclo de disparo em máquinas multiagulhas industriais de 1 a 24 cabeçotes"
+    ],
+    "mainTypes": [
+      "Mola Helicoidal Padrão em Aço-Carbono Fosfatizado (Montagem de fábrica Tajima, Barudan e Brother)",
+      "Mola em Aço Inoxidável Polido (Ideal para ateliês litorâneos com alta umidade e maresia)",
+      "Mola de Passo Progressivo (Com espiras mais juntas na base para amortecimento progressivo superior)",
+      "Conjunto de Mola com Tubo Protetor Anti-Vibração (Utilizado em cabeçotes eletrônicos ultra-rápidos)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Projetada para operar de 0 a 1.200 PPM com ciclagem de até 20 Hz sem fadiga elástica",
+      "needleType": "Compatível com todas as barras de agulha de 6,0 mm (sistema DBxK5)",
+      "stabilizer": "Universal para todas as entretelas e tipos de bordado",
+      "threadTension": "A força da mola garante que a barra suba completamente antes do estica-fio puxar a laçada"
+    },
+    "advantages": [
+      "✔ Garante que as agulhas inativas nunca despenquem sobre o bastidor durante o trabalho",
+      "✔ Vida útil extrema de centenas de milhões de compressões sem perda da constante elástica",
+      "✔ Auxilia o motor principal, reduzindo o consumo de energia e o aquecimento do cabeçote",
+      "✔ Facilidade de inspeção visual: basta observar se todas as barras estão alinhadas no topo"
+    ],
+    "limitations": [
+      "Após muitos anos de uso contínuo, a mola pode perder comprimento livre (fadiga por fluência), reduzindo a pressão no topo.",
+      "Fios de linha arrebentados que se enrolam entre as espiras podem travar a mola e impedir o curso completo da agulha."
+    ],
+    "commonErrors": [
+      "❌ Puxar a mola com a mão para 'esticar' quando ela fica fraca, deformando as espiras e descalibrando a força.",
+      "❌ Ignorar uma agulha que fica meio caída após a troca de cor, arriscando uma colisão fatal no bastidor.",
+      "❌ Deixar acúmulo de fiapos e graxa seca entre as espiras da mola, impedindo o fechamento total da espiral.",
+      "❌ Instalar molas com diâmetro interno muito justo que raspam na barra de agulha e provocam travamentos."
+    ],
+    "troubleshootingTips": [
+      "Uma agulha específica não sobe até o batente do topo e fica 1 centímetro mais baixa que as outras: A mola de retorno daquela agulha partiu ao meio ou está com fadiga severa; desmonte o bloco condutor e instale uma mola nova imediatamente antes de bordar.",
+      "A máquina deu erro de travamento no motor de troca de cor (Color Change Error): Uma das agulhas inativas caiu porque sua mola quebrou e a ponta da barra bateu na guia lateral durante o deslocamento; erga a agulha manualmente, limpe os fragmentos e substitua a mola.",
+      "A barra de agulha parece lenta para subir e a linha superior fica frouxa no início do ponto: A mola está cheia de poeira de linha empastada com óleo velho; lave a mola e a barra com desengraxante suave e aplique algumas gotas de óleo mineral novo."
+    ],
+    "dicaArtrelados": "O 'Teste do Toque de Piano da Artrelados': Quer verificar todas as molas de retorno do seu cabeçote em menos de 10 segundos? Com a máquina desligada, passe a ponta do seu dedo indicador empurrando cada barra de agulha para baixo, uma por uma, cerca de 1 a 2 centímetros, e solte imediatamente (como se estivesse dedilhando teclas pesadas de um piano!). Você deve sentir uma resistência firme e, ao soltar, a barra tem que disparar de volta para cima fazendo um 'ploc' seco e instantâneo no amortecedor. Se alguma agulha subir devagar, com preguiça ou ficar no meio do caminho, você encontrou a mola que precisa de atenção antes que ela quebre seu bastidor!",
+    "voceSabia": "Em um bordado denso executado a 1.000 pontos por minuto, a mola de retorno da barra de agulha ativa é comprimida e liberada 60.000 vezes por hora! Isso significa que, ao longo de um único mês de trabalho em um ateliê movimentado, essa pequena espiral de aço se deforma e recupera mais de 10 milhões de vezes sem perder a elasticidade!",
+    "practicalExercise": "Verificação de Alinhamento Visual no Topo: Olhe horizontalmente para a frente do seu bloco de agulhas. Os parafusos de fixação ou as pontas dos condutores de todas as agulhas devem formar uma linha perfeitamente reta e nivelada. Se uma das agulhas estiver 2 milímetros mais baixa que as vizinhas, desça-a manualmente e inspecione a mola de retorno!",
+    "quickSummary": "Mola de compressão em aço montada na barra de agulha que a faz retornar imediatamente ao topo e impede que agulhas inativas caiam sobre o bastidor na troca de cor.",
+    "relatedTerms": [
+      "Barra de Agulha e Parafuso de Fixação (Needle Bar & Needle Clamp)",
+      "Amortecedor de Borracha da Barra de Agulha / Anel Batente de Impacto do Cabeçote",
+      "Bucha da Barra de Agulha / Guia de Deslizamento em Bronze Autolubrificante",
+      "Troca Automática de Cores (Color Change)",
+      "Motor de Troca de Cor (Color Change Motor)",
+      "Mola de Compressão do Pé Calcador e Amortecedor"
+    ],
+    "tags": [
+      "m-107",
+      "mola-de-retorno",
+      "barra-de-agulha",
+      "recoil-spring",
+      "troca-de-cor",
+      "ponto-morto-superior",
+      "mecanica",
+      "manutencao",
+      "cabecote",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Multi-Head Needle Bar Recoil Springs & Color Change Safety Standards. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Needle Case Driving Stud & Return Spring Maintenance Manual. Ichinomiya, 2022.",
+      "BROTHER INDUSTRIES. Professional Embroidery Machine Head Mechanism & Spring Diagnostics. Nagoya, 2023.",
+      "ARTRELADOS. O Pula-Pula da Precisão: Segredos da Mola de Retorno da Agulha e Como Evitar Batidas no Bastidor. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
   }
 ];
 
