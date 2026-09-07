@@ -2165,8 +2165,111 @@ export const VERBETES_LETTER_M_PART14: Verbete[] = [
       "ARTRELADOS. A Dança Suave da Linha: Segredos da Check Spring, Linhas Metálicas e Ponto Perfeito. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "m-105-mola-retencao-linha-bobina-anti-giro-freio-bobbin-case",
+    "code": "M-105",
+    "term": "Mola de Retenção de Linha da Bobina / Mola Anti-Giro da Caixa de Bobina (Bobbin Case Anti-Spin Spring / Brake Spring)",
+    "pronunciation": "mó-la de re-ten-ção de lí-nha da bo-bí-na / mó-la ân-ti jí-ro da cái-sha de bo-bí-na (bó-bin kêis ân-tai spin sprin / brêik sprin)",
+    "letter": "M",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Criada com a aceleração dos sistemas de laçadeira rotativa industrial no Japão pela Towa, Koban e Hirose nas décadas de 1960 e 1970. Surgiu da necessidade crítica de frear a inércia rotativa da bobina metálica quando as máquinas saltavam de 400 PPM para mais de 1.000 PPM, eliminando o desenrolamento espontâneo de linha inferior nas paradas bruscas e cortes de linha.",
+    "summary": "Disco côncavo circular ou estrela arqueada de aço-mola fosfatizado de baixíssima espessura instalado no fundo interno da caixa de bobina, atuando como um freio elástico constante que elimina o giro livre por inércia da carretilha nas paradas da máquina.",
+    "definition": "A Mola de Retenção de Linha da Bobina e Dispositivo Anti-Giro da Caixa de Bobina (universalmente denominada Bobbin Case Anti-Spin Spring, Bobbin Brake Spring, Mola Aranha de Freio da Bobina ou Lâmina Estrela Anti-Inércia) é o microcomponente elástico montado no interior do copo da caixa de bobina metálica (padrão L ou M) na máquina de bordar computadorizada. Durante o bordado a alta rotação (de 800 a 1.200 PPM), a linha inferior é puxada em ciclos frenéticos de tração e folga. A carretilha (bobina de alumínio, aço ou plástico) atinge altíssimas velocidades de rotação angular; no instante em que a máquina executa um corte automático, uma desaceleração brusca ou um salto de ponto (Jump), o fornecimento de linha para de repente, mas a bobina continuaria girando desgovernada pela força centrífuga e inércia mecânica (fenômeno conhecido como 'Bobbin Spin' ou giro em falso). Esse giro residual desenrola vários centímetros de linha frouxa dentro da laçadeira, gerando o temido 'ninho de pássaro' (birdnesting) no avesso na retomada do próximo ponto ou fazendo a linha escapar da faca de corte. A mola anti-giro, posicionada no fundo da caixa, exerce uma pressão axial suave e permanente contra a face traseira da bobina: com suas abas elásticas levemente arqueadas para a frente, ela atua exatamente como uma pastilha de freio elástica contínua. Ela permite que a bobina gire livremente sob a tração ativa da linha, mas interrompe a rotação no mesmo milissegundo em que a tração cessa, garantindo tensão uniforme de 18 a 22 gf do primeiro ao último ponto do bordado.",
+    "technicalDetails": "Estampada em lâmina ultrafina de aço inoxidável austenítico AISI 301 ou aço-mola de alto carbono C75 temperado com espessura de apenas 0,10 mm a 0,15 mm. Possui geometria circular com duas ou três orelhas arqueadas simétricas (tipo estrela de freio) e um orifício central com ranhura de trava que se encaixa no pino guia central do fundo da caixa de bobina sem rodar com a carretilha. O tratamento superficial por fosfatização negra ou polimento acetinado reduz o atrito excessivo com bobinas de alumínio usinado ou plástico. A força elástica de deflexão axial é calibrada para aplicar entre 3 e 5 gramas de resistência friccional estática, compensando inclusive a redução de peso da bobina conforme a linha vai se esgotando.",
+    "construction": [
+      "Corpo Circular Estampado com Abas Flexíveis: Disco fino de aço temperado com abas arqueadas que encostam na bobina",
+      "Orelhas Elásticas Arqueadas de Fricção (Brake Petals): Lâminas curvadas para a frente que aplicam a frenagem suave e contínua",
+      "Orifício Central de Encaixe no Pino: Abertura calibrada que abraça o eixo metálico central da caixa de bobina",
+      "Dentes de Retenção Antirrotação: Travas que fixam a mola firmemente no fundo impedindo que ela gire junto com a carretilha",
+      "Acabamento Fosfatizado / Antiatrito: Tratamento químico que evita o desgaste precoce e reduz o ruído metálico a 1.000 PPM",
+      "Bordas Arredondadas Polidas: Extremidades sem cantos vivos para não riscar nem marcar a carretilha de alumínio"
+    ],
+    "howItWorks": [
+      "1. A bordadeira insere a carretilha cheia dentro da caixa de bobina, prensando levemente a Mola Anti-Giro no fundo.",
+      "2. A linha inferior passa pela ranhura e sob a mola tensora externa da caixa.",
+      "3. Conforme a máquina costura a 1.000 PPM, a laçadeira puxa a linha inferior a cada volta.",
+      "4. A tração da agulha vence a leve pressão da mola e a bobina gira perfeitamente solta e suave.",
+      "5. A máquina atinge um comando de corte automático ou salto e para a barra de agulha em 10 milissegundos.",
+      "6. A mola anti-giro freia a bobina instantaneamente, não permitindo que ela continue girando por inércia.",
+      "7. A linha fica perfeitamente esticada e sob controle, pronta para o corte limpo da faca sem embolar no avesso!"
+    ],
+    "beginnerExplanation": "A Mola Anti-Giro é o 'freio de mão' da carretilha da sua máquina de bordar! Já percebeu que no fundinho da caixinha de ferro da bobina tem uma chapinha fininha de metal parecendo uma estrelinha prateada ou escura? Ela é super importante: quando a máquina está bordando a toda velocidade e para de repente para cortar a linha ou pular para outra letra, a carretilha lá dentro quer continuar rodando feito uma rodinha de bicicleta no ar. Se ela continuar rodando sozinha, ela desenrola um monte de linha solta dentro da máquina, e no próximo ponto essa linha solta embola tudo embaixo do tecido parecendo uma 'teia de aranha' horrível! Essa molinha no fundo encosta na carretilha e freia ela no segundo exato em que a máquina para. Se você perder essa molinha ou ela amassar, a sua máquina começa a embolar linha embaixo toda hora sem motivo aparente!",
+    "applications": [
+      "Frenagem instantânea da inércia da bobina em paradas de alta rotação e desacelerações bruscas",
+      "Eliminação de ninhos de linha (birdnesting) e bolotas no avesso após paradas de corte",
+      "Manutenção da tensão constante da linha da bobina mesmo quando a carretilha está quase no fim",
+      "Estabilização do corte automático inferior, garantindo sobras de linha de 2,0 a 2,5 cm no avesso",
+      "Prevenção do tremor e vibração axial da carretilha metálica dentro da caixa de bobina"
+    ],
+    "mainTypes": [
+      "Mola Anti-Giro Padrão Circular com Duas Abas: O modelo mais comum em caixas de bobina industriais padrão L (Towa/Hirose)",
+      "Mola Tipo Estrela de Três Pontas (Tri-Wing Brake): Distribui a frenagem em 120° para caixas de bobina grandes formato M",
+      "Mola de Aço Inox para Bobinas Descartáveis de Papelão (Pre-Wound): Especialmente calibrada para não frear demais carretilhas leves",
+      "Mola com Arruela de Teflon Embutida: Versão ultra-silenciosa para redução de atrito e aquecimento em turnos industriais pesados"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Suporta frenagens contínuas em rotações de 0 a 1.200 PPM com mais de 50.000 paradas por dia",
+      "needleType": "Universal para todas as agulhas",
+      "stabilizer": "Universal para todas as entretelas"
+    },
+    "advantages": [
+      "✔ Acaba definitivamente com os nós e laçadas soltas no início de cada letra ou detalhe bordado",
+      "✔ Mantém o ponto de tensão da bobina perfeitamente calibrado (18 a 22 gf) do início ao fim do carretel",
+      "✔ Prolonga a vida útil da caixa de bobina evitando que a carretilha raspe direto no fundo de ferro",
+      "✔ Peça de reposição de baixíssimo custo com impacto monumental na qualidade visual do bordado"
+    ],
+    "limitations": [
+      "Se a mola for amassada para trás, ela perde o arqueamento e para de frear a bobina.",
+      "Se fiapos grossos de linha se acumularem debaixo da mola, a carretilha fica alta demais e raspa na laçadeira."
+    ],
+    "commonErrors": [
+      "❌ Perder a mola ao lavar ou assoprar a caixa de bobina e usá-la sem a mola (causando ninhos imediatos).",
+      "❌ Colocar a mola virada ao contrário (com as abas arqueadas para baixo), travando a bobina no fundo.",
+      "❌ Deixar uma camada dura de poeira e cera de linha acumular embaixo da mola sem tirar para limpar.",
+      "❌ Pressionar o meio da mola com chave de fenda até amassar e perder o efeito elástico."
+    ],
+    "troubleshootingTips": [
+      "Toda vez que a máquina corta a linha e vai para a próxima letra, faz uma bolota de linha no avesso no primeiro ponto: A mola anti-giro da caixa de bobina quebrou, caiu ou perdeu a pressão; verifique o fundo da caixa de bobina e instale uma nova mola anti-giro arqueada.",
+      "A linha da bobina está dura de puxar mesmo com o parafuso externo todo solto: Tem fiapo de linha compactado debaixo da mola anti-giro empurrando a bobina contra a borda da caixa; remova a mola com uma pinça, limpe o fundo com álcool e recoloque.",
+      "A bobina trepida e faz um zumbido agudo durante o bordado a alta velocidade: A mola anti-giro ressecou ou está gasta; aplique meia gota de silicone seco ou troque a lâmina de freio."
+    ],
+    "dicaArtrelados": "Ao comprar caixas de bobina de reposição baratas na internet, muitas vêm sem a Mola Anti-Giro no fundo ou com uma mola reta sem pressão! Faça o 'Truque do Teste da Moedinha da Artrelados': pegue a sua caixa de bobina vazia e olhe lá no fundo. Tem uma chapinha pretinha ou prateada em forma de estrelinha? Aperte-a suavemente com a ponta do indicador: ela deve ceder e voltar para cima com uma pressão elástica macia, como se fosse um colchãozinho! Se o fundo for só o ferro liso da caixa, coloque imediatamente uma mola anti-giro. A quantidade de paradas por corte falhado e de ninhos no avesso vai cair para zero no mesmo dia!",
+    "voceSabia": "Quando uma máquina de bordar industrial está operando a 1.000 pontos por minuto, a carretilha da bobina gira a incríveis 3.000 rotações por minuto dentro da caixinha! Quando a máquina freia, a inércia da carretilha equivale a uma miniatura de um carro em alta velocidade na estrada! Sem a mola anti-giro, a carretilha continuaria rodando por mais de 5 voltas inteiras no ar, soltando quase 15 centímetros de linha embolada dentro da máquina!",
+    "practicalExercise": "Inspeção e Limpeza da Mola Anti-Giro: Retire a caixa de bobina da máquina e tire a carretilha de linha. Com a ponta de uma pinça de bordado bem fininha, retire com cuidado a mola anti-giro do fundo da caixa. Observe como ela tem uma leve curva para cima. Limpe todo o pó de linha que costuma ficar escondido embaixo dela com um cotonete seco. Encaixe a mola de volta no pino central, certificando-se de que as pontinhas curvadas fiquem viradas para você. Coloque a bobina e sinta a diferença de maciez no giro!",
+    "quickSummary": "Lâmina circular flexível de aço no fundo da caixa de bobina que atua como freio elástico contínuo, impedindo o giro por inércia da carretilha e eliminando ninhos no avesso.",
+    "relatedTerms": [
+      "Caixa de Bobina (Bobbin Case)",
+      "Carretilha / Bobina (Bobbin)",
+      "Laçadeira Rotativa (Rotary Hook)",
+      "Tensão da Bobina",
+      "Ninho de Linha (Birdnesting)",
+      "Towa Bobbin Gauge"
+    ],
+    "tags": [
+      "m-105",
+      "mola-anti-giro",
+      "mola-caixa-bobina",
+      "bobbin-brake-spring",
+      "anti-spin",
+      "freio-de-bobina",
+      "mecanica",
+      "manutencao",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TOWA INDUSTRIAL CO., LTD. Bobbin Case Mechanism, Tension Spring & Anti-Spin Brake Specifications. Tokyo: Towa, 2023.",
+      "KOBAN HOOKS & BOBBIN CASES. Rotary Hook and Bobbin Tension Mechanics for High-Speed Embroidery. Hiroshima, 2022.",
+      "TAJIMA GROUP. Bobbin Case Maintenance, Brake Spring Calibration and Thread Nesting Prevention. Nagoya: Tajima, 2023.",
+      "ARTRELADOS. O Freio Invisível da Carretilha: Segredos da Mola Anti-Giro, Fim dos Ninhos e Tensão Perfeita. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
   }
 ];
+
 
 
 

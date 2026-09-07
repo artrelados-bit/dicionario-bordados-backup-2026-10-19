@@ -1788,8 +1788,112 @@ export const VERBETES_LETTER_S11: Verbete[] = [
       "ARTRELADOS. O Olho Invisível da Bobina: Diagnóstico, Limpeza de Sensores e Paz no Ateliê. Curitiba, 2024."
     ],
     updatedAt: "2026-09-06"
+  },
+  {
+    id: "s-110-sensor-posicao-zero-origem-came-mudanca-cores",
+    code: "S-110",
+    term: "Sensor de Posição Zero / Sensor de Origem do Came de Mudança de Cores (Color Change Home Position Sensor)",
+    pronunciation: "sen-sór de po-zi-ção zé-ro / sen-sór de o-rí-gem do câm de mu-dân-ça de có-res (có-lor tchêindj hóum po-zí-shon sen-sor)",
+    letter: "S",
+    level: "Avançado 🔴",
+    category: "Mecânica & Manutenção",
+    grammarClass: "Locução substantiva masculina.",
+    origin: "Desenvolvido com a integração da mecatrônica digital nas máquinas multiagulhas automáticas industriais japonesas (Tajima e Barudan) nos anos 1980. Foi projetado para estabelecer o marco referencial zero do cabeçote, garantindo que o computador central saiba com precisão absoluta qual agulha está engatada antes de permitir a descida da barra de agulha a alta velocidade.",
+    summary: "Sensor optoeletrônico tipo chave óptica em fenda (ou magnético de efeito Hall) instalado junto ao eixo came de troca de cores, responsável por detectar a bandeira de referência da Agulha 1 e calibrar a coordenada inicial de repouso do bloco móvel do cabeçote.",
+    definition: "O Sensor de Posição Zero e Ponto de Origem do Came de Mudança de Cores (universalmente denominado Color Change Home Position Sensor, Origin Microswitch, Sensor de Posição Inicial da Troca de Agulha ou Sensor Home do Cabeçote) é o transdutor de calibração absoluta que orienta a CPU da máquina de bordar multiagulhas a respeito do posicionamento físico do conjunto seletor de agulhas. Quando a máquina é ligada na chave geral ou após uma interrupção por falta de energia, o servomotor de troca de cor não 'sabe' em qual das 6, 10 ou 15 agulhas o cabeçote parou. O sistema então executa a rotina de busca de origem (Home Search Routine): o motor do eixo came gira lentamente até que uma lâmina metálica delgada (bandeira / flag) montada na ponta do tambor helicoidal passe pelo meio da fenda do sensor óptico. O feixe infravermelho emitido pelo fotodiodo é bloqueado pela bandeira, e o fototransistor receptor corta a tensão elétrica enviando um pulso lógico de 0V para a placa-mãe. Essa transição marca o 'Zero Absoluto' (Posição da Agulha 1 travada no centro). A partir desse marco referencial estrito, cada rotação subsequente do eixo came conta pulsos micrométricos do disco codificador óptico para indexar as agulhas 2, 3, 4 até a última sem desvio centesimal. Se o Sensor de Origem falhar, estiver desalinhado ou for obstruído por fiapos, a máquina emite imediatamente o alarme 'Color Change Home Error', bloqueando preventivamente o motor principal para impedir que a barra de agulha desça desalinhada e colida violentamente contra o calcador ou a chapa de agulha.",
+    technicalDetails: "Constituído por uma chave óptica de fenda em formato de 'U' (Slotted Optical Interrupter) com emissor infravermelho de arseneto de gálio (GaAs) de comprimento de onda de 940 nm e fototransistor NPN de silício de resposta ultra-rápida (< 15 microssegundos), operando com tensão de alimentação de 5V DC ou 24V DC. A largura da fenda de passagem varia entre 3,0 mm e 5,0 mm com abertura óptica colimada de 0,5 mm para garantir repetibilidade posicional menor que 0,02 mm. A saída digital é compatível com níveis lógicos TTL/CMOS (Open Collector) e protegida contra inversão de polaridade e transientes eletrostáticos (ESD). Possui LED indicador de diagnóstico embutido na carcaça plástica que acende instantaneamente no momento da detecção da bandeira.",
+    construction: [
+      "Corpo em Plástico PBT Autoextinguível em Formato de U: Carcaça industrial robusta com fenda central de passagem da lâmina",
+      "Diodo Emissor de Luz Infravermelha (IR LED): Emissor óptico de estado sólido de alta durabilidade e feixe invisível colimado",
+      "Fototransistor Receptor de Silício: Sensor de luz infravermelha com filtro de corte de luz ambiente externa",
+      "LED Indicador de Diagnóstico Integrado: Pequena luz vermelha ou verde no sensor que sinaliza o estado ativo/bloqueado",
+      "Bandeira Metálica de Leitura (Interrupter Flag): Palheta de aço inoxidável fixada no eixo came que corta o feixe óptico",
+      "Cabo de Sinal com Blindagem Eletromagnética: Chicote com conector com trava para ligação na placa de controle de atuadores"
+    ],
+    howItWorks: [
+      "1. Ao ligar a máquina de bordar, a CPU dispara automaticamente a rotina 'Homing' do came de troca de cores.",
+      "2. O servomotor ou motor de passo gira o Eixo Came em direção ao ponto de início.",
+      "3. A bandeira de metal fixada no eixo penetra na fenda em 'U' do Sensor de Origem.",
+      "4. A bandeira bloqueia a passagem do feixe infravermelho entre o emissor e o receptor óptico.",
+      "5. O circuito do sensor envia um pulso elétrico instantâneo de interrupção para o microcontrolador da placa-mãe.",
+      "6. O motor para imediatamente e o sistema zera o registrador de coordenadas, confirmando a Agulha 1 como referência oficial.",
+      "7. Com a posição calibrada, o painel libera o bordado seguro e todas as trocas de cor passam a acontecer no milímetro exato!"
+    ],
+    beginnerExplanation: "O Sensor de Posição Zero é a 'bússola de partida' da sua máquina multiagulhas! Sabe quando você acorda de manhã no escuro e precisa ligar a luz para saber exatamente onde você está no quarto? Na máquina de bordar é a mesma coisa: quando você liga a máquina na tomada, o computador de bordo não tem como adivinhar em qual agulha o cabeçote parou ontem. Então a máquina dá uma rodadinha no motor até uma palhetinha de metal passar na frente desse sensorzinho (que tem um olhinho de laser invisível). Quando o sensor vê a palheta, ele avisa: 'Pronto, estamos na agulha número 1!' A partir desse momento, a máquina sabe o caminho exato para ir para a agulha 2, 3, 4 ou qualquer outra sem errar. Se esse sensorzinho estiver sujo de fiapo, a máquina fica 'perdida', apita na tela e não deixa você bordar para não quebrar a agulha no lugar errado!",
+    applications: [
+      "Calibração da referência zero absoluta do cabeçote no momento do boot e inicialização da máquina",
+      "Prevenção contra colisão da barra de agulha e pé calcador por descentralização mecânica de cor",
+      "Sincronização angular precisa com o disco codificador para trocas rápidas de agulha (de 4 a 15 cores)",
+      "Recuperação de coordenadas de cor após quedas de energia elétrica e paradas de emergência",
+      "Diagnóstico preventivo através de leitura de LEDs de status nas placas eletrônicas do cabeçote"
+    ],
+    mainTypes: [
+      "Sensor Óptico de Fenda (Slotted Optical Switch): O padrão clássico industrial mais preciso e difundido no mundo",
+      "Sensor Magnético por Efeito Hall: Utiliza um ímã de neodímio e pastilha de silício, sendo imune a fiapos e poeira têxtil",
+      "Microchave Mecânica de Contato (Limit Switch): Utilizada em máquinas antigas com acionamento por botão de clique com rolete",
+      "Sensor de Proximidade Indutivo: Detecta a massa de metal do came sem contato físico para ambientes industriais agressivos"
+    ],
+    recommendedSettings: {
+      speedPPM: "Atuação instantânea durante o boot e paradas de cor a 0 PPM (tempo de resposta do sensor < 15 microssegundos)",
+      needleType: "Universal para todas as agulhas do cabeçote",
+      stabilizer: "Universal para todas as entretelas"
+    },
+    advantages: [
+      "✔ Segurança total contra choques mecânicos: a máquina nunca desce a agulha se a cor estiver fora do centro",
+      "✔ Detecção óptica sem contato físico que não sofre desgaste mecânico ao longo de décadas",
+      "✔ Repetibilidade posicional nanométrica garantindo trocas de cor imperceptíveis no bordado",
+      "✔ Diagnóstico visual fácil graças ao LED indicador que acende na hora da leitura"
+    ],
+    limitations: [
+      "Se fiapos de linha e poeira de entretela cobrirem o emissor infravermelho, o feixe é bloqueado direto gerando alarme falso.",
+      "Desalinhamento físico da haste de sustentação pode fazer a bandeira metálica raspar na fenda plástica do sensor."
+    ],
+    commonErrors: [
+      "❌ Deixar uma nuvem de poeira branca de entretela acumular na fenda do sensor sem soprar com pincel seco.",
+      "❌ Entortar a bandeira metálica com chave de fenda ao mexer no cabeçote, fazendo-a bater no corpo do sensor.",
+      "❌ Substituir o sensor com a máquina ligada na tomada, podendo queimar o fototransistor por estática.",
+      "❌ Tentar desativar o sensor de origem nos parâmetros ocultos do painel, arriscando quebrar o cabeçote."
+    ],
+    troubleshootingTips: [
+      "A máquina liga, o cabeçote se mexe e o painel acusa 'Color Change Home Position Error': A fenda do sensor óptico está entupida com fiapo de linha ou poeira de entretela; desligue a máquina e limpe a ranhura em 'U' do sensor com um pincel macio ou cotonete seco.",
+      "O cabeçote bate no final do trilho com barulho de esforço do motor de passo: A bandeira de metal está torta e passou por fora da fenda do sensor sem ser detectada; realinhe a palheta de aço para passar exatamente no centro da abertura do sensor óptico.",
+      "O LED de diagnóstico do sensor não acende de jeito nenhum quando a palheta passa: O cabo de sinal de 5V está solto ou o fotodiodo emissor queimou; verifique o conector do chicote na placa-mãe ou substitua o sensor óptico."
+    ],
+    dicaArtrelados: "Se ao ligar a sua máquina multiagulhas pela manhã o painel apitar acusando 'Erro de Origem de Troca de Agulha' e o cabeçote se recusar a bordar, calma! Não chame o técnico ainda antes de fazer o 'Truque do Cotonete no Olho Mágico' da Artrelados: desligue a máquina na tomada. Retire a tampa traseira do cabeçote e localize o sensor pretinho em formato de ferradura (U) onde passa a palhetinha de metal. Quase sempre tem uma 'pelugem' de entretela presa bem no fundinho da fenda, enganando a luz invisível do sensor! Pegue um cotonete seco, passe suavemente na fenda para tirar a penugem e ligue a máquina. O LED acende, o cabeçote faz aquele deslize macio até a agulha 1 e o alarme desaparece na hora!",
+    voceSabia: "A tecnologia das chaves ópticas de fenda com feixe infravermelho usada no cabeçote das máquinas de bordar é exatamente o mesmo princípio que faz o botão de scroll do mouse do computador e as portas dos elevadores funcionarem! Esse princípio físico simples de 'feixe de luz interrompido' é considerado pelos engenheiros mecatrônicos como um dos mecanismos de leitura de posição mais confiáveis e duráveis já criados na história da indústria!",
+    practicalExercise: "Identificação Visual do Acendimento do LED do Sensor de Origem: Com a máquina desligada e sem bastidor, retire a cobertura plástica superior de manutenção do cabeçote. Localize o sensor óptico em U e a bandeirinha metálica do came. Ligue a máquina e observe o momento do boot: veja a palheta de metal entrar no meio da fenda do sensor e observe o minúsculo pontinho de LED vermelho no corpo do sensor acender no milissegundo exato da passagem. É a certeza visual de que o coração eletrônico da sua máquina está 100% vivo e calibrado!",
+    quickSummary: "Sensor óptico em fenda que detecta a bandeira do came no cabeçote, estabelecendo a referência da Agulha 1 e garantindo trocas de cor sem colisões mecânicas.",
+    relatedTerms: [
+      "Eixo Came de Mudança Automática de Cores / Came Espiral de Troca de Agulha (Color Change Cam Shaft / Spiral Needle Change Cam)",
+      "Sensor de Ponto Zero (Home Position Sensor)",
+      "Servomotor de Troca de Cor (Color Change Motor)",
+      "Barra de Agulha e Bucha Guia",
+      "Disco Codificador Óptico (Encoder Wheel)",
+      "Painel Touch Screen"
+    ],
+    tags: [
+      "s-110",
+      "sensor-de-origem",
+      "sensor-posicao-zero",
+      "home-sensor",
+      "came-de-cor",
+      "chave-optica",
+      "multiagulhas",
+      "seguranca-mecanica",
+      "eletronica",
+      "artrelados"
+    ],
+    sourceReference: "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    bibliographicReferences: [
+      "TAJIMA GROUP. Origin Sensor Calibration, Optical Interrupter Testing & Needle Zero Standards. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Electronic Sensors, Microswitch Alignment & Color Change Logic Service Manual. Ichinomiya, 2022.",
+      "OMRON CORPORATION. Optical Sensors & Slotted Photomicrosensors for Textile Machinery Automation. Kyoto, 2022.",
+      "ARTRELADOS. A Bússola do Cabeçote: Segredos do Sensor de Origem, Trocas de Cor e Diagnósticos Rápidos. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-06"
   }
 ];
+
 
 
 

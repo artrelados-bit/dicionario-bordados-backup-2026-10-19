@@ -1620,5 +1620,109 @@ export const VERBETES_LETTER_L_PART14: Verbete[] = [
     "quickSummary": "Técnica suprema de digitalização artística com mapas de densidade e reflexão que criam efeitos mágicos de néon e luz tridimensional.",
     "beginnerExplanation": "É o segredo dos maiores mestres do bordado no mundo para fazer um desenho parecer que está aceso como um letreiro de néon ou fogo de verdade: a gente mistura cores claras no centro com cores sombreadas em volta, enganando o olho para parecer que o bordado tem luz própria!",
     "updatedAt": "2026-08-29"
+  },
+  {
+    "id": "l-101-lamina-segura-fio-trimmer-mola-retentora-bobina-faca-fixa",
+    "code": "L-101",
+    "term": "Lâmina Segura-Fio do Trimmer / Mola Retentora da Linha da Bobina na Faca Fixa (Under-Thread Retaining Leaf Spring / Knife Thread Holder)",
+    "pronunciation": "lâ-mi-na se-gú-ra fí-o do trí-mer / mó-la re-ten-tó-ra da lí-nya da bo-bí-na na fá-ka fík-sa (ân-der tréd ri-têi-nin lif sprin / náif tréd hôul-der)",
+    "letter": "L",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Concebida no Japão nas décadas de 1980 e 1990 pelas engenharias da Tajima, Barudan e Brother para aprimorar os blocos de corte sob a chapa de agulha (Under-Bed Trimmer). Surgiu para erradicar o escape aleatório da cauda da linha da bobina decorrente do vácuo e da turbulência de rotação da laçadeira a 1.000 PPM, introduzindo uma pinça elástica passiva de aço inoxidável montada diretamente no corpo da contra-faca fixa.",
+    "summary": "Lâmina elástica ultrafina de aço inoxidável ou bronze fosforoso parafusada sobre ou sob a contra-faca fixa do cortador, cuja pressão calibrada segura a ponta da linha da bobina no instante exato do corte, evitando que ela escape e garantindo a laçada inicial da cor seguinte.",
+    "definition": "A Lâmina Segura-Fio do Trimmer e Mola Retentora da Linha da Bobina na Faca Fixa (tecnicamente denominada Under-Thread Retaining Leaf Spring, Fixed Knife Thread Holder, Mola de Pinçamento da Bobina ou Lâmina de Retenção do Trimmer) é o microcomponente elástico de fixação passiva instalado no conjunto de corte inferior da máquina de bordar industrial e multiagulhas. Quando a faca móvel (Movable Knife) é acionada pelo came e recolhe trazendo a linha superior e a linha da bobina em direção à contra-faca fixa para a ação de cisalhamento, as duas linhas são cortadas de forma simultânea. Contudo, enquanto a linha superior é recolhida e pescada pelo limpador de fio superior (Wiper), a linha inferior da bobina ficaria solta no espaço sob a chapa. Pela força centrífuga e vórtice de ar gerados pela laçadeira rotativa girando a até 2.400 RPM, a cauda de linha recém-cortada seria sugada ou empurrada para fora da ranhura de saída da caixa de bobina, caindo solta no fundo da carcaça ou retraindo para dentro da carretilha. A Lâmina Segura-Fio atua exatamente como uma pinça mecânica elástica contínua: montada face a face com a faca fixa, ela possui uma aba flexionada que exerce uma pressão suave e controlada (entre 10 gf e 15 gf). No momento em que a faca móvel atinge o ponto final do curso, a ponta cortada da linha da bobina fica prensada entre a lâmina elástica e o corpo da faca fixa. Essa retenção milimétrica mantém a ponta da bobina aprisionada e orientada para cima, de modo que, na primeira descida da agulha no novo bloco de cor, a laçada seja formada com 100% de certeza sem falhas de ponto, nós embolados ou falsas quebras de linha.",
+    "technicalDetails": "Estampada em fita ultrafina de aço inoxidável austenítico AISI 301 temperado extra-duro (Spring Steel) ou bronze fosforoso C5191 com espessura nominal de apenas 0,12 mm a 0,20 mm. Possui tratamento térmico para alta resistência à fadiga por flexão cíclica (mais de 500.000 ciclos de cisalhamento). A superfície de contato possui polimento espelhado (Ra < 0,10 µm) para não esmagar nem cortar o multifilamento de poliéster nº 60 da linha da bobina. É fixada rigidamente à carcaça da chapa de suporte da faca fixa por meio de dois parafusos de precisão de fenda métrica M2 ou M2.5, contando com orifícios oblongos que permitem regular a pressão de pinçamento e o avanço da aba elástica.",
+    "construction": [
+      "Lâmina Flexível em Aço Inox Temperado (AISI 301): Corpo elástico ultrafino resistente à corrosão e deformação permanente",
+      "Aba de Pinçamento Chanfrada (Holding Lip): Borda curva que recebe a linha da bobina sem atrito abrasivo nem cortes acidentais",
+      "Base de Apoio com Furos Oblongos: Permite o ajuste fino da pressão contra a face da contra-faca fixa",
+      "Parafusos de Fixação Métrica M2/M2.5: Parafusos de aço de alta resistência com arruelas de pressão para montagem rígida",
+      "Calço de Espaçamento / Placa de Apoio (Spacer Plate): Calibra a folga mecânica entre a lâmina e o gume afiado da navalha",
+      "Tratamento Antiatrito Polido Espelhado: Impede o acúmulo de poeira e cola de entretela adesiva na área de pinçamento"
+    ],
+    "howItWorks": [
+      "1. O comando de corte é acionado e a faca móvel avança, puxando a linha superior e a linha da bobina.",
+      "2. A faca móvel recua, arrastando as linhas contra a contra-faca fixa afiada.",
+      "3. Poucos milissegundos antes do corte da lâmina, a linha da bobina é forçada para dentro do vão da Lâmina Segura-Fio.",
+      "4. A faca fixa executa o corte limpo da linha superior e da linha da bobina.",
+      "5. A linha superior cortada sobe para a parte superior do tecido, puxada pelo estica-fio e pelo wiper.",
+      "6. A cauda da linha da bobina permanece firmemente pinçada entre a Lâmina Segura-Fio e a faca fixa.",
+      "7. Na primeira descida da próxima cor, a linha retida é capturada pelo laço da agulha com amarração imediata e sem escapar!"
+    ],
+    "beginnerExplanation": "A Lâmina Segura-Fio é a 'mãozinha invisível' que segura a pontinha da linha da bobina depois da tesoura cortar! Sabe quando você corta uma fita adesiva e precisa segurar a pontinha dela com a unha para ela não colar de volta no rolo e você não perder a ponta? É exatamente isso que essa laminha fininha faz embaixo da chapa da sua máquina! Quando a tesourinha automática corta as linhas para mudar de cor, a linha de cima vai embora para o tecido, mas a linha de baixo precisa ficar quietinha esperando a próxima cor começar. Se não tivesse essa laminha de aço segurando a ponta dela feito uma pinça macia, o vento da laçadeira que roda a mil por hora ia jogar a linha longe ou sugar ela para dentro da carretilha. Aí, quando a máquina fosse recomeçar, a agulha ia descer no vento e dar erro de linha na hora! Essa laminha segura a ponta com carinho para o bordado recomeçar perfeito!",
+    "applications": [
+      "Retenção estática e pinçamento mecânico da cauda da linha da bobina após o corte automático",
+      "Eliminação de partidas falsas e costura no ar no primeiro ponto após trocas de cor ou saltos de matriz",
+      "Prevenção contra o escape e perda da linha de dentro da mola tensora da caixa de bobina",
+      "Estabilização do tamanho da sobra da linha inferior, mantendo o avesso limpo e sem pontas compridas",
+      "Proteção da linha contra a turbulência centrífuga da laçadeira em alta rotação (2.400 RPM)"
+    ],
+    "mainTypes": [
+      "Lâmina Segura-Fio Integrada à Faca Fixa: Montada diretamente sobre o corpo da navalha fixa (padrão Tajima e Brother moderno)",
+      "Mola Retentora Bipartida de Dupla Pressão: Possui duas abas elásticas independentes para linhas de bobina finas e grossas",
+      "Lâmina Segura-Fio em Bronze Fosforoso: Modelo de elasticidade ultra-suave indicado para linhas metálicas e fios delicados",
+      "Lâmina com Revestimento Cerâmico Teflonado: Repele resíduos de adesivos de entretela spray e fiapos de linha encerada"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Suporta retenção elástica em desacelerações de corte de 100 a 250 RPM e costura de 0 a 1.200 PPM",
+      "needleType": "Universal para todas as agulhas",
+      "stabilizer": "Universal para todas as entretelas",
+      "threadTension": "Pressão de retenção da lâmina calibrada entre 10 gf e 15 gf"
+    },
+    "advantages": [
+      "✔ Amarração de primeira: a linha da bobina nunca escapa na retomada da costura",
+      "✔ Acaba definitivamente com o erro de 'Quebra de Linha Falsa' no início de cada cor",
+      "✔ Sistema 100% passivo e elástico, sem consumo elétrico nem necessidade de motores ou cabos",
+      "✔ Construção durável em aço inoxidável que resiste a mais de 500.000 cortes sem deformar"
+    ],
+    "limitations": [
+      "Se fiapos de entretela ou cera de linha se acumularem debaixo da lâmina, a linha escorrega e não é retida.",
+      "Se a lâmina for entortada para cima com uma chave de fenda por descuido, ela perde a pressão elástica."
+    ],
+    "commonErrors": [
+      "❌ Raspar a lâmina com lixa grossa ou chave de fenda para tirar fiapos, riscando o aço e cortando a linha antes da hora.",
+      "❌ Apertar os parafusos da faca fixa esmagando a lâmina torta sem verificar o alinhamento da aba.",
+      "❌ Deixar cola de spray de entretela grudar na lâmina, fazendo a linha ficar presa e não soltar na costura.",
+      "❌ Entortar a aba elástica para trás achando que está 'abrindo caminho', deixando a linha solta sem retenção."
+    ],
+    "troubleshootingTips": [
+      "A máquina corta a linha perfeitamente, mas quando vai começar a próxima cor a linha da bobina fugiu e a agulha costura 3 pontos no ar e para: A Lâmina Segura-Fio está frouxa, perdeu a pressão ou tem uma bolinha de fiapo impedindo o aperto; retire a chapa de agulha, limpe a lâmina com álcool isopropílico e pressione suavemente a aba para devolver a curva elástica.",
+      "A linha da bobina fica tão presa que arrebenta logo no primeiro ponto da cor seguinte: A lâmina segura-fio está excessivamente apertada contra a faca fixa ou tem cola de spray colando a linha; solte os parafusos de fixação e recoloque a lâmina com alinhamento suave e limpo.",
+      "O avesso do bordado fica com pontas soltas de 4 cm no início de cada corte: A lâmina está segurando a linha na posição errada ou o puxador (picker) está empurrando linha em excesso; verifique a sincronia do cortador e a posição da lâmina retentora."
+    ],
+    "dicaArtrelados": "Quer fazer o 'Teste do Fio de Cabelo da Artrelados' para saber se a sua Lâmina Segura-Fio está prendendo a linha como deve? Com a máquina desligada e a chapa de agulha retirada, pegue um pedaço de linha de bobina com uma pinça e passe por baixo da laminha da faca fixa. Puxe a linha com a mão: você deve sentir uma resistência macia, como se estivesse puxando um fio de cabelo suavemente entre dois dedos! Se a linha correr totalmente solta sem nenhuma resistência, a lâmina está sem pressão; se a linha travar e estourar, está apertada demais. No ponto doce, sua máquina vai amarrar os pontos de primeira pelo resto da vida!",
+    "voceSabia": "Essa micro-lâmina de aço é a razão de podermos bordar toalhas, bonés e uniformes com dezenas de trocas de cores sem ter que ficar puxando a linha da bobina para cima com a mão a cada troca! Em um bordado com 15 trocas de cores, ela evita que a máquina pare 15 vezes, economizando preciosos minutos de produção em cada peça do ateliê!",
+    "practicalExercise": "Inspeção e Limpeza da Lâmina Segura-Fio: Com a máquina desligada da tomada, desparafuse a chapa de agulha e retire-a. Localize a contra-faca fixa (a lâmina metálica reta ao lado da laçadeira) e veja a laminha fininha de aço montada sobre ela. Passe um pedaço de linha encerada ou fio dental entre a lâmina e a faca para expulsar qualquer fiapo de poeira ou cola acumulado ali. Aplique uma gota de álcool isopropílico com um pincel limpo. Veja como a peça volta a brilhar espelhada e pronta para o trabalho!",
+    "quickSummary": "Lâmina elástica ultrafina de aço inox montada junto à faca fixa que pinça a cauda da linha da bobina após o corte, garantindo a laçada inicial da cor seguinte.",
+    "relatedTerms": [
+      "Navalha Móvel e Navalha Fixa do Corte de Linha (Lâminas do Trimmer / Moving & Fixed Knife)",
+      "Puxador de Linha da Bobina / Pescador Inferior do Trimmer (Under Thread Picker)",
+      "Came de Acionamento do Trimmer / Excêntrico do Corte de Linha",
+      "Caixa de Bobina (Bobbin Case)",
+      "Ponto de Amarração (Tie-off / Lock Stitch)",
+      "Solenoide de Corte de Linha (Trimmer Solenoid)"
+    ],
+    "tags": [
+      "l-101",
+      "lamina-segura-fio",
+      "mola-retentora-trimmer",
+      "knife-thread-holder",
+      "under-thread-retaining-spring",
+      "faca-fixa",
+      "corte-de-linha",
+      "linha-da-bobina",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Fixed Knife Retaining Spring and Thread Holding Mechanism Service Standards. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Thread Trimmer Retainer Spring Clearance & Tension Calibration. Ichinomiya, 2022.",
+      "BROTHER INDUSTRIES. Professional Embroidery Trimming Blade and Retainer Leaf Spring Specs. Nagoya, 2021.",
+      "ARTRELADOS. A Pinça Invisível da Bobina: Como a Lâmina Segura-Fio Garante a Partida Perfeita em Cada Troca de Cor. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
   }
 ];

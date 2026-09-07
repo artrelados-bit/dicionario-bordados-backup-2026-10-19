@@ -1855,8 +1855,316 @@ export const VERBETES_LETTER_E_PART14: Verbete[] = [
       "ARTRELADOS. A Dança das Cores no Cabeçote: Segredos do Eixo Came, Sincronismo e Automação Multiagulhas. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "e-106-esfera-retencao-trava-mecanica-posicionamento-agulha",
+    "code": "E-106",
+    "term": "Esfera de Retenção / Trava Mecânica de Posicionamento da Agulha (Detent Ball & Positioning Spring)",
+    "pronunciation": "es-fê-ra de re-ten-ção / trá-va me-câ-ni-ca de po-zi-ci-o-na-mên-to da a-gú-lha (di-tênt ból end po-zí-sho-nin sprin)",
+    "letter": "E",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Originada da relojoaria de precisão e da mecânica de engrenagens industriais suíças e alemãs no século XIX para indexação angular sem folga. No bordado computadorizado moderno (Tajima, Barudan, Brother, Happy), foi adotada para travar fisicamente a carcaça deslizante das barras de agulha (Needle Bar Case) no centro de cada estação de cor, absorvendo as violentas ondas de choque dinâmico a 1.000 PPM.",
+    "summary": "Mecanismo de indexação e bloqueio mecânico composto por uma esfera de aço cromo temperado pré-carregada por mola helicoidal de alta pressão (ou êmbolo com ponta esférica), alojada na carcaça fixa do cabeçote, que se encaixa com um clique preciso nas cavidades prismáticas de cada agulha.",
+    "definition": "A Esfera de Retenção e Trava Mecânica de Posicionamento da Agulha (universalmente conhecida como Detent Ball, Ball Plunger, Mola de Retenção de Posição de Agulha ou Trava do Cabeçote Multiagulhas) é o dispositivo cinemático de bloqueio mecânico responsável por assegurar a rigidez, concentricidade e imobilidade estrita do bloco deslizante de barras de agulha durante o ciclo de costura em máquinas industriais e multiagulhas. Quando o servomotor do eixo came conclui a transição de troca de cor, o bloco das agulhas atinge a nova coordenada; contudo, a folga natural dos dentes do came e a elasticidade do acoplamento poderiam permitir uma micro-oscilação horizontal de alguns décimos de milímetro. A trava de retenção elimina essa micro-folga instantaneamente: montada em uma bucha roscada de precisão na viga estrutural do cabeçote, uma esfera de rolamento de altíssima dureza é empurrada por uma mola helicoidal calibrada diretamente contra uma régua dentada traseira dotada de entalhes em forma de 'V' (cavidades de indexação correspondentes a cada agulha: 1, 2, 3... até 15). Ao atingir o alinhamento central da agulha selecionada, a esfera 'cai' com pressão elástica de 15 N a 25 N no fundo da cavidade chanfrada com um estalinho metálico característico (o 'clique do cabeçote'). Esse engate cônico autocentrante trava a carcaça das agulhas contra qualquer deflexão lateral causada pelas vibrações de penetração da agulha em tecidos pesados (como couro, sarja e bonés estruturados), garantindo que a agulha desça exatamente no centro do furo da chapa sem raspar na lateral nem colidir contra a laçadeira.",
+    "technicalDetails": "Fabricada com esfera de aço cromo SAE 52100 (100Cr6) retificada classe G10 (diâmetro nominal de 6,0 mm a 8,0 mm) com dureza de 60 a 66 HRC e acabamento espelhado para reduzir o atrito durante a transição entre cores. A mola helicoidal é confeccionada em aço-mola trefilado com banho de fosfato ou aço inoxidável AISI 302, alojada no interior de um bujão roscado sextavado Allen (Ball Plunger tipo M10x1.0 ou M12x1.25). A pressão de retenção é calibrada pelo aperto do parafuso roscado na carcaça do cabeçote (força de desengate estático calibrada entre 1,5 kgf e 2,5 kgf), e o entalhe em V da régua de indexação possui ângulo diedro exato de 90° ou 120° com profundidade retificada de 1,2 mm.",
+    "construction": [
+      "Esfera de Precisão em Aço Cromo Temperado: Esfera de rolamento de altíssima rigidez que entra nas cavidades de indexação",
+      "Mola Helicoidal de Pressão Calibrada: Mola espiral interna de alta resistência que empurra a esfera com força constante",
+      "Bujão / Bucha Roscada com Fenda Allen (Plunger Body): Corpo de latão ou aço usinado que permite ajustar a pressão de aperto",
+      "Régua Traseira de Indexação com Entalhes em V: Barra metálica retificada com entalhes angulares espaçados no passo exato das agulhas",
+      "Contraporca de Travamento de Regulagem: Porca fina que trava a bucha roscada impedindo que a vibração afrouxe a pré-carga",
+      "Película de Graxa de Extrema Pressão (EP Grease): Lubrificação com bissulfeto de molibdênio para transições suaves e sem desgaste"
+    ],
+    "howItWorks": [
+      "1. A máquina inicia a troca de cor e o Eixo Came empurra o bloco de agulhas lateralmente.",
+      "2. A rampa inclinada do entalhe em V empurra a Esfera de Retenção para dentro da bucha roscada, comprimindo a mola.",
+      "3. O bloco desliza suavemente sobre a guia do cabeçote até que a próxima agulha chegue ao ponto central.",
+      "4. No milímetro exato do alinhamento central, a mola dispara a esfera com força para dentro da nova cavidade em V.",
+      "5. A esfera se acomoda no centro do entalhe com um clique mecânico seco, autocentrando a agulha sob a biela motriz.",
+      "6. Durante todo o bordado a 1.000 PPM, a pressão da esfera impede que o cabeçote trepide ou saia do alinhamento.",
+      "7. A agulha perfura o tecido no mesmo ponto milimétrico com repetibilidade absoluta!"
+    ],
+    "beginnerExplanation": "A Esfera de Retenção é a 'trava de segurança com clique' da sua máquina multiagulhas! Sabe quando você fecha a porta de um armário moderno e sente aquele 'clique' gostoso de um ímã ou de uma bolinha de metal que trava a porta no lugar retinho para ela não abrir com o vento? Na sua máquina de bordar tem exatamente uma bolinha de aço com mola fazendo isso atrás do cabeçote! Quando a máquina muda da agulha 1 para a agulha 2, ela desliza o bloco e, quando chega na agulha certa, a bolinha pula dentro de um buraquinho com um 'claque' firme. Se não tivesse essa bolinha travando tudo bem apertadinho, a máquina ia tremer tanto bordando a mil por hora que o cabeçote ia ficar balançando para os lados e a agulha ia bater na beirada da chapa de ferro e quebrar no primeiro ponto! É essa bolinha que garante a firmeza de rocha do cabeçote!",
+    "applications": [
+      "Bloqueio mecânico autocentrante da barra de agulha selecionada exatamente sobre o orifício da chapa de agulha",
+      "Eliminação de micro-folgas laterais remanescentes do sistema de engrenagens do came de cores",
+      "Absorção das forças de choque lateral durante a perfuração de tecidos duros e estruturados",
+      "Proteção da agulha contra deflexão lateral e choque contra a parede da laçadeira e do calcador",
+      "Fornecimento de feedback tátil e sonoro audível ('clique') para o técnico durante regulagens manuais"
+    ],
+    "mainTypes": [
+      "Ball Plunger Roscado com Mola Interna: O padrão industrial universal mais compacto e fácil de regular com chave Allen",
+      "Trava por Esfera e Mola Externa com Chapa de Pressão: Sistema clássico com lâmina elástica arqueada (Tajima antiga)",
+      "Êmbolo com Ponta de Rolamento Cônico (Roller Detent): Utiliza um rolete cilíndrico em vez de esfera para menor desgaste em trocas frequentes",
+      "Trava Eletromagnética de Bloqueio Ativo: Pino solenóide acionado eletronicamente que trava o cabeçote por pulso elétrico"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Suporta a retenção estrutural estática em acelerações de bordado de 0 a 1.200 PPM com frenagens bruscas",
+      "needleType": "Universal para todas as agulhas do cabeçote",
+      "stabilizer": "Universal para todas as entretelas"
+    },
+    "advantages": [
+      "✔ Autocentragem mecânica de precisão: a agulha sempre desce exatamente no centro do furo da chapa",
+      "✔ Elimina 100% da trepidação lateral do cabeçote mesmo bordando couros e lona pesada a 1.000 PPM",
+      "✔ Ajuste de pressão simples e micrométrico através de parafuso sextavado na carcaça",
+      "✔ Construção em aço temperado 52100 à prova de desgaste com vida útil de milhões de trocas de cor"
+    ],
+    "limitations": [
+      "Se o parafuso for apertado em excesso, a esfera fica tão dura que o motor de troca de cor queima ou perde passos.",
+      "Se a mola quebrar ou a graxa secar, a esfera pode travar retraída dentro da bucha, deixando o cabeçote frouxo."
+    ],
+    "commonErrors": [
+      "❌ Apertar o parafuso da esfera de retenção 'até o talo', travando o cabeçote e sobrecarregando o servomotor.",
+      "❌ Deixar a regulagem tão frouxa que o cabeçote tem jogo com a mão (consequência: quebra de agulhas e perda de centro).",
+      "❌ Deixar a régua de entalhes seca e sem graxa com atrito direto de metal com metal.",
+      "❌ Esquecer de apertar a contraporca após regular, deixando o parafuso girar e desregular sozinho com a vibração."
+    ],
+    "troubleshootingTips": [
+      "O motor de troca de cor faz força mas não consegue mudar de agulha e acusa erro no painel: A esfera de retenção está apertada demais na bucha roscada; solte o parafuso Allen da bucha cerca de meia volta até a transição ficar suave.",
+      "A agulha bate na borda do furo da chapa de agulha ou raspa no calcador ao descer: A esfera de retenção está com a mola frouxa ou a régua de entalhes está com folga; aperte a bucha da esfera até sentir o clique firme e audível no centro exato da agulha.",
+      "Barulho de rangido metálico seco durante cada troca de cor: Falta de graxa na esfera e nas cavidades em V da régua de indexação; aplique uma leve camada de graxa sintética com bissulfeto de molibdênio sobre os entalhes."
+    ],
+    "dicaArtrelados": "Quer fazer o 'Teste do Clique de Rocha da Artrelados' para saber se o cabeçote da sua máquina está firme e seguro? Com a máquina desligada e em qualquer agulha, segure o bloco frontal onde ficam os cones com a mão e tente dar uma leve chacoalhadinha lateral (para a esquerda e para a direita). Não pode haver absolutamente nenhuma folga ou 'jogo solto'! Se você sentir uma folguinha bamba, a mola da esfera de retenção afrouxou. Basta dar um aperto de apenas um quarto de volta no parafusinho Allen da trava e sentir aquele clique seco de volta. Seus contornos e agulhas agradecerão com perfeição absoluta!",
+    "voceSabia": "O princípio mecânico do 'Ball Detent' (Esfera de Retenção com Mola) é exatamente o mesmo que você sente na ponta dos dedos ao encaixar um soquete de chave de boca em uma catraca de ferramentas, ou quando muda a marcha da manopla do câmbio manual de um carro esportivo! Esse mecanismo proporciona aquela sensação tátil inconfundível de precisão e solidez que os apaixonados por mecânica tanto admiram!",
+    "practicalExercise": "Sentindo o Clique Perfeito da Trava Manualmente: Com a máquina desligada da tomada, acesse o botão de giro manual do eixo came de troca de cores. Gire devagar com a mão no sentido horário e preste atenção na sensação táctil dos seus dedos: sinta o peso aumentar quando a esfera sobe a rampa do entalhe em V e, logo em seguida, o alívio gostoso do 'claque' quando a esfera cai no centro da próxima agulha. Treine seu ouvido e seu tato para reconhecer a firmeza do clique de fábrica!",
+    "quickSummary": "Esfera de aço cromo pré-carregada por mola que se aloja nos entalhes em V do cabeçote, travando a agulha selecionada com precisão no centro e eliminando folgas laterais.",
+    "relatedTerms": [
+      "Eixo Came de Mudança Automática de Cores / Came Espiral de Troca de Agulha (Color Change Cam Shaft / Spiral Needle Change Cam)",
+      "Sensor de Posição Zero / Sensor de Origem do Came de Mudança de Cores (Color Change Home Position Sensor)",
+      "Barra de Agulha e Bucha Guia",
+      "Chapa de Agulha (Needle Plate)",
+      "Quebra de Agulha (Needle Breakage)",
+      "Bloco Móvel das Agulhas (Needle Bar Case)"
+    ],
+    "tags": [
+      "e-106",
+      "esfera-retencao",
+      "detent-ball",
+      "ball-plunger",
+      "trava-de-posicionamento",
+      "came-de-cor",
+      "multiagulhas",
+      "rigidez-mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Needle Bar Case Detent Ball Mechanism, Tension Adjustment and Rail Lubrication. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Positioning Spring & Detent Plunger Calibration Service Manual. Ichinomiya, 2022.",
+      "HAPPY JAPAN. Multi-Needle Head Mechanical Locking and Color Change Troubleshooting. Yamagata, 2023.",
+      "ARTRELADOS. A Firmeza de Rocha do Cabeçote: Segredos da Esfera de Retenção, Travas Mecânicas e Alinhamento Preciso. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "e-107-engrenagem-conica-helicoidal-eixo-inferior-lacadeira",
+    "code": "E-107",
+    "term": "Engrenagem Cônica Helicoidal do Eixo Inferior da Laçadeira (Lower Shaft Spiral Bevel Gear / Hook Drive Gear)",
+    "pronunciation": "en-gre-ná-jem cô-ni-ca e-li-coi-dál do êi-sho in-fe-ri-ór da la-sa-dêi-ra (lô-uer shéft spái-ral bé-vel guíar / ruk dráiv guíar)",
+    "letter": "E",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Desenvolvida a partir da tecnologia de engrenamento helicoidal cônico-espiral concebida pela Gleason Works na primeira metade do século XX e introduzida na indústria têxtil japonesa (Tajima, Barudan, Brother) nos anos 1970. Sua aplicação substituiu as arcaicas engrenagens cônicas de dentes retos, permitindo que as máquinas de bordar quebrassem a barreira dos 500 PPM e alcançassem velocidades superiores a 1.000 PPM com transmissão angular suave a 90 graus, baixíssimo ruído e ausência de folga dinâmica.",
+    "summary": "Par cinemático de engrenagens cônicas de dentes helicoidais em espiral usinadas em aço-liga temperado, responsáveis por transmitir a rotação do eixo horizontal inferior para o eixo vertical da laçadeira rotativa em ângulo de 90° com relação exata de 1:2.",
+    "definition": "A Engrenagem Cônica Helicoidal do Eixo Inferior da Laçadeira (tecnicamente denominada Spiral Bevel Gear Set, Hook Drive Gear, Pinhão Cônico da Laçadeira ou Par de Engrenagens da Laçadeira a 90 Graus) é o conjunto mecânico de transmissão angular que conecta o eixo motriz inferior horizontal da máquina de bordar ao eixo vertical que suporta e gira a laçadeira rotativa (Rotary Hook). Sua geometria cônica espiral permite transferir potência mecânica em um ângulo perpendicular rigoroso de 90° com uma relação de transmissão precisa de 1:2 (ou seja, a engrenagem motriz do eixo inferior possui o dobro do número de dentes da engrenagem movida do eixo da laçadeira). Isso significa que, a cada ciclo de descida e subida da agulha (uma volta completa do eixo superior a 1.000 PPM), a laçadeira executa rigorosamente duas voltas completas (2.000 RPM): a primeira volta captura e abre o laço de linha superior formado no chanfro da agulha, e a segunda volta completa o ciclo de liberação e assentamento da linha enquanto o estica-fio sobe para dar o aperto do ponto. Diferente de engrenagens retas comuns que se chocam dente a dente produzindo vibração e estalos, os dentes helicoidais em espiral entram em contato de forma progressiva e contínua (com sobreposição de pelo menos dois pares de dentes simultâneos sob carga), proporcionando funcionamento silencioso, absorção de choques inerciais durante paradas bruscas de corte e manutenção de um ponto de sincronismo (ponto de laçada) micrométrico que não se altera com o aquecimento da máquina.",
+    "technicalDetails": "Fabricada em aço-liga forjado de alta resistência mecânica SAE 8620 ou 20CrMnTi com dentes usinados em geradoras hipoides Gleason ou Klingelnberg, submetidos a cementação e têmpera profunda para atingir dureza superficial de 58 a 62 HRC e núcleo tenaz resistente à fadiga por torção. O módulo de engrenamento varia de 0,8 a 1,25 mm, com relação de engrenamento de 2:1 (ex.: coroa de 32 dentes no eixo inferior acionando pinhão de 16 dentes no eixo da laçadeira). A folga entre dentes (Backlash) é calibrada rigidamente entre 0,05 mm e 0,08 mm mediante o ajuste de calços espaçadores e parafusos de fixação métricos Allen sem cabeça (parafusos cônicos M5x0.8 e planos de travamento duplo). Opera imersa em graxa de lítio com aditivos de extrema pressão (EP2) e bissulfeto de molibdênio.",
+    "construction": [
+      "Coroa Cônica Helicoidal Motriz (Drive Gear): Engrenagem maior fixada rigidamente ao eixo horizontal inferior da máquina",
+      "Pinhão Cônico Helicoidal Movido (Driven Pinion): Engrenagem menor com metade dos dentes montada no eixo vertical da laçadeira",
+      "Dentes Curvos em Espiral Retificados: Dentes com perfil de evolvente helicoidal que garantem engrenamento contínuo e silencioso",
+      "Cubo de Fixação com Parafusos Allen Duplos: Orifícios roscados com parafusos de ponta cônica e ponta plana para travamento no eixo",
+      "Rebaixo de Alívio e Marcação de Sincronismo: Gravação de ponto ou linha de referência para alinhamento grosseiro de montagem",
+      "Banho de Graxa Especial de Alta Rotação: Lubrificante adesivo com bissulfeto de molibdênio que adere aos dentes a 2.400 RPM"
+    ],
+    "howItWorks": [
+      "1. O servomotor principal gira o eixo superior da máquina, sincronizado por correia dentada de alta precisão ao eixo inferior.",
+      "2. O eixo inferior gira a Coroa Cônica Motriz a 1.000 RPM.",
+      "3. Os dentes helicoidais em espiral da coroa entram em contato suave e progressivo com os dentes do pinhão da laçadeira.",
+      "4. Por ter metade do número de dentes (relação 1:2), o Pinhão Movido gira o eixo vertical da laçadeira exatamente a 2.000 RPM.",
+      "5. Na primeira volta da laçadeira, a ponta passa a 0,05 mm do chanfro da agulha e pesca o laço de linha no tempo exato.",
+      "6. Na segunda volta, a laçadeira conduz a linha ao redor da caixa de bobina enquanto o estica-fio completa o nó do bordado.",
+      "7. O engrenamento espiral absorve as vibrações mecânicas, mantendo a sincronia perfeita por milhões de pontos sem folga!"
+    ],
+    "beginnerExplanation": "A Engrenagem Cônica Helicoidal é o 'coração do compasso' da sua máquina de bordar! Para a máquina fazer o ponto de bordado, a agulha desce na vertical enquanto a laçadeira gira deitada lá embaixo. Como a máquina faz uma barra reta que vem lá do motor fazer virar uma pecinha que gira em pé a 90 graus? Através desse parzinho de engrenagens de aço com dentes inclinados em espiral! E tem um segredo que pouca gente sabe: toda vez que a sua agulha desce e sobe uma única vez, essa engrenagem faz a laçadeira dar exatamente DUAS voltas completas! Uma volta para pescar a linha e a outra volta para soltar e deixar o ponto amarrado no tecido. Se essa engrenagem perder um milímetro de regulagem ou tiver os dentes gastos, a laçadeira chega atrasada ou adiantada em relação à agulha: ou a máquina não amarra o ponto (pulando pontos) ou a agulha bate com força de ferro na ponta da laçadeira!",
+    "applications": [
+      "Transmissão angular de rotação mecânica a 90 graus entre o eixo motriz inferior e a laçadeira rotativa",
+      "Multiplicação exata de velocidade 1:2 (duas voltas da laçadeira para cada ciclo da barra de agulha)",
+      "Garantia de sincronismo angular rígido (ponto de laçada) sem atrasos ou histerese dinâmica",
+      "Redução drástica do ruído acústico e da vibração harmônica do braço cilíndrico da máquina a 1.000 PPM",
+      "Absorção de torque inercial nas desacelerações de corte automático de linha"
+    ],
+    "mainTypes": [
+      "Engrenagem Cônica Espiral Padrão em Aço Forjado Cementado: O padrão industrial de altíssima durabilidade (Tajima/Barudan)",
+      "Engrenagem Helicoidal em Bronze Fosforoso Autolubrificante: Utilizada em alguns modelos de pinhão para funcionamento silencioso e menor desgaste do eixo",
+      "Engrenagem com Sistema de Caixa Selada e Banho de Óleo: Presente em máquinas industriais pesadas com lubrificação por cárter contínuo",
+      "Conjunto Cônico Bipartido com Ajuste de Folga Micrométrica: Permite eliminar folgas residuais sem desarmar o eixo inferior"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Projetada para operar de 0 a 1.200 PPM contínuos (com rotação da laçadeira atingindo até 2.400 RPM)",
+      "needleType": "Universal para todas as agulhas",
+      "stabilizer": "Universal para todas as entretelas"
+    },
+    "advantages": [
+      "✔ Transmissão angular com relação 1:2 matematicamente perfeita que nunca perde o passo da laçada",
+      "✔ Dentes helicoidais em espiral que operam com rodagem suave e silenciosa sem trancos mecânicos",
+      "✔ Altíssima dureza (60 HRC) que suporta anos de trabalho em três turnos sem desgaste perceptível",
+      "✔ Travamento duplo de parafusos que impede o desfasamento da laçadeira mesmo com quebras violentas de agulha"
+    ],
+    "limitations": [
+      "Se os parafusos forem apertados fora do rebaixo usinado do eixo, a engrenagem pode rodar em falso e perder o sincronismo.",
+      "Se operar seca sem graxa grafitada ou de bissulfeto de molibdênio, os dentes sofrem micropicamento e geram zumbido metálico."
+    ],
+    "commonErrors": [
+      "❌ Apertar o parafuso da engrenagem forçando os dentes um contra o outro sem folga (a máquina fica pesada e esquenta o cabeçote inferior).",
+      "❌ Deixar folga excessiva entre dentes (Backlash > 0,15 mm), fazendo a laçadeira chacoalhar e atrasar a laçada.",
+      "❌ Passar graxa automotiva comum amarela que se solta com a força centrífuga a 2.400 RPM e suja o avesso das peças bordadas.",
+      "❌ Não alinhar o primeiro parafuso de fixação no chanfro plano do eixo da máquina durante a manutenção."
+    ],
+    "troubleshootingTips": [
+      "A máquina pula pontos em todas as cores e a ponta da laçadeira parece 'atrasada' em relação à subida da agulha: Os parafusos da engrenagem cônica helicoidal afrouxaram e a engrenagem girou sobre o eixo; faça o sincronismo angular da laçadeira (com a agulha subindo 1,8 mm do ponto morto inferior) e aperte os parafusos da engrenagem com trava rosca suave.",
+      "O braço inferior da máquina esquenta muito e faz um barulho de engrenagem roncando ou zumbindo em alta velocidade: A engrenagem está prensada demais contra o pinhão sem a folga de 0,05 mm; afaste levemente a engrenagem até sentir uma microfolga quase imperceptível com a ponta dos dedos.",
+      "Barulho seco e metálico no fundo da máquina ao girar o volante com a mão: A graxa dos dentes secou ou foi lavada por óleo líquido fino; aplique graxa preta de bissulfeto de molibdênio diretamente nos dentes da engrenagem."
+    ],
+    "dicaArtrelados": "Quer saber o segredo dos melhores mecânicos de bordado do mundo para regular o par de engrenagens da laçadeira? Use o 'Truque do Papel Seda da Artrelados'! Na hora de encostar a engrenagem do eixo na engrenagem da laçadeira, nunca empurre até prensar metal contra metal. Coloque uma tirinha de papel de seda (ou uma tira de plástico de sacola bem fininha) no meio dos dentes das duas engrenagens e aperte os parafusos. Depois, gire o eixo com a mão para cuspir o papelzinho fora: a espessura daquele papelzinho deixará exatamente os 0,06 mm de folga perfeita que a engrenagem precisa para rodar macia, silenciosa e sem esquentar!",
+    "voceSabia": "A relação matemática de 1:2 dessa engrenagem foi uma das maiores invenções da história da mecânica de precisão! Se a laçadeira desse apenas uma volta por ponto, ela teria que ser do tamanho de um prato para conseguir levar a linha inteira ao redor do carretel. Fazendo a laçadeira rodar duas vezes mais rápido com essa engrenagem cônica, os engenheiros conseguiram reduzir o tamanho da laçadeira para o diâmetro de uma moeda de dois reais, viabilizando braços cilíndricos fininhos que entram dentro de mangas, bolsos e bonés!",
+    "practicalExercise": "Constatando as Duas Voltas da Laçadeira com Giro Manual: Com a máquina desligada e a tampa da laçadeira aberta sem a caixa de bobina, pegue o volante manual da máquina e gire bem devagar uma volta completa de 360° (acompanhe uma descida e uma subida da barra de agulha). Olhe fixamente para a ponta da laçadeira: repare como ela dá a primeira volta completa enquanto a agulha sobe um pouquinho, e dá uma segunda volta inteira quando a agulha já está lá em cima! Você acaba de ver a mágica da engrenagem cônica 1:2 em plena ação!",
+    "quickSummary": "Par de engrenagens cônicas de dentes espirais que transmite a rotação a 90° do eixo inferior para a laçadeira com relação 1:2, garantindo duas voltas por ponto com silêncio e precisão.",
+    "relatedTerms": [
+      "Laçadeira Rotativa (Rotary Hook)",
+      "Ponto de Laçada (Loop Formation)",
+      "Sincronismo da Laçadeira (Hook Timing)",
+      "Dedo Posicionador da Laçadeira / Trava de Parada da Caixa de Bobina",
+      "Mola de Retenção de Linha da Bobina / Mola Anti-Giro da Caixa de Bobina",
+      "Eixo Inferior da Máquina de Bordar"
+    ],
+    "tags": [
+      "e-107",
+      "engrenagem-conica",
+      "engrenagem-helicoidal",
+      "spiral-bevel-gear",
+      "hook-drive-gear",
+      "relacao-1-2",
+      "sincronismo",
+      "lacadeira",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Lower Shaft Bevel Gear Assembly, Backlash Adjustment & Timing Maintenance. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Spiral Bevel Gear Tooth Contact, Lubrication and Hook Drive Mechanics. Ichinomiya, 2022.",
+      "GLEASON WORKS. Spiral Bevel Gear Technology, Cutting Geometry and High-Speed Operation. Rochester, 2020.",
+      "ARTRELADOS. O Coração do Compasso a 90 Graus: Segredos da Engrenagem Cônica da Laçadeira e Sincronismo Perfeito. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "e-108-eixo-inferior-principal-maquina-bordar-transmissao-lacadeira",
+    "code": "E-108",
+    "term": "Eixo Inferior Principal da Máquina de Bordar / Eixo de Transmissão da Laçadeira (Lower Main Shaft / Rotary Hook Drive Shaft)",
+    "pronunciation": "êi-sho in-fe-ri-ór prin-si-pál da má-ki-na de bor-dár / êi-sho de trans-mi-são da la-sa-dêi-ra (lô-uer mêin shéft / rôu-ta-ri ruk dráiv shéft)",
+    "letter": "E",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Originado nos primórdios da máquina de costura industrial mecânica e aperfeiçoado para as bordadeiras automáticas multi-cabeças e tubulares no Japão (Tajima, Barudan e Brother) entre 1960 e 1980. O desenvolvimento de ligas de aço de alta rigidez torsional e mancais com rolamentos de esferas blindados permitiu estender eixos inferiores contínuos ou seccionados de precisão por até mais de 5 metros em máquinas industriais, mantendo sincronismo angular absoluto sem torção residual entre o primeiro e o último cabeçote a mais de 1.000 PPM.",
+    "summary": "Eixo de aço retificado e temperado que percorre o leito inferior da máquina, sincronizado 1:1 com o eixo superior, responsável por acionar a laçadeira rotativa e os componentes do corte de linha.",
+    "definition": "O Eixo Inferior Principal da Máquina de Bordar e Eixo de Transmissão da Laçadeira (tecnicamente denominado Lower Main Shaft, Hook Drive Shaft, Eixo de Comando Inferior ou Eixo da Cama da Máquina) é o componente mecânico de rotação contínua posicionado longitudinalmente no interior do leito, braço cilíndrico ou base tubular da máquina de bordar. Acoplado cinematicamente ao eixo superior da barra de agulha e do estica-fio através de uma correia dentada sincronizadora reforçada (Timing Belt com relação 1:1), o eixo inferior gira exatamente na mesma velocidade angular do motor principal (ex.: 1.000 RPM a 1.000 PPM). Sua função primordial é transmitir o torque e a referência de fase mecânica para dois subsistemas críticos: a Engrenagem Cônica Helicoidal da Laçadeira (E-107) — que converte a rotação a 90° e duplica a velocidade para 2.000 RPM na laçadeira rotativa — e o Came de Acionamento do Trimmer (C-103), que comanda o ciclo de avanço e recuo das facas de corte automático. O eixo é apoiado por mancais de rolamentos radiais rígidos de esferas blindados (série 6000 ou 6200) e buchas intermediárias de bronze sinterizado, sendo usinado com tolerâncias dimensionais h6/h7 e retificação cilíndrica centesimal. Qualquer desvio de concentricidade, flexão por impacto ou folga nos rolamentos do eixo inferior provoca oscilação no ponto de laçada (Hook Timing), causando quebras de agulha, corte de linha prematuro, falhas de sincronismo e aumento substancial do ruído mecânico da máquina.",
+    "technicalDetails": "Usinado a partir de barra maciça de aço-liga cromo-níquel SAE 4140, SAE 4340 ou aço ferramenta retificado por conformação a frio (Cold Drawn Ground Steel), submetido a tratamento térmico de têmpera e revenimento com dureza superficial entre 45 e 50 HRC e núcleo tenaz para suportar picos de torção e paradas bruscas de emergência. A tolerância de retificação de diâmetro é de classe g6 a h6 (diâmetro padrão entre 12,0 mm e 20,0 mm conforme o porte da máquina), com batimento radial (Runout) inferior a 0,015 mm ao longo de todo o comprimento. Possui chanfros e rebaixos usinados para assentamento dos parafusos cônicos das polias e engrenagens, bem como chavetas de sincronismo angular.",
+    "construction": [
+      "Barra de Aço-Liga Cromo SAE 4140 Retificada: Eixo retilíneo com alta rigidez torsional e acabamento superficial retificado",
+      "Polia Dentada Sincronizadora Inferior: Polia de alumínio ou aço acoplada à correia dentada do motor (relação 1:1 com o eixo superior)",
+      "Rebaixos e Chanfros de Referência de Fase (Flats): Áreas planas usinadas para travamento angular dos parafusos Allen das engrenagens",
+      "Mancais com Rolamentos de Esferas Blindados (2RS): Rolamentos de precisão pré-lubrificados que garantem rotação livre sem folga radial",
+      "Anéis de Retenção Elásticos (Seeger) e Arruelas de Calço: Mantêm o posicionamento axial do eixo, prevenindo deslocamentos laterais",
+      "Seção de Montagem do Came do Trimmer e da Coroa Cônica: Zonas de assentamento de alta precisão para os conjuntos de corte e laçadeira"
+    ],
+    "howItWorks": [
+      "1. O servomotor principal gira o eixo superior, acionando a descida da barra de agulha e a subida do estica-fio.",
+      "2. A correia sincronizadora dentada transfere simultaneamente o giro para a polia do Eixo Inferior Principal na proporção 1:1.",
+      "3. O Eixo Inferior gira a 1.000 RPM sustentado por seus rolamentos blindados com zero oscilação radial.",
+      "4. Na ponta do eixo, a Coroa Cônica Helicoidal aciona o pinhão da laçadeira, multiplicando a rotação para 2.000 RPM.",
+      "5. A rotação sincronizada faz a ponta da laçadeira passar no chanfro da agulha no ângulo angular exato (ex.: 200° a 205°).",
+      "6. Ao receber o comando de corte, o Came do Trimmer montado no eixo inferior engata o rolete e executa o ciclo de corte.",
+      "7. Todo o balé mecânico entre agulha, linha e laçadeira permanece rígido e consistente durante milhões de pontos!"
+    ],
+    "beginnerExplanation": "O Eixo Inferior da máquina é como o eixo de transmissão que passa por baixo de um caminhão, ligando o motor até as rodas de trás! Na máquina de bordar, o motor principal fica lá em cima perto das agulhas. Mas a laçadeira e a tesourinha automática precisam rodar lá embaixo, dentro daquele braço de ferro onde você veste as camisetas e os bonés. Como a força do motor chega lá embaixo no tempo exato, sem atrasar nem um milésimo de segundo? Através desse eixo de aço maciço! Ele é uma barra de ferro super reta e pesada que atravessa a máquina por baixo. Uma correia dentada faz ele girar juntinho com a agulha: quando a agulha desce, o eixo gira a laçadeira para esperar a linha; quando a agulha sobe, o eixo ajuda a amarrar o ponto. Se esse eixo entortar um cabelinho ou ficar com folga, a máquina perde toda a afinação e parece que 'esqueceu' como se borda!",
+    "applications": [
+      "Transmissão primária de torque e rotação mecânica do motor para o conjunto inferior da máquina",
+      "Sincronização angular absoluta (relação 1:1) com o eixo superior da barra de agulha e do estica-fio",
+      "Acionamento direto da coroa da laçadeira rotativa com relação de multiplicação de velocidade 1:2",
+      "Suporte físico e rotação sincronizada do Came de Acionamento do Trimmer e do sistema de corte",
+      "Garantia de estabilidade dimensional do ponto de laçada em altas rotações (até 1.200 PPM)"
+    ],
+    "mainTypes": [
+      "Eixo Inferior Enteriço Monobloco: Utilizado em máquinas tubulares de cabeçote único e compactas comerciais",
+      "Eixo Inferior Seccionado com Acoplamentos de Fole (Flexible Couplings): Presente em máquinas industriais longas de 12 a 24 cabeças",
+      "Eixo Inferior Apoiado por Rolamentos Cerâmicos Híbridos: Versão especial para máquinas de altíssima velocidade (1.500 PPM)",
+      "Eixo Tubular Aliviado de Alta Rigidez: Eixo oco de menor inércia que reduz a carga de aceleração e frenagem do servomotor"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Projetado para rotação contínua de 0 a 1.200 RPM com estabilidade dinâmica e ausência de ressonância harmônica",
+      "needleType": "Universal para todas as agulhas",
+      "stabilizer": "Universal para todas as entretelas"
+    },
+    "advantages": [
+      "✔ Rigidez torsional máxima: a laçadeira não sofre atraso angular mesmo sob paradas de corte repentinas",
+      "✔ Alinhamento centesimal (Runout < 0,015 mm) que protege a laçadeira contra impactos da agulha",
+      "✔ Rolamentos blindados vedados que garantem anos de funcionamento livre de manutenção diária",
+      "✔ Conexão sincronizada por correia dentada que nunca desliza nem altera o ponto de sincronismo da máquina"
+    ],
+    "limitations": [
+      "Se a máquina sofrer uma colisão violenta de agulha travada no bastidor metálico, a correia do eixo pode pular dentes.",
+      "Se for desmontado sem marcar a posição original de fase, exige recálculo completo do sincronismo de fábrica."
+    ],
+    "commonErrors": [
+      "❌ Apertar os parafusos da correia sincronizadora fora do chanfro usinado do eixo inferior.",
+      "❌ Deixar a correia dentada inferior excessivamente esticada (danifica os rolamentos do eixo) ou frouxa (pula dentes).",
+      "❌ Bater na ponta do eixo com martelo de ferro para sacar engrenagens, entortando a ponta retificada.",
+      "❌ Não checar a folga axial do eixo antes de regular a distância da laçadeira em relação à agulha."
+    ],
+    "troubleshootingTips": [
+      "A máquina de repente começou a bater a agulha na laçadeira em todas as agulhas do cabeçote: A correia sincronizadora do eixo inferior pulou dente devido a um travamento anterior ou os parafusos da polia afrouxaram; solte a correia, alinhe o grau do volante no ângulo de sincronismo (Timing Wheel a 100° ou 200° conforme o manual) e recoloque a correia dentada na tensão correta.",
+      "Vibração forte e zumbido contínuo no braço cilíndrico que aumenta com a velocidade: Um dos rolamentos de apoio do eixo inferior está estragado com folga radial; troque os rolamentos blindados do eixo inferior.",
+      "Ao empurrar o eixo inferior para dentro e para fora com a mão, sente-se uma folga longitudinal de mais de 0,5 mm: As arruelas de calço ou o colar de retenção axial afrouxaram; ajuste o colar de encosto do eixo eliminando o jogo axial antes que a laçadeira saia de foco."
+    ],
+    "dicaArtrelados": "Quer saber se o seu Eixo Inferior está perfeitamente sincronizado com o Eixo Superior em menos de 10 segundos? Use o 'Teste das Duas Marcas da Artrelados': gire o volante manual da máquina até a marca de 100° no transferidor de fábrica (onde a barra de agulha atinge o ponto morto superior). Nesse instante exato, a ponta da sua laçadeira deve estar apontada exatamente para a marca de referência gravada na carcaça inferior da máquina. Se a agulha estiver em 100° e a laçadeira estiver apontando para outro lado, a sincronia entre os dois eixos pulou! É o teste mais simples, rápido e certeiro do mundo!",
+    "voceSabia": "Em grandes máquinas industriais de bordado de 20 cabeças que medem mais de 10 metros de comprimento, o eixo inferior precisa ser tão perfeito que, se ele sofresse uma torção de apenas 1 grau da primeira até a última cabeça, as agulhas da ponta estariam bordando enquanto as agulhas do outro lado estariam quebrando linha! Por isso, os eixos das máquinas industriais são fabricados com aços especiais de alta tecnologia derivados da indústria aeroespacial!",
+    "practicalExercise": "Inspeção Tátil da Folga Axial do Eixo Inferior: Com a máquina desligada da tomada e sem a carretilha na caixa de bobina, segure o corpo metálico da laçadeira com o polegar e o indicador e tente puxá-la e empurrá-la na direção do eixo (pra frente e pra trás). Você não deve sentir nenhum 'clique' ou folga de deslocamento linear. Esse teste comprova que os mancais e os colares de retenção do seu eixo inferior estão firmes como uma rocha!",
+    "quickSummary": "Eixo de aço retificado e temperado que percorre a base inferior da máquina, sincronizado 1:1 com o eixo superior, responsável por acionar a laçadeira e o came do trimmer.",
+    "relatedTerms": [
+      "Engrenagem Cônica Helicoidal do Eixo Inferior da Laçadeira",
+      "Came de Acionamento do Trimmer / Excêntrico do Corte de Linha",
+      "Haste Biela de Articulação do Trimmer / Tirante de Transmissão do Cortador de Linha",
+      "Laçadeira Rotativa (Rotary Hook)",
+      "Sincronismo da Laçadeira (Hook Timing)",
+      "Correia Dentada Sincronizadora do Pantógrafo"
+    ],
+    "tags": [
+      "e-108",
+      "eixo-inferior",
+      "lower-main-shaft",
+      "hook-drive-shaft",
+      "sincronismo-1-1",
+      "transmissao-mecanica",
+      "lacadeira",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Lower Shaft Timing Belt, Bearing Replacement & Axial Clearance Standards. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Main Shaft & Lower Shaft Synchronization, Runout Tolerances and Service Manual. Ichinomiya, 2022.",
+      "BROTHER INDUSTRIES. Multi-Needle Lower Drive Shaft and Hook Timing Specifications. Nagoya, 2021.",
+      "ARTRELADOS. A Espinha Dorsal Inferior: Segredos do Eixo da Laçadeira, Sincronismo 1:1 e Alinhamento Perfeito. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
   }
 ];
+
 
 
 

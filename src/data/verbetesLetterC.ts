@@ -6885,6 +6885,316 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "ARTRELADOS. A Tesoura Invisível da Máquina: Segredos de Regulagem, Limpeza e Afiação do Cortador de Linha. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "c-103-came-acionamento-trimmer-excentrico-corte-linha",
+    "code": "C-103",
+    "term": "Came de Acionamento do Trimmer / Excêntrico do Corte de Linha (Trimmer Cam & Knife Drive Eccentric)",
+    "pronunciation": "câ-me de a-si-o-na-mên-to do trí-mer / eks-sên-tri-co do cór-te de lí-nha (trí-mer câm end náif dráiv ek-sên-trik)",
+    "letter": "C",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Criado nos centros de engenharia mecatrônica têxtil do Japão (Tajima, Barudan e Brother) nas décadas de 1970 e 1980 para sincronizar a cinemática de corte de linha com o eixo de transmissão principal. Substituiu os sistemas manuais e pneumáticos complexos por uma came mecânica com pista perfilada montada diretamente no eixo inferior da máquina, garantindo que o ciclo de avanço e recuo das facas de corte ocorra no ângulo de rotação exato (graus de fase) da parada do motor.",
+    "summary": "Disco excêntrico de aço usinado com ranhura de perfil curvilíneo fixado ao eixo inferior da máquina, responsável por guiar o rolete seguidor do solenoide de corte e converter a rotação motriz no movimento harmônico de avanço e recuo da faca móvel.",
+    "definition": "O Came de Acionamento do Trimmer e Excêntrico do Corte de Linha (universalmente denominado Trimmer Drive Cam, Knife Operating Cam, Excêntrico de Comando do Cortador ou Came de Faca da Laçadeira) é o componente mecânico de precisão angular montado sobre o eixo inferior horizontal da máquina de bordar, cuja função cinemática primordial é governar o curso de aceleração, avanço, captura e recolhimento da faca móvel (Movable Knife) durante o corte de linha automático. O came é projetado com um perfil ranhurado excêntrico tridimensional usinado com rigor centesimal. Em repouso, o rolete seguidor (Cam Follower) do sistema de corte fica suspenso e afastado pela força de uma mola de desengate, permitindo que a máquina borde a 1.000 PPM sem qualquer atrito ou arrasto na navalha. Quando a placa controladora identifica o comando de trim (salto de ponto ou troca de cor), ela desacelera o motor e envia um pulso de disparo para o solenoide do cortador. O solenoide engata uma alavanca que força o pino com rolamento seguidor para dentro da ranhura guia da came. Conforme o eixo gira no ângulo de corte (geralmente entre 280° e 315° de fase do encoder), a rampa da came empurra a biela articulada para frente, fazendo a faca móvel avançar sob a chapa de agulha e laçar as duas linhas (superior e da bobina); na sequência imediata da rotação, a curva de retorno da came puxa a biela com força calculada, conduzindo as linhas de encontro ao gume da faca fixa para a secção limpa por cisalhamento. Ao completar o giro, uma rampa de alívio ejeta o rolete seguidor para fora da pista e o solenoide é desenergizado, deixando o mecanismo travado e protegido para a retomada do bordado.",
+    "technicalDetails": "Usinado a partir de bloco forjado de aço cromo-molibdênio SAE 4140 ou 20CrMnTi, submetido a cementação e têmpera por indução nas pistas de rolamento para alcançar dureza de 58 a 62 HRC com núcleo resiliente para absorver impactos de engate a quente. A ranhura interna possui tolerância de largura de ±0,01 mm com rugosidade espelhada Ra < 0,2 µm para deslizamento sem folga do mini-rolamento de esferas seguidor (Cam Follower tipo KR ou CF). Possui dois parafusos de fixação métricos sem cabeça Allen (rosca M6x1.0 com ponta cônica endurecida e ponta plana de travamento) orientados a 90° ou 120° para posicionamento estrito no chanfro de referência do eixo inferior. O alinhamento de fase de fábrica (Timing do Trimmer) é calibrado em graus angulares com o auxílio do disco graduado do volante (Timing Wheel).",
+    "construction": [
+      "Disco Estrutural Forjado em Aço Liga: Corpo cilíndrico usinado com balanceamento estático para rotação suave",
+      "Pista / Canaleta Guiada Curvilínea (Cam Groove): Ranhura usinada em perfil excêntrico que desenha a trajetória da faca",
+      "Rampa Inclinada de Entrada e Engate Suave: Chanfro inicial que orienta a penetração do pino seguidor sem estalos mecânicos",
+      "Rampa de Ejeção e Desengate Automático: Declive de saída que expulsa o pino para a posição de repouso no fim do ciclo",
+      "Cubo de Fixação com Parafusos Allen Duplos: Parafusos de alta resistência mecânica que travam o came no ângulo exato do eixo",
+      "Ranhura de Lubrificação e Marcação de Ponto Morto: Guia de orientação visual e depósito de graxa grafitada de extrema pressão"
+    ],
+    "howItWorks": [
+      "1. A máquina lê o código de corte na matriz e o motor desacelera para a velocidade angular de trim (cerca de 150 a 200 RPM).",
+      "2. A placa eletrônica energiza o solenoide do trimmer no ângulo angular exato (ex.: 285° no disco de tempo).",
+      "3. A haste do solenoide empurra o rolete seguidor para dentro da pista ranhurada do Came do Trimmer.",
+      "4. Conforme o eixo inferior completa o giro, o contorno excêntrico da came desloca a biela de articulação para a frente.",
+      "5. A faca móvel avança sob a chapa de agulha, abrindo o laço e capturando a linha superior e a linha da bobina.",
+      "6. A curvatura de retorno da came recolhe a biela rapidamente, arrastando as linhas contra a contra-faca fixa afiada.",
+      "7. As linhas são cisalhadas de forma instantânea, o pino seguidor atinge a rampa de alívio e a mola desengata o cortador!"
+    ],
+    "beginnerExplanation": "O Came de Acionamento do Trimmer é a 'pista de montanha-russa' que controla a tesoura invisível da sua máquina! Já imaginou se a faca do cortador ficasse solta lá dentro? Ela ia bater na agulha e fazer uma bagunça terrível! Para que a tesourinha embaixo da chapa saiba exatamente a hora de ir para a frente, pegar a linha e voltar cortando tudo, ela é guiada por uma rodinha de ferro que tem uma canaleta cavada parecendo uma pista de carrinho. Quando a máquina precisa cortar a linha, um ímã elétrico (solenoide) empurra um pininho com rodinha para dentro dessa canaleta. Conforme a máquina roda, a rodinha corre pela curva e empurra a tesoura para pegar as linhas e recolher cortando no milissegundo exato! Quando termina o corte, o pininho pula fora da pista e a tesoura fica quietinha esperando o próximo corte!",
+    "applications": [
+      "Conversão precisa da rotação contínua do motor em movimento alternativo sincronizado da faca móvel",
+      "Controle cinemático do tempo de abertura, captura e fechamento das lâminas de corte inferior",
+      "Prevenção absoluta de colisões entre a faca do cortador e a agulha em descida",
+      "Garantia de corte limpo e suave sem trancos ou estalos agressivos no mecanismo inferior",
+      "Padronização milimétrica do ângulo de início e fim da ação de cisalhamento da linha"
+    ],
+    "mainTypes": [
+      "Came de Pista Ranhurada Fechada (Groove Box Cam): O modelo industrial mais robusto e seguro, que guia o rolete em avanço e recuo positivos",
+      "Came de Ressalto Aberto com Retorno por Mola (Open Face Cam): Utilizado em máquinas de bordar compactas ou de cabeçote único",
+      "Came com Ajuste Angular Bipartido: Possui flange bipartida que permite adiantar ou atrasar o tempo de corte sem desmontar o eixo",
+      "Came com Revestimento de Nitreto de Titânio (TiN): Pista dourada cerâmica de altíssima dureza para operações ininterruptas de 24 horas"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Suporta desacelerações bruscas e ciclos contínuos de corte de 0 a 1.200 PPM com mais de 100.000 cortes/mês",
+      "needleType": "Universal para todas as agulhas",
+      "stabilizer": "Universal para todas as entretelas"
+    },
+    "advantages": [
+      "✔ Sincronismo mecânico rígido: a faca só avança no ângulo exato em que a agulha e a laçadeira estão fora do caminho",
+      "✔ Movimento harmônico suave com perfil de rampa que elimina choques mecânicos e vibrações",
+      "✔ Aço temperado de alta dureza (60 HRC) que não desgasta nem perde a geometria mesmo após anos de produção",
+      "✔ Desengate automático seguro por rampa física que impede travamentos do motor se a energia oscilar"
+    ],
+    "limitations": [
+      "Se os parafusos afrouxarem, o came gira fora de fase no eixo e a faca móvel colide contra a agulha ou a laçadeira.",
+      "Se o rolete seguidor quebrar ou gripar por falta de graxa, ele risca a pista do came, gerando travamentos."
+    ],
+    "commonErrors": [
+      "❌ Apertar os parafusos do came em ângulo aleatório sem checar o transferidor do volante (Timing Wheel).",
+      "❌ Operar a máquina com graxa seca ou cheia de fiapos na ranhura da came, travando o pino seguidor.",
+      "❌ Bater com martelo comum na face da came para tirá-la do eixo, deformando a borda da ranhura temperada.",
+      "❌ Lubrificar a ranhura do came com spray anticorrosivo fino (desengripante), que dissolve a graxa adesiva."
+    ],
+    "troubleshootingTips": [
+      "A máquina tenta cortar a linha mas faz um barulho seco de batida metálica e a faca móvel entorta a agulha: O came do trimmer desregulou o ângulo e está adiantado; desaperte os parafusos do came, gire o volante manual até a marca de corte recomendada pelo fabricante (ex.: 285°) e reaperte os parafusos firmemente no chanfro do eixo.",
+      "O solenoide estala forte mas a faca móvel não avança para cortar a linha: O pino seguidor não está entrando na canaleta do came devido a fiapos compactados na entrada da rampa ou a mola do tirante está frouxa; limpe a pista da came e verifique o alinhamento axial do pino.",
+      "Ruído de chiado ou atrito áspero vindo de baixo da chapa após cada corte: Falta de lubrificação na pista do came; aplique uma pequena porção de graxa com bissulfeto de molibdênio diretamente na canaleta ranhurada."
+    ],
+    "dicaArtrelados": "Se a sua máquina está cortando a linha com um barulho muito forte parecendo um 'tiro' ou um estalo seco, não se assuste: na maioria das vezes é a graxa da ranhura do Came do Trimmer que secou e virou uma cera dura com pó de linha! Faça a 'Revisão do Trilho Macio da Artrelados': a cada 6 meses, retire a cobertura lateral inferior do braço da máquina e examine a pista da came. Remova a graxa velha com um pincel e querosene ou álcool isopropílico e passe uma camada fininha de graxa grafitada preta. O corte volta a ser macio, silencioso e preciso como quando a máquina acabou de sair da caixa!",
+    "voceSabia": "A engenharia do Came Excêntrico é a mesma matemática mecânica que faz os trens-bala japoneses (Shinkansen) mudarem de trilho a mais de 300 km/h sem trancos! A geometria da curva interna do came de corte de bordado é calculada segundo uma curva senoidal pura chamada de 'curva cicloidal', que permite acelerar a faca móvel de zero até a velocidade máxima com aceleração linear uniforme, sem dar nenhum solavanco!",
+    "practicalExercise": "Acompanhamento Visual do Engate do Came no Giro Manual: Com a máquina desligada da tomada e sem o bastidor, retire a tampa de proteção inferior do braço para visualizar o came de corte e o eixo. Empurre manualmente a alavanca do solenoide para encaixar o rolete na canaleta da came e, com a outra mão, gire o volante devagar. Veja com seus próprios olhos a mágica do rolete correndo dentro da curva e empurrando a faca móvel de forma harmoniosa. Uma aula prática de mecânica de precisão no seu ateliê!",
+    "quickSummary": "Disco excêntrico com canaleta ranhurada montado no eixo inferior que guia o rolete seguidor do solenoide, convertendo a rotação motriz no curso harmônico de avanço e recuo das navalhas.",
+    "relatedTerms": [
+      "Cortador de Fio Superior e Inferior / Guilhotina Mecânica de Linha (Thread Trimmer Knife Mechanism)",
+      "Navalha Móvel e Navalha Fixa do Corte de Linha (Lâminas do Trimmer / Moving & Fixed Knife)",
+      "Solenoide de Corte de Linha (Trimmer Solenoid)",
+      "Puxador de Linha da Bobina / Pescador Inferior do Trimmer",
+      "Engrenagem Cônica Helicoidal do Eixo Inferior da Laçadeira",
+      "Sincronismo da Máquina de Bordar"
+    ],
+    "tags": [
+      "c-103",
+      "came-trimmer",
+      "excentrico-corte",
+      "trimmer-cam",
+      "knife-drive-cam",
+      "corte-de-linha",
+      "sincronismo-de-corte",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Trimmer Driving Cam Adjustment, Clearance Timing & Cam Follower Service. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Thread Trimmer Eccentric Cam Mechanism & Timing Chart. Ichinomiya, 2022.",
+      "BROTHER INDUSTRIES. Professional Multi-Needle Trimmer Linkage and Cam Assembly Standards. Nagoya, 2021.",
+      "ARTRELADOS. A Montanha-Russa da Navalha: Segredos do Came do Trimmer, Sincronia de Corte e Manutenção Preventiva. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "c-104-cesto-da-lacadeira-porta-capsula-bobina-gancho-rotativo",
+    "code": "C-104",
+    "term": "Cesto da Laçadeira / Porta-Cápsula da Bobina no Gancho Rotativo (Rotary Hook Bobbin Case Holder / Inner Hook Basket)",
+    "pronunciation": "sês-to da la-sa-dêi-ra / pór-ta káp-su-la da bo-bí-na no gân-sho ro-ta-tí-vo (rôu-ta-ri ruk bó-bin kêis hôul-der / ín-ner ruk bás-kit)",
+    "letter": "C",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Concebido na evolução das máquinas de ponto rotativo industrial no início do século XX e aperfeiçoado com alta precisão no Japão (Koban e Hirose Hooks) para máquinas de bordar automáticas entre 1970 e 1990. Seu desenvolvimento revolucionou o bordado contínuo ao desacoplar a rotação da carcaça do gancho da acomodação estática da bobina, permitindo que a linha superior envolva 360° o suprimento de linha inferior sem emaranhar.",
+    "summary": "Cápsula ou carcaça interna de aço temperado montada no interior da laçadeira rotativa que aloja a caixa de bobina, permanecendo estática pela ação do dedo posicionador enquanto a laçadeira gira ao seu redor.",
+    "definition": "O Cesto da Laçadeira e Porta-Cápsula da Bobina no Gancho Rotativo (tecnicamente denominado Bobbin Case Holder, Inner Hook Basket, Cesto Interno da Laçadeira ou Gaiola da Bobina) é o componente mecânico não-rotativo de precisão alojado concêntrico no interior da carcaça giratória externa da laçadeira rotativa (Outer Hook Body). Ele constitui a câmara cilíndrica de assentamento onde a Caixa de Bobina (Bobbin Case) é inserida e travada por sua presilha elástica. O princípio cinemático de funcionamento do ponto 301 exige que o laço de linha superior capturado pela ponta do gancho circunde completamente a reserva de linha inferior. Para viabilizar esse movimento sem que a bobina seja arrastada em rotação, o Cesto da Laçadeira é mantido estacionário através do Dedo Posicionador da Laçadeira (D-094), cuja lingueta encaixa na ranhura de batente superior do cesto com uma folga calibrada de 0,4 mm a 0,7 mm. O cesto desliza sobre uma pista circular contínua (Race Track) usinada na carcaça externa com tolerâncias micrométricas e lubrificação hidrodinâmica por capilaridade. A borda superior do cesto é dotada de um ressalto em formato de chifre defletor (Basket Horn) e chanfros com polimento espelhado a diamante (Ra < 0,02 µm) que guiam suavemente o laço de linha superior para que ele escorregue por trás e pela frente da bobina, sendo recolhido pelo estica-fio sem sofrer fricção, desfiamento nem aprisionamento mecânico. Qualquer deformação, arranhão na pista ou acúmulo de fiapos compactados no leito do cesto compromete a folga de escape da linha, provocando laçadas frouxas no avesso, quebras contínuas de linha ou o travamento térmico catastrófico da laçadeira.",
+    "technicalDetails": "Fabricado em aço-ferramenta de alta resistência ou aço carbono especial cimentado com tratamento térmico de revenimento homogêneo, apresentando dureza entre 55 e 60 HRC. A pista de deslizamento circular possui excentricidade máxima de 0,005 mm e rugosidade superficial de classe N3 (Ra < 0,02 µm). Apresenta ranhura de entrada de óleo com pavio de feltro interno para distribuição controlada do lubrificante mineral branco ISO VG 10/15. A folga axial e radial na pista da carcaça oscila entre 0,03 mm e 0,06 mm, garantindo filme de óleo estável em velocidades de até 2.400 RPM de rotação do gancho externo.",
+    "construction": [
+      "Câmara Cilíndrica Interna de Alojamento: Cavidade retificada onde se encaixa a caixa de bobina com pino central de travamento",
+      "Pista Circular de Deslizamento (Race Ring): Anel periférico com guia usinada que corre dentro da canaleta da carcaça externa",
+      "Ranhura de Batente do Dedo Posicionador: Entalhe usinado no topo que recebe a lingueta do dedo posicionador da chapa",
+      "Chifre Defletor da Linha (Basket Horn): Apêndice curvo polido que orienta a abertura do laço e evita que a linha volte para a laçadeira",
+      "Rampa de Saída Suave de Fio (Loop Exit Chamfer): Borda chanfrada ultrafina que permite o desprendimento do laço para o estica-fio",
+      "Reservatório e Canais de Distribuição de Óleo com Feltro: Ranhuras internas que alimentam a pista com óleo mineral por capilaridade"
+    ],
+    "howItWorks": [
+      "1. A operadora insere a caixa de bobina no Cesto da Laçadeira, travando-a com o 'clique' característico no pino central.",
+      "2. A máquina inicia a rotação: a carcaça externa da laçadeira gira veloz a 2.000 RPM ao redor do cesto.",
+      "3. O cesto permanece imóvel, seguro no topo pelo Dedo Posicionador com folga milimétrica para a passagem da linha.",
+      "4. A ponta afiada do gancho externo captura a linha superior e abre um laço grande.",
+      "5. O laço de linha superior é conduzido pelo chifre defletor do cesto e desliza suavemente sobre a sua superfície espelhada.",
+      "6. O laço passa pela folga entre o cesto e o dedo posicionador, contornando a bobina inteira em 360°.",
+      "7. O estica-fio puxa a linha para cima, fechando o ponto no centro do tecido com nó perfeito e sem emaranhados!"
+    ],
+    "beginnerExplanation": "O Cesto da Laçadeira é a 'casinha aconchegante' onde a carretilha fica sentada enquanto o mundo gira à sua volta! Sabe como em um parque de diversões tem aquela atração onde o chão fica girando a mil por hora, mas você fica no centro em uma cadeirinha parada? O Cesto é exatamente essa cadeirinha! A casca de aço da laçadeira gira que nem uma louca a duas mil rotações por minuto para laçar a linha da agulha. Mas a linha da bobina não pode girar junto, senão ela ia virar um rolo de nó em três segundos! Então o Cesto fica ali no meio, quietinho e parado, abraçado pelo dedo posicionador. Ele é tão lisinho e polido que a linha de cima escorrega por ele feito manteiga em frigideira quente, dá uma volta completa na bobina e sobe para formar o ponto lindo e limpo na sua toalha ou camiseta!",
+    "applications": [
+      "Acomodação estática e travamento rígido da caixa de bobina no centro da laçadeira rotativa",
+      "Permissão cinemática para a passagem em 360° do laço de linha superior sem girar o carretel da bobina",
+      "Separação física entre o movimento rotativo do motor e o fornecimento contínuo de linha inferior",
+      "Guia defletora de alta precisão para a expansão e recolhimento do laço pelo estica-fio",
+      "Distribuição homogênea do filme lubrificante de óleo mineral ao longo da pista de corrida do gancho"
+    ],
+    "mainTypes": [
+      "Cesto Padrão com Chifre Curto: Otimizado para tecidos leves e bordados planos de alta velocidade em ponto tatami",
+      "Cesto com Chifre Longo Estendido (Long Horn Basket): Projetado para bordados em bonés estruturados e linhas grossas ou metálicas",
+      "Cesto com Revestimento Especial em Teflon ou Cerâmica: Reduz o atrito estático e repele fiapos em máquinas sem lubrificação automática",
+      "Cesto com Fenda para Cortador de Linha Superior: Dotado de recorte especial para passagem da navalha do trimmer sob a chapa"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Suporta operação contínua de 0 a 1.200 PPM com rotação de carcaça até 2.400 RPM",
+      "needleType": "Universal para todas as agulhas industriais DBxK5",
+      "stabilizer": "Universal para todas as entretelas",
+      "threadTension": "Folga de escape da linha no dedo posicionador calibrada rigidamente entre 0,4 mm e 0,7 mm"
+    },
+    "advantages": [
+      "✔ Superfície com polimento diamantado (Ra < 0,02 µm) que garante deslizamento com zero atrito da linha",
+      "✔ Estabilidade perfeita: a bobina não vibra nem salta mesmo em paradas bruscas e trocas rápidas de cor",
+      "✔ Tratamento térmico de revenimento profundo (55-60 HRC) que resiste a anos de trabalho sem desgastar a pista",
+      "✔ Geometria otimizada do chifre defletor que previne laçadas frouxas e embolamentos no avesso do bordado"
+    ],
+    "limitations": [
+      "Se a folga entre o cesto e o dedo posicionador for menor que 0,4 mm, a linha é esmagada ao passar e arrebenta.",
+      "Se faltar uma gota de óleo diária na pista circular, o atrito seco entre o cesto e a carcaça pode fundir as duas peças."
+    ],
+    "commonErrors": [
+      "❌ Deixar acumular um 'ninho' de fiapos de linha e poeira de entretela no vão entre o cesto e a carcaça giratória.",
+      "❌ Raspar a pista ou o chifre do cesto com chave de fenda para desobstruir linha presa, criando riscos que desfilam o fio.",
+      "❌ Apertar o dedo posicionador colado contra o cesto, prendendo o cesto e impedindo a linha de escapar livremente.",
+      "❌ Puxar a linha da bobina com força excessiva para o lado com a tampa aberta, entortando a borda superior do cesto."
+    ],
+    "troubleshootingTips": [
+      "A máquina borda alguns pontos e a linha de cima estoura como se tivesse sido cortada com gilete: O cesto está com a borda riscada por batida anterior de agulha ou a folga com o dedo posicionador está muito apertada; passe um fio de algodão com massa de polir na borda do cesto e ajuste a folga do dedo para 0,5 mm.",
+      "A laçadeira gira pesada e começa a esquentar muito na parte inferior: Falta de lubrificação ou sujeira na pista circular do cesto; retire o cesto, limpe a canaleta com querosene ou álcool isopropílico, aplique 2 gotas de óleo mineral branco e remonte.",
+      "O avesso do bordado fica com laços soltos parecendo um ninho de pássaro: O cesto está com folga excessiva ou o chifre defletor está gasto, não permitindo que o estica-fio puxe o laço todo de volta; inspecione o desgaste do cesto e verifique a tensão do estica-fio."
+    ],
+    "dicaArtrelados": "Sabe aquele barulhinho suave e gostoso de 'sussurro' que uma máquina de bordar nova faz? Ele vem exatamente do Cesto deslizando feliz na pista de óleo! Faça a 'Regra da Gota Mágica da Artrelados': todo dia de manhã antes de ligar a máquina para o primeiro bordado, retire a caixinha de bobina e pingue UMA ÚNICA gota de óleo mineral branco puro na canaleta circular entre o Cesto e a carcaça da laçadeira. Gire o volante com a mão duas vezes para o óleo espalhar e dê um ponto em um retalho para tirar o excesso. O seu cesto vai durar anos com brilho de espelho e seus bordados nunca mais vão arrebentar linha!",
+    "voceSabia": "Se o cesto girasse junto com a laçadeira a cada ponto, a máquina de bordar precisaria parar e desmanchar a linha a cada 10 pontos! O segredo de toda máquina moderna poder bordar centenas de milhares de pontos sem parar é justamente essa genialidade mecânica de deixar o cesto parado no ar, sustentado apenas pelo filme microscópico de óleo e pelo dedo posicionador, permitindo que a linha dance ao redor dele como um bambolê!",
+    "practicalExercise": "Limpeza e Teste de Giro Livre do Cesto: Com a máquina desligada e a chapa de agulha retirada, remova a caixa de bobina. Com a ponta do indicador limpo, tente girar o cesto para a esquerda e para a direita dentro do limite permitido pelo dedo posicionador. Você deve sentir um movimento super leve, flutuante e sem nenhuma aspereza. Se sentir areia ou travamento, use um pincel macio com uma gota de óleo para expulsar os fiapos escondidos na pista!",
+    "quickSummary": "Câmara interna de aço temperado montada no interior da laçadeira que aloja a caixa de bobina, mantida estática pelo dedo posicionador enquanto a carcaça externa gira para formar o ponto.",
+    "relatedTerms": [
+      "Laçadeira Rotativa (Rotary Hook)",
+      "Dedo Posicionador da Laçadeira (Positioning Finger / Retaining Bracket)",
+      "Caixa de Bobina (Bobbin Case)",
+      "Protetor de Agulha da Laçadeira / Placa Defletora de Agulha do Gancho Rotativo",
+      "Sincronismo da Laçadeira (Hook Timing)",
+      "Eixo Inferior Principal da Máquina de Bordar / Eixo de Transmissão da Laçadeira"
+    ],
+    "tags": [
+      "c-104",
+      "cesto-da-lacadeira",
+      "porta-capsula",
+      "inner-hook",
+      "bobbin-case-holder",
+      "gaiola-lacadeira",
+      "lacadeira-rotativa",
+      "lubrificacao",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "KOBAN INDUSTRIAL HOOKS. Inner Hook Basket Clearance, Loop Escape Dynamics & Maintenance Manual. Osaka, 2023.",
+      "HIROSE HOOK MANUFACTURING CO. High-Speed Rotary Hook Bobbin Case Holder Technical Catalog. Osaka, 2022.",
+      "TAJIMA GROUP. Rotary Hook Disassembly, Basket Polishing & Lubrication Standards. Nagoya: Tajima, 2023.",
+      "ARTRELADOS. A Gaiola da Bobina: Como Cuidar do Cesto da Laçadeira, Evitar Quebras de Fio e Manter o Deslizamento Perfeito. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "c-105-corpo-giratorio-lacadeira-carcaca-externa-gancho-rotativo",
+    "code": "C-105",
+    "term": "Corpo Giratório da Laçadeira / Carcaça Externa do Gancho Rotativo (Rotary Hook Outer Body & Driving Shell)",
+    "pronunciation": "kór-po ji-ra-tó-rio da la-sa-dêi-ra / kar-ká-sa eks-têr-na do gân-sho ro-ta-tí-vo (rôu-ta-ri ruk áu-ter bó-di end drái-ving shel)",
+    "letter": "C",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Originado no Japão nas décadas de 1970 e 1980 através do aprimoramento das laçadeiras rotativas de alta velocidade com lubrificação forçada ou capilar pelos fabricantes Koban (Sabun Industrial Co.) e Hirose Hook Manufacturing Co. A carcaça foi otimizada para suportar acelerações violentas de até 2.400 RPM em cabeçotes industriais multivaretas, com balanceamento dinâmico e usinagem CNC centesimal em aço-liga forjado especial.",
+    "summary": "Estrutura cilíndrica externa de aço temperado montada e parafusada diretamente no eixo inferior da máquina de bordar, que gira em alta rotação contendo a ponta do gancho, os canais de óleo e a pista de deslizamento do cesto da bobina.",
+    "definition": "O Corpo Giratório da Laçadeira e Carcaça Externa do Gancho Rotativo (tecnicamente denominado Rotary Hook Outer Body, Driving Shell, Carcaça Rotativa da Laçadeira ou Corpo de Transmissão do Gancho) é a peça estrutural cilíndrica de aço-ferramenta retificado acoplada rigidamente à ponta do Eixo Inferior Principal (E-108) através de parafusos de fixação radial ou ranhura cônica de aperto. É o elemento motor de todo o conjunto da laçadeira: enquanto a máquina borda, ele gira sincronizado numa proporção exata de 2:1 (duas rotações completas da laçadeira para cada ciclo descendente e ascendente da agulha e do estica-fio), atingindo velocidades angulares de até 2.400 RPM a 1.200 PPM. O corpo giratório integra em uma única peça forjada e usinada de altíssima precisão: a ponta afiada temperada da laçadeira (Hook Point), o protetor de agulha (P-106), a canaleta circular com ranhura de sustentação da pista do cesto da bobina (Race Groove), o defletor de expansão de laçada, as aberturas de balanceamento inercial para amortecimento de vibrações harmônicas e os microcanais de feltro com válvula para dosagem capilar de óleo lubrificante. O perfeito balanceamento estático e dinâmico da carcaça é fundamental: qualquer empenamento infinitesimal, folga nos parafusos de retenção ou acúmulo assimétrico de resíduos gera trepidação axial, perda do sincronismo micrométrico com o chanfro (Scarf) da agulha e desgaste prematuro das engrenagens helicoidais de transmissão.",
+    "technicalDetails": "Usinado a partir de aço-cromo níquel cimentado (SAE 8620 ou JIS SNCM220) ou aço-ferramenta para trabalho a frio (SUJ2), com têmpera e revenimento que garantem dureza de 60 a 64 HRC na ponta e na pista interna, mantendo um núcleo resiliente tenaz para absorção de choques. Tolerância de concentricidade radial inferior a 0,005 mm (5 micrômetros) e rugosidade superficial N2/N3 (Ra < 0,025 µm) nas áreas de contato com a linha e com o cesto. Conta com 2 a 3 parafusos de fixação M4 com ponta cônica ou côncava de travamento mecânico sobre o eixo de 7,94 mm (padrão industrial 5/16\").",
+    "construction": [
+      "Flange Traseiro de Acoplamento ao Eixo: Alojamento cilíndrico de 7,94 mm com parafusos de retenção de alta resistência",
+      "Ponta Afiada de Captura (Hook Point): Bico cônico usinado e temperado que fisga o laço de linha superior a 0,05 mm da agulha",
+      "Pista de Corrida Usinada (Race Groove): Canaleta retificada onde a flange circular do cesto da bobina se apoia e desliza",
+      "Protetor Integrado de Agulha (Needle Guard): Rampa de aço temperado que escora a agulha antes da passagem da ponta",
+      "Câmara de Alívio e Deflexão da Linha: Superfície curva que abre e conduz o laço superior para contornar a bobina em 360°",
+      "Furos de Balanceamento Dinâmico: Alívios cilíndricos calibrados para anular forças centrífugas em rotações acima de 1.000 PPM",
+      "Pavio de Feltro e Canal de Lubrificação: Sistema capilar que suga o óleo do reservatório e umedece a pista circular"
+    ],
+    "howItWorks": [
+      "1. O eixo inferior gira e transmite torque direto ao flange da Carcaça Externa da Laçadeira.",
+      "2. A carcaça gira a 2.000 RPM ao redor do cesto da bobina, que é mantido parado pelo dedo posicionador.",
+      "3. Quando a agulha inicia a subida, a ponta afiada da carcaça penetra milimetricamente no chanfro da agulha e fisga o laço de linha superior.",
+      "4. A rotação contínua da carcaça expande o laço e o conduz ao redor de todo o corpo da laçadeira.",
+      "5. Durante o segundo giro da carcaça (ciclo 2:1), o estica-fio sobe recolhendo a linha e o corpo da carcaça passa livre para completar a sincronia.",
+      "6. A linha se fecha no tecido, formando um ponto tracionado perfeitamente no centro da costura!"
+    ],
+    "beginnerExplanation": "O Corpo Giratório da Laçadeira é como a 'carcaça de um pião veloz de aço' que gira sem parar embaixo do tecido! Pense em um carrossel de parque de diversões: a carcaça externa é o carrossel que fica girando a mil por hora, enquanto no meio dele tem um banquinho parado (o cesto onde fica a bobina). Essa carcaça tem uma pontinha super afiada que passa voando atrás da agulha toda vez que ela fura o tecido. Ela passa tão perto que parece mágica: fisga a linha de cima, puxa o laço, dá uma volta completa no carrossel e solta a linha para formar o nó do bordado com a linha de baixo! É essa peça que é presa no eixo por parafusinhos e que o técnico mexe com muito carinho quando vai regular o 'ponto e o tempo' da sua máquina!",
+    "applications": [
+      "Suporte mecânico e elemento condutor da ponta afiada de captura da laçada de linha",
+      "Transmissão angular de rotação direta a partir do eixo inferior em proporção cinemática 2:1",
+      "Alojamento e pista de rotação lubrificada para o cesto estacionário da caixa de bobina",
+      "Fixação e calibração fina do sincronismo (graus do volante) e da folga agulha-laçadeira (0,05 mm)",
+      "Distribuição e controle do fluxo centrífugo de lubrificação através de feltros capilares"
+    ],
+    "mainTypes": [
+      "Carcaça Convencional com Lubrificação Manual Diária (Padrão Koban KHS12-RYP para bordado plano e boné)",
+      "Carcaça com Lubrificação Automática Centralizada (Com orifício de suprimento pelo centro do eixo inferior - Tajima/Barudan)",
+      "Carcaça com Revestimento Especial em DLC (Diamond-Like Carbon) ou Nitreto de Titânio Dourado (Superfície antiaderente e antiabrasiva)",
+      "Carcaça Bipartida de Manutenção Rápida (Permite desmontar a pista e retirar o cesto sem desparafusar a laçadeira do eixo)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Projetada para rotação de até 2.400 RPM em máquinas operando a 1.200 PPM de bordado",
+      "needleType": "Compatível com todas as agulhas DBxK5 de diâmetro 65/9 a 90/14",
+      "stabilizer": "Universal para todas as entretelas e suportes de bordado",
+      "threadTension": "Folga frontal em relação ao chanfro da agulha ajustada rigidamente em 0,05 mm a 0,08 mm"
+    },
+    "advantages": [
+      "✔ Aço cimentado de alta resistência (60-64 HRC) que não deforma sob torções cíclicas intensas",
+      "✔ Balanceamento dinâmico computadorizado que elimina vibrações no cabeçote a 1.000 PPM",
+      "✔ Geometria aerodinâmica e polimento espelhado que evitam o atrito e aquecimento da linha de poliéster",
+      "✔ Permite regulagem milimétrica de avanço, recuo e rotação angular com chave de fenda de precisão"
+    ],
+    "limitations": [
+      "Se os parafusos de fixação ao eixo afrouxarem, a carcaça perde o sincronismo instantaneamente e a agulha se choca com violência.",
+      "Requer limpeza periódica de fiapos compactados na pista interna para evitar superaquecimento e travamento mecânico."
+    ],
+    "commonErrors": [
+      "❌ Apertar apenas um dos parafusos de fixação com força excessiva, espanando a rosca ou entortando o assentamento da carcaça no eixo.",
+      "❌ Usar uma chave de fenda desgastada que escapa e risca a carcaça polida ou machuca a ponta afiada do gancho.",
+      "❌ Lavar a carcaça com solventes agressivos que ressecam e destroem os feltros capilares de retenção de óleo.",
+      "❌ Bater com martelo ou punção no corpo da carcaça para tentar tirá-la do eixo, empenando a concentricidade centesimal da peça."
+    ],
+    "troubleshootingTips": [
+      "A máquina pulou o sincronismo de repente após uma quebra forte de agulha: A batida fez a carcaça externa girar em falso sobre o eixo inferior; solte os parafusos de fixação, recoloque a máquina no ângulo padrão (entre 196° e 202° dependendo da marca), posicione a ponta da laçadeira no centro do chanfro da agulha com folga de 0,05 mm e reaperte os parafusos de forma alternada e firme.",
+      "A laçadeira faz um ruído de zumbido seco ou estalo metálico agudo: O feltro de lubrificação interna secou ou acumulou fiapos queimados; desmonte a tampa da pista, lave com solvente mineral, substitua o feltro se estiver endurecido e aplique óleo novo.",
+      "A linha fica desfiando e soltando pelos finos na laçadeira: Uma quebra anterior de agulha deixou um pequeno ponto áspero ou microentalhe na carcaça externa; inspecione a peça com lupa e use uma fita de lixa d'água 2.000 embebida em óleo para espelhar a superfície."
+    ],
+    "dicaArtrelados": "Ao fixar ou regular a Carcaça da Laçadeira no eixo da máquina, nunca aperte um parafuso até o fim de uma vez só! Faça o 'Aperto Cruzado Artrelados': encoste o primeiro parafuso até ele beijar o eixo; gire o volante, encoste o segundo parafuso; volte ao primeiro e dê um aperto suave; vá ao segundo e aperte firme; e finalize voltando ao primeiro para o aperto definitivo. Esse procedimento simples evita que a carcaça fique minimamente torta no eixo, garantindo que ela gire suave como seda e sem oscilar nem um centésimo de milímetro!",
+    "voceSabia": "A ponta afiada da carcaça da laçadeira percorre uma distância linear de mais de 10 quilômetros por hora dentro do ateliê enquanto a máquina está bordando a 1.000 PPM! Essa velocidade relativa entre o aço da carcaça e a linha de poliéster é tão alta que, sem o polimento espelhado a diamante e a lubrificação contínua, o atrito derreteria a linha sintética em fração de segundos!",
+    "practicalExercise": "Inspeção Visual da Carcaça e Teste de Alinhamento: Com a máquina desligada e a tampa de bobina aberta, retire a caixinha de bobina. Gire o volante manual da máquina bem devagar e observe a carcaça externa girar. Veja como ela dá duas voltas completas para cada ciclo da agulha. Observe a ponta afiada passando atrás da agulha e note a perfeita suavidade do movimento sem qualquer salto ou jogo lateral!",
+    "quickSummary": "Carcaça cilíndrica de aço temperado parafusada diretamente no eixo inferior da máquina que gira a até 2.400 RPM, conduzindo a ponta do gancho e a pista de deslizamento do cesto da bobina.",
+    "relatedTerms": [
+      "Laçadeira Rotativa (Rotary Hook)",
+      "Cesto da Laçadeira / Porta-Cápsula da Bobina no Gancho Rotativo",
+      "Protetor de Agulha da Laçadeira / Placa Defletora de Agulha do Gancho Rotativo",
+      "Eixo Inferior Principal da Máquina de Bordar / Eixo de Transmissão da Laçadeira",
+      "Sincronismo da Laçadeira (Hook Timing)",
+      "Dedo Posicionador da Laçadeira (Positioning Finger / Retaining Bracket)"
+    ],
+    "tags": [
+      "c-105",
+      "corpo-giratorio-lacadeira",
+      "carcaca-externa",
+      "outer-body",
+      "driving-shell",
+      "hook-point",
+      "lacadeira-rotativa",
+      "sincronismo",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "KOBAN INDUSTRIAL HOOKS. Rotary Hook Driving Shell & Hook Point Dynamics Manual. Osaka, 2023.",
+      "HIROSE HOOK MANUFACTURING CO. Technical Engineering Manual: Outer Hook Body Tolerances and Dynamic Balancing in High-Speed Embroidery. Osaka, 2022.",
+      "TAJIMA GROUP. Maintenance and Timing Procedures: Lower Shaft and Rotary Hook Installation. Nagoya: Tajima, 2023.",
+      "ARTRELADOS. O Pião de Aço da Máquina: Como Regular, Balancear e Cuidar da Carcaça da Laçadeira para Bordados Perfeitos. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
   }
 ];
 

@@ -1535,5 +1535,108 @@ export const VERBETES_LETTER_H_PART14: Verbete[] = [
       "ARTRELADOS. Guia Técnico e Comparativo de Máquinas Compactas Japonesas no Mercado Brasileiro. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-05"
+  },
+  {
+    "id": "h-103-haste-biela-articulacao-trimmer-tirante-transmissao-corte",
+    "code": "H-103",
+    "term": "Haste Biela de Articulação do Trimmer / Tirante de Transmissão do Cortador de Linha (Trimmer Drive Connecting Rod & Linkage Bar)",
+    "pronunciation": "ás-te bi-ê-la de ar-ti-cu-la-são do trí-mer / ti-rân-te de trans-mi-são do cor-ta-dór de lí-nha (trí-mer dráiv co-nék-tin rod end lín-kedge bar)",
+    "letter": "H",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Desenvolvida pela engenharia mecânica de precisão da indústria têxtil japonesa (Tajima e Barudan) nas décadas de 1970 e 1980, como o elo de conexão cinemática fundamental do sistema Under-Bed Thread Trimmer (UTC). Sua criação permitiu transmitir com rigidez e precisão angular a força motriz gerada pelo came excêntrico inferior até o carro deslizante da navalha móvel posicionado sob a chapa de agulha.",
+    "summary": "Braço articulado de aço com buchas de bronze ou micro-rótulas esféricas que conecta a alavanca do solenoide e do came do cortador ao bloco deslizante da faca móvel sob a chapa de agulha, transmitindo o curso de corte.",
+    "definition": "A Haste Biela de Articulação do Trimmer e Tirante de Transmissão do Cortador de Linha (tecnicamente denominada Trimmer Drive Connecting Rod, Knife Driving Link, Haste de Ligação do Trimmer ou Braço de Tração da Faca Móvel) é o elemento mecânico estrutural de transmissão retilínea alternada encarregado de conduzir fisicamente o movimento oscilante da alavanca seguidora de came até o carro da navalha móvel (Movable Knife) localizado sob a chapa de agulha da máquina de bordar. O conjunto do cortador automático funciona como um mecanismo de quatro barras (quadrilátero articulado): quando o rolete seguidor engata na ranhura perfilada do Came de Acionamento do Trimmer, a alavanca basculante gira em torno de seu pivô central. Essa força é canalizada diretamente para a Haste Biela, que se desloca longitudinalmente por dentro da estrutura oca do braço cilíndrico inferior da máquina. A biela é dotada de terminais com buchas de bronze sinterizado autolubrificante ou pequenas rótulas esféricas Unibal (Rod Ends), e conta com parafusos excêntricos de calibração que permitem ajustar com precisão de décimos de milímetro dois parâmetros vitais do cortador: o Ponto de Repouso (Home Position da faca móvel, recuada e protegida fora da passagem da agulha) e o Ponto Morto Avançado (curso máximo de penetração da faca para a laçada completa das linhas superior e inferior). Qualquer folga mecânica por desgaste nos orifícios da biela ou afrouxamento de seus parafusos de retenção causa atraso no curso da faca, resultando em falhas de corte (fios não cortados ao trocar de cor) ou avanço assimétrico que pode colidir catastroficamente contra a laçadeira ou a agulha em descida.",
+    "technicalDetails": "Fabricada em aço estrutural temperado SAE 1045 retificado ou liga de duralumínio aeronáutico 7075-T6 para minimizar a inércia durante acelerações bruscas a 1.200 PPM. O comprimento entre centros de articulação varia de 120 mm a 280 mm de acordo com a geometria do braço cilíndrico da máquina. Os olhais das extremidades possuem tolerância H7 com buchas de bronze fosforoso SAE 660 ou rolamentos de agulhas miniatura. A regulagem de comprimento útil é feita por meio de roscas inversas direita/esquerda (turnbuckle) com contra-porcas de travamento duplo ou por meio de pino com bucha excêntrica métrica M5/M6 com curso de ajuste angular de ±1,5 mm.",
+    "construction": [
+      "Corpo Tubular ou Barra Retificada de Aço SAE 1045: Haste rígida com tratamento anticorrosivo de oxidação negra ou zincagem",
+      "Terminal de Articulação com Bucha de Bronze SAE 660: Olhal de precisão com encaixe justo no pino da alavanca do came",
+      "Pino Excêntrico de Calibração de Curso (Eccentric Pin): Permite ajustar o avanço milimétrico da faca móvel",
+      "Parafuso de Travamento com Arruela de Pressão: Fixa a regulagem de comprimento, impedindo alterações sob vibração contínua",
+      "Canaleta / Orifício de Lubrificação: Permite a introdução periódica de graxa especial ou óleo mineral nas buchas",
+      "Mola de Pré-Carga / Retorno Auxiliar: Auxilia a biela no retorno instantâneo da faca para a posição de segurança"
+    ],
+    "howItWorks": [
+      "1. O sinal de corte aciona o solenoide, que engata o rolete seguidor na canaleta do Came de Acionamento do Trimmer.",
+      "2. A rotação do came move a alavanca principal do cortador para frente.",
+      "3. A alavanca empurra a Haste Biela de Articulação ao longo do interior do braço da máquina.",
+      "4. A outra extremidade da Haste Biela transmite o empurrão ao suporte deslizante da faca móvel.",
+      "5. A faca móvel avança sob a chapa de agulha, abre o laço e captura a linha superior e a da bobina.",
+      "6. O came inverte o curso e a Haste Biela puxa o suporte da faca móvel contra a contra-faca fixa afiada.",
+      "7. As linhas são cortadas de forma limpa e a Haste Biela retorna o conjunto à posição de repouso travada!"
+    ],
+    "beginnerExplanation": "A Haste Biela do Trimmer é o 'braço de ferro' que empurra e puxa a tesourinha embaixo da chapa! Imagine que lá no fundo da máquina tem um motorzinho e uma rodinha girando que sabem a hora certa de cortar a linha. Mas a tesourinha que precisa cortar fica lá na ponta, embaixo de onde a agulha desce. Como a força daquela rodinha chega até a tesourinha? Através dessa haste comprida de ferro! Ela funciona exatamente como a biela que liga o pistão de um carro: quando a máquina manda cortar, a haste dá um empurrão para a tesoura ir para a frente laçar a linha e, logo em seguida, dá um puxão firme para a tesoura voltar cortando tudo contra a lâmina fixa. Se essa haste estiver bamba, solta ou torta, a tesoura não chega no lugar certo e a máquina deixa a linha inteira sem cortar, pulando de uma cor para outra cheia de fiapos compridos!",
+    "applications": [
+      "Transmissão direta da força do came excêntrico inferior para o carro deslizante da faca móvel",
+      "Controle milimétrico do curso de avanço e retorno da lâmina de corte sob a chapa de agulha",
+      "Sincronização do movimento da faca com o ciclo angular do eixo principal e do estica-fio",
+      "Garantia de que a faca móvel retorne 100% recolhida na posição de repouso segura",
+      "Absorção de vibrações e estabilização do conjunto de corte em máquinas multiagulhas e multicabeças"
+    ],
+    "mainTypes": [
+      "Haste Biela de Comprimento Fixo com Bucha Excêntrica: Ajuste fino de curso feito girando o pino excêntrico na ponta",
+      "Haste Biela Ajustável com Roscas Inversas (Turnbuckle): Permite encurtar ou alongar o braço soltando as contra-porcas",
+      "Haste Biela com Terminais Rótula Unibal (Rod End): Utilizada em máquinas de alta velocidade para suportar ligeiras torções axiais",
+      "Haste Biela Aliviada em Alumínio 7075-T6: Modelo de alta performance para cabeçotes industriais de 1.200 PPM"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Garante estabilidade cinemática em velocidades de trabalho contínuo de 0 a 1.200 PPM",
+      "needleType": "Universal para todas as agulhas",
+      "stabilizer": "Universal para todas as entretelas"
+    },
+    "advantages": [
+      "✔ Rigidez estrutural mecânica: não deforma nem flexiona mesmo sob a carga de corte de linhas grossas",
+      "✔ Regulagem micrométrica rápida do ponto de parada da navalha móvel através de parafuso excêntrico",
+      "✔ Movimento retilíneo suave com baixíssimo nível de ruído graças às buchas autolubrificantes de bronze",
+      "✔ Durabilidade extrema em regime industrial pesado de três turnos de trabalho contínuo"
+    ],
+    "limitations": [
+      "Se as contra-porcas afrouxarem com a trepidação, a haste altera o comprimento e a faca perde o ponto de corte.",
+      "Se acumular fiapos e graxa seca nos olhais dos pivôs, a haste emperra e o motor de corte acusa alarme de sobrecarga."
+    ],
+    "commonErrors": [
+      "❌ Apertar o parafuso excêntrico da biela na posição errada, fazendo a faca móvel avançar e colidir com a agulha.",
+      "❌ Deixar as contra-porcas de travamento frouxas após fazer a manutenção de afiação das lâminas.",
+      "❌ Entortar a haste com alicate de pressão ao tentar retirar o conjunto do braço da máquina.",
+      "❌ Usar buchas gastas com folga de mais de 0,5 mm, o que impede a navalha móvel de alcançar o fio superior."
+    ],
+    "troubleshootingTips": [
+      "A máquina executa o barulho de corte normalmente mas as linhas continuam inteiras e sem cortar: A Haste Biela está com folga nos olhais ou o parafuso excêntrico desregulou, fazendo a faca móvel parar antes de alcançar o fio; ajuste o avanço da haste até a navalha alcançar a posição limite recomendada pelo manual.",
+      "A faca móvel fica com a pontinha aparecendo no buraco da chapa de agulha mesmo depois do corte finalizado: O comprimento da haste biela está descalibrado ou a mola de retorno está fraca; regule o ponto de repouso (Home Position) para que a lâmina fique 100% recolhida sob o protetor.",
+      "Estalos metálicos altos no interior do braço cilíndrico a cada corte: As buchas de bronze das extremidades da haste estão secas ou desgastadas; desmonte a tampa do braço, limpe os pivôs e aplique graxa branca de lítio com PTFE."
+    ],
+    "dicaArtrelados": "Como saber se o curso da sua Haste Biela está perfeitamente calibrado sem precisar de paquímetro digital? Use a 'Regra do Bico Oculto da Artrelados': retire a chapa de agulha e observe a faca móvel com a máquina em repouso. O bico em gancho da faca móvel deve ficar completamente escondido atrás da proteção metálica, com cerca de 1 mm de recuo de segurança. Quando você aciona o corte girando o volante manual, a ponta do gancho deve ultrapassar a linha da agulha em exatos 2 a 3 milímetros e voltar lisa para o esconderijo. Se estiver nesse alinhamento, a sua biela está regulada com precisão de fábrica!",
+    "voceSabia": "Nas primeiras máquinas de bordar industriais da década de 1970, cada cabeça tinha sua própria haste que precisava ser regulada individualmente com uma régua de metal pelo operador! Nas máquinas modernas multi-cabeças (como as de 8, 12 ou 20 cabeças), as hastes biela são usinadas em centros de usinagem CNC com tolerância de micrômetros, garantindo que todas as cabeças cortem a linha exatamente no mesmo milissegundo!",
+    "practicalExercise": "Verificação da Firmeza dos Pivôs da Haste Biela: Com a máquina desligada da tomada, retire a chapa de agulha e acesse a lateral do braço cilíndrico. Com uma pinça ou com a ponta dos dedos protegida, tente movimentar a faca móvel para frente e para trás. Você deve sentir uma firmeza elástica sólida, sem aquele 'jogo bobo' de peça solta. Se a faca chacoalhar solta mais de 1 mm antes de acionar a haste, reaperte as travas dos pivôs e elimine as folgas!",
+    "quickSummary": "Tirante articulado de aço com buchas de bronze que conecta o came do cortador ao suporte da faca móvel, transmitindo o curso de avanço e retorno para o corte das linhas.",
+    "relatedTerms": [
+      "Came de Acionamento do Trimmer / Excêntrico do Corte de Linha",
+      "Navalha Móvel e Navalha Fixa do Corte de Linha (Lâminas do Trimmer / Moving & Fixed Knife)",
+      "Lâmina Segura-Fio do Trimmer / Mola Retentora da Linha da Bobina na Faca Fixa",
+      "Solenoide de Corte de Linha (Trimmer Solenoid)",
+      "Puxador de Linha da Bobina / Pescador Inferior do Trimmer",
+      "Cortador de Fio Superior e Inferior"
+    ],
+    "tags": [
+      "h-103",
+      "haste-biela-trimmer",
+      "tirante-corte",
+      "connecting-rod",
+      "trimmer-linkage",
+      "faca-movel",
+      "corte-de-linha",
+      "regulagem-mecanica",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Trimmer Connecting Linkage Bar, Eccentric Adjustment & Knife Stroke Service Standards. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Thread Trimmer Drive Rod and Cam Follower Linkage Assembly Manual. Ichinomiya, 2022.",
+      "BROTHER INDUSTRIES. Multi-Needle Trimmer Mechanical Linkage Alignment & Calibration Guide. Nagoya, 2021.",
+      "ARTRELADOS. O Braço de Ferro da Navalha: Como Ajustar a Haste Biela do Trimmer e Garantir o Corte Impecável. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
   }
 ];

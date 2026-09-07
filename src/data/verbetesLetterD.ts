@@ -6622,6 +6622,109 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "ARTRELADOS. Da Costura Reta ao Bordado Computadorizado: Segredos da Serrilha, Ajuste de Altura e Limpeza. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "d-094-dedo-posicionador-lacadeira-trava-parada-caixa-bobina",
+    "code": "D-094",
+    "term": "Dedo Posicionador da Laçadeira / Trava de Parada da Caixa de Bobina (Rotary Hook Retainer / Bobbin Case Position Finger)",
+    "pronunciation": "dê-do po-zi-ci-o-na-dór da la-sa-dêi-ra / trá-va de pa-rá-da da cái-sha de bo-bí-na (róu-ta-ri ruk ri-têi-ner / bó-bin kêis po-zí-shon fín-guer)",
+    "letter": "D",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Concebido nos primórdios da invenção da laçadeira rotativa de rotação contínua (Rotary Hook) no final do século XIX pela Wheeler & Wilson e aperfeiçoado pela Singer e Hirose no Japão. Sua criação solucionou o dilema mecânico de reter a caixa de bobina parada no espaço enquanto o cesto externo da laçadeira gira em alta rotação contínua (até 2.400 RPM), permitindo simultaneamente que o laço de linha superior passe desobstruído ao redor de todo o conjunto.",
+    "summary": "Suporte metálico angular dotado de uma ponta ou lingueta retificada fixado rigidamente sob o braço da máquina, cuja ponta se aloja no entalhe da cesta da caixa de bobina com uma folga micrométrica de 0,5 a 0,7 mm para impedir sua rotação e garantir a passagem livre da linha superior.",
+    "definition": "O Dedo Posicionador da Laçadeira e Trava de Parada da Caixa de Bobina (universalmente designado Rotary Hook Retainer, Bobbin Case Position Finger, Bobbin Case Bracket, Dedo Retentor da Laçadeira ou Dedo Trava-Cesto) é o componente mecânico de precisão angular responsável por manter a caixa de bobina (e a cesta interna da laçadeira rotativa) perfeitamente estacionária enquanto o corpo externo da laçadeira gira continuamente a velocidades de até 2.400 RPM (duas voltas para cada descida da agulha a 1.200 PPM). Como a laçadeira rotativa é montada sobre rolamentos semirradiais banhados a óleo ou secos, a fricção dinâmica faria a cesta interna da caixa de bobina girar descontrolada no mesmo sentido do eixo motriz. O Dedo Posicionador, parafusado rigidamente na carcaça inferior da máquina logo abaixo da chapa de agulha, estende uma lingueta de aço temperado com cantos finamente chanfrados e polidos que penetra na ranhura em 'U' na borda superior da caixa de bobina. O grande segredo técnico do Dedo Posicionador reside na sua folga de regulagem (Clearance): ele nunca deve tocar a parede do entalhe com pressão. Deve haver um vão de folga estrita entre 0,5 mm e 0,7 mm (espaço exato para a espessura de um fio de bordado nº 40 passar com folga). Durante a formação do ponto, a ponta da laçadeira captura o laço da agulha e o abre, passando-o ao redor de toda a caixa de bobina; no instante final, a linha superior é obrigada a passar através desse vão de 0,6 mm entre o Dedo Posicionador e a carcaça da bobina para ser recolhida pelo estica-fio. Se a folga for muito estreita (< 0,4 mm), a linha é esmagada e arrebenta; se for excessiva (> 1,0 mm) ou se o dedo afrouxar, a caixa de bobina se desloca, colidindo violentamente contra a agulha em descida e causando a quebra da agulha, danos permanentes à ponta da laçadeira ou empenamento do eixo.",
+    "technicalDetails": "Usinado ou estampado em aço-ferramenta de alto carbono (como AISI 1070 ou SK5) com têmpera superficial de 50 a 55 HRC e tratamento antiferrugem niquelado ou oxidado negro. A lingueta de contato possui largura retificada de 2,5 mm a 3,5 mm com raios de concordância perfeitamente polidos (rugosidade Ra < 0,2 µm) para impedir qualquer abrasão na linha de poliéster ou metálica. Possui orifício oblongo de fixação que permite ajuste bidirecional (profundidade axial e aproximação horizontal) mediante aperto de parafuso métrico M3.5 ou M4. O ajuste padrão de folga operacional de fábrica é de 0,5 mm a 0,7 mm medido com lâmina de calibre (Feeler Gauge).",
+    "construction": [
+      "Corpo Estrutural em Aço Temperado: Base angular de fixação reforçada para resistir aos impactos de desaceleração",
+      "Lingueta / Dedo de Retenção Retificado: Ponta metálica polida que se projeta para dentro da ranhura da cesta da bobina",
+      "Cantos Arredondados com Espelhamento Óptico: Superfícies de contato polidas a mão para não morder nem esgarçar a linha",
+      "Furo Oblongo de Regulagem Micrométrica: Canaleta de passagem do parafuso que possibilita o ajuste fino da folga milimétrica",
+      "Parafuso de Travamento de Aço Roscado: Parafuso Allen ou de fenda com arruela de pressão que ancora a peça na carcaça",
+      "Gabarito de Alinhamento Central: Encaixe de referência geométrica que mantém a lingueta perfeitamente perpendicular à laçadeira"
+    ],
+    "howItWorks": [
+      "1. A máquina gira o eixo inferior e a laçadeira rotativa começa a rodar a alta velocidade (2 voltas completas por ponto).",
+      "2. A cesta interna da laçadeira tenta girar junto por inércia e arrasto de fricção.",
+      "3. O entalhe superior da cesta encosta suavemente na lingueta do Dedo Posicionador, que impede seu giro.",
+      "4. A ponta da laçadeira laça a linha da agulha e a conduz ao redor de todo o corpo da caixa de bobina.",
+      "5. Ao completar o giro, o laço de linha superior atinge o topo e passa suavemente pelo vão livre de 0,6 mm entre o Dedo e o entalhe.",
+      "6. A linha desliza sem resistência nem atrito, sendo puxada para cima pelo estica-fio para fechar o nó no centro do tecido.",
+      "7. A caixa de bobina permanece estável e a agulha desce no ciclo seguinte sem qualquer risco de colisão!"
+    ],
+    "beginnerExplanation": "O Dedo Posicionador da Laçadeira é o 'guarda-costas' da caixinha da bobina! Imagine que lá embaixo da chapa de ferro tem uma peça redonda (a laçadeira) que fica girando a mil por hora, enquanto a caixinha com a linha da bobina precisa ficar paradinha e quieta no lugar dela. Como fazer a caixinha ficar quieta se tudo em volta dela está rodando feito um ciclone? É aí que entra o Dedo Posicionador! Ele é um bracinho de ferro parafusado na máquina que coloca um 'dedinho' dentro de um cortezinho na caixinha, como alguém segurando ela com a ponta do dedo para ela não rodar junto. Mas tem um truque genial de engenharia: esse dedinho não aperta a caixinha; ele deixa um espacinho fininho (de meio milímetro), que é exatamente o espaço para a linha de cima escorregar e passar livre como se fosse um peixinho passando por baixo de uma ponte. Se esse dedinho estiver torto ou apertado demais, ele 'esmaga' a linha e ela arrebenta toda hora!",
+    "applications": [
+      "Imobilização rotacional estrita da cesta da laçadeira e da caixa de bobina durante ciclos de alta velocidade (1.000+ PPM)",
+      "Criação do canal milimétrico de folga indispensável para a liberação suave do laço de linha superior",
+      "Prevenção contra batidas e colisões catastróficas da agulha contra a caixa de bobina móvel",
+      "Manutenção da concentricidade do poço da laçadeira em relação ao curso da agulha",
+      "Estabilização de tensão e prevenção de quebras contínuas de linha de poliéster, viscose e fios metálicos"
+    ],
+    "mainTypes": [
+      "Dedo Retentor Padrão Industrial Fixo: Modelo de lingueta única para laçadeiras rotativas padrão L de máquinas multiagulhas",
+      "Dedo Retentor com Mola de Amortecimento: Possui lâmina elástica flexível que reduz o ruído de clique e absorve impactos",
+      "Dedo Posicionador Duplo / Garfo Guia: Modelo bipartido que abraça duas faces do batente da bobina para maior rigidez em couro",
+      "Dedo Retentor Revestido com Nitreto de Titânio (Gold TiN): Superfície dourada cerâmica de altíssima dureza contra abrasão de linhas ásperas"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Garante estabilidade operacional em velocidades contínuas de 0 a 1.200 PPM",
+      "needleType": "Universal para todas as agulhas",
+      "stabilizer": "Universal para todas as entretelas"
+    },
+    "advantages": [
+      "✔ Estabilidade absoluta: a caixa de bobina nunca gira em falso nem desalinha da agulha",
+      "✔ Elimina quebras misteriosas de linha superior causadas pelo esmagamento do laço na laçadeira",
+      "✔ Preserva a integridade da laçadeira rotativa evitando choques mecânicos violentos",
+      "✔ Regulagem micrométrica rápida através de um único parafuso e calibre de folga simples"
+    ],
+    "limitations": [
+      "Se a folga for regulada abaixo de 0,5 mm, a linha de bordado esmaga contra o metal e arrebenta a cada 10 pontos.",
+      "Se o parafuso de fixação afrouxar durante o bordado, o dedo escapa do entalhe e a agulha bate na caixa de bobina."
+    ],
+    "commonErrors": [
+      "❌ Apertar o dedo posicionador encostando na lata da caixa de bobina sem deixar o vão de 0,6 mm de folga.",
+      "❌ Deixar o parafuso de fixação do dedo frouxo após uma limpeza, fazendo a peça vibrar e desregular.",
+      "❌ Lixar o dedo com lixa grossa ao tentar tirar rebarba de agulha, deformando a geometria da folga.",
+      "❌ Trocar a chapa de agulha e bater a chave de fenda com força contra o dedo posicionador, entortando a haste."
+    ],
+    "troubleshootingTips": [
+      "A linha superior desfia e arrebenta a cada 20 ou 30 pontos sem motivo aparente na tensão de cima: O dedo posicionador está encostado demais na caixa de bobina (folga menor que 0,4 mm), esmagando a linha durante a passagem do laço; solte levemente o parafuso do dedo e regule a folga com um calibre de 0,6 mm (ou a espessura de duas folhas de papel sulfite dobradas).",
+      "A agulha bateu com estrondo na caixa de bobina e entortou na primeira descida: O parafuso do dedo posicionador afrouxou e a ponta escapou da ranhura da caixa de bobina, fazendo-a girar com a laçadeira; recoloque o dedo na ranhura da cesta, ajuste a folga e aperte o parafuso firmemente.",
+      "A linha metálica ou lurex fica desfiando e prendendo no fundo da máquina: A ponta do dedo posicionador sofreu uma rebarba microscópica por colisão antiga de agulha; passe a ponta de um fio dental ou faça o teste da meia de náilon na lingueta; se prender, faça o polimento espelhado da ponta com lixa d'água 2000 e pasta diamantada."
+    ],
+    "dicaArtrelados": "Sabe aquele mistério que deixa qualquer bordadeira de cabelo em pé: a agulha é nova, a linha é de boa marca, a tensão superior e inferior estão perfeitas, mas a linha arrebenta a cada dois minutos? 90% das vezes o vilão é o Dedo Posicionador que foi encostado por acidente durante uma limpeza! Use o 'Truque do Cartão de Visita da Artrelados': pegue a beiradinha de um cartão de visita de papel comum (que tem exatamente 0,5 mm a 0,6 mm de espessura) e passe entre a pontinha do dedo posicionador e a caixinha da bobina. O cartãozinho deve passar justo, sem folga frouxa e sem ficar preso! Se estiver muito apertado ou nem entrar, afaste o dedo um milímetro até o papel correr suave. Suas quebras de linha vão sumir como mágica!",
+    "voceSabia": "O Dedo Posicionador é o responsável direto por fazer o bordado industrial ser até quatro vezes mais silencioso do que as máquinas domésticas antigas! Nas máquinas antigas de lançadeira oscilante (vai-e-vem), a peça batia para lá e para cá fazendo aquele 'tac-tac-tac' alto. Com a laçadeira rotativa moderna e o dedo posicionador fixo, a máquina gira suavemente em uma única direção com um zumbido agradável e contínuo!",
+    "practicalExercise": "Verificação Prática da Folga com a Linha do Bordado: Com a máquina desligada e a tampa da laçadeira aberta, retire a chapa de agulha para enxergar o dedo posicionador e a caixa de bobina. Pegue um pedaço de 10 cm de linha de bordado comum, dobre ao meio (duas pernas de linha) e deslize entre o dedinho de ferro e o entalhe da caixinha. A linha deve deslizar com uma suavidade perfeita, sem engasgar em nenhuma pontinha. Se passar livre, sua máquina está com a calibração de fábrica impecável!",
+    "quickSummary": "Lingueta metálica fixa sob o braço da máquina que impede o giro da caixa de bobina, mantendo uma folga de 0,5 a 0,7 mm para a passagem suave do laço da linha superior.",
+    "relatedTerms": [
+      "Laçadeira Rotativa (Rotary Hook)",
+      "Caixa de Bobina (Bobbin Case)",
+      "Ponto de Laçada (Loop Formation)",
+      "Quebra de Linha (Thread Breakage)",
+      "Chapa de Agulha (Needle Plate)",
+      "Mola de Retenção de Linha da Bobina / Mola Anti-Giro da Caixa de Bobina"
+    ],
+    "tags": [
+      "d-094",
+      "dedo-posicionador",
+      "retentor-lacadeira",
+      "bobbin-case-finger",
+      "hook-retainer",
+      "folga-mecanica",
+      "laçadeira",
+      "passagem-de-linha",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "HIROSE MANUFACTURING CO., LTD. Rotary Hook Timing, Clearance & Position Finger Adjustment Manual. Osaka: Hirose, 2023.",
+      "KOBAN HOOKS & BOBBIN CASES. Rotary Hook Retainer Gap Specifications & Needle Clearance Guide. Hiroshima, 2022.",
+      "TAJIMA GROUP. Rotary Hook Replacement, Bracket Finger Alignment & Timing Master Guide. Nagoya: Tajima, 2023.",
+      "ARTRELADOS. O Segredo da Folga Perfeita: Dedo Posicionador da Laçadeira, Fim das Quebras e Ponto Impecável. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-06"
   }
 ];
 

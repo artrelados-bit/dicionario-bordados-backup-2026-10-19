@@ -1219,6 +1219,213 @@ export const VERBETES_LETTER_P_PART14: Verbete[] = [
       "ARTRELADOS. O Equilíbrio Perfeito das Correias: Cuidados com a Polia Tensora, Rolamentos e Ajustes no Pantógrafo. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "p-105-puxador-de-linha-da-bobina-pescador-inferior-trimmer",
+    "code": "P-105",
+    "term": "Puxador de Linha da Bobina / Pescador Inferior do Trimmer (Under Thread Picker / Bobbin Thread Picker)",
+    "pronunciation": "pu-sha-dór de lí-nya da bo-bí-na / pes-ka-dór in-fe-ri-ór do trí-mer (ân-der tréd pí-ker / bó-bin tréd pí-ker)",
+    "letter": "P",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Desenvolvido na transição dos anos 1970 para os anos 1980 pelas fabricantes japonesas de maquinário de bordado computadorizado (Tajima e Barudan) para viabilizar o primeiro sistema industrial de corte automático inferior de alta velocidade (Under-Bed Thread Trimmer - UTC). Sua invenção resolveu a histórica limitação do corte manual de carretilha, criando um mecanismo dinâmico capaz de penetrar na abertura da caixa de bobina no milissegundo exato anterior ao fechamento das facas, garantindo o comprimento exato da ponta de linha para a reinicialização imediata da costura.",
+    "summary": "Lingueta curva de aço polido acionada por haste mecânica ou solenoide eletromagnético, projetada para penetrar suavemente no orifício frontal da caixa de bobina antes do corte inferior, puxando a linha para padronizar o comprimento da cauda entre 25 e 30 mm.",
+    "definition": "O Puxador de Linha da Bobina / Pescador Inferior do Trimmer (tecnicamente denominado Under Thread Picker, Bobbin Thread Picker, Dedo Pescador Inferior ou Palheta Puxadora da Bobina) é o componente mecânico de precisão articulado sob a mesa e o braço cilíndrico da máquina de bordar, encarregado de controlar e estipular o comprimento exato da ponta remanescente da linha da bobina após cada corte automático (Trim). Quando o comando de corte é acionado pela matriz, o solenoide do picker é energizado (ou sua came de comando atua), empurrando a ponta em gancho ou ponta chanfrada do puxador para dentro da fenda da caixa de bobina. Ao penetrar com profundidade calibrada (geralmente entre 1,5 mm e 2,2 mm além da face da carretilha), a ponta do puxador pinça o fio que sai da mola tensora da bobina e recua levemente, extraindo uma reserva exata de linha antes que a faca móvel (Movable Knife) e a faca fixa completem o cisalhamento. Essa cauda residual milimétrica (de 25 mm a 30 mm) é estritamente necessária: se o puxador não atuar ou estiver curto, a linha da bobina é cortada rente ao bico da caixa e escapa da mola de tensão, fazendo com que a agulha desça no vazio no início do próximo bloco de cor sem entrelaçar o ponto (falsa quebra de linha ou perda de amarração inicial); se o puxador penetrar em excesso e puxar linha demais, a ponta longa embola no início da costura, gerando ninhos ou pontos frouxos que aparecem na frente do bordado.",
+    "technicalDetails": "Usinado ou estampado em lâmina de aço-mola de alto carbono temperado (AISI 1075 ou SAE 4140) com dureza de 48 a 52 HRC, garantindo flexibilidade elástica sem deformação permanente. Sua ponta funcional possui perfil em gancho com bordas arredondadas e acabamento espelhado ultra-liso (Ra < 0,15 µm) para não desfiar o multifilamento de poliéster nº 60 ou algodão da bobina. É montado em um braço basculante com retorno por mola helicoidal de tração e acionado por curso de solenoide de 24V/36V CC ou por alavanca mecânica conectada ao eixo do trimmer. A profundidade de penetração no orifício da caixa de bobina possui ajuste micrométrico por parafuso excêntrico ou parafuso de fenda em orifício oblongo, com folga de segurança para não raspar na flange da bobina nem no cesto da laçadeira.",
+    "construction": [
+      "Lingueta Curva de Puxamento (Picker Blade): Lâmina afilada com ponta arredondada que penetra no furo da caixa de bobina",
+      "Braço de Montagem Articulado: Haste metálica com bucha de bronze sinterizado que pivota o movimento de avanço e recuo",
+      "Mola Helicoidal de Retorno Rápido: Mola de tração em aço inox que recolhe instantaneamente o picker para a posição de repouso",
+      "Parafuso de Calibração de Profundidade (Eccentric Stopper): Ajuste que estipula o limite máximo de avanço da lâmina",
+      "Batente Amortecedor de Borracha ou Uretano: Amortece o impacto de recolhimento mecânico, reduzindo ruído e vibração",
+      "Haste de Conexão com o Solenoide do Trimmer: Tirante de aço regulável que transmite a força de acionamento do eletroímã"
+    ],
+    "howItWorks": [
+      "1. A matriz executa o último ponto antes de um salto ou troca de cor e envia o sinal eletrônico de corte de linha (Trim).",
+      "2. O solenoide do picker é acionado milissegundos antes do movimento da faca móvel.",
+      "3. O puxador avança suavemente em arco e sua ponta chanfrada entra pelo orifício frontal da caixa de bobina.",
+      "4. A ponta pinça a linha que sai do carretel, puxando exatamente de 25 a 30 mm de linha para fora da mola tensora.",
+      "5. A faca móvel avança, captura a linha superior e a linha da bobina puxada, e as corta de encontro à contra-faca fixa.",
+      "6. A mola de retorno desativa o puxador, que recua para trás do protetor sem tocar na laçadeira em giro.",
+      "7. A sobra de linha da bobina fica perfeitamente posicionada para a agulha pescar no primeiro ponto da próxima cor!"
+    ],
+    "beginnerExplanation": "O Puxador de Linha da Bobina é como uma mãozinha delicada que prepara a linha do carretel para a próxima cor! Já reparou que quando a máquina corta a linha e pula para outro lugar, ela precisa começar a bordar de novo sem ninguém ter que passar a linha na mão lá embaixo? Se a máquina cortasse a linha da bobina 'no talo' coladinha na caixinha, a pontinha ficaria tão curta que fugiria para dentro da caixinha e a máquina ficaria costurando no vento! O Puxador de Linha entra em ação um segundo antes da tesourinha cortar: ele coloca a pontinha dele dentro da caixinha da bobina, puxa uma sobra gostosa de uns 3 centímetros de linha e aí sim a tesoura corta. Assim, quando a agulha desce na cor seguinte, já tem uma pontinha de linha da bobina esperando de braços abertos para amarrar o ponto de primeira!",
+    "applications": [
+      "Padronização milimétrica da ponta remanescente da linha de bobina após cortes automáticos",
+      "Garantia de amarração inicial imediata do ponto (Under Thread Catch) sem falhas nem costura no ar",
+      "Prevenção do escape da linha de dentro da mola de tensão da caixa de bobina pós-trim",
+      "Evita o acúmulo de fios longos no avesso das peças bordadas que causariam acabamento sujo ou repuxado",
+      "Sincronismo mecânico harmônico com a faca móvel e o pescador de linha superior (Wiper)"
+    ],
+    "mainTypes": [
+      "Picker Mecânico por Came Central: Acionado por came excêntrica acoplada ao eixo do cortador (comum em máquinas Tajima tradicionais)",
+      "Picker Eletromagnético por Solenoide Independente: Permite ajuste de tempo e força de acionamento via painel eletrônico",
+      "Picker de Lâmina Flexível em Aço Cirúrgico: Utilizado para laçadeiras jumbo (carretel grande) com maior amplitude de penetração",
+      "Picker com Revestimento Cerâmico Antidesgaste: Projetado para linhas de bobina altamente abrasivas ou fios resistentes em calçados"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Garante atuação precisa em ciclos de corte a qualquer rotação (corte padrão desacelerado entre 100 e 200 RPM)",
+      "needleType": "Universal para todas as agulhas",
+      "stabilizer": "Universal para todas as entretelas"
+    },
+    "advantages": [
+      "✔ Acabamento profissional no verso do bordado, sem sobras excessivas de linha de bobina",
+      "✔ Redução a zero de falsas paradas por quebra de linha logo no primeiro ponto de cada cor",
+      "✔ Funcionamento suave e elástico que não danifica a caixa de bobina nem a carretilha",
+      "✔ Mecanismo de ajuste milimétrico rápido acessível pela chapa ou tampa lateral da laçadeira"
+    ],
+    "limitations": [
+      "Se acumular fiapos ou resíduos de entretela na ponta do gancho, ele não puxa a linha e gera falha de partida.",
+      "Se a penetração for excessiva (> 2,5 mm), a ponta do picker bate na borda do carretel de alumínio, travando a máquina."
+    ],
+    "commonErrors": [
+      "❌ Regular o avanço do puxador tão profundo que ele raspa na carretilha ou entorta a mola de retenção.",
+      "❌ Deixar poeira de linha compactada atrás do braço do picker, impedindo seu recuo completo pela mola.",
+      "❌ Trocar a caixa de bobina por um modelo genérico incompatível cuja abertura frontal não coincide com a lâmina do picker.",
+      "❌ Lubrificar a ponta do picker com óleo líquido abundante, manchando a linha da bobina e as peças bordadas."
+    ],
+    "troubleshootingTips": [
+      "A máquina corta a linha, mas ao iniciar a próxima cor a linha da bobina não engata e a máquina para com aviso de 'falha de linha': O puxador não está puxando linha suficiente (ponta curta < 15 mm) ou não está penetrando na abertura da bobina; verifique se há fiapos travando o braço do picker ou aumente levemente o curso de avanço pelo parafuso de regulagem.",
+      "O avesso do bordado fica com um 'rabicho' branco longo de mais de 5 cm embolando no início de cada cor: O puxador está avançando excessivamente para dentro da caixa de bobina, extraindo linha demais; diminua a penetração do picker girando o parafuso excêntrico de batente no sentido anti-horário.",
+      "Barulho de 'tec-tec' metálico e carretilhas de alumínio aparecendo riscadas ou amassadas na borda: O puxador está descentralizado ou muito avançado, colidindo contra a carretilha; solte o parafuso de suporte, centralize a lâmina exatamente no vão livre da caixa e recalibre a profundidade de penetração para 1,8 mm."
+    ],
+    "dicaArtrelados": "Sabe aquele drama clássico em que a máquina dá um corte perfeito, pula para o outro lado da matriz e, quando vai começar a bordar, a agulha desce 3 vezes e a máquina apita dizendo 'Quebra de Linha' mesmo estando tudo aparentemente certo? Em 8 de cada 10 casos o culpado é o Puxador de Linha sujo! Use o 'Truque do Pincel Seco da Artrelados': uma vez por semana, retire a chapa de agulha e a caixinha da bobina, empurre o braço do picker com a ponta do dedo para ele se abrir e limpe a pontinha dele com um pincel de cerdas duras embebido em uma gota de álcool isopropílico. Aquela bolinha de fiapo invisível que costuma grudar no gancho sai na hora, e sua máquina nunca mais vai dar partida no falso!",
+    "voceSabia": "Nas máquinas de bordar automáticas antigas que não tinham esse puxador inteligente, as bordadeiras tinham que deixar a máquina parar antes de cada troca de cor, puxar a linha de baixo com uma pinça comprida para fora da chapa e segurar com a mão até a máquina dar os primeiros 3 pontos! Foi a engenharia do Under Thread Picker que permitiu que as máquinas operassem com 100% de autonomia e velocidade contínua!",
+    "practicalExercise": "Teste Visual da Sobra de Linha de Bobina: Com a máquina operando um bordado de teste com vários cortes programados, observe a pontinha branca de linha que sobra embaixo do tecido logo após um corte. Meça com uma régua escolar simples: a sobra ideal deve ter entre 2,5 cm e 3,0 cm (a largura aproximada de dois dedos deitada). Se estiver nesse intervalo, seu sistema de corte e puxador de bobina estão com a calibração de fábrica perfeita!",
+    "quickSummary": "Lâmina em gancho acionada antes do corte inferior que penetra na caixa de bobina e extrai de 25 a 30 mm de linha para garantir a amarração do ponto na próxima cor.",
+    "relatedTerms": [
+      "Navalha Móvel e Navalha Fixa do Corte de Linha (Lâminas do Trimmer / Moving & Fixed Knife)",
+      "Pescador de Linha / Alavanca Pega-Fio do Trimmer (Thread Wiper / Hook Wiper)",
+      "Caixa de Bobina (Bobbin Case)",
+      "Solenoide de Corte de Linha (Trimmer Solenoid)",
+      "Ponto de Amarração (Tie-off / Lock Stitch)",
+      "Mola de Retenção de Linha da Bobina / Mola Anti-Giro da Caixa de Bobina"
+    ],
+    "tags": [
+      "p-105",
+      "puxador-de-linha",
+      "pescador-inferior",
+      "under-thread-picker",
+      "bobbin-thread-picker",
+      "trimmer",
+      "corte-de-linha",
+      "caixa-de-bobina",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Under-Bed Thread Trimmer (UTC) Picker Stroke Calibration and Maintenance Manual. Nagoya: Tajima, 2023.",
+      "BARUDAN CO., LTD. Bobbin Thread Picker Adjustment, Solenoid Clearance & Timing Specs. Ichinomiya, 2022.",
+      "BROTHER INDUSTRIES. Professional Embroidery Under-Thread Trimming & Picker Guide. Nagoya, 2021.",
+      "ARTRELADOS. O Pulo do Gato no Corte de Fio: Como Regular o Puxador de Bobina e Nunca Mais Ter Costura no Vazio. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "p-106-protetor-de-agulha-lacadeira-defletor-gancho-rotativo",
+    "code": "P-106",
+    "term": "Protetor de Agulha da Laçadeira / Placa Defletora de Agulha do Gancho Rotativo (Rotary Hook Needle Guard & Deflector Plate)",
+    "pronunciation": "pro-te-tór de a-gú-lha da la-sa-dêi-ra / plá-ka de-fle-tó-ra de a-gú-lha do gân-sho ro-ta-tí-vo (rôu-ta-ri ruk ní-dol gard end di-flék-tor plêit)",
+    "letter": "P",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Desenvolvido no Japão nas décadas de 1970 e 1980 pelas fabricantes de componentes de costura e bordado de precisão (Koban, Hirose Hooks e Organ Needles). Surgiu para solucionar a alta incidência de quebras de agulha e lascamento da ponta da laçadeira durante a costura de tecidos grossos, couros e emendas espessas em alta rotação, integrando um ressalto ou lâmina de deflexão milimétrica ao próprio corpo do cesto ou carcaça rotativa da laçadeira.",
+    "summary": "Ressalto chanfrado e polido de aço temperado ou lâmina ajustável incorporada à laçadeira rotativa que atua como anteparo protetor, defletindo suavemente a agulha quando ela se flexiona e impedindo que a ponta do gancho colida de frente com ela.",
+    "definition": "O Protetor de Agulha da Laçadeira e Placa Defletora de Agulha do Gancho Rotativo (tecnicamente denominado Rotary Hook Needle Guard, Needle Deflector, Escudo Protetor da Agulha ou Placa de Resguardo da Ponta da Laçadeira) é o ressalto mecânico ou componente anexo de precisão construído em aço de alta dureza presente na carcaça externa giratória ou no corpo da laçadeira rotativa industrial. No processo de formação do ponto de bordado eletrônico (ponto 301), a folga radial entre a lâmina da agulha e a ponta afiada da laçadeira é extremamente reduzida — variando rigidamente entre 0,05 mm e 0,10 mm (uma folga menor que a espessura de um fio de cabelo humano). Contudo, durante a penetração e subida em materiais densos, tecidos estruturados (como sarja de bonés de 6 gomos), lonas, emendas pesadas de costura ou relevos volumosos em EVA 3D, a agulha sofre flexão lateral elástica (Needle Deflection) devido à resistência mecânica do material ou à tração exercida pelo pantógrafo em movimento. Sem um dispositivo de contenção física, a agulha flexionada para trás invadiria a trajetória circular da ponta da laçadeira, resultando em impacto frontal catastrófico a 1.000 PPM que estilhaçaria a agulha e cegaria, entortaria ou lascaria a ponta do gancho. O Protetor de Agulha atua milissegundos antes da interceptação: seu perfil em cunha suave ou chanfro polido encosta nas costas da agulha e a empurra suavemente para a posição geométrica correta sem danificar seu polimento. Com isso, a ponta afiada da laçadeira passa livre pelo rebaixo (Scarf) da agulha com folga micrométrica segura, capturando a laçada de linha com 100% de confiabilidade e total proteção mecânica contra colisões.",
+    "technicalDetails": "Integrado ao corpo da laçadeira ou montado como placa ajustável em aço-ferramenta temperado SK4 / SUJ2 com dureza superficial de 58 a 62 HRC e acabamento espelhado polido a diamante (Ra < 0,05 µm) para evitar qualquer atrito abrasivo contra a haste niquelada ou cromada da agulha. Em laçadeiras de bordado modernas (como Koban KHS12-RYP e Hirose HSH-7.94BTR), o protetor é usinado com ângulo de rampa de deflexão de 15° a 25°. A folga padrão de regulagem entre o protetor de agulha e a lâmina traseira da agulha situa-se entre 0,00 mm e 0,05 mm (contato leve sem flexão forçada quando a agulha desce na posição mais profunda).",
+    "construction": [
+      "Rampa de Deflexão Chanfrada (Deflector Wedge): Superfície inclinada em ângulo de 20° que guia suavemente a agulha para frente",
+      "Aço-Ferramenta Temperado (58-62 HRC): Alta resistência ao impacto e ao desgaste por fricção cíclica contra agulhas de titânio",
+      "Polimento Diamantado Espelhado: Elimina rebarbas e rugosidades, garantindo que a agulha deslize sem riscos nem calor excessivo",
+      "Parafuso Excêntrico de Calibração (em modelos ajustáveis): Permite regular a aproximação milimétrica do protetor em relação à agulha",
+      "Trilho de Passagem da Linha da Bobina: Canal livre que permite a passagem limpa do laço de linha sem esmagamento nem fricção",
+      "Zona de Alívio da Ponta do Gancho (Scarf Clearance Pocket): Espaço usinado que protege a ponta afiada da laçadeira contra impactos"
+    ],
+    "howItWorks": [
+      "1. A agulha desce com a linha superior e penetra na sarja pesada do boné ou no couro, sofrendo ligeira flexão mecânica para trás.",
+      "2. Ao iniciar a subida de 1,8 mm a 2,2 mm, o laço de linha superior se abre no chanfro (Scarf) da agulha.",
+      "3. A laçadeira rotativa gira em alta velocidade em direção ao laço de linha.",
+      "4. Poucos milésimos de segundo antes da ponta do gancho chegar, a rampa do Protetor de Agulha encosta suavemente na agulha.",
+      "5. O protetor escora a agulha e a empurra milimetricamente para a posição vertical alinhada correta.",
+      "6. A ponta afiada da laçadeira passa livre pelo chanfro com folga microscópica de 0,05 mm, capturando a linha sem encostar no metal da agulha.",
+      "7. A agulha sobe livremente e a ponta da laçadeira segue intacta e afiada para a próxima laçada!"
+    ],
+    "beginnerExplanation": "O Protetor de Agulha é como um 'escudo protetor' que salva a sua agulha e a sua laçadeira de baterem de frente uma na outra! Sabe quando a máquina está bordando algo duro como a emenda de um boné, um jeans grosso ou um bordado 3D com EVA? A agulha é de metal fino e, ao furar aquele tecido pesado a mil por hora, ela dá uma entortadinha para trás. Acontece que a ponta da laçadeira que pega a linha é afiada feito agulha de injeção e passa raspando nela! Se a agulha entortada estivesse solta, a ponta da laçadeira ia trombar com ela de frente: a agulha quebraria em pedacinhos voando no ateliê e a laçadeira ficaria com a ponta toda lascada ou cega! O protetor de agulha é uma pecinha lisa e arredondada que vem logo na frente da ponta da laçadeira: ele encosta nas costas da agulha e diz 'sai da frente que a ponta vai passar!', empurrando a agulha para o lugar certo com carinho para a laçadeira passar lisinha sem bater!",
+    "applications": [
+      "Proteção física contra colisões entre a ponta afiada da laçadeira rotativa e a haste da agulha",
+      "Garantia de captura perfeita da laçada em tecidos pesados, sarjas de boné estruturado e couros",
+      "Eliminação de quebras catastróficas de agulha causadas por flexão lateral durante o movimento do bastidor",
+      "Preservação do gume afiado da ponta da laçadeira, estendendo sua vida útil de 1 para mais de 5 anos",
+      "Estabilização da agulha durante a formação de laçada em bordados com relevo 3D de EVA de 2 mm a 3 mm"
+    ],
+    "mainTypes": [
+      "Protetor de Agulha Integral Fixo (Usinado diretamente no corpo de aço da laçadeira - padrão Koban e Hirose)",
+      "Placa Defletora Ajustável por Parafuso (Permite regular a folga micrométrica para diferentes calibres de agulha, de 65/9 a 110/18)",
+      "Protetor com Revestimento em Nitreto de Titânio (Dourado / DLC preto para bordados industriais de alta abrasividade)",
+      "Protetor Bipartido para Laçadeiras com Cortador Superior (Desenvolvido para cabeçotes especiais de boné cilíndrico)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "Suporta deflexão estável e proteção mecânica contínua de 0 a 1.200 PPM",
+      "needleType": "Projetado para trabalhar com agulhas industriais DBxK5 de calibre 65/9 a 90/14",
+      "stabilizer": "Essencial em entretelas resinadas duras de boné e entretelas pesadas de recorte",
+      "threadTension": "Mantém a laçada estável sem interferir na tensão de 100 a 120 gf da linha superior"
+    },
+    "advantages": [
+      "✔ Reduz em até 90% a quebra de agulhas durante o bordado de bonés estruturados e tecidos pesados",
+      "✔ Evita que a laçadeira fique com rebarbas ou ponta cega, que é a causa nº 1 de arrebentamento de linha no bordado",
+      "✔ Superfície temperada e polida a diamante que não risca nem desbasta a agulha",
+      "✔ Aumenta drasticamente a segurança do operador no ateliê, prevenindo estilhaços metálicos voando"
+    ],
+    "limitations": [
+      "Se for regulado excessivamente próximo ou torto, ele empurra a agulha contra o calcador, entortando a agulha.",
+      "Se a agulha bater com violência extrema e criar uma rebarba de metal no protetor, essa rebarba começará a desfiar a linha."
+    ],
+    "commonErrors": [
+      "❌ Usar uma laçadeira genérica de máquina reta de costura comum que não possui o perfil de protetor reforçado de bordado.",
+      "❌ Deixar uma agulha torta na máquina que fica raspando com força contínua no protetor, aquecendo e destemperando o aço.",
+      "❌ Não inspecionar o protetor com uma lupa após uma quebra forte de agulha para verificar se não ficou uma rebarba microscópica.",
+      "❌ Regular o sincronismo da laçadeira empurrando o protetor com força contra a agulha, fazendo a agulha flexionar para a frente."
+    ],
+    "troubleshootingTips": [
+      "A linha de cima começa a desfiar e arrebentar sem motivo no meio do bordado: Uma quebra anterior de agulha bateu no protetor e deixou uma farpinha ou rebarba microscópica de aço; passe uma lixa d'água 1.500 com uma gota de óleo na face do protetor e dê polimento com cordão de algodão até ficar espelhado.",
+      "A máquina quebra agulha toda vez que tenta bordar o gomo central da frente de um boné: O protetor de agulha está com folga excessiva e permitindo que a agulha flexione até colidir com o gancho; aproxime a laçadeira até a folga de 0,05 mm e cheque a espessura da agulha (use agulha 80/12 ou 90/14 reforçada para boné).",
+      "Ouve-se um barulho metálico fino de 'tique-tique-tique' a cada ponto descido da agulha: O protetor está encostando forte demais na agulha a cada descida; afaste milimetricamente a laçadeira até o atrito desaparecer sem perder a folga de 0,05 mm."
+    ],
+    "dicaArtrelados": "Quer fazer o 'Teste da Lupa e do Fio Dental da Artrelados' para saber se o protetor de agulha da sua laçadeira está 100% perfeito? Passe um pedaço de fio dental branco deslizando por toda a rampa do protetor de agulha e ao redor da ponta da laçadeira: se o fio dental correr macio como manteiga, está perfeito! Se o fio dental engasgar ou soltar fiapinhos brancos, há uma micro-rebarba invisível a olho nu que está estragando os seus bordados! Uma passadinha leve de pasta de polir e seu ateliê volta a bordar suave sem arrebentar linha!",
+    "voceSabia": "A invenção do protetor de agulha integrado foi o que tornou viável o surgimento do bordado computadorizado em bonés montados (Cap Embroidery) no final dos anos 1980! Antes dele, a costura frontal grossa que junta os gomos do boné quebrava as agulhas quase a cada frase bordada, tornando a personalização de bonés quase impossível na velocidade das máquinas modernas!",
+    "practicalExercise": "Verificação da Folga com Folha de Papel Sulfite: Com a máquina desligada, coloque uma agulha novinha no cabeçote. Gire o volante manual até a ponta da laçadeira se alinhar exatamente atrás do chanfro da agulha. Pegue uma tirinha de papel sulfite comum (que tem cerca de 0,08 mm de espessura) e passe entre a ponta da laçadeira e a agulha: o papel deve passar sentindo um leve roçar sem travar nem dobrar. Veja como o ressalto do protetor mantém a agulha no lugar seguro!",
+    "quickSummary": "Ressalto chanfrado de aço temperado polido na laçadeira que deflete e escora a agulha em tecidos pesados, impedindo que ela colida com a ponta afiada do gancho.",
+    "relatedTerms": [
+      "Laçadeira Rotativa (Rotary Hook)",
+      "Sincronismo da Laçadeira (Hook Timing)",
+      "Chanfro da Agulha (Scarf)",
+      "Eixo Inferior Principal da Máquina de Bordar / Eixo de Transmissão da Laçadeira",
+      "Agulha DBxK5",
+      "Bastidor de Boné / Moldura Tubular 270°"
+    ],
+    "tags": [
+      "p-106",
+      "protetor-de-agulha",
+      "needle-guard",
+      "defletor-de-agulha",
+      "lacadeira-rotativa",
+      "rotary-hook",
+      "scarf",
+      "bone-estruturado",
+      "mecanica",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "KOBAN INDUSTRIAL HOOKS. Rotary Hook Needle Guard Clearance, Timing and Deflection Standards. Osaka, 2023.",
+      "HIROSE HOOK MANUFACTURING CO. Technical Manual: Needle Deflector Geometry and Hook Protection in High-Speed Embroidery. Osaka, 2022.",
+      "ORGAN NEEDLE CO., LTD. Needle Deflection Dynamics and Hook Scarf Interaction. Ueda: Organ, 2021.",
+      "ARTRELADOS. O Escudo Invisível da Laçadeira: Como o Protetor de Agulha Salva Bordados em Bonés e Tecidos Pesados. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-07"
   }
 ];
 
