@@ -1,5 +1,4 @@
 import { Verbete } from "../types";
-import { VERBETES_LETTER_O_PART1 } from "./verbetesLetterO1";
 import { VERBETES_LETTER_O_PART2 } from "./verbetesLetterO2";
 import { VERBETES_LETTER_O_PART3 } from "./verbetesLetterO3";
 import { VERBETES_LETTER_O_PART4 } from "./verbetesLetterO4";
@@ -12,12 +11,8 @@ import { VERBETES_LETTER_O_PART10 } from "./verbetesLetterO10";
 import { VERBETES_LETTER_O_PART11 } from "./verbetesLetterO11";
 import { VERBETES_LETTER_O_PART12 } from "./verbetesLetterO12";
 import { VERBETES_LETTER_O_PART13 } from "./verbetesLetterO13";
-import { VERBETES_LETTER_O_PART14 } from "./verbetesLetterO14";
-import { VERBETES_LETTER_O_PART15 } from "./verbetesLetterO15";
-import { VERBETES_LETTER_O_PART16 } from "./verbetesLetterO16";
 
 export const VERBETES_LETTER_O: Verbete[] = [
-  ...VERBETES_LETTER_O_PART1,
   ...VERBETES_LETTER_O_PART2,
   ...VERBETES_LETTER_O_PART3,
   ...VERBETES_LETTER_O_PART4,
@@ -30,7 +25,4 @@ export const VERBETES_LETTER_O: Verbete[] = [
   ...VERBETES_LETTER_O_PART11,
   ...VERBETES_LETTER_O_PART12,
   ...VERBETES_LETTER_O_PART13,
-  ...VERBETES_LETTER_O_PART14,
-  ...VERBETES_LETTER_O_PART15,
-  ...VERBETES_LETTER_O_PART16,
 ];

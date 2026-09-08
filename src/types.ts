@@ -3,18 +3,18 @@ export type VerbeteCategory =
   | "Pontos Básicos & Decorativos"
   | "Estabilizadores & Entretelas"
   | "Agulhas & Fios"
-  | "Softwares & Formatos"
-  | "Solução de Problemas"
-  | "Técnicas de Bastidor"
-  | "Tensão & Calibração"
-  | "Tipos de Tecidos"
-  | "Terminologia Geral"
   | "Programação de Bordado"
+  | "Softwares & Formatos"
   | "Componentes da Máquina"
   | "Funções da Máquina"
-  | "Acabamento & Finalização"
   | "Operação da Máquina"
   | "Elementos do Bordado"
+  | "Acabamento & Finalização"
+  | "Tipos de Tecidos"
+  | "Técnicas de Bastidor"
+  | "Tensão & Calibração"
+  | "Solução de Problemas"
+  | "Terminologia Geral"
   | string;
 
 export interface RecommendedSettings {
@@ -23,54 +23,55 @@ export interface RecommendedSettings {
   stabilizer?: string;
   threadTension?: string;
   density?: string;
-}
-
-export interface ComparisonTable {
-  headers: string[];
-  rows: string[][];
+  pullCompensation?: string;
+  underlay?: string;
+  [key: string]: string | undefined;
 }
 
 export interface Verbete {
   id: string;
-  code?: string; // e.g. "A-001"
-  letter?: string; // e.g. "A" or "E"
+  code?: string;
   term: string;
-  pronunciation?: string;
-  level?: string; // e.g. "Fundamental 🟢" or "Avançado 🔴"
-  grammarClass?: string; // e.g. "Substantivo feminino."
+  letter?: string;
+  level?: string;
   category: VerbeteCategory;
+  grammarClass?: string;
+  origin?: string;
+  pronunciation?: string;
   summary: string;
   definition: string;
-  technicalDetails: string;
-  construction?: string[]; // e.g. ["haste", "cabo", "olho da agulha"]
-  howItWorks?: string[]; // e.g. ["1. conduz a linha", "2. forma a laçada"]
-  mainTypes?: string[]; // e.g. ["Universal", "Ball Point"]
-  characteristics?: string[]; // e.g. ["Ponta levemente arredondada", "Corpo com espessura intermediária"]
-  limitations?: string[]; // e.g. ["Menor desempenho em bordados de alta densidade"]
-  numberingSystem?: string[]; // e.g. ["65/9", "75/11"]
-  advantages?: string[]; // e.g. ["✔ formação regular dos pontos"]
-  commonErrors?: string[]; // e.g. ["❌ Utilizar a mesma agulha para todos os tecidos"]
-  voceSabia?: string; // 💡 Você sabia?
-  curiosidadeTecnica?: string; // 🔬 Curiosidade Técnica
-  dicaArtrelados?: string; // 🧵 Dica Artrelados
-  comparisonTable?: ComparisonTable; // 📊 Comparação
+  technicalDetails?: string;
+  beginnerExplanation?: string;
+  construction?: string[];
+  howItWorks?: string[];
+  mainTypes?: string[];
+  characteristics?: string[];
+  numberingSystem?: string[];
+  advantages?: string[];
+  limitations?: string[];
+  commonErrors?: string[];
+  curiosidadeTecnica?: string;
+  voceSabia?: string;
+  dicaArtrelados?: string;
   recommendedSettings?: RecommendedSettings;
-  applications: string[];
-  troubleshootingTips: string[];
-  relatedTerms: string[];
-  tags: string[];
+  applications?: string[];
+  troubleshootingTips?: string[];
+  practicalExercise?: string;
+  quickSummary?: string;
+  relatedTerms?: string[];
+  imageUrl?: string;
+  imageCaption?: string;
+  tags?: string[];
   isFavorite?: boolean;
   isAiGenerated?: boolean;
   updatedAt?: string;
-  sourceReference?: string; // 📖 Fonte / Referência Bibliográfica Consultada
-  bibliographicReferences?: string[]; // 📚 Referências Bibliográficas Detalhadas
-  stitchDiagramType?: "satin" | "tatami" | "running" | "applique" | "cutwork" | "cross_stitch" | "3d_puff" | "fringe" | "fill";
-  origin?: string; // 🌎 Origem etimológica / histórica
-  practicalExercise?: string; // 📝 Exercício Prático
-  quickSummary?: string; // 📚 Resumo Rápido
-  beginnerExplanation?: string; // 🧵 Explicação para quem está começando
-  imageUrl?: string; // 🖼️ Ilustração técnica / prancha anatômica
-  imageCaption?: string; // 📝 Legenda explicativa da imagem
+  stitchDiagramType?: string;
+  comparisonTable?: {
+    headers: string[];
+    rows: string[][];
+  };
+  bibliographicReferences?: string[];
+  [key: string]: any;
 }
 
 export interface TroubleshootingGuide {
@@ -83,24 +84,22 @@ export interface TroubleshootingGuide {
   preventiveAdvice: string;
   recommendedProductsOrSettings?: {
     needle?: string;
-    stabilizer?: string;
     tension?: string;
     speed?: string;
+    bobbinTension?: string;
+    stabilizer?: string;
+    [key: string]: string | undefined;
+  };
+  recommendedSettings?: {
+    needle?: string;
+    stabilizer?: string;
+    speed?: string;
+    tension?: string;
+    [key: string]: string | undefined;
   };
 }
 
-export interface DictionaryStats {
-  totalTerms: number;
-  totalCategories: number;
-  totalFavorites: number;
-  totalAiGenerated: number;
-  lastUpdated: string;
-}
-
 export interface DiagnosticInputs {
-  problemDescription: string;
-  machineModel?: string;
-  fabricType?: string;
   threadType?: string;
   needleNumber?: string;
   needleTip?: string;
@@ -115,30 +114,30 @@ export interface DiagnosticInputs {
 export interface SavedDiagnostic {
   id: string;
   savedAt: string;
-  problemDescription: string;
+  severity: "Baixa" | "Média" | "Alta" | "Crítica" | string;
+  category: string;
+  title: string;
   machineModel?: string;
   fabricType?: string;
-  threadType?: string;
-  needleNumber?: string;
-  needleTip?: string;
-  stabilizerType?: string;
-  stabilizerLayers?: string;
-  matrixPoints?: string;
-  matrixHistory?: string;
-  speedSetting?: string;
-  tensionSetting?: string;
-  title: string;
-  category: string;
-  severity: "Baixa" | "Média" | "Alta" | "Crítica";
+  problemDescription: string;
   summary: string;
-  probableCauses: string[];
-  stepByStepSolution: string[];
-  preventiveAdvice: string;
+  probableCauses?: string[];
+  stepByStepSolution?: string[];
+  preventiveAdvice?: string;
   recommendedSettings?: {
     needle?: string;
     stabilizer?: string;
     speed?: string;
     tension?: string;
+    [key: string]: string | undefined;
   };
-  artreladosTip: string;
+  artreladosTip?: string;
+}
+
+export interface DictionaryStats {
+  totalTerms: number;
+  totalCategories: number;
+  totalFavorites: number;
+  totalAiGenerated: number;
+  lastUpdated: string;
 }

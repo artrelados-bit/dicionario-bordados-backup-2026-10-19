@@ -4,7 +4,6 @@ import { VERBETES_LETTER_S2 } from "./verbetesLetterS2";
 import { VERBETES_LETTER_S3 } from "./verbetesLetterS3";
 import { VERBETES_LETTER_S4 } from "./verbetesLetterS4";
 import { VERBETES_LETTER_S5 } from "./verbetesLetterS5";
-import { VERBETES_LETTER_S6 } from "./verbetesLetterS6";
 import { VERBETES_LETTER_S7 } from "./verbetesLetterS7";
 import { VERBETES_LETTER_S8 } from "./verbetesLetterS8";
 import { VERBETES_LETTER_S9 } from "./verbetesLetterS9";
@@ -17,7 +16,6 @@ export const VERBETES_LETTER_S: Verbete[] = [
   ...VERBETES_LETTER_S3,
   ...VERBETES_LETTER_S4,
   ...VERBETES_LETTER_S5,
-  ...VERBETES_LETTER_S6,
   ...VERBETES_LETTER_S7,
   ...VERBETES_LETTER_S8,
   ...VERBETES_LETTER_S9,

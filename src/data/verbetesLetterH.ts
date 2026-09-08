@@ -1,5 +1,4 @@
 import { Verbete } from "../types";
-import { VERBETES_LETTER_H_PART1 } from "./verbetesLetterH1";
 import { VERBETES_LETTER_H_PART2 } from "./verbetesLetterH2";
 import { VERBETES_LETTER_H_PART3 } from "./verbetesLetterH3";
 import { VERBETES_LETTER_H_PART4 } from "./verbetesLetterH4";
@@ -15,7 +14,6 @@ import { VERBETES_LETTER_H_PART13 } from "./verbetesLetterH13";
 import { VERBETES_LETTER_H_PART14 } from "./verbetesLetterH14";
 
 export const VERBETES_LETTER_H: Verbete[] = [
-  ...VERBETES_LETTER_H_PART1,
   ...VERBETES_LETTER_H_PART2,
   ...VERBETES_LETTER_H_PART3,
   ...VERBETES_LETTER_H_PART4,
