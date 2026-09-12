@@ -345,7 +345,7 @@ export default function App() {
   // Filter States
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<VerbeteCategory>("Todos");
-  const [selectedLetter, setSelectedLetter] = useState("Todos");
+  const [selectedLetter, setSelectedLetter] = useState("A");
   const [onlyFavorites, setOnlyFavorites] = useState(false);
   const [onlyAiGenerated, setOnlyAiGenerated] = useState(false);
   const [viewMode, setViewMode] = useState<"list" | "grid">("list");
@@ -447,7 +447,7 @@ export default function App() {
       }
 
       // If there is no search query, filter strictly by selected letter
-      if (!query && selectedLetter !== "Todos") {
+      if (!query && selectedLetter) {
         const verbeteLetter = (v.letter || (v.code ? v.code.charAt(0) : v.term.charAt(0))).toUpperCase();
         if (verbeteLetter !== selectedLetter) return;
       }
@@ -569,7 +569,7 @@ export default function App() {
     setActiveTab("dictionary");
     setSearchQuery("");
     setSelectedCategory("Todos");
-    setSelectedLetter("Todos");
+    setSelectedLetter("A");
     setOnlyFavorites(false);
     setOnlyAiGenerated(false);
     if (verbetes.length === 0) {
@@ -661,7 +661,7 @@ export default function App() {
                     className="px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs sm:text-sm inline-flex items-center space-x-2 transition shadow-xs cursor-pointer"
                   >
                     <BookOpen className="w-4 h-4 text-amber-400" />
-                    <span>Limpar Filtros e Ver Todos os Verbetes</span>
+                    <span>Limpar Filtros e Voltar ao Início (Letra A)</span>
                   </button>
                 </div>
               </div>

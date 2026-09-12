@@ -38,7 +38,6 @@ const CATEGORIES: VerbeteCategory[] = [
 ];
 
 const ALPHABET = [
-  "Todos",
   "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
   "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
 ];
@@ -154,21 +153,21 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         <div>
           Exibindo <strong className="text-slate-900">{totalFiltered}</strong> {totalFiltered === 1 ? "verbete" : "verbetes"}
           {selectedCategory !== "Todos" && <span> em <span className="text-slate-900 font-bold">"{selectedCategory}"</span></span>}
-          {selectedLetter !== "Todos" && <span> com a letra <span className="text-slate-900 font-bold">"{selectedLetter}"</span></span>}
+          {selectedLetter && <span> com a letra <span className="text-slate-900 font-bold">"{selectedLetter}"</span></span>}
         </div>
 
-        {(searchQuery || selectedCategory !== "Todos" || selectedLetter !== "Todos" || onlyFavorites || onlyAiGenerated) && (
+        {(searchQuery || selectedCategory !== "Todos" || selectedLetter !== "A" || onlyFavorites || onlyAiGenerated) && (
           <button
             onClick={() => {
               setSearchQuery("");
               setSelectedCategory("Todos");
-              setSelectedLetter("Todos");
+              setSelectedLetter("A");
               setOnlyFavorites(false);
               setOnlyAiGenerated(false);
             }}
             className="text-red-600 hover:text-red-700 font-extrabold underline cursor-pointer"
           >
-            Limpar Filtros
+            Voltar para Letra A
           </button>
         )}
       </div>
