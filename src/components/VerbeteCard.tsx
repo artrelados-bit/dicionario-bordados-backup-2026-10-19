@@ -32,7 +32,7 @@ export const VerbeteCard: React.FC<VerbeteCardProps> = ({
   return (
     <div
       onClick={() => onSelect(verbete)}
-      className="group relative bg-white hover:bg-slate-50/80 border border-slate-200/90 hover:border-amber-300 rounded-2xl p-4 sm:p-5 shadow-xs hover:shadow-md transition-all duration-200 cursor-pointer flex flex-col justify-between space-y-3"
+      className="verbete-card-item group relative bg-white hover:bg-slate-50/80 border border-slate-200/90 hover:border-amber-300 rounded-2xl p-4 sm:p-5 shadow-xs hover:shadow-md transition-all duration-200 cursor-pointer flex flex-col justify-between space-y-3"
     >
       <div className="space-y-3">
         {/* Top Header Row: Code Badge, Title, Category Pill & Actions */}

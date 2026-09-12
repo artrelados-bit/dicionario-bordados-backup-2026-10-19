@@ -249,8 +249,12 @@ export default function App() {
         }
       }
 
-      const merged = sanitizeVerbetesList([...INITIAL_VERBETES, ...customList]);
-      return merged.map((v) => ({
+      // If there are custom items, sanitize them merged with INITIAL_VERBETES; otherwise use INITIAL_VERBETES directly
+      const baseList = customList.length > 0 
+        ? sanitizeVerbetesList([...INITIAL_VERBETES, ...customList])
+        : INITIAL_VERBETES;
+
+      return baseList.map((v) => ({
         ...v,
         isFavorite: favoriteIds.has(v.id) || v.isFavorite || false,
       }));

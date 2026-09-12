@@ -52,3 +52,14 @@ body {
 .animate-fade-in {
   animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
+
+/* Otimização de renderização instantânea para grandes listas sem esconder nada */
+.verbete-row-item {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 120px;
+}
+
+.verbete-card-item {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 240px;
+}

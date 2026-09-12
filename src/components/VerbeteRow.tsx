@@ -32,7 +32,7 @@ export const VerbeteRow: React.FC<VerbeteRowProps> = ({
   return (
     <div
       onClick={() => onSelect(verbete)}
-      className="py-3.5 border-b border-slate-200/90 hover:bg-amber-50/50 transition-colors px-3 sm:px-4 rounded-xl cursor-pointer group flex flex-col sm:flex-row sm:items-start justify-between gap-3"
+      className="verbete-row-item py-3.5 border-b border-slate-200/90 hover:bg-amber-50/50 transition-colors px-3 sm:px-4 rounded-xl cursor-pointer group flex flex-col sm:flex-row sm:items-start justify-between gap-3"
     >
       <div className="flex-1 space-y-2">
         {/* Term Title & Code Badge */}
