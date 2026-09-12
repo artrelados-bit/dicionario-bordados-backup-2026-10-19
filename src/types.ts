@@ -101,6 +101,7 @@ export interface TroubleshootingGuide {
 
 export interface DiagnosticInputs {
   threadType?: string;
+  bobbinThread?: string;
   needleNumber?: string;
   needleTip?: string;
   stabilizerType?: string;

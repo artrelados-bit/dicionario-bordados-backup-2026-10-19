@@ -44,6 +44,7 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
   const [showAdvanced, setShowAdvanced] = useState(false);
   const [advancedInputs, setAdvancedInputs] = useState<Partial<DiagnosticInputs>>({
     threadType: "",
+    bobbinThread: "",
     needleNumber: "",
     needleTip: "",
     stabilizerType: "",
@@ -169,20 +170,21 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
 
       {/* SECTION 1: DIAGNOSTIC ASSISTANT */}
       {activeTab === "diagnostic" && (
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+        <div className="space-y-6">
           {/* Diagnostic Form */}
-          <div className="lg:col-span-5 bg-white border border-slate-200 rounded-3xl p-6 shadow-xs space-y-5">
+          <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-7 shadow-xs space-y-6">
             <div className="border-b border-slate-100 pb-4">
-              <h3 className="text-lg font-black text-slate-900 flex items-center gap-2">
+              <h3 className="text-lg sm:text-xl font-black text-slate-900 flex items-center gap-2">
                 <Activity className="w-5 h-5 text-amber-500" />
-                <span>Descreva o Problema</span>
+                <span>Oficina do Bordado — Parâmetros & Diagnóstico do Defeito</span>
               </h3>
-              <p className="text-slate-500 text-xs mt-1">
-                Relate os sintomas ocorridos durante o bordado para gerar uma análise técnica direcionada.
+              <p className="text-slate-500 text-xs sm:text-sm mt-1">
+                Preencha os parâmetros de trabalho da sua máquina para receber uma análise técnica precisa, rápida e personalizada.
               </p>
             </div>
 
-            <form onSubmit={handleRunDiagnostic} className="space-y-4">
+            <form onSubmit={handleRunDiagnostic} className="space-y-5">
+              {/* Problem description input */}
               <div>
                 <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
                   Sintoma ou Problema Observado *
@@ -191,23 +193,23 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                   value={problemDescription}
                   onChange={(e) => setProblemDescription(e.target.value)}
                   placeholder="Ex: A linha superior está quebrando a cada 20 pontos e fazendo laços embaixo..."
-                  rows={3}
-                  className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-amber-400 font-medium text-slate-800"
+                  rows={2}
+                  className="w-full px-4 py-3 rounded-xl border border-slate-300 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-amber-400 font-medium text-slate-800"
                 />
               </div>
 
-              {/* Quick Presets */}
+              {/* Quick Presets - Clean horizontal row */}
               <div>
                 <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider block mb-1.5">
                   Problemas Frequentes (Clique para preencher):
                 </span>
-                <div className="flex flex-wrap gap-1.5">
+                <div className="flex flex-wrap gap-2">
                   {quickProblems.map((prob, idx) => (
                     <button
                       key={idx}
                       type="button"
                       onClick={() => setProblemDescription(prob)}
-                      className="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-amber-100 hover:text-amber-900 border border-slate-200 text-[11px] font-semibold text-slate-700 transition cursor-pointer text-left"
+                      className="px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-amber-100 hover:text-amber-900 border border-slate-200 text-xs font-semibold text-slate-700 transition cursor-pointer text-left"
                     >
                       {prob}
                     </button>
@@ -215,108 +217,178 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
-                <div>
-                  <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
-                    Modelo da Máquina
-                  </label>
-                  <input
-                    type="text"
-                    value={machineModel}
-                    onChange={(e) => setMachineModel(e.target.value)}
-                    placeholder="Ex: Brother BP2150, Janome MC500E..."
-                    className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-400"
-                  />
+              {/* Technical Parameters - Open & Distributed Horizontally */}
+              <div className="space-y-4 pt-2 border-t border-slate-100">
+                <div className="flex items-center gap-2">
+                  <Settings className="w-4 h-4 text-amber-500" />
+                  <span className="text-xs font-black uppercase tracking-wider text-slate-800">
+                    Parâmetros Técnicos de Trabalho (Visíveis & Abertos)
+                  </span>
                 </div>
-                <div>
-                  <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
-                    Tipo de Tecido
-                  </label>
-                  <input
-                    type="text"
-                    value={fabricType}
-                    onChange={(e) => setFabricType(e.target.value)}
-                    placeholder="Ex: Malha piquet, Toalha, Brim..."
-                    className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-400"
-                  />
-                </div>
-              </div>
 
-              {/* Advanced Parameters Toggle */}
-              <div>
-                <button
-                  type="button"
-                  onClick={() => setShowAdvanced(!showAdvanced)}
-                  className="text-xs font-bold text-slate-600 hover:text-slate-900 flex items-center gap-1.5 pt-1 cursor-pointer"
-                >
-                  <Settings className="w-3.5 h-3.5 text-amber-500" />
-                  <span>{showAdvanced ? "Ocultar Parâmetros Técnicos Opcionais" : "Adicionar Parâmetros Técnicos (Opcional)"}</span>
-                  {showAdvanced ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
-                </button>
-
-                {showAdvanced && (
-                  <div className="p-3.5 mt-2.5 rounded-2xl bg-slate-50 border border-slate-200 space-y-2.5 animate-fade-in">
-                    <div className="grid grid-cols-2 gap-2 text-xs">
-                      <div>
-                        <label className="block text-[10px] font-bold text-slate-500 uppercase">Linha</label>
-                        <input
-                          type="text"
-                          value={advancedInputs.threadType || ""}
-                          onChange={(e) => setAdvancedInputs({ ...advancedInputs, threadType: e.target.value })}
-                          placeholder="Ex: Poliéster 120"
-                          className="w-full px-2.5 py-1.5 rounded-lg border border-slate-200 text-xs bg-white"
-                        />
-                      </div>
-                      <div>
-                        <label className="block text-[10px] font-bold text-slate-500 uppercase">Nº Agulha</label>
-                        <input
-                          type="text"
-                          value={advancedInputs.needleNumber || ""}
-                          onChange={(e) => setAdvancedInputs({ ...advancedInputs, needleNumber: e.target.value })}
-                          placeholder="Ex: 75/11"
-                          className="w-full px-2.5 py-1.5 rounded-lg border border-slate-200 text-xs bg-white"
-                        />
-                      </div>
-                      <div>
-                        <label className="block text-[10px] font-bold text-slate-500 uppercase">Entretela</label>
-                        <input
-                          type="text"
-                          value={advancedInputs.stabilizerType || ""}
-                          onChange={(e) => setAdvancedInputs({ ...advancedInputs, stabilizerType: e.target.value })}
-                          placeholder="Ex: Rasga-fácil"
-                          className="w-full px-2.5 py-1.5 rounded-lg border border-slate-200 text-xs bg-white"
-                        />
-                      </div>
-                      <div>
-                        <label className="block text-[10px] font-bold text-slate-500 uppercase">Velocidade (PPM)</label>
-                        <input
-                          type="text"
-                          value={advancedInputs.speedSetting || ""}
-                          onChange={(e) => setAdvancedInputs({ ...advancedInputs, speedSetting: e.target.value })}
-                          placeholder="Ex: 650 PPM"
-                          className="w-full px-2.5 py-1.5 rounded-lg border border-slate-200 text-xs bg-white"
-                        />
-                      </div>
-                    </div>
+                {/* Row 1: Machine, Fabric, Upper Thread, Bobbin Thread */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5">
+                  <div>
+                    <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
+                      Modelo da Máquina
+                    </label>
+                    <input
+                      type="text"
+                      value={machineModel}
+                      onChange={(e) => setMachineModel(e.target.value)}
+                      placeholder="Ex: Brother BP2150, Janome..."
+                      className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-400 bg-white"
+                    />
                   </div>
-                )}
+                  <div>
+                    <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
+                      Tipo de Tecido
+                    </label>
+                    <input
+                      type="text"
+                      value={fabricType}
+                      onChange={(e) => setFabricType(e.target.value)}
+                      placeholder="Ex: Malha piquet, Toalha, Brim..."
+                      className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-400 bg-white"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
+                      Linha Superior
+                    </label>
+                    <input
+                      type="text"
+                      value={advancedInputs.threadType || ""}
+                      onChange={(e) => setAdvancedInputs({ ...advancedInputs, threadType: e.target.value })}
+                      placeholder="Ex: Poliéster 120, Metálica..."
+                      className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-400 bg-white"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
+                      Linha da Bobina
+                    </label>
+                    <input
+                      type="text"
+                      value={advancedInputs.bobbinThread || ""}
+                      onChange={(e) => setAdvancedInputs({ ...advancedInputs, bobbinThread: e.target.value })}
+                      placeholder="Ex: Bobina 150/2, Pré-enrolada..."
+                      className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-400 bg-white"
+                    />
+                  </div>
+                </div>
+
+                {/* Row 2: Needle Number, Needle Tip, Tension, Speed */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5">
+                  <div>
+                    <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
+                      Nº da Agulha
+                    </label>
+                    <input
+                      type="text"
+                      value={advancedInputs.needleNumber || ""}
+                      onChange={(e) => setAdvancedInputs({ ...advancedInputs, needleNumber: e.target.value })}
+                      placeholder="Ex: 75/11, 80/12, 90/14..."
+                      className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-400 bg-white"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
+                      Ponta da Agulha
+                    </label>
+                    <input
+                      type="text"
+                      value={advancedInputs.needleTip || ""}
+                      onChange={(e) => setAdvancedInputs({ ...advancedInputs, needleTip: e.target.value })}
+                      placeholder="Ex: Ponta Bola (SES/SUK), Aguda..."
+                      className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-400 bg-white"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
+                      Tensão da Linha
+                    </label>
+                    <input
+                      type="text"
+                      value={advancedInputs.tensionSetting || ""}
+                      onChange={(e) => setAdvancedInputs({ ...advancedInputs, tensionSetting: e.target.value })}
+                      placeholder="Ex: Padrão 3.2, Apertada, Frouxa..."
+                      className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-400 bg-white"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
+                      Velocidade (PPM)
+                    </label>
+                    <input
+                      type="text"
+                      value={advancedInputs.speedSetting || ""}
+                      onChange={(e) => setAdvancedInputs({ ...advancedInputs, speedSetting: e.target.value })}
+                      placeholder="Ex: 600 PPM, 750 PPM..."
+                      className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-400 bg-white"
+                    />
+                  </div>
+                </div>
+
+                {/* Row 3: Stabilizer Type, Layers / Grammage, Matrix Origin */}
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3.5">
+                  <div>
+                    <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
+                      Tipo de Entretela
+                    </label>
+                    <input
+                      type="text"
+                      value={advancedInputs.stabilizerType || ""}
+                      onChange={(e) => setAdvancedInputs({ ...advancedInputs, stabilizerType: e.target.value })}
+                      placeholder="Ex: Rasga-fácil, Recorta (Cutaway), Hidrossolúvel..."
+                      className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-400 bg-white"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
+                      Camadas / Gramatura da Entretela
+                    </label>
+                    <input
+                      type="text"
+                      value={advancedInputs.stabilizerLayers || ""}
+                      onChange={(e) => setAdvancedInputs({ ...advancedInputs, stabilizerLayers: e.target.value })}
+                      placeholder="Ex: 1 camada 80g, 2 camadas 45g..."
+                      className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-400 bg-white"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
+                      Origem / Histórico da Matriz
+                    </label>
+                    <input
+                      type="text"
+                      value={advancedInputs.matrixHistory || ""}
+                      onChange={(e) => setAdvancedInputs({ ...advancedInputs, matrixHistory: e.target.value })}
+                      placeholder="Ex: Própria testada, Baixada da internet, Nova..."
+                      className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-400 bg-white"
+                    />
+                  </div>
+                </div>
               </div>
 
-              <button
-                type="submit"
-                disabled={!problemDescription.trim()}
-                className="w-full py-3 px-4 rounded-xl bg-amber-400 hover:bg-amber-500 disabled:opacity-50 text-slate-950 font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 cursor-pointer shadow-xs"
-              >
-                <Cpu className="w-4 h-4 text-slate-950" />
-                <span>Analisar e Gerar Solução Técnica</span>
-              </button>
+              {/* Action Button */}
+              <div className="pt-2">
+                <button
+                  type="submit"
+                  disabled={!problemDescription.trim()}
+                  className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-amber-400 hover:bg-amber-500 disabled:opacity-50 text-slate-950 font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 cursor-pointer shadow-xs"
+                >
+                  <Cpu className="w-4 h-4 text-slate-950" />
+                  <span>Analisar Parâmetros e Gerar Solução Técnica</span>
+                </button>
+              </div>
             </form>
           </div>
 
           {/* Diagnostic Result Card */}
-          <div className="lg:col-span-7 space-y-4">
+          <div className="space-y-4">
             {diagnosticResult ? (
-              <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-7 shadow-xs space-y-5 animate-fade-in">
+              <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-xs space-y-6 animate-fade-in">
                 {/* Result Header */}
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-4">
                   <div className="space-y-1">

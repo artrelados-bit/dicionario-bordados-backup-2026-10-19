@@ -29,6 +29,7 @@ export function analyzeEmbroideryProblem(
   const f = (fabricType || "").toLowerCase();
 
   const thread = detailedInputs?.threadType || "";
+  const bobbin = detailedInputs?.bobbinThread || "";
   const needleNum = detailedInputs?.needleNumber || "";
   const needleTip = detailedInputs?.needleTip || "";
   const stabType = detailedInputs?.stabilizerType || "";
@@ -44,6 +45,10 @@ export function analyzeEmbroideryProblem(
   const criticalAlerts: string[] = [];
 
   // Verificações Cruzadas Inteligentes de Incompatibilidade
+  if (bobbin.toLowerCase().includes("costura") || bobbin.toLowerCase().includes("grossa") || bobbin.toLowerCase().includes("pesada")) {
+    criticalAlerts.push("⚠️ Linha de Bobina Inadequada: O uso de linha comum de costura na bobina (muito grossa) desregula a tensão inferior e causa laçadas (ninhos) no avesso. Utilize linha especial de bobina nº 150/2 ou 120/2 fina.");
+  }
+
   if (thread.toLowerCase().includes("metálica") || thread.toLowerCase().includes("metalizada")) {
     if (speed.toLowerCase().includes("alta") || speed.toLowerCase().includes("700") || speed.toLowerCase().includes("800")) {
       criticalAlerts.push("⚠️ Incompatibilidade Crítica: Linha Metálica combinada com Alta Velocidade causa atrito excessivo, superaquecimento do olho da agulha e desfiamento constante.");
