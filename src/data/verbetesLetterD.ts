@@ -7165,5 +7165,409 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "ARTRELADOS. O Coração da Máquina: Como Evitar Folgas de Bucha e Manter Seu Cabeçote Novo por Décadas. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-16"
+  },
+  {
+    "id": "d-101-dobra-de-carneira-posicionamento-faixa-interna-bone",
+    "code": "D-101",
+    "term": "Dobra de Carneira / Posicionamento da Faixa Interna de Bonés e Viseiras (Sweatband Folding & In-Hoop Clearance)",
+    "level": "Iniciante 🟢",
+    "category": "Bastidores & Fixação",
+    "grammarClass": "Locução nominal feminina composta.",
+    "origin": "Do português arcaico carneira (tira de pele de carneiro macia antigamente costurada no interior de chapéus e elmos para absorção do suor). Na indústria contemporânea da chapelaria e do bordado, designa a faixa interna de sarja, espuma ou poliéster que reveste a borda inferior de bonés e viseiras.",
+    "summary": "Técnica operacional de rebater e imobilizar a faixa de absorção de suor para fora da zona de bordado, prevenindo que ela seja costurada ou prenda o calcador.",
+    "definition": "A Dobra de Carneira (também chamada de Rebatimento da Faixa de Suor ou Posicionamento de Sweatband) é uma manobra preparatória obrigatória de enquadramento executada antes do travamento de bonés, viseiras ou chapéus em bastidores cilíndricos industriais ou gabaritos planos de adaptação (como o suporte 13x18). Ela consiste em desdobrar manualmente a faixa de acabamento interno (carneira) de dentro para fora da copa, fixando-a esticada rente à aba rígida por meio de presilhas elásticas, fita adesiva ou garras do bastidor. O procedimento garante que a borda de junção entre a copa e a aba fique completamente desobstruída e plana sobre a entretela, evitando que o calcador da máquina prenda nas dobras da faixa ou que a agulha costure a carneira por trás do bordado frontal.",
+    "technicalDetails": "A carneira possui espessura média de 1,5 a 3,0 mm (frequentemente forrada com espuma sintética e fita de costura interna). Se não for rebatida para fora, a espessura total sob o calcador salta de 1,2 mm para mais de 4,5 mm na margem inferior do bordado, forçando o calcador a saltar desordenadamente e provocando quebra de agulha por impacto lateral. A margem de segurança recomendada entre a costura de dobra da carneira e a primeira linha de pontos do bordado frontal deve ser de no mínimo 12 mm a 15 mm.",
+    "construction": [
+      "Faixa têxtil de absorção com entretela interna flexível ou espuma de célula aberta",
+      "Costura em pesponto duplo (overloque + reta) que conecta a carneira à base da copa",
+      "Fita de retenção elástica ou presilhas de pressão laterais do bastidor de boné",
+      "Fita adesiva temporária (crepe ou micropore) para imobilização em gabaritos planos"
+    ],
+    "howItWorks": [
+      "1. A bordadeira segura o boné com as duas mãos e puxa toda a extensão da carneira frontal para fora da copa.",
+      "2. Alinha a dobra da carneira bem rente à base inferior da copa frontal, expondo a face interna do tecido frontal onde a entretela vai apoiar.",
+      "3. Encaixa o boné no suporte ou bastidor tubular, garantindo que a carneira fique prensada para baixo, junto com a aba rígida.",
+      "4. Passa uma tira de fita crepe unindo a carneira rebatida à aba ou prende nas garras metálicas de suporte do cabeçote.",
+      "5. Verifica com o dedo indicador por baixo do bastidor se não sobrou nenhuma dobra ou prega da carneira entrando na área onde a agulha vai descer.",
+      "6. Inicia o bordado com a certeza de que o avesso da copa está livre e limpo."
+    ],
+    "beginnerExplanation": "Todo boné tem por dentro aquela faixa de tecido fofinha que encosta na nossa testa para segurar o suor: essa é a carneira! O erro número um de quem começa a bordar boné é esquecer essa faixa lá dentro. Na hora que a máquina começa a bordar, a agulha costura o desenho atravessando a frente do boné e a carneira junto! Quando o cliente vai colocar o boné na cabeça, a faixa ficou presa na testa e o boné está estragado. A dobra de carneira é simplesmente puxar essa faixinha para fora antes de prender o boné, deixando o caminho livre para a agulha!",
+    "practicalExamples": [
+      "Preparação de 100 bonés promocionais modelo baseball com carneira acolchoada para bordado de logotipo em alta velocidade.",
+      "Bordado frontal em viseiras de corrida, onde a dobra de carneira é essencial para permitir que o tecido flexível fique esticado.",
+      "Bordado de brasão de segurança em boné militar com carneira de couro sintético reforçado.",
+      "Personalização de boné infantil onde a carneira fina precisa ser imobilizada com fita adesiva para não enrugar a copa."
+    ],
+    "matrixParametersRelation": [
+      "Limite Inferior de Borda (Bottom Margin Limit): A matriz deve manter pelo menos 15 mm de distância livre em relação à costura da carneira.",
+      "Ponto de Entrada Inicial: A sequência de pontos deve preferencialmente iniciar 20 mm acima da linha da carneira e expandir para baixo.",
+      "Direção de Ponto (Stitch Direction): Evitar pontos satin longos paralelos à dobra da carneira para não repuxar a costura de montagem do boné.",
+      "Compensação de Repuxo: Manter em 0,45 mm para neutralizar a resistência da costura inferior da copa."
+    ],
+    "commonMistakes": [
+      "❌ Deixar a carneira para dentro do boné, costurando a faixa junto com o desenho e inutilizando a peça.",
+      "❌ Dobrar a carneira torta, criando um calombo de tecido grosso de um dos lados que faz o calcador bater e entortar.",
+      "❌ Colocar a matriz muito perto da margem inferior, fazendo a agulha bater na costura grossa e reforçada da carneira.",
+      "❌ Usar alfinetes de cabeça grossa para segurar a carneira que podem colidir com o pé calcador da máquina."
+    ],
+    "troubleshootingTips": [
+      "A agulha bateu com um estalo seco na parte de baixo do boné: A matriz invadiu a costura da carneira; suba a posição do desenho no painel da máquina em pelo menos 10 mm e faça o traçado de área (Trace).",
+      "O bordado ficou repuxado perto da aba: A carneira não foi puxada por igual nas duas pontas e criou tensão no tecido; solte a presilha, puxe a carneira uniformemente e refaça a fixação.",
+      "O calcador prendeu e a máquina deu erro de motor: Uma ponta solta da carneira subiu durante o movimento do bastidor; fixe as extremidades laterais da faixa com um pedaço de fita crepe antes de dar a partida."
+    ],
+    "dicaArtrelados": "O 'Toque Mágico do Polegar da Artrelados': Antes de apertar as borboletas ou as garras do bastidor de boné, passe o seu polegar por dentro da curva inferior da copa empurrando a carneira para fora até sentir a costura de união bem firme e esticada contra o metal. Depois disso, dê duas batidinhas com a palma da mão na frente do boné: se a copa fizer um barulhinho seco e esticado como a pele de um tamborim, seu boné está na posição perfeita para um bordado de cinema!",
+    "voceSabia": "Nos primórdios dos chapéus Panamá e das cartolas no século XIX, a carneira era feita exclusivamente com tiras de pele de carneiro legítima (daí a origem da palavra 'carneira')! Ela servia não apenas para absorver o suor da fronte dos cavaleiros, mas também para evitar que os óleos naturais do cabelo e pomadas manchassem a palha fina e o feltro nobre do lado de fora!",
+    "practicalExercise": "Treino de Rebatimento em Boné Teste: Pegue um boné qualquer do seu ateliê. Desdobre a carneira para fora com as mãos, sinta a espessura da costura de união com a ponta dos dedos e prenda a faixa rebatida contra a aba com uma fita crepe. Coloque no bastidor e observe como a área da frente fica limpa, lisa e sem nenhum relevo por trás. Esse gesto de 10 segundos economiza centenas de reais em peças perdidas!",
+    "quickSummary": "Procedimento obrigatório de virar a faixa interna de suor do boné para fora da copa antes de bordar, impedindo que ela seja costurada junto ou trave o calcador.",
+    "relatedTerms": [
+      "Bastidor de Boné 13x18 / Suporte Adaptador com Presilha de Aba (Gabarito AGB para Máquinas de 1 Agulha)",
+      "Dispositivo Adaptador de Boné com Fixador Borboleta (Gabarito Mecânico para Bastidor Plano 13x18)",
+      "Bastidor Tubular para Boné (Cap Frame System)",
+      "Traçado de Área e Checagem de Limite de Bastidor (Design Trace Function)",
+      "Pé Calcador Flutuante (Floating Presser Foot)"
+    ],
+    "tags": [
+      "d-101",
+      "dobra-carneira",
+      "carneira-bone",
+      "sweatband",
+      "bastidor-bone",
+      "bone-personalizado",
+      "fixacao-bone",
+      "faixa-suor",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "HEADWEAR PROFESSIONALS. Cap Embroidery and Hooping Guide: Handling Sweatbands and Structured Crowns. London: HP, 2022.",
+      "BROTHER INDUSTRIES. Cap Frame Setup & Sweatband Clearance Procedures. Nagoya: Brother, 2023.",
+      "TAJIMA EMBROIDERY SYSTEMS. Cap Driver Operation & Hooping Gauge Adjustments. Nagoya: Tajima, 2021.",
+      "ARTRELADOS. O Segredo do Boné Impecável: Como Dobrar a Carneira e Alinhar a Copa sem Erros. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-16"
+  },
+  {
+    "id": "d-102-divisao-automatica-elementos-grandes-quebra-bastidor",
+    "code": "D-102",
+    "term": "Divisão Automática de Elementos Grandes / Quebra de Bastidor (Design Splitting & Multi-Position Hooping)",
+    "level": "Avançado 🔴",
+    "category": "Programação & Software",
+    "grammarClass": "Locução nominal feminina composta.",
+    "origin": "Do latim divisio (separação em partes) e do inglês splitting (fatiamento estruturado). Na história do bordado computadorizado doméstico, a técnica surgiu no final da década de 1990 para contornar a limitação de bastidores pequenos (como 10x10 cm e 13x18 cm), permitindo bordar desenhos gigantescos de costas de jaquetas e toalhas.",
+    "summary": "Técnica de software que fatia uma matriz maior que o bastidor em duas ou mais partes perfeitamente alinhadas por cruzes de registro ou bastidores de múltiplos estágios.",
+    "definition": "A Divisão Automática de Elementos Grandes (conhecida internacionalmente como Design Splitting, Matriz Dividida ou Quebra de Bastidor para Múltiplas Posições) é um recurso algorítmico presente em softwares avançados de digitalização (como Wilcom EmbroideryStudio, Embird com módulo Sfumato/Plus, Pe-Design Layout & Editing e Bernina Designer) que permite particionar uma matriz de bordado cujas dimensões totais excedem a área máxima do bastidor da máquina. O software realiza o seccionamento limpo dos blocos de pontos respeitando as bordas naturais de cores e costuras, gera arquivos sequenciais independentes (Parte 1, Parte 2, etc.) e insere marcadores de alinhamento milimétrico (cruzes de registro ou bastidores multi-posicionais de 2 ou 3 estágios) para que o encaixe final no tecido fique 100% invisível.",
+    "technicalDetails": "A divisão não deve cortar colunas satin estreitas perpendicularmente, sob pena de deixar dentes ou vãos visíveis na junção. A linha de corte ideal aproveita linhas naturais de contorno ou sobreposições de cores com tolerância de encaixe (overlap) de 0,8 mm a 1,2 mm. As cruzes de alinhamento são programadas em ponto corrido de alta precisão nos cantos do bastidor; o operador utiliza uma agulha sem linha ou o apontador laser da máquina para fazer a agulha descer exatamente no centro da cruz do estágio anterior antes de iniciar o segundo bloco.",
+    "construction": [
+      "Algoritmo de cálculo perimetral de bastidor com zonas de transição seguras",
+      "Marcadores de referência geométrica (cruzes de registro 'Crosshairs' de 10x10 mm)",
+      "Camada de sobreposição calculada (Overlap Layer) para absorver o repuxo do tecido entre estágios",
+      "Geração de arquivos separados com nomes indexados (ex: Matriz_Pt1.pes e Matriz_Pt2.pes)"
+    ],
+    "howItWorks": [
+      "1. No software, o digitalizador abre o desenho de grande formato (por exemplo, 20x30 cm) e seleciona o bastidor disponível (por exemplo, bastidor multi-posição 13x18 cm com estágios A, B e C).",
+      "2. O software calcula a divisão e sugere a linha de corte mais suave, evitando partir rostos, monogramas ou letras ao meio.",
+      "3. O programador confere os pontos de costura e insere as cruzes de registro no final da Parte 1 e no início da Parte 2.",
+      "4. No ateliê, a bordadeira prende o tecido no bastidor multi-posicional na posição 1 e borda a primeira etapa, finalizando com as cruzes de alinhamento.",
+      "5. Sem desempinar o tecido, desencaixa o bastidor da haste da máquina e move para a posição 2 (ou reenquadra o tecido alinhando a agulha na cruz com precisão).",
+      "6. Inicia a Parte 2: a emenda se conecta perfeitamente, criando uma peça monumental contínua sem nenhuma emenda visível."
+    ],
+    "beginnerExplanation": "Imagine que você quer bordar uma toalha de banho com um ramo de flores lindo de 30 centímetros de comprimento, mas o maior bastidor da sua máquina só mede 18 centímetros. O que fazer? Você usa a divisão de matriz! O programa fatia o desenho em dois pedaços de um jeito tão perfeito que borda a primeira metade e faz um 'X' pequenininho no final. Depois você move o bastidor, coloca a agulha bem em cima desse 'X' e a máquina borda a segunda metade. Quando tira da máquina, ninguém no mundo diz que o bordado foi feito em duas vezes!",
+    "practicalExamples": [
+      "Bordado de costas inteiras de jaqueta jeans (25x35 cm) dividido em duas etapas de bastidor 16x26 cm com emenda invisível sob o contorno preto.",
+      "Personalização de barrado contínuo de lençol de casal com 6 estágios repetitivos utilizando bastidor de encaixe contínuo (Border Hoop).",
+      "Bordado de nome comprido de 28 cm em toalha de banho utilizando bastidor multi-posição de 3 estágios da Brother.",
+      "Divisão de brasão eclesiástico complexo com fios metálicos em três etapas com tolerância de repuxo de 1,0 mm."
+    ],
+    "matrixParametersRelation": [
+      "Tolerância de Sobreposição (Overlap Margins): Deve ser calibrada entre 0,8 mm e 1,2 mm para cobrir qualquer leve contração elástica do tecido entre uma etapa e outra.",
+      "Sequência de Cores Otimizada: As cores idênticas da área de divisão devem ser agrupadas para evitar trocas desnecessárias de cone de linha.",
+      "Densidade na Zona de Emenda: Reduzida em 15% na borda de transição para evitar a formação de um cordão grosso e endurecido no tecido.",
+      "Cruzes de Registro (Registration Marks): Ponto corrido com comprimento de 2,0 mm bordado com cor contrastante para facilitar a visualização pelo operador."
+    ],
+    "commonMistakes": [
+      "❌ Fatiar a matriz bem no meio de uma letra fina ou no meio do rosto de uma pessoa, criando um desnível grotesco caso ocorra 0,5 mm de erro no alinhamento.",
+      "❌ Esquecer de programar a sobreposição de segurança (Overlap), deixando uma fenda branca entre a parte 1 e a parte 2 após o tecido relaxar.",
+      "❌ Desprender o tecido do bastidor puxando pelas pontas ao mudar de estágio, deformando a trama do tecido antes de bordar a segunda metade.",
+      "❌ Fazer a divisão sem verificar se a máquina suporta o formato correto de múltiplos estágios (como arquivos JEF ou PES de multi-agulha)."
+    ],
+    "troubleshootingTips": [
+      "Ficou um vão em branco de 1 mm entre a primeira e a segunda parte do bordado: O tecido repuxou durante a primeira etapa e a sobreposição foi nula; reprograme a divisão no software adicionando 1,2 mm de sobreposição nas bordas da emenda.",
+      "A emenda ficou com um calombo duro e grosseiro: Os pontos da parte 1 e da parte 2 foram sobrepostos com 100% de densidade; reduza a densidade na área de transição para que os pontos se entrelacem de forma suave.",
+      "A segunda parte começou torta em relação à primeira: A agulha não foi centralizada com exatidão matemática sobre o centro da cruz de registro; use o volante manual da máquina para descer a ponta da agulha no centro milimétrico do furo da cruz antes de apertar o start."
+    ],
+    "dicaArtrelados": "O 'Segredo da Linha Solúvel na Cruz de Registro da Artrelados': Quando for bordar as cruzes de alinhamento entre as partes da matriz dividida, use linha comum contrastante mas com ponto bem largo, ou use uma canetinha fantasminha que apaga com o ferro! E na hora de alinhar a parte 2, use a 'Técnica da Agulha Desce-Devagar': gire o volante com a mão até a ponta da agulha encostar exatamente no centro do 'X' da marcação. Quando você sentir que a ponta entrou no buraquinho exato, aperte o travamento do bastidor. O casamento das duas metades fica tão perfeito que parece mágica!",
+    "voceSabia": "A técnica de divisão de matrizes começou na verdade nas tapeçarias da Idade Média! Os artesãos franceses da manufatura Gobelins dividiam tapeçarias gigantescas de 10 metros de altura em vários teares menores paralelos. Cada tecelão tecia a sua parte com marcas guias nas bordas, e depois os mestres cerziam as emendas fio a fio com agulhas de osso de forma tão perfeita que parecia uma única peça contínua!",
+    "practicalExercise": "Exercício de Divisão em Régua no Software: Abra seu software de matrizes e crie um retângulo simples com preenchimento tatami medindo 10x24 cm. Ative a ferramenta de dividir bastidor (Split Design) simulando dois bastidores 10x13 cm. Configure 1 mm de sobreposição e gere as cruzes de registro. Borde a parte 1 em um retalho de tecido firme, troque para o estágio 2 alinhando a agulha no 'X' e execute a parte 2. Passe a mão sobre a emenda: se ela estiver invisível e suave ao toque, você dominou a técnica dos gigantes!",
+    "quickSummary": "Recurso de programação que fatia matrizes grandes em arquivos sequenciais para bastidores menores, conectando as etapas por cruzes de registro e sobreposição calculada.",
+    "relatedTerms": [
+      "Bastidor de Múltiplos Estágios (Multi-Position Hooping)",
+      "Cruzes de Registro e Marcação de Encaixe (Registration Marks / Crosshairs)",
+      "Sobreposição de Segurança (Overlap Allowance)",
+      "Alinhamento Pantográfico e Origem de Desenho",
+      "Compensação de Encolhimento (Pull Compensation)"
+    ],
+    "tags": [
+      "d-102",
+      "divisao-matriz",
+      "quebra-bastidor",
+      "design-splitting",
+      "matriz-dividida",
+      "bastidor-multi-posicao",
+      "grandes-formatos",
+      "emenda-invisivel",
+      "programacao-matriz",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "WILCOM INTERNATIONAL. Advanced Multi-Hooping and Design Splitting Techniques. Sydney: Wilcom, 2023.",
+      "EMBIRD SOFTWARE. Embird Sfumato & Editor: Splitting Large Designs with Alignment Marks. Košice: Balarad, 2022.",
+      "BROTHER INDUSTRIES. Multi-Position Frame (130x300mm) Operation & Stitch Splitting Guide. Nagoya: Brother, 2021.",
+      "ARTRELADOS. Bordados Gigantes em Bastidores Comuns: O Guia Definitivo da Matriz Dividida sem Emendas. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-16"
+  },
+  {
+    "id": "d-103-dureza-shore-do-calcador-amortecimento-impacto",
+    "code": "D-103",
+    "term": "Dureza Shore do Calcador e da Base / Amortecimento de Impacto (Presser Foot Durometer & Damping Resilience)",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução nominal feminina composta.",
+    "origin": "Em homenagem a Albert Ferdinand Shore (1876–1936), cientista e inventor norte-americano que criou a Escala de Dureza Shore para medir a resiliência elástica de elastômeros e polímeros. Na engenharia do bordado industrial, aplica-se às sapatilhas de calcador com inserções de poliuretano e amortecedores mecânicos de choque.",
+    "summary": "Propriedade física do material da base do calcador e das molas de amortecimento que absorve o choque mecânico e previne o esmagamento de tecidos sensíveis.",
+    "definition": "A Dureza Shore do Calcador e da Base (geralmente medida nas escalas Shore A para elastômeros flexíveis e Shore D para polímeros rígidos de engenharia) é a especificação reológica que quantifica a resistência à indentação e a capacidade de amortecimento dinâmico da sapatilha do pé calcador e de seus anéis de retenção. Durante a formação do ponto em velocidades de 600 a 1.200 PPM, o calcador desce e impacta o tecido mil vezes por minuto para imobilizá-lo contra a chapa de agulha no milissegundo em que a agulha sobe (evitando o salto ou 'flagging' do tecido). Calcadores tradicionais em aço temperado possuem dureza muito elevada, o que pode marcar irremediavelmente veludos, couros macios e sedas; já calcadores e anéis com dureza Shore A calibrada (entre 70A e 90A) ou revestimentos de poliacetal (POM) absorvem o impacto acústico, reduzem a vibração e garantem compressão sem marcas de esmagamento.",
+    "technicalDetails": "A energia de impacto de um calcador metálico a 1.000 PPM equivale a uma força de pulso de 15 a 25 N por batida. Com anéis amortecedores de poliuretano com dureza 80 Shore A instalados no topo da barra do calcador, o pico de desaceleração mecânica é reduzido em até 40%, diminuindo o ruído característico de 'martelamento' e o aquecimento por atrito. Para bordados em couro legítimo e camurça, utilizam-se bases de calcador intercambiáveis em Teflon ou silicone de 85 Shore A, com coeficiente de atrito inferior a 0,1, impedindo que a pele seja arrastada lateralmente durante os deslocamentos do pantógrafo.",
+    "construction": [
+      "Haste de acionamento em aço cromo temperado retificado",
+      "Mola de compressão helicoidal calibrada para pressão dinâmica de 1,2 a 1,8 kgf",
+      "Base de contato com inserto polimérico de dureza Shore 75A a 90A ou Teflon industrial",
+      "Anel amortecedor de impacto em elastômero sintético no batente superior da barra"
+    ],
+    "howItWorks": [
+      "1. A máquina aciona o excêntrico do calcador sincronizado com a barra de agulha.",
+      "2. Quando a agulha atinge o ponto morto inferior e começa a subir, o calcador atinge o tecido com velocidade controlada.",
+      "3. A resiliência elástica do material de dureza Shore controlada absorve o choque primário de impacto, sem rebote (bounce).",
+      "4. O calcador mantém o tecido estático e colado na chapa de agulha durante a formação da laçada da linha superior.",
+      "5. Assim que a laçada é capturada pela ponta da lançadeira, o calcador sobe 1,0 a 1,5 mm acima do tecido.",
+      "6. O pantógrafo move o bastidor para o próximo ponto sem que a base do calcador deixe qualquer marca permanente de vinco ou esmagamento na fibra têxtil."
+    ],
+    "beginnerExplanation": "O pezinho calcador da máquina parece uma coisinha simples, mas ele 'martela' o tecido centenas de vezes por minuto! Se esse pezinho for de metal duro comum e bater direto em um tecido fofinho como veludo, couro ou cetim, ele vai deixar marcas fundas e esmagadas que parecem queimaduras de ferro de passar. A dureza Shore é a medida de quão 'macio e elástico' é o material do pé calcador ou dos seus amortecedores: calcadores especiais com pezinho de teflon ou amortecedor de silicone absorvem a pancada suavemente, seguram o tecido firme sem machucar e ainda deixam a máquina muito mais silenciosa!",
+    "practicalExamples": [
+      "Bordado de logotipo em jaqueta de couro legítimo macio utilizando calcador com base de teflon para não riscar a flor do couro.",
+      "Personalização de toalhas aveludadas de alto luxo onde o amortecedor de calcador previne que o pelo seja amassado em volta do bordado.",
+      "Operação de bordadeira multi-cabeças em velocidade de 1.000 PPM com redução drástica do ruído mecânico no galpão.",
+      "Bordado em organza de seda transparente com calcador de silicone macio para evitar que a agulha empurre o tecido delicado para dentro do furo da chapa."
+    ],
+    "matrixParametersRelation": [
+      "Altura do Pé Calcador (Presser Foot Height): Ajustada em milímetros conforme a espessura do material comprimido; folga recomendada de 0,5 a 1,0 mm acima do tecido estático.",
+      "Densidade de Ponto: Em tecidos com calcador de absorção macia, a densidade pode ser refinada em 0,38 mm sem risco de corte por esmagamento.",
+      "Velocidade Operacional (PPM): Permite manter altas velocidades (acima de 850 PPM) em materiais delicados sem gerar vibração harmônica.",
+      "Tipo de Ponto de Amarração: Permite pontos de nó mais suaves sem criar nós volumosos na face superior da peça."
+    ],
+    "commonMistakes": [
+      "❌ Regular a altura do calcador muito baixa em tecidos grossos, fazendo o pé martelar com força destrutiva e esmagar as fibras.",
+      "❌ Deixar as sapatilhas de calcador com rebarbas ou arranhões metálicos, rasgando o tecido a cada descida.",
+      "❌ Ignorar o ressecamento das borrachas amortecedoras internas da máquina após anos de uso, permitindo batidas secas de metal com metal.",
+      "❌ Usar calcador padrão de metal em couro liso sem lubrificação ou fita protetora, arrastando e esticando o couro a cada salto de bastidor."
+    ],
+    "troubleshootingTips": [
+      "Ficou uma marca brilhante e redonda ao redor de todo o bordado no tecido escuro: O calcador está muito baixo e esmagou o pelo do tecido; suba a altura do calcador em 1 mm no parafuso de regulagem manual ou no painel da máquina e use vapor para restaurar as fibras.",
+      "O tecido está pulando para cima junto com a agulha ('flagging') e pulando pontos: O calcador está alto demais ou a mola perdeu pressão; abaixe o calcador para que ele encoste suavemente no tecido no momento em que a agulha perfura a entretela.",
+      "A máquina está fazendo um barulho de estalo metálico muito alto a cada ponto: O anel amortecedor superior da barra de calcador está partido ou ressecado; faça a substituição da borracha de amortecimento junto à assistência técnica."
+    ],
+    "dicaArtrelados": "O 'Pulo do Gato da Fita de Teflon da Artrelados': Se você precisa bordar um material ultra delicado (como couro macio, vinil ou tecido aveludado) e a sua máquina só tem o calcador original de ferro comum, corte um quadradinho de fita isolante de teflon ou fita crepe de alta qualidade e cole na sola de baixo do pezinho calcador, deixando apenas o furinho da agulha livre! Essa fina camada age como um amortecedor de impacto caseiro e faz o calcador deslizar suave como manteiga, sem deixar nem uma sombra de marca no tecido do seu cliente!",
+    "voceSabia": "A escala Shore foi criada em 1907 e é a mesma escala científica usada pela NASA para testar a borracha dos pneus das naves espaciais e pelos fabricantes de tênis de corrida para calcular o amortecimento dos sapatos de maratonistas olímpicos! No bordado computadorizado moderno, a física da absorção de impacto do calcador é o que separa um bordado com aspecto artesanal amassado de um bordado de alta costura impecável!",
+    "practicalExercise": "Aferição de Altura e Amortecimento do Calcador: Pegue uma folha de papel dobrada em quatro partes e coloque sob o calcador da sua máquina. Gire o volante na mão até a agulha descer no ponto mais baixo e começar a subir 2 mm (momento de laçada). Tente puxar a folha de papel: ela deve deslizar com uma leve resistência, mas sem rasgar! Se o papel estiver completamente prensado e rasgar, seu calcador está exercendo força excessiva; regule a altura e sinta a diferença no toque!",
+    "quickSummary": "Medida de resiliência e amortecimento da sapatilha do calcador que evita o martelamento destrutivo e marcas de esmagamento em tecidos sensíveis.",
+    "relatedTerms": [
+      "Pé Calcador Flutuante (Floating Presser Foot)",
+      "Altura e Regulagem do Calcador (Presser Foot Clearance)",
+      "Flagging / Efeito Bandeira (Fabric Flagging Movement)",
+      "Lubrificação e Manutenção Preventiva da Máquina",
+      "Agulha de Bordado Computadorizado"
+    ],
+    "tags": [
+      "d-103",
+      "dureza-shore",
+      "pe-calcador",
+      "amortecimento",
+      "calcador-teflon",
+      "esmagamento-tecido",
+      "flagging",
+      "mecanica-bordado",
+      "couro",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "AMERICAN SOCIETY FOR TESTING AND MATERIALS. ASTM D2240: Standard Test Method for Rubber Property — Durometer Hardness. West Conshohocken: ASTM, 2021.",
+      "TAJIMA GROUP. Presser Foot Stroke Dynamics and Noise Suppression Manual. Nagoya: Tajima, 2022.",
+      "BROTHER INDUSTRIES. Service Manual: Presser Foot Height Adjustment & Cushion Mechanisms. Nagoya: Brother, 2022.",
+      "ARTRELADOS. O Toque Invisível do Calcador: Como Regular a Pressão e Evitar Marcas em Couros e Veludos. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-16"
+  },
+  {
+    "id": "d-104-distorcao-optica-por-iluminacao-de-bancada",
+    "code": "D-104",
+    "term": "Distorção Óptica por Iluminação de Bancada / Sombra na Chapa de Agulha (Workstation Illumination & Optical Distortion)",
+    "level": "Iniciante 🟢",
+    "category": "Operação & Manuseio",
+    "grammarClass": "Locução nominal feminina composta.",
+    "origin": "Do latim distortio (desvio perceptivo) e do grego optikos (referente à visão e à luz). Na ergonomia industrial aplicada a ateliês têxteis, refere-se aos erros de julgamento visual de alinhamento e tom cromático induzidos por fontes de luz pontuais inadequadas sobre a área de trabalho da máquina.",
+    "summary": "Erro de percepção visual no enquadramento e na escolha de cores das linhas provocado por lâmpadas com sombras duras, baixo IRC ou temperatura de cor incorreta.",
+    "definition": "A Distorção Óptica por Iluminação de Bancada é uma anomalia perceptiva e ergonômica que induz a bordadeira ou o operador a cometer erros de alinhamento geométrico, centralização de bastidor e correspondência cromática de linhas devido à iluminação inadequada no posto de trabalho. Ocorre principalmente pelo uso de lâmpadas com sombras projetadas rígidas (luz pontual que projeta a sombra da barra de agulha e do calcador diretamente sobre o furo da chapa), lâmpadas incandescentes ou fluorescentes amareladas com baixo Índice de Reprodução de Cor (IRC < 80) e efeito estroboscópico de lâmpadas de baixa frequência. A distorção faz linhas azuis parecerem pretas, brancos parecerem amarelados e cria uma falsa ilusão de paralelismo ao alinhar réguas no bastidor.",
+    "technicalDetails": "A iluminação ideal para bancadas de bordado computadorizado exige nível de iluminamento entre 750 e 1.000 lux diretamente na zona da agulha. A temperatura de cor recomendada é a luz neutra balanceada para o dia (Daylight Balance entre 5.000 K e 5.500 K), com IRC superior a 90 (CRI > 90 Ra) para fidelidade de catálogo Pantone de linhas. Recomenda-se luminárias com difusor leitoso e tecnologia LED 'flicker-free' (livre de cintilação de alta frequência) instaladas em ângulo de 45° em relação ao braço livre da máquina para eliminar sombras de oclusão.",
+    "construction": [
+      "Fita de LED flexível de alta densidade (120 leds/metro) com difusor acrílico leitoso",
+      "Luminária articulada com filtro difusor antirreflexo e ajuste de foco amplo",
+      "Fonte de alimentação estabilizada em corrente contínua (DC) para eliminação de cintilação",
+      "Mesa de corte e enquadramento com iluminação difusa superior contínua"
+    ],
+    "howItWorks": [
+      "1. A luz difusa e homogênea envolve a área da chapa de agulha por todos os lados simultaneamente.",
+      "2. Ao posicionar a régua ou gabarito sobre o tecido no bastidor, nenhuma sombra dura é projetada sob a lâmina da régua, garantindo leitura milimétrica precisa.",
+      "3. As cores reais dos cones de linha de poliéster ou viscose são visualizadas sem desvio de matiz, permitindo conferência fiel com a tabela do cliente.",
+      "4. O operador enxerga com nitidez absoluta o momento em que a linha passa pelo olho da agulha, reduzindo a fadiga ocular em 80%.",
+      "5. Durante a costura em alta rotação, a luz sem cintilação permite inspecionar a formação dos pontos sem sensação de tontura visual."
+    ],
+    "beginnerExplanation": "Você já passou pela situação de bordar um nome achando que ele estava 100% retinho na camiseta e, quando levou a peça para a luz do sol, percebeu que o bordado estava todo torto? Ou de escolher um cone de linha achando que era azul marinho e descobrir na luz do dia que era roxo? Isso não é falta de habilidade: é a luz ruim da sua bancada enganando seus olhos! Lâmpadas amareladas ou aquele pontinho de luz fraco que vem de um lado só criam sombras escuras que fazem tudo parecer torto. Ter uma luz branca e uniforme bem em cima da máquina é como colocar óculos de grau novo: muda tudo!",
+    "practicalExamples": [
+      "Alinhamento perfeito de monograma em bolso de camisa social utilizando fita de LED difusa instalada no vão do braço da máquina.",
+      "Conferência exata de cor entre a linha de bordado e o tecido de fundo para logotipo corporativo rigoroso de manual de marca.",
+      "Passagem rápida de linha no olho da agulha 65/9 sem esforço visual em ambiente com 900 lux de iluminamento.",
+      "Eliminação de dores de cabeça e fadiga ocular ao final de uma jornada de produção de 8 horas no ateliê."
+    ],
+    "matrixParametersRelation": [
+      "Ponto de Origem da Matriz (Design Origin / Center Point): A iluminação sem sombras permite zerar a agulha na marcação de giz com precisão de 0,1 mm.",
+      "Conferência de Densidade e Cobertura: Permite enxergar falhas sutis de cobertura e fios brancos de underlay antes de retirar a peça do bastidor.",
+      "Alinhamento de Cruz de Registro: Essencial para enxergar o ponto exato da agulha em matrizes divididas de grandes formatos.",
+      "Detecção de Ponto Pulado: Permite identificar laçadas perdidas nos primeiros segundos de costura para interromper a máquina imediatamente."
+    ],
+    "commonMistakes": [
+      "❌ Trabalhar com lâmpadas incandescentes amarelas (2.700 K), que distorcem totalmente a percepção de cores frias e tons pastéis.",
+      "❌ Usar luminária articulada com lâmpada dicróica forte de foco fechado, criando um ponto quente ofuscante cercado de sombras pretas.",
+      "❌ Confiar na luz fraquinha original embutida em máquinas antigas, forçando a visão e errando o centro do bastidor.",
+      "❌ Posicionar a fonte de luz atrás do operador, projetando a própria sombra do corpo da bordadeira sobre o bastidor."
+    ],
+    "troubleshootingTips": [
+      "O bordado parecia marinho no ateliê mas o cliente reclamou que ficou quase preto: A iluminação do ateliê é deficiente e com baixo índice de cor; faça a checagem dos cones de linha perto de uma janela com luz natural ou instale lâmpadas LED com IRC acima de 90.",
+      "Você sempre alinha o gabarito no bastidor mas ele fica meio centímetro deslocado: A lâmpada lateral cria uma sombra espessa na borda da régua que você interpreta como sendo a linha do tecido; adicione uma luz frontal difusa para apagar a sombra.",
+      "Sensação de vista cansada, ardência nos olhos e dor de cabeça após bordar: A lâmpada de bancada possui frequência com cintilação invisível (flicker); troque a lâmpada por um modelo LED de corrente contínua certificado sem oscilação."
+    ],
+    "dicaArtrelados": "O 'Segredo da Fita LED no Braço da Artrelados': Uma das melhores reformas que você pode fazer no seu ateliê gastando menos de trinta reais: compre um pedaço de fita de LED adesiva branca fria (5.000 K a 6.000 K) e cole por baixo do braço superior da sua máquina de bordar, bem no vão livre acima do bastidor! Ligue em uma fontezinha USB. Aquela área que sempre ficava escura e cheia de sombras vira um palco iluminado de teatro! Você vai enxergar cada fiozinho com tanta clareza que nunca mais vai errar uma centralização!",
+    "voceSabia": "A exigência de iluminação padrão com 5.500 Kelvin (a famosa luz D55) foi padronizada na década de 1930 pela Comissão Internacional de Iluminação (CIE) em Paris! Essa luz foi definida como o padrão mundial de verdade absoluta porque reproduz com perfeição científica a luz pura do sol ao meio-dia em um dia de primavera!",
+    "practicalExercise": "Teste de Alinhamento de Sombra com Régua: Coloque uma régua comum transparente sobre o bastidor embaixo da luz atual da sua bancada. Olhe de cima: você vê uma sombra preta projetada para o lado dos números? Agora coloque a lanterna do seu celular do lado oposto para anular a sombra: veja como a leitura da medida muda instantaneamente de posição! Esse teste simples revela o quanto as sombras influenciam no alinhamento das suas matrizes!",
+    "quickSummary": "Fenômeno de erro visual causado por sombras duras e luzes amareladas no ateliê, provocando desalinhamento de bastidores e confusão na escolha das cores de linha.",
+    "relatedTerms": [
+      "Origem de Desenho e Ponto Zero de Bastidor (Start Point & Machine Origin)",
+      "Traçado de Área e Checagem de Limite de Bastidor (Design Trace Function)",
+      "Ergonomia do Ateliê e Bancada de Trabalho",
+      "Tabela de Cores Pantone e Conversão de Linhas de Bordado",
+      "Cruzes de Registro e Marcação de Encaixe (Registration Marks / Crosshairs)"
+    ],
+    "tags": [
+      "d-104",
+      "distorcao-optica",
+      "iluminacao-bancada",
+      "luz-led",
+      "sombras-bastidor",
+      "ergonomia-atelie",
+      "cores-pantone",
+      "alinhamento-visual",
+      "operacao-bordado",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "COMMISSION INTERNATIONALE DE L'ÉCLAIRAGE. CIE 015: Colorimetry and Standard Illuminants. Vienna: CIE, 2021.",
+      "OCCUPATIONAL SAFETY AND HEALTH ADMINISTRATION. Industrial Lighting Standards in Apparel & Textile Manufacturing. Washington: OSHA, 2022.",
+      "TAJIMA EMBROIDERY SYSTEMS. Ergonomic Workstation & Lighting Setup for Embroidery Operators. Nagoya: Tajima, 2022.",
+      "ARTRELADOS. Luz Perfeita, Ponto Perfeito: Como Iluminar sua Máquina e Nunca Mais Errar Cores e Centros. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-16"
+  },
+  {
+    "id": "d-105-desvio-de-ponta-de-agulha-deflexao-em-costuras",
+    "code": "D-105",
+    "term": "Desvio de Ponta de Agulha / Deflexão em Costuras Grossas (Needle Point Deflection & Structural Bending)",
+    "level": "Intermediário 🟡",
+    "category": "Agulhas & Desempenho",
+    "grammarClass": "Locução nominal masculina composta.",
+    "origin": "Do latim deflectere (desviar-se de uma linha reta) e acus (agulha). Na dinâmica de penetração têxtil de alta velocidade, descreve a curvatura elástica temporária da haste da agulha provocada por resistências assimétricas na superfície do tecido.",
+    "summary": "Envergadura temporária da haste da agulha provocada pelo impacto contra emendas e costuras grossas, causando colisão com a lançadeira ou quebra na chapa.",
+    "definition": "O Desvio de Ponta de Agulha (tecnicamente denominado Deflexão da Agulha ou Needle Bending/Deflection) é um fenômeno dinâmico no qual a haste da agulha se curva elasticamente para fora do seu eixo retilíneo vertical durante o curso descendente de perfuração. Ocorre com frequência extrema quando a agulha atinge áreas com transição súbita de espessura — como a costura central de bonés, emendas de bolsos de calças jeans, dobras de golas, viés de reforço ou sobreposição densa de pontos anteriores. Ao atingir o degrau inclinado da costura espessa, a ponta da agulha é forçada lateralmente; esse desvio de meros décimos de milímetro faz com que a cava da agulha colida violentamente com a ponta da lançadeira rotativa ou atinja a borda do orifício da chapa de agulha, provocando estalos metálicos, desfiamento de linha, salto de pontos e quebra instantânea da agulha.",
+    "technicalDetails": "A haste da agulha convencional possui flexibilidade elástica inversamente proporcional ao cubo do seu diâmetro (uma agulha 90/14 possui rigidez quase duas vezes maior que uma agulha 75/11). Em velocidades acima de 700 PPM, uma deflexão de apenas 0,15 mm é suficiente para provocar contato direto com a ponta da laçadeira (cuja folga de ajuste padrão é de 0,05 a 0,10 mm). Para prevenir a deflexão catastrófica, utilizam-se agulhas de alta rigidez estrutural com haste cônica reforçada (como a tecnologia Schmetz SERV 7 ou Groz-Beckert GEBEDUR com geometria de reforço de ombro), associadas à redução transitória da velocidade da máquina para 400-500 PPM.",
+    "construction": [
+      "Cabo de fixação cilíndrico com chanfro plano de posicionamento correto",
+      "Ombro com conicidade progressiva reforçada (tecnologia anti-deflexão)",
+      "Lâmina com reforço estrutural de seção transversal otimizada",
+      "Cava profunda com ranhura de alívio para passagem livre da ponta da lançadeira",
+      "Ponta com geometria específica (Ponta Bola Leve SES ou Ponta Lança Cortante conforme o material)"
+    ],
+    "howItWorks": [
+      "1. A máquina move o bastidor e posiciona a costura grossa de jeans ou sarja exatamente sob a descida da agulha.",
+      "2. A agulha desce a 800 PPM; sua ponta atinge a quina inclinada da costura de quatro camadas de tecido.",
+      "3. A assimetria da força de reação mecânica empurra a ponta da agulha lateralmente em direção à esquerda ou para trás.",
+      "4. Em uma agulha comum flexível, ela enverga e a ponta raspa na chapa de agulha ou a cava bate de frente com a laçadeira.",
+      "5. Em uma agulha com haste reforçada anti-deflexão (SERV 7), a rigidez do aço absorve o impacto sem desviar o curso vertical.",
+      "6. A agulha entra perfeitamente reta no furo da chapa, forma a laçada no tempo certo e a máquina continua costurando sem falhar nem quebrar."
+    ],
+    "beginnerExplanation": "Já reparou que a agulha da sua máquina quebra quase sempre no mesmo lugar? É quase sempre quando ela passa por cima daquela emenda grossa do jeans, do meio do boné ou do cantinho do zíper! Por que isso acontece? Imagine tentar espetar um garfo com força bem na quina de uma pedra lisa: o garfo escorrega de lado e entorta, certo? É exatamente o que acontece com a agulha: quando bate de quina naquela camada grossa de costura, ela entorta no ar por uma fração de segundo e bate na lataria da máquina com um estalo que assusta qualquer uma! Usar uma agulha mais grossa e passar devagarzinho pela emenda é o segredo para nunca mais quebrar agulha ali!",
+    "practicalExamples": [
+      "Bordado de logotipo no bolso traseiro de calça jeans pesada passando exatamente por cima da costura de união dupla.",
+      "Bordado frontal na costura central de boné estruturado sem nenhuma quebra de agulha ao utilizar agulha Groz-Beckert 90/14 reforçada.",
+      "Bordado de brasão de kimono de artes marciais (tecido trançado de alta gramatura com emenda de lapela).",
+      "Aplicação de monograma em alça de mochila de lona sintética pesada com velocidade reduzida a 450 PPM."
+    ],
+    "matrixParametersRelation": [
+      "Velocidade em Zonas Críticas: O software de programação pode programar um comando de redução de velocidade (Speed Drop) para 450 PPM no trecho da emenda grossa.",
+      "Densidade de Pontos sobre Costuras: Deve ser reduzida em 20% sobre emendas para não acumular uma montanha de pontos perfurando a mesma quina dura.",
+      "Comprimento Mínimo de Ponto (Minimum Stitch Length): Nunca permitir pontos menores que 1,8 mm sobre costuras grossas para evitar golpes contínuos no mesmo ponto.",
+      "Direção de Ponto: O ponto deve preferencialmente cruzar a emenda em ângulo perpendicular (90 graus) em vez de correr paralelo ao degrau da costura."
+    ],
+    "commonMistakes": [
+      "❌ Insistir em bordar jeans pesado ou costura de boné com agulha fina 70/10 ou 75/11 comum de tecido plano.",
+      "❌ Manter a máquina em velocidade máxima (850 a 1.000 PPM) bem no instante em que a agulha passa pelo degrau da emenda.",
+      "❌ Continuar bordando após ouvir um estalo de contato, sem inspecionar se a ponta da agulha entortou e está arranhando a lançadeira.",
+      "❌ Não usar martelo de borracha ou alicate para 'bater' e achatar a costura do tecido antes de colocar no bastidor."
+    ],
+    "troubleshootingTips": [
+      "A agulha quebra toda vez que chega na mesma emenda do tecido: A agulha está sofrendo deflexão lateral; troque por uma agulha 90/14 com tecnologia reforçada (SERV 7 ou Jeans) e reduza a velocidade da máquina para 450 PPM nesse trecho.",
+      "A máquina pulou 5 pontos exatamente em cima do degrau da costura: A agulha envergou para longe do bico da lançadeira e a laçada não foi colhida; aplique um pouco de cera ou silicone lubrificante na linha e use agulha mais firme.",
+      "A agulha bateu e deixou uma rebarba áspera na chapa de agulha: A deflexão fez a ponta raspar na borda do furo da chapa; retire a chapa e lixe a rebarba com lixa d'água 1.200 polida antes de continuar bordando, para não desfiar a linha."
+    ],
+    "dicaArtrelados": "O 'Truque do Martelo de Ateliê da Artrelados': Toda bordadeira profissional de respeito tem na gaveta um martelinho pequeno de borracha ou madeira! Quando for bordar uma peça com emenda muito grossa e dura (como aquela costura no meio do boné ou a emenda de um jeans grosso), coloque a costura sobre uma superfície firme e dê algumas batidinhas suaves com o martelinho por cima da costura. Isso esmaga as fibras internas do tecido, 'achata o degrau' e a sua agulha passa por ali lisinha como se fosse tecido plano, sem envergar e sem quebrar nada!",
+    "voceSabia": "A tecnologia de haste reforçada contra deflexão (conhecida como sistema SERV 7 da Schmetz) foi desenvolvida na Alemanha especialmente para a indústria aeroespacial e de airbags automotivos! As costuras das bolsas de airbag precisam ser tão grossas e resistentes que as agulhas normais entortavam com a força do impacto; os engenheiros alemães desenharam então uma agulha com uma curvatura cônica no ombro que a torna até 50% mais resistente à flexão sem precisar engrossar o olho da agulha!",
+    "practicalExercise": "Aferição de Rigidez entre Agulha 75 e Agulha 90: Pegue uma agulha usada 75/11 e uma 90/14. Segure a ponta de cada uma com o polegar e aplique uma leve pressão lateral com a unha na haste. Veja como a 75/11 cede e enverga com facilidade, enquanto a 90/14 se mantém firme como um pilar! Guarde essa imagem na memória: sempre que tiver um tecido com costura grossa pela frente, a agulha mais firme é o seu escudo contra prejuízos!",
+    "quickSummary": "Envergadura elástica temporária da agulha provocada por degraus e costuras grossas de tecidos, gerando colisões mecânicas e quebra de agulhas.",
+    "relatedTerms": [
+      "Agulha de Bordado Computadorizado",
+      "Sincronismo entre Agulha e Laçadeira (Hook Timing & Synchronization)",
+      "Laçadeira Rotativa / Lançadeira (Rotary Hook)",
+      "Chapa de Agulha e Diâmetro do Orifício (Needle Plate Hole)",
+      "Dobra de Carneira / Posicionamento da Faixa Interna de Bonés e Viseiras (Sweatband Folding & In-Hoop Clearance)"
+    ],
+    "tags": [
+      "d-105",
+      "desvio-agulha",
+      "deflexao-agulha",
+      "costuras-grossas",
+      "agulha-serv7",
+      "agulha-jeans",
+      "quebra-agulha",
+      "sincronismo",
+      "mecanica-bordado",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "SCHMETZ NEEDLES. SERV 7 Needle Technology: Preventing Needle Deflection in Heavy Seams. Herzogenrath: Ferd. Schmetz, 2022.",
+      "GROZ-BECKERT KG. Needle Deflection and Penetration Force Analysis in Technical Textiles. Albstadt: Groz-Beckert, 2023.",
+      "BROTHER INDUSTRIES. Heavy-Fabric Embroidery Best Practices & Needle Selection. Nagoya: Brother, 2022.",
+      "ARTRELADOS. O Fim das Agulhas Quebradas em Costuras Grossas: Segredos de Deflexão e Dureza. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-16"
   }
 ];
