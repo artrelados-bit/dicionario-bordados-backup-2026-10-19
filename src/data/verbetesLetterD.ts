@@ -6674,5 +6674,496 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "ARTRELADOS. O Segredo da Folga Perfeita: Dedo Posicionador da Laçadeira, Fim das Quebras e Ponto Impecável. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-06"
+  },
+  {
+    "id": "d-095-dispositivo-adaptador-bone-fixador-borboleta-gabarito-13x18",
+    "code": "D-095",
+    "term": "Dispositivo Adaptador de Boné com Fixador Borboleta (Gabarito Mecânico para Bastidor Plano 13x18)",
+    "level": "Intermediário 🟡",
+    "category": "Acessórios & Dispositivos",
+    "grammarClass": "Locução nominal masculina.",
+    "origin": "Do latim dispositivus (organizado para um fim determinado), adaptare (ajustar perfeitamente uma coisa à outra) e bonnet (cobertura de cabeça). Criado no ambiente dos pequenos ateliês de bordado para vencer o obstáculo físico da chapa de agulha plana em máquinas de braço horizontal.",
+    "summary": "Mecanismo acessório montado sobre bastidores planos de 13x18 cm que converte a copa curva do boné em plano tensionado de bordado, travando a aba através de manípulos rosqueados tipo borboleta.",
+    "definition": "O Dispositivo Adaptador de Boné com Fixador Borboleta é um aparato mecânico de fixação complementar desenvolvido para atuar em sinergia com o bastidor convencional de 13x18 cm em máquinas de bordar domésticas e compactas (como Brother PE810L, BP1430, BP2150 e correlatas). Ele consiste em uma base recortada a laser em MDF de alta densidade ou acrílico cristal de 3 a 4 mm, dotada de abertura de bordado e um conjunto frontal de parafusos roscados com porcas borboleta metálicas. O dispositivo atua transformando a geometria tridimensional convexa da copa do boné em uma superfície plana e estável sobre o estabilizador, mantendo a aba rígida rebaixada e comprimida contra a moldura externa para viabilizar a costura sem a necessidade de um caro cabeçote tubular industrial.",
+    "technicalDetails": "Encaixe dimensionado para as ranhuras dos bastidores padrão SA444 / EF75 (130x180 mm). O travamento da aba ocorre por compressão uniforme através de duas porcas borboleta M5 ou M6. A tolerância de segurança exige que a matriz de bordado não ultrapasse 110 mm de largura por 55 mm de altura, garantindo raio mínimo de 15 mm de afastamento dos parafusos metálicos de fixação. Recomenda-se o uso de entretela rasgável de 80 g/m² e adesivo spray temporário ou fita micropore para ancorar a copa nas bordas laterais do gabarito. Velocidade ideal de costura: 400 a 480 PPM.",
+    "construction": [
+      "Chapa base com contorno externo calibrado para encaixe sem folga na borda do bastidor 13x18 cm",
+      "Janela interna de bordado com cantos em raio contínuo para evitar que o tecido da copa enganche",
+      "Dois eixos roscados em aço zincado fixados na parte inferior da placa de apoio da aba",
+      "Duas porcas tipo borboleta (asas ergonômicas) para aperto manual rápido sem ferramentas",
+      "Régua transversal de retenção com textura antiderrapante para prensa uniforme da aba curva"
+    ],
+    "howItWorks": [
+      "1. A entretela é presa firmemente no bastidor 13x18 cm convencional da máquina.",
+      "2. O dispositivo adaptador é assentado sobre o bastidor, apoiando-se nas guias de alinhamento.",
+      "3. A bordadeira dobra a faixa interna de suor do boné para fora e insere a aba rígida sob a régua do fixador borboleta.",
+      "4. Centraliza a linha de costura do boné com a linha de centro gravada no dispositivo e aperta as porcas borboleta de maneira equilibrada.",
+      "5. Estica manualmente a copa do boné sobre a entretela e prende as laterais com tiras de fita adesiva para evitar flutuação durante os saltos de agulha.",
+      "6. No comando da máquina de bordar, programa a rotação de 180 graus da matriz e confere o contorno com a tecla de checagem perimetral (Trace) antes do acionamento."
+    ],
+    "beginnerExplanation": "Se você tem uma bordadeira de mesa e já tentou colocar um boné no bastidor comum, deve ter percebido que o aro não fecha e a aba não deixa a máquina trabalhar. É exatamente aí que entra esse dispositivo adaptador: ele é como uma 'presilha mágica' que você coloca no seu bastidor 13x18. As duas porcas borboleta seguram a aba bem firme e baixinha com a força dos seus próprios dedos, e a parte da frente do boné fica lisinha, pronta para bordar como se fosse uma camiseta comum!",
+    "practicalExamples": [
+      "Confecção de 50 bonés de brim para time de futebol amador com bordado de escudo em 5 cores medindo 70x50 mm.",
+      "Personalização de boné estilo aba curva com logotipo corporativo centralizado na costura frontal.",
+      "Bordado de nomes individuais na copa de bonés de formatura com precisão milimétrica de centro.",
+      "Aplicação de emblema bordado em relevo leve sobre sarja pesada utilizando velocidade reduzida a 450 PPM."
+    ],
+    "matrixParametersRelation": [
+      "Rotação Espacial (180° Inversion): Parâmetro fundamental de tela para compensar a posição invertida da aba no bastidor.",
+      "Compensação de Repuxo (Pull Compensation): Ajustada entre 0,40 mm e 0,45 mm para neutralizar a deformação elástica natural da copa curva.",
+      "Ordem de Costura (Center-Out Stitching): Indispensável para expulsar o excesso de tecido para as bordas e evitar bolsas de ar.",
+      "Controle de Velocidade (PPM Limiter): Ajuste do potenciômetro da máquina para 400-500 PPM para garantir formação correta da laçada sobre entretela dupla."
+    ],
+    "commonMistakes": [
+      "❌ Iniciar o bordado sem girar a matriz em 180 graus, gerando matriz bordada de ponta-cabeça.",
+      "❌ Deixar as porcas borboleta soltas ou com aperto desigual, fazendo o boné vibrar e perder o registro das cores.",
+      "❌ Ignorar a verificação de contorno (Trace) e deixar o calcador colidir violentamente com as hastes metálicas das borboletas.",
+      "❌ Não passar fita adesiva de contenção nas laterais da copa, permitindo que o tecido empole e forme pregas na costura.",
+      "❌ Utilizar matrizes com mais de 60 mm de altura vertical, invadindo a área de curvatura acentuada do boné."
+    ],
+    "troubleshootingTips": [
+      "O bordado está repuxando o tecido e criando uma prega na costura central: A matriz foi programada de fora para dentro; reprograme a ordem dos pontos para que a costura comece no centro da copa e se expanda para as laterais.",
+      "O calcador passou raspando e travou na cabeça do parafuso: A matriz está muito próxima da margem inferior do gabarito; desloque a matriz 5 mm para cima no painel da máquina e confirme a margem com o botão de percurso.",
+      "A máquina pulou pontos na costura de emenda da copa: A agulha sofreu deflexão ao atingir a camada grossa de tecido e entretela; substitua por agulha 90/14 ponta lança ou ponta bola nova e verifique se a linha superior está deslizando livremente."
+    ],
+    "dicaArtrelados": "O 'Segredo dos Dois Dedos da Artrelados': Quando for apertar as porcas borboleta do dispositivo, use apenas as pontas do polegar e indicador, sem fazer força excessiva com alicate ou ferramentas! O aperto firme dos dedos é mais do que suficiente para imobilizar a aba de plástico sem entortar a madeira do gabarito e sem esmagar o tecido do boné. E lembre-se: coloque sempre um pedacinho de fita crepe nas duas abas laterais do boné presas na base do bastidor: isso deixa a copa lisinha como uma tábua de passar e o seu bordado sai com acabamento de boutique!",
+    "voceSabia": "A aba do boné moderno é fabricada com uma lâmina interna de polietileno expandido de alta rigidez que não pode ser perfurada pela agulha sob risco de quebra imediata do eixo da barra de agulha! O dispositivo adaptador com fixador borboleta foi aclamado na comunidade de bordado porque isola totalmente a aba para fora da zona de costura, eliminando em 100% o risco de contato entre agulha e aba!",
+    "practicalExercise": "Montagem e Verificação Prática no Bastidor 13x18: Pegue seu bastidor 13x18, coloque a entretela rasga-fácil e posicione o dispositivo adaptador sobre ele. Pegue um boné, coloque a aba sob o travessão e aperte as duas borboletas com os dedos. Meça com uma régua se a distância das laterais da copa até a borda do suporte está rigorosamente idêntica. Depois, no painel da máquina, teste o traçado de área (Trace) de um desenho de 80x45 mm. Sinta a firmeza e a segurança do conjunto montado!",
+    "quickSummary": "Acessório com presilha de porcas borboleta montado sobre o bastidor 13x18 cm para prensar a aba e esticar a copa de bonés em bordadeiras de uma agulha.",
+    "relatedTerms": [
+      "Bastidor de Boné 13x18 / Suporte Adaptador com Presilha de Aba (Gabarito AGB para Máquinas de 1 Agulha)",
+      "Dispositivo de Boné para Máquinas Domésticas e Semi-Industriais (Cap Driver & Hat Hoop Insert)",
+      "Bastidor Tubular para Boné (Cap Frame System)",
+      "Rotação da Matriz em 180 Graus (180 Degree Orientation)",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Digitalização do Centro para as Bordas (Center-Out Embroidery Sequence)"
+    ],
+    "tags": [
+      "d-095",
+      "dispositivo-bone",
+      "suporte-bone",
+      "gabarito-13x18",
+      "fixador-borboleta",
+      "bastidor-13x18",
+      "bone-brother",
+      "bone-janome",
+      "acessorios-bordado",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "BROTHER INDUSTRIES. Single-Needle Embroidery Hooping & Cap Customization Accessories. Nagoya: Brother, 2023.",
+      "JANOME SEWING MACHINE CO. Optional Cap Frame & Flat-Bed Hooping Accessories Manual. Tokyo: Janome, 2022.",
+      "AGB ATELIÊ & SUPORTES. Manual Operacional do Gabarito Adaptador de Bonés para Bastidores 13x18 Brother e Janome. São Paulo: AGB, 2023.",
+      "ARTRELADOS. Bonés Perfeitos na Máquina Doméstica: O Guia Definitivo do Bastidor 13x18 com Presilha Borboleta. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-16"
+  },
+  {
+    "id": "d-096-distorcao-em-malha-piquet-deformacao-estrutural-polo",
+    "code": "D-096",
+    "term": "Distorção em Malha Piquet / Deformação Estrutural de Polo (Pique Knit Distortion & Honeycomb Mesh Stabilization)",
+    "level": "Intermediário 🟡",
+    "category": "Tecidos & Estabilização",
+    "grammarClass": "Locução nominal feminina composta.",
+    "origin": "Do francês piqué (tecido acolchoado com textura em relevo) e do latim distortio (ação de torcer ou desviar da forma original). Na indústria do bordado, refere-se ao fenômeno físico de abertura e estiramento da trama tipo colmeia durante a penetração repetida da agulha.",
+    "summary": "Fenômeno de repuxo e deformação geométrica característico das camisas polo, causado pela textura favo de mel da malha piquet, exigindo estabilização com entretela firme e underlay em grade.",
+    "definition": "A Distorção em Malha Piquet é uma alteração dimensional assimétrica que ocorre durante o bordado em tecidos com estrutura de malha piquet (comumente utilizados na confecção de camisas polo tradicionais). Caracterizada pelo entrelaçamento geométrico em pequenos losangos ou 'favo de mel', a malha piquet possui grande resiliência elástica na largura e menor elasticidade no comprimento. Sob a tensão dos pontos de bordado e o impacto mecânico da agulha, as células da malha colapsam e sofrem deformação por tração (push-pull), provocando o desalinhamento de contornos em ponto cheio, formação de fendas ou vazios entre letras e enrugamento ondulado ao redor do logotipo bordado.",
+    "technicalDetails": "Requer agulha de ponta bola fina a média (70/10 SES ou 75/11 SES) para afastar as laçadas do favo de mel sem romper os filamentos do fio penteado. O estabilizador deve ser impreterivelmente uma entretela de corte limpo (cut-away) de média a alta gramatura (60 a 80 g/m²) ou entretela rasga-fácil resinada dupla aplicada cruzada a 90°. Recomenda-se aumentar a compensação de encolhimento (Pull Compensation) na matriz para valores entre 0,40 mm e 0,55 mm e aplicar uma camada de underlay em grade dupla (Double Tatami Grid / Net Underlay) para travar a elasticidade multidirecional da malha antes do preenchimento principal.",
+    "construction": [
+      "Estrutura têxtil da malha piquet com laçadas em favo de mel (alta porosidade e vazios intersticiais)",
+      "Camada de entretela de sustentação mecânica (corte ou resinada de 70 a 80 g/m²)",
+      "Filme hidrossolúvel de topo (plástico solúvel/topping) para impedir que os pontos afundem nas cavidades do favo",
+      "Malha de pontos de suporte (underlay) em ângulo cruzado a 45° e 135° para ancoragem prévia"
+    ],
+    "howItWorks": [
+      "1. A bordadeira estende a malha piquet sobre a entretela no bastidor sem esticar o tecido com as mãos, mantendo a trama relaxada.",
+      "2. Aplica uma folha de plástico filme solúvel em água sobre a área a ser bordada.",
+      "3. A matriz executa primeiro um pesponto de alinhamento e uma grade de underlay que imobiliza o favo de mel na entretela inferior.",
+      "4. O preenchimento tatami ou satin é aplicado com compensação generosa de repuxo, neutralizando a contração elástica do tecido.",
+      "5. Ao término, a entretela excessiva é recortada no verso com tesoura bico de pato e o filme de topo é dissolvido com vapor ou água limpa."
+    ],
+    "beginnerExplanation": "Sabe quando você borda o logotipo de uma empresa no peito de uma camisa polo e o círculo vira um ovo, ou o contorno preto fica longe do desenho deixando um vão feio? É a famosa distorção da malha piquet! Como ela é cheia de furinhos parecendo uma colmeia de abelha, ela se mexe e 'estica' com facilidade quando a agulha bate. Para vencer isso, a regra de ouro é nunca esticar a camisa ao prender no bastidor, colocar uma entretela firme por baixo e sempre usar aquele plastiquinho transparente solúvel por cima!",
+    "practicalExamples": [
+      "Bordado de escudo circular de 70 mm de diâmetro no peito esquerdo de camisa polo piquet 100% algodão.",
+      "Bordado de nome de funcionário com letras finas em camisa polo poliéster/algodão, evitando que as letras afundem nos favos.",
+      "Personalização de polo de golfe em piquet mercerizado com logotipo vazado em alto relevo.",
+      "Aplicação de brasão em uniforme escolar piquet misto com acabamento de contorno preciso sem dentes."
+    ],
+    "matrixParametersRelation": [
+      "Compensação de Encolhimento (Pull Compensation): Deve ser ajustada entre 0,40 e 0,55 mm para prever a contração elástica da malha.",
+      "Ponto de Suporte em Grade (Grid / Tatami Underlay): Indispensável antes de qualquer ponto cheio para fixar o favo de mel à entretela.",
+      "Densidade dos Pontos (Density Control): Calibrada em 0,40 mm; densidades muito fechadas (como 0,32 mm) perfuram em excesso e rasgam a malha piquet.",
+      "Comprimento Mínimo de Ponto (Minimum Stitch Length): Evitar pontos menores que 1,2 mm para não mastigar as laçadas do tecido."
+    ],
+    "commonMistakes": [
+      "❌ Puxar as bordas da camisa polo com as mãos ao apertar o parafuso do bastidor, fazendo o bordado enrugar após ser retirado da máquina.",
+      "❌ Utilizar entretela rasga-fácil simples e fina de 40 g/m², que se esfarela com os primeiros pontos e permite a deformação da polo.",
+      "❌ Bordar diretamente sobre o favo de mel sem película solúvel (topping), fazendo com que pontos satin afundem e fiquem serrilhados.",
+      "❌ Usar agulha ponta fina afiada que corta as fibras do tecido em vez de afastá-las, abrindo pequenos furos ao redor do bordado após a primeira lavagem.",
+      "❌ Manter a compensação de repuxo padrão do software (0,20 mm), resultando em contornos desalinhados."
+    ],
+    "troubleshootingTips": [
+      "O contorno preto do logotipo ficou 1 mm afastado do preenchimento colorido: Aumente a compensação de repuxo (Pull Compensation) do preenchimento para 0,45 mm e reforce o underlay com uma malha cruzada antes de bordar.",
+      "O bordado ficou bonito no bastidor, mas enrugou todo depois que tirou: A camisa foi esticada durante o enquadramento no bastidor; coloque a camisa de forma neutra, apenas esticando o suficiente para tirar as dobras naturais.",
+      "Apareceram micro-furos nas bordas do bordado: A agulha utilizada é muito grossa ou ponta fina; substitua por agulha 70/10 ponta bola fina (SES) e inspecione a ponta da agulha contra rebarbas."
+    ],
+    "dicaArtrelados": "O 'Truque da Entretela Cruzada da Artrelados': Camisa polo é o carro-chefe de qualquer ateliê que faz uniformes! Se você não tiver entretela cut-away de alta gramatura no dia, corte dois pedaços de entretela rasga-fácil resinada de boa qualidade e coloque uma na vertical e outra na horizontal (cruzando o sentido das fibras a 90 graus). Essa trama cruzada 'anula' a elasticidade do tecido em todas as direções e seu círculo sai redondo como uma moeda!",
+    "voceSabia": "A malha piquet foi criada no século XIX na região de Lancashire, Inglaterra, originalmente para imitar os acolchoados franceses de Provença! Ela ganhou fama mundial em 1933 com o lendário tenista francês René Lacoste, que revolucionou a moda esportiva criando a primeira camisa polo moderna, feita de malha piquet para absorver o suor e proporcionar ventilação natural aos atletas!",
+    "practicalExercise": "Teste de Calibração em Retalho de Camisa Polo: Pegue um retalho de malha piquet velha. Enquadre no bastidor com duas camadas cruzadas de entretela rasga-fácil e um plástico solúvel por cima, sem esticar a malha. Borde um círculo perfeito de 5 cm com ponto tatami e contorno em ponto cheio. Retire do bastidor, lave com um pinguinho de água para tirar o plástico e meça com uma régua o diâmetro vertical e horizontal: se der exatamente 5,0 cm nas duas direções, sua calibração está nota dez!",
+    "quickSummary": "Deformação provocada pela elasticidade e trama favo de mel da camisa polo, solucionada com entretela firme sem puxar o tecido e underlay em grade.",
+    "relatedTerms": [
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Ponto de Suporte e Sustentação (Underlay Stitching)",
+      "Agulha Ponta Bola (SES / FFG / SUK)",
+      "Filme Termo/Hidrossolúvel de Topo (Topping Stabilizer)",
+      "Entretela de Corte Limpo (Cut-Away Stabilizer)",
+      "Distorção de Push-Pull (Push and Pull Distortion)"
+    ],
+    "tags": [
+      "d-096",
+      "malha-piquet",
+      "camisa-polo",
+      "distorcao-polo",
+      "favo-de-mel",
+      "estabilizacao-malha",
+      "compensacao-repuxo",
+      "underlay-grade",
+      "uniformes",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "WILCOM INTERNATIONAL. Digitizing on Pique Knits & Stretch Garments. Sydney: Wilcom, 2022.",
+      "MADEIRA THREADS. Embroidery on Polo Shirts and Pique Fabric Guide. Freiburg: Madeira, 2023.",
+      "COATS INDUSTRIAL. Machine Embroidery on Honeycomb and Textured Knits. London: Coats, 2021.",
+      "ARTRELADOS. O Fim da Camisa Polo Enrugada: Segredos de Estabilização e Compensação para Uniformes. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-16"
+  },
+  {
+    "id": "d-097-defletor-de-linha-do-cabecote-separador-anti-enrosco",
+    "code": "D-097",
+    "term": "Defletor de Linha do Cabeçote / Separador Anti-Enrosco de Linhas (Thread Deflector & Guide Flange)",
+    "level": "Intermediário 🟡",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução nominal masculina.",
+    "origin": "Do latim deflectere (desviar de direção, dobrar para fora). Na engenharia mecânica têxtil, designa a barreira física instalada no cabeçote para controlar o 'balão de linha' e o fluxo aerodinâmico em velocidades de até 1.200 PPM.",
+    "summary": "Guia protetor em formato de chapa ou arame montado no cabeçote que impede a colisão, entrelaçamento e oscilação descontrolada de linhas entre agulhas adjacentes.",
+    "definition": "O Defletor de Linha do Cabeçote (também conhecido como Separador Anti-Enrosco, Aleta Defletora ou Flange Guia de Linhas) é um componente mecatrônico de blindagem estática e direcionamento montado nas imediações dos estica-fios e tensores primários do cabeçote de máquinas de bordar industriais e semi-industriais (de 1 a 15 agulhas). Confeccionado em aço inoxidável polido, latão niquelado ou polímero antiestático, sua função é criar uma barreira física contínua entre as linhas em repouso e a linha ativa em alta velocidade, suprimindo o 'efeito chicote' (thread whipping) e prevenindo que as correntes de ar ou a vibração do pantógrafo façam os fios vizinhos se enroscarem no estica-fio em movimento.",
+    "technicalDetails": "Composto por aletas ou canaletas paralelas com raio de curvatura suave e acabamento espelhado (rugosidade Ra < 0,2 µm) para não criar atrito abrasivo contra fios de poliéster ou viscose título 40 e 60. Mantém o ângulo de entrada do fio em 15° a 25° em relação ao ilhó do estica-fio. Em máquinas multi-agulhas, impede que linhas frouxas saiam do curso durante trocas automáticas de cor (Color Change), reduzindo quebras falsas detectadas pelos sensores ópticos de linha.",
+    "construction": [
+      "Corpo em lâmina de aço inox ou arame temperado polido com tratamento eletrostático",
+      "Ranhuras ou divisórias individuais calibradas para o espaçamento entre agulhas adjacentes",
+      "Suporte de fixação com parafuso de calibração milimétrica de proximidade ao estica-fio",
+      "Superfície livre de arestas vivas para evitar desfiamento de filamentos em altas rotações"
+    ],
+    "howItWorks": [
+      "1. A linha desce do suporte superior de cones, passa pelos pré-tensores e entra na canaleta individual do defletor.",
+      "2. O defletor isola a trajetória dessa linha da linha da agulha vizinha, mantendo-a alinhada com o estica-fio correspondente.",
+      "3. Quando a máquina acelera para 800-1.000 PPM, o movimento rápido do estica-fio gera um vácuo aerodinâmico e ondulação lateral; a parede do defletor 'bate' a onda de volta, contendo o fio em seu trilho.",
+      "4. Ao ocorrer a troca de cor, a linha cortada permanece segura na área do defletor sem cair sobre a barra de agulhas ativa."
+    ],
+    "beginnerExplanation": "Em máquinas de várias agulhas (ou até naquelas de uma agulha que têm guias de arame na frente), a linha sobe e desce centenas de vezes por minuto num ritmo alucinante. Se não houvesse o defletor, a linha ficaria chacoalhando feito um chicote solto com o vento da máquina e acabaria dando nó na linha da agulha do lado! O defletor é como se fosse a divisória de uma pista de atletismo: ele garante que cada linha fique na sua própria raia, sem atrapalhar a vizinha!",
+    "practicalExamples": [
+      "Bordado de matriz complexa de 12 cores em máquina multi-agulhas industrial operando a 950 PPM sem nenhuma parada por linha enrolada.",
+      "Utilização de linha metálica delicada (que possui alta memória e enrola fácil), onde o defletor mantém o fio esticado e sem laçadas falsas.",
+      "Bordado noturno contínuo de 200 bonés sem falsos alarmes de 'linha quebrada' no painel computadorizado.",
+      "Operação com linhas finas título 60 para micro-letras, prevenindo que o fio estático grude na carcaça plástica do cabeçote."
+    ],
+    "matrixParametersRelation": [
+      "Velocidade Máxima (PPM Limit): Em velocidades acima de 750 PPM, a eficácia do defletor torna-se crítica para a estabilidade da tensão.",
+      "Salto de Ponto e Corte (Jump & Trim Commands): O defletor impede que a sobra do fio cortado chicoteie e seja costurada por baixo do próximo elemento.",
+      "Tensão Dinâmica da Linha: Reduz a variação de pico de tensão causada por oscilações no balão de linha.",
+      "Sensor de Quebra de Linha (Thread Sensor Accuracy): Mantém a linha passando pelo rotor do sensor na angulação correta sem falso atrito."
+    ],
+    "commonMistakes": [
+      "❌ Deixar o defletor acumular poeira de linha, fiapos e silicone seco, criando nós de sujeira que travam a linha no meio do bordado.",
+      "❌ Entortar o arame ou aleta do defletor ao trocar agulhas com pressa, fechando a passagem da linha e provocando quebras constantes.",
+      "❌ Passar a linha por fora do defletor na hora de encher a máquina, fazendo o fio se enroscar no estica-fio ao lado.",
+      "❌ Utilizar produtos abrasivos (como bombril ou lixa grossa) para limpar o defletor, criando ranhuras que desfiam a linha de poliéster."
+    ],
+    "troubleshootingTips": [
+      "A linha do estica-fio 3 enrolou no estica-fio 4 durante o bordado: A linha não foi passada dentro da guia do defletor ou a haste divisória está empenada; recoloque o fio pelo canal correto e verifique o alinhamento visual das aletas.",
+      "A linha está quebrando e saindo desfiada como se tivesse sido lixada: Há uma microranhura causada pelo atrito de anos no ponto de contato do defletor; passe uma linha com pasta de polir fina para lustrar a guia ou substitua o defletor.",
+      "A máquina apita acusando 'linha quebrada' mesmo com a linha intacta: O fio escapou da calha do defletor e está frouxo fora do disco do sensor óptico; repasse a linha respeitando todos os pontos de ancoragem."
+    ],
+    "dicaArtrelados": "O 'Segredo do Pincel Seco da Artrelados': Toda semana, durante a limpeza do cabeçote, passe um pincel de cerdas macias com uma gotinha de álcool isopropílico em todas as ranhuras do defletor de linha. As linhas de poliéster soltam uma 'cera' imperceptível que vai grudando no metal. Um defletor 100% limpo e brilhando faz a linha correr suave como seda e reduz em mais de 70% aquelas paradas chatas da máquina por quebra falsa!",
+    "voceSabia": "Nas primeiras máquinas de bordar industriais da década de 1960, não existiam defletores modernos: as máquinas não passavam de 400 pontos por minuto justamente porque, se acelerassem mais, as linhas se cruzavam no ar e viravam um novelo embolado! A invenção dos defletores aerodinâmicos foi um dos grandes marcos mecânicos que permitiu às máquinas modernas atingirem até 1.200 pontos por minuto com total segurança!",
+    "practicalExercise": "Inspeção de Guia e Teste de Deslize Manual: Com a máquina desligada, puxe a linha com a mão diretamente acima da agulha e sinta a resistência. Em seguida, tire a linha do defletor e puxe novamente; note como ela perde a rota natural e passa a balançar livremente. Repasse a linha pelo defletor, certifique-se de que ele não possui nenhuma rebarba áspera ao passar a unha e veja como o caminho do fio fica perfeitamente blindado!",
+    "quickSummary": "Componente guia do cabeçote que separa as linhas vizinhas e impede que o balanço e a vibração do fio causem enroscos e nós nos estica-fios.",
+    "relatedTerms": [
+      "Estica-Fio da Máquina de Bordar (Take-Up Lever)",
+      "Sensor de Quebra de Linha (Thread Break Sensor)",
+      "Tensão da Linha Superior (Upper Thread Tension)",
+      "Trajeto da Linha e Guias do Cabeçote (Thread Path)",
+      "Biela e Eixo de Acionamento da Barra de Agulha (Needle Bar Reciprocator)"
+    ],
+    "tags": [
+      "d-097",
+      "defletor-linha",
+      "anti-enrosco",
+      "cabecote-maquina",
+      "estica-fio",
+      "mecanica-bordado",
+      "guia-fio",
+      "manutencao-maquina",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Maintenance and Mechanical Thread Feeding Guides. Nagoya: Tajima, 2022.",
+      "BARUDAN INDUSTRIAL EMBROIDERY. Multi-Head Thread Path and Tension Guide System. Tokyo: Barudan, 2023.",
+      "BROTHER INDUSTRIES. Service Manual: Thread Take-Up & Guide Mechanisms. Nagoya: Brother, 2021.",
+      "ARTRELADOS. Cabeçote Impecável: Manutenção dos Guias e Defletores de Linha para Zero Paradas. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-16"
+  },
+  {
+    "id": "d-098-digitalizacao-de-fontes-pequenas-micro-letras",
+    "code": "D-098",
+    "term": "Digitalização de Fontes Pequenas / Micro-letras (Small Lettering Digitizing & Micro-Text Calibration)",
+    "level": "Avançado 🔴",
+    "category": "Programação & Software",
+    "grammarClass": "Locução nominal feminina composta.",
+    "origin": "Do latim digitalis (referente a dedos e números, processamento eletrônico) e do grego mikros (pequeno). Na história da programação de matrizes, a digitalização de micro-letras (textos com altura inferior a 5 mm) representa o limiar da física do bordado, onde a espessura da linha e o diâmetro da agulha se aproximam do tamanho do próprio traço da letra.",
+    "summary": "Técnica de programação de matrizes para letras menores que 5 mm, exigindo redução de densidade, uso de ponto corrido ou satin estreito sem underlay pesado e linhas finas título 60.",
+    "definition": "A Digitalização de Fontes Pequenas (também chamada de Micro-letras ou Small Lettering) é uma disciplina avançada da programação de matrizes de bordado que estabelece regras matemáticas e compensatórias estritas para a legibilidade de textos entre 3 mm e 6 mm de altura (muito comuns em identificação profissional de jalecos médicos, uniformes corporativos e etiquetas de marcas). Em escalas tão diminutas, a tentativa de aplicar parâmetros padrões de fontes normais resulta no esmagamento das aberturas das letras (como 'e', 'a', 'o'), perfuração excessiva com furos no tecido e acúmulo de nós de linha. A técnica envolve a remoção de underlays complexos, o aumento do espaçamento entre caracteres (kerning), a redução da densidade para 0,45-0,50 mm e o emprego de pontos de ancoragem encurtados.",
+    "technicalDetails": "Para micro-letras de 4 a 5 mm, a espessura mínima recomendada da coluna satin é de 0,8 mm a 1,0 mm. Em letras menores que 3,5 mm, a coluna satin deve ser substituída por ponto corrido simples ou ponto corrido triplo (Bean Stitch). Recomenda-se o uso de agulha ultrafina 65/9 ou 60/8 com linha de poliéster ou viscose título 60 ou 75 (mais fina que a tradicional linha 40). O underlay deve se restringir a um único pesponto central (Center-Run) ou ser desativado totalmente. A densidade de ponto cheio deve ser calibrada entre 0,45 mm e 0,55 mm para evitar que os pontos se empilhem.",
+    "construction": [
+      "Tipografia limpa sem serifa (Sans-Serif) com hastes de espessura uniforme",
+      "Compensação de abertura óptica (abertura manual dos 'olhos' de letras redondas no software)",
+      "Underlay centralizado mínimo (apenas 1 passagem de ponto corrido leve)",
+      "Pespontos de remate reduzidos e micro-pontos de amarração de saída",
+      "Combinação de agulha 65/9 e linha de bordado título 60 (fina)"
+    ],
+    "howItWorks": [
+      "1. O programador seleciona uma fonte vetorizada própria para micro-letras ou desenha os nós manualmente no software (Wilcom, Embird, Pe-Design).",
+      "2. Alarga intencionalmente os vãos internos das letras (como o meio do 'e' e do 'o') para que a tração da linha não feche a letra durante a costura.",
+      "3. Desativa o underlay em ziguezague e define apenas um ponto corrido simples no centro da coluna.",
+      "4. Ajusta a densidade para 0,48 mm e ativa a compensação de encolhimento em 0,35 mm.",
+      "5. No ateliê, a bordadeira coloca linha título 60 na agulha 65/9, reduz a velocidade para 500 PPM e borda com precisão cirúrgica.",
+      "6. O texto final de 4 mm fica limpo, nítido e 100% legível a olho nu."
+    ],
+    "beginnerExplanation": "Toda bordadeira já passou pelo sufoco de bordar um nome pequenininho no bolso de um jaleco e, na hora que a máquina termina, as letras viraram uma 'maçaroca' de linha onde não dá nem para ler o que está escrito! Isso acontece porque a linha e a agulha comuns são 'gordas' demais para letras tão pequenas. A digitalização de micro-letras é a arte de 'emagrecer' os pontos: você abre mais as perninhas das letras, tira os pontos de sustentação do fundo para não engordar a letra e usa uma agulha bem fininha com linha 60. O resultado é mágica pura!",
+    "practicalExamples": [
+      "Bordado de CRM e especialidade médica com 4,5 mm de altura abaixo do nome principal no bolso de jaleco de brim leve.",
+      "Inserção da frase 'Made in Brazil' de 3,8 mm em etiqueta tecida de marca premium com linha título 60.",
+      "Bordado de site ou número de telefone com DDD na manga de camisa social corporativa.",
+      "Personalização de iniciais com 5 mm de altura nos punhos de camisas masculinas sob medida."
+    ],
+    "matrixParametersRelation": [
+      "Espaçamento Entre Caracteres (Kerning): Deve ser aumentado em 15% a 25% para evitar que letras vizinhas se toquem.",
+      "Densidade da Coluna (Column Spacing): Ajustada para 0,45 mm a 0,55 mm (nunca abaixo de 0,40 mm em micro-letras).",
+      "Underlay Central (Center-Run Underlay): Obrigatório uso exclusivo de pesponto central; sob nenhuma hipótese usar underlay duplo ou ziguezague.",
+      "Pontos de Trava e Arremate (Tie-In & Tie-Off): Utilizar micro-pontos de arremate de 0,8 mm alinhados com o traço da letra para não criar caroços visíveis."
+    ],
+    "commonMistakes": [
+      "❌ Usar fonte cursiva cheia de voltas e sombras para textos com menos de 5 mm, tornando a leitura impossível.",
+      "❌ Deixar o underlay padrão ativado no software, duplicando a quantidade de linha embaixo de uma letra minúscula.",
+      "❌ Bordar micro-letras com linha tradicional 40 e agulha 75/11 ou 90/14, criando furos gigantes que destroem o tecido.",
+      "❌ Rodar a máquina a 800 ou 1.000 PPM para textos pequenos, provocando falhas de laçada e quebras constantes.",
+      "❌ Manter densidade muito alta (0,35 mm), transformando o nome em uma placa dura e esburacada."
+    ],
+    "troubleshootingTips": [
+      "O miolo da letra 'e' e da letra 'o' ficou totalmente fechado de linha: No software de matriz, selecione a letra e abra manualmente o vão interno (olho da letra) em 0,3 mm; aumente o espaçamento da densidade de 0,38 para 0,48 mm.",
+      "A agulha quebrou e furou o tecido bem no arremate de cada letra: Os pontos de nó final estão muito concentrados em um único ponto; ative a opção de arremate curto (Micro-Lock) ou reduza o número de pontos de trava para apenas 3 pontos.",
+      "As letras ficaram tortas e algumas parecem caídas: A compensação de repuxo está insuficiente ou o tecido não está firme; use entretela de boa sustentação e aumente a compensação de puxão para 0,35 mm."
+    ],
+    "dicaArtrelados": "O 'Segredo do Cone Título 60 da Artrelados': Todo ateliê profissional PRECISA ter no armário pelo menos dois cones de linha branca e dois de linha preta no título 60 (aquela mais fininha que a comum)! Quando um cliente pedir nome de médico, telefone ou especialidade com menos de 5 mm, coloque a linha 60 na agulha fininha 65/9. Suas letras vão sair tão perfeitas e nítidas que vão parecer impressas na gráfica, e seus concorrentes vão ficar sem entender como você conseguiu tanta perfeição!",
+    "voceSabia": "A primeira micro-letra bordada por computador com sucesso na história foi realizada na Suíça no início da década de 1980, para identificar fardas militares de oficiais com números de série de 4 mm! Na época, como as agulhas eram grossas, eles tinham que usar fios de seda pura ultrafinos para conseguir ler os números com precisão!",
+    "practicalExercise": "Laboratório de Escala de Fontes: No seu programa de bordado, escreva a palavra 'MEDICINA' em fonte Arial ou Helvetica com 12 mm, depois copie e reduza para 8 mm, 6 mm e 4 mm. No tamanho de 4 mm, desligue o underlay, mude a densidade para 0,48 mm e aumente um pouquinho o espaço entre as letras. Borde as quatro amostras lado a lado e compare com uma lupa: veja como as regras de micro-letras mantêm o texto legível mesmo no menor tamanho!",
+    "quickSummary": "Programação especializada para textos menores que 5 mm, utilizando densidade mais aberta, remoção de underlay pesado e linhas ultrafinas título 60.",
+    "relatedTerms": [
+      "Ponto Satin / Ponto Cheio (Satin Stitch)",
+      "Ponto Corrido / Ponto Costura (Running Stitch)",
+      "Densidade de Pontos (Stitch Density)",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Título da Linha / Numeração de Espessura (Thread Weight)",
+      "Agulha de Bordado Computadorizado"
+    ],
+    "tags": [
+      "d-098",
+      "digitalizacao-fontes",
+      "micro-letras",
+      "letras-pequenas",
+      "small-lettering",
+      "linha-60",
+      "jalecos",
+      "uniformes-medicos",
+      "programacao-matriz",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "WILCOM INTERNATIONAL. Digitizing Micro Lettering & Small Text Best Practices. Sydney: Wilcom, 2023.",
+      "MADEIRA THREADS. Classic & Polyneon 60: The Ultimate Thread Guide for Small Lettering. Freiburg: Madeira, 2022.",
+      "EMBIRD SOFTWARE. Small Text and Monogramming Font Optimization. Košice: Balarad, 2021.",
+      "ARTRELADOS. O Segredo das Micro-Letras: Nomes Nítidos e Legíveis em Jalecos e Uniformes. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-16"
+  },
+  {
+    "id": "d-099-dupla-fita-adesiva-de-fixacao-textil",
+    "code": "D-099",
+    "term": "Dupla Fita Adesiva de Fixação Têxtil / Fita Dupla Face para Bordado (Double-Sided Embroidery Tape & Floating Hold)",
+    "level": "Iniciante 🟢",
+    "category": "Bastidores & Fixação",
+    "grammarClass": "Locução nominal feminina composta.",
+    "origin": "Do latim duplus (duas vezes maior) e adhaesivus (que tem a propriedade de colar-se). No artesanato e bordado têxtil, a fita adesiva de dupla face foi adotada como técnica limpa de fixação alternativa ao adesivo spray aerossol.",
+    "summary": "Fita autoadesiva em ambas as faces formulada para tecido que fixa peças e apliques na entretela do bastidor sem necessidade de prensar o tecido nos aros.",
+    "definition": "A Dupla Fita Adesiva de Fixação Têxtil (também conhecida no jargão do ateliê como Fita Dupla Face para Bordado ou Fita de Floating) é uma fita adesiva de dorso fino em papel de seda, poliéster ou filme acrílico, revestida em ambas as faces por adesivo acrílico reposicionável ou de contato seguro para fibras têxteis. Ela é utilizada principalmente na técnica de fixação flutuante (floating), na qual apenas a entretela é enquadrada no bastidor; tiras da fita dupla face são coladas sobre a entretela para ancorar peças prontas que não cabem no bastidor (como bolsos, meias, golas, punhos, toalhas espessas ou veludos sensíveis à marcação do aro), sem deixar resíduos gomados na agulha e sem manchar tecidos delicados.",
+    "technicalDetails": "Gramatura do adesivo: 20 a 35 g/m², com formulação 'no-gum' (sem transferência de goma adesiva para a lâmina e o olho da agulha durante o atrito contínuo). Resistência à tração suficiente para manter tecidos pesados (como sarja, couro sintético e atoalhado) fixos durante a vibração de até 850 PPM. Deve ser posicionada preferencialmente nas bordas perimetrais do desenho ou fora da linha direta de costura mais densa para minimizar qualquer contato de cola com o olho da agulha.",
+    "construction": [
+      "Película de sustentação ultrafina (liner de papel siliconado de fácil destaque manual)",
+      "Camada adesiva acrílica têxtil com pegajosidade inicial moderada (tack balanceado)",
+      "Camada adesiva reversa de fixação firme na celulose da entretela",
+      "Fórmula não-tóxica e livre de solventes voláteis para preservação do ambiente de trabalho"
+    ],
+    "howItWorks": [
+      "1. A bordadeira prende a entretela limpa e esticada como um tambor no bastidor.",
+      "2. Corta duas ou quatro tiras de fita dupla face e cola sobre a entretela, delimitando a área externa onde o bordado vai acontecer.",
+      "3. Remove o papel protetor (liner) expondo o lado colante superior da fita.",
+      "4. Centraliza a peça (por exemplo, um bolso pronto ou um body de bebê) sobre a fita e pressiona suavemente com a palma das mãos.",
+      "5. Encaixa o bastidor na máquina e borda com estabilidade total, sem que o tecido escorregue.",
+      "6. Ao terminar, descola a peça com suavidade; a fita permanece colada na entretela que será descartada, deixando a roupa 100% limpa."
+    ],
+    "beginnerExplanation": "Sabe quando você precisa bordar um bodyzinho minúsculo de recém-nascido, a ponta de uma gola ou um bolso já costurado que é pequeno demais para caber dentro do aro do bastidor? Ou pior: aquele tecido de veludo que fica com uma marca horrível do aro que não sai nunca mais? É para isso que serve a fita dupla face de bordado! Você prende só a entretela no bastidor, cola uns pedacinhos de fita dupla face nela, e 'cola' a roupinha por cima! A peça fica grudadinha sem precisar ser esmagada pelo bastidor!",
+    "practicalExamples": [
+      "Bordado de brasão em bolso fechado de jaleco sem precisar descosturar o bolso da peça.",
+      "Personalização de toalhas de banho felpudas e aveludadas de alto padrão sem marcar o pelo do tecido.",
+      "Fixação de recorte de feltro ou tecido de algodão para técnica de apliquê rápido.",
+      "Bordado de meias esportivas e luvas infantis que não possuem abertura para bastidor tradicional."
+    ],
+    "matrixParametersRelation": [
+      "Pesponto de Alinhamento (Basting / Tacking Stitch): Quando associado à fita dupla face, o pesponto de alinhavo prévio cria uma ancoragem definitiva e blindada.",
+      "Área Segura de Posicionamento: As tiras de fita devem ficar a pelo menos 5 mm afastadas das linhas de contorno em ponto satin.",
+      "Velocidade Operacional: Recomenda-se velocidade moderada (500 a 650 PPM) para evitar descolamento de tecidos pesados pela inércia do pantógrafo.",
+      "Tipo de Agulha: Agulha com banho de titânio (Anti-Glue / LP) reduz a zero o risco de acúmulo de qualquer traço de adesivo no olho da agulha."
+    ],
+    "commonMistakes": [
+      "❌ Usar fita dupla face comum de papelaria ou construção civil de alta aderência (tipo espuma 'banana'), que transfere cola pesada para a agulha, provocando quebra imediata da linha e sujeira na lançadeira.",
+      "❌ Colocar a fita adesiva bem embaixo de onde vai bordar um preenchimento tatami pesado, fazendo a agulha perfurar fita adesiva durante milhares de pontos.",
+      "❌ Puxar a peça com brutalidade para descolar da entretela, esgarçando as fibras do tecido bordado.",
+      "❌ Não pressionar bem o tecido contra a fita com a mão antes de ligar a máquina, permitindo que a peça se solte no primeiro salto de linha."
+    ],
+    "troubleshootingTips": [
+      "A linha superior começou a arrebentar a cada 20 pontos e a agulha ficou grudenta: Foi utilizada fita inadequada com excesso de cola na rota da agulha; limpe a agulha com uma gaze e álcool isopropílico e posicione a fita mais afastada do centro do bordado.",
+      "O bolso se soltou da fita durante o bordado e o desenho entortou: A superfície do tecido continha muita poeira ou felpa solta que anulou a cola; reforce a fixação aplicando também a função de Alinhavo (Basting) no painel da sua máquina.",
+      "Ficou resíduo de cola no verso do tecido bordado: A entretela foi removida a quente ou a fita era de baixa qualidade; passe um paninho umedecido com água morna e sabão neutro para dissolver o resíduo suavemente."
+    ],
+    "dicaArtrelados": "O 'Segredo do Quadrado Oco da Artrelados': Quando for usar fita dupla face para fazer a técnica de floating, NUNCA cole uma tira no meio de onde a agulha vai costurar! Faça sempre uma 'moldura' (um quadrado oco) com quatro tirinhas de fita, contornando a área por fora do desenho. Assim, o tecido fica super esticado e firme, e a sua agulha trabalha no miolo 100% livre de qualquer contato com cola! É a técnica mais limpa e segura do mundo!",
+    "voceSabia": "A fita adesiva dupla face têxtil começou a ser usada no bordado nos anos 1970 na indústria da alta costura em Paris e Milão, para bordar pedrarias e fios metálicos sobre rendas finíssimas e tules de seda que se rasgariam instantaneamente se fossem apertados nos parafusos de madeira dos bastidores manuais!",
+    "practicalExercise": "Prática de Fixação Flutuante em Bolso de Camisa: Pegue um pedaço de entretela e coloque no bastidor. Corte 4 tirinhas de fita dupla face de bordado e monte uma moldura quadrada de 8x8 cm. Tire a proteção da fita. Pegue um bolso de retalho, posicione exatamente no centro e alise com a palma da mão. No painel da máquina, execute uma letra simples com 4 cm no centro da moldura. Veja como a peça borda sem se mexer um milímetro e descola limpinha ao final!",
+    "quickSummary": "Fita adesiva de dupla face própria para tecidos, usada na técnica flutuante para prender peças que não cabem ou não podem ser marcadas pelo bastidor.",
+    "relatedTerms": [
+      "Técnica de Fixação Flutuante / Bastidor Flutuante (Floating Method)",
+      "Pesponto de Alinhavo no Bastidor (Basting / Tacking Stitch)",
+      "Adesivo Temporário em Spray para Bordado (Temporary Fabric Adhesive Spray)",
+      "Entretela Rasga-Fácil (Tear-Away Stabilizer)",
+      "Agulha Antiaderente / Revestimento de Titânio (Super Universal / Anti-Glue Needle)"
+    ],
+    "tags": [
+      "d-099",
+      "dupla-fita",
+      "fita-dupla-face",
+      "fixacao-flutuante",
+      "floating",
+      "bastidor-flutuante",
+      "bolsos",
+      "pecas-pequenas",
+      "acessorios-bordado",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "GUNOLD GMBH. Fast-Stick & Double-Sided Adhesive Solutions for Machine Embroidery. Stockstadt: Gunold, 2022.",
+      "MADEIRA THREADS. Stabilizers & Adhesives: Fixation Methods for Delicate Fabrics. Freiburg: Madeira, 2023.",
+      "SULKY OF AMERICA. Sticky Stabilizers and Tapes for In-the-Hoop Projects. Port Charlotte: Sulky, 2021.",
+      "ARTRELADOS. O Poder da Fixação Flutuante: Como Bordar Bolsos, Golas e Peças Minúsculas sem Marcar. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-16"
+  },
+  {
+    "id": "d-100-desgaste-de-bucha-do-eixo-principal-folga-mecanica",
+    "code": "D-100",
+    "term": "Desgaste de Bucha do Eixo Principal / Folga Mecânica da Barra de Agulha (Main Shaft Bushing Wear & Needle Bar Play)",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução nominal masculina composta.",
+    "origin": "Do alemão buchse (caixa ou luva metálica de deslizamento) e do latim principalis (fundamental, que comanda as outras partes). Na cinemática de máquinas de costura e bordado, representa a perda de tolerância micrométrica nas buchas de bronze sinterizado que sustentam os eixos rotativos e lineares.",
+    "summary": "Folga mecânica progressiva causada pelo atrito contínuo e lubrificação deficiente nas buchas do cabeçote, descalibrando a distância entre a agulha e a lançadeira.",
+    "definition": "O Desgaste de Bucha do Eixo Principal (ou Folga da Barra de Agulha) é uma avaria mecânica decorrente do atrito prolongado, da falta de lubrificação periódica com óleo específico de alta pureza ou do excesso de tensão radial no cabeçote de máquinas de bordar industriais e domésticas. As buchas cilíndricas (fabricadas em bronze fosforoso, ligas sinterizadas autolubrificantes ou teflon industrial) têm como função guiar o eixo principal de manivela e a haste da barra de agulha com folga radial estrita inferior a 0,02 mm. Quando ocorre o desgaste por fricção a seco ou acúmulo de pó abrasivo de entretela, a folga radial se amplia, permitindo oscilação axial e deflexão lateral da agulha no momento crítico de interceptação com a ponta da lançadeira rotativa, ocasionando falha sistemática de pontos, ruído metálico estridente e quebra espontânea de agulhas na chapa.",
+    "technicalDetails": "A folga admissível de projeto entre a barra de agulha e sua bucha guia é de 0,015 mm a 0,025 mm. Desgastes superiores a 0,05 mm geram um desvio de ponta de agulha de até 0,8 mm na altura da lançadeira. A folga recomendada entre a ponta da lançadeira e a cava da agulha é de meros 0,05 mm a 0,10 mm; logo, qualquer folga de bucha faz a agulha colidir com o bico da lançadeira ou passar longe demais do laço da linha superior. A medição da folga é realizada com relógio comparador micrométrico com base magnética aplicada na coluna do cabeçote.",
+    "construction": [
+      "Bucha cilíndrica guia em bronze sinterizado ou aço cementado com canais helicoidais de distribuição de óleo",
+      "Eixo principal de acionamento em aço cromo-molibdênio temperado e retificado",
+      "Pinos guia e anéis elásticos de retenção axial (trava Seeger)",
+      "Feltros internos de feltro lubrificante de retenção capilar de óleo mineral branco"
+    ],
+    "howItWorks": [
+      "1. Durante a rotação da máquina a 800-1.000 PPM, as buchas suportam cargas alternadas de impacto provocadas pela penetração da agulha no tecido e pelo movimento do estica-fio.",
+      "2. Uma película microscópica de óleo evita o contato direto metal-metal.",
+      "3. Com a ausência de lubrificação, o atrito seco remove micropartículas da parede interna da bucha de bronze.",
+      "4. A bucha ovaliza com o tempo, permitindo que a barra de agulha 'dance' para frente e para trás.",
+      "5. Ao descer na chapa, a agulha oscila para os lados: ora bate na chapa de agulha e quebra, ora passa longe da lançadeira e não forma o nó do ponto.",
+      "6. O técnico mecânico remove a carcaça do cabeçote, extrai a bucha desgastada com saca-buchas de precisão, instala bucha nova sob medida e recalibra o ponto de sincronismo (timing) da lançadeira."
+    ],
+    "beginnerExplanation": "A barra onde você prende a agulha sobe e desce dentro de um tubinho metálico muito justo, chamado bucha. Quando a máquina é nova e bem lubrificada, ela sobe e desce retinha, sem chacoalhar nem um milímetro. Mas se a máquina trabalhar meses a fio sem aquela gotinha de óleo diária, o metal do tubinho vai gastando e a agulha começa a ficar 'bambolê' (com jogo). O resultado? A agulha desce torta, bate na chapa de metal da máquina, quebra do nada ou pula pontos como se estivesse desregulada! Cuidar do óleo da sua máquina é garantir que essas buchas durem a vida inteira!",
+    "practicalExamples": [
+      "Diagnóstico mecânico em máquina industrial de 12 cabeças com mais de 10.000 horas de trabalho onde apenas o cabeçote 7 pula pontos sem motivo aparente.",
+      "Revisão preventiva em bordadeira Brother que começou a apresentar ruído estridente de chocalho no cabeçote superior.",
+      "Troca de bucha superior da barra de agulha após colisão violenta com bastidor magnético em alta rotação.",
+      "Recuperação de sincronismo de laçadeira após eliminação da folga com bucha sobremedida de bronze."
+    ],
+    "matrixParametersRelation": [
+      "Velocidade de Trabalho: Máquinas com folga incipiente de bucha devem ter a velocidade limitada a no máximo 500 PPM até a substituição das peças.",
+      "Tipo de Tecido e Impacto: Bordar tecidos rígidos (como couro ou lona) acelera em 4 vezes o desgaste de buchas secas devido à força de reação na barra.",
+      "Espessura da Agulha: Agulhas mais grossas (90/14 a 100/16) exercem maior torque lateral na bucha caso o sincronismo esteja ligeiramente desalinhado.",
+      "Sensor de Impacto e Sobrecarga: Pode acionar alertas de motor travado (Main Motor Overload) devido ao aumento de atrito na bucha ovalizada."
+    ],
+    "commonMistakes": [
+      "❌ Passar semanas sem pingar óleo lubrificante nos pontos indicados pelo manual da máquina, provocando atrito a seco.",
+      "❌ Usar óleo de cozinha, desengripante automotivo (como WD-40) ou óleo queimado em vez de óleo mineral transparente e atóxico próprio para máquinas de costura e bordado.",
+      "❌ Apertar o parafuso da agulha com alicate ou força desproporcional, entortando a extremidade da barra e forçando a bucha.",
+      "❌ Continuar bordando com a máquina fazendo barulho metálico de 'grilo' ou chocalho até a barra travar de vez.",
+      "❌ Tentar desentortar a barra de agulha com martelo ou chave de fenda, danificando permanentemente a bucha de precisão."
+    ],
+    "troubleshootingTips": [
+      "Como testar se a bucha está com folga com os dedos: Abaixe a agulha até a metade do caminho (com a máquina desligada). Pegue na ponta da barra de agulha com a ponta dos dedos e tente mexer delicadamente para frente e para trás e para os lados: se você sentir qualquer estalinho ou jogo perceptível, a bucha precisa de ajuste ou substituição.",
+      "A agulha está quebrando bem no meio da chapa sem ter batido em nada: A folga da bucha permitiu que a barra flexionasse ao perfurar a entretela mais grossa; chame a assistência técnica para aferição de folga radial.",
+      "A máquina pula pontos aleatoriamente mesmo com agulha nova e linha regulada: A folga faz a cava da agulha se afastar do bico da lançadeira no momento da laçada; verifique o jogo da bucha antes de mexer no tempo da lançadeira."
+    ],
+    "dicaArtrelados": "O 'Ritual Matinal da Artrelados': Quer que a sua máquina dure 10, 15 ou 20 anos sem nunca precisar trocar bucha de cabeçote? Crie o hábito sagrado de todo início de dia: antes de ligar o botão de energia, pegue a almotolia de óleo de máquina Singer/Brother e pingue UMA única gotinha no feltro superior da barra de agulha e gire o volante na mão uma volta completa. Essa única gota cria um filme protetor que blinda a bucha contra o atrito e deixa o barulho da máquina suave como um sussurro!",
+    "voceSabia": "As buchas de alta performance das máquinas de bordar industriais japonesas (como Tajima e Barudan) são feitas de bronze sinterizado microporoso: o metal passa por um processo de pressão onde retém microbolhas de óleo presas na sua própria estrutura molecular, liberando lubrificante gradualmente conforme a máquina esquenta!",
+    "practicalExercise": "Aferição Táctil de Folga de Cabeçote: Com sua máquina totalmente desligada da tomada, retire a linha da agulha. Segure a barra de agulha próximo à fixação do parafuso e mova suavemente na horizontal (sem forçar). Sinta a rigidez do conjunto: em uma máquina perfeita, o movimento é 100% nulo no sentido horizontal, existindo apenas o deslocamento vertical suave. Pingue uma gota de óleo no feltro de lubrificação e sinta a maciez do curso!",
+    "quickSummary": "Folga provocada pelo atrito prolongado e falta de óleo nas buchas da barra de agulha e do eixo principal, causando oscilação da agulha e falhas de ponto.",
+    "relatedTerms": [
+      "Barra de Agulha (Needle Bar)",
+      "Laçadeira Rotativa / Lançadeira (Rotary Hook)",
+      "Sincronismo entre Agulha e Laçadeira (Hook Timing & Synchronization)",
+      "Lubrificação e Manutenção Preventiva da Máquina",
+      "Dedo Posicionador da Laçadeira / Trava de Parada da Caixa de Bobina (Rotary Hook Retainer / Bobbin Case Position Finger)"
+    ],
+    "tags": [
+      "d-100",
+      "desgaste-bucha",
+      "eixo-principal",
+      "barra-agulha",
+      "folga-mecanica",
+      "mecanica-bordado",
+      "manutencao-preventiva",
+      "oleo-maquina",
+      "sincronismo",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "TAJIMA GROUP. Mechanical Maintenance Manual: Shafts, Bushings and Tolerances. Nagoya: Tajima, 2022.",
+      "BARUDAN INDUSTRIAL EMBROIDERY. Service Manual: Needle Bar Mechanism & Bushing Wear Limits. Tokyo: Barudan, 2023.",
+      "BROTHER INDUSTRIES. Technical Service & Lubrication Specifications for Embroidery Heads. Nagoya: Brother, 2021.",
+      "ARTRELADOS. O Coração da Máquina: Como Evitar Folgas de Bucha e Manter Seu Cabeçote Novo por Décadas. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-16"
   }
 ];

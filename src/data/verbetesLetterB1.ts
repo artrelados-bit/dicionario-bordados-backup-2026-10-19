@@ -3716,6 +3716,90 @@ export const VERBETES_LETTER_B1: Verbete[] = [
       "ARTRELADOS. O Babador do Cabeçote: Segredos da Bandeja Coletora de Óleo e Como Evitar Manchas Negras nas Suas Roupas. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "b-114-bastidor-de-bone-13x18-suporte-adaptador-presilha-aba-gabarito-agb",
+    "code": "B-114",
+    "term": "Bastidor de Boné 13x18 / Suporte Adaptador com Presilha de Aba (Gabarito AGB para Máquinas de 1 Agulha)",
+    "level": "Intermediário 🟡",
+    "category": "Bastidores & Fixação",
+    "grammarClass": "Locução nominal masculina composta.",
+    "origin": "Do germânico basti (fibra vegetal entrelaçada para sustentação) e do francês bonnet (cobertura de cabeça). O termo 'Suporte AGB / Gabarito' refere-se ao sistema de prensagem mecânica desenvolvido por ateliês e torneadores brasileiros para viabilizar o bordado de bonés montados em máquinas domésticas e semi-industriais de braço plano.",
+    "summary": "Gabarito mecânico com presilhas borboleta acoplado ao bastidor plano 13x18 cm, que mantém a aba do boné prensada para fora e a copa frontal esticada, permitindo bordar bonés em máquinas de uma agulha sem bater o calcador.",
+    "definition": "O Bastidor de Boné 13x18 (conhecido popularmente no mercado brasileiro como Suporte AGB ou Gabarito de Boné em MDF/Acrílico) é um dispositivo mecânico projetado especificamente para ser acoplado sobre a armação original do bastidor padrão 13x18 cm de máquinas de bordar domésticas e semi-industriais de uma agulha (como a linha Brother PE770, PE810L, PE910L, BP1430, BP1530, BP2150, além de modelos Janome adaptados). Composto por uma placa de base com abertura central de trabalho e parafusos com porcas borboleta, ele prende firmemente a aba rígida do boné voltada para o operador e projeta a copa frontal perfeitamente tensionada sobre a entretela resinada, contornando a curvatura natural da peça e impedindo que o calcador da máquina colida contra a aba estruturada.",
+    "technicalDetails": "Área útil real de bordado: aproximadamente 100x60 mm a 130x70 mm (limitada pelo arco da copa e pela folga de trânsito do calcador). A matriz deve ser obrigatoriamente rotacionada em 180° no painel da máquina ou no software de digitalização, para que o topo do bordado aponte para a aba prensada. Velocidade operacional recomendada: 400 a 500 PPM para minimizar vibrações no braço pantográfico. Utiliza-se agulha 90/14 ponta lança ou ponta bola pesada (para perfurar sarjas e entretelas duras) e entretela rasga-fácil de alta gramatura (70 a 90 g/m²) ou entretela resinada colada com fita crepe nas bordas do gabarito.",
+    "construction": [
+      "Placa de acoplamento moldada com encaixe exato para o perímetro interno do bastidor 13x18 cm",
+      "Hastes metálicas com parafusos roscados e porcas borboleta para aperto manual sem uso de chaves",
+      "Presilha transversal de pressão com canaleta anti-escorregamento para imobilização da aba rígida",
+      "Janela central de bordado com cantos arredondados para livre deslocamento da haste da agulha e do calcador flutuante"
+    ],
+    "howItWorks": [
+      "1. A bordadeira encaixa o gabarito sobre a entretela previamente esticada no bastidor 13x18 cm.",
+      "2. Vira a carneira interna (faixa de suor) do boné para fora e posiciona a costura central da copa exatamente alinhada com a marcação de centro do suporte.",
+      "3. Posiciona a aba rígida sob a régua de fixação e aperta as duas porcas borboleta até que a aba fique firme e paralela.",
+      "4. Alisa a copa do boné com as mãos sobre a entretela e fixa as laterais do tecido com fita crepe ou alfinetes posicionados fora da rota da agulha.",
+      "5. No painel da máquina, gira a matriz em 180° e executa o traçado de área (função Trace) para garantir que a agulha não se aproxime a menos de 10 mm da régua do gabarito.",
+      "6. Inicia o bordado em velocidade moderada, observando a movimentação suave do pantógrafo."
+    ],
+    "beginnerExplanation": "Quem tem máquina de uma agulha sabe que bordar boné pronto é um dos maiores desafios do ateliê, porque o boné é curvo, tem a aba dura e a máquina não tem aquele braço tubular das fábricas. Esse suporte é uma 'mão na roda': você prende ele no seu bastidor 13x18 comum, encaixa a aba do boné nas borboletinhas e aperta com a mão mesmo! Ele segura a aba para baixo e deixa a frente do boné esticadinha e reta como se fosse um tecido plano, prontinha para bordar logos, nomes e brasões sem risco de quebrar agulha na aba!",
+    "practicalExamples": [
+      "Bordado de logomarca institucional de 85x45 mm na frente de bonés promocionais de brim pesado com costura central reforçada.",
+      "Personalização de boné de aniversário com nomes em ponto cheio (satin) utilizando agulha 90/14 e velocidade de 450 PPM.",
+      "Aplicação de brasão em boné modelo trucker (com tela traseira), onde a copa em sarja é imobilizada com fita crepe nas laterais do gabarito.",
+      "Bordado de monograma em boné infantil de microfibra, ajustando a pressão das borboletas para não marcar o tecido macio."
+    ],
+    "matrixParametersRelation": [
+      "Rotação da Matriz (180° Orientation): Obrigatória no painel da máquina ou software, pois a aba fica montada na borda inferior do bastidor voltada para a frente.",
+      "Ponto de Entrada e Sequência (Center-Out Digitation): A matriz de boné deve ser digitalizada sempre do centro para as laterais (center-out) e de baixo para cima, evitando empurrar ondas de tecido contra a costura central.",
+      "Compensação de Encolhimento (Pull Compensation): Deve ser aumentada para 0,40 a 0,50 mm devido à flexibilidade da copa do boné durante o vaivém da agulha.",
+      "Densidade e Underlay: Underlay de suporte em tatami aberto ou ziguezague duplo para ancorar a copa na entretela antes do ponto cheio."
+    ],
+    "commonMistakes": [
+      "❌ Esquecer de rotacionar a matriz em 180° no painel da máquina, fazendo o bordado ser executado de cabeça para baixo.",
+      "❌ Não realizar o traçado de área (Trace) e deixar a agulha ou o calcador colidirem com o parafuso borboleta ou a régua do gabarito.",
+      "❌ Esquecer de virar a carneira interna (faixa de suor) do boné para fora, costurando a faixa junto com o bordado frontal.",
+      "❌ Usar agulha fina (como 75/11) que sofre deflexão e quebra ao perfurar a emenda central reforçada do boné.",
+      "❌ Apertar uma das borboletas mais do que a outra, entortando o boné e deixando o bordado desalinhado.",
+      "❌ Deixar o fundo ou a lateral do boné soltos sem fita crepe, permitindo que a copa forme 'bolsas' de ar e enrugue durante o preenchimento."
+    ],
+    "troubleshootingTips": [
+      "O bordado ficou torto em relação à aba do boné: A costura central da copa não foi alinhada milimetricamente com a ranhura de centro do gabarito ou uma porca borboleta foi apertada com mais torque que a outra; use uma fita métrica para igualar as distâncias antes de apertar as borboletas.",
+      "A agulha quebrou ao passar no meio do bordado: A costura frontal do boné possui fita de reforço termocolante muito rígida; troque a agulha para 90/14 Jeans ou Microtex e reduza a velocidade da máquina para 400 PPM.",
+      "O calcador da máquina bateu na aba durante o salto de linha: A área do desenho ultrapassou o limite seguro do gabarito; reduza a altura da matriz no software para no máximo 55 ou 60 mm e refaça a função Trace no painel da máquina."
+    ],
+    "dicaArtrelados": "O 'Pulo do Gato da Artrelados' para bordar boné no bastidor 13x18 sem susto: Antes de apertar as borboletas do suporte, passe uma tirinha de fita crepe comum na parte interna da aba, onde a presilha de madeira ou acrílico vai encostar. Isso evita que a pressão do suporte deixe qualquer marquinha de aperto na aba do boné do seu cliente! E tem mais: NUNCA comece a costurar sem dar o famoso 'Trace' no painel da sua Brother: com a mão na máquina, acompanhe o contorno da agulha para ter 100% de certeza de que ela passa a pelo menos um dedo de distância dos parafusos borboleta!",
+    "voceSabia": "Antes da popularização desses gabaritos com presilhas borboleta, as bordadeiras tinham que desmanchar a costura interna do boné ou usar quilômetros de fita dupla face para colar a copa na entretela! A invenção desses suportes em corte a laser no Brasil democratizou o mercado de bonés personalizados, permitindo que pequenas empreendedoras com máquinas domésticas atendam frotas de empresas, eventos e lojas locais com a mesma qualidade de grandes indústrias!",
+    "practicalExercise": "Treino de Alinhamento e Trace em Boné Teste: Pegue um boné promocional velho para teste. Coloque a entretela no bastidor 13x18 cm e encaixe o gabarito. Alinhe a costura frontal do boné com a linha de centro do suporte e aperte as borboletas suavemente. Prenda as laterais com fita crepe. Na sua máquina, selecione um monograma simples, gire em 180° e acione a tecla de Traçado (Trace). Observe o calcador flutuar com folga segura em toda a volta. Borde com agulha 90/14 e admire a precisão do alinhamento!",
+    "quickSummary": "Gabarito mecânico acoplado ao bastidor 13x18 cm que prende a aba do boné por parafusos borboleta e imobiliza a copa frontal, viabilizando bordados perfeitos em máquinas de 1 agulha.",
+    "relatedTerms": [
+      "Dispositivo Adaptador de Boné com Fixador Borboleta (Gabarito Mecânico para Bastidor Plano 13x18)",
+      "Dispositivo de Boné para Máquinas Domésticas e Semi-Industriais (Cap Driver & Hat Hoop Insert)",
+      "Bastidor Tubular para Boné (Cap Frame System)",
+      "Rotação da Matriz em 180 Graus (180 Degree Orientation)",
+      "Traçado de Área e Checagem de Limite de Bastidor (Design Trace Function)",
+      "Digitalização do Centro para as Bordas (Center-Out Embroidery Sequence)"
+    ],
+    "tags": [
+      "b-114",
+      "bastidor-de-bone",
+      "suporte-agb",
+      "bastidor-13x18",
+      "bone-brother",
+      "bone-pe770",
+      "bone-bp2150",
+      "fixador-borboleta",
+      "gabarito-bone",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "BROTHER INDUSTRIES. Single-Needle Embroidery Hooping & Cap Customization Accessories. Nagoya: Brother, 2023.",
+      "JANOME SEWING MACHINE CO. Optional Cap Frame & Flat-Bed Hooping Accessories Manual. Tokyo: Janome, 2022.",
+      "AGB ATELIÊ & SUPORTES. Manual Operacional do Gabarito Adaptador de Bonés para Bastidores 13x18 Brother e Janome. São Paulo: AGB, 2023.",
+      "ARTRELADOS. Bonés Perfeitos na Máquina Doméstica: O Guia Definitivo do Bastidor 13x18 com Presilha Borboleta. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-16"
   }
 ];
 
