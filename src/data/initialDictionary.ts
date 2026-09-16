@@ -6,8 +6,6 @@ import { VERBETES_LETTER_B } from "./verbetesLetterB";
 import { VERBETES_LETTER_B1 } from "./verbetesLetterB1";
 import { VERBETES_LETTER_C } from "./verbetesLetterC";
 import { VERBETES_LETTER_D } from "./verbetesLetterD";
-import { VERBETES_LETTER_D1 } from "./verbetesLetterD1";
-import { VERBETES_LETTER_D2 } from "./verbetesLetterD2";
 import { VERBETES_LETTER_E } from "./verbetesLetterE";
 import { VERBETES_LETTER_F } from "./verbetesLetterF";
 import { VERBETES_LETTER_G } from "./verbetesLetterG";
@@ -43,8 +41,6 @@ export const INITIAL_VERBETES: Verbete[] = [
   ...VERBETES_LETTER_B1,
   ...VERBETES_LETTER_C,
   ...VERBETES_LETTER_D,
-  ...VERBETES_LETTER_D1,
-  ...VERBETES_LETTER_D2,
   ...VERBETES_LETTER_E,
   ...VERBETES_LETTER_F,
   ...VERBETES_LETTER_G,
