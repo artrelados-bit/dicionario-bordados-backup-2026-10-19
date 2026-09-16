@@ -1362,7 +1362,339 @@ export const VERBETES_LETTER_O_PART13: Verbete[] = [
       "ARTRELADOS. A Fusão Perfeita: Como Emendar Blocos Grandes de Tatami sem Deixar Marcas nem Fendas no Bordado. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-16"
+  },
+  {
+    "id": "o-097-oscilacao-termica-do-fio-de-poliester-ponto-de-fusao",
+    "code": "O-097",
+    "term": "Oscilação Térmica do Fio de Poliéster e Ponto de Fusão por Fricção em Alta Rotação (Thermal Friction Softening & Filament Melt Point)",
+    "level": "Avançado 🔴",
+    "category": "Linhas & Fios",
+    "grammarClass": "Locução nominal feminina composta.",
+    "origin": "Do latim oscillatio (balanço térmico alternado) e fusio (passagem de estado sólido para líquido por ação do calor). Na física macromolecular têxtil, estuda o comportamento do polímero sintético politereftalato de etileno (PET) sob o calor gerado pelo atrito cinético de agulhas de alta velocidade.",
+    "summary": "Fenômeno físico em que a linha de poliéster amolece e funde no olho da agulha devido ao calor extremo gerado pelo atrito em tecidos densos a altas rotações.",
+    "definition": "A Oscilação Térmica do Fio de Poliéster e Ponto de Fusão por Fricção (Thermal Friction Softening, Needle Heat Dissipation & Filament Melt Point Breakdown) é a degradação termoplástica severa que ocorre quando a linha de bordar atinge sua temperatura de transição vítrea (Tg ~ 70 °C a 80 °C) e se aproxima de seu ponto de fusão cristalino (Tm ~ 250 °C a 260 °C) devido ao atrito violento entre a agulha de aço, o tecido espesso e os filamentos da linha em velocidades superiores a 800 PPM. O atrito contínuo da agulha perfurando materiais densos (como sarja grossa, lona de algodão, couro sintético ou bonés estruturados) pode elevar a temperatura da ponta e da canaleta da agulha a mais de 230 °C em menos de 45 segundos de costura. Quando a linha passa pelo olho superaquecido, o filamento sintético amolece instantaneamente, perde sua resistência mecânica à tração e 'solda' em formato de bolinha plástica vitrificada, rompendo-se com aspecto esgarçado e engasgando na placa de agulha.",
+    "technicalDetails": "Ponto de fusão do poliéster trilobal 100% virgem: 255 °C a 260 °C. Temperatura de amolecimento por estresse dinâmico: a partir de 180 °C o poliéster perde 60% da tenacidade mecânica. Temperatura da agulha medida por termografia infravermelha a 900 PPM em lona: entre 190 °C e 240 °C. Coeficiente de atrito aço-poliéster a seco: 0,35; com lubrificação por emulsão de óleo de silicone grau alimentício: reduzido para 0,10. Métodos físicos de atenuação: uso de agulhas com revestimento cerâmico de Nitreto de Titânio (TIN - cor dourada) que dissipam calor 3 vezes mais rápido que o cromo; aumento do calibre da agulha de 75/11 para 80/12 ou 90/14 para ampliar o canal de arrefecimento da canaleta frontal; e aplicação de óleo de silicone volátil no cone de linha.",
+    "construction": [
+      "Polímero de poliéster 100% de cadeia longa com aditivação de óleo de silicone no acabamento final de fiação",
+      "Agulha de aço carbono com haste revestida por deposição física de vapor em Nitreto de Titânio (Titanium Nitride)",
+      "Canaleta frontal ampliada com perfil aerodinâmico de refrigeração forçada pelo deslocamento de ar",
+      "Olho de agulha polido espelhado com formato alargado (Topstitch ou Embroidery Eye)"
+    ],
+    "howItWorks": [
+      "1. A bordadeira acelera a máquina a 950 PPM para bordar um logotipo denso sobre jaqueta jeans grossa.",
+      "2. A agulha de aço entra e sai do tecido 16 vezes a cada segundo, gerando atrito cinético brutal na canaleta frontal.",
+      "3. O metal da agulha esquenta rapidamente, ultrapassando 200 °C na região do olho.",
+      "4. A linha de poliéster, puxada pelo estica-fio, esfrega no olho superaquecido da agulha.",
+      "5. O calor amolece os filamentos da linha, que começam a derreter e grudar uns nos outros.",
+      "6. No milissegundo seguinte, a ponta da laçadeira tenta pegar a laçada, mas a linha deformada pelo calor se rompe como chiclete derretido.",
+      "7. Ao substituir a agulha comum por uma agulha de Titânio (dourada) e reduzir a velocidade para 750 PPM, a temperatura cai para menos de 130 °C, e a linha volta a correr fria e sem quebras."
+    ],
+    "beginnerExplanation": "Você já viu quando a linha da máquina arrebenta, você vai olhar a pontinha dela e parece que alguém encostou um fósforo aceso, deixando uma bolinha de plástico duro e derretido na ponta? É exatamente isso o que acontece! Quando a agulha entra e sai de um tecido grosso centenas de vezes por minuto voando alto, o metal da agulha esquenta tanto pelo atrito que fica fervendo como a ponta de um ferro de passar roupa! Como a linha de bordar é feita de poliéster (que é um tipo de plástico), ela simplesmente derrete ao passar pelo buraquinho da agulha quente! Para resolver, basta diminuir um pouquinho a velocidade da máquina ou colocar uma agulha dourada de titânio, que não esquenta quase nada!",
+    "practicalExamples": [
+      "Bordado de brasões pesados em lona militar onde a agulha cromada comum derretia a linha azul a cada 2 minutos.",
+      "Produção de bonés estruturados de 6 gomos em velocidade de 750 PPM com agulha dourada Organ Titanium PD 80/12.",
+      "Aplicação de uma gota de óleo de silicone puro no topo do cone de linha de poliéster para esfriar a agulha durante o bordado de couro sintético.",
+      "Identificação de resíduos plásticos vitrificados presos dentro do olho da agulha através de lupa de bancada."
+    ],
+    "matrixParametersRelation": [
+      "Velocidade Operacional (PPM): Reduzir de 900 para 700-750 PPM em áreas com mais de 6 camadas de tecido ou costuras sobrepostas para diminuir a geração de calor por atrito em 45%.",
+      "Densidade de Ponto: Evitar densidades muito apertadas (menores que 0,35 mm) em tecidos grossos, que concentram milhares de perfurações em milímetros quadrados.",
+      "Comprimento do Ponto: Pontos muito curtos (menores que 1,2 mm) aumentam o número de ciclos de atrito sem deslocamento de ar refrigerante.",
+      "Ponto de Entrada e Saída: Espalhar a trajetória de costura para não concentrar calor na mesma coordenada geométrica."
+    ],
+    "commonMistakes": [
+      "❌ Aumentar a velocidade da máquina achando que o trabalho vai acabar mais rápido em tecido grosso, multiplicando o calor e derretendo a linha sem parar.",
+      "❌ Usar agulha fininha 65/9 em jeans ou sarja pesada: o olho pequeno espreme a linha contra o metal quente, acelerando a fusão.",
+      "❌ Continuar bordando com a agulha suja com restos de linha queimada grudada no olho.",
+      "❌ Passar óleo comum mineral no cone de linha: o óleo comum amarela a linha e atrai pó; deve-se usar apenas óleo de silicone têxtil volátil."
+    ],
+    "troubleshootingTips": [
+      "A linha arrebenta e a pontinha fica com uma bolinha dura redonda parecendo cera de vela: Diagnóstico absoluto de fusão térmica por atrito; troque a agulha imediatamente por uma de Titânio dourada (revestimento TIN) e reduza a velocidade da máquina em 150 PPM.",
+      "O olho da agulha está com uma crosta preta ou transparente que não deixa a linha passar: Resíduo de poliéster fundido; limpe o olho da agulha com uma ponta de estilete ou descarte a agulha danificada.",
+      "A linha está quebrando apenas nas áreas onde tem aplique de couro ou espuma 3D EVA: A agulha esquenta muito ao perfurar materiais sintéticos densos; borrife um leve spray de silicone deslizante ou passe uma gota de óleo de silicone no topo do carretel."
+    ],
+    "dicaArtrelados": "O 'Segredo da Agulha Dourada e da Gotinha de Silicone da Artrelados': Quando você pegar aquele serviço pesado de jaquetas de brim, jeans, mochilas ou bonés duros, não passe raiva: coloque uma agulha de Titânio dourada (Organ ou Schmetz Titanium) de calibre 80/12 e pingue UMA única gotinha de silicone líquido para bordado bem na pontinha do cone de linha lá no suporte! O silicone lubrifica a agulha a cada batida, ela desce geladinha como uma faca na manteiga, a linha nunca mais derrete e a sua máquina borda lisa e sem um pio!",
+    "voceSabia": "Em testes laboratoriais da Organ Needles no Japão com câmeras térmicas de alta velocidade, comprovou-se que uma agulha comum de aço cromado atinge incríveis 260 °C ao bordar lona a 1.000 PPM — temperatura suficiente para assar uma pizza crocante ou fritar um bife em segundos!",
+    "practicalExercise": "Identificação de Quebra Térmica: Da próxima vez que sua linha superior quebrar misteriosamente em um bordado pesado, pegue a pontinha da linha partida com os dedos antes de puxar e passe a ponta da unha nela. Se ela estiver desfiada como cabelo, foi corte mecânico; se ela estiver durinha com uma cabecinha de alfinete redonda e áspera, você acaba de flagrar a quebra térmica! Anote no caderno a velocidade e o tecido para ajustar na próxima produção!",
+    "quickSummary": "Fenômeno em que o atrito violento da agulha em alta rotação superaquece a mais de 230 °C, derretendo o fio de poliéster no olho da agulha.",
+    "relatedTerms": [
+      "Agulha de Bordado Computadorizado",
+      "Linha de Bordar de Poliéster Trilobal",
+      "Velocidade de Pontos por Minuto (PPM / SPM)",
+      "Organ Agulhas com Ponta de Esfera Leve (Organ Ball Point SES Needles)",
+      "Densidade de Pontos (Stitch Density)"
+    ],
+    "tags": [
+      "o-097",
+      "fusao-termica",
+      "agulha-quente",
+      "poliester-derretido",
+      "atrito-cinetico",
+      "agulha-titanio",
+      "linhas-fios",
+      "alta-velocidade",
+      "mecanica-bordado",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "ORGAN NEEDLE CO. Needle Heat Generation and Thermal Breakdown of Synthetic Sewing Threads. Osaka: Organ, 2022.",
+      "SCHMETZ NEEDLES. Friction Heat Dynamics in High-Speed Industrial Embroidery. Aachen: Schmetz, 2023.",
+      "AMERICAN SEWING GUILD. Thermal Degradation and Lubrication of Polyester Embroidery Filaments. Chicago, 2021.",
+      "ARTRELADOS. O Fogo da Agulha: Como Vencer o Calor do Atrito e Bordar Jeans sem Derreter a Linha. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-16"
+  },
+  {
+    "id": "o-098-offset-de-contorno-satin-com-cantos-mitrados",
+    "code": "O-098",
+    "term": "Offset de Contorno Satin com Cantos Mitrados e Arredondados (Satin Contour Offset, Mitered Corners & Capping Geometry)",
+    "level": "Avançado 🔴",
+    "category": "Digitalização & Matrizes",
+    "grammarClass": "Locução nominal masculina composta.",
+    "origin": "Do latim mitra (turbante papal / corte em esquadro simétrico de 45°) e do francês contour (perímetro envolvente). Na geometria de softwares CAD para bordado, refere-se ao algoritmo de tratamento vetorial de vértices pontiagudos em colunas de ponto cheio.",
+    "summary": "Geometria vetorial aplicada nas esquinas de molduras em ponto cheio para cortar os cantos em meia-esquadria perfeita sem acumular bolotões de linha.",
+    "definition": "O Offset de Contorno Satin com Cantos Mitrados e Arredondados (Satin Contour Offset, Mitered Corner Join, Capped Corner & Beveled Apex) é a disciplina de engenharia de software aplicada na digitalização de matrizes para definir a morfologia com que duas colunas de ponto cheio (satin) confluem em esquinas pontiagudas (ângulos inferiores a 90°). Em contornos de letras, molduras quadradas e contornos de aplique, se os pontos forem gerados por simples leque contínuo, a parte interna da curva concentra centenas de batidas no mesmo ponto central enquanto a parte externa se abre em frestas. O canto mitrado divide o vértice exatamente na bissetriz angular (corte em esquadro de 45° com costura em meia-esquadria), enquanto o canto sobreposto (capped) ou arredondado distribui os pontos em leque escalonado, eliminando o acúmulo de relevo excessivo, protegendo as agulhas contra quebras e conferindo um acabamento fino e geométrico de alta costura.",
+    "technicalDetails": "Ângulo crítico de transição: para cantos entre 75° e 105°, a meia-esquadria (Mitered Join) a 45° é a geometria padrão obrigatória. Para ângulos agudos menores que 60°, o algoritmo deve aplicar corte truncado chanfrado (Beveled Apex) ou sobreposição escalonada (Capped Overlap) com recuo de 0,5 mm para evitar que o ápice da quina ultrapasse os limites do tecido e forme pontas soltas. Densidade nos cantos mitrados: compensação fracional automática (Auto-Spacing) com abertura de 30% no raio interno e compressão no raio externo. Underlay de canto: ponto corrido de centro simples (Center Walk) interrompido a 1,0 mm antes da ponta do vértice para não criar um nódulo rígido.",
+    "construction": [
+      "Algoritmo paramétrico de cálculo de bissetriz vetorial em vértices fechados",
+      "Sobreposição escalonada de camadas (Feathered Miter Overlap) com 3 a 5 pontos de ligação",
+      "Controle de densidade angular proporcional para prevenir o estrangulamento da linha",
+      "Underlay em ponto corrido com recuo perimetral de segurança das quinas externas"
+    ],
+    "howItWorks": [
+      "1. O programador traça uma moldura quadrada com contorno de ponto cheio (satin) de 4,0 mm de largura.",
+      "2. Nas quatro quinas de 90°, em vez de deixar a curva em leque simples, seleciona a opção 'Canto Mitrado' (Mitered Corner).",
+      "3. O software divide a coluna em dois segmentos diagonais que se encontram em um ângulo perfeito de 45 graus.",
+      "4. A máquina borda a primeira coluna até a linha divisória diagonal e arremata suavemente.",
+      "5. Em seguida, inicia a coluna seguinte a partir da mesma diagonal, costurando na direção perpendicular.",
+      "6. O encontro dos pontos se parece com a junção de uma moldura de quadro de madeira nobre talhada em meia-esquadria.",
+      "7. Não se forma nenhum bolo duro de linha na quina, o tecido fica 100% plano e a agulha não sofre nenhum desvio.",
+      "8. Ao passar a mão pela quina, a espessura do bordado é homogênea em todo o perímetro."
+    ],
+    "beginnerExplanation": "Sabe quando você vê um bordado com uma moldura quadrada linda, você vai olhar os quatro cantinhos dela e a quina é perfeita, dividida no meio por uma linha reta a 45 graus parecendo o canto de uma moldura de quadro de vidro? Isso é o canto mitrado! Se o programador não fizer isso, o que acontece? A máquina tenta fazer a curva toda de uma vez só, a agulha bate cem vezes no mesmo buraquinho do lado de dentro e a quina fica parecendo uma pedra dura e feia, ou então arrebenta a linha e quebra a agulha! O canto mitrado divide a curva em duas metades irmãs: o bordado fica chique, plano, elegante e a máquina borda com uma suavidade incrível!",
+    "practicalExamples": [
+      "Digitalização de moldura heráldica em brasão militar com 8 quinas perfeitas cortadas a 45 graus.",
+      "Bordado de contorno de aplique em formato de estrela de 5 pontas com quinas agudas chanfradas sem furar o tecido.",
+      "Canto arredondado suave em toalhas de mesa clássicas com monograma central.",
+      "Contorno de números esportivos em camisas de futebol com vértices mitrados de alta precisão."
+    ],
+    "matrixParametersRelation": [
+      "Tipo de Junção de Canto (Corner Join Type): Seleção entre Mitrado (Mitered), Sobreposto (Capped) ou Arredondado (Rounded) conforme a abertura angular.",
+      "Espaçamento Automático Fracionado (Fractional Spacing): Alivia a densidade no ápice interno para evitar perfurações repetitivas no mesmo ponto da entretela.",
+      "Largura Máxima da Coluna: Colunas mitradas muito largas (acima de 7 mm) devem receber divisão automática ou ponto tatami de transição.",
+      "Compensação de Repuxo nas Quinas: Adicionar 0,2 mm na ponta externa para que o vértice não encolha e perca a forma pontiaguda."
+    ],
+    "commonMistakes": [
+      "❌ Deixar quinas de 90° em modo leque contínuo simples, gerando uma 'montanha' grossa e dura de linha no lado interno do canto.",
+      "❌ Fazer cantos mitrados sem sobreposição (overlap) interna: ao bordar, o repuxo puxa as duas partes e abre um corte aberto no meio da diagonal.",
+      "❌ Usar underlay em zigue-zague muito grosso dentro do canto, deixando a quina com volume de pedra que entorta a agulha.",
+      "❌ Criar cantos agudos (menores que 45°) sem chanfro, fazendo a agulha perfurar o ar fora do tecido na tentativa de alcançar o bico fino."
+    ],
+    "troubleshootingTips": [
+      "A agulha bate com um estrondo seco e quebra toda vez que chega na quina da moldura: Acúmulo excessivo de densidade no canto; altere a configuração do software para 'Canto Mitrado' com espaçamento automático (Auto-Spacing) ativado.",
+      "A linha da diagonal do canto mitrado abriu uma fresta mostrando o tecido: Faltou sobreposição (overlap); configure a tolerância de encaixe da meia-esquadria para 0,6 mm de interpenetração de pontos no software.",
+      "A quina do quadrado ficou arredondada e murcha na peça pronta: O tecido repuxou para dentro; aumente a compensação de repuxo no ápice da quina em 0,3 mm e use entretela mais firme."
+    ],
+    "dicaArtrelados": "O 'Segredo dos Ângulos Fechados da Artrelados': Guarde essa regra de ouro no seu ateliê: para quinas abertas (de 80 a 100 graus, como quadrados e retângulos), use SEMPRE o Canto Mitrado (Mitered)! Mas se o desenho tiver pontas finas e fechadas (como pontas de estrelas ou bicos de letras tipo 'A' e 'M' com menos de 60 graus), NUNCA use mitrado simples: mude para Canto Sobreposto (Capped) com a pontinha chanfrada! Assim a máquina não amassa a ponta, a agulha não quebra e a estrela fica com pontas afiadas como diamante!",
+    "voceSabia": "A palavra 'mitra' que dá nome ao canto mitrado vem do formato do chapéu triangular litúrgico pontiagudo usado por bispos e papas da Igreja Católica desde o século X, cuja confecção exigia cortes em ângulo de 45 graus para manter a rigidez majestosa do tecido bordado com fios de ouro!",
+    "practicalExercise": "Comparativo de Quinas no Software: Crie dois quadrados de 4x4 cm no seu programa de matrizes com contorno satim de 4 mm. No primeiro quadrado, deixe o canto padrão em leque contínuo. No segundo quadrado, ative o 'Canto Mitrado'. Dê um zoom no 3D e veja a diferença brutal de elegância da linha diagonal cortada a 45 graus! Borde os dois em um retalho e sinta com o polegar como a quina mitrada é plana, suave e profissional!",
+    "quickSummary": "Técnica de geometria vetorial que corta os cantos de molduras em ponto cheio a 45 graus, garantindo quinas planas, simétricas e sem nós duros.",
+    "relatedTerms": [
+      "Ponto Cheio / Ponto Satin (Satin Stitch)",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Underlay / Pontos de Suporte e Sustentação",
+      "Densidade de Pontos (Stitch Density)",
+      "Digitalização e Programação de Matrizes"
+    ],
+    "tags": [
+      "o-098",
+      "canto-mitrado",
+      "satin-corner",
+      "molduras-satim",
+      "meia-esquadria",
+      "geometria-matriz",
+      "digitalizacao-avancada",
+      "wilcom",
+      "acabamento-luxo",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "WILCOM INTERNATIONAL. Corner Stitching Strategies: Mitered, Capped and Beveled Corner Options. Sydney: Wilcom, 2023.",
+      "PULSE MICROSYSTEMS. Advanced Geometry and Angle Management in Satin Border Outlines. Toronto: Pulse, 2022.",
+      "EMBROIDERY BUSINESS TECHNIQUES. Eliminating Bulk in Sharp Embroidery Corners and Borders. Denver, 2021.",
+      "ARTRELADOS. A Geometria do Canto Perfeito: Como Mitrar Quinas de Satin e Bordar Molduras Impecáveis. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-16"
+  },
+  {
+    "id": "o-099-ondulacao-de-borda-em-brasoes-termicos-resfriamento",
+    "code": "O-099",
+    "term": "Ondulação de Borda em Brasões Térmicos por Resfriamento Desigual (Thermal Crest Edge Curling & Cooling Shrinkage)",
+    "level": "Intermediário 🟡",
+    "category": "Técnicas de Bordado",
+    "grammarClass": "Locução nominal feminina composta.",
+    "origin": "Do latim undula (pequena onda) e do grego thermos (calor associado a termopolímeros adesivos). No processo industrial de fabricação de emblemas e patches bordados, caracteriza a deformação tridimensional por contração térmica diferencial pós-prensagem.",
+    "summary": "Deformação que faz as bordas de patches bordados curvarem para cima como uma batata frita ao sair da prensa térmica sem resfriamento plano sob peso.",
+    "definition": "A Ondulação de Borda em Brasões Térmicos por Resfriamento Desigual (Thermal Crest Edge Curling, Potato-Chip Distortion ou Arqueamento Térmico Pós-Prensagem) é a deformação mecânica tridimensional convexa ou côncava que acomete emblemas, patches e brasões bordados acabados com filme termocolante (filme termoplástico de poliamida, poliuretano ou copoliamida) no verso após a fusão térmica na prensa térmica. Como o fio de poliéster da borda bordada, o tecido de base (geralmente sarja ou feltro) e o adesivo termoplástico fundido possuem coeficientes de dilatação e retração térmica radicalmente distintos, quando o patch quente (entre 150 °C e 170 °C) é retirado da prensa e exposto ao ar ambiente frio sem compressão estática, o polímero do verso resfria e contrai muito mais rápido que as camadas superiores. Essa contração assimétrica gera um torque de flexão que puxa as quatro bordas para cima, transformando o patch em uma peça arqueada parecendo uma batata frita ondulada, o que impede uma colagem uniforme na vestimenta definitiva.",
+    "technicalDetails": "Temperatura de fusão do filme termocolante definitivo (Hot-Melt): 145 °C a 160 °C sob pressão pneumática de 4 a 6 bar por 15 a 20 segundos. Coeficiente de retração térmica linear do polímero termoplástico: 2,5% a 4,0% durante a cristalização do resfriamento; retração do poliéster da borda: menor que 0,8%. O gradiente térmico delta-T entre a placa quente superior e o ar frio ambiente atinge mais de 130 °C. Para neutralizar a deformação: manter o patch prensado em mesa plana sob placa fria de mármore polido ou chapa pesada de ferro/aço inoxidável por no mínimo 45 a 60 segundos até que a temperatura interna do filme caia abaixo de 40 °C (ponto de relaxamento macromolecular).",
+    "construction": [
+      "Substrato base em sarja de poliéster/algodão ou nylon de alta densidade",
+      "Borda de acabamento reforçada em ponto de overloque merrow ou satim bordado pesado",
+      "Filme adesivo termoplástico de copoliamida com liner protetor de papel siliconado",
+      "Placa de resfriamento plana de alta inércia térmica e condutividade térmica rápida (mármore ou alumínio espesso)"
+    ],
+    "howItWorks": [
+      "1. A bordadeira borda uma série de patches e aplica o filme termocolante no verso na prensa térmica a 160 °C.",
+      "2. O adesivo derrete e penetra profundamente nas tramas do tecido e nos nós da linha de bobina.",
+      "3. Ao abrir a prensa, a bordadeira retira o patch ainda fumegante e mole.",
+      "4. Se ela simplesmente largar o patch em cima da mesa, as bordas esfriam primeiro em contato com o ar e encolhem com força.",
+      "5. O centro do patch permanece quente, e o descompasso de temperatura encurva toda a peça para cima.",
+      "6. No protocolo correto da Artrelados, o patch sai da prensa e entra imediatamente debaixo de uma pedra de mármore fria e pesada.",
+      "7. O mármore rouba o calor de forma instantânea e homogênea enquanto mantém o patch 100% reto sob pressão.",
+      "8. Após 45 segundos, retira-se o mármore: o brasão está frio, completamente rígido e plano como uma lâmina de vidro.",
+      "9. Ao ser aplicado na jaqueta do cliente final, as bordas colam sem levantar nenhuma pontinha."
+    ],
+    "beginnerExplanation": "Sabe quando você faz um patch bordado lindo para colar em uma jaqueta ou boné, passa a cola termocolante na prensa quente, e quando tira o patch da prensa ele começa a entortar sozinho, levantando as pontinhas para cima parecendo uma batata frita daquelas onduladas? Isso dá um desespero danado! E por que ele faz isso? Porque a cola derretida no fundo esfria mais rápido do que a linha do bordado em cima, e ao esfriar ela encolhe e puxa as pontas! O segredo mais simples do mundo para resolver isso é o 'choque térmico com peso': tirou da prensa quente, jogue imediatamente uma pedra fria e pesada de mármore (ou um azulejo grosso) por cima dele e deixe 1 minutinho! O patch esfria reto como uma régua e nunca mais levanta a borda!",
+    "practicalExamples": [
+      "Produção de 200 patches bordados para moto-clube com verso termocolante perfeitamente planos para aplicação em couro.",
+      "Cura e assentamento de brasões de artes marciais em feltro com borda merrow sob peso térmico de granito.",
+      "Aplicação de adesivo termoplástico em letras recortadas para camisas de futebol sem enrolamento das pontas.",
+      "Inspeção de planeza de emblemas corporativos antes do empacotamento em caixas de entrega."
+    ],
+    "matrixParametersRelation": [
+      "Densidade da Borda Satim Externa: Deve ser equilibrada (0,40 mm a 0,42 mm); bordas excessivamente densas (0,30 mm) acumulam tensão de contração longitudinal.",
+      "Largura da Borda de Selagem: Manter entre 3,5 mm e 5,0 mm para garantir área de contato suficiente para selagem do adesivo.",
+      "Espessura do Filme Termocolante: Utilizar filmes de 100 a 150 mícrons com camada dupla de resina para garantir elasticidade.",
+      "Ponto de Amarração do Contorno: Distribuir os arremates finais longe dos quatro cantos para não criar nós assimétricos de tração."
+    ],
+    "commonMistakes": [
+      "❌ Retirar o patch fervendo da prensa e empilhar vários uns sobre os outros: o calor acumulado deforma todos os patches da pilha.",
+      "❌ Tentar desentortar o patch com as mãos frias depois que o adesivo já secou e endureceu, quebrando a película de cola.",
+      "❌ Usar temperatura excessiva na prensa (acima de 180 °C), degradando o adesivo e queimando a cor da linha de poliéster.",
+      "❌ Deixar o adesivo esfriar pendurado em varal ou em superfícies gradeadas irregulares."
+    ],
+    "troubleshootingTips": [
+      "O patch já esfriou e ficou todo ondulado e torto: Tem conserto fácil! Coloque o patch de volta na prensa térmica por 8 segundos para amolecer a cola termoplástica novamente, retire e coloque imediatamente sob a pedra de mármore fria com um peso de 2 kg por cima até esfriar completamente; ele volta a ficar retinho!",
+      "As pontas do brasão descolam da camiseta na primeira lavagem: O adesivo não penetrou no tecido base; aumente o tempo de prensagem em 5 segundos e certifique-se de que a prensa aplicou pressão média-alta (4 bar).",
+      "O papel protetor de trás (liner) grudou e não quer sair: Você tentou puxar com o adesivo quente; espere o patch esfriar totalmente na bancada fria e puxe o papel em ângulo de 180 graus com facilidade."
+    ],
+    "dicaArtrelados": "O 'Truque da Pedra de Mármore da Artrelados': Vá em uma marmoraria perto do seu ateliê e peça para o marmorista uma sobra de corte de pia de granito ou mármore polido de 30 x 30 cm (eles costumam dar de graça ou cobrar baratinho)! Deixe essa pedra sempre ao lado da sua prensa térmica. Tirou o brasão ou patch da prensa? Põe na mesa e coloca a pedra de mármore em cima dele imediatamente! O mármore é naturalmente gelado e muito pesado: ele 'rouba' o calor do adesivo em 30 segundos e segura o patch totalmente prensado para baixo! O acabamento fica digno das melhores marcas internacionais de moda!",
+    "voceSabia": "O princípio do resfriamento rápido sob pressão é exatamente o mesmo método utilizado pelas montadoras de automóveis para fabricar vidros temperados blindados e capôs de fibra de vidro: o choque térmico controlado sob molde pesado alinha as moléculas e confere rigidez geométrica permanente à peça!",
+    "practicalExercise": "O Teste da Batata Frita: Pegue dois retalhos bordados iguais com filme termocolante colado no verso. Passe os dois na prensa quente ao mesmo tempo. O primeiro você joga solto sobre a mesa e deixa esfriar sozinho. O segundo você cobre imediatamente com uma pedra de mármore ou livro bem pesado. Depois de 3 minutos, compare os dois: o primeiro estará encurvado como uma telha; o segundo estará reto como um azulejo de cerâmica! Esse experimento vai mudar a qualidade dos seus patches para sempre!",
+    "quickSummary": "Deformação em ondas que curva as bordas de patches quentes recém-saídos da prensa térmica se eles não forem resfriados sob peso plano e frio.",
+    "relatedTerms": [
+      "Patches e Emblemas Bordados",
+      "Filme Termocolante / Adesivo Termoplástico (Hot-Melt Adhesive Film)",
+      "Prensa Térmica para Bordado e Sublimação (Heat Press Machine)",
+      "Overlock Embutido e Acabamento de Patches com Ponto Merrow",
+      "Ondulação Residual em Malhas por Estiramento Excessivo no Bastidor"
+    ],
+    "tags": [
+      "o-099",
+      "ondulacao-termica",
+      "patches-bordados",
+      "brasao-termocolante",
+      "resfriamento-marmore",
+      "prensa-termica",
+      "efeito-batata-frita",
+      "acabamento-emblemas",
+      "tecnicas-bordado",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "EMBLEM PROFESSIONALS GUILD. Thermal Stabilization and Cooling Protocols for Hot-Melt Adhesive Patches. London: EPG, 2022.",
+      "PRINTWEAR & EMBROIDERY REVIEW. Eliminating Distortion and Edge Curl in Heat-Applied Crests. London, 2021.",
+      "STAHLS' INTERNATIONAL. Heat Press Masterclass: Time, Temperature and Pressure for Embroidery Adhesives. Detroit: Stahls, 2023.",
+      "ARTRELADOS. Patches Perfeitos: Como Usar o Mármore Frio para Eliminar Ondulações em Brasões Termocolantes. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-16"
+  },
+  {
+    "id": "o-100-organizacao-ergonomica-da-bancada-de-enquadramento",
+    "code": "O-100",
+    "term": "Organização Ergonômica da Bancada de Enquadramento e Mesa de Apoio do Bastidor (Ergonomic Framing Station & Hooping Board Layout)",
+    "level": "Iniciante 🟢",
+    "category": "Bastidores & Fixação",
+    "grammarClass": "Locução nominal feminina composta.",
+    "origin": "Do grego ergon (trabalho / esforço produtivo) e nomos (leis naturais / harmonia do corpo humano). No setor de manufatura têxtil moderna, a ergonomia de postos de trabalho foi consolidada pelas normas internacionais ISO 11228 e NR-17 para prevenir lesões por esforços repetitivos (LER/DORT) em operadores de bastidor.",
+    "summary": "Disposição física, altura e ferramentas da estação de montagem de bastidores no ateliê para acelerar a produção e eliminar dores nas costas e punhos.",
+    "definition": "A Organização Ergonômica da Bancada de Enquadramento e Mesa de Apoio do Bastidor (Ergonomic Framing Station Layout, Hooping Master Board & Operator Posture Protocol) é o planejamento arquitetônico, antropométrico e funcional da área física de trabalho onde as bordadeiras posicionam, estabilizam e fixam tecidos e entretelas nos aros dos bastidores antes de levá-los à máquina de bordar. O enquadramento é o procedimento manual mais repetitivo, desgastante e crítico de todo o ateliê (representando até 60% do tempo total de ciclo de um bordado); se a mesa for muito baixa ou muito alta, a operadora é forçada a curvar a coluna lombar e aplicar força excessiva nos tendões dos punhos e dedos para apertar parafusos. Com uma estação ergonômica dotada de gabaritos angulados a 15°-20°, altura calibrada na linha do cotovelo (entre 95 cm e 105 cm para trabalho em pé), iluminação focal LED sem sombras e suportes magnéticos de fixação, a velocidade de enquadramento dobra e as lesões osteomusculares são eliminadas.",
+    "technicalDetails": "Conformidade normativa: ABNT NBR ISO 11228 e Norma Regulamentadora NR-17 (Ergonomia). Altura ideal da bancada de trabalho em pé: 5 a 10 cm abaixo da altura do cotovelo do operador (padrão de 98 cm a 104 cm do piso). Inclinação da prancha de enquadramento (Hooping Jig): 15° a 25° em direção aos olhos da bordadeira, reduzindo a flexão cervical em 70%. Nível de iluminamento sobre o bastidor: 750 a 1.000 lux com temperatura de cor neutra (4.000 K a 5.000 K) para visualização precisa da trama do tecido sem ofuscamento. Força de aperto de parafuso recomendada: limitar o esforço manual usando chaves de fenda ergonômicas tipo 'T' ou parafusadeiras elétricas de torque controlado com limitador em 1,2 N·m.",
+    "construction": [
+      "Bancada estável com tampo em MDF de 25 mm revestido por manta vinílica ou borracha antiderrapante",
+      "Prancha de enquadramento articulada com gabaritos magnéticos intercambiáveis para cada tamanho de bastidor (HoopMaster ou similar)",
+      "Braço de iluminação articulado pantográfico com lâmpada LED difusa de alto índice de reprodução de cor (IRC > 90)",
+      "Prateleiras e gaveteiros aéreos ao alcance dos braços (Zona de Alcance Ótimo de 45 cm) para rolos de entretela, tesouras e fitas"
+    ],
+    "howItWorks": [
+      "1. A bordadeira se posiciona diante da bancada ergonômica com postura ereta e ombros relaxados.",
+      "2. O aro inferior do bastidor fica pré-encaixado no rebaixo magnético da prancha inclinada, sem escorregar.",
+      "3. A bordadeira estende a entretela e a peça de roupa usando os gabaritos numéricos de alinhamento de gola e peito.",
+      "4. O aro superior do bastidor é posicionado com movimento suave de alavanca, exercendo pressão vertical com o peso do antebraço em vez de forçar o pulso.",
+      "5. O parafuso do bastidor já fica previamente ajustado com a folga exata da espessura do tecido, dispensando apertos de força extrema com os dedos.",
+      "6. Em apenas 20 segundos a peça está enquadrada com alinhamento a laser perfeito e tensão uniforme como a pele de um tambor.",
+      "7. A operadora trabalha centenas de peças por dia com produtividade recorde, disposição física e total saúde muscular."
+    ],
+    "beginnerExplanation": "Onde você monta seus bastidores hoje? Na mesa da cozinha curvada para frente? Na tábua de passar roupa bamba? Ou em cima da cama? Você já reparou como no final do dia suas costas doem, o pescoço fica travado e seus polegares doem de tanto apertar parafusos duros? A bancada ergonômica é o cantinho sagrado que toda bordadeira merece ter! É uma mesa na altura certa da sua cintura, com uma luz bem clarinha em cima e um suporte inclinado onde o bastidor fica preso sozinho enquanto você arruma o tecido com as duas mãos livres! Enquadrar deixa de ser uma luta de força e vira uma delícia rápida, sem dor no corpo e sem estresse!",
+    "practicalExamples": [
+      "Instalação de estação de enquadramento com gabarito magnético em ateliê de uniformes, reduzindo o tempo de preparação de polos de 2 minutos para 30 segundos por peça.",
+      "Adaptação de calço de madeira de 10 cm nos pés de uma mesa baixa para que a bordadeira trabalhe com a coluna perfeitamente ereta.",
+      "Uso de chave ergonômica com cabo de silicone largo para apertar parafusos de bastidores industriais sem criar calos nos dedos.",
+      "Organização de suporte de parede tipo painel perfurado (Pegboard) com tesouras, réguas e fitas ao alcance de um único gesto."
+    ],
+    "matrixParametersRelation": [
+      "Tensão Mecânica do Tecido: A prancha de enquadramento garante que a tensão seja perfeitamente idêntica nas quatro direções (evitando o estiramento unilateral que deforma a matriz).",
+      "Alinhamento de Eixo X/Y: O alinhamento perfeito de colchas e monogramas com réguas de centro evita a necessidade de rotações angulares improvisadas no painel da máquina.",
+      "Área Útil do Bastidor: Evita que o tecido fique frouxo e seja engolido pela chapa de agulha durante preenchimentos de alta densidade.",
+      "Produtividade Geral (PPH - Peças por Hora): Acelera o fluxo contínuo de trabalho entre a retirada da máquina e o carregamento do próximo bastidor."
+    ],
+    "commonMistakes": [
+      "❌ Enquadrar peças em mesas baixas (altura de cadeira de escritório, 75 cm), curvando a coluna cervical e lombar centenas de vezes ao dia.",
+      "❌ Apertar parafusos de bastidor usando alicates de ferro ou moedas, espanando a rosca plástica e arrebentando as articulações dos dedos.",
+      "❌ Trabalhar em local escuro ou sob luz amarela fraca, forçando a vista e posicionando o bordado torto na roupa.",
+      "❌ Deixar tesouras de precisão jogadas soltas no meio dos tecidos, correndo o risco de furar a peça do cliente ou cortar os dedos."
+    ],
+    "troubleshootingTips": [
+      "Você termina o dia com dor aguda na base do polegar e no punho: Sintoma clássico de esforço excessivo ao rosquear parafusos; use bastidores magnéticos (que não usam parafusos) ou utilize uma chave de fenda curta com cabo gordo de borracha para girar o parafuso sem torque manual direto.",
+      "O tecido sempre escorrega ou fica torto quando você tenta fechar o bastidor: Falta de apoio estático; coloque uma folha de EVA ou manta de borracha antiderrapante sob o bastidor para que a parte de baixo não saia dançando pela mesa.",
+      "A gola das camisetas sempre fica com distâncias diferentes do bordado: Falta de gabarito fixo; desenhe com fita crepe na bancada as linhas de referência de centro e a distância padrão de 4 dedos abaixo da gola para nunca mais errar."
+    ],
+    "dicaArtrelados": "O 'Segredo da Prancha Inclinada de R$ 20 da Artrelados': Você não precisa gastar milhares de reais em estações importadas para ter ergonomia de cinema! Pegue um suporte de leitura de livros de madeira ou suporte articulado de notebook (aqueles inclinados de metal ou MDF), coloque em cima da sua bancada e apoie o seu bastidor nele! A inclinação de 20 graus traz o bastidor para a direção dos seus olhos: você não precisa entortar o pescoço, enxerga cada milímetro do tecido e usa o próprio peso dos braços para fechar o aro com suavidade incrível!",
+    "voceSabia": "Estudos da Universidade de Ergonomia de Tóquio revelaram que bordadeiras que utilizam bancadas ergonômicas com gabarito inclinado aumentam a precisão de alinhamento em 94% e conseguem bordar até 40% mais peças por dia com 80% menos fadiga muscular ao final da jornada de trabalho!",
+    "practicalExercise": "Ajuste de Altura da Sua Bancada: Fique em pé, dobre seus braços em ângulo reto de 90 graus (posição de robô) e meça com uma fita métrica a distância do seu cotovelo até o chão. Agora meça a altura da mesa onde você monta seus bastidores. Se a mesa estiver mais de 10 cm abaixo do seu cotovelo, coloque calços firmes de madeira nos pés da mesa até alcançar a altura ideal. Monte três bastidores e sinta o alívio imediato nas suas costas!",
+    "quickSummary": "Planejamento inteligente da altura, iluminação e apoios da mesa de bastidor para enquadrar duas vezes mais rápido sem dores nas costas e mãos.",
+    "relatedTerms": [
+      "Bastidor de Bordado Computadorizado (Embroidery Hoop)",
+      "Alinhamento no Bastidor e Gabarito de Posicionamento (Hoop Template Alignment)",
+      "Bastidor Magnético de Alta Pressão (Magnetic Embroidery Hoop)",
+      "Técnica de Fixação Flutuante / Bastidor Flutuante (Floating Method)",
+      "Otimização Geral de Processos e Produtividade em Ateliê de Bordado"
+    ],
+    "tags": [
+      "o-100",
+      "bancada-ergonomica",
+      "estacao-enquadramento",
+      "ergonomia-atelie",
+      "hoop-master",
+      "saude-da-bordadeira",
+      "bastidor",
+      "produtividade",
+      "gestao-atelie",
+      "artrelados"
+    ],
+    "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    "bibliographicReferences": [
+      "INTERNATIONAL ERGONOMICS ASSOCIATION. Ergonomic Design Guidelines for Garment Assembly and Embroidery Workstations. Geneva: IEA, 2022.",
+      "HOOPMASTER & MIDWEST PRODUCTS. Commercial Embroidery Framing Efficiency and Repetitive Strain Prevention. Menomonee Falls, 2021.",
+      "REVISTA BRASILEIRA DE SAÚDE OCUPACIONAL. Ergonomia e Prevenção de LER/DORT em Trabalhadoras do Setor Têxtil e Bordado. São Paulo: Fundacentro, 2023.",
+      "ARTRELADOS. A Bancada de Ouro: Como Montar uma Estação de Enquadramento Ergonômica e Dobrar Sua Produção sem Dores. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-16"
   }
 ];
+
 
 
