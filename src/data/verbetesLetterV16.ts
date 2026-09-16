@@ -415,5 +415,337 @@ export const VERBETES_LETTER_V16: Verbete[] = [
       "ARTRELADOS. O Poder do Ar Comprimido no Ateliê: Como Funcionam os Bastidores Pneumáticos e Seus Cuidados. Curitiba, 2024."
     ],
     updatedAt: "2026-09-16"
+  },
+  {
+    id: "v-082-visor-nivel-sensor-optico-linha-bobina-lancadeira",
+    code: "V-082",
+    term: "Visor de Nível e Sensor Óptico de Linha de Bobina em Lançadeiras Rotativas (Bobbin Thread Optical Sensor & Low-Bobbin Infrared Warning System)",
+    level: "Intermediário 🟡",
+    category: "Mecânica & Manutenção",
+    grammarClass: "Locução nominal masculina composta.",
+    origin: "Do latim visor (aquele que enxerga) e opticus (referente à luz e visão). Na mecatrônica de máquinas de costura e bordado industrial, foi introduzido no Japão pela Tajima e Brother nos anos 1990 para eliminar o tempo ocioso de máquinas trabalhando com a bobina vazia.",
+    summary: "Dispositivo com emissor e receptor infravermelho que detecta o nível restante da linha de bobina através da carretilha, alertando a operadora antes do fio acabar.",
+    definition: "O Visor de Nível e Sensor Óptico de Linha de Bobina em Lançadeiras Rotativas (Bobbin Thread Optical Sensor, Low-Bobbin Infrared Interrupter & Photodiode Warning Circuit) é o sistema mecatrônico eletro-óptico integrado à base do leito da lançadeira e à caixa de bobina, projetado para monitorar em tempo real a quantidade residual de linha de carretilha restante durante o bordado de alta velocidade (750 a 1.200 PPM). O sistema opera com um feixe infravermelho modulado (comprimento de onda típico de 880 nm a 940 nm) emitido por um diodo LED instalado na lateral do alojamento da lançadeira. Esse feixe luminoso atravessa ranhuras ou orifícios transparentes calibrados usinados na caixa de bobina e na própria carretilha (bobina de alumínio com janelas vazadas). Enquanto a carretilha possui enrolamento suficiente de linha branca de poliéster 150D/2, a massa de fios bloqueia a passagem do feixe de luz. Quando o carretel se esgota até os últimos 10 a 15 metros, o caminho óptico se desobstrui; o feixe atinge o fototransistor receptor do lado oposto, que envia um sinal digital à placa controladora da máquina, acionando a parada preventiva suave da cabeça e alertando a bordadeira na tela antes que o ponto falhe no meio de um bordado nobre.",
+    technicalDetails: "Emissor infravermelho: LED GaAlAs modulado a 38 kHz para imunidade a lâmpadas LED e fluorescentes do ateliê. Receptor: fotodiodo de silício PIN com filtro passa-faixa óptico. Distância de disparo calibrada: espessura residual de 0,8 mm a 1,2 mm de enrolamento de fio no núcleo metálico da bobina, correspondendo a uma reserva de segurança de 12 a 18 metros de linha de bobina (suficiente para terminar aproximadamente 1.200 a 1.800 pontos cheios antes da parada total). Tolerância à contaminação por penugem: algoritmo de detecção diferencial com autoajuste de ganho (AGC - Automatic Gain Control) que compensa perdas de até 60% de transmissão óptica por acúmulo de poeira têxtil antes de exigir limpeza da lente.",
+    construction: [
+      "Diodo emissor infravermelho (IR LED) encapsulado em resina epóxi resistente a vibração",
+      "Fototransistor receptor de alta sensibilidade montado no bloco do leito inferior",
+      "Caixa de bobina com janelas ópticas laterais usinadas a laser",
+      "Carretilha de alumínio balanceada com furações perimétricas de inspeção óptica"
+    ],
+    howItWorks: [
+      "1. A bordadeira instala uma bobina cheia na caixa de carretilha e encaixa na lançadeira rotativa.",
+      "2. Ao ligar a máquina, o emissor infravermelho acende um feixe invisível direcionado para o centro da carretilha.",
+      "3. Como a bobina está cheia de linha branca, o feixe é completamente absorvido e bloqueado pelos fios.",
+      "4. A máquina borda normalmente a 850 PPM sem interromper o ciclo de costura.",
+      "5. Conforme a linha inferior é consumida nos pontos satim e tatami, o diâmetro do carretel diminui gradualmente.",
+      "6. Ao atingir a reserva crítica de 15 metros restantes, a luz infravermelha passa livremente pelos orifícios da carretilha.",
+      "7. O receptor fotossensível detecta a luz e envia o comando de pulso de interrupção à placa mãe.",
+      "8. A máquina finaliza a coluna atual, trava a agulha no topo e avisa na tela: 'Nível Baixo de Bobina - Troque a Carretilha', evitando que o bordado fique desmanchado."
+    ],
+    beginnerExplanation: "Sabe quando você está bordando um desenho lindo e, de repente, percebe com desespero que a máquina estava costurando 'no vazio' há 5 minutos porque a linha da bobina acabou lá embaixo e você não viu? Isso dá uma raiva danada, não é? Pois as máquinas modernas têm um 'olho mágico invisível' que resolve isso para sempre! É o sensor óptico de bobina! Uma luzinha especial que a gente não enxerga fica vigiando a bobina através de buraquinhos na caixinha de metal. Enquanto tem bastante linha, a luz fica tampada. Quando a linha está quase no finzinho, a luz passa e a máquina apita na hora avisando: 'Ei bordadeira, troca a bobina que está acabando!' Assim, você nunca mais perde tempo tendo que desmanchar ou adivinhar onde a linha parou!",
+    practicalExamples: [
+      "Bordado de peças personalizadas de couro onde um ponto em falso sem linha de bobina deixaria furos definitivos na peça.",
+      "Configuração do aviso de fim de bobina na tela sensível ao toque de máquina semi-industrial Brother PR-670.",
+      "Limpeza periódica da lente do sensor com cotonete seco após o bordado de toalhas de banho felpudas que soltam muito pó.",
+      "Substituição de carretilhas plásticas sem furo por carretilhas originais de alumínio perfuradas compatíveis com o sensor óptico."
+    ],
+    matrixParametersRelation: [
+      "Densidade de Ponto Satim: Em densidades muito fechadas (0,36 mm), o consumo de linha de bobina é 30% mais rápido, tornando o sensor indispensável.",
+      "Velocidade de Trabalho (PPM): Em alta rotação, a frenagem preventiva automática evita que a linha de bobina saia do tensionador por solavanco.",
+      "Comprimento de Ponto: Pontos longos de salto consomem menos linha inferior por centímetro corrido de deslocamento de pantógrafo.",
+      "Tensão da Bobina: Uma bobina bem regulada desenrola de maneira uniforme, permitindo leitura óptica estável sem saltos falsos."
+    ],
+    commonMistakes: [
+      "❌ Usar carretilhas de plástico maciço sem furos em máquinas com sensor óptico: a máquina acha que a bobina está sempre cheia e não avisa quando acaba.",
+      "❌ Deixar uma camada grossa de penugem e poeira de linha cobrir a lente do sensor, gerando alarmes falsos a cada 2 minutos.",
+      "❌ Ignorar o aviso de bobina baixa e forçar a máquina a continuar até a linha acabar no meio de uma letra minúscula.",
+      "❌ Limpar o sensor com solventes agressivos como acetona ou tíner, derretendo a lente óptica de acrílico protetor."
+    ],
+    troubleshootingTips: [
+      "A máquina fica apitando 'Trocar Bobina' direto mesmo com a carretilha totalmente cheia e nova: A lente do sensor óptico está coberta de penugem ou cego por sujeira; retire a caixa de bobina e passe um cotonete seco ou pincel macio na fenda interna da lançadeira onde fica a janelinha do sensor.",
+      "A linha da bobina acabou totalmente no meio do bordado e a máquina não apitou nenhum alarme: A carretilha utilizada não tem as furações laterais corretas ou o sensor está desativado no menu de configurações da máquina; verifique se a função 'Bobbin Sensor' está ligada (ON) nas opções do painel.",
+      "O aviso dispara cedo demais, quando ainda tem quase metade da carretilha cheia de linha: O sensor está descalibrado ou a carretilha está montada invertida; confira o sentido correto de saída da linha (geralmente formando a letra 'P') e ajuste a sensibilidade do sensor no software de manutenção."
+    ],
+    dicaArtrelados: "A 'Regra do Cotonete no Fim do Dia da Artrelados': Quer que o sensor de bobina da sua máquina nunca falhe e nunca dê alarme falso? Tenha sempre uma caixinha de cotonetes ao lado da sua bordadeira! Ao final de cada dia de trabalho, retire a caixa de bobina, dê um soprinho suave com o soprador de ar manual e passe a pontinha seca de um cotonete na fresta onde o sensor óptico fica escondido. Você vai ver o cotonete sair pretinho de penugem de linha! Em 5 segundos seu olho eletrônico fica limpinho como cristal para o dia seguinte!",
+    voceSabia: "As primeiras máquinas computadorizadas não tinham sensor óptico: o software calculava o fim da linha apenas 'contando pontos' matematicamente com base em um cálculo médio de 30.000 pontos por carretilha! Se a matriz tivesse pontos mais longos ou curtos, a máquina errava a previsão em até 20%!",
+    practicalExercise: "Teste de Bloqueio do Olho Óptico: Com a sua máquina ligada e o bastidor fora, retire a caixa de bobina. Aponte uma pequena lanterna ou a luz do celular na direção do sensor e observe o painel da máquina: veja se o ícone de bobina muda de estado na tela. Em seguida, tampe com a ponta do dedo para ver o sistema responder instantaneamente!",
+    quickSummary: "Sensor óptico eletrônico que monitora a linha da bobina e avisa a bordadeira na tela antes do fio acabar, evitando falhas e pontos vazios.",
+    relatedTerms: [
+      "Caixa de Bobina / Estojo da Carretilha (Bobbin Case)",
+      "Laçadeira Rotativa / Lançadeira (Rotary Hook)",
+      "Linha de Bobina de Poliéster 150D/2",
+      "Regulagem de Tensão da Linha de Bobina com Tensiômetro",
+      "Visor de Nível de Óleo de Caixa de Engrenagens"
+    ],
+    tags: [
+      "v-082",
+      "sensor-bobina",
+      "sensor-optico",
+      "infrared-sensor",
+      "linha-inferior",
+      "prevencao-falhas",
+      "manutencao-maquina",
+      "caixa-de-bobina",
+      "tecnologia-bordado",
+      "artrelados"
+    ],
+    sourceReference: "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    bibliographicReferences: [
+      "BROTHER INDUSTRIES. Technical Service Manual: Optical Bobbin Thread Detection System. Nagoya: Brother, 2022.",
+      "TAJIMA TECHNICAL BULLETIN. Infrared Low-Bobbin Sensing Mechanism and Maintenance Protocols. Tokyo: Tajima, 2023.",
+      "SOCIETY OF FIBER SCIENCE AND TECHNOLOGY. Sensor Automation and Thread Consumption Monitoring in Digital Embroidery. Kyoto, 2021.",
+      "ARTRELADOS. O Olho Mágico da Bordadeira: Como Cuidar do Sensor de Bobina e Nunca Mais Perder Ponto. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-16"
+  },
+  {
+    id: "v-083-velvet-touch-e-tratamento-termico-em-veludo-felpudos",
+    code: "V-083",
+    term: "Velvet Touch e Tratamento Térmico para Matrizes em Veludo e Tecidos Felpudos (Velvet Touch Digitizing & Pile Flattening Thermal Finishing)",
+    level: "Avançado 🔴",
+    category: "Técnicas de Bordado & Acabamento",
+    grammarClass: "Locução nominal mista com estrangeirismo.",
+    origin: "Do inglês velvet (veludo, tecido nobre de pelo curto cortado ou laçado) e touch (toque, sensação tátil suave). Desenvolvido nos ateliês de alta-costura europeus e aperfeiçoado com o uso de filmes hidrossolúveis plásticos e sapatas térmicas de teflon.",
+    summary: "Conjunto de regras de digitalização e passadoria térmica especial para bordar veludos sem esmagar o pelo, sem afundar os pontos e sem deixar marcas do aro do bastidor.",
+    definition: "O Velvet Touch e Tratamento Térmico para Matrizes em Veludo e Tecidos Felpudos (Velvet Touch Digitizing, Pile Suppression Grid, Hoop Burn Prevention & Thermal Finishing) é a metodologia avançada de projeto de matrizes, montagem em bastidor e pós-processamento térmico desenvolvida especificamente para tecidos com estrutura de pelo elevado (veludo de seda, veludo cristal, veludo cotelê, pelúcia e chenille). Tecidos aveludados possuem duas vulnerabilidades extremas: o 'afundamento de pontos' (onde a linha de bordar é engolida pelas cerdas verticais do tecido, perdendo definição e brilho) e a 'queimadura de bastidor' (*hoop burn*, onde a pressão mecânica dos aros de plástico esmaga permanentemente o veludo, criando uma moldura brilhosa irremovível). A técnica Velvet Touch soluciona esses desafios combinando: (1) fixação sem enquadramento direto (técnica de flutuação sobre entretela adesiva); (2) aplicação de filme plástico hidrossolúvel texturizado de 35 micras sobre o veludo; (3) matriz digitalizada com underlay em grade de sustentação (*mesh knockdown stitch*); e (4) tratamento térmico final com vapor vertical suspenso e sapata de teflon, preservando o toque aveludado e o viço natural das fibras.",
+    technicalDetails: "Filme superior: hidrossolúvel de álcool polivinílico (PVA) gofrado com espessura de 35 a 45 µm para criar barreira física plana sobre os pelos de 1,5 mm a 3,0 mm de altura. Underlay de sustentação na matriz: grade cruzada a 90° com espaçamento de 1,5 mm e comprimento de ponto de 2,5 mm, costurada com linha da mesma cor do veludo para camuflagem total. Densidade de acabamento dos pontos satim: 0,42 mm com compensação de repuxo ampliada para +0,45 mm (pois o veludo tem trama elástica e alta absorção). Passadoria térmica pós-bordado: ferro industrial a vapor ajustado na temperatura máxima de 130 °C (posição seda/lã) com sapata protetora de politetrafluoretileno (PTFE / Teflon); o ferro NUNCA toca a superfície do veludo, aplicando vapor a 3 cm de distância no avesso sobre uma tábua de passadoria felpuda especial ou toalha dobrada.",
+    construction: [
+      "Base de veludo nobre montada flutuando sobre entretela de rasgar adesiva hidrossolúvel",
+      "Filme de cobertura superior hidrossolúvel plástico microperfurado ou gofrado",
+      "Camada de sob-ponto Knockdown Stitch programada no software de matrizes",
+      "Mesa de passar com colchão macio de feltro de lã pura para amortecer o pelo no avesso"
+    ],
+    howItWorks: [
+      "1. A bordadeira prepara a entretela de rasgar no bastidor, sem prender o veludo no aro para evitar marcas.",
+      "2. Ela aplica spray adesivo temporário ou usa entretela autoadesiva (peel-and-stick) e assenta o veludo suavemente por cima.",
+      "3. Coloca uma folha de plástico hidrossolúvel transparente sobre o veludo, alfinetando apenas as bordas externas.",
+      "4. A máquina borda primeiro a grade de sustentação Velvet Touch: os pontos amarram as pontinhas do pelo para baixo de forma delicada.",
+      "5. Em seguida, a máquina borda as letras em ponto cheio: as linhas deslizam lisas por cima do plástico, com brilho reluzente.",
+      "6. Concluído o bordado, a bordadeira rasga os excessos de plástico com as mãos e remove os restos com um vaporizador ou pano úmido.",
+      "7. No acabamento térmico, a peça é colocada com o veludo virado para baixo sobre uma toalha macia.",
+      "8. O ferro a vapor com sapata de teflon solta jatos de vapor pelo avesso sem pressionar: os pelinhos voltam a ficar em pé fofinhos e as letras ficam em alto relevo impecável."
+    ],
+    beginnerExplanation: "Bordar em veludo parece um sonho de luxo, mas para quem está começando pode ser um pesadelo se não souber o segredo! Se você apertar o veludo dentro do aro do bastidor como faz com pano de prato, o bastidor ESMAGA o pelo para sempre e deixa uma marca quadrada horrorosa que não sai nem lavando! E se você bordar direto, as letrinhas 'afundam' e somem no meio dos pelos como se tivessem caído na grama alta! A técnica Velvet Touch é o método dos mestres: você NUNCA prende o veludo no aro (prende só a entretela e 'cola' o veludo por cima!), coloca um 'platiquinho mágico' que derrete na água por cima de tudo e borda! As letras ficam altas e brilhantes como ouro, e o veludo continua macio e fofinho como novo!",
+    practicalExamples: [
+      "Personalização de capas de almofada e mantas de veludo cristal para decoração de interiores de luxo.",
+      "Bordado de brasões dourados em becas de formatura e paramentos litúrgicos de veludo de seda.",
+      "Bordado de logos em jaquetas bomber e agasalhos esportivos retrô de veludo cotelê.",
+      "Confecção de caixas de joias e saquinhos de veludo para alianças de casamento com monogramas finos."
+    ],
+    matrixParametersRelation: [
+      "Compensação de Repuxo: Deve ser ajustada bem generosa (+0,40 mm a +0,50 mm) para compensar o afundamento nas fibras do veludo.",
+      "Underlay Knockdown: Uso obrigatório de grade de sob-ponto ampla para deitar a felpa do veludo antes do ponto final.",
+      "Densidade de Ponto: Evitar densidades muito apertadas (menos de 0,35 mm) que podem cortar a trama delicada da base do veludo.",
+      "Velocidade da Máquina (PPM): Reduzir para 650 a 700 PPM para garantir que a agulha penetre sem arrancar fios de pelo."
+    ],
+    commonMistakes: [
+      "❌ Apertar o aro do bastidor tradicional com força sobre o veludo: causa a destruição permanente do pelo (*hoop burn* irrecuperável).",
+      "❌ Passar o ferro de passar comum bem quente diretamente em cima do veludo: queima as fibras sintéticas, deixando a peça brilhosa e plastificada.",
+      "❌ Bordar veludo sem plástico hidrossolúvel por cima: os pontos cheios afundam e as letras ficam cheias de 'pelinhos' saindo por entre as linhas.",
+      "❌ Molhar o veludo encharcado para tirar o plástico: a água excessiva mancha o veludo cristal; use apenas vapor leve."
+    ],
+    troubleshootingTips: [
+      "O bastidor deixou uma marca brilhosa quadrada e esmagada ao redor do bordado no veludo: Pelo prensado por bastidor (*hoop burn*); vire a peça pelo avesso sobre uma toalha fofa e solte jatos fortes de vapor de ferro sem encostar na peça, escovando suavemente o pelo pela frente com uma escovinha de cerdas macias para levantar os fios.",
+      "O bordado ficou 'engolido' e com as bordas cheias de falhas e pelos pretos espetando para fora: Falta de filme de sustentação; use sempre filme hidrossolúvel gofrado de 35 micras por cima e programe uma grade de sob-ponto knockdown na matriz.",
+      "A agulha está puxando laçadas do pelo do veludo para cima durante a costura: Agulha rombuda ou com ponta fina cortante que está furando os filamentos; troque por uma agulha ponta bola fina (Ball Point #75/11 SES) nova."
+    ],
+    dicaArtrelados: "O 'Truque da Toalha de Banho na Hora de Passar Veludo da Artrelados': Se você não tem aquela tábua de agulhas caríssima que os alfaiates usam para passar veludo, faça o 'truque da vovó bordadeira': dobre uma toalha de banho bem grossa e felpuda em cima da sua tábua de passar. Coloque o veludo bordado virado DE BOCA PARA BAIXO (com os pelinhos em contato direto com a felpa da toalha). Em seguida, passe o ferro a vapor pelo avesso da peça! A felpa da toalha abraça os pelos do veludo e impede que o ferro esmague o relevo! O bordado sai perfeito e o veludo fica macio como uma pluma!",
+    voceSabia: "Na Idade Média, o veludo de seda era tão nobre e complexo de tecer que apenas os reis, papas e nobres de Veneza e Gênova tinham permissão por lei para usar roupas de veludo com bordados em ouro legítimo!",
+    practicalExercise: "O Teste da Flutuação com Veludo: Pegue um retalho de veludo. Prenda no bastidor apenas a entretela de rasgar. Passe uma camada bem suave de spray temporário. Cole o veludo delicadamente por cima, sem puxar. Coloque um retalho de plástico hidrossolúvel e borde uma letra inicial de 4 cm. Ao tirar da máquina, veja como não ficou NENHUMA marca de aro e o bordado ficou digno de vitrine de shopping!",
+    quickSummary: "Técnica de digitalização com grade de sustentação, uso de filme plástico solúvel e vaporização sem toque para bordar veludo com perfeição.",
+    relatedTerms: [
+      "Filme Plástico Hidrossolúvel de Cobertura (Solvy / Topping)",
+      "Ponto de Sustentação de Fundo / Grade Knockdown (Knockdown Stitch)",
+      "Marcas de Bastidor / Queimadura de Bastidor (Hoop Burn)",
+      "Agulha Ponta Bola Fina (Light Ball Point - SES)",
+      "Entretela Termossolúvel / Heat-Away Stabilizer"
+    ],
+    tags: [
+      "v-083",
+      "velvet-touch",
+      "bordado-em-veludo",
+      "tecidos-felpudos",
+      "tratamento-termico",
+      "passadoria-vapor",
+      "knockdown-stitch",
+      "flutuacao-bastidor",
+      "acabamento-luxo",
+      "artrelados"
+    ],
+    sourceReference: "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    bibliographicReferences: [
+      "EMBROIDERY GUILD OF GREAT BRITAIN. Working with Velvet, Silk and Delicate Piled Fabrics. London, 2022.",
+      "MADEIRA GARNSTUDIO. Special Substrates Guide: Embroidery and Finishing Techniques for Velvet and Chenille. Freiburg, 2023.",
+      "TEXTILE FINISHING MANUAL. Steaming and Pile Preservation in Fashion Embroidery. Milan, 2021.",
+      "ARTRELADOS. O Segredo do Veludo Real: Como Bordar Tecidos Nobres sem Deixar Marcas de Bastidor e sem Afundar os Pontos. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-16"
+  },
+  {
+    id: "v-084-variacao-de-angulo-em-florais-e-folhagens-com-eixo-radial",
+    code: "V-084",
+    term: "Variação de Ângulo em Florais e Folhagens com Eixo Radial (Radial Stitch Angle Steering & Leaf Segment Digitizing)",
+    level: "Intermediário 🟡",
+    category: "Programação e Digitalização de Matrizes",
+    grammarClass: "Locução nominal feminina composta.",
+    origin: "Do latim variatio (modificação ordenada) e radialis (que parte de um ponto central como raios de uma roda). Na digitalização artística para bordado, surgiu com o advento das ferramentas de preenchimento de curva flexível e múltiplos ângulos no software Wilcom nos anos 1990.",
+    summary: "Técnica de programação que direciona as linhas de ponto convergindo em raios ou espinhas de peixe, dando relevo tridimensional e brilho natural a pétalas e folhas.",
+    definition: "A Variação de Ângulo em Florais e Folhagens com Eixo Radial (Radial Stitch Angle Steering, Curvilinear Leaf Branching & Organic Light-Reflective Shading) é a técnica avançada de parametrização geométrica no software de bordado na qual as linhas de penetração dos pontos de satim ou tatami são orientadas seguindo o fluxo de crescimento biológico da planta, em vez de manterem um ângulo único e monótono de 45° ou 90°. Em pétalas circulares, os ângulos são traçados convergindo concentricamente em direção ao miolo central da flor (como raios de uma bicicleta); em folhas lanceoladas, o objeto é segmentado em duas metades separadas por uma nervura central imaginária, aplicando ângulos inclinados entre 35° e 55° que se encontram no centro em padrão de 'espinha de peixe' (*herringbone stitch*). Essa variação angular contínua manipula o brilho especular dos filamentos de poliéster trilobal sob a luz ambiente: enquanto um lado da folha reflete a luz com brilho vívido, o outro lado gera uma sombra acetinada suave, conferindo profundidade, movimento e realismo tridimensional deslumbrante à matriz.",
+    technicalDetails: "Geometria de nós: utilização de ferramentas de Coluna Complexa ou Ponto Cheio de Curvatura Livre com adição manual de 6 a 12 linhas de ângulo guia por segmento. Em pétalas côncavas: variação angular progressiva de 0° a 180° com interpolação vetorial suave (*smooth steering*). Resolução de pontos no ápice da convergência: aplicação de espaçamento fracionado automático (*smart corners* ou *fractional spacing*) no centro para evitar que a densidade de pontos dobre no miolo (onde os ângulos convergem), impedindo o acúmulo de linha e a quebra de agulhas. Comprimento de ponto nos bordos: limitação de salto máximo a 7,0 mm para evitar fios soltos nas bordas curvas externas.",
+    construction: [
+      "Vetor de contorno fechado com malha de múltiplos ângulos de costura parametrizados",
+      "Divisão anatômica de nervuras primárias e secundárias em objetos vetoriais distintos",
+      "Função de redução de densidade interna (Short Stitches / Pontos Curtos) no centro radial",
+      "Fio superior de poliéster trilobal ou viscose de alta reflexão de luz difusa"
+    ],
+    howItWorks: [
+      "1. O programador importa a ilustração de uma rosa ou margarida para o software de bordado.",
+      "2. Em vez de preencher a flor inteira com um único clique de ângulo reto, ele desenha cada pétala individualmente.",
+      "3. Ele aplica a ferramenta de 'Múltiplos Ângulos' e clica puxando guias que apontam todas em direção ao miolo da flor.",
+      "4. Na folha ao lado, ele digitaliza o lado esquerdo com pontos a 45° subindo para a ponta.",
+      "5. Em seguida, digitaliza o lado direito da folha com pontos a 135°, criando o clássico desenho de espinha de peixe.",
+      "6. O software calcula as penetrações da agulha curvando as passadas de linha com suavidade matemática.",
+      "7. Na máquina de bordar, a agulha costura acompanhando exatamente as curvas naturais da planta.",
+      "8. Quando a cliente segura a peça bordada na mão e move sob a lâmpada, a folha e a flor brilham como se tivessem vida própria e relevo real."
+    ],
+    beginnerExplanation: "Sabe qual é a maior diferença entre um bordado de flor que parece um 'adesivo duro e sem graça' e um bordado de flor que parece uma joia brilhante e viva de verdade? É o ângulo dos pontinhos! Quem está começando costuma preencher a folha inteira com a linha indo toda para o mesmo lado, retinha e dura. Mas na natureza, a folha tem uma nervura no meio e as linhas correm inclinadas como uma espinha de peixe! E as pétalas da flor têm linhas que saem do miolinho e vão abrindo para fora como os raios de uma rodinha de bicicleta! Quando você programa os ângulos virando desse jeitinho no computador, a luz bate na linha brilhosa e cria sombras e reflexos maravilhosos que deixam todo mundo de queixo caído!",
+    practicalExamples: [
+      "Digitalização de rosas clássicas com pétalas em leque radial para toalhas de mesa nobres.",
+      "Desenho de folhas de costela-de-adão com nervuras bem definidas e variação angular em duas metades.",
+      "Bordado de girassóis e mandalas florais onde os raios convergem perfeitamente para o centro escuro.",
+      "Criação de monogramas entrelaçados com galhos de louro em estilo vitoriano e brasões de família."
+    ],
+    matrixParametersRelation: [
+      "Ângulo de Ponto (Stitch Angle): O parâmetro central desta técnica; define o direcionamento óptico da luz e o volume do bordado.",
+      "Pontos Curtos (Short Stitches): Recurso vital; reduz automaticamente a densidade no vértice onde os ângulos se encontram, evitando embolamento.",
+      "Compensação de Repuxo: Varia conforme o ângulo; nas áreas onde os pontos correm na diagonal da trama, a compensação deve ser calibrada em 0,35 mm.",
+      "Comprimento de Ponto: Em pétalas grandes, controle o comprimento máximo de ponto cheio para não ultrapassar 7 mm."
+    ],
+    commonMistakes: [
+      "❌ Borda uma flor inteira com um ângulo fixo único de 45°: o desenho fica plano, sem profundidade e com aspecto amador.",
+      "❌ Fazer todas as linhas convergirem para o mesmo centro sem ativar a função 'Pontos Curtos': os pontos se amontoam no miolo, furando o tecido e quebrando a agulha.",
+      "❌ Deixar ângulos muito bruscos com quinas de 90° no meio da pétala, quebrando a harmonia da linha de reflexão de luz.",
+      "❌ Esquecer de respeitar a ordem de sobreposição natural (as pétalas de trás devem ser bordadas antes das pétalas da frente)."
+    ],
+    troubleshootingTips: [
+      "A agulha bateu com estrondo e quebrou bem no centro onde as pétalas se encontram: Acúmulo excessivo de pontos na ponta do leque radial; abra a matriz no software, ative a opção 'Short Stitches' (Pontos Curtos automáticos) e exclua manualmente penetrações duplicadas no vértice.",
+      "A folha ficou parecendo um bloco maciço sem a divisão da nervura do meio: As duas metades da folha foram desenhadas com ângulos idênticos ou sem espaçamento mínimo; digitalize a folha como dois objetos separados com ângulos opostos (ex: 40° e 140°) deixando uma microfolga de 0,4 mm entre eles.",
+      "O contorno em ponto corrido não casou com a ponta das folhas: Repuxo assimétrico causado pela variação dos ângulos; aumente a compensação de repuxo nas pontas das folhas e utilize underlay de ponto corrido centrado em cada metade."
+    ],
+    dicaArtrelados: "O 'Segredo da Espinha de Peixe em Duas Partes da Artrelados': Quer fazer folhas bordadas que parecem saltar do tecido de tão realistas? Nunca desenhe a folha como uma forma inteira só! Desenhe primeiro o lado esquerdo da folha com os pontos inclinados a 40 graus apontando para cima. Depois, desenhe o lado direito com os pontos inclinados a 140 graus apontando para o outro lado! Deixe uma frestinha invisível de meio milímetro entre eles. Na máquina, o contraste entre as duas metades faz a luz bater de jeitos diferentes em cada lado, criando uma nervura central mágica sem você precisar gastar nem um ponto a mais!",
+    voceSabia: "O fio de bordar de poliéster não é perfeitamente redondo como um barbante: ele possui corte transversal 'trilobal' (com formato triangular de três lobos) projetado pelos cientistas químicos têxteis exatamente para agir como um prisma de cristal que reflete a luz de forma espetacular quando direcionado no ângulo certo!",
+    practicalExercise: "Digitalização de Pétala Radial com Três Linhas-Guia: No seu programa de bordar, desenhe o contorno de uma pétala de margarida. Ative a ferramenta de ângulos e adicione 3 guias: uma apontando para a esquerda a 60°, uma no centro reta a 90° e uma na direita a 120°. Gere os pontos e ative a visualização 3D real: veja como as linhas se curvam harmoniosamente como um leque!",
+    quickSummary: "Programação de pontos com ângulos curvos ou em espinha de peixe que acompanham o formato natural de folhas e flores, criando relevo e brilho.",
+    relatedTerms: [
+      "Ângulo de Ponto / Direcionamento de Pontos (Stitch Angle)",
+      "Ponto Cheio / Ponto Satin (Satin Stitch)",
+      "Pontos Curtos e Compensação de Densidade Radial (Short Stitches)",
+      "Digitalização com Ângulos Múltiplos e Curvas Complexas",
+      "Linha de Bordar de Poliéster Trilobal"
+    ],
+    tags: [
+      "v-084",
+      "florais-bordado",
+      "folhagens-matriz",
+      "angulo-radial",
+      "espinha-de-peixe",
+      "digitalizacao-artistica",
+      "relevo-3d",
+      "brilho-trilobal",
+      "wilcom-tecnicas",
+      "artrelados"
+    ],
+    sourceReference: "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    bibliographicReferences: [
+      "WILCOM INTERNATIONAL. Artistic Stitch Directions and Radial Floral Digitizing Guide. Sydney: Wilcom, 2022.",
+      "DIGITIZING WORLD MAGAZINE. Botanical Embroidery: Capturing Light and Depth Through Dynamic Stitch Angles. London, 2023.",
+      "THE EMBROIDERY MANUAL. Advanced Shading, Angle Control and Floral Textures. New York, 2021.",
+      "ARTRELADOS. A Luz que Dança nas Linhas: Como Programar Pétalas e Folhas com Brilho Tridimensional. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-16"
+  },
+  {
+    id: "v-085-vinil-perfurado-entretelas-plasticas-emblemas-patches",
+    code: "V-085",
+    term: "Vinil Perfurado e Entretelas Plásticas Estruturantes para Emblemas e Patches Militares (Perforated Vinyl Substrate & Structural Backing for Tactical Patches)",
+    level: "Avançado 🔴",
+    category: "Materiais & Insumos",
+    grammarClass: "Locução nominal masculina composta.",
+    origin: "Do latim vinylum (composto químico derivado do eteno) e perforatus (furado, crivado de pequenos orifícios regulares). Desenvolvido pela indústria bélica e de uniformização tática nos EUA e Alemanha para confecção de distintivos rígidos de alta durabilidade e resistência à intempérie.",
+    summary: "Substrato sintético rígido e microperfurado utilizado como corpo interno de patches militares, brasões e chaveiros bordados, garantindo firmeza extrema sem deformação.",
+    definition: "O Vinil Perfurado e Entretelas Plásticas Estruturantes para Emblemas e Patches Militares (Perforated Polyvinyl Substrate, High-Density Polyethylene Matrix & Tactical Patch Rigid Backing) é a classe de insumos técnicos estruturais constituídos por lâminas poliméricas calandradas (PVC, polietileno de alta densidade - PEAD ou polipropileno) de 0,5 mm a 1,2 mm de espessura, dotadas de perfurações microscópicas regulares ou propriedades termoestáveis anti-fissura. Utilizado como camada base ou alma estrutural sanduíche entre tecidos nobres (como cordura, sarja militar ou ripstop), o vinil perfurado confere ao emblema bordado rigidez mecânica planar absoluta, estabilidade dimensional contra encolhimento por lavagem industrial e resistência hidrófoba contra chuva, lama e umidade. A microperfuração uniforme atua como guia de penetração que dissipa o impacto da agulha em alta velocidade (750 a 900 PPM), impedindo que o plástico rasgue como um papel picotado nas bordas durante a densa costura de cordão de acabamento merrow ou ponto cheio perimétrico.",
+    technicalDetails: "Composição polimérica: PVC plastificado com aditivo anti-UV ou lâmina de PEAD atóxico. Espessura padrão: 0,60 mm (patches padrão de 7 a 10 cm) a 1,00 mm (chaveiros e brasões rígidos suspensos). Densidade de furos: microperfurações a laser com diâmetro de 0,4 mm e passo de 1,2 mm ou matriz macia autovedante com memória elástica. Resistência à temperatura: estabilidade entre -20 °C e +90 °C sem amolecimento ou quebra por fragilização a frio. Agulha recomendada: agulha ponta redonda para plásticos ou ponta de lança para corte limpo (Schmetz #80/12 ou #90/14 Serv 7 reforçada contra deflexão). Densidade de ponto satim na borda: não inferior a 0,45 mm (para evitar corte tipo 'serrilha de selo postal' que destaca o patch do bastidor prematuramente).",
+    construction: [
+      "Placa de vinil polimérico calandrado com memória mecânica elástica",
+      "Camada de tecido exterior em Cordura 500D ou Sarja Pesada 100% poliéster",
+      "Adesivo termoplástico de fixação temporária ativado a quente ou por pressão",
+      "Costura periférica de ponto satim denso com reforço interno de amarração dupla"
+    ],
+    howItWorks: [
+      "1. A bordadeira prende no bastidor uma entretela de alta gramatura ou o próprio vinil perfurado.",
+      "2. Ela posiciona o tecido exterior (tecido militar ou camuflado) sobre a placa plástica e fixa com fita adesiva de bordado.",
+      "3. A máquina borda um ponto corrido de alinhamento periférico prendendo as camadas.",
+      "4. A máquina executa o bordado interno do logotipo e letras com alta precisão, aproveitando a base 100% firme que não deforma.",
+      "5. Em seguida, a máquina borda a borda externa reforçada com ponto de amarração antes do ponto cheio denso.",
+      "6. A peça é retirada do bastidor e o vinil é recortado rente com tesoura de precisão curva ou cortador térmico.",
+      "7. No verso, aplica-se o fecho de contato (velcro) macho por costura perimétrica ou termo-adesivo.",
+      "8. O patch final fica rígido como uma placa metálica, perfeitamente plano e com acabamento de padrão militar internacional."
+    ],
+    beginnerExplanation: "Sabe aqueles emblemas e brasões de polícia, exército, times de airsoft ou chaveiros bordados durinhos que não dobram por nada deste mundo e ficam sempre retinhos e elegantes no uniforme? Eles não usam só tecido e entretela de papel comum! Dentro deles tem uma plaquinha especial de vinil plástico estruturante! Esse plástico funciona como o esqueleto do patch: ele deixa o bordado durinho, reto e à prova d'água! E para a agulha da máquina não quebrar ao bater no plástico duro, esse vinil é feito de um material especial que a agulha fura macio sem rachar! É o segredo industrial para criar chaveiros e patches profissionais de alta resistência que duram anos sem entortar!",
+    practicalExamples: [
+      "Produção seriada de patches táticos com velcro para jaquetas e mochilas militares de forças de segurança.",
+      "Confecção de chaveiros bordados em frente e verso (double-face) com firmeza estrutural perfeita.",
+      "Bordado de brasões e insígnias para motoclubes e equipes esportivas de alta exigência de durabilidade.",
+      "Criação de porta-crachás, tags de bagagem de avião e etiquetas de identificação industrial à prova de água."
+    ],
+    matrixParametersRelation: [
+      "Densidade de Ponto na Borda: Cuidado máximo; nunca use densidade menor que 0,42 mm na borda externa para não picotar o vinil como papel.",
+      "Compensação de Repuxo: Mínima necessária (0,15 mm a 0,20 mm), pois o vinil plástico não estica nem encolhe durante o bordado.",
+      "Tipo de Ponto Underlay: Prefira ponto corrido simples de contorno; evite underlay tatami sob o vinil para não perfurar o substrato em excesso.",
+      "Velocidade da Máquina (PPM): Mantenha entre 650 e 750 PPM para diminuir o atrito térmico da agulha no plástico."
+    ],
+    commonMistakes: [
+      "❌ Usar placas de plástico rígido comum (tipo pastas escolares de PVC seco): a agulha estilhaça o plástico na primeira batida e corta a linha.",
+      "❌ Borda com densidade ultrafechada na borda externa: o excesso de furos atua como um estilete e o patch se solta sozinho no meio do bordado.",
+      "❌ Usar agulha fina e fraca (#65/9) que enverga ao bater no vinil e bate de raspão na lançadeira.",
+      "❌ Deixar a máquina bordar a 1.000 PPM no vinil: o atrito superaquece a agulha, derretendo o plástico e colando resíduos na ponta da agulha."
+    ],
+    troubleshootingTips: [
+      "O patch se desprendeu do bastidor e rasgou nas bordas antes de terminar o bordado: Perfuração excessiva tipo picotado de papel; aumente o espaçamento de ponto da borda para 0,45 mm e reduza a densidade do underlay.",
+      "A agulha está saindo grudenta e a linha arrebenta a cada 100 pontos: Aquecimento térmico da haste fundindo o vinil; reduza a velocidade da máquina para 700 PPM e aplique uma gota de lubrificante de silicone para linhas de bordar na linha superior.",
+      "A borda cortada do vinil ficou branca e esfarelando após o recorte: Uso de tesoura sem corte ou plástico com excesso de carbonato de cálcio; use tesouras de titânio bem afiadas ou cauterize a borda com pirógrafo de ponta fina."
+    ],
+    dicaArtrelados: "O 'Macete da Agulha Reforçada e do Silicone Líquido da Artrelados': Vai bordar patches durinhos com vinil estruturante ou couro sintético pesado? Duas regrinhas salvam o seu dia: 1ª) Coloque uma agulha nova e reforçada, de preferência uma agulha Schmetz com haste mais grossa (#80/12 ou #90/14 ponta bola leve); 2ª) Pingue UMA única gotinha de óleo de silicone puro especial para bordado no cone de linha ou passe um cotonete com silicone na canaleta da agulha! O silicone faz a agulha deslizar pelo plástico frio como manteiga quente, sem grudar e sem aquecer!",
+    voceSabia: "Os patches táticos militares modernos com vinil estruturante precisam passar por testes de resistência balística e testes térmicos em câmaras de -40 °C no Ártico até +80 °C em desertos para garantir que os distintivos não rachem nem percam a legibilidade em combate!",
+    practicalExercise: "Fabricação do Seu Primeiro Chaveiro Durinho com Vinil: Corte um pedaço de vinil estruturante ou placa flexível de 0,8 mm no tamanho 8x4 cm. Prenda a entretela no bastidor, fixe o vinil com fita crepe e borde seu nome com ponto cheio e borda reforçada. Recorte com tesoura rente ao cordão e fure a ponta com alicate furador para colocar a argola de metal: você terá um chaveiro profissional eterno!",
+    quickSummary: "Lâmina plástica sintética firme e resistente usada como alma interna de patches e chaveiros, dando rigidez sem deixar a peça deformar.",
+    relatedTerms: [
+      "Emblema Bordado / Patch Bordado (Embroidered Patch)",
+      "Borda de Acabamento Merrow / Ponto Merrow (Merrow Edge)",
+      "Fecho de Contato / Fita de Gancho e Argola (Velcro)",
+      "Agulha com Revestimento de Titânio ou Haste Reforçada (Serv 7)",
+      "Termocolante Definitivo para Apliques e Emblemas"
+    ],
+    tags: [
+      "v-085",
+      "vinil-perfurado",
+      "patches-militares",
+      "emblemas-taticos",
+      "chaveiros-bordados",
+      "materiais-estruturais",
+      "rigidez-bordado",
+      "resistencia-climatica",
+      "insumos-profissionais",
+      "artrelados"
+    ],
+    sourceReference: "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
+    bibliographicReferences: [
+      "TACTICAL GEAR & EMBROIDERY ASSOCIATION. Standards for Military Grade Insignia and Substrate Rigidity. Fort Bragg: TGEA, 2022.",
+      "GERMAN PLASTICS INSTITUTE. High-Density Polymer Sheets in Heavy-Duty Textile Applications. Darmstadt, 2021.",
+      "JOURNAL OF INDUSTRIAL TEXTILES. Perforated Polymeric Substrates for Embroidery and Composite Badges. Zurich, 2023.",
+      "ARTRELADOS. O Segredo dos Patches Militares Indestrutíveis: Como Usar Vinil e Entretelas Plásticas com Segurança. Curitiba, 2024."
+    ],
+    updatedAt: "2026-09-16"
   }
 ];
