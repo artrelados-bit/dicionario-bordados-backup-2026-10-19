@@ -1337,8 +1337,8 @@ export const VERBETES_RESTORED_PART3: Verbete[] = [
     "voceSabia": "O ponto de alinhavo (basting stitch) leva menos de 20 segundos para rodar na máquina e salva horas de trabalho ao prender o tecido com total firmeza!",
     "practicalExercise": "Programe um quadrado simples no software e ative o ponto de basting de 5 mm ao redor para testar a fixação antes de bordar.",
     "quickSummary": "Ponto decorativo em forma de 'E' que prende as bordas de tecidos de aplique com estética tradicional e toque macio.",
-    "imageUrl": "/images/p001_ponto_e_stitch_v1.jpg?v=1",
-    "imageCaption": "Esquema Técnico do Ponto Caseado (E-Stitch): Geometria do ponto de fixação para apliques, demonstrando o espaçamento das hastes horizontais e a borda externa flexível ideal para tecidos delicados.",
+    "imageUrl": "/images/p001_ponto_e_stitch_v4.jpg?v=4",
+    "imageCaption": "Esquema Técnico de Aplique em Máquina Eletrônica de 1 Agulha: Cabeçote com barra de agulha e calcador salteador com mola executando o ponto caseado (E-Stitch) em tempo real sobre o bastidor, fixando a borda do tecido de aplique com maciez e segurança.",
     "relatedTerms": [
       "Ponto Caseado (Blanket Stitch)",
       "Ponto de Alinhavo (Basting Stitch)",
@@ -1407,8 +1407,8 @@ export const VERBETES_RESTORED_PART3: Verbete[] = [
     "voceSabia": "O ponto de alinhavo (basting stitch) leva menos de 20 segundos para rodar na máquina e salva horas de trabalho ao prender o tecido com total firmeza!",
     "practicalExercise": "Programe um quadrado simples no software e ative o ponto de basting de 5 mm ao redor para testar a fixação antes de bordar.",
     "quickSummary": "Contorno de pontos largos (4 a 6 mm) bordado ao redor da área de trabalho para prender o tecido à entretela antes do desenho principal.",
-    "imageUrl": "/images/p002_ponto_puc_basting_v1.jpg?v=1",
-    "imageCaption": "Esquema Técnico do Ponto de Alinhavo (Basting / Ponto Puc): Percurso perimetral em pontos largos de ancoragem prévia, estabilizando o tecido na entretela para evitar deslocamentos.",
+    "imageUrl": "/images/p002_ponto_puc_basting_v5.jpg?v=5",
+    "imageCaption": "Esquema Técnico de Ponto Puc em Máquina de Bordar Doméstica de 1 Agulha: Corpo compacto de mesa com visor digital e módulo de bordado acoplado na lateral, conduzindo o bastidor retangular na costura perimetral tracejada de alinhavo para fixação do tecido à entretela.",
     "relatedTerms": [
       "Ponto Caseado (Blanket Stitch)",
       "Ponto de Alinhavo (Basting Stitch)",
