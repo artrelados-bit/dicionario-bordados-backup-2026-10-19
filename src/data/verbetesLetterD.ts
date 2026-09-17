@@ -39,12 +39,26 @@ export const VERBETES_LETTER_D: Verbete[] = [
     "limitations": [
       "Aumentar a densidade indiscriminadamente não corrige falhas causadas por underlay deficiente ou falta de compensação de repuxo."
     ],
-    "commonErrors": [
-      "❌ Aumentar a densidade simplesmente para tentar esconder o tecido que está aparecendo.",
-      "❌ Utilizar a mesma configuração de densidade para todos os tipos de tecido.",
+    "practicalExamples": [
+      "Bordado de monogramas em toalhas de banho aveludadas utilizando densidade 0.40mm para não afundar os fios.",
+      "Ajuste fino de densidade de 0.42mm para 0.46mm em camisetas de malha fina de algodão para evitar franzimento.",
+      "Programação de logotipo corporativo em ponto Tatami sobre sarja pesada com espaçamento de 0.38mm.",
+      "Calibração de colunas finas em ponto Satin para letras de 5 mm com densidade de 0.36mm."
+    ],
+    "matrixParametersRelation": [
+      "Underlay (Sub-ponto): Uma base estrutural bem programada permite reduzir a densidade de acabamento em até 20% mantendo a cobertura impecável.",
+      "Compensação de Repuxo (Pull Compensation): Quanto mais denso o preenchimento, maior a tração sobre o tecido, exigindo maior compensação lateral (+0.30mm a +0.45mm).",
+      "Comprimento do Ponto: Em densidades fechadas, pontos muito curtos (abaixo de 1.5mm) causam acúmulo de linha e furos no tecido.",
+      "Tensão da Linha: Densidades excessivas geram rigidez se a tensão superior estiver muito apertada."
+    ],
+    "commonMistakes": [
+      "❌ Aumentar a densidade simplesmente para tentar esconder o tecido que está aparecendo, em vez de corrigir o underlay.",
+      "❌ Utilizar a mesma configuração de densidade para todos os tipos de tecido, sem considerar o peso da malha.",
       "❌ Confundir densidade com a quantidade total de pontos da matriz.",
       "❌ Redimensionar uma matriz sem recalcular ou revisar a nova distribuição dos pontos."
     ],
+    "imageUrl": "/images/d001_densidade_pontos_v1.jpg?v=1",
+    "imageCaption": "Esquema Técnico de Densidade de Pontos: Comparativo de espaçamento linear entre passagens de agulha (de 0,28 mm a 0,60 mm), demonstrando a cobertura do tecido, o equilíbrio do relevo e a prevenção de rigidez.",
     "voceSabia": "Uma matriz profissional não procura necessariamente utilizar o maior número possível de pontos. O objetivo é encontrar o equilíbrio exato entre cobertura, qualidade, estabilidade e eficiência, eliminando pontos desnecessários.",
     "curiosidadeTecnica": "A densidade pode ser representada de formas diferentes nos softwares: alguns usam o espaçamento linear em milímetros (quanto menor o número, mais denso), enquanto outros utilizam linhas por polegada ou densidade percentual.",
     "dicaArtrelados": "Não pense que 'mais pontos = melhor bordado'. Antes de aumentar a densidade, procure descobrir por que o tecido está aparecendo. Verifique: tipo de ponto → direção → underlay → tecido → estabilizador → linha → densidade. E lembre-se: pontos desnecessários custam dinheiro em tempo de máquina e linha!",
@@ -124,11 +138,26 @@ export const VERBETES_LETTER_D: Verbete[] = [
     "limitations": [
       "Uma matriz com densidade de bordado visualmente perfeita na tela pode reagir de forma diferente dependendo do tipo de tecido real."
     ],
-    "commonErrors": [
+    "practicalExamples": [
+      "Planejamento de matriz para camisetas de malha fria onde a densidade global é reduzida para manter o toque suave.",
+      "Cálculo de custo de produção de fardamento comparando matriz com 18.000 pontos vs. matriz otimizada com 12.500 pontos.",
+      "Equilíbrio de preenchimento em jalecos médicos com brasões institucionais evitando o repuxo no bolso.",
+      "Desenvolvimento de bordados para bonés estruturados que toleram maior densidade de bordado sem deformar."
+    ],
+    "matrixParametersRelation": [
+      "Área Total da Matriz: Matrizes grandes exigem densidade de bordado global mais arejada para não transformar a peça em uma armadura.",
+      "Tipo de Substrato Têxtil: Tecidos com elasticidade (elastano/lycra) pedem menor concentração global de pontos do que tecidos planos rígidos.",
+      "Camadas de Cor: A sobreposição de 3 ou mais cores em uma mesma área multiplica a densidade local, exigindo corte de pontos ocultos.",
+      "Tempo de Máquina: A densidade global determina diretamente o tempo de execução e o custo energético da produção."
+    ],
+    "commonMistakes": [
       "❌ Avaliar a qualidade de uma matriz apenas pelo número total de pontos sem observar a distribuição.",
       "❌ Ignorar a combinação linha + tecido + ponto + estabilizador.",
-      "❌ Não considerar o impacto do underlay na densidade global da matriz."
+      "❌ Não considerar o impacto do underlay na densidade global da matriz.",
+      "❌ Aplicar preenchimentos pesados de grande extensão sobre tecidos elásticos sem alívio de peso."
     ],
+    "imageUrl": "/images/d002_densidade_bordado_v1.jpg?v=1",
+    "imageCaption": "Esquema Técnico de Densidade de Bordado: Análise da concentração global de pontos em relação à área e peso têxtil, diferenciando áreas de preenchimento pesado versus matrizes leves para peças delicadas.",
     "voceSabia": "Dois bordados com exatamente a mesma quantidade de pontos podem ter densidades completamente distintas se um deles tiver o dobro da área física do outro!",
     "curiosidadeTecnica": "Dois preenchimentos com quantidade semelhante de pontos podem apresentar percepções visuais diferentes devido à inclinação dos pontos, ao tipo de ponto e à reflexão da luz na linha de poliéster.",
     "dicaArtrelados": "Quando analisar uma matriz, não olhe somente para o número de pontos. Observe a distribuição deles: quantidade + distribuição + tecido + linha + estabilização + tempo de execução. Isso melhora o bordado e afina sua precificação!",
@@ -199,11 +228,26 @@ export const VERBETES_LETTER_D: Verbete[] = [
     "limitations": [
       "Transições muito abruptas podem resultar em falhas de cobertura ou visual desigual se o tecido de fundo tiver alto contraste."
     ],
-    "commonErrors": [
+    "practicalExamples": [
+      "Transição em degradê de amarelo para laranja em pétalas de girassol utilizando duas camadas com densidade variável oposta.",
+      "Criação de texturas de sombra realista sob a gola de um brasão sem adicionar linhas pesadas de contorno.",
+      "Efeito de esfumado (fade-out) em nuvens ou fumaça estilizada abrindo a densidade de 0.40mm para 1.50mm.",
+      "Digitalização de penugem ou pelos de animais combinando pontos de comprimentos alternados com gradiente de espaçamento."
+    ],
+    "matrixParametersRelation": [
+      "Espaçamento Inicial vs. Final: Define a suavidade da transição; transições suaves exigem amplitude gradual (ex: 0.38mm a 1.20mm em pelo menos 15mm de percurso).",
+      "Underlay Adaptativo: O sub-ponto deve acompanhar a zona densa e recuar nas zonas abertas para não transparecer entre os fios abertos.",
+      "Ângulo de Ponto (Stitch Angle): O direcionamento da luz nos pontos potencializa o efeito visual da densidade variável.",
+      "Tipo de Linha: Fios de poliéster trilobal de alto brilho maximizam o efeito tridimensional do degradê."
+    ],
+    "commonMistakes": [
       "❌ Alterar a densidade apenas para tentar reduzir pontos sem planejar o efeito visual.",
       "❌ Criar variações exageradas entre áreas contíguas sem uma zona de transição suave.",
-      "❌ Esquecer de ajustar o underlay para acompanhar a área mais aberta do gradiente."
+      "❌ Esquecer de ajustar o underlay para acompanhar a área mais aberta do gradiente.",
+      "❌ Usar gradiente muito aberto sobre tecido escuro com linha clara sem avaliar o contraste do fundo."
     ],
+    "imageUrl": "/images/d003_densidade_variavel_v1.jpg?v=1",
+    "imageCaption": "Esquema Técnico de Densidade Variável: Aplicação de gradiente e variação progressiva de espaçamento no software de bordado para criação de degradês, texturas e efeitos de luz e sombra tridimensionais.",
     "voceSabia": "A densidade variável permite criar sensação de profundidade e realismo tridimensional em pelagens de animais e pétalas sem precisar trocar de cor de linha.",
     "curiosidadeTecnica": "Em softwares profissionais, pequenas alterações no espaçamento produzem variações perceptíveis na reflexão da luz na linha, transformando a distribuição dos pontos em um elemento artístico autônomo.",
     "dicaArtrelados": "Use a densidade variável com propósito! Antes de alterar a densidade de uma região, pergunte: 'Quero mudar a cobertura, a textura, o peso ou apenas corrigir um problema?' Se for para corrigir falhas, revise primeiro a estrutura e o underlay da matriz.",
