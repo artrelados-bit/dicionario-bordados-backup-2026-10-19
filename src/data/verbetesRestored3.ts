@@ -1337,6 +1337,8 @@ export const VERBETES_RESTORED_PART3: Verbete[] = [
     "voceSabia": "O ponto de alinhavo (basting stitch) leva menos de 20 segundos para rodar na máquina e salva horas de trabalho ao prender o tecido com total firmeza!",
     "practicalExercise": "Programe um quadrado simples no software e ative o ponto de basting de 5 mm ao redor para testar a fixação antes de bordar.",
     "quickSummary": "Ponto decorativo em forma de 'E' que prende as bordas de tecidos de aplique com estética tradicional e toque macio.",
+    "imageUrl": "/images/p001_ponto_e_stitch_v1.jpg?v=1",
+    "imageCaption": "Esquema Técnico do Ponto Caseado (E-Stitch): Geometria do ponto de fixação para apliques, demonstrando o espaçamento das hastes horizontais e a borda externa flexível ideal para tecidos delicados.",
     "relatedTerms": [
       "Ponto Caseado (Blanket Stitch)",
       "Ponto de Alinhavo (Basting Stitch)",
@@ -1405,6 +1407,8 @@ export const VERBETES_RESTORED_PART3: Verbete[] = [
     "voceSabia": "O ponto de alinhavo (basting stitch) leva menos de 20 segundos para rodar na máquina e salva horas de trabalho ao prender o tecido com total firmeza!",
     "practicalExercise": "Programe um quadrado simples no software e ative o ponto de basting de 5 mm ao redor para testar a fixação antes de bordar.",
     "quickSummary": "Contorno de pontos largos (4 a 6 mm) bordado ao redor da área de trabalho para prender o tecido à entretela antes do desenho principal.",
+    "imageUrl": "/images/p002_ponto_puc_basting_v1.jpg?v=1",
+    "imageCaption": "Esquema Técnico do Ponto de Alinhavo (Basting / Ponto Puc): Percurso perimetral em pontos largos de ancoragem prévia, estabilizando o tecido na entretela para evitar deslocamentos.",
     "relatedTerms": [
       "Ponto Caseado (Blanket Stitch)",
       "Ponto de Alinhavo (Basting Stitch)",
@@ -1473,6 +1477,8 @@ export const VERBETES_RESTORED_PART3: Verbete[] = [
     "voceSabia": "O ponto de alinhavo (basting stitch) leva menos de 20 segundos para rodar na máquina e salva horas de trabalho ao prender o tecido com total firmeza!",
     "practicalExercise": "Programe um quadrado simples no software e ative o ponto de basting de 5 mm ao redor para testar a fixação antes de bordar.",
     "quickSummary": "Roda dentada usinada em alumínio de alta resistência que traciona a correia do pantógrafo sem escorregamento.",
+    "imageUrl": "/images/p003_polia_sincronizadora_v1.jpg?v=1",
+    "imageCaption": "Esquema Técnico da Polia Sincronizadora do Pantógrafo: Roda dentada usinada com flange guia, demonstrando o engrenamento 1:1 com a correia dentada para movimentação precisa dos eixos X e Y.",
     "relatedTerms": [
       "Ponto Caseado (Blanket Stitch)",
       "Ponto de Alinhavo (Basting Stitch)",
