@@ -150,6 +150,8 @@ export const VERBETES_LETTER_W_PART14: Verbete[] = [
     voceSabia: "O ponto triplo foi batizado em inglês de 'Bean Stitch' (ponto feijão) porque os três fios de linha entrelaçados formam uma pequena elevação arredondada e brilhante que lembra o formato de um grãozinho de feijão!",
     practicalExercise: "No seu software, trace duas linhas retas de 10 cm: programe a primeira como 'Ponto Corrido Simples (Run)' e a segunda como 'Ponto Triplo (Triple Bean)'. Borde ambas lado a lado em um retalho e veja a diferença brutal de espessura e destaque visual entre elas.",
     quickSummary: "Walk Stitch é o ponto corrido linear simples de transporte, e Triple Bean é o pesponto triplo encorpado de ida e volta que cria contornos grossos e nítidos.",
+    imageUrl: "/images/p003_ponto_corrido_v1.jpg?v=1",
+    imageCaption: "Anatomia do Ponto Corrido e Ponto Triplo (Bean Stitch): Estrutura de caminhamento linear, passo de ponto ideal (2,0 mm a 2,5 mm) e reforço tridimensional de contornos.",
     relatedTerms: ["Ponto Corrido (Run Stitch)", "Ponto Triplo (Triple Bean)", "Redwork", "Line Art", "Underpathing", "Comprimento de Ponto"],
     tags: ["walkstitch", "triplebean", "pontocorrido", "pontotriplo", "contorno", "redwork", "programacao"]
   },

@@ -787,6 +787,8 @@ export const VERBETES_RESTORED_PART3: Verbete[] = [
     "voceSabia": "As agulhas ponta de bola SES não furam os fios da malha; elas suavemente empurram as fibras para os lados como se fossem dedos abrindo passagem!",
     "practicalExercise": "Teste a função Offset no painel da sua máquina com um bastidor vazio e veja como o pantógrafo se move e retorna com precisão.",
     "quickSummary": "Anel cerâmico vitrificado instalado nos pontos de curva da linha para eliminar o atrito de fricção em alta velocidade.",
+    "imageUrl": "/images/o001_olhal_ceramica_v2.jpg?v=2",
+    "imageCaption": "Esquema Técnico do Olhal de Cerâmica: Desenho mecânico em corte exibindo o anel cerâmico vitrificado de baixa fricção montado na haste guia, garantindo fluxo suave da linha sem atrito abrasivo.",
     "relatedTerms": [
       "Ponta de Bola (Ball Point SES)",
       "Óleo Mineral Lubrificante",
@@ -855,6 +857,8 @@ export const VERBETES_RESTORED_PART3: Verbete[] = [
     "voceSabia": "As agulhas ponta de bola SES não furam os fios da malha; elas suavemente empurram as fibras para os lados como se fossem dedos abrindo passagem!",
     "practicalExercise": "Teste a função Offset no painel da sua máquina com um bastidor vazio e veja como o pantógrafo se move e retorna com precisão.",
     "quickSummary": "Vibração ressonante lateral da agulha que pode causar choque contra a lançadeira em velocidades críticas de rotação.",
+    "imageUrl": "/images/o002_oscilacao_harmonica_v1.jpg?v=1",
+    "imageCaption": "Esquema de Ressonância e Oscilação Harmônica: Análise da vibração lateral da barra de agulha em velocidade de cruzeiro e calibração de folga com a ponta da lançadeira (0,05 mm a 0,10 mm).",
     "relatedTerms": [
       "Ponta de Bola (Ball Point SES)",
       "Óleo Mineral Lubrificante",
@@ -923,6 +927,8 @@ export const VERBETES_RESTORED_PART3: Verbete[] = [
     "voceSabia": "As agulhas ponta de bola SES não furam os fios da malha; elas suavemente empurram as fibras para os lados como se fossem dedos abrindo passagem!",
     "practicalExercise": "Teste a função Offset no painel da sua máquina com um bastidor vazio e veja como o pantógrafo se move e retorna com precisão.",
     "quickSummary": "Algoritmo de software que reordena os objetos bordados para reduzir os deslocamentos longos do pantógrafo e economizar cortes.",
+    "imageUrl": "/images/o003_otimizador_saltos_v2.jpg?v=2",
+    "imageCaption": "Esquema Técnico de Otimização de Saltos no Software: Comparativo do percurso do pantógrafo antes (deslocamentos aleatórios com múltiplos cortes) e depois (trajeto contínuo otimizado).",
     "relatedTerms": [
       "Ponta de Bola (Ball Point SES)",
       "Óleo Mineral Lubrificante",

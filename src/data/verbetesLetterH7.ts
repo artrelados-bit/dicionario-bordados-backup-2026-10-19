@@ -98,6 +98,8 @@ export const VERBETES_LETTER_H_PART7: Verbete[] = [
     voceSabia: "Em um dia de trabalho intenso de 8 horas a 800 PPM, uma única barra de agulha sobe e desce quase 400.000 vezes, percorrendo uma distância linear acumulada de mais de 14 quilômetros de vai-e-vem dentro de suas buchas!",
     practicalExercise: "Abra a tampa frontal ou olhe as barras de agulha da sua máquina: localize os pequenos feltros brancos de lubrificação no topo das hastes e coloque uma gotinha de óleo limpo!",
     quickSummary: "Haste de aço temperado e buchas de precisão que garantem a subida e descida reta da agulha sem folga lateral.",
+    imageUrl: "/images/h002_haste_barra_agulha_bucha_v1.jpg?v=1",
+    imageCaption: "Anatomia Mecânica da Barra de Agulha: Alinhamento vertical da haste, buchas sinterizadas de guia e folga calibrada para evitar oscilações em alta velocidade.",
     relatedTerms: ["Haste Fixadora de Agulha", "Hook Timing", "Higienização & Assepsia do Cabeçote", "Agulha de Bordado"],
     tags: ["h-038", "barra de agulha", "needle bar", "bucha guia", "lubrificacao", "mecanica fina", "manutencao", "artrelados"],
     bibliographicReferences: [

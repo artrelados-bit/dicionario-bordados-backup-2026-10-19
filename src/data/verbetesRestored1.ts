@@ -4327,6 +4327,8 @@ export const VERBETES_RESTORED_PART1: Verbete[] = [
     "voceSabia": "O filme hidrossolúvel dissolve-se totalmente em água sem deixar nenhum cheiro ou resíduo químico, sendo 100% biodegradável!",
     "practicalExercise": "Coloque um pedacinho de filme hidrossolúvel dentro de um copo de água morna e veja ele sumir completamente em menos de 5 segundos!",
     "quickSummary": "Eixo metálico vertical com parafuso de engate que sustenta e posiciona o pé calcador de bordado.",
+    "imageUrl": "/images/h001_haste_fixacao_calcador_v1.jpg?v=1",
+    "imageCaption": "Esquema Técnico da Haste de Fixação do Calcador: Braço de sustentação vertical, parafuso de aperto mecânico e ajuste de folga dinâmica para evitar o efeito de elevação do tecido (flagging).",
     "relatedTerms": [
       "Entretela Hidrossolúvel (Water-Soluble)",
       "Pé Calcador de Bordado (Presser Foot)",
@@ -4395,6 +4397,8 @@ export const VERBETES_RESTORED_PART1: Verbete[] = [
     "voceSabia": "O filme hidrossolúvel dissolve-se totalmente em água sem deixar nenhum cheiro ou resíduo químico, sendo 100% biodegradável!",
     "practicalExercise": "Coloque um pedacinho de filme hidrossolúvel dentro de um copo de água morna e veja ele sumir completamente em menos de 5 segundos!",
     "quickSummary": "Filme plástico transparente espesso (80 a 100 microns) que apoia os pontos sobre tecidos felpudos sem afundar.",
+    "imageUrl": "/images/h002_hidrossoluvel_alta_densidade_v1.jpg?v=1",
+    "imageCaption": "Aplicação do Filme Hidrossolúvel de Alta Densidade: Barreira hidrossolúvel de PVA sobre superfícies texturizadas e toalhas felpudas, mantendo a nitidez e o brilho dos pontos na superfície.",
     "relatedTerms": [
       "Entretela Hidrossolúvel (Water-Soluble)",
       "Pé Calcador de Bordado (Presser Foot)",
@@ -4463,6 +4467,8 @@ export const VERBETES_RESTORED_PART1: Verbete[] = [
     "voceSabia": "O filme hidrossolúvel dissolve-se totalmente em água sem deixar nenhum cheiro ou resíduo químico, sendo 100% biodegradável!",
     "practicalExercise": "Coloque um pedacinho de filme hidrossolúvel dentro de um copo de água morna e veja ele sumir completamente em menos de 5 segundos!",
     "quickSummary": "Anel metálico ou plástico que controla o cone de dispersão da linha em rotações acima de 900 PPM.",
+    "imageUrl": "/images/h003_helice_desbobinamento_v1.jpg?v=1",
+    "imageCaption": "Mecanismo da Hélice e Guia Espiral de Desbobinamento: Controle dinâmico do balão centrífugo do fio superior, garantindo desenrolamento contínuo e sem torções em cones industriais.",
     "relatedTerms": [
       "Entretela Hidrossolúvel (Water-Soluble)",
       "Pé Calcador de Bordado (Presser Foot)",

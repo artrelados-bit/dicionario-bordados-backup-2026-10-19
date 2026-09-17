@@ -109,6 +109,8 @@ export const VERBETES_LETTER_O_PART9: Verbete[] = [
     voceSabia: "Na corte francesa de Versalhes no século XVIII, os vestidos de organza bordados com fios de seda e pérolas eram guardados em caixas de veludo perfumadas com lavanda e custavam mais do que uma carruagem de luxo puxada por 4 cavalos!",
     practicalExercise: "Prenda um pedaço de organza com entretela solúvel no bastidor: encha a bobina com linha dourada igual a de cima e borde uma pequena borboleta. Lave na torneira e veja a mágica da borboleta flutuando na transparência da seda!",
     quickSummary: "Técnica de alta-costura com entretela hidrossolúvel e bobina de mesma cor para bordar tecidos transparentes com perfeição.",
+    imageUrl: "/images/o002_organza_tecidos_v1.jpg?v=1",
+    imageCaption: "Técnica de Bordado em Organza e Tecidos Transparentes: Estabilização flutuante sobre entretela hidrossolúvel, controle de densidade e acabamento limpo sem marcas de aro.",
     relatedTerms: [
       "Entretela Hidrossolúvel (Water-Soluble)",
       "Agulha Microtex / Ponta Aguda Aguçada (SPI)",
@@ -238,6 +240,8 @@ export const VERBETES_LETTER_O_PART9: Verbete[] = [
     voceSabia: "O óleo branco mineral de alta pureza usado nas máquinas de bordar é tão puro e limpo que possui a mesma base utilizada em cosméticos infantis para pele de bebês e na indústria farmacêutica!",
     practicalExercise: "Pegue seu frasco de óleo mineral e pingue 1 gota na ponta do dedo: sinta a textura fininha, transparente e sem cheiro. Aplique exatamente 1 gota na pista da lançadeira da sua máquina e sinta a maciez imediata no giro do volante!",
     quickSummary: "Óleo mineral transparente de alta pureza e baixa viscosidade que lubrifica a lançadeira sem manchar tecidos.",
+    imageUrl: "/images/o003_oleo_lubrificante_v2.jpg?v=1",
+    imageCaption: "Manutenção Preventiva do Cabeçote e Lançadeira: Pontos críticos de lubrificação diária com óleo mineral branco especial (ISO VG 10), garantindo deslizamento sem manchar tecidos.",
     relatedTerms: [
       "Manutenção Preventiva e Lubrificação",
       "Lançadeira Rotativa",

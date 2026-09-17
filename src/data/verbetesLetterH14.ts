@@ -197,6 +197,8 @@ export const VERBETES_LETTER_H_PART14: Verbete[] = [
     ],
     "practicalExercise": "Crie uma matriz com 4 quadrados de ponto cheio de 15 x 15 mm formando uma cruz com vão central de 10 mm. Programe uma parada de máquina no centro, recorte o quadradinho do meio com cuidado e mande a máquina bordar uma cruzeta de barras tecidas sobre o vazio com entretela solúvel. Lave e veja o milagre do Hardanger!",
     "quickSummary": "O Hardanger é o bordado clássico norueguês feito em linho com desenhos geométricos retos e janelinhas vazadas com efeito de renda nobre.",
+    "imageUrl": "/images/h001_hardanger_eletronico_v1.jpg?v=1",
+    "imageCaption": "Esquema Técnico de Hardanger e Bordado Vazado: Estrutura geométrica de pontos cheios (Kloster blocks), áreas de corte e fios tecidos com sustentação mecânica para máquina de bordar.",
     "beginnerExplanation": "É aquele bordado chiquérrimo típico dos países europeus, onde a máquina faz blocos retos perfeitos e a gente corta alguns quadradinhos do tecido no meio, criando janelinhas vazadas com rendinhas suspensas no ar! Parece coisa de castelo real!",
     "recommendedSettings": {
       "speedPPM": "650 a 750 PPM",

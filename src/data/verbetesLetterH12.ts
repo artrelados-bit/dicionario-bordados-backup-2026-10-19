@@ -41,6 +41,8 @@ export const VERBETES_LETTER_H_PART12: Verbete[] = [
     voceSabia: "Em máquinas industriais de alta velocidade, a haste do calcador realiza mais de 1.000 ciclos completos de subida e descida por minuto, suportando impactos repetitivos por meio de buchas de bronze sinterizado autolubrificantes.",
     practicalExercise: "Com a máquina desligada e a agulha na posição mais baixa, coloque uma folha de papel dobrada sob o calcador. O papel deve deslizar com uma leve resistência, sem estar preso nem completamente solto. Esse é o ponto ideal de folga mecânica.",
     quickSummary: "Haste de sustentação e ajuste de altura do pezinho da máquina que impede o tecido de pular durante o ciclo de costura.",
+    imageUrl: "/images/h003_haste_calcador_altura_v1.jpg?v=1",
+    imageCaption: "Mecanismo da Haste do Calcador: Regulagem da folga dinâmica de elevação (0,5 mm a 1,0 mm) em relação ao tecido, prevenindo o efeito de flag (hasteamento do tecido).",
     relatedTerms: [
       "Calcador de Bordado (Presser Foot)",
       "Flagging (Efeito de Elevação do Tecido)",

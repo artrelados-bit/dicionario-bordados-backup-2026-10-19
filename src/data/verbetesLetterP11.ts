@@ -138,6 +138,8 @@ export const VERBETES_LETTER_P_PART11: Verbete[] = [
     ],
     "practicalExercise": "No seu programa de bordado, desenhe um retângulo de 6x4 cm. Aplique ponto Tatami com ângulo a 0° (reto) e veja a simulação 3D. Depois mude o ângulo para 45°: observe como a textura ganha vida e reflete a luz de forma muito mais elegante e uniforme!",
     "quickSummary": "O ponto de preenchimento feito de várias costuras juntinhas para cobrir desenhos grandes sem deixar fios soltos.",
+    "imageUrl": "/images/p002_ponto_tatami_v1.jpg?v=1",
+    "imageCaption": "Anatomia do Ponto Tatami: Distribuição escalonada de pontos de penetração, inclinação angular anti-repuxo e grade de suporte cruzado para cobertura uniforme.",
     "beginnerExplanation": "Quando você precisa pintar uma área grande no bordado (como o fundo de um escudo ou o corpo de um bichinho), você não pode usar o ponto cheio porque os fios ficariam muito compridos e soltos. O ponto Tatami faz milhares de pontinhos curtinhos e organizados como uma esteira, cobrindo tudo com perfeição e sem repuxar o tecido!",
     "updatedAt": "2026-08-29"
   },
@@ -273,6 +275,8 @@ export const VERBETES_LETTER_P_PART11: Verbete[] = [
     ],
     "practicalExercise": "Abra seu programa de criação de matrizes e digite uma letra 'M' maiúscula com 3 cm de altura em ponto cheio. Aproxime a tela com zoom: meça com a régua virtual a largura das colunas. Veja como as linhas paralelas de satim criam uma borda brilhante e perfeita!",
     "quickSummary": "O ponto em ziguezague fechadinho que dá brilho acetinado e relevo às letras e contornos.",
+    "imageUrl": "/images/p001_ponto_satim_v1.jpg?v=1",
+    "imageCaption": "Anatomia do Ponto Cheio (Satin): Estrutura de colunas paralelas com brilho acetinado, sub-ponto de sustentação (underlay) e limites seguros de comprimento (1,5 mm a 7,0 mm).",
     "beginnerExplanation": "O Ponto Cheio (ou Satim) é aquele ponto clássico e brilhante usado para escrever nomes e contornar desenhos. A linha vai de um lado ao outro da letra sem parar no meio, fazendo a luz bater e brilhar como cetim. Para ficar lindo e seguro, a letra não pode ser nem fininha demais nem larga demais!",
     "updatedAt": "2026-08-29"
   },
