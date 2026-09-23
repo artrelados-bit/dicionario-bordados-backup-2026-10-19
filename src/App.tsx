@@ -466,8 +466,11 @@ export default function App() {
         const techNorm = normalize(v.technicalDetails || "");
         const tagsNorm = normalize((v.tags || []).join(" "));
         const appsNorm = normalize((v.applications || []).join(" "));
+        const beginnerNorm = normalize(v.beginnerExplanation || "");
+        const dicaNorm = normalize(v.dicaArtrelados || "");
+        const examplesNorm = normalize(Array.isArray(v.examples) ? v.examples.join(" ") : "");
 
-        const fullContent = `${codeNorm} ${termNorm} ${summaryNorm} ${definitionNorm} ${techNorm} ${tagsNorm} ${appsNorm}`;
+        const fullContent = `${codeNorm} ${termNorm} ${summaryNorm} ${definitionNorm} ${techNorm} ${tagsNorm} ${appsNorm} ${beginnerNorm} ${dicaNorm} ${examplesNorm}`;
 
         let score = 0;
 

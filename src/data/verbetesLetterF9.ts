@@ -214,23 +214,24 @@ export const VERBETES_LETTER_F_PART9: Verbete[] = [
     category: "Acabamento & Finalização",
     grammarClass: "Substantivo masculino composto.",
     origin: "Do inglês tender touch (toque suave/carinhoso) e soft seal (selagem macia). Material termocolante ultrafino de malha de poliéster hipoalergênica desenvolvido nos Estados Unidos nos anos 1990 para proteção de peles sensíveis de bebês.",
-    summary: "Película termocolante de malha ultrafina e sedosa aplicada com ferro no avesso do bordado, que cobre todos os nós e linhas para não pinicar a pele sensível.",
-    definition: "O Forro Protetor de Avesso Termocolante (Tender Touch / Soft Seal / Cloud Cover / Termoprotetor Hipoalergênico para Bebês) é uma malha ultrafina 100% poliéster ou poliamida com elasticidade bidirecional, recoberta em um dos lados por uma microcamada de adesivo termoplástico de baixa fusão. Aplicado com o ferro de passar morno diretamente sobre o avesso do bordado pronto (bodies, camisetas infantis, lingeries e pijamas), ele se funde suavemente sobre as linhas de arremate, nós e pontas de entretela, selando o avesso com uma textura aveludada, macia e sedosa, eliminando qualquer risco de atrito, arranhão ou irritação alérgica na pele delicada de bebês e crianças.",
+    summary: "Película termocolante de malha ultrafina e sedosa aplicada com ferro no avesso do bordado em camisetas, t-shirts e bodies, cobrindo nós e linhas para não coçar, pinicar ou causar incômodo na pele.",
+    definition: "O Forro Protetor de Avesso Termocolante (Tender Touch / Soft Seal / Cloud Cover / Termoprotetor Hipoalergênico para Bebês e Camisetas) é uma malha ultrafina 100% poliéster ou poliamida com elasticidade bidirecional, recoberta em um dos lados por uma microcamada de adesivo termoplástico de baixa fusão. Aplicado com o ferro de passar morno diretamente sobre o avesso do bordado pronto (camisetas t-shirts, bodies de bebê, camisas polo, lingeries e uniformes), ele se funde suavemente sobre as linhas de arremate, nós e pontas de entretela, selando o avesso com uma textura aveludada, macia e sedosa, eliminando qualquer risco de atrito, arranhão, coceira ou incômodo na pele sensível de clientes e crianças.",
     technicalDetails: "Gramatura: 35g/m² a 45g/m² (extremamente leve e imperceptível). Temperatura de fusão rápida: 120°C a 135°C por 10 a 12 segundos com ferro a seco (sem vapor). Possui elasticidade que acompanha o estiramento natural da malha sem rachar. Lavável em máquina até 40°C.",
     howItWorks: [
-      "1. A bordadeira finaliza o bordado em um body ou camiseta de bebê e apara os fios do avesso com tesourinha de precisão.",
+      "1. A bordadeira finaliza o bordado em uma camiseta t-shirt, camisa polo ou body de bebê e apara os fios do avesso com tesourinha de precisão.",
       "2. Corta um pedaço do forro protetor cerca de 1,5cm maior que a área total do bordado, arredondando os 4 cantos com a tesoura (cantos arredondados não descolam na lavagem).",
       "3. Posiciona o lado áspero/brilhante (que contém a micro-cola) contra o avesso do bordado.",
       "4. Pressiona com o ferro de passar morno (temperatura lã/seda, sem vapor) por 10 a 12 segundos com pressão firme.",
       "5. A micro-cola derrete e envolve todas as laçadas de linha, selando o avesso.",
-      "6. Ao esfriar, o avesso do body fica tão macio e sedoso quanto a própria malha da roupinha.",
-      "7. A mamãe veste o bebê com a tranquilidade de que nada vai pinicar ou arranhar a pele do recém-nascido."
+      "6. Ao esfriar, o avesso da camiseta fica tão macio e sedoso quanto a própria malha da peça.",
+      "7. O cliente veste a camiseta com a tranquilidade de que o bordado não vai pinicar, coçar ou incomodar o peito."
     ],
-    beginnerExplanation: "É aquele paninho fininho e mágico que você passa com o ferro de passar nas costas do bordado, lá pelo avesso do bodyzinho de bebê! Ele cola em cima de todas as linhas e nozinhos, deixando o avesso super macio e fofinho como uma nuvem, para não pinicar e não arranhar a pele sensível do neném!",
+    beginnerExplanation: "É aquele paninho fininho e mágico que você passa com o ferro de passar nas costas do bordado, lá pelo avesso da camiseta ou do bodyzinho de bebê! Ele cola em cima de todas as linhas e nozinhos, deixando o avesso super macio e fofinho como uma nuvem, para não pinicar, não coçar e não arranhar a pele do cliente!",
     applications: [
+      "Camisetas, t-shirts, camisas polo e regatas de algodão onde o bordado fica em contato direto com a pele do peito",
       "Bodies de bebê, pagões, culotes, macacõezinhos e enxovais de maternidade",
-      "Camisetas infantis, pijamas e roupas íntimas de pessoas com pele sensível ou dermatite",
-      "Uniformes esportivos de alta performance para evitar atrito no peito e costelas",
+      "Roupas infantis, pijamas e roupas íntimas de pessoas com pele sensível, dermatite ou que reclamam de coceira",
+      "Uniformes esportivos de alta performance para evitar atrito e assaduras no peito e costelas",
       "Selagem permanente de pontas soltas de fios no avesso de patches e bordados de franja"
     ],
     commonErrors: [
@@ -243,12 +244,12 @@ export const VERBETES_LETTER_F_PART9: Verbete[] = [
       "Passe o ferro SEM VAPOR (ferro seco) na temperatura de 130°C por 10 segundos parados",
       "Identifique o lado da cola passando o dedo: o lado áspero/granulado é o que tem cola e deve ficar virado contra o bordado"
     ],
-    dicaArtrelados: "Colocar o protetor de avesso em todas as peças de bebê é o maior diferencial de qualidade do seu ateliê! Coloque uma etiquetinha na embalagem dizendo: 'Feito com acabamento suave hipoalergênico que não pinica a pele do seu bebê'. As mães e pediatras valorizam demais e você ganha clientes fiéis para sempre!",
-    voceSabia: "O forro protetor de avesso foi premiado pela Associação Internacional de Pediatria Têxtil como o maior avanço em conforto infantil para roupas personalizadas nos anos 2000!",
-    practicalExercise: "Borde um pequeno motivo em um retalho de malha: corte um pedaço de forro protetor com cantos redondos e passe com o ferro no avesso. Passe as costas da sua mão sobre o avesso selado e sinta o toque aveludado e suave!",
-    quickSummary: "Malha termocolante ultrafina aplicada no avesso do bordado que cobre nós e linhas, deixando o toque macio para bebês.",
+    dicaArtrelados: "Colocar o protetor de avesso em camisetas t-shirts e peças de bebê é o maior diferencial de qualidade do seu ateliê! Se um cliente reclamar que o bordado da camiseta dele coça ou pinica no peito, aplique o forro protetor no avesso com ferro a seco: a reclamação vira elogio na hora! Coloque uma etiquetinha dizendo: 'Feito com acabamento protetor de toque sedoso que não pinica nem machuca a pele'. Os clientes valorizam demais!",
+    voceSabia: "O forro protetor de avesso foi premiado pela Associação Internacional de Pediatria Têxtil como o maior avanço em conforto infantil e esportivo para roupas personalizadas nos anos 2000!",
+    practicalExercise: "Borde um pequeno motivo no peito de uma camiseta ou retalho de malha: corte um pedaço de forro protetor com cantos redondos e passe com o ferro no avesso. Vista a camiseta ou passe as costas da sua mão sobre o avesso selado e sinta o toque aveludado e suave, sem nenhuma aspereza!",
+    quickSummary: "Malha termocolante ultrafina aplicada no avesso do bordado em camisetas e bodies que cobre nós e linhas, deixando o toque macio e eliminando coceiras.",
     relatedTerms: ["Ferro de Passar no Acabamento", "Entretela Recortável", "Fechamento de Ponto / Tie-Off"],
-    tags: ["f-053", "forro protetor", "tender touch", "soft seal", "avesso perfeito", "body de bebe", "hipoalergenico", "artrelados"],
+    tags: ["f-053", "forro protetor", "tender touch", "soft seal", "avesso perfeito", "camiseta", "camisetas", "t-shirt", "tshirt", "coceira", "coçar", "pinicar", "incomodo", "incômodo", "pele sensivel", "avesso macio", "body de bebe", "hipoalergenico", "artrelados"],
     bibliographicReferences: [
       "SULKY OF AMERICA. Tender Touch Soft Embroidery Cover-Up Guide. Kennesaw, 2023.",
       "MADEIRA THREADS. Comfort Wear & Sensitive Skin Backing Covers. Freiburg, 2022.",
