@@ -32,6 +32,7 @@ import { VERBETES_RESTORED_PART1 } from "./verbetesRestored1";
 import { VERBETES_RESTORED_PART2 } from "./verbetesRestored2";
 import { VERBETES_RESTORED_PART3 } from "./verbetesRestored3";
 import { VERBETES_RESTORED_PART4 } from "./verbetesRestored4";
+import { NOVOS_VERBETES_INSUMOS } from "./verbetesInsumosNovos";
 
 export const INITIAL_VERBETES: Verbete[] = [
   ...VERBETES_LETTER_A,
@@ -66,7 +67,8 @@ export const INITIAL_VERBETES: Verbete[] = [
   ...VERBETES_RESTORED_PART1,
   ...VERBETES_RESTORED_PART2,
   ...VERBETES_RESTORED_PART3,
-  ...VERBETES_RESTORED_PART4
+  ...VERBETES_RESTORED_PART4,
+  ...NOVOS_VERBETES_INSUMOS
 ];
 
 import { ALL_TROUBLESHOOTING_GUIDES } from "./troubleshootingGuides";
