@@ -141,32 +141,33 @@ function sanitizeVerbetesList(list: Verbete[]): Verbete[] {
     return v;
   });
 
-  // Ensure all initial verbetes are included and deduplicate strictly by code and normalized term
+  // Ensure all initial verbetes are included and deduplicate strictly by ID and normalized term
   const deduplicatedMap = new Map<string, Verbete>();
   const seenNormTerms = new Set<string>();
 
   // Add initial verbetes first (with latest definitions and images)
   INITIAL_VERBETES.forEach((v) => {
-    const codeKey = (v.code || v.id).trim().toUpperCase();
+    const idKey = (v.id || v.code).trim().toLowerCase();
     const normTerm = v.term.toLowerCase().trim().replace(/^[🟢🟡🔴\s]+/, "");
-    deduplicatedMap.set(codeKey, v);
+    deduplicatedMap.set(idKey, v);
     seenNormTerms.add(normTerm);
   });
 
   // Then merge filtered verbetes from storage, keeping official initial verbetes up to date
   filtered.forEach((v) => {
-    const codeKey = (v.code || v.id).trim().toUpperCase();
+    const idKey = (v.id || v.code).trim().toLowerCase();
     const normTerm = v.term.toLowerCase().trim().replace(/^[🟢🟡🔴\s]+/, "");
-    if (deduplicatedMap.has(codeKey)) {
+    if (deduplicatedMap.has(idKey)) {
       // Merge user edits/notes without overwriting new images from initial data
-      const official = deduplicatedMap.get(codeKey)!;
-      deduplicatedMap.set(codeKey, {
+      const official = deduplicatedMap.get(idKey)!;
+      deduplicatedMap.set(idKey, {
+        ...official,
         ...v,
         imageUrl: official.imageUrl || v.imageUrl,
         imageCaption: official.imageCaption || v.imageCaption,
       });
     } else if (!seenNormTerms.has(normTerm)) {
-      deduplicatedMap.set(codeKey, v);
+      deduplicatedMap.set(idKey, v);
       seenNormTerms.add(normTerm);
     }
   });
@@ -255,10 +256,8 @@ export default function App() {
         }
       }
 
-      // If there are custom items, sanitize them merged with INITIAL_VERBETES; otherwise use INITIAL_VERBETES directly
-      const baseList = customList.length > 0 
-        ? sanitizeVerbetesList([...INITIAL_VERBETES, ...customList])
-        : INITIAL_VERBETES;
+      // Always sanitize and apply sequential dynamic numbering (A-001, B-001, C-001...)
+      const baseList = sanitizeVerbetesList([...INITIAL_VERBETES, ...customList]);
 
       return baseList.map((v) => ({
         ...v,
@@ -267,7 +266,7 @@ export default function App() {
     } catch (e) {
       console.error("Erro ao carregar do localStorage", e);
     }
-    return INITIAL_VERBETES;
+    return sanitizeVerbetesList(INITIAL_VERBETES);
   });
 
   // Save only custom verbetes and favorites to localStorage to avoid quota errors

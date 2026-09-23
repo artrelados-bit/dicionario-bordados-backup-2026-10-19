@@ -535,5 +535,68 @@ export const NOVOS_VERBETES_INSUMOS: Verbete[] = [
       "Linha de Bobina de Bordado (Filamento 100% Poliéster Título 60/75)",
       "Lançadeira Rotativa (Rotary Hook)"
     ]
+  },
+  {
+    id: "c-099-camiseta-tshirt-tecnicas-bordado-malha",
+    code: "C-099",
+    term: "Camiseta / T-Shirt (Técnicas de Bordado em Malha, Enquadramento no Bastidor e Acabamento de Avesso Macio)",
+    letter: "C",
+    level: "🟢 Iniciante a Intermediário",
+    category: "Aplicações & Peças Confeccionadas",
+    grammarClass: "Substantivo feminino",
+    origin: "Do inglês 'T-shirt' (devido à silhueta da peça estendida que reproduz o formato da letra 'T'). Desenvolvida no início do século XX pela Marinha dos Estados Unidos como roupa íntima de trabalho e popularizada mundialmente na década de 1950 no cinema por astros como Marlon Brando e James Dean, a camiseta de malha de algodão transformou-se no artigo de vestuário mais fabricado e bordado do planeta.",
+    summary: "Guia técnico definitivo para bordar camisetas e t-shirts de malha: seleção de agulhas ponta bola para não furar a malha, estabilização com entretela No-Show Mesh sem esticar o tecido, alinhamento no peito esquerdo e aplicação de forro termocolante macio no avesso para eliminar coceira.",
+    definition: "A camiseta ou t-shirt no bordado computadorizado é uma peça de vestuário confeccionada em malharia circular por trama (predominantemente meia malha jersey 100% algodão penteado ou cardado de gramatura entre 140 g/m² e 180 g/m², malhas mistas com elastano/lycra, piquet de poliéster/algodão e poliamida dry-fit). Caracteriza-se pela elevada elasticidade e instabilidade dimensional biaxial, o que a torna suscetível ao estiramento incorreto no bastidor, ao corte das laçadas têxteis por agulhas inadequadas e ao enrugamento perimetral decorrente do repuxo mecânico da linha. Seu processamento de excelência exige o emprego conjunto de entretelas recortáveis suaves (cutaway ou no-show mesh), agulhas de ponta bola leve (SES calibre NM 70/10 ou 75/11), digitalização de matrizes com densidade calibrada e compensação de repuxo ampliada (+0,30 mm a +0,45 mm), finalizando com a laminação térmica de um forro protetor macio (Tender Touch / Cover-a-Stitch) no avesso para erradicar o atrito dos nós e linhas contra a pele do peito do usuário.",
+    technicalDetails: "Calibre de agulha mandatório: Schmetz ou Organ 130/705 H-S (Stretch) ou 130/705 H-SUK (Ball Point) calibres 70/10 para malhas finas e 75/11 para malhas médias. Entretela recomendada: 1 camada de No-Show Mesh de poliéster emalhado (gramatura 45 a 55 g/m²) fixada com leve pulverização de adesivo temporário em spray. Velocidade ideal na máquina: 600 a 720 PPM para evitar vibrações na área não tensionada. Alinhamento no peito esquerdo: intersecção entre o ponto médio do ombro (linha vertical) e o nível inferior da cava da manga (linha horizontal), cerca de 18 a 21 cm abaixo da costura do ombro.",
+    beginnerExplanation: "Bordar camiseta é o serviço mais pedido e lucrativo de qualquer ateliê, mas tem quatro segredos de ouro que todo mundo precisa saber para a peça ficar com cara de grife cara: 1º) NUNCA puxe nem estique a camiseta na hora de prender no bastidor; ela tem que entrar no bastidor soltinha e lisa, porque se você esticar, quando tirar da máquina ela vai enrugar toda como uma sanfona! 2º) Use sempre agulha de Ponta Bola, porque a agulha comum afiada fura e corta as linhas da malha, deixando furinhos que viram rasgos na primeira lavagem. 3º) Não use matrizes muito pesadas e duras, para a camiseta não ficar parecendo uma tábua de madeira no peito. E 4º) O toque de carinho final: vire a camiseta do avesso e passe com o ferro o forro protetor de avesso macio com os cantos redondos; assim as linhas não pinicam o peito e o cliente nunca mais vai reclamar de coceira!",
+    howItWorks: [
+      "1. Preparação e marcação: Marca-se a posição do bordado no peito esquerdo usando giz de alfaiate ou caneta fantasminha termossensível (cruzando a linha do ombro com a altura da cava).",
+      "2. Estabilização neutra: Aplica-se adesivo temporário em spray sobre uma folha de entretela No-Show Mesh e acopla-se ao avesso da camiseta sem puxar a malha.",
+      "3. Enquadramento sem tração: Enquadra-se no bastidor assegurando que a malha esteja plana e assentada, apertando o parafuso com a malha em repouso absoluto.",
+      "4. Costura com agulha ponta bola: A agulha SES 75/11 afasta os laços da malha sem rompê-los, executando sob-costuras suaves e pontos cheios confortáveis.",
+      "5. Limpeza de fios: Cortam-se as linhas de salto e amarrações com tesourinha de ponta curva no direito e no avesso.",
+      "6. Corte da entretela: Apara-se a entretela No-Show Mesh no avesso deixando uma borda suave de 1 cm com cantos arredondados.",
+      "7. Aplicação do forro macio anti-coceira: Corta-se o forro protetor termocolante (Tender Touch) com cantos arredondados e prensa-se com ferro a seco a 130°C por 12 segundos sobre todo o avesso do bordado."
+    ],
+    mainTypes: [
+      "Camiseta de Meia Malha 100% Algodão Penteado (30.1 ou 26.1): A mais nobre e macia, exige agulha ponta bola leve e entretela No-Show Mesh para não deformar.",
+      "Camiseta Polo em Malha Piquet: Apresenta textura em favo de mel mais estruturada; aceita entretela rasgável média ou recortável leve.",
+      "Camiseta Dry-Fit / Poliamida Esportiva: Extremamente elástica e escorregadia; exige entretela termocolante solúvel ou recortável elástica e agulha 70/10 Stretch para não furar.",
+      "Baby Look Feminina com Elastano/Lycra: Altíssima compressão corporal; exige matriz com densidade reduzida (0,45 mm) e forro de avesso obrigatório para evitar atrito direto na pele."
+    ],
+    recommendedSettings: {
+      speedPPM: "600 a 720 PPM",
+      needleType: "Agulha Ponta Bola Leve SES 70/10 (malhas finas) ou 75/11 (algodão tradicional)",
+      stabilizer: "Entretela No-Show Mesh recortável de poliéster ou entretela hidrossolúvel com spray adesivo",
+      threadTension: "Tensão de linha superior levemente aliviada para evitar enrugamento",
+      density: "0,42 mm a 0,46 mm (abertura de densidade para manter a flexibilidade)",
+      pullCompensation: "+0,35 mm a +0,45 mm"
+    },
+    examples: [
+      "Logomarcas institucionais e corporativas bordadas no peito esquerdo de camisetas de funcionários.",
+      "Frases minimalistas em lettering cursivo no centro do peito de t-shirts de moda casual feminina.",
+      "Monogramas elegantes e brasões familiares em camisas polo de algodão piquet.",
+      "Bordados esportivos em camisetas de corrida dry-fit com acabamento termocolante macio no verso."
+    ],
+    relationshipWithMatrix: "O sucesso do bordado em camisetas reside na programação da matriz. A malha de algodão cede facilmente sob o tracionamento da linha; por isso, matrizes densas com camadas excessivas de tatami causam franzimento irreparável (efeito sanfona ou concha). A matriz para camiseta deve priorizar sob-costura em tatami aberto ou center-run simples, densidade de ponto cheio entre 0,42 mm e 0,46 mm e compensação de repuxo generosa de pelo menos 0,4 mm para que contornos fechem com precisão cirúrgica sem distorcer o tecido.",
+    commonErrors: [
+      "Puxar as laterais da camiseta após prender no bastidor para deixá-la 'esticada como um tambor'; ao ser solta, a malha volta ao tamanho original e o bordado fica completamente enrugado.",
+      "Usar agulha pontiaguda de costura geral (ponta afiada R); a ponta corta os fios microscópicos da malha, criando pequenos buracos ao redor dos pontos após as primeiras lavagens.",
+      "Usar entretela rasgável comum barata; a malha estica na máquina e a entretela rasga prematuramente durante a costura, deformando o desenho.",
+      "Entregar a camiseta com nós e arremates expostos no avesso sem forro protetor, gerando atrito incômodo e reclamações de coceira no peito por parte do cliente."
+    ],
+    howToIdentifyAdjustment: "Identifica-se que a técnica de bordar camiseta precisa de correção quando: 1) A camiseta fica com ondas ou rugas radiais ao redor do desenho logo após desbastar (indica tração excessiva no bastidor); 2) O bordado fica espesso e duro como uma placa de papelão (indica excesso de densidade na matriz); 3) O cliente relata que o bordado pinica ou arranha a pele (indica ausência do forro protetor de avesso Tender Touch).",
+    dicaArtrelados: "O 'Protocolo Camiseta Perfeita' do ateliê Artrelados: 1) Aplique a entretela No-Show Mesh com spray adesivo temporário no avesso; 2) Enquadre no bastidor com a malha em repouso natural, sem puxar nem um milímetro; 3) Use agulha ponta bola SES 75/11; e 4) Assim que tirar da máquina e aparar a entretela, aplique o forro termoprotetor de avesso macio com os 4 cantos redondos usando o ferro a seco por 12 segundos. O cliente veste a camiseta e elogia que parece saída de uma confecção de luxo internacional, sem puxões e sem pinicar nunca!",
+    voceSabia: "O alinhamento clássico do bordado no peito esquerdo de camisetas e polos é adotado mundialmente há mais de um século por motivos culturais e comportamentais: na saudação formal de aperto de mão com a mão direita, o ombro direito avança e o lado esquerdo do peito se abre frontalmente, direcionando o olhar espontâneo da outra pessoa exatamente para a marca bordada sobre o coração!",
+    practicalExercise: "Pegue uma camiseta promocional velha. De um lado, enquadre no bastidor puxando e esticando bem a malha com uma agulha ponta afiada comum e borde um círculo de 6 cm. Do outro lado da camiseta, monte a malha relaxada sobre No-Show Mesh com agulha ponta bola SES 75/11 e aplique o forro protetor macio no avesso. Compare as duas peças vestindo-as: você verá visualmente a diferença brutal de caimento e sentirá na pele o conforto incomparável do método correto!",
+    quickSummary: "Guia completo de técnicas para bordar camisetas e t-shirts de malha: uso obrigatório de agulha ponta bola, enquadramento sem estirar o tecido, matriz com densidade flexível e acabamento de avesso macio anti-coceira.",
+    seeAlso: [
+      "Agulha Ponta Bola (SES / FFG / SUK)",
+      "No-Show Mesh (Entretela de Poliéster Emalhada Transparente)",
+      "Forro Protetor de Avesso / Termoprotetor de Bordado (Tender Touch / Soft Seal Cover)",
+      "Entretela Termo-Fusível de Acabamento de Avesso Extra-Macia (Cover-a-Stitch / Soft Seal Fusible Backing)",
+      "Marcação e Posicionamento de Bordado em Peito Esquerdo (Left Chest Alignment)",
+      "Compensação de Repuxo (Pull Compensation)"
+    ]
   }
 ];
