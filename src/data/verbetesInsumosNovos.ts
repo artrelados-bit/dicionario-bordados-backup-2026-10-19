@@ -300,5 +300,240 @@ export const NOVOS_VERBETES_INSUMOS: Verbete[] = [
       "Bomba de Lubrificação Centralizada / Pistão Manual de Óleo",
       "Aquecimento da Agulha em Alta Rotação"
     ]
+  },
+  {
+    id: "a-099-agulha-especial-linhas-metalicas",
+    code: "A-099",
+    term: "Agulha Especial para Linhas Metálicas (Metallic Embroidery Needle / Olho Alongado 2mm e Ranhura Profunda)",
+    letter: "A",
+    level: "🟢 Iniciante a Intermediário",
+    category: "Agulhas & Fios",
+    grammarClass: "Substantivo composto feminino",
+    origin: "Desenvolvida na Alemanha e no Japão pelos principais fabricantes mundiais de agulhas (Schmetz sob a referência 130/705 H-MET e Organ sob a referência DBx7MET / EBx7MET) na década de 1980 para sanar os índices críticos de quebra e esgarçamento decorrentes da introdução de fios metalizados laminados com poliéster e poliamida no bordado industrial.",
+    summary: "Agulha técnica dotada de olho elíptico ampliado (2 mm de comprimento) e canaleta frontal funda que protege a lâmina brilhante das linhas metálicas de ouro e prata contra o atrito, prevenindo desfiamentos e quebras.",
+    definition: "A agulha especial para linhas metálicas (Metallic Needle) no bordado computadorizado é um componente de perfuração com modificações estruturais milimétricas voltadas para o processamento de fios compostos por alma de filamento sintético envolto por fita microscópica de poliéster metalizado com vapor de alumínio. Diferencia-se das agulhas convencionais por possuir um olho ovalado estendido de aproximadamente 2,0 mm (quase o dobro do tamanho de uma agulha de bordado comum), uma ranhura longitudinal frontal de profundidade aumentada e um chanfro (scarf) pronunciado com polimento térmico de alta precisão. Essa geometria abriga o fio metálico durante o choque mecânico contra o tecido e a entretela, evitando o efeito de decapagem ('sanfonamento' da cobertura de folha de ouro ou prata), o superaquecimento do núcleo e as quebras repetitivas durante o laçamento na lançadeira.",
+    technicalDetails: "Disponível nos calibres NM 80/12 e NM 90/14 (com versões industriais de haste DBxK5 / DBx7MET). O olho elíptico possui acabamento interno eletropolido a laser para eliminar qualquer microfissura cortante. A profundidade da canaleta frontal protege o fio em até 70% do seu diâmetro durante o curso descendente de perfuração. Deve operar preferencialmente com velocidade calibrada entre 500 e 620 PPM, associada a uma leve redução na tensão mecânica do cabeçote (discos de tensão aliviados em 15% a 20%) e passagem por guia lubrificante de silicone têxtil.",
+    beginnerExplanation: "Sabe aquele desespero comum de tentar bordar com linha dourada ou prateada e ela ficar desfiando, descascando, embolando na ponta da agulha e quebrando a cada cinco segundos? O segredo não é a máquina, é a agulha certa! A agulha para linha metálica tem o 'buraquinho' (o olho) bem grandão e uma canaleta funda na frente. Assim, a linha de ouro entra folgada, não esfrega com força no aço da agulha e você consegue bordar brasões, faixas de formatura e detalhes dourados lindos sem a linha arrebentar nenhuma vez!",
+    howItWorks: [
+      "Proteção na canaleta funda: Ao descer e penetrar as camadas duras de tecido e entretela, o fio metálico se recolhe totalmente no interior da canaleta profunda da agulha, protegido do atrito abrasivo das fibras.",
+      "Deslizamento livre no olho de 2 mm: A folga ampliada do olho impede que a fina fita metalizada externa seja empurrada para trás (efeito decapagem/sanfona).",
+      "Formação perfeita da laçada: Ao atingir o ponto morto inferior e iniciar a subida, o fio metálico frouxo forma um laço volumoso e estável na traseira do chanfro.",
+      "Captura limpa pela ponta da lançadeira: A ponta da lançadeira passa com folga segura pelo laço aberto, completando o entrelaçamento com a linha da bobina sem cortar o fio.",
+      "Dissipação do calor por folga: O maior espaço de ar circulante no olho minimiza a transferência do calor da perfuração para a película brilhante do fio."
+    ],
+    mainTypes: [
+      "Agulha Metallic Cabo Chato Doméstica (130/705 H-MET): Calibres 80/12 e 90/14 para máquinas de bordar domésticas (Brother, Janome, Bernina, Singer, Elna).",
+      "Agulha Metallic Cabo Redondo Industrial (DBx7MET / EBx7MET): Para máquinas multicabeças e semi-industriais (Tajima, Barudan, Happy, SWF, ZSK, Bai, RiCOMA).",
+      "Agulha Metallic com Revestimento de Titânio (Metallic Titanium): Combina o olho alongado de 2 mm com camada dourada de nitreto de titânio (PD), quintuplicando a vida útil da agulha em produções pesadas."
+    ],
+    recommendedSettings: {
+      speedPPM: "500 a 620 PPM (nunca operar em alta velocidade com fios metálicos)",
+      needleType: "Agulha Metallic 80/12 (tecidos finos e médios) ou 90/14 (sarjas, jeans e veludos)",
+      stabilizer: "Entretela rasgável macia ou recortável sem resinas ácidas agressivas",
+      threadTension: "Tensão superior aliviada (mais frouxa do que com linha de poliéster convencional)",
+      density: "Densidade da matriz aliviada para 0,45 mm a 0,50 mm no ponto cheio"
+    },
+    examples: [
+      "Brasões dourados e prateados de formatura de Medicina, Direito, Enfermagem e Engenharia em jalecos e togas.",
+      "Paramentos litúrgicos, estolas sacerdotais, cruzes e motivos sacros em brocados e veludos.",
+      "Bordados natalinos luminosos (sinos de ouro, anjos e fitas reluzentes) em toalhas de mesa e almofadas.",
+      "Monogramas sofisticados de casamento e brasões de noivos em roupões de cetim e toalhas nobres."
+    ],
+    relationshipWithMatrix: "A agulha Metallic relaciona-se estreitamente com a densidade de pontos da matriz. Como o fio metálico possui diâmetro real superior e estrutura mais rígida que o poliéster 40 tradicional, se a matriz mantiver a densidade fechada padrão de 0,38 mm ou 0,40 mm, os fios metálicos se encavalarão, gerando excesso de volume e forçando o olho da agulha. O programador deve abrir o espaçamento para 0,45 mm a 0,50 mm e programar pontos de amarração suaves para compatibilidade absoluta com a agulha Metallic.",
+    commonErrors: [
+      "Tentar bordar fio metálico com agulha normal de bordado 75/11; o olho estreito raspa a cobertura brilhante, acumulando uma bola de fio esgarçado que trava a máquina.",
+      "Bordar em velocidade alta acima de 750 PPM, superaquecendo o aço e derretendo a película metalizada.",
+      "Apertar o tensor da linha achando que a linha está frouxa; a linha metálica precisa de tensão suave para não esticar o núcleo sintético.",
+      "Usar cone de linha metálica tombado de lado sem porta-fio em pé, gerando laçadas espiraladas que enroscam na haste da agulha."
+    ],
+    howToIdentifyAdjustment: "Identifica-se a necessidade imediata de trocar para a agulha Metallic quando a linha de bordar metálica arrebentar repetidamente e, ao examinar a ponta do fio quebrado, a capa dourada ou prateada estiver toda empurrada para trás em forma de sanfona, deixando a alma de náilon branca exposta. Se a linha começar a fazer pequenos nós no olho da agulha, o calibre deve ser aumentado de 80 para 90.",
+    dicaArtrelados: "O segredo de ouro do ateliê Artrelados para bordar com linha metálica sem quebrar nenhuma vez: coloque a agulha Metallic 80/12, reduza a velocidade da máquina para 550 PPM e pingue UMA gotinha de óleo de silicone ou cera líquida de costura em uma pequena esponjinha presa no guia-fio da máquina por onde a linha passa antes de descer para a agulha! Esse leve toque de silicone faz a linha deslizar como manteiga pelo olho da agulha e pela lançadeira, garantindo um brilho de ouro impecável do começo ao fim!",
+    voceSabia: "A cobertura metálica das linhas de bordar modernas é tão fina que é medida na escala de micrômetros — cerca de 12 a 15 mícrons de espessura (quase 7 vezes mais fina que um fio de cabelo humano!). Por ser tão delicada, o menor atrito em uma agulha comum pode rasgá-la; por isso a geometria de olho ampliado da agulha Metallic foi uma das maiores revoluções da história do bordado computadorizado!",
+    practicalExercise: "Pegue um cone de linha metálica de ouro ou prata. Coloque primeiro uma agulha comum de bordado 75/11 na máquina e borde 100 pontos; observe como a linha range e tende a desfiar. Em seguida, troque pela agulha Metallic 80/12 ou 90/14, reduza a rotação para 550 PPM e aplique a dica da gotinha de silicone no guia-fio. Borde um brasão de 1.500 pontos e comprove a suavidade impressionante com que a máquina trabalha!",
+    quickSummary: "Agulha técnica dotada de olho ampliado de 2 mm e ranhura frontal profunda projetada para eliminar o atrito e impedir o desfiamento e a quebra de linhas metálicas e fios decorativos sensíveis.",
+    seeAlso: [
+      "Linhas Metálicas (Metallic Thread / Fios de Ouro e Prata)",
+      "Ajuste de Tensão da Linha (Thread Tension Adjustment)",
+      "Cera Lubrificante de Linhas / Silicone Têxtil",
+      "Aquecimento da Agulha em Alta Rotação",
+      "Velocidade de Bordado (PPM - Pontos Por Minuto)"
+    ]
+  },
+  {
+    id: "l-099-linha-bordado-numero-60-microfio",
+    code: "L-099",
+    term: "Linha de Bordado Nº 60 / Microfio para Letras Miúdas e Detalhes Extremos (Micro-Thread)",
+    letter: "L",
+    level: "🟡 Intermediário",
+    category: "Agulhas & Fios",
+    grammarClass: "Substantivo composto feminino",
+    origin: "Desenvolvida na Alemanha e no Japão pelos principais laboratórios têxteis industriais (como Madeira Polyneon 60, Gunold Poly 60 e Amann Isacord 60) no final dos anos 1990 para responder às demandas estritas de crachás militares, etiquetas farmacêuticas e uniformes médicos hospitalares, onde textos com caracteres inferiores a 4 mm precisavam de legibilidade óptica perfeita impossível de alcançar com a tradicional linha nº 40.",
+    summary: "Linha de bordado 30% mais fina que a padrão nº 40, indispensável para bordar letras miúdas de 2,5 mm a 5 mm em jalecos, etiquetas de alta definição e contornos microscópicos sem empelotar nem fechar os vazados das letras.",
+    definition: "A linha de bordado nº 60 (Micro-Thread) no bordado computadorizado é um filamento contínuo de 100% poliéster ou raiom trilobal calibrado na espessura de título dtex 84/2 (ou Ne 60/2), apresentando diâmetro físico aproximadamente um terço menor do que a linha convencional nº 40. Projetada para solucionar a perda de legibilidade em tipografias diminutas (fontes com altura entre 2,5 mm e 5,0 mm), ela permite a execução de colunas de ponto cheio (satin) extremamente estreitas (até 0,7 mm) e preserva os orifícios internos (olhais) de letras como 'e', 'a', 'o' e 's'. Por sua menor massa linear, requer operação em conjunto com agulhas de calibre fino (NM 60/8 a NM 65/9), reconfiguração na densidade da matriz digitalizada (espaçamento entre 0,30 mm e 0,34 mm) e alívio moderado na tensão de tração dos pratos de tensão para prevenir alongamento plástico e rompimento.",
+    technicalDetails: "A linha nº 60 possui espessura média de 0,16 mm (contra 0,25 mm da linha 40). Deve ser operada exclusivamente com agulhas finas de bordado dos tamanhos 60/8 ou 65/9 (ponta bola leve SES para malhas ou ponta afiada RG/Microtex para tecidos planos finos). A matriz deve ser digitalizada prevendo aumento de densidade em 15% a 20% em relação aos parâmetros padrão, compensação de repuxo restrita a +0,15 mm e sob-costura (underlay) limitada a um único traçado central (center run), sob pena de criar sobreposições espessas. Velocidade sugerida entre 600 e 750 PPM com lubrificação normal de lançadeira.",
+    beginnerExplanation: "Sabe quando você precisa bordar o nome de um médico, dentista ou enfermeiro no bolsinho de um jaleco e as letrinhas pequenas (de 3 ou 4 milímetros) ficam todas grudadas e emboladas parecendo uma mancha de tinta que ninguém consegue ler? Isso acontece porque a linha comum de bordado (a nº 40) é gordinha demais para caber num espacinho tão minúsculo! A linha nº 60 é o segredo dos profissionais: ela é bem fininha e delicada. Usando ela com uma agulha fininha, as letras miúdas saem com uma nitidez inacreditável, limpinhas e nítidas como se tivessem sido impressas a laser no tecido!",
+    howItWorks: [
+      "Substituição do cone e agulha: Troca-se o cone de linha convencional pelo cone de linha nº 60 na cor desejada e substitui-se a agulha da máquina por uma fininha de tamanho 65/9.",
+      "Alívio de tensão superior: Ajusta-se o tensor da linha afrouxando ligeiramente a pressão para que o fio fino corra suave sem arrebentar.",
+      "Costura de colunas estreitas: A agulha fina perfura o tecido com orifícios microscópicos, permitindo que a linha desenhe traços de espessura de até 0,7 mm.",
+      "Preservação dos miolos das letras: As passadas de linha não se encavalam nas curvas fechadas, deixando os buraquinhos das letras 'e', 'a', 'b' e 'o' perfeitamente abertos e legíveis.",
+      "Arremate suave: A máquina finaliza com pequenos pontos de amarração compactos que ficam invisíveis no verso da peça."
+    ],
+    mainTypes: [
+      "Linha 60 100% Poliéster Trilobal: A mais resistente e versátil, suporta cloro, lavagens industriais e altas temperaturas de autoclaves hospitalares (ideal para jalecos e uniformes).",
+      "Linha 60 de Raiom/Viscose: Apresenta brilho acetinado nobre e toque extremamente macio, perfeita para vestidos de bebê e enxovais delicados.",
+      "Linha 60 com Tratamento Anti-Estático / Retardante de Chamas: Especial para uniformes operacionais de petroquímica, eletricistas e aviação."
+    ],
+    recommendedSettings: {
+      speedPPM: "600 a 750 PPM",
+      needleType: "Agulha fina calibre 60/8 ou 65/9 (Ponta Bola Leve SES ou Microtex)",
+      stabilizer: "Entretela rasgável fina ou média de boa estabilidade dimensional",
+      threadTension: "Tensão ligeiramente mais frouxa que a padrão da linha 40",
+      density: "0,30 mm a 0,34 mm (densidade mais compacta para cobrir o fundo)",
+      underlay: "Center run simples (apenas uma linha reta no centro; evitar zigue-zague denso)"
+    },
+    examples: [
+      "Nomes de médicos, especialidades e números de CRM/CRO em bolsos e golas de jalecos brancos.",
+      "Textos secundários e lemas minúsculos em brasões militares e distintivos de corporações.",
+      "Etiquetas de grife de alta costura com instruções de lavagem bordadas em microletras.",
+      "Detalhes de olhos, íris, cílios e sobrancelhas em bordados fotográficos realistas de animais e pessoas."
+    ],
+    relationshipWithMatrix: "A linha nº 60 tem uma relação direta de interdependência com a matriz de bordado. Se uma matriz for programada para a linha 40 comum (com densidade padrão de 0,40 mm) e bordada com a linha 60, o texto parecerá 'ralo' e 'desbotado', com o tecido de fundo aparecendo entre os pontos. O programador deve densificar a matriz (reduzir o espaçamento para 0,30 mm - 0,34 mm), estreitar a largura mínima da coluna e eliminar sob-costuras pesadas para obter a nitidez cristalina que o fio oferece.",
+    commonErrors: [
+      "Usar agulha comum grossa 75/11 ou 80/12 com linha 60; o furo da agulha fica gigante comparado ao fio fino, estragando o visual.",
+      "Bordar matriz sem alterar a densidade, resultando em letras com aparência falhada e desbotada.",
+      "Puxar a linha com tensão alta demais, provocando quebras constantes pelo menor diâmetro do filamento.",
+      "Usar sob-costura gradeada pesada (tatami underlay) sob letras de 4 mm, criando um bolo duro de linha sob o texto."
+    ],
+    howToIdentifyAdjustment: "Identifica-se a necessidade de adotar a linha nº 60 quando letras com menos de 5 mm de altura perdem o formato e fecham os vazados internos (como o miolo do 'e' e do 'o') gerando borrões ilegíveis com a linha 40. Se ao usar a linha 60 as letras parecerem transparentes ou ralas, deve-se aumentar a densidade de pontos no software de matriz.",
+    dicaArtrelados: "Para deixar nomes de médicos e dentistas em jalecos com um padrão de nitidez cirúrgico: use a linha nº 60 com agulha 65/9 e coloque uma folhinha de plástico filme solúvel em água bem fininho por cima do tecido antes de bordar! Esse filme impede que os pontinhos afundem na trama do gabardine ou algodão, fazendo as letrinhas ficarem em relevo nítido como se tivessem sido impressas a laser na peça!",
+    voceSabia: "Na convenção têxtil universal de classificação de linhas, a numeração segue uma lógica inversa: quanto MAIOR o número de identificação, mais FINA é a linha! Por isso, uma linha 60 é muito mais fina que uma linha 40, e uma linha 100 (usada em alta relojoaria e filtros cirúrgicos) é quase invisível a olho nu!",
+    practicalExercise: "Abra seu programa de bordado e crie a palavra 'MEDICINA' com apenas 3,5 mm de altura. Borde primeiro em um retalho com linha 40 e agulha 75/11. Em seguida, troque para o cone de linha 60 e agulha 65/9, ajustando a densidade para 0,32 mm. Borde a mesma palavra ao lado e compare com uma lente de aumento: a diferença de nitidez vai impressionar qualquer cliente exigente!",
+    quickSummary: "Linha de bordado 30% mais fina que a padrão nº 40, essencial para bordar letrinhas minúsculas (de 2,5 mm a 5 mm) e detalhes de alta resolução em jalecos e monogramas sem borrões.",
+    seeAlso: [
+      "Agulha Especial para Microfibras e Seda (Microtex Needle)",
+      "Densidade de Ponto (Stitch Density / Spacing)",
+      "Ponto Cheio / Satin Stitch",
+      "Compensação de Repuxo (Pull Compensation)",
+      "Ajuste de Tensão da Linha (Thread Tension Adjustment)"
+    ]
+  },
+  {
+    id: "s-099-sarja-grossa-resinada-patchs",
+    code: "S-099",
+    term: "Sarja Grossa Resinada para Emblemas e Patches (Patch Twill / Tecido Estruturado com Resina Termofixa)",
+    letter: "S",
+    level: "🟢 Iniciante a Intermediário",
+    category: "Tipos de Tecidos",
+    grammarClass: "Substantivo composto feminino",
+    origin: "Do francês 'serge' e do inglês 'twill' (tecelagem diagonal). Nos Estados Unidos dos anos 1950 e 1960, a confecção de jaquetas colegiais universitárias (Letterman) e uniformes de ligas esportivas (MLB e NFL) demandou a criação do 'Patch Twill' — sarja pesada 100% poliéster fundida a uma resina termoplástica no avesso —, estabelecendo-se como o padrão internacional para emblemas e distintivos de alta durabilidade.",
+    summary: "Tecido pesado com textura diagonal e verso termoresinado, referência mundial para a confecção de patches, brasões militares e escudos de times, oferecendo rigidez plana impecável e corte térmico selado sem desfiamento.",
+    definition: "A sarja grossa resinada (Patch Twill) no bordado computadorizado é um substrato têxtil estruturado de alta gramatura (tipicamente entre 240 g/m² e 320 g/m²), caracterizado pela tecelagem com estrias diagonais contínuas (ligamento sarja) em 100% poliéster, recebendo em sua face posterior uma camada de resina acrílica termofixa ou filme termoplástico calandrado. Projetada para ser a base física de emblemas, divisas militares, distintivos corporativos e patches de motociclismo, ela suporta densidades severas de perfuração mecânica sem apresentar enrugamento, repuxo ou deformação dimensional. Por sua natureza química sintética, permite o acabamento de borda por corte e selagem térmica (cauterização com pirógrafo, ferro de solda ou laser), fundindo as margens de corte diretamente contra a coluna de ponto cheio de contorno e eliminando fios desfiados.",
+    technicalDetails: "Apresenta excelente estabilidade mecânica sob tração biaxial. A montagem em bastidor requer suporte mínimo (uma folha de entretela rasgável média de 60 g/m² ou entretela no-show mesh leve). Deve ser bordada com agulhas de calibre NM 80/12 ou NM 90/14 ponta bola leve (SES) ou ponta universal afiada para vencer a resistência da camada resinada sem deflexão da haste. O contorno de fechamento deve prever coluna de ponto cheio (satin) com largura entre 3,2 mm e 4,5 mm, densidade de 0,36 mm a 0,38 mm e sob-costura em zigue-zague duplo para ancoragem perimetral sólida.",
+    beginnerExplanation: "Sabe aqueles brasões e emblemas perfeitos de uniforme da polícia, de jaqueta de motoqueiro, de time de futebol ou de farda de escola que são durinhos e bem planos? Eles são bordados em cima de sarja resinada! Ela é um tecido grosso, com aquelas risquinhas diagonais elegantes, que já vem firme e 'engomadinho' de fábrica. A grande vantagem é que você não precisa bordar o fundo inteiro com a máquina (o que gastaria um cone inteiro de linha e meia hora de máquina ligada): você usa a própria cor da sarja como fundo e só borda o desenho por cima! Fica com cara de produto profissional de fábrica!",
+    howItWorks: [
+      "Montagem no bastidor: Enquadra-se a sarja resinada esticada no bastidor com uma folha de entretela rasgável por baixo.",
+      "Economia de fundo: A matriz é configurada para que a área externa ou o fundo do emblema seja a própria sarja, bordando apenas os desenhos, letras e detalhes centrais.",
+      "Costura dos elementos: A agulha 80/12 perfura a trama firme da sarja com estabilidade milimétrica, mantendo as letras e desenhos retos sem enrugar.",
+      "Bordadura perimetral (Ponto Cheio de Contorno): A máquina finaliza o perímetro do emblema com um cordão de ponto cheio largo e bem denso.",
+      "Termocolagem no verso: Retira-se do bastidor e prensa-se o filme termocolante definitivo no avesso de todo o painel de sarja.",
+      "Corte e selagem térmica: Com uma ponta fina de ferro de solda sobre uma placa de vidro, corta-se o emblema contornando o ponto cheio; o calor sela o corte na mesma hora sem deixar fiapos."
+    ],
+    mainTypes: [
+      "Sarja 100% Poliéster Resinada: O padrão oficial para patches, aceita selagem térmica perfeita com ferro de solda ou laser sem desfiados.",
+      "Sarja Mista (Poliéster e Algodão) com Resina: Toque mais encorpado e fosco, muito usada para bordar divisas e insígnias militares de alta exigência tátil.",
+      "Sarja Termocolante Pré-Acoplada (Easy-Patch): Vem de fábrica já com o filme termocolante definitivo e papel protetor no verso, pronta para bordar e cortar."
+    ],
+    recommendedSettings: {
+      speedPPM: "650 a 800 PPM (excelente tolerância a altas velocidades)",
+      needleType: "Agulha 80/12 ou 90/14 (Ponta Bola Leve SES ou Ponta Normal)",
+      stabilizer: "Entretela rasgável média de 60 g/m² ou entretela fina",
+      threadTension: "Tensão padrão equilibrada (1/3 branco de bobina no verso)",
+      density: "0,36 mm a 0,38 mm no cordão satin perimetral de borda",
+      pullCompensation: "+0,25 mm a +0,35 mm"
+    },
+    examples: [
+      "Patches e brasões de moto clubes aplicados em coletes de couro e jeans.",
+      "Emblemas e insígnias para fardamentos de empresas de segurança privada, vigilância e portaria.",
+      "Letras capitulares gigantes (estilo Varsity) em casacos de universidades e agasalhos esportivos.",
+      "Escudos de academias e federações aplicados no peito e costas de kimonos de artes marciais (Jiu-Jitsu, Judô)."
+    ],
+    relationshipWithMatrix: "A sarja resinada revoluciona o arquivo de matriz de bordado. Em vez de programar uma matriz 'pesada' de 30.000 pontos (com tatami cobrindo todo o escudo), o programador deleta o fundo de tatami e deixa a cor da sarja aparente, reduzindo a matriz para 8.000 a 12.000 pontos. Isso economiza 60% do tempo de produção da máquina, gasta menos linha, reduz a rigidez excessiva da peça e elimina por completo qualquer repuxamento no bastidor.",
+    commonErrors: [
+      "Usar sarja de puro algodão sem componentes sintéticos e tentar cortar com ferro de solda (o algodão queima, carboniza e não sela a borda).",
+      "Bordar com agulhas finas de tamanho 65/9 em sarja resinada grossa, causando deflexão da agulha e choque com a chapa.",
+      "Tentar bordar um fundo tatami completo desnecessário sobre a sarja, deixando o patch com aspecto de tijolo duro e empelotado.",
+      "Cortar com tesoura cega sem selagem térmica, fazendo as margens desfranjarem após o uso."
+    ],
+    howToIdentifyAdjustment: "Identifica-se a necessidade de usar sarja resinada quando um emblema bordado em tecidos normais (como tricoline ou microfibra) sai do bastidor curvado como uma 'concha' ou 'canoa' devido ao repuxo da linha. Na sarja resinada, o emblema permanece perfeitamente plano como uma placa rígida.",
+    dicaArtrelados: "Para produzir dezenas de patches com agilidade profissional: prenda um pedaço grande de sarja resinada no seu maior bastidor, programe 4 ou 6 emblemas juntos e borde todos de uma vez! Depois que a máquina terminar, prense uma folha inteira de filme termocolante no verso de uma só vez na prensa térmica. Depois, use a técnica do ferro de solda no vidro para destacar os emblemas: eles saem selados, com a colinha pronta atrás e acabamento de fábrica de grande porte!",
+    voceSabia: "O famoso tecido 'jeans' (denim) é, na sua essência, um tipo de sarja! O padrão diagonal de tecelagem cruzada da sarja foi criado originalmente para resistir ao atrito de cordas em navios e velas mercantes no Mediterrâneo, sendo a construção têxtil mais resistente a rasgos e perfurações que a humanidade já concebeu!",
+    practicalExercise: "Coloque um retalho de sarja resinada preta no bastidor acompanhado de uma entretela rasgável. Selecione uma matriz de escudo sem preenchimento interno, bordando apenas uma estrela branca no centro e uma borda amarela em ponto cheio de 4 mm a 700 PPM. Retire do bastidor, corte a margem externa com uma tesoura fina ou ferro de solda e sinta a consistência, rigidez e perfeição do patch profissional!",
+    quickSummary: "Tecido estruturado pesado com ligamento sarjado diagonal e verso resinado termofixo, padrão mundial para confecção de emblemas, brasões e patches com máxima estabilidade e corte térmico selado.",
+    seeAlso: [
+      "Filme Termocolante Definitivo / Filme Termocolante Patch",
+      "Borda Selada a Laser / Corte Térmico de Emblemas",
+      "Apliquê (Appliqué no Bordado Computadorizado)",
+      "Ponto Cheio / Satin Stitch",
+      "Compensação de Repuxo (Pull Compensation)"
+    ]
+  },
+  {
+    id: "b-099-bobinas-pre-enroladas-descartaveis",
+    code: "B-099",
+    term: "Bobinas Pré-Enroladas Descartáveis (Pre-Wound Bobbins / Carretilhas Prontas de Fábrica para Bordado)",
+    letter: "B",
+    level: "🟢 Iniciante a Intermediário",
+    category: "Agulhas & Fios",
+    grammarClass: "Substantivo composto feminino",
+    origin: "Do francês 'bobine' (cilindro de enrolamento têxtil). As bobinas pré-bobinadas industrialmente surgiram na Europa e nos Estados Unidos nos anos 1970 (com a consolidação de marcas como Coats, Fil-Tec e Madeira) para eliminar os gargalos de tempo ocioso em fábricas industriais onde operadores perdiam horas parando máquinas multicabeças para encher carretilhas na mão, revolucionando a estabilidade da tensão inferior no mundo inteiro.",
+    summary: "Carretilhas descartáveis industrializadas cheias sob controle eletrônico de tensão com microfio contínuo de poliéster, oferecendo até o dobro de linha no mesmo espaço e estabilidade absoluta de ponto sem desregulagens.",
+    definition: "As bobinas pré-enroladas descartáveis (Pre-Wound Bobbins) no bordado computadorizado são carretéis de suprimento inferior de linha de canelinha produzidos industrialmente sob controle eletrônico milimétrico de tração e enrolamento paralelo de espiras. Fabricadas com filamento contínuo de 100% poliéster fino e de alta tenacidade (geralmente títulos 60 wt a 75 wt / dtex 130), apresentam uma compactação volumétrica até 50% superior à obtida em enchedores convencionais acoplados a máquinas de bordar, armazenando entre 100 e 135 metros lineares nos formatos padronizados (como Tamanho L para máquinas industriais e Classe 15/Tamanho A para máquinas domésticas). Disponíveis com abas laterais descartáveis de papelão (cardboard-sided), laterais de plástico transparente ou núcleos magnéticos sem laterais (magnetic core), garantem desenrolamento uniforme sem oscilações de fricção na mola da caixa de bobina, erradicando laçadas invertidas e reduzindo a quebra de linha por descompasso de tensão.",
+    technicalDetails: "As bobinas industriais dividem-se em dois padrões dimensionais principais: Tamanho L (diâmetro ~21 mm, altura ~9 mm, capacidade de ~110 a 130 metros de fio 60/75) e Classe 15/A (diâmetro ~20,5 mm, altura ~11,5 mm para domésticas Brother, Janome, Bernina, Singer, capacidade de ~100 metros). O fio utilizado é livre de ceras pesadas e não gera desprendimento de cotão ou fiapos de celulose no interior da lançadeira rotativa. A tensão dinâmica exercida sobre a mola da caixa de bobina permanece estável na faixa de 18 gf a 24 gf do início ao fim do carretel.",
+    beginnerExplanation: "Sabe aquela carretilha que você perde um tempão enchendo no pino da máquina de costura, e que de vez em quando fica fofa de um lado, apertada do outro ou acaba bem no meio do bordado de uma toalha linda? As bobinas pré-enroladas são carretilhas que já vêm cheias de fábrica dentro de uma caixinha! Elas são enroladas por máquinas automáticas com uma perfeição inacreditável e cabe quase o dobro de linha no mesmo espacinho! Você só abre a caixinha, coloca na máquina e borda por horas seguidas sem precisar parar a produção para encher linha!",
+    howItWorks: [
+      "Instalação direta: Retira-se a bobina pré-enrolada da embalagem e posiciona-se diretamente dentro da caixa da bobina, observando o sentido de rotação indicado pelo manual da máquina (sentido horário ou anti-horário).",
+      "Passagem sob a mola: Passa-se o fio pela ranhura guia da mola de tensão da caixa de bobina sem necessidade de reajustar o parafuso.",
+      "Desenrolamento contínuo: Durante a costura a alta velocidade (700 a 1000 PPM), o carretel gira de forma balanceada sem trepidações excêntricas.",
+      "Laçada limpa no verso: A linha inferior sobe na medida exata para abraçar a linha superior colorida, gerando a proporção perfeita de 1/3 de faixa branca no centro do verso.",
+      "Descarte e reposição: Ao término dos mais de 100 metros de linha, o núcleo vazio de papelão ou plástico fino é descartado e substituído imediatamente por uma nova bobina pronta em 5 segundos."
+    ],
+    mainTypes: [
+      "Bobinas com Abas de Papelão (Cardboard-Sided): Modelo mais popular e econômico, com disquinhos de papelão descartáveis nas duas faces laterais.",
+      "Bobinas Plásticas Transparentes (Plastic-Sided): Laterais lisas de acrílico fino que deslizam com baixíssimo atrito e permitem visualização clara pelo visor transparente da máquina.",
+      "Bobinas Magnéticas / Sem Abas (Magnetic Core / Sideless): Possuem um ímã cilíndrico microscópico no miolo que ancora no fundo metálico da caixa de bobina, eliminando rotações por inércia quando a máquina para bruscamente."
+    ],
+    recommendedSettings: {
+      speedPPM: "Compatível com qualquer faixa de velocidade (500 a 1.200 PPM)",
+      needleType: "Universal para todos os calibres de agulha (65/9 a 90/14)",
+      stabilizer: "Não interfere na seleção de entretela",
+      threadTension: "Tensão de caixa de bobina calibrada entre 18 e 25 gf",
+      capacity: "Autonomia média de 35.000 a 50.000 pontos por carretel"
+    },
+    examples: [
+      "Produção de grandes lotes de uniformes corporativos e jalecos sem paradas frequentes.",
+      "Bordados em máquinas industriais multicabeças (6, 8 ou 12 cabeças trabalhando simultaneamente).",
+      "Confecção de enxovais de bebê e toalhas de banho felpudas com verso uniforme e macio.",
+      "Matrizes densas de ponto tatami e monogramas cheios que exigem estabilidade ininterrupta."
+    ],
+    relationshipWithMatrix: "As bobinas pré-enroladas mantêm a fidelidade dimensional da matriz no tecido. Em matrizes com sequências extensas de ponto cheio (satin) seguidas de tatami, a variação de tensão em bobinas manuais costuma repuxar o tecido de forma desigual, desalinhando o contorno final em relação ao preenchimento. Com a bobina pré-enrolada de tensão industrial contínua, o repuxo mecânico é uniforme em todo o motivo, garantindo que o contorno perimetral caia perfeitamente sobre a área desenhada.",
+    commonErrors: [
+      "Comprar o modelo dimensional incorreto para a sua máquina (ex: colocar bobina plana industrial Tamanho L em máquina doméstica que exige Classe 15 mais alta, fazendo o ponto travar).",
+      "Deixar o papelão lateral amassado ou com rebarbas raspar na parede interna da caixa de bobina.",
+      "Reutilizar núcleos descartáveis vazios tentando encher na máquina comum (eles entortam e perdem a geometria).",
+      "Misturar bobinas pré-enroladas de poliéster com bobinas de algodão na mesma peça, gerando encolhimentos diferentes na primeira lavagem."
+    ],
+    howToIdentifyAdjustment: "Identifica-se a necessidade imediata de adotar as bobinas pré-enroladas quando o bordador nota que a linha branca da bobina aparece na frente do bordado em alguns momentos e depois afunda, ou quando perde-se tempo excessivo parando a máquina a cada duas matrizes para encher canelinhas manuais.",
+    dicaArtrelados: "O segredo de ouro das bordadeiras que usam bobinas com abas de papelão (*cardboard*): se a sua máquina doméstica acusar erro de bobina presa ou se a linha começar a repuxar, descole com a pontinha da unha os dois disquinhos redondos de papelão e use apenas o 'tubinho' de linha solto na caixa da bobina! Sem o papelão raspando nas paredes plásticas, a bobina gira macia como seda e o ponto fica impecável!",
+    voceSabia: "Uma máquina de bordar moderna consome em média 1 metro de linha de bobina para cada 1.000 pontos dados na peça. Enquanto uma bobina caseira enrolada no pino da máquina cabe cerca de 45 a 60 metros de linha, uma bobina pré-enrolada a vácuo de fábrica cabe até 135 metros no mesmíssimo diâmetro, o que significa mais que o dobro de produtividade contínua no seu ateliê!",
+    practicalExercise: "Coloque uma bobina cheia em casa na máquina e borde um desenho de 15.000 pontos; verifique o verso e meça quanto sobrou de linha. Em seguida, coloque uma bobina pré-enrolada nova e borde exatamente a mesma matriz ao lado: sinta como a máquina trabalha mais silenciosa, verifique a perfeita linha reta de 1/3 no verso e comprove que a bobina ainda tem linha para bordar mais 2 ou 3 peças inteiras!",
+    quickSummary: "Carretilhas descartáveis industrializadas cheias sob controle eletrônico de tensão com microfio contínuo de poliéster, oferecendo até o dobro de linha no mesmo espaço e estabilidade absoluta de ponto sem desregulagens.",
+    seeAlso: [
+      "Caixa da Bobina (Bobbin Case / Cápsula de Canelinha)",
+      "Tensão da Linha da Bobina (Teste da Gota e Balanço de Ponto)",
+      "Enchedor de Bobina Independente / Bobinador Externo",
+      "Linha de Bobina de Bordado (Filamento 100% Poliéster Título 60/75)",
+      "Lançadeira Rotativa (Rotary Hook)"
+    ]
   }
 ];
