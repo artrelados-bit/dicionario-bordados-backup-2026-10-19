@@ -173,45 +173,51 @@ function sanitizeVerbetesList(list: Verbete[]): Verbete[] {
 
   const combined = Array.from(deduplicatedMap.values());
 
-  // Letter counter for auto-assigning codes to any verbetes missing code
-  const letterCounters: Record<string, number> = {};
-
-  // First pass: register all pre-existing codes to find the highest number per letter
+  // Group verbetes by their normalized true letter (A-Z)
+  const byLetter: Record<string, Verbete[]> = {};
   combined.forEach((v) => {
-    if (v.code) {
-      const match = v.code.match(/^([A-Z])-(\d+)/i);
-      if (match) {
-        const letter = match[1].toUpperCase();
-        const num = parseInt(match[2], 10);
-        if (!letterCounters[letter] || num > letterCounters[letter]) {
-          letterCounters[letter] = num;
-        }
-      }
+    const normTerm = (v.term || "").trim().replace(/^[🟢🟡🔴\s]+/, "");
+    let letter = normTerm.charAt(0).toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    if (!letter.match(/[A-Z]/)) {
+      letter = (v.letter || "A").toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      if (!letter.match(/[A-Z]/)) letter = "A";
     }
+    if (!byLetter[letter]) {
+      byLetter[letter] = [];
+    }
+    byLetter[letter].push(v);
   });
 
+  // Sort each letter group alphabetically by term and assign sequential dynamic codes (A-001, A-002, etc.)
   const seenIds = new Set<string>();
-  const processed = combined.map((v, i) => {
-    let item = { ...v };
+  const processed: Verbete[] = [];
 
-    // Auto-generate code if missing or empty
-    if (!item.code || item.code.trim() === "") {
-      const letter = (item.term || "V").trim().charAt(0).toUpperCase();
-      letterCounters[letter] = (letterCounters[letter] || 0) + 1;
-      const numFormatted = String(letterCounters[letter]).padStart(3, "0");
-      item.code = `${letter}-${numFormatted}`;
-    }
+  const sortedLetters = Object.keys(byLetter).sort((a, b) => a.localeCompare(b, "pt-BR"));
+  sortedLetters.forEach((letter) => {
+    // Sort strictly alphabetically by term
+    byLetter[letter].sort((a, b) => {
+      const cleanA = (a.term || "").trim().replace(/^[🟢🟡🔴\s]+/, "");
+      const cleanB = (b.term || "").trim().replace(/^[🟢🟡🔴\s]+/, "");
+      return cleanA.localeCompare(cleanB, "pt-BR", { sensitivity: "base" });
+    });
 
-    // Ensure unique ID
-    if (seenIds.has(item.id)) {
-      const freshId = `${item.id}-clean-${i}-${Math.random().toString(36).substring(2, 6)}`;
-      seenIds.add(freshId);
-      item.id = freshId;
-    } else {
-      seenIds.add(item.id);
-    }
+    // Assign sequential dynamic code (A-001, A-002, ...)
+    byLetter[letter].forEach((v, idx) => {
+      const item = { ...v };
+      item.letter = letter;
+      item.code = `${letter}-${String(idx + 1).padStart(3, "0")}`;
 
-    return item;
+      // Ensure unique ID
+      if (seenIds.has(item.id)) {
+        const freshId = `${item.id}-clean-${idx}-${Math.random().toString(36).substring(2, 6)}`;
+        seenIds.add(freshId);
+        item.id = freshId;
+      } else {
+        seenIds.add(item.id);
+      }
+
+      processed.push(item);
+    });
   });
 
   return sortVerbetesByCode(processed);

@@ -242,5 +242,63 @@ export const NOVOS_VERBETES_INSUMOS: Verbete[] = [
       "Alinhamento a Laser / Ponteiro LED",
       "Kit de Emergência, Primeiros Socorros e Ferramental de Resgate Têxtil"
     ]
+  },
+  {
+    id: "s-099-spray-tira-manchas-oleo-seco",
+    code: "S-099",
+    term: "Spray Tira-Manchas de Óleo a Seco (Spot Lifter / Pó Removedor de Graxa e Lubrificantes)",
+    letter: "S",
+    level: "🟢 Iniciante a Intermediário",
+    category: "Solução de Problemas",
+    grammarClass: "Substantivo composto masculino",
+    origin: "Do inglês 'spot lifter' (removedor pontual de manchas), desenvolvido na Europa na década de 1960 para lavanderias especializadas a seco e ateliês de alfaiataria. No setor de bordado computadorizado, consagrou-se como o insumo indispensável de primeiros socorros para eliminar respingos acidentais de óleo mineral expelidos pela lançadeira ou barra da agulha sobre peças claras e uniformes sem a necessidade de lavar a peça inteira.",
+    summary: "Aerossol desengraxante a seco com pó absorvente mineral que extrai respingos de óleo e graxa da máquina de bordar em tecidos claros e toalhas em minutos, sem deixar marcas de água e sem precisar lavar.",
+    definition: "O spray tira-manchas de óleo a seco (Spot Lifter) no bordado computadorizado é um produto químico formulado em aerossol combinando solventes orgânicos de evaporação rápida e partículas sólidas micronizadas de alta adsorção superficial (argilas especiais e sílicas coloidais brancas). Destinado ao salvamento emergencial de peças de vestuário, toalhas de banho e enxovais que tenham sofrido contaminação por microgotas de óleo mineral ou graxa lubrificante durante a operação em alta velocidade. O solvente dispersa o hidrocarboneto da mancha e o transfere por sucção capilar para o pó em suspensão; à medida que o solvente evapora (em 2 a 4 minutos), forma-se uma camada de pó branco pulverulento que encarcera o óleo e é facilmente escovada com cerdas macias, restaurando a pureza original do tecido sem manchar nem alterar a cor das linhas.",
+    technicalDetails: "A aplicação do Spot Lifter requer distância de pulverização de 20 cm a 25 cm em ângulo de 90° em relação ao plano do tecido para formação de névoa seca homogênea. A velocidade de evaporação varia conforme a temperatura ambiente (tempo médio de secagem: 120 a 180 segundos). O pó resultante deve ser removido com escova de cerdas de crina natural ou fluxo controlado de ar comprimido (30-40 PSI). É compatível com algodão, poliéster, piquet, sarja, linho e tecidos mistos. Em tecidos escuros ou sintéticos brilhantes, deve-se realizar teste preliminar de resíduo em área oculta.",
+    beginnerExplanation: "Sabe aquele momento desesperador em que você está bordando uma toalha branquinha ou uma camisa polo linda e de repente pinga uma gotinha preta de óleo da máquina no tecido do cliente? O Spot Lifter é o produto milagroso que salva a vida da bordadeira! Você sacode a latinha de spray, espirra de longe sobre a mancha e espera 2 minutinhos. Ele seca e vira um pozinho branco de giz. Aí você pega uma escovinha macia e varre o pó: o óleo foi todo chupado para dentro do pó e a peça do cliente fica limpinha, sem mancha e sem precisar molhar na água!",
+    howItWorks: [
+      "Identificação imediata: Isola-se o tecido no momento em que se detecta o respingo de óleo ou graxa, mantendo o tecido totalmente seco (nunca molhar com água).",
+      "Agitação prévia: Agita-se a lata vigorosamente por 20 segundos para dispersar o pó adsorvente no propelente.",
+      "Pulverização a 20-25 cm: Aplica-se uma borrifada curta e uniforme diretamente sobre a mancha até formar uma névoa clara.",
+      "Tempo de secagem (Adsorção): Aguarda-se de 2 a 4 minutos até que a área molhada evapore e se transforme em um pó branco fosco e totalmente seco ao toque.",
+      "Escovação a seco: Utiliza-se uma escovinha macia de ateliê para varrer o pó com movimentos rápidos de dentro para fora.",
+      "Conferência final: Caso a mancha tenha sido muito volumosa, repete-se uma segunda aplicação suave para remoção de qualquer sombra residual."
+    ],
+    mainTypes: [
+      "Spot Lifter Tradicional em Spray Têxtil: Modelo clássico industrial em lata de 400ml/500ml, secagem rápida e pó branco fino de fácil remoção.",
+      "Tira-Manchas a Seco Ecológico / Sem Cloro: Formulação moderna livre de solventes agressivos, segura para peças infantis e enxovais de recém-nascidos.",
+      "Bastão Sólido Tira-Manchas / Giz Adsorvente: Versão compacta em barra para passar a seco em pontas de gola e punhos estreitos."
+    ],
+    recommendedSettings: {
+      speedPPM: "Não aplicável à costura direta",
+      needleType: "Compatível com tecidos bordados com qualquer tipo de agulha",
+      stabilizer: "Não dissolve nem danifica a entretela interna",
+      threadTension: "Não afeta o equilíbrio das linhas",
+      temperature: "Aplicar em temperatura ambiente (18°C a 30°C) em local ventilado"
+    },
+    examples: [
+      "Remoção de respingos de óleo de lançadeira em camisas polo brancas e uniformes corporativos.",
+      "Limpeza emergencial de marcas de graxa da chapa de agulha em toalhas de banho felpudas claras.",
+      "Salvamento de vestidos de noiva, batas de batizado e peças nobres de seda que não toleram lavagem com água.",
+      "Desengraxe localizado em enxovais de bebê antes da etiquetagem e embalagem final."
+    ],
+    relationshipWithMatrix: "O Spot Lifter atua diretamente no pós-bordado de matrizes de alta densidade. Em matrizes densas (como monogramas cheios ou brasões volumosos), a máquina opera em alto esforço mecânico com vibração contínua do cabeçote, o que pode forçar a migração de microgotas de óleo pela haste da agulha até o tecido. Ter o spray à disposição na bancada garante que mesmo bordados densos saiam impecáveis para entrega.",
+    commonErrors: [
+      "Jogar água ou esfregar detergente líquido antes de usar o spray; a água empurra o óleo mineral para o núcleo da fibra, tornando a remoção quase impossível.",
+      "Borrifar perto demais (a menos de 10 cm), encharcando o tecido em vez de pulverizar a névoa homogênea.",
+      "Tentar escovar o pó enquanto ainda estiver úmido, borrando o óleo sobre as fibras vizinhas.",
+      "Usar sobre tecidos impermeabilizados ou sintéticos sem testar antes se deixa sombra esbranquiçada."
+    ],
+    howToIdentifyAdjustment: "Percebe-se a necessidade de reaplicação quando após a escovação do pó branco ainda se nota uma auréola amarelada fraca (indicando que a mancha continha muito óleo e necessita de uma segunda rodada de adsorção). Caso o spray saia apenas líquido sem o pó branco característico, a lata precisa ser agitada por mais tempo para misturar o pó decantado no fundo.",
+    dicaArtrelados: "A regra de ouro do ateliê Artrelados quando pingar óleo na peça: NÃO ENTRE EM PÂNICO E NUNCA PASSE ÁGUA! Deixe o tecido exatamente como está, pegue a lata de tira-manchas a seco, agite bem e aplique a 20 cm. Espere o pozinho secar como se fosse talco e passe uma escovinha de dente macia bem limpa. A mancha simplesmente desaparece diante dos seus olhos e a peça do cliente está salva!",
+    voceSabia: "A química do Spot Lifter funciona através de um fenômeno fascinante chamado 'adsorção capilar'. As partículas microscópicas do pó branco possuem milhões de poros que exercem uma força de atração molecular sobre as gorduras muito maior do que a atração que o fio de algodão tem por elas, puxando o óleo para fora do tecido como se fosse um ímã molecular!",
+    practicalExercise: "Pegue um pedaço de retalho branco de algodão. Encoste a pontinha do dedo na barra de agulha com uma gotinha de óleo e marque o tecido simulando um acidente real. Pegue a lata de tira-manchas a seco, agite por 20 segundos e borrife a 25 cm. Aguarde 3 minutos até virar uma casquinha de pó branco. Escove com vigor usando uma escova macia e veja o tecido voltar a ficar 100% branco!",
+    quickSummary: "Aerossol desengraxante a seco com pó adsorvente mineral que remove pingos acidentais de óleo de máquina em tecidos claros e toalhas em minutos sem água, sem auréola e sem estragar o bordado.",
+    seeAlso: [
+      "Kit de Emergência, Primeiros Socorros e Ferramental de Resgate Têxtil",
+      "Lubrificação do Cabeçote e Guias de Barra de Agulha",
+      "Bomba de Lubrificação Centralizada / Pistão Manual de Óleo",
+      "Aquecimento da Agulha em Alta Rotação"
+    ]
   }
 ];
