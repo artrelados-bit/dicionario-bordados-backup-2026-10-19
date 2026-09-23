@@ -2,55 +2,57 @@ import { Verbete } from "../types";
 
 export const NOVOS_VERBETES_INSUMOS: Verbete[] = [
   {
-    id: "p-099-papel-celofane-bordado",
-    code: "P-099",
-    term: "Papel Celofane no Bordado Computadorizado (Efeito Vitral e Brilho Prismático)",
-    letter: "P",
+    id: "c-099-celofane-bordado-filme-furta-cor-mylar",
+    code: "C-099",
+    term: "Celofane no Bordado Computadorizado (Filme Furta-Cor, Papel Celofane e Efeito Vitral Mylar)",
+    letter: "C",
     level: "🟢 Iniciante a Intermediário",
-    category: "Estabilizadores & Entretelas",
-    grammarClass: "Substantivo composto masculino",
-    origin: "Do francês 'cellophane', criado em 1908 pelo químico suíço Jacques E. Brandenberger a partir de celulose e diafane ('transparente'). No bordado artesanal e eletrônico, foi adotado como uma alternativa acessível e brilhante às películas industriais do tipo Mylar, permitindo criar efeitos de refração de luz e asas iridescentes.",
-    summary: "Película transparente ou furta-cor ultrafina colocada sobre o tecido antes da costura de pontos abertos (tatami de baixa densidade) para produzir reflexos vítreos e brilhantes, destacando-se facilmente após o bordado.",
-    definition: "O papel celofane no bordado computadorizado é um insumo auxiliar de efeito estético composto por filme celulósico fino, biodegradável e maleável, disponível em versões transparentes, coloridas e furta-cor (iridescentes). Aplicado sobre o tecido já estabilizado no bastidor antes da execução de pontos de preenchimento abertos ou arabescos leves, o celofane fica aprisionado sob as passadas da linha superior, refratando a luz incidente e conferindo uma textura brilhante e vítrea semelhante a asas de libélula, água ondulada, vitrais ou escamas de peixe. Por apresentar baixa resistência ao cisalhamento longitudinal e ser perfurado repetidamente pela agulha nos pontos de amarração e contorno, o celofane excedente fora da área bordada é destacado e removido manualmente com facilidade sem deformar a peça.",
-    technicalDetails: "Para o correto aprisionamento do celofane sem esfarelamento ou corte prematuro, a matriz de bordado deve ser programada com densidade aberta (espaçamento entre linhas de 0,8 mm a 1,2 mm no ponto tatami ou preenchimento decorativo). A agulha recomendada é ponta fina ou ponta bola leve (tamanho 70/10 ou 75/11) para que as perfurações sejam limpas e não rasguem o filme antes da fixação. A velocidade ideal de operação da máquina situa-se entre 500 e 650 PPM, minimizando o atrito térmico. Recomenda-se a utilização de linha de poliéster 40 trilobal de cores claras ou translúcidas para valorizar a reflexão luminosa.",
-    beginnerExplanation: "Imagine colocar uma folhinha mágica brilhante por cima do tecido antes da máquina começar a bordar. Conforme a agulha vai fazendo os pontos, a linha prende esse brilho no tecido. Quando o bordado termina, você só precisa puxar a sobra do celofane com a mão, e ele se solta rente aos pontos como se fosse uma folha de picote. O resultado parece água brilhando ou as asinhas reluzentes de uma fada!",
+    category: "Estabilizadores & Películas Decorativas",
+    grammarClass: "Substantivo masculino",
+    tags: ["celofane", "papel celofane", "plástico celofane", "plastico celofane", "mylar", "furta-cor", "efeito vitral", "asa de fada"],
+    origin: "Do francês 'cellophane', termo cunhado em 1908 pelo químico têxtil suíço Jacques E. Brandenberger a partir da junção de cellulose (celulose vegetal) e diaphane ('transparente'). Ao contrário dos plásticos sintéticos derivados do petróleo (polietileno e BOPP), o celofane genuíno é um biopolímero vegetal puro. No bordado computadorizado, foi consagrado internacionalmente como o insumo clássico para o efeito Mylar Embroidery, proporcionando refração cristalina de luz e facilidade ímpar de corte por picote manual.",
+    summary: "Película vegetal cristalina ou furta-cor aplicada sobre o tecido antes de pontos abertos de tatami; cria reflexos de asas de fada, água e vitrais, destacando-se perfeitamente com os dedos no contorno sem esticar o tecido como o plástico comum.",
+    definition: "O celofane no bordado computadorizado (frequentemente denominado no comércio como 'papel celofane' pela textura crocante e facilidade de rasgo, ou 'película Mylar') é uma lâmina delgada regenerada a partir de celulose vegetal biodegradável, comercializada em acabamentos transparente cristal, translúcido colorido e furta-cor iridescente. Seu diferencial técnico em relação aos plásticos comuns de polipropileno reside na estrutura molecular de baixa elasticidade e alta fragilidade ao cisalhamento: ao ser perfurado pela agulha sob um contorno denso em ponto cheio ou ponto triplo, o celofane rompe-se de forma retilínea e limpa ao longo da perfuração (efeito microsserrilha de picote), permitindo destacar o excesso externo apenas com os dedos, sem deformar a malha do tecido. Sob luz incidente em ângulos variáveis, a camada aprisionada sob pontos de baixa densidade (tatami aberto de 0,8 mm a 1,2 mm) dispersa reflexos prismáticos vítreos de grande apelo estético.",
+    technicalDetails: "Espessura ideal de trabalho: entre 18 e 30 micras (filmes muito espessos dificultam o rasgo perimetral). A matriz de bordado exige programação específica: densidade de preenchimento aberta (espaçamento entre linhas de 0,8 mm a 1,2 mm), sob-costura (underlay) interna desativada para não esfarelar o celofane antes do ponto de acabamento, e contorno perimetral fechado (ponto cheio de largura mínima de 2,0 mm a 2,5 mm com densidade 0,38 mm para atuar como linha de corte mecânico). Agulha recomendada: Schmetz ou Organ SES (ponta bola leve) calibre 70/10 ou 75/11. Velocidade na máquina: 550 a 650 PPM.",
+    beginnerExplanation: "Muitas pessoas chamam de 'papel celofane' porque ele faz aquele barulhinho crocante e rasga retinho como papel picotado, e outras chamam de 'plástico celofane', mas na verdade ele é uma película mágica de celulose vegetal! E aí está o grande segredo: NUNCA use saquinho plástico comum no lugar dele, porque o plástico comum estica, fica puxando e deforma o seu bordado. O celofane verdadeiro você coloca por cima do tecido, a máquina faz pontos abertos segurando o brilho dele, e depois que a máquina faz o contorno, você só puxa a beiradinha com os dedos e ele se solta limpinho como folha de caderno picotada! O bordado fica parecendo as asinhas reluzentes de uma fada ou a cauda de uma sereia!",
     howItWorks: [
-      "Fixação no bastidor: O tecido e a entretela apropriada são montados no bastidor de forma convencional.",
-      "Posicionamento do celofane: Corta-se um pedaço de celofane ligeiramente maior que a área do motivo e posiciona-se sobre o tecido, podendo ser fixado nas bordas externas com fita crepe suave ou leve borrifo de adesivo temporário.",
-      "Ponto de fixação perimetral: A máquina executa um alinhavo simples ou contorno suave para assentar o filme plástico sobre o substrato.",
-      "Costura dos pontos abertos: O preenchimento é bordado sobre o celofane, deixando espaços entre os fios de linha para que a luz bata na película e reflita.",
-      "Contorno de corte/picote: Um ponto cheio (satin) ou ponto triplo denso é bordado nas extremidades da figura, agindo como guilhotina perfurada.",
-      "Destacamento da sobra: Ao retirar o bastidor, segura-se a peça e puxa-se o celofane excedente em direção ao centro; ele rasga perfeitamente na linha do contorno."
+      "1. Fixação no bastidor: O tecido e a entretela apropriada são montados no bastidor de forma convencional.",
+      "2. Posicionamento do celofane: Corta-se uma folha de celofane furta-cor ligeiramente maior que o desenho e pousa-se sobre o tecido, fixando as extremidades com fita crepe azul ou adesivo temporário.",
+      "3. Alinhavo de retenção: A máquina executa um contorno corrido suave para assentar a lâmina sem enrugar.",
+      "4. Costura com pontos abertos: Borda-se o preenchimento em tatami aberto (espaçamento de 1,0 mm), deixando a luz bater no celofane que brilha por baixo dos fios.",
+      "5. Contorno picotador: A máquina executa o contorno em ponto cheio acetinado denso, agindo como uma linha de corte microperfurada.",
+      "6. Destacamento manual: Retira-se a peça do bastidor e puxa-se a sobra de celofane; ela rasga perfeitamente na linha do contorno sem necessidade de tesoura."
     ],
     mainTypes: [
-      "Celofane Furta-Cor / Furta-Cor Iridescente: O mais valorizado, muda de tom (verde, rosa, dourado) dependendo da inclinação da luz.",
-      "Celofane Cristal Tradicional: Totalmente transparente, adiciona um brilho aquoso molhado sobre tecidos acetinados ou metálicos.",
-      "Celofane Colorido Translúcido (Azul, Vermelho, Âmbar): Altera a tonalidade da linha e do tecido de fundo, simulando pedrarias e vitrais sacros."
+      "Celofane Furta-Cor / Iridescente: O favorito dos ateliês, projeta nuances de rosa, dourado e verde conforme o ângulo de visão.",
+      "Celofane Cristal Tradicional: 100% transparente, adiciona efeito de brilho molhado e vitrificado sob linhas coloridas.",
+      "Celofane Colorido Translúcido (Azul Céu, Rubi, Âmbar): Transforma a tonalidade do tecido e simula pedrarias e vitrais sacros.",
+      "Filme Mylar Metalizado Especial: Versão industrial de poliéster aluminizado com reflexo espelhado de alta durabilidade."
     ],
     recommendedSettings: {
-      speedPPM: "500 a 650 PPM",
-      needleType: "Ponta Bola Leve SES ou Ponta Normal 70/10 ou 75/11",
-      stabilizer: "Entretela rasgável ou recortável de acordo com o tecido base",
-      threadTension: "Tensão ligeiramente mais frouxa para não enrugar a película",
+      speedPPM: "550 a 650 PPM",
+      needleType: "Agulha Ponta Bola Leve SES 70/10 ou 75/11",
+      stabilizer: "Entretela rasgável ou recortável de acordo com o tecido da peça",
+      threadTension: "Tensão ligeiramente mais solta para não repuxar a película",
       density: "0,8 mm a 1,2 mm (espaçamento aberto; nunca usar densidade fechada padrão de 0,4 mm)",
-      underlay: "Sem underlay pesado; utilizar no máximo um alinhavo de contorno simples"
+      underlay: "Sem underlay interno no preenchimento (usar apenas sob-costura no contorno)"
     },
     examples: [
-      "Asas de fadas, libélulas e borboletas em toalhas de lavabo e vestidos infantis.",
-      "Simulação de água em movimento, gotas de orvalho ou escamas de sereia.",
-      "Bordados natalinos luminosos (sinos, estrelas e velas com reflexo de vela).",
-      "Detalhes de armaduras ou escudos em temas infantis e lúdicos."
+      "Asas de fadas, libélulas e borboletas em toalhas de lavabo e vestidos infantis de festa.",
+      "Simulação de água em movimento, cristais de gelo, escamas de sereia e bolhas de sabão.",
+      "Bordados natalinos luminosos (sinos, estrelas, velas e bolas com reflexo espelhado).",
+      "Detalhes de armaduras, espadas e escudos em temas medievais e lúdicos."
     ],
     relationshipWithMatrix: "O celofane exige uma relação direta e obrigatória com a densidade e o underlay da matriz. Se a matriz tiver ponto tatami fechado (0,4 mm), a linha cobrirá 100% do celofane, anulando completamente o efeito visual. Se tiver sob-costura (underlay) gradeada densa, perfurará o celofane em excesso antes da cobertura, esfarelando o material. Portanto, o programador deve configurar densidade aberta de 0,9 mm a 1,2 mm e eliminar o underlay interno, mantendo apenas o ponto de amarração no contorno externo.",
     commonErrors: [
-      "Usar matriz convencional de densidade fechada (0,4 mm), cobrindo todo o brilho do celofane.",
-      "Bordar em alta velocidade (acima de 750 PPM), aquecendo a agulha e derretendo o plástico durante a costura.",
-      "Usar ferro de passar roupa muito quente direto sobre o bordado concluído, enrugando o celofane que ficou sob as linhas.",
-      "Não colocar ponto de contorno final, dificultando o destacamento limpo da sobra ao redor do bordado."
+      "Usar plástico comum derivado de petróleo (como sacolas ou filmes stretch de cozinha); o plástico não rasga no contorno, estica com os dedos e deforma irreversivelmente o bordado.",
+      "Usar matriz convencional de densidade fechada (0,4 mm), cobrindo todo o brilho do celofane sob as linhas.",
+      "Bordar em alta rotação (acima de 750 PPM), aquecendo a agulha e derretendo o celofane durante a costura.",
+      "Encostar ferro de passar roupa muito quente diretamente sobre o bordado finalizado sem um pano protetor por cima."
     ],
-    howToIdentifyAdjustment: "Identifica-se a necessidade de ajuste quando o celofane começa a rasgar e soltar fiapos no meio do bordado antes da hora (indica agulha grossa demais, velocidade alta ou underlay desnecessário), ou quando após o término não se enxerga o brilho característico (indica que a densidade de pontos da matriz está excessivamente fechada).",
+    howToIdentifyAdjustment: "Identifica-se a necessidade de ajuste quando o filme começa a se esfarelar no meio do bordado antes da hora (indica agulha grossa demais, velocidade alta ou underlay interno desnecessário), ou quando a sobra externa não destaca facilmente com a mão (indica que o contorno em ponto cheio não foi programado com densidade suficiente para criar o picote).",
     dicaArtrelados: "Para facilitar a remoção da sobra de celofane depois de bordar sem repuxar os pontos: dê uma leve aquecida de longe com um secador de cabelo no modo morno nas beiradinhas do contorno. O calor suave amolece a micro-perfuração do contorno e o celofane se solta quase como mágica, deixando o acabamento 100% limpo!",
-    voceSabia: "Embora hoje seja amplamente associado a embalagens plásticas, o celofane genuíno é feito a partir da celulose natural da madeira e do algodão. Por ser biodegradável e respirável, ele não impede a secagem do tecido e não deixa cheiro tóxico na peça!",
+    voceSabia: "Embora hoje seja popularmente chamado de 'papel celofane', o celofane verdadeiro foi a primeira película transparente impermeável da história feita de celulose pura de madeira e algodão! Por ser 100% vegetal, ele respira, não acumula eletricidade estática e não deixa cheiro químico desagradável na peça.",
     practicalExercise: "Pegue um pedaço de retalho de sarja ou feltro, coloque uma entretela rasgável embaixo e posicione um quadrado de celofane furta-cor em cima. Abra uma matriz simples de estrela com ponto tatami configurado com espaçamento de 1,0 mm e contorno cheio de 2,5 mm. Borde na máquina a 600 PPM. Retire o bastidor e puxe a sobra do celofane para ver o efeito luminoso espetacular!",
     quickSummary: "Película fina transparente ou furta-cor posicionada sobre o tecido antes de bordar pontos abertos; cria reflexos cintilantes e vitrificados em asas, água e detalhes lúdicos, sendo destacada manualmente pelas bordas perfuradas após a costura.",
     seeAlso: [
@@ -597,6 +599,69 @@ export const NOVOS_VERBETES_INSUMOS: Verbete[] = [
       "Entretela Termo-Fusível de Acabamento de Avesso Extra-Macia (Cover-a-Stitch / Soft Seal Fusible Backing)",
       "Marcação e Posicionamento de Bordado em Peito Esquerdo (Left Chest Alignment)",
       "Compensação de Repuxo (Pull Compensation)"
+    ]
+  },
+  {
+    id: "s-099-silicone-liquido-textil-lubrificante-fios-bordado",
+    code: "S-099",
+    term: "Silicone Líquido Têxtil / Lubrificante de Fios de Bordado (Thread Lubricant / Óleo Protetor de Agulha e Redutor de Atrito)",
+    letter: "S",
+    level: "🟡 Intermediário a Avançado",
+    category: "Insumos, Linhas & Lubrificação",
+    grammarClass: "Substantivo masculino composto",
+    origin: "Do latim silicium (sílex/pedra dura) combinado com o sufixo químico -one. Desenvolvido em escala industrial nos Estados Unidos e Alemanha na década de 1960 à base de polidimetilsiloxano (PDMS) puro de grau têxtil e cosmético, com o propósito de viabilizar a costura e o bordado em máquinas eletrônicas de alta velocidade (acima de 700 a 1000 pontos por minuto), reduzindo drasticamente o coeficiente de fricção entre os filamentos sintéticos e as superfícies metálicas aquecidas dos tensores e agulhas.",
+    summary: "Lubrificante especial 100% puro à base de polidimetilsiloxano formulado para fios de bordado, reduzindo a fricção e o superaquecimento da agulha em alta rotação, eliminando quebras de linhas metálicas e cones de poliéster ressecados sem manchar tecidos.",
+    definition: "O Silicone Líquido Têxtil (Thread Lubricant / Sewing & Embroidery Thread Conditioner) é um fluído sintético límpido, inodoro, atóxico e 100% puro composto por polímeros de polidimetilsiloxano (PDMS) com viscosidade controlada (geralmente entre 100 cSt e 350 cSt). No bordado computadorizado, sua função primária é criar uma película mono-molecular microscópica sobre a superfície dos filamentos da linha de bordar à medida que ela transita pelos tubos-guia, discos de tensão e, crucialmente, pelo olho da agulha. Em máquinas industriais e semi-industriais operando entre 700 e 1000 PPM, o atrito mecânico constante entre a linha e a agulha eleva a temperatura da ponta da agulha para além de 120°C a 180°C, provocando a fusão térmica dos filamentos de poliéster, desfiamento de lâminas de linhas metálicas (Lurex/poliéster metalizado) ou quebra por estresse térmico. O silicone reduz o coeficiente de atrito em até 65%, dissipa o calor por condução térmica instantânea e assegura passagem macia da linha, sem deixar resíduos pegajosos, manchas gordurosas ou odores na peça bordada.",
+    technicalDetails: "Composição: 100% Polidimetilsiloxano (Dimeticona pura industrial têxtil), isento de solventes derivados de petróleo ou óleos vegetais oxidáveis. Ponto de fulgor: superior a 300°C. Viscosidade cinemática ideal: 100 a 350 centistokes (cSt) a 25°C. Volatilidade e dispersão: dissipa-se gradualmente após a costura sem deixar halos amarelos em tecidos claros ou brancos. Método de dosagem: 1 a 2 gotas aplicadas em feltro ou esponja no cabeçote guia-fio por turno de trabalho (aproximadamente 0,05 ml por 50.000 pontos). Não ataca plásticos de engenharia, borrachas ou circuitos eletrônicos da máquina.",
+    beginnerExplanation: "Sabe quando você está bordando e a linha começa a arrebentar a cada 2 minutos sem motivo aparente, ou quando você tenta usar aquela linha metálica dourada linda e ela fica desfiando e embolando toda? Isso acontece porque a agulha bate tão rápido no tecido que fica quente como um ferro de passar minúsculo, queimando a linha por atrito! O Silicone Líquido Têxtil é o santo remédio do ateliê: você coloca uma única gotinha dele em um feltro ou numa esponjinha por onde a linha passa antes de descer para a agulha. A linha fica incrivelmente deslizante e macia, a agulha trabalha fria e a máquina borda liso do começo ao fim sem quebrar nada — e o melhor de tudo: ele é transparente, inodoro e não mancha nem engordura a roupa do seu cliente!",
+    howItWorks: [
+      "1. Dosagem controlada: O operador deposita 1 a 2 gotas de silicone puro em um pequeno feltro de lubrificação, esponja de densidade média ou no copinho dosador do mastro guia-fio.",
+      "2. Capilaridade contínua: Ao ser puxada da bobina ou cone pelo pantógrafo e pelo estica-fio, a linha roça levemente contra o feltro umedecido.",
+      "3. Microfilme protetor: A tensão superficial do polímero distribui uma microcamada homogênea e quase invisível ao redor de cada filamento da linha.",
+      "4. Estabilização nos tensores: Ao passar pelos discos de tensão, a linha corre com resistência hidrodinâmica suave e constante, sem solavancos.",
+      "5. Refrigeração passiva da agulha: Ao atravessar o olho da agulha e perfurar o tecido e a entretela até 1000 vezes por minuto, o filme de silicone amortece o impacto e impede o acúmulo de calor por atrito.",
+      "6. Proteção do acabamento: A agulha permanece em temperatura operacional fria (abaixo de 70°C), preservando a integridade física da linha e a durabilidade da lançadeira.",
+      "7. Secagem imperceptível: Após o bordado pronto, o microfilme evapora ou se dispersa de forma invisível, mantendo o toque macio e original do bordado."
+    ],
+    mainTypes: [
+      "Silicone Líquido Puro (Viscosidade 100-350 cSt): O padrão ouro universal para linhas de poliéster, viscose e metálicas aplicado gota a gota em feltros guia-fio.",
+      "Spray Aerossol de Silicone Seco Têxtil: Pulverizado a 30 cm de distância diretamente sobre os cones de linha antes do carregamento na máquina.",
+      "Dispensador com Esponja Embutida (Thread Lubricator Box): Pequena caixinha plástica com duas esponjas encaixadas que se fixa magneticamente na torre da máquina.",
+      "Caneta Aplicadora com Ponta de Feltro: Ferramenta de precisão manual para lubrificar discos tensores ou a calha da agulha em serviços de emergência."
+    ],
+    recommendedSettings: {
+      speedPPM: "Permite operar linhas metálicas entre 650 e 750 PPM com segurança",
+      needleType: "Agulha Metallic 130/705 H-MET 80/12 ou 90/14 (com olho alongado)",
+      stabilizer: "Compatível com todos os estabilizadores (rasgáveis, solúveis e termocolantes)",
+      threadTension: "Tensão de linha superior levemente recalibrada (a linha corre com menor atrito)",
+      density: "Densidade padrão (0,40 mm a 0,44 mm)",
+      pullCompensation: "Padrão da matriz (+0,30 mm)"
+    },
+    examples: [
+      "Bordado de brasões e fardamentos militares com linha metálica dourada de alta torção.",
+      "Bordados em peças de alta espessura (jaquetas jeans grossas, couros e bonés estruturados) onde o atrito da agulha é severo.",
+      "Resgate e reaproveitamento de cones antigos de linha de poliéster ressecados pelo tempo ou ar condicionado.",
+      "Produção industrial ininterrupta em máquinas multicabeças a 850 PPM sem paradas por quebra de linha."
+    ],
+    relationshipWithMatrix: "O uso de silicone não altera os dados digitais do arquivo da matriz, mas influencia diretamente a física de formação do ponto. Com o atrito reduzido nos guias e no olho da agulha, a linha superior flui com menos resistência, o que pode dar a impressão de que a tensão afrouxou ligeiramente. Em desenhos com altíssima densidade de pontos ou cruzamentos triplos de ponto cheio, o silicone previne que a agulha superaquecida atue como uma lâmina quente cortando as camadas de pontos inferiores já costuradas.",
+    commonErrors: [
+      "Usar óleo comum de máquina de costura (óleo lubrificante de cárter amarelo); o óleo comum mancha permanentemente os tecidos e deixa odor oleoso na roupa do cliente.",
+      "Encharcar o cone de linha com excesso de silicone; o excesso escorre pelo cabeçote da máquina, suja a mesa e pode sujar os sensores ópticos de quebra de fio.",
+      "Aplicar silicone spray inflamável enquanto o motor elétrico ou os solenóides da máquina estão em operação com risco de faísca.",
+      "Acreditar que o silicone substitui a agulha correta ou recupera agulhas tortas e cegas."
+    ],
+    howToIdentifyAdjustment: "Identifica-se a necessidade do silicone têxtil quando: 1) A linha arrebenta repetidamente a cada 100 ou 200 pontos com as pontas esfareladas ou com aspecto derretido; 2) A agulha fica extremamente quente ao toque logo após a máquina parar; 3) O ateliê precisa bordar com linha metalizada e ocorrem quebras constantes mesmo reduzindo a rotação da máquina para 500 PPM.",
+    dicaArtrelados: "O 'Truque da Esponjinha de Maquiagem' do ateliê Artrelados: Pegue um pedacinho bem pequeno de esponja de maquiagem macia (tipo queijinho de látex) ou um retalho de feltro de 1 cm². Fixe com um pedacinho de fita crepe no primeiro ilhós metálico da torre logo acima do disco de tensão. Pingue apenas UMA gota de silicone têxtil 100% puro na esponjinha e passe a linha atravessando-a. A linha entra seca e sai lubrificada na medida exata! Você vai bordar linhas metálicas difíceis com a máquina a 750 PPM cantando suave sem quebrar uma única vez!",
+    voceSabia: "Em linhas de montagem automotivas na Alemanha e no Japão, as linhas de costura e bordado para bancos de couro genuíno passam obrigatoriamente por sistemas de silicone líquido microdosado, porque o atrito da agulha perfurando couro natural a 900 PPM atinge mais de 220°C instantaneamente — calor suficiente para derreter qualquer fio sintético sem a lubrificação contínua!",
+    practicalExercise: "Pegue um cone de linha metálica que costuma arrebentar com frequência. Borde um desenho de teste de 5.000 pontos sem lubrificante e anote quantas quebras ocorreram. Em seguida, instale a esponjinha com uma gota de silicone no guia-fio e borde exatamente a mesma matriz. Compare o número de quebras e sinta a diferença de temperatura na agulha logo após o término da costura!",
+    quickSummary: "Fluído sintético 100% puro à base de polidimetilsiloxano que lubrifica os filamentos da linha de bordar, impedindo o aquecimento excessivo da agulha e a quebra de linhas metálicas e sintéticas em alta velocidade sem manchar o tecido.",
+    seeAlso: [
+      "Linha Metálica para Bordado (Lurex / Fio Metalizado de Poliéster)",
+      "Agulha Especial para Fio Metálico (Metallic Needle 130/705 H-MET)",
+      "Aquecimento da Agulha por Fricção em Alta Rotação (Needle Heat Buildup)",
+      "Limpeza e Lubrificação Periódica da Máquina de Bordar",
+      "Sensor Óptico de Quebra de Linha (Thread Break Sensor)",
+      "Tensão da Linha Superior (Upper Thread Tension)"
     ]
   }
 ];
