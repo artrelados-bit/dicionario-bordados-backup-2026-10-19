@@ -1229,6 +1229,8 @@ export const VERBETES_LETTER_A: Verbete[] = [
       "Deslocamento de Origem",
       "Bastidor de Bordado"
     ],
+    "imageUrl": "/images/a002_abertura_campo_v1.jpg",
+    "imageCaption": "Diagrama de bastidor técnico destacando a área útil interna de bordado e margem de folga perimetral.",
     "tags": [
       "a-017",
       "abertura de campo",
@@ -4968,6 +4970,8 @@ export const VERBETES_LETTER_A: Verbete[] = [
       "Controle de Tensão da Linha",
       "Linha de Bobina / Fio de Fundo"
     ],
+    "imageUrl": "/images/a001_abastecimento_bobina_v1.jpg",
+    "imageCaption": "Mecanismo de Enchedor de Bobina Independente com disco de pré-tensão e limitador automático.",
     "tags": [
       "a-074",
       "enchedor de bobina",

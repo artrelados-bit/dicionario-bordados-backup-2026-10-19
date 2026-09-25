@@ -69,6 +69,8 @@ export const VERBETES_LETTER_A2: Verbete[] = [
       "Manutenção Preventiva"
     ],
     tags: ["a-087", "abrasao de fio", "ilhos guia", "mecanica", "manutencao", "quebra de linha", "artrelados"],
+    imageUrl: "/images/a003_abrasao_ilhos_v1.jpg",
+    imageCaption: "Ilhós cerâmico e metálico guia-fio com detalhe em corte evidenciando a fenda de desgaste por atrito da linha.",
     bibliographicReferences: [
       "TAJIMA TECHNICAL JOURNAL. Thread Path Tribology and Ceramic Eyelet Wear Standards. Nagoya, 2022.",
       "BARUDAN INDUSTRIAL EMBROIDERY. Preventive Maintenance & Thread Guide Inspection. Ichinomiya, 2021.",
