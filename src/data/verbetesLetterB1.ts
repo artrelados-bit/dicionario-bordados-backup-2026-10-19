@@ -306,6 +306,8 @@ export const VERBETES_LETTER_B1: Verbete[] = [
       "tnt",
       "artrelados"
     ],
+    "imageUrl": "/images/b003_backing_textil_v1.jpg",
+    "imageCaption": "Corte transversal mecânico detalhando a penetração da agulha e laçada de ponto na manta de fibras do backing têxtil.",
     "bibliographicReferences": [
       "PELLON CONSUMER PRODUCTS. Embroidery Stabilizers & Backing Selection Guide. New York, 2021.",
       "HOOPMASTER. Proper Backing Selection for Tubular Embroidery. Ohio, 2022."
@@ -2787,6 +2789,8 @@ export const VERBETES_LETTER_B1: Verbete[] = [
       "pes",
       "artrelados"
     ],
+    "imageUrl": "/images/b001_baby_lock_v1.jpg",
+    "imageCaption": "Perspectiva esquemática de máquina de bordado computadorizado com módulo pantográfico, bastidor e tela de comando.",
     "bibliographicReferences": [
       "BABY LOCK USA / TACONY CORP. Instruction and Reference Guide: Solaris Vision & Meridian Embroidery Systems. Fenton: Baby Lock, 2023.",
       "BABY LOCK USA. IQ Designer & IQ Intuition Positioning User Handbook. Fenton, 2023.",

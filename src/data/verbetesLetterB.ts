@@ -660,6 +660,8 @@ export const VERBETES_LETTER_B: Verbete[] = [
       "tearaway",
       "artrelados"
     ],
+    "imageUrl": "/images/b002_backing_estabilizador_v1.jpg?v=2",
+    "imageCaption": "Diagrama técnico em camadas do bastidor retangular de bordado computadorizado evidenciando o tecido e a entretela de base (backing).",
     "bibliographicReferences": [
       "HOLLIS, Deborah. The Complete Guide to Stabilizers & Backings for Machine Embroidery. New York, 2021.",
       "ARTRELADOS. Guia Definitivo de Entretelas, Backings e Toppings. Brasil, 2024."
