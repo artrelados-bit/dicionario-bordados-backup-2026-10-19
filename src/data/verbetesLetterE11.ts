@@ -255,6 +255,8 @@ export const VERBETES_LETTER_E_PART11: Verbete[] = [
       "programacao",
       "artrelados"
     ],
+    "imageUrl": "/images/e003_efeito_degrade_pontos_v1.jpg",
+    "imageCaption": "Degradê em pétala bordada em bastidor de máquina eletrônica: transição suave com bordas plumadas sob a agulha e calcador.",
     "bibliographicReferences": [
       "WILCOM. Color Blending, Shading Effects & Artistic Stitch Artistry Guide. Sydney, 2022.",
       "DEVERSON, B. Needle Painting & Thread Color Transitions in Machine Embroidery. London, 2021."

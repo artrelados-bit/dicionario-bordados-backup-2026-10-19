@@ -350,6 +350,8 @@ export const VERBETES_LETTER_E_PART10: Verbete[] = [
     quickSummary: "Práticas ecológicas de bordado: linhas de garrafa PET reciclada, reaproveitamento de entretelas e descarte seguro de agulhas.",
     relatedTerms: ["Boas Práticas & Produtividade", "Linha de Poliéster 100%", "Estabilizadores & Entretelas"],
     tags: ["e-061", "sustentabilidade", "linhas recicladas", "pet", "eco bordado", "zero waste", "oeko-tex", "artrelados"],
+    imageUrl: "/images/e001_eco_sustentabilidade_v1.jpg",
+    imageCaption: "Diagrama esquemático de eco-sustentabilidade no ateliê: fiação de PET reciclado em cone de bordado, entretelas e descarte seguro.",
     bibliographicReferences: [
       "MADEIRA. Polyneon Green: 100% Recycled PET Embroidery Thread Environmental Report. Freiburg, 2022.",
       "OEKO-TEX. Standard 100 Ecological Safety & Baby Safe Textile Certification. Zurich, 2023.",

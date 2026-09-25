@@ -199,6 +199,8 @@ export const VERBETES_LETTER_E_PART3: Verbete[] = [
     quickSummary: "Recurso no visor da máquina que permite combinar desenhos, digitar nomes, girar e ajustar o layout sem computador.",
     relatedTerms: ["Espelho de Matriz / Inversão Horizontal e Vertical", "Carregamento de Matriz", "Área de Bordado", "Operação da Máquina"],
     tags: ["e-019", "edicao na tela", "layout", "combinar desenhos", "fontes embutidas", "touchscreen", "brother", "janome", "artrelados"],
+    imageUrl: "/images/e002_edicao_tela_maquina_v1.jpg",
+    imageCaption: "Esquema de interface em tela touchscreen de bordadora: manipulação interativa de matriz, rotação e limites do bastidor virtual.",
     bibliographicReferences: [
       "BROTHER. Innov-is & BP Series On-Screen Layout & Touchscreen Editing Master Manual. Nagoya, 2022.",
       "JANOME. Memory Craft On-Screen Editing & Font Formatting Standards. Tokyo, 2023.",
