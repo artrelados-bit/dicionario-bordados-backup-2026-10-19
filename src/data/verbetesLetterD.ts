@@ -3557,6 +3557,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "barrados",
       "enxoval"
     ],
+    "imageUrl": "/images/d001_debrum_bordado_v1.jpg",
+    "imageCaption": "Diagrama esquemático de debrum bordado: tira dobrada abraçando a borda têxtil e lacrada por coluna de ponto cheio.",
     "bibliographicReferences": [
       "WILCOM. Border Digitizing, Binding and Edge Finishing Guidelines. Sydney: Wilcom, 2022.",
       "COATS INDUSTRIAL. Edge Binding, Trimming and Overcasting Mechanics. London, 2021.",
@@ -5988,6 +5990,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "topping",
       "artrelados"
     ],
+    "imageUrl": "/images/d002_decapagem_termica_v1.jpg",
+    "imageCaption": "Procedimento técnico de decapagem térmica: fluxo de ar quente do soprador encolhendo micro-resíduos de filme plástico sobre o bordado.",
     "bibliographicReferences": [
       "GUNOLD TECHNICAL REPORT. Heat-Away Films and Thermal Stripping Techniques. Stockstadt, 2022.",
       "MADEIRA GARMENT CARE. Post-Embroidery Heat Finishing and Clean-up Procedures. Freiburg, 2021.",
@@ -6506,6 +6510,8 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "manutencao",
       "artrelados"
     ],
+    "imageUrl": "/images/d003_dedo_posicionador_v1.jpg",
+    "imageCaption": "Diagrama de engenharia em corte superior da laçadeira com dedo posicionador acoplado ao entalhe da caixa de bobina.",
     "sourceReference": "DIBE - Dicionário Ilustrado de Bordado Eletrônico / Artrelados",
     "bibliographicReferences": [
       "HIROSE MANUFACTURING CO., LTD. Rotary Hook & Bobbin Case Position Bracket Technical Specification Handbook. Osaka: Hirose, 2023.",
