@@ -982,6 +982,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "troca de cor",
       "artrelados"
     ],
+    "imageUrl": "/images/c002_cabecote_multiagulhas_v1.jpg",
+    "imageCaption": "Perspectiva esquemática frontal do cabeçote multiagulhas com bloco deslizante de barras de agulhas e esticadores de fio.",
     "updatedAt": "2026-08-19",
     "origin": "Do latim caput (cabeça), multus (muitos) e acucula (agulha). Evolução dos teares mecânicos automatizados para produção industrial contínua.",
     "beginnerExplanation": "Cabeçote multiagulhas é o bloco de bordar das máquinas industriais e semi-industriais que possui várias agulhas juntas (geralmente 4, 6, 10, 12 ou 15 agulhas). Cada agulha já fica com uma cor de linha diferente passada, trocando as cores na hora sem parar o bordado!",
@@ -3266,6 +3268,8 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "manutenção",
       "troca de agulha"
     ],
+    "imageUrl": "/images/c003_bloco_fixador_agulha_v1.jpg",
+    "imageCaption": "Esquema mecânico em corte do bloco fixador na ponta da barra de agulha com parafuso de aperto e cabo inserido.",
     "bibliographicReferences": [
       "SCHMETZ. Needle Clamp Mechanics, Shank Alignment and Loop Clearance. Alsdorf, 2022.",
       "BROTHER. Needle Clamp Assembly and Replacement Guide. Nagoya, 2023.",
