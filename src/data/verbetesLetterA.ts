@@ -5131,4 +5131,216 @@ export const VERBETES_LETTER_A: Verbete[] = [
     ],
     "updatedAt": "2026-08-28"
   }
+,
+{
+  "id": "a-atoalhado-tecidos-felpudos-toalhas",
+  "code": "A-000",
+  "term": "Atoalhado no Bordado Eletrônico (Tecidos Felpudos & Toalhas)",
+  "letter": "A",
+  "level": "Iniciante 🟢 a Intermediário 🟡",
+  "category": "Tecidos & Estabilização",
+  "grammarClass": "Substantivo masculino / Locução nominal substantiva",
+  "origin": "Do latim toacula (diminutivo de toalha, pano de linho ou algodão para enxugar as mãos e o rosto). A evolução do tecido atoalhado moderno (conhecido internacionalmente como terrycloth ou terry toweling) teve origem no século XIX na manufatura inglesa e turca, caracterizado pela formação proposital de laçadas verticais de fios de algodão puro. A adaptação para o bordado eletrônico nas décadas de 1980 e 1990 exigiu o desenvolvimento de filmes plásticos solúveis em água (Solvy) para impedir o afundamento e soterramento das linhas nas felpas.",
+  "summary": "Técnicas, parâmetros de matriz e estabilização para bordar tecidos com felpas salientes (como toalhas de banho, rosto e roupões) sem engolir os pontos e evitando marcas permanentes do bastidor.",
+  "definition": "O Atoalhado no Bordado Eletrônico refere-se ao conjunto de técnicas de estabilização, programação de matrizes e manuseio de bastidores aplicadas a tecidos com textura felpuda e laçadas abertas de algodão (terrycloth, velour e felpa dupla). Por sua estrutura tridimensional fofa e móvel, o atoalhado tende a \"engolir\" letras pequenas e detalhes finos, fazendo com que as laçadas do tecido brotem entre as colunas de ponto cheio ou tatami se não for utilizado o método do sanduíche com filme hidrossolúvel no topo e entretela adequada na base.",
+  "technicalDetails": "A digitalização de matrizes para atoalhado exige cuidados rígidos: fontes com altura mínima de 10 a 12 mm (evitar letras menores que 8 mm com serifas frágeis), largura de coluna de ponto cheio de no mínimo 1,5 mm a 2,0 mm e densidade moderada entre 0,40 mm e 0,45 mm. É indispensável o uso de sob-costura em grade (Tatami Underlay ou Net Underlay) com ângulo cruzado para achatar a felpa antes da passagem dos pontos de acabamento. A compensação de encolhimento (pull compensation) deve ser configurada entre 0,40 mm e 0,50 mm para compensar a absorção elástica do tecido felpudo.",
+  "beginnerExplanation": "Pense no tecido da toalha como um gramado alto e fofinho. Se você colocar uma linha fina ou uma pedrinha pequena em cima da grama alta, o capim cobre tudo e você não enxerga nada! O filme hidrossolúvel (aquele plastiquinho transparente que dissolve na água) funciona como uma plaquinha de vidro que você apoia na grama para deixá-la baixinha. A máquina borda sobre o plástico, a linha fica bem desenhada e nítida por cima, e depois você só puxa o plástico e borrifa uma aguinha morna para ele derreter por completo!",
+  "characteristics": [
+    "Estrutura com laçadas soltas de algodão que absorvem e retêm umidade",
+    "Alta espessura e maleabilidade elástica que sofrem compressão no aro do bastidor",
+    "Exigência mandatória de barreira física superficial (filme hidrossolúvel / Solvy)",
+    "Necessidade de sob-costura de estruturação em grade aberta na matriz",
+    "Sensibilidade a marcas de pressão de aros plásticos rígidos (hoop burn)"
+  ],
+  "construction": [
+    "1. Base inferior: Entretela rasgável de algodão (40 a 50 g/m²) ou hidrossolúvel pesada",
+    "2. Corpo central: Tecido atoalhado (sem aperto excessivo do aro)",
+    "3. Camada superior: Filme plástico hidrossolúvel (Solvy / filme hidro)",
+    "4. Fixação de segurança: Alinhave perimetral no bastidor (Basting Stitch)",
+    "5. Matriz: Sob-costura em rede + Ponto cheio encorpado com alta compensação"
+  ],
+  "howItWorks": [
+    "1. Prepara-se o bastidor: prende-se a entretela rasgável e aplica-se leve camada de adesivo temporário em spray.",
+    "2. Posiciona-se a toalha suavemente sobre a entretela na área da barra ou corpo, alisando com as mãos sem esticar a trama.",
+    "3. Cobre-se toda a área do bordado com uma folha de filme plástico hidrossolúvel.",
+    "4. A máquina executa a costura de alinhave perimetral (basting), prendendo a toalha e o filme hidrossolúvel juntos.",
+    "5. Inicia-se o bordado: a máquina deposita a sob-costura em grade para achatar as felpas e, em seguida, cobre com ponto cheio ou tatami lustroso.",
+    "6. Ao término, retira-se o bastidor, rasga-se o excesso de plástico hidrossolúvel a seco e removem-se os micro-resíduos com borrifador de água morna ou ferro a vapor."
+  ],
+  "mainTypes": [
+    "Atoalhado Tradicional (Felpa Dupla): Laçadas de algodão em ambas as faces, com máxima absorção e maior altura de felpa.",
+    "Atoalhado Aveludado (Velour): Face direita tosquiada industrialmente formando toque aveludado e brilho suave; face avesso com laçadas comuns.",
+    "Atoalhado com Barra para Bordar (Etamine ou Ponto Cruz): Faixa lisa de tecido plano de algodão sem felpas reservada para bordados geométricos ou de máquina.",
+    "Microfibra Atoalhada: Fibras sintéticas ultra-absorventes para toalhas de secagem rápida e academia."
+  ],
+  "applications": [
+    "Toalhas de banho, rosto e lavabo de alto padrão com monogramas e brasões",
+    "Roupões de hotelaria e enxovais de noiva personalizados",
+    "Toalhinhas de mão infantis e babadores para maternidade e escola",
+    "Kits de lavabo com rendas, bordados richelieu e barrados finos",
+    "Toalhas de praia, piscina e fitness com logomarcas institucionais"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "550 a 650 PPM (evita vibrações e repuxos em tecidos volumosos)",
+    "needleType": "Agulha Ponta Bola Leve (SES / 130/705 H-SUK ou DBxK5-SES) tamanho 75/11",
+    "stabilizer": "Entretela rasgável média (45 g/m²) no avesso + Filme hidrossolúvel no topo",
+    "density": "0,40 mm a 0,45 mm (densidades muito fechadas afundam e endurecem a toalha)",
+    "pullCompensation": "0,40 mm a 0,50 mm para compensar o afundamento nas laçadas",
+    "underlay": "Grade cruzada (Net Underlay / Tatami) sob letras e desenhos largos",
+    "threadTension": "Tensão superior equilibrada (nem frouxa para não fazer laçadas, nem apertada para não repuxar)"
+  },
+  "advantages": [
+    "✔ Peças com maior valor comercial e giro de vendas no mercado de bordados no Brasil",
+    "✔ Durabilidade extrema e aceitação fantástica para presentes e enxovais afetivos",
+    "✔ Excelente contraste visual entre o brilho da linha de poliéster e a textura fosca do algodão",
+    "✔ Versatilidade para monogramas, brasões clássicos e personagens infantis"
+  ],
+  "limitations": [
+    "Inviável para letras minúsculas ou detalhes inferiores a 8 mm sem barras de proteção",
+    "Risco de marcas de compressão do aro do bastidor se apertado diretamente na felpa",
+    "Demanda uso obrigatório de consumível extra (filme plástico hidrossolúvel)"
+  ],
+  "commonErrors": [
+    "❌ Bordar sem filme hidrossolúvel: felpas passam pelo meio dos pontos e arruínam o acabamento",
+    "❌ Prender a toalha no aro apertando com chave de fenda: esmaga a felpa gerando brilho/marca permanente",
+    "❌ Usar agulha ponta cortante: decepa as laçadas do tecido gerando furos e rasgos na toalha",
+    "❌ Molhar a toalha inteira antes de remover o plástico: vira pasta pegajosa difícil de tirar",
+    "❌ Letras muito finas sem sob-costura: afundam completamente na textura atoalhada"
+  ],
+  "troubleshootingTips": [
+    "Se as felpas continuarem visíveis entre os pontos: acrescente uma camada dupla de filme hidrossolúvel e aumente a sob-costura em grade na matriz.",
+    "Se a toalha ficou com marca do aro do bastidor: umedeça levemente o local com água morna e esfregue uma escova de cerdas macias na direção contrária da fibra, aplicando vapor de ferro sem encostar a chapa quente.",
+    "Se a toalha encolheu ou repuxou após lavar: aumente a compensação de encolhimento e certifique-se de que a entretela da base é de boa gramatura."
+  ],
+  "dicaArtrelados": "A técnica de ouro do Bastidor Flutuante para Toalhas: nunca aperte a toalha nos aros plásticos! Coloque apenas a entretela rasgável esticadinha como um tambor no bastidor, borrife adesivo temporário e repouse a toalha suavemente por cima. Coloque o filme plástico hidrossolúvel e use a função de alinhavo de contorno (basting) da máquina. Sua toalha fica 100% livre de marcas de aro, com acabamento impecável de loja de luxo!",
+  "voceSabia": "Nas toalhas de padrão hoteleiro internacional (luxo 5 estrelas), o tecido recebe um banho de vaporização sob pressão antes de ser enviado ao bordado para assentar as fibras. Além disso, os monogramas usam sempre linhas de poliéster com tratamento resistente a cloro, permitindo que a toalha passe por lavanderias industriais sem desbotar a cor do bordado!",
+  "practicalExercise": "Exercício Prático de Ateliê (Monograma Perfeito em Toalha de Lavabo):\n1. Separe uma toalha de lavabo de algodão comum e uma folha de filme hidrossolúvel de 15x15 cm.\n2. No bastidor 13x18 ou 10x10, prenda apenas a entretela rasgável.\n3. Aplique adesivo temporário suave e acomode a toalha sobre o centro do bastidor.\n4. Estique o filme plástico sobre o local do bordado.\n5. Selecione a inicial do seu nome com altura de 30 mm e ponto cheio de largura 3 mm.\n6. Execute a costura de alinhavo e, em seguida, borde o monograma.\n7. Destaque o plástico a seco e passe um pedaço de algodão umedecido em água morna: admire a nitidez escultural do seu bordado!",
+  "quickSummary": "Para bordar tecidos atoalhados com perfeição, use sempre o método do sanduíche (entretela na base e filme hidrossolúvel no topo) e prefira a técnica do bastidor flutuante para preservar a felpa sem marcas de aro.",
+  "relatedTerms": [
+    "Filme Hidrossolúvel (Solvy)",
+    "Entretela Rasgável",
+    "Adesivo Temporário em Spray",
+    "Alinhave no Bastidor / Costura de Basting",
+    "Compensação de Encolhimento",
+    "Jogo de Toalhas de Lavabo com Ponto Ajour & Bainha Aberta",
+    "Ponto Cheio (Satin Stitch)"
+  ],
+  "tags": [
+    "atoalhado",
+    "toalha de banho",
+    "toalha de lavabo",
+    "felpa",
+    "terrycloth",
+    "filme hidrossolúvel",
+    "solvy",
+    "bastidor flutuante",
+    "monograma"
+  ],
+  "updatedAt": "2026-09-27"
+}
+,
+{
+  "id": "a-agulha-cabo-redondo-vs-cabo-chato-dbxk5-130-705h",
+  "code": "A-000",
+  "term": "Agulha de Cabo Redondo vs. Cabo Chato (Sistemas DBxK5 vs. 130/705 H)",
+  "letter": "A",
+  "level": "Intermediário 🟡 a Avançado 🔴",
+  "category": "Agulhas & Mecânica",
+  "grammarClass": "Locução substantiva comparativa",
+  "origin": "Do latim acucula (agulha, pequeno objeto pontiagudo). No século XIX, com as primeiras máquinas mecânicas de costura Singer, o cabo cilíndrico (redondo) era o padrão da indústria pela facilidade de usinagem nos tornos da época. Para evitar que os usuários domésticos montassem a agulha torta e quebrassem a lançadeira, a indústria desenvolveu o sistema com chanfro plano posterior (o sistema doméstico 130/705 H ou HAx130). Já as máquinas industriais e multicabeças mantiveram o cabo 100% redondo (sistema DBxK5 / DBx1) para permitir ajustes angulares milimétricos no alinhamento da laçada em alta rotação (acima de 1.000 PPM).",
+  "summary": "Diferenças mecânicas, riscos de colisão e métodos corretos de alinhamento manual entre agulhas de cabo cilíndrico (máquinas industriais/multiagulhas) e cabo com lado plano (máquinas domésticas).",
+  "definition": "A distinção entre Agulha de Cabo Redondo vs. Cabo Chato define a compatibilidade mecânica do cabeçote e o método de fixação na barra de agulha. As agulhas de cabo chato (Flat Shank / Sistema 130/705 H / HAx130EBBR) possuem uma face plana posterior que orienta e trava a agulha automaticamente no ângulo correto de fábrica. As agulhas de cabo redondo (Round Shank / Sistema DBxK5 / DBx1) são perfeitamente cilíndricas em toda a haste de encaixe, permitindo rotação livre em 360°, o que exige que a bordadeira ou técnico posicione manualmente a cava (scarf) e a canaleta frontal no alinhamento milimétrico exato com a lançadeira rotativa.",
+  "technicalDetails": "Nas máquinas industriais e semi-industriais (como Brother PR, Tajima, Barudan, SWF, Ricoma), o furo receptor da barra de agulha é cilíndrico. A agulha de cabo redondo deve ser inserida com a ranhura longa perfeitamente voltada para a frente (direção do operador) e a cava posterior orientada na direção do bico da lançadeira (geralmente entre 0° e 5° para a direita, conforme o manual). Uma rotação de apenas 10° fora do alinhamento ideal reduz o tamanho da laçada do fio em até 60%, causando pontos pulados imediatos ou colisão da lançadeira contra a lâmina da agulha (folga recomendada de 0,05 mm a 0,10 mm). Nas domésticas, o encaixe em forma de \"D\" impede erros angulares.",
+  "beginnerExplanation": "Imagine uma chave de porta: a agulha de cabo chato é como uma chave que só entra de um lado na fechadura, não tem como colocar errado! A parte reta vai sempre para trás. Já a agulha de cabo redondo é como um lápis liso: ela entra de qualquer jeito. Porém, ela tem uma \"covinha\" secreta logo acima do buraquinho da linha. Se essa covinha não ficar virada para a lançadeira que passa rodando por trás, a máquina não consegue laçar a linha de baixo, e começam os estalos, arrebentamentos e falhas de ponto!",
+  "characteristics": [
+    "Cabo Chato (130/705 H): Possui face plana posterior que garante orientação automática nas máquinas domésticas",
+    "Cabo Redondo (DBxK5 / DBx1): Haste 100% cilíndrica para máquinas industriais e multicabeças",
+    "Exigência de alinhamento angular visual e manual no sistema de cabo redondo",
+    "Alta precisão e tolerância de folga mecânica (0,05 mm a 0,10 mm da ponta da lançadeira)",
+    "Diferença de diâmetro do cabo: 2,04 mm no cabo chato e 1,63 mm a 2,00 mm no cabo redondo industrial"
+  ],
+  "construction": [
+    "1. Cabo (Shank): Cilíndrico com face plana (doméstico) ou cilíndrico contínuo (industrial)",
+    "2. Cone de transição (Shoulder): Junção entre o cabo e a haste",
+    "3. Haste / Lâmina (Blade): Corpo cilíndrico com canaleta longa frontal",
+    "4. Cava / Chanfro (Scarf): Rebaixo na face oposta da canaleta para passagem da lançadeira",
+    "5. Olho e Ponta (Eye & Point): Furo reforçado para passagem do fio e terminação perfurante"
+  ],
+  "howItWorks": [
+    "1. Ao instalar a agulha de cabo chato na máquina doméstica, a face plana apoia no fundo da barra e o parafuso trava sem risco de rotação.",
+    "2. Ao instalar a agulha de cabo redondo na industrial, a agulha deve ser empurrada até o batente vertical superior.",
+    "3. Com os dedos ou pinça, a bordadeira orienta a ranhura frontal para a frente e a cava para trás/direita.",
+    "4. Utiliza-se um guia visual (como um alfinete passado pelo olho da agulha) para conferir o esquadro a 90° em relação ao operador.",
+    "5. Aperta-se o parafuso da barra de agulha segurando a lâmina com firmeza para que o torque do aperto não a faça girar.",
+    "6. Ao acionar a máquina, a ponta da lançadeira passa com extrema precisão rente à cava, recolhendo a laçada de linha sem choque mecânico."
+  ],
+  "mainTypes": [
+    "Sistema 130/705 H / HAx130EBBR: Cabo chato universal para máquinas domésticas de bordar (Brother, Janome, Singer, Bernina).",
+    "Sistema DBxK5: Cabo redondo especificamente otimizado para máquinas de bordado computadorizado industrial de alta rotação (olho alargado e lâmina reforçada).",
+    "Sistema DBx1: Cabo redondo tradicional de costura e bordado industrial padrão.",
+    "Sistema 134 / DPx5: Cabo redondo mais longo utilizado em máquinas pesadas especiais."
+  ],
+  "applications": [
+    "Configuração e substituição correta de agulhas em ateliês com máquinas mistas (domésticas e industriais)",
+    "Prevenção de quebra de ponta de lançadeira em máquinas de 6, 10 e 15 agulhas (Brother PR, Ricoma, Tajima)",
+    "Ajuste fino de laçada para bordados em fios metálicos e linhas grossas em máquinas industriais",
+    "Seleção correta de insumos e suprimentos na compra de pacotes de agulhas Schmetz, Groz-Beckert e Organ"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "Domésticas (Cabo chato): 400 a 700 PPM | Industriais (Cabo redondo): 600 a 1.000 PPM",
+    "needleType": "Doméstica: HAx130EBBR ou 130/705 H-E | Industrial: DBxK5-SES ou DBxK5-PD",
+    "stabilizer": "Adequado ao tecido bordado (rasgável, hidrossolúvel ou de recorte)",
+    "density": "Calibrada de acordo com o calibre da agulha (65/9 a 90/14)",
+    "pullCompensation": "Padrão de matriz (0,35 mm a 0,45 mm)",
+    "underlay": "Sob-costura estrutural regular",
+    "threadTension": "Verificar folga de laçada após qualquer substituição de agulha"
+  },
+  "advantages": [
+    "✔ Cabo chato: Impossível errar o alinhamento, ideal para iniciantes e ateliês domésticos",
+    "✔ Cabo redondo: Permite micro-ajustes angulares por mecânicos para capturar fios complexos ou metálicos",
+    "✔ Ampla disponibilidade de espessuras e pontas especializadas em ambos os sistemas no mercado mundial",
+    "✔ O sistema DBxK5 reduz quebras de linha em altas rotações em até 40% em relação a agulhas industriais genéricas"
+  ],
+  "limitations": [
+    "Incompatibilidade física: forçar cabo redondo em máquina doméstica estraga a barra de agulha",
+    "Cabo redondo exige habilidade manual e atenção do operador para não montar com a cava desalinhada",
+    "Necessidade de conferir periodicamente o aperto dos parafusos nas barras individuais de multiagulhas"
+  ],
+  "commonErrors": [
+    "❌ Montar a agulha de cabo redondo girada: a laçada não se forma e a máquina pula dezenas de pontos seguidos",
+    "❌ Montar com a cava invertida para a frente: a ponta da lançadeira colide com a agulha e pode quebrar a ponta",
+    "❌ Forçar agulha de cabo chato em cabeçote industrial cilíndrico: fica solta e desregulada",
+    "❌ Apertar o parafuso sem segurar a lâmina: o próprio giro da chave faz a agulha rodar alguns graus fora da posição",
+    "❌ Não empurrar até o batente superior: agulha fica mais comprida e bate na chapa de ponto ou na caixa de bobina"
+  ],
+  "troubleshootingTips": [
+    "Se após trocar uma agulha a linha arrebentar a cada 10 pontos: pare imediatamente! A agulha de cabo redondo está torta no encaixe. Afrouxe o parafuso, confira a canaleta frontal e a cava e reaperte segurando firme.",
+    "Se ouvir um barulho metálico estalado: desligue a máquina e confira se a lançadeira não está raspando na lâmina da agulha.",
+    "Se a agulha não entrar na barra da máquina doméstica: verifique se você não está tentando usar uma agulha industrial de cabo redondo ou se a face chata está virada para trás."
+  ],
+  "dicaArtrelados": "O Truque do Alfinete Guia para Agulhas Industriais: ao posicionar a agulha de cabo redondo na barra da máquina, passe um alfinete de cabeça fininho por dentro do buraco (olho) da agulha. Ele serve como uma alavanca de mira precisa! Olhando de cima, mantenha o alfinete perfeitamente perpendicular ao corpo da máquina (a 90 graus). Segure o alfinete com os dedos da mão esquerda enquanto dá o aperto final no parafuso com a mão direita: a agulha ficará milimetricamente cravada no ângulo correto sem girar!",
+  "voceSabia": "Nas fábricas de alta produção com máquinas de 20 cabeçotes, os técnicos usam uma pequena câmera endoscópica com luz LED ou um espelho de dentista para checar o alinhamento da cava da agulha com a ponta da lançadeira em todas as barras antes de iniciar turnos de 24 horas contínuas de bordado!",
+  "practicalExercise": "Exercício de Bancada (Inspeção de Anatomia da Agulha):\n1. Pegue uma agulha da sua máquina e use a lanterna do celular.\n2. Passe a unha suavemente pelo corpo da haste e sinta o canalzinho comprido: essa é a canaleta frontal que protege o fio.\n3. Gire 180° e olhe logo acima do furo: repare na \"covinha\" afundada (a cava ou scarf).\n4. Se for cabo chato, comprove que a face plana está do mesmo lado da cava.\n5. Se for cabo redondo, treine colocar na máquina usando a técnica do alfinete no olho da agulha e veja a perfeição do alinhamento ao girar o volante na mão!",
+  "quickSummary": "O cabo chato garante orientação automática infalível para máquinas domésticas; já o cabo redondo industrial requer alinhamento manual da canaleta e da cava para que a lançadeira recolha o fio sem quebrar a agulha.",
+  "relatedTerms": [
+    "Agulha de Bordado Computadorizado",
+    "Ajuste de Ponto e Folga da Lançadeira / Tempo de Lançadeira",
+    "Ângulo de Chanfro da Agulha",
+    "Agulha Titânio / Nitreto de Titânio",
+    "Agulha Ponta Bola (SES / FFG / SUK)",
+    "Ponto Pulado (Skipped Stitch)"
+  ],
+  "tags": [
+    "agulha",
+    "cabo redondo",
+    "cabo chato",
+    "dbxk5",
+    "130/705h",
+    "lançadeira",
+    "cava da agulha",
+    "alinhamento de agulha",
+    "industrial vs domestica"
+  ],
+  "updatedAt": "2026-09-27"
+}
 ];
