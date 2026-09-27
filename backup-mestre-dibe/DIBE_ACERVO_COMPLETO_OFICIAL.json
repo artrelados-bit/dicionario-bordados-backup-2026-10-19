@@ -518,6 +518,113 @@
     "updatedAt": "2026-08-19"
   },
   {
+    "id": "a-acolchoamento-trapunto-eletronico-quilting-bastidor",
+    "code": "A-000",
+    "term": "Acolchoamento / Trapunto Eletrônico (Trapunto & Quilting no Bastidor)",
+    "letter": "A",
+    "level": "Intermediário 🟡 a Avançado 🔴",
+    "category": "Técnicas Especiais & Relevo",
+    "grammarClass": "Substantivo masculino / Locução nominal técnica",
+    "origin": "Do italiano medieval trapunto (particípio do verbo trapungere, pespontar através, acolchoar ou espetar de um lado a outro). A técnica surgiu na Sicília no século XIV como acabamento aristocrático de enxoval onde cordões de algodão ou mechas de lã eram inseridos manualmente por trás do tecido para estufar áreas selecionadas do desenho. No bordado computadorizado moderno, a técnica foi adaptada nos anos 1990 para execução direta no bastidor (In-The-Hoop Trapunto), empregando mantas acrílicas resinadas (R1/R2) recortadas mecanicamente por etapas programadas de parada.",
+    "summary": "Técnica mista de bordado e quilting no bastidor que cria figuras em relevo estufado e macio através de camadas de manta interna podadas e contrastadas com fundos rebaixados em micro-quilting.",
+    "definition": "O Acolchoamento / Trapunto Eletrônico é a técnica de bordado computadorizado pela qual relevos tridimensionais macios e táteis são esculpidos na superfície têxtil sem o uso de EVA rígido. A matriz comanda sequências automatizadas de costura reta perimetral sobre uma camada de manta de enchimento (poliéster ou algodão), executa uma pausa programada para poda manual do excedente da manta rente aos contornos da figura e, na sequência, sobrepõe o tecido nobre principal, finalizando com colunas de contorno acetinado e pontos densos de quilting (stippling, meandros ou grade geométrica) que rebaixam o fundo e fazem o motivo central projetar-se em alto-relevo acolchoado.",
+    "technicalDetails": "Na programação da matriz, a costura de fixação da manta deve utilizar ponto corrido com comprimento entre 2,5 mm e 3,0 mm para facilitar o corte da bordadeira com tesoura pelicano sem cortar os pontos. Os contornos de acabamento sobre a manta podada exigem colunas de ponto cheio com largura de 2,5 mm a 3,5 mm e compensação de encolhimento de 0,40 mm a 0,50 mm para absorver a transição do degrau da manta e vedar qualquer resíduo fibroso. O fundo de sustentação (background quilting) deve manter densidade moderada (espaçamento de linhas de 2,5 mm a 3,5 mm) para comprimir o tecido de suporte sem enrijecer o caimento geral da peça.",
+    "beginnerExplanation": "Sabe quando você vê uma colcha antiga ou uma almofada de bebê onde o ursinho parece uma almofadinha fofa que salta para fora do tecido, enquanto todo o fundo em volta é achatadinho com ondinhas de costura? Isso é o Trapunto! Em vez de usar EVA (que fica duro e não pode passar a ferro quente), você usa uma mantinha macia só debaixo do ursinho. Quando a máquina amassa o fundo com costurinhas pequenas, a figura fica fofa, gordinha e macia ao toque, com aquele visual aconchegante de enxoval de luxo!",
+    "characteristics": [
+      "Relevo tridimensional macio, lavável e confortável ao toque direto na pele",
+      "Uso de mantas acrílicas resinadas (R1 de 100g ou manta de bambu/algodão)",
+      "Pausa programada na matriz para recorte e desbaste perimetral da manta (Stop)",
+      "Contraste visual escultural entre a figura acolchoada e o fundo plano em micro-quilting",
+      "Compatibilidade total com passagem de ferro a vapor sem amassar o relevo"
+    ],
+    "construction": [
+      "1. Base de estabilização: Entretela rasgável ou hidrossolúvel pesada no bastidor",
+      "2. Camada de enchimento: Manta acrílica resinada R1 de 100g",
+      "3. Costura de marcação: Ponto reto perimetral delimitando a área do trapunto",
+      "4. Desbaste manual: Poda da manta excedente rente à costura externa",
+      "5. Camada nobre: Tecido principal assentado sobre a manta podada",
+      "6. Finalização: Coluna de ponto cheio nas bordas e quilting denso no fundo"
+    ],
+    "howItWorks": [
+      "1. Prende-se no bastidor a entretela e uma camada de manta acrílica R1.",
+      "2. A máquina borda a linha de contorno da figura (Trapunto Placement Stitch).",
+      "3. Ocorre a pausa programada (Stop): o bastidor avança e a bordadeira apara a manta ao redor da costura com tesoura curva pelicano.",
+      "4. Posiciona-se o tecido nobre principal (percal, tricoline ou linho) cobrindo todo o bastidor.",
+      "5. A máquina retoma o ciclo, costurando a fixação do tecido sobre a manta podada.",
+      "6. Em seguida, a máquina executa o preenchimento de fundo em micro-meandros (stippling), prensando o tecido ao redor da figura.",
+      "7. Por fim, borda as colunas de acabamento em ponto cheio ao redor do motivo central, completando o relevo acolchoado."
+    ],
+    "mainTypes": [
+      "Trapunto com Poda no Bastidor (In-The-Hoop Trimming): Método moderno onde a manta é recortada diretamente no aro.",
+      "Trapunto Duplo / Multicamadas: Aplicação de duas espessuras de manta para relevos graduados com diferentes alturas.",
+      "Trapunto com Apliquê de Tecido: Combinação de tecido estampado ou felpudo acolchoado sobre o fundo bordado.",
+      "Falso Trapunto (Puff Foam): Simulação rápida com EVA (embora resulte em toque rígido, diferente do trapunto genuíno)."
+    ],
+    "applications": [
+      "Mantas de bebê, cobertorzinhos de berço e almofadas de maternidade",
+      "Colchas e painéis decorativos de Quilt in the Hoop",
+      "Bolsas térmicas, nécessaires acolchoadas e mochilas infantis",
+      "Jaquetas bomber, coletes e paletós em alta-costura",
+      "Caminhos de mesa e centros de mesa natalinos clássicos"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "500 a 600 PPM (velocidade moderada para acomodar o desnível da manta sem vibrar o cabeçote)",
+      "needleType": "Agulha Ponta Bola Leve (SES) ou Topstitch 75/11 ou 80/12 (olho maior para facilitar a laçada)",
+      "stabilizer": "Entretela rasgável de boa gramatura (50 g/m²) ou entretela de recorte macia",
+      "density": "Contorno em ponto cheio: 0,40 mm; Fundo acolchoado (stippling): comprimento de ponto 2,5 mm",
+      "pullCompensation": "0,40 mm a 0,50 mm (indispensável para cobrir a espessura da manta)",
+      "underlay": "Contorno duplo (edge run) nas bordas da figura acolchoada",
+      "threadTension": "Ajuste equilibrado da linha superior para evitar enrugamento das camadas no fundo prensado"
+    },
+    "advantages": [
+      "✔ Proporciona relevo volumoso e extremamente macio, ideal para produtos de bebê",
+      "✔ Pode ser passado a ferro quente e lavado repetidamente sem deformar nem derreter",
+      "✔ Agrega altíssimo valor artesanal e percepção de luxo e sofisticação à peça",
+      "✔ Reduz dramaticamente o tempo de produção em relação ao trapunto manual medieval"
+    ],
+    "limitations": [
+      "Exige habilidade no manuseio da tesoura curva para podar a manta sem furar o tecido de apoio",
+      "Requer ajuste de altura do calcador na máquina para acomodar a espessura do sanduíche",
+      "Aumenta o tempo total de máquina devido à densidade do quilting de fundo"
+    ],
+    "commonErrors": [
+      "❌ Usar manta muito grossa (como R2 de 200g): o calcador bate e emperra o pantógrafo",
+      "❌ Podar a manta longe do contorno: deixa bordas grosseiras e desiguais sob o tecido de cobertura",
+      "❌ Cortar acidentalmente a entretela ao aparar a manta com tesoura de ponta reta afiada",
+      "❌ Não elevar a folga do calcador no painel: o tecido enruga e repuxa nas costuras de fundo",
+      "❌ Fundo com quilting muito ralo: não cria compressão suficiente para destacar o relevo da figura"
+    ],
+    "troubleshootingTips": [
+      "Se o tecido estiver repuxando ou enrugando nas costuras de quilting: aumente ligeiramente a altura do calcador (clearance) em 0,5 mm no painel da máquina e use entretela mais firme na base.",
+      "Se o relevo parecer baixo e sem destaque: use manta de maior densidade (R1 de 120g) ou reduza o espaçamento do stippling no fundo para prensar mais o tecido ao redor.",
+      "Se as fibras da manta estiverem brotando na borda do ponto cheio: aumente a largura do ponto cheio na matriz para pelo menos 3,0 mm e aumente a compensação de encolhimento."
+    ],
+    "dicaArtrelados": "O Segredo da Manta Resinada com Ferro Morno: use sempre manta R1 (com resina adesiva em uma das faces). Após podar a manta ao redor do ursinho ou da letra com a tesoura pelicano, passe rapidamente a pontinha de um ferrinho de passar morno sobre a manta podada antes de cobrir com o tecido principal. A resina termoativada ancora a manta na entretela da base, garantindo que o enchimento não deslize nem um milímetro durante a vibração do bordado!",
+    "voceSabia": "As peças mais antigas de trapunto siciliano que chegaram intactas aos nossos dias datam de 1360 (como a lendária Colcha de Tristão e Isolda, preservada no Museu Victoria and Albert em Londres). Eram feitas por freiras e mestres artesãos que levavam até dois anos inteiros costurando cordões de algodão milímetro a milímetro para criar os relevos de armaduras e brasões nobres!",
+    "practicalExercise": "Exercício de Bancada (Almofada de Treino com Coração Trapunto):\n1. Prenda no bastidor entretela rasgável e uma camada de manta acrílica R1.\n2. Borde o contorno guia de um coração simples de 8 cm.\n3. Pare a máquina, avance o bastidor e apare a manta a 1 mm da costura com tesoura pelicano.\n4. Estique um pedaço de tricoline de algodão cobrindo o bastidor.\n5. Borde a fixação perimetral, o contorno em ponto cheio de 3 mm e o fundo em meandros.\n6. Ao retirar do bastidor, passe a mão sobre o coração e sinta o toque fofinho e o relevo escultural!",
+    "quickSummary": "Técnica de acolchoamento seletivo no bastidor que combina manta acrílica podada e fundo rebaixado em quilting para gerar relevos macios, volumosos e laváveis de alta sofisticação.",
+    "relatedTerms": [
+      "Apliquê (Appliqué no Bordado Computadorizado)",
+      "Ajuste de Altura do Calcador para Tecidos Espessos",
+      "Compensação de Encolhimento",
+      "Ponto Cheio (Satin Stitch)",
+      "Alinhave no Bastidor / Costura de Basting",
+      "Entretela Rasgável"
+    ],
+    "tags": [
+      "acolchoamento",
+      "trapunto",
+      "quilting",
+      "stippling",
+      "manta r1",
+      "relevo macio",
+      "enxoval de bebe",
+      "in the hoop",
+      "almofada"
+    ],
+    "updatedAt": "2026-09-27"
+  },
+  {
     "id": "a-101-acoplador-da-barra-de-agulha-reciprocador",
     "code": "A-101",
     "term": "Acoplador da Barra de Agulha / Reciprocador (Needle Bar Driver / Reciprocator)",
@@ -6131,6 +6238,110 @@
       "ARTRELADOS. A Revolução do Corte a Laser no Bordado: Do Pequeno Ateliê à Grande Indústria. São Paulo: Artrelados, 2024."
     ],
     "updatedAt": "2026-08-19"
+  },
+  {
+    "id": "a-aplicacao-com-termocolante-definitivo-patch-aplique",
+    "code": "A-000",
+    "term": "Aplicação com Termocolante Definitivo (Patch Apliquê Termofixável)",
+    "letter": "A",
+    "level": "Iniciante 🟢 a Intermediário 🟡",
+    "category": "Insumos & Colas / Técnicas de Aplicação",
+    "grammarClass": "Locução substantiva técnica",
+    "origin": "Do grego thermos (calor) e do latim colla (substância adesiva). A tecnologia dos polímeros termofusíveis de alta resistência mecânica (como a poliamida e o poliuretano termoplástico - TPU) foi desenvolvida na indústria têxtil militar e esportiva na segunda metade do século XX para vulcanização e selagem de costuras técnicas impermeáveis. No início dos anos 2000, essas películas foram adaptadas ao bordado eletrônico e à produção seriada de patches e emblemas, permitindo a fusão molecular definitiva de apliques em uniformes e vestuário sem a obrigatoriedade de pesadas colunas de contenção em ponto cheio.",
+    "summary": "Técnica e insumo de fixação térmica permanente para apliques e patches bordados, permitindo contornos minimalistas e resistência extrema a lavagens industriais contínuas.",
+    "definition": "A Aplicação com Termocolante Definitivo é a técnica de bordado computadorizado e acabamento têxtil na qual o verso do tecido de recorte ou emblema recebe uma película de polímero termofusível de alta performance ativada por temperatura (150°C a 170°C) e pressão controlada. Diferente do papel termocolante artesanal temporário (que atua apenas como posicionador provisório e descola após poucas lavagens se não for pespontado), o termocolante definitivo penetra nas tramas moleculares do tecido receptor, dispensando colunas largas de ponto cheio e viabilizando contornos delicados em ponto corrido triplo, ponto paris ou recorte a laser limpo a fio.",
+    "technicalDetails": "A termofixação exige três variáveis rigorosamente calibradas: temperatura (150°C a 160°C para algodão e 130°C a 140°C para tecidos sintéticos com risco de queima), pressão (média a alta, entre 40 e 60 psi em prensa pneumática ou forte pressão manual em prensa térmica plana) e tempo de exposição (12 a 15 segundos na face frontal e 10 a 12 segundos no avesso da peça para tração reversa da resina). Na digitalização da matriz, a largura do contorno em ponto cheio pode ser reduzida para 1,5 mm a 2,0 mm com densidade 0,42 mm, reduzindo em até 40% a contagem total de pontos e prevenindo enrugamentos no tecido.",
+    "beginnerExplanation": "Sabe quando você faz um aplique lindo usando aquele papel termocolante fininho de artesanato e fica com medo de o tecido desfiar ou soltar na primeira lavagem da cliente se você não fizer um ponto cheio bem largo e grosso? Com o termocolante definitivo é diferente! Ele é uma película plástica especial muito forte. Quando você aperta ele com calor da prensa ou do ferro bem quente, ele \"derrete\" e vira uma cola emborrachada que penetra no tecido e nunca mais sai, mesmo se você lavar a peça na máquina de lavar toda semana!",
+    "characteristics": [
+      "Película termofusível de poliuretano (TPU) ou copoliamida de alta solidez mecânica",
+      "Aderência permanente resistente a lavagens automáticas e ciclos de secadora",
+      "Permite contornos bordados delicados (ponto corrido, ponto paris ou micro-satim)",
+      "Dispensa o uso de bastidor na peça final no caso de patches e brasões pré-bordados",
+      "Acabamento plano, macio e flexível que não engessa a mobilidade do tecido"
+    ],
+    "construction": [
+      "1. Camada de suporte: Tecido do aplique (sarja, fustão, microfibra ou feltro)",
+      "2. Filme termofusível: Película adesiva definitiva de 80 a 100 micras no verso",
+      "3. Linha de demarcação: Ponto corrido simples na matriz (Placement Stitch)",
+      "4. Poda ou corte: Recorte a laser prévio ou corte manual rente com tesoura pelicano",
+      "5. Ponto de acabamento: Contorno estreito em ponto cheio ou pesponto decorativo",
+      "6. Termofixação final: Prensa térmica plana com folha protetora de Teflon"
+    ],
+    "howItWorks": [
+      "1. Adere-se a película de termocolante definitivo no avesso do tecido que será o aplique com ferro brando.",
+      "2. Na máquina de bordar, executa-se a costura de marcação no bastidor que define onde a figura ficará.",
+      "3. Posiciona-se o tecido com termocolante sobre a marcação e a máquina executa a costura de fixação (Tackdown).",
+      "4. Recorta-se o excesso do tecido rente à costura (ou posiciona-se a peça já previamente cortada a laser).",
+      "5. A máquina borda o contorno de acabamento (que pode ser leve e estreito).",
+      "6. Retira-se a peça do bastidor e leva-se à prensa térmica a 160°C por 15 segundos na frente (com Teflon) e 10 segundos pelo avesso para selagem definitiva."
+    ],
+    "mainTypes": [
+      "Termocolante Definitivo em Filme Contínuo (Sem Papel): Película pura de TPU transparente para alta elasticidade em malhas esportivas.",
+      "Termocolante com Suporte de Papel Siliconado: Mais fácil de riscar, cortar e manipular com tesoura antes da fusão.",
+      "Termocolante em Pó de Poliamida: Resina pulverizada aplicada termicamente em processos industriais contínuos de entretelas.",
+      "Película Termocolante Retardante a Chamas: Versão ignífuga para uniformes profissionais e vestimentas de bombeiros e operários."
+    ],
+    "applications": [
+      "Uniformes corporativos, jalecos médicos e dólmãs de gastronomia",
+      "Emblemas e brasões escolares e universitários termofixados sem bastidor",
+      "Camisetas e jaquetas jeans customizadas com apliques divertidos e patches",
+      "Uniformes de futebol e esportivos com números e nomes termocolados",
+      "Enxovais infantis com apliquês delicados contornados em ponto caseado fino"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "600 a 750 PPM (velocidade normal para apliques)",
+      "needleType": "Agulha Ponta Bola Leve (SES) tamanho 75/11 ou 70/10",
+      "stabilizer": "Entretela rasgável na base do bastidor",
+      "density": "0,42 mm a 0,45 mm (não requer densidades pesadas)",
+      "pullCompensation": "0,35 mm a 0,40 mm",
+      "underlay": "Contorno simples (edge run) nas bordas do aplique",
+      "threadTension": "Tensão normal equilibrada de bordado"
+    },
+    "advantages": [
+      "✔ Garante que o aplique nunca desfie ou descole, mesmo com dezenas de lavagens",
+      "✔ Reduz dramaticamente a quantidade de pontos da matriz economizando linha e tempo de máquina",
+      "✔ Permite aplicar logotipos e bordados em locais impossíveis de prender no bastidor (como bolsos fechados)",
+      "✔ Proporciona toque muito mais suave e maleável na roupa do que apliques grossos tradicionais"
+    ],
+    "limitations": [
+      "Exige equipamento térmico confiável (prensa térmica plana com regulagem precisa de temperatura e pressão)",
+      "Incompatível com tecidos impermeabilizados ou resinados com silicone que repelem colas",
+      "Risco de danificar tecidos ultra-sensíveis ao calor se excedida a temperatura de fusão"
+    ],
+    "commonErrors": [
+      "❌ Confundir com papel termocolante artesanal comum: solta logo na primeira lavagem doméstica",
+      "❌ Usar tempo ou pressão insuficientes na prensa: a cola não atinge a temperatura de fusão e não penetra",
+      "❌ Prensá-lo diretamente sobre tecido sintético sem folha de Teflon protetora: derrete a peça",
+      "❌ Lavar a peça imediatamente após a aplicação: não respeitar o tempo de cura de 48 horas do polímero",
+      "❌ Aplicar em tecido impermeável: a resina fica superficial e descola facilmente em placa"
+    ],
+    "troubleshootingTips": [
+      "Se as pontas do aplique descolarem após a lavagem: aumente o tempo de prensagem em 5 segundos, aumente a pressão da prensa e certifique-se de prensar também pelo avesso da peça.",
+      "Se a cola vazar para fora do contorno sujando a roupa: diminua a temperatura da prensa em 10°C ou corte o filme de termocolante 1 mm menor do que o tecido do aplique.",
+      "Se a peça queimar ou ficar com brilho esbranquiçado: reduza a temperatura da prensa e utilize sempre folha de Teflon de boa espessura sobre a área aquecida."
+    ],
+    "dicaArtrelados": "O Segredo da Cura de 48 Horas e Prensa pelo Avesso: para uma fixação indestrutível de nível industrial, prense o aplique primeiro por 15 segundos pela frente (sempre com folha de Teflon). Em seguida, vire a peça do avesso e prense por mais 10 a 12 segundos diretamente pelo tecido de trás! O calor direto pela parte posterior puxa a resina para o interior das fibras do tecido receptor. E o pulo do gato comercial: coloque uma etiqueta avisando sua cliente para aguardar 48 horas antes da primeira lavagem na máquina, tempo necessário para a fusão polimérica atingir 100% de sua tenacidade mecânica!",
+    "voceSabia": "Os uniformes e macacões das equipes de Fórmula 1 e da NASA utilizam apliques termofixados com películas de poliamida de padrão aeroespacial: eles não possuem costuras grossas para não criar pontos de atrito no corpo do piloto e resistem a temperaturas extremas sem soltar uma única pontinha!",
+    "practicalExercise": "Exercício Prático de Ateliê (Teste de Fusão e Tração):\n1. Cole um quadrado de termocolante definitivo no avesso de um retalho de sarja ou microfibra com ferro morno.\n2. Recorte um coração ou estrela de 6 cm.\n3. Posicione sobre uma camiseta de teste de algodão.\n4. Cubra com folha de Teflon e prense a 160°C por 15 segundos na frente e 10 segundos no avesso.\n5. Deixe esfriar completamente por 5 minutos.\n6. Tente puxar a pontinha com a unha: a sarja se torna uma única peça fundida com a camiseta, comprovando a eficácia do insumo!",
+    "quickSummary": "Película termofusível de alta tenacidade que funde apliques e patches diretamente nas fibras do tecido sob calor e pressão, dispensando pontos cheios pesados e resistindo a lavagens intensas.",
+    "relatedTerms": [
+      "Apliquê (Appliqué no Bordado Computadorizado)",
+      "Adesivo Temporário em Spray (Cola Temporária 505 / Spray Adhesive)",
+      "Ponto Cheio (Satin Stitch)",
+      "Acabamento & Limpeza de Bordado (Trimming & Finishing)",
+      "Entretela Termocolante"
+    ],
+    "tags": [
+      "termocolante definitivo",
+      "patch aplique",
+      "termofixavel",
+      "prensa termica",
+      "aplique",
+      "uniformes",
+      "tpu",
+      "poliamida"
+    ],
+    "updatedAt": "2026-09-27"
   },
   {
     "id": "a-004-aplique-de-bordado",
