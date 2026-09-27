@@ -5002,4 +5002,112 @@ export const VERBETES_LETTER_B: Verbete[] = [
     ],
     "updatedAt": "2026-08-22"
   }
+,
+{
+  "id": "b-bainha-aberta-em-ponto-cheio",
+  "code": "B-000",
+  "term": "Bainha Aberta em Ponto Cheio",
+  "letter": "B",
+  "level": "Intermediário 🟡 a Avançado 🔴",
+  "category": "Acabamento & Finalização",
+  "grammarClass": "Locução nominal feminina (substantivo + adjetivo + locução adjetiva)",
+  "origin": "Do português arcaico \"bainha\" (remate protetor de borda, derivado do latim \"vagina\") e \"ponto cheio\" (versão lusófona para o termo técnico \"satin stitch\" ou \"point plein\"). A técnica descende diretamente das tradições renascentistas europeias de desfiado e entremeio de linho (como o Hardanger norueguês, o Reticello italiano e o Richelieu francês), onde as aberturas do tecido cortado ou desfiado exigiam colunas de costura acetinada densa para encadernar as tramas e resistir às lavagens vigorosas em tachos e caldeirões sem desfiar.",
+  "summary": "Técnica refinada de bordado que cria aberturas vazadas no tecido ancoradas e contornadas por densas colunas de ponto cheio (satin); garante que a barra vazada não desfie e proporciona acabamento clássico de enxoval nobre em linho e percal.",
+  "definition": "A Bainha Aberta em Ponto Cheio é a técnica mista de programação e execução de bordado eletrônico em que áreas de tecido são deliberadamente recortadas (ou abertas) e imediatamente emolduradas por colunas densas e calibradas de ponto cheio (ponto cordonet / satin stitch). Diferente da bainha aberta feita exclusivamente com agulha asa (que apenas abre furos por dilatação mecânica dos fios da trama), a bainha aberta em ponto cheio realiza a vedação física da borda cortada: os pontos cheios penetram milímetros além da margem do recorte, aprisionando todas as extremidades dos fios do tecido sob uma camada espessa e lustrosa de linha, frequentemente combinada com entretela hidrossolúvel para sustentação durante o processo.",
+  "technicalDetails": "Na digitalização da matriz, a largura mínima recomendada para a coluna de ponto cheio deve ser de 2,5 mm a 3,5 mm (colunas com menos de 2,0 mm correm alto risco de escapar da margem de corte após o uso). A densidade deve ser mantida entre 0,38 mm e 0,40 mm com sob-costura (underlay) obrigatória do tipo contorno duplo paralelo (edge run) ou zig-zag interno para criar sustentação tridimensional e vedar os fios cortados. A compensação de encolhimento (pull compensation) deve ser configurada entre 0,35 mm e 0,45 mm para evitar que a contração do ponto descubra a borda do tecido.",
+  "beginnerExplanation": "Sabe aquelas toalhas de lavabo ou jogos de cama finos que têm uma faixa vazada linda e elegante perto da barra? A Bainha Aberta em Ponto Cheio é exatamente a técnica que faz isso na máquina! Primeiro a máquina faz uma costura reta mostrando onde cortar; você pausa e recorta com a tesourinha bem rente; depois você coloca uma folhinha de entretela que dissolve na água e a máquina vem por cima cobrindo tudo com um ponto cheio gordinho e macio. Esse ponto cheio \"abraça\" a beirada do pano e não deixa escapar nenhum fiapo, deixando o trabalho com cara de enxoval de novela!",
+  "characteristics": [
+    "Contorno denso em ponto cheio que encaderna e sela completamente as tramas cortadas do tecido",
+    "Uso obrigatório de entretela hidrossolúvel sob ou sobre a abertura para ancorar os pontos acetinados",
+    "Pausa programada na matriz (código de Stop ou Color Change) para o corte manual de precisão",
+    "Alta durabilidade mecânica permitindo lavagens normais sem risco de desfiamento",
+    "Visual aristocrático clássico para roupas de cama, mesa, banho e enxovais de batizado"
+  ],
+  "construction": [
+    "1. Costura reta de alinhamento e marcação perimetral (Running Stitch Guide)",
+    "2. Área de recorte manual do tecido com tesoura curva de precisão ou pelicano",
+    "3. Ponte de sustentação com entretela hidrossolúvel de 40 micras",
+    "4. Sob-costura de reforço estrutural (Edge Run Underlay)",
+    "5. Coluna de acabamento em ponto cheio acetinado (Satin Column Cover)"
+  ],
+  "howItWorks": [
+    "1. A máquina borda a linha de marcação perimetral no tecido entretelado, delimitando a área que será aberta.",
+    "2. Ocorre a pausa programada (Stop): o bastidor desliza para frente e a bordadeira recorta o tecido interno com tesoura de precisão, bem rente à costura sem cortar os pontos.",
+    "3. Aplica-se uma tira de entretela hidrossolúvel sobre a área recortada, fixada com leve borrifo de adesivo temporário para cobrir o vazio.",
+    "4. A máquina retoma o ciclo bordando uma sob-costura reta dupla nas margens do tecido para vedar as tramas cortadas.",
+    "5. Em seguida, cobre todo o contorno com uma coluna de ponto cheio denso (largura de 3,0 mm), encadernando a margem cortada.",
+    "6. Ao finalizar, remove-se a peça do bastidor e lava-se com água morna para dissolver a entretela hidrossolúvel, revelando o vazado perfeito."
+  ],
+  "mainTypes": [
+    "Bainha Aberta Linear Contínua: Barrado reto ou ondulado contínuo em barras de toalhas e lençóis.",
+    "Bainha Aberta com Pontes / Ilhoses: Vazados geométricos intercalados com colunas cruzadas de ponto cheio.",
+    "Bainha Aberta em Curvas e Festonês: Combinação de pontos cheios recortados com curvas decorativas.",
+    "Bainha Aberta Vazada com Inserção de Renda: Técnica onde o ponto cheio une a margem vazada a um entremeio de renda."
+  ],
+  "applications": [
+    "Toalhas de lavabo e banho com barrado em percal ou fustão nobre",
+    "Caminhos de mesa e guardanapos finos de linho puro e cambraia",
+    "Barras de fronhas e lençóis de enxoval de casamento e alto padrão",
+    "Vestidos de batizado, mandriões e roupas infantis clássicas",
+    "Almofadas decorativas e cortinas translúcidas de estilo clássico"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "550 a 650 PPM (velocidade moderada para garantir precisão no ponto cheio)",
+    "needleType": "Agulha Schmetz ou Organ 75/11 ou 70/10 Ponta Redonda Leve (SES) ou Universal",
+    "stabilizer": "Entretela rasgável de algodão na base + Entretela hidrossolúvel de 40 micras na área vazada",
+    "density": "0,38 mm a 0,40 mm para cobertura acetinada opaca e perfeita",
+    "pullCompensation": "0,35 mm a 0,45 mm (essencial para evitar que a margem de corte escape)",
+    "underlay": "Edge Run duplo paralelo + Zig-Zag interno suave",
+    "threadTension": "Tensão superior ligeiramente mais frouxa para puxar o ponto cheio para o avesso com suavidade"
+  },
+  "advantages": [
+    "✔ Acabamento extremamente resistente que não desmancha nem desfia com lavagens contínuas",
+    "✔ Agrega altíssimo valor percebido e sofisticação às peças de cama, mesa e banho",
+    "✔ Substitui com perfeição os trabalhos manuais desfiados que levariam dias para serem executados",
+    "✔ Permite criar desenhos e desenhos vazados com extrema padronização geométrica"
+  ],
+  "limitations": [
+    "Requer corte manual preciso e habilidade com a tesoura para não danificar o tecido ou a costura guia",
+    "Exige parada obrigatória na máquina e maior tempo dedicado de operador por peça",
+    "Inadequado para tecidos com elastano excessivo ou malhas muito flexíveis que deformam no corte"
+  ],
+  "commonErrors": [
+    "❌ Cortar o tecido longe da linha de guia: deixa fiapos visíveis escapando por baixo do ponto cheio",
+    "❌ Cortar acidentalmente a linha da costura reta de guia: enfraquece a borda e rasga o tecido",
+    "❌ Programar ponto cheio muito fino (menor que 2 mm): o tecido escapa nas primeiras lavagens",
+    "❌ Não usar entretela hidrossolúvel de apoio: as laçadas do ponto cheio afundam no vazio e ficam frouxas",
+    "❌ Densidade excessiva em linho frágil: agulha perfura repetidamente a mesma fibra e corta o tecido"
+  ],
+  "troubleshootingTips": [
+    "Se as pontas do tecido cortado estiverem aparecendo fora do ponto cheio: aumente a largura do ponto cheio na matriz para pelo menos 3,0 mm e corte mais rente à linha guia.",
+    "Se o tecido estiver enrugando ou repuxando no contorno: aumente a compensação de encolhimento e diminua a tensão da linha superior da máquina.",
+    "Se a linha do ponto cheio estiver embolando na abertura vazada: verifique se a entretela hidrossolúvel está bem esticada e fixada cobrindo 100% do vão recortado."
+  ],
+  "dicaArtrelados": "O pulo do gato das bordadeiras de alto luxo: use sempre a tesoura \"ponta de pato\" (tesoura pelicano) para fazer o recorte da área aberta! A lâmina larga e arredondada da tesoura pelicano desliza por baixo do tecido sem nenhum risco de furar a entretela ou o tecido de trás. E logo após o corte, pincele uma gotinha mínima de selador termotêxtil ou cola pano diluída na margem cortada antes de posicionar a entretela hidrossolúvel: isso cristaliza os fios do tecido e garante que sua bainha dure mais de 20 anos sem soltar um único fiapo!",
+  "voceSabia": "Nos enxovais clássicos da nobreza portuguesa e na lendária tradição da Ilha da Madeira, as peças com bainha aberta em ponto cheio eram passadas a ferro ainda úmidas sobre almofadões de lã macia cobertos com linho: a pressão afundava os pontos cheios no acolchoado, fazendo com que o bordado ficasse com relevo alto e escultural como se tivesse sido esculpido em marfim!",
+  "practicalExercise": "Exercício de Bancada (Amostra de Enxoval de 10 cm):\n1. Coloque no bastidor um retalho de tecido de percal 200 fios ou linho misto com entretela rasgável.\n2. Execute a primeira costura reta de um retângulo simples de 10 cm x 2 cm.\n3. Pare a máquina, retire o bastidor com cuidado (sem desencaixar o tecido) e recorte o interior do retângulo a 1 mm da costura.\n4. Borrife adesivo temporário em uma tira de entretela hidrossolúvel e cole sobre a abertura.\n5. Volte o bastidor e libere o ponto cheio com largura de 3 mm e densidade 0,40 mm.\n6. Ao terminar, retire a peça, passe em água corrente e observe o corte perfeitamente vedado e o vazado impecável!",
+  "quickSummary": "Técnica nobre que abre vãos vazados decorativos no tecido e os encaderna com densas colunas de ponto cheio (satin), aliando a delicadeza dos entremeios à durabilidade inquebrável contra desfiamento.",
+  "relatedTerms": [
+    "Bainha Aberta Eletrônica",
+    "Bainha Aberta Computadorizada",
+    "Ponto Cheio (Satin Stitch)",
+    "Bordado Richelieu Eletrônico",
+    "Compensação de Encolhimento",
+    "Entretela Hidrossolúvel",
+    "Ponto Paris e Bainha Aberta Computadorizada"
+  ],
+  "tags": [
+    "bainha aberta",
+    "ponto cheio",
+    "satin stitch",
+    "vazado",
+    "enxoval",
+    "linho",
+    "percal",
+    "richelieu",
+    "tesoura pelicano",
+    "entretela hidrossolúvel"
+  ],
+  "updatedAt": "2026-09-27"
+}
 ];
