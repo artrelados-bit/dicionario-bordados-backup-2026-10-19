@@ -4687,7 +4687,7 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "Passagem manual de linha em agulhas finas (tamanho 65/9 e 75/11)"
     ],
     "commonErrors": [
-      "❌ Substituir lâmpadas originais por lâmpadas incandescentes comuns que esquentam e derretem peças plásticas da carcaça",
+      "�� Substituir lâmpadas originais por lâmpadas incandescentes comuns que esquentam e derretem peças plásticas da carcaça",
       "❌ Deixar poeira e fiapos de linha acumularem sobre a lente do LED, diminuindo a potência da luz"
     ],
     "troubleshootingTips": [
@@ -7409,5 +7409,3 @@ export const VERBETES_LETTER_C: Verbete[] = [
     "updatedAt": "2026-09-07"
   }
 ];
-
-

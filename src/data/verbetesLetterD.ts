@@ -1,4 +1,3 @@
-// DIBE Artrelados - Letra D Oficial e Unificada
 import { Verbete } from "../types";
 
 export const VERBETES_LETTER_D: Verbete[] = [
@@ -2675,7 +2674,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
     "updatedAt": "2026-08-19",
     "origin": "Do grego diagramma (figura desenhada, esquema gráfico composto por linhas, de diagraphein, marcar com linhas) e de punctum (ponto).",
     "beginnerExplanation": "Diagrama de pontos é o mapa técnico do bordado na tela do computador: você consegue ver cada furinho de agulha, as linhas de costura por baixo (underlay) e até onde a máquina vai pular ou cortar a linha antes de colocar o tecido no bastidor.",
-    "practicalExercise": "Abra uma matriz no software e ative a visualização em 'Modo Pontos' ou 'Modo 1:1' (desativando o efeito 3D realista TrueView). Use a barra de rolagem da simulação para ver a agulha descendo ponto por ponto: analise como as camadas de baixo são construídas antes das camadas de cima!",
+    "practicalExercise": "Abra uma matriz no software e ative a visualiza��ão em 'Modo Pontos' ou 'Modo 1:1' (desativando o efeito 3D realista TrueView). Use a barra de rolagem da simulação para ver a agulha descendo ponto por ponto: analise como as camadas de baixo são construídas antes das camadas de cima!",
     "quickSummary": "Diagrama de pontos é a visualização analítica e esquemática de todas as penetrações de agulha e comandos mecânicos da matriz.",
     "bibliographicReferences": [
       "WILCOM. Stitch View, Needle Points and Sequence Inspection. Sydney, 2022.",

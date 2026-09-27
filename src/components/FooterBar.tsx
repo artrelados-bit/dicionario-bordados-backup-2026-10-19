@@ -1,412 +1,84 @@
-import React, { useState } from "react";
-import { BookmarkCheck, RotateCcw, BookMarked, BookOpen, X, Search, Check, ExternalLink, Sparkles, FileText, Info, ShieldAlert, ShieldCheck, Scale } from "lucide-react";
+import React from "react";
+import { BookOpen, Star, RefreshCw, Sparkles, Heart } from "lucide-react";
 import { DictionaryStats } from "../types";
-import { OFFICIAL_REFERENCES, ReferenceItem } from "../data/referencesData";
 
 interface FooterBarProps {
   stats: DictionaryStats;
   onResetFilters?: () => void;
 }
 
-export const FooterBar: React.FC<FooterBarProps> = ({
-  stats,
-  onResetFilters,
-}) => {
-  // References modal state
-  const [showReferencesModal, setShowReferencesModal] = useState(false);
-  // Legal notice & intellectual property modal state
-  const [showLegalNoticeModal, setShowLegalNoticeModal] = useState(false);
-  const [references] = useState<ReferenceItem[]>(() => {
-    try {
-      const saved = localStorage.getItem("dibe_official_references_v6");
-      if (saved) {
-        const parsed: ReferenceItem[] = JSON.parse(saved);
-        return parsed.length >= OFFICIAL_REFERENCES.length ? parsed : OFFICIAL_REFERENCES;
-      }
-      return OFFICIAL_REFERENCES;
-    } catch {
-      return OFFICIAL_REFERENCES;
-    }
-  });
-
-  const [refSearch, setRefSearch] = useState("");
-  const [copiedId, setCopiedId] = useState<string | null>(null);
-
-  const handleCopyCitation = (ref: ReferenceItem) => {
-    navigator.clipboard.writeText(ref.fullCitation);
-    setCopiedId(ref.id);
-    setTimeout(() => setCopiedId(null), 2000);
-  };
-
-  const filteredReferences = references.filter((ref) => {
-    const q = refSearch.toLowerCase().trim();
-    if (!q) return true;
-    return (
-      ref.author.toLowerCase().includes(q) ||
-      ref.title.toLowerCase().includes(q) ||
-      ref.publisherOrUrl.toLowerCase().includes(q) ||
-      ref.fullCitation.toLowerCase().includes(q)
-    );
-  });
-
+export const FooterBar: React.FC<FooterBarProps> = ({ stats, onResetFilters }) => {
   return (
-    <footer className="mt-16 bg-black text-slate-100 border-t-4 border-amber-500 pt-10 pb-12 shadow-2xl">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-        
-        {/* Ateliê & Navigation Bar */}
-        <div className="bg-zinc-950 border border-zinc-800 rounded-2xl p-5 sm:p-6 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex flex-wrap items-center gap-2.5 justify-center md:justify-start">
-            <div className="px-3.5 py-1.5 rounded-xl bg-amber-400 text-slate-950 font-black flex items-center space-x-2 text-xs shadow-md">
-              <span className="text-sm leading-none font-black tracking-wide">DIBE</span>
-              <span className="text-[10px] bg-black text-amber-300 px-2 py-0.5 rounded-md font-bold uppercase tracking-wider">Acervo Oficial</span>
-            </div>
-
-            <div className="px-3.5 py-1.5 rounded-xl bg-zinc-900 border border-zinc-800 text-amber-300 font-black flex items-center space-x-2 text-xs">
-              <span className="text-zinc-400">🏷️ ATELIÊ:</span>
-              <span className="text-amber-400 font-extrabold">ARTRELADOS</span>
-            </div>
-          </div>
-
-          {/* Action Tools */}
-          <div className="flex flex-wrap items-center justify-center gap-2.5">
-            {/* Legal Notice & Autorship Button */}
-            <button
-              onClick={() => setShowLegalNoticeModal(true)}
-              className="px-4 py-2 rounded-xl bg-zinc-900 hover:bg-zinc-800 text-zinc-300 hover:text-white font-black text-xs flex items-center space-x-2 shadow border border-zinc-700 hover:border-zinc-500 transition cursor-pointer"
-              title="Ver Aviso Legal, Blindagem Editorial e Propriedade Intelectual"
+    <footer className="w-full bg-slate-950 text-white border-t-4 border-[#F9BC06] py-6 px-4 sm:px-6 lg:px-8 mt-12 transition-all">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+        {/* Brand & Author */}
+        <div className="flex flex-col items-center md:items-start text-center md:text-left">
+          <div className="flex items-center space-x-2">
+            <span
+              style={{ fontFamily: "'Slackey', cursive, sans-serif" }}
+              className="text-2xl text-[#F9BC06] tracking-wider"
             >
-              <Scale className="w-4 h-4 text-amber-400" />
-              <span>⚖️ Aviso Legal & Direitos</span>
-            </button>
-
-            {/* References Button */}
-            <button
-              onClick={() => setShowReferencesModal(true)}
-              className="px-4 py-2 rounded-xl bg-zinc-900 hover:bg-zinc-800 text-amber-300 font-black text-xs flex items-center space-x-2 shadow border border-amber-500/40 hover:border-amber-400 transition cursor-pointer"
-              title="Ver Referências Bibliográficas e Fontes Técnicas Consultadas"
-            >
-              <BookMarked className="w-4 h-4 text-amber-400" />
-              <span>📚 Referências & Fontes ({references.length})</span>
-            </button>
+              DIBE
+            </span>
+            <span className="text-xs bg-amber-400/20 text-[#F9BC06] border border-[#F9BC06]/40 px-2 py-0.5 rounded-full font-bold">
+              v1.1.4 Oficial
+            </span>
           </div>
+          <p className="text-xs text-slate-300 font-medium mt-1">
+            Dicionário Ilustrado de Bordados Eletrônicos • Enciclopédia Técnica Artrelados
+          </p>
+          <p className="text-[11px] text-slate-400 mt-0.5">
+            Idealizado e mantido por <span className="text-amber-300 font-bold">Janete M. C. Silva</span> • Artrelados Bordados
+          </p>
         </div>
 
-        {/* Footer Copyright, Legal Notice & Credits */}
-        <div className="text-center space-y-3 text-xs text-zinc-400 pt-6 border-t border-zinc-900">
-          <p className="font-bold text-sm text-amber-400">
-            &copy; {new Date().getFullYear()} DIBE – Dicionário de Bordados Eletrônicos · Artrelados
-          </p>
-
-          <p className="max-w-3xl mx-auto text-zinc-400 text-[11px] leading-relaxed">
-            Obra autoral, técnica e educacional desenvolvida para capacitação e padronização da comunidade de bordado computadorizado. As marcas comerciais, softwares e fabricantes citados pertencem aos seus respectivos titulares e são referenciados com finalidade estritamente didática, informativa e de compatibilidade técnica (Uso Nominal / Fair Use).
-          </p>
-
-          <div className="flex flex-wrap items-center justify-center gap-2 max-w-2xl mx-auto text-zinc-400 text-[11px] pt-1">
-            <span>Consultoria técnica desenvolvida por <strong className="text-amber-400 font-bold">Janete MC Silva</strong> (Artrelados).</span>
-            <span className="text-zinc-600">•</span>
-            <a
-              href="https://www.artrelados.com.br/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-amber-400 hover:text-amber-300 underline font-bold tracking-wide transition"
-              title="Acessar o portal Artrelados"
-            >
-              https://www.artrelados.com.br/
-            </a>
-            <span className="text-zinc-600">•</span>
-            <button
-              onClick={() => setShowLegalNoticeModal(true)}
-              className="text-zinc-400 hover:text-white hover:underline font-bold inline-flex items-center gap-1 cursor-pointer"
-            >
-              <Scale className="w-3 h-3 text-amber-400" />
-              <span>Aviso Legal</span>
-            </button>
-            <span className="text-zinc-600">•</span>
-            <button
-              onClick={() => setShowReferencesModal(true)}
-              className="text-amber-300 hover:underline font-bold inline-flex items-center gap-1 cursor-pointer"
-            >
-              <BookOpen className="w-3 h-3 text-amber-400" />
-              <span>Consultar Referências & Fontes ({references.length})</span>
-            </button>
+        {/* Stats Pill Badges */}
+        <div className="flex flex-wrap items-center justify-center gap-2.5 text-xs font-bold">
+          <div className="flex items-center space-x-1.5 bg-slate-900 border border-slate-800 px-3 py-1.5 rounded-lg text-slate-200 shadow-inner">
+            <BookOpen className="w-3.5 h-3.5 text-[#F9BC06]" />
+            <span>{stats.totalVerbetes} Verbetes Ativos</span>
           </div>
+
+          <div className="flex items-center space-x-1.5 bg-slate-900 border border-slate-800 px-3 py-1.5 rounded-lg text-slate-200 shadow-inner">
+            <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+            <span>{stats.totalIllustrated || 81} Ilustrações Técnicas</span>
+          </div>
+
+          {stats.totalFavorites > 0 && (
+            <div className="flex items-center space-x-1.5 bg-slate-900 border border-slate-800 px-3 py-1.5 rounded-lg text-amber-400 shadow-inner">
+              <Star className="w-3.5 h-3.5 fill-current" />
+              <span>{stats.totalFavorites} Favoritos</span>
+            </div>
+          )}
+
+          {onResetFilters && (
+            <button
+              onClick={onResetFilters}
+              className="flex items-center space-x-1.5 bg-amber-400 hover:bg-amber-300 text-slate-950 font-black px-3 py-1.5 rounded-lg transition-all shadow-xs cursor-pointer"
+              title="Restaurar visualização completa"
+            >
+              <RefreshCw className="w-3.5 h-3.5" />
+              <span>Ver Todos</span>
+            </button>
+          )}
+        </div>
+
+        {/* Links & Rights */}
+        <div className="flex flex-col items-center md:items-end text-center md:text-right text-[11px] text-slate-400">
+          <a
+            href="https://www.artrelados.com.br/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-amber-400 hover:text-amber-300 font-bold transition hover:underline"
+          >
+            www.artrelados.com.br
+          </a>
+          <span className="mt-1 flex items-center justify-center gap-1">
+            Feito com <Heart className="w-3 h-3 text-red-500 fill-current inline" /> para bordadeiras de todo o Brasil
+          </span>
+          <span className="text-[10px] text-slate-300 mt-0.5">© 2026 Artrelados • Todos os direitos reservados</span>
         </div>
       </div>
-
-      {/* Bibliographic References Modal — Clean Direct Full List */}
-      {showReferencesModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-slate-950/70 backdrop-blur-md animate-fade-in text-slate-900">
-          <div className="bg-white text-slate-900 rounded-3xl border-2 border-amber-400 shadow-2xl max-w-4xl w-full max-h-[92vh] flex flex-col overflow-hidden">
-            
-            {/* Modal Header */}
-            <div className="p-5 sm:p-6 bg-amber-400 border-b-2 border-amber-500 flex items-center justify-between shrink-0">
-              <div className="flex items-center space-x-3">
-                <div className="p-3 bg-slate-950 text-amber-400 rounded-2xl shadow-md">
-                  <BookMarked className="w-6 h-6" />
-                </div>
-                <div>
-                  <h2 className="text-xl sm:text-2xl font-black text-slate-950 tracking-tight uppercase">
-                    REFERÊNCIAS E FONTES
-                  </h2>
-                  <p className="text-xs font-bold text-slate-800 mt-0.5">
-                    Documentação técnica, manuais de suporte e fundamentos do DIBE
-                  </p>
-                </div>
-              </div>
-
-              <button
-                onClick={() => setShowReferencesModal(false)}
-                className="p-2 rounded-full bg-slate-950 hover:bg-slate-800 text-amber-400 transition cursor-pointer shadow-sm"
-                title="Fechar"
-              >
-                <X className="w-5 h-5" />
-              </button>
-            </div>
-
-            {/* Modal Content Scroll Area */}
-            <div className="p-5 sm:p-7 overflow-y-auto space-y-6 flex-1 custom-scrollbar bg-white">
-              
-              {/* Introduction Text Block */}
-              <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200 text-slate-800 space-y-3 leading-relaxed text-xs sm:text-sm shadow-xs">
-                <p>
-                  A elaboração deste dicionário contou com diferentes fontes de informação relacionadas ao universo do bordado eletrônico, incluindo manuais e documentação técnica de fabricantes, materiais de apoio de softwares de bordado, conteúdos educacionais, terminologia utilizada no setor e pesquisas realizadas durante o desenvolvimento dos verbetes.
-                </p>
-                <p>
-                  As fontes foram utilizadas como apoio para a compreensão, comparação e organização dos conceitos apresentados nesta obra. Sempre que necessário, informações específicas poderão ser acompanhadas de suas respectivas fontes ou referências no próprio verbete.
-                </p>
-              </div>
-
-              {/* Termo de Isenção de Responsabilidade Técnica & Aviso Legal */}
-              <div className="p-5 rounded-2xl bg-rose-50/80 border-2 border-rose-300 text-slate-900 space-y-2.5 shadow-xs">
-                <div className="flex items-center space-x-2 text-rose-950 font-black text-xs sm:text-sm">
-                  <ShieldAlert className="w-4 h-4 text-rose-600 shrink-0" />
-                  <span>⚖️ AVISO LEGAL & TERMO DE ISENÇÃO DE RESPONSABILIDADE TÉCNICA</span>
-                </div>
-                <p className="text-xs text-slate-700 leading-relaxed font-medium">
-                  As orientações, diagnósticos de defeitos e parâmetros técnicos fornecidos pelo DIBE Artrelados possuem finalidade estritamente didática, educativa e de apoio operacional para ateliês de bordado. Ajustes mecânicos de precisão (como temporização de lançadeira rotativa, regulagem de sincronismo de cabeçotes e desmontagem de conjuntos de corte) exigem ferramentas milimétricas e conhecimento técnico habilitado.
-                </p>
-                <p className="text-xs text-slate-700 leading-relaxed font-medium">
-                  O <strong>DIBE Artrelados e sua coordenação técnica não se responsabilizam</strong> por danos materiais, quebras de peças mecânicas ou prejuízos operacionais resultantes de imperícia, intervenção indevida ou má interpretação das recomendações. Em caso de dúvidas sobre a integridade ou garantia do seu equipamento, <strong>consulte sempre a assistência técnica autorizada ou o técnico especializado da sua marca</strong>.
-                </p>
-              </div>
-
-              {/* Filter / Search Bar */}
-              <div className="flex flex-col sm:flex-row items-center justify-between gap-3 pt-2">
-                <div className="relative w-full sm:w-80">
-                  <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
-                  <input
-                    type="text"
-                    value={refSearch}
-                    onChange={(e) => setRefSearch(e.target.value)}
-                    placeholder="Filtrar referências por fabricante ou obra..."
-                    className="w-full bg-slate-50 border border-slate-300 rounded-xl pl-9 pr-3 py-2 text-xs text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-amber-500"
-                  />
-                  {refSearch && (
-                    <button
-                      onClick={() => setRefSearch("")}
-                      className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700 text-xs cursor-pointer"
-                    >
-                      ×
-                    </button>
-                  )}
-                </div>
-              </div>
-
-              {/* Full Direct List of References (No tabs, complete and direct) */}
-              <div className="space-y-3">
-                <h3 className="text-xs font-black text-slate-500 uppercase tracking-wider flex items-center gap-1.5 pt-2">
-                  <FileText className="w-3.5 h-3.5 text-amber-500" />
-                  <span>Relação Completa de Documentações & Publicações Consultadas ({filteredReferences.length})</span>
-                </h3>
-
-                {filteredReferences.length === 0 ? (
-                  <div className="text-center py-8 text-slate-500 text-xs space-y-1 bg-slate-50 rounded-2xl border border-slate-200">
-                    <p className="font-bold">Nenhuma fonte encontrada para os termos pesquisados.</p>
-                  </div>
-                ) : (
-                  <div className="divide-y divide-slate-200 bg-slate-50/70 border border-slate-200 rounded-2xl overflow-hidden">
-                    {filteredReferences.map((ref) => (
-                      <div
-                        key={ref.id}
-                        className="p-4 hover:bg-amber-50/50 transition space-y-2 relative group"
-                      >
-                        <div className="flex items-start justify-between gap-3">
-                          <div className="space-y-1 flex-1">
-                            <p className="text-xs sm:text-sm font-medium text-slate-800 leading-relaxed font-mono">
-                              <strong className="text-slate-950 font-black">{ref.author}.</strong>{" "}
-                              <span>{ref.title}</span>{" "}
-                              {ref.publisherOrUrl && (
-                                <span className="text-slate-600">Disponível em: <u className="decoration-amber-400">{ref.publisherOrUrl}</u>.</span>
-                              )}{" "}
-                              {ref.accessDate && (
-                                <span className="text-slate-500">Acesso em: {ref.accessDate}.</span>
-                              )}
-                            </p>
-                          </div>
-
-                          <div className="flex items-center space-x-1.5 shrink-0 pt-0.5">
-                            <button
-                              onClick={() => handleCopyCitation(ref)}
-                              className="px-2.5 py-1 rounded-lg bg-white hover:bg-slate-100 text-slate-700 text-xs font-bold border border-slate-300 flex items-center space-x-1 transition cursor-pointer shadow-2xs"
-                              title="Copiar citação ABNT"
-                            >
-                              {copiedId === ref.id ? (
-                                <>
-                                  <Check className="w-3 h-3 text-emerald-600" />
-                                  <span className="text-emerald-700 text-[11px]">Copiado</span>
-                                </>
-                              ) : (
-                                <>
-                                  <ExternalLink className="w-3 h-3 text-amber-500" />
-                                  <span className="text-[11px]">Copiar</span>
-                                </>
-                              )}
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </div>
-
-              {/* Final Sources Note */}
-              <div className="p-5 rounded-2xl bg-slate-100 border border-slate-200 text-slate-700 space-y-1.5 text-xs sm:text-sm shadow-2xs mt-4">
-                <div className="flex items-center space-x-2 text-slate-900 font-extrabold uppercase text-xs tracking-wider">
-                  <Info className="w-4 h-4 text-amber-600 shrink-0" />
-                  <span>Nota sobre as fontes:</span>
-                </div>
-                <p className="leading-relaxed text-slate-600 text-xs">
-                  As informações técnicas apresentadas neste dicionário foram elaboradas a partir de documentação de fabricantes de máquinas, softwares e componentes para bordado eletrônico, bem como de materiais técnicos especializados. As especificações e funcionalidades podem variar de acordo com o fabricante, modelo do equipamento, versão do software e atualizações da documentação.
-                </p>
-              </div>
-
-            </div>
-
-            {/* Modal Footer */}
-            <div className="p-4 bg-slate-100 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-600 shrink-0">
-              <p>
-                Total de Fontes Catalogadas: <strong className="text-slate-950 font-black">{references.length} documentos técnicos</strong>
-              </p>
-              <button
-                onClick={() => setShowReferencesModal(false)}
-                className="px-5 py-2.5 rounded-xl bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-xs transition cursor-pointer shadow-md border border-amber-500"
-              >
-                Concluir Consulta
-              </button>
-            </div>
-
-          </div>
-        </div>
-      )}
-
-      {/* Modal: Aviso Legal, Blindagem Editorial e Propriedade Intelectual */}
-      {showLegalNoticeModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-slate-950/75 backdrop-blur-md animate-fade-in text-slate-900">
-          <div className="bg-white text-slate-900 rounded-3xl border-2 border-amber-400 shadow-2xl max-w-3xl w-full max-h-[92vh] flex flex-col overflow-hidden">
-            
-            {/* Modal Header */}
-            <div className="p-5 sm:p-6 bg-amber-400 border-b-2 border-amber-500 flex items-center justify-between shrink-0">
-              <div className="flex items-center space-x-3">
-                <div className="p-3 bg-slate-950 text-amber-400 rounded-2xl shadow-md">
-                  <Scale className="w-6 h-6" />
-                </div>
-                <div>
-                  <h2 className="text-xl sm:text-2xl font-black text-slate-950 tracking-tight uppercase">
-                    AVISO LEGAL & DIRETRIZES EDITORIAIS
-                  </h2>
-                  <p className="text-xs font-bold text-slate-800 mt-0.5">
-                    Propriedade intelectual, natureza consultiva e termos de uso do DIBE
-                  </p>
-                </div>
-              </div>
-
-              <button
-                onClick={() => setShowLegalNoticeModal(false)}
-                className="p-2 rounded-full bg-slate-950 hover:bg-slate-800 text-amber-400 transition cursor-pointer shadow-sm"
-                title="Fechar"
-              >
-                <X className="w-5 h-5" />
-              </button>
-            </div>
-
-            {/* Modal Content Scroll Area */}
-            <div className="p-5 sm:p-7 overflow-y-auto space-y-5 flex-1 custom-scrollbar text-xs sm:text-sm leading-relaxed text-slate-700 bg-white">
-              
-              {/* 1. Natureza da Obra */}
-              <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-2">
-                <div className="flex items-center space-x-2 text-slate-950 font-black text-xs sm:text-sm uppercase tracking-wide">
-                  <ShieldCheck className="w-4 h-4 text-amber-600" />
-                  <span>1. Natureza Didática, Intelectual e Doutrinária</span>
-                </div>
-                <p>
-                  O <strong>DIBE – Dicionário Ilustrado de Bordado Eletrônico</strong> é uma obra autoral, técnico-científica e de compilação enciclopédica, protegida pela legislação brasileira de Direitos Autorais (<strong>Lei nº 9.610/1998</strong>) e fundamentada no princípio constitucional da livre manifestação do pensamento, da criação intelectual e da pesquisa científica (<strong>Art. 5º, IX, da Constituição Federal</strong>).
-                </p>
-                <p>
-                  Sua finalidade é exclusivamente didática, cultural e educativa, destinada à capacitação, organização conceitual e apoio profissional da comunidade de bordadeiras, programadores de matrizes e operadores de máquinas industriais e domésticas.
-                </p>
-              </div>
-
-              {/* 2. Terminologia e Amparo Bibliográfico */}
-              <div className="p-4 rounded-2xl bg-amber-50/70 border border-amber-200 space-y-2">
-                <div className="flex items-center space-x-2 text-slate-950 font-black text-xs sm:text-sm uppercase tracking-wide">
-                  <FileText className="w-4 h-4 text-amber-600" />
-                  <span>2. Fundamentação Bibliográfica e Pluralidade Técnica</span>
-                </div>
-                <p>
-                  Os conceitos, métricas e análises técnicas contidos nesta obra têm como alicerce formal as normas técnicas nacionais e internacionais (<strong>ABNT, ISO, ASTM, AATCC</strong>), bem como os manuais oficiais de engenharia, boletins de calibração e publicações públicas dos principais fabricantes globais de maquinários, agulhas, insumos e softwares citados em nosso acervo de 50 fontes catalogadas.
-                </p>
-                <p>
-                  O setor de bordado computadorizado é caracterizado por múltiplas nomenclaturas comerciais, variações regionais de linguagem e diferenças entre ambientes de software (ex: Wilcom, Hatch, Embird, Tajima DG/ML). O DIBE adota padronização própria e fundamentada, sem obrigação de subordinação a convenções informais ou interpretações subjetivas de terceiros.
-                </p>
-              </div>
-
-              {/* 3. Isenção de Responsabilidade Operacional */}
-              <div className="p-4 rounded-2xl bg-rose-50/80 border-2 border-rose-300 space-y-2 text-slate-800">
-                <div className="flex items-center space-x-2 text-rose-950 font-black text-xs sm:text-sm uppercase tracking-wide">
-                  <ShieldAlert className="w-4 h-4 text-rose-600" />
-                  <span>3. Caráter Consultivo e Isenção de Responsabilidade</span>
-                </div>
-                <p>
-                  Todas as orientações, diagnósticos de defeitos, receituários de tecidos e recomendações de parâmetros são de caráter estritamente consultivo e educativo. O resultado final do bordado depende de variáveis multifatoriais incontroláveis pelo aplicativo, tais como lote do tecido, estabilidade da entretela, afiação de agulhas, estado de conservação do equipamento e destreza do operador.
-                </p>
-                <p>
-                  É dever imperativo de cada profissional realizar <strong>testes preliminares de amostra em retalhos idênticos</strong> antes de qualquer produção definitiva.
-                </p>
-                <p className="font-semibold text-rose-950">
-                  A Artrelados, o DIBE e sua coordenação autoral isentam-se integralmente de qualquer responsabilidade por perdas materiais, quebras de componentes mecânicos, retrabalhos ou danos operacionais decorrentes de intervenções práticas ou interpretações efetuadas pelos usuários.
-                </p>
-              </div>
-
-              {/* 4. Marcas Registradas e Uso Nominal */}
-              <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-2 text-slate-600">
-                <div className="flex items-center space-x-2 text-slate-900 font-bold text-xs uppercase tracking-wider">
-                  <Info className="w-4 h-4 text-slate-600" />
-                  <span>4. Propriedade de Marcas de Terceiros (Uso Nominal / Fair Use)</span>
-                </div>
-                <p>
-                  Todas as marcas comerciais, patentes, nomes de modelos e logotipos citados nesta obra (incluindo Brother, Janome, Barudan, Tajima, Typical, Jack, Groz-Beckert, Schmetz, Madeira, Coats, Wilcom, entre outros) são de propriedade exclusiva de seus respectivos titulares. A sua citação nesta publicação obedece rigorosamente aos limites da identificação funcional e descritiva, sem qualquer intuito de apropriação, associação indevida ou endosso comercial.
-                </p>
-              </div>
-
-            </div>
-
-            {/* Modal Footer */}
-            <div className="p-4 bg-slate-100 border-t border-slate-200 flex items-center justify-between gap-3 text-xs text-slate-600 shrink-0">
-              <span className="font-medium text-slate-500 text-[11px]">
-                DIBE Artrelados · Obra Intelectual Protegida
-              </span>
-              <button
-                onClick={() => setShowLegalNoticeModal(false)}
-                className="px-5 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 text-amber-400 font-black text-xs transition cursor-pointer shadow-md"
-              >
-                Entendido e Ciente
-              </button>
-            </div>
-
-          </div>
-        </div>
-      )}
     </footer>
   );
 };

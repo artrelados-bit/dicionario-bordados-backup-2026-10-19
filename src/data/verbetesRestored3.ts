@@ -1,4 +1,4 @@
-import { Verbete } from '../types';
+import { Verbete } from "../types";
 
 export const VERBETES_RESTORED_PART3: Verbete[] = [
   {
@@ -1058,7 +1058,7 @@ export const VERBETES_RESTORED_PART3: Verbete[] = [
     ],
     "troubleshootingTips": [
       "Se o tecido de malha furar ao redor do bordado: troque imediatamente por agulha ponta bola SES.",
-      "Se a máquina fizer ruído seco nos eixos: aplique gotas de óleo mineral branco ISO 10.",
+      "Se a máquina fizer ruído seco nos eixos: aplique gotas de ��leo mineral branco ISO 10.",
       "Se a matriz demorar muito para bordar: use o otimizador de saltos no software."
     ],
     "dicaArtrelados": "Nunca retire o bastidor da máquina para recortar o tecido de um aplique! Use a função Offset do painel: ela empurra o bastidor para a frente, você corta o aplique com tesoura de ponta curvada e aperta o botão para ela voltar ao ponto zero perfeito!",

@@ -3806,8 +3806,3 @@ export const VERBETES_LETTER_B1: Verbete[] = [
     "updatedAt": "2026-09-16"
   }
 ];
-
-
-
-
-

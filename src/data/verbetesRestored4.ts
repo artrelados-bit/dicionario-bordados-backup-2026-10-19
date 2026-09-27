@@ -1,4 +1,4 @@
-import { Verbete } from '../types';
+import { Verbete } from "../types";
 
 export const VERBETES_RESTORED_PART4: Verbete[] = [
   {

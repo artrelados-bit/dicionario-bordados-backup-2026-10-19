@@ -1,5 +1,4 @@
-// DIBE Artrelados - Letra A Atualizada e Validada
-import { Verbete } from '../types';
+import { Verbete } from "../types";
 
 export const VERBETES_LETTER_A: Verbete[] = [
   {

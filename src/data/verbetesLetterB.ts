@@ -1741,7 +1741,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
     "category": "Pontos Básicos & Decorativos",
     "summary": "Técnica que combina retalhos de tecidos recortados e fixados por bordado de contorno.",
     "definition": "O bordado appliqué (ou bordado de aplicação) é a técnica mista de artesanato e bordado computadorizado na qual retalhos de tecidos nobres, feltros, couros sintéticos, tecidos estampados ou glitter são sobrepostos ao tecido principal e fixados mecanicamente através de uma sequência rigorosa de pontos de marcação, pontos de fixação e borda decorativa de acabamento em ponto cheio (satin), ponto festonê ou ponto costela de adão.",
-    "technicalDetails": "A programação da matriz exige a divisão canônica em 5 passos com paradas automáticas (Stop/Color Change): 1) Linha de Posicionamento (Running Stitch de marcação); 2) Parada de máquina para sobrepor o retalho; 3) Ponto de Fixação / Alinhavo (Tackdown Stitch); 4) Parada de máquina para o operador recortar a sobra do tecido com tesoura curva; 5) Cobertura de vedação em Ponto Cheio largo (3.5 mm a 4.5 mm de largura com compensação de repuxo de 0.40 mm).",
+    "technicalDetails": "A programação da matriz exige a divisão can��nica em 5 passos com paradas automáticas (Stop/Color Change): 1) Linha de Posicionamento (Running Stitch de marcação); 2) Parada de máquina para sobrepor o retalho; 3) Ponto de Fixação / Alinhavo (Tackdown Stitch); 4) Parada de máquina para o operador recortar a sobra do tecido com tesoura curva; 5) Cobertura de vedação em Ponto Cheio largo (3.5 mm a 4.5 mm de largura com compensação de repuxo de 0.40 mm).",
     "beginnerExplanation": "É a técnica mágica de colocar um pedacinho de tecido estampado (como poá, floral ou feltro) no meio do bordado e prender com uma bordinha de ponto cheio! Fica lindo, com cara de artesanato fofo de bebê, e economiza milhares de pontos porque você não precisa preencher o fundo inteiro com linha!",
     "construction": [
       "Tecido de Aplicação Pré-Estabilizado com Termocolante Definitivo ou Temporário",
@@ -5003,5 +5003,3 @@ export const VERBETES_LETTER_B: Verbete[] = [
     "updatedAt": "2026-08-22"
   }
 ];
-
-
