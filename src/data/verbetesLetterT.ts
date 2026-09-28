@@ -6504,4 +6504,109 @@ export const VERBETES_LETTER_T: Verbete[] = [
     ],
     "updatedAt": "2026-09-07"
   }
+,
+{
+  "id": "t-trapunto-eletronico-bordado-trapunto",
+  "code": "T-000",
+  "term": "Trapunto Eletrônico / Bordado Trapunto (Machine Trapunto & Italian Raised Quilting)",
+  "letter": "T",
+  "level": "Intermediário 🟡 a Avançado 🔴",
+  "category": "Técnicas Especiais & Quilting Artístico",
+  "grammarClass": "Substantivo masculino / Locução técnica digital",
+  "origin": "Do particípio passado do italiano trapuntare (acolchoar, pespontar com recheio), documentado no dialeto siciliano e toscano desde o século XIV. O trapunto clássico, conhecido na Renascença italiana como \"imbottito\" (estofado), exigia o trabalho árduo de costurar dois tecidos finos e injetar fios grossos ou algodão por orifícios abertos no verso com um furador. Com a digitalização para máquinas de bordar modernas, o processo transformou-se no sistema de recorte de manta no bastidor com fundo comprimido por micro-pontos de quilting computadorizado.",
+  "summary": "Arte milenar italiana de acolchoamento em relevo escultórico adaptada à máquina de bordar, criando volumes tridimensionais macios destacados por fundos de quilting denso.",
+  "definition": "O Trapunto Eletrônico (Machine Trapunto) é a técnica têxtil digital pela qual se esculpem volumes tridimensionais macios e táteis na superfície de colchas, painéis decorativos e vestuário de luxo através da máquina de bordar computadorizada. Ao contrário do bordado com EVA (Puffy Foam) — que utiliza espuma de etil-vinil-acetato rígida sob ponto cheio fechado —, o Trapunto trabalha com mantas térmicas e acrílicas de fibras naturais ou sintéticas de alto loft (resiliência elástica) que são recortadas seletivamente na máquina. A elevação dos motivos decorativos é intensificada pela compressão mecânica do plano de fundo através de padrões de micro-quilting (como pebble quilting, stippling ou meandros), criando uma escultura têxtil de luzes e sombras puras no tecido.",
+  "technicalDetails": "A engenharia de digitalização do Trapunto divide-se em três etapas sincronizadas: 1) Matriz de Marcação de Manta: vetor linear fechado com comprimento de ponto de 2,5 mm e tensão baixa para corte fácil da manta; 2) Matriz de Assentamento do Top: pesponto duplo (running stitch) ou ponto semente que acopla o tecido principal sobre a ilha de manta aparada; 3) Micro-Quilting de Fundo (Pebble / Echo / Stipple): malha de pontos programada com densidade milimétrica em torno da figura em relevo. Para que a ilusão de alto relevo funcione com excelência, o fundo deve receber de 8 a 15 pontos por centímetro linear (com linhas ultrafinas de poliéster 60 ou monofilamento invisível de 0,08 mm), forçando o tecido de fundo a se achatar totalmente contra a entretela inferior, enquanto o motivo central expande livremente suas fibras fofas para fora.",
+  "beginnerExplanation": "O Trapunto é a técnica que faz o tecido parecer uma escultura de nuvens fofinhas! Pense em um quadro onde o desenho principal (como uma rosa, um monograma ou um cisne) fica gordinho e macio, e tudo que está ao redor dele fica bem costuradinho e baixinho. Antigamente, na Itália antiga, as bordadeiras tinham que enfiar chumaços de algodão com agulha de mão buraquinho por buraquinho por trás do tecido. Na máquina de bordar computadorizada, a máquina desenha a rosa numa mantinha fofinha, você apara o excesso de manta com a tesoura e depois coloca o tecido bonito por cima. A máquina amassa todo o fundo em volta da rosa com costurinhas delicadas, e a rosa salta para a frente parecendo uma almofadinha acolchoada perfeita!",
+  "characteristics": [
+    "Relevo tridimensional macio, flexível e agradável ao toque da pele",
+    "Excelente respirabilidade e resistência total a lavagens sem deformação",
+    "Contraste visual sofisticado entre áreas cheias fofas e áreas de fundo comprimidas",
+    "Permite o uso de linhas invisíveis para valorizar a textura pura do tecido",
+    "Técnica de prestígio em exposições mundiais de arte têxtil e feiras de artesanato"
+  ],
+  "construction": [
+    "1. Estabilização primária: Entretela rasgável de 40g ou hidrossolúvel montada com manta de poliéster",
+    "2. Demarcação preliminar: Linha de guia costurada na manta definindo o formato",
+    "3. Poda cirúrgica: Corte da manta ao longo do perímetro externo com tesoura pelicano",
+    "4. Camada de cobertura: Tecido nobre (percal 300 fios, seda ou linho) posicionado por cima",
+    "5. Pesponto e compactação: Fixação das bordas e quilting denso de fundo em volta do relevo"
+  ],
+  "howItWorks": [
+    "1. Prende-se a entretela e uma camada de manta acrílica média no bastidor.",
+    "2. A máquina borda o contorno do motivo com pontos retos simples.",
+    "3. O bastidor é desencaixado da máquina com cuidado para não afrouxar o aro.",
+    "4. Com uma tesoura pelicano apoiada suavemente, corta-se a manta bem rente à linha de costura.",
+    "5. Posiciona-se o tecido definitivo (e o forro por baixo, se for colcha) por cima do bastidor.",
+    "6. O bastidor retorna à máquina para a etapa de fixação do contorno.",
+    "7. A máquina costura os micro-pontos de fundo (stippling / pedrinhas), comprimindo o tecido circundante e projetando o relevo do Trapunto para a frente."
+  ],
+  "mainTypes": [
+    "Trapunto Italiano Tradicional por Inserção: Técnica manual histórica com abertura de orifícios no verso.",
+    "Trapunto Computadorizado com Manta Recortada: A técnica rápida e precisa no bastidor consagrada no bordado contemporâneo.",
+    "Trapunto com Sombreado (Shadow Trapunto): Manta colorida inserida sob tecido branco semitransparente (como cambraia ou organza), criando um efeito translúcido pastel.",
+    "Trapunto em Couro e Sintéticos: Relevos pronunciados em estofamentos de iates, carros de luxo e jaquetas de motoqueiro."
+  ],
+  "applications": [
+    "Colchas nobres e edredons matelassados de alta-costura",
+    "Enxovais refinados de bebê (mantas de maternidade, almofadas de amamentação e porta-bebês)",
+    "Painéis murais de arte têxtil e tapeçarias contemporâneas",
+    "Bolsas de mão estruturadas em veludo, couro ou cetim",
+    "Costas de jaquetas de gala e vestidos de noiva com arabescos acolchoados"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "500 a 650 PPM (velocidade baixa para garantir precisão e caimento homogêneo)",
+    "needleType": "Agulha 75/11 Quilting ou agulha Microtex afiada para perfurações limpas",
+    "stabilizer": "Entretela hidrossolúvel ou entretela rasgável fina de 40 g/m²",
+    "density": "Espaçamento de 1,8 mm a 2,5 mm no micro-quilting circundante (fundo bem compactado)",
+    "pullCompensation": "0,40 mm no contorno perimetral para cobrir as bordas da manta",
+    "underlay": "Sem preenchimento no interior do relevo; apenas a textura fofa da própria manta",
+    "threadTension": "Equilibrada, com ligeira redução na linha superior para costura macia de quilting"
+  },
+  "advantages": [
+    "✔ Proporciona um efeito aristocrático inigualável que remete à arte renascentista italiana",
+    "✔ Peça extremamente confortável que não fica dura nem desconfortável ao deitar ou vestir",
+    "✔ Produto de altíssima margem de lucro para ateliês de enxovais personalizados",
+    "✔ Não sofre descolamento com lavagens sucessivas, mantendo o relevo por décadas"
+  ],
+  "limitations": [
+    "Exige paciência e habilidade motora no manuseio da tesoura pelicano para podar a manta",
+    "Não é aplicável em matrizes com micro-detalhes de menos de 10 mm",
+    "Exige tecidos com boa estabilidade dimensional (evitar malhas finas com muita lycra)"
+  ],
+  "commonErrors": [
+    "❌ Tirar o tecido de dentro do aro do bastidor para cortar a manta (perde-se o alinhamento definitivo)",
+    "❌ Não usar tesoura pelicano e furar a entretela de suporte com tesourinha comum",
+    "❌ Cortar a manta longe demais da linha de contorno (cria um anel largo e manchado na borda)",
+    "❌ Usar manta muito fina que não produz contraste de relevo perceptível",
+    "❌ Bordar fundo com pontos muito espaçados que não compactam a base adequadamente"
+  ],
+  "troubleshootingTips": [
+    "Se o tecido repuxar ao redor da figura: utilize entretela de recorte estável na base e diminua a velocidade da máquina para 550 PPM durante o quilting de fundo.",
+    "Se o contorno não cobrir a manta: aumente a compensação de encolhimento no software ou a largura da coluna de acabamento em +0,4 mm.",
+    "Se a manta estiver desfiando na poda: utilize mantas termocoladas (com resina R1 ou R2 suave) que seguram as fibras unidas durante o corte rente."
+  ],
+  "dicaArtrelados": "O Segredo do Ponto Meandering em Linha Invisível com Forro de Algodão Macio: quando você for fazer o quilting de fundo ao redor do Trapunto, use na agulha um fio transparente de poliamida 100% monofilamento bem fininho e reduza a velocidade da máquina para 500 PPM! Como a linha é invisível, o olho humano não enxerga costuras no fundo; ele vê apenas a sombra das covinhas do tecido comprimido, fazendo a flor ou monograma acolchoado parecer que foi magicamente esculpido no tecido por fadas! O efeito sob luz natural lateral de uma janela é de deixar qualquer cliente sem fôlego!",
+  "voceSabia": "A rainha Maria Antonieta de França tinha um conjunto inteiro de aposentos reais no Palácio de Versalhes decorado exclusivamente com Trapunto em cetim de seda pura branca, acolchoado pelas mais habilidosas freiras carmelitas de Paris no século XVIII!",
+  "practicalExercise": "Exercício de Bancada (Comparativo Visual de Trapunto vs Bordado Plano):\n1. Borde uma flor de 8 cm em ponto plano tradicional em um retalho de percal.\n2. No mesmo retalho, borde a mesma flor utilizando a técnica de Trapunto com manta acrílica recortada e fundo de stippling.\n3. Coloque as duas peças lado a lado sob iluminação lateral de uma luminária de mesa.\n4. Observe como o Trapunto cria sombras naturais ricas e uma profundidade tridimensional que nenhuma matriz plana comum consegue alcançar!",
+  "quickSummary": "Arte clássica renascentista italiana de acolchoamento em relevo escultórico macio através de mantas recortadas sob o tecido e fundos de quilting intensamente compactados.",
+  "relatedTerms": [
+    "Bordado Trapunto Eletrônico (Trapunto & Raised Quilted Embroidery)",
+    "Bordado em Relevo 3D / Puffy Foam (Bordado com EVA)",
+    "Bordado Tradicional Direto / Bordado Plano (Direct Flat Embroidery)",
+    "Entretela Hidrossolúvel",
+    "Ponto Cheio (Satin Stitch)"
+  ],
+  "tags": [
+    "trapunto",
+    "trapunto eletronico",
+    "quilting trapunto",
+    "relevo italiano",
+    "manta acolchoada",
+    "tesoura pelicano",
+    "enxoval renascentista",
+    "stippling"
+  ],
+  "updatedAt": "2026-09-28"
+}
 ];

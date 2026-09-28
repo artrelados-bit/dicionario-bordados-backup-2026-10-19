@@ -5844,4 +5844,319 @@ export const VERBETES_LETTER_B: Verbete[] = [
   ],
   "updatedAt": "2026-09-28"
 }
+,
+{
+  "id": "b-bordado-trapunto-eletronico",
+  "code": "B-000",
+  "term": "Bordado Trapunto Eletrônico (Trapunto & Raised Quilted Embroidery)",
+  "letter": "B",
+  "level": "Intermediário 🟡",
+  "category": "Técnicas Especiais & Efeitos Tridimensionais",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Do particípio passado do verbo italiano trapuntare (acolchoar, pespontar entre duas camadas de tecido), originado no século XIV na região da Sicília e Toscana. Tradicionalmente executado inserindo cordões ou mechas de algodão pelo verso do tecido com agulhas grossas, o trapunto foi modernizado no início dos anos 2000 por designers de quilting computadorizado (como Ricky Tims e mestres de software de bordado), criando a técnica de recorte de manta no próprio bastidor da máquina eletrônica.",
+  "summary": "Técnica de acolchoamento em alto relevo executada na máquina de bordar através de camadas recortadas de manta acrílica sob o tecido principal.",
+  "definition": "O Bordado Trapunto Eletrônico é uma técnica híbrida de bordado computadorizado e acolchoamento artístico, na qual se obtém um relevo tridimensional pronunciado em áreas selecionadas da matriz sem enrijecer o tecido. O processo baseia-se na aplicação preliminar de uma manta de enchimento de alto loft (manta acrílica R1/R2, lã ou feltro de poliéster) montada com entretela no bastidor; a máquina costura o contorno vetorial da figura, o operador retira o bastidor e apara o excesso de manta ao redor do desenho. Em seguida, o tecido principal e o forro são sobrepostos, e a máquina executa o quilting denso de fundo (micro-stippling ou pedrinhas), fazendo com que as áreas com manta recortada saltem para fora em almofadinhas esculpidas macias.",
+  "technicalDetails": "A matriz de Trapunto computadorizado é estruturada em três fases digitais interdependentes: 1) Linha de Aplicação de Manta (Cutline): ponto corrido simples de 2,5 mm que delimita a área de relevo para o operador cortar com tesoura pelicano rente à costura; 2) Pesponto de Fixação (Tackdown): costura dupla que une o tecido superior à manta esculpida após o retorno do bastidor à máquina; 3) Compactação de Fundo (Background Flattening): preenchimento do plano ao redor do motivo com ponto meandering, stippling ou micro-tatami de baixa densidade (espaçamento de 1,5 mm a 2,0 mm com linha fina 60 wt ou 100 wt). A pressão do calcador e a tensão do tecido devem ser suaves para não achatar o miolo da manta. O contraste entre o fundo comprimido e a figura livre cria a ilusão escultórica característica do trapunto nobre.",
+  "beginnerExplanation": "Sabe aquelas colchas de bebê e mantas de luxo que têm desenhos de ursinhos, flores ou arabescos tão fofinhos que parecem pequenas almofadas em relevo saindo para fora do tecido? Isso é o Trapunto! Em vez de encher de ponto pesado que deixa o tecido duro como uma tábua, o segredo é usar uma camadinha de manta acrílica (aquela espuma fofinha de edredom). A máquina costura o contorno do urso na manta, você pega a tesourinha e recorta toda a sobra de manta em volta. Depois coloca o tecido bonito por cima e a máquina borda bem amassadinho em volta do urso. O fundo fica baixinho e o urso fica fofo, gordinho e macio, uma delícia de apertar!",
+  "characteristics": [
+    "Cria relevo macio e fofo sem endurecer o tecido com excesso de pontos",
+    "Utiliza manta acrílica de poliéster (R1/R2) ou feltro como núcleo tridimensional",
+    "Requer corte manual preliminar da manta ao redor do contorno no bastidor",
+    "Combina áreas em relevo alto com fundos compactados por pespontos de quilting",
+    "Acabamento aristocrático e toque tátil extremamente macio"
+  ],
+  "construction": [
+    "1. Base preliminar: Entretela hidrossolúvel ou rasgável + manta acrílica de poliéster de 100g a 150g",
+    "2. Costura de corte (Cutline): Ponto reto de demarcação do contorno na manta",
+    "3. Poda da manta: Corte rente da borda externa da manta com tesoura pelicano curva",
+    "4. Camada final: Tecido principal (tricoline, percal ou linho) + manta fina de base + tecido de forro",
+    "5. Pesponto final e quilting: Costura de assentamento do contorno e stippling denso no fundo"
+  ],
+  "howItWorks": [
+    "1. Monta-se a entretela e uma camada de manta acrílica no bastidor.",
+    "2. A máquina borda a linha de contorno simples delimitando a figura que terá relevo.",
+    "3. O bastidor é desacoplado da máquina (sem soltar o tecido do aro) e colocado sobre uma mesa plana.",
+    "4. Com uma tesoura pelicano de ponta curva, corta-se a manta bem rente ao lado de fora da costura, removendo todo o excesso ao redor.",
+    "5. Coloca-se o tecido principal por cima da manta recortada, além do forro por baixo do bastidor se for um quilt.",
+    "6. Encaixa-se o bastidor de volta na máquina de bordar.",
+    "7. A máquina borda o contorno definitivo e o preenchimento de fundo (quilting/stippling), fazendo o relevo saltar."
+  ],
+  "mainTypes": [
+    "Trapunto com Manta Recortada no Bastidor: O método moderno mais comum e rápido para máquinas computadorizadas domésticas e industriais.",
+    "Trapunto com Linha Hidrossolúvel: A costura inicial de corte é feita com linha solúvel em água, sumindo completamente após a primeira lavagem.",
+    "Trapunto Duplo / Alto Relevo: Utiliza duas camadas sobrepostas de manta de 150g para relevos gigantescos de até 15 mm de espessura.",
+    "Trapunto em Couro e Camurça: Aplicado em painéis automotivos e jaquetas de alta-costura com manta de alta densidade indeformável."
+  ],
+  "applications": [
+    "Enxovais de bebê de alto luxo: protetores de berço, colchas e mantas com figuras fofas em relevo",
+    "Colchas nobres de casal em percal 400 fios e seda com arabescos clássicos em relevo",
+    "Almofadas decorativas e cabeceiras estofadas personalizadas",
+    "Painéis de parede artísticos e quilts contemporâneos para exposições têxteis",
+    "Jaquetas bombers e detalhes em bolsas de couro nobre"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "550 a 650 PPM (evita repuxo no tecido durante as passagens de quilting fino)",
+    "needleType": "Agulha 75/11 Quilting ou Topstitch com olho alongado para fluxo constante de linha",
+    "stabilizer": "Entretela hidrossolúvel de PVA lavável ou entretela rasgável leve de 40 g/m²",
+    "density": "Espaçamento aberto de 2,0 mm a 3,0 mm no quilting de fundo (nunca tatami pesado sobre o relevo)",
+    "pullCompensation": "0,35 mm a 0,45 mm nos contornos para compensar o estufamento da manta",
+    "underlay": "Sob-costura dispensada no relevo; apenas costura de contorno perimetral",
+    "threadTension": "Tensão superior ligeiramente mais solta para acomodar a variação de espessura da manta"
+  },
+  "advantages": [
+    "✔ Proporciona relevo muito mais macio e agradável ao toque do que o bordado com EVA (puffy foam)",
+    "✔ Peça maleável e perfeitamente lavável em máquina doméstica sem rachar",
+    "✔ Consumo de linha significativamente menor do que matrizes maciças de ponto cheio",
+    "✔ Visual de alta-costura que permite cobrar até 4 vezes mais pelo trabalho final"
+  ],
+  "limitations": [
+    "Exige a intervenção manual do operador para retirar o bastidor e cortar a manta no meio do processo",
+    "Não é indicado para desenhos microscópicos com cantos pontiagudos muito estreitos",
+    "Requer tesoura de precisão adequada (tesoura pelicano) para não cortar a base"
+  ],
+  "commonErrors": [
+    "❌ Cortar a manta com tesoura reta comum e acidentalmente furar a entretela de sustentação",
+    "❌ Desmontar o aro do bastidor para cortar a manta (perde-se o alinhamento e o desenho sai torto)",
+    "❌ Deixar sobras largas de manta fora da costura (o contorno final fica manchado e sem definição)",
+    "❌ Usar manta resinada muito dura que não amassa no fundo e perde o efeito de contraste",
+    "❌ Fazer pontos de quilting muito densos sobre o urso ou flor, matando o volume do relevo"
+  ],
+  "troubleshootingTips": [
+    "Se o relevo não estiver saltando: aumente a densidade do quilting ao redor do desenho (stippling mais fechado comprime mais o fundo e projeta o relevo para frente).",
+    "Se a tesoura picotar a entretela: use uma tesoura pelicano (duckbill) com a aba larga achatada encostada na entretela, garantindo proteção total contra furos.",
+    "Se o tecido superior enrugar ao voltar para a máquina: use spray adesivo temporário para assentar o tecido perfeitamente esticado sobre a manta antes de costurar."
+  ],
+  "dicaArtrelados": "O Segredo da Tesoura Pelicano e da Linha Hidrossolúvel na Primeira Etapa: a tesoura pelicano (com aquela lâmina em formato de bico de pato) é a alma do trapunto perfeito! A parte larga desliza por baixo da manta empurrando a entretela para longe, permitindo cortar a manta a meio milímetro da costura sem NENHUM perigo de bicar a base. E se você usar linha hidrossolúvel na costura da primeira etapa da manta, quando a cliente lavar a colcha pela primeira vez, aquela costurinha preliminar se desfaz como mágica na água, deixando as beiradas do relevo tão suaves e fofas que parecem nuvens esculpidas!",
+  "voceSabia": "A mais antiga peça de Trapunto preservada no mundo é a famosa \"Colcha de Tristão e Isolda\", confeccionada na Sicília por volta de 1395! Ela retrata as lendas do Rei Artur em dezenas de cenas acolchoadas em alto relevo e encontra-se protegida no prestigiado museu Victoria and Albert, em Londres!",
+  "practicalExercise": "Exercício de Bancada (Seu Primeiro Quadrado de Trapunto):\n1. Coloque entretela rasgável e um pedaço de manta acrílica R1 no bastidor 10x10 cm.\n2. Borde o contorno de um coração simples na máquina.\n3. Desencaixe o bastidor da máquina, apoie na mesa e apare a manta em volta do coração com a tesoura pelicano.\n4. Borrife um tico de cola temporária e aplique um tecido de tricoline estampada por cima.\n5. Encaixe na máquina e deixe costurar o contorno duplo e o fundo com ondinhas de stippling.\n6. Tire do bastidor e sinta o coração fofinho saltando na palma da sua mão!",
+  "quickSummary": "Técnica clássica de acolchoamento em relevo escultórico que utiliza manta acrílica recortada sob o tecido para criar áreas almofadadas fofas em colchas e enxovais de luxo.",
+  "relatedTerms": [
+    "Trapunto Eletrônico / Bordado Trapunto (Machine Trapunto & Italian Raised Quilting)",
+    "Bordado em Relevo 3D / Puffy Foam (Bordado com EVA)",
+    "Bordado Tradicional Direto / Bordado Plano (Direct Flat Embroidery)",
+    "Entretela Hidrossolúvel",
+    "Ponto Cheio (Satin Stitch)"
+  ],
+  "tags": [
+    "trapunto",
+    "bordado trapunto",
+    "manta acrilica",
+    "quilting 3d",
+    "relevo macio",
+    "tesoura pelicano",
+    "enxoval de luxo",
+    "colcha acolchoada"
+  ],
+  "updatedAt": "2026-09-28"
+}
+,
+{
+  "id": "b-bordado-fio-condutivo-eletronica-textil-vestivel",
+  "code": "B-000",
+  "term": "Bordado com Fio Condutivo e Eletrônica Têxtil Vestível (Conductive Thread & E-Textiles Embroidery)",
+  "letter": "B",
+  "level": "Avançado 🔴",
+  "category": "Inovação Tecnológica, E-Textiles & Bordado Inteligente",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Do latim conductivus (propriedade de transmitir energia) e textile (tecido), combinado com a expressão moderna wearable electronics (eletrônica vestível). As pesquisas pioneiras foram conduzidas no MIT Media Lab na década de 1990 pelo grupo de Rehmi Post e Maggie Orth, demonstrando que máquinas de bordar industriais podiam substituir placas de circuito impresso de fenolite (PCBs) costurando trilhas condutoras de prata e aço inoxidável diretamente em tecidos flexíveis.",
+  "summary": "Técnica de ponta que utiliza linhas com fibras de prata, cobre ou aço inox para bordar circuitos elétricos, sensores capacitivos, trilhas de LEDs e antenas em tecidos.",
+  "definition": "O Bordado com Fio Condutivo e Eletrônica Têxtil Vestível (E-Textiles / Smart Fabrics Embroidery) é o ramo da digitalização e confecção no qual a máquina de bordar computadorizada substitui fios rígidos e cabos de cobre tradicionais por linhas têxteis metalizadas condutoras de eletricidade. O bordado desenha caminhos condutores (trilhas de circuito), ilhas de contato (pads de conexão), interruptores de pressão e teclados capacitivos de toque diretamente na superfície da peça. Essa tecnologia permite integrar microcontroladores miniaturizados (como Arduino LilyPad, Seeed Xiao ou microchips SMD), baterias de lítio e sensores biomédicos em roupas esportivas, equipamentos militares e peças de moda interativa sem comprometer o caimento e a flexibilidade do vestuário.",
+  "technicalDetails": "A viabilidade técnica do bordado condutivo depende da resistência elétrica linear (medida em Ohms por metro — Ω/m) e da integridade física dos filamentos condutores: 1) Tipos de Fio: Fios de aço inoxidável (316L) oferecem alta durabilidade mecânica e resistência à oxidação, com resistividade moderada (entre 15 Ω/m e 50 Ω/m); Fios com alma de poliéster ou náilon revestidos com prata pura oferecem resistividade ultra baixa (< 2 Ω/m a 5 Ω/m), ideais para alimentação de LEDs e sinais digitais de alta frequência; 2) Roteamento da Matriz: o software de digitalização opera como um gerador de trilhas de circuito impresso. As linhas condutoras NÃO podem se cruzar no mesmo plano sem isolamento dielétrico (curto-circuito); onde cruzamentos são inevitáveis, uma das trilhas é isolada por uma camada intermediária de bordado não-condutor ou fita isolante têxtil; 3) Conexão com Componentes: ilhas de contato circulares ou em zigue-zague denso são bordadas com diâmetro de 3 mm a 5 mm para receber solda em baixa temperatura, rebites de latão condutivos ou resinas epóxi de prata.",
+  "beginnerExplanation": "Já imaginou uma jaqueta onde você encosta o dedo na manga e muda a música do celular, ou um casaco infantil que acende luzinhas de LED quando você aperta um botãozinho que é feito de puro bordado no tecido? Isso é a eletrônica têxtil! Em vez de usar fios duros de metal com capinha de plástico que incomodam o corpo, a gente usa uma linha especial de bordar que parece linha normal de costura, mas é feita com microfibras de prata pura ou aço inoxidável que conduzem eletricidade de verdade! A máquina de bordar costura o caminho da energia no tecido com toda a perfeição do mundo, transformando uma camiseta comum em uma roupa inteligente do futuro!",
+  "characteristics": [
+    "Conduz eletricidade real através de filamentos microscópicos de prata, cobre ou aço inox",
+    "Substitui placas rígidas de circuito impresso por malhas e tecidos 100% flexíveis e confortáveis",
+    "Permite criar botões sensíveis ao toque (touch capacitivo) e antenas NFC/RFID invisíveis",
+    "Compatível com lavagens e higienização após impermeabilização com selantes têxteis",
+    "Exige cálculo de resistência elétrica e prevenção absoluta contra curto-circuitos na matriz"
+  ],
+  "construction": [
+    "1. Fio condutivo condutor: Linha de aço 316L ou poliamida revestida com prata de 2 a 30 Ω/m",
+    "2. Fio de agulha ou bobina: O fio condutivo pode ser usado tanto na agulha quanto na lançadeira",
+    "3. Tecido base não-condutor: Algodão, neoprene, sarja ou poliéster atuando como isolante natural",
+    "4. Entretela de suporte: Entretela de poliéster não-condutiva de boa estabilidade dimensional",
+    "5. Encapsulamento protetor: Película de poliuretano termocolante ou silicone para lacrar o verso"
+  ],
+  "howItWorks": [
+    "1. Desenha-se o circuito no software de matriz como uma trilha contínua em ponto reto triplo (bean stitch) interligando a bateria aos componentes.",
+    "2. O fio condutivo é passado na agulha (com tensão suave) ou enrolado na bobina inferior.",
+    "3. A máquina borda as trilhas elétricas e as ilhas de contato (pads) nos pontos designados.",
+    "4. Ao retirar o bastidor, o operador mede a continuidade do circuito com um multímetro na escala de resistência.",
+    "5. Os componentes eletrônicos (LEDs SMD, baterias e sensores) são fixados sobre as ilhas com cola condutiva, rebites ou costura manual.",
+    "6. O circuito é testado acionando-se a fonte de alimentação (como uma bateria moeda CR2032 de 3V).",
+    "7. Aplica-se uma película termocolante impermeabilizante no verso com prensa térmica para proteger o circuito do suor e umidade."
+  ],
+  "mainTypes": [
+    "Trilhas de Alimentação e Sinal: Pespontos contínuos de baixa resistência para acender luzes e alimentar microchips.",
+    "Sensores de Toque Capacitivo (Touch Sensors): Almofadas bordadas em ponto tatami que detectam a aproximação dos dedos pela variação de capacitância.",
+    "Antenas Têxteis (Textile Antennas / RFID / NFC): Espirais e geometrias fractais bordadas com fio de prata para transmissão de dados sem fio.",
+    "Aquecedores Têxteis Resistivos (Heating Textiles): Malhas de alta resistência calculada que geram calor suave quando ligadas a baterias de 5V ou 12V em luvas e jaquetas de motoqueiro."
+  ],
+  "applications": [
+    "Moda esportiva de alta performance: camisas com sensores de frequência cardíaca e respiração integrados",
+    "Vestuário de proteção e EPIs inteligentes: jaquetas para bombeiros com sensores de temperatura e gases tóxicos",
+    "Roupas de palco e espetáculo com figurinos luminosos programáveis (LEDs endereçáveis NeoPixel)",
+    "Medicina e saúde: faixas neonatais com eletrodos bordados para monitoramento contínuo sem adesivos",
+    "Automotivo: assentos e volantes com botões de comando bordados diretamente no estofamento"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "450 a 600 PPM (velocidade controlada para não desgastar o revestimento metálico da linha)",
+    "needleType": "Agulha 80/12 ou 90/14 Ponta Bola Leve (SES) com olho alongado ou acabamento em titânio",
+    "stabilizer": "Entretela de recorte de poliéster 100% não-condutiva e resistente ao calor",
+    "density": "Ponto reto de 2,5 mm a 3,0 mm para trilhas; tatami aberto para pads (espaçamento de 0,5 mm)",
+    "pullCompensation": "0,30 mm a 0,40 mm para manter a espessura e a continuidade ininterrupta da trilha",
+    "underlay": "Sem sob-costura em trilhas lineares (evita sobreposições mecânicas que possam gerar ruído elétrico)",
+    "threadTension": "Ligeiramente solta para não esticar os filamentos metálicos condutivos"
+  },
+  "advantages": [
+    "✔ Proporciona roupas e tecidos inteligentes com flexibilidade, leveza e conforto absoluto",
+    "✔ Elimina soldas pesadas e fios rígidos quebradiços que incomodam o usuário",
+    "✔ Produção em massa escalável através de máquinas de bordar comerciais tradicionais",
+    "✔ Altíssimo valor agregado em projetos de inovação, feiras de ciências e moda tecnológica"
+  ],
+  "limitations": [
+    "Fios de prata podem oxidar em contato prolongado com ar úmido e suor sem selagem protetora",
+    "Resistência elétrica mais alta que fios de cobre puros, limitando correntes muito elevadas",
+    "Requer testes elétricos rigorosos ponto a ponto para evitar falsos contatos"
+  ],
+  "commonErrors": [
+    "❌ Cruzar duas trilhas elétricas ativas no mesmo nível sem isolador (causa curto-circuito imediato)",
+    "❌ Cortar a linha condutiva rente à ilha de contato sem deixar sobra para ancoragem mecânica",
+    "❌ Usar tensão muito alta na máquina (quebra os microfilamentos internos de prata por estiramento)",
+    "❌ Lavar a peça sem impermeabilizar o circuito com película selante ou silicone têxtil",
+    "❌ Usar ferro de passar quente diretamente sobre fios condutores com revestimento sintético"
+  ],
+  "troubleshootingTips": [
+    "Se o circuito não acender o LED: pegue o multímetro no modo de apito (continuidade) e toque nas extremidades da trilha bordada; se não apitar, localize a micro-fratura e faça um ponto de reforço.",
+    "Se houver aquecimento excessivo na trilha: a resistência ôhmica da linha está muito alta para a corrente da bateria; aumente a espessura da trilha bordando em ponto triplo ou use fio com menor valor de Ω/m.",
+    "Se a máquina estiver desfiando a linha de prata: substitua a agulha por uma de olho largo (Topstitch 90/14) e passe silicone líquido lubrificante no passador de linha."
+  ],
+  "dicaArtrelados": "O Segredo do Multímetro de Bancada e da Película de Poliuretano Termocolante: antes de colocar qualquer bateria na peça, teste SEMPRE a resistência de cada trilha com um multímetro digital! Se a trilha der menos de 10 Ohms de ponta a ponta, seu circuito é perfeito e de alta eficiência. E para que a peça possa ser lavada na máquina de lavar sem medo, passe uma tira de fita de vedação de costuras de PU (poliuretano termocolante) com o ferro morninho em cima das trilhas no avesso: ela derrete criando uma cápsula plástica 100% à prova d água e imune ao suor corporal!",
+  "voceSabia": "Trajes espaciais de astronautas da NASA contam com fios condutivos bordados em suas camadas internas para coletar batimentos cardíacos, temperatura corporal e pressão arterial dos exploradores enquanto eles caminham na superfície lunar ou fora da Estação Espacial Internacional!",
+  "practicalExercise": "Exercício de Bancada (Sua Primeira Pulseira Luminosa de LED Bordado):\n1. Monte um pedaço de feltro preto no bastidor com entretela rasgável.\n2. Programe duas trilhas retas paralelas de 6 cm separadas por 1 cm de distância, terminando em duas ilhas circulares.\n3. Enfie a linha condutiva na agulha e borde as duas trilhas.\n4. Retire do bastidor e posicione as perninhas de um LED colorido sobre as ilhas (positivo em uma, negativo na outra).\n5. Encoste os polos de uma bateria moeda de 3V no início das trilhas e veja o LED brilhar através do seu bordado!",
+  "quickSummary": "Tecnologia de fronteira que utiliza linhas têxteis com microfilamentos de prata e aço para bordar circuitos elétricos, sensores de toque e luzes LED diretamente em roupas e acessórios.",
+  "relatedTerms": [
+    "Bordado Tradicional Direto / Bordado Plano (Direct Flat Embroidery)",
+    "Fio Metalizado para Bordado (Metallic Embroidery Thread)",
+    "Tensão da Linha de Bordado",
+    "Entretela de Recorte (Cutaway)",
+    "Ponto Corrido / Ponto Reto (Running Stitch)"
+  ],
+  "tags": [
+    "fio condutivo",
+    "eletronica textil",
+    "e-textiles",
+    "smart fabrics",
+    "circuito bordado",
+    "led no bordado",
+    "sensor de toque",
+    "wearables"
+  ],
+  "updatedAt": "2026-09-28"
+}
+,
+{
+  "id": "b-bordado-ponto-cruz-eletronico",
+  "code": "B-000",
+  "term": "Bordado com Ponto Cruz Eletrônico (Machine Cross Stitch & Digital Tapestry)",
+  "letter": "B",
+  "level": "Iniciante 🟢 a Intermediário 🟡",
+  "category": "Técnicas Especiais & Estilos Históricos",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Do latim punctum crucis (ponto em cruz), uma das formas mais antigas de bordado da história humana, encontrada em relíquias de tumbas egípcias e na Ásia Central desde a Antiguidade. A transposição para o bordado computadorizado ocorreu no final da década de 1990 com a criação de módulos dedicados em softwares de digitalização (como o Wilcom Cross Stitch, PE-Design e Embird Cross Stitch), que permitiram converter gráficos milimetrados e cartelas de meadas em cruzetas digitais com repetições e trajetórias otimizadas sem quebras de linha.",
+  "summary": "Técnica digital que simula com exatidão o ponto cruz tradicional à mão através de cruzetas geométricas parametrizadas em grades milimétricas.",
+  "definition": "O Bordado com Ponto Cruz Eletrônico é a técnica e o estilo de programação de matriz no qual o software converte desenhos gráficos, quadros renascentistas, alfabetos ou motivos folclóricos em uma grade quadriculada regular (equivalente às tramas de tecido etamine ou aida de 11, 14, 16 ou 18 pontos por polegada). A máquina executa cada quadrícula formando uma cruzeta com duas pernas diagonais sobrepostas (a primeira perna inferior e a segunda perna superior). O algoritmo traça a sequência de percurso mais eficiente para conectar dezenas de cruzetas da mesma cor de forma contínua, minimizando saltos com corte e evitando nós no avesso, criando a ilusão perfeita de uma tapeçaria artesanal feita manualmente com meadas de algodão.",
+  "technicalDetails": "A qualidade do Ponto Cruz digital baseia-se na rigorosa padronização de três parâmetros fundamentais: 1) Uniformidade de Orientação Diagonal: todas as cruzetas da matriz devem ter a mesma perna sobreposta superior (convencionalmente, a perna / é bordada primeiro e a perna \\ é bordada por cima), garantindo que a reflexão da luz sobre os filamentos da linha seja idêntica em toda a peça; 2) Número de Passadas (Ply / Count): o programador define a espessura da linha configurando 1, 2 ou 3 passadas para cada perna da cruz (sendo 2 passadas o padrão de maior cobertura em linhas comuns 120); 3) Alinhamento dos Quatro Cantos: a calibragem da máquina e a compensação de encolhimento devem ser estritas para que os quatro vértices de cada ponto entrem exatamente nos mesmos orifícios das cruzetas adjacentes, sem deixar frestas brancas nem sobreposições desalinhadas.",
+  "beginnerExplanation": "Quem não se lembra de ver avós ou mães bordando ponto cruz em toalhinhas de mão, contando furinho por furinho no tecido etamine com meada de algodão? Era um trabalho lindo, mas que levava semanas para fazer um pequeno ramalhete de flores! Com o Ponto Cruz Eletrônico, a máquina de bordar faz exatamente esses mesmos pontinhos em X, mas com a rapidez do computador! A máquina vai fazendo cruzeta por cruzeta em perfeita harmonia geométrica. Quando você olha o bordado pronto, parece que alguém passou dias fazendo ponto cruz à mão com o maior carinho do mundo!",
+  "characteristics": [
+    "Simulação fidedigna do ponto cruz manual tradicional em alta velocidade mecânica",
+    "Estrutura baseada em malha ortogonal fixa (grades de 1,5 mm a 3,0 mm por cruzeta)",
+    "Padronização absoluta da direção da perna superior para brilho homogêneo",
+    "Pode ser bordado em qualquer tecido plano (tricoline, percal, linho) sem precisar de etamine",
+    "Ideal com linhas de acabamento fosco (algodão ou poliéster fosco) para efeito artesanal"
+  ],
+  "construction": [
+    "1. Grade quadriculada digital: Matriz programada em passos milimétricos (ex: 14 cruzetas por polegada)",
+    "2. Perna inferior da cruz: Pesponto diagonal inclinado em 45°",
+    "3. Perna superior de fechamento: Pesponto diagonal oposto que cruza e sela o motivo",
+    "4. Linha de ligação (Travel Stitch): Ponto reto de transporte imperceptível entre cruzetas contíguas",
+    "5. Tecido base com entretela estável: Tecido plano sustentado por entretela rasgável ou recorte"
+  ],
+  "howItWorks": [
+    "1. O desenho é quadriculado no software de matriz, definindo-se o tamanho de cada cruzeta (ex: 1,8 mm).",
+    "2. O software calcula o caminho contínuo para bordar todas as cruzetas da mesma cor sem cortes desnecessários.",
+    "3. O tecido é montado no bastidor com entretela rasgável bem esticada como a pele de um tambor.",
+    "4. A máquina borda a perna inferior das cruzetas e retorna cobrindo com a perna superior.",
+    "5. As conexões entre pontos próximos são feitas por baixo ou ao longo das bordas das cruzetas.",
+    "6. A cada troca de cor, a máquina realiza o nó de arremate e o corte automático de linha.",
+    "7. Ao término, a peça revela um quadro nobre com textura quadriculada e charme rústico acolhedor."
+  ],
+  "mainTypes": [
+    "Ponto Cruz Completo (Full Cross): Cruzeta tradicional completa em formato de X com duas diagonais perfeitas.",
+    "Meio Ponto Cruz (Half Cross): Apenas uma diagonal (/), muito utilizado em fundos aquarelados e áreas de sombra suave.",
+    "Ponto Cruz Francês / Com Nó Francês (French Knot Accent): Combinação de cruzetas com pequenos nós em relevo para miolos de flores.",
+    "Ponto Atrás de Contorno (Backstitch Outline): Pespontos retos finos que contornam as figuras quadriculadas dando nitidez aos olhos e feições."
+  ],
+  "applications": [
+    "Enxovais infantis com motivos clássicos (ursinhos, coelhos, florzinhas e alfabetos nostálgicos)",
+    "Toalhas de banho e rosto com barrados florais e arabescos nobres",
+    "Quadros decorativos e tapeçarias emolduradas reproduzindo pinturas e paisagens rurais",
+    "Panos de prato de luxo com motivos de cozinha vintage e receitas estilizadas",
+    "Almofadas de estilo rústico / cottagecore em linho puro e algodão cru"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "500 a 650 PPM (velocidade moderada garante que as pontas das cruzetas entrem no mesmo furo)",
+    "needleType": "Agulha 75/11 Ponta Aguda (Sharp / Microtex) para perfurações exatas no tecido",
+    "stabilizer": "Entretela rasgável de 50 g/m² ou entretela termocolante estável para tecidos finos",
+    "density": "Tamanho da cruzeta entre 1,5 mm e 2,2 mm com 2 passadas por perna (para cobertura plena)",
+    "pullCompensation": "0,20 mm a 0,30 mm (compensação leve para evitar deformação dos quadrados)",
+    "underlay": "Sem sob-costura (as próprias cruzetas formam a estrutura do bordado)",
+    "threadTension": "Tensão superior ligeiramente equilibrada para cruzetas perfeitamente planas"
+  },
+  "advantages": [
+    "✔ Produz em 15 minutos um bordado que levaria dias de trabalho manual paciente",
+    "✔ Pode ser aplicado em qualquer tecido fino ou liso, dispensando o tecido etamine perfurado",
+    "✔ Apelo emocional fortíssimo junto a clientes que apreciam o charme do bordado clássico de família",
+    "✔ Reversibilidade visual: no avesso, as linhas formam fileiras verticais retas como o ponto cruz manual perfeito"
+  ],
+  "limitations": [
+    "Exige software com módulo de ponto cruz específico para gerar a sequência correta",
+    "Desenhos com curvas muito suaves aparecem ligeiramente pixelados devido à natureza quadriculada",
+    "Requer tecido muito bem tensionado no bastidor para evitar que os cantos das cruzes fiquem desalinhados"
+  ],
+  "commonErrors": [
+    "❌ Usar linha de alto brilho e velocidade máxima (850 PPM): o reflexo denuncia a máquina e quebra o efeito artesanal",
+    "❌ Deixar cruzetas vizinhas com orientações invertidas (umas com / por cima e outras com \\ por cima)",
+    "❌ Usar entretela muito elástica ou frouxa: as cruzetas viram retângulos tortos e perdem a geometria",
+    "❌ Fazer cruzetas grandes demais (acima de 3 mm) com apenas 1 passada: a trama do tecido fica transparente por baixo",
+    "❌ Puxar o tecido frouxo no bastidor criando desalinhamento entre cruzetas da mesma linha"
+  ],
+  "troubleshootingTips": [
+    "Se as cruzetas ficarem ralas e transparentes: altere a configuração no software para 2 ou 3 passadas de fio por perna da cruz (Double / Triple Stitch).",
+    "Se o tecido repuxar e abrir buraquinhos nos cantos da cruz: substitua a agulha por uma 70/10 Microtex bem afiada e utilize entretela rasgável dupla.",
+    "Se o bordado parecer artificial e plástico demais: experimente usar linha de algodão egípcio para bordar ou linha de poliéster com acabamento fosco (Matte Thread)."
+  ],
+  "dicaArtrelados": "O Truque da Linha Fosca (Matte Thread) e da Agulha Microtex: para que o seu ponto cruz na máquina computadorizada fique TÃO IDÊNTICO ao bordado à mão que nem mesmo a mais experiente bordadeira manual consiga notar a diferença, use linhas de poliéster com acabamento fosco (como a Frosted Matt) ou linha fina de algodão 100%! O brilho comum das linhas de poliéster normais entrega que foi feito na máquina; já a linha fosca tem exatamente a mesma textura aveludada e opaca das meadas de algodão tradicionais, resultando em peças com valor nostálgico inestimável!",
+  "voceSabia": "O ponto cruz manual é considerado uma das primeiras formas de arte em pixels do mundo! Muito antes da invenção dos computadores e das telas digitais com pixels gráficos, as bordadeiras medievais já desenhavam retratos e castelos compondo imagens através de pequenos blocos quadrados individuais formados pelas cruzetas!",
+  "practicalExercise": "Exercício de Bancada (A Toalhinha com Monograma em Ponto Cruz Digital):\n1. Selecione uma matriz de letra do alfabeto em ponto cruz geométrico (tamanho de cruzeta de 1,8 mm).\n2. Coloque um retalho de tricoline lisa bem esticada no bastidor com entretela rasgável.\n3. Coloque uma linha vermelha ou azul fosca na máquina e borde a letra em velocidade média (550 PPM).\n4. Retire a entretela do avesso e observe: veja como o avesso fica todo em risquinhos verticais perfeitos e a frente parece uma meada bordada à mão ponto por ponto!",
+  "quickSummary": "Técnica digital que recria com exatidão artesanal o tradicional ponto cruz em malha quadriculada, proporcionando o charme nostálgico das meadas com a agilidade da máquina.",
+  "relatedTerms": [
+    "Bordado Tradicional Direto / Bordado Plano (Direct Flat Embroidery)",
+    "Ponto Corrido / Ponto Reto (Running Stitch)",
+    "Ponto Semente / Ponto Areia (Seed Stitch)",
+    "Entretela Rasgável (Tearaway)",
+    "Compensação de Encolhimento (Pull Compensation)"
+  ],
+  "tags": [
+    "ponto cruz",
+    "cross stitch",
+    "ponto cruz eletronico",
+    "bordado nostagico",
+    "linha fosca",
+    "etamine digital",
+    "enxoval de bebe",
+    "artesanato digital"
+  ],
+  "updatedAt": "2026-09-28"
+}
 ];

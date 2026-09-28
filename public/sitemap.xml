@@ -1270,6 +1270,27 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Verbete: [b-bordado-trapunto-eletronico] Bordado Trapunto Eletrônico (Trapunto &amp; Raised Quilted Embroidery) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=b-bordado-trapunto-eletronico</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [b-bordado-fio-condutivo-eletronica-textil-vestivel] Bordado com Fio Condutivo e Eletrônica Têxtil Vestível (Conductive Thread &amp; E-Textiles Embroidery) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=b-bordado-fio-condutivo-eletronica-textil-vestivel</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [b-bordado-ponto-cruz-eletronico] Bordado com Ponto Cruz Eletrônico (Machine Cross Stitch &amp; Digital Tapestry) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=b-bordado-ponto-cruz-eletronico</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Verbete: [b-067-bordado-em-relevo-3d-puffy-foam] Bordado em Relevo 3D / Puffy Foam (Bordado com EVA) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=b-067-bordado-em-relevo-3d-puffy-foam</loc>
@@ -13054,6 +13075,13 @@
   <!-- Verbete: [t-110-trava-superior-barra-agulha-lingueta-retencao] Trava Superior da Barra de Agulha / Lingueta de Retenção do Ponto Morto Superior (Needle Bar Upper Latch &amp; Resting Catch Assembly) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=t-110-trava-superior-barra-agulha-lingueta-retencao</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [t-trapunto-eletronico-bordado-trapunto] Trapunto Eletrônico / Bordado Trapunto (Machine Trapunto &amp; Italian Raised Quilting) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=t-trapunto-eletronico-bordado-trapunto</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
