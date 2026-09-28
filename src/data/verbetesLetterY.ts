@@ -2134,4 +2134,321 @@ export const VERBETES_LETTER_Y: Verbete[] = [
     ],
     "updatedAt": "2026-08-30"
   }
+,
+{
+  "id": "y-yarn-feeding-system-alimentador-positivo-ativo",
+  "code": "Y-043",
+  "term": "Yarn Feeding System / Alimentador Positivo Ativo de Fios em Bordadeiras (Active Yarn Feeding & Motorized Thread Delivery)",
+  "letter": "Y",
+  "letterGroup": "Y",
+  "level": "Avançado 🔴",
+  "category": "Mecatrônica Avançada, Sistemas de Tensão & Inovação Tecnológica",
+  "grammarClass": "Locução substantiva técnica com estrangeirismo consagrado",
+  "origin": "Desenvolvido pioneiramente no Japão pela Tokai Industrial Sewing Machine Co. (Tajima) em 2021 sob o nome de i-TM (Intelligent Thread Management), e posteriormente implementado em versões industriais pela Barudan e ZSK. O sistema surgiu para superar as limitações centenárias dos discos de tensão mecânica por mola de fricção, substituindo a resistência passiva por servomotores digitais que desenrolam e entregam ativamente a quantidade milimétrica exata de linha necessária para cada ponto individual.",
+  "summary": "Sistema eletrônico que substitui os botões manuais de tensão por micromotores digitais que fornecem o comprimento exato de linha a cada ponto.",
+  "definition": "O Yarn Feeding System / Alimentador Positivo Ativo de Fios (Digitally Controlled Active Yarn Feeder / Motorized Thread Delivery) é uma tecnologia eletromecânica de ponta que elimina completamente a dependência de botões e molas de tensão de fricção manual no cabeçote da máquina de bordar. O sistema calcula, através do algoritmo da placa-mãe em tempo real, o tipo de ponto a ser executado (ponto satim, tatami ou ponto corrido), o comprimento do salto, o ângulo do pantógrafo e a espessura do substrato, acionando um micromotor de passo dedicado para desenrolar e alimentar ativamente a fração precisa de milímetro de fio para a laçada, garantindo estabilidade e uniformidade inatingíveis por sistemas passivos.",
+  "technicalDetails": "A engenharia do alimentador positivo opera sob rigorosa modelagem matemática e física: 1) Cálculo Ponto a Ponto (Feed Length Calculation): para um ponto de satim de largura L em tecido de espessura T, o sistema calcula o comprimento teórico de linha C = 2 * (L + T) * Fator_Elasticidade e comanda o micromotor de passo a girar o rolete tracionador com precisão de microssegundos no instante exato da descida do estica-fio; 2) Fim da Dependência da Habilidade do Operador: elimina a calibração manual por tentativa e erro dos botões de tensão, impedindo que operadores apertem demais ou de menos a linha entre agulhas diferentes; 3) Bordado em Materiais Desafiadores: permite bordar tecidos com variações bruscas de relevo (como costuras grossas de jeans, jaquetas acolchoadas e couro) sem que a linha estoure ou faça laços frouxos, pois o motor compensa a altura instantaneamente; 4) Redução de Tensão Residual no Tecido: como a linha não é puxada sob atrito violento através de discos metálicos, a tensão mecânica residual no tecido cai em até 40%, reduzindo drasticamente o repuxo e o franzimento em malhas finas e sedas.",
+  "beginnerExplanation": "Em todas as máquinas comuns de bordar, a linha passa no meio de dois pratinhos de metal apertados por uma molinha com um parafuso que você roda com a mão para apertar ou soltar a linha. Se você apertar muito, a linha quebra; se deixar solto, o bordado fica cheio de laços e nós horríveis no avesso! Mas as máquinas mais modernas e caras do mundo têm uma tecnologia mágica chamada Yarn Feeding System: em vez de pratinhos com mola, existe um motorzinho elétrico inteligente para cada agulha! Esse motorzinho lê a matriz no computador e empurra exatamente o pedacinho de linha que a agulha precisa para dar aquele ponto: nem um milímetro a mais, nem um a menos! Você nunca mais precisa regular botão de tensão na vida e o bordado sai perfeito como uma pintura!",
+  "characteristics": [
+    "Substitui discos de fricção por controle computadorizado por micromotores de passo",
+    "Calcula e fornece a quantidade matemática exata de linha para cada ponto individual",
+    "Elimina o franzimento em tecidos delicados ao reduzir a tensão de arraste da linha",
+    "Garante uniformidade estética absoluta entre todas as agulhas e cabeçotes da máquina",
+    "Adapta-se automaticamente a mudanças de espessura de tecido sem intervenção manual"
+  ],
+  "construction": [
+    "1. Rolo de alimentação motorizado: Cilindro emborrachado acoplado a um micromotor de passo de alta resolução",
+    "2. Rolete de pressão auxiliar: Roldana que mantém o contato firme da linha sem escorregar",
+    "3. Sensor de espessura e sensor de retorno: Detecta a compressão do calcador e a subida da linha",
+    "4. Placa controladora digital (DSP): Microprocessador que calcula o volume de linha necessário por ponto",
+    "5. Interface gráfica no painel: Permite selecionar perfis pré-programados para tecidos finos, normais ou grossos"
+  ],
+  "howItWorks": [
+    "1. A matriz de bordado é carregada no painel e o operador seleciona o tipo de tecido no sistema.",
+    "2. O processador da máquina lê as coordenadas do próximo ponto e calcula o comprimento exato de linha exigido.",
+    "3. No momento em que o estica-fio inicia a descida, o micromotor de passo aciona o rolete de alimentação.",
+    "4. A linha é entregue suavemente à agulha sem sofrer atrito de discos de mola.",
+    "5. A agulha penetra o tecido e a lançadeira captura a laçada formada com folga milimétrica controlada.",
+    "6. O estica-fio sobe recolhendo a folga e assentando o nó com perfeita suavidade no verso do material.",
+    "7. O processo se repete a até 1.200 rotações por minuto com compensação dinâmica contínua."
+  ],
+  "mainTypes": [
+    "Sistema i-TM (Intelligent Thread Management - Tajima): Medição digital completa com cálculo preditivo por ponto.",
+    "Alimentador Positivo Mecânico para Fios de Lã e Cordões (Cording/Coiling Feeders): Dispositivos auxiliares para alimentação forçada de fios grossos.",
+    "Alimentador Digital de Tensão Eletrônica Variável: Sistema híbrido com solenoides magnéticos que variam a pressão dos pratos de tensão em milissegundos.",
+    "Alimentador Ativo de Linha de Bobina: Módulo experimental avançado que controla também a saída da linha inferior na lançadeira."
+  ],
+  "applications": [
+    "Máquinas industriais eletrônicas de alta velocidade de última geração (Tajima TMEZ e similares)",
+    "Produção de alta costura e moda praia em tecidos ultrafinos com zero tolerância a repuxo",
+    "Bordados em couro legítimo, calçados e tapeçaria automotiva pesada com variações de espessura",
+    "Fábricas de grande porte que precisam de uniformidade idêntica entre dezenas de máquinas operando em paralelo",
+    "Bordados com linhas delicadas e especiais (viscose, fios metálicos e linhas de seda natural)"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "Opera com estabilidade total de 400 até 1.200 PPM",
+    "needleType": "Padrão industrial DBxK5 de calibre compatível com a linha (65/9 a 90/14)",
+    "stabilizer": "Permite usar entretelas de menor gramatura devido à menor tração mecânica sobre o tecido",
+    "density": "Densidade padrão de 0,38 mm a 0,42 mm sem necessidade de alívio por medo de repuxo",
+    "pullCompensation": "Pode ser reduzida em até 30% em comparação a máquinas com tensores mecânicos tradicionais",
+    "underlay": "Permite sob-costuras mais leves devido à excelente estabilidade do nó",
+    "threadTension": "Controlada automaticamente pelo perfil digital selecionado no painel da máquina"
+  },
+  "advantages": [
+    "✔ Elimina 95% dos erros humanos de regulagem de tensão em ateliês e indústrias",
+    "✔ Praticamente zera a quebra de linha por excesso de aperto em alta velocidade",
+    "✔ Reduz drasticamente a contração e o enrugamento de peças prontas bordadas",
+    "✔ Dá acabamento acetinado com relevo uniforme e brilho superior nas colunas de ponto cheio"
+  ],
+  "limitations": [
+    "Tecnologia patenteada disponível apenas em máquinas industriais novas de alta gama",
+    "Custo de aquisição da máquina significativamente mais elevado que modelos tradicionais",
+    "Manutenção eletrônica exige mão de obra altamente especializada e certificada pela fábrica"
+  ],
+  "commonErrors": [
+    "❌ Selecionar o perfil de tecido errado no painel (ex: selecionar tecido grosso para bordar seda): o motor entrega linha demais e afofa os pontos",
+    "❌ Deixar poeira ou resíduos de linha acumularem no rolete de alimentação emborrachado: o fio pode derrapar e descalibrar a medição",
+    "❌ Tentar passar a linha por fora do rolete motorizado: anula o funcionamento do sistema inteligente",
+    "❌ Ignorar a calibração de espessura ao trocar de sarja pesada para organza transparente",
+    "❌ Forçar a rotação manual do micromotor com a máquina ligada"
+  ],
+  "troubleshootingTips": [
+    "Se o bordado apresentar laçadas frouxas: ajuste no painel digital o parâmetro de fornecimento de fio (Feed Amount) para um valor ligeiramente mais apertado (-1 ou -2).",
+    "Se o fio estiver quebrando com facilidade em alta rotação: limpe o rolete emborrachado com pano umedecido em álcool isopropílico para restabelecer a aderência.",
+    "Se a máquina acusar erro de alimentação de linha: verifique se o cone de linha superior não está preso na base do suporte de cones."
+  ],
+  "dicaArtrelados": "O Teste de Toque Sedoso do Ponto Inteligente: se você tiver a oportunidade de visitar uma feira têxtil ou trabalhar em uma máquina equipada com alimentação positiva ativa, faça este teste com as pontas dos dedos: passe a mão sobre uma coluna de ponto cheio bordada no sistema tradicional e depois sobre a mesma coluna feita com alimentação ativa! A diferença é surpreendente: enquanto o bordado tradicional parece uma plaquinha dura e levemente áspera (pelo estiramento sob atrito da linha), o bordado com alimentação ativa tem o toque macio e flexível de uma fita de cetim natural, porque a linha descansa no tecido sem estresse mecânico!",
+  "voceSabia": "A tecnologia de alimentação ativa de linha foi inspirada nos teares computadorizados de alta precisão que fabricam os tênis esportivos de malha tridimensional (Flyknit) da indústria do calçado! A Tajima levou quase 7 anos de pesquisa de algoritmos para conseguir calcular o volume de linha em milésimos de segundo a mais de 1.000 pontos por minuto!",
+  "practicalExercise": "Exercício Conceitual (Análise de Tensão Diferencial em Matrizes de Bordado):\n1. Abra no seu software de digitalização uma letra com partes largas de 5 mm e pontas finas de 1 mm.\n2. Observe como no sistema mecânico comum a máquina usa a mesma tensão de mola para a parte grossa e fina.\n3. Calcule mentalmente: na parte de 5 mm a agulha precisa de 12 mm de fio por ponto, mas na pontinha precisa de apenas 3 mm!\n4. Entenda como o alimentador ativo varia essa entrega milissegundo a milissegundo.\n5. Nas suas máquinas convencionais, compense isso regulando a compensação de repuxo e densidade de forma gradual para simular a suavidade do sistema inteligente!",
+  "quickSummary": "Sistema computadorizado revolucionário que substitui os botões manuais de tensão por micromotores que entregam o comprimento milimétrico exato de linha exigido por cada ponto da matriz.",
+  "relatedTerms": [
+    "Tensão de Linha Superior",
+    "Tensiômetro de Linha Superior e Bobina (Togometer / Gauge)",
+    "Servomotor de Avanço dos Eixos X e Y",
+    "Estica-Fio / Alavanca Tirafio (Take-Up Lever)",
+    "Formação da Laçada da Agulha (Loop Formation)"
+  ],
+  "tags": [
+    "yarn feeding system",
+    "alimentador ativo",
+    "i-tm",
+    "tajima",
+    "mecatronica",
+    "tensao inteligente",
+    "alta tecnologia",
+    "inovacao textil"
+  ],
+  "updatedAt": "2026-09-28"
+},
+{
+  "id": "y-yarn-break-sensor-piezoeletrico-optico",
+  "code": "Y-044",
+  "term": "Yarn Break Sensor / Sensores Piezoelétricos e Ópticos de Ruptura de Linha (Piezoelectric & Optical Yarn Break Sensors)",
+  "letter": "Y",
+  "letterGroup": "Y",
+  "level": "Intermediário 🟡",
+  "category": "Eletrônica de Cabeçote, Sensores de Máquina & Diagnóstico",
+  "grammarClass": "Locução substantiva técnica com estrangeirismo consagrado",
+  "origin": "Originado nos teares circulares e teares de fiação da década de 1960 com as antigas palhetas mecânicas de gravidade (drop wires). Foi revolucionado na década de 1980 e 1990 com o desenvolvimento dos encoders ópticos rotativos de roda dentada pela Tajima e Barudan, e posteriormente com os sensores piezoelétricos de estado sólido introduzidos por fabricantes suíços e alemães (como ZSK e Eltex of Sweden), capazes de detectar a micro-vibração acústica do fio em movimento a mais de 1.200 RPM sem qualquer contato mecânico abrasivo.",
+  "summary": "Sensores eletrônicos de cabeçote que detectam a quebra da linha em menos de dois pontos, parando a máquina para evitar falhas no bordado.",
+  "definition": "O Yarn Break Sensor / Sensor de Quebra de Linha (Optical & Piezoelectric Thread Breakage Detection System) é o dispositivo sensor instalado no percurso da linha superior em cada agulha do cabeçote da máquina de bordar, cuja função é monitorar ininterruptamente o fluxo contínuo de alimentação de linha. Caso o fio se rompa, acabe no cone ou a bobina inferior esgote, o sensor envia um sinal elétrico de interrupção imediata à placa-mãe da máquina em menos de 50 milissegundos, parando a operação em até 2 pontos e acionando o alarme luminoso de cabeçote, evitando que a máquina continue bordando a seco e danifique a peça.",
+  "technicalDetails": "A física de sensoriamento dos detectores de quebra de linha abrange duas arquiteturas dominantes: 1) Sensores Ópticos Rotativos (Chopper Wheel Encoders): a linha passa por uma polia ranhurada com uma rodinha dentada acoplada; o movimento linear do fio faz a polia girar, cortando o feixe de um fototransistor infravermelho e gerando um trem de pulsos de onda quadrada; se a controladora da máquina contar 2 a 3 descidas de agulha sem pulsos ópticos correspondentes, aciona a parada imediata; 2) Sensores Piezoelétricos Cerâmicos (Piezo Vibration Sensors): a linha corre em contato direto com uma pastilha de cerâmica piezoelétrica; o atrito microscópico natural das fibras do fio em alta velocidade gera uma micro-vibração que a cerâmica converte em mili-volts (mV) de sinal AC; se o fio quebrar, a vibração cessa instantaneamente e a máquina para sem a inércia mecânica de rodinhas; 3) Sensibilidade Configurável no Software: o limiar de sensibilidade (sensibility threshold) pode ser ajustado no painel de 1 a 7; valores muito sensíveis disparam falsos alarmes em pontos curtíssimos; valores muito baixos fazem a máquina demorar 5 a 10 pontos para parar após a quebra.",
+  "beginnerExplanation": "Sabe quando você está bordando e de repente a linha arrebenta, mas a máquina é tão esperta que dá um apito, acende uma luzinha vermelha na agulha e para na mesma hora para você emendar o fio? Isso só acontece por causa do Yarn Break Sensor! É o \"olho mágico\" da máquina de bordar. Ele fica espiando a linha correndo o tempo todo. Se a linha parar de correr porque quebrou ou o cone acabou, o sensor avisa a máquina num piscar de olhos e manda o motor parar antes de deixar um buraco feio no bordado! Sem esse sensor, a máquina ficaria batendo a agulha a seco no tecido sem linha, furando a roupa à toa!",
+  "characteristics": [
+    "Para a máquina automaticamente em menos de 2 a 3 pontos após a ruptura do fio",
+    "Acende indicador luminoso colorido (LED de cabeçote) apontando a agulha exata com problema",
+    "Funciona por leitura óptica de rotação ou detecção piezoelétrica de vibração microscópica",
+    "Permite ajuste de sensibilidade no painel para diferentes tipos e espessuras de linha",
+    "Indispensável para que um único operador consiga supervisionar múltiplas cabeças simultaneamente"
+  ],
+  "construction": [
+    "1. Polia guia de linha ou pastilha cerâmica sensora de atrito",
+    "2. Roda codificadora perfurada (em sensores ópticos) ou cristal piezoelétrico (em sensores eletrônicos)",
+    "3. Emissor e receptor infravermelho de precisão micrométrica",
+    "4. Plaqueta de circuito com amplificador operacional de sinal",
+    "5. Cabo de comunicação serial conectado à placa-mãe de distribuição do cabeçote"
+  ],
+  "howItWorks": [
+    "1. O fio é passado ao redor da polia sensora com uma volta completa de ancoragem.",
+    "2. A máquina inicia o bordado e o fio é tracionado a cada ciclo da agulha.",
+    "3. A polia gira continuamente, gerando pulsos de luz infravermelha detectados pelo fototransistor.",
+    "4. A placa processadora compara os pulsos do sensor com o sensor de ângulo do eixo principal (encoder de graus).",
+    "5. Se a linha arrebentar, a polia para de girar instantaneamente.",
+    "6. O circuito detecta a ausência de pulsos e envia o sinal de interrupção (Thread Break Signal).",
+    "7. Os freios eletromagnéticos param o motor principal, o pantógrafo congela e a luz vermelha acende no cabeçote."
+  ],
+  "mainTypes": [
+    "Sensor Óptico de Roldana Dentada (Standard Wheel Encoder): O mais popular em máquinas industriais e comerciais de todas as marcas.",
+    "Sensor Piezoelétrico de Fio Estático (Eltex Piezo System): Não possui partes móveis; detecta o som da fricção do fio em cerâmica de alta sensibilidade.",
+    "Sensor Eletrônico de Mola Tira-Fio (Drop Wire Contact Sensor): Sistema clássico com contato elétrico na mola tensora acionado quando a linha relaxa.",
+    "Sensor Óptico de Linha de Bobina: Sensor infravermelho instalado sob a chapa da agulha que detecta a ausência da linha branca inferior."
+  ],
+  "applications": [
+    "Presente em 100% das máquinas industriais e domésticas modernas de bordar",
+    "Operações em indústrias com regime 24/7 onde operadores cuidam de 10 a 20 cabeçotes",
+    "Bordados em peças de alto valor (jaquetas de couro e vestidos de festa) onde pontos perdidos arruínam a peça",
+    "Diagnóstico técnico de escorregamento de linha e descalibração de passagens de fio",
+    "Monitoramento de produção e contagem automática de paradas por turno (OEE)"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "Opera com confiabilidade absoluta de 200 a 1.200 PPM",
+    "needleType": "Compatível com todos os calibres de agulhas",
+    "stabilizer": "Não afeta diretamente o sensor, mas pó de entretelas baratas exige limpeza mais frequente",
+    "density": "Padrão; em pontos de satim muito densos o sensor responde com máxima precisão",
+    "pullCompensation": "Padrão",
+    "underlay": "Padrão",
+    "threadTension": "A linha deve ter tensão mínima suficiente para girar a polia sensora sem derrapar"
+  },
+  "advantages": [
+    "✔ Impede que a máquina borde vazia, evitando a perda de minutos preciosos rebobinando a matriz",
+    "✔ Protege o tecido contra perfurações desnecessárias da agulha sem linha",
+    "✔ Reduz a fadiga visual do operador, que não precisa vigiar fixamente cada agulha",
+    "✔ Alerta imediatamente sobre o fim do carretel de linha ou desfiamento precoce"
+  ],
+  "limitations": [
+    "Poeira de algodão e fiapos acumulados podem bloquear a lente do sensor óptico gerando falsos alarmes",
+    "Linhas muito finas ou escorregadias (como monofilamento) podem deslizar na polia sem fazê-la girar",
+    "Se o operador esquecer de dar a volta completa na roldana, o sensor não funcionará"
+  ],
+  "commonErrors": [
+    "❌ Passar a linha reta pelo sensor sem dar a volta completa na roldana: o fio desliza sem girar a roda e a máquina acusa erro falso de quebra de linha",
+    "❌ Soprar ar comprimido direto na lente óptica: empurra fiapos para o interior do sensor e queima o circuito fototransistor",
+    "❌ Ajustar a sensibilidade no máximo (nível 7) para fios grossos: a máquina para em falso a cada curva",
+    "❌ Deixar óleo lubrificante respingar no sensor de quebra: engordura a lente e cega a leitura infravermelha",
+    "❌ Ignorar a luz vermelha de alerta e forçar o reinício da máquina sem recolocar a linha"
+  ],
+  "troubleshootingTips": [
+    "Se a máquina parar acusando quebra de linha mas a linha estiver perfeita: limpe a fresta da roldana com um pincel macio seco ou cotonete para retirar fiapos que estejam tapando o sensor óptico.",
+    "Se a linha arrebentar e a máquina demorar 10 pontos para parar: aumente a sensibilidade do sensor de quebra no menu de parâmetros do painel.",
+    "Se o sensor falhar apenas com linha metalizada: certifique-se de que a linha está fazendo pressão suficiente contra a roldana de borracha sem escorregar."
+  ],
+  "dicaArtrelados": "O Truque da Meia-Volta Extra na Roldana do Sensor: quando você estiver trabalhando com linhas de viscose ultra-escorregadias, fios metálicos ou linhas de poliéster 60wt muito finas, a linha pode deslizar na rodinha do sensor sem tracionar a borracha, fazendo a máquina apitar acusando \"Quebra de Fio\" mesmo com a linha inteira! O segredo de ateliê Artrelados é dar uma volta e meia (uma laçada extra) na polia do sensor antes de descer para a mola tira-fio! Isso cria atrito de contato suficiente para a rodinha girar perfeitamente, acabando com 100% dos falsos alarmes!",
+  "voceSabia": "Nas primeiras máquinas automáticas de bordar da década de 1970, o sensor de quebra era uma arruela de metal suspensa pela própria linha! Se a linha arrebentasse, a arruela caía pelo peso da gravidade e tocava em uma barra de cobre embaixo, fechando um curto-circuito de 12 volts que acionava uma buzina barulhenta na fábrica!",
+  "practicalExercise": "Exercício de Bancada (Teste de Sensibilidade do Sensor de Linha da sua Máquina):\n1. Inicie um bordado de teste em velocidade média (700 PPM).\n2. Com a máquina em movimento e usando uma tesourinha de arremate, corte a linha superior a 20 cm acima da agulha.\n3. Conte quantos pontos a máquina dá até parar completamente: uma máquina calibrada deve parar em no máximo 2 a 3 pontos.\n4. Se a máquina deu mais de 5 pontos vazios furando o tecido, entre nas configurações do painel da sua máquina e aumente a sensibilidade do sensor em 1 ponto.\n5. Repita o teste até a resposta ser instantânea!",
+  "quickSummary": "Sensores de alta velocidade (ópticos ou piezoelétricos) que monitoram o movimento contínuo da linha e interrompem a máquina em milissegundos se o fio arrebentar ou acabar.",
+  "relatedTerms": [
+    "Mola Tira-Fio / Mola de Retorno do Cabeçote (Check Spring)",
+    "Estica-Fio / Alavanca Tirafio (Take-Up Lever)",
+    "Tensão de Linha Superior",
+    "Encoder Angular do Eixo Principal (Main Shaft Degree Encoder)",
+    "Painel de Comando e Interface Homem-Máquina (IHM)"
+  ],
+  "tags": [
+    "yarn break sensor",
+    "sensor de quebra de linha",
+    "optico",
+    "piezoeletrico",
+    "eletronica de bordado",
+    "seguranca operacional",
+    "dica de atelie",
+    "manutencao preventiva"
+  ],
+  "updatedAt": "2026-09-28"
+},
+{
+  "id": "y-yarn-count-metric-nm-tex-denier-metrologia",
+  "code": "Y-045",
+  "term": "Yarn Count Metric (Nm) vs. Tex vs. Denier na Seleção de Linhas de Bordar (Yarn Metrology & Numbering Systems)",
+  "letter": "Y",
+  "letterGroup": "Y",
+  "level": "Avançado 🔴",
+  "category": "Metrologia Têxtil, Titulação de Fios & Engenharia de Materiais",
+  "grammarClass": "Locução substantiva técnica com termos internacionais consagrados",
+  "origin": "Da evolução histórica da metrologia têxtil global unificada pela ISO (International Organization for Standardization) na norma ISO 1144 (\"Textiles — Universal system for designating linear density / Tex System\") a partir de 1973. O sistema unificou os antigos padrões empíricos regionais: o sistema inglês de algodão (Ne / Number English), o sistema métrico europeu (Nm / Número Métrico) e o sistema francês de seda e fibras sintéticas (Denier), estabelecendo a correlação com as designações comerciais de bordado (como 40wt, 60wt e 75wt).",
+  "summary": "Sistemas científicos de titulação que medem a espessura e peso linear dos fios de bordar, permitindo escolher a agulha e densidade perfeitas.",
+  "definition": "O Yarn Count Metric (Nm) vs. Tex vs. Denier na Seleção de Linhas de Bordar (Textile Yarn Count & Linear Density Numbering Systems) é a base metrológica da engenharia têxtil que define matematicamente a relação entre o comprimento e a massa (peso) dos fios de bordar. Compreender essas escalas é indispensável para que o profissional de bordado saiba selecionar com exatidão científica a densidade da matriz no software CAD e o calibre da agulha na máquina: sistemas de titulação direta (como Tex e Denier, onde quanto maior o número, mais grosso é o fio) versus sistemas de titulação indireta (como Nm e Weight/wt, onde quanto maior o número, mais fino é o fio).",
+  "technicalDetails": "A física da metrologia linear e as fórmulas de conversão internacional regem as especificações de bordado: 1) Sistema Tex (Titulação Direta Universal ISO): define a massa em gramas de 1.000 metros de fio (Tex = massa(g) / comprimento(km)); a linha padrão de bordado 40wt equivale a aproximadamente Tex 27 (ou 270 dtex); 2) Sistema Denier (Titulação Direta para Filamentos Contínuos): define a massa em gramas de 9.000 metros de fio (Denier = 9 * Tex); a linha de bordado comum de poliéster 40wt é normalmente fabricada com filamentos 120D/2 (dois cabos de 120 Denier torcidos, totalizando 240 Denier efetivos); 3) Sistema Métrico Nm (Titulação Indireta): define quantos metros de fio pesam exatamente 1 grama (Nm = Comprimento(m) / Massa(g)); a linha 40wt padrão equivale a Nm 75/2 (dois cabos com 75 metros por grama cada); 4) Padrão Weight (wt): classificação comercial clássica derivada do sistema de meadas de algodão; quanto maior o número wt, mais fino é o fio: 40wt (linha padrão universal para agulha 75/11 e densidade 0,40 mm); 60wt (linha fina para micro-letras e detalhes com agulha 65/9 e densidade 0,30 mm); 75wt ou 80wt (linha ultrafina para monogramas minúsculos com agulha 55/7).",
+  "beginnerExplanation": "Quando você vai comprar linha de bordar, quase sempre vê escrito na etiqueta o número \"40\" ou \"40wt\", e quando compra linha fininha para letrinhas de 3 milímetros vê escrito \"60wt\". Mas você sabia que esses números têm fórmulas matemáticas universais por trás? Existem países e indústrias que medem a linha pelo sistema Tex, outros pelo sistema Denier e outros pelo Número Métrico (Nm)! O segredo mais importante que você precisa guardar é muito simples: no sistema do bordado (wt), quanto MAIOR o número, mais FININHA é a linha! A linha 60 é mais fina que a 40, e a linha 75 é mais fina que a 60! Entender isso faz você saber na hora qual agulha colocar e quantos pontinhos colocar no computador sem arrebentar linha nem criar bolos duros no tecido!",
+  "characteristics": [
+    "Padronização científica internacional regulada pela norma global ISO 1144",
+    "Permite calcular o consumo exato em quilogramas de linha por milhão de pontos",
+    "Determina a escolha geométrica milimétrica do olho da agulha (o olho deve ter 40% a mais que o diâmetro do fio)",
+    "Define a calibragem ideal da distância entre linhas (densidade) no software de digitalização",
+    "Garante a reprodutibilidade de cores e texturas em encomendas de grandes corporações multinacionais"
+  ],
+  "construction": [
+    "1. Cabos estruturais primários (Single Yarns): Filamentos extrudados individuais de poliéster ou viscose",
+    "2. Fator de torção e união (Ply Count): Número de cabos unidos (ex: /2 para dois cabos torcidos em Z)",
+    "3. Densidade linear direta: Massa aferida em balança de precisão têxtil milesimal",
+    "4. Comprimento de amostra padrão: Carretel medidor com 1.000 metros aferidos em rolo calibrado",
+    "5. Tabela de correlação direta entre escalas (Tex, Denier, Nm, Cotton Count e Commercial Weight)"
+  ],
+  "howItWorks": [
+    "1. O digitalizador analisa o tamanho dos elementos da matriz: se houver letras com menos de 4 mm, seleciona a linha 60wt em vez da 40wt.",
+    "2. No laboratório de controle de qualidade, pesam-se amostras em balança de precisão para verificar a titulação Tex.",
+    "3. No software de bordado, ajusta-se a densidade de preenchimento proporcionalmente ao Tex do fio (0,40 mm para Tex 27 e 0,28 mm para Tex 18).",
+    "4. Na máquina de bordar, o operador consulta a tabela de metrologia e instala a agulha com diâmetro correspondente.",
+    "5. A linha corre com folga ideal de 40% dentro do olho da agulha, sem sofrer esmagamento.",
+    "6. O bordado é executado com preenchimento óptico perfeito sem deixar o tecido transparecer.",
+    "7. A peça atinge a maciez tátil e a durabilidade mecânica exigidas pelas normas técnicas internacionais."
+  ],
+  "mainTypes": [
+    "Linha 40wt (Tex 27 / Denier 240 / Nm 75/2): O padrão universal de ouro do bordado para 90% dos trabalhos gerais.",
+    "Linha 60wt (Tex 18 / Denier 160 / Nm 110/2): Fio fino especial para pequenos textos, contornos nítidos e detalhes de rostos.",
+    "Linha 75wt / 80wt (Tex 12 / Denier 110 / Nm 160/2): Fio ultrafino para microletras de 2 mm a 3 mm em uniformes corporativos.",
+    "Linha 30wt (Tex 35 / Denier 320 / Nm 55/2): Fio grosso de destaque rústico, semelhante à costura jeans e pesponto visual.",
+    "Linha 12wt (Tex 80 / Denier 720 / Nm 25/2): Fio extrapesado com efeito de bordado à mão, que exige agulha 100/16 e baixa velocidade."
+  ],
+  "applications": [
+    "Seleção técnica de agulhas e linhas para bordados de alta definição e micro-letras corporativas",
+    "Cálculo de custo de produção e consumo de linha por matriz em ateliês e indústrias de confecção",
+    "Elaboração de fichas técnicas para auditorias de exportação e controle de qualidade ISO 9001",
+    "Ajuste fino de densidade e compensação de repuxo em softwares CAD (Wilcom, Pulse, Embird)",
+    "Treinamento profissional de operadores e programadores de matrizes de bordado"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "Linhas 40wt: até 1.000 PPM; Linhas 60wt: 750 a 850 PPM; Linhas grossas 30wt/12wt: 550 a 650 PPM",
+    "needleType": "Linha 40wt: Agulha 75/11; Linha 60wt: Agulha 65/9; Linha 75wt: Agulha 55/7 ou 60/8; Linha 30wt: Agulha 90/14",
+    "stabilizer": "Adequado ao tecido e ao peso linear da linha selecionada",
+    "density": "Linha 40wt: 0,40 mm; Linha 60wt: 0,28 a 0,30 mm; Linha 30wt: 0,55 a 0,65 mm",
+    "pullCompensation": "Mais alta em fios grossos (0,35 mm) e menor em fios finos (0,20 mm)",
+    "underlay": "Reduzido em fios grossos para não criar excesso de camadas; reforçado em fios finos",
+    "threadTension": "Fios 60wt exigem tensões mais suaves para não esticar a fibra ultrafina"
+  },
+  "advantages": [
+    "✔ Elimina erros crassos de usar agulha grossa demais para fios finos ou agulha fina que esmaga o fio",
+    "✔ Permite bordar letras microscópicas de 2 mm perfeitamente legíveis usando fio 60wt ou 75wt",
+    "✔ Economiza linha ao programar a densidade matematicamente correta sem pontos redundantes",
+    "✔ Garante que o bordado fique macio e maleável, sem a rigidez de excesso de material"
+  ],
+  "limitations": [
+    "A variedade de escalas históricas diferentes (Tex, Denier, Nm, wt) pode confundir profissionais iniciantes",
+    "Linhas ultrafinas 60wt e 75wt têm menor resistência absoluta à tração e exigem máquinas bem lubrificadas",
+    "Fios especiais grossos (30wt ou 12wt) exigem troca de chapa de agulha com furo maior"
+  ],
+  "commonErrors": [
+    "❌ Tentar bordar letras de 3 mm usando linha comum 40wt com agulha 75/11: o olho das letras fecha e o texto vira um borrão",
+    "❌ Trocar a linha de 40wt para 60wt na máquina sem reduzir o espaçamento no programa: o bordado fica ralo e com o tecido aparecendo",
+    "❌ Usar linha 60wt com agulha 90/14: o furo aberto pela agulha é maior que o próprio fio, criando furos feios",
+    "❌ Confundir escalas e achar que fio 60wt é mais grosso que 40wt: estraga o bordado e arrebenta a linha",
+    "❌ Usar a mesma tensão de linha pesada em carretel de linha 75wt: o fio arrebenta antes de dar 5 pontos"
+  ],
+  "troubleshootingTips": [
+    "Se as letras pequenas estiverem virando borrões sem leitura: troque a linha daquela agulha por fio 60wt, instale uma agulha 65/9 e reduza a densidade para 0,30 mm no software.",
+    "Se a linha grossa estiver desfiando na entrada da agulha: a agulha está fina demais para o Tex da linha; instale uma agulha de calibre 90/14 com canaleta ampla (Topstitch).",
+    "Se o bordado estiver duro como papelão: a densidade da matriz foi programada com espaçamento de linha 60wt, mas executada com linha 40wt grossa na máquina."
+  ],
+  "dicaArtrelados": "A Tabela de Ouro das Três Duplas Perfeitas no Ateliê: guarde na parede do seu ateliê a regra mais valiosa da metrologia de bordado: 1) Trabalho Geral e Logotipos Normais: Linha 40wt + Agulha 75/11 + Densidade 0,40 mm; 2) Microletras de Uniformes e Detalhes Finos: Linha 60wt + Agulha 65/9 + Densidade 0,30 mm; 3) Pespontos Rústicos e Efeito Manual: Linha 30wt + Agulha 90/14 + Densidade 0,60 mm! Seguindo rigorosamente essa matemática simples, nunca mais um bordado seu vai ficar ralo ou duro!",
+  "voceSabia": "A unidade \"Denier\" tem uma origem poética e histórica francesa: ela era o peso de uma moeda de prata cunhada na França medieval chamada \"denier\"! Um único fio de seda natural pura com 9.000 metros de comprimento pesava exatamente o mesmo que uma daquelas moedinhas: cerca de 1 grama!",
+  "practicalExercise": "Exercício de Laboratório (O Teste da Microletra de 3 Milímetros):\n1. No seu software de bordado, escreva o nome \"Artrelados\" com apenas 3,5 mm de altura.\n2. Borde o primeiro arquivo em sarja com linha normal 40wt e agulha 75/11.\n3. Agora altere a densidade para 0,30 mm no programa, troque a agulha da máquina para 65/9 e coloque um cone de linha 60wt.\n4. Borde o segundo arquivo logo abaixo do primeiro.\n5. Pegue uma lupa e compare: veja a nitidez cristalina, os cantos perfeitos e a elegância incomparável da linha 60wt! Você nunca mais fará letras pequenas com linha grossa!",
+  "quickSummary": "Metrologia têxtil comparada que correlaciona os sistemas de peso e espessura linear dos fios (wt, Tex, Denier e Nm), guiando a escolha perfeita de agulhas e densidades na matriz.",
+  "relatedTerms": [
+    "Densidade de Ponto / Densidade Linear (Stitch Density)",
+    "Calibres e Numerações de Agulha (Needle Sizing)",
+    "Fio de Alta Tenacidade / Linha de Poliéster Trilobal",
+    "Letras Pequenas / Micro-Lettering Digitizing Rules",
+    "Normas Técnicas Globais de Conformidade e Segurança Têxtil no Bordado"
+  ],
+  "tags": [
+    "yarn count",
+    "tex",
+    "denier",
+    "numero metrico nm",
+    "weight 40wt 60wt",
+    "metrologia textil",
+    "microletras",
+    "agulhas e fios"
+  ],
+  "updatedAt": "2026-09-28"
+}
 ];
