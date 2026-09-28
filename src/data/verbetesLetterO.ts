@@ -7035,4 +7035,426 @@ export const VERBETES_LETTER_O: Verbete[] = [
     ],
     "updatedAt": "2026-09-16"
   }
+,
+{
+  "id": "o-ortogonalidade-eixos-x-y-pantografo-calibracao-esquadro",
+  "code": "O-000",
+  "term": "Ortogonalidade dos Eixos X e Y do Pantógrafo e Calibração de Esquadro (Pantograph X/Y Orthogonality & Squareness Alignment)",
+  "letter": "O",
+  "letterGroup": "O",
+  "level": "Avançado 🔴",
+  "category": "Mecânica de Precisão, Cinemática do Pantógrafo & Metrologia",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Do grego \"orthos\" (reto) e \"gonia\" (ângulo), termo consolidado na geometria euclidiana e na engenharia mecânica de máquinas-ferramenta CNC na década de 1970. Com o surgimento dos pantógrafos industriais acionados por servomotores independentes nos eixos X (transversal) e Y (longitudinal) desenvolvidos pela Tajima, Barudan e ZSK nas décadas de 1980 e 1990, a ortogonalidade tornou-se o parâmetro geométrico supremo para garantir que movimentos em ângulo reto mantenham exatos 90,00° sem distorção angular ou paralelogramo.",
+  "summary": "Calibração metrológica do ângulo de 90° exato entre os eixos X e Y do pantógrafo para evitar que círculos virem elipses e contornos fiquem desalinhados.",
+  "definition": "A Ortogonalidade dos Eixos X e Y do Pantógrafo e Calibração de Esquadro (Pantograph X/Y Orthogonality & Squareness Calibration) é o ajuste micrométrico do ângulo geométrico formado pelas guias lineares e correias sincronizadoras do carro transportador do bastidor. Quando os eixos X e Y perdem a ortogonalidade perfeita de 90° (por desgaste de rolamentos, afrouxamento de parafusos de fixação ou impactos mecânicos no bastidor), a máquina passa a sofrer do fenômeno da \"losangulação\": matrizes perfeitamente quadradas são bordadas como losangos (paralelogramos), círculos geométricos deformam-se em elipses diagonais e contornos de ponto cheio (satin) desencaixam sistematicamente do preenchimento tatami.",
+  "technicalDetails": "A metrologia da ortogonalidade do pantógrafo exige precisão de centésimos de milímetro: 1) Tolerância Geométrica Angular: o desvio máximo admissível na maioria das máquinas industriais multi-cabeçotes é de 0,05 mm a cada 500 mm de curso útil; 2) Método do Esquadro Mestre e Relógio Comparador: fixa-se um esquadro retificado de granito ou aço temperado na mesa da máquina, posiciona-se a ponta de contato de um relógio comparador milesimal no carro do bastidor e desloca-se o pantógrafo no eixo X (zerando o relógio) e depois no eixo Y (medindo a deflexão angular direta); 3) Ajuste de Calço e Acoplamento Cônico: o paralelismo e esquadro são corrigidos ajustando-se as buchas excêntricas das guias lineares ou folgando os parafusos de acoplamento da travessa Y em relação aos mancais do eixo X; 4) Diferença entre Folga de Correia e Perda de Ortogonalidade: a folga de correia (backlash) gera histerese reversa na troca de direção, enquanto a perda de ortogonalidade gera deformação angular contínua e monótona independente do sentido de costura.",
+  "beginnerExplanation": "Já aconteceu de você bordar um círculo perfeito no computador e, quando a máquina termina, ele fica meio oval e o contorno preto não encaixa na cor de dentro, ficando torto para o lado? Muitas pessoas acham que a culpa é da linha ou do tecido, mas na verdade a máquina pode estar \"fora de esquadro\"! O pantógrafo (aquele braço mecânico de metal que segura o bastidor e mexe para a frente, para trás e para os lados) precisa fazer uma cruz de 90 graus perfeitinha, como o canto de uma parede ou o esquadro de um marceneiro. Se essa estrutura entortar um milímetro por causa de uma batida ou de um parafuso frouxo, tudo o que a máquina bordar vai sair levemente inclinado como a Torre de Pisa! Calibrar o esquadro da máquina é deixá-la 100% reta de novo!",
+  "characteristics": [
+    "Garante simetria perfeita em mandalas, brasões circulares, brasões militares e peças de alta precisão",
+    "Elimina o desencaixe sistemático entre contornos de satim e blocos de preenchimento tatami",
+    "Essencial em máquinas de campo longo e máquinas de múltiplas cabeças (gang embroidery)",
+    "Medido com instrumentos de calibração metrológica (relógio comparador e esquadro retificado)",
+    "Previne esforço torcional nos fusos de esferas e guias lineares de deslizamento"
+  ],
+  "construction": [
+    "1. Guia linear do eixo X: Trilho transversal retificado em aço temperado com rolamentos de esferas recirculantes",
+    "2. Guias lineares do eixo Y: Trilhos longitudinais paralelos instalados nas laterais da bancada",
+    "3. Travessa de conexão rígida: Viga de duralumínio estrutural que une os carros X e Y",
+    "4. Parafusos de fixação micrométrica com calços calibrados (shims) para correção angular",
+    "5. Sensores ópticos de fim de curso (limit switches) e ponto zero de referência mecânica (Home)"
+  ],
+  "howItWorks": [
+    "1. Desliga-se a máquina e retira-se o bastidor e tampas de proteção das guias lineares.",
+    "2. Posiciona-se um esquadro mestre metálico de 500 mm x 500 mm fixado à mesa plana da máquina.",
+    "3. Monta-se um relógio comparador com base magnética conectado ao cabeçote do pantógrafo.",
+    "4. Movimenta-se manualmente ou pelo teclado o pantógrafo ao longo da borda de 500 mm do eixo X, alinhando a leitura em zero.",
+    "5. Comanda-se o pantógrafo para percorrer a régua perpendicular do eixo Y: se o ponteiro do relógio oscilar além de 0,05 mm, há erro de ortogonalidade.",
+    "6. Soltam-se os parafusos de travamento da viga transversal e bate-se suavemente com martelo de náilon até o relógio zerar.",
+    "7. Aperta-se os parafusos em cruz com torquímetro calibrado e borda-se um quadrado-teste de verificação de 200 mm x 200 mm."
+  ],
+  "mainTypes": [
+    "Calibração de Esquadro Mecânica Física: Ajuste manual do paralelismo e aperto de mancais em trilhos lineares.",
+    "Compensação Eletrônica de Ortogonalidade por Software (Skew Compensation): Recurso de controladores avançados que compensa matematicamente o desvio angular por interpolação vetorial nos servomotores.",
+    "Calibração a Laser com Célula Dupla: Sistema óptico industrial avançado utilizado em montagem de fábricas para alinhamento em frações de segundo.",
+    "Teste do Quadrado de Verificação em Sarja: Método empírico de ateliê que mede as duas diagonais de um quadrado bordado com paquímetro digital."
+  ],
+  "applications": [
+    "Manutenção preventiva semestral de máquinas industriais de bordar de 1 a 24 cabeçotes",
+    "Bordado de alta precisão em escudos e patches de segurança pública e forças armadas",
+    "Confecção de mandalas geométricas e composições simétricas de moda e alta costura",
+    "Recuperação mecânica após travamento severo do pantógrafo por colisão com objetos estranhos",
+    "Instalação e nivelamento de novas máquinas no piso do ateliê industrial"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "Não se aplica à calibração (executada a 0 PPM); após calibrado, opera perfeitamente até 1.200 PPM",
+    "needleType": "Padrão de produção (DBxK5 calibre 75/11)",
+    "stabilizer": "Entretela pesada de algodão ou sarja sem elasticidade para testes metrológicos",
+    "density": "Padrão de matriz para testes de diagnóstico geométrico",
+    "pullCompensation": "Calibrada igualmente nos sentidos vertical e horizontal",
+    "underlay": "Grade ortogonal cruzada a 90° perfeita",
+    "threadTension": "Balanceamento simétrico em ambos os eixos"
+  },
+  "advantages": [
+    "✔ Contornos e detalhes externos encaixam milimetricamente no desenho sem vazamentos de cor",
+    "✔ Peças com formatos geométricos (quadrados, triângulos, círculos) mantêm simetria perfeita",
+    "✔ Reduz consideravelmente o desgaste prematuro de guias lineares e correias dentadas",
+    "✔ Aumenta a velocidade útil da máquina sem perda de definição gráfica"
+  ],
+  "limitations": [
+    "Exige instrumentação técnica metrológica (relógio comparador e esquadro de precisão)",
+    "Requer conhecimento mecânico e técnico para soltura e torque de parafusos estruturais",
+    "Impactos violentos ou movimentação incorreta do bastidor podem descalibrar o ajuste ao longo do tempo"
+  ],
+  "commonErrors": [
+    "❌ Tentar corrigir um pantógrafo fora de esquadro alterando a matriz no software: a distorção se agrava em outros tamanhos",
+    "❌ Bater no pantógrafo com martelo de ferro: amassa as guias de precisão e deforma os rolamentos de esferas",
+    "❌ Puxar o bastidor com força lateral enquanto a máquina está ligada: força as correias dentadas e desalinha o eixo Y",
+    "❌ Ignorar a verificação periódica das diagonais: descobre-se o erro apenas quando uma encomenda inteira é rejeitada",
+    "❌ Nivelar o esquadro sem conferir o nivelamento prévio dos pés de apoio da máquina no solo"
+  ],
+  "troubleshootingTips": [
+    "Se o contorno de satim estiver sempre escapando para o canto superior direito: meça as diagonais de um quadrado teste para confirmar erro de ortogonalidade.",
+    "Se as duas diagonais do quadrado teste tiverem mais de 1,0 mm de diferença: chame assistência técnica especializada para esquadrejamento com relógio comparador.",
+    "Se a máquina perder o esquadro repentinamente: verifique se não houve colisão de bastidor contra a barra da agulha durante um deslocamento rápido."
+  ],
+  "dicaArtrelados": "O Teste das Duas Diagonais com Paquímetro Digital: você não precisa de um relógio comparador de laboratório para saber se a sua máquina está perfeitamente no esquadro! Programe no seu software um quadrado simples em ponto corrido medindo exatamente 150 mm x 150 mm. Borde em um pedaço de entretela grossa ou sarja dura bem esticada. Pegue um paquímetro digital e meça a distância entre os cantos: da ponta superior esquerda à inferior direita (diagonal 1), e da ponta superior direita à inferior esquerda (diagonal 2). Pelo Teorema de Pitágoras, ambas as diagonais DEVEM medir exatamente 212,13 mm! Se uma diagonal der 214 mm e a outra 210 mm, seu pantógrafo está desalinhado em quase 2 mm! Esse teste simples revela a saúde geométrica da sua máquina em 2 minutos!",
+  "voceSabia": "Nas fábricas de máquinas de bordar de elite no Japão e na Alemanha, os técnicos montam e aferem a ortogonalidade do pantógrafo em salas de metrologia com temperatura rigidamente controlada a 20°C! Isso porque uma variação de apenas 5°C de calor na oficina pode expandir a barra de alumínio do pantógrafo em vários centésimos de milímetro, alterando sutilmente a leitura dos instrumentos!",
+  "practicalExercise": "Exercício de Oficina (Auditando a Geometria da sua Máquina):\n1. Desenhe no seu software um quadrado de 10 cm x 10 cm com linhas em ponto corrido.\n2. Borde o desenho em um feltro firme montado no bastidor.\n3. Meça os 4 lados com régua de metal: confirme se todos têm 100 mm.\n4. Meça as duas diagonais com paquímetro digital: anote os dois números.\n5. Calcule a diferença entre as duas diagonais: se a diferença for menor que 0,3 mm, sua máquina está de parabéns! Se for maior que 1,0 mm, seus eixos precisam de calibração de esquadro!",
+  "quickSummary": "Alinhamento angular rigoroso de 90° entre os eixos X e Y do pantógrafo mecânico, indispensável para que as formas bordadas mantenham perfeita simetria e os contornos encaixem com precisão milimétrica.",
+  "relatedTerms": [
+    "Pantógrafo e Sistema de Movimentação X/Y",
+    "Servomotor de Avanço dos Eixos X e Y",
+    "Origem Absoluta de Coordenadas da Máquina (Machine Home Position)",
+    "Nivelamento e Alinhamento do Bastidor",
+    "Folga Mecânica (Backlash)"
+  ],
+  "tags": [
+    "ortogonalidade",
+    "pantografo",
+    "eixos x e y",
+    "calibracao de esquadro",
+    "geometria",
+    "mecanica de precisao",
+    "losangulacao",
+    "manutencao preventiva"
+  ],
+  "updatedAt": "2026-09-28"
+},
+{
+  "id": "o-oximetria-textil-bordados-biomedicos-monitoramento-cardiaco",
+  "code": "O-000",
+  "term": "Oximetria Têxtil e Bordados Biomédicos de Monitoramento Cardíaco (Textile Oximetry & Biosensing Medical Embroidery)",
+  "letter": "O",
+  "letterGroup": "O",
+  "level": "Avançado 🔴",
+  "category": "Bordados Técnicos, E-Textiles & Dispositivos Biomédicos",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Da evolução da tecnologia de fotopletismografia (PPG) inventada na década de 1930 e miniaturizada nos anos 1970 para os oxímetros de dedo de LED duplo (luz vermelha a 660 nm e infravermelha a 940 nm). Entre 2015 e 2020, centros de pesquisa médica e engenharia têxtil (como os Institutos Fraunhofer na Alemanha e o Instituto de Tecnologia da Geórgia) desenvolveram processos para incorporar componentes optoeletrônicos e trilhas condutivas bordadas em máquinas computadorizadas convencionais, criando vestimentas hospitalares e pijamas pediátricos com sensores de oximetria e batimentos cardíacos integrados diretamente ao tecido.",
+  "summary": "Integração de sensores ópticos e trilhas bordadas condutivas em roupas para medição contínua da saturação de oxigênio (SpO2) e batimentos cardíacos sem cabos rígidos.",
+  "definition": "A Oximetria Têxtil e Bordados Biomédicos de Monitoramento Cardíaco (Textile Pulse Oximetry & Biosensing Smart Garments) é a área de alta tecnologia do bordado eletrônico focada na produção de vestimentas médicas inteligentes capazes de aferir continuamente os níveis de saturação de oxigênio no sangue periférico (SpO2) e a frequência cardíaca (pulso). O sistema é confeccionado mediante o bordado computadorizado de circuitos elétricos flexíveis com fios condutivos prateados ou dourados em locais anatômicos de alta vascularização periférica (como a face interna do punho, gola cervical, meias de recém-nascidos ou faixas torácicas), conectando micro-LEDs fotoemissores e fotodiodos detectores de luz ao microcontrolador da peça.",
+  "technicalDetails": "A engenharia do bordado na oximetria têxtil opera com especificações físicas de precisão médica: 1) Princípio Óptico Fotopletismográfico (PPG): dois micro-LEDs de montagem superficial (SMD) — um vermelho (comprimento de onda de 660 nm) e um infravermelho (940 nm) — emitem feixes de luz através dos capilares sanguíneos da pele; a hemoglobina oxigenada (HbO2) absorve mais luz infravermelha, enquanto a desoxigenada (Hb) absorve mais luz vermelha; um fotodiodo receptor mede a variação da luz transmitida e calcula a taxa SpO2; 2) Trilhas Condutivas e Blindagem contra Ruído: o bordado das trilhas deve ter resistência homogênea (< 10 Ω) e baixa impedância; para evitar ruídos eletromagnéticos provocados pelo movimento do paciente, borda-se uma camada inferior de isolamento dielétrico (com fio de poliéster denso) e uma sob-costura condutiva em zigue-zague com alta flexibilidade elástica; 3) Pressão de Contato Óptico e Alívio de Tensão Mecânica: a matriz é desenhada com ilhas circulares acolchoadas em ponto cheio tridimensional (3D foam biomédico) ao redor do sensor para garantir que o diodo permaneça encostado na pele sob pressão constante e suave, bloqueando a luz ambiente.",
+  "beginnerExplanation": "Sabe aquele aparelhinho de plástico que o médico coloca na ponta do nosso dedo no hospital para medir o oxigênio e os batimentos do coração com uma luzinha vermelha? Imagine que, em vez daquele grampo duro cheio de fios que incomoda o paciente na cama, a sua máquina de bordar é capaz de bordar essa luzinha e os fios elétricos diretamente no punho da camisa, na gola do pijama ou no pezinho da meia de um bebê prematuro! A máquina usa linhas especiais de prata que conduzem eletricidade sem incomodar e borda as trilhas perfeitamente. O paciente veste uma roupa normal, macia e quentinha, e o médico no hospital acompanha o oxigênio no sangue e o coração pelo computador sem precisar espetar agulhas nem amarrar fios rígidos no corpo!",
+  "characteristics": [
+    "Substitui cabos, adesivos e grampos rígidos por tecidos laváveis, confortáveis e respiráveis",
+    "Permite monitoramento ininterrupto de pacientes durante o sono, sem despertar o paciente",
+    "Utiliza fios condutivos biocompatíveis com revestimento de prata 99% pura",
+    "Resistente a lavagens hospitalares e esterilização branda com desinfetantes têxteis",
+    "Aplicável em medicina esportiva, monitoramento neonatal e telemedicina domiciliar"
+  ],
+  "construction": [
+    "1. Substrato têxtil: Malha elástica de poliamida com elastano para compressão anatômica constante",
+    "2. Fio condutor de sinal: Linha de bordar com alma de poliamida e banho metálico condutivo (ex: Madeira HC 12/40)",
+    "3. Módulo óptico miniaturizado: Plaqueta flexível com LED vermelho (660 nm), LED infravermelho (940 nm) e fotodiodo",
+    "4. Ancoragem de ilhas de contato: Pontos de amarração de alta densidade bordados sobre os terminais elétricos",
+    "5. Encapsulamento de silicone de grau médico: Selagem protetora flexível aplicada sobre as conexões para proteção contra suor"
+  ],
+  "howItWorks": [
+    "1. Desenha-se no software de digitalização a rota das trilhas elétricas que ligam o microprocessador ao ponto de contato com a pele.",
+    "2. Posiciona-se a malha hospitalar no bastidor com entretela hidrossolúvel de suporte firme.",
+    "3. A máquina borda as trilhas elétricas em ponto corrido duplo condutivo a 600 PPM.",
+    "4. A máquina faz uma pausa programada (código de Stop) para posicionamento do microchip e dos sensores ópticos.",
+    "5. Retoma-se a costura, aplicando pontos de arremate reforçados diretamente sobre os terminais metálicos do sensor.",
+    "6. Borda-se uma moldura circular acolchoada ao redor do sensor óptico para vedar a entrada de luz solar externa.",
+    "7. Aplica-se uma microcamada de silicone médico impermeável sobre as trilhas bordadas para protegê-las do suor e lavagens."
+  ],
+  "mainTypes": [
+    "Oximetria por Transmissão Têxtil: O LED e o fotodiodo ficam em lados opostos do tecido (ideal para lóbulos de orelha e extremidades dos pés de recém-nascidos).",
+    "Oximetria por Refletância Têxtil (Reflective PPG): O LED e o fotodiodo ficam lado a lado sobre a mesma superfície da pele (ideal para punhos, peito e testa).",
+    "Faixa Torácica Integrada com ECG e SpO2: Matriz mista que combina eletrodos secos de eletrocardiograma e sensor óptico de oxigênio em um único bordado contínuo.",
+    "Meia Biomédica Neonatal Inteligente: Bordado minúsculo aplicado em meias infantis para prevenção da Síndrome da Morte Súbita do Lactente (SMSL)."
+  ],
+  "applications": [
+    "UTIs neonatais e incubadoras para monitoramento não-invasivo de bebês prematuros",
+    "Pijamas hospitalares de monitoramento contínuo em enfermarias e centros pós-cirúrgicos",
+    "Uniformes de pilotos militares de caça e astronautas para detecção precoce de hipóxia (falta de oxigênio em grandes altitudes)",
+    "Equipamentos de atletas de alto rendimento para cálculo de consumo máximo de oxigênio (VO2 máx)",
+    "Camisas inteligentes para monitoramento de idosos e pacientes com apneia obstrutiva do sono"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "500 a 650 PPM (preserva a integridade do banho de prata e a condutividade elétrica)",
+    "needleType": "Agulha 75/11 de ponta arredondada SES com acabamento cromado ou revestimento de titânio",
+    "stabilizer": "Entretela hidrossolúvel ou termocolante de poliuretano (evita que o tecido estique e rompa a trilha)",
+    "density": "Passos de ponto corrido entre 2,5 mm e 3,0 mm (pontos muito curtos perfuram e enfraquecem a linha condutiva)",
+    "pullCompensation": "0,30 mm a 0,40 mm para assegurar que as ilhas de contato se alinhem perfeitamente com os pinos dos chips",
+    "underlay": "Sob-costura de ponto corrido simples ao longo da trilha para criar condutância dupla redundante",
+    "threadTension": "Tensão superior moderada e suave para não tensionar e esticar a fibra metálica"
+  },
+  "advantages": [
+    "✔ Elimina o estresse e as lesões de pele causadas por adesivos e grampos metálicos em pacientes sensíveis",
+    "✔ Permite aos pacientes movimentarem-se livremente no quarto do hospital com máxima dignidade",
+    "✔ Resistente ao movimento corporal com menor taxa de artefatos de medição que cabos soltos convencionais",
+    "✔ Abre um mercado bilionário de alta tecnologia e inovação médica para a indústria têxtil e de bordado"
+  ],
+  "limitations": [
+    "Exige componentes eletrônicos miniaturizados SMD específicos e linhas condutivas de alto custo",
+    "Requer isolamento impermeável absoluto para suportar o suor humano e ciclos de lavagem",
+    "Necessita de testes de conformidade com normas regulatórias de dispositivos médicos (ANVISA, FDA, CE)"
+  ],
+  "commonErrors": [
+    "❌ Programar comandos de corte de linha (trims) entre os pontos do circuito: interrompe a transmissão do sinal de oxigênio",
+    "❌ Deixar folga excessiva no tecido: o sensor afasta-se da pele e a luz ambiente satura a leitura fotométrica",
+    "❌ Cruzar duas trilhas condutivas sem isolamento: queima os LEDs por curto-circuito na alimentação elétrica",
+    "❌ Usar linha condutiva na bobina sem necessidade: cria contato elétrico indesejado no verso da peça",
+    "❌ Limpar o bordado com álcool isopropílico puro ou cloro: desoxida e corrói a prata das trilhas bordadas"
+  ],
+  "troubleshootingTips": [
+    "Se o sensor não registrar os batimentos cardíacos: aumente a altura do acolchoamento em 3D bordado ao redor do diodo para forçar o contato íntimo com a pele.",
+    "Se houver ruído na curva de pulso: adicione um capacitor de filtragem soldado diretamente à ilha de bordado condutivo mais próxima do sensor.",
+    "Se a resistência elétrica da trilha for superior a 15 Ohms: borde uma segunda linha de ponto corrido exatamente sobreposta à primeira para duplicar a seção condutiva."
+  ],
+  "dicaArtrelados": "O Acolchoamento em Anel 3D e a Blindagem Óptica com Linha Preta: o maior desafio técnico na oximetria têxtil não é a eletricidade, e sim a luz do sol e das lâmpadas da sala entrando pelos lados do tecido e atrapalhando o sensor de oxigênio! O segredo de engenharia Artrelados é bordar uma \"arruela\" ou anel grosso em ponto cheio de 3 mm de altura usando EVA ou espuma 3D com linha preta de poliéster opaco em volta do sensor! Esse anel bordado funciona como uma ventosa macia que veda 100% da luz ambiente contra a pele do paciente e ao mesmo tempo amortece o contato do componente eletrônico, garantindo uma leitura de saturação de oxigênio tão perfeita quanto a de uma máquina de hospital!",
+  "voceSabia": "Durante a pandemia de COVID-19 em 2020 e 2021, equipes de cientistas na Europa desenvolveram máscaras de proteção respiratória com bordados de oximetria e temperatura integrados no tecido! A máscara monitorava silenciosamente a saturação de oxigênio na ponta do nariz e na bochecha, alertando a pessoa pelo smartphone caso a saturação caísse abaixo de 92% (a perigosa hipóxia silenciosa)!",
+  "practicalExercise": "Exercício de Bancada (Montagem de Protótipo com LED e Fotodiodo):\n1. Desenhe no seu software duas trilhas paralelas de ponto corrido duplo separadas por 5 mm em malha de neoprene fino.\n2. Borde as trilhas utilizando linha condutiva prateada na agulha superior e linha comum de poliéster na bobina.\n3. Programe uma parada de agulha e encaixe as pernas de um LED comum nas extremidades das trilhas.\n4. Borde 15 pontos de zigue-zague denso sobre as pernas metálicas do LED para travar a união mecânica e elétrica.\n5. Aplique uma gota de cola de silicone acético neutro transparente sobre os contatos para selagem.\n6. Conecte os outros extremos a uma fonte de 3V e observe o funcionamento contínuo do circuito flexível bordado!",
+  "quickSummary": "Tecnologia de bordado avançado que integra micro-sensores ópticos e trilhas condutivas flexíveis em roupas para medir continuamente a saturação de oxigênio e os batimentos cardíacos sem cabos rígidos.",
+  "relatedTerms": [
+    "Nitrato de Prata e Revestimento Condutivo em Fios Têxteis",
+    "Bordado Técnico / Smart Textiles",
+    "Ponto Tridimensional / 3D Foam",
+    "Ponto Corrido / Ponto Reto (Running Stitch)",
+    "Normas Técnicas Globais de Conformidade e Segurança Têxtil no Bordado"
+  ],
+  "tags": [
+    "oximetria textil",
+    "smart textiles",
+    "dispositivos biomedicos",
+    "fio condutivo",
+    "e-textiles",
+    "spo2 bordado",
+    "alta tecnologia",
+    "saude e telemedicina"
+  ],
+  "updatedAt": "2026-09-28"
+},
+{
+  "id": "o-orificio-dreno-lancadeira-canaleta-escoamento-residuos",
+  "code": "O-000",
+  "term": "Orifício de Dreno da Lançadeira e Canaleta de Escoamento de Resíduos (Rotary Hook Lint Drain Port & Debris Channel)",
+  "letter": "O",
+  "letterGroup": "O",
+  "level": "Intermediário 🟡",
+  "category": "Mecânica da Lançadeira, Manutenção Preventiva & Lubrificação",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Desenvolvido pelos engenheiros da empresa japonesa Hirose Hooks e Koban (Kobayashi Hook Works) na década de 1980. Com o aumento da velocidade das máquinas industriais de bordar de 600 PPM para mais de 1.000 PPM, a força centrífuga e o calor gerado pela lançadeira rotativa começaram a cozinhar o óleo com o pó de algodão e felpas de linha, formando uma borra abrasiva que travava o cesto central. A abertura estratégica de canais de purga e orifícios de alívio por descompressão na base da cápsula resolveu a autolimpeza contínua das lançadeiras modernas.",
+  "summary": "Canais e micro-orifícios de purga projetados no corpo da lançadeira rotativa para expelir automaticamente o excesso de óleo misturado a fiapos e poeira.",
+  "definition": "O Orifício de Dreno da Lançadeira e Canaleta de Escoamento de Resíduos (Rotary Hook Lint Drain Port & Debris Escape Channel) compreende o conjunto de passagens mecânicas e ranhuras usinadas em ângulo helicoidal no corpo externo e na pista de deslizamento (raceway) da lançadeira rotativa. Esses orifícios têm a função vital de canalizar e ejetar, por ação direta da força centrífuga e do fluxo de ar gerado pela rotação de até 2.000 rotações por minuto, o excesso de óleo lubrificante mineral emulsionado com microfibras de linha, poeira de entretela e partículas de poeira de tecidos, impedindo que essa mistura pastosa se compacte dentro do canal e cause o travamento súbito da lançadeira.",
+  "technicalDetails": "A dinâmica de fluidos e mecânica dos canais de dreno da lançadeira abrange pontos cruciais: 1) Geometria Helicoidal de Expulsão: os orifícios de purga são fresados tangencialmente ao sentido de rotação horária do bico da lançadeira, gerando um efeito de bomba centrífuga autolimpante que empurra os resíduos da pista interna em direção ao fundo do cárter ou para o feltro absorvente inferior; 2) Diferença de Pressão Dinâmica: a rotação de alta velocidade da caixa da lançadeira cria uma zona de baixa pressão nos orifícios de dreno, sugando os fiapos de linha que caem da agulha antes que eles penetrem entre a pista e o bico capturador; 3) Risco de Obstrução por Borra Seca: quando o operador utiliza óleo incorreto (muito espesso, como óleos automotivos ou óleos vegetais de cozinha) ou aplica jatos de ar comprimido na direção errada, a poeira de algodão é empurrada para dentro dos drenos, cimentando os orifícios e superaquecendo a peça em minutos; 4) Protocolo de Desobstrução Manual: a limpeza dos orifícios de dreno deve ser realizada com fios de cobre macio ou cerdas de náilon e solvente de grau técnico ou álcool isopropílico, nunca com alfinetes de aço temperado que possam riscar as bordas afiadas das ranhuras.",
+  "beginnerExplanation": "Você já reparou na pecinha de metal prateada redonda lá embaixo da sua máquina, onde você coloca a caixinha da bobina (a lançadeira)? Essa peça gira a uma velocidade absurda, dando milhares de voltas por minuto! Toda vez que a agulha fura o tecido e a linha é cortada, solta uma poeirinha de pano e pelinhos de linha minúsculos. Se você junta essa poeira com o óleo de lubrificação, isso vira uma massinha grudenta, parecida com graxa velha! Para a máquina não entupir e não quebrar, os fabricantes inventaram buraquinhos e canaletas secretas na carcaça de metal da lançadeira: quando ela roda bem rápido, essa poeira com óleo é jogada para fora por esses furinhos de dreno como em uma centrífuga de lavar roupa! Conhecer e manter esses furinhos limpos é o que garante que a sua máquina dure 20 anos trabalhando macia e silenciosa!",
+  "characteristics": [
+    "Sistema passivo de autolimpeza hidrodinâmica acionado pela própria rotação da lançadeira",
+    "Evita a formação da \"pasta de esmeril\" (mistura de óleo queimado e fiapos de linha que risca a pista)",
+    "Reduz a temperatura de funcionamento da lançadeira em até 15°C durante turnos longos",
+    "Requer inspeção e desobstrução periódica em manutenções preventivas mensais",
+    "Presente em todas as lançadeiras industriais de marcas renomadas (Hirose, Koban, Cerliani)"
+  ],
+  "construction": [
+    "1. Pista de deslizamento (Raceway): Canal usinado onde desliza o cesto interno da caixa de bobina",
+    "2. Orifícios radiais de dreno: Furos circulares de 0,8 mm a 1,2 mm de diâmetro na base da canaleta",
+    "3. Ranhura helicoidal de alívio: Canal helicoidal que direciona a sujeira para longe da ponta do bico",
+    "4. Feltro coletor inferior: Almofadinha absorvente posicionada sob a lançadeira para reter o óleo drenado",
+    "5. Corpo giratório em liga de aço-cromo temperado e polido com acabamento espelhado"
+  ],
+  "howItWorks": [
+    "1. O operador aplica uma gota de óleo lubrificante mineral no trilho da lançadeira no início do turno.",
+    "2. A máquina entra em rotação normal de 800 a 1.000 PPM.",
+    "3. Conforme o bordado progride, microfibras e resíduos de entretela caem em direção à pista da lançadeira.",
+    "4. O filme lubrificante envolve as microfibras, impedindo o atrito direto de metal com metal.",
+    "5. A força centrífuga empurra a mistura de óleo e fiapos para a periferia da pista.",
+    "6. O fluido contaminado escoa naturalmente através dos orifícios de dreno para fora da área crítica de costura.",
+    "7. O resíduo cai com segurança sobre o feltro absorvente inferior da base da máquina, mantendo a lançadeira limpa."
+  ],
+  "mainTypes": [
+    "Lançadeira com Dreno Radial Simples: Orifícios retos na base da calha (padrão em máquinas domésticas e industriais convencionais).",
+    "Lançadeira com Canaletas Helicoidais Auto-Limpantes (High-Speed Turbo Ports): Ranhuras inclinadas que aumentam a ejeção centrífuga em velocidades acima de 1.000 PPM.",
+    "Lançadeira com Revestimento de Titânio e Orifícios Polidos: Reduz a aderência de resíduos sintéticos derretidos em trabalhos pesados com linhas metalizadas.",
+    "Lançadeira Selada com Lubrificação Centralizada: Modelos com microbomba interna onde o dreno recircula o óleo filtrado de volta ao reservatório da máquina."
+  ],
+  "applications": [
+    "Manutenção preventiva diária e semanal de máquinas industriais de bordar",
+    "Diagnóstico mecânico de aquecimento excessivo e ruído áspero no conjunto da bobina",
+    "Produção intensiva com tecidos felpudos (toalhas de banho, veludo, fleece e pelúcia) que soltam muitos fiapos",
+    "Limpeza profunda após quebras repetidas de agulha que deixam partículas metálicas na lançadeira",
+    "Procedimento de conservação de máquinas paradas por longos períodos em períodos de férias"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "Projetado para operar em velocidades normais de 650 a 1.000 PPM",
+    "needleType": "Padrão de bordado (DBxK5)",
+    "stabilizer": "Prefira entretelas de boa qualidade que não soltem pó de celulose solto no dreno",
+    "density": "Padrão da matriz",
+    "pullCompensation": "Padrão",
+    "underlay": "Padrão",
+    "threadTension": "Padrão (tensão de bobina calibrada entre 20 e 25 gf)"
+  },
+  "advantages": [
+    "✔ Triplica a vida útil da lançadeira rotativa, que é uma das peças mais caras da máquina de bordar",
+    "✔ Evita travamentos catastróficos em meio a produções de grande volume",
+    "✔ Reduz a ocorrência de quebras de linha e desfiamento causados pelo atrito com fiapos acumulados",
+    "✔ Mantém o movimento giratório ultra-suave e silencioso sem estalos metálicos"
+  ],
+  "limitations": [
+    "Se o feltro coletor inferior não for trocado periodicamente, o óleo drenado pode acumular na base",
+    "Requer limpeza mecânica manual periódica com pincel e pinça (a centrífuga não ejeta pedaços grandes de linha)",
+    "O uso de ar comprimido com pressão excessiva pode compactar a sujeira dentro dos furos em vez de limpá-los"
+  ],
+  "commonErrors": [
+    "❌ Soprar ar comprimido direto na lançadeira sem desmontar o cesto: empurra os fiapos para dentro dos orifícios de dreno, bloqueando-os",
+    "❌ Usar agulha de aço ou chave de fenda para desentupir os furinhos: risca as canaletas e cria rebarbas afiadas que quebram a linha",
+    "❌ Usar óleo de cozinha, óleo automotivo ou WD-40: cria uma cola espessa que vira pedra dentro dos canais de purga",
+    "❌ Deixar de colocar a gota de óleo diária: os fiapos trabalham a seco e lixam a pista da lançadeira",
+    "❌ Não limpar os fiapos acumulados debaixo da chapa de agulha ao final de cada dia de trabalho com toalhas"
+  ],
+  "troubleshootingTips": [
+    "Se a lançadeira estiver girando pesada mesmo após colocar óleo: retire a caixinha da bobina e inspecione os orifícios de dreno com uma lanterna para ver se há fiapos compactados.",
+    "Se a máquina fizer um barulho de atrito seco metálico: limpe os drenos com uma escovinha de dente macia embebida em querosene ou óleo desengraxante leve e reaperte a lubrificação.",
+    "Se o óleo da lançadeira estiver saindo preto: significa que os drenos estão saturados de sujeira antiga acumulada; faça uma lavagem completa do conjunto com solvente têxtil."
+  ],
+  "dicaArtrelados": "O Segredo do Pincel de Cerdas Macias e a Pinça Cirúrgica de Ponta Fina: nunca use o bico do compressor de ar para soprar poeira para dentro da lançadeira! O ar comprimido tem alta pressão e empurra os tufos de linha direto para dentro dos furinhos de dreno, criando uma bucha compacta impossível de tirar. O método profissional que usamos no ateliê Artrelados é aspirar primeiro a poeira com um mini-aspirador ou usar um pincel macio de cerdas compridas embebido em duas gotas de óleo mineral branco. Depois, com uma pinça cirúrgica, puxe qualquer fiapo que esteja asombrando os orifícios de escoamento. Sua lançadeira vai rodar macia e fria o dia inteiro!",
+  "voceSabia": "A precisão da usinagem dos canais de dreno em lançadeiras japonesas Hirose é tão estrita que a tolerância dimensional da pista de rolamento é inferior a 3 micrômetros (0,003 mm)! Isso é 25 vezes mais fino que um fio de cabelo humano!",
+  "practicalExercise": "Exercício de Oficina (Inspeção e Limpeza dos Drenos da sua Máquina):\n1. Desligue a máquina e remova a chapa da agulha e a caixinha da bobina.\n2. Com uma lanterna bem focada, localize os pequenos furinhos circulares ao redor da calha da lançadeira.\n3. Pegue um pincel de cerdas macias e varra toda a poeira acumulada para fora.\n4. Umedeça a ponta de um palito de dente de madeira (nunca de metal!) com uma gotinha de óleo mineral e passe suavemente na borda dos orifícios de dreno para desobstruir qualquer fiapo preso.\n5. Aplique uma única gota de óleo novo no trilho e gire o volante da máquina manualmente por 3 voltas completas: sinta a maciez imediata do giro!",
+  "quickSummary": "Canais e micro-furos usinados na carcaça da lançadeira rotativa que expelem continuamente fiapos e excesso de óleo pela força da rotação, protegendo o mecanismo contra travamentos e aquecimento.",
+  "relatedTerms": [
+    "Lançadeira Rotativa (Rotary Hook)",
+    "Caixa de Bobina / Cápsula da Bobina (Bobbin Case)",
+    "Óleo Lubrificante Branco Especial, Óleo Mineral Fino e Ceras Têxteis",
+    "Viscosidade Cinemática de Óleo Lubrificante ISO VG 10",
+    "Manutenção Preventiva Semanal e Mensal"
+  ],
+  "tags": [
+    "orificio de dreno",
+    "lancadeira rotativa",
+    "canaleta de residuos",
+    "lubrificacao",
+    "manutencao preventiva",
+    "hirose hook",
+    "mecanica de precisao",
+    "dica de oficina"
+  ],
+  "updatedAt": "2026-09-28"
+},
+{
+  "id": "o-overfeeding-sobrealimentacao-tecido-compensacao-ondulacao",
+  "code": "O-000",
+  "term": "Overfeeding / Sobrealimentação de Tecido e Compensação de Ondulação Diferencial (Fabric Overfeeding & Differential Tension Relief)",
+  "letter": "O",
+  "letterGroup": "O",
+  "level": "Avançado 🔴",
+  "category": "Física Têxtil, Métodos de Enquadramento no Bastidor & Controle de Deformação",
+  "grammarClass": "Locução substantiva técnica com estrangeirismo consagrado",
+  "origin": "Do conceito clássico da tecelagem e costura industrial britânica do século XIX (\"overfeeding\"), onde tecidos elásticos eram alimentados com ligeira folga perante a costura para prevenir repuxo. No bordado computadorizado de alta performance, o termo foi formalizado nas décadas de 1990 e 2000 por técnicos de ateliê e digitalizadores industriais para descrever a acomodação deliberada de uma micro-folga elástica controlada no tecido ao montá-lo no bastidor ou programar o compensador de densidade, combatendo a contração elástica pós-bordado.",
+  "summary": "Técnica e dinâmica têxtil que acomoda micro-folga controlada no tecido no bastidor para evitar que malhas encolham e formem ondas após saírem da máquina.",
+  "definition": "O Overfeeding / Sobrealimentação de Tecido e Compensação de Ondulação Diferencial (Fabric Overfeeding & Differential Tension Relief) é a técnica físico-mecânica e de digitalização que contraria a tendência instintiva dos iniciantes de esticar o tecido como a pele de um tambor no bastidor. Quando um tecido elástico (como malhas de algodão, ribana, viscolycra, suplex ou tecidos sintéticos com elastano) é esticado durante o enquadramento, os pontos do bordado travam as fibras em estado de tração estirada; no momento em que o bastidor é desapertado, o tecido ao redor busca voltar ao seu comprimento natural, enquanto a área bordada permanece rígida, criando o temido \"efeito concha\", \"efeito tigela\" ou ondas perimetrais deformadas.",
+  "technicalDetails": "A reologia e o comportamento mecânico do overfeeding no bordado envolvem princípios estritos da física têxtil: 1) Histérese Elástica e Memória de Deformação: as malhas circulares possuem elongação multidirecional de 30% a mais de 100%; qualquer tração exercida pelos aros do bastidor que ultrapasse o limite de deformação elástica transitória gera uma força de retração elástica F_retração = k * Δx; 2) Princípio do Enquadramento Neutro (Neutral Framing State): o tecido deve ser montado no bastidor em seu estado plano de repouso gravitacional absoluto (zero estiramento mecânico nos eixos X e Y); para tecidos hiper-elásticos (como lycra de biquíni e malhas de ginástica), aplica-se a técnica do overfeeding negativo, onde a entretela rasgável ou recortável de alta gramatura absorve 100% da tração do bastidor, e o tecido é sobreposto suavemente (método flutuante com adesivo reposicionável ou spray temporário sem esticar); 3) Compensação Diferencial na Matriz: na programação digital, o digitalizador ajusta a compensação de repuxo (pull compensation) de forma assimétrica: aumenta-se o valor no sentido da maior elasticidade da malha (geralmente horizontal/trama, 0,40 mm a 0,55 mm) e reduz-se no sentido vertical (urdume/coluna de malha, 0,20 mm a 0,30 mm); 4) Pesponto Perimetral de Alinhavo com Folga: antes do bordado dos blocos pesados, executa-se uma costura de alinhavo (basting frame) perimetral que acomoda a folga sem comprimir o substrato.",
+  "beginnerExplanation": "O erro número 1 de quase todo mundo que começa a bordar é pegar a camiseta ou a malha e esticar com toda a força no bastidor até ela ficar parecendo a pele de um tambor que faz até barulho de \"tum-tum\" se bater o dedo! Parece que ficou bem esticadinha e bonita, né? Mas é uma grande ilusão! Quando a máquina borda milhares de pontos por cima dessa malha esticada, a linha segura a malha no lugar. No segundo em que você solta o parafuso e tira a camiseta do bastidor... a malha de fora encolhe querendo voltar ao tamanho normal e o bordado no meio não consegue encolher! O resultado é um desastre: o bordado fica empombado, curvado para dentro parecendo uma concha ou uma tigela cheia de ondas ao redor! O Overfeeding é a arte de colocar a malha no bastidor completamente relaxada, sem esticar nada, deixando ela descansar lisinha e natural para o bordado ficar tão reto quanto uma folha de papel!",
+  "characteristics": [
+    "Elimina definitivamente o \"efeito concha\" e o repuxo enrugado ao redor de bordados em camisetas e malhas",
+    "Preserva as dimensões originais e o caimento suave da peça de vestuário após a lavagem",
+    "Fundamental para bordar com perfeição tecidos com elastano, viscolycra, moletons e malhas piquet",
+    "Harmoniza a tensão elástica do tecido com a tensão mecânica das linhas de bordar",
+    "Permite bordados grandes e densos em peças leves sem deformar o decote ou as costuras da roupa"
+  ],
+  "construction": [
+    "1. Substrato têxtil elástico: Malha ou tecido com propriedades de memória elástica",
+    "2. Entretela estrutural de suporte: Entretela recortável (cutaway) de malha estável ou algodão resinado",
+    "3. Fixador adesivo temporário: Spray reposicionável ou fita dupla face de bordado para acoplamento sem tensão",
+    "4. Bastidor ajustado na medida: Aro interno e externo regulados previamente na espessura do tecido sem forçar",
+    "5. Pesponto de alinhavo perimetral (Basting Stitch): Linha de fixação prévia com pontos longos (4 mm a 5 mm)"
+  ],
+  "howItWorks": [
+    "1. Coloca-se a entretela recortável no bastidor e aperta-se firmemente (a entretela fica firme, mas o tecido ainda não).",
+    "2. Aplica-se uma névoa leve de spray adesivo reposicionável temporário sobre a entretela.",
+    "3. Pousa-se a malha suavemente sobre a entretela com as mãos espalmadas, sem puxar nem esticar as bordas.",
+    "4. Alisa-se o tecido do centro para fora, garantindo que as tramas e colunas da malha fiquem perfeitamente retas e relaxadas.",
+    "5. Encaixa-se o bastidor na máquina de bordar.",
+    "6. A máquina executa primeiro uma moldura de alinhavo suave ao redor da área útil.",
+    "7. Borda-se a matriz com densidade equilibrada e compensação de repuxo adequada.",
+    "8. Ao retirar a peça do bastidor, o tecido não sofre retração elástica e permanece impecavelmente plano!"
+  ],
+  "mainTypes": [
+    "Enquadramento com Tecido Flutuante (Floating Method with Overfeeding Control): Apenas a entretela entra no bastidor; o tecido é colado por cima em repouso absoluto (método ideal para malhas sensíveis).",
+    "Bastidor Magnético com Pressão Uniforme: Uso de ímãs de neodímio que prendem o tecido instantaneamente sem o atrito de fricção que estica a malha nos aros convencionais.",
+    "Sobrealimentação Programada por Software: Redução estratégica da densidade central e aumento gradual de densidade para as bordas para equalizar as tensões de contração.",
+    "Enquadramento com Gabarito de Bancada (HoopMaster Station): Uso de estação de montagem com braços magnéticos que garantem enquadramento sem puxar o tecido."
+  ],
+  "applications": [
+    "Bordados peitorais em camisetas polo de malha piquet corporativas e escolares",
+    "Bordados em roupas de bebê (bodies de malha suedine 100% algodão que deformam com facilidade)",
+    "Peças fitness e moda praia (suplex, poliamida, lycra de biquíni e leggings de academia)",
+    "Moletons, agasalhos esportivos e jaquetas com forro de malha stretch",
+    "Golas, punhos de ribana canelada e barras de peças prontas"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "650 a 800 PPM (velocidades moderadas evitam vibrações que puxam a malha)",
+    "needleType": "Agulha Ponta Bola Leve (SES) ou Ponta Bola Média (SUK) calibre 70/10 ou 75/11 para não cortar as fibras da malha",
+    "stabilizer": "Entretela recortável de malha estável (PolyMesh / No-Show Cutaway) de 50 a 70 g/m²",
+    "density": "Evitar excesso de pontos! Densidade suave de 0,42 mm a 0,45 mm em preenchimentos",
+    "pullCompensation": "Aumentada para 0,40 mm a 0,55 mm no sentido horizontal (trama elástica)",
+    "underlay": "Sob-costura em grade cruzada leve (cross-hatch) para travar a malha na entretela antes do ponto cheio",
+    "threadTension": "Tensão superior ligeiramente mais frouxa que o normal para não puxar a malha para dentro"
+  },
+  "advantages": [
+    "✔ A peça bordada sai da máquina com aspecto profissional e impecável, sem franzidos nas bordas",
+    "✔ O desenho não repuxa nem deforma mesmo após dezenas de lavagens na máquina de lavar roupa",
+    "✔ Elimina a temida \"marca de bastidor\" (hoop burn) que amassa e queima o tecido de forma irreversível",
+    "✔ Agiliza o processo de produção usando a técnica de bordado flutuante no ateliê"
+  ],
+  "limitations": [
+    "Exige abrir mão do hábito intuitivo de puxar o tecido ao fechar o bastidor",
+    "Requer uso de adesivo temporário de qualidade ou bastidores magnéticos para melhores resultados",
+    "Demanda um teste prévio de elasticidade em um retalho da mesma malha antes da produção em escala"
+  ],
+  "commonErrors": [
+    "❌ Puxar as pontas da camiseta depois que o bastidor já está encaixado: isso estica a malha ao máximo e garante um bordado enrugado",
+    "❌ Usar entretela rasgável fina em malha elástica: a entretela rasga sob a agulha e a malha volta a encolher",
+    "❌ Borda com densidade muito pesada (0,30 mm) em tecidos finos: o excesso de linha cria uma placa dura que deforma o tecido ao redor",
+    "❌ Usar agulha de ponta afiada que corta os fios da malha, criando pequenos furos que viram rasgos após a lavagem",
+    "❌ Puxar a linha com tensão excessiva na máquina, estrangulando o ponto e forçando a malha a se contrair"
+  ],
+  "troubleshootingTips": [
+    "Se o bordado estiver curvando como uma concha após sair do bastidor: aplique ferro a vapor morno pelo avesso sobre uma toalha macia, mas na próxima peça NUNCA estique a malha ao montar no bastidor.",
+    "Se o tecido estiver escorregando na entretela durante o bordado flutuante: use um spray adesivo de maior aderência temporária ou alfinete as quatro pontas da malha do lado de fora da área da agulha.",
+    "Se as letras ficarem mais finas do que deveriam: aumente a compensação de repuxo (pull compensation) para 0,50 mm no sentido transversal da elasticidade."
+  ],
+  "dicaArtrelados": "O Teste do Beliscão e a Regra do Pão Francês no Bastidor: como saber se a sua camiseta está esticada demais ou no ponto certo de relaxamento no bastidor? Faça o teste do beliscão! Quando você fechar o bastidor, dê um leve beliscãozinho com as pontas dos dedos na malha bem no centro do aro: a malha deve ter uma leve maleabilidade elástica, macia e flexível como a casquinha fresca de um pão francês! Se você bater o dedo e ela fizer um som seco e esticado de tambor duro, solte o parafuso na hora! A malha não pode sofrer tração mecânica; ela deve apenas descansar deitada com carinho sobre a entretela!",
+  "voceSabia": "A técnica de acomodação de tecido com micro-folga elástica controlada foi uma das maiores revoluções da indústria de moda esportiva na década de 1990! Quando a Nike e a Adidas começaram a lançar as camisas de futebol Dri-FIT e tecidos tecnológicos de poliamida com elastano, as fábricas de bordado quase faliram porque todos os escudos dos clubes ficavam completamente deformados como conchas! Foi o desenvolvimento conjunto das entretelas estáveis No-Show Cutaway e o protocolo de sobrealimentação em repouso que permitiu bordar escudos perfeitos nessas camisas modernas!",
+  "practicalExercise": "Exercício de Bancada (Comparando o Efeito Tambor vs. Efeito Overfeeding em Malha):\n1. Pegue dois pedaços iguais de 20 cm x 20 cm de camiseta velha de malha de algodão.\n2. No primeiro pedaço, monte no bastidor puxando as bordas com força com as duas mãos até ficar duro feito tambor.\n3. No segundo pedaço, monte a entretela firme, espirre adesivo temporário e pouse a malha por cima sem puxar nada (em repouso natural).\n4. Borde o mesmo círculo de ponto tatami de 6 cm com contorno em ambos os bastidores.\n5. Retire ambos e coloque-os lado a lado sobre uma mesa plana: veja como o primeiro vira uma tigela levantada e cheia de rugas, enquanto o segundo fica absolutamente plano, reto e elegante como numa loja de grife!",
+  "quickSummary": "Técnica e método de enquadramento que mantém o tecido elástico em repouso neutro e sem estiramento no bastidor, prevenindo o efeito de concha e as rugas deformadas pós-bordado.",
+  "relatedTerms": [
+    "Compensação de Elasticidade em Malha Ribana e Canelados",
+    "Técnica de Fixação Flutuante / Bastidor Flutuante (Floating Method)",
+    "Compensação de Repuxo (Pull Compensation)",
+    "Entretela Recortável (Cutaway Stabilizer)",
+    "Nivelamento e Alinhamento do Bastidor (Hoop Leveling / Calibration)"
+  ],
+  "tags": [
+    "overfeeding",
+    "sobrealimentacao",
+    "malhas e elasticos",
+    "efeito concha",
+    "enquadramento no bastidor",
+    "metodos de atelie",
+    "fisica textil",
+    "dica artrelados"
+  ],
+  "updatedAt": "2026-09-28"
+}
 ];

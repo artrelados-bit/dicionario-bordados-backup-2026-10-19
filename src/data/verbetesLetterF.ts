@@ -6843,4 +6843,534 @@ export const VERBETES_LETTER_F: Verbete[] = [
   ],
   "updatedAt": "2026-09-28"
 }
+,
+{
+  "id": "f-fio-elastico-lastex-bobina-bordado-franzido",
+  "code": "F-000",
+  "term": "Fio Elástico e Lastex na Bobina para Bordado e Franzido (Elastic Shirring Thread & Machine Smocking)",
+  "letter": "F",
+  "letterGroup": "F",
+  "level": "Intermediário 🟡",
+  "category": "Agulhas, Fios & Técnicas Especiais",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Do grego elastikos (propriedade de retornar à forma original) e da marca comercial histórica Lastex (desenvolvida pela United States Rubber Company na década de 1930, combinando fios de látex natural envoltos em seda ou algodão). Tradicionalmente utilizado em costura reta para franzir decotes ciganinha e punhos, o lastex foi incorporado às máquinas de bordar computadorizadas nos anos 2000 para criar matrizes de ponto favo de mel (smocking / casinha de abelha) com repetições geométricas automatizadas.",
+  "summary": "Técnica decorativa onde fio elástico (lastex) enrolado na bobina inferior cria franzidos estruturados e pontos elásticos ornamentais sobre tecidos leves.",
+  "definition": "O Fio Elástico e Lastex na Bobina para Bordado e Franzido (Elastic Shirring & Machine Smocking) é a técnica na qual um filamento de borracha ou elastômero recoberto por poliéster (lastex) é carregado na carretilha inferior da máquina de bordar, operando em conjunto com uma linha convencional de poliéster na agulha superior. Ao executar matrizes de pespontos paralelos, zigue-zague aberto ou padrões geométricos de ponto cruz e favo de mel, a máquina ancora o elástico no verso do tecido. Após a retirada do bastidor, a contração elástica do fio — ativada termicamente pela aplicação de vapor — comprime o tecido em micro-pregas regulares e uniformes, gerando painéis elásticos confortáveis que esticam e se ajustam perfeitamente ao corpo.",
+  "technicalDetails": "O controle mecânico do lastex na máquina computadorizada exige três calibrações essenciais: 1) Enrolamento Manual Sem Tensão: o fio elástico DEVE ser enrolado no carretel da bobina estritamente à mão, sem esticar nem tracionar o filamento (o enchedor elétrico automático da máquina nunca deve ser usado, pois o estiramento excessivo quebra a elasticidade residual e deforma o ponto); 2) Caixa de Bobina Livre: a passagem do lastex pela caixa de bobina deve ser suave, podendo ser conduzido por fora da mola de lâmina ou com o parafuso de tensão solto em meia volta, permitindo que a lançadeira gire sem prender a borracha; 3) Ativação Térmica por Vapor: o látex possui memória elástica termossensível; ao receber o jato de vapor quente do ferro (sem encostar a base metálica), o fio contrai de 25% a 40% instantaneamente, travando as pregas de smocking de forma uniforme.",
+  "beginnerExplanation": "Sabe aqueles vestidinhos infantis ou blusas femininas com estilo \"ciganinha\" que têm um franzidinho elástico no busto ou nos punhos que estica uma delícia e se molda no corpo sem apertar? Isso é feito com Lastex! O truque na máquina de bordar é colocar essa linha elástica na bobina de baixo (enrolando com a mãozinha bem devagar, sem puxar o elástico). Em cima vai uma linha normal bonita. A máquina borda desenhos geométricos ou linhas retas e, quando você tira a peça do bastidor e passa um vaporzinho de ferro por cima... o tecido encolhe sozinho num passe de mágica e vira aquele franzido fofinho e elástico mais lindo do mundo!",
+  "characteristics": [
+    "Proporciona franzidos elásticos perfeitamente espaçados e regulares em segundos",
+    "Permite criar o clássico ponto casinha de abelha (smocking) com desenhos geométricos bordados",
+    "Enrolamento manual obrigatório na carretilha para preservar a resiliência elástica do látex",
+    "Contração potencializada por choque térmico de vapor após o bordado",
+    "Ideal para tecidos leves e fluidos (viscose, cambraia, gaze de algodão e seda)"
+  ],
+  "construction": [
+    "1. Bobina inferior carregada: Fio de lastex enrolado à mão sem tração mecânica",
+    "2. Agulha superior: Linha de poliéster 120 fina na cor do tecido ou contrastante",
+    "3. Tecido base fluido: Viscose, tricoline leve, cambraia de linho ou musseline",
+    "4. Estabilização sem travas: Entretela hidrossolúvel de PVA lavável (que some na água sem travar o elástico)",
+    "5. Pespontos programados: Linhas paralelas ou padrões de favo de mel em ponto corrido triplo"
+  ],
+  "howItWorks": [
+    "1. O fio elástico de lastex é enrolado na carretilha plástica lentamente com os dedos, sem esticar o filamento.",
+    "2. A bobina é inserida na caixa da máquina e a ponta do lastex é puxada para cima pela agulha.",
+    "3. O tecido leve é montado no bastidor com entretela hidrossolúvel frouxa ou preso apenas por alinhave perimetral.",
+    "4. A máquina borda as fileiras de pontos ou os desenhos ornamentais de smocking em velocidade moderada (450 a 550 PPM).",
+    "5. Ao término, a peça é retirada do bastidor e as sobras de lastex no início e no fim são amarradas à mão com nó duplo para não desmanchar.",
+    "6. O tecido é lavado para dissolver a entretela hidrossolúvel e seco naturalmente.",
+    "7. Aplica-se um jato de vapor quente com o ferro a 2 cm de distância: o tecido franze instantaneamente em ondas elásticas perfeitas."
+  ],
+  "mainTypes": [
+    "Franzido Simples em Linhas Paralelas (Straight Shirring): Fileiras de costuras retas paralelas com lastex para cinturas e punhos elásticos.",
+    "Ponto Casinha de Abelha Computadorizado (Machine Honeycomb Smocking): Matriz em losangos e zigue-zagues que conecta fileiras alternadas, criando textura fofa ornamental.",
+    "Bordado de Florais com Franzido Localizado: Motivos decorativos onde apenas o centro da flor ou folha possui lastex, criando pétalas franzidas em 3D.",
+    "Lastex Colorido Aparente: Quando o fio elástico é colocado na agulha superior para criar efeitos de relevo elástico aparente na frente da peça."
+  ],
+  "applications": [
+    "Vestidos infantis clássicos com peitilho em casinha de abelha (estilo princesa e batizado)",
+    "Blusas e vestidos femininos com decote ombro a ombro (ciganinha) e cinturas marcadas",
+    "Punhos elásticos ornamentados em camisas de mangas bufantes",
+    "Mantas e almofadas com texturas franzidas de luxo em percal e seda",
+    "Fantasias e figurinos de época com golas bufantes renascentistas"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "450 a 550 PPM (velocidade baixa evita aquecimento e estiramento precoce do elástico)",
+    "needleType": "Agulha 75/11 ou 80/12 Ponta Bola Leve (SES) para não ferir as fibras elásticas",
+    "stabilizer": "Entretela hidrossolúvel lavável (NUNCA entretela de recorte ou rasgável rígida)",
+    "density": "Ponto corrido com comprimento de 3,0 mm a 4,0 mm (pontos curtos demais picotam o elástico)",
+    "pullCompensation": "Desnecessária (a própria elasticidade do lastex define a forma da peça)",
+    "underlay": "Sem sob-costura (apenas o trajeto linear dos pontos de ancoragem)",
+    "threadTension": "Tensão superior moderadamente frouxa para permitir a laçada suave com a bobina"
+  },
+  "advantages": [
+    "✔ Transforma tecidos retos em peças anatômicas que vestem com conforto sem zíperes nem botões",
+    "✔ Criação de efeitos artesanais de casinha de abelha em fração do tempo do trabalho manual",
+    "✔ Alta flexibilidade e caimento perfeito em roupas infantis de crescimento rápido",
+    "✔ Agrega um visual romântico e delicado de alta aceitação comercial"
+  ],
+  "limitations": [
+    "Não funciona em tecidos grossos, pesados ou duros (como brim pesado, lona e veludo cotele)",
+    "A bobina com lastex tem pouca metragem devido à espessura da borracha, exigindo trocas frequentes",
+    "O lastex perde a elasticidade se for passado a ferro quente direto sobre o filamento"
+  ],
+  "commonErrors": [
+    "❌ Enrolar o lastex na bobina pelo enchedor elétrico automático em alta velocidade (destrói a elasticidade)",
+    "❌ Encostar a chapa quente do ferro diretamente sobre o tecido com lastex (derrete a borracha interna)",
+    "❌ Usar entretela rasgável rígida (impede o tecido de encolher e deixa fiapos presos nas pregas)",
+    "❌ Cortar a linha de lastex rente sem dar nós manuais de amarração nas pontas (o franzido desmancha)",
+    "❌ Usar pontos muito curtos (1,5 mm): a agulha fura e corta o núcleo de látex do fio elástico"
+  ],
+  "troubleshootingTips": [
+    "Se o tecido não estiver franzindo após a costura: borrife vapor d água bem quente com o ferro a 2 cm de distância do tecido sem encostar; o choque térmico fará o lastex retrair na hora.",
+    "Se a linha de cima estiver sendo puxada para baixo: aperte ligeiramente a tensão da linha superior da agulha para equilibrar com o volume do elástico.",
+    "Se o franzido estiver ficando desigual: assegure-se de que o lastex foi enrolado na bobina com a mesma pressão suave do início ao fim do carretel."
+  ],
+  "dicaArtrelados": "O Segredo do Ferro a Vapor a 2 Centímetros e do Nó Cego com Cola Pano: NUNCA encoste o ferro quente na peça com lastex! Aqueque o ferro na temperatura máxima de vapor, posicione a base a cerca de 2 centímetros de distância do tecido e solte jatos fortes de vapor sobre o bordado: você vai ver o tecido encolher diante dos seus olhos como mágica, formando preguinhas idênticas e perfeitas! E nas pontinhas do elástico no avesso, amarre as duas pontas com um nó de cirurgião duplo e pingue uma gotinha microscópica de cola de tecido: o franzido dura anos de uso sem nunca arrebentar!",
+  "voceSabia": "A técnica de smocking (casinha de abelha) com franzido elástico foi criada na Inglaterra medieval para camisas de pastores e agricultores (chamadas de \"smocks\")! Como não existiam botões nem tecidos com elastano na época, as esposas franziam o tecido no peito e nos punhos para dar liberdade de movimento aos trabalhadores sem que a roupa ficasse larga demais!",
+  "practicalExercise": "Exercício de Bancada (Seu Primeiro Punho Franzido com Casinha de Abelha Digital):\n1. Pegue um carretel de lastex e enrole 3 metros na bobina à mão com calma, sem puxar.\n2. Coloque na máquina com uma linha de poliéster combinando na agulha.\n3. Monte uma tira de viscose de 30 cm no bastidor com entretela hidrossolúvel.\n4. Programe 4 linhas retas paralelas com espaçamento de 1 cm entre si (comprimento de ponto 3,5 mm).\n5. Borde as 4 linhas em 500 PPM e retire do bastidor.\n6. Dê jatos de vapor com o ferro por cima da tira e veja a mágica acontecer: a tira vira um lindo punho elástico franzido!",
+  "quickSummary": "Técnica decorativa onde o fio elástico na bobina cria franzidos automáticos e bordados elásticos no estilo casinha de abelha em tecidos leves através de contração a vapor.",
+  "relatedTerms": [
+    "Bordado Bobbin Work / Bordado pelo Avesso com Fio Especial na Bobina",
+    "Fio de Bobina / Linha de Baixo (Bobbin Thread)",
+    "Caixa de Bobina (Bobbin Case)",
+    "Entretela Hidrossolúvel",
+    "Ponto Corrido / Ponto Reto (Running Stitch)"
+  ],
+  "tags": [
+    "lastex",
+    "fio elastico",
+    "shirring",
+    "smocking",
+    "casinha de abelha",
+    "franzido com lastex",
+    "vestido infantil",
+    "elastic bobbin"
+  ],
+  "updatedAt": "2026-09-28"
+}
+,
+{
+  "id": "f-fio-texturizado-bobina-contato-macio-bebe",
+  "code": "F-000",
+  "term": "Fio Texturizado para Bobina / Fio de Contato Macio para Bebê (Textured Soft Bobbin Thread / Fio Antialérgico Sem Coceira)",
+  "letter": "F",
+  "letterGroup": "F",
+  "level": "Iniciante 🟢 a Intermediário 🟡",
+  "category": "Agulhas, Fios & Enxovais Infantis",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Da engenharia têxtil moderna de filamentos contínuos de poliéster texturizados por falsa torção (DTY - Drawn Textured Yarn), desenvolvida nos anos 1970 para artigos de contato direto com a pele humana. Sua aplicação no bordado computadorizado infantil e hospitalar foi consolidada na década de 2010 por fabricantes internacionais de linhas premium (como Madeira Burmilana/Soft Bobbin e Coats Gramax), visando substituir o uso de filmes termocolantes de proteção plástica por um avesso naturalmente macio e aveludado.",
+  "summary": "Fio de bobina microtexturizado de toque macio e aveludado, desenvolvido para neutralizar o atrito do avesso do bordado na pele hipersensível de bebês.",
+  "definition": "O Fio Texturizado para Bobina / Fio de Contato Macio para Bebê (Textured Soft Bobbin Thread) é um fio de filamento contínuo de poliéster 100% microtexturizado por calor, com estrutura volumosa e fibras onduladas microscópicas. Ao contrário do fio de bobina convencional (que é liso, rígido e pode pinicar a pele quando forma nós de arremate), o fio texturizado expande suas microfibras ao sair da lançadeira, preenchendo as cavidades do avesso e criando uma camada aveludada contínua com toque de pluma. É amplamente utilizado na confecção de bodies de recém-nascidos, pijamas infantis, lingeries de luxo e peças hospitalares, eliminando o desconforto tátil e as alergias de contato sem a necessidade de colar entretelas termocolantes de malha no verso.",
+  "technicalDetails": "Propriedades físicas e operacionais do fio texturizado no bordado computadorizado: 1) Título Têxtil: varia entre 100D/1 e 150D/1 (equivalente a 80wt a 60wt de alta cobertura volumétrica); 2) Comportamento Mecânico na Caixa de Bobina: por ser um fio com volume elástico e textura esponjosa, ele oferece maior atrito superficial ao deslizar sob a mola de lâmina da caixa de bobina. Por isso, a pressão da mola deve ser ligeiramente aliviada (soltando o parafuso em 1/8 a 1/4 de volta) ou calibrada em tensiômetro digital para 18gf a 22gf (gramas-força); 3) Cobertura Óptica e Tátil: as fibras abertas abraçam as laçadas superiores com firmeza, travando os pontos sem formar calombos rígidos; 4) Resistência Térmica e Química: suporta lavagens sucessivas a até 95°C, esterilização hospitalar e secagem em tambor rotativo sem encolher nem perder a maciez aveludada.",
+  "beginnerExplanation": "Sabe quando você compra um bodyzinho de bebê lindo com um ursinho bordado no peito, mas quando vira do avesso sente que os pontinhos de linha são ásperos e espetam a ponta dos dedos? Aquilo incomoda muito a pele fininha do recém-nascido e faz o bebê chorar de coceira! Para resolver isso sem precisar colar aquele adesivo que descola na primeira lavada, as bordadeiras profissionais usam o Fio Texturizado na bobina de baixo! Ele é um fio fofinho e macio como um algodão-doce. Quando a máquina borda, o verso da roupinha fica parecendo um veludo suave, tão gostoso que parece carinho de mãe na pele do bebê!",
+  "characteristics": [
+    "Toque aveludado e ultramacio que neutraliza qualquer aspereza no avesso do bordado",
+    "Elimina a necessidade de colar termocolantes de malha protetora (como Touch Clean / Soft Touch)",
+    "Hipoalergênico e certificado com OEKO-TEX Standard 100 Classe 1 (seguro para recém-nascidos)",
+    "Fibras microtexturizadas que expandem e cobrem os nós de corte automaticamente",
+    "Alta durabilidade: mantém a maciez permanente mesmo após centenas de lavagens na máquina"
+  ],
+  "construction": [
+    "1. Filamento base: Poliéster 100% microtexturizado por falsa torção de alta resiliência",
+    "2. Alimentação na carretilha: Bobina cheia com enrolamento suave sem estiramento excessivo",
+    "3. Caixa de bobina calibrada: Tensão aliviada para acomodar o volume expandido da microfibra",
+    "4. Linha superior: Fio de poliéster 120D/2 padrão na agulha",
+    "5. Tecido e estabilizador: Malha suedine ou algodão 100% com entretela de malha ou hidrossolúvel"
+  ],
+  "howItWorks": [
+    "1. Enche-se a carretilha com o fio texturizado com velocidade moderada no enchedor para não esmagar as microfibras.",
+    "2. A bobina é colocada na caixa e a tensão da mola de lâmina é testada (o fio deve deslizar com maciez contínua).",
+    "3. Monta-se a roupinha de bebê no bastidor com entretela adequada para malha.",
+    "4. A máquina borda normalmente na velocidade padrão (600 a 750 PPM).",
+    "5. Conforme a laçada superior se forma, o fio texturizado inferior se acomoda e suas microfibras se abrem.",
+    "6. Ao finalizar e cortar a entretela, o avesso apresenta uma superfície plana, aveludada e sem pontas rígidas.",
+    "7. Ao toque dos dedos ou da pele do bebê, sente-se apenas a maciez natural do tecido."
+  ],
+  "mainTypes": [
+    "Fio Texturizado 100D/1 Branco Clássico: O padrão mais utilizado no mundo para bodies e macacões de recém-nascido.",
+    "Fio Texturizado Preto para Peças Escuras: Ideal para camisetas esportivas e lingeries pretas, evitando que o avesso contraste.",
+    "Fio Texturizado de Microfibra Ultrafina (150D): Versão de altíssima densidade para peças de contato íntimo de alta-costura.",
+    "Fio Texturizado Antiestático: Com tratamento especial para evitar acúmulo de poeira e eletricidade estática em roupas hospitalares."
+  ],
+  "applications": [
+    "Enxovais completos de maternidade: bodies, mijões, macacões, pagãos e gorrinhos de recém-nascido",
+    "Pijamas infantis e camisolas delicadas de crianças",
+    "Moda íntima e lingerie de luxo (sutiãs, calcinhas e bodies de renda)",
+    "Roupas esportivas de alta performance (dry-fit e tops de compressão que friccionam no peito)",
+    "Vestuário hospitalar pediátrico e peças para pessoas com dermatite atópica ou pele sensível"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "600 a 750 PPM (opera com excelência tanto em máquinas domésticas quanto industriais)",
+    "needleType": "Agulha 70/10 ou 75/11 Ponta Bola Pequena (SES / Ball Point) para malhas e tecidos finos",
+    "stabilizer": "Entretela de malha macia ou entretela hidrossolúvel de PVA lavável",
+    "density": "Densidade padrão de 0,40 mm a 0,45 mm (as fibras volumosas do fio texturizado cobrem muito bem)",
+    "pullCompensation": "0,35 mm a 0,45 mm para acomodar o relaxamento natural das malhas de algodão",
+    "underlay": "Sob-costura leve em tatami aberto ou zigue-zague suave",
+    "threadTension": "Tensão da bobina calibrada ligeiramente mais frouxa (18 a 22gf) e superior equilibrada"
+  },
+  "advantages": [
+    "✔ Elimina 100% das reclamações de clientes sobre bordados que \"pinicam\" ou causam alergia no bebê",
+    "✔ Economiza tempo e custos de produção ao dispensar o recorte e prensagem de filmes protetores no avesso",
+    "✔ Não descola nem solta pontas com a lavagem (ao contrário das películas termocolantes adesivas)",
+    "✔ Permite que a roupa de bebê respire livremente sem criar placas plásticas duras no peito da criança"
+  ],
+  "limitations": [
+    "Pode exigir uma caixa de bobina dedicada ou uma leve regulagem no parafuso de tensão se a máquina for muito sensível",
+    "Por ser mais volumoso que o fio de poliéster 60wt comum, a bobina comporta cerca de 20% a menos de metragem",
+    "Exige que o enchedor de bobina não aperte o fio em tensão excessiva para não esticar a texturização"
+  ],
+  "commonErrors": [
+    "❌ Encher a bobina com tensão muito apertada no enchedor: esmaga o volume das microfibras e perde a maciez",
+    "❌ Manter a caixa de bobina calibrada para linha ultra-fina 80wt sem ajustar: o fio texturizado fica preso e repuxa",
+    "❌ Usar agulha de ponta afiada comum em malha de bebê: fura as tramas da malha suedine e abre buraquinhos",
+    "❌ Deixar nós de arremate muito compridos sem arrematar na matriz: pontas longas de fio soltas no avesso",
+    "❌ Achar que o fio texturizado pode ser usado na agulha superior para bordar (ele é exclusivo para a bobina)"
+  ],
+  "troubleshootingTips": [
+    "Se o fio da bobina estiver subindo para a frente do bordado: afrouxe 1/8 de volta o parafuso da caixa de bobina ou aperte ligeiramente a tensão da linha superior da agulha.",
+    "Se o sensor de linha da bobina acusar erro falso: limpe a poeira e fiapos da caixa de lançadeira com um pincel macio, pois fios texturizados soltam microfibras naturais ao atrito.",
+    "Se a carretilha enroscar ao girar: certifique-se de que a bobina não foi enchida até a borda máxima; deixe uma folga de 1 mm da borda do carretel plástico."
+  ],
+  "dicaArtrelados": "O Segredo da Caixa de Bobina Reserva com Selo Vermelho: se você trabalha muito com enxoval de bebê e moda íntima, compre uma caixinha de bobina extra para a sua máquina e marque com uma gotinha de esmalte vermelho! Deixe essa caixinha já pré-calibrada e regulada exclusivamente para o fio texturizado macio. Assim, quando entrar uma encomenda de bodies de bebê, basta trocar a caixinha em 5 segundos, sem precisar ficar mexendo e desregulando a tensão da sua caixinha principal do dia a dia!",
+  "voceSabia": "A pele de um bebê recém-nascido é cerca de 30% mais fina do que a pele de um adulto e absorve substâncias com muito mais facilidade! É por isso que dermatologistas e pediatras recomendam roupas 100% de algodão com avessos suaves e costuras planas para prevenir dermatites e irritações por fricção mecânica!",
+  "practicalExercise": "Exercício de Bancada (O Teste da Bochecha para Avessos de Maternidade):\n1. Encha uma bobina com o fio texturizado para bebê e coloque na máquina.\n2. Borde um ursinho ou monograma de 5 cm em um retalho de malha suedine 100% algodão.\n3. Em outro retalho, borde o mesmo ursinho com linha de bobina comum tradicional.\n4. Retire as entretelas e feche os olhos.\n5. Encoste o avesso dos dois bordados na pele sensível da sua bochecha ou no antebraço.\n6. Sinta a diferença imediata: o fio texturizado parece um veludo macio, enquanto o outro pinica!",
+  "quickSummary": "Fio de bobina microtexturizado com toque aveludado e antialérgico, indispensável em enxovais infantis e bodies de bebê para neutralizar a aspereza do avesso.",
+  "relatedTerms": [
+    "Fio de Bobina / Linha de Baixo (Bobbin Thread - 60wt / 70wt / 80wt)",
+    "Caixa de Bobina (Bobbin Case)",
+    "Bordado em Peças Infantis e Enxoval de Bebê (Babywear & Nursery Embroidery)",
+    "Entretela Termocolante / Filme Protetor de Avesso (Soft Touch / Protect & Seal)",
+    "Tensão da Linha de Bobina (Bobbin Tension)"
+  ],
+  "tags": [
+    "fio texturizado",
+    "bobina para bebe",
+    "fio macio",
+    "soft bobbin",
+    "antialergico",
+    "body de bebe",
+    "enxoval infantil",
+    "avesso macio"
+  ],
+  "updatedAt": "2026-09-28"
+}
+,
+{
+  "id": "f-fio-la-acrilico-bordado-ponto-russo-trico",
+  "code": "F-000",
+  "term": "Fio de Lã e Acrílico para Bordado / Efeito Ponto Russo e Tricô (Wool & Acrylic Embroidery Thread / Lana 12wt / Burmilana)",
+  "letter": "F",
+  "letterGroup": "F",
+  "level": "Intermediário 🟡 a Avançado 🔴",
+  "category": "Agulhas, Fios & Técnicas Especiais",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Da fusão da tradição secular do bordado de tapeçaria e crewel work inglês (século XVII) com a fiação industrial moderna de fios híbridos. Desenvolvido na Alemanha pela Madeira (Burmilana) e na Itália nos anos 1980, este fio combinou 50% de lã natural tosquiada com 50% de acrílico dralon de alta tenacidade, permitindo que fios grossos e fofos de espessura 12wt pudessem ser operados em máquinas de bordar industriais e domésticas de alta velocidade sem arrebentar.",
+  "summary": "Fio nobre encorpado de lã e acrílico (12wt) que cria texturas felpudas, rústicas e aveludadas semelhantes ao tricô manual e ao bordado de tapeçaria.",
+  "definition": "O Fio de Lã e Acrílico para Bordado (Wool & Acrylic Thread / Lana 12wt) é uma linha de bordar híbrida de alto calibre, composta tipicamente por 50% de pura lã e 50% de fibra acrílica cardada. Com espessura cerca de três vezes maior que a linha convencional de poliéster 40wt, este fio preenche áreas da matriz com uma fração do número de pontos habitual, proporcionando uma textura tridimensional mate, aveludada, quente e com visual artesanal de estamparia folclórica. Sua característica mais distintiva é a capacidade de ser levemente escovado no pós-bordado com uma escova de cerdas de arame ou latão, eriçando as microfibras de lã para criar um efeito aveludado volumoso idêntico ao chenille, ao ponto russo e ao pelo de animais.",
+  "technicalDetails": "A operação com fio de lã 12wt exige calibração técnica específica na matriz e na mecânica da máquina: 1) Densidade Reduzida no Software: como a linha é volumosa (título 12wt / 330 dtex), a densidade de ponto deve ser calibrada entre 0,85 mm e 1,20 mm de espaçamento entre passadas (se for utilizada a densidade padrão de 0,40 mm de fios comuns, haverá congestionamento de linha, perfuração excessiva e quebra de agulha); 2) Sistema de Agulha com Olho Gigante: utilização obrigatória de agulha Schmetz ou Groz-Beckert Topstitch ou Chenille tamanho 100/16 ou 110/18 (o olho alongado dessa agulha evita que as fibras de lã sejam desfiadas por atrito mecânico na descida da barra); 3) Velocidade Operacional: limite de 400 a 550 PPM para manter o fluxo contínuo sem aquecimento do acrílico; 4) Tensão dos Tensores: alívio sensível na mola tensora superior para acomodar a espessura da meada sem prensar o fio.",
+  "beginnerExplanation": "Já viu aquelas jaquetas de inverno com flores de lã que parecem bordadas à mão com agulha grossa de tricô, ou aqueles ursinhos de pelúcia com focinho fofinho que dá vontade de apertar? Eles são feitos com Fio de Lã para máquina de bordar! Essa linha é gordinha e felpuda, muito mais grossa do que a linha comum de bordar. O segredo na máquina é usar uma agulha com o buraquinho bem grandão (agulha 100) e mandar o computador dar menos pontos, porque um pontinho dessa linha cobre o mesmo espaço que três pontos de linha comum! E o mais legal: depois que o bordado fica pronto, você passa uma escovinha de leve por cima e a lã vira uma pelúcia fofinha de verdade!",
+  "characteristics": [
+    "Espessura encorpada (título 12wt) que proporciona cobertura rápida com poucos pontos",
+    "Acabamento fosco, nobre e aveludado que remete à arte têxtil artesanal e folk art",
+    "Permite escovação após o bordado para gerar efeito tridimensional de pelúcia e chenille",
+    "Composição de lã virgem e acrílico para resistência mecânica combinada à maciez natural",
+    "Excelente isolamento térmico e apelo estético para coleções de outono/inverno"
+  ],
+  "construction": [
+    "1. Fio superior encorpado: Meada híbrida 50% lã e 50% acrílico título 12wt (ex: Burmilana)",
+    "2. Agulha de olho longo: Agulha Topstitch calibre 100/16 ou 110/18",
+    "3. Linha de bobina correspondente: Fio de poliéster 60wt padrão na cor da base ou neutro",
+    "4. Tecido de sustentação: Lã batida, veludo, moletom pesado, jeans, sarja ou feltro grosso",
+    "5. Matriz programada com baixa densidade: Espaçamento de 0,90 mm a 1,10 mm e sob-costura mínima"
+  ],
+  "howItWorks": [
+    "1. Ajusta-se a matriz no software de bordado, abrindo o espaçamento dos pontos cheios e tatami para 1,0 mm e removendo sob-costuras pesadas.",
+    "2. Instala-se a agulha Topstitch 100/16 na máquina e alivia-se ligeiramente o disco de tensão superior.",
+    "3. Passa-se o fio de lã pelas guias da máquina garantindo que o cone gire livremente no suporte vertical.",
+    "4. Prende-se o tecido no bastidor com entretela de recorte estável.",
+    "5. A máquina borda em velocidade moderada (450 a 500 PPM), criando cordões aveludados nobres.",
+    "6. Ao finalizar, retira-se o tecido do bastidor e aparar-se eventuais sobras de linha.",
+    "7. Se desejar o efeito pelúcia, escova-se a superfície bordada suavemente em movimentos circulares com uma escovinha de arame macio para levantar os pelos da lã."
+  ],
+  "mainTypes": [
+    "Fio de Lã Mesclado / Mouliné: Fios com dois ou três tons de cores enrolados juntos, criando profundidade rústica em pelagens de animais.",
+    "Fio de Lã Monocromático Mate: Cores puras e profundas para brasões universitários e jaquetas bomber colegiais.",
+    "Fio de Lã Efeito Escovado (Brushed Crewel): Bordados projetados especificamente para serem eriçados com escovinha metálica após a costura.",
+    "Fio de Lã Metalizado (Lana Metallic): Mistura rara de lã com filamento dourado sutil para tapeçarias sacras e peças natalinas."
+  ],
+  "applications": [
+    "Jaquetas bomber colegiais e casacos de inverno em lã batida com letras e monogramas vintage",
+    "Gorros de tricô, boinas, luvas e cachecóis personalizados de alta montanha",
+    "Bordados temáticos campestres e folk em almofadas de chalés e tapetes decorativos",
+    "Bordado de pelos e focinhos de animais (cachorros, gatos e cavalos) com textura tátil realista",
+    "Botas de camurça, sapatos de inverno e detalhes em bolsas estruturadas de tweed"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "400 a 500 PPM (velocidade baixa para não quebrar nem aquecer a fibra de lã)",
+    "needleType": "Agulha Topstitch 100/16 ou 110/18 (olho alongado evita acúmulo de fiapos)",
+    "stabilizer": "Entretela de recorte (Cutaway) pesada de 80 g/m² para segurar o volume da linha",
+    "density": "Espaçamento de 0,90 mm a 1,20 mm (NUNCA usar densidade fechada de 0,40 mm)",
+    "pullCompensation": "0,40 mm a 0,55 mm (a espessura do fio empurra o tecido e exige boa compensação)",
+    "underlay": "Apenas costura perimetral simples (Edge Walk); dispensar tatami de base para não engrossar a peça",
+    "threadTension": "Tensão superior moderadamente frouxa para acomodar o calibre grosso da meada"
+  },
+  "advantages": [
+    "✔ Proporciona um visual artístico artesanal de alto luxo que a linha comum de poliéster jamais alcança",
+    "✔ Economiza até 40% no tempo total de máquina ao cobrir grandes áreas com muito menos pontos",
+    "✔ Possibilidade de criar textura felpuda tridimensional inovadora através de escovação manual pós-bordado",
+    "✔ Agrega altíssimo valor de venda em coleções exclusivas de outono e inverno"
+  ],
+  "limitations": [
+    "Incompatível com matrizes de micro-detalhes ou letras minúsculas (menores que 12 mm de altura)",
+    "Solta pequenos fiapos de fibra natural durante o trabalho, exigindo limpeza periódica da lançadeira",
+    "Exige cuidados especiais de lavagem (lavagem suave em água fria e secagem à sombra, como qualquer peça de lã nobre)"
+  ],
+  "commonErrors": [
+    "❌ Borda com matriz padrão de linha 40wt sem abrir a densidade: a máquina bate em cima dos mesmos furos e quebra a agulha",
+    "❌ Usar agulha fina comum 75/11: o buraquinho esmaga a lã, desfia o fio e causa quebras a cada 20 segundos",
+    "❌ Bordar em velocidade máxima de 800 PPM: o atrito superaquece o acrílico e rompe a meada",
+    "❌ Escovar o bordado com força excessiva: pode arrancar os nós de fixação se o arremate inicial não tiver sido robusto",
+    "❌ Usar entretela rasgável frágil em tecidos grossos: a peça deforma e perde o alinhamento"
+  ],
+  "troubleshootingTips": [
+    "Se o fio estiver desfiando na ponta da agulha: troque imediatamente a agulha por uma Topstitch 100/16 com olho largo de acabamento antiaderente.",
+    "Se a máquina travar por excesso de linha no avesso: abra o arquivo no software e aumente a distância entre pontos para pelo menos 1,0 mm e remova sob-costuras desnecessárias.",
+    "Se acumular fiapos na caixa de bobina: limpe com um pincel macio e aspire a região da lançadeira a cada 2 horas de bordado contínuo com lã."
+  ],
+  "dicaArtrelados": "O Segredo da Escovinha de Latão e do Spray Fixador de Tecido: para transformar o bordado de lã comum em uma verdadeira almofadinha de veludo peludo, compre uma escovinha pequena de cerdas de latão macio (aquelas próprias para limpar sapatos de nobuck e camurça)! Depois de bordar, passe a escovinha suavemente em círculos com carinho sobre o bordado. As fibras de lã se soltam e criam uma penugem macia e espetacular! No final, borrife um spray impermeabilizante de tecido bem de longe: as fibras ficam protegidas contra poeira e mantêm a fofura por muitos anos!",
+  "voceSabia": "A técnica de bordado com lã grossa remonta à famosa \"Tapeçaria de Bayeux\", uma obra de arte monumental do ano de 1077 com quase 70 metros de comprimento, toda bordada à mão com fios de lã pura de carneiro tingidos com plantas naturais, contando a conquista normanda da Inglaterra!",
+  "practicalExercise": "Exercício de Bancada (O Ursinho Peludo com Efeito Chenille Escovado):\n1. Pegue uma matriz de rostinho de ursinho e abra a densidade no software para 1,0 mm.\n2. Coloque agulha Topstitch 100/16 na máquina e abasteça com fio de lã marrom claro.\n3. Monte um retalho de feltro grosso ou brim no bastidor com entretela de recorte.\n4. Borde o ursinho em velocidade controlada (450 PPM).\n5. Ao retirar do bastidor, passe a escovinha de camurça suavemente nas bochechas do urso.\n6. Toque com os dedos e sinta a bochecha do ursinho virando pelúcia de verdade na sua frente!",
+  "quickSummary": "Fio espesso e fofo de lã com acrílico (12wt) que produz bordados aveludados de tapeçaria, folk art e efeitos peludos em relevo para roupas de inverno.",
+  "relatedTerms": [
+    "Fio de Poliéster para Bordado (Polyester Embroidery Thread - 120D/2 / 40wt)",
+    "Densidade de Ponto (Stitch Density)",
+    "Agulha de Ponta Arredondada vs Ponta Aguda",
+    "Compensação de Encolhimento (Pull Compensation)",
+    "Franja em Bordado / Ponto de Franja (Fringe Embroidery / 3D Loop Stitch)"
+  ],
+  "tags": [
+    "fio de la",
+    "burmilana",
+    "lana 12wt",
+    "ponto russo",
+    "efeito pelucia",
+    "bordado de inverno",
+    "tapeçaria digital",
+    "agulha topstitch"
+  ],
+  "updatedAt": "2026-09-28"
+}
+,
+{
+  "id": "f-flocagem-efeito-flocado-bordado-eletronico",
+  "code": "F-000",
+  "term": "Flocagem e Efeito Flocado no Bordado Eletrônico (Flock Heat Transfer & Embroidered Flocking / Patches Aveludados)",
+  "letter": "F",
+  "letterGroup": "F",
+  "level": "Intermediário 🟡",
+  "category": "Técnicas Mistas, Apliques & Estamparia Híbrida",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Do francês floc (pequeno tufo de lã ou algodão) e do inglês flocking. O processo industrial de deposição eletrostática de microfibras têxteis sobre adesivos surgiu na década de 1950 nos Estados Unidos e Alemanha. Sua hibridização com o bordado computadorizado ganhou força nos anos 1990 e 2000 nos uniformes da Premier League inglesa e na moda colegial norte-americana (varsity jackets), combinando a textura macia da camurça floco com a nobreza e segurança dos pespontos e pontos cheios bordados em volta do recorte.",
+  "summary": "Técnica híbrida que une filmes aveludados eletrostáticos (flock) ao bordado computadorizado, criando apliques com toque de veludo e contornos bordados de alta definição.",
+  "definition": "A Flocagem e Efeito Flocado no Bordado Eletrônico (Embroidered Flocking / Flock Appliqué) é a técnica combinada na qual uma película ou tecido recoberto por microfibras verticais de raiom ou poliamida (com toque de camurça, veludo ou feltro aveludado) é integrado ao bastidor da máquina de bordar. A máquina executa linhas guias de posicionamento, pontos de fixação e contornos perimetrais em ponto cheio (satin stitch) ou ponto fiteiro sobre o filme flocado. O resultado é um emblema, logotipo ou número esportivo com preenchimento perfeitamente liso, aveludado e uniforme — economizando dezenas de milhares de pontos tatami —, contornado pela rigidez estrutural, brilho e durabilidade permanente da linha de bordar.",
+  "technicalDetails": "A integração técnica entre flocking e bordado envolve parâmetros térmicos e mecânicos rigorosos: 1) Tipos de Material Flocado: utiliza-se filme vinílico termocolante flocado (com espessura de 350 a 500 microns e altura de fibra de 0,5 mm a 1,0 mm) ou tecido flocado pré-revestido com adesivo termofusível (Hotmelt copoliamida); 2) Sequência na Matriz de Aplique: etapa A) Pesponto de marcação no tecido; etapa B) Pausa para posicionamento manual do filme flocado; etapa C) Pesponto de ancoragem (tackdown); etapa D) Recorte perimetral das sobras com tesoura pelicano (ou corte prévio em plotter/laser); etapa E) Cobertura com ponto cheio de largura generosa (3,5 mm a 4,5 mm) e densidade de 0,40 mm para selar totalmente as microfibras cortadas; 3) Fixação Térmica Pós-Bordado: após a costura, a peça é levada à prensa térmica plana a 150°C - 160°C por 12 a 15 segundos com pressão média-alta, garantindo que o adesivo termocolante penetre no tecido e lacre o verso do bordado.",
+  "beginnerExplanation": "Sabe aqueles números fofinhos e aveludados nas costas de camisas de futebol de times europeus, ou aqueles emblemas de jaquetas colegiais americanas que parecem feitos de camurça ou veludo de luxo com uma bordinha bordada perfeita ao redor? Isso é o bordado flocado! Em vez de gastar horas e gastar milhares de metros de linha comum tentando preencher um desenho gigante com ponto de preenchimento, a gente usa uma folha especial que já vem com pelinhos de veludo macio. A máquina de bordar costura essa folha no tecido e faz uma moldura bordada linda ao redor. O trabalho fica pronto três vezes mais rápido, gasta muito menos linha e o resultado tem aquele toque de veludo que todo cliente adora passar a mão!",
+  "characteristics": [
+    "Textura aveludada e tridimensional com toque macio idêntico à camurça e ao veludo",
+    "Economia drástica de pontos (substitui grandes áreas de tatami por aplique rápido)",
+    "Contorno bordado em ponto cheio que protege as bordas e impede qualquer desfiamento",
+    "Alta durabilidade e resistência a dezenas de ciclos de lavagem doméstica",
+    "Excelente aderência em moletons, jaquetas jeans, bonés estruturados e uniformes esportivos"
+  ],
+  "construction": [
+    "1. Filme ou folha flocada: Película termocolante com microfibras eletrostáticas de poliamida",
+    "2. Matriz de aplique inteligente: Pesponto guia, costura de fixação e borda em ponto cheio largo",
+    "3. Linha de poliéster 120D/2 brilhante: Contraste visual perfeito entre a borda brilhante e o fundo mate",
+    "4. Tesoura de aplique pelicano: Lâmina curva para corte rente sem ferir os pelos do floco",
+    "5. Prensa térmica ou ferro: Cura final a 155°C para ativação permanente da cola termoplástica"
+  ],
+  "howItWorks": [
+    "1. O tecido é montado no bastidor com entretela de recorte.",
+    "2. A máquina borda o contorno de referência em ponto corrido indicando o formato da letra ou desenho.",
+    "3. O operador posiciona o pedaço de filme flocado sobre a marcação.",
+    "4. A máquina executa o pesponto de fixação (tackdown) segurando a folha aveludada.",
+    "5. Com o bastidor na máquina ou na mesa, recorta-se o excesso do floco rente à costura com tesoura pelicano.",
+    "6. A máquina borda o acabamento perimetral em ponto cheio largo (4,0 mm), cobrindo totalmente a linha de corte.",
+    "7. A peça é prensada termicamente por 15 segundos a 155°C para fundir o adesivo hotmelt nas fibras da peça."
+  ],
+  "mainTypes": [
+    "Flocagem Termocolante Cortada no Bastidor: O filme é colocado inteiro e recortado manualmente após a costura de fixação.",
+    "Flocagem Pré-Cortada a Laser / Plotter: As letras e formas flocadas são cortadas previamente com precisão milimétrica e apenas encaixadas no bastidor.",
+    "Floco Multicamadas / 3D High Density: Película flocada extra espessa (altura de fibra de 1 mm) para efeito de alto relevo aveludado.",
+    "Floco Estampado / Sublimado: Filme flocado branco que recebe estampa sublimática colorida antes de ser aplicado e bordado no bastidor."
+  ],
+  "applications": [
+    "Jaquetas colegiais (Varsity / Letterman Jackets) com letras garrafais e números no peito e costas",
+    "Uniformes de futebol, basquete e beisebol com numeração e nomes em textura aveludada",
+    "Bonés de aba curva e reta com logotipos corporativos e de marcas de streetwear",
+    "Moletons pesados e agasalhos esportivos de luxo",
+    "Patches colecionáveis e emblemas termocolantes para personalização rápida"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "600 a 750 PPM (velocidade estável para não repuxar as microfibras do floco)",
+    "needleType": "Agulha 75/11 ou 80/12 Ponta Bola Leve (SES) ou Ponta Aguda Sharp",
+    "stabilizer": "Entretela de recorte de 80 g/m² para garantir suporte firme em moletons e jaquetas",
+    "density": "Largura de coluna de 3,5 mm a 4,5 mm com densidade de 0,40 mm no contorno de acabamento",
+    "pullCompensation": "0,40 mm a 0,50 mm no ponto cheio para abraçar com folga a espessura do filme flocado",
+    "underlay": "Sob-costura em zigue-zague ou tatami duplo para amortecer o degrau entre o floco e o tecido",
+    "threadTension": "Tensão superior equilibrada para que o ponto cheio fique plano e uniforme sobre o veludo"
+  },
+  "advantages": [
+    "✔ Reduz o tempo de máquina em até 70% comparado a bordar letras gigantes em ponto tatami cheio",
+    "✔ Elimina o enrugamento comum que matrizes muito densas e pesadas causam em moletons",
+    "✔ Toque nobre, elegante e confortável que não fica duro nem desconfortável contra o peito",
+    "✔ Acabamento industrial de grife internacional com altíssimo valor percebido pelo consumidor"
+  ],
+  "limitations": [
+    "Não é indicado para letras minúsculas ou detalhes geométricos menores que 5 mm de largura",
+    "Exige tesoura pelicano de precisão bem afiada para que as pontas do floco não fiquem desfiadas",
+    "A prensa térmica ou ferro deve ser aplicado preferencialmente com papel teflon para não queimar as fibras"
+  ],
+  "commonErrors": [
+    "❌ Fazer o ponto cheio de acabamento muito estreito (menos de 2,5 mm): as beiradas do floco escapam com o uso",
+    "❌ Pressionar o ferro de passar ultra quente diretamente sobre o floco sem teflon: derrete os pelos sintéticos",
+    "❌ Esquecer de ativar a cola com calor após o bordado: com as lavagens, o centro da letra fica frouxo",
+    "❌ Recortar o floco longe da costura: sobra uma rebarba feia que o ponto cheio não consegue tampar",
+    "❌ Puxar o filme flocado com força enquanto a máquina costura: deforma a malha do moletom"
+  ],
+  "troubleshootingTips": [
+    "Se as pontinhas do floco ficarem visíveis fora do bordado: use uma pinça de precisão para empurrar os pelinhos para dentro antes do ponto cheio passar, ou aumente a largura da coluna para 4,0 mm.",
+    "Se os pelinhos do floco ficarem esmagados após a prensagem: escove suavemente a peça com uma escova de dentes macia e borrife um jato leve de vapor d água para levantar os pelos.",
+    "Se a tesoura mastigar o filme em vez de cortar: certifique-se de usar tesoura pelicano com fio navalha bem ajustada na articulação."
+  ],
+  "dicaArtrelados": "O Segredo da Folha de Teflon e da Escovação a Vapor: ao prensar a peça após o bordado para colar o floco no tecido, NUNCA coloque a chapa de metal quente direto em cima do veludo! Use SEMPRE uma folha de teflon antiaderente ou um papel manteiga por cima. E logo após abrir a prensa, enquanto a peça ainda estiver quentinha, passe uma escovinha de cerdas bem macias em movimentos circulares: os pelinhos do floco que foram prensados se erguem na hora, deixando o veludo fofo, brilhante e com aspecto de loja de shopping de alto padrão!",
+  "voceSabia": "A flocagem remonta à China antiga por volta de 1000 a.C., onde artesãos usavam cola natural e poeira de seda para revestir tecidos cerimoniais da corte imperial! Já a flocagem eletrostática moderna faz com que milhões de fibras microscópicas fiquem todas em pé perfeitamente retas, criando a ilusão ótica e tátil de um veludo natural perfeito!",
+  "practicalExercise": "Exercício de Bancada (Sua Primeira Letra Colegial em Bordado Flocado):\n1. Escolha uma matriz de letra colegial (estilo Varsity) de 8 cm com pesponto de aplique.\n2. Monte um pedaço de moletom com entretela de recorte no bastidor.\n3. Borde a linha guia, posicione um retalho de filme flocado vermelho e execute a costura de fixação.\n4. Com a tesoura pelicano, apare o excesso de floco bem rente aos pontos.\n5. Deixe a máquina bordar a borda em ponto cheio branco com 4,0 mm de largura.\n6. Leve à prensa ou passe a ferro morno com papel manteiga por 15 segundos e sinta o toque incrível da sua letra profissional!",
+  "quickSummary": "Técnica mista que combina filmes aveludados com contornos bordados em ponto cheio, criando números, letras e emblemas com textura de camurça e visual colegial nobre.",
+  "relatedTerms": [
+    "Bordado em Aplique / Bordado com Aplicação (Appliqué Embroidery)",
+    "Ponto Cheio (Satin Stitch)",
+    "Compensação de Encolhimento (Pull Compensation)",
+    "Entretela de Recorte (Cutaway)",
+    "Feltro para Bordado e Aplique (Embroidery Craft & Badge Felt)"
+  ],
+  "tags": [
+    "flocagem",
+    "flock",
+    "efeito flocado",
+    "aplique aveludado",
+    "varsity jacket",
+    "camisa esportiva",
+    "letra colegial",
+    "toque de veludo"
+  ],
+  "updatedAt": "2026-09-28"
+}
+,
+{
+  "id": "f-fita-cetim-fitas-decorativas-bastidor",
+  "code": "F-000",
+  "term": "Fita de Cetim e Fitas Decorativas no Bastidor (Machine Ribbon Embroidery & In-the-Hoop Ribbon Work)",
+  "letter": "F",
+  "letterGroup": "F",
+  "level": "Intermediário 🟡",
+  "category": "Técnicas Mistas, Apliques & Enxovais Nobres",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Do latim vitta (faixa, fita) e do árabe zaituni (referente à cidade chinesa de Zaitun ou Quanzhou, célebre pelas sedas brilhantes que deram origem ao termo cetim). O bordado com fitas finas de seda (silk ribbon embroidery) foi o apogeu da moda rococó na corte francesa de Versalhes no século XVIII. A automação digital no bastidor eletrônico (In-the-Hoop) foi desenvolvida a partir dos anos 2000, permitindo programar matrizes que realizam passadores, presilhas, franzidos e laços tridimensionais com fitas têxteis de poliéster e cetim diretamente na máquina computadorizada.",
+  "summary": "Técnica decorativa digital que incorpora fitas de cetim, gorgurão e organza no bastidor para criar laços, passadores, pregas e flores tridimensionais.",
+  "definition": "O uso de Fita de Cetim e Fitas Decorativas no Bastidor (Machine Ribbon Embroidery & ITH Ribbon Attachment) é a técnica na qual fitas têxteis pré-fabricadas de cetim, gorgurão, veludo ou organza são posicionadas e fixadas durante a execução da matriz de bordado computadorizado. A máquina é programada com paradas estratégicas (comandos de stop) para que a bordadeira posicione a fita sobre linhas guias, realizando em seguida costuras de pesponto reforçado, pontos decorativos de ancoragem, pregas dobradas sucessivas para formar pétalas de rosa tridimensionais ou presilhas de passafita em barrados de toalhas e roupas de batizado, sem a necessidade de costuras manuais posteriores.",
+  "technicalDetails": "A programação e execução de fitas no bastidor exige controle dimensional estrito: 1) Largura e Calibre da Fita: as fitas mais comuns variam de fita nº 0 (3 mm) e nº 1 (7 mm) para entrelaçamentos e laços delicados, até fita nº 3 (15 mm) e nº 5 (22 mm) para passafitas estruturados e barrados; 2) Programação da Matriz: a matriz deve possuir linhas de colocação (placement lines) e costuras de fixação com comprimento de ponto ampliado (2,8 mm a 3,5 mm) para não picotar a fita; 3) Selamento das Extremidades: as pontas das fitas de poliéster devem ser seladas termicamente com calor suave antes de serem presas pelas costuras perimetrais para evitar desfiamento futuro; 4) Fixação Temporária no Bastidor: fitas compridas que formam laçarotes soltos devem ser dobradas e presas com fita crepe médica de papel suave (micropore) nas laterais do bastidor para que a alavanca do calcador ou a haste da agulha não enrosquem na sobra de fita durante o movimento do pantógrafo.",
+  "beginnerExplanation": "Sabe aquelas toalhas de banho ou mantas de bebê que têm um laço de fita de cetim perfeito, ou aquelas florzinhas de fita que parecem botões de rosa de verdade aplicados no meio do bordado? Fazer isso à mão leva tempo e nem sempre fica reto. Na máquina de bordar, a própria matriz avisa a hora de colocar a fita! A máquina faz um risquinho no tecido, você coloca a fita de cetim por cima, e a máquina dá pontinhos firmes e bonitos que prendem a fita para sempre. O melhor de tudo: você pode dobrar a fita para fazer laços ou pétalas de flor fofinhas que ficam saltadas para fora do tecido, dando um efeito 3D chique que encanta qualquer cliente!",
+  "characteristics": [
+    "Incorporação de fitas brilhantes e texturizadas com acabamento impecável no bastidor",
+    "Criação de elementos tridimensionais (pétalas, pregas, rosetas e laçarotes volumosos)",
+    "Substitui a costura manual demorada de passafitas e laços externos",
+    "Alta precisão no alinhamento e esquadro em barrados de enxoval",
+    "Compatível com fitas de cetim face simples, dupla face, gorgurão e voil/organza"
+  ],
+  "construction": [
+    "1. Fita de acabamento: Rolo de fita de cetim 100% poliéster na largura compatível com a matriz",
+    "2. Matriz ITH especializada: Programação com paradas programadas e linhas guias de posicionamento",
+    "3. Linha de poliéster 120D/2: Fio na mesma cor da fita para pespontos invisíveis de fixação",
+    "4. Fita adesiva suave (micropore): Para fixar as sobras soltas da fita longe do campo da agulha",
+    "5. Selador térmico: Isqueiro ou pirógrafo para selar as pontas cortadas contra desfiamento"
+  ],
+  "howItWorks": [
+    "1. Monta-se o tecido no bastidor com entretela adequada.",
+    "2. A máquina borda a primeira etapa: um pesponto guia reto mostrando o local exato da fita.",
+    "3. A máquina pausa; a bordadeira corta o pedaço de fita de cetim (com pontas seladas) e acomoda sobre a guia.",
+    "4. A máquina costura os pontos de ancoragem nas extremidades ou ao longo das bordas da fita.",
+    "5. Se a matriz for de laço 3D ou roseta, dobram-se as pregas de fita conforme a orientação do arquivo e a máquina executa a costura de travamento central.",
+    "6. As sobras da fita que formarão o laço externo são presas temporariamente na borda do bastidor com micropore.",
+    "7. A máquina borda o restante da matriz (flores, arabescos ou monogramas) e, ao final, solta-se a fita para revelar o laçarote tridimensional."
+  ],
+  "mainTypes": [
+    "Passafita Bordado no Bastidor (In-the-Hoop Ribbon Slide): A fita corre por dentro de presilhas bordadas em ponto cheio ou ponto caseado.",
+    "Flores e Rosetas de Fita em Relevo (3D Ribbon Rosettes): Dobraduras sucessivas de fita fixadas por nós centrais que simulam botões de rosa.",
+    "Laçarote Embutido com Caimento Livre: Laço com pernas soltas preso diretamente na base do bordado por pontos de arremate.",
+    "Barrados Entrelaçados com Fitas Cruzadas: Tiras entrelaçadas de gorgurão e cetim formando xadrez de luxo em toalhas de lavabo."
+  ],
+  "applications": [
+    "Mantas e lençóis de batizado e recém-nascido com laçarotes acetinados nobres",
+    "Toalhas de banho e rosto de luxo com barrados de passafita embutidos",
+    "Vestidos infantis de festa com cinturas e mangas decoradas por flores de cetim 3D",
+    "Lembrancinhas de casamento, sachês perfumados e porta-alianças bordados",
+    "Almofadas clássicas com entrelaçamento de fitas de gorgurão e veludo"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "500 a 650 PPM (velocidade moderada para garantir que a fita não deslize sob o calcador)",
+    "needleType": "Agulha 75/11 Ponta Aguda (Sharp / Microtex) para perfurações limpas sem repuxar os fios do cetim",
+    "stabilizer": "Entretela rasgável de boa qualidade ou entretela de recorte para tecidos moles",
+    "density": "Comprimento de ponto de fixação entre 2,8 mm e 3,5 mm (pontos curtos demais picotam a fita)",
+    "pullCompensation": "0,25 mm a 0,35 mm para manter as presilhas de fixação folgadas na medida exata",
+    "underlay": "Sob-costura mínima (evitar pontos de enchimento sobre a fita para não esmagar o brilho)",
+    "threadTension": "Tensão superior equilibrada para que o nó fique oculto na base da fita"
+  },
+  "advantages": [
+    "✔ Proporciona um efeito tridimensional nobre impossível de reproduzir apenas com linhas normais",
+    "✔ Garante que todos os laços e passafitas fiquem perfeitamente retos, alinhados e no mesmo padrão",
+    "✔ Agiliza o acabamento de enxovais, eliminando o trabalho manual de alinhavar e costurar fitas com agulha de mão",
+    "✔ O brilho intenso do cetim reflete a luz de forma exuberante, valorizando peças fotográficas de maternidade"
+  ],
+  "limitations": [
+    "Exige atenção da bordadeira nas paradas programadas da máquina para colocar as fitas no momento exato",
+    "Fitas de acetato barato desbotam e desfiam com facilidade; deve-se usar fitas 100% poliéster de qualidade",
+    "Cuidados com a lavagem: não se deve passar ferro quente diretamente sobre o cetim de poliéster sem proteção"
+  ],
+  "commonErrors": [
+    "❌ Deixar as sobras compridas de fita soltas no bastidor: o calcador puxa a fita e quebra a agulha",
+    "❌ Não selar as pontas da fita de cetim: a fita desfia inteira após a primeira lavagem da cliente",
+    "❌ Usar ponto muito miúdo (1,5 mm) para fixar a fita: a agulha atua como um furador e corta a fita fora",
+    "❌ Usar fita de baixa qualidade que enruga e derrete na primeira passagem de ferro",
+    "❌ Prender a fita muito esticada e repuxada: o tecido enruga por baixo formando bolsas feias"
+  ],
+  "troubleshootingTips": [
+    "Se a fita escapar da costura de fixação: aumente a margem da fita em 5 mm para cada lado antes de posicionar sobre a linha guia.",
+    "Se a agulha repuxar fios da fita de cetim: substitua a agulha por uma 70/10 Microtex novinha com ponta afiada e sem rebarbas.",
+    "Se a fita ficar torta no bastidor: use pequenos pedacinhos de micropore nas pontas da fita para segurá-la no tecido antes da agulha descer."
+  ],
+  "dicaArtrelados": "O Segredo da Fita Micropore Médica e do Selador de Isqueiro Azul: para trabalhar com fitas soltas no bastidor sem NUNCA correr o risco de o calcador enroscar e estragar a peça, use fita micropore hipoalergênica de farmácia! Ela segura a fita no bastidor com firmeza total, não solta cola no tecido e sai com a maior facilidade sem deixar nenhum resíduo pegajoso. E ao cortar a fita de cetim, aproxime a chaminha AZUL (a parte de baixo da chama do isqueiro, que não solta fuligem preta): a ponta sela em meio segundo, ficando translúcida, limpa e eterna!",
+  "voceSabia": "No século XVIII, na França do Rei Luís XV, o uso de fitas de cetim bordadas era uma exclusividade reservada por lei apenas à nobreza e à família real! Usar fitas de seda pura no peito simbolizava alta linhagem aristocrática e prestígio na corte de Versalhes!",
+  "practicalExercise": "Exercício de Bancada (Sua Primeira Barra com Passafita Embutido no Bastidor):\n1. Selecione uma matriz de barra de toalha com guia para fita nº 1 (7 mm de largura).\n2. Corte 25 cm de fita de cetim rosa ou azul e sele as duas pontas com a chama azul do isqueiro.\n3. Monte um retalho de toalha ou tricoline no bastidor com entretela rasgável.\n4. Borde a linha guia, posicione a fita de cetim sobre a linha e fixe as pontas com fita micropore.\n5. Deixe a máquina executar as costuras de pesponto e presilhas decorativas.\n6. Retire o micropore e veja como a fita ficou milimetricamente reta, como se tivesse sido costurada por uma alta-costura internacional!",
+  "quickSummary": "Técnica decorativa digital que incorpora fitas de cetim e gorgurão no bastidor para criar laços, botões de rosa 3D e passafitas perfeitamente alinhados com acabamento de alta-costura.",
+  "relatedTerms": [
+    "Bordado em Aplique / Bordado com Aplicação (Appliqué Embroidery)",
+    "Ponto Cheio (Satin Stitch)",
+    "Entretela Rasgável (Tearaway)",
+    "Bordado em Peças Infantis e Enxoval de Bebê (Babywear & Nursery Embroidery)",
+    "Compensação de Encolhimento (Pull Compensation)"
+  ],
+  "tags": [
+    "fita de cetim",
+    "bordado com fitas",
+    "ribbon embroidery",
+    "passafita",
+    "laço no bastidor",
+    "enxoval nobre",
+    "cetim no bastidor",
+    "in the hoop ribbon"
+  ],
+  "updatedAt": "2026-09-28"
+}
 ];

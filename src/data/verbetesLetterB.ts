@@ -6159,4 +6159,110 @@ export const VERBETES_LETTER_B: Verbete[] = [
   ],
   "updatedAt": "2026-09-28"
 }
+,
+{
+  "id": "b-bordado-efeito-ponto-palito-ajour-eletronico",
+  "code": "B-000",
+  "term": "Bordado com Efeito Ponto Palito e Ajour Eletrônico (Hemstitch & Entredeux Machine Embroidery)",
+  "letter": "B",
+  "letterGroup": "B",
+  "level": "Intermediário 🟡 a Avançado 🔴",
+  "category": "Técnicas Especiais & Enxovais Nobres",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Do francês à jour (aberto à luz do dia, vazado) e entre-deux (entre dois tecidos ou entremeio), associado ao termo em inglês hemstitch (ponto de bainha vazada). Tradicionalmente originário das técnicas renascentistas venezianas e flamengas de desfiamento de fios de linho do século XVI, foi adaptado para máquinas de costura e bordar na década de 1890 com a invenção da agulha alada (wing needle) pela Schmetz e Singer, permitindo que orifícios rendados regulares fossem abertos mecânica e digitalmente sem corte nem desfiamento manual prévio.",
+  "summary": "Técnica decorativa digital que reproduz o nobre ponto palito e ajour, abrindo orifícios geométricos vazados regulares entrelaçados por pespontos de amarração.",
+  "definition": "O Bordado com Efeito Ponto Palito e Ajour Eletrônico é a técnica e estilo de digitalização no qual a máquina de bordar computadorizada recria as clássicas frestas vazadas e feixes rendados da bainha aberta artesanal (ajour / entredeux). O processo pode ser executado de duas formas complementares: 1) Com agulha comum fina e matriz de alta precisão que agrupa e amarra as fibras da trama e urdume em feixes paralelos regulares através de múltiplos pontos repetidos nos mesmos vértices; ou 2) Com a Agulha Asa (Wing Needle / Agulha Alada), cuja lâmina com aletas laterais largas abre e afasta as fibras do tecido físico a cada descida da barra de agulha, enquanto a linha superior envolve e consolida as paredes do orifício, criando uma esteira contínua de buraquinhos rendados e nobres que deixam a luz transpassar a peça.",
+  "technicalDetails": "A programação do Ponto Palito eletrônico obedece a regras geométricas milimétricas: 1) Matriz em Passo de Estrela ou Feixe Triplo: os pontos de perfuração ocorrem sempre nos mesmos centros de orifício (coordenadas X/Y idênticas repetidas de 3 a 5 vezes), aplicando tensão de amarração radial para puxar as fibras do tecido para as laterais; 2) Velocidade Reduzida: a execução deve ser limitada a 400 - 550 PPM para permitir que a agulha alada penetre suavemente no tecido sem rasgar as fibras e sem flexionar a haste de aço; 3) Compatibilidade Têxtil: exige tecidos de fibras naturais com ligamento tafetá plano e contagem média de fios (como linho puro, cambraia de linho, percal 200/300 fios ou tricoline de algodão 100%), pois fibras sintéticas contínuas ou malhas com elastano fecham os orifícios instantaneamente pela elasticidade natural da borracha; 4) Entretela: utilização mandatória de entretela hidrossolúvel de PVA ou entretela rasgável fina de fácil remoção que não obstrua os orifícios abertos.",
+  "beginnerExplanation": "Sabe aquelas toalhinhas e roupinhas de batizado de família real que têm uma fileira de buraquinhos perfeitos e vazados separando a barra do tecido, parecendo uma escadinha rendada super chique e delicada? Isso é o famoso Ponto Palito (ou Ajour)! Fazer isso à mão antigamente exigia puxar fiozinho por fiozinho do tecido com pinça e amarrar um por um com agulha de mão. Na máquina computadorizada, a máquina usa uma agulha especial com \"asinhas\" dos lados (a agulha asa) ou uma matriz esperta que fura várias vezes no mesmo lugar e dá um laço bem apertadinho nas fibras. O resultado são aqueles buraquinhos clássicos e arejados que transformam qualquer pano de prato ou lençol de berço em uma verdadeira joia de enxoval de luxo!",
+  "characteristics": [
+    "Abertura de orifícios vazados regulares que permitem a passagem límpida da luz (efeito ajour)",
+    "Pode ser executado com agulha convencional ou com Agulha Asa (Wing Needle)",
+    "Valorização de peças em fibras naturais (linho, cambraia, percal e algodão puro)",
+    "Substitui com perfeição e resistência o entremeio de algodão comprado em metro",
+    "Estética aristocrática ligada à alta-costura, batizados e enxovais clássicos europeus"
+  ],
+  "construction": [
+    "1. Base têxtil nobre: Tecido de linho puro ou cambraia de algodão montado no bastidor",
+    "2. Estabilização solúvel: Entretela hidrossolúvel de PVA lavável colocada sob o tecido",
+    "3. Agulha condutora: Agulha Alada (Wing Needle tamanho 100/16 ou 120/19) ou agulha afiada 75/11",
+    "4. Linha de amarração: Fio de algodão fino 50wt/60wt ou poliéster fino para nós imperceptíveis",
+    "5. Ciclo de perfuração e laçada: Penetração central, abertura das fibras e laço de travamento perimetral"
+  ],
+  "howItWorks": [
+    "1. O tecido de linho ou algodão é engomado levemente para dar firmeza às fibras e montado no bastidor com entretela hidrossolúvel.",
+    "2. Se for utilizada a técnica de agulha alada, instala-se a Wing Needle na máquina e verifica-se se o orifício da chapa de ponto possui abertura suficiente para a largura das aletas.",
+    "3. A máquina borda em velocidade lenta (450 PPM), realizando a sequência de perfuração no ponto A, avanço para o ponto B e retorno com laçada de compressão.",
+    "4. As aletas da agulha afastam os fios da urdume e da trama, enquanto a linha forma os \"palitos\" (coluninhas) que mantêm os orifícios abertos.",
+    "5. Ao finalizar o bordado, a peça é retirada do bastidor e lavada com água morna para dissolver totalmente a entretela de PVA.",
+    "6. Após a secagem natural e passagem a ferro sobre uma toalha felpuda, os orifícios vazados revelam a textura límpida e rendada do ponto palito."
+  ],
+  "mainTypes": [
+    "Ponto Palito Linear Simples (Ladder Hemstitch): Fileira reta de orifícios paralelos unidos por barras horizontais retas, imitando uma escada miniatura.",
+    "Ponto Ajour Veneziano / Diagonal: Orifícios intercalados em zigue-zague criando um rendilhado geométrico vazado.",
+    "Ponto Parisiense (Venice / Parisian Hemstitch): Perfuração profunda com laçadas em formato de leque sobre as bordas de bainhas dobradas.",
+    "Entremeio Falso Digital (Entredeux In-the-Hoop): Matriz que borda o ponto palito com contornos duplos em ponto cheio fino, permitindo unir dois tecidos diferentes no próprio bastidor."
+  ],
+  "applications": [
+    "Enxovais clássicos de bebê: mandriões de batizado, lençóis de berço e fraldas de boca de alto luxo",
+    "Camisaria masculina e feminina de alfaiataria (peitilhos de camisas guayaberas e blusas românticas)",
+    "Roupas de cama nobres: sobrelençóis e fronhas de linho com bainhas abertas elegantes",
+    "Toalhas de mesa de gala e jogos americanos com entremeios vazados entre tecidos contrastantes",
+    "Almofadas clássicas e cortinados leves em voil ou cambraia de linho"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "400 a 500 PPM (velocidade baixa mandatória para a agulha asa abrir as fibras sem rasgar)",
+    "needleType": "Agulha Asa (Wing Needle / Schmetz 130/705 H-WING tamanho 100 ou 120) ou Agulha 75/11 Sharp",
+    "stabilizer": "Entretela hidrossolúvel de PVA lavável de 40g (NUNCA entretela rasgável que fique presa nos furos)",
+    "density": "Espaçamento de orifícios de 2,5 mm a 3,5 mm (distância ideal para formar colunas consistentes)",
+    "pullCompensation": "0,25 mm para preservar o esquadro dos orifícios sem deformação",
+    "underlay": "Sem sob-costura intermediária (para manter a transparência absoluta dos vazados)",
+    "threadTension": "Tensão da linha superior ligeiramente apertada para tracionar e abrir bem os feixes de fios"
+  },
+  "advantages": [
+    "✔ Agrega um valor de requinte artesanal nobre impossível de obter com bordados convencionais pesados",
+    "✔ Elimina o custo de comprar metros de entremeio de ponto palito industrial e costurar manualmente",
+    "✔ Permite curvas e arabescos vazados que seriam inviáveis no desfiamento manual clássico",
+    "✔ Durabilidade secular: os orifícios ficam amarrados por linhas resistentes que resistem a centenas de lavagens"
+  ],
+  "limitations": [
+    "Incompatível com tecidos elásticos, malhas, microfibras sintéticas e tecidos muito grossos (como jeans e sarja pesada)",
+    "A agulha asa exige chapa de agulha com abertura ampla (chapa zigue-zague); chapas com furo único quebram a agulha",
+    "Exige dissolução cuidadosa da entretela hidrossolúvel em água para liberar o efeito vazado"
+  ],
+  "commonErrors": [
+    "❌ Usar chapa de ponto reto (furo único) com agulha asa: a aleta bate na chapa de ferro e quebra a agulha",
+    "❌ Tentar fazer ponto palito em malha com elastano: as fibras de borracha fecham o orifício imediatamente",
+    "❌ Usar entretela rasgável comum: os fiapos brancos da celulose ficam presos dentro dos furinhos vazados",
+    "❌ Bordar em velocidade alta (750 PPM): o impacto quebra as aletas da agulha e rasga as tramas do linho",
+    "❌ Não engomar o linho antes do bordado: o tecido fica mole e os furos saem tortos e sem definição"
+  ],
+  "troubleshootingTips": [
+    "Se os furos estiverem se fechando após o bordado: passe um pouco de spray engomador ou amido no tecido antes de bastidorar e certifique-se de usar tecido de fibra 100% natural.",
+    "Se a linha superior romper constantemente durante o ponto palito: passe a linha por uma agulha asa de menor calibre (100 em vez de 120) ou use linha de poliéster de filamento contínuo fina 60wt.",
+    "Se a agulha estiver cortando os fios em vez de afastar: verifique se a ponta da agulha asa não está lascada ou torta e substitua a agulha."
+  ],
+  "dicaArtrelados": "O Segredo da Goma Límpida e do Ferro a Vapor sobre Toalha Felpuda: para que os furinhos do ponto palito fiquem abertos, redondinhos e empinados como se tivessem sido feitos pelas rendeiras da Ilha da Madeira, borrife um pouco de goma de passar (ou água de passar com um tico de amido) no linho antes de prender no bastidor! As fibras ficam durinhas e a agulha abre o buraquinho com precisão cirúrgica. E depois que lavar para tirar a entretela hidrossolúvel, passe a ferro SEMPRE pelo avesso da peça, apoiada sobre uma toalha de banho bem felpuda e fofa: o ferro nunca amassa os furinhos e os palitos ficam em alto relevo tridimensional!",
+  "voceSabia": "Na Espanha e em Portugal colonial, a técnica de desfiamento e ajour era tão valorizada que fazia parte obrigatória dos dotes de casamento das jovens da nobreza! Um lençol com três carreiras de ponto palito feito à mão chegava a valer o equivalente ao preço de uma novilha leiteira ou vários meses de salário de um artífice!",
+  "practicalExercise": "Exercício de Bancada (Sua Primeira Barra de Ponto Palito com Agulha Asa):\n1. Verifique se sua máquina está com a chapa de zigue-zague (com orifício largo de costura).\n2. Instale uma agulha Schmetz Wing Needle 100/16 na barra de agulha.\n3. Gire o volante manualmente devagar para confirmar com seus próprios olhos que a asa da agulha desce livre no centro do furo da chapa sem bater em nada.\n4. Monte um retalho de linho cru com entretela hidrossolúvel no bastidor.\n5. Escolha uma matriz de barra de ponto palito linear e borde em 450 PPM.\n6. Enxágue em água morna e veja a luz do dia atravessando perfeitamente a fileira de orifícios rendados da sua peça!",
+  "quickSummary": "Nobre técnica clássica que abre orifícios geométricos vazados e regulares nas tramas de tecidos naturais, recriando com perfeição computadorizada o secular ponto palito e ajour europeu.",
+  "relatedTerms": [
+    "Bordado Tradicional Direto / Bordado Plano (Direct Flat Embroidery)",
+    "Bordado Richelieu com Ponteiras / Ilhó e Rendas (Bordado em Richelieu)",
+    "Entretela Hidrossolúvel",
+    "Ponto Cheio (Satin Stitch)",
+    "Compensação de Encolhimento (Pull Compensation)"
+  ],
+  "tags": [
+    "ponto palito",
+    "ajour",
+    "hemstitch",
+    "entredeux",
+    "agulha asa",
+    "wing needle",
+    "bainha aberta",
+    "enxoval nobre",
+    "linho fino"
+  ],
+  "updatedAt": "2026-09-28"
+}
 ];

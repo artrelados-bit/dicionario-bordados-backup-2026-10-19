@@ -7161,4 +7161,428 @@ export const VERBETES_LETTER_N: Verbete[] = [
     ],
     "updatedAt": "2026-09-06"
   }
+,
+{
+  "id": "n-nitrato-prata-revestimento-condutivo-fios-texteis",
+  "code": "N-000",
+  "term": "Nitrato de Prata e Revestimento Condutivo em Fios Têxteis / Linhas Inteligentes (Silver-Coated Conductive Embroidery Thread & Smart Wearables)",
+  "letter": "N",
+  "letterGroup": "N",
+  "level": "Avançado 🔴",
+  "category": "Bordados Técnicos, E-Textiles & Alta Tecnologia",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Da química dos sais de nitrato de prata (AgNO3) e da tecnologia de galvanoplastia têxtil (electroless plating) desenvolvida no final do século XX para blindagem eletromagnética aeroespacial. No início dos anos 2000, pesquisadores do MIT Media Lab e indústrias têxteis avançadas (como Madeira com o fio HC e Statex Shieldex) aperfeiçoaram a deposição de prata metálica pura (99% Ag) sobre filamentos de poliamida/nylon, viabilizando a integração do bordado computadorizado à confecção de circuitos vestíveis (e-textiles, roupas inteligentes e dispositivos médicos).",
+  "summary": "Tecnologia de fios técnicos revestidos quimicamente com prata condutiva para bordar circuitos elétricos, sensores biológicos e painéis touch capacitivos.",
+  "definition": "O Nitrato de Prata e Revestimento Condutivo em Fios Têxteis (Silver-Plated Conductive Embroidery Threads & E-Textiles) compreende o uso de linhas técnicas para máquinas de bordar computadorizadas, cuja alma de poliamida de alta tenacidade recebe uma microcamada uniforme de prata metálica condutiva (aplicada por redução química a partir de nitrato de prata). Essas linhas aliam a flexibilidade, maleabilidade e resistência mecânica de uma linha têxtil com a condutividade elétrica de um fio de cobre. São empregadas para bordar trilhas de circuito impresso flexível em roupas, sensores biométricos de eletrocardiograma (ECG), antenas de radiofrequência (RFID), aquecedores têxteis e superfícies touch-screen capacitivas integradas a tecidos comuns.",
+  "technicalDetails": "A engenharia do bordado com fios condutivos prateados exige rigor físico-elétrico: 1) Resistência Elétrica Linear: os fios condutivos comerciais possuem resistências calibradas expressas em Ohms por metro (Ω/m) — por exemplo, fios de alta condutividade apresentam de 50 a 100 Ω/m (como Madeira HC 12), enquanto fios de alta precisão para sensores possuem cerca de 250 a 500 Ω/m (Madeira HC 40); 2) Continuidade de Ponto na Matriz: para evitar quebras de contato elétrico, a matriz deve ser digitalizada preferencialmente em ponto corrido triplo contínuo ou zigue-zague denso sem comandos de corte automático de linha (trims) entre os polos; 3) Sob-costura e Isolamento: onde trilhas de polaridade positiva (+) e negativa (-) se cruzam, é obrigatório bordar uma camada intermediária de isolamento dielétrico (com linha comum de poliéster ou filme termocolante de poliuretano) para evitar curtos-circuitos; 4) Propriedades Antibacterianas Naturais: a prata pura confere ação biocida intrínseca, tornando esses bordados ideais para eletrodos em contato direto e prolongado com a pele humana sem causar irritações.",
+  "beginnerExplanation": "Você sabia que a sua máquina de bordar pode bordar circuitos elétricos de verdade, como se o tecido fosse a placa de um computador? Em vez de usar fios de cobre duros e placas de plástico verde, a gente usa uma linha de bordar especial que é banhada em prata pura de verdade! Essa linha conduz eletricidade perfeitamente, mas continua macia, brilhante e flexível como uma linha comum. Com ela, você pode bordar botões no tecido que acendem luzes de LED, sensores que medem os batimentos do coração em uma camisa de academia ou botões de toque na manga de uma jaqueta para controlar a música do celular!",
+  "characteristics": [
+    "Conduz corrente elétrica e sinais eletrônicos mantendo a flexibilidade e o caimento do tecido",
+    "Revestimento de prata metálica 99% pura com excelente condutividade e estabilidade térmica",
+    "Ação antibacteriana e antifúngica natural, ideal para uso médico e hospitalar",
+    "Permite conectar sensores, microcontroladores (como Arduino LilyPad) e baterias diretamente ao tecido",
+    "Resistente a lavagens com sabão neutro sem perda drástica de condutividade"
+  ],
+  "construction": [
+    "1. Alma do filamento: Poliamida 6.6 de alta tenacidade para resistência mecânica à tração",
+    "2. Revestimento condutivo: Microcamada de prata metálica aderida quimicamente por galvanoplastia",
+    "3. Bobina condutiva ou isolada: Uso de linha de bobina comum para isolar o verso ou condutiva para contato bilateral",
+    "4. Componentes eletrônicos vestíveis: LEDs têxteis, sensores flexíveis e microcontroladores montados sobre o bordado",
+    "5. Selagem de proteção: Aplicação de filme termoplástico (TPU) sobre as trilhas para proteção contra água e oxidação"
+  ],
+  "howItWorks": [
+    "1. O circuito elétrico é desenhado no software de bordado como trilhas contínuas de ponto corrido ou zigue-zague.",
+    "2. O tecido é montado no bastidor com entretela de suporte estável (rasgável ou hidrossolúvel).",
+    "3. Instala-se a agulha de ponta arredondada SES calibre 75/11 ou 80/12 e ajusta-se a velocidade para 500 a 600 PPM.",
+    "4. A máquina borda as trilhas condutivas do polo positivo até a ilha de conexão do componente.",
+    "5. Aplica-se uma pausa para posicionar os micro-componentes (como LEDs ou sensores de pressão).",
+    "6. A máquina executa pontos de amarração reforçados diretamente sobre os terminais metálicos do componente, travando a conexão elétrica.",
+    "7. A máquina borda a trilha de retorno do polo negativo de volta à área da bateria, fechando o circuito funcional."
+  ],
+  "mainTypes": [
+    "Fio de Alta Condutividade (Heavy HC): Menor resistência elétrica (50 a 100 Ω/m), ideal para alimentar circuitos de potência, LEDs e aquecedores têxteis.",
+    "Fio de Média/Alta Resistência (Fine HC): Fio mais fino (250 a 500 Ω/m), perfeito para transmissão de dados, sensores capacitivos e botões touch.",
+    "Fio Blindado Isolado (Insulated Conductive Yarn): Fio condutivo com capa externa emborrachada ou esmaltada que permite cruzamento direto de linhas sem curto-circuito.",
+    "Fio Híbrido Prata-Aço Inox: Mistura fibras de prata com microfilamentos de aço inoxidável para máxima durabilidade contra abrasão e lavagens industriais."
+  ],
+  "applications": [
+    "Roupas esportivas de alta performance com eletrodos de eletrocardiograma e monitoramento muscular",
+    "Jaquetas e coletes aquecidos eletronicamente com trilhas de aquecimento por efeito Joule",
+    "Uniformes militares e roupas de bombeiro com sensores de gases tóxicos e temperatura integrados",
+    "Moda interativa e figurinos de palco com efeitos luminosos sincronizados por LEDs embutidos",
+    "Bolsas e mochilas inteligentes com comandos touch capacitivos para controle de smartphones"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "500 a 650 PPM (velocidade moderada preserva a continuidade da camada de prata sob o atrito do olho da agulha)",
+    "needleType": "Agulha 75/11 ou 80/12 com olho polido ou banho de titânio (olho áspero descasca o banho de prata)",
+    "stabilizer": "Entretela de corte estável ou termocolante de poliuretano (evita que o tecido estique e quebre a trilha)",
+    "density": "Comprimento de ponto de 2,5 mm a 3,0 mm para ponto corrido; densidade aberta de 0,60 mm em ponto cheio",
+    "pullCompensation": "0,25 mm a 0,35 mm para assegurar contato elétrico firme nas ilhas de solda têxtil",
+    "underlay": "Sob-costura em ponto corrido alinhado ao longo da trilha para duplicar o canal elétrico condutivo",
+    "threadTension": "Tensão superior moderada e suave (tensão excessiva estica a poliamida e microfratura o banho metálico)"
+  },
+  "advantages": [
+    "✔ Elimina cabos elétricos rígidos e conectores volumosos que incomodam o corpo e pesam na roupa",
+    "✔ Circuito 100% lavável, flexível, respirável e esteticamente integrado ao design da peça",
+    "✔ Conexões elétricas ultra-resistentes à vibração mecânica e movimento corporal contínuo",
+    "✔ Prata pura não causa alergias e possui propriedades antimicrobianas permanentes"
+  ],
+  "limitations": [
+    "Custo por metro consideravelmente superior ao de linhas tradicionais de poliéster de bordado",
+    "A prata pode sofrer oxidação superficial (escurecimento) se exposta a cloro e alvejantes químicos fortes",
+    "Exige planejamento cuidadoso na programação da matriz para que as trilhas elétricas não se toquem acidentalmente"
+  ],
+  "commonErrors": [
+    "❌ Programar comandos automáticos de corte de linha (trim) entre dois polos: corta a corrente e inutiliza o circuito",
+    "❌ Cruzar duas trilhas condutivas no mesmo nível: causa curto-circuito imediato na bateria",
+    "❌ Usar agulha velha com farpas ou rebarbas: descasca o banho de prata da linha e cria pontos de alta resistência",
+    "❌ Lavar a peça com produtos à base de cloro ou água sanitária: corrói quimicamente a prata metálica",
+    "❌ Deixar os terminais da bateria sem proteção impermeável durante o uso em dias de chuva"
+  ],
+  "troubleshootingTips": [
+    "Se o circuito não ligar após o bordado: use um multímetro digital na escala de bipe sonoro (continuidade) e toque nas duas pontas da trilha bordada para localizar onde o fio se rompeu.",
+    "Se a lâmpada LED piscar ou ficar fraca: borde uma segunda camada de ponto corrido exatamente sobre a primeira para reduzir pela metade a resistência elétrica da trilha.",
+    "Se as trilhas estiverem escurecendo com o tempo: passe um filme de poliuretano termocolante (filme de selagem de costura) com ferro morno sobre as trilhas para blindá-las contra o oxigênio do ar."
+  ],
+  "dicaArtrelados": "O Segredo do Multímetro de Bancada e da Fita de Cobre com Adesivo Condutivo: antes de carregar a bobina e passar a linha condutiva pela máquina, meça 1 metro da linha com o multímetro! Anote o valor dos Ohms para calcular a voltagem que a sua bateria precisa entregar. E para prender os micro-componentes (como os LEDs) no tecido com firmeza antes de bordar por cima, use pedacinhos minúsculos de fita de cobre autoadesiva condutiva: ela fixa o componente na entretela e garante que o ponto da agulha faça uma ponte elétrica perfeita sem precisar de ferro de solda!",
+  "voceSabia": "A tecnologia de bordado com fios de prata foi utilizada pela Agência Espacial Europeia (ESA) e pela NASA para bordar sensores biométricos nos trajes dos astronautas da Estação Espacial Internacional (ISS)! Os fios prateados monitoram a respiração e os batimentos cardíacos dos astronautas em gravidade zero sem machucar a pele durante missões espaciais de longa duração!",
+  "practicalExercise": "Exercício de Bancada (Seu Primeiro Circuito Bordado que Acende um LED):\n1. Monte um retalho de feltro no bastidor com entretela rasgável.\n2. No software, programe duas trilhas retas paralelas separadas por 1 cm, com 10 cm de comprimento cada.\n3. Coloque linha condutiva prateada na agulha e linha comum de poliéster na bobina de baixo.\n4. Borde as duas trilhas em 500 PPM.\n5. Nas extremidades finais, encoste as duas perninhas de uma lâmpada LED comum (uma perna em cada trilha).\n6. Na outra ponta das trilhas, encoste os polos de uma bateria de relógio tipo moeda (CR2032 de 3V): o LED acende magicamente através do bordado!",
+  "quickSummary": "Tecnologia têxtil avançada que utiliza linhas revestidas com prata metálica para bordar circuitos elétricos, sensores corporais e painéis touch diretamente em peças do vestuário.",
+  "relatedTerms": [
+    "Fio Metalizado com Alma de Poliamida e Revestimento de Prata Pura",
+    "Bordado Técnico / Smart Textiles",
+    "Ponto Corrido / Ponto Reto (Running Stitch)",
+    "Velocidade de Operação (PPM)",
+    "Agulha de Ponta Arredondada vs Ponta Aguda"
+  ],
+  "tags": [
+    "nitrato de prata",
+    "fio condutivo",
+    "smart textiles",
+    "e-textiles",
+    "circuitos bordados",
+    "led no bordado",
+    "arduino lilypad",
+    "alta tecnologia"
+  ],
+  "updatedAt": "2026-09-28"
+}
+,
+{
+  "id": "n-nomex-fios-meta-aramida-retardantes-chama-epi",
+  "code": "N-000",
+  "term": "Nomex® e Fios de Meta-Aramida Retardantes de Chama no Bordado de EPI (Nomex® Meta-Aramid Flame-Resistant Embroidery Thread & Arc-Flash Safety Gear)",
+  "letter": "N",
+  "letterGroup": "N",
+  "level": "Avançado 🔴",
+  "category": "Bordados Técnicos, EPI & Conformidade Normativa",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Marca registrada e polímero sintetizado pela química DuPont nos Estados Unidos na década de 1960. O poli(m-fenileno isoftalamida), conhecido comercialmente como Nomex®, foi desenvolvido para proteger pilotos militares e bombeiros de incêndios catastróficos. Sua aplicação como linha especializada para máquinas de bordar computadorizadas foi normatizada a partir das décadas de 1980 e 1990 pelas normas internacionais NFPA (National Fire Protection Association) e ISO 11612, estabelecendo a obrigatoriedade legal de que bordados de identificação em vestimentas retardantes a chamas (FR) não comprometam a segurança térmica do usuário.",
+  "summary": "Linha técnica de meta-aramida antichama de alta temperatura que não derrete nem goteja, obrigatória para bordar logotipos em uniformes de segurança e EPIs.",
+  "definition": "O uso de Nomex® e Fios de Meta-Aramida Retardantes de Chama no Bordado de EPI (Flame-Resistant Meta-Aramid Embroidery Thread) compreende a utilização mandatória de linhas 100% meta-aramida tanto na agulha superior quanto na bobina inferior para bordar logotipos, nomes e faixas refletivas em uniformes de proteção térmica. Ao contrário das linhas convencionais de poliéster e viscose (que pegam fogo ou derretem a partir de 250°C, fundindo plástico incandescente na pele humana), o fio de Nomex não funde, não goteja plástico fundido e se autoextingue imediatamente na ausência de chama direta, carbonizando-se apenas em temperaturas extremas acima de 370°C a 400°C, preservando a integridade da barreira protetora contra arco elétrico (arc-flash) e fogo repentino (flash-fire).",
+  "technicalDetails": "A parametrização técnica do bordado com fios de meta-aramida Nomex envolve rigor mecânico e normativo: 1) Elasticidade e Tensão: a meta-aramida possui alongamento na ruptura significativamente menor que o poliéster (apenas 20% a 25% comparado a 30%-35% do poliéster comum); portanto, os discos tensores devem ser aliviados em 15% a 20% para evitar quebras por estiramento excessivo; 2) Obrigatoriedade da Linha de Bobina Retardante a Chamas: a legislação de segurança (normas NFPA 70E, NFPA 2112 e NR-10/NR-6 no Brasil) estipula que a linha da bobina também DEVE ser de meta-aramida (ou algodão tratado FR), sendo terminantemente proibido o uso de linha de bobina comum de poliéster 60wt sob pena de invalidação do laudo e CA (Certificado de Aprovação) do EPI; 3) Velocidade e Fricção: em virtude da textura ligeiramente mais áspera da fibra cortada de meta-aramida em comparação aos filamentos contínuos trilobais, recomenda-se limitar a velocidade da máquina a 650 - 750 PPM para conter o atrito no olho da agulha; 4) Entretela Especial Incombustível: a entretela de suporte utilizada no bastidor também deve ser de algodão tratado FR ou aramida hidrossolúvel, nunca entretelas plásticas sintéticas combustíveis.",
+  "beginnerExplanation": "Imagine que você recebeu uma encomenda grande para bordar o logotipo de uma petroleira, da fábrica de aço ou de uma equipe de corrida em jaquetas de bombeiro ou eletricista. Essas roupas são mágicas: se bater fogo nelas, elas não queimam! Mas tem um perigo mortal que muitas bordadeiras iniciantes não sabem: se você bordar o logotipo usando a linha comum de poliéster que usa todo dia, aquela linha vira plástico derretido fervendo se o trabalhador passar por uma labareda, causando queimaduras graves na pele! Para essas roupas de vida ou morte, a lei exige o uso da linha de Nomex: uma linha especial de alta tecnologia que pode entrar no fogo que não derrete, não pinga e não queima! Usar Nomex na agulha e na bobina é um dever de responsabilidade e segurança que todo profissional de ateliê deve conhecer!",
+  "characteristics": [
+    "Propriedade antichama permanente inerente à molécula da fibra (não sai com lavagens)",
+    "Não derrete e não pinga plástico fundido mesmo em temperaturas superiores a 370°C",
+    "Autoextinguível: apaga imediatamente assim que a fonte de ignição é removida",
+    "Atende aos requisitos de certificação das normas NFPA 2112, NFPA 70E e NR-10/NR-6",
+    "Alta estabilidade dimensional sem encolhimento térmico significativo sob calor radiante"
+  ],
+  "construction": [
+    "1. Fio superior de meta-aramida: Carretel de Nomex® nº 40 (geralmente fios como Madeira Fire Fighter ou Amann IsaTex)",
+    "2. Fio de bobina compatível FR: Bobina enrolada com linha de meta-aramida pura ou fio antichama certificado",
+    "3. Entretela incombustível de base: Entretela de algodão 100% tratado com retardante químico ou aramida não-tecida",
+    "4. Agulha de cromo reforçado: Calibre 75/11 ou 80/12 ponta arredondada SES com acabamento sem rebarbas",
+    "5. Matriz otimizada de baixa densidade: Programada para evitar rigidez mecânica na área peitoral do EPI"
+  ],
+  "howItWorks": [
+    "1. Confere-se o Certificado de Aprovação (CA) da vestimenta para identificar a classe de risco térmico do cliente.",
+    "2. Remove-se a bobina comum da lançadeira e instala-se uma bobina com linha de meta-aramida Nomex.",
+    "3. Passa-se o fio Nomex na agulha superior e reduz-se levemente a pressão dos botões tensores.",
+    "4. Monta-se a jaqueta ou macacão no bastidor com entretela incombustível certificada.",
+    "5. Regula-se a velocidade da máquina para 650 PPM no painel de comando.",
+    "6. A máquina executa o bordado do logotipo corporativo com precisão milimétrica.",
+    "7. Ao final, apara-se o excesso de entretela incombustível do verso e emite-se a declaração técnica de rastreabilidade do fio utilizado para a segurança do trabalho."
+  ],
+  "mainTypes": [
+    "Nomex® Spun Meta-Aramid: Fio fiado com aspecto fosco e toque semelhante ao algodão, com excepcional resistência à quebra sob calor.",
+    "Fios Híbridos Nomex / Para-Aramida (Kevlar® Blend): Mistura fios de meta-aramida com Kevlar para resistência combinada a fogo e cortes por estilhaços.",
+    "Filamento Contínuo Antichama Tratado: Fios especiais de poliéster quimicamente modificado com compostos fosforados (Trevira CS) para uso decorativo retardante leve em hotéis e teatros.",
+    "Fio de Bobina Pré-Enrolada Nomex: Bobinas industriais prontas embaladas em caixas lacradas com certificado de conformidade térmica para auditorias."
+  ],
+  "applications": [
+    "Macacões de pilotos de automobilismo (Fórmula 1, Rally, Stock Car e kartismo profissional)",
+    "Uniformes de brigadas de incêndio e bombeiros civis e militares",
+    "Vestimentas de eletricistas para proteção contra arco elétrico (normas NR-10 e NFPA 70E)",
+    "Roupas de proteção para operários de refinarias de petróleo, plataformas offshore e gás",
+    "Uniformes de siderúrgicas, fundições de metais e soldadores industriais"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "600 a 750 PPM (velocidades moderadas evitam aquecimento mecânico e desfiamento da meta-aramida)",
+    "needleType": "Agulha 75/11 ou 80/12 Ponta Bola Leve (SES) com haste reforçada e acabamento cromado liso",
+    "stabilizer": "Entretela incombustível de algodão tratado FR (nunca usar entretela termossolúvel plástica inflamável)",
+    "density": "Densidade padrão de 0,40 mm a 0,45 mm (densidades excessivamente compactas deixam a peça dura)",
+    "pullCompensation": "0,25 mm a 0,35 mm para compensar a rigidez dimensional do tecido grosso do macacão",
+    "underlay": "Sob-costura em ponto corrido cruzado para boa ancoragem sem criar camada grossa",
+    "threadTension": "Tensão superior mais frouxa que o normal para acomodar o menor alongamento elástico da aramida"
+  },
+  "advantages": [
+    "✔ Garante conformidade total com a legislação trabalhista e normas técnicas de segurança à vida",
+    "✔ Preserva a vida do trabalhador em acidentes com fogo e arco elétrico, impedindo queimaduras por plástico fundido",
+    "✔ Permite aos ateliês e bordadeiras atenderem grandes contratos corporativos de multinacionais de energia e petróleo",
+    "✔ O fio Nomex tem resistência excepcional à lavagem industrial pesada e produtos químicos de higienização"
+  ],
+  "limitations": [
+    "Custo de aquisição do carretel significativamente mais caro que linhas convencionais de poliéster",
+    "Cartela de cores mais restrita comparada às centenas de tons de linhas normais de bordar",
+    "Aspecto fosco (não possui o brilho acetinado característico do poliéster trilobal ou viscose)"
+  ],
+  "commonErrors": [
+    "❌ Usar linha de bobina de poliéster comum com fio Nomex em cima: invalida o teste antichama e põe vidas em risco",
+    "❌ Usar entretela rasgável comum inflamável no verso da jaqueta de eletricista: o fogo queima pelo avesso",
+    "❌ Puxar a tensão da linha Nomex como se fosse poliéster: o fio arrebenta repetidamente por ter menos elasticidade",
+    "❌ Usar agulha velha com ponta cega em tecidos ripstop antichama: a agulha repuxa fios e danifica a trama de proteção do EPI",
+    "❌ Borda em velocidade máxima de 1.000 PPM: o atrito da fibra desfia a linha e bloqueia o olho da agulha"
+  ],
+  "troubleshootingTips": [
+    "Se o fio de Nomex estiver quebrando com frequência: afrouxe os tensores de linha superior e instale uma agulha nova 80/12 com olho maior.",
+    "Se a cor corporativa do logotipo não existir exatamente na cartela Nomex: consulte a cartela de linhas antichama certificadas (como Madeira Fire Fighter) e apresente ao cliente as opções normatizadas mais próximas.",
+    "Se o cliente corporativo exigir comprovação técnica: anexe à nota fiscal do serviço uma cópia do Certificado de Conformidade Técnica fornecido pelo fabricante da linha Nomex."
+  ],
+  "dicaArtrelados": "O Teste de Isqueiro para Diferenciar Nomex de Poliéster e a Ficha de Rastreabilidade de EPI: como ter 100% de certeza de que uma linha é realmente Nomex antes de bordar uma jaqueta de segurança? Corte 5 cm do fio e encoste a chama de um isqueiro! Se a linha derreter, virar uma bolinha plástica preta dura e continuar queimando com cheiro de plástico, é poliéster! Se ela carbonizar suavemente, virar cinza clara esfarelável e se apagar no exato milissegundo em que você afastar o isqueiro, é Nomex legítimo! Guarde sempre o lote do carretel anotado na sua ficha técnica de produção para comprovar auditorias em caso de fiscalização do trabalho!",
+  "voceSabia": "A fibra de Nomex foi fundamental para salvar a vida do piloto de Fórmula 1 Romain Grosjean em seu terrível acidente no Grande Prêmio do Bahrein de 2020! O carro partiu ao meio e explodiu em uma bola de fogo de mais de 1.000°C na qual Grosjean ficou imerso por 28 segundos. Graças ao macacão e a todas as costuras e bordados feitos exclusivamente com Nomex certificado, o piloto escapou caminhando das chamas com apenas queimaduras leves nas mãos!",
+  "practicalExercise": "Exercício de Laboratório (O Teste da Chama e a Calibração de Tensão de Meta-Aramida):\n1. Pegue um pedaço de 10 cm de linha comum de poliéster e 10 cm de linha Nomex.\n2. Com uma pinça de metal e longe de materiais inflamáveis, aproxime a chama de um fósforo do fio de poliéster e observe o derretimento plástico.\n3. Repita o teste com o fio de Nomex: veja como ele não queima e se autoextingue instantaneamente.\n4. Na máquina de bordar, coloque a bobina de Nomex e o fio de Nomex na agulha 80/12.\n5. Afrouxe a tensão superior em 2 pontos e borde um quadrado teste em 650 PPM.\n6. Comprove o assentamento perfeito dos pontos e a maciez do bordado técnico incombustível!",
+  "quickSummary": "Linha técnica de meta-aramida incombustível e autoextinguível, obrigatória na agulha e na bobina para bordar logotipos e identificações em uniformes antichama e EPIs de alto risco.",
+  "relatedTerms": [
+    "Fio de Alta Tenacidade / Linha Ignífuga e Kevlar",
+    "Linha Resistente a Chamas e Fogo",
+    "Tensão de Linha Superior",
+    "Agulha de Ponta Arredondada vs Ponta Aguda",
+    "Normas Técnicas Globais de Conformidade e Segurança Têxtil no Bordado"
+  ],
+  "tags": [
+    "nomex",
+    "meta-aramida",
+    "antichama",
+    "bordado em epi",
+    "segurança do trabalho",
+    "nfpa 70e",
+    "nr-10",
+    "madeira fire fighter"
+  ],
+  "updatedAt": "2026-09-28"
+}
+,
+{
+  "id": "n-norma-iso-4915-classificacao-pontos-maquina",
+  "code": "N-000",
+  "term": "Norma ISO 4915 e Classificação Numérica de Pontos de Máquina (ISO 4915 Stitch Classification System - Stitch Type 301 Lockstitch)",
+  "letter": "N",
+  "letterGroup": "N",
+  "level": "Avançado 🔴",
+  "category": "Normalização Internacional, Metrologia & Engenharia Têxtil",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Criada em 1991 pela International Organization for Standardization (ISO) com base na histórica norma militar norte-americana Federal Standard 751a (de 1965). A norma ISO 4915 (\"Textiles — Stitch types — Classification and terminology\") foi elaborada pelo comitê técnico ISO/TC 38 para padronizar globalmente a nomenclatura matemática e geométrica de todas as costuras e pontos mecânicos industriais em seis classes fundamentais (Classes 100 a 600), consagrando a Classe 300 (especificamente o Ponto 301) como a matriz universal de todas as máquinas de bordar computadorizadas.",
+  "summary": "Padrão técnico global supremo da engenharia têxtil que classifica os pontos mecânicos, definindo o Ponto 301 (Ponto Preso / Lockstitch) como base do bordado eletrônico.",
+  "definition": "A Norma ISO 4915 e Classificação Numérica de Pontos de Máquina (ISO 4915 Stitch Classification - Type 301 Lockstitch) é a norma internacional que estabelece a tipologia científica dos pontos mecânicos produzidos por agulhas industriais. No universo do bordado computadorizado, 100% das máquinas industriais e domésticas do mundo operam sob a égide da Classe 300 (Pontos Presos / Lockstitches), na qual o Ponto 301 é formado pelo entrelaçamento de dois grupos de fios: a linha superior (conduzida pela agulha) e a linha inferior (conduzida pela lançadeira rotativa ou oscilante que envolve a bobina). O entrelaçamento deve ocorrer teoricamente no centro neutro da espessura do material, garantindo máxima estabilidade mecânica sem desmanche espontâneo em caso de ruptura de ponto isolado.",
+  "technicalDetails": "A cinemática e a física do Ponto 301 segundo a ISO 4915 envolvem parâmetros mecânicos fundamentais: 1) Formação da Laçada (Loop Formation): a agulha desce ao Ponto Morto Inferior (PMI) e sobe entre 1,8 mm e 2,2 mm; a folga criada na linha forma uma laçada aerodinâmica que é capturada pelo bico da lançadeira rotativa a 200° - 205° do ciclo angular; 2) Entrelaçamento e Nó (Interlacing Center): o estica-fio sobe ao Ponto Morto Superior (PMS), recolhendo o excesso de linha e tracionando o cruzamento entre o fio superior e o fio da bobina; no bordado decorativo, a ISO 4915 é adaptada de modo que o nó não fique no centro da camada (como na costura reta), mas seja ligeiramente puxado para o avesso na proporção áurea de 1/3 central de bobina branca e 2/3 laterais de fio colorido superior (colunas de satim); 3) Diferenciação de Classes Têxteis: a norma distingue o Ponto 301 da Classe 100 (ponto corrente simples de 1 fio, que desmancha se puxado), da Classe 400 (ponto corrente múltiplo de 2 ou mais fios) e da Classe 500 (pontos de sobreborda / overloque), enfatizando que apenas a Classe 300 possui a estabilidade bidirecional indispensável para pantógrafos computadorizados com deslocamentos simultâneos nos eixos X e Y.",
+  "beginnerExplanation": "Sabe quando você aprende que tudo no mundo dos computadores funciona com zeros e uns? No mundo das máquinas de costura e bordado, existe um código mundial criado por cientistas e engenheiros que dá um número para cada tipo de ponto que existe na face da Terra: é a norma ISO 4915! E adivinha qual é o número do ponto que a sua máquina de bordar faz o dia todo? É o Ponto 301! Esse nome chique significa apenas que a linha de cima que desce com a agulha dá um \"abraço perfeito\" na linha de baixo que vem da bobina, prendendo uma na outra bem no meio do tecido. Se um pontinho arrebentar sem querer, os outros não desmancham como acontece em saco de batata ou barra de calça! É o ponto mais seguro e resistente da engenharia!",
+  "characteristics": [
+    "Padronização internacional universal aceita em auditorias de qualidade em mais de 160 países",
+    "Alta segurança estrutural: ponto preso que não se desfaz em cadeia quando cortado",
+    "Compatibilidade geométrica total com movimentos omnidirecionais nos eixos X e Y do pantógrafo",
+    "Permite controle milimétrico de tensão diferencial entre o direito (face) e o avesso da peça",
+    "Base teórica indispensável para laudos técnicos, perícias têxteis e fichas de especificação de produto"
+  ],
+  "construction": [
+    "1. Linha da agulha (Grupo 1): Fio condutor superior que penetra o material através do olho da agulha",
+    "2. Linha da bobina (Grupo 2): Fio inferior alojado no interior da caixa de bobina da lançadeira",
+    "3. Ponto de entrelaçamento: Nó tridimensional formado pelo cruzamento dos dois fios",
+    "4. Camada de substrato: Tecido e entretelas onde o cruzamento mecânico é assentado",
+    "5. Curso do estica-fio: Componente mecânico responsável pela absorção e aperto da laçada ISO 301"
+  ],
+  "howItWorks": [
+    "1. A agulha penetra o tecido transportando a linha superior até o ponto mais baixo do curso.",
+    "2. Ao iniciar a subida de 2 mm, o atrito do tecido retém a linha, abrindo uma laçada elástica.",
+    "3. O bico da lançadeira rotativa passa a 0,05 mm da lâmina da agulha e penetra no centro da laçada.",
+    "4. A lançadeira gira e expande a laçada da linha superior, passando-a ao redor de toda a cápsula da bobina.",
+    "5. A linha superior laça o fio da bobina, criando o entrelaçamento característico da Classe 300.",
+    "6. O estica-fio sobe bruscamente, puxando a linha superior para cima e ajustando o nó na posição exata.",
+    "7. O pantógrafo desloca o bastidor para as próximas coordenadas X e Y, repetindo o ciclo ISO 301 até 1.200 vezes por minuto."
+  ],
+  "mainTypes": [
+    "Ponto 301 Padrão (Lockstitch Simples): Ponto reto básico com entrelaçamento no plano neutro do tecido.",
+    "Ponto 301 Adaptado para Bordado (Embroidery Lockstitch): Calibrado com tensão superior aliviada para puxar o entrelaçamento 1/3 para o avesso, garantindo face superior 100% preenchida sem linha branca de bobina.",
+    "Ponto 304 (Zigue-Zague Lockstitch): Ponto preso com deslocamento lateral alternado da agulha em ângulo.",
+    "Ponto 308 (Zigue-Zague Duplo / Step Lockstitch): Ponto preso zigue-zague com passos múltiplos intermediários."
+  ],
+  "applications": [
+    "Base normativa e estrutural de 100% dos bordados planos, 3D, apliques e emblemas em máquinas eletrônicas",
+    "Fichas de especificação técnica para licitações públicas militares, uniformes hospitalares e corporativos",
+    "Auditorias internacionais de vestuário e conformidade com normas de exportação (ISO, AATCC e ASTM)",
+    "Calibração de lançadeiras e diagnóstico de ponto em centros de assistência técnica autorizada",
+    "Desenvolvimento de softwares de digitalização (formação de arquivos DST, PES, EXP baseados em vetores 301)"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "Projetado para operar de 400 a 1.200 PPM mantendo a integridade da geometria da laçada",
+    "needleType": "Agulhas de alta performance com canaleta de escoamento profundo (DBxK5 ou 130/705H)",
+    "stabilizer": "Entretela compatível com a gramatura do tecido para manter a espessura do plano neutro",
+    "density": "Variação de 0,35 mm a 0,45 mm em satim; passos de 2,0 mm a 4,0 mm em pontos corridos 301",
+    "pullCompensation": "0,20 mm a 0,40 mm para compensar a tração centrípeta gerada pelo aperto do nó 301",
+    "underlay": "Sob-costura estrutural em ponto 301 para erguer o tecido e acolchoar o ponto de cobertura",
+    "threadTension": "Calibragem I-Beam: tensão superior entre 100 e 130 gf; tensão de bobina entre 20 e 25 gf"
+  },
+  "advantages": [
+    "✔ Maior resistência mecânica à tração e lavagens industriais entre todas as classes de costura",
+    "✔ Não desmancha se um ponto sofrer corte acidental, mantendo a integridade do restante do desenho",
+    "✔ Menor consumo linear de linha inferior em comparação a pontos de corrente (Classes 100 e 400)",
+    "✔ Acabamento extremamente plano e estético tanto no direito quanto no avesso da peça bordada"
+  ],
+  "limitations": [
+    "Menor elasticidade natural que pontos de corrente da Classe 400 (exige compensação especial em malhas stretch)",
+    "Capacidade limitada de linha na bobina (exige trocas periódicas ao contrário de teares contínuos de cone)",
+    "Exige sincronismo micrométrico estrito entre a barra da agulha e a rotação da lançadeira (0,05 mm de folga)"
+  ],
+  "commonErrors": [
+    "❌ Confundir a formação do Ponto 301 no bordado com a costura reta: tentar deixar o nó no meio exato da coluna de satim faz a linha branca de bobina subir para a frente do bordado",
+    "❌ Lançadeira fora de ponto (timing desregulado): o bico da lançadeira passa antes ou depois da laçada, gerando falhas de ponto sistemáticas",
+    "❌ Bobina frouxa com menos de 15 gf: o ponto superior afunda e o avesso fica cheio de laços frouxos (birdnesting)",
+    "❌ Agulha inserida ao contrário: a canaleta fica do lado errado e a lançadeira não consegue pescar o Ponto 301",
+    "❌ Bobina girando no sentido incorreto dentro da caixa de bobina: desestabiliza a saída de linha e quebra o nó"
+  ],
+  "troubleshootingTips": [
+    "Se aparecer linha branca de bobina na frente do bordado: aperte o tensor superior ou solte ligeiramente o parafuso da caixa de bobina até que a linha branca fique restrita ao terço central do avesso.",
+    "Se o tecido estiver franzindo nas costuras retas: reduza a tensão superior e aumente o comprimento de ponto do corrido 301 para no mínimo 2,5 mm.",
+    "Se a máquina não laçar o ponto na troca de direção: verifique a altura da barra da agulha (subida de 2 mm a partir do ponto morto inferior)."
+  ],
+  "dicaArtrelados": "O Segredo da Inspeção 1/3 - 1/3 - 1/3 no Avesso e a Regra de Ouro da ISO 301 no Bordado: pegue uma lupa de ateliê e vire o seu bordado do avesso, olhando para uma coluna de ponto cheio de 4 mm de largura! O Ponto 301 perfeito de bordado deve apresentar exatamente três faixas verticais iguais: 1/3 da cor superior na borda esquerda, 1/3 de linha branca de bobina no meio e 1/3 da cor superior na borda direita! Se a faixa branca do meio tiver essa proporção de 33% da largura da coluna, você pode comemorar: a sua máquina está calibrada com a máxima precisão matemática da engenharia alemã e japonesa!",
+  "voceSabia": "A primeira máquina a utilizar o princípio mecânico do Ponto 301 com agulha perfurada na ponta e lançadeira foi patenteada pelo inventor norte-americano Elias Howe em 1846! Howe venceu uma histórica batalha judicial contra Isaac Singer pelos direitos da patente, recebendo royalties de cada máquina de costura e bordado vendida no mundo até o fim de sua vida!",
+  "practicalExercise": "Exercício de Bancada (Auditoria Numérica do Ponto ISO 301 no seu Ateliê):\n1. Borde uma coluna reta de ponto cheio de 5 mm de largura e 5 cm de comprimento em tecido sarja com linha vermelha em cima e branca embaixo.\n2. Retire o bastidor e vire a peça do avesso sob iluminação forte.\n3. Meça com uma régua milimétrica a largura da faixa branca central de bobina: ela deve medir entre 1,5 mm e 1,8 mm (exatamente um terço da largura total).\n4. Se estiver menor que 1,2 mm, aperte o botão da linha vermelha em 1 volta.\n5. Se estiver maior que 2,5 mm, solte o botão em 1 volta.\n6. Repita até cravar a proporção áurea: você agora domina a metrologia internacional da ISO 4915!",
+  "quickSummary": "Padrão técnico internacional supremo que classifica os pontos industriais, definindo o Ponto 301 (ponto fixo por laço de agulha e lançadeira) como o pilar estrutural de todas as máquinas de bordar computadorizadas.",
+  "relatedTerms": [
+    "Tensão de Linha Superior",
+    "Tensiômetro de Linha Superior e Bobina (Togometer / Gauge)",
+    "Lançadeira Rotativa (Rotary Hook)",
+    "Formação da Laçada da Agulha (Loop Formation)",
+    "Normas Técnicas Globais de Conformidade e Segurança Têxtil no Bordado"
+  ],
+  "tags": [
+    "norma iso 4915",
+    "ponto 301",
+    "lockstitch",
+    "ponto preso",
+    "metrologia textil",
+    "engenharia textil",
+    "lancadeira rotativa",
+    "normas tecnicas"
+  ],
+  "updatedAt": "2026-09-28"
+}
+,
+{
+  "id": "n-no-pescador-duplo-fios-escorregadios-metalicos",
+  "code": "N-000",
+  "term": "Nó de Pescador Duplo para Fios Escorregadios e Metálicos (Double Fisherman’s Knot & Slippery Metallic Thread Splicing)",
+  "letter": "N",
+  "letterGroup": "N",
+  "level": "Intermediário 🟡",
+  "category": "Operação de Máquina, Métodos de Passagem de Fio & Manuseio",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Do nó náutico ancestral utilizado por marinheiros e escaladores (Grapevine Knot ou Double Fisherman's Knot) para unir cabos escorregadios de nylon sob tração extrema. Foi adaptado para a indústria têxtil e de bordado eletrônico nas décadas de 1970 e 1980, quando o surgimento dos fios metalizados (foil de poliéster aluminizado) e dos fios sintéticos de alta lubricidade expôs a deficiência do tradicional nó de tecelão simples (weaver's knot), que escorregava e se desmanchava ao ser tracionado através dos discos tensores e tubos condutores da máquina.",
+  "summary": "Nó manual de alta segurança formado por dois nós de volta dupla que se intertravam, ideal para emendar fios metalizados, viscose e monofilamentos sem escorregar.",
+  "definition": "O Nó de Pescador Duplo para Fios Escorregadios e Metálicos (Double Fisherman’s Knot / Grapevine Splicing) é a técnica manual de emenda mais confiável utilizada por operadores de máquinas de bordar industriais para unir o término de uma meada antiga ao início de um novo cone de linha, especialmente quando se lida com fios com baixo coeficiente de atrito (como fios metalizados com fita de poliéster, viscose de alto brilho, monofilamentos de poliamida ou fios com acabamento siliconado). O nó é constituído por dois nós simples duplos (estranguladores) feitos ao redor da linha oposta, que ao serem tracionados correm um contra o outro até se travarem em uma cápsula cilíndrica compacta e simétrica, incapaz de afrouxar sob tensão.",
+  "technicalDetails": "A física de atrito e a geometria do Nó de Pescador Duplo operam sob princípios mecânicos vantajosos: 1) Auto-Aperto sob Tração (Self-Locking Mechanics): à medida que o operador puxa o fio a partir da barra de agulhas para encher o percurso, a força de tração F força ambos os nós a colidirem axialmente, aumentando a pressão radial interna e impedindo o deslizamento mesmo em filmes de poliéster metalizado aluminizado (que possuem coeficiente de atrito estático extremamente baixo, μ < 0,15); 2) Perfil Cilíndrico Aerodinâmico: diferentemente do nó cego comum (que forma uma protuberância disforme que engancha nos ilhoses de porcelana), o pescador duplo forma um perfil suave e afunilado nas duas extremidades que desliza livremente através de tubos condutores de teflon e discos tensores de mola; 3) Ponto de Corte das Caudas: as sobras de linha das pontas devem ser aparadas rente (cerca de 1,0 mm a 1,5 mm do nó), permitindo a passagem inclusive por molas tira-fio sem que as pontas se enrosquem na hélice metálica; 4) Parada Obrigatória antes do Olho da Agulha: embora o nó atravesse com perfeição todos os 8 a 12 guia-fios superiores da máquina, o nó de pescador duplo em fios 40wt possui diâmetro em torno de 0,35 mm a 0,45 mm, devendo ser cortado antes de tentar passar pelo olho da agulha 75/11 (cujo diâmetro interno é de cerca de 0,38 mm a 0,40 mm) para não entortar a haste.",
+  "beginnerExplanation": "Quem trabalha com máquina de bordar sabe: trocar as linhas da máquina cone por cone passando fio por fio em todos aqueles buraquinhos e araminhos demora uma eternidade! O truque que todo mundo usa é dar um nó na linha velha com a linha nova lá em cima no suporte e puxar tudo de uma vez por baixo! Só que quando a gente usa linha dourada ou prateada (aquelas linhas metalizadas brilhantes), a linha é tão lisa e escorregadia que o nozinho comum se desmancha no meio do caminho, a linha se solta dentro do tubinho e dá uma dor de cabeça danada! É aí que entra o Nó de Pescador Duplo: você faz uma laçadinha dupla de cada lado e, quando puxa, os dois nozinhos se abraçam e travam como um cadeado! A linha pode ser lisa como sabão que não escapa de jeito nenhum, passando macia por toda a máquina em 5 segundos!",
+  "characteristics": [
+    "Resistência de união de quase 95% da carga de ruptura do próprio fio têxtil",
+    "Não escorrega mesmo em superfícies ultra-lisas como fios metalizados e monofilamentos",
+    "Formato cilíndrico compacto que transita suavemente por discos de cerâmica e tensores de mola",
+    "Economiza até 80% do tempo de troca de cores em máquinas multi-agulhas (12 a 15 agulhas)",
+    "Fácil de aprender e executar rapidamente com a ponta dos dedos após pouco treino"
+  ],
+  "construction": [
+    "1. Ponta da linha antiga (saindo do percurso da máquina)",
+    "2. Ponta da linha nova (do cone recém-colocado no suporte)",
+    "3. Primeiro nó simples de duas voltas (atado com o fio novo ao redor do fio velho)",
+    "4. Segundo nó simples de duas voltas (atado com o fio velho ao redor do fio novo)",
+    "5. Intertravamento central: tração de ambas as extremidades até que os dois blocos se unam rigidamente"
+  ],
+  "howItWorks": [
+    "1. Posiciona-se as duas pontas de linha em direções opostas, paralelas uma à outra.",
+    "2. Pega-se a ponta do fio novo e dão-se duas voltas completas ao redor do fio antigo.",
+    "3. Passa-se a ponta de volta por dentro das duas voltas formadas e puxa-se para formar o primeiro nó.",
+    "4. Inverte-se o procedimento com a ponta do fio antigo, dando duas voltas ao redor do fio novo.",
+    "5. Puxa-se as linhas principais em sentidos opostos: os dois nós deslizam até se encontrarem e se travarem firmemente.",
+    "6. Apara-se as duas sobrinhas de fio com tesourinha de arremate deixando 1,5 mm de folga.",
+    "7. Segura-se a ponta da linha junto ao cabeçote e puxa-se continuamente: o nó desliza suavemente por todos os tensores e para logo acima da agulha."
+  ],
+  "mainTypes": [
+    "Nó de Pescador Duplo Clássico (Double Fisherman): Duas voltas completas em cada extremidade (o padrão de ouro para fios metalizados e poliéster siliconado).",
+    "Nó de Pescador Triplo (Triple Fisherman): Três voltas completas em cada extremidade, reservado para monofilamentos ultra-escorregadios de pesca ou aramidas enceradas.",
+    "Nó de Pescador Simples (Single Fisherman): Uma única volta de cada lado, mais rápido porém menos confiável para superfícies com acabamento de silicone.",
+    "Puxador com Fita Adesiva / Emenda Rápida: Método alternativo com fita crepe, rápido porém com risco de deixar resíduos de cola dentro dos tensores da máquina."
+  ],
+  "applications": [
+    "Troca rápida de cones de fios metalizados (dourado, prateado, holográfico) em produções industriais",
+    "Passagem de linhas de viscose (rayon) de alta lubricidade e toque sedoso",
+    "Emenda de fios de nylon monofilamento transparente para bordado invisível",
+    "Manutenção de fiação em máquinas de cabeçote múltiplo com tubos condutores de difícil acesso",
+    "Treinamento de operadores novatos para redução do tempo de máquina parada (downtime)"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "Executado com a máquina parada (0 PPM) durante a troca de linha",
+    "needleType": "Não passar o nó pelo olho da agulha! Cortar o nó a 5 cm antes da agulha e enfiar a linha manualmente",
+    "stabilizer": "Não afeta o bastidor diretamente, mas agiliza a preparação do trabalho",
+    "density": "Garante continuidade perfeita de produção sem perda de parâmetros da matriz",
+    "pullCompensation": "Padrão da matriz em execução",
+    "underlay": "Não se aplica diretamente",
+    "threadTension": "Aliviar os tensores superiores abrindo os discos com a alavanca de desengate facilita a tração do nó"
+  },
+  "advantages": [
+    "✔ Elimina 100% dos desmanches de nó durante a puxada de fios lisos",
+    "✔ Evita que o fio escape dentro de dutos internos da máquina, poupando minutos preciosos de desmontagem",
+    "✔ Mantém o alinhamento reto das linhas sem criar dobras angulares que prendem em arames",
+    "✔ Não necessita de ferramentas ou adesivos para ser confeccionado"
+  ],
+  "limitations": [
+    "Exige alguns segundos a mais de confecção do que um simples nó cego rápido",
+    "Mais volumoso que o nó de tecelão plano simples (não passa em furos menores que 0,4 mm)",
+    "Se o operador forçar a passagem do nó pelo olho da agulha, entortará a agulha ou romperá o fio"
+  ],
+  "commonErrors": [
+    "❌ Tentar puxar o nó através do olho da agulha: entorta a haste da agulha e descalibra a chapa",
+    "❌ Deixar caudas longas (mais de 5 mm) sem aparar: as pontas soltas se enroscam nas espirais das molas guia",
+    "❌ Puxar o fio com os discos de tensão travados no aperto máximo: arrebenta a linha antes do nó passar",
+    "❌ Fazer voltas no sentido errado que não travam os dois blocos: o nó desliza solto",
+    "❌ Usar nó cego comum em fio metalizado: o nó abre na primeira curva e a linha volta para trás"
+  ],
+  "troubleshootingTips": [
+    "Se o nó travar no primeiro tensor: abra manualmente os pratos do tensor com a ponta do dedo enquanto puxa a linha por baixo.",
+    "Se as pontinhas do nó estiverem enganchando nos ilhoses: corte as pontas mais rente com um cortador de linha bem afiado.",
+    "Se você tiver dificuldade para fazer as duas voltas com os dedos: use uma pinça de bico curvo de ateliê para segurar o laço com precisão milimétrica."
+  ],
+  "dicaArtrelados": "O Segredo da Tração Suave com Discos Abertos e o Pára-Agulha: quando você for puxar o nó do suporte de cones até o cabeçote, NUNCA puxe de tranco! Acione a alavanca de liberação dos tensores ou empurre levemente o estica-fio para frente com a mão para abrir os discos de cerâmica. E coloque a mão esquerda logo acima da barra da agulha como um \"sensor de parada\": quando você sentir o nózinho tocando no seu dedo, pare de puxar na hora! Corte o nó com a tesoura a 3 cm da agulha e passe a pontinha limpa no olho da agulha. Você ganha 5 minutos em cada cor sem nunca forçar a sua máquina!",
+  "voceSabia": "O nó de pescador duplo é tão seguro e indestrutível sob tensão que é o único nó aprovado pela União Internacional das Associações de Alpinismo (UIAA) para unir fitas tubulares e cordas de salvamento em escalada esportiva e resgate vertical! Se ele aguenta o peso e a queda de uma pessoa de 100 kg em uma montanha, pode ter certeza absoluta de que ele nunca vai abrir ao passar pela sua máquina de bordar!",
+  "practicalExercise": "Exercício de Bancada (Dominando o Nó de Pescador Duplo em 30 Segundos):\n1. Pegue dois pedaços de 30 cm de linha dourada metalizada e coloque-os paralelos na sua mesa.\n2. Enrole a ponta direita duas vezes ao redor do fio esquerdo e passe por dentro do laço, puxando firme.\n3. Faça a mesma coisa com a outra ponta, enrolando duas vezes e passando por dentro.\n4. Segure os dois fios compridos e puxe: veja os dois nozinhos correndo um de encontro ao outro e travando com um estalo seco!\n5. Corte as sobrinhas bem rente com a tesoura.\n6. Puxe com toda a força das suas mãos: a linha arrebentará no meio antes do nó se soltar! Treine até fazer em menos de 15 segundos!",
+  "quickSummary": "Técnica manual de emenda ultrassegura baseada em dois nós estranguladores intertravados, indispensável para passar fios metalizados e escorregadios pela máquina sem desmanchar.",
+  "relatedTerms": [
+    "Nó de Tecelão / Nó de Emenda Manual (Weaver's Knot)",
+    "Nó Cego de Segurança em Troca de Carretel",
+    "Fio Metalizado com Alma de Poliamida e Revestimento de Prata Pura",
+    "Tensão de Linha Superior",
+    "Passador de Fio e Enfiador Automático de Agulha"
+  ],
+  "tags": [
+    "no de pescador duplo",
+    "double fishermans knot",
+    "grapevine knot",
+    "troca de linha",
+    "fio metalizado",
+    "emenda de fio",
+    "operacao de maquina",
+    "dica pratica"
+  ],
+  "updatedAt": "2026-09-28"
+}
 ];

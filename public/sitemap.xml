@@ -1291,6 +1291,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Verbete: [b-bordado-efeito-ponto-palito-ajour-eletronico] Bordado com Efeito Ponto Palito e Ajour Eletrônico (Hemstitch &amp; Entredeux Machine Embroidery) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=b-bordado-efeito-ponto-palito-ajour-eletronico</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Verbete: [b-067-bordado-em-relevo-3d-puffy-foam] Bordado em Relevo 3D / Puffy Foam (Bordado com EVA) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=b-067-bordado-em-relevo-3d-puffy-foam</loc>
@@ -4374,6 +4381,41 @@
   <!-- Verbete: [f-foto-bordado-fotostitch-eletronico] Foto-Bordado / Fotostitch Eletrônico (PhotoStitch &amp; Color-Blending Digitizing) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=f-foto-bordado-fotostitch-eletronico</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [f-fio-elastico-lastex-bobina-bordado-franzido] Fio Elástico e Lastex na Bobina para Bordado e Franzido (Elastic Shirring Thread &amp; Machine Smocking) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=f-fio-elastico-lastex-bobina-bordado-franzido</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [f-fio-texturizado-bobina-contato-macio-bebe] Fio Texturizado para Bobina / Fio de Contato Macio para Bebê (Textured Soft Bobbin Thread / Fio Antialérgico Sem Coceira) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=f-fio-texturizado-bobina-contato-macio-bebe</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [f-fio-la-acrilico-bordado-ponto-russo-trico] Fio de Lã e Acrílico para Bordado / Efeito Ponto Russo e Tricô (Wool &amp; Acrylic Embroidery Thread / Lana 12wt / Burmilana) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=f-fio-la-acrilico-bordado-ponto-russo-trico</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [f-flocagem-efeito-flocado-bordado-eletronico] Flocagem e Efeito Flocado no Bordado Eletrônico (Flock Heat Transfer &amp; Embroidered Flocking / Patches Aveludados) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=f-flocagem-efeito-flocado-bordado-eletronico</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [f-fita-cetim-fitas-decorativas-bastidor] Fita de Cetim e Fitas Decorativas no Bastidor (Machine Ribbon Embroidery &amp; In-the-Hoop Ribbon Work) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=f-fita-cetim-fitas-decorativas-bastidor</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -9194,6 +9236,34 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Verbete: [n-nitrato-prata-revestimento-condutivo-fios-texteis] Nitrato de Prata e Revestimento Condutivo em Fios Têxteis / Linhas Inteligentes (Silver-Coated Conductive Embroidery Thread &amp; Smart Wearables) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=n-nitrato-prata-revestimento-condutivo-fios-texteis</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [n-nomex-fios-meta-aramida-retardantes-chama-epi] Nomex® e Fios de Meta-Aramida Retardantes de Chama no Bordado de EPI (Nomex® Meta-Aramid Flame-Resistant Embroidery Thread &amp; Arc-Flash Safety Gear) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=n-nomex-fios-meta-aramida-retardantes-chama-epi</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [n-norma-iso-4915-classificacao-pontos-maquina] Norma ISO 4915 e Classificação Numérica de Pontos de Máquina (ISO 4915 Stitch Classification System - Stitch Type 301 Lockstitch) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=n-norma-iso-4915-classificacao-pontos-maquina</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [n-no-pescador-duplo-fios-escorregadios-metalicos] Nó de Pescador Duplo para Fios Escorregadios e Metálicos (Double Fisherman’s Knot &amp; Slippery Metallic Thread Splicing) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=n-no-pescador-duplo-fios-escorregadios-metalicos</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Verbete: [oxford-tecido-oxford-poliester] Oxford / Tecido Oxford 100% Poliéster (Oxford Weave Fabric) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=oxford-tecido-oxford-poliester</loc>
@@ -9834,6 +9904,34 @@
   <!-- Verbete: [o-100-organizacao-ergonomica-da-bancada-de-enquadramento] Organização Ergonômica da Bancada de Enquadramento e Mesa de Apoio do Bastidor (Ergonomic Framing Station &amp; Hooping Board Layout) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=o-100-organizacao-ergonomica-da-bancada-de-enquadramento</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [o-ortogonalidade-eixos-x-y-pantografo-calibracao-esquadro] Ortogonalidade dos Eixos X e Y do Pantógrafo e Calibração de Esquadro (Pantograph X/Y Orthogonality &amp; Squareness Alignment) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=o-ortogonalidade-eixos-x-y-pantografo-calibracao-esquadro</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [o-oximetria-textil-bordados-biomedicos-monitoramento-cardiaco] Oximetria Têxtil e Bordados Biomédicos de Monitoramento Cardíaco (Textile Oximetry &amp; Biosensing Medical Embroidery) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=o-oximetria-textil-bordados-biomedicos-monitoramento-cardiaco</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [o-orificio-dreno-lancadeira-canaleta-escoamento-residuos] Orifício de Dreno da Lançadeira e Canaleta de Escoamento de Resíduos (Rotary Hook Lint Drain Port &amp; Debris Channel) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=o-orificio-dreno-lancadeira-canaleta-escoamento-residuos</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [o-overfeeding-sobrealimentacao-tecido-compensacao-ondulacao] Overfeeding / Sobrealimentação de Tecido e Compensação de Ondulação Diferencial (Fabric Overfeeding &amp; Differential Tension Relief) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=o-overfeeding-sobrealimentacao-tecido-compensacao-ondulacao</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -11682,6 +11780,41 @@
   <!-- Verbete: [r-100-rastreabilidade-e-arquivamento-de-fichas-tecnicas] Rastreabilidade e Arquivamento de Fichas Técnicas de Produção no Ateliê (Embroidery Production Spec Sheet &amp; Batch Traceability) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=r-100-rastreabilidade-e-arquivamento-de-fichas-tecnicas</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [r-restauracao-reparacao-textil-digital-cerzimento] Restauração e Reparação Têxtil Digital / Bordado de Cerzimento (Digital Mending &amp; Machine Darning Embroidery) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=r-restauracao-reparacao-textil-digital-cerzimento</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [r-rotulos-texteis-etiquetas-bordadas-bastidor] Rótulos Têxteis e Etiquetas Bordadas no Bastidor (Embroidered Woven-Style Labels &amp; ITH Brand Tags) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=r-rotulos-texteis-etiquetas-bordadas-bastidor</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [r-recorte-laser-bastidor-camera-ccd-ponte-laser] Recorte a Laser no Bastidor e Câmera CCD / Ponte de Laser para Bordado (Laser Cutting Bridge &amp; In-Hoop CCD Camera Alignment) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=r-recorte-laser-bastidor-camera-ccd-ponte-laser</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [r-resfriamento-refrigeracao-agulha-ar-comprimido] Resfriamento e Refrigeração de Agulha por Ar Comprimido (Needle Air Cooler &amp; Cold Air Jet System) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=r-resfriamento-refrigeracao-agulha-ar-comprimido</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [r-regulador-tensao-superior-dinamico-digital] Regulador de Tensão Superior Dinâmico e Digital (Electronic Thread Tension Control &amp; Dynamic Actuator) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=r-regulador-tensao-superior-dinamico-digital</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
