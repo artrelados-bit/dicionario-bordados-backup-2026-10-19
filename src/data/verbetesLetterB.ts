@@ -5425,4 +5425,423 @@ export const VERBETES_LETTER_B: Verbete[] = [
   ],
   "updatedAt": "2026-09-28"
 }
+,
+{
+  "id": "b-bordado-lantejoula-paete-eletronico",
+  "code": "B-000",
+  "term": "Bordado com Lantejoula e Paetê Eletrônico (Sequin & Paillette Embroidery Device)",
+  "letter": "B",
+  "level": "Intermediário 🟡 a Avançado 🔴",
+  "category": "Dispositivos Automatizados & Bordado de Moda e Festa",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Do árabe sikka (moeda ou cunho de metal, que originou a palavra zecchino em italiano e sequin em inglês, referindo-se a discos brilhantes costurados em vestes reais como símbolo de riqueza) e do francês paillette (pequena palha brilhante / folha de ouro ou mica). A automatização do bordado com paetês surgiu no início dos anos 2000, com patentes pioneiras de fabricantes japoneses e chineses (como Tajima Sequin Device, Barudan e Dahao), substituindo a costura manual de pedrarias por alimentadores eletropneumáticos ou acionados por motores de passo capazes de dispensar e prender até 1.000 lantejoulas por minuto.",
+  "summary": "Dispositivo auxiliar motorizado acoplado ao cabeçote de bordar que alimenta bobinas contínuas de lantejoulas, cortando e costurando paetês individuais com pontos ornamentais de alta velocidade.",
+  "definition": "O Bordado com Lantejoula e Paetê Eletrônico é a técnica e o sistema automatizado de aplicação mecânica no qual um dispositivo alimentador independente (Sequin Device) acoplado lateralmente à barra de agulhas puxa fitas plásticas perfuradas contínuas de filmes de poliéster ou PVC metalizado (de 2 mm a 9 mm de diâmetro), projeta uma única lantejoula sob a agulha, decepa a haste de união por meio de uma lâmina de corte e comanda a máquina para costurá-la no tecido esticado no bastidor com pontos de ancoragem pré-programados (ponto simples, estrela, cruz ou Y). Essa tecnologia permitiu a industrialização em larga escala da moda festa, figurinos de dança e vestuário esportivo de alta visibilidade.",
+  "technicalDetails": "O dispositivo de lantejoulas opera em sincronia eletrônica com o encoder do eixo principal da máquina de bordar através de sinais ópticos ou solenoides. Quando o código de função de lantejoula (comando Sequin ON no arquivo de matriz) é lido pelo controlador, o braço guia desce até a folga de 0,5 mm acima do tecido. Um micromotor de passo ou atuador pneumático avança a fita exatamente um passo (pitch da lantejoula, tipicamente 3 mm, 4 mm ou 5 mm). A faca mecânica inferior cisalha o micro-filamento plástico conectivo e o calcador especial de bordado desce para estabilizar o disco enquanto a agulha penetra no furo central da lantejoula. Os tipos de ancoragem digital mais eficientes incluem: Ponto Cruz (Cross Stitch - 4 perfurações simétricas), Ponto Estrela (Star Stitch - 3 perfurações em 120° com travamento absoluto) e Ponto Sobreposto (Overlap Shingle - onde a lantejoula seguinte cobre a borda da anterior, criando o efeito escama de peixe ou paetê reversível mágico).",
+  "beginnerExplanation": "Sabe aqueles vestidos de festa maravilhosos, roupas de cantoras famosas e fantasias de carnaval que brilham de longe cheias de paetês e lantejoulas perfeitamente alinhadas? Antigamente, uma costureira levava semanas para pregar cada lantejoula com agulha e linha de mão! Hoje em dia, a máquina de bordar computadorizada tem um aparelhinho acoplado do lado da agulha com um rolinho de fita brilhante: o aparelho puxa a fita, corta uma lantejoulinha em uma fração de segundo e a agulha da máquina já dá dois ou três pontinhos firmes no buraquinho do meio! É tão rápido que parece um passe de mágica: em poucos minutos você tem um bordado inteiro cintilante e que não solta nenhuma lantejoula na lavagem!",
+  "characteristics": [
+    "Alimentador motorizado com guia de fita contínua em carretéis de 1.000 a 5.000 peças",
+    "Faca de corte integrada que decepa a lantejoula no momento da descida da agulha",
+    "Compatível com paetês redondos, quadrados, flores, estrelas e acabamentos foscos ou holográficos",
+    "Permite efeito de paetê reversível (lantejoulas bicolores que mudam de desenho ao passar a mão)",
+    "Pode ser combinado com fios metalizados ou bordado plano comum na mesma matriz"
+  ],
+  "construction": [
+    "1. Carretel de fita: Rolo de lantejoulas perfuradas termoformadas de PVC ou poliéster PET",
+    "2. Braço alimentador e guia-fio: Canaleta de tração calibrada para a largura da lantejoula",
+    "3. Faca guilhotina: Lâmina de aço temperado com acionamento mecânico na descida da barra",
+    "4. Calcador de lantejoula: Pé especial com aba frontal aberta para não prensar as bordas plásticas",
+    "5. Ponto de fixação: Laçada de linha de poliéster 120 ou fio de nylon monofilamento transparente"
+  ],
+  "howItWorks": [
+    "1. O rolo de lantejoulas do tamanho desejado (ex: 4 mm) é encaixado no suporte superior e a fita é enfiada no guia do alimentador.",
+    "2. O operador ativa a função Sequin no painel da máquina e calibra a altura do bico dispensador em relação ao tecido no bastidor.",
+    "3. Ao iniciar a matriz, o motor de passo do dispositivo avança a primeira lantejoula para a posição de captura.",
+    "4. A agulha desce através do orifício central do paetê; simultaneamente, a lâmina corta o lacre da fita.",
+    "5. O pantógrafo se desloca em X/Y executando os pontos de amarração programados (como 3 pontos em estrela para travar o plástico contra o tecido).",
+    "6. O ciclo avança continuamente em cadência de 500 a 750 lantejoulas por minuto até a conclusão do motivo.",
+    "7. Ao final da sequência, o braço do dispositivo se eleva automaticamente, permitindo que a máquina continue bordando linhas normais."
+  ],
+  "mainTypes": [
+    "Dispositivo de Lantejoula Simples (Single Sequin): Aplica um único diâmetro e cor de lantejoula por cabeçote.",
+    "Dispositivo de Lantejoula Dupla (Twin Sequin / Dual Device): Alimenta dois tamanhos ou cores diferentes no mesmo cabeçote, alternando-os na mesma matriz.",
+    "Dispositivo de Quatro Lantejoulas (Quad Sequin): Tecnologia de ponta para vestidos de gala com 4 carretéis intercambiáveis automáticos.",
+    "Paetê Reversível (Flip Sequin): Costura orientada com sobreposição em escama; ao passar a mão para cima ou para baixo, o paetê vira e revela outra cor ou palavra."
+  ],
+  "applications": [
+    "Vestidos de noiva, vestidos de debutante e alta costura para moda festa",
+    "Fantasias carnavalescas, figurinos teatrais e collants de patinação artística e ginástica rítmica",
+    "Moda infantil lúdica com camisetas interativas de paetê mágico que muda de cor",
+    "Uniformes de cheerleaders, jaquetas bombers estilosas e detalhes em bolsas de festa"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "500 a 700 PPM (velocidades moderadas evitam que a lantejoula voe antes da penetração da agulha)",
+    "needleType": "Agulha 75/11 Ponta Bola Pequena (SES) para deslizar suavemente no orifício central sem estilhaçar o plástico",
+    "stabilizer": "Entretela de recorte estável (cutaway 70 g/m²) ou entretela rasgável encorpada sem elasticidade",
+    "density": "Espaçamento de avanço programado milimetricamente igual ao diâmetro da lantejoula (ou com 20% de sobreposição para efeito escama)",
+    "pullCompensation": "0,30 mm a 0,40 mm no tecido de base",
+    "underlay": "Sem sob-costura sob a trilha de lantejoulas para manter a superfície plana e lisa",
+    "threadTension": "Tensão superior moderadamente solta para não repuxar ou curvar o plástico da lantejoula"
+  },
+  "advantages": [
+    "✔ Agilidade incomparável: faz em 5 minutos o que exigiria 10 horas de bordado manual com pedrarias",
+    "✔ Fixação mecânica uniforme com nós de bloqueio que não desmancham na primeira lavagem",
+    "✔ Aumento drástico do valor percebido da peça confeccionada",
+    "✔ Efeito luminoso e cintilante deslumbrante que capta a luz dos refletores no palco"
+  ],
+  "limitations": [
+    "Exige instalação de dispositivo mecânico específico e placas controladoras compatíveis no cabeçote",
+    "Não pode ser passado a ferro quente diretamente por cima sob risco de derreter o plástico PET",
+    "Lavagem em máquina com centrifugação agressiva pode dobrar ou lascar bordas de lantejoulas muito finas"
+  ],
+  "commonErrors": [
+    "❌ Usar agulha de ponta afiada que fura a borda do paetê em vez de entrar no orifício central",
+    "❌ Borda em velocidade máxima (900 PPM): o ar e a vibração deslocam o paetê e a agulha quebra sobre o plástico",
+    "❌ Fita de lantejoula colocada com o lado avesso fosco para cima",
+    "❌ Faca de corte desregulada ou cega, puxando e engasgando a fita na canaleta",
+    "❌ Passar ferro quente diretamente no bordado sem usar pano protetor de algodão por cima"
+  ],
+  "troubleshootingTips": [
+    "Se a agulha estiver quebrando ao tentar costurar a lantejoula: calibre a centralização do furo na matriz e verifique se a faca está decepando a fita no milímetro exato.",
+    "Se as lantejoulas estiverem caindo: aumente o número de pontos de fixação de 2 para 3 (padrão estrela ou triângulo) e programe nó de arremate duplo no início e fim.",
+    "Se a fita estiver embolando no alimentador: limpe fiapos plásticos e resíduos de estática do trilho com spray antiestático e pincel macio."
+  ],
+  "dicaArtrelados": "O Truque da Linha Invisível de Monofilamento de Alta Resistência: se você vai bordar lantejoulas coloridas brilhantes ou holográficas e não quer que a linha de costura apareça e \"corte\" o reflexo do brilho, use linha de monofilamento de poliamida transparente 100% náilon (título 0,08 mm a 0,10 mm) na agulha! Como ela é completamente transparente como um fio de pesca microscópico, ela desaparece por cima da lantejoula, deixando apenas o brilho puro do paetê visível, com acabamento de ateliê de alta costura parisiense!",
+  "voceSabia": "A lantejoula mais antiga da história da humanidade foi descoberta na tumba do faraó Tutancâmon, no Egito, datada de mais de 3.300 anos atrás! Eram pequenos discos de ouro maciço com um orifício central, costurados nos trajes cerimoniais reais para garantir que o jovem rei continuasse brilhando como o sol na eternidade!",
+  "practicalExercise": "Exercício de Bancada (Inspeção e Fixação Manual de Paetê Reversível):\n1. Pegue uma tira de fita de paetê reversível bicolor (ex: preto de um lado e dourado do outro).\n2. Encaixe no suporte do dispositivo da máquina ou teste uma amostra manual no bastidor com ponto zigue-zague aberto.\n3. Calibre o passo para sobrepor exatamente 40% da lantejoula anterior.\n4. Borde uma linha reta de 10 cm e passe o dedo suavemente para frente e para trás.\n5. Veja a troca mágica de cores e observe como a inclinação dos pontos mantém a lantejoula solta o suficiente para girar sem cair!",
+  "quickSummary": "Sistema automatizado com dispositivo alimentador que corta e costura lantejoulas e paetês em alta velocidade diretamente no bastidor, trazendo brilho e glamour à moda festa e infantil.",
+  "relatedTerms": [
+    "Bordado Tradicional Direto / Bordado Plano (Direct Flat Embroidery)",
+    "Fio Metalizado para Bordado (Metallic Embroidery Thread)",
+    "Bordado Chenille / Ponto Musgo Eletrônico",
+    "Compensação de Encolhimento (Pull Compensation)",
+    "Calcador de Bordado Especial"
+  ],
+  "tags": [
+    "lantejoula",
+    "paete",
+    "sequin device",
+    "paillette",
+    "paete reversivel",
+    "moda festa",
+    "vestido de noiva",
+    "ponto estrela"
+  ],
+  "updatedAt": "2026-09-28"
+}
+,
+{
+  "id": "b-bordado-efeito-franja-3d-ponto-fringe",
+  "code": "B-000",
+  "term": "Bordado com Efeito Franja 3D / Ponto Fringe (Fringe Embroidery & 3D Thread Loops)",
+  "letter": "B",
+  "level": "Iniciante 🟢 a Intermediário 🟡",
+  "category": "Técnicas Especiais & Efeitos Tridimensionais",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Do francês antigo frenge e do latim fimbria (orla, extremidade desfiada ou borla de fios soltos), associado ao inglês fringe stitch. No bordado computadorizado moderno, a técnica foi popularizada no início dos anos 2000 por designers de matrizes infantis e comemorativas (Papoose, Anita Goodesign e OESD), que descobriram como usar colunas de ponto cheio (satin) associadas a uma linha de ancoragem unilateral programada para criar franjas soltas tridimensionais sem ferramentas manuais complexas.",
+  "summary": "Técnica decorativa tridimensional onde colunas de ponto cheio com ancoragem assimétrica são cortadas no verso do bordado, liberando tufos densos de fios na superfície.",
+  "definition": "O Bordado com Efeito Franja 3D / Ponto Fringe (Fringe Embroidery) é uma técnica especializada de programação de matriz e acabamento manual posterior, na qual uma área é preenchida com colunas largas de ponto cheio (satin de 7 mm a 12 mm de largura) ancoradas por uma costura de segurança em ponto corrido triplo (bean stitch) apenas em uma das extremidades laterais, mantendo a outra extremidade completamente livre de sob-costura. Ao término do bordado na máquina, o operador acessa o avesso da peça e secciona a linha branca de bobina que prende os pontos ao longo da borda livre. Sem a retenção inferior, os fios da linha superior se desprendem e são puxados para a face direita do tecido, formando uma densa franja tridimensional de fios soltos ou laçadas felpudas com toque tátil macio.",
+  "technicalDetails": "A digitalização do Ponto Fringe obedece a regras paramétricas estritas: 1) Linha de Ancoragem (Anchor Line): deve ser posicionada exatamente no bordo interno fixo, consistindo de 3 a 5 passagens de ponto reto com comprimento de 1,5 mm; 2) Coluna Satim: largura recomendada de 8 mm a 12 mm com densidade nominal entre 0,38 mm e 0,45 mm. Em comprimentos acima de 12 mm, recomenda-se desativar a função de salto automático (jump stitch) para que a máquina não corte o fio entre as passadas; 3) Ausência de Sob-costura (Underlay OFF): a área onde os fios serão liberados NÃO pode receber nenhum ponto de zigue-zague ou tatami intermediário, pois qualquer ponto extra impedirá o desprendimento do fio superior; 4) Tensão de Linha: recomenda-se afrouxar ligeiramente a tensão da linha superior (ou apertar a caixa de bobina) para que a laçada branca inferior fique bem evidente e acessível no avesso, facilitando o corte seguro com abridor de casas ou tesourinha pelicano sem perigo de furar o tecido.",
+  "beginnerExplanation": "Você já viu aqueles bordados fofos de leãozinho onde a crina é cheia de pelos soltos de verdade, ou barbas de Papai Noel tão fofinhas que parecem pelos de lã? É muito fácil fazer! A máquina borda um ponto cheio bem largo, mas com um truque secreto na matriz: ela só costura firme de um lado. Quando o bordado termina, você vira o tecido do avesso, pega um abridor de casas ou uma tesourinha bem fininha e corta apenas a linha branca da bobina do lado solto. Aí você volta para a frente do tecido, puxa os fios com uma escovinha de dente macia e... tcharam! Todos os fios se soltam e viram uma franja linda, fofinha e cheia de balanço tridimensional!",
+  "characteristics": [
+    "Criação de relevo e textura real de pelos, crinas, barbas e pompons sem fitas adicionais",
+    "Estruturação digital assimétrica: ancoragem firme em um lado e liberação no outro",
+    "Acabamento interativo pós-máquina através do corte da linha de bobina no verso",
+    "Alta durabilidade: os fios não desmancham porque a raiz está travada por tripla costura",
+    "Compatível com linhas tradicionais de poliéster 120 ou fios de algodão fosco"
+  ],
+  "construction": [
+    "1. Base têxtil estabilizada: Tecido montado no bastidor com entretela rasgável média (50g) ou recorte",
+    "2. Costura de bloqueio (Anchor Stitch): Linha de pesponto triplo na raiz da franja",
+    "3. Coluna de Ponto Cheio Fringe: Satim largo (8 mm a 12 mm) sem sob-costura intermediária",
+    "4. Secção no avesso: Corte cuidadoso da laçada da bobina na margem oposta à âncora",
+    "5. Penteado e abertura frontal: Liberação dos fios para a frente com escovinha macia"
+  ],
+  "howItWorks": [
+    "1. A peça é montada no bastidor com entretela adequada e a matriz de Fringe é carregada na máquina.",
+    "2. A máquina executa a costura de ancoragem linear na raiz onde a franja ficará presa.",
+    "3. A máquina borda a coluna densa de ponto cheio largo, indo e voltando de uma extremidade à outra.",
+    "4. Ao terminar, a peça é retirada do bastidor e virada com o avesso para cima sobre uma mesa iluminada.",
+    "5. Com a ponta de um desmanchador de costura (abridor de casas) ou tesoura pelicano, corta-se a linha branca da bobina ao longo do lado que não tem ancoragem.",
+    "6. Vira-se a peça para a frente e, com uma agulha sem ponta ou escova de dentes macia, puxa-se os fios para a frente, penteando suavemente para abrir a franja fofa.",
+    "7. Se desejar fios retos em vez de laçadas dobradas, corta-se as pontas das alças com uma tesoura afiada."
+  ],
+  "mainTypes": [
+    "Franja em Laçada Fechada (Loop Fringe): A linha superior forma pequenas alças contínuas que criam efeito de toalha felpuda ou pompom.",
+    "Franja Desfiada / Aberta (Cut Fringe): As pontas das laçadas são aparadas com tesoura, transformando-se em fios soltos individuais como cabelo ou crina de cavalo.",
+    "Franja Circular / Pompom (Round Fringe): Digitalizada em raios circulares concêntricos para criar miolos felpudos de girassóis e margaridas.",
+    "Franja Escalonada Multicamadas: Fileiras sobrepostas de franjas de cores diferentes imitando penas de pássaros ou telhados de palha."
+  ],
+  "applications": [
+    "Crinas e rabinhos de leões, cavalinhos, unicórnios e animais de safari em enxovais infantis",
+    "Barbas de Papai Noel, duendes, gnomos e detalhes de neve em peças natalinas",
+    "Miolos tridimensionais de flores (girassóis, margaridas e cravos) em almofadas e toalhas",
+    "Gramados decorativos, arbustos e detalhes de vegetação em paisagens bordadas",
+    "Barrados e franjas decorativas em toalhas de lavabo e panos de prato de luxo"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "600 a 700 PPM (velocidade moderada para garantir que as laçadas longas assentem retas)",
+    "needleType": "Agulha 75/11 Ponta Bola Pequena (SES) para preservar as fibras do tecido",
+    "stabilizer": "Entretela rasgável de boa resistência (50 a 60 g/m²) ou recorte leve",
+    "density": "0,38 mm a 0,42 mm (densidade suficiente para dar volume sem endurecer o bloco)",
+    "pullCompensation": "0,40 mm a 0,50 mm no sentido do comprimento da coluna",
+    "underlay": "ZERO underlay na área do satim (obrigatório: apenas costura de ancoragem na raiz)",
+    "threadTension": "Tensão de bobina ligeiramente mais apertada ou linha superior um pouco mais solta"
+  },
+  "advantages": [
+    "✔ Proporciona um efeito sensorial tátil e visual 3D surpreendente sem gastar nenhum material extra",
+    "✔ Agrega imenso valor a matrizes infantis que encantam pais e crianças",
+    "✔ Execução rápida na máquina com acabamento manual simples e prazeroso",
+    "✔ Fios firmemente travados na raiz que não soltam após lavagens normais"
+  ],
+  "limitations": [
+    "Exige corte manual cuidadoso no avesso após a etapa de máquina",
+    "Se o operador cortar o lado errado no avesso (o lado da ancoragem), todo o bordado se desmancha",
+    "Não é indicado para peças que sofram atrito severo constante ou escovação mecânica abrasiva"
+  ],
+  "commonErrors": [
+    "❌ Cortar a linha do lado ancorado: todo o desenho se desfaz e cai do tecido",
+    "❌ Digitalizar com sob-costura em zigue-zague ou tatami no meio do ponto cheio: os fios não se soltam",
+    "❌ Puxar os fios para a frente com força excessiva antes de cortar todas as laçadas da bobina",
+    "❌ Fazer colunas curtas demais (menos de 5 mm): a franja não tem caimento e vira apenas fiapo",
+    "❌ Cortar o tecido de base acidentalmente com a lâmina do desmanchador de costura"
+  ],
+  "troubleshootingTips": [
+    "Se os fios superiores não estiverem se soltando ao puxar: verifique se você cortou todas as laçadas de bobina no verso e confira se a matriz não inseriu micropontos automáticos no meio do satim.",
+    "Se o tecido furar durante o corte no verso: coloque a ponta com a bolinha vermelha do desmanchador de costura voltada para baixo, protegendo o tecido contra a lâmina afiada.",
+    "Se as pontas da franja ficarem arrepiadas e desiguais: borrife uma gota d água morna, penteie com escovinha e apare as pontinhas com tesoura de costura reta."
+  ],
+  "dicaArtrelados": "O Segredo da Bolinha de Proteção do Abridor de Casas: na hora de cortar a linha de bobina no avesso, use SEMPRE um desmanchador de costura com aquela bolinha vermelha de proteção voltada para baixo, encostada no tecido! A lâmina afiada fica na curva superior, cortando apenas as laçadas brancas da linha sem nunca beliscar ou rasgar as fibras da toalha ou do algodão. E depois de puxar os fios para a frente, passe uma escova de dentes infantil extra-macia em movimentos suaves: ela separa e estica cada filamento de poliéster, transformando o bordado em uma pelúcia fofa e perfeita!",
+  "voceSabia": "A técnica de franjas no bordado nasceu inspirada nas antigas borlas e passamanarias medievais dos mantos da nobreza real europeia, onde artesãos passavam horas desfiando e penteando fios de seda para criar bordas balançantes! No bordado computadorizado, a máquina faz a preparação geométrica exata das laçadas em menos de dois minutos!",
+  "practicalExercise": "Exercício de Bancada (O Rabinho do Coelhinho ou Crina do Leãozinho):\n1. Baixe ou digitalize uma matriz simples de um círculo de 4 cm com ponto fringe na borda externa e ancoragem no centro.\n2. Borde em um retalho de tecido com linha amarela ou marrom na agulha e linha branca na bobina.\n3. Retire do bastidor, vire do avesso e localize a fileira de pontos brancos soltos na borda.\n4. Deslize o desmanchador de costura cortando a linha branca da bobina de ponta a ponta.\n5. Vire para a frente, passe a escovinha macia e sinta a satisfação mágica de ver a franja fofa se abrir!",
+  "quickSummary": "Técnica decorativa tridimensional onde colunas de ponto cheio com ancoragem assimétrica são cortadas no verso para liberar franjas soltas e felpudas imitando pelos, crinas e flores.",
+  "relatedTerms": [
+    "Ponto Cheio (Satin Stitch)",
+    "Bordado Tradicional Direto / Bordado Plano (Direct Flat Embroidery)",
+    "Bordado Chenille / Ponto Musgo Eletrônico",
+    "Bordado em Relevo 3D / Puffy Foam (Bordado com EVA)",
+    "Sob-costura (Underlay)"
+  ],
+  "tags": [
+    "franja 3d",
+    "ponto fringe",
+    "fringe stitch",
+    "crina de leao",
+    "barba papai noel",
+    "pelos tridimensionais",
+    "efeito pelucia",
+    "pom-pom"
+  ],
+  "updatedAt": "2026-09-28"
+}
+,
+{
+  "id": "b-bordado-bobbin-work-avesso-fio-especial-bobina",
+  "code": "B-000",
+  "term": "Bordado Bobbin Work / Bordado pelo Avesso com Fio Especial na Bobina (Reverse Bobbin Work)",
+  "letter": "B",
+  "level": "Intermediário 🟡 a Avançado 🔴",
+  "category": "Técnicas Especiais & Manipulação de Fios",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Do inglês bobbin (carretilha / bobina inferior de máquina de costura) e work (trabalho manual ou ornamental). Desenvolvido por alfaiates e quilters artesanais no século XIX para aplicar fios rústicos e cordões grossos que não passavam pelo orifício das agulhas da época. Com a chegada das máquinas de bordar computadorizadas com corte automático e sensores de linha na virada dos anos 2000, fabricantes como Husqvarna Viking, Pfaff e Bernina adaptaram e padronizaram o Bobbin Work através de caixas de bobina especiais para fios pesados e kits de tensão livre.",
+  "summary": "Técnica decorativa executada com o tecido invertido no bastidor, onde fios grossos, fitas de seda ou cordões são laçados a partir da bobina inferior por uma linha fina de agulha.",
+  "definition": "O Bordado Bobbin Work (ou Bordado Invertido na Bobina) é a técnica na qual materiais têxteis de alta espessura ou relevo incompatíveis com a passagem mecânica pelo olho da agulha (como fitas de cetim de 2 mm a 4 mm, fios de lã, meadas inteiras de algodão perlé, cordonês metalizados ou fios rústicos de tapeçaria) são enrolados manualmente no carretel da bobina inferior. O tecido e a entretela são montados no bastidor com o direito voltado para baixo (voltado para a chapa de agulha). À medida que a máquina de bordar executa uma matriz de contorno linear, a agulha superior munida de uma linha fina de poliéster 120 desce, captura a laçada do fio volumoso da lançadeira e ancora o material decorativo contra a face frontal do tecido.",
+  "technicalDetails": "A execução do Bobbin Work eletrônico exige calibração rigorosa de três eixos: 1) Tensão da Bobina: o parafuso da mola de lâmina da caixa de bobina deve ser afrouxado (ou deve-se utilizar uma Caixa de Bobina Especial para Bobbin Work com orifício de saída alargado e menor pressão de mola), permitindo que a fita ou cordão deslize suavemente sem travar; 2) Enrolamento Manual: o fio especial deve ser enrolado na carretilha à mão, com distribuição homogênea e sem esticar a fibra elástica, evitando trancos na rotação do gancho; 3) Matriz Digitalizada Espelhada (Mirror Image): como o tecido é colocado virado de costas no bastidor, a matriz deve ser espelhada horizontalmente caso contenha letras, assinaturas ou desenhos assimétricos. A programação deve usar exclusivamente pontos corridos (running stitch de 2,5 mm a 4,0 mm), ponto semente ou contornos decorativos abertos, sendo terminantemente proibido o uso de ponto cheio ou tatami denso, sob risco de travar a lançadeira e quebrar a chapa de agulha.",
+  "beginnerExplanation": "Sabe quando você vê uma linha maravilhosa, como um fio de lã felpudo, uma fitinha de cetim bem fininha ou um cordão dourado grosso e brilhante, e pensa: \"Ah, se eu pudesse bordar com isso na máquina, mas não passa pelo buraquinho da agulha!\"? Com o Bobbin Work você pode! O segredo é genial: em vez de colocar esse fio grosso em cima, você enrola ele na bobina de baixo! O tecido é colocado de ponta-cabeça no bastidor (com o lado bonito virado para baixo, na mesa da máquina). Na agulha de cima vai uma linha normal bem fininha. A máquina vai costurando por trás e, quando você tira o bastidor e vira o tecido... aquele cordão grosso e suntuoso está todo costurado na frente da peça, como se tivesse sido bordado à mão pelos melhores artesãos!",
+  "characteristics": [
+    "Permite bordar com fitas de cetim, lãs, meadas de ponto cruz e cordões dourados pesados",
+    "Trabalho executado pelo avesso do tecido no bastidor (requer matriz espelhada para textos)",
+    "Fio grosso ancorado na frente por uma linha de costura sutil e resistente vinda de trás",
+    "Textura artesanal nobre com relevo volumoso e toque suntuoso",
+    "Necessidade de caixa de bobina com regulagem livre de tensão"
+  ],
+  "construction": [
+    "1. Bobina inferior carregada: Fio especial (lã, fita ou meada) enrolado manualmente sem tração",
+    "2. Agulha superior: Linha de poliéster 120 fina em cor contrastante ou combinando",
+    "3. Tecido no bastidor: Lado direito voltado para baixo, em contato direto com a chapa de ponto",
+    "4. Entretela de suporte: Entretela rasgável de 50g presa pelo lado que fica visível para o operador",
+    "5. Matriz digitalizada: Desenho linear estilizado (Redwork / Pesponto contínuo) espelhado em X"
+  ],
+  "howItWorks": [
+    "1. O fio grosso ou a fita decorativa é enrolado na bobina de plástico lentamente com as mãos, sem apertar.",
+    "2. A bobina é inserida na caixa de bobina alternativa e a ponta é passada livremente pela guia sem forçar a mola de tensão.",
+    "3. O tecido é montado no bastidor com a face principal para baixo e a entretela por cima.",
+    "4. A matriz é espelhada no visor da máquina caso contenha monogramas ou orientações específicas.",
+    "5. Desativa-se o sensor de quebra de linha de bobina (caso a espessura do fio engane o leitor óptico).",
+    "6. A máquina costura em velocidade moderada (400 a 500 PPM), desenhando as linhas com precisão.",
+    "7. Ao término, a peça é retirada do bastidor e desvirada, revelando o traçado rico e volumoso do fio grosso."
+  ],
+  "mainTypes": [
+    "Bobbin Work com Fita de Cetim (Silk Ribbon Bobbin Work): Cria ramalhetes, flores e monogramas com brilho acetinado largo.",
+    "Bobbin Work com Cordão Metalizado Grosso: Acabamento suntuoso com fios de ouro ou prata pesados em vestimentas litúrgicas e trajes de gala.",
+    "Bobbin Work com Fio de Lã / Algodão Rústico: Efeito folk/boho acolhedor em peças de linho, almofadas e mantas.",
+    "Bobbin Work em Quilting Livre / Contorno: Linhas sinuosas grossas para valorizar colchas e painéis artísticos de tecido."
+  ],
+  "applications": [
+    "Painéis de patchwork artístico e quilts decorativos de galeria",
+    "Vestidos de noiva de alta-costura, estolas e faixas com fitas de seda bordadas",
+    "Capas de almofadas rústicas em linho cru com arabescos de cordão de algodão",
+    "Monogramas gigantes e motivos florais em jaquetas jeans e casacos de inverno",
+    "Enxovais refinados de cama e mesa com detalhes em relevo de passamanaria"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "400 a 550 PPM (velocidade baixa para rotação suave e sem trancos da bobina pesada)",
+    "needleType": "Agulha 80/12 ou 90/14 Ponta Fina (Sharp / Microtex) para perfurações limpas",
+    "stabilizer": "Entretela rasgável de 50 g/m² posicionada na face superior (avesso do tecido)",
+    "density": "Apenas pontos corridos com comprimento de 3,0 mm a 4,5 mm (NUNCA usar tatami ou satim fechado)",
+    "pullCompensation": "0,30 mm no sentido do vetor",
+    "underlay": "Nenhuma sob-costura (apenas uma passagem simples e limpa)",
+    "threadTension": "Tensão da agulha superior ligeiramente aumentada para puxar com firmeza o fio grosso contra o tecido"
+  },
+  "advantages": [
+    "✔ Transforma qualquer máquina de bordar comum em um equipamento de alta-costura com passamanaria",
+    "✔ Permite utilizar materiais artísticos luxuosos que jamais passariam pelo olho de uma agulha",
+    "✔ Dá acabamento de bordado à mão com a velocidade e perfeição do pantógrafo computadorizado",
+    "✔ Agrega um valor de venda astronômico a peças exclusivas e autorais"
+  ],
+  "limitations": [
+    "Como a frente fica oculta durante o bordado, o operador só vê o resultado final após retirar a peça",
+    "Não suporta desenhos com muitos detalhes fechados ou letras microscópicas",
+    "A bobina acaba muito mais rápido devido à espessura do fio (capacidade de 3 a 5 metros apenas)"
+  ],
+  "commonErrors": [
+    "❌ Esquecer de espelhar o desenho na máquina quando houver letras ou números (o texto sai invertido)",
+    "❌ Forçar a passagem de fita grossa pela mola de aço da caixa de bobina original sem afrouxar o parafuso",
+    "❌ Enrolar o fio na bobina pelo enchedor elétrico automático em alta rotação (o fio estica e deforma)",
+    "❌ Tentar usar matriz de ponto cheio ou preenchimento tatami (a máquina embola e quebra a lançadeira)",
+    "❌ Usar linha de agulha grossa demais (deve ser sempre linha 120 ou 150 fina e resistente)"
+  ],
+  "troubleshootingTips": [
+    "Se o fio grosso da bobina estiver ficando frouxo e pendurado na frente: aperte a tensão da linha superior da agulha para puxar o material mais firme contra o tecido.",
+    "Se o fio da bobina estiver travando e fazendo barulho de estalo: retire a bobina e certifique-se de que o fio foi enrolado sem nós nem sobreposições cruzadas apertadas.",
+    "Se a máquina avisar erro de bobina vazia mesmo com fio no carretel: cubra o sensor óptico inferior da lançadeira com um pequeno pedaço de fita opaca ou desative o sensor no menu da máquina."
+  ],
+  "dicaArtrelados": "O Segredo da \"Segunda Caixa de Bobina\" e das Pontas com Agulha de Mão: NUNCA desregule o parafuso da caixa de bobina original do seu dia a dia! Compre uma caixinha de bobina extra e pinte uma marquinha com esmalte vermelho: deixe essa caixinha reservada exclusivamente para Bobbin Work com a molinha bem soltinha! E quando o bordado terminar, deixe 10 cm de sobra do fio grosso no início e no fim, enfie em uma agulha de mão sem ponta, puxe as pontas para o avesso e dê um nó cego com uma gotinha de cola pano: o arremate fica invisível, perfeito e nunca mais desmancha na vida!",
+  "voceSabia": "A técnica de Bobbin Work foi imortalizada pelos mestres alfaiates da corte vitoriana inglesa no século XIX! Eles a utilizavam para bordar os famosos brasões dourados nos punhos e golas das fardas militares dos generais e almirantes da Marinha Real Britânica!",
+  "practicalExercise": "Exercício de Bancada (Seu Primeiro Monograma em Fita de Cetim Invertida):\n1. Pegue uma caixinha de bobina alternativa e solte o parafusinho da mola meia volta.\n2. Enrole 4 metros de fita de cetim fina (número zero, de 3 mm) na carretilha à mão com calma.\n3. Coloque a bobina na máquina e passe uma linha comum de poliéster 120 na agulha.\n4. Monte um pedaço de sarja no bastidor com o direito para baixo e entretela por cima.\n5. Escolha uma matriz de letra grande em ponto corrido e clique em \"Espelhar (Mirror)\" na tela.\n6. Borde em velocidade lenta (450 PPM). Desmonte o bastidor e emocione-se com o relevo acetinado deslumbrante na frente do seu tecido!",
+  "quickSummary": "Técnica sofisticada onde fitas, lãs ou cordões pesados são enrolados na bobina e aplicados pelo avesso do tecido no bastidor, criando relevos de passamanaria impossíveis de passar pela agulha.",
+  "relatedTerms": [
+    "Caixa de Bobina (Bobbin Case)",
+    "Bordado Tradicional Direto / Bordado Plano (Direct Flat Embroidery)",
+    "Bordado Chenille / Ponto Musgo Eletrônico",
+    "Fio Metalizado para Bordado (Metallic Embroidery Thread)",
+    "Tensão da Linha de Bobina"
+  ],
+  "tags": [
+    "bobbin work",
+    "bordado invertido",
+    "fio na bobina",
+    "fita de cetim",
+    "cordao metalizado",
+    "reverse embroidery",
+    "passamanaria",
+    "alta-costura"
+  ],
+  "updatedAt": "2026-09-28"
+}
+,
+{
+  "id": "b-bordado-cordao-fita-soutache-eletronico",
+  "code": "B-000",
+  "term": "Bordado com Cordão, Fita e Soutache Eletrônico (Cording, Taping & Coiling Device)",
+  "letter": "B",
+  "level": "Intermediário 🟡 a Avançado 🔴",
+  "category": "Dispositivos Automatizados & Bordado de Moda e Festa",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Do grego korde (corda, tripa retorcida de instrumento musical) e do francês soutache (trança estreita e plana de seda ou lã usada para galões militares), associado aos dispositivos industriais de cording / taping introduzidos pela Tajima (série TLMX e dispositivos M-Device) e Barudan no final dos anos 1990. Esses dispositivos mecanizaram o antigo ofício manual de passamanaria da corte francesa do século XVII, permitindo que cabeçotes eletrônicos orientassem cordões e fitilhos em trajetórias multidirecionais de 360 graus sincronizadas com o pantógrafo computadorizado.",
+  "summary": "Dispositivo motorizado com guia rotativa de 360° acoplado ao cabeçote de bordar que alimenta cordões, fitilhos e soutaches, costurando-os sobre o tecido com pontos de fixação.",
+  "definition": "O Bordado com Cordão, Fita e Soutache Eletrônico é a técnica e o sistema eletromecânico automatizado no qual um dispositivo orientador independente (Cording / Taping Device) gira coaxialmente ao redor da barra da agulha em sincronismo absoluto com os eixos X/Y do bastidor. O dispositivo desenrola e conduz cordões cilíndricos (de 1 mm a 5 mm), fitas planas estreitas ou soutaches de seda diretamente sob o calcador. À medida que o pantógrafo se desloca, a agulha de bordar desce alternadamente de um lado a outro do cordão em ponto zigue-zague aberto, ou atravessa o centro da fita com micro-pontos de ancoragem invisíveis, fixando o material linear tridimensional sem torcer nem amassar as curvas do desenho.",
+  "technicalDetails": "A cinemática do dispositivo Cording/Taping baseia-se em um quarto eixo de rotação contínua (Eixo C ou Eixo de Orientação Angular). Um servomotor dedicado lê o vetor tangente instantâneo da trajetória de bordado gerada pelo software de digitalização e comanda a cabeça rotativa para manter o bico alimentador sempre voltado na direção exata para onde o bastidor está se movendo. Se o bastidor faz uma curva fechada para a esquerda, o guia de cordão gira em fração de milissegundo para a esquerda, evitando que a agulha atropele o cordão ou que este escape para fora do calcador. As matrizes para cordão exigem parametrização vetorial limpa: comprimento de ponto zigue-zague entre 2,5 mm e 3,5 mm (com amplitude ligeiramente superior ao diâmetro do cordão) e compensação de tração suave, além de rotação livre do carretel de suprimento para evitar tensão mecânica que possa enrugar tecidos leves.",
+  "beginnerExplanation": "Sabe aquelas fardas militares de gala cheias de arabescos dourados em alto relevo nos ombros e punhos, ou vestidos de noiva finos com arabescos de trancinhas de cetim contornando as rendas? Isso é feito com cordões e soutaches! Fazer isso à mão levaria semanas de costura ponto por ponto. Na máquina computadorizada com o dispositivo de cordão (Cording Device), a máquina tem um bracinho especial com um tubinho que gira em todas as direções: ele vai deitando o cordão no tecido com perfeição enquanto a agulha vai dando pontinhos de zigue-zague bem discretos por cima dele, como se fosse um trenzinho assentando trilhos pelo caminho! O relevo fica alto, luxuoso e perfeitamente uniforme!",
+  "characteristics": [
+    "Guia mecânica rotativa de 360 graus que acompanha as curvas do desenho em tempo real",
+    "Compatível com cordões de algodão, cordões metalizados dourados/prateados, soutaches e fitilhos",
+    "Fixação por pontos zigue-zague, ponto invisível ou pontos decorativos de laçada lateral",
+    "Sensação tridimensional de relevo pronunciado e alta nobreza aristocrática",
+    "Alta velocidade operacional de 600 a 850 PPM mesmo em arabescos sinuosos"
+  ],
+  "construction": [
+    "1. Suporte superior do rolo: Carretel giratório para desenrolamento livre do cordão ou soutache",
+    "2. Condutor tubular rotativo: Bocal calibrado para a espessura exata do cordão (1 mm a 4 mm)",
+    "3. Calcador especial de cording: Pé com ranhura inferior central que impede o cordão de escapar",
+    "4. Linha de costura superior: Fio fino de poliéster 120 da cor do cordão ou monofilamento invisível",
+    "5. Tecido base estabilizado: Veludo, sarja, lã batida, tafetá ou cetim com entretela estável"
+  ],
+  "howItWorks": [
+    "1. O rolo de cordão ou soutache é instalado no carretel superior do cabeçote e enfiado pelo tubo condutor rotativo.",
+    "2. O calcador de cording correspondente ao diâmetro do cordão é instalado na barra do calcador.",
+    "3. O operador aciona a função Cording no painel da máquina e calibra o ângulo zero do alimentador.",
+    "4. O bastidor se desloca para a posição inicial e o dispositivo desce a ponta do cordão sobre o tecido.",
+    "5. A máquina costura os primeiros pontos de amarração firme para travar a ponta do cordão.",
+    "6. O servomotor gira a guia de cordão em 360° em perfeita sincronia com as curvas do pantógrafo, enquanto a agulha ziguezagueia por cima do cordão.",
+    "7. Ao concluir o desenho, a máquina dá os nós de arremate finais e corta a linha de costura, restando ao operador apenas cortar a pontinha do cordão excedente."
+  ],
+  "mainTypes": [
+    "Bordado de Cordão Simples (Cording): Aplica cordões redondos de 1,5 mm a 4 mm com ponto zigue-zague ou ponto em cruz.",
+    "Bordado com Fita / Soutache (Taping): Aplica fitas planas e tranças soutache que devem ser mantidas sempre assentadas sem torcer.",
+    "Bordado Coiling / Espiral (Bobbin Coiling): Enrola um fio metalizado ou colorido ao redor do próprio cordão enquanto ele é costurado no tecido.",
+    "Cording Doméstico com Calcador de Cordão: Adaptação em máquinas de bordar domésticas através de um calcador com furo guia frontal acoplado ao bastidor."
+  ],
+  "applications": [
+    "Fardamentos de gala militares, brasões navais e túnicas históricas com galões dourados",
+    "Alta-costura em vestidos de noiva e trajes de gala com soutache contornando rendas",
+    "Figurinos teatrais, trajes de ópera e batas litúrgicas de sacerdotes e bispos",
+    "Almofadas de luxo, colchas nobres e cortinados com passamanaria integrada",
+    "Bolsas, jaquetas de couro e calçados finos com arabescos em relevo rígido"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "550 a 750 PPM (velocidade moderada garante que o cordão assente sem tombar nas curvas)",
+    "needleType": "Agulha 80/12 Ponta Redonda Fina (SES) para ziguezaguear ou 75/11 Microtex para ponto invisível",
+    "stabilizer": "Entretela de recorte encorpada (cutaway 80 g/m²) para sustentar o peso e a tração do cordão",
+    "density": "Espaçamento de zigue-zague de 2,0 mm a 3,0 mm (pontos muito juntos esmagam o cordão)",
+    "pullCompensation": "0,35 mm a 0,45 mm no tecido base",
+    "underlay": "Sem sob-costura sob a trilha do cordão (o cordão já é a base de relevo)",
+    "threadTension": "Tensão superior moderada, evitando puxar a linha de bobina para a frente"
+  },
+  "advantages": [
+    "✔ Produz um visual tridimensional de altíssimo luxo impossível de reproduzir com linhas normais",
+    "✔ Agilidade incomparável frente à aplicação manual de passamanaria",
+    "✔ Perfeito domínio de curvas complexas e nós ornamentais sem torção mecânica",
+    "✔ Agrega um valor de mercado extraordinário a roupas de noiva e trajes solenes"
+  ],
+  "limitations": [
+    "Exige cabeçote com dispositivo rotativo motorizado ou calcador específico para cording",
+    "Curvas com raio menor que 3 mm podem fazer o cordão dobrar sobre si mesmo",
+    "O corte final da ponta do cordão geralmente exige finalização manual com tesourinha"
+  ],
+  "commonErrors": [
+    "❌ Usar bico guia de diâmetro menor que o cordão: o material trava e quebra a linha de costura",
+    "❌ Usar entretela fraca ou rasgável fina: a rigidez do cordão puxa o tecido e forma pregas nas curvas",
+    "❌ Ponto zigue-zague estreito demais: a agulha fura e perfura o núcleo do cordão em vez de abraçá-lo",
+    "❌ Tensão excessiva no desenrolamento do carretel de suprimento (estica o cordão e enruga a peça)",
+    "❌ Esquecer de selar as pontas de cordões sintéticos com calor para não desfiar após o corte"
+  ],
+  "troubleshootingTips": [
+    "Se o cordão estiver escapando de baixo do calcador nas curvas: verifique se o alinhamento angular do servomotor está calibrado no zero grau de referência.",
+    "Se a agulha estiver batendo e quebrando sobre o cordão: alargue a amplitude do ponto zigue-zague na matriz em +0,5 mm para dar margem de segurança ao redor do diâmetro do cordão.",
+    "Se o tecido enrugar ao redor do desenho: afrouxe a rotação do rolo de suprimento para que o cordão entre no alimentador completamente frouxo e descansado."
+  ],
+  "dicaArtrelados": "O Segredo do Arremate Francês com Agulha Passa-Fitas: ao terminar o bordado do arabesco de cordão, não corte a ponta rente na frente do tecido sob risco de desfiar! Deixe uma sobra de cerca de 2 centímetros de cordão, coloque a ponta dentro do olho de uma agulha passa-fita (ou agulha de tapeceiro grossa) e perfure o tecido na raiz do último ponto, puxando essa pontinha de cordão inteira para o AVESSO da peça! No verso, dê alguns pontinhos à mão com linha invisível e pingue uma gota de selador de tecidos: na frente da roupa não fica nenhuma emenda visível, com acabamento digno dos ateliês da Place Vendôme!",
+  "voceSabia": "O soutache deve sua consagração mundial aos uniformes militares dos hussardos franceses e húngaros no século XVIII e XIX! As jaquetas dos soldados eram tão densamente cobertas com labirintos de cordões e soutaches nos peitos que funcionavam quase como uma armadura têxtil leve, capaz de amortecer e desviar golpes de sabre em combate!",
+  "practicalExercise": "Exercício de Bancada (Simulação de Cording em Máquina Doméstica):\n1. Adquira um calcador de cordão simples (com ranhura central inferior) para sua máquina de bordar.\n2. Passe um cordão de algodão de 2 mm pelo canal do calcador.\n3. Programe na máquina um ponto zigue-zague aberto (largura 3 mm, comprimento 2,5 mm) em formato de espiral suave.\n4. Segure a ponta do cordão levemente com a mão sem puxar enquanto o bastidor se move.\n5. Observe o calcador abraçar o cordão e veja como o relevo fica firme, elegante e tridimensional!",
+  "quickSummary": "Tecnologia automatizada com alimentador rotativo de 360° que aplica e costura cordões, fitilhos e soutaches em tempo real no bastidor, trazendo relevo luxuoso de passamanaria a fardas e vestidos.",
+  "relatedTerms": [
+    "Bordado com Lantejoula e Paetê Eletrônico (Sequin & Paillette Embroidery Device)",
+    "Bordado Bobbin Work / Bordado pelo Avesso com Fio Especial na Bobina",
+    "Bordado Tradicional Direto / Bordado Plano (Direct Flat Embroidery)",
+    "Ponto Zigue-Zague no Bordado (Zigzag Stitch)",
+    "Entretela de Recorte (Cutaway)"
+  ],
+  "tags": [
+    "cording",
+    "taping device",
+    "soutache",
+    "passamanaria",
+    "galoes militares",
+    "cordao bordado",
+    "alta-costura",
+    "dispositivo rotativo"
+  ],
+  "updatedAt": "2026-09-28"
+}
 ];
