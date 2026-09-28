@@ -5660,4 +5660,423 @@ export const VERBETES_LETTER_A: Verbete[] = [
   ],
   "updatedAt": "2026-09-28"
 }
+,
+{
+  "id": "a-agulha-despontada-cega-rebarba-bordado-eletronico",
+  "code": "A-000",
+  "term": "Agulha Despontada / Cega com Rebarba no Bordado Eletrônico",
+  "letter": "A",
+  "level": "Iniciante 🟢 a Intermediário 🟡",
+  "category": "Agulhas & Desgaste Mecânico / Manutenção Preventiva",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Do latim des- (privação) e puncta (ponta afiada), e rebarba (do francês antigo rebarbe, excesso áspero ou rebarba metálica). Desde a invenção da agulha de aço polido no século XVIII, a ponta sofre desgaste abrasivo inevitável pelo atrito contínuo com as fibras têxteis e estabilizadores. No bordado eletrônico moderno de alta rotação (de 600 a 1.000 pontos por minuto), a agulha penetra o tecido entre 10 e 16 vezes a cada único segundo. Esse atrito térmico e mecânico extremo desgasta o revestimento de cromo ou titânio, arredondando a ponta esférica ou gerando uma micro-rebarba em formato de anzol que corta o filamento da linha de bordar.",
+  "summary": "Danos microscópicos na extremidade e no olho da agulha causados por fadiga térmica e atrito contínuo a alta rotação, principais causadores de quebra de linha e furos no tecido.",
+  "definition": "A Agulha Despontada ou com Rebarba é a condição de fadiga mecânica e deformação física microscópica da extremidade perfurante ou do orifício do olho da agulha em máquinas de bordado computadorizado. A ponta cega perde a capacidade hidrodinâmica de afastar as fibras da trama do tecido suavemente, passando a socá-las e rompê-las. A rebarba (uma microscópica lasca metálica retorcida na ponta ou na borda do olho) atua como uma micro-lâmina: toda vez que o estica-fio da máquina puxa a linha de poliéster para calibrar a laçada com a lançadeira, o fio raspa na rebarba, desfia e arrebenta imediatamente.",
+  "technicalDetails": "Na máquina de bordar computadorizada operando a 800 PPM, a ponta da agulha atinge temperaturas locais de até 200°C devido ao atrito com tecidos sintéticos densos e resinas de entretela. Esse estresse térmico altera a microestrutura do aço temperado. Uma deformação de apenas 5 micras na geometria da ponta ou uma minúscula rebarba provocada por atrito com o bico da lançadeira ou chapa de ponto provoca forças de cisalhamento que rompem os filamentos da linha de bordar título 120. Além disso, a agulha cega retarda o tempo de desengate do tecido, gerando flexão lateral da haste durante o deslocamento do pantógrafo em eixos X e Y.",
+  "beginnerExplanation": "Pense na agulha da sua máquina como a ponta de um lápis de desenho técnico. Quando o lápis está novinho, o traço é fino e perfeito. Mas se você usar o lápis sem parar por 8 horas seguidas sobre uma lixa, a ponta fica redonda, grossa e cheia de lasquinhas ásperas! No bordado computadorizado, você quase não consegue ver essa lasquinha a olho nu porque ela é menor que um grão de areia, mas para a linha de bordar (que é fininha e delicada), essa lasquinha é um anzol afiado que rasga a linha toda hora. Trocar a agulha no tempo certo é o segredo número 1 para a máquina trabalhar macia e sem parar!",
+  "characteristics": [
+    "Desgaste abrasivo invisível a olho nu na curvatura da ponta de penetração",
+    "Presença de micro-fissura ou rebarba metálica no olho ou na ponta perfurante",
+    "Produção de ruído seco e abafado característico ao perfurar o tecido no bastidor",
+    "Desfiamento progressivo em formato de pincel da linha superior antes da quebra",
+    "Abertura de orifícios esgarçados permanentes em tecidos de malha e percal"
+  ],
+  "construction": [
+    "1. Ponta esférica ou aguda: Perda do raio de curvatura original por atrito",
+    "2. Revestimento superficial: Desgaste e descascamento da camada de cromo ou titânio",
+    "3. Borda do olho (Eye): Formação de chanfro afiado pelo atrito contínuo da linha sob tensão",
+    "4. Canaleta frontal (Groove): Acúmulo de adesivo térmico ou cera de linha",
+    "5. Haste de aço (Blade): Microrrachaduras por choque com materiais duros"
+  ],
+  "howItWorks": [
+    "1. Ao longo de 8 a 10 horas de bordado (cerca de 300.000 pontos), a agulha perfura repetidamente tecidos, entretelas e resinas colantes.",
+    "2. O atrito abrasivo lixa o topo da ponta, tornando-a rombuda e áspera.",
+    "3. Se a agulha atingir levemente um alfinete ou a chapa de ponto, cria-se uma micro-rebarba encurvada.",
+    "4. A cada descida, a ponta rombuda bate com violência no tecido esticado no bastidor, produzindo um som oco de martelamento.",
+    "5. Na subida, a linha de poliéster engata na micro-rebarba do olho e começa a desfiar os filamentos.",
+    "6. O sensor de quebra da máquina é ativado e o bordado é interrompido repetidamente."
+  ],
+  "mainTypes": [
+    "Ponta Arredondada por Uso Normal: Desgaste gradativo e natural do aço após 8 a 10 horas de trabalho.",
+    "Rebarba por Impacto Leve: Deformação instantânea causada por toque involuntário na borda do bastidor ou alfinete.",
+    "Olho Sulcado (Grooved Eye): Ranhura afiada escavada no furo da agulha pela passagem de linhas abrasivas como metálicas.",
+    "Ponta Espigada (Burred Hook): Rebarba em gancho que puxa os fios do tecido para cima na subida da barra."
+  ],
+  "applications": [
+    "Diagnóstico rápido de quebras frequentes e inexplicáveis de linha de poliéster 120",
+    "Eliminação de furos e esgarçados em malhas de bebê, pique e tecidos finos",
+    "Redução do ruído mecânico excessivo de impacto durante o funcionamento da máquina",
+    "Manutenção preventiva periódica em ateliês e indústrias de confecção bordada"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "600 a 850 PPM (velocidade normal de cruzeiro)",
+    "needleType": "Troca imediata por agulha nova certificada (Schmetz, Organ ou Groz-Beckert)",
+    "stabilizer": "Não usar entretelas excessivamente duras ou resinadas sem agulha adequada",
+    "density": "Densidade normal de matriz (0,40 mm a 0,45 mm)",
+    "pullCompensation": "Padrão de matriz (0,35 mm a 0,45 mm)",
+    "underlay": "Sob-costura adequada para o tecido",
+    "threadTension": "Ajuste equilibrado da linha superior"
+  },
+  "advantages": [
+    "✔ A troca preventiva da agulha cega elimina até 80% das quebras de linha no ateliê",
+    "✔ Protege peças nobres e caras de enxoval contra furos e rasgos irreparáveis no bastidor",
+    "✔ Diminui o esforço mecânico sobre o motor de passo e o cabeçote da máquina",
+    "✔ Garante pontos acetinados limpos, brilhantes e sem fiapos na superfície"
+  ],
+  "limitations": [
+    "O defeito microscópico é impossível de ser detectado visualmente sem lupa ou microscópio",
+    "Agulhas de alta dureza (titânio) duram mais, mas também sofrem cegueira por atrito cumulativo",
+    "Custo de reposição periódica que deve ser incorporado no orçamento operacional do ateliê"
+  ],
+  "commonErrors": [
+    "❌ Esperar a agulha quebrar ao meio para só então fazer a substituição por uma nova",
+    "❌ Borda por semanas inteiras com a mesma agulha em rotina pesada de encomendas",
+    "❌ Tentar afiar a ponta da agulha com lixas de unha ou pedras (destrói o polimento de fábrica)",
+    "❌ Guardar agulhas que sofreram impacto em bastidores ou alfinetes para reutilizar",
+    "❌ Ignorar o som de martelamento seco achando que o tecido é que está muito duro"
+  ],
+  "troubleshootingTips": [
+    "Se a linha de bordar estiver desfiando em formato de pincel antes de arrebentar: substitua a agulha imediatamente por uma nova retirada da embalagem lacrada.",
+    "Se o tecido de malha ficar com furinhos aparentes nas bordas das letras: a agulha está cega cortando a trama da malha; troque por uma agulha ponta bola (SES) nova.",
+    "Se a máquina estiver fazendo um barulho de batida oca (\"tum-tum-tum\"): a ponta da agulha está rombuda e socando o tecido em vez de perfurar suavemente."
+  ],
+  "dicaArtrelados": "O Teste Infalível da Meia-Calça de Nylon: quando estiver em dúvida se uma agulha ainda presta, retire-a da máquina e passe a pontinha dela suavemente sobre um pedaço esticado de meia-calça fina de nylon (fio 15 ou 20) em todas as direções. Se a agulha estiver perfeita, ela deslizará liso como vidro. Mas se ela puxar um único fiapinho microscópico da meia, descarte-a imediatamente no lixo! Ela tem uma micro-rebarba invisível que arrebentará sua linha superior a cada 100 pontos!",
+  "voceSabia": "Os principais fabricantes de agulhas industriais da Alemanha e do Japão recomendam que a vida útil útil de uma agulha cromada padrão em bordado eletrônico contínuo é de apenas 8 a 10 horas de trabalho (cerca de 350.000 a 400.000 perfurações). Após essa marca, a ponta já sofreu arredondamento microscópico suficiente para perder a sua eficiência de penetração!",
+  "practicalExercise": "Exercício de Bancada (Auditoria de Agulhas do Ateliê):\n1. Pegue uma agulha que já bordou diversas peças na sua máquina e uma agulha nova lacrada da caixinha.\n2. Estique um pedaço de meia-calça fina nos dedos da mão esquerda.\n3. Passe a ponta da agulha usada suavemente na meia e sinta o leve engate da rebarba.\n4. Passe a agulha nova e comprove o deslizamento sedoso sem nenhum atrito.\n5. Cole uma etiqueta com a data da troca no corpo da sua máquina e sinta o silêncio e a maciez do próximo bordado!",
+  "quickSummary": "Ponta rombuda ou com micro-rebarbas invisíveis que corta a linha de bordar e perfura tecidos; a troca preventiva a cada 8 a 10 horas de uso contínuo assegura bordados silenciosos e sem quebras.",
+  "relatedTerms": [
+    "Agulha de Bordado Computadorizado",
+    "Agulha de Cabo Redondo vs. Cabo Chato (Sistemas DBxK5 vs. 130/705 H)",
+    "Agulha Titânio / Revestimento PD (Titanium Nitride Coated Needle)",
+    "Quebra de Agulha (Needle Breakage)",
+    "Quebra de Linha (Thread Breakage)",
+    "Alinhave no Bastidor / Costura de Basting"
+  ],
+  "tags": [
+    "agulha despontada",
+    "agulha cega",
+    "rebarba",
+    "quebra de linha",
+    "desfiamento",
+    "manutencao preventiva",
+    "vida util da agulha",
+    "teste da meia calca"
+  ],
+  "updatedAt": "2026-09-28"
+}
+,
+{
+  "id": "a-almotolia-de-precisao-lancadeira-bordado-eletronico",
+  "code": "A-000",
+  "term": "Almotolia de Precisão para Lançadeira de Bordado Eletrônico",
+  "letter": "A",
+  "level": "Iniciante 🟢 a Intermediário 🟡",
+  "category": "Insumos & Lubrificação / Manutenção Preventiva",
+  "grammarClass": "Substantivo feminino / Locução nominal técnica",
+  "origin": "Do árabe al-mihtala (recipiente para azeite ou vaso doseador de óleo). Historicamente usada como galheta de bico curvo para máquinas a vapor na Revolução Industrial, a almotolia foi miniaturizada no final do século XX para a indústria têxtil de precisão, recebendo bicos de cânula de aço inoxidável calibre 18 a 22G (iguais aos bicos de seringas médicas) para permitir a dosagem de microgotas sem respingos em máquinas eletrônicas de alta velocidade.",
+  "summary": "Aplicador de lubrificante com cânula metálica ultrafina indispensável para dosar microgotas na pista da lançadeira rotativa de alta velocidade sem manchar tecidos no bastidor.",
+  "definition": "A Almotolia de Precisão é um dosador manual de lubrificação mecânica composto por um reservatório de polietileno maleável e uma cânula alongada de aço inoxidável ultrafina (0,8 mm a 1,2 mm de diâmetro interno), projetada para alcançar os pontos críticos de atrito na pista da lançadeira rotativa (hook race) em máquinas de bordado computadorizado. Diferente dos frascos comuns de óleo de costura com bico plástico grosso (que despejam jatos descontrolados), a almotolia de precisão permite depositar uma única microgota (cerca de 0,02 ml a 0,05 ml) exatamente no trilho deslizante da lançadeira sem sujar a caixa de bobina, o sensor de corte automático ou o tecido posicionado no bastidor.",
+  "technicalDetails": "Em máquinas eletrônicas operando entre 600 e 1.000 PPM, a lançadeira rotativa executa de duas a três voltas completas para cada ponto formado pela agulha, atingindo velocidades rotacionais de até 3.000 RPM. Sem um filme microscópico contínuo de óleo mineral branco de baixa viscosidade (grau ISO VG 10 a 22), o atrito entre o cesto e a pista externa atinge temperaturas de fricção superiores a 80°C, provocando micro-soldagem do metal, travamento do cabeçote ou quebra da caixa de bobina. A dosagem com almotolia de precisão deve ser de exatamente 1 a 2 microgotas na canaleta do cesto da lançadeira a cada 4 a 8 horas de operação contínua (ou a cada início de turno).",
+  "beginnerExplanation": "Sabe aquele vidrinho de óleo que vem com a máquina e que tem um bico plástico grosso que, quando você aperta, espirra um monte de óleo de uma vez e faz uma lambança danada na lançadeira? A almotolia de precisão é a salvação do ateliê! Ela parece uma seringa fininha com um tubinho de metal comprido. Com ela, você aperta de leve e sai só uma gotinha pequenininha, exatamente no trilho onde a peça redonda gira. O resultado é maravilhoso: a máquina trabalha silenciosa e macia, e você nunca corre o risco de manchar de óleo aquela toalhinha de batizado branca que está presa no bastidor!",
+  "characteristics": [
+    "Cânula aplicadora de aço inoxidável com ponta romba anti-arranhão",
+    "Corpo de silicone ou polietileno com controle de pressão milimétrico",
+    "Tampa com vedação estanque e capa protetora de bico de alta pressão",
+    "Capacidade dosadora de microgotas isoladas de alta precisão (0,03 ml)",
+    "Comprimento de cânula (5 cm a 10 cm) que alcança áreas internas sem desmontar o cabeçote"
+  ],
+  "construction": [
+    "1. Reservatório maleável: Frasco plástico flexível de alta resistência a solventes (30 a 100 ml)",
+    "2. Tampa rosqueável hermética: Vedação interna de silicone à prova de vazamento",
+    "3. Cânula de aço inoxidável: Tubo metálico ultrafino com polimento interno espelhado",
+    "4. Capa de proteção de borracha: Evita gotejamento acidental durante o armazenamento",
+    "5. Fluido interno: Óleo mineral branco purificado de grau têxtil e baixa viscosidade"
+  ],
+  "howItWorks": [
+    "1. Desliga-se a máquina ou retira-se o bastidor do pantógrafo para liberar a área da lançadeira.",
+    "2. Remove-se a chapa de agulha e retira-se a caixa de bobina (ou acessa-se pela tampa basculante).",
+    "3. Limpa-se o pó de linha acumulado com pincel de cerdas naturais.",
+    "4. Posiciona-se a ponta da cânula da almotolia encostada suavemente na pista metálica onde a lançadeira gira.",
+    "5. Aplica-se leve pressão no corpo do frasco até formar uma única microgota suspensa que é absorvida pelo trilho.",
+    "6. Gira-se o volante manual da máquina duas voltas para espalhar o óleo uniformemente.",
+    "7. Recoloca-se a caixa de bobina e a chapa, executando um teste em retalho antes do bordado final."
+  ],
+  "mainTypes": [
+    "Almotolia de Cânula Metálica Rígida: Ideal para máquinas industriais e multiagulhas (Brother PR, Ricoma, Tajima).",
+    "Almotolia de Ponta Flexível Curva: Facilita o acesso a lançadeiras deitadas (Drop-in) de máquinas domésticas.",
+    "Caneta Dosadora de Óleo (Oil Pen): Formato retrátil semelhante a uma caneta esferográfica para transporte e uso rápido.",
+    "Almotolia com Filtro Integrado: Impede que resíduos sólidos de poeira entrem no bico aplicador."
+  ],
+  "applications": [
+    "Lubrificação de rotina da pista da lançadeira rotativa de alta velocidade",
+    "Lubrificação dos eixos das barras de agulha em máquinas multiagulhas",
+    "Lubrificação do conjunto de corte automático e faca móvel sob a chapa de ponto",
+    "Manutenção preventiva diária de máquinas domésticas e industriais de bordar"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "Girar o volante manualmente 2 vezes após a aplicação antes de ligar a máquina em alta velocidade",
+    "needleType": "Não deixar óleo entrar em contato com o olho ou ponta da agulha",
+    "stabilizer": "Proteger a entretela no bastidor contra contato com dedos engordurados",
+    "density": "Não interfere na densidade da matriz",
+    "pullCompensation": "Padrão de matriz",
+    "underlay": "Padrão de matriz",
+    "threadTension": "Verificar se não há respingo de óleo na mola da caixa de bobina"
+  },
+  "advantages": [
+    "✔ Elimina o risco de manchar tecidos claros e caros com excesso de óleo",
+    "✔ Garante dosagem controlada de apenas 1 microgota, evitando acúmulo pastoso com pó de linha",
+    "✔ Prolonga a durabilidade da lançadeira em mais de 300% ao evitar o atrito a seco",
+    "✔ Reduz sensivelmente o ruído metálico do cabeçote durante o bordado computadorizado"
+  ],
+  "limitations": [
+    "Exige que o bico seja limpo com papel toalha após o uso para não gotejar na bancada",
+    "Deve ser abastecida exclusivamente com óleo mineral branco especial para máquina de costura e bordado",
+    "A ponta de metal não deve ser forçada contra a pista para não riscar a superfície polida"
+  ],
+  "commonErrors": [
+    "❌ Usar lubrificantes spray desengripantes tipo WD-40 (são solventes que ressecam o metal e derretem plásticos)",
+    "❌ Despejar gotas grandes com bicos plásticos grossos: o óleo espirra no tecido com o giro da lançadeira",
+    "❌ Usar óleo de cozinha ou óleos automotivos grossos (oxidam, criam graxa espessa e travam a lançadeira)",
+    "❌ Lubrificar a máquina com o bastidor e a peça da cliente montados no pantógrafo",
+    "❌ Não executar um bordado de teste em retalho logo após a lubrificação periódica"
+  ],
+  "troubleshootingTips": [
+    "Se após lubrificar aparecerem pontinhos amarelos na linha inferior: houve excesso de óleo na caixa de bobina; retire a caixa, limpe com papel toalha seco e use almotolia de precisão na próxima vez.",
+    "Se a máquina estiver fazendo um chiado estridente e seco na área da lançadeira: a pista está totalmente desprovida de lubrificante; aplique 1 microgota imediatamente.",
+    "Se o óleo não descer pela cânula: aqueça levemente o frasco com as mãos e use um arame fino calibre 26 para desobstruir o orifício do bico."
+  ],
+  "dicaArtrelados": "O Teste do Retalho Protetor Pós-Lubrificação: logo após aplicar a microgota na pista da lançadeira com a almotolia de precisão e recolocar a caixa de bobina, NUNCA coloque a toalha ou a peça nobre da cliente direto na máquina! Prenda um retalho velho de tricoline ou entretela em um bastidor pequeno e borde uma matriz de teste simples de 500 pontos. Se sobrou qualquer micro-gotícula solta na lançadeira, ela será recolhida e absorvida nesse retalho de teste, garantindo que o enxoval da sua cliente fique 100% impecável e imaculado!",
+  "voceSabia": "Uma lançadeira de bordado eletrônico a 900 PPM gira mais de 150.000 rotações por hora! Se trabalhar a seco por apenas 20 minutos, a ponta metálica pode sofrer micro-soldagem por atrito térmico, necessitando da substituição de uma peça que custa centenas de reais!",
+  "practicalExercise": "Exercício de Bancada (Técnica da Microgota Suspensa):\n1. Abasteça sua almotolia de precisão com óleo mineral branco novo.\n2. Segure a almotolia sobre uma folha de papel toalha e dê um toque ultra-leve no corpo do frasco até ver surgir uma minúscula bolha na ponta da agulha.\n3. Encoste a bolha no papel: repare que a gota tem o tamanho exato de uma cabeça de alfinete (0,03 ml).\n4. Acesse a lançadeira da sua máquina e transfira essa microgota exatamente no trilho onde o cesto desliza.\n5. Gire o volante na mão duas vezes, recoloque a tampa e sinta o funcionamento macio e silencioso!",
+  "quickSummary": "Instrumento dosador com cânula metálica ultrafina que deposita microgotas exatas na lançadeira de alta velocidade, prevenindo desgaste mecânico sem o risco de manchar bordados.",
+  "relatedTerms": [
+    "Ajuste de Ponto e Folga da Lançadeira / Tempo de Lançadeira",
+    "Lançadeira Rotativa (Rotary Hook System)",
+    "Caixa de Bobina (Bobbin Case)",
+    "Manutenção Preventiva de Máquina de Bordar",
+    "Limpeza de Lançadeira e Chapa de Ponto"
+  ],
+  "tags": [
+    "almotolia de precisao",
+    "lubrificacao",
+    "oleo mineral",
+    "lancadeira rotativa",
+    "manutencao preventiva",
+    "evitar manchas",
+    "oleo de maquina",
+    "canula"
+  ],
+  "updatedAt": "2026-09-28"
+}
+,
+{
+  "id": "a-avental-no-bastidor-computadorizado-peitilho-pantografo",
+  "code": "A-000",
+  "term": "Avental no Bastidor Computadorizado (Técnicas de Peitilho e Sustentação do Pantógrafo)",
+  "letter": "A",
+  "level": "Iniciante 🟢 a Intermediário 🟡",
+  "category": "Técnicas de Enquadramento & Montagem no Bastidor",
+  "grammarClass": "Substantivo masculino / Locução técnica de confecção bordada",
+  "origin": "Do francês medieval avantau (peça colocada à frente do tronco para proteção de ferreiros, cozinheiros e boticários). No bordado eletrônico industrial e comercial dos anos 1990 e 2000, o avental de chef, garçom e barista tornou-se um dos itens promocionais e de fardamento mais rentáveis do mercado corporativo, exigindo técnicas rigorosas de alívio de peso de tecido para não travar os servomotores do pantógrafo.",
+  "summary": "Método de enquadramento, estabilização e sustentação do excesso de tecido para bordar o peitilho de aventais em sarja e lona sem forçar a mecânica do pantógrafo da máquina eletrônica.",
+  "definition": "O Avental no Bastidor Computadorizado compreende o conjunto de procedimentos técnicos de marcação de centro, estabilização com entretelas de gramatura pesada e alívio de carga inercial adotados para bordar o peitilho (peito) ou bolsos de aventais profissionais em máquinas de bordado eletrônicas. Como aventais gastronômicos e artesanais são confeccionados em tecidos encorpados (brim, sarja 100% algodão de 260 g/m², jeans ou lonas) e possuem comprimento de até 90 cm com alças e tiras laterais, o peso do tecido solto fora da área do aro não pode ficar pendurado; se o tecido pesar para baixo da bancada, ele sobrecarrega o braço do pantógrafo, causando perda de pulsos de passo nos motores de eixos X e Y e desalinhamento irreversível dos contornos da matriz.",
+  "technicalDetails": "A montagem no bastidor deve priorizar bastidores de 13x18 cm a 20x20 cm. O centro da matriz no peitilho deve ser posicionado rigorosamente entre 6 cm e 8 cm abaixo da bainha superior do decote, perfeitamente equidistante das duas alças laterais. Recomenda-se entretela rasgável de 60 g/m² ou entretela de recorte média (cutaway de 70 g/m²) para assegurar que logomarcas com densidade de 0,40 mm não frunzam o brim. Para evitar o arrasto mecânico, o corpo pendente do avental deve ser enrolado e apoiado sobre a mesa extensora ou fixado com clips especiais na borda da mesa, garantindo que o pantógrafo mova apenas o peso do aro sem qualquer tração contrária.",
+  "beginnerExplanation": "Bordar um avental de chef ou de churrasqueiro parece muito fácil, mas ele tem uma pegadinha que pega muita gente de surpresa: o avental é comprido, grosso e pesado! Se você prender o peito do avental no bastidor e deixar o resto dele caído para fora da máquina, o peso do pano puxa o bastidor para baixo como se fosse uma âncora. Quando a máquina tenta mover o bastidor de um lado para o outro para fazer as letrinhas, o motor não aguenta o tranco, perde o ritmo e o bordado sai todo torto e deslocado! O segredo é enrolar todo o excesso de tecido e apoiar em cima da mesa com grampos, deixando o bastidor bem levinho para bordar macio!",
+  "characteristics": [
+    "Necessidade mandatória de sustentação do excesso de tecido fora do bastidor",
+    "Marcação milimétrica de centro no peitilho com giz de alfaiate ou caneta fantasminha",
+    "Uso de agulha de maior calibre (80/12 ou 90/14) para perfurar sarjas e brins grossos",
+    "Orientação correta da matriz no visor para não bordar o peitilho de ponta-cabeça",
+    "Uso de bastidores de alta pressão ou bastidores magnéticos para acomodar costuras grossas"
+  ],
+  "construction": [
+    "1. Base estabilizadora: Entretela de recorte (cutaway) ou rasgável 60g no bastidor",
+    "2. Marcação de peitilho: Eixo central traçado a 7 cm do decote superior",
+    "3. Enquadramento: Fixação do peitilho com parafusamento firme e uniforme",
+    "4. Alívio de carga: Rolamento do tecido excedente sobre a mesa extensora",
+    "5. Ancoragem de alças: Fixação provisória das tiras com fita crepe para não entrarem na agulha",
+    "6. Bordado eletrônico: Execução em velocidade moderada com agulha ponta bola média ou afiada"
+  ],
+  "howItWorks": [
+    "1. Dobra-se o avental ao meio pelo peitilho para achar o vinco central vertical perfeito com ferro morno ou régua.",
+    "2. Marca-se o ponto central da matriz cerca de 7 cm abaixo do topo do decote.",
+    "3. Prende-se a entretela e o peitilho no bastidor, assegurando que o aro superior esteja completamente nivelado.",
+    "4. Enrola-se o corpo do avental para o lado esquerdo e apoia-se sobre a mesa extensora da máquina de bordar.",
+    "5. Prende-se as pontas das alças de pescoço com fita crepe ou prendedores de tecido para longe do raio de giro da barra de agulha.",
+    "6. Encaixa-se o bastidor no pantógrafo da máquina eletrônica e checa-se o traçado do perímetro (Trace) no painel.",
+    "7. Borda-se a logomarca com velocidade calibrada entre 600 e 700 PPM."
+  ],
+  "mainTypes": [
+    "Avental de Peito Clássico (Chef e Cozinha): Enquadramento centrado no peitilho superior.",
+    "Avental de Cintura (Saia de Garçom / Meio Avental): Bordado na lateral inferior ou na barra.",
+    "Avental com Bolso Funcional: Bordado aplicado antes de costurar o bolso, ou feito com técnica de flutuação se o bolso já estiver fechado.",
+    "Avental de Couro Sintético ou Lona Encerada: Exige agulha especial para sintéticos e entretela hidrossolúvel para não marcar o material."
+  ],
+  "applications": [
+    "Uniformes para restaurantes, hamburguerias, padarias e cervejarias artesanais",
+    "Aventais temáticos para churrasco, dia dos pais e presentes personalizados masculinos",
+    "Aventais de cabeleireiro, barbeiro e esteticista em tecidos impermeáveis",
+    "Fardamentos de escolas de culinária e ateliês de confeitaria artística"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "600 a 700 PPM (velocidade controlada para acomodar o peso do tecido)",
+    "needleType": "Agulha 80/12 Ponta Bola Leve (SES) para sarjas ou 90/14 Jeans para brins pesados",
+    "stabilizer": "Entretela de recorte média (cutaway 70 g/m²) ou entretela rasgável dupla 50 g/m²",
+    "density": "0,40 mm a 0,45 mm (densidades padrão cobrem bem sarja sem encordoar)",
+    "pullCompensation": "0,40 mm a 0,50 mm (indispensável para tecidos pesados com trama diagonal)",
+    "underlay": "Tatami leve de base com contorno duplo perimetral",
+    "threadTension": "Calibragem regular da linha de poliéster 120"
+  },
+  "advantages": [
+    "✔ Proporciona altíssima margem de lucro e pedidos repetitivos corporativos",
+    "✔ Evita perdas catastróficas de peças prontas caras por desalinhamento no pantógrafo",
+    "✔ Garante que o bordado fique no centro anatômico exato do peito do usuário",
+    "✔ Assegura que o bordado resista a lavagens pesadas com água quente e alvejantes seguros"
+  ],
+  "limitations": [
+    "Em máquinas domésticas com área de mesa pequena, a mesa extensora é praticamente obrigatória",
+    "As tiras e alças compridas exigem atenção redobrada para não serem costuradas acidentalmente",
+    "Tecidos com impermeabilização química exigem teste prévio de perfuração de agulha"
+  ],
+  "commonErrors": [
+    "❌ Deixar o corpo pesado do avental pendurado no ar fora da bancada: desloca o pantógrafo",
+    "❌ Posicionar a matriz muito perto do decote (menos de 4 cm): a logomarca bate no pescoço do cliente",
+    "❌ Deixar as alças de amarrar soltas embaixo do bastidor: a máquina costura a alça no avesso da peça",
+    "❌ Bordar a matriz invertida (de ponta-cabeça) por erro de rotação no visor da máquina",
+    "❌ Usar entretela muito fina em sarja pesada: o bordado fica enrugado após a primeira lavagem"
+  ],
+  "troubleshootingTips": [
+    "Se o contorno da matriz sair deslocado 2 mm para um lado: o peso do avental puxou o pantógrafo durante o deslocamento rápido; apoie o tecido sobre a mesa e reduza a velocidade.",
+    "Se a agulha estiver quebrando ao passar pelas dobras do peitilho: aumente o calibre da agulha para 90/14 e use a função de flutuação se a bainha for grossa demais para o aro.",
+    "Se o tecido estiver escorregando do bastidor de pressão: passe fita crepe nas laterais do aro interno ou use um bastidor magnético."
+  ],
+  "dicaArtrelados": "O Truque dos Dois Pregadores de Tecido e a Mesa Extensora: antes de apertar o play na sua bordadeira, enrole o corpo comprido do avental como se fosse um rocambole bem justinho e prenda com dois prendedores plásticos de costura (ou pregadores de roupa limpos). Coloque a mesa extensora na sua máquina e descanse esse rolinho sobre ela. Assim, o avental desliza suavemente junto com o bastidor para a esquerda e para a direita sem pendurar peso nenhum no braço do pantógrafo. E nunca se esqueça de prender a alça do pescoço com uma fita crepe para trás: alça costurada no meio do bordado é o acidente mais clássico de ateliê!",
+  "voceSabia": "A medida padrão internacional para posicionamento de logomarcas em aventais de gastronomia é exatamente entre 6,5 cm e 7,5 cm abaixo da linha da costura do decote. Essa medida foi calculada ergonomicamente para que o logotipo fique visível mesmo quando o chef estiver com os braços cruzados ou trabalhando inclinado sobre a bancada!",
+  "practicalExercise": "Exercício de Bancada (Simulação de Enquadramento em Sarja Pesada):\n1. Pegue um avental ou um pedaço de sarja pesada de 80 cm de comprimento.\n2. Trace uma cruz com giz de alfaiate a 7 cm do topo, bem no centro vertical.\n3. Enquadre com entretela rasgável dupla ou recorte.\n4. Enrole a sobra inferior em rocambole e apoie na mesa da máquina.\n5. Use a função Trace (perímetro) da sua máquina para conferir se o calcador passa com folga de pelo menos 1 cm das bordas do bastidor.\n6. Execute o bordado e comprove o alinhamento milimétrico do início ao fim!",
+  "quickSummary": "Técnica de enquadramento centralizado no peitilho e suporte do excesso de tecido pesado sobre a mesa extensora para evitar perda de passos do pantógrafo e garantir logomarcas perfeitas.",
+  "relatedTerms": [
+    "Alinhave no Bastidor / Costura de Basting",
+    "Flutuação de Tecido no Bastidor (Hoop Floating Technique)",
+    "Pantógrafo de Máquina de Bordar (Embroidery Pantograph)",
+    "Compensação de Encolhimento (Pull Compensation)",
+    "Mesa Extensora para Bordado Computadorizado"
+  ],
+  "tags": [
+    "avental no bastidor",
+    "peitilho",
+    "pantografo",
+    "uniformes gastronomicos",
+    "alivio de peso",
+    "enquadramento",
+    "mesa extensora",
+    "sarja"
+  ],
+  "updatedAt": "2026-09-28"
+}
+,
+{
+  "id": "a-argola-e-ilhos-chaveiro-in-the-hoop-bastidor",
+  "code": "A-000",
+  "term": "Argola e Ilhós para Chaveiro In-The-Hoop no Bastidor",
+  "letter": "A",
+  "level": "Iniciante 🟢 a Intermediário 🟡",
+  "category": "Projetos no Bastidor (ITH) & Ferragens",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Do árabe al-halqa (aro, elo metálico) e do francês œillet (pequeno olho perfurado com reforço metálico). No final dos anos 2000, com a explosão das matrizes digitais In-The-Hoop (ITH) desenvolvidas especificamente para máquinas de bordado computadorizado, a confecção seriada de chaveiros, tags escolares e etiquetas de bagagem em materiais sintéticos (como Montana, Doll e Prada) exigiu o desenvolvimento de pontos programados de reforço e zonas de segurança para ancoragem de rebites, ilhoses metálicos nº 0 e argolas articuladas com mosquetão sem risco de colisão mecânica.",
+  "summary": "Técnica de programação digital e montagem mecânica no bastidor para fixação de alças, ilhoses e argolas metálicas em chaveiros bordados ITH sem colisão com a agulha.",
+  "definition": "A Argola e Ilhós para Chaveiro In-The-Hoop no Bastidor compreende a metodologia de projeto de matriz e execução no bastidor eletrônico pela qual elementos funcionais de fixação (como ilhoses metálicos, rebites de duas cabeças, fitas de gorgurão, cordões e argolas de chaveiro) são integrados à peça durante as etapas de bordado automatizado. Como a máquina eletrônica executa todo o chaveiro dentro do aro (bordado do nome, forro traseiro e pesponto perimetral de união), a matriz deve conter demarcações milimétricas para o vazamento do furo do ilhós ou uma costura de ancoragem para a aba da argola, respeitando uma zona livre de colisão de no mínimo 5 mm em relação à trajetória do calcador e da barra de agulha.",
+  "technicalDetails": "Na programação da matriz no software, o orifício do ilhós é delimitado por um ponto reto circular reforçado de 4,0 mm a 5,0 mm de diâmetro interno (Eyelet Guide), sobreposto por um anel estreito de ponto cheio com densidade de 0,40 mm para lacrar as tramas do sintético e impedir rasgos sob tração. Para a montagem com fita de gorgurão ou tira de montana dobrada que segura a argola, a matriz comanda uma parada programada (Stop/Color Change), permitindo que a bordadeira posicione a fita voltada para dentro ou para fora do perímetro, fixando-a com fita crepe médica. A distância mínima de segurança entre o corpo de metal da argola e a linha de pesponto final da máquina deve ser de 8,0 mm a 10,0 mm para garantir que o pé-calcador não bata na ferragem durante o deslocamento em alta rotação (600 PPM).",
+  "beginnerExplanation": "Fazer chaveirinhos e tags no bastidor da sua bordadeira é uma das coisas mais gostosas e lucrativas do ateliê! Mas como a máquina faz a frente, o verso e a costura em volta tudo dentro do bastidor, você precisa saber como prender a argola de metal ou colocar aquele ilhós dourado sem fazer besteira. Se você deixar a argola de metal solta perto da agulha, o calcador bate nela, a agulha se espatifa e pode até estragar a máquina! Com a técnica certa, a máquina borda uma marquinha mostrando onde colocar a fita ou onde furar o ilhós depois com o balancim, e você prende a ferragem com fita crepe bem longe da agulha para o bordado rodar lisinho e seguro!",
+  "characteristics": [
+    "Programação digital com paradas (Stop) dedicadas para posicionamento de alças",
+    "Ponto de ilhós perfurado e reforçado na própria matriz para aplicação no balancim",
+    "Uso de fitas de gorgurão, sintético Montana ou couro ecológico de alta resistência",
+    "Zona de segurança rigorosa de no mínimo 8 mm para evitar choque entre agulha e ferragem",
+    "Finalização 100% no bastidor eletrônico sem necessidade de costura em máquina reta"
+  ],
+  "construction": [
+    "1. Base no bastidor: Entretela hidrossolúvel de alta gramatura ou rasgável 60g",
+    "2. Face frontal: Sintético de base (Montana 1.4mm, feltro ou courino)",
+    "3. Bordado decorativo: Nome, brasão ou personagem centralizado",
+    "4. Guia de ancoragem: Marcação da posição da alça da argola ou furo do ilhós",
+    "5. Forro traseiro: Posicionamento do verso sob o bastidor para acabamento limpo",
+    "6. Pesponto final e corte: Fechamento perimetral em ponto cheio ou corrido triplo"
+  ],
+  "howItWorks": [
+    "1. Prende-se a entretela e o sintético da frente no bastidor da máquina de bordar.",
+    "2. A máquina borda o tema, o nome personalizado e os detalhes da peça.",
+    "3. A máquina executa a costura guia para o ilhós ou para a posição da alça da argola.",
+    "4. A máquina faz uma parada programada (Stop): retira-se o bastidor do pantógrafo (sem desbastidorar).",
+    "5. Cola-se o material do forro no fundo do bastidor com fita crepe para esconder o avesso da linha.",
+    "6. Se for chaveiro com alça embutida, posiciona-se a tira dobrada com a argola e fixa-se com fita crepe bem firme.",
+    "7. Recoloca-se o bastidor no pantógrafo: a máquina executa o pesponto perimetral de união final.",
+    "8. Ao retirar, recorta-se o contorno a 2 mm da costura e, se houver ilhós, perfura-se com vazador e prensa-se no balancim."
+  ],
+  "mainTypes": [
+    "Chaveiro ITH com Aba para Ilhós: Possui uma orelha superior reforçada onde se aplica o ilhós metálico no balancim após o bordado.",
+    "Chaveiro ITH com Alça de Gorgurão Embutida: A fita dobrada com a argola é costurada diretamente pela máquina eletrônica.",
+    "Tag de Mala com Tira Passante: O próprio sintético é cortado para formar a presilha que se prende à fivela.",
+    "Chaveiro Dupla Face com Mosquetão Giratório: Ferragem de luxo para bolsas e mochilas infantis."
+  ],
+  "applications": [
+    "Lembrancinhas personalizadas de maternidade, batizado e aniversários",
+    "Tags identificadoras para mochilas escolares, lancheiras e estojos",
+    "Chaveiros promocionais com logomarcas para imobiliárias e concessionárias",
+    "Brindes corporativos e etiquetas de identificação de malas de viagem"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "500 a 600 PPM (velocidade moderada para garantir precisão nas bordas e sintéticos)",
+    "needleType": "Agulha 75/11 Ponta Bola Leve (SES) ou Agulha Microtex 80/12 para sintéticos densos",
+    "stabilizer": "Entretela hidrossolúvel plástica espessa (aquafilm) ou rasgável 60g",
+    "density": "Contorno perimetral: 0,40 mm; Ponto corrido triplo: comprimento de 2,5 mm a 3,0 mm",
+    "pullCompensation": "0,40 mm a 0,50 mm para compensar a rigidez do sintético",
+    "underlay": "Contorno simples (edge run) nas bordas de fechamento",
+    "threadTension": "Tensão superior ligeiramente mais solta para puxar o ponto para o centro do recheio"
+  },
+  "advantages": [
+    "✔ Produção seriada de altíssima velocidade (permite produzir dezenas de peças por hora)",
+    "✔ Peças com acabamento idêntico na frente e no verso sem linhas aparentes",
+    "✔ Custo baixíssimo de matéria-prima e excelente margem de lucro no ateliê",
+    "✔ Não exige habilidades avançadas de costura tradicional"
+  ],
+  "limitations": [
+    "Risco de quebra de agulha e dano à chapa se a ferragem de metal deslizar para a linha de costura",
+    "Materiais sintéticos muito grossos (acima de 2,0 mm) podem dificultar a penetração da agulha",
+    "Exige balancim e matrizes de ilhós para o acabamento profissional das peças perfuradas"
+  ],
+  "commonErrors": [
+    "❌ Deixar a argola de metal solta no bastidor: o calcador bate na ferragem e empena a barra",
+    "❌ Fixar a fita de gorgurão torta durante a parada do bastidor: o chaveiro fica desalinhado",
+    "❌ Usar agulha de ponta cortante para couro (Leather) em feltro ou plástico: corta o material em vez de costurar",
+    "❌ Não prender bem o forro do verso com fita crepe: o tecido de trás enruga e embola a laçada",
+    "❌ Furar o ilhós fora do centro do anel bordado com o vazador de balancim"
+  ],
+  "troubleshootingTips": [
+    "Se o forro de trás enrugar na hora da costura final: use fita crepe médica de boa aderência em todos os quatro cantos do forro inferior antes de recolocar o bastidor na máquina.",
+    "Se a agulha bater na argola de metal: certifique-se de colar a argola com fita crepe puxada totalmente para fora da área de movimentação do calcador.",
+    "Se as bordas do sintético descolarem após o corte: aumente a densidade do contorno perimetral ou utilize cola de contato líquida em microcamada entre as faces antes do fechamento."
+  ],
+  "dicaArtrelados": "O Segredo da Fita Crepe Dupla e da Entretela Hidrossolúvel: quando for embutir a alça de gorgurão com a argola de metal, cole a argola metálica na borda externa plástica do bastidor com uma tira generosa de fita crepe! A argola fica imóvel e 100% fora do alcance da agulha, enquanto a pontinha do gorgurão fica na posição exata para ser costurada pela máquina. E para que o verso fique perfeito sem pelinhos de entretela branca aparecendo, use entretela hidrossolúvel transparente no bastidor: ao terminar, basta passar um cotonete úmido na borda que toda a sobra de entretela desaparece como mágica!",
+  "voceSabia": "A produção seriada de chaveiros In-The-Hoop revolucionou o mercado de brindes no mundo inteiro: um bastidor grande de 20x30 cm em uma máquina multiagulha consegue produzir até 12 chaveiros personalizados de uma única vez em menos de 18 minutos!",
+  "practicalExercise": "Exercício de Bancada (Montagem de Chaveiro Tag ITH):\n1. Coloque entretela hidrossolúvel e um pedaço de sintético Montana 10x10 cm no bastidor.\n2. Borde o monograma da sua cliente.\n3. Quando a máquina parar na troca de cor de fixação, retire o bastidor com cuidado.\n4. Cole o sintético do verso no fundo do bastidor com 4 pedaços de fita crepe.\n5. Prenda uma alcinha de fita dobrada na parte superior com a argola colada bem longe do centro.\n6. Encaixe o bastidor de volta e borde o pesponto de fechamento perimetral.\n7. Destaque do bastidor, apare com tesoura afiada a 2 mm da costura e admire uma peça pronta de luxo!",
+  "quickSummary": "Metodologia de projeto e bordado ITH para montagem de chaveiros e tags diretamente no bastidor, integrando ferragens metálicas e ilhoses com total segurança mecânica.",
+  "relatedTerms": [
+    "In The Hoop (ITH)",
+    "Flutuação de Tecido no Bastidor (Hoop Floating Technique)",
+    "Ponto Cheio (Satin Stitch)",
+    "Entretela Hidrossolúvel",
+    "Compensação de Encolhimento (Pull Compensation)"
+  ],
+  "tags": [
+    "argola e ilhos",
+    "chaveiro in the hoop",
+    "ith",
+    "sintetico montana",
+    "ferragens no bastidor",
+    "tags escolares",
+    "lembrancinhas",
+    "seguranca da agulha"
+  ],
+  "updatedAt": "2026-09-28"
+}
 ];
