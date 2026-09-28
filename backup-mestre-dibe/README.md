@@ -3,14 +3,14 @@
 
 Este diretório contém a cópia de segurança oficial, consolidada e definitiva de todo o acervo enciclopédico do DIBE.
 
-- **Data do Backup:** 27 de setembro de 2026
-- **Total Geral de Verbetes Catalogados:** 2616 verbetes
+- **Data do Backup:** 28 de setembro de 2026
+- **Total Geral de Verbetes Catalogados:** 2617 verbetes
 - **Formato:** JSON estruturado com todas as 16 seções padronizadas do DIBE
 
 ---
 
 ### 📊 Distribuição do Acervo por Letra:
-- **Letra A:** 112 verbetes
+- **Letra A:** 113 verbetes
 - **Letra B:** 119 verbetes
 - **Letra C:** 112 verbetes
 - **Letra D:** 105 verbetes

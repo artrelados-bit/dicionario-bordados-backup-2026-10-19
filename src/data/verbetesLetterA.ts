@@ -5556,4 +5556,108 @@ export const VERBETES_LETTER_A: Verbete[] = [
   ],
   "updatedAt": "2026-09-27"
 }
+,
+{
+  "id": "a-ajuste-de-desaceleracao-em-curvas-cornering-slowdown",
+  "code": "A-000",
+  "term": "Ajuste de Desaceleração em Curvas (Cornering Slowdown / Redução de Velocidade em Vértices)",
+  "letter": "A",
+  "level": "Intermediário 🟡 a Avançado 🔴",
+  "category": "Software & Parâmetros / Mecânica & Eletrônica",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Do latim ad-juxtare (aproximar, regular) e dis-accelerare (diminuir a velocidade). O conceito de desaceleração em curvas nasceu na robótica industrial e nas máquinas CNC de corte e usinagem na década de 1970, onde ferramentas pesadas precisavam frear antes de mudar abruptamente de direção para evitar inércia e quebra de fresas. No bordado computadorizado, os engenheiros de marcas pioneiras (como Tajima e Barudan) integraram essa função aos servomotores do pantógrafo nos anos 1990 para impedir que a aceleração brusca em cantos vivos arrebentasse linhas ou empenasse agulhas em alta rotação (acima de 800 PPM).",
+  "summary": "Recurso eletromecânico e algorítmico que reduz gradativamente a rotação por minuto antes de vértices e curvas fechadas para evitar quebra de fio e garantir pontas afiadas.",
+  "definition": "O Ajuste de Desaceleração em Curvas (Cornering Slowdown) é o recurso eletromecânico e algorítmico (programado no software de digitalização ou configurado no painel da máquina) que comanda a redução temporária e gradativa da rotação por minuto (PPM) quando o pantógrafo do bastidor precisa executar mudanças bruscas de ângulo (curvas fechadas, cantos vivos em esquadro e vértices agudos). Ao desacelerar o cabeçote antes da curva e retomar a aceleração apenas após a estabilização da nova trajetória mecânica, o sistema elimina o estresse inercial sobre a linha, impede deflexões na lâmina da agulha e assegura quinas perfeitamente pontiagudas e simétricas.",
+  "technicalDetails": "Quando o bastidor se desloca em velocidade de cruzeiro (750 a 1.000 PPM), uma mudança abrupta de direção em ângulos menores que 90° impõe enorme força de inércia sobre o pantógrafo e sobre a agulha no momento da penetração. O algoritmo de desaceleração lê o buffer da matriz com antecedência de 3 a 5 pontos, calcula o vetor angular entre os pontos consecutivos e, ao identificar um ângulo crítico, reduz o servomotor principal para faixas de 450 a 550 PPM durante a transição do vértice. Isso reduz o atrito e a vibração lateral da barra de agulha, prevenindo choques na chapa de ponto e ninhos de linha na laçada inferior.",
+  "beginnerExplanation": "Pense na máquina de bordar como se fosse um carro em uma rodovia rápida. Se você estiver a 120 km/h e tentar fazer uma curva fechada de 90 graus sem pisar no freio, os pneus cantam, o carro derrapa e pode até capotar! O Ajuste de Desaceleração em Curvas é como o freio inteligente do carro: a máquina percebe que tem uma esquina logo à frente, reduz a velocidade suavemente para fazer a curva com calma e elegância e, assim que entra na reta, pisa no acelerador de novo. O resultado? Suas letras e estrelas ficam com pontinhas perfeitas e a linha nunca arrebenta na curva!",
+  "characteristics": [
+    "Controle inteligente de rotação dinâmico (redução automática pontual de PPM)",
+    "Preservação da integridade estrutural do fio sob aceleração inercial",
+    "Garantia de quinas e vértices perfeitamente agudos e simétricos",
+    "Redução do desgaste prematuro de correias e rolamentos do pantógrafo",
+    "Disponível via parâmetros de software de criação ou no painel da máquina"
+  ],
+  "construction": [
+    "1. Leitura antecipada da matriz: Buffer de look-ahead analisa os próximos vetores",
+    "2. Detecção angular: Identificação de ângulos agudos ou fechados (< 90°)",
+    "3. Rampa de desaceleração: Diminuição suave de rotação nos pontos pré-curva",
+    "4. Execução do vértice: Formação do ponto crítico em velocidade estável e baixa",
+    "5. Rampa de aceleração: Retorno à velocidade máxima de cruzeiro nos pontos subsequentes"
+  ],
+  "howItWorks": [
+    "1. Durante a execução do bordado, o processador da máquina avalia a trajetória dos pontos seguintes.",
+    "2. Ao identificar uma mudança abrupta de ângulo em uma coluna de ponto cheio ou contorno, o sistema envia sinal de controle ao inversor de frequência ou servomotor principal.",
+    "3. A máquina desacelera de 850 PPM para aproximadamente 500 PPM milissegundos antes da virada da agulha.",
+    "4. A agulha executa a ancoragem do vértice no esquadro exato, sem deflexão ou vibração mecânica.",
+    "5. Superada a curva fechada, a rotação acelera progressivamente de volta aos 850 PPM.",
+    "6. O operador ouve apenas uma sutil variação harmônica no motor, enquanto a matriz ganha definição escultural."
+  ],
+  "mainTypes": [
+    "Desaceleração Automática por Painel: Configuração nativa nos parâmetros de firmware da máquina industrial.",
+    "Comando de Desaceleração por Software (Slow Down Code): Inserção de códigos de velocidade específicos na matriz pelo Wilcom ou software equivalente.",
+    "Desaceleração Associada a Canto Mitrado: Divisão automática do objeto em seções com aceleração controlada.",
+    "Desaceleração em Ponto Curto: Redução seletiva de velocidade em áreas com alta densidade e passos menores que 1 mm."
+  ],
+  "applications": [
+    "Bordado de estrelas, escudos heráldicos e brasões militares com vértices pontiagudos",
+    "Fontes góticas, romanas ou serifadas com pontas finas e triangulares",
+    "Produção seriada em alta velocidade em máquinas multiagulhas e multicabeças",
+    "Bordados em fios metálicos e fios finos 60 wt altamente sensíveis a trancos inerciais",
+    "Contornos geométricos em bonés estruturados e tecidos pesados de couro ou lona"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "Velocidade de cruzeiro: 700 a 850 PPM | Velocidade no vértice: 450 a 550 PPM",
+    "needleType": "Agulha adequada ao tecido (Titanium DBxK5-PD ou 130/705 H-ET para máxima rigidez)",
+    "stabilizer": "Estabilizador firme na base para impedir que a inércia do bastidor desloque o tecido",
+    "density": "0,40 mm a 0,45 mm nas colunas (evitando sobreposição excessiva no ápice do canto)",
+    "pullCompensation": "0,35 mm a 0,40 mm",
+    "underlay": "Linha central ou zigue-zague leve no canto mitrado",
+    "threadTension": "Tensão superior calibrada com mola de compensação ágil para absorver a variação de velocidade"
+  },
+  "advantages": [
+    "✔ Elimina 90% das quebras de linha misteriosas que ocorrem exatamente nas quinas e vértices",
+    "✔ Impede que a agulha flexione e raspe na chapa de agulha ou na ponta da lançadeira",
+    "✔ Garante acabamento com pontas nítidas e afiadas em vez de cantos arredondados ou deformados",
+    "✔ Aumenta a longevidade dos motores de passo, correias dentadas e pantógrafo da máquina"
+  ],
+  "limitations": [
+    "Em máquinas domésticas mais simples, o recurso precisa ser programado manualmente no software de matrizes",
+    "Pequeno acréscimo de alguns segundos no tempo total de execução da peça",
+    "Exige que a matriz tenha sido digitalizada com cantos bem estruturados para não acumular pontos no mesmo local"
+  ],
+  "commonErrors": [
+    "❌ Bordar em velocidade máxima contínua (850 a 1000 PPM) em desenhos repletos de pontas afiadas",
+    "❌ Reduzir a velocidade da máquina inteira para 400 PPM do início ao fim, dobrando o tempo de produção à toa",
+    "❌ Programar cantos pontiagudos com densidade excessiva sem divisão em esquadro (cria caroço de linha)",
+    "❌ Desativar os sensores de aceleração do pantógrafo nos parâmetros de fábrica da máquina",
+    "❌ Ignorar o desgaste da mola tira-fio, que perde a capacidade de amortecer a linha na frenagem"
+  ],
+  "troubleshootingTips": [
+    "Se a linha continuar quebrando toda vez que vira uma quina: divida o canto no software de criação usando a ferramenta de Canto Mitrado (Mitered Corner) e insira uma parada ou comando de redução de velocidade naquele nó.",
+    "Se o motor emitir um estalo seco ao mudar de direção: verifique a tensão das correias do pantógrafo e reduza a velocidade geral de trabalho.",
+    "Se a ponta da estrela sair achatada ou sem bico: aumente a compensação de encolhimento no vértice e ative a desaceleração para dar tempo de a laçada se formar com perfeição."
+  ],
+  "dicaArtrelados": "O Truque da Estrela Afiada no Software: se a sua máquina doméstica não possui o botão de desaceleração automática no visor, você pode resolver isso direto no Wilcom, Embird ou Pe-Design! Ao criar formas pontiagudas, divida o canto em duas partes em esquadro (Canto Mitrado a 45°) e adicione um comando de redução de velocidade (função Slowdown ou menor densidade na ponta). A máquina executará cada lado da estrela com suavidade absoluta, sem dar aquele tranco violento na ponta, entregando um acabamento fino e escultural digno de alfaiataria!",
+  "voceSabia": "Nas máquinas industriais gigantescas de 20 cabeçotes que bordam a 1.200 PPM, a força inercial gerada pelo peso conjunto do pantógrafo ao frear bruscamente em um canto reto equivale a um impacto instantâneo de mais de 40 kg sobre as correias e engrenagens! Sem o sistema eletrônico de desaceleração em curvas, essas máquinas sofreriam fadiga mecânica prematura em poucos meses de operação industrial!",
+  "practicalExercise": "Exercício Prático de Ateliê (O Desafio da Estrela com Vértice Perfeito):\n1. Selecione na sua máquina ou software uma matriz de estrela de cinco pontas com bordas nítidas em ponto cheio.\n2. Borde uma primeira estrela em alta velocidade (750 PPM) sem ajuste de curva e repare no som do cabeçote e na nitidez das 5 pontas.\n3. Agora, configure a desaceleração de curva (ou reduza para 500 PPM manualmente apenas nos vértices).\n4. Borde a segunda estrela e preste atenção na suavidade acústica e na precisão milimétrica com que a agulha crava no ápice da ponta.\n5. Compare as duas peças com uma lupa: a diferença visual de nitidez nas quinas será incontestável!",
+  "quickSummary": "Recurso eletrônico e de programação que freia temporariamente a máquina antes de cantos e curvas fechadas para proteger a linha contra trancos mecânicos e produzir pontas perfeitamente nítidas.",
+  "relatedTerms": [
+    "Ajuste de Salto e Velocidade Máxima",
+    "Autocompensação de Canto e Esquadro / Canto Mitrado",
+    "Ângulo de Ponto (Stitch Angle / Direction)",
+    "Quebra de Linha (Thread Breakage)",
+    "Ninho de Pássaro (Birdnesting)"
+  ],
+  "tags": [
+    "desaceleracao",
+    "curvas",
+    "cornering slowdown",
+    "vertices",
+    "canto mitrado",
+    "inercia",
+    "velocidade de bordado",
+    "pontas afiadas"
+  ],
+  "updatedAt": "2026-09-28"
+}
 ];
