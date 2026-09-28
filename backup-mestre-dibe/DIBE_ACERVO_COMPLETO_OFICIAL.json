@@ -724,6 +724,108 @@
     "updatedAt": "2026-09-06"
   },
   {
+    "id": "a-acoplador-calcador-mola-bordado-eletronico",
+    "code": "A-000",
+    "term": "Acoplador de Calcador com Mola de Bordado Eletrônico",
+    "letter": "A",
+    "level": "Intermediário 🟡 a Avançado 🔴",
+    "category": "Mecânica & Componentes da Máquina / Calibragem",
+    "grammarClass": "Substantivo masculino / Locução nominal técnica",
+    "origin": "Do francês accoupler (unir, emparelhar por haste ou fecho) e do latim calcare (pisar, pressionar levemente). Na transição histórica das máquinas manuais de cerzir para as primeiras máquinas de bordar industriais automáticas de cabeçote único nos anos 1980 (como as séries pioneiras Brother BAS e Tajima TME), a necessidade de movimentar o bastidor em alta velocidade nos eixos X e Y enquanto a agulha estava fora do tecido exigiu a substituição do calcador de pressão estática por um sistema de acoplamento dinâmico dotado de mola de impulsão e garfo atuador acionado diretamente pela haste da barra de agulha.",
+    "summary": "Mecanismo articulado com mola vertical de impulsão que sustenta o calcador de bordado e sincroniza a liberação mecânica do tecido com o deslocamento do pantógrafo.",
+    "definition": "O Acoplador de Calcador com Mola de Bordado Eletrônico (Embroidery Spring Foot Shank & Adapter) é o conjunto mecânico de fixação que conecta a barra de calcador ao pé circular vazado (calcador de bordar / pé Q, U ou W) em máquinas de bordado computadorizado. Ao contrário dos acopladores de costura doméstica (que mantêm o tecido prensado continuamente contra os dentes impelentes), o acoplador de bordado incorpora uma mola helicoidal de aço temperado e um braço de alavanca que repousa sobre o parafuso da agulha. Esse sistema faz com que o calcador desça e pressione o tecido apenas na fração de segundo em que a agulha penetra e forma o laço com a lançadeira, elevando-se imediatamente na subida para permitir que o pantógrafo mova o bastidor sem atrito ou arraste.",
+    "technicalDetails": "Em rotações de 600 a 850 PPM, o ciclo de subida e descida do calcador com mola ocorre em intervalos de 70 a 100 milissegundos. A folga vertical livre entre a base do pé e a superfície superior do tecido estabilizado no ponto morto inferior da barra deve ser rigorosamente calibrada entre 1,0 mm e 1,5 mm. Se a folga for menor que 1,0 mm em tecidos felpudos ou acolchoados (como toalhas e mantas), o calcador esmaga o tecido, trava o pantógrafo e gera marcas de fricção permanentes (queima por atrito). Se a folga for superior a 2,5 mm, o tecido \"chacoalha\" e sobe junto com a agulha (fenômeno de flagging), impedindo a abertura correta do laço da linha na lançadeira e gerando falhas consecutivas de ponto (skipped stitches).",
+    "beginnerExplanation": "Se você olhar bem de perto o pezinho da sua máquina de bordar enquanto ela está trabalhando, vai notar que ele tem uma molinha de metal e parece que fica dando pulinhos sem parar! Isso acontece porque a máquina de bordado não pode prender o tecido com força como faz a máquina de costura comum. Na bordadeira, o bastidor precisa deslizar livremente para a direita e para a esquerda em frações de segundo para desenhar as flores e as letras. Esse acoplador com mola é genial: ele dá uma seguradinha rápida no tecido só na hora em que a agulha entra, e solta na mesma hora para o bastidor correr solto! Saber regular a altura desse pezinho é o que impede a máquina de pular pontos ou ficar batendo alto como uma britadeira!",
+    "characteristics": [
+      "Mola helicoidal de compressão integrada para amortecimento de impacto dinâmico",
+      "Braço de acionamento mecânico sincronizado com a subida e descida da agulha",
+      "Base circular ou em formato de gota vazada com abertura ampla para visibilidade",
+      "Disponível em versões para máquinas de haste baixa (Low Shank) e haste alta (High Shank)",
+      "Permite micro-ajuste de altura da folga vertical em relação à espessura do tecido"
+    ],
+    "construction": [
+      "1. Corpo tubular da haste: Fixação rígida na barra de calcador da máquina",
+      "2. Parafuso de aperto lateral: Bloqueio estático na altura padrão de fábrica",
+      "3. Mola helicoidal de aço: Absorve a inércia e retorna o calcador na descida",
+      "4. Braço de alavanca superior: Encaixe sobre o pino/parafuso prendedor de agulha",
+      "5. Sapata circular vazada (Pé de Bordado): Polimento espelhado para não arranhar tecidos nobres"
+    ],
+    "howItWorks": [
+      "1. Ao montar o calcador na barra, o braço de alavanca é posicionado exatamente sobre a cabeça do parafuso da agulha.",
+      "2. Quando a barra de agulha desce para perfurar o tecido esticado no bastidor, o braço acompanha o movimento e a mola comprime o calcador suavemente sobre a peça.",
+      "3. O calcador estabiliza o tecido durante a penetração da agulha e a laçada da lançadeira.",
+      "4. Quando a agulha sobe e sai do tecido, o braço sobe junto e a mola descomprime, levantando o calcador 1 a 2 mm acima da peça.",
+      "5. Com a área livre de pressão, os servomotores do pantógrafo movem o bastidor em X/Y para a coordenada do próximo ponto sem nenhum arrasto mecânico.",
+      "6. O ciclo se repete harmoniosamente até 1.000 vezes por minuto."
+    ],
+    "mainTypes": [
+      "Acoplador de Calcador com Mola Padrão (Pé Q / Brother): Modelo clássico com sapata metálica circular e furo central.",
+      "Acoplador com Sapata Acrílica Transparente: Proporciona 100% de visibilidade para posicionamento milimétrico em pontos de cruz e apliques.",
+      "Calcador com Mola Ajustável por Parafuso de Rosca: Permite subir ou descer a altura da base girando uma porca milimétrica para tecidos ultra-grossos.",
+      "Calcador Flutuante Eletrônico (Pé Digital / Máquinas Industriais): O curso de descida é controlado digitalmente por motor de passo direto no visor da máquina."
+    ],
+    "applications": [
+      "Calibragem de altura para bordados em toalhas felpudas e mantas acolchoadas",
+      "Eliminação de marcas de pressão e brilho esbranquiçado em veludos e sedas",
+      "Bordado de peças estruturadas com entretela hidrossolúvel plástica",
+      "Manutenção preventiva e substituição periódica de molas desgastadas ou frouxas"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "600 a 850 PPM (calibrar conforme rigidez da mola)",
+      "needleType": "Compatível com todas as agulhas 70/10 a 90/14",
+      "stabilizer": "Adequado à gramatura do tecido sem criar volume desnecessário sob o aro",
+      "density": "Padrão de matriz (0,40 mm a 0,45 mm)",
+      "pullCompensation": "Padrão de matriz (0,35 mm a 0,45 mm)",
+      "underlay": "Padrão de matriz",
+      "threadTension": "Equilibrada (a pressão correta do calcador estabiliza a laçada inferior)"
+    },
+    "advantages": [
+      "✔ Elimina o atrito de arraste sobre o tecido, permitindo movimentos ultra-rápidos do pantógrafo",
+      "✔ Previne o fenômeno de flagging (tecido subindo com a agulha e causando pontos pulados)",
+      "✔ Amortece o impacto sonoro da máquina, proporcionando uma operação muito mais silenciosa",
+      "✔ Evita quebras de agulha causadas por tecidos grossos que empurram a barra para o lado"
+    ],
+    "limitations": [
+      "Com o passar dos anos, a mola de aço pode perder a tensão elástica e exigir troca",
+      "Em máquinas domésticas, a altura deve ser ajustada afrouxando o parafuso da haste com chave de fenda",
+      "Não pode ser substituído por sapatilhas comuns de costura reta sob risco de colisão com o bastidor"
+    ],
+    "commonErrors": [
+      "❌ Montar o calcador com o braço de alavanca embaixo do parafuso da agulha em vez de apoiado em cima",
+      "❌ Deixar o calcador muito baixo prensando toalhas felpudas: queima o tecido e empena o pantógrafo",
+      "❌ Deixar o calcador alto demais: o tecido vibra, a linha falha a laçada e quebra continuamente",
+      "❌ Usar calcador de haste alta em máquinas de haste baixa (ou vice-versa), provocando colisão mecânica",
+      "❌ Bordar sintéticos com calcador metálico riscado (cria ranhuras permanentes no material)"
+    ],
+    "troubleshootingTips": [
+      "Se a máquina estiver pulando pontos ao bordar tecidos fofos: a altura do calcador está muito alta; abaixe a haste 0,5 mm para conter o tecido na laçada.",
+      "Se o bordado estiver com som de britadeira (\"clack-clack-clack\"): a mola está sem lubrificação ou o calcador está batendo com força excessiva na chapa de ponto; levante a haste 1 mm.",
+      "Se o tecido estiver com marcas brilhantes circulares após o bordado: o calcador está prensando o tecido durante o movimento do bastidor; aumente a folga de altura da sapatilha."
+    ],
+    "dicaArtrelados": "O Teste Infalível do Cartão de Visitas: para acertar a altura do calcador de bordar em qualquer máquina sem precisar de gabaritos caros, baixe a agulha manualmente girando o volante até ela atingir o ponto mais baixo dentro do tecido preso no bastidor. Agora, tente deslizar um cartão de visitas de papel comum de 250g por baixo da sapatilha do calcador: o cartão deve passar com uma leve e suave resistência (exatamente 1,0 mm de folga). Se o cartão não entrar, o calcador está baixo demais e vai arranhar a peça; se passar sobrando muito espaço, está alto demais e vai pular pontos!",
+    "voceSabia": "Nas máquinas industriais e domésticas mais avançadas da atualidade (como as linhas top Brother Luminaire e Bernina série 7 e 8), a altura do calcador com mola é controlada por um sensor a laser e motor de passo digital: a máquina mede a espessura do tecido a cada troca de cor e ajusta a folga automaticamente em centésimos de milímetro!",
+    "practicalExercise": "Exercício de Bancada (Calibragem de Altura do Calcador):\n1. Coloque um retalho de toalha felpuda montado no bastidor da sua bordadeira.\n2. Gire o volante na mão até a agulha descer totalmente.\n3. Faça o teste do cartão de visitas sob a sapata do calcador.\n4. Se necessário, afrouxe levemente o parafuso da haste com chave de fenda, posicione o cartão e reaperte firmemente.\n5. Borde um monograma de teste e comprove a suavidade do som e a ausência total de marcas de esmagamento na felpa!",
+    "quickSummary": "Mecanismo com mola de impulsão que sustenta o pé de bordar e sincroniza a liberação mecânica do tecido com o deslocamento do pantógrafo, garantindo pontos perfeitos sem marcas de arraste.",
+    "relatedTerms": [
+      "Amortecedor de Calcador / Regulagem de Pressão",
+      "Pantógrafo de Máquina de Bordar (Embroidery Pantograph)",
+      "Ponto Pulado (Skipped Stitches)",
+      "Folga de Barra de Agulha e Barra de Calcador",
+      "Lançadeira Rotativa (Rotary Hook System)"
+    ],
+    "tags": [
+      "acoplador de calcador",
+      "calcador com mola",
+      "haste baixa",
+      "haste alta",
+      "teste do cartao de visitas",
+      "flagging",
+      "calibragem de altura",
+      "pantografo"
+    ],
+    "updatedAt": "2026-09-28"
+  },
+  {
     "id": "a-089-acoplamento-magnetico-de-bastidor-tubular",
     "code": "A-089",
     "letter": "A",
