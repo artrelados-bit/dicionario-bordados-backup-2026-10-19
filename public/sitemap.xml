@@ -1221,6 +1221,27 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Verbete: [b-bordado-tradicional-direto-bordado-plano] Bordado Tradicional Direto / Bordado Plano (Direct Flat Embroidery) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=b-bordado-tradicional-direto-bordado-plano</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [b-bordado-chenille-ponto-musgo-eletronico] Bordado Chenille / Ponto Musgo Eletrônico (Chenille &amp; Loop Stitch Embroidery) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=b-bordado-chenille-ponto-musgo-eletronico</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [b-bordado-cutwork-agulhas-corte-eletronico] Bordado Cutwork com Agulhas de Corte Eletrônico (Needle Cutwork System &amp; 4-Needle Cutters) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=b-bordado-cutwork-agulhas-corte-eletronico</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Verbete: [b-067-bordado-em-relevo-3d-puffy-foam] Bordado em Relevo 3D / Puffy Foam (Bordado com EVA) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=b-067-bordado-em-relevo-3d-puffy-foam</loc>
@@ -4297,6 +4318,13 @@
   <!-- Verbete: [f-101-feiya-maquinas-de-bordado-eletronico] Feiya (Máquinas de Bordado Eletrônico) -->
   <url>
     <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=f-101-feiya-maquinas-de-bordado-eletronico</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Verbete: [f-foto-bordado-fotostitch-eletronico] Foto-Bordado / Fotostitch Eletrônico (PhotoStitch &amp; Color-Blending Digitizing) -->
+  <url>
+    <loc>https://dicionario-bordados-eletronicos.pages.dev/?verbete=f-foto-bordado-fotostitch-eletronico</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

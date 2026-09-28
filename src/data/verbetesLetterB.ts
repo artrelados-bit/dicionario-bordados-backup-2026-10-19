@@ -5110,4 +5110,319 @@ export const VERBETES_LETTER_B: Verbete[] = [
   ],
   "updatedAt": "2026-09-27"
 }
+,
+{
+  "id": "b-bordado-tradicional-direto-bordado-plano",
+  "code": "B-000",
+  "term": "Bordado Tradicional Direto / Bordado Plano (Direct Flat Embroidery)",
+  "letter": "B",
+  "level": "Iniciante 🟢 a Avançado 🔴",
+  "category": "Técnicas Fundamentais de Bordado / Produção Plana",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Do latim burdare (adornar com agulha e linha) e directus (em linha reta, sem intermediários). O bordado direto é a forma mais pura e primordial do bordado computadorizado, desenvolvida desde as primeiras máquinas industriais automáticas multipontos da década de 1980 (séries pioneiras Brother BAS e Tajima TME). O termo industrial \"Bordado Plano\" (Flat Embroidery) consolidou-se para diferenciar a operação direta sobre peças e painéis abertos no bastidor plano tradicional das operações em bastidores tubulares de boné (Cap Frames) e de técnicas compostas (como apliques de tecido ou alto-relevo com EVA).",
+  "summary": "Técnica primária e padrão do bordado computadorizado onde todos os pontos são costurados diretamente sobre o tecido base esticado no bastidor, sem sobreposição de apliques ou espumas.",
+  "definition": "O Bordado Tradicional Direto (Direct Flat Embroidery) é a técnica matriz e canônica do bordado computadorizado na qual todas as estruturas da matriz (sob-costuras de fixação, preenchimentos tatami, colunas de ponto cheio e pespontos de contorno) são costuradas e integradas diretamente sobre a trama do tecido principal fixado no bastidor da máquina. Constitui o padrão produtivo absoluto de mais de 85% do mercado global de confecção, fardamento, camisas polo, jalecos, toalhas e enxovais, exigindo domínio rigoroso da tríade fundamental do bordado eletrônico: estabilização por entretela adequada, calibração da tensão das linhas e compensação digital de encolhimento (pull compensation) para evitar deformações ou repuxamento das fibras têxteis.",
+  "technicalDetails": "No bordado plano direto, cada penetração da agulha com a laçada de poliéster 120 exerce tração mecânica sobre os fios de urdume e trama do tecido. Em áreas densas de ponto cheio ou tatami (densidades de 0,40 mm a 0,45 mm), ocorre o fenômeno de contração vetorial: o tecido encolhe na direção paralela aos pontos e se expande na direção perpendicular. Para neutralizar essa distorção e impedir que contornos perimetrais fiquem descompassados, a matriz deve conter obrigatoriamente uma malha estrutural de sob-costura (underlay tatami ou contorno duplo) e compensação de repuxo entre 0,35 mm e 0,55 mm, associada a entretelas de gramatura correspondente à elasticidade do artigo têxtil (rasgável para tecidos planos ou recorte para malhas).",
+  "beginnerExplanation": "O Bordado Direto é o clássico dos clássicos: é quando você pega a camiseta, a toalha de banho ou o jaleco da cliente, coloca no bastidor e borda direto no tecido, sem colocar pedacinhos de tecido de aplique nem borrachinha de EVA por baixo. Tudo é desenhado com as próprias linhas de bordar! Para que o bordado fique macio, bonito e lisinho (sem enrugar o tecido em volta como se fosse papel amassado), o grande segredo é usar a entretela certa para aquele tipo de pano e ter uma matriz com compensação de repuxo bem calculada, para que o contorno preto caia exatamente em cima da cor sem deixar nenhuma fresta branca!",
+  "characteristics": [
+    "Execução direta sobre a peça têxtil montada no bastidor com entretela",
+    "Não utiliza materiais de relevo intermediários (EVA) ou tecidos de aplique",
+    "Exige compensação digital rigorosa de encolhimento (pull compensation)",
+    "Dependência total da sob-costura (underlay) para ancoragem e estabilidade dimensional",
+    "Aplicável em qualquer máquina de bordar doméstica ou industrial com bastidor plano"
+  ],
+  "construction": [
+    "1. Base estabilizadora: Entretela rasgável ou de recorte acoplada ao verso do tecido",
+    "2. Enquadramento no bastidor: Tensão uniforme em pele de tambor sem esticar o tecido",
+    "3. Sob-costura preliminar (Underlay): Malha de retenção que ancora o tecido à entretela",
+    "4. Preenchimento de fundo: Pontos tatami ou satim com densidade calibrada (0,40 mm a 0,45 mm)",
+    "5. Detalhes e contornos: Acabamento em ponto cheio perimetral casando milimetricamente com a base"
+  ],
+  "howItWorks": [
+    "1. O tecido e a entretela selecionada são montados juntos no bastidor, respeitando o alinhamento do fio reto.",
+    "2. O bastidor é acoplado ao pantógrafo da máquina eletrônica e o centro da matriz é conferido no painel.",
+    "3. A máquina inicia bordando as camadas de sob-costura (tatami leve ou zigue-zague de fixação), que travam as fibras do tecido contra a entretela.",
+    "4. Em seguida, os blocos de cor principais são preenchidos com pontos tatami ou satim em ângulos programados para balancear a tração.",
+    "5. Por fim, a máquina borda os contornos e letras menores, que se sobrepõem perfeitamente à borda do preenchimento graças à compensação de repuxo digital.",
+    "6. A peça é retirada do bastidor e o excesso de entretela é removido no verso, revelando um bordado liso, estável e agradável ao toque."
+  ],
+  "mainTypes": [
+    "Bordado Direto em Tecido Plano (Algodão, Linho, Sarja): Estabilizado predominantemente com entretela rasgável de 50g a 60g.",
+    "Bordado Direto em Malha e Polo (Piquet, Meia Malha, Viscolycra): Exige obrigatoriamente entretela de recorte (cutaway) e agulha ponta bola (SES) para não furar tramas.",
+    "Bordado Direto em Tecido Felpudo (Toalhas e Plush): Requer filme hidrossolúvel ou termossolúvel (cobre-pelo) sobre a superfície para evitar afundamento de pontos.",
+    "Bordado Direto de Alta Definição (Micro-letras): Realizado com agulhas finas 65/9 ou 60/8 e linha título 60wt para textos corporativos menores que 4 mm."
+  ],
+  "applications": [
+    "Uniformes corporativos, jalecos médicos, aventais e camisas polo empresariais",
+    "Enxovais de cama, mesa e banho com monogramas, brasões e ramos florais",
+    "Roupas infantis, fraldas de passeio e bodies em malha 100% algodão",
+    "Bolsas, ecobags, mochilas e jaquetas em jeans, sarja e lona pesada",
+    "Personalização de peças prontas de moda casual e vestuário esportivo"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "650 a 850 PPM (velocidade ideal de cruzeiro)",
+    "needleType": "75/11 Ponta Bola Leve (SES) para tecidos comuns; 70/10 para malhas finas; 80/12 para sarjas",
+    "stabilizer": "Rasgável 50-60 g/m² para planos; Recorte 70 g/m² para malhas e piquets",
+    "density": "0,40 mm a 0,45 mm (equilíbrio perfeito entre cobertura total e toque macio)",
+    "pullCompensation": "0,35 mm a 0,50 mm (calibrado conforme a elasticidade do tecido)",
+    "underlay": "Tatami aberto a 90° em áreas grandes ou contorno duplo em colunas estreitas",
+    "threadTension": "Calibrada com proporção de 1/3 da linha superior aparecendo no centro da laçada inferior"
+  },
+  "advantages": [
+    "✔ É a técnica mais versátil, duradoura e amplamente aceita no mercado comercial e industrial",
+    "✔ Não exige materiais adicionais caros como películas de corte, lâminas a laser ou espumas",
+    "✔ Suporta centenas de ciclos de lavagem pesada sem deformação ou descolamento",
+    "✔ Acabamento sofisticado que se integra organicamente à estrutura original da peça"
+  ],
+  "limitations": [
+    "Matrizes com desenhos gigantescos e densos demandam muitos pontos e encarecem a produção",
+    "Exige atenção extrema ao tipo de entretela para cada tecido para evitar enrugamento",
+    "Em áreas imensas de preenchimento, pode criar uma placa rígida se a densidade for excessiva"
+  ],
+  "commonErrors": [
+    "❌ Puxar as bordas do tecido com as mãos após apertar o bastidor (provoca enrugamento imediato pós-bordado)",
+    "❌ Borda malha piquet com entretela rasgável comum (o bordado fica torto e deforma após a primeira lavagem)",
+    "❌ Programar matriz sem sob-costura (underlay): o contorno final de ponto cheio sai fora da cor",
+    "❌ Densidade exagerada (menos de 0,35 mm): o bordado vira uma \"tábua dura\" desconfortável",
+    "❌ Não colocar filme solúvel sobre toalhas felpudas (os pontos somem no meio dos fios atoalhados)"
+  ],
+  "troubleshootingTips": [
+    "Se o contorno preto sair deslocado 1 mm para o lado da cor: aumente a compensação de repuxo (pull compensation) da cor para 0,45 mm e reforce a sob-costura.",
+    "Se o tecido ficar enrugado em volta das letras: reduza a densidade do texto, use entretela de recorte e não estique o tecido ao enquadrar.",
+    "Se a linha superior arrebentar continuamente no preenchimento tatami: reduza a velocidade da máquina para 700 PPM e verifique se a agulha não está cega ou com rebarba."
+  ],
+  "dicaArtrelados": "A Regra de Ouro do Bastidoramento sem Tensão Manual: nunca puxe as beiradas da malha ou da camisa polo com os dedos depois de apertar o parafuso do aro do bastidor! Quando você puxa, estica a elasticidade natural da malha; a máquina borda com o tecido sob tensão forçada e, na hora em que você solta o bastidor, o tecido volta ao tamanho normal e enruga todo o bordado! Pouse o aro interno sobre a peça com tranquilidade: o tecido deve ficar lisinho e firme como a pele de um tambor, mas com a elasticidade 100% relaxada em repouso!",
+  "voceSabia": "O Bordado Tradicional Direto é responsável por mais de 85% do faturamento de todas as empresas de bordado do mundo! Desde o pequeno logotipo no peito da polo até os brasões de clubes de futebol e fardamentos governamentais, é a técnica padrão-ouro da indústria têxtil global!",
+  "practicalExercise": "Exercício de Bancada (O Teste da Moeda no Peito da Polo):\n1. Pegue um retalho de malha piquet ou moletom e monte no bastidor com entretela de recorte (cutaway).\n2. Borde um círculo de 5 cm com preenchimento em tatami e contorno em ponto cheio.\n3. Retire a peça do bastidor e coloque uma moeda de R$ 1,00 no centro exato do bordado.\n4. Se o bordado assentar reto sobre a mesa sem enrugar as bordas do tecido nem fazer uma \"cumbuca\", sua calibração de sob-costura e compensação de repuxo está perfeita!",
+  "quickSummary": "Técnica primária do bordado computadorizado onde todos os pontos são costurados diretamente sobre o tecido estabilizado no bastidor, exigindo sinergia perfeita entre entretela, sob-costura e compensação de repuxo.",
+  "relatedTerms": [
+    "Compensação de Encolhimento (Pull Compensation)",
+    "Sob-costura (Underlay)",
+    "Apliquê (Appliqué no Bordado Computadorizado)",
+    "Bordado em Relevo 3D / Puffy Foam (Bordado com EVA)",
+    "Toque Macio em Bordado Direto (Soft Hand Feel in Direct Embroidery)",
+    "Entretela Rasgável vs. Entretela de Recorte (Cutaway)"
+  ],
+  "tags": [
+    "bordado direto",
+    "bordado plano",
+    "flat embroidery",
+    "camisa polo",
+    "jaleco",
+    "tatami",
+    "ponto cheio",
+    "compensacao de encolhimento",
+    "sob-costura",
+    "underlay"
+  ],
+  "updatedAt": "2026-09-28"
+}
+,
+{
+  "id": "b-bordado-chenille-ponto-musgo-eletronico",
+  "code": "B-000",
+  "term": "Bordado Chenille / Ponto Musgo Eletrônico (Chenille & Loop Stitch Embroidery)",
+  "letter": "B",
+  "level": "Intermediário 🟡 a Avançado 🔴",
+  "category": "Técnicas Especiais & Efeitos Tridimensionais",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Do francês chenille (lagarta felpuda, em alusão à textura fofa e aveludada do fio de lã retorcido). Desenvolvido artesanalmente na França no século XVIII e mecanizado na década de 1930 nos Estados Unidos para os tradicionais emblemas de jaquetas universitárias (Letterman / Varsity Jackets), o bordado chenille foi totalmente automatizado e computadorizado na década de 1990 pelas indústrias japonesas (Tajima e Barudan), integrando cabeçotes eletrônicos com agulhas de gancho de lingueta e controle digital de altura de laçada.",
+  "summary": "Técnica têxtil com efeito felpudo e aveludado formada por laçadas contínuas ou ponto corrente (loop/chain stitch), criando texturas de pelúcia de alto relevo em agasalhos e enxovais.",
+  "definition": "O Bordado Chenille / Ponto Musgo Eletrônico é uma técnica especializada de bordado computadorizado que produz uma superfície tridimensional densamente felpuda através da formação repetitiva de micro-laçadas verticais (loop stitch) ou entrelaçamentos em ponto corrente (chain stitch). Operado em cabeçotes industriais mistos (Tajima TCMX, Barudan ou Ricoma CHT) com agulha especial de crochê com lingueta articulada (latch needle) ou adaptado em máquinas de bordar convencionais através de fios texturizados de lã/acrílico e matrizes com pontos de laçada solta, o chenille dispensa a bobina inferior convencional, utilizando um alimentador rotativo inferior de linha grossa que projeta as laçadas para a superfície do tecido esticado no bastidor.",
+  "technicalDetails": "Em cabeçotes eletrônicos industriais dedicados a chenille, a agulha de lingueta desce aberta, atravessa o tecido estabilizado no bastidor e engata o fio de lã ou acrílico título 2/28 a 2/32 conduzido pelo bico laçador inferior. Na subida da barra, a lingueta se fecha automaticamente ao passar pela trama do tecido, trazendo uma alça de fio para cima. A altura da laçada (loop height) é calibrada eletronicamente entre 1,5 mm e 3,5 mm através do ajuste da barra de pressão. Em máquinas domésticas e industriais de ponto fixo (lockstitch padrão), o efeito é simulado com matrizes digitalizadas em ponto tatami longo com densidade aberta (1,2 mm), sem sob-costura e com folga programada no calcador com mola, gerando anéis fofos que imitam o pelo de pelúcia.",
+  "beginnerExplanation": "O bordado Chenille (também muito conhecido no Brasil como Ponto Musgo) é aquele bordado que parece um tapetinho ou um bichinho de pelúcia bem fofinho ao toque! É aquele clássico das letras grandes no peito de jaquetas colegiais americanas e de desenhos infantis em moletons. Em vez da linha ficar esticadinha e lisa como no bordado comum, ela forma milhares de aréolas e ondinhas de linha de lã para cima, criando um relevo alto, macio e aveludado que dá vontade de ficar passando a mão o tempo todo!",
+  "characteristics": [
+    "Textura aveludada, espessa e de toque extremamente macio tipo pelúcia",
+    "Formação por laçadas verticais contínuas (loop stitch) ou correntes entrelaçadas",
+    "Uso preferencial de fios grossos de lã, acrílico ou poliéster texturizado",
+    "Alto poder de cobertura de grandes áreas com sensação volumétrica marcante",
+    "Geralmente combinado com contornos de ponto corrente ou ponto cheio fino para travamento"
+  ],
+  "construction": [
+    "1. Base têxtil estruturada: Feltro de 1mm a 2mm, sarja pesada ou moletom peluciado",
+    "2. Entretela estabilizadora: Entretela de recorte pesada (cutaway de 80 g/m²) ou filme PVA grosso",
+    "3. Fio felpudo superior: Lã acrílica especial para chenille ou fio texturizado volumoso",
+    "4. Camada de laçada (Loop Layer): Preenchimento concêntrico de laçadas aveludadas",
+    "5. Borda de travamento (Chain Stitch Border): Ponto corrente externo para lacrar as extremidades e evitar desfiamento"
+  ],
+  "howItWorks": [
+    "1. O tecido base (como feltro ou sarja) é montado no bastidor com entretela de recorte de alta resistência.",
+    "2. A máquina inicia a matriz traçando primeiro o contorno de segurança para definir a fronteira do desenho.",
+    "3. O cabeçote de chenille desce a agulha de gancho, laça o fio de lã conduzido pelo alimentador inferior e puxa a laçada para cima na altura regulada.",
+    "4. O pantógrafo desloca o bastidor em movimentos milimétricos circulares, criando uma espiral fechada de laçadas que se apoiam umas nas outras.",
+    "5. Ao concluir o preenchimento, a máquina muda para o ponto corrente (chain stitch) ao redor de toda a borda para travar os nós finais.",
+    "6. A peça é inspecionada e, se necessário, passa por uma rápida tosquia térmica ou navalha para uniformizar a altura da pelúcia."
+  ],
+  "mainTypes": [
+    "Chenille Industrial Clássico (Loop Stitch): Formado por agulhas de lingueta em máquinas com cabeçote misto de alta produtividade.",
+    "Ponto Corrente Plano (Chain Stitch): Ponto decorativo entrelaçado similar a uma correntinha de crochê, muito usado para assinar nomes e contornos vintage.",
+    "Chenille Simulado no Ponto Fixo (Faux Chenille): Produzido em máquinas convencionais com linhas grossas e matrizes especiais com aréolas soltas.",
+    "Chenille Tosquiado / Aveludado (Velvet Cut Chenille): As laçadas superiores são cortadas rente com lâmina, transformando o anel em pontas soltas de veludo."
+  ],
+  "applications": [
+    "Letras e números emblemáticos para jaquetas colegiais (Varsity/Letterman Jackets)",
+    "Bichinhos de pelúcia, orelhinhas e detalhes de enxoval de bebê em moletons e mantas",
+    "Flâmulas esportivas, brasões de times e bandeiras comemorativas de alta nobreza",
+    "Almofadas decorativas de luxo, colchas artesanais e tapeçarias bordadas"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "450 a 650 PPM (velocidade moderada para garantir a formação perfeita de cada laçada)",
+    "needleType": "Agulha de lingueta (Latch Needle calibre 25 a 35) ou agulha 90/14 para Faux Chenille",
+    "stabilizer": "Entretela de recorte de alta gramatura (cutaway 80 a 100 g/m²)",
+    "density": "Densidade de laçadas entre 1,0 mm e 1,4 mm (espaçamento maior para evitar embolar o fio)",
+    "pullCompensation": "0,45 mm a 0,60 mm (o volume das laçadas empurra o tecido lateralmente)",
+    "underlay": "Sem sob-costura tatami densa sob a área de laçadas",
+    "threadTension": "Zero tensão inferior no sistema industrial; tensão ultra-suave na máquina doméstica"
+  },
+  "advantages": [
+    "✔ Proporciona um valor percebido e preço de venda significativamente mais alto no mercado",
+    "✔ Toque sensorial aveludado e macio que nenhuma outra técnica tradicional consegue igualar",
+    "✔ Excelente isolamento acústico e visual de altíssimo impacto em roupas esportivas de inverno",
+    "✔ Preenche áreas gigantescas com uma quantidade muito menor de perfurações comparado ao tatami"
+  ],
+  "limitations": [
+    "Máquinas com cabeçotes industriais autênticos de chenille têm custo de investimento elevado",
+    "Não suporta lavagens industriais agressivas com escovação pesada sem desmanchar laçadas",
+    "Exige fios específicos de espessura uniforme para não engasgar o alimentador inferior"
+  ],
+  "commonErrors": [
+    "❌ Cortar a linha muito rente sem dar os pontos de travamento em corrente: a laçada desfia como tricô",
+    "❌ Usar entretela rasgável fraca: o peso das laçadas fura a entretela e o bastidor perde a firmeza",
+    "❌ Densidade de pontos excessivamente fechada: o fio de lã fica esmagado e perde o aspecto fofo",
+    "❌ Puxar fios que ficaram ligeiramente mais compridos em vez de apará-los com tesoura de precisão"
+  ],
+  "troubleshootingTips": [
+    "Se as laçadas ficarem tortas ou de alturas diferentes: calibre a altura do calcador e verifique a tensão do alimentador do fio inferior.",
+    "Se as laçadas estiverem desmanchando ao passar a mão: a máquina pulou a costura de travamento perimetral em ponto corrente; refaça o contorno final de bloqueio.",
+    "Se o fio estiver desfiando ou quebrando na agulha de lingueta: verifique se a lingueta móvel não está travada por fiapos de lã acumulados na articulação."
+  ],
+  "dicaArtrelados": "O Truque do Vapor Térmico para Encorpamento Perfeito: após retirar o bordado chenille do bastidor e cortar os fios excedentes do avesso, segure um ferro a vapor (ou vaporizador de roupas) a cerca de 3 centímetros de distância da superfície bordada, disparando jatos de vapor quente SEM NUNCA encostar a base metálica do ferro nos pelos! O calor do vapor faz as fibras da lã ou acrílico expandirem instantaneamente, abrindo a pelúcia e deixando o relevo duas vezes mais volumoso, encorpado e com toque aveludado de loja de luxo!",
+  "voceSabia": "A primeira jaqueta de chenille do mundo foi criada em 1865 para o time de beisebol da prestigiosa Universidade de Harvard! Naquela época, os atletas que se destacavam recebiam um suéter com a letra \"H\" bordada em ponto musgo felpudo no peito; se não jogassem bem durante a temporada, eram obrigados a devolver o casaco!",
+  "practicalExercise": "Exercício de Bancada (Simulação de Faux Chenille com Linha Grossa):\n1. Monte um retalho de moletom com entretela de recorte no bastidor da sua máquina.\n2. Escolha uma matriz de monograma simples com ponto cheio bem largo (6 mm a 8 mm) e densidade aberta (0,80 mm).\n3. Use uma linha de bordar texturizada ou passe dois fios 120 juntos pelo olho de uma agulha 90/14 Topstitch.\n4. Borde em velocidade lenta (500 PPM) e repare como os fios se acomodam fofos sobre o tecido.\n5. Aplique o jato de vapor a 3 cm de distância e sinta com a ponta dos dedos a deliciosa textura peluda do ponto musgo!",
+  "quickSummary": "Técnica de alto relevo aveludado formada por laçadas contínuas de linha de lã ou acrílico, muito valorizada em jaquetas universitárias, casacos esportivos e peças infantis.",
+  "relatedTerms": [
+    "Agulha de Gancho / Agulha Crochet com Lingueta (Chenille Latch Needle)",
+    "Bordado Tradicional Direto / Bordado Plano (Direct Flat Embroidery)",
+    "Bordado em Relevo 3D / Puffy Foam (Bordado com EVA)",
+    "Toque Macio em Bordado Direto (Soft Hand Feel in Direct Embroidery)",
+    "Ponto Corrente (Chain Stitch)",
+    "Feltro para Bordado e Aplique"
+  ],
+  "tags": [
+    "chenille",
+    "ponto musgo",
+    "loop stitch",
+    "jaqueta colegial",
+    "varsity jacket",
+    "toque aveludado",
+    "latch needle",
+    "efeito pelucia"
+  ],
+  "updatedAt": "2026-09-28"
+}
+,
+{
+  "id": "b-bordado-cutwork-agulhas-corte-eletronico",
+  "code": "B-000",
+  "term": "Bordado Cutwork com Agulhas de Corte Eletrônico (Needle Cutwork System & 4-Needle Cutters)",
+  "letter": "B",
+  "level": "Intermediário 🟡 a Avançado 🔴",
+  "category": "Ferramentas Especiais & Dispositivos de Corte",
+  "grammarClass": "Locução substantiva técnica",
+  "origin": "Do inglês cut (cortar) e work (trabalho têxtil / lavores). O bordado vazado tradicional (Richelieu e Broderie Anglaise) exigia secularmente o corte manual paciente com pequenas tesouras curvas entre cada etapa de ponto. No início dos anos 2010, fabricantes como Bernina (sistema CutWork Tool), Inspira (Husqvarna Viking / Pfaff) e Brother desenvolveram conjuntos de quatro agulhas-lâminas orientadas angularmente (0°, 45°, 90° e 135°), permitindo que a própria máquina de bordado computadorizado corte o tecido com precisão cirúrgica de frações de milímetro diretamente no bastidor.",
+  "summary": "Sistema automatizado de corte no bastidor que utiliza agulhas-lâminas calibradas em 4 ângulos para abrir vazados precisos de Richelieu e rendas sem intervenção de tesoura manual.",
+  "definition": "O Bordado Cutwork com Agulhas de Corte Eletrônico é a tecnologia mecânica e digital pela qual elementos vazados (cutwork), ilhoses abertos e rendas Richelieu são seccionados automaticamente pela máquina de bordar através de agulhas dotadas de micro-cinzéis afiados em sua extremidade inferior. O sistema opera com um jogo de quatro agulhas codificadas por cores ou números, cada uma com sua lâmina fixada em um ângulo axial específico (Posição 1: 0°, Posição 2: 45°, Posição 3: 90° e Posição 4: 135°). O software de digitalização converte os contornos do desenho vazado em trajetórias de corte vetorial, comandando a máquina para descer as agulhas-lâminas sucessivamente, fatiando o tecido contra uma chapa de ponto especial e liberando o vão para o acabamento posterior em ponto cheio (satin) ou festonê.",
+  "technicalDetails": "A execução do Cutwork computadorizado requer a substituição temporária da agulha de costura convencional pela ferramenta de corte (ou sua instalação em posições designadas em máquinas multiagulhas). A chapa de agulha original com furo circular padrão deve ser trocada pela Chapa de Ponto Especial para CutWork (com orifício oval ou de corte livre), prevenindo que a lâmina colida com o metal da chapa. Para evitar o desfiamento do tecido durante o corte mecânico, a matriz comanda primeiro uma costura de ancoragem em ponto corrido duplo (running stitch) de 1,5 mm de comprimento ao longo de todo o perímetro da área a ser removida. Em seguida, a máquina instrui a troca sequencial das lâminas 1, 2, 3 e 4. A tolerância de corte é de 0,2 mm, permitindo vazar até 15 camadas de tecido em apliques múltiplos com extrema repetibilidade.",
+  "beginnerExplanation": "Fazer bordado vazado tipo Richelieu na mão dá um trabalho danado: você tem que parar a máquina toda hora, tirar o bastidor, pegar aquela tesourinha de ponta curva bem fininha e cortar o tecido com todo o cuidado do mundo para não cortar a linha da máquina nem furar a entretela! O sistema de Cutwork com Agulhas de Corte faz essa mágica sozinho! Em vez de usar agulha de furar com linha, a máquina usa uma agulha especial que tem uma laminazinha afiada na ponta (como se fosse um mini-estilete). A máquina vai cortando o tecido certinho dentro do bastidor, em todas as direções! Depois que o buraco está aberto, você coloca a agulha de linha de volta e a máquina faz aquele acabamento de ponto cheio perfeito em volta do buraco!",
+  "characteristics": [
+    "Substitui tesouras de precisão por corte mecânico automatizado no próprio bastidor",
+    "Kit com 4 agulhas-lâminas orientadas em ângulos cardeais e diagonais (0°, 45°, 90°, 135°)",
+    "Necessidade de chapa de ponto reta/aberta compatível para não amassar as lâminas",
+    "Gera bordas vazadas com tolerância cirúrgica de 0,2 mm",
+    "Compatível com matrizes de Richelieu, Broderie Anglaise, apliques vazados e patchwork"
+  ],
+  "construction": [
+    "1. Base estabilizadora: Entretela hidrossolúvel de alta resistência (Aquamagic / PVA pesada)",
+    "2. Tecido principal: Linho, percal 100% algodão, fustão ou cambraia montados no bastidor",
+    "3. Costura de fixação perimetral: Ponto reto de contenção antes do corte",
+    "4. Varredura de corte (Lâminas 1 a 4): Puncionamento mecânico rotativo das áreas vazadas",
+    "5. Remoção do retalho: Retirada da ilha de tecido cortada com pinça",
+    "6. Encadernamento perimetral: Ponto cheio (satin) denso ou festonê lacrando as bordas"
+  ],
+  "howItWorks": [
+    "1. O tecido é montado no bastidor com entretela hidrossolúvel por baixo (a entretela sustentará os pontos de fechamento após o corte do tecido).",
+    "2. A máquina executa a costura de contorno inicial com linha normal para demarcar e prender o tecido à entretela.",
+    "3. A máquina avisa no painel para instalar a Ferramenta de Corte na Posição 1 (lâmina 0°): o bastidor se move e a faca faz os cortes horizontais.",
+    "4. A máquina solicita a Posição 2 (45°), 3 (90°) e 4 (135°), completando o recorte perimétrico de todas as curvas.",
+    "5. O miolo de tecido cortado se solta e é retirado facilmente com uma pinça de ateliê.",
+    "6. Reinstala-se a agulha de bordar convencional e passa-se a linha na cor desejada.",
+    "7. A máquina borda o ponto cheio ou ponto caseado sobre a margem cortada, encobrindo as beiradas com perfeição profissional."
+  ],
+  "mainTypes": [
+    "Cutwork para Máquinas Domésticas Monocabeçote (Bernina CutWork / Inspira): A agulha de corte possui um mostrador giratório manual que permite mudar o ângulo da lâmina entre as posições 1, 2, 3 e 4.",
+    "Dispositivo de Faca Automática em Máquinas Industriais (Boring Device / Automatic Cutwork): Dispositivo pneumático ou motorizado integrado ao cabeçote que gira a lâmina automaticamente.",
+    "Kit de Agulhas Fixas Individuais: Conjunto de quatro agulhas de corte separadas, instaladas uma por vez conforme solicitação na tela da bordadeira.",
+    "Cutwork Multicamadas para Apliques: Utilizado para cortar até 6 camadas de tecidos sobrepostos de cores diferentes para criar patchwork invertido."
+  ],
+  "applications": [
+    "Enxovais de noiva e lençóis de luxo com bordado Richelieu e arabescos vazados",
+    "Roupas batismais, vestidos de festa e camisas infantis com Broderie Anglaise",
+    "Recorte perfeito de tecidos para apliques (Appliqué) sem necessidade de corte prévio à mão",
+    "Toalhas de mesa nobres em linho puro com entremeios vazados e monogramas aristocráticos"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "400 a 500 PPM durante o ciclo de corte das lâminas; 650 a 750 PPM no bordado final",
+    "needleType": "Lâmina especial de corte CutWork (ou dispositivo Boring Device) + Agulha 75/11 para o fechamento",
+    "stabilizer": "Entretela hidrossolúvel plástica espessa (aquafilm 80 micras) ou entretela de tecido solúvel",
+    "density": "Ponto cheio de acabamento com densidade de 0,38 mm a 0,40 mm e largura mínima de coluna de 2,5 mm",
+    "pullCompensation": "0,45 mm a 0,55 mm no ponto cheio perimetral para cobrir com folga a linha de corte",
+    "underlay": "Costura de base em ponto zigue-zague ou contorno duplo para apoiar o satin sobre a borda oca",
+    "threadTension": "Ligeiramente mais firme na linha superior para manter o ponto bem assentado na entretela"
+  },
+  "advantages": [
+    "✔ Elimina o cansaço visual e a dor nas mãos do corte manual repetitivo com tesoura",
+    "✔ Garante que 100 peças saiam rigorosamente idênticas com cortes simétricos ao décimo de milímetro",
+    "✔ Reduz a zero o risco de picotar acidentalmente os pontos de sustentação do bordado",
+    "✔ Permite criar desenhos rendados ultracomplexos com micro-vazados impossíveis de cortar na tesoura"
+  ],
+  "limitations": [
+    "Exige a aquisição de chapa de ponto especial e do kit de ferramentas de corte compatível",
+    "As lâminas de corte sofrem desgaste e exigem substituição após centenas de horas de uso",
+    "Requer tecidos de boa estabilidade dimensional (linho, percal e tricoline de alta qualidade)"
+  ],
+  "commonErrors": [
+    "❌ Esquecer de trocar a chapa de agulha comum pela chapa de CutWork (a lâmina bate no metal e quebra)",
+    "❌ Não colocar entretela hidrossolúvel de sustentação por baixo (o bordado não tem onde se apoiar e cai no vazio)",
+    "❌ Trocar a ordem dos ângulos das facas (a lâmina mastiga o tecido em vez de fatiar)",
+    "❌ Deixar fios de linha soltos na lançadeira durante a etapa de corte das lâminas",
+    "❌ Tentar cortar sintéticos grossos ou plásticos rígidos que excedam a capacidade de penetração da faca"
+  ],
+  "troubleshootingTips": [
+    "Se o tecido não estiver se soltando após a passagem das 4 lâminas: a profundidade de descida da ferramenta de corte está rasa; ajuste o curso da lâmina ou substitua a agulha desgastada.",
+    "Se as bordas do tecido desfilarem antes do ponto cheio: aumente a largura do ponto corrido preliminar de segurança para 2 mm e reduza a velocidade do pantógrafo.",
+    "Se a lâmina estiver quebrando: verifique se o bastidor não está vibrando excessivamente e se o tecido está bem tenso como pele de tambor."
+  ],
+  "dicaArtrelados": "O Segredo da Pinça Curva de Precisão e do Cotonete Úmido: quando a máquina terminar os 4 ciclos de corte das agulhas-lâminas, retire o miolo cortado puxando suavemente com uma pinça cirúrgica de ponta curva; o tecido deve se soltar como um selo de correio picotado! Se algum fiozinho rebelde resistir na ponta, corte com um bisturi de precisão número 11 encostado na entretela. E quando o bordado de ponto cheio terminar, passe um cotonete embebido em água morna apenas no contorno do corte: a entretela hidrossolúvel interna se dissolve na hora, deixando o vazado limpo, transparente e perfeito sem nem precisar molhar o resto da peça!",
+  "voceSabia": "Antes da invenção das ferramentas de corte eletrônico no bastidor, a produção de um enxoval completo de cama em Richelieu tradicional podia levar até três semanas de trabalho ininterrupto apenas cortando buraquinhos com tesoura pelicano! Hoje, uma máquina computadorizada equipada com 4 agulhas de corte executa o mesmo conjunto em menos de duas horas!",
+  "practicalExercise": "Exercício de Bancada (Simulação de Richelieu Automatizado):\n1. Monte um retalho de percal ou linho puro com entretela hidrossolúvel no bastidor.\n2. Carregue uma matriz de teste com corte de 4 estágios no visor da sua máquina.\n3. Deixe a máquina costurar o contorno guia com linha branca.\n4. Execute as 4 posições de lâmina conforme indicado na tela (ou simule com ferramenta de corte manual guiada pelos furos).\n5. Puxe o miolo recortado com a pinça e veja o vão perfeito aberto sobre a entretela transparente.\n6. Prossiga com o ponto cheio de cobertura e maravilhe-se com a precisão milimétrica da borda!",
+  "quickSummary": "Tecnologia de bordado e corte mecânico automatizado no bastidor que utiliza 4 agulhas-lâminas anguladas para vazar tecidos com precisão milimétrica em projetos de Richelieu e rendas nobres.",
+  "relatedTerms": [
+    "Bordado Richelieu Eletrônico (Machine Richelieu / Eyelet)",
+    "Agulha de Ilhós / Agulha Furadora (Eyelet & Piercing Needle / Borer Device)",
+    "Ponto Cheio (Satin Stitch)",
+    "Entretela Hidrossolúvel",
+    "Compensação de Encolhimento (Pull Compensation)"
+  ],
+  "tags": [
+    "cutwork",
+    "agulhas de corte",
+    "richelieu automatico",
+    "broderie anglaise",
+    "chapa cutwork",
+    "vazado no bastidor",
+    "laminas anguladas",
+    "ferramenta de corte"
+  ],
+  "updatedAt": "2026-09-28"
+}
 ];

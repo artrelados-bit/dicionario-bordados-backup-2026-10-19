@@ -6739,4 +6739,108 @@ export const VERBETES_LETTER_F: Verbete[] = [
     ],
     "updatedAt": "2026-09-05"
   }
+,
+{
+  "id": "f-foto-bordado-fotostitch-eletronico",
+  "code": "F-000",
+  "term": "Foto-Bordado / Fotostitch Eletrônico (PhotoStitch & Color-Blending Digitizing)",
+  "letter": "F",
+  "level": "Intermediário 🟡 a Avançado 🔴",
+  "category": "Digitalização de Matrizes & Técnicas Especiais",
+  "grammarClass": "Substantivo masculino / Locução técnica digital",
+  "origin": "Do grego phos / photos (luz) e graphein (desenhar, gravar) associado ao inglês stitch (ponto de costura/bordado). Criado no final da década de 1990 por engenheiros da Brother Industries (desenvolvedores do módulo pioneiro PhotoStitch no software PE-Design) e aprimorado pela Wilcom International (módulo PhotoFlash) e Pulse Microsystems, o foto-bordado substituiu a conversão manual de retratos por algoritmos avançados de meio-tom (halftone dithering), interpolação estocástica e varredura de pixels, permitindo que máquinas de bordar reproduzam retratos humanos e fotos realistas com linhas coloridas entrelaçadas.",
+  "summary": "Técnica avançada de digitalização e bordado computadorizado que converte fotografias reais em matrizes de linhas policromáticas através de sobreposição e mesclagem óptica de cores.",
+  "definition": "O Foto-Bordado / Fotostitch Eletrônico é a técnica avançada de engenharia de matrizes pela qual uma imagem rasterizada (fotografia digital em formato JPEG, PNG ou TIFF) é decomposta em mapas de luminância, contraste e canais de cor, sendo convertida em trajetórias lineares ou pontos cruzados aleatórios que se sobrepõem no bastidor. Ao contrário da vetorização tradicional (que segmenta o desenho em blocos maciços e planos de cor delimitados por contornos), o PhotoStitch gera camadas de pontos corridos com direções angulares intercaladas e densidades variáveis de 4 a 8 cores de linha. O resultado no tecido não se baseia na mistura física de pigmentos, mas na ilusão de ótica da fusão aditiva/subtrativa retiniana (pontilhismo), onde o olho humano combina os micro-pontos adjacentes para enxergar gradientes suaves de pele, brilho nos olhos e texturas realistas de pelos e cabelos.",
+  "technicalDetails": "A geração da matriz PhotoStitch opera sob dois métodos algorítmicos principais: 1) Efeito Sepia/Monocromático (1 a 4 tons de cinza ou marrom, usando pontos de densidade variável com espaçamento entre 0,40 mm nas sombras e 1,2 mm nas altas luzes); 2) Retícula Policromática Colorida (4 a 8 cores de linha calibradas sob a paleta CMYK ou RGB expandida). A resolução recomendada da foto de entrada é de 300 DPI, com remoção prévia do fundo para evitar poluição de pontos desnecessários. Como a matriz sobrepõe de 3 a 5 camadas de pontos no mesmo centímetro quadrado, a contagem de pontos é elevada (frequentemente de 40.000 a 80.000 pontos para um retrato de 13x18 cm). Isso gera um esforço mecânico concentrado de repuxo no tecido, exigindo impreterivelmente entretela de recorte de alta estabilidade (cutaway 80 g/m²) e compensação de densidade no software para evitar que o tecido vire uma placa rígida.",
+  "beginnerExplanation": "Já imaginou pegar a foto do seu cachorrinho, do seu bebê ou dos seus avós e a máquina de bordar transformar aquilo em um quadro bordado com linha de verdade? Isso é o Foto-Bordado! Em vez de fazer desenhos simples com contorno preto em volta, o programa de computador analisa a claridade e as cores da foto e manda a máquina dar milhares de pontinhos pequenininhos com linhas de cores diferentes (como bege, marrom claro, marrom escuro, preto e branco). Quando você olha de pertinho, parecem risquinhos soltos; mas quando dá dois passos para trás, a foto se revela perfeita na sua frente, como em uma pintura a óleo impressionista!",
+  "characteristics": [
+    "Conversão direta de fotos de alta resolução sem necessidade de redesenhar vetores à mão",
+    "Uso de algoritmos de meio-tom (dithering) e direções angulares alternadas para mesclar cores",
+    "Geração de texturas fotorrealistas através de ilusão de ótica pontilhista",
+    "Alta contagem de pontos (40.000 a 100.000 pontos em formatos médios)",
+    "Dispensa contornos pesados de ponto cheio, preservando bordas naturais e suaves"
+  ],
+  "construction": [
+    "1. Preparação da imagem: Tratamento de contraste, nitidez e recorte do fundo no Photoshop/GIMP",
+    "2. Conversão algorítmica: Processamento no PhotoStitch / PhotoFlash definindo 4 a 8 cores",
+    "3. Base no bastidor: Tecido plano firme (linho, sarja, brim ou lona) com entretela de recorte 80g",
+    "4. Camadas de base (Sombras e Meios-tons): Bordado das cores mais escuras e fundos intermediários",
+    "5. Camadas de luz e acabamento: Aplicação dos tons claros e micro-pontos de luz nos olhos/cabelos"
+  ],
+  "howItWorks": [
+    "1. A foto é tratada no computador: aumenta-se o contraste e remove-se o fundo para focar no rosto ou objeto principal.",
+    "2. A imagem é importada no módulo PhotoStitch do software de bordado e ajusta-se o tamanho para o bastidor desejado.",
+    "3. O software analisa a imagem e seleciona automaticamente os 4 a 8 cones de linha correspondentes na paleta de cores.",
+    "4. A matriz é gerada e transferida para a máquina de bordar através de pen drive.",
+    "5. Monta-se o tecido plano no bastidor com entretela de recorte pesada bem esticada.",
+    "6. A máquina borda camada por camada, obedecendo à ordem de cores programada.",
+    "7. Ao término, corta-se os fios de salto manualmente com tesourinha de ponta curva e passa-se o tecido pelo avesso."
+  ],
+  "mainTypes": [
+    "PhotoStitch Monocromático / Preto e Branco: Utiliza de 1 a 3 linhas (preto, cinza e branco) criando retratos vintage sofisticados.",
+    "PhotoStitch Sépia / Tons Terrosos: Efeito nostálgico com 4 tons de marrom, creme e bege, com excelente transição de pele.",
+    "PhotoStitch Policromático Colorido: Fusão de 6 a 8 cores para reproduzir imagens vivas de flores, pássaros e retratos coloridos.",
+    "PhotoStitch em Ponto Cruz: Converte a fotografia em uma grade de cruzetas coloridas que imitam tapeçaria manual."
+  ],
+  "applications": [
+    "Quadros decorativos emoldurados de homenagem para casamentos, bodas e formaturas",
+    "Retratos comemorativos de pets (cães, gatos, cavalos) em almofadas e jaquetas",
+    "Reproduções artísticas de pinturas clássicas e fotografias históricas em tecido",
+    "Presentes personalizados de altíssimo valor agregado e peças de colecionador"
+  ],
+  "recommendedSettings": {
+    "speedPPM": "550 a 650 PPM (reduzir a velocidade para evitar superaquecimento da agulha com excesso de perfurações)",
+    "needleType": "Agulha 75/11 Ponta Aguda (Microtex) ou 75/11 Titânio para resistir ao calor de fricção",
+    "stabilizer": "Entretela de recorte pesada (cutaway 80 g/m²) ou entretela rasgável dupla 60g cruzada",
+    "density": "Espaçamento dinâmico automático de 0,40 mm (sombras) a 1,20 mm (luzes)",
+    "pullCompensation": "0,30 mm a 0,40 mm (as direções angulares múltiplas equilibram a tração)",
+    "underlay": "Geralmente dispensado ou reduzido a uma sob-costura perimetral leve de basting",
+    "threadTension": "Tensão superior moderada e perfeitamente equilibrada para não puxar a linha de bobina para a frente"
+  },
+  "advantages": [
+    "✔ Capacidade ímpar de eternizar memórias fotográficas reais em fios têxteis eternos",
+    "✔ Peças com preço de venda elevado (frequentemente vendidas a R$ 200,00 a R$ 600,00 por quadro)",
+    "✔ Dispensa habilidades de ilustração manual para criar matrizes de alta complexidade",
+    "✔ Excelente aproveitamento de sobras de linhas para criar nuances e sombreados ricos"
+  ],
+  "limitations": [
+    "Arquivos muito pesados com alta contagem de pontos que exigem mais tempo de bordado na máquina",
+    "Tecidos finos, elásticos ou moles (viscolycra, cetim) não suportam a densidade e enrugam com facilidade",
+    "Fotos de celular borradas, escuras ou com flash estourado geram matrizes manchadas e sem definição"
+  ],
+  "commonErrors": [
+    "❌ Usar foto com iluminação ruim ou baixa resolução: o software cria borrões pretos sem detalhes",
+    "❌ Não recortar o fundo da foto: a máquina perde horas bordando paredes ou móveis sem necessidade",
+    "❌ Bordar em malha fina ou tecido elástico (a peça franze e o rosto fica deformado)",
+    "❌ Trocar a ordem das cores de linha indicadas no visor: a pele fica esverdeada ou acinzentada",
+    "❌ Usar agulha velha ou grossa: aquece, quebra a linha frequentemente e desfia os pontos"
+  ],
+  "troubleshootingTips": [
+    "Se o rosto parecer uma mancha escura na máquina: aumente o brilho e contraste da foto original no editor de imagem antes de processar no PhotoStitch.",
+    "Se as linhas começarem a quebrar no meio do bordado: reduza a velocidade da máquina para 550 PPM e troque a agulha por uma de titânio nova.",
+    "Se o tecido repuxar para dentro nas laterais: utilize duas camadas de entretela de recorte e prenda a margem com costura de alinhave (basting) no bastidor."
+  ],
+  "dicaArtrelados": "O Segredo do \"Preto por Último\" e da Edição Prévia da Imagem: 90% do sucesso de um foto-bordado espetacular não acontece na máquina, mas na preparação da imagem no computador! Antes de jogar a foto no PhotoStitch, abra a foto no celular ou computador, recorte todo o fundo deixando apenas a silhueta da pessoa ou pet, e aumente o contraste em +20%. E na hora de bordar, certifique-se de que a cor preta ou o marrom mais escuro de detalhes seja uma das últimas etapas: quando a linha escura cai por cima dos tons claros de pele e sombra, ela \"acende\" o olhar e os contornos faciais, criando um impacto visual de deixar qualquer cliente em lágrimas de emoção!",
+  "voceSabia": "O PhotoStitch utiliza a mesma teoria óptica que consagrou pintores pós-impressionistas como Georges Seurat e Paul Signac no final do século XIX! Em vez de pintar com pinceladas contínuas, eles pintavam com pontinhos de tintas puras lado a lado — exatamente como a sua máquina de bordar computadorizada faz com os fios de poliéster!",
+  "practicalExercise": "Exercício de Bancada (Seu Primeiro Retrato Bordado Monocromático em Sépia):\n1. Escolha uma foto nítida de perfil de uma pessoa querida ou de um pet.\n2. No editor do celular, converta para preto e branco e aumente a nitidez.\n3. Importe no módulo PhotoStitch configurando para 4 cores (Creme, Bege, Marrom e Preto).\n4. Monte um pedaço de brim cru ou sarja com entretela de recorte no bastidor 13x18 cm.\n5. Borde as 4 etapas com calma, sem pressa.\n6. Destaque do bastidor, coloque em uma moldura de madeira e encante sua família com uma obra de arte única!",
+  "quickSummary": "Técnica digital avançada que transforma fotos reais em matrizes de linhas policromáticas por meio de sobreposição e fusão óptica de cores, criando retratos fotorrealistas bordados.",
+  "relatedTerms": [
+    "Digitalização de Matrizes (Digitizing)",
+    "Bordado Tradicional Direto / Bordado Plano (Direct Flat Embroidery)",
+    "Alinhave no Bastidor / Costura de Basting",
+    "Entretela Rasgável vs. Entretela de Recorte (Cutaway)",
+    "Densidade de Ponto (Stitch Density)"
+  ],
+  "tags": [
+    "foto-bordado",
+    "photostitch",
+    "photoflash",
+    "retrato bordado",
+    "dithering",
+    "pontilhismo",
+    "quadro bordado",
+    "fusao de cores"
+  ],
+  "updatedAt": "2026-09-28"
+}
 ];
