@@ -7980,5 +7980,73 @@ export const VERBETES_LETTER_M: Verbete[] = [
       "bordadodecanto",
       "artrelados"
     ]
+  },
+  {
+    "id": "m-mascaras-de-descanso-e-porta-passaportes-ith-viagem",
+    "code": "M-110",
+    "letter": "M",
+    "term": "Máscaras de Descanso e Porta-Passaportes ITH (Acessórios Acolchoados de Viagem Feitos no Bastidor)",
+    "pronunciation": "más-ca-ras de des-can-su e por-ta pas-sa-por-tes (ˈmaskaɾɐz dʒi dʒisˈkɐ̃sw)",
+    "level": "Intermediário 🟡",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva feminina composta.",
+    "origin": "Do italiano 'maschera' (cobertura facial para repouso visual e isolamento de luminosidade) e do francês 'passeport' (documento náutico medieval que autorizava passar pelos portos de navegação marítima).",
+    "summary": "Manual de confecção no bastidor de máscaras faciais anatômicas de dormir com bloqueio total de luz e capas protetoras de passaporte com bolsos organizadores.",
+    "definition": "A confecção de Máscaras de Descanso e Porta-Passaportes ITH (Travel Accessories & Sleep Masks In The Hoop / Acessórios Acolchoados de Viagem no Bastidor / Kit Viagem Personalizado) é o nicho especializado na criação de kits de bordo e bem-estar para viagens. Engloba o corte anatômico com cavidade nasal profunda para impedir vazamento de luz, o acolchoamento macio em manta com recheio interno blackout (tecido de bloqueio solar 100%), a fixação automatizada de elásticos acetinados nas laterais durante as paradas da máquina e a modelagem de capas de passaporte com abas duplas internas para bilhetes aéreos e cartões de crédito.",
+    "technicalDetails": "A ergonomia da máscara de descanso exige ausência total de rigidez para não pressionar as pálpebras e as têmporas durante o sono. Parâmetros técnicos mandatórios: 1) Sanduíche Estruturador Blackout: camada frontal em cetim, tricoline ou sintético macio; recheio duplo composto por manta R1 de 100 g/m² e uma folha de tecido blackout fosco ou feltro preto para garantir escuridão absoluta; e forro traseiro em tecido ultra-sedoso (cetim de seda ou malha suedine 100% algodão); 2) Fixação dos Elásticos: tiras de elástico de viés macio de 15 a 20 mm de largura, posicionadas para dentro do bastidor com fita adesiva durante a parada de fixação periférica; 3) Porta-Passaportes: cálculo das dimensões internacionais padrão de passaporte (125 x 88 mm) acrescido de folga de encaixe de 8 mm em cada lado; e 4) Ponto Triplo de Fechamento com abertura de 4 cm na borda reta para desvirar.",
+    "beginnerExplanation": "O kit de viagem com máscara de dormir e capinha de passaporte combinando é o presente favorito para noivas em lua de mel, viajantes e formandos! Fazer no bastidor é muito fácil: a máquina desenha os olhinhos fechados na máscara (ou escreve frases divertidas como 'Não Me Acorde' ou 'Modo Avião'), costura as pontinhas do elástico escondidas para dentro e fecha tudo. Você desvira e tem uma máscara fofinha, macia como nuvem e que não deixa passar nem um raio de luz nos olhos!",
+    "howItWorks": [
+      "1. Monta-se entretela rasgável no bastidor 13x18 cm e borda-se a linha guia da máscara facial.",
+      "2. Aplica-se a manta acrílica leve e o tecido externo frontal (cetim, tricoline ou veludo).",
+      "3. A máquina borda os olhinhos fechados, cílios, monograma ou frase personalizada.",
+      "4. A máquina faz uma parada (Stop): encaixa-se a fita elástica esticada de um lado ao outro, colando as pontas viradas para fora da margem com fita crepe.",
+      "5. Aplica-se a camada interna blackout e o tecido traseiro de contato com os olhos (direito com direito).",
+      "6. A máquina fecha o contorno com ponto triplo reforçado, deixando abertura na parte superior.",
+      "7. Retira-se do bastidor, apara-se o excesso de tecido com tesoura de picotar, desvira-se e fecha-se a abertura com ponto invisível."
+    ],
+    "applications": [
+      "Kits de Lua de Mel para noivos com capas de passaporte 'Sr. e Sra.' e máscaras de dormir elegantes.",
+      "Brindes de classe executiva e primeira classe para companhias aéreas e agências de viagens de turismo de luxo.",
+      "Lembrancinhas de festas de pijama para meninas com temas de unicórnio, gatinho e princesa.",
+      "Itens de autocuidado (skincare) e relaxamento para clínicas de estética, spas e hotéis."
+    ],
+    "characteristics": [
+      "Isolamento luminoso absoluto de 100% da claridade ambiental sem apertar os olhos.",
+      "Acabamento acolchoado ultra-confortável com elásticos suaves que não puxam os cabelos.",
+      "Ajuste anatômico preciso aos padrões mundiais de documentos de viagem e passaportes."
+    ],
+    "commonErrors": [
+      "❌ Não colocar a camada blackout interna: a luz atravessa o tecido claro e a máscara não cumpre sua função de proporcionar escuridão para dormir.",
+      "❌ Deixar o elástico solto dentro do bastidor durante a costura de contorno, costurando o elástico no meio do bordado e estragando a peça.",
+      "❌ Fazer a capinha de passaporte muito apertada sem folga de manuseio: ao tentar colocar o passaporte com capa grossa, o documento emperra e não entra."
+    ],
+    "troubleshootingTips": [
+      "A luz está vazando por baixo na região do nariz: aumente a profundidade da curva do arco nasal no desenho da matriz para que a máscara se acomode perfeitamente sobre as abas do nariz.",
+      "O elástico escapou após desvirar a máscara: aumente a sobreposição da costura sobre as pontas do elástico para pelo menos 1 cm e utilize ponto de travamento reforçado.",
+      "O cetim desfiou na costura de contorno: aumente a densidade do ponto reto e utilize entretela termocolante leve no verso do cetim antes de bordar."
+    ],
+    "dicaArtrelados": "O toque de perfumaria da Artrelados para máscaras de dormir: antes de fechar a abertura da máscara, coloque dentro do recheio de manta um sachê minúsculo de gaze com flores secas de lavanda francesa natural! O aroma suave de lavanda acalma o cérebro durante o voo e transforma seu produto em uma experiência multissensorial inesquecível para o cliente!",
+    "voceSabia": "Pesquisas de neurobiologia do sono comprovam que dormir com escuridão total estimula a produção imediata da melatonina (o hormônio do sono profundo e regeneração celular), reduzindo a insônia e aliviando dores de cabeça mesmo em ambientes barulhentos ou iluminados de aviões!",
+    "practicalExercise": "Pegue um retalho de cetim rosa ou azul de 20x15 cm e um pedaço de elástico de 30 cm. Borde uma matriz de máscara de dormir no bastidor 13x18 com recheio blackout. Desvire, feche e coloque no rosto: sinta a escuridão deliciosa e o conforto de um acessório de primeira classe feito por você!",
+    "quickSummary": "Protocolo de montagem automatizada no bastidor de kits de viagem acolchoados com máscara blackout anatômica e porta-passaporte personalizado.",
+    "relatedTerms": [
+      "In The Hoop (ITH)",
+      "Camada Blackout",
+      "Elástico de Viés Acetinado",
+      "Ergonomia Facial",
+      "Manta Acrílica R1",
+      "Kit de Viagem",
+      "Porta-Passaporte"
+    ],
+    "tags": [
+      "m-110",
+      "mascarasdedescanso",
+      "portapassaporte",
+      "kitviagem",
+      "ith",
+      "blackout",
+      "dormir",
+      "artrelados"
+    ]
   }
 ];

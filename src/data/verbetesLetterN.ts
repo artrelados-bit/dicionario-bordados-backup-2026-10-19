@@ -7652,5 +7652,73 @@ export const VERBETES_LETTER_N: Verbete[] = [
     "bichinhodepelucia",
     "artrelados"
   ]
+},
+{
+  "id": "n-necessaires-e-estojos-no-bastidor-ith-ziper",
+  "code": "N-109",
+  "letter": "N",
+  "term": "Necessaires e Estojos no Bastidor (Projetos Utilitários 100% ITH com Zíper Embutido e Forro Invisível)",
+  "pronunciation": "ne-ces-sai-res e es-to-jus nu bas-ti-dor (neseˈsɛjɾiz i isˈtoʒuz)",
+  "level": "Intermediário 🟡",
+  "category": "Técnicas de Bastidor",
+  "grammarClass": "Locução substantiva feminina composta.",
+  "origin": "Do francês 'nécessaire' (indispensável, estojo portátil para carregar itens essenciais de toalete e higiene) conjugado com a metodologia digital contemporânea In The Hoop (ITH).",
+  "summary": "Processo passo a passo de montagem no bastidor de bolsas, estojos e necessaires com zíper aplicado, estruturação interna e forro embutido sem costuras aparentes.",
+  "definition": "A confecção de Necessaires e Estojos no Bastidor (In The Hoop Zipper Pouch & Cosmetic Bag / Bolsas Utilitárias no Bastidor / Costura Automatizada de Estojos com Fecho) é a técnica pela qual uma peça tridimensional completa é montada, estruturada, forrada e fechada diretamente no bastidor da máquina de bordar, sem a necessidade de costuras manuais ou montagem em máquina de costura reta. O processo utiliza paradas programadas da máquina (comandos Stop) para sequenciar a fixação do zíper de metro, a aplicação dos tecidos externos com acolchoamento, o bordado personalizado de monogramas ou estampas e a junção dos tecidos de forro com costura embutida.",
+  "technicalDetails": "A precisão mecânica do bastidor elimina o desalinhamento do zíper comum na costura livre. Regras técnicas cruciais: 1) Posição do Zíper: o trilho plástico do zíper deve ser fixado sobre a linha guia exatamente no centro da abertura com a cremalheira voltada para cima; 2) Abertura do Cursor (Regra de Ouro ITH): antes da costura de fechamento periférico, o cursor DEVE ser obrigatoriamente puxado para o meio do bastidor; se o cursor ficar do lado de fora da área costurada, a necessaire é lacrada fechada e fica inutilizada; 3) Estruturação Leve: manta R1 de 100 g/m² ou nylon acoplado colado no tecido principal com recuo das margens; 4) Ponto Triplo (Bean Stitch) de 2,5 mm para resistir à tensão ao desvirar a peça; e 5) Abertura de Desvire de 6 a 8 cm no forro para viramento macio sem amassar o zíper.",
+  "beginnerExplanation": "Fazer necessaire no bastidor parece mágica! A máquina faz a costura reta para prender o zíper no tecido, borda o seu nome ou um desenho fofo, coloca o forro por trás e costura a bolsinha inteira fechadinha. Você só tira do bastidor, desvira por um buraquinho no forro e pronto: a bolsinha sai montada, forrada e perfeita! O único cuidado que você NUNCA pode esquecer é abrir o puxador do zíper para o meio antes da costura final, senão você não consegue abrir a bolsinha depois!",
+  "howItWorks": [
+    "1. Monta-se entretela rasgável firme no bastidor e a máquina borda a linha de marcação guia do zíper.",
+    "2. Posiciona-se o zíper sobre a linha guia (direito para cima) e a máquina costura o pesponto superior e inferior do zíper.",
+    "3. Aplica-se o tecido principal da frente (direito com direito contra o zíper), a máquina costura e rebate o tecido para baixo.",
+    "4. Borda-se a personalização decorativa (monograma, floral ou frase).",
+    "5. REGRA SAGRADA: abre-se o cursor do zíper até a metade da peça.",
+    "6. Coloca-se o tecido da parte de trás sobre a frente (direito com direito) e o tecido do forro pelo lado de trás do bastidor.",
+    "7. A máquina costura todo o perímetro com ponto triplo reforçado, deixando 6 cm de abertura no forro; retira-se, desvira-se e fecha-se a aberturinha."
+  ],
+  "applications": [
+    "Necessaires personalizadas para brindes corporativos de final de ano e eventos femininos.",
+    "Estojos escolares infantis com temas de personagens e porta-lápis de alta durabilidade.",
+    "Kits de higiene bucal e bolsas térmicas para introdução alimentar infantil.",
+    "Porta-maquiagens de bolsa e carteiras clutch para festas em tecidos acetinados e sintéticos."
+  ],
+  "characteristics": [
+    "Alinhamento milimétrico retilíneo do zíper garantido pela estabilidade do bastidor.",
+    "Forro embutido limpo sem nenhuma linha ou margem de costura desfiada visível por dentro.",
+    "Agilidade industrial de produção: uma necessaire completa fica pronta em 12 a 15 minutos."
+  ],
+  "commonErrors": [
+    "❌ Esquecer de puxar o cursor do zíper para o meio antes da costura perimetral final: a máquina costura sobre o zíper fechado e a necessaire não abre mais.",
+    "❌ Cortar as pontas do zíper rente demais da costura ao desvirar, fazendo os dentes plásticos escaparem e abrirem a costura lateral.",
+    "❌ Usar zíper de metal grosso na máquina de bordar: a agulha colide contra os dentes metálicos e quebra instantaneamente."
+  ],
+  "troubleshootingTips": [
+    "A agulha bateu no cursor do zíper e quebrou: certifique-se de que o cursor esteja bem centralizado e que a matriz tenha pelo menos 1,5 cm de folga entre a costura de contorno e o metal do cursor.",
+    "Os cantos da necessaire ficaram arredondados e para dentro após desvirar: corte os excessos de manta e tecido em diagonal nos 4 cantos com tesoura afiada antes de virar para fora.",
+    "A necessaire ficou murcha: use nylon acoplado ou manta resinada R1 prensada com ferro no tecido externo antes de iniciar o projeto."
+  ],
+  "dicaArtrelados": "O truque mestre da Artrelados para necessaires ITH: coloque uma alcinha de fita de gorgurão dobrada para dentro bem na altura do início do zíper antes da costura de fechamento. Quando você desvira, a necessaire ganha uma alça de mão charmosa e profissional que agrega 30% a mais no valor de venda da peça!",
+  "voceSabia": "O primeiro fecho éclair moderno (zíper) foi inventado pelo engenheiro sueco-americano Gideon Sundbäck em 1913, mas foi a empresa aeronáutica B.F. Goodrich que criou o nome 'Zipper' em 1923 pelo som que o fecho fazia ao deslizar ('zzzzip!')!",
+  "practicalExercise": "Pegue um zíper de nylon número 3 e dois retalhos de tricoline de 15x20 cm. Abra uma matriz básica de necessaire ITH no bastidor 13x18. Siga as etapas de parada da máquina, lembre-se de abrir o cursor no meio e desvire. Sinta o orgulho de segurar uma necessaire forrada feita 100% na sua bordadeira!",
+  "quickSummary": "Técnica de confecção automatizada no bastidor de bolsas e estojos com zíper perfeitamente embutido, forro invisível e montagem rápida.",
+  "relatedTerms": [
+    "In The Hoop (ITH)",
+    "Zíper de Nylon",
+    "Cursor de Zíper",
+    "Parada Programada (Stop)",
+    "Forro Invisível Embutido",
+    "Manta Acrílica R1",
+    "Ponto Bean Triplo"
+  ],
+  "tags": [
+    "n-109",
+    "necessaires",
+    "estojos",
+    "ith",
+    "ziper",
+    "forroinvisivel",
+    "projetosutilitarios",
+    "artrelados"
+  ]
 }
 ];

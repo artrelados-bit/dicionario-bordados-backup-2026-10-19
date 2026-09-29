@@ -7682,5 +7682,142 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "moda",
       "artrelados"
     ]
+  },
+  {
+    "id": "c-chaveiros-e-porta-moedas-no-bastidor-sintetico-ith",
+    "code": "C-112",
+    "letter": "C",
+    "term": "Chaveiros e Porta-Moedas no Bastidor (Personalização em Sintético Montana, Feltro & Rebites ITH)",
+    "pronunciation": "cha-vei-rus e por-ta mo-e-das nu bas-ti-dor (ʃaˈvejɾuz i ˈpɔʁtɐ moˈɛdɐs)",
+    "level": "Iniciante 🟢",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva masculina composta.",
+    "origin": "Do latim 'clavis' (chave, instrumento de abertura e segurança) e do uso moderno de materiais poliméricos estruturados não desfiáveis (poliuretano PU e policloreto de vinila PVC) montados no bastidor de bordar.",
+    "summary": "Guia completo de corte, bordado e montagem no bastidor de chaveiros emborrachados, porta-moedas e brindes corporativos em sintético Montana e feltro com ferragens metálicas.",
+    "definition": "A confecção de Chaveiros e Porta-Moedas no Bastidor (In The Hoop Keychains & Coin Purses / Brindes Promocionais em Sintético / Personalização de Acessórios de Bolso) é o projeto de entrada mais rápido, rentável e de menor custo de insumo do bordado computadorizado. Abrange o uso de materiais sintéticos encorpados de corte a fio (como Sintético Montana 1.4 mm, Doll, recouro e feltro resinado) que dispensam bainhas e não desfiam. A matriz borda a arte externa, faz a parada para posicionar o verso e executa uma costura perimetral precisa em ponto cheio ou ponto reto de acabamento com abas para aplicação de ilhós, rebites ou botões de pressão.",
+    "technicalDetails": "Materiais sintéticos à base de PVC e PU possuem comportamento elástico sob penetração de agulha e podem sofrer rasgo contínuo (efeito picotador de papel) se os pontos forem muito próximos. Parâmetros críticos: 1) Comprimento de Ponto Aberto: passos de ponto reto de no mínimo 2,5 mm a 3,0 mm e satim aliviado (0,45 mm a 0,50 mm) para não perfurar o material repetidamente na mesma linha de corte; 2) Agulha 80/12 ou 90/14 ponta arredondada normal (evitar agulhas com lâmina tipo faca de couro cru que cortam o PVC em excesso); 3) Entretela Rasgável Média de 60 g/m² ou hidrossolúvel para corte limpo; e 4) Fita Dupla-Face Têxtil ou spray para unir as camadas frontal e traseira no bastidor sem deslizar.",
+    "beginnerExplanation": "Fazer chaveiro no bastidor é o jeito mais fácil e gostoso de ganhar dinheiro rápido com a máquina de bordar! Com uma folha pequena de material sintético (que parece um couro gostoso e custa baratinho), você coloca na máquina e em 5 minutos ela borda o nome, o símbolo de um carro ou um coração, costura o verso e você só corta em volta com a tesoura. Coloca uma argolinha de chaveiro ou um botãozinho e pronto: um produto lindo pronto para vender por 15 a 25 reais!",
+    "howItWorks": [
+      "1. Monta-se entretela no bastidor pequeno (10x10 ou 13x18 cm) e borda-se a linha de marcação guia do chaveiro.",
+      "2. Posiciona-se o pedaço de sintético Montana ou feltro sobre a marcação com leve adesivo.",
+      "3. A máquina borda o monograma, logotipo corporativo ou ilustração com linha de poliéster de alto brilho.",
+      "4. Retira-se o bastidor da máquina (sem soltar o tecido do aro) e cola-se o sintético do verso pelo lado de baixo do bastidor.",
+      "5. Encaixa-se o bastidor novamente e a máquina passa a costura de contorno perimétrica unindo frente e verso.",
+      "6. Retira-se a peça do bastidor e recorta-se a margem externa a 2 mm da costura com tesoura afiada.",
+      "7. Fura-se a aba superior com alicate perfurador e instala-se o ilhós, rebite e argola metálica com mosquetão."
+    ],
+    "applications": [
+      "Lembrancinhas personalizadas de maternidade e aniversário com nomes e datas.",
+      "Brindes corporativos em grande escala para concessionárias de veículos, imobiliárias e feiras de negócios.",
+      "Porta-moedas compactos com fecho de zíper ou botão de pressão para troco e cartões.",
+      "Tags e identificadores de malas de viagem e mochilas escolares com dados de contato."
+    ],
+    "characteristics": [
+      "Borda perfeita cortada a fio sem necessidade de dobradura ou acabamento em viés.",
+      "Custo unitário de produção baixíssimo com margens de lucro que superam 400%.",
+      "Velocidade recorde: até 6 chaveiros produzidos simultaneamente em um bastidor 13x18 cm."
+    ],
+    "commonErrors": [
+      "❌ Usar densidade de ponto muito pesada ou pontos retos curtinhos (1,5 mm), fazendo o contorno cortar o sintético como uma serra e soltar a peça do chaveiro.",
+      "❌ Usar cola spray em excesso que migra para o avesso e deixa o verso do chaveiro manchado e pegajoso.",
+      "❌ Cortar a borda do chaveiro muito rente da linha de costura, correndo o risco de abrir os pontos com o uso diário no bolso."
+    ],
+    "troubleshootingTips": [
+      "O sintético rasgou na hora de desvirar ou no uso: aumente o comprimento do ponto de contorno para 2,8 mm no software e diminua ligeiramente a tensão da linha superior.",
+      "A agulha está grudando no sintético e repuxando a peça para cima: use agulha teflonada (anti-aderente) ou passe um algodão com óleo de silicone na lâmina da agulha a cada 10 peças.",
+      "As bordas cortadas do sintético ficaram esbranquiçadas ou com pelinhos: aproxime a chama azul de um isqueiro bem rápido a 1 cm da borda para selar o acabamento perfeitamente."
+    ],
+    "dicaArtrelados": "O truque de acabamento de fábrica Artrelados para sintéticos: após cortar as bordas do chaveiro com tesoura de precisão, passe um tiquinho de tinta de borda italiana para couro na cor do material (ou uma caneta permanente fina) na lateral cortada. As bordas ficam seladas, com aspecto acetinado profissional idêntico a artigos de luxo de shoppings internacionais!",
+    "voceSabia": "O material sintético conhecido como 'Montana' revolucionou os ateliês de bordado por ser composto por uma camada superior de poliuretano com base em microfibra compactada, o que confere a ele a mesma resistência e textura do couro legítimo, mas sendo 100% ecológico, vegano e sustentável!",
+    "practicalExercise": "Pegue um retalho de sintético Montana ou feltro de 10x10 cm. Programe um chaveiro simples com um coração e a palavra 'Amor'. Borde a frente, cole o verso com fita crepe, passe a costura de contorno e corte com tesoura de picotar ou reta. Instale uma argolinha e veja como você tem um presente encantador pronto em 8 minutos!",
+    "quickSummary": "Procedimento ágil de digitalização e produção no bastidor de chaveiros e brindes em material sintético cortado a fio com alta lucratividade.",
+    "relatedTerms": [
+      "Sintético Montana",
+      "Corte a Fio",
+      "In The Hoop (ITH)",
+      "Ponto de Contorno Aberto",
+      "Ilhós e Rebites Metálicos",
+      "Agulha Teflonada",
+      "Selagem a Quente"
+    ],
+    "tags": [
+      "c-112",
+      "chaveiros",
+      "portamoedas",
+      "sinteticomontana",
+      "ith",
+      "brindescorporativos",
+      "corteafio",
+      "artrelados"
+    ]
+  },
+  {
+    "id": "c-capas-de-caderneta-de-vacinas-e-livros-ith",
+    "code": "C-113",
+    "letter": "C",
+    "term": "Capas de Caderneta de Vacinas e Livros no Bastidor (Estruturação com Bolsos Internos e Fecho de Aba)",
+    "pronunciation": "ca-pas de ca-der-ne-ta de va-ci-nas e li-vrus (ˈkapɐz dʒi kadɛʁˈnetɐ)",
+    "level": "Intermediário 🟡",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva feminina composta.",
+    "origin": "Do latim 'cappa' (manto protetor envolvente) e do latim medieval 'quaternus' (caderno de registros e anotações), adaptado para a preservação duradoura de documentos de saúde infantil e livros de leitura.",
+    "summary": "Metodologia para confeccionar capas estruturadas para cadernetas de saúde infantil e agendas com bolsos plásticos internos, divisórias e aba de fecho magnético ou de pressão.",
+    "definition": "A confecção de Capas de Caderneta de Vacinas e Livros no Bastidor (In The Hoop Vaccination Book Cover & Planner Sleeve / Capas Protetoras de Documentos Infantis / Enxovais Utilitários Duráveis) é uma das peças mais solicitadas no mercado de maternidade e papelaria fina. Compreende a montagem de uma capa rígida ou acolchoada com dimensões calibradas para a Caderneta da Criança do Ministério da Saúde (ou livros A5), incluindo abas de encaixe para a capa dura do livro, bolsos frontais translúcidos em plástico cristal (para cartão do SUS, convênio médico e receitas) e aba de fechamento com botão de pressão plástico tipo Ritas ou ímã embutido.",
+    "technicalDetails": "A caderneta de vacinas oficial possui 116 páginas e espessura de lombada que varia de 10 a 15 mm. Requisitos técnicos cruciais: 1) Compensação de Lombada: a matriz deve prever uma folga central de pelo menos 18 mm na largura total da capa aberta para que a caderneta feche suavemente sem repuxar as bordas; 2) Estruturação com Manta R2 ou Dublagem em Sintético 0.8 mm para garantir firmeza e sustentação durante os mais de 10 anos de uso do documento; 3) Bolsos em Plástico Cristal calibre 0.20 ou 0.30 com acabamento de borda em viés de tricoline previamente aplicado; e 4) Aba de Fecho: confeccionada na primeira etapa em bastidor pequeno com entretela firme e embutida na margem lateral da capa traseira antes da costura final.",
+    "beginnerExplanation": "A caderneta de vacina é o documento mais importante da vida do bebê: ela vai para o posto de saúde, consultório do pediatra e viagens pelos próximos 10 anos! A capa de tecido comum amassa e suja fácil, mas a capa bordada no bastidor é linda e super resistente. A máquina borda o nome do bebê, o tema do quarto (como safari, realeza ou florais), costura os bolsinhos transparentes por dentro para guardar os cartões de vacina e convênio, e coloca um fecho com botãozinho fofo. As mamães ficam apaixonadas!",
+    "howItWorks": [
+      "1. Borda-se a aba de fecho no bastidor 10x10 cm com o botão de pressão instalado e reserva-se.",
+      "2. No bastidor grande (18x30, 20x30 ou 24x36 cm), monta-se a entretela e borda-se a linha guia de toda a capa aberta.",
+      "3. Aplica-se a manta acrílica estruturante e o tecido principal externo (piquet, tricoline ou sintético).",
+      "4. A máquina borda o monograma, brasão ou desenho temático na parte frontal direita da capa.",
+      "5. Posiciona-se a aba de fecho pronta na lateral direita virada para dentro e a máquina passa o ponto de fixação.",
+      "6. Colocam-se as abas internas de encaixe do livro e os bolsos de plástico cristal sobre as laterais.",
+      "7. Coloca-se o tecido do forro cobrindo tudo (direito com direito), a máquina executa a costura de contorno perimétrico, desvira-se e instala-se a contra-peça do botão."
+    ],
+    "applications": [
+      "Capas de Caderneta de Saúde da Criança personalizadas para recém-nascidos e enxovais de bebê.",
+      "Capas protetoras para planners, agendas executivas e livros de anotações tamanho A5.",
+      "Porta-documentos familiares para certidões de nascimento, passaportes e carteiras de identidade.",
+      "Capas de Bíblias e livros religiosos com monogramas clássicos e acabamentos nobres em courino."
+    ],
+    "characteristics": [
+      "Durabilidade extrema de mais de uma década protegendo documentos vitais de papel.",
+      "Organização completa com compartimentos visíveis para cartões plásticos de saúde e receitas médicas.",
+      "Encaixe anatômico perfeito com folga de lombada que permite folhear o livrinho sem tirar da capa."
+    ],
+    "commonErrors": [
+      "❌ Esquecer de calcular a espessura da lombada da caderneta de vacinação: a capa fica curta e não fecha quando o livrinho é colocado dentro.",
+      "❌ Costurar sobre o plástico cristal com pontos muito pequenos e agulha grossa, rasgando o plástico na linha da costura como um picote de cupom fiscal.",
+      "❌ Colocar a aba de fecho virada para fora na hora da costura final, fazendo a aba ficar costurada para o avesso."
+    ],
+    "troubleshootingTips": [
+      "O livrinho de vacinas não fecha dentro da capa: aumente a distância central entre as duas abas internas em 20 mm no software de matriz para acomodar a lombada de 116 páginas.",
+      "O plástico cristal dos bolsinhos internos rasgou na costura: use agulha ponta fina 70/10 e aumente o passo do ponto de fixação para 3,0 mm.",
+      "O botão de pressão plástico não fecha porque a aba ficou grossa: utilize botão de pressão de pino longo próprio para tecidos grossos ou instale fecho magnético embutido na manta."
+    ],
+    "dicaArtrelados": "O diferencial de luxo Artrelados para capas de vacinas: coloque um bolso plástico translúcido com zíper fininho em uma das abas internas! Ali a mãe guarda a certidão de nascimento dobrada e a carteirinha do convênio médico sem nenhum risco de cair da bolsa durante as consultas com o pediatra. É o detalhe que faz seu produto ser recomendado por todas as mães do condomínio!",
+    "voceSabia": "A primeira 'Caderneta de Saúde da Criança' unificada e distribuída gratuitamente pelo Ministério da Saúde no Brasil foi criada em 2005, reunindo registros de vacinação, curvas de crescimento da OMS e marcos do desenvolvimento neurológico em um único livrinho oficial!",
+    "practicalExercise": "Meça a caderneta de vacinas do seu filho ou um livro A5 (cerca de 15x21 cm fechado). Programe uma capa com 33 cm de largura total aberta para prever a lombada. Borde no bastidor grande com manta R2 e bolsos internos. Encaixe o livro e sinta a firmeza e o profissionalismo de uma encadernação têxtil perfeita!",
+    "quickSummary": "Manual completo de projeto e confecção no bastidor de capas duráveis para cadernetas de saúde e agendas com bolsos plásticos e fecho seguro.",
+    "relatedTerms": [
+      "In The Hoop (ITH)",
+      "Caderneta de Vacinação",
+      "Compensação de Lombada",
+      "Plástico Cristal",
+      "Botão de Pressão Plástico",
+      "Manta R2 Estruturada",
+      "Aba de Fecho"
+    ],
+    "tags": [
+      "c-113",
+      "capasdecaderneta",
+      "cadernetadevacinas",
+      "capasdelivros",
+      "ith",
+      "plasticocristal",
+      "linhabebe",
+      "utilitarios",
+      "artrelados"
+    ]
   }
 ];
