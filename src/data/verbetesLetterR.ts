@@ -6216,5 +6216,73 @@ export const VERBETES_LETTER_R: Verbete[] = [
     "controle ponto a ponto"
   ],
   "updatedAt": "2026-09-28"
+},
+{
+  "id": "r-roupoes-e-chinelos-atoalhados-hotelaria-spa",
+  "code": "R-109",
+  "letter": "R",
+  "term": "Roupões e Chinelos Atoalhados (Bordados de Spa, Hotelaria de Luxo & Dia da Noiva)",
+  "pronunciation": "rou-pões e chi-ne-lus a-to-a-lha-dus (ʁowˈpõj̃z i ʃiˈneluz)",
+  "level": "Intermediário 🟡",
+  "category": "Tipos de Tecidos",
+  "grammarClass": "Locução substantiva masculina composta.",
+  "origin": "Do francês 'peignoir' / 'robe' (roupão cerimonial envolvente) e do italiano arcaico 'pianella' (calçado raso e confortável de quarto em tecido macio para acolhimento térmico).",
+  "summary": "Técnicas de montagem, gabaritagem e proteção de avesso para bordar roupões atoalhados pesados de banho e chinelos de quarto em tecidos aveludados e microfibra.",
+  "definition": "O bordado em Roupões e Chinelos Atoalhados (Bordado para Hotelaria de Charme & Spas / Bathrobe & Slipper Embroidery / Linha Dia da Noiva) engloba as rotinas técnicas para personalizar roupões atoalhados e térmicos (modelos quimono, gola xale e microfibra fleece) e chinelos de quarto abertos ou fechados. O processo exige o manejo do volume excessivo de tecido pesado fora do bastidor, alinhamento de grandes monogramas ou brasões nas costas (entre 20 e 28 cm de largura) e peito esquerdo do roupão, métodos de bordado flutuante para a pala acolchoada do chinelo sem costurar o solado de borracha/EVA, e forração suave do verso para evitar atrito contra a pele úmida.",
+  "technicalDetails": "Roupões atoalhados possuem gramaturas densas (380 a 500 g/m²). Requisitos técnicos mandatórios: 1) Gestão de Peso e Atrito: uso obrigatório de bancada extensora ao redor da máquina para suportar os quase 1,5 kg de tecido do roupão sem sobrecarregar os servomotores do pantógrafo X/Y; 2) Alinhamento nas Costas: centro geométrico marcado a 16–18 cm abaixo da gola xale, garantindo que o capuz ou a gola dobrada não cubram o bordado; 3) Chinelos de Quarto: a gáspea (tira superior do chinelo) deve ser bordada aberta antes da montagem da sola ou, se o chinelo for pronto, montada com técnica de bordado flutuante em bastidor magnético ou com fita dupla-face têxtil de alta aderência; e 4) Película Termocolante de Proteção (Soft Touch) no verso do peito para não pinicar a pele molhada.",
+  "beginnerExplanation": "Roupão de banho e chinelinho combinando é o kit dos sonhos para Dia da Noiva, madrinhas e spas de luxo! Como o roupão é grandão, fofo e pesado, você nunca deve deixar o peso dele cair para fora da mesa da máquina, senão a agulha entorta e o desenho sai torto. Você apoia o roupão na mesa com carinho, usa o plastiquinho que derrete na água por cima da felpa e borda aquele brasão dourado maravilhoso nas costas. O resultado é um luxo digno de hotel 5 estrelas!",
+  "howItWorks": [
+    "1. Estende-se o roupão aberto na bancada ampla com as costas viradas para cima.",
+    "2. Dobra-se a gola xale para baixo para visualizar onde a gola repousará nas costas e marca-se o centro a 16 cm abaixo da dobra com fita métrica.",
+    "3. Encaixa-se entretela rasgável de 80 g/m² no bastidor grande (20x30 cm ou 18x30 cm).",
+    "4. Prende-se a área das costas no bastidor, cobrindo com plástico hidrossolúvel transparente.",
+    "5. Apoia-se todo o peso das mangas e corpo do roupão sobre a mesa da máquina sem deixar nada pendurado.",
+    "6. A máquina executa o bordado em velocidade moderada (600 a 700 PPM) com agulha 80/12 ponta bola leve.",
+    "7. Para os chinelos: fixa-se a tira acolchoada flutuando sobre entretela resinada no bastidor 10x10 cm e borda-se o monograma simétrico nos dois pés."
+  ],
+  "applications": [
+    "Roupões 'Dia da Noiva' em cetim ou atoalhado com títulos bordados em dourado: 'Noiva', 'Mãe da Noiva' e 'Madrinha'.",
+    "Enxovais corporativos para spas termais, hotéis fazenda, resorts e cruzeiros marítimos.",
+    "Kits masculinos de presentes de luxo com roupão de veludo e chinelos atoalhados combinando.",
+    "Roupões infantis de banho com capuz bordados com orelhinhas e carinhas de bichinhos."
+  ],
+  "characteristics": [
+    "Imponência visual com relevo destacado mesmo em tecidos felpudos volumosos.",
+    "Conforto tátil absoluto sem pontos ásperos no contato com o corpo descalço ou molhado.",
+    "Alta durabilidade estrutural resistente a dezenas de lavagens em água morna de lavanderia."
+  ],
+  "commonErrors": [
+    "❌ Posicionar o bordado das costas do roupão muito no alto: ao vestir, a gola xale cai para trás e tampa completamente o monograma da noiva.",
+    "❌ Deixar o corpo pesado do roupão pendurado para fora da máquina: o peso trava o pantógrafo e o bordado sai com linhas deslocadas.",
+    "❌ Tentar prender chinelos de quarto prontos com sola de borracha dura no aro de plástico do bastidor, quebrando a borda do bastidor."
+  ],
+  "troubleshootingTips": [
+    "O pantógrafo da máquina fez um barulho estalado e perdeu o alinhamento das costas do roupão: o tecido solto ficou pesado ou enroscou embaixo da bancada; coloque caixas ou apoios laterais para sustentar o roupão antes de reiniciar.",
+    "As pontas das letras do monograma do chinelo afundaram na felpa: utilize filme hidrossolúvel duplo e aumente a densidade do satim para 0,42 mm.",
+    "A noiva reclamou que o avesso do bordado no peito está pinicando: passe uma película termofusível de toque macio (Soft Backing) com ferro morno sobre os pontos do verso."
+  ],
+  "dicaArtrelados": "O truque da fita métrica para chinelos de quarto: meça rigorosamente a distância do bico do chinelo até a base do monograma em ambos os pés (pé direito e pé esquerdo). Nada incomoda mais o cliente do que ver a inicial do pé direito a 3 cm da borda e a do pé esquerdo a 5 cm. A simetria milimétrica entre o par é a marca registrada dos ateliês de alto luxo!",
+  "voceSabia": "O uso de chinelos de quarto atoalhados ('slippers') tornou-se um padrão global de hospitalidade graças à cultura japonesa, onde é obrigatório por tradição milenar retirar os sapatos de rua ao entrar em aposentos íntimos para manter a pureza e a limpeza da casa!",
+  "practicalExercise": "Pegue um par de chinelos atoalhados de quarto lisos. Prenda a entretela no bastidor 10x10 cm, apoie a tira superior flutuando com fita dupla-face têxtil e plástico solúvel. Borde uma inicial no pé esquerdo e outra no direito. Veja a perfeição do par e a alegria de transformar chinelos comuns em um produto de presente de casamento de 100 reais!",
+  "quickSummary": "Procedimento técnico de bordado em peças de banho volumosas e chinelos de quarto com controle de peso e avesso macio hipoalergênico.",
+  "relatedTerms": [
+    "Alívio de Peso na Bancada",
+    "Gola Xale",
+    "Chinelos de Quarto",
+    "Dia da Noiva",
+    "Bordado Flutuante",
+    "Entretela de Proteção (Soft Touch)",
+    "Filme Hidrossolúvel"
+  ],
+  "tags": [
+    "r-109",
+    "roupoes",
+    "chinelos",
+    "spa",
+    "hotelaria",
+    "diadanoiva",
+    "enxovalbanho",
+    "artrelados"
+  ]
 }
 ];

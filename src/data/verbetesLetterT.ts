@@ -6608,5 +6608,74 @@ export const VERBETES_LETTER_T: Verbete[] = [
     "stippling"
   ],
   "updatedAt": "2026-09-28"
+},
+{
+  "id": "t-toalhas-de-banho-rosto-e-lavabo-barras-felpa",
+  "code": "T-110",
+  "letter": "T",
+  "term": "Toalhas de Banho, Rosto e Lavabo (Barras Bordadas, Nomes & Monogramas em Felpa Nobre)",
+  "pronunciation": "to-a-lhas de ba-nhu, ros-tu e la-va-bu (toˈaʎɐz dʒi ˈbɐ̃ɲu)",
+  "level": "Iniciante 🟢",
+  "category": "Tipos de Tecidos",
+  "grammarClass": "Locução substantiva feminina composta.",
+  "origin": "Do germânico 'thwahljo' (pano de banho para ablução e secagem da pele), adaptado na tecelagem moderna para tecidos atoalhados em laçadas de felpa de puro algodão (Terrycloth).",
+  "summary": "Guia completo para bordar toalhas atoalhadas em barra lisa acetinada e diretamente sobre felpa aveludada alta com plástico hidrossolúvel e técnica flutuante.",
+  "definition": "O bordado em Toalhas de Banho, Rosto e Lavabo (Bordado em Felpa Atoalhada / Terrycloth & Velour Towel Embroidery / Personalização de Jogos de Banho) é um dos maiores carros-chefe comerciais do ateliê de bordados. Compreende a distinção técnica entre bordar na barra lisa tecida (etamine ou faixa acetinada de jacquard) versus bordar diretamente sobre o corpo felpudo de laçadas de algodão (gramaturas de 350 a 600 g/m² como Buddemeyer, Karsten ou Döhler). Exige o uso mandatório de filme hidrossolúvel de topo (Top Solvy) para impedir o afundamento dos pontos e a técnica do bastidor flutuante para evitar a marca permanente de esmagamento mecânico das fibras (Hoop Burn).",
+  "technicalDetails": "A felpa de algodão é composta por laçadas tridimensionais verticais que sofrem colapso se esmagadas pelo aro rígido do bastidor. Diretrizes técnicas essenciais: 1) Sanduíche Estabilizador: entretela rasgável de 60 a 70 g/m² no verso para estabilidade dimensional e filme hidrossolúvel de 25 a 40 mícrons (PVA) sobre a felpa para atuar como teto de sustentação; 2) Densidade Aberta a Moderada: pontos cheios (Satim) entre 0,40 mm e 0,44 mm com underlay reticulado duplo (Tatami Underlay); 3) Agulha Schmetz 130/705H calibre 75/11 ou 80/12 ponta bola fina (SUK/SES) para afastar os anéis de felpa sem rasgá-los; e 4) Velocidade de Máquina: calibrada entre 650 e 750 PPM para garantir formação perfeita da laçada.",
+  "beginnerExplanation": "Bordar toalha é um dos serviços mais gostosos e que mais encantam as clientes! Mas tem uma pegadinha que todo mundo cai no começo: se você colocar a toalhinha peluda na máquina sem nada por cima, as letrinhas afundam no meio dos pelos e o bordado fica com cara de 'comido' ou banguela. O grande segredo é colocar um plastiquinho transparente que dissolve na água por cima da toalha. Os pontos ficam em cima do plástico, altinhos e lindos! No final, é só borrifar um pouquinho de água ou passar um pano úmido e o plástico some como mágica!",
+  "howItWorks": [
+    "1. Determina-se a área da toalha: barra lisa acetinada ou corpo atoalhado felpudo.",
+    "2. Prende-se a entretela rasgável bem firme no bastidor (13x18, 16x26 ou 20x30 cm).",
+    "3. Aplica-se a técnica do bordado flutuante: apoia-se a toalha sobre a entretela com leve spray temporário ou fita dupla-face têxtil, evitando prender a felpa no aro.",
+    "4. Cobre-se toda a extensão da arte com uma folha de plástico hidrossolúvel transparente.",
+    "5. Executa-se a costura de basteamento perimetral para fixar as camadas sem alfinetes.",
+    "6. A máquina borda o monograma, arabesco ou nome da pessoa com linha de poliéster de alto brilho.",
+    "7. Ao retirar do bastidor, puxa-se o excesso de plástico, rasga-se a entretela traseira rente e umedece-se com algodão para dissolver micro-resíduos de plástico."
+  ],
+  "applications": [
+    "Jogos de banho personalizados para casamento com iniciais entrelaçadas em brasões nobres.",
+    "Toalhas de lavabo elegantes para visitas com acabamento em renda guipure e passa-fita.",
+    "Toalhas de rosto e academia personalizadas para presentes de fim de ano e aniversários.",
+    "Enxovais para hotelaria de luxo, pousadas de charme, clínicas médicas e salões de beleza."
+  ],
+  "characteristics": [
+    "Pontos com altíssima definição que repousam orgulhosamente sobre a textura felpuda.",
+    "Toque suave e absorvente preservado sem endurecer a área bordada.",
+    "Zero marcas afundadas circulares do aro plástico do bastidor na peça pronta."
+  ],
+  "commonErrors": [
+    "❌ Prender a toalha felpuda grossa diretamente no aro do bastidor plástico apertando o parafuso com força: amassa a felpa para sempre, criando uma marca feia permanente que não sai nem lavando.",
+    "❌ Bordar sobre a felpa sem filme hidrossolúvel de topo: as laçadas do tecido escapam por entre os pontos do satim, arruinando a nitidez do bordado.",
+    "❌ Usar agulha grossa de ponta afiada que corta as laçadas da toalha e provoca desfiamento contínuo nas lavagens."
+  ],
+  "troubleshootingTips": [
+    "Ficaram pelos da toalha espetados para fora no meio das letras: aumente a largura do ponto satim para pelo menos 2,0 mm e utilize duas camadas de filme hidrossolúvel transparente.",
+    "A toalha ficou marcada pelo bastidor: passe um vaporizador têxtil a 5 cm de distância e escove as cerdas da toalha com uma escova de dentes macia para levantar a felpa amassada.",
+    "O verso da toalha ficou com pedaços duros de papel: substitua a entretela rasgável comum por entretela rasga-fácil limpa ou hidrossolúvel de lavagem total."
+  ],
+  "dicaArtrelados": "O segredo de boutique da Artrelados para toalhas de banho de presente: borde sempre cerca de 4 a 6 cm ACIMA da barra decorativa inferior (se bordar no corpo atoalhado) ou rigorosamente centralizado no meio da faixa lisa acetinada. E ao terminar, aplique uma barrinha de tecido tricoline estampado combinando com passa-fita de algodão e laço na ponta. Seu jogo de toalhas quadruplica de valor instantaneamente!",
+  "voceSabia": "O tecido atoalhado moderno em laçadas industriais de algodão foi desenvolvido pela fábrica inglesa Christy & Sons em 1850, após seu proprietário trazer uma amostra de tecido tradicional turco de Constantinopla. A Rainha Vitória da Inglaterra adorou tanto a maciez que encomendou centenas de toalhas para o Palácio de Windsor!",
+  "practicalExercise": "Pegue uma toalhinha de lavabo felpuda. Monte apenas a entretela no bastidor 13x18. Pouse a toalha por cima (flutuando), coloque o plástico solúvel em cima e borde um monograma floral com a primeira letra do seu nome. Retire o plástico com água e comprove a textura aveludada e a perfeição de uma peça de grife!",
+  "quickSummary": "Manual completo de bordado em artigos atoalhados de banho e lavabo utilizando filme hidrossolúvel superior e bordado flutuante para preservar a felpa.",
+  "relatedTerms": [
+    "Filme Hidrossolúvel",
+    "Bordado Flutuante",
+    "Marca de Bastidor (Hoop Burn)",
+    "Felpa Atoalhada",
+    "Ponto Satim em Felpa",
+    "Entretela Rasgável Limpa",
+    "Monograma Clássico"
+  ],
+  "tags": [
+    "t-110",
+    "toalhasdebanho",
+    "toalhaderosto",
+    "toalhadelavabo",
+    "atoalhado",
+    "felpa",
+    "hidrossoluvel",
+    "enxovalbanho",
+    "artrelados"
+  ]
 }
 ];

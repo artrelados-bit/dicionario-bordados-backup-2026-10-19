@@ -7150,5 +7150,74 @@ export const VERBETES_LETTER_J: Verbete[] = [
       "ARTRELADOS. Inovações Tecnológicas, Interatividade por Voz e Produtividade no Bordado Industrial. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-05"
+  },
+  {
+    "id": "j-jogos-de-cama-lencois-e-fronhas-percal-ajour",
+    "code": "J-104",
+    "letter": "J",
+    "term": "Jogos de Cama, Lençóis e Fronhas (Bordados em Percal Nobre, Cetim de Algodão & Ponto Ajour)",
+    "pronunciation": "jo-gus de ca-ma, len-sóis e fron-has (ˈʒɔɡuz dʒi ˈkɐmɐ)",
+    "level": "Intermediário 🟡",
+    "category": "Tipos de Tecidos",
+    "grammarClass": "Locução substantiva masculina composta.",
+    "origin": "Do latim 'iocus' (conjunto coordenado de peças de repouso) e do persa 'pargala' (tecido fino e nobre de algodão puro batido em alta densidade, originando a palavra 'percal').",
+    "summary": "Manual para bordar jogos de cama de alto padrão em percal 200 a 400 fios, fronhas com abas e viras de lençol com simulação eletrônica de ponto ajour.",
+    "definition": "O bordado em Jogos de Cama, Lençóis e Fronhas (Bedding & Pillowcase Embroidery / Enxovais de Alto Luxo em Percal e Cetim / Barrados Nobres de Cama) compreende a metodologia de projeto e execução de bordados decorativos sobre tecidos planos de alta densidade de fios (percal 200, 300 e 400 fios, cetim de algodão egípcio e puro linho). A técnica engloba a orientação invertida do bordado na vira do lençol (para que o desenho fique na posição correta quando a vira repousar dobrada sobre a colcha), a centralização simétrica nas abas das fronhas e a execução de bainhas vazadas computadorizadas inspiradas no clássico ponto ajour francês.",
+    "technicalDetails": "Tecidos nobres de percal e cetim de algodão possuem fios finíssimos e trama densamente batida. Requisitos técnicos cruciais: 1) Orientação da Vira do Lençol: o bordado deve ser digitalizado ou girado de cabeça para baixo no painel em relação à borda da bainha do lençol, pois quando a cama é arrumada, o lençol é dobrado em 180° para fora sobre o cobertor; 2) Agulha 70/10 Microtex ou Ponta Aguda Fina: agulhas grossas provocam rompimento de fibras microscópicas na trama do percal, gerando pequenos orifícios irreparáveis ao redor do bordado; 3) Entretela Rasgável Macia de 50 g/m² com remoção limpa para não deixar rigidez sob a cabeça do usuário na fronha; e 4) Simulação Eletrônica de Ponto Ajour: matriz com pontos corridos de amarração que abrem vãos simétricos imitando a tecelagem vazada manual.",
+    "beginnerExplanation": "Fazer um jogo de lençol bordado é o sonho de toda noiva! Mas tem um truque na vira do lençol que faz quase todo mundo errar na primeira vez: se você bordar o lençol do jeito normal, quando você dobrar a vira bonita para cima da colcha, o nome ou o desenho vai ficar de cabeça para baixo! O bordado da vira precisa ser feito virado para o lado contrário, para ficar perfeitamente de pé quando a cama estiver arrumada como em uma revista de decoração!",
+    "howItWorks": [
+      "1. Estende-se o lençol de cima na mesa e dobra-se a vira (cerca de 40 a 50 cm) exatamente como ela ficará arrumada na cama pronta.",
+      "2. Marca-se o centro geométrico da vira do lençol e o centro das abas das duas fronhas com caneta mágica removível com calor.",
+      "3. Gira-se a matriz em 180° para bordar na vira do lençol com a orientação correta de exibição.",
+      "4. Prende-se o tecido com entretela rasgável fina e macia no bastidor longo (16x26, 20x30 cm ou bastidor de repetição contínua).",
+      "5. Instala-se agulha nova ultrafina (calibre 70/10 Microtex) e linha de poliéster acetinada de toque suave.",
+      "6. A máquina executa o bordado floral, monograma nobre ou o ponto ajour eletrônico em velocidade suave (650 PPM).",
+      "7. Ao terminar, remove-se a entretela com delicadeza e passa-se o ferro a vapor para selar a trama e acomodar os pontos acetinados."
+    ],
+    "applications": [
+      "Enxovais de casamento sofisticados em percal 400 fios com monogramas entrelaçados nas fronhas e vira.",
+      "Jogos de cama temáticos para hotelaria de fazenda e pousadas históricas com ramos de oliveira e lavanda.",
+      "Lençóis de berço e mini-camas infantis com detalhes delicados em ponto ajour.",
+      "Fronhas avulsas com frases afetivas e personalizações para presentes de bodas."
+    ],
+    "characteristics": [
+      "Acabamento extremamente liso e sedoso que não incomoda o rosto no travesseiro.",
+      "Orientação geométrica correta quando a cama está estendida e arrumada.",
+      "Sensação de frescor e sofisticação visual digna de grandes marcas de decoração."
+    ],
+    "commonErrors": [
+      "❌ Bordar a vira do lençol com a matriz na posição normal: ao dobrar a vira sobre a cama, o bordado fica de cabeça para baixo.",
+      "❌ Usar entretela dura ou recortável áspera na fronha do travesseiro, tornando o tecido áspero e desagradável para o rosto na hora de dormir.",
+      "❌ Usar agulha grossa 90/14 em percal 300/400 fios: a agulha arrebenta os fios microscópicos do algodão, abrindo furos permanentes ao redor das letras."
+    ],
+    "troubleshootingTips": [
+      "Ficaram furinhos visíveis ao redor dos pontos cheios no percal: substitua imediatamente a agulha por uma Schmetz Microtex 70/10 novinha e aumente o espaçamento de pontos (reduza a densidade) para 0,44 mm.",
+      "O bordado ficou enrugado após passar o ferro: lave a peça para desmanchar a goma do tecido e aplique compensação de repuxo de 0,35 mm no software.",
+      "A vira do lençol ficou torta no bastidor: dobre a vira com o ferro de passar previamente para criar um vinco guia retilíneo e alinhe com as miras do gabarito do bastidor."
+    ],
+    "dicaArtrelados": "A regra de ouro da Artrelados para fronhas perfeitas: nunca borde no meio do travesseiro onde a pessoa apoia o rosto! O lugar nobre e correto de bordar a fronha é na aba lateral direita (no acabamento em envelope) ou na faixa superior. Fica extremamente elegante, a pessoa dorme com conforto macio e o bordado aparece com destaque absoluto nas fotos do quarto arrumado!",
+    "voceSabia": "Na tradição renascentista europeia dos séculos XVI e XVII, o enxoval de cama bordado de uma jovem nobre começava a ser preparado logo no seu nascimento, acumulando dezenas de lençóis de linho puro com monogramas heráldicos que serviam de herança familiar por gerações!",
+    "practicalExercise": "Pegue uma fronha de percal lisa. Encontre o centro da aba lateral. Posicione no bastidor 13x18 com entretela rasgável fina e agulha 70/10. Borde um monograma clássico com ramos florais. Coloque um travesseiro fofo dentro e veja como a fronha simples se transforma em um item de cama de hotel 5 estrelas!",
+    "quickSummary": "Procedimento de bordado de alto padrão em jogos de lençol e fronhas de percal com rotação correta da vira e agulhas ultrafinas para tecidos nobres.",
+    "relatedTerms": [
+      "Percal e Cetim de Algodão",
+      "Vira do Lençol",
+      "Agulha Microtex",
+      "Ponto Ajour Eletrônico",
+      "Fronha com Abas",
+      "Enxoval de Cama",
+      "Rotação 180 Graus"
+    ],
+    "tags": [
+      "j-104",
+      "jogosdecama",
+      "lencois",
+      "fronhas",
+      "percal",
+      "pontoajour",
+      "enxovalcama",
+      "altoluxo",
+      "artrelados"
+    ]
   }
 ];

@@ -8783,5 +8783,74 @@ export const VERBETES_LETTER_P: Verbete[] = [
       "WILCOM INTERNATIONAL. Advanced Shading & Color Blending Masterclass. Sydney, 2022.",
       "CHINESE SILK EMBROIDERY GUILD. Principles of Silk Shading & Needle Painting. Suzhou, 2019."
     ]
+  },
+  {
+    "id": "p-passadeiras-jogos-americanos-e-guardanapos-mesa-posta",
+    "code": "P-067",
+    "letter": "P",
+    "term": "Passadeiras, Jogos Americanos e Guardanapos (Mesa Posta com Renda Guipure & Quilting no Bastidor)",
+    "pronunciation": "pas-sa-dei-ras, jo-gus a-me-ri-ca-nus e guar-da-na-pus (pasaˈdejɾɐz ˈʒɔɡuz ameɾiˈkɐnuz)",
+    "level": "Intermediário 🟡",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva feminina composta.",
+    "origin": "Do termo latino 'passare' (estender um caminho contínuo de tecido sobre a mesa de refeições) e do conceito contemporâneo de 'Mesa Posta' (ritual de arte e hospitalidade gastronômica com jogos individuais e guardanapos refinados).",
+    "summary": "Guia completo para confeccionar e bordar jogos americanos acolchoados no bastidor, passadeiras de banquete com renda guipure e guardanapos de linho com canto mitrado.",
+    "definition": "A confecção e bordado de Passadeiras, Jogos Americanos e Guardanapos (Mesa Posta Eletrônica / Placemats, Table Runners & Napkins ITH / Enxovais Gastronômicos de Alto Padrão) é um dos segmentos mais valorizados da decoração têxtil contemporânea. Compreende a confecção de jogos americanos estruturados inteiramente no bastidor (In The Hoop) com técnicas de acolchoamento geométrico (Quilting / Stippling), a aplicação automatizada de rendas guipure e festonê nas bordas de passadeiras longas de mesa de jantar, e o bordado de monogramas elegantes no canto diagonal (a 45°) em guardanapos de puro linho, rami ou tricoline com cantos mitrados perfeitos.",
+    "technicalDetails": "A mesa posta exige estabilidade dimensional e simetria geométrica impecáveis para resistir a lavagens frequentes de molhos e gorduras. Diretrizes de engenharia têxtil: 1) Jogos Americanos ITH: sanduíche composto por tecido frontal, manta estruturante de baixa densidade (R1 ou feltro de 1 mm) e forro de tecido, unidos por paradas programadas e costura periférica em ponto triplo (Bean Stitch); 2) Guardanapos de Linho: bordados executados a 45° no canto diagonal a 6 cm da ponta mitrada para não interferir na dobra artística de mesa; 3) Agulha Schmetz 75/11 Microtex para linho e agulha 80/12 para passadeiras de sarja; 4) Compensação de Repuxo elevada para 0,40 mm em virtude da espessura da manta do quilting; e 5) Linhas de Poliéster Trilobal com alta resistência a produtos tira-manchas.",
+    "beginnerExplanation": "Mesa posta é a maior febre do artesanato e decoração! Todo mundo quer receber os amigos em casa com uma mesa linda, com jogos americanos acolchoados combinando com os guardanapos de pano. Você pode fazer o jogo americano inteirinho dentro do bastidor da sua máquina de bordar: ela faz aquele acolchoado fofo de losangos (quilting), costura a moldura e fecha tudo retinho. E nos guardanapos de linho, você borda a inicial da família no cantinho com um raminho verde. Fica um espetáculo de elegância!",
+    "howItWorks": [
+      "1. Para o jogo americano ITH: monta-se entretela rasgável no bastidor grande (18x30 cm, 20x30 cm ou 24x36 cm).",
+      "2. A máquina borda a marcação do contorno; posiciona-se a manta R1 e o tecido principal por cima.",
+      "3. A máquina borda o preenchimento de quilting geométrico acolchoando a peça.",
+      "4. Borda-se o elemento decorativo (monograma, floral ou arabesco temático).",
+      "5. Aplica-se o tecido do forro do verso direito com direito e a máquina fecha todo o contorno deixando abertura para desvirar.",
+      "6. Para guardanapos: dobra-se a ponta do guardanapo na diagonal a 45° e borda-se o monograma a 6 cm do bico no bastidor 10x10 cm.",
+      "7. Ao terminar, desviram-se as peças, fecham-se as aberturinhas com pesponto fino ou ponto invisível e passa-se a ferro com vapor morno."
+    ],
+    "applications": [
+      "Jogos americanos temáticos para Páscoa, Natal, casamentos e almoços de domingo em família.",
+      "Passadeiras compridas de centro de mesa (Table Runners) em linho rústico com bordados de folhas e renda.",
+      "Guardanapos de linho puro com monogramas personalizados para festas de noivado e bodas de ouro.",
+      "Kits de mesa posta corporativos para bistrôs, restaurantes estrelados e buffets de eventos."
+    ],
+    "characteristics": [
+      "Estrutura encorpada que repousa plana sobre a madeira ou vidro da mesa sem ondulações.",
+      "Acolchoamento uniforme proporcionado pelo quilting digital milimétrico.",
+      "Valor comercial elevado com kits vendidos em conjuntos de 6, 8 ou 12 lugares completos."
+    ],
+    "commonErrors": [
+      "❌ Usar manta muito espessa (como R2 de 200 g/m²) no jogo americano, deixando a peça parecendo um colchão duro onde os copos ficam instáveis e tombam.",
+      "❌ Bordar o guardanapo sem alinhamento diagonal a 45°, fazendo o monograma ficar torto quando o guardanapo é colocado dentro do porta-guardanapo.",
+      "❌ Usar linha de baixa solidez que solta tinta e desbota ao ser lavada com alvejante para retirar manchas de molho de tomate ou vinho."
+    ],
+    "troubleshootingTips": [
+      "O jogo americano ficou com ondas nas bordas após desvirar: corte o excesso da manta acrílica bem rente à costura interna antes de desvirar para reduzir o volume perimetral.",
+      "O linho do guardanapo repuxou e ficou franzido ao redor das letras: aumente a compensação de repuxo para 0,40 mm no software e utilize entretela recortável suave ou filme hidrossolúvel sob o tecido.",
+      "A taça de cristal fica bamba sobre o jogo americano: utilize manta plana de algodão puro prensada ou feltro fino de 1 mm em vez de mantas fofas volumosas."
+    ],
+    "dicaArtrelados": "O truque de mesa posta da Artrelados: borde o guardanapo pensando na dobra que a cliente vai usar! Se for usar com porta-guardanapo de argola, borde a 8 cm do bico da ponta diagonal. Quando o guardanapo é puxado pela argola, a inicial da família fica exatamente no centro da queda do tecido, como nas recepções de palácios europeus!",
+    "voceSabia": "O conceito de guardanapo individual de tecido foi popularizado pelo próprio gênio Leonardo da Vinci no século XV, quando trabalhava como mestre de banquetes na corte do Duque de Milão, substituindo o antigo e desagradável hábito medieval de limpar as mãos na toalha da mesa ou na roupa!",
+    "practicalExercise": "Pegue um quadrado de linho ou tricoline de 45x45 cm. Dobre a ponta na diagonal e monte no bastidor 10x10 cm com entretela rasgável e agulha 75/11. Borde uma inicial clássica com moldura redonda a 45°. Dobre em formato de triângulo ou passe por uma argola: admire o refinamento de uma mesa posta de novela!",
+    "quickSummary": "Metodologia completa de confecção no bastidor de jogos americanos acolchoados, passadeiras nobres e guardanapos refinados para mesa posta.",
+    "relatedTerms": [
+      "In The Hoop (ITH)",
+      "Quilting no Bastidor",
+      "Mesa Posta",
+      "Guardanapo de Linho",
+      "Renda Guipure",
+      "Canto Mitrado",
+      "Alinhamento a 45 Graus"
+    ],
+    "tags": [
+      "p-067",
+      "passadeiras",
+      "jogosamericanos",
+      "guardanapos",
+      "mesaposta",
+      "quilting",
+      "ith",
+      "linho",
+      "artrelados"
+    ]
   }
 ];
