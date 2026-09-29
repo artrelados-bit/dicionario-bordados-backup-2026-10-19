@@ -7213,5 +7213,73 @@ export const VERBETES_LETTER_E: Verbete[] = [
       "ARTRELADOS. O Segredo do Enxoval Perfeito: Como a Pré-Lavagem Evita Que Suas Peças Enruguem. São Paulo: Artrelados, 2024."
     ],
     "updatedAt": "2026-08-20"
+  },
+  {
+    "id": "e-enfeites-de-natal-e-pecas-festivas-ith",
+    "code": "E-055",
+    "letter": "E",
+    "term": "Enfeites de Natal e Peças Festivas no Bastidor (Pingentes ITH, Botinhas & Guirlandas Tridimensionais)",
+    "pronunciation": "en-fei-tes de na-tal e pe-sas fes-ti-vas nu bas-ti-dor (ẽˈfejtʃiz dʒi naˈtaw)",
+    "level": "Iniciante 🟢",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva masculina composta.",
+    "origin": "Do termo latino 'festivus' (alegre, solene, dedicado às festividades de fim de ano) conjugado com a técnica contemporânea de esculturas têxteis acolchoadas montadas no bastidor de bordar.",
+    "summary": "Guia completo para confecção automatizada no bastidor de pingentes para árvore de Natal, botinhas com punho de carneirinho e guirlandas festivas com enchimento macio.",
+    "definition": "A confecção de Enfeites de Natal e Peças Festivas no Bastidor (In The Hoop Christmas Ornaments & Stockings / Pingentes Festivos no Bastidor / Peças Sazonais Tridimensionais) compreende a metodologia digital para produzir ornamentos natalinos e comemorativos inteiramente na máquina de bordar. A técnica inclui o uso de tecidos nobres brilhantes (feltro prensado, lonita glitter, veludo vermelho e tecidos dourados), paradas programadas para colocação de alças de fitas metálicas ou cordões de cetim, bordados em fios metalizados (ouro e prata), aplicação de pelúcias tipo sherpa ou carneirinho nos punhos de botinhas natalinas e paradas para colocação de enchimento acrílico siliconado antes do fechamento perimétrico final.",
+    "technicalDetails": "Peças natalinas utilizam com frequência fios metálicos reflexivos e múltiplos relevos. Parâmetros técnicos indispensáveis: 1) Fio Metálico Ouro/Prata: agulha Schmetz Metallic calibre 80/12 ou 90/14 com olho ampliado e banho de níquel para evitar atrito térmico; velocidade reduzida para 550 a 650 PPM; 2) Alça de Suspensão: fita metálica de 6 mm dobrada em laço, posicionada com a alça virada para o interior do bastidor e as pontas para fora da margem da costura de contorno; 3) Enchimento no Bastidor: para pingentes fofinhos tridimensionais, a máquina faz uma parada de 30 segundos, a bordadeira introduz uma porção de fibra siliconada pela abertura antes da costura de fechamento; e 4) Ponto Cheio Festonê (Satin Edge) de 3,5 mm para arremate perfeito em feltro cortado a fio.",
+    "beginnerExplanation": "Fazer enfeite de Natal no bastidor é a época mais mágica e lucrativa do ateliê! Em 10 minutinhos, a máquina borda um Papai Noel, uma estrelinha ou um boneco de neve fofinho, costura a fitinha dourada de pendurar e fecha a pecinha. Você pode fazer dezenas de pingentes para enfeitar árvores de Natal, botinhas fofas para colocar doces e presentinhos na lareira e mini-guirlandas para presentear amigos, vizinhos e clientes!",
+    "howItWorks": [
+      "1. Monta-se entretela no bastidor e borda-se a linha de marcação guia do enfeite.",
+      "2. Posiciona-se o feltro, veludo ou tecido temático sobre a marcação.",
+      "3. A máquina borda o desenho natalino (Papai Noel, anjinho, árvore ou frase de Boas Festas) com detalhes dourados.",
+      "4. A máquina faz uma parada (Stop): dobra-se uma fitinha dourada ao meio e cola-se no topo virada para dentro.",
+      "5. Coloca-se o tecido do verso cobrindo tudo (direito com direito) ou cola-se pelo verso do bastidor.",
+      "6. A máquina costura todo o contorno com ponto triplo, deixando uma pequena abertura para desvirar ou costura com ponto cheio fechando o feltro a fio.",
+      "7. Retira-se do bastidor, desvira-se, preenche-se com um pouquinho de fibra siliconada e fecha-se a abertura."
+    ],
+    "applications": [
+      "Pingentes personalizados para árvores de Natal com os nomes dos membros da família.",
+      "Botinhas de Papai Noel com punho de carneirinho e nomes bordados para pendurar em lareiras e portas.",
+      "Marcadores de taça e porta-guardanapos natalinos para mesas de ceia em família.",
+      "Guirlandas de boas-vindas montadas com a união de múltiplos gomos acolchoados no bastidor."
+    ],
+    "characteristics": [
+      "Altíssimo apelo emocional que gera encomendas maciças entre setembro e dezembro.",
+      "Cores vibrantes realçadas por fios metálicos dourados e tecidos aveludados.",
+      "Aproveitamento integral de retalhos nobres que seriam descartados no ateliê."
+    ],
+    "commonErrors": [
+      "❌ Posicionar a fitinha de pendurar virada para fora do bastidor: ao desvirar a peça, a fitinha fica presa e costurada para dentro do enfeite.",
+      "❌ Bordar fio metálico em velocidade máxima de 1.000 PPM, partindo a linha dourada a cada 20 segundos.",
+      "❌ Encher o pingente com fibra siliconada demais no bastidor, fazendo o pé calcador colidir com o volume de enchimento e travar a máquina."
+    ],
+    "troubleshootingTips": [
+      "A linha metálica dourada está arrebentando toda hora: troque a agulha por uma Schmetz Metallic calibre 80/12, reduza a velocidade para 550 PPM e afrouxe ligeiramente a tensão da linha superior.",
+      "O feltro branco do Papai Noel ficou transparente e mostrando a entretela escura: utilize feltro de alta densidade (gramatura 200 g/m²) ou coloque duas camadas de feltro fino.",
+      "A pelúcia do punho da botinha engoliu os pontos do nome: coloque uma folha de plástico hidrossolúvel transparente sobre a pelúcia antes de bordar o nome."
+    ],
+    "dicaArtrelados": "O segredo de faturamento natalino da Artrelados: crie caixinhas de presentes em papel kraft com visor transparente contendo kits de 6 a 12 pingentes bordados combinando (árvore, floco de neve, estrela, sino, anjinho e bola de Natal). O kit tem valor percebido altíssimo e vende como água para presentes de Natal corporativos e lembrancinhas de amigos secretos!",
+    "voceSabia": "A tradição de pendurar enfeites na árvore de Natal começou na Alemanha no século XVI, onde as famílias decoravam pinheiros com maçãs vermelhas, nozes e bolachas de mel feitas à mão — o que inspirou os primeiros artesãos têxteis a criar enfeites fofinhos de pano bordados!",
+    "practicalExercise": "Pegue dois retalhos de feltro vermelho de 12x12 cm e um pedaço de fita dourada de 15 cm. Borde uma matriz simples de sininho ou árvore de Natal ITH no bastidor 10x10. Encaixe a fitinha, coloque o verso, passe a costura e corte com tesoura de picotar. Pendure e veja a magia do Natal ganhar vida no seu ateliê!",
+    "quickSummary": "Manual completo de confecção no bastidor de ornamentos natalinos acolchoados com fios metálicos, fitas embutidas e alta rentabilidade sazonal.",
+    "relatedTerms": [
+      "In The Hoop (ITH)",
+      "Fio Metálico (Ouro e Prata)",
+      "Agulha Metallic",
+      "Feltro Prensado",
+      "Pelúcia Sherpa / Carneirinho",
+      "Fibra Siliconada",
+      "Enfeites de Natal"
+    ],
+    "tags": [
+      "e-055",
+      "enfeitesdenatal",
+      "natalith",
+      "pingentesdenatal",
+      "botinhasdenatal",
+      "fiometalico",
+      "sazonal",
+      "artrelados"
+    ]
   }
 ];

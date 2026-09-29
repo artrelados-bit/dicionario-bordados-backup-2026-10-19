@@ -6181,5 +6181,74 @@ export const VERBETES_LETTER_A: Verbete[] = [
     "pantografo"
   ],
   "updatedAt": "2026-09-28"
+},
+{
+  "id": "a-almofadas-e-capas-decorativas-quilting",
+  "code": "A-108",
+  "letter": "A",
+  "term": "Almofadas e Capas Decorativas (Bordados Botânicos, Frases & Quilting Geométrico)",
+  "pronunciation": "al-mo-fa-das e ca-pas de-co-ra-ti-vas (awmuˈfadɐz i ˈkapɐz dekoɾaˈtʃivɐz)",
+  "level": "Intermediário 🟡",
+  "category": "Tipos de Tecidos",
+  "grammarClass": "Locução substantiva feminina composta.",
+  "origin": "Do árabe 'al-muhadda' (o apoio de bochecha, almofada de repouso e assento de honra nos palácios mouriscos), integrado na tapeçaria e decoração residencial contemporânea.",
+  "summary": "Guia completo de projeto e bordado para almofadas decorativas em sarja, veludo e linho com fundos acolchoados de quilting no bastidor e acabamento com zíper invisível.",
+  "definition": "O bordado em Almofadas e Capas Decorativas (Decorative Cushion & Pillow Cover Embroidery / Almofadas Bordadas com Quilting / Enxoval de Decoração para Salas e Quartos) é um dos segmentos mais nobres e lucrativos da decoração de interiores. Compreende o planejamento de grandes painéis centrais (35x35 cm a 50x50 cm) sobre tecidos pesados e encorpados (sarja peletizada de algodão, linho rústico misto, veludo suedine e lonita decorativa). A técnica associa bordados botânicos densos ou caligrafias elegantes a fundos acolchoados computadorizados (Stippling ou Quilting geométrico no bastidor) e montagem final com zíper invisível embutido ou fechamento tipo envelope transpassado.",
+  "technicalDetails": "Almofadas demandam alta estabilidade dimensional, pois o enchimento interno de fibra siliconada exerce constante pressão tridimensional para fora. Diretrizes de engenharia: 1) Estabilização de Painel: entretela rasgável pesada de 70 a 80 g/m² no verso combinada com manta acrílica R1 de 100 g/m² resinada para criar relevo acolchoado macio; 2) Compensação de Repuxo: calibrada em 0,40 mm a 0,45 mm para neutralizar a contração de grandes áreas de tatami e frases longas; 3) Agulha 80/12 ou 90/14 ponta afiada para tecidos encorpados ou ponta arredondada leve para veludos; 4) Centralização: marcação milimétrica do esquadro central considerando o desconto da margem de costura de 1,5 cm nas 4 bordas; e 5) Velocidade de Máquina: 650 a 750 PPM para garantir formação simétrica do quilting.",
+  "beginnerExplanation": "Almofada bordada é o item que todo mundo quer colocar no sofá da sala ou na cama para deixar a casa aconchegante e bonita! Como a almofada fica bem cheinha de fibra por dentro, o tecido estica. Por isso, você precisa usar uma entretela bem firme e colocar uma manta fininha por trás do tecido para o bordado ficar fofinho e em alto-relevo. A máquina borda flores lindas, frases de carinho ou desenhos geométricos que parecem de loja de shopping de alto padrão!",
+  "howItWorks": [
+    "1. Corta-se o quadrado de tecido frontal da capa com 3 a 4 cm a mais que o tamanho final da almofada (ex: 45x45 cm para almofada 40x40 cm).",
+    "2. Passa-se a ferro a manta acrílica R1 no avesso do tecido principal para fixação térmica preliminar.",
+    "3. Encaixa-se entretela rasgável pesada no bastidor grande (16x26 cm, 20x30 cm ou maior) e apoia-se o tecido centralizado.",
+    "4. A máquina borda primeiramente a textura de acolchoamento de fundo (Quilting / Stippling leve).",
+    "5. Na sequência, a máquina executa o bordado decorativo central (ramos botânicos, monograma ou caligrafia).",
+    "6. Ao terminar, retira-se a peça do bastidor, rasga-se o excesso de entretela no verso e refila-se o quadrado na medida exata.",
+    "7. Junta-se a frente com os tecidos traseiros, costura-se o zíper invisível na barra inferior, desvira-se e insere-se o refil de enchimento."
+  ],
+  "applications": [
+    "Almofadas temáticas para salas de estar com motivos botânicos, costela-de-adão e florais contemporâneos.",
+    "Almofadas comemorativas para quarto de bebê com o nome da criança e dados de nascimento.",
+    "Almofadas sazonais de Natal com árvores estilizadas, renas e mensagens de paz em fios dourados.",
+    "Conjuntos de varanda e áreas gourmet com tecidos impermeáveis (Acquablock) e bordados náuticos."
+  ],
+  "characteristics": [
+    "Relevo tátil sofisticado que ressalta os pontos sem afundar na textura da almofada.",
+    "Resistência mecânica ao atrito diário de encosto nas costas e lavagens periódicas.",
+    "Simetria milimétrica perfeita entre o centro do desenho e as margens da capa."
+  ],
+  "commonErrors": [
+    "❌ Centralizar o bordado sem descontar a margem da costura de fechamento: ao costurar a capa, o bordado fica torto ou muito próximo da barra inferior.",
+    "❌ Bordar em veludo sem filme hidrossolúvel de topo: as cerdas aveludadas escapam pelos pontos e o bordado perde a nitidez.",
+    "❌ Usar entretela muito fina em almofada de linho: o tecido franze e forma ondas feias ao redor do desenho quando o refil é colocado."
+  ],
+  "troubleshootingTips": [
+    "O centro da almofada ficou enrugado após colocar o enchimento: aumente a compensação de repuxo para 0,45 mm no software e use uma camada de manta acrílica R1 prensada sob o tecido.",
+    "O veludo ficou marcado e esmagado pelo bastidor: utilize a técnica do bastidor flutuante com spray adesivo temporário e use vapor morno no avesso para erguer o pelo do tecido.",
+    "O zíper comum ficou repuxando a borda da almofada: substitua por zíper invisível costurado com sapatilha especial de costura embutida."
+  ],
+  "dicaArtrelados": "O truque dos 4 cantos perfeitos da Artrelados: corte as pontinhas dos 4 cantos do tecido da almofada levemente arredondadas (com 5 mm de redução para fora). Quando você colocar o refil fofo de enchimento dentro, as 4 pontas da almofada não ficam com aquelas 'orelhas vazias' e a almofada fica 100% estufada e firme como as de vitrines de decoração europeias!",
+  "voceSabia": "Na corte imperial da França do século XVIII, almofadas bordadas à mão com fios de ouro e prata eram chamadas de 'carreaux' e serviam como assentos hierárquicos: apenas duquesas e princesas reais tinham a honra protocolar de sentar-se sobre uma almofada bordada diante do Rei Sol Luís XIV!",
+  "practicalExercise": "Pegue um quadrado de sarja ou linho de 45x45 cm e uma manta R1. Borde no bastidor 18x30 um ramo de folhagens com frase em ponto satim e tatami. Monte a parte traseira com fechamento em envelope (transpassado sem zíper). Coloque uma almofada de fibra dentro e sinta o aconchego imediato da sua nova peça de decoração!",
+  "quickSummary": "Procedimento completo de bordado e acolchoamento no bastidor para almofadas decorativas em tecidos nobres com acabamento invisível de alta durabilidade.",
+  "relatedTerms": [
+    "Quilting no Bastidor",
+    "Manta Acrílica R1",
+    "Zíper Invisível",
+    "Bordado Botânico",
+    "Compensação de Repuxo",
+    "Fechamento em Envelope",
+    "Bordado Flutuante em Veludo"
+  ],
+  "tags": [
+    "a-108",
+    "almofadas",
+    "capasdecorativas",
+    "decoracao",
+    "quilting",
+    "botanico",
+    "sarja",
+    "veludo",
+    "artrelados"
+  ]
 }
 ];

@@ -6031,5 +6031,73 @@ export const VERBETES_LETTER_Q: Verbete[] = [
     "quickSummary": "As dicas de saúde, cadeira confortável e iluminação perfeita para você bordar o dia todo sem dores no corpo e sem cansar a vista.",
     "beginnerExplanation": "Cuidar de você é a parte mais importante de todo o ateliê! Ter uma boa cadeira com apoio para as costas, uma luz bem clarinha que mostre as cores reais das linhas sem cansar os olhos e fazer pequenas pausas para se esticar e tomar água garante que você borde com prazer e saúde por muitos e muitos anos!",
     "updatedAt": "2026-08-29"
+  },
+  {
+    "id": "q-quadros-e-bastidores-decorativos-hoop-art",
+    "code": "Q-101",
+    "letter": "Q",
+    "term": "Quadros e Bastidores Decorativos Hoop Art (Bordados Emoldurados no Próprio Aro de Madeira)",
+    "pronunciation": "qua-drus e bas-ti-do-res de-co-ra-ti-vos rup art (ˈkwadɾuz i bastʃiˈdoɾiz hup aʁt)",
+    "level": "Iniciante 🟢",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva masculina composta.",
+    "origin": "Do inglês 'hoop' (aro circular de bordar) e 'art' (arte decorativa visual), movimento artístico contemporâneo que ressignificou o bastidor de madeira de mero suporte técnico para moldura nobre de parede.",
+    "summary": "Técnicas de composição, bordado e acabamento traseiro com fuxico e feltro para transformar aros circulares de madeira e bambu em quadros decorativos de parede.",
+    "definition": "A confecção de Quadros e Bastidores Decorativos Hoop Art (Hoop Art Embroidery / Quadros em Bastidor de Parede / Emolduramento em Aro Circular) é uma das formas de arte têxtil mais apreciadas no artesanato moderno e na decoração afetiva. Compreende o planejamento de bordados calibrados rigorosamente para o formato geométrico de círculos ou ovais, bordados sobre tecidos rústicos e nobres (algodão cru, linho puro, etamine e sarja lavada), e emoldurados permanentemente no próprio aro externo de madeira nobre ou bambu com ferragem de latão, recebendo fechamento traseiro limpo com fuxico pregueado e acabamento em feltro.",
+    "technicalDetails": "O formato circular impõe desafios de tensão centrípeta e simetria de horizonte. Parâmetros técnicos indispensáveis: 1) Gabaritagem Circular na Matriz: inclusão de um círculo guia no software com diâmetro 10 mm menor que a abertura interna do bastidor de moldura para garantir margem de respiro harmônica; 2) Tensão de Tambor sem Distorção: o tecido deve ser esticado de maneira uniforme em cruz (eixos X e Y) para que a trama de algodão cru não fique diagonalmente torcida; 3) Entretela Rasgável Suave de 50 g/m² no verso, retirada cuidadosamente após o bordado; 4) Fechamento Traseiro em Fuxico: o excesso de tecido circular (sobra de 3 a 4 cm além do aro) é franzido no verso com linha de pipa encerada e arrematado; e 5) Tampa Traseira de Feltro recortada na medida exata do aro e fixada com cola quente ou ponto invisível caseado à mão.",
+    "beginnerExplanation": "Hoop Art é quando o próprio bastidorzinho redondinho de madeira vira o quadrinho para pendurar na parede! Em vez de você tirar o bordado do bastidor para costurar em uma toalha ou roupa, você deixa o tecido esticadinho no aro de bambu com aquele parafuso dourado lindo para cima. A máquina borda um desenho delicado (como flores, o nome de um bebê ou um retrato estilizado) e você só corta o excesso de pano por trás e cola um feltro bonitinho para esconder os pontos. Fica uma fofura sem igual para decorar quartinhos infantis e ateliês!",
+    "howItWorks": [
+      "1. Define-se o tamanho do aro de moldura de madeira ou bambu (ex: 14 cm, 16 cm, 20 cm ou 25 cm de diâmetro).",
+      "2. No software, programa-se o bordado respeitando a margem circular de 1,5 cm em relação à borda do aro.",
+      "3. Borda-se a arte em algodão cru ou linho no bastidor comum da máquina com entretela leve.",
+      "4. Retira-se da máquina, rasga-se a entretela do avesso e passa-se o tecido com ferro a vapor pelo avesso sobre toalha macia.",
+      "5. Encaixa-se o tecido no bastidor de madeira definitivo, esticando como uma pele de tambor bem firme e apertando o parafuso metálico.",
+      "6. Corta-se a sobra de tecido circular a 3 cm da borda externa do aro e passa-se uma linha forte de alinhavo para franzir tudo para trás.",
+      "7. Recorta-se um círculo de feltro na cor do tecido e cola-se com cola quente nas bordas internas para fechar o avesso com perfeição."
+    ],
+    "applications": [
+      "Portas de maternidade personalizadas com o nome do recém-nascido e flores em aquarela têxtil.",
+      "Composições de parede para salas de estar (galerias de bastidores com temas botânicos e frases).",
+      "Lembranças de casamento com a data das bodas e brasão do casal gravado em tecido rústico.",
+      "Decorações de quartos infantis com animais do bosque, passarinhos e constelações estelares."
+    ],
+    "characteristics": [
+      "Acabamento rústico-chique de alta aceitação em decorações de estilo Boho, Escandinavo e Farmhouse.",
+      "Peça de baixíssimo custo de produção e altíssimo valor agregado emocional.",
+      "Avesso 100% lacrado e limpo que não acumula poeira nem expõe os nós de linha."
+    ],
+    "commonErrors": [
+      "❌ Esticar o tecido no aro puxando apenas de um lado: o desenho redondo fica ovalado e a trama do tecido fica torta e visível.",
+      "❌ Deixar as sobras de tecido aparecendo por trás do aro sem fechamento em feltro, transmitindo aspecto inacabado e desleixado para o cliente.",
+      "❌ Usar aros de madeira farpada ou com parafusos frouxos que não seguram a tensão do tecido e deixam o quadro frouxo com o tempo."
+    ],
+    "troubleshootingTips": [
+      "O tecido ficou frouxo e com barriga no aro de madeira após alguns dias: solte levemente o parafuso, puxe as abas em cruz de maneira uniforme até soar como tambor e aperte o parafuso com auxílio de uma chave de fenda.",
+      "A cola quente vazou e manchou a borda do tecido: use cola de silicone fria ou faça a costura do feltro traseiro à mão em ponto caseado delicado.",
+      "O algodão cru ficou com rugas ao redor do ponto cheio: aumente a compensação de repuxo para 0,40 mm no software e use uma entretela de algodão termocolante no verso antes de bordar."
+    ],
+    "dicaArtrelados": "O acabamento de grife da Artrelados para Hoop Art: amarre um laço de fita de gorgurão rústica ou fita de veludo no parafuso superior de latão do bastidor e deixe duas pontas caídas graciosamente pelas laterais. O bastidor ganha um ar romântico europeu irresistível que faz a peça vender antes mesmo de você anunciar!",
+    "voceSabia": "A prática do Hoop Art moderno nasceu na Inglaterra no início dos anos 2000, impulsionada pelo movimento 'Craftivism' (artesanato com ativismo poético), onde artistas têxteis começaram a expor seus bordados diretamente nos aros de madeira em feiras de arte contemporânea de Londres!",
+    "practicalExercise": "Pegue um bastidorzinho redondo de madeira de 16 cm que você tenha no ateliê. Borde um monograma delicado em algodão cru ou linho rústico. Encaixe no aro de madeira definitivo, alinhave o verso em fuxico e cole um círculo de feltro no fundo. Pendure na parede do seu ateliê e admire a beleza da arte em bastidor!",
+    "quickSummary": "Metodologia para criar quadros decorativos de parede emoldurados no próprio aro circular de madeira com tensão de tambor e acabamento limpo no verso.",
+    "relatedTerms": [
+      "Aro de Madeira / Bambu",
+      "Hoop Art",
+      "Fuxico de Arremate Traseiro",
+      "Tensão de Tambor",
+      "Algodão Cru e Linho",
+      "Porta de Maternidade",
+      "Acabamento em Feltro"
+    ],
+    "tags": [
+      "q-101",
+      "quadrosdecorativos",
+      "bastidoresdecorativos",
+      "hoopart",
+      "portadematernidade",
+      "arosdemadeira",
+      "decoracaoafetiva",
+      "artrelados"
+    ]
   }
 ];
