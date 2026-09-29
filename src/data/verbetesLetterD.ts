@@ -7618,5 +7618,73 @@ export const VERBETES_LETTER_D: Verbete[] = [
       "ARTRELADOS. O Fim das Agulhas Quebradas em Costuras Grossas: Segredos de Deflexão e Dureza. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-16"
+  },
+  {
+    "id": "d-digitalizacao-por-zonas-e-alinhamento-multi-bastidor",
+    "code": "D-106",
+    "letter": "D",
+    "term": "Digitalização por Zonas e Alinhamento Multi-Bastidor (Divisão Setorizada de Grandes Matrizes)",
+    "pronunciation": "di-ji-ta-li-za-ção por zo-nas e a-li-nha-men-tu mul-ti bas-ti-dor (didʒitaliˈzasɐ̃w)",
+    "level": "Avançado 🔴",
+    "category": "Programação de Bordado",
+    "grammarClass": "Locução substantiva feminina composta.",
+    "origin": "Do latim 'digitalis' (relativo aos dígitos e coordenadas numéricas) somado ao grego 'zone' (faixa ou setor delimitado espacialmente).",
+    "summary": "Técnica de programação e divisão de matrizes gigantes em setores independentes conectados por marcas de registro de ponto cruz para montagem em múltiplos bastidores.",
+    "definition": "A Digitalização por Zonas e Alinhamento Multi-Bastidor (Zone Digitizing / Segmentação de Grandes Matrizes / Sectional Hoop Digitizing / Split Embroidery Design) é a metodologia avançada de programação e edição vetorial na qual uma matriz de dimensões superiores ao campo máximo do bastidor da máquina (como toalhas de banquete, jaquetas com bordado costas inteiras, vestidos litúrgicos e estandartes) é planejada e seccionada em zonas contíguas. Cada zona é bordada em uma etapa com recolocação do bastidor, e o desenho utiliza pontos de ancoragem e costuras de cruzamento projetadas para ocultar completamente as linhas de junção.",
+    "technicalDetails": "Ao dividir uma matriz em zonas, o digitador não deve realizar cortes retos que atravessem áreas de ponto tatami ou satim, pois a retração têxtil inevitável (Push and Pull effect) gerará uma fresta branca visível entre os bastidores. A técnica exige: 1) posicionamento da linha de separação ao longo de contornos naturais do desenho (folhas, linhas de arabescos, sombras); 2) inclusão de cruzes de registro ou pontos de alinhamento (Alignment Marks / Registration Crosses) bordados nos quatro cantos da zona 1 para coincidir com a agulha na montagem da zona 2; 3) sobreposição de segurança (Overlap) de 1,5 mm a 2,0 mm entre os setores vizinhos; e 4) estabilização reforçada com entretelas de corte reto bidirecionais.",
+    "beginnerExplanation": "É o segredo dos bordados gigantes! Quando você tem uma máquina com bastidor de 13x18 cm, mas o cliente quer um bordado de 40 cm nas costas de uma jaqueta, você divide o desenho em 'pedaços de quebra-cabeça' no computador. Em cada pedaço você coloca uma marquinha em formato de cruzinha. Ao terminar a primeira parte, você muda o bastidor de lugar, mira a agulha na cruzinha e borda a segunda parte. O resultado final parece feito em um bastidor gigante, sem nenhuma emenda aparente!",
+    "howItWorks": [
+      "1. O programador importa a arte em tamanho real (ex.: 35x25 cm) para a área de trabalho do software.",
+      "2. Ativa as grades de visualização dos bastidores disponíveis e divide o projeto em Zona 1, Zona 2 e Zona 3.",
+      "3. Oculta a linha de separação através de curvas orgânicas ou contornos de folhas e elementos vazados.",
+      "4. Programa uma cruzinha de alinhamento com ponto corrido no final da Zona 1 e uma igualzinha no início da Zona 2.",
+      "5. Aplica uma sobreposição suave de 1,5 mm na transição entre os preenchimentos para compensar o repuxo têxtil.",
+      "6. Na máquina, borda a Zona 1; depois solta a peça, encaixa no segundo ponto com auxílio do gabarito plástico e da cruzinha.",
+      "7. Borda a Zona 2: os pontos se entrelaçam e a emenda desaparece como mágica aos olhos do observador."
+    ],
+    "applications": [
+      "Costas inteiras de jaquetas jeans, jaquetas de motociclistas e quimonos.",
+      "Barrados contínuos de toalhas de banho, lençóis e toalhas de mesa de festas.",
+      "Estandartes religiosos, bandeiras solenes e mantos litúrgicos de grandes dimensões.",
+      "Criação de projetos com visual industrial em máquinas de bordar domésticas de bastidores menores."
+    ],
+    "characteristics": [
+      "Divisão inteligente com linhas de corte sinuosas e imperceptíveis.",
+      "Pontos de registro visual com tolerância de encaixe milimétrica.",
+      "Sobreposição de compensação anti-frestas (Overlap) calculada por tipo de tecido."
+    ],
+    "commonErrors": [
+      "❌ Fazer um corte reto no meio de um rosto ou de uma letra em ponto satim, deixando uma emenda torta e grosseira na peça pronta.",
+      "❌ Esquecer de programar as marcas de registro (cruzes de alinhamento), dependendo apenas do 'olhômetro' para encaixar o segundo bastidor.",
+      "❌ Usar entretela rasgável simples em bordados multi-bastidor, fazendo o tecido esticar e as emendas se desencontrarem completamente."
+    ],
+    "troubleshootingTips": [
+      "Ficou um vão aberto (fresta de tecido cru) entre a Zona 1 e a Zona 2: adicione uma sobreposição (Overlap) de pelo menos 2,0 mm no software e aumente a gramatura da entretela para 80 g/m² com fixação firme.",
+      "A cruzinha de alinhamento ficou 3 mm fora do lugar ao prender o segundo bastidor: use a função de rotação e setas de deslocamento do painel da máquina para sobrepor a ponta da agulha exatamente no centro da cruz antes de apertar o start.",
+      "A marca de alinhamento em linha preta ficou visível no bordado final: programe a cruz de registro com linha hidrossolúvel ou utilize cor de linha idêntica ao tecido e remova com desmanchador de costura após o término."
+    ],
+    "dicaArtrelados": "Para nunca errar o encaixe de bordados em várias zonas: use a caneta mágica que apaga com calor (caneta fantasminha) e uma régua acrílica. Marque uma linha reta suave de referência no tecido passando pelas cruzinhas antes de tirar do primeiro bastidor. Quando prender o tecido para a segunda etapa, alinhe a linha do tecido com o riscador do gabarito do bastidor. O encaixe sai 100% perfeito!",
+    "voceSabia": "Os tapeceiros medievais já usavam o princípio da digitalização por zonas: as famosas tapeçarias de castelos de mais de 10 metros de comprimento eram divididas em faixas de meio metro bordadas por diferentes ateliês e unidas posteriormente com costuras invisíveis pelas mãos dos mestres costureiros!",
+    "practicalExercise": "Crie no seu software um desenho retangular simples de 20x10 cm. Divida-o ao meio em dois blocos de 10x10 cm. Insira uma cruz de alinhamento em ponto corrido no canto inferior direito do bloco 1 e no canto inferior esquerdo do bloco 2. Borde o primeiro bloco em um retalho de tecido, reposicione o bastidor e use a cruz para guiar a costura do segundo bloco.",
+    "quickSummary": "Método avançado de segmentação de matrizes gigantes em setores com pontos de registro que permite bordar peças enormes em vários bastidores.",
+    "relatedTerms": [
+      "Multi-Bastidor",
+      "Gabarito de Bastidor",
+      "Registration Marks",
+      "Compensação de Repuxo",
+      "Push and Pull",
+      "Bordado Gigante",
+      "Software de Matrizes"
+    ],
+    "tags": [
+      "d-106",
+      "digitalizacaoporzonas",
+      "multibastidor",
+      "alinhamento",
+      "emenda",
+      "matrizesgigantes",
+      "programacao",
+      "tecnica"
+    ]
   }
 ];

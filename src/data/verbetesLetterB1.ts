@@ -3804,5 +3804,211 @@ export const VERBETES_LETTER_B1: Verbete[] = [
       "ARTRELADOS. Bonés Perfeitos na Máquina Doméstica: O Guia Definitivo do Bastidor 13x18 com Presilha Borboleta. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-16"
+  },
+  {
+    "id": "b-babador-e-prendedor-de-chupeta-acessorios-infantis",
+    "code": "B-115",
+    "letter": "B",
+    "term": "Babador e Prendedor de Chupeta (Babetes Infantis & Acessórios no Bastidor ITH)",
+    "pronunciation": "ba-ba-dor e pren-de-dor de chu-pe-ta (babaˈdoɾ e pɾẽdeˈdoɾ dʒi ʃuˈpɛta)",
+    "level": "Iniciante 🟢",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva masculina composta.",
+    "origin": "Do francês arcaico 'bave' (saliva infantil, originando o termo português 'babete' e 'babador'), conjugado com o sistema moderno de fitas salva-chupetas confeccionadas no bastidor (In The Hoop) com fecho tipo jacaré e botões de pressão plásticos (Ritas/Kam).",
+    "summary": "Guia técnico para bordar e confeccionar babadores atoalhados e prendedores de chupeta com segurança pediátrica, impermeabilização e toque ultra-macio.",
+    "definition": "O Babador e Prendedor de Chupeta (Babetes Pediátricos / Baby Bibs & Pacifier Clips ITH / Acessórios Infantis de Alimentação Bordados) compreende a metodologia de bordado e montagem no bastidor de peças utilitárias destinadas à primeira infância. O processo engloba a seleção de tecidos hipoalergênicos (atoalhado 100% algodão, piquet favo, tricoline e camada interna impermeável de plástico siliconado ou nylon resinado), bordados com pontos suaves e arremates reforçados anti-desfiamento que resistam a dezenas de lavagens diárias em água quente, além da confecção de alças com travas de pressão seguras para evitar desprendimento de miçangas ou engasgos.",
+    "technicalDetails": "Ao confeccionar babadores e prendedores de chupeta na máquina de bordar, o digitador e a bordadeira devem respeitar 4 normas técnicas essenciais: 1) Densidade Reduzida: satim entre 0,42 mm e 0,46 mm para não criar uma 'placa dura' no peito do bebê que cause atrito no queixo; 2) Camada Impermeável Interna: o plástico impermeável deve ser fixado após o bordado do desenho principal ou em técnica sanduíche para não ser furado excessivamente pela agulha; 3) Linhas de Poliéster Trilobal 100% com Certificação OEKO-TEX: isentas de metais pesados e corantes tóxicos, suportando salivação e lavagem com alvejantes à base de oxigênio; e 4) Arremate de Fitas (Box X-Stitch): a fita de gorgurão do prendedor de chupeta exige costura em 'X' dentro de um quadrado com ponto triplo, suportando até 10 kgf de tração mecânica conforme normas de segurança infantil (NBR/EN).",
+    "beginnerExplanation": "É a peça mais vendida para chá de bebê e enxovais! Um babador fofinho com o nome do bebê bordado e o prendedorzinho combinando com a chupeta. O grande segredo é que o bordado não pode ficar duro nem arranhar o pescocinho da criança. Usamos tecidos macios como toalhinha de algodão por fora, um plastiquinho escondido por dentro para a papinha não molhar a roupinha, e uma proteção macia no avesso para não pinicar a pele sensível!",
+    "howItWorks": [
+      "1. Monta-se entretela rasgável de 60 g/m² no bastidor e borda-se a linha guia do formato do babador.",
+      "2. Posiciona-se o tecido atoalhado ou piquet sobre a entretela com spray temporário ou fita adesiva.",
+      "3. A máquina borda o monograma ou desenho infantil com linha de poliéster macia e agulha 70/10 ponta bola.",
+      "4. Ao terminar o bordado decorativo, vira-se o bastidor e aplica-se o forro impermeável e o tecido de verso (direito com direito).",
+      "5. A máquina passa a costura de fechamento periférica em ponto reto triplo, deixando uma abertura de 5 cm na lateral para desvirar.",
+      "6. Retira-se a peça do bastidor, desvira-se com a ajuda de um virador de pontas e fecha-se a aberturinha com pesponto fino.",
+      "7. Aplica-se o botão de pressão plástico tipo Ritas na aba do pescoço com alicate de pressão."
+    ],
+    "applications": [
+      "Kits de maternidade personalizados com babador bandana e prendedor de chupeta combinando.",
+      "Babetes com bolso cata-migalhas impermeável para a fase de introdução alimentar.",
+      "Babadores de festa com renda de algodão e monogramas dourados para batizados.",
+      "Prendedores de chupeta temáticos com bichinhos bordados no bastidor em feltro ou sintético."
+    ],
+    "characteristics": [
+      "Toque suave sem aspereza contra a pele sensível do queixo e pescoço infantil.",
+      "Resistência a lavagens repetidas sem encolhimento assimétrico entre as camadas.",
+      "Segurança mecânica certificada nos fechos e fitas conforme normas pediátricas."
+    ],
+    "commonErrors": [
+      "❌ Usar botões de metal comuns que oxidam e soltam ferrugem ao entrar em contato com a baba do bebê; use sempre botões de resina plástica de alta qualidade.",
+      "❌ Deixar entretela rasgável comum pinicando no avesso do bordado em contato com o peito da criança.",
+      "❌ Bordar com densidade muito pesada em cima de plástico impermeável, cortando o plástico como uma serra e inutilizando a barreira contra líquidos."
+    ],
+    "troubleshootingTips": [
+      "O babador ficou torto e repuxado após desvirar: diminua a tensão da linha de fechamento e faça pequenos piques em 'V' nas curvas com a tesourinha antes de desvirar para acomodar as costuras perfeitamente.",
+      "O plástico impermeável furou e vazou a baba: nunca borde o desenho através do plástico; borde apenas no tecido externo e adicione a camada plástica somente na última etapa de fechamento.",
+      "O ponto satim afundou na felpa do atoalhado do babador: aplique uma folha de plástico hidrossolúvel por cima da toalha antes de iniciar o bordado."
+    ],
+    "dicaArtrelados": "O truque de mestre da Artrelados para babadores tipo bandana: corte o tecido sempre no sentido do viés (diagonal a 45° da trama). Isso dá um caimento maleável e perfeito no peitinho do bebê, sem criar aquele 'bolotão' duro sob o queixo, fazendo o produto parecer de marca internacional de grife!",
+    "voceSabia": "O modelo de 'babador bandana' foi inventado nos países nórdicos (Noruega e Dinamarca) para que os bebês pudessem usá-lo o dia todo como acessório de moda e aquecedor de garganta, além de manter o peito seco durante a fase de nascimento dos dentes!",
+    "practicalExercise": "Pegue um retalho de atoalhado de 25x25 cm. No bastidor 13x18, borde um ursinho simples com um nome infantil. Aplique um forro de tricoline no verso, desvire e instale um botão de pressão plástico. Dê de presente ou fotografe para o portfólio: você verá como os pedidos de kits infantis começam a surgir imediatamente!",
+    "quickSummary": "Manual completo de bordado e montagem de babetes e prendedores de chupeta com segurança pediátrica, impermeabilidade e avesso macio.",
+    "relatedTerms": [
+      "In The Hoop (ITH)",
+      "Bordado em Atoalhado",
+      "Filme Hidrossolúvel",
+      "Botão de Pressão Plástico",
+      "Agulha Ponta Bola",
+      "Entretela de Proteção (Soft Touch)",
+      "Ponto Triplo (Bean Stitch)"
+    ],
+    "tags": [
+      "b-115",
+      "babador",
+      "babete",
+      "prendedordechupeta",
+      "linha-bebe",
+      "enxoval",
+      "ith",
+      "infantil",
+      "artrelados"
+    ]
+  },
+  {
+    "id": "b-body-e-macacao-infantil-bordados-em-malha",
+    "code": "B-116",
+    "letter": "B",
+    "term": "Body e Macacão Infantil (Bordados em Suedine & Malhas com Proteção Suave de Avesso)",
+    "pronunciation": "bó-di e ma-ca-cão in-fan-til (ˈbɒdi e makaˈsɐ̃w ĩfɐ̃ˈtiw)",
+    "level": "Intermediário 🟡",
+    "category": "Tipos de Tecidos",
+    "grammarClass": "Locução substantiva masculina composta.",
+    "origin": "Do inglês 'bodysuit' (vestimenta elástica inteiriça ajustada ao tronco) e do francês 'maquereau/casaque' (macacão protetor), consagrados como as roupas básicas mais usadas no enxoval de recém-nascidos no mundo inteiro.",
+    "summary": "Técnicas de estabilização sem deformação para bordar bodies e macacões de malha suedine 100% algodão, com aplicação de película termocolante protetora no avesso.",
+    "definition": "O Body e Macacão Infantil (Bordado em Malha Suedine / Infant Bodysuit & Romper Embroidery / Personalização de Roupinhas de Bebê) é a arte e ciência de bordar peças prontas de vestuário elástico infantil confeccionadas em malhas finas (suedine egípcio, ribana, malha penteada e interlock). Exige estabilização avançada com entretelas recortáveis suaves (Cutaway Soft), bastidores compactos ou dispositivos magnéticos para não esticar a gola americana (envelope), uso de agulhas ultrafinas com ponta bola leve e aplicação obrigatória de película termofusível de toque macio (Soft Backing / Protege-Pele) no verso para evitar dermatites de contato na pele do recém-nascido.",
+    "technicalDetails": "O suedine de algodão possui estrutura de malha dupla com alta elasticidade transversal e baixa densidade linear (180 a 220 g/m²). Se preso no bastidor esticado, a peça sofre deformação permanente ('boca de sino' ou barriga no peito). Parâmetros ideais: 1) Agulha Schmetz ou Organ 130/705H SUK calibre 65/9 ou 70/10 com ponta bola fina para afastar as laçadas do fio sem cortar as fibras; 2) Compensação de Repuxo elevada para 0,40–0,45 mm na matriz para compensar a maleabilidade da malha; 3) Velocidade reduzida para 550 a 650 PPM; 4) Underlay aberto de pontos corridos paralelos (Edge Run) com Tatami aberto de 3,5 mm; e 5) Termofixação de película de malha protetora 100% poliamida no avesso a 130°C por 8 segundos após a finalização.",
+    "beginnerExplanation": "Bordar body de bebê é o sonho de quase toda bordadeira, mas dá um medinho no começo porque o tecido é uma malhinha molinha que estica para todo lado! O segredo de ouro é: nunca estique o body no bastidor. Deixe a entretela bem esticadinha e pouse o body por cima bem relaxado. E o mais importante: depois de tirar da máquina, passe um pedacinho de tecido termocolante fofinho no verso com ferro morno para cobrir todos os pontinhos da linha. O avesso fica macio como nuvem e não arranha a pele do bebê!",
+    "howItWorks": [
+      "1. Vira-se o body ao avesso e abre-se a abertura das pernas ou botões de pressão para liberar a frente.",
+      "2. Prende-se a entretela recortável macia de 50 g/m² (Cutaway suave) no bastidor compacto (10x10 ou 13x18).",
+      "3. Aplica-se uma névoa levíssima de cola spray temporária na entretela e posiciona-se a frente do body sem esticar as fibras.",
+      "4. Encaixa-se o restante do tecido do body (costas e mangas) por baixo ou ao redor do pantógrafo, prendendo com presilhas plásticas para não ser costurado por engano.",
+      "5. A máquina borda o desenho em velocidade controlada com agulha ponta bola fina 70/10.",
+      "6. Ao terminar, retira-se o bastidor, apara-se a entretela recortável em formato arredondado a 5 mm do bordado.",
+      "7. Corta-se um pedaço de entretela de proteção termofusível (Soft Touch) e passa-se com o ferro morno sobre o avesso por 8 segundos."
+    ],
+    "applications": [
+      "Bodies de 'mesversário' personalizados com bichinhos, números e nomes do bebê.",
+      "Macacões de saída de maternidade em suedine ou tricot com brasões e monogramas clássicos.",
+      "Kits de 7 bodies semanais personalizados com dias da semana e florais delicados.",
+      "Fantasias e roupinhas temáticas para sessões de fotos de recém-nascidos (Newborn)."
+    ],
+    "characteristics": [
+      "Preservação integral da elasticidade natural da malha sem deformações na silhueta.",
+      "Avesso 100% liso, macio e protegido contra dermatites de fricção.",
+      "Zero marcas brancas ou deformações no aro do bastidor ao redor do peito."
+    ],
+    "commonErrors": [
+      "❌ Prender o tecido da parte de trás do body junto no bastidor, bordando a frente e as costas juntas e estragando a peça inteira.",
+      "❌ Usar entretela rasgável comum: ela fura a malha, quebra nas primeiras lavagens e deixa o bordado parecendo uma lixa no peito do bebê.",
+      "❌ Esticar a malha ao montar no bastidor, fazendo a gola do body ficar ondulada e aberta como uma onda após a lavagem."
+    ],
+    "troubleshootingTips": [
+      "A agulha furou furinhos na malha ao redor dos contornos de satim: substitua imediatamente a agulha por uma ponta bola novinha (SUK calibre 65/9 ou 70/10) e reduza a densidade da matriz para 0,45 mm.",
+      "O body ficou com marcas afundadas do aro plástico do bastidor: aplique a técnica do bordado flutuante (prenda apenas a entretela no aro e fixe o body com adesivo temporário e basteamento leve).",
+      "A proteção de avesso descolou após a lavagem: certifique-se de cortar as pontas da entretela protetora sempre em curva redonda (cantos vivos soltam fácil) e pressione o ferro com calor constante a 130°C sem vapor por 10 segundos."
+    ],
+    "dicaArtrelados": "Dica sagrada para bordar body pronto sem costurar as costas por acidente: use pequenos prendedores de costura plásticos (tipo Wonder Clips) ou grampos de cabelo acolchoados para enrolar e prender as manguinhas e as costas do body para fora do campo de trabalho da agulha. Você borda com tranquilidade total e visão 100% livre!",
+    "voceSabia": "O suedine de algodão nobre leva esse nome porque passa por um processo mecânico de lixamento térmico ultra-suave que imita o toque da pele de camurça (do francês 'suède'), sendo o tecido mais recomendado por pediatras do mundo inteiro para os primeiros 3 meses de vida!",
+    "practicalExercise": "Pegue um body liso de bebê tamanho P ou M. Prenda a entretela recortável no bastidor 10x10 cm, apoie o body com spray suave, prenda o excesso de tecido com clips e borde um monograma delicado de 4 cm. Aplique a entretela protetora no avesso e passe a mão: sinta a maciez incomparável que encanta as mamães!",
+    "quickSummary": "Procedimento técnico especializado para bordar roupinhas e bodies de malha elástica com toque ultra-macio e avesso protegido termicamente.",
+    "relatedTerms": [
+      "Malha Suedine",
+      "Entretela de Proteção (Soft Touch)",
+      "Agulha Ponta Bola (SUK)",
+      "Bordado Flutuante",
+      "Entretela Recortável (Cutaway)",
+      "Presilhas de Bastidor",
+      "Linha Pediátrica"
+    ],
+    "tags": [
+      "b-116",
+      "bodydebebe",
+      "macacaoinfantil",
+      "malhasuedine",
+      "linhabebe",
+      "softtouch",
+      "enxoval",
+      "artrelados"
+    ]
+  },
+  {
+    "id": "b-bones-e-chapeus-no-bordado-eletronico",
+    "code": "B-117",
+    "letter": "B",
+    "term": "Bonés e Chapéus no Bordado Eletrônico (Bordados Estruturados, Aplicação Plana & Alto-Relevo 3D)",
+    "pronunciation": "bo-nês e cha-péus nu bor-da-du e-le-trô-ni-cu (boˈnɛz i ʃaˈpɛws)",
+    "level": "Avançado 🔴",
+    "category": "Equipamentos e Máquinas",
+    "grammarClass": "Locução substantiva masculina composta.",
+    "origin": "Do francês 'bonnet' (antigo gorro cônico de lã sem abas) e do francês medieval 'chapeau' (cobertura rígida de cabeça com abas para proteção solar e identificação esportiva e militar).",
+    "summary": "Guia completo de bordado em bonés estruturados, trucker e chapéus em bastidores planos adaptados ou tubulares com técnica plana e relevo 3D com EVA.",
+    "definition": "O bordado em Bonés e Chapéus (Cap & Hat Embroidery / Bordado em Boné Estruturado / Cap Frame System & 3D Puff Embroidery) é a técnica especializada de bordar a superfície curva tridimensional da copa frontal, laterais e traseira de bonés (modelos aba curva, aba reta, 6 gomos, trucker e bucket hats). Devido à curvatura esférica e à presença da entretela rígida plástica termofusível (Buckram) sob o tecido da copa, o bordado exige digitalização específica do centro para as bordas (Center-Out), bastidores com presilhas tensionadoras e compensação geométrica contra deformação por flexão.",
+    "technicalDetails": "Ao bordar a copa de um boné de 6 gomos, o ponto deve cruzar a costura central espessa sem empurrar o tecido. Parâmetros críticos: 1) Sentido de Costura Obrigatório (Center-Out / Do Centro para as Extremidades e de Baixo para Cima): se o bordado for digitalizado da esquerda para a direita como em tecidos planos, o tecido da copa é empurrado em onda, gerando uma prega enrugada no meio da costura; 2) Agulha Schmetz DBxK5 ou 130/705H calibre 80/12 ou 90/14 ponta afiada ou cromada dura; 3) Entretela Resinada Especial para Boné (Cap Backing) de 80 a 100 g/m² com fibra transversal rígida; 4) Para Relevo 3D com EVA: densidade duplicada no satim (0,20 a 0,25 mm) e tampas chanfradas (Capping Stitch); e 5) Velocidade calibrada entre 600 e 700 PPM.",
+    "beginnerExplanation": "Bordar boné é o serviço que todo cliente pede e que mais dá dinheiro no ateliê, mas tem os seus segredos! O boné é redondo e durinho, então ele não entra num bastidor normal igual uma camiseta. Nas máquinas industriais existe um bastidor redondo especial para boné; e nas máquinas domésticas nós usamos um adaptador inteligente (ou prendemos com entretela grossa e fita dupla-face firme). O segredo de ouro do computador é mandar a máquina bordar do meinho para as pontas, para não empurrar o tecido e não fazer nenhuma ruga!",
+    "howItWorks": [
+      "1. Abre-se a fita plástica interna de suor do boné (Sweatband) para fora da área de costura.",
+      "2. Encaixa-se a entretela dura resinada no interior da copa do boné.",
+      "3. No bastidor cilíndrico ou no gabarito plano 13x18 com presilha borboleta, puxa-se a aba do boné esticando a copa perfeitamente nivelada.",
+      "4. Trava-se a fivela com tiras de aço flexíveis para manter a superfície plana sob a chapa de agulha.",
+      "5. Na matriz, rotaciona-se o arquivo em 180° (de cabeça para baixo) se a máquina operar com bastidor de boné que borda com a aba virada para o operador.",
+      "6. Faz-se a checagem de área (Trace) para certificar-se de que o pé calcador passará a pelo menos 1,5 cm de distância da união da aba rígida.",
+      "7. Borda-se a arte: o logotipo emerge rígido, imponente e centralizado na copa frontal."
+    ],
+    "applications": [
+      "Bonés corporativos para feiras do agronegócio, construtoras e montadoras de veículos.",
+      "Bonés de streetwear e marcas de skate com logotipos em alto-relevo tridimensional com EVA 3D.",
+      "Bonés promocionais esportivos para torneios de golfe, tênis e automobilismo.",
+      "Chapéus tipo Bucket Hat, boinas e viseiras de praia personalizadas com monogramas."
+    ],
+    "characteristics": [
+      "Relevo rígido que não amassa mesmo após uso intenso sob sol e chuva.",
+      "Perfeita simetria milimétrica através da costura central da copa.",
+      "Alta lucratividade com valor de venda muito superior ao de camisetas comuns."
+    ],
+    "commonErrors": [
+      "❌ Bater a agulha ou o pé calcador contra o plástico rígido da aba do boné, entortando a barra de agulha e danificando a máquina.",
+      "❌ Programar a matriz da esquerda para a direita em vez do centro para as bordas, criando uma onda feia de tecido sobrando no meio do boné.",
+      "❌ Deixar a fita interna anti-suor do boné solta por baixo da agulha, costurando a aba interna por engano no bordado frontal."
+    ],
+    "troubleshootingTips": [
+      "O boné fez um estalo e a agulha quebrou bem na costura do meio: substitua a agulha por uma Schmetz 90/14 ponta afiada e desative pontos menores que 1,0 mm no software na junção da costura.",
+      "O bordado 3D com EVA ficou com pontinhos de espuma colorida aparecendo no satim: aumente a densidade do ponto para 0,22 mm e passe um soprador de ar quente sobre o boné por 3 segundos para contrair o EVA.",
+      "O boné ficou frouxo e sambando no bastidor: aperte a cinta de fixação da fivela e utilize entretela resinada mais encorpada de 90 g/m²."
+    ],
+    "dicaArtrelados": "O truque mestre da Artrelados para quem borda boné em máquina doméstica no bastidor plano: use fita crepe grossa para rebater e colar a fita interna de suor bem presa para trás antes de encaixar no bastidor. E use uma régua para alinhar o bico da aba com o riscador do gabarito. Seu boné sai retinho como se tivesse sido feito em uma máquina industrial de 15 cabeças!",
+    "voceSabia": "O boné moderno com aba frontal (estilo 'baseball cap') surgiu em 1860 com o time amador Brooklyn Excelsiors nos Estados Unidos, substituindo as antigas boinas de palha e se tornando um dos itens de vestuário mais fabricados do planeta!",
+    "practicalExercise": "Pegue um boné básico liso de sarja. Posicione no seu dispositivo de boné ou bastidor 13x18 adaptado com entretela firme. Selecione uma matriz de letra inicial com sequência do centro para as bordas (Center-Out). Borde com agulha 90/14 e veja o orgulho de produzir um boné profissional no seu próprio ateliê!",
+    "quickSummary": "Metodologia especializada para bordar superfícies curvas de bonés e chapéus com alinhamento na costura central, técnica Center-Out e alto-relevo 3D.",
+    "relatedTerms": [
+      "Bastidor Tubular para Boné",
+      "Gabarito Adaptador de Boné 13x18",
+      "Sequência Center-Out",
+      "Bordado 3D com EVA",
+      "Buckram (Entretela de Copa)",
+      "Agulha Ponta Aguda 90/14",
+      "Rotação 180 Graus"
+    ],
+    "tags": [
+      "b-117",
+      "bones",
+      "chapeus",
+      "bastidordebone",
+      "relevo3d",
+      "centerout",
+      "moda",
+      "acessorios",
+      "artrelados"
+    ]
   }
 ];

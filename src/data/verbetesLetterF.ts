@@ -7372,5 +7372,73 @@ export const VERBETES_LETTER_F: Verbete[] = [
     "in the hoop ribbon"
   ],
   "updatedAt": "2026-09-28"
+},
+{
+  "id": "f-fralda-de-pano-e-paninho-de-boca-enxoval-infantil",
+  "code": "F-106",
+  "letter": "F",
+  "term": "Fralda de Pano e Paninho de Boca (Bordados Delicados em Tecido de Fralda Dupla & Barrados)",
+  "pronunciation": "fral-da de pa-nu e pa-nhi-nhu de bo-ca (ˈfɾawdɐ dʒi ˈpɐ̃nu)",
+  "level": "Iniciante 🟢",
+  "category": "Tipos de Tecidos",
+  "grammarClass": "Locução substantiva feminina composta.",
+  "origin": "Do gótico 'falda' (dobra de tecido, envolver o corpo) e do latim medieval 'pannus' (pano de algodão fino e absorvente para higienização delicada de recém-nascidos).",
+  "summary": "Guia completo para bordar fraldas de passeio e paninhos de boca em tecido de gaze dupla 100% algodão sem furar a trama nem afundar os pontos.",
+  "definition": "A Fralda de Pano e Paninho de Boca (Fraldas de Passeio / Cloth Diaper & Burp Cloth Embroidery / Bordado em Gaze Dupla Infantil) é a especialidade têxtil de personalização de artigos de higiene e conforto para recém-nascidos confeccionados em tecido de gaze dupla hidrófila 100% algodão (como as renomadas fraldas Cremer Luxo, Valletex ou Mabber). Por se tratar de um tecido de trama aberta, vazada e extremamente leve, exige técnicas exclusivas para evitar que os pontos afundem nas frestas do tecido ou que a agulha rompa os fios da urdidura, além de acabamentos decorativos com barrados de tricoline, bordado inglês e rendas delicadas.",
+  "technicalDetails": "O tecido de fralda possui gramatura baixa (100 a 140 g/m²) e densidade de fios rala (cerca de 15 a 20 fios/cm² em gaze dupla). Parâmetros mandatórios: 1) Película Hidrossolúvel de Cobertura (Top Water-Soluble Film): indispensável sobre a fralda para manter os pontos de satim na superfície sem que o fio se perca entre os vãos da trama; 2) Densidade Moderada: entre 0,42 mm e 0,48 mm (densidades inferiores a 0,38 mm geram o efeito 'picotador de papel', furando e desfiando a fralda); 3) Agulha Schmetz 130/705H tamanho 65/9 ou 70/10 com ponta bola fina para não partir os fios da gaze; 4) Underlay Reticulado Suave: ponto corrido cruzado que amarra a trama da fralda antes da descida do ponto cheio; e 5) Tensão Suave: regulagem ligeiramente frouxa para não enrugar a gaze.",
+  "beginnerExplanation": "A fraldinha de boca é o item que a mãe mais usa no dia a dia com o bebê! Como o pano de fralda é todo furadinho e levinho, se você bordar direto nele, a linha afunda e o desenho fica todo feio e sumido. O segredo é colocar um plastiquinho transparente que derrete na água por cima da fralda antes de ligar a máquina. O bordado fica altinho, nítido e lindo! Depois de pronto, é só borrifar um pouquinho de água e o plástico desaparece na hora!",
+  "howItWorks": [
+    "1. Passa-se a fralda com ferro morno para eliminar vincos e acomodar as duas camadas de gaze perfeitamente alinhadas.",
+    "2. Coloca-se entretela rasgável de toque macio (ou entretela hidrossolúvel) no bastidor.",
+    "3. Posiciona-se a fralda (ou a faixa de tecido de barrado liso própria para bordar) sobre a entretela.",
+    "4. Coloca-se uma folha de plástico hidrossolúvel transparente por cima de toda a área que receberá a arte.",
+    "5. A máquina borda o monograma, ramo floral ou bichinho infantil em velocidade moderada (600 PPM).",
+    "6. Ao terminar, retira-se o excesso de plástico solto puxando suavemente com as mãos.",
+    "7. Com um borrifador ou algodão umedecido em água, removem-se os micro-restos de plástico nas letras, restando o bordado impecável."
+  ],
+  "applications": [
+    "Fraldas de boca com barrado em tecido estampado de tricoline e renda guipure.",
+    "Fraldas grandes de passeio (70x70 cm) com brasões de família e nomes bordados nos cantos.",
+    "Kits de maternidade com 3 a 5 paninhos de boca combinando com a manta e o cueiro.",
+    "Paninhos de ombro com forro atoalhado anti-refluxo para amamentação."
+  ],
+  "characteristics": [
+    "Absorção de líquidos preservada sem criar rigidez no toque da peça.",
+    "Nitidez absoluta de traços finos e escritas cursivas sobre tecido furadinho.",
+    "Resistência a dezenas de lavagens frequentes com sabão neutro infantil."
+  ],
+  "commonErrors": [
+    "❌ Bordar sem plástico hidrossolúvel por cima: os pontos de contorno e letras finas caem nos vãos da gaze e o desenho fica ilegível e falhado.",
+    "❌ Usar agulha grossa de costura (tamanho 90/14 ponta afiada), rasgando a gaze da fralda e abrindo furos permanentes ao redor das letras.",
+    "❌ Usar entretela muito grossa e dura que fica raspando no rosto sensível do bebê na hora de limpar a boca."
+  ],
+  "troubleshootingTips": [
+    "A fralda ficou cheia de furinhos ao redor do contorno: diminua a densidade do ponto satim para 0,45 mm e use agulha ponta bola calibre 65/9 novinha.",
+    "Os pontos ficaram frouxos e embolados no verso da fralda: aumente ligeiramente a tensão da linha superior e verifique se a passagem de linha no guia-fios está correta.",
+    "Ficaram pontinhos brilhantes de plástico hidrossolúvel presos no meio das letrinhas: dê um jato suave de vapor de ferro a 10 cm de distância ou lave a peça em água corrente; o calor úmido dissolve o PVA instantaneamente."
+  ],
+  "dicaArtrelados": "O grande diferencial das bordadeiras de luxo: compre fraldas que já vêm de fábrica com a 'faixa para bordar' tecida em ponto liso acetinado. Ao bordar sobre a faixa lisa, use entretela solúvel ou rasga-fácil e aplique um passa-fita de algodão com laço de cetim na junção. A peça salta de valor e você pode cobrar o dobro do preço no ateliê!",
+  "voceSabia": "Historicamente, as primeiras fraldas de pano de algodão comercializadas no Brasil na década de 1940 eram importadas da Inglaterra e vendidas em rolos inteiros de metros nas lojas de tecidos para que as próprias mães cortassem e fizessem as bainhas à mão!",
+  "practicalExercise": "Pegue uma fraldinha de boca simples. Posicione no bastidor 10x10 com entretela rasgável suave embaixo e plástico hidrossolúvel em cima. Borde a inicial do seu nome com uma fonte cursiva. Retire o plástico com água e sinta como as laçadas ficaram perfeitas e macias sobre a gaze!",
+  "quickSummary": "Técnica de bordado de alta sensibilidade para tecidos de fralda de gaze dupla utilizando filme hidrossolúvel superior para pontos nítidos e macios.",
+  "relatedTerms": [
+    "Filme Hidrossolúvel",
+    "Gaze Dupla de Algodão",
+    "Agulha Ponta Bola Fina",
+    "Paninho de Boca",
+    "Enxoval de Maternidade",
+    "Densidade Aberta",
+    "Entretela Rasgável Suave"
+  ],
+  "tags": [
+    "f-106",
+    "fraldadepano",
+    "paninhodeboca",
+    "enxovalbebe",
+    "linhabebe",
+    "hidrossoluvel",
+    "gazedupia",
+    "artrelados"
+  ]
 }
 ];

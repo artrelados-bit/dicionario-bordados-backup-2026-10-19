@@ -7584,5 +7584,73 @@ export const VERBETES_LETTER_N: Verbete[] = [
     "dica pratica"
   ],
   "updatedAt": "2026-09-28"
+},
+{
+  "id": "n-naninha-no-bastidor-bichinho-de-apego-ith",
+  "code": "N-108",
+  "letter": "N",
+  "term": "Naninha no Bastidor (Bichinho de Apego e Pelúcia Feito 100% In The Hoop)",
+  "pronunciation": "na-nhi-nha nu bas-ti-dor (naˈɲĩɲɐ noʊ bas.tʃiˈdoɾ)",
+  "level": "Intermediário 🟡",
+  "category": "Técnicas de Bastidor",
+  "grammarClass": "Locução substantiva feminina composta.",
+  "origin": "Do termo afetivo da língua portuguesa 'nanar' (dormir suavemente ao som de canções de ninar), associado à moderna técnica de brinquedos têxteis e mantinhas de apego estruturadas inteiramente na máquina de bordar computadorizada (In The Hoop Softies).",
+  "summary": "Processo passo a passo de programação e confecção no bastidor de paninhos de apego com cabeças tridimensionais de bichinhos de pelúcia para bebês.",
+  "definition": "A Naninha no Bastidor (Paninho de Apego ITH / In The Hoop Baby Lovey & Security Blanket / Bichinho de Transição Infantil no Bastidor) é a técnica completa de criação de objetos transicionais pediátricos compostos por um corpinho de tecido macio (em formato de mini-manta, estrelinha ou losango) acoplado a uma cabecinha de bichinho (urso, coelho, raposa, ovelha ou leão) confeccionada sem costura manual. A matriz é desenvolvida em duas etapas sincronizadas de bastidor: primeiro costura-se e borda-se a cabecinha tridimensional com as orelhas embutidas; em seguida, essa cabeça é unida ao corpinho no segundo bastidor, finalizando com costuras reforçadas anti-rasgo.",
+  "technicalDetails": "A naninha é um brinquedo infantil de segurança regulado por normas que proíbem peças soltas. Requisitos técnicos cruciais: 1) Rostinho 100% Bordado: olhos, nariz e boquinha devem ser bordados com linha de poliéster em ponto satim fechado, sendo estritamente proibido o uso de botões ou olhos de plástico móveis que possam se soltar e causar engasgamento; 2) União das Orelhas e Braços: são costurados primeiro no bastidor pequeno com ponto reto reforçado (passo 2,0 mm) e embutidos para dentro antes da costura de fechamento da cabeça; 3) Parada Programada para Desvirar e Encher: abertura de 3 cm deixada na base do pescoço para colocação de fibra siliconada antialérgica; e 4) Ponto de Selagem Perimétrica Bean Stitch (Ponto Triplo): garante que as costuras suportem até 15 kgf de tração mecânica quando o bebê morder ou puxar a naninha no berço.",
+  "beginnerExplanation": "A naninha é o amiguinho inseparável do bebê na hora de dormir! É aquele paninho gostoso com uma cabecinha fofa de ursinho ou coelhinho na ponta que a criança abraça para se sentir segura. Fazer naninha no bastidor é pura diversão: a máquina borda os olhinhos e o focinho, costura as orelhinhas e fecha tudo certinho. Você só precisa desvirar, colocar um pouquinho de enchimento fofo de almofada na cabecinha e fechar o pescocinho. O resultado é um produto apaixonante e super lucrativo!",
+  "howItWorks": [
+    "1. Monta-se entretela rasgável ou hidrossolúvel no bastidor e bordam-se as orelhas do bichinho; recorta-se a sobra e reserva-se.",
+    "2. No bastidor principal, monta-se o tecido fofo da cabeça (plush ou minky) com plástico hidrossolúvel na frente.",
+    "3. A máquina borda os olhinhos, sobrancelhas e o focinho do bichinho com linha preta e marrom.",
+    "4. A máquina faz uma parada (Stop) para posicionar as orelhinhas prontas viradas para dentro.",
+    "5. Aplica-se o tecido da parte de trás da cabeça (direito com direito) e a máquina costura toda a volta deixando a abertura do pescoço.",
+    "6. Desvira-se a cabecinha, enche-se com fibra de poliéster siliconada antialérgica e posiciona-se no segundo bastidor sobre o paninho.",
+    "7. A máquina fecha o corpinho da naninha, unindo a cabeça com ponto triplo reforçado: a peça está pronta para encantar!"
+  ],
+  "applications": [
+    "Naninhas de apego com cabeça de ursinho clássico, raposinha, ovelha, elefante e coelho.",
+    "Kits de maternidade de luxo combinando a naninha com o babador e a fraldinha de boca.",
+    "Naninhas com prendedor de chupeta embutido na patinha do bichinho.",
+    "Presentes personalizados de boas-vindas com o nome do bebê bordado no paninho da naninha."
+  ],
+  "characteristics": [
+    "Segurança pediátrica total sem nenhuma peça metálica ou plástica solta.",
+    "Corpo ultra-macio e aconchegante com combinação de tecidos térmicos (minky/sherpa) e tricoline de algodão.",
+    "Alta durabilidade estrutural resistente a dezenas de lavagens frequentes em máquina de lavar."
+  ],
+  "commonErrors": [
+    "❌ Colocar olhos com trava de plástico em naninhas de bebê; a criança morde com a gengiva e pode engolir a peça. Olhos de naninha de berço devem ser SEMPRE 100% bordados.",
+    "❌ Encher a cabecinha da naninha em excesso, tornando o bichinho pesado e duro demais para o rostinho do recém-nascido.",
+    "❌ Esquecer de colocar as orelhas viradas para dentro na hora da costura final, fazendo as orelhas ficarem costuradas para o avesso."
+  ],
+  "troubleshootingTips": [
+    "Os pontos do rostinho do bichinho sumiram no meio dos pelos do tecido pelúcia (minky/plush): utilize obrigatoriamente filme plástico hidrossolúvel transparente por cima do tecido durante todo o bordado do rosto.",
+    "A costura do pescoço abriu quando puxou: aumente a sobreposição da costura no software e certifique-se de que a máquina utilizou ponto triplo (Bean Stitch) na junção entre a cabeça e o paninho.",
+    "O paninho da naninha ficou torto após desvirar: corte as sobras de tecido com tesoura de picotar a cerca de 3 mm da costura antes de desvirar para acomodar as pontas com perfeição."
+  ],
+  "dicaArtrelados": "O toque de encanto da Artrelados para naninhas: coloque na pontinha de um dos cantos do paninho uma alcinha de fita de gorgurão com botão de pressão plástico para prender a chupeta do bebê. A mãe não perde a chupeta no berço e a naninha se torna duas vezes mais útil e desejada pelos clientes!",
+  "voceSabia": "Na psicologia do desenvolvimento infantil do famoso médico britânico Donald Winnicott, a naninha é classificada como um 'objeto transicional': ela representa o aconchego da mãe quando a criança começa a dormir sozinha, ajudando a diminuir a ansiedade e trazendo noites tranquilas de sono!",
+  "practicalExercise": "Adquira uma matriz ITH simples de naninha de ursinho. Prepare um retalho de tecido minky e outro de tricoline estampada de 20x20 cm. Siga as paradas da máquina, encha a cabecinha com um punhado de fibra siliconada macia e feche. Veja como é mágico segurar uma naninha profissional pronta feita por você!",
+  "quickSummary": "Técnica completa de confecção no bastidor de paninhos e bichinhos de apego com segurança pediátrica e montagem 100% automatizada.",
+  "relatedTerms": [
+    "In The Hoop (ITH)",
+    "Objeto Transicional",
+    "Tecido Minky e Plush",
+    "Fibra Siliconada Antialérgica",
+    "Filme Hidrossolúvel",
+    "Ponto Bean Triplo",
+    "Prendedor de Chupeta"
+  ],
+  "tags": [
+    "n-108",
+    "naninha",
+    "naninhanobastidor",
+    "paninhodeapego",
+    "ith",
+    "linhabebe",
+    "bichinhodepelucia",
+    "artrelados"
+  ]
 }
 ];

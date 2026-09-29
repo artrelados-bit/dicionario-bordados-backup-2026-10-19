@@ -1192,5 +1192,74 @@ export const VERBETES_LETTER_A3: Verbete[] = [
       "ARTRELADOS. O Silêncio da Máquina Perfeita: Como Cuidar dos Amortecedores da Barra de Agulha e Evitar Desgastes. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "a-ajuste-de-altura-para-relevo-3d-com-eva",
+    "code": "A-107",
+    "letter": "A",
+    "term": "Ajuste de Altura para Relevo 3D com EVA (Compensação Dimensional Vertical & Regulagem do Calcador)",
+    "pronunciation": "a-jus-ti de al-tu-ra pa-ra re-le-vu três dê com ê-vê-á (aˈʒustʃi dʒi awˈtuɾa)",
+    "level": "Intermediário 🟡",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva masculina composta.",
+    "origin": "Do latim 'adjustare' (adequar, calibrar à justa medida), associado à cota vertical 'Z' de profundidade e ao termo comercial 'Puffy Foam' (espuma de EVA tridimensional desenvolvida para bordados de alta confecção).",
+    "summary": "Calibração de elevação física do pé calcador e compensação de densidade de pontos fechada para bordados em alto relevo com placas de EVA sem amassar a espuma.",
+    "definition": "O Ajuste de Altura para Relevo 3D com EVA (Regulagem de Altura do Calcador para Puffy Foam / Compensação Dimensional no Eixo Z / 3D Embroidery Height Clearance) compreende o conjunto de configurações mecânicas e digitais necessárias para executar bordados tridimensionais em relevo utilizando placas de espuma emborrachada de EVA (Puffy Foam) com espessura de 2 mm a 4 mm. O ajuste engloba a regulagem da altura física de subida do pé calcador da máquina para evitar o esmagamento prematuro da espuma e a duplicação da densidade do ponto satim para cobrir inteiramente as paredes verticais do relevo.",
+    "technicalDetails": "Ao bordar sobre uma placa de EVA de 3 mm de altura, o percurso da agulha e a tensão sofrem alterações drásticas na cota Z: 1) o calcador padrão pode colidir com o topo da espuma a 800 PPM, gerando vibração e deformação do relevo; por isso a haste do calcador deve ser elevada em 1,0 a 1,5 mm (Z-height clearance); 2) na matriz, a densidade do ponto satim deve ser aumentada em 40% a 50% (espaçamento reduzido de 0,40 mm para 0,22–0,25 mm); 3) as pontas das colunas exigem tampas de arremate chanfradas (Capping Stitch) com pontos perfurantes de alta densidade para guilhotinar o EVA; e 4) a tensão da linha superior deve ser ligeiramente aliviada para permitir que o fio envolva a coluna sem puxar as bordas para baixo.",
+    "beginnerExplanation": "É a técnica para fazer aquelas letras gordinhas e durinhas em alto relevo famosas em bonés de marcas famosas! Você coloca uma folha de EVA macia por cima do tecido e a máquina borda por cima com ponto bem fechadinho. O segredo é levantar um pouquinho o pezinho da máquina (o calcador) para ele não amassar a espuminha, e programar bastante linha para tapar todo o EVA dos lados para não sobrar nenhum pedacinho colorido aparecendo!",
+    "howItWorks": [
+      "1. A matriz é digitalizada especificamente para relevo 3D, com tampas de corte nos topos (Capping) e sem underlay central que perfuraria a espuma.",
+      "2. A máquina borda primeiro os contornos de parada e elementos planos do desenho.",
+      "3. O operador posiciona a placa de EVA (cor combinando com a cor da linha) sobre a área demarcada com fita adesiva leve.",
+      "4. Ajusta-se o calcador para a posição mais alta (cerca de 1,5 mm acima do normal).",
+      "5. A máquina borda as colunas de satim com alta densidade (0,24 mm); a agulha perfura o EVA como um estilete.",
+      "6. Ao terminar, o excesso de EVA é destacado facilmente com os dedos puxando pelas laterais picotadas.",
+      "7. Utiliza-se um soprador térmico ou secador de cabelo quente por 3 segundos para contrair quaisquer micro-restos de espuma, deixando o relevo impecável."
+    ],
+    "applications": [
+      "Logotipos em alto relevo tridimensional na frente de bonés estruturados e viseiras.",
+      "Iniciais e monogramas destacados em jaquetas corta-vento, moletons e mochilas.",
+      "Bordados esportivos para equipes de beisebol, futebol e automobilismo.",
+      "Emblemas e patches militares e de segurança com relevo rígido e imponente."
+    ],
+    "characteristics": [
+      "Cria relevo físico palpável de 2,0 mm a 4,0 mm de elevação real.",
+      "Densidade de ponto satim supercompactada (entre 0,20 mm e 0,25 mm).",
+      "Exige cor de espuma compatível com o tom da linha de bordar."
+    ],
+    "commonErrors": [
+      "❌ Usar espuma branca com linha de bordar preta; qualquer microporo no satim deixa pontinhos brancos contrastantes visíveis.",
+      "❌ Não colocar tampas chanfradas (Capping) nas pontas das letras, deixando o miolo do EVA aberto e exposto nas extremidades.",
+      "❌ Deixar o calcador muito baixo, esmagando a espuma durante o bordado e deixando o relevo murcho e irregular."
+    ],
+    "troubleshootingTips": [
+      "Ficaram pontinhas de espuma de EVA espetadas saindo pelas frestas do ponto satim: aproxime um soprador térmico profissional na temperatura média (ou secador de cabelo bem quente) a 10 cm de distância por cerca de 3 a 5 segundos; o calor faz o EVA encolher instantaneamente para dentro do bordado sem queimar a linha.",
+      "A agulha está quebrando constantemente ao penetrar no EVA: troque para uma agulha mais grossa e resistente (Tamanho 90/14 ponta afiada aguda Sharp/Microtex) e reduza a velocidade da máquina para 500 a 600 PPM.",
+      "A linha superior está arrebentando a toda hora no relevo: a espuma cria atrito no percurso da linha; reduza a tensão superior e passe uma gota de óleo de silicone no topo do carretel de linha."
+    ],
+    "dicaArtrelados": "Dica de mestre Artrelados para relevo 3D perfeito: use sempre EVA específico para bordado com densidade de 50 a 60 kg/m³ (ele é mais denso e quebra limpinho como vidro no picote). Nunca use EVA escolar comum muito mole ou borrachudo, pois ele estica em vez de quebrar e dá muito trabalho para limpar as bordas!",
+    "voceSabia": "O bordado tridimensional com EVA começou nos anos 1990 nos Estados Unidos para os bonés da liga profissional de beisebol (MLB), onde os times exigiam que suas letras iniciais saltassem visualmente aos olhos dos torcedores nos estádios de televisão!",
+    "practicalExercise": "Pegue um pedaço de EVA próprio para bordado de 2 mm. No seu software, programe uma letra 'I' maiúscula com 4 cm de altura em ponto satim com densidade de 0,25 mm e feche as duas pontas com pontos retos cruzados. Borde sobre um retalho de sarja com o EVA por cima. Destaque o excesso com a mão e dê um jato de ar quente para ver a mágica do relevo nascer!",
+    "quickSummary": "Regulagem de altura do calcador e densidade cerrada de pontos para criar bordados em alto relevo com espuma de EVA tridimensional.",
+    "relatedTerms": [
+      "Puffy Foam",
+      "EVA de Bordado",
+      "Ponto Satim",
+      "Capping Stitch",
+      "Bordado 3D",
+      "Calcador",
+      "Boné"
+    ],
+    "tags": [
+      "a-107",
+      "ajustedealtura",
+      "puffyfoam",
+      "relevo3d",
+      "eva",
+      "bones",
+      "altorelevo",
+      "satim",
+      "tecnicas"
+    ]
   }
 ];

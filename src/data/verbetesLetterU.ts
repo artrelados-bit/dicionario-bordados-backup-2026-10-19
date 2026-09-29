@@ -6146,5 +6146,73 @@ export const VERBETES_LETTER_U: Verbete[] = [
       "ARTRELADOS. Gestão Profissional de Insumos e Controle de Qualidade no Bordado. São Paulo, 2024."
     ],
     "updatedAt": "2026-08-30"
+  },
+  {
+    "id": "u-uniformes-profissionais-e-escolares-bordado-seriado",
+    "code": "U-103",
+    "letter": "U",
+    "term": "Uniformes Profissionais e Escolares (Bordado em Série de Crachás, Brasões & Marcas Corporativas)",
+    "pronunciation": "u-ni-for-mes pro-fi-ssi-o-nais e es-co-la-res (uniˈfɔʁmis pɾofisiuˈnajz)",
+    "level": "Intermediário 🟡",
+    "category": "Processos e Métodos",
+    "grammarClass": "Locução substantiva masculina composta.",
+    "origin": "Do latim 'uniformis' (que tem uma só forma, igual para todos, de 'unus', um, e 'forma', aspecto exterior), institucionalizado na era industrial para identificar operários, estudantes, médicos e corporações militares com padronização visual rigorosa.",
+    "summary": "Manual de produção em larga escala de logotipos, crachás e brasões escolares com foco em rapidez de máquina, letras pequenas nítidas e máxima resistência a lavagens industriais.",
+    "definition": "O bordado em Uniformes Profissionais e Escolares (Bordado Corporativo em Série / Corporate Workwear & School Uniform Embroidery / Produção Padronizada de Emblemas) é a espinha dorsal econômica da indústria do bordado computadorizado. Abrange a produção seriada e padronizada de identificações funcionais (nomes de funcionários, cargos, brasões de colégios e logomarcas empresariais) sobre tecidos de alto desgaste mecânico (brim pesado, gabardine, oxford, microfibra e malha PV/poliviscose). Exige matrizes otimizadas para reduzir tempo de máquina, calibração para letras pequenas de 4 a 6 mm sem quebra de fio e seleção de linhas 100% poliéster indelevelmente resistentes a cloro e alvejantes químicos.",
+    "technicalDetails": "Na confecção seriada de uniformes corporativos, uma economia de 1 minuto por peça representa horas de ganho em lotes de centenas de camisas. Diretrizes de engenharia: 1) Otimização de Comandos de Corte e Troca de Cor: organizar os objetos da matriz para que todas as partes da mesma cor sejam bordadas em sequência contínua com pontes de ligação embutidas (Travel Runs) ocultas sob preenchimentos posteriores, reduzindo cortes automáticos para menos de 4 por logotipo; 2) Tipografia para Letras Pequenas: fontes especiais de 4 mm a 7 mm com densidade aliviada (0,45 mm) e ponto satim com underlay Center Walk simples; 3) Resistência Química: linhas de poliéster com alta solidez à lavagem industrial a 95°C e fricção com cloro; e 4) Entretela Rasgável Industrial de 70 g/m² para limpeza ultrarrápida do avesso no pós-bordado.",
+    "beginnerExplanation": "É a encomenda que todo ateliê adora pegar: 50 camisas de uma oficina, 100 jalecos de uma clínica ou 200 camisetas de uma escola! Em vez de bordar uma peça de cada vez devagarzinho, você aprende a deixar a matriz super esperta no computador para não ficar cortando linha a toda hora e bordar bem rapidinho. As letrinhas do nome e do telefone precisam ficar bem legíveis para o cliente conseguir ler sem esforço, e a linha precisa aguentar lavagem forte na máquina sem desbotar nunca!",
+    "howItWorks": [
+      "1. A matriz do uniforme é revisada no software: eliminam-se saltos de linha desnecessários e ajustam-se as fontes pequenas para satim limpo.",
+      "2. Cria-se um gabarito de posicionamento em papelão ou acetato para marcar o peito de todas as camisas do lote exatamente na mesma coordenada.",
+      "3. Corta-se a entretela em rolo em pedaços padronizados com guilhotina ou cortador rotativo para ganhar tempo.",
+      "4. Encaixa-se a primeira leva de peças nos bastidores em cadeia (enquanto um bastidor borda na máquina, a bordadeira monta o próximo na bancada).",
+      "5. A máquina opera em cadência de alta produtividade (750 a 850 PPM) com sensores de linha calibrados.",
+      "6. Ao terminar o ciclo, retira-se o bastidor, rasga-se a entretela em um só puxão lateral e passa-se o desmanchador de corte rápido.",
+      "7. As peças são dobradas, ensacadas em pacotes de 10 unidades com controle de qualidade e despachadas para o cliente corporativo."
+    ],
+    "applications": [
+      "Jalecos e aventais para médicos, enfermeiros, dentistas e laboratórios com nomes e especialidades.",
+      "Uniformes pesados de brim para metalúrgicas, construtoras civis e oficinas mecânicas.",
+      "Camisetas escolares para colégios e universidades com brasões detalhados.",
+      "Dolmãs de chefs de cozinha, uniformes de garçons, restaurantes e hotelaria de alto padrão."
+    ],
+    "characteristics": [
+      "Altíssima repetibilidade: a peça número 1 e a peça número 200 saem idênticas.",
+      "Velocidade otimizada com mínimo de paradas operacionais e quebras de linha.",
+      "Legibilidade cirúrgica em textos de identificação de nomes e telefones de contato."
+    ],
+    "commonErrors": [
+      "❌ Deixar muitos cortes de fio em matrizes de milhares de pontos: a máquina perde 5 segundos a cada corte, desperdiçando horas de trabalho no fim do dia.",
+      "❌ Programar letras minúsculas de 4 mm com ponto tatami ou contorno grosso, embolando a linha e deixando o texto ilegível.",
+      "❌ Usar linha de algodão ou viscose frágil em uniformes operacionais, fazendo o bordado desbotar com cândida e alvejante."
+    ],
+    "troubleshootingTips": [
+      "As letrinhas pequenas de telefone ficaram parecendo borrões sem abertura nas letras 'e' e 'o': aumente o tamanho da letra no software para pelo menos 5,5 mm, reduza a densidade do satim e use agulha fina 70/10 com linha de calibre 60 própria para textos finos.",
+      "O brim grosso rasgou a entretela antes do fim do bordado: use entretela resinada de 80 g/m² em vez de entretela rasgável comum fina.",
+      "A máquina está quebrando linha toda hora na produção em série: verifique se não há fiapos acumulados na caixa de bobina e passe um pingo de óleo na lançadeira a cada 4 horas de produção contínua."
+    ],
+    "dicaArtrelados": "O método da linha de montagem no ateliê: nunca pare a máquina para colocar o tecido no bastidor! Tenha sempre o dobro de bastidores do número de cabeças da sua máquina. Enquanto o bastidor A está bordando na máquina, você monta o bastidor B na bancada. Quando a máquina apitar o fim, você só troca um bastidor pelo outro em 5 segundos e aperta o start. Sua produtividade dobra no mesmo dia!",
+    "voceSabia": "O primeiro registro histórico de uniformes profissionais identificados com bordados corporativos remonta às guildas de artesãos medievais de Londres no século XIV, onde alfaiates e tecelões eram obrigados por estatuto a bordar os brasões de suas corporações de ofício nas túnicas de trabalho!",
+    "practicalExercise": "Pegue uma matriz com um logo corporativo e um nome em texto pequeno. Analise a sequência de bordado no software: tente juntar as cores iguais e eliminar pelo menos 3 cortes de linha usando caminhos de conexão invisíveis. Borde e cronometre o tempo: sinta a satisfação de economizar minutos preciosos na sua linha de produção!",
+    "quickSummary": "Protocolo de digitalização otimizada e produção seriada em alta velocidade de logomarcas e crachás para uniformes com máxima durabilidade a lavagens.",
+    "relatedTerms": [
+      "Bordado Corporativo",
+      "Letras Pequenas (Microtextos)",
+      "Poliéster Trilobal",
+      "Tempo de Máquina",
+      "Gabarito de Produção",
+      "Travel Runs (Trajetos de Ligação)",
+      "Brim e Gabardine"
+    ],
+    "tags": [
+      "u-103",
+      "uniformes",
+      "uniformesprofissionais",
+      "uniformesescolares",
+      "corporativo",
+      "producaoemserie",
+      "letraspequenas",
+      "artrelados"
+    ]
   }
 ];

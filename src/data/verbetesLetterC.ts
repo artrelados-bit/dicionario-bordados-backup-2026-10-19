@@ -7407,5 +7407,280 @@ export const VERBETES_LETTER_C: Verbete[] = [
       "ARTRELADOS. O Prédio das Agulhas: Como Cuidar da Carcaça Frontal Deslizante e Ter Trocas de Cor Macias e Silenciosas. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "c-calibracao-de-ponto-zero-e-sensores-de-fim-de-curso",
+    "code": "C-108",
+    "letter": "C",
+    "term": "Calibração de Ponto Zero e Sensores de Fim de Curso (Limit Switches & Leitura de Origem do Pantógrafo)",
+    "pronunciation": "ca-li-bra-ção de pon-tu zê-ru e sen-so-res de fin de cur-su (kaliˈbɾasɐ̃w)",
+    "level": "Intermediário 🟡",
+    "category": "Operação da Máquina",
+    "grammarClass": "Locução substantiva feminina composta.",
+    "origin": "Do árabe 'qalib' (molde, padrão exato de medida) somado à origem cartesiana do ponto (0, 0) absoluto e sensores fotoelétricos microprocessados.",
+    "summary": "Procedimento automático de leitura dos sensores ópticos ou microchaves que localiza a origem de coordenadas absoluta dos eixos X e Y da máquina de bordar, prevenindo colisões físicas do bastidor contra o cabeçote.",
+    "definition": "A Calibração de Ponto Zero e Sensores de Fim de Curso (Home Position Calibration / Leitura de Origem Mecânica / Homing Sequence / Limit Switches Reading) é a rotina eletromecânica de inicialização e referenciamento espacial executada pelo computador de bordo da máquina de bordar ao ser ligada ou reiniciada. Por meio de sensores ópticos de barreira (foto-sensores) ou microinterruptores de fim de curso (Limit Switches), o sistema movimenta o pantógrafo até os extremos físicos dos eixos X e Y para identificar o zero absoluto da régua de movimentação, garantindo que o software saiba exatamente a posição do bastidor e bloqueie qualquer tentativa de bordar fora dos limites seguros da carcaça.",
+    "technicalDetails": "Os motores de passo ou servomotores que movem o pantógrafo são acionados em malha fechada ou aberta por contagem de pulsos relativos. Se a máquina sofrer uma queda de energia ou for empurrada manualmente desligada, o computador perde a referência espacial real. A rotina de Calibração de Ponto Zero move os eixos X e Y em velocidade lenta (homing feed rate) até que uma aleta metálica acoplada ao trilho interrompa o feixe infravermelho de um sensor óptico (Opto-coupler). Ao detectar o corte do feixe, o controlador reseta o contador de pulsos para o valor (0, 0) absoluto, permitindo que a área máxima programada no software coincida com o campo útil do bastidor com precisão centesimal (±0,02 mm).",
+    "beginnerExplanation": "É como se a máquina acordasse de manhã, abrisse os olhos e olhasse para os lados para saber onde ela está na sala! Quando você liga a máquina e o bastidor dá aquele passinho para o fundo e para a lateral e faz um apito suave, ela está encostando nos sensores para descobrir exatamente onde fica o centro e as bordas. Isso garante que, na hora de bordar, o bastidor nunca bata na máquina nem quebre as agulhas!",
+    "howItWorks": [
+      "1. Ao ligar a chave geral ou acionar o comando 'Origin Return' no painel, a placa controladora envia sinal aos motores X e Y.",
+      "2. O pantógrafo se desloca suavemente em direção aos cantos limites do trilho de movimentação.",
+      "3. As aletas de aço acopladas aos eixos entram nas fendas dos sensores ópticos de fim de curso.",
+      "4. A interrupção do feixe de luz infravermelha envia um pulso elétrico imediato à CPU da máquina.",
+      "5. O sistema zera os registradores dos eixos e recua o pantógrafo para a posição central pré-definida de repouso.",
+      "6. O painel exibe a mensagem de 'Máquina Pronta' e carrega a moldura digital do bastidor selecionado.",
+      "7. Todas as coordenadas do desenho agora são calculadas com precisão milimétrica a partir desse ponto de origem seguro."
+    ],
+    "applications": [
+      "Inicialização segura de máquinas de bordar domésticas e industriais multicabeçotes.",
+      "Recuperação precisa da posição do bordado após paradas de emergência ou quedas bruscas de eletricidade.",
+      "Centralização matemática perfeita de brasões, nomes e monogramas no meio exato do bastidor.",
+      "Prevenção eletrônica contra impactos mecânicos do bastidor nas laterais da chapa de agulha."
+    ],
+    "characteristics": [
+      "Repetibilidade de posicionamento com precisão centesimal (inferior a 0,05 mm).",
+      "Sensores ópticos selados contra entrada de fiapos e pó de entretela.",
+      "Rotina integrada às travas de segurança dos softwares de digitalização."
+    ],
+    "commonErrors": [
+      "❌ Deixar um bastidor grande instalado na máquina ao ligar a chave geral, fazendo o bastidor bater com violência no cabeçote durante a calibração inicial.",
+      "❌ Forçar o pantógrafo com as mãos enquanto a máquina estiver ligada, tirando o motor do ponto zero de leitura.",
+      "❌ Permitir acúmulo de poeira e fiapos de linha sobre os sensores ópticos do trilho, impedindo a máquina de achar a posição zero."
+    ],
+    "troubleshootingTips": [
+      "A máquina emite o erro 'X/Y Limit Sensor Error' ao ligar: remova o bastidor, desligue o equipamento e limpe a região das fendas dos sensores nos trilhos com um pincel macio ou ar comprimido suave para remover fiapos.",
+      "O desenho começou a bordar torto ou deslocado 2 cm para o lado após uma linha enroscar: execute o comando 'Retornar à Origem' (Origin Return / Home Position) no painel da máquina para recalibrar o ponto zero antes de continuar.",
+      "O pantógrafo faz um estalo forte e tenta continuar andando além do fim do trilho: o sensor de limite de curso pode estar desconectado ou desalinhado; solicite revisão mecânica do sensor do eixo correspondente."
+    ],
+    "dicaArtrelados": "Crie o hábito de ouro no ateliê: ao terminar o dia de trabalho ou antes de ligar a máquina pela manhã, certifique-se de que nenhum bastidor pesado ou ferramentas fiquem apoiados sobre a bancada do pantógrafo. Deixar os eixos livres para fazer a calibração de ponto zero suave garante que sua máquina dure muitos anos sem folgas mecânicas!",
+    "voceSabia": "Nas máquinas industriais modernas com 12 ou 15 cabeçotes, o ponto zero calibra simultaneamente todos os cabeçotes em um único comando centralizado, garantindo que dezenas de camisas recebam o mesmo logotipo exatamente na mesma coordenada milimétrica!",
+    "practicalExercise": "Com a máquina ligada e sem bastidor instalado, entre no menu de configurações do painel e procure pela função 'Origem / Home'. Aperte o botão e observe atentamente o movimento suave do pantógrafo até os cantos do trilho e seu retorno ao centro. Note como a coordenada no visor zera perfeitamente (X: 0.0, Y: 0.0).",
+    "quickSummary": "Rotina automatizada de localização da origem dos eixos X e Y por sensores ópticos que protege o pantógrafo e garante alinhamento milimétrico.",
+    "relatedTerms": [
+      "Home Position",
+      "Pantógrafo",
+      "Eixo X",
+      "Eixo Y",
+      "Z-Axis",
+      "Limit Switches",
+      "Área de Bordado",
+      "Bastidor"
+    ],
+    "tags": [
+      "c-108",
+      "calibracaopontozero",
+      "pontozero",
+      "sensores",
+      "homing",
+      "pantografo",
+      "seguranca",
+      "manutencao"
+    ]
+  },
+  {
+    "id": "c-controle-de-qualidade-zero-defeito-no-atelie",
+    "code": "C-109",
+    "letter": "C",
+    "term": "Controle de Qualidade Zero Defeito no Ateliê (Protocolo de Acabamento & Inspeção de Alta Confecção)",
+    "pronunciation": "con-tro-li de qua-li-da-di zê-ru de-fei-tu (kõˈtɾɔli dʒi kwaliˈdadʒi)",
+    "level": "Iniciante 🟢",
+    "category": "Acabamento & Finalização",
+    "grammarClass": "Locução substantiva masculina composta.",
+    "origin": "Inspirado na filosofia industrial 'Zero Defects' criada nos Estados Unidos na década de 1960 pelo engenheiro Philip Crosby e adaptada pelas grandes confecções têxteis internacionais para garantir excelência absoluta na entrega ao cliente.",
+    "summary": "Protocolo de boas práticas, inspeção visual minuciosa e processos de limpeza que elimina pontas soltas, marcas de bastidor, nós e defeitos nas peças bordadas.",
+    "definition": "O Controle de Qualidade Zero Defeito no Ateliê (Protocolo de Acabamento Impecável / Total Quality Finishing / Inspeção Final de Bordado / Zero-Defect Embroidery) é a metodologia sistemática de controle de qualidade, revisão técnica e pós-processamento aplicada a cada peça que sai da máquina de bordar. Seu objetivo é garantir que nenhuma peça seja entregue ao cliente com imperfeições, abrangendo a remoção cirúrgica de fios de salto (Jump Stitches), aparamento de entretelas no verso sem deixar sobras duras, eliminação das marcas circulares do bastidor com vapor suave e verificação minuciosa do tensionamento dos pontos.",
+    "technicalDetails": "O método de Zero Defeito opera em três etapas críticas: 1) Pré-Bordado: verificação da ponta da agulha (sem rebarbas), teste de tensão do fio (relação 1/3 e 2/3 no verso) e teste de ancoragem do bastidor com o toque de tambor; 2) Durante o Bordado: monitoramento acústico do cabeçote (ausência de batidas secas) e verificação de corte de linha limpo; e 3) Pós-Bordado: inspeção visual em mesa iluminada com luz neutra de 5.000K, limpeza de pelos com escova macia, corte de fios de ligação rente à base com tesoura curva de precisão, recorte da entretela a 5 mm da borda externa e vaporização vertical a 15 cm de distância para revitalizar as fibras do tecido.",
+    "beginnerExplanation": "É a diferença entre um bordado comum e um bordado de luxo que encanta o cliente logo que ele abre a sacola! Significa olhar a peça pronta com olhos de carinho e rigor: cortar todas as pontinhas de linha que sobraram, tirar as marquinhas redondas que o bastidor deixou no tecido com um vaporzinho morno do ferro, e deixar o avesso tão limpinho e macio que dá gosto de ver!",
+    "howItWorks": [
+      "1. Ao retirar o bastidor da máquina, a peça é colocada sobre uma bancada limpa e bem iluminada.",
+      "2. O avesso é inspecionado primeiro: confere-se se a linha da bobina está no centro da coluna de satim (regra dos terços).",
+      "3. Com uma tesoura de ponta curva tipo 'bico de pato' ou tesoura de arremate, apara-se a entretela a cerca de 5 mm do bordado.",
+      "4. Vira-se a peça para a frente e cortam-se todos os fios de salto com tesoura de ponta finíssima rente à superfície têxtil.",
+      "5. Aplica-se um jato suave de vapor de ferro (sem encostar o metal quente diretamente nos fios de poliéster).",
+      "6. O calor e o vapor relaxam as fibras, removendo instantaneamente qualquer vinco ou marca de pressão do bastidor.",
+      "7. A peça recebe a dobra impecável, o perfuminho do ateliê e é embalada na sacola com garantia de encanto total."
+    ],
+    "applications": [
+      "Enxovais de bebê e roupas infantis (onde o avesso deve ser ultra-macio e sem fios que pinquem).",
+      "Uniformes corporativos e camisas de alto padrão para executivos e marcas de prestígio.",
+      "Bordados em tecidos delicados, sedas, veludos e toalhas de banho felpudas.",
+      "Padronização e redução a zero de devoluções ou reclamações de clientes no ateliê."
+    ],
+    "characteristics": [
+      "Inspeção visual sistemática da frente e do verso da peça.",
+      "Uso de ferramentas ergonômicas de corte (tesoura bico de pato e pinça de precisão).",
+      "Tratamento a vapor para eliminação de anéis de tensão causados pelo bastidor."
+    ],
+    "commonErrors": [
+      "❌ Puxar fios soltos com os dedos com força em vez de cortar com a tesoura, desmanchando o arremate do ponto.",
+      "❌ Encostar a chapa quente do ferro diretamente sobre a linha de poliéster, derretendo o fio e deixando o bordado duro e queimado.",
+      "❌ Deixar entretela sobrando com pontas afiadas no avesso de roupas de bebê, arranhando a pele sensível da criança."
+    ],
+    "troubleshootingTips": [
+      "O bastidor deixou uma marca esbranquiçada e afundada em tecido escuro de algodão: borrife uma névoa levíssima de água filtrada sobre a marca e passe um jato de vapor do ferro mantendo a base a 3 cm de distância sem pressionar; as fibras voltarão ao estado original.",
+      "Apareceram pequenas alcinhas de linha superior frouxa no direito: não corte as alcinhas! Use uma agulha de mão com a ponta cega para puxar a alcinha suavemente para o verso da peça e fixe com uma gotinha de selante de costura.",
+      "O verso do bordado ficou áspero e pinicando: utilize a técnica da entretela 'Soft Touch' ou aplique um pedaço de entretela de malha termocolante de proteção (Fusible Weft Backing) por cima do verso com ferro morno."
+    ],
+    "dicaArtrelados": "O maior segredo das marcas de grife: após limpar e passar o vapor na peça, borrife a meio metro de distância um aroma exclusivo para tecidos (água de passar aromatizada) e dobre a peça com papel de seda dentro da caixa. O cliente associa o seu ateliê a uma experiência sensorial inesquecível de carinho e perfeição!",
+    "voceSabia": "Nas fábricas japonesas que bordam quimonos cerimoniais de seda pura, os artesãos usam lupas de relojoeiro para examinar cada nó individual antes de liberar a vestimenta para a família imperial!",
+    "practicalExercise": "Pegue a última toalha ou camiseta que você bordou. Olhe a peça com uma lupa ou boa iluminação. Use a tesoura curva para cortar qualquer fiapo maior que 1 mm. Em seguida, passe o vapor a 10 cm de distância para apagar as marcas do bastidor. Compare o antes e o depois e veja como o aspecto da peça se valoriza em 100%!",
+    "quickSummary": "Metodologia de inspeção cuidadosa, limpeza de fios e vaporização que garante acabamento de boutique sem defeitos nas encomendas.",
+    "relatedTerms": [
+      "Acabamento",
+      "Tesoura Bico de Pato",
+      "Marca de Bastidor",
+      "Vaporizador Têxtil",
+      "Entretela de Proteção",
+      "Regra dos Terços",
+      "Controle de Qualidade"
+    ],
+    "tags": [
+      "c-109",
+      "controledequalidade",
+      "zerodefeito",
+      "acabamento",
+      "inspecao",
+      "marcadebastidor",
+      "atelie",
+      "posbordado"
+    ]
+  },
+  {
+    "id": "c-camisetas-polos-e-camisas-sociais-bordado-peito-manga",
+    "code": "C-110",
+    "letter": "C",
+    "term": "Camisetas, Polos e Camisas Sociais (Bordados de Logotipos no Peito, Mangas & Golas)",
+    "pronunciation": "ca-mi-se-tas, po-los e ca-mi-sas so-si-ais (kamiˈzetɐs ˈpɔluz i kamiˈzɐs sosiˈajs)",
+    "level": "Intermediário 🟡",
+    "category": "Tipos de Tecidos",
+    "grammarClass": "Locução substantiva feminina composta.",
+    "origin": "Do diminutivo latino 'camisia' (camisa leve de linho ou algodão) e da vestimenta esportiva inglesa 'polo shirt' criada na década de 1920 pelo tenista René Lacoste, que revolucionou a história ao aplicar pela primeira vez um crocodilo bordado no peito de uma camisa.",
+    "summary": "Guia completo de gabaritagem e estabilização para bordar logotipos corporativos no peito esquerdo, mangas e golas em malha piquet, algodão 30.1 e camisaria fina.",
+    "definition": "O bordado em Camisetas, Polos e Camisas Sociais (Bordado Corporativo no Peito / Left Chest & Sleeve Embroidery / Personalização de Camisaria Empresarial) é a aplicação mais frequente e rentável do mercado de uniformes e moda profissional. Engloba o posicionamento anatômico exato do logotipo no peito esquerdo (alinhado com o encontro da gola e ombro), a estabilização de tecidos com elasticidade diferenciada (piquet favo com textura aberta versus camisas sociais planas em popeline de algodão fio 60/80), a montagem em bastidores tubulares e o uso de mini-bastidores para mangas e punhos estreitos sem distorção das linhas de costura.",
+    "technicalDetails": "O posicionamento no peito esquerdo segue a regra biométrica: o centro do bordado deve situar-se entre 18 cm e 22 cm abaixo da costura superior do ombro (para tamanhos M masculinos) e alinhado verticalmente com o centro da fenda da vista dos botões ou 4 a 6 cm à esquerda do centro do colarinho. Para malha piquet de camisa polo: exige entretela recortável (Cutaway) de 60 a 80 g/m² para neutralizar o repuxo da trama aerada em formato de colmeia e agulha 75/11 com ponta bola leve (SES/FFG). Para camisas sociais planas: entretela rasgável limpa de 50 g/m² e agulha ponta aguda 70/10 Microtex para perfurar os fios finos de algodão sem deixar marcas de repuxo ou furos esbranquiçados.",
+    "beginnerExplanation": "É o clássico dos clássicos: colocar o símbolo da empresa no peito esquerdo de uma camisa polo ou camiseta! O maior medo de quem está começando é deixar o bordado torto, muito baixo na barriga ou muito grudado no sovaco. Com a regrinha dos 4 dedos abaixo do ombro e alinhando com a costura dos botões, o bordado fica no lugar perfeito do coração. E na camisa polo, nunca use entretela que rasga fácil, senão a colmeia do pano enruga toda!",
+    "howItWorks": [
+      "1. Veste-se a camisa polo ou camiseta na tábua de passar ou bancada de alinhamento com a frente bem esticada e sem rugas.",
+      "2. Marca-se a coordenada central do peito esquerdo: desce-se 18 a 20 cm a partir da costura do ombro e alinha-se com a lateral da vista de botões com caneta removível.",
+      "3. Encaixa-se a entretela recortável de 70 g/m² por dentro da camisa sob o ponto marcado.",
+      "4. Prende-se a peça no bastidor redondo de 10 cm ou 13 cm com a firmeza de um tambor sem puxar as fibras de malha.",
+      "5. Na máquina, faz-se o traçado de área (Trace) para checar se a agulha não colidirá com a carcaça do bastidor ou botões.",
+      "6. A máquina executa o bordado corporativo a 700–800 PPM com sob-camada reticulada (Tatami Underlay).",
+      "7. Retira-se a peça, corta-se a entretela em círculo a 5 mm do verso e aplica-se um jato suave de vapor para apagar marcas do aro."
+    ],
+    "applications": [
+      "Uniformes corporativos para indústrias, bancos, escritórios e redes de fast-food.",
+      "Camisas polo promocionais para eventos executivos, convenções e feiras de negócios.",
+      "Camisaria social masculina e feminina com monogramas no punho, bolso ou colarinho.",
+      "Bordados esportivos em mangas e barras de camisetas para academias e times esportivos."
+    ],
+    "characteristics": [
+      "Alinhamento anatômico perfeito que não deforma quando a pessoa veste a peça.",
+      "Planicidade absoluta após lavagens sem formação de 'bolhas' ou rugas ao redor do logo.",
+      "Resistência à abrasão de atrito do cinto de segurança e lavanderia comercial."
+    ],
+    "commonErrors": [
+      "❌ Posicionar o bordado muito perto do braço (na axila) ou muito baixo perto do abdômen, gerando aspecto desleixado na peça vestida.",
+      "❌ Usar entretela rasgável em camisa polo piquet: a malha enruga toda e o logo fica amassado como um papelão na primeira lavagem.",
+      "❌ Prender a parte de trás da camiseta junto no bastidor, bordando a frente e as costas unidas por descuido."
+    ],
+    "troubleshootingTips": [
+      "O logotipo ficou torto na camisa polo: utilize um esquadro em 'L' ou régua gabarito de camisas alinhada com a costura dos botões antes de apertar o parafuso do bastidor.",
+      "Apareceram ondas de repuxo nas bordas do bordado em camiseta de algodão: aumente a compensação de repuxo no software para 0,40 mm e use entretela recortável suave.",
+      "O tecido de popeline da camisa social branca desfia nos cantos do bordado: troque para agulha fina 65/9 ou 70/10 ponta aguda e diminua a densidade do ponto satim para 0,44 mm."
+    ],
+    "dicaArtrelados": "O gabarito infalível do ateliê Artrelados: coloque uma fita crepe horizontal ligando a parte inferior das duas cavas das mangas da camisa. A altura exata do centro do peito esquerdo fica exatamente 2 a 3 cm ACIMA dessa linha de fita crepe! O alinhamento sai perfeito em qualquer tamanho, de P a GG, em menos de 10 segundos!",
+    "voceSabia": "René Lacoste bordou o primeiro crocodilo em suas camisas brancas de algodão em 1927 porque a imprensa americana o apelidou de 'The Alligator' pela sua tenacidade nas quadras de tênis. Esse foi o primeiro logotipo bordado exposto externamente na história da moda mundial!",
+    "practicalExercise": "Pegue uma camiseta básica de algodão. Use a regra da fita entre as cavas das mangas e marque o peito esquerdo. Monte no bastidor 10x10 com entretela recortável e borde as iniciais da sua marca com 8 cm de largura. Vista a camiseta diante do espelho e comprove o caimento harmonioso!",
+    "quickSummary": "Procedimento padronizado de posicionamento, gabaritagem e estabilização para bordados corporativos em peito, mangas e golas de camisas.",
+    "relatedTerms": [
+      "Peito Esquerdo (Left Chest)",
+      "Polo Piquet",
+      "Gabarito de Camisas",
+      "Entretela Recortável (Cutaway)",
+      "Compensação de Repuxo",
+      "Regra dos Quatro Dedos",
+      "Underlay Reticulado"
+    ],
+    "tags": [
+      "c-110",
+      "camisetas",
+      "polos",
+      "camisasociais",
+      "peitoesquerdo",
+      "uniformes",
+      "corporativo",
+      "moda",
+      "artrelados"
+    ]
+  },
+  {
+    "id": "c-calcas-jeans-e-jaquetas-jeans-bordado-denim-pesado",
+    "code": "C-111",
+    "letter": "C",
+    "term": "Calças Jeans e Jaquetas Jeans (Bordados em Denim Pesado, Bolsos Traseiros & Costas Inteiras)",
+    "pronunciation": "cal-sas djins e ja-ke-tas djins (ˈkawsɐz ˈdʒĩjz i ʒaˈketɐz ˈdʒĩjs)",
+    "level": "Avançado 🔴",
+    "category": "Tipos de Tecidos",
+    "grammarClass": "Locução substantiva feminina composta.",
+    "origin": "Do termo genovês 'Gênes' (marinheiros da cidade italiana de Gênova que usavam calças resistentes de sarja azul) e da cidade francesa de Nîmes ('serge de Nîmes', originando a palavra 'denim'). Popularizado mundialmente por Levi Strauss a partir de 1873 como o tecido utilitário mais resistente do planeta.",
+    "summary": "Técnicas de bordado de alta penetração em sarja pesada de jeans (denim de 10 a 14 oz), personalização de bolsos montados e bordados de costas inteiras de jaquetas.",
+    "definition": "O bordado em Calças Jeans e Jaquetas Jeans (Bordado em Denim Pesado / Heavy Denim & Jacket Back Embroidery / Customização em Sarja Grossa) compreende as rotinas operacionais e calibrações eletromecânicas necessárias para bordar sobre tecidos densos de sarja cruzada de algodão (denim) com peso entre 10 e 14 onças (oz/yd²). A técnica envolve a transposição de costuras grossas rebatidas com fio torcido de pesponto sem desvio da agulha, o uso de bastidores magnéticos ou gabaritos tubulares estreitos para bolsos traseiros já costurados na calça, e a divisão ou alinhamento com pantógrafo grande para painéis de costas de jaquetas jeans.",
+    "technicalDetails": "O denim de 14 onças exerce forte resistência de penetração e atrito cinético, aquecendo a agulha e provocando deflexão (Needle Deflection) ao colidir com costuras rebatidas, o que faz a ponta da agulha bater na lançadeira e quebrar. Parâmetros mandatórios: 1) Agulhas Especiais: Schmetz SERV 7 ou Groz-Beckert SAN 6 calibre 90/14 ou 100/16 com lâmina espessa reforçada e haste cônica que não enverga no impacto; 2) Densidade Equilibrada: satim entre 0,40 mm e 0,44 mm (densidades excessivas causam agulhadas repetidas no mesmo ponto, estourando o fio); 3) Entretela Rasgável Pesada de 80 g/m² no verso; 4) Lubrificação com agulhas teflonadas ou gota de silicone líquido para reduzir atrito térmico; e 5) Redução de velocidade para 500 a 650 PPM ao atravessar costuras volumosas.",
+    "beginnerExplanation": "Jeans é um tecido maravilhoso para bordar porque ele é firme e segura muito bem os pontos, mas tem dois segredos que você não pode ignorar: ele é duro e tem costuras muito grossas! Se você usar agulha fininha normal de camiseta, a agulha entorta quando bate na costura e quebra com um estalo forte. Você precisa usar uma agulha especial para Jeans (mais grossa e forte) e abaixar um pouquinho a velocidade da máquina. Para bordar o bolso da calça sem costurar o bolso fechado, você solta os pontinhos de baixo do bolso ou usa um bastidorzinho especial!",
+    "howItWorks": [
+      "1. Avalia-se a área da peça (painel de costas de jaqueta, perna de calça aberta ou bolso traseiro).",
+      "2. Se for bolso pronto de calça, descosturam-se os pontos da parte inferior com desmanchador para liberar a abertura ou utiliza-se bastidor magnético compacto.",
+      "3. Instala-se na máquina uma agulha nova reforçada para Jeans (tamanho 90/14 ou 100/16 ponta afiada aguda).",
+      "4. Prende-se o jeans no bastidor com entretela rasgável pesada de 80 g/m²; para costas de jaqueta com barra grossa, apoia-se o peso da jaqueta na bancada.",
+      "5. Regula-se a velocidade da máquina para 600 PPM para garantir torque elevado de penetração no motor.",
+      "6. A máquina executa o bordado: os pontos assentam com riqueza de relevo sobre o fundo azul índigo.",
+      "7. Ao terminar, retira-se o excesso de entretela no verso, repõe-se a costura do bolso na máquina de costura reta e aplica-se vapor morno."
+    ],
+    "applications": [
+      "Costas inteiras de jaquetas jeans para marcas de moda urbana (Streetwear) e motociclistas.",
+      "Bolsos traseiros e bolsinhos relógio de calças e shorts jeans com logotipos e florais.",
+      "Lapelas e palas frontais de camisas e jaquetas jeans customizadas.",
+      "Patches bordados aplicados com pesponto em calças jeans rasgadas (estilo Destroyed)."
+    ],
+    "characteristics": [
+      "Estrutura rígida de tecido que suporta bordados ultra-densos sem enrugar.",
+      "Contraste visual espetacular entre fios de cores vivas e o azul índigo desbotado.",
+      "Altíssima durabilidade mecânica que dura décadas com lavagens normais."
+    ],
+    "commonErrors": [
+      "❌ Usar agulha fina 70/10 comum de malha: a agulha entorta ao bater no denim grosso, bate na chapa de agulha e destrói o bico da lançadeira.",
+      "❌ Tentar bordar o bolso traseiro sem abrir a costura ou sem isolar o forro, bordando a calça fechada de modo que a mão não entra mais no bolso.",
+      "❌ Bordar a 1.000 PPM em cima de costuras duplas rebatidas, quebrando linhas por superaquecimento por atrito."
+    ],
+    "troubleshootingTips": [
+      "A agulha está partindo ao passar sobre a costura dupla da jaqueta: instale uma agulha Schmetz SERV 7 calibre 90/14 com reforço de haste e reduza a velocidade para 500 PPM.",
+      "A linha superior desfiou e arrebentou repetidamente: passe uma gotinha de óleo de silicone mineral puro na linha e verifique se a agulha possui olho ampliado para fios de jeans.",
+      "O aro do bastidor plástico escapa e não consegue fechar por causa da grossura do jeans: utilize a técnica de bastidor magnético ou use parafusos extensores de bastidor com aperto mecânico."
+    ],
+    "dicaArtrelados": "O truque de ouro para bordar bolsos traseiros de calça jeans já pronta: use o desmanchador de costura para soltar apenas as costuras laterais e inferiores do bolso, mantendo o topo preso na calça. Dobre a calça para trás, prenda só o bolso na entretela adesiva e borde com liberdade total. No final, passe uma costurinha reta com linha de pesponto ocre no mesmo buraquinho original. Fica 100% original de fábrica!",
+    "voceSabia": "O famoso bolso pequeno embutido no bolso direito da frente das calças jeans clássicas (chamado de 'bolsinho de relógio' ou 'watch pocket') foi criado em 1890 originalmente para que os vaqueiros e mineradores do Velho Oeste guardassem seus relógios de bolso protegidos de quedas e poeira!",
+    "practicalExercise": "Pegue uma calça jeans velha que você não usa mais. Desmonte o bolso traseiro, prenda no bastidor com entretela grossa e agulha 90/14, e borde um desenho moderno em ponto satim e tatami. Costure o bolso de volta e veja como você tem em mãos uma peça exclusiva de estilista!",
+    "quickSummary": "Procedimento de alta performance para bordar tecidos pesados de sarja denim em calças e jaquetas jeans com agulhas reforçadas e isolamento de bolsos.",
+    "relatedTerms": [
+      "Denim e Sarja",
+      "Agulha Jeans / Denim",
+      "Agulha SERV 7 (Anti-Deflexão)",
+      "Bolsos Traseiros",
+      "Jaqueta Jeans Costas",
+      "Bastidor Magnético",
+      "Entretela Rasgável Grossa"
+    ],
+    "tags": [
+      "c-111",
+      "calcasjeans",
+      "jaquetasjeans",
+      "denim",
+      "sarja",
+      "agulhajeans",
+      "costasdejaqueta",
+      "moda",
+      "artrelados"
+    ]
   }
 ];

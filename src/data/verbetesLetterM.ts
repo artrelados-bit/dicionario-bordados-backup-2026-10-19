@@ -7912,5 +7912,73 @@ export const VERBETES_LETTER_M: Verbete[] = [
       "ARTRELADOS. O Pula-Pula da Precisão: Segredos da Mola de Retorno da Agulha e Como Evitar Batidas no Bastidor. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "m-manta-e-cueiro-de-bebe-enxoval-personalizado",
+    "code": "M-109",
+    "letter": "M",
+    "term": "Manta e Cueiro de Bebê (Personalização com Dados de Nascimento em Tecidos Nobres e Aveludados)",
+    "pronunciation": "man-ta e cuei-ru de be-bê (ˈmɐ̃tɐ i kuˈe(j)ɾu dʒi beˈbe)",
+    "level": "Intermediário 🟡",
+    "category": "Elementos do Bordado",
+    "grammarClass": "Locução substantiva feminina composta.",
+    "origin": "Do latim tardio 'mantum' (manto, cobertura aconchegante para aquecer o corpo) e do latim vulgar 'corium' (faixa têxtil tradicional usada historicamente para aconchegar e envolver o recém-nascido imitando o útero materno).",
+    "summary": "Metodologia para bordar grandes mantas e cueiros de bebê em piquet, plush e microfibra com alinhamento no canto e dados de nascimento.",
+    "definition": "A Manta e Cueiro de Bebê (Mantas de Saída de Maternidade / Baby Blanket & Swaddle Embroidery / Personalização de Cobertas Infantis) é a técnica de confecção e bordado computadorizado de peças de grande porte destinadas a agasalhar, embalar e apresentar o recém-nascido. As peças variam de tecidos estruturados nobres (piquet favo de algodão forrado com percal 400 fios) a materiais ultra-aveludados e térmicos (plush, microsoft e microfibra flannel). Exige marcação geométrica precisa no canto diagonal (a 45°), compensação de repuxo para materiais espessos, sob-camada estabilizadora hidrossolúvel para não afundar pontos na pelúcia e matrizes refinadas contendo nome, data, horário, peso e comprimento do bebê.",
+    "technicalDetails": "Ao bordar mantas no canto diagonal, o pantógrafo movimenta uma grande massa de tecido solto fora do bastidor, o que pode gerar peso e atrito sobre a bancada. Requisitos técnicos: 1) Alinhamento em 45 Graus: a matriz deve ser girada no software ou no painel para que o bordado fique perfeitamente na vertical quando a manta estiver dobrada no berço ou colo; 2) Alívio de Peso: suporte de bancada ampla para que o peso do restante da manta não puxe o bastidor e descalibre o motor de passo do eixo X/Y; 3) Sanduíche de Estabilização para Pelo Alto (Plush/Flannel): entretela rasgável de 80 g/m² no verso e filme plástico hidrossolúvel de 40 mícrons na frente para prender a felpa; 4) Underlay Estruturante Reticulado Duplo para evitar deformação de letras em tamanhos superiores a 15 cm; e 5) Forração Embutida: o bordado é executado antes da união do forro, garantindo que o verso fique 100% oculto e limpo.",
+    "beginnerExplanation": "A manta de saída de maternidade é a peça mais fotografada da vida de um bebê! As mães adoram colocar o nome da criança bem grande no canto, com florais, coroas ou aqueles dados fofinhos de nascimento (dia, hora, peso e tamanho). Como a manta é grandona e fofinha, você nunca deve deixar o peso dela puxar o bastidor para baixo na máquina. Apoie o resto do tecido em cima de uma mesa ou use um apoiador, e borde com carinho no cantinho para a foto de saída do hospital ficar perfeita!",
+    "howItWorks": [
+      "1. Dobra-se a manta ao meio na diagonal para encontrar o centro exato da ponta que ficará visível no colo da mãe.",
+      "2. Marca-se o ponto central com a caneta mágica que apaga com calor a cerca de 12 a 15 cm do bico da manta.",
+      "3. Gira-se a matriz em 45° no software ou no painel da máquina para alinhar perfeitamente com a diagonal da peça.",
+      "4. Prende-se a entretela e o tecido no bastidor grande (16x26 cm, 18x30 cm ou 20x30 cm), aplicando plástico solúvel por cima se for tecido aveludado.",
+      "5. Apoia-se todo o volume restante da manta sobre a bancada da máquina de bordar para aliviar o peso mecânico.",
+      "6. Executa-se o bordado com linha de alta resistência, checando os saltos de corte entre os números e letrinhas.",
+      "7. Ao terminar, forra-se a manta com percal macio, costurando toda a borda e ocultando completamente o avesso do bordado."
+    ],
+    "applications": [
+      "Mantas de saída de maternidade personalizadas com brasões da família e monogramas nobres.",
+      "Cueiros de flanela de algodão com barrados bordados em festonê ou ponto ajour.",
+      "Mantas de apego e cobertores térmicos de microfibra com dados completos de nascimento da criança.",
+      "Mantas litúrgicas de batizado em tecido de piquet branco com linhas metalizadas prateadas ou douradas."
+    ],
+    "characteristics": [
+      "Posicionamento diagonal harmônico que se destaca perfeitamente quando a manta envolve o bebê.",
+      "Avesso invisível embutido entre o tecido frontal bordado e a camada de forro macio.",
+      "Estabilidade dimensional impecável mesmo em bordados extensos de mais de 25 cm de largura."
+    ],
+    "commonErrors": [
+      "❌ Deixar o restante da manta pesada pendurada para fora da mesa da máquina; o peso puxa o pantógrafo e o bordado sai totalmente desalinhado e torto.",
+      "❌ Bordar a manta atravessando o forro, deixando nós e linhas do verso visíveis e feios nas costas da peça; sempre borde antes de costurar o forro.",
+      "❌ Esquecer o plástico hidrossolúvel em mantas de microfibra peluda, fazendo os pontos sumirem dentro dos pelos e ficarem com aspecto engolido."
+    ],
+    "troubleshootingTips": [
+      "O desenho começou a bordar deslocado para o lado na metade da execução: o peso da manta solta puxou o pantógrafo; pare a máquina, coloque suportes ou caixas na altura da bancada para apoiar o tecido e retome o alinhamento com a função de retorno à origem.",
+      "A escrita de data e peso ficou ilegível: use fontes com serifas limpas e altura mínima de 12 mm em tecidos felpudos, sempre com plástico hidrossolúvel superior.",
+      "A manta encolheu ao redor do brasão após a lavagem: utilize piquet pré-encolhido (lavado antes do corte) e entretela recortável firme de 80 g/m²."
+    ],
+    "dicaArtrelados": "O truque definitivo da Artrelados para alinhamento de cantos de mantas: use o gabarito plástico transparente do bastidor! Coloque a régua do gabarito exatamente sobre a linha de vinco diagonal da manta. Encaixe a cruz central no bico marcado. O alinhamento fica 100% perfeito de primeira, sem risco de o nome do bebê ficar torto na foto de saída da maternidade!",
+    "voceSabia": "O cueiro é uma das vestimentas mais antigas da história humana: registros do Egito Antigo e de textos bíblicos já mencionavam a tradição de envolver os recém-nascidos em faixas de linho puro ('swaddling clothes') para acalmá-los e transmitir segurança térmica!",
+    "practicalExercise": "Pegue um quadrado de flanela ou piquet de 40x40 cm. Dobre na diagonal para marcar o meio do bico. Programe um monograma com uma inicial clássica e um laço floral. Borde no bastidor 13x18 a 45°. Aplique um forro de tricoline pelo avesso e admire a perfeição de uma mini-manta de maternidade!",
+    "quickSummary": "Manual completo de bordado em grandes mantas e cueiros de maternidade com alinhamento angular no canto, alívio de peso e avesso embutido.",
+    "relatedTerms": [
+      "Piquet Favo",
+      "Tecido Plush e Microfibra",
+      "Alinhamento Angular (45 Graus)",
+      "Filme Hidrossolúvel",
+      "Gabarito de Bastidor",
+      "Avesso Embutido",
+      "Saída de Maternidade"
+    ],
+    "tags": [
+      "m-109",
+      "mantadebebe",
+      "cueiro",
+      "saidamaternidade",
+      "linhabebe",
+      "enxovalinfantil",
+      "bordadodecanto",
+      "artrelados"
+    ]
   }
 ];

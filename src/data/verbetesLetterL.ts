@@ -7520,5 +7520,73 @@ export const VERBETES_LETTER_L: Verbete[] = [
       "ARTRELADOS. A Pinça Invisível da Bobina: Como a Lâmina Segura-Fio Garante a Partida Perfeita em Cada Troca de Cor. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-07"
+  },
+  {
+    "id": "l-lacos-e-tiaras-de-cabelo-no-bastidor-acessorios-ith",
+    "code": "L-102",
+    "letter": "L",
+    "term": "Laços e Tiaras de Cabelo no Bastidor (Acessórios de Moda e Presilhas Feitas In The Hoop)",
+    "pronunciation": "la-sus e ti-a-ras de ca-be-lu nu bas-ti-dor (ˈlasuz i tʃiˈaɾɐz dʒi kaˈbelu)",
+    "level": "Iniciante 🟢",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva masculina composta.",
+    "origin": "Do latim 'laqueus' (nó decorativo corredio, laço de fita para adornar vestimentas) e do grego 'tiara' (coroa ou diadema ornamental para a fronte feminina), adaptado na era digital para montagens automatizadas 100% estruturadas no bastidor de bordar.",
+    "summary": "Técnica de confecção no bastidor de laços estruturados, gravatinhas e tiaras em tricoline, veludo, lonita e sintético com acolchoamento e embutimento de presilhas.",
+    "definition": "A confecção de Laços e Tiaras de Cabelo no Bastidor (Acessórios Infantis e Adultos ITH / In The Hoop Hair Bows & Headbands / Presilhas e Bicos de Pato no Bastidor) compreende a metodologia de costura, corte e montagem computadorizada de acessórios de moda capilar inteiramente modelados pela máquina de bordar. A técnica engloba a utilização de múltiplos materiais nobres (tricoline 100% algodão, linho rústico, veludo cotelê, lonita glitter e materiais sintéticos como Montana e Doll), paradas programadas para colocação de manta estruturante (R1 ou feltro), bordados de personalização (nomes, flores rococó e arabescos) e paradas finais para embutir bicos de pato ou tiras elásticas de tiara sem costura manual visível.",
+    "technicalDetails": "A matriz de laço ITH opera com precisão geométrica milimétrica para permitir viramento sem deformação. Estrutura técnica da matriz: 1) Linha Guia de Aplicação (Placement Stitch): demarcação com ponto corrido leve no estabilizador; 2) Ponto de Acolchoamento Estrutural: costura da manta acrílica interna com recuo de 2 mm das bordas para não criar volume grosseiro na dobra do laço; 3) Bordado Decorativo: monogramas ou ramos florais com satim de 0,38 mm no centro do laço; 4) Fechamento Periférico em Ponto Bean Triplo: costura reforçada de alta densidade deixando abertura central de 2 a 3 cm para desvirar; e 5) Faixinha de Miolo (Center Band): tirinha bordada com fecho embutido para franzir e travar o laço no bico de pato metálico encapado.",
+    "beginnerExplanation": "Fazer laço no bastidor é um dos projetos mais rápidos, baratos e lucrativos do ateliê! Em menos de 10 minutos, com um pedacinho minúsculo de pano que seria retalho, a máquina borda um desenho lindo, costura todo o contorno do laço e você só precisa desvirar e prender o bico de pato no meio. O laço sai perfeito, com os dois lados do mesmo tamanho e super durinho, pronto para vender para mães de meninas ou lojas de acessórios infantis!",
+    "howItWorks": [
+      "1. Monta-se entretela rasgável ou hidrossolúvel no bastidor e borda-se a linha de marcação do laço.",
+      "2. Coloca-se a manta acrílica R1 ou feltro fino sobre a área e a máquina passa o ponto de fixação.",
+      "3. Posiciona-se o tecido principal (tricoline, veludo ou sintético) sobre a manta.",
+      "4. A máquina borda o monograma, florzinha ou textura decorativa que ficará na frente do laço.",
+      "5. Coloca-se o tecido do verso direito com direito por cima de tudo.",
+      "6. A máquina costura todo o contorno do laço com ponto triplo, deixando uma pequena abertura no meio.",
+      "7. Retira-se do bastidor, desvira-se com cuidado, franze-se o centro com a faixinha bordada e cola-se ou prende-se o bico de pato com segurança."
+    ],
+    "applications": [
+      "Laços infantis em bicos de pato encapados para bebês e meninas de todas as idades.",
+      "Tiaras de cabelo acolchoadas em veludo bordadas com pérolas e monogramas para noivas e debutantes.",
+      "Gravatas-borboleta infantis para pajens de casamento combinando com o terno.",
+      "Laços temáticos para datas sazonais: Natal, Páscoa, Festa Junina e Volta às Aulas."
+    ],
+    "characteristics": [
+      "Simetria perfeita entre as duas asas do laço garantida pela precisão digital dos eixos X e Y.",
+      "Aproveitamento inteligente de sobras e retalhos nobres de tecidos do ateliê.",
+      "Confecção ultrarrápida com altíssima margem de lucro por unidade produzida."
+    ],
+    "commonErrors": [
+      "❌ Usar manta muito grossa (como R2 de 200g) que deixa o laço duro e impossível de franzir no meio com elegância.",
+      "❌ Cortar a sobra de tecido rente demais da costura ao desvirar, fazendo a borda descosturar e abrir na hora do manuseio.",
+      "❌ Colar o bico de pato com cola quente fraca que se solta facilmente com o calor do sol ou puxões de crianças."
+    ],
+    "troubleshootingTips": [
+      "As pontas do laço ficaram arredondadas e sem forma após desvirar: corte os cantinhos diagonais de tecido a cerca de 2 mm da costura antes de desvirar e use um virador de pontas ou pincel de madeira macio para empurrar os cantos com delicadeza.",
+      "O tecido sintético rasgou na costura de contorno: aumente o comprimento do ponto reto de fechamento para 2,8 mm a 3,0 mm no software para que as agulhadas não virem uma linha de corte picotada.",
+      "O laço ficou murcho sem volume: utilize uma camada interna de feltro fino de 1 mm como recheio estruturante entre o tecido frontal e o verso."
+    ],
+    "dicaArtrelados": "O acabamento de boutique Artrelados para laços: encape o bico de pato metálico com uma fitinha de gorgurão da mesma cor do laço e cole uma borrachinha anti-deslizante de silicone no interior do grampo. O bico de pato segura até nos fios mais fininhos e ralos de cabelo de bebês sem escorregar e sem machucar a cabeça!",
+    "voceSabia": "O laço de cabelo é um dos símbolos de moda feminina mais antigos da história: na Grécia Antiga, fitas de seda bordadas com fios de ouro chamadas 'sphendone' eram usadas pelas mulheres atenienses para prender os cabelos em coques elegantes nos dias de festa!",
+    "practicalExercise": "Pegue dois retalhos de tricoline de 15x15 cm que sobraram de um enxoval. Abra uma matriz ITH simples de lacinho no bastidor 10x10 cm. Borde, desvire, franze o centro com uma linha de pipa e prenda em um bico de pato encapado. Calcule o custo dos retalhos (quase zero) e veja o valor de venda que você acabou de criar!",
+    "quickSummary": "Metodologia passo a passo de confecção no bastidor de laços estruturados e tiaras de alta simetria com aproveitamento inteligente de retalhos.",
+    "relatedTerms": [
+      "In The Hoop (ITH)",
+      "Manta Acrílica R1",
+      "Bico de Pato Encapado",
+      "Acessórios Infantis",
+      "Simetria Digital",
+      "Tecido Tricoline e Veludo",
+      "Borrachinha Antideslizante"
+    ],
+    "tags": [
+      "l-102",
+      "lacosdecabelo",
+      "tiaras",
+      "acessoriosdemoda",
+      "presilhas",
+      "ith",
+      "bicodepato",
+      "artrelados"
+    ]
   }
 ];
