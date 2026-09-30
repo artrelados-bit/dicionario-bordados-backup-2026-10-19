@@ -473,6 +473,10 @@ export const CATEGORY_TRANSLATIONS_ES: Record<string, string> = {
   "Tipos de Tecidos": "Tipos de Tejidos",
   "Técnicas de Bastidor": "Técnicas de Bastidor",
   "Tensão & Calibração": "Tensión y Calibración",
+  "Tensão & Mecânica": "Tensión y Mecánica",
+  "Tensão & Ajustes": "Tensión y Ajustes",
+  "Passagem de Linha & Tensão": "Enhebrado y Tensión",
+  "Mecatrônica Avançada, Sistemas de Tensão & Inovação Tecnológica": "Mecatrónica Avanzada, Sistemas de Tensión e Innovación Tecnológica",
   "Solução de Problemas": "Solución de Problemas",
   "Terminologia Geral": "Terminología General",
 };

@@ -354,7 +354,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
                 {verbete.characteristics.map((item, idx) => (
                   <li key={idx} className="p-2.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start space-x-2">
                     <span className="font-bold text-sky-600 shrink-0">•</span>
-                    <span>{item.replace(/^[•\s-]+/, "")}</span>
+                    <span>{typeof item === "string" ? item.replace(/^[•\s-]+/, "") : String(item ?? "")}</span>
                   </li>
                 ))}
               </ul>
@@ -389,7 +389,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
                 {(Array.isArray(verbete.howItWorks) ? verbete.howItWorks : verbete.howItWorks.split("\n")).filter(Boolean).map((step, idx) => (
                   <div key={idx} className="p-2.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start space-x-2">
                     <span className="font-bold text-amber-700 shrink-0">{idx + 1}.</span>
-                    <span>{step.replace(/^\d+\.\s*/, "")}</span>
+                    <span>{typeof step === "string" ? step.replace(/^\d+\.\s*/, "") : String(step ?? "")}</span>
                   </div>
                 ))}
               </div>
@@ -511,7 +511,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
                     {verbete.limitations.map((lim, idx) => (
                       <li key={idx} className="flex items-start space-x-1.5">
                         <span className="shrink-0">•</span>
-                        <span>{lim.replace(/^[•\s-]+/, "")}</span>
+                        <span>{typeof lim === "string" ? lim.replace(/^[•\s-]+/, "") : String(lim ?? "")}</span>
                       </li>
                     ))}
                   </ul>

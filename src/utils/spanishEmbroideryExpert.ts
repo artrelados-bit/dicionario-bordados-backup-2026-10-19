@@ -4,6 +4,17 @@ import { VERBETES_LETTER_A_LOTE1_ES } from "../data/verbetesLetterA_Lote1_ES";
 import { VERBETES_LETTER_A_LOTE2_ES } from "../data/verbetesLetterA_Lote2_ES";
 import { VERBETES_LETTER_A_LOTE3_ES } from "../data/verbetesLetterA_Lote3_ES";
 import { VERBETES_LETTER_A_LOTE4_ES } from "../data/verbetesLetterA_Lote4_ES";
+import { VERBETES_LETTER_B_LOTE1_ES } from "../data/verbetesLetterB_Lote1_ES";
+import { VERBETES_LETTER_B_LOTE2_ES } from "../data/verbetesLetterB_Lote2_ES";
+import { VERBETES_LETTER_B_LOTE3_ES } from "../data/verbetesLetterB_Lote3_ES";
+import { VERBETES_LETTER_B_LOTE4_ES } from "../data/verbetesLetterB_Lote4_ES";
+import { VERBETES_LETTER_B_LOTE5_ES } from "../data/verbetesLetterB_Lote5_ES";
+import { VERBETES_LETTER_C_LOTE1_ES } from "../data/verbetesLetterC_Lote1_ES";
+import { VERBETES_LETTER_C_LOTE2_ES } from "../data/verbetesLetterC_Lote2_ES";
+import { VERBETES_LETTER_C_LOTE3_ES } from "../data/verbetesLetterC_Lote3_ES";
+import { VERBETES_LETTER_C_LOTE4_ES } from "../data/verbetesLetterC_Lote4_ES";
+import { VERBETES_LETTER_C_LOTE5_ES } from "../data/verbetesLetterC_Lote5_ES";
+import { VERBETES_LETTER_C_LOTE6_ES } from "../data/verbetesLetterC_Lote6_ES";
 import { CURATED_SPANISH_APPLICATIONS } from "../data/spanishApplications";
 
 /**
@@ -492,14 +503,32 @@ export const CURATED_SPANISH_VERBETES: Record<string, Partial<Verbete>> = {
   ...VERBETES_LETTER_A_LOTE1_ES,
   ...VERBETES_LETTER_A_LOTE2_ES,
   ...VERBETES_LETTER_A_LOTE3_ES,
-  ...VERBETES_LETTER_A_LOTE4_ES
+  ...VERBETES_LETTER_A_LOTE4_ES,
+  ...VERBETES_LETTER_B_LOTE1_ES,
+  ...VERBETES_LETTER_B_LOTE2_ES,
+  ...VERBETES_LETTER_B_LOTE3_ES,
+  ...VERBETES_LETTER_B_LOTE4_ES,
+  ...VERBETES_LETTER_B_LOTE5_ES,
+  ...VERBETES_LETTER_C_LOTE1_ES,
+  ...VERBETES_LETTER_C_LOTE2_ES,
+  ...VERBETES_LETTER_C_LOTE3_ES,
+  ...VERBETES_LETTER_C_LOTE4_ES,
+  ...VERBETES_LETTER_C_LOTE5_ES,
+  ...VERBETES_LETTER_C_LOTE6_ES
 };
 
 /**
  * Motor Lingüístico Maestro de Bordado Português -> Espanhol
  */
-export function translateEmbroideryTextToSpanish(text: string): string {
-  if (!text) return text;
+export function translateEmbroideryTextToSpanish(text: any): any {
+  if (text === null || text === undefined) return text;
+  if (Array.isArray(text)) {
+    return text.map((item) => (typeof item === "string" ? translateEmbroideryTextToSpanish(item) : item));
+  }
+  if (typeof text !== "string") {
+    return text;
+  }
+  if (!text.trim()) return text;
 
   let str = text;
 
@@ -1209,6 +1238,7 @@ export function expertLocalizeVerbeteToSpanish(verbete: Verbete): Verbete {
   const base: Verbete = {
     ...verbete,
     term: curated?.term || translatedTerm,
+    pronunciation: curated?.pronunciation || undefined,
     category: categoryEs,
     tags: (verbete.tags ? verbete.tags.map(translateEmbroideryTextToSpanish) : verbete.tags),
     bibliographicReferences: (verbete.bibliographicReferences ? verbete.bibliographicReferences.map(translateEmbroideryTextToSpanish) : verbete.bibliographicReferences),
@@ -1216,7 +1246,7 @@ export function expertLocalizeVerbeteToSpanish(verbete: Verbete): Verbete {
     level: curated?.level || (verbete.level ? translateEmbroideryTextToSpanish(verbete.level) : verbete.level),
     grammarClass: curated?.grammarClass || (verbete.grammarClass ? translateEmbroideryTextToSpanish(verbete.grammarClass) : verbete.grammarClass),
     origin: curated?.origin || (verbete.origin ? translateEmbroideryTextToSpanish(verbete.origin) : verbete.origin),
-    summary: curated?.summary || (verbete.summary ? translateEmbroideryTextToSpanish(verbete.summary) : verbete.summary),
+    summary: curated?.summary || curated?.quickSummary || (verbete.summary ? translateEmbroideryTextToSpanish(verbete.summary) : verbete.summary),
     definition: curated?.definition || (verbete.definition ? translateEmbroideryTextToSpanish(verbete.definition) : verbete.definition),
     technicalDetails: curated?.technicalDetails || (verbete.technicalDetails ? translateEmbroideryTextToSpanish(verbete.technicalDetails) : verbete.technicalDetails),
     beginnerExplanation: curated?.beginnerExplanation || (verbete.beginnerExplanation ? translateEmbroideryTextToSpanish(verbete.beginnerExplanation) : verbete.beginnerExplanation),
