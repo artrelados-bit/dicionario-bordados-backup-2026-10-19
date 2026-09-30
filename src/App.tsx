@@ -17,6 +17,8 @@ import { INITIAL_VERBETES, INITIAL_TROUBLESHOOTING_GUIDES } from "./data/initial
 import { CalculatorPromoBanner } from "./components/CalculatorPromoBanner";
 import { BookOpen, Search } from "lucide-react";
 import { updateDocumentMeta } from "./utils/seoHelper";
+import { SupportedLanguage } from "./utils/i18n";
+import { LanguageBar } from "./components/LanguageBar";
 
 // Helper to sort verbetes in ascending order by code (e.g. A-001, A-002, A-003, A-026)
 export function sortVerbetesByCode(list: Verbete[]): Verbete[] {
@@ -355,6 +357,28 @@ export default function App() {
   const [onlyAiGenerated, setOnlyAiGenerated] = useState(false);
   const [viewMode, setViewMode] = useState<"list" | "grid">("list");
 
+  // Selected Language State
+  const [currentLanguage, setCurrentLanguage] = useState<SupportedLanguage>(() => {
+    try {
+      const saved = localStorage.getItem("dibe_language");
+      if (saved === "pt" || saved === "es" || saved === "it" || saved === "fr" || saved === "en") {
+        return saved;
+      }
+    } catch (e) {
+      // Ignore
+    }
+    return "pt";
+  });
+
+  const handleLanguageChange = (lang: SupportedLanguage) => {
+    setCurrentLanguage(lang);
+    try {
+      localStorage.setItem("dibe_language", lang);
+    } catch (e) {
+      // Ignore
+    }
+  };
+
   // Selected Verbete Modal State
   const [selectedVerbete, setSelectedVerbete] = useState<Verbete | null>(null);
 
@@ -593,6 +617,13 @@ export default function App() {
         setActiveTab={setActiveTab}
         stats={stats}
         onResetFilters={handleResetFilters}
+        currentLanguage={currentLanguage}
+      />
+
+      {/* Language Bar - Clean, pure text line on clear white background, right below the yellow header */}
+      <LanguageBar
+        currentLanguage={currentLanguage}
+        onLanguageChange={handleLanguageChange}
       />
 
       {/* Main Container */}
@@ -615,10 +646,11 @@ export default function App() {
               totalFiltered={filteredVerbetes.length}
               viewMode={viewMode}
               setViewMode={setViewMode}
+              currentLanguage={currentLanguage}
             />
 
             {/* Banner Oficial da Calculadora Artrelados */}
-            <CalculatorPromoBanner />
+            <CalculatorPromoBanner currentLanguage={currentLanguage} />
 
             {/* Verbetes Presentation (Clean Dictionary List or Cards Grid) */}
             {filteredVerbetes.length > 0 ? (
@@ -630,6 +662,7 @@ export default function App() {
                       verbete={verbete}
                       onSelect={setSelectedVerbete}
                       onToggleFavorite={handleToggleFavorite}
+                      currentLanguage={currentLanguage}
                     />
                   ))}
                 </div>
@@ -641,6 +674,7 @@ export default function App() {
                       verbete={verbete}
                       onSelect={setSelectedVerbete}
                       onToggleFavorite={handleToggleFavorite}
+                      currentLanguage={currentLanguage}
                     />
                   ))}
                 </div>
@@ -653,12 +687,20 @@ export default function App() {
                 <div className="space-y-2">
                   <h3 className="text-xl sm:text-2xl font-black text-slate-900">
                     {searchQuery.trim()
-                      ? `"${searchQuery.trim()}" ainda não está no dicionário`
+                      ? currentLanguage === "es"
+                        ? `"${searchQuery.trim()}" aún no está en el catálogo`
+                        : `"${searchQuery.trim()}" ainda não está no dicionário`
+                      : currentLanguage === "es"
+                      ? "No se encontraron términos para este filtro"
                       : "Nenhum verbete encontrado para este filtro"}
                   </h3>
                   <p className="text-slate-600 text-xs sm:text-sm font-medium leading-relaxed">
                     {searchQuery.trim()
-                      ? `Não encontramos nenhum termo correspondente a "${searchQuery.trim()}". Tente buscar por sinônimos ou conferir a ortografia.`
+                      ? currentLanguage === "es"
+                        ? `No encontramos ningún término que coincida con "${searchQuery.trim()}". Intente buscar por sinónimos o verificar la ortografía.`
+                        : `Não encontramos nenhum termo correspondente a "${searchQuery.trim()}". Tente buscar por sinônimos ou conferir a ortografia.`
+                      : currentLanguage === "es"
+                      ? "Intente limpiar los filtros o seleccionar otra letra en el índice alfabético."
                       : "Tente limpar os filtros ou selecionar outra letra no índice alfabético."}
                   </p>
                 </div>
@@ -669,7 +711,11 @@ export default function App() {
                     className="px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs sm:text-sm inline-flex items-center space-x-2 transition shadow-xs cursor-pointer"
                   >
                     <BookOpen className="w-4 h-4 text-amber-400" />
-                    <span>Limpar Filtros e Voltar ao Início (Letra A)</span>
+                    <span>
+                      {currentLanguage === "es"
+                        ? "Limpiar Filtros y Volver al Inicio (Letra A)"
+                        : "Limpar Filtros e Voltar ao Início (Letra A)"}
+                    </span>
                   </button>
                 </div>
               </div>
@@ -683,6 +729,7 @@ export default function App() {
             guides={troubleshootingGuides}
             savedDiagnostics={savedDiagnostics}
             onToggleSaveDiagnostic={handleToggleSaveDiagnostic}
+            currentLanguage={currentLanguage}
           />
         )}
 
@@ -698,6 +745,7 @@ export default function App() {
               setActiveTab("troubleshooting");
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
+            currentLanguage={currentLanguage}
           />
         )}
       </main>
@@ -708,12 +756,14 @@ export default function App() {
         onClose={() => setSelectedVerbete(null)}
         onToggleFavorite={handleToggleFavorite}
         onSelectRelatedTerm={handleSelectRelatedTerm}
+        currentLanguage={currentLanguage}
       />
 
       {/* Footer / Control Bar */}
       <FooterBar
         stats={stats}
         onResetFilters={handleResetFilters}
+        currentLanguage={currentLanguage}
       />
     </div>
   );

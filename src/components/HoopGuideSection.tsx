@@ -1,21 +1,29 @@
 import React, { useState } from "react";
-import { Maximize2, ShieldAlert, CheckCircle, Search, Info } from "lucide-react";
-import { HOOP_SPECIFICATIONS, HoopSpec } from "../data/hoopSpecsData";
+import { Search } from "lucide-react";
+import { HOOP_SPECIFICATIONS } from "../data/hoopSpecsData";
+import { SupportedLanguage } from "../utils/i18n";
 
-export const HoopGuideSection: React.FC = () => {
-  const [selectedBrand, setSelectedBrand] = useState<string>("Todas");
+interface HoopGuideSectionProps {
+  currentLanguage?: SupportedLanguage;
+}
+
+export const HoopGuideSection: React.FC<HoopGuideSectionProps> = ({ currentLanguage = "pt" }) => {
+  const isEs = currentLanguage === "es";
+
+  const allBrandLabel = isEs ? "Todas" : "Todas";
+  const [selectedBrand, setSelectedBrand] = useState<string>(allBrandLabel);
   const [searchQuery, setSearchQuery] = useState<string>("");
 
   const brands = [
-    "Todas",
+    allBrandLabel,
     "Brother",
     "Janome",
     "Tajima / Barudan (Industrial)",
-    "Genérico / Magnético"
+    isEs ? "Genérico / Magnético" : "Genérico / Magnético"
   ];
 
   const filteredHoops = HOOP_SPECIFICATIONS.filter((h) => {
-    const matchesBrand = selectedBrand === "Todas" || h.brand === selectedBrand;
+    const matchesBrand = selectedBrand === allBrandLabel || h.brand === selectedBrand;
     const matchesSearch =
       searchQuery === "" ||
       h.hoopName.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -30,13 +38,15 @@ export const HoopGuideSection: React.FC = () => {
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 border-b border-slate-100 pb-4">
         <div>
           <span className="text-[11px] font-black uppercase tracking-wider text-slate-700 bg-slate-100 px-2.5 py-1 rounded-full border border-slate-300 inline-block mb-1">
-            📏 Gabarito Oficial de Bastidores
+            {isEs ? "📏 Plantilla Oficial de Bastidores" : "📏 Gabarito Oficial de Bastidores"}
           </span>
           <h3 className="text-xl sm:text-2xl font-black text-slate-900">
-            Tamanhos, Áreas Reais & Margens de Segurança
+            {isEs ? "Tamaños, Áreas Reales y Márgenes de Seguridad" : "Tamanhos, Áreas Reais & Margens de Segurança"}
           </h3>
           <p className="text-xs sm:text-sm text-slate-600 font-medium">
-            Nunca mais quebre uma agulha ou rasure um aro por colisão do pé-calcador na borda plástica.
+            {isEs
+              ? "Evite roturas de agujas o marcas en el marco por colisión del prensatelas con el borde del bastidor."
+              : "Nunca mais quebre uma agulha ou rasure um aro por colisão do pé-calcador na borda plástica."}
           </p>
         </div>
 
@@ -45,7 +55,7 @@ export const HoopGuideSection: React.FC = () => {
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
           <input
             type="text"
-            placeholder="Filtrar bastidor (ex: 13x18, boné, 10x10...)"
+            placeholder={isEs ? "Filtrar bastidor (ej: 13x18, gorra, 10x10...)" : "Filtrar bastidor (ex: 13x18, boné, 10x10...)"}
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="w-full pl-9 pr-3 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs sm:text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:bg-white focus:border-slate-500"
@@ -93,7 +103,7 @@ export const HoopGuideSection: React.FC = () => {
 
               <div className="p-2.5 rounded-xl bg-white border border-slate-200 text-xs space-y-1">
                 <span className="text-[10px] font-black uppercase tracking-wider text-slate-400 block">
-                  Área Real de Bordado
+                  {isEs ? "Área Real de Bordado" : "Área Real de Bordado"}
                 </span>
                 <p className="font-extrabold text-slate-800 text-sm">
                   {h.actualEmbroideryArea}
@@ -102,9 +112,11 @@ export const HoopGuideSection: React.FC = () => {
 
               <div className="space-y-1 text-xs text-slate-700">
                 <strong className="text-[10px] font-black uppercase tracking-wider text-slate-500 block">
-                  Recomendado para:
+                  {isEs ? "Recomendado para:" : "Recomendado para:"}
                 </strong>
-                <p className="font-medium text-slate-600">{h.bestUses}</p>
+                <p className="font-medium text-slate-600">
+                  {isEs ? h.bestUses.replace(/boné/gi, "gorras").replace(/toalha/gi, "toalla") : h.bestUses}
+                </p>
               </div>
             </div>
 
@@ -112,17 +124,27 @@ export const HoopGuideSection: React.FC = () => {
               {/* Margem de Segurança */}
               <div className="p-2.5 rounded-xl bg-amber-50 border border-amber-200 text-[11px] text-amber-950 font-medium">
                 <strong className="font-black text-amber-900 block mb-0.5">
-                  ⚠️ Margem de Segurança:
+                  {isEs ? "⚠️ Margen de Seguridad:" : "⚠️ Margem de Segurança:"}
                 </strong>
-                {h.safetyMarginAdvice}
+                {isEs
+                  ? h.safetyMarginAdvice
+                      .replace(/agulha/gi, "aguja")
+                      .replace(/bastidor/gi, "bastidor")
+                      .replace(/calcador/gi, "prensatelas")
+                  : h.safetyMarginAdvice}
               </div>
 
               {/* Dica Pro */}
               <div className="p-2.5 rounded-xl bg-white border border-slate-200 text-[11px] text-slate-700 font-medium">
                 <strong className="font-black text-slate-900 block mb-0.5">
-                  💡 Dica do Ateliê:
+                  {isEs ? "💡 Consejo del Taller:" : "💡 Dica do Ateliê:"}
                 </strong>
-                {h.proWarning}
+                {isEs
+                  ? h.proWarning
+                      .replace(/bastidor/gi, "bastidor")
+                      .replace(/entretela/gi, "entretela")
+                      .replace(/linha/gi, "hilo")
+                  : h.proWarning}
               </div>
             </div>
           </div>

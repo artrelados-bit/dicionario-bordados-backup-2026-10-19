@@ -17,17 +17,20 @@ import {
 } from "lucide-react";
 import { TroubleshootingGuide, SavedDiagnostic, DiagnosticInputs } from "../types";
 import { analyzeEmbroideryProblem, DiagnosticResult } from "../utils/diagnosticEngine";
+import { SupportedLanguage } from "../utils/i18n";
 
 interface TroubleshootingViewProps {
   guides: TroubleshootingGuide[];
   savedDiagnostics: SavedDiagnostic[];
   onToggleSaveDiagnostic: (diagnostic: SavedDiagnostic) => void;
+  currentLanguage?: SupportedLanguage;
 }
 
 export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
   guides,
   savedDiagnostics,
   onToggleSaveDiagnostic,
+  currentLanguage = "pt",
 }) => {
   // Mode: "guides" (catalog) or "diagnostic" (interactive tool)
   const [activeTab, setActiveTab] = useState<"diagnostic" | "guides">("diagnostic");
@@ -77,14 +80,26 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
   }, [guides, selectedCategory, guideSearch]);
 
   // Quick Problem Presets
-  const quickProblems = [
-    "Linha superior quebrando repetidamente",
-    "Ponto fofo e laços de linha no avesso (ninho)",
-    "Contorno desalinhado e fora de registro",
-    "Tecido repuxando e enrugando ao redor do bordado",
-    "Agulha quebrando com frequência ou batendo",
-    "Pulos de ponto ou falhas na costura",
-  ];
+  const quickProblems = useMemo(() => {
+    if (currentLanguage === "es") {
+      return [
+        "Hilo superior rompiéndose repetidamente",
+        "Puntada floja y bucles de hilo en el revés (nido)",
+        "Contorno desalineado y fuera de registro",
+        "Tejido tirante y arrugado alrededor del bordado",
+        "Aguja rompiéndose con frecuencia o golpeando",
+        "Saltos de puntada o fallas en la costura",
+      ];
+    }
+    return [
+      "Linha superior quebrando repetidamente",
+      "Ponto fofo e laços de linha no avesso (ninho)",
+      "Contorno desalinhado e fora de registro",
+      "Tecido repuxando e enrugando ao redor do bordado",
+      "Agulha quebrando com frequência ou batendo",
+      "Pulos de ponto ou falhas na costura",
+    ];
+  }, [currentLanguage]);
 
   const handleRunDiagnostic = (e?: React.FormEvent) => {
     if (e) e.preventDefault();
@@ -134,10 +149,16 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
         <div>
           <h2 className="text-xl sm:text-2xl font-black text-slate-900 flex items-center gap-2.5">
             <Wrench className="w-6 h-6 text-amber-500" />
-            <span>Guia de Resolução de Problemas & Diagnóstico</span>
+            <span>
+              {currentLanguage === "es"
+                ? "Taller de Bordado y Diagnóstico de Problemas"
+                : "Guia de Resolução de Problemas & Diagnóstico"}
+            </span>
           </h2>
           <p className="text-slate-600 text-xs sm:text-sm font-medium mt-1">
-            Assistente técnico de oficina e biblioteca técnica para resolver defeitos em bordado eletrônico.
+            {currentLanguage === "es"
+              ? "Asistente técnico de taller y biblioteca técnica para resolver defectos en el bordado computarizado."
+              : "Assistente técnico de oficina e biblioteca técnica para resolver defeitos em bordado eletrônico."}
           </p>
         </div>
 
@@ -152,7 +173,7 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
             }`}
           >
             <Sparkles className="w-4 h-4" />
-            <span>Diagnóstico Assistido</span>
+            <span>{currentLanguage === "es" ? "Diagnóstico Asistido" : "Diagnóstico Assistido"}</span>
           </button>
           <button
             onClick={() => setActiveTab("guides")}
@@ -163,7 +184,9 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
             }`}
           >
             <Layers className="w-4 h-4" />
-            <span>Catálogo de Guias ({guides.length})</span>
+            <span>
+              {currentLanguage === "es" ? "Catálogo de Guías" : "Catálogo de Guias"} ({guides.length})
+            </span>
           </button>
         </div>
       </div>
@@ -176,10 +199,16 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
             <div className="border-b border-slate-100 pb-4">
               <h3 className="text-lg sm:text-xl font-black text-slate-900 flex items-center gap-2">
                 <Activity className="w-5 h-5 text-amber-500" />
-                <span>Oficina do Bordado — Parâmetros & Diagnóstico do Defeito</span>
+                <span>
+                  {currentLanguage === "es"
+                    ? "Taller de Bordado — Parámetros y Diagnóstico del Defecto"
+                    : "Oficina do Bordado — Parâmetros & Diagnóstico do Defeito"}
+                </span>
               </h3>
               <p className="text-slate-500 text-xs sm:text-sm mt-1">
-                Preencha os parâmetros de trabalho da sua máquina para receber uma análise técnica precisa, rápida e personalizada.
+                {currentLanguage === "es"
+                  ? "Complete los parámetros de trabajo de su máquina para recibir un análisis técnico preciso, rápido y personalizado."
+                  : "Preencha os parâmetros de trabalho da sua máquina para receber uma análise técnica precisa, rápida e personalizada."}
               </p>
             </div>
 
@@ -187,12 +216,16 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
               {/* Problem description input */}
               <div>
                 <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
-                  Sintoma ou Problema Observado *
+                  {currentLanguage === "es" ? "Síntoma o Problema Observado *" : "Sintoma ou Problema Observado *"}
                 </label>
                 <textarea
                   value={problemDescription}
                   onChange={(e) => setProblemDescription(e.target.value)}
-                  placeholder="Ex: A linha superior está quebrando a cada 20 pontos e fazendo laços embaixo..."
+                  placeholder={
+                    currentLanguage === "es"
+                      ? "Ej: El hilo superior se rompe cada 20 puntadas y forma bucles por debajo..."
+                      : "Ex: A linha superior está quebrando a cada 20 pontos e fazendo laços embaixo..."
+                  }
                   rows={2}
                   className="w-full px-4 py-3 rounded-xl border border-slate-300 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-amber-400 font-medium text-slate-800"
                 />
@@ -201,7 +234,9 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
               {/* Quick Presets - Clean horizontal row */}
               <div>
                 <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider block mb-1.5">
-                  Problemas Frequentes (Clique para preencher):
+                  {currentLanguage === "es"
+                    ? "Problemas Frecuentes (Haga clic para completar):"
+                    : "Problemas Frequentes (Clique para preencher):"}
                 </span>
                 <div className="flex flex-wrap gap-2">
                   {quickProblems.map((prob, idx) => (
@@ -222,7 +257,9 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                 <div className="flex items-center gap-2">
                   <Settings className="w-4 h-4 text-amber-500" />
                   <span className="text-xs font-black uppercase tracking-wider text-slate-800">
-                    Parâmetros Técnicos de Trabalho (Visíveis & Abertos)
+                    {currentLanguage === "es"
+                      ? "Parámetros Técnicos de Trabajo (Visibles y Abiertos)"
+                      : "Parâmetros Técnicos de Trabalho (Visíveis & Abertos)"}
                   </span>
                 </div>
 
@@ -230,7 +267,7 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5">
                   <div>
                     <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
-                      Modelo da Máquina
+                      {currentLanguage === "es" ? "Modelo de Máquina" : "Modelo da Máquina"}
                     </label>
                     <input
                       type="text"
@@ -242,37 +279,37 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                   </div>
                   <div>
                     <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
-                      Tipo de Tecido
+                      {currentLanguage === "es" ? "Tipo de Tejido" : "Tipo de Tecido"}
                     </label>
                     <input
                       type="text"
                       value={fabricType}
                       onChange={(e) => setFabricType(e.target.value)}
-                      placeholder="Ex: Malha piquet, Toalha, Brim..."
+                      placeholder={currentLanguage === "es" ? "Ej: Piqué, Toalla, Denim..." : "Ex: Malha piquet, Toalha, Brim..."}
                       className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-400 bg-white"
                     />
                   </div>
                   <div>
                     <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
-                      Linha Superior
+                      {currentLanguage === "es" ? "Hilo Superior" : "Linha Superior"}
                     </label>
                     <input
                       type="text"
                       value={advancedInputs.threadType || ""}
                       onChange={(e) => setAdvancedInputs({ ...advancedInputs, threadType: e.target.value })}
-                      placeholder="Ex: Poliéster 120, Metálica..."
+                      placeholder={currentLanguage === "es" ? "Ej: Poliéster 120, Metálico..." : "Ex: Poliéster 120, Metálica..."}
                       className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-400 bg-white"
                     />
                   </div>
                   <div>
                     <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
-                      Linha da Bobina
+                      {currentLanguage === "es" ? "Hilo de la Canilla" : "Linha da Bobina"}
                     </label>
                     <input
                       type="text"
                       value={advancedInputs.bobbinThread || ""}
                       onChange={(e) => setAdvancedInputs({ ...advancedInputs, bobbinThread: e.target.value })}
-                      placeholder="Ex: Bobina 150/2, Pré-enrolada..."
+                      placeholder={currentLanguage === "es" ? "Ej: Canilla 150/2, Prebobinada..." : "Ex: Bobina 150/2, Pré-enrolada..."}
                       className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-400 bg-white"
                     />
                   </div>
@@ -282,7 +319,7 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5">
                   <div>
                     <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
-                      Nº da Agulha
+                      {currentLanguage === "es" ? "Nº de Aguja" : "Nº da Agulha"}
                     </label>
                     <input
                       type="text"
@@ -294,31 +331,31 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                   </div>
                   <div>
                     <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
-                      Ponta da Agulha
+                      {currentLanguage === "es" ? "Punta de Aguja" : "Ponta da Agulha"}
                     </label>
                     <input
                       type="text"
                       value={advancedInputs.needleTip || ""}
                       onChange={(e) => setAdvancedInputs({ ...advancedInputs, needleTip: e.target.value })}
-                      placeholder="Ex: Ponta Bola (SES/SUK), Aguda..."
+                      placeholder={currentLanguage === "es" ? "Ej: Punta Bola (SES/SUK), Aguda..." : "Ex: Ponta Bola (SES/SUK), Aguda..."}
                       className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-400 bg-white"
                     />
                   </div>
                   <div>
                     <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
-                      Tensão da Linha
+                      {currentLanguage === "es" ? "Tensión del Hilo" : "Tensão da Linha"}
                     </label>
                     <input
                       type="text"
                       value={advancedInputs.tensionSetting || ""}
                       onChange={(e) => setAdvancedInputs({ ...advancedInputs, tensionSetting: e.target.value })}
-                      placeholder="Ex: Padrão 3.2, Apertada, Frouxa..."
+                      placeholder={currentLanguage === "es" ? "Ej: Estándar 3.2, Apretada, Floja..." : "Ex: Padrão 3.2, Apertada, Frouxa..."}
                       className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-400 bg-white"
                     />
                   </div>
                   <div>
                     <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
-                      Velocidade (PPM)
+                      {currentLanguage === "es" ? "Velocidad (PPM)" : "Velocidade (PPM)"}
                     </label>
                     <input
                       type="text"
@@ -334,37 +371,37 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-3.5">
                   <div>
                     <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
-                      Tipo de Entretela
+                      {currentLanguage === "es" ? "Tipo de Entretela" : "Tipo de Entretela"}
                     </label>
                     <input
                       type="text"
                       value={advancedInputs.stabilizerType || ""}
                       onChange={(e) => setAdvancedInputs({ ...advancedInputs, stabilizerType: e.target.value })}
-                      placeholder="Ex: Rasga-fácil, Recorta (Cutaway), Hidrossolúvel..."
+                      placeholder={currentLanguage === "es" ? "Ej: Desprendible (Tear-away), Recorte, Hidrosoluble..." : "Ex: Rasga-fácil, Recorta (Cutaway), Hidrossolúvel..."}
                       className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-400 bg-white"
                     />
                   </div>
                   <div>
                     <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
-                      Camadas / Gramatura da Entretela
+                      {currentLanguage === "es" ? "Capas / Gramaje de la Entretela" : "Camadas / Gramatura da Entretela"}
                     </label>
                     <input
                       type="text"
                       value={advancedInputs.stabilizerLayers || ""}
                       onChange={(e) => setAdvancedInputs({ ...advancedInputs, stabilizerLayers: e.target.value })}
-                      placeholder="Ex: 1 camada 80g, 2 camadas 45g..."
+                      placeholder={currentLanguage === "es" ? "Ej: 1 capa 80g, 2 capas 45g..." : "Ex: 1 camada 80g, 2 camadas 45g..."}
                       className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-400 bg-white"
                     />
                   </div>
                   <div>
                     <label className="block text-[11px] font-bold text-slate-600 uppercase tracking-wider mb-1">
-                      Origem / Histórico da Matriz
+                      {currentLanguage === "es" ? "Origen / Historial de la Matriz" : "Origem / Histórico da Matriz"}
                     </label>
                     <input
                       type="text"
                       value={advancedInputs.matrixHistory || ""}
                       onChange={(e) => setAdvancedInputs({ ...advancedInputs, matrixHistory: e.target.value })}
-                      placeholder="Ex: Própria testada, Baixada da internet, Nova..."
+                      placeholder={currentLanguage === "es" ? "Ej: Propia probada, Descargada, Nueva..." : "Ex: Própria testada, Baixada da internet, Nova..."}
                       className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-400 bg-white"
                     />
                   </div>
@@ -379,7 +416,11 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                   className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-amber-400 hover:bg-amber-500 disabled:opacity-50 text-slate-950 font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 cursor-pointer shadow-xs"
                 >
                   <Cpu className="w-4 h-4 text-slate-950" />
-                  <span>Analisar Parâmetros e Gerar Solução Técnica</span>
+                  <span>
+                    {currentLanguage === "es"
+                      ? "Analizar Parámetros y Generar Solución Técnica"
+                      : "Analisar Parâmetros e Gerar Solução Técnica"}
+                  </span>
                 </button>
               </div>
             </form>
@@ -466,7 +507,11 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                 <div className="space-y-2 pt-2 border-t border-slate-100">
                   <h4 className="text-xs font-black uppercase tracking-wider text-slate-700 flex items-center gap-1.5">
                     <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
-                    <span>Passo a Passo de Resolução na Máquina:</span>
+                    <span>
+                      {currentLanguage === "es"
+                        ? "Paso a Paso de Resolución en la Máquina:"
+                        : "Passo a Passo de Resolução na Máquina:"}
+                    </span>
                   </h4>
                   <ol className="space-y-2">
                     {diagnosticResult.stepByStepSolution.map((step, i) => (
@@ -480,7 +525,9 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                 {/* Preventive Advice */}
                 {diagnosticResult.preventiveAdvice && (
                   <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 text-xs text-slate-700 leading-relaxed font-medium">
-                    <strong className="text-slate-900 block mb-1">Como Prevenir:</strong>
+                    <strong className="text-slate-900 block mb-1">
+                      {currentLanguage === "es" ? "Cómo Prevenir:" : "Como Prevenir:"}
+                    </strong>
                     {diagnosticResult.preventiveAdvice}
                   </div>
                 )}
@@ -490,25 +537,33 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                   <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-2">
                     {diagnosticResult.recommendedSettings.needle && (
                       <div className="p-2.5 rounded-xl bg-slate-50 border border-slate-200 text-center">
-                        <span className="text-[10px] font-bold text-slate-400 block uppercase">Agulha</span>
+                        <span className="text-[10px] font-bold text-slate-400 block uppercase">
+                          {currentLanguage === "es" ? "Aguja" : "Agulha"}
+                        </span>
                         <strong className="text-xs text-slate-800">{diagnosticResult.recommendedSettings.needle}</strong>
                       </div>
                     )}
                     {diagnosticResult.recommendedSettings.stabilizer && (
                       <div className="p-2.5 rounded-xl bg-slate-50 border border-slate-200 text-center">
-                        <span className="text-[10px] font-bold text-slate-400 block uppercase">Entretela</span>
+                        <span className="text-[10px] font-bold text-slate-400 block uppercase">
+                          {currentLanguage === "es" ? "Entretela" : "Entretela"}
+                        </span>
                         <strong className="text-xs text-slate-800">{diagnosticResult.recommendedSettings.stabilizer}</strong>
                       </div>
                     )}
                     {diagnosticResult.recommendedSettings.speed && (
                       <div className="p-2.5 rounded-xl bg-slate-50 border border-slate-200 text-center">
-                        <span className="text-[10px] font-bold text-slate-400 block uppercase">Velocidade</span>
+                        <span className="text-[10px] font-bold text-slate-400 block uppercase">
+                          {currentLanguage === "es" ? "Velocidad" : "Velocidade"}
+                        </span>
                         <strong className="text-xs text-slate-800">{diagnosticResult.recommendedSettings.speed}</strong>
                       </div>
                     )}
                     {diagnosticResult.recommendedSettings.tension && (
                       <div className="p-2.5 rounded-xl bg-slate-50 border border-slate-200 text-center">
-                        <span className="text-[10px] font-bold text-slate-400 block uppercase">Tensão</span>
+                        <span className="text-[10px] font-bold text-slate-400 block uppercase">
+                          {currentLanguage === "es" ? "Tensión" : "Tensão"}
+                        </span>
                         <strong className="text-xs text-slate-800">{diagnosticResult.recommendedSettings.tension}</strong>
                       </div>
                     )}
@@ -520,7 +575,9 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                   <div className="p-4 rounded-2xl bg-amber-100/60 border border-amber-300 flex items-start gap-3 text-xs sm:text-sm text-amber-950 font-medium">
                     <Lightbulb className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
                     <div>
-                      <strong className="font-black block text-amber-900 mb-0.5">Dica Artrelados:</strong>
+                      <strong className="font-black block text-amber-900 mb-0.5">
+                        {currentLanguage === "es" ? "Consejo Artrelados:" : "Dica Artrelados:"}
+                      </strong>
                       {diagnosticResult.artreladosTip}
                     </div>
                   </div>
@@ -532,9 +589,15 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                   <Wrench className="w-8 h-8" />
                 </div>
                 <div className="space-y-1">
-                  <h4 className="text-base font-black text-slate-900">Aguardando Descrição do Defeito</h4>
+                  <h4 className="text-base font-black text-slate-900">
+                    {currentLanguage === "es"
+                      ? "Esperando Descripción del Defecto"
+                      : "Aguardando Descrição do Defeito"}
+                  </h4>
                   <p className="text-xs sm:text-sm text-slate-500 max-w-md mx-auto font-medium">
-                    Preencha o formulário ao lado com os detalhes do que está acontecendo na sua máquina para receber um diagnóstico passo a passo com soluções práticas.
+                    {currentLanguage === "es"
+                      ? "Complete el formulario con los detalles de lo que está ocurriendo en su máquina para recibir un diagnóstico paso a paso con soluciones prácticas."
+                      : "Preencha o formulário ao lado com os detalhes do que está acontecendo na sua máquina para receber um diagnóstico passo a passo com soluções práticas."}
                   </p>
                 </div>
               </div>
@@ -554,20 +617,28 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                 type="text"
                 value={guideSearch}
                 onChange={(e) => setGuideSearch(e.target.value)}
-                placeholder="Buscar guia por sintoma ou defeito..."
+                placeholder={
+                  currentLanguage === "es"
+                    ? "Buscar guía por síntoma o defecto..."
+                    : "Buscar guia por sintoma ou defeito..."
+                }
                 className="w-full pl-9 pr-4 py-2 rounded-xl border border-slate-200 text-xs sm:text-sm font-medium focus:outline-none focus:ring-2 focus:ring-amber-400"
               />
             </div>
 
             <div className="flex items-center gap-2 w-full md:w-auto overflow-x-auto pb-1 md:pb-0">
-              <span className="text-xs font-bold text-slate-500 uppercase tracking-wider shrink-0">Categoria:</span>
+              <span className="text-xs font-bold text-slate-500 uppercase tracking-wider shrink-0">
+                {currentLanguage === "es" ? "Categoría:" : "Categoria:"}
+              </span>
               <select
                 value={selectedCategory}
                 onChange={(e) => setSelectedCategory(e.target.value)}
                 className="px-3 py-2 rounded-xl border border-slate-200 text-xs font-bold bg-white text-slate-800 focus:outline-none focus:ring-2 focus:ring-amber-400"
               >
                 {categories.map((c) => (
-                  <option key={c} value={c}>{c}</option>
+                  <option key={c} value={c}>
+                    {c}
+                  </option>
                 ))}
               </select>
             </div>
@@ -607,7 +678,7 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                       {/* Symptoms */}
                       <div>
                         <strong className="text-xs font-bold uppercase tracking-wider text-slate-500 block mb-1.5">
-                          Sintomas Observados:
+                          {currentLanguage === "es" ? "Síntomas Observados:" : "Sintomas Observados:"}
                         </strong>
                         <ul className="space-y-1 text-xs sm:text-sm text-slate-700 pl-4 list-disc font-medium">
                           {guide.symptoms.map((sym, i) => (
@@ -619,7 +690,7 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                       {/* Causes */}
                       <div>
                         <strong className="text-xs font-bold uppercase tracking-wider text-slate-500 block mb-1.5">
-                          Causas Prováveis:
+                          {currentLanguage === "es" ? "Causas Probables:" : "Causas Prováveis:"}
                         </strong>
                         <ul className="space-y-1 text-xs sm:text-sm text-slate-700 pl-4 list-disc font-medium">
                           {guide.probableCauses.map((pc, i) => (
@@ -631,7 +702,7 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                       {/* Solution */}
                       <div>
                         <strong className="text-xs font-bold uppercase tracking-wider text-slate-500 block mb-1.5">
-                          Solução Passo a Passo:
+                          {currentLanguage === "es" ? "Solución Paso a Paso:" : "Solução Passo a Passo:"}
                         </strong>
                         <ol className="space-y-1.5">
                           {guide.stepByStepSolution.map((step, i) => (
@@ -645,7 +716,9 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
                       {/* Preventive Advice */}
                       {guide.preventiveAdvice && (
                         <div className="p-3.5 rounded-xl bg-amber-50/60 border border-amber-200 text-xs text-slate-700 font-medium">
-                          <strong className="text-amber-950 font-bold block mb-0.5">Prevenção:</strong>
+                          <strong className="text-amber-950 font-bold block mb-0.5">
+                            {currentLanguage === "es" ? "Prevención:" : "Prevenção:"}
+                          </strong>
                           {guide.preventiveAdvice}
                         </div>
                       )}

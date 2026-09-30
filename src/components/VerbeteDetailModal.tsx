@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import { X, Star, Sparkles, Gauge, Zap, AlertTriangle, CheckCircle2, Copy, Check, Layers, BookOpen, BookMarked, Calculator, ExternalLink, Share2 } from "lucide-react";
 import { Verbete } from "../types";
 import { StitchDiagram } from "./StitchDiagram";
+import { SupportedLanguage, UI_TRANSLATIONS, localizeVerbete } from "../utils/i18n";
 
 interface VerbeteDetailModalProps {
   verbete: Verbete | null;
   onClose: () => void;
   onToggleFavorite: (id: string, e: React.MouseEvent) => void;
   onSelectRelatedTerm?: (termName: string) => void;
+  currentLanguage?: SupportedLanguage;
 }
 
 // Helper Component to render structured Markdown / Rich Text sections in verbetes
@@ -132,18 +134,23 @@ const FormattedMarkdownContent: React.FC<{ text: string }> = ({ text }) => {
 };
 
 export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
-  verbete,
+  verbete: rawVerbete,
   onClose,
   onToggleFavorite,
   onSelectRelatedTerm,
+  currentLanguage,
 }) => {
   const [copied, setCopied] = useState(false);
   const [shareSuccess, setShareSuccess] = useState(false);
 
+  const activeLang: SupportedLanguage = (currentLanguage as SupportedLanguage) || "pt";
+  const t = UI_TRANSLATIONS[activeLang] || UI_TRANSLATIONS.pt;
+  const verbete = rawVerbete ? localizeVerbete(rawVerbete, activeLang) : null;
+
   if (!verbete) return null;
 
   const handleCopyText = () => {
-    const textToCopy = `${verbete.term} (${verbete.category}) - Dicionário de Bordados Artrelados\n\nResumo: ${verbete.summary}\n\nDefinição Técnico-Didática:\n${verbete.definition}\n\nDetalhes de Execução na Máquina:\n${verbete.technicalDetails}\n\nAplicações: ${verbete.applications.join(", ")}`;
+    const textToCopy = `${verbete.term} (${verbete.category}) - DIBE Artrelados\n\n${t.modalQuickSummary}: ${verbete.summary}\n\n${t.modalDefinition}:\n${verbete.definition}\n\n${t.modalTechnicalDetails}:\n${verbete.technicalDetails || ""}\n\n${t.modalApplications}: ${(verbete.applications || []).join(", ")}`;
     navigator.clipboard.writeText(textToCopy);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
@@ -153,7 +160,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
     const termClean = verbete.term.replace(/^[🟢🟡🔴\s]+/, "");
     const codeParam = encodeURIComponent(verbete.code || verbete.id);
     const shareUrl = `${window.location.origin}/?verbete=${codeParam}`;
-    const shareText = `🧵 *DIBE Artrelados: ${verbete.code ? `[${verbete.code}] ` : ""}${termClean}*\n\n${verbete.summary}\n\n📖 Veja o verbete completo no Dicionário Ilustrado de Bordado Eletrônico:`;
+    const shareText = `🧵 *DIBE Artrelados: ${verbete.code ? `[${verbete.code}] ` : ""}${termClean}*\n\n${verbete.summary}\n\n📖 ${currentLanguage === "es" ? "Consulta el término completo en el Diccionario Ilustrado de Bordado Electrónico:" : "Veja o verbete completo no Dicionário Ilustrado de Bordado Eletrônico:"}`;
 
     if (navigator.share) {
       try {
@@ -188,9 +195,12 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
                 {verbete.code}
               </span>
             )}
+            <span className="px-2.5 py-1 rounded-lg text-xs font-black uppercase tracking-wider bg-amber-400 text-slate-950 border border-amber-500 shadow-2xs">
+              {currentLanguage === "es" ? "Ficha Técnica" : "Ficha Técnica"}
+            </span>
             {verbete.level && (
               <span className="px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-100 text-slate-700 border border-slate-200">
-                Nível: {verbete.level}
+                {t.modalLevel}: {verbete.level}
               </span>
             )}
             <span className="px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-100 text-slate-800 border border-slate-200">
@@ -206,31 +216,31 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
                   ? "bg-emerald-50 text-emerald-700 border-emerald-300"
                   : "bg-amber-50 hover:bg-amber-100 text-amber-900 border-amber-200"
               }`}
-              title="Compartilhar verbete com link direto"
+              title={t.modalShare}
             >
               {shareSuccess ? (
                 <>
                   <Check className="w-4 h-4 text-emerald-600" />
-                  <span className="hidden sm:inline">Copiado!</span>
+                  <span className="hidden sm:inline">{t.modalCopied}</span>
                 </>
               ) : (
                 <>
                   <Share2 className="w-4 h-4 text-amber-700" />
-                  <span className="hidden sm:inline">Compartilhar</span>
+                  <span className="hidden sm:inline">{t.modalShare}</span>
                 </>
               )}
             </button>
             <button
               onClick={(e) => onToggleFavorite(verbete.id, e)}
               className="p-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-600 hover:text-amber-500 transition cursor-pointer"
-              title="Favoritar verbete"
+              title={currentLanguage === "es" ? "Añadir a favoritos" : "Favoritar verbete"}
             >
               <Star className={`w-4 h-4 sm:w-5 sm:h-5 ${verbete.isFavorite ? "fill-amber-400 text-amber-500" : ""}`} />
             </button>
             <button
               onClick={handleCopyText}
               className="p-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-600 hover:text-slate-900 transition cursor-pointer"
-              title="Copiar texto do verbete"
+              title={currentLanguage === "es" ? "Copiar texto de la ficha técnica" : "Copiar texto do verbete"}
             >
               {copied ? <Check className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-600" /> : <Copy className="w-4 h-4 sm:w-5 sm:h-5" />}
             </button>
@@ -246,7 +256,10 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
         {/* Modal Scrollable Body */}
         <div className="p-5 sm:p-7 space-y-6 overflow-y-auto custom-scrollbar bg-slate-50/50">
           {/* Main Title & Classification Header (Scrolls with page) */}
-          <div className="space-y-2.5 pb-1 border-b border-slate-200/80">
+          <div className="space-y-2 pb-1 border-b border-slate-200/80">
+            <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-amber-800">
+              <span>{currentLanguage === "es" ? "Ficha Técnica del Término" : "Ficha Técnica do Verbete"}</span>
+            </div>
             <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight leading-snug">
               {verbete.term}
             </h2>
@@ -259,7 +272,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
               )}
               {verbete.pronunciation && (
                 <span className="text-xs text-slate-600 font-mono bg-slate-100 px-2.5 py-1 rounded-md border border-slate-200">
-                  Pronúncia: [{verbete.pronunciation}]
+                  {currentLanguage === "es" ? "Pronunciación" : "Pronúncia"}: [{verbete.pronunciation}]
                 </span>
               )}
             </div>
@@ -271,7 +284,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
               <div className="bg-white flex flex-col items-center justify-center">
                 <img
                   src={verbete.imageUrl}
-                  alt={`Prancha técnica ilustrada do verbete ${verbete.term}`}
+                  alt={currentLanguage === "es" ? `Lámina técnica ilustrada del término ${verbete.term}` : `Prancha técnica ilustrada do verbete ${verbete.term}`}
                   className="w-full max-h-[380px] object-contain mx-auto rounded-lg"
                   referrerPolicy="no-referrer"
                 />
@@ -289,7 +302,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             <div className="p-3 rounded-xl bg-blue-50/70 border border-blue-200/80 text-xs sm:text-sm text-slate-800 flex items-start gap-2.5 leading-relaxed shadow-2xs">
               <span className="text-base shrink-0">🌎</span>
               <div>
-                <strong className="font-bold text-blue-950 block sm:inline mr-1.5">Origem:</strong>
+                <strong className="font-bold text-blue-950 block sm:inline mr-1.5">{t.modalOrigin}:</strong>
                 <span>{verbete.origin}</span>
               </div>
             </div>
@@ -298,7 +311,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
           {/* Summary Box */}
           <div className="p-4 rounded-2xl bg-amber-50/80 border border-amber-200/90 text-slate-900 text-sm leading-relaxed">
             <strong className="text-amber-900 font-extrabold block mb-1 uppercase text-xs tracking-wider">
-              Resumo do Verbete:
+              {t.modalQuickSummary}:
             </strong>
             {verbete.summary}
           </div>
@@ -307,9 +320,17 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
           {verbete.stitchDiagramType && (
             <div>
               <h4 className="text-xs font-extrabold text-slate-500 uppercase tracking-wider mb-2">
-                Representação Gráfica do Ponto
+                {currentLanguage === "es"
+                  ? "Representación Gráfica de la Puntada"
+                  : currentLanguage === "it"
+                  ? "Rappresentazione Grafica del Punto"
+                  : currentLanguage === "fr"
+                  ? "Représentation Graphique du Point"
+                  : currentLanguage === "en"
+                  ? "Technical Stitch Diagram"
+                  : "Representação Gráfica do Ponto"}
               </h4>
-              <StitchDiagram type={verbete.stitchDiagramType} />
+              <StitchDiagram type={verbete.stitchDiagramType} language={currentLanguage} />
             </div>
           )}
 
@@ -317,7 +338,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
           <div className="bg-white p-5 sm:p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
             <h3 className="text-base font-extrabold text-slate-900 flex items-center space-x-2 border-b border-slate-100 pb-3">
               <BookOpen className="w-5 h-5 text-amber-700" />
-              <span>Conceito & Definição Técnica Completa</span>
+              <span>{t.modalDefinition}</span>
             </h3>
             <FormattedMarkdownContent text={verbete.definition} />
           </div>
@@ -327,7 +348,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-3">
               <h3 className="text-xs font-extrabold uppercase tracking-wider text-slate-900 flex items-center space-x-2">
                 <CheckCircle2 className="w-4 h-4 text-sky-600" />
-                <span>Características Principais</span>
+                <span>{currentLanguage === "es" ? "Características Principales" : "Características Principais"}</span>
               </h3>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs sm:text-sm text-slate-800">
                 {verbete.characteristics.map((item, idx) => (
@@ -345,7 +366,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-3">
               <h3 className="text-xs font-extrabold uppercase tracking-wider text-slate-900 flex items-center space-x-2">
                 <Layers className="w-4 h-4 text-sky-600" />
-                <span>Construção & Partes Principais</span>
+                <span>{currentLanguage === "es" ? "Construcción y Partes Principales" : "Construção & Partes Principais"}</span>
               </h3>
               <div className="flex flex-wrap gap-2">
                 {verbete.construction.map((item, idx) => (
@@ -362,10 +383,10 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-3">
               <h3 className="text-xs font-extrabold uppercase tracking-wider text-slate-900 flex items-center space-x-2">
                 <Zap className="w-4 h-4 text-amber-600" />
-                <span>Como Funciona (Ciclo Operacional)</span>
+                <span>{t.modalHowItWorks}</span>
               </h3>
               <div className="space-y-2 text-xs sm:text-sm text-slate-800 font-medium">
-                {verbete.howItWorks.map((step, idx) => (
+                {(Array.isArray(verbete.howItWorks) ? verbete.howItWorks : verbete.howItWorks.split("\n")).filter(Boolean).map((step, idx) => (
                   <div key={idx} className="p-2.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start space-x-2">
                     <span className="font-bold text-amber-700 shrink-0">{idx + 1}.</span>
                     <span>{step.replace(/^\d+\.\s*/, "")}</span>
@@ -380,7 +401,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-3">
               <h3 className="text-xs font-extrabold uppercase tracking-wider text-slate-900 flex items-center space-x-2">
                 <Layers className="w-4 h-4 text-indigo-600" />
-                <span>Principais Tipos e Variações</span>
+                <span>{currentLanguage === "es" ? "Principales Tipos y Variaciones" : "Principais Tipos e Variações"}</span>
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                 {verbete.mainTypes.map((typeItem, idx) => (
@@ -398,7 +419,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-3">
               <h3 className="text-xs font-extrabold uppercase tracking-wider text-slate-900 flex items-center space-x-2">
                 <Gauge className="w-4 h-4 text-slate-700" />
-                <span>Tamanhos & Numerações Mais Utilizados</span>
+                <span>{currentLanguage === "es" ? "Tamaños y Numeraciones Más Utilizados" : "Tamanhos & Numerações Mais Utilizados"}</span>
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                 {verbete.numberingSystem.map((num, idx) => (
@@ -415,7 +436,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-2.5">
               <h3 className="text-sm font-extrabold text-slate-900 flex items-center space-x-2">
                 <Layers className="w-4 h-4 text-sky-600" />
-                <span>Relação com o Bordado Eletrônico & Parâmetros</span>
+                <span>{t.modalTechnicalDetails}</span>
               </h3>
               <p className="text-slate-700 text-xs sm:text-sm leading-relaxed whitespace-pre-line">
                 {verbete.technicalDetails}
@@ -427,7 +448,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
           {verbete.comparisonTable && (
             <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-3">
               <h3 className="text-xs font-extrabold uppercase tracking-wider text-slate-900 flex items-center space-x-2">
-                <span>📊 Comparação Técnica</span>
+                <span>{currentLanguage === "es" ? "📊 Comparación Técnica" : "📊 Comparação Técnica"}</span>
               </h3>
               <div className="overflow-x-auto rounded-xl border border-slate-200">
                 <table className="w-full text-xs text-left border-collapse">
@@ -465,7 +486,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
                 }`}>
                   <h3 className="text-xs font-extrabold uppercase tracking-wider text-emerald-950 flex items-center space-x-2">
                     <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                    <span>Vantagens</span>
+                    <span>{t.modalAdvantages}</span>
                   </h3>
                   <ul className="space-y-1.5 text-xs text-emerald-950 font-medium">
                     {verbete.advantages.map((adv, idx) => (
@@ -484,7 +505,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
                 }`}>
                   <h3 className="text-xs font-extrabold uppercase tracking-wider text-amber-950 flex items-center space-x-2">
                     <AlertTriangle className="w-4 h-4 text-amber-600" />
-                    <span>Limitações</span>
+                    <span>{t.modalLimitations}</span>
                   </h3>
                   <ul className="space-y-1.5 text-xs text-amber-950 font-medium">
                     {verbete.limitations.map((lim, idx) => (
@@ -501,7 +522,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
                 <div className="p-4 rounded-2xl bg-rose-50 border border-rose-200 space-y-2 md:col-span-2">
                   <h3 className="text-xs font-extrabold uppercase tracking-wider text-rose-950 flex items-center space-x-2">
                     <AlertTriangle className="w-4 h-4 text-rose-600" />
-                    <span>Erros Comuns a Evitar</span>
+                    <span>{t.modalCommonErrors}</span>
                   </h3>
                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-rose-950 font-medium">
                     {verbete.commonErrors.map((errItem, idx) => (
@@ -521,7 +542,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             <div className="p-5 rounded-2xl bg-amber-50 border-2 border-amber-300 text-slate-900 space-y-1.5 shadow-sm">
               <div className="flex items-center space-x-2 text-amber-900 font-black text-xs uppercase tracking-wider">
                 <span className="text-lg">🧵</span>
-                <span>Dica Artrelados (Especial de Oficina)</span>
+                <span>{t.modalDicaArtrelados}</span>
               </div>
               <p className="text-xs sm:text-sm font-medium leading-relaxed text-slate-800">
                 {verbete.dicaArtrelados}
@@ -533,7 +554,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             <div className="p-5 rounded-2xl bg-sky-50 border border-sky-200 text-sky-950 space-y-1.5">
               <div className="flex items-center space-x-2 text-sky-900 font-black text-xs uppercase tracking-wider">
                 <span className="text-lg">🔬</span>
-                <span>Curiosidade Técnica</span>
+                <span>{t.modalCuriosidadeTecnica}</span>
               </div>
               <p className="text-xs sm:text-sm font-medium leading-relaxed text-sky-950">
                 {verbete.curiosidadeTecnica}
@@ -545,7 +566,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             <div className="p-4 rounded-2xl bg-amber-50/60 border border-amber-200 text-slate-900 space-y-1">
               <div className="flex items-center space-x-2 text-amber-900 font-black text-xs uppercase tracking-wider">
                 <span className="text-lg">💡</span>
-                <span>Você Sabia?</span>
+                <span>{t.modalVoceSabia}</span>
               </div>
               <p className="text-xs font-medium leading-relaxed text-slate-800">
                 {verbete.voceSabia}
@@ -558,14 +579,14 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
               <h3 className="text-xs font-extrabold uppercase tracking-wider text-slate-900 mb-3 flex items-center space-x-2">
                 <Gauge className="w-4 h-4 text-slate-700" />
-                <span>Configurações Recomendadas de Máquina</span>
+                <span>{t.modalRecommendedSettings}</span>
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {verbete.recommendedSettings.speedPPM && (
                   <div className="p-3 rounded-xl bg-slate-50 border border-slate-200 flex items-start space-x-3">
                     <Gauge className="w-4 h-4 text-sky-600 shrink-0 mt-0.5" />
                     <div>
-                      <span className="text-[11px] text-slate-500 uppercase font-extrabold block">Velocidade PPM</span>
+                      <span className="text-[11px] text-slate-500 uppercase font-extrabold block">{t.modalSpeedPPM}</span>
                       <span className="text-xs font-bold text-slate-900">{verbete.recommendedSettings.speedPPM}</span>
                     </div>
                   </div>
@@ -574,7 +595,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
                   <div className="p-3 rounded-xl bg-slate-50 border border-slate-200 flex items-start space-x-3">
                     <Zap className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
                     <div>
-                      <span className="text-[11px] text-slate-500 uppercase font-extrabold block">Agulha Recomendada</span>
+                      <span className="text-[11px] text-slate-500 uppercase font-extrabold block">{t.modalNeedleType}</span>
                       <span className="text-xs font-bold text-slate-900">{verbete.recommendedSettings.needleType}</span>
                     </div>
                   </div>
@@ -583,7 +604,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
                   <div className="p-3 rounded-xl bg-slate-50 border border-slate-200 flex items-start space-x-3">
                     <Layers className="w-4 h-4 text-indigo-600 shrink-0 mt-0.5" />
                     <div>
-                      <span className="text-[11px] text-slate-500 uppercase font-extrabold block">Estabilizador / Entretela</span>
+                      <span className="text-[11px] text-slate-500 uppercase font-extrabold block">{t.modalStabilizer}</span>
                       <span className="text-xs font-bold text-slate-900">{verbete.recommendedSettings.stabilizer}</span>
                     </div>
                   </div>
@@ -592,7 +613,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
                   <div className="p-3 rounded-xl bg-slate-50 border border-slate-200 flex items-start space-x-3">
                     <Sparkles className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
                     <div>
-                      <span className="text-[11px] text-slate-500 uppercase font-extrabold block">Densidade dos Pontos</span>
+                      <span className="text-[11px] text-slate-500 uppercase font-extrabold block">{t.modalDensity}</span>
                       <span className="text-xs font-bold text-slate-900">{verbete.recommendedSettings.density}</span>
                     </div>
                   </div>
@@ -606,7 +627,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
               <h3 className="text-xs font-extrabold uppercase tracking-wider text-slate-900 mb-2 flex items-center space-x-2">
                 <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                <span>Aplicações Práticas & Tecidos</span>
+                <span>{t.modalApplications}</span>
               </h3>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-700">
                 {verbete.applications.map((app, idx) => (
@@ -624,7 +645,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             <div className="p-4 rounded-2xl bg-amber-50 border border-amber-200 space-y-2">
               <h3 className="text-xs font-extrabold uppercase tracking-wider text-amber-900 flex items-center space-x-2">
                 <AlertTriangle className="w-4 h-4 text-amber-700" />
-                <span>Dicas de Solução de Problemas & Cuidados</span>
+                <span>{t.modalTroubleshootingTips}</span>
               </h3>
               <ul className="space-y-2 text-xs text-amber-950 font-medium">
                 {verbete.troubleshootingTips.map((tip, idx) => (
@@ -642,7 +663,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             <div className="p-5 rounded-2xl bg-amber-50/70 border border-amber-200 space-y-2">
               <h3 className="text-xs font-extrabold uppercase tracking-wider text-amber-900 flex items-center space-x-2">
                 <span className="text-base">🧵</span>
-                <span>Explicação para Quem Está Começando</span>
+                <span>{t.modalBeginner}</span>
               </h3>
               <p className="text-xs sm:text-sm text-slate-800 leading-relaxed">
                 {verbete.beginnerExplanation}
@@ -655,7 +676,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             <div className="p-5 rounded-2xl bg-emerald-50/70 border border-emerald-200 space-y-2">
               <h3 className="text-xs font-extrabold uppercase tracking-wider text-emerald-900 flex items-center space-x-2">
                 <span className="text-base">📝</span>
-                <span>Exercício Prático no Ateliê</span>
+                <span>{t.modalPracticalExercise}</span>
               </h3>
               <p className="text-xs sm:text-sm text-emerald-950 font-medium leading-relaxed whitespace-pre-line">
                 {verbete.practicalExercise}
@@ -668,7 +689,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             <div className="p-4 rounded-2xl bg-slate-100 border border-slate-200 space-y-1.5">
               <h3 className="text-xs font-extrabold uppercase tracking-wider text-slate-800 flex items-center space-x-2">
                 <span className="text-base">📚</span>
-                <span>Resumo Rápido em 1 Minuto</span>
+                <span>{t.modalQuickSummary}</span>
               </h3>
               <p className="text-xs text-slate-700 font-medium leading-relaxed">
                 {verbete.quickSummary}
@@ -683,17 +704,17 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             </div>
             <div className="space-y-0.5 flex-1">
               <h4 className="text-xs sm:text-sm font-black text-slate-950">
-                Precificação no Ateliê: Quanto vale este trabalho?
+                {t.calcPromoTitle}
               </h4>
               <p className="text-xs text-slate-700 font-medium leading-relaxed">
-                Calcule o custo exato de pontos, linhas, entretelas e tempo de máquina.{" "}
+                {t.calcPromoDesc}{" "}
                 <a
                   href="https://www.artrelados.com.br/comprar-calculadora"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-bold text-amber-950 hover:text-amber-800 underline decoration-amber-500 decoration-2 underline-offset-2 hover:decoration-amber-700 inline-flex items-center ml-1 cursor-pointer transition"
                 >
-                  <span>Conheça a Calculadora Oficial Artrelados</span>
+                  <span>{t.calcPromoLink}</span>
                   <ExternalLink className="w-3 h-3 ml-1 text-amber-700 inline" />
                 </a>
               </p>
@@ -704,7 +725,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
           {verbete.relatedTerms && verbete.relatedTerms.length > 0 && (
             <div>
               <h4 className="text-xs font-extrabold text-slate-500 uppercase tracking-wider mb-2">
-                Termos Correlatos no Acervo
+                {t.modalRelatedTerms}
               </h4>
               <div className="flex flex-wrap gap-2">
                 {verbete.relatedTerms.map((termName, idx) => (
@@ -719,6 +740,24 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
               </div>
             </div>
           )}
+
+          {/* Bibliographic References if present */}
+          {verbete.bibliographicReferences && verbete.bibliographicReferences.length > 0 && (
+            <div className="p-4 rounded-2xl bg-slate-100/80 border border-slate-200 space-y-2">
+              <h3 className="text-xs font-extrabold uppercase tracking-wider text-slate-800 flex items-center space-x-2">
+                <BookMarked className="w-4 h-4 text-slate-600" />
+                <span>{t.modalReferences}</span>
+              </h3>
+              <ul className="space-y-1.5 text-xs text-slate-700">
+                {verbete.bibliographicReferences.map((refItem, idx) => (
+                  <li key={idx} className="flex items-start space-x-2">
+                    <span className="font-bold text-slate-400 shrink-0">•</span>
+                    <span>{refItem}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
 
         {/* Modal Footer Actions */}
@@ -727,7 +766,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             onClick={onClose}
             className="w-full sm:w-auto px-6 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white text-xs sm:text-sm font-bold transition cursor-pointer shadow-sm"
           >
-            Fechar
+            {t.modalClose}
           </button>
         </div>
       </div>

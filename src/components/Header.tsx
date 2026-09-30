@@ -1,12 +1,14 @@
 import React from "react";
 import { BookOpen, Wrench, Star } from "lucide-react";
 import { DictionaryStats } from "../types";
+import { SupportedLanguage, UI_TRANSLATIONS } from "../utils/i18n";
 
 interface HeaderProps {
   activeTab: "dictionary" | "troubleshooting" | "favorites";
   setActiveTab: (tab: "dictionary" | "troubleshooting" | "favorites") => void;
   stats: DictionaryStats;
   onResetFilters?: () => void;
+  currentLanguage: SupportedLanguage;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -14,7 +16,10 @@ export const Header: React.FC<HeaderProps> = ({
   setActiveTab,
   stats,
   onResetFilters,
+  currentLanguage,
 }) => {
+  const t = UI_TRANSLATIONS[currentLanguage] || UI_TRANSLATIONS.pt;
+
   return (
     <header className="dibe-header-yellow bg-[#F9BC06] text-slate-950 border-b-4 border-[#E0A200] shadow-xl relative overflow-hidden">
       {/* Decorative Embroidery Waves Background - Strict Background Plane */}
@@ -29,7 +34,7 @@ export const Header: React.FC<HeaderProps> = ({
         />
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-3.5 pb-4 sm:pt-4.5 sm:pb-4.5 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-3.5 pb-3.5 sm:pt-4.5 sm:pb-4 relative z-10">
         {/* Title & Byline - Centered Original DIBE Identity */}
         <div className="my-1 text-center">
           <h1
@@ -41,18 +46,18 @@ export const Header: React.FC<HeaderProps> = ({
 
           {/* Subtitle perfectly fitted with fluid text scaling, kept strictly on a single line */}
           <div className="mt-2 sm:mt-2.5 flex items-center justify-center font-slackey text-[14px] xs:text-[17px] sm:text-[23px] md:text-[30px] lg:text-[35px] leading-tight tracking-wide whitespace-nowrap px-1 max-w-full text-center select-none">
-            <span className="text-[#0a0a0a] drop-shadow-xs mr-2 sm:mr-2.5 md:mr-3">DICIONÁRIO</span>
-            <span className="text-[#c47700] drop-shadow-xs mr-2 sm:mr-2.5 md:mr-3">DE BORDADOS</span>
+            <span className="text-[#0a0a0a] drop-shadow-xs mr-2 sm:mr-2.5 md:mr-3">{t.headerDictionary}</span>
+            <span className="text-[#c47700] drop-shadow-xs mr-2 sm:mr-2.5 md:mr-3">{t.headerDeBordados}</span>
             <span className="text-[#008cc9] font-slackey drop-shadow-xs">
-              ELETRÔNICOS
+              {t.headerEletronicos}
             </span>
           </div>
 
           <p className="text-xs sm:text-sm md:text-base font-extrabold text-slate-900 mt-2 whitespace-nowrap overflow-hidden text-ellipsis px-2">
-            Consultoria Técnica de Termos, Pontos & Matrizes de Bordado
+            {t.headerTagline}
           </p>
           <p className="text-[11px] sm:text-xs font-black tracking-widest text-slate-800 uppercase mt-0.5">
-            © 2026 — JANETE M. C. SILVA • ARTRELADOS
+            {t.headerCopyright}
           </p>
           <div className="mt-1">
             <a
@@ -82,7 +87,7 @@ export const Header: React.FC<HeaderProps> = ({
                 }`}
               >
                 <BookOpen className="w-4 h-4" />
-                <span>1. Acervo & Verbetes</span>
+                <span>{t.tabDictionary}</span>
               </button>
             </div>
 
@@ -98,7 +103,7 @@ export const Header: React.FC<HeaderProps> = ({
                 }`}
               >
                 <Wrench className="w-4 h-4" />
-                <span>2. Oficina do Bordado</span>
+                <span>{t.tabTroubleshooting}</span>
               </button>
             </div>
 
@@ -114,7 +119,7 @@ export const Header: React.FC<HeaderProps> = ({
                 }`}
               >
                 <Star className="w-4 h-4 fill-current" />
-                <span>3. Meus Favoritos ({stats.totalFavorites})</span>
+                <span>{t.tabFavorites} ({stats.totalFavorites})</span>
               </button>
             </div>
           </nav>
@@ -123,3 +128,4 @@ export const Header: React.FC<HeaderProps> = ({
     </header>
   );
 };
+

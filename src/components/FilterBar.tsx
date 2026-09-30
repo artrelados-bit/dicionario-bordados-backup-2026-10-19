@@ -1,6 +1,7 @@
 import React from "react";
 import { Search, X, Star, LayoutList, LayoutGrid } from "lucide-react";
 import { VerbeteCategory } from "../types";
+import { SupportedLanguage, UI_TRANSLATIONS, CATEGORY_TRANSLATIONS_ES } from "../utils/i18n";
 
 interface FilterBarProps {
   searchQuery: string;
@@ -16,6 +17,7 @@ interface FilterBarProps {
   totalFiltered: number;
   viewMode: "list" | "grid";
   setViewMode: (mode: "list" | "grid") => void;
+  currentLanguage?: SupportedLanguage;
 }
 
 const CATEGORIES: VerbeteCategory[] = [
@@ -56,7 +58,17 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   totalFiltered,
   viewMode,
   setViewMode,
+  currentLanguage = "pt",
 }) => {
+  const t = UI_TRANSLATIONS[currentLanguage] || UI_TRANSLATIONS.pt;
+
+  const getCategoryLabel = (cat: string) => {
+    if (currentLanguage === "es") {
+      return CATEGORY_TRANSLATIONS_ES[cat] || cat;
+    }
+    return cat;
+  };
+
   return (
     <div className="bg-white border border-slate-200/90 rounded-2xl p-4 sm:p-5 shadow-xs space-y-4">
       {/* Search Input & Controls */}
@@ -68,17 +80,33 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="Pesquisar no Dicionário (ex: Ponto Cheio, Agulha, PES, Entretela)..."
+            placeholder={t.searchPlaceholder}
             className="w-full pl-10 pr-10 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 placeholder-slate-400 text-sm focus:outline-none focus:bg-white focus:border-slate-500 focus:ring-1 focus:ring-slate-400 transition"
           />
           {searchQuery && (
             <button
               onClick={() => setSearchQuery("")}
-              className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-slate-400 hover:text-slate-600"
+              className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-slate-400 hover:text-slate-600 cursor-pointer"
             >
               <X className="w-4 h-4" />
             </button>
           )}
+        </div>
+
+        {/* Category Dropdown Selector */}
+        <div className="flex items-center">
+          <select
+            value={selectedCategory}
+            onChange={(e) => setSelectedCategory(e.target.value as VerbeteCategory)}
+            aria-label={t.allCategories}
+            className="w-full md:w-auto px-3.5 py-2.5 bg-slate-50 hover:bg-slate-100 border border-slate-300 rounded-xl text-xs sm:text-sm font-bold text-slate-800 focus:outline-none focus:border-slate-500 cursor-pointer transition"
+          >
+            {CATEGORIES.map((cat) => (
+              <option key={cat} value={cat}>
+                {getCategoryLabel(cat)}
+              </option>
+            ))}
+          </select>
         </div>
 
         {/* Quick Toggles and View Mode */}
@@ -92,10 +120,10 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                   ? "bg-slate-900 text-amber-300 shadow-xs"
                   : "text-slate-600 hover:text-slate-900"
               }`}
-              title="Modo Lista Dicionário Limpo (Estilo WordReference - Sem Cartões)"
+              title={t.viewList}
             >
               <LayoutList className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline">Lista Limpa</span>
+              <span className="hidden sm:inline">{t.viewList}</span>
             </button>
             <button
               onClick={() => setViewMode("grid")}
@@ -104,10 +132,10 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                   ? "bg-slate-900 text-amber-300 shadow-xs"
                   : "text-slate-600 hover:text-slate-900"
               }`}
-              title="Modo Grade de Cartões"
+              title={t.viewGrid}
             >
               <LayoutGrid className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline">Cartões</span>
+              <span className="hidden sm:inline">{t.viewGrid}</span>
             </button>
           </div>
 
@@ -120,14 +148,16 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             }`}
           >
             <Star className={`w-3.5 h-3.5 ${onlyFavorites ? "fill-amber-500 text-amber-500" : ""}`} />
-            <span>Favoritos</span>
+            <span>{t.onlyFavorites}</span>
           </button>
         </div>
       </div>
 
       {/* Alphabetical Jumper Bar (A-Z) */}
       <div className="flex items-center space-x-1 overflow-x-auto pb-1 scrollbar-none border-t border-slate-100 pt-2 text-xs">
-        <span className="text-slate-400 text-[11px] font-extrabold tracking-wider uppercase mr-2 shrink-0">Índice:</span>
+        <span className="text-slate-400 text-[11px] font-extrabold tracking-wider uppercase mr-2 shrink-0">
+          {currentLanguage === "es" ? "Índice:" : "Índice:"}
+        </span>
         {ALPHABET.map((letter) => (
           <button
             key={letter}
@@ -151,9 +181,19 @@ export const FilterBar: React.FC<FilterBarProps> = ({
       {/* Active Filter Indicator */}
       <div className="flex items-center justify-between text-xs text-slate-500 pt-1 border-t border-slate-100">
         <div>
-          Exibindo <strong className="text-slate-900">{totalFiltered}</strong> {totalFiltered === 1 ? "verbete" : "verbetes"}
-          {selectedCategory !== "Todos" && <span> em <span className="text-slate-900 font-bold">"{selectedCategory}"</span></span>}
-          {selectedLetter && <span> com a letra <span className="text-slate-900 font-bold">"{selectedLetter}"</span></span>}
+          {currentLanguage === "es" ? (
+            <>
+              Mostrando <strong className="text-slate-900">{totalFiltered}</strong> {totalFiltered === 1 ? "término" : "términos"}
+              {selectedCategory !== "Todos" && <span> en <span className="text-slate-900 font-bold">"{getCategoryLabel(selectedCategory)}"</span></span>}
+              {selectedLetter && <span> con la letra <span className="text-slate-900 font-bold">"{selectedLetter}"</span></span>}
+            </>
+          ) : (
+            <>
+              Exibindo <strong className="text-slate-900">{totalFiltered}</strong> {totalFiltered === 1 ? "verbete" : "verbetes"}
+              {selectedCategory !== "Todos" && <span> em <span className="text-slate-900 font-bold">"{selectedCategory}"</span></span>}
+              {selectedLetter && <span> com a letra <span className="text-slate-900 font-bold">"{selectedLetter}"</span></span>}
+            </>
+          )}
         </div>
 
         {(searchQuery || selectedCategory !== "Todos" || selectedLetter !== "A" || onlyFavorites || onlyAiGenerated) && (
@@ -167,7 +207,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             }}
             className="text-red-600 hover:text-red-700 font-extrabold underline cursor-pointer"
           >
-            Voltar para Letra A
+            {currentLanguage === "es" ? "Restablecer Filtros" : "Voltar para Letra A"}
           </button>
         )}
       </div>

@@ -43,7 +43,7 @@ export interface Verbete {
   technicalDetails?: string;
   beginnerExplanation?: string;
   construction?: string[];
-  howItWorks?: string[];
+  howItWorks?: string[] | string;
   mainTypes?: string[];
   characteristics?: string[];
   numberingSystem?: string[];
@@ -53,7 +53,7 @@ export interface Verbete {
   curiosidadeTecnica?: string;
   voceSabia?: string;
   dicaArtrelados?: string;
-  recommendedSettings?: RecommendedSettings;
+  recommendedSettings?: RecommendedSettings | Array<{ parameter: string; value: string }> | any;
   applications?: string[];
   troubleshootingTips?: string[];
   practicalExercise?: string;

@@ -1262,4 +1262,275 @@ export const VERBETES_LETTER_A3: Verbete[] = [
       "tecnicas"
     ]
   }
+,
+{
+  "id": "a-101-alimentacao-positiva-de-linha",
+  "code": "A-115",
+  "letter": "A",
+  "term": "Alimentação Positiva de Fio (Positive Thread Feed System)",
+  "level": "Avançado 🔴",
+  "grammarClass": "Locução substantiva feminina técnica.",
+  "origin": "Do latim alimentatio (fornecimento contínuo) e do inglês positive thread feed. Tecnologia patenteada pela Melco (Acti-Feed) e adotada em máquinas industriais modernas.",
+  "category": "Mecânica & Ajustes",
+  "summary": "Sistema mecatrônico de roletes motorizados que entrega o comprimento exato de linha calculado digitalmente para cada ponto, dispensando discos de tensão por atrito.",
+  "definition": "A alimentação positiva de fio (Positive Thread Feed / Active Thread Delivery System) é a evolução mecatrônica dos sistemas de tensão passiva das máquinas de bordar. Em vez de frear o fio por compressão de molas e discos metálicos, o sistema utiliza roletes tracionados por micromotores de passo comandados pela CPU, liberando com precisão de centésimos de milímetro a quantidade exata de linha necessária para a espessura do tecido e o comprimento do salto medido por sensores.",
+  "beginnerExplanation": "Em vez de apertar o fio com discos de metal que podem puxar demais e arrebentar a linha, um motorzinho inteligente entrega para a agulha exatamente o pedacinho de linha que ela precisa para dar o ponto. Isso faz com que o bordado fique perfeito e sem enrugar tanto em tecidos fininhos quanto em couros grossos.",
+  "technicalDetails": "Precisão de dosagem: passos de 0,05 mm de filamento. Sensor piezoelétrico de espessura de tecido com amostragem contínua a cada ciclo de descida de aguja.",
+  "howItWorks": [
+    "1. O sensor de barra detecta a espessura do tecido no impacto.",
+    "2. A CPU calcula o comprimento ideal de linha para fechar o nó com a bobina.",
+    "3. O micromotor gira o rolete dosador liberando o fio sem tensão estática.",
+    "4. O ponto se assenta macio e uniforme na superfície da peça."
+  ],
+  "applications": [
+    "Bordados em tecidos elásticos finos de poliamida e elastano.",
+    "Costura com fios metálicos frágeis propensos a quebra por atrito.",
+    "Bonés estruturados e couros automotivos pesados."
+  ],
+  "commonErrors": [
+    "❌ Tentar apertar manualmente os roletes de alimentação motorizada com alicate.",
+    "❌ Inserir espessuras incorretas de tecido no painel eletrônico.",
+    "❌ Não recalibrar o sensor ao trocar entretelas normais por feltro ou EVA grosso."
+  ],
+  "troubleshootingTips": [
+    "Laços soltos de linha na superfície superior: reduza o valor de alimentação ativa no painel em 2 a 3 unidades.",
+    "Linha esticada repuxando a malha: aumente a entrega de linha no menu do software da máquina."
+  ],
+  "dicaArtrelados": "Em máquinas com alimentação positiva de fio, desative qualquer lubrificação excessiva com óleo nos discos, pois a poeira pode impregnar nos roletes emborrachados de tração.",
+  "voceSabia": "O sistema de alimentação positiva foi adaptado de teares de tricô circular suíços que tecem meias finas sem arrebentar fios microscópicos de lycra.",
+  "practicalExercise": "Borde o mesmo logotipo em seda pura e depois em jeans grosso sem alterar nenhuma chave mecânica. Observe no verso como a quantidade de linha branca de bobina permanece perfeitamente equilibrada em um terço central.",
+  "quickSummary": "Entrega motorizada digital da quantidade exata de fio para cada ponto, eliminando tensões manuais e quebras em tecidos difíceis.",
+  "relatedTerms": [
+    "Tensão de Linha Superior",
+    "Disco Pre-Tensor",
+    "Compensação de Repuxo",
+    "Sensor de Fio",
+    "Tira-linhas"
+  ]
+},
+{
+  "id": "a-102-angulo-de-ponto-satin-e-tatami",
+  "code": "A-116",
+  "letter": "A",
+  "term": "Ângulo de Ponto Satin e Tatami (Stitch Angle & Direction Line)",
+  "level": "Intermediário 🟡",
+  "grammarClass": "Locução substantiva masculina técnica.",
+  "origin": "Do latim angulus (inclinação em relação a um eixo) e punctum (ponto perfurado). Conceito geométrico basilar da programação CAD têxtil.",
+  "category": "Programação de Bordado",
+  "summary": "Orientação geométrica em graus (0° a 360°) atribuída às linhas de pontos, decisiva para o brilho, o volume ótico e a deformação do tecido.",
+  "definition": "O ângulo de ponto (Stitch Angle & Direction Lines) é a diretriz vetorial que estabelece a inclinação angular na qual as agulhadas de satim ou tatami são traçadas no plano cartesiano da matriz. Define o comportamento mecânico da peça — as forças de empuxo e repuxo atuam sempre alinhadas ou perpendiculares ao ângulo — e determina o reflexo especular de luz das linhas trilobais, gerando contrastes cromáticos e sensação tridimensional.",
+  "beginnerExplanation": "É a direção para onde as linhas do bordado estão deitadas: em pé, deitadas ou inclinadas. Mudar o ângulo é o segredo para fazer uma flor parecer de verdade: quando a luz bate em direções diferentes, duas folhas verdes com a mesma linha parecem ter cores e brilhos totalmente diferentes.",
+  "technicalDetails": "Faixa angular: 0° a 359°. Diferencial mínimo para percepção nítida de contraste luminoso pelo olho humano: 30° a 45° de defasagem.",
+  "howItWorks": [
+    "1. O programador traça linhas de direção que acompanham o fluxo da figura.",
+    "2. O algoritmo subdivide o polígono aplicando pontadas perpendiculares a essas guias.",
+    "3. A agulha penetra na inclinação programada assentando os filamentos.",
+    "4. A luz reflete no brilho do poliéster criando sombras e destaques volumétricos."
+  ],
+  "applications": [
+    "Pétalas de flores e plumagens orgânicas em bordados de alta definição.",
+    "Letras com efeito de relevo e acabamento chanfrado nos cantos.",
+    "Monogramas elegantes para enxovais e toalhas nobres."
+  ],
+  "commonErrors": [
+    "❌ Usar ângulo único de 0° em toda a matriz, deixando o desenho plano e sem vida.",
+    "❌ Alinhar o ângulo de ponto exatamente paralelo ao sentido de elasticidade de uma malha, rasgando o tecido.",
+    "❌ Cruzar ângulos muito fechados em curvas sem subdivisão de nós."
+  ],
+  "troubleshootingTips": [
+    "O bordado parece fosco e sem brilho: altere os ângulos para que fiquem a 90° em relação ao eixo da coluna de satim.",
+    "A malha está enrugando nas pontas: gire o ângulo do preenchimento em 45° em relação à linha da costura da peça."
+  ],
+  "dicaArtrelados": "Para letras grandes e legíveis, aplique ângulos perpendiculares ao traço principal. Isso garante a largura máxima de reflexo de luz e torna o bordado visível mesmo a grande distância.",
+  "voceSabia": "Na antiga arte chinesa do bordado de seda em Suzhou, os mestres utilizavam mais de 40 ângulos diferentes em uma única carpa dourada para criar a ilusão de água fluindo.",
+  "practicalExercise": "Crie dois círculos de 3 cm com o mesmo fio azul: o primeiro com ângulo a 45° e o segundo a 135°. Borde lado a lado e incline sob uma lâmpada para comprovar o impacto da luz no ângulo.",
+  "quickSummary": "Direção em graus das pontadas que orienta as forças de deformação da matriz e produz reflexos de luz e relevo estético.",
+  "relatedTerms": [
+    "Ponto Satim",
+    "Ponto Tatami",
+    "Compensação de Repuxo",
+    "Linha de Direção",
+    "Brilho Trilobal"
+  ]
+},
+{
+  "id": "a-103-ajuste-de-folga-da-lancadeira",
+  "code": "A-117",
+  "letter": "A",
+  "term": "Ajuste de Folga da Lançadeira e Agulha (Hook-to-Needle Clearance Timing)",
+  "level": "Avançado 🔴",
+  "category": "Mecânica & Ajustes",
+  "grammarClass": "Locução substantiva masculina técnica.",
+  "origin": "Do latim ad-iuxtare (calibrar milimetricamente) e do árabe al-nashash (lançadeira giratória). Ajuste mecânico padrão de manufatura textil universal.",
+  "summary": "Distância transversal micrométrica (0,05 a 0,10 mm) entre o bico da lançadeira e a cava da agulha para captura perfeita da laçada sem colisões.",
+  "definition": "O ajuste de folga da lançadeira e agulha (Hook-to-Needle Clearance & Timing Adjustment) é a calibragem de precisão que regula a distância lateral entre o bico rotativo da lançadeira e o rebaixo posterior (scarf/cava) da agulha quando esta sobe entre 1,8 e 2,2 mm a partir do ponto morto inferior. Uma folga calibrada em 0,05 mm a 0,10 mm permite interceptar o laço de linha formado sem atrito metálico, prevenindo falhas de ponto e quebras de agulha.",
+  "beginnerExplanation": "Dentro da máquina de bordar existe um ganchinho de ferro que gira em alta velocidade para pescar a linha da agulha em cada batida. Se esse gancho passar muito longe, ele erra a linha e o ponto falha. Se passar muito perto, bate na agulha e quebra. Regular esse vãozinho microscópico é a afinação mais importante da sua máquina.",
+  "technicalDetails": "Folga lateral recomendada: 0,05 a 0,08 mm. Altura do bico: 0,5 a 1,0 mm acima do olho da agulha. Grau angular de sincronismo do eixo principal: 198° a 202°.",
+  "howItWorks": [
+    "1. A agulha desce até o ponto mais baixo e sobe 2 mm formando o laço.",
+    "2. O bico da lançadeira passa rente à cava sem encostar no aço.",
+    "3. O gancho recolhe o fio e o conduz ao redor da caixa de bobina.",
+    "4. O tira-linhas puxa o laço fechando o nó no meio do tecido."
+  ],
+  "applications": [
+    "Manutenção preventiva periódica em oficinas de bordado.",
+    "Recalibragem após batidas acidentais no aro do bastidor.",
+    "Ajustes ao trocar de agulha fina 65/9 para grossa 90/14."
+  ],
+  "commonErrors": [
+    "❌ Deixar o bico encostar na agulha, criando rebarbas cortantes na lançadeira.",
+    "❌ Deixar folga maior que 0,15 mm, causando pontos falhados em malha.",
+    "❌ Apertar parafusos da lançadeira fora do grau correto de sincronismo."
+  ],
+  "troubleshootingTips": [
+    "Pontos pulados constantes após travamento de linha: verifique se a lançadeira não girou fora de sincronia ou se afastou da agulha.",
+    "Linha cortando a cada 10 pontos: passe uma meia de seda no bico da lançadeira; se puxar fio, o bico está arranhado por choque com a agulha."
+  ],
+  "dicaArtrelados": "Para regular sem calibrador de folga caro, coloque uma agulha nova e use uma tira de papel de caderno fino (80 g) entre o bico e a cava. O papel deve deslizar com leve atrito sem empurrar a agulha.",
+  "voceSabia": "A lançadeira de uma bordadeira a 1.000 RPM gira mais de 16 vezes por segundo, passando a um fio de cabelo da agulha sem tocá-la durante anos de produção contínua.",
+  "practicalExercise": "Com a máquina desligada e a chapa de agulha retirada, gire o volante com a mão. Olhe com uma lanterna o momento em que a ponta do gancho passa por trás da agulha pescando a laçada de fio.",
+  "quickSummary": "Calibração da distância micrométrica (0,05 mm) entre o bico do gancho e a agulha para pesca segura do fio sem impactos.",
+  "relatedTerms": [
+    "Lançadeira Rotativa",
+    "Cava da Agulha (Scarf)",
+    "Ponto Falso (Pulo de Ponto)",
+    "Sincronismo de Máquina",
+    "Ponto Morto Inferior"
+  ]
+},
+{
+  "id": "a-104-amortecedor-pneumatico-pantografo",
+  "code": "A-118",
+  "letter": "A",
+  "term": "Amortecimento e Estabilidade Estrutural do Pantógrafo (Pantograph Vibration Damping)",
+  "level": "Avançado 🔴",
+  "grammarClass": "Locução substantiva feminina técnica.",
+  "origin": "Do latim ad-mortire (reduzir impactos) e do grego pantographos (copiador de trajetos). Engenharia mecatrônica de controle inercial em robótica têxtil.",
+  "category": "Componentes e Mecânica da Máquina",
+  "summary": "Guarnições elastoméricas e blocos de amortecimento dinâmico que absorvem as forças inerciais das paradas bruscas do bastidor em alta rotação.",
+  "definition": "O amortecimento de vibração do pantógrafo (Pantograph Vibration Damping & Dynamic Stability) engloba os coxins elásticos de poliuretano, sapatas antivibratórias e patins de guias lineares esféricas que dissipam a energia cinética resultante das acelerações e paradas dos eixos X e Y. A 1.000 RPM, o peso do bastidor e da peça gera inércia considerável; o amortecimento estabiliza o aro antes da descida da agulha, garantindo precisão de encaixe e eliminando bordas serrilhadas.",
+  "beginnerExplanation": "Quando a máquina borda bem rápido, os braços que seguram o bastidor andam e freiam com muita força. Os amortecedores são borrachas especiais que impedem o bastidor de tremer quando para, fazendo com que as linhas e letras fiquem perfeitamente retas e nítidas.",
+  "technicalDetails": "Material elastomérico: poliuretano de dureza Shore A 75-85. Limite de deflexão máxima admissível no pantógrafo sob frenagem: menor que 0,03 mm.",
+  "howItWorks": [
+    "1. O servomotor acelera o pantógrafo com o bastidor carregado.",
+    "2. No ponto de parada, os coxins absorvem o choque mecânico de frenagem.",
+    "3. O bastidor imobiliza-se sem ressonância oscilatória.",
+    "4. A agulha desce na coordenada matemática exata sem desvios."
+  ],
+  "applications": [
+    "Bordados em alta rotação acima de 900 PPM em máquinas industriais.",
+    "Bordados de letras diminutas com espessura de 1 mm.",
+    "Bastidores pesados de jaquetas de couro ou colchas."
+  ],
+  "commonErrors": [
+    "❌ Instalar a máquina sobre piso de madeira oco ou bancada frouxa que amplifica a vibração.",
+    "❌ Deixar as guias lineares secas sem lubrificação apropriada.",
+    "❌ Ultrapassar a carga máxima recomendada de tecido no pantógrafo."
+  ],
+  "troubleshootingTips": [
+    "Letras com traços tremidos em alta velocidade: verifique o nivelamento das quatro sapatas da máquina com nível de bolha.",
+    "Ruído seco metálico no fim de saltos longos: verifique o desgaste dos batentes de borracha das guias do pantógrafo."
+  ],
+  "dicaArtrelados": "Mantenha a máquina perfeitamente nivelada no chão da oficina. Uma máquina firme e nivelada dura duas vezes mais e produz contornos mil vezes mais nítidos.",
+  "voceSabia": "Os pantógrafos industriais mais modernos utilizam ligas de alumínio e carbono que aceleram com forças comparáveis a um carro de Fórmula 1 em curvas fechadas.",
+  "practicalExercise": "Coloque um copo cheio de água sobre a mesa da máquina enquanto ela borda a 900 PPM. Se estiver bem estabilizada, a água apenas vibrará suavemente sem derramar.",
+  "quickSummary": "Dispositivos elastoméricos que eliminam trepidações do pantógrafo em alta velocidade, assegurando contornos retos e calces milimétricos.",
+  "relatedTerms": [
+    "Pantógrafo",
+    "Guias Lineares",
+    "Nivelamento de Máquina",
+    "Servomotor de Passo",
+    "Velocidade de Rotação (RPM)"
+  ]
+},
+{
+  "id": "a-105-avanco-angular-do-eixo-principal",
+  "code": "A-119",
+  "letter": "A",
+  "term": "Avanço Angular do Eixo Principal da Máquina (Main Shaft Degree Positioning & Encoder)",
+  "level": "Avançado 🔴",
+  "grammarClass": "Locução substantiva masculina técnica.",
+  "origin": "Do latim axis (eixo giratório) e angulus (graus de rotação). Escala mecatrônica circular universal de 0° a 360° em máquinas automáticas.",
+  "category": "Operação da Máquina",
+  "summary": "Escala angular em graus (0° a 360°) que dita a coreografia sincronizada entre agulha, lançadeira, cortador de linha e pantógrafo a cada ponto.",
+  "definition": "O avanço angular do eixo principal e escala de graus (Main Shaft Degree Positioning & Encoder System) é a régua circular cinemática que sincroniza todas as ações mecânicas da máquina de bordar. A cada volta completa de 360° do eixo principal, executa-se um ponto completo: a agulha atinge o ponto morto inferior em torno de 180°, a lançadeira laça o fio em 198°-202°, o tira-linhas fecha o ponto em 280° e o pantógrafo se movimenta na janela segura entre 280° e 100°, onde a agulha está fora do tecido. O ponto de parada de repouso padrão é calibrado a 100°.",
+  "beginnerExplanation": "O motor da máquina gira em círculo como um relógio de 360 graus. Em cada grau acontece uma coisa: a agulha desce, o gancho pesca a linha e o bastidor anda. O ponto '100 graus' (ou pontinho vermelho do volante) é o lugar seguro onde a agulha fica no alto e a máquina pode parar em paz sem bater em nada.",
+  "technicalDetails": "Resolução do encoder óptico: 360 a 720 pulsos por volta. Ponto de parada padrão de fábrica: 100° ± 2° para troca de cor e corte de fio.",
+  "howItWorks": [
+    "1. O sensor encoder reporta o grau angular do eixo em tempo real à CPU.",
+    "2. Na janela de graus segura (280° a 100°), o comando de movimento do bastidor é liberado.",
+    "3. Ao final da cor, o freio motor imobiliza o eixo exatamente na marca de 100°.",
+    "4. O mecanismo de troca de agulha e corte de linha atua em segurança."
+  ],
+  "applications": [
+    "Diagnóstico de erros de posicionamento em telas de controle.",
+    "Liberação manual de bastidores presos por travamento de linha.",
+    "Sincronização de corte de fio automático."
+  ],
+  "commonErrors": [
+    "❌ Tentar forçar o pantógrafo com o grau do eixo em 180° (agulha cravada na placa).",
+    "❌ Puxar a peça presa à força sem girar o volante até os 100° de repouso.",
+    "❌ Danificar o disco do encoder óptico com solventes abrasivos."
+  ],
+  "troubleshootingTips": [
+    "Aparece erro de 'Main Shaft Not at 100 Degrees': gire manualmente o volante no sentido horário até alinhar a marca de 100° e aperte reset na tela.",
+    "A máquina não aceita iniciar bordado: confira se o volante está livre e na posição de parada correta."
+  ],
+  "dicaArtrelados": "Sempre que a linha embolar por baixo da chapa, nunca puxe o tecido. Gire o volante na mão devagar até os 100 graus; a agulha subirá suavemente e você poderá desatar o nó com uma tesourinha sem entortar a barra.",
+  "voceSabia": "A 1.000 pontos por minuto, o eixo principal executa uma volta de 360° a cada 60 milissegundos, coordenando dezenas de peças móveis em uma fração de segundo.",
+  "practicalExercise": "Com a máquina parada, localize a escala numerada no volante de giro manual. Gire devagar e veja o mostrador de graus na tela mudar, observando como a agulha sobe e desce em harmonia com os números.",
+  "quickSummary": "Ciclo de 360 graus do eixo motriz que sincroniza agulha, lançadeira e pantógrafo, tendo os 100° como ponto seguro de repouso.",
+  "relatedTerms": [
+    "Encoder Óptico",
+    "Ponto de Parada (100°)",
+    "Sincronismo de Lançadeira",
+    "Tira-linhas",
+    "Painel de Controle"
+  ]
+},
+{
+  "id": "a-106-anel-antideslizante-de-bastidor",
+  "code": "A-120",
+  "letter": "A",
+  "term": "Anel e Fita Antideslizante para Bastidor (Hoop Non-Slip Friction Grip)",
+  "level": "Fundamental 🟢",
+  "grammarClass": "Locução substantiva masculina técnica.",
+  "origin": "Do latim anellus (aro circular) e do inglês non-slip grip tape (fita de atrito antideslizante). Prática de ateliê desenvolvida para eliminar o escorregamento em aros lisos.",
+  "category": "Bastidores & Fixação",
+  "summary": "Revestimento rugoso em fita crepe ou viés de algodão aplicado nas paredes do aro interno do bastidor para prender tecidos escorregadios sem vincos permanentes.",
+  "definition": "O anel e fita antideslizante de bastidor (Hoop Non-Slip Friction Grip / Hoop Wrapping Tape) é a técnica de melhoria superficial do coeficiente de atrito mecânico das bordas do anel interno do bastidor. Em tecidos ultraescorregadios (cetim de seda, microfibra dry-fit, tactel resinado ou lycra), as paredes de plástico liso do bastidor deixam o tecido deslizar gradualmente sob a força das pontadas. Ao encapar o aro interno com fita crepe de papel ou viés de algodão, cria-se uma aderência firme que trava o tecido sem a necessidade de apertar o parafuso com força excessiva.",
+  "beginnerExplanation": "Quando você vai bordar tecidos escorregadios como cetim ou camisas de time, o plástico liso do bastidor escorrega e o tecido fica frouxo no meio do bordado, deixando tudo enrugado. A dica de ouro é encapar o aro de dentro do bastidor com fita crepe ou fita de tecido. Isso cria uma textura que segura a roupa firme sem precisar apertar o parafuso até quebrar o plástico.",
+  "technicalDetails": "Aumento do coeficiente de atrito estático de µ = 0,25 (plástico polido) para µ = 0,65 (superfície têxtil encapada). Redução de marcas de esmagamento (*hoop burn*) em 70%.",
+  "howItWorks": [
+    "1. Limpa-se o aro interno com álcool.",
+    "2. Enrola-se a fita crepe em espiral contínua por todo o aro.",
+    "3. Posiciona-se a peça e a entretela sobre o aro externo.",
+    "4. Ao encaixar o aro encapado, o atrito prende o tecido de forma homogênea."
+  ],
+  "applications": [
+    "Camisas de futebol em poliéster dry-fit e tecidos com elastano.",
+    "Roupões e pijamas de seda e cetim delicado.",
+    "Jaquetas impermeáveis de nylon resinado."
+  ],
+  "commonErrors": [
+    "❌ Usar fita isolante ou fitas adesivas com cola que derrete e mancha a roupa com resíduo grudento.",
+    "❌ Fazer camadas muito grossas que impedem o encaixe do bastidor.",
+    "❌ Puxar as bordas do tecido após encaixar o aro, deformando a trama."
+  ],
+  "troubleshootingTips": [
+    "O tecido de lycra escapa pelos lados durante o bordado: encape o aro interno com fita crepe de pintura azul para triplicar a aderência.",
+    "O bastidor está deixando marcas brilhantes que não saem na lavagem: o revestimento de fita distribui a pressão e elimina o vinco profundo."
+  ],
+  "dicaArtrelados": "Use fita crepe de pintura automotiva azul ou viés de algodão cru colado com fita dupla-face fina. Nunca use fita adesiva transparente comum, pois a cola dela solta com o tempo e mela seu tecido!",
+  "voceSabia": "Na alta-costura parisiense, os bastidores de madeira dos bordadores reais eram encapados com tiras de linho branco há mais de 300 anos para proteger as sedas preciosas da nobreza.",
+  "practicalExercise": "Encape um bastidor pequeno com fita crepe. Coloque um retalho de tecido esportivo e aperte apenas com a força dos dedos. Puxe as bordas: você verá que a peça fica presa como um tambor sem escorregar nada.",
+  "quickSummary": "Encape do anel interno com fita crepe que aumenta o atrito e prende tecidos escorregadios sem deformações nem marcas.",
+  "relatedTerms": [
+    "Aros do Bastidor",
+    "Enquadramento no Bastidor",
+    "Marcas de Bastidor (Hoop Burn)",
+    "Compensação de Repuxo",
+    "Bastidor Magnético"
+  ]
+}
 ];

@@ -1,11 +1,70 @@
 import React from "react";
+import { SupportedLanguage } from "../utils/i18n";
 
 interface StitchDiagramProps {
   type?: "satin" | "tatami" | "running" | "applique" | "cutwork" | "cross_stitch" | "3d_puff" | "fringe" | "fill";
   className?: string;
+  language?: SupportedLanguage;
 }
 
-export const StitchDiagram: React.FC<StitchDiagramProps> = ({ type = "satin", className = "" }) => {
+export const StitchDiagram: React.FC<StitchDiagramProps> = ({
+  type = "satin",
+  className = "",
+  language = "pt",
+}) => {
+  const getDiagramLabels = () => {
+    switch (language) {
+      case "es":
+        return {
+          satin: "Esquema: Puntada Satín (Satin)",
+          tatami: "Esquema: Relleno Tatami",
+          running: "Esquema: Puntada Lineal (Running)",
+          puff: "Esquema: Bordado 3D (Goma EVA)",
+          evaText: "GOMA EVA 3MM",
+          fallback: "Diagrama Técnico de Bordado",
+        };
+      case "it":
+        return {
+          satin: "Schema: Punto Pieno (Satin)",
+          tatami: "Schema: Riempimento Tatami",
+          running: "Schema: Punto Fissato (Running)",
+          puff: "Schema: Ricamo 3D (Gomma EVA)",
+          evaText: "GOMMA EVA 3MM",
+          fallback: "Diagramma Tecnico di Ricamo",
+        };
+      case "fr":
+        return {
+          satin: "Schéma : Point Bourdon (Satin)",
+          tatami: "Schéma : Remplissage Tatami",
+          running: "Schéma : Point Avant (Running)",
+          puff: "Schéma : Broderie 3D (Mousse EVA)",
+          evaText: "MOUSSE EVA 3MM",
+          fallback: "Diagramme Technique de Broderie",
+        };
+      case "en":
+        return {
+          satin: "Diagram: Satin Stitch",
+          tatami: "Diagram: Tatami Fill",
+          running: "Diagram: Running Stitch",
+          puff: "Diagram: 3D Foam (Puff EVA)",
+          evaText: "3MM EVA FOAM",
+          fallback: "Technical Embroidery Diagram",
+        };
+      case "pt":
+      default:
+        return {
+          satin: "Esquema: Ponto Cheio (Satin)",
+          tatami: "Esquema: Preenchimento Tatami",
+          running: "Esquema: Ponto Corrido (Running)",
+          puff: "Esquema: Bordado 3D (Puff EVA)",
+          evaText: "ESPUMA EVA 3MM",
+          fallback: "Diagrama Técnico de Bordado",
+        };
+    }
+  };
+
+  const labels = getDiagramLabels();
+
   switch (type) {
     case "satin":
       return (
@@ -27,7 +86,9 @@ export const StitchDiagram: React.FC<StitchDiagramProps> = ({ type = "satin", cl
             <path d="M 5 10 L 195 10" stroke="#d97706" strokeWidth="1" strokeDasharray="3 3" opacity="0.6" />
             <path d="M 5 50 L 195 50" stroke="#d97706" strokeWidth="1" strokeDasharray="3 3" opacity="0.6" />
           </svg>
-          <span className="text-[11px] font-bold text-slate-700 mt-1 uppercase tracking-wider">Esquema: Ponto Cheio (Satin)</span>
+          <span className="text-[11px] font-bold text-slate-700 mt-1 uppercase tracking-wider">
+            {labels.satin}
+          </span>
         </div>
       );
 
@@ -53,7 +114,9 @@ export const StitchDiagram: React.FC<StitchDiagramProps> = ({ type = "satin", cl
               </g>
             ))}
           </svg>
-          <span className="text-[11px] font-bold text-slate-700 mt-1 uppercase tracking-wider">Esquema: Preenchimento Tatami</span>
+          <span className="text-[11px] font-bold text-slate-700 mt-1 uppercase tracking-wider">
+            {labels.tatami}
+          </span>
         </div>
       );
 
@@ -71,7 +134,9 @@ export const StitchDiagram: React.FC<StitchDiagramProps> = ({ type = "satin", cl
               <circle key={i} cx={x} cy={30} r="2.5" fill="#d97706" />
             ))}
           </svg>
-          <span className="text-[11px] font-bold text-slate-700 mt-1 uppercase tracking-wider">Esquema: Ponto Corrido (Running)</span>
+          <span className="text-[11px] font-bold text-slate-700 mt-1 uppercase tracking-wider">
+            {labels.running}
+          </span>
         </div>
       );
 
@@ -81,7 +146,9 @@ export const StitchDiagram: React.FC<StitchDiagramProps> = ({ type = "satin", cl
           <svg className="w-full h-14 text-slate-800" viewBox="0 0 200 60" fill="none">
             {/* EVA foam base */}
             <rect x="20" y="22" width="160" height="16" rx="4" fill="#e2e8f0" stroke="#94a3b8" strokeDasharray="2 2" />
-            <text x="100" y="33" fill="#334155" fontSize="9" textAnchor="middle" fontWeight="bold">ESPUMA EVA 3MM</text>
+            <text x="100" y="33" fill="#334155" fontSize="9" textAnchor="middle" fontWeight="bold">
+              {labels.evaText}
+            </text>
             {/* Dense Satin stitches wrapping around EVA */}
             {Array.from({ length: 22 }).map((_, i) => (
               <path
@@ -93,7 +160,9 @@ export const StitchDiagram: React.FC<StitchDiagramProps> = ({ type = "satin", cl
               />
             ))}
           </svg>
-          <span className="text-[11px] font-bold text-slate-700 mt-1 uppercase tracking-wider">Esquema: Bordado 3D (Puff EVA)</span>
+          <span className="text-[11px] font-bold text-slate-700 mt-1 uppercase tracking-wider">
+            {labels.puff}
+          </span>
         </div>
       );
 
@@ -104,9 +173,10 @@ export const StitchDiagram: React.FC<StitchDiagramProps> = ({ type = "satin", cl
             <path d="M 10 30 Q 50 10, 100 30 T 190 30" strokeWidth="2.5" fill="none" strokeDasharray="4 2" />
             <circle cx="100" cy="30" r="4" fill="#d97706" />
           </svg>
-          <span className="text-[11px] font-bold text-slate-700 mt-1 uppercase tracking-wider">Diagrama Técnico de Bordado</span>
+          <span className="text-[11px] font-bold text-slate-700 mt-1 uppercase tracking-wider">
+            {labels.fallback}
+          </span>
         </div>
       );
   }
 };
-
