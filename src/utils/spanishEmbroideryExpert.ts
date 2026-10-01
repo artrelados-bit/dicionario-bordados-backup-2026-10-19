@@ -19,6 +19,10 @@ import { VERBETES_LETTER_D_LOTE1_ES } from "../data/verbetesLetterD_Lote1_ES";
 import { VERBETES_LETTER_D_LOTE2_ES } from "../data/verbetesLetterD_Lote2_ES";
 import { VERBETES_LETTER_D_LOTE3_ES } from "../data/verbetesLetterD_Lote3_ES";
 import { VERBETES_LETTER_D_LOTE4_ES } from "../data/verbetesLetterD_Lote4_ES";
+import { VERBETES_LETTER_E_LOTE1_ES } from "../data/verbetesLetterE_Lote1_ES";
+import { VERBETES_LETTER_E_LOTE2_ES } from "../data/verbetesLetterE_Lote2_ES";
+import { VERBETES_LETTER_E_LOTE3_ES } from "../data/verbetesLetterE_Lote3_ES";
+import { VERBETES_LETTER_E_LOTE4_ES } from "../data/verbetesLetterE_Lote4_ES";
 import { CURATED_SPANISH_APPLICATIONS } from "../data/spanishApplications";
 
 /**
@@ -522,7 +526,11 @@ export const CURATED_SPANISH_VERBETES: Record<string, Partial<Verbete>> = {
   ...VERBETES_LETTER_D_LOTE1_ES,
   ...VERBETES_LETTER_D_LOTE2_ES,
   ...VERBETES_LETTER_D_LOTE3_ES,
-  ...VERBETES_LETTER_D_LOTE4_ES
+  ...VERBETES_LETTER_D_LOTE4_ES,
+  ...VERBETES_LETTER_E_LOTE1_ES,
+  ...VERBETES_LETTER_E_LOTE2_ES,
+  ...VERBETES_LETTER_E_LOTE3_ES,
+  ...VERBETES_LETTER_E_LOTE4_ES
 };
 
 /**
