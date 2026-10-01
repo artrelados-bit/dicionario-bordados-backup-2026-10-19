@@ -2,7 +2,7 @@ import { Verbete } from "../../types";
 
 export const LOTE3_B_PART2_ES: Record<string, Partial<Verbete>> = {
   "b-005-bobina": {
-    "term": "Bobina de Bordado (Canilla de Acero y Aluminio)",
+    "term": "Bobina de Bordado",
     "level": "Iniciante 🟢",
     "category": "Insumos & Materiales",
     "grammarClass": "Sustantivo femenino",
@@ -49,7 +49,7 @@ export const LOTE3_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-055-bobina-com-nucleo-magnetico-magna-glide": {
-    "term": "Bobina con Núcleo Magnético (Magnetic Core Bobbins - Magna-Glide)",
+    "term": "Bobina con Núcleo Magnético",
     "level": "Avanzado 🔴",
     "category": "Insumos & Materiales",
     "grammarClass": "Locución nominal femenina",
@@ -96,7 +96,7 @@ export const LOTE3_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-068-bobina-de-bordado-linha-de-bobina": {
-    "term": "Bobina de Bordado e Hilo Inferior Calibre 60wt-70wt (Bobbin Thread & Tension Balance)",
+    "term": "Bobina de Bordado e Hilo Inferior Calibre 60wt-70wt",
     "level": "Intermedio 🟡",
     "category": "Insumos & Materiales",
     "grammarClass": "Locución nominal femenina",
@@ -143,7 +143,7 @@ export const LOTE3_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-018-bobina-pre-enrolada": {
-    "term": "Bobina Predevanada (Pre-Wound Bobbin)",
+    "term": "Bobina Predevanada",
     "level": "Iniciante 🟢",
     "category": "Insumos & Materiales",
     "grammarClass": "Locución nominal femenina",
@@ -190,7 +190,7 @@ export const LOTE3_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-049-bobinadeira-externa": {
-    "term": "Devanador Externo Independiente (Independent Bobbin Winder)",
+    "term": "Devanador Externo Independiente",
     "level": "Intermedio 🟡",
     "category": "Maquinaria & Equipamiento",
     "grammarClass": "Locución nominal masculina",
@@ -284,7 +284,7 @@ export const LOTE3_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-099-bobinas-pre-enroladas-descartaveis": {
-    "term": "Bobinas Predevanadas Descartables (Pre-Wound Bobbins Industriales)",
+    "term": "Bobinas Predevanadas Descartables",
     "level": "Iniciante 🟢",
     "category": "Insumos & Materiales",
     "grammarClass": "Locución nominal femenina",
@@ -331,7 +331,7 @@ export const LOTE3_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-body-e-macacao-infantil-bordados-em-malha": {
-    "term": "Body y Enterito Infantil (Bordados en Tejido de Punto Suave & Protección Termoadhesiva de Revés)",
+    "term": "Body y Enterito Infantil",
     "level": "Iniciante 🟢",
     "category": "Técnicas & Aplicaciones",
     "grammarClass": "Locución nominal masculina",

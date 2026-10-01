@@ -2,7 +2,7 @@ import { Verbete } from "../../types";
 
 export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
   "b-038-base-de-ponto-tatami": {
-    "term": "Base de Puntada Tatami (Underlay para Relleno Tatami)",
+    "term": "Base de Puntada Tatami",
     "level": "Intermedio 🟡",
     "category": "Digitalización & Matrices",
     "grammarClass": "Locución nominal femenina",
@@ -48,7 +48,7 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-014-base-de-pontos-underlay": {
-    "term": "Base de Puntadas (Underlay / Puntadas de Soporte)",
+    "term": "Base de Puntadas",
     "level": "Iniciante 🟢",
     "category": "Digitalización & Matrices",
     "grammarClass": "Locución nominal femenina",
@@ -94,7 +94,7 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-096-base-flutuante-em-entretela-hidrossoluvel": {
-    "term": "Base Flotante en Estabilizador Hidrosoluble (Técnica de Montaje Flotante con Film Soluble)",
+    "term": "Base Flotante en Estabilizador Hidrosoluble",
     "level": "Avanzado 🔴",
     "category": "Bastidores & Fijación",
     "grammarClass": "Locución nominal femenina",
@@ -141,7 +141,7 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-058-bastidor-de-bolso-e-grampos-de-fixacao-rapida": {
-    "term": "Bastidor de Bolsillo y Abrazaderas de Fijación Rápida (Pocket Clamp Hoop & Fast Frames)",
+    "term": "Bastidor de Bolsillo y Abrazaderas de Fijación Rápida",
     "level": "Intermedio 🟡",
     "category": "Bastidores & Fijación",
     "grammarClass": "Locución nominal masculina",
@@ -187,7 +187,7 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-075-bastidor-de-bone-cap-frame-sistema-270": {
-    "term": "Bastidor de Gorras (Cap Frame / Sistema Tubular 270°)",
+    "term": "Bastidor de Gorras",
     "level": "Avanzado 🔴",
     "category": "Bastidores & Fijación",
     "grammarClass": "Locución nominal masculina",
@@ -233,7 +233,7 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-003-bastidor-de-bone": {
-    "term": "Bastidor para Gorras (Cap Frame & Driver Tubular)",
+    "term": "Bastidor para Gorras",
     "level": "Intermedio 🟡",
     "category": "Bastidores & Fijación",
     "grammarClass": "Locución nominal masculina",
@@ -279,7 +279,7 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-062-bastidor-de-bone-cap-frame-270": {
-    "term": "Bastidor de Gorras y Soporte Tubular 270° (Cap Frame & Wide Angle Driver)",
+    "term": "Bastidor de Gorras y Soporte Tubular 270°",
     "level": "Avanzado 🔴",
     "category": "Bastidores & Fijación",
     "grammarClass": "Locución nominal masculina",
@@ -325,7 +325,7 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-114-bastidor-de-bone-13x18-suporte-adaptador-presilha-aba-gabarito-agb": {
-    "term": "Bastidor de Gorras 13x18 / Soporte Adaptador con Abrazadera de Visera (Plantilla AGB para Máquinas Monocabeza Planas)",
+    "term": "Bastidor de Gorras 13x18 / Soporte Adaptador con Abrazadera de Visera",
     "level": "Intermedio 🟡",
     "category": "Bastidores & Fijación",
     "grammarClass": "Locución nominal masculina",
@@ -341,7 +341,7 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     "beginnerExplanation": "Quien tiene una máquina de bordar de una aguja sabe lo difícil que es bordar gorras porque no tienen el brazo tubular de las máquinas de fábrica. Este soporte es una solución ingeniosa: lo colocas sobre tu bastidor normal 13x18, metes la visera dura de la gorra en las mariposas y aprietas con la mano. El soporte mantiene la visera baja y la frente de la gorra queda estiradita y plana para bordar sin peligro de romper agujas.",
     "practicalExamples": [
       "Bordado de logotipos y nombres en gorras promocionales con máquinas Brother PE810L, PE910L o BP1430.",
-      "Personalización de gorras trucker infantiles y juveniles en pequeños talleres y ateliês hogareños.",
+      "Personalización de gorras trucker infantiles y juveniles en pequeños talleres y tallers hogareños.",
       "Bordado de escudos en gorros de pescador (bucket hats) utilizando la placa plana de prensado."
     ],
     "matrixParametersRelation": [
@@ -372,7 +372,7 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-001-bastidor-de-bordado": {
-    "term": "Bastidor de Bordado (Aro / Marco de Tensión Textil)",
+    "term": "Bastidor de Bordado",
     "level": "Iniciante 🟢",
     "category": "Bastidores & Fijación",
     "grammarClass": "Locución nominal masculina",
@@ -407,7 +407,7 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
       "Si el tornillo gira en falso, reemplaza la tuerca de inserción interna o el perno desgastado para recuperar la presión de sujeción."
     ],
     "whenToAdjust": "Regula la presión del tornillo en cada cambio de tela: más suelto para toallas y polar grueso; más ajustado para popelín, microfibra y camisas finas.",
-    "dicaArtrelados": "El mandamiento de oro del ateliê Artrelados: ¡Nunca estires la tela tirando de sus bordes una vez que el aro exterior esté encajado! Si tironeas de la tela, estiras los hilos elásticos de la trama; cuando saques el bastidor al terminar, la tela volverá a su tamaño natural y tu bordado quedará totalmente arrugado. Coloca la tela plana y déjala tan templada como un tambor, pero sin forzar su elasticidad natural.",
+    "dicaArtrelados": "El mandamiento de oro del taller Artrelados: ¡Nunca estires la tela tirando de sus bordes una vez que el aro exterior esté encajado! Si tironeas de la tela, estiras los hilos elásticos de la trama; cuando saques el bastidor al terminar, la tela volverá a su tamaño natural y tu bordado quedará totalmente arrugado. Coloca la tela plana y déjala tan templada como un tambor, pero sin forzar su elasticidad natural.",
     "voceSabia": "¿Sabías que los primeros bastidores de bordado de la historia se fabricaban con ramas flexibles de mimbre o bambú amarradas con tiras de cuero, y que el tornillo regulador de metal no se patentó hasta mediados del siglo XIX?",
     "practicalExercise": "Practica el enbastorado perfecto: afloja el tornillo, coloca entretela y un retazo de algodón sobre el aro interno. Presiona el aro externo con ambas palmas de la mano en movimiento parejo hacia abajo. Ajusta el tornillo solo con la fuerza de los dedos. Golpea la tela suavemente con la yema del dedo: debe sonar hueco y firme como un tamboril.",
     "quickSummary": "Marco rígido de dos aros concéntricos que tensa y estabiliza la tela conectándola al pantógrafo para garantizar puntadas nítidas y sin deformaciones.",

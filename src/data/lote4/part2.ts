@@ -2,7 +2,7 @@ import { Verbete } from "../../types";
 
 export const LOTE4_PART2_ES: Record<string, Partial<Verbete>> = {
   "a-014-arremate-automatico": {
-    "term": "Remate Automático de Entrada y Salida (Auto Tie-Off)",
+    "term": "Remate Automático de Entrada y Salida",
     "level": "Fundamental 🟢",
     "category": "Programación y Digitalización de Matrices",
     "grammarClass": "Locución sustantiva masculina técnica",
@@ -64,7 +64,7 @@ export const LOTE4_PART2_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "El remate correcto ahorra garantías y devoluciones de clientes insatisfechos. Calcule precios seguros y confiables con la Calculadora de Bordados Artrelados."
   },
   "a-049-arremate-de-entrada-e-arremate-de-saida": {
-    "term": "Remate de Entrada (Tie-In) y Remate de Salida (Tie-Off)",
+    "term": "Remate de Entrada y Remate de Salida",
     "level": "Fundamental 🟢",
     "category": "Programación y Digitalización de Matrices",
     "grammarClass": "Locución sustantiva masculina compuesta",
@@ -126,7 +126,7 @@ export const LOTE4_PART2_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "Los cortes de hilo limpios y remates perfectos ahorran horas de despuntado manual a tijera. Cuantifique este ahorro con la Calculadora de Bordados Artrelados."
   },
   "a-005-arremate-de-ponto": {
-    "term": "Remate de Puntada y Nudo de Bloqueo (Lock Stitch)",
+    "term": "Remate de Puntada y Nudo de Bloqueo",
     "level": "Fundamental 🟢",
     "category": "Programación y Digitalización de Matrices",
     "grammarClass": "Locución sustantiva masculina técnica",
@@ -188,7 +188,7 @@ export const LOTE4_PART2_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "Evite devoluciones por bordados deshechos dominando los remates de calidad. Cotice trabajos seguros con la Calculadora de Bordados Artrelados."
   },
   "a-020-arremate-manual-no-software": {
-    "term": "Remate Manual de Puntadas en el Software (Manual Digitizing Lock)",
+    "term": "Remate Manual de Puntadas en el Software",
     "level": "Avanzado 🔴",
     "category": "Programación y Digitalización de Matrices",
     "grammarClass": "Locución sustantiva masculina técnica",
@@ -250,7 +250,7 @@ export const LOTE4_PART2_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "El ponchado artesanal de alta precisión para letras pequeñas requiere destreza y tiempo de diseño. Califique su tarifa con la Calculadora de Bordados Artrelados."
   },
   "a-071-assentamento-de-ponto": {
-    "term": "Asentamiento de Puntada y Estructura de Refuerzo (Underlay)",
+    "term": "Asentamiento de Puntada y Estructura de Refuerzo",
     "level": "Intermedio 🟡",
     "category": "Programación y Digitalização de Matrices",
     "grammarClass": "Locución sustantiva masculina compuesta",
@@ -316,7 +316,7 @@ export const LOTE4_PART2_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "El cálculo correcto de puntadas de asentamiento optimiza el balance entre calidad y consumo de hilo. Programe su producción con la Calculadora de Bordados Artrelados."
   },
   "a-058-atalho-de-teclado-no-software": {
-    "term": "Atajos de Teclado en el Software de Digitalización (Shortcuts)",
+    "term": "Atajos de Teclado en el Software de Digitalización",
     "level": "Intermedio 🟡",
     "category": "Programación y Digitalización de Matrices",
     "grammarClass": "Locución sustantiva masculina compuesta",
@@ -378,7 +378,7 @@ export const LOTE4_PART2_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "Ahorrar tiempo en la digitalización significa poder cotizar y entregar más pedidos en el mismo día. Multiplique su rendimiento con la Calculadora de Bordados Artrelados."
   },
   "a-atoalhado-tecidos-felpudos-toalhas": {
-    "term": "Bordado en Tejidos de Toalla y Materiales de Felpa (Terrycloth)",
+    "term": "Bordado en Tejidos de Toalla y Materiales de Felpa",
     "level": "Iniciante 🟢 a Intermedio 🟡",
     "category": "Tejidos y Estabilización",
     "grammarClass": "Locución sustantiva masculina técnica",
@@ -445,7 +445,7 @@ export const LOTE4_PART2_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "El consumo de película soluble y entretelas especiales para toallas debe incluirse en el costo de materiales. Calcule presupuestos exactos con la Calculadora de Bordados Artrelados."
   },
   "a-046-auto-espacamento-de-pontos": {
-    "term": "Auto-Espaciado y Compensación de Densidad (Auto-Spacing)",
+    "term": "Auto-Espaciado y Compensación de Densidad",
     "level": "Avanzado 🔴",
     "category": "Programación y Digitalización de Matrices",
     "grammarClass": "Locución sustantiva masculina técnica",
@@ -507,7 +507,7 @@ export const LOTE4_PART2_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "Las matrices técnicamente pulidas con auto-espaciado no rompen agujas ni paran máquinas. Calcule su costo operativo real con la Calculadora de Bordados Artrelados."
   },
   "a-065-auto-spaced-satin-espacamento-automatico": {
-    "term": "Satén con Espaciado Automático en Curvas (Auto-Spaced Satin)",
+    "term": "Satén con Espaciado Automático en Curvas",
     "level": "Avanzado 🔴",
     "category": "Programación y Digitalización de Matrices",
     "grammarClass": "Locución sustantiva masculina técnica",
@@ -569,7 +569,7 @@ export const LOTE4_PART2_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "El diseño óptimo de columnas de satén disminuye los tiempos de bordado y el consumo de hilo superior. Cuantifique su ganancia neta en la Calculadora de Bordados Artrelados."
   },
   "a-030-auto-compensacao-de-canto-mitered-corner": {
-    "term": "Autocompensación de Esquinas a Inglete (Auto-Cornering & Mitered)",
+    "term": "Autocompensación de Esquinas a Inglete",
     "level": "Avanzado 🔴",
     "category": "Programación y Digitalización de Matrices",
     "grammarClass": "Locución sustantiva femenina técnica",

@@ -3,7 +3,7 @@ import { Verbete } from "../../types";
 export const LOTE1_PART3_ES: Record<string, Partial<Verbete>> = {
   // A-021
   "a-102-agulha-de-gancho-crochet-lingueta-chenille": {
-    term: "Aguja de Gancho / Aguja Crochet con Lengüeta (Chenille Latch Needle)",
+    term: "Aguja de Gancho y Cadeneta con Lengüeta",
     level: "Avanzado 🔴",
     category: "Agujas y Hilos",
     grammarClass: "Locución sustantiva femenina.",
@@ -60,7 +60,7 @@ export const LOTE1_PART3_ES: Record<string, Partial<Verbete>> = {
 
   // A-022
   "a-055-agulha-de-ilhos-furadora-borer": {
-    term: "Aguja de Ojal / Aguja Perforadora (Eyelet & Piercing Needle / Borer Device)",
+    term: "Aguja Perforadora de Ojales y Richelieu",
     level: "Avanzado 🔴",
     category: "Agujas y Hilos",
     grammarClass: "Locución sustantiva femenina.",
@@ -117,7 +117,7 @@ export const LOTE1_PART3_ES: Record<string, Partial<Verbete>> = {
 
   // A-023
   "a-013-agulha-topstitch-pesponto": {
-    term: "Aguja de Pespunte / Topstitch (Topstitch Embroidery Needle - 130N / DBx1)",
+    term: "Aguja para Pespunte Grueso y Topstitch",
     level: "Fundamental 🟢",
     category: "Agujas y Hilos",
     grammarClass: "Locución sustantiva femenina.",
@@ -173,7 +173,7 @@ export const LOTE1_PART3_ES: Record<string, Partial<Verbete>> = {
 
   // A-024
   "a-052-agulha-titanio-nitreto-de-titanio": {
-    term: "Aguja de Titanio / Nitruro de Titanio (Titanium Embroidery Needle - HAX130EBBR / DBxK5-PD)",
+    term: "Aguja con Recubrimiento de Nitruro de Titanio",
     level: "Fundamental 🟢",
     category: "Agujas y Hilos",
     grammarClass: "Locución sustantiva femenina.",
@@ -230,7 +230,7 @@ export const LOTE1_PART3_ES: Record<string, Partial<Verbete>> = {
 
   // A-025
   "a-063-agulha-titanio-pd-titanium-needle": {
-    term: "Aguja de Titanio / Recubrimiento PD (Titanium Nitride Coated Needle)",
+    term: "Aguja de Titanio de Máxima Durabilidad",
     level: "Avanzado 🔴",
     category: "Agujas y Hilos",
     grammarClass: "Locución sustantiva femenina.",
@@ -286,7 +286,7 @@ export const LOTE1_PART3_ES: Record<string, Partial<Verbete>> = {
 
   // A-026
   "a-agulha-despontada-cega-rebarba-bordado-eletronico": {
-    term: "Aguja Desafilada / Ciega con Rebarba en el Bordado Electrónico",
+    term: "Aguja Desafilada y con Rebarba",
     level: "Fundamental 🟢",
     category: "Agujas y Desgaste Mecánico / Mantenimiento Preventivo",
     grammarClass: "Locución sustantiva femenina.",
@@ -342,7 +342,7 @@ export const LOTE1_PART3_ES: Record<string, Partial<Verbete>> = {
 
   // A-027
   "a-022-agulha-dupla-de-bordado": {
-    term: "Aguja Doble de Bordado (Twin Embroidery Needle - 130/705 H-ZWI-BR)",
+    term: "Aguja Doble de Bordado",
     level: "Intermedio 🟡",
     category: "Agujas y Hilos",
     grammarClass: "Locución sustantiva femenina.",
@@ -399,7 +399,7 @@ export const LOTE1_PART3_ES: Record<string, Partial<Verbete>> = {
 
   // A-028
   "a-099-agulha-especial-linhas-metalicas": {
-    term: "Aguja Especial para Hilos Metálicos (Metallic Embroidery Needle / Ojo Alargado 2mm y Ranura Profunda)",
+    term: "Aguja Especial para Hilos Metálicos",
     level: "Intermedio 🟡",
     category: "Agujas y Hilos",
     grammarClass: "Locución sustantiva femenina.",
@@ -455,7 +455,7 @@ export const LOTE1_PART3_ES: Record<string, Partial<Verbete>> = {
 
   // A-029
   "a-062-agulha-lanca-asa-wing-needle": {
-    term: "Aguja Lanza / Aguja Ala (Wing Needle & Hemstitch Needle)",
+    term: "Aguja Lanza y Aguja Ala",
     level: "Avanzado 🔴",
     category: "Agujas y Hilos",
     grammarClass: "Locución sustantiva femenina.",
@@ -511,7 +511,7 @@ export const LOTE1_PART3_ES: Record<string, Partial<Verbete>> = {
 
   // A-030
   "a-054-agulha-microtex-ponta-aguda": {
-    term: "Aguja Microtex / Punta Aguda Aguzada (Microtex / Sharp Needle - 130/705 H-M / DBx7ST)",
+    term: "Aguja Microtex de Punta Aguda",
     level: "Fundamental 🟢",
     category: "Agujas y Hilos",
     grammarClass: "Locución sustantiva femenina.",

@@ -2,7 +2,7 @@ import { Verbete } from "../../types";
 
 export const LOTE5_B_PART2_ES: Record<string, Partial<Verbete>> = {
   "b-032-bordado-personalizado-em-atelie": {
-    "term": "Bordado Personalizado en Ateliê (Boutique & Atelier Custom Embroidery)",
+    "term": "Bordado Personalizado en Ateliê",
     "level": "Iniciante 🟢",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -38,7 +38,7 @@ export const LOTE5_B_PART2_ES: Record<string, Partial<Verbete>> = {
       "Lava con agua tibia los restos de film hidrosoluble superior antes de secar y planchar sobre toalla mullida."
     ],
     "whenToAdjust": "Reduce la densidad de la matriz si notas que el bordado queda acartonado y resta caída natural a la tela de la prenda.",
-    "dicaArtrelados": "El toque maestro del ateliê Artrelados: Si bordas ropa de bebé o camisones delicados, coloca siempre film hidrosoluble transparente por arriba y entretela suave de cortar por abajo. Y al terminar, coloca la tela protectora termoadhesiva por el revés. Cuando la mamá pase su mano por dentro del body y sienta la suavidad de una seda, sabrá que tu ateliê trabaja con una calidad inigualable.",
+    "dicaArtrelados": "El toque maestro del taller Artrelados: Si bordas ropa de bebé o camisones delicados, coloca siempre film hidrosoluble transparente por arriba y entretela suave de cortar por abajo. Y al terminar, coloca la tela protectora termoadhesiva por el revés. Cuando la mamá pase su mano por dentro del body y sienta la suavidad de una seda, sabrá que tu ateliê trabaja con una calidad inigualable.",
     "voceSabia": "¿Sabías que la palabra francesa 'atelier' proviene del antiguo francés astelle (astilla de madera) y hacía referencia a los antiguos talleres de carpinteros y talladores de madera de la Edad Media, antes de pasar a definir los estudios de moda y alta costura?",
     "practicalExercise": "Borda un body infantil con un nombre en letra cursiva. Limpia todos los hilitos por el revés, aplica entretela termoadhesiva suave con la plancha y siente con los ojos cerrados el revés: debe ser tan suave como la propia tela de algodón.",
     "quickSummary": "Filosofía de bordado de autor y boutique con atención exclusiva, insumos prémium y protección suave en el revés de la prenda.",
@@ -51,7 +51,7 @@ export const LOTE5_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-047-bordado-richelieu-eletronico": {
-    "term": "Bordado Richelieu Electrónico (Machine Richelieu / Eyelet Embroidery)",
+    "term": "Bordado Richelieu Electrónico",
     "level": "Avanzado 🔴",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -87,7 +87,7 @@ export const LOTE5_B_PART2_ES: Record<string, Partial<Verbete>> = {
       "Plancha la pieza terminada siempre por el revés apoyada sobre una toalla de felpa gruesa: el bordado festoneado resaltará con volumen espectacular."
     ],
     "whenToAdjust": "Ensancha la columna de festón si la tela tiende a deshilacharse fácilmente como el lino rústico o la gasa.",
-    "dicaArtrelados": "El tip de ateliê Artrelados para cortar Richelieu: Si te da miedo cortar la tela montada en la máquina, programa tu diseño para que la costura de fijación se haga con un hilo de color contrastante que luego puedas descoser fácilmente. Así verás con total nitidez la línea exacta de corte sin forzar la vista.",
+    "dicaArtrelados": "El tip de taller Artrelados para cortar Richelieu: Si te da miedo cortar la tela montada en la máquina, programa tu diseño para que la costura de fijación se haga con un hilo de color contrastante que luego puedas descoser fácilmente. Así verás con total nitidez la línea exacta de corte sin forzar la vista.",
     "voceSabia": "¿Sabías que en el siglo XVII los nobles franceses gastaban fortunas tan inmensas en bordados Richelieu y encajes que el rey Luis XIII tuvo que dictar leyes de sobriedad prohibiendo que los ciudadanos comunes llevaran más de dos hileras de calados en sus cuellos?",
     "practicalExercise": "Digitaliza una pequeña ventana ovalada de 3x2 cm con un puente en cruz en el medio. Bórdala en lino con hidrosoluble inferior, lava con agua tibia y admira la solidez del puente flotante en el aire.",
     "quickSummary": "Técnica noble de calado computarizado con puentes aéreos y festones de satín sobre soporte hidrosoluble disoluble en agua.",
@@ -100,7 +100,7 @@ export const LOTE5_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-bordado-tradicional-direto-bordado-plano": {
-    "term": "Bordado Tradicional Directo / Bordado Plano (Direct Flat Embroidery)",
+    "term": "Bordado Tradicional Directo / Bordado Plano",
     "level": "Iniciante 🟢",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -149,7 +149,7 @@ export const LOTE5_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-bordado-trapunto-eletronico": {
-    "term": "Bordado Trapunto Electrónico (Trapunto & Raised Quilted Embroidery)",
+    "term": "Bordado Trapunto Electrónico",
     "level": "Avanzado 🔴",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -198,7 +198,7 @@ export const LOTE5_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-077-bordado-tubular-pecas-fechadas-e-tubulares": {
-    "term": "Bordado Tubular en Prendas Confeccionadas (Tubular Garment Embroidery)",
+    "term": "Bordado Tubular en Prendas Confeccionadas",
     "level": "Intermedio 🟡",
     "category": "Equipamiento & Herramientas",
     "grammarClass": "Locución nominal masculina",
@@ -246,7 +246,7 @@ export const LOTE5_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-098-borracha-termoplastica-para-apliques-tridimensionais-tpu-patch": {
-    "term": "Caucho Termoplástico para Apliques 3D / Emblemas de TPU (TPU Patch & 3D High-Frequency Badges)",
+    "term": "Caucho Termoplástico para Apliques 3D / Emblemas de TPU",
     "level": "Avanzado 🔴",
     "category": "Insumos & Materiales",
     "grammarClass": "Locución nominal masculina",
@@ -294,7 +294,7 @@ export const LOTE5_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-061-botao-start-stop-e-controle-de-pedal": {
-    "term": "Botón Start/Stop y Operación sin Pedal (Start/Stop Button & Hands-Free Operation)",
+    "term": "Botón Start/Stop y Operación sin Pedal",
     "level": "Iniciante 🟢",
     "category": "Equipamiento & Herramientas",
     "grammarClass": "Locución nominal masculina",
@@ -342,7 +342,7 @@ export const LOTE5_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-099-bracadeira-de-fixacao-rapida-para-tubulares-quick-sleeve-clamp": {
-    "term": "Abrazadera de Fijación Rápida para Tubulares (Quick Sleeve Clamp & Cuff Hoop)",
+    "term": "Abrazadera de Fijación Rápida para Tubulares",
     "level": "Intermedio 🟡",
     "category": "Equipamiento & Herramientas",
     "grammarClass": "Locución nominal masculina",

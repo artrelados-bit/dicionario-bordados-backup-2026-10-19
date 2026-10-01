@@ -2,7 +2,7 @@ import { Verbete } from "../../types";
 
 export const LOTE4_B_PART1_ES: Record<string, Partial<Verbete>> = {
   "b-095-borda-selada-a-laser-corte-termico-de-emblemas": {
-    "term": "Borde Sellado por Láser y Corte Térmico de Emblemas (Laser-Cut Sealed Patch Border)",
+    "term": "Borde Sellado por Láser y Corte Térmico de Emblemas",
     "level": "Avanzado 🔴",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -50,7 +50,7 @@ export const LOTE4_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-022-bordado-applique": {
-    "term": "Bordado Appliqué (Bordado con Aplicación)",
+    "term": "Bordado Appliqué",
     "level": "Iniciante 🟢",
     "category": "Técnicas Especiales",
     "grammarClass": "Sustantivo masculino",
@@ -98,7 +98,7 @@ export const LOTE4_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-bordado-bobbin-work-avesso-fio-especial-bobina": {
-    "term": "Bordado Bobbin Work / Bordado por el Revés con Hilo Especial en la Bobina (Reverse Bobbin Work)",
+    "term": "Bordado Bobbin Work / Bordado por el Revés con Hilo Especial en la Bobina",
     "level": "Avanzado 🔴",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -146,7 +146,7 @@ export const LOTE4_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-bordado-chenille-ponto-musgo-eletronico": {
-    "term": "Bordado Chenille / Punto Musgo Electrónico (Chenille & Loop Stitch Embroidery)",
+    "term": "Bordado Chenille / Punto Musgo Electrónico",
     "level": "Avanzado 🔴",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -194,7 +194,7 @@ export const LOTE4_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-033-bordado-com-aplicacao-de-tecidos": {
-    "term": "Bordado con Aplicación de Telas (Fabric Appliqué Technique)",
+    "term": "Bordado con Aplicación de Telas",
     "level": "Iniciante 🟢",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -242,7 +242,7 @@ export const LOTE4_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-bordado-cordao-fita-soutache-eletronico": {
-    "term": "Bordado con Cordón, Cinta y Soutache Electrónico (Cording, Taping & Coiling Device)",
+    "term": "Bordado con Cordón, Cinta y Soutache Electrónico",
     "level": "Avanzado 🔴",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -290,7 +290,7 @@ export const LOTE4_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-bordado-efeito-franja-3d-ponto-fringe": {
-    "term": "Bordado con Efecto Fleco 3D / Punto Fringe (Fringe Embroidery & 3D Thread Loops)",
+    "term": "Bordado con Efecto Fleco 3D / Punto Fringe",
     "level": "Intermedio 🟡",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -327,7 +327,7 @@ export const LOTE4_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ],
     "whenToAdjust": "Aumenta la densidad del satín en la matriz si al peinar los flecos se observan huecos o falta de volumen en la mata de pelo.",
     "dicaArtrelados": "El tip de peinado Artrelados: Si quieres que los flecos queden abiertos como pompones esponjosos en vez de hilitos rectos, acerca suavemente el vapor de una plancha a 5 cm de distancia (sin tocar la tela) mientras los peinas con un cepillito de cerdas suaves. El vapor abrirá los filamentos del hilo de poliéster haciéndolo lucir como terciopelo.",
-    "voceSabia": "¿Sabías que esta técnica en los antiguos ateliês europeos se hacía a mano pasando el hilo alrededor de reglas de madera y luego cortando los bucles con navaja, mientras que hoy una máquina electrónica borda cientos de flecos calibrados en un solo minuto?",
+    "voceSabia": "¿Sabías que esta técnica en los antiguos tallers europeos se hacía a mano pasando el hilo alrededor de reglas de madera y luego cortando los bucles con navaja, mientras que hoy una máquina electrónica borda cientos de flecos calibrados en un solo minuto?",
     "practicalExercise": "Crea una flor sencilla de 5 cm: borda el centro redondo en puntada tatami amarillo y los pétalos como columnas de satín de 10 mm con anclaje interno. Corta el hilo inferior de los pétalos por el revés y admira tu primera flor 3D con flecos.",
     "quickSummary": "Técnica de puntadas satín con un extremo sin anclaje que se liberan cortando la bobina por el revés para crear pelos y flecos 3D.",
     "summary": "Técnica de puntadas satín con un extremo sin anclaje que se liberan cortando la bobina por el revés para crear pelos y flecos 3D.",
@@ -339,7 +339,7 @@ export const LOTE4_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-bordado-efeito-ponto-palito-ajour-eletronico": {
-    "term": "Bordado con Efecto Punto Vainica y Ajour Electrónico (Hemstitch & Entredeux Machine Embroidery)",
+    "term": "Bordado con Efecto Punto Vainica y Ajour Electrónico",
     "level": "Intermedio 🟡",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -387,7 +387,7 @@ export const LOTE4_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-bordado-fio-condutivo-eletronica-textil-vestivel": {
-    "term": "Bordado con Hilo Conductivo y Electrónica Textil Vestible (Conductive Thread & E-Textiles Embroidery)",
+    "term": "Bordado con Hilo Conductivo y Electrónica Textil Vestible",
     "level": "Avanzado 🔴",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",

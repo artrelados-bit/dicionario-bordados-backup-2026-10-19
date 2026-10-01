@@ -3,7 +3,7 @@ import { Verbete } from "../../types";
 export const LOTE1_PART2_ES: Record<string, Partial<Verbete>> = {
   // A-011
   "a-089-acoplamento-magnetico-de-bastidor-tubular": {
-    term: "Acoplamiento Magnético de Bastidor Tubular (Magnetic Tubular Hoop Coupler)",
+    term: "Acoplamiento Magnético de Bastidor Tubular",
     level: "Intermedio 🟡",
     category: "Bastidores y Sujeción",
     grammarClass: "Locución sustantiva masculina.",
@@ -60,7 +60,7 @@ export const LOTE1_PART2_ES: Record<string, Partial<Verbete>> = {
 
   // A-012
   "a-081-adaptador-de-bastidor-cil-ndrico-de-manga-e-perna-sleeve-leg-cylindrical-frame": {
-    term: "Adaptador de Bastidor Cilíndrico de Manga y Pierna (Sleeve & Leg Cylindrical Frame)",
+    term: "Adaptador de Bastidor Cilíndrico de Manga y Pierna",
     level: "Avanzado 🔴",
     category: "Técnicas de Bastidor",
     grammarClass: "Locución sustantiva masculina.",
@@ -116,7 +116,7 @@ export const LOTE1_PART2_ES: Record<string, Partial<Verbete>> = {
 
   // A-013
   "a-040-adaptador-de-bastidor-de-bones": {
-    term: "Adaptador de Bastidor de Gorras / Dispositivo Cap Driver (Cap Frame & Cap Driver System)",
+    term: "Adaptador de Bastidor de Gorras y Dispositivo Cilíndrico",
     level: "Avanzado 🔴",
     category: "Bastidores y Sujeción",
     grammarClass: "Locución sustantiva masculina.",
@@ -173,7 +173,7 @@ export const LOTE1_PART2_ES: Record<string, Partial<Verbete>> = {
 
   // A-014
   "a-090-adequacao-de-tensao-em-fio-de-seda-natural": {
-    term: "Adecuación de Tensión en Hilo de Seda Natural (Pure Silk Thread Tension Tuning)",
+    term: "Adecuación de Tensión en Hilo de Seda Natural",
     level: "Avanzado 🔴",
     category: "Agujas y Hilos",
     grammarClass: "Locución sustantiva femenina.",
@@ -229,7 +229,7 @@ export const LOTE1_PART2_ES: Record<string, Partial<Verbete>> = {
 
   // A-015
   "a-048-adesivo-temporario-em-spray": {
-    term: "Adhesivo Temporal en Spray (Pegamento Temporal 505 / Spray Adhesive)",
+    term: "Adhesivo Temporal en Aerosol",
     level: "Principiante 🟢",
     category: "Entretelas y Estabilizadores",
     grammarClass: "Locución sustantiva masculina.",
@@ -285,7 +285,7 @@ export const LOTE1_PART2_ES: Record<string, Partial<Verbete>> = {
 
   // A-016
   "a-053-agulha-antiaderente-anti-glue": {
-    term: "Aguja Antiadherente / Aguja Anti-Glue (Non-Stick & Super Universal Needle)",
+    term: "Aguja Antiadherente para Pegamentos y Entretelas",
     level: "Intermedio 🟡",
     category: "Agujas y Hilos",
     grammarClass: "Locución sustantiva femenina.",
@@ -341,7 +341,7 @@ export const LOTE1_PART2_ES: Record<string, Partial<Verbete>> = {
 
   // A-017
   "a-045-agulha-asa-wing-needle": {
-    term: "Aguja Ala / Aguja Vainica (Wing Needle / Hemstitch Needle)",
+    term: "Aguja Ala y de Vainica",
     level: "Avanzado 🔴",
     category: "Agujas y Hilos",
     grammarClass: "Locución sustantiva femenina.",
@@ -398,7 +398,7 @@ export const LOTE1_PART2_ES: Record<string, Partial<Verbete>> = {
 
   // A-018
   "a-083-agulha-com-olho-alargado-para-fios-met-licos-metallic-embroidery-needle-large-eye": {
-    term: "Aguja con Ojo Alargado para Hilos Metálicos (Metallic Embroidery Needle / Large Eye)",
+    term: "Aguja con Ojo Alargado para Hilos Metálicos",
     level: "Intermedio 🟡",
     category: "Agujas y Hilos",
     grammarClass: "Locución sustantiva femenina.",
@@ -514,7 +514,7 @@ export const LOTE1_PART2_ES: Record<string, Partial<Verbete>> = {
 
   // A-020
   "a-agulha-cabo-redondo-vs-cabo-chato-dbxk5-130-705h": {
-    term: "Aguja de Talón Redondo vs. Talón Plano (Sistemas DBxK5 vs. 130/705 H)",
+    term: "Aguja de Talón Redondo y Talón Plano",
     level: "Intermedio 🟡",
     category: "Agujas y Mecánica",
     grammarClass: "Locución sustantiva femenina.",

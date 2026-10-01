@@ -2,7 +2,7 @@ import { Verbete } from "../../types";
 
 export const LOTE5_B_PART3_ES: Record<string, Partial<Verbete>> = {
   "b-081": {
-    "term": "Brazo Cilíndrico / Estructura Free-Arm del Cabezal (Cylinder Bed & Free-Arm Head Structure)",
+    "term": "Brazo Cilíndrico / Estructura Free-Arm del Cabezal",
     "level": "Avanzado 🔴",
     "category": "Mantenimiento & Mecánica",
     "grammarClass": "Locución nominal masculina",
@@ -50,7 +50,7 @@ export const LOTE5_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-039-braco-livre-da-maquina-de-bordar": {
-    "term": "Brazo Libre de la Máquina de Bordar (Free Arm Embroidery Machine Bed)",
+    "term": "Brazo Libre de la Máquina de Bordar",
     "level": "Iniciante 🟢",
     "category": "Equipamiento & Herramientas",
     "grammarClass": "Locución nominal masculina",
@@ -98,7 +98,7 @@ export const LOTE5_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-094-braco-oscilador-do-corta-fio-inferior": {
-    "term": "Brazo Oscilador del Cortahilos Inferior (Under-Bed Trimmer Driving Arm & Knife Linkage)",
+    "term": "Brazo Oscilador del Cortahilos Inferior",
     "level": "Avanzado 🔴",
     "category": "Mantenimiento & Mecánica",
     "grammarClass": "Locución nominal masculina",
@@ -146,7 +146,7 @@ export const LOTE5_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-056-branching-ramificacao-automatica-no-software": {
-    "term": "Branching / Ramificación Automática en el Software (Auto-Branching Algorithm)",
+    "term": "Branching / Ramificación Automática en el Software",
     "level": "Intermedio 🟡",
     "category": "Digitalização & Matrices",
     "grammarClass": "Locución nominal masculina",
@@ -194,7 +194,7 @@ export const LOTE5_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-072-bridge-stitch-ponto-de-ponte-ligacao": {
-    "term": "Puntada de Puente y Conexión (Bridge Stitch & Connector Jump Optimization)",
+    "term": "Puntada de Puente y Conexión",
     "level": "Intermedio 🟡",
     "category": "Digitalização & Matrices",
     "grammarClass": "Locución nominal masculina",
@@ -242,7 +242,7 @@ export const LOTE5_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-017-brilho-da-linha": {
-    "term": "Brillo del Hilo (Thread Sheen, Trilobal Luster & Light Reflection)",
+    "term": "Brillo del Hilo",
     "level": "Iniciante 🟢",
     "category": "Insumos & Materiales",
     "grammarClass": "Locución nominal masculina",
@@ -290,7 +290,7 @@ export const LOTE5_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-101-brother-maquinas-de-bordado-eletronico": {
-    "term": "Brother (Máquinas de Bordar Electrónicas y Ecosistema Tecnológico)",
+    "term": "Brother",
     "level": "Iniciante 🟢",
     "category": "Equipamiento & Herramientas",
     "grammarClass": "Sustantivo propio femenino",
@@ -303,9 +303,9 @@ export const LOTE5_B_PART3_ES: Record<string, Partial<Verbete>> = {
       "4. Sensores de alineación con cámara digital (InnovEye Technology): escanean la prenda en el bastidor mostrando la tela real en la pantalla táctil para calzar el diseño.",
       "5. Interfaz gráfica táctil intuitiva con edición de textos, arcos, densidad y combinación de matrices en pantalla sin requerir computadora."
     ],
-    "beginnerExplanation": "Brother es una de las marcas de máquinas de bordar más famosas, queridas y fáciles de usar del mundo. Fue la marca que llevó el bordado computarizado a las casas y pequeños ateliês. Tienen desde maquinitas familiares de una sola aguja con pantallas táctiles a color súper intuitivas, hasta las famosas máquinas semiprofesionales de 6 y 10 agujas que parecen robots amigables, con luces LED que te muestran exactamente dónde va a clavar la aguja.",
+    "beginnerExplanation": "Brother es una de las marcas de máquinas de bordar más famosas, queridas y fáciles de usar del mundo. Fue la marca que llevó el bordado computarizado a las casas y pequeños tallers. Tienen desde maquinitas familiares de una sola aguja con pantallas táctiles a color súper intuitivas, hasta las famosas máquinas semiprofesionales de 6 y 10 agujas que parecen robots amigables, con luces LED que te muestran exactamente dónde va a clavar la aguja.",
     "practicalExamples": [
-      "Inicio y consolidación de ateliês boutique de regalos personalizados y ajuar infantil con modelos familiares y de 6 agujas.",
+      "Inicio y consolidación de talleres boutique de regalos personalizados y ajuar infantil con modelos familiares y de 6 agujas.",
       "Bordado de gorras armadas con bastidores tubulares de 270 grados en tiendas de centros comerciales.",
       "Producción ágil de uniformes escolares y logotipos empresariales con cambios rápidos de cono."
     ],
@@ -338,7 +338,7 @@ export const LOTE5_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-110-bucha-barra-agulha-guia-bronze-sinterizado": {
-    "term": "Buje de la Barra de Aguja en Bronce Sinterizado Autolubricante (Needle Bar Bushing & Self-Lubricating Sintered Bronze Sleeve)",
+    "term": "Buje de la Barra de Aguja en Bronce Sinterizado Autolubricante",
     "level": "Avanzado 🔴",
     "category": "Mantenimiento & Mecánica",
     "grammarClass": "Locución nominal masculina",
@@ -386,7 +386,7 @@ export const LOTE5_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-091-buffer-de-memoria-e-fila-de-pontos-da-cpu": {
-    "term": "Búfer de Memoria y Cola de Puntadas de la CPU (Embroidery Stitch Buffer & DSP Cache)",
+    "term": "Búfer de Memoria y Cola de Puntadas de la CPU",
     "level": "Avanzado 🔴",
     "category": "Mantenimiento & Mecánica",
     "grammarClass": "Locución nominal masculina",

@@ -2,7 +2,7 @@ import { Verbete } from "../../types";
 
 export const LOTE2_B_PART3_ES: Record<string, Partial<Verbete>> = {
   "b-090-batimento-de-chapa-e-desvio-de-agulha": {
-    "term": "Impacto en la Placa de Aguja y Desviación (Needle Deflection & Needle Plate Striking)",
+    "term": "Impacto en la Placa de Aguja y Desviación",
     "level": "Avanzado 🔴",
     "category": "Mantenimiento & Mecánica",
     "grammarClass": "Locución nominal masculina",
@@ -49,7 +49,7 @@ export const LOTE2_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-103-bernina-bernette-maquinas-de-bordado-eletronico": {
-    "term": "Bernina / Bernette (Sistemas Suizos de Bordado Electrónico)",
+    "term": "Bernina / Bernette",
     "level": "Intermedio 🟡",
     "category": "Maquinaria & Equipamiento",
     "grammarClass": "Marca registrada / Nombre propio",
@@ -96,7 +96,7 @@ export const LOTE2_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-106-bernina-embroidery-software-designerplus": {
-    "term": "Bernina Embroidery Software / DesignerPlus (Sistema Profesional de Digitalización y Edición V9)",
+    "term": "Bernina Embroidery Software / DesignerPlus",
     "level": "Avanzado 🔴",
     "category": "Digitalização & Matrices",
     "grammarClass": "Marca registrada / Nombre propio",
@@ -143,7 +143,7 @@ export const LOTE2_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-064-bico-da-lancadeira-hook-point": {
-    "term": "Punta del Garfio Rotativo (Rotary Hook Point & Hook Tip)",
+    "term": "Punta del Garfio Rotativo",
     "level": "Avanzado 🔴",
     "category": "Mantenimiento & Mecánica",
     "grammarClass": "Locución nominal femenina",
@@ -190,7 +190,7 @@ export const LOTE2_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-069-bico-de-pato-tesoura-pelicano-applique": {
-    "term": "Tijera Pico de Pato / Tijera Pelícano (Duckbill Appliqué Scissors)",
+    "term": "Tijera Pico de Pato / Tijera Pelícano",
     "level": "Iniciante 🟢",
     "category": "Herramientas & Taller",
     "grammarClass": "Locución nominal femenina",
@@ -237,7 +237,7 @@ export const LOTE2_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-108-bico-direcionador-de-fio-tubeira-de-lacada-chenille": {
-    "term": "Boquilla Guiadora de Hilo / Tobera de Lazadas Chenille (Thread Nipple & Looper Nozzle)",
+    "term": "Boquilla Guiadora de Hilo / Tobera de Lazadas Chenille",
     "level": "Avanzado 🔴",
     "category": "Maquinaria & Equipamiento",
     "grammarClass": "Locución nominal femenina",
@@ -284,7 +284,7 @@ export const LOTE2_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "needle-bar-driver-biela-de-agulha": {
-    "term": "Biela y Eje de Accionamiento de la Barra de Aguja (Needle Bar Reciprocator & Drive Linkage)",
+    "term": "Biela y Eje de Accionamiento de la Barra de Aguja",
     "level": "Avanzado 🔴",
     "category": "Mantenimiento & Mecánica",
     "grammarClass": "Locución nominal femenina",
@@ -331,7 +331,7 @@ export const LOTE2_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-043-bitola-e-titulagem-de-linha": {
-    "term": "Calibre y Titulación del Hilo (Sistemas Denier, Dtex y Nº 40)",
+    "term": "Calibre y Titulación del Hilo",
     "level": "Intermedio 🟡",
     "category": "Insumos & Materiales",
     "grammarClass": "Locución nominal femenina",
@@ -378,7 +378,7 @@ export const LOTE2_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-111-bloco-condutor-barra-agulha-engate-arraste": {
-    "term": "Bloque Conductor de la Barra de Aguja / Enganche de Arrastre de Aguja Activa (Needle Bar Driver & Connecting Stud Block)",
+    "term": "Bloque Conductor de la Barra de Aguja / Enganche de Arrastre de Aguja Activa",
     "level": "Avanzado 🔴",
     "category": "Mantenimiento & Mecánica",
     "grammarClass": "Locución nominal masculina",

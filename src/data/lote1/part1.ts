@@ -3,7 +3,7 @@ import { Verbete } from "../../types";
 export const LOTE1_PART1_ES: Record<string, Partial<Verbete>> = {
   // A-001
   "a-074-abastecimento-automatico-de-bobina-enchedor": {
-    term: "Abastecimiento Automático de Bobina y Devanador Integrado (Built-in Bobbin Winder & Independent Winding Motor)",
+    term: "Abastecimiento Automático de Bobina y Devanador Integrado",
     level: "Intermedio 🟡",
     category: "Operación de la Máquina",
     grammarClass: "Locución sustantiva masculina.",
@@ -61,7 +61,7 @@ export const LOTE1_PART1_ES: Record<string, Partial<Verbete>> = {
 
   // A-002
   "a-017-abertura-de-campo-de-bordado": {
-    term: "Abertura de Campo de Bordado (Hoop Clearance & Border Margin)",
+    term: "Abertura de Campo de Bordado",
     level: "Fundamental 🟢",
     category: "Operación de la Máquina",
     grammarClass: "Locución sustantiva femenina.",
@@ -118,7 +118,7 @@ export const LOTE1_PART1_ES: Record<string, Partial<Verbete>> = {
 
   // A-003
   "a-087-abrasao-de-fio-em-ilhos-guia": {
-    term: "Abrasión de Hilo en Ojal Guía (Thread Eyelet Abrasion)",
+    term: "Abrasión de Hilo en Ojal Guía",
     level: "Avanzado 🔴",
     category: "Componentes y Mecánica de la Máquina",
     grammarClass: "Locución sustantiva femenina.",
@@ -175,7 +175,7 @@ export const LOTE1_PART1_ES: Record<string, Partial<Verbete>> = {
 
   // A-004
   "a-068-abrasao-de-linha": {
-    term: "Abrasión de Hilo (Friction Wear / Desgaste Mecánico del Hilo)",
+    term: "Abrasión de Hilo",
     level: "Fundamental 🟢",
     category: "Agujas y Hilos",
     grammarClass: "Locución sustantiva femenina.",
@@ -231,7 +231,7 @@ export const LOTE1_PART1_ES: Record<string, Partial<Verbete>> = {
 
   // A-005
   "a-009-abridor-de-casas": {
-    term: "Abridor de Ojales / Descosedor (Seam Ripper)",
+    term: "Abridor de Ojales / Descosedor",
     level: "Principiante 🟢",
     category: "Acabado y Finalización",
     grammarClass: "Locución sustantiva masculina.",
@@ -287,7 +287,7 @@ export const LOTE1_PART1_ES: Record<string, Partial<Verbete>> = {
 
   // A-006
   "a-088-absorcao-termica-de-entretela-termocolante": {
-    term: "Absorción Térmica de Entretela Termoadhesiva (Fusible Interfacing Thermal Absorption)",
+    term: "Absorción Térmica de Entretela Termoadhesiva",
     level: "Intermedio 🟡",
     category: "Entretelas y Estabilizadores",
     grammarClass: "Locución sustantiva femenina.",
@@ -343,7 +343,7 @@ export const LOTE1_PART1_ES: Record<string, Partial<Verbete>> = {
 
   // A-007
   "a-012-acabamento-de-bordado": {
-    term: "Acabado y Limpieza de Bordado (Trimming & Finishing)",
+    term: "Acabado y Limpieza de Bordado",
     level: "Fundamental 🟢",
     category: "Acabado y Finalización",
     grammarClass: "Locución sustantiva masculina.",
@@ -399,7 +399,7 @@ export const LOTE1_PART1_ES: Record<string, Partial<Verbete>> = {
 
   // A-008
   "a-acolchoamento-trapunto-eletronico-quilting-bastidor": {
-    term: "Acolchado / Trapunto Electrónico (Trapunto & Quilting en el Bastidor)",
+    term: "Acolchado / Trapunto Electrónico",
     level: "Avanzado 🔴",
     category: "Técnicas Especiales y Relieve",
     grammarClass: "Locución sustantiva masculina.",
@@ -455,7 +455,7 @@ export const LOTE1_PART1_ES: Record<string, Partial<Verbete>> = {
 
   // A-009
   "a-101-acoplador-da-barra-de-agulha-reciprocador": {
-    term: "Acoplador de la Barra de Aguja / Reciprocador (Needle Bar Driver / Reciprocator)",
+    term: "Acoplador de la Barra de Aguja / Reciprocador",
     level: "Avanzado 🔴",
     category: "Mecánica y Mantenimiento",
     grammarClass: "Locución sustantiva masculina.",

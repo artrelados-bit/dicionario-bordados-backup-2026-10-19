@@ -28,8 +28,6 @@ export const VerbeteCard: React.FC<VerbeteCardProps> = ({
   // Guarantee code is never missing (prefer dynamic sequential code)
   const displayCode =
     rawVerbete.dynamicCode || verbete.dynamicCode || verbete.code || rawVerbete.code || `${(verbete.term || "V").trim().charAt(0).toUpperCase()}-001`;
-  const originalMasterCode = rawVerbete.code || verbete.code;
-  const showOriginalRef = originalMasterCode && originalMasterCode !== displayCode;
 
   const handleCopy = (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -58,16 +56,6 @@ export const VerbeteCard: React.FC<VerbeteCardProps> = ({
               {displayCode}
             </span>
 
-            {/* Original Master Code reference if different */}
-            {showOriginalRef && (
-              <span
-                className="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-mono font-bold bg-slate-100 text-slate-500 border border-slate-200 shrink-0"
-                title={currentLanguage === "es" ? `Registro original: ${originalMasterCode}` : `Registro original: ${originalMasterCode}`}
-              >
-                {originalMasterCode}
-              </span>
-            )}
-
             {/* Term Name / Title */}
             <h3 className="text-base sm:text-lg font-black text-amber-950 group-hover:text-amber-800 transition-colors">
               {verbete.term}
@@ -77,12 +65,6 @@ export const VerbeteCard: React.FC<VerbeteCardProps> = ({
             <span className="inline-block px-2.5 py-0.5 rounded-md text-[11px] font-bold bg-slate-100 text-slate-700 border border-slate-200 shrink-0">
               {verbete.category}
             </span>
-
-            {activeLang !== "pt" && rawVerbete?.term && verbete?.term && rawVerbete.term !== verbete.term && (
-              <span className="text-[11px] text-slate-400 font-medium italic shrink-0">
-                (PT: {String(rawVerbete.term).replace(/^[🟢🟡🔴\s]+/, "")})
-              </span>
-            )}
           </div>
 
           {/* Top Right Actions */}

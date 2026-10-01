@@ -2,7 +2,7 @@ import { Verbete } from "../../types";
 
 export const LOTE4_B_PART2_ES: Record<string, Partial<Verbete>> = {
   "b-bordado-lantejoula-paete-eletronico": {
-    "term": "Bordado con Lentejuelas y Paillettes Electrónico (Sequin & Paillette Embroidery Device)",
+    "term": "Bordado con Lentejuelas y Paillettes Electrónico",
     "level": "Avanzado 🔴",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -50,7 +50,7 @@ export const LOTE4_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-034-bordado-com-linha-metalica": {
-    "term": "Bordado con Hilo Metálico (Metallic Thread Embroidery)",
+    "term": "Bordado con Hilo Metálico",
     "level": "Intermedio 🟡",
     "category": "Insumos & Materiales",
     "grammarClass": "Locución nominal masculina",
@@ -98,7 +98,7 @@ export const LOTE4_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-bordado-ponto-cruz-eletronico": {
-    "term": "Bordado con Punto de Cruz Electrónico (Machine Cross Stitch & Digital Tapestry)",
+    "term": "Bordado con Punto de Cruz Electrónico",
     "level": "Intermedio 🟡",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -146,7 +146,7 @@ export const LOTE4_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-023-bordado-continuo": {
-    "term": "Bordado Continuo (Endless Embroidery / Border Hoop Technique)",
+    "term": "Bordado Continuo",
     "level": "Intermedio 🟡",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -194,7 +194,7 @@ export const LOTE4_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-041-bordado-cutwork": {
-    "term": "Bordado Cutwork (Bordado Calado / Richelieu Computarizado)",
+    "term": "Bordado Cutwork",
     "level": "Avanzado 🔴",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -242,7 +242,7 @@ export const LOTE4_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-bordado-cutwork-agulhas-corte-eletronico": {
-    "term": "Bordado Cutwork con Agujas de Corte Electrónico (Needle Cutwork System & 4-Needle Cutters)",
+    "term": "Bordado Cutwork con Agujas de Corte Electrónico",
     "level": "Avanzado 🔴",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -291,7 +291,7 @@ export const LOTE4_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-025-bordado-de-preenchimento-fill-stitch": {
-    "term": "Bordado de Relleno (Fill Stitch / Puntada Tatami)",
+    "term": "Bordado de Relleno",
     "level": "Iniciante 🟢",
     "category": "Digitalización & Matrices",
     "grammarClass": "Locución nominal masculina",
@@ -339,7 +339,7 @@ export const LOTE4_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-026-bordado-decorativo": {
-    "term": "Bordado Decorativo (Decorative & Art Machine Embroidery)",
+    "term": "Bordado Decorativo",
     "level": "Iniciante 🟢",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -387,7 +387,7 @@ export const LOTE4_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-027-bordado-digitalizado": {
-    "term": "Bordado Digitalizado / Ponchado (Digitized Embroidery Design)",
+    "term": "Bordado Digitalizado / Ponchado",
     "level": "Iniciante 🟢",
     "category": "Digitalização & Matrices",
     "grammarClass": "Locución nominal masculina",

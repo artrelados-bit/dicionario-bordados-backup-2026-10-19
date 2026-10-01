@@ -2,7 +2,7 @@ import { Verbete } from "../../types";
 
 export const LOTE3_B_PART1_ES: Record<string, Partial<Verbete>> = {
   "b-085-bloco-excentrico-do-estica-fio": {
-    "term": "Bloque Excéntrico del Tirahilos (Thread Take-up Lever Cam & Drive Assembly)",
+    "term": "Bloque Excéntrico del Tirahilos",
     "level": "Avanzado 🔴",
     "category": "Mantenimiento & Mecánica",
     "grammarClass": "Locución nominal masculina",
@@ -49,7 +49,7 @@ export const LOTE3_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-057-bloco-tensor-e-discos-de-tensao-superiores": {
-    "term": "Bloque Tensor y Discos de Tensión Superiores (Upper Thread Tension Discs & Assembly)",
+    "term": "Bloque Tensor y Discos de Tensión Superiores",
     "level": "Intermedio 🟡",
     "category": "Tensión & Mecánica",
     "grammarClass": "Locución nominal masculina",
@@ -96,7 +96,7 @@ export const LOTE3_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-048-bloqueio-bastidor-mecanico": {
-    "term": "Bloqueo de Bastidor / Traba Mecánica (Hoop Locking Mechanism)",
+    "term": "Bloqueo de Bastidor / Traba Mecánica",
     "level": "Iniciante 🟢",
     "category": "Bastidores & Fijación",
     "grammarClass": "Locución nominal masculina",
@@ -143,7 +143,7 @@ export const LOTE3_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-016-bloqueio-de-matriz": {
-    "term": "Bloqueo de Matriz (Protección de Diseño y Bloqueo de Edición)",
+    "term": "Bloqueo de Matriz",
     "level": "Intermedio 🟡",
     "category": "Digitalização & Matrices",
     "grammarClass": "Locución nominal masculina",
@@ -190,7 +190,7 @@ export const LOTE3_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-060-blower-soprador-termico-de-acabamento": {
-    "term": "Soplador Térmico / Pistola de Aire Caliente (Heat Gun for 3D Foam & Topping Cleanup)",
+    "term": "Soplador Térmico / Pistola de Aire Caliente",
     "level": "Iniciante 🟢",
     "category": "Herramientas & Taller",
     "grammarClass": "Locución nominal masculina",
@@ -238,7 +238,7 @@ export const LOTE3_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-006-bobbin": {
-    "term": "Bobina / Canilla Inferior (Bobbin)",
+    "term": "Bobina / Canilla Inferior",
     "level": "Iniciante 🟢",
     "category": "Insumos & Materiales",
     "grammarClass": "Sustantivo femenino",
@@ -285,7 +285,7 @@ export const LOTE3_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-007-bobbin-case": {
-    "term": "Caja de Bobina / Portacanilla (Bobbin Case)",
+    "term": "Caja de Bobina / Portacanilla",
     "level": "Intermedio 🟡",
     "category": "Tensión & Mecánica",
     "grammarClass": "Locución nominal femenina",
@@ -332,7 +332,7 @@ export const LOTE3_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-019-bobbin-thread": {
-    "term": "Hilo de Bobina / Hilo Inferior (Bobbin Thread)",
+    "term": "Hilo de Bobina / Hilo Inferior",
     "level": "Iniciante 🟢",
     "category": "Insumos & Materiales",
     "grammarClass": "Locución nominal masculina",
@@ -379,7 +379,7 @@ export const LOTE3_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "bobbin-winding-enrolamento-automatico-da-canelinha": {
-    "term": "Devanado Automático de Bobina (Motorized Bobbin Spooling)",
+    "term": "Devanado Automático de Bobina",
     "level": "Iniciante 🟢",
     "category": "Maquinaria & Equipamiento",
     "grammarClass": "Locución nominal masculina",

@@ -2,7 +2,7 @@ import { Verbete } from "../../types";
 
 export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
   "a-097-analise-espectral-de-correspondencia-de-cores": {
-    "term": "Análisis Espectral de Correspondencia de Colores (Color Matching Spectrophotometry)",
+    "term": "Análisis Espectral de Correspondencia de Colores",
     "level": "Avanzado 🔴",
     "category": "Agujas y Hilos",
     "grammarClass": "Locución sustantiva femenina.",
@@ -10,7 +10,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     "summary": "Medición óptica del color de la tela mediante espectrofotómetro que indica el código exacto del cono de hilo con fidelidad absoluta de tono.",
     "definition": "El análisis espectral de correspondencia de colores (Color Matching Spectrophotometry / Digital Thread Color Audit) es el procedimiento instrumental que utiliza un espectrofotómetro digital de reflectancia para medir con exactitud científica la longitud de onda de la luz reflejada por una tela o muestra textil en el espacio de color tridimensional CIELAB (L*, a*, b*). Esta medición elimina la subjetividad del ojo humano y la distorsión lumínica ambiental, cruzando los valores espectrales contra la biblioteca digital de hilos de bordar para determinar el cono idéntico con un Delta E inferior a 0,8.",
     "technicalDetails": "La percepción humana del color varía notablemente bajo diferentes fuentes de luz (metamerismo), haciendo que un hilo parezca idéntico a la tela bajo luz incandescente y desentone al sol. El espectrofotómetro emite pulsos de luz normalizada D65 (luz de día a 6.500 K) y lee la reflectancia a intervalos de 10 nm entre 400 y 700 nm. La fórmula CIE2000 calcula la distancia cromática exacta, indicando si el tono coincide dentro de los estándares de tolerancia de marcas multinacionales.",
-    "beginnerExplanation": "¿Alguna vez eligió un cono de hilo en su taller pensando que era del mismo color que la remera y, al salir a la calle bajo la luz del sol, se dio cuenta de que no combinaba para nada? Este aparato es un sensor óptico que se apoya sobre la tela: mide el color real con un destello de luz y le dice en la pantalla: 'Ponga el hilo número 1245 de tal marca, que es exactamente igual'.",
+    "beginnerExplanation": "¿Alguna vez eligió un cono de hilo en su taller pensando que era del mismo color que la camiseta y, al salir a la calle bajo la luz del sol, se dio cuenta de que no combinaba para nada? Este aparato es un sensor óptico que se apoya sobre la tela: mide el color real con un destello de luz y le dice en la pantalla: 'Ponga el hilo número 1245 de tal marca, que es exactamente igual'.",
     "construction": [
       "Espectrofotómetro digital portátil con geometría óptica d/8° o 45°/0°",
       "Cámara de calibración blanca de cerámica patrón certificada",
@@ -75,7 +75,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-021-analise-de-matriz-previa": {
-    "term": "Auditoría Previa de la Matriz (Pre-Sewing Design Inspection & Stitch Audit)",
+    "term": "Auditoría Previa de la Matriz",
     "level": "Iniciante 🟢",
     "category": "Programación de Bordado",
     "grammarClass": "Locución sustantiva femenina.",
@@ -83,7 +83,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     "summary": "Verificación de la secuencia de costura, densidad, cortes y paradas en el simulador digital antes de bordar la prenda física en la máquina.",
     "definition": "La auditoría previa de la matriz (denominada en la industria como Pre-Sewing Stitch Audit o Simulación en Stitch Player) es el protocolo técnico de inspección sistemática realizado en el software de bordado o en la pantalla de la máquina antes de coser la primera puntada sobre tela real. Consiste en reproducir la costura virtualmente paso a paso para verificar el orden cronológico de capas, la presencia de remates de seguridad iniciales y finales, la lógica de los saltos de hilo, la densidad por milímetro cuadrado y la ausencia de acumulaciones destructivas de puntadas en el mismo punto.",
     "technicalDetails": "A través del simulador acelerado (Slow Redraw / Stitch Player) se evalúan cinco variables críticas: 1) Direccionalidad de costura (del centro hacia afuera y de abajo hacia arriba); 2) Cantidad de cambios de color programados; 3) Longitud máxima de saltos (Jump Stitches mayores a 7 mm deben tener corte automático); 4) Densidad de puntada; 5) Presencia de puntadas de anclaje (Underlay) en cada bloque.",
-    "beginnerExplanation": "Es el hábito sagrado de 'mirar la película' de cómo va a bordar la máquina en la pantalla de la computadora antes de poner la remera del cliente. El programa cose el dibujo a cámara rápida para que usted vea si todo está en orden, si no va a cortar el hilo a cada rato y si los colores se bordan en la secuencia lógica correcta.",
+    "beginnerExplanation": "Es el hábito sagrado de 'mirar la película' de cómo va a bordar la máquina en la pantalla de la computadora antes de poner la camiseta del cliente. El programa cose el dibujo a cámara rápida para que usted vea si todo está en orden, si no va a cortar el hilo a cada rato y si los colores se bordan en la secuencia lógica correcta.",
     "construction": [
       "Motor de simulación gráfica vectorial de puntadas (Stitch Player Simulator)",
       "Contador digital de puntadas, metros de hilo y cambios de color",
@@ -113,7 +113,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
       "La simulación en pantalla muestra la trayectoria matemática de la aguja, pero no reproduce el comportamiento elástico del tejido real; siempre se aconseja una prueba en retazo de tela similar."
     ],
     "commonErrors": [
-      "❌ Cargar una matriz descargada de internet y poner a bordar la remera del cliente sin haber visto la simulación en pantalla.",
+      "❌ Cargar una matriz descargada de internet y poner a bordar la camiseta del cliente sin haber visto la simulación en pantalla.",
       "❌ Descubrir tarde que el contorno se cose antes del relleno, echando a perder la prenda.",
       "❌ Tener que cambiar 10 veces de cono de hilo porque los mismos colores no fueron agrupados en el archivo."
     ],
@@ -146,7 +146,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-018-anel-de-vedacao-e-retencao-da-bobina": {
-    "term": "Muelle de Freno y Anillo de Retención de Canilla (Bobbin Case Brake Spring & Ring)",
+    "term": "Muelle de Freno y Anillo de Retención de Canilla",
     "level": "Intermedio 🟡",
     "category": "Mecánica y Ajustes de la Máquina",
     "grammarClass": "Locución sustantiva masculina.",
@@ -217,7 +217,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-098-anel-o-ring-de-retencao-de-carretel": {
-    "term": "Anillo O-Ring Antideslizante para Porta-Conos y Carreteles (Spool Pin O-Ring Gripper)",
+    "term": "Anillo O-Ring Antideslizante para Porta-Conos y Carreteles",
     "level": "Iniciante 🟢",
     "category": "Componentes y Mecánica de la Máquina",
     "grammarClass": "Locución sustantiva masculina.",
@@ -289,7 +289,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-080-anel-o-ring-de-reten-o-de-carretel-spool-pin-rubber-friction-ring": {
-    "term": "Anillo de Retención y Fricción de Carretel en Goma (Spool Pin Rubber Friction Ring)",
+    "term": "Anillo de Retención y Fricción de Carretel en Goma",
     "level": "Iniciante 🟢",
     "category": "Componentes y Mecánica de la Máquina",
     "grammarClass": "Locución sustantiva masculina.",
@@ -361,7 +361,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-077-aparador-autom-tico-de-fio-de-bobina-under-bed-thread-trimmer": {
-    "term": "Cortahilos Automático de Hilo Inferior de Canilla (Under-Bed Thread Trimmer)",
+    "term": "Cortahilos Automático de Hilo Inferior de Canilla",
     "level": "Avanzado 🔴",
     "category": "Componentes y Mecánica de la Máquina",
     "grammarClass": "Locución sustantiva masculina.",
@@ -441,7 +441,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     "whenToAdjust": "Ajuste o afile la contracuchilla fija si el hilo inferior queda deshilachado o si la máquina se desenebra al comenzar el tramo siguiente."
   },
   "a-060-aplicacao-com-corte-a-laser": {
-    "term": "Aplique con Corte Láser Integrado en Bastidor (Laser-Cut Appliqué & Bridge System)",
+    "term": "Aplique con Corte Láser Integrado en Bastidor",
     "level": "Avanzado 🔴",
     "category": "Técnicas de Aplique y Relieve",
     "grammarClass": "Locución sustantiva masculina.",
@@ -500,7 +500,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
       "Tijera Pelícano para Aplique"
     ],
     "applications": [
-      "Números y letras gigantes en buzos universitarios y camisetas de básquetbol.",
+      "Números y letras gigantes en sudaderas universitarios y camisetas de básquetbol.",
       "Escudos corporativos y parches militares con bordes recortados perfectos.",
       "Grandes producciones industriales de moda y ropa deportiva de alta rotación."
     ],
@@ -520,7 +520,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     "whenToAdjust": "Calibre la potencia del tubo láser (vatios) si observa quemaduras marrones en telas claras o si el rayo no corta totalmente la fibra sintética."
   },
   "a-aplicacao-com-termocolante-definitivo-patch-aplique": {
-    "term": "Aplique Termoadhesivo Definitivo / Parche Bordado Termofijable (Patch Appliqué)",
+    "term": "Aplique Termoadhesivo Definitivo / Parche Bordado Termofijable",
     "level": "Intermedio 🟡",
     "category": "Técnicas de Aplique y Relieve",
     "grammarClass": "Locución sustantiva masculina.",
@@ -528,7 +528,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     "summary": "Técnica que combina telas pre-adheridas con film termoadhesivo y bordado de festón, creando parches resistentes que no se deshilachan ni se despegan en el lavado.",
     "definition": "El aplique con termoadhesivo definitivo (Patch Appliqué / Permanent Fusible Film Appliqué) es la técnica de bordado y confección que utiliza una película de resina termoplástica de poliamida o poliuretano de alta adherencia (sin soporte de papel o con papel siliconado retirado) fijada en el revés de la tela de aplique mediante calor y presión antes de bordar. Su objetivo es termosoldar permanentemente las fibras del aplique a la prenda base, garantizando que el diseño soporte lavados intensivos sin deshilacharse en los bordes, incluso si se utilizan puntadas de cobertura abiertas como festón o punto París.",
     "technicalDetails": "El film termoadhesivo definitivo (como Teabond, Decofix o HeatnBond Ultrahold) se activa en dos etapas: primero se aplica a la tela del aplique a 130 °C durante 5 segundos para transferir la resina sólida. Una vez bordada la pieza con sus contornos en la máquina, se somete a un planchado térmico final en prensa térmica industrial a 160 °C con 4 bares de presión durante 15 a 20 segundos. La resina líquida penetra en los poros de ambos tejidos formando una unión molecular irrompible.",
-    "beginnerExplanation": "Es el famoso aplique con pegamento térmico de plancha. En lugar de coser una telita común que con el tiempo se deshilacha o se levanta en las puntas, se le pega por detrás un papel termoadhesivo especial con la plancha. Al bordarlo y volver a plancharlo al final, la tela queda pegada y soldada para siempre a la remera, como si fuera una sola pieza de fábrica.",
+    "beginnerExplanation": "Es el famoso aplique con pegamento térmico de plancha. En lugar de coser una telita común que con el tiempo se deshilacha o se levanta en las puntas, se le pega por detrás un papel termoadhesivo especial con la plancha. Al bordarlo y volver a plancharlo al final, la tela queda pegada y soldada para siempre a la camiseta, como si fuera una sola pieza de fábrica.",
     "construction": [
       "Tela base de aplique (sarga, gabardina, paño lenci, lino o algodón estampado)",
       "Film termoadhesivo permanente de poliamida pura de 50 a 100 micrones",
@@ -579,7 +579,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
       "Tijera Pelícano para Aplique"
     ],
     "applications": [
-      "Parches termoadhesivos para camperas, mochilas y gorras.",
+      "Parches termoadhesivos para chaquetas, mochilas y gorras.",
       "Nombres y figuras infantiles en toallas de jardín y batas escolares.",
       "Personalización de ropa de trabajo y uniformes gastronómicos de alta exigencia."
     ],
@@ -599,7 +599,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     "whenToAdjust": "Aumente el tiempo de planchado y presión si los bordes del aplique se despegan tras pruebas de lavado con agua tibia."
   },
   "a-004-aplique-de-bordado": {
-    "term": "Apliqué en Bordado Computarizado (Appliqué Digitizing & Fabrication)",
+    "term": "Apliqué en Bordado Computarizado",
     "level": "Iniciante 🟢",
     "category": "Técnicas de Aplique y Relieve",
     "grammarClass": "Locución sustantiva masculina.",
@@ -641,13 +641,13 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     "commonErrors": [
       "❌ Recortar la tela demasiado lejos de la costura de fijación dejando pelusas que asoman fuera del cordón de satén.",
       "❌ Cortar accidentalmente la tela de la prenda o el estabilizador con la tijera.",
-      "❌ Usar telas de aplique que destiñan al lavarse arruinando la remera blanca."
+      "❌ Usar telas de aplique que destiñan al lavarse arruinando la camiseta blanca."
     ],
     "troubleshootingTips": [
       "Si los hilachas de la tela asoman fuera del borde de satén: Aumente el ancho del cordón a 4,0 mm en el software y aplique entretela termoadhesiva en el revés de la tela de aplique antes de recortar.",
       "Si la máquina no frena después de la línea de marcado: Inserte una orden de cambio de color o comando de STOP programado en la matriz entre cada paso."
     ],
-    "dicaArtrelados": "¡El secreto de los apliques perfectos que parecen de fábrica! Antes de poner la telita en el bastidor, pegue un film termoadhesivo liviano en su revés y use una tijera pelícano (esa que tiene una paleta redondeada abajo). La paleta apoya sobre el bastidor sin riesgo de pellizcar la remera y le permite cortar a 1 milímetro exacto de la costura. ¡El borde de satén quedará impecable y sin un solo hilito asomando!",
+    "dicaArtrelados": "¡El secreto de los apliques perfectos que parecen de fábrica! Antes de poner la telita en el bastidor, pegue un film termoadhesivo liviano en su revés y use una tijera pelícano (esa que tiene una paleta redondeada abajo). La paleta apoya sobre el bastidor sin riesgo de pellizcar la camiseta y le permite cortar a 1 milímetro exacto de la costura. ¡El borde de satén quedará impecable y sin un solo hilito asomando!",
     "voceSabia": "¡Una figura de un osito de 15 cm completamente rellena en puntada tatami insume cerca de 40.000 puntadas; esa misma figura resuelta con tela de aplique insume apenas 4.500 puntadas de contorno exterior!",
     "practicalExercise": "Descargue una matriz sencilla de corazón en apliqué. Deje que la máquina marque la línea, coloque un recorte de tela de algodón floreada, espere la puntada de fijación y recorte el sobrante con tijera pelícano. Deje que la máquina cierre el cordón satén y sienta la suavidad de la prenda terminada.",
     "quickSummary": "Técnica que cubre áreas del diseño con retazos de tela enmarcados con puntadas de satén, ahorrando tiempo de costura y brindando ligereza textil.",
@@ -660,8 +660,8 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     ],
     "applications": [
       "Ajuar y ropa de cuna para bebés (bodies, sábanas, toallitas).",
-      "Letras gigantes en buzos universitarios y uniformes escolares.",
-      "Almohadones decorativos, bolsos maternales y mantelería."
+      "Letras gigantes en sudaderas universitarios y uniformes escolares.",
+      "cojines decorativos, bolsos maternales y mantelería."
     ],
     "recommendedSettings": {
       "speedPPM": "600 a 750 PPM",
@@ -671,15 +671,15 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
       "threadTension": "Equilibrada habitual"
     },
     "practicalExamples": [
-      "Nombres infantiles con telas estampadas sobre remeras de algodón.",
-      "Grandes números de espalda en camperas deportivas reemplazando tatami pesado.",
+      "Nombres infantiles con telas estampadas sobre camisetas de algodón.",
+      "Grandes números de espalda en chaquetas deportivas reemplazando tatami pesado.",
       "Bordado de toallas de baño con figuras de piqué de nido de abeja."
     ],
     "matrixParametersRelation": "Requiere secuencia estricta en 3 pasos (trazado guía, puntada de fijación hilván y festón satén de cobertura) con compensación de tracción de 0,45 mm.",
     "whenToAdjust": "Aumente el ancho del festón a 3,2 mm si la tela de recorte asoma por fuera del cordón de satén."
   },
   "a-099-aplique-rendado-em-richelieu-eletronico": {
-    "term": "Aplique de Encaje Richelieu Electrónico en Bastidor (Electronic Richelieu Lace Appliqué)",
+    "term": "Aplique de Encaje Richelieu Electrónico en Bastidor",
     "level": "Avanzado 🔴",
     "category": "Técnicas de Aplique y Relieve",
     "grammarClass": "Locución sustantiva masculina.",

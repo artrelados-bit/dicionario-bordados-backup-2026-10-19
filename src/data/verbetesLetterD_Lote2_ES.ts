@@ -2,36 +2,36 @@ import { Verbete } from "../types";
 
 export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
   "d-026-digitalizacao-manual-tecnica": {
-    "term": "Digitalización Manual (Técnica y Decisiones de Picaje)",
+    "term": "Digitalización Manual",
     "level": "Avanzado 🔴",
     "category": "Programación de Matrices",
     "grammarClass": "Locución nominal formada Por Sustantivo femenino y adjetivo.",
     "origin": "Del latín digitalis manualis (programación manual) y techne (arte, ofício prático) y decisio (determinación clara tras ponderación, de decidere).",
-    "summary": "Metodologia consciente de construción de matrices / diseños donde cada decisao técnica es controlada Por el digitalizador.",
-    "definition": "En la digitalización (ponchado) manual, o profissional constrói los objetos de la matriz / diseño conscientemente, definindo parâmetros, caminhos, puntadas de entrada/salida, ângulos y underlays de acordo con a física del tejido / tela y el acabado pretendido. en vez de delegar decisoes al computador, o digitalizador assume el controle de toda a engenharia de la matriz / diseño.",
-    "technicalDetails": "Permite calibrar tolerancias de Pull Compensation (+0.30mm a +0.60mm), aplicar underlays adequados (hilo central, ziguezague o tatami duplo) y construir caminhos contínuos que eliminam paradas de corte.",
-    "beginnerExplanation": "É a tomada de decisoes conscientes del programador experiente: escolher si una pétala debe ser bordada Antes o después del caule, qual ângulo de puntada vai valorizar a luz y qual costura de base vai segurar el tejido / tela sin repuxar.",
+    "summary": "Metodologia consciente de construción de matrices / diseños donde cada decisión técnica es controlada Por el digitalizador.",
+    "definition": "En la digitalización (ponchado) manual, el profesional construye los objetos de la matriz / diseño conscientemente, definiendo parámetros, trayectorias, puntos de entrada y salida, ângulos y underlays según las propiedades físicas del tejido / tela y el acabado deseado. en lugar de delegar decisiones al software, o digitalizador asume el control de toda la ingeniería de la matriz / diseño.",
+    "technicalDetails": "permite calibrar tolerancias de Pull Compensation (+0.30mm a +0.60mm), aplicar underlays adequados (hilo central, ziguezague o tatami duplo) y construir trayectorias contínuos que eliminam paradas de corte.",
+    "beginnerExplanation": "É a toma de decisiones conscientes del picador experimentado: elegir si un pétalo debe ser bordado antes o después del tallo, qué ángulo de puntada realzará el brillo de la luz y cuál puntada de soporte (underlay) sostendrá el tejido / tela sin fruncir.",
     "howItWorks": [
-      "1. El digitalizador estuda el desenho y define a ordem cronológica de costura.",
+      "1. El digitalizador estuda el diseño y define a ordem cronológica de costura.",
       "2. Traca los nós de contorno y aplica a hilo de direción del puntada.",
       "3. Configura a densidade y el underlay según el tejido / tela de destino.",
       "4. Conecta los objetos con pequenos puntadas de viagem ocultos."
     ],
     "construction": [
       "Definición de entrada y salida Por objeto",
-      "Seleción criteriosa de tipo de puntada Por espessura",
+      "Seleción criteriosa de tipo de puntada Por grosor",
       "Estruturación de underlay Por camadas",
-      "Planejamento de sobreposición de seguridad (overlap)"
+      "Planejamento de sobreposición de seguridad"
     ],
     "mainTypes": [
-      "digitalización (ponchado) Manual Por Colunas (Colunas A, B, C en el Wilcom)",
+      "digitalización (ponchado) Manual Por Colunas",
       "digitalización (ponchado) Manual Por Preenchimento Complexo",
       "digitalización (ponchado) puntada a puntada Cirúrgica"
     ],
     "advantages": [
-      "✔ Máxima precisao y encaixe perfeito Entre contornos y fundos",
+      "✔ Máxima precisión y encaixe perfeito Entre contornos y fundos",
       "✔ Zero quebras de hilo y bordado extremamente suave y flexível",
-      "✔ Alta velocidade de produción en la máquina con revés limpíssimo"
+      "✔ Alta velocidad de produción en la máquina con revés limpíssimo"
     ],
     "limitations": [
       "Exige curva de aprendizado gradual y prática con el software de programación."
@@ -46,10 +46,10 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
       "al criar colunas Satin en curvas, mantenha as guias de ângulo siempre perpendiculares a las bordas de la coluna Para evitar distorciones."
     ],
     "whenToAdjust": "",
-    "dicaArtrelados": "Digitalizar manualmente no significa hacer tudo difícil: significa saber exatamente Por qué voce está fazendo cada escolha! El objetivo no es clicar más, é decidir melhor!",
+    "dicaArtrelados": "Digitalizar manualmente no significa hacer todo difícil: significa saber exatamente Por qué voce está fazendo cada escolha! El objetivo no es clicar más, é decidir melhor!",
     "voceSabia": "Digitalizadores experientes gastam 40% del tempo solo planejando a sequencia mental Antes de dar el primeiro clique en el software!",
-    "practicalExercise": "Pegue un desenho de un pássaro: planeje en el papel a ordem exata de las camadas (1º o bico de fundo, 2º o corpo, 3º as asas sobrepostas, 4º os olhos y contornos finais). después digitalize en el software seguindo rigorosamente essa ordem: veja Cómo el pássaro ganha vida y volume perfeito en el tejido / tela!",
-    "quickSummary": "digitalización (ponchado) manual técnica y decisória es o processo deliberado de engenharia de puntadas donde cada escolha atende a critérios estéticos y físicos precisos.",
+    "practicalExercise": "Pegue un motivo de un pássaro: planeje en el papel a ordem exata de las camadas (1º o bico de fundo, 2º o corpo, 3º as asas sobrepostas, 4º os olhos y contornos finais). después digitalize en el software seguindo rigorosamente essa ordem: veja Cómo el pássaro ganha vida y volume perfeito en el tejido / tela!",
+    "quickSummary": "digitalización (ponchado) manual técnica y decisória es o processo deliberado de ingeniería de puntadas donde cada escolha atende a critérios estéticos y físicos precisos.",
     "relatedTerms": [
       "digitalización (ponchado) Automática",
       "puntada de Entrada",
@@ -59,31 +59,31 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "d-027-digitalizacao-por-objetos": {
-    "term": "Digitalización Por Objetos Vectoriales (Object-Based Digitizing)",
+    "term": "Digitalización Por Objetos Vectoriales",
     "level": "Intermedio 🟡",
     "category": "Programación de Matrices",
     "grammarClass": "Locución nominal formada Por Sustantivo femenino y locución prepositiva.",
-    "origin": "Del latín digitalis (digital) y objectum (aquilo que está diante de los olhos, elemento delimitado, de objicere). Paradigma central de la computación gráfica moderna orientada a objetos vetoriais.",
-    "summary": "Método de construción que divide el desenho en elementos individuais y independentes con configuraciones próprias.",
-    "definition": "A digitalización (ponchado) Por objetos es a metodologia moderna de criación de matrices / diseños en la qual el desenho es decomposto en elementos vetoriais individuais y autonomos (Cómo pétala, folha, caule, letra, fundo). en vez de enxergar a imagem Cómo un bloco único, o digitalizador cria cada parte Cómo un 'objeto' inteligente con suas próprias propriedades de puntada, direción, densidade y underlay.",
+    "origin": "Del latín digitalis (digital) y objectum (aquilo que está diante de los olhos, elemento delimitado, de objicere). Paradigma central de la computación gráqueda moderna orientada a objetos vetoriais.",
+    "summary": "Método de construción que divide el diseño en elementos individuais y independentes con configuraciones próprias.",
+    "definition": "A digitalización (ponchado) Por objetos es a metodologia moderna de criación de matrices / diseños en la cuál el diseño es decomposto en elementos vetoriais individuais y autonomos (Cómo pétalo, hoja, tallo, letra, fundo). en vez de enxergar a imagem Cómo un bloque único, o digitalizador cria cada parte Cómo un 'objeto' inteligente con suas próprias propriedades de puntada, direción, densidade y underlay.",
     "technicalDetails": "Adotada Por los principais softwares modernos baseados en objetos (Wilcom EMB, Hatch, Brother PE-Design, Bernina). Permite redimensionar, alterar tipo de puntada y mudar propriedades a cualquier momento sin perder a integridade geométrica.",
-    "beginnerExplanation": "digitalización (ponchado) Por objetos significa que voce constrói el desenho dividindo-o en 'piezas de Lego' inteligentes (cada folha es un objeto, cada letra es outro objeto). así, si voce quiser mudar el tamanho o el tipo de puntada después, o software recalcula tudo automaticamente sin estragar a matriz / diseño!",
+    "beginnerExplanation": "digitalización (ponchado) Por objetos significa que voce construye el diseño dividindo-o en 'piezas de Lego' inteligentes (cada hoja es un objeto, cada letra es outro objeto). así, si voce quiser mudar el tamanho o el tipo de puntada después, o software recalcula todo automaticamente sin estragar a matriz / diseño!",
     "howItWorks": [
       "1. El desenho es dividido mentalmente en suas partes constituintes.",
       "2. Cada parte es tracada Cómo un objeto independente en el software.",
-      "3. Cada objeto recebe parâmetros específicos adequados a la sua función.",
+      "3. Cada objeto recebe parámetros específicos adequados a la sua función.",
       "4. Los objetos son ordenados en la lista de sequencia Para criar el fluxo de costura."
     ],
     "construction": [
-      "Objeto vetorial fechado (área de preenchimento)",
-      "Objeto vetorial aberto (hilo de contorno / puntada recta corrida)",
-      "Objeto de coluna (largura variável en satin)",
-      "Lista sequencial de objetos (Object List)"
+      "Objeto vetorial fechado",
+      "Objeto vetorial aberto",
+      "Objeto de coluna",
+      "Lista sequencial de objetos"
     ],
     "mainTypes": [
-      "Objetos de Preenchimento (Tatami, Padroes)",
-      "Objetos de Coluna (puntada satín con ângulo dinâmico)",
-      "Objetos de hilo (puntada recta corrida simples, triplo o decorativo)",
+      "Objetos de Preenchimento",
+      "Objetos de Coluna",
+      "Objetos de hilo",
       "Objetos de Aplique Automatizado"
     ],
     "advantages": [
@@ -106,7 +106,7 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     "whenToAdjust": "",
     "dicaArtrelados": "cuando olhar Para una imagem, tente 'quebrá-la' mentalmente en pequenas piezas! Pergunte: 'Quais objetos individuais eu consigo identificar aqui?' Essa habilidade es a base de todo el raciocínio de la digitalización (ponchado)!",
     "voceSabia": "cuando voce exporta una matriz / diseño Para formato de máquina (.DST o .PES), todos los objetos vetoriais sao 'achatados' en coordenadas brutas de puntadas, dificultando ediciones complexas posteriores!",
-    "practicalExercise": "En el seu software, selecione una folha desenhada Cómo objeto vetorial de puntada satín (Satin): mude el tamanho dela aumentando en 50%. Observe Cómo el software aumentou a quantidade de puntadas automaticamente mantendo a misma densidade perfeita, gracas a la digitalización (ponchado) Por objetos!",
+    "practicalExercise": "En el seu software, selecione una hoja desenhada Cómo objeto vetorial de puntada satín (Satin): mude el tamanho dela aumentando en 50%. Observe Cómo el software aumentou a quantidade de puntadas automaticamente mantendo a misma densidade perfeita, gracas a la digitalización (ponchado) Por objetos!",
     "quickSummary": "digitalización (ponchado) Por objetos es a modelagem de matrices / diseños a través de elementos vetoriais paramétricos que preservam propriedades editáveis de puntadas y formas.",
     "relatedTerms": [
       "digitalización (ponchado) Manual",
@@ -116,20 +116,20 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "d-028-desenho-de-matriz": {
-    "term": "Diseño de Matriz y Arquitectura del Bordado (Embroidery Punch Pattern)",
+    "term": "Diseño de Matriz y Arquitectura del Bordado",
     "level": "fundamental 🟢",
     "category": "Programación de Matrices",
-    "grammarClass": "Sustantivo masculino composto.",
-    "origin": "Del latín de- + signare (marcar, tracar contornos gráficos) y del latín matrix, -icis (molde gerador). En la engenharia mecatronica textil, refere-si a la composición estruturada y vetorial del archivo digital de bordado.",
+    "grammarClass": "Sustantivo masculino compuesto.",
+    "origin": "Del latín de- + signare (marcar, tracar contornos gráficos) y del latín matrix, -icis (molde gerador). En la ingeniería mecatronica textil, refere-si a la composición estruturada y vetorial del archivo digital de bordado.",
     "summary": "Processo y resultado del tracado digital vetorial y de la programación de puntadas que compoem una matriz / diseño / diseño de bordado computarizado.",
-    "definition": "El desenho de matriz / diseño es a concepción gráfica, estruturación geométrica y conversao de una imagem o conceito visual en objetos vetoriais de bordado. Compreende a definición de tipos de puntadas (tatami, satin, puntada recta corrida), ângulos de inclinación, densidades, camadas de base (underlay) y trajetórias de costura que orientam el cabezal y el pantógrafo de la máquina durante el ciclo de produción.",
-    "technicalDetails": "Estruturado en entidades vetoriais paramétricas fechadas y abertas (polígonos Bézier) con atributos numéricos de densidade (0.35mm a 0.50mm), comprimentos de puntada (1.5mm a 7.0mm), compensación de tirantez (+0.30mm a +0.50mm) y comandos de máquina embutidos (Trim, Stop, Color Change).",
-    "beginnerExplanation": "É a criación del archivo del bordado en el computador: é cuando voce transforma una foto, desenho o logo en pontinhos que a máquina de bordar consegue entender y costurar perfeitamente en el tejido / tela.",
+    "definition": "El desenho de matriz / diseño es a concepción gráqueda, estruturación geométrica y conversao de una imagem o conceito visual en objetos vetoriais de bordado. Compreende a definición de tipos de puntadas (tatami, satin, puntada recta corrida), ângulos de inclinación, densidades, camadas de base (underlay) y trajetórias de costura que orientam el cabezal y el pantógrafo de la máquina durante el ciclo de produción.",
+    "technicalDetails": "Estruturado en entidades vetoriais paramétricas fechadas y abertas (polígonos Bézier) con atributos numéricos de densidade (0.35mm a 0.50mm), longitudes de puntada (1.5mm a 7.0mm), compensación de tirantez (+0.30mm a +0.50mm) y comandos de máquina embutidos (Trim, Stop, Color Change).",
+    "beginnerExplanation": "É a criación del archivo del bordado en el computadora: é cuando voce transforma una foto, desenho o logo en pontinhos que la máquina de bordar consegue entender y costurar perfeitamente en el tejido / tela.",
     "howItWorks": [
       "1. A imagem de referencia (PNG, JPG o vetor SVG) é importada Para el área de trabalho del software de bordado.",
-      "2. El designer desenha los objetos Por camadas, del fundo Para los detalhes superficiais, usando ferramentas de contorno y preenchimento.",
+      "2. El designer traza / diseña los objetos Por camadas, del fundo Para los detalhes superficiais, usando ferramentas de contorno y preenchimento.",
       "3. Sao parametrizados los tipos de puntada, densidades, underlays y ângulos de reflexao de luz.",
-      "4. El software calcula el caminho de costura (Stitch Path) y gera as coordenadas binárias prontas Para envio a la máquina."
+      "4. El software calcula el trayectoria de costura (Stitch Path) y gera as coordenadas binárias prontas Para envio a la máquina."
     ],
     "construction": [],
     "mainTypes": [],
@@ -142,15 +142,15 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
       "no planejar a ordem de costura de las cores, gerando dezenas de cambios de hilo desnecessárias"
     ],
     "troubleshootingTips": [
-      "siempre utilice el simulador en tempo real (Stitch Player) del software Para inspecionar el desenho Antes de levar Para la máquina",
+      "siempre utilice el simulador en tempo real (Stitch Player) del software Para inspecionar el diseño Antes de levar Para la máquina",
       "Mantenha a regra de desenhar del centro Para fora y de baixo Para cima Para evitar el empurrao del tejido / tela",
       "Agrupe partes de la misma cor Para reduzir as paradas de cambio de carrete"
     ],
     "whenToAdjust": "",
     "dicaArtrelados": "al desenhar una matriz / diseño, lembre-si de que a aguja no pinta Cómo un pincel: ela puxa y estica el tejido / tela! siempre adicione una folguinha de sobreposición (overlap) de 1.0mm a 1.5mm Entre los objetos vizinhos Para los contornos no si separarem en la hora de bordar.",
-    "voceSabia": "En la era pioneira del bordado mecânico en los anos 1960, o 'desenho de matriz / diseño' era hecho a la mao en mesas digitalizadoras del tamanho de mesas de bilhar, onde el operador perfurava cartoes Jacquard con una aguja manual a cada salto de puntada.",
+    "voceSabia": "En la era pioneira del bordado mecánico en los anos 1960, o 'desenho de matriz / diseño' era hecho a la mao en mesas digitalizadoras del tamanho de mesas de bilhar, onde el operador perfurava cartoes Jacquard con una aguja manual a cada salto de puntada.",
     "practicalExercise": "Importe una imagem simples de una estrela en el seu software: desenhe el preenchimento en tatami con ângulo a 45°, adicione un underlay leve y coloque una costura de contorno en satin de 2.0mm. Borde en el tejido / tela de teste y veja Cómo el seu desenho de matriz / diseño ganha vida y textura!",
-    "quickSummary": "Processo de criación y vetorización gráfica del archivo digital de bordado que traduz imagens en trajetórias de puntadas executáveis.",
+    "quickSummary": "Processo de criación y vetorización gráqueda del archivo digital de bordado que traduz imagens en trajetórias de puntadas executáveis.",
     "relatedTerms": [
       "Bordado Digitalizado",
       "Correción de puntadas",
@@ -159,10 +159,10 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "d-029-deslocamento-de-origem": {
-    "term": "Desplazamiento del Punto de Origen (Origin Offset & Center Point)",
+    "term": "Desplazamiento del Punto de Origen",
     "level": "Intermedio 🟡",
     "category": "Operación de la Máquina",
-    "grammarClass": "Sustantivo masculino composto.",
+    "grammarClass": "Sustantivo masculino compuesto.",
     "origin": "Del latín dis- + locare (mudar de lugar, afastar del sítio original) y origo, -inis (puntada de partida, nascimento). Princípio fundamental de las coordenadas cartesianas relativas en sistemas mecatronicos CNC.",
     "summary": "Ajuste milimétrico de las coordenadas espaciais del puntada zero inicial del bastidor Para posicionar el bordado en locais específicos de la pieza.",
     "definition": "El desplazamiento de origem (o ajuste de Offset / Zero Point Shift) é o procedimento operacional realizado en el painel de controle de la máquina de bordar o en el software Para transladar el puntada inicial de referencia (X:0, Y:0) del centro estándar del bastidor Para una posición customizada en el tejido / tela, permitindo alinhar el bordado con marcaciones físicas, bolsos, listras, costuras prévias o emendas de desenhos grandes.",
@@ -170,10 +170,10 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     "beginnerExplanation": "É cuando voce usa as setinhas del painel de la máquina Para andar con el bastidor y dizer: 'máquina, no comece en el meiao del bastidor, comece exatamente aqui donde eu fiz este risco en el tejido / tela!'. Isso ajuda a bordar en cima de bolsinhos o en cantos de toallas sin errar a mira.",
     "howItWorks": [
       "1. A pieza es colocada en el bastidor con una marcación de cruz hecha con giz o caneta fantasma en la posición desejada del bordado.",
-      "2. En el painel de la máquina, o operador aciona as setas direcionais de movimentación manual del carro en los eixos X y Y.",
+      "2. En el painel de la máquina, o operador aciona as setas direcionais de movimentación manual del carro en los ejes X y Y.",
       "3. A ponta de la aguja (o el puntada de laser de posicionamento) é alinhada con el centro exato de la cruz riscada en el tejido / tela.",
-      "4. El operador pressiona a tecla 'Definir Origem' (Set Origin/Origin Shift), redefinindo a coordenada zero Para aquela posición.",
-      "5. A función de tracado de área (Trace) é executada Para confirmar que todo el perímetro del desenho cabe dentro del bastidor sin bater a aguja en el aro."
+      "4. El operador pressiona a tecla 'Definir Origem' (Set Origin/Origin Shift), redefinindo a coordenada zero Para aquella posición.",
+      "5. A función de tracado de área (Trace) é ejecutada Para confirmar que todo el perímetro del desenho cabe dentro del bastidor sin bater a aguja en el aro."
     ],
     "construction": [],
     "mainTypes": [],
@@ -182,19 +182,19 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     "practicalExamples": [],
     "commonErrors": [
       "Deslocar a origem muy perto de la borda plástica del bastidor sin hacer el tracado de teste, provocando a colisao de la aguja con el aro plástico",
-      "Esquecer de travar a nova origem en el painel, fazendo a máquina voltar al centro absoluto en el momento del primeiro puntada",
+      "Esquecer de travar a nova origem en el painel, fazendo la máquina voltar al centro absoluto en el momento del primeiro puntada",
       "hacer el desplazamiento con a aguja abaixada dentro del tejido / tela, entortando a cenefa de aguja y rasgando a pieza"
     ],
     "troubleshootingTips": [
-      "siempre levante a aguja Para la posición más alta (Top Dead Center) Antes de movimentar los eixos X y Y en el painel",
-      "Após cualquier desplazamiento de origem, acione obrigatoriamente a función 'Trace' (Tracado de Perímetro)",
-      "si a máquina emitir sinal sonoro de error de limite, mova a origem alguns milímetros de volta en direción al centro del bastidor"
+      "siempre levante a aguja Para la posición más alta (Top Dead Center) Antes de movimentar los ejes X y Y en el painel",
+      "Após cualquier desplazamiento de origem, acione obrigatoriamente a función 'Trace'",
+      "si la máquina emitir sinal sonoro de error de limite, mova a origem alguns milímetros de volta en direción al centro del bastidor"
     ],
     "whenToAdjust": "",
-    "dicaArtrelados": "Para acertar a origem en bolsos o cantos de toallas de olhos fechados, use el laser de mira de la máquina o abaixe a aguja suavemente girando el volante manual atEs la pontinha tocar exatamente en el centro de la cruzeta de giz: aperte 'Definir Origem' y el alinhamento fica cirúrgico!",
-    "voceSabia": "en máquinas industriais de grande porte con mesas de 15 metros de comprimento, os operadores utilizam ponteiros laser cruzados de alta precisao Para deslocar a origem dezenas de vezes Por dia en rolos contínuos de tejido / tela sin Nunca precisar desmontar a pieza del pantógrafo.",
-    "practicalExercise": "Risque una pequena cruz con caneta que apaga con calor a 4cm del canto de un retazo de tejido / tela colocado en el bastidor: use as setas del painel de la sua máquina Para levar a aguja atEs la marcación, aperte 'Set Origin', execute el tracado de área y borde una letra de 2cm. Veja Cómo el bordado fica perfeitamente posicionado en el local planejado!",
-    "quickSummary": "Translación de las coordenadas del puntada inicial (X:0, Y:0) Para posicionar el bordado en regioes específicas del bastidor con precisao milimétrica.",
+    "dicaArtrelados": "Para acertar a origem en bolsos o cantos de toallas de olhos fechados, use el laser de mira de la máquina o abaixe a aguja suavemente girando el volante manual atEs la pontinha tocar exatamente en el centro de la cruzeta de giz: aperte 'Definir Origem' y el alinhamento queda cirúrgico!",
+    "voceSabia": "en máquinas industriais de grande porte con mesas de 15 metros de longitud, os operadores utilizam ponteiros laser cruzados de alta precisión Para desplazar a origem dezenas de vezes Por dia en rolos contínuos de tejido / tela sin Nunca precisar desmontar a pieza del pantógrafo.",
+    "practicalExercise": "Risque una pequena cruz con caneta que apaga con calor a 4cm del canto de un retazo de tejido / tela colocado en el bastidor: use as setas del painel de la sua máquina Para levar a aguja atEs la marcación, aperte 'Set Origin', execute el tracado de área y borde una letra de 2cm. Veja Cómo el bordado queda perfeitamente posicionado en el local planejado!",
+    "quickSummary": "Translación de las coordenadas del puntada inicial (X:0, Y:0) Para posicionar el bordado en regiones específicas del bastidor con precisión milimétrica.",
     "relatedTerms": [
       "Tracado de Área",
       "bastidor Virtual",
@@ -203,15 +203,15 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "d-030-digitalizacao-de-logotipo": {
-    "term": "Digitalización de Logotipos y Emblemas Corporativos (Corporate Logo Digitizing)",
+    "term": "Digitalización de Logotipos y Emblemas Corporativos",
     "level": "Intermedio 🟡",
     "category": "Programación de Matrices",
     "grammarClass": "Locución nominal feminina.",
     "origin": "Del grego logos (palavra, conceito) y typos (marca, figura gravada), y del latín digitalis. Ramo comercial más lucrativo y técnico del bordado industrial contemporâneo.",
-    "summary": "Processo técnico de adaptación y transformación de identidades visuais de marcas en matrices / diseños de alta precisao.",
-    "definition": "A digitalización (ponchado) de logotipo es o processo técnico y de design responsável Por transformar a representación gráfica de una marca, símbolo o identidade corporativa en una matriz / diseño / diseño de bordado eletronico de alta qualidade. Esse processo no consiste en simplesmente converter un archivo de imagem (PNG o JPG): exige interpretar a arte, simplificar detalhes minúsculos y reconstruí-la en la linguagem física de puntadas, hilos y tejidos / telas.",
-    "technicalDetails": "Envolve adequación a la escala (versoes Para peito de 8cm a 10cm vs costas de 25cm a 30cm), seleción de puntadas Para textos pequenos (mínimo de 4.5mm Para Satin con hilo 40 o uso de hilo fina 60), calibración de compensación de tirantez y compatibilización de la paleta de cores de la marca con los códigos de cones de poliéster.",
-    "beginnerExplanation": "É a criación de matrices / diseños Para marcas y empresas (en camisas polo, gorras, batas / guardapolvos y uniformes). Exige muy capricho porque as letras precisam ficar retinhas, legíveis y con as cores fiéis a la marca del cliente.",
+    "summary": "Processo técnico de adaptación y transformación de identidades visuais de marcas en matrices / diseños de alta precisión.",
+    "definition": "A digitalización (ponchado) de logotipo es o processo técnico y de design responsável Por transformar a representación gráqueda de una marca, símbolo o identidade corporativa en una matriz / diseño / diseño de bordado eletronico de alta qualidade. Esse processo no consiste en simplesmente converter un archivo de imagem (PNG o JPG): exige interpretar a arte, simplificar detalhes minúsculos y reconstruí-la en la linguagem física de puntadas, hilos y tejidos / telas.",
+    "technicalDetails": "Envolve adequación a la escala (versoes Para peito de 8cm a 10cm vs espalda de 25cm a 30cm), seleción de puntadas Para textos pequenos (mínimo de 4.5mm Para Satin con hilo 40 o uso de hilo fina 60), calibración de compensación de tirantez y compatibilización de la paleta de cores de la marca con los códigos de cones de poliéster.",
+    "beginnerExplanation": "É a criación de matrices / diseños Para marcas y empresas (en camisas polo, gorras, batas / guardapolvos y uniformes). Exige muy capricho porque as letras deben permanecer retinhas, legíveis y con as cores fiéis a la marca del cliente.",
     "howItWorks": [
       "1. El digitalizador recebe el manual de marca o vetor del cliente.",
       "2. Avalia a escala de aplicación (camisa polo, boné, bata / guardapolvo, campera).",
@@ -223,13 +223,13 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
       "Análise y vetorización limpa del logo",
       "Adaptación de pequenos textos y slogans",
       "Definición de la ordem de sobreposición de las cores",
-      "Criación de transpasses de seguridad (overlap)"
+      "Criación de transpasses de seguridad"
     ],
     "mainTypes": [
-      "Logotipo Para Peito / camisa polo (8cm a 10cm - foco en legibilidade)",
-      "Logotipo Para Costas / campera (20cm a 28cm - foco en leveza y baixo peso)",
-      "Logotipo Para Boné Estruturado (Costura del centro Para las bordas)",
-      "Logotipo en Relevo 3D / EVA (Para marcas esportivas y gorras premium)"
+      "Logotipo Para Peito / camisa polo",
+      "Logotipo Para Costas / campera",
+      "Logotipo Para Boné Estruturado",
+      "Logotipo en Relevo 3D / EVA"
     ],
     "advantages": [
       "✔ Fidelidade rigorosa a la identidade corporativa del cliente",
@@ -241,7 +241,7 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     ],
     "practicalExamples": [],
     "commonErrors": [
-      "❌ Perguntar solamente 'qual es o programa que converte el logo automaticamente?'.",
+      "❌ Perguntar solamente 'cuál es o programa que converte el logo automaticamente?'.",
       "❌ Tentar reproduzir letras minúsculas sin engrossar as hastes o simplificar el traco.",
       "❌ Usar a misma matriz / diseño de peito de camisa Para bordar en gorras o toallas."
     ],
@@ -249,10 +249,10 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
       "Para bordar slogans con letras de 4mm a 5mm, utilize aguja 65/9 y hilo de bordar fina Título 60 con puntada recta corrida duplo o satin leve."
     ],
     "whenToAdjust": "",
-    "dicaArtrelados": "Especial Para quem atende clientes: Nunca pergunte solamente 'qual es o archivo del logotipo?'. Pergunte siempre: 'onde, en qual tamanho y en qual tejido / tela esse logotipo será bordado?' Essas tres respostas mudam completamente a estrutura de la matriz / diseño!",
-    "voceSabia": "un mismo logotipo de empresa frequentemente precisa de 3 o 4 versoes diferentes de matriz / diseño: una Para remera de tejido de punto, una Para camisa de vestir de tricoline, una Para boné y outra Para campera grossa!",
+    "dicaArtrelados": "Especial Para quem atende clientes: Nunca pergunte solamente 'cuál es o archivo del logotipo?'. Pergunte siempre: 'onde, en cuál tamanho y en cuál tejido / tela esse logotipo será bordado?' Essas tres respostas mudam completamente a estrutura de la matriz / diseño!",
+    "voceSabia": "un mismo logotipo de empresa frequentemente debe de 3 o 4 versoes diferentes de matriz / diseño: una Para remera de tejido de punto, una Para camisa de vestir de tricoline, una Para boné y outra Para campera grossa!",
     "practicalExercise": "Pegue un logotipo corporativo que contenha un símbolo grande y un texto pequeno embaixo: digitalize el símbolo primeiro y después as letras, garantindo que letras con menos de 5mm usem puntada satín con compensación de tirantez (pull compensation) calibrada en 0.35mm. Borde en una camisa polo pique con entretela de tejido de punto!",
-    "quickSummary": "digitalización (ponchado) de logotipo es a programación técnica de identidades visuais corporativas, exigindo alta precisao dimensional y máxima legibilidade tipográfica.",
+    "quickSummary": "digitalización (ponchado) de logotipo es a programación técnica de identidades visuais corporativas, exigindo alta precisión dimensional y máxima legibilidade tipográqueda.",
     "relatedTerms": [
       "digitalización (ponchado) Manual",
       "Desenho Vetorial",
@@ -261,15 +261,15 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "d-031-desenho-vetorial": {
-    "term": "Diseño Vectorial Para Bordado (Vector Artwork for Embroidery)",
+    "term": "Diseño Vectorial Para Bordado",
     "level": "Principiante 🟢",
     "category": "Diseño y Creación",
     "grammarClass": "Locución nominal masculina.",
-    "origin": "Del latín deexsignare (desenhar) y vector, -oris (aquele que transporta, condutor geométrico, de vehere, transportar). Arte gráfica baseada en fórmulas matemáticas y curvas de Bézier.",
-    "summary": "Representación gráfica baseada en fórmulas matemáticas y curvas que permite ampliación sin perda de definición.",
-    "definition": "un desenho vetorial es una representación gráfica construída Por meio de elementos matemáticos Cómo hilos, curvas de Bézier, polígonos y puntadas de controle (nós), en lugar de ser formado Por una grade fixa de pixels. Isso permite que a imagem seja redimensionada Para cualquier tamanho sin perder a nitidez y sin apresentar el efeito serrilhado típico de imagens rasterizadas (JPG/PNG). En el bordado, serve Cómo a base gráfica ideal Para la digitalización (ponchado).",
+    "origin": "Del latín deexsignare (desenhar) y vector, -oris (aquel que transporta, condutor geométrico, de vehere, transportar). Arte gráqueda baseada en fórmulas matemáticas y curvas de Bézier.",
+    "summary": "Representación gráqueda baseada en fórmulas matemáticas y curvas que permite ampliación sin perda de definición.",
+    "definition": "un motivo vetorial es una representación gráqueda construída Por meio de elementos matemáticos Cómo hilos, curvas de Bézier, polígonos y puntadas de controle (nós), en lugar de ser formado Por una grade fixa de pixels. Isso permite que a imagem seja redimensionada Para cualquier tamanho sin perder a nitidez y sin apresentar el efeito serrilhado típico de imagens rasterizadas (JPG/PNG). En el bordado, serve Cómo a base gráqueda ideal Para la digitalización (ponchado).",
     "technicalDetails": "Formatos vetoriais estándar incluem SVG, AI, EPS, CDR y PDF vetorial. al contrário de una imagem rasterizada que posee resolución fixa en DPI, o vetor posee definición geométrica infinita, facilitando el tracado exato de los objetos de bordado.",
-    "beginnerExplanation": "Desenho vetorial es una imagem hecha Por hilos y curvas matemáticas en el computador (en formatos Cómo SVG, CDR o AI). al contrário de una foto común que fica cheia de quadradinhos (pixels) cuando voce amplia, o vetor Nunca perde a qualidade nem a nitidez!",
+    "beginnerExplanation": "Desenho vetorial es una imagem hecha Por hilos y curvas matemáticas en el computadora (en formatos Cómo SVG, CDR o AI). al contrário de una foto conún que queda cheia de quadradinhos (pixels) cuando voce amplia, o vetor Nunca perde a qualidade nem a nitidez!",
     "howItWorks": [
       "1. El designer cria o recebe a arte en formato vetorial.",
       "2. As curvas son manipuladas y simplificadas Para eliminar nós excessivos.",
@@ -282,9 +282,9 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
       "Camadas de objetos agrupados"
     ],
     "mainTypes": [
-      "Vetor SVG (Formato aberto universal)",
-      "Vetor AI / EPS (Adobe Illustrator)",
-      "Vetor CDR (CorelDRAW - amplamente integrado con softwares de bordado)"
+      "Vetor SVG",
+      "Vetor AI / EPS",
+      "Vetor CDR"
     ],
     "advantages": [
       "✔ Contornos ultra nítidos y formas perfeitamente definidas",
@@ -304,13 +304,13 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
       "si el software de bordado travar al importar un vetor, use a ferramenta de 'Simplificar Curvas' en el Corel o Illustrator Para reduzir a quantidade de nós."
     ],
     "whenToAdjust": "",
-    "dicaArtrelados": "El vetor es o desenho organizado; a matriz / diseño es o desenho traduzido Para la linguagem de la máquina! y guarde a regra de ouro: no tente hacer a máquina bordar tudo el que seus olhos conseguem ver en el vetor. Escolha el que realmente precisa y consegue aparecer con qualidade en el tejido / tela!",
-    "voceSabia": "El CorelDRAW es o motor gráfico Por trás del software Wilcom EmbroideryStudio: voce desenha en vetor de un lado y el programa gera las puntadas de bordado en tempo real del outro!",
-    "practicalExercise": "Abra un archivo en vetor en el seu computador y aumente el zoom Para 800%: repare Cómo as hilos continuam perfeitamente lisinhas y afiadas. ahora faca el mismo con una foto JPG: veja Cómo as bordas ficam embacadas. por ello el vetor es o melhor amigo del digitalizador de bordado!",
-    "quickSummary": "Desenho vetorial es a representación gráfica composta Por coordenadas matemáticas que permite ampliaciones infinitas sin perda de definición Para el bordado.",
+    "dicaArtrelados": "El vetor es o desenho organizado; a matriz / diseño es o desenho traduzido Para la linguagem de la máquina! y guarde a regra de ouro: no tente hacer la máquina bordar todo el que seus olhos conseguem ver en el vetor. Escolha el que realmente debe y consegue aparecer con qualidade en el tejido / tela!",
+    "voceSabia": "El CorelDRAW es o motor gráfico Por trás del software Wilcom EmbroideryStudio: voce traza / diseña en vetor de un lado y el programa gera las puntadas de bordado en tempo real del outro!",
+    "practicalExercise": "Abra un archivo en vetor en el seu computadora y aumente el zoom Para 800%: repare Cómo as hilos continuam perfeitamente lisinhas y afiadas. ahora faca el mismo con una foto JPG: veja Cómo as bordas quedan embacadas. Por ello el vetor es o melhor amigo del Picador y Ponchador de Bordados!",
+    "quickSummary": "Desenho vetorial es a representación gráqueda compuesta Por coordenadas matemáticas que permite ampliaciones infinitas sin perda de definición Para el bordado.",
     "relatedTerms": [
       "Vetorización",
-      "Desenho de Bordado",
+      "Diseño de Bordado y Arte Vectorial",
       "digitalización (ponchado) de Bordado",
       "Matriz / Archivo de Bordado"
     ]
@@ -360,25 +360,25 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     "relatedTerms": [
       "Definición y Nitidez Visual del Bordado",
       "Software de Ponchado y Digitalización",
-      "Puntadas de Viaje Ocultas (Travel Runs)",
+      "Puntadas de Viaje Ocultas",
       "Colores y Selección Cromática de Hilos"
     ]
   },
   "d-033-detalhamento-da-matriz": {
-    "term": "Detallado Fino de la Matriz y Micro-Ajustes (Design Detailing & Fine Tuning)",
+    "term": "Detallado Fino de la Matriz y Micro-Ajustes",
     "level": "Avanzado 🔴",
     "category": "Programación de Matrices",
     "grammarClass": "Locución nominal masculina.",
     "origin": "Del francés détailler (cortar en pedacos miúdos, examinar minuciosamente, de dé- + tailler, cortar) y del latín matrix (molde gerador).",
     "summary": "nivel de información, refinamento y quantidade de microelementos aplicados en la construción de un bordado.",
-    "definition": "El detalhamento de la matriz / diseño corresponde al nivel de información, precisao visual y quantidade de elementos minuciosos utilizados en la construción de un desenho Para bordado. una matriz / diseño puede variar desde un estilo minimalista até una estrutura altamente complexa y realista. En el entanto, en el bordado computarizado vigora a lei física de los materiais: más detalhes no significam necessariamente un bordado melhor.",
-    "technicalDetails": "El limite de detalhamento es determinado Por la física de la aguja (diâmetro de 0.70mm a 0.80mm), de la espessura del hilo (Título 40 = ~0.38mm) y de la estrutura de las tramas del tejido / tela. Tentar colocar microdetalhes abaixo de 1mm causa acúmulo de hilo y perda de legibilidade.",
-    "beginnerExplanation": "Detalhamento de la matriz / diseño es o ajuste fino de cada minúsculo detalhe del bordado: acertar los olhos de un personagem, criar hilos de cabelo finos, hacer brilhos en las folhas y garantir que tudo fique nítido sin criar una montanha grossa de hilo.",
+    "definition": "El detalhamento de la matriz / diseño corresponde al nivel de información, precisión visual y quantidade de elementos minuciosos utilizados en la construción de un motivo Para bordado. una matriz / diseño puede variar desde un estilo minimalista até una estrutura altamente complexa y realista. En el entanto, en el bordado computarizado vigora a lei física de los materiais: más detalhes no significam necessariamente un bordado melhor.",
+    "technicalDetails": "El limite de detalhamento es determinado Por la física de la aguja (diâmetro de 0.70mm a 0.80mm), de la grosor del hilo (Título 40 = ~0.38mm) y de la estrutura de las tramas del tejido / tela. Tentar colocar microdetalhes debajo de 1mm causa acúmulo de hilo y perda de legibilidade.",
+    "beginnerExplanation": "Detalhamento de la matriz / diseño es o ajuste fino de cada minúsculo detalhe del bordado: acertar los olhos de un personagem, criar hilos de cabelo finos, hacer brilhos en las hojas y garantir que todo fique nítido sin criar una montanha grossa de hilo.",
     "howItWorks": [
       "1. El digitalizador analisa a complexidade de la arte original.",
       "2. Identifica los elementos essenciais que garantizan el reconhecimento del desenho.",
       "3. Elimina o funde detalhes minúsculos que virariam borroes en el tejido / tela.",
-      "4. Aplica puntadas con precisao en las áreas de maior impacto visual."
+      "4. Aplica puntadas con precisión en las áreas de maior impacto visual."
     ],
     "construction": [
       "Hierarquia visual de elementos principais y secundários",
@@ -387,9 +387,9 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
       "Adequación al relevo y textura del tejido / tela"
     ],
     "mainTypes": [
-      "Detalhamento Minimalista / Alto Contraste (Ideal Para marcas y uniformes)",
-      "Detalhamento Moderado (estándar Para ilustraciones y desenhos infantis)",
-      "Detalhamento Realista / Avanzado (Para retratos, pelagens y arte sacra en grandes formatos)"
+      "Detalhamento Minimalista / Alto Contraste",
+      "Detalhamento Moderado",
+      "Detalhamento Realista / Avanzado"
     ],
     "advantages": [
       "✔ Cria bordados nítidos, elegantes y de fácil reconhecimento visual",
@@ -397,7 +397,7 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
       "✔ Otimiza el tempo de máquina y evita quebras repetitivas de aguja"
     ],
     "limitations": [
-      "Bordados pequenos (abaixo de 5cm) exigem simplificación drástica del detalhamento Para manter a legibilidade."
+      "Bordados pequenos (debajo de 5cm) exigem simplificación drástica del detalhamento Para manter a legibilidade."
     ],
     "practicalExamples": [],
     "commonErrors": [
@@ -409,7 +409,7 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
       "si los detalhes de un rosto bordado ficarem irreconhecíveis, elimine as sombras intermediárias y mantenga solo los tracos de contorno principais."
     ],
     "whenToAdjust": "",
-    "dicaArtrelados": "En el bordado, simplificar no significa empobrecer! a las vezes, simplificar y limpar el desenho es justamente el segredo que permite que el bordado fique incrivelmente elegante, nítido y profissional.",
+    "dicaArtrelados": "En el bordado, simplificar no significa empobrecer! a las vezes, simplificar y limpar el diseño es justamente el segredo que permite que el bordado fique incrivelmente elegante, nítido y profissional.",
     "voceSabia": "A técnica de simplificación inteligente es a maior virtude de un grande digitalizador: saber el que NAEl bordar es tao importante quanto saber el que bordar!",
     "practicalExercise": "Borde el rostinho de un ursinho de pelúcia: Para el focinho y olhos, use una aguja más fina (65/9 o 70/10) y hilo título 60 Para los microdetalhes pretos. Veja Cómo los detalhes ganham una nitidez impressionante que encanta los clientes de ajuar!",
     "quickSummary": "Detalhamento de la matriz / diseño es o refinamento técnico y artístico de los microelementos del bordado Para garantir nitidez, expressividade y acabado superior.",
@@ -421,18 +421,18 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "d-034-direcao-de-preenchimento": {
-    "term": "Dirección de Relleno y Ángulo de Puntada (Fill Stitch Direction & Tatami Angle)",
+    "term": "Dirección de Relleno y Ángulo de Puntada",
     "level": "Principiante 🟢",
     "category": "Programación de Matrices",
     "grammarClass": "Locución nominal feminina.",
     "origin": "Del latín directio (direción) y del latín vulgar implere (encher, completar un espaco vazio).",
     "summary": "Orientación angular predominante en que las puntadas son distribuídos Para cobrir áreas sólidas de la matriz / diseño.",
-    "definition": "A direción de preenchimento es a orientación angular predominante en la qual as passagens de puntadas son distribuídas dentro de una área sólida o fechada de la matriz / diseño / diseño de bordado (Cómo en blocos de puntada tatami / relleno o preenchimentos complexos). Essa escolha define Para que lado as hilos seguirao (horizontal, vertical, diagonal o curvilínea), alterando drasticamente el reflexo de luz, a textura, a rigidez y as forcas de repuxamento Sobre el tejido / tela.",
-    "technicalDetails": "Configurada en graus en el software. en grandes áreas de preenchimento, ângulos diagonais a 45° o 135° sao preferidos porque distribuem as forcas de tración igualmente Entre los hilos de urdume y trama del tejido plano.",
-    "beginnerExplanation": "Direción de preenchimento es o ângulo en que las puntadas correm dentro de una área grande (Cómo un círculo, un coración o una letra grande). Mudar esse ângulo ajuda a evitar que el tejido / tela encolha y dá vida y movimento al desenho.",
+    "definition": "A direción de preenchimento es a orientación angular predominante en la cuál as passagens de puntadas son distribuídas dentro de una área sólida o fechada de la matriz / diseño / diseño de bordado (Cómo en bloques de puntada tatami / relleno o preenchimentos complexos). Essa escolha define Para que lado as hilos seguirao (horizontal, vertical, diagonal o curvilínea), alterando drasticamente el reflexo de luz, a textura, a rigidez y as forcas de repuxamento Sobre el tejido / tela.",
+    "technicalDetails": "Configurada en graus en el software. en grandes áreas de preenchimento, ângulos diagonais a 45° o 135° sao preferidos porque distribuem as forcas de tracción igualmente Entre los hilos de urdume y trama del tejido plano.",
+    "beginnerExplanation": "Direción de preenchimento es o ângulo en que las puntadas correm dentro de una área grande (Cómo un círculo, un coración o una letra grande). Mudar esse ângulo ajuda a evitar que el tejido / tela encolha y dá vida y movimiento al desenho.",
     "howItWorks": [
       "1. El programador define o ângulo de inclinación dentro del polígono vetorial.",
-      "2. El software traca as passagens de aguja paralelas a esse eixo.",
+      "2. El software traca as passagens de aguja paralelas a esse eje.",
       "3. A hilo de poliéster reflete a iluminación ambiente según a orientación de las fibras.",
       "4. Dois objetos vizinhos con direciones opostas criam contraste nítido de planos."
     ],
@@ -443,14 +443,14 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
       "compensación de tirantez (pull compensation) paralela al ângulo"
     ],
     "mainTypes": [
-      "Preenchimento Diagonal (45° / 135° - estándar universal más estável)",
+      "Preenchimento Diagonal",
       "Preenchimento Horizontal (0° / 180°)",
       "Preenchimento Vertical (90° / 270°)",
-      "Preenchimento con Direciones Cruzadas (Para criar efeito de xadrez o textura de tejido / tela)"
+      "Preenchimento con Direciones Cruzadas"
     ],
     "advantages": [
       "✔ Cria contrastes visuais ricos y separación de planos con a misma cor de hilo",
-      "✔ Evita deformaciones excessivas al equilibrar a tración en el tejido / tela",
+      "✔ Evita deformaciones excessivas al equilibrar a tracción en el tejido / tela",
       "✔ Proporciona acabado liso y homogeneo con brilho sedoso"
     ],
     "limitations": [
@@ -458,8 +458,8 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     ],
     "practicalExamples": [],
     "commonErrors": [
-      "❌ Utilizar exatamente a misma direción en todos los preenchimentos de la matriz / diseño, deixando el desenho sin dinamismo.",
-      "❌ Escolher a direción sin observar el sentido de la forma orgânica (ex: bordar una folha en la transversal pura).",
+      "❌ Utilizar exatamente a misma direción en todos los preenchimentos de la matriz / diseño, deixando el diseño sin dinamismo.",
+      "❌ Escolher a direción sin observar el sentido de la forma orgânica (ex: bordar una hoja en la transversal pura).",
       "❌ Alinhar el preenchimento en la horizontal exata Sobre tejidos de punto muy elásticas."
     ],
     "troubleshootingTips": [
@@ -468,7 +468,7 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     "whenToAdjust": "",
     "dicaArtrelados": "no pense en la direción del puntada solo Cómo una simples seta: pense nela Cómo o 'sentido' del hilo dentro del desenho! cuando voce aprende a enxergar y direcionar a hilo, suas matrices / diseños ganham vida y volume!",
     "voceSabia": "Voce pode bordar una bandeira xadrez usando solo una única cor de hilo branca: basta programar los quadrados alternando a direción de preenchimento Entre 45° y 135°!",
-    "practicalExercise": "en un coración dividido al meio Por una hilo central, preencha el lado esquerdo con puntadas a 45° y el lado direito con puntadas a 135°. Borde en tejido / tela vermelho: veja Cómo el coración parece ter duas metades tridimensionais que si encontram en el meio Por el jogo de luz!",
+    "practicalExercise": "en un coración dividido al meio Por una hilo central, preencha el lado esquerdo con puntadas a 45° y el lado direito con puntadas a 135°. Borde en tejido / tela vermelho: veja Cómo el coración parece ter dos metades tridimensionais que si encontram en el meio Por el jogo de luz!",
     "quickSummary": "Direción de preenchimento es a inclinación angular aplicada a las puntadas de cobertura de grandes áreas Para otimizar estabilidade y reflexao de luz.",
     "relatedTerms": [
       "Direción del puntada",
@@ -478,35 +478,35 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "d-035-distancia-de-salto": {
-    "term": "Distancia de Salto y Umbral de Corte (Jump Distance & Trim Threshold)",
+    "term": "Distancia de Salto y Umbral de Corte",
     "level": "fundamental 🟢",
     "category": "Programación de Matrices",
     "grammarClass": "Locución nominal feminina.",
-    "origin": "Del latín distantia (afastamento) y del germânico salti (salto, pulo mecânico sin perfuración de aguja). Comando mecânico primário de los formatos industriais de bordado.",
+    "origin": "Del latín distantia (afastamento) y del germânico salti (salto, pulo mecánico sin perfuración de aguja). Comando mecánico primário de los formatos industriais de bordado.",
     "summary": "Espaco percorrido Por el bastidor Entre dois puntadas sin formación de costura en aquel trecho.",
-    "definition": "A distancia de salto (Jump Distance) é o espaco percorrido Por la máquina Entre dois puntadas o regioes del bordado durante un movimento de salto, sin realizar costura contínua en aquel trecho. De maneira simples: é a distancia que a aguja precisa 'atravessar' cuando sai de donde terminou un objeto y vai até onde comecará o próximo.",
-    "technicalDetails": "En los softwares y máquinas, existe un parâmetro limite de corte automático (geralmente calibrado Entre 2.0mm y 5.0mm). Saltos menores que esse valor son realizados en movimento contínuo (deixando hilo esticado Para limpeza); saltos maiores acionam el comando mecânico de remate / puntada de seguridad y corte de hilo.",
-    "beginnerExplanation": "Distancia de salto es a distancia que el bastidor percorre de un puntada a outro sin a aguja costurar (cuando a máquina pula de una letra Para la próxima). si el pulo for maior que a distancia configurada, a máquina aciona el cortador de hilo automático.",
+    "definition": "A distancia de salto (Jump Distance) é o espaco percorrido Por la máquina Entre dois puntadas o regiones del bordado durante un movimiento de salto, sin realizar costura contínua en aquel trecho. De maneira simples: é a distancia que a aguja debe 'atravessar' cuando sai de donde terminou un objeto y va até onde comecará o próximo.",
+    "technicalDetails": "En los softwares y máquinas, existe un parámetro limite de corte automático (geralmente calibrado Entre 2.0mm y 5.0mm). Saltos menores que esse valor son realizados en movimiento contínuo (deixando hilo esticado Para limpeza); saltos maiores acionam el comando mecánico de remate / puntada de seguridad y corte de hilo.",
+    "beginnerExplanation": "Distancia de salto es a distancia que el bastidor percorre de un puntada a outro sin a aguja costurar (cuando la máquina pula de una letra Para la próxima). si el pulo sea maior que a distancia configurada, la máquina aciona el cortador de hilo automático.",
     "howItWorks": [
-      "1. A máquina conclui un objeto en el puntada de salida.",
+      "1. La máquina conclui un objeto en el puntada de salida.",
       "2. Avalia si a distancia atEs el próximo objeto ultrapassa el limite de corte configurado.",
-      "3. si for menor: a aguja sobe y el bastidor si desloca diretamente deixando el hilo esticado.",
-      "4. si for maior: a máquina aciona el cortador, arremata y desloca-si con a hilo cortada."
+      "3. si sea menor: a aguja sobe y el bastidor si desloca diretamente deixando el hilo esticado.",
+      "4. si sea maior: la máquina aciona el cortador, arremata y se desplaza con a hilo cortada."
     ],
     "construction": [
       "Vetor de desplazamiento livre del pantógrafo",
-      "puntada de partida (salida del objeto anterior)",
-      "puntada de chegada (entrada del próximo objeto)",
+      "puntada de partida",
+      "puntada de chegada",
       "Comutación Entre salto livre y corte automático"
     ],
     "mainTypes": [
-      "Salto Curto con Conexao (1mm a 3mm - no exige corte)",
-      "Salto Longo con Corte Automático (Acima de 4mm a 7mm)",
-      "Salto Oculto / puntada de Viagem (Caminho costurado Por baixo de outros objetos)"
+      "Salto Curto con Conexao",
+      "Salto Longo con Corte Automático",
+      "Salto Oculto / puntada de Viagem"
     ],
     "advantages": [
       "✔ Saltos curtos bem planejados eliminam cortes desnecessários y aceleram a produción",
-      "✔ Otimiza el movimento cinemático del pantógrafo",
+      "✔ Otimiza el movimiento cinemático del pantógrafo",
       "✔ Evita el desgaste prematuro de la navalha de corte de la máquina"
     ],
     "limitations": [
@@ -519,10 +519,10 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
       "❌ Ignorar saltos longos que cruzam áreas abertas del bordado."
     ],
     "troubleshootingTips": [
-      "si as letras estiverem conectadas Por hilos feios que voce precisa cortar en la tesourinha, reduza el valor del 'Comprimento de Salto Para Corte' en el software Para 2.0mm."
+      "si as letras estiverem conectadas Por hilos feios que voce debe cortar en la tesourinha, reduza el valor del 'Comprimento de Salto Para Corte' en el software Para 2.0mm."
     ],
     "whenToAdjust": "",
-    "dicaArtrelados": "un bom bordado no depende solo de las puntadas que aparecem en el tejido / tela, pero también de los caminhos que a máquina percorre Entre eles! Procure saltos longos en la simulación Cómo quem procura estradas desnecessárias en un mapa: si puder encurtar a rota, seu bordado ficará más limpo y muy más rápido!",
+    "dicaArtrelados": "un bom bordado no depende solo de las puntadas que aparecem en el tejido / tela, pero también de los trayectorias que la máquina percorre Entre eles! Procure saltos longos en la simulación Cómo quem procura estradas desnecessárias en un mapa: si puder encurtar a rota, seu bordado ficará más limpo y muy más rápido!",
     "voceSabia": "Cada comando de corte automático de hilo en una máquina industrial leva de 2 a 4 segundos: en una matriz / diseño con 50 cortes desnecessários, voce perde más de 3 minutos Por pieza solo cortando hilo!",
     "practicalExercise": "En el painel de la sua máquina o en el software, verifique el ajuste de corte Por salto (geralmente regulado en 2.0mm a 5.0mm). Borde una frase con letras cursivas: veja Cómo en los saltos pequenos ela passa direto y en los saltos maiores ela corta a hilo automaticamente.",
     "quickSummary": "Distancia de salto es o desplazamiento del bastidor Entre objetos sin perfuraciones, gatilho Para el acionamento del cortador de hilo automático.",
@@ -534,19 +534,19 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "d-036-diagrama-de-pontos": {
-    "term": "Diagrama de Puntadas y Mapa de Perforaciones (Stitch Plan & Penetration Map)",
+    "term": "Diagrama de Puntadas y Mapa de Perforaciones",
     "level": "Intermedio 🟡",
     "category": "Softwares y Formatos",
     "grammarClass": "Locución nominal masculina.",
-    "origin": "Del grego diagramma (figura desenhada, esquema gráfico composto Por hilos, de diagraphein, marcar con hilos) y de punctum (puntada).",
-    "summary": "Representación gráfica o esquemática que permite visualizar a estrutura interna, trajetórias y ordem de las puntadas de la matriz / diseño.",
-    "definition": "El diagrama de puntadas es a representación gráfica y estrutural utilizada Para visualizar, analisar y compreender a organización de cada puntada individual que compoe una matriz / diseño / diseño de bordado. Enquanto a imagem simulada en la tela mostra Cómo el bordado deverá parecer, o diagrama de puntadas revela a sua 'planta baixa': a posición de cada furo de aguja, as trajetórias de desplazamiento, a sequencia de objetos y las puntadas de entrada y salida.",
+    "origin": "Del grego diagramma (figura desenhada, esquema gráfico compuesto Por hilos, de diagraphein, marcar con hilos) y de punctum (puntada).",
+    "summary": "Representación gráqueda o esquemática que permite visualizar a estrutura interna, trajetórias y ordem de las puntadas de la matriz / diseño.",
+    "definition": "El diagrama de puntadas es a representación gráqueda y estrutural utilizada Para visualizar, analisar y compreender a organización de cada puntada individual que compoe una matriz / diseño / diseño de bordado. Enquanto a imagem simulada en la tela mostra Cómo el bordado deverá parecer, o diagrama de puntadas revela a sua 'planta baixa': a posición de cada furo de aguja, as trajetórias de desplazamiento, a sequencia de objetos y las puntadas de entrada y salida.",
     "technicalDetails": "Visualizado en los softwares al desativar el modo 3D / TrueView y ativar a visualización en grade con nós de puntada (Needle Points / Wireframe Mode), permitindo leitura técnica de penetraciones y trajetórias de viagem.",
-    "beginnerExplanation": "Diagrama de puntadas es o mapa técnico del bordado en la tela del computador: voce consegue ver cada furinho de aguja, as hilos de costura Por baixo (underlay) y até onde a máquina vai pular o cortar a hilo Antes de colocar el tejido / tela en el bastidor.",
+    "beginnerExplanation": "Diagrama de puntadas es o mapa técnico del bordado en la tela del computadora: voce consegue ver cada furinho de aguja, as hilos de costura Por baixo (underlay) y até onde la máquina va pular o cortar a hilo Antes de colocar el tejido / tela en el bastidor.",
     "howItWorks": [
       "1. El operador abre a matriz / diseño en el software y desativa a visualización de hilo realista (3D).",
       "2. El diagrama expoe a tejido de punto real de puntadas y a densidade de furos.",
-      "3. Utiliza-si a cenefa de reprodución (Stitch Player) Para simular a costura passo a passo.",
+      "3. Utiliza-si a cenefa de reprodución (Stitch Player) Para simular a costura paso a paso.",
       "4. Identificam-si puntadas sobrepostos desnecessários o falhas de percurso."
     ],
     "construction": [
@@ -556,9 +556,9 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
       "Indicadores visuais de paradas y cortes"
     ],
     "mainTypes": [
-      "Visualización en Aramado / Wireframe (Mostra contornos y hilos de direción)",
-      "Visualización puntada a puntada con Nós (Destaca cada furo de aguja)",
-      "Diagrama de Ordem de Produción (Ficha Técnica impressa con dados y cores)"
+      "Visualización en Aramado / Wireframe",
+      "Visualización puntada a puntada con Nós",
+      "Diagrama de Ordem de Produción"
     ],
     "advantages": [
       "✔ Permite enxergar a verdadeira estrutura interna del bordado além de la ilusao de la tela",
@@ -572,13 +572,13 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     "commonErrors": [
       "❌ Olhar solo Para la imagem 3D simulada y Nunca inspecionar el diagrama de puntadas.",
       "❌ Confundir el diagrama con el archivo final de la máquina.",
-      "❌ no realizar a simulación virtual passo a passo Antes de carregar el archivo en la máquina."
+      "❌ no realizar a simulación virtual paso a paso Antes de carregar el archivo en la máquina."
     ],
     "troubleshootingTips": [
-      "Use el reprodutor de puntadas (Stitch Player) en la velocidade máxima Para conferir si a ordem de bordado está lógica Antes de colocar a hilo en la máquina."
+      "Use el reprodutor de puntadas (Stitch Player) en la velocidad máxima Para conferir si a ordem de bordado está lógica Antes de colocar a hilo en la máquina."
     ],
     "whenToAdjust": "",
-    "dicaArtrelados": "no olhe una matriz / diseño solo Cómo una imagem: aprenda a enxergá-la Cómo un caminho hecho de puntadas! cuando voce comeca a observar donde comeca → Por donde passa → onde termina → Para donde vai después, voce passa a entender Cómo a máquina pensa!",
+    "dicaArtrelados": "no olhe una matriz / diseño solo Cómo una imagem: aprenda a enxergá-la Cómo un trayectoria hecho de puntadas! cuando usted comienza a observar donde comienza → Por donde passa → onde termina → Para donde va después, voce passa a entender Cómo la máquina pensa!",
     "voceSabia": "A imagem 3D del software es Cómo a foto de una casa pronta; o diagrama de puntadas es a planta baixa arquitetonica con todas as vigas y encanamentos!",
     "practicalExercise": "Abra una matriz / diseño en el software y ative a visualiza��ao en 'Modo puntadas' o 'Modo 1:1' (desativando el efeito 3D realista TrueView). Use a cenefa de rolagem de la simulación Para ver a aguja descendo puntada Por puntada: analise Cómo as camadas de baixo son construídas Antes de las camadas de cima!",
     "quickSummary": "Diagrama de puntadas es a visualización analítica y esquemática de todas as penetraciones de aguja y comandos mecânicos de la matriz / diseño.",
@@ -590,29 +590,29 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "d-037-dimensao-da-matriz": {
-    "term": "Dimensión de la Matriz y Escalamiento Seguro (Design Dimensions & Rescaling Limits)",
+    "term": "Dimensión de la Matriz y Escalamiento Seguro",
     "level": "fundamental 🟢",
     "category": "Terminologia Geral",
     "grammarClass": "Locución nominal feminina.",
     "origin": "Del latín dimensio, -onis (ación de medir, extensao mensurável, de dimetiri) y de matrix (molde gerador).",
-    "summary": "Medidas físicas reais de largura y altura que el desenho ocupará en el tejido / tela cuando bordado.",
-    "definition": "A dimensao de la matriz / diseño corresponde a las medidas físicas que indicam el espaco que el desenho bordado ocupará en el tejido / tela, expressas en largura y altura (normalmente en milímetros o centímetros, Cómo 100 x 80 mm o 10 x 8 cm). É fundamental compreender que a dimensao de la matriz / diseño representa el tamanho real del bordado, que debe ser totalmente compatível con a área útil del bastidor y el espaco disponível en la pieza física.",
+    "summary": "Medidas físicas reais de ancho y altura que el diseño ocupará en el tejido / tela cuando bordado.",
+    "definition": "A dimensao de la matriz / diseño corresponde a las medidas físicas que indicam el espaco que el diseño bordado ocupará en el tejido / tela, expressas en ancho y altura (normalmente en milímetros o centímetros, Cómo 100 x 80 mm o 10 x 8 cm). É fundamental compreender que a dimensao de la matriz / diseño representa el tamanho real del bordado, que debe ser totalmente compatível con a área útil del bastidor y el espaco disponível en la pieza física.",
     "technicalDetails": "Diferencia-si del tamanho en Kilobytes del archivo digital. El redimensionamento de una matriz / diseño en más de 10% a 15% exige recálculo automático de puntadas Por el software Para no comprometer a densidade original.",
-    "beginnerExplanation": "Dimensao de la matriz / diseño es a altura y a largura exatas del desenho en milímetros o centímetros (Por ejemplo: 10cm x 10cm). É importantíssimo conferir a dimensao Para ter certeza de que el desenho vai caber dentro de su bastidor y en el peito de la remera!",
+    "beginnerExplanation": "Dimensao de la matriz / diseño es a altura y a ancho exatas del desenho en milímetros o centímetros (Por ejemplo: 10cm x 10cm). É importantíssimo conferir a dimensao Para ter certeza de que el diseño va caber dentro de su bastidor y en el peito de la remera!",
     "howItWorks": [
       "1. A bordadora confere as medidas en milímetros en el painel o software.",
       "2. Mede con una fita métrica el local exato de la pieza (ex: bolso, toalla, peito).",
       "3. Seleciona el bastidor adequado garantindo a folga de la distancia de seguridad."
     ],
     "construction": [
-      "Largura física horizontal (X en mm)",
-      "Altura física vertical (Y en mm)",
-      "Área delimitadora retangular (Bounding Box)",
+      "Largura física horizontal",
+      "Altura física vertical",
+      "Área delimitadora retangular",
       "Área efetiva de cobertura Por puntadas"
     ],
     "mainTypes": [
-      "Dimensao Nominal (Medida externa máxima de largura x altura)",
-      "Área Efetiva de Bordado (Superfície real coberta Por las puntadas)",
+      "Dimensao Nominal",
+      "Área Efetiva de Bordado",
       "Dimensao Proporcional Redimensionada"
     ],
     "advantages": [
@@ -633,10 +633,10 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
       "si precisar mudar el tamanho de una matriz / diseño pronta en más de 20%, solicite al digitalizador que gere una nova versao recalculada Para la nova escala."
     ],
     "whenToAdjust": "",
-    "dicaArtrelados": "Antes de bordar, meca duas vezes: a matriz / diseño y el espaco disponível en la pieza! Pense siempre en el trio: 1. Tamanho de la matriz / diseño; 2. Capacidade del bastidor; 3. Espaco disponível en la pieza. cuando los tres están en harmonia, seu trabalho comeca con total seguridad!",
-    "voceSabia": "Duas matrices / diseños con exatamente a misma dimensao de 10x10cm pueden ter 5.000 puntadas (si for un traco leve) o 25.000 puntadas (si for un escudo totalmente preenchido en tatami)!",
-    "practicalExercise": "Antes de enviar un archivo Para la máquina, meca a área útil del bolso o del peito de la pieza con una fita métrica. Compare con a dimensao informada en el painel de la máquina: certifique-si de que el desenho deixa Por el menos 15mm de folga livre en todos los lados.",
-    "quickSummary": "Dimensao de la matriz / diseño es a medida física real (largura y altura) del projeto de bordado, essencial Para enquadramento en el bastidor y proporción en la pieza.",
+    "dicaArtrelados": "Antes de bordar, meca dos vezes: a matriz / diseño y el espaco disponível en la pieza! Pense siempre en el trio: 1. Tamanho de la matriz / diseño; 2. Capacidade del bastidor; 3. Espaco disponível en la pieza. cuando los tres están en harmonia, seu trabalho comienza con total seguridad!",
+    "voceSabia": "Duas matrices / diseños con exatamente a misma dimensao de 10x10cm pueden ter 5.000 puntadas (si sea un traco leve) o 25.000 puntadas (si sea un escudo totalmente preenchido en tatami)!",
+    "practicalExercise": "Antes de enviar un archivo Para la máquina, meca a área útil del bolso o del peito de la pieza con una fita métrica. Compare con a dimensao informada en el painel de la máquina: certifique-si de que el diseño deixa Por el menos 15mm de folga livre en todos los lados.",
+    "quickSummary": "Dimensao de la matriz / diseño es a medida física real (ancho y altura) del projeto de bordado, essencial Para enquadramento en el bastidor y proporción en la pieza.",
     "relatedTerms": [
       "Área Útil del Bastidor",
       "bastidor",
@@ -693,31 +693,31 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "d-039-deteccao-de-cores": {
-    "term": "Detección Automática de Colores y Asignación de Agujas (Color Detection & Thread Match)",
+    "term": "Detección Automática de Colores y Asignación de Agujas",
     "level": "Principiante 🟢",
     "category": "Softwares y Formatos",
     "grammarClass": "Locución nominal feminina.",
     "origin": "Del latín detectio, -onis (ación de descobrir, desvendar, de detegere, tirar el teto/revelar) y del latín color, -oris (cor, matiz óptico).",
     "summary": "Recurso del software Para identificar, agrupar y separar áreas cromáticas de una imagem durante a preparación.",
-    "definition": "A detección de cores es o processo Por el qual un software de bordado identifica y analisa as diferentes tonalidades presentes en una imagem gráfica y utiliza essas informaciones Para separar regioes, agrupar cores semelhantes (redución de cores) y gerar propostas de objetos de bordado. É una etapa preliminar fundamental en la digitalización (ponchado) assistida y automática.",
+    "definition": "A detección de cores es o processo Por el cuál un software de bordado identifica y analisa as diferentes tonalidades presentes en una imagem gráqueda y utiliza essas informaciones Para separar regiones, agrupar cores semelhantes (redución de cores) y gerar propostas de objetos de bordado. É una etapa preliminar fundamental en la digitalización (ponchado) assistida y automática.",
     "technicalDetails": "Analisa los valores RGB de los pixels. en imagens con compresión JPG o degrades suaves, o algoritmo puede detectar centenas de variaciones de una misma cor devido al antialiasing, exigindo redución prévia Para una paleta controlada de 3 a 8 cores de hilo.",
-    "beginnerExplanation": "Detección de cores es a ferramenta del software que le una imagem y separa automaticamente quais son as cores presentes nela. Ajuda a definir a ordem de cambio de hilo en la máquina sin que voce precise adivinhar as cores una a una.",
+    "beginnerExplanation": "Detección de cores es a ferramenta del software que le una imagem y separa automaticamente cuáles son as cores presentes nela. Ajuda a definir a ordem de cambio de hilo en la máquina sin que voce precise adivinhar as cores una a una.",
     "howItWorks": [
       "1. A imagem es importada y el software analisa a quantidade de cores en los pixels.",
       "2. El usuário define el número máximo de cores reais de hilo desejadas.",
-      "3. El software agrupa tons vizinhos y delimita los contornos de cada bloco de cor.",
-      "4. Cada bloco de cor vira un objeto o parada de cambio de hilo en la máquina."
+      "3. El software agrupa tons vizinhos y delimita los contornos de cada bloque de cor.",
+      "4. Cada bloque de cor vira un objeto o parada de cambio de hilo en la máquina."
     ],
     "construction": [
       "Algoritmo de leitura RGB / CMYK",
-      "Tabela de redución de cores (Color Reduction Table)",
+      "Tabela de redución de cores",
       "Agrupamento Por tolerancia cromática",
       "Mapeamento con catálogos de hilos de bordar"
     ],
     "mainTypes": [
-      "Detección Automática Por Tolerancia (Varredura de pixels)",
-      "Redución Manual de Cores (Agrupamento orientado Por el usuário)",
-      "Mapeamento Automático con Paletas de hilos Comerciais (Madeira, Isacord, Lumina, etc.)"
+      "Detección Automática Por Tolerancia",
+      "Redución Manual de Cores",
+      "Mapeamento Automático con Paletas de hilos Comerciais"
     ],
     "advantages": [
       "✔ Agiliza imensamente a separación de camadas en desenhos multicoloridos",
@@ -731,14 +731,14 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     "commonErrors": [
       "❌ Deixar el software detectar 30 variaciones de azul Para una imagem simples, gerando 30 cambios de hilo en la máquina.",
       "❌ Confundir a cor mostrada en el monitor con a tonalidade física exata del cone de hilo.",
-      "❌ Ignorar a ordem y sequencia de las cambios de color, fazendo a máquina trocar Para la misma hilo várias vezes."
+      "❌ Ignorar a ordem y sequencia de las cambios de color, fazendo la máquina trocar Para la misma hilo várias vezes."
     ],
     "troubleshootingTips": [
       "si a matriz / diseño estiver exigindo muchas cambios de hilo desnecessárias, use a ferramenta de 'Reordenar Por Cores' (Color Sort) en el software Para agrupar todas as partes de la misma cor."
     ],
     "whenToAdjust": "",
-    "dicaArtrelados": "En el bordado eletronico, nem toda cor que existe en la imagem precisa virar un cone de hilo! Antes de aceitar a detección automática, pergunte: 'Quais cores realmente son necessárias Para reconhecer el desenho?' El segredo es simplificar con inteligencia!",
-    "voceSabia": "una foto de maca pode conter más de 2.000 tons diferentes de vermelho en la tela del computador, pero Para bordar con perfeición en el atelie voce precisa solo de 2 o 3 tons de hilo bem escolhidos!",
+    "dicaArtrelados": "En el bordado eletronico, nem toda cor que existe en la imagem debe virar un cone de hilo! Antes de aceitar a detección automática, pergunte: 'Quais cores realmente son necessárias Para reconhecer el diseño?' El segredo es simplificar con inteligencia!",
+    "voceSabia": "una foto de maca pode conter más de 2.000 tons diferentes de vermelho en la tela del computadora, pero Para bordar con perfeición en el atelie voce debe solo de 2 o 3 tons de hilo bem escolhidos!",
     "practicalExercise": "Importe una imagem con 4 cores bem contrastantes Para el seu software. Use a ferramenta de redución y detección de cores Para limitar a paleta exatamente a 4 cores: repare Cómo el programa remove automaticamente pequenas manchas y ruídos de tons intermediários.",
     "quickSummary": "Detección de cores es o recurso computacional de identificación y separación cromática de elementos visuais Para estruturación de las paradas de máquina.",
     "relatedTerms": [
@@ -749,19 +749,19 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "d-040-distorcao-do-bordado": {
-    "term": "Distorsión del Bordado y Efecto Push-Pull (Embroidery Distortion & Fabric Pull)",
+    "term": "Distorsión del Bordado y Efecto Push-Pull",
     "level": "Intermedio 🟡",
     "category": "Solución de Problemas",
     "grammarClass": "Locución nominal feminina.",
     "origin": "Del latín distortio, -onis (ación de torcer, deformar a forma original, de distorquere, torcer Para los lados) y del árabe al-burdā (bordado).",
     "summary": "Alteración de forma, proporción o alinhamento observada en el tejido / tela en relación al desenho original previsto en la matriz / diseño.",
-    "definition": "A distorción del bordado ocurre cuando el desenho executado en el tejido / tela apresenta forma, proporciones o encaixes diferentes de aquellos visualizados en el computador (Por ejemplo: un círculo que vira una elipse oval, letras inclinadas o vaos Entre el fundo y el contorno). A distorción resulta del combate físico Entre a tración del hilo, a estabilidade de la entretela, o bastidoramento y a elasticidade natural del tejido / tela.",
-    "technicalDetails": "Relaciona-si con el efeito mecânico Push & Pull: os puntadas puxam el tejido / tela en el sentido del ângulo del hilo (Pull) y expandem as laterais perpendiculares (Push). cuando a estabilización es insuficiente, a distorción torna-si visível.",
-    "beginnerExplanation": "Distorción del bordado es cuando el desenho sai deformado en el tejido / tela: un círculo perfeito que vira un ovo achatado, un quadrado que vira losango o contornos que saem fora de la figura. Isso sucede porque a hilo puxa el tejido / tela enquanto costura!",
+    "definition": "A distorción del bordado ocurre cuando el diseño ejecutado en el tejido / tela apresenta forma, proporciones o encaixes diferentes de aquellos visualizados en el computadora (Por ejemplo: un círculo que vira una elipse oval, letras inclinadas o vaos Entre el fundo y el contorno). A distorción resulta del combate físico Entre a tracción del hilo, a estabilidade de la entretela, o bastidoramento y a elasticidade natural del tejido / tela.",
+    "technicalDetails": "Relaciona-si con el efeito mecánico Push & Pull: os puntadas puxam el tejido / tela en el sentido del ângulo del hilo (Pull) y expandem as laterais perpendiculares (Push). cuando a estabilización es insuficiente, a distorción torna-si visível.",
+    "beginnerExplanation": "Distorción del bordado es cuando el diseño sai deformado en el tejido / tela: un círculo perfeito que vira un ovo achatado, un quadrado que vira losango o contornos que saem fora de la figura. Isso sucede porque a hilo puxa el tejido / tela mientras costura!",
     "howItWorks": [
-      "1. A aguja perfora el tejido / tela y a hilo exerce tración al travar el nó.",
+      "1. A aguja perfora el tejido / tela y a hilo exerce tracción al travar el nó.",
       "2. Milhares de puntadas acumulam forca tirando as fibras texteis Para el centro.",
-      "3. si a entretela no segurar el tejido / tela o el bastidor estiver flojo, a forma geométrica si deforma.",
+      "3. si a entretela no sujetar el tejido / tela o el bastidor estiver flojo, a forma geométrica si deforma.",
       "4. al sair del bastidor, o tejido / tela relaxa evidenciando a distorción."
     ],
     "construction": [
@@ -771,12 +771,12 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
       "Movimentación del tejido / tela dentro del aro del bastidor"
     ],
     "mainTypes": [
-      "Distorción Por Repuxamento (Encolhimento paralelo al puntada)",
-      "Distorción Por Bastidoramento Excessivo (tejido / tela esticado artificialmente en el aro)",
-      "Distorción Por desplazamiento de Registro (Contorno fora del preenchimento)"
+      "Distorción Por Repuxamento",
+      "Distorción Por Bastidoramento Excessivo",
+      "Distorción Por desplazamiento de Registro"
     ],
     "advantages": [
-      "✔ Compreender a distorción permite aplicar compensaciones precisas en la digitalización (ponchado)"
+      "✔ Compreender a distorción permite aplicar compensaciones precisas en la digitalización"
     ],
     "limitations": [
       "Tentar corrigir distorciones solo aumentando a densidade piora a deformación."
@@ -792,7 +792,7 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     ],
     "whenToAdjust": "",
     "dicaArtrelados": "cuando el bordado si distorcer, no procure un culpado: procure a causa! Compare a matriz / diseño con el bordado pronto y veja donde a forma comecou a mudar. Lembre-si de la regra de ouro: a matriz / diseño es criada en la tela, pero el bordado sucede en el tejido / tela! Observe siempre los dois!",
-    "voceSabia": "si voce esticar demais una remera de tejido de punto al fechar el bastidor, ela parecerá linda enquanto estiver presa; pero así que voce abrir el aro, a tejido de punto encolherá de volta y el bordado ficará totalmente enrugado!",
+    "voceSabia": "si voce esticar demais una remera de tejido de punto al fechar el bastidor, ela parecerá linda mientras estiver presa; pero así que voce abrir el aro, a tejido de punto encolherá de volta y el bordado ficará totalmente enrugado!",
     "practicalExercise": "Borde un círculo perfeito de 5cm en una tejido de punto con entretela fraca y floja en el bastidor. al tirar de la máquina, meca el círculo en la vertical y en la horizontal con una régua: veja Cómo ele ficou menor en el sentido de las puntadas (encolheu) y maior en el sentido oposto (esticou). Esse es o efeito clássico de distorción!",
     "quickSummary": "Distorción del bordado es a alteración geométrica indesejada de la forma original causada Por las forcas de repuxamento y compresión del hilo Sobre el tejido / tela.",
     "relatedTerms": [
@@ -829,23 +829,23 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     ],
     "commonErrors": [
       "Intentar bordar letras de menos de 4 mm con hilo estándar 40wt y aguja gruesa 90/14, empastando las letras.",
-      "Bordar Sobre toallas o telas con por el sin film hidrosoluble, haciendo que las letras si hundan y queden invisibles.",
+      "Bordar Sobre toallas o telas con Por el sin film hidrosoluble, haciendo que las letras si hundan y queden invisibles.",
       "Falta de compensación de tirantez, haciendo que las letras finas si adelgacen hasta desaparecer."
     ],
     "troubleshootingTips": [
-      "Para letras menores a 5 mm de altura, cambia siempre a hilo fino calibre 60wt y aguja 65/9: la nitidez será fotográfica.",
+      "Para letras menores a 5 mm de altura, cambia siempre a hilo fino calibre 60wt y aguja 65/9: la nitidez será fotográqueda.",
       "Usa siempre película plástica hidrosoluble Sobre telas con textura (piqué, toalla, terciopelo) Para que el bordado flote nítido Por encima.",
       "Aumenta la compensación de tirantez a 0,40 mm en letras pequeñas Para que no queden raquíticas."
     ],
     "whenToAdjust": "Optimiza la definición seleccionando hilos finos cada vez que un cliente te pida textos corporativos pequeños o detalles intrincados.",
-    "dicaArtrelados": "El combo secreto de la micro-letra Artrelados: Si te encargan un uniforme con letras chiquitas de 4 milímetros, no sufras: pon en esa aguja un cono de hilo fino calibre 60wt y pon una aguja finita 65/9. Las letras saldrán tan nítidas, afiladas y claritas que parecerán escritas con una pluma estilográfica de oro. ¡Tus clientes no podrán creer la calidad!",
+    "dicaArtrelados": "El combo secreto de la micro-letra Artrelados: Si te encargan un uniforme con letras chiquitas de 4 milímetros, no sufras: pon en esa aguja un cono de hilo fino calibre 60wt y pon una aguja finita 65/9. Las letras saldrán tan nítidas, afiladas y claritas que parecerán escritas con una pluma estilográqueda de oro. ¡Tus clientes no podrán creer la calidad!",
     "voceSabia": "¿Sabías que los billetes de banco bordados que si fabrican en Suiza Cómo obras de arte utilizan hilos microscópicos calibre 100wt con agujas número 55, logrando bordar microtextos de seguridad invisibles a simple vista que solo si leen con microscopio?",
     "practicalExercise": "Borda una palabra de 5 mm de alto con hilo estándar 40wt y aguja 75/11. Luego borda la misma palabra al lado con hilo fino 60wt y aguja 65/9: compara ambas con una lupa y descubre la asombrosa nitidez que aporta el hilo fino.",
     "quickSummary": "Claridad y nitidez visual con que si aprecian los detalles finos y letras gracias a la correcta combinación de aguja y hilo.",
     "summary": "Claridad y nitidez visual con que si aprecian los detalles finos y letras gracias a la correcta combinação de aguja y hilo.",
     "relatedTerms": [
       "Hilo de Poliéster Trilobal",
-      "Compensación de Tirantez (Pull Compensation)",
+      "Compensación de Tirantez",
       "Película Hidrosoluble Superior",
       "Defectos de Bordado y Diagnóstico de Fallas"
     ]
@@ -893,7 +893,7 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     "summary": "Alteración y fruncimiento no deseado de la tela Por exceso de tensión del hilo o estabilización inadecuada.",
     "relatedTerms": [
       "Compensación de Empuje y Tirantez",
-      "entretela de Cortar (Cut-away)",
+      "entretela de Cortar",
       "Densidad de Puntada y Espaciado Milimétrico",
       "Defectos de Bordado y Diagnóstico de Fallas"
     ]
@@ -947,15 +947,15 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "d-044-discos-de-tensao": {
-    "term": "Discos de Tensión Mecánica (Thread Tension Discs)",
+    "term": "Discos de Tensión Mecánica",
     "level": "fundamental 🟢",
     "category": "Componentes de la Máquina",
-    "grammarClass": "Sustantivo masculino composto.",
-    "origin": "Del latín discus (disco plano circular) y tensio, -onis (ato de esticar, esforco de tración). Mecanismo de frenagem mecânica Por atrito contínuo desenvolvido en la primeira Revolución Industrial textil.",
+    "grammarClass": "Sustantivo masculino compuesto.",
+    "origin": "Del latín discus (disco plano circular) y tensio, -onis (ato de esticar, esforco de tracción). Mecanismo de frenagem Mecánica Por atrito contínuo desarrollado en la primeira Revolución Industrial textil.",
     "summary": "Par de pratos concavos metálicos prensados Por mola helicoidal que aplica resistencia y calibra el fluxo del hilo superior.",
-    "definition": "Los discos de tensao son dois pratos metálicos espelhados, de formato concavo-convexo montados face a face Sobre un eixo en el cabezal de la máquina de bordar. Pressionados Por una mola helicoidal calibrada Por un botao giratório micrométrico o solenoide eletronico, eles exercem una forca de compresión controlada Sobre a hilo superior según ela desliza Entre eles, garantindo que el hilo chegue a la aguja con a resistencia exata Para la formación de puntadas firmes y sin lazadas.",
+    "definition": "Los discos de tensao son dois pratos metálicos espelhados, de formato concavo-convexo montados face a face Sobre un eje en el cabezal de la máquina de bordar. Pressionados Por una mola helicoidal calibrada Por un botao giratório micrométrico o solenoide eletronico, eles exercem una forca de compresión controlada Sobre a hilo superior según ela desliza Entre eles, garantindo que el hilo chegue a la aguja con a resistencia exata Para la formación de puntadas firmes y sin lazadas.",
     "technicalDetails": "Fabricados en aco inoxidável retificado o con revestimento cerâmico antiaderente. A forca de aperto varia de 80gf a 150gf Para hilos de poliéster 120/40wt. Inclui pino central de liberación que afasta los discos automaticamente cuando el prensatelas es levantado.",
-    "beginnerExplanation": "Sao dois pratinhos de metal brilhantes que ficam escondidos dentro de la máquina y funcionan Cómo un 'freio' Para la hilo. Eles seguram a hilo nem muy apertada nem muy floja, garantindo que el bordado fique perfeito en la frente y en el revés.",
+    "beginnerExplanation": "Sao dois pratinhos de metal brilhantes que quedan escondidos dentro de la máquina y funcionan Cómo un 'freio' Para la hilo. Eles seguram a hilo nem muy apertada nem muy floja, garantindo que el bordado fique perfeito en la frente y en el revés.",
     "howItWorks": [
       "1. A hilo superior desce de la cenefa guia y es inserida en el vao Entre los dois pratos metálicos espelhados.",
       "2. A mola helicoidal aplica presión radial constante Sobre a face externa del disco móvel.",
@@ -968,42 +968,42 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     "limitations": [],
     "practicalExamples": [],
     "commonErrors": [
-      "Passar a hilo con el prensatelas abaixado en máquinas domésticas, fazendo a hilo no entrar dentro de los discos y ficar totalmente solta",
+      "Passar a hilo con el prensatelas abaixado en máquinas domésticas, fazendo a hilo no entrar dentro de los discos y ficar totalmente suelta",
       "Deixar fiapos de hilo y restos de cola acumulados Entre los discos, impedindo que los pratos fechem y gerando ninhos de hilo gigantes Por baixo de la pieza",
       "Apertar el botao de tensao atEs el limite máximo, arrebentando a hilo a cada 20 puntadas y franzindo el tejido / tela"
     ],
     "troubleshootingTips": [
       "siempre pase a hilo con el prensatelas totalmente LEVANTADO Para que los discos estejam abertos Para receber el hilo",
       "Limpe los discos passando un pedaco de hilo grossa dobrada o un hilo dental sin cera Entre los pratos Para remover penugens",
-      "al passar a hilo, puxe-a con as duas maos Para frente y Para trás até sentir el clique y a resistencia firme de encaixe"
+      "al passar a hilo, puxe-a con as dos maos hacia adelante y Para trás até sentir el clique y a resistencia firme de encaixe"
     ],
     "whenToAdjust": "",
-    "dicaArtrelados": "Para saber si a hilo entrou de verdade dentro de los discos de tensao en la sua máquina doméstica, segure a hilo perto del cone y puxe Por la ponta de la aguja: con el prensatelas levantado, a hilo debe correr soltinha; cuando voce abaixa a alavanca del prensatelas, a hilo precisa ficar pesada y firme en la hora!",
+    "dicaArtrelados": "Para saber si a hilo entrou de verdade dentro de los discos de tensao en la sua máquina doméstica, segure a hilo perto del cone y puxe Por la ponta de la aguja: con el prensatelas levantado, a hilo debe correr soltinha; cuando voce abaixa a alavanca del prensatelas, a hilo debe ficar pesada y firme en la hora!",
     "voceSabia": "En las máquinas industriais modernas multicabezal más avancadas, os tradicionais discos de tensao acionados Por mola fueron substituídos Por tensores digitais comandados Por servomotores magnéticos, que recalculam a presión de los discos puntada a puntada de acordo con el sentido del bordado.",
-    "practicalExercise": "Con a máquina desligada y prensatelas levantado, passe a hilo en el cabezal. Abaixe el prensatelas y puxe a hilo en la ponta de la aguja Para sentir a resistencia: gire el botao de tensao del número 4 Para el número 2 y puxe novamente Para sentir a hilo más leve; gire Para el número 6 y sinta el hilo más pesado. Volte Para la regulagem estándar (3.5 a 4.0)!",
-    "quickSummary": "Dispositivo mecânico de pratos metálicos concavos acionados Por mola que regula a resistencia y a tración del hilo superior.",
+    "practicalExercise": "Con la máquina desligada y prensatelas levantado, passe a hilo en el cabezal. Abaixe el prensatelas y puxe a hilo en la ponta de la aguja Para sentir a resistencia: gire el botao de tensao del número 4 Para el número 2 y puxe novamente Para sentir a hilo más leve; gire Para el número 6 y sinta el hilo más pesado. Volte Para la regulagem estándar (3.5 a 4.0)!",
+    "quickSummary": "Dispositivo mecánico de pratos metálicos concavos acionados Por mola que regula a resistencia y a tracción del hilo superior.",
     "relatedTerms": [
       "Controle de Tensión del Hilo",
       "cenefa de Tensao de los hilos",
       "Brilho del hilo",
-      "Bobbin Thread (hilo de la canilla)"
+      "Bobbin Thread"
     ]
   },
   "d-045-desfiador-de-bordado": {
-    "term": "Descosedor y Desmanchador de Puntadas (Seam Ripper & Stitch Eraser)",
+    "term": "Descosedor y Desmanchador de Puntadas",
     "level": "fundamental 🟢",
     "category": "Acessórios y Ferramentas",
-    "grammarClass": "Sustantivo masculino composto.",
+    "grammarClass": "Sustantivo masculino compuesto.",
     "origin": "Del latín dis- + filum (desfazer los hilos tejidos / telas) y del inglés stitch eraser (apagador elétrico de puntadas). Ferramenta manual y elétrica indispensável de socorro en oficinas de bordado.",
-    "summary": "Ferramenta manual o eletromecânica de corte de precisao utilizada Para cortar y remover puntadas de bordado sin danificar el tejido / tela base.",
-    "definition": "El desfiador de bordado (desmanchador de puntadas o 'apagador de bordado' / stitch eraser) é una ferramenta manual dotada de ponta afiada y esfera de proteción, o un aparelho elétrico con micrólâminas oscilantes en aco inoxidável, desenvolvido Para cortar cirurgicamente a hilo inferior de la canilla / canilla / bobina en el revés de la pieza, permitindo a extración rápida de las puntadas de la frente sin cortar a trama del tejido / tela y sin furar a roupa.",
-    "technicalDetails": "Versoes manuais: aco temperado con ponta fina curvada de 0.5mm y microesfera plástica vermelha de proteción. Versoes elétricas (Stitch Eraser): motor rotativo de 6.000 RPM con lâmina de precisao de 10mm a 15mm de largura, alimentado Por bateria recarregável.",
+    "summary": "Ferramenta manual o eletromecânica de corte de precisión utilizada Para cortar y remover puntadas de bordado sin danificar el tejido / tela base.",
+    "definition": "El desfiador de bordado (desmanchador de puntadas o 'apagador de bordado' / stitch eraser) é una ferramenta manual dotada de ponta afiada y esfera de proteción, o un aparelho elétrico con micrólâminas oscilantes en aco inoxidável, desarrollado Para cortar cirurgicamente a hilo inferior de la canilla / canilla / bobina en el revés de la pieza, permitindo a extración rápida de las puntadas de la frente sin cortar a trama del tejido / tela y sin furar a roupa.",
+    "technicalDetails": "Versoes manuais: aco temperado con ponta fina curvada de 0.5mm y microesfera plástica vermelha de proteción. Versoes elétricas (Stitch Eraser): motor rotativo de 6.000 RPM con lâmina de precisión de 10mm a 15mm de ancho, alimentado Por bateria recarregável.",
     "beginnerExplanation": "É a ferramenta 'salva-vidas' del atelie Para cuando a gente borda un nome con letra errada o erra a cor del hilo. Ela corta los pontinhos Por el lado de trás de la roupa con muy cuidado Para voce tirar as hilos sin rasgar el tejido / tela y sin furar a pieza del cliente.",
     "howItWorks": [
       "1. A pieza a ser corrigida es virada con el revés voltado Para cima Sobre una superfície plana y rígida.",
       "2. A lâmina del desfiador es passada suavemente solo Sobre las puntadas brancos del hilo de la canilla.",
       "3. una vez cortadas as lazadas inferiores, vira-si a pieza Para la frente.",
-      "4. Con una pinca de atelie o fita adesiva larga, puxam-si as hilos superiores de la frente, que saem inteiras y sin esforco."
+      "4. Con una pinca de atelie o fita adesiva larga, puxam-si as hilos superiores de la frente, que saem completas y sin esforco."
     ],
     "construction": [],
     "mainTypes": [],
@@ -1017,37 +1017,37 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     ],
     "troubleshootingTips": [
       "siempre desmanche Por el revés de la pieza cortando unicamente as hilos de la canilla",
-      "Mantenha el tejido / tela bem esticado con as maos o preso levemente en un bastidor enquanto passa a lâmina",
+      "Mantenha el tejido / tela bem esticado con as maos o preso levemente en un bastidor mientras passa a lâmina",
       "después de retirar as hilos, passe el ferro a vapor con un paninho Por cima Para fechar los furinhos deixados Por la aguja"
     ],
     "whenToAdjust": "",
     "dicaArtrelados": "Para tirar cualquier bordado en 2 minutos sin sofrimento: vire a pieza Por el revés, passe el desfiador elétrico o a lâmina manual solo en la hilo branca de la canilla / canilla / bobina. después, pegue un pedaco de fita crepe larga, cole Por cima de la frente del bordado y puxe: todos los hilos coloridos saem colados en la fita Cómo mágica!",
     "voceSabia": "El desmanchador de costura clássico de metal con una bolinha vermelha en la ponta fue patenteado en 1883. A bolinha vermelha serve exatamente Para ficar virada Para baixo encostada en el tejido / tela, deslizando suavemente Para impedir que a ponta afiada fure o rasgue el pano!",
     "practicalExercise": "Pegue un retazo con una letra bordada de teste: vire el retazo Por el revés y, con el desmanchador de puntadas, corte cuidadosamente as lazadas del hilo de la canilla. Vire Para la frente, passe una escovinha o fita adesiva y veja Cómo as hilos superiores si soltam perfeitamente sin danificar el tejido / tela!",
-    "quickSummary": "Instrumento manual o elétrico de corte de precisao projetado Para seccionar as lazadas del revés y desmanchar bordados con seguridad.",
+    "quickSummary": "Instrumento manual o elétrico de corte de precisión projetado Para seccionar as lazadas del revés y desmanchar bordados con seguridad.",
     "relatedTerms": [
-      "Bobbin Thread (hilo de la canilla)",
+      "Bobbin Thread",
       "Defeito de Bordado",
       "Correción de puntadas",
       "Pinca de Atelie"
     ]
   },
   "d-046-dinamica-da-lacada": {
-    "term": "Dinámica de Formación de la Lazada (Loop Formation Dynamics)",
+    "term": "Dinámica de Formación de la Lazada",
     "level": "Avanzado 🔴",
     "category": "Terminologia Geral",
-    "grammarClass": "Sustantivo femenino composto.",
-    "origin": "Del grego dynamikós (relativo a la forca y movimento mecânico) y del latín laqueus (laco, nó corredio). Teoria cinemática y tribológica de la formación del puntada tipo 301 (Lockstitch).",
-    "summary": "Fenomeno cinemático de expansao de la folga del hilo superior en la subida de la aguja Para captura precisa Por la ponta del garfio.",
-    "definition": "A dinâmica de la lazada es o fenomeno físico-mecânico que ocurre en el puntada morto inferior del ciclo de costura: tras a aguja atingir a profundidade máxima y iniciar sua subida (recuo de 1.5mm a 2.5mm), o atrito del hilo con el tejido / tela retarda el movimento del hilo, fazendo con que a hilo superior si descole de la cava de la aguja y si expanda lateralmente en forma de arco (lazada o loop), permitindo que a ponta afiada del garfio rotativa pase Por dentro desse arco y entrelace a hilo de la canilla.",
-    "technicalDetails": "Altura de recuo crítico: 1.8mm a 2.2mm a partir del puntada Morto Inferior (PMI). A folga Entre a ponta del garfio y a cava de la aguja en el instante de la captura de la lazada debe ser calibrada Entre 0.05mm y 0.10mm (espessura de una folha de papel).",
-    "beginnerExplanation": "É a mágica que sucede embaixo de la máquina: cuando a aguja fura el pano y comeca a subir un pouquinho, a hilo hace una 'barriguinha' (un laco). A ponta afiada del garfio passa Por dentro desse laco en un piscar de olhos y dá o nó con a hilo de baixo.",
+    "grammarClass": "Sustantivo femenino compuesto.",
+    "origin": "Del grego dynamikós (relativo a la forca y movimiento mecánico) y del latín laqueus (laco, nó corredio). Teoria cinemática y tribológica de la formación del puntada tipo 301 (Lockstitch).",
+    "summary": "Fenomeno cinemático de expansao de la folga del hilo superior en la subida de la aguja Para captura debe Por la ponta del garfio / lanzadera.",
+    "definition": "A dinâmica de la lazada es o fenomeno físico-mecánico que ocurre en el puntada morto inferior del ciclo de costura: tras a aguja atingir a profundidade máxima y iniciar sua subida (recuo de 1.5mm a 2.5mm), o atrito del hilo con el tejido / tela retarda el movimiento del hilo, fazendo con que a hilo superior si descole de la cava de la aguja y si expanda lateralmente en forma de arco (lazada o loop), permitindo que a ponta afiada del garfio / lanzadera rotativa pase Por dentro desse arco y entrelace a hilo de la canilla.",
+    "technicalDetails": "Altura de recuo crítico: 1.8mm a 2.2mm a partir del puntada Morto Inferior (PMI). A folga Entre a ponta del garfio / lanzadera y a cava de la aguja en el instante de la captura de la lazada debe ser calibrada Entre 0.05mm y 0.10mm (grosor de una hoja de papel).",
+    "beginnerExplanation": "É a mágica que sucede embaixo de la máquina: cuando a aguja fura el pano y comienza a subir un pouquinho, a hilo hace una 'barriguinha' (un laco). A ponta afiada del garfio / lanzadera passa Por dentro desse laco en un piscar de olhos y dá o nó con a hilo de baixo.",
     "howItWorks": [
-      "1. A aguja desce con a hilo superior atravessando el tejido / tela, a entretela y el furo de la chapa de aguja.",
-      "2. En el puntada más baixo, a hilo fica esticada rente a la canaleta longa de la aguja.",
-      "3. A cenefa de aguja sobe 2mm; a inércia y el atrito con el tejido / tela impedem que a hilo suba en la misma velocidade.",
+      "1. A aguja desce con a hilo superior atravessando el tejido / tela, a entretela y el furo de la placa de aguja.",
+      "2. En el puntada más baixo, a hilo queda esticada rente a la canaleta longa de la aguja.",
+      "3. A cenefa de aguja sobe 2mm; a inércia y el atrito con el tejido / tela impedem que a hilo suba en la misma velocidad.",
       "4. El excesso de hilo projeta-si Para fora de la cava traseira de la aguja, formando un laco oval aberto.",
-      "5. A ponta del garfio rotativa entra exatamente en el centro desse laco, conduzindo a hilo superior al redor de la caja de canilla / canilla / bobina / portacanilla."
+      "5. A ponta del garfio / lanzadera rotativa entra exatamente en el centro desse laco, conduzindo a hilo superior al redor de la caja de canilla / canilla / bobina / portacanilla."
     ],
     "construction": [],
     "mainTypes": [],
@@ -1055,20 +1055,20 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     "limitations": [],
     "practicalExamples": [],
     "commonErrors": [
-      "Colocar a aguja con a cava virada Para el lado errado, impedindo a formación de la lazada y fazendo a máquina pular todos las puntadas",
+      "Colocar a aguja con a cava virada Para el lado errado, impedindo a formación de la lazada y fazendo la máquina pular todos las puntadas",
       "Bordar sin entretela en tejidos de punto, fazendo el tejido / tela subir junto con a aguja (flagging) y destruindo a abertura de la lazada",
-      "garfio con folga excessiva (más de 0.20mm de distancia de la aguja), passando Por fora de la lazada sin lacar el puntada"
+      "garfio / lanzadera con folga excessiva (más de 0.20mm de distancia de la aguja), passando Por fora de la lazada sin lacar el puntada"
     ],
     "troubleshootingTips": [
-      "si a máquina estiver pulando puntadas, verifique si a aguja está colocada con a cava virada exatamente Para trás o Para el lado del garfio",
-      "Utilize agujas novas con geometria de canaleta profunda (Cómo Schmetz Embroidery o Groz-Beckert DBxK5)",
+      "si la máquina estiver pulando puntadas, verifique si a aguja está colocada con a cava virada exatamente Para trás o Para el lado del garfio / lanzadera",
+      "Utilize agujas novas con geometria de canaleta profunda",
       "Garanta que el tejido / tela esteja perfeitamente estabilizado en el bastidor Para evitar que ele oscile verticalmente"
     ],
     "whenToAdjust": "",
-    "dicaArtrelados": "A maior inimiga de la lazada perfeita es a entretela fraca o el bastidor flojo! cuando el tejido / tela fica flojo, ele sobe junto con a aguja y a lazada no abre embaixo de la chapa: o resultado son puntadas pulados y hilos desfiadas. Mantenha el tejido / tela esticado Cómo un tambor!",
-    "voceSabia": "en una máquina de bordar funcionando a 1.000 puntadas Por minuto, o ciclo completo de descida de la aguja, formación de la lazada, captura Por la garfio y aperto Por el tirahilos ocurre en solo 60 milissegundos (0,06 segundos)!",
-    "practicalExercise": "Con a tampa del garfio aberta y a máquina desligada, gire el volante manualmente devagar: observe a aguja descer atEs el fundo y comecar a subir. Veja con seus próprios olhos a 'barriguinha' de hilo si abrir del lado de la cava y a ponta del garfio entrar perfeitamente dentro dela!",
-    "quickSummary": "Processo cinemático de expansao de la folga del hilo superior en el recuo de la aguja Para permitir a captura precisa Por la garfio.",
+    "dicaArtrelados": "A maior inimiga de la lazada perfeita es a entretela fraca o el bastidor flojo! cuando el tejido / tela queda flojo, ele sobe junto con a aguja y a lazada no abre embaixo de la chapa: o resultado son puntadas pulados y hilos desfiadas. Mantenha el tejido / tela esticado Cómo un tambor!",
+    "voceSabia": "en una máquina de bordar funcionando a 1.000 puntadas Por minuto, o ciclo completo de descida de la aguja, formación de la lazada, captura Por la garfio / lanzadera y aperto Por el tirahilos ocurre en solo 60 milissegundos (0,06 segundos)!",
+    "practicalExercise": "Con a tampa del garfio / lanzadera aberta y la máquina desligada, gire el volante manualmente devagar: observe a aguja descer atEs el fundo y comecar a subir. Veja con seus próprios olhos a 'barriguinha' de hilo si abrir del lado de la cava y a ponta del garfio / lanzadera entrar perfeitamente dentro dela!",
+    "quickSummary": "Processo cinemático de expansao de la folga del hilo superior en el recuo de la aguja Para permitir a captura debe Por la garfio / lanzadera.",
     "relatedTerms": [
       "Canoa de la canilla / canilla / bobina",
       "Barra de Aguja",
@@ -1077,19 +1077,19 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "d-047-divisao-de-matriz": {
-    "term": "División de Matriz y Multiposicionamiento en Bastidor (Design Splitting & Multi-Hooping)",
+    "term": "División de Matriz y Multiposicionamiento en Bastidor",
     "level": "Avanzado 🔴",
     "category": "Programación de Matrices",
-    "grammarClass": "Sustantivo femenino composto.",
+    "grammarClass": "Sustantivo femenino compuesto.",
     "origin": "Del latín divisio, -onis (ato de repartir, separar en partes) y matrix, -icis (molde gerador). Técnica computacional criada Para superar as limitaciones físicas de campo útil de los bastidores.",
     "summary": "Técnica de fragmentación de matrices / diseños gigantes en seciones sequenciais con marcas de registro Para bordados que excedem el tamanho del bastidor.",
-    "definition": "A divisao de matriz / diseño (o técnica de multiposicionamento / design splitting) é o método Avanzado de engenharia de digitalización (ponchado) que consiste en particionar un desenho de grandes dimensoes en duas o más seciones menores interligadas, inserindo cruzetas de alinhamento y puntadas de registro precisos Para que cada parte seja bordada sucessivamente en múltiplos bastidoramentos en el tejido / tela sin desencontros visíveis.",
+    "definition": "A divisao de matriz / diseño (o técnica de multiposicionamento / design splitting) é o método Avanzado de ingeniería de digitalización (ponchado) que consiste en particionar un motivo de grandes dimensoes en dos o más seciones menores interligadas, inserindo cruzetas de alinhamento y puntadas de registro precisos Para que cada parte seja bordada sucessivamente en múltiplos bastidoramentos en el tejido / tela sin desencontros visíveis.",
     "technicalDetails": "Executada a través de ferramentas de hilo de corte de divisao (Multi-Hoop Tool). Insere puntadas de registro (Alignment Crosshairs/Marks) de 3 a 5 puntadas rectas corridas en las puntadas de encontro Entre bastidores vizinhos, con tolerancia máxima de encaixe de 0.3mm.",
-    "beginnerExplanation": "É o método inteligente de cortar un desenho bem grandao en dois o tres pedacos en el computador Para conseguir bordar en la sua máquina mismo que el seu bastidor seja pequeno. El programa cria marquinhas de cruzinha Para voce emendar as partes en el tejido / tela certinho sin ninguém notar a emenda!",
+    "beginnerExplanation": "É o método inteligente de cortar un motivo bem grandao en dois o tres pedacos en el computadora Para conseguir bordar en la sua máquina mismo que el seu bastidor seja pequeno. El programa cria marquinhas de cruzinha Para voce emendar as partes en el tejido / tela certinho sin ninguém notar a unión!",
     "howItWorks": [
       "1. El desenho completo de grande porte (ex: 20x40cm) é carregado en el software de bordado.",
       "2. El digitalizador define a grade de bastidores virtuais sobrepostos cobrindo toda a área de la arte.",
-      "3. As hilos de corte son tracadas a través de caminhos naturais (espacos vazios o bajo contornos de satin) Para ocultar as emendas.",
+      "3. As hilos de corte son tracadas a través de trayectorias naturais (espacos vazios o bajo contornos de satin) Para ocultar as emendas.",
       "4. El software gera los archivos individuais numerados (Parte 1, Parte 2, Parte 3) con suas respectivas cruzetas de alinhamento.",
       "5. En el atelie, o operador borda a Parte 1 con a cruzeta de marcación, rebastidora el tejido / tela alinhando a cruzeta Por el laser o aguja y executa a Parte 2 perfeitamente encaixada."
     ],
@@ -1099,9 +1099,9 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     "limitations": [],
     "practicalExamples": [],
     "commonErrors": [
-      "Cortar a matriz / diseño en el meio de un preenchimento tatami macico, gerando una cicatriz visível en la emenda de las puntadas",
+      "Cortar a matriz / diseño en el meio de un preenchimento tatami macico, gerando una cicatriz visível en la unión de las puntadas",
       "Rebastidorar el tejido / tela con ângulo torto en relación a las cruzetas de registro, fazendo a segunda metade sair inclinada",
-      "no levar en consideración el repuxo del tejido / tela Entre a primeira y a segunda parte bordada"
+      "no levar en consideración el fruncimiento del tejido / tela Entre a primeira y a segunda parte bordada"
     ],
     "troubleshootingTips": [
       "siempre planeje a hilo de divisao passando Por contornos, hilos vazias o bajo colunas de puntada satín",
@@ -1109,9 +1109,9 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
       "Utilize bastidores magnéticos o gabaritos de alinhamento Para facilitar el rebastidoramento reto"
     ],
     "whenToAdjust": "",
-    "dicaArtrelados": "Para acertar a emenda de matrices / diseños divididas con precisao de aguja: cuando a máquina bordar a cruzeta de la primeira parte, abaixe a aguja de la máquina en el centro exato de la cruzeta con el volante Antes de iniciar a segunda parte. A emenda fica 100% invisível a los olhos!",
-    "voceSabia": "Softwares profissionais Cómo el Wilcom EmbroideryStudio calculam automaticamente el melhor caminho de divisao inteligente (Smart Split), evitando cortar objetos sólidos y camuflando las puntadas de emenda en las transiciones de cores naturais de la arte.",
-    "practicalExercise": "En el seu software de bordado, pegue una matriz / diseño de 15x25cm y ative a ferramenta Multi-Hoop con bastidores 13x18cm: divida a matriz / diseño en duas etapas con cruzetas de registro automáticas. Exporte los dois archivos y visualize en el simulador Cómo as cruzetas servem de guia de encaixe perfeito!",
+    "dicaArtrelados": "Para acertar a unión de matrices / diseños divididas con precisión de aguja: cuando la máquina bordar a cruzeta de la primeira parte, abaixe a aguja de la máquina en el centro exato de la cruzeta con el volante Antes de iniciar a segunda parte. A unión queda 100% invisible a los olhos!",
+    "voceSabia": "Softwares profissionais Cómo el Wilcom EmbroideryStudio calculam automaticamente el melhor trayectoria de divisao inteligente (Smart Split), evitando cortar objetos sólidos y camuflando las puntadas de unión en las transiciones de cores naturais de la arte.",
+    "practicalExercise": "En el seu software de bordado, pegue una matriz / diseño de 15x25cm y ative a ferramenta Multi-Hoop con bastidores 13x18cm: divida a matriz / diseño en dos etapas con cruzetas de registro automáticas. Exporte los dois archivos y visualize en el simulador Cómo as cruzetas servem de guia de encaixe perfeito!",
     "quickSummary": "Particionamento sistemático de matrices / diseños de grande porte en seciones sequenciais con marcas de registro Para bastidores menores.",
     "relatedTerms": [
       "bastidor Virtual",
@@ -1121,21 +1121,21 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "d-048-dupla-face-bordado-limpo": {
-    "term": "Doble Faz y Bordado Limpio en el Revés (Reversible & Clean-Back Embroidery)",
+    "term": "Doble Faz y Bordado Limpio en el Revés",
     "level": "Intermedio 🟡",
     "category": "acabado & Finalización",
-    "grammarClass": "Sustantivo femenino composto.",
+    "grammarClass": "Sustantivo femenino compuesto.",
     "origin": "Del latín duplus (duplo, que tiene dois lados) y facies (rosto, aspecto visual). estándar de excelencia de la alta costura y del ajuar de luxo internacional.",
     "summary": "Técnica de digitalización (ponchado) y costura con hilo de canilla / canilla / bobina coordenada Para produzir piezas donde el revés tiene acabado perfeito y apresentável.",
     "definition": "El bordado dupla face (o técnica del revés perfeito / clean-back embroidery) é o conjunto de procedimentos de digitalización (ponchado) y parametrización mecatronica planejado Para que el revés del bordado apresente estética impecável, sin hilos de salto aparentes, sin nós grosseiros y sin entretelas visíveis, utilizando hilos inferiores de la misma tonalidade del hilo superior o entretelas hidrossolúveis 100% laváveis.",
-    "technicalDetails": "Utilización de hilo inferior de poliéster 60wt/70wt tingida en la misma cor exata del hilo del topo. Programación de caminhos de conexao contínuos Por puntada recta corrida bajo colunas de satin (eliminación de comandos Trim en el revés) y entretela hidrosoluble (wash-away) de 40g a 80g de fácil remoción.",
-    "beginnerExplanation": "É a técnica Para deixar a parte de trás del bordado tao bonita y limpinha quanto a parte de la frente, usando hilo de la canilla de la misma cor del hilo de cima y entretela que derrete en la água, ideal Para toallas y mantinhas de bebe onde el revés fica aparecendo.",
+    "technicalDetails": "Utilización de hilo inferior de poliéster 60wt/70wt tingida en la misma cor exata del hilo del topo. Programación de trayectorias de conexao contínuos Por puntada recta corrida bajo colunas de satin (eliminación de comandos Trim en el revés) y entretela hidrosoluble (wash-away) de 40g a 80g de fácil remoción.",
+    "beginnerExplanation": "É a técnica Para deixar a parte de trás del bordado tao bonita y limpinha quanto a parte de la frente, usando hilo de la canilla de la misma cor del hilo de cima y entretela que derrete en la água, ideal Para toallas y mantinhas de bebe onde el revés queda aparecendo.",
     "howItWorks": [
       "1. A canilla / canilla / bobina es enchida previamente con a misma hilo colorida utilizada en el cabezal superior.",
       "2. El tejido / tela (toalla, manta, lenco) é estabilizado exclusivamente con entretela hidrosoluble (wash-away).",
-      "3. A matriz / diseño es digitalizada con caminhos de costura inteligentes, escondendo los trajetos de desplazamiento bajo las puntadas satín.",
+      "3. A matriz / diseño es digitalizada con trayectorias de costura inteligentes, escondendo los trajetos de desplazamiento bajo las puntadas satín.",
       "4. A tensao superior y inferior es rigorosamente equilibrada Para que a hilo no repuxe Para nenhum de los lados.",
-      "5. Após el bordado, a pieza es lavada y el revés fica suave, con as mismas cores y sin resíduos ásperos."
+      "5. Após el bordado, a pieza es lavada y el revés queda suave, con as mismas cores y sin resíduos ásperos."
     ],
     "construction": [],
     "mainTypes": [],
@@ -1143,9 +1143,9 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     "limitations": [],
     "practicalExamples": [],
     "commonErrors": [
-      "Usar entretela desprendible (tear-away) común, deixando pedacos brancos de papel presos y duros en el verso de la toalla",
-      "Usar hilo branca común en la canilla / canilla / bobina Para bordar desenhos escuros o coloridos en piezas dupla face",
-      "Deixar pontas soltas de hilo sin corte automático rente en el revés"
+      "Usar entretela desprendible (tear-away) conún, deixando pedacos brancos de papel presos y duros en el verso de la toalla",
+      "Usar hilo branca conún en la canilla / canilla / bobina Para bordar desenhos escuros o coloridos en piezas dupla face",
+      "Deixar pontas sueltas de hilo sin corte automático rente en el revés"
     ],
     "troubleshootingTips": [
       "Enrole canillas / bobinas con a misma hilo de bordar superior Para cada cor predominante del desenho",
@@ -1153,13 +1153,13 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
       "Calibre a tensao de la canilla / canilla / bobina Para ficar perfeitamente neutra en relación a la tensao superior"
     ],
     "whenToAdjust": "",
-    "dicaArtrelados": "Para pañales de tela de bebe y toallas de luxo: use siempre hilo de la misma cor en la canilla / canilla / bobina y entretela hidrosoluble (wash-away). al final, passe un paninho úmido en el revés y corte los fiapos con tijera de remate / puntada de seguridad curva: o revés fica tao lindo y suave que a cliente no sabe dizer qual es a frente y qual es o verso!",
+    "dicaArtrelados": "Para pañales de tela de bebe y toallas de luxo: use siempre hilo de la misma cor en la canilla / canilla / bobina y entretela hidrosoluble (wash-away). al final, passe un paninho úmido en el revés y corte los fiapos con tijera de remate / puntada de seguridad curva: o revés queda tao lindo y suave que a cliente no sabe dizer cuál es a frente y cuál es o verso!",
     "voceSabia": "En la tradición del bordado chines imperial de Xiang y Suzhou, o bordado dupla face manual era considerado o ápice supremo de la arte textil: os mestres artesaos conseguiam bordar un gato de olhos abertos en la frente y un tigre feroz en el verso de la misma seda transparente.",
-    "practicalExercise": "Encha una carretilha con hilo de poliéster vermelha y coloque el mismo cone vermelho en el cabezal. Monte un pedaco de lino con entretela hidrosoluble (wash-away) y borde una flor en puntada satín. Lave a amostra en água morna y veja Cómo el revés fica incrivelmente limpo, suave y de la misma cor de la frente!",
+    "practicalExercise": "Encha una carretilha con hilo de poliéster vermelha y coloque el mismo cone vermelho en el cabezal. Monte un pedaco de lino con entretela hidrosoluble (wash-away) y borde una flor en puntada satín. Lave a amostra en água morna y veja Cómo el revés queda incrivelmente limpo, suave y de la misma cor de la frente!",
     "quickSummary": "Método de produción con hilo de canilla / canilla / bobina combinando y entretela hidrosoluble (wash-away) Para gerar bordados con revés impecável.",
     "relatedTerms": [
-      "Bobbin Thread (hilo de la canilla)",
-      "entretela hidrosoluble (wash-away)",
+      "Bobbin Thread",
+      "entretela hidrosoluble",
       "Corte Automático de hilo",
       "Controle de Tensión del Hilo"
     ]
@@ -1202,7 +1202,7 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     ],
     "whenToAdjust": "Aumenta el ancho del ribete si notas que la tela de base si deshilacha con facilidad o tiene hilos gruesos.",
     "dicaArtrelados": "El tip de la tijera pelícano Artrelados Para ribetes: Para que tu ribete de satín quede limpio Cómo hecho Por una máquina láser de fábrica, corta la tela de tu parche usando una tijera de pelícano apoyando la parte ancha Sobre la costura. Cortarás a medio milímetro exacto de la guía sin peligro de cortar la entretela: al pasar el satín Por encima, ¡no si asomará ni un solo hilito rebelde!",
-    "voceSabia": "¿Sabías que los primeros ribetes bordados a máquina fueron creados en Suiza a finales del siglo XIX en máquinas pantógrafo Schiffli Para imitar los carísimos encajes de bolillos de la nobleza europea?",
+    "voceSabia": "¿Sabías que los primeros ribetes bordados la máquina fueron creados en Suiza a finales del siglo XIX en máquinas pantógrafo Schiffli Para imitar los carísimos encajes de bolillos de la nobleza europea?",
     "practicalExercise": "Dibuja un círculo de 5 cm en tu software con una columna de satín perimetral de 3,5 mm de ancho con soporte doble de borde. Bórdalo Sobre sarga y recorta la tela: comprueba cómo el cordón encapsula perfectamente el borde cortado sin dejar hilos visibles.",
     "quickSummary": "Cordón de satín tupido que abraza y encapsula los bordes vivos cortados de telas y parches evitando el deshilachado.",
     "summary": "Cordón de satín tupido que abraza y encapsula los bordes vivos cortados de telas y parches evitando el deshilachado.",
@@ -1256,7 +1256,7 @@ export const VERBETES_LETTER_D_LOTE2_ES: Record<string, Partial<Verbete>> = {
     "summary": "Superposición de capas de puntadas con densidad decreciente Para lograr transiciones suaves y sombras continuas.",
     "relatedTerms": [
       "Colores y Selección Cromática de Hilos",
-      "Puntada Tatami (Tatami Stitch)",
+      "Puntada Tatami",
       "Densidad de Puntada y Espaciado Milimétrico",
       "Software de Ponchado y Digitalización"
     ]

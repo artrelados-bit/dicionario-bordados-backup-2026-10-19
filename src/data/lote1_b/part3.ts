@@ -2,7 +2,7 @@ import { Verbete } from "../../types";
 
 export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
   "b-053-barra-de-pressao-e-regulador-do-calcador": {
-    "term": "Barra de Presión y Regulador del Prensatelas (Presser Foot Pressure Dial & Bar)",
+    "term": "Barra de Presión y Regulador del Prensatelas",
     "level": "Intermedio 🟡",
     "category": "Mecánica & Ajustes",
     "grammarClass": "Locución sustantiva femenina.",
@@ -56,7 +56,7 @@ export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-051-barra-tensao-fios": {
-    "term": "Barra de Tensión de los Hilos (Thread Tension Guide Bar)",
+    "term": "Barra de Tensión de los Hilos",
     "level": "Fundamental 🟢",
     "category": "Componentes de la Máquina",
     "grammarClass": "Locución sustantiva femenina.",
@@ -110,7 +110,7 @@ export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-097-barra-estabilizadora-de-agulhas-multiplas-e-guia-anti-deflexao": {
-    "term": "Barra Estabilizadora de Agujas Múltiples y Guía Antideflexión (Multi-Needle Stabilizer Bar & Guide)",
+    "term": "Barra Estabilizadora de Agujas Múltiples y Guía Antideflexión",
     "level": "Avanzado 🔴",
     "category": "Equipos y Máquinas",
     "grammarClass": "Locución sustantiva femenina.",
@@ -164,7 +164,7 @@ export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-093-barra-estabilizadora-de-tensao-superior-pente-guia-fios": {
-    "term": "Barra Estabilizadora de Tensión Superior / Peine Guiahilos (Thread Guide Comb & Tension Rail)",
+    "term": "Barra Estabilizadora de Tensión Superior / Peine Guiahilos",
     "level": "Intermedio 🟡",
     "category": "Equipos y Máquinas",
     "grammarClass": "Locución sustantiva femenina.",
@@ -218,7 +218,7 @@ export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-088-barramento-can-bus-em-maquinas-de-bordar": {
-    "term": "Bus de Comunicación CAN-Bus en Máquinas de Bordar (Controller Area Network Embroidery Protocol)",
+    "term": "Bus de Comunicación CAN-Bus en Máquinas de Bordar",
     "level": "Avanzado 🔴",
     "category": "Equipos y Máquinas",
     "grammarClass": "Locución sustantiva masculina.",
@@ -272,7 +272,7 @@ export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-102-barudan-maquinas-de-bordado-eletronico": {
-    "term": "Barudan (Máquinas de Bordado Computarizado)",
+    "term": "Barudan",
     "level": "Avanzado 🔴",
     "category": "Máquinas y Equipos",
     "grammarClass": "Marca registrada / Sustantivo propio.",
@@ -327,7 +327,7 @@ export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-084-base-antiestatica-para-cones-de-linha": {
-    "term": "Base Antiestática para Conos de Hilo (Anti-Static Spool Mat & Base Pad)",
+    "term": "Base Antiestática para Conos de Hilo",
     "level": "Fundamental 🟢",
     "category": "Insumos & Hilos",
     "grammarClass": "Locución sustantiva femenina.",
@@ -381,7 +381,7 @@ export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-080": {
-    "term": "Base de Alineación / Puntada de Hilván y Fijación (Basting Stitch)",
+    "term": "Base de Alineación / Puntada de Hilván y Fijación",
     "level": "Fundamental 🟢",
     "category": "Puntos & Estructuras",
     "grammarClass": "Locución sustantiva femenina.",
@@ -436,7 +436,7 @@ export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-054-base-de-cones-e-porta-carretel-vertical": {
-    "term": "Base de Conos y Portacarretes Vertical (Thread Stand & Cone Spool Holder)",
+    "term": "Base de Conos y Portacarretes Vertical",
     "level": "Fundamental 🟢",
     "category": "Accesorios & Organización",
     "grammarClass": "Locución sustantiva femenina.",

@@ -3,7 +3,7 @@ import { Verbete } from "../../types";
 export const LOTE2_PART3_ES: Record<string, Partial<Verbete>> = {
   // A-051
   "a-082-alavanca-de-engate-r-pido-de-bastidor-quick-release-hoop-clamping-lever": {
-    term: "Palanca de Enganche Rápido de Bastidor (Quick-Release Hoop Clamping Lever)",
+    term: "Palanca de Enganche Rápido de Bastidor",
     level: "Fundamental 🟢",
     category: "Bastidores y Sujeción",
     grammarClass: "Locución sustantiva femenina.",
@@ -31,7 +31,7 @@ export const LOTE2_PART3_ES: Record<string, Partial<Verbete>> = {
     ],
     advantages: [
       "✔ Montaje de prendas en segundos sin fatiga muscular en dedos y muñecas",
-      "✔ Tensión constante y uniforme en toda la producción de remeras",
+      "✔ Tensión constante y uniforme en toda la producción de camisetas",
       "✔ No desafila ni desgasta roscas plásticas como los tornillos comunes"
     ],
     limitations: [
@@ -46,9 +46,9 @@ export const LOTE2_PART3_ES: Record<string, Partial<Verbete>> = {
       "Si la palanca baja demasiado dura: afloje una o dos vueltas el perno roscado opuesto.",
       "Si la tela queda floja: levante la palanca, apriete media vuelta el tornillo y vuelva a cerrar."
     ],
-    dicaArtrelados: "Para quienes producen decenas de remeras o uniformes al día: los bastidores con palanca de cierre rápido salvan sus manos del dolor de muñecas. Ajuste el tornillo una sola vez al grosor de la remera, ¡y luego arme cada prenda con un solo movimiento de palanca hacia abajo!",
+    dicaArtrelados: "Para quienes producen decenas de camisetas o uniformes al día: los bastidores con palanca de cierre rápido salvan sus manos del dolor de muñecas. Ajuste el tornillo una sola vez al grosor de la camiseta, ¡y luego arme cada prenda con un solo movimiento de palanca hacia abajo!",
     voceSabia: "¡El principio mecánico de la leva excéntrica utilizado en estas palancas es el mismo sistema de cierre rápido que se inventó para asegurar las ruedas de las bicicletas de carrera profesional!",
-    practicalExercise: "Ajuste el perno previo de su bastidor con palanca hasta que cierre firme sobre una remera de algodón con entretela. Abra y cierre tres veces comprobando la rapidez y regularidad del tensado.",
+    practicalExercise: "Ajuste el perno previo de su bastidor con palanca hasta que cierre firme sobre una camiseta de algodón con entretela. Abra y cierre tres veces comprobando la rapidez y regularidad del tensado.",
     quickSummary: "Mecanismo de leva que tensa y bloquea el bastidor al instante con un solo movimiento de palanca sin forzar tornillos manuales.",
     relatedTerms: [
       "Bastidor de Bordado",
@@ -59,7 +59,7 @@ export const LOTE2_PART3_ES: Record<string, Partial<Verbete>> = {
 
   // A-052
   "a-105-alavanca-de-trava-caixa-de-bobina-trinco-extracao": {
-    term: "Palanca de Bloqueo de la Caja de Bobina / Pestillo de Extracción y Retención (Bobbin Case Latch Lever & Locking Hasp)",
+    term: "Pestillo de Cierre de la Caja de Bobina",
     level: "Fundamental 🟢",
     category: "Mecánica y Componentes de la Máquina / Calibración",
     grammarClass: "Locución sustantiva femenina.",
@@ -115,7 +115,7 @@ export const LOTE2_PART3_ES: Record<string, Partial<Verbete>> = {
 
   // A-053
   "a-050-alavanca-do-calcador": {
-    term: "Palanca del Prensatelas (Presser Foot Lifter Lever)",
+    term: "Palanca del Prensatelas",
     level: "Fundamental 🟢",
     category: "Mecánica y Componentes de la Máquina / Calibración",
     grammarClass: "Locución sustantiva femenina.",
@@ -158,7 +158,7 @@ export const LOTE2_PART3_ES: Record<string, Partial<Verbete>> = {
       "Si la máquina pita y no empieza a bordar: verifique si bajó la palanca del prensatelas a su posición de costura.",
       "Si el prensatelas no sube lo suficiente: use la posición de sobre-elevación empujando la palanca un poco más hacia arriba."
     ],
-    dicaArtrelados: "Al colocar una campera gruesa o toalla en la máquina, empuje la palanca del prensatelas suavemente un poquito más arriba de su tope normal: la mayoría de las bordadoras tienen un 'segundo nivel de altura' escondido para prendas voluminosas.",
+    dicaArtrelados: "Al colocar una chaqueta gruesa o toalla en la máquina, empuje la palanca del prensatelas suavemente un poquito más arriba de su tope normal: la mayoría de las bordadoras tienen un 'segundo nivel de altura' escondido para prendas voluminosas.",
     voceSabia: "¡La rodillera para levantar el prensatelas con la pierna fue inventada para que las bordadoras profesionales tuvieran siempre las dos manos libres para sostener telas pesadas!",
     practicalExercise: "Suba la palanca del prensatelas y empújela suavemente hacia arriba: sienta el segundo nivel de sobre-elevación que le dará más espacio para entrar toallas gruesas.",
     quickSummary: "Palanca manual que sube y baja el prensatelas para montar prendas y despejar la zona de trabajo con total seguridad.",
@@ -171,7 +171,7 @@ export const LOTE2_PART3_ES: Record<string, Partial<Verbete>> = {
 
   // A-054
   "a-066-alavanca-do-calcador-presser-foot-lifter": {
-    term: "Palanca del Prensatelas y Sensor de Altura (Presser Foot Lifter & Safety Sensor)",
+    term: "Palanca del Prensatelas con Sensor de Seguridad",
     level: "Intermedio 🟡",
     category: "Mecánica y Componentes de la Máquina / Calibración",
     grammarClass: "Locución sustantiva femenina.",
@@ -227,7 +227,7 @@ export const LOTE2_PART3_ES: Record<string, Partial<Verbete>> = {
 
   // A-055
   "a-103-alavanca-pega-fio-pescador-linha-superior-sensor-ruptura": {
-    term: "Palanca Pega-Hilo / Pescador de Hilo Superior con Sensor de Rotura (Thread Take-Up Lever & Breakage Sensor)",
+    term: "Palanca Guía de Hilo con Sensor de Rotura",
     level: "Avanzado 🔴",
     category: "Componentes y Mecánica de la Máquina",
     grammarClass: "Locución sustantiva masculina.",
@@ -270,7 +270,7 @@ export const LOTE2_PART3_ES: Record<string, Partial<Verbete>> = {
       "Si la máquina se detiene diciendo 'hilo roto' pero el hilo está entero: limpie la ruedita negra del sensor con alcohol para retirar grasitud.",
       "Si la puntada queda floja con bucles en el frente: verifique que el hilo no se haya salido del ojal de la palanca tirahilos."
     ],
-    dicaArtrelados: "Si la máquina se detiene a cada rato acusando 'rotura de hilo' pero el hilo sigue enhebrado perfecto, ¡déle dos vueltas de hilo alrededor de la ruedita sensora en vez de una sola! Al tener más agarre, la rueda girará sin patinar y la máquina no volverá a dar falsas alarmas.",
+    dicaArtrelados: "Si la máquina se detiene a cada rato acusando 'rotura de hilo' pero el hilo sigue enhebrado perfecto, ¡dele dos vueltas de hilo alrededor de la ruedita sensora en vez de una sola! Al tener más agarre, la rueda girará sin patinar y la máquina no volverá a dar falsas alarmas.",
     voceSabia: "¡La palanca tirahilos recorre más de 3 metros de distancia vertical acumulada por cada minuto de bordado a 1.000 PPM!",
     practicalExercise: "Enhebre su máquina y tire del hilo con la mano observando cómo gira la pequeña ruedita del sensor. Borde una línea y corte el hilo con una tijera para comprobar cómo la máquina se frena en menos de dos puntadas.",
     quickSummary: "Brazo móvil que ajusta cada puntada de bordado e integra un sensor que detiene la máquina de inmediato si el hilo se corta.",
@@ -283,7 +283,7 @@ export const LOTE2_PART3_ES: Record<string, Partial<Verbete>> = {
 
   // A-056
   "a-104-alavanca-pegadora-fio-superior-limpador-linha-wiper": {
-    term: "Palanca Sujetadora de Hilo Superior / Limpiador de Hilo Post-Corte (Thread Wiper Mechanism)",
+    term: "Limpiador de Hilo Tras el Corte",
     level: "Avanzado 🔴",
     category: "Componentes y Mecánica de la Máquina",
     grammarClass: "Locución sustantiva masculina.",
@@ -340,7 +340,7 @@ export const LOTE2_PART3_ES: Record<string, Partial<Verbete>> = {
 
   // A-057
   "a-029-alavanca-puxa-fio-take-up-lever": {
-    term: "Palanca Tirahilos (Thread Take-Up Lever)",
+    term: "Palanca Tirahilos de Compensación",
     level: "Fundamental 🟢",
     category: "Componentes y Mecánica de la Máquina",
     grammarClass: "Locución sustantiva femenina.",
@@ -396,7 +396,7 @@ export const LOTE2_PART3_ES: Record<string, Partial<Verbete>> = {
 
   // A-058
   "overfeed-alimentacao-forcada-fio": {
-    term: "Alimentación Activa de Hilo / Sistema Positivo de Hilo (Positive Thread Feeding System)",
+    term: "Alimentación Activa de Hilo por Entrega Positiva",
     level: "Avanzado 🔴",
     category: "Equipos y Máquinas",
     grammarClass: "Locución sustantiva femenina.",
@@ -453,7 +453,7 @@ export const LOTE2_PART3_ES: Record<string, Partial<Verbete>> = {
 
   // A-059
   "a-011-alimentador-de-linha": {
-    term: "Alimentador de Hilo / Tensor Pre-guía (Thread Feeder)",
+    term: "Pretensor y Guía de Hilo Superior",
     level: "Fundamental 🟢",
     category: "Componentes y Mecánica de la Máquina",
     grammarClass: "Locución sustantiva masculina.",
@@ -509,7 +509,7 @@ export const LOTE2_PART3_ES: Record<string, Partial<Verbete>> = {
 
   // A-060
   "a-078-alinhador-ptico-a-laser-de-centro-de-bastidor-laser-crosshair-center-finder": {
-    term: "Alineador Óptico Láser de Centro de Bastidor (Laser Crosshair Center Finder)",
+    term: "Alineador Óptico Láser para Bastidor",
     level: "Principiante 🟢",
     category: "Equipos y Máquinas",
     grammarClass: "Locución sustantiva masculina.",
@@ -552,9 +552,9 @@ export const LOTE2_PART3_ES: Record<string, Partial<Verbete>> = {
       "Si el láser no coincide con la aguja: descienda la aguja 1 con la mano sobre un retazo de tela y ajuste los dos tornillitos micrométricos del soporte láser hasta que la cruz roja coincida con el agujerito.",
       "Si la línea láser está borrosa: limpie la lente frontal suavemente con un hisopo seco."
     ],
-    dicaArtrelados: "¡El puntero láser en cruz es el mejor invento para alinear remeras y chombas! Haga una marquita con tiza sastre en forma de cruz sobre el bolsillo o el pecho: apoye la cruz láser de la máquina encima de la tiza y gire el diseño en la pantalla si nota que la tela quedó ligeramente inclinada. ¡El bordado saldrá perfecto y derecho al 100%!",
+    dicaArtrelados: "¡El puntero láser en cruz es el mejor invento para alinear camisetas y polos! Haga una marquita con tiza sastre en forma de cruz sobre el bolsillo o el pecho: apoye la cruz láser de la máquina encima de la tiza y gire el diseño en la pantalla si nota que la tela quedó ligeramente inclinada. ¡El bordado saldrá perfecto y derecho al 100%!",
     voceSabia: "¡El puntero láser en cruz proyecta dos líneas perpendiculares a 90 grados exactos, lo que permite verificar no solo el centro, sino también si la prenda está derecha u horizontal en el bastidor!",
-    practicalExercise: "Haga una marca de cruz con tiza lavable en una remera. Encienda el láser de su máquina y use las teclas de desplazamiento del bastidor para alinear la luz roja con la tiza antes de bordar.",
+    practicalExercise: "Haga una marca de cruz con tiza lavable en una camiseta. Encienda el láser de su máquina y use las teclas de desplazamiento del bastidor para alinear la luz roja con la tiza antes de bordar.",
     quickSummary: "Dispositivo láser que proyecta una cruz luminosa sobre la tela para centrar y alinear bordados con rapidez y precisión milimétrica.",
     relatedTerms: [
       "Centrado de Bastidor",

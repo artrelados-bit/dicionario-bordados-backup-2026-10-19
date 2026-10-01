@@ -3,7 +3,7 @@ import { Verbete } from "../../types";
 export const LOTE2_PART1_ES: Record<string, Partial<Verbete>> = {
   // A-031
   "a-027-agulha-para-couro-ponta-cortante": {
-    term: "Aguja para Cuero y Sintéticos / Punta Cortante (Leather Needle - 130/705 H-LL / DBx1-LL)",
+    term: "Aguja para Cuero y Punta Cortante",
     level: "Avanzado 🔴",
     category: "Agujas y Hilos",
     grammarClass: "Locución sustantiva femenina.",
@@ -60,7 +60,7 @@ export const LOTE2_PART1_ES: Record<string, Partial<Verbete>> = {
 
   // A-032
   "a-034-agulha-para-malha-jersey-stretch": {
-    term: "Aguja para Tejidos de Punto y Elásticos (Jersey / Stretch Ball Point Needle - 130/705 H-S / H-SUK)",
+    term: "Aguja para Tejidos de Punto y Elásticos",
     level: "Fundamental 🟢",
     category: "Agujas y Hilos",
     grammarClass: "Locución sustantiva femenina.",
@@ -116,7 +116,7 @@ export const LOTE2_PART1_ES: Record<string, Partial<Verbete>> = {
 
   // A-033
   "a-002-agulha-ponta-bola": {
-    term: "Aguja Punta de Bola (SES / FFG / SUK)",
+    term: "Aguja de Punta de Bola",
     level: "Fundamental 🟢",
     category: "Agujas y Hilos",
     grammarClass: "Locución sustantiva femenina.",
@@ -172,7 +172,7 @@ export const LOTE2_PART1_ES: Record<string, Partial<Verbete>> = {
 
   // A-034
   "a-003-agulha-ponta-lanca": {
-    term: "Aguja Punta de Lanza / Cortante (DI / LL)",
+    term: "Aguja de Punta de Lanza Cortante",
     level: "Avanzado 🔴",
     category: "Agujas y Hilos",
     grammarClass: "Locución sustantiva femenina.",
@@ -229,7 +229,7 @@ export const LOTE2_PART1_ES: Record<string, Partial<Verbete>> = {
 
   // A-035
   "a-069-agulha-titanio": {
-    term: "Aguja de Titanio / Nitruro de Titanio (Titanium Needle - H-ET)",
+    term: "Aguja de Titanio de Larga Duración",
     level: "Fundamental 🟢",
     category: "Agujas y Hilos",
     grammarClass: "Locución sustantiva femenina.",
@@ -286,7 +286,7 @@ export const LOTE2_PART1_ES: Record<string, Partial<Verbete>> = {
 
   // A-036
   "a-072-ajuste-de-altura-do-calcador-tecidos-espessos": {
-    term: "Ajuste de Altura del Prensatelas para Tejidos Gruesos (Presser Foot Height Clearance & Thickness Adjustment)",
+    term: "Ajuste de Altura del Prensatelas para Tejidos Gruesos",
     level: "Intermedio 🟡",
     category: "Mecánica y Componentes de la Máquina / Calibración",
     grammarClass: "Locución sustantiva masculina.",
@@ -342,7 +342,7 @@ export const LOTE2_PART1_ES: Record<string, Partial<Verbete>> = {
 
   // A-037
   "a-ajuste-de-altura-para-relevo-3d-com-eva": {
-    term: "Ajuste de Altura para Relieve 3D con Goma EVA (Compensación Dimensional Vertical & Calibración del Prensatelas)",
+    term: "Ajuste de Altura para Relieve 3D con Goma EVA",
     level: "Avanzado 🔴",
     category: "Técnicas Especiales y Relieve",
     grammarClass: "Locución sustantiva masculina.",
@@ -400,7 +400,7 @@ export const LOTE2_PART1_ES: Record<string, Partial<Verbete>> = {
 
   // A-038
   "a-033-ajuste-de-comprimento-de-ponto": {
-    term: "Ajuste de Longitud de Puntada (Stitch Length Regulation / Minimum & Maximum Stitch)",
+    term: "Ajuste de Longitud de Puntada",
     level: "Fundamental 🟢",
     category: "Parámetros y Software",
     grammarClass: "Locución sustantiva masculina.",
@@ -456,7 +456,7 @@ export const LOTE2_PART1_ES: Record<string, Partial<Verbete>> = {
 
   // A-039
   "a-015-ajuste-de-densidade": {
-    term: "Ajuste de Densidad (Stitch Density Adjustment / Pitch & Spacing)",
+    term: "Ajuste de Densidad",
     level: "Fundamental 🟢",
     category: "Parámetros y Software",
     grammarClass: "Locución sustantiva masculino.",
@@ -512,7 +512,7 @@ export const LOTE2_PART1_ES: Record<string, Partial<Verbete>> = {
 
   // A-040
   "a-ajuste-de-desaceleracao-em-curvas-cornering-slowdown": {
-    term: "Ajuste de Desaceleración en Curvas (Cornering Slowdown / Reducción de Velocidad en Vértices)",
+    term: "Ajuste de Desaceleración en Curvas",
     level: "Avanzado 🔴",
     category: "Operación de la Máquina",
     grammarClass: "Locución sustantiva masculina.",

@@ -2,7 +2,7 @@ import { Verbete } from "../../types";
 
 export const LOTE2_B_PART2_ES: Record<string, Partial<Verbete>> = {
   "b-044-bastidor-meia-tubular": {
-    "term": "Bastidor de Calcetines y Piezas Tubulares (Sock & Sleeve Clamp Hoop)",
+    "term": "Bastidor de Calcetines y Piezas Tubulares",
     "level": "Intermedio 🟡",
     "category": "Bastidores & Fijación",
     "grammarClass": "Locución nominal masculina",
@@ -49,7 +49,7 @@ export const LOTE2_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-083-bastidor-de-meia-e-punho-mini-clamp": {
-    "term": "Bastidor de Calcetines y Puños / Mini-Clamp (Sock & Wristband Framing Clamp)",
+    "term": "Bastidor de Calcetines y Puños / Mini-Clamp",
     "level": "Avanzado 🔴",
     "category": "Bastidores & Fijación",
     "grammarClass": "Locución nominal masculina",
@@ -96,7 +96,7 @@ export const LOTE2_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-002-bastidor-magnetico": {
-    "term": "Bastidor Magnético (Magnetic Hoop / Snap Hoop)",
+    "term": "Bastidor Magnético",
     "level": "Intermedio 🟡",
     "category": "Bastidores & Fijación",
     "grammarClass": "Locución nominal masculina",
@@ -143,7 +143,7 @@ export const LOTE2_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-076-bastidor-magnetico-de-neodimio": {
-    "term": "Bastidor Magnético de Neodimio (Heavy-Duty Magnetic Clamp Hoop)",
+    "term": "Bastidor Magnético de Neodimio",
     "level": "Avanzado 🔴",
     "category": "Bastidores & Fijación",
     "grammarClass": "Locución nominal masculina",
@@ -190,7 +190,7 @@ export const LOTE2_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-074-bastidor-tubular-pecas-cilindricas": {
-    "term": "Bastidor Tubular para Brazo Libre (Tubular Free-Arm Framing)",
+    "term": "Bastidor Tubular para Brazo Libre",
     "level": "Intermedio 🟡",
     "category": "Bastidores & Fijación",
     "grammarClass": "Locución nominal masculina",
@@ -237,7 +237,7 @@ export const LOTE2_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-024-bastidor-virtual": {
-    "term": "Bastidor Virtual (Área de Bordado Digital & Límite de Software)",
+    "term": "Bastidor Virtual",
     "level": "Iniciante 🟢",
     "category": "Digitalização & Matrices",
     "grammarClass": "Locución nominal masculina",
@@ -284,7 +284,7 @@ export const LOTE2_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-004-bastidoramento": {
-    "term": "Montaje en Bastidor / Enbastorado (Hooping)",
+    "term": "Montaje en Bastidor / Enbastorado",
     "level": "Iniciante 🟢",
     "category": "Bastidores & Fijación",
     "grammarClass": "Sustantivo masculino",
@@ -331,7 +331,7 @@ export const LOTE2_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-079": {
-    "term": "Enbastorado y Tensado Textil (Técnica Profesional de Montaje en Bastidor)",
+    "term": "Enbastorado y Tensado Textil",
     "level": "Avanzado 🔴",
     "category": "Bastidores & Fijación",
     "grammarClass": "Locución nominal masculina",
@@ -378,7 +378,7 @@ export const LOTE2_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-052-basting-box-caixa-de-alinhavo": {
-    "term": "Basting Box / Caja de Hilván Perimétrico (Puntadas de Hilván y Sujeción Perimetral)",
+    "term": "Basting Box / Caja de Hilván Perimétrico",
     "level": "Iniciante 🟢",
     "category": "Digitalización & Matrices",
     "grammarClass": "Locución nominal femenina",

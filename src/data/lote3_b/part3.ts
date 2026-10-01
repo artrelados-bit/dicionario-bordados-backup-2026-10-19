@@ -2,7 +2,7 @@ import { Verbete } from "../../types";
 
 export const LOTE3_B_PART3_ES: Record<string, Partial<Verbete>> = {
   "b-bones-e-chapeus-no-bordado-eletronico": {
-    "term": "Gorras y Sombreros en el Bordado Electrónico (Estructurados, Visera Plana y Relieve 3D)",
+    "term": "Gorras y Sombreros en el Bordado Electrónico",
     "level": "Avanzado 🔴",
     "category": "Técnicas & Aplicaciones",
     "grammarClass": "Locución nominal masculina",
@@ -49,7 +49,7 @@ export const LOTE3_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-046-borda-cordone": {
-    "term": "Borde Cordoncillo / Cordón de Realce (Cord Embroidery & Cording)",
+    "term": "Borde Cordoncillo / Cordón de Realce",
     "level": "Intermedio 🟡",
     "category": "Técnicas & Aplicaciones",
     "grammarClass": "Locución nominal masculina",
@@ -96,7 +96,7 @@ export const LOTE3_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-045-borda-acabamento-satin": {
-    "term": "Borde de Terminación Satín / Ribete Merrow (Satin Border & Overlock Merrow)",
+    "term": "Borde de Terminación Satín / Ribete Merrow",
     "level": "Intermedio 🟡",
     "category": "Técnicas & Aplicaciones",
     "grammarClass": "Locución nominal masculina",
@@ -143,7 +143,7 @@ export const LOTE3_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-078": {
-    "term": "Borde de Parche / Acabado Merrow de Emblemas (Emblem Overlock Merrow Border)",
+    "term": "Borde de Parche / Acabado Merrow de Emblemas",
     "level": "Avanzado 🔴",
     "category": "Técnicas & Aplicaciones",
     "grammarClass": "Locución nominal masculina",
@@ -190,7 +190,7 @@ export const LOTE3_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-100-borda-de-seguranca-anti-vibracao-e-compensacao-dinamica-de-bordo": {
-    "term": "Borde de Seguridad Antivibración y Búfer Dinámico de Contorno (Dynamic Anti-Vibration Edge Buffer)",
+    "term": "Borde de Seguridad Antivibración y Búfer Dinámico de Contorno",
     "level": "Avanzado 🔴",
     "category": "Digitalização & Matrices",
     "grammarClass": "Locución nominal masculina",
@@ -237,7 +237,7 @@ export const LOTE3_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-070-borda-em-ponto-cheio-satin-border": {
-    "term": "Borde en Puntada Satín / Cordón Perimetral (Satin Border & Appliqué Seal)",
+    "term": "Borde en Puntada Satín / Cordón Perimetral",
     "level": "Iniciante 🟢",
     "category": "Técnicas & Aplicaciones",
     "grammarClass": "Locución nominal masculina",
@@ -284,7 +284,7 @@ export const LOTE3_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-086-borda-em-ponto-pico-picot-stitching": {
-    "term": "Borde en Puntada Picot / Festón con Presillas (Heirloom Picot Border & Edge Loop)",
+    "term": "Borde en Puntada Picot / Festón con Presillas",
     "level": "Intermedio 🟡",
     "category": "Técnicas & Aplicaciones",
     "grammarClass": "Locución nominal masculina",
@@ -331,7 +331,7 @@ export const LOTE3_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-092-borda-ondulada-em-festone-frances": {
-    "term": "Borde Ondulado en Festón Francés (French Scalloped Edge & Cutwork Border)",
+    "term": "Borde Ondulado en Festón Francés",
     "level": "Intermedio 🟡",
     "category": "Técnicas & Aplicaciones",
     "grammarClass": "Locución nominal masculina",

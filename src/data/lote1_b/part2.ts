@@ -2,7 +2,7 @@ import { Verbete } from "../../types";
 
 export const LOTE1_B_PART2_ES: Record<string, Partial<Verbete>> = {
   "b-082": {
-    "term": "Balance de Tensión del Hilo (Proporción 1/3 Artrelados)",
+    "term": "Balance de Tensión del Hilo",
     "level": "Intermedio 🟡",
     "category": "Tensión & Mecánica",
     "grammarClass": "Locución sustantiva masculina.",
@@ -56,7 +56,7 @@ export const LOTE1_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "overhang-balanco-frontal-braco-pantografo": {
-    "term": "Vuelo Frontal y Rigidez Mecánica del Pantógrafo (Pantograph Cantilever Stability)",
+    "term": "Vuelo Frontal y Rigidez Mecánica del Pantógrafo",
     "level": "Avanzado 🔴",
     "category": "Mantenimiento & Mecánica",
     "grammarClass": "Locución sustantiva masculina.",
@@ -110,7 +110,7 @@ export const LOTE1_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-113-bandeja-coletora-oleo-residual-drenagem-cabecote": {
-    "term": "Bandeja Colectora de Aceite Residual y Drenaje de Cabezal (Oil Drain Pan & Residual Head Catch Basin)",
+    "term": "Bandeja Colectora de Aceite Residual y Drenaje de Cabezal",
     "level": "Intermedio 🟡",
     "category": "Mecánica & Mantenimiento",
     "grammarClass": "Locución sustantiva femenina.",
@@ -164,7 +164,7 @@ export const LOTE1_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-066-bandeja-de-desbobinamento-porta-cones-thread-stand": {
-    "term": "Bandeja de Desbobinado / Portaconos Externo (Thread Stand & Cone Holder)",
+    "term": "Bandeja de Desbobinado / Portaconos Externo",
     "level": "Fundamental 🟢",
     "category": "Accesorios & Soportes",
     "grammarClass": "Locución sustantiva femenina.",
@@ -218,7 +218,7 @@ export const LOTE1_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-015-barra-de-agulha": {
-    "term": "Barra de Aguja (Needle Bar)",
+    "term": "Barra de Aguja",
     "level": "Fundamental 🟢",
     "category": "Agujas & Hilos",
     "grammarClass": "Locución sustantiva femenina.",
@@ -273,7 +273,7 @@ export const LOTE1_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-107-barra-de-agulha-e-bucha-guia-needle-bar-bushing": {
-    "term": "Barra de Aguja y Buje Guía (Needle Bar & Bushing)",
+    "term": "Barra de Aguja y Buje Guía",
     "level": "Intermedio a Avanzado 🟡🔴",
     "category": "Mecánica & Mantenimiento",
     "grammarClass": "Locución sustantiva femenina.",
@@ -327,7 +327,7 @@ export const LOTE1_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-063-barra-de-agulha-needle-bar": {
-    "term": "Barra de Aguja y Tornillo de Fijación (Needle Bar & Needle Clamp)",
+    "term": "Barra de Aguja y Tornillo de Fijación",
     "level": "Intermedio 🟡",
     "category": "Componentes de la Máquina",
     "grammarClass": "Locución sustantiva femenina.",
@@ -381,7 +381,7 @@ export const LOTE1_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-073-barra-de-agulhas-multiplas-troca-de-cor": {
-    "term": "Barra de Agujas Múltiples / Bloque de Cambio de Color (Multi-Needle Bar & Color Changer)",
+    "term": "Barra de Agujas Múltiples / Bloque de Cambio de Color",
     "level": "Avanzado 🔴",
     "category": "Componentes de la Máquina",
     "grammarClass": "Locución sustantiva femenina.",
@@ -436,7 +436,7 @@ export const LOTE1_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-109-barra-de-iluminacao-led-spot-focado-agulha": {
-    "term": "Barra de Iluminación LED Flexible / Spot Focalizado de Aguja (Needle Area LED Illumination Bar)",
+    "term": "Barra de Iluminación LED Flexible / Spot Focalizado de Aguja",
     "level": "Iniciante a Intermedio 🟢🟡",
     "category": "Mecánica & Mantenimiento",
     "grammarClass": "Locución sustantiva femenina.",

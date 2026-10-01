@@ -152,8 +152,6 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
   // Prefer dynamic sequential code
   const displayCode =
     rawVerbete.dynamicCode || verbete.dynamicCode || verbete.code || rawVerbete.code || `${(verbete.term || "V").trim().charAt(0).toUpperCase()}-001`;
-  const originalMasterCode = rawVerbete.code || verbete.code;
-  const showOriginalRef = originalMasterCode && originalMasterCode !== displayCode;
 
   const handleCopyText = () => {
     const textToCopy = `${verbete.term} (${displayCode}) - DIBE Artrelados\n\n${t.modalQuickSummary}: ${verbete.summary}\n\n${t.modalDefinition}:\n${verbete.definition}\n\n${t.modalTechnicalDetails}:\n${verbete.technicalDetails || ""}\n\n${t.modalApplications}: ${(verbete.applications || []).join(", ")}`;
@@ -199,11 +197,6 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             {displayCode && (
               <span className="px-3 py-1 rounded-lg text-xs font-black bg-[#101726] text-amber-300 border border-slate-800 shadow-xs font-mono">
                 {displayCode}
-              </span>
-            )}
-            {showOriginalRef && (
-              <span className="px-2.5 py-1 rounded-lg text-xs font-mono font-bold bg-slate-100 text-slate-600 border border-slate-200">
-                {currentLanguage === "es" ? `Registro Original: ${originalMasterCode}` : `Registro Original: ${originalMasterCode}`}
               </span>
             )}
             <span className="px-2.5 py-1 rounded-lg text-xs font-black uppercase tracking-wider bg-amber-400 text-slate-950 border border-amber-500 shadow-2xs">
@@ -274,18 +267,6 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight leading-snug">
               {verbete.term}
             </h2>
-
-            {currentLanguage !== "pt" && rawVerbete && rawVerbete.term && rawVerbete.term !== verbete.term && (
-              <p className="text-xs sm:text-sm font-medium text-slate-500 italic">
-                {currentLanguage === "es" ? "Original en Portugués:" : "Original em Português:"}{" "}
-                <span className="text-slate-800 not-italic font-bold">
-                  {rawVerbete.term.replace(/^[🟢🟡🔴\s]+/, "")}
-                </span>{" "}
-                <span className="font-mono text-xs text-amber-900 bg-amber-100/80 px-2 py-0.5 rounded font-black not-italic ml-1">
-                  [{rawVerbete.code || verbete.code}]
-                </span>
-              </p>
-            )}
             
             <div className="flex flex-wrap items-center gap-2 pt-0.5">
               {verbete.grammarClass && (

@@ -134,7 +134,7 @@ export const LOTE4_PART1_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "El desgaste prematuro de agujas e hilos por fricción térmica incrementa el consumo de consumibles. Programe la reposición periódica de agujas con la Calculadora de Bordado Artrelados."
   },
   "a-076-arame-guia-fio-de-espiral-dupla": {
-    "term": "Guía-Hilo de Alambre en Doble Espiral (Pigtail)",
+    "term": "Guía-Hilo de Alambre en Doble Espiral",
     "level": "Intermedio 🟡",
     "category": "Componentes y Mecánica de la Máquina",
     "grammarClass": "Locución sustantiva masculina técnica",
@@ -196,7 +196,7 @@ export const LOTE4_PART1_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "El mantenimiento regular y el cambio oportuno de piezas de guiado evitan paradas inesperadas que recortan la productividad evaluada en la Calculadora de Bordado Artrelados."
   },
   "a-086-aresta-chanfrada-de-ponto-de-preenchimento-tatami-mitered-corner-chiseled-edge": {
-    "term": "Esquina Biselada en Relleno Tatami (Mitered Chiseled Edge)",
+    "term": "Esquina Biselada en Relleno Tatami",
     "level": "Intermedio 🟡",
     "category": "Programación y Digitalización de Matrices",
     "grammarClass": "Locución sustantiva femenina técnica",
@@ -258,7 +258,7 @@ export const LOTE4_PART1_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "Una matriz con ángulos biselados optimizados consume menos hilo y reduce tiempo de máquina. Cotice archivos profesionales con la Calculadora de Bordados Artrelados."
   },
   "a-argola-e-ilhos-chaveiro-in-the-hoop-bastidor": {
-    "term": "Ojales y Argollas Metálicas para Llaveros en Bastidor (ITH)",
+    "term": "Ojales y Argollas Metálicas para Llaveros en Bastidor",
     "level": "Iniciante 🟢 a Intermedio 🟡",
     "category": "Proyectos en el Bastidor (ITH) y Fornituras",
     "grammarClass": "Locución sustantiva femenina técnica",

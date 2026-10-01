@@ -2,7 +2,7 @@ import { Verbete } from "../../types";
 
 export const LOTE1_B_PART1_ES: Record<string, Partial<Verbete>> = {
   "b-babador-e-prendedor-de-chupeta-acessorios-infantis": {
-    "term": "Babero y Sujetachupetes en el Bastidor (Accesorios Infantiles ITH)",
+    "term": "Babero y Sujetachupetes en el Bastidor",
     "level": "Iniciante 🟢",
     "category": "Técnicas de Bastidor",
     "grammarClass": "Locución sustantiva masculina.",
@@ -56,7 +56,7 @@ export const LOTE1_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-104-baby-lock-maquinas-de-bordado-eletronico": {
-    "term": "Baby Lock (Máquinas de Bordado Computarizado)",
+    "term": "Baby Lock",
     "level": "Intermedio a Avanzado 🟡🔴",
     "category": "Máquinas y Equipos",
     "grammarClass": "Marca registrada / Sustantivo propio.",
@@ -110,7 +110,7 @@ export const LOTE1_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-008-backing": {
-    "term": "Backing (Estabilizador / Entretela de Base)",
+    "term": "Backing",
     "level": "Fundamental 🟢",
     "category": "Estabilizadores & Entretelas",
     "grammarClass": "Sustantivo masculino (del inglés backing).",
@@ -164,7 +164,7 @@ export const LOTE1_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-071-backing-textil-entretela-estrutural": {
-    "term": "Backing Textil / Entretela Estructural (Stabilizer Backing & Structural Base)",
+    "term": "Backing Textil / Entretela Estructural",
     "level": "Fundamental 🟢",
     "category": "Estabilizadores & Entretelas",
     "grammarClass": "Locución sustantiva masculina.",
@@ -218,7 +218,7 @@ export const LOTE1_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-105-bai-baili-maquinas-de-bordado-eletronico": {
-    "term": "BAI / Baili (Máquinas de Bordado Computarizado)",
+    "term": "BAI / Baili",
     "level": "Intermedio a Avanzado 🟡🔴",
     "category": "Máquinas y Equipos",
     "grammarClass": "Marca registrada / Sustantivo propio.",
@@ -272,7 +272,7 @@ export const LOTE1_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-065-bainha-aberta-computadorizada-openwork": {
-    "term": "Vainica Abierta Computarizada (Machine Openwork & Entre-Deux Heirloom)",
+    "term": "Vainica Abierta Computarizada",
     "level": "Intermedio 🟡",
     "category": "Técnicas de Bordado",
     "grammarClass": "Locución sustantiva femenina.",
@@ -326,7 +326,7 @@ export const LOTE1_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-040-bainha-aberta-eletronica": {
-    "term": "Vainica Abierta Electrónica (Electronic Openwork / Hemstitch)",
+    "term": "Vainica Abierta Electrónica",
     "level": "Avanzado 🔴",
     "category": "Puntadas Básicas & Decorativas",
     "grammarClass": "Locución sustantiva femenina.",
@@ -380,7 +380,7 @@ export const LOTE1_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-bainha-aberta-em-ponto-cheio": {
-    "term": "Vainica Abierta en Punto Relleno (Satin Stitch Openwork Border)",
+    "term": "Vainica Abierta en Punto Relleno",
     "level": "Intermedio a Avanzado 🟡🔴",
     "category": "Acabado & Finalización",
     "grammarClass": "Locución sustantiva femenina.",
@@ -434,7 +434,7 @@ export const LOTE1_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-087-balanco-de-ponto-e-compensacao-de-inercia-do-pantografo": {
-    "term": "Balance de Puntada y Compensación de Inercia del Pantógrafo (Pantograph Inertia Stitch Balance)",
+    "term": "Balance de Puntada y Compensación de Inercia del Pantógrafo",
     "level": "Avanzado 🔴",
     "category": "Digitalización y Software",
     "grammarClass": "Locución sustantiva masculina.",

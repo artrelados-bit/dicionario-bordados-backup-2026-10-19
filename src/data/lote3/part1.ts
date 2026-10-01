@@ -2,7 +2,7 @@ import { Verbete } from "../../types";
 
 export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
   "a-092-alinhamento-a-laser-de-ponto-cruzado": {
-    "term": "Alineación Láser de Cruz / Punto Cruzado (Crosshair Laser Alignment System)",
+    "term": "Alineación Láser de Cruz para Bastidor",
     "level": "Intermedio 🟡",
     "category": "Bastidores y Fijación",
     "grammarClass": "Locución sustantiva masculina.",
@@ -10,7 +10,7 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
     "summary": "Dispositivo óptico que proyecta una cruz luminosa roja o verde sobre la tela para centrar la matriz con precisión milimétrica sin necesidad de marcar con tiza.",
     "definition": "El sistema de alineación láser de cruz ortogonal (Crosshair Laser Alignment System / Laser Pointer Positioning) es un accesorio optoelectrónico integrado en el cabezal de bordado que emite dos haces de luz perpendiculares intersecting en las coordenadas cartesianas (X:0, Y:0) de la matriz. Permite casar la aguja activa con el centro exacto de la prenda, verificar rotaciones angulares e inspeccionar los límites perimétricos sin desgastar la tela ni perforar el estabilizador antes de coser.",
     "technicalDetails": "Utiliza un diodo láser semiconductor de clase 2 (longitud de onda de 532 nm para haz verde o 650 nm para haz rojo) calibrado con una distancia focal de 40 a 60 mm respecto a la placa de aguja. La proyección de cruz proporciona una referencia ortogonal instantánea en los ejes X e Y, permitiendo corregir giros de 0,5° a 45° directamente desde la pantalla táctil de la máquina sin desbastar la prenda del bastidor.",
-    "beginnerExplanation": "Es como la mira telescópica o puntero láser de una película, pero para tu máquina de bordar. Enciende una crucecita de luz brillante sobre la remera o toalla para mostrarte con exactitud matemática dónde caerá la primera puntada, sin que tengas que adivinar o bajar la aguja a mano corriendo el riesgo de pincharte o manchar la tela.",
+    "beginnerExplanation": "Es como la mira telescópica o puntero láser de una película, pero para tu máquina de bordar. Enciende una crucecita de luz brillante sobre la camiseta o toalla para mostrarte con exactitud matemática dónde caerá la primera puntada, sin que tengas que adivinar o bajar la aguja a mano corriendo el riesgo de pincharte o manchar la tela.",
     "construction": [
       "Módulo de diodo láser semiconductor (rojo 650nm o verde 532nm de 5mW)",
       "Lente óptica prismática de enfoque y generación de cruz ortogonal",
@@ -74,7 +74,7 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-043-alinhamento-de-bastidor": {
-    "term": "Alineación de Bastidor (Hoop Alignment & Centering)",
+    "term": "Alineación de Bastidor",
     "level": "Iniciante 🟢",
     "category": "Técnicas de Bastidor",
     "grammarClass": "Locución sustantiva femenina.",
@@ -135,8 +135,8 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
       "Trazado Perimétrico de Seguridad (Trace / Check Frame)"
     ],
     "applications": [
-      "Bordados en pecho de chombas y camisas de trabajo.",
-      "Logotipos en bolsillos delanteros, mangas y espaldas de buzos.",
+      "Bordados en pecho de polos y camisas de trabajo.",
+      "Logotipos en bolsillos delanteros, mangas y espaldas de sudaderas.",
       "Bordado de toallas de baño, batas y sábanas con guardas lineales."
     ],
     "recommendedSettings": {
@@ -148,7 +148,7 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-008-alinhamento-de-contorno": {
-    "term": "Alineación de Contorno y Registro (Registration Alignment)",
+    "term": "Alineación de Contorno y Registro",
     "level": "Intermedio 🟡",
     "category": "Solución de Problemas",
     "grammarClass": "Locución sustantiva masculina.",
@@ -185,7 +185,7 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
       "Aumentar la velocidad por encima de 850 PPM incrementa la probabilidad de desalineación en máquinas ligeras."
     ],
     "commonErrors": [
-      "❌ Bordar una matriz diseñada para tela plana rígida directamente sobre una remera de punto elástico sin cambiar entretela.",
+      "❌ Bordar una matriz diseñada para tela plana rígida directamente sobre una camiseta de punto elástico sin cambiar entretela.",
       "❌ Dejar el estabilizador flojo o mal estirado dentro del bastidor.",
       "❌ Olvidar digitalizar la compensación de encogimiento (Pull Compensation) en el software.",
       "❌ Utilizar agujas desafiladas que desvían el punto de inserción al penetrar capas densas."
@@ -197,7 +197,7 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
     ],
     "dicaArtrelados": "¡El truco maestro del taller para solucionar problemas de registro sin tener que redigitalizar la matriz entera! Agregue una entretela recortable más firme por debajo y reduzca la velocidad de la máquina a 650 PPM. Verá cómo la tela deja de 'bailar' y los contornos vuelven a encajar como piezas de rompecabezas.",
     "voceSabia": "¡En la industria gráfica y textil existe la regla de 'sangría y sobreposición': para que dos colores nunca se separen, el borde del relleno debe solaparse por lo menos 3 a 4 décimas de milímetro debajo del cordón perimétrico!",
-    "practicalExercise": "Diseñe o cargue un círculo con relleno de puntada tatami de 5 cm de diámetro y rodeado por un contorno satén de 2 mm. Bórdelo primero sobre una remera elástica con entretela rasgable liviana y observe el espacio vacío que se forma. Luego, borde el mismo archivo con entretela recortable firme de 80 g/m² y compare la nitidez del encastre.",
+    "practicalExercise": "Diseñe o cargue un círculo con relleno de puntada tatami de 5 cm de diámetro y rodeado por un contorno satén de 2 mm. Bórdelo primero sobre una camiseta elástica con entretela rasgable liviana y observe el espacio vacío que se forma. Luego, borde el mismo archivo con entretela recortable firme de 80 g/m² y compare la nitidez del encastre.",
     "quickSummary": "La alineación de contorno es la concordancia exacta entre el relleno y el borde perimetral de un diseño, evitando holguras producidas por la tracción natural de las puntadas.",
     "imageCaption": "Detalle macro que ilustra el registro perfecto entre el relleno tatami y el contorno exterior de satén con compensación de tracción.",
     "relatedTerms": [
@@ -220,7 +220,7 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-039-alinhamento-de-matrizes": {
-    "term": "Alineación y Posicionamiento de Matrices (Design Alignment & Coordinate Positioning)",
+    "term": "Alineación y Posicionamiento de Diseños",
     "level": "Iniciante 🟢",
     "category": "Operación de la Máquina",
     "grammarClass": "Locución sustantiva masculina.",
@@ -268,7 +268,7 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
       "Si la máquina no permite mover más la matriz hacia un lado: Ha alcanzado el límite físico del bastidor seleccionado; debe reposicionar la prenda en el aro o elegir un bastidor de mayor dimensión.",
       "Si el diseño se borda rotado 90 grados: Verifique en la pantalla la orientación vertical/horizontal del archivo y use la función de rotación de 90° antes de arrancar."
     ],
-    "dicaArtrelados": "¡Nuestra técnica infalible para ubicar bordados en el pecho de remeras y chombas! Mida 7 a 9 cm hacia la derecha desde el centro del pecho y baje entre 18 y 20 cm desde la costura más alta del hombro. En ese cruce exacto posicione el centro de su matriz: ¡le aseguramos que quedará elegante y proporcionado en cualquier cuerpo!",
+    "dicaArtrelados": "¡Nuestra técnica infalible para ubicar bordados en el pecho de camisetas y polos! Mida 7 a 9 cm hacia la derecha desde el centro del pecho y baje entre 18 y 20 cm desde la costura más alta del hombro. En ese cruce exacto posicione el centro de su matriz: ¡le aseguramos que quedará elegante y proporcionado en cualquier cuerpo!",
     "voceSabia": "¡La función 'Trace' (recorrido de contorno) recorre el rectángulo envolvente (Bounding Box) del bordado a máxima velocidad sin coser para que la operadora confirme que el pie prensatelas no rozará los laterales plásticos del bastidor!",
     "practicalExercise": "Cargue un logotipo pequeño de 8x8 cm. Encienda la máquina y mueva el dibujo con las flechas del panel hasta las cuatro esquinas permitidas del bastidor, observando cómo la máquina frena automáticamente cuando alcanza el límite de seguridad milimétrico.",
     "quickSummary": "La alineación de matrices es el ajuste digital de posición, centro y rotación del diseño en la pantalla de la máquina antes de bordar para lograr una ubicación perfecta en la prenda.",
@@ -280,7 +280,7 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
       "Alineación de Bastidor (Hoop Alignment & Centering)"
     ],
     "applications": [
-      "Ubicación de escudos en el pecho de chombas y chaquetas de trabajo.",
+      "Ubicación de escudos en el pecho de polos y chaquetas de trabajo.",
       "Centrado de iniciales en toallas de mano y sábanas.",
       "Bordado de nombres personalizados sobre bolsillos de delantales y guardapolvos escolares."
     ],
@@ -293,7 +293,7 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-041-alinhamento-de-agulha-em-maquinas-multiagulhas": {
-    "term": "Alineación y Compensación de Agujas Multiaguja (Multi-Needle Head Alignment & Color Offset)",
+    "term": "Alineación de Agujas en Máquinas Multiaguja",
     "level": "Avanzado 🔴",
     "category": "Operación de la Máquina",
     "grammarClass": "Locución sustantiva femenina.",
@@ -364,7 +364,7 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-051-alinhave-no-bastidor-costura-basting": {
-    "term": "Hilván en Bastidor / Costura de Basting (Basting Stitch in the Hoop)",
+    "term": "Hilván de Seguridad en Bastidor",
     "level": "Iniciante 🟢",
     "category": "Programación de Bordado",
     "grammarClass": "Locución sustantiva masculina.",
@@ -372,7 +372,7 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
     "summary": "Marco perimétrico de puntadas largas y espaciadas ejecutado antes del bordado principal para asegurar telas delicadas o flotantes sobre el estabilizador.",
     "definition": "El hilván en bastidor (conocido técnicamente como Basting Stitch in the Hoop o Basting Box) es una función programada de seguridad que cose una costura perimetral provisoria con puntadas de paso largo (generalmente de 4,0 mm a 6,0 mm) alrededor del diseño o siguiendo el contorno interior del aro. Su función principal es anclar firmemente telas difíciles, prendas pequeñas o materiales gruesos (técnica de flotación) directamente al estabilizador sin necesidad de aprisionar la tela entre los aros del bastidor.",
     "technicalDetails": "Las puntadas de hilván operan con baja tensión y gran longitud para permitir que el hilo se retire tirando fácilmente de un solo extremo al finalizar el trabajo, sin dejar perforaciones visibles ni marcas en la prenda. Se programa como primer bloque de color de la matriz (Paso 0) antes de cualquier puntada de refuerzo o relleno definitivo.",
-    "beginnerExplanation": "Imagínese que quiere bordar una toalla de terciopelo o un buzo muy grueso que no entra en el bastidor sin romperlo. Enbastidora solo la entretela bien tensa, apoya la prenda encima y la máquina cose un caminito de puntadas largas y flojas alrededor del dibujo. Eso sostiene la prenda bien firme como si fueran alfileres mágicos que luego se quitan tirando del hilo.",
+    "beginnerExplanation": "Imagínese que quiere bordar una toalla de terciopelo o un sudadera muy grueso que no entra en el bastidor sin romperlo. Enbastidora solo la entretela bien tensa, apoya la prenda encima y la máquina cose un caminito de puntadas largas y flojas alrededor del dibujo. Eso sostiene la prenda bien firme como si fueran alfileres mágicos que luego se quitan tirando del hilo.",
     "construction": [
       "Comando de función Basting Box activo en la pantalla de la bordadora",
       "Puntadas rectas continuas de 4 a 6 mm de longitud",
@@ -436,7 +436,7 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-067-alinhavo-de-fixacao": {
-    "term": "Hilván Perimétrico de Fijación (Basting Stitch & Perimeter Grid)",
+    "term": "Hilván Perimétrico de Fijación",
     "level": "Iniciante 🟢",
     "category": "Técnicas de Bastidor",
     "grammarClass": "Locución sustantiva masculina.",
@@ -483,7 +483,7 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
       "Si el hilván se cose sobre el borde del diseño: En el software, aumente el margen de separación del basting (Basting Margin) a 4 o 5 mm.",
       "Si la tela queda con pequeños orificios visibles tras quitar el hilván: Frote suavemente la tela con la yema del dedo húmeda o aplique un golpe de vapor de plancha para que las fibras recuperen su posición original."
     ],
-    "dicaArtrelados": "¡Ideal para bordar toallas y prendas de punto! Cuando borde remeras o toallas de felpa, use siempre el hilván de fijación. Evita que la remera se estire con las puntadas y garantiza que las letras queden derechitas y nítidas de principio a fin.",
+    "dicaArtrelados": "¡Ideal para bordar toallas y prendas de punto! Cuando borde camisetas o toallas de felpa, use siempre el hilván de fijación. Evita que la camiseta se estire con las puntadas y garantiza que las letras queden derechitas y nítidas de principio a fin.",
     "voceSabia": "¡Algunos talleres industriales utilizan hilo soluble en agua para el hilván perimétrico: al lavar la prenda por primera vez, el hilván desaparece solo sin necesidad de descoserlo a mano!",
     "practicalExercise": "Borde un logotipo en una camiseta de algodón con y sin hilván perimétrico de fijación. Compare el resultado y compruebe cómo la prenda con hilván mantiene los bordes planos y sin ninguna deformación.",
     "quickSummary": "Costura exterior preventiva con puntadas largas que estabiliza la tela y la entretela evitando deslizamientos durante el bordado de alta densidad.",
@@ -495,7 +495,7 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
       "Técnica de Tela Flotante en Bastidor"
     ],
     "applications": [
-      "Prendas de punto (remeras, polos, buzos) propensas a encogerse.",
+      "Prendas de punto (camisetas, polos, sudaderas) propensas a encogerse.",
       "Toallas de baño y tejidos aterciopelados.",
       "Telas sintéticas resbaladizas y sedas con estabilizador flotante."
     ],
@@ -508,15 +508,15 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-094-almofada-de-calcador-em-borracha-anti-impacto": {
-    "term": "Almohadilla Antirrayas de Prensatelas en Goma / Silicona (Rubberized Presser Foot Cushion)",
+    "term": "Almohadilla Antirrayaduras para Prensatelas",
     "level": "Avanzado 🔴",
     "category": "Componentes y Mecánica de la Máquina",
     "grammarClass": "Locución sustantiva femenina.",
-    "origin": "Del árabe al-mukhadda (almohadón, apoyo mullido) y del latín impactus (golpe o presión de choque). Accesorio protector desarrollado para calzado y tapicería automotriz de alta gama.",
+    "origin": "Del árabe al-mukhadda (cojín, apoyo mullido) y del latín impactus (golpe o presión de choque). Accesorio protector desarrollado para calzado y tapicería automotriz de alta gama.",
     "summary": "Guarnición blanda de silicona o poliuretano adherida a la base del pie prensatelas para evitar marcas de fricción y rayaduras en cueros nobles y vinilos.",
     "definition": "La almohadilla de prensatelas en goma o silicona anti-impacto (Rubberized Presser Foot Cushion / Non-Marking Foot Pad) es un revestimiento elastomérico o anillo de amortiguación autoadhesivo fijado en la superficie inferior de contacto del prensatelas metálico de bordado. Su propósito es absorber el golpe mecánico continuo del prensatelas sobre materiales susceptibles a marcas permanentes (cueros flor, sintéticos pulidos, charol, vinilos o tejidos de terciopelo brillante), evitando que el metal pulido bruña, marque o rompa la superficie durante miles de ciclos de costura.",
     "technicalDetails": "Un prensatelas de bordado electrónico golpea la tela entre 600 y 1.000 veces por minuto con una presión dinámica regulada por resorte. En materiales de baja memoria elástica como el cuero natural o el vinilo plástico, este martilleo metálico deja una marca circular indeleble alrededor de cada área bordada ('halo de prensatelas'). La almohadilla de silicona vulcanizada de 0,5 mm de grosor con dureza Shore A 50-60 amortigua el impacto y distribuye la carga sobre una mayor superficie sin frenar el desplazamiento del pantógrafo.",
-    "beginnerExplanation": "Es como ponerle una suelita de goma suave o una calcomanía de silicona debajo del pie de metal de la máquina. Cuando el piecito de metal baja a toda velocidad sobre una campera de cuero o ecocuero, no deja ese círculo brilloso o machucado que tanto cuesta sacar y que arruina el trabajo.",
+    "beginnerExplanation": "Es como ponerle una suelita de goma suave o una calcomanía de silicona debajo del pie de metal de la máquina. Cuando el piecito de metal baja a toda velocidad sobre una chaqueta de cuero o ecocuero, no deja ese círculo brilloso o machucado que tanto cuesta sacar y que arruina el trabajo.",
     "construction": [
       "Lámina de silicona de grado técnico o teflón fluoropolímero de 0,4 a 0,8 mm",
       "Adhesivo acrílico de alta adherencia resistente al calor por fricción",
@@ -536,7 +536,7 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
       "Pie Prensatelas con Recubrimiento de Goma Vulcanizada de Fábrica"
     ],
     "advantages": [
-      "✔ Previene arruinar camperas, bolsos y tapizados de cuero costosos",
+      "✔ Previene arruinar chaquetas, bolsos y tapizados de cuero costosos",
       "✔ Elimina por completo las marcas brillantes por frotamiento en telas de satén y seda",
       "✔ Reduce el ruido acústico de golpeteo metálico del cabezal de bordado",
       "✔ Fácil de colocar y reemplazar a muy bajo costo"
@@ -554,7 +554,7 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
       "Si la almohadilla se desprende a media costura: Limpie a fondo el pie con disolvente desengrasante y use almohadillas originales con adhesivo 3M de alto rendimiento.",
       "Si la aguja roza el borde de la goma: Afloje el pie prensatelas y centre el orificio con la aguja bajada manualmente."
     ],
-    "dicaArtrelados": "¡El secreto de los especialistas en marroquinería y camperas de cuero! Si no consigue almohadillas comerciales, corte un circulito pequeño de cinta de teflón autoadhesiva o cinta de pintor de buena calidad y péguela en la base del prensatelas. ¡Protege el cuero de maravilla y no deja ni una sola marca!",
+    "dicaArtrelados": "¡El secreto de los especialistas en marroquinería y chaquetas de cuero! Si no consigue almohadillas comerciales, corte un circulito pequeño de cinta de teflón autoadhesiva o cinta de pintor de buena calidad y péguela en la base del prensatelas. ¡Protege el cuero de maravilla y no deja ni una sola marca!",
     "voceSabia": "¡En el bordado de butacas de cuero para automóviles de lujo (Mercedes-Benz, BMW), el uso de pies prensatelas recubiertos de polímero blando es una exigencia obligatoria de control de calidad bajo normas ISO!",
     "practicalExercise": "Tome un retazo de cuero sintético brillante. Borde una línea recta de 5 cm con el pie prensatelas de metal directo y otra línea con la almohadilla protectora colocada. Observe a contraluz la diferencia: el lado con almohadilla no presentará ninguna marca circular de presión.",
     "quickSummary": "Protección suave de silicona o teflón fijada bajo el prensatelas para evitar marcas de impacto y fricción en cueros, charoles y materiales delicados.",
@@ -566,7 +566,7 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
       "Bordado en Cuero y Marroquinería"
     ],
     "applications": [
-      "Bordado de camperas, cinturones y billeteras de cuero natural o ecológico.",
+      "Bordado de chaquetas, cinturones y billeteras de cuero natural o ecológico.",
       "Tapicería náutica y automotriz en vinilo y cuerina.",
       "Prendas de fiesta en raso de seda brillante o terciopelo."
     ],
@@ -579,15 +579,15 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-almofadas-e-capas-decorativas-quilting": {
-    "term": "Almohadones y Fundas Decorativas con Bordado y Quilting (Decorative Pillow Cover Embroidery & In-The-Hoop Quilting)",
+    "term": "Cojines y Fundas Decorativas Bordadas",
     "level": "Intermedio 🟡",
     "category": "Tipos de Tejidos",
     "grammarClass": "Locución sustantiva masculina.",
-    "origin": "Del árabe al-muhadda (apoyo de la mejilla, almohadón de descanso y honor en los palacios moriscos) y del inglés quilting (acolchado en capas). Proyecto clásico de decoración textil hogareña.",
-    "summary": "Guía completa de diseño y bordado para almohadones decorativos en lino, pana y gabardina con fondos acolchados de quilting en bastidor y cierre invisible.",
-    "definition": "El bordado en almohadones y fundas decorativas (Decorative Cushion & Pillow Cover Embroidery / In-The-Hoop Quilting Cushions) abarca el conjunto de técnicas especializadas de digitalización, acolchado en bastidor (sandwich de tela, guata y forro) y bordado de motivos botánicos, monogramas o frases sobre tejidos de decoración de hogar (lienzo pesado, lino rústico, pana de tapicería, terciopelo o gabardina). Requiere balance de densidad para evitar que la funda quede rígida al tacto y técnicas de confección para cierres traseros solapados o cremalleras invisibles.",
+    "origin": "Del árabe al-muhadda (apoyo de la mejilla, cojín de descanso y honor en los palacios moriscos) y del inglés quilting (acolchado en capas). Proyecto clásico de decoración textil hogareña.",
+    "summary": "Guía completa de diseño y bordado para cojines decorativos en lino, pana y gabardina con fondos acolchados de quilting en bastidor y cierre invisible.",
+    "definition": "El bordado en cojines y fundas decorativas (Decorative Cushion & Pillow Cover Embroidery / In-The-Hoop Quilting Cushions) abarca el conjunto de técnicas especializadas de digitalización, acolchado en bastidor (sandwich de tela, guata y forro) y bordado de motivos botánicos, monogramas o frases sobre tejidos de decoración de hogar (lienzo pesado, lino rústico, pana de tapicería, terciopelo o gabardina). Requiere balance de densidad para evitar que la funda quede rígida al tacto y técnicas de confección para cierres traseros solapados o cremalleras invisibles.",
     "technicalDetails": "Al bordar sobre una funda armada con guata acolchada (técnica de quilting en bastidor), el tejido experimenta un encogimiento tridimensional por hundimiento de puntada. Se requiere una compensación de tracción de 0,45 mm a 0,55 mm y densidades de relleno tatami más abiertas (espaciado de 0,45 a 0,50 mm) para mantener la suavidad de la prenda. Se recomienda utilizar aguja 80/12 o 90/14 con punta ligeramente aguda (Microtex o Jeans) para atravesar las capas gruesas sin desvíos.",
-    "beginnerExplanation": "Bordar almohadones es uno de los trabajos más hermosos y rentables del taller. Ya sea para regalar o para vender, podés bordar iniciales, flores o frases elegantes sobre lino o terciopelo, o incluso hacer el acolchadito con guata adentro del propio bastidor para que queden gorditos y mullidos como de casa de decoración.",
+    "beginnerExplanation": "Bordar cojines es uno de los trabajos más hermosos y rentables del taller. Ya sea para regalar o para vender, podés bordar iniciales, flores o frases elegantes sobre lino o terciopelo, o incluso hacer el acolchadito con guata adentro del propio bastidor para que queden gorditos y mullidos como de casa de decoración.",
     "construction": [
       "Tela exterior principal (lino, pana, tusor, gabardina o terciopelo)",
       "Capa intermedia de guata resinada liviana de 80 a 100 g/m² (para efecto acolchado)",
@@ -595,7 +595,7 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
       "Tela de forro interior o tela trasera para confección del sobre con cierre"
     ],
     "howItWorks": [
-      "1. Se corta la tela delantera del almohadón con un margen de costura de 3 cm adicionales por lado.",
+      "1. Se corta la tela delantera del cojín con un margen de costura de 3 cm adicionales por lado.",
       "2. Se enbastidora junto a una capa de guata fina y entretela recortable.",
       "3. La máquina borda primero el patrón geométrico de acolchado (quilting stippling o cuadrícula).",
       "4. A continuación, borda el motivo central principal (monograma, botánico o frase conmemorativa).",
@@ -603,9 +603,9 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
       "6. Se cose la parte trasera con cremallera invisible o solapa cruzada y se coloca el relleno."
     ],
     "mainTypes": [
-      "Almohadón Bordado Plano (Bordado directo sobre tela de lino o terciopelo)",
-      "Almohadón con Acolchado en Bastidor (In-The-Hoop Quilting con guata esponjosa)",
-      "Almohadón con Apliques de Telas Estampadas combinadas con bordado de festón"
+      "cojín Bordado Plano (Bordado directo sobre tela de lino o terciopelo)",
+      "cojín con Acolchado en Bastidor (In-The-Hoop Quilting con guata esponjosa)",
+      "cojín con Apliques de Telas Estampadas combinadas con bordado de festón"
     ],
     "advantages": [
       "✔ Uno de los productos con mayor margen de ganancia comercial en decoración artesanal",
@@ -618,19 +618,19 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
       "En terciopelos con felpa o pelo tupido se debe utilizar film hidrosoluble superior."
     ],
     "commonErrors": [
-      "❌ Bordar una matriz con exceso de densidad que convierta el centro del almohadón en una placa dura e incómoda al apoyarse.",
+      "❌ Bordar una matriz con exceso de densidad que convierta el centro del cojín en una placa dura e incómoda al apoyarse.",
       "❌ Enbastidorar fundas con cierres metálicos puestos que pueden chocar contra el pie prensatelas.",
       "❌ No planchar la tela antes de cortar, provocando que la funda encoja en el primer lavado."
     ],
     "troubleshootingTips": [
-      "Si el almohadón queda acartonado o tieso: Reduzca la densidad del relleno tatami en un 20% en el software y aplique un estabilizador suave termoadhesivo en el revés para proteger el contacto.",
+      "Si el cojín queda acartonado o tieso: Reduzca la densidad del relleno tatami en un 20% en el software y aplique un estabilizador suave termoadhesivo en el revés para proteger el contacto.",
       "Si las puntadas se hunden en la textura afelpada del terciopelo o pana: Coloque una lámina de film hidrosoluble transparente arriba antes de bordar."
     ],
-    "dicaArtrelados": "¡El secreto de las fundas de almohadón que se venden como pan caliente! Siempre bordan el corte de tela plano ANTES de coser el almohadón. Deje al menos 4 cm de margen en todo el borde para que después pueda coser la cremallera invisible con total comodidad en la máquina de coser común.",
-    "voceSabia": "¡En la realeza europea del Renacimiento, los almohadones bordados con hilos de seda e hilo de oro eran considerados símbolos de estatus diplomático y se obsequiaban entre reyes en tratados de paz!",
+    "dicaArtrelados": "¡El secreto de las fundas de cojín que se venden como pan caliente! Siempre bordan el corte de tela plano ANTES de coser el cojín. Deje al menos 4 cm de margen en todo el borde para que después pueda coser la cremallera invisible con total comodidad en la máquina de coser común.",
+    "voceSabia": "¡En la realeza europea del Renacimiento, los cojines bordados con hilos de seda e hilo de oro eran considerados símbolos de estatus diplomático y se obsequiaban entre reyes en tratados de paz!",
     "practicalExercise": "Tome un corte de tusor de algodón de 45x45 cm y una lámina de guata fina. Borde un monograma de 12 cm de alto en el centro con una corona de hojas botánicas. Sienta la textura esponjosa y compruebe cómo la guata le otorga cuerpo y presencia de alta gama.",
-    "quickSummary": "Elaboración de fundas y almohadones decorativos con bordados temáticos y acolchados en bastidor sobre telas nobles de tapicería y hogar.",
-    "imageCaption": "Almohadón decorativo en tela de lino rústico con bordado botánico y técnica de acolchado perimetral.",
+    "quickSummary": "Elaboración de fundas y cojines decorativos con bordados temáticos y acolchados en bastidor sobre telas nobles de tapicería y hogar.",
+    "imageCaption": "cojín decorativo en tela de lino rústico con bordado botánico y técnica de acolchado perimetral.",
     "relatedTerms": [
       "Acolchado en Bastidor (In-The-Hoop Quilting)",
       "Compensación de Tracción (Pull Compensation)",
@@ -638,8 +638,8 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
       "Estabilizador Recortable Suave"
     ],
     "applications": [
-      "Almohadones decorativos para living, sillones y sofás de estar.",
-      "Almohadones infantiles personalizados con nombre y temática de cuna.",
+      "cojines decorativos para living, sillones y sofás de estar.",
+      "cojines infantiles personalizados con nombre y temática de cuna.",
       "Decoración para hotelería boutique, cabañas y eventos temáticos de bodas."
     ],
     "recommendedSettings": {
@@ -651,7 +651,7 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-almotolia-de-precisao-lancadeira-bordado-eletronico": {
-    "term": "Aceitera de Precisión con Cánula Metálica para Garfio Rotativo (Precision Needle-Nose Lubricating Oiler)",
+    "term": "Aceitera de Precisión para Garfio Rotativo",
     "level": "Iniciante 🟢",
     "category": "Insumos y Lubricación / Mantenimiento Preventivo",
     "grammarClass": "Locución sustantiva femenina.",
@@ -696,7 +696,7 @@ export const LOTE3_PART1_ES: Record<string, Partial<Verbete>> = {
       "❌ No limpiar la pelusa del garfio antes de colocar la gotita de aceite."
     ],
     "troubleshootingTips": [
-      "Si la máquina salpicó una microgotita de aceite en una remera: Aplique inmediatamente tiza en polvo o fécula de maíz sobre la mancha, déjela actuar 10 minutos para absorber el aceite y retire con cepillo suave antes de lavar con jabón neutro.",
+      "Si la máquina salpicó una microgotita de aceite en una camiseta: Aplique inmediatamente tiza en polvo o fécula de maíz sobre la mancha, déjela actuar 10 minutos para absorber el aceite y retire con cepillo suave antes de lavar con jabón neutro.",
       "Si la cánula se tapa con polvo: Pase un trocito de alambre fino o una aguja de coser para destapar el conducto metálico."
     ],
     "dicaArtrelados": "¡La regla sagrada de lubricación en Artrelados! Por la mañana, antes de encender la bordadora: limpie las pelusas de la lanzadera con un pincelito y coloque UNA sola gotita con su aceitera de precisión. Luego, borde primero una prueba en un retazo de tela vieja para que cualquier resto quede allí. ¡Sus prendas de clientes saldrán siempre impecables y su máquina durará 20 años!",

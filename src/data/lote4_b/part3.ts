@@ -2,7 +2,7 @@ import { Verbete } from "../../types";
 
 export const LOTE4_B_PART3_ES: Record<string, Partial<Verbete>> = {
   "b-009-bordado-eletronico": {
-    "term": "Bordado Electrónico / Computarizado (Computerized Machine Embroidery)",
+    "term": "Bordado Electrónico / Computarizado",
     "level": "Iniciante 🟢",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -50,7 +50,7 @@ export const LOTE4_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-021-bordado-em-3d-puff": {
-    "term": "Bordado en 3D (Alto Relieve con Goma EVA / 3D Puff)",
+    "term": "Bordado en 3D",
     "level": "Intermedio 🟡",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -100,7 +100,7 @@ export const LOTE4_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-013-bordado-em-alta-densidade": {
-    "term": "Bordado en Alta Densidad (High Density Stitching)",
+    "term": "Bordado en Alta Densidad",
     "level": "Avanzado 🔴",
     "category": "Digitalização & Matrices",
     "grammarClass": "Locución nominal masculina",
@@ -148,7 +148,7 @@ export const LOTE4_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-059-bordado-em-alto-relevo-3d-puff-eva": {
-    "term": "Bordado en Alto Relieve con EVA / 3D Puff Técnico (3D Foam Industrial Embroidery)",
+    "term": "Bordado en Alto Relieve con EVA / 3D Puff Técnico",
     "level": "Avanzado 🔴",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -198,7 +198,7 @@ export const LOTE4_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-037-bordado-em-bastidor-expandido": {
-    "term": "Bordado en Bastidor Expandido / Gran Formato (Extended & Jumbo Hoop Embroidery)",
+    "term": "Bordado en Bastidor Expandido / Gran Formato",
     "level": "Intermedio 🟡",
     "category": "Equipamiento & Herramientas",
     "grammarClass": "Locución nominal masculina",
@@ -246,7 +246,7 @@ export const LOTE4_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-020-bordado-em-camadas": {
-    "term": "Bordado en Capas / Superposición de Puntadas (Layered Embroidery & Color Blending)",
+    "term": "Bordado en Capas / Superposición de Puntadas",
     "level": "Intermedio 🟡",
     "category": "Digitalização & Matrices",
     "grammarClass": "Locución nominal masculina",
@@ -294,7 +294,7 @@ export const LOTE4_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-050-bordado-couro-sinteticos": {
-    "term": "Bordado en Cuero y Cueros Sintéticos (Leather & Vinyl Industrial Embroidery)",
+    "term": "Bordado en Cuero y Cueros Sintéticos",
     "level": "Avanzado 🔴",
     "category": "Insumos & Materiales",
     "grammarClass": "Locución nominal masculina",
@@ -342,7 +342,7 @@ export const LOTE4_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-067-bordado-em-relevo-3d-puffy-foam": {
-    "term": "Bordado en Relieve 3D / Puffy Foam (Técnica de Gomaespuma EVA para Bordado)",
+    "term": "Bordado en Relieve 3D / Puffy Foam",
     "level": "Intermedio 🟡",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -392,7 +392,7 @@ export const LOTE4_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-036-bordado-em-relevo-termico": {
-    "term": "Bordado en Relieve Térmico (Thermal Embossing & Heat-Puff Embroidery)",
+    "term": "Bordado en Relieve Térmico",
     "level": "Avanzado 🔴",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",

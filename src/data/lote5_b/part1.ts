@@ -2,7 +2,7 @@ import { Verbete } from "../../types";
 
 export const LOTE5_B_PART1_ES: Record<string, Partial<Verbete>> = {
   "b-035-bordado-estrutural-em-camadas": {
-    "term": "Bordado Estructural en Capas (Structural Layered Embroidery)",
+    "term": "Bordado Estructural en Capas",
     "level": "Avanzado 🔴",
     "category": "Digitalización & Matrices",
     "grammarClass": "Locución nominal masculina",
@@ -50,7 +50,7 @@ export const LOTE5_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-042-bordado-fringe-ponto-franja": {
-    "term": "Bordado Fringe / Punto Fleco (Fringe Stitch Embroidery)",
+    "term": "Bordado Fringe / Punto Fleco",
     "level": "Intermedio 🟡",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -98,7 +98,7 @@ export const LOTE5_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-011-bordado-industrial": {
-    "term": "Bordado Industrial (Commercial Multi-Head Embroidery)",
+    "term": "Bordado Industrial",
     "level": "Avanzado 🔴",
     "category": "Mantenimiento & Mecánica",
     "grammarClass": "Locución nominal masculina",
@@ -146,7 +146,7 @@ export const LOTE5_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-028-bordado-industrial-em-larga-escala": {
-    "term": "Bordado Industrial a Gran Escala (Mass Production & Multi-Head Plants)",
+    "term": "Bordado Industrial a Gran Escala",
     "level": "Avanzado 🔴",
     "category": "Mantenimiento & Mecánica",
     "grammarClass": "Locución nominal masculina",
@@ -194,7 +194,7 @@ export const LOTE5_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-010-bordado-livre": {
-    "term": "Bordado Libre (Free-Motion Machine Embroidery)",
+    "term": "Bordado Libre",
     "level": "Iniciante 🟢",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -242,7 +242,7 @@ export const LOTE5_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-029-bordado-livre-artesanal": {
-    "term": "Bordado Libre Artesanal (Artisanal Free-Hand Embroidery)",
+    "term": "Bordado Libre Artesanal",
     "level": "Iniciante 🟢",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -290,7 +290,7 @@ export const LOTE5_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-030-bordado-monocromatico": {
-    "term": "Bordado Monocromático (Monochromatic Tone-on-Tone Embroidery)",
+    "term": "Bordado Monocromático",
     "level": "Iniciante 🟢",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",
@@ -338,7 +338,7 @@ export const LOTE5_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-031-bordado-multicolorido": {
-    "term": "Bordado Multicolor (Multicolor Thread Sequencing)",
+    "term": "Bordado Multicolor",
     "level": "Iniciante 🟢",
     "category": "Digitalização & Matrices",
     "grammarClass": "Locución nominal masculina",
@@ -386,7 +386,7 @@ export const LOTE5_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-012-bordado-personalizado": {
-    "term": "Bordado Personalizado (Customized On-Demand Embroidery)",
+    "term": "Bordado Personalizado",
     "level": "Iniciante 🟢",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal masculina",

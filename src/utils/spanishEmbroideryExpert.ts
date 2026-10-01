@@ -23,6 +23,8 @@ import { VERBETES_LETTER_E_LOTE1_ES } from "../data/verbetesLetterE_Lote1_ES";
 import { VERBETES_LETTER_E_LOTE2_ES } from "../data/verbetesLetterE_Lote2_ES";
 import { VERBETES_LETTER_E_LOTE3_ES } from "../data/verbetesLetterE_Lote3_ES";
 import { VERBETES_LETTER_E_LOTE4_ES } from "../data/verbetesLetterE_Lote4_ES";
+import { VERBETES_LETTER_F_LOTE1_ES } from "../data/verbetesLetterF_Lote1_ES";
+import { VERBETES_LETTER_F_LOTE2_ES } from "../data/verbetesLetterF_Lote2_ES";
 import { CURATED_SPANISH_APPLICATIONS } from "../data/spanishApplications";
 
 /**
@@ -31,16 +33,16 @@ import { CURATED_SPANISH_APPLICATIONS } from "../data/spanishApplications";
 export const ALPHABET_TERMS_ES: Record<string, string> = {
   // Letra A
   "Agulha de Bordado Computadorizado": "Aguja de Bordado Computarizado",
-  "Agulha Ponta Bola (SES / FFG / SUK)": "Aguja Punta de Bola (SES / FFG / SUK)",
-  "Agulha Ponta Lança / Cortante (DI / LL)": "Aguja Punta de Lanza / Cortante (DI / LL)",
-  "Apliquê (Appliqué no Bordado Computadorizado)": "Aplique (Appliqué en Bordado Computarizado)",
+  "Agulha Ponta Bola (SES / FFG / SUK)": "Aguja Punta de Bola",
+  "Agulha Ponta Lança / Cortante (DI / LL)": "Aguja Punta de Lanza / Cortante",
+  "Apliquê (Appliqué no Bordado Computadorizado)": "Aplique",
   "Ajuste de Tensão de Linha": "Ajuste de Tensión del Hilo",
-  "Arremate (Tie-off / Lock Stitch)": "Remate (Tie-off / Puntada de Seguridad)",
-  "Alfinetada / Ponto de Fixação (Tackdown Stitch)": "Puntada de Fijación (Tackdown Stitch)",
-  "Abertura de Bastidor (Hoop Clearance)": "Apertura del Bastidor (Hoop Clearance)",
+  "Arremate (Tie-off / Lock Stitch)": "Remate",
+  "Alfinetada / Ponto de Fixação (Tackdown Stitch)": "Puntada de Fijación",
+  "Abertura de Bastidor (Hoop Clearance)": "Apertura del Bastidor",
   "Auto-Densidade / Densidade Automática": "Autodensidad / Densidad Automática",
   "Aparador de Fio / Trimmer Automático": "Cortahilos / Trimmer Automático",
-  "Agulha Revestida com Titânio (Gold)": "Aguja Recubierta con Nitruro de Titanio (Gold)",
+  "Agulha Revestida com Titânio (Gold)": "Aguja Recubierta con Nitruro de Titanio",
   "Agulha Antiaderente / Teflon": "Aguja Antiadherente / Teflón",
   "Agulha Asa / Hemstitch": "Aguja Alada / Hemstitch",
   "Agulha Gêmea / Dupla": "Aguja Doble / Gemela",
@@ -50,11 +52,11 @@ export const ALPHABET_TERMS_ES: Record<string, string> = {
   "Avesso Perfeito": "Revés Perfecto",
 
   // Letra B
-  "Babador e Prendedor de Chupeta (Babetes Infantis & Acessórios no Bastidor ITH)": "Babero y Sujetachupetes (Baberos Infantiles y Accesorios en el Bastidor ITH)",
+  "Babador e Prendedor de Chupeta (Babetes Infantis & Acessórios no Bastidor ITH)": "Babero y Sujetachupetes",
   "Babador e Prendedor de Chupeta": "Babero y Sujetachupetes",
   "Bastidor de Bordado": "Bastidor de Bordado",
   "Bastidor Magnético": "Bastidor Magnético",
-  "Bastidor de Boné (Cap Frame)": "Bastidor de Gorras (Cap Frame)",
+  "Bastidor de Boné (Cap Frame)": "Bastidor de Gorras",
   "Bastidor Tubular": "Bastidor Tubular",
   "Bobina / Canelinha": "Canilla / Bobina Inferior",
   "Barra de Agulha": "Barra de Aguja",
@@ -63,35 +65,35 @@ export const ALPHABET_TERMS_ES: Record<string, string> = {
 
   // Letra C
   "Caixa de Bobina": "Caja de Bobina / Portacanilla",
-  "Compensação de Encolhimento (Pull Compensation)": "Compensación de Tirantez (Pull Compensation)",
+  "Compensação de Encolhimento (Pull Compensation)": "Compensación de Tirantez",
   "Corte de Linha Automático": "Corte de Hilo Automático",
-  "Caminho de Ponto (Pathing / Branching)": "Ruta de Puntada (Pathing / Ramificación)",
+  "Caminho de Ponto (Pathing / Branching)": "Ruta de Puntada",
   "Calcador de Bordado": "Prensatelas de Bordado",
-  "Cartela de Cores (Color Chart)": "Carta de Colores (Color Chart)",
+  "Cartela de Cores (Color Chart)": "Carta de Colores",
   "Conector de Bastidor": "Enganche / Conector de Bastidor",
 
   // Letra D
   "Densidade de Ponto": "Densidad de Puntada",
-  "Digitalização de Matrizes (Punching / Ponchado)": "Digitalización de Diseños (Ponchado)",
+  "Digitalização de Matrizes (Punching / Ponchado)": "Digitalización de Diseños",
   "Desfiamento de Linha": "Deshilachado del Hilo",
-  "Divisão de Ponto (Split Stitch)": "División de Puntada (Split Stitch)",
+  "Divisão de Ponto (Split Stitch)": "División de Puntada",
   "Direção do Ponto (Stitch Angle)": "Ángulo / Dirección de Puntada",
 
   // Letra E
-  "Entretela Rasgável (Tear-away)": "Entretela Desprendible (Tear-away)",
-  "Entretela de Recorte (Cut-away)": "Entretela Recortable (Cut-away)",
-  "Entretela Hidrossolúvel (Wash-away)": "Entretela Hidrosoluble (Wash-away)",
+  "Entretela Rasgável (Tear-away)": "Entretela Desprendible",
+  "Entretela de Recorte (Cut-away)": "Entretela Recortable",
+  "Entretela Hidrossolúvel (Wash-away)": "Entretela Hidrosoluble",
   "Entretela Termocolante": "Entretela Termoadhesiva",
   "Entretela Malha": "Entretela de Punto / Malla",
-  "Estica-Fio (Take-up Lever)": "Tirahilos (Take-up Lever)",
+  "Estica-Fio (Take-up Lever)": "Tirahilos",
   "Espaçamento de Ponto": "Espaciado de Puntada",
-  "Enrugamento do Tecido (Puckering)": "Arrugamiento / Fruncido de la Tela (Puckering)",
+  "Enrugamento do Tecido (Puckering)": "Arrugamiento / Fruncido de la Tela",
 
   // Letra F
-  "Formato DST (Tajima)": "Formato DST (Tajima)",
-  "Formato PES (Brother / Babylock)": "Formato PES (Brother / Babylock)",
-  "Formato JEF (Janome)": "Formato JEF (Janome)",
-  "Formato EXP (Bernina / Melco)": "Formato EXP (Bernina / Melco)",
+  "Formato DST (Tajima)": "Formato DST",
+  "Formato PES (Brother / Babylock)": "Formato PES",
+  "Formato JEF (Janome)": "Formato JEF",
+  "Formato EXP (Bernina / Melco)": "Formato EXP",
   "Fio de Poliéster 40wt": "Hilo de Poliéster 40wt",
   "Fio de Viscose / Rayon": "Hilo de Viscosa / Rayón",
   "Fio Metálico": "Hilo Metálico",
@@ -101,33 +103,33 @@ export const ALPHABET_TERMS_ES: Record<string, string> = {
   // Letra G
   "Gabarito de Posicionamento": "Plantilla de Posicionamiento / Guía",
   "Gasto de Linha / Cálculo de Consumo": "Cálculo de Consumo de Hilo",
-  "Graduação de Matriz (Resizing)": "Escalado de Matriz (Resizing)",
+  "Graduação de Matriz (Resizing)": "Escalado de Matriz",
   "Garfio / Laçadeira Rotativa": "Garfio Rotativo / Lanzadera",
 
   // Letra L
-  "Laçadeira Rotativa (Rotary Hook)": "Garfio Rotativo (Rotary Hook)",
-  "Laçada de Linha (Loop)": "Lazada de Hilo (Loop)",
+  "Laçadeira Rotativa (Rotary Hook)": "Garfio Rotativo",
+  "Laçada de Linha (Loop)": "Lazada de Hilo",
   "Linha Superior": "Hilo Superior",
   "Linha Inferior / Linha da Bobina": "Hilo Inferior / Hilo de Canilla",
   "Lubrificação da Máquina": "Lubricación de la Máquina",
 
   // Letra M
   "Matriz de Bordado": "Matriz / Archivo de Bordado",
-  "Mecanismo de Salto (Jump Stitch)": "Mecanismo de Salto (Jump Stitch)",
+  "Mecanismo de Salto (Jump Stitch)": "Mecanismo de Salto",
   "Microfibra": "Microfibra",
   "Malha Piquet": "Piqué / Tela Polo",
 
   // Letra P
-  "Ponto Cheio (Satin Stitch)": "Puntada Satín (Satin Stitch)",
-  "Ponto Tatami (Fill Stitch / Preenchimento)": "Puntada Tatami / Relleno (Fill Stitch)",
-  "Ponto Corrido (Running Stitch)": "Puntada Recta Corrida (Running Stitch)",
-  "Ponto Triplo (Triple / Bean Stitch)": "Puntada Triple (Triple / Bean Stitch)",
-  "Ponto de Suporte (Underlay)": "Puntada de Soporte (Underlay)",
+  "Ponto Cheio (Satin Stitch)": "Puntada Satín",
+  "Ponto Tatami (Fill Stitch / Preenchimento)": "Puntada Tatami / Relleno",
+  "Ponto Corrido (Running Stitch)": "Puntada Recta Corrida",
+  "Ponto Triplo (Triple / Bean Stitch)": "Puntada Triple",
+  "Ponto de Suporte (Underlay)": "Puntada de Soporte",
   "Ponto de Cruz Computadorizado": "Punto de Cruz Computarizado",
   "Ponto Decorativo": "Puntada Decorativa",
-  "Ponto E / Ponto Caseado": "Puntada Festón / Ojal (Blanket Stitch)",
-  "Puff 3D (Bordado em Relevo com EVA)": "Bordado 3D en Relieve (Puff con Goma EVA)",
-  "Parada Programada (Stop)": "Parada Programada (Stop)",
+  "Ponto E / Ponto Caseado": "Puntada Festón / Ojal",
+  "Puff 3D (Bordado em Relevo com EVA)": "Bordado 3D en Relieve",
+  "Parada Programada (Stop)": "Parada Programada",
   "Pressão do Calcador": "Presión del Prensatelas",
 
   // Letra Q
@@ -135,16 +137,16 @@ export const ALPHABET_TERMS_ES: Record<string, string> = {
   "Quebra de Agulha": "Rotura de Aguja",
 
   // Letra R
-  "Ranhura da Agulha (Needle Groove)": "Ranura de la Aguja (Needle Groove)",
+  "Ranhura da Agulha (Needle Groove)": "Ranura de la Aguja",
   "Relação 1/3 e 2/3 no Avesso": "Regla 1/3 y 2/3 en el Revés",
   "Relevo 3D": "Relieve 3D",
   "Resolução de Matriz": "Resolución de Matriz",
 
   // Letra S
-  "Scarf da Agulha (Chanfro)": "Chaflán de la Aguja (Scarf)",
+  "Scarf da Agulha (Chanfro)": "Chaflán de la Aguja",
   "Sensor de Linha": "Sensor de Rotura de Hilo",
   "Simulação de Bordado": "Simulación de Bordado",
-  "Sincronismo da Laçadeira (Hook Timing)": "Sincronización del Garfio (Hook Timing)",
+  "Sincronismo da Laçadeira (Hook Timing)": "Sincronización del Garfio",
 
   // Letra T
   "Tensão da Linha Superior": "Tensión del Hilo Superior",
@@ -155,7 +157,7 @@ export const ALPHABET_TERMS_ES: Record<string, string> = {
   "Troca de Cor Automática": "Cambio de Color Automático",
 
   // Letra V
-  "Velocidade em PPM (Pontos Por Minuto)": "Velocidad en PPM (Puntadas Por Minuto)",
+  "Velocidade em PPM (Pontos Por Minuto)": "Velocidad en PPM",
   "Viscose / Rayon": "Viscosa / Rayón",
 };
 
@@ -530,7 +532,9 @@ export const CURATED_SPANISH_VERBETES: Record<string, Partial<Verbete>> = {
   ...VERBETES_LETTER_E_LOTE1_ES,
   ...VERBETES_LETTER_E_LOTE2_ES,
   ...VERBETES_LETTER_E_LOTE3_ES,
-  ...VERBETES_LETTER_E_LOTE4_ES
+  ...VERBETES_LETTER_E_LOTE4_ES,
+  ...VERBETES_LETTER_F_LOTE1_ES,
+  ...VERBETES_LETTER_F_LOTE2_ES
 };
 
 /**
@@ -603,6 +607,41 @@ export function translateEmbroideryTextToSpanish(text: any): any {
 
   // 3. Vocabulário Têxtil Especializado
   const TEXTILE_TERMS: [RegExp, string][] = [
+    // Mecanismos de corte y cuchillas
+    [/\bfaca móvel e faca fixa\b/gi, "cuchilla móvil y cuchilla fija"],
+    [/\bfaca móvel\b/gi, "cuchilla móvil"],
+    [/\bfaca fixa\b/gi, "cuchilla fija"],
+    [/\bfaca de corte\b/gi, "cuchilla de corte"],
+    [/\bfacas de corte\b/gi, "cuchillas de corte"],
+    [/\bfacas\b/gi, "cuchillas"],
+    [/\bbloco de corte de fio\b/gi, "bloque de corte de hilo"],
+    [/\bbloco de corte\b/gi, "bloque de corte"],
+    [/\bbloco\b/gi, "bloque"],
+    [/\bblocos\b/gi, "bloques"],
+    [/\bsub-placa\b/gi, "subplaca"],
+    [/\bchapa de agulha\b/gi, "placa de aguja"],
+    [/\bchapa de aguja\b/gi, "placa de aguja"],
+    [/\beletromecânico\b/gi, "electromecánico"],
+    [/\beletromecânica\b/gi, "electromecánica"],
+    [/\bpneumático\b/gi, "neumático"],
+    [/\bpneumática\b/gi, "neumática"],
+    [/\bdesenvolvido\b/gi, "desarrollado"],
+    [/\bdesenvolvida\b/gi, "desarrollada"],
+    [/\bdesenvolvidos\b/gi, "desarrollados"],
+    [/\bdesenvolvidas\b/gi, "desarrolladas"],
+    [/\bcomposto\b/gi, "compuesto"],
+    [/\bcomposta\b/gi, "compuesta"],
+    [/\banos 19\b/gi, "años 19"],
+    [/\banos 20\b/gi, "años 20"],
+    [/\bMecânica & Ajustes\b/gi, "Mecánica y Ajustes"],
+    [/\bMecânica e Ajustes\b/gi, "Mecánica y Ajustes"],
+    [/\bMecânica\b/gi, "Mecánica"],
+    [/\bmecânica\b/gi, "mecánica"],
+    [/\bfaça o teste\b/gi, "realice la prueba"],
+    [/\bfaça um teste\b/gi, "realice una prueba"],
+    [/\bfaça\b/gi, "haga"],
+    [/\bFaça\b/gi, "Haga"],
+
     // Agulhas e anatomia
     [/\bagulhas de bordado\b/gi, "agujas de bordado"],
     [/\bagulha de bordado\b/gi, "aguja de bordado"],

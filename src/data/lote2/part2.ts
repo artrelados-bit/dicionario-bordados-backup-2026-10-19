@@ -3,7 +3,7 @@ import { Verbete } from "../../types";
 export const LOTE2_PART2_ES: Record<string, Partial<Verbete>> = {
   // A-041
   "a-031-ajuste-de-folga-da-chapa-de-agulha": {
-    term: "Ajuste de Holgura de la Placa de Aguja (Needle Plate Hole Clearance & Throat Plate)",
+    term: "Ajuste de Holgura de la Placa de Aguja",
     level: "Avanzado 🔴",
     category: "Mecánica y Componentes de la Máquina / Calibración",
     grammarClass: "Locución sustantiva masculina.",
@@ -59,7 +59,7 @@ export const LOTE2_PART2_ES: Record<string, Partial<Verbete>> = {
 
   // A-042
   "a-084-ajuste-de-folga-entre-agulha-e-lan-adeira-needle-to-hook-clearance-timing-gap": {
-    term: "Ajuste de Holgura entre Aguja y Garfio Rotativo (Needle-to-Hook Clearance & Timing Gap)",
+    term: "Ajuste de Holgura entre Aguja y Garfio Rotativo",
     level: "Avanzado 🔴",
     category: "Mecánica y Componentes de la Máquina / Calibración",
     grammarClass: "Locución sustantiva masculina.",
@@ -116,7 +116,7 @@ export const LOTE2_PART2_ES: Record<string, Partial<Verbete>> = {
 
   // A-043
   "a-024-ajuste-de-ponto-de-entrada-e-saida": {
-    term: "Ajuste de Punto de Entrada y Salida (Entry & Exit Points Optimization)",
+    term: "Ajuste de Punto de Entrada y Salida",
     level: "Intermedio 🟡",
     category: "Parámetros y Software",
     grammarClass: "Locución sustantiva masculina.",
@@ -172,7 +172,7 @@ export const LOTE2_PART2_ES: Record<string, Partial<Verbete>> = {
 
   // A-044
   "a-042-ajuste-de-ponto-decorativo-motif": {
-    term: "Ajuste de Puntada Decorativa y Puntada Motif (Motif Stitch & Decorative Run Programming)",
+    term: "Ajuste de Puntada Decorativa y de Motivo",
     level: "Intermedio 🟡",
     category: "Parámetros y Software",
     grammarClass: "Locución sustantiva masculina.",
@@ -229,7 +229,7 @@ export const LOTE2_PART2_ES: Record<string, Partial<Verbete>> = {
 
   // A-045
   "a-038-ajuste-de-folga-da-lancadeira": {
-    term: "Ajuste de Punto y Holgura de la Lanzadera / Tiempo de Lanzadera (Hook Timing & Clearance Adjustment)",
+    term: "Ajuste de Holgura y Tiempo del Garfio Rotativo",
     level: "Avanzado 🔴",
     category: "Mecánica y Componentes de la Máquina / Calibración",
     grammarClass: "Locución sustantiva masculina.",
@@ -285,7 +285,7 @@ export const LOTE2_PART2_ES: Record<string, Partial<Verbete>> = {
 
   // A-046
   "a-028-ajuste-de-posicionamento-do-bastidor": {
-    term: "Ajuste de Posicionamiento del Bastidor / Desplazamiento de Origen (Hoop Offset & Frame Origin Shifting)",
+    term: "Ajuste de Posicionamiento del Bastidor y Desplazamiento",
     level: "Fundamental 🟢",
     category: "Operación de la Máquina",
     grammarClass: "Locución sustantiva masculina.",
@@ -342,7 +342,7 @@ export const LOTE2_PART2_ES: Record<string, Partial<Verbete>> = {
 
   // A-047
   "a-061-ajuste-de-salto-e-velocidade-maxima": {
-    term: "Ajuste de Salto y Velocidad Máxima (Jump Stitch Timing & Speed Limiter)",
+    term: "Ajuste de Salto y Velocidad Máxima",
     level: "Fundamental 🟢",
     category: "Operación de la Máquina",
     grammarClass: "Locución sustantiva masculina.",
@@ -398,7 +398,7 @@ export const LOTE2_PART2_ES: Record<string, Partial<Verbete>> = {
 
   // A-048
   "a-007-ajuste-de-tensao": {
-    term: "Ajuste de Tensión del Hilo (Thread Tension Adjustment)",
+    term: "Ajuste de Tensión del Hilo",
     level: "Fundamental 🟢",
     category: "Tensión y Calibración",
     grammarClass: "Locución sustantiva masculino.",
@@ -454,7 +454,7 @@ export const LOTE2_PART2_ES: Record<string, Partial<Verbete>> = {
 
   // A-049
   "a-091-ajuste-fino-de-sincronismo-de-lancadeira": {
-    term: "Ajuste Fino de Sincronismo del Garfio Rotativo (Rotary Hook Timing Micro-Adjustment)",
+    term: "Ajuste Fino de Sincronismo del Garfio Rotativo",
     level: "Avanzado 🔴",
     category: "Mecánica y Componentes de la Máquina / Calibración",
     grammarClass: "Locución sustantiva masculina.",
@@ -510,7 +510,7 @@ export const LOTE2_PART2_ES: Record<string, Partial<Verbete>> = {
 
   // A-050
   "a-085-alargador-de-coluna-de-cetim-por-repuxo-satin-column-auto-widener-pull-stretch": {
-    term: "Ampliador de Columna de Satín por Compensación de Tirantez (Satin Column Auto-Widener & Pull Stretch)",
+    term: "Compensación de Tirantez en Columnas de Satín",
     level: "Intermedio 🟡",
     category: "Parámetros y Software",
     grammarClass: "Locución sustantiva masculina.",
@@ -545,17 +545,17 @@ export const LOTE2_PART2_ES: Record<string, Partial<Verbete>> = {
       "Una compensación desmedida en letras muy pequeñas puede empastar los orificios internos de letras como la 'e' o la 'a'."
     ],
     commonErrors: [
-      "❌ Dejar compensación cero (0,0 mm) al bordar telas elásticas de piqué o remeras.",
+      "❌ Dejar compensación cero (0,0 mm) al bordar telas elásticas de piqué o camisetas.",
       "❌ Aumentar la compensación en exceso cerrando los huecos de letras de 4 mm.",
       "❌ Confundir compensación de tirantez con aumento de densidad."
     ],
     troubleshootingTips: [
       "Si entre el contorno de satín y el relleno de color queda una luz blanca visible: aumente la compensación de tirantez en el satín a +0,35 mm.",
-      "Si las letras se ven 'flaquitas' y desprolijas en chombas piqué: suba la compensación a +0,40 mm."
+      "Si las letras se ven 'flaquitas' y desprolijas en polos piqué: suba la compensación a +0,40 mm."
     ],
-    dicaArtrelados: "¡El secreto número uno para bordar chombas de piqué o buzos deportivos sin que queden huecos entre los colores: suba siempre la Compensación de Tirantez (Pull Compensation) en su software a +0,35 mm o +0,40 mm! Las letras quedarán con cuerpo, bien llenitas y no se verá la tela por ningún lado.",
+    dicaArtrelados: "¡El secreto número uno para bordar polos de piqué o sudaderas deportivos sin que queden huecos entre los colores: suba siempre la Compensación de Tirantez (Pull Compensation) en su software a +0,35 mm o +0,40 mm! Las letras quedarán con cuerpo, bien llenitas y no se verá la tela por ningún lado.",
     voceSabia: "¡La fuerza combinada de miles de puntadas de satín en un diseño puede encoger una tela elástica más de 4 milímetros hacia el centro si no se programa la compensación de tirantez!",
-    practicalExercise: "En su software, tome un texto con letra cursiva y aplique dos valores: uno con compensación 0,0 mm y otro con +0,35 mm. Borde ambos en una remera de algodón y compare cómo el segundo luce mucho más profesional y nítido.",
+    practicalExercise: "En su software, tome un texto con letra cursiva y aplique dos valores: uno con compensación 0,0 mm y otro con +0,35 mm. Borde ambos en una camiseta de algodón y compare cómo el segundo luce mucho más profesional y nítido.",
     quickSummary: "Herramienta que ensancha automáticamente las columnas de satín para compensar la contracción del hilo y lograr el ancho real deseado en la tela.",
     relatedTerms: [
       "Compensación de Tirantez (Pull Compensation)",

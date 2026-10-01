@@ -65,7 +65,7 @@ export const LOTE4_PART3_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "Menos paradas falsas equivalen a mayor tiempo de máquina encendida facturando. Maximice su productividad con la Calculadora de Bordados Artrelados."
   },
   "a-010-autodigitizacao": {
-    "term": "Autodigitalización de Imágenes (Auto-Digitizing)",
+    "term": "Autodigitalización de Imágenes",
     "level": "Avanzado 🔴",
     "category": "Software y Formatos de Ponchado",
     "grammarClass": "Locución sustantiva femenina técnica",
@@ -127,7 +127,7 @@ export const LOTE4_PART3_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "El ponchado manual profesional justifica un precio superior porque no desperdicia tiempo en máquina. Valore su servicio con la Calculadora de Bordados Artrelados."
   },
   "a-023-autotracado-de-vetores-bitmap": {
-    "term": "Autotrazado Vectorial de Imágenes Bitmap (Vector Tracing)",
+    "term": "Autotrazado Vectorial de Imágenes Bitmap",
     "level": "Intermedio 🟡",
     "category": "Programación y Digitalización de Matrices",
     "grammarClass": "Locución sustantiva masculina técnica",
@@ -252,7 +252,7 @@ export const LOTE4_PART3_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "El tiempo extra de enbastidorado y enrollado de prendas pesadas debe reflejarse en su precio final. Calcule presupuestos justos con la Calculadora de Bordados Artrelados."
   },
   "a-101-alimentacao-positiva-de-linha": {
-    "term": "Alimentación Positiva de Hilo (Active Positive Thread Feed)",
+    "term": "Alimentación Positiva de Hilo",
     "level": "Avanzado 🔴",
     "category": "Mecánica y Ajustes",
     "grammarClass": "Locución sustantiva femenina técnica",
@@ -314,7 +314,7 @@ export const LOTE4_PART3_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "La tecnología avanzada agiliza las entregas y reduce mermas de hilo. Monitoree su rentabilidad por hora con la Calculadora de Bordados Artrelados."
   },
   "a-102-angulo-de-ponto-satin-e-tatami": {
-    "term": "Ángulo de Puntada y Líneas de Dirección (Stitch Angle)",
+    "term": "Ángulo de Puntada y Líneas de Dirección",
     "level": "Intermedio 🟡",
     "category": "Programación y Digitalización de Matrices",
     "grammarClass": "Locución sustantiva masculina técnica",
@@ -376,7 +376,7 @@ export const LOTE4_PART3_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "El conocimiento experto del ángulo de puntada distingue a los ponchadores profesionales de los aficionados. Cotice su maestría con la Calculadora de Bordados Artrelados."
   },
   "a-103-ajuste-de-folga-da-lancadeira": {
-    "term": "Ajuste de Holgura entre Aguja y Punta de la Lanzadera (Hook Timing)",
+    "term": "Ajuste de Holgura entre Aguja y Punta de la Lanzadera",
     "level": "Avanzado 🔴",
     "category": "Mecánica y Ajustes",
     "grammarClass": "Locución sustantiva masculina técnica",
@@ -438,7 +438,7 @@ export const LOTE4_PART3_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "El mantenimiento a tiempo previene gastos mayores en repuestos de lanzaderas y agujas. Reserve su fondo técnico en la Calculadora de Bordados Artrelados."
   },
   "a-104-amortecedor-pneumatico-pantografo": {
-    "term": "Amortiguación y Estabilidad Dinámica del Pantógrafo (Vibration Damping)",
+    "term": "Amortiguación y Estabilidad Dinámica del Pantógrafo",
     "level": "Avanzado 🔴",
     "category": "Componentes y Mecánica de la Máquina",
     "grammarClass": "Locución sustantiva femenina técnica",
@@ -500,7 +500,7 @@ export const LOTE4_PART3_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "Una máquina estable que no vibra alarga su durabilidad y previene roturas mecánicas caras. Proteja su capital de trabajo con la Calculadora de Bordados Artrelados."
   },
   "a-105-avanco-angular-do-eixo-principal": {
-    "term": "Grado Angular del Eje Principal y Posicionador (Main Shaft Degree)",
+    "term": "Grado Angular del Eje Principal y Posicionador",
     "level": "Avanzado 🔴",
     "category": "Operación de la Máquina",
     "grammarClass": "Locución sustantiva masculina técnica",
@@ -562,7 +562,7 @@ export const LOTE4_PART3_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "El conocimiento de la mecánica de su máquina evita paradas de producción innecesarias. Optimice su tiempo de taller con la Calculadora de Bordados Artrelados."
   },
   "a-106-anel-antideslizante-de-bastidor": {
-    "term": "Anillo y Cinta Antideslizante para Bastidor (Hoop Non-Slip Grip)",
+    "term": "Anillo y Cinta Antideslizante para Bastidor",
     "level": "Fundamental 🟢",
     "category": "Bastidores y Fijación",
     "grammarClass": "Locución sustantiva masculina técnica",

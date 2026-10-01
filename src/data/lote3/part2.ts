@@ -2,7 +2,7 @@ import { Verbete } from "../../types";
 
 export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
   "a-064-alongamento-de-ponto-stitch-elongation": {
-    "term": "Alargamiento y Calibración de Paso de Puntada (Stitch Elongation & Pitch Calibration)",
+    "term": "Alargamiento y Calibración de Puntada",
     "level": "Avanzado 🔴",
     "category": "Programación de Bordado",
     "grammarClass": "Locución sustantiva masculina.",
@@ -63,7 +63,7 @@ export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
     ],
     "applications": [
       "Cenefas y guardas decorativas en sábanas, manteles y toallas de lujo.",
-      "Alivio de rigidez en figuras grandes de ropa infantil y remeras ligeras.",
+      "Alivio de rigidez en figuras grandes de ropa infantil y camisetas ligeras.",
       "Motivos geométricos y arabescos ornamentales para acolchados y fundas."
     ],
     "recommendedSettings": {
@@ -75,7 +75,7 @@ export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-093-alongamento-termico-de-linha-sintetica": {
-    "term": "Deformación Térmica de Hilo Sintético por Fricción (Synthetic Thread Heat Creep & Thermal Elongation)",
+    "term": "Deformación Térmica de Hilo Sintético",
     "level": "Avanzado 🔴",
     "category": "Agujas y Hilos",
     "grammarClass": "Locución sustantiva femenina.",
@@ -83,7 +83,7 @@ export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
     "summary": "Estiramiento transitorio o permanente de las fibras de poliéster causado por el calor de fricción de la aguja a alta velocidad, provocando arrugas en la tela al enfriarse.",
     "definition": "La deformación térmica de hilo sintético (Synthetic Thread Heat Creep & Thermal Elongation) es la alteración viscoelástica reversible o plástica que experimentan los filamentos de poliéster trilobal o poliamida al deslizarse a través del ojo de una aguja sobrecalentada por rozamiento durante bordados continuos a más de 850 PPM. La temperatura en la ranura y el ojo de la aguja puede superar los 180 °C, reblandeciendo la matriz polimérica del hilo, lo que provoca que se estire bajo tensión y posteriormente se encoja al enfriarse a temperatura ambiente, frunciendo la tela.",
     "technicalDetails": "Al atravesar la zona de fricción térmica del cabezal, el filamento termoplástico de poliéster se estira elásticamente un 5% a 15% bajo la resistencia del tensor. Al depositarse en la tela caliente, la puntada parece perfecta; sin embargo, al cabo de 30 a 60 minutos, el hilo recupera su estado térmico basal contrayéndose (efecto memoria molecular), lo que genera un arrugamiento tardío ('puckering retardado') que no se aprecia en el momento exacto en que la prenda sale de la bordadora.",
-    "beginnerExplanation": "Cuando la máquina borda a toda velocidad, la aguja metálica se pone caliente como una plancha por rozar contra la tela miles de veces por minuto. Como el hilo es de poliéster (una especie de plástico fino), con el calor se ablanda y se estira como un chicle. Cuando el bordado termina y se enfría en la mesa, el hilo vuelve a su tamaño normal y encoje, arrugando toda la remera alrededor del dibujo.",
+    "beginnerExplanation": "Cuando la máquina borda a toda velocidad, la aguja metálica se pone caliente como una plancha por rozar contra la tela miles de veces por minuto. Como el hilo es de poliéster (una especie de plástico fino), con el calor se ablanda y se estira como un chicle. Cuando el bordado termina y se enfría en la mesa, el hilo vuelve a su tamaño normal y encoje, arrugando toda la camiseta alrededor del dibujo.",
     "construction": [
       "Polímero sintético termoplástico (Poliéster 100% trilobal de alta tenacidad)",
       "Zona de fricción crítica en el ojo de la aguja (Eye Friction Hotspot)",
@@ -134,7 +134,7 @@ export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
       "Fruncimiento del Tejido (Puckering)"
     ],
     "applications": [
-      "Bordados industriales de alta velocidad en camperas y rompevientos.",
+      "Bordados industriales de alta velocidad en chaquetas y rompevientos.",
       "Bordado de logotipos densos sobre microfibra y tejidos deportivos sintéticos.",
       "Producción continua en serie de bolsos y mochilas de cordura o nylon."
     ],
@@ -147,7 +147,7 @@ export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-059-amaciamento-de-bordado-no-avesso-protetor": {
-    "term": "Protector Termoadhesivo de Revés / Suavizador de Bordado (Iron-On Backing Cover / Cloud Cover)",
+    "term": "Protector Termoadhesivo para el Revés del Bordado",
     "level": "Iniciante 🟢",
     "category": "Acabado y Mantenimiento",
     "grammarClass": "Locución sustantiva masculina.",
@@ -155,11 +155,11 @@ export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
     "summary": "Entretela de malla ultrafina termofijable que se adhiere en el revés del bordado para sellar hilos cortados y proteger pieles delicadas de rozaduras.",
     "definition": "El protector termoadhesivo de revés (conocido comercialmente como Suavizador de Bordado, Cloud Cover, Tender Touch o Soft Seal) es una entretela de punto de poliamida o poliéster de extrema ligereza (25 a 35 g/m²) recubierta en una de sus caras con microgránulos de adhesivo termoplástico de bajo punto de fusión. Se aplica con calor de plancha sobre el reverso del bordado terminado para encapsular los cabos de hilo cortados, nudos y estabilizadores rígidos, creando una barrera hipoalergénica suave y sedosa al contacto directo con la piel humana.",
     "technicalDetails": "Al bordar con máquinas electrónicas, cada corte automático de hilo deja una pequeña colita rígida y un nudo de seguridad en el revés. En ropa de bebé o indumentaria deportiva de compresión, estos nudos rozan la epidermis causando irritaciones o dermatitis de contacto. El protector termoadhesivo se funde a temperaturas moderadas (entre 120 °C y 140 °C durante 10 a 15 segundos con presión media), soldando las fibras sin traspasar el adhesivo hacia el frente ni acartonar la prenda.",
-    "beginnerExplanation": "Cuando la máquina termina de bordar una remera, por atrás quedan cientos de nuditos, puntitas de hilos duros y restos de entretela que pueden raspar o picar la piel, sobre todo en bebés. El protector es una telita mágica, finita y suave como una gasa, que se pega con la plancha por detrás del bordado para que quede acolchadito, suave como una caricia y no pique nunca más.",
+    "beginnerExplanation": "Cuando la máquina termina de bordar una camiseta, por atrás quedan cientos de nuditos, puntitas de hilos duros y restos de entretela que pueden raspar o picar la piel, sobre todo en bebés. El protector es una telita mágica, finita y suave como una gasa, que se pega con la plancha por detrás del bordado para que quede acolchadito, suave como una caricia y no pique nunca más.",
     "construction": [
       "Malla de punto urdido de microfibra de poliéster o poliamida de tacto sedoso",
       "Capa de adhesivo termoplástico micropunto (poliamida fusible de bajo punto de fusión)",
-      "Estructura bielástica que se estira y acompaña los movimientos de remeras y bodies",
+      "Estructura bielástica que se estira y acompaña los movimientos de camisetas y bodies",
       "Resistencia certificada para soportar más de 50 lavados domésticos sin despegarse"
     ],
     "howItWorks": [
@@ -171,7 +171,7 @@ export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
       "6. El reverso queda completamente sellado, liso y suave al tacto."
     ],
     "mainTypes": [
-      "Protector Elástico de Punto (Ideal para bodies de bebé, remeras y trajes de baño)",
+      "Protector Elástico de Punto (Ideal para bodies de bebé, camisetas y trajes de baño)",
       "Protector Tejido Plano Liviano (Para camisas de vestir y uniformes)",
       "Protector Hidrosoluble Provisional (Para sellados de limpieza temporal)"
     ],
@@ -195,9 +195,9 @@ export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
       "Si el protector se despega tras el primer lavado: Vuelva a planchar aplicando mayor presión física con la plancha durante 15 segundos y temperatura de 135 °C.",
       "Si las esquinas se levantan: Recuerde redondear siempre los cuatro bordes con tijera en forma de óvalo antes de aplicar calor."
     ],
-    "dicaArtrelados": "¡El toque distintivo de distinción para su taller! Cuando entregue bodies de bebé, remeras escolares o toallitas con el protector de revés colocado, coloque una etiqueta que diga: 'Bordado con reverso suave antialérgico para el cuidado de la piel'. ¡Sus clientes valorarán ese detalle con devoción y volverán siempre a encargarle a usted!",
+    "dicaArtrelados": "¡El toque distintivo de distinción para su taller! Cuando entregue bodies de bebé, camisetas escolares o toallitas con el protector de revés colocado, coloque una etiqueta que diga: 'Bordado con reverso suave antialérgico para el cuidado de la piel'. ¡Sus clientes valorarán ese detalle con devoción y volverán siempre a encargarle a usted!",
     "voceSabia": "¡En las normas de confección de la Unión Europea y Estados Unidos para indumentaria infantil de 0 a 24 meses, la cobertura de revés en bordados de contacto directo es un estándar técnico recomendado para prevenir abrasiones dérmicas!",
-    "practicalExercise": "Tome una remera bordada densa. Pegue una mitad del revés con el protector termoadhesivo y deje la otra mitad con los hilos al aire. Pase el dorso de su mano o apóyela sobre su mejilla: sentirá al instante la diferencia abismal entre la aspereza de los hilos y la suavidad de caricia del protector.",
+    "practicalExercise": "Tome una camiseta bordada densa. Pegue una mitad del revés con el protector termoadhesivo y deje la otra mitad con los hilos al aire. Pase el dorso de su mano o apóyela sobre su mejilla: sentirá al instante la diferencia abismal entre la aspereza de los hilos y la suavidad de caricia del protector.",
     "quickSummary": "Malla termoadhesiva suave que se fija con plancha en el reverso del bordado para tapar hilos, nudos y proteger pieles delicadas de rozaduras.",
     "imageCaption": "Reverso de una prenda infantil mostrando el protector termoadhesivo suave sellando los nudos y cabos de hilo.",
     "relatedTerms": [
@@ -208,7 +208,7 @@ export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
     ],
     "applications": [
       "Bodies, batitas, ranitas y baberos para recién nacidos y bebés.",
-      "Remeras deportivas de lycra y prendas térmicas de compresión atlética.",
+      "camisetas deportivas de lycra y prendas térmicas de compresión atlética.",
       "Camisas de etiqueta y uniformes de personal con piel hipersensible."
     ],
     "recommendedSettings": {
@@ -220,7 +220,7 @@ export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-095-amaciamento-de-matriz-por-filtragem-de-densidade": {
-    "term": "Suavizado de Matriz por Filtrado Inteligente de Densidad (Smart Density Filter Softening)",
+    "term": "Suavizado de Diseño por Filtrado de Densidad",
     "level": "Avanzado 🔴",
     "category": "Programación de Bordado",
     "grammarClass": "Locución sustantiva masculina.",
@@ -280,7 +280,7 @@ export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
     ],
     "applications": [
       "Optimización de matrices descargadas o adquiridas en bancos de diseños comerciales.",
-      "Adaptación de bordados pesados para remeras de verano y ropa ligera de niños.",
+      "Adaptación de bordados pesados para camisetas de verano y ropa ligera de niños.",
       "Acondicionamiento de escudos con múltiples capas de letras y ornamentos."
     ],
     "recommendedSettings": {
@@ -292,7 +292,7 @@ export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-096-amortecedor-de-balanco-de-pantografo": {
-    "term": "Amortiguador de Balanceo de Pantógrafo (Pantograph Counterbalance Damper)",
+    "term": "Amortiguador de Balanceo del Pantógrafo",
     "level": "Avanzado 🔴",
     "category": "Componentes y Mecánica de la Máquina",
     "grammarClass": "Locución sustantiva masculina.",
@@ -331,7 +331,7 @@ export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
       "Los amortiguadores mecánicos requieren inspección periódica de estanqueidad cada dos años."
     ],
     "commonErrors": [
-      "❌ Cargar bastidores gigantescos con prendas pesadas (como camperas gruesas) a más de 950 PPM continuas.",
+      "❌ Cargar bastidores gigantescos con prendas pesadas (como chaquetas gruesas) a más de 950 PPM continuas.",
       "❌ No ajustar la tensión de las correas del pantógrafo provocando rebotes mecánicos.",
       "❌ Utilizar bordadoras sobre mesas endebles o pisos desparejos que aumentan las vibraciones."
     ],
@@ -339,7 +339,7 @@ export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
       "Si las letras pequeñas salen con contornos vibrados o torcidos: Reduzca la velocidad de costura en 100 PPM y verifique la firmeza del soporte del pantógrafo.",
       "Si se escucha un golpe seco al hacer saltos largos de desplazamiento: Inspeccione los topes de amortiguación al final del riel del eje X y lubrique las guías lineales."
     ],
-    "dicaArtrelados": "¡Para lograr letras chiquitas que parezcan impresas con láser! Cuando borde nombres de 4 a 6 mm en chombas o guardapolvos, baje la velocidad a 600 PPM. El pantógrafo frena con calma, no vibra absolutamente nada y las letritas salen tan limpias y legibles que sorprenderán a sus clientes.",
+    "dicaArtrelados": "¡Para lograr letras chiquitas que parezcan impresas con láser! Cuando borde nombres de 4 a 6 mm en polos o batas de trabajo, baje la velocidad a 600 PPM. El pantógrafo frena con calma, no vibra absolutamente nada y las letritas salen tan limpias y legibles que sorprenderán a sus clientes.",
     "voceSabia": "¡En las bordadoras industriales de 20 cabezales, el pantógrafo completo puede pesar más de 250 kilogramos y es capaz de frenar en seco en 0,02 segundos gracias a potentes sistemas mecatrónicos de compensación inercial!",
     "practicalExercise": "Borde una cuadrícula de líneas paralelas finas de 1 mm a 900 PPM y otra idéntica a 650 PPM. Compare con una lupa: a 650 PPM las líneas son rectas perfectas, mientras que a alta velocidad las vibraciones crean diminutas ondulaciones en los bordes.",
     "quickSummary": "Dispositivo mecánico que atenúa las vibraciones e inercias del pantógrafo para lograr trayectorias suaves, firmes y líneas de bordado sin distorsiones.",
@@ -364,7 +364,7 @@ export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-106-amortecedor-borracha-barra-agulha-anel-batente": {
-    "term": "Amortiguador de Goma de la Barra de Aguja / Anillo de Tope de Impacto (Needle Bar Buffer)",
+    "term": "Amortiguador de Goma de la Barra de Aguja",
     "level": "Avanzado 🔴",
     "category": "Componentes y Mecánica de la Máquina",
     "grammarClass": "Locución sustantiva masculina.",
@@ -410,7 +410,7 @@ export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
       "Si un cabezal de su máquina hace un golpeteo metálico mucho más ruidoso que los demás: Retire la tapa frontal e inspeccione el anillo de goma de la barra de aguja; probablemente esté roto o partido.",
       "Si el tornillo de aguja se afloja solo continuamente mientras borda: Revise la amortiguación superior de la barra; el exceso de vibración es la causa número uno de este problema."
     ],
-    "dicaArtrelados": "¡El secreto de un taller sereno y sin ruidos ensordecedores! En cada mantenimiento técnico preventivo anual, solicite el cambio de los aritos de goma de las barras de aguja. La máquina bordará con un zumbido suave y parejito, como si fuera un auto cero kilómetro recién salido de fábrica.",
+    "dicaArtrelados": "¡El secreto de un taller sereno y sin ruidos ensordecedores! En cada mantenimiento técnico preventivo anual, solicite el cambio de los anillos de goma de las barras de aguja. La máquina bordará con un zumbido suave y parejito, como si fuera un auto cero kilómetro recién salido de fábrica.",
     "voceSabia": "¡El reemplazo de estos pequeños anillos de goma que cuestan apenas unos centavos evita reparaciones costosas de cambio de barras de aguja y bielas que pueden superar cientos de dólares!",
     "practicalExercise": "Encienda su máquina a 800 PPM y escuche atentamente el sonido del cabezal. Un sonido rítmico, metálico suave y amortiguado indica que los topes de impacto están sanos y en perfecto funcionamiento.",
     "quickSummary": "Anillo amortiguador de caucho en la barra de aguja que atenúa los impactos mecánicos superiores, reduciendo el ruido y previniendo el desgaste.",
@@ -435,7 +435,7 @@ export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-016-amortecedor-de-calcador": {
-    "term": "Amortiguador de Prensatelas y Regulación de Presión (Presser Foot Spring & Cushion Adjustment)",
+    "term": "Regulador de Presión y Amortiguador del Prensatelas",
     "level": "Intermedio 🟡",
     "category": "Componentes y Mecánica de la Máquina",
     "grammarClass": "Locución sustantiva masculina.",
@@ -494,7 +494,7 @@ export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
     ],
     "applications": [
       "Bordado de toallas de baño, albornoces y sábanas de franela.",
-      "Bordado 3D con relieve en gorras y camperas con espuma de goma EVA.",
+      "Bordado 3D con relieve en gorras y chaquetas con espuma de goma EVA.",
       "Telas delicadas de seda, raso y satén de fiesta susceptibles a marcas."
     ],
     "recommendedSettings": {
@@ -506,7 +506,7 @@ export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-044-amortecedor-de-linha-mola-puxa-fio": {
-    "term": "Resorte Amortiguador Tira-Hilos (Check Spring)",
+    "term": "Muelle Compensador del Tirahilos",
     "level": "Avanzado 🔴",
     "category": "Componentes y Mecánica de la Máquina",
     "grammarClass": "Locución sustantiva masculina.",
@@ -579,7 +579,7 @@ export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-070-amortecedor-de-linha": {
-    "term": "Muelle Compensador de Hilo / Tensor Amortiguador (Take-up Spring / Check Spring)",
+    "term": "Muelle Tensor Amortiguador de Hilo",
     "level": "Avanzado 🔴",
     "category": "Agujas y Hilos",
     "grammarClass": "Locución sustantiva masculina.",
@@ -651,7 +651,7 @@ export const LOTE3_PART2_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-079-amortecedor-de-vibra-o-de-base-de-m-quina-anti-vibration-mounts-leveling-pads": {
-    "term": "Tacos Antivibratorios y Soportes Niveladores de Base (Anti-Vibration Mounts & Leveling Pads)",
+    "term": "Soportes Antivibración y Niveladores de Máquina",
     "level": "Avanzado 🔴",
     "category": "Componentes y Mecánica de la Máquina",
     "grammarClass": "Locución sustantiva masculina.",

@@ -54,7 +54,7 @@ export const LOTE2_C_PART2_ES: Record<string, Partial<Verbete>> = {
     "level": "Avanzado 🔴",
     "category": "Técnicas Especiales",
     "grammarClass": "Locución nominal femenina",
-    "origin": "De la técnica moderna ITH (In The Hoop / Proyecto Íntegro en el Bastidor) nacida en ateliês boutique para confeccionar productos terminados sin máquina de coser adicional.",
+    "origin": "De la técnica moderna ITH (In The Hoop / Proyecto Íntegro en el Bastidor) nacida en talleres boutique para confeccionar productos terminados sin máquina de coser adicional.",
     "definition": "Técnica avanzada de manufactura textil integral ejecutada 100% dentro del bastidor de bordar, donde mediante secuencias programadas de costura recta, colocación de telas superpuestas, bolsillos internos, cintas elásticas, forros y pestañas de cierre con broche magnético o cinta de contacto, se confecciona una funda acolchada y forrada para libretas de salud, pasaportes o libros sin necesidad de usar una máquina de coser auxiliar.",
     "howItWorks": [
       "1. Se monta entretela de rasgar pesada en el bastidor y la máquina borda la silueta de referencia de la funda abierta.",
@@ -355,7 +355,7 @@ export const LOTE2_C_PART2_ES: Record<string, Partial<Verbete>> = {
     ],
     "beginnerExplanation": "Es el tubito de plástico donde viene enrollado el hilo de bordar de colores. A diferencia de los conos gigantes de las fábricas, los carretes son más chiquitos (tienen de 500 a 1000 metros) y son perfectos para tener una variedad enorme de colores en tu taller sin gastar una fortuna. Tienen una pequeña ranurita en el borde plástico para trabar el hilito cuando terminas y que no se te haga una ensalada en la caja de hilos.",
     "practicalExamples": [
-      "Kits de colecciones de 40 o 60 colores de hilos brillantes de 500 metros para ateliês de personalización.",
+      "Kits de colecciones de 40 o 60 colores de hilos brillantes de 500 metros para talleres de personalización.",
       "Carretes de hilos metálicos de oro y plata de 200 metros para detalles especiales y monogramas festivos.",
       "Uso de mallas elásticas de red tubular sobre carretes resbaladizos para evitar que el hilo caiga en la base."
     ],
