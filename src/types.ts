@@ -31,6 +31,8 @@ export interface RecommendedSettings {
 export interface Verbete {
   id: string;
   code?: string;
+  dynamicCode?: string;
+  originalCode?: string;
   term: string;
   letter?: string;
   level?: string;

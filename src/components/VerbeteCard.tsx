@@ -17,13 +17,19 @@ export const VerbeteCard: React.FC<VerbeteCardProps> = ({
   currentLanguage,
 }) => {
   const [copied, setCopied] = React.useState(false);
+  if (!rawVerbete) return null;
+
   const activeLang: SupportedLanguage = (currentLanguage as SupportedLanguage) || "pt";
-  const verbete = localizeVerbete(rawVerbete, activeLang);
+  const verbete = localizeVerbete(rawVerbete, activeLang) || rawVerbete;
+  if (!verbete) return null;
+
   const t = UI_TRANSLATIONS[activeLang] || UI_TRANSLATIONS.pt;
 
-  // Guarantee code is never missing (fallback to initial letter code)
+  // Guarantee code is never missing (prefer dynamic sequential code)
   const displayCode =
-    verbete.code || `${(verbete.term || "V").trim().charAt(0).toUpperCase()}-001`;
+    rawVerbete.dynamicCode || verbete.dynamicCode || verbete.code || rawVerbete.code || `${(verbete.term || "V").trim().charAt(0).toUpperCase()}-001`;
+  const originalMasterCode = rawVerbete.code || verbete.code;
+  const showOriginalRef = originalMasterCode && originalMasterCode !== displayCode;
 
   const handleCopy = (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -47,10 +53,20 @@ export const VerbeteCard: React.FC<VerbeteCardProps> = ({
         {/* Top Header Row: Code Badge, Title, Category Pill & Actions */}
         <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-2.5">
           <div className="flex flex-wrap items-center gap-2">
-            {/* Numeração Badge (A-026) - ALWAYS REQUIRED */}
+            {/* Numeração Badge (A-026, B-125, C-002...) */}
             <span className="inline-flex items-center px-2.5 py-1 rounded-md text-[11px] font-black bg-[#101726] text-amber-300 border border-slate-800 shadow-2xs font-mono shrink-0">
               {displayCode}
             </span>
+
+            {/* Original Master Code reference if different */}
+            {showOriginalRef && (
+              <span
+                className="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-mono font-bold bg-slate-100 text-slate-500 border border-slate-200 shrink-0"
+                title={currentLanguage === "es" ? `Registro original: ${originalMasterCode}` : `Registro original: ${originalMasterCode}`}
+              >
+                {originalMasterCode}
+              </span>
+            )}
 
             {/* Term Name / Title */}
             <h3 className="text-base sm:text-lg font-black text-amber-950 group-hover:text-amber-800 transition-colors">
@@ -61,6 +77,12 @@ export const VerbeteCard: React.FC<VerbeteCardProps> = ({
             <span className="inline-block px-2.5 py-0.5 rounded-md text-[11px] font-bold bg-slate-100 text-slate-700 border border-slate-200 shrink-0">
               {verbete.category}
             </span>
+
+            {activeLang !== "pt" && rawVerbete?.term && verbete?.term && rawVerbete.term !== verbete.term && (
+              <span className="text-[11px] text-slate-400 font-medium italic shrink-0">
+                (PT: {String(rawVerbete.term).replace(/^[🟢🟡🔴\s]+/, "")})
+              </span>
+            )}
           </div>
 
           {/* Top Right Actions */}

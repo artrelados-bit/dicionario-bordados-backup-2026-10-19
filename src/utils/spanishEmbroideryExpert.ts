@@ -15,6 +15,10 @@ import { VERBETES_LETTER_C_LOTE3_ES } from "../data/verbetesLetterC_Lote3_ES";
 import { VERBETES_LETTER_C_LOTE4_ES } from "../data/verbetesLetterC_Lote4_ES";
 import { VERBETES_LETTER_C_LOTE5_ES } from "../data/verbetesLetterC_Lote5_ES";
 import { VERBETES_LETTER_C_LOTE6_ES } from "../data/verbetesLetterC_Lote6_ES";
+import { VERBETES_LETTER_D_LOTE1_ES } from "../data/verbetesLetterD_Lote1_ES";
+import { VERBETES_LETTER_D_LOTE2_ES } from "../data/verbetesLetterD_Lote2_ES";
+import { VERBETES_LETTER_D_LOTE3_ES } from "../data/verbetesLetterD_Lote3_ES";
+import { VERBETES_LETTER_D_LOTE4_ES } from "../data/verbetesLetterD_Lote4_ES";
 import { CURATED_SPANISH_APPLICATIONS } from "../data/spanishApplications";
 
 /**
@@ -514,7 +518,11 @@ export const CURATED_SPANISH_VERBETES: Record<string, Partial<Verbete>> = {
   ...VERBETES_LETTER_C_LOTE3_ES,
   ...VERBETES_LETTER_C_LOTE4_ES,
   ...VERBETES_LETTER_C_LOTE5_ES,
-  ...VERBETES_LETTER_C_LOTE6_ES
+  ...VERBETES_LETTER_C_LOTE6_ES,
+  ...VERBETES_LETTER_D_LOTE1_ES,
+  ...VERBETES_LETTER_D_LOTE2_ES,
+  ...VERBETES_LETTER_D_LOTE3_ES,
+  ...VERBETES_LETTER_D_LOTE4_ES
 };
 
 /**
@@ -1223,10 +1231,29 @@ export function translateEmbroideryTextToSpanish(text: any): any {
   return str;
 }
 
+const SPANISH_LOCALIZE_CACHE = new Map<string, Verbete>();
+
+/**
+ * Obtém rapidamente apenas o termo em espanhol de forma ultrarrápida (sem traduzir os 16 campos)
+ */
+export function getVerbeteTermInSpanish(verbete: Verbete): string {
+  if (!verbete) return "";
+  const curated = CURATED_SPANISH_VERBETES[verbete.id] || (verbete.code ? CURATED_SPANISH_VERBETES[verbete.code] : undefined) || CURATED_SPANISH_VERBETES[verbete.term];
+  if (curated?.term) return curated.term;
+  if (ALPHABET_TERMS_ES[verbete.term]) return ALPHABET_TERMS_ES[verbete.term];
+  return translateEmbroideryTextToSpanish(verbete.term);
+}
+
 /**
  * Localiza um Verbete completo para Espanhol com Nível de Perícia de Mestre de Bordado
  */
 export function expertLocalizeVerbeteToSpanish(verbete: Verbete): Verbete {
+  if (!verbete) return verbete;
+  const cacheKey = verbete.id || verbete.code || verbete.term;
+  if (cacheKey && SPANISH_LOCALIZE_CACHE.has(cacheKey)) {
+    return SPANISH_LOCALIZE_CACHE.get(cacheKey)!;
+  }
+
   // 1. Se existir na lista curada, aplicar prioritariamente
   const curated = CURATED_SPANISH_VERBETES[verbete.id] || (verbete.code ? CURATED_SPANISH_VERBETES[verbete.code] : undefined) || CURATED_SPANISH_VERBETES[verbete.term];
   const rawCat = CATEGORY_TRANSLATIONS_ES[verbete.category] || translateEmbroideryTextToSpanish(verbete.category);
@@ -1280,6 +1307,10 @@ export function expertLocalizeVerbeteToSpanish(verbete: Verbete): Verbete {
       threadTension: verbete.recommendedSettings.threadTension ? translateEmbroideryTextToSpanish(verbete.recommendedSettings.threadTension) : undefined,
     } : undefined),
   };
+
+  if (cacheKey) {
+    SPANISH_LOCALIZE_CACHE.set(cacheKey, base);
+  }
 
   return base;
 }

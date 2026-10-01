@@ -4,7 +4,7 @@
  */
 
 import { Verbete, VerbeteCategory } from "../types";
-import { expertLocalizeVerbeteToSpanish, translateEmbroideryTextToSpanish } from "./spanishEmbroideryExpert";
+import { expertLocalizeVerbeteToSpanish, translateEmbroideryTextToSpanish, getVerbeteTermInSpanish } from "./spanishEmbroideryExpert";
 
 export type SupportedLanguage = "pt" | "es" | "it" | "fr" | "en";
 
@@ -620,4 +620,14 @@ export function localizeVerbete(verbete: Verbete, lang: SupportedLanguage): Verb
   if (lang === "pt") return verbete;
   if (lang === "es") return expertLocalizeVerbeteToSpanish(verbete);
   return verbete;
+}
+
+/**
+ * Obtém rapidamente o nome do termo no idioma ativo (sem traduzir os outros campos)
+ */
+export function getVerbeteTermInLanguage(verbete: Verbete, lang: SupportedLanguage): string {
+  if (!verbete) return "";
+  if (lang === "pt") return verbete.term || "";
+  if (lang === "es") return getVerbeteTermInSpanish(verbete);
+  return verbete.term || "";
 }

@@ -17,13 +17,19 @@ export const VerbeteRow: React.FC<VerbeteRowProps> = ({
   currentLanguage,
 }) => {
   const [copied, setCopied] = React.useState(false);
+  if (!rawVerbete) return null;
+
   const activeLang: SupportedLanguage = (currentLanguage as SupportedLanguage) || "pt";
-  const verbete = localizeVerbete(rawVerbete, activeLang);
+  const verbete = localizeVerbete(rawVerbete, activeLang) || rawVerbete;
+  if (!verbete) return null;
+
   const t = UI_TRANSLATIONS[activeLang] || UI_TRANSLATIONS.pt;
 
-  // Guarantee code is never missing
+  // Guarantee code is never missing (prefer dynamic sequential code)
   const displayCode =
-    verbete.code || `${(verbete.term || "V").trim().charAt(0).toUpperCase()}-001`;
+    rawVerbete.dynamicCode || verbete.dynamicCode || verbete.code || rawVerbete.code || `${(verbete.term || "V").trim().charAt(0).toUpperCase()}-001`;
+  const originalMasterCode = rawVerbete.code || verbete.code;
+  const showOriginalRef = originalMasterCode && originalMasterCode !== displayCode;
 
   const handleCopy = (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -49,12 +55,25 @@ export const VerbeteRow: React.FC<VerbeteRowProps> = ({
           <span className="font-mono text-[11px] font-black bg-[#101726] text-amber-300 px-2.5 py-0.5 rounded-md shadow-2xs">
             {displayCode}
           </span>
+          {showOriginalRef && (
+            <span
+              className="text-[10px] font-mono font-bold bg-slate-100 text-slate-500 border border-slate-200 px-1.5 py-0.5 rounded"
+              title={currentLanguage === "es" ? `Registro original: ${originalMasterCode}` : `Registro original: ${originalMasterCode}`}
+            >
+              {originalMasterCode}
+            </span>
+          )}
           <h3 className="text-base sm:text-lg font-black text-amber-950 group-hover:text-amber-800 transition-colors">
             {verbete.term}
           </h3>
           <span className="text-[11px] bg-slate-100 text-slate-700 border border-slate-200 px-2 py-0.5 rounded-md font-bold">
             {verbete.category}
           </span>
+          {activeLang !== "pt" && rawVerbete?.term && verbete?.term && rawVerbete.term !== verbete.term && (
+            <span className="text-[11px] text-slate-400 font-medium italic">
+              (PT: {String(rawVerbete.term).replace(/^[🟢🟡🔴\s]+/, "")})
+            </span>
+          )}
         </div>
 
         {/* Definition Text */}

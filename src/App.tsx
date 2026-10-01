@@ -17,7 +17,7 @@ import { INITIAL_VERBETES, INITIAL_TROUBLESHOOTING_GUIDES } from "./data/initial
 import { CalculatorPromoBanner } from "./components/CalculatorPromoBanner";
 import { BookOpen, Search } from "lucide-react";
 import { updateDocumentMeta } from "./utils/seoHelper";
-import { SupportedLanguage } from "./utils/i18n";
+import { SupportedLanguage, localizeVerbete, getVerbeteTermInLanguage } from "./utils/i18n";
 import { LanguageBar } from "./components/LanguageBar";
 
 // Helper to sort verbetes in ascending order by code (e.g. A-001, A-002, A-003, A-026)
@@ -48,6 +48,24 @@ export function sortVerbetesByCode(list: Verbete[]): Verbete[] {
     if (codeB) return 1;
 
     return a.term.localeCompare(b.term, "pt-BR");
+  });
+}
+
+// Helper to sort verbetes alphabetically based on the active language
+export function sortVerbetesForLanguage(list: Verbete[], lang: SupportedLanguage): Verbete[] {
+  const termMap = new Map<string, string>();
+  list.forEach((v) => {
+    const raw = getVerbeteTermInLanguage(v, lang);
+    const clean = (raw || v.term || "").trim().replace(/^["'“”«»🟢🟡🔴\s]+/, "");
+    termMap.set(v.id, clean);
+  });
+
+  return [...list].sort((a, b) => {
+    const termA = termMap.get(a.id) || a.term || "";
+    const termB = termMap.get(b.id) || b.term || "";
+    const cmp = termA.localeCompare(termB, lang === "es" ? "es-ES" : "pt-BR");
+    if (cmp !== 0) return cmp;
+    return (a.code || "").localeCompare(b.code || "", "pt-BR", { numeric: true });
   });
 }
 
@@ -453,6 +471,38 @@ export default function App() {
     setVerbetes((prev) => [newVerbete, ...prev]);
   };
 
+  // Dynamic Sequential Code Mapping per language
+  const dynamicCodeMap = useMemo(() => {
+    const map = new Map<string, string>();
+    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+    const letterBuckets = new Map<string, { verbete: Verbete; cleanTerm: string }[]>();
+    letters.forEach((l) => letterBuckets.set(l, []));
+
+    verbetes.forEach((v) => {
+      if (!v || !v.term) return;
+      const rawTerm = getVerbeteTermInLanguage(v, currentLanguage) || v.term || "";
+      const cleanTerm = rawTerm.trim().replace(/^["'“”«»🟢🟡🔴\s]+/, "");
+      const firstChar = cleanTerm.charAt(0).toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      const letter = letters.includes(firstChar) ? firstChar : (v.code ? v.code.charAt(0).toUpperCase() : "A");
+      if (!letterBuckets.has(letter)) {
+        letterBuckets.set(letter, []);
+      }
+      letterBuckets.get(letter)!.push({ verbete: v, cleanTerm });
+    });
+
+    letterBuckets.forEach((bucket, letter) => {
+      bucket.sort((a, b) => {
+        return a.cleanTerm.localeCompare(b.cleanTerm, currentLanguage === "es" ? "es-ES" : "pt-BR");
+      });
+      bucket.forEach((item, idx) => {
+        const code = `${letter}-${String(idx + 1).padStart(3, "0")}`;
+        map.set(item.verbete.id, code);
+      });
+    });
+
+    return map;
+  }, [verbetes, currentLanguage]);
+
   // Filtered Verbetes Logic with Intelligent Relevance Ranking
   const filteredVerbetes = useMemo(() => {
     const query = searchQuery.trim();
@@ -464,6 +514,8 @@ export default function App() {
     const scoredList: { verbete: Verbete; score: number }[] = [];
 
     verbetes.forEach((v) => {
+      if (!v || !v.term) return;
+
       if (activeTab === "favorites" && !v.isFavorite) {
         return;
       }
@@ -475,36 +527,44 @@ export default function App() {
         return;
       }
 
-      // If there is no search query, filter strictly by selected letter
+      // Active letter determination based on current language
+      const rawTerm = (getVerbeteTermInLanguage(v, currentLanguage) || v.term || "").trim().replace(/^["'“”«»🟢🟡🔴\s]+/, "");
+      const activeFirstChar = rawTerm.charAt(0).toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      const verbeteLetter = currentLanguage === "pt"
+        ? (v.letter || (v.code ? v.code.charAt(0) : activeFirstChar)).toUpperCase()
+        : activeFirstChar;
+
+      // If there is no search query, filter strictly by selected letter in the active language
       if (!query && selectedLetter) {
-        const verbeteLetter = (v.letter || (v.code ? v.code.charAt(0) : v.term.charAt(0))).toUpperCase();
         if (verbeteLetter !== selectedLetter) return;
       }
 
       if (query) {
-        const termNorm = normalize(v.term);
+        const locV = localizeVerbete(v, currentLanguage);
+        const termNorm = normalize(locV.term || v.term);
+        const origTermNorm = normalize(v.term);
         const codeNorm = normalize(v.code || "");
-        const summaryNorm = normalize(v.summary || "");
-        const definitionNorm = normalize(v.definition || "");
-        const techNorm = normalize(v.technicalDetails || "");
-        const tagsNorm = normalize((v.tags || []).join(" "));
-        const appsNorm = normalize((v.applications || []).join(" "));
-        const beginnerNorm = normalize(v.beginnerExplanation || "");
-        const dicaNorm = normalize(v.dicaArtrelados || "");
-        const examplesNorm = normalize(Array.isArray(v.examples) ? v.examples.join(" ") : "");
+        const summaryNorm = normalize(locV.summary || locV.quickSummary || v.summary || "");
+        const definitionNorm = normalize(locV.definition || v.definition || "");
+        const techNorm = normalize(locV.technicalDetails || v.technicalDetails || "");
+        const tagsNorm = normalize((locV.tags || v.tags || []).join(" "));
+        const appsNorm = normalize((locV.applications || v.applications || []).join(" "));
+        const beginnerNorm = normalize(locV.beginnerExplanation || v.beginnerExplanation || "");
+        const dicaNorm = normalize(locV.dicaArtrelados || v.dicaArtrelados || "");
+        const examplesNorm = normalize(Array.isArray(locV.examples) ? locV.examples.join(" ") : (Array.isArray(v.examples) ? v.examples.join(" ") : ""));
 
-        const fullContent = `${codeNorm} ${termNorm} ${summaryNorm} ${definitionNorm} ${techNorm} ${tagsNorm} ${appsNorm} ${beginnerNorm} ${dicaNorm} ${examplesNorm}`;
+        const fullContent = `${codeNorm} ${termNorm} ${origTermNorm} ${summaryNorm} ${definitionNorm} ${techNorm} ${tagsNorm} ${appsNorm} ${beginnerNorm} ${dicaNorm} ${examplesNorm}`;
 
         let score = 0;
 
         // Exact match in code or term
-        if (codeNorm === rawQ || termNorm === rawQ) {
+        if (codeNorm === rawQ || termNorm === rawQ || origTermNorm === rawQ) {
           score += 2000;
-        } else if (termNorm.startsWith(rawQ)) {
+        } else if (termNorm.startsWith(rawQ) || origTermNorm.startsWith(rawQ)) {
           score += 1500;
-        } else if (new RegExp(`\\b${rawQ}\\b`, "i").test(termNorm)) {
+        } else if (new RegExp(`\\b${rawQ}\\b`, "i").test(termNorm) || new RegExp(`\\b${rawQ}\\b`, "i").test(origTermNorm)) {
           score += 1200;
-        } else if (termNorm.includes(rawQ)) {
+        } else if (termNorm.includes(rawQ) || origTermNorm.includes(rawQ)) {
           score += 800;
         } else if (tagsNorm.includes(rawQ)) {
           score += 500;
@@ -539,18 +599,23 @@ export default function App() {
       }
     });
 
-    if (query) {
-      // Sort by relevance score descending, then by code
-      scoredList.sort((a, b) => {
-        if (b.score !== a.score) {
-          return b.score - a.score;
-        }
-        return (a.verbete.code || "").localeCompare(b.verbete.code || "", "pt-BR", { numeric: true });
-      });
-      return scoredList.map((item) => item.verbete);
-    }
+    const resultList = query
+      ? (() => {
+          // Sort by relevance score descending, then by active language
+          scoredList.sort((a, b) => {
+            if (b.score !== a.score) {
+              return b.score - a.score;
+            }
+            return (a.verbete.code || "").localeCompare(b.verbete.code || "", "pt-BR", { numeric: true });
+          });
+          return scoredList.map((item) => item.verbete);
+        })()
+      : sortVerbetesForLanguage(scoredList.map((item) => item.verbete), currentLanguage);
 
-    return sortVerbetesByCode(scoredList.map((item) => item.verbete));
+    return resultList.map((v) => ({
+      ...v,
+      dynamicCode: dynamicCodeMap.get(v.id) || v.code,
+    }));
   }, [
     verbetes,
     activeTab,
@@ -559,7 +624,18 @@ export default function App() {
     selectedCategory,
     selectedLetter,
     searchQuery,
+    currentLanguage,
+    dynamicCodeMap,
   ]);
+
+  // Enriched selected verbete with dynamic code
+  const selectedVerbeteWithDynamicCode = useMemo(() => {
+    if (!selectedVerbete) return null;
+    return {
+      ...selectedVerbete,
+      dynamicCode: dynamicCodeMap.get(selectedVerbete.id) || selectedVerbete.dynamicCode || selectedVerbete.code,
+    };
+  }, [selectedVerbete, dynamicCodeMap]);
 
   // Related Term Click Handler inside modal
   const handleSelectRelatedTerm = (termName: string) => {
@@ -752,7 +828,7 @@ export default function App() {
 
       {/* Verbete Detail Modal */}
       <VerbeteDetailModal
-        verbete={selectedVerbete}
+        verbete={selectedVerbeteWithDynamicCode}
         onClose={() => setSelectedVerbete(null)}
         onToggleFavorite={handleToggleFavorite}
         onSelectRelatedTerm={handleSelectRelatedTerm}
