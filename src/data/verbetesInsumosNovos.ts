@@ -137,7 +137,7 @@ export const NOVOS_VERBETES_INSUMOS: Verbete[] = [
   {
     "id": "o-099-organza-cristal-bordado",
     "code": "O-099",
-    "term": "Organza Cristal no Bordado Computadorizado (Bordado Estruturado, Asas 3D, Marcadores de Página e Selagem Térmica)",
+    "term": "Bordado em Organza Cristal e Asas 3D",
     "letter": "O",
     "level": "🟢 Iniciante a Intermediário",
     "category": "Tipos de Tecidos",
