@@ -279,6 +279,11 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
                   {currentLanguage === "es" ? "Pronunciación" : "Pronúncia"}: [{verbete.pronunciation}]
                 </span>
               )}
+              {verbete.englishTerm && (
+                <span className="text-xs font-medium text-slate-700 bg-slate-100 px-2.5 py-1 rounded-md border border-slate-200">
+                  🌎 Termo Internacional: <strong className="font-semibold text-slate-900">{verbete.englishTerm}</strong>
+                </span>
+              )}
             </div>
           </div>
 

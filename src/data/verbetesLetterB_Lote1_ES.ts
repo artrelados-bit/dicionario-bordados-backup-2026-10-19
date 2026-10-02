@@ -4,33 +4,33 @@ import { LOTE1_B_PART2_ES } from "./lote1_b/part2";
 import { LOTE1_B_PART3_ES } from "./lote1_b/part3";
 
 const DYNAMIC_CODE_MAPPING_B_LOTE1: Record<string, string> = {
-  "B-115": "b-babador-e-prendedor-de-chupeta-acessorios-infantis",
-  "B-104": "b-104-baby-lock-maquinas-de-bordado-eletronico",
-  "B-008": "b-008-backing",
-  "B-071": "b-071-backing-textil-entretela-estrutural",
-  "B-105": "b-105-bai-baili-maquinas-de-bordado-eletronico",
-  "B-065": "b-065-bainha-aberta-computadorizada-openwork",
-  "B-040": "b-040-bainha-aberta-eletronica",
-  "B-000": "b-bainha-aberta-em-ponto-cheio",
-  "B-087": "b-087-balanco-de-ponto-e-compensacao-de-inercia-do-pantografo",
-  "B-082": "b-082",
-  "O-059": "overhang-balanco-frontal-braco-pantografo",
-  "B-113": "b-113-bandeja-coletora-oleo-residual-drenagem-cabecote",
-  "B-066": "b-066-bandeja-de-desbobinamento-porta-cones-thread-stand",
-  "B-015": "b-015-barra-de-agulha",
-  "B-107": "b-107-barra-de-agulha-e-bucha-guia-needle-bar-bushing",
-  "B-063": "b-063-barra-de-agulha-needle-bar",
-  "B-073": "b-073-barra-de-agulhas-multiplas-troca-de-cor",
-  "B-109": "b-109-barra-de-iluminacao-led-spot-focado-agulha",
-  "B-053": "b-053-barra-de-pressao-e-regulador-do-calcador",
-  "B-051": "b-051-barra-tensao-fios",
-  "B-097": "b-097-barra-estabilizadora-de-agulhas-multiplas-e-guia-anti-deflexao",
-  "B-093": "b-093-barra-estabilizadora-de-tensao-superior-pente-guia-fios",
-  "B-088": "b-088-barramento-can-bus-em-maquinas-de-bordar",
-  "B-102": "b-102-barudan-maquinas-de-bordado-eletronico",
-  "B-084": "b-084-base-antiestatica-para-cones-de-linha",
-  "B-080": "b-080",
-  "B-054": "b-054-base-de-cones-e-porta-carretel-vertical"
+  "B-001": "b-babador-e-prendedor-de-chupeta-acessorios-infantis",
+  "B-002": "b-104-baby-lock-maquinas-de-bordado-eletronico",
+  "B-003": "b-008-backing",
+  "B-004": "b-071-backing-textil-entretela-estrutural",
+  "B-005": "b-105-bai-baili-maquinas-de-bordado-eletronico",
+  "B-006": "b-065-bainha-aberta-computadorizada-openwork",
+  "B-007": "b-040-bainha-aberta-eletronica",
+  "B-008": "b-bainha-aberta-em-ponto-cheio",
+  "B-009": "b-087-balanco-de-ponto-e-compensacao-de-inercia-do-pantografo",
+  "B-010": "b-082",
+  "B-011": "overhang-balanco-frontal-braco-pantografo",
+  "B-012": "b-113-bandeja-coletora-oleo-residual-drenagem-cabecote",
+  "B-013": "b-066-bandeja-de-desbobinamento-porta-cones-thread-stand",
+  "B-014": "b-015-barra-de-agulha",
+  "B-015": "b-107-barra-de-agulha-e-bucha-guia-needle-bar-bushing",
+  "B-016": "b-063-barra-de-agulha-needle-bar",
+  "B-017": "b-073-barra-de-agulhas-multiplas-troca-de-cor",
+  "B-018": "b-109-barra-de-iluminacao-led-spot-focado-agulha",
+  "B-019": "b-053-barra-de-pressao-e-regulador-do-calcador",
+  "B-020": "b-051-barra-tensao-fios",
+  "B-021": "b-097-barra-estabilizadora-de-agulhas-multiplas-e-guia-anti-deflexao",
+  "B-022": "b-093-barra-estabilizadora-de-tensao-superior-pente-guia-fios",
+  "B-023": "b-088-barramento-can-bus-em-maquinas-de-bordar",
+  "B-024": "b-102-barudan-maquinas-de-bordado-eletronico",
+  "B-025": "b-084-base-antiestatica-para-cones-de-linha",
+  "B-026": "b-080",
+  "B-027": "b-054-base-de-cones-e-porta-carretel-vertical"
 };
 
 const combinedById: Record<string, Partial<Verbete>> = {
@@ -38,6 +38,16 @@ const combinedById: Record<string, Partial<Verbete>> = {
   ...LOTE1_B_PART2_ES,
   ...LOTE1_B_PART3_ES
 };
+
+// Normalize fields like curiosities/voceSabia
+for (const [id, data] of Object.entries(combinedById)) {
+  const item = data as any;
+  if (item.voceSabia && !item.curiosities) {
+    item.curiosities = item.voceSabia;
+  } else if (item.curiosities && !item.voceSabia) {
+    item.voceSabia = item.curiosities;
+  }
+}
 
 // Also index by code
 const combinedByCode: Record<string, Partial<Verbete>> = {};

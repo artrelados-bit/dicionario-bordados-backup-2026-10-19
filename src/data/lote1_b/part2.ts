@@ -52,11 +52,11 @@ export const LOTE1_B_PART2_ES: Record<string, Partial<Verbete>> = {
     "troubleshootingTips": [
       "Si no aparece hilo blanco de la canilla en el reverso: Afloje el tornillo de la caja de bobina un cuarto de vuelta o apriete el tensor superior del hilo de color.",
       "Si el hilo blanco sube a la cara frontal de la prenda: Apriete el tornillo de la caja de bobina o afloje el tensor superior hasta restablecer la proporción de 1/3.",
-      "Si la tensión varía entre diferentes agujas de la máquina: Calibre individualmente cada perilla de tensión superior utilizando un tensiómetro digital o de resorte."
+      "Si la tensión varía entre diferentes agujas de la máquina: Calibre individualmente cada perilla de tensión superior utilizando un tensiómetro digital o de muelle."
     ]
   },
   "overhang-balanco-frontal-braco-pantografo": {
-    "term": "Vuelo Frontal y Rigidez Mecánica del Pantógrafo",
+    "term": "Voladizo Frontal y Rigidez del Pantógrafo",
     "level": "Avanzado 🔴",
     "category": "Mantenimiento & Mecánica",
     "grammarClass": "Locución sustantiva masculina.",
@@ -110,7 +110,7 @@ export const LOTE1_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-113-bandeja-coletora-oleo-residual-drenagem-cabecote": {
-    "term": "Bandeja Colectora de Aceite Residual y Drenaje de Cabezal",
+    "term": "Bandeja Colectora de Aceite Residual",
     "level": "Intermedio 🟡",
     "category": "Mecánica & Mantenimiento",
     "grammarClass": "Locución sustantiva femenina.",
@@ -128,7 +128,7 @@ export const LOTE1_B_PART2_ES: Record<string, Partial<Verbete>> = {
       "Sustitución del fieltro colector saturado de pelusa de hilo de algodón.",
       "Prevención de manchas de grasa en vestidos blancos de fiesta y lencería nupcial."
     ],
-    "matrixParametersRelation": "Aunque es un componente mecánico de drenaje, su mantenimiento previene paradas de emergencia en medio de matrices largas y elimina rechazos de producción por manchas de aceite.",
+    "matrixParametersRelation": "Aunque es un componente mecánico de drenaje, su mantenimiento previene paradas de emergencia en medio de diseños de bordado largas y elimina rechazos de producción por manchas de aceite.",
     "commonErrors": [
       "❌ Dejar que la bandeja colectora se llene hasta desbordarse sobre el brazo de la máquina y la prenda.",
       "❌ Usar solventes agresivos como acetona para limpiarla que degraden los sellos de goma.",
@@ -159,12 +159,12 @@ export const LOTE1_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ],
     "troubleshootingTips": [
       "Si la bandeja rebosa lubricante: Drene el depósito aflojando la válvula inferior y limpie el filtro tamiz con desengrasante biodegradable.",
-      "Si el aceite drenado presenta coloración oscura con partículas: Alerta de desgaste severo por fricción seca en bujes o bielas; solicite revisión técnica urgente.",
+      "Si el aceite drenado presenta coloración oscura con partículas: Alerta de desgaste severo por fricción seca en casquillos o bielas; solicite revisión técnica urgente.",
       "Si percibe olor a aceite recalentado en el cabezal: Compruebe que la bomba de lubricación automática no esté bombeando caudal en exceso."
     ]
   },
   "b-066-bandeja-de-desbobinamento-porta-cones-thread-stand": {
-    "term": "Bandeja de Desbobinado / Portaconos Externo",
+    "term": "Bandeja Portaconos y Soporte de Desbobinado",
     "level": "Fundamental 🟢",
     "category": "Accesorios & Soportes",
     "grammarClass": "Locución sustantiva femenina.",
@@ -191,7 +191,7 @@ export const LOTE1_B_PART2_ES: Record<string, Partial<Verbete>> = {
     "whenToAdjust": "Suba la varilla telescópica a su máxima altura si el hilo forma lazos al subir o si siente tirones irregulares en la entrada al tensor.",
     "dicaArtrelados": "¡Consejo de oro Artrelados: coloque una almohadilla de espuma redonda o una base de silicona bajo cada cono en la bandeja; evita que el cono gire sobre sí mismo y absorbe las microvibraciones del motor!",
     "voceSabia": "¿Sabías que si desbobina un cono de bordar en posición horizontal en lugar de vertical superior, el hilo adquiere una torsión parasitaria de 360 grados por cada vuelta, duplicando el riesgo de nudos?",
-    "practicalExercise": "Pruebe a bordar una matriz con la varilla de la antena a 10 cm del cono y luego elévela a 35 cm: notará inmediatamente una costura más silenciosa y un hilo que fluye sin tirones.",
+    "practicalExercise": "Pruebe a bordar una diseño de bordado con la varilla de la antena a 10 cm del cono y luego elévela a 35 cm: notará inmediatamente una costura más silenciosa y un hilo que fluye sin tirones.",
     "summary": "Soporte vertical esencial con antena elevada que garantiza el desenrollado libre y vertical del hilo desde conos de gran formato hacia la máquina.",
     "quickSummary": "Portaconos vertical con antena aérea para desbobinado fluido sin fricción ni enredos.",
     "relatedTerms": [
@@ -228,7 +228,7 @@ export const LOTE1_B_PART2_ES: Record<string, Partial<Verbete>> = {
       "1. La biela motriz conectada al eje principal impulsa la barra de aguja hacia abajo.",
       "2. La aguja perfora la tela y desciende hasta su punto muerto inferior (PMI).",
       "3. La barra asciende entre 1,8 y 2,2 mm para formar la lazada de hilo en el chaflán.",
-      "4. Tras la captura por el garfio, la barra regresa a su punto muerto superior (PMS) guiada por sus bujes.",
+      "4. Tras la captura por el garfio, la barra regresa a su punto muerto superior (PMS) guiada por sus casquillos.",
       "5. En máquinas multiaguja, el reciprocador engancha solo la barra activa seleccionada para esa secuencia de color."
     ],
     "beginnerExplanation": "Es la barrita metálica que sube y baja rapidísimo llevando la aguja: en las máquinas industriales multiaguja hay 10, 12 o 15 de estas barras alineadas, pero solo se mueve la del color que está bordando en cada momento.",
@@ -241,10 +241,10 @@ export const LOTE1_B_PART2_ES: Record<string, Partial<Verbete>> = {
     "commonErrors": [
       "❌ Apretar el tornillo de la aguja con fuerza desmedida mellando la ranura de la barra.",
       "❌ Operar con la barra de aguja descalibrada en altura (demasiado alta provoca saltos; muy baja choca con el garfio).",
-      "❌ Dejar que se acumule pelusa seca en el buje superior de la barra provocando atascamientos."
+      "❌ Dejar que se acumule pelusa seca en el casquillo superior de la barra provocando atascamientos."
     ],
     "whenToAdjust": "Calibre la altura de la barra con galga de espesores si la aguja roza la punta del garfio o si experimenta saltos continuos de puntada en todas las telas.",
-    "dicaArtrelados": "¡Consejo de oro Artrelados: la altura estándar de la barra de aguja se calibra haciendo coincidir la marca de la línea grabada superior de la barra con la base del buje cuando la aguja está en su punto muerto inferior!",
+    "dicaArtrelados": "¡Consejo de oro Artrelados: la altura estándar de la barra de aguja se calibra haciendo coincidir la marca de la línea grabada superior de la barra con la base del casquillo cuando la aguja está en su punto muerto inferior!",
     "voceSabia": "¿Sabías que a 1.000 PPM, la barra de aguja recorre más de 70 metros de distancia lineal por minuto subiendo y bajando en un espacio de apenas 35 milímetros?",
     "practicalExercise": "Gire manualmente el volante de su máquina hasta que la barra de aguja alcance su punto más bajo: observe con una linterna la distancia entre el ojo de la aguja y la punta del garfio rotativo.",
     "summary": "Varilla cilíndrica de alta precisión que transporta la aguja en su recorrido vertical alternativo sincronizado con el garfio para la formación de cada puntada.",
@@ -252,7 +252,7 @@ export const LOTE1_B_PART2_ES: Record<string, Partial<Verbete>> = {
     "relatedTerms": [
       "Aguja de Bordado",
       "Reciprocador de Aguja",
-      "Buje Guía",
+      "casquillo Guía",
       "Garfio Rotativo"
     ],
     "applications": [
@@ -269,43 +269,43 @@ export const LOTE1_B_PART2_ES: Record<string, Partial<Verbete>> = {
     "troubleshootingTips": [
       "Si la máquina salta puntadas sistemáticamente en una sola aguja: Compruebe si la altura de esa barra de aguja subió tras un quiebre fuerte.",
       "Si la barra se calienta durante el trabajo continuo: Aplique una gota de aceite mineral blanco en las ranuras de la barra cada 40 horas de producción.",
-      "Si la barra se traba al bajar: Limpie el buje superior retirando hilos y pelusas compactadas con una aguja de limpieza."
+      "Si la barra se traba al bajar: Limpie el casquillo superior retirando hilos y pelusas compactadas con una aguja de limpieza."
     ]
   },
   "b-107-barra-de-agulha-e-bucha-guia-needle-bar-bushing": {
-    "term": "Barra de Aguja y Buje Guía",
+    "term": "Barra de Aguja y Casquillo Guía",
     "level": "Intermedio a Avanzado 🟡🔴",
     "category": "Mecánica & Mantenimiento",
     "grammarClass": "Locución sustantiva femenina.",
     "origin": "Del latín barra y del germánico buxse (caja/cilindro). Componente tribológico esencial en la maquinaria de precisión moderna.",
-    "definition": "Conjunto mecánico de precisión formado por la barra cilíndrica de aguja y sus dos bujes guías (superior e inferior) fabricados en bronce sinterizado autolubricante o aleaciones de fósforo-bronce. Los bujes mantienen la barra en perfecta verticalidad perpendicular a la placa de aguja, impidiendo desviaciones axiales u holguras laterales durante penetraciones a alta velocidad.",
+    "definition": "Conjunto mecánico de precisión formado por la barra cilíndrica de aguja y sus dos casquillos guías (superior e inferior) fabricados en bronce sinterizado autolubricante o aleaciones de fósforo-bronce. Los casquillos mantienen la barra en perfecta verticalidad perpendicular a la placa de aguja, impidiendo desviaciones axiales u holguras laterales durante penetraciones a alta velocidad.",
     "howItWorks": [
-      "1. La barra de aguja desliza en sentido axial dentro de los orificios microrectificados de ambos bujes.",
+      "1. La barra de aguja desliza en sentido axial dentro de los orificios microrectificados de ambos casquillos.",
       "2. La microporosidad del bronce sinterizado libera microgotas de aceite al calentarse por fricción.",
       "3. La película hidrodinámica de lubricante minimiza el rozamiento y el desgaste de los metales.",
       "4. Se evita que la aguja se desplace lateralmente al perforar costuras gruesas o parches duros."
     ],
     "beginnerExplanation": "Son los pequeños tubos de bronce donde entra la barra de aguja para subir y bajar derechita sin bailar hacia los lados; son como los rieles de precisión que mantienen la aguja apuntando al milímetro.",
     "practicalExamples": [
-      "Detección y cambio de buje inferior desgastado tras 5 años de producción continua en 3 turnos.",
+      "Detección y cambio de casquillo inferior desgastado tras 5 años de producción continua en 3 turnos.",
       "Eliminación de roturas misteriosas de aguja al bordar sobre costuras gruesas de gorras.",
       "Prueba de holgura lateral moviendo la punta de la barra con la mano cuando la aguja está abajo."
     ],
-    "matrixParametersRelation": "La holgura cero en los bujes garantiza que la aguja no se doble hacia atrás en telas densas, manteniendo estable la calibración de la matriz en satines finos.",
+    "matrixParametersRelation": "La holgura cero en los casquillos garantiza que la aguja no se doble hacia atrás en telas densas, manteniendo estable la calibración de la diseño de bordado en satines finos.",
     "commonErrors": [
-      "❌ Lubricar los bujes con aceites pesados para motores de coche que taponan los microporos del bronce.",
-      "❌ Utilizar barras de aguja lijadas a mano con papel de lija que rayan irreversiblemente el interior del buje.",
+      "❌ Lubricar los casquillos con aceites pesados para motores de coche que taponan los microporos del bronce.",
+      "❌ Utilizar barras de aguja lijadas a mano con papel de lija que rayan irreversiblemente el interior del casquillo.",
       "❌ Trabajar con holgura lateral mayor a 0,2 mm arriesgando choque frontal con la punta del garfio."
     ],
-    "whenToAdjust": "Reemplace los bujes o la barra de aguja cuando pueda mover la punta de la barra lateralmente con los dedos y perciba un juego o chasquido evidente.",
-    "dicaArtrelados": "¡Consejo de oro Artrelados: para comprobar el desgaste del buje inferior, baje la barra de aguja, tome la punta con los dedos índice y pulgar e intente moverla de adelante hacia atrás; si hay más de medio milímetro de juego, es hora de cambiar el buje!",
-    "voceSabia": "¿Sabías que los bujes de bronce sinterizado se fabrican prensando polvo de bronce a altísima temperatura y sumergiéndolos al vacío en aceite lubricante caliente para absorberlo como una esponja metálica?",
+    "whenToAdjust": "Reemplace los casquillos o la barra de aguja cuando pueda mover la punta de la barra lateralmente con los dedos y perciba un juego o chasquido evidente.",
+    "dicaArtrelados": "¡Consejo de oro Artrelados: para comprobar el desgaste del casquillo inferior, baje la barra de aguja, tome la punta con los dedos índice y pulgar e intente moverla de adelante hacia atrás; si hay más de medio milímetro de juego, es hora de cambiar el casquillo!",
+    "voceSabia": "¿Sabías que los casquillos de bronce sinterizado se fabrican prensando polvo de bronce a altísima temperatura y sumergiéndolos al vacío en aceite lubricante caliente para absorberlo como una esponja metálica?",
     "practicalExercise": "Retire la aguja, tome la barra por el tornillo de sujeción y mueva lateralmente con suavidad: compare la sensación de una aguja de uso diario con una aguja poco usada (como la posición 15 de su máquina).",
     "summary": "Par cinemático de alta precisión que asegura el guiado vertical rígido de la aguja con mínimo coeficiente de fricción y máxima durabilidad mecánica.",
     "quickSummary": "Conjunto de barra de aguja y casquillo de bronce que garantiza alineación vertical sin holguras.",
     "relatedTerms": [
       "Barra de Aguja",
-      "Buje de Bronce Sinterizado",
+      "casquillo de Bronce Sinterizado",
       "Tribología Textil",
       "Holgura Mecánica"
     ],
@@ -314,14 +314,14 @@ export const LOTE1_B_PART2_ES: Record<string, Partial<Verbete>> = {
       "Revisión en mantenimientos preventivos mayores de cabezales",
       "Preservación de la sincronización milimétrica del garfio"
     ],
-    "technicalDetails": "Holgura diametral de diseño entre 0,015 y 0,030 mm. Rugosidad superficial Ra inferior a 0,2 micras. Material del buje: Bronce SAE 841.",
+    "technicalDetails": "Holgura diametral de diseño entre 0,015 y 0,030 mm. Rugosidad superficial Ra inferior a 0,2 micras. Material del casquillo: Bronce SAE 841.",
     "bibliographicReferences": [
       "Barudan Head Mechanical Assembly & Bushing Tolerances",
       "Tribology of High-Speed Textile Needles and Bearings - CRC Press",
       "Manual de Mantenimiento Preventivo de Cabezales - Artrelados"
     ],
     "troubleshootingTips": [
-      "Si la aguja quiebra continuamente o roza la punta del garfio: Compruebe si la barra tiene holgura; con la máquina apagada, mueva la barra hacia adelante y hacia atrás: si hay juego visible, los bujes deben reemplazarse.",
+      "Si la aguja quiebra continuamente o roza la punta del garfio: Compruebe si la barra tiene holgura; con la máquina apagada, mueva la barra hacia adelante y hacia atrás: si hay juego visible, los casquillos deben reemplazarse.",
       "Si la máquina produce un chirrido agudo metálico en el cabezal: Falta lubricación urgente; aplique una sola gota de aceite mineral blanco en el fieltro superior y gire manualmente el volante.",
       "Si se producen saltos continuos sin rotura de hilo: Calibre la altura de la barra para que el ojo de la aguja quede entre 0,5 mm y 1,0 mm por debajo de la punta del garfio."
     ]
@@ -381,15 +381,15 @@ export const LOTE1_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-073-barra-de-agulhas-multiplas-troca-de-cor": {
-    "term": "Barra de Agujas Múltiples / Bloque de Cambio de Color",
+    "term": "Barra de Agujas Múltiples y Cambio de Color",
     "level": "Avanzado 🔴",
     "category": "Componentes de la Máquina",
     "grammarClass": "Locución sustantiva femenina.",
     "origin": "Del latín multiplex (múltiple) y del diseño de cabezal móvil automatizado introducido por Tajima en 1979 para posibilitar el cambio automático de hilos sin intervención manual.",
-    "definition": "Conjunto electromecánico compuesto por un bastidor o carro frontal deslizante que alberga entre 4 y 15 barras de aguja independientes con sus respectivos resortes de recuperación y prensatelas. Un servomotor lineal o un tambor de levas desplaza el bloque lateralmente para alinear con exactitud de décimas de milímetro la barra de aguja del color seleccionado con el reciprocador central y el eje principal de la máquina.",
+    "definition": "Conjunto electromecánico compuesto por un bastidor o carro frontal deslizante que alberga entre 4 y 15 barras de aguja independientes con sus respectivos muelles de recuperación y prensatelas. Un servomotor lineal o un tambor de levas desplaza el bloque lateralmente para alinear con exactitud de décimas de milímetro la barra de aguja del color seleccionado con el reciprocador central y el eje principal de la máquina.",
     "howItWorks": [
       "1. El microprocesador lee una orden de cambio de color en el archivo de bordado.",
-      "2. La máquina ejecuta el corte y arremate del hilo actual y eleva la barra activa a su posición de reposo.",
+      "2. La máquina ejecuta el corte y remate del hilo actual y eleva la barra activa a su posición de reposo.",
       "3. El motor de cambio de color desplaza el bloque de agujas transversalmente hacia la posición deseada.",
       "4. Un sensor óptico o microinterruptor de levas confirma que la aguja objetivo está alineada al 100%.",
       "5. El reciprocador se acopla a la nueva barra de aguja y la máquina reanuda el bordado en menos de dos segundos."
@@ -436,7 +436,7 @@ export const LOTE1_B_PART2_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-109-barra-de-iluminacao-led-spot-focado-agulha": {
-    "term": "Barra de Iluminación LED Flexible / Spot Focalizado de Aguja",
+    "term": "Iluminación LED Focalizada para Barra de Aguja",
     "level": "Iniciante a Intermedio 🟢🟡",
     "category": "Mecánica & Mantenimiento",
     "grammarClass": "Locución sustantiva femenina.",

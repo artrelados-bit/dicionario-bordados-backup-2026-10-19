@@ -148,7 +148,7 @@ export const LOTE4_PART1_ES: Record<string, Partial<Verbete>> = {
       "Bordado a alta velocidad con hilos metálicos propensos a enrollarse sobre sí mismos.",
       "Control de filamento de poliéster 100% trilobal en conos altos de 5.000 metros."
     ],
-    "matrixParametersRelation": "No depende de la digitalización de la matriz, pero una deflexión o suciedad en el guía-hilo altera la tensión efectiva de entrada de la puntada, causando lazos sueltos en el satén.",
+    "matrixParametersRelation": "No depende de la digitalización del diseño de bordado, pero una deflexión o suciedad en el guía-hilo altera la tensión efectiva de entrada de la puntada, causando lazos sueltos en el satén.",
     "commonErrors": [
       "❌ Enhebrar el hilo fuera del bucle helicoidal, dejando el hilo flotando libre contra la estructura del cabezal.",
       "❌ No limpiar los restos de pelusa y cera retenidos en el ojo de la espiral.",
@@ -258,13 +258,13 @@ export const LOTE4_PART1_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "Una matriz con ángulos biselados optimizados consume menos hilo y reduce tiempo de máquina. Cotice archivos profesionales con la Calculadora de Bordados Artrelados."
   },
   "a-argola-e-ilhos-chaveiro-in-the-hoop-bastidor": {
-    "term": "Ojales y Argollas Metálicas para Llaveros en Bastidor",
+    "term": "Ojales y Argollas Metálicas para Llaveros",
     "level": "Iniciante 🟢 a Intermedio 🟡",
     "category": "Proyectos en el Bastidor (ITH) y Fornituras",
     "grammarClass": "Locución sustantiva femenina técnica",
     "origin": "Del árabe al-halqa (aro o eslabón metálico) y del francés œillet (pequeño orificio circular con anillo de protección). Procedimiento estandarizado en la década de 2000 con el auge del bordado ITH (In-The-Hoop).",
     "summary": "Protocolo técnico de diseño y confección íntegra de llaveros y colgantes en el bastidor electrónico, integrando áreas despejadas y refuerzos para la colocación de herrajes sin roturas.",
-    "definition": "La técnica de fijación de argollas y ojales para llaveros In-The-Hoop (ITH Keyring Hardware & Eyelet Placement) comprende la metodología de diseño de la matriz y el ensamblaje en el bastidor mediante la cual se producen llaveros, etiquetas escolares y dijes utilitarios en materiales sintéticos (vinil, polipiel, fieltro de alta densidad o cuero sintético). El proceso incorpora marcas de corte circulares guiadas por pespuntes de refuerzo radial o cintas de sujeción insertadas durante pausas programadas de la máquina, garantizando que el ojal metálico número cero o la argolla con mosquetón queden anclados con solidez indestructible sin que la aguja colisione con el metal.",
+    "definition": "La técnica de fijación de argollas y ojales para llaveros In-The-Hoop (ITH Keyring Hardware & Eyelet Placement) comprende la metodología de diseño de bordado y el ensamblaje en el bastidor mediante la cual se producen llaveros, etiquetas escolares y dijes utilitarios en materiales sintéticos (vinil, polipiel, fieltro de alta densidad o cuero sintético). El proceso incorpora marcas de corte circulares guiadas por pespuntes de refuerzo radial o cintas de sujeción insertadas durante pausas programadas de la máquina, garantizando que el ojal metálico número cero o la argolla con mosquetón queden anclados con solidez indestructible sin que la aguja colisione con el metal.",
     "howItWorks": "1. Se enbastidore estabilizador rasgable o hidrosoluble y se coloca la cara frontal del material sintético.\n2. La bordadora realiza el diseño decorativo y el pespunte circular guía para el ojal.\n3. Se coloca por debajo del bastidor la tela o vinil de respaldo para ocultar los hilos traseros.\n4. La máquina une ambas caras con una costura periférica de remate.\n5. Al desbastar, se perfora el hueco indicado y se remacha el ojal o se pasa la cinta con argolla.",
     "beginnerExplanation": "Hacer llaveros totalmente en la bordadora es una de las cosas más rentables de un taller. La máquina borda el dibujo en cuerina o fieltro, luego usted pega un pedacito de vinil por detrás del bastidor con cinta adhesiva y la máquina cose todo alrededor. Por último, usted perfora un agujerito en la marca que dejó la máquina y le coloca un ojal de metal o una argolla con una pinza manual.",
     "practicalExamples": [
@@ -279,7 +279,7 @@ export const LOTE4_PART1_ES: Record<string, Partial<Verbete>> = {
       "❌ Perforar con tijera en lugar de sacabocados circular calibrado, rasgando la cuerina con el uso continuo."
     ],
     "whenToAdjust": "Aumente el espaciado de margen a 10 mm del borde exterior si el material sintético tiende a estirarse o desfondarse con el peso de las llaves.",
-    "dicaArtrelados": "Fije la tela trasera usando cinta de enmascarar de papel en las cuatro esquinas externas de la parte inferior del bastidor. Jamás use alfileres dentro del área del bastidor móvil para evitar colisiones catastróficas con el pie de bordado.",
+    "dicaArtrelados": "Fije la tela trasera usando cinta de carrocero en las cuatro esquinas externas de la parte inferior del bastidor. Jamás use alfileres dentro del área del bastidor móvil para evitar colisiones catastróficas con el pie de bordado.",
     "curiosities": "¿Sabía que los llaveros bordados ITH representan uno de los productos de mayor margen en talleres de bordado, alcanzando rendimientos superiores al 400% respecto al costo de los materiales?",
     "practicalExercise": "Borde un llavero redondo de 5 cm en vinil con respaldo de fieltro. Realice la parada para pegar la base, deje coser la costura perimetral en satén festonado y use un sacabocados de golpe n.° 3 para colocar el ojal metálico de bronce.",
     "quickSummary": "Fabricación integral de colgantes y llaveros en el bastidor: bordado frontal, inclusión de reverso con pausa programada e inserción de herrajes reforzados.",
@@ -334,7 +334,7 @@ export const LOTE4_PART1_ES: Record<string, Partial<Verbete>> = {
       "Cajas plásticas herméticas con bolsitas de gel de sílice para zonas de humedad extrema.",
       "Uso de mallas elásticas de protección tubular sobre conos de hilos metalizados."
     ],
-    "matrixParametersRelation": "Un hilo degradado por mal almacenamiento rompe constantemente bajo tensiones normales calibradas (110 gf), forzando erróneamente al operario a aflojar la tensión de la matriz hasta afear el bordado.",
+    "matrixParametersRelation": "Un hilo degradado por mal almacenamiento rompe constantemente bajo tensiones normales calibradas (110 gf), forzando erróneamente al operario a aflojar la tensión del diseño de bordado hasta afear el bordado.",
     "commonErrors": [
       "❌ Dejar los conos exhibidos en repisas expuestas a los rayos solares de la ventana.",
       "❌ Permitir que el polvo del taller se deposite en la superficie del cono, entrando luego al tensor de la máquina.",

@@ -18,7 +18,6 @@ import { CalculatorPromoBanner } from "./components/CalculatorPromoBanner";
 import { BookOpen, Search } from "lucide-react";
 import { updateDocumentMeta } from "./utils/seoHelper";
 import { SupportedLanguage, localizeVerbete, getVerbeteTermInLanguage } from "./utils/i18n";
-import { LanguageBar } from "./components/LanguageBar";
 
 // Helper to sort verbetes in ascending order by code (e.g. A-001, A-002, A-003, A-026)
 export function sortVerbetesByCode(list: Verbete[]): Verbete[] {
@@ -375,27 +374,15 @@ export default function App() {
   const [onlyAiGenerated, setOnlyAiGenerated] = useState(false);
   const [viewMode, setViewMode] = useState<"list" | "grid">("list");
 
-  // Selected Language State
-  const [currentLanguage, setCurrentLanguage] = useState<SupportedLanguage>(() => {
+  // Selected Language State - Exclusively Portuguese for pure Artrelados authority
+  const [currentLanguage] = useState<SupportedLanguage>("pt");
+  useEffect(() => {
     try {
-      const saved = localStorage.getItem("dibe_language");
-      if (saved === "pt" || saved === "es" || saved === "it" || saved === "fr" || saved === "en") {
-        return saved;
-      }
+      localStorage.setItem("dibe_language", "pt");
     } catch (e) {
       // Ignore
     }
-    return "pt";
-  });
-
-  const handleLanguageChange = (lang: SupportedLanguage) => {
-    setCurrentLanguage(lang);
-    try {
-      localStorage.setItem("dibe_language", lang);
-    } catch (e) {
-      // Ignore
-    }
-  };
+  }, []);
 
   // Selected Verbete Modal State
   const [selectedVerbete, setSelectedVerbete] = useState<Verbete | null>(null);
@@ -553,7 +540,8 @@ export default function App() {
         const dicaNorm = normalize(locV.dicaArtrelados || v.dicaArtrelados || "");
         const examplesNorm = normalize(Array.isArray(locV.examples) ? locV.examples.join(" ") : (Array.isArray(v.examples) ? v.examples.join(" ") : ""));
 
-        const fullContent = `${codeNorm} ${termNorm} ${origTermNorm} ${summaryNorm} ${definitionNorm} ${techNorm} ${tagsNorm} ${appsNorm} ${beginnerNorm} ${dicaNorm} ${examplesNorm}`;
+        const englishNorm = normalize(v.englishTerm || "");
+        const fullContent = `${codeNorm} ${termNorm} ${origTermNorm} ${englishNorm} ${summaryNorm} ${definitionNorm} ${techNorm} ${tagsNorm} ${appsNorm} ${beginnerNorm} ${dicaNorm} ${examplesNorm}`;
 
         let score = 0;
 
@@ -694,12 +682,6 @@ export default function App() {
         stats={stats}
         onResetFilters={handleResetFilters}
         currentLanguage={currentLanguage}
-      />
-
-      {/* Language Bar - Clean, pure text line on clear white background, right below the yellow header */}
-      <LanguageBar
-        currentLanguage={currentLanguage}
-        onLanguageChange={handleLanguageChange}
       />
 
       {/* Main Container */}

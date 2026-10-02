@@ -27,7 +27,7 @@ export const LOTE1_B_PART1_ES: Record<string, Partial<Verbete>> = {
       "❌ Usar entretelas rígidas con pegamento que irriten la piel delicada del bebé."
     ],
     "whenToAdjust": "Ajuste cuando observe arrugas en los bordes curvos tras voltear la prenda (indica tensión excesiva en el pespunte) o cuando el forro se desplace durante la costura final.",
-    "dicaArtrelados": "¡Consejo de oro Artrelados: antes de dar vuelta el babero, realice pequeños piquetes con tijera de pico de pato en todas las curvas exteriores! Esto permite que el contorno quede perfectamente plano y redondeado.",
+    "dicaArtrelados": "¡Consejo de oro Artrelados: antes de dar la vuelta al babero, realice pequeños piquetes con tijera de pico de pato en todas las curvas exteriores! Esto permite que el contorno quede perfectamente plano y redondeado.",
     "voceSabia": "¿Sabías que los primeros baberos bordados en bastidor surgieron en Francia en el siglo XIX como piezas de ajuar aristocrático bordadas a mano sobre lino fino de Flandes?",
     "practicalExercise": "Borde una muestra de sujetachupetes en un bastidor 10x10 cm: programe la línea de fijación, coloque una cinta de 25 cm doblada, cierre con costura recta y coloque un broche snap manual.",
     "summary": "Técnica de confección completa dentro del bastidor para piezas infantiles que combina bordado decorativo y ensamblaje de capas en un único proceso automatizado.",
@@ -56,7 +56,7 @@ export const LOTE1_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-104-baby-lock-maquinas-de-bordado-eletronico": {
-    "term": "Baby Lock",
+    "term": "Máquinas de Bordar Baby Lock",
     "level": "Intermedio a Avanzado 🟡🔴",
     "category": "Máquinas y Equipos",
     "grammarClass": "Marca registrada / Sustantivo propio.",
@@ -110,7 +110,7 @@ export const LOTE1_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-008-backing": {
-    "term": "Backing",
+    "term": "Backing y Entretela de Soporte",
     "level": "Fundamental 🟢",
     "category": "Estabilizadores & Entretelas",
     "grammarClass": "Sustantivo masculino (del inglés backing).",
@@ -164,7 +164,7 @@ export const LOTE1_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-071-backing-textil-entretela-estrutural": {
-    "term": "Backing Textil / Entretela Estructural",
+    "term": "Backing Textil Estructural",
     "level": "Fundamental 🟢",
     "category": "Estabilizadores & Entretelas",
     "grammarClass": "Locución sustantiva masculina.",
@@ -182,7 +182,7 @@ export const LOTE1_B_PART1_ES: Record<string, Partial<Verbete>> = {
       "Refuerzo interior en bordados de maletines, mochilas y calzado deportivo.",
       "Base estructural para insignias sobre tejidos finos que requieren cuerpo rígido."
     ],
-    "matrixParametersRelation": "Permite trabajar con densidades elevadas de hasta 0,35 mm sin riesgo de perforar o cortar la tela base gracias a su matriz densa de fibras reforzadas.",
+    "matrixParametersRelation": "Permite trabajar con densidades elevadas de hasta 0,35 mm sin riesgo de perforar o cortar la tela base gracias a su diseño de bordado densa de fibras reforzadas.",
     "commonErrors": [
       "❌ Utilizar plancha doméstica sin presión uniforme dejando burbujas de aire si es termoadhesiva.",
       "❌ Recortar demasiado pegado al borde del hilo cortando accidentalmente las puntadas de amarre.",
@@ -218,14 +218,14 @@ export const LOTE1_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-105-bai-baili-maquinas-de-bordado-eletronico": {
-    "term": "BAI / Baili",
+    "term": "Máquinas de Bordar BAI",
     "level": "Intermedio a Avanzado 🟡🔴",
     "category": "Máquinas y Equipos",
     "grammarClass": "Marca registrada / Sustantivo propio.",
     "origin": "Marca industrial asiática creada por la empresa Baili Embroidery Machinery en Wenzhou (China), destacada por democratizar las máquinas de bordar industriales tubulares multiaguja a escala global.",
     "definition": "Línea de máquinas industriales tubulares de 1 a múltiples cabezales y de 12 a 15 agujas por cabeza (modelos como BAI The Mirror, Vision y Kaban). Se caracterizan por su estructura mecánica robusta en fundición de acero, pantallas táctiles LCD de control Dahao o Topwisdom y compatibilidad con sistemas universales de gorras 270 grados.",
     "howItWorks": [
-      "1. El operador carga matrices en formato DST mediante memoria USB o cable de red LAN.",
+      "1. El operador carga diseños de bordado en formato DST mediante memoria USB o cable de red LAN.",
       "2. El panel digital Dahao permite asignar la secuencia cromática de las 12 o 15 agujas y definir la velocidad de trabajo.",
       "3. El pantógrafo servocontrolado desplaza el bastidor tubular o el soporte de gorras a velocidades de hasta 1.200 PPM.",
       "4. El mecanismo de corte y retención inferior corta el hilo superior e inferior al finalizar cada bloque."
@@ -236,14 +236,14 @@ export const LOTE1_B_PART1_ES: Record<string, Partial<Verbete>> = {
       "Personalización de miles de polos escolares con logotipos de hasta 8 colores sin cambiar conos a mano.",
       "Bordado tubular continuo de mangas y piernas de pantalón usando los brazos de soporte abiertos."
     ],
-    "matrixParametersRelation": "Funciona con máxima eficiencia con matrices exportadas en formato Tajima DST, ajustando la longitud de puntada mínima a 1,2 mm para evitar saturación de nudos en el garfio.",
+    "matrixParametersRelation": "Funciona con máxima eficiencia con diseños de bordado exportadas en formato Tajima DST, ajustando la longitud de puntada mínima a 1,2 mm para evitar saturación de nudos en el garfio.",
     "commonErrors": [
       "❌ Olvidar lubricar el carril del garfio rotativo cada 4 horas de uso continuo.",
       "❌ Programar un cambio de color a una aguja no enhebrada causando parada inmediata por rotura de hilo.",
       "❌ Montar el bastidor de gorras sin ajustar el fleje perimetral, causando colisión con el prensatelas."
     ],
     "whenToAdjust": "Ajuste el sensor de rotura de hilo en el panel cuando la máquina se detenga por falsas alarmas con hilo negro o metálico.",
-    "dicaArtrelados": "¡Consejo de oro Artrelados: en máquinas BAI, configure la velocidad de inicio a 550 PPM durante las primeras 20 puntadas y luego acelere a 850 PPM: esto garantiza que el arremate quede perfecto sin que el hilo salte de la aguja!",
+    "dicaArtrelados": "¡Consejo de oro Artrelados: en máquinas BAI, configure la velocidad de inicio a 550 PPM durante las primeras 20 puntadas y luego acelere a 850 PPM: esto garantiza que el remate quede perfecto sin que el hilo salte de la aguja!",
     "voceSabia": "¿Sabías que las máquinas BAI utilizan el sistema informático Dahao, el procesador industrial que controla más del 65% de las máquinas de bordar del planeta?",
     "practicalExercise": "Programe en el panel una prueba de 8 bloques de satén con diferentes agujas para verificar que la tensión de las 15 posiciones esté equilibrada en la proporción de 1/3 en el reverso.",
     "summary": "Máquinas de bordar industriales tubulares multiaguja versátiles, con control Dahao y capacidad para producción continua de gorras y prendas confeccionadas.",
@@ -299,7 +299,7 @@ export const LOTE1_B_PART1_ES: Record<string, Partial<Verbete>> = {
     "whenToAdjust": "Ajuste reduciendo la velocidad a 400-500 PPM si nota que los agujeros no quedan limpios o si el hilo superior se deshilacha al frotar con la aleta.",
     "dicaArtrelados": "¡Consejo de oro Artrelados: para una vainica abierta espectacular, use siempre lino puro previamente lavado y almidonado con una ligera capa de apresto; la rigidez temporal hace que los orificios queden perfectos y redondos!",
     "voceSabia": "¿Sabías que la vainica tradicional hecha a mano exigía sacar hilo por hilo con una pinza durante horas, mientras que la bordadora moderna puede crear un metro de vainica en menos de cinco minutos?",
-    "practicalExercise": "Instale una aguja wing needle en su máquina, cargue una matriz de puntada entre-deux en batista de lino tensada en bastidor y borde a 450 PPM observando la formación regular del calado.",
+    "practicalExercise": "Instale una aguja wing needle en su máquina, cargue una diseño de bordado de puntada entre-deux en batista de lino tensada en bastidor y borde a 450 PPM observando la formación regular del calado.",
     "summary": "Bordado calado tradicional que utiliza una aguja con aletas laterales para separar hilos de telas planas y formar orificios decorativos elegantes.",
     "quickSummary": "Calado decorativo estilo entre-deux ejecutado con aguja de aleta sobre lino o batista.",
     "relatedTerms": [
@@ -333,7 +333,7 @@ export const LOTE1_B_PART1_ES: Record<string, Partial<Verbete>> = {
     "origin": "Del castellano vainica y del griego elektron (electricidad). Digitalización precisa de los puntos de dobladillo calado italiano y veneciano de los siglos XVI y XVII.",
     "definition": "Modalidad de digitalización y ejecución computarizada de vainicas donde el software programa secuencias matemáticas de penetración múltiple en coordenadas fijas, permitiendo crear grecas caladas continuas, esquinas ingleteadas y medallones perforados sin necesidad de deshilachar manualmente la urdimbre de la tela.",
     "howItWorks": [
-      "1. La matriz se digitaliza con saltos de aguja geométricos que penetran hasta 4 veces en el mismo punto pivote.",
+      "1. La diseño de bordado se digitaliza con saltos de aguja geométricos que penetran hasta 4 veces en el mismo punto pivote.",
       "2. La máquina desplaza el pantógrafo con suavidad para que la aguja ensanche el tejido sin desgarrar hilos.",
       "3. Se aplican puntadas de relleno satinado perimetral para amarrar los bordes de los orificios calados.",
       "4. Se logra un acabado de encaje estructural integrado en la misma pieza de tejido."
@@ -405,7 +405,7 @@ export const LOTE1_B_PART1_ES: Record<string, Partial<Verbete>> = {
       "❌ Cortar la tela demasiado cerca del satén dañando los hilos de anclaje."
     ],
     "whenToAdjust": "Aumente el ancho de satén si el tejido es de trama abierta y tiende a desflecarse por los lados de la costura.",
-    "dicaArtrelados": "¡Consejo de oro Artrelados: programe un arremate de seguridad de 4 puntadas diminutas al final de cada festón satinado para que las esquinas nunca se abran al lavar la prenda en lavadora!",
+    "dicaArtrelados": "¡Consejo de oro Artrelados: programe un remate de seguridad de 4 puntadas diminutas al final de cada festón satinado para que las esquinas nunca se abran al lavar la prenda en lavadora!",
     "voceSabia": "¿Sabías que este tipo de festón satinado con calado fue el predecesor del encaje de bolillos mecánico en los talleres de Saint-Gall en Suiza?",
     "practicalExercise": "Borde una muestra de 10 cm con festón satinado de 3,5 mm sobre entretela soluble colocada en lino: recorte el sobrante con tijera de aplique y verifique la solidez del borde.",
     "summary": "Remate perimetral que conjuga perforaciones decorativas con columnas densas de satén para sellar y embellecer bordes en tejidos nobles.",
@@ -434,7 +434,7 @@ export const LOTE1_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-087-balanco-de-ponto-e-compensacao-de-inercia-do-pantografo": {
-    "term": "Balance de Puntada y Compensación de Inercia del Pantógrafo",
+    "term": "Balance de Puntada y Compensación de Inercia",
     "level": "Avanzado 🔴",
     "category": "Digitalización y Software",
     "grammarClass": "Locución sustantiva masculina.",
@@ -456,7 +456,7 @@ export const LOTE1_B_PART1_ES: Record<string, Partial<Verbete>> = {
     "commonErrors": [
       "❌ Trabajar al límite de velocidad (1.200 PPM) con bastidores de gran formato sobrecargados de peso.",
       "❌ Ignorar holguras mecánicas en las correas dentadas de los ejes X e Y del pantógrafo.",
-      "❌ Digitalizar ángulos agudos sin curva de desaceleración previa en matrices pesadas."
+      "❌ Digitalizar ángulos agudos sin curva de desaceleración previa en diseños de bordado pesadas."
     ],
     "whenToAdjust": "Ajuste cuando observe que los círculos se bordan ovalados o que las líneas de contorno no cierran en los vértices a alta velocidad.",
     "dicaArtrelados": "¡Consejo de oro Artrelados: si borda piezas pesadas como chaquetas de cuero o colchas en bastidores grandes, reduzca la velocidad de la máquina a 650-700 PPM; eliminará el 90% de las vibraciones de inercia y sus puntadas quedarán nítidas como grabados!",

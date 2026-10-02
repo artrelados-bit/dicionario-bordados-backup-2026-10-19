@@ -1538,7 +1538,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-021-densidade-de-pontos-avancada",
     "code": "D-021",
-    "term": "Densidade de Pontos (Conceitos & Calibração)",
+    "term": "Densidade de Pontos e Calibração",
     "level": "Fundamental 🟢",
     "grammarClass": "Locução nominal formada pelos substantivos densidade e pontos.",
     "category": "Programação de Bordado",
@@ -1611,7 +1611,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-022-densidade-variavel-efeitos",
     "code": "D-022",
-    "term": "Densidade Variável & Efeitos Visuais",
+    "term": "Densidade Variável e Efeitos Visuais",
     "level": "Intermediário 🟡",
     "grammarClass": "Locução nominal formada por substantivos e adjetivos.",
     "category": "Design & Criação",
@@ -1757,7 +1757,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-024-desenho-de-bordado-pratica",
     "code": "D-024",
-    "term": "Desenho de Bordado (Prática & Conceito)",
+    "term": "Desenho de Bordado Prático",
     "level": "Iniciante 🟢",
     "grammarClass": "Locução nominal formada por substantivos masculinos.",
     "category": "Design & Criação",
@@ -1830,7 +1830,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-025-digitalizacao-automatica-regras",
     "code": "D-025",
-    "term": "Digitalização Automática (Regras & Limitações)",
+    "term": "Digitalização Automática e Regras",
     "level": "Fundamental 🟢",
     "grammarClass": "Locução nominal formada por substantivo feminino e adjetivo.",
     "category": "Softwares & Formatos",
@@ -1904,7 +1904,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-026-digitalizacao-manual-tecnica",
     "code": "D-026",
-    "term": "Digitalização Manual (Técnica & Decisões)",
+    "term": "Digitalização Manual e Decisões",
     "level": "Avançado 🔴",
     "grammarClass": "Locução nominal formada por substantivo feminino e adjetivo.",
     "category": "Programação de Bordado",
@@ -2536,7 +2536,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-035-distancia-de-salto",
     "code": "D-035",
-    "term": "Distância de Salto (Jump Distance)",
+    "term": "Distância de Salto",
     "level": "Fundamental 🟢",
     "grammarClass": "Locução nominal feminina.",
     "category": "Programação de Bordado",
@@ -3204,7 +3204,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-044-discos-de-tensao",
     "code": "D-044",
-    "term": "Discos de Tensão (Tension Discs)",
+    "term": "Discos de Tensão",
     "level": "Fundamental 🟢",
     "category": "Componentes da Máquina",
     "grammarClass": "Substantivo masculino composto.",
@@ -3264,7 +3264,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-045-desfiador-de-bordado",
     "code": "D-045",
-    "term": "Desfiador de Bordado / Desmanchador de Pontos (Seam Ripper / Stitch Eraser)",
+    "term": "Desfiador de Bordado",
     "level": "Fundamental 🟢",
     "category": "Acessórios e Ferramentas",
     "grammarClass": "Substantivo masculino composto.",
@@ -3324,7 +3324,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-046-dinamica-da-lacada",
     "code": "D-046",
-    "term": "Dinâmica da Laçada / Laçada da Agulha (Loop Formation Dynamics)",
+    "term": "Dinâmica da Laçada da Agulha",
     "level": "Avançado 🔴",
     "category": "Terminologia Geral",
     "grammarClass": "Substantivo feminino composto.",
@@ -3385,7 +3385,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-047-divisao-de-matriz",
     "code": "D-047",
-    "term": "Divisão de Matriz / Multiposicionamento (Design Splitting & Multi-Hooping)",
+    "term": "Divisão de Matriz",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
     "grammarClass": "Substantivo feminino composto.",
@@ -3446,7 +3446,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-048-dupla-face-bordado-limpo",
     "code": "D-048",
-    "term": "Dupla Face / Bordado Limpo no Avesso (Reversible & Clean-Back Embroidery)",
+    "term": "Bordado Dupla Face",
     "level": "Intermediário 🟡",
     "category": "Acabamento & Finalização",
     "grammarClass": "Substantivo feminino composto.",
@@ -3507,7 +3507,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-049-debrum-bordado",
     "code": "D-049",
-    "term": "Debrum Bordado (Bound Edge / Appliqué Overcasting)",
+    "term": "Debrum Bordado",
     "level": "Fundamental 🟢",
     "category": "Pontos Básicos & Decorativos",
     "grammarClass": "Substantivo masculino composto.",
@@ -3569,7 +3569,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-050-degrade-de-pontos",
     "code": "D-050",
-    "term": "Degradê de Pontos / Ponto Sombreado (Stitch Gradient & Color Blending)",
+    "term": "Degradê de Pontos",
     "level": "Avançado 🔴",
     "category": "Pontos Básicos & Decorativos",
     "grammarClass": "Substantivo masculino composto.",
@@ -3630,7 +3630,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-051-deslocamento-do-pantografo",
     "code": "D-051",
-    "term": "Deslocamento do Pantógrafo (Pantograph Traverse / Carriage Movement)",
+    "term": "Deslocamento do Pantógrafo",
     "level": "Fundamental 🟢",
     "category": "Operação da Máquina",
     "grammarClass": "Substantivo masculino composto.",
@@ -3691,7 +3691,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-052-desbobinamento-de-linha-e-sentido-do-fio",
     "code": "D-052",
-    "term": "Desbobinamento de Linha e Sentido do Fio (Thread Unwinding Direction & Cross-Wound Feed)",
+    "term": "Desbobinamento de Linha",
     "level": "Fundamental 🟢",
     "category": "Agulhas & Fios",
     "grammarClass": "Substantivo masculino composto.",
@@ -3756,7 +3756,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-053-dispositivo-de-bone-para-maquinas-domesticas",
     "code": "D-053",
-    "term": "Dispositivo de Boné para Máquinas Domésticas e Semi-Industriais (Cap Driver & Hat Hoop Insert)",
+    "term": "Dispositivo de Boné no Bastidor",
     "level": "Intermediário 🟡",
     "category": "Bastidores & Fixação",
     "grammarClass": "Substantivo masculino composto.",
@@ -3821,7 +3821,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-054-dupla-entretela-estabilizacao-em-camadas",
     "code": "D-054",
-    "term": "Dupla Entretela e Estratégia de Estabilização em Camadas (Double Stabilizer Layering Strategy)",
+    "term": "Dupla Entretela na Estabilização",
     "level": "Fundamental 🟢",
     "category": "Estabilizadores & Entretelas",
     "grammarClass": "Substantivo feminino composto.",
@@ -3887,7 +3887,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-055-dente-do-calcador-e-altura-de-flutuacao",
     "code": "D-055",
-    "term": "Dente do Calcador e Altura de Flutuação (Hopping Foot Clearance & Height Adjustment)",
+    "term": "Dente do Calcador e Altura de Flutuação",
     "level": "Intermediário 🟡",
     "category": "Mecânica & Ajustes",
     "grammarClass": "Substantivo masculino composto.",
@@ -3953,7 +3953,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-056-deslocamento-por-queda-de-energia-retomada-de-ponto",
     "code": "D-056",
-    "term": "Deslocamento por Queda de Energia e Retomada de Ponto (Power Failure Recovery & Stitch Memory Resume)",
+    "term": "Retomada de Ponto por Queda de Energia",
     "level": "Fundamental 🟢",
     "category": "Operação da Máquina",
     "grammarClass": "Substantivo masculino composto.",
@@ -4020,7 +4020,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-057-dinamometro-textil-medidor-de-tensao-towa",
     "code": "D-057",
-    "term": "Dinamômetro Têxtil e Medidor de Tensão Towatec (Towa Bobbin & Top Thread Tension Gauge)",
+    "term": "Dinamômetro Têxtil para Tensão",
     "level": "Avançado 🔴",
     "category": "Mecânica & Ajustes",
     "grammarClass": "Substantivo masculino composto.",
@@ -4085,7 +4085,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-058-digitalizacao-de-monogramas-e-micro-letras",
     "code": "D-058",
-    "term": "Digitalização de Monogramas e Letras em Alta Resolução (Embroidery Monogramming & Micro-Lettering Digitizing)",
+    "term": "Digitalização de Monogramas e Letras",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
     "grammarClass": "Substantivo feminino composto.",
@@ -4151,7 +4151,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-059-desgaste-e-rebarba-de-agulha",
     "code": "D-059",
-    "term": "Desgaste e Rebarba de Agulha (Needle Burr & Micro-Damage Detection)",
+    "term": "Desgaste e Rebarba de Agulha",
     "level": "Fundamental 🟢",
     "category": "Agulhas & Fios",
     "grammarClass": "Substantivo masculino composto.",
@@ -4215,7 +4215,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-060-distorcao-termica-em-entretela-termossoluvel",
     "code": "D-060",
-    "term": "Distorção Térmica em Entretela Termossolúvel e Limpeza a Seco (Thermal Backing Dissolution & Heat-Away Clean)",
+    "term": "Distorção Térmica em Entretela Termossolúvel",
     "level": "Intermediário 🟡",
     "category": "Estabilizadores & Entretelas",
     "grammarClass": "Substantivo feminino composto.",
@@ -4280,7 +4280,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-061-deslocamento-do-eixo-y-troca-de-bobina-estacionamento",
     "code": "D-061",
-    "term": "Deslocamento do Eixo Y na Troca de Bobina e Posição de Estacionamento (Park Position & Hoop Clearance Shift)",
+    "term": "Deslocamento do Eixo Y na Troca de Bobina",
     "level": "Fundamental 🟢",
     "category": "Operação da Máquina",
     "grammarClass": "Substantivo masculino composto.",
@@ -4346,7 +4346,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-062-deflexao-da-agulha-needle-deflection",
     "code": "D-062",
-    "term": "Deflexão da Agulha e Flexão Elástica Dinâmica (Needle Deflection & Needle Bend)",
+    "term": "Deflexão da Agulha",
     "pronunciation": "de-fle-xao da a-gu-lha",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo feminino composto.",
@@ -4411,7 +4411,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-063-desfiamento-de-linha-thread-fraying",
     "code": "D-063",
-    "term": "Desfiamento de Linha e Separação de Filamentos (Thread Fraying & Filament Shredding)",
+    "term": "Desfiamento de Linha",
     "pronunciation": "des-fi-a-men-to de li-nha",
     "level": "Fundamental 🟢",
     "grammarClass": "Substantivo masculino composto.",
@@ -4477,7 +4477,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-064-densidade-fracionada-e-pontos-curtos-short-stitch-filter",
     "code": "D-064",
-    "term": "Densidade Fracionada e Filtro de Pontos Curtos (Fractional Density & Short Stitch Filter)",
+    "term": "Densidade Fracionada",
     "pronunciation": "den-si-da-de fra-ci-o-na-da / pon-tos cur-tos",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo feminino composto.",
@@ -4543,7 +4543,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-065-digitalizacao-manual-punching",
     "code": "D-065",
-    "term": "Digitalização Manual / Criação Vetorial Ponto a Ponto (Manual Digitizing & Punching)",
+    "term": "Digitalização Manual Vetorial",
     "pronunciation": "di-gi-ta-li-za-cao ma-nu-al / pan-ching",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo feminino composto.",
@@ -4609,7 +4609,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-066-dupla-face-bordado-clean-back",
     "code": "D-066",
-    "term": "Dupla Face no Bordado Computadorizado (Clean Back & Reversible Embroidery)",
+    "term": "Dupla Face no Bordado",
     "pronunciation": "du-pla fa-ce no bor-da-do",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo feminino composto.",
@@ -4675,7 +4675,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-067-desbobinador-conico-rede-contencao-linha",
     "code": "D-067",
-    "term": "Desbobinador Cônico e Rede de Contenção de Linha (Thread Net & Cone Unwinder Sock)",
+    "term": "Desbobinador Cônico e Rede de Linha",
     "level": "Iniciante 🟢",
     "grammarClass": "Substantivo masculino composto.",
     "category": "Acessórios e Insumos",
@@ -4741,7 +4741,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-068-deslocamento-gradual-ponto-angulo-curvatura",
     "code": "D-068",
-    "term": "Deslocamento Gradual de Ponto em Ângulo / Curvatura de Ponto (Stitch Angle Shifting & Wave Effect)",
+    "term": "Deslocamento Gradual de Ponto em Ângulo",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo masculino composto.",
     "category": "Programação de Bordado",
@@ -4806,7 +4806,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-069-desativacao-ponto-curto-curvas-fechadas",
     "code": "D-069",
-    "term": "Desativação de Ponto Curto em Curvas Fechadas (Short Stitch Inactivation in Acute Curves)",
+    "term": "Desativação de Ponto Curto",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo feminino composto.",
     "category": "Programação de Bordado",
@@ -4872,7 +4872,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-070-densidade-progressiva-sombra-relevo-optico",
     "code": "D-070",
-    "term": "Densidade Progressiva para Sombra e Relevo Óptico (Progressive Shading Density)",
+    "term": "Densidade Progressiva para Sombra",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo feminino composto.",
     "category": "Programação de Bordado",
@@ -4939,7 +4939,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-071-dreno-eletricidade-estatica-maquinas-bordar",
     "code": "D-071",
-    "term": "Dreno de Eletricidade Estática em Máquinas de Bordar (Static Electricity Grounding & Discharge)",
+    "term": "Dreno de Eletricidade Estática",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo masculino composto.",
     "category": "Manutenção e Cuidados",
@@ -5005,7 +5005,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-072-duplicacao-contorno-compensacao-sobreposicao",
     "code": "D-072",
-    "term": "Duplicação de Contorno com Compensação de Sobreposição (Contour Duplication with Overlap Compensation)",
+    "term": "Duplicação de Contorno",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo feminino composto.",
     "category": "Programação de Bordado",
@@ -5071,7 +5071,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-073-desencaixe-encaixe-rapido-bastidor-trava-magnetica",
     "code": "D-073",
-    "term": "Desencaixe e Encaixe Rápido de Bastidor / Trava Magnética (Quick-Release Hoop Clamping System)",
+    "term": "Desencaixe Rápido de Bastidor",
     "level": "Iniciante 🟢",
     "grammarClass": "Substantivo masculino composto.",
     "category": "Equipamentos e Máquinas",
@@ -5139,7 +5139,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-074-divisao-ponto-longo-ponto-dividido-automatico",
     "code": "D-074",
-    "term": "Divisão de Ponto Longo e Ponto Dividido Automático (Auto-Split Long Stitches)",
+    "term": "Divisão de Ponto Longo",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo feminino composto.",
     "category": "Programação de Bordado",
@@ -5206,7 +5206,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-075",
     "code": "D-075",
-    "term": "Densidade Fracionada / Densidade Gradiente (Gradient Density)",
+    "term": "Densidade Gradiente",
     "level": "Intermediário 🟡",
     "grammarClass": "Locução nominal formada pelos substantivos densidade, fração e gradiente.",
     "category": "Programação de Bordado",
@@ -5276,7 +5276,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-076",
     "code": "D-076",
-    "term": "Dentes Impelidores Rebaixados (Drop Feed / Feed Dogs Inactive)",
+    "term": "Dentes Impelidores Rebaixados",
     "level": "Fundamental 🟢",
     "grammarClass": "Locução nominal formada por substantivo masculino plural e adjetivo.",
     "category": "Equipamentos & Hardware",
@@ -5345,7 +5345,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-077",
     "code": "D-077",
-    "term": "Distorção de Push-Pull (Push and Pull Distortion)",
+    "term": "Distorção Push-Pull",
     "level": "Avançado 🔴",
     "grammarClass": "Locução nominal de origem mista (substantivo português e termos técnicos em inglês).",
     "category": "Física & Dinâmica do Bordado",
@@ -5414,7 +5414,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-078",
     "code": "D-078",
-    "term": "DST (Data Stitch Tajima / Formato Universal de Matriz)",
+    "term": "DST",
     "level": "Intermediário 🟡",
     "grammarClass": "Sigla substantivada masculina.",
     "origin": "Sigla em inglês para Data Stitch Tajima, criada na década de 1980 pela corporação japonesa Tajima Industries Ltd. Tornou-se o padrão internacional universal de código de máquina para bordado industrial.",
@@ -5484,7 +5484,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-079",
     "code": "D-079",
-    "term": "Desbobinador / Suporte de Cone de Linha (Thread Stand / Spool Pin)",
+    "term": "Desbobinador de Cone de Linha",
     "level": "Fundamental 🟢",
     "grammarClass": "Locução nominal formada pelos substantivos desbobinador, suporte, cone e linha.",
     "category": "Equipamentos & Hardware",
@@ -5555,7 +5555,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
     "id": "d-080-digitalizacao-manual-nos-vetoriais-bezier",
     "code": "D-080",
     "letter": "D",
-    "term": "Digitalização Manual com Nós Vetoriais Bézier (Manual Vector Bézier Digitizing)",
+    "term": "Digitalização com Nós Bézier",
     "level": "Intermediário 🟡",
     "category": "Programação de Bordado",
     "grammarClass": "Substantivo feminino composto por substantivo, adjetivo e locuções adjetivas.",
@@ -5629,7 +5629,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
     "id": "d-081-dureza-shore-espumas-3d-alto-relevo",
     "code": "D-081",
     "letter": "D",
-    "term": "Dureza Shore de Espumas 3D para Bordado em Alto Relevo (EVA Shore Durometer & Density Rating)",
+    "term": "Dureza Shore de Espumas 3D",
     "level": "Avançado 🔴",
     "category": "Insumos & Qualidade",
     "grammarClass": "Locução substantiva feminina composta por substantivos e termos técnicos de metrologia.",
@@ -5703,7 +5703,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
     "id": "d-082-desfiamento-pesponto-borda-rustica-fringe",
     "code": "D-082",
     "letter": "D",
-    "term": "Desfiamento e Pesponto de Borda Rústica / Efeito Fringe (Fringe Stitch & Raw-Edge Thread Fraying)",
+    "term": "Desfiamento de Borda Rústica",
     "level": "Fundamental 🟢",
     "category": "Técnicas Especiais & Estilos",
     "grammarClass": "Substantivo masculino composto por substantivo e locuções adjetivas.",
@@ -5777,7 +5777,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
     "id": "d-083-dupla-densidade-ponto-cheio-cobertura-tecidos-escuros",
     "code": "D-083",
     "letter": "D",
-    "term": "Dupla Densidade em Ponto Cheio para Cobertura de Tecidos Escuros (Double-Layer Satin Density Protocol)",
+    "term": "Dupla Densidade em Ponto Cheio",
     "level": "Intermediário 🟡",
     "category": "Programação de Bordado",
     "grammarClass": "Locução substantiva feminina composta por substantivo, adjetivo e locuções adjetivas.",
@@ -5851,7 +5851,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
     "id": "d-084-dinamometro-digital-arrasto-puxada-linha",
     "code": "D-084",
     "letter": "D",
-    "term": "Dinamômetro Digital de Arrasto e Puxada de Linha (Digital Thread Drag Dynamometer)",
+    "term": "Dinamômetro Digital de Arrasto",
     "level": "Avançado 🔴",
     "category": "Equipamentos & Medição",
     "grammarClass": "Substantivo masculino composto por substantivo, adjetivo e locuções adjetivas.",
@@ -5925,7 +5925,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
     "id": "d-085-decapagem-termica-residuos-plasticos-pistola-ar-quente",
     "code": "D-085",
     "letter": "D",
-    "term": "Decapagem Térmica de Resíduos Plásticos / Pistola de Ar Quente (Heat-Gun Topping Film Stripping)",
+    "term": "Decapagem Térmica de Resíduos",
     "level": "Fundamental 🟢",
     "category": "Acabamento & Finalização",
     "grammarClass": "Locução substantiva feminina composta por substantivo, adjetivo e locuções adjetivas.",
@@ -6002,7 +6002,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
     "id": "d-086-densidade-adaptativa-area-smart-density-scaling",
     "code": "D-086",
     "letter": "D",
-    "term": "Densidade Adaptativa por Área / Smart Density Reduction (Smart Density Scaling Algorithm)",
+    "term": "Densidade Adaptativa por Área",
     "level": "Intermediário 🟡",
     "category": "Programação de Bordado",
     "grammarClass": "Locução substantiva feminina composta por substantivo, adjetivo e locuções adjetivas.",
@@ -6076,7 +6076,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
     "id": "d-087-diagnostico-osciloscopio-motores-passo-xy",
     "code": "D-087",
     "letter": "D",
-    "term": "Diagnóstico por Osciloscópio de Motores de Passo X/Y (Pantograph Stepper Motor Diagnostic)",
+    "term": "Diagnóstico de Motores de Passo",
     "level": "Avançado 🔴",
     "category": "Equipamentos e Máquinas",
     "grammarClass": "Locução substantiva masculina composta por substantivo e locuções adjetivas.",
@@ -6150,7 +6150,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
     "id": "d-088-dedo-segurador-linha-corte-trava-mecanica-superior",
     "code": "D-088",
     "letter": "D",
-    "term": "Dedo Segurador de Linha no Corte / Trava Mecânica Superior (Thread Wiper & Upper Thread Hook)",
+    "term": "Dedo Segurador de Linha no Corte",
     "level": "Fundamental 🟢",
     "category": "Equipamentos e Máquinas",
     "grammarClass": "Substantivo masculino composto por substantivo, adjetivo e locuções adjetivas.",
@@ -6224,7 +6224,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
     "id": "d-089-delineamento-ponto-trancado-efeito-cordao-sao-francisco",
     "code": "D-089",
     "letter": "D",
-    "term": "Delineamento por Ponto Trançado / Efeito Cordão de São Francisco (Braided Stem Stitch Run)",
+    "term": "Delineamento por Ponto Trançado",
     "level": "Intermediário 🟡",
     "category": "Tipos de Pontos & Estilos",
     "grammarClass": "Substantivo masculino composto por substantivo, adjetivo e locuções adjetivas.",
@@ -6298,7 +6298,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
     "id": "d-090-deformacao-viscoelastica-couros-sinteticos-perfuracao",
     "code": "D-090",
     "letter": "D",
-    "term": "Deformação Viscoelástica de Couros e Sintéticos sob Perfuração (Viscoelastic Leather Needle Creep)",
+    "term": "Deformação Viscoelástica de Couros",
     "level": "Avançado 🔴",
     "category": "Tecidos & Estabilizadores",
     "grammarClass": "Locução substantiva feminina composta por substantivo, adjetivo e locuções adjetivas.",
@@ -6372,7 +6372,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
     "id": "d-091-divisor-distribuidor-linha-guia-fios-aereos",
     "code": "D-091",
     "letter": "D",
-    "term": "Divisor e Distribuidor de Linha em Guia-Fios Aéreos (Overhead Thread Guide Eyelet Array)",
+    "term": "Divisor de Linha em Guia-Fios",
     "level": "Fundamental 🟢",
     "category": "Equipamentos e Máquinas",
     "grammarClass": "Locução substantiva masculina composta por substantivo, adjetivo e locuções adjetivas.",
@@ -6419,7 +6419,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-092-dedo-posicionador-da-caixa-de-bobina-dedo-retentor",
     "code": "D-092",
-    "term": "Dedo Posicionador da Caixa de Bobina / Dedo Retentor (Position Bracket / Bobbin Case Stopper)",
+    "term": "Dedo Posicionador da Caixa de Bobina",
     "pronunciation": "dê-do po-zi-si-o-na-dor da cái-xa de bo-bi-na / dê-do re-ten-tor (po-zí-shon bré-ket / bó-bin keis stó-per)",
     "letter": "D",
     "level": "Intermediário a Avançado 🟡🔴",
@@ -6522,7 +6522,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-093-dentes-impulsores-serrilha-de-transporte-feed-dogs",
     "code": "D-093",
-    "term": "Dentes Impulsores / Serrilha de Transporte (Feed Dogs / Drop Feed System)",
+    "term": "Dentes Impulsores da Máquina",
     "pronunciation": "dên-tes im-pul-so-res / ser-rí-lha de trans-pór-te (fíd dógz / dróp fíd sís-tem)",
     "letter": "D",
     "level": "Intermediário 🟡",
@@ -6624,7 +6624,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-094-dedo-posicionador-lacadeira-trava-parada-caixa-bobina",
     "code": "D-094",
-    "term": "Dedo Posicionador da Laçadeira / Trava de Parada da Caixa de Bobina (Rotary Hook Retainer / Bobbin Case Position Finger)",
+    "term": "Dedo Posicionador da Lançadeira",
     "pronunciation": "dê-do po-zi-ci-o-na-dór da la-sa-dêi-ra / trá-va de pa-rá-da da cái-sha de bo-bí-na (róu-ta-ri ruk ri-têi-ner / bó-bin kêis po-zí-shon fín-guer)",
     "letter": "D",
     "level": "Avançado 🔴",
@@ -6727,7 +6727,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-095-dispositivo-adaptador-bone-fixador-borboleta-gabarito-13x18",
     "code": "D-095",
-    "term": "Dispositivo Adaptador de Boné com Fixador Borboleta (Gabarito Mecânico para Bastidor Plano 13x18)",
+    "term": "Dispositivo Adaptador de Boné",
     "level": "Intermediário 🟡",
     "category": "Acessórios & Dispositivos",
     "grammarClass": "Locução nominal masculina.",
@@ -6811,7 +6811,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-096-distorcao-em-malha-piquet-deformacao-estrutural-polo",
     "code": "D-096",
-    "term": "Distorção em Malha Piquet / Deformação Estrutural de Polo (Pique Knit Distortion & Honeycomb Mesh Stabilization)",
+    "term": "Distorção em Malha Piquet",
     "level": "Intermediário 🟡",
     "category": "Tecidos & Estabilização",
     "grammarClass": "Locução nominal feminina composta.",
@@ -6893,7 +6893,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-097-defletor-de-linha-do-cabecote-separador-anti-enrosco",
     "code": "D-097",
-    "term": "Defletor de Linha do Cabeçote / Separador Anti-Enrosco de Linhas (Thread Deflector & Guide Flange)",
+    "term": "Defletor de Linha do Cabeçote",
     "level": "Intermediário 🟡",
     "category": "Mecânica & Manutenção",
     "grammarClass": "Locução nominal masculina.",
@@ -6971,7 +6971,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-098-digitalizacao-de-fontes-pequenas-micro-letras",
     "code": "D-098",
-    "term": "Digitalização de Fontes Pequenas / Micro-letras (Small Lettering Digitizing & Micro-Text Calibration)",
+    "term": "Digitalização de Microletras",
     "level": "Avançado 🔴",
     "category": "Programação & Software",
     "grammarClass": "Locução nominal feminina composta.",
@@ -7055,7 +7055,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-099-dupla-fita-adesiva-de-fixacao-textil",
     "code": "D-099",
-    "term": "Dupla Fita Adesiva de Fixação Têxtil / Fita Dupla Face para Bordado (Double-Sided Embroidery Tape & Floating Hold)",
+    "term": "Dupla Fita Adesiva de Fixação Têxtil",
     "level": "Iniciante 🟢",
     "category": "Bastidores & Fixação",
     "grammarClass": "Locução nominal feminina composta.",
@@ -7136,7 +7136,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-100-desgaste-de-bucha-do-eixo-principal-folga-mecanica",
     "code": "D-100",
-    "term": "Desgaste de Bucha do Eixo Principal / Folga Mecânica da Barra de Agulha (Main Shaft Bushing Wear & Needle Bar Play)",
+    "term": "Desgaste de Bucha do Eixo Principal",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
     "grammarClass": "Locução nominal masculina composta.",
@@ -7218,7 +7218,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-101-dobra-de-carneira-posicionamento-faixa-interna-bone",
     "code": "D-101",
-    "term": "Dobra de Carneira / Posicionamento da Faixa Interna de Bonés e Viseiras (Sweatband Folding & In-Hoop Clearance)",
+    "term": "Dobra de Carneira em Bonés",
     "level": "Iniciante 🟢",
     "category": "Bastidores & Fixação",
     "grammarClass": "Locução nominal feminina composta.",
@@ -7298,7 +7298,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-102-divisao-automatica-elementos-grandes-quebra-bastidor",
     "code": "D-102",
-    "term": "Divisão Automática de Elementos Grandes / Quebra de Bastidor (Design Splitting & Multi-Position Hooping)",
+    "term": "Divisão Automática de Matrizes Grandes",
     "level": "Avançado 🔴",
     "category": "Programação & Software",
     "grammarClass": "Locução nominal feminina composta.",
@@ -7379,7 +7379,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-103-dureza-shore-do-calcador-amortecimento-impacto",
     "code": "D-103",
-    "term": "Dureza Shore do Calcador e da Base / Amortecimento de Impacto (Presser Foot Durometer & Damping Resilience)",
+    "term": "Dureza Shore do Calcador",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
     "grammarClass": "Locução nominal feminina composta.",
@@ -7460,7 +7460,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-104-distorcao-optica-por-iluminacao-de-bancada",
     "code": "D-104",
-    "term": "Distorção Óptica por Iluminação de Bancada / Sombra na Chapa de Agulha (Workstation Illumination & Optical Distortion)",
+    "term": "Distorção Óptica por Iluminação",
     "level": "Iniciante 🟢",
     "category": "Operação & Manuseio",
     "grammarClass": "Locução nominal feminina composta.",
@@ -7540,7 +7540,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
   {
     "id": "d-105-desvio-de-ponta-de-agulha-deflexao-em-costuras",
     "code": "D-105",
-    "term": "Desvio de Ponta de Agulha / Deflexão em Costuras Grossas (Needle Point Deflection & Structural Bending)",
+    "term": "Desvio de Ponta de Agulha",
     "level": "Intermediário 🟡",
     "category": "Agulhas & Desempenho",
     "grammarClass": "Locução nominal masculina composta.",
@@ -7623,7 +7623,7 @@ export const VERBETES_LETTER_D: Verbete[] = [
     "id": "d-digitalizacao-por-zonas-e-alinhamento-multi-bastidor",
     "code": "D-106",
     "letter": "D",
-    "term": "Digitalização por Zonas e Alinhamento Multi-Bastidor (Divisão Setorizada de Grandes Matrizes)",
+    "term": "Digitalização por Zonas",
     "pronunciation": "di-ji-ta-li-za-ção por zo-nas e a-li-nha-men-tu mul-ti bas-ti-dor (didʒitaliˈzasɐ̃w)",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",

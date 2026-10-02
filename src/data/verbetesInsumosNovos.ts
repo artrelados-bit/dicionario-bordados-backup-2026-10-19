@@ -4,7 +4,7 @@ export const NOVOS_VERBETES_INSUMOS: Verbete[] = [
   {
     "id": "c-099-celofane-bordado-filme-furta-cor-mylar",
     "code": "C-099",
-    "term": "Celofane no Bordado Computadorizado (Filme Furta-Cor, Papel Celofane e Efeito Vitral Mylar)",
+    "term": "Celofane no Bordado Computadorizado",
     "letter": "C",
     "level": "🟢 Iniciante a Intermediário",
     "category": "Estabilizadores & Películas Decorativas",
@@ -199,7 +199,7 @@ export const NOVOS_VERBETES_INSUMOS: Verbete[] = [
   {
     "id": "c-099-caneta-fantasminha-termoapagavel",
     "code": "C-099",
-    "term": "Caneta Fantasminha Termoapagável (Caneta Mágica Têxtil que Apaga com Calor)",
+    "term": "Caneta Fantasminha Termoapagável",
     "letter": "C",
     "level": "🟢 Iniciante",
     "category": "Operação da Máquina",
@@ -315,7 +315,7 @@ export const NOVOS_VERBETES_INSUMOS: Verbete[] = [
   {
     "id": "a-099-agulha-especial-linhas-metalicas",
     "code": "A-099",
-    "term": "Agulha Especial para Linhas Metálicas (Metallic Embroidery Needle / Olho Alongado 2mm e Ranhura Profunda)",
+    "term": "Agulha Especial para Linhas Metálicas",
     "letter": "A",
     "level": "🟢 Iniciante a Intermediário",
     "category": "Agulhas & Fios",
@@ -492,7 +492,7 @@ export const NOVOS_VERBETES_INSUMOS: Verbete[] = [
   {
     "id": "b-099-bobinas-pre-enroladas-descartaveis",
     "code": "B-099",
-    "term": "Bobinas Pré-Enroladas Descartáveis (Pre-Wound Bobbins / Carretilhas Prontas de Fábrica para Bordado)",
+    "term": "Bobinas Pré-Enroladas Descartáveis",
     "letter": "B",
     "level": "🟢 Iniciante a Intermediário",
     "category": "Agulhas & Fios",
@@ -550,7 +550,7 @@ export const NOVOS_VERBETES_INSUMOS: Verbete[] = [
   {
     "id": "c-099-camiseta-tshirt-tecnicas-bordado-malha",
     "code": "C-099",
-    "term": "Camiseta / T-Shirt (Técnicas de Bordado em Malha, Enquadramento no Bastidor e Acabamento de Avesso Macio)",
+    "term": "Camiseta no Bastidor",
     "letter": "C",
     "level": "🟢 Iniciante a Intermediário",
     "category": "Aplicações & Peças Confeccionadas",

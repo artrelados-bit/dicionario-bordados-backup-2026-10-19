@@ -4,9 +4,9 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
   "b-038-base-de-ponto-tatami": {
     "term": "Base de Puntada Tatami",
     "level": "Intermedio 🟡",
-    "category": "Digitalización & Matrices",
+    "category": "Digitalización & diseños de bordado",
     "grammarClass": "Locución nominal femenina",
-    "origin": "Del japonés tatami (estera tradicional de paja de arroz entrelazada) y del inglés underlay (capa inferior o base estructural). En la digitalización de matrices, designa la estructura previa de puntadas que ancla la tela antes de bordar el bloque de relleno definitivo.",
+    "origin": "Del japonés tatami (estera tradicional de paja de arroz entrelazada) y del inglés underlay (capa inferior o base estructural). En la digitalización de diseños de bordado, designa la estructura previa de puntadas que ancla la tela antes de bordar el bloque de relleno definitivo.",
     "definition": "La base de puntada Tatami es la subestructura geométrica previa de puntadas ejecutada antes del bloque final de relleno denso. Su propósito principal es estabilizar la tela, unificar la tensión superficial con la entretela, prevenir el arrugamiento por contracción y evitar que las filas de relleno se hundan en el tejido, asegurando una cobertura cromática sólida y uniforme.",
     "howItWorks": [
       "1. Trazado del contorno de fijación perimetral (Edge Run) a 0,8 mm a 1,2 mm dentro del límite exterior del diseño para delimitar la zona de relleno.",
@@ -16,7 +16,7 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ],
     "beginnerExplanation": "Imagina que vas a pintar una pared rugosa: primero aplicas una capa de sellador para que la pintura quede lisa y no sea absorbida. En el bordado, la base de Tatami hace exactamente eso: coloca una camita de hilos espaciados sobre la tela para que el bordado final quede suave, tupido y sin arrugas.",
     "practicalExamples": [
-      "Bordado de logotipos grandes en espaldas de camperas o buzos de algodón frizado.",
+      "Bordado de logotipos grandes en espaldas de chaquetas o sudaderas de algodón frizado.",
       "Escudos institucionales y parches sobre tela sarga o cordura que requieren una base perfectamente plana.",
       "Relleno de fondo en toallas o batas de baño utilizando cuadrícula doble previa para aplastar el pelo del tejido."
     ],
@@ -26,7 +26,7 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
       "Compensación de estiramiento (Pull Compensation): reduce notablemente el desplazamiento lateral del tejido durante el bordado."
     ],
     "commonErrors": [
-      "Bordar rellenos extensos sin ninguna base previa, provocando que la tela se arrugue y se deforme la matriz.",
+      "Bordar rellenos extensos sin ninguna base previa, provocando que la tela se arrugue y se deforme la diseño de bordado.",
       "Programar la base con el mismo ángulo que el relleno superior, lo que hace que las puntadas caigan en los mismos surcos y se hunda el bordado.",
       "Usar una base excesivamente densa que acartona la prenda y provoca roturas de agujas por acumulación excesiva de hilos."
     ],
@@ -38,7 +38,7 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     "whenToAdjust": "Aumenta la firmeza de la base en telas elásticas, finas o afelpadas; aligérala o utiliza solo puntada de contorno en telas rígidas, lona o cuero.",
     "dicaArtrelados": "El secreto de oro de Artrelados: Para rellenos de más de 5 cm de ancho, nunca uses una base con el mismo ángulo del relleno final. Programa siempre una cuadrícula abierta a 45° y otra a 135°; esto crea una malla invisible que retiene la tela en ambas direcciones y te garantiza un relleno sedoso y sin una sola ondulación.",
     "voceSabia": "¿Sabías que el término Tatami proviene de las esteras japonesas hechas de junco entrelazado? En el bordado industrial, la base imita exactamente esa estructura trenzada para distribuir las fuerzas mecánicas de tracción sobre toda la superficie de la prenda.",
-    "practicalExercise": "Abre tu software de digitalización y crea dos círculos idénticos de 60 mm con relleno Tatami. Al primero colócale base de doble cuadrícula a 45°/135°. Al segundo déjalo sin ninguna base. Borda ambos sobre una remera de algodón común y observa cómo el primero queda plano y perfecto, mientras que el segundo arruga y deforma toda la tela.",
+    "practicalExercise": "Abre tu software de digitalización y crea dos círculos idénticos de 60 mm con relleno Tatami. Al primero colócale base de doble cuadrícula a 45°/135°. Al segundo déjalo sin ninguna base. Borda ambos sobre una camiseta de algodón común y observa cómo el primero queda plano y perfecto, mientras que el segundo arruga y deforma toda la tela.",
     "quickSummary": "Estructura interna de puntadas preliminares que ancla la tela y la entretela, evitando arrugas y hundimientos en bloques de relleno extensos.",
     "relatedTerms": [
       "Base de Puntadas (Underlay)",
@@ -48,12 +48,12 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-014-base-de-pontos-underlay": {
-    "term": "Base de Puntadas",
+    "term": "Estructura de Puntadas de Soporte",
     "level": "Iniciante 🟢",
-    "category": "Digitalización & Matrices",
+    "category": "Digitalización & diseños de bordado",
     "grammarClass": "Locución nominal femenina",
     "origin": "Del inglés underlay (capa subyacente, cimiento o soporte inferior). Introducido en el bordado computadorizado por Wilcom y Tajima en la década de 1980 como fundamento de la digitalización profesional.",
-    "definition": "La base de puntadas (underlay) es el cimiento invisible de puntadas automáticas que se bordan antes de los elementos visibles (satín, tatami o contornos). Cumple tres funciones críticas: une el tejido con el estabilizador, aplasta las fibras textiles superficiales y compensa la tracción mecánica del hilo, evitando deformaciones en la matriz.",
+    "definition": "La base de puntadas (underlay) es el cimiento invisible de puntadas automáticas que se bordan antes de los elementos visibles (satín, tatami o contornos). Cumple tres funciones críticas: une el tejido con el estabilizador, aplasta las fibras textiles superficiales y compensa la tracción mecánica del hilo, evitando deformaciones en la diseño de bordado.",
     "howItWorks": [
       "1. Puntada de hilván central (Center Run): una sola línea de puntadas por el centro de columnas finas para dar cuerpo y fijación mínima.",
       "2. Puntada de borde perimetral (Edge Run): línea trazada justo dentro de los bordes del satín para evitar que los extremos se desgajen o se hundan.",
@@ -94,12 +94,12 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-096-base-flutuante-em-entretela-hidrossoluvel": {
-    "term": "Base Flotante en Estabilizador Hidrosoluble",
+    "term": "Bordado Flotante sobre Entretela Hidrosoluble",
     "level": "Avanzado 🔴",
     "category": "Bastidores & Fijación",
     "grammarClass": "Locución nominal femenina",
     "origin": "Del inglés water-soluble floating base technique. Desarrollada por talleres de alta costura y lencería personalizada para bordar telas ultradelicadas sin dejar marcas mecánicas del bastidor.",
-    "definition": "Técnica de enbastorado profesional donde únicamente la entretela o film hidrosoluble se sujeta en el aro del bastidor, mientras que la tela principal (seda, gasa, terciopelo o toalla delicada) se apoya 'flotando' sobre la superficie, fijada mediante adhesivo temporal o hilván perimetral sin sufrir la presión de los aros.",
+    "definition": "Técnica de enmarcado en bastidor profesional donde únicamente la entretela o film hidrosoluble se sujeta en el aro del bastidor, mientras que la tela principal (seda, gasa, terciopelo o toalla delicada) se apoya 'flotando' sobre la superficie, fijada mediante adhesivo temporal o hilván perimetral sin sufrir la presión de los aros.",
     "howItWorks": [
       "1. Se monta firmemente en el bastidor una lámina de entretela hidrosoluble (Solvy pesado o entretela de tela soluble en agua) bien templada como un tambor.",
       "2. Se aplica una capa muy suave de adhesivo temporal en aerosol o cinta bifaz para bordado sobre el estabilizador montado.",
@@ -116,7 +116,7 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     "matrixParametersRelation": [
       "Velocidad de costura: reducir la máquina a 450 - 550 PPM para evitar que la tela flotante vibre o se desplace durante las aceleraciones.",
       "Caja de hilván perimetral: imprescindible programar un Basting Box con puntadas de 4 mm a 5 mm antes de comenzar el bordado real.",
-      "Densidad de matriz: usar matrices livianas; densidades excesivas perforarán la entretela soluble antes de terminar el diseño."
+      "Densidad de diseño de bordado: usar diseños de bordado livianas; densidades excesivas perforarán la entretela soluble antes de terminar el diseño."
     ],
     "commonErrors": [
       "Aplicar exceso de pegamento en aerosol, empastando la aguja de bordar y provocando cortes continuos de hilo.",
@@ -136,7 +136,7 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     "relatedTerms": [
       "Entretela Hidrosoluble",
       "Basting Box / Caja de Hilván Perimétrico",
-      "Montaje en Bastidor / Enbastorado (Hooping)",
+      "Montaje en Bastidor / enmarcado en bastidor (Hooping)",
       "Marcas de Bastidor (Hoop Burn)"
     ]
   },
@@ -146,22 +146,22 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     "category": "Bastidores & Fijación",
     "grammarClass": "Locución nominal masculina",
     "origin": "Del inglés pocket clamp hoop y fast frames. Desarrollado en la industria del bordado promocional estadounidense para personalizar bolsillos de camisas de trabajo sin descoser la prenda.",
-    "definition": "Dispositivo especializado de fijación compuesto por brazos mecánicos de sujeción por presión o resortes de acción rápida que permiten inmovilizar bolsillos estrechos, solapas, mangas, calzados y áreas de difícil acceso donde los bastidores tradicionales de dos aros no pueden introducirse.",
+    "definition": "Dispositivo especializado de fijación compuesto por brazos mecánicos de sujeción por presión o muelles de acción rápida que permiten inmovilizar bolsillos estrechos, solapas, mangas, calzados y áreas de difícil acceso donde los bastidores tradicionales de dos aros no pueden introducirse.",
     "howItWorks": [
       "1. La base metálica plana con ventana de bordado se inserta dentro de la cavidad interna del bolsillo o manga de la prenda.",
-      "2. El brazo superior con abrazadera de resorte o accionamiento neumático/manual presiona la tela contra la placa inferior.",
+      "2. El brazo superior con abrazadera de muelle o accionamiento neumático/manual presiona la tela contra la placa inferior.",
       "3. Se utiliza generalmente entretela autoadhesiva o entretela con adhesivo en aerosol debajo de la abertura para evitar el desplazamiento.",
       "4. El área superior queda completamente despejada para que el pie prensatelas se mueva libremente sin chocar con botones o costuras de la camisa."
     ],
     "beginnerExplanation": "¿Alguna vez intentaste bordar el bolsillo de una camisa ya cosida? Es casi imposible con un bastidor redondo normal porque no cabe adentro. El bastidor de bolsillo es una lámina delgada de metal con una pinza fuerte: metes la lámina dentro del bolsillo, aprietas la pinza y listo, puedes bordar directo sobre el bolsillo sin tener que descoserlo ni dañar la prenda.",
     "practicalExamples": [
-      "Personalización de bolsillos delanteros de camisas de vestir y chombas corporativas sin descoser el forro.",
+      "Personalización de bolsillos delanteros de camisas de vestir y polos corporativas sin descoser el forro.",
       "Bordado de mochilas, bolsos deportivos, estuches y cartucheras donde el acceso interno es muy reducido.",
       "Bordado de zapatillas, botines y lengüetas de calzado utilizando abrazaderas angostas tipo clamp."
     ],
     "matrixParametersRelation": [
       "Área de bordado limitada: restringir el diseño al ancho útil de la ventana (habitualmente 80x80 mm o 100x100 mm).",
-      "Centrado de matriz: calibrar con precisión milimétrica el punto de inicio en el panel de la máquina para que el pie prensatelas no golpee el marco metálico.",
+      "Centrado de diseño de bordado: calibrar con precisión milimétrica el punto de inicio en el panel de la máquina para que el pie prensatelas no golpee el marco metálico.",
       "Velocidad de costura: trabajar entre 500 y 650 PPM para absorber las vibraciones provocadas por el brazo en voladizo del dispositivo."
     ],
     "commonErrors": [
@@ -181,7 +181,7 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     "quickSummary": "Dispositivo mecánico de mordazas y placas delgadas diseñado para sujetar bolsillos y prendas tubulares cerradas sin descoser las costuras originales.",
     "relatedTerms": [
       "Bastidor Tubular para Brazo Libre",
-      "Montaje en Bastidor / Enbastorado (Hooping)",
+      "Montaje en Bastidor / enmarcado en bastidor (Hooping)",
       "Bastidor Magnético",
       "Trazado del Área (Trace)"
     ]
@@ -195,11 +195,11 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     "definition": "Sistema cilíndrico rotativo de sujeción mecánica que se monta sobre el pantógrafo de máquinas de bordar industriales y semi-industriales con brazo libre. Permite sujetar una gorra armada mediante una banda de acero flexible y girarla hasta 270 grados, bordando la parte frontal y ambos laterales en un único ciclo continuo de costura.",
     "howItWorks": [
       "1. Estación de calzado (Cap Gauging Station): la gorra se monta sobre una horma fija de mesa, se introduce la entretela pesada (80 a 100 g/m²) y se sujeta la badana o sudadera interna hacia afuera.",
-      "2. Banda flexible con fleje de acero: se envuelve alrededor de la base de la gorra, encajando los dientes en la costura de la visera y asegurándola con trabas de resorte.",
+      "2. Banda flexible con fleje de acero: se envuelve alrededor de la base de la gorra, encajando los dientes en la costura de la visera y asegurándola con trabas de muelle.",
       "3. Montaje en el Driver rotativo: el conjunto se encastra en el anillo móvil montado sobre el brazo cilíndrico de la bordadora.",
       "4. Rotación sincronizada 270°: el pantógrafo convierte los movimientos lineales del eje Y en rotación angular, permitiendo bordar desde la sien izquierda hasta la sien derecha."
     ],
-    "beginnerExplanation": "Una gorra no es plana como una remera; es redonda y tiene una visera dura que estorba. El sistema 270° es como una rueda metálica especial que se pone en la máquina: encajas la gorra curva en ella y la máquina va girando la gorra hacia los lados mientras borda. Así puedes bordar el logo en el frente y seguir bordando los costados sin tener que sacar la gorra del bastidor.",
+    "beginnerExplanation": "Una gorra no es plana como una camiseta; es redonda y tiene una visera dura que estorba. El sistema 270° es como una rueda metálica especial que se pone en la máquina: encajas la gorra curva en ella y la máquina va girando la gorra hacia los lados mientras borda. Así puedes bordar el logo en el frente y seguir bordando los costados sin tener que sacar la gorra del bastidor.",
     "practicalExamples": [
       "Bordado continuo de logotipos envolventes que abarcan el panel frontal y el lateral izquierdo de gorras snapback.",
       "Producción masiva de gorras para empresas y clubes deportivos en máquinas multicabezal.",
@@ -207,13 +207,13 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ],
     "matrixParametersRelation": [
       "Digitalización de centro a laterales y de abajo hacia arriba: regla obligatoria en gorras para evitar que la tela se arrugue contra la visera.",
-      "Rotación de matriz en 180°: la mayoría de los sistemas leen la gorra invertida respecto al pantógrafo estándar.",
+      "Rotación de diseño de bordado en 180°: la mayoría de los sistemas leen la gorra invertida respecto al pantógrafo estándar.",
       "Velocidad de máquina: limitar a 600 - 750 PPM para compensar el peso e inercia del sistema giratorio."
     ],
     "commonErrors": [
       "Bordar de arriba hacia abajo, acumulando tela sobrante en la unión con la visera y causando arrugas y roturas de aguja.",
       "No doblar ni fijar la banda antisudor (badana) hacia atrás, provocando que quede cosida a la parte frontal de la gorra.",
-      "Usar entretela liviana de remera, lo que hace que la copa de la gorra pierda rigidez y se deformen las letras."
+      "Usar entretela liviana de camiseta, lo que hace que la copa de la gorra pierda rigidez y se deformen las letras."
     ],
     "troubleshootingTips": [
       "Si la aguja choca contra la costura central gruesa delantera, utiliza agujas 80/12 o 90/14 de punta lanza reforzada (Titanio / SAN 1).",
@@ -223,7 +223,7 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     "whenToAdjust": "Indispensable para bordar gorras ya confeccionadas, viseras de tenis y sombreros estructurados donde se requiere bordado frontal y lateral continuo.",
     "dicaArtrelados": "Regla de oro Artrelados para gorras: Al digitalizar o programar para el sistema 270°, planifica SIEMPRE el orden de bordado empezando por el centro inferior (cerca de la visera) hacia los costados y hacia arriba. Imagina que estás alisando un papel adhesivo con la mano: si pegas los extremos primero, en el centro te quedará una burbuja inevitable.",
     "voceSabia": "¿Sabías que los sistemas de gorras tradicionales solo permitían un ángulo plano de 120° (solo el frente), y que la introducción del sistema 270° en la década de 1990 revolucionó la moda urbana al permitir logotipos que nacen en el frente y terminan detrás de la oreja?",
-    "practicalExercise": "Monta una gorra promocional en la estación de enbastorado 270° utilizando entretela para gorras de 80 g/m². Sujeta la sudadera con clips de papelería, ajusta la banda de acero asegurando que los dientes toquen la costura de la visera y coloca el conjunto en el driver. Realiza un trazado completo de 180 mm y verifica la perfecta tensión de la tela.",
+    "practicalExercise": "Monta una gorra promocional en la estación de enmarcado en bastidor 270° utilizando entretela para gorras de 80 g/m². Sujeta la sudadera con clips de papelería, ajusta la banda de acero asegurando que los dientes toquen la costura de la visera y coloca el conjunto en el driver. Realiza un trazado completo de 180 mm y verifica la perfecta tensión de la tela.",
     "quickSummary": "Mecanismo rotativo tubular para máquinas con brazo libre que permite bordar frentes y laterales de gorras armadas en un arco continuo de hasta 270 grados.",
     "relatedTerms": [
       "Bastidor para Gorras (Cap Frame & Driver)",
@@ -245,7 +245,7 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
       "3. Durante la costura, la máquina coordina el giro circular del driver con los desplazamientos axiales del pantógrafo.",
       "4. Permite un bordado rígido y estable de hasta 60 a 70 mm de altura vertical por 130 a 180 mm de ancho horizontal."
     ],
-    "beginnerExplanation": "Es el accesorio cilíndrico que viene con tu máquina bordadora de brazo libre para poder bordar gorras. En vez de poner la tela en un bastidor plano como una remera, la gorra se encaja en este aro curvo que gira sobre el brazo metálico de la máquina, permitiendo que la aguja trabaje justo en la parte redonda de la gorra.",
+    "beginnerExplanation": "Es el accesorio cilíndrico que viene con tu máquina bordadora de brazo libre para poder bordar gorras. En vez de poner la tela en un bastidor plano como una camiseta, la gorra se encaja en este aro curvo que gira sobre el brazo metálico de la máquina, permitiendo que la aguja trabaje justo en la parte redonda de la gorra.",
     "practicalExamples": [
       "Bordado del logotipo de una empresa en el panel frontal de gorras tipo camionero (Trucker con red).",
       "Bordado de insignias náuticas o deportivas en gorros y viseras de golf.",
@@ -315,7 +315,7 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     "whenToAdjust": "Utilízalo cuando el cliente solicite bordados envolventes panorámicos o personalizaciones simultáneas en el frente y en los costados de la gorra.",
     "dicaArtrelados": "El tip maestro Artrelados: Cuando bordes un logo que continúe hacia el lateral de la gorra, coloca siempre una pequeña tira de cinta de papel engomada o cinta de carrocero sosteniendo la tela de la sien contra la banda metálica lateral. Eso anula por completo la vibración lateral y hace que las letras pequeñas de tu página web queden tan legibles como impresas en papel.",
     "voceSabia": "¿Sabías que los primeros bastidores de gorras en la década de 1970 requerían desarmar la visera y descoser toda la costura interior para poder bordar en plano? La invención del Wide Angle Driver cambió para siempre la industria de la indumentaria deportiva.",
-    "practicalExercise": "Configura en tu software una matriz continua de 200 mm de largo que tenga un texto frontal y dos iconos a los lados. Realiza la prueba con el bastidor de gran angular 270° sobre una gorra de gabardina gruesa y verifica cómo el texto se mantiene perfectamente horizontal a lo largo de toda la curvatura de la prenda.",
+    "practicalExercise": "Configura en tu software una diseño de bordado continua de 200 mm de largo que tenga un texto frontal y dos iconos a los lados. Realiza la prueba con el bastidor de gran angular 270° sobre una gorra de gabardina gruesa y verifica cómo el texto se mantiene perfectamente horizontal a lo largo de toda la curvatura de la prenda.",
     "quickSummary": "Sistema de tracción gran angular para máquinas industriales que borda con absoluta precisión frentes y laterales completos de gorras en un arco ininterrumpido de 270 grados.",
     "relatedTerms": [
       "Bastidor de Gorras (Cap Frame / Sistema Tubular 270°)",
@@ -336,7 +336,7 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
       "2. El soporte adaptador (en acrílico o MDF de ingeniería) se apoya sobre el bastidor y se alinea en el centro.",
       "3. La visera de la gorra se coloca apuntando hacia el operador y se aprisiona fuertemente mediante dos presillas con tuercas mariposa.",
       "4. La corona o copa frontal de la gorra se aplana hacia atrás sobre la entretela y se sujeta en sus bordes con cinta de carrocero.",
-      "5. En el panel de la máquina, se gira la matriz obligatoriamente 180° para que el diseño coincida con la posición invertida de la gorra."
+      "5. En el panel de la máquina, se gira la diseño de bordado obligatoriamente 180° para que el diseño coincida con la posición invertida de la gorra."
     ],
     "beginnerExplanation": "Quien tiene una máquina de bordar de una aguja sabe lo difícil que es bordar gorras porque no tienen el brazo tubular de las máquinas de fábrica. Este soporte es una solución ingeniosa: lo colocas sobre tu bastidor normal 13x18, metes la visera dura de la gorra en las mariposas y aprietas con la mano. El soporte mantiene la visera baja y la frente de la gorra queda estiradita y plana para bordar sin peligro de romper agujas.",
     "practicalExamples": [
@@ -345,12 +345,12 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
       "Bordado de escudos en gorros de pescador (bucket hats) utilizando la placa plana de prensado."
     ],
     "matrixParametersRelation": [
-      "Rotación obligatoria en 180°: la matriz debe rotarse para bordar desde la visera prensada hacia la corona superior.",
+      "Rotación obligatoria en 180°: la diseño de bordado debe rotarse para bordar desde la visera prensada hacia la corona superior.",
       "Área útil restringida: área real recomendada de 100x60 mm a 120x65 mm para no golpear las tuercas mariposa laterales.",
       "Velocidad de trabajo: ajustar la velocidad de la máquina a 400 - 500 PPM para no generar vibraciones excesivas en el pantógrafo plano."
     ],
     "commonErrors": [
-      "Olvidar rotar la matriz en 180°, bordando el logotipo boca abajo en la frente de la gorra.",
+      "Olvidar rotar la diseño de bordado en 180°, bordando el logotipo boca abajo en la frente de la gorra.",
       "No realizar el recorrido previo (Trace), haciendo que la aguja o el pie prensatelas choquen contra las tuercas mariposa metálicas.",
       "Dejar la copa frontal suelta sin fijar con cinta en los laterales, lo que genera arrugas y desalineación en las puntadas de contorno."
     ],
@@ -378,6 +378,7 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     "grammarClass": "Locución nominal masculina",
     "origin": "Del germánico basti (corteza o fibra vegetal trenzada) a través del latín vulgar bastum (soporte o armazón rígido). Pieza central presente desde los orígenes del bordado manual y mecanizado.",
     "definition": "Herramienta fundamental compuesta por dos aros o marcos concéntricos (uno interno y otro externo con tornillo de ajuste regulable) diseñados para atrapar y tensar uniformemente la tela junto con su estabilizador, fijándose rígidamente al carro del pantógrafo para guiar los movimientos del bordado.",
+    "technicalDetails": "Constituido por dos anillos o marcos concéntricos (aro interno y aro externo) con acoplamiento de precisión accionado por tornillo moleteado, muelle de presión o imanes de alta inducción. Se conecta mecánicamente a los brazos de tracción del pantógrafo mediante clips de enganche rápido calibrados.",
     "howItWorks": [
       "1. El aro interno se coloca por debajo de la tela y la entretela.",
       "2. El aro externo se posiciona encima y se presiona hacia abajo para calzar sobre el aro interno.",
@@ -387,9 +388,9 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     ],
     "beginnerExplanation": "Es el marco de plástico o metal que aprieta tu tela como si fuera la piel de un tambor para que quede bien estirada mientras la máquina borda. Viene con dos aros: uno que va por debajo y otro por encima que se ajusta con una rueda o tornillo. Sin un buen bastidor bien colocado, la tela se arrugaría con cada puntada y el bordado saldría completamente torcido.",
     "practicalExamples": [
-      "Enbastorado de bastidor 10x10 cm para insignias de pecho en chombas escolares.",
+      "enmarcado en bastidor de bastidor 10x10 cm para insignias de pecho en polos escolares.",
       "Uso de bastidor 13x18 cm y 16x26 cm para nombres grandes en toallas y sábanas de ajuar infantil.",
-      "Montaje en bastidor gigante 20x30 cm para espaldas de camperas de egresados o batas de satén."
+      "Montaje en bastidor gigante 20x30 cm para espaldas de chaquetas de egresados o batas de satén."
     ],
     "matrixParametersRelation": [
       "Límite de campo físico: el software y la máquina detectan el tamaño del bastidor para impedir que la aguja golpee los bordes plásticos.",
@@ -409,10 +410,10 @@ export const LOTE2_B_PART1_ES: Record<string, Partial<Verbete>> = {
     "whenToAdjust": "Regula la presión del tornillo en cada cambio de tela: más suelto para toallas y polar grueso; más ajustado para popelín, microfibra y camisas finas.",
     "dicaArtrelados": "El mandamiento de oro del taller Artrelados: ¡Nunca estires la tela tirando de sus bordes una vez que el aro exterior esté encajado! Si tironeas de la tela, estiras los hilos elásticos de la trama; cuando saques el bastidor al terminar, la tela volverá a su tamaño natural y tu bordado quedará totalmente arrugado. Coloca la tela plana y déjala tan templada como un tambor, pero sin forzar su elasticidad natural.",
     "voceSabia": "¿Sabías que los primeros bastidores de bordado de la historia se fabricaban con ramas flexibles de mimbre o bambú amarradas con tiras de cuero, y que el tornillo regulador de metal no se patentó hasta mediados del siglo XIX?",
-    "practicalExercise": "Practica el enbastorado perfecto: afloja el tornillo, coloca entretela y un retazo de algodón sobre el aro interno. Presiona el aro externo con ambas palmas de la mano en movimiento parejo hacia abajo. Ajusta el tornillo solo con la fuerza de los dedos. Golpea la tela suavemente con la yema del dedo: debe sonar hueco y firme como un tamboril.",
+    "practicalExercise": "Practica el enmarcado en bastidor perfecto: afloja el tornillo, coloca entretela y un retazo de algodón sobre el aro interno. Presiona el aro externo con ambas palmas de la mano en movimiento parejo hacia abajo. Ajusta el tornillo solo con la fuerza de los dedos. Golpea la tela suavemente con la yema del dedo: debe sonar hueco y firme como un tamboril.",
     "quickSummary": "Marco rígido de dos aros concéntricos que tensa y estabiliza la tela conectándola al pantógrafo para garantizar puntadas nítidas y sin deformaciones.",
     "relatedTerms": [
-      "Montaje en Bastidor / Enbastorado (Hooping)",
+      "Montaje en Bastidor / enmarcado en bastidor (Hooping)",
       "Marcas de Bastidor (Hoop Burn)",
       "Bastidor Magnético",
       "Bastidor Tubular para Brazo Libre"

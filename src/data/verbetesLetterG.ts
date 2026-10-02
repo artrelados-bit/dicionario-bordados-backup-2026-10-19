@@ -4,7 +4,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-001-guipure-renda-guipir-no-bordado-computadorizado",
     "code": "G-001",
-    "term": "Guipure / Renda Guipir no Bordado Computadorizado (Guipure Lace / Chemical Lace Embroidery)",
+    "term": "Renda Guipir Computadorizada",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Técnicas Especiais",
@@ -75,7 +75,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-002-gramatura-de-entretela-gsm-peso-estabilizador",
     "code": "G-002",
-    "term": "Gramatura de Entretela / Peso do Estabilizador (Stabilizer Weight in GSM / g/m²)",
+    "term": "Gramatura de Entretela",
     "letter": "G",
     "level": "Fundamental 🟢",
     "category": "Estabilizadores & Entretelas",
@@ -143,7 +143,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-003-guia-fio-passa-fio-da-maquina-de-bordar",
     "code": "G-003",
-    "term": "Guia-Fio / Passa-Fio da Máquina de Bordar (Thread Guides, Eyelets & Tension Path)",
+    "term": "Guia-Fio da Máquina de Bordar",
     "letter": "G",
     "level": "Fundamental 🟢",
     "category": "Componentes da Máquina",
@@ -211,7 +211,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-004-gabarito-de-bastidor-grade-de-posicionamento",
     "code": "G-004",
-    "term": "Gabarito de Bastidor / Grade de Posicionamento e Alinhamento (Hoop Template / Alignment Grid)",
+    "term": "Gabarito de Bastidor",
     "letter": "G",
     "level": "Fundamental 🟢",
     "category": "Técnicas de Bastidor",
@@ -277,7 +277,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-005-giz-de-alfaiate-caneta-termoapagavel-no-bordado",
     "code": "G-005",
-    "term": "Giz de Alfaiate & Caneta Termoapagável no Bordado (Tailor's Chalk & Heat-Erasable Marking Tools)",
+    "term": "Giz de Alfaiate & Caneta Termoapagável no Bordado",
     "letter": "G",
     "level": "Fundamental 🟢",
     "category": "Acabamento & Finalização",
@@ -342,7 +342,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-006-gola-bordada-bordado-em-golas-lapelas-e-punhos",
     "code": "G-006",
-    "term": "Gola Bordada / Bordado em Golas, Lapelas e Punhos (Collar, Lapel & Cuff Embroidery)",
+    "term": "Bordado em Golas e Lapelas",
     "letter": "G",
     "level": "Intermediário 🟡",
     "category": "Técnicas de Bastidor",
@@ -410,7 +410,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-007-gradiente-de-cores-degrade-de-pontos-color-blending",
     "code": "G-007",
-    "term": "Gradiente de Cores & Degradê de Pontos (Color Blending / Gradient Shading in Digitizing)",
+    "term": "Gradiente de Cores & Degradê de Pontos",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Programação & Digitalização",
@@ -476,7 +476,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-008-gancho-da-lancadeira-bico-da-lancadeira-hook-timing",
     "code": "G-008",
-    "term": "Gancho da Lançadeira / Bico da Lançadeira (Shuttle Rotary Hook Point & Hook Timing)",
+    "term": "Gancho da Lançadeira Rotativa",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
@@ -541,7 +541,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-009-garra-do-bastidor-encaixe-de-trava-do-pantografo",
     "code": "G-009",
-    "term": "Garra do Bastidor / Encaixe de Trava do Pantógrafo (Hoop Bracket, Mounting Arm & Pantograph Clamp)",
+    "term": "Garra do Bastidor no Pantógrafo",
     "letter": "G",
     "level": "Fundamental 🟢",
     "category": "Componentes da Máquina",
@@ -606,7 +606,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-010-gaze-voil-tecidos-finos-transparentes-no-bordado",
     "code": "G-010",
-    "term": "Gaze, Voil & Tecidos Finos Transparentes no Bordado (Gauze, Voile & Sheer Fabric Embroidery)",
+    "term": "Gaze, Voil & Tecidos Finos Transparentes no Bordado",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Materiais & Tecidos",
@@ -674,7 +674,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-011-gorgurao-fita-de-gorgurao-personalizada-no-bastidor",
     "code": "G-011",
-    "term": "Gorgurão & Fita de Gorgurão Personalizada no Bastidor (Grosgrain Ribbon Embroidery & Tags)",
+    "term": "Gorgurão & Fita de Gorgurão Personalizada no Bastidor",
     "letter": "G",
     "level": "Intermediário 🟡",
     "category": "Materiais & Tecidos",
@@ -742,7 +742,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-012-gravacao-em-relevo-ponto-esculpido-na-matriz-carving-stamp",
     "code": "G-012",
-    "term": "Gravação em Relevo / Ponto Esculpido na Matriz (Carving Stamp / Embossed Stitch Effect in Digitizing)",
+    "term": "Gravação em Relevo na Matriz",
     "letter": "G",
     "level": "Intermediário 🟡",
     "category": "Programação & Digitalização",
@@ -809,7 +809,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-013-guia-de-cores-cartela-de-linhas-com-amostras-reais",
     "code": "G-013",
-    "term": "Guia de Cores & Cartela de Linhas com Amostras Reais (Thread Shade Card & Color Matching Guide)",
+    "term": "Guia de Cores & Cartela de Linhas com Amostras Reais",
     "letter": "G",
     "level": "Fundamental 🟢",
     "category": "Fios & Linhas",
@@ -875,7 +875,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-014-gancho-pega-fio-thread-wiper-needle-clearance",
     "code": "G-014",
-    "term": "Gancho Pega-Fio / Thread Wiper (Thread Wiper Hook & Needle Clearance Mechanism)",
+    "term": "Gancho Pega-Fio da Máquina",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
@@ -940,7 +940,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-015-grip-do-bastidor-pressao-dos-aros-clamping-force",
     "code": "G-015",
-    "term": "Grip do Bastidor & Pressão dos Aros (Hoop Grip & Perimeter Clamping Force)",
+    "term": "Grip do Bastidor & Pressão dos Aros",
     "letter": "G",
     "level": "Intermediário 🟡",
     "category": "Técnicas de Bastidor",
@@ -1007,7 +1007,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-016-gasto-de-linha-calculo-de-consumo-de-fio-na-matriz",
     "code": "G-016",
-    "term": "Gasto de Linha / Cálculo de Consumo de Fio na Matriz (Thread Consumption & Yardage Estimation)",
+    "term": "Cálculo de Consumo de Linha",
     "letter": "G",
     "level": "Intermediário 🟡",
     "category": "Programação & Digitalização",
@@ -1072,7 +1072,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-017-gramatura-do-tecido-calibracao-de-densidade",
     "code": "G-017",
-    "term": "Gramatura do Tecido & Calibração de Densidade (Fabric Weight vs. Stitch Density Relationship)",
+    "term": "Gramatura do Tecido & Calibração de Densidade",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Programação & Digitalização",
@@ -1137,7 +1137,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-018-guilhotina-de-corte-de-fio-conjunto-de-facas-de-trimming",
     "code": "G-018",
-    "term": "Guilhotina de Corte de Fio / Conjunto de Facas de Trimming (Thread Trimmer Knife Assembly)",
+    "term": "Guilhotina de Corte de Fio",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
@@ -1204,7 +1204,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-019-gota-de-ilhos-ponto-no-frances-digitalizado",
     "code": "G-019",
-    "term": "Gota de Ilhós & Ponto Nó Francês Digitalizado (Eyelet Stitch & Digitized French Knot in Embroidery)",
+    "term": "Gota de Ilhós & Ponto Nó Francês Digitalizado",
     "letter": "G",
     "level": "Intermediário 🟡",
     "category": "Programação & Digitalização",
@@ -1271,7 +1271,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-020-guardanapo-bordado-roupa-de-mesa-canto-mitrado",
     "code": "G-020",
-    "term": "Guardanapo Bordado, Roupa de Mesa & Canto Mitrado (Embroidered Napkins & Table Linen Mastery)",
+    "term": "Guardanapo Bordado, Roupa de Mesa & Canto Mitrado",
     "letter": "G",
     "level": "Intermediário 🟡",
     "category": "Técnicas de Bastidor",
@@ -1339,7 +1339,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-021-gancho-de-puxar-fio-puxador-de-fio-e-pinca-de-precisao",
     "code": "G-021",
-    "term": "Gancho de Puxar Fio / Puxador de Fio & Pinça de Precisão (Thread Snag Repair Tool & Precision Tweezers)",
+    "term": "Puxador de Linha e Pinça de Precisão",
     "letter": "G",
     "level": "Fundamental 🟢",
     "category": "Ferramentas do Ateliê",
@@ -1405,7 +1405,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-022-gabarito-de-posicionamento-no-peito-alinhamento-de-logotipo",
     "code": "G-022",
-    "term": "Gabarito de Posicionamento no Peito / Alinhamento de Logotipo em Camisas (Shirt Logo Placement Template)",
+    "term": "Gabarito de Alinhamento no Peito",
     "letter": "G",
     "level": "Fundamental 🟢",
     "category": "Técnicas de Bastidor",
@@ -1472,7 +1472,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-023-graxa-branca-sintetica-lubrificacao-de-engrenagens",
     "code": "G-023",
-    "term": "Graxa Branca Sintética & Lubrificação de Engrenagens da Máquina (White Lithium Synthetic Grease & Gear Maintenance)",
+    "term": "Graxa Branca Sintética & Lubrificação de Engrenagens da Máquina",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
@@ -1538,7 +1538,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-024-gerenciador-de-matrizes-visualizador-de-arquivos-de-bordado",
     "code": "G-024",
-    "term": "Gerenciador de Matrizes / Visualizador de Arquivos de Bordado (Embroidery File Manager & Design Thumbnailer)",
+    "term": "Gerenciador de Matrizes de Bordado",
     "letter": "G",
     "level": "Fundamental 🟢",
     "category": "Programação & Digitalização",
@@ -1607,7 +1607,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-025-gaxeta-de-borracha-anel-de-vedacao-da-caixa-de-bobina",
     "code": "G-025",
-    "term": "Gaxeta de Borracha & Anel de Amortecimento da Caixa de Bobina (Bobbin Case Cushion Ring & Anti-Spin Spring)",
+    "term": "Gaxeta de Borracha & Anel de Amortecimento da Caixa de Bobina",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
@@ -1673,7 +1673,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-026-grelha-de-sustentacao-grade-de-underlay-no-bordado",
     "code": "G-026",
-    "term": "Grelha de Sustentação / Grade de Underlay no Bordado (Grid Underlay / Crosshatch Support in Digitizing)",
+    "term": "Grelha de Sustentação da Matriz",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Programação & Digitalização",
@@ -1739,7 +1739,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-027-goma-pva-filme-de-polivinil-alcool-na-entretela-hidrossoluvel",
     "code": "G-027",
-    "term": "Goma PVA & Filme de Polivinil Álcool na Entretela Hidrossolúvel (PVA Starch & Polyvinyl Alcohol Chemistry)",
+    "term": "Filme de PVA na Entretela Hidrossolúvel",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Estabilizadores & Entretelas",
@@ -1805,7 +1805,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-028-grampo-de-fixacao-do-bastidor-magnetico",
     "code": "G-028",
-    "term": "Grampo de Fixação do Bastidor Magnético (Magnetic Hoop Clamp & Clamping Plate System)",
+    "term": "Grampo de Bastidor Magnético",
     "letter": "G",
     "level": "Intermediário 🟡",
     "category": "Técnicas de Bastidor",
@@ -1871,7 +1871,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-029-gola-polo-estruturada-bordado-em-peitilho-de-camisa-polo",
     "code": "G-029",
-    "term": "Gola Polo Estruturada & Bordado em Peitilho de Camisa Polo (Polo Shirt Collar & Placket Embroidery)",
+    "term": "Gola Polo e Peitilho de Camisa",
     "letter": "G",
     "level": "Intermediário 🟡",
     "category": "Técnicas de Bastidor",
@@ -1939,7 +1939,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-030-geracao-automatica-de-pontos-auto-digitizing-no-software",
     "code": "G-030",
-    "term": "Geração Automática de Pontos / Auto-Digitizing no Software (Auto-Digitizing & Vector-to-Stitch Conversion)",
+    "term": "Geração Automática de Pontos",
     "letter": "G",
     "level": "Fundamental 🟢",
     "category": "Programação & Digitalização",
@@ -2006,7 +2006,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-031-guia-magnetico-de-alinhamento-e-costura",
     "code": "G-031",
-    "term": "Guia Magnético de Alinhamento e Costura (Magnetic Seam & Alignment Guide)",
+    "term": "Guia Magnético de Alinhamento",
     "letter": "G",
     "level": "Fundamental 🟢",
     "category": "Acessórios & Ferramentas",
@@ -2071,7 +2071,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-032-gancho-rotativo-duplo-lancadeira-de-grande-capacidade",
     "code": "G-032",
-    "term": "Gancho Rotativo Duplo & Lançadeira Jumbo de Grande Capacidade (Double-Capacity Rotary Hook & Jumbo Bobbin)",
+    "term": "Lançadeira Jumbo de Grande Capacidade",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
@@ -2137,7 +2137,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-033-galao-fita-decorativa-bordada-em-fita-continua",
     "code": "G-033",
-    "term": "Galão / Fita Decorativa Bordada em Fita Contínua (Embroidered Galloon & Continuous Decorative Trim)",
+    "term": "Galão e Fita Decorativa Bordada",
     "letter": "G",
     "level": "Intermediário 🟡",
     "category": "Técnicas Especiais",
@@ -2204,7 +2204,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-034-gabarito-de-bone-sistema-cap-frame-gauge",
     "code": "G-034",
-    "term": "Gabarito de Boné & Sistema de Montagem Cap Frame Gauge (Cap Hoop Gauge & Framing Fixture)",
+    "term": "Gabarito de Montagem de Boné",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Técnicas de Bastidor",
@@ -2271,7 +2271,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-035-granulacao-de-ponto-efeito-areia-em-matrizes",
     "code": "G-035",
-    "term": "Granulação de Ponto / Efeito Areia em Matrizes (Stipple Stitching & Sandgrain Texture)",
+    "term": "Granulação de Ponto e Efeito Areia",
     "letter": "G",
     "level": "Intermediário 🟡",
     "category": "Programação & Digitalização",
@@ -2338,7 +2338,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-036-grelhador-de-fios-suporte-pre-tensor-de-cone-superior",
     "code": "G-036",
-    "term": "Grelhador de Fios & Suporte Pré-Tensor de Cone Superior (Thread Tower Pre-Tension Eyelet Grid)",
+    "term": "Grelha Pré-Tensora de Fios",
     "letter": "G",
     "level": "Intermediário 🟡",
     "category": "Mecânica & Manutenção",
@@ -2404,7 +2404,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-037-guarda-po-capa-de-protecao-da-maquina",
     "code": "G-037",
-    "term": "Guarda-Pó / Capa de Proteção Térmica e Anti-Estática da Máquina (Embroidery Machine Dust Cover & Shield)",
+    "term": "Capa Guarda-Pó da Máquina",
     "letter": "G",
     "level": "Fundamental 🟢",
     "category": "Mecânica & Manutenção",
@@ -2469,7 +2469,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-038-gabarito-de-medicao-de-folga-de-agulha-feeler-gauge",
     "code": "G-038",
-    "term": "Gabarito de Medição de Folga de Agulha & Calibre de Lâminas (Needle-to-Hook Clearance Feeler Gauge)",
+    "term": "Calibre de Lâminas para Folga de Agulha",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
@@ -2536,7 +2536,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-039-gesso-de-marcacao-lapis-giz-de-cera-textil",
     "code": "G-039",
-    "term": "Gesso de Marcação em Barra / Lápis Giz de Cera Têxtil (Wax Chalk Stick & Disappearing Tailor Marker)",
+    "term": "Giz de Alfaiate e Marcação Têxtil",
     "letter": "G",
     "level": "Fundamental 🟢",
     "category": "Acessórios & Ferramentas",
@@ -2602,7 +2602,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-040-grade-cartesiana-xy-e-coordenadas-do-pantografo",
     "code": "G-040",
-    "term": "Grade Cartesiana X/Y & Coordenadas do Pantógrafo (Cartesian Grid & Absolute X/Y Coordinates in Embroidery)",
+    "term": "Grade Cartesiana do Pantógrafo",
     "letter": "G",
     "level": "Fundamental 🟢",
     "category": "Programação & Digitalização",
@@ -2668,7 +2668,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-041-gravacao-laser-integrada-em-maquinas-de-bordar",
     "code": "G-041",
-    "term": "Gravação Laser Integrada em Máquinas de Bordar (Laser Bridge & Integrated Cutting System)",
+    "term": "Gravação Laser em Máquinas de Bordar",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Técnicas Especiais",
@@ -2734,7 +2734,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-042-guia-de-agulha-placa-protetora-contra-deflexao",
     "code": "G-042",
-    "term": "Guia de Agulha & Placa Protetora contra Deflexão da Lançadeira (Needle Guard & Deflection Plate)",
+    "term": "Placa Protetora contra Deflexão de Agulha",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
@@ -2800,7 +2800,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-049-gancho-retentor-de-fio-de-bobina-thread-catcher",
     "code": "G-049",
-    "term": "Gancho Retentor de Fio de Bobina & Mola Pega-Fio Inferior (Bobbin Thread Retainer Hook & Holding Spring)",
+    "term": "Gancho Retentor de Fio de Bobina",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
@@ -2868,7 +2868,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-050-gabarito-de-emenda-continua-para-faixas-longas",
     "code": "G-050",
-    "term": "Gabarito de Emenda Contínua para Faixas Longas (Continuous Border Hoop Alignment Jig)",
+    "term": "Gabarito de Emenda Contínua",
     "letter": "G",
     "level": "Intermediário 🟡",
     "category": "Acessórios & Ferramentas",
@@ -2935,7 +2935,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-051-geometria-de-ponta-de-agulha-de-bordado-rg-ses-suk-spi",
     "code": "G-051",
-    "term": "Geometria de Ponta de Agulha de Bordado (Needle Tip Geometry: RG, R, SES, SUK, SPI, LL, DIA)",
+    "term": "Geometria de Ponta de Agulha",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Materiais & Suprimentos",
@@ -3003,7 +3003,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-052-gravacao-de-nome-monograma-individual-em-producao-seriada",
     "code": "G-052",
-    "term": "Gravação de Nome & Monograma Individual em Produção Seriada (Variable Name Drops & Batch Personalization)",
+    "term": "Gravação de Nomes e Monogramas",
     "letter": "G",
     "level": "Fundamental 🟢",
     "category": "Programação & Digitalização",
@@ -3070,7 +3070,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-053-gola-boneca-gola-peter-pan-bordada",
     "code": "G-053",
-    "term": "Gola Boneca / Gola Peter Pan Bordada & Acabamento Festonê (Peter Pan Rounded Collar & Scallop Edging)",
+    "term": "Gola Boneca com Festonê",
     "letter": "G",
     "level": "Intermediário 🟡",
     "category": "Técnicas Especiais",
@@ -3139,7 +3139,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-054-gasto-energetico-potencia-da-maquina-de-bordar",
     "code": "G-054",
-    "term": "Gasto Energético & Potência Elétrica da Máquina de Bordar (Power Consumption, Surge Protection & Inverter Motors)",
+    "term": "Consumo Elétrico da Máquina de Bordar",
     "letter": "G",
     "level": "Fundamental 🟢",
     "category": "Mecânica & Manutenção",
@@ -3206,7 +3206,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-055-gancho-passador-automatico-de-fio-na-agulha",
     "code": "G-055",
-    "term": "Gancho Passador Automático de Fio na Agulha (Automatic Needle Threader Hook & Wire Mechanism)",
+    "term": "Gancho Passador Automático de Linha",
     "letter": "G",
     "level": "Fundamental 🟢",
     "category": "Mecânica & Manutenção",
@@ -3273,7 +3273,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-056-grade-de-densidade-variavel-padroes-de-relevo-wave",
     "code": "G-056",
-    "term": "Grade de Densidade Variável & Efeito de Curvas em Onda (Wave Stitch & Variable Curved Density)",
+    "term": "Grade de Densidade Variável",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Programação & Digitalização",
@@ -3340,7 +3340,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-057-gabarito-de-esquadro-angular-45-90-de-atelie",
     "code": "G-057",
-    "term": "Gabarito de Esquadro Angular 45°/90° de Ateliê (Sewing & Embroidery Precision Angular Square Ruler)",
+    "term": "Esquadro de Precisão para Ateliê",
     "letter": "G",
     "level": "Fundamental 🟢",
     "category": "Acessórios & Ferramentas",
@@ -3406,7 +3406,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-058-gaxeta-de-feltro-lubrificadora-da-barra-de-agulha",
     "code": "G-058",
-    "term": "Gaxeta de Feltro Lubrificadora da Barra de Agulha (Needle Bar Felt Oiler Washer & Wick)",
+    "term": "Gaxeta de Feltro Lubrificadora",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
@@ -3473,7 +3473,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-059-guias-de-bastidor-magnetico-para-bancada",
     "code": "G-059",
-    "term": "Guias de Bastidor Magnético para Bancada & Estação HoopMaster (HoopMaster Station & Magnetic Framing Fixtures)",
+    "term": "Estação de Bastidoramento Magnético",
     "letter": "G",
     "level": "Intermediário 🟡",
     "category": "Acessórios & Ferramentas",
@@ -3540,7 +3540,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-060-gravacao-em-couro-legitimo-camurca",
     "code": "G-060",
-    "term": "Gravação & Bordado em Couro Legítimo e Camurça (Genuine Leather & Suede Embroidery Standards)",
+    "term": "Bordado em Couro e Camurça",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Técnicas Especiais",
@@ -3608,7 +3608,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-061-giga-bastidor-multiposicao-para-maquinas-domesticas",
     "code": "G-061",
-    "term": "Giga Bastidor & Bastidor Multiposição para Máquinas Domésticas (Multi-Position Giga Hoop & Extended Frame)",
+    "term": "Giga Bastidor Multiposição",
     "letter": "G",
     "level": "Intermediário 🟡",
     "category": "Técnicas de Bastidor",
@@ -3677,7 +3677,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-067-gabarito-transparente-de-alinhamento-do-bastidor",
     "code": "G-067",
-    "term": "Gabarito Transparente de Alinhamento do Bastidor (Hoop Alignment Grid)",
+    "term": "Gabarito Transparente de Bastidor",
     "letter": "G",
     "level": "Intermediário 🟡",
     "category": "Técnicas de Bastidor",
@@ -3742,7 +3742,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-068-gancho-da-lancadeira-rotativa",
     "code": "G-068",
-    "term": "Gancho da Lançadeira Rotativa (Rotary Hook Point & Loop Catcher)",
+    "term": "Bico da Lançadeira Rotativa",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -3807,7 +3807,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-069-gola-polo-e-fixacao-em-bastidor-de-colarinho",
     "code": "G-069",
-    "term": "Gola Polo e Fixação em Bastidor de Colarinho (Polo Collar Hooping & Clamping)",
+    "term": "Fixação de Gola Polo no Bastidor",
     "letter": "G",
     "level": "Intermediário 🟡",
     "category": "Técnicas de Bastidor",
@@ -3872,7 +3872,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-070-gerenciador-de-paletas-de-cores-e-marcas-de-linha",
     "code": "G-070",
-    "term": "Gerenciador de Paletas de Cores e Marcas de Linha (Thread Palette & Brand Mapping)",
+    "term": "Gerenciador de Paletas de Cores",
     "letter": "G",
     "level": "Iniciante 🟢",
     "category": "Programação de Bordado",
@@ -3937,7 +3937,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-071-gravacao-de-textura-e-relevo-por-carimbo",
     "code": "G-071",
-    "term": "Gravação de Textura e Relevo por Carimbo (Embossed Tatami & Stitch Stamp)",
+    "term": "Textura Tatami por Carimbo",
     "letter": "G",
     "level": "Intermediário 🟡",
     "category": "Programação de Bordado",
@@ -4002,7 +4002,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-072-grau-de-elasticidade-e-tensao-residual-do-tecido",
     "code": "G-072",
-    "term": "Grau de Elasticidade e Tensão Residual do Tecido (Fabric Stretch & Recovery Index)",
+    "term": "Grau de Elasticidade do Tecido",
     "letter": "G",
     "level": "Avançado 🔴",
     "category": "Tipos de Tecidos",
@@ -4067,7 +4067,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-073-guias-de-linha-e-passa-fios-ceramicos-da-cabeca",
     "code": "G-073",
-    "term": "Guias de Linha e Passa-Fios Cerâmicos da Cabeça (Ceramic Thread Guides & Eyelets)",
+    "term": "Guias de Linha Cerâmicos",
     "letter": "G",
     "level": "Intermediário 🟡",
     "category": "Componentes da Máquina",
@@ -4132,7 +4132,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-074-grade-de-alinhamento-e-grade-de-snap-do-software",
     "code": "G-074",
-    "term": "Grade de Alinhamento e Grade de Snap do Software (Software Design Grid & Snap-to-Grid)",
+    "term": "Grade de Alinhamento no Software",
     "letter": "G",
     "level": "Iniciante 🟢",
     "category": "Programação de Bordado",
@@ -4198,7 +4198,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
     "id": "g-088-ponto-grego-moldura-geometrica-meandro",
     "code": "G-088",
     "letter": "G",
-    "term": "Ponto Grego e Moldura Geométrica Meandro (Greek Key Geometric Border / Meander Fill Pattern)",
+    "term": "Ponto Grego e Moldura Meandro",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo masculino composto.",
     "category": "Efeitos Decorativos e Pontos",
@@ -4300,7 +4300,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
     "id": "g-089-efeito-gota-orvalho-micro-satin-curvo-ponto-luz",
     "code": "G-089",
     "letter": "G",
-    "term": "Efeito Gota de Orvalho com Micro-Satin Curvo e Ponto de Luz (Dewdrop Shading Effect with Curved Highlight Satin)",
+    "term": "Efeito Gota de Orvalho",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo masculino composto.",
     "category": "Efeitos Decorativos e Pontos",
@@ -4402,7 +4402,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
     "id": "g-090-guia-fio-espiral-aco-inoxidavel",
     "code": "G-090",
     "letter": "G",
-    "term": "Guia de Fio Espiral de Aço Inoxidável (Spiral Stainless Steel Thread Guide)",
+    "term": "Guia de Fio Espiral Inox",
     "level": "Iniciante 🟢",
     "grammarClass": "Substantivo masculino composto.",
     "category": "Mecânica da Máquina",
@@ -4504,7 +4504,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
     "id": "g-091-garra-retentora-caixa-bobina-dedo-retentor-lancadeira",
     "code": "G-091",
     "letter": "G",
-    "term": "Garra Retentora da Caixa de Bobina e Dedo Retentor da Lançadeira (Bobbin Case Retaining Finger & Shuttle Bracket)",
+    "term": "Dedo Retentor da Caixa de Bobina",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo feminino composto.",
     "category": "Mecânica da Máquina",
@@ -4606,7 +4606,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
     "id": "g-092-guia-linear-esferocilindrica-pantografo",
     "code": "G-092",
     "letter": "G",
-    "term": "Guia Linear Esferocilíndrica do Pantógrafo (Linear Motion Recirculating Ball Guideway)",
+    "term": "Guia Linear do Pantógrafo",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo feminino composto.",
     "category": "Mecânica da Máquina",
@@ -4708,7 +4708,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
     "id": "g-093-garra-corte-linha-inferior-lamina-movel-trimmer",
     "code": "G-093",
     "letter": "G",
-    "term": "Garra de Corte da Linha Inferior e Lâmina Móvel Trimmer (Under-Bed Thread Trimmer Movable Knife & Hook)",
+    "term": "Garra de Corte da Linha Inferior",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo feminino composto.",
     "category": "Mecânica da Máquina",
@@ -4810,7 +4810,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
     "id": "g-094-gerador-pulsos-encoder-optico-eixo-principal",
     "code": "G-094",
     "letter": "G",
-    "term": "Gerador de Pulsos do Encoder Óptico do Eixo Principal (Main Shaft Optical Encoder Pulse Generator)",
+    "term": "Encoder Óptico do Eixo Principal",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo masculino composto.",
     "category": "Mecânica da Máquina",
@@ -4912,7 +4912,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
     "id": "g-095-graxa-sintetica-alta-temperatura-engrenagens-lancadeira",
     "code": "G-095",
     "letter": "G",
-    "term": "Graxa Sintética de Alta Temperatura para Engrenagens da Lançadeira (High-Temperature Synthetic Lithium Grease)",
+    "term": "Graxa Sintética de Alta Temperatura",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo feminino composto.",
     "category": "Mecânica da Máquina",
@@ -5014,7 +5014,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
     "id": "g-096-gorgurao-fita-alta-densidade-bordados",
     "code": "G-096",
     "letter": "G",
-    "term": "Gorgurão e Fita de Alta Densidade para Bordados (Grosgrain Ribbon & High-Density Webbing Embroidery)",
+    "term": "Bordado em Fita Gorgurão",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo masculino.",
     "category": "Insumos e Acessórios",
@@ -5116,7 +5116,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
     "id": "g-097-garra-magnetica-fixacao-bastidores-magneticos",
     "code": "G-097",
     "letter": "G",
-    "term": "Garra Magnética de Fixação para Bastidores Magnéticos (Magnetic Clamping Bracket & Neodymium Snap Clamps)",
+    "term": "Garra de Bastidor Magnético",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo feminino composto.",
     "category": "Insumos e Acessórios",
@@ -5219,7 +5219,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
     "id": "g-098-gaze-textil-tecidos-ultrafinos-translucentes",
     "code": "G-098",
     "letter": "G",
-    "term": "Gaze Têxtil e Tecidos Ultrafinos Translucentes (Gauze & Translucent Sheer Voile Fabric Embroidery)",
+    "term": "Bordado em Gaze e Tecidos Finos",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo feminino.",
     "category": "Insumos e Acessórios",
@@ -5321,7 +5321,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
     "id": "g-099-glicerina-lubrificante-silicone-fios-dificeis",
     "code": "G-099",
     "letter": "G",
-    "term": "Glicerina e Lubrificante de Silicone para Fios Difíceis (Thread Lubricant Silicone Emulsion & Needle Glider)",
+    "term": "Silicone Lubrificante para Fios",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo feminino composto.",
     "category": "Insumos e Acessórios",
@@ -5423,7 +5423,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
     "id": "g-100-gramatura-entretela-fator-rigidez-metro-quadrado",
     "code": "G-100",
     "letter": "G",
-    "term": "Gramatura de Entretela e Fator de Rigidez por Metro Quadrado (Backing Grammage / GSM & Fabric Rigidity Index)",
+    "term": "Gramatura e Rigidez de Entretela",
     "level": "Iniciante 🟢",
     "grammarClass": "Substantivo feminino composto.",
     "category": "Insumos e Acessórios",
@@ -5524,7 +5524,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-101-guia-linear-esferas-recirculantes-eixos-x-y",
     "code": "G-101",
-    "term": "Guia Linear de Esferas Recirculantes dos Eixos X e Y (Linear Motion Guide & Recirculating Ball Bearing Slide)",
+    "term": "Guia Linear dos Eixos X e Y",
     "pronunciation": "guí-a li-ne-ar de es-fê-ras re-cir-cu-lân-tes dos éi-shos shis e íp-si-lon (lí-ni-ar móu-shon gáid end ri-ser-kiu-lêi-tin ból bé-rin sláid)",
     "letter": "G",
     "level": "Avançado 🔴",
@@ -5627,7 +5627,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-102-guia-fio-intermediario-barra-agulha-espiral-pigtail",
     "code": "G-102",
-    "term": "Guia-Fio Intermediário da Barra de Agulha / Espiral de Passagem de Fio (Needle Bar Thread Guide & Pigtail Wire)",
+    "term": "Guia-Fio da Barra de Agulha",
     "pronunciation": "guí-a fío in-ter-me-di-á-ri-o da bâr-ra de a-gú-lha / es-pi-rál de pas-sá-gem de fío (ní-del bar tréd gáid end píg-têil uái-er)",
     "letter": "G",
     "level": "Intermediário a Avançado 🟡🔴",
@@ -5728,7 +5728,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-103-guia-fio-rabo-de-porco-caixa-de-bobina-espiral-guia",
     "code": "G-103",
-    "term": "Guia-Fio Tipo Rabo de Porco da Caixa de Bobina / Espiral Guia da Linha Inferior (Bobbin Case Pigtail Thread Guide & Spiral Delivery Wire)",
+    "term": "Guia-Fio Rabo de Porco da Bobina",
     "pronunciation": "guí-a fíu tí-pu rá-bu de pór-ku da kái-sha de bo-bí-na / es-pi-rál guí-a da lí-nha in-fe-ri-ór (bó-bin kêis píg-têil thrêd gáid end spái-ral de-lí-ve-ri uáir)",
     "letter": "G",
     "level": "Intermediário 🟡",
@@ -5831,7 +5831,7 @@ export const VERBETES_LETTER_G: Verbete[] = [
   {
     "id": "g-104-gib-da-lacadeira-placa-retentora-pista-carcaca",
     "code": "G-104",
-    "term": "Gib da Laçadeira / Placa Retentora da Pista da Carcaça Giratória (Rotary Hook Gib & Raceway Retaining Plate)",
+    "term": "Placa Retentora da Lançadeira",
     "pronunciation": "guíb da la-sa-dêi-ra / plá-ka re-ten-tó-ra da pís-ta da kar-ká-sa ji-ra-tó-ria (rôu-ta-ri ruk guíb end rêis-uêi re-têi-ning plêit)",
     "letter": "G",
     "level": "Avançado 🔴",

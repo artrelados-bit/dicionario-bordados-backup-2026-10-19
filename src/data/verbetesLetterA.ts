@@ -100,7 +100,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-002-agulha-ponta-bola",
     "code": "A-002",
-    "term": "Agulha Ponta Bola (SES / FFG / SUK)",
+    "term": "Agulha Ponta Bola",
     "level": "Fundamental 🟢",
     "grammarClass": "Substantivo feminino.",
     "origin": "Do inglês ball point needle, criada na década de 1950 com a popularização da malharia circular e tecidos de elastano para evitar o corte mecânico dos filamentos de fibra durante a costura.",
@@ -175,7 +175,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-003-agulha-ponta-lanca",
     "code": "A-003",
-    "term": "Agulha Ponta Lança / Cortante (DI / LL)",
+    "term": "Agulha Ponta Lança",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo feminino.",
     "origin": "Do latim lancea (arma com haste e ponta cortante). Desenvolvida na cutelaria alemã para calçados e selearia militar no final do século XIX, adaptada posteriormente para teares e máquinas de bordar automáticas.",
@@ -247,7 +247,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-004-aplique-de-bordado",
     "code": "A-004",
-    "term": "Apliquê (Appliqué no Bordado Computadorizado)",
+    "term": "Apliquê",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo masculino.",
     "origin": "Do francês appliquer (aplicar, sobrepor), consagrado na moda francesa do século XVIII para sobreposição de tecidos nobres e consolidado no bordado industrial para economia de pontos e redução de peso.",
@@ -325,7 +325,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-005-arremate-de-ponto",
     "code": "A-005",
-    "term": "Arremate de Ponto (Lock Stitch / Tie-off / Tie-in)",
+    "term": "Arremate de Ponto",
     "level": "Fundamental 🟢",
     "grammarClass": "Substantivo masculino.",
     "origin": "Do latim ad-ramare (atar extremidades/travar nós) e do inglês técnico lock stitch e tie-off criados no desenvolvimento das primeiras máquinas automáticas de bordar suíças e alemãs para impedir o desfiamento mecânico.",
@@ -402,7 +402,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-006-angulo-de-ponto",
     "code": "A-006",
-    "term": "Ângulo de Ponto (Stitch Angle / Direction)",
+    "term": "Ângulo de Ponto",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo masculino.",
     "origin": "Do latim angulus (canto, inclinação de linhas). Conceito desenvolvido na computação gráfica para direcionar os eixos vetoriais de preenchimento em softwares pioneiros de bordado na década de 1980.",
@@ -478,7 +478,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-007-ajuste-de-tensao",
     "code": "A-007",
-    "term": "Ajuste de Tensão da Linha (Thread Tension Adjustment)",
+    "term": "Ajuste de Tensão da Linha",
     "level": "Fundamental 🟢",
     "grammarClass": "Substantivo masculino.",
     "origin": "Do latim tensio (ato de esticar, pressão equilibrada). Princípio mecânico de calibração dinâmica aperfeiçoado desde as primeiras patentes de tensores de mola de costura e bordado industrial do século XIX.",
@@ -554,7 +554,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-008-alinhamento-de-contorno",
     "code": "A-008",
-    "term": "Alinhamento de Contorno (Registration Alignment)",
+    "term": "Alinhamento de Contorno",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo masculino.",
     "origin": "Do latim lineare (traçar linhas retas) e contornare (dar a volta). Termo de registro originado na gravura e impressão tipográfica de múltiplas cores adaptado para o encaixe de camadas de bordado.",
@@ -630,7 +630,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-009-abridor-de-casas",
     "code": "A-009",
-    "term": "Abridor de Casas / Descosturador (Seam Ripper)",
+    "term": "Abridor de Casas",
     "level": "Fundamental 🟢",
     "grammarClass": "Substantivo masculino.",
     "origin": "Do latim aperire (abrir) e cassa (invólucro/ranhura). Patenteado no final do século XIX na Inglaterra victoriana para abrir casas de botão em alfaiataria e posteriormente adotado mundialmente no bordado para limpeza e desmanche cirúrgico.",
@@ -707,7 +707,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-010-autodigitizacao",
     "code": "A-010",
-    "term": "Autodigitização (Auto-Digitizing)",
+    "term": "Autodigitização",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo feminino.",
     "origin": "Do grego autos (por si mesmo) e do inglês digitize (converter informação analógica em código binário). Desenvolvida a partir de algoritmos de reconhecimento de padrões vetoriais na década de 1990.",
@@ -783,7 +783,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-011-alimentador-de-linha",
     "code": "A-011",
-    "term": "Alimentador de Linha / Tensionador (Thread Feeder)",
+    "term": "Alimentador de Linha",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo masculino.",
     "origin": "Do latim alimentare (nutrir, fornecer) e linum (fio de linho). Sistema eletromecânico e físico patenteado para regular a vazão de fio em alta rotação nas tecelagens e bordadeiras industriais suíças e japonesas.",
@@ -860,7 +860,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-012-acabamento-de-bordado",
     "code": "A-012",
-    "term": "Acabamento & Limpeza de Bordado (Trimming & Finishing)",
+    "term": "Acabamento & Limpeza de Bordado",
     "level": "Fundamental 🟢",
     "grammarClass": "Substantivo masculino.",
     "origin": "Do latim ad-caput (levar ao termo, finalizar) e limpidus (tornar puro e limpo). Tradição do corte manual e passadoria herdada das guildas de bordadeiras francesas e suíças dos séculos XVII e XVIII.",
@@ -939,7 +939,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-013-agulha-topstitch-pesponto",
     "code": "A-013",
-    "term": "Agulha de Pesponto / Topstitch (Topstitch Embroidery Needle - 130N / DBx1)",
+    "term": "Agulha de Pesponto / Topstitch",
     "level": "Intermediário 🟡",
     "category": "Agulhas & Fios",
     "grammarClass": "Substantivo feminino composto.",
@@ -1000,7 +1000,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-014-arremate-automatico",
     "code": "A-014",
-    "term": "Arremate Automático (Automatic Tie-off & Tie-in Function)",
+    "term": "Arremate Automático",
     "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
     "grammarClass": "Substantivo masculino composto.",
@@ -1063,7 +1063,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-015-ajuste-de-densidade",
     "code": "A-015",
-    "term": "Ajuste de Densidade (Stitch Density Adjustment / Pitch & Spacing)",
+    "term": "Ajuste de Densidade",
     "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
     "grammarClass": "Substantivo masculino composto.",
@@ -1124,7 +1124,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-016-amortecedor-de-calcador",
     "code": "A-016",
-    "term": "Amortecedor de Calcador / Regulagem de Pressão (Presser Foot Spring & Cushion Adjustment)",
+    "term": "Amortecedor de Calcador / Regulagem de Pressão",
     "level": "Intermediário 🟡",
     "category": "Mecânica & Ajustes",
     "grammarClass": "Substantivo masculino composto.",
@@ -1186,7 +1186,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-017-abertura-de-campo-de-bordado",
     "code": "A-017",
-    "term": "Abertura de Campo de Bordado (Hoop Clearance & Border Margin)",
+    "term": "Abertura de Campo de Bordado",
     "level": "Fundamental 🟢",
     "category": "Operação da Máquina",
     "grammarClass": "Substantivo feminino composto.",
@@ -1249,7 +1249,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-018-anel-de-vedacao-e-retencao-da-bobina",
     "code": "A-018",
-    "term": "Anel de Retenção e Mola da Caixa de Bobina (Bobbin Case Brake Spring & Ring)",
+    "term": "Anel de Retenção e Mola da Caixa de Bobina",
     "level": "Intermediário 🟡",
     "category": "Mecânica & Ajustes",
     "grammarClass": "Substantivo masculino composto.",
@@ -1311,7 +1311,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-019-alinhamento-a-laser-ponteiro-led",
     "code": "A-019",
-    "term": "Alinhamento a Laser / Ponteiro LED (Laser Pointer & LED Crosshair Positioning)",
+    "term": "Alinhamento a Laser / Ponteiro LED",
     "level": "Fundamental 🟢",
     "category": "Operação da Máquina",
     "grammarClass": "Substantivo masculino composto.",
@@ -1373,7 +1373,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-020-arremate-manual-no-software",
     "code": "A-020",
-    "term": "Arremate Manual no Software (Manual Lock Stitch Digitizing)",
+    "term": "Arremate Manual no Software",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
     "grammarClass": "Substantivo masculino composto.",
@@ -1435,7 +1435,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-021-analise-de-matriz-previa",
     "code": "A-021",
-    "term": "Análise Prévia da Matriz (Pre-Sewing Design Inspection & Stitch Audit)",
+    "term": "Análise Prévia da Matriz",
     "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
     "grammarClass": "Substantivo feminino composto.",
@@ -1497,7 +1497,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-022-agulha-dupla-de-bordado",
     "code": "A-022",
-    "term": "Agulha Dupla de Bordado (Twin Embroidery Needle - 130/705 H-ZWI-BR)",
+    "term": "Agulha Dupla de Bordado",
     "level": "Avançado 🔴",
     "category": "Agulhas & Fios",
     "grammarClass": "Substantivo feminino composto.",
@@ -1558,7 +1558,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-023-autotracado-de-vetores-bitmap",
     "code": "A-023",
-    "term": "Autotraçado de Vetores / Conversão Bitmap (Bitmap Vector Tracing in Digitizing)",
+    "term": "Autotraçado de Vetores / Conversão Bitmap",
     "level": "Intermediário 🟡",
     "category": "Programação de Bordado",
     "grammarClass": "Substantivo masculino composto.",
@@ -1620,7 +1620,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-024-ajuste-de-ponto-de-entrada-e-saida",
     "code": "A-024",
-    "term": "Ajuste de Ponto de Entrada e Saída (Entry & Exit Points Optimization)",
+    "term": "Ajuste de Ponto de Entrada e Saída",
     "level": "Intermediário 🟡",
     "category": "Programação de Bordado",
     "grammarClass": "Substantivo masculino composto.",
@@ -1682,7 +1682,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-025-aquecimento-da-agulha",
     "code": "A-025",
-    "term": "Aquecimento da Agulha em Alta Rotação (Needle Thermal Friction & Heat Buildup)",
+    "term": "Aquecimento da Agulha em Alta Rotação",
     "level": "Avançado 🔴",
     "category": "Mecânica & Ajustes",
     "grammarClass": "Substantivo masculino composto.",
@@ -1744,7 +1744,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-026-angulo-do-ponto",
     "code": "A-026",
-    "term": "Ângulo do Ponto (Stitch Angle / Stitch Direction Lines)",
+    "term": "Ângulo do Ponto",
     "level": "Intermediário 🟡",
     "category": "Programação de Bordado",
     "grammarClass": "Substantivo masculino composto.",
@@ -1807,7 +1807,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-027-agulha-para-couro-ponta-cortante",
     "code": "A-027",
-    "term": "Agulha para Couro e Sintéticos / Ponta Cortante (Leather Needle - 130/705 H-LL / DBx1-LL)",
+    "term": "Agulha para Couro e Sintéticos / Ponta Cortante",
     "level": "Intermediário 🟡",
     "category": "Agulhas & Fios",
     "grammarClass": "Substantivo feminino composto.",
@@ -1868,7 +1868,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-028-ajuste-de-posicionamento-do-bastidor",
     "code": "A-028",
-    "term": "Ajuste de Posicionamento do Bastidor / Offset (Hoop Offset & Frame Origin Shifting)",
+    "term": "Ajuste de Posicionamento do Bastidor / Offset",
     "level": "Fundamental 🟢",
     "category": "Operação da Máquina",
     "grammarClass": "Substantivo masculino composto.",
@@ -1930,7 +1930,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-029-alavanca-puxa-fio-take-up-lever",
     "code": "A-029",
-    "term": "Alavanca Puxa-Fio (Thread Take-Up Lever)",
+    "term": "Alavanca Puxa-Fio",
     "level": "Fundamental 🟢",
     "category": "Mecânica & Ajustes",
     "grammarClass": "Substantivo feminino composto.",
@@ -1992,7 +1992,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-030-auto-compensacao-de-canto-mitered-corner",
     "code": "A-030",
-    "term": "Autocompensação de Canto e Esquadro / Canto Mitrado (Auto-Cornering & Mitered Corner)",
+    "term": "Autocompensação de Canto e Esquadro / Canto Mitrado",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
     "grammarClass": "Substantivo feminino composto.",
@@ -2054,7 +2054,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-031-ajuste-de-folga-da-chapa-de-agulha",
     "code": "A-031",
-    "term": "Ajuste de Folga da Chapa de Agulha (Needle Plate Hole Clearance & Throat Plate)",
+    "term": "Ajuste de Folga da Chapa de Agulha",
     "level": "Avançado 🔴",
     "category": "Mecânica & Ajustes",
     "grammarClass": "Substantivo masculino composto.",
@@ -2115,7 +2115,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-032-angulo-de-inclinacao-do-calcador",
     "code": "A-032",
-    "term": "Ângulo de Inclinação do Calcador (Presser Foot Alignment & Angle Timing)",
+    "term": "Ângulo de Inclinação do Calcador",
     "level": "Avançado 🔴",
     "category": "Mecânica & Ajustes",
     "grammarClass": "Substantivo masculino composto.",
@@ -2176,7 +2176,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-033-ajuste-de-comprimento-de-ponto",
     "code": "A-033",
-    "term": "Ajuste de Comprimento de Ponto (Stitch Length Regulation / Minimum & Maximum Stitch)",
+    "term": "Ajuste de Comprimento de Ponto",
     "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
     "grammarClass": "Substantivo masculino composto.",
@@ -2237,7 +2237,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-034-agulha-para-malha-jersey-stretch",
     "code": "A-034",
-    "term": "Agulha para Malha e Tecidos Elásticos (Jersey / Stretch Ball Point Needle - 130/705 H-S / H-SUK)",
+    "term": "Agulha para Malha e Tecidos Elásticos",
     "level": "Fundamental 🟢",
     "category": "Agulhas & Fios",
     "grammarClass": "Substantivo feminino composto.",
@@ -2299,7 +2299,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-035-autodeteccao-de-fim-de-linha-bobina",
     "code": "A-035",
-    "term": "Autodetecção de Fim de Linha e Bobina (Thread Break & Low Bobbin Sensor System)",
+    "term": "Autodetecção de Fim de Linha e Bobina",
     "level": "Fundamental 🟢",
     "category": "Operação da Máquina",
     "grammarClass": "Substantivo feminino composto.",
@@ -2361,7 +2361,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-036-arquivo-de-bordado",
     "code": "A-036",
-    "term": "Arquivo de Bordado (Embroidery Design File / Machine Format)",
+    "term": "Arquivo de Bordado",
     "level": "Fundamental 🟢",
     "category": "Formatos & Arquivos",
     "grammarClass": "Substantivo masculino composto.",
@@ -2425,7 +2425,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-037-area-de-bordado",
     "code": "A-037",
-    "term": "Área de Bordado (Sewing Field / Embroidery Area / Maximum Stitching Range)",
+    "term": "Área de Bordado",
     "level": "Fundamental 🟢",
     "category": "Operação da Máquina",
     "grammarClass": "Substantivo feminino composto.",
@@ -2487,7 +2487,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-038-ajuste-de-folga-da-lancadeira",
     "code": "A-038",
-    "term": "Ajuste de Ponto e Folga da Lançadeira / Tempo de Lançadeira (Hook Timing & Clearance Adjustment)",
+    "term": "Ajuste de Folga e Sincronismo da Lançadeira",
     "level": "Avançado 🔴",
     "category": "Mecânica & Ajustes",
     "grammarClass": "Substantivo masculino composto.",
@@ -2550,7 +2550,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-039-alinhamento-de-matrizes",
     "code": "A-039",
-    "term": "Alinhamento de Matrizes (Design Alignment / Registration & Positioning)",
+    "term": "Alinhamento de Matrizes",
     "level": "Fundamental 🟢",
     "category": "Operação da Máquina",
     "grammarClass": "Substantivo masculino composto.",
@@ -2612,7 +2612,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-040-adaptador-de-bastidor-de-bones",
     "code": "A-040",
-    "term": "Adaptador de Bastidor de Bonés / Dispositivo Cap Driver (Cap Frame & Cap Driver System)",
+    "term": "Adaptador de Bastidor de Bonés",
     "level": "Avançado 🔴",
     "category": "Bastidores & Fixação",
     "grammarClass": "Substantivo masculino composto.",
@@ -2674,7 +2674,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-041-alinhamento-de-agulha-em-maquinas-multiagulhas",
     "code": "A-041",
-    "term": "Alinhamento e Compensação de Agulhas Multiagulhas (Multi-Needle Head Alignment & Color Offset)",
+    "term": "Alinhamento e Compensação de Agulhas Multiagulhas",
     "level": "Avançado 🔴",
     "category": "Operação da Máquina",
     "grammarClass": "Substantivo masculino composto.",
@@ -2736,7 +2736,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-042-ajuste-de-ponto-decorativo-motif",
     "code": "A-042",
-    "term": "Ajuste de Ponto Decorativo e Ponto Motif (Motif Stitch & Decorative Run Programming)",
+    "term": "Ajuste de Ponto Decorativo e Ponto Motif",
     "level": "Intermediário 🟡",
     "category": "Programação de Bordado",
     "grammarClass": "Substantivo masculino composto.",
@@ -2888,7 +2888,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-044-amortecedor-de-linha-mola-puxa-fio",
     "code": "A-044",
-    "term": "Amortecedor de Linha (Mola Puxa-Fio / Check Spring)",
+    "term": "Amortecedor de Linha",
     "level": "Intermediário 🟡",
     "category": "Componentes da Máquina",
     "grammarClass": "Substantivo masculino composto.",
@@ -2975,7 +2975,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-045-agulha-asa-wing-needle",
     "code": "A-045",
-    "term": "Agulha Asa (Wing Needle / Agulha de Bainha)",
+    "term": "Agulha Asa",
     "level": "Avançado 🔴",
     "category": "Agulhas & Fios",
     "grammarClass": "Substantivo feminino composto.",
@@ -3064,7 +3064,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-046-auto-espacamento-de-pontos",
     "code": "A-046",
-    "term": "Auto-Espaçamento de Pontos (Auto-Spacing / Density Compensation)",
+    "term": "Auto-Espaçamento de Pontos",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
     "grammarClass": "Substantivo masculino composto.",
@@ -3238,7 +3238,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-048-adesivo-temporario-em-spray",
     "code": "A-048",
-    "term": "Adesivo Temporário em Spray (Cola Temporária 505 / Spray Adhesive)",
+    "term": "Adesivo Temporário em Spray",
     "level": "Fundamental 🟢",
     "category": "Estabilizadores & Entretelas",
     "grammarClass": "Substantivo masculino composto.",
@@ -3325,7 +3325,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-049-arremate-de-entrada-e-arremate-de-saida",
     "code": "A-049",
-    "term": "Arremate de Entrada e Arremate de Saída (Tie-in & Tie-off)",
+    "term": "Arremate de Entrada e Arremate de Saída",
     "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
     "grammarClass": "Substantivo masculino composto.",
@@ -3412,7 +3412,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-050-alavanca-do-calcador",
     "code": "A-050",
-    "term": "Alavanca do Calcador (Presser Foot Lifter Lever)",
+    "term": "Alavanca do Calcador",
     "level": "Fundamental 🟢",
     "category": "Componentes da Máquina",
     "grammarClass": "Substantivo feminino composto.",
@@ -3472,7 +3472,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-051-alinhave-no-bastidor-costura-basting",
     "code": "A-051",
-    "term": "Alinhave no Bastidor / Costura de Basting (Basting Stitch in the Hoop)",
+    "term": "Alinhavo no Bastidor",
     "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
     "grammarClass": "Substantivo masculino composto.",
@@ -3532,7 +3532,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-052-agulha-titanio-nitreto-de-titanio",
     "code": "A-052",
-    "term": "Agulha de Titânio / Nitreto de Titânio (Titanium Embroidery Needle - HAX130EBBR / DBxK5-PD)",
+    "term": "Agulha de Titânio",
     "level": "Intermediário 🟡",
     "category": "Agulhas & Fios",
     "grammarClass": "Substantivo feminino composto.",
@@ -3593,7 +3593,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-053-agulha-antiaderente-anti-glue",
     "code": "A-053",
-    "term": "Agulha Antiaderente / Agulha Anti-Glue (Non-Stick & Super Universal Needle)",
+    "term": "Agulha Antiaderente",
     "level": "Intermediário 🟡",
     "category": "Agulhas & Fios",
     "grammarClass": "Substantivo feminino composto.",
@@ -3655,7 +3655,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-054-agulha-microtex-ponta-aguda",
     "code": "A-054",
-    "term": "Agulha Microtex / Ponta Aguda Aguçada (Microtex / Sharp Needle - 130/705 H-M / DBx7ST)",
+    "term": "Agulha Microtex",
     "level": "Intermediário 🟡",
     "category": "Agulhas & Fios",
     "grammarClass": "Substantivo feminino composto.",
@@ -3717,7 +3717,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-055-agulha-de-ilhos-furadora-borer",
     "code": "A-055",
-    "term": "Agulha de Ilhós / Agulha Furadora (Eyelet & Piercing Needle / Borer Device)",
+    "term": "Agulha de Ilhós",
     "level": "Avançado 🔴",
     "category": "Agulhas & Fios",
     "grammarClass": "Substantivo feminino composto.",
@@ -3778,7 +3778,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-056-aro-do-bastidor-anel-interno-e-externo",
     "code": "A-056",
-    "term": "Aro do Bastidor / Anel Interno e Externo (Hoop Rings - Outer & Inner Frame)",
+    "term": "Aro do Bastidor",
     "level": "Fundamental 🟢",
     "category": "Bastidores & Fixação",
     "grammarClass": "Substantivo masculino composto.",
@@ -3840,7 +3840,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-057-armazenamento-de-fios-e-cones",
     "code": "A-057",
-    "term": "Armazenamento de Fios e Cones (Thread Storage & Environmental Preservation)",
+    "term": "Armazenamento de Fios e Cones",
     "level": "Fundamental 🟢",
     "category": "Agulhas & Fios",
     "grammarClass": "Substantivo masculino composto.",
@@ -3902,7 +3902,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-058-atalho-de-teclado-no-software",
     "code": "A-058",
-    "term": "Atalho de Teclado no Software de Bordado (Keyboard Shortcuts in Digitizing Software)",
+    "term": "Atalho de Teclado no Software de Bordado",
     "level": "Intermediário 🟡",
     "category": "Programação de Bordado",
     "grammarClass": "Substantivo masculino composto.",
@@ -3964,7 +3964,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-059-amaciamento-de-bordado-no-avesso-protetor",
     "code": "A-059",
-    "term": "Amaciamento de Bordado no Avesso / Protetor de Bordado (Iron-On Backing Cover / Cloud Cover)",
+    "term": "Amaciamento de Bordado no Avesso",
     "level": "Fundamental 🟢",
     "category": "Acabamento & Manutenção",
     "grammarClass": "Substantivo masculino composto.",
@@ -4026,7 +4026,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-060-aplicacao-com-corte-a-laser",
     "code": "A-060",
-    "term": "Aplicação com Corte a Laser / Laser Appliqué (Laser-Cut Appliqué & Bridge System)",
+    "term": "Aplicação com Corte a Laser",
     "level": "Avançado 🔴",
     "category": "Técnicas Especiais",
     "grammarClass": "Substantivo feminino composto.",
@@ -4088,7 +4088,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-061-ajuste-de-salto-e-velocidade-maxima",
     "code": "A-061",
-    "term": "Ajuste de Salto e Velocidade Máxima (Jump Stitch Timing & Speed Limiter)",
+    "term": "Ajuste de Salto e Velocidade Máxima",
     "level": "Avançado 🔴",
     "category": "Mecânica & Ajustes",
     "grammarClass": "Substantivo masculino composto.",
@@ -4150,7 +4150,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-062-agulha-lanca-asa-wing-needle",
     "code": "A-062",
-    "term": "Agulha Lança / Agulha Asa (Wing Needle & Hemstitch Needle)",
+    "term": "Agulha Asa",
     "pronunciation": "a-gu-lha lan-ca / a-gu-lha a-sa",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo feminino composto.",
@@ -4214,7 +4214,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-063-agulha-titanio-pd-titanium-needle",
     "code": "A-063",
-    "term": "Agulha de Titânio / Revestimento PD (Titanium Nitride Coated Needle)",
+    "term": "Agulha de Titânio com Revestimento PD",
     "pronunciation": "a-gu-lha de ti-ta-ni-o / re-ves-ti-men-to pe-de",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo feminino composto.",
@@ -4276,7 +4276,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-064-alongamento-de-ponto-stitch-elongation",
     "code": "A-064",
-    "term": "Alongamento de Ponto (Stitch Elongation & Pitch Calibration)",
+    "term": "Alongamento de Ponto",
     "pronunciation": "a-lon-ga-men-to de pon-to",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo masculino composto.",
@@ -4339,7 +4339,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-065-auto-spaced-satin-espacamento-automatico",
     "code": "A-065",
-    "term": "Auto-Spaced Satin (Satim com Espaçamento Automático em Curvas)",
+    "term": "Auto-Spaced Satin",
     "pronunciation": "au-to es-pei-st sa-tin",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo masculino composto.",
@@ -4402,7 +4402,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-066-alavanca-do-calcador-presser-foot-lifter",
     "code": "A-066",
-    "term": "Alavanca do Calcador e Sensor de Altura (Presser Foot Lifter & Safety Sensor)",
+    "term": "Alavanca do Calcador com Sensor de Altura",
     "pronunciation": "a-la-van-ca do cal-ca-dor",
     "level": "Fundamental 🟢",
     "grammarClass": "Substantivo feminino composto.",
@@ -4465,7 +4465,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-067-alinhavo-de-fixacao",
     "code": "A-067",
-    "term": "Alinhavo de Fixação (Basting Stitch / Ponto de Grade Perimetral)",
+    "term": "Alinhavo de Fixação",
     "level": "Iniciante 🟢",
     "grammarClass": "Substantivo masculino composto.",
     "category": "Técnicas de Bastidor",
@@ -4531,7 +4531,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-068-abrasao-de-linha",
     "code": "A-068",
-    "term": "Abrasão de Linha (Friction Wear / Desgaste Mecânico do Fio)",
+    "term": "Abrasão de Linha",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo feminino.",
     "category": "Agulhas & Fios",
@@ -4596,7 +4596,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-069-agulha-titanio",
     "code": "A-069",
-    "term": "Agulha Titânio / Nitreto de Titânio (Titanium Needle - H-ET)",
+    "term": "Agulha Titânio / Nitreto de Titânio",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo feminino composto.",
     "category": "Agulhas & Fios",
@@ -4660,7 +4660,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-070-amortecedor-de-linha",
     "code": "A-070",
-    "term": "Amortecedor de Linha / Mola de Compensação (Check Spring / Take-up Spring)",
+    "term": "Amortecedor de Linha",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo masculino composto.",
     "category": "Componentes da Máquina",
@@ -4725,7 +4725,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-071-assentamento-de-ponto",
     "code": "A-071",
-    "term": "Assentamento de Ponto (Underlay Foundation / Estruturação Prévia)",
+    "term": "Assentamento de Ponto",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo masculino composto.",
     "category": "Programação de Bordado",
@@ -4790,7 +4790,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-072-ajuste-de-altura-do-calcador-tecidos-espessos",
     "code": "A-072",
-    "term": "Ajuste de Altura do Calcador para Tecidos Espessos (Presser Foot Height Clearance & Thickness Adjustment)",
+    "term": "Ajuste de Altura do Calcador para Tecidos Espessos",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo masculino composto.",
     "category": "Equipamentos e Máquinas",
@@ -4857,7 +4857,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-073-arranjo-circular-e-espelhamento-radial",
     "code": "A-073",
-    "term": "Arranjo Circular e Espelhamento Radial no Software (Circular & Radial Array in Digitizing)",
+    "term": "Arranjo Circular e Espelhamento Radial no Software",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo masculino composto.",
     "category": "Programação de Bordado",
@@ -4923,7 +4923,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-074-abastecimento-automatico-de-bobina-enchedor",
     "code": "A-074",
-    "term": "Abastecimento Automático de Bobina e Enchedor Integrado (Built-in Bobbin Winder & Independent Winding Motor)",
+    "term": "Abastecimento Automático de Bobina e Enchedor Integrado",
     "level": "Iniciante 🟢",
     "grammarClass": "Substantivo masculino composto.",
     "category": "Equipamentos e Máquinas",
@@ -4990,7 +4990,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   {
     "id": "a-075-angulo-de-chanfro-da-agulha",
     "code": "A-075",
-    "term": "Ângulo de Chanfro da Agulha (Needle Scarf Angle & Clearance)",
+    "term": "Ângulo de Chanfro da Agulha",
     "level": "Intermediário 🟡",
     "grammarClass": "Locução nominal formada por substantivo masculino, preposição e substantivo.",
     "origin": "Do latim angulus (canto/esquina), do francês antigo escharpe (corte em bisel) e do latim vulgar acucula (agulha). Criado na transição para máquinas de alta rotação para acomodar a ponta da lançadeira rotativa.",
@@ -5061,7 +5061,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
     "id": "a-076-arame-guia-fio-de-espiral-dupla",
     "code": "A-076",
     "letter": "A",
-    "term": "Arame Guia-Fio de Espiral Dupla (Pigtail Thread Guide Wire)",
+    "term": "Arame Guia-Fio de Espiral Dupla",
     "level": "Intermediário 🟡",
     "grammarClass": "Locução nominal técnica composta por substantivos masculinos e femininos e adjetivos relacionais.",
     "origin": "Do inglês pigtail thread guide (guia rabo de porco) e do latim spira (curva helicoidal). Componente desenvolvido na engenharia têxtil para condução de alta velocidade sem atrito estático.",
@@ -5135,7 +5135,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
 {
   "id": "a-atoalhado-tecidos-felpudos-toalhas",
   "code": "A-000",
-  "term": "Atoalhado no Bordado Eletrônico (Tecidos Felpudos & Toalhas)",
+  "term": "Atoalhado no Bordado Eletrônico",
   "letter": "A",
   "level": "Iniciante 🟢 a Intermediário 🟡",
   "category": "Tecidos & Estabilização",
@@ -5242,7 +5242,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
 {
   "id": "a-agulha-cabo-redondo-vs-cabo-chato-dbxk5-130-705h",
   "code": "A-000",
-  "term": "Agulha de Cabo Redondo vs. Cabo Chato (Sistemas DBxK5 vs. 130/705 H)",
+  "term": "Agulha de Cabo Redondo vs. Cabo Chato",
   "letter": "A",
   "level": "Intermediário 🟡 a Avançado 🔴",
   "category": "Agulhas & Mecânica",
@@ -5347,7 +5347,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
 {
   "id": "a-acolchoamento-trapunto-eletronico-quilting-bastidor",
   "code": "A-000",
-  "term": "Acolchoamento / Trapunto Eletrônico (Trapunto & Quilting no Bastidor)",
+  "term": "Acolchoamento e Trapunto Eletrônico",
   "letter": "A",
   "level": "Intermediário 🟡 a Avançado 🔴",
   "category": "Técnicas Especiais & Relevo",
@@ -5455,7 +5455,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
 {
   "id": "a-aplicacao-com-termocolante-definitivo-patch-aplique",
   "code": "A-000",
-  "term": "Aplicação com Termocolante Definitivo (Patch Apliquê Termofixável)",
+  "term": "Aplicação com Termocolante Definitivo",
   "letter": "A",
   "level": "Iniciante 🟢 a Intermediário 🟡",
   "category": "Insumos & Colas / Técnicas de Aplicação",
@@ -5560,7 +5560,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
 {
   "id": "a-ajuste-de-desaceleracao-em-curvas-cornering-slowdown",
   "code": "A-000",
-  "term": "Ajuste de Desaceleração em Curvas (Cornering Slowdown / Redução de Velocidade em Vértices)",
+  "term": "Ajuste de Desaceleração em Curvas",
   "letter": "A",
   "level": "Intermediário 🟡 a Avançado 🔴",
   "category": "Software & Parâmetros / Mecânica & Eletrônica",
@@ -5872,7 +5872,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
 {
   "id": "a-avental-no-bastidor-computadorizado-peitilho-pantografo",
   "code": "A-000",
-  "term": "Avental no Bastidor Computadorizado (Técnicas de Peitilho e Sustentação do Pantógrafo)",
+  "term": "Avental no Bastidor Computadorizado",
   "letter": "A",
   "level": "Iniciante 🟢 a Intermediário 🟡",
   "category": "Técnicas de Enquadramento & Montagem no Bastidor",
@@ -6186,7 +6186,7 @@ export const VERBETES_LETTER_A: Verbete[] = [
   "id": "a-almofadas-e-capas-decorativas-quilting",
   "code": "A-108",
   "letter": "A",
-  "term": "Almofadas e Capas Decorativas (Bordados Botânicos, Frases & Quilting Geométrico)",
+  "term": "Almofadas e Capas Decorativas",
   "pronunciation": "al-mo-fa-das e ca-pas de-co-ra-ti-vas (awmuˈfadɐz i ˈkapɐz dekoɾaˈtʃivɐz)",
   "level": "Intermediário 🟡",
   "category": "Tipos de Tecidos",

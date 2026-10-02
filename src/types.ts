@@ -34,6 +34,7 @@ export interface Verbete {
   dynamicCode?: string;
   originalCode?: string;
   term: string;
+  englishTerm?: string;
   letter?: string;
   level?: string;
   category: VerbeteCategory;

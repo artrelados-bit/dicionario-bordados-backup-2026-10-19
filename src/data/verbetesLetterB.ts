@@ -171,7 +171,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-003-bastidor-de-bone",
     "code": "B-003",
-    "term": "Bastidor de Boné (Cap Hoop / Cap Frame)",
+    "term": "Bastidor de Boné",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo masculino.",
     "origin": "Do provençal bastidor e do francês bonnet (cobertura de cabeça). Criado nos anos 1980 com o desenvolvimento do acionador rotativo semicircular (Cap Driver) para máquinas de bordar industriais.",
@@ -502,7 +502,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-007-bobbin-case",
     "code": "B-007",
-    "term": "Bobbin Case (Caixa de Bobina)",
+    "term": "Caixa de Bobina",
     "level": "Fundamental 🟢",
     "grammarClass": "Substantivo feminino.",
     "origin": "Do inglês bobbin case e do latim capsa (cápsula/estojo de alojamento). Componente de micromecânica de alta precisão presente nas máquinas de costura e bordado desde o século XIX.",
@@ -587,7 +587,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-008-backing",
     "code": "B-008",
-    "term": "Backing (Estabilizador / Entretela de Base)",
+    "term": "Backing",
     "level": "Fundamental 🟢",
     "grammarClass": "Substantivo masculino (estrangeirismo / termo técnico em inglês).",
     "origin": "Do inglês backing (suporte posterior / reforço de fundo). Termo universal consolidado pela indústria têxtil internacional para definir a entretela de suporte traseiro.",
@@ -1078,7 +1078,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-014-base-de-pontos-underlay",
     "code": "B-014",
-    "term": "Base de Pontos (Underlay)",
+    "term": "Base de Pontos",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo feminino.",
     "origin": "Do inglês 'under' (por baixo) e 'lay' (camada assentada), indicando a fundação estrutural dos pontos.",
@@ -1488,7 +1488,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-019-bobbin-thread",
     "code": "B-019",
-    "term": "Bobbin Thread (Linha da Bobina)",
+    "term": "Linha da Bobina",
     "level": "Fundamental 🟢",
     "grammarClass": "Substantivo feminino.",
     "origin": "Do inglês 'bobbin' (carretel inferior de máquina) e 'thread' (linha de costura/fio contínuo).",
@@ -1651,7 +1651,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-021-bordado-em-3d-puff",
     "code": "B-021",
-    "term": "Bordado em 3D (Alto Relevo / E.V.A.)",
+    "term": "Bordado em Alto Relevo 3D com EVA",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo masculino.",
     "origin": "Do inglês '3D Puff Embroidery' (bordado inflado/relevado tridimensional) com uso de placa de E.V.A. (etil-vinil-acetato).",
@@ -1734,7 +1734,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-022-bordado-applique",
     "code": "B-022",
-    "term": "Bordado Appliqué (Aplicação)",
+    "term": "Bordado com Aplicação",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo masculino.",
     "origin": "Do francês 'appliquer' (fixar ou sobrepor um elemento sobre uma superfície têxtil de base).",
@@ -1981,7 +1981,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-025-bordado-de-preenchimento-fill-stitch",
     "code": "B-025",
-    "term": "Bordado de Preenchimento (Fill Stitch / Tatami)",
+    "term": "Bordado de Preenchimento",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo masculino.",
     "origin": "Do inglês 'fill' (preencher) e do japonês 'tatami' (esteira de palha trançada com fios cruzados e alternados).",
@@ -3399,7 +3399,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-042-bordado-fringe-ponto-franja",
     "code": "B-042",
-    "term": "Bordado Fringe / Ponto Franja",
+    "term": "Bordado com Ponto Franja",
     "level": "Intermediário 🟡",
     "category": "Pontos Básicos & Decorativos",
     "grammarClass": "Locução substantiva masculina (substantivo + estrangeirismo / substantivo + substantivo).",
@@ -3582,7 +3582,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-044-bastidor-meia-tubular",
     "code": "B-044",
-    "term": "Bastidor de Meia / Tubulares (Sock & Sleeve Hoop)",
+    "term": "Bastidor de Meia e Tubulares",
     "level": "Intermediário 🟡",
     "category": "Técnicas de Bastidor",
     "grammarClass": "Substantivo masculino composto.",
@@ -3641,7 +3641,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-045-borda-acabamento-satin",
     "code": "B-045",
-    "term": "Borda de Acabamento (Satin Border / Merrow Border)",
+    "term": "Borda de Acabamento",
     "level": "Fundamental 🟢",
     "category": "Pontos Básicos & Decorativos",
     "grammarClass": "Substantivo feminino composto.",
@@ -3700,7 +3700,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-046-borda-cordone",
     "code": "B-046",
-    "term": "Borda Cordonê (Cord Embroidery / Cording)",
+    "term": "Borda Cordonê",
     "level": "Avançado 🔴",
     "category": "Terminologia Geral",
     "grammarClass": "Substantivo feminino composto.",
@@ -3759,7 +3759,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-047-bordado-richelieu-eletronico",
     "code": "B-047",
-    "term": "Bordado Richelieu Eletrônico (Machine Richelieu / Eyelet)",
+    "term": "Bordado Richelieu Eletrônico",
     "level": "Avançado 🔴",
     "category": "Pontos Básicos & Decorativos",
     "grammarClass": "Substantivo masculino composto.",
@@ -3818,7 +3818,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-048-bloqueio-bastidor-mecanico",
     "code": "B-048",
-    "term": "Bloqueio de Bastidor / Travamento Mecânico (Hoop Locking Mechanism)",
+    "term": "Bloqueio de Bastidor",
     "level": "Iniciante 🟢",
     "category": "Técnicas de Bastidor",
     "grammarClass": "Substantivo masculino composto.",
@@ -3877,7 +3877,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-049-bobinadeira-externa",
     "code": "B-049",
-    "term": "Bobinadeira Externa (Independent Bobbin Winder)",
+    "term": "Bobinadeira Externa",
     "level": "Iniciante 🟢",
     "category": "Componentes da Máquina",
     "grammarClass": "Substantivo feminino composto.",
@@ -3936,7 +3936,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-050-bordado-couro-sinteticos",
     "code": "B-050",
-    "term": "Bordado em Couro e Sintéticos (Leather & Vinyl Embroidery)",
+    "term": "Bordado em Couro e Sintéticos",
     "level": "Avançado 🔴",
     "category": "Tipos de Tecidos",
     "grammarClass": "Substantivo masculino composto.",
@@ -3996,7 +3996,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-051-barra-tensao-fios",
     "code": "B-051",
-    "term": "Barra de Tensão dos Fios (Thread Tension Guide Bar)",
+    "term": "Barra de Tensão dos Fios",
     "level": "Fundamental 🟢",
     "category": "Componentes da Máquina",
     "grammarClass": "Substantivo feminino composto.",
@@ -4055,7 +4055,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-052-basting-box-caixa-de-alinhavo",
     "code": "B-052",
-    "term": "Basting Box / Caixa de Alinhavo Perimétrico (Perimeter Basting & Fixation Box)",
+    "term": "Caixa de Alinhavo Perimétrico",
     "level": "Fundamental 🟢",
     "category": "Bastidores & Fixação",
     "grammarClass": "Substantivo feminino composto.",
@@ -4119,7 +4119,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-053-barra-de-pressao-e-regulador-do-calcador",
     "code": "B-053",
-    "term": "Barra de Pressão e Regulador do Calcador (Presser Foot Pressure Dial & Bar)",
+    "term": "Barra de Pressão do Calcador",
     "level": "Intermediário 🟡",
     "category": "Mecânica & Ajustes",
     "grammarClass": "Substantivo feminino composto.",
@@ -4182,7 +4182,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-054-base-de-cones-e-porta-carretel-vertical",
     "code": "B-054",
-    "term": "Base de Cones e Porta-Carretel Vertical (Thread Stand & Cone Spool Holder)",
+    "term": "Base de Cones e Porta-Carretel",
     "level": "Fundamental 🟢",
     "category": "Acessórios & Organização",
     "grammarClass": "Substantivo feminino composto.",
@@ -4244,7 +4244,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-055-bobina-com-nucleo-magnetico-magna-glide",
     "code": "B-055",
-    "term": "Bobina com Núcleo Magnético (Magnetic Core Bobbins - Magna-Glide)",
+    "term": "Bobina com Núcleo Magnético",
     "level": "Intermediário 🟡",
     "category": "Agulhas & Fios",
     "grammarClass": "Substantivo feminino composto.",
@@ -4307,7 +4307,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-056-branching-ramificacao-automatica-no-software",
     "code": "B-056",
-    "term": "Branching / Ramificação Automática no Software (Auto-Branching Algorithm)",
+    "term": "Ramificação Automática de Matriz",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
     "grammarClass": "Substantivo masculino composto.",
@@ -4370,7 +4370,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-057-bloco-tensor-e-discos-de-tensao-superiores",
     "code": "B-057",
-    "term": "Bloco Tensor e Discos de Tensão Superiores (Upper Thread Tension Discs & Assembly)",
+    "term": "Bloco Tensor Superior",
     "level": "Fundamental 🟢",
     "category": "Mecânica & Ajustes",
     "grammarClass": "Substantivo masculino composto.",
@@ -4433,7 +4433,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-058-bastidor-de-bolso-e-grampos-de-fixacao-rapida",
     "code": "B-058",
-    "term": "Bastidor de Bolso e Grampos de Fixação Rápida (Pocket Clamp Hoop & Fast Frames)",
+    "term": "Bastidor de Bolso e Fixação Rápida",
     "level": "Intermediário 🟡",
     "category": "Bastidores & Fixação",
     "grammarClass": "Substantivo masculino composto.",
@@ -4497,7 +4497,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-059-bordado-em-alto-relevo-3d-puff-eva",
     "code": "B-059",
-    "term": "Bordado em Alto Relevo com EVA / 3D Puff (3D Foam Embroidery Technique)",
+    "term": "Bordado em Alto Relevo com EVA",
     "level": "Avançado 🔴",
     "category": "Técnicas Especiais",
     "grammarClass": "Substantivo masculino composto.",
@@ -4560,7 +4560,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-060-blower-soprador-termico-de-acabamento",
     "code": "B-060",
-    "term": "Blower / Soprador Térmico e Pistola de Ar Quente (Heat Gun for 3D Foam & Topping Cleanup)",
+    "term": "Soprador Térmico para Acabamento",
     "level": "Fundamental 🟢",
     "category": "Acabamento & Manutenção",
     "grammarClass": "Substantivo masculino composto.",
@@ -4622,7 +4622,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-061-botao-start-stop-e-controle-de-pedal",
     "code": "B-061",
-    "term": "Botão Start/Stop e Operação Sem Pedal (Start/Stop Button & Hands-Free Operation)",
+    "term": "Botão Start e Stop",
     "level": "Fundamental 🟢",
     "category": "Operação da Máquina",
     "grammarClass": "Substantivo masculino composto.",
@@ -4687,7 +4687,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-062-bastidor-de-bone-cap-frame-270",
     "code": "B-062",
-    "term": "Bastidor de Boné / Moldura Tubular 270° (Cap Frame & Wide Angle Driver)",
+    "term": "Bastidor de Boné 270°",
     "pronunciation": "bas-ti-dor de bo-ne",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo masculino composto.",
@@ -4751,7 +4751,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-063-barra-de-agulha-needle-bar",
     "code": "B-063",
-    "term": "Barra de Agulha e Parafuso de Fixação (Needle Bar & Needle Clamp)",
+    "term": "Barra de Agulha",
     "pronunciation": "bar-ra de a-gu-lha",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo feminino composto.",
@@ -4815,7 +4815,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-064-bico-da-lancadeira-hook-point",
     "code": "B-064",
-    "term": "Bico da Lançadeira / Ponta do Gancho (Rotary Hook Point & Hook Tip)",
+    "term": "Bico da Lançadeira",
     "pronunciation": "bi-co da lan-ca-dei-ra",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo masculino composto.",
@@ -4879,7 +4879,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-065-bainha-aberta-computadorizada-openwork",
     "code": "B-065",
-    "term": "Bainha Aberta Computadorizada (Machine Openwork & Entre-Deux Heirloom)",
+    "term": "Bainha Aberta Computadorizada",
     "pronunciation": "ba-i-nha a-ber-ta com-pu-ta-do-ri-za-da",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo feminino composto.",
@@ -4942,7 +4942,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
   {
     "id": "b-066-bandeja-de-desbobinamento-porta-cones-thread-stand",
     "code": "B-066",
-    "term": "Bandeja de Desbobinamento / Porta-Cones Externo (Thread Stand & Cone Holder)",
+    "term": "Bandeja de Porta-Cones",
     "pronunciation": "ban-de-ja de des-bo-bi-na-men-to / por-ta co-nes",
     "level": "Fundamental 🟢",
     "grammarClass": "Substantivo feminino composto.",
@@ -5114,7 +5114,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
 {
   "id": "b-bordado-tradicional-direto-bordado-plano",
   "code": "B-000",
-  "term": "Bordado Tradicional Direto / Bordado Plano (Direct Flat Embroidery)",
+  "term": "Bordado Tradicional Plano",
   "letter": "B",
   "level": "Iniciante 🟢 a Avançado 🔴",
   "category": "Técnicas Fundamentais de Bordado / Produção Plana",
@@ -5221,7 +5221,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
 {
   "id": "b-bordado-chenille-ponto-musgo-eletronico",
   "code": "B-000",
-  "term": "Bordado Chenille / Ponto Musgo Eletrônico (Chenille & Loop Stitch Embroidery)",
+  "term": "Bordado Chenille",
   "letter": "B",
   "level": "Intermediário 🟡 a Avançado 🔴",
   "category": "Técnicas Especiais & Efeitos Tridimensionais",
@@ -5324,7 +5324,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
 {
   "id": "b-bordado-cutwork-agulhas-corte-eletronico",
   "code": "B-000",
-  "term": "Bordado Cutwork com Agulhas de Corte Eletrônico (Needle Cutwork System & 4-Needle Cutters)",
+  "term": "Bordado Cutwork com Agulhas de Corte",
   "letter": "B",
   "level": "Intermediário 🟡 a Avançado 🔴",
   "category": "Ferramentas Especiais & Dispositivos de Corte",
@@ -5429,7 +5429,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
 {
   "id": "b-bordado-lantejoula-paete-eletronico",
   "code": "B-000",
-  "term": "Bordado com Lantejoula e Paetê Eletrônico (Sequin & Paillette Embroidery Device)",
+  "term": "Bordado com Lantejoula e Paetê",
   "letter": "B",
   "level": "Intermediário 🟡 a Avançado 🔴",
   "category": "Dispositivos Automatizados & Bordado de Moda e Festa",
@@ -5533,7 +5533,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
 {
   "id": "b-bordado-efeito-franja-3d-ponto-fringe",
   "code": "B-000",
-  "term": "Bordado com Efeito Franja 3D / Ponto Fringe (Fringe Embroidery & 3D Thread Loops)",
+  "term": "Bordado com Efeito Franja 3D",
   "letter": "B",
   "level": "Iniciante 🟢 a Intermediário 🟡",
   "category": "Técnicas Especiais & Efeitos Tridimensionais",
@@ -5638,7 +5638,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
 {
   "id": "b-bordado-bobbin-work-avesso-fio-especial-bobina",
   "code": "B-000",
-  "term": "Bordado Bobbin Work / Bordado pelo Avesso com Fio Especial na Bobina (Reverse Bobbin Work)",
+  "term": "Bordado com Fio Especial na Bobina",
   "letter": "B",
   "level": "Intermediário 🟡 a Avançado 🔴",
   "category": "Técnicas Especiais & Manipulação de Fios",
@@ -5743,7 +5743,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
 {
   "id": "b-bordado-cordao-fita-soutache-eletronico",
   "code": "B-000",
-  "term": "Bordado com Cordão, Fita e Soutache Eletrônico (Cording, Taping & Coiling Device)",
+  "term": "Bordado com Cordão, Fita e Soutache",
   "letter": "B",
   "level": "Intermediário 🟡 a Avançado 🔴",
   "category": "Dispositivos Automatizados & Bordado de Moda e Festa",
@@ -5848,7 +5848,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
 {
   "id": "b-bordado-trapunto-eletronico",
   "code": "B-000",
-  "term": "Bordado Trapunto Eletrônico (Trapunto & Raised Quilted Embroidery)",
+  "term": "Bordado Trapunto Eletrônico",
   "letter": "B",
   "level": "Intermediário 🟡",
   "category": "Técnicas Especiais & Efeitos Tridimensionais",
@@ -5953,7 +5953,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
 {
   "id": "b-bordado-fio-condutivo-eletronica-textil-vestivel",
   "code": "B-000",
-  "term": "Bordado com Fio Condutivo e Eletrônica Têxtil Vestível (Conductive Thread & E-Textiles Embroidery)",
+  "term": "Bordado com Fio Condutivo",
   "letter": "B",
   "level": "Avançado 🔴",
   "category": "Inovação Tecnológica, E-Textiles & Bordado Inteligente",
@@ -6058,7 +6058,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
 {
   "id": "b-bordado-ponto-cruz-eletronico",
   "code": "B-000",
-  "term": "Bordado com Ponto Cruz Eletrônico (Machine Cross Stitch & Digital Tapestry)",
+  "term": "Bordado com Ponto Cruz Eletrônico",
   "letter": "B",
   "level": "Iniciante 🟢 a Intermediário 🟡",
   "category": "Técnicas Especiais & Estilos Históricos",
@@ -6163,7 +6163,7 @@ export const VERBETES_LETTER_B: Verbete[] = [
 {
   "id": "b-bordado-efeito-ponto-palito-ajour-eletronico",
   "code": "B-000",
-  "term": "Bordado com Efeito Ponto Palito e Ajour Eletrônico (Hemstitch & Entredeux Machine Embroidery)",
+  "term": "Bordado Ponto Palito e Ajour Eletrônico",
   "letter": "B",
   "letterGroup": "B",
   "level": "Intermediário 🟡 a Avançado 🔴",

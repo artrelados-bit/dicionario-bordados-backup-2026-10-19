@@ -7,9 +7,9 @@ export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
     "category": "Mecánica & Ajustes",
     "grammarClass": "Locución sustantiva femenina.",
     "origin": "Del latín barra, del latín pressio (presión) y del verbo regulare. Mecanismo de control de sujeción vertical en la costura mecánica.",
-    "definition": "Conjunto mecánico formado por la barra cilíndrica vertical que sostiene el prensatelas de bordado, un resorte helicoidal interno de compresión calibrada y un tornillo superior moleteado o perilla de regulación micrométrica, cuya función es graduar con exactitud la fuerza descendente ejercida sobre el tejido durante la penetración y el ascenso de la aguja.",
+    "definition": "Conjunto mecánico formado por la barra cilíndrica vertical que sostiene el prensatelas de bordado, un muelle helicoidal interno de compresión calibrada y un tornillo superior moleteado o perilla de regulación micrométrica, cuya función es graduar con exactitud la fuerza descendente ejercida sobre el tejido durante la penetración y el ascenso de la aguja.",
     "howItWorks": [
-      "1. El operador gira el dial o tornillo moleteado comprimiendo o liberando el resorte helicoidal.",
+      "1. El operador gira el dial o tornillo moleteado comprimiendo o liberando el muelle helicoidal.",
       "2. La barra transmite la fuerza elástica al prensatelas en su punto más bajo de contacto.",
       "3. El prensatelas sujeta la tela contra la placa de aguja durante el instante de extracción de la aguja.",
       "4. Se evita el efecto de 'flotación' o 'aleteo' (flagging) del tejido garantizando la formación de la lazada."
@@ -56,7 +56,7 @@ export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-051-barra-tensao-fios": {
-    "term": "Barra de Tensión de los Hilos",
+    "term": "Barra de Tensión Superior del Hilo",
     "level": "Fundamental 🟢",
     "category": "Componentes de la Máquina",
     "grammarClass": "Locución sustantiva femenina.",
@@ -119,7 +119,7 @@ export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
     "howItWorks": [
       "1. La barra estabilizadora acompaña el desplazamiento lateral de todo el bloque de agujas.",
       "2. Al descender la barra activa, las guías templadas soportan el esfuerzo de pandeo lateral.",
-      "3. Las barras inactivas quedan firmemente retenidas contra sus resortes sin vibraciones por simpatía.",
+      "3. Las barras inactivas quedan firmemente retenidas contra sus muelles sin vibraciones por simpatía.",
       "4. La punta de la aguja penetra en la tela con tolerancia angular inferior a 0,05 grados respecto a la vertical."
     ],
     "beginnerExplanation": "Es una barra reforzada que abraza las agujas por abajo para que no se doblen ni tiemblen cuando la máquina borda cosas duras como viseras de gorras o parches gruesos a toda velocidad.",
@@ -128,7 +128,7 @@ export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
       "Bordado en cuero natural de calzado de seguridad sin flexión ni quiebre de agujas.",
       "Reducción de ruido y vibración armónica en cabezales industriales a 1.100 PPM."
     ],
-    "matrixParametersRelation": "Permite reducir la compensación de tracción en la matriz en un 15% ya que la aguja no se deflecta al penetrar, manteniendo los puntos exactamente donde fueron digitalizados.",
+    "matrixParametersRelation": "Permite reducir la compensación de tracción en la diseño de bordado en un 15% ya que la aguja no se deflecta al penetrar, manteniendo los puntos exactamente donde fueron digitalizados.",
     "commonErrors": [
       "❌ Dejar que la barra estabilizadora acumule hilo enredado que impida el libre descenso de la aguja.",
       "❌ Desalineación de la guía tras un choque frontal severo con el bastidor.",
@@ -164,7 +164,7 @@ export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-093-barra-estabilizadora-de-tensao-superior-pente-guia-fios": {
-    "term": "Barra Estabilizadora de Tensión Superior / Peine Guiahilos",
+    "term": "Peine Guiahilos y Estabilizador de Tensión",
     "level": "Intermedio 🟡",
     "category": "Equipos y Máquinas",
     "grammarClass": "Locución sustantiva femenina.",
@@ -218,7 +218,7 @@ export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-088-barramento-can-bus-em-maquinas-de-bordar": {
-    "term": "Bus de Comunicación CAN-Bus en Máquinas de Bordar",
+    "term": "Bus de Comunicación CAN en Máquinas de Bordar",
     "level": "Avanzado 🔴",
     "category": "Equipos y Máquinas",
     "grammarClass": "Locución sustantiva masculina.",
@@ -236,7 +236,7 @@ export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
       "Transmisión de diagnósticos de error individuales desde el cabezal número 8 a la pantalla táctil.",
       "Actualización de firmware de cabezales sin necesidad de cablear cables individuales a cada uno."
     ],
-    "matrixParametersRelation": "Permite que matrices de más de 200.000 puntadas se procesen con fluidez de datos continua sin que la máquina sufra microparadas o caídas de velocidad.",
+    "matrixParametersRelation": "Permite que diseños de bordado de más de 200.000 puntadas se procesen con fluidez de datos continua sin que la máquina sufra microparadas o caídas de velocidad.",
     "commonErrors": [
       "❌ Dañar el cable trenzado blindado de comunicación al abrir o cerrar paneles del chasis.",
       "❌ Retirar o dañar las resistencias de terminación de 120 ohmios de los extremos del bus provocando rebote de señales.",
@@ -272,14 +272,14 @@ export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-102-barudan-maquinas-de-bordado-eletronico": {
-    "term": "Barudan",
+    "term": "Máquinas de Bordar Barudan",
     "level": "Avanzado 🔴",
     "category": "Máquinas y Equipos",
     "grammarClass": "Marca registrada / Sustantivo propio.",
     "origin": "Empresa japonesa fundada en 1959 por Yoshio Shibata en Ichinomiya (Japón), fabricante de la primera máquina de bordar computarizada comercial de la historia en 1977.",
-    "definition": "Fabricante japonés legendario en la industria mundial del bordado textil, reconocido por fabricar las máquinas industriales más robustas, pesadas y mecánicamente duraderas del mercado (líneas BEXY, BKT, Pro3 y KT). Famosas por su sistema de pantógrafo accionado por eje transversal de fundición, cabezales de bloque sólido, corte inferior de hilo circular (Advantage EX) y compatibilidad nativa con matrices en formato FDR y U??.",
+    "definition": "Fabricante japonés legendario en la industria mundial del bordado textil, reconocido por fabricar las máquinas industriales más robustas, pesadas y mecánicamente duraderas del mercado (líneas BEXY, BKT, Pro3 y KT). Famosas por su sistema de pantógrafo accionado por eje transversal de fundición, cabezales de bloque sólido, corte inferior de hilo circular (Advantage EX) y compatibilidad nativa con diseños de bordado en formato FDR y U??.",
     "howItWorks": [
-      "1. La matriz se carga vía memoria USB, cable de red LAN o sistema de red central Barudan LEM Server.",
+      "1. La diseño de bordado se carga vía memoria USB, cable de red LAN o sistema de red central Barudan LEM Server.",
       "2. El motor principal de inducción o servomotor directo acciona los cabezales sincronizados por barra cardán sólida.",
       "3. El pantógrafo se mueve impulsado por husillos y correas de acero dentadas con tolerancias de micrómetros.",
       "4. El mecanismo exclusivo de corte de hilo circular asegura cortes cortos y limpios sin deshilachado.",
@@ -322,7 +322,7 @@ export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ],
     "troubleshootingTips": [
       "Si la punta del hilo se deshilacha a alta velocidad: Verifique la orientación de la aguja DBxK5 (ranura frontal a 0 grados) y compruebe que no esté despuntada.",
-      "Si aparece alarma de fin de carrera (Limit Switch Error): Recentre la matriz en la pantalla asegurando que el diseño respete los márgenes del bastidor.",
+      "Si aparece alarma de fin de carrera (Limit Switch Error): Recentre la diseño de bordado en la pantalla asegurando que el diseño respete los márgenes del bastidor.",
       "Si el bordado 3D en gorra perfora la goma EVA sin cubrirla: Reduzca la velocidad a 700 PPM, aumente la densidad de satén un 15% y use aguja de punta de bola ligera 80/12."
     ]
   },
@@ -381,7 +381,7 @@ export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
     ]
   },
   "b-080": {
-    "term": "Base de Alineación / Puntada de Hilván y Fijación",
+    "term": "Puntada de Hilván y Fijación Perimetral",
     "level": "Fundamental 🟢",
     "category": "Puntos & Estructuras",
     "grammarClass": "Locución sustantiva femenina.",
@@ -391,7 +391,7 @@ export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
       "1. El operador activa la función de hilván perimetral (basting) en el software o directamente en el panel de la máquina.",
       "2. La máquina borda un contorno rectangular o contorneado con puntadas largas y tensión suelta.",
       "3. La costura ancla la tela a la entretela evitando que se desplace o se estire durante el bordado.",
-      "4. Al terminar el bordado de toda la matriz, el hilván se retira con extrema facilidad tirando de un extremo del hilo.",
+      "4. Al terminar el bordado de toda la diseño de bordado, el hilván se retira con extrema facilidad tirando de un extremo del hilo.",
       "5. Si se utilizó entretela soluble, el hilván evita el deslizamiento en telas difíciles como terciopelo o lycra."
     ],
     "beginnerExplanation": "Es una costura de puntadas muy largas y flojitas que la máquina hace todo alrededor del dibujo antes de empezar a bordar: sirve para sujetar la tela a la entretela para que no se mueva y para comprobar que el diseño no va a chocar contra el plástico del bastidor.",
@@ -400,7 +400,7 @@ export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
       "Sujeción de film soluble de plástico sobre prendas de lana o toallas antes de bordar letras.",
       "Comprobación del centrado de un logotipo en el pecho de un polo antes de gastar puntadas decorativas."
     ],
-    "matrixParametersRelation": "Se programa siempre como el primer color o secuencia de la matriz. Al utilizar puntadas largas de 5,0 mm no perfora ni daña el tejido base al retirarse.",
+    "matrixParametersRelation": "Se programa siempre como el primer color o secuencia de la diseño de bordado. Al utilizar puntadas largas de 5,0 mm no perfora ni daña el tejido base al retirarse.",
     "commonErrors": [
       "❌ Utilizar puntadas de hilván demasiado cortas (menos de 2,5 mm) que resulten difíciles de descoser tras el bordado.",
       "❌ Dejar una tensión superior excesiva que frunza la tela antes de iniciar el diseño principal.",
@@ -423,20 +423,20 @@ export const LOTE1_B_PART3_ES: Record<string, Partial<Verbete>> = {
       "Sujeción de film hidrosoluble superior en toallas, polares y géneros de punto",
       "Bordado de bolsillos ya confeccionados, cuellos y puños"
     ],
-    "technicalDetails": "Longitud de puntada recomendada: 4,0 a 6,0 mm. Tensión reducida (30% menor que la tensión de bordado estándar). Arremate mínimo de 2 puntadas al inicio y final.",
+    "technicalDetails": "Longitud de puntada recomendada: 4,0 a 6,0 mm. Tensión reducida (30% menor que la tensión de bordado estándar). remate mínimo de 2 puntadas al inicio y final.",
     "bibliographicReferences": [
       "Wilcom EmbroideryStudio Technical Manual: Basting Stitch Generation and Frame Clearance",
       "The Complete Guide to Machine Embroidery - Deborah Jones",
       "Manual de Fijación y Estabilización Textil - Artrelados"
     ],
     "troubleshootingTips": [
-      "Si el tejido se desplaza u ondula al bordar con técnica de tela flotante: Incorpore la puntada de hilván perimetral como primer paso de la matriz.",
+      "Si el tejido se desplaza u ondula al bordar con técnica de tela flotante: Incorpore la puntada de hilván perimetral como primer paso de la diseño de bordado.",
       "Si las puntadas de hilván resultan difíciles de retirar con pinza: Aumente la longitud de puntada a 5,0 mm o 6,0 mm en el software de digitalización.",
       "Si el hilván atraviesa un área que llevará relleno denso de tatami: Programe el hilván únicamente en los bordes exteriores del diseño."
     ]
   },
   "b-054-base-de-cones-e-porta-carretel-vertical": {
-    "term": "Base de Conos y Portacarretes Vertical",
+    "term": "Base Portaconos Vertical",
     "level": "Fundamental 🟢",
     "category": "Accesorios & Organización",
     "grammarClass": "Locución sustantiva femenina.",
