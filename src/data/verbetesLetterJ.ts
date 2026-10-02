@@ -4,7 +4,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-001-jef-formato-matriz-janome",
     "code": "J-001",
-    "term": "JEF & JEF+ (Formato de Matriz Janome Machine File)",
+    "term": "JEF & JEF+",
     "letter": "J",
     "level": "Fundamental 🟢",
     "category": "Softwares & Formatos",
@@ -71,7 +71,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-002-jog-de-pantografo-movimentacao-manual",
     "code": "J-002",
-    "term": "Jog de Pantógrafo & Movimentação Manual dos Eixos X/Y (Manual Frame Jogging & Step Coordinate Control)",
+    "term": "Movimentação Manual dos Eixos do Pantógrafo",
     "letter": "J",
     "level": "Fundamental 🟢",
     "category": "Operação da Máquina",
@@ -139,7 +139,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-003-juncao-de-objetos-vetoriais-solda-branching",
     "code": "J-003",
-    "term": "Junção de Objetos Vetoriais, Solda Booleana & Ramificação / Branching (Object Weld, Branching & Auto-Join in Digitizing)",
+    "term": "Junção e Ramificação de Objetos Vetoriais",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Programação & Digitalização",
@@ -207,7 +207,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-004-jogo-de-facas-do-trimmer-corta-fio",
     "code": "J-004",
-    "term": "Jogo de Facas do Trimmer & Lâmina Móvel de Corta-Fio (Trimmer Knife Set, Movable Blade & Fixed Under-Bed Cutter)",
+    "term": "Jogo de Facas do Trimmer & Lâmina Móvel de Corta-Fio",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Mecânica da Máquina",
@@ -274,7 +274,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-005-jump-stitch-salto-de-ponto-sem-costura",
     "code": "J-005",
-    "term": "Jump Stitch & Salto de Ponto sem Costura (Jump Length Threshold & Non-Stitching Frame Travel)",
+    "term": "Jump Stitch & Salto de Ponto sem Costura",
     "letter": "J",
     "level": "Fundamental 🟢",
     "category": "Pontos Básicos & Decorativos",
@@ -339,7 +339,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-006-jalecos-scrubs-posicionamento-brasoes",
     "code": "J-006",
-    "term": "Jalecos, Scrubs & Posicionamento Técnico de Brasões e Nomes (Lab Coat & Medical Scrub Pocket Embroidery Protocol)",
+    "term": "Jalecos, Scrubs & Posicionamento Técnico de Brasões e Nomes",
     "letter": "J",
     "level": "Fundamental 🟢",
     "category": "Técnicas de Bastidor",
@@ -405,7 +405,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-007-juta-aniagem-fibras-rusticas-naturais",
     "code": "J-007",
-    "term": "Juta, Aniagem & Tecidos de Fibra Rústica Natural no Bordado (Burlap, Jute & Open-Weave Natural Fiber Stabilization)",
+    "term": "Juta, Aniagem & Tecidos de Fibra Rústica Natural no Bordado",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -471,7 +471,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-008-jeans-denim-pesado-bordado-bolsos",
     "code": "J-008",
-    "term": "Jeans, Denim Pesado & Bordado em Bolsos e Costuras Espessas (Heavy Denim & Back-Pocket Embroidery Technique)",
+    "term": "Jeans, Denim Pesado & Bordado em Bolsos e Costuras Espessas",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -537,7 +537,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-009-jaquetas-corta-vento-nylon-resinado",
     "code": "J-009",
-    "term": "Jaquetas Corta-Vento, Nylon Resinado & Impermeabilização (Windbreaker Jackets & Technical Coated Shell Embroidery)",
+    "term": "Jaquetas Corta-Vento, Nylon Resinado & Impermeabilização",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Tipos de Tecidos",
@@ -603,7 +603,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-010-jersey-meia-malha-algodao-enrolamento",
     "code": "J-010",
-    "term": "Jersey, Meia Malha de Algodão & Prevenção de Enrolamento de Bordas (Single Jersey Knit & Edge Curl Prevention)",
+    "term": "Jersey, Meia Malha de Algodão & Prevenção de Enrolamento de Bordas",
     "letter": "J",
     "level": "Fundamental 🟢",
     "category": "Tipos de Tecidos",
@@ -669,7 +669,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-021-jogo-de-agulhas-dbxk5-130-705h",
     "code": "J-021",
-    "term": "Jogo de Agulhas Industriais DBxK5 & Domésticas 130/705H (System DBxK5 & HAx1EB Needle Set Selection)",
+    "term": "Agulhas Industriais DBxK5 e Domésticas",
     "letter": "J",
     "level": "Fundamental 🟢",
     "category": "Agulhas & Fios",
@@ -735,7 +735,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-022-jaqueta-jeans-patches-termocolantes-bordado-direto",
     "code": "J-022",
-    "term": "Jaqueta Jeans com Patches Termocolantes & Bordado Direto (Denim Jacket Direct Embroidery & Patch Embellishment)",
+    "term": "Jaqueta Jeans com Patches Termocolantes & Bordado Direto",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Técnicas Especiais",
@@ -801,7 +801,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-023-jogo-de-linhas-montagem-paletas-cromaticas",
     "code": "J-023",
-    "term": "Jogo de Linhas & Montagem de Paletas Cromáticas Harmônicas (Thread Set Palette Curation & Color Harmony)",
+    "term": "Jogo de Linhas & Montagem de Paletas Cromáticas Harmônicas",
     "letter": "J",
     "level": "Fundamental 🟢",
     "category": "Agulhas & Fios",
@@ -867,7 +867,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-024-jumper-de-fio-formacao-incorreta-laco",
     "code": "J-024",
-    "term": "Jumper de Fio & Formação Incorreta do Laço na Lançadeira (Thread Loop Jumping & Rotary Hook Timing Slip)",
+    "term": "Jumper de Fio & Formação Incorreta do Laço na Lançadeira",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Solução de Problemas",
@@ -934,7 +934,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-025-justificacao-tipografica-alinhamento-letreiros",
     "code": "J-025",
-    "term": "Justificação Tipográfica & Alinhamento de Letreiros no Software (Lettering Alignment, Justification & Text Tracking)",
+    "term": "Justificação Tipográfica & Alinhamento de Letreiros no Software",
     "letter": "J",
     "level": "Fundamental 🟢",
     "category": "Programação & Digitalização",
@@ -1001,7 +1001,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-026-juta-sintetica-telas-plasticas-estruturadas",
     "code": "J-026",
-    "term": "Juta Sintética & Telas Plásticas para Bordados Estruturados (Synthetic Burlap & Plastic Canvas Mesh Stitching)",
+    "term": "Juta Sintética & Telas Plásticas para Bordados Estruturados",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -1066,7 +1066,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-027-jogging-eixo-z-movimento-barra-agulha",
     "code": "J-027",
-    "term": "Jogging de Eixo Z & Movimento da Barra de Agulha (Z-Axis Needle Bar Jogging & Mechanical Lift)",
+    "term": "Jogging de Eixo Z & Movimento da Barra de Agulha",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Mecânica da Máquina",
@@ -1132,7 +1132,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-028-jogo-de-calcadores-especiais-calcador-mola",
     "code": "J-028",
-    "term": "Jogo de Calcadores Especiais & Calcador de Ponto Cheio com Mola (Embroidery Presser Foot Set & Spring Action Clearance)",
+    "term": "Jogo de Calcadores Especiais & Calcador de Ponto Cheio com Mola",
     "letter": "J",
     "level": "Fundamental 🟢",
     "category": "Componentes da Máquina",
@@ -1198,7 +1198,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-029-janome-embroidery-format-jef-plus-metadados",
     "code": "J-029",
-    "term": "Janome Embroidery Format (.JEF+) & Recursos Avançados de Metadados (JEF+ Object Metadata & Thread Grouping Architecture)",
+    "term": "Formato JEF da Janome e Metadados",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Softwares & Formatos",
@@ -1264,7 +1264,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-030-jacquard-floral-monogramas-barrocos-relevo",
     "code": "J-030",
-    "term": "Jacquard Floral & Monogramas Barrocos em Relevo Têxtil (Baroque Jacquard Monogramming & Embossed Floral Fill)",
+    "term": "Jacquard Floral & Monogramas Barrocos em Relevo Têxtil",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Programação & Digitalização",
@@ -1330,7 +1330,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-031-jumper-de-fio-metalico-desfiamento-ouro-prata",
     "code": "J-031",
-    "term": "Jumper de Fio Metálico & Prevenção de Desfiamento em Linhas de Ouro/Prata (Metallic Thread Looping & Wire Slip Prevention)",
+    "term": "Prevenção de Desfiamento em Fios Metálicos",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Agulhas & Fios",
@@ -1396,7 +1396,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-032-juncao-de-contorno-ponto-apoio-snapping",
     "code": "J-032",
-    "term": "Junção de Contorno com Ponto de Apoio & Encaixe de Nós (Outline Node Snapping & Underlay Junction Anchoring)",
+    "term": "Junção de Contorno com Ponto de Apoio & Encaixe de Nós",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Programação & Digitalização",
@@ -1462,7 +1462,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-033-jaleco-odontologico-tecidos-hidrorrepelentes",
     "code": "J-033",
-    "term": "Jaleco Odontológico & Bordados Antirrespingo em Tecidos Hidrorrepelentes (Dental Scrubs & Water-Repellent Fabric Stitching)",
+    "term": "Jaleco Odontológico & Bordados Antirrespingo em Tecidos Hidrorrepelentes",
     "letter": "J",
     "level": "Fundamental 🟢",
     "category": "Técnicas de Bastidor",
@@ -1528,7 +1528,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-034-jogo-de-toalhas-lavabo-ponto-ajour-bainha",
     "code": "J-034",
-    "term": "Jogo de Toalhas de Lavabo com Ponto Ajour & Bainha Aberta (Openwork Hemstitch & Drawn Thread Lavatory Linens)",
+    "term": "Jogo de Toalhas de Lavabo com Ponto Ajour & Bainha Aberta",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Técnicas Especiais",
@@ -1594,7 +1594,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-035-jog-de-velocidade-curvas-fechadas-desaceleracao",
     "code": "J-035",
-    "term": "Jog de Velocidade em Curvas Fechadas & Desaceleração Automática (Cornering Speed Jog & Feed-Rate Deceleration Protocol)",
+    "term": "Jog de Velocidade em Curvas Fechadas & Desaceleração Automática",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Mecânica da Máquina",
@@ -1660,7 +1660,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-036-janome-acustitch-aplicativos-moveis-criacao",
     "code": "J-036",
-    "term": "Janome AcuStitch & Aplicativos Móveis de Criação Rápida (Janome Mobile App & AcuStitch Creative Stitching Ecosystem)",
+    "term": "Janome AcuStitch & Aplicativos Móveis de Criação Rápida",
     "letter": "J",
     "level": "Fundamental 🟢",
     "category": "Softwares & Formatos",
@@ -1727,7 +1727,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-037-jeans-estonado-acid-wash-fibras-rompidas",
     "code": "J-037",
-    "term": "Jeans Estonado, Acid Wash & Compensação de Fibras Rompidas (Distressed Denim & Stone-Washed Fabric Stabilization)",
+    "term": "Jeans Estonado, Acid Wash & Compensação de Fibras Rompidas",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -1793,7 +1793,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-038-jogo-de-cama-infantil-bordados-antialergicos",
     "code": "J-038",
-    "term": "Jogo de Cama Infantil & Bordados Antialérgicos com Toque Zero (Baby Bedding & Zero-Scratch Hypoallergenic Backing)",
+    "term": "Jogo de Cama Infantil Antialérgico",
     "letter": "J",
     "level": "Fundamental 🟢",
     "category": "Técnicas Especiais",
@@ -1859,7 +1859,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-039-joint-curvas-bezier-tangencia-suave-pontos",
     "code": "J-039",
-    "term": "Joint de Curvas Bézier & Tangência Suave de Pontos (Bézier Curve Joint & Smooth Tangent Vectorization)",
+    "term": "Tangência Suave de Curvas Bézier",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Programação & Digitalização",
@@ -1926,7 +1926,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-040-juta-fibras-rusticas-linho-grosso",
     "code": "J-040",
-    "term": "Juta, Fibras Rústicas & Bordados em Linho Grosso (Burlap, Jute Hessian & Rustic Coarse Linen Embroidery)",
+    "term": "Bordado em Juta e Fibras Rústicas",
     "letter": "J",
     "level": "Fundamental 🟢",
     "category": "Tipos de Tecidos",
@@ -1992,7 +1992,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-041-jump-stitch-trimmer-facas-corte-pneumaticas",
     "code": "J-041",
-    "term": "Jump Stitch Trimmer & Facas de Corte Pneumáticas de Linha (Pneumatic Thread Jump Trimmer & Rotary Knife Mechanics)",
+    "term": "Cortador Automático de Saltos de Ponto",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Mecânica da Máquina",
@@ -2058,7 +2058,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-042-jacquard-digital-fusao-tecelagem-bordado",
     "code": "J-042",
-    "term": "Jacquard Digital & Fusão de Tecelagem com Bordado Superficial (Digital Jacquard Weaving & Surface Embroidery Hybrid)",
+    "term": "Bordado em Tecido Jacquard",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Técnicas Especiais",
@@ -2124,7 +2124,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-043-jogo-americano-redondo-cordone-ponto-festone",
     "code": "J-043",
-    "term": "Jogo Americano Redondo com Borda em Cordone & Ponto Festonê (Round Placemat with Cordonnet Piping & Scalloped Edge)",
+    "term": "Jogo Americano com Borda Festonê",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Técnicas Especiais",
@@ -2190,7 +2190,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-044-jeans-stretch-elastano-deformacao-bidirecional",
     "code": "J-044",
-    "term": "Jeans com Stretch, Elastano & Deformação Bidirecional (Stretch Denim, Spandex Elasticity & Bi-Directional Distortion Control)",
+    "term": "Bordado em Jeans com Elastano",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -2256,7 +2256,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-045-jump-deslocamento-longo-limite-cinematico",
     "code": "J-045",
-    "term": "Jump de Deslocamento Longo & Limite Cinemático de Velocidade (Long Jump Feed Limits & Dynamic Motor Braking)",
+    "term": "Salto de Deslocamento Longo",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Mecânica da Máquina",
@@ -2322,7 +2322,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-046-jaleco-personalizado-bolsos-fechados-bastidor-bolso",
     "code": "J-046",
-    "term": "Jaleco Personalizado com Bolsos Fechados & Bastidor Especial de Bolso (Custom Lab Coats with Closed Pockets & Pocket Frame Clamping)",
+    "term": "Bordado em Bolsos de Jaleco",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Técnicas de Bastidor",
@@ -2388,7 +2388,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-047-jersey-malhas-fluidas-viscose-estabilizacao",
     "code": "J-047",
-    "term": "Jersey, Malhas Fluídas de Viscose & Estabilização de Toque Suave (Jersey Knit, Fluid Viscose & Soft-Touch Knit Stabilization)",
+    "term": "Bordado em Malha Jersey e Viscose",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -2454,7 +2454,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-048-jumper-fios-sensores-eletronicos-passagem-linha",
     "code": "J-048",
-    "term": "Jumper de Fios & Sensores Eletrônicos de Passagem de Linha (Thread Break Sensors & Electronic Jumper Optocouplers)",
+    "term": "Sensores Eletrônicos de Passagem de Linha",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Mecânica da Máquina",
@@ -2520,7 +2520,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-049-jog-agulha-bordados-manuais-computadorizados",
     "code": "J-049",
-    "term": "Jog de Agulha em Bordados Manuais Computadorizados (Needle Jogging & Manual Machine Coordinate Alignment)",
+    "term": "Deslocamento Manual de Agulha na Máquina",
     "letter": "J",
     "level": "Fundamental 🟢",
     "category": "Comandos de Máquina",
@@ -2586,7 +2586,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-050-jogo-de-cama-casal-queen-king-emenda-matrizes",
     "code": "J-050",
-    "term": "Jogo de Cama de Casal Queen/King & Emenda de Matrizes Gigantes (Queen/King Bedding & Giant Multi-Hoop Split Stitching)",
+    "term": "Emenda de Matrizes para Jogos de Cama",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Técnicas de Bastidor",
@@ -2652,7 +2652,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-051-jeans-black-denim-fios-escuros-solidez",
     "code": "J-051",
-    "term": "Jeans Black Denim, Fios Escuros & Solidez à Fricção e Lavagem (Black Denim Embroidery, Dark Threads & Colorfast Crock Testing)",
+    "term": "Bordado em Jeans Escuro e Black Denim",
     "letter": "J",
     "level": "Fundamental 🟢",
     "category": "Tipos de Tecidos",
@@ -2718,7 +2718,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-052-janome-mb4-mb7-maquinas-compactas-multinagulha",
     "code": "J-052",
-    "term": "Janome MB-4, MB-7 & Máquinas Compactas Multicabeçote/Multinagulha (Janome Multi-Needle MB Series & Compact Semi-Industrial Platforms)",
+    "term": "Janome Séries MB Compactas",
     "letter": "J",
     "level": "Fundamental 🟢",
     "category": "Mecânica da Máquina",
@@ -2784,7 +2784,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-053-joint-ponto-cruz-digital-encaixe-pontos-x",
     "code": "J-053",
-    "term": "Joint de Ponto Cruz Digital & Encaixe de Pontos em X (Digital Cross-Stitch Joint & Pixel-Perfect X-Stitch Interlocking)",
+    "term": "Encaixe de Ponto Cruz Digital",
     "letter": "J",
     "level": "Fundamental 🟢",
     "category": "Programação & Digitalização",
@@ -2850,7 +2850,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-067-jogo-de-chavetas-e-travamento-do-eixo-principal",
     "code": "J-067",
-    "term": "Jogo de Chavetas e Travamento do Eixo Principal (Main Shaft Keyway & Timing Locking Pins)",
+    "term": "Chavetas do Eixo Principal",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Componentes da Máquina",
@@ -2914,7 +2914,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-068-jato-de-ar-seco-e-limpeza-pneumatica-de-sensores-e-facas",
     "code": "J-068",
-    "term": "Jato de Ar Seco e Limpeza Pneumática de Sensores e Facas (Pneumatic Dry Air Jet & Sensor Debris Clearing)",
+    "term": "Jato de Ar Seco para Limpeza",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Cuidados e Manutenção",
@@ -2978,7 +2978,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-069-jumper-de-alimentacao-e-selecao-de-tensao-110v-220v",
     "code": "J-069",
-    "term": "Jumper de Alimentação e Seleção de Tensão 110V/220V (Power Supply Jumper & Dual Voltage Selector)",
+    "term": "Seleção de Tensão da Máquina",
     "letter": "J",
     "level": "Iniciante 🟢",
     "category": "Eletrônica da Máquina",
@@ -3041,7 +3041,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-070-juncao-perpendicular-de-colunas-satin-com-corte-em-meia-esquadria",
     "code": "J-070",
-    "term": "Junção Perpendicular de Colunas Satin com Corte em Meia-Esquadria (Perpendicular Satin Mitered Joint & Corner Overlap)",
+    "term": "Junção em Meia-Esquadria de Ponto Cheio",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Programação de Bordado",
@@ -3105,7 +3105,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-071-jogo-axial-e-folga-longitudinal-da-lançadeira-rotativa",
     "code": "J-071",
-    "term": "Jogo Axial e Folga Longitudinal da Lançadeira Rotativa (Rotary Hook Axial End-Play & Thrust Clearance)",
+    "term": "Folga Axial da Lançadeira Rotativa",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Mecânica da Máquina e Manutenção",
@@ -3169,7 +3169,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-072-jaleco-profissional-e-bordado-de-bracoes-medicos",
     "code": "J-072",
-    "term": "Jaleco Profissional e Bordado de Brasões Médicos (Medical Coat Lab & Caduceus Embroidery Workflow)",
+    "term": "Bordado de Brasões em Jalecos",
     "letter": "J",
     "level": "Iniciante 🟢",
     "category": "Técnicas de Bordado",
@@ -3234,7 +3234,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-073-juncao-de-trajetoria-e-eliminacao-de-saltos-em-letreiros",
     "code": "J-073",
-    "term": "Junção de Trajetória e Eliminação de Saltos em Letreiros (Lettering Path Merge & Jump-Stitch Elimination)",
+    "term": "Eliminação de Saltos em Letreiros",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Programação de Bordado",
@@ -3298,7 +3298,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-074-jornada-de-manutencao-preventiva-semanal-e-mensal",
     "code": "J-074",
-    "term": "Jornada de Manutenção Preventiva Semanal e Mensal (Weekly & Monthly Preventive Maintenance Schedule)",
+    "term": "Manutenção Preventiva Periódica",
     "letter": "J",
     "level": "Iniciante 🟢",
     "category": "Cuidados e Manutenção",
@@ -3363,7 +3363,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-075-jogo-de-agulhas-para-bordado-em-jeans-e-sarja-pesada",
     "code": "J-075",
-    "term": "Jogo de Agulhas para Bordado em Jeans e Sarja Pesada (Jeans & Denim Needle Assortment)",
+    "term": "Agulhas para Jeans e Sarja Pesada",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Agulhas & Fios",
@@ -3497,7 +3497,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-076-juncao-de-contornos-finos-com-compensacao-de-sobreposicao",
     "code": "J-076",
-    "term": "Junção de Contornos Finos com Compensação de Sobreposição (Outline Overlap & Trap Alignment)",
+    "term": "Junção de Contornos Finos",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
@@ -3629,7 +3629,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-077-jateamento-criogenico-e-limpeza-termica-de-pecas-de-precisao",
     "code": "J-077",
-    "term": "Jateamento Criogênico e Limpeza Térmica de Peças de Precisão (Cryogenic Precision Cleaning)",
+    "term": "Limpeza Especial de Peças Mecânicas",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -3762,7 +3762,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-078-jacquard-computadorizado-integrado-ao-bordado-eletronico",
     "code": "J-078",
-    "term": "Jacquard Computadorizado Integrado ao Bordado Eletrônico (Brocade & Jacquard Substrate Integration)",
+    "term": "Bordado Integrado em Jacquard",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -3895,7 +3895,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-079-juncao-de-paineis-em-patchwork-no-bastidor-ith",
     "code": "J-079",
-    "term": "Junção de Painéis em Patchwork no Bastidor (ITH) (In-The-Hoop Block Piecing & Joining)",
+    "term": "Junção de Painéis de Patchwork no Bastidor",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Técnicas de Bastidor",
@@ -4031,7 +4031,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-080-jogo-de-molas-de-retorno-da-barra-de-agulhas",
     "code": "J-080",
-    "term": "Jogo de Molas de Retorno da Barra de Agulhas (Needle Bar Return Springs Set)",
+    "term": "Molas de Retorno da Barra de Agulhas",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -4163,7 +4163,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-081-juta-e-tecidos-rusticos-naturais-no-bordado-computadorizado",
     "code": "J-081",
-    "term": "Juta e Tecidos Rústicos Naturais no Bordado Computadorizado (Burlap & Rustic Jute Embroidery)",
+    "term": "Bordado Computadorizado em Juta",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -4298,7 +4298,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-082-jogo-de-discos-de-tensao-e-polimento-microestrutural",
     "code": "J-082",
-    "term": "Jogo de Discos de Tensão e Polimento Microestrutural (Tension Discs Micro-Polishing)",
+    "term": "Discos de Tensão e Polimento",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Tensão & Calibração",
@@ -4431,7 +4431,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-083-juncao-de-estilos-tipograficos-e-fontes-hibridas-na-matriz",
     "code": "J-083",
-    "term": "Junção de Estilos Tipográficos e Fontes Híbridas na Matriz (Hybrid Font Combinations & Hierarchy)",
+    "term": "Combinação de Fontes na Matriz",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Programação de Bordado",
@@ -4564,7 +4564,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-084-jogo-de-garras-de-fixacao-para-bastidor-de-bone",
     "code": "J-084",
-    "term": "Jogo de Garras de Fixação para Bastidor de Boné (Cap Frame Retention Clamps & Clips)",
+    "term": "Garras de Fixação para Bastidor de Boné",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Técnicas de Bastidor",
@@ -4698,7 +4698,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-085-jogo-de-guias-e-passa-fios-de-ceramica-zirconia",
     "code": "J-085",
-    "term": "Jogo de Guias e Passa-Fios de Cerâmica Zircônia (Zirconia Ceramic Thread Guides)",
+    "term": "Guias de Linha Cerâmicos Zircônia",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -4831,7 +4831,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-086-juncao-de-cores-com-degrade-suave-em-ponto-cheio",
     "code": "J-086",
-    "term": "Junção de Cores com Degradê Suave em Ponto Cheio (Satin Blending & Feathery Gradient)",
+    "term": "Degradê Suave em Ponto Cheio",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
@@ -4964,7 +4964,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-087-jogo-de-chaves-allen-e-torx-especificas-para-cabecote",
     "code": "J-087",
-    "term": "Jogo de Chaves Allen e Torx Específicas para Cabeçote (Precision Hex & Torx L-Key Set)",
+    "term": "Chaves de Precisão para Cabeçote",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Componentes da Máquina",
@@ -5098,7 +5098,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-088-jumper-de-fim-de-curso-e-sensores-de-limite-de-eixo-xy",
     "code": "J-088",
-    "term": "Jumper de Fim de Curso e Sensores de Limite de Eixo X/Y (X/Y Axis Limit Switches & Jumpers)",
+    "term": "Sensores de Limite dos Eixos X e Y",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -5232,7 +5232,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-089-jaleco-infantil-e-uniformes-escolares-tecnicas-de-fixacao",
     "code": "J-089",
-    "term": "Jaleco Infantil e Uniformes Escolares: Técnicas de Fixação (School Uniform & Kids Apron Embroidery)",
+    "term": "Bordado em Uniformes Escolares",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Técnicas de Bastidor",
@@ -5367,7 +5367,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-090-juncao-de-formatos-vetoriais-svg-ai-eps-para-digitalizacao",
     "code": "J-090",
-    "term": "Junção de Formatos Vetoriais (SVG, AI, EPS) para Digitalização (Vector Format Merging & Pre-Processing)",
+    "term": "Junção de Formatos Vetoriais",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Softwares & Formatos",
@@ -5502,7 +5502,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-091-jogo-de-escovas-de-carvao-e-manutencao-de-motores-auxiliares",
     "code": "J-091",
-    "term": "Jogo de Escovas de Carvão e Manutenção de Motores Auxiliares (Carbon Brush Set for Auxiliary Motors)",
+    "term": "Escovas de Carvão dos Motores",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -5634,7 +5634,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-092-jateamento-de-ar-quente-para-retracao-de-pelos-em-toalhas",
     "code": "J-092",
-    "term": "Jateamento de Ar Quente para Retração de Pelos em Toalhas (Hot Air Fluff Flattening)",
+    "term": "Tratamento Térmico de Felpas em Toalhas",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Acabamento & Finalização",
@@ -5768,7 +5768,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-093-juncao-de-areas-preenchidas-com-ponto-tatami-reversivel",
     "code": "J-093",
-    "term": "Junção de Áreas Preenchidas com Ponto Tatami Reversível (Reversible Fill-Stitch Geometry)",
+    "term": "Junção de Áreas em Ponto Tatami",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
@@ -5902,7 +5902,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-094-jogo-de-rolamentos-lineares-do-pantografo",
     "code": "J-094",
-    "term": "Jogo de Rolamentos Lineares do Pantógrafo (Linear Ball Bushing & Guide Rails)",
+    "term": "Rolamentos Lineares do Pantógrafo",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -6035,7 +6035,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-095-jaqueta-corta-vento-e-tecidos-impermeaveis-vedacao",
     "code": "J-095",
-    "term": "Jaqueta Corta-Vento e Tecidos Impermeáveis: Vedação (Windbreaker & Waterproof Shell Embroidery)",
+    "term": "Bordado em Corta-Vento e Tecidos Impermeáveis",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Tipos de Tecidos",
@@ -6170,7 +6170,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-096-juncao-de-camadas-de-enchimento-3d-foam-com-ponto-de-fixacao",
     "code": "J-096",
-    "term": "Junção de Camadas de Enchimento 3D Foam com Ponto de Fixação (3D Foam Tacking & Border Joint)",
+    "term": "Fixação de EVA em Bordado 3D",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
@@ -6305,7 +6305,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-097-jogo-de-suportes-magneticos-de-bancada-para-atelie",
     "code": "J-097",
-    "term": "Jogo de Suportes Magnéticos de Bancada para Ateliê (Magnetic Tool Holders & Hooping Station)",
+    "term": "Suportes Magnéticos para Ateliê",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Técnicas de Bastidor",
@@ -6439,7 +6439,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-098-juncao-de-matrizes-espelhadas-para-monogramas-e-brasoes-simetricos",
     "code": "J-098",
-    "term": "Junção de Matrizes Espelhadas para Monogramas e Brasões Simétricos (Mirror Symmetry Digitizing)",
+    "term": "Matrizes Espelhadas e Simétricas",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Programação de Bordado",
@@ -6573,7 +6573,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-099-jogo-de-reguas-e-gabaritos-de-esquadro-para-centralizacao",
     "code": "J-099",
-    "term": "Jogo de Réguas e Gabaritos de Esquadro para Centralização (Hooping Alignment Rulers & Squares)",
+    "term": "Réguas e Gabaritos de Centralização",
     "letter": "J",
     "level": "Intermediário 🟡",
     "category": "Técnicas de Bastidor",
@@ -6708,7 +6708,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-100-justaposicao-de-densidades-e-equilibrio-de-tensao-estrutural",
     "code": "J-100",
-    "term": "Justaposição de Densidades e Equilíbrio de Tensão Estrutural (Structural Density Juxtaposition)",
+    "term": "Equilíbrio de Densidade Estrutural",
     "letter": "J",
     "level": "Avançado 🔴",
     "category": "Tensão & Calibração",
@@ -6845,7 +6845,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-101-janome-maquinas-de-bordado-eletronico",
     "code": "J-101",
-    "term": "Janome (Máquinas de Bordado Eletrônico)",
+    "term": "Janome",
     "pronunciation": "ja-nô-mi (má-qui-nas de bor-da-do e-le-trô-ni-co)",
     "letter": "J",
     "level": "Intermediário 🟡",
@@ -6948,7 +6948,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-102-juki-maquinas-de-bordado-eletronico",
     "code": "J-102",
-    "term": "Juki (Máquinas de Bordado Eletrônico)",
+    "term": "Juki",
     "pronunciation": "dju-ki (má-qui-nas de bor-da-do e-le-trô-ni-co)",
     "letter": "J",
     "level": "Intermediário a Avançado 🟡🔴",
@@ -7051,7 +7051,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
   {
     "id": "j-103-jack-maquinas-de-bordado-eletronico-e-automacao-textil",
     "code": "J-103",
-    "term": "Jack (Máquinas de Bordado Eletrônico e Automação Têxtil)",
+    "term": "Jack",
     "pronunciation": "djek (má-qui-nas de bor-da-do e-le-trô-ni-co e au-to-ma-ção têx-til)",
     "letter": "J",
     "level": "Intermediário a Avançado 🟡🔴",
@@ -7155,7 +7155,7 @@ export const VERBETES_LETTER_J: Verbete[] = [
     "id": "j-jogos-de-cama-lencois-e-fronhas-percal-ajour",
     "code": "J-104",
     "letter": "J",
-    "term": "Jogos de Cama, Lençóis e Fronhas (Bordados em Percal Nobre, Cetim de Algodão & Ponto Ajour)",
+    "term": "Jogos de Cama, Lençóis e Fronhas",
     "pronunciation": "jo-gus de ca-ma, len-sóis e fron-has (ˈʒɔɡuz dʒi ˈkɐmɐ)",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",

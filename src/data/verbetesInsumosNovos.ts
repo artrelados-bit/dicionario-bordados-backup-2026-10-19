@@ -373,7 +373,7 @@ export const NOVOS_VERBETES_INSUMOS: Verbete[] = [
   {
     "id": "l-099-linha-bordado-numero-60-microfio",
     "code": "L-099",
-    "term": "Linha de Bordado Nº 60 / Microfio para Letras Miúdas e Detalhes Extremos (Micro-Thread)",
+    "term": "Linha Microfio Nº 60 para Letras Miúdas",
     "letter": "L",
     "level": "🟡 Intermediário",
     "category": "Agulhas & Fios",

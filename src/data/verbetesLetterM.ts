@@ -4,7 +4,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-001-matriz-de-bordado-arquivo-programacao-punching",
     "code": "M-001",
-    "term": "Matriz de Bordado (Embroidery Design File / Digitized Stitch Pattern)",
+    "term": "Matriz de Bordado",
     "letter": "M",
     "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
@@ -72,7 +72,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-002-malha-tecidos-elasticos-jersey-knit-embroidery",
     "code": "M-002",
-    "term": "Malha e Tecidos Elásticos (Knit Fabrics, Jersey & Stretch Embroidery)",
+    "term": "Malha e Tecidos Elásticos",
     "letter": "M",
     "level": "Fundamental 🟢",
     "category": "Tipos de Tecidos",
@@ -140,7 +140,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-003-microtex-agulha-ponta-aguda-micro-sharp-needle",
     "code": "M-003",
-    "term": "Microtex e Agulhas Ponta Aguda (Microtex / Micro-Sharp Precision Needles)",
+    "term": "Microtex e Agulhas Ponta Aguda",
     "letter": "M",
     "level": "Fundamental 🟢",
     "category": "Agulhas & Fios",
@@ -209,7 +209,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-004-mola-estica-fio-mola-compensacao-check-spring",
     "code": "M-004",
-    "term": "Mola Estica-Fio e Mola de Compensação (Take-up Spring / Thread Check Spring)",
+    "term": "Mola Estica-Fio e Mola de Compensação",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -273,7 +273,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-005-monograma-letras-tipografia-lettering-monogram",
     "code": "M-005",
-    "term": "Monograma e Tipografia de Bordado (Monogram, Lettering & Embroidery Typography)",
+    "term": "Monograma e Tipografia de Bordado",
     "letter": "M",
     "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
@@ -339,7 +339,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-006-manta-acrilica-r1-r2-quilting-fleece-wadding",
     "code": "M-006",
-    "term": "Manta Acrílica R1 e R2 (Fusible Quilted Fleece / Wadding & Batting)",
+    "term": "Manta Acrílica R1 e R2",
     "letter": "M",
     "level": "Fundamental 🟢",
     "category": "Estabilizadores & Entretelas",
@@ -405,7 +405,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-007-maquina-monocabeca-monoelemento-single-head-machine",
     "code": "M-007",
-    "term": "Máquina Monocabeça / Monoelemento (Single-Head Embroidery Machine)",
+    "term": "Máquina de Bordar Monocabeça",
     "letter": "M",
     "level": "Fundamental 🟢",
     "category": "Componentes da Máquina",
@@ -471,7 +471,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-008-maquina-multicabecas-industrial-multi-head-machine",
     "code": "M-008",
-    "term": "Máquina Multicabeças / Industrial (Multi-Head Industrial Embroidery Machine)",
+    "term": "Máquina de Bordar Multicabeças",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -537,7 +537,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-009-motor-de-passo-servo-motor-eixos-x-y-stepper-servo",
     "code": "M-009",
-    "term": "Motor de Passo e Servo Motor dos Eixos X e Y (Stepper & Servo Motors - X/Y Axes)",
+    "term": "Motor de Passo e Servo Motor dos Eixos X e Y",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -603,7 +603,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-010-mola-tensao-caixa-bobina-tension-leaf-spring",
     "code": "M-010",
-    "term": "Mola de Tensão da Caixa de Bobina (Bobbin Case Tension Leaf Spring)",
+    "term": "Mola de Tensão da Caixa de Bobina",
     "letter": "M",
     "level": "Intermediário 🟡",
     "category": "Componentes da Máquina",
@@ -669,7 +669,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-011-manutencao-preventiva-lubrificacao-programada-oil-schedule",
     "code": "M-011",
-    "term": "Manutenção Preventiva e Lubrificação Programada (Preventive Maintenance & Oil Schedule)",
+    "term": "Manutenção Preventiva e Lubrificação Programada",
     "letter": "M",
     "level": "Fundamental 🟢",
     "category": "Manutenção & Cuidados",
@@ -735,7 +735,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-012-marcacao-centro-gabarito-posicionamento-placement-template",
     "code": "M-012",
-    "term": "Marcação de Centro e Gabarito de Posicionamento (Center Marking & Placement Template)",
+    "term": "Marcação de Centro e Gabarito de Posicionamento",
     "letter": "M",
     "level": "Fundamental 🟢",
     "category": "Técnicas de Bastidor",
@@ -800,7 +800,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-013-microfibra-tecidos-sinteticos-felpudos-microfiber-suede",
     "code": "M-013",
-    "term": "Microfibra e Tecidos Sintéticos Felpudos (Microfiber & Suede Fabrics)",
+    "term": "Microfibra e Tecidos Sintéticos Felpudos",
     "letter": "M",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -865,7 +865,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-014-mosaico-pontos-pontos-programados-pattern-motif-fill",
     "code": "M-014",
-    "term": "Mosaico de Pontos e Pontos Programados (Pattern Fill / Motif Fill / Carving Stamp)",
+    "term": "Mosaico de Pontos e Pontos Programados",
     "letter": "M",
     "level": "Intermediário 🟡",
     "category": "Programação de Bordado",
@@ -930,7 +930,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-015-madeira-bordado-madeira-perfurada-wood-embroidery",
     "code": "M-015",
-    "term": "Madeira e Bordado em Lâminas de Madeira (Wood Embroidery & Perforated Veneer)",
+    "term": "Madeira e Bordado em Lâminas de Madeira",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Materiais Especiais",
@@ -996,7 +996,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-016-mola-retorno-barra-agulha-needle-bar-return-spring",
     "code": "M-016",
-    "term": "Mola de Retorno da Barra de Agulha (Needle Bar Return Spring / Recoil Spring)",
+    "term": "Mola de Retorno da Barra de Agulha",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -1062,7 +1062,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-017-medidor-tensao-digital-dinamometro-tension-gauge",
     "code": "M-017",
-    "term": "Medidor de Tensão Digital e Dinamômetro (Digital Tension Gauge & Transducer)",
+    "term": "Medidor de Tensão Digital e Dinamômetro",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Equipamentos & Acessórios",
@@ -1128,7 +1128,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-018-memoria-interna-buffer-processamento-internal-memory-buffer",
     "code": "M-018",
-    "term": "Memória Interna e Buffer de Processamento da Máquina (Internal Memory & CNC Buffer)",
+    "term": "Memória Interna e Buffer de Processamento da Máquina",
     "letter": "M",
     "level": "Intermediário 🟡",
     "category": "Eletrônica & Software",
@@ -1194,7 +1194,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-019-matriz-vetorial-vs-matriz-pontos-expanded-stitch-file",
     "code": "M-019",
-    "term": "Matriz Vetorial vs. Matriz de Pontos Puncionada (Vector Objects vs. Expanded Stitch Files)",
+    "term": "Matriz Vetorial vs. Matriz de Pontos Puncionada",
     "letter": "M",
     "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
@@ -1260,7 +1260,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-020-multi-bandeira-bastidor-multiplos-campos-multi-position-hoop",
     "code": "M-020",
-    "term": "Multi-Bandeira e Bastidor de Múltiplos Campos (Multi-Position & Multi-Window Hoops)",
+    "term": "Multi-Bandeira e Bastidor de Múltiplos Campos",
     "letter": "M",
     "level": "Intermediário 🟡",
     "category": "Técnicas de Bastidor",
@@ -1325,7 +1325,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-021-minky-plush-tecido-soft-ultramacio-high-pile-fleece",
     "code": "M-021",
-    "term": "Minky, Plush e Tecidos Soft Ultramacios (Minky, Cuddle Plush & High-Pile Fabrics)",
+    "term": "Minky, Plush e Tecidos Soft Ultramacios",
     "letter": "M",
     "level": "Fundamental 🟢",
     "category": "Tipos de Tecidos",
@@ -1392,7 +1392,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-022-molde-ponto-cruz-digital-cross-stitch-grid",
     "code": "M-022",
-    "term": "Molde de Ponto Cruz Digital (Digital Cross-Stitch Grid & Chart Digitizing)",
+    "term": "Molde de Ponto Cruz Digital",
     "letter": "M",
     "level": "Intermediário 🟡",
     "category": "Programação de Bordado",
@@ -1458,7 +1458,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-023-mola-conica-discos-tensores-superiores-conical-tension-spring",
     "code": "M-023",
-    "term": "Mola Cônica dos Discos Tensores Superiores (Tension Conical Compression Spring)",
+    "term": "Mola Cônica dos Discos Tensores Superiores",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -1523,7 +1523,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-024-micro-letras-fontes-pequenas-small-text-digitizing",
     "code": "M-024",
-    "term": "Micro-Letras e Fontes Pequenas (Micro-Lettering & Small Text Digitizing)",
+    "term": "Micro-Letras e Fontes Pequenas",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
@@ -1589,7 +1589,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-025-mapeamento-cores-paleta-fios-thread-chart-color-mapping",
     "code": "M-025",
-    "term": "Mapeamento de Cores e Paleta de Fios (Color Mapping & Thread Chart Palette)",
+    "term": "Mapeamento de Cores e Paleta de Fios",
     "letter": "M",
     "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
@@ -1655,7 +1655,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-026-mascara-recorte-aplique-in-the-hoop-cut-mask",
     "code": "M-026",
-    "term": "Máscara de Recorte e Aplique In The Hoop (Cut Mask & ITH Appliqué Boundary)",
+    "term": "Máscara de Recorte e Aplique In The Hoop",
     "letter": "M",
     "level": "Fundamental 🟢",
     "category": "Técnicas de Aplique & ITH",
@@ -1721,7 +1721,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-027-movimento-pantografo-resolucao-eixos-pulse-resolution",
     "code": "M-027",
-    "term": "Movimento do Pantógrafo e Resolução de Eixos (Pantograph Kinematics & CNC Pulse Resolution)",
+    "term": "Movimento do Pantógrafo e Resolução de Eixos",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Eletrônica & Software",
@@ -1787,7 +1787,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-028-matriz-conexao-pontos-salto-ocultos-branching-hidden-travel",
     "code": "M-028",
-    "term": "Matriz de Conexão e Pontos de Salto Ocultos (Branching & Hidden Travel Stitching)",
+    "term": "Matriz de Conexão e Pontos de Salto Ocultos",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
@@ -1853,7 +1853,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-029-manta-termica-manta-silicone-prensa-heat-press-mat",
     "code": "M-029",
-    "term": "Manta Térmica e Manta de Silicone para Prensa (Silicone Heat Press Mat & Thermal Pad)",
+    "term": "Manta Térmica e Manta de Silicone para Prensa",
     "letter": "M",
     "level": "Intermediário 🟡",
     "category": "Equipamentos & Acessórios",
@@ -1919,7 +1919,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-030-mecanismo-troca-automatica-cores-auto-color-change-cam",
     "code": "M-030",
-    "term": "Mecanismo de Troca Automática de Cores (Auto Color Change Cam & Solenoid System)",
+    "term": "Mecanismo de Troca Automática de Cores",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -1985,7 +1985,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-031-moletom-tecidos-felpados-pesados-fleece-sweatshirt",
     "code": "M-031",
-    "term": "Moletom e Tecidos Felpados Pesados (Sweatshirt, Heavy Fleece & French Terry)",
+    "term": "Bordado em Moletom e Tecidos Felpados",
     "letter": "M",
     "level": "Fundamental 🟢",
     "category": "Tipos de Tecidos",
@@ -2052,7 +2052,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-032-micro-pontos-fixacao-nos-travamento-lock-stitches-tie",
     "code": "M-032",
-    "term": "Micro-Pontos de Fixação e Nós de Travamento (Lock Stitches, Tie-in & Tie-off Stitches)",
+    "term": "Micro-Pontos e Nós de Travamento",
     "letter": "M",
     "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
@@ -2118,7 +2118,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-033-modificador-densidade-automatico-density-scaler",
     "code": "M-033",
-    "term": "Modificador de Densidade Automático por Proporção (Auto-Density & Density Scaler)",
+    "term": "Modificador Automático de Densidade",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
@@ -2183,7 +2183,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-034-mola-prensa-fio-suporte-linhas-thread-retainer-spring",
     "code": "M-034",
-    "term": "Mola Prensa-Fio do Suporte de Linhas (Thread Retainer Spring / Clip)",
+    "term": "Mola Prensa-Fio do Suporte de Linhas",
     "letter": "M",
     "level": "Intermediário 🟡",
     "category": "Componentes da Máquina",
@@ -2248,7 +2248,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-035-matriz-multicamadas-sobreposicao-compensacao-multi-layer",
     "code": "M-035",
-    "term": "Matriz Multicamadas e Sobreposição com Compensação (Multi-Layer Stitching & Push-Pull Shift)",
+    "term": "Matriz Multicamadas com Compensação",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
@@ -2314,7 +2314,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-036-materia-prima-seda-pura-musseline-silk-chiffon",
     "code": "M-036",
-    "term": "Matéria-Prima: Seda Pura e Musseline Fina (Pure Silk, Chiffon & Georgette Substrates)",
+    "term": "Bordado em Seda Pura e Musseline",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Tipos de Tecidos",
@@ -2382,7 +2382,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-055-matriz-preenchimento-degrade-circular-radial-spiral",
     "code": "M-055",
-    "term": "Matriz com Preenchimento Degradê Circular e Radial (Radial, Spiral & Circular Gradient Fill Digitizing)",
+    "term": "Preenchimento Degradê Circular e Radial",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
@@ -2448,7 +2448,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-056-modulo-corta-fio-chapa-agulha-faca-movel-trimmer",
     "code": "M-056",
-    "term": "Módulo Corta-Fio de Chapa de Agulha e Faca Móvel (Underbed Thread Trimmer & Movable Knife Mechanism)",
+    "term": "Mecanismo Corta-Fio e Faca Móvel",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -2515,7 +2515,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-057-matriz-falso-richelieu-cutwork-bastidor-embroidery",
     "code": "M-057",
-    "term": "Matriz de Falso Richelieu / Cutwork no Bastidor (Embroidered Cutwork & Faux Richelieu Digitizing)",
+    "term": "Falso Richelieu e Cutwork no Bastidor",
     "letter": "M",
     "level": "Fundamental 🟢",
     "category": "Técnicas de Bordado",
@@ -2582,7 +2582,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-058-medidor-tensao-mecanica-tensiometro-toway-towa-gauge",
     "code": "M-058",
-    "term": "Medidor de Tensão Mecânica de Linha - Tensiómetro Towa (Towa Digital/Mechanical Bobbin & Upper Thread Tension Gauge)",
+    "term": "Tensiômetro de Linha Towa",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Equipamentos & Acessórios",
@@ -2650,7 +2650,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-059-malha-ribana-canelada-golas-punhos-rib-knit",
     "code": "M-059",
-    "term": "Malha Ribana / Canelada e Bordado em Golas/Punhos (Rib Knit & Collar/Cuff Embroidery Stabilization)",
+    "term": "Bordado em Golas e Malha Ribana",
     "letter": "M",
     "level": "Fundamental 🟢",
     "category": "Tipos de Tecidos",
@@ -2718,7 +2718,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-060-modificador-ponto-curvo-cantos-franceses-mitra-cornering",
     "code": "M-060",
-    "term": "Modificador de Ponto Curvo Inteligente - Cantos Franceses e Mitra (Smart Cornering, Mitered Corners & French Corners)",
+    "term": "Modificador de Ponto Curvo Inteligente",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
@@ -2785,7 +2785,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-061-matriz-quilt-computadorizado-borda-infinita-continuous-quilting",
     "code": "M-061",
-    "term": "Matriz de Quilt Computadorizado e Borda Infinita (Continuous Edge-to-Edge Quilting & Pantograph Digitizing)",
+    "term": "Quilting Computadorizado e Borda Infinita",
     "letter": "M",
     "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
@@ -2852,7 +2852,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-062-mapeamento-de-tensao-dinamica-e-sensor-optico-de-fio",
     "code": "M-062",
-    "term": "Mapeamento de Tensão Dinâmica e Sensor Óptico de Fio (Dynamic Thread Tension Mapping & Optical Break Sensor)",
+    "term": "Mapeamento de Tensão Dinâmica de Fio",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Comandos de Máquina",
@@ -2916,7 +2916,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-063-moire-textil-e-intercorrencias-de-angulo-em-tecidos-listrados",
     "code": "M-063",
-    "term": "Moiré Têxtil, Interferência Óptica e Ângulos Críticos em Tecidos Estruturados (Textile Moiré Pattern Interference)",
+    "term": "Efeito Moiré e Interferência Óptica",
     "letter": "M",
     "level": "Intermediário 🟡",
     "category": "Teoria & Fundamentos",
@@ -2981,7 +2981,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-064-microfibra-de-alta-densidade-e-camurca-sintetica-no-bastidor",
     "code": "M-064",
-    "term": "Microfibra de Alta Densidade, Camurça Sintética e Suede no Bastidor (High-Density Microfiber & Synthetic Suede)",
+    "term": "Bordado em Suede e Camurça Sintética",
     "letter": "M",
     "level": "Fundamental 🟢",
     "category": "Tecidos & Substratos",
@@ -3047,7 +3047,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-065-matriz-com-compensacao-parabolica-de-elasticidade",
     "code": "M-065",
-    "term": "Matriz com Compensação Parabólica de Elasticidade em Malhas (Parabolic Elasticity Compensation in Knitwear)",
+    "term": "Compensação de Elasticidade em Malhas",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
@@ -3112,7 +3112,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-066-manutencao-e-calibracao-do-cortador-automatico-de-linha-trimmer",
     "code": "M-066",
-    "term": "Manutenção, Alinhamento e Calibração do Cortador Automático de Linha (Automatic Thread Trimmer Maintenance & Blade Timing)",
+    "term": "Calibração do Cortador Automático de Linha",
     "letter": "M",
     "level": "Intermediário 🟡",
     "category": "Mecânica & Ajustes",
@@ -3177,7 +3177,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-067-microfibra-e-tecidos-dry-fit-tecnicas-de-fixacao-e-bordado",
     "code": "M-067",
-    "term": "Microfibra e Tecidos Dry-Fit: Técnicas de Fixação e Bordado (Microfiber & Moisture-Wicking Dry-Fit Digitizing)",
+    "term": "Bordado em Tecidos Dry-Fit e Microfibra",
     "letter": "M",
     "level": "Intermediário 🟡",
     "category": "Técnicas de Bordado",
@@ -3240,7 +3240,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-068-muelle-de-tira-hilo-e-mola-de-compensacao-de-tensao-superior",
     "code": "M-068",
-    "term": "Muelle de Tira-Hilo e Mola de Compensação de Tensão Superior (Check Spring / Thread Take-Up Auxiliary Spring)",
+    "term": "Mola de Compensação do Estica-Fio",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -3303,7 +3303,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-069-marca-dagua-e-assinatura-digital-em-arquivos-de-matriz",
     "code": "M-069",
-    "term": "Marca d'Água e Assinatura Digital em Arquivos de Matriz (Digital Watermarking & Embroidery File Copyright Tagging)",
+    "term": "Marca d'Água e Assinatura Digital na Matriz",
     "letter": "M",
     "level": "Iniciante 🟢",
     "category": "Gestão do Ateliê e Produção",
@@ -3366,7 +3366,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-070-mosaico-de-lantejoulas-e-dispositivo-de-paetes-duplos-reversiveis",
     "code": "M-070",
-    "term": "Mosaico de Lantejoulas e Dispositivo de Paetês Duplos/Reversíveis (Sequin Mosaic & Dual Reversible Sequin Device)",
+    "term": "Mosaico de Lantejoulas e Paetês Duplos",
     "letter": "M",
     "level": "Intermediário 🟡",
     "category": "Acessórios e Dispositivos Especiais",
@@ -3430,7 +3430,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-071-modulacao-de-largura-de-pulso-pwm-no-controle-de-motores",
     "code": "M-071",
-    "term": "Modulação de Largura de Pulso (PWM) no Controle de Motores (Pulse Width Modulation in Embroidery Actuators & Motors)",
+    "term": "Modulação PWM no Controle de Motores",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Eletrônica da Máquina",
@@ -3493,7 +3493,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-072-matriz-monocromatica-e-tecnicas-de-redwork-blackwork-computadorizado",
     "code": "M-072",
-    "term": "Matriz Monocromática e Técnicas de Redwork/Blackwork Computadorizado (Monochrome Embroidery, Redwork & Blackwork Digitizing)",
+    "term": "Matrizes Monocromáticas Redwork e Blackwork",
     "letter": "M",
     "level": "Iniciante 🟢",
     "category": "Programação de Bordado",
@@ -3556,7 +3556,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-073-mapeamento-de-tensao-por-dinamometro-tensiometro-towa",
     "code": "M-073",
-    "term": "Mapeamento de Tensão por Dinamômetro Tensiômetro Towa (Towa Tension Gauge Thread Mapping Workflow)",
+    "term": "Calibração de Tensão com Tensiômetro Towa",
     "letter": "M",
     "level": "Intermediário 🟡",
     "category": "Ferramentas do Bordador",
@@ -3620,7 +3620,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-074-mesa-de-extensao-tubular-e-suporte-pantografico-de-braco-livre",
     "code": "M-074",
-    "term": "Mesa de Extensão Tubular e Suporte Pantográfico de Braço Livre (Tubular Extension Table & Free-Arm Embroidery Support)",
+    "term": "Mesa de Extensão Tubular de Braço Livre",
     "letter": "M",
     "level": "Iniciante 🟢",
     "category": "Insumos e Acessórios",
@@ -3683,7 +3683,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-075-micro-perfuracao-em-couro-e-vinil",
     "code": "M-075",
-    "term": "Micro-Perfuração em Couro & Vinil (Laser & Punching Perforation)",
+    "term": "Microperfuração em Couro e Vinil",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Tipos de Tecidos",
@@ -3819,7 +3819,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-076-matriz-com-ponto-franja-fringe-stitch-3d-fluff",
     "code": "M-076",
-    "term": "Matriz com Ponto Franja / Fringe Stitch (3D Fluff Effect)",
+    "term": "Matriz com Ponto Franja em Alto-Relevo",
     "letter": "M",
     "level": "Intermediário 🟡",
     "category": "Tipos de Pontos",
@@ -3955,7 +3955,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-077-manutencao-de-rolamentos-e-guias-lineares-do-pantografo",
     "code": "M-077",
-    "term": "Manutenção de Rolamentos & Guias Lineares do Pantógrafo (Linear Guides & Bearing Maintenance)",
+    "term": "Manutenção de Guias Lineares do Pantógrafo",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
@@ -4090,7 +4090,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-078-manta-termica-de-teflon-para-termocolagem-e-apliques",
     "code": "M-078",
-    "term": "Manta Térmica de Teflon para Termocolagem & Apliques (PTFE Teflon Heat Press Sheet)",
+    "term": "Manta Térmica de Teflon para Termocolagem",
     "letter": "M",
     "level": "Iniciante 🟢",
     "category": "Equipamentos & Acessórios",
@@ -4225,7 +4225,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-079-micro-bordado-em-alta-definicao",
     "code": "M-079",
-    "term": "Micro-Bordado em Alta Definição (Micro-Embroidery & Watchmaking Badges)",
+    "term": "Microbordado em Alta Definição",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Técnicas Especiais",
@@ -4361,7 +4361,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-080-matriz-para-ponto-richelieu-com-lamina-de-corte-no-cabecote",
     "code": "M-080",
-    "term": "Matriz para Ponto Richelieu com Lâmina de Corte no Cabeçote (Cutwork Needles & Richelieu Digitizing)",
+    "term": "Matriz para Richelieu com Lâmina de Corte",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Digitalização & Software",
@@ -4496,7 +4496,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-081-malha-flame-e-tecidos-com-fios-irregulares",
     "code": "M-081",
-    "term": "Malha Flamê & Tecidos com Fios Irregulares (Slub Knit & Irregular Yarn Fabrics)",
+    "term": "Bordado em Malha Flamê e Fios Irregulares",
     "letter": "M",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -4632,7 +4632,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-082-modulacao-de-angulo-em-degraus-step-angle-curved-satin",
     "code": "M-082",
-    "term": "Modulação de Ângulo em Degraus (Step Angle & Curved Satin Transitions)",
+    "term": "Modulação de Ângulo em Degraus",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Digitalização & Software",
@@ -4766,7 +4766,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-083-manta-siliconada-e-estruturacao-em-matelasse-tridimensional",
     "code": "M-083",
-    "term": "Manta Siliconada & Estruturação em Matelassê Tridimensional (Siliconized Batting & 3D Trapunto Quilting)",
+    "term": "Manta Siliconada e Matelassê Tridimensional",
     "letter": "M",
     "level": "Intermediário 🟡",
     "category": "Estabilizadores & Entretelas",
@@ -4901,7 +4901,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-084-micro-ajuste-de-folga-do-bico-da-lancadeira-rotary-hook-clearance",
     "code": "M-084",
-    "term": "Micro-Ajuste de Folga do Bico da Lançadeira (Rotary Hook Clearance & Deflection Gap)",
+    "term": "Ajuste de Folga do Bico da Lançadeira",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
@@ -5036,7 +5036,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-085-matriz-com-pontos-de-conexao-rapida-smart-branching",
     "code": "M-085",
-    "term": "Matriz com Pontos de Conexão Rápida / Smart Branching (Automated Branching & Hidden Connectors)",
+    "term": "Ramificação Inteligente de Conexões",
     "letter": "M",
     "level": "Intermediário 🟡",
     "category": "Digitalização & Software",
@@ -5171,7 +5171,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-086-microfibra-dry-fit-com-elastano",
     "code": "M-086",
-    "term": "Microfibra Dry-Fit com Elastano (High-Performance Activewear & Spandex)",
+    "term": "Bordado em Microfibra Dry-Fit com Elastano",
     "letter": "M",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -5307,7 +5307,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-087-monofilamento-termossoluvel-melt-away-basting-thread",
     "code": "M-087",
-    "term": "Monofilamento Termossolúvel (Melt-Away Basting Thread & Heat-Sensitive Yarn)",
+    "term": "Monofilamento Termossolúvel",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Linhas & Fios",
@@ -5441,7 +5441,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-088-matriz-de-bordado-em-alto-relevo-com-multiplas-camadas-de-eva",
     "code": "M-088",
-    "term": "Matriz de Bordado em Alto Relevo com Múltiplas Camadas de EVA (Multi-Layer 3D Foam)",
+    "term": "Bordado em Alto Relevo com EVA Multicamadas",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Técnicas Especiais",
@@ -5577,7 +5577,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-089-manutencao-eletrica-de-solenoides-de-corte-e-selecao-de-cor",
     "code": "M-089",
-    "term": "Manutenção Elétrica de Solenoides de Corte & Seleção de Cor (Solenoid Actuators & Trimmer Coils)",
+    "term": "Solenoides de Corte e Troca de Cor",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
@@ -5712,7 +5712,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-090-musseline-de-seda-e-gaze-de-algodao",
     "code": "M-090",
-    "term": "Musseline de Seda & Gaze de Algodão (Ultra-Sheer Fabric Embroidery)",
+    "term": "Bordado em Musseline e Gaze de Algodão",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Tipos de Tecidos",
@@ -5848,7 +5848,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-091-marcador-optico-a-laser-para-encaixe-de-matrizes-grandes",
     "code": "M-091",
-    "term": "Marcador Óptico a Laser para Encaixe de Matrizes Grandes (Crosshair Laser Positioning)",
+    "term": "Marcador Laser para Encaixe de Matrizes",
     "letter": "M",
     "level": "Intermediário 🟡",
     "category": "Equipamentos & Acessórios",
@@ -5982,7 +5982,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-092-matriz-de-ponto-apanhado-com-fios-grossos-machine-couching-stitch",
     "code": "M-092",
-    "term": "Matriz de Ponto Apanhado com Fios Grossos / Machine Couching Stitch (Cording & Yarn Attachment)",
+    "term": "Ponto Apanhado com Fios Grossos e Cordões",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Tipos de Pontos",
@@ -6118,7 +6118,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-093-manutencao-de-sensores-de-rotacao-de-linha-encoder-wheels",
     "code": "M-093",
-    "term": "Manutenção de Sensores de Rotação de Linha (Encoder Wheels & Optical Sensors)",
+    "term": "Sensores de Rotação e Passagem de Linha",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
@@ -6253,7 +6253,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-094-manta-r1-resinada-para-patchwork-embutido-e-quilt-no-bastidor",
     "code": "M-094",
-    "term": "Manta R1 Resinada para Patchwork Embutido & Quilt no Bastidor (Fusible Fleece R1 Batting)",
+    "term": "Manta Resinada R1 para Quilt no Bastidor",
     "letter": "M",
     "level": "Iniciante 🟢",
     "category": "Estabilizadores & Entretelas",
@@ -6388,7 +6388,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-095-matriz-com-efeito-esculpido-em-baixo-relevo-carving-stamp",
     "code": "M-095",
-    "term": "Matriz com Efeito Esculpido em Baixo Relevo / Carving Stamp & Pattern Fill",
+    "term": "Efeito Esculpido em Baixo-Relevo no Ponto Cheio",
     "letter": "M",
     "level": "Intermediário 🟡",
     "category": "Digitalização & Software",
@@ -6524,7 +6524,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-096-modulo-de-troca-de-bobina-rapida-e-caixas-de-bobina-jumbo",
     "code": "M-096",
-    "term": "Módulo de Troca de Bobina Rápida & Caixas de Bobina Jumbo (Jumbo Rotary Hooks)",
+    "term": "Caixas de Bobina Jumbo e Troca Rápida",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
@@ -6660,7 +6660,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-097-malha-suplex-e-tecidos-de-compressao",
     "code": "M-097",
-    "term": "Malha Suplex & Tecidos de Compressão (Supplex & Heavy Compression Fabrics)",
+    "term": "Bordado em Suplex e Tecidos de Compressão",
     "letter": "M",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -6796,7 +6796,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-098-modulacao-de-velocidade-curva-em-cantos-agudos",
     "code": "M-098",
-    "term": "Modulação de Velocidade Curva em Cantos Agudos (Corner Speed Deceleration)",
+    "term": "Desaceleração Automática em Cantos Agudos",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Digitalização & Software",
@@ -6931,7 +6931,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-099-manutencao-de-molas-e-hastes-dos-calcadores-independentes",
     "code": "M-099",
-    "term": "Manutenção de Molas & Hastes dos Calcadores Independentes (Independent Presser Foot Springs & Bars)",
+    "term": "Molas e Hastes dos Calcadores",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
@@ -7066,7 +7066,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-100-mapeamento-termico-de-cabecotes-e-diagnostico-de-sobrecarga-mecanica",
     "code": "M-100",
-    "term": "Mapeamento Térmico de Cabeçotes & Diagnóstico de Sobrecarga Mecânica (Thermal Imaging Diagnostics)",
+    "term": "Diagnóstico Térmico do Cabeçote",
     "letter": "M",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
@@ -7200,7 +7200,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-101-melco-maquinas-de-bordado-eletronico",
     "code": "M-101",
-    "term": "Melco (Máquinas de Bordado Eletrônico)",
+    "term": "Melco",
     "pronunciation": "mel-co (má-qui-nas de bor-da-do e-le-trô-ni-co)",
     "letter": "M",
     "level": "Intermediário a Avançado 🟡🔴",
@@ -7303,7 +7303,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-102-mola-tira-fio-mola-de-compensacao-check-spring",
     "code": "M-102",
-    "term": "Mola Tira-Fio / Mola de Compensação (Check Spring / Take-Up Spring)",
+    "term": "Mola de Compensação do Estica-Fio",
     "pronunciation": "mó-la ti-ra-fi-o / mó-la de com-pen-sa-ção (tché-ki sprin-gui)",
     "letter": "M",
     "level": "Intermediário a Avançado 🟡🔴",
@@ -7403,7 +7403,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-103-mola-de-compressao-do-pe-calcador-amortecedor",
     "code": "M-103",
-    "term": "Mola de Compressão do Pé Calcador e Amortecedor (Presser Foot Spring & Cushion Assembly)",
+    "term": "Mola de Compressão do Pé Calcador",
     "pronunciation": "mó-la de com-pres-são do pé cal-ca-dor e a-mor-te-ce-dor (pré-sser fut spring end cú-shon as-sém-bli)",
     "letter": "M",
     "level": "Intermediário a Avançado 🟡🔴",
@@ -7504,7 +7504,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-104-mola-tensao-retorno-pega-fio-tensor-check-spring",
     "code": "M-104",
-    "term": "Mola de Tensão de Retorno / Mola Pega-Fio do Tensor (Check Spring / Take-Up Spring)",
+    "term": "Mola de Tensão de Retorno do Tensor",
     "pronunciation": "mó-la de ten-são de re-tór-no / mó-la pé-ga fío do ten-sór (tchék sprin / têik-ap sprin)",
     "letter": "M",
     "level": "Avançado 🔴",
@@ -7606,7 +7606,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-105-mola-retencao-linha-bobina-anti-giro-freio-bobbin-case",
     "code": "M-105",
-    "term": "Mola de Retenção de Linha da Bobina / Mola Anti-Giro da Caixa de Bobina (Bobbin Case Anti-Spin Spring / Brake Spring)",
+    "term": "Mola Anti-Giro da Caixa de Bobina",
     "pronunciation": "mó-la de re-ten-ção de lí-nha da bo-bí-na / mó-la ân-ti jí-ro da cái-sha de bo-bí-na (bó-bin kêis ân-tai spin sprin / brêik sprin)",
     "letter": "M",
     "level": "Intermediário a Avançado 🟡🔴",
@@ -7708,7 +7708,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-106-mola-segura-linha-superior-retentora-pos-corte",
     "code": "M-106",
-    "term": "Mola Segura-Linha Superior do Cabeçote / Mola Retentora de Linha Pós-Corte (Upper Thread Holding Spring & Pick-Up Spring Wire)",
+    "term": "Mola Retentora de Linha Superior",
     "pronunciation": "mó-la se-gú-ra lí-nha su-pe-ri-ór do ka-be-só-te / mó-la re-ten-tó-ra de lí-nha pós-kór-te (á-per thrêd hôul-ding spring end pík-ap spring uáir)",
     "letter": "M",
     "level": "Intermediário 🟡",
@@ -7812,7 +7812,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
   {
     "id": "m-107-mola-retorno-barra-agulha-recuperacao-superior",
     "code": "M-107",
-    "term": "Mola de Retorno da Barra de Agulha / Mola de Recuperação Superior (Needle Bar Return Spring & Recoil Spring)",
+    "term": "Mola de Retorno da Barra de Agulhas",
     "pronunciation": "mó-la de re-tór-nu da bár-ra de a-gú-lha / mó-la de re-ku-pe-ra-sãw su-pe-ri-ór (ní-dl bar ri-têrn spring end rí-kóil spring)",
     "letter": "M",
     "level": "Intermediário 🟡",
@@ -7917,7 +7917,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
     "id": "m-manta-e-cueiro-de-bebe-enxoval-personalizado",
     "code": "M-109",
     "letter": "M",
-    "term": "Manta e Cueiro de Bebê (Personalização com Dados de Nascimento em Tecidos Nobres e Aveludados)",
+    "term": "Manta e Cueiro de Bebê Personalizados",
     "pronunciation": "man-ta e cuei-ru de be-bê (ˈmɐ̃tɐ i kuˈe(j)ɾu dʒi beˈbe)",
     "level": "Intermediário 🟡",
     "category": "Elementos do Bordado",
@@ -7985,7 +7985,7 @@ export const VERBETES_LETTER_M: Verbete[] = [
     "id": "m-mascaras-de-descanso-e-porta-passaportes-ith-viagem",
     "code": "M-110",
     "letter": "M",
-    "term": "Máscaras de Descanso e Porta-Passaportes ITH (Acessórios Acolchoados de Viagem Feitos no Bastidor)",
+    "term": "Máscaras de Dormir e Acessórios ITH",
     "pronunciation": "más-ca-ras de des-can-su e por-ta pas-sa-por-tes (ˈmaskaɾɐz dʒi dʒisˈkɐ̃sw)",
     "level": "Intermediário 🟡",
     "category": "Técnicas de Bastidor",

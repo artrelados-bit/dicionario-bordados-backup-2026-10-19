@@ -4,7 +4,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-001-lacada-lancadeira-formacao-ponto-fixo-lockstitch",
     "code": "L-001",
-    "term": "Laçada da Lançadeira / Formação de Laçada (Loop Formation / Rotary Hook Catch)",
+    "term": "Formação de Laçada na Lançadeira",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -71,7 +71,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-002-lancadeira-rotativa-gancho-giratorio-rotary-hook",
     "code": "L-002",
-    "term": "Lançadeira Rotativa (Rotary Hook / Hook Race Assembly)",
+    "term": "Lançadeira Rotativa",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -137,7 +137,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-003-lancadeira-oscilante-sistema-meia-lua-shuttle-hook",
     "code": "L-003",
-    "term": "Lançadeira Oscilante (Oscillating Shuttle Hook / CB Hook)",
+    "term": "Lançadeira Oscilante",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Componentes da Máquina",
@@ -202,7 +202,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-004-la-de-bordar-fios-acrilicos-burmilana-madeira-lana",
     "code": "L-004",
-    "term": "Lã de Bordar / Fios Acrílicos Felpudos de Relevo (Wool & Acrylic Embroidery Thread / Burmilana / Lana)",
+    "term": "Lã de Bordar e Fios Felpudos de Relevo",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Agulhas & Fios",
@@ -265,7 +265,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-005-lame-tecido-metalico-lurex-foil-applique",
     "code": "L-005",
-    "term": "Lamé (Tecido Metálico Lamé / Lurex Foil Fabric)",
+    "term": "Lamé",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -329,7 +329,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-006-laser-posicionamento-cruz-alinhamento-crosshair-system",
     "code": "L-006",
-    "term": "Laser de Posicionamento e Cruz de Alinhamento (Crosshair Laser Alignment System)",
+    "term": "Laser de Posicionamento e Cruz de Alinhamento",
     "letter": "L",
     "level": "Fundamental 🟢",
     "category": "Componentes da Máquina",
@@ -393,7 +393,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-007-laser-de-corte-integrado-bridge-laser-cutter",
     "code": "L-007",
-    "term": "Laser de Corte Integrado / Ponte Laser de Cabeçote (Bridge Laser / On-Head Laser Cutter)",
+    "term": "Laser de Corte Integrado no Cabeçote",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -457,7 +457,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-008-linha-poliester-trilobal-120-2-embroidery-thread",
     "code": "L-008",
-    "term": "Linha de Bordar de Poliéster Trilobal 120/2 (Trilobal Polyester Embroidery Thread 40wt)",
+    "term": "Linha de Poliéster Trilobal 120",
     "letter": "L",
     "level": "Fundamental 🟢",
     "category": "Agulhas & Fios",
@@ -521,7 +521,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-009-linha-viscose-rayon-brilho-sedoso-maciez-artesanal",
     "code": "L-009",
-    "term": "Linha de Bordar de Viscose / Rayon (Rayon Embroidery Thread / Filamento de Celulose 40wt)",
+    "term": "Linha de Bordar de Viscose e Rayon",
     "letter": "L",
     "level": "Fundamental 🟢",
     "category": "Agulhas & Fios",
@@ -584,7 +584,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-010-linha-de-bobina-canelinha-filament-polyester-60-80wt",
     "code": "L-010",
-    "term": "Linha de Bobina / Fio de Canelinha (Bobbin Thread / Filament Polyester 60-80wt)",
+    "term": "Linha de Bobina e Fio de Canelinha",
     "letter": "L",
     "level": "Fundamental 🟢",
     "category": "Agulhas & Fios",
@@ -647,7 +647,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-011-linha-metalica-fios-lurex-metalizados-brilho-glamour",
     "code": "L-011",
-    "term": "Linha Metálica / Fios Lurex e Metalizados (Metallic Embroidery Thread / Lurex Core Yarn)",
+    "term": "Linha Metálica e Fios Lurex",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Agulhas & Fios",
@@ -712,7 +712,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-012-linha-matizada-multicolorida-variegated-space-dyed",
     "code": "L-012",
-    "term": "Linha Matizada / Multicolorida (Variegated & Space-Dyed Embroidery Thread)",
+    "term": "Linha Matizada e Multicolorida",
     "letter": "L",
     "level": "Fundamental 🟢",
     "category": "Agulhas & Fios",
@@ -775,7 +775,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-013-linha-fotoluminescente-glow-in-the-dark-fosforescente",
     "code": "L-013",
-    "term": "Linha Fotoluminescente / Glow-in-the-Dark (Phosphorescent Embroidery Thread)",
+    "term": "Linha Fotoluminescente que Brilha no Escuro",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Agulhas & Fios",
@@ -837,7 +837,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-014-linha-termocromica-fotocromica-solar-uv-color-changing",
     "code": "L-014",
-    "term": "Linha Termocrômica e Fotocrômica (Solar & UV Color-Changing Embroidery Thread)",
+    "term": "Linha Termocrômica e Fotocrômica",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Agulhas & Fios",
@@ -900,7 +900,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-015-linha-hidrossoluvel-alinhavo-water-soluble-thread",
     "code": "L-015",
-    "term": "Linha Hidrossolúvel de Alinhavo (Water-Soluble Basting Thread / Fio Solúvel em Água)",
+    "term": "Linha Hidrossolúvel de Alinhavo",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Agulhas & Fios",
@@ -962,7 +962,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-016-linha-algodao-mercerizado-egipcio-cotton-thread",
     "code": "L-016",
-    "term": "Linha de Algodão Mercerizado Egípcio (Mercerized Egyptian Cotton Embroidery Thread 30-50wt)",
+    "term": "Linha de Algodão Mercerizado Egípcio",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Agulhas & Fios",
@@ -1025,7 +1025,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-017-linha-condutiva-e-textiles-circuitos-vestiveis-smart-fabrics",
     "code": "L-017",
-    "term": "Linha Condutiva para E-Textiles e Roupas Inteligentes (Conductive Silver & Steel Embroidery Thread)",
+    "term": "Linha Condutiva para E-Textiles e Roupas Inteligentes",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Agulhas & Fios",
@@ -1088,7 +1088,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-018-linho-puro-linho-misto-tecido-nobre-fladres",
     "code": "L-018",
-    "term": "Linho Puro e Linho Misto (Pure Linen & Blended Linen Fabric / Lin de Flandres)",
+    "term": "Linho Puro e Linho Misto",
     "letter": "L",
     "level": "Fundamental 🟢",
     "category": "Tipos de Tecidos",
@@ -1152,7 +1152,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-019-lockstitch-ponto-fixo-duas-linhas-iso-301",
     "code": "L-019",
-    "term": "Lockstitch / Ponto Fixo de Duas Linhas (ISO 301 Stitch Standard)",
+    "term": "Ponto Fixo de Duas Linhas",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Terminologia Geral",
@@ -1216,7 +1216,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-020-locking-stitches-pontos-amarracao-tie-in-tie-off",
     "code": "L-020",
-    "term": "Locking Stitches / Pontos de Amarração (Tie-In & Tie-Off / Trava Inicial e Final)",
+    "term": "Pontos de Amarração e Trava de Segurança",
     "letter": "L",
     "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
@@ -1281,7 +1281,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-021-layering-sobreposicao-estruturada-camadas-underlay-topstitch",
     "code": "L-021",
-    "term": "Layering / Sobreposição Estruturada de Camadas (Underlay to Topstitch Layering)",
+    "term": "Sobreposição Estruturada de Camadas",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
@@ -1345,7 +1345,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-022-lettering-tipografia-fontes-bordado-kerning-compensacao",
     "code": "L-022",
-    "term": "Lettering / Tipografia e Fontes de Bordado (Keyboard Lettering & TrueType Font Digitizing)",
+    "term": "Tipografia e Fontes de Bordado",
     "letter": "L",
     "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
@@ -1410,7 +1410,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-023-lead-in-ponto-entrada-angulo-ataque-entry-point",
     "code": "L-023",
-    "term": "Lead-In / Ponto de Entrada e Ângulo de Ataque (Entry Point / In-Stitch Trajectory)",
+    "term": "Ponto de Entrada e Ângulo de Ataque",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
@@ -1474,7 +1474,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-024-lead-out-ponto-saida-transicao-exit-point",
     "code": "L-024",
-    "term": "Lead-Out / Ponto de Saída e Transição (Exit Point / Out-Stitch Trajectory)",
+    "term": "Ponto de Saída e Transição",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
@@ -1537,7 +1537,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-025-length-comprimento-de-ponto-running-tatami-length",
     "code": "L-025",
-    "term": "Length / Comprimento de Ponto (Stitch Length in Running & Fill Stitches)",
+    "term": "Comprimento de Ponto na Matriz",
     "letter": "L",
     "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
@@ -1600,7 +1600,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-026-lantejoula-dispositivo-aplicacao-sequin-device-twin-feed",
     "code": "L-026",
-    "term": "Lantejoula / Dispositivo Eletrônico de Aplicação de Lantejoulas (Sequin Device / Twin Sequin Feed)",
+    "term": "Dispositivo Eletrônico de Lantejoulas",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -1664,7 +1664,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-027-lese-laise-broderie-anglaise-schiffli-eyelet-lace",
     "code": "L-027",
-    "term": "Lese / Laise / Broderie Anglaise (Schiffli Eyelet Lace Fabric)",
+    "term": "Bordado em Laise e Broderie Anglaise",
     "letter": "L",
     "level": "Fundamental 🟢",
     "category": "Tipos de Tecidos",
@@ -1728,7 +1728,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-028-lastex-linha-elastica-franzidos-smocking-no-bastidor",
     "code": "L-028",
-    "term": "Lastex / Linha Elástica para Franzidos e Smocking no Bastidor (Shirring Elastic Thread)",
+    "term": "Lastex e Franzidos no Bastidor",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Agulhas & Fios",
@@ -1792,7 +1792,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-029-lenceria-acabamento-bainha-aberta-ponto-paris-wing-needle",
     "code": "L-029",
-    "term": "Lenceria / Acabamento de Bainha Aberta e Ponto Paris (Hemstitching & Wing Needle Embroidery)",
+    "term": "Bainha Aberta e Ponto Paris",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Pontos Básicos & Decorativos",
@@ -1858,7 +1858,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-030-lurex-fita-fio-metalizado-alta-refletancia-glamour",
     "code": "L-030",
-    "term": "Lurex / Fita e Fio Metalizado de Alta Refletância (Lurex Metallic Film & Yarn)",
+    "term": "Fio Metalizado e Lurex",
     "letter": "L",
     "level": "Fundamental 🟢",
     "category": "Agulhas & Fios",
@@ -1921,7 +1921,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-037-linha-poliester-60wt-75wt-micro-letras-microfilamento",
     "code": "L-037",
-    "term": "Linha de Poliéster 60wt e 75wt para Micro-Letras (Micro-Filament Embroidery Thread)",
+    "term": "Linha de Poliéster Fina para Micro-Letras",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Agulhas & Fios",
@@ -1985,7 +1985,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-038-lancadeira-capacidade-jumbo-bobina-extra-grande-m-style-l-style",
     "code": "L-038",
-    "term": "Lançadeira de Capacidade Jumbo / Bobina Extra Grande (Jumbo Rotary Hook / M-Style & L-Style Bobbin)",
+    "term": "Lançadeira Jumbo e Bobina Grande",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -2048,7 +2048,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-039-limpeza-preventiva-fiapos-chapa-agulha-manutencao-lint",
     "code": "L-039",
-    "term": "Limpeza Preventiva de Fiapos e Chapa de Agulha (Lint Cleaning & Needle Plate Maintenance)",
+    "term": "Limpeza de Fiapos e Chapa de Agulha",
     "letter": "L",
     "level": "Fundamental 🟢",
     "category": "Manutenção & Mecânica",
@@ -2113,7 +2113,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-040-layout-diagramacao-matrizes-bastidor-composicao-harmonica",
     "code": "L-040",
-    "term": "Layout e Diagramação de Matrizes no Bastidor (Embroidery Layout & Composition Design)",
+    "term": "Diagramação de Matrizes no Bastidor",
     "letter": "L",
     "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
@@ -2177,7 +2177,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-041-long-and-short-stitch-ponto-longo-curto-pintura-agulha-shading",
     "code": "L-041",
-    "term": "Long-and-Short Stitch / Ponto Longo e Curto para Pintura de Agulha (Needle Painting Shading Stitch)",
+    "term": "Ponto Longo e Curto para Pintura de Agulha",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Pontos Básicos & Decorativos",
@@ -2241,7 +2241,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-042-lacre-termico-filme-termocolante-patches-heat-seal-hot-melt",
     "code": "L-042",
-    "term": "Lacre Térmico e Filme Termocolante para Patches (Heat-Seal Adhesive Film & Hot-Melt Backing)",
+    "term": "Termocolante Permanente para Patches",
     "letter": "L",
     "level": "Fundamental 🟢",
     "category": "Estabilizadores & Entretelas",
@@ -2306,7 +2306,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-049-la-linha-grossa-bobina-bobbin-work-reverse-embroidery",
     "code": "L-049",
-    "term": "Lã e Linha Grossa na Bobina (Bobbin Work / Reverse Embroidery with Heavy Wool)",
+    "term": "Linha Grossa na Bobina e Bobbin Work",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Técnicas Especiais",
@@ -2370,7 +2370,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-050-linha-multicolorida-espiralizada-multi-ply-variegated-twist",
     "code": "L-050",
-    "term": "Linha Multicolorida e Espiralizada (Multi-Ply Variegated Twist Thread)",
+    "term": "Linha Multicolorida e Matizada",
     "letter": "L",
     "level": "Fundamental 🟢",
     "category": "Agulhas & Fios",
@@ -2434,7 +2434,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-051-lixeira-fiapos-coletor-magnetico-alfinetes-bancada-seguranca",
     "code": "L-051",
-    "term": "Lixeira de Fiapos e Coletor Magnético de Alfinetes (Lint Bin & Magnetic Pin Sweeper)",
+    "term": "Coletor Magnético e Lixeira de Fiapos",
     "letter": "L",
     "level": "Fundamental 🟢",
     "category": "Ferramentas & Acessórios",
@@ -2498,7 +2498,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-052-linha-resistente-chamas-fogo-flame-retardant-aramid-nomex",
     "code": "L-052",
-    "term": "Linha Resistente a Chamas e Fogo (Flame-Retardant Aramid Thread / Nomex & Kevlar)",
+    "term": "Linha Resistente a Chamas e Fogo",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Agulhas & Fios",
@@ -2562,7 +2562,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-053-limitador-velocidade-aceleracao-angular-speed-limiter-cnc",
     "code": "L-053",
-    "term": "Limitador de Velocidade e Aceleração Angular (Speed Limiter & Corner Slowdown CNC)",
+    "term": "Desaceleração Angular em Curvas",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
@@ -2626,7 +2626,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-054-laminacao-termica-filme-protecao-avesso-comfort-wear",
     "code": "L-054",
-    "term": "Laminação Térmica e Filme de Proteção de Avesso (Comfort-Wear Soft Backing Film / Protetor de Bordado Infantil)",
+    "term": "Filme Termoprotetor de Avesso",
     "letter": "L",
     "level": "Fundamental 🟢",
     "category": "Estabilizadores & Entretelas",
@@ -2690,7 +2690,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-055-lancamento-ponto-compensacao-elastica-salto-stitch-throw",
     "code": "L-055",
-    "term": "Lançamento de Ponto e Compensação Elástica de Salto (Stitch Throw & Jump Elastic Release)",
+    "term": "Compensação Elástica de Salto de Ponto",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
@@ -2754,7 +2754,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-056-lancadeira-eixo-vertical-gancho-vertical-axis-rotary-hook",
     "code": "L-056",
-    "term": "Lançadeira de Eixo Vertical / Gancho Vertical (Vertical-Axis Rotary Hook)",
+    "term": "Lançadeira de Eixo Vertical",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -2818,7 +2818,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-057-linha-retorcida-tres-cabos-fio-3-ply-twisted-embroidery-thread",
     "code": "L-057",
-    "term": "Linha Retorcida de Três Cabos / Fio 3-Ply (Three-Ply Twisted Embroidery Thread)",
+    "term": "Linha de Três Cabos Retorcida",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Agulhas & Fios",
@@ -2882,7 +2882,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-058-limite-perfuracao-densidade-maxima-cm2-stitch-count-density",
     "code": "L-058",
-    "term": "Limite de Perfuração e Densidade Máxima por Centímetro Quadrado (Perforation Limit & Stitch Count Density)",
+    "term": "Limite de Perfuração e Densidade Máxima",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
@@ -2946,7 +2946,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-059-leitor-optico-codigo-barras-matrizes-barcode-scanner-automation",
     "code": "L-059",
-    "term": "Leitor Óptico de Código de Barras para Matrizes (Barcode & QR-Code Scanner Automation)",
+    "term": "Leitor Óptico de Matrizes",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -3010,7 +3010,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-060-lacre-tensao-bobina-medidor-towa-tension-gauge-scale",
     "code": "L-060",
-    "term": "Lacre de Tensão de Bobina e Medidor TOWA (TOWA Bobbin & Top Tension Gauge Scale)",
+    "term": "Medidor de Tensão de Bobina Towa",
     "letter": "L",
     "level": "Fundamental 🟢",
     "category": "Ferramentas & Acessórios",
@@ -3074,7 +3074,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-061-linha-acabamento-richelieu-cordone-duplo-buttonhole-border",
     "code": "L-061",
-    "term": "Linha de Acabamento Richelieu e Cordone Duplo (Richelieu Buttonhole Stitch & Cordonnet Border)",
+    "term": "Linha de Acabamento Richelieu",
     "letter": "L",
     "level": "Fundamental 🟢",
     "category": "Pontos Básicos & Decorativos",
@@ -3139,7 +3139,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-062-lacada-flutuante-e-formacao-deficiente-do-ponto",
     "code": "L-062",
-    "term": "Laçada Flutuante, Ninho de Pássaro e Formação Deficiente do Ponto (Birdnesting & Loop Formation Failure)",
+    "term": "Laçada Flutuante e Ninho de Pássaro",
     "letter": "L",
     "level": "Fundamental 🟢",
     "category": "Problemas & Soluções",
@@ -3205,7 +3205,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-063-linha-metalica-especial-e-fio-metalizado-de-alta-refletividade",
     "code": "L-063",
-    "term": "Linha Metálica Especial, Fio Metalizado de Alta Refletividade e Fio de Lurex (Metallic & Lurex Embroidery Threads)",
+    "term": "Linhas Metálicas e Efeitos Cintilantes",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Agulhas & Fios",
@@ -3273,7 +3273,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-064-lupa-articulada-de-bancada-com-iluminacao-circular",
     "code": "L-064",
-    "term": "Lupa Articulada de Bancada, Lente de Aumento e Iluminação Circular LED (Magnifying Lamp & Optical Inspection Glass)",
+    "term": "Lupa Articulada de Bancada com LED",
     "letter": "L",
     "level": "Fundamental 🟢",
     "category": "Ferramentas & Acessórios",
@@ -3338,7 +3338,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-065-lixamento-e-polimento-microabrasivo-de-agulhas-e-lancadeiras",
     "code": "L-065",
-    "term": "Lixamento e Polimento Microabrasivo da Lançadeira e Placa de Agulha (Micro-Abrasive Polishing & Burr Removal)",
+    "term": "Polimento da Lançadeira e Chapa de Agulha",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Mecânica & Ajustes",
@@ -3404,7 +3404,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-066-layout-de-producao-continua-e-organizacao-modular-do-atelie",
     "code": "L-066",
-    "term": "Layout de Produção Contínua, Fluxo Enxuto e Ergonomia do Ateliê (Continuous Embroidery Production Layout & Lean Workflow)",
+    "term": "Fluxo de Produção e Ergonomia no Ateliê",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Ateliê & Produtividade",
@@ -3469,7 +3469,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-067-lamina-de-corte-de-titanio-e-afiacao-de-facas-automaticas",
     "code": "L-067",
-    "term": "Lâmina de Corte de Titânio e Afiação de Facas Automáticas (Titanium-Coated Trimmer Blade & Micro-Honing Sharpening)",
+    "term": "Lâmina de Corte de Titânio",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Componentes da Máquina",
@@ -3532,7 +3532,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-068-loop-forming-e-dinamica-de-expansao-da-lacada-na-cava",
     "code": "L-068",
-    "term": "Loop Forming e Dinâmica de Expansão da Laçada na Cava (Loop Formation Dynamics & Scarf Clearance Physics)",
+    "term": "Formação e Expansão da Laçada na Cava",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Mecânica da Máquina e Manutenção",
@@ -3597,7 +3597,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-069-linha-metalica-ouro-e-prata-regulagens-especiais-de-tensao",
     "code": "L-069",
-    "term": "Linha Metálica Ouro e Prata: Regulagens Especiais de Tensão (Gold & Metallic Thread Tension & Slow-Speed Calibration)",
+    "term": "Regulagem de Tensão para Linhas Metálicas",
     "letter": "L",
     "level": "Iniciante 🟢",
     "category": "Insumos e Acessórios",
@@ -3662,7 +3662,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-070-linhas-de-grade-e-esquadrejamento-no-software-de-matrizes",
     "code": "L-070",
-    "term": "Linhas de Grade e Esquadrejamento no Software de Matrizes (Grid Lines, Snapping & Axis Alignment in Embroidery CAD)",
+    "term": "Grade e Esquadrejamento no Software",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Programação de Bordado",
@@ -3725,7 +3725,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-071-limitador-de-curso-e-sensores-de-fim-de-curso-do-pantografo",
     "code": "L-071",
-    "term": "Limitador de Curso e Sensores de Fim de Curso do Pantógrafo (Pantógrafo Limit Switches & Soft-Limit Boundary Protection)",
+    "term": "Limitador de Curso do Pantógrafo",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Eletrônica da Máquina",
@@ -3788,7 +3788,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-072-lencos-finos-e-tecidos-transparentes-tecnicas-de-bainha-e-bordado",
     "code": "L-072",
-    "term": "Lenços Finos e Tecidos Transparentes: Técnicas de Bainha e Bordado (Fine Handkerchief & Sheer Fabric Delicate Embroidery)",
+    "term": "Bordado em Lenços Finos e Tecidos Transparentes",
     "letter": "L",
     "level": "Iniciante 🟢",
     "category": "Técnicas de Bordado",
@@ -3852,7 +3852,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-073-look-ahead-e-previsao-de-trajetoria-em-controladores-dsp",
     "code": "L-073",
-    "term": "Look-Ahead e Previsão de Trajetória em Controladores DSP (Look-Ahead DSP Motion Trajectory Planning)",
+    "term": "Previsão de Trajetória no Controle da Máquina",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Eletrônica da Máquina",
@@ -3915,7 +3915,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-074-lote-de-producao-e-rastreabilidade-de-insumos-no-atelie",
     "code": "L-074",
-    "term": "Lote de Produção e Rastreabilidade de Insumos no Ateliê (Batch Production Management & Thread/Stabilizer Lot Tracking)",
+    "term": "Rastreabilidade de Lotes de Insumos",
     "letter": "L",
     "level": "Iniciante 🟢",
     "category": "Gestão do Ateliê e Produção",
@@ -3978,7 +3978,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-075-linha-de-bobina-fio-inferior-pre-wound",
     "code": "L-075",
-    "term": "Linha de Bobina (Fio Inferior / Bobinas Pré-Enroladas Pre-Wound)",
+    "term": "Linha de Bobina Pré-Enrolada",
     "pronunciation": "li-nha de bo-bi-na / pri-waund",
     "level": "Fundamental 🟢",
     "grammarClass": "Substantivo feminino composto.",
@@ -4052,7 +4052,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-076-lese-laise-broderie-anglaise-bordado-em-tecido-vazado-com-ilhoses",
     "code": "L-076",
-    "term": "Lese / Laise: Broderie Anglaise e Tecidos Vazados com Ilhoses (Embroidered Eyelet & Cutwork Lace Fabric)",
+    "term": "Bordado em Tecido Laise e Vazados",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -4187,7 +4187,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-077-lurex-e-fios-de-efeito-cintilante-metalico",
     "code": "L-077",
-    "term": "Lurex & Fios de Efeito Cintilante Metálico (Lurex & Metallic Sparkle Embroidery Threads)",
+    "term": "Fios de Efeito Cintilante Lurex",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Linhas & Fios",
@@ -4321,7 +4321,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-078-lancadeira-rotativa-magnetica-e-sistema-de-eixo-flutuante",
     "code": "L-078",
-    "term": "Lançadeira Rotativa Magnética & Sistema de Eixo Flutuante (Magnetic Rotary Hook & Floating Core Bobbin Case)",
+    "term": "Lançadeira Rotativa Magnética",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
@@ -4455,7 +4455,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-079-linho-puro-belga-e-irlandes-no-bordado-de-luxo",
     "code": "L-079",
-    "term": "Linho Puro Belga e Irlandês no Bordado de Luxo (Belgian & Irish Pure Linen Embroidery)",
+    "term": "Bordado de Luxo em Linho Puro",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -4590,7 +4590,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-080-la-merina-e-bordados-em-malharia-e-trico-pesado",
     "code": "L-080",
-    "term": "Lã Merina & Bordados em Malharia e Tricô Pesado (Merino Wool & Chunky Knit Embroidery)",
+    "term": "Bordado em Lã e Tricô Pesado",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Tipos de Tecidos",
@@ -4725,7 +4725,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-081-laser-cutting-bridge-corte-a-laser-acoplado-a-maquina-de-bordar",
     "code": "L-081",
-    "term": "Laser Cutting & Bridge: Corte a Laser Acoplado à Máquina de Bordar (Laser Bridge & In-Hoop Laser Cutting)",
+    "term": "Corte a Laser Acoplado ao Bordado",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Automação & Tecnologia",
@@ -4859,7 +4859,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-082-layout-de-matriz-e-composicao-espacial-no-software",
     "code": "L-082",
-    "term": "Layout de Matriz & Composição Espacial no Software (Embroidery Design Layout & Spatial Composition)",
+    "term": "Composição Espacial da Matriz",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Digitalização & Software",
@@ -4990,7 +4990,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-083-loop-stitch-ponto-de-lacada-e-textura-felpuda-3d",
     "code": "L-083",
-    "term": "Loop Stitch: Ponto de Laçada e Textura Felpuda 3D (Loop Stitch & Terry Cloth Textured Embroidery)",
+    "term": "Ponto de Laçada e Textura Felpuda",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Pontos Básicos & Decorativos",
@@ -5124,7 +5124,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-084-lantejoulas-e-dispositivos-automaticos-de-paetes-sequin-device",
     "code": "L-084",
-    "term": "Lantejoulas & Dispositivos Automáticos de Paetês (Automatic Sequin & Spangle Device)",
+    "term": "Dispositivo Automático de Lantejoulas",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Automação & Tecnologia",
@@ -5259,7 +5259,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-085-lona-nautica-e-cordura-bordados-em-tecidos-tecnicos-pesados",
     "code": "L-085",
-    "term": "Lona Náutica & Cordura: Bordados em Tecidos Técnicos Pesados (Marine Canvas & Cordura Heavy-Duty Embroidery)",
+    "term": "Bordado em Lona Náutica e Cordura",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Tipos de Tecidos",
@@ -5394,7 +5394,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-086-lettering-cursivo-e-conexoes-continuas-de-letras",
     "code": "L-086",
-    "term": "Lettering Cursivo & Conexões Contínuas de Letras (Cursive Script Lettering & Continuous Joining)",
+    "term": "Letras Cursivas e Conexões Contínuas",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Digitalização & Software",
@@ -5529,7 +5529,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-087-light-reactive-thread-linhas-fotoluminescentes-e-reagentes-uv",
     "code": "L-087",
-    "term": "Light-Reactive Thread: Linhas Fotoluminescentes e Reagentes UV (Glow-in-the-Dark & Solar Active Threads)",
+    "term": "Linhas Fotoluminescentes e Reagentes UV",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Linhas & Fios",
@@ -5664,7 +5664,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-088-leavers-lace-bordado-rendado-quimico-e-free-standing-lace-fsl",
     "code": "L-088",
-    "term": "Leavers Lace & Renda Química: Free Standing Lace FSL (Chemical Lace & Free Standing Lace Embroidery)",
+    "term": "Renda Química e Renda FSL no Bastidor",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Pontos Básicos & Decorativos",
@@ -5800,7 +5800,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-089-lamex-linhas-metalicas-planas-em-fita-ultrafina",
     "code": "L-089",
-    "term": "Lamex & Linhas Metálicas Planas em Fita Ultrafina (Flat Metallic Ribbon Embroidery Thread)",
+    "term": "Linhas Metálicas Planas em Fita",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Linhas & Fios",
@@ -5934,7 +5934,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-090-linha-monofilamento-de-poliamida-fio-invisivel-transparente",
     "code": "L-090",
-    "term": "Linha Monofilamento de Poliamida: Fio Invisível Transparente (Nylon Monofilament Invisible Thread)",
+    "term": "Linha Invisível Transparente de Poliamida",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Linhas & Fios",
@@ -6069,7 +6069,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-091-limpeza-ultrassonica-e-manutencao-de-caixas-de-bobina",
     "code": "L-091",
-    "term": "Limpeza Ultrassônica & Manutenção de Caixas de Bobina (Ultrasonic Cleaning & Bobbin Case Maintenance)",
+    "term": "Limpeza Ultrassônica da Caixa de Bobina",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
@@ -6204,7 +6204,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-092-lanca-ponto-e-temporizacao-agulha-lancadeira-hook-timing",
     "code": "L-092",
-    "term": "Lança-Ponto & Temporização Agulha-Lançadeira (Hook Timing & Loop Lift Synchronization)",
+    "term": "Sincronismo de Agulha e Lançadeira",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
@@ -6340,7 +6340,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-093-lambrequins-e-galoes-liturgicos-e-tradicionais",
     "code": "L-093",
-    "term": "Lambrequins & Galões Litúrgicos e Tradicionais (Ecclesiastical Galloons & Lambrequin Banners)",
+    "term": "Galões Litúrgicos e Tradicionais",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Estilos & Tradições",
@@ -6475,7 +6475,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-094-laminated-fabrics-e-bordado-em-tecidos-dublados",
     "code": "L-094",
-    "term": "Laminated Fabrics & Bordado em Tecidos Dublados (Laminated Foam-Backed & Bonded Fabrics)",
+    "term": "Bordado em Tecidos Dublados e Laminados",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -6610,7 +6610,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-095-lycra-e-tecidos-de-alta-compressao-esportiva",
     "code": "L-095",
-    "term": "Lycra & Tecidos de Alta Compressão Esportiva (Lycra, Spandex & High-Compression Activewear)",
+    "term": "Bordado em Lycra e Roupas Esportivas",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -6746,7 +6746,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-096-lock-stitch-ponto-de-amarracao-e-arremate-de-seguranca",
     "code": "L-096",
-    "term": "Lock Stitch: Ponto de Amarração e Arremate de Segurança (Tie-In, Tie-Off & Secure Lock Stitches)",
+    "term": "Ponto de Amarração e Arremate de Segurança",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Digitalização & Software",
@@ -6881,7 +6881,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-097-long-arm-embroidery-e-bastidores-pantograficos-continuos",
     "code": "L-097",
-    "term": "Long-Arm Embroidery & Bastidores Pantográficos Contínuos (Long-Arm Multi-Needle & Roll-to-Roll Embroidery)",
+    "term": "Bordado Contínuo em Rolo e Braço Longo",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Mecânica & Manutenção",
@@ -7015,7 +7015,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-098-lurgan-cloth-e-tecidos-de-linho-rustico-para-ponto-cruz",
     "code": "L-098",
-    "term": "Lurgan Cloth & Tecidos de Linho Rústico para Ponto Cruz (Lurgan Linen & Evenweave Cross-Stitch Fabrics)",
+    "term": "Tecidos de Linho para Ponto Cruz",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -7150,7 +7150,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-099-lampadas-led-espectrais-e-iluminacao-sem-sombra-no-cabecote",
     "code": "L-099",
-    "term": "Lâmpadas LED Espectrais & Iluminação Sem Sombra no Cabeçote (Shadowless High-CRI LED Needle Area Lighting)",
+    "term": "Iluminação LED Sem Sombra no Cabeçote",
     "letter": "L",
     "level": "Intermediário 🟡",
     "category": "Mecânica & Manutenção",
@@ -7285,7 +7285,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-100-luminescence-digitizing-e-mapeamento-de-densidade-para-efeitos-especiais-de-luz",
     "code": "L-100",
-    "term": "Luminescence Digitizing & Mapeamento de Densidade para Efeitos Especiais de Luz (Photorealistic Light-Mapping & Luminescence Digitizing)",
+    "term": "Mapeamento de Densidade para Efeitos Especiais",
     "letter": "L",
     "level": "Avançado 🔴",
     "category": "Digitalização & Software",
@@ -7420,7 +7420,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
   {
     "id": "l-101-lamina-segura-fio-trimmer-mola-retentora-bobina-faca-fixa",
     "code": "L-101",
-    "term": "Lâmina Segura-Fio do Trimmer / Mola Retentora da Linha da Bobina na Faca Fixa (Under-Thread Retaining Leaf Spring / Knife Thread Holder)",
+    "term": "Lâmina Segura-Fio do Cortador de Linha",
     "pronunciation": "lâ-mi-na se-gú-ra fí-o do trí-mer / mó-la re-ten-tó-ra da lí-nya da bo-bí-na na fá-ka fík-sa (ân-der tréd ri-têi-nin lif sprin / náif tréd hôul-der)",
     "letter": "L",
     "level": "Avançado 🔴",
@@ -7525,7 +7525,7 @@ export const VERBETES_LETTER_L: Verbete[] = [
     "id": "l-lacos-e-tiaras-de-cabelo-no-bastidor-acessorios-ith",
     "code": "L-102",
     "letter": "L",
-    "term": "Laços e Tiaras de Cabelo no Bastidor (Acessórios de Moda e Presilhas Feitas In The Hoop)",
+    "term": "Laços e Tiaras de Cabelo no Bastidor",
     "pronunciation": "la-sus e ti-a-ras de ca-be-lu nu bas-ti-dor (ˈlasuz i tʃiˈaɾɐz dʒi kaˈbelu)",
     "level": "Iniciante 🟢",
     "category": "Técnicas de Bastidor",

@@ -68,7 +68,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-002-kevlar-fios-aramida-ultra-resistencia",
     "code": "K-002",
-    "term": "Kevlar & Fios de Aramida de Ultra Resistência (Kevlar Thread & Technical High-Tenacity Embroidery)",
+    "term": "Kevlar & Fios de Aramida de Ultra Resistência",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Agulhas & Fios",
@@ -197,7 +197,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-004-kern-kerning-tipografico-letreiros",
     "code": "K-004",
-    "term": "Kern / Kerning Tipográfico em Letreiros de Bordado (Typography Kerning & Optical Letter Spacing)",
+    "term": "Kerning Tipográfico em Letreiros",
     "letter": "K",
     "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
@@ -260,7 +260,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-005-keyway-rasgo-chaveta-eixo-principal",
     "code": "K-005",
-    "term": "Keyway / Rasgo de Chaveta do Eixo Principal da Máquina (Mainshaft Keyway & Mechanical Synchronization)",
+    "term": "Rasgo de Chaveta do Eixo Principal",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -322,7 +322,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-006-kimono-quimono-seda-fios-yu-zen",
     "code": "K-006",
-    "term": "Kimono / Quimono Japonês, Fios de Seda & Ponto Plano Yu-zen (Kimono Silk Embroidery & Traditional Motifs)",
+    "term": "Bordado em Quimonos e Seda Tradicional",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Terminologia Geral",
@@ -385,7 +385,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-007-knitting-malhas-trico-topping-hidrossoluvel",
     "code": "K-007",
-    "term": "Knitting / Malhas de Tricô, Lãs & Estabilização com Topping Hidrossolúvel",
+    "term": "Bordado em Malhas de Tricô e Lãs",
     "letter": "K",
     "level": "Fundamental 🟢",
     "category": "Estabilizadores & Entretelas",
@@ -449,7 +449,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-008-knotting-formacao-nos-caixa-bobina",
     "code": "K-008",
-    "term": "Knotting / Formação de Nós & Laçadas Imperfeitas na Caixa de Bobina (Birdnesting & Thread Jamming)",
+    "term": "Formação de Nós na Caixa de Bobina",
     "letter": "K",
     "level": "Fundamental 🟢",
     "category": "Solução de Problemas",
@@ -512,7 +512,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-009-kraft-papel-kraft-papelaria-criativa",
     "code": "K-009",
-    "term": "Kraft / Papel Kraft & Bordado Decorativo em Papelaria Criativa (Kraft Paper Machine Embroidery)",
+    "term": "Bordado em Papel Kraft e Papelaria",
     "letter": "K",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -576,7 +576,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-010-kobe-la-fios-chenille-tapecaria",
     "code": "K-010",
-    "term": "Kobe / Lã e Fios Especiais para Bordado Chenille e Tapeçaria (Kobe Wool & Chenille Loop Embroidery)",
+    "term": "Fios Especiais para Bordado Chenille",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Agulhas & Fios",
@@ -639,7 +639,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-011-kickback-folga-mecanica-pantografo",
     "code": "K-011",
-    "term": "Kickback de Bastidor & Folga Mecânica de Correias do Pantógrafo (Backlash & Registration Loss)",
+    "term": "Kickback de Bastidor & Folga Mecânica de Correias do Pantógrafo",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -703,7 +703,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-012-kinematic-cinematica-curva-velocidade-agulha",
     "code": "K-012",
-    "term": "Kinematic / Cinemática de Agulha & Curva de Velocidade do Cabeçote (Needle Kinematics & Motion Profiling)",
+    "term": "Cinemática e Curva de Velocidade de Agulha",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -767,7 +767,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-013-kit-bordado-in-the-hoop-estojos-estruturados",
     "code": "K-013",
-    "term": "Kit de Bordado In-The-Hoop & Estojos Multiuso Estruturados (ITH Zippered Pouch & Bag Making)",
+    "term": "Kit de Bordado In-The-Hoop & Estojos Multiuso Estruturados",
     "letter": "K",
     "level": "Fundamental 🟢",
     "category": "Técnicas de Bastidor",
@@ -833,7 +833,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-014-knitwear-malhas-piquet-moletom-compensacao",
     "code": "K-014",
-    "term": "Knitwear / Malhas de Piquet e Moletom & Compensação de Elasticidade (Jersey, Pique & Heavy Knitwear)",
+    "term": "Bordado em Malhas de Piquet e Moletom",
     "letter": "K",
     "level": "Fundamental 🟢",
     "category": "Tipos de Tecidos",
@@ -897,7 +897,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-015-kroma-crack-craquelamento-fios-metalicos",
     "code": "K-015",
-    "term": "Kroma / Kroma-Crack & Craquelamento de Fios Metálicos por Fricção Térmica (Metallic Thread Cracking)",
+    "term": "Prevenção de Quebra em Fios Metálicos",
     "letter": "K",
     "level": "Intermediário 🟡",
     "category": "Agulhas & Fios",
@@ -960,7 +960,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-016-k-factor-fator-elasticidade-compensacao-encolhimento",
     "code": "K-016",
-    "term": "K-Factor / Fator K de Elasticidade de Tecidos e Compensação de Encolhimento (Fabric Stretch K-Factor)",
+    "term": "Fator de Elasticidade e Encolhimento de Tecidos",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
@@ -1022,7 +1022,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-017-kinesio-tape-fitas-esportivas-bordados-elasticos",
     "code": "K-017",
-    "term": "Kinesio Tape / Fitas Esportivas Funcionais & Bordados Elásticos Flexíveis (Athletic Taping Stitching)",
+    "term": "Bordados em Fitas Esportivas Funcionais",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
@@ -1086,7 +1086,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-018-kombucha-leather-couro-vegano-bacteriano",
     "code": "K-018",
-    "term": "Kombucha Leather / Couro Vegano Bacteriano & Bordado com Agulhas Microtex (Bio-Leather Stitching)",
+    "term": "Bordado em Couro Vegano e Fibras Ecológicas",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Tipos de Tecidos",
@@ -1148,7 +1148,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-019-knotless-embroidery-bordado-sem-nos-avesso-trava",
     "code": "K-019",
-    "term": "Knotless Embroidery / Bordado Sem Nós no Avesso & Trava Oculta (Knotless Lock Stitches)",
+    "term": "Bordado Sem Nós com Trava Oculta",
     "letter": "K",
     "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
@@ -1212,7 +1212,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-020-kenmore-maquinas-bordar-formato-sew-jef",
     "code": "K-020",
-    "term": "Kenmore / Máquinas de Bordar Domésticas Clássicas & Formato .SEW/.JEF",
+    "term": "Máquinas Kenmore e Formatos Próprios",
     "letter": "K",
     "level": "Fundamental 🟢",
     "category": "Softwares & Formatos",
@@ -1276,7 +1276,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-021-kozuka-tesoura-japonesa-arremate-fios",
     "code": "K-021",
-    "term": "Kozuka / Tesoura Japonesa de Alta Precisão para Arremate de Fios (Japanese Thread Snips & Shears)",
+    "term": "Tesoura Japonesa de Alta Precisão",
     "letter": "K",
     "level": "Fundamental 🟢",
     "category": "Componentes da Máquina",
@@ -1340,7 +1340,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-022-kynar-fios-fluoropolimeros-resistencia-quimica",
     "code": "K-022",
-    "term": "Kynar / Fios Fluoropolímeros para Bordados Quimicamente Resistentes (PVDF Technical Thread)",
+    "term": "Fios Técnicos de Alta Resistência Química",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Agulhas & Fios",
@@ -1404,7 +1404,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-023-karat-gold-fios-banho-ouro-liturgico",
     "code": "K-023",
-    "term": "Karat Gold Thread / Fios com Banho de Ouro & Bordados Litúrgicos (Gold Thread Liturgical Embroidery)",
+    "term": "Bordados Litúrgicos com Fios de Ouro",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Agulhas & Fios",
@@ -1468,7 +1468,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-024-k-value-densidade-pontos-milimetro-quadrado",
     "code": "K-024",
-    "term": "K-Value / Densidade de Pontos por Milímetro Quadrado (Stitch Density K-Value & Area Coverage)",
+    "term": "Densidade de Pontos e Valor K",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
@@ -1532,7 +1532,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-037-k-lock-trava-bastidor-parafuso-sextavado",
     "code": "K-037",
-    "term": "K-Lock / Trava de Bastidor com Parafuso Sextavado (Hex Screw Hoop Clamping)",
+    "term": "Trava de Bastidor com Parafuso Sextavado",
     "letter": "K",
     "level": "Fundamental 🟢",
     "category": "Técnicas de Bastidor",
@@ -1596,7 +1596,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-038-kasuti-bordado-geometrico-indiano-dupla-face",
     "code": "K-038",
-    "term": "Kasuti / Bordado Geométrico Tradicional Indiano (Kasuti Digital Double Running Stitch)",
+    "term": "Bordado Geométrico Kasuti",
     "letter": "K",
     "level": "Intermediário 🟡",
     "category": "Pontos Básicos & Decorativos",
@@ -1660,7 +1660,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-039-kashmir-caxemira-pashmina-las-ultradelicadas",
     "code": "K-039",
-    "term": "Kashmir / Caxemira, Pashmina & Bordados em Lãs Finas (Cashmere & Fine Wool Embroidery)",
+    "term": "Bordado em Caxemira e Lãs Finas",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Tipos de Tecidos",
@@ -1725,7 +1725,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-040-kilo-stitches-contagem-pontos-milhares-precificacao",
     "code": "K-040",
-    "term": "Kilo-Stitches / Contagem por Milhares de Pontos (k-Stitches & Cost Calculation)",
+    "term": "Contagem por Milhares de Pontos",
     "letter": "K",
     "level": "Fundamental 🟢",
     "category": "Terminologia Geral",
@@ -1789,7 +1789,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-041-kodel-fibras-poliester-patchwork-trapunto",
     "code": "K-041",
-    "term": "Kodel / Fibras de Poliéster para Enchimento de Patchwork & Trapunto Eletrônico (Polyester Battings)",
+    "term": "Enchimento de Poliéster para Trapunto",
     "letter": "K",
     "level": "Fundamental 🟢",
     "category": "Estabilizadores & Entretelas",
@@ -1853,7 +1853,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-042-knotweed-fibras-naturais-bordados-botanicos",
     "code": "K-042",
-    "term": "Knotweed / Fibras Naturais Sustentáveis & Bordados Botânicos (Eco-Friendly Bio-Fibres)",
+    "term": "Bordados Botânicos em Fibras Naturais",
     "letter": "K",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -1917,7 +1917,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-043-kuka-robos-industriais-bordado-3d-superficies-curvas",
     "code": "K-043",
-    "term": "Kuka / Robôs Industriais & Bordado Automatizado 3D (Robotic Tailored Fiber Placement)",
+    "term": "Bordado Automatizado por Robôs Industriais",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -1981,7 +1981,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-044-k-curve-curva-tensao-fio-multicabecote",
     "code": "K-044",
-    "term": "K-Curve / Curva de Tensão de Fio em Máquinas Multicabeçote (Tension Curve Profile)",
+    "term": "Curva de Tensão de Linha",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Tensão & Calibração",
@@ -2045,7 +2045,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-045-krypton-tecidos-antimancha-hospitalares-corporativos",
     "code": "K-045",
-    "term": "Krypton / Tecidos Resistentes a Manchas e Fluidos & Bordados Corporativos (Crypton Fabric Stitching)",
+    "term": "Bordado em Tecidos Resistentes a Manchas",
     "letter": "K",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -2109,7 +2109,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-046-kuba-cloth-tecidos-rafia-congo-geometria-rustica",
     "code": "K-046",
-    "term": "Kuba Cloth / Tecidos de Ráfia do Congo & Bordados Geométricos Rústicos (Kuba Raffia Textile)",
+    "term": "Bordado Geométrico em Tecidos de Ráfia",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Tipos de Tecidos",
@@ -2173,7 +2173,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-047-kevlar-backing-entretela-fibra-antichama",
     "code": "K-047",
-    "term": "Kevlar Backing / Entretela Estrutural de Fibra Antichama (Flame-Retardant Aramid Stabilizers)",
+    "term": "Entretela Antichama de Fibra de Aramida",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Estabilizadores & Entretelas",
@@ -2237,7 +2237,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-048-k-mesh-malha-nylon-forro-bordados-infantis",
     "code": "K-048",
-    "term": "K-Mesh / Malha de Nylon Macia para Forro de Bordados Infantis (No-Show Polymesh Stabilizer)",
+    "term": "Malha de Nylon Macia para Forro Infantil",
     "letter": "K",
     "level": "Fundamental 🟢",
     "category": "Estabilizadores & Entretelas",
@@ -2302,7 +2302,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-049-k-sharp-agulhas-ponta-afia-microconica",
     "code": "K-049",
-    "term": "K-Sharp / Agulhas de Ponta Afiada Microcônica (Micro-Conical Sharp Point Needles)",
+    "term": "Agulhas de Ponta Afiada Microcônica",
     "letter": "K",
     "level": "Fundamental 🟢",
     "category": "Agulhas & Fios",
@@ -2366,7 +2366,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-050-kersey-tecido-la-feltrada-capotes-brasoes",
     "code": "K-050",
-    "term": "Kersey / Tecido de Lã Grossa Feltrada & Bordados de Brasões (Kersey Wool Fabric)",
+    "term": "Bordado de Brasões em Lã Grossa",
     "letter": "K",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -2430,7 +2430,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-051-k-stop-paradas-programadas-corte-automatico-apliques",
     "code": "K-051",
-    "term": "K-Stop / Paradas Programadas & Cortes Automáticos para Apliques (Coded Stop Sequences)",
+    "term": "Paradas Programadas para Apliques",
     "letter": "K",
     "level": "Fundamental 🟢",
     "category": "Software & Digitalização",
@@ -2494,7 +2494,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-052-k-loop-ajuste-lacada-tolerancia-lancadeira",
     "code": "K-052",
-    "term": "K-Loop / Ajuste de Formação de Laçada & Folga de Lançadeira (Rotary Hook Loop Timing)",
+    "term": "Formação de Laçada e Folga de Lançadeira",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -2558,7 +2558,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-053-k-film-pelicula-hidrossoluvel-veludos-pelucias",
     "code": "K-053",
-    "term": "K-Film / Película Hidrossolúvel de Alta Densidade (Soluble Topping Film for High Pile Fabrics)",
+    "term": "Película Hidrossolúvel de Alta Densidade",
     "letter": "K",
     "level": "Fundamental 🟢",
     "category": "Estabilizadores & Entretelas",
@@ -2622,7 +2622,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-054-kraft-paper-bordados-papel-cartoes-embalagens",
     "code": "K-054",
-    "term": "Kraft Paper / Bordados em Papel Kraft, Cartões e Embalagens de Luxo (Paper Embroidery)",
+    "term": "Bordado em Papel Kraft e Cartões",
     "letter": "K",
     "level": "Fundamental 🟢",
     "category": "Tipos de Tecidos",
@@ -2686,7 +2686,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-055-k-grid-grade-parametrica-posicionamento-bastidor",
     "code": "K-055",
-    "term": "K-Grid / Grade Paramétrica de Posicionamento e Calibração Óptica (Embroidery Grid Template)",
+    "term": "Grade Paramétrica de Posicionamento",
     "letter": "K",
     "level": "Fundamental 🟢",
     "category": "Técnicas de Bastidor",
@@ -2750,7 +2750,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-056-k-sleeve-mangas-isolamento-cabos-cabecotes",
     "code": "K-056",
-    "term": "K-Sleeve / Mangas Termorretráteis para Proteção de Cabos Eletrônicos (Heat-Shrink Wire Sleeving)",
+    "term": "Proteção Termorretrátil de Cabos Eletrônicos",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -2814,7 +2814,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-057-k-spring-mola-recuperadora-estica-fio-check-spring",
     "code": "K-057",
-    "term": "K-Spring / Mola Recuperadora do Estica-Fio (Take-Up Check Spring / Mola de Compensação)",
+    "term": "Mola de Compensação do Estica-Fio",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -2878,7 +2878,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-058-k-basting-alinhavo-eletronico-seguranca",
     "code": "K-058",
-    "term": "K-Basting / Alinhavo Eletrônico de Segurança (Basting Box / Underlay Fixing Frame)",
+    "term": "Alinhavo Eletrônico de Segurança",
     "letter": "K",
     "level": "Fundamental 🟢",
     "category": "Software & Digitalização",
@@ -2943,7 +2943,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-059-k-sensor-sensores-piezoeletricos-ruptura-fio",
     "code": "K-059",
-    "term": "K-Sensor / Sensores Piezoelétricos de Ruptura de Linha (Piezoelectric Thread Break Detectors)",
+    "term": "Sensores Piezoelétricos de Quebra de Linha",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -3007,7 +3007,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-060-k-bevel-chanfro-retificado-placa-agulha-sem-rebarbas",
     "code": "K-060",
-    "term": "K-Bevel / Chanfro Retificado da Chapa de Agulha (Needle Plate Chamfer & Deburring)",
+    "term": "Chanfro Retificado da Chapa de Agulha",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -3071,7 +3071,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-061-k-zero-calibracao-ponto-origem-absoluta-pantografo",
     "code": "K-061",
-    "term": "K-Zero / Calibração do Ponto de Origem Absoluta do Pantógrafo (Absolute Home Point / Origin Zero Calibration)",
+    "term": "Ponto de Origem Absoluta do Pantógrafo",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Componentes da Máquina",
@@ -3135,7 +3135,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-062-kevlar-e-fios-de-alta-tenacidade-e-resistencia-termica",
     "code": "K-062",
-    "term": "Kevlar, Fios de Para-Aramida e Linhas Antichama (Kevlar & Flame-Resistant Specialty Threads)",
+    "term": "Linhas de Kevlar e Para-Aramida Antichama",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Agulhas & Fios",
@@ -3200,7 +3200,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-063-kerning-automatico-e-espacamento-optico-tipografico",
     "code": "K-063",
-    "term": "Kerning Automático, Tracking e Espaçamento Óptico Tipográfico (Typography Kerning & Optical Letter Spacing)",
+    "term": "Kerning e Espaçamento Tipográfico",
     "letter": "K",
     "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
@@ -3265,7 +3265,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-064-kinematica-de-alimentacao-de-linha-e-dinamica-do-estica-fio",
     "code": "K-064",
-    "term": "Kinemática de Alimentação de Linha e Dinâmica do Estica-Fio (Take-Up Lever Kinematics & High-Speed Thread Feeding)",
+    "term": "Cinemática do Estica-Fio e Alimentação",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Mecânica & Ajustes",
@@ -3330,7 +3330,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-065-kraft-textil-lavavel-e-couro-vegano-no-bastidor",
     "code": "K-065",
-    "term": "Kraft Têxtil Lavável, Couro Vegano e Papel Lavável no Bastidor (Washable Kraft Paper Fabric & Vegan Leather Embroidery)",
+    "term": "Bordado em Kraft Lavável e Couro Vegano",
     "letter": "K",
     "level": "Intermediário 🟡",
     "category": "Tecidos & Substratos",
@@ -3394,7 +3394,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-066-kit-de-emergencia-e-primeiros-socorros-da-bordadeira",
     "code": "K-066",
-    "term": "Kit de Emergência, Primeiros Socorros e Ferramental de Resgate Têxtil (Embroidery Studio Emergency Kit & Rescue Tools)",
+    "term": "Kit de Ferramentas de Emergência do Ateliê",
     "letter": "K",
     "level": "Fundamental 🟢",
     "category": "Ferramentas & Acessórios",
@@ -3459,7 +3459,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-067-koban-hooks-e-geometria-de-ponta-de-lancadeira-japonesa",
     "code": "K-067",
-    "term": "Koban Hooks e Geometria de Ponta de Lançadeira Japonesa (Koban Rotary Hook Geometry & Race Engineering)",
+    "term": "Lançadeiras Koban de Alta Precisão",
     "letter": "K",
     "level": "Intermediário 🟡",
     "category": "Componentes da Máquina",
@@ -3522,7 +3522,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-068-kevlar-e-fios-de-para-aramida-para-bordados-de-alta-resistencia",
     "code": "K-068",
-    "term": "Kevlar e Fios de Para-Aramida para Bordados de Alta Resistência (Kevlar Para-Aramid High-Tenacity Embroidery Thread)",
+    "term": "Fios de Kevlar de Alta Resistência",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Insumos e Acessórios",
@@ -3585,7 +3585,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-069-kelvin-scale-e-calibracao-de-temperatura-de-cor-no-atelie",
     "code": "K-069",
-    "term": "Kelvin Scale e Calibração de Temperatura de Cor no Ateliê (Kelvin Color Temperature & Studio Illuminance Standard)",
+    "term": "Temperatura de Cor e Iluminação no Ateliê",
     "letter": "K",
     "level": "Iniciante 🟢",
     "category": "Ambiente do Ateliê e Ergonomia",
@@ -3647,7 +3647,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-070-kerning-tipografico-e-compensacao-de-repuxo-interletra",
     "code": "K-070",
-    "term": "Kerning Tipográfico e Compensação de Repuxo Interletra (Embroidery Typographic Kerning & Inter-Letter Spacing)",
+    "term": "Kerning e Compensação de Repuxo Tipográfico",
     "letter": "K",
     "level": "Intermediário 🟡",
     "category": "Programação de Bordado",
@@ -3710,7 +3710,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-071-kinematic-linking-e-cinematica-do-estica-fio-ao-calcador",
     "code": "K-071",
-    "term": "Kinematic Linking e Cinemática do Estica-Fio ao Calcador (Take-Up Lever to Presser Foot Kinematic Coupling)",
+    "term": "Cinemática do Estica-Fio ao Calcador",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Mecânica da Máquina e Manutenção",
@@ -3774,7 +3774,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-072-kimono-e-roupoes-de-piquet-atoalhado-estrutura-de-fixacao",
     "code": "K-072",
-    "term": "Kimono e Roupões de Piquet/Atoalhado: Estrutura de Fixação (Kimono Robe & Waffle Fabric Embroidery Technique)",
+    "term": "Bordado em Quimonos e Roupões Atoalhados",
     "letter": "K",
     "level": "Iniciante 🟢",
     "category": "Técnicas de Bordado",
@@ -3838,7 +3838,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-073-keyframe-e-animacao-temporal-em-simuladores-de-matriz",
     "code": "K-073",
-    "term": "Keyframe e Animação Temporal em Simuladores de Matriz (Stitch Simulator Keyframing & Timeline Playback)",
+    "term": "Simulação e Animação Temporal de Matrizes",
     "letter": "K",
     "level": "Intermediário 🟡",
     "category": "Programação de Bordado",
@@ -3901,7 +3901,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-074-k-system-e-acoplamento-rapido-de-bastidores-pantograficos",
     "code": "K-074",
-    "term": "K-System e Acoplamento Rápido de Bastidores Pantográficos (K-System Quick-Lock Pantograph Bracket Clamping)",
+    "term": "Acoplamento Rápido de Bastidores Pantográficos",
     "letter": "K",
     "level": "Intermediário 🟡",
     "category": "Acessórios e Bastidores",
@@ -3964,7 +3964,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-088-kurti-e-golas-bordadas-no-vestuario-tradicional-do-sul-da-asia",
     "code": "K-088",
-    "term": "Kurti & Golas Bordadas no Vestuário do Sul da Ásia (South Asian Kurti Yoke & Placket Embroidery)",
+    "term": "Golas e Peitilhos Bordados em Túnicas",
     "letter": "K",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -4099,7 +4099,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-089-kaftan-cerimonial-marroquino-e-bordados-de-passamanaria-sfifa",
     "code": "K-089",
-    "term": "Kaftan Cerimonial Marroquino & Passamanaria Sfifa (Moroccan Royal Caftan & Sfifa Braid Stitching)",
+    "term": "Bordados em Caftãs e Passamanaria",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Tipos de Tecidos",
@@ -4235,7 +4235,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-090-kesa-gatame-stitch-ponto-japones-de-travamento-e-reforco-diagonal",
     "code": "K-090",
-    "term": "Kesa-Gatame Stitch: Ponto Japonês de Travamento Diagonal (Japanese Sashiko Reinforcement Stitch)",
+    "term": "Ponto Japonês de Travamento Diagonal",
     "letter": "K",
     "level": "Intermediário 🟡",
     "category": "Pontos Básicos & Decorativos",
@@ -4370,7 +4370,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-091-kapa-kuiki-a-nobre-arte-do-quilting-havaiano-no-bastidor",
     "code": "K-091",
-    "term": "Kapa Kuiki: A Nobre Arte do Quilting Havaiano no Bastidor (Hawaiian Kapa Kuiki Quilt & Echo Quilting)",
+    "term": "Quilting Havaiano no Bastidor",
     "letter": "K",
     "level": "Intermediário 🟡",
     "category": "Técnicas de Bastidor",
@@ -4505,7 +4505,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-092-kuba-velvets-bordados-em-relevo-de-veludo-de-rafia-do-congo",
     "code": "K-092",
-    "term": "Kuba Velvets: Bordados em Veludo de Ráfia do Congo (Kuba Cut-Pile Raffia Velvet Embroidery)",
+    "term": "Bordados em Veludo de Ráfia",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Tipos de Tecidos",
@@ -4640,7 +4640,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-093-kutnu-de-gaziantep-tecido-nobre-turco-de-seda-e-algodao-acetinado",
     "code": "K-093",
-    "term": "Kutnu de Gaziantep: Tecido Nobre de Seda e Algodão (Gaziantep Kutnu Fabric & Ottoman Royal Embroidery)",
+    "term": "Bordados em Tecido de Seda e Algodão",
     "letter": "K",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -4775,7 +4775,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-094-kanthal-resistance-wire-fios-termicos-para-texteis-inteligentes",
     "code": "K-094",
-    "term": "Kanthal Resistance Wire: Fios Térmicos em Bordados Técnicos (Kanthal Alloy Wire & Smart E-Textiles)",
+    "term": "Bordados Técnicos com Fios Térmicos",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Agulhas & Fios",
@@ -4910,7 +4910,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-095-khes-do-punjab-mantas-tradicionais-de-algodao-damascado-bordado",
     "code": "K-095",
-    "term": "Khes do Punjab: Mantas Tradicionais de Algodão Damascado (Punjabi Khes Blanket & Geometric Stitching)",
+    "term": "Mantas de Algodão com Bordados Geométricos",
     "letter": "K",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -5045,7 +5045,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-096-kente-strips-joining-montagem-de-faixas-de-tecido-etnico-no-bastidor",
     "code": "K-096",
-    "term": "Kente Strips Joining: Montagem de Faixas Étnicas no Bastidor (Kente Narrow-Strip Joining & In-The-Hoop Seaming)",
+    "term": "Montagem de Faixas no Bastidor",
     "letter": "K",
     "level": "Intermediário 🟡",
     "category": "Técnicas de Bastidor",
@@ -5181,7 +5181,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-097-kyoto-silk-floss-fios-de-seda-pura-sem-torcao-para-brilho-espelhado",
     "code": "K-097",
-    "term": "Kyoto Silk Floss: Fios de Seda sem Torção para Brilho Espelhado (Kyoto Flat Silk Floss & Mirror Luster Embroidery)",
+    "term": "Fios de Seda sem Torção para Brilho Intenso",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Agulhas & Fios",
@@ -5316,7 +5316,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-098-kapa-moena-esteiras-finas-ornamentadas-com-fibras-do-pacifico",
     "code": "K-098",
-    "term": "Kapa Moena: Esteiras Finas de Fibras do Pacífico (Polynesian Kapa Moena Fine Mat Embroidery)",
+    "term": "Bordados em Fibras Finas Entrelaçadas",
     "letter": "K",
     "level": "Intermediário 🟡",
     "category": "Tipos de Tecidos",
@@ -5451,7 +5451,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-099-kardeh-las-cardadas-para-relevos-trapunto-e-bordado-chenille",
     "code": "K-099",
-    "term": "Kardeh / Lãs Cardadas para Relevos Trapunto (Kardeh Wool Roving & 3D Trapunto Embroidery)",
+    "term": "Lãs Cardadas para Relevos Trapunto",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Estabilizadores & Entretelas",
@@ -5586,7 +5586,7 @@ export const VERBETES_LETTER_K: Verbete[] = [
   {
     "id": "k-100-kozue-stitches-bordado-artistico-japones-de-galhos-e-cerejeiras",
     "code": "K-100",
-    "term": "Kozue Stitches: Bordado Artístico de Ramos e Cerejeiras (Japanese Kozue Branching & Organic Silk Shading)",
+    "term": "Bordado Artístico de Ramos e Folhagens",
     "letter": "K",
     "level": "Avançado 🔴",
     "category": "Pontos Básicos & Decorativos",
