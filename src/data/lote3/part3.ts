@@ -75,7 +75,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-021-analise-de-matriz-previa": {
-    "term": "Auditoría Previa de la Matriz",
+    "term": "Auditoría Previa del Diseño de Bordado",
     "level": "Iniciante 🟢",
     "category": "Programación de Bordado",
     "grammarClass": "Locución sustantiva femenina.",
@@ -154,7 +154,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     "summary": "Lámina elástica de acero en el fondo de la caja de canilla que frena la rotación inercial de la bobina al desacelerar la máquina, evitando marañas en el revés.",
     "definition": "El muelle de freno y anillo de retención de canilla (denominado técnicamente Bobbin Anti-Backlash Spring o Brake Ring) es una delgada arandela o lámina de acero armónico abombado de tres o cuatro pestañas elásticas situada en el fondo interior de la caja de canilla (porta-canillas). Su función mecánica es aplicar una resistencia de fricción constante y ligera en la base de la canilla (bobina metálica o plástica), deteniéndola instantáneamente cuando la máquina frena o corta el hilo, impidiendo que la inercia continúe girando la bobina y desoville hilo suelto en el fondo del garfio rotativo.",
     "technicalDetails": "A 900 PPM, la canilla gira a cientos de revoluciones por minuto para suministrar hilo inferior a la aguja. Cuando la máquina desacelera abruptamente para hacer un giro o un salto de corte, la inercia rotacional de la canilla provocaría un desovillado sobrante de 20 a 50 mm de hilo flojo (efecto backlash). El muelle de acero templado ejerce una presión de rozamiento calibrada de 1,5 a 3 gramos-fuerza, actuando como un embrague de frenado instantáneo.",
-    "beginnerExplanation": "Adentro de la cajita de metal donde colocás la canilla (la piecita de abajo de la máquina), en el fondo, hay una chapita circular de acero con pestañas arqueadas que parece una florcita de metal. Cuando la máquina cose rápido y de repente frena, esa chapita frena la canilla para que no siga girando loca por inercia y no te haga un nido de pájaro de hilos trabados abajo.",
+    "beginnerExplanation": "Adentro de la caja de metal donde colocás la canilla (la piecita de abajo de la máquina), en el fondo, hay una placa de aguja circular de acero con pestañas arqueadas que parece una florcita de metal. Cuando la máquina cose rápido y de repente frena, esa placa de aguja frena la canilla para que no siga girando loca por inercia y no te haga un nido de pájaro de hilos trabados abajo.",
     "construction": [
       "Arandela elástica de acero inoxidable templado de 0,15 mm de grosor",
       "Pestañas arqueadas en abanico que ejercen presión vertical constante",
@@ -192,9 +192,9 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
       "Si el hilo inferior se enreda abajo cada vez que la máquina frena o corta hilo: Retire la caja de canilla y verifique si el muelle de freno del fondo está presente y limpio; si está aplastado, cámbielo por uno nuevo.",
       "Si la tensión inferior se siente demasiado dura aunque el tornillo de tensión esté flojo: Desmonte el muelle del fondo y limpie con alcohol el polvillo prensado acumulado debajo."
     ],
-    "dicaArtrelados": "¡El secreto de la cajita de bobina! Cada vez que limpie el garfio con su pincelito, sople el interior de la caja de canilla para que no se junte polvillo debajo de esa chapita elástica del fondo. ¡Esa simple limpieza le garantiza una tensión inferior suave y pareja como un reloj suizo!",
+    "dicaArtrelados": "¡El secreto de la caja de bobina! Cada vez que limpie el garfio con su pincelito, sople el interior de la caja de canilla para que no se junte polvillo debajo de esa placa de aguja elástica del fondo. ¡Esa simple limpieza le garantiza una tensión inferior suave y pareja como un reloj suizo!",
     "voceSabia": "¡La ausencia de este pequeño resorte de freno que cuesta centavos es la causa del 90% de los enredos masivos de hilo inferior que traban la máquina durante los cortes automáticos de hilo!",
-    "practicalExercise": "Saque la canilla de su caja. Mire el fondo con una linterna: verá la delgada chapita de acero arqueada. Presiónela suavemente con la punta de una pinza para sentir cómo rebota elásticamente. Esa resistencia es la que frena la canilla con suavidad milimétrica.",
+    "practicalExercise": "Saque la canilla de su caja. Mire el fondo con una linterna: verá la delgada placa de aguja de acero arqueada. Presiónela suavemente con la punta de una pinza para sentir cómo rebota elásticamente. Esa resistencia es la que frena la canilla con suavidad milimétrica.",
     "quickSummary": "Lámina elástica en el fondo de la caja de canilla que frena la inercia de la bobina al detenerse la máquina evitando marañas y enredos inferiores.",
     "imageCaption": "Fondo de la caja de canilla mostrando el muelle de freno elástico (Brake Spring) instalado en su alojamiento.",
     "relatedTerms": [
@@ -217,13 +217,13 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-098-anel-o-ring-de-retencao-de-carretel": {
-    "term": "Anillo O-Ring Antideslizante para Porta-Conos y Carreteles",
+    "term": "Anillo Tórico Antideslizante para Portaconos",
     "level": "Iniciante 🟢",
     "category": "Componentes y Mecánica de la Máquina",
     "grammarClass": "Locución sustantiva masculina.",
-    "origin": "Del inglés O-ring (anillo de sección circular en forma de O) y del francés carretel / bobina. Solución elastomérica de agarre adoptada para estabilizar conos sobre pasadores lisos.",
-    "summary": "Anillo de goma elástica insertado en el pasador del porta-conos que sujeta el cono o carretel evitando que gire loco o vibre al devanar.",
-    "definition": "El anillo O-ring de retención de carretel (Spool Pin O-Ring Gripper / Bobbin Winder Friction Ring) es un aro toroidal de caucho sintético de nitrilo o silicona de alta fricción colocado a presión sobre los vástagos metálicos cilíndricos del devanador de canillas o de los soportes porta-conos de la máquina de bordar. Su cometido mecánico es actuar como cuña elastomérica antideslizante, sujetando firmemente el núcleo plástico o de cartón del cono para transmitir el giro sin patinamientos en el devanado, o impidiendo que el carretel brinque o vibre sobre el vástago durante la alimentación de hilo a alta velocidad.",
+    "origin": "Del inglés O-ring (anillo de sección circular en forma de O) y del francés carrete / bobina. Solución elastomérica de agarre adoptada para estabilizar conos sobre pasadores lisos.",
+    "summary": "Anillo de goma elástica insertado en el pasador del portaconos que sujeta el cono o carrete evitando que gire loco o vibre al devanar.",
+    "definition": "El anillo O-ring de retención de carrete (Spool Pin O-Ring Gripper / Bobbin Winder Friction Ring) es un aro toroidal de caucho sintético de nitrilo o silicona de alta fricción colocado a presión sobre los vástagos metálicos cilíndricos del devanador de canillas o de los soportes portaconos de la máquina de bordar. Su cometido mecánico es actuar como cuña elastomérica antideslizante, sujetando firmemente el núcleo plástico o de cartón del cono para transmitir el giro sin patinamientos en el devanado, o impidiendo que el carrete brinque o vibre sobre el vástago durante la alimentación de hilo a alta velocidad.",
     "technicalDetails": "Al devanar canillas a más de 3.000 RPM en los motores independientes de bobinado, la aceleración rotacional hace que el núcleo liso de la canilla patine sobre el eje de acero si no existe un medio de agarre elástico con coeficiente de fricción superior a 0,7. El anillo O-ring encastrado en la ranura del pasador compensa las tolerancias milimétricas de los diferentes fabricantes de canillas, garantizando un bobinado uniforme y parejo.",
     "beginnerExplanation": "Es esa gomita redonda y negra que está encajada en el palito de metal donde ponés la canilla para llenarla de hilo. Sirve para que la canilla entre justita y no patine en falso cuando el motorcito gira a mil por hora para cargarla de hilo.",
     "construction": [
@@ -242,7 +242,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     ],
     "mainTypes": [
       "O-Ring para Pasador de Devanador de Canillas (Microanillo de tracción directa)",
-      "Tope O-Ring para Pasador Horizontal Porta-Cono (Retén de carretel chico)",
+      "Tope O-Ring para Pasador Horizontal Porta-Cono (Retén de carrete chico)",
       "Anillo de Silicona para Adaptador de Conos Industriales de 5.000 metros"
     ],
     "advantages": [
@@ -262,22 +262,22 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     ],
     "troubleshootingTips": [
       "Si el motor del devanador gira pero la canilla se queda quieta: Limpie el anillo O-ring con alcohol para quitar grasas o cámbielo por una gomita nueva si está desgastado.",
-      "Si la canilla entra tan dura que cuesta sacarla: Pase suavemente un hisopo apenas húmedo sobre la goma para facilitar la inserción."
+      "Si la canilla entra tan dura que cuesta sacarla: Pase suavemente un bastoncillo apenas húmedo sobre la goma para facilitar la inserción."
     ],
-    "dicaArtrelados": "¡El chequeo para canillas perfectas! Si nota que sus canillas quedan fofas o blandas como esponjas al llenarlas, revise el arito de goma del devanador. Si está seco o gastado, la canilla patina y el hilo se llena sin fuerza. Cambie esa gomita que cuesta dos monedas y sus canillas volverán a quedar firmes como una goma de borrar.",
+    "dicaArtrelados": "¡El chequeo para canillas perfectas! Si nota que sus canillas quedan fofas o blandas como esponjas al llenarlas, revise el anillo de goma del devanador. Si está seco o gastado, la canilla patina y el hilo se llena sin fuerza. Cambie esa gomita que cuesta dos monedas y sus canillas volverán a quedar firmes como una goma de borrar.",
     "voceSabia": "¡Los anillos toroidales O-ring fueron inventados por el maquinista Niels Christensen en 1937 y se hicieron famosos durante la Segunda Guerra Mundial en los sistemas hidráulicos de los aviones de combate!",
     "practicalExercise": "Coloque una canilla vacía en el devanador. Intente hacerla girar con los dedos con la máquina apagada: debe sentir una resistencia elástica firme que no le permite girar en falso. Esa es la acción perfecta del anillo O-ring.",
-    "quickSummary": "Anillo de goma en el pasador del devanador o porta-conos que sujeta la bobina por fricción para evitar patinamientos y vibraciones durante el bobinado.",
+    "quickSummary": "Anillo de goma en el pasador del devanador o portaconos que sujeta la bobina por fricción para evitar patinamientos y vibraciones durante el bobinado.",
     "imageCaption": "Anillo O-ring de goma montado en la ranura del eje del devanador de canillas independiente.",
     "relatedTerms": [
       "Devanador de Canillas Independiente",
       "Canilla de Bordado (Bobbin)",
       "Devanado y Bobinado de Hilo Inferior",
-      "Porta-Conos y Guía-Hilos"
+      "portaconos y Guía-Hilos"
     ],
     "applications": [
       "Devanadores automáticos de canillas en todas las marcas de bordadoras.",
-      "Soportes de pasadores horizontales para carreteles pequeños de hilo.",
+      "Soportes de pasadores horizontales para carretes pequeños de hilo.",
       "Adaptadores de conos grandes para máquinas de una sola aguja."
     ],
     "recommendedSettings": {
@@ -289,15 +289,15 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     }
   },
   "a-080-anel-o-ring-de-reten-o-de-carretel-spool-pin-rubber-friction-ring": {
-    "term": "Anillo de Retención y Fricción de Carretel en Goma",
+    "term": "Anillo de Retención y Fricción para Carrete",
     "level": "Iniciante 🟢",
     "category": "Componentes y Mecánica de la Máquina",
     "grammarClass": "Locución sustantiva masculina.",
     "origin": "Del latín anellus (anillo) y del inglés técnico spool pin friction ring (anillo de fricción para pasador de carrete). Accesorio auxiliar para control de desbobinado en máquinas textiles.",
-    "summary": "Tope de goma amortiguador que fija el carretel en el porta-hilos horizontal para que no vibre ni se desplace hacia afuera durante el bordado.",
-    "definition": "El anillo de retención y fricción de carretel en goma (Spool Pin Rubber Friction Ring / Spool Cap Cushion) es un retenedor elastomérico circular con orificio central calibrado diseñado para insertarse en el pasador portacarretes horizontal o vertical de las máquinas de bordar. Su función es fijar firmemente la tapa plástica retenedora (Spool Cap) o apoyar la base del carretel sobre una superficie de goma blanda, absorbiendo las sacudidas inerciales generadas por el desbobinado rápido del hilo y evitando que el carretel cabecee o se desplace hacia el extremo libre del vástago.",
-    "technicalDetails": "En bordadoras que utilizan pasadores portahilos horizontales, el hilo sale por el extremo del carretel en espiral. Si el carretel tiene holgura axial y vibra contra la base plástica, el hilo se engancha periódicamente en la muesca de corte de fábrica del carretel, cortándose de inmediato. El anillo de fricción de nitrilo mantiene una precarga axial suave que estabiliza el cono sin frenar la salida libre del hilo hacia la guía superior.",
-    "beginnerExplanation": "Es un arito o tapita de goma que se pone en el palito donde calzas el carrete de hilo. Sirve para que el carrete no baile, no vibre y no se salga volando cuando la máquina borda a toda velocidad, evitando que el hilo se enganche y se corte.",
+    "summary": "Tope de goma amortiguador que fija el carrete en el porta-hilos horizontal para que no vibre ni se desplace hacia afuera durante el bordado.",
+    "definition": "El anillo de retención y fricción de carrete en goma (Spool Pin Rubber Friction Ring / Spool Cap Cushion) es un retenedor elastomérico circular con orificio central calibrado diseñado para insertarse en el pasador portacarretes horizontal o vertical de las máquinas de bordar. Su función es fijar firmemente la tapa plástica retenedora (Spool Cap) o apoyar la base del carrete sobre una superficie de goma blanda, absorbiendo las sacudidas inerciales generadas por el desbobinado rápido del hilo y evitando que el carrete cabecee o se desplace hacia el extremo libre del vástago.",
+    "technicalDetails": "En bordadoras que utilizan pasadores portahilos horizontales, el hilo sale por el extremo del carrete en espiral. Si el carrete tiene holgura axial y vibra contra la base plástica, el hilo se engancha periódicamente en la muesca de corte de fábrica del carrete, cortándose de inmediato. El anillo de fricción de nitrilo mantiene una precarga axial suave que estabiliza el cono sin frenar la salida libre del hilo hacia la guía superior.",
+    "beginnerExplanation": "Es un anillo o tapita de goma que se pone en el palito donde calzas el carrete de hilo. Sirve para que el carrete no baile, no vibre y no se salga volando cuando la máquina borda a toda velocidad, evitando que el hilo se enganche y se corte.",
     "construction": [
       "Anillo moldeado en caucho de nitrilo (NBR) o poliuretano de alta resiliencia",
       "Orificio central ajustado a la medida exacta del vástago (4 a 6 mm de diámetro)",
@@ -305,15 +305,15 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
       "Resistencia a la luz solar y no mancha plásticos ni metales"
     ],
     "howItWorks": [
-      "1. La bordadora coloca el carretel de hilo en el vástago porta-conos horizontal.",
-      "2. Coloca la tapa plástica adecuada según el tamaño del carretel.",
+      "1. La bordadora coloca el carrete de hilo en el vástago portaconos horizontal.",
+      "2. Coloca la tapa plástica adecuada según el tamaño del carrete.",
       "3. Desliza el anillo de fricción de goma empujándolo suavemente contra la tapa plástica.",
       "4. El anillo fija el conjunto en su posición sin dejar holgura de juego longitudinal.",
       "5. El hilo se desbobina suavemente por el lateral sin tirones ni enganches.",
       "6. La máquina borda sin cortes intempestivos de hilo superior."
     ],
     "mainTypes": [
-      "Anillo de Retención Posterior (Amortigua la base del carretel contra la máquina)",
+      "Anillo de Retención Posterior (Amortigua la base del carrete contra la máquina)",
       "Anillo de Bloqueo Frontal (Asegura la tapa plástica en el extremo del pasador)",
       "Manguito Tubular de Goma Antivibratorio para Conos Cónicos Industriales"
     ],
@@ -324,7 +324,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
       "✔ Accesorio muy económico que prolonga la estabilidad de la costura"
     ],
     "limitations": [
-      "No debe apretarse contra el carretel hasta frenar el desbobinado libre del hilo.",
+      "No debe apretarse contra el carrete hasta frenar el desbobinado libre del hilo.",
       "Debe retirarse con cuidado para no estirarlo con fuerza excesiva."
     ],
     "commonErrors": [
@@ -333,22 +333,22 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
       "❌ Dejar el anillo apoyado al revés frenando el hilo."
     ],
     "troubleshootingTips": [
-      "Si el hilo superior se corta cada pocos minutos sin causa aparente: Revise el carretel en el vástago; asegúrese de que el anillo de retención mantenga la ranura del carrete orientada hacia el lado contrario a la salida del hilo.",
+      "Si el hilo superior se corta cada pocos minutos sin causa aparente: Revise el carrete en el vástago; asegúrese de que el anillo de retención mantenga la ranura del carrete orientada hacia el lado contrario a la salida del hilo.",
       "Si el anillo se desliza y no sujeta: Limpie el eje de metal con un paño seco para eliminar restos de lubricante que le hagan perder adherencia."
     ],
-    "dicaArtrelados": "¡El secreto para usar carretes chicos sin dolores de cabeza! Siempre coloque el carrete de manera que la pequeña ranura donde viene trabado el hilo de fábrica quede hacia el fondo (mirando hacia la máquina), y ajústelo con su arito de goma. De esa forma, el hilo saldrá siempre hacia adelante libre y nunca se enganchará en esa ranura traicionera.",
-    "voceSabia": "¡La fuerza centrífuga del desbobinado a 1.000 PPM puede hacer vibrar un carretel de hilo cientos de veces por minuto, generando microtirones imperceptibles que alteran la tensión superior si no está bien amortiguado!",
-    "practicalExercise": "Coloque un carretel de hilo sin tope y haga correr la máquina a 800 PPM: verá cómo vibra y se desplaza hacia afuera. Luego coloque el anillo de retención de goma y vuelva a bordar: notará que permanece quieto y sereno, entregando el hilo con total suavidad.",
-    "quickSummary": "Tope de goma elástica que asegura el carretel en el porta-hilos horizontal para absorber vibraciones y evitar cortes por desbobinado descontrolado.",
-    "imageCaption": "Anillo de goma de retención fijando la tapa del carretel en el vástago porta-hilos de la bordadora.",
+    "dicaArtrelados": "¡El secreto para usar carretes chicos sin dolores de cabeza! Siempre coloque el carrete de manera que la pequeña ranura donde viene trabado el hilo de fábrica quede hacia el fondo (mirando hacia la máquina), y ajústelo con su anillo de goma. De esa forma, el hilo saldrá siempre hacia adelante libre y nunca se enganchará en esa ranura traicionera.",
+    "voceSabia": "¡La fuerza centrífuga del desbobinado a 1.000 PPM puede hacer vibrar un carrete de hilo cientos de veces por minuto, generando microtirones imperceptibles que alteran la tensión superior si no está bien amortiguado!",
+    "practicalExercise": "Coloque un carrete de hilo sin tope y haga correr la máquina a 800 PPM: verá cómo vibra y se desplaza hacia afuera. Luego coloque el anillo de retención de goma y vuelva a bordar: notará que permanece quieto y sereno, entregando el hilo con total suavidad.",
+    "quickSummary": "Tope de goma elástica que asegura el carrete en el porta-hilos horizontal para absorber vibraciones y evitar cortes por desbobinado descontrolado.",
+    "imageCaption": "Anillo de goma de retención fijando la tapa del carrete en el vástago porta-hilos de la bordadora.",
     "relatedTerms": [
-      "Porta-Conos y Guía-Hilos",
+      "portaconos y Guía-Hilos",
       "Conjunto Tensor del Hilo Superior",
       "Desbobinado de Hilo y Tensión Dinámica",
       "Rotura de Hilo y Tensión Inadecuada"
     ],
     "applications": [
-      "Uso de carreteles pequeños de hilo (de 500 a 1.000 metros) en máquinas de bordar.",
+      "Uso de carretes pequeños de hilo (de 500 a 1.000 metros) en máquinas de bordar.",
       "Sujeción de bobinas de hilo metálico y filamentos especiales.",
       "Estabilización de conos en máquinas hogareñas y de una sola aguja."
     ],
@@ -369,7 +369,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     "summary": "Mecanismo electromecánico situado bajo la placa de aguja que engancha y corta los hilos superior e inferior al finalizar cada bloque o salto de bordado.",
     "definition": "El cortahilos automático de bancada inferior (Under-Bed Thread Trimmer / Sub-Bed Knife System) es el conjunto mecatrónico ubicado inmediatamente debajo de la placa de aguja y junto a la caja de canilla. Está compuesto por un solenoide o motor paso a paso, una leva de accionamiento, un gancho captor móvil (Moving Knife) y una cuchilla fija de carburo de tungsteno (Fixed Knife). Su función es capturar simultáneamente la lazada del hilo superior y el hilo de la canilla al recibir la orden electrónica en la matriz, cortándolos limpiamente y reteniendo una colita corta calibrada para reiniciar la costura sin deshebrarse.",
     "technicalDetails": "El ciclo de corte se ejecuta en menos de 180 milisegundos con el volante detenido en la posición angular de corte (típicamente entre 100° y 110° del ciclo de máquina). El gancho móvil avanza, captura ambos hilos, los arrastra contra la contracuchilla afilada y activa un fleje elástico retenedor que sujeta el cabo inferior para evitar que la canilla se desoville. La holgura de corte entre cuchillas debe ajustarse con galgas micrométricas con una tolerancia menor a 0,02 mm.",
-    "beginnerExplanation": "Es la tijerita mágica y automática que está escondida debajo de la chapita de metal de la máquina. Cuando el bordado termina una letra o cambia de color, esta tijera invisible corta los hilos por debajo para que usted no tenga que cortar nada a mano con tijeritas, dejando la prenda limpia y lista para usar.",
+    "beginnerExplanation": "Es la tijera curva mágica y automática que está escondida debajo de la placa de aguja de metal de la máquina. Cuando el bordado termina una letra o cambia de color, esta tijera invisible corta los hilos por debajo para que usted no tenga que cortar nada a mano con tijeritas, dejando la prenda limpia y lista para usar.",
     "construction": [
       "Cuchilla móvil oscilante o giratoria de acero para herramientas templado",
       "Cuchilla fija de carburo de tungsteno con filo rectificado al espejo",
@@ -409,7 +409,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
       "Si la máquina intenta cortar pero deja los hilos unidos: Retire la placa de aguja y limpie la pelusa acumulada con un cepillo; si las cuchillas están melladas, sustituya el conjunto de cuchilla fija y móvil.",
       "Si la aguja se deshebra justo después de cada corte: La colita de corte quedó demasiado corta; ajuste el parámetro de longitud de hilo post-corte en el menú de configuración técnica de la máquina."
     ],
-    "dicaArtrelados": "¡El mantenimiento que evita dolores de cabeza con el cortahilos! Una vez por semana, retire la chapita de la aguja y con un pincelito seco o una perita de aire limpie toda la pelusa que se junta alrededor de las cuchillas. ¡Esa simple limpieza de un minuto evita que la tijera se trabe y le asegura cortes limpios y perfectos durante años!",
+    "dicaArtrelados": "¡El mantenimiento que evita dolores de cabeza con el cortahilos! Una vez por semana, retire la placa de aguja de la aguja y con un pincelito seco o una perita de aire limpie toda la pelusa que se junta alrededor de las cuchillas. ¡Esa simple limpieza de un minuto evita que la tijera se trabe y le asegura cortes limpios y perfectos durante años!",
     "voceSabia": "¡En un bordado con decenas de letras y detalles, el cortahilos automático realiza entre 20 y 50 cortes en pocos minutos, ahorrándole a la bordadora más de 15 minutos de trabajo manual de tijera por cada prenda!",
     "practicalExercise": "Borde un nombre de cinco letras con la función de corte activada entre cada letra. Observe cómo la cuchilla actúa por debajo de la placa en fracciones de segundo y admire la prolijidad con la que el frente queda terminado sin hilos cruzados.",
     "quickSummary": "Dispositivo electromecánico bajo la placa de aguja que corta automáticamente los hilos superior e inferior al finalizar letras o bloques de color.",
@@ -449,7 +449,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     "summary": "Sistema automatizado que proyecta un haz láser CO2 para cortar siluetas de tela directamente dentro del bastidor, eliminando el recorte manual con tijera.",
     "definition": "El aplique con corte láser integrado (Laser-Cut Appliqué / Laser Bridge Embroidery System) es la tecnología mecatrónica de alta precisión que incorpora un tubo láser de CO2 sellado (de 30 a 100 W) montado en un carro deslizante sobre el puente de la bordadora o integrado directamente en el cabezal de costura. Permite que, tras bordar la línea de fijación del aplique, el haz láser corte el contorno del tejido superpuesto en fracciones de segundo con tolerancia de 0,1 mm directamente dentro del bastidor, sellando térmicamente los bordes sintéticos y eliminando por completo la intervención manual con tijeras.",
     "technicalDetails": "El haz láser opera enfocado por una lente óptica de seleniuro de zinc (ZnSe) con distancia focal de 50 mm, vaporizando el tejido sobrante mediante calor concentrado sin quemar la prenda base ni el estabilizador subyacente. En telas sintéticas como sarga de poliéster, microfibra o raso, la energía térmica cauteriza instantáneamente los bordes cortados, evitando el deshilachado y permitiendo rematar con cordones de satén delgados de apenas 1,5 mm de ancho o incluso con puntadas decorativas abiertas.",
-    "beginnerExplanation": "En el aplique tradicional, cuando la máquina cose la telita del dibujo, tenés que sacar el bastidor o meter la tijerita con mucho cuidado para cortar el sobrante a mano sin pinchar la tela de abajo. Con este sistema, la máquina tiene una 'varita mágica láser' que corta la telita en un segundo con un rayo de luz invisible y perfecto, dejando los bordes derretidos y sellados sin deshilacharse nunca más.",
+    "beginnerExplanation": "En el aplique tradicional, cuando la máquina cose la tela del dibujo, tenés que sacar el bastidor o meter la tijera curva con mucho cuidado para cortar el sobrante a mano sin pinchar la tela de abajo. Con este sistema, la máquina tiene una 'varita mágica láser' que corta la tela en un segundo con un rayo de luz invisible y perfecto, dejando los bordes derretidos y sellados sin deshilacharse nunca más.",
     "construction": [
       "Tubo láser de CO2 sellado por radiofrecuencia (longitud de onda de 10,6 micrómetros)",
       "Cabezal óptico con lentes de enfoque y espejo deflector guiado por galvanómetro",
@@ -494,7 +494,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     "quickSummary": "Tecnología que corta las telas de aplique directamente en el bastidor mediante un rayo láser CO2 de alta precisión, sellando bordes y ahorrando tiempo.",
     "imageCaption": "Cabezal de corte láser de CO2 integrado en una bordadora seccionando el contorno de un aplique textil.",
     "relatedTerms": [
-      "Apliqué en Bordado Computarizado",
+      "Aplique en Bordado Electrónico",
       "Aplique Termoadhesivo Definitivo",
       "Puntada Plumetis / Satén",
       "Tijera Pelícano para Aplique"
@@ -520,7 +520,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     "whenToAdjust": "Calibre la potencia del tubo láser (vatios) si observa quemaduras marrones en telas claras o si el rayo no corta totalmente la fibra sintética."
   },
   "a-aplicacao-com-termocolante-definitivo-patch-aplique": {
-    "term": "Aplique Termoadhesivo Definitivo / Parche Bordado Termofijable",
+    "term": "Aplique Termoadhesivo Definitivo para Parches",
     "level": "Intermedio 🟡",
     "category": "Técnicas de Aplique y Relieve",
     "grammarClass": "Locución sustantiva masculina.",
@@ -528,7 +528,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     "summary": "Técnica que combina telas pre-adheridas con film termoadhesivo y bordado de festón, creando parches resistentes que no se deshilachan ni se despegan en el lavado.",
     "definition": "El aplique con termoadhesivo definitivo (Patch Appliqué / Permanent Fusible Film Appliqué) es la técnica de bordado y confección que utiliza una película de resina termoplástica de poliamida o poliuretano de alta adherencia (sin soporte de papel o con papel siliconado retirado) fijada en el revés de la tela de aplique mediante calor y presión antes de bordar. Su objetivo es termosoldar permanentemente las fibras del aplique a la prenda base, garantizando que el diseño soporte lavados intensivos sin deshilacharse en los bordes, incluso si se utilizan puntadas de cobertura abiertas como festón o punto París.",
     "technicalDetails": "El film termoadhesivo definitivo (como Teabond, Decofix o HeatnBond Ultrahold) se activa en dos etapas: primero se aplica a la tela del aplique a 130 °C durante 5 segundos para transferir la resina sólida. Una vez bordada la pieza con sus contornos en la máquina, se somete a un planchado térmico final en prensa térmica industrial a 160 °C con 4 bares de presión durante 15 a 20 segundos. La resina líquida penetra en los poros de ambos tejidos formando una unión molecular irrompible.",
-    "beginnerExplanation": "Es el famoso aplique con pegamento térmico de plancha. En lugar de coser una telita común que con el tiempo se deshilacha o se levanta en las puntas, se le pega por detrás un papel termoadhesivo especial con la plancha. Al bordarlo y volver a plancharlo al final, la tela queda pegada y soldada para siempre a la camiseta, como si fuera una sola pieza de fábrica.",
+    "beginnerExplanation": "Es el famoso aplique con pegamento térmico de plancha. En lugar de coser una tela común que con el tiempo se deshilacha o se levanta en las puntas, se le pega por detrás un papel termoadhesivo especial con la plancha. Al bordarlo y volver a plancharlo al final, la tela queda pegada y soldada para siempre a la camiseta, como si fuera una sola pieza de fábrica.",
     "construction": [
       "Tela base de aplique (sarga, gabardina, paño lenci, lino o algodón estampado)",
       "Film termoadhesivo permanente de poliamida pura de 50 a 100 micrones",
@@ -573,7 +573,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     "quickSummary": "Fijación permanente de telas de aplique mediante lámina adhesiva activada por calor que fusiona las fibras impidiendo el deshilachado.",
     "imageCaption": "Planchado térmico de un aplique textil con film termoadhesivo definitivo sobre una prenda terminada.",
     "relatedTerms": [
-      "Apliqué en Bordado Computarizado",
+      "Aplique en Bordado Electrónico",
       "Aguja Antiadherente (Anti-Glue)",
       "Puntada Plumetis / Satén",
       "Tijera Pelícano para Aplique"
@@ -607,7 +607,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     "summary": "Técnica que cubre áreas del diseño con recortes de tela contorneados con puntadas de satén o festón, ahorrando miles de puntadas de hilo y otorgando ligereza.",
     "definition": "El apliqué en bordado computarizado (Appliqué Embroidery Technique / Cut-in-the-Hoop Appliqué) es la técnica mixta que consiste en rellenar grandes áreas geométricas o figuras de un diseño utilizando piezas de tela superpuesta (estampada, texturada o lisa) en lugar de coser millones de puntadas de hilo de relleno (tatami). La matriz automatiza la secuencia mediante tres fases obligatorias: 1) Línea de marcado o posición (Placement Line); 2) Línea de fijación provisoria (Tackdown Stitch); 3) Cordón perimétrico de cobertura final en puntada de satén o festón (Cover Stitch).",
     "technicalDetails": "Un diseño bordado completamente con puntada de relleno de 15x15 cm puede demandar más de 45.000 puntadas, haciendo que la prenda quede pesada, rígida y demore 45 minutos de máquina. Ese mismo motivo resuelto con técnica de apliqué consume apenas 5.000 puntadas de contorno exterior, demorando menos de 8 minutos de costura y dejando una pieza suave, liviana y flexible con un ahorro del 85% en tiempo de máquina e hilo.",
-    "beginnerExplanation": "En vez de que la máquina tarde media hora gastando un montón de hilo para pintar todo un corazón de color rojo, la máquina cose una línea de guía en la tela; vos apoyás un retazo de tela roja encima, la máquina le da una costurita rápida para sujetarlo, cortás el sobrante con una tijerita curva y luego la máquina le borda un cordón hermoso y prolijo alrededor de todo el borde. ¡Queda divino, rápido y suave!",
+    "beginnerExplanation": "En vez de que la máquina tarde media hora gastando un montón de hilo para pintar todo un corazón de color rojo, la máquina cose una línea de guía en la tela; vos apoyás un retazo de tela roja encima, la máquina le da una costurita rápida para sujetarlo, cortás el sobrante con una tijera curva curva y luego la máquina le borda un cordón hermoso y prolijo alrededor de todo el borde. ¡Queda divino, rápido y suave!",
     "construction": [
       "Línea guía de posicionamiento (Placement Stitch)",
       "Línea de fijación provisoria de sujeción (Tackdown Stitch)",
@@ -647,7 +647,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
       "Si los hilachas de la tela asoman fuera del borde de satén: Aumente el ancho del cordón a 4,0 mm en el software y aplique entretela termoadhesiva en el revés de la tela de aplique antes de recortar.",
       "Si la máquina no frena después de la línea de marcado: Inserte una orden de cambio de color o comando de STOP programado en la matriz entre cada paso."
     ],
-    "dicaArtrelados": "¡El secreto de los apliques perfectos que parecen de fábrica! Antes de poner la telita en el bastidor, pegue un film termoadhesivo liviano en su revés y use una tijera pelícano (esa que tiene una paleta redondeada abajo). La paleta apoya sobre el bastidor sin riesgo de pellizcar la camiseta y le permite cortar a 1 milímetro exacto de la costura. ¡El borde de satén quedará impecable y sin un solo hilito asomando!",
+    "dicaArtrelados": "¡El secreto de los apliques perfectos que parecen de fábrica! Antes de poner la tela en el bastidor, pegue un film termoadhesivo liviano en su revés y use una tijera pelícano (esa que tiene una paleta redondeada abajo). La paleta apoya sobre el bastidor sin riesgo de pellizcar la camiseta y le permite cortar a 1 milímetro exacto de la costura. ¡El borde de satén quedará impecable y sin un solo hilito asomando!",
     "voceSabia": "¡Una figura de un osito de 15 cm completamente rellena en puntada tatami insume cerca de 40.000 puntadas; esa misma figura resuelta con tela de aplique insume apenas 4.500 puntadas de contorno exterior!",
     "practicalExercise": "Descargue una matriz sencilla de corazón en apliqué. Deje que la máquina marque la línea, coloque un recorte de tela de algodón floreada, espere la puntada de fijación y recorte el sobrante con tijera pelícano. Deje que la máquina cierre el cordón satén y sienta la suavidad de la prenda terminada.",
     "quickSummary": "Técnica que cubre áreas del diseño con retazos de tela enmarcados con puntadas de satén, ahorrando tiempo de costura y brindando ligereza textil.",
@@ -679,7 +679,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     "whenToAdjust": "Aumente el ancho del festón a 3,2 mm si la tela de recorte asoma por fuera del cordón de satén."
   },
   "a-099-aplique-rendado-em-richelieu-eletronico": {
-    "term": "Aplique de Encaje Richelieu Electrónico en Bastidor",
+    "term": "Bordado Richelieu y Encaje Calado en Bastidor",
     "level": "Avanzado 🔴",
     "category": "Técnicas de Aplique y Relieve",
     "grammarClass": "Locución sustantiva masculina.",
@@ -697,7 +697,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
     "howItWorks": [
       "1. La bordadora monta la tela junto a dos capas de entretela hidrosoluble en el bastidor.",
       "2. La máquina cose la línea de corte de las zonas que se van a calar.",
-      "3. La operadora corta con tijerita de punta curva la tela del interior con cuidado de no pinchar la entretela de abajo.",
+      "3. La operadora corta con tijera curva de punta curva la tela del interior con cuidado de no pinchar la entretela de abajo.",
       "4. Se coloca una pieza de tul transparente sobre el hueco calado.",
       "5. La máquina teje los puentes de unión en puntada de satén de lado a lado.",
       "6. Remata todas las orillas con un cordón de festón compacto que sella los bordes.",
@@ -727,7 +727,7 @@ export const LOTE3_PART3_ES: Record<string, Partial<Verbete>> = {
       "Si la entretela soluble se rompe o perfora durante el calado: Coloque un parche de film soluble por debajo adherido con una gota de agua con la yema del dedo.",
       "Si los puentes de encaje quedan torcidos o deshilachados: Reduzca la velocidad de la máquina a 550 PPM durante la fase de puentes y asegúrese de que el bastidor esté tensado como parche de tambor."
     ],
-    "dicaArtrelados": "¡El truco maestro para recortar el Richelieu sin pinchar la entretela soluble de abajo! Utilice una tijerita de manicura con punta curva bien afilada y mantenga SIEMPRE la punta curvada hacia arriba, mirando al techo, mientras va cortando la tela. De esa forma, la panza redonda de la tijera desliza suavemente sobre la entretela sin clavarse jamás en el plástico transparente.",
+    "dicaArtrelados": "¡El truco maestro para recortar el Richelieu sin pinchar la entretela soluble de abajo! Utilice una tijera curva de manicura con punta curva bien afilada y mantenga SIEMPRE la punta curvada hacia arriba, mirando al techo, mientras va cortando la tela. De esa forma, la panza redonda de la tijera desliza suavemente sobre la entretela sin clavarse jamás en el plástico transparente.",
     "voceSabia": "¡El encaje Richelieu original era bordado a mano con aguja fina por monjas en los conventos de Francia e Italia en el siglo XVII; una sola toalla para banquetes de reyes podía demandar más de dos años de bordado continuo!",
     "practicalExercise": "Enbastidore un recorte de lino con dos capas de entretela soluble de 80 g. Borde una pequeña flor de Richelieu. Haga la pausa programada, recorte el centro con la tijera con punta curva hacia arriba, coloque un trocito de tul y deje que la máquina termine el cordón de satén. Enjuague bajo la canilla con agua tibia y maravíllese con el encaje perfecto.",
     "quickSummary": "Técnica refinada que combina áreas caladas en la tela con puentes de satén y tul sobre entretela soluble, creando encajes de corte clásicos.",

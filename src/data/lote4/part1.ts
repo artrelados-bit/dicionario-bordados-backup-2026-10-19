@@ -68,7 +68,7 @@ export const LOTE4_PART1_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "El encaje calado Richelieu exige tiempo de corte manual en bastidor. Integre estos minutos de operario en la Calculadora de Costos Artrelados para garantizar la rentabilidad de cada pieza exclusiva."
   },
   "a-025-aquecimento-da-agulha": {
-    "term": "Calentamiento Térmico de la Aguja en Alta Velocidad",
+    "term": "Calentamiento Térmico de la Aguja",
     "level": "Avanzado 🔴",
     "category": "Mecánica y Ajustes",
     "grammarClass": "Locución sustantiva masculina compuesta",
@@ -134,7 +134,7 @@ export const LOTE4_PART1_ES: Record<string, Partial<Verbete>> = {
     "calculatorAd": "El desgaste prematuro de agujas e hilos por fricción térmica incrementa el consumo de consumibles. Programe la reposición periódica de agujas con la Calculadora de Bordado Artrelados."
   },
   "a-076-arame-guia-fio-de-espiral-dupla": {
-    "term": "Guía-Hilo de Alambre en Doble Espiral",
+    "term": "Guiahilos de Alambre en Doble Espiral",
     "level": "Intermedio 🟡",
     "category": "Componentes y Mecánica de la Máquina",
     "grammarClass": "Locución sustantiva masculina técnica",
@@ -155,7 +155,7 @@ export const LOTE4_PART1_ES: Record<string, Partial<Verbete>> = {
       "❌ Enderezar o doblar el alambre helicoidal con alicates inadecuados, rayando el acabado de cromo pulido."
     ],
     "whenToAdjust": "Inspeccione con una uña o hilo de prueba si nota rebabas o hendiduras provocadas por años de roce; reemplace de inmediato el alambre para evitar roturas aleatorias.",
-    "dicaArtrelados": "Pase un hisopo con alcohol isopropílico mensualmente por el interior de las espirales para retirar la acumulación cerosa que desprenden los hilos. Un guía-hilo libre de sarro estabiliza las tensiones dinámicas al instante.",
+    "dicaArtrelados": "Pase un bastoncillo con alcohol isopropílico mensualmente por el interior de las espirales para retirar la acumulación cerosa que desprenden los hilos. Un guía-hilo libre de sarro estabiliza las tensiones dinámicas al instante.",
     "curiosities": "¿Sabía que la forma helicoidal 'pigtail' fue inspirada en los guías cerámicos de los grandes telares ingleses del siglo XIX, optimizada luego con acero quirúrgico pulido para máquinas automáticas?",
     "practicalExercise": "Tome una hebra de hilo y practique el movimiento de pase en ocho para introducir el hilo en la doble espiral con una sola mano y en menos de dos segundos. Verifique la suavidad de deslizamiento tirando con la punta de los dedos.",
     "quickSummary": "Guía metálico helicoidal de fácil inserción rápida que absorbe las ondas dinámicas del hilo impidiendo desalineaciones y nudos camino a los tensores.",
@@ -392,7 +392,7 @@ export const LOTE4_PART1_ES: Record<string, Partial<Verbete>> = {
     "howItWorks": "1. Se apoya el anillo exterior abierto sobre una superficie plana de trabajo.\n2. Se extiende el estabilizador y la prenda sobre el marco abierto.\n3. Se presiona el anillo interior centrándolo verticalmente sin tironear la tela de forma diagonal.\n4. Se aprieta el tornillo de sujeción hasta obtener la tensión táctil de un parche de tambor suave.",
     "beginnerExplanation": "El bastidor consta de dos piezas que encajan una dentro de la otra: el aro de abajo (exterior, que tiene el tornillo para apretar) y el aro de arriba (interior, que entra a presión). Su misión es sujetar la tela bien planchada y firme para que la bordadora cosa sin que la tela se arrugue ni se escape mientras la aguja baja con fuerza.",
     "practicalExamples": [
-      "Montaje de remeras de algodón jersey en bastidor redondo de 15 cm.",
+      "Montaje de camisetas de algodón jersey en bastidor redondo de 15 cm.",
       "Fijación de toallas gruesas aflojando generosamente el tornillo antes de calzar el aro interior.",
       "Uso de protectores de tela alrededor del aro para evitar quemaduras por fricción en satén fino."
     ],
