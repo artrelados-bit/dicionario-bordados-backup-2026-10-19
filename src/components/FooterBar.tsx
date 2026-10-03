@@ -1,5 +1,5 @@
 import React from "react";
-import { BookOpen, Star, RefreshCw, Sparkles, Heart } from "lucide-react";
+import { BookOpen, Star, RefreshCw, Sparkles, Heart, BookMarked, ShieldCheck } from "lucide-react";
 import { DictionaryStats } from "../types";
 import { SupportedLanguage, UI_TRANSLATIONS } from "../utils/i18n";
 
@@ -7,12 +7,14 @@ interface FooterBarProps {
   stats: DictionaryStats;
   onResetFilters?: () => void;
   currentLanguage?: SupportedLanguage;
+  onOpenReferences?: () => void;
 }
 
 export const FooterBar: React.FC<FooterBarProps> = ({
   stats,
   onResetFilters,
   currentLanguage = "pt",
+  onOpenReferences,
 }) => {
   const t = UI_TRANSLATIONS[currentLanguage] || UI_TRANSLATIONS.pt;
 
@@ -78,6 +80,18 @@ export const FooterBar: React.FC<FooterBarProps> = ({
             <BookOpen className="w-3.5 h-3.5 text-[#F9BC06]" />
             <span>{stats.totalVerbetes} {t.footerActiveTerms}</span>
           </div>
+
+          {/* Interactive Button: Referências Técnicas & Leis de Direitos Autorais */}
+          <button
+            type="button"
+            onClick={onOpenReferences}
+            className="flex items-center space-x-2 bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500 hover:from-amber-400 hover:to-amber-300 text-slate-950 font-black px-3.5 py-1.5 rounded-lg transition-all shadow-md cursor-pointer border border-amber-300 ring-2 ring-amber-400/20 active:scale-95"
+            title="Abrir Compêndio Oficial de Referências Bibliográficas, Manuais Técnicos e Legislação de Direitos Autorais"
+          >
+            <BookMarked className="w-4 h-4 text-slate-950 shrink-0" />
+            <span>Referências, Manuais & Leis</span>
+            <ShieldCheck className="w-3.5 h-3.5 text-amber-950 shrink-0" />
+          </button>
 
           <div className="flex items-center space-x-1.5 bg-slate-900 border border-slate-800 px-3 py-1.5 rounded-lg text-slate-200 shadow-inner">
             <Sparkles className="w-3.5 h-3.5 text-amber-400" />

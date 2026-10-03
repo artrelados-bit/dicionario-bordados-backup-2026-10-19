@@ -9,6 +9,7 @@ import { FilterBar } from "./components/FilterBar";
 import { VerbeteCard } from "./components/VerbeteCard";
 import { VerbeteRow } from "./components/VerbeteRow";
 import { VerbeteDetailModal } from "./components/VerbeteDetailModal";
+import { ReferencesLegalModal } from "./components/ReferencesLegalModal";
 import { TroubleshootingView } from "./components/TroubleshootingView";
 import { FavoritesView } from "./components/FavoritesView";
 import { FooterBar } from "./components/FooterBar";
@@ -388,6 +389,9 @@ export default function App() {
 
   // Selected Verbete Modal State
   const [selectedVerbete, setSelectedVerbete] = useState<Verbete | null>(null);
+
+  // References, Manuals & Legal Shield Modal State
+  const [isReferencesModalOpen, setIsReferencesModalOpen] = useState(false);
 
   // Synchronize URL on initial load and handle browser back/forward buttons
   useEffect(() => {
@@ -820,11 +824,19 @@ export default function App() {
         currentLanguage={currentLanguage}
       />
 
+      {/* Official References, Technical Manuals & Legal Shield Modal */}
+      <ReferencesLegalModal
+        isOpen={isReferencesModalOpen}
+        onClose={() => setIsReferencesModalOpen(false)}
+        currentLanguage={currentLanguage}
+      />
+
       {/* Footer / Control Bar */}
       <FooterBar
         stats={stats}
         onResetFilters={handleResetFilters}
         currentLanguage={currentLanguage}
+        onOpenReferences={() => setIsReferencesModalOpen(true)}
       />
     </div>
   );
