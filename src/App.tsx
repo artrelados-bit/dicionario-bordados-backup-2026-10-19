@@ -177,11 +177,12 @@ function sanitizeVerbetesList(list: Verbete[]): Verbete[] {
     const idKey = (v.id || v.code).trim().toLowerCase();
     const normTerm = v.term.toLowerCase().trim().replace(/^[🟢🟡🔴\s]+/, "");
     if (deduplicatedMap.has(idKey)) {
-      // Merge user edits/notes without overwriting new images from initial data
+      // Preserve favorite status and user personal notes without overwriting official term or technical content
       const official = deduplicatedMap.get(idKey)!;
       deduplicatedMap.set(idKey, {
         ...official,
-        ...v,
+        isFavorite: v.isFavorite || official.isFavorite || false,
+        userNotes: v.userNotes || official.userNotes,
         imageUrl: official.imageUrl || v.imageUrl,
         imageCaption: official.imageCaption || v.imageCaption,
       });
@@ -193,14 +194,15 @@ function sanitizeVerbetesList(list: Verbete[]): Verbete[] {
 
   const combined = Array.from(deduplicatedMap.values());
 
-  // Group verbetes by their normalized true letter (A-Z)
+  // Group verbetes by their official catalog letter (A-Z)
   const byLetter: Record<string, Verbete[]> = {};
   combined.forEach((v) => {
-    const normTerm = (v.term || "").trim().replace(/^[🟢🟡🔴\s]+/, "");
-    let letter = normTerm.charAt(0).toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-    if (!letter.match(/[A-Z]/)) {
-      letter = (v.letter || "A").toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-      if (!letter.match(/[A-Z]/)) letter = "A";
+    const codeLetter = v.code ? v.code.split("-")[0].toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") : "";
+    let letter = (v.letter || codeLetter || "A").toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    if (!letter.match(/^[A-Z]$/)) {
+      const normTerm = (v.term || "").trim().replace(/^[🟢🟡🔴\s]+/, "");
+      letter = normTerm.charAt(0).toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      if (!letter.match(/^[A-Z]$/)) letter = "A";
     }
     if (!byLetter[letter]) {
       byLetter[letter] = [];
@@ -517,8 +519,9 @@ export default function App() {
       // Active letter determination based on current language
       const rawTerm = (getVerbeteTermInLanguage(v, currentLanguage) || v.term || "").trim().replace(/^["'“”«»🟢🟡🔴\s]+/, "");
       const activeFirstChar = rawTerm.charAt(0).toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      const codeLetter = v.code ? v.code.split("-")[0].toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") : "";
       const verbeteLetter = currentLanguage === "pt"
-        ? (v.letter || (v.code ? v.code.charAt(0) : activeFirstChar)).toUpperCase()
+        ? (v.letter || codeLetter || activeFirstChar).toUpperCase()
         : activeFirstChar;
 
       // If there is no search query, filter strictly by selected letter in the active language
