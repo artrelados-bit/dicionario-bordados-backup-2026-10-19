@@ -3,7 +3,7 @@
 
 **Data de Geração:** 03 de Outubro de 2026  
 **Autora & Idealizadora:** Janete (Artrelados)  
-**Total de Verbetes Auditados e Consolidados:** 2.656 verbetes  
+**Total de Verbetes Auditados e Consolidados:** 2.689 verbetes  
 **Status do Acervo:** 100% íntegro, restaurado e com numeração dinâmica sequencial ativa.
 
 ---
@@ -11,12 +11,12 @@
 ### 📦 Conteúdo Desta Pasta de Segurança:
 1. `DIBE_ACERVO_CONSOLIDADO_OUTUBRO_2026.json`
    * Arquivo completo com todo o acervo do DIBE contendo todas as definições técnicas, imagens, designações obrigatórias, níveis (Iniciante, Intermediário, Avançado), categorias, termos em inglês e orientações de ateliê.
-   * Tamanho: ~15.9 MB de conteúdo estruturado.
+   * Tamanho: ~16.4 MB de conteúdo estruturado.
 
 ---
 
 ### 🛡️ Distribuição Consolidada por Letra do Alfabeto:
-* **Letra A:** 117 verbetes
+* **Letra A:** 150 verbetes (Consolidação monumental da Letra A: 150 verbetes de A-001 a A-150)
 * **Letra B:** 127 verbetes
 * **Letra C:** 110 verbetes
 * **Letra D:** 105 verbetes
