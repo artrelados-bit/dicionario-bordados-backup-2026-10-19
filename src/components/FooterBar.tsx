@@ -1,10 +1,10 @@
 import React from "react";
-import { BookOpen, Star, RefreshCw, Sparkles, Heart, BookMarked, ShieldCheck } from "lucide-react";
+import { BookMarked, ShieldCheck } from "lucide-react";
 import { DictionaryStats } from "../types";
 import { SupportedLanguage, UI_TRANSLATIONS } from "../utils/i18n";
 
 interface FooterBarProps {
-  stats: DictionaryStats;
+  stats?: DictionaryStats;
   onResetFilters?: () => void;
   currentLanguage?: SupportedLanguage;
   onOpenReferences?: () => void;
@@ -17,22 +17,6 @@ export const FooterBar: React.FC<FooterBarProps> = ({
   onOpenReferences,
 }) => {
   const t = UI_TRANSLATIONS[currentLanguage] || UI_TRANSLATIONS.pt;
-
-  const getFooterMadeWithText = (lang?: string) => {
-    switch (lang) {
-      case "es":
-        return "Hecho con amor para bordadores de todo el mundo";
-      case "it":
-        return "Fatto con amore per i ricamatori di tutto il mondo";
-      case "fr":
-        return "Fait avec amour pour les brodeurs du monde entier";
-      case "en":
-        return "Made with love for embroiderers worldwide";
-      case "pt":
-      default:
-        return "Feito com amor para bordadeiras de todo o Brasil";
-    }
-  };
 
   const getFooterRightsText = (lang?: string) => {
     switch (lang) {
@@ -52,8 +36,8 @@ export const FooterBar: React.FC<FooterBarProps> = ({
 
   return (
     <footer className="w-full bg-slate-950 text-white border-t-4 border-[#F9BC06] py-6 px-4 sm:px-6 lg:px-8 mt-12 transition-all">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-        {/* Brand & Author */}
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 items-center gap-6">
+        {/* Column 1: Brand & Author */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
           <div className="flex items-center space-x-2">
             <span
@@ -74,63 +58,37 @@ export const FooterBar: React.FC<FooterBarProps> = ({
           </p>
         </div>
 
-        {/* Stats Pill Badges */}
-        <div className="flex flex-wrap items-center justify-center gap-2.5 text-xs font-bold">
-          <div className="flex items-center space-x-1.5 bg-slate-900 border border-slate-800 px-3 py-1.5 rounded-lg text-slate-200 shadow-inner">
-            <BookOpen className="w-3.5 h-3.5 text-[#F9BC06]" />
-            <span>{stats.totalVerbetes} {t.footerActiveTerms}</span>
-          </div>
-
-          {/* Interactive Button: Referências Técnicas & Leis de Direitos Autorais */}
+        {/* Column 2: Strictly Centered Official References & Legal Shield Button */}
+        <div className="flex items-center justify-center w-full">
           <button
             type="button"
             onClick={onOpenReferences}
-            className="flex items-center space-x-2 bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500 hover:from-amber-400 hover:to-amber-300 text-slate-950 font-black px-3.5 py-1.5 rounded-lg transition-all shadow-md cursor-pointer border border-amber-300 ring-2 ring-amber-400/20 active:scale-95"
+            className="flex items-center space-x-2 bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500 hover:from-amber-400 hover:to-amber-300 text-slate-950 font-black px-6 py-2.5 rounded-xl transition-all shadow-md hover:shadow-lg cursor-pointer border border-amber-300 ring-2 ring-amber-400/20 active:scale-95 text-xs sm:text-sm tracking-wide"
             title="Abrir Compêndio Oficial de Referências Bibliográficas, Manuais Técnicos e Legislação de Direitos Autorais"
           >
             <BookMarked className="w-4 h-4 text-slate-950 shrink-0" />
             <span>Referências, Manuais & Leis</span>
-            <ShieldCheck className="w-3.5 h-3.5 text-amber-950 shrink-0" />
+            <ShieldCheck className="w-4 h-4 text-amber-950 shrink-0" />
           </button>
-
-          <div className="flex items-center space-x-1.5 bg-slate-900 border border-slate-800 px-3 py-1.5 rounded-lg text-slate-200 shadow-inner">
-            <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-            <span>{stats.totalIllustrated || 81} {t.footerTechDrawings}</span>
-          </div>
-
-          {stats.totalFavorites > 0 && (
-            <div className="flex items-center space-x-1.5 bg-slate-900 border border-slate-800 px-3 py-1.5 rounded-lg text-amber-400 shadow-inner">
-              <Star className="w-3.5 h-3.5 fill-current" />
-              <span>{stats.totalFavorites} {t.footerFavorites}</span>
-            </div>
-          )}
-
-          {onResetFilters && (
-            <button
-              onClick={onResetFilters}
-              className="flex items-center space-x-1.5 bg-amber-400 hover:bg-amber-300 text-slate-950 font-black px-3 py-1.5 rounded-lg transition-all shadow-xs cursor-pointer"
-              title={t.footerResetFilters}
-            >
-              <RefreshCw className="w-3.5 h-3.5" />
-              <span>{t.resetFilters}</span>
-            </button>
-          )}
         </div>
 
-        {/* Links & Rights */}
-        <div className="flex flex-col items-center md:items-end text-center md:text-right text-[11px] text-slate-400">
+        {/* Column 3: Atelier Motto, Link & Rights */}
+        <div className="flex flex-col items-center md:items-end text-center md:text-right space-y-1">
           <a
             href="https://www.artrelados.com.br/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-amber-400 hover:text-amber-300 font-bold transition hover:underline"
+            className="text-sm font-bold text-amber-400 hover:text-amber-300 transition hover:underline tracking-wide"
+            title="Acessar o site oficial Artrelados"
           >
             www.artrelados.com.br
           </a>
-          <span className="mt-1 flex items-center justify-center gap-1">
-            <Heart className="w-3 h-3 text-red-500 fill-current inline" /> {getFooterMadeWithText(currentLanguage)}
-          </span>
-          <span className="text-[10px] text-slate-300 mt-0.5">{getFooterRightsText(currentLanguage)}</span>
+          <p className="text-xs text-amber-200/90 font-medium italic tracking-wide">
+            &ldquo;Bordando sonhos, realizando desejos.&rdquo;
+          </p>
+          <p className="text-[10px] text-slate-400 tracking-wider">
+            {getFooterRightsText(currentLanguage)}
+          </p>
         </div>
       </div>
     </footer>
