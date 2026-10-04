@@ -639,7 +639,7 @@ export default function App() {
       setSelectedLetter(letter);
     } else {
       const cleanTerm = extractCleanSearchQuery(termName);
-      setSelectedLetter("Todas as Letras");
+      setSelectedLetter("");
       setSearchQuery(cleanTerm);
       setSelectedVerbete(null);
       setActiveTab("dictionary");
@@ -780,8 +780,8 @@ export default function App() {
                     <BookOpen className="w-4 h-4 text-amber-400" />
                     <span>
                       {currentLanguage === "es"
-                        ? "Limpiar Filtros y Volver al Inicio (Letra A)"
-                        : "Limpar Filtros e Voltar ao Início (Letra A)"}
+                        ? "Limpiar Filtros y Ver Todo el Catálogo (A-Z)"
+                        : "Limpar Filtros e Ver Todo o Acervo (A-Z)"}
                     </span>
                   </button>
                 </div>

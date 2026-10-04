@@ -58,8 +58,8 @@ export const FooterBar: React.FC<FooterBarProps> = ({
           </p>
         </div>
 
-        {/* Column 2: Strictly Centered Official References & Legal Shield Button */}
-        <div className="flex items-center justify-center w-full">
+        {/* Column 2: Strictly Centered Official References, Legal Shield & Permanent Acervo Badge */}
+        <div className="flex flex-col items-center justify-center w-full space-y-2.5">
           <button
             type="button"
             onClick={onOpenReferences}
@@ -70,6 +70,12 @@ export const FooterBar: React.FC<FooterBarProps> = ({
             <span>Referências, Manuais & Leis</span>
             <ShieldCheck className="w-4 h-4 text-amber-950 shrink-0" />
           </button>
+
+          {/* Destaque Estratégico do Acervo Artrelados */}
+          <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-slate-900 border border-amber-400/30 text-amber-300 text-[11px] sm:text-xs font-medium tracking-wide shadow-xs">
+            <span className="text-amber-400">🧵</span>
+            <span>Exibindo 2.882 verbetes em todo o acervo (A-Z)</span>
+          </div>
         </div>
 
         {/* Column 3: Atelier Motto, Link & Rights */}

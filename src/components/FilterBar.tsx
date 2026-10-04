@@ -153,8 +153,8 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         </div>
       </div>
 
-      {/* Alphabetical Jumper Bar (A-Z) */}
-      <div className="flex items-center space-x-1 overflow-x-auto pb-1 scrollbar-none border-t border-slate-100 pt-2 text-xs">
+      {/* Alphabetical Jumper Bar (A-Z) - Centered */}
+      <div className="flex items-center justify-center space-x-1 overflow-x-auto pb-1 scrollbar-none border-t border-slate-100 pt-2 text-xs">
         <span className="text-slate-400 text-[11px] font-extrabold tracking-wider uppercase mr-2 shrink-0">
           {currentLanguage === "es" ? "Índice:" : "Índice:"}
         </span>
@@ -178,25 +178,23 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         ))}
       </div>
 
-      {/* Active Filter Indicator */}
-      <div className="flex items-center justify-between text-xs text-slate-500 pt-1 border-t border-slate-100">
-        <div>
-          {currentLanguage === "es" ? (
-            <>
-              Mostrando <strong className="text-slate-900">{totalFiltered}</strong> {totalFiltered === 1 ? "término" : "términos"}
-              {selectedCategory !== "Todos" && <span> en <span className="text-slate-900 font-bold">"{getCategoryLabel(selectedCategory)}"</span></span>}
-              {selectedLetter && <span> con la letra <span className="text-slate-900 font-bold">"{selectedLetter}"</span></span>}
-            </>
-          ) : (
-            <>
-              Exibindo <strong className="text-slate-900">{totalFiltered}</strong> {totalFiltered === 1 ? "verbete" : "verbetes"}
-              {selectedCategory !== "Todos" && <span> em <span className="text-slate-900 font-bold">"{selectedCategory}"</span></span>}
-              {selectedLetter && <span> com a letra <span className="text-slate-900 font-bold">"{selectedLetter}"</span></span>}
-            </>
-          )}
-        </div>
+      {/* Active Filter Indicator - Only displays when an actual search or special filter is active */}
+      {(searchQuery || selectedCategory !== "Todos" || onlyFavorites || onlyAiGenerated) && (
+        <div className="flex items-center justify-between text-xs text-slate-500 pt-1 border-t border-slate-100">
+          <div>
+            {currentLanguage === "es" ? (
+              <>
+                Mostrando <strong className="text-slate-900">{totalFiltered}</strong> {totalFiltered === 1 ? "término" : "términos"}
+                {selectedCategory !== "Todos" && <span> en <span className="text-slate-900 font-bold">"{getCategoryLabel(selectedCategory)}"</span></span>}
+              </>
+            ) : (
+              <>
+                Exibindo <strong className="text-slate-900">{totalFiltered}</strong> {totalFiltered === 1 ? "verbete" : "verbetes"}
+                {selectedCategory !== "Todos" && <span> em <span className="text-slate-900 font-bold">"{selectedCategory}"</span></span>}
+              </>
+            )}
+          </div>
 
-        {(searchQuery || selectedCategory !== "Todos" || selectedLetter !== "A" || onlyFavorites || onlyAiGenerated) && (
           <button
             onClick={() => {
               setSearchQuery("");
@@ -205,12 +203,12 @@ export const FilterBar: React.FC<FilterBarProps> = ({
               setOnlyFavorites(false);
               setOnlyAiGenerated(false);
             }}
-            className="text-red-600 hover:text-red-700 font-extrabold underline cursor-pointer"
+            className="text-amber-800 hover:text-amber-950 font-bold hover:underline cursor-pointer flex items-center space-x-1"
           >
-            {currentLanguage === "es" ? "Restablecer Filtros" : "Voltar para Letra A"}
+            <span>{currentLanguage === "es" ? "Limpiar Búsqueda y Filtros" : "Limpar Busca e Filtros"}</span>
           </button>
-        )}
-      </div>
+        </div>
+      )}
     </div>
   );
 };
