@@ -56,7 +56,7 @@ Retorne ESTRITAMENTE um objeto JSON válido (sem blocos markdown) com os seguint
 }`;
 
       const response = await ai.models.generateContent({
-        model: "gemini-2.5-flash",
+        model: "gemini-3.8-flash",
         contents: prompt,
         config: {
           responseMimeType: "application/json"
@@ -109,7 +109,7 @@ Retorne ESTRITAMENTE um array JSON contendo objetos no formato:
 ]`;
 
       const response = await ai.models.generateContent({
-        model: "gemini-2.5-flash",
+        model: "gemini-3.8-flash",
         contents: prompt,
         config: {
           responseMimeType: "application/json"
@@ -126,6 +126,75 @@ Retorne ESTRITAMENTE um array JSON contendo objetos no formato:
       return res.status(500).json({
         success: false,
         error: err.message || "Erro ao importar termos com Gemini."
+      });
+    }
+  });
+
+  // Consultora Mestra do Ateliê Artrelados (Qualquer Dúvida de Bordado Eletrônico & Resgate de Peças)
+  app.post("/api/gemini/embroidery-consultant", async (req, res) => {
+    try {
+      const apiKey = process.env.GEMINI_API_KEY;
+      if (!apiKey) {
+        return res.status(500).json({
+          success: false,
+          error: "Chave GEMINI_API_KEY não configurada no servidor."
+        });
+      }
+
+      const { userQuery, contextInfo } = req.body;
+      const ai = new GoogleGenAI({ apiKey });
+
+      const prompt = `Você é a Consultora Mestra do Ateliê Artrelados no DIBE (Dicionário Ilustrado de Bordados Eletrônicos), criada pela especialista Janete M. C. Silva.
+Sua missão é ajudar bordadeiras com todo e qualquer tipo de situação, desafio, dúvida ou imprevisto no bordado computadorizado.
+Você entende profundamente de:
+1. Resgate e recuperação de peças prontas com imprevistos (ex: avesso grosso/áspero em fraldas de bebê, letras erradas ou faltantes, nós salientes, pontos afundados em toalhas, tecidos manchados ou marcados pelo bastidor, fios desfiados).
+2. Técnicas para tecidos desafiadores (fraldas, toalhas felpudas, malhas elásticas, microfibra, seda, organza, couro, jeans, bonés, uniformes pesados).
+3. Entretelas corretas (hidrossolúvel, rasgável macia, termocolante protege bebê / cover the back, corte limpo, filme térmico).
+4. Agulhas, linhas de bobina e tensão (calibres, ponta bola, microtex, metálicas, lubrificação).
+5. Segredos de matrizes (densidade, compensação de encolhimento, subpontos, pontos rippled, ponto tatami).
+
+Situação ou Pergunta relatada pela bordadeira:
+"${userQuery}"
+${contextInfo ? `Informações adicionais fornecidas: "${contextInfo}"` : ""}
+
+Responda com carinho, elegância, tom humanizado e altíssimo rigor técnico de ateliê.
+Retorne ESTRITAMENTE um objeto JSON válido (sem blocos de código markdown) com o seguinte formato:
+{
+  "title": "Título cativante e acolhedor do conselho (ex: Resgate da Fraldinha: Como Suavizar o Avesso e Proteger o Bebê)",
+  "situationSummary": "Resumo acolhedor compreendendo exatamente o que aconteceu",
+  "rescueActionPlan": [
+    "Passo 1 prático e acionável com materiais de fácil acesso",
+    "Passo 2...",
+    "Passo 3..."
+  ],
+  "recommendedMaterials": {
+    "stabilizer": "Entretela ou película ideal para esse caso",
+    "needle": "Agulha recomendada",
+    "thread": "Linha superior e de bobina ideal",
+    "specialTools": "Ferramentas ou truques extras (ex: ferro morno sem vapor, tesoura curva, etc.)"
+  },
+  "preventiveAdvice": "Como planejar e bordar as próximas peças para evitar que isso aconteça novamente",
+  "artreladosGoldenTip": "Dica de ouro com o toque especial e afetuoso da Artrelados"
+}`;
+
+      const response = await ai.models.generateContent({
+        model: "gemini-3.8-flash",
+        contents: prompt,
+        config: {
+          responseMimeType: "application/json"
+        }
+      });
+
+      const text = response.text || "{}";
+      const cleanJson = text.replace(/```json/g, "").replace(/```/g, "").trim();
+      const advice = JSON.parse(cleanJson);
+
+      return res.json({ success: true, advice });
+    } catch (err: any) {
+      console.error("Erro no embroidery-consultant:", err);
+      return res.status(500).json({
+        success: false,
+        error: err.message || "Erro ao consultar especialista em bordado."
       });
     }
   });

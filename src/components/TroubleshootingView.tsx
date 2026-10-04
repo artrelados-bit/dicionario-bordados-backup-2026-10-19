@@ -18,6 +18,7 @@ import {
 import { TroubleshootingGuide, SavedDiagnostic, DiagnosticInputs } from "../types";
 import { analyzeEmbroideryProblem, DiagnosticResult } from "../utils/diagnosticEngine";
 import { SupportedLanguage } from "../utils/i18n";
+import { AtelierConsultant } from "./AtelierConsultant";
 
 interface TroubleshootingViewProps {
   guides: TroubleshootingGuide[];
@@ -32,8 +33,8 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
   onToggleSaveDiagnostic,
   currentLanguage = "pt",
 }) => {
-  // Mode: "guides" (catalog) or "diagnostic" (interactive tool)
-  const [activeTab, setActiveTab] = useState<"diagnostic" | "guides">("diagnostic");
+  // Mode: "consultant" (IA livre para qualquer dúvida de bordado), "diagnostic" (máquina) ou "guides" (catálogo)
+  const [activeTab, setActiveTab] = useState<"consultant" | "diagnostic" | "guides">("consultant");
 
   // Search & Filter for Guides
   const [guideSearch, setGuideSearch] = useState("");
@@ -144,52 +145,57 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
 
   return (
     <div className="space-y-6">
-      {/* Navigation Header */}
-      <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-xs flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-        <div>
-          <h2 className="text-xl sm:text-2xl font-black text-slate-900 flex items-center gap-2.5">
-            <Wrench className="w-6 h-6 text-amber-500" />
-            <span>
-              {currentLanguage === "es"
-                ? "Taller de Bordado y Diagnóstico de Problemas"
-                : "Guia de Resolução de Problemas & Diagnóstico"}
-            </span>
-          </h2>
-          <p className="text-slate-600 text-xs sm:text-sm font-medium mt-1">
-            {currentLanguage === "es"
-              ? "Asistente técnico de taller y biblioteca técnica para resolver defectos en el bordado computarizado."
-              : "Assistente técnico de oficina e biblioteca técnica para resolver defeitos em bordado eletrônico."}
-          </p>
-        </div>
-
-        {/* Sub-tab Switcher */}
-        <div className="flex bg-slate-100 p-1.5 rounded-2xl border border-slate-200 self-stretch md:self-auto">
+      {/* Quadro de Navegação com os 3 Botões Principais */}
+      <div className="bg-white border border-slate-200 rounded-3xl p-3 sm:p-4 shadow-xs">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 w-full">
+          {/* Botão 1: Consultora Artrelados (SOS Bordado & Resgate de Peças) */}
           <button
-            onClick={() => setActiveTab("diagnostic")}
-            className={`flex-1 md:flex-none px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center justify-center gap-2 cursor-pointer ${
-              activeTab === "diagnostic"
-                ? "bg-amber-400 text-slate-950 shadow-xs"
-                : "text-slate-600 hover:text-slate-900"
+            type="button"
+            onClick={() => setActiveTab("consultant")}
+            className={`px-4 py-3 rounded-2xl text-xs sm:text-sm font-black transition flex items-center justify-center gap-2 cursor-pointer shadow-2xs ${
+              activeTab === "consultant"
+                ? "bg-amber-400 text-slate-950 shadow-md ring-2 ring-amber-400/40 border border-amber-500/40"
+                : "bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200"
             }`}
           >
-            <Sparkles className="w-4 h-4" />
-            <span>{currentLanguage === "es" ? "Diagnóstico Asistido" : "Diagnóstico Assistido"}</span>
+            <Sparkles className={`w-4 h-4 ${activeTab === "consultant" ? "text-slate-950" : "text-amber-600"}`} />
+            <span>Consultora Artrelados (SOS)</span>
           </button>
+
+          {/* Botão 2: Diagnóstico da Máquina */}
           <button
-            onClick={() => setActiveTab("guides")}
-            className={`flex-1 md:flex-none px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center justify-center gap-2 cursor-pointer ${
-              activeTab === "guides"
-                ? "bg-amber-400 text-slate-950 shadow-xs"
-                : "text-slate-600 hover:text-slate-900"
+            type="button"
+            onClick={() => setActiveTab("diagnostic")}
+            className={`px-4 py-3 rounded-2xl text-xs sm:text-sm font-black transition flex items-center justify-center gap-2 cursor-pointer shadow-2xs ${
+              activeTab === "diagnostic"
+                ? "bg-amber-400 text-slate-950 shadow-md ring-2 ring-amber-400/40 border border-amber-500/40"
+                : "bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200"
             }`}
           >
-            <Layers className="w-4 h-4" />
-            <span>
-              {currentLanguage === "es" ? "Catálogo de Guías" : "Catálogo de Guias"} ({guides.length})
-            </span>
+            <Wrench className={`w-4 h-4 ${activeTab === "diagnostic" ? "text-slate-950" : "text-slate-600"}`} />
+            <span>Diagnóstico da Máquina</span>
+          </button>
+
+          {/* Botão 3: Catálogo de Guias */}
+          <button
+            type="button"
+            onClick={() => setActiveTab("guides")}
+            className={`px-4 py-3 rounded-2xl text-xs sm:text-sm font-black transition flex items-center justify-center gap-2 cursor-pointer shadow-2xs ${
+              activeTab === "guides"
+                ? "bg-amber-400 text-slate-950 shadow-md ring-2 ring-amber-400/40 border border-amber-500/40"
+                : "bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200"
+            }`}
+          >
+            <Layers className={`w-4 h-4 ${activeTab === "guides" ? "text-slate-950" : "text-slate-600"}`} />
+            <span>Catálogo de Guias ({guides.length})</span>
           </button>
         </div>
       </div>
+
+      {/* SEÇÃO 1: CONSULTORA ARTRELADOS (SOCORRO PARA PEÇAS & QUALQUER DÚVIDA) */}
+      {activeTab === "consultant" && (
+        <AtelierConsultant currentLanguage={currentLanguage} />
+      )}
 
       {/* SECTION 1: DIAGNOSTIC ASSISTANT */}
       {activeTab === "diagnostic" && (
