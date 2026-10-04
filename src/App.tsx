@@ -19,6 +19,7 @@ import { CalculatorPromoBanner } from "./components/CalculatorPromoBanner";
 import { BookOpen, Search } from "lucide-react";
 import { updateDocumentMeta } from "./utils/seoHelper";
 import { SupportedLanguage, localizeVerbete, getVerbeteTermInLanguage } from "./utils/i18n";
+import { resolveRelatedVerbete, extractCleanSearchQuery } from "./utils/relatedTermsResolver";
 
 // Helper to sort verbetes in ascending order by code (e.g. A-001, A-002, A-003, A-026)
 export function sortVerbetesByCode(list: Verbete[]): Verbete[] {
@@ -523,10 +524,7 @@ export default function App() {
       // Active letter determination based on current language
       const rawTerm = (getVerbeteTermInLanguage(v, currentLanguage) || v.term || "").trim().replace(/^["'“”«»🟢🟡🔴\s]+/, "");
       const activeFirstChar = rawTerm.charAt(0).toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-      const codeLetter = v.code ? v.code.split("-")[0].toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") : "";
-      const verbeteLetter = currentLanguage === "pt"
-        ? (v.letter || codeLetter || activeFirstChar).toUpperCase()
-        : activeFirstChar;
+      const verbeteLetter = activeFirstChar;
 
       // If there is no search query, filter strictly by selected letter in the active language
       if (!query && selectedLetter) {
@@ -632,13 +630,17 @@ export default function App() {
     };
   }, [selectedVerbete, dynamicCodeMap]);
 
-  // Related Term Click Handler inside modal
+  // Related Term Click Handler inside modal with Intelligent Resolution
   const handleSelectRelatedTerm = (termName: string) => {
-    const found = verbetes.find((v) => v.term.toLowerCase() === termName.toLowerCase());
+    const found = resolveRelatedVerbete(termName, verbetes);
     if (found) {
       setSelectedVerbete(found);
+      const letter = (found.letter || found.code?.charAt(0) || "A").toUpperCase();
+      setSelectedLetter(letter);
     } else {
-      setSearchQuery(termName);
+      const cleanTerm = extractCleanSearchQuery(termName);
+      setSelectedLetter("Todas as Letras");
+      setSearchQuery(cleanTerm);
       setSelectedVerbete(null);
       setActiveTab("dictionary");
     }

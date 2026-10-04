@@ -1474,6 +1474,73 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
       "Textura Têxtil",
       "Ponto Russo"
     ]
+  },
+  {
+    id: "a-oficial-aquarela-no-bordado-watercolor-embroidery",
+    term: "Aquarela no Bordado (Bordado Aquarelado & Efeito Watercolor)",
+    englishTerm: "Watercolor Machine Embroidery & Shading Technique",
+    letter: "A",
+    level: "Intermediário 🟡",
+    category: "Técnicas Especiais de Bordado",
+    grammarClass: "Locução substantiva feminina técnica.",
+    origin: "Originado da clássica pintura em aquarela (do italiano acquerello, diluído em água). No bordado eletrônico e computadorizado contemporâneo, a técnica foi desenvolvida em ateliês europeus e americanos pela fusão pioneira de preenchimentos com densidade aberta (*tatami shading*) e contornos fluidos inspirados em ilustrações de livros de arte e livros infantis.",
+    summary: "Técnica artística que combina preenchimentos leves com densidade aberta e contornos delicados para recriar o visual suave, translúcido e sombreado de pintura em aquarela.",
+    definition: "O Bordado Aquarelado ou Efeito Aquarela no Bordado Eletrônico (Watercolor Embroidery) é uma sofisticada estratégia técnica de digitalização e execução que emula digitalmente as manchas translúcidas, degradês fluidos e tonalidades orgânicas da pintura em aquarela sobre o tecido. Pode ser trabalhado sob duas vertentes consagradas: 1) Puramente computadorizada — onde o software de bordado gera camadas sobrepostas de pontos tatami com densidade aberta (entre 1.5 mm e 3.5 mm), ângulos alternados de inclinação e paletas suaves de tons pastel que permitem à cor do tecido de base respirar por entre as linhas; e 2) Mista (Mixed Media) — na qual o tecido (linho, percal ou tricoline) recebe previamente pinceladas suaves de tinta aquarela têxtil termofixada a ferro, e a máquina de bordar computadorizada executa os traços de contorno e texturas decorativas sobre as manchas coloridas.",
+    howItWorks: [
+      "1. A área do desenho é dividida em planos de sombra e luz no software de matrizes, dispensando o preenchimento maciço e pesado.",
+      "2. As áreas coloridas são programadas com Ponto Aberto (Grid Fill / Hachura) com densidade aberta calibrada entre 1.8 mm e 3.0 mm, sem underlay denso.",
+      "3. Utilizam-se duas ou três tonalidades vizinhas da mesma família cromática (ex: rosa chá, pêssego e salmão suave) com passos de pontos intercalados.",
+      "4. Os contornos principais são digitalizados com Ponto Triplo (Bean Stitch) ou Ponto Haste em fio preto ou grafite escuro, propositalmente com pequenos desvios em relação às manchas para manter o charme de esboço à mão (*sketch art*).",
+      "5. A máquina de bordar executa os pontos com tensão regulada com precisão e velocidade entre 600 e 750 PPM, garantindo toque maleável e maciez absoluta."
+    ],
+    beginnerExplanation: "Sabe aquelas ilustrações lindas e delicadas de livros infantis onde parece que alguém passou um pincel de tinta aquarela bem levinho e depois fez o contorno com uma canetinha preta fininha? Isso é a Aquarela no Bordado! Na máquina computadorizada, em vez de bordar um desenho todo duro e pesado de linhas, nós programamos pontinhos bem espaçados que deixam o tecido respirar, e depois bordamos um contorno charmoso por cima. A peça fica levinha, super macia e não arranha a pele do bebê!",
+    applications: [
+      "Enxovais finos de bebê, como mantas, bodies, toalhas de boca e fraldinhas de passeio.",
+      "Portas de maternidade personalizadas e bastidores decorativos de luxo.",
+      "Camisas de linho e vestidos femininos com motivos florais botânicos contemporâneos.",
+      "Almofadas decorativas e itens de mesa posta sofisticados com visual de pintura manual."
+    ],
+    technicalDetails: "Recomenda-se a utilização de linha de poliéster 60wt (mais fina que a 40wt tradicional) nos preenchimentos abertos para um efeito translúcido superior, e linha 40wt para o contorno em ponto triplo com passo de 2.8 a 3.2 mm. Agulha recomendada: 70/10 ou 75/11 ponta bola fina para malhas e ponta aguda (Microtex) para linho ou percal.",
+    matrixRelations: "Conecta-se diretamente com Hachura e Preenchimento Aberto, Ponto Aberto (Grid Fill), Densidade de Pontos, Ponto Triplo (Bean Stitch), Compensação de Tração (Pull Compensation) e Ponto Matiz Degradê (Needle Painting).",
+    commonErrors: [
+      "❌ Utilizar densidade fechada padrão (0.40 mm), o que destrói completamente o efeito translúcido de aquarela e transforma a peça num bordado pesado e empedrado.",
+      "❌ Usar entretelas grossas e rígidas de papel que deixam a peça dura e desconfortável ao toque em roupas delicadas.",
+      "❌ Na técnica mista com tinta de tecido, esquecer de termofixar a pintura a ferro seco antes de colocar o tecido no bastidor, correndo o risco de manchar a linha da máquina."
+    ],
+    troubleshootingTips: [
+      "Se o efeito aquarela parecer sem graça ou sem transparência: aumente o espaçamento entre linhas para no mínimo 2.2 mm no programa de matrizes.",
+      "Se as linhas de contorno em ponto triplo parecerem finas demais: configure o passo em 3.0 mm e ative 3 repetições por furo no software.",
+      "Se o tecido repuxar nas áreas abertas: use entretela hidrossolúvel de apoio ou entretela rasgável macia de 40g/m² dupla."
+    ],
+    dicaArtrelados: "O segredo de ouro do Ateliê Artrelados para encantar clientes com o bordado aquarela: programe as manchas de cor com Ponto Aberto cruzado a 1.8 mm em tons pastel bem clarinhos, e faça o contorno com Ponto Triplo (Bean Stitch) em linha preta com passo de 3.0 mm. Fica parecendo uma verdadeira aquarela original de artista plástico, e o bordado fica tão macio que você pode amassar na mão sem nenhuma rigidez!",
+    voceSabia: "O estilo aquarela e sketch no bordado eletrônico consome em média 65% a 80% menos pontos que um bordado tradicional de preenchimento cheio, permitindo produzir peças muito mais valorizadas em menos da metade do tempo de máquina!",
+    practicalExercise: "No seu software de digitalização de matrizes, crie um coração de 6 cm. Preencha o interior com Tatami aberto em espaçamento de 2.5 mm com ângulo de 45° em tom rosa bebê. Aplique um contorno de Ponto Triplo preto a 1-2-1. Borde numa fralda de boca e comprove com as próprias mãos a leveza do resultado!",
+    quickSummary: "Técnica artística que combina preenchimentos leves com densidade aberta e contornos delicados para recriar o visual suave, translúcido e sombreado de pintura em aquarela.",
+    relatedTerms: [
+      "Hachura e Preenchimento Aberto",
+      "Ponto Aberto / Grid Fill e Shading Tatami",
+      "Ponto Triplo (Bean Stitch)",
+      "Pintura de Agulha Computadorizada e Efeito Ponto Matiz Degradê",
+      "Densidade de Pontos",
+      "Gradiente de Cores & Degradê de Pontos"
+    ],
+    tags: [
+      "aquarela",
+      "aquarela no bordado",
+      "bordado aquarelado",
+      "watercolor",
+      "shading",
+      "ponto aberto",
+      "hachura",
+      "enxoval de bebe",
+      "artrelados"
+    ],
+    bibliographicReferences: [
+      "WILCOM. Artistic Open Stitch and Creative Shading Digitizing Guide. Sydney: Wilcom International, 2023.",
+      "PULSE MICROSYSTEMS. Watercolor & Sketch Effects in Computerized Embroidery. Toronto, 2022.",
+      "SILVA, Janete M. C. Cadernos Técnicos do Ateliê Artrelados: Efeitos Pictóricos e Bordado Aquarelado. São Paulo, 2026."
+    ],
+    updatedAt: "2026-10-04"
   }
 ];
 

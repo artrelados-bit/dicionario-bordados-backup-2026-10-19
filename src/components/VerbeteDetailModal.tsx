@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { X, Star, Sparkles, Gauge, Zap, AlertTriangle, CheckCircle2, Copy, Check, Layers, BookOpen, BookMarked, Calculator, ExternalLink, Share2 } from "lucide-react";
 import { Verbete } from "../types";
 import { StitchDiagram } from "./StitchDiagram";
@@ -142,10 +142,17 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
 }) => {
   const [copied, setCopied] = useState(false);
   const [shareSuccess, setShareSuccess] = useState(false);
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
 
   const activeLang: SupportedLanguage = (currentLanguage as SupportedLanguage) || "pt";
   const t = UI_TRANSLATIONS[activeLang] || UI_TRANSLATIONS.pt;
   const verbete = rawVerbete ? localizeVerbete(rawVerbete, activeLang) : null;
+
+  useEffect(() => {
+    if (scrollContainerRef.current) {
+      scrollContainerRef.current.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }, [rawVerbete?.id]);
 
   if (!verbete || !rawVerbete) return null;
 
@@ -258,7 +265,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
         </div>
 
         {/* Modal Scrollable Body */}
-        <div className="p-5 sm:p-7 space-y-6 overflow-y-auto custom-scrollbar bg-slate-50/50">
+        <div ref={scrollContainerRef} className="p-5 sm:p-7 space-y-6 overflow-y-auto custom-scrollbar bg-slate-50/50">
           {/* Main Title & Classification Header (Scrolls with page) */}
           <div className="space-y-2 pb-1 border-b border-slate-200/80">
             <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-amber-800">
