@@ -656,6 +656,54 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             </div>
           )}
 
+          {/* Relação com Outros Parâmetros da Matriz (Designação Oficial DIBE) */}
+          {verbete.matrixRelations && (
+            <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-2.5">
+              <h3 className="text-xs font-extrabold uppercase tracking-wider text-slate-900 flex items-center space-x-2">
+                <span className="text-base">🔍</span>
+                <span>Relação com Outros Parâmetros da Matriz</span>
+              </h3>
+              {Array.isArray(verbete.matrixRelations) ? (
+                <ul className="space-y-1.5 text-xs text-slate-700 font-medium">
+                  {verbete.matrixRelations.map((rel: string, idx: number) => (
+                    <li key={idx} className="flex items-start space-x-2 p-2 rounded-xl bg-slate-50 border border-slate-100">
+                      <span className="text-amber-600 font-bold shrink-0">•</span>
+                      <span>{rel}</span>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="text-xs text-slate-700 font-medium leading-relaxed whitespace-pre-line">
+                  {verbete.matrixRelations}
+                </p>
+              )}
+            </div>
+          )}
+
+          {/* Como Identificar Quando o Ajuste é Necessário (Designação Oficial DIBE) */}
+          {verbete.howToIdentify && (
+            <div className="p-4 rounded-2xl bg-amber-50/80 border border-amber-200 space-y-2">
+              <h3 className="text-xs font-extrabold uppercase tracking-wider text-amber-950 flex items-center space-x-2">
+                <span className="text-base">🛠️</span>
+                <span>Como Identificar Quando o Ajuste é Necessário</span>
+              </h3>
+              {Array.isArray(verbete.howToIdentify) ? (
+                <ul className="space-y-1.5 text-xs text-amber-950 font-medium">
+                  {verbete.howToIdentify.map((item: string, idx: number) => (
+                    <li key={idx} className="flex items-start space-x-2">
+                      <span className="text-amber-700 font-bold shrink-0">•</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="text-xs text-amber-950 font-medium leading-relaxed">
+                  {verbete.howToIdentify}
+                </p>
+              )}
+            </div>
+          )}
+
           {/* Troubleshooting Tips */}
           {verbete.troubleshootingTips && verbete.troubleshootingTips.length > 0 && (
             <div className="p-4 rounded-2xl bg-amber-50 border border-amber-200 space-y-2">

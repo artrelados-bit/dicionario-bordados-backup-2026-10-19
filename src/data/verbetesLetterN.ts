@@ -6,63 +6,78 @@ export const VERBETES_LETTER_N: Verbete[] = [
     "code": "N-001",
     "term": "Nó de Arremate",
     "letter": "N",
-    "level": "Fundamental 🟢",
+    "level": "Intermediário 🟡",
     "category": "Programação de Bordado",
-    "grammarClass": "Substantivo masculino composto / Do latim 'nodus' (laço, nó) e do inglês 'tie-off'.",
-    "origin": "Evolução dos nós de remate manuais para sequências algorítmicas de micro-pontos de travamento executadas antes do comando de corte (Trim) nas máquinas computadorizadas.",
-    "summary": "Sequência programada de 3 a 6 micro-pontos de ancoragem executada antes do corte de linha para impedir que o bordado desfie.",
-    "definition": "O nó de arremate digital (Tie-off / Lock Stitch) é uma sequência de micro-pontos de comprimento ultracurto (0,4 mm a 0,8 mm), executados em padrão geométrico específico (triângulo, vai-e-vem linear ou estrela) exatamente antes do comando de corte de linha (Trim) ou no término de um objeto de bordado. Sua função é entrelaçar irreversivelmente a linha superior e a linha da bobina na estrutura interna do tecido e da entretela, impedindo que a tensão residual da linha faça o ponto desfiar após o corte, no atrito do uso diário ou em repetidas lavagens industriais.",
-    "technicalDetails": "Arquitetura técnica do nó de arremate:\n• Comprimento de Ponto: 0,4 mm a 0,8 mm (pontos menores que 0,3 mm cortam as fibras);\n• Formatos Principais: Linear (no ângulo do ponto satim), Triângulo Invertido (máxima resistência mecânica) e Ponto Âncora;\n• Quantidade de Pontos: 3 a 5 penetrações alternadas de alta densidade concentrada;\n• Sincronismo com Corte: Executado imediatamente antes do recuo da faca móvel de corte e retenção da cauda de linha.",
+    "grammarClass": "Substantivo masculino composto / Do latim 'nodus' (laço, nó) e do inglês técnico 'tie-off' / 'lock stitch'.",
+    "origin": "Transposição dos arremates manuais de alfaiataria e bordado livre para sequências algorítmicas de micro-penetrações geométricas de ancoragem, desenvolvidas com o surgimento dos sistemas de corte automático de linha (automatic trimmers) na década de 1980.",
+    "summary": "Sequência de micro-pontos de ancoragem executada antes do corte de linha para travar o ponto e impedir o desfiamento sem criar caroço.",
+    "definition": "O nó de arremate digital (Tie-off / Lock Stitch) é uma sequência matemática de 3 a 5 micro-pontos de ancoragem (comprimento entre 0,4 mm e 0,8 mm) gerada imediatamente antes do comando de corte (Trim) ou de um salto (Jump). Sua finalidade é entrelaçar mecanicamente a linha superior com a linha da bobina na estrutura interna da entretela e do tecido, travando a cauda da linha sem criar relevo excessivo e impedindo o desfiamento durante a tração do pantógrafo, o manuseio ou lavagens industriais.",
+    "technicalDetails": "Parâmetros técnicos e arquitetura do nó de arremate:\n• Comprimento de micro-ponto: 0,4 mm a 0,8 mm (pontos abaixo de 0,3 mm provocam efeito guilhotina nas fibras do tecido; pontos acima de 1,2 mm formam laços frouxos aparentes);\n• Padrões Geométricos: Linear (no ângulo exato do satim, ideal para monogramas finos), Triângulo / Estrela (máxima retenção mecânica em fundos tatami) e Laço / Borboleta;\n• Quantidade de penetrações: 3 a 5 micro-pontos concentrados;\n• Cinemática do Corte: O corte inferior aciona somente após a confirmação do nó, garantindo cauda de retenção de 20 mm a 30 mm sob o tecido.",
     "howItWorks": [
-      "1. Ao finalizar o último ponto de uma coluna de satim ou tatami, o software gera um pequeno deslocamento de retorno.",
-      "2. A agulha penetra de 3 a 5 vezes em posições milimetricamente alternadas.",
-      "3. A laçada da bobina puxa a extremidade da linha superior, travando o nó no miolo da entretela.",
-      "4. A máquina aciona o mecanismo de corte inferior com folga de segurança.",
-      "5. O pantógrafo se desloca para o próximo bloco de bordado sem perigo de desmanchar o bloco anterior."
+        "1. Ao concluir o último ponto útil de uma coluna de satim ou bloco tatami, o pantógrafo executa um micro-recuo em direção ao interior do objeto.",
+        "2. A agulha realiza de 3 a 5 penetrações alternadas e compactas no ângulo do ponto.",
+        "3. A laçada da bobina é puxada para o miolo da entretela, selando o nó por fricção mecânica.",
+        "4. Somente após a ancoragem confirmada, a faca inferior avança para cortar a linha com a folga de segurança programada.",
+        "5. O pantógrafo se desloca em alta velocidade (salto) para o próximo elemento da matriz sem qualquer risco de repuxamento ou desmanche."
     ],
-    "beginnerExplanation": "Imagine que depois de costurar à mão, você precisa dar aquele nozinho firme antes de cortar a linha com a tesoura para a costura não desmanchar. Na máquina de bordar, o nó de arremate é esse nozinho automático feito com vários furinhos bem pequenininhos e juntos. Sem ele, quando a tesourinha da máquina corta a linha, a pontinha se solta e todo o bordado começa a abrir.",
+    "beginnerExplanation": "Imagine que ao costurar uma roupa na agulha de mão, você precisa dar dois ou três nozinhos bem firmes antes de passar a tesoura, senão a costura abre toda na primeira puxada. Na máquina de bordar é a mesma coisa: o nó de arremate é esse nozinho invisível que o software programa para a máquina dar antes da faquinha cortar a linha.",
     "applications": [
-      "Finalização de letras finas em satim de uniformes escolares, impedindo que as crianças puxem fios soltos",
-      "Término de apliques em ponto cheio antes de saltar para a próxima cor da matriz",
-      "Arremate em toalhas de banho felpadas onde a lavagem constante desfaz pontos que não tenham nó travado"
+        "Finalização de nomes cursivos e monogramas delicados em jalecos, toalhas e camisas sociais",
+        "Bordas de apliques em ponto cheio antes de trocar de cor ou cortar o excesso de tecido",
+        "Uniformes escolares, roupas infantis e toalhas de banho submetidos a lavagens constantes e atrito diário",
+        "Contornos finos em ponto reto antes de saltos longos de linha"
+    ],
+    "matrixRelations": [
+        "Comando de Corte (Trim): O arremate deve anteceder o comando de corte; corte acionado sem arremate solta a ponta da linha instantaneamente.",
+        "Sob-pontos (Underlay): O nó deve ser estrategicamente programado para cair sobre a área onde já existe sob-ponto, tornando-o 100% invisível no lado direito da peça.",
+        "Comprimento de Ponto: O micro-ponto do nó deve manter entre 0,4 mm e 0,8 mm para garantir ancoragem sem perfurar ou mastigar o tecido.",
+        "Densidade de Ponto: Em matrizes de alta densidade, reduza a quantidade de pontos do arremate para 3 penetrações, evitando acúmulo de nós rígidos no avesso."
     ],
     "commonErrors": [
-      "Desativar o nó de arremate para tentar 'economizar pontos', resultando em bordados que desmancham na primeira lavagem",
-      "Colocar o nó de arremate na ponta externa de uma letra cursiva em vez de escondê-lo no corpo interno do satim",
-      "Utilizar nós excessivamente longos (acima de 1,5 mm) que aparecem como fios cruzados e desalinhados sobre a superfície do bordado"
+        "Programar o nó na borda externa de monogramas finos, criando um caroço visível e antiestético na ponta da letra",
+        "Desativar os nós para 'diminuir pontos da matriz', fazendo com que o bordado desmanche nas primeiras lavagens",
+        "Usar nós excessivamente repetitivos em tecidos delicados (como seda, organza ou malha fina), furando e rasgando a fibra",
+        "Deixar o nó solto ou com comprimento acima de 1,5 mm, formando fios desalinhados que a tesourinha pode cortar por engano"
+    ],
+    "howToIdentify": [
+        "Letras e detalhes soltando pontas de linha ou desfiando assim que a máquina aciona o corte automático",
+        "Presença de caroços ásperos ou pontos empelotados na superfície de textos pequenos",
+        "Faca de corte da máquina puxando e desmanchando o final do satim durante a frenagem do bastidor"
     ],
     "troubleshootingTips": [
-      "Se as pontas das letras estão soltando tufos de linha após o corte, ative a opção 'Tie-off automático' no software de matrizes",
-      "Para monogramas finos, configure o arremate no estilo 'Linear no Ângulo do Ponto' para que os micro-pontos fiquem invisíveis",
-      "Em tecidos grossos, utilize nó em formato de triângulo de 4 pontos para máxima retenção mecânica"
+        "Se as pontas das letras soltam tufos de linha após o corte, ative o 'Tie-off automático' com recuo interno no software de matrizes",
+        "Para monogramas finos, configure o estilo do arremate como 'Linear no Ângulo do Ponto' para que os micro-pontos fiquem invisíveis",
+        "Em tecidos pesados ou jeans, utilize o nó em formato de triângulo de 4 micro-pontos para máxima fixação",
+        "Se o nó estiver visível ou grosso, programe o ponto final para terminar dentro do corpo da letra e não na extremidade"
     ],
-    "dicaArtrelados": "No Wilcom ou Embird, configure o nó de arremate com estilo 'Linear no Ângulo do Ponto' para objetos finos e 'Nó em Triângulo' para tatami largo. Em monogramas e textos finos, certifique-se de que o nó ocorra dentro da área que já recebeu sob-ponto (underlay), garantindo invisibilidade absoluta no lado direito da peça.",
-    "voceSabia": "Nas máquinas industriais multi-cabeças, a força de tração ao acelerar para o próximo bloco pode arrancar os últimos 10 pontos da matriz em menos de meio segundo se o nó de arremate não tiver sido executado com perfeição!",
-    "practicalExercise": "No seu software de programação, crie dois quadrados de tatami idênticos de 3x3 cm. No primeiro, ative o nó de arremate final de 4 micro-pontos; no segundo, desative o arremate e envie para a máquina. Ao retirar do bastidor, corte a cauda de linha rente ao tecido em ambos e esfregue vigorosamente com a unha no avesso: observe a diferença de fixação.",
-    "quickSummary": "Micro-pontos de travamento programados no final de cada objeto que impedem o desfiamento do bordado após o corte e uso.",
+    "dicaArtrelados": "No Wilcom, Embird ou Pe-Design, configure o nó de arremate com estilo 'Linear no Ângulo do Ponto' e programe o recuo para dentro da coluna do satim. Isso faz com que os micro-pontos fiquem 100% invisíveis no lado direito da peça, garantindo acabamento nobre de alta costura sem caroço nem avesso áspero!",
+    "voceSabia": "Em máquinas industriais de alta velocidade (1.000 pontos por minuto), a aceleração do bastidor logo após o corte puxa a linha com uma força de tração mecânica tão violenta que, sem o nó de arremate correto, os últimos 6 a 10 pontos da matriz se desmancham em menos de meio segundo!",
+    "practicalExercise": "No seu software de bordado (Wilcom, Embird ou Pe-Design), crie uma letra 'E' com 15 mm de altura. Programe o arremate de duas formas: no primeiro teste, use o arremate padrão na ponta externa da letra; no segundo teste, configure o arremate embutido linear no interior do satim. Borde ambos e compare a diferença de nitidez e acabamento na ponta da letra.",
+    "quickSummary": "Sequência de micro-pontos de ancoragem programados antes do corte de linha que garantem a fixação eterna do bordado sem desmanchar.",
     "relatedTerms": [
-      "Nó de Entrada (Tie-in)",
-      "Corte de Linha (Trim)",
-      "Ponto de Salto (Jump)",
-      "Densidade de Ponto"
+        "Nó de Entrada (Tie-in)",
+        "Corte de Linha (Trim)",
+        "Ponto de Salto (Jump)",
+        "Sob-ponto (Underlay)",
+        "Ponto Satim (Satin Stitch)"
     ],
     "imageUrl": "/images/n001_no_arremate_v1.jpg?v=1",
-    "imageCaption": "Anatomia do Nó de Arremate: Micro-pontos de ancoragem executados antes do corte de linha e os padrões de arremate linear (para monogramas) e em triângulo (para tatami) em máquina de 1 agulha.",
+    "imageCaption": "Anatomia do Nó de Arremate: Micro-pontos de ancoragem geométrica executados antes do corte de linha, comparando o arremate linear invisível (ideal para monogramas) com o arremate em triângulo (para fundos tatami).",
     "tags": [
-      "n-001",
-      "no de arremate",
-      "tie-off",
-      "lock stitch",
-      "corte",
-      "arremate",
-      "artrelados"
+        "n-001",
+        "no de arremate",
+        "tie-off",
+        "lock stitch",
+        "corte",
+        "arremate",
+        "artrelados"
     ],
     "bibliographicReferences": [
-      "WILCOM INTERNATIONAL. Embroidery Studio: Digitizing Fundamentals and Stitch Architecture. Sydney: Wilcom, 2022.",
-      "ARTRELADOS. Manual Técnico de Arremates, Travamentos e Cinemática de Pontos. São Paulo: Artrelados, 2024."
+        "WILCOM INTERNATIONAL. Embroidery Studio: Digitizing Fundamentals and Stitch Architecture. Sydney: Wilcom, 2022.",
+        "ARTRELADOS. Manual Técnico de Arremates, Travamentos e Cinemática de Pontos. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-20"
-  },
+    "updatedAt": "2026-10-05"
+},
   {
     "id": "n-002-necessaire-no-bastidor-in-the-hoop-ith",
     "code": "N-002",

@@ -108168,66 +108168,84 @@
     "term": "Náilon Termossolúvel para Apliques e Emblemas (Heat-Soluble Nylon Backing)",
     "level": "Intermediário 🟡",
     "category": "Estabilizadores & Entretelas",
-    "grammarClass": "Locução nominal técnica.",
-    "origin": "Terminologia internacional da indústria de máquinas e softwares de bordado.",
-    "summary": "Película que desaparece completamente sob o calor do ferro ou prensa térmica (120°C a 140°C), deixando bordas limpas sem fiapos.",
-    "definition": "Perfeita para emblemas e toalhas nobres onde não se deseja lavar a peça para retirar sobras de entretela.",
+    "grammarClass": "Locução nominal técnica. Do inglês técnico heat-soluble backing / thermo-dissolvable film.",
+    "origin": "Desenvolvida na década de 1990 como uma alternativa química à entretela hidrossolúvel para atender à indústria de emblemas, brasões militares e rendas de alta costura em tecidos que não podiam entrar em contato com água ou que necessitavam de bordas 100% limpas sem lavagem.",
+    "summary": "Película que se desintegra em pó com o calor do ferro seco (120°C a 140°C), permitindo acabamento perfeito em emblemas e apliques sem precisar de água.",
+    "definition": "Película polimérica especial (composta por poliamida ou poliolefina termossensível) utilizada como suporte no bastidor para bordados, apliques e emblemas. Sua característica principal é a desintegração total sob calor seco (entre 120°C e 140°C), convertendo o filme em micro-resíduos pulverulentos que se desprendem facilmente com uma escovação suave, dispensando qualquer uso de água e deixando as bordas do bordado impecavelmente limpas.",
+    "technicalDetails": "Propriedades físicas e térmicas do náilon termossolúvel:\n• Ponto de Decomposição Térmica: 120°C a 140°C (temperatura de lã / seda no ferro seco);\n• Tempo de Exposição: 5 a 8 segundos sob contato térmico uniforme com pressão moderada;\n• Resistência à Tração: Elevada estabilidade bidirecional no bastidor, suportando matrizes de até 15.000 pontos sem rasgar;\n• Resíduos Pós-Térmicos: Cristalização em partículas minúsculas não pegajosas, removíveis com escovação a seco.",
     "howItWorks": [
-      "1. O parâmetro ou procedimento é conferido antes do início.",
-      "2. A máquina movimenta a agulha com sincronismo preciso.",
-      "3. A formação do ponto ocorre com tensão equilibrada.",
-      "4. O acabamento resulta em alta definição e toque agradável."
+      "1. A película termossolúvel é fixada no bastidor (como base única para emblemas/rendas ou posicionada sob o tecido do aplique).",
+      "2. A máquina executa o bordado com estabilidade dimensional, sem encolher nem rasgar sob a perfuração dos pontos.",
+      "3. Ao retirar a peça do bastidor, corta-se o excesso grosseiro da película ao redor do bordado com tesoura de precisão, mantendo folga de 2 mm a 3 mm.",
+      "4. Posiciona-se uma folha de papel manteiga ou folha de teflon sobre o bordado para proteger a linha de poliéster.",
+      "5. Aplica-se o ferro de passar a seco (sem vapor) a 130°C sobre o papel protetor por 5 a 8 segundos com movimentos suaves.",
+      "6. O calor decompõe e cristaliza a película, que se transforma instantaneamente em um pó fino e seco.",
+      "7. Uma leve escovação com cerdas macias ou pano seco remove 100% dos resíduos, deixando as bordas seladas e livres de fiapos."
     ],
-    "beginnerExplanation": "Este termo (Náilon Termossolúvel para Apliques e Emblemas (Heat-Soluble Nylon Backing)) é muito importante para evitar travamentos de linha, garantir a correta densidade e manter o ateliê funcionando perfeitamente.",
+    "beginnerExplanation": "Sabe quando você faz um aplique ou um emblema e quer que as beiradas fiquem perfeitas sem aqueles fiapinhos brancos de entretela aparecendo, mas não pode molhar a peça na água? O náilon termossolúvel é como uma folha plástica mágica: você borda em cima dela normalmente e, no final, basta encostar o ferro de passar quente que ela vira pó e desaparece, deixando o seu bordado limpinho na hora!",
     "applications": [
-      "Bordados em peças infantis e enxovais finos.",
-      "Troca rápida de cores em produção seriada.",
-      "Manutenção preventiva e desobstrução de lançadeira."
+      "Confecção de brasões, patches e emblemas com contorno em ponto cheio (merrowed border)",
+      "Bordados e apliques em tecidos nobres que mancham ou perdem a goma se forem molhados (veludo, camurça, linho fino engomado, seda e tafetá)",
+      "Rendas tipo guipir e richelieu produzidas diretamente no bastidor sem tecido de base",
+      "Monogramas delicados em artigos de couro ecológico e sintéticos sensíveis à umidade"
     ],
-    "matrixRelations": "Relaciona-se com título de linha, tensão da linha e lubrificação da lançadeira.",
+    "matrixRelations": [
+      "Densidade da Borda (Satim): A coluna de ponto cheio nas bordas do emblema deve ser densa (espaçamento entre 0,36 mm e 0,40 mm) para encapsular a margem do filme antes da queima térmica.",
+      "Sob-pontos (Underlay): Recomenda-se sob-ponto em zigue-zague ou tatami leve para ancorar a película antes da cobertura final em satim.",
+      "Compensação de Encolhimento (Pull Compensation): Manter entre 0,35 mm e 0,45 mm, pois a película plástica sofre leve contração durante a fricção dos pontos.",
+      "Comprimento de Ponto: Evitar pontos de contorno excessivamente curtos (abaixo de 1,0 mm) na borda externa para não picotar a película antes da hora."
+    ],
     "commonErrors": [
-      "❌ Puxar o tecido à força quando ocorrer ninho de pássaro embaixo da chapa",
-      "❌ Trocar a linha sem fazer o nó de tecelão correto",
-      "❌ Redimensionar arquivos sem normalizar a densidade de pontos"
+      "Usar ferro com vapor ligado: a umidade queima ou gruda o náilon derretido na base do ferro ou mancha a linha",
+      "Encostar o ferro quente diretamente sobre linhas de poliéster sem papel protetor, correndo o risco de derreter ou tirar o brilho do fio",
+      "Usar temperatura excessiva (acima de 150°C), que queima e amarela a película em vez de esfarelá-la em pó seco",
+      "Tentar rasgar a película a frio antes de passar o ferro, repuxando e deformando o contorno do aplique"
+    ],
+    "howToIdentify": [
+      "Bordas de emblemas e apliques saindo com fiapos brancos visíveis ao redor dos pontos de contorno",
+      "Tecidos que mancham ou perdem o caimento nobre ao serem lavados para retirar entretela hidrossolúvel",
+      "Peças com resíduos plásticos pegajosos ou difíceis de sair (sinal de que a temperatura do ferro estava baixa ou faltou tempo de contato)"
     ],
     "troubleshootingTips": [
-      "Se a máquina travar com bolo de linhas embaixo: desligue a máquina e corte os fios com cuidado por baixo da chapa.",
-      "Se a agulha esquentar e quebrar em tecidos duros: use agulha com banho de nitreto de titânio.",
-      "Se o bordado ficar duro após redimensionar: ative a normalização automática de densidade no software."
+      "Se sobrarem pequenos farelos brancos junto à borda do bordado: passe novamente o ferro seco protegido por papel manteiga por mais 3 segundos e escove com escova de dente macia seca.",
+      "Se a película grudar no ferro: limpe a chapa a quente com um pano de algodão grosso e use sempre papel manteiga entre o ferro e o bordado.",
+      "Se o tecido for muito sensível ao calor: faça um teste prévio em um retalho e reduza a temperatura para 120°C, aumentando o tempo para 8 segundos."
     ],
-    "dicaArtrelados": "Quando embolar linha embaixo da chapa (ninho de pássaro), NUNCA force o bastidor puxando para cima! Você pode entortar a barra de agulha ou quebrar a lançadeira. Solte o bastidor da máquina e corte as linhas por baixo com calma!",
-    "voceSabia": "As agulhas com nitreto de titânio recebem o mesmo revestimento dourado usado em brocas aeroespaciais para suportar perfurações extremas!",
-    "practicalExercise": "Pratique o nó de tecelão unindo duas pontas de linha e passe o nó pelos discos tensores da sua máquina com a mão para sentir a fluidez.",
-    "quickSummary": "Película que desaparece completamente sob o calor do ferro ou prensa térmica (120°C a 140°C), deixando bordas limpas sem fiapos.",
+    "dicaArtrelados": "Use sempre uma folha de papel manteiga ou papel teflon entre o ferro de passar e o bordado! Além de proteger a sola do seu ferro contra qualquer resíduo, o papel distribui o calor por igual e preserva o brilho acetinado maravilhoso da linha de bordar!",
+    "voceSabia": "O náilon termossolúvel foi um divisor de águas na indústria militar e de aviação: ele permitiu que os emblemas e brasões de fardas fossem bordados em alta velocidade e finalizados a seco em prensas térmicas em menos de 10 segundos por peça, sem necessidade de lavanderia ou estufa de secagem!",
+    "practicalExercise": "Borde um pequeno círculo de 5 cm com borda em ponto cheio largo usando o náilon termossolúvel no bastidor. Corte a sobra de plástico a 2 mm da borda. Coloque papel manteiga por cima e passe o ferro seco na temperatura média/lã (130°C) por 6 segundos. Pegue uma escovinha de dente macia e retire o pó: veja como a borda fica 100% perfeita sem nenhum fiapo!",
+    "quickSummary": "Película que se desintegra em pó com o calor do ferro seco (120°C a 140°C), permitindo acabamento perfeito em emblemas e apliques sem precisar de água.",
     "relatedTerms": [
-      "Chapa de Agulha",
-      "Caixa de Bobina (Bobbin Case)",
-      "Agulha com Banho de Titânio",
-      "Densidade de Pontos",
-      "Solução de Problemas"
+      "Filme Hidrossolúvel",
+      "Entretela Rasgável",
+      "Ponto de Aplique",
+      "Emblemas no Bastidor (Patches)",
+      "Ponto Satim (Satin Stitch)"
     ],
     "recommendedSettings": {
-      "speedPPM": "750 a 850 PPM",
-      "needleType": "75/11 SES ponta bola fina",
-      "stabilizer": "Entretela rasgável 60g ou recortável 80g",
-      "density": "0.38 a 0.42 mm",
-      "pullCompensation": "0.20 a 0.35 mm",
-      "underlay": "Zigue-zague leve ou tatami de sustentação"
+      "speedPPM": "700 a 800 PPM",
+      "needleType": "75/11 SES ponta bola leve",
+      "stabilizer": "Náilon Termossolúvel (camada única ou dupla)",
+      "density": "0.36 a 0.40 mm nas bordas",
+      "pullCompensation": "0.35 a 0.45 mm",
+      "underlay": "Zigue-zague ou tatami leve"
     },
     "tags": [
-      "n-070",
-      "n",
-      "dibe",
-      "artrelados",
-      "tecnico",
-      "bordado computadorizado"
+      "nailon termossoluvel",
+      "heat-soluble",
+      "termo-destrutivel",
+      "emblemas",
+      "patches",
+      "apliques",
+      "estabilizadores",
+      "artrelados"
     ],
     "bibliographicReferences": [
-      "TAJIMA EMBROIDERY MACHINERY. Technical Operating Standards and Mechanics. Nagoya, 2022.",
-      "WILCOM INTERNATIONAL. Designing and Digitalizing Technical Reference Guide. Sydney, 2023.",
-      "ARTRELADOS. Consultoria Técnica Avançada de Matrizes e Bordados. Curitiba, 2024."
+      "MADEIRA GARN. Stabilizers and Specialty Backings Technical Compendium. Freiburg: Madeira, 2023.",
+      "GUNOLD TECHNICAL DIVISION. Heat-Away Soluble Films and Specialty Industrial Stabilizers. Kenzingen: Gunold, 2022.",
+      "ARTRELADOS. Guia Definitivo de Estabilizadores e Termossolúveis para Emblemas. Curitiba: Artrelados, 2024."
     ],
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "n-012-nanotecnologia-em-fios-de-bordado-smart-textiles",
@@ -112337,50 +112355,65 @@
   {
     "id": "n-001-no-de-arremate-tie-off-lock-stitch",
     "code": "N-001",
-    "term": "Nó de Arremate (Tie-off / Lock Stitch)",
+    "term": "Nó de Arremate",
     "letter": "N",
-    "level": "Fundamental 🟢",
+    "level": "Intermediário 🟡",
     "category": "Programação de Bordado",
-    "grammarClass": "Substantivo masculino composto / Do latim 'nodus' (laço, nó) e do inglês 'tie-off'.",
-    "origin": "Evolução dos nós de remate manuais para sequências algorítmicas de micro-pontos de travamento executadas antes do comando de corte (Trim) nas máquinas computadorizadas.",
-    "summary": "Sequência programada de 3 a 6 micro-pontos de ancoragem executada antes do corte de linha para impedir que o bordado desfie.",
-    "definition": "O nó de arremate digital (Tie-off / Lock Stitch) é uma sequência de micro-pontos de comprimento ultracurto (0,4 mm a 0,8 mm), executados em padrão geométrico específico (triângulo, vai-e-vem linear ou estrela) exatamente antes do comando de corte de linha (Trim) ou no término de um objeto de bordado. Sua função é entrelaçar irreversivelmente a linha superior e a linha da bobina na estrutura interna do tecido e da entretela, impedindo que a tensão residual da linha faça o ponto desfiar após o corte, no atrito do uso diário ou em repetidas lavagens industriais.",
-    "technicalDetails": "Arquitetura técnica do nó de arremate:\n• Comprimento de Ponto: 0,4 mm a 0,8 mm (pontos menores que 0,3 mm cortam as fibras);\n• Formatos Principais: Linear (no ângulo do ponto satim), Triângulo Invertido (máxima resistência mecânica) e Ponto Âncora;\n• Quantidade de Pontos: 3 a 5 penetrações alternadas de alta densidade concentrada;\n• Sincronismo com Corte: Executado imediatamente antes do recuo da faca móvel de corte e retenção da cauda de linha.",
+    "grammarClass": "Substantivo masculino composto / Do latim 'nodus' (laço, nó) e do inglês técnico 'tie-off' / 'lock stitch'.",
+    "origin": "Transposição dos arremates manuais de alfaiataria e bordado livre para sequências algorítmicas de micro-penetrações geométricas de ancoragem, desenvolvidas com o surgimento dos sistemas de corte automático de linha (automatic trimmers) na década de 1980.",
+    "summary": "Sequência de micro-pontos de ancoragem executada antes do corte de linha para travar o ponto e impedir o desfiamento sem criar caroço.",
+    "definition": "O nó de arremate digital (Tie-off / Lock Stitch) é uma sequência matemática de 3 a 5 micro-pontos de ancoragem (comprimento entre 0,4 mm e 0,8 mm) gerada imediatamente antes do comando de corte (Trim) ou de um salto (Jump). Sua finalidade é entrelaçar mecanicamente a linha superior com a linha da bobina na estrutura interna da entretela e do tecido, travando a cauda da linha sem criar relevo excessivo e impedindo o desfiamento durante a tração do pantógrafo, o manuseio ou lavagens industriais.",
+    "technicalDetails": "Parâmetros técnicos e arquitetura do nó de arremate:\n• Comprimento de micro-ponto: 0,4 mm a 0,8 mm (pontos abaixo de 0,3 mm provocam efeito guilhotina nas fibras do tecido; pontos acima de 1,2 mm formam laços frouxos aparentes);\n• Padrões Geométricos: Linear (no ângulo exato do satim, ideal para monogramas finos), Triângulo / Estrela (máxima retenção mecânica em fundos tatami) e Laço / Borboleta;\n• Quantidade de penetrações: 3 a 5 micro-pontos concentrados;\n• Cinemática do Corte: O corte inferior aciona somente após a confirmação do nó, garantindo cauda de retenção de 20 mm a 30 mm sob o tecido.",
     "howItWorks": [
-      "1. Ao finalizar o último ponto de uma coluna de satim ou tatami, o software gera um pequeno deslocamento de retorno.",
-      "2. A agulha penetra de 3 a 5 vezes em posições milimetricamente alternadas.",
-      "3. A laçada da bobina puxa a extremidade da linha superior, travando o nó no miolo da entretela.",
-      "4. A máquina aciona o mecanismo de corte inferior com folga de segurança.",
-      "5. O pantógrafo se desloca para o próximo bloco de bordado sem perigo de desmanchar o bloco anterior."
+      "1. Ao concluir o último ponto útil de uma coluna de satim ou bloco tatami, o pantógrafo executa um micro-recuo em direção ao interior do objeto.",
+      "2. A agulha realiza de 3 a 5 penetrações alternadas e compactas no ângulo do ponto.",
+      "3. A laçada da bobina é puxada para o miolo da entretela, selando o nó por fricção mecânica.",
+      "4. Somente após a ancoragem confirmada, a faca inferior avança para cortar a linha com a folga de segurança programada.",
+      "5. O pantógrafo se desloca em alta velocidade (salto) para o próximo elemento da matriz sem qualquer risco de repuxamento ou desmanche."
     ],
-    "beginnerExplanation": "Imagine que depois de costurar à mão, você precisa dar aquele nozinho firme antes de cortar a linha com a tesoura para a costura não desmanchar. Na máquina de bordar, o nó de arremate é esse nozinho automático feito com vários furinhos bem pequenininhos e juntos. Sem ele, quando a tesourinha da máquina corta a linha, a pontinha se solta e todo o bordado começa a abrir.",
+    "beginnerExplanation": "Imagine que ao costurar uma roupa na agulha de mão, você precisa dar dois ou três nozinhos bem firmes antes de passar a tesoura, senão a costura abre toda na primeira puxada. Na máquina de bordar é a mesma coisa: o nó de arremate é esse nozinho invisível que o software programa para a máquina dar antes da faquinha cortar a linha.",
     "applications": [
-      "Finalização de letras finas em satim de uniformes escolares, impedindo que as crianças puxem fios soltos",
-      "Término de apliques em ponto cheio antes de saltar para a próxima cor da matriz",
-      "Arremate em toalhas de banho felpadas onde a lavagem constante desfaz pontos que não tenham nó travado"
+      "Finalização de nomes cursivos e monogramas delicados em jalecos, toalhas e camisas sociais",
+      "Bordas de apliques em ponto cheio antes de trocar de cor ou cortar o excesso de tecido",
+      "Uniformes escolares, roupas infantis e toalhas de banho submetidos a lavagens constantes e atrito diário",
+      "Contornos finos em ponto reto antes de saltos longos de linha"
+    ],
+    "matrixRelations": [
+      "Comando de Corte (Trim): O arremate deve anteceder o comando de corte; corte acionado sem arremate solta a ponta da linha instantaneamente.",
+      "Sob-pontos (Underlay): O nó deve ser estrategicamente programado para cair sobre a área onde já existe sob-ponto, tornando-o 100% invisível no lado direito da peça.",
+      "Comprimento de Ponto: O micro-ponto do nó deve manter entre 0,4 mm e 0,8 mm para garantir ancoragem sem perfurar ou mastigar o tecido.",
+      "Densidade de Ponto: Em matrizes de alta densidade, reduza a quantidade de pontos do arremate para 3 penetrações, evitando acúmulo de nós rígidos no avesso."
     ],
     "commonErrors": [
-      "Desativar o nó de arremate para tentar 'economizar pontos', resultando em bordados que desmancham na primeira lavagem",
-      "Colocar o nó de arremate na ponta externa de uma letra cursiva em vez de escondê-lo no corpo interno do satim",
-      "Utilizar nós excessivamente longos (acima de 1,5 mm) que aparecem como fios cruzados e desalinhados sobre a superfície do bordado"
+      "Programar o nó na borda externa de monogramas finos, criando um caroço visível e antiestético na ponta da letra",
+      "Desativar os nós para 'diminuir pontos da matriz', fazendo com que o bordado desmanche nas primeiras lavagens",
+      "Usar nós excessivamente repetitivos em tecidos delicados (como seda, organza ou malha fina), furando e rasgando a fibra",
+      "Deixar o nó solto ou com comprimento acima de 1,5 mm, formando fios desalinhados que a tesourinha pode cortar por engano"
+    ],
+    "howToIdentify": [
+      "Letras e detalhes soltando pontas de linha ou desfiando assim que a máquina aciona o corte automático",
+      "Presença de caroços ásperos ou pontos empelotados na superfície de textos pequenos",
+      "Faca de corte da máquina puxando e desmanchando o final do satim durante a frenagem do bastidor"
     ],
     "troubleshootingTips": [
-      "Se as pontas das letras estão soltando tufos de linha após o corte, ative a opção 'Tie-off automático' no software de matrizes",
-      "Para monogramas finos, configure o arremate no estilo 'Linear no Ângulo do Ponto' para que os micro-pontos fiquem invisíveis",
-      "Em tecidos grossos, utilize nó em formato de triângulo de 4 pontos para máxima retenção mecânica"
+      "Se as pontas das letras soltam tufos de linha após o corte, ative o 'Tie-off automático' com recuo interno no software de matrizes",
+      "Para monogramas finos, configure o estilo do arremate como 'Linear no Ângulo do Ponto' para que os micro-pontos fiquem invisíveis",
+      "Em tecidos pesados ou jeans, utilize o nó em formato de triângulo de 4 micro-pontos para máxima fixação",
+      "Se o nó estiver visível ou grosso, programe o ponto final para terminar dentro do corpo da letra e não na extremidade"
     ],
-    "dicaArtrelados": "No Wilcom ou Embird, configure o nó de arremate com estilo 'Linear no Ângulo do Ponto' para objetos finos e 'Nó em Triângulo' para tatami largo. Em monogramas e textos finos, certifique-se de que o nó ocorra dentro da área que já recebeu sob-ponto (underlay), garantindo invisibilidade absoluta no lado direito da peça.",
-    "voceSabia": "Nas máquinas industriais multi-cabeças, a força de tração ao acelerar para o próximo bloco pode arrancar os últimos 10 pontos da matriz em menos de meio segundo se o nó de arremate não tiver sido executado com perfeição!",
-    "practicalExercise": "No seu software de programação, crie dois quadrados de tatami idênticos de 3x3 cm. No primeiro, ative o nó de arremate final de 4 micro-pontos; no segundo, desative o arremate e envie para a máquina. Ao retirar do bastidor, corte a cauda de linha rente ao tecido em ambos e esfregue vigorosamente com a unha no avesso: observe a diferença de fixação.",
-    "quickSummary": "Micro-pontos de travamento programados no final de cada objeto que impedem o desfiamento do bordado após o corte e uso.",
+    "dicaArtrelados": "No Wilcom, Embird ou Pe-Design, configure o nó de arremate com estilo 'Linear no Ângulo do Ponto' e programe o recuo para dentro da coluna do satim. Isso faz com que os micro-pontos fiquem 100% invisíveis no lado direito da peça, garantindo acabamento nobre de alta costura sem caroço nem avesso áspero!",
+    "voceSabia": "Em máquinas industriais de alta velocidade (1.000 pontos por minuto), a aceleração do bastidor logo após o corte puxa a linha com uma força de tração mecânica tão violenta que, sem o nó de arremate correto, os últimos 6 a 10 pontos da matriz se desmancham em menos de meio segundo!",
+    "practicalExercise": "No seu software de bordado (Wilcom, Embird ou Pe-Design), crie uma letra 'E' com 15 mm de altura. Programe o arremate de duas formas: no primeiro teste, use o arremate padrão na ponta externa da letra; no segundo teste, configure o arremate embutido linear no interior do satim. Borde ambos e compare a diferença de nitidez e acabamento na ponta da letra.",
+    "quickSummary": "Sequência de micro-pontos de ancoragem programados antes do corte de linha que garantem a fixação eterna do bordado sem desmanchar.",
     "relatedTerms": [
       "Nó de Entrada (Tie-in)",
       "Corte de Linha (Trim)",
       "Ponto de Salto (Jump)",
-      "Densidade de Ponto"
+      "Sob-ponto (Underlay)",
+      "Ponto Satim (Satin Stitch)"
     ],
     "imageUrl": "/images/n001_no_arremate_v1.jpg?v=1",
-    "imageCaption": "Anatomia do Nó de Arremate: Micro-pontos de ancoragem executados antes do corte de linha e os padrões de arremate linear (para monogramas) e em triângulo (para tatami) em máquina de 1 agulha.",
+    "imageCaption": "Anatomia do Nó de Arremate: Micro-pontos de ancoragem geométrica executados antes do corte de linha, comparando o arremate linear invisível (ideal para monogramas) com o arremate em triângulo (para fundos tatami).",
     "tags": [
       "n-001",
       "no de arremate",
@@ -112394,7 +112427,7 @@
       "WILCOM INTERNATIONAL. Embroidery Studio: Digitizing Fundamentals and Stitch Architecture. Sydney: Wilcom, 2022.",
       "ARTRELADOS. Manual Técnico de Arremates, Travamentos e Cinemática de Pontos. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-20"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "no-de-arremate-ponto-estrela",

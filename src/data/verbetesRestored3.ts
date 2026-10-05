@@ -549,70 +549,88 @@ export const VERBETES_RESTORED_PART3: Verbete[] = [
     "id": "n-085-n-ilon-termossol-vel-para-apliques-e-emblemas-heat-soluble-nylon-backing",
     "code": "N-085",
     "letter": "N",
-    "term": "Nylon Termossolúvel para Emblemas e Patches",
+    "term": "Náilon Termossolúvel para Apliques e Emblemas (Heat-Soluble Nylon Backing)",
     "level": "Intermediário 🟡",
     "category": "Estabilizadores & Entretelas",
-    "grammarClass": "Locução nominal técnica.",
-    "origin": "Terminologia internacional da indústria de máquinas e softwares de bordado.",
-    "summary": "Película que desaparece completamente sob o calor do ferro ou prensa térmica (120°C a 140°C), deixando bordas limpas sem fiapos.",
-    "definition": "Perfeita para emblemas e toalhas nobres onde não se deseja lavar a peça para retirar sobras de entretela.",
+    "grammarClass": "Locução nominal técnica. Do inglês técnico heat-soluble backing / thermo-dissolvable film.",
+    "origin": "Desenvolvida na década de 1990 como uma alternativa química à entretela hidrossolúvel para atender à indústria de emblemas, brasões militares e rendas de alta costura em tecidos que não podiam entrar em contato com água ou que necessitavam de bordas 100% limpas sem lavagem.",
+    "summary": "Película que se desintegra em pó com o calor do ferro seco (120°C a 140°C), permitindo acabamento perfeito em emblemas e apliques sem precisar de água.",
+    "definition": "Película polimérica especial (composta por poliamida ou poliolefina termossensível) utilizada como suporte no bastidor para bordados, apliques e emblemas. Sua característica principal é a desintegração total sob calor seco (entre 120°C e 140°C), convertendo o filme em micro-resíduos pulverulentos que se desprendem facilmente com uma escovação suave, dispensando qualquer uso de água e deixando as bordas do bordado impecavelmente limpas.",
+    "technicalDetails": "Propriedades físicas e térmicas do náilon termossolúvel:\n• Ponto de Decomposição Térmica: 120°C a 140°C (temperatura de lã / seda no ferro seco);\n• Tempo de Exposição: 5 a 8 segundos sob contato térmico uniforme com pressão moderada;\n• Resistência à Tração: Elevada estabilidade bidirecional no bastidor, suportando matrizes de até 15.000 pontos sem rasgar;\n• Resíduos Pós-Térmicos: Cristalização em partículas minúsculas não pegajosas, removíveis com escovação a seco.",
     "howItWorks": [
-      "1. O parâmetro ou procedimento é conferido antes do início.",
-      "2. A máquina movimenta a agulha com sincronismo preciso.",
-      "3. A formação do ponto ocorre com tensão equilibrada.",
-      "4. O acabamento resulta em alta definição e toque agradável."
+        "1. A película termossolúvel é fixada no bastidor (como base única para emblemas/rendas ou posicionada sob o tecido do aplique).",
+        "2. A máquina executa o bordado com estabilidade dimensional, sem encolher nem rasgar sob a perfuração dos pontos.",
+        "3. Ao retirar a peça do bastidor, corta-se o excesso grosseiro da película ao redor do bordado com tesoura de precisão, mantendo folga de 2 mm a 3 mm.",
+        "4. Posiciona-se uma folha de papel manteiga ou folha de teflon sobre o bordado para proteger a linha de poliéster.",
+        "5. Aplica-se o ferro de passar a seco (sem vapor) a 130°C sobre o papel protetor por 5 a 8 segundos com movimentos suaves.",
+        "6. O calor decompõe e cristaliza a película, que se transforma instantaneamente em um pó fino e seco.",
+        "7. Uma leve escovação com cerdas macias ou pano seco remove 100% dos resíduos, deixando as bordas seladas e livres de fiapos."
     ],
-    "beginnerExplanation": "Este termo (Náilon Termossolúvel para Apliques e Emblemas (Heat-Soluble Nylon Backing)) é muito importante para evitar travamentos de linha, garantir a correta densidade e manter o ateliê funcionando perfeitamente.",
+    "beginnerExplanation": "Sabe quando você faz um aplique ou um emblema e quer que as beiradas fiquem perfeitas sem aqueles fiapinhos brancos de entretela aparecendo, mas não pode molhar a peça na água? O náilon termossolúvel é como uma folha plástica mágica: você borda em cima dela normalmente e, no final, basta encostar o ferro de passar quente que ela vira pó e desaparece, deixando o seu bordado limpinho na hora!",
     "applications": [
-      "Bordados em peças infantis e enxovais finos.",
-      "Troca rápida de cores em produção seriada.",
-      "Manutenção preventiva e desobstrução de lançadeira."
+        "Confecção de brasões, patches e emblemas com contorno em ponto cheio (merrowed border)",
+        "Bordados e apliques em tecidos nobres que mancham ou perdem a goma se forem molhados (veludo, camurça, linho fino engomado, seda e tafetá)",
+        "Rendas tipo guipir e richelieu produzidas diretamente no bastidor sem tecido de base",
+        "Monogramas delicados em artigos de couro ecológico e sintéticos sensíveis à umidade"
     ],
-    "matrixRelations": "Relaciona-se com título de linha, tensão da linha e lubrificação da lançadeira.",
+    "matrixRelations": [
+        "Densidade da Borda (Satim): A coluna de ponto cheio nas bordas do emblema deve ser densa (espaçamento entre 0,36 mm e 0,40 mm) para encapsular a margem do filme antes da queima térmica.",
+        "Sob-pontos (Underlay): Recomenda-se sob-ponto em zigue-zague ou tatami leve para ancorar a película antes da cobertura final em satim.",
+        "Compensação de Encolhimento (Pull Compensation): Manter entre 0,35 mm e 0,45 mm, pois a película plástica sofre leve contração durante a fricção dos pontos.",
+        "Comprimento de Ponto: Evitar pontos de contorno excessivamente curtos (abaixo de 1,0 mm) na borda externa para não picotar a película antes da hora."
+    ],
     "commonErrors": [
-      "❌ Puxar o tecido à força quando ocorrer ninho de pássaro embaixo da chapa",
-      "❌ Trocar a linha sem fazer o nó de tecelão correto",
-      "❌ Redimensionar arquivos sem normalizar a densidade de pontos"
+        "Usar ferro com vapor ligado: a umidade queima ou gruda o náilon derretido na base do ferro ou mancha a linha",
+        "Encostar o ferro quente diretamente sobre linhas de poliéster sem papel protetor, correndo o risco de derreter ou tirar o brilho do fio",
+        "Usar temperatura excessiva (acima de 150°C), que queima e amarela a película em vez de esfarelá-la em pó seco",
+        "Tentar rasgar a película a frio antes de passar o ferro, repuxando e deformando o contorno do aplique"
+    ],
+    "howToIdentify": [
+        "Bordas de emblemas e apliques saindo com fiapos brancos visíveis ao redor dos pontos de contorno",
+        "Tecidos que mancham ou perdem o caimento nobre ao serem lavados para retirar entretela hidrossolúvel",
+        "Peças com resíduos plásticos pegajosos ou difíceis de sair (sinal de que a temperatura do ferro estava baixa ou faltou tempo de contato)"
     ],
     "troubleshootingTips": [
-      "Se a máquina travar com bolo de linhas embaixo: desligue a máquina e corte os fios com cuidado por baixo da chapa.",
-      "Se a agulha esquentar e quebrar em tecidos duros: use agulha com banho de nitreto de titânio.",
-      "Se o bordado ficar duro após redimensionar: ative a normalização automática de densidade no software."
+        "Se sobrarem pequenos farelos brancos junto à borda do bordado: passe novamente o ferro seco protegido por papel manteiga por mais 3 segundos e escove com escova de dente macia seca.",
+        "Se a película grudar no ferro: limpe a chapa a quente com um pano de algodão grosso e use sempre papel manteiga entre o ferro e o bordado.",
+        "Se o tecido for muito sensível ao calor: faça um teste prévio em um retalho e reduza a temperatura para 120°C, aumentando o tempo para 8 segundos."
     ],
-    "dicaArtrelados": "Quando embolar linha embaixo da chapa (ninho de pássaro), NUNCA force o bastidor puxando para cima! Você pode entortar a barra de agulha ou quebrar a lançadeira. Solte o bastidor da máquina e corte as linhas por baixo com calma!",
-    "voceSabia": "As agulhas com nitreto de titânio recebem o mesmo revestimento dourado usado em brocas aeroespaciais para suportar perfurações extremas!",
-    "practicalExercise": "Pratique o nó de tecelão unindo duas pontas de linha e passe o nó pelos discos tensores da sua máquina com a mão para sentir a fluidez.",
-    "quickSummary": "Película que desaparece completamente sob o calor do ferro ou prensa térmica (120°C a 140°C), deixando bordas limpas sem fiapos.",
+    "dicaArtrelados": "Use sempre uma folha de papel manteiga ou papel teflon entre o ferro de passar e o bordado! Além de proteger a sola do seu ferro contra qualquer resíduo, o papel distribui o calor por igual e preserva o brilho acetinado maravilhoso da linha de bordar!",
+    "voceSabia": "O náilon termossolúvel foi um divisor de águas na indústria militar e de aviação: ele permitiu que os emblemas e brasões de fardas fossem bordados em alta velocidade e finalizados a seco em prensas térmicas em menos de 10 segundos por peça, sem necessidade de lavanderia ou estufa de secagem!",
+    "practicalExercise": "Borde um pequeno círculo de 5 cm com borda em ponto cheio largo usando o náilon termossolúvel no bastidor. Corte a sobra de plástico a 2 mm da borda. Coloque papel manteiga por cima e passe o ferro seco na temperatura média/lã (130°C) por 6 segundos. Pegue uma escovinha de dente macia e retire o pó: veja como a borda fica 100% perfeita sem nenhum fiapo!",
+    "quickSummary": "Película que se desintegra em pó com o calor do ferro seco (120°C a 140°C), permitindo acabamento perfeito em emblemas e apliques sem precisar de água.",
     "relatedTerms": [
-      "Chapa de Agulha",
-      "Caixa de Bobina (Bobbin Case)",
-      "Agulha com Banho de Titânio",
-      "Densidade de Pontos",
-      "Solução de Problemas"
+        "Filme Hidrossolúvel",
+        "Entretela Rasgável",
+        "Ponto de Aplique",
+        "Emblemas no Bastidor (Patches)",
+        "Ponto Satim (Satin Stitch)"
     ],
     "recommendedSettings": {
-      "speedPPM": "750 a 850 PPM",
-      "needleType": "75/11 SES ponta bola fina",
-      "stabilizer": "Entretela rasgável 60g ou recortável 80g",
-      "density": "0.38 a 0.42 mm",
-      "pullCompensation": "0.20 a 0.35 mm",
-      "underlay": "Zigue-zague leve ou tatami de sustentação"
+        "speedPPM": "700 a 800 PPM",
+        "needleType": "75/11 SES ponta bola leve",
+        "stabilizer": "Náilon Termossolúvel (camada única ou dupla)",
+        "density": "0.36 a 0.40 mm nas bordas",
+        "pullCompensation": "0.35 a 0.45 mm",
+        "underlay": "Zigue-zague ou tatami leve"
     },
     "tags": [
-      "n-070",
-      "n",
-      "dibe",
-      "artrelados",
-      "tecnico",
-      "bordado computadorizado"
+        "nailon termossoluvel",
+        "heat-soluble",
+        "termo-destrutivel",
+        "emblemas",
+        "patches",
+        "apliques",
+        "estabilizadores",
+        "artrelados"
     ],
     "bibliographicReferences": [
-      "TAJIMA EMBROIDERY MACHINERY. Technical Operating Standards and Mechanics. Nagoya, 2022.",
-      "WILCOM INTERNATIONAL. Designing and Digitalizing Technical Reference Guide. Sydney, 2023.",
-      "ARTRELADOS. Consultoria Técnica Avançada de Matrizes e Bordados. Curitiba, 2024."
+        "MADEIRA GARN. Stabilizers and Specialty Backings Technical Compendium. Freiburg: Madeira, 2023.",
+        "GUNOLD TECHNICAL DIVISION. Heat-Away Soluble Films and Specialty Industrial Stabilizers. Kenzingen: Gunold, 2022.",
+        "ARTRELADOS. Guia Definitivo de Estabilizadores e Termossolúveis para Emblemas. Curitiba: Artrelados, 2024."
     ],
-    "updatedAt": "2026-09-08"
-  },
+    "updatedAt": "2026-10-05"
+},
   {
     "id": "n-086-n-vel-de-ru-do-ac-stico-em-decib-is-machine-operating-sound-level-db",
     "code": "N-086",
