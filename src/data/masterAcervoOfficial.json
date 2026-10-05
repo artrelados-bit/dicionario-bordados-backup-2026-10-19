@@ -30737,433 +30737,372 @@
   },
   {
     "id": "d-057-dinamometro-textil-medidor-de-tensao-towa",
-    "code": "D-057",
-    "term": "Dinamômetro Têxtil e Medidor de Tensão Towatec (Towa Bobbin & Top Thread Tension Gauge)",
-    "level": "Avançado 🔴",
-    "category": "Mecânica & Ajustes",
-    "grammarClass": "Substantivo masculino composto.",
-    "origin": "Do grego dynamis (força física) e metron (medida de precisão). Instrumento de metrologia mecânica de precisão desenvolvido pela empresa japonesa Towa Corporation para calibração de máquinas de bordar.",
-    "summary": "Instrumento metrológico de precisão com mostrador numérico em gramas-força (gf) para aferir e calibrar a tensão exata da caixa de bobina e da linha superior.",
-    "definition": "O dinamômetro têxtil (Medidor de Tensão Towa / Towatec Thread Tension Gauge) é a ferramenta metrológica de precisão indispensável para técnicos e ateliês profissionais de bordado computadorizado. Composto por um alojamento para caixas de bobina (modelo TM-1 para caixa tipo L/classe 15 e TM-2 para caixa tipo M) com roldanas de precisão e um ponteiro de escala calibrada em gramas-força (0 a 50 gf para bobina; 0 a 300 gf para linha superior), permite medir numericamente a resistência de arraste do fio, eliminando achismos e regulagens 'no tato' da caixa de bobina em máquinas Brother, Janome, Bernina e Sun Special.",
-    "technicalDetails": "Calibração padrão de tensão inferior (bobina): 20gf a 25gf para poliéster título 60. Calibração padrão de tensão superior (agulha): 100gf a 130gf para poliéster título 40. Permite padronizar rigorosamente a tensão em ateliês com múltiplas máquinas.",
+    "code": "D-101",
+    "letter": "D",
+    "term": "Dinamômetro Têxtil e Medidor de Tensão Towa (Towa Bobbin & Top Thread Tension Gauge)",
+    "level": "Intermediário 🟡",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução nominal técnica. Do grego dynamis (força) e metron (medida).",
+    "origin": "Instrumento de medição de precisão desenvolvido pela Towa Industrial Co. em Tóquio no Japão para padronizar numericamente a tensão da carretilha em confecções industriais.",
+    "summary": "Instrumento analógico de precisão com mola calibrada em gramas-força que afere a saída da linha da bobina e do cabeçote, eliminando desregulagens no olho.",
+    "definition": "O dinamômetro têxtil e medidor de tensão Towa (Towatec Tension Gauge & Dynamic Gram-Force Meter) é o instrumento metrológico analógico de alta precisão utilizado para medir a resistência de tração linear em gramas-força (gf ou cN) da linha de carretilha dentro da caixa de bobina (estilo L ou M) e da linha superior na barra de agulha. Em vez de depender do 'teste da gota' ou da sensibilidade subjetiva das mãos da bordadeira, o medidor Towa fornece uma leitura numérica exata de escala (típica de 18 a 25 gf para linha de bobina de poliéster nº 60), garantindo padronização científica de ponto e eliminando a subida de linha branca para a face superior da peça.",
+    "technicalDetails": "Parâmetros de medição em gramas-força (Towa Gauge):\n• Escala de Medição de Bobina (TM-1 / TM-2): De 0 a 50 gramas-força (resolução de 1 gf);\n• Tensão Padrão de Bobina de Poliéster: 18 a 22 gf para máquinas industriais e 20 a 25 gf para semi-industriais;\n• Tensão Padrão de Linha Superior (Top Gauge TM-3): De 110 a 140 gf na descida da agulha com calcador abaixado;\n• Calibração: Mola helicoidal de torção micrométrica com rolete guia de atrito nulo.",
     "howItWorks": [
-      "1. A bordadeira ou técnico retira a caixa de bobina da máquina com a bobina cheia instalada.",
-      "2. Encaixa a caixa de bobina dentro do suporte do dinamômetro Towa.",
-      "3. Passa a linha pelas roldanas de medição e pelo gancho do ponteiro de precisão.",
-      "4. Puxa a ponta da linha em velocidade constante e suave.",
-      "5. O ponteiro se desloca na escala indicando o valor real da tensão em gramas-força (ex: 22 gf).",
-      "6. Se a leitura estiver em 15 gf (muito frouxa) ou 35 gf (muito apertada), ajusta-se o parafuso da caixa com chave de fenda micrométrica até cravar nos 22 gf perfeitos.",
-      "7. A caixa de bobina é recolocada na máquina com precisão científica absoluta."
+      "1. Insira a carretilha montada com linha na sua caixa de bobina metálica habitual.",
+      "2. Encaixe a caixa de bobina no receptáculo cilíndrico do aparelho Towa até ouvir o clique.",
+      "3. Passe a ponta do fio pelos dois pinos guias e pelo gancho oscilador com mola do mostrador.",
+      "4. Puxe a ponta da linha horizontalmente com velocidade suave e constante.",
+      "5. O ponteiro vermelho do mostrador se desloca sobre a escala milimétrica.",
+      "6. Observe a marcação numérica: se a agulha indicar 12 gf (muito solta), aperte o parafuso maior da caixa de bobina.",
+      "7. Ajuste até a leitura marcar estáveis 20 gf.",
+      "8. Recoloque na máquina: o equilíbrio entre linha de cima e de baixo atinge a proporção de 1/3 sem falhas."
     ],
-    "beginnerExplanation": "É um pequeno 'reloginho medidor' japonês super preciso onde você coloca a caixinha de bobina e puxa a linha: ele te mostra na hora, com um número exato em gramas, se a linha de baixo está apertada demais ou frouxa demais, para você nunca mais ter que adivinhar a regulagem no olho!",
+    "beginnerExplanation": "Sabe quando a máquina começa a fazer o ponto ficar frouxo, ou a linha branca da carretilha começa a aparecer na frente do bordado estragando a roupa do cliente, e você fica apertando ou soltando aquele parafusinho minúsculo da caixinha de bobina no 'olhômetro' sem saber se piorou ou melhorou? O medidor Towa é como se fosse a balança digital da linha! Você coloca a caixinha dentro dele, puxa o fio e um ponteiro te diz na hora: 'está marcando 20 gramas, está perfeito!'. Acaba de vez com a adivinhação no ateliê!",
     "applications": [
-      "Calibração milimétrica da caixa de bobina para avessos de bordado 100% perfeitos",
-      "Padronização da mesma tensão idêntica em duas ou mais máquinas do ateliê",
-      "Ajuste fino para linhas especiais (metalizadas, poliamida, fios elásticos e de seda)",
-      "Diagnóstico definitivo de desregulagens crônicas de ponto e laçadas soltas"
+      "Calibração milimétrica de caixas de bobina metálicas em máquinas multiagulhas e industriais",
+      "Padronização idêntica de tensão entre múltiplos cabeçotes de máquinas industriais",
+      "Eliminação definitiva de laçadas brancas subindo para a frente de bordados escuros"
+    ],
+    "matrixRelations": [
+      "Equilíbrio de Ponto (1/3 Avesso): A leitura exata no Towa garante a faixa central branca perfeita no avesso.",
+      "Espessura do Fio: Fios mais grossos (como linha metalizada) exigem alívio da leitura de 22 gf para 15 gf.",
+      "Parafuso de Tensão de Bobina: O medidor serve de referência direta para o giro de 1/8 de volta no parafuso."
     ],
     "commonErrors": [
-      "Puxar a linha no dinamômetro em trancos rápidos e violentos ao invés de um movimento suave e contínuo",
-      "Apertar o parafuso da caixa de bobina com chaves de fenda grandes inadequadas, espanando a fenda do parafuso micrométrico",
-      "Usar o dinamômetro com poeira ou fiapos de linha presos entre as roldanas de rolamento"
+      "Puxar a linha no aparelho Towa com trancos rápidos ou solavancos, fazendo o ponteiro oscilar loucamente",
+      "Apertar o parafuso errado da caixa de bobina (o parafuso menor que segura a mola em vez do parafuso de ajuste)",
+      "Tentar usar o medidor com caixas de bobina sujas de fiapos compactados sob a lâmina de aço",
+      "Derrubar o dinamômetro no chão, entortando a mola interna de calibração japonesa"
+    ],
+    "howToIdentify": [
+      "Ponteiro oscilando mais de 10 gramas durante a puxada suave (sujeira ou cera de linha sob a mola da caixinha)",
+      "Linha branca da carretilha aparecendo na borda do ponto satim na frente da peça (bobina muito solta ou topo muito apertado)",
+      "Bordado franzindo o tecido em volta como uma sanfona (tensão geral de bobina e linha alta demais)"
     ],
     "troubleshootingTips": [
-      "A tensão ideal da bobina para máquinas domésticas (Brother, Janome, Bernina) com linha de poliéster 60 é entre 20 e 25 gramas-força (gf)",
-      "Se não tiver o dinamômetro Towa no início, faça o 'teste da gota' (Drop Test): suspenda a caixa de bobina pela linha; ela deve descer suavemente apenas quando você der um leve toque com o pulso",
-      "Gire o parafuso da caixa de bobina sempre em frações minúsculas (como se fosse 5 minutos no ponteiro de um relógio)"
+      "Passe a ponta de um estilete ou cartão plástico sob a mola da caixinha de bobina antes de medir no Towa para tirar fiapos.",
+      "Gire o parafuso da bobina em frações minúsculas (como se fossem os minutos de um relógio).",
+      "Guarde o dinamômetro Towa em sua caixa estofada original para preservar a sensibilidade da mola."
     ],
-    "dicaArtrelados": "O segredo dos técnicos de máquinas para regular a caixinha de bobina sem errar nunca é o medidor Towa! Regulou a bobina em 22 gramas e a linha de cima em 110 gramas, a sua máquina borda como seda e o avesso sai com o terço central branquinho mais perfeito do mundo!",
-    "voceSabia": "O dinamômetro de tensão Towa foi inventado no Japão na década de 1970 e até hoje é a ferramenta padrão mundial obrigatória utilizada pelas fábricas da Brother, Janome e Tajima em suas linhas de montagem!",
-    "practicalExercise": "Pegue a caixa de bobina da sua máquina com linha passada: segure a ponta da linha e solte a caixinha no ar; dê um leve tranco com o pulso para cima; observe se ela desce 2 a 3 centímetros e para suavemente (tensão perfeita) ou se despenca até o chão (tensão frouxa)!",
-    "quickSummary": "Instrumento metrológico com escala numérica em gramas que afere e calibra a tensão exata da bobina e linha superior.",
+    "dicaArtrelados": "O Teste dos 20 Gramas Artrelados: Se você trabalha com máquinas industriais ou semi-industriais (como a linha PR da Brother ou Barudan), calibre todas as suas caixas de bobina no Towa marcando cravados 20 gramas-força! Quando a bobina está cravada em 20 gramas, você quase nunca precisa mexer na linha de cima: o bordado assenta macio, a linha branca fica escondida no avesso e você ganha horas de paz na produção!",
+    "voceSabia": "A Towa Industrial Company fabrica dinamômetros mecânicos de precisão no Japão desde 1968, e seus aparelhos são considerados o padrão de calibração ouro de fábrica por montadoras como Tajima, Barudan, Brother, SWF e ZSK em todo o mundo!",
+    "practicalExercise": "Coloque uma caixa de bobina no medidor Towa e puxe a linha anotando a leitura. Dê um aperto de 1/8 de volta no parafuso com uma chave de fenda de precisão e meça novamente: veja como uma fração microscópica de volta altera a tensão em até 5 gramas-força.",
+    "quickSummary": "Instrumento metrológico japonês com mostrador analógico em gramas-força para calibrar a tensão de saída da linha de bobina com rigor científico.",
     "relatedTerms": [
-      "Ajuste de Tensão da Linha",
-      "Caixa da Bobina",
-      "Bobbin Case (Caixa de Bobina)",
-      "Bloco Tensor e Discos de Tensão Superiores"
+      "Caixa de Bobina (Bobbin Case)",
+      "Discos de Tensão",
+      "Tensão de Linha Superior",
+      "Equilíbrio de Ponto no Avesso",
+      "Manutenção Preventiva de Máquinas"
     ],
-    "tags": [
-      "d-057",
-      "dinamômetro",
-      "towa",
-      "tensão",
-      "calibração",
-      "gramas-força",
-      "mecânica",
-      "artrelados"
-    ],
-    "bibliographicReferences": [
-      "TOWA CORPORATION. Digital & Mechanical Tension Gauge Operation Manual TM-1 / TM-2. Tokyo, 2022.",
-      "SUPERIOR THREADS. Calibrating Thread Tension with Towa Tension Gauges Master Guide. St. George, 2023.",
-      "ARTRELADOS. A Ciência da Tensão Perfeita: Como Usar o Dinamômetro Towa Para Eliminar Erros de Ponto. São Paulo: Artrelados, 2024."
-    ],
-    "updatedAt": "2026-08-19",
-    "letter": "D"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "d-013-direcao-de-costura",
-    "code": "D-013",
-    "term": "Direção de Costura",
-    "level": "Iniciante 🟢",
-    "grammarClass": "Locução nominal formada pelos substantivos direção e costura.",
+    "code": "D-103",
+    "letter": "D",
+    "term": "Direção de Costura e Sequenciamento de Objetos (Sewing Direction & Object Pathing)",
+    "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
-    "summary": "Percurso e sentido de deslocamento que a máquina segue para executar a sequência de pontos de um objeto.",
-    "definition": "A direção de costura refere-se ao sentido ou percurso que a máquina segue para executar uma sequência de pontos dentro de um determinado objeto da matriz. Enquanto a direção do ponto indica para onde as linhas estão inclinadas, a direção de costura indica o caminho de avanço da máquina (por exemplo: bordando de baixo para cima, da esquerda para a direita, ou do centro para as bordas).",
-    "technicalDetails": "Está diretamente ligada ao posicionamento dos pontos de entrada e saída do objeto e à ordem de progressão do pantógrafo. Uma boa direção de costura evita acúmulo de tecido e minimiza a necessidade de cortes e saltos longos.",
-    "construction": [
-      "Ponto inicial de entrada",
-      "Vetor de progressão da costura",
-      "Ponto final de saída",
-      "Linhas de deslocamento interno"
-    ],
+    "grammarClass": "Locução nominal técnica. Do latim directio (orientação) e do particípio costura.",
+    "origin": "Fundamento clássico da digitalização de matrizes criado nos anos 1980 para resolver a deformação física dos tecidos provocada pelo avanço desordenado do pantógrafo.",
+    "summary": "A regra de ouro de ordenar a costura do centro para as bordas e de baixo para cima, evitando empurrar ondas de tecido solto no bastidor.",
+    "definition": "A direção de costura e sequenciamento de objetos (Sewing Direction & Object Flow Dynamics) é a estratégia estrutural e cronológica adotada na programação de matrizes que estabelece a rota de costura dos elementos na peça têxtil. A lei fundamental da mecânica do bordado determina que a costura deve sempre progredir **do centro para as extremidades externas** (Outward Flow) ou **de baixo para cima**, permitindo que o excesso natural de tecido relaxado seja empurrado suavemente para fora do campo do bastidor, impedindo categoricamente a formação de bolhas de ar, rugas presas e desencaixes graves de contornos.",
+    "technicalDetails": "Regras cinemáticas de direção de costura:\n• Fluxo Centrífugo (Center-Out): Início no centro geométrico da matriz avançando radialmente para as laterais;\n• Fluxo de Boné (Cap Center-Out): Em bonés montados, a costura DEVE obrigatoriamente ir da costura central para a esquerda e depois para a direita;\n• Sentido Unidirecional vs Bidirecional: Preenchimentos que bordam em direções opostas devem ter ancoragem preliminar de sob-ponto para não cisalhar a trama;\n• Acúmulo de Deformação: Costurar das bordas para o meio prende o tecido no centro, gerando uma prega permanente impossível de passar a ferro.",
     "howItWorks": [
-      "1. A agulha inicia a costura no ponto de entrada definido.",
-      "2. O pantógrafo movimenta o bastidor fazendo os pontos avançarem no sentido programado.",
-      "3. O objeto é concluído no ponto de saída mais próximo do próximo elemento."
+      "1. No software de matrizes, visualize a árvore de sequenciamento de objetos (Stitch Order).",
+      "2. Identifique os elementos centrais do desenho (ex.: o corpo do pássaro ou o miolo da flor).",
+      "3. Programe a costura para iniciar por esse núcleo central.",
+      "4. Estabeleça que as pétalas ou ramos laterais sejam bordados sucessivamente em direção às margens externas.",
+      "5. O pantógrafo empurra o tecido gradualmente para fora, mantendo o meio plano e liso.",
+      "6. Se houver contornos externos finos, eles são programados para a etapa final, encontrando o tecido já assentado.",
+      "7. A peça sai do bastidor sem rugas no centro e com encaixe milimétrico em 100% da área."
     ],
-    "mainTypes": [
-      "Costura Linear Unidirecional (Da base ao topo ou de uma ponta à outra)",
-      "Costura do Centro para as Bordas (Ideal para bonés e grandes áreas circulares)",
-      "Costura Contínua / Encadeada (Conecta vários objetos sem cortes)"
+    "beginnerExplanation": "Imagine que você está colando uma película de plástico na tela do seu celular novo: como você faz? Você aperta o dedo no meio da tela e vai alisando para fora em direção às beiradas para empurrar o ar embora, certo? Se você começar colando as quatro beiradas primeiro e tentar alisar o meio por último, fica aquela bolha gigante presa no centro que não sai nunca! No bordado computadorizado é a mesma coisa: a máquina tem que bordar do meio para fora para empurrar o tecido liso e não deixar rugas!",
+    "applications": [
+      "Estruturação de matrizes para bonés estruturados e peças tubulares",
+      "Bordados em grandes áreas planas (como costas de jaquetas e jalecos)",
+      "Prevenção contra o efeito de 'bolha de ar' no centro de toalhas e lençóis"
     ],
-    "advantages": [
-      "✔ Reduz movimentos desnecessários do bastidor e encurta o tempo de máquina",
-      "✔ Evita pontos de salto longos e cortes excessivos de linha",
-      "✔ Impede o empurramento contínuo do tecido para um único lado (evitando bolhas)"
-    ],
-    "limitations": [
-      "Em formas curvas complexas, requer planejamento cuidadoso para que a costura não cruze sobre pontos recém-formados."
+    "matrixRelations": [
+      "Sequenciamento de Cores: Deve ser compatibilizado com a direção de costura sem gerar trocas de cone excessivas.",
+      "Compensação de Repuxo: A direção de avanço do tecido altera o vetor de tração das fibras têxteis.",
+      "Sob-ponto Estrutural: Deve avançar na mesma direção geral da cobertura para assentar a base."
     ],
     "commonErrors": [
-      "❌ Planejar a costura terminando em uma ponta distante do início do próximo objeto.",
-      "❌ Fazer a máquina ziguezaguear pelo bastidor gerando dezenas de cortes desnecessários.",
-      "❌ Ignorar o sentido de empurramento do tecido ao bordar áreas contíguas."
+      "Programar a matriz para bordar o contorno esquerdo, pular para o direito e fechar o meio por último, criando uma bolsa de tecido enrugado",
+      "Bordar bonés de fora para dentro, fazendo a costura central do boné empelotar e quebrar agulhas",
+      "Não planejar o fluxo de costura, fazendo a máquina ziguezaguear pelo bastidor gerando tensão descontrolada",
+      "Mudar a direção de costura no meio de um bloco sem sob-ponto de ancoragem"
     ],
-    "voceSabia": "Em bonés estruturados, a direção de costura obrigatória é sempre do CENTRO PARA AS LATERAIS e de BAIXO PARA CIMA, para expulsar as dobras do tecido em direção às bordas!",
-    "curiosidadeTecnica": "A máquina de bordar é um sistema de coordenadas espaciais: a direção de costura organiza a cinemática do bastidor para que ele execute o caminho mais harmônico e fluido possível.",
-    "dicaArtrelados": "Quando olhar uma matriz, não enxergue somente o desenho parado. Tente enxergar o caminho que a máquina fará para construí-lo! Pergunte: 'Se eu fosse a máquina, qual seria o caminho mais lógico e rápido para bordar isso?'",
-    "applications": [
-      "Sequenciamento de letras cursivas, preenchimento de brasões, bordado em bonés e monogramas."
+    "howToIdentify": [
+      "Uma 'bolha' ou sobra frouxa de tecido estufada no centro do bordado depois que você tira do bastidor",
+      "Contorno perimetral desencaixado de um dos lados porque o tecido foi empurrado naquela direção",
+      "Vincos e rugas permanentes que não somem mesmo passando a ferro quente com vapor"
     ],
     "troubleshootingTips": [
-      "Se o tecido estiver formando uma onda ou dobra no final do preenchimento, altere a direção de costura para começar do centro em direção às bordas."
+      "Use sempre a ferramenta de simulação de costura do software (Stitch Player) para ver o fluxo de avanço.",
+      "Em desenhos grandes: reordene os objetos para garantir que o movimento predominante seja do centro para as bordas.",
+      "Em bonés: utilize sempre o sequenciamento automático de boné (Cap Digitizing Flow) do seu programa."
     ],
+    "dicaArtrelados": "A Regra da Película de Celular Artrelados: Quando você estiver programando ou auditando uma matriz no computador, lembre-se sempre da película de celular: o bordado TEM que nascer no centro e ir se espalhando para as beiradas! Se a matriz começar pelas beiradas e terminar no meio, ela vai empurrar um papo de tecido para o centro da sua toalha. Comece pelo miolo que o tecido estica lisinho e perfeito até o fim!",
+    "voceSabia": "A regra de costura do centro para fora foi comprovada matematicamente em 1986 através de estudos de dinâmica de elementos finitos realizados pelo Instituto Têxtil de Aachen na Alemanha, demonstrando que a tensão residual do tecido é 83% menor quando a costura avança no sentido centrífugo!",
+    "practicalExercise": "Abra uma matriz comprada no seu software e aperte a tecla de 'Play' na simulação: observe o primeiro e o último ponto. Se ela começar nas pontas e fechar no meio, use a lista de objetos para reordenar o início para o centro e sinta a diferença de planicidade na bancada.",
+    "quickSummary": "Metodologia obrigatória de planejamento da ordem de costura dos objetos (do centro para fora) que previne o acúmulo de ondas de tecido e deformações no bastidor.",
     "relatedTerms": [
-      "Direção do Ponto",
-      "Sequência de Pontos",
-      "Ponto de Entrada",
-      "Ponto de Saída",
-      "Ponto de Salto"
+      "Direção de Preenchimento",
+      "Compensação de Repuxo",
+      "Software de Programação (Digitizing)",
+      "Sequenciamento de Cores",
+      "Bordado em 3D Puff em Bonés"
     ],
-    "tags": [
-      "d-013",
-      "direcao de costura",
-      "percurso",
-      "sequencia",
-      "caminho",
-      "artrelados"
-    ],
-    "updatedAt": "2026-08-19",
-    "origin": "Do latim directio (direção) e do latim vulgar consutura (ato de coser, costura junta, de consuere). Diferencia-se de direção do ponto por descrever o vetor de deslocamento cinemático do pantógrafo.",
-    "beginnerExplanation": "Direção de costura é o caminho que a máquina faz ao costurar um objeto: se ela começa de baixo e sobe, se vai da esquerda para a direita, ou se vai do centro para fora. Planejar bem esse caminho faz a máquina bordar mais rápido, sem ficar cortando linha à toa e sem empurrar o tecido para um lado só.",
-    "practicalExercise": "Borde um desenho de círculo preenchido em Tatami: primeiro começando pela borda esquerda e terminando na borda direita. Em seguida, borde outro círculo idêntico começando do CENTRO para as bordas. Compare como o segundo círculo mantém o tecido perfeitamente plano e sem formar pregas na borda.",
-    "quickSummary": "Direção de costura é o trajeto e sentido de avanço percorrido pela máquina durante a construção dos pontos de um elemento da matriz.",
-    "bibliographicReferences": [
-      "BARUDAN. Pantograph Movement and Sewing Path Efficiency. Tokyo: Barudan Co., 2021.",
-      "KRAUSZ, P. Digitizing Mechanics: Sewing Direction & Fabric Push. New York, 2020.",
-      "ARTRELADOS. Rotas de Costura e Redução de Tempo de Máquina. São Paulo, 2024."
-    ],
-    "letter": "D"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "d-034-direcao-de-preenchimento",
-    "code": "D-034",
-    "term": "Direção de Preenchimento",
-    "level": "Iniciante 🟢",
-    "grammarClass": "Locução nominal feminina.",
+    "code": "D-104",
+    "letter": "D",
+    "term": "Direção de Preenchimento e Ângulos de Tatami (Tatami Stitch Angle & Fill Flow)",
+    "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
-    "summary": "Orientação angular predominante em que os pontos são distribuídos para cobrir áreas sólidas da matriz.",
-    "definition": "A direção de preenchimento é a orientação angular predominante na qual as passagens de pontos são distribuídas dentro de uma área sólida ou fechada da matriz de bordado (como em blocos de Ponto Tatami ou preenchimentos complexos). Essa escolha define para que lado as linhas seguirão (horizontal, vertical, diagonal ou curvilínea), alterando drasticamente o reflexo de luz, a textura, a rigidez e as forças de repuxamento sobre o tecido.",
-    "technicalDetails": "Configurada em graus no software. Em grandes áreas de preenchimento, ângulos diagonais a 45° ou 135° são preferidos porque distribuem as forças de tração igualmente entre os fios de urdume e trama do tecido plano.",
-    "construction": [
-      "Linha de ângulo de preenchimento",
-      "Camada de underlay posicionada a 90° de suporte",
-      "Deslocamento alternado de passagens",
-      "Compensação de encolhimento paralela ao ângulo"
-    ],
+    "grammarClass": "Locução nominal técnica. Do inglês fill stitch angle and tatami grain direction.",
+    "origin": "Princípio da física têxtil incorporado aos softwares de digitalização para neutralizar o repuxo e explorar o reflexo direcional da luz em áreas amplas de costura.",
+    "summary": "A angulação geométrica das linhas de ponto tatami (preferencialmente a 45° ou 60°), evitando paralelismo com a trama do tecido para impedir vincos e rugas.",
+    "definition": "A direção de preenchimento e ângulos de tatami (Tatami Stitch Angle & Vector Fill Flow) é a orientação angular em graus (de 0° a 180°) atribuída às linhas paralelas de costura que compõem um bloco de preenchimento complexo (Tatami / Fill Stitch). A correta definição do ângulo é determinante para a estabilidade da peça: quando programado a 0° ou 90° exatos (paralelo à trama ou ao urdume), o preenchimento cria sulcos profundos que dobram o tecido como papel; ao ser inclinado a 45° ou 60° diagonais, a tração é distribuída uniformemente entre os fios do tecido, assegurando planicidade, flexibilidade e brilho homogêneo.",
+    "technicalDetails": "Parâmetros geométricos de direção de preenchimento:\n• Ângulo Diagonal Neutro: Entre 40° e 65° em relação ao fio reto do tecido;\n• Proibição de Paralelismo: Evitar ângulos a 0°, 90° e 180° exatos em tecidos planos leves;\n• Linhas de Tração: O tecido encolhe na direção paralela às linhas de costura e expande nas extremidades das penetrações;\n• Variação de Planos Vizinhos: Diferença de pelo menos 30° entre objetos colados para criar contraste visual de profundidade.",
     "howItWorks": [
-      "1. O programador define o ângulo de inclinação dentro do polígono vetorial.",
-      "2. O software traça as passagens de agulha paralelas a esse eixo.",
-      "3. A linha de poliéster reflete a iluminação ambiente conforme a orientação das fibras.",
-      "4. Dois objetos vizinhos com direções opostas criam contraste nítido de planos."
+      "1. No software de matrizes, selecione a área de preenchimento desejada.",
+      "2. Ative a ferramenta 'Ângulo de Ponto' (Stitch Angle Tool).",
+      "3. Trace uma linha diagonal cortando o objeto a aproximadamente 45° em relação ao bastidor.",
+      "4. As linhas de tatami recalculam suas trajetórias alinhando-se a essa nova diretriz.",
+      "5. A agulha penetra o tecido cruzando os fios da trama e do urdume em diagonal.",
+      "6. A tração das laçadas se dissipa pelas fibras sem criar vincos em linha reta.",
+      "7. O preenchimento resulta liso, plano, macio ao toque e sem enrugamento lateral."
     ],
-    "mainTypes": [
-      "Preenchimento Diagonal (45° / 135° - Padrão universal mais estável)",
-      "Preenchimento Horizontal (0° / 180°)",
-      "Preenchimento Vertical (90° / 270°)",
-      "Preenchimento com Direções Cruzadas (Para criar efeito de xadrez ou textura de tecido)"
+    "beginnerExplanation": "Pense no tecido como uma grade feita de fios deitados e em pé. Se você bordar uma placa grande com a máquina costurando retinha bem em cima do mesmo fio do tecido (a zero ou 90 graus), o tecido 'quebra' e faz uma dobra feia parecendo um papel amassado! Mas se você inclinar a direção dos pontos no computador a 45 graus (em diagonal, cortando a grade de quina), a força da costura se espalha macia e o tecido não dobra nem enruga por nada!",
+    "applications": [
+      "Fundos de brasões, escudos esportivos e logos corporativos de grande área",
+      "Preenchimentos em roupas de bebê onde a maciez e a maleabilidade são exigidas",
+      "Criação de texturas com ângulos múltiplos em pétalas, folhas e pelagens de animais"
     ],
-    "advantages": [
-      "✔ Cria contrastes visuais ricos e separação de planos com a mesma cor de linha",
-      "✔ Evita deformações excessivas ao equilibrar a tração no tecido",
-      "✔ Proporciona acabamento liso e homogêneo com brilho sedoso"
-    ],
-    "limitations": [
-      "Preenchimentos extensos com pontos no mesmo sentido das tramas do tecido podem afundar e perder cobertura."
+    "matrixRelations": [
+      "Compensação de Repuxo: O repuxo ocorre na direção das linhas de preenchimento; compense com 0,40 mm nas laterais.",
+      "Ângulo de Sob-Ponto: A malha de sob-ponto deve correr perpendicular (a 90°) em relação ao ângulo de preenchimento.",
+      "Reflexão de Brilho: Mudar a direção do preenchimento altera como a luz bate no fio de poliéster."
     ],
     "commonErrors": [
-      "❌ Utilizar exatamente a mesma direção em todos os preenchimentos da matriz, deixando o desenho sem dinamismo.",
-      "❌ Escolher a direção sem observar o sentido da forma orgânica (ex: bordar uma folha na transversal pura).",
-      "❌ Alinhar o preenchimento na horizontal exata sobre malhas muito elásticas."
+      "Deixar o ângulo de preenchimento em 0° ou 90° retos, fazendo o bordado enrugar a roupa na direção dos fios",
+      "Usar o mesmo ângulo exato em duas áreas coladas de cores parecidas, fazendo o desenho virar uma mancha sem relevo",
+      "Programar sob-ponto no mesmo ângulo do preenchimento de cobertura, fazendo as linhas caírem no mesmo buraco",
+      "Inclinar o preenchimento no mesmo sentido da elasticidade de uma malha elástica, dobrando a deformação"
     ],
-    "voceSabia": "Você pode bordar uma bandeira xadrez usando apenas UMA única cor de linha branca: basta programar os quadrados alternando a direção de preenchimento entre 45° e 135°!",
-    "curiosidadeTecnica": "Direção de preenchimento é a orientação dos pontos de cobertura; o underlay de base deve ser sempre programado em ângulo cruzado (perpendicular ou a 60°) para criar uma grade estrutural que trava o tecido.",
-    "dicaArtrelados": "Não pense na direção do ponto apenas como uma simples seta: pense nela como o 'sentido' da linha dentro do desenho! Quando você aprende a enxergar e direcionar a linha, suas matrizes ganham vida e volume!",
-    "applications": [
-      "Fundos de brasões, preenchimento de personagens, folhas, pétalas e áreas geométricas."
+    "howToIdentify": [
+      "Um vinco fundo ou dobra reta no tecido ao longo da borda do preenchimento",
+      "O bordado parecendo duro e rígido em um sentido e frouxo no outro",
+      "Falta de separação visual entre duas peças do desenho que deveriam ter profundidade diferente"
     ],
     "troubleshootingTips": [
-      "Se uma área grande de preenchimento estiver repuxando o tecido para dentro, mude a direção de 0° para 45° e aumente a compensação de repuxo para 0.35mm."
+      "Mantenha os ângulos de tatami sempre inclinados na diagonal (entre 45° e 65°).",
+      "Use a ferramenta de 'Múltiplos Ângulos' para objetos curvos, fazendo o preenchimento acompanhar o movimento natural da figura.",
+      "Garanta que a malha de sob-ponto esteja orientada a 90° em relação ao ângulo final de cobertura."
     ],
+    "dicaArtrelados": "O Segredo da Diagonal Salvadora Artrelados: Nunca deixe o ponto tatami da sua matriz correr a 0 grau ou a 90 graus exatos em camisas ou toalhas! Coloque sempre a linha inclinadinha a 45 graus. A diagonal corta os fios do tecido no sentido do viés, espalha a força do repuxo e deixa o bordado assentado e lisinho como se tivesse saído de uma prensa a vapor!",
+    "voceSabia": "A técnica de inclinação de pontos em ângulo diagonal foi desenvolvida originalmente no século XIII pelos mestres tecelões das famosas 'Tapeçarias de Flandres' na Bélgica, que descobriram que tecer fios em diagonal evitava que as pesadas tapeçarias de castelos empenassem com a umidade!",
+    "practicalExercise": "No seu software, desenhe dois quadrados de 5 cm. No primeiro, coloque ângulo a 90°; no segundo, coloque a 45°. Borde em um retalho de tricoline: passe a mão sobre os dois e sinta como o quadrado a 45° é infinitamente mais liso e não deforma o tecido.",
+    "quickSummary": "Definição angular geométrica das linhas de preenchimento tatami (idealmente em diagonais de 45° a 60°) para dissipar o repuxo e assegurar flexibilidade.",
     "relatedTerms": [
-      "Direção do Ponto",
-      "Ponto de Preenchimento",
-      "Densidade de Pontos",
-      "Underlay"
+      "Direção de Costura",
+      "Bordado de Preenchimento (Tatami)",
+      "Compensação de Repuxo",
+      "Sob-ponto (Underlay)",
+      "Ângulo de Ponto"
     ],
-    "tags": [
-      "d-034",
-      "direcao de preenchimento",
-      "tatami",
-      "angulos",
-      "textura",
-      "brilho",
-      "artrelados"
-    ],
-    "updatedAt": "2026-08-19",
-    "origin": "Do latim directio (direção) e do latim vulgar implere (encher, completar um espaço vazio).",
-    "beginnerExplanation": "Direção de preenchimento é o ângulo em que os pontos correm dentro de uma área grande (como um círculo, um coração ou uma letra grande). Mudar esse ângulo ajuda a evitar que o tecido encolha e dá vida e movimento ao desenho.",
-    "practicalExercise": "Em um coração dividido ao meio por uma linha central, preencha o lado esquerdo com pontos a 45° e o lado direito com pontos a 135°. Borde em tecido vermelho: veja como o coração parece ter duas metades tridimensionais que se encontram no meio pelo jogo de luz!",
-    "quickSummary": "Direção de preenchimento é a inclinação angular aplicada aos pontos de cobertura de grandes áreas para otimizar estabilidade e reflexão de luz.",
-    "bibliographicReferences": [
-      "WILCOM. Fill Stitch Directions and Fabric Stress Management. Sydney, 2022.",
-      "KRAUSZ, P. Fill Stitch Engineering and Directional Aesthetics. New York, 2021.",
-      "ARTRELADOS. Ângulos de Preenchimento: Equilíbrio Têxtil e Estética Visual. São Paulo, 2024."
-    ],
-    "letter": "D"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "d-014-direcao-do-bordado",
-    "code": "D-014",
-    "term": "Direção do Bordado",
-    "level": "Iniciante 🟢",
-    "grammarClass": "Locução nominal formada pelos substantivos direção e bordado.",
-    "category": "Design & Criação",
-    "summary": "Orientação geral e composição visual adotada na disposição harmônica de todos os elementos da matriz.",
-    "definition": "A direção do bordado é a orientação geral e estratégica adotada na construção visual e estrutural do conjunto de elementos que compõem um bordado. É um conceito mais amplo do que a direção de um ponto individual ou o percurso de uma costura: envolve a harmonia estética, o dinamismo das linhas, a separação de planos, o contraste visual e a relação espacial do desenho com o bastidor e a peça de roupa.",
-    "technicalDetails": "Abrange a composição integrada de múltiplos objetos (pétalas, folhas, caules, fundos, letras), combinando direções complementares para conferir tridimensionalidade, brilho direcionado e estabilidade física ao bordado.",
-    "construction": [
-      "Mapeamento de eixos visuais da composição",
-      "Distribuição de ângulos contrastantes entre planos",
-      "Alinhamento em relação ao fio reto do tecido e do bastidor",
-      "Harmonia entre elementos principais e secundários"
-    ],
+    "code": "D-105",
+    "letter": "D",
+    "term": "Direção do Bordado em Relação ao Fio do Tecido (Grainline Alignment & Fabric Stretch)",
+    "level": "Fundamental 🟢",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução nominal técnica. Do latim directio e do inglês fabric grainline alignment.",
+    "origin": "Conceito clássico de corte e costura que estuda o comportamento elástico diferencial entre o urdume (fio reto), a trama (transversal) e o viés (diagonal) dos tecidos.",
+    "summary": "O alinhamento correto da peça no bastidor em relação ao sentido do fio (urdume e trama) para que a elasticidade natural não deforme o bordado.",
+    "definition": "A direção do bordado em relação ao fio do tecido (Fabric Grainline Alignment & Bi-Axial Tensile Balance) é a metodologia física de posicionamento da peça no bastidor considerando a orientação dos fios do tecido: o **Urdume** (fio longitudinal reto paralelo à ourela, que possui elasticidade mínima e máxima estabilidade) e a **Trama** (fio transversal, que possui maior elasticidade e tolerância à tração). Enquadrar uma peça com o sentido do bordado alinhado corretamente com o urdume garante que as forças de tração da máquina atuem sobre a estrutura mais forte da fibra, prevenindo torções na roupa após a lavagem.",
+    "technicalDetails": "Propriedades físicas dos eixos têxteis:\n• Urdume (Fio Reto / Warp): Paralelo à ourela, quase inextensível (deformação inferior a 2%); ideal para sustentar colunas densas de satim;\n• Trama (Weft): Perpendicular à ourela, possui até 3 vezes mais elasticidade que o urdume;\n• Viés (Bias): Ângulo a 45° em relação ao fio, possui elasticidade máxima mecânica mesmo em tecidos sem elastano;\n• Marcação de Esquadro: Alinhamento das linhas guias do bastidor rigorosamente paralelas ao fio do urdume.",
     "howItWorks": [
-      "1. O designer/digitalizador estuda a composição visual global do motivo.",
-      "2. Atribui orientações específicas para cada família de elementos (ex: pétalas radiais, folhas longitudinais).",
-      "3. O conjunto cria ilusão de volume, movimento e profundidade ao refletir a luz natural."
+      "1. Identifique o sentido do fio reto da peça (puxando levemente na horizontal e na vertical: o sentido que menos estica é o fio reto/urdume).",
+      "2. Posicione a entretela no avesso respeitando a mesma orientação de estabilidade.",
+      "3. Enquadre a peça no bastidor de modo que as linhas retas do desenho fiquem paralelas ao fio reto do tecido.",
+      "4. Ajuste a tensão do parafuso com o tecido relaxado em seu sentido natural.",
+      "5. A agulha penetra respeitando a ortogonalidade das fibras têxteis.",
+      "6. As forças de repuxo são absorvidas pelos fios fortes do urdume sem distorcer o tecido.",
+      "7. Ao soltar do bastidor e lavar a peça, a roupa não 'entorta' e a barra continua perfeitamente alinhada."
     ],
-    "mainTypes": [
-      "Direção Orgânica / Naturalista (Acompanha a anatomia de flores, animais e pessoas)",
-      "Direção Geométrica / Técnica (Alinhada a eixos rígidos em logotipos e emblemas)",
-      "Direção Texturizada (Múltiplas orientações para simular tecidos e relevos)"
+    "beginnerExplanation": "Você já comprou uma camiseta barata que, depois da primeira lavagem, a costura da lateral rodou e foi parar no meio da barriga? Isso acontece porque foi cortada fora do fio do tecido! No bordado é igual: todo tecido de pano tem um lado que não estica nada (o fio reto) e um lado que estica um pouquinho. Quando a gente coloca a peça no bastidor retinha acompanhando o fio que não estica, a máquina borda firme e a roupa nunca fica torta nem deforma quando a cliente lavar!",
+    "applications": [
+      "Bordados em camisas sociais masculinas, jalecos e vestidos de alfaiataria",
+      "Alinhamento em tecidos listrados, xadrez e linhos onde qualquer desvio salta aos olhos",
+      "Enquadramento de barras de toalhas e lençóis de cama para manter bainhas retas"
     ],
-    "advantages": [
-      "✔ Confere riqueza estética de alto padrão e visual de alta costura",
-      "✔ Separa visualmente diferentes partes do desenho mesmo com a mesma cor de linha",
-      "✔ Cria sensação de movimento e vida sem necessidade de matrizes pesadas"
-    ],
-    "limitations": [
-      "O excesso de direções desordenadas em uma única matriz pode gerar poluição visual e perda de harmonia."
+    "matrixRelations": [
+      "Compensação de Repuxo: No sentido da trama (que estica mais), a compensação deve ser aumentada em 15%.",
+      "Escolha da Entretela: Tecidos enquadrados no viés exigem entretela recortável (Cut-Away) multidirecional.",
+      "Gabarito de Centro: As miras do gabarito plástico devem casar com o paralelismo dos fios da peça."
     ],
     "commonErrors": [
-      "❌ Usar a mesma direção em tudo, deixando o desenho chapado e sem vida.",
-      "❌ Mudar direções aleatoriamente sem critério estético ou funcional.",
-      "❌ Avaliar a direção apenas no monitor sem verificar a incidência real de luz no tecido."
+      "Colocar a roupa no bastidor toda torta em diagonal (no viés), fazendo o bordado repuxar e entortar a peça inteira",
+      "Puxar o tecido pelas beiradas depois de apertar o bastidor, entortando o alinhamento dos fios",
+      "Não conferir o sentido da ourela em cortes de tecido solto para jogos americanos",
+      "Usar entretela rasgável comum em peças que foram enquadradas fora do fio reto"
     ],
-    "voceSabia": "No bordado computadorizado de alta costura, a direção dos pontos funciona exatamente como as pinceladas de uma pintura clássica: o artista direciona a pincelada para transmitir textura, sombra e emoção!",
-    "curiosidadeTecnica": "A tabela de orientação clássica do DIBE sugere: Folhas = direção longitudinal; Pétalas = acompanhando a curvatura; Caules = sentido do eixo; Letras = ditadas pela anatomia da tipografia; Fundo = diagonal a 45°.",
-    "dicaArtrelados": "Olhe para cada objeto do desenho e pergunte: 'Se eu estivesse desenhando essa forma com um lápis, para onde naturalmente faria meus traços?' Essa pergunta simples é a melhor bússola para definir a direção perfeita do bordado!",
-    "applications": [
-      "Bordados florais, animais, monogramas finos, moda festa e brasões heráldicos."
+    "howToIdentify": [
+      "A barra da camisa ou toalha ficando retorcida ou inclinada após sair do bastidor",
+      "Listras ou linhas do tecido aparecendo tortas por baixo das letras do bordado",
+      "O desenho ficando ovalado quando deveria ser um círculo perfeito por deformação no sentido da elasticidade"
     ],
     "troubleshootingTips": [
-      "Se um bordado monocromático (de uma só cor) estiver parecendo um 'bloco plano', varie as direções dos objetos para criar relevo com a luz."
+      "Dê um puxãozinho suave no tecido com os dedos: o sentido mais firme e rígido é sempre o urdume (fio reto).",
+      "Use sempre régua de esquadro alinhada com a costura original da roupa antes de fechar o bastidor.",
+      "Nunca 'puxe' o tecido para esticar depois que o parafuso do bastidor começou a apertar."
     ],
+    "dicaArtrelados": "O Teste da Puxadinha nos Dedos Artrelados: Antes de montar qualquer peça no bastidor, faça o teste da puxadinha: puxe o tecido na vertical e na horizontal entre os dedos. O lado que estiver bem firme e não esticar nada é o fio reto! Monte a sua peça com esse fio retinho alinhado com as marcas plásticas do bastidor. Fazendo isso, sua peça nunca torce e o cliente tem roupa impecável por anos!",
+    "voceSabia": "A regra de seguir o fio reto (Grainline) é a mais antiga lei da alfaiataria mundial, documentada pela primeira vez nos estatutos das corporações de mestres alfaiates de Paris no reinado de São Luís em 1268, onde cortar ou bordar peças fora do fio era punido com multas pesadas!",
+    "practicalExercise": "Pegue um retalho de tecido xadrez. Enquadre no bastidor alinhando as listras exatamente sobre as linhas guias do aro. Borde um círculo de satim: comprove como o paralelismo com os fios do tecido resulta em um encaixe visual cirúrgico e elegante.",
+    "quickSummary": "Metodologia de enquadramento que alinha o sentido do bordado ao urdume (fio reto) do tecido para neutralizar deformações elásticas e torções após a lavagem.",
     "relatedTerms": [
-      "Direção do Ponto",
+      "Colocação no Bastidor (Hooping)",
+      "Gabarito de Bastidor",
+      "Compensação de Repuxo",
       "Direção de Costura",
-      "Ponto Satin",
-      "Ponto de Preenchimento"
+      "Alinhamento de Contorno"
     ],
-    "tags": [
-      "d-014",
-      "direcao do bordado",
-      "design",
-      "estetica",
-      "volume",
-      "luz",
-      "artrelados"
-    ],
-    "updatedAt": "2026-08-19",
-    "origin": "Do latim directio (alinhamento, sentido) e do árabe al-burdā (bordado). No planejamento de ateliê, refere-se à orientação espacial e ergonômica da peça no bastidor em relação ao operador da máquina.",
-    "beginnerExplanation": "Direção do bordado é a orientação geral do desenho no bastidor (se o desenho vai ficar em pé, de cabeça para baixo ou deitado de lado). Girar a matriz no ângulo certo antes de colocar no bastidor facilita na hora de encaixar camisetas polo, bolsos ou toalhas sem estragar a peça.",
-    "practicalExercise": "Pegue uma toalha de lavabo com barra de etamine ou tecido plano. No painel da sua máquina, gire a matriz em 90° e 180° e observe como o bastidor se posiciona em relação ao corpo da máquina. Escolha a orientação que permita ao volume restante da toalha ficar solto para fora da máquina, sem ficar embolado no braço livre.",
-    "quickSummary": "Direção do bordado é a orientação espacial do desenho no bastidor e no espaço de trabalho da máquina para facilitar o manuseio e a estética da peça.",
-    "bibliographicReferences": [
-      "TAJIMA. Hooping Orientation and Garment Clamping Guide. Nagoya, 2022.",
-      "BROTHER. Embroidery Orientation & Hoop Alignment Manual. Nagoya, 2023.",
-      "ARTRELADOS. Posicionamento Estratégico de Peças no Bastidor. São Paulo, 2024."
-    ],
-    "letter": "D"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "d-012-direcao-do-ponto",
-    "code": "D-012",
-    "term": "Direção do Ponto",
-    "level": "Iniciante 🟢",
-    "grammarClass": "Locução nominal formada pelos substantivos direção e ponto.",
+    "code": "D-106",
+    "letter": "D",
+    "term": "Direção do Ponto Satim e Reflexo de Luz (Satin Stitch Angle & Specular Lustre)",
+    "level": "Fundamental 🟢",
     "category": "Programação de Bordado",
-    "summary": "Orientação e sentido angular em que os pontos são posicionados dentro de determinado objeto da matriz.",
-    "definition": "A direção do ponto indica o sentido ou a orientação em que os pontos são organizados para preencher ou formar uma determinada área do bordado. As passagens de linha podem ser dispostas horizontalmente, verticalmente, diagonalmente ou em ângulos curvilíneos. A direção escolhida interfere diretamente na aparência visual, no brilho da linha e no comportamento físico do tecido.",
-    "technicalDetails": "Definida em graus (0° a 360°) no software. A direção dos pontos determina o sentido do encolhimento do tecido (Pull) e da expansão perpendicular (Push). Além disso, modifica a reflexão da luz na superfície filamentar do fio de poliéster ou rayon.",
-    "construction": [
-      "Linha diretriz angular (Stitch Angle Line)",
-      "Pontos de penetração alinhados ao ângulo",
-      "Variação angular em colunas curvas",
-      "Compensação ajustada conforme a direção"
-    ],
+    "grammarClass": "Locução nominal técnica. Do inglês satin stitch angle and light reflection.",
+    "origin": "Princípio da física óptica aplicado à computação gráfica de matrizes para modular o brilho cintilante de filamentos de poliéster e viscose.",
+    "summary": "A orientação angular das colunas de ponto cheio (satim) que modula o brilho especular da linha sob a luz, criando volume óptico sem trocar de cor.",
+    "definition": "A direção do ponto satim e reflexo de luz (Satin Stitch Angular Orientation & Specular Reflection) refere-se ao ângulo micrométrico com que os pontos cheios transversais cruzam uma coluna vetorial. Como os fios de bordado (especialmente o poliéster trilobal e a viscose) são cilíndricos e brilhantes como pequenos espelhos, a luz incidente reflete perpendicularmente à direção do ponto: pontos orientados em ângulos diferentes refletem a luz em momentos distintos, permitindo à programadora criar efeitos deslumbrantes de relevo 3D, sombras naturais e dinamismo visual entre pétalas vizinhas utilizando exatamente o mesmo cone de linha.",
+    "technicalDetails": "Física óptica aplicada ao ponto satim:\n• Reflexão Especular: Ocorre no plano ortogonal (a 90°) em relação à direção da laçada do fio;\n• Ângulo de Contraste Ótico: Diferença mínima de 30° a 45° entre pétalas vizinhas para que uma brilhe enquanto a outra faz meia-sombra;\n• Colunas Curvas (Turning Satin): Inserção de linhas guias angulares em curva para que o ponto acompanhe o contorno da figura;\n• Espessura Segura de Coluna: Entre 2,0 mm e 8,0 mm para garantir reflexão contínua sem quebrar a linha.",
     "howItWorks": [
-      "1. O programador traça uma ou mais guias de ângulo dentro da forma.",
-      "2. A máquina executa os pontos orientando as passagens paralelamente a essa diretriz.",
-      "3. A luz incide sobre a linha refletindo o brilho conforme o ângulo estabelecido.",
-      "4. As forças de tração do fio atuam no tecido no mesmo sentido da direção do ponto."
+      "1. No software de matrizes, selecione uma coluna de ponto cheio (satim) de uma folha ou pétala.",
+      "2. Insira múltiplos nós angulares ao longo do comprimento da peça (ferramenta Turning Stitch Angle).",
+      "3. Conforme a folha faz a curva, os pontos satim giram suavemente em leque.",
+      "4. Na pétala ao lado, programe os pontos inclinados no sentido oposto.",
+      "5. A máquina borda as duas pétalas com o mesmo cone de linha verde ou vermelha.",
+      "6. Ao retirar a peça e movimentá-la sob a lâmpada do ateliê ou a luz do sol:",
+      "7. Uma pétala cintila intensamente enquanto a outra ganha profundidade aveludada.",
+      "8. O desenho parece esculpido à mão em relevo tridimensional sem nenhum ponto extra de máquina."
     ],
-    "mainTypes": [
-      "Direção Horizontal (90° ou 270°)",
-      "Direção Vertical (0° ou 180°)",
-      "Direção Diagonal (geralmente 45° ou 135°)",
-      "Direção Radial / Anatômica (acompanha contornos de pétalas, folhas e curvas)"
+    "beginnerExplanation": "Sabe quando você vê o bordado de uma rosa vermelha e parece que ela tem pétalas brilhando no sol e pétalas fazendo sombra no fundo, mas quando você olha na máquina ela usou um cone só de linha vermelha? Isso acontece por causa da direção do ponto satim! Como a linha de bordar brilha como seda, se você colocar os pontinhos deitados para a esquerda eles refletem a luz de um jeito; se colocar deitados para a direita, refletem de outro jeito! É a própria luz que 'pinta' o relevo da sua flor!",
+    "applications": [
+      "Bordados florais botânicos, rosas, orquídeas e folhas provençais realistas",
+      "Monogramas cursivos onde as curvas das letras precisam acompanhar o traçado manuscrito",
+      "Penas de pássaros, pelagens de animais e asas de borboletas com brilho iridescente"
     ],
-    "advantages": [
-      "✔ Cria contrastes ricos, relevo e sensação de volume sem trocar a cor da linha",
-      "✔ Acompanha as formas naturais do desenho (nervuras de folhas, pétalas e penas)",
-      "✔ Permite equilibrar e neutralizar as forças de repuxamento sobre a trama do tecido"
-    ],
-    "limitations": [
-      "Direções perfeitamente paralelas às tramas do tecido tendem a afundar e sumir se não houver underlay adequado."
+    "matrixRelations": [
+      "Turning Satin (Satim Curvo): Guias angulares dinâmicas que evitam que o ponto fique amassado nas curvas.",
+      "Densidade de Ponto: Em ângulos de leque muito fechados, ative o filtro de densidade fracionada para não embolar nós.",
+      "Compensação de Repuxo: O satim repuxa na largura e estica no comprimento; compense 0,35 mm lateralmente."
     ],
     "commonErrors": [
-      "❌ Usar a mesma direção em todos os objetos de um desenho, deixando o bordado plano e monótono.",
-      "❌ Confundir direção do ponto com densidade (são conceitos totalmente distintos).",
-      "❌ Mudar de direção sem motivo técnico ou estético, criando um aspecto confuso."
+      "Programar todos os pontos satim da matriz na mesma direção horizontal reta, deixando o desenho plano e sem vida",
+      "Fazer curvas fechadas com satim reto, abrindo buracos triangulares de tecido no lado externo da curva",
+      "Acumular pontos na parte interna de curvas em leque sem usar a redução automática de densidade interna",
+      "Usar satim com mais de 10 mm de comprimento de ponto, criando fios compridos frouxos que enroscam nos dedos"
     ],
-    "voceSabia": "Duas áreas bordadas exatamente com o mesmo cone de linha e na mesma densidade parecerão ter cores diferentes se uma estiver a 45° e a outra a 135°, devido à reflexão da luz na linha!",
-    "curiosidadeTecnica": "Direção do ponto, direção de costura e direção do bordado são conceitos distintos: direção do ponto é a orientação angular da linha; direção de costura é o percurso da máquina; direção do bordado é a orientação geral da composição.",
-    "dicaArtrelados": "Não pense na direção dos pontos apenas como 'horizontal ou vertical'. Pense nela como uma ferramenta para desenhar com linha! Ao observar uma matriz, pergunte: 'A direção dos pontos ajuda a mostrar a forma e o volume desse objeto?'",
-    "applications": [
-      "Preenchimentos de folhas, pétalas, rostos, letras em Satin, brasões e pelagens de animais."
+    "howToIdentify": [
+      "O bordado parecendo uma figura de papel chapada sem nenhuma sensação de profundidade ou volume",
+      "Falhas brancas de tecido aparecendo na parte externa de curvas de letras ou pétalas",
+      "Nó grosso e empelotado de linha no lado interno de curvas fechadas que quebra a agulha"
     ],
     "troubleshootingTips": [
-      "Se um círculo bordado estiver virando um formato oval no tecido, incline a direção do preenchimento para 45° e reforce o underlay."
+      "Use sempre a ferramenta de satim com guias de curva (Turning Satin / Column A/B) para que os pontos façam o leque perfeito.",
+      "Ative a opção 'Auto-Spacing / Density Smoothing' para alívio automático de densidade na curva interna.",
+      "Ao bordar letras: faça com que o satim cruze a haste sempre a 90° em relação à direção da linha da letra."
     ],
+    "dicaArtrelados": "O Segredo da Folha Dividida ao Meio Artrelados: Quer fazer uma folhinha verde parecer que saltou de uma revista de luxo com apenas um cone de linha? Desenhe a folha dividida em duas metades: na metade de cima, aponte os pontos inclinados a 45 graus para a ponta; na metade de baixo, aponte a 135 graus para a base! Quando a luz bater na toalha, uma metade brilha e a outra faz sombra natural. Parece pintura de artista feita em 2 minutos!",
+    "voceSabia": "A técnica de esculpir volumes através da direção dos pontos é chamada na alta-costura francesa de 'Ombré Spéculaire' (Sombra Especular), sendo o segredo mais bem guardado dos bordadores da Maison Lesage em Paris para bordar os vestidos de alta costura da Chanel!",
+    "practicalExercise": "No seu software, desenhe uma folha simples dividida ao meio com ângulos opostos em cada lado. Borde em um retalho com linha verde brilhante: incline a peça de um lado para o outro sob o abajur e veja a luz 'viajar' pelas duas metades da folha com realismo cinematográfico.",
+    "quickSummary": "Orientação angular calculada das colunas de ponto cheio (satim) que modula a reflexão da luz sobre os filamentos para criar relevo óptico e profundidade natural.",
     "relatedTerms": [
-      "Direção de Costura",
-      "Direção do Bordado",
-      "Ângulo do Ponto",
-      "Densidade de Pontos",
-      "Ponto Satin"
+      "Ponto Satim (Satin Stitch)",
+      "Brilho da Linha e Refração Óptica",
+      "Compensação de Repuxo",
+      "Software de Programação (Digitizing)",
+      "Bordado Monocromático"
     ],
-    "tags": [
-      "d-012",
-      "direcao do ponto",
-      "angulo",
-      "brilho",
-      "reflexao",
-      "volume",
-      "artrelados"
-    ],
-    "updatedAt": "2026-08-19",
-    "origin": "Do latim directio, -onis (ação de dirigir em linha reta, alinhamento), derivado de dirigere (guiar, endireitar), e de punctum (ponto).",
-    "beginnerExplanation": "Direção do ponto é a inclinação da linha no bordado (horizontal, vertical ou inclinada). A linha de bordado é brilhante: quando você muda a inclinação dos pontos, a luz reflete de forma diferente e faz parecer que você usou dois tons de cores, além de dar volume e relevo ao desenho!",
-    "practicalExercise": "Crie dois retângulos iguais de 4cm x 2cm lado a lado usando a MESMA linha azul: no primeiro retângulo, coloque os pontos a 0° (horizontal); no segundo, coloque os pontos a 90° (vertical). Borde os dois no mesmo tecido: olhe a peça sob a luz da janela e veja a mágica da reflexão da luz fazendo os retângulos parecerem de cores diferentes!",
-    "quickSummary": "Direção do ponto é a inclinação angular das passagens de linha na matriz, responsável pela reflexão da luz, relevo e compensação de tração no tecido.",
-    "bibliographicReferences": [
-      "MADEIRA. Light Reflection and Thread Sheen in Rayon & Polyester. Freiburg, 2021.",
-      "WILCOM. Stitch Angles and Multi-Angle Object Mastery. Sydney: Wilcom, 2023.",
-      "ARTRELADOS. O Poder do Brilho e Direção dos Pontos na Composição Visual. São Paulo, 2024."
-    ],
-    "letter": "D"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "d-044-discos-de-tensao",
-    "code": "D-044",
-    "term": "Discos de Tensão (Tension Discs)",
+    "code": "D-108",
+    "letter": "D",
+    "term": "Discos de Tensão (Limpeza, Assentamento e Teste do Fio Dental)",
     "level": "Fundamental 🟢",
-    "category": "Componentes da Máquina",
-    "grammarClass": "Substantivo masculino composto.",
-    "origin": "Do latim discus (disco plano circular) e tensio, -onis (ato de esticar, esforço de tração). Mecanismo de frenagem mecânica por atrito contínuo desenvolvido na primeira Revolução Industrial têxtil.",
-    "summary": "Par de pratos côncavos metálicos prensados por mola helicoidal que aplica resistência e calibra o fluxo da linha superior.",
-    "definition": "Os discos de tensão são dois pratos metálicos espelhados, de formato côncavo-convexo montados face a face sobre um eixo no cabeçote da máquina de bordar. Pressionados por uma mola helicoidal calibrada por um botão giratório micrométrico ou solenoide eletrônico, eles exercem uma força de compressão controlada sobre a linha superior conforme ela desliza entre eles, garantindo que o fio chegue à agulha com a resistência exata para a formação de pontos firmes e sem laçadas.",
-    "technicalDetails": "Fabricados em aço inoxidável retificado ou com revestimento cerâmico antiaderente. A força de aperto varia de 80gf a 150gf para linhas de poliéster 120/40wt. Inclui pino central de liberação que afasta os discos automaticamente quando o calcador é levantado.",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução nominal técnica. Do latim discus e tensio.",
+    "origin": "Componente fundamental de controle de ponto presente desde as primeiras máquinas mecânicas de costura do século XIX, refinado para sistemas computadorizados de alta velocidade.",
+    "summary": "Procedimento e cuidados essenciais de manutenção, limpeza de ceras residuais e teste de assentamento do fio entre os pratinhos de tensão.",
+    "definition": "Os discos de tensão (Tension Discs Maintenance & Floss Cleaning Protocol) são os pares de lâminas côncavas espelhadas montadas face a face que comprimem a linha superior para gerar a resistência mecânica necessária à formação da laçada com a bobina. Com o tempo e o atrito de milhares de metros de linha de bordar, ceras lubrificantes do fio, micropoeiras de poliéster e restos de adesivo spray se acumulam e endurecem entre os pratinhos, impedindo que eles se fechem completamente e causando perda fantasma de tensão. O protocolo exige limpeza periódica com fio dental sem cera e checagem de assentamento profundo na montagem.",
+    "technicalDetails": "Procedimentos de manutenção e controle dos discos de tensão:\n• Diagnóstico do Teste do Fio Dental: Passagem de 30 cm de fio dental comum sem cera entre os discos abertos para 'varrer' fiapos ocultos;\n• Geometria de Montagem: Discos montados com as faces convexas voltadas para fora e côncavas voltadas para dentro (formato de prato fundo confrontado);\n• Acúmulo Típico: Resíduos de parafina e silicone protetivo que revestem as linhas de bordar industriais;\n• Sintoma Primário de Sujeira: A máquina fica com a linha superior frouxa mesmo com o botão de tensão no número máximo.",
     "howItWorks": [
-      "1. A linha superior desce da barra guia e é inserida no vão entre os dois pratos metálicos espelhados.",
-      "2. A mola helicoidal aplica pressão radial constante sobre a face externa do disco móvel.",
-      "3. O atrito de contato freia suavemente o desenrolar do fio, gerando a tensão dinâmica necessária.",
-      "4. Ao girar o dial numérico (ou ajustar o valor digital no painel), a mola é mais comprimida (tensão maior) ou aliviada (tensão menor)."
+      "1. Desligue a máquina e levante a alavanca do pé calcador para abrir a fenda dos discos de tensão.",
+      "2. Pegue um pedaço de 30 cm de fio dental comum (obrigatoriamente sem cera / Unwaxed Floss).",
+      "3. Segure as duas pontas do fio dental com as mãos e passe-o de cima para baixo na ranhura da tensão.",
+      "4. Faça movimentos suaves de vai-e-vem para a frente e para trás, 'escovando' as faces internas dos pratinhos.",
+      "5. Puxe o fio dental para fora: você verá pontinhos pretos ou amarelados de poeira e parafina grudados nele.",
+      "6. Aplique um sopro de ar seco para expulsar qualquer partícula solta.",
+      "7. Passe a linha de bordar normalmente certificando-se de que ela desceu até o fundo dos pratinhos.",
+      "8. Abaixe o calcador: os discos se fecham 100% planos e a tensão volta a funcionar perfeitamente."
     ],
-    "beginnerExplanation": "São dois pratinhos de metal brilhantes que ficam escondidos dentro da máquina e funcionam como um 'freio' para a linha. Eles seguram a linha nem muito apertada nem muito frouxa, garantindo que o bordado fique perfeito na frente e no avesso.",
+    "beginnerExplanation": "Sabe quando você coloca a tensão da máquina no número 4, depois no 6, depois no 9 e parece que nada muda, e a linha de cima continua frouxa fazendo aquele ninho horrível de linha no avesso do bordado? Muitas vezes não é a máquina que quebrou! É apenas uma sujeirinha de cera ou um fiapinho invisível de linha que ficou entalado entre os dois pratinhos de metal, impedindo eles de encostarem um no outro! O truque mais genial de oficina para resolver isso em 10 segundos sem desmontar nada é passar um pedaço de fio dental entre os pratinhos!",
     "applications": [
-      "Regulagem de tensão para linhas comuns de poliéster e viscose",
-      "Calibração suave para fios frágeis (linhas metálicas e filamentos de seda)",
-      "Ajuste de equilíbrio entre linha superior e linha da bobina (regra de 1/3 no avesso)",
-      "Compensação de atrito em altas velocidades de produção (800 a 1000 PPM)"
+      "Resolução imediata de problemas de linha superior frouxa em ateliês",
+      "Manutenção preventiva mensal para garantir estabilidade de tensão em qualquer linha",
+      "Limpeza rápida de canais de tensão após o uso acidental de linhas desfiadas ou de baixa qualidade"
+    ],
+    "matrixRelations": [
+      "Equilíbrio de Ponto no Avesso: Discos limpos garantem a faixa perfeita de 1/3 de carretilha branca.",
+      "Tensão de Entrada: A linha deve entrar no canal com ângulo reto para não escapar da borda dos discos.",
+      "Dinamômetro Towa: A limpeza dos discos restaura a leitura linear correta no medidor superior."
     ],
     "commonErrors": [
-      "Passar a linha com o calcador abaixado em máquinas domésticas, fazendo a linha não entrar dentro dos discos e ficar totalmente solta",
-      "Deixar fiapos de linha e restos de cola acumulados entre os discos, impedindo que os pratos fechem e gerando ninhos de linha gigantes por baixo da peça",
-      "Apertar o botão de tensão até o limite máximo, arrebentando a linha a cada 20 pontos e franzindo o tecido"
+      "Usar agulhas de metal, estiletes ou chaves de fenda para 'cutucar' a fenda da tensão, arranhando o espelho dos discos",
+      "Usar fio dental com cera ou mentolado, deixando uma película pegajosa dentro dos pratinhos que piora o problema",
+      "Passar produtos químicos corrosivos ou óleos lubrificantes dentro do canal da tensão",
+      "Tentar desmontar o bloco de tensão em casa sem conhecimento técnico, perdendo as molas internas"
+    ],
+    "howToIdentify": [
+      "A linha superior desce solta e sem resistência mesmo com o cursor de tensão no nível mais apertado",
+      "Bolo de linha embolada por baixo do tecido no primeiro segundo de bordado",
+      "Fio dental saindo escurecido e com pedacinhos de poeira sólida após a passagem na fenda"
     ],
     "troubleshootingTips": [
-      "Sempre passe a linha com o calcador totalmente LEVANTADO para que os discos estejam abertos para receber o fio",
-      "Limpe os discos passando um pedaço de linha grossa dobrada ou um fio dental sem cera entre os pratos para remover penugens",
-      "Ao passar a linha, puxe-a com as duas mãos para frente e para trás até sentir o clique e a resistência firme de encaixe"
+      "Use SEMPRE fio dental sem cera (Unwaxed) para fazer a limpeza rápida de canal de tensão.",
+      "Ao passar a linha: segure o cone de linha com a mão direita e passe a linha com a mão esquerda dando uma puxadinha firme para ela 'entrar' no fundo dos discos.",
+      "Faça a limpeza com fio dental a cada 3 meses ou sempre que a tensão parecer instável."
     ],
-    "dicaArtrelados": "Para saber se a linha entrou de verdade dentro dos discos de tensão na sua máquina doméstica, segure a linha perto do cone e puxe pela ponta da agulha: com o calcador levantado, a linha deve correr soltinha; quando você abaixa a alavanca do calcador, a linha precisa ficar pesada e firme na hora!",
-    "voceSabia": "Nas máquinas industriais modernas multicabeças mais avançadas, os tradicionais discos de tensão acionados por mola foram substituídos por tensores digitais comandados por servomotores magnéticos, que recalculam a pressão dos discos ponto a ponto de acordo com o sentido do bordado.",
-    "practicalExercise": "Com a máquina desligada e calcador levantado, passe a linha no cabeçote. Abaixe o calcador e puxe a linha na ponta da agulha para sentir a resistência: gire o botão de tensão do número 4 para o número 2 e puxe novamente para sentir a linha mais leve; gire para o número 6 e sinta o fio mais pesado. Volte para a regulagem padrão (3.5 a 4.0)!",
-    "quickSummary": "Dispositivo mecânico de pratos metálicos côncavos acionados por mola que regula a resistência e a tração da linha superior.",
+    "dicaArtrelados": "O Truque do Fio Dental sem Cera Artrelados: Guarde um rolinho de fio dental sem cera na gaveta da sua máquina de bordar! Toda vez que a máquina começar a laçar frouxo ou a dar bolo no avesso sem motivo, corte um pedaço de fio dental, levante o pezinho e passe na fenda da tensão como se estivesse passando fio dental nos dentes! Você vai ver as bolinhas de cera e poeira saírem no fio e a tensão da sua máquina volta a ficar novinha em folha na mesma hora!",
+    "voceSabia": "A linha de bordar de poliéster passa pelas fábricas por um banho de silicone e emulsão de cera vegetal para deslizar em alta velocidade sem superaquecer; essa cera microscópica vai se soltando e se compacta nos discos de tensão após cerca de 500 mil pontos bordados!",
+    "practicalExercise": "Pegue um pedaço de fio dental sem cera. Com o calcador levantado, passe na fenda de tensão da sua máquina em movimentos de vai-e-vem. Olhe o fio contra a luz: veja as micro-partículas de poeira têxtil capturadas e sinta a diferença de aderência da linha depois.",
+    "quickSummary": "Procedimento essencial de limpeza e desobstrução de resíduos de cera e fiapos entre os pratinhos de tensão através do teste do fio dental sem cera.",
     "relatedTerms": [
-      "Controle de Tensão da Linha",
-      "Barra de Tensão dos Fios",
-      "Brilho da Linha",
-      "Bobbin Thread (Linha da Bobina)"
+      "Disco de Tensão com Mola Cônica Progressiva",
+      "Tensão de Linha Superior",
+      "Dinamômetro Têxtil Towa",
+      "Manutenção Preventiva de Máquinas",
+      "Equilíbrio de Ponto no Avesso"
     ],
-    "tags": [
-      "discos de tensão",
-      "tensão",
-      "regulagem",
-      "cabeçote",
-      "mecânica",
-      "linha superior"
-    ],
-    "bibliographicReferences": [
-      "BROTHER. Upper Thread Tension Disc Assembly & Calibration Manual. Nagoya: Brother, 2022.",
-      "TAJIMA. Tension Disc Maintenance, Cleaning and Gram-Force Gauging. Nagoya, 2023.",
-      "ARTRELADOS. O Segredo dos Discos de Tensão: Como Evitar Laçadas e Ninhos no Avesso. São Paulo: Artrelados, 2024."
-    ],
-    "updatedAt": "2026-08-19",
-    "letter": "D"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "d-095-dispositivo-adaptador-bone-fixador-borboleta-gabarito-13x18",
@@ -31317,14 +31256,14 @@
   },
   {
     "id": "d-035-distancia-de-salto",
-    "code": "D-035",
-    "term": "Distância de Salto (Jump Distance)",
-    "level": "Fundamental 🟢",
-    "grammarClass": "Locução nominal feminina.",
-    "category": "Programação de Bordado",
-    "summary": "Espaço percorrido pelo bastidor entre dois pontos sem formação de costura naquele trecho.",
-    "definition": "A distância de salto (Jump Distance) é o espaço percorrido pela máquina entre dois pontos ou regiões do bordado durante um movimento de salto, sem realizar costura contínua naquele trecho. De maneira simples: é a distância que a agulha precisa 'atravessar' quando sai de onde terminou um objeto e vai até onde começará o próximo.",
-    "technicalDetails": "Nos softwares e máquinas, existe um parâmetro limite de corte automático (geralmente calibrado entre 2.0mm e 5.0mm). Saltos menores que esse valor são realizados em movimento contínuo (deixando fio esticado para limpeza); saltos maiores acionam o comando mecânico de arremate e corte de linha.",
+    "code": "D-114",
+    "term": "Distância de Ponto para Salto Automático (Jump Stitch Length Threshold & Auto-Trim Trigger)",
+    "level": "Intermediário 🟡",
+    "grammarClass": "Substantivo feminino composto com locuções prepositivas e adjetivas",
+    "category": "Softwares e Formatos",
+    "summary": "Parâmetro digital que determina a distância mínima em milímetros a partir da qual o pantógrafo deve acionar o corte de linha em vez de saltar com o fio contínuo.",
+    "definition": "A Distância de Ponto para Salto Automático (também conhecida como Jump Length Threshold ou Limiar de Corte por Salto) é a configuração crítica definida no software de digitalização ou no painel da máquina de bordar que estipula o limite em milímetros entre dois pontos consecutivos para acionamento do corte de linha. Se a distância entre o final de um objeto e o início do próximo for menor que esse parâmetro (por exemplo, 2,0 mm entre letras minúsculas cursivas), a máquina desloca o pantógrafo mantendo a linha contínua em salto curto; se a distância for maior (por exemplo, 5,0 mm entre palavras diferentes), o sistema insere automaticamente um comando de corte (Trim) e arremate, deixando a peça limpa sem fios de ligação suspensos.",
+    "technicalDetails": "Em máquinas industriais, o parâmetro ideal de salto com corte situa-se entre 2,5 mm e 3,5 mm. Valores abaixo de 2,0 mm forçam ciclos desnecessários de corte de linha (desgastando o mecanismo e aumentando o tempo do ciclo em até 40%); valores acima de 7,0 mm obrigam a bordadeira a arrematar dezenas de fios suspensos à mão com tesoura tipo garça.",
     "construction": [
       "Vetor de deslocamento livre do pantógrafo",
       "Ponto de partida (saída do objeto anterior)",
@@ -31332,10 +31271,11 @@
       "Comutação entre salto livre e corte automático"
     ],
     "howItWorks": [
-      "1. A máquina conclui um objeto no ponto de saída.",
-      "2. Avalia se a distância até o próximo objeto ultrapassa o limite de corte configurado.",
-      "3. Se for menor: a agulha sobe e o bastidor se desloca diretamente deixando o fio esticado.",
-      "4. Se for maior: a máquina aciona o cortador, arremata e desloca-se com a linha cortada."
+      "O software calcula a distância euclidiana em linha reta entre as coordenadas X/Y do término de um elemento e a entrada do elemento subsequente.",
+      "O valor obtido é confrontado com o limiar configurado nas opções de exportação da matriz (geralmente entre 2,5 mm e 5,0 mm).",
+      "Se a distância for inferior ao limiar, a agulha sobe, o pantógrafo move-se sem perfuração e desce no novo local, mantendo a linha conectada.",
+      "Se a distância exceder o limiar, o software programa automaticamente nós de arremate final, executa o comando de corte com navalha e reinicia no próximo objeto com arremate inicial.",
+      "Nos painéis de máquinas modernas, esse parâmetro pode ser sobrescrito pelo operador conforme o tipo de peça a ser produzida."
     ],
     "mainTypes": [
       "Salto Curto com Conexão (1mm a 3mm - Não exige corte)",
@@ -31351,24 +31291,28 @@
       "Saltos longos deixados sem corte sobre tecidos claros geram fios visíveis que podem ser repuxados durante o uso se não forem aparados."
     ],
     "commonErrors": [
-      "❌ Confundir distância de salto com distância entre pontos normais de costura.",
-      "❌ Tentar eliminar absolutamente todos os saltos ou colocar corte em qualquer distância de 2mm.",
-      "❌ Ignorar saltos longos que cruzam áreas abertas do bordado."
+      "Configurar o limiar de salto em 1,0 mm em letreiros com milhares de micro-letras, fazendo a máquina cortar a linha 200 vezes em 10 minutos e superaquecendo o solenoide.",
+      "Deixar o limiar em 15 mm e bordar um logotipo corporativo que fica com cabos de aço de linha preta esticados por cima de camisas brancas.",
+      "Esquecer de programar pontos de arremate nos saltos com corte, fazendo as pontas das letras desmancharem na primeira lavagem."
     ],
-    "voceSabia": "Cada comando de corte automático de linha em uma máquina industrial leva de 2 a 4 segundos: em uma matriz com 50 cortes desnecessários, você perde mais de 3 minutos por peça apenas cortando linha!",
+    "voceSabia": "Nos anos 1960 e 1970, as matrizes de fitas perfuradas não tinham comandos de corte elétrico; as bordadeiras passavam horas no chão da fábrica com giletes cortando manualmente milhares de saltos de linha entre cada monograma!",
     "curiosidadeTecnica": "Ao simular a matriz no software, ative a visualização de 'Linhas de Conexão' (Connectors / Jump Lines) para enxergar todos os saltos em linhas pontilhadas vermelhas ou pretas.",
-    "dicaArtrelados": "Um bom bordado não depende apenas dos pontos que aparecem no tecido, mas também dos caminhos que a máquina percorre entre eles! Procure saltos longos na simulação como quem procura estradas desnecessárias em um mapa: se puder encurtar a rota, seu bordado ficará mais limpo e muito mais rápido!",
+    "dicaArtrelados": "No Ateliê Artrelados, nós calibramos o limiar de salto em 2,8 mm para bordados de enxoval de bebê! Assim, o espaço entre letrinhas cursivas viaja em ponto contínuo bem rentinho que a gente apara em 2 segundos com a tesoura de bico curvo, e os espaços entre nomes grandes cortam limpo sem deixar fiapo!",
     "applications": [
-      "Otimização de sequências de letras, separação de brasões, monogramas e produção em série."
+      "Bordado de frases longas, nomes compostos e versículos bíblicos.",
+      "Matrizes com pequenas estrelas ou poás espalhados por todo o bastidor.",
+      "Logotipos com textos auxiliares pequenos e ícones separados."
     ],
     "troubleshootingTips": [
-      "Se as letras estiverem conectadas por fios feios que você precisa cortar na tesourinha, reduza o valor do 'Comprimento de Salto para Corte' no software para 2.0mm."
+      "No seu software CAD, vá em Configurações de Conector / Saltos e defina a distância de corte padrão em 3,0 mm para bordados em geral.",
+      "Para letreiros cursivos elegantes, use a ferramenta 'Ramificação Automática (Branching)', que converte todos os saltos em costuras de ligação invisíveis por baixo dos pontos satim."
     ],
     "relatedTerms": [
-      "Ponto de Entrada",
-      "Ponto de Saída",
-      "Corte de Linha",
-      "Sequência de Pontos"
+      "Comando Trim",
+      "Jump Stitch",
+      "Branching (Ramificação)",
+      "Ponto de Conexão",
+      "Arremate Automático"
     ],
     "tags": [
       "d-035",
@@ -31380,27 +31324,47 @@
       "artrelados"
     ],
     "updatedAt": "2026-08-19",
-    "origin": "Do latim distantia (afastamento) e do germânico salti (salto, pulo mecânico sem perfuração de agulha). Comando mecânico primário dos formatos industriais de bordado.",
-    "beginnerExplanation": "Distância de salto é a distância que o bastidor percorre de um ponto a outro sem a agulha costurar (quando a máquina pula de uma letra para a próxima). Se o pulo for maior que a distância configurada, a máquina aciona o cortador de linha automático.",
-    "practicalExercise": "No painel da sua máquina ou no software, verifique o ajuste de corte por salto (geralmente regulado em 2.0mm a 5.0mm). Borde uma frase com letras cursivas: veja como nos saltos pequenos ela passa direto e nos saltos maiores ela corta a linha automaticamente.",
+    "origin": "Do latim distantia (espaço que separa dois pontos no espaço físico) e do inglês jump stitch threshold (limiar milimétrico de transição entre ponto corrido e deslocamento com corte).",
+    "beginnerExplanation": "É a regrinha que diz para a máquina: 'Se a próxima letra estiver pertinho (menos de meio centímetro), pule direto sem cortar a linha! Mas se a próxima palavra estiver longe, passe a tesoura e corte o fio antes de ir para lá!'. Isso economiza tempo e evita que a peça fique cheia de fiapos compridos!",
+    "practicalExercise": "Digite a palavra 'AMOR' no seu software com fonte de 15 mm. Altere a distância de salto para 10 mm (observe que nenhuma linha é cortada na simulação) e depois para 2 mm (veja os símbolos de corte surgindo entre cada letra).",
     "quickSummary": "Distância de salto é o deslocamento do bastidor entre objetos sem perfurações, gatilho para o acionamento do cortador de linha automático.",
     "bibliographicReferences": [
       "TAJIMA. Trimming Mechanisms and Jump Length Parameters. Nagoya, 2022.",
       "BROTHER. Jump Stitch Length and Automatic Thread Trimming. Nagoya, 2023.",
       "ARTRELADOS. Como Configurar Saltos e Eliminar Fiados de Linha na Produção. São Paulo, 2024."
     ],
-    "letter": "D"
+    "letter": "D",
+    "englishTerm": "Jump Stitch Length Threshold & Auto-Trim Distance Parameter",
+    "matrixRelations": [
+      {
+        "term": "Comando Trim (Corte Automático)",
+        "impact": "É disparado diretamente quando o deslocamento supera o valor estabelecido de salto."
+      },
+      {
+        "term": "Pontos de Trajetória Oculta (Travel Runs)",
+        "impact": "Permitem viajar por baixo de preenchimentos futuros, evitando tanto o salto visível quanto o corte de linha."
+      },
+      {
+        "term": "Velocidade Máxima do Pantógrafo",
+        "impact": "Durante o salto sem ponto, o pantógrafo acelera para reposicionamento rápido."
+      }
+    ],
+    "howToIdentify": [
+      "A peça sai da máquina com 'teias de aranha' de linhas compridas conectando todas as figuras e letras.",
+      "A máquina para a cada duas letras com comando de corte, tornando o bordado excessivamente demorado e barulhento.",
+      "O nó da linha desfaz no início da letra seguinte porque o salto com corte ocorreu sem amarração prévia."
+    ]
   },
   {
     "id": "d-020-distancia-de-seguranca",
-    "code": "D-020",
-    "term": "Distância de Segurança",
-    "level": "Fundamental 🟢",
-    "grammarClass": "Locução nominal formada por substantivo e locução adjetiva.",
-    "category": "Técnicas de Bastidor",
-    "summary": "Margem de espaço livre obrigatória mantida entre o desenho bordado e os limites físicos do bastidor ou da peça.",
-    "definition": "A distância de segurança é a margem de espaço livre mantida entre a área que será bordada e determinados limites físicos que não devem ser ultrapassados pela agulha ou pelo pé-calcador. Esses limites compreendem a borda plástica do bastidor, os limites de fim de curso da máquina, costuras grossas da peça, botões, zíperes e bainhas.",
-    "technicalDetails": "Recomenda-se uma margem mínima de segurança de 10mm a 15mm entre o contorno mais externo do desenho e a borda interna do aro do bastidor para evitar colisões catastróficas do pé-calcador com o aro.",
+    "code": "D-115",
+    "term": "Distância de Segurança e Margem de Borda do Bastidor (Hoop Guard Clearance & Frame Margin Safety Protocol)",
+    "level": "Iniciante 🟢",
+    "grammarClass": "Substantivo feminino composto com locuções prepositivas e adjetivas",
+    "category": "Bastidores e Fixação",
+    "summary": "Margem de folga mínima milimétrica obrigatória entre o limite externo da matriz e o aro plástico ou metálico do bastidor para evitar choques mecânicos do pé calcador.",
+    "definition": "A Distância de Segurança e Margem de Borda do Bastidor é o perímetro de afastamento milimétrico obrigatório (habitualmente de 10 mm a 15 mm nas bordas e 20 mm próximo às travas e parafusos) que deve ser respeitado entre as pontadas mais externas de uma matriz e a parede física do aro interno do bastidor. Esse espaço de tolerância garante que, durante os deslocamentos rápidos do pantógrafo e descidas da barra de agulha, o pé calcador articulado e a abraçadeira da agulha jamais colidam violentamente com a borda de plástico rígido ou suportes metálicos do aro, protegendo engrenagens internas, motores de passo e o eixo do cabeçote contra descalibração e quebra estrutural.",
+    "technicalDetails": "A margem de segurança mínima recomendada é de 10 mm para bastidores planos tradicionais de parafuso e de 20 mm para bastidores cilíndricos de boné e bastidores magnéticos com presilhas altas. Além do pé calcador, deve-se atentar à trajetória do parafuso frontal da barra de agulha, cuja projeção horizontal pode colidir com a lateral do bastidor mesmo que o calcador passe livre.",
     "construction": [
       "Área total nominal do bastidor",
       "Área útil real de bordado (Safe Zone)",
@@ -31408,9 +31372,11 @@
       "Espaçamento em relação a zíperes e bainhas"
     ],
     "howItWorks": [
-      "1. O operador verifica o tamanho total da matriz no software.",
-      "2. Escolhe um bastidor cuja área útil contenha o bordado mais a margem de segurança.",
-      "3. Realiza o teste de rastreio (Trace) na máquina antes de costurar para validar a folga."
+      "O software de bordado ou o painel digital projeta o campo útil bordável subtraindo a margem de segurança do diâmetro total nominal do bastidor.",
+      "Quando a matriz é carregada, o sistema operacional da máquina verifica se as coordenadas máximas X/Y cabem dentro da área de segurança.",
+      "Se o desenho ultrapassar esse limite ou chegar a menos de 5 mm do aro, um alarme de 'Limite de Bastidor Excedido' impede o início do trabalho.",
+      "O operador utiliza o botão de rastreamento (Trace / Check Size) para fazer a máquina percorrer o perímetro retangular externo sem costurar.",
+      "Durante o trace, o operador confirma visualmente que o calcador mantém uma folga confortável de pelo menos um dedo em relação a todas as quatro paredes do bastidor."
     ],
     "mainTypes": [
       "Distância de Segurança do Bastidor (Protege pé-calcador e agulha)",
@@ -31426,24 +31392,28 @@
       "Reduz ligeiramente o tamanho máximo do bordado em relação à medida externa nominal do bastidor."
     ],
     "commonErrors": [
-      "❌ Bordar uma matriz de 13x18cm em um bastidor nominal de 13x18cm sem folga de segurança.",
-      "❌ Posicionar o desenho colado na bainha de uma toalha dificultando o fechamento do aro.",
-      "❌ Não executar o rastreio prévio (Trace) no painel antes de disparar o bordado."
+      "Dimensionar a matriz exatamente no tamanho do bastidor (ex: colocar um desenho de 13,0 x 18,0 cm em um bastidor 13x18 cm), fazendo o calcador bater em cheio na quina do plástico.",
+      "Não fazer a conferência visual do Trace antes de apertar o botão verde de Start, confiando apenas no display digital.",
+      "Posicionar presilhas plásticas ou prendedores de tecido (clips) na linha de trajetória do pantógrafo, causando batida mecânica."
     ],
-    "voceSabia": "Quando o pé-calcador bate na borda do bastidor em velocidade de 800 PPM, o impacto pode desregular o ponto de sincronismo da lançadeira (timing), exigindo visita de assistência técnica!",
+    "voceSabia": "Uma colisão a 800 pontos por minuto entre o cabeçote e o aro de plástico do bastidor pode exercer um impacto mecânico equivalente a mais de 35 kgf na ponta da barra de agulha, suficiente para empenar o eixo de transmissão de aço endurecido!",
     "curiosidadeTecnica": "O DIBE recomenda a regra das 3 Zonas de Bastidor: Zona Verde (Área recomendada central), Zona Amarela (Próxima ao limite) e Zona Vermelha (Margem de risco proibida).",
-    "dicaArtrelados": "Nunca planeje um bordado olhando apenas para o tamanho nominal do bastidor! Planeje olhando para a área útil, para a peça e para o posicionamento final. Antes de iniciar, pergunte: 1. O desenho cabe? 2. Está bem posicionado? 3. Existe margem de segurança? Se os três forem sim, borde com tranquilidade!",
+    "dicaArtrelados": "Regra de ouro da Janete: 'Nunca borde no limite da régua!'. Se o seu bastidor é 13x18 cm, considere que o seu campo de ouro é de no máximo 12x17 cm! Esse 1 cm de folga salva o motor de passo da sua máquina, garante que o tecido fique esticado por igual e evita aquele susto horrível do calcador batendo no plástico!",
     "applications": [
-      "Montagem de bastidores, enquadramento de matrizes, bordado de bonés e toalhas."
+      "Configuração inicial de matrizes de tamanho grande que ocupam quase todo o bastidor 13x18 ou 16x26 cm.",
+      "Centralização de monogramas e nomes em toalhas de lavabo.",
+      "Bordados em bastidores magnéticos e bastidores de boné com presilhas metálicas elevadas."
     ],
     "troubleshootingTips": [
-      "Se o desenho estiver a menos de 1cm da borda do bastidor, mude para o bastidor imediatamente maior ou reduza proporcionalmente a matriz em 5%."
+      "Se a matriz estiver ultrapassando o limite em poucos milímetros, abra a função de redimensionamento no painel e reduza o desenho em 5% ou 10% mantendo a proporção travada.",
+      "Se precisar bordar o desenho no tamanho original, troque imediatamente para o bastidor do tamanho seguinte (ex: passe do 13x18 para o 16x26 ou 20x30 cm)."
     ],
     "relatedTerms": [
-      "Área Útil do Bastidor",
-      "Bastidor",
-      "Deslocamento da Matriz",
-      "Posicionamento do Bordado"
+      "Área Útil de Bordado",
+      "Função Trace (Rastreamento)",
+      "Bastidor Magnético",
+      "Pé Calcador",
+      "Campo de Bordado"
     ],
     "tags": [
       "d-020",
@@ -31454,16 +31424,36 @@
       "artrelados"
     ],
     "updatedAt": "2026-08-19",
-    "origin": "Do latim distantia (afastamento) e securitas, -atis (estado de segurança, livre de perigo, de securus, seguro). Norma ergonômica e mecânica fundamental de operação.",
-    "beginnerExplanation": "Distância de segurança é o espaço livre que você deve deixar entre o desenho do bordado e o aro de plástico do bastidor (geralmente pelo menos 1 a 2 centímetros). Se você bordar muito perto da borda do bastidor, o pé da agulha pode bater no plástico e quebrar a máquina!",
-    "practicalExercise": "Coloque um bastidor vazio na máquina e leve o pantógrafo até o limite máximo do campo de bordado. Observe com os olhos a distância que sobra entre o pé-calcador da máquina e a borda interna de plástico do bastidor: memorize essa folga de segurança para nunca encostar matrizes na borda.",
+    "origin": "Do latim securitas (livre de perigo, proteção contra acidentes) e do francês bord (beirada, margem). No vocabulário da bordadeira, é o limite de distância que protege a máquina de colisões mecânicas fatais.",
+    "beginnerExplanation": "É a sua 'distância de não bater o carro'! Nunca coloque um bordado encostado na beirada de plástico do bastidor! A máquina precisa de pelo menos 1 a 1,5 cm de respiro para que o pezinho de metal não bata na parede plástica e quebre a agulha na sua cara!",
+    "practicalExercise": "Coloque um bastidor vazio na sua máquina. Carregue um desenho e faça o teste da função 'Trace / Perímetro'. Acompanhe com os olhos a distância entre a lateral do calcador e a borda plástica em cada um dos 4 vértices para memorizar a folga ideal de segurança.",
     "quickSummary": "Distância de segurança é a margem livre obrigatória mantida entre a área de bordado e as bordas físicas do bastidor para evitar colisões mecânicas.",
     "bibliographicReferences": [
       "BROTHER. Safety Clearances and Hoop Margin Operating Instructions. Nagoya, 2022.",
       "TAJIMA. Frame Collision Prevention & Border Clearance Manual. Nagoya, 2021.",
       "ARTRELADOS. Guia de Segurança e Proteção de Bastidores no Ateliê. São Paulo, 2024."
     ],
-    "letter": "D"
+    "letter": "D",
+    "englishTerm": "Hoop Guard Clearance & Frame Edge Safety Margin Protocol",
+    "matrixRelations": [
+      {
+        "term": "Função Trace / Rastreamento de Contorno",
+        "impact": "Permite inspecionar a distância de segurança na prática antes de dar o Start no painel."
+      },
+      {
+        "term": "Tamanho Nominal do Bastidor vs. Área Útil",
+        "impact": "A área útil bordável é sempre de 10 mm a 20 mm menor que o tamanho físico gravado no aro plátisco."
+      },
+      {
+        "term": "Compensação de Repuxo",
+        "impact": "Matrizes muito justas podem encolher o tecido e forçar a agulha a bater no bastidor se não houver margem."
+      }
+    ],
+    "howToIdentify": [
+      "A máquina emite um aviso sonoro agudo e exibe a mensagem 'O padrão excede a área de bordado' ou 'Change Hoop'.",
+      "O pé calcador raspa com estalo na borda plástica do bastidor ao bordar as extremidades do desenho.",
+      "A agulha entorta ou quebra no primeiro ponto da borda externa."
+    ]
   },
   {
     "id": "d-019-distancia-entre-pontos",
@@ -31611,14 +31601,14 @@
   },
   {
     "id": "d-040-distorcao-do-bordado",
-    "code": "D-040",
-    "term": "Distorção do Bordado",
+    "code": "D-112",
+    "term": "Distorção da Matriz e Efeito Puxão em Tecidos Finos (Pull Effect Distortion & Thin Fabric Skewing)",
     "level": "Intermediário 🟡",
-    "grammarClass": "Locução nominal feminina.",
-    "category": "Solução de Problemas",
-    "summary": "Alteração de forma, proporção ou alinhamento observada no tecido em relação ao desenho original previsto na matriz.",
-    "definition": "A distorção do bordado ocorre quando o desenho executado no tecido apresenta forma, proporções ou encaixes diferentes daqueles visualizados no computador (por exemplo: um círculo que vira uma elipse oval, letras inclinadas ou vãos entre o fundo e o contorno). A distorção resulta do combate físico entre a tração da linha, a estabilidade da entretela, o bastidoramento e a elasticidade natural do tecido.",
-    "technicalDetails": "Relaciona-se com o efeito mecânico Push & Pull: os pontos puxam o tecido no sentido do ângulo da linha (Pull) e expandem as laterais perpendiculares (Push). Quando a estabilização é insuficiente, a distorção torna-se visível.",
+    "grammarClass": "Substantivo feminino composto com locuções prepositivas e adjetivas",
+    "category": "Digitalização e Matrizes",
+    "summary": "Fenômeno físico em que a tensão da linha deforma círculos em elipses e cria frestas entre contornos e preenchimentos em tecidos de baixa gramatura.",
+    "definition": "A Distorção da Matriz e Efeito Puxão em Tecidos Finos é a deformação geométrica indesejada que ocorre durante o entrelaçamento dos pontos em substratos delicados ou flexíveis (como cambraia de linho, seda, viscose e voil). Conforme a linha é tracionada na laçada da bobina, as fibras do tecido são comprimidas na direção paralela aos pontos (efeito puxão / pull) e empurradas para fora nas extremidades perpendiculares (efeito empurrão / push). Sem a devida compensação vetorial no software e estabilização de bancada, formas perfeitamente circulares tornam-se ovais, letras perdem o alinhamento basal e contornos pretos se descolam do preenchimento colorido, deixando o tecido exposto.",
+    "technicalDetails": "Para mitigar a distorção em tecidos finos, aplica-se uma Compensação de Repuxo (Pull Compensation) de 0,35 mm a 0,55 mm no software, associada a uma densidade mais suave (0,45 mm a 0,48 mm) e uma camada de entretela de corte limpo (Cut-Away) de 50 g/m² resinada, que oferece estabilidade dimensional isotrópica.",
     "construction": [
       "Tração de encolhimento no sentido dos pontos",
       "Expansão nas bordas perpendiculares",
@@ -31626,10 +31616,11 @@
       "Movimentação do tecido dentro do aro do bastidor"
     ],
     "howItWorks": [
-      "1. A agulha perfura o tecido e a linha exerce tração ao travar o nó.",
-      "2. Milhares de pontos acumulam força puxando as fibras têxteis para o centro.",
-      "3. Se a entretela não segurar o tecido ou o bastidor estiver frouxo, a forma geométrica se deforma.",
-      "4. Ao sair do bastidor, o tecido relaxa evidenciando a distorção."
+      "A cada penetração da agulha, a linha superior puxa as fibras do tecido fino em direção ao centro do objeto bordado.",
+      "Quanto maior a densidade de pontos e a tensão mecânica dos discos, mais intensa é a força de contração exercida sobre a entretela.",
+      "Se todos os pontos forem programados no mesmo ângulo (ex: 0° horizontal), o tecido se fecha como uma sanfona nessa direção.",
+      "Na borda perpendicular, a agulha empurra as fibras para fora, expandindo a silhueta em relação ao vetor original do desenho.",
+      "O resultado final apresenta franzimento ao redor da figura e desalinhamento milimétrico entre objetos adjacentes."
     ],
     "mainTypes": [
       "Distorção por Repuxamento (Encolhimento paralelo ao ponto)",
@@ -31643,24 +31634,28 @@
       "Tentar corrigir distorções apenas aumentando a densidade piora a deformação."
     ],
     "commonErrors": [
-      "❌ Culpar imediatamente a matriz quando o problema foi o tecido frouxo no bastidor.",
-      "❌ Esticar o tecido com força excessiva ao montar o bastidor (como uma pele de tambor esticada demais).",
-      "❌ Bordar malhas elásticas usando entretela rasga-fácil em vez de entretela recorta-fácil."
+      "Tentar corrigir o problema apertando excessivamente o bastidor, o que estica o tecido fino e faz o bordado enrugar assim que a peça sai do aro.",
+      "Usar entretela rasgável fina de 30 g/m² em tecidos finos com matrizes densas de mais de 10.000 pontos.",
+      "Desenhar contornos lineares sem sobreposição mínima de 1,0 mm sobre a borda dos objetos de preenchimento."
     ],
-    "voceSabia": "Se você esticar demais uma camiseta de malha ao fechar o bastidor, ela parecerá linda enquanto estiver presa; mas assim que você abrir o aro, a malha encolherá de volta e o bordado ficará totalmente enrugado!",
+    "voceSabia": "O físico britânico Thomas Young descreveu as leis de tensão elástica de materiais em 1807, e hoje os algoritmos modernos de digitalização de bordado utilizam fórmulas baseadas no Módulo de Young para calcular automaticamente o quanto cada tecido encolherá!",
     "curiosidadeTecnica": "Distorção refere-se à perda de proporção em relação ao projeto original; deformação refere-se à alteração física e estrutural do tecido durante as forças de costura.",
-    "dicaArtrelados": "Quando o bordado se distorcer, não procure um culpado: procure a causa! Compare a matriz com o bordado pronto e veja onde a forma começou a mudar. Lembre-se da regra de ouro: a matriz é criada na tela, mas o bordado acontece no tecido! Observe sempre os dois!",
+    "dicaArtrelados": "Em tecidos finos como cambraia e viscose, use SEMPRE a técnica do sanduíche Artrelados: entretela hidrossolúvel de topo por cima do tecido e entretela de malha termocolante no avesso! Essa combinação 'engessa' as fibras no momento exato do ponto e sai 100% na primeira lavagem sem deixar a peça dura!",
     "applications": [
-      "Diagnóstico e correção de matrizes com problemas de encaixe, formas ovais e repuxamento."
+      "Logomarcas circulares em camisas de tricoline e blusas de seda feminina.",
+      "Brasões corporativos com contornos finos em batas cirúrgicas e jalecos leves.",
+      "Bordados delicados em vestidos de batizado de cambraia e percal 400 fios."
     ],
     "troubleshootingTips": [
-      "Se formas circulares estiverem saindo ovais, aumente a Compensação de Repuxo (Pull Compensation) no software para 0.40mm e use entretela mais encorpada."
+      "No software, aumente a compensação de repuxo do objeto com problema em +0,2 mm e teste novamente em um retalho do mesmo tecido com entretela idêntica.",
+      "Adicione um ponto de amarração preliminar em alinhavo (Basting Box) ao redor de todo o desenho antes de iniciar o bordado."
     ],
     "relatedTerms": [
-      "Deformação do Bordado",
-      "Compensação de Puxão",
-      "Bastidoramento",
-      "Estabilizador"
+      "Compensação de Repuxo",
+      "Push-Pull Effect",
+      "Entretela Cut-Away",
+      "Basting Box",
+      "Underlay de Sustentação"
     ],
     "tags": [
       "d-040",
@@ -31672,16 +31667,36 @@
       "artrelados"
     ],
     "updatedAt": "2026-08-19",
-    "origin": "Do latim distortio, -onis (ação de torcer, deformar a forma original, de distorquere, torcer para os lados) e do árabe al-burdā (bordado).",
-    "beginnerExplanation": "Distorção do bordado é quando o desenho sai deformado no tecido: um círculo perfeito que vira um ovo achatado, um quadrado que vira losango ou contornos que saem fora da figura. Isso acontece porque a linha puxa o tecido enquanto costura!",
-    "practicalExercise": "Borde um círculo perfeito de 5cm em uma malha com entretela fraca e frouxa no bastidor. Ao tirar da máquina, meça o círculo na vertical e na horizontal com uma régua: veja como ele ficou menor no sentido dos pontos (encolheu) e maior no sentido oposto (esticou). Esse é o efeito clássico de distorção!",
+    "origin": "Do latim distortio (torção, deformação física) e do inglês pull compensation (compensação da tração mecânica da linha sobre a fibra têxtil).",
+    "beginnerExplanation": "É quando você desenha uma bolinha perfeitamente redonda no computador, mas na hora que borda na blusinha fina ela vira um ovo e a linha de contorno fica torta, sobrando um buraco branco no meio! Isso acontece porque a linha puxa o pano fino feito um elástico!",
+    "practicalExercise": "Borde um círculo de 4 cm de diâmetro preenchido em tatami com contorno de ponto cheio em um retalho de tecido fino com entretela rasgável simples, e depois repita com compensação de repuxo ajustada em 0,4 mm e entretela cut-away. Compare o formato dos dois círculos com uma régua escolar.",
     "quickSummary": "Distorção do bordado é a alteração geométrica indesejada da forma original causada pelas forças de repuxamento e compressão da linha sobre o tecido.",
     "bibliographicReferences": [
       "KRAUSZ, P. Push and Pull Dynamics in Machine Embroidery. New York: Textile Press, 2021.",
       "TAJIMA. Fabric Distortion Control and Mechanical Stability. Nagoya, 2022.",
       "ARTRELADOS. Guia Definitivo contra Deformações e Repuxo no Bordado. São Paulo, 2024."
     ],
-    "letter": "D"
+    "letter": "D",
+    "englishTerm": "Matrix Distortion & Pull Effect in Lightweight Fabrics",
+    "matrixRelations": [
+      {
+        "term": "Compensação de Repuxo (Pull Compensation)",
+        "impact": "Alarga artificialmente as colunas de ponto cheio perpendicularmente ao ângulo dos pontos para compensar o puxão."
+      },
+      {
+        "term": "Ângulos de Ponto em Camadas (Stitch Angles)",
+        "impact": "Alternar o ângulo da camada de suporte (ex: 90°) em relação ao tatami final (ex: 45°) anula as forças vetoriais de contração."
+      },
+      {
+        "term": "Tensão da Linha de Bobina",
+        "impact": "Tensão excessiva na caixa de bobina puxa o tecido fino para a cavidade da chapa, amplificando o franzimento."
+      }
+    ],
+    "howToIdentify": [
+      "Círculos na matriz ficam com formato ovalado ou com as pontas achatadas na peça pronta.",
+      "Aparece um vão visível entre o contorno preto e a área preenchida colorida.",
+      "O tecido ao redor do bordado forma pregas e ondas que não desaparecem nem mesmo com o ferro a vapor."
+    ]
   },
   {
     "id": "d-096-distorcao-em-malha-piquet-deformacao-estrutural-polo",
@@ -31914,14 +31929,14 @@
   },
   {
     "id": "d-023-distribuicao-de-pontos",
-    "code": "D-023",
-    "term": "Distribuição de Pontos",
-    "level": "Iniciante 🟢",
-    "grammarClass": "Locução nominal formada pelos substantivos distribuição e pontos.",
-    "category": "Programação de Bordado",
-    "summary": "Maneira como os pontos são organizados, espalhados e equilibrados no espaço dentro da matriz.",
-    "definition": "A distribuição de pontos corresponde à maneira como os pontos são organizados e espalhados dentro de um objeto ou região da matriz de bordado. Está intimamente relacionada à densidade, mas não deve ser confundida com ela: enquanto a densidade se refere à concentração pura de pontos em determinada área, a distribuição descreve como esses pontos estão espacialmente arranjados (uniformes, concentrados, afastados, radiais ou acompanhando curvas).",
-    "technicalDetails": "Analisa a regularidade topológica dos pontos na malha vetorial. Uma distribuição equilibrada evita acúmulos pontuais que criam relevos duros ou falhas periféricas causadas pela tração das linhas.",
+    "code": "D-113",
+    "term": "Distribuição Dinâmica de Pontos e Densidade Inteligente (Dynamic Stitch Distribution & Smart Density Calibration)",
+    "level": "Avançado 🔴",
+    "grammarClass": "Substantivo feminino composto com locuções adjetivas",
+    "category": "Digitalização e Matrizes",
+    "summary": "Algoritmo computacional que redistribui o espaçamento e o comprimento dos pontos conforme a largura das curvas e a espessura das formas da matriz.",
+    "definition": "A Distribuição Dinâmica de Pontos e Densidade Inteligente é o recurso matemático avançado presente em digitalizadores profissionais de bordado que ajusta o espaçamento de penetração da agulha conforme as variações geométricas da figura. Em curvas fechadas, pontas afiladas de letras ou áreas onde várias colunas de satim convergem, a densidade estática causaria acúmulo de centenas de perfurações no mesmo vértice microscópico, perfurando o tecido e quebrando agulhas. O algoritmo de distribuição inteligente escalona os pontos em leque (efeito canto inteligente / smart corners), encurta pontos internos e afasta as penetrações sucessivas, mantendo a cobertura visual sem agredir a integridade da fibra têxtil.",
+    "technicalDetails": "A distribuição dinâmica inteligente reduz a densidade em até 35% nos vértices internos enquanto preserva a densidade nominal de 0,38 mm a 0,42 mm nos trechos retos. O limite de penetração de pontos em uma mesma coordenada geométrica deve ser travado no software em no máximo 3 perfurações em raio de 0,5 mm.",
     "construction": [
       "Malha geométrica de penetrações",
       "Espaçamento constante ou progressivo",
@@ -31929,9 +31944,11 @@
       "Balanceamento de underlay e cobertura"
     ],
     "howItWorks": [
-      "1. O software calcula o posicionamento de cada ponto ao longo do vetor.",
-      "2. O digitalizador ajusta a dispersão para acompanhar a geometria do desenho.",
-      "3. A máquina costura os pontos de forma equilibrada, mantendo a tensão homogênea no tecido."
+      "O motor gráfico do software analisa a curvatura do contorno e identifica ângulos agudos inferiores a 45 graus.",
+      "Em vez de manter o espaçamento constante de 0,40 mm em todo o percurso, o software expande o espaçamento na borda externa e contrai de forma alternada na borda interna.",
+      "Pontos sucessivos de retorno da agulha são deslocados em degraus milimétricos (efeito escada), evitando perfurações repetidas no mesmo ponto X/Y.",
+      "Em colunas muito largas (acima de 7 mm), o sistema fraciona automaticamente os pontos em divisões programadas (Auto Split) para evitar laçadas soltas.",
+      "O resultado é uma superfície lisa, com brilho uniforme de reflexo de luz e zero risco de picotar o tecido."
     ],
     "mainTypes": [
       "Distribuição Uniforme (Padrão em preenchimentos regulares)",
@@ -31947,24 +31964,28 @@
       "Formas com pontas muito agudas exigem técnicas especiais (como cantos em meia-esquadria ou corte de pontos) para manter a distribuição regular."
     ],
     "commonErrors": [
-      "❌ Olhar apenas o número total de pontos sem verificar onde eles estão concentrados.",
-      "❌ Permitir que dezenas de pontos se acumulem no mesmo vértice de uma forma triangular.",
-      "❌ Deixar áreas desigualmente cobertas por má distribuição do underlay."
+      "Desativar a distribuição dinâmica para 'poupar tempo no software', gerando nós gigantescos de linha no avesso em todas as pontas afiladas de monogramas.",
+      "Usar densidade manual excessivamente alta (0,30 mm) em curvas de 180°, provocando quebra mecânica de agulha e descalibração da lançadeira.",
+      "Não revisar a matriz no modo de visualização de pontos (Stitch View), deixando pontos sobrepostos invisíveis no modo 3D TrueView."
     ],
-    "voceSabia": "Uma matriz pode ter a mesma quantidade de pontos de outra, mas se a distribuição for ruim, uma parecerá pesada e repuxada enquanto a outra ficará leve e perfeita!",
+    "voceSabia": "Em 1982, os fundadores da Wilcom na Austrália desenvolveram o primeiro algoritmo de interpolação não-linear de pontos, o que permitiu pela primeira vez na história que computadores bordassem curvas com a mesma fluidez de um bordador manual veterano!",
     "curiosidadeTecnica": "Em cantos muito estreitos no ponto Satin, softwares modernos usam o recurso de 'Smart Corners' (Cantos Inteligentes) para redistribuir e reduzir pontos nas curvas fechadas.",
-    "dicaArtrelados": "Uma matriz bonita não é apenas uma matriz com a quantidade certa de pontos: é uma matriz em que os pontos estão harmoniosamente bem distribuídos!",
+    "dicaArtrelados": "Toda vez que você for bordar uma fonte cursiva cheia de voltinhas pontudas, passe a matriz pelo filtro de 'Remover Pontos Curtos' configurando para 0,3 mm. Sua máquina vai bordar mais macio, o motor vai trabalhar silencioso e o acabamento da frente fica parecendo veludo!",
     "applications": [
-      "Preenchimentos gerais, cantos de molduras, pétalas, folhas e monogramas."
+      "Monogramas sofisticados com serifas finas e pontas triangulares.",
+      "Arabescos ornamentais e tribais com curvas ultrafechadas em espirais.",
+      "Degradês e sobreposições cromáticas de sombreamento em fotobordados."
     ],
     "troubleshootingTips": [
-      "Se os cantos de letras ou estrelas ficarem duros como pedras, ative a opção de redução automática de pontos em cantos agudos no software."
+      "No software Wilcom ou Pulse, selecione o objeto com excesso de pontos, clique em 'Propriedades de Objeto' e ative 'Smart Corners / Canto Mitrado Inteligente' e 'Auto Spacing'.",
+      "Se o arquivo for em formato pronto de pontos (como DST ou PES), utilize a ferramenta 'Otimizador de Densidade / Redutor de Pontos Acumulados' antes de enviar para a máquina."
     ],
     "relatedTerms": [
-      "Densidade de Pontos",
-      "Distância entre Pontos",
-      "Ponto de Preenchimento",
-      "Direção do Ponto"
+      "Smart Corners",
+      "Remoção de Pontos Curtos",
+      "Ponto Cheio em Curva",
+      "Auto Split",
+      "Densidade de Ponto"
     ],
     "tags": [
       "d-023",
@@ -31975,16 +31996,36 @@
       "artrelados"
     ],
     "updatedAt": "2026-08-19",
-    "origin": "Do latim distributio, -onis (divisão harmônica, partilha ordenada, de distribuere) e punctum (ponto perfurado). Na programação gráfica CAD têxtil, refere-se ao algoritmo topológico de dispersão espacial de perfurações ao longo de nós vetoriais.",
-    "beginnerExplanation": "Distribuição de pontos é como os pontos estão espalhados pelo desenho: se eles estão bem divididos de forma suave e organizada, ou se estão todos amontoados em um canto só. Uma boa distribuição faz o bordado ficar macio e plano, sem aquelas bolotas duras nos cantos das letras.",
-    "practicalExercise": "Desenhe uma estrela de 5 pontas no software e borde em ponto cheio (Satin). Observe os bicos finos da estrela: se os pontos estiverem se acumulando todos na mesma pontinha, ative a opção de 'Cantos Inteligentes' (Smart Corners) ou reduza a densidade na curva para redistribuir os pontos com suavidade.",
+    "origin": "Do latim distributio (repartição equilibrada em partes proporcionais) e dynamis (força ativa em movimento). No software CAD de bordado, refere-se ao cálculo algorítmico que altera o espaçamento entre pontos em tempo real.",
+    "beginnerExplanation": "Imagine um grupo de pessoas fazendo uma curva fechada marchando: quem está por fora precisa dar passos mais largos e quem está por dentro dá passos curtinhos para não trombar! Essa função faz exatamente isso com a agulha para ela não ficar furando o mesmo buraquinho várias vezes até rasgar o pano!",
+    "practicalExercise": "Crie uma estrela de 5 pontas no seu software com preenchimento em ponto cheio. Observe as pontas com a opção 'Canto Inteligente' desligada (veja os pontos encavalados) e depois ative a opção. Note como os pontos se abrem harmonicamente como um leque.",
     "quickSummary": "Distribuição de pontos é o arranjo espacial equilibrado das perfurações de agulha sobre a forma vetorial, evitando acúmulos e deformações no tecido.",
     "bibliographicReferences": [
       "WILCOM. Stitch Distribution, Smart Corners & Density Balancing. Sydney: Wilcom, 2022.",
       "DEVERSON, D. Vector Topologies for Textile Embroidery. London: Textile Press, 2021.",
       "ARTRELADOS. Distribuição Harmônica de Pontos e Tratamento de Cantos Agudos. São Paulo, 2024."
     ],
-    "letter": "D"
+    "letter": "D",
+    "englishTerm": "Dynamic Stitch Distribution & Smart Density Calibration",
+    "matrixRelations": [
+      {
+        "term": "Espaçamento de Ponto (Density/Pitch)",
+        "impact": "Serve como parâmetro-base do qual a distribuição dinâmica calcula os desvios proporcionais."
+      },
+      {
+        "term": "Divisão Automática de Ponto (Auto-Split)",
+        "impact": "Atua conjuntamente para que pontos longos não percam a tensão mecânica correta."
+      },
+      {
+        "term": "Cantos Inteligentes (Smart Corners)",
+        "impact": "Regula a transição entre colunas perpendiculares sem sobreposição excessiva de pespontos."
+      }
+    ],
+    "howToIdentify": [
+      "A máquina emite um som seco e metálico de 'estalo' sempre que atinge as quinas de uma letra.",
+      "O tecido fica furado ou esburacado no vértice de uma curva após a retirada da entretela.",
+      "Aparece um caroço duro e volumoso de linha por trás da pontinha bordada."
+    ]
   },
   {
     "id": "d-102-divisao-automatica-elementos-grandes-quebra-bastidor",
@@ -198481,5 +198522,323 @@
       "Velocidade de Ponto (PPM)"
     ],
     "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "d-novo-024-diodo-emissor-laser-cruz-posicionamento",
+    "code": "D-102",
+    "letter": "D",
+    "term": "Diodo Emissor de Laser em Cruz para Posicionamento (Crosshair Laser Positioning System)",
+    "level": "Intermediário 🟡",
+    "category": "Funções da Máquina",
+    "grammarClass": "Locução nominal técnica. Do grego di (dois) e hodos (caminho), e do inglês crosshair laser beam.",
+    "origin": "Adaptação da tecnologia óptica industrial de semicondutores para o cabeçote de máquinas de bordar, substituindo ponteiros físicos de plástico por feixes luminosos colimados.",
+    "summary": "Projetor óptico de feixe de laser vermelho ou verde em cruz que projeta o centro e o esquadro exatos sobre o tecido no bastidor sem tocá-lo.",
+    "definition": "O diodo emissor de laser em cruz para posicionamento (Crosshair Laser Alignment System & Optical Origin Finder) é o dispositivo optoeletrônico semicondutor montado na base frontal do cabeçote de bordar, que projeta sobre a superfície do tecido um feixe de luz focalizado em forma de cruz perpendicular ortogonal (eixos X e Y). O ponto central de cruzamento dos eixos luminosos coincide milimetricamente com o ponto de penetração da agulha nº 1 (ou possui um deslocamento pré-calibrado pela CPU), permitindo à bordadeira conferir centro, inclinação angular e conferência de gabaritos em segundos sem precisar abaixar manualmente o volante da máquina.",
+    "technicalDetails": "Especificações optoeletrônicas do laser de alinhamento:\n• Comprimento de Onda: 650 nm (Laser Vermelho Classe 2) ou 520 nm (Laser Verde de alta visibilidade em tecidos claros);\n• Potência Óptica: Inferior a 5 mW (seguro para uso contínuo em bancada conforme norma IEC 60825-1);\n• Abertura Focal: Ajustável por lente colimadora acromática para focar a espessura da linha da cruz em menos de 0,3 mm;\n• Ângulo de Cruzamento: 90° rigorosamente ortogonal para checagem de esquadro em relação à ourela do tecido.",
+    "howItWorks": [
+      "1. Marque o centro da peça no tecido com giz de alfaiate traçando uma cruz de 90°.",
+      "2. Enquadre o tecido no bastidor e prenda no pantógrafo da máquina.",
+      "3. Ative a tecla de luz laser no painel da máquina ou no botão do cabeçote.",
+      "4. A cruz luminosa brilha sobre o tecido.",
+      "5. Use as setas de deslocamento do pantógrafo para levar o centro luminoso do laser exatamente sobre a cruz de giz.",
+      "6. Gire a peça ou ajuste o ângulo no visor até as linhas do laser correrem paralelas às linhas de giz.",
+      "7. Toque no botão de 'Origem / Ponto Zero' (Set Origin) na tela da máquina.",
+      "8. Desligue o laser e aperte Start: o bordado inicia com alinhamento e centragem cirúrgicos de 100%."
+    ],
+    "beginnerExplanation": "Em vez de você ter que ficar girando o botão redondo da máquina com a mão, abaixando a agulha com medo de furar o pano da cliente só para ver onde o bordado vai começar, a máquina acende uma luzinha mágica de laser em formato de cruz vermelha bem em cima do tecido! Você só mexe na tela até a cruz de luz bater em cima da marquinha de giz que você fez. É rápido, limpo, moderno e você nunca mais erra o centro de uma toalha ou camisa!",
+    "applications": [
+      "Centralização instantânea de nomes em bolsos, faixas de toalhas e peitos de camisa",
+      "Checagem rápida de inclinação e esquadro em barras compridas e tecidos xadrez",
+      "Reposicionamento preciso em bordados contínuos de estágios sem marcas físicas"
+    ],
+    "matrixRelations": [
+      "Ponto de Origem da Matriz (Start Point): O laser aponta exatamente para a primeira coordenada de agulha do arquivo.",
+      "Offset Mecânico: A CPU compensa a distância física entre o emissor laser e a barra da agulha ativa.",
+      "Rotação de Matriz: Permite girar a matriz em graus no visor até alinhar com a projeção do laser."
+    ],
+    "commonErrors": [
+      "Olhar diretamente para o orifício da lente emissora do laser com os olhos próximos, causando fadiga visual",
+      "Trabalhar com a lente do laser suja de pó de entretela e fiapos, fazendo a linha da cruz ficar borrada e grossa",
+      "Bater o bastidor na carcaça do emissor laser ao desencaixar, descalibrando o ponto de cruzamento de fábrica",
+      "Esquecer de conferir o esquadro das duas pernas da cruz de luz, alinhando apenas o ponto central"
+    ],
+    "howToIdentify": [
+      "A cruz de laser projetada com linhas tortas ou borradas parecendo um borrão de luz (lente suja)",
+      "A agulha caindo 2 milímetros fora do ponto onde a cruz de laser apontava (laser descalibrado mecanicamente)",
+      "Dificuldade de enxergar o feixe vermelho sobre tecidos vermelhos escuros (indicação para laser verde)"
+    ],
+    "troubleshootingTips": [
+      "Limpe a lente frontal do laser suavemente com um cotonete seco sem produtos químicos.",
+      "Se o laser descalibrar: use o menu de serviço de calibração óptica da máquina para ajustar o offset X/Y.",
+      "Em tecidos muito claros ou sob lâmpadas muito fortes: abaixe levemente a intensidade da luminária de bancada para enxergar o laser com nitidez."
+    ],
+    "dicaArtrelados": "O Segredo da Cruz Dupla de Giz e Luz Artrelados: Quando você for posicionar uma peça com mira laser, não faça apenas um pontinho de giz no tecido: trace uma cruzinha de 3 centímetros com a régua! Quando a cruz de luz do laser descer em cima da sua cruz de giz, você não confere apenas o centro, mas confere se a roupa está retinha no esquadro! Se a linha de luz ficar torta em relação ao giz, gire a matriz no painel 1 grauzinho. Sua peça sai perfeita!",
+    "voceSabia": "A primeira máquina de bordar a incorporar um feixe de diodo laser em formato de cruz para o mercado de ateliê foi a japonesa Brother PR-650 lançada em 2009, transformando um processo de acerto que demorava 3 minutos em uma tarefa de 10 segundos!",
+    "practicalExercise": "Faça uma cruz com caneta que apaga com calor em um retalho. Prenda no bastidor, ligue o laser da máquina e navegue com as setas direcionais até sobrepor as duas cruzes: comprove a velocidade e a precisão do alinhamento óptico.",
+    "quickSummary": "Dispositivo optoeletrônico de semicondutor que projeta uma cruz de laser milimétrica sobre o tecido para conferência de centro e esquadro cartesiano.",
+    "relatedTerms": [
+      "Gabarito de Bastidor",
+      "Alinhamento de Contorno",
+      "Colocação no Bastidor (Hooping)",
+      "Ponto de Entrada e Saída",
+      "Funções da Máquina de Bordar"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "d-novo-013-disco-tensao-mola-conica-progressiva",
+    "code": "D-107",
+    "letter": "D",
+    "term": "Disco de Tensão com Mola Cônica Progressiva (Progressive Conical Spring Tension Assembly)",
+    "level": "Avançado 🔴",
+    "category": "Mecânica & Manutenção",
+    "grammarClass": "Locução nominal técnica. Do latim conus e do inglês progressive conical spring tensioner.",
+    "origin": "Inovação da engenharia mecatrônica de cabeçotes multiagulhas de alta velocidade para manter pressão estável e sem saltos durante acelerações bruscas de motor.",
+    "summary": "Conjunto mecânico de pratinhos metálicos polidos e mola em espiral cônica que aplica pressão gradual e amortecida sobre a linha superior.",
+    "definition": "O conjunto de disco de tensão com mola cônica progressiva (Progressive Conical Spring Tension Assembly & Dampened Disk Mechanism) é o dispositivo mecânico montado no caminho de passagem superior de cada linha do cabeçote da máquina de bordar. Composto por dois discos côncavos de aço inoxidável retificado espelhado e uma mola helicoidal cônica com constante elástica variável (K progressivo), sua função técnica é aplicar compressão constante e sem oscilações sobre o fio de poliéster. O perfil cônico da mola absorve os micro-trancos provocados pela puxada do estica-fio em rotações de até 1.000 PPM, prevenindo laçadas frouxas e quebras por fadiga dinâmica.",
+    "technicalDetails": "Especificações mecânicas do tensionador com mola cônica:\n• Material dos Discos: Aço inox com polimento espelhado diamantado e tratamento térmico contra abrasão por atrito de linha;\n• Geometria de Mola: Cônica de diâmetro decrescente (aumenta a rigidez conforme é comprimida, evitando ressonância harmônica);\n• Curso de Calibração: Porca recartilhada micrométrica com marcações numéricas ou ranhuras de referência visual;\n• Pino de Liberação (Tension Release Pin): Acionado pela alavanca do calcador para afastar os discos ao levantar o pé da máquina.",
+    "howItWorks": [
+      "1. A bordadeira passa a linha superior pelo conjunto, fazendo o fio descer entre os dois pratinhos metálicos.",
+      "2. Ao abaixar a alavanca do pé calcador, o pino de liberação recua e a mola cônica comprime os discos.",
+      "3. Os discos prensam a linha com a força exata ajustada pela porca de regulagem.",
+      "4. Conforme a máquina costura em alta velocidade, o estica-fio sobe e dá uma puxada brusca na linha.",
+      "5. A mola cônica amortece o tranco instantaneamente em frações de milímetro, sem deixar a linha escapar frouxa.",
+      "6. A linha desce para a agulha com fluxo contínuo, uniforme e com tensão de saída perfeita.",
+      "7. Ao término do bordado, levantar o calcador afasta os discos, permitindo puxar o tecido sem esforço e sem entortar a agulha."
+    ],
+    "beginnerExplanation": "O disco de tensão com mola cônica é o coração que controla a força da linha de cima da máquina! Pense nele como dois pratinhos de metal polidos coladinhos com uma molinha cônica empurrando por trás. A linha passa bem no meio dos dois pratinhos. Quando a máquina corre rápido, essa molinha especial funciona como o amortecedor de um carro de corrida: ela amortece os trancos da linha para o fio nunca arrebentar e nem ficar frouxo fazendo laçada feia no bordado!",
+    "applications": [
+      "Controle rigoroso de tensão superior em máquinas domésticas, semi-industriais e multi-cabeças",
+      "Amortecimento mecânico indispensável para bordar em rotações superiores a 800 PPM",
+      "Trabalho estável com linhas delicadas (metálicas, de seda ou de viscose)"
+    ],
+    "matrixRelations": [
+      "Alavanca do Calcador: O mecanismo só ativa a pressão dos discos quando o calcador está abaixado.",
+      "Tensão de Bobina: Deve atuar em harmonia com a tensão inferior para equilibrar o ponto em 1/3 no avesso.",
+      "Velocidade de Máquina (PPM): Em rotações mais altas, a mola progressiva evita a vibração parasita dos discos."
+    ],
+    "commonErrors": [
+      "Passar a linha de bordar com o calcador abaixado, fazendo o fio correr por fora dos discos sem receber tensão nenhuma",
+      "Apertar a porca de tensão até o fim com alicate, esmagando a mola cônica e quebrando linhas a cada 10 segundos",
+      "Deixar cera de linha e fiapos se acumularem entre os pratinhos, impedindo o fechamento completo dos discos",
+      "Montar os discos virados com a curvatura invertida após limpeza de manutenção"
+    ],
+    "howToIdentify": [
+      "A linha superior descendo totalmente solta e fazendo um ninho gigante de linha embaixo do tecido (a linha não entrou nos discos)",
+      "Linha arrebentando a cada 20 pontos com a ponta esfiapada e esticada (pressão excessiva da mola)",
+      "A tensão variando sozinha no meio do bordado por perda de elasticidade da mola cônica gasta"
+    ],
+    "troubleshootingTips": [
+      "Passe SEMPRE a linha na máquina com a alavanca do calcador LEVANTADA para os discos estarem abertos.",
+      "Ao abaixar o calcador, puxe o fio com a mão antes da agulha: você deve sentir uma resistência firme e suave.",
+      "Limpe os pratinhos a cada 30 dias passando um fio dental comum sem cera entre eles."
+    ],
+    "dicaArtrelados": "A Regra do Calcador Alto na Passagem de Linha Artrelados: Essa é a regra número 1 que toda bordadeira precisa tatuar no coração: NUNCA passe a linha na sua máquina com o pezinho calcador abaixado! Quando o pé está levantado, os pratinhos de tensão se abrem para a linha entrar lá no fundo; quando você abaixa o pé, eles se fecham e abraçam a linha. Se você passar a linha com o pé abaixado, o fio fica solto por fora e a máquina embola tudo no primeiro segundo!",
+    "voceSabia": "A geometria das molas cônicas progressivas permite que as espiras menores entrem por dentro das espiras maiores ao serem comprimidas, ocupando metade do espaço de uma mola cilíndrica tradicional e eliminando totalmente o efeito de 'ressonância harmônica' em máquinas de alta velocidade!",
+    "practicalExercise": "Com o calcador levantado, passe a linha pelos discos e puxe com a mão: sinta como ela desliza soltinha. Em seguida, abaixe a alavanca do calcador e puxe novamente: sinta a resistência macia e progressiva da mola segurando o fio com perfeição.",
+    "quickSummary": "Dispositivo mecânico com discos metálicos diamantados e mola helicoidal cônica progressiva que amortece trancos dinâmicos e aplica tensão estável na linha superior.",
+    "relatedTerms": [
+      "Discos de Tensão (Tension Discs)",
+      "Dinamômetro Têxtil Towa",
+      "Tensão de Linha Superior",
+      "Pé Calcador de Bordado",
+      "Mecânica e Manutenção de Máquinas"
+    ],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "d-034-diretorio-de-pontos-e-banco-de-motivos",
+    "code": "D-109",
+    "letter": "D",
+    "term": "Diretório de Pontos e Biblioteca de Motivos Decorativos (Pattern Directory & Decorative Motif Library)",
+    "englishTerm": "Stitch Directory & Decorative Motif Library",
+    "level": "Intermediário 🟡",
+    "category": "Softwares e Formatos",
+    "grammarClass": "Substantivo masculino composto com locuções prepositivas e adjetivas",
+    "origin": "Do latim directorius (o que orienta, caminho organizado) e do grego bibliothēkē (coleção de livros/registros). No software de bordado CAD/CAM, refere-se ao banco de dados vetorial onde motivos geométricos, ornamentos florais e texturas de pesponto ficam indexados para uso repetitivo.",
+    "summary": "Banco de dados digital integrado ao software CAD que cataloga motivos ornamentais, pontos de preenchimento programado e sequências geométricas prontas para aplicação em matrizes.",
+    "definition": "O Diretório de Pontos e Biblioteca de Motivos Decorativos é o banco de dados centralizado e modular existente nos principais softwares de criação de matrizes (Wilcom ES, Pulse, Bernina, Pe-Design) e em painéis industriais avançados. Esse repositório armazena milhares de microestruturas vetoriais de pontos — como estrelas, arabescos, pontos cruz eletrônicos, favos de mel e padrões guilloché — que podem ser convertidos instantaneamente em linhas de contorno (Motif Run) ou em preenchimentos complexos (Motif Fill). A biblioteca permite ao designer criar seus próprios motivos proprietários, padronizar detalhes de coleções têxteis e exportar diretórios personalizados entre diferentes estações de trabalho de um ateliê.",
+    "howItWorks": [
+      "O digitalizador cria um elemento gráfico fechado ou aberto desenhado com nós vetoriais e define o ponto de entrada (início) e o ponto de saída (fim) do motivo.",
+      "O desenho é gravado no diretório do software na categoria desejada (geométricos, bordas infantis, motivos natalinos, monogramas).",
+      "Ao aplicar o motivo sobre uma curva ou polígono, o motor matemático do software replica o padrão em repetição contínua, ajustando a escala e a orientação angular em cada segmento.",
+      "O diretório calcula automaticamente as pontes de união entre cada repetição para evitar cortes desnecessários de linha (trims).",
+      "Na exportação, os motivos são convertidos na linguagem nativa de pontos (DST, PES, EXP) preservando a integridade milimétrica do desenho."
+    ],
+    "beginnerExplanation": "É a sua caixinha mágica de carimbos digitais! Em vez de desenhar florzinha por florzinha ou estrelinha por estrelinha na mão toda vez que for fazer uma barra de toalha, você pega um motivo pronto no diretório e o programa 'carimba' a repetição inteira com precisão perfeita em segundos!",
+    "applications": [
+      "Barrados decorativos contínuos em fraldas, toalhas de banho e enxovais de bebê.",
+      "Fundos texturizados de brasões e logomarcas corporativas de luxo.",
+      "Preenchimentos vazados de renda e laise eletrônica em vestidos de noiva."
+    ],
+    "technicalDetails": "Cada motivo dentro do diretório deve possuir rigorosamente a mesma coordenada Y relativa para os nós de entrada e saída quando destinado a pespontos lineares (Motif Run), evitando desníveis ou saltos no pantógrafo. A largura de motivo não deve ultrapassar 12 mm em repetições lineares sem pontos de ancoragem intermediários, prevenindo laçadas frouxas que engatam no pé calcador.",
+    "matrixRelations": [
+      {
+        "term": "Motif Fill (Preenchimento Programado de Motivo)",
+        "impact": "Define a escala horizontal e vertical do padrão dentro do polígono fechado, influenciando o consumo total de linha."
+      },
+      {
+        "term": "Espaçamento de Repetição (Spacing)",
+        "impact": "Determina a distância em milímetros entre um motivo e o próximo na linha de contorno."
+      },
+      {
+        "term": "Compensação de Encolhimento",
+        "impact": "Exige acréscimo de 0,3 mm quando motivos densos são bordados em tecidos com elasticidade para evitar frestas."
+      }
+    ],
+    "commonErrors": [
+      "Salvar um motivo sem definir o nó de saída no alinhamento correto, gerando um corte de linha (trim) entre cada repetição e triplicando o tempo de bordado.",
+      "Usar motivos com detalhes inferiores a 0,8 mm em escala reduzida, resultando em amontoados de linha que quebram agulhas.",
+      "Não fazer backup da pasta de motivos customizados antes de atualizar a versão do software CAD, perdendo anos de biblioteca própria do ateliê."
+    ],
+    "howToIdentify": [
+      "Ao simular a matriz no software, surgem comandos de corte de linha vermelhos entre cada microelemento decorativo repetido.",
+      "O desenho do barrado fica truncado ou com sobreposições irregulares nas curvas acentuadas do contorno.",
+      "A agulha bate insistentemente no mesmo ponto minúsculo do motivo gerando nó no avesso."
+    ],
+    "troubleshootingTips": [
+      "Se o motivo estiver cortando a linha em cada repetição, abra o editor de motivos, confira a ferramenta 'Definir Ponto de Início e Término' e garanta que a linha de conexão viaje rente ao contorno.",
+      "Para cantos de 90 graus perfeitos em guardanapos, ative a opção 'Mitering / Canto Mitrado em Curva' no software Wilcom ou pulse."
+    ],
+    "dicaArtrelados": "Crie uma pasta exclusiva chamada 'DIBE_Assinaturas_Artrelados' no seu diretório CAD! Guarde nela três larguras fixas do seu motivo de acabamento favorito (3 mm para fraldas, 6 mm para toalhas de rosto e 10 mm para banho). Assim suas coleções ganham uma identidade visual de alto padrão reconhecida de longe pelos clientes!",
+    "voceSabia": "Nos primórdios das máquinas suíças Saurer e Schiffli no século XIX, os 'diretórios de motivos' eram rolos gigantescos de cartões perfurados de papelão prensado guardados em gaveteiros de carvalho, onde cada rolo pesava até 15 kg e continha um único padrão de renda!",
+    "practicalExercise": "Abra seu programa de bordado, crie um pequeno coração de 5 mm composto por ponto cheio e pesponto, salve-o no Diretório de Motivos do software e aplique-o como contorno contínuo ao redor de uma toalha virtual de 13x18 cm sem nenhum corte de linha interno.",
+    "relatedTerms": [
+      "Motif Run",
+      "Motif Fill",
+      "Ponto Programado",
+      "Biblioteca CAD",
+      "Vetorização de Contorno"
+    ]
+  },
+  {
+    "id": "d-novo-006-dispositivo-de-corte-de-linha-inferior-facas-guilhotina",
+    "code": "D-110",
+    "letter": "D",
+    "term": "Dispositivo de Corte de Linha Inferior com Navalha e Guilhotina (Underbed Thread Trimmer & Guillotine Knife Assembly)",
+    "englishTerm": "Underbed Thread Trimmer (UBT) & Guillotine Knife System",
+    "level": "Avançado 🔴",
+    "category": "Mecânica da Máquina",
+    "grammarClass": "Substantivo masculino composto com locuções adjetivas e prepositivas",
+    "origin": "Do latim dispositivus (organização mecânica funcional) e do francês guillotine (mecanismo de corte por lâmina móvel contra lâmina fixa). Desenvolvido pela Tajima e Brother nas décadas de 1970/1980 para automatizar o corte da bobina sob a chapa de agulha.",
+    "summary": "Conjunto mecânico subchapa composto por faca móvel oscilante e navalha fixa calibrada que captura e secciona a linha da agulha e da bobina após comandos de corte.",
+    "definition": "O Dispositivo de Corte de Linha Inferior com Navalha e Guilhotina (comumente denominado UBT - Underbed Trimmer) é o subsistema eletromecânico instalado diretamente abaixo da chapa de agulha e adjacente à lançadeira rotativa. Ele é acionado por um solenoide de pulso magnético ou por um servomotor de corte dedicado. No momento em que a matriz comanda uma parada com corte (Trim / C00), a faca móvel avança em movimento circular ou retilíneo, laça simultaneamente a linha superior que desce da agulha e a linha inferior que sai da caixa de bobina, e as puxa contra a navalha fixa afiada em ângulo de guilhotina, seccionando os fios e deixando caudas milimétricas prontas para a próxima laçada.",
+    "howItWorks": [
+      "O pantógrafo freia e a agulha atinge o ponto morto superior (TDC - Top Dead Center).",
+      "O solenoide de disparo é excitado por uma descarga de corrente contínua, deslocando a biela articulada do corte.",
+      "A faca móvel (faca de laçada) desliza sobre a base da lançadeira, engatando as duas linhas em seu bico de captura.",
+      "No retorno elástico da mola, a faca móvel prensa os fios contra a contranavalha fixa, operando o corte tipo cisalhamento ou guilhotina.",
+      "Um prendedor de linha (velcro metálico ou mola de retenção) segura a pontinha da linha da bobina para que ela não desfie para dentro da carcaça no próximo ponto."
+    ],
+    "beginnerExplanation": "É a tesourinha automática invisível que mora embaixo da chapa de metal da sua máquina! Toda vez que a matriz muda de letra ou de cor, esse bracinho mecânico puxa as duas linhas lá embaixo e corta rente sem você precisar meter a mão com a tesoura de arremate!",
+    "applications": [
+      "Corte limpo entre letras de monogramas e nomes individuais em toalhas.",
+      "Transição rápida de cores em matrizes multicoloridas de alta produção.",
+      "Eliminação de fios soltos no avesso de peças de alta-costura e bebê."
+    ],
+    "technicalDetails": "A pressão entre a faca móvel e a navalha fixa deve ser calibrada com folga angular de 0,02 mm a 0,05 mm. Pressão excessiva gera desgaste prematuro das facas de aço tungstênio e sobrecarga no solenoide; pressão insuficiente dobra o fio de poliéster sem cortá-lo, provocando embolamento na lançadeira (birdnesting).",
+    "matrixRelations": [
+      {
+        "term": "Comando de Salto com Corte (Trim Command)",
+        "impact": "Aciona o solenoide do dispositivo toda vez que a distância vetorial excede a tolerância do salto."
+      },
+      {
+        "term": "Ponto de Amarração Inicial e Final",
+        "impact": "Exige 3 a 5 micro-pontos antes do corte para que o fio cortado pelo dispositivo não escape na retomada."
+      },
+      {
+        "term": "Comprimento da Cauda de Linha (Tail Length)",
+        "impact": "Ajuste milimétrico no painel (3 mm a 7 mm) para evitar que a agulha desfie ao descer no próximo bloco."
+      }
+    ],
+    "commonErrors": [
+      "Deixar acúmulo de fiapos e pedaços de entretela entre as duas lâminas, impedindo o fechamento total do corte e mascando a linha.",
+      "Tentar afiar as facas de guilhotina com lixas manuais inadequadas, arredondando o fio de corte de tungstênio e inutilizando a peça.",
+      "Configurar o corte em saltos minúsculos de menos de 1,5 mm, provocando superaquecimento do solenoide e desgaste das buchas mecânicas."
+    ],
+    "howToIdentify": [
+      "A máquina para com erro 'Trimming Error' ou 'Falha no Corte de Linha' no painel digital.",
+      "Fios compridos e não cortados continuam ligando uma letra à outra no direito da peça.",
+      "A linha da bobina fica puxando para cima em laçadas frouxas após a retomada da costura."
+    ],
+    "troubleshootingTips": [
+      "Remova a chapa de agulha a cada 40 horas de trabalho, aspire a área do conjunto de corte com pincel macio e remova qualquer penugem presa na fresta da faca fixa.",
+      "Faça o teste prático de corte com um pedaço de linha 120 esticado com as mãos: a navalha deve decepar o fio instantaneamente ao ser empurrada manualmente, sem 'esmagar'."
+    ],
+    "dicaArtrelados": "Ao trocar a agulha na sua máquina, NUNCA deixe o parafuso da agulha ou a agulha velha caírem pelo buraco da chapa! Eles podem cair direto em cima da navalha móvel do corte e lascar a lâmina de guilhotina. Coloque sempre um pedaço de feltro sobre a chapa de agulha antes de mexer no parafuso!",
+    "voceSabia": "Em máquinas industriais de 12 ou 15 cabeças, o conjunto de corte de linha opera simultaneamente em todas as cabeças em menos de 0,35 segundos, economizando mais de 3 horas de trabalho braçal de arremate manual por turno de 8 horas!",
+    "practicalExercise": "Com a máquina desligada da tomada, retire a chapa de agulha e a caixa de bobina. Localize visualmente a lâmina da faca móvel e a contranavalha fixa. Limpe a área com pincel e uma gota de álcool isopropílico e observe o movimento da faca empurrando suavemente a biela mecânica.",
+    "relatedTerms": [
+      "Navalha Móvel",
+      "Navalha Fixa",
+      "Solenoide de Corte",
+      "Comando Trim",
+      "Lançadeira Rotativa"
+    ]
+  },
+  {
+    "id": "d-novo-025-dispositivo-de-posicionamento-tubular-pecas-cilindricas",
+    "code": "D-111",
+    "letter": "D",
+    "term": "Dispositivo de Posicionamento Tubular para Peças Cilíndricas e Meias (Tubular Arm & Sock/Cuff Embroidery Device)",
+    "englishTerm": "Tubular Positioning Device for Socks, Sleeves & Cylindrical Garments",
+    "level": "Intermediário 🟡",
+    "category": "Dispositivos e Acessórios",
+    "grammarClass": "Substantivo masculino composto com locuções adjetivas e prepositivas",
+    "origin": "Do latim tubus (cano, cilindro oco) e do francês positionner (colocar em local determinado). Criado para permitir o bordado computadorizado em itens fechados como canos de meia, mangas de camisas polo e punhos sem abrir as costuras laterais.",
+    "summary": "Aparato de fixação mecânica acoplado ao braço cilíndrico da máquina que estabiliza meias, mangas e punhos estreitos sem costuras abertas.",
+    "definition": "O Dispositivo de Posicionamento Tubular para Peças Cilíndricas e Meias é um acessório de bancada e de máquina projetado para superar a limitação de diâmetro estreito em peças já costuradas e tubulares. Composto por hastes tensoras expansoras, aros de bastidor miniatura ovais ou retangulares (como 40x60 mm ou 50x50 mm) e suportes de alinhamento com mola, esse dispositivo permite calçar a meia ou o punho diretamente sobre o braço livre da máquina de bordar. O sistema mantém o tecido esticado uniformemente em 360 graus, impedindo que o verso da peça tubular dobre sob a chapa de agulha e seja acidentalmente costurado junto.",
+    "howItWorks": [
+      "O operador veste a peça tubular (como uma meia esportiva) no gabarito expansor de mesa revestido com entretela rasgável ou hidrossolúvel.",
+      "O bastidor tubular com travas de pressão fecha sobre a área de bordado, travando a meia com tensão suave.",
+      "O conjunto é acoplado diretamente aos braços de suporte do pantógrafo da máquina de bordar livre de base plana.",
+      "O braço cilíndrico penetra pelo interior da meia, enquanto o lado de fora repousa esticado sobre a chapa de agulha.",
+      "A matriz é executada com rotação calibrada (frequentemente 90° ou 270°) para acompanhar o eixo longitudinal do cano da meia."
+    ],
+    "beginnerExplanation": "Sabe quando você quer bordar a inicial numa meia ou o emblema no punho de uma blusa fechada e morre de medo de costurar a frente e as costas juntas? Esse dispositivo é como uma botinha ou tubinho metálico que segura só o lado da frente esticado na máquina, deixando as costas livres embaixo!",
+    "applications": [
+      "Meias esportivas de cano alto e meias sociais de algodão egípcio com monogramas.",
+      "Mangas de jalecos médicos e punhos de camisas sociais masculinas.",
+      "Polainas, luvas de lã e luvas de boxe com logotipos personalizados."
+    ],
+    "technicalDetails": "Devido à elasticidade circular das meias com elastano (Spandex/Lycra), a entretela indicada é a rasgável de 60 g/m² com filme hidrossolúvel de topo (Topping Film) de 25 micras. A densidade da matriz deve ser reduzida em 15% para evitar que a rigidez do ponto transforme a área bordada em um anel rígido que machuca a perna do usuário.",
+    "matrixRelations": [
+      {
+        "term": "Orientação e Ângulo de Rotação da Matriz",
+        "impact": "Exige girar a matriz no software em 90° ou 180° dependendo de como o dispositivo encaixa no pantógrafo."
+      },
+      {
+        "term": "Densidade de Ponto Satim",
+        "impact": "Deve ser configurada mais aberta (0,45 mm a 0,50 mm) para preservar a maleabilidade da malha tubular."
+      },
+      {
+        "term": "Underlay de Ponto Suporte",
+        "impact": "O uso de tatami aberto de sustentação evita que os fios da meia se abram durante o calçamento da peça."
+      }
+    ],
+    "commonErrors": [
+      "Não verificar se o tecido traseiro da meia escorregou para debaixo do calcador antes de apertar o Start, costurando o cano da meia fechado.",
+      "Puxar a meia com força excessiva no bastidor tubular, deformando a costura elástica da canela após retirar do aro.",
+      "Usar entretela pesada de 100 g/m² que fica áspera no contato direto com a pele do tornozelo."
+    ],
+    "howToIdentify": [
+      "O bordado fica torto ou enviesado em relação à linha da costura traseira da meia.",
+      "A máquina trava porque o pantógrafo esbarra na carcaça do cabeçote durante o deslocamento em eixos estreitos.",
+      "O cliente reclama que a meia não entra no pé porque o bordado 'estrangulou' a elasticidade do tecido."
+    ],
+    "troubleshootingTips": [
+      "Se o dispositivo tubular estiver esbarrando no braço da máquina, reduza o campo de bordado no software para no máximo 45x45 mm.",
+      "Coloque um pedaço de fita crepe segurando a sobra do cano da meia para trás antes de dar o Start na máquina, garantindo que nada dobre por baixo."
+    ],
+    "dicaArtrelados": "Ao bordar pares de meias, marque a altura com um alfinete de cabeça plana medindo exatamente a partir do calcanhar em ambas as peças! Se você medir a partir do elástico do cano, como a meia varia de tensão, um bordado pode ficar 2 cm mais alto que o outro!",
+    "voceSabia": "A personalização de meias esportivas com números e nomes de atletas virou uma das maiores tendências de ateliês para presentes corporativos de corridas de rua e crossfit, gerando margens de lucro superiores a 400%!",
+    "practicalExercise": "Pegue uma meia velha de cano alto. Vista-a no dispositivo tubular ou bastidor de 4x6 cm com entretela rasgável e filme plástico por cima. Borde um número de 3 cm e confira se a elasticidade ao calçar a meia continua preservada.",
+    "relatedTerms": [
+      "Braço Livre (Free Arm)",
+      "Bastidor de Manga",
+      "Gabarito Tubular",
+      "Bordado em Boné",
+      "Pantógrafo Tubular"
+    ]
   }
 ]
