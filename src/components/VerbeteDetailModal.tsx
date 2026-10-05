@@ -346,7 +346,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
                   ? "Technical Stitch Diagram"
                   : "Representação Gráfica do Ponto"}
               </h4>
-              <StitchDiagram type={verbete.stitchDiagramType} language={currentLanguage} />
+              <StitchDiagram type={verbete.stitchDiagramType as any} language={currentLanguage} />
             </div>
           )}
 

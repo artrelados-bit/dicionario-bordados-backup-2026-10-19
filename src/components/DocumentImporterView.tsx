@@ -495,7 +495,7 @@ export const DocumentImporterView: React.FC<DocumentImporterViewProps> = ({
           </div>
 
           <button
-            onClick={handleProcessDocument}
+            onClick={() => handleProcessDocument()}
             disabled={parsing || !pastedText.trim()}
             className="w-full py-3 rounded-xl bg-[#101726] hover:bg-slate-800 text-white font-extrabold text-sm flex items-center justify-center space-x-2 shadow transition disabled:opacity-50 cursor-pointer"
           >

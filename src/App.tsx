@@ -649,7 +649,7 @@ export default function App() {
   // Ask AI to Elaborate
   const handleAskAiToElaborate = () => {
     setSelectedVerbete(null);
-    setActiveTab("ai-expander");
+    setActiveTab("dictionary");
   };
 
   // Stats
