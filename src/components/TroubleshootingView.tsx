@@ -200,6 +200,22 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
       {/* SECTION 1: DIAGNOSTIC ASSISTANT */}
       {activeTab === "diagnostic" && (
         <div className="space-y-6">
+          {/* Welcome Banner Card - Yellow Centered */}
+          <div className="bg-gradient-to-br from-amber-50 via-amber-100/60 to-yellow-50 border-2 border-amber-300/80 rounded-3xl p-6 sm:p-7 shadow-xs relative overflow-hidden text-center">
+            <div className="relative z-10 space-y-2.5 max-w-3xl mx-auto flex flex-col items-center">
+              <div className="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-amber-400 text-slate-950 font-black text-xs tracking-wider uppercase shadow-xs">
+                <Wrench className="w-3.5 h-3.5" />
+                <span>Oficina do Bordado & Mecânica</span>
+              </div>
+              <h3 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+                Diagnóstico Técnico da Máquina & Sintomas do Ponto
+              </h3>
+              <p className="text-slate-700 text-xs sm:text-sm font-medium leading-relaxed">
+                Linha quebrando, ponto fofo, ninho no avesso ou agulha batendo? Selecione o sintoma ou preencha os parâmetros de trabalho para receber uma análise precisa das causas mecânicas e a regulagem correta!
+              </p>
+            </div>
+          </div>
+
           {/* Diagnostic Form */}
           <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-7 shadow-xs space-y-6">
             <div className="border-b border-slate-100 pb-4">
@@ -615,6 +631,22 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
       {/* SECTION 2: GUIDES CATALOG */}
       {activeTab === "guides" && (
         <div className="space-y-5">
+          {/* Welcome Banner Card - Yellow Centered */}
+          <div className="bg-gradient-to-br from-amber-50 via-amber-100/60 to-yellow-50 border-2 border-amber-300/80 rounded-3xl p-6 sm:p-7 shadow-xs relative overflow-hidden text-center">
+            <div className="relative z-10 space-y-2.5 max-w-3xl mx-auto flex flex-col items-center">
+              <div className="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-amber-400 text-slate-950 font-black text-xs tracking-wider uppercase shadow-xs">
+                <Layers className="w-3.5 h-3.5" />
+                <span>Acervo Técnico Ilustrado • {guides.length} Manuais</span>
+              </div>
+              <h3 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+                Biblioteca Prática de Manutenção & Boas Práticas
+              </h3>
+              <p className="text-slate-700 text-xs sm:text-sm font-medium leading-relaxed">
+                Consulte nossos guias completos e ilustrados sobre agulhas, linhas, caixa de bobina, tensão, entretelas e lubrificação. Todo o conhecimento de bancada para consulta imediata, sem precisar preencher formulários!
+              </p>
+            </div>
+          </div>
+
           {/* Filter Bar */}
           <div className="bg-white border border-slate-200 rounded-3xl p-4 sm:p-5 shadow-xs flex flex-col md:flex-row items-center justify-between gap-3">
             <div className="relative w-full md:w-80">

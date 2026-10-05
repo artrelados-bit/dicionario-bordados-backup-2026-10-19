@@ -207,18 +207,18 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
   return (
     <div className="space-y-6">
       {/* Welcome Banner Card */}
-      <div className="bg-gradient-to-br from-amber-50 via-amber-100/60 to-yellow-50 border-2 border-amber-300/80 rounded-3xl p-6 sm:p-7 shadow-xs relative overflow-hidden">
-        <div className="relative z-10 space-y-2">
-          <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-amber-400 text-slate-950 font-black text-xs tracking-wider uppercase shadow-xs">
+      <div className="bg-gradient-to-br from-amber-50 via-amber-100/60 to-yellow-50 border-2 border-amber-300/80 rounded-3xl p-6 sm:p-7 shadow-xs relative overflow-hidden text-center">
+        <div className="relative z-10 space-y-2.5 max-w-3xl mx-auto flex flex-col items-center">
+          <div className="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-amber-400 text-slate-950 font-black text-xs tracking-wider uppercase shadow-xs">
             <Sparkles className="w-3.5 h-3.5" />
             <span>Consultoria Especialista Artrelados</span>
           </div>
           <h3 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
             Socorro para Peças Prontas, Desafios de Tecidos & Acabamentos
           </h3>
-          <p className="text-slate-700 text-xs sm:text-sm font-medium leading-relaxed max-w-3xl">
+          <p className="text-slate-700 text-xs sm:text-sm font-medium leading-relaxed">
             Teve algum imprevisto com um bordado pronto (como o avesso áspero na fralda de bebê),
-            teve dúvidas sobre tecidos difíceis (toalhas felpudas, malha, couro) ou precisa de uma ideia criativa
+            dúvidas sobre tecidos difíceis (toalhas felpudas, malha, couro) ou precisa de uma ideia criativa
             para consertar uma peça sem desmanchar? <strong>Descreva livremente abaixo</strong> com suas palavras!
           </p>
         </div>
