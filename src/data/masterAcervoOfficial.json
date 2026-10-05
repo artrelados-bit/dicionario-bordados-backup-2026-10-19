@@ -15055,1173 +15055,859 @@
   },
   {
     "id": "b-bordado-ponto-cruz-eletronico",
-    "code": "B-000",
-    "term": "Bordado com Ponto Cruz Eletrônico (Machine Cross Stitch & Digital Tapestry)",
+    "code": "B-119",
     "letter": "B",
-    "level": "Iniciante 🟢 a Intermediário 🟡",
-    "category": "Técnicas Especiais & Estilos Históricos",
-    "grammarClass": "Locução substantiva técnica",
-    "origin": "Do latim punctum crucis (ponto em cruz), uma das formas mais antigas de bordado da história humana, encontrada em relíquias de tumbas egípcias e na Ásia Central desde a Antiguidade. A transposição para o bordado computadorizado ocorreu no final da década de 1990 com a criação de módulos dedicados em softwares de digitalização (como o Wilcom Cross Stitch, PE-Design e Embird Cross Stitch), que permitiram converter gráficos milimetrados e cartelas de meadas em cruzetas digitais com repetições e trajetórias otimizadas sem quebras de linha.",
-    "summary": "Técnica digital que simula com exatidão o ponto cruz tradicional à mão através de cruzetas geométricas parametrizadas em grades milimétricas.",
-    "definition": "O Bordado com Ponto Cruz Eletrônico é a técnica e o estilo de programação de matriz no qual o software converte desenhos gráficos, quadros renascentistas, alfabetos ou motivos folclóricos em uma grade quadriculada regular (equivalente às tramas de tecido etamine ou aida de 11, 14, 16 ou 18 pontos por polegada). A máquina executa cada quadrícula formando uma cruzeta com duas pernas diagonais sobrepostas (a primeira perna inferior e a segunda perna superior). O algoritmo traça a sequência de percurso mais eficiente para conectar dezenas de cruzetas da mesma cor de forma contínua, minimizando saltos com corte e evitando nós no avesso, criando a ilusão perfeita de uma tapeçaria artesanal feita manualmente com meadas de algodão.",
-    "technicalDetails": "A qualidade do Ponto Cruz digital baseia-se na rigorosa padronização de três parâmetros fundamentais: 1) Uniformidade de Orientação Diagonal: todas as cruzetas da matriz devem ter a mesma perna sobreposta superior (convencionalmente, a perna / é bordada primeiro e a perna \\ é bordada por cima), garantindo que a reflexão da luz sobre os filamentos da linha seja idêntica em toda a peça; 2) Número de Passadas (Ply / Count): o programador define a espessura da linha configurando 1, 2 ou 3 passadas para cada perna da cruz (sendo 2 passadas o padrão de maior cobertura em linhas comuns 120); 3) Alinhamento dos Quatro Cantos: a calibragem da máquina e a compensação de encolhimento devem ser estritas para que os quatro vértices de cada ponto entrem exatamente nos mesmos orifícios das cruzetas adjacentes, sem deixar frestas brancas nem sobreposições desalinhadas.",
-    "beginnerExplanation": "Quem não se lembra de ver avós ou mães bordando ponto cruz em toalhinhas de mão, contando furinho por furinho no tecido etamine com meada de algodão? Era um trabalho lindo, mas que levava semanas para fazer um pequeno ramalhete de flores! Com o Ponto Cruz Eletrônico, a máquina de bordar faz exatamente esses mesmos pontinhos em X, mas com a rapidez do computador! A máquina vai fazendo cruzeta por cruzeta em perfeita harmonia geométrica. Quando você olha o bordado pronto, parece que alguém passou dias fazendo ponto cruz à mão com o maior carinho do mundo!",
-    "characteristics": [
-      "Simulação fidedigna do ponto cruz manual tradicional em alta velocidade mecânica",
-      "Estrutura baseada em malha ortogonal fixa (grades de 1,5 mm a 3,0 mm por cruzeta)",
-      "Padronização absoluta da direção da perna superior para brilho homogêneo",
-      "Pode ser bordado em qualquer tecido plano (tricoline, percal, linho) sem precisar de etamine",
-      "Ideal com linhas de acabamento fosco (algodão ou poliéster fosco) para efeito artesanal"
-    ],
-    "construction": [
-      "1. Grade quadriculada digital: Matriz programada em passos milimétricos (ex: 14 cruzetas por polegada)",
-      "2. Perna inferior da cruz: Pesponto diagonal inclinado em 45°",
-      "3. Perna superior de fechamento: Pesponto diagonal oposto que cruza e sela o motivo",
-      "4. Linha de ligação (Travel Stitch): Ponto reto de transporte imperceptível entre cruzetas contíguas",
-      "5. Tecido base com entretela estável: Tecido plano sustentado por entretela rasgável ou recorte"
-    ],
+    "term": "Bordado com Ponto Cruz Eletrônico (Machine Cross Stitch & Digital Tapestry)",
+    "level": "Fundamental 🟢",
+    "category": "Pontos & Estruturas",
+    "grammarClass": "Locução nominal técnica. Do latim punctus transversus e do inglês machine cross stitch.",
+    "origin": "Tradição milenar do bordado manual em tecido étamine e linhagem contada, digitalizada nos anos 1990 com módulos dedicados em softwares como Wilcom e Embird Cross Stitch.",
+    "summary": "Técnica computadorizada que replica o clássico ponto cruz artesanal em grade perfeita, utilizando fios de algodão ou poliéster fosco sem deformar a trama.",
+    "definition": "O bordado com ponto cruz eletrônico (Machine Cross Stitch / Digital Tapestry Automation) é a modalidade de programação e costura vetorial que emula com exatidão matemática os pequenos 'X' da tapeçaria e do ponto cruz artesanal sobre tecidos lisos ou tramados (como étamine, linho e fustão). O software divide o desenho em uma malha ortogonal milimétrica (geralmente de 14 a 18 nós por polegada) e programa cada cruz com 2 a 4 passagens de linha sobrepostas, garantindo volume, alinhamento rigoroso das diagonais e ausência de nós grosseiros no avesso.",
+    "technicalDetails": "Parâmetros geométricos e de repetição de ponto cruz:\n• Contagem de malha (Mesh Count): De 10 a 20 pontos por polegada (equivalente ao tecido Aida 14);\n• Número de passadas por braço: Ponto Simples (2 fios), Ponto Duplo (4 fios com mais relevo) ou Tríplice;\n• Tipo de Linha: Fios de algodão nº 50/2 ou poliéster fosco (Matte Finish) para evitar brilho sintético excessivo;\n• Sentido das Diagonais: Padronização mandatória (todas as primeiras pernas para a esquerda e as segundas para a direita).",
     "howItWorks": [
-      "1. O desenho é quadriculado no software de matriz, definindo-se o tamanho de cada cruzeta (ex: 1,8 mm).",
-      "2. O software calcula o caminho contínuo para bordar todas as cruzetas da mesma cor sem cortes desnecessários.",
-      "3. O tecido é montado no bastidor com entretela rasgável bem esticada como a pele de um tambor.",
-      "4. A máquina borda a perna inferior das cruzetas e retorna cobrindo com a perna superior.",
-      "5. As conexões entre pontos próximos são feitas por baixo ou ao longo das bordas das cruzetas.",
-      "6. A cada troca de cor, a máquina realiza o nó de arremate e o corte automático de linha.",
-      "7. Ao término, a peça revela um quadro nobre com textura quadriculada e charme rústico acolhedor."
+      "1. No software de matrizes, abra o módulo dedicado de Ponto Cruz (Cross Stitch).",
+      "2. Importe o gráfico clássico em quadrículos ou converta um mapa de pixels na grade.",
+      "3. Configure o tamanho do quadrículo (padrão: 1,8 mm a 2,0 mm de lado).",
+      "4. Defina a quantidade de passadas (Ponto Duplo garante cobertura artesanal cheia).",
+      "5. A máquina borda cada cruz com micropontos ordenados, viajando de cruz em cruz por baixo.",
+      "6. A peça ganha a aparência idêntica ao bordado feito à mão com agulha de tapeçaria.",
+      "7. Um gráfico complexo que levaria 3 semanas para ser bordado à mão é finalizado em 20 minutos no bastidor."
     ],
-    "mainTypes": [
-      "Ponto Cruz Completo (Full Cross): Cruzeta tradicional completa em formato de X com duas diagonais perfeitas.",
-      "Meio Ponto Cruz (Half Cross): Apenas uma diagonal (/), muito utilizado em fundos aquarelados e áreas de sombra suave.",
-      "Ponto Cruz Francês / Com Nó Francês (French Knot Accent): Combinação de cruzetas com pequenos nós em relevo para miolos de flores.",
-      "Ponto Atrás de Contorno (Backstitch Outline): Pespontos retos finos que contornam as figuras quadriculadas dando nitidez aos olhos e feições."
-    ],
+    "beginnerExplanation": "Sabe aquele ponto cruz que a nossa avó fazia pacientemente contando buraquinho por buraquinho no pano étamine? A máquina de bordar moderna consegue fazer exatamente a mesma coisa, só que mil vezes mais rápido! No computador, o desenho vira milhares de cruzinhas perfeitas. A máquina borda cruz por cruz no tecido com uma precisão cirúrgica, parecendo que foi feito à mão com todo o carinho do mundo!",
     "applications": [
-      "Enxovais infantis com motivos clássicos (ursinhos, coelhos, florzinhas e alfabetos nostálgicos)",
-      "Toalhas de banho e rosto com barrados florais e arabescos nobres",
-      "Quadros decorativos e tapeçarias emolduradas reproduzindo pinturas e paisagens rurais",
-      "Panos de prato de luxo com motivos de cozinha vintage e receitas estilizadas",
-      "Almofadas de estilo rústico / cottagecore em linho puro e algodão cru"
+      "Toalhas de lavabo, panos de prato e jogos de mesa com motivos clássicos florais",
+      "Enxovais de bebê com motivos infantis campestres e nomes em ponto cruz",
+      "Quadros decorativos e bastidores de parede com réplicas de pinturas antigas"
     ],
-    "recommendedSettings": {
-      "speedPPM": "500 a 650 PPM (velocidade moderada garante que as pontas das cruzetas entrem no mesmo furo)",
-      "needleType": "Agulha 75/11 Ponta Aguda (Sharp / Microtex) para perfurações exatas no tecido",
-      "stabilizer": "Entretela rasgável de 50 g/m² ou entretela termocolante estável para tecidos finos",
-      "density": "Tamanho da cruzeta entre 1,5 mm e 2,2 mm com 2 passadas por perna (para cobertura plena)",
-      "pullCompensation": "0,20 mm a 0,30 mm (compensação leve para evitar deformação dos quadrados)",
-      "underlay": "Sem sob-costura (as próprias cruzetas formam a estrutura do bordado)",
-      "threadTension": "Tensão superior ligeiramente equilibrada para cruzetas perfeitamente planas"
-    },
-    "advantages": [
-      "✔ Produz em 15 minutos um bordado que levaria dias de trabalho manual paciente",
-      "✔ Pode ser aplicado em qualquer tecido fino ou liso, dispensando o tecido etamine perfurado",
-      "✔ Apelo emocional fortíssimo junto a clientes que apreciam o charme do bordado clássico de família",
-      "✔ Reversibilidade visual: no avesso, as linhas formam fileiras verticais retas como o ponto cruz manual perfeito"
-    ],
-    "limitations": [
-      "Exige software com módulo de ponto cruz específico para gerar a sequência correta",
-      "Desenhos com curvas muito suaves aparecem ligeiramente pixelados devido à natureza quadriculada",
-      "Requer tecido muito bem tensionado no bastidor para evitar que os cantos das cruzes fiquem desalinhados"
+    "matrixRelations": [
+      "Tipo de Linha: Fio fosco ou algodão dá o toque rústico idêntico ao bordado manual; poliéster brilhante dá aspecto mais moderno.",
+      "Compensação de Repuxo: Quase nula no ponto cruz, pois cada cruz estabiliza sua própria tensão nos 4 vértices.",
+      "Entretela de Suporte: Exige entretela rasgável de boa gramatura (50g a 60g) para manter os vértices ortogonais."
     ],
     "commonErrors": [
-      "❌ Usar linha de alto brilho e velocidade máxima (850 PPM): o reflexo denuncia a máquina e quebra o efeito artesanal",
-      "❌ Deixar cruzetas vizinhas com orientações invertidas (umas com / por cima e outras com \\ por cima)",
-      "❌ Usar entretela muito elástica ou frouxa: as cruzetas viram retângulos tortos e perdem a geometria",
-      "❌ Fazer cruzetas grandes demais (acima de 3 mm) com apenas 1 passada: a trama do tecido fica transparente por baixo",
-      "❌ Puxar o tecido frouxo no bastidor criando desalinhamento entre cruzetas da mesma linha"
+      "Usar tamanho de quadrículo muito pequeno (< 1,2 mm), fazendo os pontos virarem caroços embolados de linha",
+      "Inverter o sentido das diagonais no meio do desenho, deixando cruzes desalinhadas que refletem a luz de forma feia",
+      "Usar ponto cruz simples de 1 passada em tecidos grossos, deixando o bordado ralo e com o fundo aparecendo",
+      "Deixar a máquina dar cortes de linha a cada cruzinha, demorando horas para bordar uma faixa simples"
+    ],
+    "howToIdentify": [
+      "Bordado parecendo ralo e sem relevo quando olhado de perto (falta de repetição de passadas no software)",
+      "Linhas de viagem visíveis cruzando por cima do tecido em áreas vazias entre as cruzes",
+      "Cruzes tortas que parecem retângulos inclinados (tecido mal esticado no bastidor perdendo a geometria)"
     ],
     "troubleshootingTips": [
-      "Se as cruzetas ficarem ralas e transparentes: altere a configuração no software para 2 ou 3 passadas de fio por perna da cruz (Double / Triple Stitch).",
-      "Se o tecido repuxar e abrir buraquinhos nos cantos da cruz: substitua a agulha por uma 70/10 Microtex bem afiada e utilize entretela rasgável dupla.",
-      "Se o bordado parecer artificial e plástico demais: experimente usar linha de algodão egípcio para bordar ou linha de poliéster com acabamento fosco (Matte Thread)."
+      "No módulo de ponto cruz: configure SEMPRE para 'Ponto Duplo' (Double Pass) para garantir que a cruz fique gordinha e nítida.",
+      "Para toalhas felpudas: use étamine com entretela no avesso e filme hidrossolúvel de topo para os pezinhos das cruzes não sumirem.",
+      "Use agulhas de ponta fina e redonda leve (calibre 75/11) para não rasgar as fibras do tecido nos vértices das cruzes."
     ],
-    "dicaArtrelados": "O Truque da Linha Fosca (Matte Thread) e da Agulha Microtex: para que o seu ponto cruz na máquina computadorizada fique TÃO IDÊNTICO ao bordado à mão que nem mesmo a mais experiente bordadeira manual consiga notar a diferença, use linhas de poliéster com acabamento fosco (como a Frosted Matt) ou linha fina de algodão 100%! O brilho comum das linhas de poliéster normais entrega que foi feito na máquina; já a linha fosca tem exatamente a mesma textura aveludada e opaca das meadas de algodão tradicionais, resultando em peças com valor nostálgico inestimável!",
-    "voceSabia": "O ponto cruz manual é considerado uma das primeiras formas de arte em pixels do mundo! Muito antes da invenção dos computadores e das telas digitais com pixels gráficos, as bordadeiras medievais já desenhavam retratos e castelos compondo imagens através de pequenos blocos quadrados individuais formados pelas cruzetas!",
-    "practicalExercise": "Exercício de Bancada (A Toalhinha com Monograma em Ponto Cruz Digital):\n1. Selecione uma matriz de letra do alfabeto em ponto cruz geométrico (tamanho de cruzeta de 1,8 mm).\n2. Coloque um retalho de tricoline lisa bem esticada no bastidor com entretela rasgável.\n3. Coloque uma linha vermelha ou azul fosca na máquina e borde a letra em velocidade média (550 PPM).\n4. Retire a entretela do avesso e observe: veja como o avesso fica todo em risquinhos verticais perfeitos e a frente parece uma meada bordada à mão ponto por ponto!",
-    "quickSummary": "Técnica digital que recria com exatidão artesanal o tradicional ponto cruz em malha quadriculada, proporcionando o charme nostálgico das meadas com a agilidade da máquina.",
+    "dicaArtrelados": "O Segredo do Ponto Cruz com Cara de Vovó Artrelados: Se você quiser que o seu ponto cruz eletrônico fique IDÊNTICO ao bordado à mão da sua avó, use linha de bordar fosca (com acabamento mate) ou linha de algodão fino na agulha! A linha de poliéster tradicional brilha muito e entrega que foi feito na máquina; já a linha fosca dá aquela textura aveludada e rústica que as clientes de mesa posta são apaixonadas!",
+    "voceSabia": "O ponto cruz é uma das formas de bordado mais antigas do mundo, com achados arqueológicos em múmias egípcias datadas de 500 a.C. e na Ásia Central! A primeira patente de software para automatizar o ponto cruz em máquinas computadorizadas foi registrada no Japão em 1989!",
+    "practicalExercise": "No seu software, abra o módulo de ponto cruz e digite a inicial do seu nome com tamanho de grade de 2 mm e 2 passadas por cruz. Borde em um retalho de linho com linha vermelha: compare com uma peça feita à mão e veja como os olhos não conseguem distinguir!",
+    "quickSummary": "Modalidade digital que recria com exatidão milimétrica o clássico ponto cruz artesanal sobre qualquer tecido no bastidor.",
     "relatedTerms": [
-      "Bordado Tradicional Direto / Bordado Plano (Direct Flat Embroidery)",
-      "Ponto Corrido / Ponto Reto (Running Stitch)",
-      "Ponto Semente / Ponto Areia (Seed Stitch)",
-      "Entretela Rasgável (Tearaway)",
-      "Compensação de Encolhimento (Pull Compensation)"
+      "Ponto de Contorno",
+      "Software de Programação (Digitizing)",
+      "Ponto Cheio (Satin Stitch)",
+      "Entretela Rasgável",
+      "Linha de Algodão para Bordado"
     ],
-    "tags": [
-      "ponto cruz",
-      "cross stitch",
-      "ponto cruz eletronico",
-      "bordado nostagico",
-      "linha fosca",
-      "etamine digital",
-      "enxoval de bebe",
-      "artesanato digital"
-    ],
-    "updatedAt": "2026-09-28"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "b-023-bordado-continuo",
     "code": "B-023",
-    "term": "Bordado Contínuo",
-    "level": "Avançado 🔴",
-    "grammarClass": "Substantivo masculino.",
-    "origin": "Do latim 'continuus' (ininterrupto, sem quebra de sequência) e do francês 'broderie' (motivo bordado).",
+    "letter": "B",
+    "term": "Bordado Contínuo (Bordado sem Fim / Endless Embroidery)",
+    "level": "Intermediário 🟡",
     "category": "Técnicas de Bastidor",
-    "summary": "Técnica de emendar matrizes sequencialmente para cobrir extensões longas de tecido.",
-    "definition": "O bordado contínuo (Endless Embroidery / Continuous Border) é o método técnico de reenquadramento milimétrico sequencial que permite bordar barrados ininterruptos, faixas decorativas e arabescos de extensão infinita ao longo de peças longas de tecido, através de cruzamentos de alinhamento e bastidores especiais.",
-    "technicalDetails": "A matriz é digitalizada com marcações finais e iniciais idênticas de registro (pontos de cruzeta ou pontos de agulha de alinhamento nos eixos X e Y). O operador utiliza gabaritos com linhas guias e bastidores especiais contínuos com molas de travamento lateral (Endless Hoop) para avançar a tira de tecido em passos uniformes sem deformar o paralelismo da barra.",
-    "beginnerExplanation": "É o jeito de fazer aqueles barrados compridos e maravilhosos que vão de uma ponta à outra de uma toalha de mesa de 2 metros ou de um lençol de casal! Você borda um pedaço, solta o tecido do bastidor, encaixa certinho na marquinha e borda o próximo pedaço sem ninguém notar onde foi a emenda!",
-    "construction": [
-      "Bastidor Especial Contínuo (Endless Hoop com Alavancas Laterais de Pressão)",
-      "Gabarito Transparente Milimetrado com Eixos X e Y",
-      "Cruzetas de Registro e Alinhamento Programadas no Início e Fim da Matriz",
-      "Fita Métrica e Giz de Alfaiate Termossensível para Linha Guia de Base"
-    ],
+    "grammarClass": "Locução nominal técnica. Do latim continuus (ininterrupto) e do inglês endless continuous border.",
+    "origin": "Técnica industrial de rolos de tecido adaptada para máquinas domésticas e semi-industriais com bastidores de engate aberto e gabaritos de alinhamento milimétrico.",
+    "summary": "Técnica de emendas perfeitas que permite bordar barras infinitas em lençóis, toalhas e cortinas sem interrupções visíveis nem desvios.",
+    "definition": "O bordado contínuo (Endless Border Embroidery / Repetição Contínua no Bastidor) é o método técnico de execução seriada de barrados, rendas e galões de comprimento ilimitado em peças têxteis longas (como lençóis de casal, caminhos de mesa, toalhas de banho e cortinas). A técnica baseia-se na divisão matricial do desenho em módulos interligáveis e no uso de pontos de referência ópticos ou cruzes de alinhamento (Alignment Marks) que garantem a junção invisível milimétrica da costura cada vez que o tecido é reposicionado e re-enquadrado no bastidor.",
+    "technicalDetails": "Metodologia de encaixe e tolerâncias milimétricas:\n• Tolerância máxima de erro na emenda: Inferior a 0,5 mm para manter a ilusão de fita única contínua;\n• Marcadores de Encaixe: Cruzes de costura preliminares de 3 mm costuradas no início e no fim de cada módulo;\n• Bastidores Especiais: Bastidores Endless com abertura lateral e presilhas de alavanca que dispensam desapertar parafusos;\n• Sentido de Produção: Deslocamento linear rigorosamente paralelo à ourela do tecido.",
     "howItWorks": [
-      "1. Traça-se uma linha reta de giz no tecido marcando a distância exata da bainha.",
-      "2. Encaixa-se o primeiro segmento no bastidor alinhando o giz com o centro do gabarito.",
-      "3. A máquina borda o primeiro módulo e finaliza costurando uma cruzeta de registro na extremidade.",
-      "4. O operador abre as travas do bastidor, desliza o tecido para a esquerda e posiciona a agulha exatamente sobre a cruzeta bordada.",
-      "5. Trava o bastidor e inicia o segundo módulo: os pontos continuam perfeitamente sem falha visual!"
+      "1. Programe a matriz do barrado com marcas de encaixe (pequenas cruzes de agulha) nas duas extremidades.",
+      "2. Prenda a primeira seção do tecido no bastidor alinhado à régua guia.",
+      "3. A máquina borda o primeiro módulo e finaliza bordando duas cruzes guias na ponta direita.",
+      "4. Abra as travas do bastidor contínuo e deslize o tecido para a esquerda.",
+      "5. Posicione a agulha sobre a cruz guia deixada no primeiro bordado usando a função de posicionamento fino do painel.",
+      "6. A máquina reinicia e conecta o segundo módulo exatamente sobre a ponta do anterior.",
+      "7. Repita o processo quantas vezes quiser, criando barrados de 2 ou 3 metros sem nenhuma costura cortada visível."
     ],
-    "mainTypes": [
-      "Bordado Contínuo em Bastidor Endless (Bastidor especial de engate rápido)",
-      "Bordado Contínuo em Bastidor Convencional (Com uso de gabarito e cruzetas de registro)",
-      "Bordado Contínuo em Máquinas Industriais Planas (Deslocamento automático de rolo contínuo)"
+    "beginnerExplanation": "Você já viu aqueles lençóis de casal de hotel de luxo que têm um bordado lindo que vai de uma ponta à outra da cama sem parar? Como a máquina de bordar tem um bastidor pequeno (tipo 13x18 ou 16x26), você não consegue bordar 2 metros de uma vez só! O bordado contínuo é o truque de 'costurar emendando': a máquina borda um pedaço, faz duas marquinhas, você empurra o tecido para frente, mira a agulha na marquinha e ela continua bordando como se nunca tivesse parado!",
+    "applications": [
+      "Barrados decorativos em lençóis de cama king, queen e solteiro",
+      "Caminhos de mesa compridos de 2 a 3 metros para festas e ceias",
+      "Bainhas rendadas em cortinas de linho e xales de sofá"
     ],
-    "advantages": [
-      "✔ Permite criar barrados majestosos de qualquer comprimento mesmo em máquinas com bastidores pequenos",
-      "✔ Valorização imensa de peças nobres de cama, mesa, banho e alfaiataria religiosa",
-      "✔ Encaixe visual contínuo que parece ter sido produzido em um único bastidor gigante",
-      "✔ Abre oportunidades para artigos sob medida de alto luxo"
-    ],
-    "limitations": [
-      "Exige paciência, precisão extrema no reenquadramento manual e uso de linha guia impecavelmente reta."
+    "matrixRelations": [
+      "Marcadores de Encaixe (Alignment Marks): Elemento obrigatório na matriz para permitir mira a laser ou ponto de agulha.",
+      "Compensação de Repuxo: Deve ser idêntica nas duas pontas do módulo para as colunas de satim não ficarem com espessuras diferentes na emenda.",
+      "Tensão de Bastidor: Manter a mesma tensão em todas as trocas de bastidor para o tecido não repuxar torto."
     ],
     "commonErrors": [
-      "❌ Desviar a linha de base em 1 ou 2 milímetros a cada troca, entortando a barra ao longo do lençol.",
-      "❌ Esquecer de bordar a cruzeta de registro no final do módulo anterior.",
-      "❌ Puxar o tecido esticando mais de um lado ao travar o bastidor contínuo."
+      "Bordar sem marcas de alinhamento na matriz, tentando adivinhar a emenda no olho e deixando degraus tortos",
+      "Puxar o tecido de lado durante o reposicionamento, entortando a linha reta da bainha do lençol",
+      "Sobrepor as emendas com satim duplo espesso, criando um caroço duro e feio no meio do barrado",
+      "Esquecer de conferir o esquadro em relação à borda do tecido a cada troca de bastidor"
+    ],
+    "howToIdentify": [
+      "Um 'dente' ou desvio visível de 2 milímetros onde uma etapa do bordado encontrou a outra",
+      "O barrado indo ficando torto e se aproximando da borda da toalha conforme vai avançando",
+      "Um nó grosso e escuro no ponto de junção das duas etapas do bordado"
     ],
     "troubleshootingTips": [
-      "Utilize a função de feixe de laser da máquina (ou a ponta da agulha descida manualmente com o volante) para confirmar se ela está cravada 100% no centro da cruzeta de alinhamento.",
-      "Cole uma fita crepe de pintor longa no tecido servindo como guia reta paralela à régua do bastidor."
+      "Use giz de alfaiate ou caneta que apaga com calor para traçar uma linha reta guia longa ao longo de todo o comprimento do tecido.",
+      "Use o recurso de luz LED de posicionamento ou abaixe a agulha com o volante manual para checar o centro exato da cruz guia.",
+      "Se você faz muitos barrados compridos: invista em um bastidor do tipo 'Endless Hoop' (com presilhas rápidas de encaixe)."
     ],
-    "applications": [
-      "Barrados de toalhas de banho e de mesa, lençóis de casal, cortinas de linho, batinas litúrgicas e barras de vestidos de noiva."
-    ],
-    "practicalExercise": "Em uma faixa de percal de 1 metro, risque uma reta com caneta fantasminha. Borde um módulo de arabesco de 15 cm com cruzeta de registro no fim. Solte o bastidor, alinhe a cruzeta com a agulha e borde o segundo módulo: veja como a junção fica imperceptível a olho nu!",
-    "quickSummary": "Bordado contínuo é a técnica de reenquadramento sequencial de matrizes com cruzetas de registro para criar barrados decorativos de comprimento ilimitado.",
-    "voceSabia": "Antes da invenção dos bastidores digitais contínuos nos anos 2000, as bordadeiras tradicionais marcavam a emenda de barrados contando os fios da trama do linho com uma lupa de alfaiate!",
-    "dicaArtrelados": "Ao criar a matriz do barrado no software, faça as pontas do desenho se cruzarem em 0.5 mm no ponto de emenda: essa micro-sobreposição disfarça qualquer micro-variação de milímetro no encaixe manual!",
-    "recommendedSettings": {
-      "speedPPM": "600 a 750 PPM",
-      "needleType": "75/11 Ponta Fina Aguda",
-      "stabilizer": "Entretela Rasga-Fácil 70g em rolo contínuo"
-    },
+    "dicaArtrelados": "O Segredo da Linha de Giz Contínua Artrelados: Antes de colocar o lençol no bastidor, estique a peça na mesa e trace com régua de metal e giz de alfaiate uma linha guia reta do começo ao fim do tecido! Em todas as trocas de bastidor, alinhe essa linha reta nas marquinhas plásticas do seu bastidor. Assim, seu barrado pode ter 3 metros de comprimento que vai terminar retinho como uma régua!",
+    "voceSabia": "Nas fábricas têxteis industriais de rendas de cama e mesa, o bordado contínuo é feito em máquinas gigantescas chamadas 'Schiffli' que chegam a ter mais de 15 metros de comprimento e operam com mais de mil agulhas simultâneas bordando tecidos em rolos contínuos!",
+    "practicalExercise": "Programe um motivo simples de folhinhas de 10 cm com uma cruzinha na ponta. Borde a primeira seção em uma tira de tecido de 30 cm. Solte o bastidor, alinhe a agulha na cruzinha e borde a segunda seção: sinta a emoção de ver a junção perfeita sumir diante dos seus olhos.",
+    "quickSummary": "Metodologia de reposicionamento e emenda milimétrica no bastidor que permite criar barrados e rendas de comprimento ilimitado.",
     "relatedTerms": [
-      "Reenquadramento de Bastidor",
-      "Gabarito de Alinhamento",
-      "Bastidor Endless",
-      "Cruzeta de Registro",
-      "Barrado"
+      "Bastidor de Estágios",
+      "Alinhamento de Contorno",
+      "Marcadores de Encaixe (Alignment Marks)",
+      "Gabarito de Bastidor",
+      "Colocação no Bastidor (Hooping)"
     ],
-    "tags": [
-      "b-023",
-      "continuo",
-      "barrado",
-      "reenquadramento",
-      "endless",
-      "lencol",
-      "artrelados"
-    ],
-    "bibliographicReferences": [
-      "HUSQVARNA VIKING. Endless Embroidery Techniques & Hoop Alignment Manual. Huskvarna, 2021.",
-      "ARTRELADOS. Segredos do Bordado Contínuo e Barrados Perfeitos. Brasil, 2024."
-    ],
-    "updatedAt": "2026-08-19",
-    "letter": "B"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "b-041-bordado-cutwork",
     "code": "B-041",
-    "term": "Bordado Cutwork",
-    "level": "Avançado 🔴",
-    "category": "Pontos Básicos & Decorativos",
-    "grammarClass": "Locução substantiva masculina (substantivo + estrangeirismo/substantivo em inglês).",
-    "origin": "Do inglês 'cut' (cortar) e 'work' (trabalho/obra manual) — historicamente associado ao bordado Richelieu francês e renascentista.",
-    "summary": "Técnica de matriz com aberturas vazadas no tecido contornadas por pontos cheios estruturais.",
-    "definition": "O bordado Cutwork (amplamente conhecido no Brasil como Bordado Richelieu Computadorizado ou Bordado Vazado) é a técnica de bordado eletrônico caracterizada pela remoção controlada de partes do tecido base dentro do desenho, criando janelas vazadas unidas por pontes ornamentais (brides) e emolduradas por colunas densas de ponto cheio (Satin/Festonê). O corte do tecido pode ser realizado manualmente com tesourinha de ponta curva durante pausas programadas da máquina ou automaticamente com kits de 4 agulhas de lâmina cortadora (Cutwork Needles).",
-    "technicalDetails": "A estrutura de digitalização do Cutwork é rigorosamente dividida em 5 etapas sequenciais na matriz: 1) Ponto corrido de marcação do perímetro; 2) Pausa para corte do tecido no interior da área; 3) Aplicação de entretela hidrossolúvel de sustentação por baixo; 4) Costura das pontes de amarração (Brides / Richelieu Bars); 5) Fechamento com festonê em ponto cheio denso (0.35 mm a 0.40 mm) que cobre as bordas cortadas sem desfiar.",
-    "beginnerExplanation": "É a famosa técnica do bordado Richelieu que nossas avós faziam: a máquina costura o contorno de uma flor, para no meio para você cortar o tecido de dentro com uma tesourinha, e depois costura um ponto cheio bem fofinho por cima da beiradinha cortada para não desfiar nunca!",
+    "letter": "B",
+    "term": "Bordado Cutwork Tradicional no Bastidor (Manual Cutwork & Richelieu Window)",
+    "level": "Intermediário 🟡",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução nominal técnica. Do inglês cut (cortar) e work (trabalho), trabalho cortado / vazado.",
+    "origin": "Técnica nobre da Renascença italiana (século XIV) adaptada para máquinas eletrônicas nos anos 1980 com ciclos programados de parada para recorte com tesoura.",
+    "summary": "Técnica artesanal de abrir janelas e vazados no tecido com tesoura curva no meio do bordado, selando as bordas com ponto cheio acetinado.",
+    "definition": "O bordado Cutwork tradicional no bastidor (Manual Cutwork / Bordado Vazado de Parada Programada) é a técnica clássica de alfaiataria fina onde a matriz comanda uma parada automática da máquina após a costura de contorno inicial (ponto reto de corte), permitindo que a bordadeira recorte manualmente a área interna do tecido com tesoura de ponta curva fina. Em seguida, a máquina retoma o bordado, aplicando sob-pontos de travamento e uma coluna densa de ponto satim (ou festonê) sobre a borda cortada, vedando os fios soltos e criando rendados geométricos translúcidos de alto luxo.",
+    "technicalDetails": "Ciclo clássico dos 3 passos do Cutwork tradicional:\n• Passo 1: Ponto corrido duplo de fixação e contorno delimitando a área que será vazada;\n• Parada da Máquina (Stop/Color Change): O bastidor avança para o operador aparar o tecido rente à linha;\n• Passo 2: Sob-ponto de assentamento e travamento da borda recortada;\n• Passo 3: Coluna de satim larga (2,5 mm a 3,5 mm) de alta densidade (0,38 mm) que veda 100% o desfiamento.",
     "howItWorks": [
-      "1. A máquina costura uma linha de marcação definindo onde serão os furos vazados.",
-      "2. A máquina dá um comando de parada (Stop/Color Change). A operadora corta o tecido interno com tesoura de ponta curva.",
-      "3. Coloca-se uma folha de entretela hidrossolúvel por baixo do bastidor para dar suporte provisório.",
-      "4. A máquina costura as pontes decorativas (barras Richelieu) que cruzam o vão vazio.",
-      "5. A máquina fecha todas as bordas com ponto cheio (festonê) bem firme e denso.",
-      "6. Ao lavar com água morna, a hidrossolúvel some e os vazados ficam perfeitos no ar."
+      "1. Coloque o tecido de algodão ou linho no bastidor estruturado com entretela hidrossolúvel de boa espessura.",
+      "2. A máquina borda o contorno da área vazada em ponto reto e para automaticamente.",
+      "3. SEM tirar o tecido do bastidor, retire apenas o bastidor do pantógrafo e apoie sobre uma mesa plana.",
+      "4. Com uma tesourinha de ponta curva fina de precisão, recorte o miolo do tecido a 1 mm da costura.",
+      "5. Encaixe o bastidor de volta na máquina com cuidado para não bater o aro.",
+      "6. Aperte o Start: a máquina cobre a borda cortada com ponto satim fechado, abraçando a entretela hidrossolúvel.",
+      "7. Ao lavar a peça, a entretela dissolve e o vazado fica limpo, suspenso no ar com acabamento de alta costura."
     ],
-    "construction": [
-      "Linha de Corte / Posicionamento (Placement Line)",
-      "Janela Cortada do Tecido Base",
-      "Entretela Hidrossolúvel de Sustentação de Vão",
-      "Pontes Estruturais (Richelieu Brides)",
-      "Coluna de Cobertura em Ponto Cheio (Satin Festoon Border)"
+    "beginnerExplanation": "O Cutwork é aquele bordado chique de toalha de linho que tem 'buraquinhos' decorativos vazados no meio do tecido! Funciona como uma mágica em etapas: primeiro a máquina desenha onde vai ser o buraco com uma costurinha. Aí ela para, você pega a tesourinha de ponta curva e recorta o tecido daquele pedaço com muito carinho. Depois a máquina volta a costurar e cobre toda a beiradinha com um ponto cheio bem fechadinho, para o tecido nunca mais desfiar!",
+    "applications": [
+      "Jogos americanos e toalhas de linho nobre para jantares de gala",
+      "Golas e punhos de camisas e vestidos infantis de batizado",
+      "Almofadas clássicas, jogos de lençol e cortinas de quarto de bebê"
     ],
-    "mainTypes": [
-      "Cutwork Tradicional com Corte Manual (Pausas com tesoura curva de precisão)",
-      "Cutwork com Agulhas Cortadoras Automáticas (Kit com 4 agulhas em ângulos de lâmina: 0°, 45°, 90°, 135°)",
-      "Cutwork Combinado com Apliquê (Mistura de vazados com sobreposição de rendas e tules)"
-    ],
-    "characteristics": [
-      "Acabamento vazado de extrema delicadeza e altíssimo valor de venda",
-      "Exige tecidos firmes e estáveis de algodão, linho ou percal",
-      "Demanda precisão absoluta no corte manual para não cortar a linha da costura guia"
-    ],
-    "advantages": [
-      "✔ Permite confeccionar peças clássicas de Richelieu com velocidade até 10x maior que a manual",
-      "✔ Agrega prestígio e valor de enxoval de herança a toalhas, caminhos de mesa e batas",
-      "✔ O festonê denso lacra as pontas dos fios do tecido, resistindo a anos de uso",
-      "✔ Combina perfeitamente com bordados florais e monogramas clássicos"
-    ],
-    "limitations": [
-      "Requer paciência e habilidade manual durante o corte com a tesourinha no bastidor. Se a operadora cortar acidentalmente os pontos de fixação, o bordado pode desmanchar."
+    "matrixRelations": [
+      "Entretela Hidrossolúvel: Indispensável para sustentar o ponto satim na área onde o tecido foi cortado.",
+      "Largura do Satim: Deve ter no mínimo 2,5 mm para garantir que a beiradinha cortada fique totalmente embutida.",
+      "Parada Programada (Stop): O software deve inserir um comando de troca de cor para a máquina pausar para o recorte."
     ],
     "commonErrors": [
-      "❌ Cortar o tecido muito longe da linha guia (deixando sobras de fiapos para fora do ponto cheio).",
-      "❌ Cortar a linha de marcação por acidente com a ponta da tesoura.",
-      "❌ Usar entretela rasgável comum sob o vão (o papel fica preso no ar e não sai na lavagem).",
-      "❌ Fazer colunas de ponto cheio muito estreitas (menores que 2.5 mm) que não conseguem abraçar a borda cortada."
+      "Soltar o parafuso do bastidor para recortar o tecido, perdendo o enquadramento e desencaixando o bordado de acabamento",
+      "Recortar longe demais da costura de guia (mais de 2 mm), deixando sobras feias de tecido saindo por fora do satim",
+      "Cortar sem querer a entretela hidrossolúvel de baixo, fazendo os pontos finais caírem no buraco vazio",
+      "Usar tesoura cega ou de ponta reta que fura o tecido ao redor"
+    ],
+    "howToIdentify": [
+      "Fiapos desfiados do tecido escapando por baixo da coluna de satim na área vazada",
+      "O contorno de acabamento desencaixado da borda cortada (tecido mexeu no bastidor durante o recorte)",
+      "Pontos caindo no vazio e embolando por rompimento acidental da entretela de base"
     ],
     "troubleshootingTips": [
-      "Se ficarem fiapinhos saindo para fora do ponto cheio após o bordado, queime-os delicadamente com uma ponta de ferro de solda frio/morno ou apare com tesourinha de cutícula bem afiada.",
-      "Use tesoura de ponta curva de alta precisão (Duckbill ou tesoura pelicano) para cortar rente sem furar o tecido de baixo."
+      "Use SEMPRE tesoura especial de ponta curva e lâmina afiada (tipo tesoura de Cutwork ou garça).",
+      "Nunca desencaixe o tecido do bastidor: retire apenas o bastidor inteiro do braço da máquina para recortar na mesa.",
+      "Dobre a entretela hidrossolúvel (use 2 camadas) para garantir firmeza total durante o recorte."
     ],
-    "applications": [
-      "Caminhos de mesa em linho, toalhas de banho de noiva, vestidos de batizado, batas infantis de Richelieu e cortinas clássicas."
-    ],
-    "practicalExercise": " डिजिटलize ou pegue uma matriz simples de flor com miolo em Cutwork. Borde a linha de corte no bastidor em percal branco com hidrossolúvel por baixo. Quando a máquina parar, retire o bastidor da máquina (SEM soltar o tecido do aro!), corte o miolo da flor com a tesourinha a 1 mm da linha. Recoloque o bastidor na máquina e deixe bordar o festonê. Lave e admire seu primeiro Richelieu eletrônico!",
-    "quickSummary": "Bordado Cutwork é a técnica eletrônica do tradicional Richelieu, onde partes do tecido são cortadas e contornadas por pontos cheios perfeitos com pontes decorativas sobre o vão vazio.",
-    "voceSabia": "O Cardeal Richelieu, primeiro-ministro da França no século XVII, era tão apaixonado por esse estilo de bordado que proibiu a importação de rendas italianas na França para incentivar as bordadeiras francesas a criarem o estilo que hoje leva seu nome!",
-    "curiosidadeTecnica": "Nas máquinas industriais modernas com agulhas cortadoras Cutwork, as 4 agulhas possuem pontas afiadas como bisturis cirúrgicos e descem em ângulos cruzados a 400 PPM para picotar o tecido, eliminando totalmente o corte manual por tesoura.",
-    "dicaArtrelados": "O segredo de ouro do Richelieu no bordado computadorizado é nunca tirar o tecido do bastidor na hora de cortar! Retire apenas o bastidor do engate da máquina e apoie sobre uma mesa bem plana. Use uma tesourinha de lâmina curva voltada para cima: isso garante que a ponta da tesoura nunca fure a entretela hidrossolúvel de baixo!",
-    "recommendedSettings": {
-      "speedPPM": "500 a 700 PPM",
-      "needleType": "75/11 Ponta Fina Aguda (Microtex ou Bordado)",
-      "stabilizer": "Entretela Hidrossolúvel Dupla ou Hidrossolúvel Filme 40 microns"
-    },
+    "dicaArtrelados": "A Regra de Ouro do Bastidor no Cutwork Artrelados: Na hora de recortar o tecido com a tesourinha, NUNCA solte o aro do bastidor! Apenas destrave o bastidor da máquina e leve-o com tecido e tudo para a mesa da bancada. Apoie a mão por baixo para sentir a tesoura e recorte com calma. Assim que terminar, encaixe o bastidor de volta no pantógrafo: a sua máquina vai bordar o acabamento com encaixe cirúrgico de 100%!",
+    "voceSabia": "O Cutwork era o bordado favorito da rainha Elizabeth I da Inglaterra no século XVI! Como exigia semanas de trabalho de corte manual meticuloso, peças com Cutwork eram usadas como moeda de troca entre nobres europeus e valiam mais do que o próprio peso em moedas de ouro!",
+    "practicalExercise": "Em um pedaço de linho com entretela hidrossolúvel, borde um círculo de 4 cm com comando de parada. Retire o bastidor da máquina, recorte o centro do círculo com a tesoura curva a 1 mm da linha guia. Volte o bastidor e borde o satim de cobertura. Lave com água morna e veja nascer uma linda janelinha vazada perfeita!",
+    "quickSummary": "Técnica de corte manual no tecido no meio do bordado seguida de cobertura em ponto satim sobre base hidrossolúvel.",
     "relatedTerms": [
-      "Ponto Cheio (Satin)",
-      "Entretela Hidrossolúvel",
-      "Apliquê (Appliqué)",
-      "Ponto Festonê",
-      "Ponto de Parada (Stop)"
+      "Bordado Richelieu Eletrônico",
+      "Filme Hidrossolúvel",
+      "Ponto Satim (Satin Stitch)",
+      "Tesoura de Ponta Curva",
+      "Parada Programada (Stop)"
     ],
-    "tags": [
-      "b-041",
-      "cutwork",
-      "richelieu",
-      "vazado",
-      "festone",
-      "luxo",
-      "enxoval",
-      "artrelados"
-    ],
-    "bibliographicReferences": [
-      "BERNINA INTERNATIONAL. Creative Cutwork & Richelieu Techniques Guide. Steckborn, 2020.",
-      "ARTRELADOS. A Arte do Bordado Richelieu Eletrônico. Brasil, 2023."
-    ],
-    "updatedAt": "2026-08-18",
-    "letter": "B"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "b-bordado-cutwork-agulhas-corte-eletronico",
-    "code": "B-000",
-    "term": "Bordado Cutwork com Agulhas de Corte Eletrônico (Needle Cutwork System & 4-Needle Cutters)",
+    "code": "B-120",
     "letter": "B",
-    "level": "Intermediário 🟡 a Avançado 🔴",
-    "category": "Ferramentas Especiais & Dispositivos de Corte",
-    "grammarClass": "Locução substantiva técnica",
-    "origin": "Do inglês cut (cortar) e work (trabalho têxtil / lavores). O bordado vazado tradicional (Richelieu e Broderie Anglaise) exigia secularmente o corte manual paciente com pequenas tesouras curvas entre cada etapa de ponto. No início dos anos 2010, fabricantes como Bernina (sistema CutWork Tool), Inspira (Husqvarna Viking / Pfaff) e Brother desenvolveram conjuntos de quatro agulhas-lâminas orientadas angularmente (0°, 45°, 90° e 135°), permitindo que a própria máquina de bordado computadorizado corte o tecido com precisão cirúrgica de frações de milímetro diretamente no bastidor.",
-    "summary": "Sistema automatizado de corte no bastidor que utiliza agulhas-lâminas calibradas em 4 ângulos para abrir vazados precisos de Richelieu e rendas sem intervenção de tesoura manual.",
-    "definition": "O Bordado Cutwork com Agulhas de Corte Eletrônico é a tecnologia mecânica e digital pela qual elementos vazados (cutwork), ilhoses abertos e rendas Richelieu são seccionados automaticamente pela máquina de bordar através de agulhas dotadas de micro-cinzéis afiados em sua extremidade inferior. O sistema opera com um jogo de quatro agulhas codificadas por cores ou números, cada uma com sua lâmina fixada em um ângulo axial específico (Posição 1: 0°, Posição 2: 45°, Posição 3: 90° e Posição 4: 135°). O software de digitalização converte os contornos do desenho vazado em trajetórias de corte vetorial, comandando a máquina para descer as agulhas-lâminas sucessivamente, fatiando o tecido contra uma chapa de ponto especial e liberando o vão para o acabamento posterior em ponto cheio (satin) ou festonê.",
-    "technicalDetails": "A execução do Cutwork computadorizado requer a substituição temporária da agulha de costura convencional pela ferramenta de corte (ou sua instalação em posições designadas em máquinas multiagulhas). A chapa de agulha original com furo circular padrão deve ser trocada pela Chapa de Ponto Especial para CutWork (com orifício oval ou de corte livre), prevenindo que a lâmina colida com o metal da chapa. Para evitar o desfiamento do tecido durante o corte mecânico, a matriz comanda primeiro uma costura de ancoragem em ponto corrido duplo (running stitch) de 1,5 mm de comprimento ao longo de todo o perímetro da área a ser removida. Em seguida, a máquina instrui a troca sequencial das lâminas 1, 2, 3 e 4. A tolerância de corte é de 0,2 mm, permitindo vazar até 15 camadas de tecido em apliques múltiplos com extrema repetibilidade.",
-    "beginnerExplanation": "Fazer bordado vazado tipo Richelieu na mão dá um trabalho danado: você tem que parar a máquina toda hora, tirar o bastidor, pegar aquela tesourinha de ponta curva bem fininha e cortar o tecido com todo o cuidado do mundo para não cortar a linha da máquina nem furar a entretela! O sistema de Cutwork com Agulhas de Corte faz essa mágica sozinho! Em vez de usar agulha de furar com linha, a máquina usa uma agulha especial que tem uma laminazinha afiada na ponta (como se fosse um mini-estilete). A máquina vai cortando o tecido certinho dentro do bastidor, em todas as direções! Depois que o buraco está aberto, você coloca a agulha de linha de volta e a máquina faz aquele acabamento de ponto cheio perfeito em volta do buraco!",
-    "characteristics": [
-      "Substitui tesouras de precisão por corte mecânico automatizado no próprio bastidor",
-      "Kit com 4 agulhas-lâminas orientadas em ângulos cardeais e diagonais (0°, 45°, 90°, 135°)",
-      "Necessidade de chapa de ponto reta/aberta compatível para não amassar as lâminas",
-      "Gera bordas vazadas com tolerância cirúrgica de 0,2 mm",
-      "Compatível com matrizes de Richelieu, Broderie Anglaise, apliques vazados e patchwork"
-    ],
-    "construction": [
-      "1. Base estabilizadora: Entretela hidrossolúvel de alta resistência (Aquamagic / PVA pesada)",
-      "2. Tecido principal: Linho, percal 100% algodão, fustão ou cambraia montados no bastidor",
-      "3. Costura de fixação perimetral: Ponto reto de contenção antes do corte",
-      "4. Varredura de corte (Lâminas 1 a 4): Puncionamento mecânico rotativo das áreas vazadas",
-      "5. Remoção do retalho: Retirada da ilha de tecido cortada com pinça",
-      "6. Encadernamento perimetral: Ponto cheio (satin) denso ou festonê lacrando as bordas"
-    ],
+    "term": "Bordado Cutwork com Agulhas de Corte Eletrônico (Needle Cutwork System & 4-Needle Cutters)",
+    "level": "Avançado 🔴",
+    "category": "Funções da Máquina",
+    "grammarClass": "Locução nominal técnica. Do inglês needle cutwork 4-knife system.",
+    "origin": "Inovação tecnológica alemã e japonesa desenvolvida por fabricantes como Groz-Beckert, Bernina e Tajima para automatizar totalmente o corte mecânico no bastidor sem intervenção de tesouras.",
+    "summary": "Sistema automatizado que utiliza agulhas-faca especiais de 4 ângulos para cortar o tecido roboticamente na própria máquina de bordar.",
+    "definition": "O sistema de bordado Cutwork com agulhas de corte eletrônico (Automated Needle Cutwork / 4-Blade Cutting System) é a automação mecatrônica avançada que substitui o recorte manual de tesoura por agulhas especiais laminadas (agulhas-faca em 4 ângulos: 0°, 45°, 90° e 135°). O software gera trajetórias especiais de perfuração onde cada agulha corta as fibras têxteis na direção de sua lâmina. A máquina executa o corte automático em frações de segundo e, na sequência, borda o acabamento perimetral sem que a operadora precise tocar na peça, aumentando a produtividade em mais de 1.000%.",
+    "technicalDetails": "Especificações do sistema de 4 agulhas-faca:\n• Jogo de Agulhas de Corte: 4 posições angulares identificadas por cores (ex.: Amarela 0°, Verde 45°, Azul 90°, Vermelha 135°);\n• Geometria de Ponta: Lâmina cortante cirúrgica no lugar da ponta redonda tradicional;\n• Chapa de Agulha Especial: Chapa com orifício circular reforçado para evitar desgaste por impacto da lâmina;\n• Velocidade de Corte: Reduzida para 400 a 500 PPM para garantir cortes limpos sem tração.",
     "howItWorks": [
-      "1. O tecido é montado no bastidor com entretela hidrossolúvel por baixo (a entretela sustentará os pontos de fechamento após o corte do tecido).",
-      "2. A máquina executa a costura de contorno inicial com linha normal para demarcar e prender o tecido à entretela.",
-      "3. A máquina avisa no painel para instalar a Ferramenta de Corte na Posição 1 (lâmina 0°): o bastidor se move e a faca faz os cortes horizontais.",
-      "4. A máquina solicita a Posição 2 (45°), 3 (90°) e 4 (135°), completando o recorte perimétrico de todas as curvas.",
-      "5. O miolo de tecido cortado se solta e é retirado facilmente com uma pinça de ateliê.",
-      "6. Reinstala-se a agulha de bordar convencional e passa-se a linha na cor desejada.",
-      "7. A máquina borda o ponto cheio ou ponto caseado sobre a margem cortada, encobrindo as beiradas com perfeição profissional."
+      "1. Monte as 4 agulhas de corte nas posições designadas do cabeçote multiagulhas (ou troque manualmente conforme o painel pedir).",
+      "2. Estruture o tecido com entretela hidrossolúvel no bastidor.",
+      "3. A máquina borda a linha de fixação inicial com agulha de costura normal.",
+      "4. A máquina seleciona a agulha de corte nº 1 (0°) e perfura as linhas verticais, cortando as fibras.",
+      "5. Alterna para as agulhas de 45°, 90° e 135°, completando o corte em todas as curvas e diagonais.",
+      "6. O miolo do tecido se desprende sozinho em segundos.",
+      "7. A máquina troca para a agulha com linha de bordar e aplica o satim de acabamento automaticamente."
     ],
-    "mainTypes": [
-      "Cutwork para Máquinas Domésticas Monocabeçote (Bernina CutWork / Inspira): A agulha de corte possui um mostrador giratório manual que permite mudar o ângulo da lâmina entre as posições 1, 2, 3 e 4.",
-      "Dispositivo de Faca Automática em Máquinas Industriais (Boring Device / Automatic Cutwork): Dispositivo pneumático ou motorizado integrado ao cabeçote que gira a lâmina automaticamente.",
-      "Kit de Agulhas Fixas Individuais: Conjunto de quatro agulhas de corte separadas, instaladas uma por vez conforme solicitação na tela da bordadeira.",
-      "Cutwork Multicamadas para Apliques: Utilizado para cortar até 6 camadas de tecidos sobrepostos de cores diferentes para criar patchwork invertido."
-    ],
+    "beginnerExplanation": "Em vez de você ter que parar a máquina, pegar a tesourinha e ficar cortando o tecido com a mão tremendo e com medo de errar, a máquina faz o corte sozinha! Ela usa um conjuntinho de agulhas especiais que têm uma lâmina afiada como um bisturi na ponta. O computador manda a agulhinha certa descer em cada curva e ela vai 'carimbando' e cortando o tecido certinho em 10 segundos, sem você fazer nenhum esforço!",
     "applications": [
-      "Enxovais de noiva e lençóis de luxo com bordado Richelieu e arabescos vazados",
-      "Roupas batismais, vestidos de festa e camisas infantis com Broderie Anglaise",
-      "Recorte perfeito de tecidos para apliques (Appliqué) sem necessidade de corte prévio à mão",
-      "Toalhas de mesa nobres em linho puro com entremeios vazados e monogramas aristocráticos"
+      "Produção industrial de toalhas de linho, guardanapos e jogos de mesa em série",
+      "Confecção rápida de brasões e rendas vazadas de alta precisão",
+      "Ateliês que atendem grandes pedidos de peças com detalhes Richelieu"
     ],
-    "recommendedSettings": {
-      "speedPPM": "400 a 500 PPM durante o ciclo de corte das lâminas; 650 a 750 PPM no bordado final",
-      "needleType": "Lâmina especial de corte CutWork (ou dispositivo Boring Device) + Agulha 75/11 para o fechamento",
-      "stabilizer": "Entretela hidrossolúvel plástica espessa (aquafilm 80 micras) ou entretela de tecido solúvel",
-      "density": "Ponto cheio de acabamento com densidade de 0,38 mm a 0,40 mm e largura mínima de coluna de 2,5 mm",
-      "pullCompensation": "0,45 mm a 0,55 mm no ponto cheio perimetral para cobrir com folga a linha de corte",
-      "underlay": "Costura de base em ponto zigue-zague ou contorno duplo para apoiar o satin sobre a borda oca",
-      "threadTension": "Ligeiramente mais firme na linha superior para manter o ponto bem assentado na entretela"
-    },
-    "advantages": [
-      "✔ Elimina o cansaço visual e a dor nas mãos do corte manual repetitivo com tesoura",
-      "✔ Garante que 100 peças saiam rigorosamente idênticas com cortes simétricos ao décimo de milímetro",
-      "✔ Reduz a zero o risco de picotar acidentalmente os pontos de sustentação do bordado",
-      "✔ Permite criar desenhos rendados ultracomplexos com micro-vazados impossíveis de cortar na tesoura"
-    ],
-    "limitations": [
-      "Exige a aquisição de chapa de ponto especial e do kit de ferramentas de corte compatível",
-      "As lâminas de corte sofrem desgaste e exigem substituição após centenas de horas de uso",
-      "Requer tecidos de boa estabilidade dimensional (linho, percal e tricoline de alta qualidade)"
+    "matrixRelations": [
+      "Software Especializado: O programa precisa ter o módulo gerador de código para 4 agulhas de corte (Cutwork Tool).",
+      "Chapa de Agulha: Uso de chapa com orifício específico para agulhas de corte para não danificar a lançadeira.",
+      "Entretela Hidrossolúvel Reforçada: Essencial para manter a estabilidade dimensional após o corte automático das fibras."
     ],
     "commonErrors": [
-      "❌ Esquecer de trocar a chapa de agulha comum pela chapa de CutWork (a lâmina bate no metal e quebra)",
-      "❌ Não colocar entretela hidrossolúvel de sustentação por baixo (o bordado não tem onde se apoiar e cai no vazio)",
-      "❌ Trocar a ordem dos ângulos das facas (a lâmina mastiga o tecido em vez de fatiar)",
-      "❌ Deixar fios de linha soltos na lançadeira durante a etapa de corte das lâminas",
-      "❌ Tentar cortar sintéticos grossos ou plásticos rígidos que excedam a capacidade de penetração da faca"
+      "Instalar a agulha de corte com o ângulo invertido na barra de agulha, fazendo o corte sair rasgando o tecido em vez de fatiar",
+      "Tentar cortar tecidos sintéticos elásticos que esticam em vez de cortar sob a lâmina da agulha",
+      "Usar velocidade máxima de máquina durante a rotina de corte, gerando calor e perda de fio na lâmina",
+      "Esquecer de trocar a chapa de ponto por uma chapa reforçada de Cutwork"
+    ],
+    "howToIdentify": [
+      "O tecido fica preso por fiapos mastigados e não se solta facilmente (lâmina da agulha gasta ou ângulo errado)",
+      "Barulho de impacto metálico seco durante o corte (agulha colidindo na borda da chapa de agulha comum)",
+      "Aviso no painel da máquina pedindo para inserir a ferramenta de corte de código de cor específico"
     ],
     "troubleshootingTips": [
-      "Se o tecido não estiver se soltando após a passagem das 4 lâminas: a profundidade de descida da ferramenta de corte está rasa; ajuste o curso da lâmina ou substitua a agulha desgastada.",
-      "Se as bordas do tecido desfilarem antes do ponto cheio: aumente a largura do ponto corrido preliminar de segurança para 2 mm e reduza a velocidade do pantógrafo.",
-      "Se a lâmina estiver quebrando: verifique se o bastidor não está vibrando excessivamente e se o tecido está bem tenso como pele de tambor."
+      "Use agulhas de corte originais do fabricante (como o kit Bernina Cutwork ou Groz-Beckert Cutwork Needles).",
+      "Reduza a velocidade da máquina para 400 PPM durante a fase de corte das agulhas-faca.",
+      "Passe um pincel para retirar os retalhos soltos de tecido cortado antes da máquina iniciar a costura de acabamento."
     ],
-    "dicaArtrelados": "O Segredo da Pinça Curva de Precisão e do Cotonete Úmido: quando a máquina terminar os 4 ciclos de corte das agulhas-lâminas, retire o miolo cortado puxando suavemente com uma pinça cirúrgica de ponta curva; o tecido deve se soltar como um selo de correio picotado! Se algum fiozinho rebelde resistir na ponta, corte com um bisturi de precisão número 11 encostado na entretela. E quando o bordado de ponto cheio terminar, passe um cotonete embebido em água morna apenas no contorno do corte: a entretela hidrossolúvel interna se dissolve na hora, deixando o vazado limpo, transparente e perfeito sem nem precisar molhar o resto da peça!",
-    "voceSabia": "Antes da invenção das ferramentas de corte eletrônico no bastidor, a produção de um enxoval completo de cama em Richelieu tradicional podia levar até três semanas de trabalho ininterrupto apenas cortando buraquinhos com tesoura pelicano! Hoje, uma máquina computadorizada equipada com 4 agulhas de corte executa o mesmo conjunto em menos de duas horas!",
-    "practicalExercise": "Exercício de Bancada (Simulação de Richelieu Automatizado):\n1. Monte um retalho de percal ou linho puro com entretela hidrossolúvel no bastidor.\n2. Carregue uma matriz de teste com corte de 4 estágios no visor da sua máquina.\n3. Deixe a máquina costurar o contorno guia com linha branca.\n4. Execute as 4 posições de lâmina conforme indicado na tela (ou simule com ferramenta de corte manual guiada pelos furos).\n5. Puxe o miolo recortado com a pinça e veja o vão perfeito aberto sobre a entretela transparente.\n6. Prossiga com o ponto cheio de cobertura e maravilhe-se com a precisão milimétrica da borda!",
-    "quickSummary": "Tecnologia de bordado e corte mecânico automatizado no bastidor que utiliza 4 agulhas-lâminas anguladas para vazar tecidos com precisão milimétrica em projetos de Richelieu e rendas nobres.",
+    "dicaArtrelados": "O Segredo da Limpeza de Resíduos no Cutwork Automático Artrelados: Quando as agulhas de corte terminarem de fatiar o tecido, dê uma pausa rápida de 5 segundos na máquina antes dela começar a bordar o acabamento! Use uma pinça de precisão para puxar e remover as ilhas soltas de tecido cortado. Assim, o calcador não engasga em nenhum retalho solto e o ponto cheio fecha liso e perfeito!",
+    "voceSabia": "As agulhas de corte mecânico utilizam lâminas de aço vanádio temperadas a laser capazes de realizar mais de 100 mil incisões em tecidos de algodão pesado antes de perderem o fio cirúrgico de corte!",
+    "practicalExercise": "Se a sua máquina tiver suporte a ferramentas de corte (como as linhas Bernina, Brother ou industriais), configure uma matriz simples com corte de folha. Observe o cabeçote alternando as agulhas de 0° a 135° e veja a precisão matemática com que o retalho de tecido se desprende sozinho.",
+    "quickSummary": "Automação mecatrônica que substitui a tesoura manual por agulhas especiais afiadas em 4 ângulos para cortar vazados roboticamente.",
     "relatedTerms": [
-      "Bordado Richelieu Eletrônico (Machine Richelieu / Eyelet)",
-      "Agulha de Ilhós / Agulha Furadora (Eyelet & Piercing Needle / Borer Device)",
-      "Ponto Cheio (Satin Stitch)",
-      "Entretela Hidrossolúvel",
-      "Compensação de Encolhimento (Pull Compensation)"
+      "Bordado Cutwork Tradicional",
+      "Agulha de Bordado Eletrônico",
+      "Chapa de Agulha",
+      "Bordado Richelieu Eletrônico",
+      "Velocidade de Ponto (PPM)"
     ],
-    "tags": [
-      "cutwork",
-      "agulhas de corte",
-      "richelieu automatico",
-      "broderie anglaise",
-      "chapa cutwork",
-      "vazado no bastidor",
-      "laminas anguladas",
-      "ferramenta de corte"
-    ],
-    "updatedAt": "2026-09-28"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "b-025-bordado-de-preenchimento-fill-stitch",
     "code": "B-025",
-    "term": "Bordado de Preenchimento (Fill Stitch / Tatami)",
-    "level": "Intermediário 🟡",
-    "grammarClass": "Substantivo masculino.",
-    "origin": "Do inglês 'fill' (preencher) e do japonês 'tatami' (esteira de palha trançada com fios cruzados e alternados).",
-    "category": "Pontos Básicos & Decorativos",
-    "summary": "Ponto em grade uniforme utilizado para cobrir grandes superfícies de tecido.",
-    "definition": "O bordado de preenchimento (Fill Stitch ou Ponto Tatami) é a estrutura fundamental de costura computadorizada constituída por fileiras paralelas de pontos corridos com alternância geométrica milimétrica de penetrações de agulha, projetada para preencher superfícies têxteis médias e grandes com cobertura uniforme, plana, estável e sem fios soltos.",
-    "technicalDetails": "Ao contrário do ponto cheio (satin) — que é limitado a larguras de até 8 mm ou 10 mm para não gerar alças frouxas —, o preenchimento Tatami pode cobrir áreas de qualquer dimensão. Opera com comprimento de ponto calibrado entre 3.8 mm e 4.5 mm, espaçamento entre linhas de 0.38 mm a 0.45 mm e padrões de repetição fracionários (deslocamentos de 1/2, 1/3 ou 1/4) para evitar a formação involuntária de linhas visíveis de penetração.",
-    "beginnerExplanation": "É o ponto em formato de tapetinho trançado que a máquina usa para pintar áreas grandes do desenho! Quando você precisa cobrir o corpinho de um urso grande, o fundo de um escudo de futebol ou uma bandeira inteira, a máquina usa esse ponto porque ele fica firme, não repuxa o tecido e não solta fios compridos!",
-    "construction": [
-      "Passadas Paralelas de Ponto Corrido Alternado",
-      "Comprimento Médio de Ponto de 4.0 mm",
-      "Espaçamento de Densidade de 0.40 mm a 0.45 mm",
-      "Subponto Estrutural de Grade Tatami Aberta (Tatami Underlay a 90°)",
-      "Ângulo de Orientação Vetorial de Inclinação dos Fios"
-    ],
+    "letter": "B",
+    "term": "Bordado de Preenchimento (Tatami / Fill Stitch Structure)",
+    "level": "Fundamental 🟢",
+    "category": "Programação de Bordado",
+    "grammarClass": "Locução nominal técnica. Do japonês tatami (esteira tramada) e do inglês fill stitch / step stitch.",
+    "origin": "Inspirado nas esteiras tradicionais japonesas de palha entrelaçada, adaptado para matrizes digitais para cobrir áreas largas onde o ponto satim seria longo demais.",
+    "summary": "Padrão de costura em linhas paralelas com penetrações escalonadas de agulha que cobre grandes áreas do desenho de forma plana, uniforme e estável.",
+    "definition": "O bordado de preenchimento (Tatami / Fill Stitch / Complex Fill) é a estrutura fundamental de programação de matrizes utilizada para cobrir superfícies médias e grandes (larguras superiores a 8 mm ou 10 mm), onde o ponto satim se tornaria excessivamente longo, frouxo e sujeito a enroscos. O ponto tatami constrói a cobertura através de linhas paralelas de pontos corridos com penetrações de agulha escalonadas e deslocadas geometricamente (padrão de tijolo ou espinha de peixe), criando uma malha têxtil plana, resistente e de alta estabilidade dimensional.",
+    "technicalDetails": "Parâmetros fundamentais da arquitetura de Tatami:\n• Densidade de Preenchimento (Pitch): De 0,38 mm a 0,45 mm de espaçamento entre linhas;\n• Comprimento de Ponto (Stitch Length): Entre 3,5 mm e 4,5 mm para flexibilidade sem laçadas soltas;\n• Deslocamento de Fracionamento (Stitch Fraction): 0,25 ou 0,33 para alternar as penetrações e evitar listras visíveis;\n• Ângulo de Ponto: Orientado a 45° ou 60° em relação à trama do tecido para contrabalançar o repuxo.",
     "howItWorks": [
-      "1. O software calcula os limites poligonais do objeto e gera a grade de subponto.",
-      "2. A agulha executa fileiras sucessivas alternando a descida para que o furinho de uma linha caia no meio do ponto da linha vizinha.",
-      "3. Os filamentos de poliéster se acomodam lado a lado formando uma textura plana e sedosa.",
-      "4. O resultado é uma superfície coberta sem emendas aparentes e com alta resistência a lavagens."
+      "1. No software de matrizes, selecione uma área fechada grande (como o corpo de um urso ou fundo de um brasão).",
+      "2. Aplique a ferramenta 'Preenchimento Complexo' (Complex Fill / Tatami).",
+      "3. O software divide a geometria em linhas paralelas de costura contínua.",
+      "4. A agulha penetra o tecido em intervalos regulares de 4 mm, deslocando a linha vizinha em 1 mm.",
+      "5. As laçadas se entrelaçam criando uma 'segunda pele' de tecido sobre o tecido original.",
+      "6. A peça pode ser lavada e usada intensamente sem que nenhum fio do preenchimento se solte.",
+      "7. A superfície resulta plana, fosca ou semi-brilhante, perfeita para receber letras de satim por cima."
     ],
-    "mainTypes": [
-      "Tatami Padrão Liso (Textura uniforme e contínua para fundos e figuras)",
-      "Tatami Decorativo com Padrão (Com texturas de ondas, tijolinho, corações ou colmeia)",
-      "Tatami com Densidade Gradiente (Degradê com espaçamento variável de 0.35 mm a 1.2 mm)"
+    "beginnerExplanation": "Quando você quer pintar uma parede grande na sua casa, você não usa um pincelzinho fino: você usa um rolo grande que espalha a tinta por igual! No bordado é igual: se a área for muito larga (mais gorda que um dedo), o ponto satim não aguenta e fica com linhas compridas soltas que engancham em tudo. O ponto de preenchimento (Tatami) é a 'esteirinha' mágica da máquina: ela vai e volta costurando pontinhos firmes colados que cobrem tudo de forma lisa, forte e bonita!",
+    "applications": [
+      "Fundos de brasões, escudos esportivos e emblemas de empresas",
+      "Corpos de animais, mascotes, flores grandes e personagens infantis",
+      "Bases estruturais para aplicação de letras e monogramas em satim por cima"
     ],
-    "advantages": [
-      "✔ Permite preencher qualquer tamanho de figura sem limite geométrico",
-      "✔ Não deixa fios longos esticados que possam enganchar em anéis ou unhas",
-      "✔ Mantém a estabilidade dimensional do tecido com baixíssimo risco de repuxamento",
-      "✔ Aceita centenas de texturas gravadas e variações artísticas de brilho"
-    ],
-    "limitations": [
-      "Apresenta menor brilho reflexivo que o ponto cheio (satin) devido às múltiplas perfurações intermediárias de agulha."
+    "matrixRelations": [
+      "Ângulo de Ponto: Preenchimentos grandes nunca devem correr paralelos à trama do tecido para não criar vincos.",
+      "Compensação de Repuxo: O tatami encolhe na direção das linhas e alarga nas pontas; aplique 0,35 mm a 0,45 mm de repuxo.",
+      "Sob-ponto (Underlay): Obrigatório uso de malha de tatami aberta a 90° por baixo para ancorar o tecido."
     ],
     "commonErrors": [
-      "❌ Tentar usar ponto cheio em áreas maiores que 10 mm em vez de usar ponto de preenchimento Tatami.",
-      "❌ Programar o ângulo do tatami exatamente na mesma direção do fio da trama do tecido, causando enrugamento em canaleta.",
-      "❌ Fechar a densidade para 0.28 mm sem necessidade, transformando o preenchimento em uma placa rígida e pesada."
+      "Usar satim em áreas maiores que 10 mm em vez de mudar para preenchimento de tatami, criando fios compridos que arrebentam",
+      "Apertar a densidade do tatami para menos de 0,30 mm, transformando o bordado em uma 'placa dura de papelão'",
+      "Deixar o ângulo de preenchimento em 0° ou 90° exatos, fazendo o bordado enrugar a roupa na direção dos fios",
+      "Não programar sob-ponto de base, deixando o tecido original aparecer entre as linhas de tatami"
+    ],
+    "howToIdentify": [
+      "Bordado ficando duro como uma armadura que não dobra e machuca a pele",
+      "Listras verticais claras (linhas fantasmas) cruzando o preenchimento por erro de fracionamento de ponto",
+      "Bordas do preenchimento repuxando e encolhendo, deixando vãos brancos de tecido ao redor do contorno"
     ],
     "troubleshootingTips": [
-      "Se o preenchimento estiver abrindo frestas próximo ao contorno lateral, aumente a compensação de repuxo (Pull Compensation) para 0.40 mm.",
-      "Incline sempre o ângulo do tatami em cerca de 45° em relação ao sentido do fio do tecido para obter o melhor caimento e acabamento estético."
+      "Para roupas infantis leves: aumente o espaçamento de tatami de 0,40 mm para 0,45 mm para deixar o bordado macio.",
+      "Altere o fracionamento de ponto (Stitch Fraction) para 0,33 para eliminar linhas indesejadas de repetição no meio do tatami.",
+      "Sempre coloque a compensação de repuxo em pelo menos 0,35 mm nas laterais de grandes preenchimentos."
     ],
-    "applications": [
-      "Escudos e brasões esportivos, corpos de mascotes, bandeiras, grandes fundos de patches e logotipos corporativos."
-    ],
-    "practicalExercise": "Digitalize um quadrado de 5x5 cm em ponto Tatami com densidade 0.40 mm e comprimento de ponto 4 mm com ângulo em 45°. Borde em uma sarja com entretela rasga-fácil e sinta a superfície: plana, macia, firme e sem repuxar nenhuma borda!",
-    "quickSummary": "Bordado de preenchimento (Tatami) é a técnica de cobrir áreas médias e grandes com fileiras entrelaçadas de pontos curtos, oferecendo alta estabilidade e durabilidade.",
-    "voceSabia": "O nome 'Tatami' foi batizado pelos engenheiros têxteis japoneses da Tajima e Barudan nos anos 1970 porque a trama matemática dos pontos é idêntica ao trançado das esteiras tradicionais de junco japonesas!",
-    "dicaArtrelados": "Para fundos de emblemas onde você quer muito brilho sem perder a segurança do tatami, configure o comprimento de ponto para 5.0 mm e o espaçamento para 0.38 mm: os fios mais longos refletem muito mais luz e mantêm o bordado super seguro!",
-    "recommendedSettings": {
-      "speedPPM": "750 a 950 PPM",
-      "needleType": "75/11 Ponta Fina Aguda",
-      "stabilizer": "Entretela Recorta-Fácil 70g ou Rasga-Fácil 80g"
-    },
+    "dicaArtrelados": "O Segredo da Maciez no Tatami Artrelados: Se você vai bordar um desenho grande com muito tatami em uma camisa ou body de bebê, nunca use densidade apertada demais! Coloque o espaçamento em 0,44 mm e ative um sob-ponto de malha aberta por baixo. O bordado vai cobrir perfeitamente 100% do tecido, vai gastar menos linha, bordar muito mais rápido e vai ficar maleável e gostoso de usar, sem parecer uma tábua dura!",
+    "voceSabia": "A palavra 'Tatami' foi adotada universalmente por programadores do mundo inteiro porque a textura desse ponto imita com perfeição visual o entrelaçamento das esteiras de junco dos templos budistas tradicionais do Japão feudal!",
+    "practicalExercise": "No seu software, crie dois círculos de 6 cm de diâmetro. No primeiro, configure tatami com densidade 0,32 mm (muito denso); no segundo, coloque 0,42 mm com ângulo a 45°. Borde em um retalho de tricoline: passe a mão sobre os dois e sinta a diferença colossal de flexibilidade e elegância.",
+    "quickSummary": "Estrutura fundamental de pontos paralelos e escalonados para cobrir grandes áreas com estabilidade, resistência e toque plano.",
     "relatedTerms": [
-      "Ponto Tatami",
-      "Ponto Cheio (Satin)",
-      "Densidade de Bordado",
-      "Ângulo de Ponto",
-      "Compensação de Repuxo"
+      "Ponto Satim (Satin Stitch)",
+      "Sob-ponto (Underlay)",
+      "Densidade de Ponto",
+      "Compensação de Repuxo",
+      "Ângulo de Ponto"
     ],
-    "tags": [
-      "b-025",
-      "preenchimento",
-      "tatami",
-      "fill stitch",
-      "fundo",
-      "brasao",
-      "artrelados"
-    ],
-    "bibliographicReferences": [
-      "TAJIMA EMBROIDERY SYSTEMS. Fill Stitch Algorithms and Tatami Pattern Engineering. Nagoya, 2021.",
-      "ARTRELADOS. Fundamentos e Técnicas de Ponto de Preenchimento Tatami. Curitiba, 2024."
-    ],
-    "updatedAt": "2026-08-19",
-    "letter": "B"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "b-026-bordado-decorativo",
     "code": "B-026",
-    "term": "Bordado Decorativo",
+    "letter": "B",
+    "term": "Bordado Decorativo com Pontos Motif (Decorative Motif & Pattern Stitches)",
     "level": "Fundamental 🟢",
-    "grammarClass": "Substantivo masculino.",
-    "origin": "Do latim 'decorare' (embelezar, ornar com dignidade estética) e do francês 'broderie'.",
-    "category": "Pontos Básicos & Decorativos",
-    "summary": "Bordado focado no embelezamento e estética visual de artigos têxteis.",
-    "definition": "O bordado decorativo (Decorative Embroidery) compreende o conjunto de técnicas, pontos e arranjos artísticos desenvolvidos primordialmente com o propósito de ornamentação estética, refinamento visual e agregação de valor sensorial a artigos de vestuário, enxoval, alta-costura e decoração de interiores.",
-    "technicalDetails": "Combina diversos tipos de pontos (pontos cheios esculturais, pontos festonê, pontos de cruz digitalizados, arabescos rendados e preenchimentos com texturas geométricas especiais), exigindo harmonia de cores, proporção de densidade e calibração fina de tensão de linha.",
-    "beginnerExplanation": "É todo aquele bordado lindo feito para enfeitar e deixar as coisas mais charmosas! São as flores na toalha de mesa, os arabescos em almofadas, os detalhes nos vestidos de festa e os monogramas elegantes que transformam um tecido simples em uma verdadeira obra de arte!",
-    "construction": [
-      "Combinação de Pontos Satins, Tatamis Texturizados e Pontos Fantasia",
-      "Paleta Harmônica de Cores (Tom sobre tom, contrastes clássicos ou metálicos)",
-      "Uso de Linhas de Alto Brilho (Viscose Rayon ou Poliéster Trilobal)",
-      "Acabamento com Filme Hidrossolúvel de Cobertura para Textura Perfeita"
-    ],
+    "category": "Programação de Bordado",
+    "grammarClass": "Locução nominal técnica. Do latim decorare (adornar) e do francês motif (motivo, desenho repetitivo).",
+    "origin": "Recurso criado nos softwares de digitalização para replicar pontos ornamentais de máquinas de costura doméstica (como florzinhas, corações e gregas) em trajetórias vetoriais livres.",
+    "summary": "Aplicação de micro-desenhos ornamentais repetitivos ao longo de linhas ou preenchimentos, conferindo textura e leveza sem peso de pontos.",
+    "definition": "O bordado decorativo com pontos Motif (Decorative Motif Stitches / Padrões Ornamentais de Repetição) é a técnica de programação onde uma sequência de pontos corridos vetoriais forma um micro-motivo ornamental reconhecível (como miniaturas de estrelas, laços, cruzes de malta, tranças, folhas ou losangos) repetido ritmicamente ao longo de um traçado ou dentro de uma grade aberta. O recurso permite decorar bordas, barras de toalhas e fundos artísticos consumindo até 70% menos pontos que o ponto cheio (satim), agregando elegância clássica e toque extremamente leve à peça.",
+    "technicalDetails": "Parâmetros de configuração e escalonamento de Motifs:\n• Espaçamento entre motivos: Configurável de 1 mm a 10 mm de distância entre centros;\n• Escala Dimensional: Ajuste proporcional da largura e altura do motivo (típico: 3 mm a 8 mm);\n• Orientação Angular: O motivo pode rotacionar acompanhando as curvas do caminho ou manter orientação ortogonal fixa;\n• Economia Têxtil: Reduz drasticamente a rigidez e o tempo de máquina comparado a colunas cheias.",
     "howItWorks": [
-      "1. O designer cria ou seleciona motivos ornamentais (florais, arabescos, motivos botânicos).",
-      "2. Digitaliza combinando diferentes direções de ponto para gerar contrastes de luz e sombra.",
-      "3. A máquina executa os contornos e relevos com precisão computadorizada.",
-      "4. A peça recebe limpeza fina de fiapos e passagem a ferro no avesso para assentar os pontos."
+      "1. No software de matrizes, selecione a ferramenta 'Linha de Motivos' (Motif Run) ou 'Preenchimento com Motivos' (Motif Fill).",
+      "2. Escolha o desenho desejado na biblioteca (ex.: florzinha provençal de 5 mm).",
+      "3. Trace uma linha curva ao longo do decote de um vestido ou da barra de um pano de prato.",
+      "4. O software calcula o espaçamento e replica a florzinha ao longo de toda a curva.",
+      "5. A máquina borda os motivos de forma contínua, viajando de uma florzinha para a outra sem cortar a linha.",
+      "6. A peça ganha uma moldura artesanal riquíssima em menos de 3 minutos de costura.",
+      "7. O avesso resulta limpo, sem nós e com caimento suave."
     ],
-    "mainTypes": [
-      "Bordado Decorativo Floral e Botânico (Folhagens, rosas, ramos e guirlandas)",
-      "Bordado Decorativo Clássico / Arabescos (Volutas barrocas, rococós e monogramas)",
-      "Bordado Decorativo Geométrico / Étnico (Padrões tribais, mandalas e mosaicos)"
+    "beginnerExplanation": "Sabe quando você quer fazer um detalhe delicado em volta de um bordado de bebê, mas não quer colocar aquela borda grossa e pesada de ponto cheio? Você pode usar os pontos decorativos Motif! É como um carimbinho que a máquina vai costurando: uma fileira de mini-estrelinhas, coraçõezinhos ou folhinhas que vão seguindo a curva do desenho. Fica um charme super meigo, gasta pouquíssima linha e borda super rapidinho!",
+    "applications": [
+      "Barrinhas delicadas em fraldas de boca, cueiros e mantas de bebê",
+      "Molduras provençais em toalhas de lavabo e panos de prato chiques",
+      "Fundos vazados decorativos em almofadas e caminhos de mesa"
     ],
-    "advantages": [
-      "✔ Agrega altíssimo valor percebido e sofisticação a peças simples de cama e mesa",
-      "✔ Grande apelo comercial no mercado de presentes de luxo, casamentos e batizados",
-      "✔ Permite infinita liberdade criativa de combinações de linhas, texturas e tecidos",
-      "✔ Gera peças atemporais que passam de geração em geração na família"
-    ],
-    "limitations": [
-      "Exige planejamento cuidadoso para não sobrecarregar o tecido base com excesso de peso de pontos."
+    "matrixRelations": [
+      "Comprimento de Ponto: O motivo não deve conter pontos corridos menores que 1,0 mm para não cortar o tecido.",
+      "Corte de Linha (Trim): Matrizes de Motif devem ser programadas para costura contínua sem disparar Trims entre motivos.",
+      "Tensão de Linha: Exige tensão equilibrada para que os micro-detalhes do motivo não fiquem puxados de lado."
     ],
     "commonErrors": [
-      "❌ Misturar estilos e densidades incompatíveis na mesma peça, gerando poluição visual.",
-      "❌ Bordar motivos decorativos densos em tecidos finos sem a entretela estabilizadora correta.",
-      "❌ Não usar filme hidrossolúvel em cima de tecidos com relevo (como piquet ou toalhas felpudas)."
+      "Reduzir o tamanho do motivo para menos de 2 mm, fazendo o desenho virar um borrão irreconhecível de linha",
+      "Usar motivos com muitos nós e cortes em uma linha longa, fazendo a máquina parar centenas de vezes",
+      "Aplicar motivos decorativos em tecidos atoalhados felpudos sem plástico hidrossolúvel, fazendo as florzinhas sumirem nas felpas"
+    ],
+    "howToIdentify": [
+      "O desenho do motivo saindo deformado ou parecendo um nó confuso por escala pequena demais",
+      "A máquina dando dezenas de cortes de linha em uma faixa decorativa simples que deveria ser contínua",
+      "Borda da fralda repuxando e encolhendo por densidade excessiva de motivos acumulados"
     ],
     "troubleshootingTips": [
-      "Ao bordar pontos decorativos sobre toalhas aveludadas ou linhos texturizados, use sempre uma camada de plástico hidrossolúvel por cima para os detalhes não afundarem.",
-      "Passe a ferro a peça sempre pelo lado do avesso apoiada sobre uma toalha macia para não achatar o relevo dos pontos cheios."
+      "Mantenha o tamanho dos motivos entre 4 mm e 7 mm para garantir nitidez visual perfeita a um metro de distância.",
+      "Em curvas fechadas: ative a opção de 'Acompanhar Curva' (Follow Curve) para que os motivos não se sobreponham.",
+      "Em fraldas de algodão delicadas: use sempre entretela rasgável de 40g bem macia para não pesar."
     ],
-    "applications": [
-      "Caminhos de mesa, toalhas de lavabo nobres, vestidos de noiva e debutante, almofadas de veludo e enxovais de maternidade."
-    ],
-    "practicalExercise": "Digitalize um arabesco barroco de 10 cm com ponto cheio e linhas de viscose brilhante. Borde em um linho rústico cru com entretela rasga-fácil e plástico hidrossolúvel por cima. Lave para dissolver o plástico e passe a ferro pelo avesso: admire o brilho acetinado e a nobreza da peça pronta!",
-    "quickSummary": "Bordado decorativo é a aplicação artística de pontos e motivos ornamentais voltada à beleza estética, refinamento e valorização de peças têxteis nobres.",
-    "voceSabia": "Na Europa renascentista do século XVI, o bordado decorativo em ouro e seda era tão valorizado que peças de vestuário bordadas eram catalogadas em testamentos como joias de herança familiar!",
-    "dicaArtrelados": "Para um bordado decorativo com aspecto de alta costura, use linhas de viscose (rayon) nos motivos florais e arabescos: o toque super macio e o brilho orgânico da viscose deixam o trabalho com elegância inigualável!",
-    "recommendedSettings": {
-      "speedPPM": "650 a 800 PPM",
-      "needleType": "75/11 Ponta Fina Aguda",
-      "stabilizer": "Entretela Rasga-Fácil 70g com Filme Hidrossolúvel de Topo"
-    },
+    "dicaArtrelados": "O Truque da Fraldinha de Luxo Artrelados: Quer dar um acabamento de alta costura em fraldas de boca sem deixar aquela beirada dura que irrita a bochecha do bebê? Em vez de fazer uma barra grossa de satim, use uma fileira delicada de motivos decorativos (como pequenos raminhos ou coraçõezinhos de 4 mm)! A fralda fica incrivelmente charmosa, macia e flexível!",
+    "voceSabia": "A biblioteca de motivos ornamentais dos softwares modernos inclui réplicas de bordados de agulha do século XVIII criados por freiras francesas em conventos de Lyon para ornar toalhas de altar e mantos reais!",
+    "practicalExercise": "No seu software, trace uma moldura oval de 10x8 cm com a ferramenta Motif Run usando um padrão de florzinhas de 5 mm. Coloque um nome no centro. Borde em uma fraldinha de boca e sinta a leveza e a velocidade surpreendente de produção.",
+    "quickSummary": "Padrões ornamentais figurativos repetitivos (estrelas, flores, laços) que criam molduras elegantes com leveza e economia de pontos.",
     "relatedTerms": [
-      "Ponto Cheio (Satin)",
-      "Arabesco",
-      "Monograma",
-      "Filme Hidrossolúvel",
-      "Linha de Viscose"
+      "Ponto Corrido (Run Stitch)",
+      "Software de Programação (Digitizing)",
+      "Ponto Satim (Satin Stitch)",
+      "Fraldas no Bastidor",
+      "Moldura de Bordado"
     ],
-    "tags": [
-      "b-026",
-      "decorativo",
-      "estetica",
-      "luxo",
-      "arabesco",
-      "enxoval",
-      "artrelados"
-    ],
-    "bibliographicReferences": [
-      "NEEDLEWORK GUILD OF AMERICA. Decorative Embroidery Stitches and Artistry Guide. Philadelphia, 2021.",
-      "ARTRELADOS. A Arte do Bordado Decorativo e Enxoval de Alto Padrão. Curitiba, 2024."
-    ],
-    "updatedAt": "2026-08-19",
-    "letter": "B"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "b-027-bordado-digitalizado",
     "code": "B-027",
-    "term": "Bordado Digitalizado",
+    "letter": "B",
+    "term": "Bordado Digitalizado (A Anatomia da Matriz Vetorial)",
     "level": "Intermediário 🟡",
-    "grammarClass": "Substantivo masculino.",
-    "origin": "Do latim 'digitus' (dedo/número digital) e do francês 'broderie' (desenho em relevo).",
     "category": "Softwares & Formatos",
-    "summary": "Desenho transformado em comandos numéricos de coordenadas para máquinas de bordar.",
-    "definition": "O bordado digitalizado (Digitized Embroidery / Matriz Programada) é o arquivo binário ou estruturado contendo a tradução completa de uma imagem visual em instruções de coordenadas cartesianas (X, Y), penetrações de agulha, tipos de pontos, comandos de corte e trocas de linha interpretáveis por uma máquina de bordar computadorizada.",
-    "technicalDetails": "Criado através de softwares profissionais de digitalização (como Wilcom Embroidery Studio, Embird, Hatch ou Bernina Designer), o arquivo digitalizado armazena propriedades vetoriais avançadas (ângulos de ponto, compensação de repuxo, subpontos estruturais e densidades milimétricas), sendo exportado em formatos específicos de máquina como .DST (Tajima), .PES (Brother), .JEF (Janome) ou .EXP (Bernina).",
-    "beginnerExplanation": "É o arquivo de computador (a matriz) que diz para a máquina onde ela deve furar o tecido com a agulha, onde deve cortar a linha e qual cor deve bordar! É como se fosse a partitura de uma música que a máquina toca com agulha e linha!",
-    "construction": [
-      "Objetos Vetoriais Estruturados (Colunas Satin, Complex Fills Tatami, Running Stitches)",
-      "Camadas de Subponto (Underlays) e Compensação de Repuxo (Pull Compensation)",
-      "Comandos de Máquina Embutidos (Troca de Cor, Salto/Jump, Corte/Trim, Ponto de Parada/Stop)",
-      "Coordenadas Cartesianas Relativas (Eixos X e Y em décimos de milímetro)"
-    ],
+    "grammarClass": "Locução nominal técnica. Do latim digitus (dígito, número) e do particípio digitalizado.",
+    "origin": "Surgido com a transição dos cartões perfurados de Jacquard para computadores pessoais com softwares gráficos na década de 1980.",
+    "summary": "A ciência e anatomia da conversão de desenhos gráficos em comandos milimétricos de coordenadas cartesianas X/Y e parâmetros têxteis de máquina.",
+    "definition": "O bordado digitalizado (Vector Embroidery Digitizing / Anatomia da Matriz Computadorizada) é o processo técnico e a estrutura de dados onde uma ilustração visual bidimensional é traduzida em um mapa vetorial de comandos mecatrônicos executáveis pela máquina de bordar. Longe de ser uma simples cópia gráfica, uma matriz digitalizada profissional incorpora cálculos dinâmicos de compensação de repuxo (Pull Compensation), sequenciamento lógico de cores, nós de arremate automáticos, camadas estruturais de sob-pontos e controle de aceleração inercial do pantógrafo.",
+    "technicalDetails": "Elementos anatômicos constitutivos de uma matriz digitalizada:\n• Cabeçalho de Dados: Dimensões máximas XY, contagem total de pontos, paleta de paradas de cor e saltos;\n• Camada 1 (Fundação): Sob-pontos estruturais que ancoram o tecido e domam a elasticidade;\n• Camada 2 (Cobertura): Pontos cheios (satim) ou preenchimentos (tatami) visíveis;\n• Comandos de Máquina: Códigos hexadecimais de parada (Stop), corte de linha (Trim) e salto livre (Jump).",
     "howItWorks": [
-      "1. O digitalizador (puncher) importa o logotipo ou ilustração vetorial para a tela do software.",
-      "2. Define a ordem lógica das camadas, desenhando o subponto e a direção dos pontos de cobertura.",
-      "3. Ajusta a densidade, a compensação de repuxo e os nós de início e fim da costura.",
-      "4. O software compila o desenho em comandos de pontos e exporta no formato reconhecido pelo pen drive da máquina."
+      "1. O programador importa a arte visual de referência para o ambiente CAD de bordado.",
+      "2. Define a estratégia de costura: ordem de camadas, do fundo para a frente, e do centro para as bordas.",
+      "3. Desenha os vetores aplicando tipos de ponto específicos para cada espessura e textura.",
+      "4. Insere a compensação de repuxo considerando o tecido onde o bordado será executado.",
+      "5. Programa os pontos de entrada, saída, sob-pontos e nós de segurança antes de cada corte.",
+      "6. Exporta a matriz no formato executável nativo da máquina de destino (.PES, .JEF, .DST, .EXP).",
+      "7. A máquina lê as coordenadas e borda a peça com encaixe e acabamento impecáveis."
     ],
-    "mainTypes": [
-      "Digitalização Manual Técnica (Feita ponto a ponto pelo profissional, garantindo máxima qualidade)",
-      "Digitalização Automática / Auto-Digitizing (Gerada por algoritmo do software, requer correções manuais)",
-      "Digitalização de Letras e Tipografias (Fontes embutidas e calibradas com densidade ajustável)"
+    "beginnerExplanation": "Muita gente acha que matriz de bordado é uma 'foto' que a máquina lê. Mas não tem nada a ver! Uma foto é só uma imagem parada. Uma matriz digitalizada é uma receita de bolo com milhares de ordens mecânicas: 'agulha, desça no ponto X, suba, o bastidor anda 2 milímetros para a direita, desça de novo, amarre a linha, corte e troque de cor'. Digitalizar uma matriz é ser o maestro que ensina a máquina a dançar no tecido sem errar!",
+    "applications": [
+      "Criação de logotipos corporativos com fidelidade geométrica exata",
+      "Digitalização de desenhos exclusivos para ateliês de moda e artesanato de luxo",
+      "Adaptação de matrizes compradas para tecidos com diferentes graus de elasticidade"
     ],
-    "advantages": [
-      "✔ Precisão matemática absoluta na execução de qualquer desenho ou logotipo",
-      "✔ Repetibilidade infinita: o bordado fica 100% idêntico na 1ª e na 10.000ª peça",
-      "✔ Controle total de densidade, maciez e economia de linha na produção",
-      "✔ Facilidade de envio digital instantâneo para clientes e fábricas em qualquer lugar do mundo"
-    ],
-    "limitations": [
-      "Exige conhecimento técnico de comportamento mecânico dos tecidos e domínio de softwares especializados."
+    "matrixRelations": [
+      "Formato de Arquivo (.EMB vs .PES): O arquivo original vetorial (.EMB) permite editar tudo; o de máquina (.PES) é apenas o código final de pontos.",
+      "Compensação de Repuxo: O coração do bordado digitalizado; sem ela, preenchimentos e contornos não se encontram.",
+      "Sequência de Costura: O sequenciamento correto economiza até 40% do tempo de máquina e evita que o tecido enrugue."
     ],
     "commonErrors": [
-      "❌ Confiar cegamente no botão de 'Digitalização Automática' para logotipos complexos, gerando matrizes com pontos desorganizados e repuxadas.",
-      "❌ Digitalizar sem compensação de repuxo (Pull Compensation), fazendo o contorno não casar com o preenchimento.",
-      "❌ Não configurar os pontos de amarração (Tie-In e Tie-Off), fazendo as pontas das letras desmancharem."
+      "Achar que qualquer imagem JPG pode ser gravada no pendrive e lida pela máquina de bordar",
+      "Digitalizar sem respeitar a regra 'do centro para as bordas', empurrando o tecido e criando bolsas de ar",
+      "Não planejar a ordem de costura, fazendo a máquina trocar de cor 20 vezes sem necessidade",
+      "Redimensionar um arquivo final (.PES ou .DST) em mais de 20% no painel da máquina sem recalcular a densidade no software"
+    ],
+    "howToIdentify": [
+      "A máquina dá mensagem de erro de 'Formato Inválido' ao colocar o pendrive (tentativa de abrir arquivo gráfico comum)",
+      "Contorno preto saindo fora do lugar em relação ao desenho colorido (matriz mal digitalizada sem compensação)",
+      "A máquina quebrando a linha em dezenas de micropontos empilhados no mesmo lugar"
     ],
     "troubleshootingTips": [
-      "Se a linha estiver quebrando muito durante o bordado, abra a matriz no software e verifique se não há pontos com menos de 0.8 mm de comprimento acumulados em um mesmo local (pontos curtos excessivos).",
-      "Sempre realize um teste de amostra (amostra piloto) no tecido real antes de colocar a produção em lote na máquina."
+      "Guarde SEMPRE o arquivo de projeto original editável (.EMB ou .JAN) para poder alterar tamanhos e densidades no futuro.",
+      "Ao comprar matrizes na internet: teste primeiro em um retalho com a mesma entretela e tecido da peça final.",
+      "Se precisar mudar o tamanho da matriz em mais de 10%: faça isso dentro do software de computador para que os pontos sejam recalculados."
     ],
-    "applications": [
-      "Criação de matrizes corporativas, marcas escolares, uniformes profissionais, moda infantil e enxovais personalizados."
-    ],
-    "practicalExercise": "Abra o seu software de matrizes e desenhe um círculo usando a ferramenta de ponto Tatami manual com ângulo de 45° e subponto de grade. Salve em .PES ou .DST e borde em um retalho: veja como a digitalização planejada roda macia e limpa na sua máquina!",
-    "quickSummary": "Bordado digitalizado é a conversão de imagens em coordenadas numéricas e comandos de costura que a máquina de bordar lê para reproduzir o desenho com precisão matemática.",
-    "voceSabia": "Antes dos softwares de computador, as primeiras matrizes de bordado mecânico (criadas no sistema Jacquard no século XIX) eram programadas em cartões de papelão perfurados manualmente com um furador mecânico!",
-    "dicaArtrelados": "A digitalização profissional manual feita com carinho e técnica reduz o tempo de máquina em até 30% e evita 90% das quebras de linha! Valorize o trabalho de digitalização: uma boa matriz é a alma de um bordado perfeito!",
-    "recommendedSettings": {
-      "speedPPM": "Compatível com a máquina",
-      "needleType": "Compatível com o tecido",
-      "stabilizer": "Conforme o tecido base"
-    },
+    "dicaArtrelados": "A Regra do Arquivo Mãe Artrelados: Nunca jogue fora o arquivo de trabalho (.EMB) da sua matriz! Se o seu cliente pedir o mesmo bordado no ano que vem para colocar em uma toalha grossa em vez de uma camisa lisa, você abre o arquivo mãe no computador, troca o tecido nas configurações em 1 clique e o programa recalcula todos os pontos e compensações sozinho! Quem guarda o arquivo mãe nunca passa aperto!",
+    "voceSabia": "A primeira máquina de bordar computadorizada moderna controlada por microprocessador foi apresentada pela empresa suíça Melco em 1977, usando fitas perfuradas de papel que continham as coordenadas X e Y de cada ponto!",
+    "practicalExercise": "Abra um arquivo de bordado no seu software. Ative o modo de visualização de agulhadas individuais (Stitch View) e dê o zoom máximo em uma letra: veja como o que parecia um desenho contínuo é na verdade uma sequência matemática perfeita de milhares de pontinhos pretos interligados.",
+    "quickSummary": "Tradução mecatrônica de uma ilustração visual em um mapa vetorial de comandos cartesianos X/Y, densidades e parâmetros têxteis.",
     "relatedTerms": [
-      "Matriz de Bordado",
-      "Software de Bordado",
+      "Arquivo de Bordado (.PES, .DST, .EMB)",
+      "Software de Programação (Digitizing)",
       "Compensação de Repuxo",
-      "Subponto (Underlay)",
-      "Puncher (Programador)"
+      "Sequenciamento de Cores",
+      "Corte de Linha (Trim)"
     ],
-    "tags": [
-      "b-027",
-      "digitalizado",
-      "programacao",
-      "puncher",
-      "matriz",
-      "software",
-      "artrelados"
-    ],
-    "bibliographicReferences": [
-      "WILCOM INTERNATIONAL. The Professional Digitizing Handbook: From Vector Art to Machine Stitches. Sydney, 2021.",
-      "ARTRELADOS. Guia Prático de Digitalização e Estrutura de Matrizes. Curitiba, 2024."
-    ],
-    "updatedAt": "2026-08-19",
-    "letter": "B"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "b-009-bordado-eletronico",
     "code": "B-009",
-    "term": "Bordado Eletrônico",
+    "letter": "B",
+    "term": "Bordado Eletrônico vs. Bordado Mecânico Livre (Computerized vs. Free-Motion Embroidery)",
     "level": "Fundamental 🟢",
-    "grammarClass": "Substantivo masculino.",
-    "origin": "Do francês 'broderie' (ornamentação com pontos) e do grego 'ēlektron' (tecnologia de comando computadorizado).",
-    "category": "Terminologia Geral",
-    "summary": "Processo de bordar automatizado e controlado por computador e matrizes digitais.",
-    "definition": "O bordado eletrônico (ou computadorizado) é a tecnologia industrial e artesanal que utiliza máquinas automatizadas comandadas por microprocessadores para reproduzir desenhos têxteis complexos a partir de coordenadas digitais preestabelecidas em matrizes de bordado. O sistema coordena em tempo real o movimento do pantógrafo nos eixos X e Y com a descida alternada da barra de agulha e a rotação da lançadeira.",
-    "technicalDetails": "A execução depende do sincronismo entre o motor principal (que aciona a barra de agulha e o estica-fio) e os servomotores de passo dos eixos X e Y. A máquina lê instruções binárias em formatos padronizados (como DST, PES, JEF, EXP), executando funções de corte de linha (trim), troca de cor (color change) e paradas programadas (stop) com velocidades operacionais de 400 a 1.200 PPM.",
-    "beginnerExplanation": "É a evolução do bordado tradicional da vovó: em vez de fazer ponto por ponto com as mãos, você cria o desenho no computador e coloca o arquivo em um pen drive. A máquina de bordar lê esse arquivo e faz milhares de pontos perfeitos por minuto de forma 100% automática!",
-    "construction": [
-      "Cabeçote com Conjunto de Agulhas e Tensores",
-      "Pantógrafo com Braços Mecânicos X e Y",
-      "Mecanismo de Lançadeira e Caixa de Bobina",
-      "Painel Computadorizado de Comando Touchscreen",
-      "Conjunto de Sensores de Quebra de Linha e Fim de Bobina"
-    ],
+    "category": "Equipamentos e Máquinas",
+    "grammarClass": "Locução nominal técnica. Do grego elektron e do latim mechanicum.",
+    "origin": "Evolução histórica da costura que transformou o bordado livre em bastidor manual e máquina de pedal (Free-Motion) em sistemas robóticos de alta precisão pantográfica no século XX.",
+    "summary": "As diferenças técnicas, produtivas e de precisão entre o bordado computadorizado automatizado e o bordado livre manual na máquina de costura.",
+    "definition": "A comparação entre bordado eletrônico computadorizado e bordado mecânico livre (Computerized vs. Free-Motion Embroidery) estabelece a fronteira tecnológica entre dois modos de produção têxtil. O **Bordado Eletrônico** é guiado por servomotores que movem o pantógrafo nos eixos cartesianos X e Y sincronizados eletronicamente com a barra de agulha a até 1.200 PPM, garantindo repetibilidade de 100% em lotes industriais; enquanto o **Bordado Livre Mecânico** depende do controle motor manual do operador, que conduz o bastidor com as mãos sobre os dentes de transporte rebaixados, criando peças únicas com variações artísticas não repetíveis.",
+    "technicalDetails": "Diferenças operacionais fundamentais:\n• Controle de Trajetória: Eletrônico (micrométrico por encoder óptico) vs. Manual (destreza e coordenação visual-motora);\n• Repetibilidade: Absoluta (1.000 peças idênticas) no eletrônico vs. Peça única artesanal no livre;\n• Velocidade Efetiva: 600 a 1.200 PPM contínuos no eletrônico vs. 300 a 500 PPM no livre manual;\n• Tensão de Fio: Controlada dinamicamente por atuadores eletrônicos e molas calibradas.",
     "howItWorks": [
-      "1. A arte gráfica é digitalizada em um software profissional gerando a matriz de pontos.",
-      "2. O operador carrega o arquivo na memória da máquina e programa a sequência de cores das agulhas.",
-      "3. O tecido e a entretela são montados sob tensão uniforme no bastidor e engatados no pantógrafo.",
-      "4. A máquina executa o bordado movimentando o bastidor a cada penetração da agulha até o arremate final."
+      "1. No bordado eletrônico: a matriz é carregada via pendrive ou rede Wi-Fi na memória da máquina.",
+      "2. O tecido é fixado com entretela no bastidor e travado no braço mecânico do pantógrafo.",
+      "3. O operador aperta o botão verde Start.",
+      "4. A máquina executa os pontos com exatidão milimétrica sem intervenção das mãos do operador.",
+      "5. A máquina corta linhas, avisa sobre quebras e toca alarme nas trocas de cor.",
+      "6. A peça sai pronta do bastidor com padrão de acabamento uniforme e padronizado.",
+      "7. Permite escalabilidade de produção com alto padrão comercial para venda em lojas e empresas."
     ],
-    "mainTypes": [
-      "Bordado Eletrônico Doméstico (1 agulha, troca manual de cor, mesa plana)",
-      "Bordado Eletrônico Semiprofissional (1 a 6 agulhas, braço tubular)",
-      "Bordado Eletrônico Industrial (Multicabeças com 6 a 24 cabeçotes e até 15 agulhas por cabeça)"
+    "beginnerExplanation": "No bordado livre antigo, você abaixava os dentinhos da máquina de costura comum e tinha que mexer o bastidor com as suas próprias mãos para frente e para trás, 'desenhando' com a agulha enquanto pisava no pedal: se sua mão tremesse ou fosse rápido demais, o ponto ficava torto ou a agulha quebrava! No bordado eletrônico moderno, você é a diretora: você escolhe o desenho no computador, prende o bastidor no braço mecânico da máquina e aperta um botão. A máquina borda tudo sozinha com perfeição milimétrica enquanto você toma um café!",
+    "applications": [
+      "Produção seriada de uniformes corporativos, camisetas polo e jalecos",
+      "Personalização rápida de nomes e enxovais no comércio de ateliê",
+      "Confecção de coleções de mesa posta e presentes com padrão profissional de loja"
     ],
-    "advantages": [
-      "✔ Repetibilidade e padronização matemática de 100% das peças produzidas",
-      "✔ Alta produtividade com velocidades de 600 a 1.200 pontos por minuto",
-      "✔ Capacidade de bordar detalhes minuciosos, degradês e efeitos 3D",
-      "✔ Redução drástica do custo unitário em produções seriadas"
-    ],
-    "limitations": [
-      "Exige conhecimento prévio de digitalização ou contratação de matrizes de qualidade, além de calibragem rigorosa de entretelas e agulhas para cada tipo de tecido."
+    "matrixRelations": [
+      "Pantógrafo de Máquina: O elemento mecânico que move o bastidor substituindo as mãos humanas.",
+      "Repetibilidade de Ponto: Capacidade da máquina de bordar 50 peças com o mesmo logotipo com exatidão de 0,1 mm.",
+      "Velocidade de Produção (PPM): Produtividade até 5 vezes maior que o bordado manual."
     ],
     "commonErrors": [
-      "❌ Tentar enviar imagens comuns em JPG/PNG direto para a máquina sem realizar a digitalização técnica em matriz.",
-      "❌ Descuidar da limpeza de fiapos na lançadeira, causando travamento do mecanismo rotativo.",
-      "❌ Usar a mesma entretela e agulha para todos os tipos de tecidos indistintamente."
+      "Tentar empurrar ou puxar o bastidor com as mãos durante o bordado eletrônico, forçando os motores e estragando a máquina",
+      "Achar que o bordado eletrônico dispensa conhecimento de tecidos, agulhas e entretelas",
+      "Não respeitar o limite de velocidade da máquina em tecidos delicados",
+      "Deixar objetos ou sobras de tecido encostando no braço móvel do pantógrafo durante o bordado"
+    ],
+    "howToIdentify": [
+      "Estalos fortes de dentes de engrenagem pulando no pantógrafo (alguém esbarrou ou segurou o bastidor em movimento)",
+      "Mensagem no visor: 'Erro de Motor de Passo / Step Out' por obstrução física do braço",
+      "Desenho desencaixado após parada da máquina por interferência manual"
     ],
     "troubleshootingTips": [
-      "Se o bordado perder o alinhamento no meio do trabalho, verifique se o bastidor não bateu na parede da carcaça e reinicie o ponto de origem (Trace).",
-      "Se a linha desfiar com frequência, substitua a agulha por uma nova e confira o alinhamento do bico da lançadeira."
+      "NUNCA encoste a mão no bastidor enquanto a máquina de bordar estiver trabalhando.",
+      "Mantenha uma distância livre de pelo menos 30 cm ao redor de todo o pantógrafo da máquina.",
+      "Mesmo com a automação: fiscalize a tensão da linha e a qualidade do avesso a cada troca de trabalho."
     ],
-    "applications": [
-      "Uniformes corporativos, moda streetwear, enxovais de maternidade, peças promocionais, bonés, calçados e patchs militares."
-    ],
-    "practicalExercise": "Carregue uma matriz básica de monograma no painel da máquina. Realize o teste de traçado de área útil (Trace) para confirmar se o desenho não colide com as bordas do bastidor. Inicie o bordado em velocidade moderada (600 PPM) e observe como o pantógrafo e a barra de agulha se movem em sincronia milimétrica!",
-    "quickSummary": "Bordado eletrônico é a arte têxtil computadorizada onde máquinas automáticas reproduzem matrizes digitais com altíssima velocidade, precisão e acabamento profissional.",
-    "voceSabia": "As primeiras máquinas de bordar automáticas do século XIX utilizavam cartões perfurados de papel inspirados nos teares de Jacquard, muito antes da invenção dos computadores modernos!",
-    "dicaArtrelados": "O segredo do bordado eletrônico impecável está no equilíbrio do triângulo de ouro: Matriz bem digitalizada + Entretela correta para o tecido + Tensão de linha regulada. Se um desses três falhar, o bordado não fica perfeito!",
-    "recommendedSettings": {
-      "speedPPM": "650 a 850 PPM",
-      "needleType": "75/11 Ponta Bola (Malha) ou Ponta Fina Aguda (Tecido Plano)",
-      "stabilizer": "Entretela compatível com a gramatura do tecido base"
-    },
+    "dicaArtrelados": "As Mãos Fora do Bastidor Artrelados: Quando a sua máquina de bordar começar a trabalhar, deixe o pantógrafo dançar livre! Nunca segure no aro plástico, nunca tente 'ajudar' a máquina puxando o tecido e nunca deixe a tesoura apoiada na mesa perto do braço móvel! A máquina foi calibrada para fazer movimentos micrométricos livres: respeite o espaço dela que ela te devolve peças impecáveis!",
+    "voceSabia": "A primeira máquina de bordar multiagulhas computadorizada controlada por disquete de computador de 3,5 polegadas foi lançada pela Tajima no Japão em 1984, permitindo que uma fábrica produzisse em 1 dia o que antes demorava 6 meses de trabalho artesanal!",
+    "practicalExercise": "Coloque a sua máquina para bordar uma bandeirinha simples. Fique apenas observando o movimento dos eixos X e Y: repare como o pantógrafo se desloca em milésimos de segundo enquanto a agulha está no ponto mais alto, parando antes da agulha tocar o tecido. É a sincronia perfeita da robótica têxtil!",
+    "quickSummary": "Fronteira tecnológica entre o bordado automatizado por servomotores cartesianos e o bordado livre manual conduzido pelas mãos do operador.",
     "relatedTerms": [
-      "Matriz de Bordado",
-      "Digitalização",
-      "Pantógrafo",
-      "Ponto Cheio (Satin)",
-      "Ponto Tatami"
+      "Pantógrafo de Máquina",
+      "Software de Programação (Digitizing)",
+      "Velocidade de Ponto (PPM)",
+      "Colocação no Bastidor (Hooping)",
+      "Repetibilidade de Ponto"
     ],
-    "tags": [
-      "b-009",
-      "bordado eletronico",
-      "computadorizado",
-      "automacao",
-      "matriz",
-      "artrelados"
-    ],
-    "bibliographicReferences": [
-      "WILCOM INTERNATIONAL. Principles of Machine Embroidery Digitizing. Sydney, 2021.",
-      "ARTRELADOS. Fundamentos do Bordado Eletrônico Contemporâneo. Brasil, 2024."
-    ],
-    "updatedAt": "2026-08-19",
-    "letter": "B"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "b-021-bordado-em-3d-puff",
     "code": "B-021",
-    "term": "Bordado em 3D (Alto Relevo / E.V.A.)",
-    "level": "Avançado 🔴",
-    "grammarClass": "Substantivo masculino.",
-    "origin": "Do inglês '3D Puff Embroidery' (bordado inflado/relevado tridimensional) com uso de placa de E.V.A. (etil-vinil-acetato).",
-    "category": "Pontos Básicos & Decorativos",
-    "summary": "Bordado volumoso elevado por uma camada de espuma de E.V.A. sob os pontos.",
-    "definition": "O bordado em 3D (Puff Embroidery ou Alto Relevo com E.V.A.) é a técnica especializada de bordado computadorizado na qual uma lâmina de espuma termoplástica flexível de E.V.A. de 2.0 mm a 3.5 mm de espessura é fixada sobre o tecido e totalmente recoberta por pontos cheios (satin) ultra densos, criando letras e emblemas com relevo tridimensional escultural e toque emborrachado macio.",
-    "technicalDetails": "Requer matriz digitalizada com parâmetros estritos: 1) Densidade de pontos de 40% a 60% mais fechada que o padrão (geralmente entre 0.20 mm e 0.25 mm de espaçamento); 2) Subponto de contorno e extremidades fechadas (Capping) com pontos corridos de alta densidade para picotar o contorno do E.V.A.; 3) Proibição do uso de ponto tatami sobre a espuma, pois o tatami corta o E.V.A. em pedaços.",
-    "beginnerExplanation": "É aquele bordado alto e fofinho muito famoso nos bonés de times de beisebol e marcas famosas! Uma espuminha de E.V.A. é colocada por cima do tecido e a máquina costura os pontos bem juntinhos por cima dela. Quando o bordado acaba, você puxa o excesso da espuminha e as letras ficam em alto relevo espetacular!",
-    "construction": [
-      "Lâmina de Espuma de E.V.A. de Alta Densidade (2 mm a 3 mm) na Cor da Linha",
-      "Programação de Pontos Cheios (Satin) com Capping / Arremate Perfurante nas Pontas",
-      "Densidade Fechada Calibrada (0.22 mm a 0.26 mm)",
-      "Agulha com Ponta Aguda e Olho Alargado (DBxK5 ou SES 80/12 a 90/14)",
-      "Soprador Térmico / Ferro a Vapor para Acabamento de Microfibras"
-    ],
+    "letter": "B",
+    "term": "Bordado em 3D Puff em Bonés e Peças Estruturadas (3D Foam Embroidery on Caps)",
+    "level": "Intermediário 🟡",
+    "category": "Técnicas Especiais",
+    "grammarClass": "Locução nominal técnica. Do inglês 3D puffy foam embroidery.",
+    "origin": "Criado na cultura do vestuário esportivo urbano e beisebol norte-americano nos anos 1990 para dar alto relevo escultural a letras de bonés das ligas MLB e NBA.",
+    "summary": "Técnica de relevo alto com borracha EVA rígida e pontos satim de altíssima densidade em bonés e peças pesadas, finalizada com soprador térmico.",
+    "definition": "O bordado em 3D Puff em bonés e peças estruturadas (3D Foam High-Relief on Headwear) é o procedimento técnico especializado de bordar sobre uma placa de espuma de etil-vinil-acetato (EVA) de alta densidade e rigidez (espessuras de 2 mm a 3 mm). A matriz exige programação específica com pontos de fechamento nas pontas (Caps), sob-pontos de corte perimetral que picotam o EVA e pontos satim com densidade ultra-fechada (0,20 mm a 0,25 mm) que recobrem totalmente a borracha, criando relevos de até 3 mm de altura com bordas limpas e corte do excedente a quente.",
+    "technicalDetails": "Parâmetros críticos para bordado 3D em bonés:\n• Dureza do EVA: Densidade média/alta (Shore A 45 a 55) que se quebra facilmente nas perfurações;\n• Cor do EVA: Obrigatoriamente idêntica ou o mais próxima possível da cor da linha superior de satim;\n• Densidade de Cobertura: Quase o dobro da normal (espaçamento entre linhas de 0,20 mm a 0,25 mm);\n• Agulha Recomendada: Calibre 80/12 ou 90/14 com ponta afiada aguda (Sharp Needle) para picotar o EVA sem mastigar;\n• Acabamento Térmico: Soprador térmico a 150°C para encolher e selar pequenos pelinhos residuais de borracha.",
     "howItWorks": [
-      "1. A máquina borda uma linha de posicionamento no tecido marcando onde a letra ficará.",
-      "2. O operador apoia a folha de E.V.A. sobre a área marcada (fixando com fita crepe se necessário).",
-      "3. A máquina borda o fechamento das pontas (capping) e em seguida o ponto cheio cobrindo o E.V.A.",
-      "4. Ao término, o operador puxa a placa de E.V.A., que se destaca facilmente pelas microperfurações da agulha.",
-      "5. Passa-se um jato rápido de ar quente com soprador para encolher qualquer pedacinho de espuma visível."
+      "1. Estruture a copa frontal do boné com entretela resinada dura montada no bastidor de boné.",
+      "2. A máquina borda primeiro os elementos planos de base (se houver) e faz um contorno em ponto reto onde o 3D ficará.",
+      "3. Posicione a placa de EVA sobre o contorno e fixe com fita crepe ou spray temporário.",
+      "4. A máquina borda os pontos de corte perimetrais que fatiam a borracha nas bordas das letras.",
+      "5. A máquina aplica as colunas de satim ultra-densas com pontos de fechamento (caps) nas pontas abertas.",
+      "6. Ao terminar, retire a peça e puxe o excesso de EVA com as mãos: ele se destaca facilmente pelas perfurações.",
+      "7. Aplique ar quente com soprador térmico rápido: qualquer fiapo visível de EVA derrete e se esconde sob o fio.",
+      "8. As letras resultam com relevo imponente, sólidas e com acabamento de boutique internacional."
     ],
-    "mainTypes": [
-      "3D Puff Total (Todo o logotipo ou letra é em alto relevo)",
-      "3D Puff Combinado (Base plana em ponto tatami com letras em 3D por cima)",
-      "3D Puff com E.V.A. Duplo (Uso de placas de 4 mm para relevo extremo em couro)"
+    "beginnerExplanation": "Sabe aqueles bonés de beisebol e de marcas famosas que têm as letras 'pulando para fora', bem altas, gordinhas e durinhas? Aquilo é o bordado 3D com EVA! A máquina borda por cima de uma plaquinha de borracha EVA. Os pontinhos de linha vão descendo tão juntinhos e apertados que eles cortam o EVA em volta e cobrem a borracha inteira como uma capa de linha. Quando você tira o excesso, fica aquele relevo 3D maravilhoso e imponente!",
+    "applications": [
+      "Bonés de aba curva e aba reta para marcas de streetwear, agro e esportes",
+      "Jaquetas pesadas de sarja, couro e coletes estruturados",
+      "Mochilas, malas térmicas e bolsas de lona com logomarcas em alto relevo"
     ],
-    "advantages": [
-      "✔ Efeito estético de alto padrão e extremo valor comercial em moda streetwear",
-      "✔ Destaque visual incomparável em bonés, jaquetas e moletons",
-      "✔ Toque tridimensional agradável e resistente a deformações por pressão",
-      "✔ Margem de lucro significativamente mais alta em relação ao bordado plano comum"
-    ],
-    "limitations": [
-      "Não permite letras ou traços finos (largura mínima da coluna de 3.5 mm e máxima de 9 mm) e exige E.V.A. de densidade correta e na cor idêntica à da linha."
+    "matrixRelations": [
+      "Pontos de Fechamento (Caps): Obrigatório programar nós de satim fechando as pontas das letras para o EVA não aparecer nas quinas.",
+      "Densidade de Ponto: Exige densidade de 0,22 mm a 0,25 mm; densidade comum de 0,40 mm deixa o EVA à mostra.",
+      "Tipo de Agulha: Agulhas Sharp cortam o EVA limpo; agulhas de ponta bola arredondada amassam o EVA e deixam fiapos."
     ],
     "commonErrors": [
-      "❌ Usar E.V.A. de cor diferente da linha (ex: E.V.A. branco com linha preta), deixando a espuma vazando.",
-      "❌ Digitalizar com densidade comum (0.40 mm), deixando o E.V.A. aparecendo entre as linhas.",
-      "❌ Não fechar as extremidades das letras com pontos de capping, fazendo o E.V.A. escapar pelas pontas abertas."
+      "Usar EVA de cor contrastante com a linha (ex.: EVA branco sob linha preta), fazendo qualquer buraquinho mostrar a borracha",
+      "Tentar fazer 3D em letras muito finas (< 3 mm) ou muito largas (> 10 mm), estourando os pontos",
+      "Esquecer de programar as capelas de fechamento nas pontas das letras, deixando o miolo de borracha exposto",
+      "Usar ferro de passar comum direto sobre o relevo, esmagando e derretendo o EVA definitivamente"
+    ],
+    "howToIdentify": [
+      "Pedacinhos de borracha saindo pelas beiradas das letras (falta de sob-pontos de corte perimetrais)",
+      "Letras com o EVA visível entre os pontos por densidade fraca no software",
+      "O relevo afundando ou amassando após passar a mão (EVA de densidade muito mole ou baixa qualidade)"
     ],
     "troubleshootingTips": [
-      "Se ficarem pontinhas de E.V.A. espetadas nas bordas após destacar a placa, aplique um jato rápido de soprador térmico ou secador de cabelo potente a 10 cm de distância: o calor encolhe a espuma instantaneamente para dentro dos pontos!",
-      "Se a agulha estiver quebrando a linha com facilidade durante o 3D, aumente o tamanho da agulha para 80/12 ou 90/14 revestida de titânio para perfurar o E.V.A. com menor atrito."
+      "Use SEMPRE EVA da mesma cor da linha de bordar (linha vermelha com EVA vermelho, linha azul com EVA azul).",
+      "Para retirar os micro-fiapos que sobrarem: use um soprador térmico ou secador de cabelo potente na temperatura quente por 3 segundos.",
+      "Nunca passe ferro quente por cima do 3D: o calor direto achata a borracha e estraga o relevo para sempre."
     ],
-    "applications": [
-      "Bonés estruturados de aba reta, jaquetas universitárias bomber, uniformes de alta visibilidade, calçados e marcas de moda urbana."
-    ],
-    "practicalExercise": "Digitalize a letra 'A' em estilo bloco com 5 cm de altura e colunas de 6 mm de largura. Configure a densidade para 0.24 mm com arremates fechados nas pontas. Borde em uma sarja usando E.V.A. preto de 2 mm e linha preta. Destaque a sobra e passe o soprador térmico: encante-se com o resultado escultural!",
-    "quickSummary": "Bordado em 3D é a técnica que utiliza espuma de E.V.A. sob pontos cheios hiperdensos para criar relevos tridimensionais marcantes e esculturais.",
-    "voceSabia": "O bordado 3D com E.V.A. foi popularizado mundialmente pela marca de bonés New Era na década de 1990 para os logotipos oficiais dos times da Major League Baseball (MLB) nos Estados Unidos!",
-    "dicaArtrelados": "Dica de Mestre Artrelados: use sempre E.V.A. de alta densidade (espuma rígida própria para bordado) em vez de E.V.A. de papelaria escolar! O E.V.A. técnico destaca facílimo como um picote de papel e não esfarela na lavagem!",
-    "recommendedSettings": {
-      "speedPPM": "550 a 650 PPM",
-      "needleType": "DBxK5 ou 130/705 H tamanho 80/12 ou 90/14 com Ponta Aguda",
-      "stabilizer": "Entretela Recorta-Fácil (Cutaway) 80g reforçada"
-    },
+    "dicaArtrelados": "O Segredo do Soprador Térmico Artrelados: Quando você terminar de bordar o 3D no boné e puxar o excesso de EVA, sempre sobram uns fiapinhos teimosos de borracha nos cantos, não é? Não perca tempo arrancando com a pinça! Passe o ar quente de um soprador térmico (ou um secador de cabelo bem potente) por 3 segundinhos a um palmo de distância: o EVA encolhe instantaneamente, se esconde para dentro da linha e o bordado fica limpo como mágica!",
+    "voceSabia": "A técnica de 3D Puff foi popularizada mundialmente pelo grupo musical Run-D.M.C. e pelos bonés dos New York Yankees na década de 1990! Hoje, mais de 80% dos bonés das ligas esportivas profissionais americanas usam exatamente essa tecnologia de EVA sob satim!",
+    "practicalExercise": "Pegue um pedaço de EVA de 2 mm na cor preta e linha preta. Programe uma letra 'T' com largura de 6 mm, densidade de 0,24 mm e tampas nas 3 pontas. Borde em um retalho grosso de brim. Destaque a sobra com a mão e passe ar quente: admire o relevo espetacular e profissional que você acabou de criar.",
+    "quickSummary": "Técnica de alto relevo escultural sobre placas de EVA rígido com satim ultra-denso e acabamento térmico para bonés e peças pesadas.",
     "relatedTerms": [
-      "Ponto Cheio (Satin)",
-      "Densidade de Bordado",
-      "E.V.A. para Bordado",
-      "Capping (Fechamento)",
-      "Boné Estruturado"
+      "Bordado em Alto Relevo com EVA Macio",
+      "Ponto Satim (Satin Stitch)",
+      "Bastidor de Boné",
+      "Densidade de Ponto",
+      "Soprador Térmico no Ateliê"
     ],
-    "tags": [
-      "b-021",
-      "3d puff",
-      "eva",
-      "alto relevo",
-      "bones",
-      "streetwear",
-      "artrelados"
-    ],
-    "bibliographicReferences": [
-      "NEW ERA CAP COMPANY. 3D Puff Embroidery Engineering and Stitch Densities. Buffalo, 2021.",
-      "ARTRELADOS. Segredos do Bordado 3D em Bonés e Peças Estruturadas. Curitiba, 2024."
-    ],
-    "updatedAt": "2026-08-19",
-    "letter": "B"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "b-013-bordado-em-alta-densidade",
     "code": "B-013",
-    "term": "Bordado em Alta Densidade",
-    "level": "Avançado 🔴",
-    "grammarClass": "Substantivo masculino.",
-    "origin": "Do latim 'densus' (cerrado, espesso, com grande massa por unidade de espaço) aplicado à concentração de linhas por milímetro.",
-    "category": "Pontos Básicos & Decorativos",
-    "summary": "Bordado programado com grande concentração de pontos por milímetro quadrado.",
-    "definition": "O bordado em alta densidade é a técnica de programação e execução onde o espaçamento entre as colunas ou passadas de pontos é extremamente reduzido (geralmente entre 0.28 mm e 0.35 mm), resultando em uma cobertura compacta, sólida e com textura encorpada que veda completamente o fundo do tecido base.",
-    "technicalDetails": "Embora proporcione cobertura total e brilho acetinado reflexivo, a alta densidade aumenta a rigidez mecânica da peça e exerce forças intensas de repuxamento sobre as fibras têxteis. Requer o uso de entretelas reforçadas de alta gramatura (80g a 100g) e compensação de repuxo (Pull Compensation) de 0.40 mm a 0.50 mm para que os contornos não se desloquem.",
-    "beginnerExplanation": "É quando os pontos do bordado são colocados tão pertinho uns dos outros que não sobra nenhum espacinho transparente entre eles. O bordado fica bem cheinho e com aspecto de brasão militar em alto padrão!",
-    "construction": [
-      "Programação de Densidade Fechada (0.30 mm a 0.35 mm no Software)",
-      "Camada Estrutural Reforçada de Subponto (Double Underlay)",
-      "Entretela Estabilizadora de Alta Densidade (Recorta-Fácil 80g ou Rasga-Fácil Dupla)",
-      "Agulha de Alta Resistência com Ponta Aguda e Olho Polido"
-    ],
+    "letter": "B",
+    "term": "Bordado em Alta Densidade e Limites de Cobertura (High-Density Stitching Limits)",
+    "level": "Intermediário 🟡",
+    "category": "Programação de Bordado",
+    "grammarClass": "Locução nominal técnica. Do latim densus (espesso, apertado) e do inglês high-density embroidery.",
+    "origin": "Estudos de engenharia têxtil para determinar o limiar máximo de perfurações por centímetro quadrado suportado por tecidos sem sofrer ruptura de fibras.",
+    "summary": "Os limites mecânicos seguros de agulhadas por milímetro quadrado para dar cobertura perfeita sem picotar o tecido nem empedrar o bordado.",
+    "definition": "O bordado em alta densidade (High-Density Stitching & Saturation Threshold) refere-se à concentração elevada de penetrações de agulha e acúmulo de filamentos de linha por unidade de área na matriz computadorizada (densidades inferiores a 0,35 mm de espaçamento linear ou acima de 80 pontos por centímetro quadrado). Embora necessária em técnicas como 3D Puff ou tecidos escuros sob linhas claras, a alta densidade não controlada causa superaquecimento da agulha, repuxo violento, quebra de linha por fricção e corte estrutural (efeito picote de lâmina) na trama do tecido.",
+    "technicalDetails": "Limiares técnicos de densidade e perigo de ruptura:\n• Densidade Normal Segura: 0,38 mm a 0,42 mm de espaçamento entre linhas (satim e tatami padrão);\n• Alta Densidade Controlada: 0,22 mm a 0,28 mm (exclusiva para relevo 3D Puff com EVA ou bordados militares);\n• Ponto Crítico de Ruptura Têxtil: Densidades abaixo de 0,18 mm cortam tecidos finos como papel picotado;\n• Carga Térmica: O atrito concentrado eleva a temperatura da agulha a mais de 120°C em rotações acima de 700 PPM.",
     "howItWorks": [
-      "1. No software de digitalização, calibra-se o espaçamento entre pontos para um valor de 0.32 mm.",
-      "2. Programa-se uma base de subponto em grade cruzada para ancorar o tecido firmemente na entretela.",
-      "3. A máquina borda a sequência com velocidade reduzida para dissipar o atrito e calor da agulha.",
-      "4. Os pontos se acomodam lado a lado formando uma película densa e brilhante de linha contínua."
+      "1. No software de matrizes, o programador ajusta a densidade dos pontos para compensar a cor de um tecido escuro.",
+      "2. A máquina inicia o bordado descendo a agulha repetidas vezes em espaçamentos micrométricos.",
+      "3. Se a densidade estiver equilibrada: a cobertura fica 100% sólida e acetinada sem translucidez.",
+      "4. Se a densidade for excessiva: a agulha começa a bater no mesmo orifício ou a menos de 0,2 mm dele.",
+      "5. A lâmina da agulha corta as fibras da trama do tecido como uma guilhotina.",
+      "6. A linha sofre atrito extremo, perde lubrificação e se rompe bruscamente.",
+      "7. A peça sai do bastidor com uma placa dura e rígida, com risco de rasgar na primeira lavagem."
     ],
-    "mainTypes": [
-      "Alta Densidade em Ponto Cheio (Para monogramas encorpados e letras volumosas)",
-      "Alta Densidade em Tatami (Para fundos sólidos de emblemas e escudos esportivos)",
-      "Alta Densidade para 3D Puff (Para cobrir totalmente a espuma de E.V.A. sem deixar frestas)"
+    "beginnerExplanation": "Sabe quando você acha que o bordado está meio transparente e resolve apertar a densidade no computador para ficar 'bem cheinho'? Cuidado com o exagero! Linha de bordar é matéria física: se você colocar pontos demais espremidos no mesmo espacinho, a agulha vira uma serrinha que corta a sua roupa e a peça fica parecendo uma tábua de madeira dura que não dobra! O segredo do bordado profissional não é encher de pontos, mas sim usar a base de sustentação certa por baixo!",
+    "applications": [
+      "Bordados em 3D Puff com EVA onde a cobertura total da borracha é mandatória",
+      "Bordado de linhas brancas ou amarelas sobre tecidos pretos e escuros pesados",
+      "Emblemas e insígnias militares de alta resistência mecânica e abrasiva"
     ],
-    "advantages": [
-      "✔ Cobertura 100% perfeita sem nenhuma transparência do tecido de fundo",
-      "✔ Brilho exuberante e textura tátil encorpada de alta durabilidade",
-      "✔ Imprescindível para a confecção de patches e brasões com corte a laser",
-      "✔ Resistência máxima ao desbotamento e desgaste por atrito"
-    ],
-    "limitations": [
-      "Em tecidos finos e leves, a alta densidade pode perfurar a trama, transformando o bordado em uma 'placa dura' e causando efeito de buraco de agulha."
+    "matrixRelations": [
+      "Sob-ponto (Underlay): Um bom sob-ponto permite manter a densidade em 0,40 mm com cobertura perfeita sem sobrecarregar.",
+      "Compensação de Repuxo: Quanto mais alta a densidade, maior será o repuxo; compense com valores acima de 0,45 mm.",
+      "Espessura de Linha: Usar linha mais grossa (nº 30) permite reduzir o número de pontos mantendo a cobertura."
     ],
     "commonErrors": [
-      "❌ Usar densidade excessivamente fechada (menor que 0.25 mm), que corta o tecido como se fosse uma serra de perfuração.",
-      "❌ Aplicar alta densidade em malhas finas com entretela fraca, resultando em enrugamento severo.",
-      "❌ Bordar em velocidade máxima com linha desfiando por aquecimento no atrito do olho da agulha."
+      "Usar densidade de 0,25 mm em camisetas de malha fina de algodão, fazendo o bordado cortar a roupa e cair como uma tampa",
+      "Sobrepor 3 ou 4 camadas de bordado denso no mesmo lugar sem remover os pontos escondidos por baixo",
+      "Tentar esconder felpas de toalha apertando a densidade em vez de usar plástico hidrossolúvel de topo",
+      "Aumentar a densidade no software sem trocar a agulha por uma mais fina (calibre 70/10)"
+    ],
+    "howToIdentify": [
+      "Tecido rasgando ao redor do bordado assim que você tira a peça do bastidor",
+      "O bordado fica com toque duro e crocante parecendo um pedaço de plástico soldado",
+      "A máquina dá estalos fortes e arrebenta a linha repetidas vezes no mesmo bloco de cor"
     ],
     "troubleshootingTips": [
-      "Se o bordado estiver ficando duro demais como uma placa de plástico, aumente o espaçamento para 0.40 mm e em vez de fechar os pontos, reforce o subponto (underlay).",
-      "Se a linha estiver quebrando continuamente em alta densidade, reduza a velocidade da máquina em 150 PPM e afrouxe ligeiramente a tensão superior."
+      "Ative SEMPRE a ferramenta 'Eliminar Sobreposição' (Remove Overlaps) no software para não empilhar pontos.",
+      "Se o fundo escuro estiver aparecendo: use um sob-ponto de tatami aberto da cor do bordado em vez de espremer o satim.",
+      "Em malhas e tecidos finos: mantenha a densidade sempre entre 0,40 mm e 0,45 mm."
     ],
-    "applications": [
-      "Emblemas termocolantes, patches militares, bordados em jaquetas de couro e bonés estruturados, escudos de times de futebol e monogramas nobres."
-    ],
-    "practicalExercise": "Crie dois círculos de 3 cm no software: o primeiro com densidade padrão de 0.40 mm e o segundo com alta densidade de 0.30 mm. Borde os dois em sarja pesada com entretela de 80g e compare visualmente o brilho, a espessura e a cobertura da linha nos dois círculos!",
-    "quickSummary": "Bordado em alta densidade é a técnica de fechar o espaçamento entre pontos para criar uma cobertura sólida, encorpada e de altíssima definição visual.",
-    "voceSabia": "Nos uniformes de alta patente militar e brasões reais, o bordado em alta densidade tradicionalmente utilizava fios metálicos de ouro e prata costurados tão juntos que blindavam a vestimenta contra vento e intempéries!",
-    "dicaArtrelados": "Antes de fechar a densidade para 0.30 mm na tentativa de cobrir o tecido, experimente primeiro adicionar uma base de subponto em grade dupla (Grid Underlay)! Na maioria das vezes, o subponto resolve o problema de cobertura sem deixar o bordado duro e sem sobrecarregar a agulha!",
-    "recommendedSettings": {
-      "speedPPM": "550 a 700 PPM",
-      "needleType": "DBxK5 ou 130/705 H tamanho 80/12 Revestida de Titânio",
-      "stabilizer": "Entretela Recorta-Fácil (Cutaway) 80g a 100g"
-    },
+    "dicaArtrelados": "O Segredo do Sanduíche sem Placa Dura Artrelados: Se você vai bordar uma linha clarinha (como branco ou amarelo bebê) em cima de um tecido preto grosso e está com medo do preto vazar por baixo, não aperte a densidade para o máximo! Coloque um sob-ponto de tatami leve por baixo com a mesma cor da linha e deixe a cobertura em 0,40 mm. A cobertura vai ficar 100% perfeita, o tecido não corta e o bordado fica maleável e gostoso de usar!",
+    "voceSabia": "Em testes de laboratório têxtil, descobriu-se que uma densidade de satim de 0,15 mm aplica mais de 65 penetrações por centímetro linear — o suficiente para perfurar e romper até tecidos técnicos de Kevlar utilizados em coletes à prova de balas!",
+    "practicalExercise": "No seu software, desenhe dois retângulos de 4x2 cm. No primeiro, coloque densidade 0,22 mm; no segundo, coloque 0,40 mm com sob-ponto automático. Borde em um pedaço de malha de camiseta: dobre os dois com os dedos e veja como o primeiro fica duro e quebra a malha, enquanto o segundo dobra macio e sedoso.",
+    "quickSummary": "Equilíbrio técnico de concentração de pontos por área para garantir cobertura impecável sem cortar as fibras nem empedrar o tecido.",
     "relatedTerms": [
-      "Densidade de Bordado",
-      "Subponto (Underlay)",
+      "Densidade de Ponto",
       "Compensação de Repuxo",
-      "Bordado 3D",
-      "Ponto Cheio"
+      "Bordado em 3D Puff",
+      "Sob-ponto (Underlay)",
+      "Quebra de Linha"
     ],
-    "tags": [
-      "b-013",
-      "alta densidade",
-      "cobertura",
-      "patch",
-      "emblema",
-      "tatami",
-      "artrelados"
-    ],
-    "bibliographicReferences": [
-      "EMBROIDERY DIGITIZING GUILD. Stitch Density and Fabric Displacement Physics. Chicago, 2022.",
-      "ARTRELADOS. Controle de Densidade e Estrutura de Pontos no Bordado Moderno. Brasil, 2024."
-    ],
-    "updatedAt": "2026-08-19",
-    "letter": "B"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "b-059-bordado-em-alto-relevo-3d-puff-eva",
     "code": "B-059",
-    "term": "Bordado em Alto Relevo com EVA / 3D Puff (3D Foam Embroidery Technique)",
-    "level": "Avançado 🔴",
+    "letter": "B",
+    "term": "Bordado em Alto Relevo com EVA Macio em Peças Planas e Infantis (Soft 3D Foam on Flat Goods)",
+    "level": "Intermediário 🟡",
     "category": "Técnicas Especiais",
-    "grammarClass": "Substantivo masculino composto.",
-    "origin": "Do inglês 3D puff foam (espuma tridimensional inflada) e da sigla EVA (Etileno-Vinil-Acetato). Técnica de relevo originada nas matrizes esportivas americanas nos anos 1990.",
-    "summary": "Técnica de relevo escultórico que utiliza placa de espuma EVA de 2mm a 3mm sob pontos cheios de alta densidade com arremates cortantes.",
-    "definition": "O bordado em alto relevo com EVA (3D Puff Embroidery / Puffy Foam) é a técnica especializada de bordado computadorizado que cria elementos gráficos e letras em relevo tridimensional espesso e rígido. Utiliza uma lâmina de espuma termoplástica de microcélulas de EVA (geralmente de 2mm a 3mm de espessura) posicionada sobre o tecido; a máquina costura colunas de ponto cheio (satin) com o dobro da densidade padrão e pontas perfurantes fechadas (tampas de satin / capped ends) que cortam e encapsulam a espuma por completo, deixando o desenho com relevo destacado.",
-    "technicalDetails": "Exige parâmetros de digitalização rigorosos: densidade reforçada em 0.20mm a 0.25mm (o dobro de pontos do satin comum), remoção total de underlays normais e criação de bordas de fechamento (caps). A cor da placa de EVA deve ser exatamente da mesma cor da linha superior de poliéster. Calibre de agulha recomendado: 80/12 ou 90/14 ponta aguda ou titânio.",
+    "grammarClass": "Locução nominal técnica. Do inglês soft 3D foam baby embroidery.",
+    "origin": "Adaptação da técnica esportiva de 3D Puff para o vestuário infantil, moda casual e artigos de bebê, utilizando espumas flexíveis de toque sedoso.",
+    "summary": "Técnica de relevo 3D adaptada para moletons, fraldas e roupas infantis utilizando EVA macio de baixa densidade que não machuca a pele.",
+    "definition": "O bordado em alto relevo com EVA macio em peças planas e infantis (Soft 3D Foam Technique for Apparel) é a variação da técnica tridimensional adaptada especificamente para artigos que entram em contato direto com a pele ou que exigem flexibilidade têxtil (como moletons, bodies, jaquetas leves e mantas de bebê). Ao contrário do 3D de bonés (que usa EVA duro e rígido), esta metodologia emprega espumas de poliuretano ou EVA atóxico de baixa densidade (Shore A 25 a 35) e espessura controlada (1,5 mm a 2 mm), combinadas com forro termocolante no avesso (Toque de Pluma) para total maciez e segurança dermatológica.",
+    "technicalDetails": "Parâmetros para aplicação de 3D macio infantil:\n• Dureza do EVA: Baixa densidade extra-macia (Shore A 25 a 30) para manter a maleabilidade da roupa;\n• Espessura Máxima Recomendada: 1,5 mm a 2,0 mm para não gerar rigidez excessiva;\n• Densidade de Linha: 0,26 mm a 0,30 mm com compensação de repuxo moderada (0,40 mm);\n• Proteção de Avesso: Aplicação obrigatória de entretela termocolante macia (interlining soft touch) sobre os nós;\n• Lavabilidade: Suporta lavagem delicada sem deformação ou perda de volume.",
     "howItWorks": [
-      "1. A máquina costura uma linha de ponto corrido guia marcando o contorno do desenho no tecido.",
-      "2. A máquina pausa e a bordadeira coloca um pedaço de placa de EVA (da mesma cor da linha) sobre a área.",
-      "3. A máquina costura pontos cheios transversais de alta densidade cobrindo a espuma.",
-      "4. A penetração repetida da agulha perfura e corta as bordas do EVA como um picote de selo.",
-      "5. Ao terminar, a bordadeira puxa as sobras de EVA para fora com a mão.",
-      "6. Aplica-se um soprador térmico ou vapor de ferro para retrair microfiapos residuais, deixando o relevo 3D perfeitamente limpo e saliente."
+      "1. Estruture a peça de moletom ou malha com entretela de malha ou recortável suave no bastidor.",
+      "2. Posicione a folha de EVA macio de 1,5 mm da mesma cor da linha sobre a área a ser bordada.",
+      "3. A máquina executa os pontos de costura que prendem e cortam o EVA suavemente.",
+      "4. As colunas de satim cobrem a espuma macia, criando relevo acolchoado suave ao toque.",
+      "5. Destaque o excesso de EVA: a borracha macia se solta sem esforço mecânico.",
+      "6. Aplique ar morno suave com secador para selar qualquer micro-fibra de espuma.",
+      "7. No avesso da peça, passe a ferro o protetor termocolante Toque de Pluma para blindar os nós contra o atrito com a pele do bebê.",
+      "8. A roupa ganha volume fofo e acolchoado com conforto absoluto."
     ],
-    "beginnerExplanation": "É a famosa técnica de fazer bordado 'fofinho e alto' em 3D, igual aos bonés de marcas famosas e times de beisebol. Você coloca uma borrachinha de EVA em cima do tecido, a máquina borda por cima bem cheinha e depois você destaca a sobrinha da borrachinha, ficando aquele relevo maravilhoso!",
+    "beginnerExplanation": "Você adora aquele relevo 3D de boné, mas morre de medo de fazer na roupinha de bebê ou no moletom porque acha que vai ficar duro e machucar a criança? Tem um jeito especial e fofinho de fazer! Em vez de usar aquele EVA durão de boné, a gente usa um EVA especial bem fininho e macio (de 1,5 mm). O bordado fica parecendo uma almofadinha fofa e gostosa! E no final, a gente cola uma entretelinha macia no avesso para a pele sensível do bebê ficar 100% protegida!",
     "applications": [
-      "Logotipos e letras em alto relevo tridimensional em bonés e chapéus",
-      "Emblemas de jaquetas universitárias, moletons pesados e almofadas",
-      "Monogramas elegantes em relevo sobre toalhas e bolsas de lona",
-      "Bordados corporativos de alto valor agregado com estética esportiva profissional"
+      "Iniciais e monogramas em moletons infantis, casaquinhos e jaquetas de lã",
+      "Nomes acolchoados em bolsas de maternidade, nécessaires e almofadas de amamentação",
+      "Detalhes tridimensionais em camisetas de moda casual confortável"
+    ],
+    "matrixRelations": [
+      "Compensação de Repuxo: Como o EVA macio cede mais que o duro, aplique compensação lateral generosa (0,45 mm).",
+      "Largura de Coluna: Colunas de satim devem ter entre 4 mm e 7 mm para criar o efeito almofada ideal.",
+      "Protetor de Avesso (Toque de Pluma): Item obrigatório no acabamento de qualquer peça infantil com relevo."
     ],
     "commonErrors": [
-      "Usar EVA de cor contrastante com a linha (ex: EVA branco com linha preta), deixando a borracha de dentro aparecendo pelos vãos",
-      "Usar matriz de ponto cheio normal sem densidade dupla, deixando o EVA todo exposto e esburacado",
-      "Não colocar as 'tampas' (fechamento de cantos) no software, fazendo o EVA escapar pelas pontas abertas das letras"
+      "Usar EVA grosso e duro de sola de sapato em roupas de bebê, deixando o peito da criança duro e desconfortável",
+      "Esquecer de selar o avesso com película protetora, deixando nós grossos em contato com a pele sensível",
+      "Lavar a peça com água fervente, o que pode ressecar ou encolher a espuma interna",
+      "Fazer desenhos com cantos pontiagudos que podem pinicar ao toque"
+    ],
+    "howToIdentify": [
+      "A roupa não dobra no local do bordado (sinal de que foi usado EVA duro demais para vestuário)",
+      "A cliente reclama que o bordado arranhou o peito da criança (falta de entretela de proteção no avesso)",
+      "O relevo sumindo e murchando após a primeira lavagem por uso de espuma não resiliente"
     ],
     "troubleshootingTips": [
-      "A cor do EVA deve ser SEMPRE idêntica ou muito próxima da cor da linha de bordar",
-      "Para limpar os pedacinhos minúsculos de EVA que sobraram nas quinas das letras, use um soprador térmico (ou a ponta de um secador de cabelo bem quente) por 3 segundos: o EVA encolhe e desaparece para dentro da linha!",
-      "Reduza a velocidade da sua máquina Brother, Janome ou Bernina para 500 - 600 PPM para não quebrar a agulha na densidade do EVA"
+      "Compre EVA especial de baixa densidade (EVA para artesanato fino de 1,5 mm ou espuma puff macia).",
+      "Arredonde as pontas de todas as letras no software: letras com cantos arredondados cobrem o EVA muito melhor.",
+      "Sempre passe o protetor Toque de Pluma com ferro a seco sem vapor por 10 a 12 segundos no avesso."
     ],
-    "dicaArtrelados": "O grande segredo do bordado 3D com EVA perfeito em máquinas caseiras: no software, dobre a densidade do ponto cheio (deixe em 0.20mm) e feche as pontinhas de todas as letras com pontos retos antes do satin. O EVA corta como manteiga e o relevo fica parecendo uma escultura!",
-    "voceSabia": "O EVA para bordado é diferente do EVA escolar comum de papelaria: ele tem uma densidade especial de microcélulas de alta densidade que se despedaça facilmente com os furos da agulha, saindo inteirinho sem deixar rebarbas!",
-    "practicalExercise": "No seu software, crie uma letra 'I' de 3cm em ponto cheio com densidade de 0.20mm: coloque um retalho de sarja e um pedaço de EVA no bastidor da sua máquina; borde com linha da mesma cor e retire as sobras puxando com os dedos. Sinta a textura tridimensional incrível do relevo!",
-    "quickSummary": "Técnica de relevo escultórico 3D usando placa de EVA sob pontos cheios de alta densidade que encapsulam a espuma.",
+    "dicaArtrelados": "O Segredo da Almofadinha Infantil Artrelados: Quando for fazer relevo 3D em roupinhas infantis ou mantas de bebê, use sempre o EVA macio de 1,5 mm e NUNCA esqueça de colar a entretela de proteção 'Toque de Pluma' no avesso! Ela derrete com o ferro e cria uma camadinha aveludada lisinha sobre todos os nós da máquina. A mãe pode encostar o rostinho do bebê no bordado que vai sentir a maciez de uma nuvem!",
+    "voceSabia": "A indústria de roupas para recém-nascidos possui normas internacionais rigorosas (como o padrão Oeko-Tex Standard 100) que exigem que qualquer relevo interno de costura não exceda 0,8 mm de rigidez pontual para prevenir assaduras na pele sensível dos bebês!",
+    "practicalExercise": "Pegue um retalho de moletom e um pedaço de EVA macio de 1,5 mm. Borde a letra inicial do seu nome com colunas de 5 mm e pontas arredondadas. Aplique a película de proteção no avesso a ferro: sinta com os olhos fechados o toque acolchoado e a maciez impecável do bordado.",
+    "quickSummary": "Metodologia de relevo tridimensional com EVA flexível e proteção de avesso para roupas infantis e moletons macios e confortáveis.",
     "relatedTerms": [
-      "Ponto Cheio (Satin)",
-      "Ajuste de Densidade",
-      "Agulha de Titânio",
-      "Bastidor de Boné"
+      "Bordado em 3D Puff em Bonés",
+      "Protetor de Bordado (Toque de Pluma)",
+      "Ponto Satim (Satin Stitch)",
+      "Entretela de Malha",
+      "Compensação de Repuxo"
     ],
-    "tags": [
-      "b-059",
-      "3d puff",
-      "eva",
-      "alto relevo",
-      "bonés",
-      "densidade",
-      "técnicas especiais",
-      "artrelados"
-    ],
-    "bibliographicReferences": [
-      "GUNOLD. Puffy 3D Foam Embroidery Guidelines and Digitizing Rules. Kenzingen, 2022.",
-      "MADEIRA THREADS. 3D Puff Embroidery on Caps and Heavy Apparel. Freiburg, 2023.",
-      "ARTRELADOS. O Guia Supremo do Bordado 3D com EVA: Como Fazer Relevos Profissionais na Sua Máquina. São Paulo: Artrelados, 2024."
-    ],
-    "updatedAt": "2026-08-19",
-    "letter": "B"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "b-037-bordado-em-bastidor-expandido",
     "code": "B-037",
-    "term": "Bordado em Bastidor Expandido",
+    "letter": "B",
+    "term": "Bordado em Bastidor Expandido e de Estágios (Multi-Position & Giga Hoop)",
     "level": "Intermediário 🟡",
-    "grammarClass": "Substantivo masculino.",
-    "origin": "Do latim 'expandere' (abrir em grande amplitude/alargar o campo de trabalho).",
     "category": "Técnicas de Bastidor",
-    "summary": "Uso de bastidores de grande formato com braços adaptadores para cobrir grandes áreas.",
-    "definition": "O bordado em bastidor expandido (Extra-Large / Jumbo Hoop Embroidery) é a técnica de fixação, estabilização e costura que utiliza aros e quadros de grande formato (como bastidores de 200x300 mm, 240x360 mm, 360x360 mm ou bastidores pantográficos de jaqueta de até 400x500 mm), permitindo bordar composições contínuas de grande escala sem a necessidade de dividir a matriz ou remontar o tecido múltiplas vezes.",
-    "technicalDetails": "Devido à grande distância entre as bordas do bastidor, o centro do tecido sofre perda natural de tensão mecânica (efeito de 'cama elástica' ou 'barriga de rede'). Exige reforço com camadas duplas de entretela cruzadas em 90°, controle estrito do peso da peça suspensa para não sobrecarregar os motores de passo do pantógrafo e verificação prévia do trajeto (Trace Area) para evitar colisão mecânica dos braços do bastidor com o cabeçote.",
-    "beginnerExplanation": "É quando a gente usa aquele bastidor gigante (como o de 20x30 cm ou maior) para bordar desenhos grandões nas costas de um casaco, em uma manta de bebê ou em um jogo de lençol inteiro de uma só vez, sem precisar ficar parando e trocando o bastidor de lugar!",
-    "construction": [
-      "Quadro de Bastidor de Grande Formato em Polímero Reforçado ou Alumínio",
-      "Braços de Acoplamento Metálicos com Encaixe Reforçado para Pantógrafo",
-      "Camadas Cruzadas de Entretela Estruturadora de Alta Resistência",
-      "Mesa Extensora de Apoio para Alívio de Peso da Peça"
-    ],
+    "grammarClass": "Locução nominal técnica. Do latim expandere (estender) e do inglês multi-position hoop / giga hoop.",
+    "origin": "Criado pelos fabricantes de máquinas domésticas (como Brother e Janome) para permitir bordar desenhos maiores que o limite natural da máquina sem precisar soltar o tecido do aro.",
+    "summary": "Técnica de dividir e bordar matrizes grandes em etapas usando bastidores de múltiplos encaixes (2 ou 3 posições) sem desbastar o tecido.",
+    "definition": "O bordado em bastidor expandido e de estágios (Multi-Position Hoop / Bastidor de 2 ou 3 Posições) é a solução mecatrônica e de software que permite a máquinas de bordar domésticas e semi-industriais executarem matrizes maiores que a sua área de bordado física original (ex.: bordar uma matriz de 13x30 cm em uma máquina com campo nativo de 13x18 cm). O bastidor possui dois ou três conjuntos de garras de engate metálico; o software divide a matriz em duas seções interligadas e a bordadeira apenas move o bastidor de um encaixe para o outro sem desparafusar nem mexer no tecido.",
+    "technicalDetails": "Mecânica do bastidor de múltiplos estágios:\n• Configuração de Encaixes: Posição Superior (A), Posição Central (B) e Posição Inferior (C);\n• Divisão Matricial: O software (Pe-Design, Embird ou Wilcom) divide a arte em Partes 1 e 2 com marcadores milimétricos;\n• Área Total Típica: Amplia o campo de 13x18 cm para 13x30 cm na linha Brother, ou 14x20 cm para 20x28 cm na Janome (Giga Hoop);\n• Tolerância de Encaixe: Encaixes mecânicos calibrados com folga zero para evitar desvios no ponto de união.",
     "howItWorks": [
-      "1. A bordadeira monta o tecido no bastidor gigante com duas camadas de entretela cruzadas.",
-      "2. Instala a mesa extensora na máquina para apoiar o peso do tecido e do bastidor.",
-      "3. Encaixa o bastidor no pantógrafo e executa o comando de teste de contorno (Trace) para confirmar a área livre.",
-      "4. A máquina costura a matriz grande de forma contínua com perfeita precisão.",
-      "5. Ao finalizar, retira-se o bastidor e faz-se a remoção da entretela com facilidade."
+      "1. No software de matrizes, ative o gabarito do 'Bastidor Multi-Posição 13x30' (ou Giga Hoop).",
+      "2. Monte o desenho comprido na tela (ex.: um arranjo vertical ou frase longa).",
+      "3. O software divide automaticamente a matriz em dois arquivos: Parte 1 e Parte 2.",
+      "4. Enquadre o tecido no bastidor de estágios com entretela de boa sustentação apenas UMA vez.",
+      "5. Encaixe o bastidor no pantógrafo usando as garras da Posição 1 e borde a Parte 1.",
+      "6. A máquina para e pede a troca: destrave o bastidor do braço e encaixe-o nas garras da Posição 2 (sem soltar o aro!).",
+      "7. Aperte o Start para bordar a Parte 2: o desenho se conecta perfeitamente, formando uma peça grande impecável."
     ],
-    "mainTypes": [
-      "Bastidor Expandido Retangular (200x300 mm a 260x360 mm para costas de jaqueta e toalhas)",
-      "Bastidor Quadrado Gigante (200x200 mm ou 300x300 mm para almofadas e mantas)",
-      "Bastidor Multiposicionamento / Giga Hoop (Bastidor com 2 ou 3 encaixes que permite bordar áreas longas em etapas)"
+    "beginnerExplanation": "Sabe quando você tem uma máquina que só borda até 13x18 cm, mas queria muito bordar um nome comprido ou um desenho grande nas costas de uma jaqueta sem ter que comprar uma máquina industrial cara? O bastidor de estágios é a solução! Ele é compridão e tem dois ou três 'encaixes' no ferrinho. Você prende o tecido UMA vez só, borda a primeira metade no primeiro encaixe, depois tira o bastidor e coloca no segundo encaixe para bordar a outra metade! O desenho se encontra sozinho como mágica!",
+    "applications": [
+      "Bordados compridos em costas de roupões, toalhas de banho e jaquetas",
+      "Nomes longos e frases inteiras em faixas de lençóis de berço",
+      "Arranjos verticais e arabescos barrocos em caminhos de mesa"
     ],
-    "advantages": [
-      "✔ Permite bordar desenhos majestosos e de grande impacto visual em uma única operação",
-      "✔ Elimina erros de encaixe e desencontro de linhas comuns ao dividir matrizes em bastidores menores",
-      "✔ Agiliza a produção de costas de uniformes, jalecos e enxovais de cama",
-      "✔ Expande a gama de produtos de alto valor que o ateliê pode comercializar"
-    ],
-    "limitations": [
-      "Exige máquina compatível com campo de bordado amplo e mesa extensora para sustentar o peso do tecido."
+    "matrixRelations": [
+      "Divisão de Matriz (Split Design): O software deve dividir a matriz respeitando os limites de cada estágio do bastidor.",
+      "Estabilidade de Entretela: Exige entretela pesada (60g a 80g) para não ceder entre a primeira e a segunda etapa.",
+      "Marcadores de Cruzamento: Cruzes de alinhamento invisíveis garantem que as duas metades casem perfeitamente."
     ],
     "commonErrors": [
-      "❌ Usar apenas uma folha de entretela fina no centro de um bastidor 20x30 cm, fazendo o tecido afundar e enrugar durante o bordado.",
-      "❌ Não apoiar o peso de mantas ou casacos pesados na mesa extensora, fazendo o bastidor inclinar e bater no cabeçote.",
-      "❌ Não fazer a simulação de traçado de área (Trace) antes de iniciar, arriscando que a agulha bata no aro plástico do bastidor."
+      "Soltar o parafuso do bastidor para 'ajustar' o tecido na hora de mudar de estágio, estragando todo o alinhamento das duas partes",
+      "Inverter a ordem dos arquivos, bordando a Parte 2 antes da Parte 1",
+      "Deixar o tecido comprido sobrando nas pontas bater na parede ou na lateral da máquina durante o movimento do segundo estágio",
+      "Não selecionar o bastidor multi-posição correto nas configurações do software antes de salvar os arquivos"
+    ],
+    "howToIdentify": [
+      "Aviso no painel da máquina: 'O desenho ultrapassa a área do bastidor' (tentativa de abrir o arquivo inteiro sem dividir)",
+      "Uma fresta aberta ou uma sobreposição feia de pontos na linha imaginária onde os dois estágios se encontram",
+      "A máquina bater o bastidor na carcaça por falta de espaço físico atrás da bancada"
     ],
     "troubleshootingTips": [
-      "Em bastidores grandes, cruze duas camadas de entretela rasga-fácil (uma na vertical e outra na horizontal): o cruzamento das tramas impede que o centro do bastidor perca a firmeza!",
-      "Sempre use a mesa extensora ao trabalhar com bastidores gigantes para que o tecido deslize liso sem puxar o pantógrafo para baixo."
+      "Afaste a máquina de bordar pelo menos 40 cm da parede da bancada para dar espaço para o bastidor longo se mover livremente.",
+      "Nomeie os arquivos no pendrive como 'NOME_PARTE1.pes' e 'NOME_PARTE2.pes' para nunca se confundir no painel.",
+      "NUNCA mexa no parafuso do bastidor durante a troca de encaixe das garras."
     ],
-    "applications": [
-      "Costas de jaquetas de couro e moletons, mantas de batizado, capas de edredom, toalhas de banhão gigantes, roupões de noiva e capas de terno."
-    ],
-    "practicalExercise": "Monte um bastidor grande de 20x30 cm com um tecido plano e duas camadas de entretela cruzadas. Aperte o parafuso e dê um leve toque com o dedo no centro: sinta a firmeza homogênea como a pele de um tambor do centro até as bordas!",
-    "quickSummary": "Bordado em bastidor expandido é o uso de bastidores de grande área para bordar peças amplas como costas de casacos e mantas de uma só vez com máxima estabilidade.",
-    "voceSabia": "Em máquinas industriais para vestidos de noiva e alta-costura, existem bastidores expandidos de até 1,20 metro de largura chamados 'Border Frames' onde se borda a barra inteira de um vestido de uma só vez!",
-    "dicaArtrelados": "Ao usar bastidores gigantes de 20x30 cm ou mais, nunca deixe o tecido pendurado para fora da máquina caindo no chão! O peso do tecido puxa o pantógrafo e pode fazer a máquina perder o passo dos motores. Apoie as sobras da peça sobre a mesa extensora ou em cadeiras auxiliares!",
-    "recommendedSettings": {
-      "speedPPM": "650 a 800 PPM",
-      "needleType": "75/11 Ponta Fina ou Ponta Bola",
-      "stabilizer": "Entretela Dupla Cruzada em 90° de 60g a 80g"
-    },
+    "dicaArtrelados": "O Segredo da Parede Livre no Bastidor de Estágios Artrelados: Quando você for usar o bastidor expandido (como o 13x30 da Brother), puxe a sua máquina uns 10 centímetros para a frente na sua bancada! Como o bastidor é muito comprido, quando ele vai lá para trás para bordar o segundo estágio, a ponta plástica dele pode bater na parede se a máquina estiver encostada. Dando espaço livre atrás, o bordado corre suave e as duas metades se encontram com precisão de um fio de cabelo!",
+    "voceSabia": "A tecnologia de bastidores de múltiplos estágios foi introduzida pela primeira vez pela Brother em 2002 para a clássica máquina PE-150, permitindo que bordadeiras caseiras pudessem produzir peças com o dobro do tamanho de suas máquinas sem gastar milhares de reais em um equipamento novo!",
+    "practicalExercise": "No seu software, selecione o bastidor Multi-Posição 13x30. Escreva uma palavra comprida como 'Bem-Vindos' com 26 cm de comprimento. Deixe o software dividir em Parte 1 e Parte 2. Borde em um pedaço de tecido longo: mude as garras do bastidor e veja como a palavra sai inteira e perfeita como se tivesse sido feita em uma máquina industrial gigante!",
+    "quickSummary": "Dispositivo mecânico com múltiplos encaixes de garras que amplia a área de bordado sem descolocar o tecido do bastidor.",
     "relatedTerms": [
-      "Área Útil do Bastidor",
-      "Mesa Extensora",
-      "Pantógrafo",
       "Bastidor de Bordado",
-      "Estabilização de Tecidos"
+      "Divisão de Matrizes (Split Design)",
+      "Alinhamento de Contorno",
+      "Colocação no Bastidor (Hooping)",
+      "Pantógrafo de Máquina"
     ],
-    "tags": [
-      "b-037",
-      "bastidor expandido",
-      "jumbo",
-      "grande formato",
-      "jaquetas",
-      "mantas",
-      "artrelados"
-    ],
-    "bibliographicReferences": [
-      "BROTHER EMBROIDERY SYSTEMS. Large Field Hooping Guide and Stabilization Dynamics. Tokyo, 2022.",
-      "ARTRELADOS. Técnicas de Estabilização e Bastidores de Grande Formato. Curitiba, 2024."
-    ],
-    "updatedAt": "2026-08-19",
-    "letter": "B"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "b-020-bordado-em-camadas",
     "code": "B-020",
-    "term": "Bordado em Camadas",
+    "letter": "B",
+    "term": "Bordado em Camadas e Sobreposição Cromática (Layering & Depth Digitizing)",
     "level": "Intermediário 🟡",
-    "grammarClass": "Substantivo masculino.",
-    "origin": "Do latim 'cama' (leito/estrato sobreposto) e do francês 'broderie' (desenho têxtil em relevo).",
-    "category": "Softwares & Formatos",
-    "summary": "Técnica de programação que sobrepõe objetos de pontos em níveis para criar profundidade.",
-    "definition": "O bordado em camadas (Layered Embroidery) é a técnica avançada de digitalização e costura computadorizada na qual os diferentes elementos de uma matriz são organizados em níveis hierárquicos sequenciais (fundo, plano intermediário, elementos principais e contornos/detalhes superiores), conferindo realismo óptico, profundidade de campo e tridimensionalidade ao motivo bordado.",
-    "technicalDetails": "Requer controle rigoroso de sobreposição (Overlap Management). Para evitar que a máquina borde camadas excessivas de pontos umas sobre as outras no mesmo ponto geográfico (o que causa quebra de agulhas e efeito de placa dura), o software utiliza a ferramenta de eliminação de sobreposição (Remove Hidden Stitch / Overlap Remover), preservando apenas de 0.8 mm a 1.2 mm de margem de encaixe.",
-    "beginnerExplanation": "É o jeito de desenhar no computador em que você borda primeiro o que está atrás (como o céu ou o fundo), depois borda o que está no meio (como uma casa ou corpinho do ursinho) e por último faz os detalhes da frente (como os olhos, botões e contornos)!",
-    "construction": [
-      "Camada de Fundo (Background Fill / Tatami Leve)",
-      "Camada Intermediária de Sombreamento ou Degradê (Shading Layer)",
-      "Camada Principal de Preenchimento Sólido (Foreground)",
-      "Camada Superior de Destaques, Monogramas e Contornos (Details & Outlines)",
-      "Eliminação Automática de Pontos Ocultos (Overlap Filter)"
-    ],
+    "category": "Programação de Bordado",
+    "grammarClass": "Locução nominal técnica. Do latim stratum (camada) e do inglês embroidery layering technique.",
+    "origin": "Princípio derivado das artes plásticas e pintura a óleo aplicado aos softwares de bordado computadorizado para criar tridimensionalidade, sombras e volumes.",
+    "summary": "Técnica de ordenar e sobrepor elementos em níveis sucessivos (fundo, meio e frente) para dar profundidade e realismo sem excesso de peso de pontos.",
+    "definition": "O bordado em camadas e sobreposição cromática (Layering Technique / Stratified Embroidery Digitizing) é o princípio de composição e sequenciamento de matrizes onde os diferentes elementos do desenho são organizados e bordados em estratos sucessivos de profundidade visual: Camada 1 (Fundos e sombras distantes), Camada 2 (Corpos médios e texturas) e Camada 3 (Destaques frontais, olhos, brilhos e contornos finais). O domínio técnico desta metodologia requer o uso inteligente de 'Remoção de Pontos Ocultos' (Under-Stitch Removal) para evitar o empilhamento de densidades excessivas que tornariam o bordado espesso e quebradiço.",
+    "technicalDetails": "Regras de estratificação e controle de camadas:\n• Ordem Cronológica Mandatória: Do fundo mais distante para o primeiro plano;\n• Remoção de Sobreposição (Remove Overlaps): Corte automático de áreas cobertas para não somar 2 camadas sólidas;\n• Tolerância de Interpenetração: Margem de sobreposição de 0,5 mm a 1,0 mm na linha de divisa para não abrir frestas;\n• Variação de Ângulos: Cada camada sobreposta deve ter seu ângulo de ponto alterado em pelo menos 30° a 45° em relação à camada inferior.",
     "howItWorks": [
-      "1. O programador separa a ilustração vetorial em camadas de profundidade visual.",
-      "2. Digitaliza o fundo aplicando densidade mais leve (ex: 0.50 mm) e ângulos suaves.",
-      "3. Aplica a ferramenta de remoção de sobreposição sob os objetos que virão por cima.",
-      "4. Borda a sequência na máquina partindo da camada mais profunda até os detalhes mais externos."
+      "1. No software de matrizes, separe a ilustração artística em planos de profundidade.",
+      "2. Programe primeiro o plano de fundo (ex.: o céu, a água ou as folhas de trás).",
+      "3. Aplique a ferramenta 'Remover Sobreposições' para que a camada seguinte não costure em cima de pontos desnecessários.",
+      "4. Programe o elemento intermediário (ex.: o corpo do pássaro ou as pétalas da frente).",
+      "5. Altere o ângulo dos pontos da nova camada para criar contraste de luz e textura com o fundo.",
+      "6. Finalize com os micro-detalhes de primeiro plano (o olho brilhante, o bico e os contornos externos finos).",
+      "7. A peça resulta com efeito visual tridimensional, sombras naturais e toque flexível e sedoso."
     ],
-    "mainTypes": [
-      "Camadas de Sombreamento (Degradês de 2 ou mais cores mescladas)",
-      "Camadas de Textura (Tatami estilizado sob ponto cheio aberto)",
-      "Camadas de Brasões Nobres (Fundos texturizados com monogramas e coroas em relevo por cima)"
+    "beginnerExplanation": "Pense no bordado como pintar um quadro de paisagem: você não pinta a árvore primeiro e depois tenta pintar o céu em volta dela! Você pinta o céu azul no fundo primeiro, depois a árvore por cima e, por último, as folhinhas e os passarinhos na frente! No bordado computadorizado é igualzinho: a gente borda primeiro o que está longe, depois o meio e por último a frente. Isso dá uma sensação linda de profundidade e vida que parece que o desenho vai saltar da roupa!",
+    "applications": [
+      "Bordados realistas de pássaros, flores botânicas e retratos de animais de estimação (Pet Embroidery)",
+      "Logotipos com degradês complexos, sombras projetadas e efeito 3D óptico",
+      "Painéis decorativos, jaquetas jeans estilizadas e peças de arte têxtil"
     ],
-    "advantages": [
-      "✔ Realismo visual impressionante com profundidade e perspectiva fotográfica",
-      "✔ Acabamento artístico refinado que valoriza o preço de venda das matrizes",
-      "✔ Encaixe perfeito de cores sem frestas ou tecidos aparentes entre os objetos",
-      "✔ Permite criar degradês realistas em pétalas de flores, animais e rostos"
-    ],
-    "limitations": [
-      "Se não for aplicada a remoção de pontos ocultos, a sobreposição excessiva de camadas pode perfurar o tecido e quebrar agulhas."
+    "matrixRelations": [
+      "Remoção de Sobreposição: Ferramenta vital para não empilhar pontos e quebrar agulhas nas emendas de camadas.",
+      "Ângulo de Ponto: Mudar os ângulos entre camadas cria refrações de luz contrastantes com o mesmo fio.",
+      "Compensação de Repuxo: Cada camada puxa o tecido; a margem de encaixe de 0,8 mm evita frestas brancas."
     ],
     "commonErrors": [
-      "❌ Deixar quatro camadas completas de ponto tatami empilhadas no mesmo lugar, gerando um 'tijolo duro'.",
-      "❌ Inverter a ordem de bordado, bordando o contorno antes do preenchimento de fundo.",
-      "❌ Cortar a camada de baixo exatamente rente à de cima sem margem de 1 mm de sobreposição, abrindo buracos após o repuxo."
+      "Bordar o contorno preto antes de terminar o preenchimento, fazendo a cor de fundo vazar por cima do contorno",
+      "Não remover a sobreposição de pontos por baixo, criando um 'tijolo' duro onde as camadas se cruzam",
+      "Usar o mesmo ângulo de ponto em todas as camadas sobrepostas, fazendo o desenho virar uma mancha plana sem profundidade",
+      "Esquecer a margem de interpenetração, abrindo vãos brancos de tecido entre o fundo e o primeiro plano"
+    ],
+    "howToIdentify": [
+      "Bordado parecendo plano e sem graça, sem noção de o que está na frente e o que está atrás",
+      "Agulha quebrando com barulho de estalo no ponto exato onde 3 cores se encontram",
+      "Linhas brancas de tecido aparecendo na divisa entre duas camadas que deveriam estar encostadas"
     ],
     "troubleshootingTips": [
-      "Se a máquina fizer um barulho de estalo 'ploc ploc' pesado ao bordar a camada superior, use a ferramenta 'Remover Sobreposições' no software para limpar o excesso de pontos ocultos por baixo.",
-      "Mantenha sempre uma margem de segurança de encaixe (Overlap Margin) de 1.0 mm entre camadas adjacentes para compensar o repuxo mecânico do tecido."
+      "No software: use a ferramenta 'Remove Underlyings' (Remover Pontos Ocultos) para manter a peça macia.",
+      "Varie os ângulos de ponto: se o fundo está a 45°, coloque a camada da frente a 120° para destacar o relevo.",
+      "Deixe sempre uma margem de sobreposição de 0,8 mm entre as peças para absorver o repuxo natural do tecido."
     ],
-    "applications": [
-      "Paisagens bordadas, retratos realistas de animais (Pet Embroidery), escudos e brasões nobres, florais botânicos e logomarcas premium."
-    ],
-    "practicalExercise": "Digitalize uma flor simples com 3 camadas: 1) Folhas de fundo em verde; 2) Pétalas em vermelho; 3) Miolo central em amarelo. Use a função 'Remove Overlaps' sob o miolo e borde em uma sarja: veja como o miolo fica macio e perfeitamente encaixado sem endurecer a peça!",
-    "quickSummary": "Bordado em camadas é a técnica de organizar os elementos da matriz em níveis de profundidade, criando realismo e textura com controle de sobreposição de pontos.",
-    "voceSabia": "Na técnica clássica chinesa de bordado Suzhou (com mais de 2.500 anos de história), os mestres aplicavam até 40 camadas microscópicas de fios de seda de espessuras diferentes para criar a ilusão perfeita de água em movimento e pelos de animais!",
-    "dicaArtrelados": "Ao criar matrizes de brasões com coroa sobre o escudo, reduza a densidade do escudo de fundo para 0.48 mm e borde a coroa por cima com densidade 0.38 mm: a coroa vai 'saltar' aos olhos como se fosse um broche 3D!",
-    "recommendedSettings": {
-      "speedPPM": "650 a 800 PPM",
-      "needleType": "75/11 Ponta Fina Aguda",
-      "stabilizer": "Entretela Recorta-Fácil 70g ou 80g"
-    },
+    "dicaArtrelados": "O Segredo dos Ângulos Cruzados em Camadas Artrelados: Quando você for colocar um detalhe por cima de outro (como uma flor em cima de uma folha), NUNCA use o mesmo ângulo de ponto nas duas coisas! Se a folha de baixo estiver com os pontos inclinados para a esquerda, coloque os pontos da flor inclinados para a direita. Como o fio de poliéster reflete a luz como um espelho, a flor vai parecer 'pular para a frente' da folha como mágica!",
+    "voceSabia": "A técnica de camadas na pintura é chamada pelos italianos de 'Chiaroscuro' (claro e escuro), consagrada por gênios como Leonardo da Vinci e Caravaggio no Renascimento. Na computação gráfica de matrizes modernas, esse mesmo princípio é simulado através da variação da densidade de camadas e do fluxo óptico dos fios!",
+    "practicalExercise": "No seu software, desenhe uma folha verde no fundo com ângulo de 45°. Desenhe uma joaninha vermelha por cima com ângulo de 135° e remova a sobreposição interna de pontos. Borde em um retalho: incline a peça sob a luz e veja o efeito tridimensional espetacular que os ângulos opostos criam.",
+    "quickSummary": "Composição e ordenação inteligente de elementos em estratos sucessivos (fundo, meio e frente) com remoção de sobreposições para gerar realismo e profundidade.",
     "relatedTerms": [
-      "Digitalização",
-      "Matriz de Bordado",
-      "Compensação de Repuxo",
+      "Ângulo de Ponto",
+      "Remoção de Sobreposição (Remove Overlaps)",
       "Ponto Tatami",
-      "Ponto Cheio"
+      "Ponto Satim (Satin Stitch)",
+      "Compensação de Repuxo"
     ],
-    "tags": [
-      "b-020",
-      "camadas",
-      "profundidade",
-      "realismo",
-      "overlap",
-      "digitalizacao",
-      "artrelados"
-    ],
-    "bibliographicReferences": [
-      "WILCOM INTERNATIONAL. Layering, Color Blending and Overlap Management. Sydney, 2022.",
-      "ARTRELADOS. Técnicas Avançadas de Camadas e Sombreamento no Bordado Computadorizado. Brasil, 2024."
-    ],
-    "updatedAt": "2026-08-19",
-    "letter": "B"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "b-050-bordado-couro-sinteticos",
     "code": "B-050",
-    "term": "Bordado em Couro e Sintéticos (Leather & Vinyl Embroidery)",
+    "letter": "B",
+    "term": "Bordado em Couro Legítimo Natural (Natural Leather Embroidery & Cutting Needles)",
     "level": "Avançado 🔴",
-    "category": "Tipos de Tecidos",
-    "grammarClass": "Substantivo masculino composto.",
-    "origin": "Do latim corium (pele curtida de animal) e do grego synthetikós (composto artificialmente). Adaptação da tecnologia de digitalização para superfícies não-têxteis sem elasticidade de trama.",
-    "summary": "Técnica especializada com densidade reduzida, agulhas de ponta cortante e fixação por flutuação para bordar superfícies de couro e vinil sem picotar o material.",
-    "definition": "O bordado em couro e materiais sintéticos (courvin, montana, napa, corino e vinil) é a especialidade técnica que envolve a digitalização com baixa densidade de pontos, utilização de agulhas com ponta cortante tipo cunha/lança e estabilização sem bastidoramento direto, projetada para evitar que as perfurações da agulha atuem como um picote e rasguem a superfície impermeável do material.",
-    "technicalDetails": "Densidade de preenchimento reduzida em 25% (espaçamento de 0.45mm a 0.55mm) com comprimento mínimo de ponto de 2.5mm. Fixação por técnica de flutuação (hoopless) com cola spray e agulhas de ponta cortante (LL ou LR).",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução nominal técnica. Do latim corium (pele curtida, couro) e do inglês genuine leather embroidery.",
+    "origin": "Tradição milenar da selaria e marroquinaria nobre adaptada a máquinas eletrônicas industriais com o uso de agulhas de ponta cortante lanceolada.",
+    "summary": "Técnicas especializadas para bordar peles de couro legítimo com agulhas de lâmina cortante (LL/DI), entretela recortável e baixa rotação sem picotar.",
+    "definition": "O bordado em couro legítimo natural (Genuine Leather & Hide Machine Embroidery) é a técnica especializada de perfuração e costura sobre peles animais curtidas (bovina, caprina, suína ou pelica). Diferente de tecidos tramados (onde a agulha afasta os fios), no couro a agulha precisa cortar microscopicamente a pele colágena. Exige obrigatoriamente o uso de agulhas especiais com ponta cortante lanceolada (ponta tipo 'LL' para corte em cunha a 45° ou ponta 'LR' em lente), controle rigoroso de densidade aberta (espaçamento mínimo de 0,50 mm) e proibição absoluta de pontos concentrados para evitar o efeito picote de navalha.",
+    "technicalDetails": "Parâmetros críticos para bordado em couro legítimo:\n• Tipo de Agulha: Sistema 134-35 LL ou 130/705 H-LL (ponta de corte em cunha a 45° que abre fendas alinhadas sem rasgar);\n• Densidade de Matriz: Reduzida em 20% a 30% (espaçamento seguro entre 0,48 mm e 0,55 mm);\n• Comprimento Mínimo de Ponto: Nunca inferior a 2,5 mm (pontos curtos transformam a costura em linha de destaque);\n• Estabilizador: Entretela recortável de poliéster pesada (Cut-Away 80g) colada com fita adesiva de borda;\n• Velocidade de Máquina: Limitada a 400 a 550 PPM para não aquecer nem queimar o colágeno da pele.",
     "howItWorks": [
-      "1. A entretela pesada (rasgável ou recortável 80g) é tensionada sozinha no bastidor.",
-      "2. O couro ou sintético é colado suavemente sobre a entretela por flutuação.",
-      "3. A agulha de ponta cunha perfura o material em ângulo diagonal sem romper as fibras estruturais.",
-      "4. A matriz de pontos esparsos é bordada sem gerar acúmulo de perfurações no mesmo ponto."
+      "1. NUNCA prenda o couro legítimo apertado no aro do bastidor para não marcar a pele para sempre (Hoop Burn).",
+      "2. Prenda apenas a entretela recortável pesada no bastidor e borrife adesivo temporário reposicionável.",
+      "3. Apoie o couro sobre a entretela e prenda as bordas com fita crepe ou fita de mascaramento automotivo (técnica flutuante).",
+      "4. Instale a agulha com ponta cortante LL de calibre 80/12 ou 90/14.",
+      "5. Reduza a rotação da máquina para 450 PPM no painel.",
+      "6. A agulha de corte desce cortando micro-fendas limpas a 45° que recebem a linha sem mastigar a flor da pele.",
+      "7. O bordado resulta assentado, plano e com resistência para durar décadas em jaquetas, bolsas e sapatos."
     ],
-    "beginnerExplanation": "É a forma correta de bordar em couro legítimo, napa ou courino sem furar demais e sem rasgar o material, usando agulhas especiais com ponta cortante e matrizes com pontos mais espaçados.",
+    "beginnerExplanation": "Bordar em couro de verdade (legítimo) dá um lucro maravilhoso no ateliê, mas tem uma regra de ouro: você só tem UMA chance! Se você errar um ponto no tecido de pano, você desmancha e passa a ferro que o furo some. No couro, furou, FUROU para sempre: o buraquinho fica lá para sempre! Por isso, a gente nunca aperta o couro dentro do bastidor plástico (para não amassar a pele) e usa uma agulha especial que tem uma laminazinha afiada na ponta que corta o buraquinho limpo sem rasgar!",
     "applications": [
-      "Jaquetas, coletes de motociclistas e bolsas de couro legítimo",
-      "Necessaires, carteiras e estojos em sintético montana e corino",
-      "Tapeçaria automotiva, bancos de carros e capas de volante personalizadas",
-      "Chaveiros, etiquetas e patches em couro com corte a laser"
+      "Jaquetas de couro de motociclistas, coletes e casacos de alta moda",
+      "Bolsas femininas, carteiras, cintos e artigos de marroquinaria artesanal",
+      "Selas de montaria, arreios e acessórios de montaria e cutelaria"
+    ],
+    "matrixRelations": [
+      "Densidade de Ponto: Obrigatório abrir a densidade para 0,50 mm; densidade comum de 0,38 mm corta o couro como um estilete.",
+      "Comprimento de Ponto: Pontos menores que 2,0 mm são expressamente proibidos em matrizes para couro legítimo.",
+      "Técnica Flutuante: O couro deve flutuar sobre a entretela presa para evitar marcas irreversíveis de aro.",
+      "Tipo de Agulha: Agulhas comuns de ponta bola arredondada empurram o couro e entortam a agulha; use agulha Leather (LL)."
     ],
     "commonErrors": [
-      "Prender o couro direto no bastidor tradicional, deixando marcas circulares indeléveis e marcas de pressão permanentes",
-      "Usar densidade padrão de tecido comum (0.35mm), fazendo a agulha cortar um círculo no couro como um selo destacável",
-      "Usar micropontos menores que 1.5mm, que perfuram o couro repetidas vezes no mesmo lugar e abrem buracos visíveis"
+      "Prender o couro no aro do bastidor apertando o parafuso, deixando uma marca retangular brilhante que nunca mais sai",
+      "Usar matriz comum de tecido com pontos cheios muito densos, fazendo o desenho se destacar inteiro como uma tampa de lata de sardinha",
+      "Bordar em alta velocidade (800 PPM), superaquecendo a pele e quebrando a agulha",
+      "Tentar desmanchar pontos no couro: cada furo da agulha é uma cicatriz permanente na pele"
+    ],
+    "howToIdentify": [
+      "O desenho do bordado se soltando do couro com o pedaço recortado na mão (excesso de pontos picotando a pele)",
+      "A marca do bastidor (aro plástico) afundada e brilhante no couro mesmo depois de passar o hidratante de couro",
+      "Agulha quebrando a cada 2 minutos por usar ponta comum em vez de agulha cortante Leather"
     ],
     "troubleshootingTips": [
-      "Se a linha superior arrebentar com frequência, aplique uma gotinha de óleo de silicone no topo do cone de linha para reduzir o atrito no couro",
-      "Passe fita micropore ou fita adesiva de papel no fundo do calcador da máquina para não riscar o brilho do vinil sintético",
-      "Faça um teste prévio em um retalho do mesmo couro antes de bordar a peça final do cliente"
+      "Use SEMPRE a técnica flutuante: prenda só a entretela no bastidor e cole o couro por cima com fita.",
+      "Audite a matriz no software: aumente o espaçamento para 0,50 mm e delete micropontos de arremate pequenos demais.",
+      "Passe um hidratante especial de couro com esponja macia na peça antes de bordar para amaciar as fibras da pele."
     ],
-    "dicaArtrelados": "Nunca prenda o couro ou sintético montana direto no aro do bastidor! Coloque apenas a entretela rasgável no bastidor, borrife cola spray temporária e apoie o couro por cima ('técnica da flutuação'): o couro fica lisinho, não amassa e não ganha nenhuma marca feia de bastidor!",
-    "voceSabia": "As agulhas para couro 'LR' possuem uma ponta cortante com formato de lâmina microscópica inclinada a 45 graus para a direita. Essa inclinação faz cada furo do ponto ficar levemente na diagonal, conferindo um visual sofisticado e impedindo que os furos se unam em linha reta e rasguem o couro.",
-    "practicalExercise": "Pegue um retalho de sintético montana ou napa: monte a entretela rasgável no bastidor, cole o retalho com cola spray e borde um nome com fonte em ponto cheio programada com densidade de 0.48mm e agulha para couro 80/12 a 500 PPM. Veja como o bordado fica limpo, com relevo elegante e sem furar a peça!",
-    "quickSummary": "Técnica especializada com densidade reduzida, agulhas de ponta cortante e fixação por flutuação para bordar superfícies de couro e vinil sem picotar o material.",
+    "dicaArtrelados": "O Segredo da Fita Flutuante no Couro Legítimo Artrelados: Nunca, jamais coloque uma jaqueta ou bolsa de couro dentro do aro do bastidor! A pressão do plástico esmaga os poros do couro e deixa uma marca para o resto da vida que nenhum hidratante tira! Prenda apenas a entretela recortável no bastidor, passe fita crepe larga nas bordas do couro colando na entretela e use o ponto de alinhavo suave da máquina. O couro fica liso, perfeito e sem uma única marca de bastidor!",
+    "voceSabia": "As agulhas com ponta cortante 'LL' (Leather Left) foram desenvolvidas originalmente para a indústria alemã de calçados de couro militar na Primeira Guerra Mundial, cortando fendas inclinadas a exatamente 45° à esquerda para que a linha ficasse levemente torcida e resistente à tração de botas pesadas!",
+    "practicalExercise": "Pegue um retalho de couro legítimo velho. Instale uma agulha especial Leather (ponta cortante) e borde um círculo em ponto de contorno com passo longo de 3,5 mm usando técnica flutuante. Tente rasgar o couro com as mãos: sinta a resistência sólida da pele costurada com a agulha correta.",
+    "quickSummary": "Protocolo técnico rigoroso para bordar peles de couro natural utilizando agulhas com ponta de lâmina cortante (LL), densidade aberta e técnica flutuante.",
     "relatedTerms": [
-      "Agulha de Bordado",
-      "Flutuação do Tecido",
-      "Marcas de Bastidor",
+      "Bordado em Couro Ecológico e PU",
+      "Técnica Flutuante no Bastidor",
+      "Marca de Bastidor (Hoop Burn)",
+      "Agulha de Bordado Eletrônico",
       "Densidade de Ponto"
     ],
-    "tags": [
-      "couro",
-      "sintético",
-      "montana",
-      "vinil",
-      "napa",
-      "densidade",
-      "agulha couro"
-    ],
-    "bibliographicReferences": [
-      "SCHMETZ. Needles for Leather & Coated Fabrics Technical Bulletin. Alsdorf, 2022.",
-      "MADEIRA. Embroidery on Leather, Suede and Vinyl Guidelines. Freiburg, 2023.",
-      "ARTRELADOS. Guia Definitivo do Bordado em Couro e Sintéticos: Sem Furos e Sem Marcas. São Paulo: Artrelados, 2024."
-    ],
-    "updatedAt": "2026-08-19",
-    "letter": "B"
+    "updatedAt": "2026-10-05"
   },
   {
     "id": "b-067-bordado-em-relevo-3d-puffy-foam",
@@ -198845,5 +198531,66 @@
       "inspecao",
       "programacao"
     ]
+  },
+  {
+    "id": "b-novo-021-bordado-couro-ecologico-poliuretano-sem-rasgos",
+    "code": "B-121",
+    "letter": "B",
+    "term": "Bordado em Couro Ecológico e Poliuretano Laminado sem Rasgos (PU Synthetic Leather & Microtex Technique)",
+    "level": "Intermediário 🟡",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução nominal técnica. Do grego polis (muitos) e do inglês PU faux leather anti-tearing method.",
+    "origin": "Desenvolvido com o surgimento dos tecidos sintéticos laminados de poliuretano e corino na indústria automotiva e de moda vegana nos anos 2000.",
+    "summary": "Técnicas de ponta para bordar corinos, couros ecológicos e materiais sintéticos laminados sem picotar, rasgar ou enrugar a película plástica.",
+    "definition": "O bordado em couro ecológico e laminados de poliuretano (PU Faux Leather Anti-Tearing Protocol) é a metodologia técnica aplicada a materiais sintéticos compostos por uma película externa de filme polimérico (PVC ou PU) colada sobre uma malha têxtil elástica de suporte. Ao contrário do couro legítimo (que exige agulha cortante), no couro ecológico a agulha cortante NUNCA deve ser usada, pois a lâmina rasga a película plástica como uma faca. O processo exige agulhas ultrafinas Microtex (ponta afiada cônica sem lâmina), técnica flutuante de fixação e sob-pontos leves de zigue-zague.",
+    "technicalDetails": "Especificações para bordado em couro sintético e corino:\n• Tipo de Agulha Obrigatório: Microtex (Sharp Needle) calibre 70/10 ou 75/11 com ponta aguda cônica (NUNCA usar agulha de corte de couro Leather!);\n• Densidade de Cobertura: Calibrada entre 0,44 mm e 0,48 mm (evita que as perfurações se unam e rasguem o plástico);\n• Método de Fixação: Técnica Flutuante em entretela rasgável ou recortável com fita dupla-face suave ou fita crepe de borda;\n• Lubrificação de Superfície: Gotinha de silicone fluido ou talco mineral em esponja para o calcador deslizar sem travar no plástico.",
+    "howItWorks": [
+      "1. Prenda a entretela no bastidor e mantenha o couro sintético fora do aro.",
+      "2. Cole o sintético sobre a entretela usando fita crepe nas margens ou adesivo spray suave (técnica flutuante).",
+      "3. Instale a agulha Microtex 75/11 na máquina.",
+      "4. Passe uma esponja macia com um pingo microscópico de silicone líquido sobre a área a ser bordada para o calcador deslizar livre.",
+      "5. A agulha cônica penetra perfurando furos redondos limpos sem abrir fendas de navalha na lâmina plástica.",
+      "6. A máquina costura a matriz com densidade aliviada (0,45 mm) sem superaquecimento.",
+      "7. A peça sai sem nenhum rasgo, sem marcas de aro e com as bordas do material sintético intactas."
+    ],
+    "beginnerExplanation": "O couro ecológico (que também chamam de corino, courvin ou courino) é muito comum em bolsas e estojos, mas tem uma pegadinha perigosa: ele é feito de uma película fininha de plástico colada num pano! Se você usar aquela agulha de cortar couro legítimo nele, a lâmina da agulha corta o plástico e o desenho cai inteirinho parecendo um picote de papel higiênico! O segredo é usar agulha fininha pontuda Microtex, não prender no bastidor e passar um pingo de silicone para o pezinho da máquina não grudar no plástico!",
+    "applications": [
+      "Bolsas de maternidade, nécessaires e carteiras em corino e montana sintético",
+      "Capas de agendas, cadernos, planners e porta-documentos em couro ecológico",
+      "Almofadas de decoração, cabeceiras de cama e forrações de estofamento em courvin"
+    ],
+    "matrixRelations": [
+      "Proibição de Agulha Leather: O uso de agulha cortante de couro legítimo em sintético de PU resulta em rasgo 100% garantido.",
+      "Atrito de Calcador: O calcador metálico pode grudar no plástico; use pé de teflon ou lubrificação suave de silicone.",
+      "Densidade de Ponto: Manter o espaçamento acima de 0,45 mm para preservar a integridade do filme de poliuretano."
+    ],
+    "commonErrors": [
+      "Usar agulha cortante de couro (Leather) achando que todo couro é igual, fazendo o couro ecológico rasgar e abrir buraco",
+      "Apertar o sintético no aro do bastidor, deixando uma marca quadrada permanente de esmagamento",
+      "Bordar sem silicone ou pé de teflon, fazendo o calcador arrastar o plástico e enrugar toda a peça",
+      "Usar densidade pesada de satim, picotando o contorno do bordado como um selo de correio"
+    ],
+    "howToIdentify": [
+      "O miolo do bordado se soltando e caindo da bolsa como se tivesse sido cortado com tesoura",
+      "A máquina perdendo o passo e costurando no mesmo lugar porque o pé calcador 'grudou' na borracha do sintético",
+      "Marcas circulares brancas ou trincas na película de poliuretano ao redor dos furos da agulha"
+    ],
+    "troubleshootingTips": [
+      "Use agulhas SCHMETZ Microtex 70/10 ou 75/11 para penetração cônica afiada sem lâmina lateral.",
+      "Se o calcador estiver agarrando no plástico: cole um pedacinho de fita mágica fosca (fita durex fosca) embaixo da sola do calcador.",
+      "Sempre use a técnica flutuante com fita crepe nas bordas para nunca marcar o couro ecológico no bastidor."
+    ],
+    "dicaArtrelados": "O Truque da Fita Mágica no Calcador Artrelados: Se a sua máquina estiver engasgando ou mastigando o couro sintético porque o pezinho de metal fica grudando no plástico da peça, faça esse truque genial: corte um pedacinho minúsculo de fita mágica fosca (aquela fita adesiva que parece um papel transparente) e cole embaixo do pezinho da sua máquina, deixando o buraquinho da agulha livre! O pezinho vai deslizar sobre o courino liso como patim no gelo!",
+    "voceSabia": "A indústria aeroespacial e as montadoras de carros elétricos modernos (como a Tesla) substituíram quase 100% do couro animal nos bancos de seus veículos por couro sintético de poliuretano ultra-resistente, exigindo que as matrizes de costura usem agulhas Microtex especiais para evitar delaminação dos polímeros!",
+    "practicalExercise": "Pegue um pedaço de corino ou couro ecológico sintético. Em uma ponta, tente bordar uma letra com agulha comum e densidade 0,32 mm (muito apertada): veja como o plástico rasga. Na outra ponta, coloque a agulha Microtex 75/11, densidade 0,46 mm e passe a fita mágica no pé calcador: sinta a perfeição do acabamento liso e resistente.",
+    "quickSummary": "Metodologia anti-rasgo para bordar couros ecológicos e laminados de PU utilizando agulhas cônicas Microtex, técnica flutuante e alívio de atrito de calcador.",
+    "relatedTerms": [
+      "Bordado em Couro Legítimo Natural",
+      "Técnica Flutuante no Bastidor",
+      "Agulha Microtex",
+      "Marca de Bastidor (Hoop Burn)",
+      "Pé Calcador de Teflon"
+    ],
+    "updatedAt": "2026-10-05"
   }
 ]
