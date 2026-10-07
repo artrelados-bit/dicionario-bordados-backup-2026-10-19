@@ -2,6 +2,120 @@ import { Verbete } from "../types";
 
 export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
   {
+    "id": "f-101-feiya-maquinas-de-bordado-eletronico",
+    "code": "F-101",
+    "term": "Feiya",
+    "pronunciation": "fêi-ya (má-qui-nas de bor-da-do e-le-trô-ni-co)",
+    "letter": "F",
+    "level": "Intermediário a Avançado 🟡🔴",
+    "category": "Máquinas e Equipamentos",
+    "grammarClass": "Substantivo próprio / Locução substantiva.",
+    "origin": "Fundada na década de 1980 na cidade de Zhuji, província de Zhejiang (China), como Feiya Multi-Head Embroidery Machine Co., Ltd. Consolidou-se como uma das maiores produtoras industriais do mundo em volume de cabeçotes de bordado computadorizado, exportando para mais de 100 países e tornando-se extremamente popular no parque têxtil e de confecção brasileiro pelo imbatível custo-benefício e durabilidade mecânica.",
+    "summary": "Gigante fabril chinesa (Zhejiang, anos 1980), líder em volume de máquinas industriais de 1 a 32 cabeças, integrada aos comandos computadorizados Dahao, laçadeiras rotativas Koban e formato universal .DST.",
+    "definition": "A Feiya é uma das maiores e mais difundidas fabricantes industriais de máquinas de bordado computadorizado do planeta, fornecendo modelos de 1 até 32 cabeças (com 9, 12 ou 15 agulhas por cabeçote) em configurações tubulares de braço livre e leito plano pantográfico. Notabilizou-se pela sinergia consagrada com os comandos computadorizados Dahao (telas coloridas touch de 8 a 10 polegadas), servomotores digitais AC nos eixos pantográficos e cabeçote, laçadeiras rotativas industriais japonesas (Koban / Hirose) e plena compatibilidade com arquivos binários nos formatos .DST e .DSB.",
+    "technicalDetails": "Equipada com servomotores digitais nos eixos X/Y e motor principal de alta resposta com parada de eixo a 100°. Velocidade contínua ajustável entre 850 e 1.000 PPM (com modelos de alta velocidade atingindo até 1.200 PPM). Painel Dahao de alta capacidade com memória para mais de 100 milhões de pontos e 800 matrizes. Sistema de corte automático inferior por solenoide de ação direta com lâmina fixa e navalha móvel de aço temperado. Encoders ópticos e roletes de quebra de linha com aviso luminoso em LED vermelho no cabeçote. Suporta nativamente arquivos .DST, .DSB e .FDR.",
+    "construction": [
+      "Chassi monobloco fundido em aço de alta liga com tratamento térmico de alívio de tensões para estabilidade anti-vibração",
+      "Cabeçotes industriais modulares com barra de agulhas e seletores acionados por motor de passo de troca rápida",
+      "Braço tubular de perfil estreito reforçado para bonés montados estruturados e peças tubulares fechadas",
+      "Painel de comando computadorizado Dahao colorido touchscreen de 8 a 10 polegadas com suporte multilíngue",
+      "Laçadeiras rotativas industriais de alta velocidade importadas do Japão (Koban)",
+      "Sistema de iluminação do cabeçote com lâmpadas LED industriais de alta intensidade e baixo consumo",
+      "Porta USB frontal e conexão de rede Ethernet LAN para integração com softwares de produção industrial"
+    ],
+    "howItWorks": [
+      "1. A matriz de bordado em formato universal Tajima .DST ou .DSB é carregada na máquina via pendrive USB comum ou enviada pela rede Ethernet do ateliê.",
+      "2. No painel computadorizado Dahao, o operador visualiza a matriz, associa cada troca de cor às agulhas desejadas (1 a 12 ou 15) e escolhe o bastidor correspondente.",
+      "3. As peças (camisetas, polos, jalecos ou bonés) são montadas nos bastidores tubulares ou no aro de boné e travadas no pantógrafo reforçado.",
+      "4. O operador aciona o teste perimetral com ponteiro laser para garantir que a matriz respeita com segurança os limites do bastidor.",
+      "5. Ao apertar o botão verde de partida, a Feiya inicia a costura acelerando progressivamente até 900 ou 1.000 PPM.",
+      "6. A cada etapa, o trilho de agulhas se desloca lateralmente de forma automática e a faca inferior corta a linha, deixando a peça limpa e sem laçadas soltas."
+    ],
+    "beginnerExplanation": "A Feiya é o verdadeiro 'cavalo de batalha' das confecções e fábricas de uniformes do Brasil! Sabe aquelas empresas que precisam bordar centenas de jalecos, camisas polo de firmas, jaquetas e bonés todos os dias? Elas usam máquinas industriais como a Feiya! Ela é uma máquina pesada, feita de metal maciço para aguentar trabalhar o dia inteiro sem parar. O cérebro dela é o clássico computador Dahao, que quase todo mecânico e bordador profissional do Brasil sabe mexer de olhos fechados, com peças de reposição fáceis de achar em qualquer lugar!",
+    "applications": [
+      "Bordados em larga escala de uniformes profissionais, jalecos médicos e roupas corporativas",
+      "Bordados em bonés montados estruturados em 270° com o dispositivo rotativo de boné",
+      "Bordados em alto relevo 3D (EVA) para marcas de streetwear, bonés e jaquetas",
+      "Emblemas, brasões escolares e patches termocolantes em bastidores planos pantográficos",
+      "Aplicações decorativas com dispositivos opcionais de lantejoulas (paetê), cordões e corte a laser"
+    ],
+    "mainTypes": [
+      "Feiya CT / CTF Series (1 Cabeça): Modelo compacto tubular de 12 ou 15 agulhas, ideal para ateliês em expansão e bonés",
+      "Feiya Multi-Cabeças Tubulares (2, 4, 6 e 8 cabeças): As campeãs de produção seriada para confecções de médio e grande porte",
+      "Feiya Flat Series (até 24 cabeças planas): Máquinas industriais de leito pantográfico amplo para emblemas e rolos de tecido",
+      "Feiya Special Line: Máquinas híbridas com dispositivos de aplicação de cordão, lantejoulas e cabeça de corte a laser"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "850 a 950 PPM para tecidos planos normais; 650 a 750 PPM para bonés estruturados e EVA 3D",
+      "needleType": "Sistema industrial de cabo redondo DBxK5 (tamanhos 70/10 a 90/14 de acordo com a gramatura)",
+      "stabilizer": "Entretela rasgável de 70g/m² a 80g/m² ou entretela resinada própria para bonés estruturados"
+    },
+    "advantages": [
+      "✔ Excelente relação custo-benefício com robustez mecânica para regimes de trabalho contínuo de 2 ou 3 turnos",
+      "✔ Sistema de comando Dahao consagrado mundialmente, com imensa facilidade de assistência técnica e operadores treinados",
+      "✔ Laçadeiras rotativas japonesas Koban de alta precisão que minimizam aquecimento e desgaste prematuro",
+      "✔ Compatibilidade universal com o formato .DST, permitindo usar matrizes criadas em qualquer software"
+    ],
+    "limitations": [
+      "Máquina de grande porte e elevado peso estrutural, exigindo piso nivelado e espaço físico adequado no ateliê.",
+      "Troca de agulhas industriais de cabo redondo (DBxK5) requer atenção manual no alinhamento correto da canaleta."
+    ],
+    "commonErrors": [
+      "❌ Iniciar o bordado em boné estruturado sem verificar a distância do calcador e a folga perimetral da cinta de aço.",
+      "❌ Esquecer de lubrificar a laçadeira rotativa e as barras de agulha nos períodos recomendados pelo manual.",
+      "❌ Operar em alta velocidade (acima de 1.000 PPM) com linhas de baixa qualidade ou com tensores descalibrados.",
+      "❌ Deixar poeira e resíduos de entretela acumularem nos roletes ópticos de detecção de quebra de linha."
+    ],
+    "troubleshootingTips": [
+      "Linha superior soltando da agulha na partida: Ative a função de Partida Lenta (Soft Start) no painel Dahao para 3 pontos a 400 PPM e ajuste o avanço do pegador de linha (picker).",
+      "Alarme de parada com aviso de 100° fora de ponto: Gire o volante manual traseiro da máquina até alinhar exatamente na marcação de 100° do mostrador digital.",
+      "Ponto frouxo no verso da peça: Verifique se a caixa de bobina metálica está limpa e aperte ligeiramente o parafuso da lâmina de tensão da bobina."
+    ],
+    "dicaArtrelados": "Nas máquinas Feiya com painel Dahao, uma dica de ouro para nunca ter linha escapando da agulha após a troca de cor é ativar o 'Soft Start' (Partida Suave) configurado para 3 pontadas a 400 PPM! A máquina amarra o nozinho com delicadeza e só depois dispara para 950 PPM: suas letras pequenas começam limpas, sem fiapo solto e sem falhas de ponto!",
+    "voceSabia": "As estruturas e vigas de ferro fundido das máquinas Feiya passam por um processo clássico da engenharia mecânica chamado 'envelhecimento térmico natural', no qual o metal descansa ao ar livre durante meses após a fundição! Isso faz com que todas as tensões internas da matéria-prima se acomodem, garantindo que o chassi nunca empene mesmo após anos trabalhando 24 horas por dia em fábricas industriais!",
+    "practicalExercise": "Ajuste de Ponto Morto (100°) no Painel Dahao da Feiya: No painel Dahao da sua Feiya, observe o mostrador digital de graus do eixo principal. Vá até o volante traseiro da máquina e gire com a mão até que o número marque exatamente 100°. Veja na tela que o ícone do eixo fica verde: isso confirma que a barra de agulha está no ponto mais alto e a máquina está liberada para bordar com total segurança mecânica!",
+    "quickSummary": "Gigante fabril chinesa (Zhejiang, anos 1980), líder em volume de máquinas industriais de 1 a 32 cabeças, integrada aos comandos Dahao, laçadeiras Koban e formato universal .DST.",
+    "relatedTerms": [
+      "Tajima",
+      "Barudan (Máquinas de Bordado Eletrônico)",
+      "SWF / SunStar (Máquinas de Bordado Eletrônico)",
+      "Formato DST",
+      "Agulha DBxK5",
+      "Bastidor de Boné",
+      "Caixa de Bobina",
+      "Velocidade PPM"
+    ],
+    "tags": [
+      "f-101",
+      "feiya",
+      "dahao",
+      "chinesa",
+      "industrial",
+      "maquinas",
+      "equipamento",
+      "dst",
+      "tubular",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "FEIYA MULTI-HEAD EMBROIDERY MACHINE CO., LTD. Operation and Technical Maintenance Manual: Tubular & Flat High-Speed Series. Zhuji: Feiya, 2023.",
+      "BEIJING DAHAO TECHNOLOGY CORP., LTD. Dahao Computerized Embroidery Machine Control System Manual. Pequim: Dahao, 2023.",
+      "ARTRELADOS. Engenharia e Manutenção de Máquinas Industriais de Alto Desempenho no Brasil. Curitiba, 2024."
+    ],
+    "updatedAt": "2026-09-05",
+    "matrixRelations": [
+      "Compatibilidade de Formato de Matriz: As máquinas industriais Feiya operam prioritariamente com o padrão Tajima (.DST) ou Dahao (.DSB). O formato .DST não contém dados nativos de cores ou paradas automáticas avançadas de fábrica, exigindo que o sequenciamento de troca de agulha seja configurado diretamente no painel Dahao.",
+      "Compensação de Repuxamento em Múltiplos Cabeçotes: Devido à rigidez da viga estrutural e acionamento por correias longas do pantógrafo, matrizes executadas em máquinas multicabeças Feiya demandam pull compensation calibrada entre 0.35 mm e 0.45 mm para garantir registro idêntico da primeira à última cabeça.",
+      "Filtragem de Micro-Saltos e Pontos Curtos: Configuração no software para eliminar saltos menores que 0.3 mm e pontos com menos de 1.0 mm, reduzindo acionamentos desnecessários dos solenoides de corte e travas de linha nas cabeças industriais."
+    ],
+    "relationshipWithMatrix": "Matrizes industriais para máquinas Feiya exigem codificação limpa em .DST, mapeamento manual prévio das cabeças no painel Dahao e compensação de repuxo generosa para suportar alta velocidade em múltiplos cabeçotes.",
+    "howToIdentify": [
+      "Troca de cores fora de sincronia ou bordando na agulha errada ao carregar matrizes .DST no painel Dahao sem pré-configurar a tabela de paradas de agulha.",
+      "Diferença sutil no fechamento de contornos ou fendas de registro entre a primeira cabeça (mais próxima do motor do pantógrafo) e a última cabeça da máquina.",
+      "Perda de pontos no arranque do bordado por desativação acidental da função de partida lenta (slow start) configurada no painel de comando."
+    ]
+  },
+  {
     "id": "f-novo-001-feltro-feltro-la-bordado-eletronico",
     "term": "Feltro e Feltro de Lã para Bordado Eletrônico",
     "englishTerm": "Embroidery Craft & Wool Blend Felt in Computerized Machine",
@@ -42,11 +156,11 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
     "practicalExercise": "Crie no seu software um chaveiro redondo de 6 cm com seu nome em ponto cheio e borda em cordão. Borde sobre um pedaço de feltro estabilizado com entretela rasgável e recorte com tesoura de ponta curva para avaliar o acabamento.",
     "quickSummary": "Base têxtil não-tecida sem desfiamento, ideal para chaveiros, patches e decorações, exigindo densidade moderada e estabilização sem tração excessiva.",
     "relatedTerms": [
-      "Ponto Cheio (Satin)",
-      "Patch Bordado",
-      "In The Hoop (ITH)",
-      "Entretela Rasgável",
-      "Agulha Ponta Bola (Ball Point)"
+      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
+      "Ponto Tatami (Fill Stitch / Ponto de Preenchimento)",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Etiqueta Termocolante, Filme Termoaderente e Aplicação a Quente",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio"
     ],
     "recommendedSettings": {
       "needleType": "Agulha Ponta Bola 75/11 ou Microtex 80/12",
@@ -54,7 +168,20 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "600 a 750 PPM",
       "density": "0,44 mm a 0,48 mm",
       "pullCompensation": "+0,25 mm a +0,30 mm"
-    }
+    },
+    "code": "F-102",
+    "matrixRelations": [
+      "Densidade de Ponto: Como o feltro não tem tramas que abrem, densidade de 0,40 mm a 0,45 mm oferece cobertura total sem rigidez de papelão.",
+      "Ponto de Suporte (Underlay): Reduzir o suporte para um ziguezague leve ou contorno simples; evitar tatami duplo por baixo.",
+      "Compensação de Encolhimento: O feltro possui altíssima estabilidade dimensional, bastando compensação de 0,25 mm a 0,30 mm.",
+      "Velocidade e Tensão: Permite rotação média-alta (750 a 850 RPM) com tensão superior equilibrada a 110-120 gf."
+    ],
+    "howToIdentify": [
+      "Bordado duro como chapa de papelão que não dobra: excesso de camadas de underlay em feltro denso.",
+      "Fibras soltas do feltro sintético escapando pelas bordas do ponto cheio: falta de costura de alinhave perimetral.",
+      "Agulha socando com ruído de batimento surdo: feltro de lã pura espesso exigindo agulha 80/12 ou 90/14.",
+      "Contorno limpo, sem rugas e com relevo destacado: parâmetros perfeitamente ajustados para feltro."
+    ]
   },
   {
     "id": "f-novo-002-flanela-algodao-bordado-computadorizado",
@@ -97,11 +224,11 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
     "practicalExercise": "Pegue um retalho de flanela. Divida-o ao meio: em um lado, borde uma letra 'F' sem filme plástico no topo; no outro lado, borde a mesma letra com um pedacinho de filme hidrossolúvel. Compare a nitidez e o relevo das bordas!",
     "quickSummary": "Tecido macio e cardado com felpa superficial, ideal para enxovais infantis, exigindo filme solúvel no topo e agulha ponta bola para evitar que os pontos afundem.",
     "relatedTerms": [
-      "Filme Hidrossolúvel",
-      "Película Protetora de Topo (Topping)",
-      "Underlay de Ponto Suporte",
-      "Compensação de Encolhimento",
-      "Agulha Ponta Bola (Ball Point)"
+      "Entretela de Água Quente vs. Água Fria: Dissolução Térmica vs. Hidrossolúvel",
+      "Estudo de Retração de Fibras Naturais pós-Lavagem no Bordado",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado"
     ],
     "recommendedSettings": {
       "needleType": "Agulha Ponta Bola 75/11 (SES)",
@@ -109,7 +236,20 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "650 a 700 PPM",
       "density": "0,40 mm a 0,42 mm",
       "pullCompensation": "+0,35 mm"
-    }
+    },
+    "code": "F-103",
+    "matrixRelations": [
+      "Uso Obrigatório de Topping Solúvel: Filme hidrossolúvel de 25 micras no topo para impedir que a felpa flanelada engula os pontos finos.",
+      "Densidade de Ponto: Calibrada entre 0,40 mm e 0,42 mm para evitar compactação excessiva que endurece a peça macia.",
+      "Ponto de Suporte (Underlay): Grade aberta (lattice) ou tatami leve para criar piso plano sobre o tecido peluciado.",
+      "Compensação de Encolhimento: Ajustar para 0,35 mm a 0,45 mm devido ao puxão nas fibras escovadas macias."
+    ],
+    "howToIdentify": [
+      "Pelinhos da flanela invadindo os cantos das letras e contornos: falta de película hidrossolúvel no topo.",
+      "Tecido repuxado ao redor do bordado após a primeira lavagem: encolhimento natural de fibras de flanela de algodão não pré-lavada.",
+      "Furos aparentes na malha flanelada: uso de agulha com ponta cortante em vez de ponta bola fina (SES).",
+      "Bordado com toque aveludado, desenho nítido e tecido macio ao redor: estabilização ideal de flanela."
+    ]
   },
   {
     "id": "f-novo-003-fio-fosco-linhas-mate-alta-definicao",
@@ -152,11 +292,11 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
     "practicalExercise": "Borde dois monogramas iguais de 3 cm: um com linha de poliéster brilhante e outro com linha mate fosca. Fotografe os dois com o flash do celular ligado e veja a diferença impressionante de nitidez no resultado final.",
     "quickSummary": "Linha sem reflexo brilhante que confere aspecto cerâmico e elegante, ideal para pequenos textos corporativos, couro e bordados artísticos.",
     "relatedTerms": [
-      "Fio de Poliéster para Bordado",
-      "Fio de Viscose / Rayon",
-      "Microletras",
-      "Tensão da Linha Superior",
-      "PhotoStitch"
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
+      "Tensão de Linha Superior (Top Thread Tension Dynamics)",
+      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
+      "Chapa de Agulha (Needle Plate)",
+      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas"
     ],
     "recommendedSettings": {
       "needleType": "Agulha Universal ou Bordado 75/11 ou 70/10",
@@ -164,7 +304,20 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "700 a 800 PPM",
       "density": "0,38 mm a 0,40 mm",
       "pullCompensation": "+0,30 mm"
-    }
+    },
+    "code": "F-104",
+    "matrixRelations": [
+      "Redução de Brilho e Textura: Fios com cerâmica incorporada refletem luz difusa, ideais para efeito de pintura de agulha e retratos PhotoStitch.",
+      "Densidade de Ponto: Como a linha fosca absorve mais luz e parece mais grossa visualmente, a densidade pode ser aberta para 0,42 mm a 0,45 mm.",
+      "Tensão de Linha: Fios mates têm coeficiente de atrito ligeiramente maior nos tensores, exigindo tensão mais suave (90-105 gf).",
+      "Microletras: Proporciona leitura superior em fontes menores que 5 mm por eliminar reflexos que borram a visão."
+    ],
+    "howToIdentify": [
+      "Linha quebrando ou desfiando nos discos tensores: tensão excessiva calibrada para poliéster trilobal brilhante.",
+      "Aspecto plástico artificial em pele humana ou folhagens: uso de linha brilhante onde se exigia acabamento fosco realista.",
+      "Acúmulo de pó microscópico na chapa de agulha: fricção natural da partícula cerâmica fosqueadora.",
+      "Visual sofisticado, nobre e vintage idêntico a gravura artística: linha fosca aplicada com perfeição."
+    ]
   },
   {
     "id": "f-novo-004-fio-cobre-condutivo-bordado-inteligente",
@@ -207,11 +360,11 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
     "practicalExercise": "Com um carretel de fio condutor na agulha e velocidade da máquina em 450 PPM, borde uma linha reta de 10 cm. Conecte uma bateria moeda de 3V em uma ponta e um LED na outra para ver a luz acender através do bordado.",
     "quickSummary": "Fio de engenharia têxtil com propriedades elétricas que permite criar trilhas de circuito, sensores e iluminação integrados ao tecido.",
     "relatedTerms": [
-      "Fio Metálico para Bordado",
-      "Agulha Topstitch",
-      "Ponto Bean / Pesponto Triplo",
-      "Ponto Corrido Linear",
-      "E-Textiles"
+      "Eletricidade Estática no Fio Metálico (Fitas Antiestáticas e Aterramento)",
+      "Estudo de Fricção e Aquecimento de Agulhas com Revestimento de Titânio",
+      "Tensão de Linha Superior (Top Thread Tension Dynamics)",
+      "Chapa de Agulha (Needle Plate)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio"
     ],
     "recommendedSettings": {
       "needleType": "Agulha Topstitch ou Metallic 90/14",
@@ -219,7 +372,20 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "400 a 500 PPM",
       "density": "Ponto corrido com passo 2,8 mm",
       "pullCompensation": "Padrão"
-    }
+    },
+    "code": "F-105",
+    "matrixRelations": [
+      "Continuidade de Trajeto: A matriz deve ser digitalizada em caminho único contínuo sem saltos nem cortes automáticos de linha.",
+      "Comprimento de Ponto: Usar passos mais longos (3,0 mm a 4,5 mm) em ponto reto ou pesponto triplo (bean stitch) para reduzir atrito.",
+      "Tensão de Linha: Tensão ultra-baixa com velocidade reduzida (400 a 550 RPM) para não romper a microfiação condutiva de cobre/prata.",
+      "Isolamento de Base: Utilizar entretela não-condutiva e evitar cruzamentos metálicos que causem curto-circuito na placa."
+    ],
+    "howToIdentify": [
+      "Circuito elétrico sem continuidade no multímetro: micro-ruptura interna do filamento condutivo por estiramento mecânico.",
+      "Fio metálico condutivo desfiando e travando na canaleta da agulha: olho de agulha pequeno (usar agulha Topstitch 90/14).",
+      "Pequenas faíscas ou falha de leitura em sensores têxteis: nó de linha mal arrematado no avesso.",
+      "Led ou sensor acendendo perfeitamente ao fechar o circuito no bordado: condutividade elétrica preservada."
+    ]
   },
   {
     "id": "f-novo-005-filamento-bicomponente-poliester-poliamida",
@@ -262,11 +428,11 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
     "practicalExercise": "Borde um logotipo em um retalho de suplex elástico usando fio bicomponente e outro com linha comum de poliéster. Estique o tecido com as duas mãos e observe como os pontos bicomponentes acompanham o tecido sem estourar nenhum ponto!",
     "quickSummary": "Linha técnica de núcleo de poliéster e capa de náilon que combina alta tração mecânica com elasticidade elástica suave para malhas e alta velocidade.",
     "relatedTerms": [
-      "Fio de Poliéster para Bordado",
-      "Fio Retorcido de Alta Tenacidade",
-      "Compensação de Encolhimento",
-      "Tecido de Malha",
-      "Mola de Retirada (Check Spring)"
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
+      "Elastano no Bordado: Técnicas para Malhas com Stretch sem Ondular",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Tensão de Linha Superior (Top Thread Tension Dynamics)",
+      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade)"
     ],
     "recommendedSettings": {
       "needleType": "Agulha SES Ponta Bola Leve 75/11",
@@ -274,7 +440,20 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "750 a 900 PPM",
       "density": "0,42 mm a 0,45 mm",
       "pullCompensation": "+0,35 mm"
-    }
+    },
+    "code": "F-106",
+    "matrixRelations": [
+      "Elasticidade e Recuperação: A combinação de núcleo de poliéster com capa de poliamida exige compensação de puxão de 0,35 mm a 0,40 mm.",
+      "Densidade de Ponto: Permite pontos finíssimos e densidades compactas sem rasgar tecidos elásticos.",
+      "Formação de Laço Estável: A elasticidade controlada do bicomponente forma laços amplos e estáveis na lançadeira.",
+      "Resistência à Tração: Suporta velocidades elevadas (850 a 1.000 RPM) com índice quase nulo de quebras."
+    ],
+    "howToIdentify": [
+      "Laçadas frouxas no avesso pós-costura: relaxamento elástico de linha esticada em tensores desregulados.",
+      "Linha brilhando com tonalidades duplas sutis sob luz polarizada: efeito visual característico da fibra bicomponente.",
+      "Costura acompanhando o estiramento de roupas fitness sem estalar pontos: filamento bicomponente em ação.",
+      "Ausência total de quebras mesmo em desenhos densos com curvas fechadas: alta tenacidade mecânica."
+    ]
   },
   {
     "id": "f-novo-006-fibra-natural-vs-fibra-sintetica-bastidor",
@@ -317,11 +496,11 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
     "practicalExercise": "Pegue um retalho de tricoline 100% algodão e um de cetim 100% poliéster. Prenda ambos no bastidor com a mesma tensão. Dê leves batidinhas no centro e sinta como o algodão soa como um tambor firme, enquanto o poliéster tende a escorregar nas bordas.",
     "quickSummary": "Compreensão das diferenças de elasticidade, retenção de calor e memória entre fibras naturais e sintéticas para calibrar bastidor, agulha e matriz.",
     "relatedTerms": [
-      "Entretela Recortável",
-      "Entretela Rasgável",
-      "Marcas de Bastidor (Hoop Burn)",
-      "Agulha Ponta Bola (Ball Point)",
-      "Compensação de Encolhimento"
+      "Estudo de Retração de Fibras Naturais pós-Lavagem no Bordado",
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Elastano no Bordado: Técnicas para Malhas com Stretch sem Ondular",
+      "Entretela de Água Quente vs. Água Fria: Dissolução Térmica vs. Hidrossolúvel"
     ],
     "recommendedSettings": {
       "needleType": "Naturais: Ponta Ligeiramente Bola 75/11 | Sintéticos: Microtex ou Bola Fina 70/10",
@@ -329,7 +508,20 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Naturais: 750 a 850 PPM | Sintéticos: 600 a 700 PPM",
       "density": "Naturais: 0,40 mm | Sintéticos: 0,44 mm",
       "pullCompensation": "+0,30 mm a +0,38 mm"
-    }
+    },
+    "code": "F-107",
+    "matrixRelations": [
+      "Comportamento Higroscópico: Fibras naturais (algodão/linho) absorvem umidade e incham; sintéticos (poliéster/poliamida) mantêm forma rígida.",
+      "Compensação de Puxão Diferencial: Fibras naturais exigem compensação moderada (0,30 mm); sintéticos elásticos demandam até 0,50 mm.",
+      "Tipo de Entretela: Rasgadeira para tecidos planos de algodão; recortável de malha para sintéticos com stretch.",
+      "Temperatura do Ferro: Cuidado com fusão de fibras sintéticas em acabamentos com entretela termocolante."
+    ],
+    "howToIdentify": [
+      "Marcas circulares esbranquiçadas permanentes deixadas pelo aro do bastidor: esmagamento térmico de fibras sintéticas delicadas.",
+      "Bordado enrugando dias após a confecção em ambiente úmido: retração higroscópica de fibras naturais.",
+      "Tecido perfurado com pequenos buracos nos vértices: uso de agulha errada para o tipo de fibra.",
+      "Bordado perfeitamente integrado e estável no tecido: correspondência ideal entre tipo de fibra e matriz."
+    ]
   },
   {
     "id": "f-novo-007-fio-metalico-furta-cor-efeito-holografico",
@@ -372,11 +564,11 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
     "practicalExercise": "Borde uma pequena estrela de 4 cm preenchida com ponto tatami usando linha comum e outra idêntica com fio furta-cor a 550 PPM com agulha Metallic. Ilumine com a lanterna do celular e gire a peça para admirar o brilho óptico!",
     "quickSummary": "Linha metalizada com filme de difração prismática que varia de tonalidade com o ângulo da luz, exigindo velocidade moderada e agulha especial com olho alongado.",
     "relatedTerms": [
-      "Fio Metálico para Bordado",
-      "Agulha Especial para Fio Metálico",
-      "Rede de Proteção para Cone",
-      "Silicone Líquido Têxtil",
-      "Ponto Tatami"
+      "Eletricidade Estática no Fio Metálico (Fitas Antiestáticas e Aterramento)",
+      "Estudo de Fricção e Aquecimento de Agulhas com Revestimento de Titânio",
+      "Tensão de Linha Superior (Top Thread Tension Dynamics)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio",
+      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas"
     ],
     "recommendedSettings": {
       "needleType": "Agulha Metallic 80/12 ou Topstitch 90/14",
@@ -384,7 +576,20 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "500 a 600 PPM",
       "density": "0,45 mm a 0,50 mm",
       "pullCompensation": "+0,30 mm"
-    }
+    },
+    "code": "F-108",
+    "matrixRelations": [
+      "Largura de Ponto Cheio: Evitar colunas de ponto Satin menores que 2 mm para não partir a fita metalizada holográfica.",
+      "Densidade Aberta: Abrir a densidade para 0,45 mm a 0,50 mm; pontos muito juntos provocam atrito destrutivo entre fios.",
+      "Subcamada (Underlay): Usar underlay simples em ziguezague com ângulo diferente da camada superior para refletir prismas de luz.",
+      "Velocidade Reduzida: Operar obrigatoriamente entre 500 e 600 RPM com agulha especial Metallic 90/14."
+    ],
+    "howToIdentify": [
+      "Fita holográfica descascando e embolando em forma de sanfona antes da agulha: passagem de linha por tensores muito apertados.",
+      "Linha metálica arrebentando a cada 100 pontos: agulha comum com olho estreito cortando o fio.",
+      "Efeito prismático apagado e fosco: prensagem direta com ferro quente derretendo a película holográfica.",
+      "Reflexo furta-cor exuberante brilhando em arco-íris conforme a peça se move: bordado holográfico perfeito."
+    ]
   },
   {
     "id": "f-novo-008-fio-algodao-mercerizado-bordadeira",
@@ -427,11 +632,11 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
     "practicalExercise": "Borde duas amostras de um mesmo brasão clássico em um tecido de linho: uma usando linha de poliéster comum e outra usando algodão mercerizado. Passe o ferro quente com vapor sobre as duas e sinta a diferença de toque e elegância visual.",
     "quickSummary": "Linha nobre de algodão puro tratada para brilho acetinado e toque natural, insubstituível para enxovais clássicos, rechiliê e peças de alta sofisticação.",
     "relatedTerms": [
-      "Fio de Poliéster para Bordado",
-      "Fio de Viscose / Rayon",
-      "Rechiliê Computadorizado",
-      "Densidade de Pontos",
-      "Tensão da Linha Superior"
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
+      "Estudo de Retração de Fibras Naturais pós-Lavagem no Bordado",
+      "Tensão de Linha Superior (Top Thread Tension Dynamics)",
+      "Chapa de Agulha (Needle Plate)",
+      "Caixa de Bobina (Bobbin Case)"
     ],
     "recommendedSettings": {
       "needleType": "Agulha Bordado ou Universal 75/11 ou 80/12",
@@ -439,7 +644,20 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "550 a 650 PPM",
       "density": "0,45 mm a 0,48 mm",
       "pullCompensation": "+0,30 mm"
-    }
+    },
+    "code": "F-109",
+    "matrixRelations": [
+      "Toque e Volume Têxtil: Fio nobre 100% natural com brilho discreto, perfeito para toalhas de linho, enxovais clássicos e peças sacras.",
+      "Densidade de Ponto: Cobertura opaca generosa permitindo densidade padrão de 0,40 mm sem transparências.",
+      "Tensão Reduzida: Calibrar tensão superior em 85 a 100 gf para prevenir estiramentos e quebras por baixa elasticidade (< 5%).",
+      "Velocidade Operacional: Manter entre 550 e 650 RPM para preservar as fibras de algodão contra atrito térmico."
+    ],
+    "howToIdentify": [
+      "Fio arrebentando com a ponta esfiapada em forma de vassourinha: excesso de tensão ou fricção em agulha cega.",
+      "Penugem de felpas brancas acumulando na caixa de bobina após 1 hora de bordado: desgaste natural de fibras curtas de algodão.",
+      "Bordado desbotando após lavagem com cloro: algodão atacado por agentes alvejantes clorados.",
+      "Aspecto artesanal de bordado à mão com toque ultra-suave e sem brilho plástico: algodão mercerizado autêntico."
+    ]
   },
   {
     "id": "f-novo-009-fita-gorgurao-bordado-lacos",
@@ -482,11 +700,11 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
     "practicalExercise": "Coloque entretela no bastidor, borde uma linha de 10 cm de ponto corrido. Cole uma fita de gorgurão de 38 mm sobre ela com fita crepe nas pontas e borde uma palavra de 5 letras. Retire e veja como a fita permaneceu perfeitamente alinhada.",
     "quickSummary": "Fita canelada de alta resistência ideal para laços e alças, bordada com o método de flutuação sobre entretela com alinhamento milimétrico.",
     "relatedTerms": [
-      "Flutuação de Peças Pequenas",
-      "Fita Crepe para Bastidor",
-      "Função Baste / Alinhavo Automático",
-      "Agulha Microtex",
-      "Ponto Cheio (Satin)"
+      "Entretela Autoadesiva Peel-and-Stick (Bordando sem Bastidor / Fast Frames)",
+      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio",
+      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas"
     ],
     "recommendedSettings": {
       "needleType": "Agulha Microtex 70/10 ou Universal 75/11",
@@ -494,7 +712,20 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "650 a 700 PPM",
       "density": "0,40 mm a 0,42 mm",
       "pullCompensation": "+0,25 mm"
-    }
+    },
+    "code": "F-110",
+    "matrixRelations": [
+      "Estrutura Canelada: As nervuras horizontais do gorgurão exigem alinhamento do ângulo de ponto a 45° para não cair nos sulcos da fita.",
+      "Bastidorização Flutuante: Fixar a fita estreita sobre entretela rasgadeira adesiva ou com fita dupla-face sem prender no aro.",
+      "Compensação de Puxão: Ajustar entre 0,30 mm e 0,35 mm para evitar que o ponto repuxe e estreite a largura da fita.",
+      "Densidade de Microletras: Nomes em laços infantis exigem pontos acetinados delicados com densidade 0,38 mm."
+    ],
+    "howToIdentify": [
+      "Fita de gorgurão torta ou com bordas enrugadas após o bordado: fixação sem alinhamento reto sobre a entretela adesiva.",
+      "Letras afundando e sumindo entre as canaletas da fita: ângulo de ponto paralelo à textura do gorgurão.",
+      "Fita desfiando nas pontas durante o manuseio: corte executado sem selagem a quente ou sem termolina.",
+      "Laço com nome perfeitamente centralizado, plano e com letras nítidas: bordado em gorgurão de excelência."
+    ]
   },
   {
     "id": "f-novo-010-fita-sarja-cadarco-algodao-bastidor",
@@ -538,10 +769,10 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
     "quickSummary": "Fita de algodão macia com ligamento diagonal, padrão para etiquetas de marca e aventais, bordada com o método de gabarito flutuante.",
     "relatedTerms": [
       "Fita de Gorgurão para Bordado e Laços",
-      "Flutuação de Peças Pequenas",
-      "Compensação de Encolhimento",
-      "Underlay de Ponto Suporte",
-      "Termolina Leitosa"
+      "Entretela Autoadesiva Peel-and-Stick (Bordando sem Bastidor / Fast Frames)",
+      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio"
     ],
     "recommendedSettings": {
       "needleType": "Agulha Ponta Bola Leve (SES) 75/11",
@@ -549,7 +780,20 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "650 a 700 PPM",
       "density": "0,42 mm",
       "pullCompensation": "+0,30 mm"
-    }
+    },
+    "code": "F-111",
+    "matrixRelations": [
+      "Bordado Contínuo em Tiras: Ideal para alças de sacolas ecológicas, aventais e fitas personalizadas de embalagem de luxo.",
+      "Orientação da Trama em Diagonal: A sarja possui nervuras diagonais (twill), exigindo compensação cruzada para não repuxar.",
+      "Alinhave Perimetral (Basting): Indispensável executar moldura de fixação para garantir que o cadarço não entorte.",
+      "Densidade Moderada: Evitar pontos excessivamente juntos que perfurem o cadarço estreito como linha de picote."
+    ],
+    "howToIdentify": [
+      "Cadarço de algodão torcido em espiral após sair da máquina: puxão assimétrico por falta de estabilização da fita.",
+      "Letras tortas ou saindo pelas bordas da fita: falha de alinhamento com a linha de centro do bastidor.",
+      "Cadarço encolhendo após passar a ferro com vapor: algodão cru não pré-encolhido.",
+      "Alça personalizada com logotipo reto, pontos firmes e acabamento de alfaiataria: execução técnica impecável."
+    ]
   },
   {
     "id": "f-novo-011-faca-superior-inferior-corte-automatico-linha",
@@ -592,11 +836,11 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
     "practicalExercise": "Com a máquina desligada e a chapa de agulha removida, gire o volante manualmente ou ative a alavanca do trimmer para observar visualmente como a faca móvel avança, laça a linha imaginária e retorna contra a contra-faca.",
     "quickSummary": "Mecanismo sob a chapa que corta automaticamente a linha superior e inferior ao final de cada bloco de cor, exigindo limpeza periódica de felpas.",
     "relatedTerms": [
-      "Corte Automático de Linha (Trimmer)",
-      "Chapa de Agulha",
-      "Ponto de Amarração (Tie-off)",
-      "Linha de Bobina",
-      "Caixa de Bobina"
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio",
+      "Chapa de Agulha (Needle Plate)",
+      "Laçadeira Rotativa (Rotary Hook)",
+      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade)",
+      "Extrator de Parafusos de Chapa, Chave Moeda e Chave Angular"
     ],
     "recommendedSettings": {
       "needleType": "Padrão da máquina",
@@ -604,7 +848,20 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Corte executado com máquina desacelerada (~150 PPM)",
       "density": "Padrão",
       "pullCompensation": "Padrão"
-    }
+    },
+    "code": "F-112",
+    "matrixRelations": [
+      "Mecânica de Corte (Trimmer): Conjunto de faca móvel oscilante e lâmina fixa que guilhotina as linhas superior e inferior.",
+      "Comandos de Corte na Matriz: Sincronismo perfeito entre paradas de cor, saltos programados e pontos de arremate.",
+      "Pressão da Mola da Contra-Faca: Calibração de pressão para corte limpo sem 'mastigar' fios de poliéster 120/2.",
+      "Comprimento da Sobra Inicial: Ajuste para deixar entre 20 mm e 30 mm de ponta de linha para a agulha iniciar a próxima cor."
+    ],
+    "howToIdentify": [
+      "Linha superior escapando do olho da agulha na retomada pós-corte: faca cortando a sobra de linha muito curta.",
+      "Linha não sendo cortada e deixando fios compridos atravessando a matriz: faca móvel sem corte ou dente com rebarba.",
+      "Estalo metálico forte ou travamento com alarme de erro de trimmer: fio embolado ou faca presa no retorno.",
+      "Corte seco, silencioso e preciso sem pontas soltas na frente da peça: facas perfeitamente afiadas e ajustadas."
+    ]
   },
   {
     "id": "f-novo-012-folga-axial-eixo-lancadeira",
@@ -647,11 +904,11 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
     "practicalExercise": "Retire a caixa de bobina da sua máquina desligada. Com a ponta do indicador, empurre e puxe a ponta da lançadeira para sentir se há algum estalo ou deslocamento para frente e para trás. Em uma máquina bem calibrada, a sensação ao toque é de total firmeza e solidez.",
     "quickSummary": "Tolerância mecânica de movimento longitudinal do eixo da lançadeira que deve ser próxima de zero para garantir a captura milimétrica da linha da agulha.",
     "relatedTerms": [
-      "Lançadeira Rotativa",
-      "Sincronismo Agulha-Lançadeira",
-      "Caixa de Bobina",
-      "Ponto Falso / Ponto Falhado",
-      "Chapa de Agulha"
+      "Engrenagem Cônica Helicoidal da Lançadeira (Ajuste de Folga Angular e Graxa)",
+      "Laçadeira Rotativa (Rotary Hook)",
+      "Chapa de Agulha (Needle Plate)",
+      "Eixo Excêntrico da Barra de Agulha: Mecânica e Calibração de Folga",
+      "Dinamômetro Têxtil e Medidor de Tensão Towa (Towa Bobbin & Top Thread Tension Gauge)"
     ],
     "recommendedSettings": {
       "needleType": "Universal ou Bordado",
@@ -659,7 +916,20 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Não aplicável (manutenção mecânica)",
       "density": "Não aplicável",
       "pullCompensation": "Não aplicável"
-    }
+    },
+    "code": "F-113",
+    "matrixRelations": [
+      "Folga Longitudinal do Eixo: Movimentação axial permitida entre 0,02 mm e 0,05 mm para impedir oscilação do bico do gancho.",
+      "Sincronismo com a Cava da Agulha: Folga excessiva afasta o bico da lançadeira, provocando falha na captura do laço (ponto pulado).",
+      "Colisão Mecânica: Se a folga axial for nula ou o eixo correr para frente, o gancho colide com a agulha, quebrando ambas.",
+      "Engrenagens Helicoidais: A estabilidade axial garante engrenamento correto com a engrenagem cônica de transmissão."
+    ],
+    "howToIdentify": [
+      "Ponto pulado intermitente sem motivo aparente na mesma cabeça de bordar: jogo longitudinal no eixo da lançadeira.",
+      "Bico da lançadeira com marca prateada de raspagem na agulha: eixo avançando para a frente durante a costura.",
+      "Lançadeira com folga sentida ao puxar o eixo para frente e para trás com os dedos: colar de fixação frouxo.",
+      "Giro firme, suave e sem deslocamento longitudinal: folga axial perfeitamente ajustada na tolerância de fábrica."
+    ]
   },
   {
     "id": "f-novo-013-filtro-ruido-eletromagnetico-aterramento-maquina",
@@ -702,11 +972,11 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
     "practicalExercise": "Verifique a tomada onde sua bordadeira está ligada: confirme se ela possui os 3 pinos conectados. Com um testador de tomadas simples de LED (encontrado em lojas de material elétrico), plugue na tomada e confira se a luz de 'Terra OK' acende.",
     "quickSummary": "Infraestrutura elétrica com filtro de linha e terra real que protege os microprocessadores da máquina contra estática e picos de voltagem da rede.",
     "relatedTerms": [
-      "Painel Touchscreen da Máquina",
-      "Deslocamento de Eixo (Loss of Step)",
-      "Placa-Mãe da Bordadeira",
-      "Motor de Passo do Pantógrafo",
-      "Limpeza e Lubrificação Periódica"
+      "Fusível de Ação Rápida da Fonte de Alimentação",
+      "Eletricidade Estática no Fio Metálico (Fitas Antiestáticas e Aterramento)",
+      "Eixo Cardan do Pantógrafo (Alinhamento de Eixos X e Y em Multicabeças)",
+      "Encoder Óptico de Rotação do Eixo Principal (Controle de Graus e Sincronismo)",
+      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade)"
     ],
     "recommendedSettings": {
       "needleType": "Não aplicável",
@@ -714,7 +984,20 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Não aplicável",
       "density": "Não aplicável",
       "pullCompensation": "Não aplicável"
-    }
+    },
+    "code": "F-114",
+    "matrixRelations": [
+      "Proteção dos Servomotores X/Y: Bloqueia interferências de radiofrequência da rede elétrica que causam perda de passos no pantógrafo.",
+      "Estabilidade do Display Touchscreen: Evita travamentos de tela e comandos fantasmas durante a costura em alta velocidade.",
+      "Aterramento Obrigatório: Haste de aterramento com resistência inferior a 5 ohms para descarregar estática acumulada.",
+      "Preservação da Placa-Mãe: Evita queima de microprocessadores e memórias flash por surtos de tensão."
+    ],
+    "howToIdentify": [
+      "Bordado 'deslocando o desenho' de repente no meio do trabalho sem colisão física de bastidor: ruído eletromagnético nos drivers de passo.",
+      "Tela touch da máquina travando ou reiniciando sozinha quando o ar-condicionado ou motor potente liga na oficina.",
+      "Pequenos choques elétricos sentidos ao encostar na carcaça metálica da máquina: falta de aterramento elétrico adequado.",
+      "Máquina operando por milhares de pontos com precisão contínua e painel estável: rede filtrada e aterrada."
+    ]
   },
   {
     "id": "f-novo-014-flange-excentrica-ajuste-calcador",
@@ -757,11 +1040,11 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
     "practicalExercise": "Coloque um sanduíche de duas toalhas no bastidor. Gire o volante na mão até a agulha descer ao máximo. Observe a distância entre a base de metal do calcador e a toalha: deve haver espaço para passar uma folha de papel dobrada sem prender.",
     "quickSummary": "Came mecânico que regula a altura e o curso do calcador oscilante, adaptando a pressão para tecidos finos, toalhas felpudas ou relevos 3D.",
     "relatedTerms": [
-      "Pézinho Calcador de Bordado",
-      "Flagging (Elevação do Tecido)",
-      "Bordado 3D em Relevo com EVA",
-      "Barra de Agulha",
-      "Chapa de Agulha"
+      "Escala de Dureza Shore de Borrachas e Espumas para Alto Relevo 3D",
+      "Eixo de Transporte Superior / Calcador de Avanço Duplo",
+      "Chapa de Agulha (Needle Plate)",
+      "Excêntrico de Acionamento da Barra de Agulha e Balanceamento Dinâmico",
+      "Compensação de Encolhimento (Pull Compensation)"
     ],
     "recommendedSettings": {
       "needleType": "Padrão",
@@ -769,7 +1052,20 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Padrão",
       "density": "Padrão",
       "pullCompensation": "Padrão"
-    }
+    },
+    "code": "F-115",
+    "matrixRelations": [
+      "Controle do Efeito 'Flagging': Evita que o tecido suba junto com a agulha durante o recuo da laçada.",
+      "Ajuste de Altura para Peças Espessas: Permite elevar o calcador de 1,0 mm para 2,5 mm ao bordar bonés, mantas ou couro grosso.",
+      "Folga Operacional Segura: O calcador deve prensar o tecido no momento da descida da agulha e liberar a movimentação no ponto morto superior.",
+      "Estabilidade de Ponto 3D: Regulagem essencial para evitar esmagamento do EVA em bordados de alto relevo."
+    ],
+    "howToIdentify": [
+      "Tecido subindo e batendo contra o pé calcador com ruído de 'chicote': calcador regulado alto demais para tecido fino.",
+      "Marcas profundas e brilho de atrito deixados no tecido ao redor de cada ponto: calcador baixo demais esmagando as fibras.",
+      "Ponto frouxo ou agulha quebrando por flexão do tecido: falta de sustentação no momento da penetração.",
+      "Movimento rítmico suave do calcador que segura o tecido no milímetro exato sem marcar: flange excêntrica calibrada."
+    ]
   },
   {
     "id": "f-novo-016-freio-cone-linha-disco-amortecimento",
@@ -812,11 +1108,11 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
     "practicalExercise": "Gire com o dedo um carretel no pino da sua máquina sem o feltro embaixo e conte quantos giros ele dá sozinho. Em seguida, coloque o disco de feltro amortecedor e tente girar novamente. Observe como a parada é instantânea e controlada.",
     "quickSummary": "Almofada de amortecimento e fricção que evita o desenrolamento inercial descontrolado do carretel durante as paradas e arranques da bordadeira.",
     "relatedTerms": [
-      "Porta-Fios e Mastro da Máquina",
-      "Rede de Proteção para Cone",
-      "Tensão da Linha Superior",
-      "Fio Metálico para Bordado",
-      "Corte Automático de Linha (Trimmer)"
+      "Flauta Guia-Fio com Banho de Titânio",
+      "Tensão de Linha Superior (Top Thread Tension Dynamics)",
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
+      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio"
     ],
     "recommendedSettings": {
       "needleType": "Padrão",
@@ -824,7 +1120,20 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Padrão",
       "density": "Padrão",
       "pullCompensation": "Padrão"
-    }
+    },
+    "code": "F-116",
+    "matrixRelations": [
+      "Eliminação do Efeito Inércia: Impede que o cone de linha continue desenrolando sozinho quando a máquina desacelera bruscamente.",
+      "Prevenção de Laçadas Caídas: Evita que a linha caia na base do carretel e enrosque no pino do mastro superior.",
+      "Flutuação de Tensão: Mantém a saída do fio contínua, evitando trancos que alteram o equilíbrio de 1/3 no avesso.",
+      "Uso em Cones Grandes (5.000m): Indispensável para carretéis pesados industriais instalados em mastros altos."
+    ],
+    "howToIdentify": [
+      "Linha enrolando na base plástica do cone e arrebentando com um tranco violento: falta de disco de espuma ou feltro sob o carretel.",
+      "Linha balançando em laços soltos entre o cone e o primeiro passa-fio durante paradas: cone girando solto por inércia.",
+      "Ruído de cone vibrando e batendo no prato metálico do mastro em altas rotações: carretilha desbalanceada sem amortecedor.",
+      "Fio subindo reto, suave e contínuo direto para o olhal de cerâmica: freio de cone e amortecimento em pleno funcionamento."
+    ]
   },
   {
     "id": "f-novo-017-fusivel-acao-rapida-fonte-alimentacao",
@@ -867,11 +1176,11 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
     "practicalExercise": "Localize no manual da sua máquina de bordar onde fica o compartimento do fusível de força. Identifique qual é a amperagem e voltagem recomendada e verifique se você possui ao menos uma unidade de reserva no seu ateliê.",
     "quickSummary": "Dispositivo fusível de sacrifício ultrarrápido que corta a energia em milissegundos para proteger os circuitos microprocessados contra sobrecorrente.",
     "relatedTerms": [
-      "Placa-Mãe da Bordadeira",
-      "Filtro de Ruído Eletromagnético",
-      "Motor de Passo do Pantógrafo",
-      "Chapa de Agulha",
-      "Deslocamento de Eixo (Loss of Step)"
+      "Filtro de Ruído Eletromagnético e Aterramento da Máquina",
+      "Eixo Cardan do Pantógrafo (Alinhamento de Eixos X e Y em Multicabeças)",
+      "Encoder Óptico de Rotação do Eixo Principal (Controle de Graus e Sincronismo)",
+      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade)",
+      "Chapa de Agulha (Needle Plate)"
     ],
     "recommendedSettings": {
       "needleType": "Não aplicável",
@@ -879,7 +1188,20 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Não aplicável",
       "density": "Não aplicável",
       "pullCompensation": "Não aplicável"
-    }
+    },
+    "code": "F-117",
+    "matrixRelations": [
+      "Proteção de Circuitos de Potência: Desconexão em milissegundos na ocorrência de sobrecorrente ou curto nos motores de passo.",
+      "Prevenção de Danos Catastróficos: Sacrifica o fusível para salvar a placa controladora principal que custa milhares de reais.",
+      "Especificação Rápida (Fast-Acting): Uso obrigatório de fusíveis de vidro/cerâmica de ação rápida (F), nunca ação retardada (T).",
+      "Dimensionamento de Corrente: Substituição rigorosa pela amperagem original indicada no manual (ex: 3,15A ou 5A)."
+    ],
+    "howToIdentify": [
+      "Máquina totalmente apagada que não liga o display nem acende leds após pico de energia: fusível de entrada rompido.",
+      "Filamento interno de vidro do fusível partido ou com mancha preta de queimado: sobrecarga elétrica interrompida com sucesso.",
+      "Máquina desligando repentinamente ao acelerar o pantógrafo: fusível com fadiga ou amperagem incorreta.",
+      "Alimentação estável e proteção integral contra curtos-circuitos acidentais: fusível íntegro e bem dimensionado."
+    ]
   },
   {
     "id": "f-novo-018-flauta-guia-fio-banho-titanio",
@@ -922,11 +1244,11 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
     "practicalExercise": "Passe a ponta da unha ou uma agulha de costura bem de leve pela borda interna dos passa-fios da sua máquina. Se você sentir algum 'degrauzinho' ou ranhura afiada onde a linha costuma roçar, esse guia precisa ser polido ou trocado por um modelo com banho de titânio ou cerâmica.",
     "quickSummary": "Barra guia com orifícios revestidos de nitreto de titânio ultra-resistente que conduz os fios sem sofrer desgaste ou abrir ranhuras afiadas por atrito.",
     "relatedTerms": [
-      "Porta-Fios e Mastro da Máquina",
-      "Olhal de Cerâmica para Passagem de Linha",
-      "Tensão da Linha Superior",
-      "Fio Metálico para Bordado",
-      "Fio de Poliéster para Bordado"
+      "Freio do Cone de Linha e Disco de Amortecimento",
+      "Tensão de Linha Superior (Top Thread Tension Dynamics)",
+      "Estudo de Fricção e Aquecimento de Agulhas com Revestimento de Titânio",
+      "Eletricidade Estática no Fio Metálico (Fitas Antiestáticas e Aterramento)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio"
     ],
     "recommendedSettings": {
       "needleType": "Não aplicável",
@@ -934,7 +1256,20 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Adequado para velocidades até 1.200 PPM",
       "density": "Não aplicável",
       "pullCompensation": "Não aplicável"
-    }
+    },
+    "code": "F-118",
+    "matrixRelations": [
+      "Condução Suave de Múltiplas Cores: Tubo guia superior com furos individuais por agulha para direcionar os fios do mastro aos tensores.",
+      "Revestimento Anti-Desgaste de Nitreto de Titânio: Dureza extrema que impede a linha de poliéster de 'serrar' canaletas no metal.",
+      "Redução do Coeficiente de Atrito: O banho dourado de titânio reduz a fricção superficial em até 40% em relação ao aço cru.",
+      "Preservação de Fios Especiais: Protege a película externa de fios metalizados e fios foscos contra desfiamentos."
+    ],
+    "howToIdentify": [
+      "Fio prendendo em pequenos 'cortes' ou ranhuras serrilhadas nos tubos guia da máquina: desgaste por atrito em guias sem titânio.",
+      "Linha arrebentando no trajeto superior antes de chegar aos tensores principais: rebarbas na entrada da flauta guia.",
+      "Tonalidade dourada brilhante uniforme nos olhais de passagem de linha: revestimento de titânio íntegro e protetor.",
+      "Deslizamento silencioso e sem resistência em todas as agulhas do cabeçote: flauta guia perfeitamente polida."
+    ]
   },
   {
     "id": "f-novo-019-fixador-rapido-bastidor-engate-pneumatico",
@@ -989,7 +1324,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Padrão da máquina",
       "density": "Padrão",
       "pullCompensation": "Padrão"
-    }
+    },
+    "code": "F-119",
+    "matrixRelations": [
+      "Área Útil do Bastidor: O engate rápido pneumático elimina a folga de travamento, permitindo que a matriz utilize até 98% da janela útil de bordado sem risco de colisão dos parafusos com a barra de agulhas.",
+      "Compensação de Repuxo: Como a fixação pneumática mantém a tensão perimetral constante e milimetricamente idêntica em todas as peças de um lote, a compensação de repuxo (pull compensation) programada na matriz comporta-se com 100% de previsibilidade.",
+      "Velocidade de Deslocamento do Pantógrafo: A rigidez do grampo pneumático absorve as vibrações de alta aceleração da máquina (acima de 900 PPM), evitando a distorção de contornos e o deslocamento de coordenadas durante paradas bruscas."
+    ],
+    "howToIdentify": [
+      "Bordado saindo fora de registro com contornos desalinhados em lotes repetitivos: indica que o bastidor manual sofreu deslocamento ou foi apertado com forças desiguais entre uma peça e outra.",
+      "Marcas severas de aro (marcas de bastidor) que não saem a vapor: sinal de aperto excessivo no parafuso manual que seria perfeitamente evitado pela pressão controlada e distribuída do atuador pneumático.",
+      "Fadiga muscular e lentidão na linha de produção: ao cronometrar trocas que ultrapassam 30 segundos por enquadramento, a substituição pelo fixador rápido de engate pneumático torna-se um imperativo de produtividade e ergonomia."
+    ]
   },
   {
     "id": "f-novo-020-friccao-tensor-linha-mola-retirada",
@@ -1044,7 +1390,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Padrão",
       "density": "Padrão",
       "pullCompensation": "Padrão"
-    }
+    },
+    "code": "F-120",
+    "matrixRelations": [
+      "Tensão Superior vs. Tensão de Bobina: A fricção mecânica do conjunto tensor determina a proporção clássica de 1/3 de fio de carretel e 2/3 de linha superior visíveis no verso do ponto cheio (satin).",
+      "Densidade de Ponto: Em áreas com alta densidade (0,35 mm), a mola de retirada deve ter curso ligeiramente encurtado para recolher rapidamente a sobra da laçada antes que a agulha penetre novamente no mesmo orifício.",
+      "Comprimento de Ponto: Pontos longos de salto ou preenchimento frouxo exigem resposta imediata da mola de retirada para evitar a formação de nós cegos ou laçadas frouxas na chapa de agulha."
+    ],
+    "howToIdentify": [
+      "Linha superior aparecendo frouxa e embolada no avesso da peça: tensor frouxo ou acúmulo de sujeira e resíduos de cera entre os discos metálicos de fricção.",
+      "Ponto quebrado frequentemente logo após o início do corte de linha: curso da mola de retirada excessivamente longo ou mola desregulada que não absorve o golpe do estica-fio.",
+      "Linha da bobina sendo puxada para a parte superior do bordado (pontinhos brancos em cima): tensão superior excessivamente apertada ou mola de retirada travada em fim de curso."
+    ]
   },
   {
     "id": "f-novo-021-freio-eixo-pantografo-trava-magnetica",
@@ -1099,7 +1456,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Não aplicável",
       "density": "Não aplicável",
       "pullCompensation": "Não aplicável"
-    }
+    },
+    "code": "F-121",
+    "matrixRelations": [
+      "Saltos de Agulha (Jump Stitches): Durante grandes saltos entre blocos de cor, o freio magnético atua estabilizando os eixos X e Y contra a inércia mecânica da mesa móvel.",
+      "Ponto de Amarração Inicial e Final: A imobilização instantânea fornecida pelo freio impede qualquer vibração no aro durante os 3 a 4 micro-pontos de travamento.",
+      "Precisão de Contornos Finos (Outlines): Evita o clássico desvio de 0,5 mm entre o preenchimento tatami e o contorno perimetral externo em velocidades elevadas."
+    ],
+    "howToIdentify": [
+      "Contornos perimetrais que caem fora do preenchimento ou sombras deslocadas: folga de travamento no pantógrafo por desgaste das sapatas do freio eletromagnético.",
+      "Barulho de tranco metálico ou estalo seco nas paradas bruscas e mudanças bruscas de direção do bastidor: necessidade de calibração na corrente do solenoide de frenagem.",
+      "Deslocamento da matriz após parada de emergência ou queda de energia: se o bastidor se movimentar livremente com a máquina desenergizada, a mola de travamento fail-safe precisa de manutenção."
+    ]
   },
   {
     "id": "f-novo-022-fechamento-linha-centro-vs-borda-a-borda",
@@ -1154,7 +1522,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Padrão",
       "density": "0,40 mm a 0,42 mm",
       "pullCompensation": "+0,25 mm a +0,30 mm"
-    }
+    },
+    "code": "F-122",
+    "matrixRelations": [
+      "Sentido e Sequência de Bordado: O fechamento em linha de centro distribui as forças de encolhimento do meio para fora, enquanto o fechamento borda a borda empurra uma onda cumulativa de tecido.",
+      "Compensação de Encolhimento (Pull Compensation): Menor necessidade de compensação agressiva quando se adota a linha de centro, pois a deformação bidirecional se anula mutuamente.",
+      "Camada de Suporte (Underlay): Em fechamentos a partir do centro, o underlay em grade leve (tatami de sustentação) ancora o tecido no bastidor antes que as camadas densas sejam aplicadas."
+    ],
+    "howToIdentify": [
+      "Formação de rugas, dobras ou bolhas no final do desenho: sintoma clássico de fechamento borda a borda que arrastou a folga do tecido até o canto oposto.",
+      "Desalinhamento visível entre letras vizinhas em logotipos compridos: o tecido foi sendo repuxado sequencialmente de um lado a outro sem ancoragem central.",
+      "Distorção em bonés ou superfícies curvas: o bordado de boné obriga o fechamento do centro para as laterais; qualquer tentativa de bordar de ponta a ponta gera desalinhamento e quebra de agulhas."
+    ]
   },
   {
     "id": "f-novo-023-fracao-densidade-variavel-degrade-radial",
@@ -1209,7 +1588,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "600 a 700 PPM",
       "density": "0,35 mm (centro) a 1,5 mm (periferia)",
       "pullCompensation": "+0,30 mm"
-    }
+    },
+    "code": "F-123",
+    "matrixRelations": [
+      "Gradiente de Densidade: A fração de densidade inicia em valores espaçados (ex: 1,20 mm) na periferia e transiciona gradualmente até a densidade plena (0,38 mm) no núcleo.",
+      "Ângulo de Ponto Curvilíneo: As linhas de direção dos pontos devem acompanhar o raio do círculo ou espiral para criar a sensação óptica de reflexo esférico e profundidade.",
+      "Interpenetração de Cores: Sobreposição de 20% a 30% entre as camadas de cores adjacentes com densidades complementares para que as cores se fundam sem degrau visual."
+    ],
+    "howToIdentify": [
+      "Transição de cores marcada por linhas duras ou blocos rígidos em vez de um sombreado suave: espaçamento de fração inadequado ou sobreposição insuficiente entre camadas.",
+      "Tecido enrugado ou duro como couro no centro do desenho: excesso de sobreposição de camadas densas no mesmo ponto focal radial.",
+      "Tecido de fundo aparecendo no miolo do desenho: falha na densidade final do núcleo que deveria atingir a cobertura total antes de abrir o degradê."
+    ]
   },
   {
     "id": "f-novo-024-filtro-pontos-minusculos-eliminacao-pontos-curtos",
@@ -1265,7 +1655,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Não aplicável",
       "density": "Filtro ajustado em 0,35 mm a 0,45 mm",
       "pullCompensation": "Não aplicável"
-    }
+    },
+    "code": "F-124",
+    "matrixRelations": [
+      "Comprimento Mínimo de Ponto: O filtro estabelece um limite de corte seguro (geralmente entre 0,4 mm e 0,8 mm), convertendo ou eliminando pontos abaixo dessa medida.",
+      "Curvas Fechadas e Vértices Agudos: Em cantos vivos de letras pequenas, os pontos convergem para um único ponto de pivô; o filtro impede que dezenas de microfuros sejam perfurados no mesmo milímetro.",
+      "Underlay de Borda: Assegura que os pontos de ancoragem interna não gerem micro-nós que travam o corte automático de linha."
+    ],
+    "howToIdentify": [
+      "Agulha quebrando repetidamente nos cantos pontiagudos de monogramas pequenos: acúmulo de micro-pontos abaixo de 0,3 mm picotando o tecido e engasgando a lançadeira.",
+      "Ninho de pássaro (bola de linha) na primeira pontada de cada detalhe: micro-pontos que a máquina não consegue laçar por falta de distância de deslocamento.",
+      "Furos visíveis ou perfuração em formato de buraco no tecido (efeito cortador de biscoito): ausência de filtro em matrizes digitalizadas automaticamente."
+    ]
   },
   {
     "id": "f-novo-025-falsa-densidade-cobertura-pontos-cruzados",
@@ -1320,7 +1721,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "750 a 850 PPM",
       "density": "0,85 mm a 1,0 mm em 2 camadas cruzadas a 90°",
       "pullCompensation": "+0,20 mm"
-    }
+    },
+    "code": "F-125",
+    "matrixRelations": [
+      "Densidade Dupla Cruzada: Substituição de uma camada única ultradensa (0,35 mm) por duas camadas abertas (0,80 mm a 0,90 mm) com ângulos cruzados a 45° ou 90°.",
+      "Contagem Total de Pontos: Redução de 30% a 50% na quantidade total de pontos da matriz, diminuindo o tempo de produção e o custo por peça bordada.",
+      "Respirabilidade e Maleabilidade da Peça: Mantém o tecido macio, flexível e leve, ideal para peças infantis, camisetas finas e tecidos delicados."
+    ],
+    "howToIdentify": [
+      "Bordado muito pesado e espesso que parece um escudo rígido no peito de uma camiseta leve: necessidade urgente de converter o preenchimento maciço para a técnica de falsa densidade.",
+      "Tecido franzindo ao redor de grandes áreas preenchidas: tração excessiva de pontos compactos que seria resolvida pela malha cruzada aberta.",
+      "Transparência indesejada do tecido de fundo sob o bordado: ângulo entre as duas camadas cruzadas muito similar, sem promover o entrelaçamento óptico necessário."
+    ]
   },
   {
     "id": "f-novo-026-fratura-contorno-efeito-esculpido-tatami",
@@ -1375,7 +1787,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "750 a 850 PPM",
       "density": "0,38 mm a 0,40 mm",
       "pullCompensation": "+0,30 mm"
-    }
+    },
+    "code": "F-126",
+    "matrixRelations": [
+      "Linhas de Fratura e Padrões de Carve: As divisões de contorno são criadas por deslocamentos intencionais nos pontos de penetração do tatami, dispensando a necessidade de contornos de ponto cheio por cima.",
+      "Ângulo de Ponto Unificado: Todo o desenho é preenchido em uma única cor e ângulo constante, fazendo com que a luz reflita diferentemente nas fraturas e crie relevo óptico.",
+      "Espaçamento de Padrão (Pattern Spacing): Ajuste milimétrico do comprimento dos pontos tatami (3,5 mm a 4,5 mm) para que o vão da fratura fique nítido e legível sem enfraquecer a matriz."
+    ],
+    "howToIdentify": [
+      "Desenho esculpido que desaparece quando a peça é olhada de longe: fraturas muito estreitas ou comprimento de ponto tatami muito curto para gerar contraste de sombra.",
+      "Fios de linha desfiando ou abrindo vãos excessivos nas linhas esculpidas: tecido com trama muito aberta sem o uso de entretela adequada por baixo.",
+      "Bordados monocromáticos com aparência monótona e plana: oportunidade perfeita para aplicar fratura de contorno e criar valor agregado sofisticado sem trocar de cor de linha."
+    ]
   },
   {
     "id": "f-novo-027-frequencia-amarracao-travamento-inicial",
@@ -1430,7 +1853,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Padrão",
       "density": "Amarração de 3 a 4 pontos com passo de 0,7 mm",
       "pullCompensation": "Padrão"
-    }
+    },
+    "code": "F-127",
+    "matrixRelations": [
+      "Tipo de Ponto de Trava (Tie-In): Seleção entre ponto de amarração em zigue-zague, ponto estrela ou 3 micro-pontos em linha reta escondidos sob a primeira coluna.",
+      "Comprimento do Ponto de Trava: Ajustado entre 0,6 mm e 1,0 mm para garantir segurança mecânica contra desfiamento sem criar nós salientes no topo.",
+      "Sincronização com o Aparador de Linha: O travamento inicial deve coincidir com a sobra da cauda de linha deixada pelo corte anterior, prendendo-a sob os primeiros pontos."
+    ],
+    "howToIdentify": [
+      "Linha desfiando e soltando nas primeiras lavagens da peça pronta: ausência de ponto de amarração inicial ou amarração com comprimento excessivamente curto.",
+      "Pelotão ou caroço de linha visível na ponta inicial de uma letra fina: travamento inicial executado fora da área de cobertura do ponto cheio.",
+      "Linha escapando do olho da agulha logo na primeira pontada após a troca de cor: falta de pontos lentos de ancoragem para segurar a ponta da linha antes da aceleração máxima."
+    ]
   },
   {
     "id": "f-novo-028-formacao-laco-subida-barra-agulha",
@@ -1485,7 +1919,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Velocidade estável",
       "density": "Padrão",
       "pullCompensation": "Padrão"
-    }
+    },
+    "code": "F-128",
+    "matrixRelations": [
+      "Altura de Subida da Barra (1,8 mm a 2,2 mm): Ponto crítico da cinemática da máquina onde o bico da lançadeira passa exatamente atrás do chanfro da agulha para fisgar a laçada de linha.",
+      "Espessura da Agulha vs. Espessura da Linha: A ranhura frontal da agulha deve acomodar 70% do diâmetro da linha para que o atrito forme a barriga (laço) exclusivamente no lado do chanfro posterior.",
+      "Sincronismo de Tempo (Timing): O sincronismo entre o volante graduado e o eixo da lançadeira garante que a captura do laço ocorra na fração ideal de segundo."
+    ],
+    "howToIdentify": [
+      "Pontos pulados constantes em tecidos elásticos ou grossos: a subida da barra de agulha não formou um laço estável, fazendo a ponta da lançadeira passar no vazio.",
+      "Linha superior desfiando e quebrando no furo da agulha: o laço está sendo deformado por atrito excessivo com o tecido ou agulha inadequada para a espessura do fio.",
+      "Batida seca da ponta da lançadeira no corpo da agulha: folga milimétrica incorreta entre a agulha e a lançadeira (deve ser de 0,05 mm a 0,10 mm)."
+    ]
   },
   {
     "id": "f-novo-029-faixa-tolerancia-estiramento-tecido-matriz",
@@ -1540,7 +1985,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Velocidade moderada para tecidos elásticos (650 PPM)",
       "density": "Calibrada de 0,40 mm a 0,48 mm",
       "pullCompensation": "+0,25 mm a +0,45 mm conforme estiramento"
-    }
+    },
+    "code": "F-129",
+    "matrixRelations": [
+      "Compensação de Repuxo Bidirecional: Tecidos com elastano exigem compensações assimétricas (maior no sentido da elasticidade e menor no sentido do urdume).",
+      "Densidade Adaptativa: Em tecidos altamente elásticos, a densidade de pontos deve ser aliviada (ex: 0,45 mm a 0,50 mm) para evitar que o peso do bordado rompa as fibras elásticas.",
+      "Seleção de Entretela: Uso obrigatório de entretela de corte limpo (cutaway) ou malha estável para neutralizar a dilatação do tecido dentro da janela do bastidor."
+    ],
+    "howToIdentify": [
+      "Círculo perfeito desenhado no computador que vira uma elipse deformada ao ser bordado: estiramento unilateral do tecido que não foi respeitado na programação da matriz.",
+      "Tecido com ondas e babados ao redor do bordado após ser retirado do bastidor: o tecido foi esticado como um tambor no aro sem respeitar a tolerância elástica natural das fibras.",
+      "Letras finas engolidas pela malha ou contornos que abrem frestas de tecido cru: falha na compensação elástica e suporte insuficiente na primeira camada de ancoragem."
+    ]
   },
   {
     "id": "f-novo-030-fluxo-continuo-linha-unica-sem-saltos",
@@ -1596,7 +2052,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Permite operar em velocidade alta máxima (850 a 950 PPM)",
       "density": "Padrão",
       "pullCompensation": "Padrão"
-    }
+    },
+    "code": "F-130",
+    "matrixRelations": [
+      "Conexões em Ponto Corrido Oculto (Travel Runs): Caminhos de ligação digitalizados exatamente por baixo de futuros preenchimentos ou bordas, eliminando a necessidade de comandos de corte.",
+      "Ramificação Automática (Branching): Algoritmo de digitalização que calcula o caminho de ida e volta mais eficiente para que um galho de folhas ou texto seja bordado de uma só vez.",
+      "Tempo de Ciclo e Produtividade: Redução substancial de 20% a 40% no tempo total de máquina ao suprimir ciclos desnecessários de corte de linha e retomada de velocidade."
+    ],
+    "howToIdentify": [
+      "Milhares de pequenas pontas de linha no avesso da peça exigindo corte manual com tesourinha: matriz fragmentada digitalizada sem estratégia de fluxo contínuo.",
+      "A máquina parando e cortando a cada letra de uma palavra manuscrita: ausência de conexões contínuas cursivas na programação da matriz.",
+      "Desgaste acelerado do mecanismo das facas de corte: número excessivo de comandos de corte em logotipos pequenos que poderiam ser bordados em fluxo unificado."
+    ]
   },
   {
     "id": "f-novo-031-fidelidade-vetorial-conversao-pontos",
@@ -1652,7 +2119,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Padrão",
       "density": "Padrão",
       "pullCompensation": "Calibrada para manter proporção"
-    }
+    },
+    "code": "F-131",
+    "matrixRelations": [
+      "Simplificação de Nós Vetoriais: Limpeza prévia de nós redundantes ou alças Bézier distorcidas antes de aplicar os algoritmos de geração de pontos de bordado.",
+      "Tolerância de Curvatura (Curve Tolerance): Definição de precisão angular (0,05 mm a 0,1 mm) para que curvas circulares não se transformem em segmentos retos facetados.",
+      "Autodigitizing vs. Digitalização Manual: O vetor serve como guia geométrico perfeito, mas os pontos devem ser traçados respeitando a física têxtil e não apenas a conversão automática cega."
+    ],
+    "howToIdentify": [
+      "Bordas de círculos e curvas apresentando cantos vivos e serrilhados: vetor com excesso de nós fragmentados ou tolerância de arco desregulada no software.",
+      "Pontos que saem fora da área delimitada pelo desenho gráfico: nós vetoriais sobrepostos ou preenchimentos abertos com auto-cruzamento de curvas no arquivo de origem.",
+      "Espessura de linha irregular ao longo de um mesmo traçado: falta de homogeneidade na largura dos objetos vetoriais convertidos em colunas de ponto cheio."
+    ]
   },
   {
     "id": "f-novo-032-fator-escala-seguro-sem-recalculo-densidade",
@@ -1707,7 +2185,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Padrão",
       "density": "Escala máxima de ±10% a 15%",
       "pullCompensation": "Padrão"
-    }
+    },
+    "code": "F-132",
+    "matrixRelations": [
+      "Espaçamento / Densidade dos Pontos: Ao redimensionar uma matriz pronta sem recálculo inteligente (apenas escalonamento vetorial geométrico), um aumento de 20% faz a densidade cair na mesma proporção (pontos se afastam), revelando o tecido de fundo. Já uma redução de 20% comprime os pontos em 20%, gerando empastamento e quebra de agulha.",
+      "Comprimento Mínimo e Máximo do Ponto: A redução de matriz encolhe pontos curtos abaixo do limiar de penetração da máquina (menores que 1 mm), gerando nós no avesso. O aumento estica os pontos cheios além de 9 mm, forçando a máquina a dividir o ponto ou criar laçadas frouxas.",
+      "Compensação de Encolhimento (Pull Compensation): A redução de escala potencializa o repuxamento relativo do tecido, exigindo aumento percentual da compensação para evitar fendas de registro entre contorno e preenchimento."
+    ],
+    "howToIdentify": [
+      "Bordado com falhas e tecido aparente após ter aumentado o tamanho do arquivo no painel da máquina sem passar pelo software de edição.",
+      "Agulha quebrando repetidamente, barulho seco de martelamento na lançadeira e nó tipo ninho após ter diminuído a matriz em mais de 10%.",
+      "Letras finas e monogramas que viraram blocos rígidos e ilegíveis após redução drástica do desenho original."
+    ]
   },
   {
     "id": "f-novo-033-flamula-bordada-bastidor-pennant-ith",
@@ -1763,7 +2252,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "650 a 750 PPM",
       "density": "Padrão conforme elementos",
       "pullCompensation": "+0,30 mm"
-    }
+    },
+    "code": "F-133",
+    "matrixRelations": [
+      "Sequência de Cores e Paradas (Stop / Color Change): A estrutura da flâmula ITH exige sequência rigorosa: 1º marcação da base; 2º fixação do tecido frontal; 3º bordado dos elementos gráficos centrais; 4º fixação das alças de suspensão; 5º posicionamento do forro posterior; 6º costura de fechamento perimetral com abertura para desvirar.",
+      "Comprimento de Ponto na Costura Perimetral: O pesponto de junção final deve ser ajustado para comprimento de 2.2 mm a 2.5 mm, garantindo resistência à tração no momento do desviramento das pontas e cantos angulares.",
+      "Ponto de Amarração Inicial e Final (Tie-in / Tie-off): Essencial nas extremidades da costura de fechamento para impedir que os pontos se desfaçam quando a peça for manipulada e os cantos chanfrados forem empurrados para fora."
+    ],
+    "howToIdentify": [
+      "Forro da flâmula solto ou com costura aberta ao tentar desvirar a peça finalizada do bastidor.",
+      "Alças de cordão ou gorgurão que ficaram presas no meio do bordado frontal por falta de fixação temporária fora da área de costura.",
+      "Pontas da flâmula arredondadas ou emboladas devido ao excesso de margem de costura não refilada antes do desviramento."
+    ]
   },
   {
     "id": "f-novo-034-festone-borda-miolo-relevo",
@@ -1818,7 +2318,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "600 a 700 PPM",
       "density": "0,38 mm a 0,40 mm",
       "pullCompensation": "+0,35 mm a +0,40 mm"
-    }
+    },
+    "code": "F-134",
+    "matrixRelations": [
+      "Ponto de Suporte / Sub-caminho (Underlay Walk / Zigzag): O relevo esculpido sob o festonê depende de uma camada de pontos corridos triplos (bean stitch) ou zigue-zague denso no centro da coluna antes do acabamento acetinado.",
+      "Largura de Coluna Satim: Festonês decorativos com miolo volumoso exigem largura mínima de coluna de 3.5 mm a 5.0 mm; larguras inferiores a 3.0 mm não comportam o enchimento sem deformar as bordas.",
+      "Densidade e Ângulo dos Pontos Cheios: A cobertura final em satim requer densidade refinada (0.35 mm a 0.38 mm) e inclinação perpendicular rigorosa em relação às ondulações para abraçar completamente o sub-caminho sem permitir escapes de relevo."
+    ],
+    "howToIdentify": [
+      "Festonê achatado sem o efeito côncavo/convexo característico, parecendo um ponto cheio comum sem textura.",
+      "Linhas de suporte inferiores escapando e aparecendo por baixo dos pontos satim na curva da ondulação.",
+      "Borda recortada desfiando após a lavagem por falta de densidade adequada na crista do festonê."
+    ]
   },
   {
     "id": "f-novo-035-fecho-ziper-embutido-bastidor-ith-zipper",
@@ -1874,7 +2385,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "600 PPM (para controle nas passagens do zíper)",
       "density": "Ponto reto passo 2,5 mm",
       "pullCompensation": "Padrão"
-    }
+    },
+    "code": "F-135",
+    "matrixRelations": [
+      "Margem de Folga do Calcador (Foot Clearance Offset): A linha de pesponto que prende a cremalheira do zíper deve manter uma distância programada de no mínimo 3.0 mm a 4.0 mm dos dentes plásticos para evitar impacto direto do calcador de bordado.",
+      "Parada Obrigatória de Segurança (User Stop): Programação de parada com deslocamento do bastidor para permitir o deslizamento seguro do cursor metálico para o centro da peça antes da costura de fechamento lateral.",
+      "Reforço de Pesponto Triplo nos Topes: As extremidades do zíper onde passam as costuras laterais devem ter travamentos reforçados na matriz para evitar abertura sob tração mecânica no uso diário."
+    ],
+    "howToIdentify": [
+      "Calcador da máquina colidindo com o cursor ou com os dentes do zíper durante a execução do pesponto.",
+      "Zíper que fica preso ou inacessível dentro do forro após a peça ser desvirada porque o cursor foi deixado fora da área útil.",
+      "Dentes do zíper perfurados pela agulha, provocando dentes tortos ou quebra instantânea da ponta da agulha."
+    ]
   },
   {
     "id": "f-novo-036-frufru-bordado-efeito-franzido-bordadeira",
@@ -1930,7 +2452,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "500 a 600 PPM",
       "density": "Pontos abertos passo 3,0 mm",
       "pullCompensation": "Padrão"
-    }
+    },
+    "code": "F-136",
+    "matrixRelations": [
+      "Tensão Superior e Inferior Diferenciada: Para induzir o drapeado ou franzido automático no bastidor, a tensão da linha da bobina é ajustada solta enquanto a linha superior é tencionada, ou utiliza-se linha elástica na bobina com passo longo.",
+      "Comprimento de Ponto Franzidor: O ponto corrido destinado a guiar o franzimento deve ter comprimento alargado (3.5 mm a 4.5 mm) para que o fio possa correr suavemente ao ser puxado manualmente.",
+      "Densidade de Pesponto Fixador: Uma vez ajustado o franzido no tecido, uma segunda etapa da matriz com ponto triplo fechado (2.0 mm) ancora definitivamente as dobras antes do bordado dos motivos."
+    ],
+    "howToIdentify": [
+      "Tecido que não franze suavemente ao puxar o fio condutor porque o ponto foi programado muito curto (abaixo de 2.5 mm), travando as fibras.",
+      "Franzido desmanchando nas pontas por falta de nós de travamento robustos nas extremidades das guias.",
+      "Acúmulo irregular de pregas sob o calcador gerando nós e perda de alinhamento do desenho."
+    ]
   },
   {
     "id": "f-novo-037-fixacao-termica-definitiva-termocolante-patches",
@@ -1987,7 +2520,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Não aplicável",
       "density": "Cordão perimetral com 0,38 mm",
       "pullCompensation": "Padrão"
-    }
+    },
+    "code": "F-137",
+    "matrixRelations": [
+      "Borda Satim de Selagem: A matriz de patch deve prever coluna de satim perimetral de alta densidade (0.35 mm) e largura de 3.5 a 4.5 mm, funcionando como barreira protetora que impede o termocolante de vazar pelas laterais durante a prensagem térmica.",
+      "Densidade de Base e Bloqueio: O preenchimento do patch não deve ser excessivamente pesado na borda para permitir que o calor da prensa penetre eficazmente através do tecido até ativar a resina colante.",
+      "Tolerância de Margem de Refile: A linha de corte prévio deve coincidir exatamente com a borda de vedação para que o filme termocolante cubra 100% da superfície traseira sem deixar cantos desprotegidos."
+    ],
+    "howToIdentify": [
+      "Bordas do emblema ou patch descolando da peça após a primeira lavagem devido à temperatura ou tempo insuficiente de prensagem.",
+      "Filme termocolante escorrendo e manchando a peça ao redor do patch por excesso de pressão térmica ou falta de barreira de satim.",
+      "Emblema excessivamente rígido e enrugado por uso de temperatura incompatível com a composição do tecido de suporte."
+    ]
   },
   {
     "id": "f-novo-038-falsa-renda-tecido-recorte-manual",
@@ -2043,7 +2587,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "550 a 650 PPM",
       "density": "0,38 mm",
       "pullCompensation": "+0,35 mm"
-    }
+    },
+    "code": "F-138",
+    "matrixRelations": [
+      "Dupla Costura de Guia e Travamento: Exige uma linha de marcação inicial (run stitch) seguida por ponto de fixação reforçado antes da etapa de corte manual dos vazados pelo operador.",
+      "Borda em Satim com Compensação de Recorte: A coluna cheia externa que cobrirá a borda cortada deve ter largura generosa (mínimo 3.0 mm a 4.0 mm) para engolir completamente as pontas das fibras cortadas com tesoura pelicano.",
+      "Underlay de Borda Perpendicular: Caminho de sustentação prévio que ancora o tecido cortado à entretela hidrossolúvel ou rasgável antes da passagem da cobertura acetinada."
+    ],
+    "howToIdentify": [
+      "Fibras do tecido base desfiando e despontando por fora da coluna acetinada após a lavagem da renda.",
+      "Pontos cortados acidentalmente durante o refile manual dos vazados internos por falta de margem de segurança.",
+      "Deformação e enrugamento do vazado devido à entretela inadequada ou tensão excessiva da linha de acabamento."
+    ]
   },
   {
     "id": "f-novo-039-fio-solto-avesso-no-passaro-birdnesting",
@@ -2098,7 +2653,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Padrão",
       "density": "Padrão",
       "pullCompensation": "Padrão"
-    }
+    },
+    "code": "F-139",
+    "matrixRelations": [
+      "Tensão de Linha Superior vs. Caixa de Bobina: O nó de pássaro no avesso é 99% das vezes causado pela falta de passagem correta da linha nos discos de tensão superiores (linha solta em cima forma laçadas gigantescas embaixo da chapa de agulha).",
+      "Comprimento de Ponto e Densidade Excessiva: Pontos muito concentrados no mesmo orifício (densidade além de 0.28 mm ou nós acumulados) forçam o calcador e puxam tufos de linha para dentro da ranhura da chapa.",
+      "Parada Automática e Corte de Linha: Facas de corte cegas ou desafinadas deixam rabichos compridos de linha que são puxados para a lançadeira no início do bloco de bordado seguinte."
+    ],
+    "howToIdentify": [
+      "Máquina travando bruscamente com ruído de motor forçado e mensagem de erro de eixo principal travado.",
+      "Tecido preso e sugado para dentro do orifício da chapa da agulha, formando uma bola gigantesca de linha emaranhada no avesso.",
+      "Linha superior saindo livremente do estica-fio sem oferecer nenhuma resistência mecânica ao ser puxada."
+    ]
   },
   {
     "id": "f-novo-040-flutuacao-toalhas-aveludadas-felpudas",
@@ -2154,7 +2720,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "650 a 700 PPM",
       "density": "0,40 mm a 0,42 mm",
       "pullCompensation": "+0,35 mm"
-    }
+    },
+    "code": "F-140",
+    "matrixRelations": [
+      "Camada de Enchimento / Tatami Subjacente (Topping Support Underlay): Em toalhas aveludadas ou felpudas, a matriz deve conter uma camada prévia de rede (knockdown stitch / net underlay) que aplana as cerdas antes dos pontos de texto ou desenho.",
+      "Compensação de Repuxo em Felpa: A elasticidade e espessura do veludo exigem compensação de encolhimento elevada (0.45 mm a 0.55 mm) para evitar que o tecido encolha e as letras fiquem finas.",
+      "Compatibilidade de Filme Hidrossolúvel (Soluwater Topping): O programa deve prever densidades ligeiramente mais abertas caso seja aplicado plástico hidrossolúvel sobre a felpa, garantindo leveza sem afundar os pontos."
+    ],
+    "howToIdentify": [
+      "Pontos de bordado afundando no meio das cerdas da toalha, tornando monogramas e detalhes finos invisíveis.",
+      "Marcas profundas e brilhantes deixadas pelo aro do bastidor no veludo da toalha que não saem mesmo após lavar ou passar vapor.",
+      "Toalha repuxada e torta no centro da moldura após o término do bordado por prender a felpa esticada no bastidor."
+    ]
   },
   {
     "id": "f-novo-041-fechamento-refile-aplique-tesoura-pelicano",
@@ -2210,7 +2787,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Padrão",
       "density": "Cordão de acabamento 0,38 mm",
       "pullCompensation": "+0,35 mm no cordão final"
-    }
+    },
+    "code": "F-141",
+    "matrixRelations": [
+      "Etapa de Parada Programada para Refile (Appliqué Stop): A matriz deve incluir uma parada estrita logo após a costura de fixação (tackdown stitch) para corte manual do excesso de tecido antes da cobertura em festonê ou satim.",
+      "Distância de Offset entre Fixação e Cobertura: O traçado do zigue-zague ou satim final deve avançar exatamente 1.5 mm além da linha de fixação para garantir que a lâmina larga da tesoura pelicano possa deslizar encostada na linha sem cortar o ponto.",
+      "Densidade de Borda de Recobrimento: Coluna final com densidade média de 0.38 mm para aprisionar de forma limpa qualquer minúscula rebarba que tenha restado do refile manual."
+    ],
+    "howToIdentify": [
+      "Pontas do tecido de aplique saindo para fora do ponto cheio após a lavagem por corte muito afastado da linha.",
+      "Ponto de fixação cortado acidentalmente pela tesoura comum de ponta fina, desprendendo o retalho durante o bordado.",
+      "Entretela furada ou cortada por manuseio inadequado de tesoura tradicional sem a proteção curva da lâmina pelicano."
+    ]
   },
   {
     "id": "f-novo-042-fita-protetora-bastidor-tecidos-finos",
@@ -2265,7 +2853,18 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "650 PPM",
       "density": "Padrão",
       "pullCompensation": "Padrão"
-    }
+    },
+    "code": "F-142",
+    "matrixRelations": [
+      "Compensação de Tração Mecânica no Aro: O uso da fita protetora reduz a necessidade de aperto excessivo no parafuso do bastidor, mantendo a geometria da matriz estável sem estirar as tramas de sedas e microfibras.",
+      "Alinhamento de Margem Útil do Bastidor: A espessura da fita adesiva (cerca de 0.5 mm) deve ser considerada ao calibrar a área de bordado no software da máquina para evitar colisões nas bordas extremas.",
+      "Densidade e Tensão Adequadas para Tecidos Nobres: Com o bastidor acolchoado, a matriz deve utilizar densidades mais leves (0.42 mm a 0.45 mm) para não cisalhar os fios frágeis do tecido protegido."
+    ],
+    "howToIdentify": [
+      "Marcas de atrito e quebra de fibras brilhantes no contorno do aro do bastidor em peças de seda, linho fino ou cetim.",
+      "Tecido fino escorregando e afrouxando dentro do bastidor durante o bordado, causando perda de registro entre linhas e cores.",
+      "Aro do bastidor com ranhuras ásperas que puxam fios da peça ao colocar ou retirar a montagem."
+    ]
   },
   {
     "id": "f-novo-043-fotometria-cores-linha-iluminacao-atelie",
@@ -2320,6 +2919,771 @@ export const NOVOS_VERBETES_LETRA_F: Verbete[] = [
       "speedPPM": "Não aplicável",
       "density": "Não aplicável",
       "pullCompensation": "Não aplicável"
-    }
+    },
+    "code": "F-143",
+    "matrixRelations": [
+      "Mapeamento de Paletas de Linha no Software (Color Chart Mapping): Calibração dos códigos de cor no software com as tabelas das principais marcas (Polyneon, Isacord, Lumina, Drima) para reprodução fidedigna.",
+      "Iluminação com IRC > 90 e Temperatura 5000K: A estação de trabalho de aprovação visual e troca de cones deve operar sob luz neutra para garantir que a cor visualizada na linha física seja a mesma pretendida na matriz digital.",
+      "Influência do Brilho do Poliéster vs. Viscose: A reflexão da luz na fibra de viscose gera profundidade acetinada, enquanto o poliéster trilobal reflete brilho vítreo, afetando a percepção de tonalidade conforme a inclinação dos pontos."
+    ],
+    "howToIdentify": [
+      "Bordado com cor aparentemente perfeita sob a lâmpada fluorescente do ateliê, mas que parece desbotado ou amarelado sob a luz solar natural (metamerismo).",
+      "Tonalidades de pele e degradês que ficam com aspecto acinzentado ou manchado devido à escolha errada de nuances de linha sob iluminação amarelada.",
+      "Divergência notável entre a cor aprovada pelo cliente no monitor e o cone de linha bordado na peça final."
+    ]
+  },
+  {
+    "id": "f-fralda-de-pano-e-paninho-de-boca-enxoval-infantil",
+    "code": "F-144",
+    "letter": "F",
+    "term": "Fralda de Pano e Paninho de Boca (Enxoval Infantil)",
+    "pronunciation": "fral-da de pa-nu e pa-nhi-nhu de bo-ca (ˈfɾawdɐ dʒi ˈpɐ̃nu)",
+    "level": "Iniciante 🟢 a Intermediário 🟡",
+    "category": "Suportes Têxteis & Enxovais Infantis",
+    "grammarClass": "Locução substantiva feminina",
+    "origin": "Do grego tardio phallos / fauda e do latim pannus (pedaço de pano), consolidado na tradição têxtil de puericultura como tecido de gaze dupla ou quádrupla de algodão respirável e absorvente.",
+    "summary": "Técnica de bordado computadorizado em tecido de fralda e paninhos de boca, com foco em suavidade do avesso, controle de perfuração em trama aberta e estabilização sem deformação.",
+    "definition": "O bordado em Fralda de Pano e Paninho de Boca para Enxoval Infantil consiste na aplicação de matrizes personalizadas sobre tecidos de gaze ou trama dupla de 100% algodão de baixa gramatura (110 a 140 g/m²). Caracteriza-se pela necessidade extrema de toque ultra macio, preservação da integridade das tramas vazadas do tecido, ausência total de rigidez e proteção absoluta do avesso para não irritar a pele hipersensível de recém-nascidos.",
+    "technicalDetails": "A gaze de fralda possui densidade de fios reduzida e fios pouco torcidos para absorção de líquidos. A penetração contínua de agulhas de ponta aguda (R) provoca o corte prematuro das fibras transversais, gerando furos visíveis após a primeira lavagem. A densidade de preenchimento da matriz jamais deve ultrapassar 0.45 mm a 0.50 mm em áreas cheias, com compensação de repuxo regulada em 0.35 mm.",
+    "beginnerExplanation": "Fralda de bebê é como uma gaze fininha e macia. Se você colocar uma matriz pesada ou puxar demais o tecido no bastidor, a agulha fura e rasga o pano, e o bordado vira uma placa dura que arranha a bochecha do bebê. O segredo é usar desenhos leves, agulha bem fininha (nº 70), prender suavemente e sempre proteger o verso com termoprotetor de seda!",
+    "howItWorks": [
+      "1. Escolha de matriz leve e aerada: prioriza-se ponto cheio estreito (máximo 4 mm), aplique delicado ou traçado corrido triplo (redwork / bean stitch), evitando grandes blocos de tatami pesado.",
+      "2. Preparação do sanduíche de estabilização: utiliza-se entretela hidrossolúvel de gramatura média (40 a 50 g/m²) ou entretela rasga-fácil macia sem resíduo de resina sob a fralda, com filme hidrossolúvel fino no topo caso haja barrado atoalhado.",
+      "3. Fixação sem tensão excessiva: a fralda nunca deve ser tracionada com força no bastidor para não esgarçar a trama; recomenda-se a técnica de flutuação com fixador temporário ou alfinetamento periférico.",
+      "4. Regulagem mecânica: utiliza-se agulha fina 70/10 ponta bola fina (SES), linha de bordado 40wt ou 60wt e linha de bobina texturizada macia (filamento contínuo) ou aplicação de entretela termoprotetora de toque de seda no avesso pós-lavagem."
+    ],
+    "applications": [
+      "Paninhos de boca (regurgitadores) personalizados com monogramas e ramos florais delicados.",
+      "Fraldas de ombro e fraldas de passeio com barrados em fustão, piquet ou tricoline combinados com bordado no corpo.",
+      "Toalhas-fralda duplas com capuz personalizado em enxovais de maternidade de alta costura.",
+      "Mantinhas leves de gaze de algodão (swaddles / cueiros) com miniaturas e bichinhos delicados."
+    ],
+    "characteristics": [
+      "Absorção de líquidos preservada sem criar rigidez no toque da peça.",
+      "Nitidez absoluta de traços finos e escritas cursivas sobre tecido furadinho.",
+      "Resistência a dezenas de lavagens frequentes com sabão neutro infantil."
+    ],
+    "commonErrors": [
+      "❌ Usar agulha grossa (80/12 ou 90/14 ponta universal), furando permanentemente os fios da trama da fralda.",
+      "❌ Apertar o parafuso do bastidor esticando a fralda como um tambor, fazendo com que ela encolha e fique cheia de rugas deformadas ao ser retirada.",
+      "❌ Bordar matrizes densas e maciças de tatami, criando uma placa áspera e pesada que irrita a pele do recém-nascido.",
+      "❌ Deixar nós, linhas soltas ou entretela resinada dura raspando no avesso sem acabamento de proteção suave."
+    ],
+    "troubleshootingTips": [
+      "Se abriram furinhos na fralda: troque imediatamente a agulha para 70/10 ponta bola fina (SES) e diminua a velocidade para 500-600 PPM.",
+      "Se o tecido estiver repuxando: monte apenas a entretela no bastidor e flutue a fralda colada com adesivo temporário reposicionável.",
+      "Se o verso estiver áspero: aplique com ferro morno uma camada de película termoprotetora macia (toque de seda) cobrindo todo o avesso do bordado."
+    ],
+    "dicaArtrelados": "O Teste da Bochecha e a Flutuação com Hidrossolúvel Duplo: Nunca prenda a fralda diretamente no aro de plástico do bastidor! Prenda no aro duas camadas de entretela hidrossolúvel de 40g (ou rasga-fácil macia infantil), passe uma leve nuvem de spray temporário e pouse a fralda por cima. Ao terminar, teste o avesso na sua própria bochecha: se você sentir a menor aspereza, o bebê sentirá dez vezes mais — aplique o termoprotetor de seda!",
+    "voceSabia": "A gaze de fralda de algodão é conhecida internacionalmente como mull cloth ou muslin fabric e foi desenvolvida no século XVII na cidade de Mossul (atual Iraque). Sua respirabilidade e maciez conquistaram as cortes europeias para enxovais de príncipes, mas apenas com a tecnologia de agulhas ponta bola SES na década de 1970 tornou-se possível bordar esse tecido em máquinas sem danificar sua nobre trama!",
+    "practicalExercise": "Exercício de Bancada (A Fraldinha Perfeita em Ponto Leve): Pegue uma fralda de algodão simples e divida em dois quadrados. No primeiro, borde um coração em ponto tatami com agulha 80 presa direto no bastidor. No segundo, flutue a fralda sobre entretela hidrossolúvel, use agulha 70 ponta bola e borde um coração em ponto corrido triplo (bean stitch). Lave os dois pedaços e compare: sinta a textura, a maleabilidade e a integridade da trama!",
+    "quickSummary": "Bordado delicado em tecido de gaze 100% algodão de enxoval infantil, que exige agulha 70 ponta bola, flutuação no bastidor, matriz leve e proteção aveludada no avesso para o conforto do bebê.",
+    "relatedTerms": [
+      "Toalha Fralda e Enxoval de Bebê (Bordado Seguro e Macio)",
+      "Fio Texturizado para Bobina (Contato Macio em Enxoval de Bebê)",
+      "Filme Protetor Térmico de Avesso (Comfort Protect)",
+      "Entretela Hidrossolúvel (Water-Soluble Stabilizer)",
+      "Ponta de Agulha Ponta Bola (Ball Point Needle SES)"
+    ],
+    "tags": [
+      "f-106",
+      "fraldadepano",
+      "paninhodeboca",
+      "enxovalbebe",
+      "linhabebe",
+      "hidrossoluvel",
+      "gazedupia",
+      "artrelados"
+    ],
+    "englishTerm": "Cloth Diapers & Baby Burp Cloths Embroidery",
+    "relationshipWithMatrix": "Em tecidos de fralda, a matriz exige densidades abertas, redução drástica de pontos sobressalentes, substituição de tatami espesso por ponto aplique e subcamada do tipo zigue-zague leve para não enrijecer o algodão.",
+    "matrixRelations": [
+      "Densidade de Preenchimento: Redução de 15% a 25% na densidade padrão; espaçamento recomendado entre 0.45 mm e 0.55 mm para manter a flexibilidade do tecido.",
+      "Ponto de Suporte (Underlay): Uso exclusivo de ponto corrido central (center walk) ou zigue-zague suave. Proibição de underlay tatami duplo ou grade densa, que transformam a fralda em papelão.",
+      "Compensação de Encolhimento (Pull Compensation): Ajuste em 0.35 mm a 0.40 mm para compensar o estiramento natural da trama aberta de algodão sem puxar os fios adjacentes.",
+      "Tamanho Mínimo de Ponto: Filtro de corte configurado para eliminar pontos inferiores a 1.2 mm, evitando perfurações repetidas no mesmo orifício que esgarçam a gaze."
+    ],
+    "howToIdentify": [
+      "Furos perceptíveis ao redor dos contornos das letras que aparecem assim que a fralda sai da máquina ou após a primeira lavagem.",
+      "Fralda ondulada e com tecido franzido em formato de espiral ao redor do bordado após soltar o aro do bastidor.",
+      "Toque áspero e duro ao passar a mão no verso do bordado, acusando nós em excesso ou ausência de proteção termoprotetora."
+    ]
+  },
+  {
+    "id": "f-fio-la-acrilico-bordado-ponto-russo-trico",
+    "code": "F-145",
+    "term": "Fio de Lã e Fio Acrílico no Bordado (Ponto Russo / Chenille)",
+    "letter": "F",
+    "letterGroup": "F",
+    "level": "Intermediário 🟡 a Avançado 🔴",
+    "category": "Agulhas, Fios & Efeitos Especiais",
+    "grammarClass": "Locução substantiva técnica",
+    "origin": "Do latim lana e do alemão Acryl (derivado químico acroleína). Integrado ao bordado mecânico a partir das tradicionais técnicas de felpagem manual russa e tapeçaria francesa de chenille (lagarta).",
+    "summary": "Aplicação de fios grossos de lã ou poliacrílico (título 12wt) em máquinas de bordar para geração de relevos aveludados, ponto russo e texturas rústicas tridimensionais.",
+    "definition": "O Fio de Lã e Fio Acrílico no Bordado Eletrônico refere-se ao uso de linhas espessas de fiação texturizada (tipicamente título 12wt a 15wt, como Lana Madeira ou Burmilana), compostas por misturas de lã natural e acrílico. Desenvolvidas para criar acabamentos volumosos, felpudos, rústicos e de toque quente, mimetizando bordado manual tradicional, tapeçaria e ponto chenille em jaquetas, mantas e peças de inverno.",
+    "technicalDetails": "Fios de lã/acrílico 12wt possuem cerca de 3 a 4 vezes a massa linear de um filamento trilobal 40wt. Se bordados com a densidade padrão de 0.40 mm, criam sobreposição maciça que entope a lançadeira e desvia a agulha. A densidade da matriz deve ser propositalmente aberta para 0.70 mm a 0.90 mm, pois o volume das fibras expande lateralmente preenchendo todos os vazios.",
+    "beginnerExplanation": "Linhas normais de bordar são fininhas (título 40wt). A linha de lã ou acrílico é bem mais grossa e felpudinha (título 12wt). Ela serve para fazer bichinhos que parecem bichinhos de pelúcia, folhas com aspecto de tricô e letras de casaco colegial. Para usar essa linha, você precisa de uma agulha de furo bem grande (agulha Topstitch 90 ou 100), deixar a linha bem soltinha nos discos de tensão e diminuir a velocidade da máquina!",
+    "characteristics": [
+      "Espessura encorpada (título 12wt) que proporciona cobertura rápida com poucos pontos",
+      "Acabamento fosco, nobre e aveludado que remete à arte têxtil artesanal e folk art",
+      "Permite escovação após o bordado para gerar efeito tridimensional de pelúcia e chenille",
+      "Composição de lã virgem e acrílico para resistência mecânica combinada à maciez natural",
+      "Excelente isolamento térmico e apelo estético para coleções de outono/inverno"
+    ],
+    "construction": [
+      "1. Fio superior encorpado: Meada híbrida 50% lã e 50% acrílico título 12wt (ex: Burmilana)",
+      "2. Agulha de olho longo: Agulha Topstitch calibre 100/16 ou 110/18",
+      "3. Linha de bobina correspondente: Fio de poliéster 60wt padrão na cor da base ou neutro",
+      "4. Tecido de sustentação: Lã batida, veludo, moletom pesado, jeans, sarja ou feltro grosso",
+      "5. Matriz programada com baixa densidade: Espaçamento de 0,90 mm a 1,10 mm e sob-costura mínima"
+    ],
+    "howItWorks": [
+      "1. Adequação da agulha: devido ao grande diâmetro do fio, é obrigatório utilizar agulha especial de olho largo, preferencialmente Topstitch nº 90/14 ou 100/16.",
+      "2. Afrouxamento das tensões superiores: a fricção através dos discos de tensão é muito maior, necessitando reduzir a tensão de linha superior em até 40% a 50% em comparação com o poliéster 40wt.",
+      "3. Velocidade operacional reduzida: a máquina deve operar em velocidade reduzida (400 a 600 PPM) para evitar sobreaquecimento por fricção e quebra mecânica do fio.",
+      "4. Escovação pós-bordado: após a costura, passa-se uma escovinha de cerdas metálicas finas (escova de arame ou latão para cardar lã) sobre os pontos cheios, abrindo as fibras e transformando o bordado em uma pelúcia aveludada."
+    ],
+    "mainTypes": [
+      "Fio de Lã Mesclado / Mouliné: Fios com dois ou três tons de cores enrolados juntos, criando profundidade rústica em pelagens de animais.",
+      "Fio de Lã Monocromático Mate: Cores puras e profundas para brasões universitários e jaquetas bomber colegiais.",
+      "Fio de Lã Efeito Escovado (Brushed Crewel): Bordados projetados especificamente para serem eriçados com escovinha metálica após a costura.",
+      "Fio de Lã Metalizado (Lana Metallic): Mistura rara de lã com filamento dourado sutil para tapeçarias sacras e peças natalinas."
+    ],
+    "applications": [
+      "Bichinhos infantis com aspecto de pelúcia fofa e textura de carneirinho (ovelhinhas, ursos).",
+      "Letras e números volumosos em jaquetas de estilo colegial (Letterman Jackets) e casacos de moletom.",
+      "Bordados folclóricos, florais nórdicos e motivos rústicos em jaquetas jeans e casacos de lã batida.",
+      "Almofadas decorativas e tapeçarias com misturas ricas de relevo e profundidade táctil."
+    ],
+    "recommendedSettings": {
+      "speedPPM": "400 a 500 PPM (velocidade baixa para não quebrar nem aquecer a fibra de lã)",
+      "needleType": "Agulha Topstitch 100/16 ou 110/18 (olho alongado evita acúmulo de fiapos)",
+      "stabilizer": "Entretela de recorte (Cutaway) pesada de 80 g/m² para segurar o volume da linha",
+      "density": "Espaçamento de 0,90 mm a 1,20 mm (NUNCA usar densidade fechada de 0,40 mm)",
+      "pullCompensation": "0,40 mm a 0,55 mm (a espessura do fio empurra o tecido e exige boa compensação)",
+      "underlay": "Apenas costura perimetral simples (Edge Walk); dispensar tatami de base para não engrossar a peça",
+      "threadTension": "Tensão superior moderadamente frouxa para acomodar o calibre grosso da meada"
+    },
+    "advantages": [
+      "✔ Proporciona um visual artístico artesanal de alto luxo que a linha comum de poliéster jamais alcança",
+      "✔ Economiza até 40% no tempo total de máquina ao cobrir grandes áreas com muito menos pontos",
+      "✔ Possibilidade de criar textura felpuda tridimensional inovadora através de escovação manual pós-bordado",
+      "✔ Agrega altíssimo valor de venda em coleções exclusivas de outono e inverno"
+    ],
+    "limitations": [
+      "Incompatível com matrizes de micro-detalhes ou letras minúsculas (menores que 12 mm de altura)",
+      "Solta pequenos fiapos de fibra natural durante o trabalho, exigindo limpeza periódica da lançadeira",
+      "Exige cuidados especiais de lavagem (lavagem suave em água fria e secagem à sombra, como qualquer peça de lã nobre)"
+    ],
+    "commonErrors": [
+      "❌ Borda com matriz desenhada para poliéster 40wt sem abrir a densidade, gerando empastamento e quebra imediata da agulha.",
+      "❌ Usar agulha padrão 75/11, cujo olho pequeno raspa e desfia a lã na primeira dúzia de pontos.",
+      "❌ Manter a tensão superior apertada, puxando a linha da bobina para o direito do bordado e deformando o relevo.",
+      "❌ Operar a máquina em velocidade máxima (800+ PPM), provocando aquecimento por atrito e rompimento das fibras acrílicas."
+    ],
+    "troubleshootingTips": [
+      "Se o fio estiver desfiando na ponta da agulha: troque imediatamente por agulha Schmetz Topstitch nº 90/14 ou 100/16 e lubrifique levemente a linha com silicone fluido.",
+      "Se o bordado ficar duro como madeira: reabra a matriz no software e altere a densidade do ponto de 0.40 mm para 0.85 mm.",
+      "Para obter o efeito aveludado máximo: passe suavemente uma escova de cardar (ou escova de dentes de cerdas duras) no sentido contrário dos pontos após retirar do bastidor."
+    ],
+    "dicaArtrelados": "O Efeito Mágico da Escovinha de Cardar: Depois de bordar com Burmilana ou lã acrílica, não entregue a peça ainda lisa! Pegue uma escovinha de latão ou de arame fino (a mesma usada em ponto russo ou para escovar camurça) e passe em movimentos circulares delicados sobre o bordado. Os pontos se abrem, as fibras se fundem e o resultado é uma pelúcia contínua digna de vitrine de luxo!",
+    "voceSabia": "A famosa Tapeçaria de Bayeux, bordada no século XI para narrar a conquista normanda da Inglaterra, foi inteiramente feita à mão com fios de lã de ovelha tingidos com corantes vegetais naturais. Hoje, as linhas modernas de lã com acrílico para máquinas computadorizadas mantêm o mesmo visual aconchegante medieval, mas com tenacidade química para rodar a centenas de pontos por minuto!",
+    "practicalExercise": "Exercício de Bancada (O Ursinho com Efeito Pelúcia): Abra um desenho simples de urso no seu software de matrizes e mude a densidade para 0.80 mm, sem underlay. Coloque linha de lã acrílica 12wt na agulha Topstitch 90, solte a tensão e borde em tecido de brim ou feltro. Retire do bastidor, escove com uma escovinha de dentes dura e sinta o nascimento de uma pelúcia tridimensional viva!",
+    "quickSummary": "Linha espessa de lã com acrílico (12wt) que produz relevos aveludados e efeito chenille em bordadeiras, exigindo agulha Topstitch de olho largo (90/100), matriz de baixa densidade (0.80 mm) e escovação final.",
+    "relatedTerms": [
+      "Ponto Russo no Bordado Eletrônico (Punch Needle Effect)",
+      "Fio de Alta Tenacidade e Fios Nobres",
+      "Densidade de Pontos no Software de Matriz",
+      "Agulha Topstitch de Olho Largo",
+      "Efeito Flocado Tridimensional"
+    ],
+    "tags": [
+      "fio de la",
+      "burmilana",
+      "lana 12wt",
+      "ponto russo",
+      "efeito pelucia",
+      "bordado de inverno",
+      "tapeçaria digital",
+      "agulha topstitch"
+    ],
+    "updatedAt": "2026-09-28",
+    "englishTerm": "Wool & Acrylic Embroidery Thread (Chenille / Punch Needle Effect)",
+    "relationshipWithMatrix": "O uso de fios grossos exige reprogramação completa da matriz: densidade rebaixada pela metade (0.70 - 0.90 mm), comprimentos de ponto alongados (mínimo 3.5 mm) e eliminação radical de pontos curtos e de underlays excessivos.",
+    "matrixRelations": [
+      "Espaçamento e Densidade: Abertura drástica do espaçamento entre passadas para 0.75 mm a 0.90 mm em ponto tatami e 0.80 mm a 1.00 mm em colunas satim.",
+      "Comprimento do Ponto (Stitch Length): Alargamento do passo para 3.5 mm a 6.0 mm, evitando aglomerações e nós que arrebentam a lã no orifício da chapa.",
+      "Camada de Suporte (Underlay): Uso exclusivo de um único ponto corrido central leve. É vedado o uso de suporte duplo em zigue-zague ou tatami sob a lã.",
+      "Compensação de Repuxamento: Regulada para 0.40 mm, aproveitando o volume do fio para cobrir margens sem necessidade de sobreposição geométrica excessiva."
+    ],
+    "howToIdentify": [
+      "Fio esfarelando e criando bolinhas de penugem acumuladas no olho da agulha e nos discos de tensão durante a costura.",
+      "Bordado parecendo uma corda dura e retorcida em vez de um relevo fofo e uniforme por falta de espaçamento na matriz.",
+      "Agulha entortando ao bater repetidamente em nós espessos formados por pontos excessivamente curtos."
+    ]
+  },
+  {
+    "id": "f-fita-cetim-fitas-decorativas-bastidor",
+    "code": "F-146",
+    "term": "Fita de Cetim e Fitas Decorativas no Bastidor",
+    "letter": "F",
+    "letterGroup": "F",
+    "level": "Intermediário 🟡",
+    "category": "Técnicas Mistas, Apliques & Enxovais Nobres",
+    "grammarClass": "Locução substantiva feminina",
+    "origin": "Do latim vitta (faixa, tira flexível) e do árabe zaituni (referente ao cetim brilhante de Tsia-toung). Integrada ao bordado computadorizado com a evolução das matrizes ITH (in-the-hoop) e passafitas.",
+    "summary": "Técnica de inserção precisa de fitas de cetim, gorgurão e sianinhas diretamente no bastidor durante o ciclo de bordado com paradas programadas.",
+    "definition": "O uso de Fita de Cetim e Fitas Decorativas no Bastidor é a técnica mista de bordado eletrônico na qual fitas têxteis de larguras calibradas (cetim simples, dupla face, gorgurão, passafitas ou rendas de organza) são posicionadas e aprisionadas pelas costuras da própria máquina ao longo da execução da matriz. Permite criar laços perfeitos, alças de sacolinhas, barrados de toalhas e detalhes em alto relevo sem necessidade de costura avulsa posterior.",
+    "technicalDetails": "O cetim de poliéster possui superfície acetinada escorregadia e tendência a desfiar caso perfurado nas margens extremas. Na programação da matriz, a costura de fixação (tackdown) deve posicionar-se a pelo menos 2.0 mm do corte da fita. A agulha deve ser Microtex ou ponta fina universal nº 75/11 para não puxar os fios transversais da trama do cetim.",
+    "beginnerExplanation": "Você já viu aquelas toalhinhas onde a fita de cetim parece que nasceu dentro do bordado, ou aquelas bolsinhas de bastidor com alcinhas de laço perfeitas? Essa técnica usa a própria máquina para prender a fita: a máquina faz uma marquinha, para, você coloca a fita, prende com fita crepe nas bordinhas e a máquina passa por cima costurando tudo com perfeição milimétrica!",
+    "characteristics": [
+      "Incorporação de fitas brilhantes e texturizadas com acabamento impecável no bastidor",
+      "Criação de elementos tridimensionais (pétalas, pregas, rosetas e laçarotes volumosos)",
+      "Substitui a costura manual demorada de passafitas e laços externos",
+      "Alta precisão no alinhamento e esquadro em barrados de enxoval",
+      "Compatível com fitas de cetim face simples, dupla face, gorgurão e voil/organza"
+    ],
+    "construction": [
+      "1. Fita de acabamento: Rolo de fita de cetim 100% poliéster na largura compatível com a matriz",
+      "2. Matriz ITH especializada: Programação com paradas programadas e linhas guias de posicionamento",
+      "3. Linha de poliéster 120D/2: Fio na mesma cor da fita para pespontos invisíveis de fixação",
+      "4. Fita adesiva suave (micropore): Para fixar as sobras soltas da fita longe do campo da agulha",
+      "5. Selador térmico: Isqueiro ou pirógrafo para selar as pontas cortadas contra desfiamento"
+    ],
+    "howItWorks": [
+      "1. Marcação no bastidor (Placement Stitch): a máquina borda uma linha corrida no tecido ou na entretela mostrando a posição milimétrica onde a fita deve ser apoiada.",
+      "2. Pausa programada (Stop): a máquina para automaticamente para que a bordadeira estenda a fita de cetim exatamente sobre as marcas guias, prendendo suas extremidades com fita crepe ou micropore médico fora da área de costura.",
+      "3. Costura de fixação (Tackdown): a máquina retorna costurando pontos corridos ou zigue-zague leve para prender a fita no lugar com segurança.",
+      "4. Acabamento e arremate: bordam-se colunas de ponto cheio (satim), festonês ou nós decorativos sobre as bordas da fita, selando suas pontas e integrando-a ao desenho principal."
+    ],
+    "mainTypes": [
+      "Passafita Bordado no Bastidor (In-the-Hoop Ribbon Slide): A fita corre por dentro de presilhas bordadas em ponto cheio ou ponto caseado.",
+      "Flores e Rosetas de Fita em Relevo (3D Ribbon Rosettes): Dobraduras sucessivas de fita fixadas por nós centrais que simulam botões de rosa.",
+      "Laçarote Embutido com Caimento Livre: Laço com pernas soltas preso diretamente na base do bordado por pontos de arremate.",
+      "Barrados Entrelaçados com Fitas Cruzadas: Tiras entrelaçadas de gorgurão e cetim formando xadrez de luxo em toalhas de lavabo."
+    ],
+    "applications": [
+      "Toalhas de banho e lavabos com passafitas embutidos e arabescos florais.",
+      "Enxovais de bebê com laços de cetim e alças de porta-chupetas ITH confeccionados no bastidor.",
+      "Almofadas aromáticas e sachês perfumados com laços decorativos tridimensionais.",
+      "Bolsinhas, nécessaires e estojos feitos inteiramente no bastidor (In-The-Hoop) com alças de fita de cetim."
+    ],
+    "recommendedSettings": {
+      "speedPPM": "500 a 650 PPM (velocidade moderada para garantir que a fita não deslize sob o calcador)",
+      "needleType": "Agulha 75/11 Ponta Aguda (Sharp / Microtex) para perfurações limpas sem repuxar os fios do cetim",
+      "stabilizer": "Entretela rasgável de boa qualidade ou entretela de recorte para tecidos moles",
+      "density": "Comprimento de ponto de fixação entre 2,8 mm e 3,5 mm (pontos curtos demais picotam a fita)",
+      "pullCompensation": "0,25 mm a 0,35 mm para manter as presilhas de fixação folgadas na medida exata",
+      "underlay": "Sob-costura mínima (evitar pontos de enchimento sobre a fita para não esmagar o brilho)",
+      "threadTension": "Tensão superior equilibrada para que o nó fique oculto na base da fita"
+    },
+    "advantages": [
+      "✔ Proporciona um efeito tridimensional nobre impossível de reproduzir apenas com linhas normais",
+      "✔ Garante que todos os laços e passafitas fiquem perfeitamente retos, alinhados e no mesmo padrão",
+      "✔ Agiliza o acabamento de enxovais, eliminando o trabalho manual de alinhavar e costurar fitas com agulha de mão",
+      "✔ O brilho intenso do cetim reflete a luz de forma exuberante, valorizando peças fotográficas de maternidade"
+    ],
+    "limitations": [
+      "Exige atenção da bordadeira nas paradas programadas da máquina para colocar as fitas no momento exato",
+      "Fitas de acetato barato desbotam e desfiam com facilidade; deve-se usar fitas 100% poliéster de qualidade",
+      "Cuidados com a lavagem: não se deve passar ferro quente diretamente sobre o cetim de poliéster sem proteção"
+    ],
+    "commonErrors": [
+      "❌ Deixar as sobras compridas da fita soltas no bastidor: o calcador ou a alavanca puxa-fio enrosca na ponta da fita e estraga todo o bordado.",
+      "❌ Cortar a fita sem selar as pontas com isqueiro ou calor rápido, fazendo a fita desfiar após a primeira lavagem da peça.",
+      "❌ Colocar a fita torta ou com folga no bastidor, criando rugas e bolsas sob os pontos de fixação.",
+      "❌ Usar fita crepe muito aderente sobre o cetim que deixa resíduos de cola gosmenta ao ser arrancada."
+    ],
+    "troubleshootingTips": [
+      "Se a fita estiver escapando: prenda as duas extremidades com fita microporosa hospitalar (que sai sem deixar cola) bem firme fora da área de costura.",
+      "Para evitar desfiamento: aproxime rapidamente a chama de um isqueiro da ponta da fita de poliéster para selar as fibras antes de fixar no bastidor.",
+      "Se o calcador empurrar a fita para frente: utilize agulha fina 75/11 e reduza a velocidade da máquina para 500 PPM durante o passo de tackdown."
+    ],
+    "dicaArtrelados": "O Segredo da Fita Micropore Hospitalar e da Sobra Selada: Nunca use fita adesiva comum ou crepe de construção para prender fita de cetim no bastidor! A fita médica microporosa prende com firmeza absoluta e solta do cetim sem arrancar um único filamento de brilho e sem deixar cola. E sempre deixe 1 cm de fita além da marcação, sele a pontinha com calor e esconda a sobra sob o festonê!",
+    "voceSabia": "A técnica de aplicar fitas no bordado nasceu na França rococó no século XVIII com o nome de Brodé au Ruban. As nobres bordavam fitas de seda pura com agulhas manuais nos corpetes de vestidos de baile. Com as matrizes ITH modernas, as máquinas computadorizadas realizam hoje a inserção de fitas com alinhamento geométrico perfeito em frações de segundo!",
+    "practicalExercise": "Exercício de Bancada (Sua Primeira Barra com Passafita Embutido): Crie no seu software uma linha reta simples de 15 cm com parada programada e depois uma coluna de ponto cheio de 4 mm. No bastidor, borde a linha guia em um pedaço de tecido, posicione uma fita de cetim nº 1 (7 mm) bem esticadinha e prenda as pontas com micropore. Deixe a máquina fixar e finalize com o ponto cheio cobrindo as extremidades. O acabamento fica profissional e impecável!",
+    "quickSummary": "Técnica decorativa de inserção de fitas de cetim e gorgurão no bastidor com paradas programadas da máquina, exigindo fita microporosa para fixação temporária, selagem térmica das pontas e ponto de cobertura reforçado.",
+    "relatedTerms": [
+      "Matrizes In The Hoop (ITH)",
+      "Fita de Gorgurão para Bordado e Laços",
+      "Bordado em Aplique / Bordado com Aplicação (Appliqué)",
+      "Fita Microporosa Cirúrgica no Ateliê",
+      "Parada Programada no Software de Matriz (Stop Command)"
+    ],
+    "tags": [
+      "fita de cetim",
+      "bordado com fitas",
+      "ribbon embroidery",
+      "passafita",
+      "laço no bastidor",
+      "enxoval nobre",
+      "cetim no bastidor",
+      "in the hoop ribbon"
+    ],
+    "updatedAt": "2026-09-28",
+    "englishTerm": "Ribbon In-the-Hoop Insertion & Decorative Ribbon Bordering",
+    "relationshipWithMatrix": "A matriz de bordado com fita requer paradas programadas codificadas no software, linhas de demarcação com tolerância de largura da fita e pontos cheios de recobrimento que cubram totalmente as pontas cortadas.",
+    "matrixRelations": [
+      "Comandos de Parada Programada (Stop Codes): Inserção de paradas obrigatórias entre a linha guia e a costura de fixação para que o operador posicione a fita com segurança.",
+      "Largura da Guia de Encaixe: Offset de traçado calibrado conforme a largura comercial da fita (ex.: fitas nº 0 de 3 mm, nº 1 de 7 mm, nº 2 de 10 mm ou nº 3 de 15 mm).",
+      "Densidade de Ponto de Cobertura das Pontas: Densidade de 0.36 mm em festonê ou satim na cabeceira da fita para evitar desfiamento futuro nas lavagens.",
+      "Alívio de Pressão do Calcador na Programação: Traçado que evite sobreposições repetidas no centro da fita para não esmagar seu brilho natural."
+    ],
+    "howToIdentify": [
+      "Fita enrugada ou torcida após a costura de fixação, indicando que ela não foi mantida tensionada durante o ciclo.",
+      "Bordas da fita desfiando por fora do ponto cheio de acabamento por ter sido cortada rente demais à costura.",
+      "Calcador levantando ou travando no meio do percurso ao esbarrar em sobras de fita soltas que levantaram no bastidor."
+    ]
+  },
+  {
+    "id": "f-flocagem-efeito-flocado-bordado-eletronico",
+    "code": "F-147",
+    "term": "Flocagem no Bordado Eletrônico",
+    "letter": "F",
+    "letterGroup": "F",
+    "level": "Intermediário 🟡",
+    "category": "Técnicas Mistas, Apliques & Estamparia Híbrida",
+    "grammarClass": "Locução substantiva feminina",
+    "origin": "Do francês floc (pequeno tufo de lã ou algodão) e do inglês flocking. Consagrado na moda esportiva e na personalização têxtil através da combinação de filmes termo-aveludados com acabamentos bordados de alta precisão.",
+    "summary": "Técnica híbrida que integra filme flocado termocolante com bordado computadorizado, criando texturas aveludadas em letras colegiais, brasões e emblemas.",
+    "definition": "A Flocagem no Bordado Eletrônico (Embroidered Flocking / Hybrid Flock Appliqué) é a técnica mista que combina o recorte de filme vinílico aveludado (filme flocado termo-transferível de alta densidade de microfibras de viscose ou poliamida) com o bordado digital de contorno e fixação. O resultado é um emblema luxuoso com o toque acamurçado e macio da camurça ou veludo cotelê, enriquecido com o brilho e o relevo do ponto cheio ou ponto cordão.",
+    "technicalDetails": "O filme flocado possui espessura média de 400 a 600 mícrons (muito mais espesso que filmes lisos de PVC/PU). Essa espessura exige que o pé-calcador da máquina esteja com a altura ligeiramente ajustada (subir cerca de 0.5 a 1.0 mm) para não arrastar as microfibras durante a movimentação do pantógrafo. Agulhas de ponta fina ou ponta universal afiada 75/11 ou 80/12 são recomendadas para perfurar a base de suporte sem puxar fiapos.",
+    "beginnerExplanation": "Sabe aqueles números e letras super aveludados e fofinhos nas costas de casacos colegiais de universidade ou uniformes retrô? Esse é o efeito flocado! Em vez de preencher milhares de pontinhos de bordado demorados que ficariam duros, a gente coloca um recorte desse filme aveludado e a bordadeira só faz o contorno com ponto cheio bonito. Fica rápido, luxuoso e com um toque aveludado irresistível!",
+    "characteristics": [
+      "Textura aveludada e tridimensional com toque macio idêntico à camurça e ao veludo",
+      "Economia drástica de pontos (substitui grandes áreas de tatami por aplique rápido)",
+      "Contorno bordado em ponto cheio que protege as bordas e impede qualquer desfiamento",
+      "Alta durabilidade e resistência a dezenas de ciclos de lavagem doméstica",
+      "Excelente aderência em moletons, jaquetas jeans, bonés estruturados e uniformes esportivos"
+    ],
+    "construction": [
+      "1. Filme ou folha flocada: Película termocolante com microfibras eletrostáticas de poliamida",
+      "2. Matriz de aplique inteligente: Pesponto guia, costura de fixação e borda em ponto cheio largo",
+      "3. Linha de poliéster 120D/2 brilhante: Contraste visual perfeito entre a borda brilhante e o fundo mate",
+      "4. Tesoura de aplique pelicano: Lâmina curva para corte rente sem ferir os pelos do floco",
+      "5. Prensa térmica ou ferro: Cura final a 155°C para ativação permanente da cola termoplástica"
+    ],
+    "howItWorks": [
+      "1. Recorte do aplique flocado: a forma vetorial da matriz (letra ou desenho) é cortada previamente em plotter de recorte ou no próprio bastidor a laser/tesoura pelicano em filme flocado termotransferível.",
+      "2. Marcação de posicionamento: a bordadeira executa a linha guia corrida marcando a exata localização do aplique no tecido-base já estabilizado.",
+      "3. Aplicação do floco: o pedaço de filme flocado é pousado sobre a área indicada, podendo ser fixado por adesivo spray temporário ou por breve selagem térmica com mini ferro de passar.",
+      "4. Costura de fixação e contorno: a máquina executa pontos de ancoragem seguidos de ponto cheio (satim) denso ou cordão decorativo, contornando todas as margens do floco e criando o contraste estético entre o brilho do poliéster e o veludo mate do floco."
+    ],
+    "mainTypes": [
+      "Flocagem Termocolante Cortada no Bastidor: O filme é colocado inteiro e recortado manualmente após a costura de fixação.",
+      "Flocagem Pré-Cortada a Laser / Plotter: As letras e formas flocadas são cortadas previamente com precisão milimétrica e apenas encaixadas no bastidor.",
+      "Floco Multicamadas / 3D High Density: Película flocada extra espessa (altura de fibra de 1 mm) para efeito de alto relevo aveludado.",
+      "Floco Estampado / Sublimado: Filme flocado branco que recebe estampa sublimática colorida antes de ser aplicado e bordado no bastidor."
+    ],
+    "applications": [
+      "Casacos de moletom e jaquetas universitárias (Letterman / Varsity Jackets) com letras de efeito retrô.",
+      "Uniformes esportivos clássicos, camisetas personalizadas e brasões automotivos de colecionadores.",
+      "Bolsas de lona e bonés estruturados com logotipos em relevo camurçado.",
+      "Emblemas de moda infantil com bichinhos que convidam ao toque sensorial macio."
+    ],
+    "recommendedSettings": {
+      "speedPPM": "600 a 750 PPM (velocidade estável para não repuxar as microfibras do floco)",
+      "needleType": "Agulha 75/11 ou 80/12 Ponta Bola Leve (SES) ou Ponta Aguda Sharp",
+      "stabilizer": "Entretela de recorte de 80 g/m² para garantir suporte firme em moletons e jaquetas",
+      "density": "Largura de coluna de 3,5 mm a 4,5 mm com densidade de 0,40 mm no contorno de acabamento",
+      "pullCompensation": "0,40 mm a 0,50 mm no ponto cheio para abraçar com folga a espessura do filme flocado",
+      "underlay": "Sob-costura em zigue-zague ou tatami duplo para amortecer o degrau entre o floco e o tecido",
+      "threadTension": "Tensão superior equilibrada para que o ponto cheio fique plano e uniforme sobre o veludo"
+    },
+    "advantages": [
+      "✔ Reduz o tempo de máquina em até 70% comparado a bordar letras gigantes em ponto tatami cheio",
+      "✔ Elimina o enrugamento comum que matrizes muito densas e pesadas causam em moletons",
+      "✔ Toque nobre, elegante e confortável que não fica duro nem desconfortável contra o peito",
+      "✔ Acabamento industrial de grife internacional com altíssimo valor percebido pelo consumidor"
+    ],
+    "limitations": [
+      "Não é indicado para letras minúsculas ou detalhes geométricos menores que 5 mm de largura",
+      "Exige tesoura pelicano de precisão bem afiada para que as pontas do floco não fiquem desfiadas",
+      "A prensa térmica ou ferro deve ser aplicado preferencialmente com papel teflon para não queimar as fibras"
+    ],
+    "commonErrors": [
+      "❌ Fazer coluna de ponto cheio muito estreita (menos de 2.5 mm), permitindo que a borda grossa do floco escape após lavagem.",
+      "❌ Pressionar o ferro de passar comum direto sobre o floco sem folha de teflon ou papel siliconado, derretendo as microfibras e destruindo o toque aveludado.",
+      "❌ Usar calcador com mola muito baixa que esmaga e arrasta o floco no bastidor, descalibrando os motores de passo.",
+      "❌ Cortar o floco rente demais antes do ponto cheio, deixando fiapos expostos fora do contorno."
+    ],
+    "troubleshootingTips": [
+      "Se as pontinhas do floco ficarem visíveis fora do bordado: aumente a largura do ponto satim para 4 mm e utilize tesoura de ponta curva de alta precisão.",
+      "Para fixar o floco com máxima aderência antes de bordar: pressione com mini-prensa a 150°C por 5 segundos com folha protetora de teflon.",
+      "Se a agulha estiver desviando: troque por agulha reforçada com revestimento de titânio (H-ET ou Microtex 80/12)."
+    ],
+    "dicaArtrelados": "O Segredo da Folha de Teflon e da Escovação a Vapor: Nunca encoste a base do ferro quente diretamente sobre o aplique flocado! Coloque sempre uma folha de teflon ou papel vegetal encerado. E se durante o processo de bordado alguma parte do floco parecer amassadinha pelo calcador, basta aplicar um leve jato de vapor d água a 10 cm de distância e pentear suavemente com uma escovinha de dentes macia: o veludo volta a levantar imediatamente com aspecto de novo!",
+    "voceSabia": "A técnica de flocagem remonta à China antiga (cerca de 1000 a.C.), onde fiapos de seda eram colados com resina natural sobre tecidos imperiais para imitar a pele de animais exóticos. Hoje, os filmes flocados termocolantes são produzidos com milhões de microfibras sintéticas orientadas verticalmente por meio de campos eletrostáticos de alta voltagem!",
+    "practicalExercise": "Exercício de Bancada (Sua Primeira Letra Colegial em Floco): Baixe uma matriz de aplique de letra universitária de 10 cm. Monte um tecido de moletom no bastidor. Quando a máquina fizer a linha guia, cole um quadrado de filme flocado. Deixe a máquina fazer a fixação, retire o bastidor sem soltar o aro, refile o excesso com tesoura pelicano e deixe a máquina finalizar a coluna de satim de 4 mm. O contraste entre o veludo do floco e o brilho da linha é cinematográfico!",
+    "quickSummary": "Técnica mista que combina filmes aveludados termo-transferíveis com contornos em ponto cheio na bordadeira, gerando emblemas colegiais e apliques de alta sofisticação com toque de camurça.",
+    "relatedTerms": [
+      "Bordado em Aplique / Bordado com Aplicação (Appliqué)",
+      "Tesoura Pelicano para Aplique",
+      "Ponto Festonê com Borda Escavada",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Filme Termocolante Definitivo"
+    ],
+    "tags": [
+      "flocagem",
+      "flock",
+      "efeito flocado",
+      "aplique aveludado",
+      "varsity jacket",
+      "camisa esportiva",
+      "letra colegial",
+      "toque de veludo"
+    ],
+    "updatedAt": "2026-09-28",
+    "englishTerm": "Flock Heat Transfer & Embroidered Flocking Hybrid Technique",
+    "relationshipWithMatrix": "A matriz de bordado para aplique flocado necessita de tolerância de compensação de encolhimento ampliada e largura de coluna generosa para cobrir a borda espessa do material aveludado sem desprendimento.",
+    "matrixRelations": [
+      "Largura Mínima da Coluna de Contorno: Coluna de satim com no mínimo 3.5 mm a 4.5 mm de largura para abraçar com segurança a margem grossa do floco (espessura de 0.5 mm).",
+      "Compensação de Encolhimento (Pull Compensation): Aumento para 0.40 mm a 0.50 mm para compensar o puxamento do tecido-base sob o filme rígido.",
+      "Densidade do Ponto Cheio: Regulagem em 0.38 mm a 0.40 mm com subcamada dupla (edge walk + zigue-zague) para não afundar nas microfibras do veludo.",
+      "Comandos de Parada de Aplique: Inclusão padronizada de códigos de corte e parada para colocação e refile do material no bastidor."
+    ],
+    "howToIdentify": [
+      "Borda aveludada do floco soltando para fora do ponto cheio após puxar a peça do bastidor.",
+      "Brilho plastificado ou marcas de queimadura na textura aveludada por excesso de calor no ferro de acabamento.",
+      "Linha superior arrebentando repetidamente nas curvas por atrito na base espessa do filme vinílico flocado."
+    ]
+  },
+  {
+    "id": "f-fio-texturizado-bobina-contato-macio-bebe",
+    "code": "F-148",
+    "term": "Fio Texturizado para Bobina (Contato Macio em Enxoval de Bebê)",
+    "letter": "F",
+    "letterGroup": "F",
+    "level": "Iniciante 🟢 a Intermediário 🟡",
+    "category": "Agulhas, Fios & Enxovais Infantis",
+    "grammarClass": "Locução substantiva técnica",
+    "origin": "Da engenharia têxtil moderna de filamentos sintéticos microtexturizados por ar comprimido ou falsa torção (Draw Textured Yarn - DTY). Adaptado ao bordado para substituir linhas rígidas de bobina em contato com peles sensíveis.",
+    "summary": "Uso de fio microtexturizado na carretilha inferior para conferir toque ultra macio, aveludado e flexível ao avesso de bordados infantis e de lingerie.",
+    "definition": "O Fio Texturizado para Bobina / Fio de Contato Macio para Bebê é um fio inferior composto por microfilamentos contínuos de 100% poliéster ou poliamida que passaram por processo mecânico de texturização por ondulação térmica. Ao contrário do fio de bobina tradicional liso e rígido, o fio texturizado incha e se expande suavemente no entrelaçamento da laçada, criando um avesso fofo, elástico, sem arestas e que não arranha nem causa dermatite de contato em peles de recém-nascidos.",
+    "technicalDetails": "Fios texturizados DTY possuem tenacidade elástica que absorve oscilações bruscas na lançadeira. Seu título comum gira em torno de 100D/36F ou 150D/48F. Devido à sua natureza elástica e volumosa, caso seja rebobinado com excesso de aperto, ele se deformará dentro da carretilha, criando travamento por expansão elástica e impedindo o giro livre da bobina.",
+    "beginnerExplanation": "Sabe quando você passa a mão no avesso de um bodyzinho de bebê bordado e sente aqueles nozinhos duros e linhas ásperas que parecem lixa na pele da criança? O fio texturizado de bobina resolve exatamente isso! Ele é uma linha de carretilha fofinha e macia como um algodão-doce. Quando a máquina borda, o avesso fica tão fofinho que você nem precisa colocar termoprotetor em peças leves!",
+    "characteristics": [
+      "Toque aveludado e ultramacio que neutraliza qualquer aspereza no avesso do bordado",
+      "Elimina a necessidade de colar termocolantes de malha protetora (como Touch Clean / Soft Touch)",
+      "Hipoalergênico e certificado com OEKO-TEX Standard 100 Classe 1 (seguro para recém-nascidos)",
+      "Fibras microtexturizadas que expandem e cobrem os nós de corte automaticamente",
+      "Alta durabilidade: mantém a maciez permanente mesmo após centenas de lavagens na máquina"
+    ],
+    "construction": [
+      "1. Filamento base: Poliéster 100% microtexturizado por falsa torção de alta resiliência",
+      "2. Alimentação na carretilha: Bobina cheia com enrolamento suave sem estiramento excessivo",
+      "3. Caixa de bobina calibrada: Tensão aliviada para acomodar o volume expandido da microfibra",
+      "4. Linha superior: Fio de poliéster 120D/2 padrão na agulha",
+      "5. Tecido e estabilizador: Malha suedine ou algodão 100% com entretela de malha ou hidrossolúvel"
+    ],
+    "howItWorks": [
+      "1. Carregamento da carretilha: o fio texturizado é bobinado na carretilha plástica com velocidade moderada no enchedor e tensão leve, evitando que o filamento seja esticado além da sua elasticidade natural.",
+      "2. Calibração da caixa de bobina: como o fio é mais fofo e macio, a lâmina da mola tensora da caixa de bobina exige leve afrouxamento (cerca de 1/8 a 1/4 de volta no parafuso de tensão) para permitir passagem desimpedida.",
+      "3. Formação da laçada na lançadeira: na subida da barra da agulha, o fio texturizado é puxado pelo bico da lançadeira, enlaçando o fio superior com amortecimento elástico.",
+      "4. Resultado tátil: as laçadas no avesso assentam-se em formato de acolchoado contínuo, cobrindo o tecido com toque idêntico ao de uma flanela ou algodão aveludado."
+    ],
+    "mainTypes": [
+      "Fio Texturizado 100D/1 Branco Clássico: O padrão mais utilizado no mundo para bodies e macacões de recém-nascido.",
+      "Fio Texturizado Preto para Peças Escuras: Ideal para camisetas esportivas e lingeries pretas, evitando que o avesso contraste.",
+      "Fio Texturizado de Microfibra Ultrafina (150D): Versão de altíssima densidade para peças de contato íntimo de alta-costura.",
+      "Fio Texturizado Antiestático: Com tratamento especial para evitar acúmulo de poeira e eletricidade estática em roupas hospitalares."
+    ],
+    "applications": [
+      "Bodies, macacões, pagões e culotes de bebês recém-nascidos que ficam em contato direto com a pele.",
+      "Lingeries finas, calcinhas infantis e peças íntimas que exigem avesso 100% confortável e sem atrito.",
+      "Roupas de dormir, pijamas hospitalares e camisolas para pessoas com pele atópica ou sensível.",
+      "Fraldas e mantas de berço onde a maciez do avesso é um diferencial de luxo indispensável."
+    ],
+    "recommendedSettings": {
+      "speedPPM": "600 a 750 PPM (opera com excelência tanto em máquinas domésticas quanto industriais)",
+      "needleType": "Agulha 70/10 ou 75/11 Ponta Bola Pequena (SES / Ball Point) para malhas e tecidos finos",
+      "stabilizer": "Entretela de malha macia ou entretela hidrossolúvel de PVA lavável",
+      "density": "Densidade padrão de 0,40 mm a 0,45 mm (as fibras volumosas do fio texturizado cobrem muito bem)",
+      "pullCompensation": "0,35 mm a 0,45 mm para acomodar o relaxamento natural das malhas de algodão",
+      "underlay": "Sob-costura leve em tatami aberto ou zigue-zague suave",
+      "threadTension": "Tensão da bobina calibrada ligeiramente mais frouxa (18 a 22gf) e superior equilibrada"
+    },
+    "advantages": [
+      "✔ Elimina 100% das reclamações de clientes sobre bordados que \"pinicam\" ou causam alergia no bebê",
+      "✔ Economiza tempo e custos de produção ao dispensar o recorte e prensagem de filmes protetores no avesso",
+      "✔ Não descola nem solta pontas com a lavagem (ao contrário das películas termocolantes adesivas)",
+      "✔ Permite que a roupa de bebê respire livremente sem criar placas plásticas duras no peito da criança"
+    ],
+    "limitations": [
+      "Pode exigir uma caixa de bobina dedicada ou uma leve regulagem no parafuso de tensão se a máquina for muito sensível",
+      "Por ser mais volumoso que o fio de poliéster 60wt comum, a bobina comporta cerca de 20% a menos de metragem",
+      "Exige que o enchedor de bobina não aperte o fio em tensão excessiva para não esticar a texturização"
+    ],
+    "commonErrors": [
+      "❌ Encher a bobina com tensão muito apertada no enchedor: o fio estica, deforma a carretilha e trava dentro da caixa de bobina.",
+      "❌ Deixar a tensão da caixa de bobina apertada demais, fazendo o fio texturizado arrebentar ao passar pela lâmina tensora.",
+      "❌ Usar carretilhas metálicas com rebarbas ou amassados, desfiando as microfibras do fio e entupindo a pista da lançadeira.",
+      "❌ Misturar marcas incompatíveis de linhas que geram nós cegos no interior da carretilha."
+    ],
+    "troubleshootingTips": [
+      "Se o fio da bobina estiver travando na caixa: afrouxe 1/8 de volta no parafuso de tensão da caixa de bobina e use carretilha plástica original sem ranhuras.",
+      "Ao encher a carretilha: guie o fio pelos dedos com toque suave no enchedor para que ele enrole fofo sem sofrer estiramento mecânico.",
+      "Se o avesso continuar áspero: verifique se os pontos de arremate da matriz não estão sobrepostos em um mesmo orifício e limpe a caixa da lançadeira com pincel."
+    ],
+    "dicaArtrelados": "O Segredo da Caixa de Bobina Reserva com Selo Azul: Mantenha no seu ateliê uma caixa de bobina exclusiva para o enxoval de bebê, marcada com uma etiqueta azul! Deixe essa caixa regulada especificamente com a mola tensora mais soltinha para o fio texturizado. Assim, quando for bordar fraldas e bodies, você só troca a caixa em 5 segundos, sem desregular sua caixa de bobina padrão do dia a dia!",
+    "voceSabia": "A pele de um bebê recém-nascido é 30% mais fina e absorvente do que a pele de um adulto, sendo muito vulnerável a microlesões mecânicas causadas por fios de costura ásperos. O surgimento de fios de bobina texturizados nos anos 2000 transformou o mercado de confecção infantil de luxo, eliminando queixas de alergia e vermelhidão nas costas dos bebês!",
+    "practicalExercise": "Exercício de Bancada (O Teste da Bochecha para Avessos): Encha duas carretilhas: uma com fio comum de bobina 60wt e outra com fio texturizado macio. Borde o mesmo monograma de 4 cm em dois pedaços de malha de algodão. Passe o polegar e depois a bochecha no avesso de cada um: a diferença de maciez do fio texturizado é tão extraordinária que você nunca mais vai querer usar outra linha para bebês!",
+    "quickSummary": "Fio de carretilha microtexturizado que expande suavemente no avesso, criando um acabamento aveludado, antialérgico e ultra macio, indispensável para enxovais de maternidade e bodies de bebê.",
+    "relatedTerms": [
+      "Fio de Bobina / Linha de Baixo (Bobbin Thread)",
+      "Fralda de Pano e Paninho de Boca (Enxoval Infantil)",
+      "Filme Protetor Térmico de Avesso (Comfort Protect)",
+      "Caixa de Bobina e Tensão Inferior",
+      "Ponto de Amarração e Travamento (Tie-off)"
+    ],
+    "tags": [
+      "fio texturizado",
+      "bobina para bebe",
+      "fio macio",
+      "soft bobbin",
+      "antialergico",
+      "body de bebe",
+      "enxoval infantil",
+      "avesso macio"
+    ],
+    "updatedAt": "2026-09-28",
+    "englishTerm": "Texturized Polyester Bobbin Thread (Soft Baby Backing Thread)",
+    "relationshipWithMatrix": "O uso de fio texturizado na bobina requer perfeita harmonia com a densidade da matriz: evita-se sobreposição extrema de pontos de amarração final para que o volume do fio não forme caroços no verso da peça.",
+    "matrixRelations": [
+      "Ponto de Amarração e Arremate (Tie-off Stitches): Configuração de arremate curto em zigue-zague ou 3 pontos de 0.8 mm; dispensam-se arremates massivos que geram elevação indesejada.",
+      "Tensão na Laçada da Matriz: Compensação da tensão superior para que a linha superior cubra 2/3 do avesso em colunas de satim, mantendo a faixa central macia e equilibrada.",
+      "Densidade de Cobertura do Fundo: Redução de 10% na densidade de fundos tatami, pois o enchimento da bobina texturizada ajuda a selar a base contra vazios.",
+      "Compatibilidade de Velocidade: Programação de limites de rotação entre 550 e 700 PPM para garantir formação simétrica do laço da lançadeira."
+    ],
+    "howToIdentify": [
+      "Bobina travando ou girando com dificuldade dentro da caixa da lançadeira por excesso de expansão do fio na carretilha.",
+      "Pontos superiores da linha de cima sendo puxados para baixo de forma irregular, criando laçadas soltas no direito da peça.",
+      "Formação de tufos de fiapos brancos acumulados embaixo da chapa de agulha após bordar poucas peças."
+    ]
+  },
+  {
+    "id": "f-fio-elastico-lastex-bobina-bordado-franzido",
+    "code": "F-149",
+    "term": "Fio Elástico e Lastex na Bobina (Bordado Franzido e Smocking)",
+    "letter": "F",
+    "letterGroup": "F",
+    "level": "Intermediário 🟡",
+    "category": "Agulhas, Fios & Técnicas Especiais",
+    "grammarClass": "Locução substantiva técnica",
+    "origin": "Do grego elastikos (propriedade de retornar à forma original) e da marca comercial pioneira Lastex (fio de borracha revestido de algodão ou seda criado na década de 1930 pela US Rubber Company).",
+    "summary": "Técnica especial de enrolamento manual de lastex na bobina para criação de franzidos elásticos, drapeados e casinha de abelha em bordadeiras.",
+    "definition": "O Fio Elástico e Lastex na Bobina para Bordado e Franzido (Bobbin Elastic Smocking & Ruching) é a técnica artesanal adaptada na qual um filamento de látex ou elastômero recoberto por fios têxteis (lastex) é enrolado na carretilha inferior. Ao ser costurado em matrizes computadorizadas de linhas paralelas, curvas ou favos de mel, o fio elástico traciona o tecido pelo avesso, criando franzimentos, smocking (ponto casinha de abelha) e volumes drapeados automáticos de alta regularidade.",
+    "technicalDetails": "O elastômero do lastex reage termicamente ao calor: encolhe e fixa a memória elástica na presença de vapor úmido (110°C a 130°C). Se enrolado na bobina através de enchedor mecânico com tração alta, perde sua resiliência e não produz o efeito de retração desejado. A matriz de bordado deve prever linhas abertas contínuas com comprimentos de ponto longos (4.0 mm a 5.0 mm), pois pontos curtos travam o deslizamento do elástico.",
+    "beginnerExplanation": "Você já viu aqueles vestidinhos de menina com o peitilho todo franzidinho e elástico, que estica para vestir e volta certinho para o corpo? Isso é feito com lastex na carretilha! Em vez de linha normal embaixo, você enrola o fio elástico na mão dentro da bobina, sem puxar. A máquina costura normalmente por cima e, quando você joga um vaporzinho quente de ferro no final, o tecido encolhe sozinho num franzido mágico e perfeito!",
+    "characteristics": [
+      "Proporciona franzidos elásticos perfeitamente espaçados e regulares em segundos",
+      "Permite criar o clássico ponto casinha de abelha (smocking) com desenhos geométricos bordados",
+      "Enrolamento manual obrigatório na carretilha para preservar a resiliência elástica do látex",
+      "Contração potencializada por choque térmico de vapor após o bordado",
+      "Ideal para tecidos leves e fluidos (viscose, cambraia, gaze de algodão e seda)"
+    ],
+    "construction": [
+      "1. Bobina inferior carregada: Fio de lastex enrolado à mão sem tração mecânica",
+      "2. Agulha superior: Linha de poliéster 120 fina na cor do tecido ou contrastante",
+      "3. Tecido base fluido: Viscose, tricoline leve, cambraia de linho ou musseline",
+      "4. Estabilização sem travas: Entretela hidrossolúvel de PVA lavável (que some na água sem travar o elástico)",
+      "5. Pespontos programados: Linhas paralelas ou padrões de favo de mel em ponto corrido triplo"
+    ],
+    "howItWorks": [
+      "1. Enrolamento manual da carretilha: o lastex DEVE ser enrolado à mão na carretilha plástica, sem esticar a borracha, apenas acomodando o fio sob leve e constante apoio dos dedos.",
+      "2. Ajuste da caixa de bobina: utiliza-se uma caixa de bobina própria com o parafuso de tensão afrouxado ou passa-se o elástico fora da mola tensora caso a espessura impeça a saída suave.",
+      "3. Preparação na máquina: na linha superior coloca-se linha de bordado normal de poliéster 40wt com tensão superior levemente afrouxada; o tecido entra no bastidor sem entretela ou apenas com hidrossolúvel super leve.",
+      "4. Ativação térmica do franzimento: após a costura de linhas decorativas ou zigue-zague, passa-se o ferro de passar a vapor a 2 centímetros de distância sobre o tecido: o vapor quente faz o elastômero contrair instantaneamente, gerando o franzido firme e uniforme."
+    ],
+    "mainTypes": [
+      "Franzido Simples em Linhas Paralelas (Straight Shirring): Fileiras de costuras retas paralelas com lastex para cinturas e punhos elásticos.",
+      "Ponto Casinha de Abelha Computadorizado (Machine Honeycomb Smocking): Matriz em losangos e zigue-zagues que conecta fileiras alternadas, criando textura fofa ornamental.",
+      "Bordado de Florais com Franzido Localizado: Motivos decorativos onde apenas o centro da flor ou folha possui lastex, criando pétalas franzidas em 3D.",
+      "Lastex Colorido Aparente: Quando o fio elástico é colocado na agulha superior para criar efeitos de relevo elástico aparente na frente da peça."
+    ],
+    "applications": [
+      "Vestidos infantis clássicos com peitilho em casinha de abelha (smocking) e punhos franzidos.",
+      "Batas femininas com decote ombro a ombro elástico e mangas bufantes com drapeados precisos.",
+      "Almofadas com efeitos de textura drapeada e relevos tridimensionais em tecidos nobres como linho e seda.",
+      "Bordados decorativos em peças de verão com sustentação elástica flexível."
+    ],
+    "recommendedSettings": {
+      "speedPPM": "450 a 550 PPM (velocidade baixa evita aquecimento e estiramento precoce do elástico)",
+      "needleType": "Agulha 75/11 ou 80/12 Ponta Bola Leve (SES) para não ferir as fibras elásticas",
+      "stabilizer": "Entretela hidrossolúvel lavável (NUNCA entretela de recorte ou rasgável rígida)",
+      "density": "Ponto corrido com comprimento de 3,0 mm a 4,0 mm (pontos curtos demais picotam o elástico)",
+      "pullCompensation": "Desnecessária (a própria elasticidade do lastex define a forma da peça)",
+      "underlay": "Sem sob-costura (apenas o trajeto linear dos pontos de ancoragem)",
+      "threadTension": "Tensão superior moderadamente frouxa para permitir a laçada suave com a bobina"
+    },
+    "advantages": [
+      "✔ Transforma tecidos retos em peças anatômicas que vestem com conforto sem zíperes nem botões",
+      "✔ Criação de efeitos artesanais de casinha de abelha em fração do tempo do trabalho manual",
+      "✔ Alta flexibilidade e caimento perfeito em roupas infantis de crescimento rápido",
+      "✔ Agrega um visual romântico e delicado de alta aceitação comercial"
+    ],
+    "limitations": [
+      "Não funciona em tecidos grossos, pesados ou duros (como brim pesado, lona e veludo cotele)",
+      "A bobina com lastex tem pouca metragem devido à espessura da borracha, exigindo trocas frequentes",
+      "O lastex perde a elasticidade se for passado a ferro quente direto sobre o filamento"
+    ],
+    "commonErrors": [
+      "❌ Enrolar o lastex na bobina pelo enchedor elétrico automático: o elástico estica ao extremo e perde toda a capacidade de franzir.",
+      "❌ Cortar as pontas do elástico rentes à costura: o lastex escapa para dentro do tecido e desfaz todo o franzimento da peça.",
+      "❌ Usar pontos muito curtos (menos de 2.5 mm), que picotam e travam a borracha sem permitir o enrugamento natural.",
+      "❌ Usar entretela grossa resinada sob o tecido, impedindo fisicamente que ele se franza."
+    ],
+    "troubleshootingTips": [
+      "Se o tecido não estiver franzindo: borrife um pouco de água e aproxime o ferro de passar a vapor a 2 cm sem encostar a chapa quente; o vapor ativa a retração do látex.",
+      "Ao terminar cada linha de costura: puxe 3 cm de sobra de lastex para o avesso e dê dois nós manuais cegos antes de cortar para evitar que desfie.",
+      "Se a bobina estiver muito dura: use uma caixa de bobina antiga sem a mola tensora ou passe o fio fora da chapinha metálica."
+    ],
+    "dicaArtrelados": "O Segredo do Ferro a Vapor a 2 Centímetros e do Nó Manual: O franzido do lastex só ganha vida de verdade quando recebe vapor! Ao tirar do bastidor, coloque a peça sobre a tábua e dispare vários jatos de vapor bem de pertinho, sem encostar o ferro no tecido. Você verá o tecido encolher e franzir diante dos seus olhos! E nunca confie em corte automático da máquina para lastex: deixe rabichos de 5 cm, puxe para o avesso e dê um nozinho cego com um pingo de cola pano!",
+    "voceSabia": "A técnica de smocking (casinha de abelha) era feita exclusivamente à mão no século XIX por camponeses ingleses, exigindo dezenas de horas de trabalho minucioso para franzir os aventais de linho. Com a invenção do lastex e o domínio do seu uso na bobina em máquinas de costura e bordado, uma fileira inteira de casinha de abelha pode ser feita em menos de um minuto!",
+    "practicalExercise": "Exercício de Bancada (Seu Primeiro Punho Franzido com Casinha de Abelha): Enrole lastex manualmente sem puxar em uma carretilha plástica. No seu software, programe 5 linhas retas paralelas distantes 1 cm uma da outra, com ponto corrido de 4.5 mm. Borde em um retalho de tricoline de 15 x 20 cm sem entretela. Ao sair da máquina, aplique o vapor do ferro a 2 cm e veja nascer uma barra elástica perfeita!",
+    "quickSummary": "Técnica decorativa com lastex enrolado manualmente na bobina e ativado por vapor do ferro de passar, criando franzidos elásticos e casinha de abelha automáticos em vestidos e batas.",
+    "relatedTerms": [
+      "Bordado Bobbin Work (Bordado pelo Avesso)",
+      "Fio de Bobina / Linha de Baixo (Bobbin Thread)",
+      "Caixa de Bobina e Regulagem de Tensão",
+      "Comprimento de Ponto (Stitch Length)",
+      "Entretela Hidrossolúvel para Bordado"
+    ],
+    "tags": [
+      "lastex",
+      "fio elastico",
+      "shirring",
+      "smocking",
+      "casinha de abelha",
+      "franzido com lastex",
+      "vestido infantil",
+      "elastic bobbin"
+    ],
+    "updatedAt": "2026-09-28",
+    "englishTerm": "Elastic Thread & Bobbin Lastex Smocking Technique",
+    "relationshipWithMatrix": "A matriz para bordado com lastex requer linhas contínuas sem saltos bruscos, comprimento de ponto expandido (4 a 5 mm) e ausência de nós concentrados de amarração.",
+    "matrixRelations": [
+      "Comprimento do Ponto (Stitch Length): Programação de pontos corridos longos de 4.0 mm a 5.0 mm para permitir o deslocamento suave do elástico entre as laçadas.",
+      "Traçado Contínuo de Linha: Matriz construída em percurso ininterrupto (sem cortes automáticos de linha a cada segmento) para manter a continuidade do fio elástico.",
+      "Densidade de Linhas Paralelas: Espaçamento de 8 mm a 12 mm entre as passadas retas para um franzimento equilibrado sem endurecer a peça.",
+      "Eliminação de Underlays: É terminantemente proibido o uso de qualquer subcamada ou preenchimento sólido sobre o caminho do lastex."
+    ],
+    "howToIdentify": [
+      "Tecido permanecendo completamente liso e plano após a costura, sem qualquer retração mesmo após a aplicação do vapor do ferro.",
+      "Lastex arrebentando durante o percurso por excesso de aperto na mola da caixa de bobina.",
+      "Laçadas de linha superior frouxas e aparentes no avesso da peça por desequilíbrio severo de tensão."
+    ]
+  },
+  {
+    "id": "f-foto-bordado-fotostitch-eletronico",
+    "code": "F-150",
+    "term": "Foto-Bordado Eletrônico (Photostitch)",
+    "letter": "F",
+    "level": "Intermediário 🟡 a Avançado 🔴",
+    "category": "Digitalização de Matrizes & Técnicas Especiais",
+    "grammarClass": "Substantivo masculino / Locução técnica digital",
+    "origin": "Do grego phos / photos (luz) e do inglês stitch (ponto). Desenvolvido nos anos 1990 com o avanço dos algoritmos digitais de reticulado estocástico (halftone dithering) aplicados ao software de matrizes têxteis.",
+    "summary": "Técnica digital de conversão de imagens fotográficas em matrizes de bordado através de camadas sobrepostas de densidade variável e degradês realistas.",
+    "definition": "O Foto-Bordado / Photostitch Eletrônico é a técnica avançada de conversão computacional de fotografias reais (retratos de pessoas, animais de estimação, paisagens e obras de arte) em matrizes de bordado computadorizado. Utiliza algoritmos de dispersão de pontos que combinam de 4 a 12 cores de linhas em passadas entrelaçadas de densidades variáveis, simulando meios-tons, luzes, sombras e gradientes contínuos sem blocos rígidos de cor sólida.",
+    "technicalDetails": "O algoritmo de Photostitch trabalha com sobreposição de camadas de baixa densidade (densidades abertas entre 0.80 mm e 1.20 mm por cor), criando a ilusão óptica de fusão aditiva/subtrativa de cores conhecida como pontilhismo (divisão ótica). Como a matriz pode acumular entre 40.000 e 90.000 pontos em uma área de 15x20 cm, a estabilização têxtil é o fator crítico para evitar o encolhimento do tecido e a perda do foco da imagem.",
+    "beginnerExplanation": "Já imaginou transformar uma foto real da pessoa amada ou do seu cachorrinho em um bordado realista na máquina? O Photostitch faz exatamente isso! Ele pega a foto e divide em várias cores de linha que vão se cruzando com pontinhos finos e espaçados. De pertinho parecem vários pontinhos soltos, mas quando você dá um passo para trás e olha a peça, o cérebro junta as cores e vê a foto perfeita e realista bordada!",
+    "characteristics": [
+      "Conversão direta de fotos de alta resolução sem necessidade de redesenhar vetores à mão",
+      "Uso de algoritmos de meio-tom (dithering) e direções angulares alternadas para mesclar cores",
+      "Geração de texturas fotorrealistas através de ilusão de ótica pontilhista",
+      "Alta contagem de pontos (40.000 a 100.000 pontos em formatos médios)",
+      "Dispensa contornos pesados de ponto cheio, preservando bordas naturais e suaves"
+    ],
+    "construction": [
+      "1. Preparação da imagem: Tratamento de contraste, nitidez e recorte do fundo no Photoshop/GIMP",
+      "2. Conversão algorítmica: Processamento no PhotoStitch / PhotoFlash definindo 4 a 8 cores",
+      "3. Base no bastidor: Tecido plano firme (linho, sarja, brim ou lona) com entretela de recorte 80g",
+      "4. Camadas de base (Sombras e Meios-tons): Bordado das cores mais escuras e fundos intermediários",
+      "5. Camadas de luz e acabamento: Aplicação dos tons claros e micro-pontos de luz nos olhos/cabelos"
+    ],
+    "howItWorks": [
+      "1. Tratamento prévio da imagem: no software gráfico (Photoshop/GIMP), remove-se o fundo indesejado, ajustam-se contraste, nitidez e saturação, realçando detalhes dos olhos, cabelos e focinho.",
+      "2. Processamento no software de bordado: o módulo Photostitch analisa os canais de cor da fotografia, gerando curvas de densidade e ângulos de pontos diferenciados para cada cor da paleta selecionada.",
+      "3. Sequenciamento de cores: a matriz é organizada das cores mais claras para as mais escuras (ou vice-versa dependendo do algoritmo), criando o degradê visual conforme os fios se sobrepõem.",
+      "4. Execução na máquina: utiliza-se suporte têxtil estável (brim, sarja, linho grosso ou feltro firme), entretela de recorte de alta estabilidade (80g) e velocidade moderada (500 a 650 PPM) para manter a fidelidade do registro microscópico dos pontos."
+    ],
+    "mainTypes": [
+      "PhotoStitch Monocromático / Preto e Branco: Utiliza de 1 a 3 linhas (preto, cinza e branco) criando retratos vintage sofisticados.",
+      "PhotoStitch Sépia / Tons Terrosos: Efeito nostálgico com 4 tons de marrom, creme e bege, com excelente transição de pele.",
+      "PhotoStitch Policromático Colorido: Fusão de 6 a 8 cores para reproduzir imagens vivas de flores, pássaros e retratos coloridos.",
+      "PhotoStitch em Ponto Cruz: Converte a fotografia em uma grade de cruzetas coloridas que imitam tapeçaria manual."
+    ],
+    "applications": [
+      "Quadros decorativos emoldurados de homenagem a entes queridos, casamentos e formaturas.",
+      "Retratos fiéis de animais de estimação (cães, gatos, cavalos) em jaquetas, bolsas e almofadas.",
+      "Reproduções realistas de obras de arte, patrimônios históricos e logotipos com texturas fotográficas complexas.",
+      "Flâmulas comemorativas e peças exclusivas para colecionadores e presentes de alto valor agregado."
+    ],
+    "recommendedSettings": {
+      "speedPPM": "550 a 650 PPM (reduzir a velocidade para evitar superaquecimento da agulha com excesso de perfurações)",
+      "needleType": "Agulha 75/11 Ponta Aguda (Microtex) ou 75/11 Titânio para resistir ao calor de fricção",
+      "stabilizer": "Entretela de recorte pesada (cutaway 80 g/m²) ou entretela rasgável dupla 60g cruzada",
+      "density": "Espaçamento dinâmico automático de 0,40 mm (sombras) a 1,20 mm (luzes)",
+      "pullCompensation": "0,30 mm a 0,40 mm (as direções angulares múltiplas equilibram a tração)",
+      "underlay": "Geralmente dispensado ou reduzido a uma sob-costura perimetral leve de basting",
+      "threadTension": "Tensão superior moderada e perfeitamente equilibrada para não puxar a linha de bobina para a frente"
+    },
+    "advantages": [
+      "✔ Capacidade ímpar de eternizar memórias fotográficas reais em fios têxteis eternos",
+      "✔ Peças com preço de venda elevado (frequentemente vendidas a R$ 200,00 a R$ 600,00 por quadro)",
+      "✔ Dispensa habilidades de ilustração manual para criar matrizes de alta complexidade",
+      "✔ Excelente aproveitamento de sobras de linhas para criar nuances e sombreados ricos"
+    ],
+    "limitations": [
+      "Arquivos muito pesados com alta contagem de pontos que exigem mais tempo de bordado na máquina",
+      "Tecidos finos, elásticos ou moles (viscolycra, cetim) não suportam a densidade e enrugam com facilidade",
+      "Fotos de celular borradas, escuras ou com flash estourado geram matrizes manchadas e sem definição"
+    ],
+    "commonErrors": [
+      "❌ Usar foto com iluminação ruim, sem contraste ou de baixa resolução, resultando em uma mancha escura indecifrável no bordado.",
+      "❌ Bordar matriz de foto em malha elástica ou tecido mole sem estabilização ultra reforçada, fazendo o rosto ficar torto e desproporcional.",
+      "❌ Escolher linhas de cores parecidas demais ou fora do tom da paleta sugerida pelo software, perdendo toda a tridimensionalidade dos olhos e do relevo facial.",
+      "❌ Trocar a ordem das linhas sugerida pelo programa, invertendo as camadas de sombra e de luz."
+    ],
+    "troubleshootingTips": [
+      "Se o rosto parecer uma mancha escura na máquina: volte ao software de imagem, aumente o brilho em 15% e o contraste em 20% antes de gerar os pontos.",
+      "Para garantir nitidez perfeita nos olhos: faça testes prévios da paleta de linhas sob luz solar natural ou lâmpada de 5000K (luz do dia) antes de iniciar a peça final.",
+      "Se o tecido repuxar durante a execução: use duas camadas de entretela de recorte de 80g cruzadas a 90 graus e borde um alinhavo automático prévio ao redor de todo o bastidor."
+    ],
+    "dicaArtrelados": "O Segredo do Preto por Último e da Edição Prévia da Imagem: 80% do sucesso de um foto-bordado acontece ANTES de abrir o programa de matrizes! Abra a foto no celular ou computador, recorte o fundo (deixe o fundo branco puro), aumente o contraste e clareie levemente os tons médios. No bordado, garanta que a cor preta ou o tom mais escuro da sombra seja sempre uma das últimas cores a bordar: é ela que acende o olhar e traz a profundidade fotográfica à vida!",
+    "voceSabia": "O princípio óptico do Photostitch é exatamente o mesmo utilizado pelos mestres do impressionismo e pontilhismo no final do século XIX, como Georges Seurat e Paul Signac. Eles não misturavam as tintas na paleta; colocavam pontinhos puros de cores primárias lado a lado na tela para que o olho humano fizesse a mistura óptica à distância. O Photostitch faz exatamente essa revolução com fios de poliéster!",
+    "practicalExercise": "Exercício de Bancada (Seu Primeiro Retrato Monocromático em Tons de Cinza): Comece praticando com uma foto do seu pet convertida para tons de cinza (apenas 4 cores: branco, cinza claro, cinza escuro e preto). Borde em um pedaço de sarja firme com entretela dupla de recorte. O resultado monocromático é à prova de erros, tem elegância clássica de fotografia antiga e vai te dar total segurança para migrar depois para as fotos coloridas!",
+    "quickSummary": "Técnica digital avançada que transforma fotos reais em matrizes de bordado através de sobreposição óptica de pontos de densidade aberta em múltiplas cores de linha, criando retratos de alto realismo.",
+    "relatedTerms": [
+      "Bordado Monocromático em Tons de Cinza (PhotoStitch)",
+      "Digitalização de Matrizes (Digitizing)",
+      "Efeito Moiré no Bordado Eletrônico",
+      "Entretela de Recorte de Alta Estabilidade (Cut-Away)",
+      "Fotometria e Cores de Linha sob Iluminação de Ateliê"
+    ],
+    "tags": [
+      "foto-bordado",
+      "photostitch",
+      "photoflash",
+      "retrato bordado",
+      "dithering",
+      "pontilhismo",
+      "quadro bordado",
+      "fusao de cores"
+    ],
+    "updatedAt": "2026-09-28",
+    "englishTerm": "PhotoStitch & Photographic Digital Embroidery",
+    "relationshipWithMatrix": "O sucesso do Photostitch reside na calibração de ângulos de pontos desencontrados para cada cor (para evitar efeito moiré), controle estrito de densidade multicamada e subcamadas que impeçam deformação espacial da tela.",
+    "matrixRelations": [
+      "Ângulo de Ponto por Canal de Cor: Definição de ângulos defasados em 15° a 30° entre cada cor de linha para evitar o indesejado efeito moiré (ondas visuais de repetição de pontos).",
+      "Densidade de Camadas Sobrepostas: Regulagem aberta de cada camada individual (0.80 mm a 1.20 mm) para que o acúmulo de 4 ou mais passadas não resulte em um bloco duro de pontos empastados.",
+      "Compensação de Repuxo Global: Calibração em 0.40 mm acompanhada de moldura prévia de alinhavo (basting box) para travar o tecido contra distorções diagonais.",
+      "Filtro de Pontos Curtos: Configuração rigorosa para eliminar pontos menores que 1.0 mm, poupando a máquina de quebras de linha frequentes durante os micro-saltos."
+    ],
+    "howToIdentify": [
+      "Rosto bordado parecendo manchado ou sem definição de olhos e boca após a troca das cores da paleta original.",
+      "Tecido formando ondas e bolsas no centro do retrato por insuficiência de entretela contra a alta contagem de pontos (50.000+ pontos).",
+      "Quebra repetida de agulha e acúmulo de laçadas no avesso em regiões escuras por excesso de camadas sobrepostas."
+    ]
   }
 ];
