@@ -74,7 +74,9 @@ export const FooterBar: React.FC<FooterBarProps> = ({
           {/* Destaque Estratégico do Acervo Artrelados */}
           <div className="inline-flex items-center space-x-1.5 px-3.5 py-1 rounded-full bg-slate-900 border border-amber-400/30 text-amber-300 text-[11px] sm:text-xs font-medium tracking-wide shadow-xs">
             <span className="text-amber-400">🧵</span>
-            <span>Exibindo 2.882 verbetes em todo o acervo (A-Z)</span>
+            <span>
+              Exibindo {(stats?.totalTerms || 0).toLocaleString("pt-BR")} verbetes em todo o acervo (A-Z)
+            </span>
           </div>
         </div>
 
