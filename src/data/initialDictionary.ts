@@ -8,6 +8,7 @@ import { NOVOS_VERBETES_LETRA_D } from "./novosVerbetesLetraD";
 import { NOVOS_VERBETES_LETRA_E } from "./novosVerbetesLetraE";
 import { NOVOS_VERBETES_LETRA_E2 } from "./novosVerbetesLetraE2";
 import { NOVOS_VERBETES_LETRA_F } from "./novosVerbetesLetraF";
+import { NOVOS_VERBETES_LETRA_G } from "./novosVerbetesLetraG";
 import { ALL_TROUBLESHOOTING_GUIDES } from "./troubleshootingGuides";
 import { MULTI_HEAD_TROUBLESHOOTING_GUIDES } from "./multiHeadTroubleshootingData";
 
@@ -21,6 +22,7 @@ const rawList: Verbete[] = [
   ...NOVOS_VERBETES_LETRA_E,
   ...NOVOS_VERBETES_LETRA_E2,
   ...NOVOS_VERBETES_LETRA_F,
+  ...NOVOS_VERBETES_LETRA_G,
 ];
 
 const uniqueMap = new Map<string, Verbete>();
