@@ -44594,14 +44594,11 @@
     "practicalExercise": "Ajuste de Ponto Morto (100°) no Painel Dahao da Feiya: No painel Dahao da sua Feiya, observe o mostrador digital de graus do eixo principal. Vá até o volante traseiro da máquina e gire com a mão até que o número marque exatamente 100°. Veja na tela que o ícone do eixo fica verde: isso confirma que a barra de agulha está no ponto mais alto e a máquina está liberada para bordar com total segurança mecânica!",
     "quickSummary": "Gigante fabril chinesa (Zhejiang, anos 1980), líder em volume de máquinas industriais de 1 a 32 cabeças, integrada aos comandos Dahao, laçadeiras Koban e formato universal .DST.",
     "relatedTerms": [
-      "Tajima",
-      "Barudan (Máquinas de Bordado Eletrônico)",
-      "SWF / SunStar (Máquinas de Bordado Eletrônico)",
-      "Formato DST",
-      "Agulha DBxK5",
-      "Bastidor de Boné",
-      "Caixa de Bobina",
-      "Velocidade PPM"
+      "Chapa de Agulha (Needle Plate)",
+      "Laçadeira Rotativa (Rotary Hook)",
+      "Tensão de Linha Superior (Top Thread Tension Dynamics)",
+      "Encoder Óptico de Rotação do Eixo Principal (Controle de Graus e Sincronismo)",
+      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade)"
     ],
     "tags": [
       "f-101",
@@ -44620,7 +44617,19 @@
       "BEIJING DAHAO TECHNOLOGY CORP., LTD. Dahao Computerized Embroidery Machine Control System Manual. Pequim: Dahao, 2023.",
       "ARTRELADOS. Engenharia e Manutenção de Máquinas Industriais de Alto Desempenho no Brasil. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-05"
+    "updatedAt": "2026-09-05",
+    "matrixRelations": [
+      "Formato Universal (.DST / .DSB): Leitura nativa de coordenadas e comandos de corte pelo painel Dahao computadorizado.",
+      "Compensação de Tração: Estrutura pesada de ferro fundido que responde linearmente a compensações de 0,35 mm a 0,40 mm.",
+      "Densidade Operacional: Estabilidade em regime contínuo de 850 a 950 RPM com densidade padrão de 0,40 mm.",
+      "Equalização de Cabeçote: Regulagem independente de tensores superiores para cada uma das 12 ou 15 agulhas."
+    ],
+    "howToIdentify": [
+      "Linha superior escapando da agulha na partida: função de Partida Lenta (Slow Start) desativada no painel Dahao.",
+      "Agulha colidindo ou raspando na chapa em bonés estruturados: folga de elevação do calcador muito baixa.",
+      "Código de erro de Ponto Morto no display Dahao: came do eixo superior fora da marcação exata de 100 graus.",
+      "Costura rápida, firme e silenciosa sem aquecimento de cabeçote: lubrificação e calibragem mecânica em dia."
+    ]
   },
   {
     "id": "f-012-feltro-para-bordado-e-aplique",
@@ -206648,11 +206657,11 @@
     "practicalExercise": "Em uma visita técnica de manutenção ou com auxílio do seu mecânico de confiança, peça para abrir a tampa de inspeção inferior e veja com os próprios olhos os dentes curvados da engrenagem helicoidal girando perfeitamente sincronizados.",
     "quickSummary": "Conjunto de engrenagens de precisão que aciona a lançadeira rotativa na relação 2:1 com movimento silencioso e sincronizado.",
     "relatedTerms": [
-      "Laçadeira Rotativa (Rotary Hook)",
-      "Chapa de Agulha (Needle Plate)",
-      "Dinamômetro Têxtil e Medidor de Tensão Towa (Towa Bobbin & Top Thread Tension Gauge)",
-      "Eixo Inferior Principal da Máquina de Bordar / Eixo de Transmissão da Laçadeira",
-      "Expansão Térmica da Chapa de Agulha e Aquecimento da Lançadeira"
+      "Lançadeira Rotativa (Rotary Hook / Hook Race Assembly)",
+      "Chapa de Agulha (Needle Plate / Throat Plate)",
+      "Medidor de Tensão Mecânica de Linha - Tensiómetro Towa (Towa Digital/Mechanical Bobbin & Upper Thread Tension Gauge)",
+      "Eixo Inferior Principal da Máquina de Bordar / Eixo de Transmissão da Laçadeira (Lower Main Shaft / Rotary Hook Drive Shaft)",
+      "Expansão Térmica da Chapa de Agulha e Aquecimento da Lançadeira (Thermal Expansion & Rotary Hook Friction Control)"
     ],
     "code": "E-119",
     "howToIdentify": [
@@ -206703,11 +206712,11 @@
     "practicalExercise": "Borde um monograma de 3 cm em um retalho de chiffon usando entretela comum de papel e outro com o sanduíche hidrossolúvel duplo. Lave o segundo em água morna e compare o caimento, a elegância e a transparência de ambos contra a luz de uma janela.",
     "quickSummary": "Metodologia de alta-costura que utiliza filmes solúveis na base e no topo para bordar tecidos ultradelicados e transparentes com acabamento limpo.",
     "relatedTerms": [
-      "Entretela de Água Quente vs. Água Fria: Dissolução Térmica vs. Hidrossolúvel",
-      "Compensação de Encolhimento (Pull Compensation)",
-      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
-      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
-      "Tensão de Linha Superior (Top Thread Tension Dynamics)"
+      "Entretela de Água Quente vs. Água Fria: Dissolução Térmica vs. Hidrossolúvel (Warm-Water Soluble vs. Cold Water-Soluble Film)",
+      "Compensação de Puxão (Pull Compensation)",
+      "Coluna de Satin",
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado (Trilobal Polyester vs. Mercerized Cotton Thread Physics)",
+      "Ajuste de Tensão da Linha (Thread Tension Adjustment)"
     ],
     "code": "E-120",
     "howToIdentify": [
@@ -206758,11 +206767,11 @@
     "practicalExercise": "No seu programa de bordado, crie um retângulo de 10x4 cm dividido em 3 faixas com 40% de sobreposição. Aplique gradiente linear de 0.40 a 1.80 mm entre marinho, azul royal e azul celeste. Borde em sarja branca e admire a transição sem degraus.",
     "quickSummary": "Técnica de programação que intercala três camadas de pontos com espaçamentos progressivos para simular fusão cromática artística contínua.",
     "relatedTerms": [
-      "Ponto Tatami (Fill Stitch / Ponto de Preenchimento)",
-      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
-      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
-      "Compensação de Encolhimento (Pull Compensation)",
-      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas"
+      "Ponto Tatami (Preenchimento / Fill Stitch) e Ângulos de Inclinação",
+      "Coluna de Satin",
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado (Trilobal Polyester vs. Mercerized Cotton Thread Physics)",
+      "Compensação de Puxão (Pull Compensation)",
+      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas (Embroidery Product Staging & Flat-Lay Photography)"
     ],
     "code": "E-121",
     "howToIdentify": [
@@ -206812,11 +206821,11 @@
     "practicalExercise": "Abra uma matriz no seu programa de edição e visualize a lista de coordenadas. Aplique o filtro de pontos curtos com valor de 0.5 mm e observe a redução no número de pontos e a eliminação de pontos aglomerados nos nós de corte.",
     "quickSummary": "Filtro de programação que elimina microcosturas inferiores a 0.5 mm nos arremates para evitar nós volumosos e quebras de linha.",
     "relatedTerms": [
-      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade)",
-      "Tensão de Linha Superior (Top Thread Tension Dynamics)",
-      "Chapa de Agulha (Needle Plate)",
-      "Extensor de Vida Útil de Agulha, Contador de Pontos e Troca Preventiva",
-      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)"
+      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade) (Thread Break Statistics & Production KPI)",
+      "Ajuste de Tensão da Linha (Thread Tension Adjustment)",
+      "Chapa de Agulha (Needle Plate / Throat Plate)",
+      "Extensor de Vida Útil de Agulha, Contador de Pontos e Troca Preventiva (Needle Life-Cycle & Preventive Replacement)",
+      "Coluna de Satin"
     ],
     "code": "E-122",
     "howToIdentify": [
@@ -206866,11 +206875,11 @@
     "practicalExercise": "Pegue dois retalhos de couro cru. Em um, borde uma letra com densidade normal de 0.40 mm e agulha comum; no outro, use a entretela texturizada, agulha LR e densidade 0.60 mm. Puxe ambos com força nas mãos e veja como o primeiro rasga como papel enquanto o segundo permanece intacto.",
     "quickSummary": "Estabilizador técnico aderente projetado para proteger a integridade estrutural de couros e peles nobres durante o bordado computadorizado.",
     "relatedTerms": [
-      "Estudo de Fricção e Aquecimento de Agulhas com Revestimento de Titânio",
-      "Chapa de Agulha (Needle Plate)",
-      "Compensação de Encolhimento (Pull Compensation)",
-      "Etiqueta Termocolante, Filme Termoaderente e Aplicação a Quente",
-      "Ponto Tatami (Fill Stitch / Ponto de Preenchimento)"
+      "Estudo de Fricção e Aquecimento de Agulhas com Revestimento de Titânio (Needle Friction Thermodynamics & Titanium Nitride Coating Study)",
+      "Chapa de Agulha (Needle Plate / Throat Plate)",
+      "Compensação de Puxão (Pull Compensation)",
+      "Etiqueta Termocolante, Filme Termoaderente e Aplicação a Quente (Iron-On Patch Film & Thermal Bonding)",
+      "Ponto Tatami (Preenchimento / Fill Stitch) e Ângulos de Inclinação"
     ],
     "code": "E-123",
     "howToIdentify": [
@@ -206920,11 +206929,11 @@
     "practicalExercise": "Meça com uma fita métrica uma camiseta de algodão cru nova. Lave-a na máquina com água morna e deixe secar ao sol. Meça novamente o comprimento e a largura e calcule a porcentagem exata de encolhimento do tecido.",
     "quickSummary": "Estratégia preditiva que antecipa a contração natural de fibras laváveis na matriz para manter o bordado plano após o uso real.",
     "relatedTerms": [
-      "Estudo de Retração de Fibras Naturais pós-Lavagem no Bordado",
-      "Compensação de Encolhimento (Pull Compensation)",
-      "Ponto Tatami (Fill Stitch / Ponto de Preenchimento)",
-      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
-      "Entretela de Água Quente vs. Água Fria: Dissolução Térmica vs. Hidrossolúvel"
+      "Estudo de Retração de Fibras Naturais pós-Lavagem no Bordado (Post-Wash Fiber Shrinkage & Puckering Study)",
+      "Compensação de Puxão (Pull Compensation)",
+      "Ponto Tatami (Preenchimento / Fill Stitch) e Ângulos de Inclinação",
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado (Trilobal Polyester vs. Mercerized Cotton Thread Physics)",
+      "Entretela de Água Quente vs. Água Fria: Dissolução Térmica vs. Hidrossolúvel (Warm-Water Soluble vs. Cold Water-Soluble Film)"
     ],
     "code": "E-124",
     "howToIdentify": [
@@ -206974,11 +206983,11 @@
     "practicalExercise": "Borde a mesma matriz de contorno rigoroso (como um círculo com borda preta) em todas as cabeças da sua máquina industrial ao mesmo tempo. Compare os resultados com uma régua de precisão para atestar se todos os cabeçotes estão perfeitamente sincronizados.",
     "quickSummary": "Eixo articulado de transmissão mecânica que sincroniza o movimento de eixos X/Y ao longo de máquinas de bordar industriais multicabeças.",
     "relatedTerms": [
-      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade)",
-      "Compensação de Encolhimento (Pull Compensation)",
-      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
-      "Eixo Inferior Principal da Máquina de Bordar / Eixo de Transmissão da Laçadeira",
-      "Laçadeira Rotativa (Rotary Hook)"
+      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade) (Thread Break Statistics & Production KPI)",
+      "Compensação de Puxão (Pull Compensation)",
+      "Coluna de Satin",
+      "Eixo Inferior Principal da Máquina de Bordar / Eixo de Transmissão da Laçadeira (Lower Main Shaft / Rotary Hook Drive Shaft)",
+      "Lançadeira Rotativa (Rotary Hook / Hook Race Assembly)"
     ],
     "code": "E-125",
     "howToIdentify": [
@@ -207028,11 +207037,11 @@
     "practicalExercise": "No seu software, crie três letras 'M' com 3 cm de altura: a primeira com espaçamento 0.32 mm, a segunda com 0.40 mm e a terceira com 0.48 mm. Borde as três lado a lado na mesma malha e toque com os dedos para sentir a diferença de rigidez e cobertura.",
     "quickSummary": "Configuração micrométrica de distância entre pontos de satin que equilibra cobertura visual, maciez da peça e produtividade da máquina.",
     "relatedTerms": [
-      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
-      "Compensação de Encolhimento (Pull Compensation)",
-      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
-      "Tensão de Linha Superior (Top Thread Tension Dynamics)",
-      "Chapa de Agulha (Needle Plate)"
+      "Coluna de Satin",
+      "Compensação de Puxão (Pull Compensation)",
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado (Trilobal Polyester vs. Mercerized Cotton Thread Physics)",
+      "Ajuste de Tensão da Linha (Thread Tension Adjustment)",
+      "Chapa de Agulha (Needle Plate / Throat Plate)"
     ],
     "code": "E-137",
     "howToIdentify": [
@@ -207082,11 +207091,11 @@
     "practicalExercise": "Puxe rapidamente 2 metros de linha metálica de um cone sem redinha e aproxime do seu antebraço: você sentirá os pelos do braço se eriçarem pela atração eletrostática. Em seguida, coloque a redinha de carretel e repita o teste: a estática reduz-se drasticamente.",
     "quickSummary": "Conjunto de medidas físicas e ambientais para neutralizar o acúmulo de estática e garantir o deslizamento perfeito de linhas metalizadas.",
     "relatedTerms": [
-      "Estudo de Fricção e Aquecimento de Agulhas com Revestimento de Titânio",
-      "Tensão de Linha Superior (Top Thread Tension Dynamics)",
-      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio",
-      "Chapa de Agulha (Needle Plate)",
-      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado"
+      "Estudo de Fricção e Aquecimento de Agulhas com Revestimento de Titânio (Needle Friction Thermodynamics & Titanium Nitride Coating Study)",
+      "Ajuste de Tensão da Linha (Thread Tension Adjustment)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio (Thread Tweezers & Precision Grabber)",
+      "Chapa de Agulha (Needle Plate / Throat Plate)",
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado (Trilobal Polyester vs. Mercerized Cotton Thread Physics)"
     ],
     "code": "E-126",
     "howToIdentify": [
@@ -207137,11 +207146,11 @@
     "practicalExercise": "Coloque uma folha de entretela autoadesiva no bastidor, retire a janela protetora central, cole um pedaço de fita de cetim larga e borde um pequeno nome de 4 cm. Ao retirar, veja como a fita de cetim sai perfeita, sem um único amassado ou marca mecânica.",
     "quickSummary": "Estabilizador com camada adesiva protegida que permite fixar peças delicadas ou de difícil colocação no bastidor por simples pressão de contato.",
     "relatedTerms": [
-      "Estudo de Fricção e Aquecimento de Agulhas com Revestimento de Titânio",
-      "Etiqueta Termocolante, Filme Termoaderente e Aplicação a Quente",
-      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio",
-      "Elastano no Bordado: Técnicas para Malhas com Stretch sem Ondular",
-      "Compensação de Encolhimento (Pull Compensation)"
+      "Estudo de Fricção e Aquecimento de Agulhas com Revestimento de Titânio (Needle Friction Thermodynamics & Titanium Nitride Coating Study)",
+      "Etiqueta Termocolante, Filme Termoaderente e Aplicação a Quente (Iron-On Patch Film & Thermal Bonding)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio (Thread Tweezers & Precision Grabber)",
+      "Elastano no Bordado: Técnicas para Malhas com Stretch sem Ondular (Spandex & Lycra Embroidery Stabilization)",
+      "Compensação de Puxão (Pull Compensation)"
     ],
     "code": "E-138",
     "howToIdentify": [
@@ -207192,11 +207201,11 @@
     "practicalExercise": "Baste uma tira de tecido em bastidor e borde a sequência de teste 'FOX' ou letras 'I' de 2,5 cm de altura com as agulhas 1 (branca) e 2 (preta). Vire a peça do avesso e meça com uma régua a largura da linha de bobina (deve ocupar exatamente 1/3 central da coluna em ambas as cores).",
     "quickSummary": "Calibração metrológica independente dos tensores de cada agulha para neutralizar variações de atrito provocadas por diferentes pigmentos de cor.",
     "relatedTerms": [
-      "Dinamômetro Têxtil e Medidor de Tensão Towa (Towa Bobbin & Top Thread Tension Gauge)",
-      "Tensão de Linha Superior (Top Thread Tension Dynamics)",
-      "Caixa de Bobina (Bobbin Case)",
-      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade)",
-      "Chapa de Agulha (Needle Plate)"
+      "Medidor de Tensão Mecânica de Linha - Tensiómetro Towa (Towa Digital/Mechanical Bobbin & Upper Thread Tension Gauge)",
+      "Ajuste de Tensão da Linha (Thread Tension Adjustment)",
+      "Bobbin Case (Caixa de Bobina)",
+      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade) (Thread Break Statistics & Production KPI)",
+      "Chapa de Agulha (Needle Plate / Throat Plate)"
     ],
     "code": "E-139",
     "howToIdentify": [
@@ -207247,11 +207256,11 @@
     "practicalExercise": "Pegue um pedaço de EVA escolar comum e um pedaço de EVA industrial especial para bordado 3D (30 Shore A). Perfure ambos sequencialmente com uma agulha manual a cada 1 mm: puxe com os dedos e veja como o EVA técnico se destaca limpo e perfeito como um zíper, enquanto o escolar se deforma.",
     "quickSummary": "Especificação metrológica de dureza de espumas poliméricas que assegura corte perimetral limpo e máxima sustentação volumétrica no bordado 3D.",
     "relatedTerms": [
-      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
-      "Estudo de Fricção e Aquecimento de Agulhas com Revestimento de Titânio",
-      "Compensação de Encolhimento (Pull Compensation)",
-      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio",
-      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas"
+      "Coluna de Satin",
+      "Estudo de Fricção e Aquecimento de Agulhas com Revestimento de Titânio (Needle Friction Thermodynamics & Titanium Nitride Coating Study)",
+      "Compensação de Puxão (Pull Compensation)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio (Thread Tweezers & Precision Grabber)",
+      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas (Embroidery Product Staging & Flat-Lay Photography)"
     ],
     "code": "E-140",
     "howToIdentify": [
@@ -207302,11 +207311,11 @@
     "practicalExercise": "No seu software de bordado, crie duas linhas paralelas de 10 cm com afastamento de 2.5 mm em ponto triplo com passo de 4.0 mm. Borde em um pedaço de jeans ou sarja com linha contrastante (bege ou mostarda) e aprecie a estética impecável de alfaiataria de luxo.",
     "quickSummary": "Digitalização linear geométrica que reproduz a elegância e a solidez das costuras duplas manuais de selaria e marroquinaria clássica.",
     "relatedTerms": [
-      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
-      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
-      "Compensação de Encolhimento (Pull Compensation)",
-      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio",
-      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas"
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado (Trilobal Polyester vs. Mercerized Cotton Thread Physics)",
+      "Coluna de Satin",
+      "Compensação de Puxão (Pull Compensation)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio (Thread Tweezers & Precision Grabber)",
+      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas (Embroidery Product Staging & Flat-Lay Photography)"
     ],
     "code": "E-141",
     "howToIdentify": [
@@ -207356,11 +207365,11 @@
     "practicalExercise": "No seu software de digitalização, ative a ferramenta de ponto cruz, desenhe um pequeno coração de 10x10 cruzes com tamanho de 2.0 mm por ponto e borde em um retalho de etamine. Toque a textura e veja o relevo idêntico ao feito com meada manual.",
     "quickSummary": "Digitalização geométrica em malha ortogonal que emula com fidelidade o clássico bordado artesanal em ponto cruz.",
     "relatedTerms": [
-      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
-      "Compensação de Encolhimento (Pull Compensation)",
-      "Ponto Tatami (Fill Stitch / Ponto de Preenchimento)",
-      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas",
-      "Tensão de Linha Superior (Top Thread Tension Dynamics)"
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado (Trilobal Polyester vs. Mercerized Cotton Thread Physics)",
+      "Compensação de Puxão (Pull Compensation)",
+      "Ponto Tatami (Preenchimento / Fill Stitch) e Ângulos de Inclinação",
+      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas (Embroidery Product Staging & Flat-Lay Photography)",
+      "Ajuste de Tensão da Linha (Thread Tension Adjustment)"
     ],
     "code": "E-142",
     "howToIdentify": [
@@ -207410,11 +207419,11 @@
     "practicalExercise": "Coloque um pedaço de filme plástico solúvel em um bastidor e fure com uma agulha fazendo uma linha reta; puxe e veja como rasga facilmente. Agora faça o mesmo com a entretela hidrossolúvel tecida: veja como os fios travam e não deixam o rasgo se espalhar.",
     "quickSummary": "Estabilizador hidrossolúvel estruturado em tecido plano de PVA que oferece sustentação mecânica máxima para rendas densas sem deformação plástica.",
     "relatedTerms": [
-      "Entretela de Água Quente vs. Água Fria: Dissolução Térmica vs. Hidrossolúvel",
-      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
-      "Compensação de Encolhimento (Pull Compensation)",
-      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
-      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio"
+      "Entretela de Água Quente vs. Água Fria: Dissolução Térmica vs. Hidrossolúvel (Warm-Water Soluble vs. Cold Water-Soluble Film)",
+      "Coluna de Satin",
+      "Compensação de Puxão (Pull Compensation)",
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado (Trilobal Polyester vs. Mercerized Cotton Thread Physics)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio (Thread Tweezers & Precision Grabber)"
     ],
     "code": "E-143",
     "howToIdentify": [
@@ -207465,10 +207474,10 @@
     "quickSummary": "Dispositivo mecânico com engate por pressão que permite a fixação e liberação instantânea de bastidores no pantógrafo sem ferramentas.",
     "relatedTerms": [
       "Eixo Cardan do Pantógrafo (Alinhamento de Eixos X e Y em Multicabeças)",
-      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade)",
-      "Chapa de Agulha (Needle Plate)",
+      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade) (Thread Break Statistics & Production KPI)",
+      "Chapa de Agulha (Needle Plate / Throat Plate)",
       "Ergonomia Operacional no Ateliê de Bordado (Prevenção de LER/DORT)",
-      "Compensação de Encolhimento (Pull Compensation)"
+      "Compensação de Puxão (Pull Compensation)"
     ],
     "code": "E-144",
     "howToIdentify": [
@@ -207518,11 +207527,11 @@
     "practicalExercise": "Borde 10.000 pontos com uma bobina feita no enchedor manual da sua máquina e 10.000 pontos com uma bobina pré-enrolada de fábrica. Abra a tampa da lançadeira e compare a quantidade de poeira e fiapos brancos acumulados em cada teste.",
     "quickSummary": "Carretéis de bobina calibrados industrialmente com linha filamentada que otimizam a produtividade e a constância da tensão inferior.",
     "relatedTerms": [
-      "Dinamômetro Têxtil e Medidor de Tensão Towa (Towa Bobbin & Top Thread Tension Gauge)",
-      "Caixa de Bobina (Bobbin Case)",
-      "Enchedor de Bobina Independente com Sensor Óptico de Parada",
-      "Laçadeira Rotativa (Rotary Hook)",
-      "Tensão de Linha Superior (Top Thread Tension Dynamics)"
+      "Medidor de Tensão Mecânica de Linha - Tensiómetro Towa (Towa Digital/Mechanical Bobbin & Upper Thread Tension Gauge)",
+      "Bobbin Case (Caixa de Bobina)",
+      "Enchedor de Bobina Independente com Sensor Óptico de Parada (Stand-Alone Bobbin Winder with Optical Sensor)",
+      "Lançadeira Rotativa (Rotary Hook / Hook Race Assembly)",
+      "Ajuste de Tensão da Linha (Thread Tension Adjustment)"
     ],
     "code": "E-145",
     "howToIdentify": [
@@ -207572,11 +207581,11 @@
     "practicalExercise": "No seu software, crie dois quadrados de 5x5 cm de tatami: o primeiro com ângulo a 45° e o segundo com ângulo a 65°. Borde ambos sobre uma calça jeans velha de sarja diagonal e veja como o primeiro cria um padrão xadrez ondulado e o segundo fica perfeitamente homogêneo.",
     "quickSummary": "Fenômeno de interferência óptica prevenido por cálculos de ângulos não-ressonantes e comprimentos aleatórios de ponto na digitalização de matrizes.",
     "relatedTerms": [
-      "Ponto Tatami (Fill Stitch / Ponto de Preenchimento)",
-      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
-      "Compensação de Encolhimento (Pull Compensation)",
-      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas",
-      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)"
+      "Ponto Tatami (Preenchimento / Fill Stitch) e Ângulos de Inclinação",
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado (Trilobal Polyester vs. Mercerized Cotton Thread Physics)",
+      "Compensação de Puxão (Pull Compensation)",
+      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas (Embroidery Product Staging & Flat-Lay Photography)",
+      "Coluna de Satin"
     ],
     "code": "E-146",
     "howToIdentify": [
@@ -207627,11 +207636,11 @@
     "practicalExercise": "Borde um pequeno arabesco em um retalho de feltro de lã usando entretela termodegradável. Passe o ferro seco a 130°C com movimentos circulares e escove com uma escovinha de dentes: veja a mágica da entretela se desfazendo em pó em segundos!",
     "quickSummary": "Estabilizador termodestrutível que se desfaz em pó por aplicação de ferro seco, indispensável para bordar materiais que não podem ser lavados com água.",
     "relatedTerms": [
-      "Entretela de Água Quente vs. Água Fria: Dissolução Térmica vs. Hidrossolúvel",
-      "Etiqueta Termocolante, Filme Termoaderente e Aplicação a Quente",
-      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio",
-      "Compensação de Encolhimento (Pull Compensation)",
-      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)"
+      "Entretela de Água Quente vs. Água Fria: Dissolução Térmica vs. Hidrossolúvel (Warm-Water Soluble vs. Cold Water-Soluble Film)",
+      "Etiqueta Termocolante, Filme Termoaderente e Aplicação a Quente (Iron-On Patch Film & Thermal Bonding)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio (Thread Tweezers & Precision Grabber)",
+      "Compensação de Puxão (Pull Compensation)",
+      "Coluna de Satin"
     ],
     "code": "E-147",
     "howToIdentify": [
@@ -207681,11 +207690,11 @@
     "practicalExercise": "Borde a palavra 'ARTRELADOS' com corte em cada letra e depois borde a mesma palavra com salto corrido de 1.8 mm sem corte. Cronometre a diferença de tempo no relógio e compare a economia de produção.",
     "quickSummary": "Configuração técnica da distância limite de deslocamento sem costura que equilibra a velocidade de produção e o acionamento de corte de linha.",
     "relatedTerms": [
-      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade)",
-      "Tensão de Linha Superior (Top Thread Tension Dynamics)",
-      "Chapa de Agulha (Needle Plate)",
-      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio",
-      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)"
+      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade) (Thread Break Statistics & Production KPI)",
+      "Ajuste de Tensão da Linha (Thread Tension Adjustment)",
+      "Chapa de Agulha (Needle Plate / Throat Plate)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio (Thread Tweezers & Precision Grabber)",
+      "Coluna de Satin"
     ],
     "code": "E-148",
     "howToIdentify": [
@@ -207736,11 +207745,11 @@
     "practicalExercise": "Em um bastidor pequeno de 13x18 cm, coloque uma manta acrílica R1 e borde um monograma com técnica de trapunto: recorte a manta ao redor, cubra com tricoline branca e borde o fundo acolchoado. Sinta a textura tridimensional com a palma da mão.",
     "quickSummary": "Técnica escultural In-The-Hoop que utiliza mantas acolchoadas recortadas para gerar volumes macios e táteis com contraste de fundo quiltado.",
     "relatedTerms": [
-      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
-      "Ponto Tatami (Fill Stitch / Ponto de Preenchimento)",
-      "Compensação de Encolhimento (Pull Compensation)",
-      "Eixo de Transporte Superior / Calcador de Avanço Duplo",
-      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas"
+      "Coluna de Satin",
+      "Ponto Tatami (Preenchimento / Fill Stitch) e Ângulos de Inclinação",
+      "Compensação de Puxão (Pull Compensation)",
+      "Eixo de Transporte Superior / Calcador de Avanço Duplo (Walking Foot / Dual Feed Drive Shaft)",
+      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas (Embroidery Product Staging & Flat-Lay Photography)"
     ],
     "code": "E-127",
     "howToIdentify": [
@@ -207791,11 +207800,11 @@
     "practicalExercise": "No painel da sua máquina de bordar, selecione o teste de agulhas e comande a troca sequencial da Agulha 1 até a Agulha final. Observe pela lateral o deslize perfeito do bloco e escute o clique suave de indexação de cada posição.",
     "quickSummary": "Conjunto mecânico de alta precisão que comanda a translação lateral do bloco de agulhas para troca rápida de cores nas máquinas de bordar.",
     "relatedTerms": [
-      "Eixo Came de Mudança Automática de Cores / Came Espiral de Troca de Agulha",
-      "Esfera de Retenção / Trava Mecânica de Posicionamento da Agulha",
-      "Chapa de Agulha (Needle Plate)",
-      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade)",
-      "Excêntrico de Acionamento da Barra de Agulha e Balanceamento Dinâmico"
+      "Eixo Came de Mudança Automática de Cores / Came Espiral de Troca de Agulha (Color Change Cam Shaft / Spiral Needle Change Cam)",
+      "Esfera de Retenção / Trava Mecânica de Posicionamento da Agulha (Detent Ball & Positioning Spring)",
+      "Chapa de Agulha (Needle Plate / Throat Plate)",
+      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade) (Thread Break Statistics & Production KPI)",
+      "Excêntrico de Acionamento da Barra de Agulha e Balanceamento Dinâmico (Needle Bar Drive Eccentric Cam & Counterweight Balancing)"
     ],
     "code": "E-128",
     "howToIdentify": [
@@ -207846,11 +207855,11 @@
     "practicalExercise": "Prenda um filme hidrossolúvel no bastidor, flutue um pedaço de tule ilusion com filme no topo e borde um pequeno ramo floral de 5 cm com linha 60wt e agulha 65/9. Lave com água morna e coloque sobre o dorso da sua mão para contemplar o efeito de tatuagem flutuante.",
     "quickSummary": "Metodologia de alta-costura que preserva a integridade estrutural e a invisibilidade óptica do tule ilusion em bordados nupciais.",
     "relatedTerms": [
-      "Entretela de Água Quente vs. Água Fria: Dissolução Térmica vs. Hidrossolúvel",
-      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
-      "Compensação de Encolhimento (Pull Compensation)",
-      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
-      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio"
+      "Entretela de Água Quente vs. Água Fria: Dissolução Térmica vs. Hidrossolúvel (Warm-Water Soluble vs. Cold Water-Soluble Film)",
+      "Coluna de Satin",
+      "Compensação de Puxão (Pull Compensation)",
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado (Trilobal Polyester vs. Mercerized Cotton Thread Physics)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio (Thread Tweezers & Precision Grabber)"
     ],
     "code": "E-129",
     "howToIdentify": [
@@ -207902,11 +207911,11 @@
     "practicalExercise": "No seu software, escreva a letra 'S' em ponto cheio azul royal. Duplique a letra, desloque 2 mm para baixo e para a direita, pinte de cinza claro, aplique borda plumada e configure para bordar primeiro. Borde em uma sarja branca e veja o salto tridimensional da letra!",
     "quickSummary": "Técnica de programação artística que emula desfoque e sombra projetada com pontas irregulares e densidade arejada para criar relevo visual.",
     "relatedTerms": [
-      "Ponto Tatami (Fill Stitch / Ponto de Preenchimento)",
-      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
-      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
-      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas",
-      "Compensação de Encolhimento (Pull Compensation)"
+      "Ponto Tatami (Preenchimento / Fill Stitch) e Ângulos de Inclinação",
+      "Coluna de Satin",
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado (Trilobal Polyester vs. Mercerized Cotton Thread Physics)",
+      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas (Embroidery Product Staging & Flat-Lay Photography)",
+      "Compensação de Puxão (Pull Compensation)"
     ],
     "code": "E-130",
     "howToIdentify": [
@@ -207956,11 +207965,11 @@
     "practicalExercise": "Coloque um carretel de bobina suspeito sobre uma mesa de vidro bem plana e empurre para rolar: se ele rolar em linha reta, está perfeito; se ele rolar em círculos ou mancar aos pulos, está empenado e deve ser descartado imediatamente.",
     "quickSummary": "Anomalia de carregamento do carretel de bobina que provoca oscilações violentas de tensão inferior e paradas frequentes por quebra de linha.",
     "relatedTerms": [
-      "Enchedor de Bobina Independente com Sensor Óptico de Parada",
-      "Dinamômetro Têxtil e Medidor de Tensão Towa (Towa Bobbin & Top Thread Tension Gauge)",
-      "Caixa de Bobina (Bobbin Case)",
-      "Laçadeira Rotativa (Rotary Hook)",
-      "Tensão de Linha Superior (Top Thread Tension Dynamics)"
+      "Enchedor de Bobina Independente com Sensor Óptico de Parada (Stand-Alone Bobbin Winder with Optical Sensor)",
+      "Medidor de Tensão Mecânica de Linha - Tensiómetro Towa (Towa Digital/Mechanical Bobbin & Upper Thread Tension Gauge)",
+      "Bobbin Case (Caixa de Bobina)",
+      "Lançadeira Rotativa (Rotary Hook / Hook Race Assembly)",
+      "Ajuste de Tensão da Linha (Thread Tension Adjustment)"
     ],
     "code": "E-131",
     "howToIdentify": [
@@ -208011,11 +208020,11 @@
     "practicalExercise": "No seu software de matrizes, escreva o nome da sua cidade em fonte bloco esportiva. Aplique o envelope de arco convexo de 15 mm e ative o 'Auto-Split' em 7.5 mm. Observe como as linhas dos pontos se adaptam organicamente à curvatura da moldura.",
     "quickSummary": "Recurso de modelagem vetorial por envelope elástico que confere dinamismo, curvatura e perspectiva tridimensional a textos e matrizes.",
     "relatedTerms": [
-      "Espelho de Ponto e Simetria Rápida no Painel da Máquina",
-      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
-      "Compensação de Encolhimento (Pull Compensation)",
-      "Ponto Tatami (Fill Stitch / Ponto de Preenchimento)",
-      "Elastano no Bordado: Técnicas para Malhas com Stretch sem Ondular"
+      "Espelho de Ponto e Simetria Rápida no Painel da Máquina (Mirror Stitching & Axial Symmetry Transformation)",
+      "Coluna de Satin",
+      "Compensação de Puxão (Pull Compensation)",
+      "Ponto Tatami (Preenchimento / Fill Stitch) e Ângulos de Inclinação",
+      "Elastano no Bordado: Técnicas para Malhas com Stretch sem Ondular (Spandex & Lycra Embroidery Stabilization)"
     ],
     "code": "E-132",
     "howToIdentify": [
@@ -208066,11 +208075,11 @@
     "practicalExercise": "Pegue um pedaço dessa entretela e puxe com as duas mãos para cima e para baixo: ela não estica um milímetro. Agora puxe para os lados: ela estica suavemente. Termofunda em um retalho de piquê e sinta a estabilidade perfeita aliada ao toque macio.",
     "quickSummary": "Estabilizador termofusível com comportamento biomecânico unidirecional que garante estabilidade de bordado com caimento e maciez em camisetas polo.",
     "relatedTerms": [
-      "Elastano no Bordado: Técnicas para Malhas com Stretch sem Ondular",
-      "Compensação de Encolhimento (Pull Compensation)",
-      "Ponto Tatami (Fill Stitch / Ponto de Preenchimento)",
-      "Etiqueta Termocolante, Filme Termoaderente e Aplicação a Quente",
-      "Estudo de Retração de Fibras Naturais pós-Lavagem no Bordado"
+      "Elastano no Bordado: Técnicas para Malhas com Stretch sem Ondular (Spandex & Lycra Embroidery Stabilization)",
+      "Compensação de Puxão (Pull Compensation)",
+      "Ponto Tatami (Preenchimento / Fill Stitch) e Ângulos de Inclinação",
+      "Etiqueta Termocolante, Filme Termoaderente e Aplicação a Quente (Iron-On Patch Film & Thermal Bonding)",
+      "Estudo de Retração de Fibras Naturais pós-Lavagem no Bordado (Post-Wash Fiber Shrinkage & Puckering Study)"
     ],
     "code": "E-133",
     "howToIdentify": [
@@ -208121,11 +208130,11 @@
     "practicalExercise": "Faça agora mesmo uma pausa de 60 segundos: entrelace os dedos das duas mãos, empurre as palmas para a frente esticando os braços e respire fundo três vezes. Sinta o alívio imediato na musculatura dos seus punhos e ombros.",
     "quickSummary": "Diretrizes e equipamentos anatômicos que protegem a saúde física da bordadeira, prevenindo lesões osteomoleculares e aumentando a longevidade produtiva.",
     "relatedTerms": [
-      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade)",
-      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio",
-      "Extrator de Parafusos de Chapa, Chave Moeda e Chave Angular",
-      "Enchedor de Bobina Independente com Sensor Óptico de Parada",
-      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas"
+      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade) (Thread Break Statistics & Production KPI)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio (Thread Tweezers & Precision Grabber)",
+      "Extrator de Parafusos de Chapa, Chave Moeda e Chave Angular (Needle Plate Screw Extractors & Stubby Screwdrivers)",
+      "Enchedor de Bobina Independente com Sensor Óptico de Parada (Stand-Alone Bobbin Winder with Optical Sensor)",
+      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas (Embroidery Product Staging & Flat-Lay Photography)"
     ],
     "code": "E-134",
     "howToIdentify": [
@@ -208175,11 +208184,11 @@
     "practicalExercise": "Crie um quadrado de 8x8 cm no seu programa com preenchimento Stippling a 2.8 mm. Borde em um retalho de tricoline com manta fina por baixo e passe as costas da mão sobre a peça: sinta a textura acolchoada acolhedora sem nenhuma rigidez mecânica.",
     "quickSummary": "Preenchimento orgânico contínuo em curvas sinuosas que cria texturas decorativas leves e reduz em até 70% o consumo de linha e repuxo.",
     "relatedTerms": [
-      "Ponto Tatami (Fill Stitch / Ponto de Preenchimento)",
-      "Compensação de Encolhimento (Pull Compensation)",
-      "Eixo de Transporte Superior / Calcador de Avanço Duplo",
-      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
-      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas"
+      "Ponto Tatami (Preenchimento / Fill Stitch) e Ângulos de Inclinação",
+      "Compensação de Puxão (Pull Compensation)",
+      "Eixo de Transporte Superior / Calcador de Avanço Duplo (Walking Foot / Dual Feed Drive Shaft)",
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado (Trilobal Polyester vs. Mercerized Cotton Thread Physics)",
+      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas (Embroidery Product Staging & Flat-Lay Photography)"
     ],
     "code": "E-135",
     "howToIdentify": [
@@ -208231,11 +208240,11 @@
     "practicalExercise": "Compre um carretel de linha de lã para bordado (12wt), coloque agulha 100/16 na sua máquina, borde um círculo de 4 cm com espaçamento de 0.70 mm e passe uma escovinha de pentear animais de cerdas metálicas por 30 segundos: veja a pelúcia nascer diante dos seus olhos!",
     "quickSummary": "Acabamento mecânico abrasivo suave que abre as fibras de linhas de lã e acrílico, conferindo textura volumosa de pelúcia realista.",
     "relatedTerms": [
-      "Efeito Chenille Computadorizado: Simulação de Ponto Aveludado",
-      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
-      "Ponto Tatami (Fill Stitch / Ponto de Preenchimento)",
-      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
-      "Estudo de Fricção e Aquecimento de Agulhas com Revestimento de Titânio"
+      "Efeito Chenille Computadorizado: Simulação de Ponto Aveludado (Computerized Chenille Effect & Loop Embroidery Simulation)",
+      "Coluna de Satin",
+      "Ponto Tatami (Preenchimento / Fill Stitch) e Ângulos de Inclinação",
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado (Trilobal Polyester vs. Mercerized Cotton Thread Physics)",
+      "Estudo de Fricção e Aquecimento de Agulhas com Revestimento de Titânio (Needle Friction Thermodynamics & Titanium Nitride Coating Study)"
     ],
     "code": "E-136",
     "howToIdentify": [
@@ -208286,11 +208295,11 @@
     "practicalExercise": "Ligue a máquina, acesse a tela de manutenção e gire o volante manual da máquina vagarosamente com a mão: observe os números de graus no painel (de 0° a 360°) mudando suavemente a cada milímetro que você gira o volante.",
     "quickSummary": "Dispositivo sensorial fotoelétrico que monitora o ângulo exato do eixo superior em graus para sincronismo absoluto de todas as funções da máquina.",
     "relatedTerms": [
-      "Excêntrico de Acionamento da Barra de Agulha e Balanceamento Dinâmico",
-      "Eixo Inferior Principal da Máquina de Bordar / Eixo de Transmissão da Laçadeira",
-      "Laçadeira Rotativa (Rotary Hook)",
-      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade)",
-      "Chapa de Agulha (Needle Plate)"
+      "Excêntrico de Acionamento da Barra de Agulha e Balanceamento Dinâmico (Needle Bar Drive Eccentric Cam & Counterweight Balancing)",
+      "Eixo Inferior Principal da Máquina de Bordar / Eixo de Transmissão da Laçadeira (Lower Main Shaft / Rotary Hook Drive Shaft)",
+      "Lançadeira Rotativa (Rotary Hook / Hook Race Assembly)",
+      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade) (Thread Break Statistics & Production KPI)",
+      "Chapa de Agulha (Needle Plate / Throat Plate)"
     ],
     "code": "E-149",
     "howToIdentify": [
@@ -208342,11 +208351,11 @@
     "practicalExercise": "Pegue uma toalha felpuda velha. Borde a letra 'A' diretamente sobre a toalha sem nada por cima; ao lado, coloque uma folha de filme hidrossolúvel e borde a mesma letra 'A'. Destaque o plástico e compare a diferença colossal de nitidez e brilho entre os dois bordados.",
     "quickSummary": "Aplicação indispensável de filme solúvel na face superior de atoalhados para reter a felpa e garantir bordados nítidos e volumosos.",
     "relatedTerms": [
-      "Entretela de Água Quente vs. Água Fria: Dissolução Térmica vs. Hidrossolúvel",
-      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
-      "Compensação de Encolhimento (Pull Compensation)",
-      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
-      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas"
+      "Entretela de Água Quente vs. Água Fria: Dissolução Térmica vs. Hidrossolúvel (Warm-Water Soluble vs. Cold Water-Soluble Film)",
+      "Coluna de Satin",
+      "Compensação de Puxão (Pull Compensation)",
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado (Trilobal Polyester vs. Mercerized Cotton Thread Physics)",
+      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas (Embroidery Product Staging & Flat-Lay Photography)"
     ],
     "code": "E-150",
     "howToIdentify": [
@@ -208397,11 +208406,11 @@
     "practicalExercise": "No seu programa de bordado, pegue a letra 'J' e a letra 'M' em uma fonte caligráfica clássica. Cruze as duas hastes no centro, fatie a perna da letra 'M' na primeira sobreposição e mude o ângulo de ponto para 90° em relação ao 'J'. Borde em percal branco e admire a tridimensionalidade aristocrática do entrelaçamento.",
     "quickSummary": "Digitalização artística avançada onde letras caligráficas clássicas se entrelaçam tridimensionalmente com cortes alternados e ângulos contrastantes.",
     "relatedTerms": [
-      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
-      "Compensação de Encolhimento (Pull Compensation)",
-      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
-      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas",
-      "Entretela de Colarinho e Punho: Gramaturas na Camisaria Fina"
+      "Coluna de Satin",
+      "Compensação de Puxão (Pull Compensation)",
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado (Trilobal Polyester vs. Mercerized Cotton Thread Physics)",
+      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas (Embroidery Product Staging & Flat-Lay Photography)",
+      "Entretela de Colarinho e Punho: Gramaturas na Camisaria Fina (Shirt Collar & Cuff Interlining Standards)"
     ],
     "code": "E-151",
     "howToIdentify": [
@@ -208452,11 +208461,11 @@
     "practicalExercise": "Borde um desenho em um body de bebê de teste. Passe a ponta dos dedos no avesso sem proteção e sinta os nós e a rigidez dos pontos. Agora aplique um pedaço de entretela de proteção com cantos arredondados com o ferro a 130°C: passe os dedos novamente e comprove a maciez de nuvem!",
     "quickSummary": "Película termocolante aveludada aplicada sobre o verso do bordado que blinda nós e arremates para proteger a pele hipersensível de bebês.",
     "relatedTerms": [
-      "Etiqueta Termocolante, Filme Termoaderente e Aplicação a Quente",
-      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
-      "Elastano no Bordado: Técnicas para Malhas com Stretch sem Ondular",
-      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio",
-      "Estudo de Retração de Fibras Naturais pós-Lavagem no Bordado"
+      "Etiqueta Termocolante, Filme Termoaderente e Aplicação a Quente (Iron-On Patch Film & Thermal Bonding)",
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado (Trilobal Polyester vs. Mercerized Cotton Thread Physics)",
+      "Elastano no Bordado: Técnicas para Malhas com Stretch sem Ondular (Spandex & Lycra Embroidery Stabilization)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio (Thread Tweezers & Precision Grabber)",
+      "Estudo de Retração de Fibras Naturais pós-Lavagem no Bordado (Post-Wash Fiber Shrinkage & Puckering Study)"
     ],
     "code": "E-152",
     "howToIdentify": [
@@ -208507,11 +208516,11 @@
     "practicalExercise": "Crie no seu software um chaveiro redondo de 6 cm com seu nome em ponto cheio e borda em cordão. Borde sobre um pedaço de feltro estabilizado com entretela rasgável e recorte com tesoura de ponta curva para avaliar o acabamento.",
     "quickSummary": "Base têxtil não-tecida sem desfiamento, ideal para chaveiros, patches e decorações, exigindo densidade moderada e estabilização sem tração excessiva.",
     "relatedTerms": [
-      "Ponto Cheio (Satin)",
-      "Patch Bordado",
-      "In The Hoop (ITH)",
-      "Entretela Rasgável",
-      "Agulha Ponta Bola (Ball Point)"
+      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
+      "Ponto Tatami (Fill Stitch / Ponto de Preenchimento)",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Etiqueta Termocolante, Filme Termoaderente e Aplicação a Quente",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio"
     ],
     "recommendedSettings": {
       "needleType": "Agulha Ponta Bola 75/11 ou Microtex 80/12",
@@ -208519,7 +208528,20 @@
       "speedPPM": "600 a 750 PPM",
       "density": "0,44 mm a 0,48 mm",
       "pullCompensation": "+0,25 mm a +0,30 mm"
-    }
+    },
+    "code": "F-102",
+    "matrixRelations": [
+      "Densidade de Ponto: Como o feltro não tem tramas que abrem, densidade de 0,40 mm a 0,45 mm oferece cobertura total sem rigidez de papelão.",
+      "Ponto de Suporte (Underlay): Reduzir o suporte para um ziguezague leve ou contorno simples; evitar tatami duplo por baixo.",
+      "Compensação de Encolhimento: O feltro possui altíssima estabilidade dimensional, bastando compensação de 0,25 mm a 0,30 mm.",
+      "Velocidade e Tensão: Permite rotação média-alta (750 a 850 RPM) com tensão superior equilibrada a 110-120 gf."
+    ],
+    "howToIdentify": [
+      "Bordado duro como chapa de papelão que não dobra: excesso de camadas de underlay em feltro denso.",
+      "Fibras soltas do feltro sintético escapando pelas bordas do ponto cheio: falta de costura de alinhave perimetral.",
+      "Agulha socando com ruído de batimento surdo: feltro de lã pura espesso exigindo agulha 80/12 ou 90/14.",
+      "Contorno limpo, sem rugas e com relevo destacado: parâmetros perfeitamente ajustados para feltro."
+    ]
   },
   {
     "id": "f-novo-002-flanela-algodao-bordado-computadorizado",
@@ -208562,11 +208584,11 @@
     "practicalExercise": "Pegue um retalho de flanela. Divida-o ao meio: em um lado, borde uma letra 'F' sem filme plástico no topo; no outro lado, borde a mesma letra com um pedacinho de filme hidrossolúvel. Compare a nitidez e o relevo das bordas!",
     "quickSummary": "Tecido macio e cardado com felpa superficial, ideal para enxovais infantis, exigindo filme solúvel no topo e agulha ponta bola para evitar que os pontos afundem.",
     "relatedTerms": [
-      "Filme Hidrossolúvel",
-      "Película Protetora de Topo (Topping)",
-      "Underlay de Ponto Suporte",
-      "Compensação de Encolhimento",
-      "Agulha Ponta Bola (Ball Point)"
+      "Entretela de Água Quente vs. Água Fria: Dissolução Térmica vs. Hidrossolúvel",
+      "Estudo de Retração de Fibras Naturais pós-Lavagem no Bordado",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado"
     ],
     "recommendedSettings": {
       "needleType": "Agulha Ponta Bola 75/11 (SES)",
@@ -208574,7 +208596,20 @@
       "speedPPM": "650 a 700 PPM",
       "density": "0,40 mm a 0,42 mm",
       "pullCompensation": "+0,35 mm"
-    }
+    },
+    "code": "F-103",
+    "matrixRelations": [
+      "Uso Obrigatório de Topping Solúvel: Filme hidrossolúvel de 25 micras no topo para impedir que a felpa flanelada engula os pontos finos.",
+      "Densidade de Ponto: Calibrada entre 0,40 mm e 0,42 mm para evitar compactação excessiva que endurece a peça macia.",
+      "Ponto de Suporte (Underlay): Grade aberta (lattice) ou tatami leve para criar piso plano sobre o tecido peluciado.",
+      "Compensação de Encolhimento: Ajustar para 0,35 mm a 0,45 mm devido ao puxão nas fibras escovadas macias."
+    ],
+    "howToIdentify": [
+      "Pelinhos da flanela invadindo os cantos das letras e contornos: falta de película hidrossolúvel no topo.",
+      "Tecido repuxado ao redor do bordado após a primeira lavagem: encolhimento natural de fibras de flanela de algodão não pré-lavada.",
+      "Furos aparentes na malha flanelada: uso de agulha com ponta cortante em vez de ponta bola fina (SES).",
+      "Bordado com toque aveludado, desenho nítido e tecido macio ao redor: estabilização ideal de flanela."
+    ]
   },
   {
     "id": "f-novo-003-fio-fosco-linhas-mate-alta-definicao",
@@ -208617,11 +208652,11 @@
     "practicalExercise": "Borde dois monogramas iguais de 3 cm: um com linha de poliéster brilhante e outro com linha mate fosca. Fotografe os dois com o flash do celular ligado e veja a diferença impressionante de nitidez no resultado final.",
     "quickSummary": "Linha sem reflexo brilhante que confere aspecto cerâmico e elegante, ideal para pequenos textos corporativos, couro e bordados artísticos.",
     "relatedTerms": [
-      "Fio de Poliéster para Bordado",
-      "Fio de Viscose / Rayon",
-      "Microletras",
-      "Tensão da Linha Superior",
-      "PhotoStitch"
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
+      "Tensão de Linha Superior (Top Thread Tension Dynamics)",
+      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
+      "Chapa de Agulha (Needle Plate)",
+      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas"
     ],
     "recommendedSettings": {
       "needleType": "Agulha Universal ou Bordado 75/11 ou 70/10",
@@ -208629,7 +208664,20 @@
       "speedPPM": "700 a 800 PPM",
       "density": "0,38 mm a 0,40 mm",
       "pullCompensation": "+0,30 mm"
-    }
+    },
+    "code": "F-104",
+    "matrixRelations": [
+      "Redução de Brilho e Textura: Fios com cerâmica incorporada refletem luz difusa, ideais para efeito de pintura de agulha e retratos PhotoStitch.",
+      "Densidade de Ponto: Como a linha fosca absorve mais luz e parece mais grossa visualmente, a densidade pode ser aberta para 0,42 mm a 0,45 mm.",
+      "Tensão de Linha: Fios mates têm coeficiente de atrito ligeiramente maior nos tensores, exigindo tensão mais suave (90-105 gf).",
+      "Microletras: Proporciona leitura superior em fontes menores que 5 mm por eliminar reflexos que borram a visão."
+    ],
+    "howToIdentify": [
+      "Linha quebrando ou desfiando nos discos tensores: tensão excessiva calibrada para poliéster trilobal brilhante.",
+      "Aspecto plástico artificial em pele humana ou folhagens: uso de linha brilhante onde se exigia acabamento fosco realista.",
+      "Acúmulo de pó microscópico na chapa de agulha: fricção natural da partícula cerâmica fosqueadora.",
+      "Visual sofisticado, nobre e vintage idêntico a gravura artística: linha fosca aplicada com perfeição."
+    ]
   },
   {
     "id": "f-novo-004-fio-cobre-condutivo-bordado-inteligente",
@@ -208672,11 +208720,11 @@
     "practicalExercise": "Com um carretel de fio condutor na agulha e velocidade da máquina em 450 PPM, borde uma linha reta de 10 cm. Conecte uma bateria moeda de 3V em uma ponta e um LED na outra para ver a luz acender através do bordado.",
     "quickSummary": "Fio de engenharia têxtil com propriedades elétricas que permite criar trilhas de circuito, sensores e iluminação integrados ao tecido.",
     "relatedTerms": [
-      "Fio Metálico para Bordado",
-      "Agulha Topstitch",
-      "Ponto Bean / Pesponto Triplo",
-      "Ponto Corrido Linear",
-      "E-Textiles"
+      "Eletricidade Estática no Fio Metálico (Fitas Antiestáticas e Aterramento)",
+      "Estudo de Fricção e Aquecimento de Agulhas com Revestimento de Titânio",
+      "Tensão de Linha Superior (Top Thread Tension Dynamics)",
+      "Chapa de Agulha (Needle Plate)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio"
     ],
     "recommendedSettings": {
       "needleType": "Agulha Topstitch ou Metallic 90/14",
@@ -208684,7 +208732,20 @@
       "speedPPM": "400 a 500 PPM",
       "density": "Ponto corrido com passo 2,8 mm",
       "pullCompensation": "Padrão"
-    }
+    },
+    "code": "F-105",
+    "matrixRelations": [
+      "Continuidade de Trajeto: A matriz deve ser digitalizada em caminho único contínuo sem saltos nem cortes automáticos de linha.",
+      "Comprimento de Ponto: Usar passos mais longos (3,0 mm a 4,5 mm) em ponto reto ou pesponto triplo (bean stitch) para reduzir atrito.",
+      "Tensão de Linha: Tensão ultra-baixa com velocidade reduzida (400 a 550 RPM) para não romper a microfiação condutiva de cobre/prata.",
+      "Isolamento de Base: Utilizar entretela não-condutiva e evitar cruzamentos metálicos que causem curto-circuito na placa."
+    ],
+    "howToIdentify": [
+      "Circuito elétrico sem continuidade no multímetro: micro-ruptura interna do filamento condutivo por estiramento mecânico.",
+      "Fio metálico condutivo desfiando e travando na canaleta da agulha: olho de agulha pequeno (usar agulha Topstitch 90/14).",
+      "Pequenas faíscas ou falha de leitura em sensores têxteis: nó de linha mal arrematado no avesso.",
+      "Led ou sensor acendendo perfeitamente ao fechar o circuito no bordado: condutividade elétrica preservada."
+    ]
   },
   {
     "id": "f-novo-005-filamento-bicomponente-poliester-poliamida",
@@ -208727,11 +208788,11 @@
     "practicalExercise": "Borde um logotipo em um retalho de suplex elástico usando fio bicomponente e outro com linha comum de poliéster. Estique o tecido com as duas mãos e observe como os pontos bicomponentes acompanham o tecido sem estourar nenhum ponto!",
     "quickSummary": "Linha técnica de núcleo de poliéster e capa de náilon que combina alta tração mecânica com elasticidade elástica suave para malhas e alta velocidade.",
     "relatedTerms": [
-      "Fio de Poliéster para Bordado",
-      "Fio Retorcido de Alta Tenacidade",
-      "Compensação de Encolhimento",
-      "Tecido de Malha",
-      "Mola de Retirada (Check Spring)"
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
+      "Elastano no Bordado: Técnicas para Malhas com Stretch sem Ondular",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Tensão de Linha Superior (Top Thread Tension Dynamics)",
+      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade)"
     ],
     "recommendedSettings": {
       "needleType": "Agulha SES Ponta Bola Leve 75/11",
@@ -208739,7 +208800,20 @@
       "speedPPM": "750 a 900 PPM",
       "density": "0,42 mm a 0,45 mm",
       "pullCompensation": "+0,35 mm"
-    }
+    },
+    "code": "F-106",
+    "matrixRelations": [
+      "Elasticidade e Recuperação: A combinação de núcleo de poliéster com capa de poliamida exige compensação de puxão de 0,35 mm a 0,40 mm.",
+      "Densidade de Ponto: Permite pontos finíssimos e densidades compactas sem rasgar tecidos elásticos.",
+      "Formação de Laço Estável: A elasticidade controlada do bicomponente forma laços amplos e estáveis na lançadeira.",
+      "Resistência à Tração: Suporta velocidades elevadas (850 a 1.000 RPM) com índice quase nulo de quebras."
+    ],
+    "howToIdentify": [
+      "Laçadas frouxas no avesso pós-costura: relaxamento elástico de linha esticada em tensores desregulados.",
+      "Linha brilhando com tonalidades duplas sutis sob luz polarizada: efeito visual característico da fibra bicomponente.",
+      "Costura acompanhando o estiramento de roupas fitness sem estalar pontos: filamento bicomponente em ação.",
+      "Ausência total de quebras mesmo em desenhos densos com curvas fechadas: alta tenacidade mecânica."
+    ]
   },
   {
     "id": "f-novo-006-fibra-natural-vs-fibra-sintetica-bastidor",
@@ -208782,11 +208856,11 @@
     "practicalExercise": "Pegue um retalho de tricoline 100% algodão e um de cetim 100% poliéster. Prenda ambos no bastidor com a mesma tensão. Dê leves batidinhas no centro e sinta como o algodão soa como um tambor firme, enquanto o poliéster tende a escorregar nas bordas.",
     "quickSummary": "Compreensão das diferenças de elasticidade, retenção de calor e memória entre fibras naturais e sintéticas para calibrar bastidor, agulha e matriz.",
     "relatedTerms": [
-      "Entretela Recortável",
-      "Entretela Rasgável",
-      "Marcas de Bastidor (Hoop Burn)",
-      "Agulha Ponta Bola (Ball Point)",
-      "Compensação de Encolhimento"
+      "Estudo de Retração de Fibras Naturais pós-Lavagem no Bordado",
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Elastano no Bordado: Técnicas para Malhas com Stretch sem Ondular",
+      "Entretela de Água Quente vs. Água Fria: Dissolução Térmica vs. Hidrossolúvel"
     ],
     "recommendedSettings": {
       "needleType": "Naturais: Ponta Ligeiramente Bola 75/11 | Sintéticos: Microtex ou Bola Fina 70/10",
@@ -208794,7 +208868,20 @@
       "speedPPM": "Naturais: 750 a 850 PPM | Sintéticos: 600 a 700 PPM",
       "density": "Naturais: 0,40 mm | Sintéticos: 0,44 mm",
       "pullCompensation": "+0,30 mm a +0,38 mm"
-    }
+    },
+    "code": "F-107",
+    "matrixRelations": [
+      "Comportamento Higroscópico: Fibras naturais (algodão/linho) absorvem umidade e incham; sintéticos (poliéster/poliamida) mantêm forma rígida.",
+      "Compensação de Puxão Diferencial: Fibras naturais exigem compensação moderada (0,30 mm); sintéticos elásticos demandam até 0,50 mm.",
+      "Tipo de Entretela: Rasgadeira para tecidos planos de algodão; recortável de malha para sintéticos com stretch.",
+      "Temperatura do Ferro: Cuidado com fusão de fibras sintéticas em acabamentos com entretela termocolante."
+    ],
+    "howToIdentify": [
+      "Marcas circulares esbranquiçadas permanentes deixadas pelo aro do bastidor: esmagamento térmico de fibras sintéticas delicadas.",
+      "Bordado enrugando dias após a confecção em ambiente úmido: retração higroscópica de fibras naturais.",
+      "Tecido perfurado com pequenos buracos nos vértices: uso de agulha errada para o tipo de fibra.",
+      "Bordado perfeitamente integrado e estável no tecido: correspondência ideal entre tipo de fibra e matriz."
+    ]
   },
   {
     "id": "f-novo-007-fio-metalico-furta-cor-efeito-holografico",
@@ -208837,11 +208924,11 @@
     "practicalExercise": "Borde uma pequena estrela de 4 cm preenchida com ponto tatami usando linha comum e outra idêntica com fio furta-cor a 550 PPM com agulha Metallic. Ilumine com a lanterna do celular e gire a peça para admirar o brilho óptico!",
     "quickSummary": "Linha metalizada com filme de difração prismática que varia de tonalidade com o ângulo da luz, exigindo velocidade moderada e agulha especial com olho alongado.",
     "relatedTerms": [
-      "Fio Metálico para Bordado",
-      "Agulha Especial para Fio Metálico",
-      "Rede de Proteção para Cone",
-      "Silicone Líquido Têxtil",
-      "Ponto Tatami"
+      "Eletricidade Estática no Fio Metálico (Fitas Antiestáticas e Aterramento)",
+      "Estudo de Fricção e Aquecimento de Agulhas com Revestimento de Titânio",
+      "Tensão de Linha Superior (Top Thread Tension Dynamics)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio",
+      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas"
     ],
     "recommendedSettings": {
       "needleType": "Agulha Metallic 80/12 ou Topstitch 90/14",
@@ -208849,7 +208936,20 @@
       "speedPPM": "500 a 600 PPM",
       "density": "0,45 mm a 0,50 mm",
       "pullCompensation": "+0,30 mm"
-    }
+    },
+    "code": "F-108",
+    "matrixRelations": [
+      "Largura de Ponto Cheio: Evitar colunas de ponto Satin menores que 2 mm para não partir a fita metalizada holográfica.",
+      "Densidade Aberta: Abrir a densidade para 0,45 mm a 0,50 mm; pontos muito juntos provocam atrito destrutivo entre fios.",
+      "Subcamada (Underlay): Usar underlay simples em ziguezague com ângulo diferente da camada superior para refletir prismas de luz.",
+      "Velocidade Reduzida: Operar obrigatoriamente entre 500 e 600 RPM com agulha especial Metallic 90/14."
+    ],
+    "howToIdentify": [
+      "Fita holográfica descascando e embolando em forma de sanfona antes da agulha: passagem de linha por tensores muito apertados.",
+      "Linha metálica arrebentando a cada 100 pontos: agulha comum com olho estreito cortando o fio.",
+      "Efeito prismático apagado e fosco: prensagem direta com ferro quente derretendo a película holográfica.",
+      "Reflexo furta-cor exuberante brilhando em arco-íris conforme a peça se move: bordado holográfico perfeito."
+    ]
   },
   {
     "id": "f-novo-008-fio-algodao-mercerizado-bordadeira",
@@ -208892,11 +208992,11 @@
     "practicalExercise": "Borde duas amostras de um mesmo brasão clássico em um tecido de linho: uma usando linha de poliéster comum e outra usando algodão mercerizado. Passe o ferro quente com vapor sobre as duas e sinta a diferença de toque e elegância visual.",
     "quickSummary": "Linha nobre de algodão puro tratada para brilho acetinado e toque natural, insubstituível para enxovais clássicos, rechiliê e peças de alta sofisticação.",
     "relatedTerms": [
-      "Fio de Poliéster para Bordado",
-      "Fio de Viscose / Rayon",
-      "Rechiliê Computadorizado",
-      "Densidade de Pontos",
-      "Tensão da Linha Superior"
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
+      "Estudo de Retração de Fibras Naturais pós-Lavagem no Bordado",
+      "Tensão de Linha Superior (Top Thread Tension Dynamics)",
+      "Chapa de Agulha (Needle Plate)",
+      "Caixa de Bobina (Bobbin Case)"
     ],
     "recommendedSettings": {
       "needleType": "Agulha Bordado ou Universal 75/11 ou 80/12",
@@ -208904,7 +209004,20 @@
       "speedPPM": "550 a 650 PPM",
       "density": "0,45 mm a 0,48 mm",
       "pullCompensation": "+0,30 mm"
-    }
+    },
+    "code": "F-109",
+    "matrixRelations": [
+      "Toque e Volume Têxtil: Fio nobre 100% natural com brilho discreto, perfeito para toalhas de linho, enxovais clássicos e peças sacras.",
+      "Densidade de Ponto: Cobertura opaca generosa permitindo densidade padrão de 0,40 mm sem transparências.",
+      "Tensão Reduzida: Calibrar tensão superior em 85 a 100 gf para prevenir estiramentos e quebras por baixa elasticidade (< 5%).",
+      "Velocidade Operacional: Manter entre 550 e 650 RPM para preservar as fibras de algodão contra atrito térmico."
+    ],
+    "howToIdentify": [
+      "Fio arrebentando com a ponta esfiapada em forma de vassourinha: excesso de tensão ou fricção em agulha cega.",
+      "Penugem de felpas brancas acumulando na caixa de bobina após 1 hora de bordado: desgaste natural de fibras curtas de algodão.",
+      "Bordado desbotando após lavagem com cloro: algodão atacado por agentes alvejantes clorados.",
+      "Aspecto artesanal de bordado à mão com toque ultra-suave e sem brilho plástico: algodão mercerizado autêntico."
+    ]
   },
   {
     "id": "f-novo-009-fita-gorgurao-bordado-lacos",
@@ -208947,11 +209060,11 @@
     "practicalExercise": "Coloque entretela no bastidor, borde uma linha de 10 cm de ponto corrido. Cole uma fita de gorgurão de 38 mm sobre ela com fita crepe nas pontas e borde uma palavra de 5 letras. Retire e veja como a fita permaneceu perfeitamente alinhada.",
     "quickSummary": "Fita canelada de alta resistência ideal para laços e alças, bordada com o método de flutuação sobre entretela com alinhamento milimétrico.",
     "relatedTerms": [
-      "Flutuação de Peças Pequenas",
-      "Fita Crepe para Bastidor",
-      "Função Baste / Alinhavo Automático",
-      "Agulha Microtex",
-      "Ponto Cheio (Satin)"
+      "Entretela Autoadesiva Peel-and-Stick (Bordando sem Bastidor / Fast Frames)",
+      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio",
+      "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas"
     ],
     "recommendedSettings": {
       "needleType": "Agulha Microtex 70/10 ou Universal 75/11",
@@ -208959,7 +209072,20 @@
       "speedPPM": "650 a 700 PPM",
       "density": "0,40 mm a 0,42 mm",
       "pullCompensation": "+0,25 mm"
-    }
+    },
+    "code": "F-110",
+    "matrixRelations": [
+      "Estrutura Canelada: As nervuras horizontais do gorgurão exigem alinhamento do ângulo de ponto a 45° para não cair nos sulcos da fita.",
+      "Bastidorização Flutuante: Fixar a fita estreita sobre entretela rasgadeira adesiva ou com fita dupla-face sem prender no aro.",
+      "Compensação de Puxão: Ajustar entre 0,30 mm e 0,35 mm para evitar que o ponto repuxe e estreite a largura da fita.",
+      "Densidade de Microletras: Nomes em laços infantis exigem pontos acetinados delicados com densidade 0,38 mm."
+    ],
+    "howToIdentify": [
+      "Fita de gorgurão torta ou com bordas enrugadas após o bordado: fixação sem alinhamento reto sobre a entretela adesiva.",
+      "Letras afundando e sumindo entre as canaletas da fita: ângulo de ponto paralelo à textura do gorgurão.",
+      "Fita desfiando nas pontas durante o manuseio: corte executado sem selagem a quente ou sem termolina.",
+      "Laço com nome perfeitamente centralizado, plano e com letras nítidas: bordado em gorgurão de excelência."
+    ]
   },
   {
     "id": "f-novo-010-fita-sarja-cadarco-algodao-bastidor",
@@ -209003,10 +209129,10 @@
     "quickSummary": "Fita de algodão macia com ligamento diagonal, padrão para etiquetas de marca e aventais, bordada com o método de gabarito flutuante.",
     "relatedTerms": [
       "Fita de Gorgurão para Bordado e Laços",
-      "Flutuação de Peças Pequenas",
-      "Compensação de Encolhimento",
-      "Underlay de Ponto Suporte",
-      "Termolina Leitosa"
+      "Entretela Autoadesiva Peel-and-Stick (Bordando sem Bastidor / Fast Frames)",
+      "Ponto Satin (Ponto Cheio / Coluna de Ponto Cheio)",
+      "Compensação de Encolhimento (Pull Compensation)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio"
     ],
     "recommendedSettings": {
       "needleType": "Agulha Ponta Bola Leve (SES) 75/11",
@@ -209014,7 +209140,20 @@
       "speedPPM": "650 a 700 PPM",
       "density": "0,42 mm",
       "pullCompensation": "+0,30 mm"
-    }
+    },
+    "code": "F-111",
+    "matrixRelations": [
+      "Bordado Contínuo em Tiras: Ideal para alças de sacolas ecológicas, aventais e fitas personalizadas de embalagem de luxo.",
+      "Orientação da Trama em Diagonal: A sarja possui nervuras diagonais (twill), exigindo compensação cruzada para não repuxar.",
+      "Alinhave Perimetral (Basting): Indispensável executar moldura de fixação para garantir que o cadarço não entorte.",
+      "Densidade Moderada: Evitar pontos excessivamente juntos que perfurem o cadarço estreito como linha de picote."
+    ],
+    "howToIdentify": [
+      "Cadarço de algodão torcido em espiral após sair da máquina: puxão assimétrico por falta de estabilização da fita.",
+      "Letras tortas ou saindo pelas bordas da fita: falha de alinhamento com a linha de centro do bastidor.",
+      "Cadarço encolhendo após passar a ferro com vapor: algodão cru não pré-encolhido.",
+      "Alça personalizada com logotipo reto, pontos firmes e acabamento de alfaiataria: execução técnica impecável."
+    ]
   },
   {
     "id": "f-novo-011-faca-superior-inferior-corte-automatico-linha",
@@ -209057,11 +209196,11 @@
     "practicalExercise": "Com a máquina desligada e a chapa de agulha removida, gire o volante manualmente ou ative a alavanca do trimmer para observar visualmente como a faca móvel avança, laça a linha imaginária e retorna contra a contra-faca.",
     "quickSummary": "Mecanismo sob a chapa que corta automaticamente a linha superior e inferior ao final de cada bloco de cor, exigindo limpeza periódica de felpas.",
     "relatedTerms": [
-      "Corte Automático de Linha (Trimmer)",
-      "Chapa de Agulha",
-      "Ponto de Amarração (Tie-off)",
-      "Linha de Bobina",
-      "Caixa de Bobina"
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio",
+      "Chapa de Agulha (Needle Plate)",
+      "Laçadeira Rotativa (Rotary Hook)",
+      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade)",
+      "Extrator de Parafusos de Chapa, Chave Moeda e Chave Angular"
     ],
     "recommendedSettings": {
       "needleType": "Padrão da máquina",
@@ -209069,7 +209208,20 @@
       "speedPPM": "Corte executado com máquina desacelerada (~150 PPM)",
       "density": "Padrão",
       "pullCompensation": "Padrão"
-    }
+    },
+    "code": "F-112",
+    "matrixRelations": [
+      "Mecânica de Corte (Trimmer): Conjunto de faca móvel oscilante e lâmina fixa que guilhotina as linhas superior e inferior.",
+      "Comandos de Corte na Matriz: Sincronismo perfeito entre paradas de cor, saltos programados e pontos de arremate.",
+      "Pressão da Mola da Contra-Faca: Calibração de pressão para corte limpo sem 'mastigar' fios de poliéster 120/2.",
+      "Comprimento da Sobra Inicial: Ajuste para deixar entre 20 mm e 30 mm de ponta de linha para a agulha iniciar a próxima cor."
+    ],
+    "howToIdentify": [
+      "Linha superior escapando do olho da agulha na retomada pós-corte: faca cortando a sobra de linha muito curta.",
+      "Linha não sendo cortada e deixando fios compridos atravessando a matriz: faca móvel sem corte ou dente com rebarba.",
+      "Estalo metálico forte ou travamento com alarme de erro de trimmer: fio embolado ou faca presa no retorno.",
+      "Corte seco, silencioso e preciso sem pontas soltas na frente da peça: facas perfeitamente afiadas e ajustadas."
+    ]
   },
   {
     "id": "f-novo-012-folga-axial-eixo-lancadeira",
@@ -209112,11 +209264,11 @@
     "practicalExercise": "Retire a caixa de bobina da sua máquina desligada. Com a ponta do indicador, empurre e puxe a ponta da lançadeira para sentir se há algum estalo ou deslocamento para frente e para trás. Em uma máquina bem calibrada, a sensação ao toque é de total firmeza e solidez.",
     "quickSummary": "Tolerância mecânica de movimento longitudinal do eixo da lançadeira que deve ser próxima de zero para garantir a captura milimétrica da linha da agulha.",
     "relatedTerms": [
-      "Lançadeira Rotativa",
-      "Sincronismo Agulha-Lançadeira",
-      "Caixa de Bobina",
-      "Ponto Falso / Ponto Falhado",
-      "Chapa de Agulha"
+      "Engrenagem Cônica Helicoidal da Lançadeira (Ajuste de Folga Angular e Graxa)",
+      "Laçadeira Rotativa (Rotary Hook)",
+      "Chapa de Agulha (Needle Plate)",
+      "Eixo Excêntrico da Barra de Agulha: Mecânica e Calibração de Folga",
+      "Dinamômetro Têxtil e Medidor de Tensão Towa (Towa Bobbin & Top Thread Tension Gauge)"
     ],
     "recommendedSettings": {
       "needleType": "Universal ou Bordado",
@@ -209124,7 +209276,20 @@
       "speedPPM": "Não aplicável (manutenção mecânica)",
       "density": "Não aplicável",
       "pullCompensation": "Não aplicável"
-    }
+    },
+    "code": "F-113",
+    "matrixRelations": [
+      "Folga Longitudinal do Eixo: Movimentação axial permitida entre 0,02 mm e 0,05 mm para impedir oscilação do bico do gancho.",
+      "Sincronismo com a Cava da Agulha: Folga excessiva afasta o bico da lançadeira, provocando falha na captura do laço (ponto pulado).",
+      "Colisão Mecânica: Se a folga axial for nula ou o eixo correr para frente, o gancho colide com a agulha, quebrando ambas.",
+      "Engrenagens Helicoidais: A estabilidade axial garante engrenamento correto com a engrenagem cônica de transmissão."
+    ],
+    "howToIdentify": [
+      "Ponto pulado intermitente sem motivo aparente na mesma cabeça de bordar: jogo longitudinal no eixo da lançadeira.",
+      "Bico da lançadeira com marca prateada de raspagem na agulha: eixo avançando para a frente durante a costura.",
+      "Lançadeira com folga sentida ao puxar o eixo para frente e para trás com os dedos: colar de fixação frouxo.",
+      "Giro firme, suave e sem deslocamento longitudinal: folga axial perfeitamente ajustada na tolerância de fábrica."
+    ]
   },
   {
     "id": "f-novo-013-filtro-ruido-eletromagnetico-aterramento-maquina",
@@ -209167,11 +209332,11 @@
     "practicalExercise": "Verifique a tomada onde sua bordadeira está ligada: confirme se ela possui os 3 pinos conectados. Com um testador de tomadas simples de LED (encontrado em lojas de material elétrico), plugue na tomada e confira se a luz de 'Terra OK' acende.",
     "quickSummary": "Infraestrutura elétrica com filtro de linha e terra real que protege os microprocessadores da máquina contra estática e picos de voltagem da rede.",
     "relatedTerms": [
-      "Painel Touchscreen da Máquina",
-      "Deslocamento de Eixo (Loss of Step)",
-      "Placa-Mãe da Bordadeira",
-      "Motor de Passo do Pantógrafo",
-      "Limpeza e Lubrificação Periódica"
+      "Fusível de Ação Rápida da Fonte de Alimentação",
+      "Eletricidade Estática no Fio Metálico (Fitas Antiestáticas e Aterramento)",
+      "Eixo Cardan do Pantógrafo (Alinhamento de Eixos X e Y em Multicabeças)",
+      "Encoder Óptico de Rotação do Eixo Principal (Controle de Graus e Sincronismo)",
+      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade)"
     ],
     "recommendedSettings": {
       "needleType": "Não aplicável",
@@ -209179,7 +209344,20 @@
       "speedPPM": "Não aplicável",
       "density": "Não aplicável",
       "pullCompensation": "Não aplicável"
-    }
+    },
+    "code": "F-114",
+    "matrixRelations": [
+      "Proteção dos Servomotores X/Y: Bloqueia interferências de radiofrequência da rede elétrica que causam perda de passos no pantógrafo.",
+      "Estabilidade do Display Touchscreen: Evita travamentos de tela e comandos fantasmas durante a costura em alta velocidade.",
+      "Aterramento Obrigatório: Haste de aterramento com resistência inferior a 5 ohms para descarregar estática acumulada.",
+      "Preservação da Placa-Mãe: Evita queima de microprocessadores e memórias flash por surtos de tensão."
+    ],
+    "howToIdentify": [
+      "Bordado 'deslocando o desenho' de repente no meio do trabalho sem colisão física de bastidor: ruído eletromagnético nos drivers de passo.",
+      "Tela touch da máquina travando ou reiniciando sozinha quando o ar-condicionado ou motor potente liga na oficina.",
+      "Pequenos choques elétricos sentidos ao encostar na carcaça metálica da máquina: falta de aterramento elétrico adequado.",
+      "Máquina operando por milhares de pontos com precisão contínua e painel estável: rede filtrada e aterrada."
+    ]
   },
   {
     "id": "f-novo-014-flange-excentrica-ajuste-calcador",
@@ -209222,11 +209400,11 @@
     "practicalExercise": "Coloque um sanduíche de duas toalhas no bastidor. Gire o volante na mão até a agulha descer ao máximo. Observe a distância entre a base de metal do calcador e a toalha: deve haver espaço para passar uma folha de papel dobrada sem prender.",
     "quickSummary": "Came mecânico que regula a altura e o curso do calcador oscilante, adaptando a pressão para tecidos finos, toalhas felpudas ou relevos 3D.",
     "relatedTerms": [
-      "Pézinho Calcador de Bordado",
-      "Flagging (Elevação do Tecido)",
-      "Bordado 3D em Relevo com EVA",
-      "Barra de Agulha",
-      "Chapa de Agulha"
+      "Escala de Dureza Shore de Borrachas e Espumas para Alto Relevo 3D",
+      "Eixo de Transporte Superior / Calcador de Avanço Duplo",
+      "Chapa de Agulha (Needle Plate)",
+      "Excêntrico de Acionamento da Barra de Agulha e Balanceamento Dinâmico",
+      "Compensação de Encolhimento (Pull Compensation)"
     ],
     "recommendedSettings": {
       "needleType": "Padrão",
@@ -209234,7 +209412,20 @@
       "speedPPM": "Padrão",
       "density": "Padrão",
       "pullCompensation": "Padrão"
-    }
+    },
+    "code": "F-115",
+    "matrixRelations": [
+      "Controle do Efeito 'Flagging': Evita que o tecido suba junto com a agulha durante o recuo da laçada.",
+      "Ajuste de Altura para Peças Espessas: Permite elevar o calcador de 1,0 mm para 2,5 mm ao bordar bonés, mantas ou couro grosso.",
+      "Folga Operacional Segura: O calcador deve prensar o tecido no momento da descida da agulha e liberar a movimentação no ponto morto superior.",
+      "Estabilidade de Ponto 3D: Regulagem essencial para evitar esmagamento do EVA em bordados de alto relevo."
+    ],
+    "howToIdentify": [
+      "Tecido subindo e batendo contra o pé calcador com ruído de 'chicote': calcador regulado alto demais para tecido fino.",
+      "Marcas profundas e brilho de atrito deixados no tecido ao redor de cada ponto: calcador baixo demais esmagando as fibras.",
+      "Ponto frouxo ou agulha quebrando por flexão do tecido: falta de sustentação no momento da penetração.",
+      "Movimento rítmico suave do calcador que segura o tecido no milímetro exato sem marcar: flange excêntrica calibrada."
+    ]
   },
   {
     "id": "f-novo-016-freio-cone-linha-disco-amortecimento",
@@ -209277,11 +209468,11 @@
     "practicalExercise": "Gire com o dedo um carretel no pino da sua máquina sem o feltro embaixo e conte quantos giros ele dá sozinho. Em seguida, coloque o disco de feltro amortecedor e tente girar novamente. Observe como a parada é instantânea e controlada.",
     "quickSummary": "Almofada de amortecimento e fricção que evita o desenrolamento inercial descontrolado do carretel durante as paradas e arranques da bordadeira.",
     "relatedTerms": [
-      "Porta-Fios e Mastro da Máquina",
-      "Rede de Proteção para Cone",
-      "Tensão da Linha Superior",
-      "Fio Metálico para Bordado",
-      "Corte Automático de Linha (Trimmer)"
+      "Flauta Guia-Fio com Banho de Titânio",
+      "Tensão de Linha Superior (Top Thread Tension Dynamics)",
+      "Estrutura de Fio de Poliéster Trilobal 120/2 vs. Algodão Mercerizado",
+      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio"
     ],
     "recommendedSettings": {
       "needleType": "Padrão",
@@ -209289,7 +209480,20 @@
       "speedPPM": "Padrão",
       "density": "Padrão",
       "pullCompensation": "Padrão"
-    }
+    },
+    "code": "F-116",
+    "matrixRelations": [
+      "Eliminação do Efeito Inércia: Impede que o cone de linha continue desenrolando sozinho quando a máquina desacelera bruscamente.",
+      "Prevenção de Laçadas Caídas: Evita que a linha caia na base do carretel e enrosque no pino do mastro superior.",
+      "Flutuação de Tensão: Mantém a saída do fio contínua, evitando trancos que alteram o equilíbrio de 1/3 no avesso.",
+      "Uso em Cones Grandes (5.000m): Indispensável para carretéis pesados industriais instalados em mastros altos."
+    ],
+    "howToIdentify": [
+      "Linha enrolando na base plástica do cone e arrebentando com um tranco violento: falta de disco de espuma ou feltro sob o carretel.",
+      "Linha balançando em laços soltos entre o cone e o primeiro passa-fio durante paradas: cone girando solto por inércia.",
+      "Ruído de cone vibrando e batendo no prato metálico do mastro em altas rotações: carretilha desbalanceada sem amortecedor.",
+      "Fio subindo reto, suave e contínuo direto para o olhal de cerâmica: freio de cone e amortecimento em pleno funcionamento."
+    ]
   },
   {
     "id": "f-novo-017-fusivel-acao-rapida-fonte-alimentacao",
@@ -209332,11 +209536,11 @@
     "practicalExercise": "Localize no manual da sua máquina de bordar onde fica o compartimento do fusível de força. Identifique qual é a amperagem e voltagem recomendada e verifique se você possui ao menos uma unidade de reserva no seu ateliê.",
     "quickSummary": "Dispositivo fusível de sacrifício ultrarrápido que corta a energia em milissegundos para proteger os circuitos microprocessados contra sobrecorrente.",
     "relatedTerms": [
-      "Placa-Mãe da Bordadeira",
-      "Filtro de Ruído Eletromagnético",
-      "Motor de Passo do Pantógrafo",
-      "Chapa de Agulha",
-      "Deslocamento de Eixo (Loss of Step)"
+      "Filtro de Ruído Eletromagnético e Aterramento da Máquina",
+      "Eixo Cardan do Pantógrafo (Alinhamento de Eixos X e Y em Multicabeças)",
+      "Encoder Óptico de Rotação do Eixo Principal (Controle de Graus e Sincronismo)",
+      "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade)",
+      "Chapa de Agulha (Needle Plate)"
     ],
     "recommendedSettings": {
       "needleType": "Não aplicável",
@@ -209344,7 +209548,20 @@
       "speedPPM": "Não aplicável",
       "density": "Não aplicável",
       "pullCompensation": "Não aplicável"
-    }
+    },
+    "code": "F-117",
+    "matrixRelations": [
+      "Proteção de Circuitos de Potência: Desconexão em milissegundos na ocorrência de sobrecorrente ou curto nos motores de passo.",
+      "Prevenção de Danos Catastróficos: Sacrifica o fusível para salvar a placa controladora principal que custa milhares de reais.",
+      "Especificação Rápida (Fast-Acting): Uso obrigatório de fusíveis de vidro/cerâmica de ação rápida (F), nunca ação retardada (T).",
+      "Dimensionamento de Corrente: Substituição rigorosa pela amperagem original indicada no manual (ex: 3,15A ou 5A)."
+    ],
+    "howToIdentify": [
+      "Máquina totalmente apagada que não liga o display nem acende leds após pico de energia: fusível de entrada rompido.",
+      "Filamento interno de vidro do fusível partido ou com mancha preta de queimado: sobrecarga elétrica interrompida com sucesso.",
+      "Máquina desligando repentinamente ao acelerar o pantógrafo: fusível com fadiga ou amperagem incorreta.",
+      "Alimentação estável e proteção integral contra curtos-circuitos acidentais: fusível íntegro e bem dimensionado."
+    ]
   },
   {
     "id": "f-novo-018-flauta-guia-fio-banho-titanio",
@@ -209387,11 +209604,11 @@
     "practicalExercise": "Passe a ponta da unha ou uma agulha de costura bem de leve pela borda interna dos passa-fios da sua máquina. Se você sentir algum 'degrauzinho' ou ranhura afiada onde a linha costuma roçar, esse guia precisa ser polido ou trocado por um modelo com banho de titânio ou cerâmica.",
     "quickSummary": "Barra guia com orifícios revestidos de nitreto de titânio ultra-resistente que conduz os fios sem sofrer desgaste ou abrir ranhuras afiadas por atrito.",
     "relatedTerms": [
-      "Porta-Fios e Mastro da Máquina",
-      "Olhal de Cerâmica para Passagem de Linha",
-      "Tensão da Linha Superior",
-      "Fio Metálico para Bordado",
-      "Fio de Poliéster para Bordado"
+      "Freio do Cone de Linha e Disco de Amortecimento",
+      "Tensão de Linha Superior (Top Thread Tension Dynamics)",
+      "Estudo de Fricção e Aquecimento de Agulhas com Revestimento de Titânio",
+      "Eletricidade Estática no Fio Metálico (Fitas Antiestáticas e Aterramento)",
+      "Extrator de Linha, Pinça Cirúrgica de Precisão e Pega-Fio"
     ],
     "recommendedSettings": {
       "needleType": "Não aplicável",
@@ -209399,7 +209616,20 @@
       "speedPPM": "Adequado para velocidades até 1.200 PPM",
       "density": "Não aplicável",
       "pullCompensation": "Não aplicável"
-    }
+    },
+    "code": "F-118",
+    "matrixRelations": [
+      "Condução Suave de Múltiplas Cores: Tubo guia superior com furos individuais por agulha para direcionar os fios do mastro aos tensores.",
+      "Revestimento Anti-Desgaste de Nitreto de Titânio: Dureza extrema que impede a linha de poliéster de 'serrar' canaletas no metal.",
+      "Redução do Coeficiente de Atrito: O banho dourado de titânio reduz a fricção superficial em até 40% em relação ao aço cru.",
+      "Preservação de Fios Especiais: Protege a película externa de fios metalizados e fios foscos contra desfiamentos."
+    ],
+    "howToIdentify": [
+      "Fio prendendo em pequenos 'cortes' ou ranhuras serrilhadas nos tubos guia da máquina: desgaste por atrito em guias sem titânio.",
+      "Linha arrebentando no trajeto superior antes de chegar aos tensores principais: rebarbas na entrada da flauta guia.",
+      "Tonalidade dourada brilhante uniforme nos olhais de passagem de linha: revestimento de titânio íntegro e protetor.",
+      "Deslizamento silencioso e sem resistência em todas as agulhas do cabeçote: flauta guia perfeitamente polida."
+    ]
   },
   {
     "id": "f-novo-019-fixador-rapido-bastidor-engate-pneumatico",
