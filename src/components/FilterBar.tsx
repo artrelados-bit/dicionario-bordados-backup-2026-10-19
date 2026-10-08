@@ -153,8 +153,8 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         </div>
       </div>
 
-      {/* Alphabetical Jumper Bar (A-Z) - Centered */}
-      <div className="flex items-center justify-center space-x-1 overflow-x-auto pb-1 scrollbar-none border-t border-slate-100 pt-2 text-xs">
+      {/* Alphabetical Jumper Bar (A-Z) - Responsive alignment */}
+      <div className="flex items-center justify-start md:justify-center space-x-1 overflow-x-auto pb-1 scrollbar-none border-t border-slate-100 pt-2 text-xs px-1">
         <span className="text-slate-400 text-[11px] font-extrabold tracking-wider uppercase mr-2 shrink-0">
           {currentLanguage === "es" ? "Índice:" : "Índice:"}
         </span>
