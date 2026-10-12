@@ -744,20 +744,18 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
               </div>
 
               {/* Recomendação da CABE - Calculadora Oficial Artrelados */}
-              <div className="pt-2.5 border-t border-amber-300/70 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2.5">
-                <p className="text-amber-950 font-bold text-[11px] sm:text-xs leading-relaxed">
-                  Conheça a Calculadora Oficial Artrelados (CABE) e transforme a gestão e a precificação do seu ateliê:
-                </p>
+              <div className="pt-2.5 border-t border-amber-300/70">
                 <a
                   href="https://www.artrelados.com.br/calculadora-de-bordados-a-maquina-br"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center space-x-1.5 px-3.5 py-1.5 rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-950 font-black text-[11px] tracking-wide transition shadow-2xs hover:shadow-xs shrink-0 cursor-pointer border border-amber-500/40"
+                  className="group inline-flex items-center gap-1.5 text-amber-950 hover:text-amber-800 font-bold text-[11px] sm:text-xs leading-relaxed transition-colors cursor-pointer"
                   title="Conhecer a Calculadora Oficial Artrelados"
                 >
-                  <Calculator className="w-3.5 h-3.5 text-slate-950" />
-                  <span>Acessar a CABE</span>
-                  <ExternalLink className="w-3 h-3 text-slate-950" />
+                  <span className="underline decoration-amber-600/60 decoration-1 underline-offset-2 group-hover:decoration-amber-900">
+                    Conheça a Calculadora Oficial Artrelados (CABE) e transforme a gestão e a precificação do seu ateliê
+                  </span>
+                  <ExternalLink className="w-3.5 h-3.5 text-amber-800 shrink-0 group-hover:translate-x-0.5 transition-transform" />
                 </a>
               </div>
             </div>
