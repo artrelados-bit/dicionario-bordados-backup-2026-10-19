@@ -11,7 +11,9 @@ import {
   Lightbulb,
   Layers,
   Heart,
-  BookOpen
+  BookOpen,
+  Calculator,
+  ExternalLink
 } from "lucide-react";
 import { SupportedLanguage } from "../utils/i18n";
 import { INITIAL_VERBETES } from "../data/initialDictionary";
@@ -339,12 +341,12 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
         relatedDibeTerms: matches.map((m) => m.term),
         followUpQuestions: [
           {
-            label: `🔍 Mais sobre ${matches[0].term.slice(0, 22)}...`,
+            label: `🔍 Mais sobre ${matches[0].term.slice(0, 20)}...`,
             prompt: `Como aplicar na prática as recomendações do verbete ${matches[0].term} na minha máquina?`,
           },
           matches[1]
             ? {
-                label: `🧵 Ver ${matches[1].term.slice(0, 22)}...`,
+                label: `🧵 Ver ${matches[1].term.slice(0, 20)}...`,
                 prompt: `Quais os segredos e parâmetros técnicos para ${matches[1].term}?`,
               }
             : {
@@ -352,8 +354,8 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
                 prompt: "Como regular a tensão da linha e da bobina para esse tipo de bordado?",
               },
           {
-            label: "💡 Teste em Retalho & Prevenção",
-            prompt: "Como planejar um teste rápido em retalho para garantir segurança total nesta peça?",
+            label: "🏷️ Como Precificar este Bordado",
+            prompt: "Como calcular o custo e o preço de venda correto para esse bordado no meu ateliê?",
           },
         ],
       };
@@ -380,6 +382,20 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
       relatedDibeTerms: [
         "Estabilização e Entretelas para Bordado Computadorizado",
         "Regulagem de Tensão da Linha e Bobina"
+      ],
+      followUpQuestions: [
+        {
+          label: "🧵 Tensão e Linha de Bobina",
+          prompt: "Como regular a tensão da bobina para o avesso ficar perfeito?",
+        },
+        {
+          label: "🛡️ Escolha da Entretela",
+          prompt: "Como saber a entretela ideal para cada tipo de tecido no bordado?",
+        },
+        {
+          label: "🏷️ Como Precificar este Bordado",
+          prompt: "Como calcular o custo e o preço de venda ideal para este bordado no meu ateliê?",
+        },
       ],
     };
   };
@@ -409,6 +425,22 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
 
       const data = await res.json();
       if (data.success && data.advice) {
+        // Garante que a pergunta de precificação esteja sempre presente nas opções de aprofundamento
+        const hasPricing = data.advice.followUpQuestions?.some(
+          (q: any) =>
+            q.label?.toLowerCase().includes("precifica") ||
+            q.prompt?.toLowerCase().includes("precifica")
+        );
+        if (!hasPricing) {
+          const currentList = data.advice.followUpQuestions || [];
+          data.advice.followUpQuestions = [
+            ...currentList.slice(0, 2),
+            {
+              label: "🏷️ Como Precificar este Bordado",
+              prompt: `Como calcular o custo e o preço de venda ideal para este bordado de ${textToSubmit.slice(0, 40)} no meu ateliê?`,
+            },
+          ];
+        }
         setAdvice(data.advice);
       } else {
         throw new Error(data.error || "Não foi possível gerar a consultoria no momento.");
@@ -436,6 +468,7 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
       (advice.recommendedMaterials.specialTools ? `• Ferramentas: ${advice.recommendedMaterials.specialTools}\n` : "") +
       `\n🛡️ *Prevenção:* ${advice.preventiveAdvice}\n\n` +
       `💡 *Dica de Ouro Artrelados:* ${advice.artreladosGoldenTip}\n\n` +
+      `📊 *Calculadora Oficial Artrelados (CABE):* Conheça a ferramenta oficial e transforme a gestão e a precificação do seu ateliê: https://www.artrelados.com.br/calculadora-de-bordados-a-maquina-br\n\n` +
       (advice.relatedDibeTerms && advice.relatedDibeTerms.length > 0 ? `📚 *Verbetes do DIBE Consultados:* ${advice.relatedDibeTerms.join(", ")}\n\n` : "") +
       `_Compêndio Oficial DIBE Artrelados • www.artrelados.com.br_`;
 
@@ -697,15 +730,35 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
 
           {/* Section 4: Golden Tip Artrelados */}
           {advice.artreladosGoldenTip && (
-            <div className="p-4 rounded-2xl bg-gradient-to-r from-amber-400/20 via-amber-300/30 to-yellow-200/20 border-2 border-amber-400/60 flex items-start space-x-3">
-              <Lightbulb className="w-5 h-5 text-amber-700 shrink-0 mt-0.5" />
-              <div className="space-y-0.5">
-                <span className="text-[11px] font-black text-amber-950 uppercase tracking-wider block">
-                  Dica de Ouro Artrelados:
-                </span>
-                <p className="text-xs sm:text-sm text-slate-900 font-extrabold leading-relaxed">
-                  {advice.artreladosGoldenTip}
+            <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-amber-400/20 via-amber-300/30 to-yellow-200/20 border-2 border-amber-400/60 flex flex-col space-y-3">
+              <div className="flex items-start space-x-3">
+                <Lightbulb className="w-5 h-5 text-amber-700 shrink-0 mt-0.5" />
+                <div className="space-y-0.5">
+                  <span className="text-[11px] font-black text-amber-950 uppercase tracking-wider block">
+                    Dica de Ouro Artrelados:
+                  </span>
+                  <p className="text-xs sm:text-sm text-slate-900 font-extrabold leading-relaxed">
+                    {advice.artreladosGoldenTip}
+                  </p>
+                </div>
+              </div>
+
+              {/* Recomendação da CABE - Calculadora Oficial Artrelados */}
+              <div className="pt-2.5 border-t border-amber-300/70 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2.5">
+                <p className="text-amber-950 font-bold text-[11px] sm:text-xs leading-relaxed">
+                  Conheça a Calculadora Oficial Artrelados (CABE) e transforme a gestão e a precificação do seu ateliê:
                 </p>
+                <a
+                  href="https://www.artrelados.com.br/calculadora-de-bordados-a-maquina-br"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center space-x-1.5 px-3.5 py-1.5 rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-950 font-black text-[11px] tracking-wide transition shadow-2xs hover:shadow-xs shrink-0 cursor-pointer border border-amber-500/40"
+                  title="Conhecer a Calculadora Oficial Artrelados"
+                >
+                  <Calculator className="w-3.5 h-3.5 text-slate-950" />
+                  <span>Acessar a CABE</span>
+                  <ExternalLink className="w-3 h-3 text-slate-950" />
+                </a>
               </div>
             </div>
           )}
