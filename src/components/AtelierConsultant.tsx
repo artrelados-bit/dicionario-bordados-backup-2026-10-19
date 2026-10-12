@@ -79,6 +79,29 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
   const getOfflineFallbackAdvice = (query: string): ConsultantAdvice => {
     const q = query.toLowerCase();
 
+    if ((q.includes("fralda") || q.includes("bebê") || q.includes("bebe")) && (q.includes("iniciante") || q.includes("começar") || q.includes("comeco") || q.includes("como bordar") || q.includes("primeir") || q.includes("encomenda"))) {
+      return {
+        title: "Primeira Fraldinha Perfeita: Guia Completo para Iniciantes no Bordado de Bebê",
+        situationSummary:
+          "Bordar fraldas de bebê é um dos trabalhos mais gratificantes e procurados no ateliê. Por ser um tecido delicado e destinado à pele sensível do recém-nascido, o segredo do sucesso está na estabilização suave e no carinho com o acabamento.",
+        rescueActionPlan: [
+          "Estabilização Suave (Sem Rigidez): Utilize entretela hidrossolúvel ou entretela rasgável macia especial para bebê (35g a 40g). Nunca use entretelas grossas de alfaiataria que deixam a peça dura.",
+          "Agulha e Linha Adequadas: Use agulha ponta bola fina (calibre 70/10 ou 75/11) para preservar os fios do tecido sem criar furinhos, e linha de bobina macia 150/2 específica para bordado computadorizado.",
+          "Proteção Aveludada no Avesso: Ao terminar de bordar e limpar os fios, aplique no verso uma película termocolante suave (Protege Bebê / Cover The Back) com ferro morno sem vapor para selar os nozinhos com toque de veludo.",
+        ],
+        recommendedMaterials: {
+          stabilizer: "Entretela rasgável especial para bebê 35g ou entretela hidrossolúvel",
+          needle: "Agulha 70/10 ou 75/11 ponta bola fina (SES)",
+          thread: "Linha de poliéster brilhante 120D/2 e linha de bobina macia 150/2",
+          specialTools: "Película termocolante protege bebê e tesourinha curva de arremate",
+        },
+        preventiveAdvice:
+          "Dê preferência a matrizes leves com traços delicados, contornos suaves ou pontos rippled, evitando áreas com excesso de densidade de pontos que possam enrijecer o tecido da fralda.",
+        artreladosGoldenTip:
+          "Faça sempre um teste prévio com o nome em um pedacinho de retalho de fralda antes de colocar a peça oficial no bastidor. Isso garante segurança total e zero desperdício!",
+      };
+    }
+
     if (q.includes("fralda") || q.includes("bebê") || q.includes("bebe") || q.includes("avesso") || q.includes("áspero") || q.includes("aspero") || q.includes("grosso") || q.includes("machucar")) {
       return {
         title: "Resgate da Fraldinha: Como Proteger a Pele do Bebê e Salvar a Peça Pronta",

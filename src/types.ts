@@ -41,8 +41,10 @@ export interface Verbete {
   grammarClass?: string;
   origin?: string;
   pronunciation?: string;
-  summary: string;
-  definition: string;
+  summary?: string;
+  definition?: string;
+  shortDescription?: string;
+  detailedDescription?: string;
   technicalDetails?: string;
   beginnerExplanation?: string;
   construction?: string[];

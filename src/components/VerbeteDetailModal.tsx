@@ -329,7 +329,7 @@ export const VerbeteDetailModal: React.FC<VerbeteDetailModalProps> = ({
             <strong className="text-amber-900 font-extrabold block mb-1 uppercase text-xs tracking-wider">
               {t.modalQuickSummary}:
             </strong>
-            {verbete.summary}
+            {verbete.summary || verbete.shortDescription || verbete.definition}
           </div>
 
           {/* Stitch Diagram if exists */}

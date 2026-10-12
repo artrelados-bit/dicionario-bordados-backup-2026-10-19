@@ -3,8 +3,8 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { GoogleGenAI } from "@google/genai";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const currentFilePath = fileURLToPath(import.meta.url);
+const currentDirPath = path.dirname(currentFilePath);
 
 async function startServer() {
   const app = express();
@@ -201,9 +201,9 @@ Retorne ESTRITAMENTE um objeto JSON válido (sem blocos de código markdown) com
 
   // Serve app
   if (process.env.NODE_ENV === "production") {
-    app.use(express.static(path.resolve(__dirname, "dist")));
+    app.use(express.static(path.resolve(currentDirPath, "dist")));
     app.get("*", (req, res) => {
-      res.sendFile(path.resolve(__dirname, "dist", "index.html"));
+      res.sendFile(path.resolve(currentDirPath, "dist", "index.html"));
     });
   } else {
     const { createServer: createViteServer } = await import("vite");
