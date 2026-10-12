@@ -10,7 +10,8 @@ import {
   Wrench,
   Lightbulb,
   Layers,
-  Heart
+  Heart,
+  BookOpen
 } from "lucide-react";
 import { SupportedLanguage } from "../utils/i18n";
 
@@ -26,6 +27,7 @@ export interface ConsultantAdvice {
   };
   preventiveAdvice: string;
   artreladosGoldenTip: string;
+  relatedDibeTerms?: string[];
 }
 
 interface AtelierConsultantProps {
@@ -220,6 +222,7 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
       (advice.recommendedMaterials.specialTools ? `• Ferramentas: ${advice.recommendedMaterials.specialTools}\n` : "") +
       `\n🛡️ *Prevenção:* ${advice.preventiveAdvice}\n\n` +
       `💡 *Dica de Ouro Artrelados:* ${advice.artreladosGoldenTip}\n\n` +
+      (advice.relatedDibeTerms && advice.relatedDibeTerms.length > 0 ? `📚 *Verbetes do DIBE Consultados:* ${advice.relatedDibeTerms.join(", ")}\n\n` : "") +
       `_Compêndio Oficial DIBE Artrelados • www.artrelados.com.br_`;
 
     navigator.clipboard.writeText(textToCopy);
@@ -473,6 +476,26 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
               <p className="font-medium">
                 🛡️ <strong>Para as próximas peças:</strong> {advice.preventiveAdvice}
               </p>
+            </div>
+          )}
+
+          {/* Section 6: Official DIBE Verbetes Consulted */}
+          {advice.relatedDibeTerms && advice.relatedDibeTerms.length > 0 && (
+            <div className="pt-3 border-t border-slate-100 space-y-2">
+              <span className="text-[11px] font-black text-slate-600 uppercase tracking-wider flex items-center gap-1.5">
+                <BookOpen className="w-3.5 h-3.5 text-amber-600" />
+                <span>Verbetes do DIBE que fundamentaram esta resposta:</span>
+              </span>
+              <div className="flex flex-wrap gap-1.5">
+                {advice.relatedDibeTerms.map((term, i) => (
+                  <span
+                    key={i}
+                    className="inline-flex items-center px-2.5 py-1 rounded-full bg-amber-50 text-amber-900 border border-amber-200/80 text-[11px] font-bold shadow-2xs"
+                  >
+                    📖 {term}
+                  </span>
+                ))}
+              </div>
             </div>
           )}
         </div>
