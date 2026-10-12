@@ -14,6 +14,8 @@ import {
   BookOpen
 } from "lucide-react";
 import { SupportedLanguage } from "../utils/i18n";
+import { INITIAL_VERBETES } from "../data/initialDictionary";
+import { Verbete } from "../types";
 
 export interface ConsultantAdvice {
   title: string;
@@ -77,34 +79,126 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
     },
   ];
 
-  // Fallback inteligente offline caso não haja conexão com a internet
-  const getOfflineFallbackAdvice = (query: string): ConsultantAdvice => {
-    const q = query.toLowerCase();
+  // Algoritmo local de busca nos mais de 2.900 verbetes do DIBE
+  const searchLocalDibe = (query: string, max = 3): Verbete[] => {
+    const stopWords = new Set([
+      "de", "a", "o", "que", "e", "do", "da", "em", "um", "para", "com", "nao", "uma", "os", "no", "se", "na",
+      "por", "mais", "as", "dos", "como", "mas", "ao", "ele", "das", "seu", "sua", "ou", "quando", "muito",
+      "nos", "ja", "eu", "tambem", "so", "pelo", "pela", "ate", "isso", "ela", "entre", "depois", "sem",
+      "mesmo", "aos", "seus", "quem", "nas", "me", "esse", "eles", "voce", "essa", "num", "nem", "suas",
+      "meu", "minha", "minhas", "meus", "onde", "sou", "peguei", "sei", "qual", "quais", "posso", "pode",
+      "fazer", "comecar", "ajuda", "ajudar", "faco", "primeiro"
+    ]);
 
-    if ((q.includes("fralda") || q.includes("bebê") || q.includes("bebe")) && (q.includes("iniciante") || q.includes("começar") || q.includes("comeco") || q.includes("como bordar") || q.includes("primeir") || q.includes("encomenda"))) {
+    const words = query
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .split(/\W+/)
+      .filter((w) => w.length > 2 && !stopWords.has(w));
+
+    if (!words.length) return [];
+
+    const toClean = (val: unknown): string => {
+      if (!val) return "";
+      if (Array.isArray(val)) return val.join(" ").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      return String(val).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    };
+
+    const scored: { item: Verbete; score: number }[] = [];
+    for (const item of INITIAL_VERBETES) {
+      let score = 0;
+      const termClean = toClean(item.term);
+      const summaryClean = toClean(item.summary);
+      const defClean = toClean(item.definition);
+      const dicaClean = toClean(item.dicaArtrelados);
+      const tipsClean = toClean(item.troubleshootingTips);
+
+      for (const w of words) {
+        if (termClean === w) score += 50;
+        else if (termClean.includes(w)) score += 25;
+        if (summaryClean.includes(w)) score += 8;
+        if (dicaClean.includes(w)) score += 6;
+        if (tipsClean.includes(w)) score += 5;
+        if (defClean.includes(w)) score += 2;
+      }
+      if (score > 0) scored.push({ item, score });
+    }
+
+    scored.sort((a, b) => b.score - a.score);
+    return scored.slice(0, max).map((s) => s.item);
+  };
+
+  // Motor Inteligente de Consultoria Artrelados (Garantia de resposta profunda com fundamentação DIBE)
+  const getOfflineFallbackAdvice = (query: string): ConsultantAdvice => {
+    const q = query.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
+    // Caso 1: Trilho de Mesa / Linho Puro / Mesa Posta
+    if (
+      (q.includes("linho") || q.includes("trilho") || q.includes("caminho") || q.includes("mesa posta") || q.includes("guardanapo")) &&
+      (q.includes("encomenda") || q.includes("como bordar") || q.includes("o que faco") || q.includes("comecar") || q.includes("primeiro") || q.includes("comprimento") || q.includes("1,80") || q.includes("1.80"))
+    ) {
       return {
-        title: "Primeira Fraldinha Perfeita: Guia Completo para Iniciantes no Bordado de Bebê",
+        title: "Trilho Nobre de Mesa Posta: Do Planejamento Perfeito ao Bordado Impecável em Linho",
         situationSummary:
-          "Bordar fraldas de bebê é um dos trabalhos mais gratificantes e procurados no ateliê. Por ser um tecido delicado e destinado à pele sensível do recém-nascido, o segredo do sucesso está na estabilização suave e no carinho com o acabamento.",
+          "Que encomenda maravilhosa e de altíssimo valor para o seu ateliê, minha querida! Um trilho de mesa de 1,80m em linho puro é uma verdadeira joia da mesa posta. O segredo para não errar e ter segurança total desde o primeiro minuto está em entender que o linho é uma fibra natural viva e que o comprimento longo exige apoio para não sobrecarregar o pantógrafo da sua máquina nem repuxar o bordado.",
         rescueActionPlan: [
-          "Estabilização Suave (Sem Rigidez): Utilize entretela hidrossolúvel ou entretela rasgável macia especial para bebê (35g a 40g). Nunca use entretelas grossas de alfaiataria que deixam a peça dura.",
-          "Agulha e Linha Adequadas: Use agulha ponta bola fina (calibre 70/10 ou 75/11) para preservar os fios do tecido sem criar furinhos, e linha de bobina macia 150/2 específica para bordado computadorizado.",
-          "Proteção Aveludada no Avesso: Ao terminar de bordar e limpar os fios, aplique no verso uma película termocolante suave (Protege Bebê / Cover The Back) com ferro morno sem vapor para selar os nozinhos com toque de veludo.",
+          "Passo 1: Pré-lavagem ou descanso do linho e alinhamento do fio. Se o trilho ainda for ser confeccionado, lave ou molhe o linho antes de cortar para eliminar o encolhimento natural. Se já estiver pronto com bainha ou canto mitrado, passe-o com ferro a vapor alinhando perfeitamente a trama e meça exatamente os centros.",
+          "Passo 2: Definição estratégica do layout e marcação. Decida junto à cliente se o bordado ficará nas duas extremidades/cabeceiras (o mais clássico, posicionado de 10cm a 15cm da ponta) ou no centro exato. Faça a marcação em cruz com giz de alfaiate ou caneta fantasminha termo-apagável com o auxílio de esquadro, alinhando rigorosamente com o fio reto do tecido.",
+          "Passo 3: Montagem sem aro direto no linho (Técnica da Flutuação). Jamais aperte o linho no bastidor para não esmagar as fibras nem deixar marcas permanentes de aro. Estique apenas a entretela no bastidor (bem esticada como um tambor), aplique adesivo temporário spray suave e 'flutue' a área marcada do trilho por cima, alfinetando apenas pelas margens externas fora da área de costura.",
+          "Passo 4: Gerenciamento do peso do tecido (Alívio do Pantógrafo). Como o trilho tem 1,80m, o tecido restante vai pesar. Apoie as sobras do linho sobre uma mesa auxiliar ou no seu próprio colo no nível da máquina de bordar. Nunca deixe o restante do trilho pendurado caindo da máquina, pois o peso arrasta o bastidor, forçando os trilhos lineares e causando perda de passos ou contornos tortos.",
+          "Passo 5: Limpeza e acabamento do avesso. Como caminhos de mesa são manuseados e frequentemente virados, ajuste a tensão da bobina para que a linha inferior ocupe o terço central e corte as pontinhas de linha a cada troca de cor, deixando o verso limpo e plano.",
         ],
         recommendedMaterials: {
-          stabilizer: "Entretela rasgável especial para bebê 35g ou entretela hidrossolúvel",
-          needle: "Agulha 70/10 ou 75/11 ponta bola fina (SES)",
-          thread: "Linha de poliéster brilhante 120D/2 e linha de bobina macia 150/2",
-          specialTools: "Película termocolante protege bebê e tesourinha curva de arremate",
+          stabilizer: "Entretela hidrossolúvel de gramatura média (ou entretela rasgável termo/hidro de 40g bem macia), garantindo que o avesso da mesa posta não fique áspero ou com plástico residual.",
+          needle: "Agulha fina tamanho 70/10 ou 75/11 ponta fina afiada (Microtex ou Universal ponta leve), para penetrar entre os fios da trama do linho sem abrir buracos visíveis.",
+          thread: "Linha superior de poliéster ou viscose calibre 40 de alto brilho e linha de bobina fina 60wt na mesma cor da linha de cima ou em tom neutro suave compatível com o tecido.",
+          specialTools: "Cola spray adesiva temporária suave, caneta fantasminha termo-apagável, régua de patchwork/esquadro longo e mesa de apoio ou suporte para sustentar o caimento dos 1,80m de tecido.",
         },
         preventiveAdvice:
-          "Dê preferência a matrizes leves com traços delicados, contornos suaves ou pontos rippled, evitando áreas com excesso de densidade de pontos que possam enrijecer o tecido da fralda.",
+          "Antes de iniciar na peça definitiva, faça sempre um teste em um retalho do mesmo linho com a mesma entretela para checar a compensação de encolhimento da matriz e a densidade dos pontos, evitando que a textura plana do linho fique enrugada ao redor dos pontos cheios.",
         artreladosGoldenTip:
-          "Faça sempre um teste prévio com o nome em um pedacinho de retalho de fralda antes de colocar a peça oficial no bastidor. Isso garante segurança total e zero desperdício!",
+          "No Ateliê Artrelados, o grande truque de elegância para caminhos de mesa de linho é passar o bordado finalizado sempre pelo avesso, deitado sobre uma toalha felpuda bem macia e com ferro a vapor: a felpa da toalha acolchoa os pontos, fazendo o bordado saltar para a frente em um relevo tridimensional nobre e acetinado!",
+        relatedDibeTerms: [
+          "Guardanapo Bordado, Roupa de Mesa & Canto Mitrado",
+          "Bordado em Toalhas de Lavabo com Faixa de Linho Puro"
+        ],
       };
     }
 
-    if (q.includes("fralda") || q.includes("bebê") || q.includes("bebe") || q.includes("avesso") || q.includes("áspero") || q.includes("aspero") || q.includes("grosso") || q.includes("machucar")) {
+    // Caso 2: Fralda de bebê para iniciante / primeira encomenda
+    if ((q.includes("fralda") || q.includes("bebe")) && (q.includes("iniciante") || q.includes("comecar") || q.includes("comeco") || q.includes("como bordar") || q.includes("primeir") || q.includes("encomenda"))) {
+      return {
+        title: "Fraldinhas de Nuvem: O Guia Definitivo para um Bordado Perfeito, Macio e Seguro",
+        situationSummary:
+          "Parabéns pela sua encomenda, minha querida! Sei exatamente como dá um frio na barriga ao segurar uma fraldinha tão delicada pela primeira vez. Fique tranquila: bordar enxoval de bebê é uma das artes mais gratificantes do nosso ateliê, e com o passo a passo certo, sua peça vai ficar impecável, fofinha e 100% segura para a pele do recém-nascido.",
+        rescueActionPlan: [
+          "Passo 1: Prepare a base com a técnica flutuante: coloque apenas a entretela rasgável macia bem esticada no bastidor (como uma pele de tambor). Nunca aperte o tecido da fralda direto no bastidor para não esgarçar a trama nem deixar marcas profundas.",
+          "Passo 2: Fixe a fralda sobre a entretela usando alfinetes rentes à borda externa da área de bordado, cola temporária em spray bem suave (respeitando a distância de 25 cm) ou faça uma linha de alinhavo (basting box) pela própria máquina.",
+          "Passo 3: Aplique uma camada de entretela hidrossolúvel fina (filme solúvel) por cima da fralda. Isso impede que os pontinhos afundem na trama rala, garantindo um desenho nítido, definido e com acabamento acetinado.",
+          "Passo 4: Ajuste a velocidade da máquina para um nível moderado a lento (em torno de 500 a 600 ppm) para garantir que a tração da linha não repuxe os fios delicados da fralda.",
+          "Passo 5: Finalize com o carinho do avesso: após o bordado, remova suavemente as sobras da entretela rasgável e a hidrossolúvel com água morna. Aplique no avesso do bordado a entretela termocolante 'Protege Bebê' (Cover the Back) com ferro morno e sem vapor para selar todas as pontinhas de linha contra a pele do bebê.",
+        ],
+        recommendedMaterials: {
+          stabilizer: "Entretela rasgável de toque suave (gramatura 40 ou 50g) na base + Película hidrossolúvel fina por cima + Entretela termocolante 'Protege Bebê' (malha termocolante) para o acabamento do avesso.",
+          needle: "Agulha calibre 70/10 ou 65/9 Ponta Bola (Ball Point / SES), que afasta as fibras da fralda em vez de cortá-las.",
+          thread: "Linha superior de poliéster brilhante 120 e linha de bobina fina 100% filamento contínuo (poliéster 60wt ou superior), garantindo baixo volume e máxima maciez no verso.",
+          specialTools: "Fita micropore ou fita crepe de papel suave para fixação periférica, tesoura de ponta curva de precisão (tipo cegonha) para aparar fios rente ao tecido, e ferro de passar seco para selar a película protetora.",
+        },
+        preventiveAdvice:
+          "Escolha sempre matrizes adequadas para peças infantis: prefira apliques, pontos rippled (sombreados) ou contornos em ponto cheio leve com compensação de encolhimento regulada (mínimo 0.35 mm). Evite matrizes com tatami pesado e sobreposições densas, pois criam placas rígidas que irritam o bebê e repuxam a fralda.",
+        artreladosGoldenTip:
+          "O verdadeiro encanto de uma fralda não está apenas na beleza do desenho à frente, mas na bênção do conforto no verso. Quando aplicar a película 'Protege Bebê', arredonde bem todos os quatro cantinhos do recorte com a tesoura antes de colar com o ferro; cantos arredondados nunca descolam com as lavagens frequentes!",
+        relatedDibeTerms: [
+          "Toalha Fralda e Enxoval de Bebê (Bordado Seguro e Macio)",
+          "Fralda de Pano e Paninho de Boca (Enxoval Infantil)",
+          "Fio Texturizado para Bobina (Contato Macio em Enxoval de Bebê)"
+        ],
+      };
+    }
+
+    // Caso 3: Resgate de Fralda com avesso grosso/áspero
+    if (q.includes("fralda") || q.includes("bebe") || q.includes("avesso") || q.includes("aspero") || q.includes("grosso") || q.includes("machucar") || q.includes("pinica")) {
       return {
         title: "Resgate da Fraldinha: Como Proteger a Pele do Bebê e Salvar a Peça Pronta",
         situationSummary:
@@ -124,9 +218,14 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
           "Nas próximas fraldas, utilize entretela hidrossolúvel (que dissolve totalmente na água) ou entretela rasgável especial para bebê de 30g a 40g bem maleável, e prefira matrizes leves com pontos rippled ou contornos delicados.",
         artreladosGoldenTip:
           "Nunca lave a fralda com amaciante comum de imediato; após colar a película protege bebê, aguarde 24 horas para a cura completa da cola termocolante antes da primeira lavagem!",
+        relatedDibeTerms: [
+          "Toalha Fralda e Enxoval de Bebê (Bordado Seguro e Macio)",
+          "Fralda de Pano e Paninho de Boca (Enxoval Infantil)"
+        ],
       };
     }
 
+    // Caso 4: Toalhas felpudas e aveludadas
     if (q.includes("toalha") || q.includes("felpa") || q.includes("sumindo") || q.includes("afundando")) {
       return {
         title: "Toalhas Felpudas: Como Fazer o Bordado Ficar Alto, Nítido e Destacado",
@@ -147,6 +246,40 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
           "Na matriz, programe uma base de subpontos tipo grade leve (tatami de sustentação / knock-down stitch) antes do ponto cheio, rebaixando a felpa antes das letras serem costuradas.",
         artreladosGoldenTip:
           "Se não tiver filme hidrossolúvel na emergência, um pedaço de plástico filme culinário bem fino colocado esticado por cima da toalha quebra o galho perfeitamente e sai com água morna!",
+        relatedDibeTerms: [
+          "Knockdown Stitch (Ponto Base para Toalha)",
+          "Filme Hidrossolúvel para Bordado (Solvy)"
+        ],
+      };
+    }
+
+    // Caso Dinâmico Universal: Busca direta nos 2.900+ verbetes do DIBE
+    const matches = searchLocalDibe(query, 3);
+    if (matches.length > 0) {
+      const top = matches[0];
+      return {
+        title: `${top.term}: Guia Especializado de Ateliê Artrelados`,
+        situationSummary: `Analisamos com todo carinho a sua dúvida técnica. Com base no acervo oficial do DIBE Artrelados e no conhecimento consagrado da especialista Janete M. C. Silva, reunimos as melhores práticas de produção para esse desafio.`,
+        rescueActionPlan: [
+          `Passo 1 (Estabilização): ${top.beginnerExplanation || top.summary || "Avalie a estrutura mecânica do tecido e utilize entretela com gramatura compatível com a densidade da matriz."}`,
+          `Passo 2 (Execução Técnica): ${Array.isArray(top.howItWorks) && top.howItWorks[0] ? top.howItWorks[0] : (Array.isArray(top.troubleshootingTips) && top.troubleshootingTips[0] ? top.troubleshootingTips[0] : "Regule a agulha adequada e calibre a tensão da linha superior para evitar repuxos.")}`,
+          `Passo 3 (Parâmetros de Máquina): ${Array.isArray(top.troubleshootingTips) && top.troubleshootingTips[1] ? top.troubleshootingTips[1] : "Mantenha a velocidade da máquina controlada e certifique-se de que o tecido não sofre tração excessiva no pantógrafo."}`,
+          `Passo 4 (Acabamento): Realize a limpeza minuciosa do verso com tesoura de arremate de ponta curva, conferindo estabilidade e toque suave.`,
+        ],
+        recommendedMaterials: {
+          stabilizer: `Entretela adequada para ${top.category || "o tecido"} (rasgável suave ou hidrossolúvel)`,
+          needle: `Agulha recomendada: calibre 75/11 ou 80/12 ponta bola leve ou microtex afiada`,
+          thread: `Linha superior 100% poliéster trilobal 120D/2 brilhante e linha de bobina fina`,
+          specialTools: `Tesoura de arremate curva, pinça de precisão e cola temporária suave`,
+        },
+        preventiveAdvice:
+          Array.isArray(top.commonErrors) && top.commonErrors[0]
+            ? `Atenção preventiva: evite ${top.commonErrors[0].toLowerCase()}`
+            : "Sempre realize um teste prévio de bordado em um retalho do mesmo tecido com a mesma entretela antes da peça definitiva.",
+        artreladosGoldenTip:
+          top.dicaArtrelados ||
+          "No Ateliê Artrelados, o carinho pelo detalhe e a paciência no preparo transformam qualquer encomenda em uma obra de arte inesquecível!",
+        relatedDibeTerms: matches.map((m) => m.term),
       };
     }
 
@@ -168,6 +301,10 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
         "Sempre realize um teste de bordado em um retalho do mesmo tecido com a mesma entretela antes de aplicar na peça definitiva do cliente.",
       artreladosGoldenTip:
         "No ateliê de bordados, paciência e teste em retalho são a maior economia de tempo e dinheiro que uma bordadeira pode ter!",
+      relatedDibeTerms: [
+        "Estabilização e Entretelas para Bordado Computadorizado",
+        "Regulagem de Tensão da Linha e Bobina"
+      ],
     };
   };
 
@@ -184,6 +321,7 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
       const res = await fetch("/api/gemini/embroidery-consultant", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        credentials: "same-origin",
         body: JSON.stringify({
           userQuery: textToSubmit.trim(),
         }),
