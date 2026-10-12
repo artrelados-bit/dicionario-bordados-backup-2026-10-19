@@ -30,6 +30,7 @@ export interface ConsultantAdvice {
   preventiveAdvice: string;
   artreladosGoldenTip: string;
   relatedDibeTerms?: string[];
+  followUpQuestions?: { label: string; prompt: string }[];
 }
 
 interface AtelierConsultantProps {
@@ -48,9 +49,14 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
   // Exemplos reais do cotidiano de ateliê para inspiração rápida
   const quickCases = [
     {
-      label: "🧸 Fralda com avesso grosso/áspero (pele do bebê)",
+      label: "🍽️ Trilho de linho (mesa posta de 1,80m)",
       prompt:
-        "Bordei uma ursinha de 15x15 cm em uma fralda de bebê. A frente ficou linda, mas o avesso ficou muito grosso e áspero, podendo machucar a pele do bebê. Como posso salvar e amaciar essa peça pronta sem perder a fralda?",
+        "Recebi um encomenda para bordar um trilho de linho para uma mesa de jantar de 1,80 de comprimento, o que faço primeiro?",
+    },
+    {
+      label: "🧸 Fralda para bebê (iniciante ou avesso áspero)",
+      prompt:
+        "Bordei uma ursinha em uma fralda de bebê. A frente ficou linda, mas o avesso ficou muito grosso e áspero, podendo machucar a pele do bebê. Como amaciar e salvar a peça?",
     },
     {
       label: "🏖️ Ponto sumindo na toalha de banho felpuda",
@@ -63,19 +69,14 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
         "Bordei um logotipo em camiseta de malha 100% algodão e o tecido ficou todo repuxado e enrugado ao redor do bordado depois que tirei do bastidor. Como resolver esse problema?",
     },
     {
-      label: "🪡 Esqueci uma letra no nome da peça pronta",
-      prompt:
-        "Bordei o nome em um jaleco e percebi que faltou uma letra no sobrenome. Tem como acrescentar essa letra na máquina ou consertar sem ter que desmanchar todo o bordado?",
-    },
-    {
       label: "🧢 Boné quebrando agulha na costura central",
       prompt:
         "Estou bordando a frente de um boné estruturado e a agulha quebra toda vez que passa pela costura grossa do meio do boné. Qual a agulha e o macete para não quebrar?",
     },
     {
-      label: "🧶 Ponto 3D com EVA (espuminha saindo)",
+      label: "🪡 Esqueci uma letra no nome da peça pronta",
       prompt:
-        "Fiz um bordado em alto relevo com EVA (efeito 3D) mas ficaram pontinhas da espuma aparecendo para fora dos pontos de cetim. Como dar o acabamento perfeito para o EVA sumir?",
+        "Bordei o nome em um jaleco e percebi que faltou uma letra no sobrenome. Tem como acrescentar essa letra na máquina ou consertar sem ter que desmanchar todo o bordado?",
     },
   ];
 
@@ -163,6 +164,20 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
           "Guardanapo Bordado, Roupa de Mesa & Canto Mitrado",
           "Bordado em Toalhas de Lavabo com Faixa de Linho Puro"
         ],
+        followUpQuestions: [
+          {
+            label: "🍽️ Canto Mitrado no Linho",
+            prompt: "Como bordar canto mitrado com acabamento fino e cantos perfeitos em trilho de linho?",
+          },
+          {
+            label: "📐 Compensação de Encolhimento",
+            prompt: "Qual a regulagem de compensação de encolhimento na matriz para bordar em linho puro sem enrugar?",
+          },
+          {
+            label: "🏷️ Precificação de Mesa Posta",
+            prompt: "Como calcular o preço de venda de um trilho de linho bordado de 1,80m no ateliê?",
+          },
+        ],
       };
     }
 
@@ -194,6 +209,20 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
           "Fralda de Pano e Paninho de Boca (Enxoval Infantil)",
           "Fio Texturizado para Bobina (Contato Macio em Enxoval de Bebê)"
         ],
+        followUpQuestions: [
+          {
+            label: "🧸 Teste da Bochecha no Avesso",
+            prompt: "Como fazer o teste da bochecha para aprovar a maciez do avesso da fralda de bebê?",
+          },
+          {
+            label: "☁️ Ponto Rippled em Fraldas",
+            prompt: "Qual a diferença entre ponto rippled e ponto cheio para fraldas e roupinhas de bebê?",
+          },
+          {
+            label: "🧵 Fio Texturizado na Bobina",
+            prompt: "Como usar fio texturizado na bobina para toque ultra macio e aveludado em peças infantis?",
+          },
+        ],
       };
     }
 
@@ -222,6 +251,20 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
           "Toalha Fralda e Enxoval de Bebê (Bordado Seguro e Macio)",
           "Fralda de Pano e Paninho de Boca (Enxoval Infantil)"
         ],
+        followUpQuestions: [
+          {
+            label: "🛡️ Película Protege Bebê",
+            prompt: "Como aplicar a película termocolante protege bebê sem marcar nem queimar a fralda?",
+          },
+          {
+            label: "✂️ Falso Avesso em Tricoline",
+            prompt: "Como embutir o avesso do bordado com moldura de tricoline para acabamento de luxo?",
+          },
+          {
+            label: "🧼 Cuidados de Lavagem",
+            prompt: "Quais os cuidados de lavagem para a película termocolante do avesso nunca descolar?",
+          },
+        ],
       };
     }
 
@@ -249,6 +292,20 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
         relatedDibeTerms: [
           "Knockdown Stitch (Ponto Base para Toalha)",
           "Filme Hidrossolúvel para Bordado (Solvy)"
+        ],
+        followUpQuestions: [
+          {
+            label: "🛁 Ponto Knockdown na Matriz",
+            prompt: "Como programar ponto knockdown de sustentação para rebaixar a felpa da toalha antes do nome?",
+          },
+          {
+            label: "💧 Filme Hidrossolúvel Solvy",
+            prompt: "Qual a gramatura ideal de filme hidrossolúvel para toalhas e como remover sem manchar?",
+          },
+          {
+            label: "✨ Marcas de Bastidor em Toalhas",
+            prompt: "Como tirar marcas de pressão do bastidor que ficam nas toalhas aveludadas?",
+          },
         ],
       };
     }
@@ -280,6 +337,25 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
           top.dicaArtrelados ||
           "No Ateliê Artrelados, o carinho pelo detalhe e a paciência no preparo transformam qualquer encomenda em uma obra de arte inesquecível!",
         relatedDibeTerms: matches.map((m) => m.term),
+        followUpQuestions: [
+          {
+            label: `🔍 Mais sobre ${matches[0].term.slice(0, 22)}...`,
+            prompt: `Como aplicar na prática as recomendações do verbete ${matches[0].term} na minha máquina?`,
+          },
+          matches[1]
+            ? {
+                label: `🧵 Ver ${matches[1].term.slice(0, 22)}...`,
+                prompt: `Quais os segredos e parâmetros técnicos para ${matches[1].term}?`,
+              }
+            : {
+                label: "⚙️ Tensão e Bobina",
+                prompt: "Como regular a tensão da linha e da bobina para esse tipo de bordado?",
+              },
+          {
+            label: "💡 Teste em Retalho & Prevenção",
+            prompt: "Como planejar um teste rápido em retalho para garantir segurança total nesta peça?",
+          },
+        ],
       };
     }
 
@@ -378,12 +454,11 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
             <span>Consultoria Especialista Artrelados</span>
           </div>
           <h3 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
-            Socorro para Peças Prontas, Desafios de Tecidos & Acabamentos
+            Planejamento de Encomendas, Desafios de Tecidos & Resgate de Peças
           </h3>
           <p className="text-slate-700 text-xs sm:text-sm font-medium leading-relaxed">
-            Teve algum imprevisto com um bordado pronto (como o avesso áspero na fralda de bebê),
-            dúvidas sobre tecidos difíceis (toalhas felpudas, malha, couro) ou precisa de uma ideia criativa
-            para consertar uma peça sem desmanchar? <strong>Descreva livremente abaixo</strong> com suas palavras!
+            Pegou uma encomenda desafiadora (como trilho de linho ou enxoval de bebê), tem dúvidas sobre tecidos difíceis
+            (toalhas felpudas, malha, couro) ou precisa de uma solução para salvar uma peça pronta? <strong>Descreva livremente abaixo</strong> com suas palavras!
           </p>
         </div>
       </div>
@@ -392,24 +467,47 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
       <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-7 shadow-xs space-y-5">
         <div>
           <label className="block text-xs font-black text-slate-800 uppercase tracking-wider mb-2">
-            💬 Conte o que aconteceu com o seu bordado ou máquina:
+            💬 O QUE VOCÊ DESEJA BORDAR OU RESOLVER HOJE NO SEU ATELIÊ?
           </label>
           <textarea
             value={userQuery}
             onChange={(e) => setUserQuery(e.target.value)}
-            placeholder="Ex: Bordei uma ursinha de 15x15 cm em uma fralda de bebê. A frente ficou linda, mas o avesso ficou muito grosso e áspero, podendo machucar a pele do bebê. O que posso fazer para salvar a peça pronta?"
+            placeholder="Ex: Recebi uma encomenda de trilho de linho e não sei por onde começar... OU: Bordei uma fralda de bebê e o avesso ficou áspero, como amaciar e salvar a peça pronta?"
             rows={4}
             className="w-full px-4 py-3 rounded-2xl border border-slate-300 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-amber-400 font-medium text-slate-800 placeholder:text-slate-400 leading-relaxed transition"
           />
         </div>
 
-        {/* Quick Suggestion Chips */}
+        {/* Quick Suggestion Chips (Adaptativos e Conectados ao Projeto Atual) */}
         <div>
-          <span className="text-[11px] font-black text-slate-500 uppercase tracking-wider block mb-2">
-            💡 Casos Reais Frequentes (Clique em qualquer um para testar):
-          </span>
+          <div className="flex items-center justify-between mb-2">
+            <span className="text-[11px] font-black text-slate-700 uppercase tracking-wider flex items-center gap-1.5">
+              <Sparkles className="w-3.5 h-3.5 text-amber-500" />
+              <span>
+                {advice?.followUpQuestions && advice.followUpQuestions.length > 0
+                  ? "Dúvidas Relacionadas a este Projeto (Clique para explorar):"
+                  : "Casos Reais Frequentes (Clique em qualquer um para testar):"}
+              </span>
+            </span>
+            {advice?.followUpQuestions && advice.followUpQuestions.length > 0 && (
+              <button
+                type="button"
+                onClick={() => {
+                  setAdvice(null);
+                  setUserQuery("");
+                }}
+                className="text-[10px] font-bold text-amber-700 hover:text-amber-900 underline cursor-pointer"
+              >
+                Ver casos gerais
+              </button>
+            )}
+          </div>
+
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
-            {quickCases.map((item, idx) => (
+            {(advice?.followUpQuestions && advice.followUpQuestions.length > 0
+              ? advice.followUpQuestions
+              : quickCases
+            ).map((item, idx) => (
               <button
                 key={idx}
                 type="button"
@@ -417,7 +515,11 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
                   setUserQuery(item.prompt);
                   handleConsult(item.prompt);
                 }}
-                className="p-2.5 rounded-xl bg-slate-50 hover:bg-amber-100 hover:text-amber-950 border border-slate-200 text-[11px] sm:text-xs font-semibold text-slate-700 transition cursor-pointer text-left flex items-start space-x-1.5 shadow-2xs hover:border-amber-300"
+                className={`p-2.5 rounded-xl border text-[11px] sm:text-xs font-semibold transition cursor-pointer text-left flex items-start space-x-1.5 shadow-2xs ${
+                  advice?.followUpQuestions && advice.followUpQuestions.length > 0
+                    ? "bg-amber-50/90 hover:bg-amber-100 text-amber-950 border-amber-300 hover:border-amber-400"
+                    : "bg-slate-50 hover:bg-amber-100 hover:text-amber-950 border-slate-200 text-slate-700 hover:border-amber-300"
+                }`}
               >
                 <span>{item.label}</span>
               </button>
@@ -632,6 +734,32 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
                   >
                     📖 {term}
                   </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Section 7: Next Steps & Mentorship Follow-up */}
+          {advice.followUpQuestions && advice.followUpQuestions.length > 0 && (
+            <div className="pt-4 border-t border-slate-200/80 space-y-2.5">
+              <span className="text-[11px] font-black text-amber-900 uppercase tracking-wider flex items-center gap-1.5">
+                <Sparkles className="w-3.5 h-3.5 text-amber-600" />
+                <span>Dúvidas e Próximos Passos Recomendados para este Projeto:</span>
+              </span>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
+                {advice.followUpQuestions.map((qItem, i) => (
+                  <button
+                    key={i}
+                    type="button"
+                    onClick={() => {
+                      setUserQuery(qItem.prompt);
+                      handleConsult(qItem.prompt);
+                    }}
+                    className="p-3 rounded-2xl bg-amber-50/80 hover:bg-amber-100/90 border border-amber-200/90 text-[11px] font-bold text-amber-950 text-left transition shadow-2xs hover:shadow-xs flex items-center justify-between group cursor-pointer"
+                  >
+                    <span>{qItem.label}</span>
+                    <span className="text-amber-600 group-hover:translate-x-1 transition-transform ml-1">→</span>
+                  </button>
                 ))}
               </div>
             </div>

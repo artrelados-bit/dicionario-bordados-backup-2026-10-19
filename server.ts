@@ -262,7 +262,21 @@ Retorne ESTRITAMENTE um objeto JSON válido (sem blocos de código markdown) com
   },
   "preventiveAdvice": "Como planejar e regular para as próximas peças ficarem impecáveis",
   "artreladosGoldenTip": "Dica de ouro com o toque especial, afetuoso e exclusivo da Artrelados",
-  "relatedDibeTerms": ["Nome do Verbete 1", "Nome do Verbete 2"]
+  "relatedDibeTerms": ["Nome do Verbete 1", "Nome do Verbete 2"],
+  "followUpQuestions": [
+    {
+      "label": "Emoji + Título curto instigante daquele tema (ex: 🍽️ Canto Mitrado)",
+      "prompt": "Pergunta prática completa e direta para aprofundar esse projeto"
+    },
+    {
+      "label": "Emoji + Outro aspecto relevante (ex: 📐 Compensação de Encolhimento)",
+      "prompt": "Pergunta prática completa"
+    },
+    {
+      "label": "Emoji + Aspecto de acabamento ou precificação (ex: 🏷️ Como Precificar)",
+      "prompt": "Pergunta prática completa"
+    }
+  ]
 }`;
 
       const response = await ai.models.generateContent({
