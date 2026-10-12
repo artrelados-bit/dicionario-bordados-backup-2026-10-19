@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import {
   Sparkles,
   Send,
@@ -47,6 +47,13 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
   const [advice, setAdvice] = useState<ConsultantAdvice | null>(null);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
+  const adviceResultRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (advice && adviceResultRef.current) {
+      adviceResultRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }, [advice]);
 
   // Exemplos reais do cotidiano de ateliê para inspiração rápida
   const quickCases = [
@@ -136,7 +143,365 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
   const getOfflineFallbackAdvice = (query: string): ConsultantAdvice => {
     const q = query.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
-    // Caso 1: Trilho de Mesa / Linho Puro / Mesa Posta
+    // Prioridade 1: Precificação de Mesa Posta (Trilho de Linho de 1,80m) ou Bordados em Geral
+    if (
+      q.includes("precific") ||
+      q.includes("preco") ||
+      q.includes("custo") ||
+      q.includes("cobrar") ||
+      q.includes("valor de venda") ||
+      q.includes("quanto cobrar") ||
+      q.includes("cabe")
+    ) {
+      const isMesaPosta =
+        q.includes("linho") ||
+        q.includes("trilho") ||
+        q.includes("mesa posta") ||
+        q.includes("caminho") ||
+        q.includes("guardanapo") ||
+        q.includes("1,80") ||
+        q.includes("1.80");
+
+      if (isMesaPosta) {
+        return {
+          title: "Precificação Nobre de Mesa Posta: Do Custo Real ao Lucro Garantido no Ateliê",
+          situationSummary:
+            "Calcular o valor de venda de um trilho de linho puro de 1,80m exige precisão e segurança profissional. Peças nobres de mesa posta não podem ser precificadas 'no chute' nem comparadas a tecidos sintéticos baratos. Vamos calcular cada centavo de material, tempo de confecção manual, horas de máquina e aplicar a margem de lucro real para valorizar seu talento.",
+          rescueActionPlan: [
+            "Passo 1: Custo Real do Tecido e Materiais (com Margem de Segurança). Para um trilho pronto de 1,80m com canto mitrado de 4cm a 5cm, compre no mínimo 2,10m a 2,20m de linho para suprir a perda das dobras e o encolhimento prévio pós-lavagem (5% a 8%). Some o valor do linho, 2m de entretela hidrossolúvel ou rasgável 40g bem macia, o consumo de linha de bordar e bobina 60wt, agulha nova e embalagem para presente com fita de gorgurão.",
+            "Passo 2: Mão de Obra Manual (Corte, Esquadrejamento e Canto Mitrado). Cronometre o tempo de trabalho na bancada: pré-lavagem, passadoria a vapor, corte no fio reto, confecção dos 4 cantos mitrados a 45° e limpeza final dos fios. Multiplique as horas pela sua taxa horária artesanal (recomendado entre R$ 25,00 e R$ 40,00 por hora).",
+            "Passo 3: Hora-Máquina e Depreciação do Pantógrafo. Calcule o tempo que a bordadeira trabalhará (ex: 2 cabeceiras com monograma nobre de 25.000 pontos a 600 ppm = aprox. 1h20 de máquina). Aplique o custo de hora-máquina, cobrindo eletricidade, lubrificação, manutenção e depreciação da bordadeira.",
+            "Passo 4: Taxa de Criação/Edição de Matriz e Custos Fixos Rateados. Adicione a taxa de matriz (se desenvolvida ou ajustada exclusivamente para a cliente) e rateie uma cota dos custos fixos mensais do ateliê (internet, luz, ferramentas, aluguel).",
+            "Passo 5: Aplicação da Margem de Lucro Nobre (40% a 50%) e Fórmula da CABE. Some todos os custos: Materiais + Mão de Obra + Hora-Máquina + Custos Fixos. Em peças nobres de linho, aplique margem de lucro de 40% a 50%. Utilize a fórmula consagrada: Preço Final = Custo Total ÷ (1 - % Lucro Desejado - % Taxa de Cartão). Assim você nunca paga para trabalhar e não tem medo de dar o preço!",
+          ],
+          recommendedMaterials: {
+            stabilizer: "Entretela hidrossolúvel de média gramatura (Solvy lavável) ou rasgável termo/hidro de 40g bem maleável",
+            needle: "Agulha nova calibre 70/10 ponta fina afiada (Microtex), que preserva a trama do linho",
+            thread: "Linha de poliéster 120D/2 brilhante ou algodão egípcio 40, e linha de bobina fina 60wt",
+            specialTools: "Fita métrica, ferro a vapor profissional, esquadro de alfaiataria e a Calculadora Oficial Artrelados (CABE)",
+          },
+          preventiveAdvice:
+            "Nunca passe orçamento sem antes saber as medidas exatas da mesa da cliente e a densidade da matriz escolhida. Sempre apresente o valor destacando os diferenciais exclusivos: linho puro pré-lavado, canto mitrado de alfaiataria e bordado sem marcas no tecido.",
+          artreladosGoldenTip:
+            "No Ateliê Artrelados, o segredo da precificação bem-sucedida é a embalagem e o encanto: entregue o trilho enrolado com fita de gorgurão, papel de seda perfumado e um cartão de cuidados assinado por você. Essa experiência sensorial justifica um preço nobre e faz a cliente se apaixonar sem jamais cogitar pedir desconto!",
+          relatedDibeTerms: [
+            "Precificação e Formação de Preço no Bordado",
+            "Guardanapo Bordado, Roupa de Mesa & Canto Mitrado",
+            "Bordado de Luxo em Linho Puro",
+            "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas",
+          ],
+          followUpQuestions: [
+            {
+              label: "🍽️ Canto Mitrado no Linho",
+              prompt: "Como bordar canto mitrado com acabamento fino e cantos perfeitos em trilho de linho?",
+            },
+            {
+              label: "📐 Compensação de Encolhimento",
+              prompt: "Qual a regulagem de compensação de encolhimento na matriz para bordar em linho puro sem enrugar?",
+            },
+            {
+              label: "📸 Fotografia para Divulgação",
+              prompt: "Como fotografar e apresentar o trilho de mesa para postar no WhatsApp e fechar encomendas de alto valor?",
+            },
+          ],
+        };
+      } else {
+        return {
+          title: "Precificação Inteligente de Ateliê: A Fórmula Artrelados para o Lucro Real",
+          situationSummary:
+            "Saber exatamente quanto cobrar por cada bordado é o que separa um hobby custoso de um ateliê próspero e reconhecido. Cobrar apenas pela quantidade de pontos é um erro grave que desconsidera tecido, preparação, agulha, linha e seu tempo criativo.",
+          rescueActionPlan: [
+            "Passo 1: Levantamento dos Custos Diretos de Insumos: Calcule o valor exato do tecido ou peça crua, metros de entretela utilizados, fração de cones de linha e bobina, agulha e embalagem de entrega.",
+            "Passo 2: Hora Técnica de Produção: Cronometre a montagem no bastidor, passadoria, limpeza manual dos pontos e acabamento, multiplicando pela sua hora de trabalho desejada.",
+            "Passo 3: Hora-Máquina: Divida a manutenção anual e depreciação da bordadeira mais a energia consumida pelas horas médias bordadas no mês, gerando o custo por milhar de pontos.",
+            "Passo 4: Rateio dos Custos Fixos: Inclua a porcentagem proporcional dos custos do ateliê (internet, luz, software de matrizes).",
+            "Passo 5: Margem de Lucro Líquido e Margem de Negociação: Aplique de 35% a 50% de lucro real sobre o custo total, utilizando a fórmula divisora da CABE.",
+          ],
+          recommendedMaterials: {
+            stabilizer: "Entretela adequada ao tecido da encomenda",
+            needle: "Agulha compatível com o calibre da linha e espessura do tecido",
+            thread: "Linha de bordado 100% poliéster ou viscose de boa procedência",
+            specialTools: "Calculadora Oficial Artrelados (CABE) e planilha de custos",
+          },
+          preventiveAdvice:
+            "Anote o tempo real de cada etapa na primeira peça de uma encomenda; isso serve de referência imediata para orçamentos futuros de alta lucratividade.",
+          artreladosGoldenTip:
+            "Lembre-se sempre: preço é o que a cliente paga, valor é o que ela recebe! Quando seu bordado tem avesso limpo, entretela correta e apresentação impecável, o valor percebido é altíssimo.",
+          relatedDibeTerms: [
+            "Precificação e Formação de Preço no Bordado",
+            "Controle de Custos e Desperdício no Ateliê",
+          ],
+          followUpQuestions: [
+            {
+              label: "⚙️ Tensão e Bobina",
+              prompt: "Como regular a tensão da linha e da bobina para esse tipo de bordado?",
+            },
+            {
+              label: "🛡️ Escolha da Entretela",
+              prompt: "Como saber a entretela ideal para cada tipo de tecido no bordado?",
+            },
+            {
+              label: "🍽️ Precificação de Mesa Posta",
+              prompt: "Como calcular o preço de venda de um trilho de linho bordado de 1,80m no ateliê?",
+            },
+          ],
+        };
+      }
+    }
+
+    // Prioridade 2: Canto Mitrado / Bainha Mitrada no Linho ou Mesa Posta
+    if (
+      q.includes("canto mitrado") ||
+      q.includes("bainha mitrada") ||
+      q.includes("barra mitrada") ||
+      q.includes("cantos perfeito") ||
+      (q.includes("mitrado") && (q.includes("linho") || q.includes("trilho") || q.includes("mesa")))
+    ) {
+      return {
+        title: "Canto Mitrado de Alta Costura em Linho: O Guia dos 45° Perfeitos e Bordado Impecável",
+        situationSummary:
+          "O canto mitrado a 45 graus é o cartão de visitas da mesa posta de luxo. Fazer cantos retos, afiados e perfeitamente planos em linho puro exige respeito ao fio reto do tecido, passadoria minuciosa e a ordem correta entre a confecção da barra e a montagem do bordado no bastidor.",
+        rescueActionPlan: [
+          "Passo 1: Esquadrejamento no Fio Puxado (Fio Reto Absoluto). Jamais corte o linho apenas seguindo a fita métrica. Puxe um fio da trama no linho nas duas cabeceiras para formar uma linha guia invisível e corte exatamente sobre ela. Esse é o segredo para o trilho nunca entortar nem repuxar nas pontas.",
+          "Passo 2: Vinco Duplo no Ferro a Vapor. Com o linho esticado na tábua, dobre uma primeira margem interna de 1 cm e passe com ferro a vapor quente. Em seguida, dobre a barra principal com 4 cm a 5 cm e passe novamente com bastante vapor, criando vincos profundos e nítidos.",
+          "Passo 3: Marcação da Diagonal de 45 Graus. Abra a dobra da barra principal (mantendo o 1cm interno virado). Junte as duas extremidades com o lado direito do linho voltado para dentro, alinhando as bordas. Com um esquadro escolar ou de patchwork, trace uma linha exata a 45° a partir do ponto de interseção dos vincos até a ponta dobrada.",
+          "Passo 4: Costura e Refile do Bico. Costure na máquina reta com ponto pequeno (comprimento 2.0 ou 2.2) exatamente sobre a linha traçada, dando retrocesso no início e fim. Corte o excesso triangular da ponta deixando 0,5 cm de margem de costura. Abra a costurinha com o ferro, desvire a ponta com o auxílio de um vira-cantos suave e assente o canto com ferro a vapor.",
+          "Passo 5: Sequência Correta: Bordar Antes ou Depois? A técnica de excelência do Ateliê Artrelados é fazer os quatro cantos mitrados primeiro, assentando a moldura da peça. Depois, flutua-se a área no bastidor da bordadeira usando entretela hidrossolúvel e cola spray suave, alinhando a cruz central da matriz em relação às margens finalizadas da barra.",
+        ],
+        recommendedMaterials: {
+          stabilizer: "Entretela hidrossolúvel de média gramatura (Solvy lavável) para flutuar no bastidor sem deixar resíduos",
+          needle: "Agulha fina Microtex 70/10 ou 75/11 afiada tanto na máquina de costura quanto na bordadeira",
+          thread: "Linha 100% algodão ou poliéster fino para a costura da barra e linha de poliéster 120D/2 brilhante para o bordado",
+          specialTools: "Esquadro de patchwork, vira-cantos suave, caneta fantasminha termo-apagável e ferro de passar a vapor potente",
+        },
+        preventiveAdvice:
+          "Nunca apare o bico do canto mitrado rente demais à costura; mantenha sempre a margem de segurança de 0,5 cm para evitar que as fibras naturais do linho desfiem com o uso e as lavagens na casa do cliente.",
+        artreladosGoldenTip:
+          "Dica de Ouro Artrelados: Borrife um pouquinho de amido suave ou passe-fácil sobre os vincos do linho antes de fechar a costura a 45°. O linho ganha uma firmeza temporária milimétrica, o tecido não escorrega sob o calcador e os quatro cantos do trilho ficam matematicamente perfeitos!",
+        relatedDibeTerms: [
+          "Guardanapo Bordado, Roupa de Mesa & Canto Mitrado",
+          "Bordado de Luxo em Linho Puro",
+          "Alinhamento e Centralização no Bastidor",
+        ],
+        followUpQuestions: [
+          {
+            label: "📐 Compensação de Encolhimento",
+            prompt: "Qual a regulagem de compensação de encolhimento na matriz para bordar em linho puro sem enrugar?",
+          },
+          {
+            label: "🏷️ Precificação de Mesa Posta",
+            prompt: "Como calcular o preço de venda de um trilho de linho bordado de 1,80m no ateliê?",
+          },
+          {
+            label: "🪡 Alinhamento em Múltiplos Bastidores",
+            prompt: "Como alinhar e emendar matrizes repetidas ao longo dos 1,80m de comprimento do trilho sem entortar?",
+          },
+        ],
+      };
+    }
+
+    // Prioridade 3: Compensação de Encolhimento / Pull Compensation / Matriz Repuxando
+    if (
+      q.includes("compensacao") ||
+      q.includes("encolhimento") ||
+      q.includes("pull compensation") ||
+      (q.includes("repux") && (q.includes("matriz") || q.includes("linho") || q.includes("enrug") || q.includes("tecido")))
+    ) {
+      return {
+        title: "Compensação de Encolhimento no Linho Puro: Como Regular a Matriz para Nunca Mais Enrugar",
+        situationSummary:
+          "O linho puro é um tecido nobre de fibra vegetal viva e trama aberta com elasticidade quase nula. Isso significa que a tração mecânica de cada laçada da agulha puxa os fios para o centro (efeito pull-push). Se a compensação de encolhimento e os subpontos da matriz não estiverem perfeitamente calibrados, o tecido cria ondas e rugas definitivas ao redor do bordado.",
+        rescueActionPlan: [
+          "Passo 1: Regulagem da Compensação de Repuxo (Pull Compensation). No programa de edição de matrizes (Wilcom, Embird, PE-Design), aumente a compensação de repuxo para entre 0.35 mm e 0.45 mm em todos os objetos em ponto cheio (satin) e letras. Isso faz com que os pontos ultrapassem ligeiramente a borda programada, compensando a contração natural da linha ao costurar.",
+          "Passo 2: Subpontos (Underlay) Estruturais Obrigatórios. Nunca borde elementos cheios sobre linho sem uma base sólida de subpontos. Programe um subponto de traçado central (Center Walk) mais um subponto de contorno interno (Edge Walk). Em áreas com mais de 7mm de largura, utilize uma grade leve em tatami aberto (espaçamento 1.5mm) para travar a trama do linho antes do bordado final.",
+          "Passo 3: Alívio da Densidade dos Pontos. Densidades excessivas (0.35mm ou 0.38mm) perfuram e picotam a trama do linho, gerando placas duras que repuxam. Alivie a densidade para 0.42 mm a 0.45 mm. Em tecidos planos e nobres como o linho, menos pontos resultam em mais brilho acetinado, toque suave e estabilidade dimensional.",
+          "Passo 4: Orientação dos Ângulos dos Pontos. Evite que o sentido dos pontos cheios coincida 100% com o sentido da trama ou do urdume do linho. Ajuste os ângulos com inclinação diagonal de 30° a 45° em relação ao fio do tecido, distribuindo a tensão entre os fios horizontais e verticais.",
+          "Passo 5: Técnica Flutuante de Estabilização. No bastidor, estique com firmeza duas camadas de entretela hidrossolúvel de média gramatura (ou entretela rasgável termo/hidro de 40g bem macia). Aplique cola spray temporária suave e apoie o linho por cima sem esticar suas fibras, prendendo com alfinetes apenas pelas bordas externas fora do campo de bordado.",
+        ],
+        recommendedMaterials: {
+          stabilizer: "Duas camadas de entretela hidrossolúvel média (Solvy lavável) ou rasgável 40g bem suave",
+          needle: "Agulha nova 70/10 ou 75/11 ponta fina afiada (Microtex), que desliza entre os fios da trama sem abrir buracos",
+          thread: "Linha superior de poliéster 120D/2 brilhante e linha de bobina fina 60wt",
+          specialTools: "Software de edição de matrizes com controle de compensação de repuxo e spray temporário suave",
+        },
+        preventiveAdvice:
+          "Sempre teste a matriz em um retalho do mesmo linho e na mesma orientação do fio antes de iniciar no trilho de 1,80m. O teste prévio em retalho é o seguro de vida de qualquer ateliê profissional!",
+        artreladosGoldenTip:
+          "Dica de Ouro Artrelados: Se o bordado já foi executado e apresentou leve ondulação no tecido, não se desespere: passe a ferro a vapor pelo avesso sobre uma toalha felpuda grossa, esticando suavemente as fibras com as palmas das mãos em movimentos circulares enquanto o tecido ainda estiver quente do vapor!",
+        relatedDibeTerms: [
+          "Compensação de Repuxo (Pull Compensation)",
+          "Subpontos de Sustentação (Underlay)",
+          "Densidade de Pontos no Bordado Computadorizado",
+          "Bordado de Luxo em Linho Puro",
+        ],
+        followUpQuestions: [
+          {
+            label: "🍽️ Canto Mitrado no Linho",
+            prompt: "Como bordar canto mitrado com acabamento fino e cantos perfeitos em trilho de linho?",
+          },
+          {
+            label: "🏷️ Precificação de Mesa Posta",
+            prompt: "Como calcular o preço de venda de um trilho de linho bordado de 1,80m no ateliê?",
+          },
+          {
+            label: "⚙️ Tensão e Bobina",
+            prompt: "Como regular a tensão da linha e da bobina para esse tipo de bordado?",
+          },
+        ],
+      };
+    }
+
+    // Prioridade 4: Alinhamento em Múltiplos Bastidores / Emendas Longas em 1,80m
+    if (
+      q.includes("multiplo") ||
+      q.includes("emenda") ||
+      q.includes("emendar") ||
+      q.includes("alinhar matriz") ||
+      (q.includes("alinhamento") && (q.includes("1,80") || q.includes("trilho") || q.includes("comprimento")))
+    ) {
+      return {
+        title: "Alinhamento Perfeito em Múltiplos Bastidores: Como Emendar Matrizes em 1,80m sem Entortar",
+        situationSummary:
+          "Bordar arabescos contínuos ou múltiplos monogramas ao longo de um trilho de 1,80m exige um método infalível de alinhamento. Sem pontos de marcação de esquadro e controle do peso do tecido, as emendas ficam tortas e com degraus visíveis.",
+        rescueActionPlan: [
+          "Passo 1: Traçado Contínuo com Giz de Alfaiate e Esquadro Longo. Antes de levar à máquina, abra o trilho de linho esticado em uma mesa ampla. Com uma régua longa e giz de alfaiate fino, trace uma linha reta central que percorra todo o comprimento de 1,80m, alinhada a um fio puxado da trama.",
+          "Passo 2: Inclusão de Cruzes de Alinhamento (Basting Cross) na Matriz. No software, programe no início e no final de cada segmento da matriz um pontinho de cruz de alinhamento (dois pontos corridos em cruz de 5mm). O último ponto de cruz do primeiro bastidor deve casar exatamente com o primeiro ponto do próximo bastidor.",
+          "Passo 3: Uso de Gabarito Plástico e Mira Laser / Agulha Abaixada. Ao posicionar o segundo bastidor, gire o volante manualmente com a agulha abaixada para confirmar que ela desce exatamente no centro da cruz do bordado anterior antes de autorizar a máquina a bordar.",
+          "Passo 4: Alívio Obrigatório do Pantógrafo. Conforme o trilho avança pelos bastidores, apoie as sobras de tecido sobre mesas laterais ou no seu colo. Nunca deixe o linho pendurado caindo da máquina, pois o peso de 1,80m arrasta o bastidor e causa perda de passos.",
+          "Passo 5: Remoção dos Pontos de Marcação. Após a conclusão de todas as etapas, desmanche os pontinhos de cruz de alinhamento com uma pinça de precisão sem deixar marcas no tecido.",
+        ],
+        recommendedMaterials: {
+          stabilizer: "Entretela hidrossolúvel de média gramatura ou rasgável 40g bem suave",
+          needle: "Agulha 70/10 ponta fina afiada (Microtex)",
+          thread: "Linha de bordar poliéster 120D/2 brilhante",
+          specialTools: "Régua longa de patchwork, giz de alfaiate, gabarito plástico do bastidor e mesa auxiliar de apoio",
+        },
+        preventiveAdvice:
+          "Sempre numere mentalmente a sequência das matrizes e posicione os bastidores no mesmo sentido de avanço do tecido para evitar torções diagonais na trama.",
+        artreladosGoldenTip:
+          "Dica de Ouro Artrelados: Cole um pedacinho de fita crepe suave sobre o ponto de união antes de descer a agulha para testar o casamento da emenda. Assim você confirma a precisão milimétrica sem furar o tecido!",
+        relatedDibeTerms: [
+          "Alinhamento e Centralização no Bastidor",
+          "Bordado Contínuo e Pantógrafo",
+          "Guardanapo Bordado, Roupa de Mesa & Canto Mitrado",
+        ],
+        followUpQuestions: [
+          {
+            label: "🍽️ Canto Mitrado no Linho",
+            prompt: "Como bordar canto mitrado com acabamento fino e cantos perfeitos em trilho de linho?",
+          },
+          {
+            label: "📐 Compensação de Encolhimento",
+            prompt: "Qual a regulagem de compensação de encolhimento na matriz para bordar em linho puro sem enrugar?",
+          },
+          {
+            label: "🏷️ Precificação de Mesa Posta",
+            prompt: "Como calcular o preço de venda de um trilho de linho bordado de 1,80m no ateliê?",
+          },
+        ],
+      };
+    }
+
+    // Prioridade 5: Fotografia Cenográfica / Apresentação de Mesa Posta / Flat Lay
+    if (
+      q.includes("fotografia") ||
+      q.includes("cenografia") ||
+      q.includes("flat lay") ||
+      (q.includes("foto") && (q.includes("venda") || q.includes("whatsapp") || q.includes("divulg"))) ||
+      q.includes("apresentacao")
+    ) {
+      return {
+        title: "Fotografia de Ateliê & Mesa Posta: Como Valorizar Peças Bordadas para Vender com Alto Lucro",
+        situationSummary:
+          "Um trilho de linho de 1,80m pode ser uma verdadeira obra de arte, mas se a foto for tirada com iluminação ruim, sobre uma superfície sem graça ou com o tecido amassado, o cliente terá a impressão de um produto comum. A fotografia cenográfica de mesa posta é o maior acelerador de vendas do seu ateliê.",
+        rescueActionPlan: [
+          "Passo 1: Iluminação Natural Indireta (A Luz Perfeita). Posicione a mesa de produção a cerca de 1 a 2 metros de uma janela ampla que receba luz indireta pela manhã ou ao final da tarde. Nunca use o flash do celular direto na peça, pois ele estoura o brilho da linha de poliéster e achata o relevo dos pontos.",
+          "Passo 2: Composição Cenográfica (Storytelling de Mesa Posta). Monte uma composição parcial da mesa: apoie uma taça de cristal lapidado, um prato nobre de porcelana, um talher dourado ou prateado e um raminho de alecrim ou flor natural de algodão ao lado do monograma bordado. Isso faz a cliente se imaginar recebendo os amigos com aquela peça.",
+          "Passo 3: Ângulo Flat Lay (Vista Aérea 90°) e Macro de Detalhes (45°). Faça pelo menos duas fotos principais: uma aérea mostrando a proporção do trilho e outra bem de pertinho a 45 graus, onde a luz lateral faz sombra sutil e destaca o alto relevo do ponto cheio sobre o linho.",
+          "Passo 4: Passadoria Impecável pelo Avesso. Antes de fotografar, passe o trilho com ferro a vapor sobre uma toalha felpuda para que o monograma salte e não haja qualquer vinco acidental de dobra no linho.",
+          "Passo 5: Vídeo Curto em Movimento de Luz (Reels/Status). Grave um vídeo de 5 segundos movimentando suavemente o celular sob a luz natural: o brilho acetinado da linha de bordado reflete na câmera e comprova o acabamento luxuoso de imediato.",
+        ],
+        recommendedMaterials: {
+          stabilizer: "Peça finalizada sem resíduos visíveis",
+          needle: "N/A",
+          thread: "Linha de alto brilho e acabamento impecável",
+          specialTools: "Celular com lente limpa, luz natural da janela, taça de cristal e louça decorativa de apoio",
+        },
+        preventiveAdvice:
+          "Sempre limpe a lente da câmera do celular em um paninho macio antes de fotografar; marcas de dedo na lente deixam a foto embaçada e reduzem a percepção de nitidez do bordado.",
+        artreladosGoldenTip:
+          "Dica de Ouro Artrelados: Quando enviar o orçamento pelo WhatsApp, envie primeiro essa foto cenográfica deslumbrante com a mensagem: 'Olha que atmosfera linda que este trilho de linho vai criar na sua mesa de jantar!'. A cliente compra a emoção antes mesmo de ler o valor numérico!",
+        relatedDibeTerms: [
+          "Expositor de Produtos, Fotografia de Ateliê e Cenografia de Vendas",
+          "Precificação e Formação de Preço no Bordado",
+          "Guardanapo Bordado, Roupa de Mesa & Canto Mitrado",
+        ],
+        followUpQuestions: [
+          {
+            label: "🏷️ Precificação de Mesa Posta",
+            prompt: "Como calcular o preço de venda de um trilho de linho bordado de 1,80m no ateliê?",
+          },
+          {
+            label: "🍽️ Canto Mitrado no Linho",
+            prompt: "Como bordar canto mitrado com acabamento fino e cantos perfeitos em trilho de linho?",
+          },
+          {
+            label: "📐 Compensação de Encolhimento",
+            prompt: "Qual a regulagem de compensação de encolhimento na matriz para bordar em linho puro sem enrugar?",
+          },
+        ],
+      };
+    }
+
+    // Prioridade 6: Regulagem de Tensão e Bobina (Regra do 1/3)
+    if (
+      q.includes("tensao") ||
+      (q.includes("bobina") && (q.includes("regular") || q.includes("avesso") || q.includes("calibrar") || q.includes("ponto frouxo") || q.includes("ponto feio")))
+    ) {
+      return {
+        title: "Regulagem de Tensão da Linha e Bobina: O Padrão Ouro do Terço Central (Regra do 1/3)",
+        situationSummary:
+          "A regulagem perfeita entre a linha superior e a linha da bobina é o coração da qualidade do bordado. Um avesso equilibrado garante estabilidade, não repuxa o tecido e proporciona pontos cheios acetinados na frente sem linha branca vazando pelas bordas.",
+        rescueActionPlan: [
+          "Passo 1: Verificação da Regra de Ouro do 1/3 no Avesso. Borde uma coluna teste de ponto cheio (satin) com 5mm de largura. Ao virar o avesso, a linha branca da bobina deve ocupar exatamente o terço central (33%), e a linha colorida superior deve aparecer suavemente nas laterais ocupando 1/3 de cada lado.",
+          "Passo 2: Se a linha branca da bobina estiver vazando para a frente (frente com pontinhos brancos): A tensão superior está excessivamente apertada ou a tensão da caixa de bobina está frouxa demais. Afrouxe a tensão superior ou aperte sutilmente o parafuso da bobina em sentido horário.",
+          "Passo 3: Se o avesso estiver totalmente colorido (sem linha de bobina visível): A linha de cima está frouxa ou a bobina está muito apertada. Aperte a tensão superior da máquina de bordar.",
+          "Passo 4: Calibração com o Teste da Queda da Caixa de Bobina. Em máquinas com caixa de bobina removível, segure a ponta da linha: a caixa deve permanecer suspensa e descer suavemente apenas com um leve toque no dedo (resistência de 18g a 22g / medidor Towa).",
+          "Passo 5: Limpeza da Mola de Tensão da Bobina. Frequentemente fiapos e pó de entretela entram sob a molinha da bobina, desregulando a pressão. Passe a ponta de um cartão de visita ou fio dental sob a lâmina para desobstruir.",
+        ],
+        recommendedMaterials: {
+          stabilizer: "Entretela rasgável padrão para teste de calibração",
+          needle: "Agulha nova 75/11 ou 80/12 ponta bola leve",
+          thread: "Linha de bordar poliéster 120D/2 e linha de bobina padrão 60wt",
+          specialTools: "Chave de fenda de precisão para parafuso de bobina e medidor de tensão Towa (opcional)",
+        },
+        preventiveAdvice:
+          "Nunca gire o parafuso da caixa de bobina em voltas completas: use microajustes equivalentes aos ponteiros de um relógio (15 minutos por vez).",
+        artreladosGoldenTip:
+          "Dica de Ouro Artrelados: Faça um pequeno teste de 10 letras em um retalho toda segunda-feira de manhã. Cinco minutos de teste economizam horas de retrabalho e peças perdidas durante a semana!",
+        relatedDibeTerms: [
+          "Regulagem de Tensão da Linha e Bobina",
+          "Caixa de Bobina e Lançadeira",
+          "Towa Gauge (Medidor de Tensão)",
+        ],
+        followUpQuestions: [
+          {
+            label: "🛡️ Escolha da Entretela",
+            prompt: "Como saber a entretela ideal para cada tipo de tecido no bordado?",
+          },
+          {
+            label: "🏷️ Precificação de Bordados",
+            prompt: "Como calcular o custo e o preço de venda correto para esse bordado no meu ateliê?",
+          },
+          {
+            label: "🍽️ Canto Mitrado no Linho",
+            prompt: "Como bordar canto mitrado com acabamento fino e cantos perfeitos em trilho de linho?",
+          },
+        ],
+      };
+    }
+
+    // Caso Geral: Trilho de Mesa / Linho Puro / Mesa Posta (Planejamento e Montagem)
     if (
       (q.includes("linho") || q.includes("trilho") || q.includes("caminho") || q.includes("mesa posta") || q.includes("guardanapo")) &&
       (q.includes("encomenda") || q.includes("como bordar") || q.includes("o que faco") || q.includes("comecar") || q.includes("primeiro") || q.includes("comprimento") || q.includes("1,80") || q.includes("1.80"))
@@ -597,7 +962,11 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
 
       {/* Advice Result Card */}
       {advice && (
-        <div className="bg-white border-2 border-amber-400/80 rounded-3xl p-6 sm:p-8 shadow-md space-y-6 animate-fadeIn">
+        <div
+          ref={adviceResultRef}
+          id="consultant-advice-result"
+          className="bg-white border-2 border-amber-400/80 rounded-3xl p-6 sm:p-8 shadow-md space-y-6 animate-fadeIn scroll-mt-6"
+        >
           {/* Header & Copy Button */}
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-amber-100 pb-4">
             <div className="space-y-1">
