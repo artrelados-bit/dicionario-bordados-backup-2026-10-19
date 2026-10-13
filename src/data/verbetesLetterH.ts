@@ -4041,6 +4041,7 @@ export const VERBETES_LETTER_H: Verbete[] = [
     ],
     "tags": [
       "h-066",
+      "c-001",
       "header",
       "metadados",
       "cabecalho",
@@ -4051,11 +4052,13 @@ export const VERBETES_LETTER_H: Verbete[] = [
       "software",
       "artrelados"
     ],
+    "imageUrl": "/images/c001_cabecalho_metadados_v1.jpg?v=2",
+    "imageCaption": "Esquema Técnico do Cabeçalho e Metadados da Matriz (Padrão Manual de Instruções Singer): limites cartesianos (X: 110 mm, Y: 85 mm), área de segurança do bastidor, ponto de origem central (0,0), contagem de pontos (6.432 pts) e sequência de trocas de cor.",
     "bibliographicReferences": [
       "TAJIMA. DST Data Structure Specification & Binary Header Master Document. Nagoya, 1982/2021.",
       "BROTHER. Embroidery File Format (.PES) Specifications & Header Architecture. Nagoya, 2022."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-10-13"
   },
   {
     "id": "h-067-haste-do-calcador-e-regulagem-de-altura-dinamica",

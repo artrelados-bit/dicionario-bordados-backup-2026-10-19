@@ -3864,6 +3864,7 @@ export const VERBETES_LETTER_B1: Verbete[] = [
     ],
     "tags": [
       "b-115",
+      "b-001",
       "babador",
       "babete",
       "prendedordechupeta",
@@ -3872,7 +3873,9 @@ export const VERBETES_LETTER_B1: Verbete[] = [
       "ith",
       "infantil",
       "artrelados"
-    ]
+    ],
+    "imageUrl": "/images/b001_babador_prendedor_chupeta_v1.jpg",
+    "imageCaption": "Diagrama Técnico do Babador e Prendedor de Chupeta no Bastidor (Padrão Manual Singer Moderno): montagem no bastidor (ITH), corte em camadas (atoalhado, impermeável e avesso macio), botão de pressão e salva-chupeta com reforço em X (10 kgf) e clipe jacaré."
   },
   {
     "id": "b-body-e-macacao-infantil-bordados-em-malha",

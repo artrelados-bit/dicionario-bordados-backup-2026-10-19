@@ -30441,7 +30441,9 @@
       "ith",
       "infantil",
       "artrelados"
-    ]
+    ],
+    "imageUrl": "/images/b001_babador_prendedor_chupeta_v1.jpg",
+    "imageCaption": "Diagrama Técnico do Babador e Prendedor de Chupeta no Bastidor: montagem no bastidor (In The Hoop), estrutura com botão de pressão na aba e salva-chupeta com reforço em X de segurança pediátrica e fecho jacaré."
   },
   {
     "id": "b-body-e-macacao-infantil-bordados-em-malha",
@@ -70838,8 +70840,11 @@
       "Calibração de Ponto Zero / Ponto Central",
       "Software & Formatos"
     ],
+    "imageUrl": "/images/c001_cabecalho_metadados_v1.jpg?v=2",
+    "imageCaption": "Diagrama Técnico do Cabeçalho e Metadados do Arquivo de Bordado (Estilo Manual Singer Moderno): estrutura de limites cartesianos (X: 110 mm, Y: 85 mm), área de segurança do bastidor, ponto de origem central (0,0), contagem total de pontos (6.432 pts) e sequência de trocas de cores da matriz.",
     "tags": [
       "h-066",
+      "c-001",
       "header",
       "metadados",
       "cabecalho",
@@ -70854,7 +70859,7 @@
       "TAJIMA. DST Data Structure Specification & Binary Header Master Document. Nagoya, 1982/2021.",
       "BROTHER. Embroidery File Format (.PES) Specifications & Header Architecture. Nagoya, 2022."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-10-13"
   },
   {
     "id": "h-067-haste-do-calcador-e-regulagem-de-altura-dinamica",
