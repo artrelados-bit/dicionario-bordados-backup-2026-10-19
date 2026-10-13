@@ -1541,6 +1541,77 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
       "SILVA, Janete M. C. Cadernos Técnicos do Ateliê Artrelados: Efeitos Pictóricos e Bordado Aquarelado. São Paulo, 2026."
     ],
     updatedAt: "2026-10-04"
+  },
+  {
+    id: "a-avental-de-churrasqueiro-personalizado-masculino",
+    term: "Avental de Churrasqueiro Personalizado",
+    englishTerm: "Custom Barbecue Apron & Heavy-Duty Grilling Bib",
+    letter: "A",
+    level: "Intermediário 🟡",
+    category: "Técnicas de Bastidor",
+    grammarClass: "Locução substantiva masculina composta.",
+    origin: "Do francês antigo 'avantau' (peça protetora usada à frente do corpo desde a Idade Média por ferreiros e açougueiros), adaptado para a cultura gastronômica contemporânea de churrasco gourmet e defumação (pitmasters), onde o avental se tornou símbolo de autoridade culinária e vestimenta de apresentação personalizada.",
+    summary: "Guia de matrizaria, posicionamento no peito e estabilização para bordar aventais pesados de churrasco em brim, lona e sarja.",
+    definition: "O Avental de Churrasqueiro Personalizado (Aventais Gastronômicos Masculinos / Heavy-Duty BBQ Apron Embroidery) compreende a metodologia técnica de preparação, estabilização, programação e execução de bordados em aventais utilitários masculinos confeccionados em tecidos pesados (brim peletizado, sarja 100% algodão acima de 260 g/m², lona encerada, jeans cru e recouro). Por ser submetida a altas temperaturas, respingos de gordura, fuligem de carvão e frequentes lavagens industriais com sabões desengordurantes pesados, a peça exige rigorosa ancoragem mecânica com entretela recortável (Cutaway) de alta tenacidade, linhas 100% poliéster trilobal resistentes ao alvejamento e matrizes com pontos cheios estruturados por subpontos densos para evitar o afundamento dos fios na trama rústica.",
+    howItWorks: [
+      "1. Fixa-se a entretela de recorte (Cutaway) pesada de 80 g/m² no bastidor retangular (tamanho 16x26 cm ou 18x30 cm) bem esticada como a pele de um tambor.",
+      "2. Aplica-se uma leve camada de adesivo temporário em spray no verso do avental ou posiciona-se a peça com a técnica de flutuação (floating) para não esmagar o brim nos aros plásticos.",
+      "3. Alinha-se o centro da matriz a exatamente 4 dedos (7 a 8 cm) abaixo da borda superior do peito do avental com auxílio de fita métrica e cruzetas de alinhamento.",
+      "4. Configura-se a máquina com agulha reforçada 80/12 ou 90/14 ponta lança ou universal e linha de poliéster 40wt de alta tenacidade.",
+      "5. A máquina executa os subpontos de ancoragem (Tatami de base aberta) antes de bater os pontos cheios das fontes e brasões.",
+      "6. Ao finalizar, remove-se a peça do bastidor e recorta-se a entretela rente ao contorno pelo avesso com tesoura de ponta curva de precisão."
+    ],
+    beginnerExplanation: "É a peça masculina mais pedida para presentes de Dia dos Pais, aniversários e confrarias! O cliente geralmente quer frases divertidas, nomes com garfos de churrasco ou brasões de família. A dica de ouro é: como o pano do avental é grosso e duro, não tente forçar o tecido para dentro do bastidor apertando o parafuso com muita força para não deixar marca branca no brim. O segredo profissional é prender a entretela no bastidor e colar o avental por cima bem retinho com fita ou cola spray!",
+    applications: [
+      "Aventais de churrasco em brim preto com monogramas dourados e brasões de família.",
+      "Aventais de sarja cáqui para mestres churrasqueiros e hamburguerias artesanais.",
+      "Aventais em lona encerada e jeans cru com bolso porta-garrafa e faixas em recouro.",
+      "Kits masculinos para presente com avental, luva térmica e toalha de churrasco combinando."
+    ],
+    technicalDetails: "Em tecidos pesados como sarja acima de 260 g/m² e brim, a Compensação de Repuxo (Pull Compensation) deve ser elevada para 0,40 mm a 0,50 mm, e a densidade de pontos cheios (Satin) calibrada entre 0,40 mm e 0,44 mm. Se o bordado tiver letras maiores que 8 mm de largura de coluna, é obrigatório particionar em Tatami ou usar ponto dividido para evitar laçadas frouxas que enrosquem em utensílios de churrasco. Velocidade ideal na bordadeira: 600 a 700 PPM.",
+    matrixRelations: "Conecta-se diretamente com Compensação de Repuxo (Pull Compensation), Subpontos de Ancoragem (Underlay), Ponto Satim Largo com Partição, Entretela de Recorte (Cutaway), Agulhas de Calibre Pesado (90/14) e Velocidade PPM.",
+    commonErrors: [
+      "❌ Usar entretela rasgável fina de 40 g/m², que se esfarela com as lavagens pesadas de desengordurante do avental e deixa o bordado amassado e ondulado.",
+      "❌ Usar fontes finas e delicadas com traços menores que 1 mm, que somem na textura rústica da sarja pesada.",
+      "❌ Bordar muito perto do pescoço (sufocado) ou baixo demais perto da barriga, fora do campo visual elegante do peito.",
+      "❌ Apertar o parafuso do bastidor com força excessiva sobre o brim escuro, gerando marcas esbranquiçadas irreversíveis (hoop burn)."
+    ],
+    howToIdentify: "Se a agulha bater com estalos secos na perfuração do brim ou a linha desfiar repetidamente na entrada do tecido, o calibre da agulha está fino demais; mude para 90/14 imediatamente. Se o contorno das letras estiver falho ou desencaixado das sombras, aumente a compensação de repuxo para 0,45 mm.",
+    troubleshootingTips: [
+      "O brim ficou com marcas brilhantes do bastidor: umedeça levemente o local com água destilada e passe o ferro a vapor com um pano protetor por cima.",
+      "A linha superior arrebenta na costura de letras cheias: diminua a tensão superior em 1 ponto e certifique-se de que a agulha é ponta lança ou universal nova.",
+      "O bordado afundou na textura grossa do avental: reprograme a matriz incluindo uma esteira de pontos abertos (Tatami underlay) antes dos pontos de acabamento."
+    ],
+    dicaArtrelados: "O segredo de ouro do Ateliê Artrelados para posicionar o bordado no avental: meça exatamente 4 dedos (cerca de 7 a 8 cm) abaixo da borda superior do decote do peito. Esse é o ponto anatômico perfeito! Quando o churrasqueiro veste a peça, o nome fica perfeitamente visível, acima da bancada da churrasqueira e sem dobrar quando ele se inclina!",
+    voceSabia: "Aventais personalizados para mestres de churrasco e confrarias gastronômicas têm uma das maiores margens de lucro do ateliê: o custo do tecido e do bordado é baixo, mas o produto final pronto com embalagem rústica alcança até três a quatro vezes o valor de venda de uma peça simples!",
+    practicalExercise: "Pegue um retalho de brim ou sarja grossa de 20x25 cm. Prenda uma entretela de recorte de 80 g/m² no bastidor, aplique cola spray temporária e apoie o brim. No software, digite um nome masculino em fonte serifada encorpada com 3,5 cm de altura e subponto em zigue-zague. Borde na máquina e examine o avesso: os pontos devem estar firmes, sem deformação e com toque profissional de grife!",
+    quickSummary: "Manual completo de matrizaria, estabilização e bordado em aventais masculinos pesados, com posicionamento no peito, tecidos resistentes e ancoragem anti-repuxo.",
+    relatedTerms: [
+      "Bordado em Brim e Sarja",
+      "Entretela de Recorte (Cut-Away)",
+      "Compensação de Repuxo",
+      "Subpontos de Ancoragem (Underlay)",
+      "Marca de Bastidor (Hoop Burn)",
+      "Agulha Ponta Lança / Universal",
+      "Técnica de Flutuação (Floating)"
+    ],
+    tags: [
+      "avental",
+      "churrasqueiro",
+      "masculino",
+      "produtos-masculinos",
+      "brim",
+      "sarja",
+      "cutaway",
+      "artrelados",
+      "producao"
+    ],
+    bibliographicReferences: [
+      "DECORATIVE APPAREL. Heavyweight Fabric Stabilizing and Grilling Aprons. St. Louis: NBM, 2023.",
+      "WILCOM. Lettering and Density Rules for Heavy Twill and Denim. Sydney, 2022.",
+      "SILVA, Janete M. C. Cadernos de Produção do Ateliê Artrelados: Peças Gastronômicas e Utilitários Masculinos. São Paulo, 2026."
+    ],
+    updatedAt: "2026-10-13"
   }
 ];
 
