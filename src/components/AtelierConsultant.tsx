@@ -29,6 +29,7 @@ export interface ConsultantAdvice {
     thread?: string;
     specialTools?: string;
   };
+  commercialVision?: string;
   preventiveAdvice: string;
   artreladosGoldenTip: string;
   relatedDibeTerms?: string[];
@@ -501,10 +502,68 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
       };
     }
 
-    // Caso Geral: Trilho de Mesa / Linho Puro / Mesa Posta (Planejamento e Montagem)
+    // Caso Específico: Toalha de Mesa de Grande Porte (Linho, Quadrada, Retangular ou Redonda para 8 pessoas, 2,40m, Banquete)
     if (
-      (q.includes("linho") || q.includes("trilho") || q.includes("caminho") || q.includes("mesa posta") || q.includes("guardanapo")) &&
-      (q.includes("encomenda") || q.includes("como bordar") || q.includes("o que faco") || q.includes("comecar") || q.includes("primeiro") || q.includes("comprimento") || q.includes("1,80") || q.includes("1.80"))
+      q.includes("toalha de mesa") ||
+      q.includes("toalha quadrada") ||
+      q.includes("toalha redonda") ||
+      q.includes("toalha retangular") ||
+      q.includes("2,40") ||
+      q.includes("2.40") ||
+      q.includes("8 pessoas") ||
+      q.includes("8 lugares") ||
+      q.includes("banquete") ||
+      (q.includes("toalha") && (q.includes("mesa") || q.includes("linho")))
+    ) {
+      return {
+        title: "Banquete Imperial: Guia Artrelados para Bordar Toalha de Mesa de Linho Gigante com Maestria",
+        situationSummary:
+          "Que encomenda espetacular e honrosa! Bordar uma toalha de mesa de linho puro de 2,40 m para 8 lugares é um trabalho de alta costura para o lar. Compreendo perfeitamente o seu frio na barriga: o linho é nobre, vivo e não perdoa repuxos, e o peso de uma peça desse porte exige planejamento minucioso de matriz, sustentação e alinhamento para não deformar o tecido nem sobrecarregar o pantógrafo da máquina.",
+        rescueActionPlan: [
+          "Passo 1: Escolha da Matriz e Estilo de Desenho: Para uma mesa de 8 lugares (2,40m), evite bordar o centro absoluto, pois pratos e arranjos cobrirão o bordado e manusear o meio do tecido na máquina é fisicamente desafiador. Opte por cantoneiras nos 4 cantos ou medalhões/monogramas nas quedas laterais (de 18cm a 25cm da barra). Escolha matrizes leves: florais botânicos lineares, monogramas clássicos com arabescos vazados ou pontos leves (ponto semente, redwork ou sombra). Evite matrizes compactas em tatami pesado, que formam placas duras e repuxam o linho.",
+          "Passo 2: Gestão do Peso e Estação de Apoio ao Pantógrafo: Uma toalha de linho de 2,40m é extremamente pesada. Nunca deixe o restante do tecido pendurado para fora da máquina, pois a gravidade puxará o bastidor durante os movimentos do pantógrafo, desalinhando contornos e forçando os motores de passo. Monte uma 'estação de apoio' com mesas auxiliares ou cadeiras acolchoadas ao redor da bordadeira, acomodando todo o volume no mesmo nível da mesa de bordar.",
+          "Passo 3: Marcação Precisa e Simétrica dos 4 Cantos: Meça a partir das barras prontas para dentro (entre 18cm e 25cm da ponta, respeitando a dobra do canto mitrado). Faça a marcação em cruz com giz de alfaiate fino ou caneta fantasminha termo-apagável com auxílio de esquadro de 90°. Para simetria perfeita nos 4 cantos, utilize gabarito impresso da matriz na escala 1:1, alinhando rigorosamente com o fio reto do linho.",
+          "Passo 4: Montagem com Técnica Flutuante sem Queimar o Linho no Aro: Nunca aperte o linho diretamente no aro do bastidor para não esmagar as fibras nem deixar marcas permanentes de aro ('hoop burn'). Estique apenas a entretela hidrossolúvel encorpada (ou rasgável 40g bem macia) no bastidor bem esticada como um tambor. Borrife adesivo spray temporário suave, apoie o canto da toalha sobre as marcações e execute o alinhavo de contorno (basting frame) da própria máquina para fixação absoluta.",
+          "Passo 5: Calibração de Velocidade e Densidade: Reduza a velocidade da sua máquina para 500 a 600 PPM para garantir formação perfeita das laçadas na trama do linho. No software da matriz, certifique-se de que a densidade esteja suave (entre 0.40mm e 0.45mm) com compensação de repuxo regulada (0.35mm a 0.40mm).",
+        ],
+        recommendedMaterials: {
+          stabilizer: "Entretela rasgável de toque suave e arrancamento fácil (40g/m²) ou entretela hidrossolúvel têxtil (dissolve em água sem deixar rigidez nas costas, deixando o avesso limpo e nobre)",
+          needle: "Agulha Schmetz ou Groz-Beckert ponta fina Microtex ou Universal calibre 70/10 ou 75/11 (evite pontas grossas 90/14 que furam e abrem a tela do linho)",
+          thread: "Linha superior de poliéster de filamento contínuo nº 40 com brilho acetinado (ou linha de algodão egípcio nº 50 para estilo rústico chique); linha de bobina fina 60wt macia, preferencialmente na cor branca ou combinando com o fundo do linho",
+          specialTools: "Mesas de apoio auxiliares/cadeiras com almofada para sustentar o peso da toalha, adesivo spray temporário para bordado, caneta fantasminha termosensível, tesoura de arremate bico de pato e ferro a vapor",
+        },
+        commercialVision:
+          "Ofereça à cliente a composição de um enxoval de banquete completo: conjunto com 8 guardanapos de linho puro com o monograma coordenado e 8 porta-guardanapos bordados. Para mesas de 8 lugares, a venda do conjunto completo dobra a rentabilidade do pedido e encanta a cliente!",
+        preventiveAdvice:
+          "Antes de encostar a agulha na toalha de 2,40m da cliente, corte uma sobra do mesmo linho e borde a matriz escolhida como teste completo. Lave o retalho ou passe a vapor para checar se a matriz encolheu o tecido. Sempre use a função 'Traçar Contorno' (Trace Outline) no painel da máquina para garantir que o alinhamento angular com a borda está milimetricamente reto.",
+        artreladosGoldenTip:
+          "O Segredo dos 4 Cantos Flutuantes da Artrelados: Para bordar os cantos de uma toalha tão nobre sem deformar a barra, dobre a toalha em triângulo com calma e trabalhe cada ponta individualmente. Coloque apenas a entretela bem esticada como pele de tambor no bastidor, borrife cola spray leve, apoie o canto da toalha exatamente sobre as marcações e execute o alinhavo perimetral da máquina. O linho não sofre pressão plástica do aro, não ganha 'hoop burn' e fica assentado, liso e reto como uma régua de alfaiate!",
+        relatedDibeTerms: [
+          "Bordado em Toalhas de Lavabo com Faixa de Linho Puro",
+          "Rotação de Matriz em 90°, 180° e Alinhamento por Ângulo Livre",
+          "Guardanapo Bordado, Roupa de Mesa & Canto Mitrado",
+        ],
+        followUpQuestions: [
+          {
+            label: "📐 Marcação nos 4 Cantos",
+            prompt: "Qual é a distância ideal da borda e como posicionar as cantoneiras em toalhas de mesa quadradas para valorizar o caimento?",
+          },
+          {
+            label: "✨ Estilo de Monograma e Matriz",
+            prompt: "Quais tipos de matrizes (monograma, floral, richelieu ou arabesco) combinam melhor com toalha de mesa de linho para 8 lugares?",
+          },
+          {
+            label: "🏷️ Precificação de Grande Porte",
+            prompt: "Como calcular o preço justo para bordar uma toalha de linho de 2,40m considerando o risco, tempo de manuseio e número de bastidores?",
+          },
+        ],
+      };
+    }
+
+    // Caso: Trilho de Mesa / Caminho de Mesa de Linho Longo (1,80m)
+    if (
+      (q.includes("trilho") || q.includes("caminho")) &&
+      (q.includes("linho") || q.includes("mesa posta") || q.includes("1,80") || q.includes("1.80") || q.includes("encomenda") || q.includes("como bordar"))
     ) {
       return {
         title: "Trilho Nobre de Mesa Posta: Do Planejamento Perfeito ao Bordado Impecável em Linho",
@@ -523,6 +582,8 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
           thread: "Linha superior de poliéster ou viscose calibre 40 de alto brilho e linha de bobina fina 60wt na mesma cor da linha de cima ou em tom neutro suave compatível com o tecido.",
           specialTools: "Cola spray adesiva temporária suave, caneta fantasminha termo-apagável, régua de patchwork/esquadro longo e mesa de apoio ou suporte para sustentar o caimento dos 1,80m de tecido.",
         },
+        commercialVision:
+          "Ofereça à cliente guardanapos de linho combinando com os mesmos monogramas das cabeceiras do trilho para criar uma mesa posta de luxo completa.",
         preventiveAdvice:
           "Antes de iniciar na peça definitiva, faça sempre um teste em um retalho do mesmo linho com a mesma entretela para checar a compensação de encolhimento da matriz e a densidade dos pontos, evitando que a textura plana do linho fique enrugada ao redor dos pontos cheios.",
         artreladosGoldenTip:
@@ -778,7 +839,6 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
       const res = await fetch("/api/gemini/embroidery-consultant", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        credentials: "same-origin",
         body: JSON.stringify({
           userQuery: textToSubmit.trim(),
         }),
@@ -831,6 +891,7 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
       (advice.recommendedMaterials.needle ? `• Agulha: ${advice.recommendedMaterials.needle}\n` : "") +
       (advice.recommendedMaterials.thread ? `• Linha: ${advice.recommendedMaterials.thread}\n` : "") +
       (advice.recommendedMaterials.specialTools ? `• Ferramentas: ${advice.recommendedMaterials.specialTools}\n` : "") +
+      (advice.commercialVision ? `\n💼 *Visão Comercial & Valor Agregado:*\n${advice.commercialVision}\n` : "") +
       `\n🛡️ *Prevenção:* ${advice.preventiveAdvice}\n\n` +
       `💡 *Dica de Ouro Artrelados:* ${advice.artreladosGoldenTip}\n\n` +
       `📊 *Calculadora Oficial Artrelados (CABE):* Conheça a ferramenta oficial e transforme a gestão e a precificação do seu ateliê: https://www.artrelados.com.br/calculadora-de-bordados-a-maquina-br\n\n` +
@@ -1096,6 +1157,18 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
               )}
             </div>
           </div>
+
+          {/* Section: Commercial Vision */}
+          {advice.commercialVision && (
+            <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-emerald-50 via-emerald-100/40 to-teal-50 border border-emerald-300/80 space-y-1.5 shadow-2xs">
+              <span className="text-[11px] font-black text-emerald-950 uppercase tracking-wider flex items-center gap-1.5">
+                <span>💼 Visão Comercial & Valor Agregado:</span>
+              </span>
+              <p className="text-xs sm:text-sm text-slate-800 font-semibold leading-relaxed">
+                {advice.commercialVision}
+              </p>
+            </div>
+          )}
 
           {/* Section 4: Golden Tip Artrelados */}
           {advice.artreladosGoldenTip && (
