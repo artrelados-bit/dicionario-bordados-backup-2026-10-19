@@ -96,9 +96,12 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
       "de", "a", "o", "que", "e", "do", "da", "em", "um", "para", "com", "nao", "uma", "os", "no", "se", "na",
       "por", "mais", "as", "dos", "como", "mas", "ao", "ele", "das", "seu", "sua", "ou", "quando", "muito",
       "nos", "ja", "eu", "tambem", "so", "pelo", "pela", "ate", "isso", "ela", "entre", "depois", "sem",
-      "mesmo", "aos", "seus", "quem", "nas", "me", "esse", "eles", "voce", "essa", "num", "nem", "suas",
+      "mesmo", "aos", "seus", "quem", "nas", "me", "esse", "eles", "voce", "vc", "essa", "num", "nem", "suas",
       "meu", "minha", "minhas", "meus", "onde", "sou", "peguei", "sei", "qual", "quais", "posso", "pode",
-      "fazer", "comecar", "ajuda", "ajudar", "faco", "primeiro"
+      "fazer", "comecar", "ajuda", "ajudar", "ajude", "faco", "primeiro", "primeira", "primeiros", "passo", "passos",
+      "bordar", "bordado", "bordados", "bordando", "maquina", "maquinas", "costura", "costurar", "iniciante", "iniciantes",
+      "quero", "quer", "preciso", "precisa", "saber", "atelie", "ola", "oi", "bom", "boa", "dia", "tarde", "noite",
+      "duvida", "duvidas", "favor", "porfavor", "coisa", "coisas", "tem", "ter", "tenho", "sobre"
     ]);
 
     const words = query
@@ -127,7 +130,7 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
 
       for (const w of words) {
         if (termClean === w) score += 50;
-        else if (termClean.includes(w)) score += 25;
+        else if (termClean.includes(w)) score += 20;
         if (summaryClean.includes(w)) score += 8;
         if (dicaClean.includes(w)) score += 6;
         if (tipsClean.includes(w)) score += 5;
@@ -143,6 +146,161 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
   // Motor Inteligente de Consultoria Artrelados (Garantia de resposta profunda com fundamentação DIBE)
   const getOfflineFallbackAdvice = (query: string): ConsultantAdvice => {
     const q = query.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
+    // Prioridade Máxima: Panos de Prato / Sacaria / Pano de Copa / Pano Pé-de-Galinha
+    if (
+      q.includes("prato") ||
+      q.includes("sacaria") ||
+      q.includes("pano de prato") ||
+      q.includes("panos de prato") ||
+      q.includes("pano de copa") ||
+      q.includes("panos de copa") ||
+      q.includes("pe de galinha") ||
+      (q.includes("pano") && (q.includes("cozinha") || q.includes("copa") || q.includes("iniciante") || q.includes("comecar") || q.includes("comeco") || q.includes("como bordar")))
+    ) {
+      return {
+        title: "Primeiros Passos de Sucesso: Guia Completo Artrelados para Bordar Panos de Prato com Perfeição e Lucro",
+        situationSummary:
+          "Que escolha maravilhosa para começar no bordado, minha querida! Bordar panos de prato e peças de sacaria é a porta de entrada mais nobre, acolhedora e lucrativa do nosso ateliê. A sacaria (seja a clássica trama pé-de-galinha ou a lisa 100% algodão) é um tecido com espaçamento natural entre os fios. O segredo de ouro para não ter medo e fazer peças que encantam desde o primeiro teste é usar a estabilização correta para a linha não afundar e montar com técnica flutuante sem deformar a barra.",
+        rescueActionPlan: [
+          "Passo 1: Preparação da Sacaria e Escolha da Matriz Ideal. Sempre pré-lave ou umedeça e passe a ferro a sacaria antes de cortar ou bordar, pois o algodão puro tem encolhimento natural de 5% a 8%. Para quem está começando, escolha matrizes alegres e leves: apliques fofos com retalhos de tricoline 100% algodão, galinhas e motivos de cozinha em ponto rippled (sombreado) ou barrados florais delicados. Evite matrizes com tatami pesado e denso, que endurecem o pano de prato e dificultam a secagem da louça.",
+          "Passo 2: Montagem com Técnica Flutuante no Bastidor. Jamais aperte a sacaria direto no aro do bastidor para não esgarçar a trama nem deixar marcas permanentes de pressão. Estique apenas a entretela rasgável média (40g a 50g) no bastidor bem firme, esticada como a pele de um tambor. Aplique uma leve névoa de cola spray temporária suave e apoie a barra do pano de prato por cima, ativando a função de alinhavo perimetral (basting frame) da sua máquina.",
+          "Passo 3: O Segredo do Filme Hidrossolúvel Superior. Como a sacaria tem pequenas reentrâncias e buraquinhos na trama (especialmente a pé-de-galinha), coloque uma folha de filme plástico hidrossolúvel (Solvy) por cima do tecido antes de iniciar o bordado. Ele serve de ponte de sustentação, impedindo que os pontos cheios e letrinhas afundem nos fios do tecido, resultando em um acabamento com brilho e nitidez impecáveis.",
+          "Passo 4: Agulha e Calibragem de Velocidade da Máquina. Utilize agulha nova calibre 75/11 ou 70/10 com Ponta Bola Leve (SES / Ball Point). A ponta bola afasta os fios de algodão da sacaria sem perfurar nem romper a trama. Ajuste a velocidade da bordadeira para 500 a 600 ppm; trabalhar com velocidade controlada no início garante laçadas perfeitas e evita qualquer quebra de linha.",
+          "Passo 5: Acabamento do Avesso e Barrado Artesanal. Ao terminar, retire o excesso de filme solúvel com água morna e remova a entretela rasgável suavemente pelo verso. Apare todas as pontas de linha rentes. Para agregar alto valor comercial, finalize a peça aplicando uma barra charmosa de tricoline estampada (combinando com as cores do bordado) e fita passa-fita com viés, passando tudo a vapor com carinho.",
+        ],
+        recommendedMaterials: {
+          stabilizer: "Entretela rasgável de toque suave (40g a 50g) na base + Película hidrossolúvel (Solvy) por cima da sacaria",
+          needle: "Agulha calibre 75/11 ou 70/10 Ponta Bola Leve (SES / Ball Point) própria para bordado",
+          thread: "Linha superior de poliéster 120D/2 de alto brilho e linha de bobina padrão 60wt (branca ou neutra)",
+          specialTools: "Adesivo spray temporário para bordado, tesoura de arremate bico de pato ou curvada, régua de patchwork e ferro a vapor",
+        },
+        commercialVision:
+          "Nunca venda o pano de prato como um simples 'paninho de secar louça' avulso! Crie kits coordenados de 3 a 7 panos (ex: Kit Semana da Cozinha Feliz ou Kit Chá com Amigas), amarre com uma fita de gorgurão ou ráfia rústica e adicione uma etiqueta de tecido com a marca do seu ateliê. Um custo de produção de R$ 8 a R$ 10 por peça se transforma em um presente nobre vendido por R$ 35 avulso ou R$ 120 o kit!",
+        preventiveAdvice:
+          "Antes de bordar no seu pano principal, faça sempre um teste rápido de 5 minutos em um retalho da mesma sacaria com a mesma entretela para verificar se a linha da bobina está no terço central do avesso e se as cores combinam com harmonia.",
+        artreladosGoldenTip:
+          "Dica de Ouro Artrelados: Costure uma alcinha charmosa feita com o próprio tecido da barra no cantinho superior do pano de prato para a cliente poder pendurar no gancho da cozinha ou no puxador do forno. E antes de embalar, borrife uma água perfumada de alecrim ou flor de laranjeira no tecido. Esse toque sensorial conquista e fideliza qualquer cliente na hora!",
+        relatedDibeTerms: [
+          "Compensação de Repuxo (Pull Compensation)",
+          "Filme Hidrossolúvel para Bordado (Solvy)",
+          "Alinhamento e Centralização no Bastidor",
+          "Precificação e Formação de Preço no Bordado",
+        ],
+        followUpQuestions: [
+          {
+            label: "🏷️ Precificação de Kits de Panos",
+            prompt: "Como calcular o preço de venda e o lucro de um kit de panos de prato com barrado no ateliê?",
+          },
+          {
+            label: "🧵 Aplique em Pano de Prato",
+            prompt: "Qual o passo a passo seguro para fazer apliques de tecido em pano de prato sem desfiar?",
+          },
+          {
+            label: "⚙️ Tensão e Bobina na Sacaria",
+            prompt: "Como regular a tensão da linha da máquina para bordar em sacaria pé-de-galinha com avesso perfeito?",
+          },
+        ],
+      };
+    }
+
+    // Prioridade Máxima: Iniciantes Gerais / Primeiros Passos no Bordado Eletrônico
+    if (
+      (q.includes("iniciante") || q.includes("comecar") || q.includes("comeco") || q.includes("primeiros passos") || q.includes("primeiro bordado") || q.includes("comprei uma maquina") || q.includes("nao sei como comecar")) &&
+      !q.includes("precific") && !q.includes("linho") && !q.includes("fralda") && !q.includes("manta")
+    ) {
+      return {
+        title: "Primeiros Passos de Ouro: O Guia Completo Artrelados para Dominar sua Máquina de Bordar sem Medo",
+        situationSummary:
+          "Seja muito bem-vinda ao maravilhoso universo do bordado computadorizado! Ter dúvidas e insegurança no início é completamente normal e faz parte da jornada de toda grande bordadeira. O segredo para você ter sucesso imediato e transformar sua máquina em uma fonte de renda e realização é dominar o trio sagrado do bordado: Tecido Certo + Entretela Adequada + Agulha Nova.",
+        rescueActionPlan: [
+          "Passo 1: Conheça o 'Trio de Ouro' da Estabilização. No bordado eletrônico, o tecido nunca trabalha sozinho. Tecidos planos e firmes (algodão, tricoline, sarja) pedem entretela rasgável média (40g a 50g). Tecidos delicados ou elásticos pedem entretela hidrossolúvel ou de malha. Tecidos felpudos ou com pelos (toalhas, mantas) exigem filme hidrossolúvel por cima.",
+          "Passo 2: Montagem Segura no Bastidor (Sem Deformar o Tecido). O tecido deve ficar esticado no bastidor de forma plana, sem rugas, mas sem ser puxado com força excessiva para não esticar as fibras. Ao bater levemente os dedos, deve soar como um tambor suave.",
+          "Passo 3: A Escolha da Agulha Certa. A agulha é o componente que mais trabalha na máquina. Para tecidos de algodão e planos, use calibre 75/11 ponta bola leve (SES). Troque a agulha a cada 8 a 10 horas de uso contínuo ou a cada projeto nobre para evitar desfiamento de linha.",
+          "Passo 4: Verificação da Tensão da Bobina (A Regra do 1/3). Borde uma coluna teste de letras. No verso, a linha da bobina deve ocupar o terço do meio e a linha colorida deve aparecer suavemente nas laterais. Se o avesso estiver equilibrado, a frente ficará impecável.",
+          "Passo 5: Pratique em Retalhos Antes da Peça Definitiva. Tenha uma caixinha de retalhos de vários tecidos no ateliê. Testar a matriz por 3 minutos em um retalho antes de aplicar na peça da cliente é o maior seguro de paz e lucro que existe!",
+        ],
+        recommendedMaterials: {
+          stabilizer: "Kit inicial com entretela rasgável 40g/50g e filme plástico hidrossolúvel (Solvy)",
+          needle: "Caixinha de agulhas 75/11 Ponta Bola Leve (SES / Ball Point)",
+          thread: "Linhas de poliéster 120D/2 brilhantes em cores básicas e linha de bobina fina 60wt",
+          specialTools: "Tesoura de ponta curva de precisão, caneta fantasminha termo-apagável e fita métrica",
+        },
+        commercialVision:
+          "Comece oferecendo peças para o seu círculo próximo: panos de prato de luxo, toalhinhas escolares personalizadas e kits de fraldas. Essas peças têm baixo custo de material e rápida rotação de vendas!",
+        preventiveAdvice:
+          "Nunca puxe a linha superior para trás ao despassar a máquina; sempre corte a linha perto do cone e puxe o restante pela agulha no sentido normal do fio para não danificar os discos de tensão.",
+        artreladosGoldenTip:
+          "No Ateliê Artrelados, nossa regra de ouro para iniciantes é: comece com matrizes leves e de boa procedência, nunca acelerando a máquina ao máximo. Bordar a 500 ou 600 ppm traz acabamento perfeito, sem quebras de linha e sem sustos!",
+        relatedDibeTerms: [
+          "Regulagem de Tensão da Linha e Bobina",
+          "Alinhamento e Centralização no Bastidor",
+          "Compensação de Repuxo (Pull Compensation)",
+          "Precificação e Formação de Preço no Bordado",
+        ],
+        followUpQuestions: [
+          {
+            label: "🍽️ Como Bordar Panos de Prato",
+            prompt: "Quero bordar panos de prato, mas sou iniciante e não sei como começar, vc me ajuda?",
+          },
+          {
+            label: "🏷️ Precificação para Iniciantes",
+            prompt: "Como calcular o preço e não ter prejuízo no meu primeiro bordado por encomenda?",
+          },
+          {
+            label: "⚙️ Regulagem de Tensão",
+            prompt: "Como regular a tensão da linha e da bobina para o bordado não repuxar nem ficar frouxo?",
+          },
+        ],
+      };
+    }
+
+    // Prioridade: Bonés e Peças Estruturadas
+    if (q.includes("bone") || q.includes("chapeu") || (q.includes("costura") && q.includes("grossa") && q.includes("agulha"))) {
+      return {
+        title: "Bordado em Bonés sem Quebra de Agulha: A Técnica da Costura Central e Flutuação",
+        situationSummary:
+          "Bordar na frente de um boné estruturado é um dos maiores desafios mecânicos para a máquina de bordar, especialmente na junção da costura central que possui múltiplas camadas duras de entretela e tecido pesado.",
+        rescueActionPlan: [
+          "Passo 1: Troca Obrigatória de Agulha para Calibre 90/14 Jeans/Sharp. Agulhas comuns 75/11 flexionam ao bater na costura dura e colidem contra a chapa de agulha ou lançadeira, partindo ao meio. A agulha de ponta afiada e haste reforçada perfura sem desviar.",
+          "Passo 2: Técnica da Flutuação com Entretela Pesada 80g no Bastidor Plano. Se você não tem bastidor cilíndrico de boné, desmonte a aba ou abra a testeira e prenda a entretela bem firme no bastidor plano, usando cola spray e alfinetes nas abas laterais.",
+          "Passo 3: Martelo de Borracha ou Prensa na Costura Central. Antes de levar à máquina, amacie a costura central batendo suavemente com um martelinho de borracha sobre uma base de madeira para achatar a lombada dura.",
+          "Passo 4: Redução Drástica de Velocidade. Reduza a velocidade da máquina para 400 a 450 ppm ao passar pela área central.",
+          "Passo 5: Matriz com Compensação Aumentada. No software, aumente a compensação de repuxo para 0.45mm e evite subpontos densos em cima da costura.",
+        ],
+        recommendedMaterials: {
+          stabilizer: "Entretela rasgável pesada 80g/m² ou entretela resinada estruturada",
+          needle: "Agulha calibre 90/14 ponta afiada (Jeans / Sharp / Microtex) ou de titânio",
+          thread: "Linha de poliéster 120D/2 e bobina 60wt",
+          specialTools: "Martelo de borracha ou alicate de pressão para achatar costuras, cola spray e fita crepe de papel",
+        },
+        commercialVision:
+          "Bonés personalizados têm alta procura por empresas, turmas e eventos, permitindo margens de lucro superiores a 60% por unidade quando bem acabados.",
+        preventiveAdvice:
+          "Gire o volante manualmente na área mais grossa da costura para certificar-se de que a agulha desce livremente sem raspar na chapa da máquina.",
+        artreladosGoldenTip:
+          "Dica de Ouro Artrelados: Cole uma tira estreita de fita crepe por dentro da testeira do boné sobre a costura antes de montar no bastidor. Isso cria um amortecedor suave que absorve o impacto da agulha!",
+        relatedDibeTerms: [
+          "Agulha para Tecidos Pesados e Couro",
+          "Bastidor de Boné e Acessórios Cilíndricos",
+          "Alinhamento e Centralização no Bastidor",
+        ],
+        followUpQuestions: [
+          {
+            label: "🏷️ Precificação de Bonés",
+            prompt: "Como calcular o preço de venda para bordar bonés personalizados no ateliê?",
+          },
+          {
+            label: "🧢 Bastidor Plano vs Cilíndrico",
+            prompt: "Como adaptar bastidor plano para bordar bonés sem deformar a copa?",
+          },
+          {
+            label: "⚙️ Velocidade e Tensão",
+            prompt: "Qual a melhor velocidade e tensão para bordar peças grossas e estruturadas?",
+          },
+        ],
+      };
+    }
 
     // Prioridade 1: Precificação de Mesa Posta (Trilho de Linho de 1,80m) ou Bordados em Geral
     if (
@@ -794,25 +952,28 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
       };
     }
 
-    // Caso Dinâmico Universal: Busca direta nos 2.900+ verbetes do DIBE
+    // Caso Dinâmico Universal: Busca inteligente nos mais de 2.900 verbetes do DIBE
     const matches = searchLocalDibe(query, 3);
     if (matches.length > 0) {
       const top = matches[0];
       return {
         title: `${top.term}: Guia Especializado de Ateliê Artrelados`,
-        situationSummary: `Analisamos com todo carinho a sua dúvida sobre o assunto que você consultou.\n\nCom base no acervo oficial do DIBE Artrelados e no conhecimento especializado encontrado na Internet, reunimos as melhores práticas de produção para esse desafio.`,
+        situationSummary: `Analisamos com todo carinho a sua dúvida técnica. Com base no acervo oficial do DIBE Artrelados e no conhecimento especializado de ateliê, reunimos as melhores práticas de produção para esse desafio.`,
         rescueActionPlan: [
-          `Passo 1 (Estabilização): ${top.beginnerExplanation || top.summary || "Avalie a estrutura mecânica do tecido e utilize entretela com gramatura compatível com a densidade da matriz."}`,
+          `Passo 1 (Conceito e Estabilização): ${top.beginnerExplanation || top.summary || "Avalie a estrutura mecânica do tecido e utilize entretela com gramatura compatível com a densidade da matriz."}`,
           `Passo 2 (Execução Técnica): ${Array.isArray(top.howItWorks) && top.howItWorks[0] ? top.howItWorks[0] : (Array.isArray(top.troubleshootingTips) && top.troubleshootingTips[0] ? top.troubleshootingTips[0] : "Regule a agulha adequada e calibre a tensão da linha superior para evitar repuxos.")}`,
           `Passo 3 (Parâmetros de Máquina): ${Array.isArray(top.troubleshootingTips) && top.troubleshootingTips[1] ? top.troubleshootingTips[1] : "Mantenha a velocidade da máquina controlada e certifique-se de que o tecido não sofre tração excessiva no pantógrafo."}`,
-          `Passo 4 (Acabamento): Realize a limpeza minuciosa do verso com tesoura de arremate de ponta curva, conferindo estabilidade e toque suave.`,
+          `Passo 4 (Prevenção de Falhas): ${Array.isArray(top.commonErrors) && top.commonErrors[0] ? `Cuidado essencial: evite ${top.commonErrors[0].toLowerCase()}` : "Verifique o assentamento das laçadas e faça sempre um teste prévio em retalho similar."}`,
+          `Passo 5 (Acabamento Profissional): Realize a limpeza minuciosa do verso com tesoura de arremate de ponta curva, conferindo estabilidade dimensional, toque suave e passadoria a ferro morno com vapor.`,
         ],
         recommendedMaterials: {
-          stabilizer: `Entretela adequada para ${top.category || "o tecido"} (rasgável suave ou hidrossolúvel)`,
-          needle: `Agulha recomendada: calibre 75/11 ou 80/12 ponta bola leve ou microtex afiada`,
-          thread: `Linha superior 100% poliéster trilobal 120D/2 brilhante e linha de bobina fina`,
-          specialTools: `Tesoura de arremate curva, pinça de precisão e cola temporária suave`,
+          stabilizer: `Entretela adequada para ${top.category || "o tecido"} (rasgável suave 40g/50g ou hidrossolúvel têxtil)`,
+          needle: `Agulha recomendada: calibre 75/11 ou 80/12 ponta bola leve (SES) ou microtex afiada`,
+          thread: `Linha superior 100% poliéster trilobal 120D/2 brilhante e linha de bobina padrão 60wt`,
+          specialTools: `Tesoura de arremate curva, pinça de precisão, cola temporária suave e ferro a vapor`,
         },
+        commercialVision:
+          "Agregue valor à peça final com uma embalagem charmosa, aroma artesanal suave e um cartão de cuidados assinado pelo seu ateliê. Isso eleva a percepção de luxo e fideliza a cliente!",
         preventiveAdvice:
           Array.isArray(top.commonErrors) && top.commonErrors[0]
             ? `Atenção preventiva: evite ${top.commonErrors[0].toLowerCase()}`
@@ -844,26 +1005,32 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
     }
 
     return {
-      title: "Consultoria Especializada Artrelados para o seu Bordado",
-      situationSummary: `Analisamos a sua dúvida técnica: "${query.slice(0, 120)}..." e preparamos as melhores recomendações práticas de ateliê para essa situação.`,
+      title: "Primeiros Passos de Sucesso: Guia Completo Artrelados para o seu Bordado",
+      situationSummary: `Analisamos com todo carinho a sua dúvida técnica. Com base no acervo oficial do DIBE Artrelados e nas práticas de ateliê, reunimos as melhores diretrizes para você produzir com segurança e encantar suas clientes.`,
       rescueActionPlan: [
-        "Avaliação do Tecido & Estabilização: Certifique-se de que a entretela utilizada oferece sustentação mecânica suficiente para o peso da matriz sem deformar a peça.",
-        "Ajuste da Tensão e Bobina: Verifique se a linha da bobina está aparecendo sutilmente no terço central do avesso (regra do 1/3) para evitar nós salientes.",
-        "Calibre da Agulha: Para tecidos delicados utilize agulha 70/10 ou 75/11; para tecidos grossos ou estruturados utilize 80/12 ou 90/14.",
+        "Passo 1: Avaliação do Tecido & Estabilização. Certifique-se de que a entretela utilizada oferece sustentação mecânica suficiente para o peso da matriz sem deformar a peça (rasgável para tecidos firmes e hidrossolúvel para tecidos abertos ou com pelos).",
+        "Passo 2: Montagem com Firmeza no Bastidor. O tecido deve ficar esticado de forma uniforme como um tambor suave, sem repuxar as fibras nas diagonais para evitar ondas ao retirar da máquina.",
+        "Passo 3: Ajuste da Tensão e Bobina. Verifique se a linha da bobina está aparecendo sutilmente no terço central do avesso (regra do 1/3) para garantir firmeza e pontos acetinados na frente.",
+        "Passo 4: Calibre da Agulha e Velocidade. Para tecidos delicados utilize agulha 70/10 ou 75/11 ponta bola leve; mantenha a velocidade em torno de 500 a 600 ppm para formação perfeita dos pontos.",
+        "Passo 5: Limpeza e Apresentação. Faça o corte das pontas de linha rente pelo avesso, passe suavemente a ferro morno com vapor e apresente a peça com embalagem diferenciada.",
       ],
       recommendedMaterials: {
-        stabilizer: "Entretela compatível com a elasticidade e peso do tecido",
-        needle: "Agulha adequada ao calibre da linha e espessura do tecido",
-        thread: "Linha de qualidade para bordado 100% poliéster",
-        specialTools: "Tesoura de arremate de ponta curva e pinça de precisão",
+        stabilizer: "Entretela compatível com a elasticidade e peso do tecido (40g a 50g)",
+        needle: "Agulha calibre 75/11 ponta bola leve (SES) para bordado computadorizado",
+        thread: "Linha de poliéster 120D/2 brilhante e linha de bobina fina 60wt",
+        specialTools: "Tesoura de arremate de ponta curva, fita métrica e cola spray temporária",
       },
+      commercialVision:
+        "Crie conjuntos coordenados e capriche na apresentação com laços e perfume de passar. O encanto visual valoriza o produto e permite uma precificação muito mais lucrativa!",
       preventiveAdvice:
-        "Sempre realize um teste de bordado em um retalho do mesmo tecido com a mesma entretela antes de aplicar na peça definitiva do cliente.",
+        "Sempre realize um teste de bordado em um retalho do mesmo tecido com a mesma entretela antes de aplicar na peça definitiva da cliente.",
       artreladosGoldenTip:
         "No ateliê de bordados, paciência e teste em retalho são a maior economia de tempo e dinheiro que uma bordadeira pode ter!",
       relatedDibeTerms: [
         "Estabilização e Entretelas para Bordado Computadorizado",
-        "Regulagem de Tensão da Linha e Bobina"
+        "Regulagem de Tensão da Linha e Bobina",
+        "Alinhamento e Centralização no Bastidor",
+        "Precificação e Formação de Preço no Bordado",
       ],
       followUpQuestions: [
         {
