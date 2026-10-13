@@ -621,6 +621,18 @@ export default function App() {
     dynamicCodeMap,
   ]);
 
+  // Progressive Batched Loading for ultra-fast rendering and 0 browser freeze
+  const [displayLimit, setDisplayLimit] = useState(30);
+
+  // Reset display limit when filter criteria change
+  useEffect(() => {
+    setDisplayLimit(30);
+  }, [searchQuery, selectedCategory, selectedLetter, onlyFavorites, onlyAiGenerated, activeTab]);
+
+  const displayedVerbetes = useMemo(() => {
+    return filteredVerbetes.slice(0, displayLimit);
+  }, [filteredVerbetes, displayLimit]);
+
   // Enriched selected verbete with dynamic code
   const selectedVerbeteWithDynamicCode = useMemo(() => {
     if (!selectedVerbete) return null;
@@ -721,31 +733,59 @@ export default function App() {
 
             {/* Verbetes Presentation (Clean Dictionary List or Cards Grid) */}
             {filteredVerbetes.length > 0 ? (
-              viewMode === "list" ? (
-                <div className="bg-white border border-slate-200/90 rounded-2xl p-3 sm:p-5 shadow-xs divide-y divide-slate-100">
-                  {filteredVerbetes.map((verbete) => (
-                    <VerbeteRow
-                      key={verbete.id}
-                      verbete={verbete}
-                      onSelect={setSelectedVerbete}
-                      onToggleFavorite={handleToggleFavorite}
-                      currentLanguage={currentLanguage}
-                    />
-                  ))}
-                </div>
-              ) : (
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-                  {filteredVerbetes.map((verbete) => (
-                    <VerbeteCard
-                      key={verbete.id}
-                      verbete={verbete}
-                      onSelect={setSelectedVerbete}
-                      onToggleFavorite={handleToggleFavorite}
-                      currentLanguage={currentLanguage}
-                    />
-                  ))}
-                </div>
-              )
+              <div className="space-y-6">
+                {viewMode === "list" ? (
+                  <div className="bg-white border border-slate-200/90 rounded-2xl p-3 sm:p-5 shadow-xs divide-y divide-slate-100">
+                    {displayedVerbetes.map((verbete) => (
+                      <VerbeteRow
+                        key={verbete.id}
+                        verbete={verbete}
+                        onSelect={setSelectedVerbete}
+                        onToggleFavorite={handleToggleFavorite}
+                        currentLanguage={currentLanguage}
+                      />
+                    ))}
+                  </div>
+                ) : (
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                    {displayedVerbetes.map((verbete) => (
+                      <VerbeteCard
+                        key={verbete.id}
+                        verbete={verbete}
+                        onSelect={setSelectedVerbete}
+                        onToggleFavorite={handleToggleFavorite}
+                        currentLanguage={currentLanguage}
+                      />
+                    ))}
+                  </div>
+                )}
+
+                {/* Progressive Load More Controller (Keeps mobile and browser silky smooth) */}
+                {displayLimit < filteredVerbetes.length && (
+                  <div className="flex flex-col sm:flex-row items-center justify-between gap-4 p-4 sm:p-5 rounded-2xl bg-amber-50/80 border border-amber-200/90 shadow-2xs">
+                    <p className="text-xs sm:text-sm font-semibold text-amber-950 text-center sm:text-left">
+                      Exibindo <span className="font-black text-amber-900">{displayedVerbetes.length}</span> de{" "}
+                      <span className="font-black text-amber-900">{filteredVerbetes.length}</span> verbetes disponíveis
+                    </p>
+                    <div className="flex items-center gap-2.5 w-full sm:w-auto">
+                      <button
+                        type="button"
+                        onClick={() => setDisplayLimit((prev) => Math.min(prev + 40, filteredVerbetes.length))}
+                        className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs sm:text-sm shadow-xs transition-all hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                      >
+                        Carregar mais 40 termos ↓
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => setDisplayLimit(filteredVerbetes.length)}
+                        className="px-4 py-2.5 rounded-xl bg-white hover:bg-amber-100/60 border border-amber-300 text-amber-950 font-bold text-xs sm:text-sm transition-all cursor-pointer"
+                      >
+                        Mostrar todos
+                      </button>
+                    </div>
+                  </div>
+                )}
+              </div>
             ) : (
               <div className="bg-white border border-slate-200 rounded-3xl p-8 sm:p-12 text-center space-y-5 shadow-sm max-w-2xl mx-auto">
                 <div className="w-14 h-14 rounded-2xl bg-amber-100 text-amber-800 flex items-center justify-center mx-auto border border-amber-200 shadow-inner">
