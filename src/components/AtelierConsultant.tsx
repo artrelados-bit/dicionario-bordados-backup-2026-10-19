@@ -609,8 +609,64 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
       };
     }
 
-    // Caso 2: Fralda de bebê para iniciante / primeira encomenda
-    if ((q.includes("fralda") || q.includes("bebe")) && (q.includes("iniciante") || q.includes("comecar") || q.includes("comeco") || q.includes("como bordar") || q.includes("primeir") || q.includes("encomenda"))) {
+    // Caso Específico: Manta de Bebê / Cobertor Infantil / Enxoval de Berço
+    if (
+      q.includes("manta") ||
+      q.includes("cobertor") ||
+      q.includes("naninha") ||
+      q.includes("cueiro") ||
+      q.includes("edredom")
+    ) {
+      return {
+        title: "Primeiros Passos Perfeitos: Guia Artrelados para Bordar Manta de Bebê com Segurança e Acabamento Impecável",
+        situationSummary:
+          "Que encomenda linda e cheia de significado! Bordar manta de bebê é uma das peças mais nobres e lucrativas do enxoval. Como você é iniciante, o grande segredo para não ter medo é entender o tecido da manta (piquet, microfibra, soft ou malha dupla) e usar a estabilização correta para que o bordado fique macio, sem afundar na textura e com o avesso 100% confortável para o recém-nascido.",
+        rescueActionPlan: [
+          "Passo 1: Identificação do Tecido e Estilo da Matriz: Se a manta for de piquet de algodão ou malha, use matrizes delicadas com contorno em ponto cheio suave ou apliques. Se for de microfibra fofa, plush ou soft (tecidos com pelos/felpas), coloque obrigatoriamente um filme plástico hidrossolúvel por cima para os pontos não afundarem. Escolha desenhos infantis leves: ursinhos, ramos botânicos ou monogramas clássicos com o nome do bebê.",
+          "Passo 2: Posicionamento Estratégico no Canto: Em mantas de berço ou passeio (geralmente de 80x80cm a 1,00x1,00m), o local mais clássico e elegante para bordar é em uma das diagonais/cantos, a cerca de 15cm a 20cm da barra. Dobre a manta em triângulo para encontrar o eixo exato e marque o centro com giz de alfaiate ou caneta fantasminha.",
+          "Passo 3: Técnica da Flutuação no Bastidor: Como a manta é encorpada e volumosa, nunca aperte o tecido diretamente no aro do bastidor para não esmagar as fibras nem deixar marcas de pressão permanentes ('hoop burn'). Prenda apenas a entretela rasgável macia no bastidor (bem esticada como um tambor), borrife adesivo temporário spray suave e apoie a área marcada da manta por cima, fazendo o alinhavo de contorno (basting) da própria máquina.",
+          "Passo 4: Gestão do Volume e Apoio da Manta: Mantenha as sobras da manta apoiadas em uma mesa lateral ou no seu colo durante o bordado, para que o peso do tecido não arraste o pantógrafo da máquina nem cause perda de passos.",
+          "Passo 5: Acabamento Macio do Avesso (Protege Bebê): Após o bordado, remova suavemente as sobras de entretela e aplique pelo avesso a película termocolante suave 'Protege Bebê' (Cover the Back) com ferro morno sem vapor. Ela sela todos os pontinhos e nós, deixando um toque aveludado que protege a pele sensível do bebê.",
+        ],
+        recommendedMaterials: {
+          stabilizer: "Entretela rasgável de toque suave 40g (base) + Filme hidrossolúvel (por cima, se a manta tiver pelos/felpa) + Película termocolante 'Protege Bebê' para o avesso",
+          needle: "Agulha calibre 70/10 ou 75/11 Ponta Bola Fina (SES / Ball Point), que afasta as fibras sem rompê-las",
+          thread: "Linha superior de poliéster 120 brilhante e linha de bobina macia fina 60wt",
+          specialTools: "Caneta fantasminha termo-apagável, cola spray temporária suave para bordado, tesoura de precisão curva e ferro seco",
+        },
+        commercialVision:
+          "Ofereça a manta em kit coordenado com 2 fraldinhas de boca e 1 toalha fralda com o mesmo bordado. Kits de maternidade aumentam o ticket médio da encomenda em mais de 80% e são os preferidos das mães e madrinhas!",
+        preventiveAdvice:
+          "Sempre faça um teste prévio da matriz em um retalho com a mesma estrutura de tecido e entretela antes de bordar na manta da cliente. Isso garante a calibragem da tensão da bobina e a maciez do resultado.",
+        artreladosGoldenTip:
+          "Dica de Ouro Artrelados: Ao cortar a entretela 'Protege Bebê' para o avesso, arredonde sempre os 4 cantos com a tesoura antes de aplicar com o ferro. Cantos arredondados nunca descolam com as lavagens frequentes da manta!",
+        relatedDibeTerms: [
+          "Toalha Fralda e Enxoval de Bebê (Bordado Seguro e Macio)",
+          "Filme Hidrossolúvel para Bordado (Solvy)",
+          "Alinhamento e Centralização no Bastidor",
+        ],
+        followUpQuestions: [
+          {
+            label: "🧵 Tecido e Estrutura da Manta",
+            prompt: "Quais os cuidados específicos para bordar em manta de microfibra fofa, plush ou piquet?",
+          },
+          {
+            label: "📐 Dimensões do Bastidor e Matriz",
+            prompt: "Qual o tamanho de matriz ideal e a melhor posição para bordar em manta de bebê?",
+          },
+          {
+            label: "🏷️ Precificação e Montagem de Kits",
+            prompt: "Como calcular o preço de venda da manta de bebê e montar kits coordenados para enxoval?",
+          },
+        ],
+      };
+    }
+
+    // Caso 2: Fralda de bebê / Paninho de boca para iniciante / primeira encomenda
+    if (
+      (q.includes("fralda") || q.includes("paninho de boca") || q.includes("fraldinha")) &&
+      (q.includes("iniciante") || q.includes("comecar") || q.includes("comeco") || q.includes("como bordar") || q.includes("primeir") || q.includes("encomenda"))
+    ) {
       return {
         title: "Fraldinhas de Nuvem: O Guia Definitivo para um Bordado Perfeito, Macio e Seguro",
         situationSummary:
@@ -744,7 +800,7 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
       const top = matches[0];
       return {
         title: `${top.term}: Guia Especializado de Ateliê Artrelados`,
-        situationSummary: `Analisamos com todo carinho a sua dúvida técnica. Com base no acervo oficial do DIBE Artrelados e no conhecimento consagrado da especialista Janete M. C. Silva, reunimos as melhores práticas de produção para esse desafio.`,
+        situationSummary: `Analisamos com todo carinho a sua dúvida sobre o assunto que você consultou.\n\nCom base no acervo oficial do DIBE Artrelados e no conhecimento especializado encontrado na Internet, reunimos as melhores práticas de produção para esse desafio.`,
         rescueActionPlan: [
           `Passo 1 (Estabilização): ${top.beginnerExplanation || top.summary || "Avalie a estrutura mecânica do tecido e utilize entretela com gramatura compatível com a densidade da matriz."}`,
           `Passo 2 (Execução Técnica): ${Array.isArray(top.howItWorks) && top.howItWorks[0] ? top.howItWorks[0] : (Array.isArray(top.troubleshootingTips) && top.troubleshootingTips[0] ? top.troubleshootingTips[0] : "Regule a agulha adequada e calibre a tensão da linha superior para evitar repuxos.")}`,
@@ -1080,7 +1136,7 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
               <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" />
               <span>Compreendendo o seu Desafio:</span>
             </span>
-            <p className="text-slate-800 text-xs sm:text-sm font-medium leading-relaxed">
+            <p className="text-slate-800 text-xs sm:text-sm font-medium leading-relaxed whitespace-pre-line">
               {advice.situationSummary}
             </p>
           </div>
