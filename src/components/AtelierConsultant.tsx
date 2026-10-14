@@ -992,13 +992,18 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
       };
     }
 
+    // Saudação personalizada usando as variáveis do topo da função
+    const customGreeting = userName
+      ? `1. COMPREENDENDO O SEU DESAFIO: Olá, ${userName}! Que alegria receber você aqui no SOS do Ateliê Artrelados.`
+      : `1. COMPREENDENDO O SEU DESAFIO: Olá, colega bordadeira! Que alegria ter você aqui no SOS do Ateliê Artrelados.`;
+
     // Caso Dinâmico Universal: Busca inteligente nos mais de 2.900 verbetes do DIBE
     const matches = searchLocalDibe(query, 3);
     if (matches.length > 0) {
       const top = matches[0];
       return {
         title: `${top.term}: Guia Especializado de Ateliê Artrelados`,
-        situationSummary: `Analisamos com todo carinho a sua dúvida técnica. Com base no acervo oficial do DIBE Artrelados e no conhecimento especializado de ateliê, reunimos as melhores práticas de produção para esse desafio.`,
+        situationSummary: `${customGreeting} Analisamos com todo carinho a sua dúvida sobre "${query.slice(0, 60)}...". Com base no acervo oficial do DIBE Artrelados e no conhecimento de ateliê, reunimos as melhores práticas de produção para você ter sucesso absoluto.`,
         rescueActionPlan: [
           `Passo 1 (Conceito e Estabilização): ${top.beginnerExplanation || top.summary || "Avalie a estrutura mecânica do tecido e utilize entretela com gramatura compatível com a densidade da matriz."}`,
           `Passo 2 (Execução Técnica): ${Array.isArray(top.howItWorks) && top.howItWorks[0] ? top.howItWorks[0] : (Array.isArray(top.troubleshootingTips) && top.troubleshootingTips[0] ? top.troubleshootingTips[0] : "Regule a agulha adequada e calibre a tensão da linha superior para evitar repuxos.")}`,
@@ -1099,13 +1104,19 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
     setCopied(false);
 
     try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 45000);
+
       const res = await fetch("/api/gemini/embroidery-consultant", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        signal: controller.signal,
         body: JSON.stringify({
           userQuery: textToSubmit.trim(),
         }),
       });
+
+      clearTimeout(timeoutId);
 
       if (!res.ok) {
         throw new Error(`Erro na conexão com o servidor (${res.status})`);
@@ -1134,10 +1145,11 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
         throw new Error(data.error || "Não foi possível gerar a consultoria no momento.");
       }
     } catch (err: any) {
-      console.warn("Utilizando motor de inteligência local para consultoria:", err);
-      // Fallback rico e imediato caso a API remota não responda
+      console.warn("Utilizando motor de inteligência do acervo DIBE:", err);
+      // Fallback rico e personalizado conectado ao acervo do DIBE
       const fallback = getOfflineFallbackAdvice(textToSubmit);
       setAdvice(fallback);
+      setErrorMessage("Dica de Conexão: Caso a resposta da Consultora ao vivo demore na sua rede, você pode clicar em 'Tentar Novamente com a IA' a qualquer instante.");
     } finally {
       setIsLoading(false);
     }
@@ -1277,10 +1289,21 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
         </div>
       </div>
 
-      {/* Error state */}
+      {/* Error / Connection Notice State */}
       {errorMessage && (
-        <div className="p-4 rounded-2xl bg-rose-50 border border-rose-200 text-rose-800 text-xs sm:text-sm font-semibold">
-          {errorMessage}
+        <div className="p-4 rounded-2xl bg-amber-50 border border-amber-300 text-amber-950 text-xs sm:text-sm font-semibold flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-xs">
+          <div className="flex items-center gap-2">
+            <Sparkles className="w-4 h-4 text-amber-600 shrink-0" />
+            <span>{errorMessage}</span>
+          </div>
+          <button
+            type="button"
+            onClick={() => handleConsult()}
+            disabled={isLoading}
+            className="px-4 py-2 rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-950 font-black text-xs transition cursor-pointer shrink-0 shadow-2xs border border-amber-500/30"
+          >
+            Tentar Novamente com a IA 🔄
+          </button>
         </div>
       )}
 

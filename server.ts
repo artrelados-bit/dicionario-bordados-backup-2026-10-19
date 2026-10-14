@@ -298,7 +298,7 @@ ESTRUTURA OBRIGATÓRIA DA RESPOSTA (Retorne ESTRITAMENTE um objeto JSON válido,
 }`;
 
       const response = await ai.models.generateContent({
-        model: "gemini-flash-latest",
+        model: "gemini-3.8-flash",
         contents: prompt,
         config: {
           responseMimeType: "application/json"
@@ -306,8 +306,9 @@ ESTRUTURA OBRIGATÓRIA DA RESPOSTA (Retorne ESTRITAMENTE um objeto JSON válido,
       });
 
       const text = response.text || "{}";
-      const cleanJson = text.replace(/```json/g, "").replace(/```/g, "").trim();
-      const advice = JSON.parse(cleanJson);
+      const cleanJson = text.replace(/```json/gi, "").replace(/```/g, "").trim();
+      const jsonMatch = cleanJson.match(/\{[\s\S]*\}/);
+      const advice = JSON.parse(jsonMatch ? jsonMatch[0] : cleanJson);
 
       return res.json({ success: true, advice });
     } catch (err: any) {
