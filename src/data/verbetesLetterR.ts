@@ -5,60 +5,123 @@ export const VERBETES_LETTER_R: Verbete[] = [
     "id": "rayon",
     "code": "R-001",
     "letter": "R",
-    "term": "Rayon",
+    "term": "Raiom / Rayon (Linha de Viscose para Bordado)",
+    "englishTerm": "Rayon / Viscose Continuous Filament Embroidery Thread",
     "pronunciation": "rái-on (ou rêi-on)",
     "level": "Iniciante 🟢",
     "category": "Agulhas & Fios",
     "grammarClass": "Substantivo masculino.",
-    "origin": "Do inglês rayon (termo cunhado em 1924, derivado do francês rayon, 'raio de luz', aludindo ao seu brilho cintilante sedoso). Fibra artificial semissintética de celulose regenerada (viscose).",
-    "summary": "Fibra semissintética vegetal regenerada conhecida pelo toque macio, maleabilidade e brilho sedoso intenso no bordado.",
-    "definition": "O Rayon (ou viscose de filamento contínuo) é uma fibra semissintética obtida a partir da polpa de celulose de madeira reflorestada (como eucalipto, pinho ou bambu). No bordado eletrônico, é historicamente a fibra de referência para fios nobres devido à sua extraordinária capacidade de refletir a luz com um brilho profundo similar ao da seda natural, além de proporcionar um caimento extremamente suave sobre os tecidos.",
-    "technicalDetails": "Apresenta estrutura molecular de celulose pura de alta absorção de umidade (11% a 13% de recuperação de umidade comercial). Possui tenacidade média em estado seco (cerca de 2.0 a 2.5 g/denier), porém perde cerca de 30% a 50% de sua resistência mecânica quando molhada, o que requer cuidados especiais na lavagem com alvejantes clorados.",
-    "beginnerExplanation": "É a linha clássica de bordar que parece seda de verdade: ela é super macia, tem um brilho maravilhoso que reflete a luz com elegância e deixa o bordado levinho e maleável.",
+    "origin": "Termo cunhado comercialmente em 1924 nos Estados Unidos pela National Retail Dry Goods Association, derivado do francês rayon ('raio de luz' ou 'radiação luminosa'), em alusão direta à sua extraordinária capacidade de reflexão e brilho óptico sedoso. A fibra foi desenvolvida originalmente na França em 1884 pelo engenheiro e químico conde Hilaire de Chardonnet a partir da regeneração da celulose vegetal da polpa de madeira, tornando-se a primeira fibra semissintética manufaturada da história e o padrão áureo clássico para linhas de bordado de alto luxo.",
+    "summary": "Fibra semissintética vegetal de celulose regenerada reconhecida mundialmente pelo brilho sedoso profundo, toque aveludado e caimento macio incomparável no bordado.",
+    "definition": "O Rayon (viscose de filamento contínuo para bordado) é uma fibra semissintética celulósica regenerada de altíssima nobreza, obtida a partir da polpa de madeira de florestas renováveis certificadas (como abeto, faia, eucalipto ou bambu). Diferente das fibras sintéticas derivadas do petróleo (como o poliéster), o Rayon preserva a essência e a estrutura molecular da celulose vegetal, conferindo ao fio um toque incomparavelmente macio, caimento maleável e uma refração luminosa quente e aveludada, indistinguível da seda natural pura.\n\nNo bordado computadorizado, o filamento de Rayon no título internacional padrão 40 (120 denier / 2 cabos – Tex 27) é reverenciado pela fluidez com que assenta na trama dos tecidos finos, evitando a rigidez mecânica ('efeito papelão') mesmo em bordados extensos e áreas de alta densidade.",
+    "technicalDetails": "Apresenta estrutura molecular de celulose pura de alta absorção e hidrofilia (11% a 13% de recuperação de umidade comercial, contra apenas 0,4% do poliéster). Possui tenacidade média em estado seco (cerca de 2,0 a 2,5 g/denier – 18 a 22 cN/tex), com limite de alongamento na ruptura entre 15% e 25%. Quando molhado, perde cerca de 30% a 40% de sua resistência mecânica temporariamente, exigindo lavagem cuidadosa com sabão neutro e total isenção de alvejantes clorados (hipoclorito de sódio).",
+    "beginnerExplanation": "Pense no Rayon como a 'seda pura do bordado eletrônico'. Enquanto a linha de poliéster é muito resistente e indicada para o uso pesado do dia a dia, o Rayon é a linha dos trabalhos sofisticados e de alta costura: tem brilho suave e elegante (sem parecer plástico brilhoso), é muito macia ao toque, não pinica a pele e deixa o bordado leve e flexível.",
     "howItWorks": [
-      "1. A celulose vegetal é tratada quimicamente e extrusada através de fieiras em filamentos contínuos microscópicos.",
-      "2. Os filamentos são torcidos em cabos de 2 ou 3 cabos (título padrão 120D/2 ou 40wt).",
-      "3. O fio recebe tingimento por absorção profunda, gerando cores vivas e reflexo especular uniforme.",
-      "4. Na máquina de bordar, desliza suavemente pelos discos de tensão gerando bordados lisos e sem rigidez."
+      "1. A celulose vegetal pura é tratada quimicamente e extrusada através de fieiras microscópicas, gerando filamentos contínuos de viscose extremamente lisos.",
+      "2. Os microfilamentos recebem torção calibrada em 2 cabos (título padrão 40 / 120D/2) e passam por banho de tingimento molecular com altíssima absorção de corantes nobres.",
+      "3. O carretel recebe lubrificação especial com ceras têxteis e silicone técnico, garantindo coeficiente de atrito suave nos discos de tensão e condutividade que dissipa eletricidade estática.",
+      "4. Na máquina de bordar, a linha desliza suavemente pelos guia-fios, desce pelo olho da agulha e forma uma laçada limpa capturada com precisão milimétrica pela lançadeira, assentando pontos perfeitamente planos e sedosos."
     ],
     "applications": [
-      "Bordados finos em moda festa, vestidos de noiva e tecidos delicados (seda, cetim, crepe).",
-      "Enxovais infantis e de bebê que exigem toque aveludado e suavidade ao contato com a pele.",
-      "Brasões, monogramas nobres e peças de decoração clássica em linho puro."
+      "Enxovais finos de bebê, mantas de maternidade e bodies em percal, cambraia e piquet.",
+      "Toalhas de lavabo sofisticadas em linho puro, cambraia e algodão egípcio.",
+      "Vestidos de noiva, alta-costura, véus e rendas em tecidos delicados (seda, cetim, tule e crepe).",
+      "Brasões heraldicos, monogramas clássicos e paramentos religiosos que exigem brilho sedoso nobre."
     ],
     "characteristics": [
-      "Brilho nobre acetinado superior ao de qualquer outra fibra comum.",
-      "Toque macio que não deixa o bordado 'engomado' ou áspero.",
-      "Sensível ao cloro, alvejantes fortes e lavagens industriais agressivas."
+      "Brilho nobre sedoso com refração luminosa difusa idêntica à seda natural.",
+      "Toque extremamente macio e aveludado que não agride peles sensíveis de recém-nascidos.",
+      "Excelente caimento que acompanha a maleabilidade do tecido sem armar.",
+      "Alta condutividade térmica e ausência de derretimento pelo calor de atrito da agulha."
+    ],
+    "advantages": [
+      "Brilho superior e visual sofisticado inigualável em alta-costura.",
+      "Não engoma nem endurece o tecido em bordados cheios.",
+      "Desliza suave nos discos de tensão sem criar estática.",
+      "Enorme gama de tonalidades nobres com nuances sutis."
+    ],
+    "limitations": [
+      "Sensível a alvejantes com cloro ativo (água sanitária mancha e rompe a fibra).",
+      "Resistência à tração menor que a do poliéster (requer tensão ligeiramente mais frouxa).",
+      "Não indicado para lavagens industriais hospitalares agressivas."
+    ],
+    "matrixRelations": [
+      "Densidade de Pontos: Como os filamentos de Rayon se espalham com excelente cobertura, calibre a densidade entre 0,40 mm e 0,45 mm no ponto cetim e 0,42 mm a 0,48 mm no tatami. Evite densidades inferiores a 0,35 mm que comprimem o fio.",
+      "Ponto de Suporte (Underlay): Programe um caminhamento central (Center Walk) ou ziguezague leve (Zigzag Underlay) para erguer as colunas de ponto cheio e ressaltar a refração da luz.",
+      "Compensação de Encolhimento (Pull Compensation): Ajuste entre 0,20 mm e 0,35 mm, pois a baixa retração elástica do Rayon exige menor compensação que os fios sintéticos.",
+      "Velocidade Operacional (PPM): Trabalhe na faixa de 650 a 800 PPM para garantir fluxo suave e estabilidade mecânica das laçadas."
+    ],
+    "howToIdentify": [
+      "Bordado enrugando ou repuxando o tecido: indica tensão superior muito apertada no cabeçote; reduza o tensor em cerca de 15% a 20%.",
+      "Filamento esfiapando ou criando penugem antes do olho: agulha desgastada, torta ou de calibre incorreto; troque por uma agulha nova própria para bordado 75/11.",
+      "Linha quebrando em pontos de amarração final: pontos da matriz muito curtos ou concentrados no mesmo local; aumente o comprimento de corte para no mínimo 0,8 mm a 1,0 mm."
     ],
     "commonErrors": [
       "❌ Lavar peças bordadas em Rayon com alvejante à base de cloro (água sanitária), desbotando e enfraquecendo a fibra.",
-      "❌ Puxar a linha com tensão excessiva na máquina, causando arrebentamentos por estresse de tração.",
-      "❌ Usar em uniformes profissionais pesados ou roupas industriais submetidas a lavagens químicas frequentes."
+      "❌ Regular a máquina com a mesma tensão pesada utilizada para o poliéster, causando arrebentamentos por estresse de tração.",
+      "❌ Usar agulhas velhas ou com canaletas ásperas que desfiam os microfilamentos contínuos de viscose.",
+      "❌ Utilizar em uniformes profissionais pesados ou fardamentos submetidos a lavagens químicas industriais."
     ],
     "troubleshootingTips": [
-      "Linha desbotando ou manchando após lavagem: substitua alvejantes fortes por sabão neutro e lave com água fria.",
-      "Fio desfiando no olho da agulha: troque por uma agulha específica para bordado (Embroidery 75/11) com canaleta polida.",
-      "Bordado ficando esticado e repuxando o tecido: reduza ligeiramente a tensão da linha superior."
+      "Linha quebrando no início do bordado: confira se a tensão superior está leve (100 gf a 120 gf) e substitua a agulha por uma Schmetz Embroidery 75/11 nova.",
+      "Fio desbotando ou perdendo resistência após a lavagem: oriente o cliente a lavar com sabão neutro em água fria e secar à sombra.",
+      "Pontos pulando em tecidos finos: reforce a estabilização com entretela rasga-fácil de 50 g/m² e ajuste a altura do calcador para 1,0 mm a 1,5 mm."
     ],
-    "dicaArtrelados": "Para vestidos de festa e roupinhas de bebê recém-nascido, o Rayon é insubstituível. O toque macio não machuca a pele da criança e o brilho confere um ar de alta costura que valoriza a peça imediatamente!",
-    "voceSabia": "O Rayon foi a primeira fibra artificial criada pela humanidade, desenvolvida na França em 1884 pelo Conde Hilaire de Chardonnet como alternativa acessível à seda da China.",
-    "practicalExercise": "Compare um cone de Rayon e um cone de Poliéster sob a luz da luminária do seu ateliê: note como o Rayon reflete um brilho quente e sedoso homogêneo, enquanto o poliéster tem um reflexo mais vítreo.",
-    "quickSummary": "Rayon é a fibra de celulose nobre de brilho sedoso e toque macio, ideal para peças delicadas, alta costura e enxovais de bebê.",
+    "dicaArtrelados": "No Ateliê Artrelados, o Rayon é o nosso grande segredo para encantar clientes exigentes em toalhas de linho e enxovais de maternidade. Uma recomendação preciosa: guarde sempre seus cones de Rayon protegidos em saquinhos plásticos ou caixas vedadas, longe do sol e da poeira. Por ser uma fibra vegetal de celulose, o calor excessivo e a luz prolongada ressecam o fio com o tempo. Linha bem cuidada borda com perfeição do primeiro ao último metro sem quebrar!",
+    "voceSabia": "O Rayon foi a primeira fibra têxtil artificial criada pela humanidade! Surgiu no final do século XIX, quando uma epidemia dizimou os bichos-da-seda na Europa. O conde francês Hilaire de Chardonnet pesquisou durante anos até conseguir transformar polpa de madeira em filamentos brilhantes idênticos à seda, democratizando o luxo na história da moda mundial.",
+    "practicalExercise": "Faça o teste da comparação sensorial e visual no seu ateliê:\n1. Monte no mesmo bastidor um retalho de tecido fino (percal ou cambraia) com entretela rasga-fácil média.\n2. Borde o mesmo monograma de 5 cm de altura duas vezes lado a lado: o primeiro com linha de Rayon 40 e o segundo com linha de Poliéster 40.\n3. Feche os olhos e passe as pontas dos dedos sobre ambos para sentir a diferença marcante de maciez e maleabilidade.\n4. Depois, incline a peça sob uma luminária e note como o Rayon reflete um brilho uniforme e profundo, enquanto o poliéster tem reflexo vítreo.",
+    "quickSummary": "Linha nobre semissintética à base de celulose vegetal regenerada, consagrada pelo brilho sedoso, toque macio e caimento fluido. Indispensável para enxovais de bebê, moda festa e artigos nobres que não utilizem alvejantes clorados.",
     "relatedTerms": [
       "Linha Rayon",
-      "Viscose",
       "Linha de Poliéster",
-      "Brilho Sedoso"
+      "Viscose",
+      "Tensão da Linha Superior",
+      "Agulha de Bordado",
+      "Ponto Satin",
+      "Ponto Tatami",
+      "Densidade de Pontos",
+      "Compensação de Encolhimento",
+      "Ponto de Suporte (Underlay)"
+    ],
+    "recommendedSettings": {
+      "speedPPM": "650 - 800 PPM",
+      "needleType": "Embroidery / Ponta Cônica Suave 75/11 ou 70/10",
+      "stabilizer": "Entretela rasga-fácil de 50 g/m² ou hidrossolúvel em toalhas",
+      "threadTension": "100 - 120 gf (ligeiramente mais suave que o poliéster)",
+      "density": "0,40 - 0,45 mm (Satin) / 0,42 - 0,48 mm (Tatami)",
+      "pullCompensation": "0,20 - 0,35 mm",
+      "underlay": "Caminhamento central ou ziguezague leve com margem de 0,8 mm"
+    },
+    "comparisonTable": {
+      "headers": ["Propriedade / Fator", "Linha de Rayon (Viscose)", "Linha de Poliéster Trilobal"],
+      "rows": [
+        ["Origem da Matéria-Prima", "Polpa de celulose vegetal regenerada", "Polímero sintético à base de petróleo"],
+        ["Brilho e Aspecto Óptico", "Profundo, quente, sedoso e aveludado", "Cintilante, vivo, vítreo e reflexivo"],
+        ["Toque e Maleabilidade", "Ultra macio, maleável e agradável à pele", "Mais firme, estruturado e elástico"],
+        ["Resistência ao Cloro", "Baixa (o cloro degrada e descolore a fibra)", "Alta (totalmente imune ao cloro/alvejantes)"],
+        ["Alongamento na Ruptura", "15% a 25% (baixa elasticidade)", "20% a 30% (alta elasticidade de retorno)"],
+        ["Indicação de Uso", "Enxovais nobres, moda festa, peças de luxo", "Uniformes pesados, moda praia, uso diário"]
+      ]
+    },
+    "bibliographicReferences": [
+      "Madeira Embroidery Thread Master Guide (Freiburg, Alemanha) - Viscose / Classic Rayon Technical Guidelines",
+      "Gunold Embroidery Technical Handbook & Thread Specifications - Rayon 40 wt Filament Characteristics",
+      "American & Efird (A&E) - Guide to Embroidery Threads, Fiber Chemistry and High-Speed Stitching",
+      "Normas Técnicas Internacionais ISO 2062 e ASTM D2256 (Tenacidade e Alongamento de Fios Têxteis)",
+      "Acervo Técnico de Fiação e Bordado SENAI CETIQT (Tecnologia das Fibras Têxteis e Manufatura)"
     ],
     "imageUrl": "/images/r001_rayon_v1.jpg?v=1",
-    "imageCaption": "Anatomia e uso do fio de Rayon: fibra macia à base de celulose com brilho sedoso, caimento aveludado e ajuste de tensão suave para máquina de 1 agulha.",
+    "imageCaption": "Anatomia e comportamento do fio de Rayon no bordado computadorizado: estrutura celulósica, brilho sedoso suave, caimento fluido e calibração de tensão refinada.",
     "tags": [
+      "raiom",
       "rayon",
       "linha",
       "viscose",
+      "seda artificial",
       "brilho",
-      "fibras"
+      "fibras",
+      "agulhas e fios",
+      "alta costura"
     ]
   },
   {
