@@ -51,7 +51,6 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
   const [userQuery, setUserQuery] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [advice, setAdvice] = useState<ConsultantAdvice | null>(null);
-  const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
   const adviceResultRef = useRef<HTMLDivElement>(null);
 
@@ -1099,7 +1098,6 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
     if (!textToSubmit.trim()) return;
 
     setIsLoading(true);
-    setErrorMessage(null);
     setAdvice(null);
     setCopied(false);
 
@@ -1149,7 +1147,6 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
       // Fallback rico e personalizado conectado ao acervo do DIBE
       const fallback = getOfflineFallbackAdvice(textToSubmit);
       setAdvice(fallback);
-      setErrorMessage("Dica de Conexão: Caso a resposta da Consultora ao vivo demore na sua rede, você pode clicar em 'Tentar Novamente com a IA' a qualquer instante.");
     } finally {
       setIsLoading(false);
     }
@@ -1289,23 +1286,6 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
         </div>
       </div>
 
-      {/* Error / Connection Notice State */}
-      {errorMessage && (
-        <div className="p-4 rounded-2xl bg-amber-50 border border-amber-300 text-amber-950 text-xs sm:text-sm font-semibold flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-xs">
-          <div className="flex items-center gap-2">
-            <Sparkles className="w-4 h-4 text-amber-600 shrink-0" />
-            <span>{errorMessage}</span>
-          </div>
-          <button
-            type="button"
-            onClick={() => handleConsult()}
-            disabled={isLoading}
-            className="px-4 py-2 rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-950 font-black text-xs transition cursor-pointer shrink-0 shadow-2xs border border-amber-500/30"
-          >
-            Tentar Novamente com a IA 🔄
-          </button>
-        </div>
-      )}
 
       {/* Advice Result Card */}
       {advice && (
