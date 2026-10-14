@@ -3,6 +3,8 @@ import { Verbete } from "../types";
 export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   {
     id: "d-novo-001-dobradura-canto-mitrado-ponto-reto",
+
+    code: "D-107",
     term: "Dobradura de Canto Mitrado com Ponto Reto no Bastidor",
     englishTerm: "Mitered Corner Folding & Straight Stitch Registration in the Hoop",
     letter: "D",
@@ -49,6 +51,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-002-dublagem-termica-tecidos-filme-termocolante",
+
+    code: "D-108",
     term: "Dublagem Térmica de Tecidos com Filme Termocolante",
     englishTerm: "Thermal Fabric Bonding & Fusible Film Lamination Protocol",
     letter: "D",
@@ -95,6 +99,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-003-desfiamento-controlado-tecido-franjas",
+
+    code: "D-109",
     term: "Desfiamento Controlado de Tecido para Franjas no Bastidor",
     englishTerm: "In-the-Hoop Controlled Fraying & Rustic Fringed Edge Technique",
     letter: "D",
@@ -141,6 +147,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-004-desvio-angular-agulha-costuras-grossas",
+
+    code: "D-110",
     term: "Desvio Angular da Agulha em Costuras Grossas (Needle Deflection)",
     englishTerm: "Needle Deflection & Lateral Bending Dynamics on Heavy Seams",
     letter: "D",
@@ -188,6 +196,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-005-dedo-posicionador-linha-troca-cores",
+
+    code: "D-111",
     term: "Dedo Posicionador da Linha na Troca Automática de Cores",
     englishTerm: "Thread Catching Finger & Color Change Sequence Wiper Mechanism",
     letter: "D",
@@ -235,6 +245,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-006-desenho-floral-ponto-matiz-degrade-suave",
+
+    code: "D-112",
     term: "Desenho Floral em Ponto Matiz com Degradê Suave",
     englishTerm: "Floral Long-and-Short Shading & Thread Painting Digitizing Protocol",
     letter: "D",
@@ -281,6 +293,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-007-desvirador-pontas-anatomico-madeira-ith",
+
+    code: "D-113",
     term: "Desvirador de Pontas Anatômico de Madeira para Peças ITH",
     englishTerm: "Anatomical Hardwood Point Turner & Seam Creaser Tool for ITH Projects",
     letter: "D",
@@ -327,6 +341,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-008-deteccao-quebra-linha-sensor-rotativo",
+
+    code: "D-114",
     term: "Detecção de Quebra de Linha por Sensor Rotativo de Fricção",
     englishTerm: "Rotary Friction Thread Break Sensor & Encoder Wheel System",
     letter: "D",
@@ -373,6 +389,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-009-dupla-camada-entretela-rasgavel-malhas",
+
+    code: "D-115",
     term: "Dupla Camada de Entretela Rasgável para Malhas Leves",
     englishTerm: "Double-Layer Tear-Away Stabilizer Cross-Grain Protocol for Lightweight Knits",
     letter: "D",
@@ -420,6 +438,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-010-dente-arraste-rebaixado-bordado-livre",
+
+    code: "D-116",
     term: "Dente de Arraste Rebaixado para Bordado Livre (Drop Feed)",
     englishTerm: "Drop Feed Mechanism & Feed Dog Lowering Lever for Free-Motion Work",
     letter: "D",
@@ -467,6 +487,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-011-deslocamento-milimetrico-ponto-inicio",
+
+    code: "D-117",
     term: "Deslocamento Milimétrico do Ponto de Início (Start Point Offset)",
     englishTerm: "Start Point Offset & Alignment Origin Coordinate Calibration",
     letter: "D",
@@ -513,6 +535,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-012-divisao-matriz-multiplos-bastidores",
+
+    code: "D-118",
     term: "Divisão de Matriz em Múltiplos Bastidores (Split Hoop Digitizing)",
     englishTerm: "Multi-Hoop Matrix Splitting & Registration Crosshair Calibration",
     letter: "D",
@@ -560,6 +584,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-013-disco-tensao-mola-conica-progressiva",
+
+    code: "D-119",
     term: "Disco de Tensão com Mola Cônica Progressiva",
     englishTerm: "Tension Disc Assembly with Progressive Conical Compression Spring",
     letter: "D",
@@ -606,6 +632,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-014-dispositivo-alimentacao-cordao-sutache",
+
+    code: "D-120",
     term: "Dispositivo de Alimentação de Cordão Sutache (Cording Device)",
     englishTerm: "Automatic Soutache & Cording Feeder Attachment for Embroidery Machines",
     letter: "D",
@@ -652,6 +680,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-015-dispositivo-corte-linha-lamina-rotativa",
+
+    code: "D-121",
     term: "Dispositivo de Corte de Linha por Lâmina Rotativa Motorizada",
     englishTerm: "Rotary Blade Motorized Thread Trimmer & Underbed Knife System",
     letter: "D",
@@ -698,6 +728,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-016-dispositivo-lantejoulas-duplas-flip-sequin",
+
+    code: "D-122",
     term: "Dispositivo Dispensador de Lantejoulas Duplas Reversíveis (Flip Sequin)",
     englishTerm: "Dual-Reversible Flip Sequin & Dual-Color Embroidery Attachment",
     letter: "D",
@@ -744,6 +776,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-017-driver-potencia-microstepping-motores-passo",
+
+    code: "D-123",
     term: "Driver de Potência Microstepping para Motores de Passo do Pantógrafo",
     englishTerm: "Microstepping Power Driver & DSP Motion Controller for Pantograph Steppers",
     letter: "D",
@@ -790,6 +824,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-018-diafragma-optico-sensor-ponto-morto-superior",
+
+    code: "D-124",
     term: "Diafragma Óptico do Sensor de Ponto Morto Superior (Top Dead Center)",
     englishTerm: "Top Dead Center (TDC) Optical Interrupter & Main Shaft Encoder Disc",
     letter: "D",
@@ -837,6 +873,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-019-duto-ar-comprimido-limpeza-lancadeira",
+
+    code: "D-125",
     term: "Duto de Ar Comprimido para Limpeza Instantânea da Lançadeira",
     englishTerm: "Air Blow Cleaning Nozzle & Rotary Hook Dust Evacuation Duct",
     letter: "D",
@@ -883,6 +921,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-020-dinamometro-digital-bolso-tensao-linha",
+
+    code: "D-126",
     term: "Dinamômetro Digital de Bolso para Aferição de Tensão de Linha",
     englishTerm: "Digital Pocket Tension Gauge & Real-Time Thread Force Meter",
     letter: "D",
@@ -930,6 +970,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-021-distribuidor-aereo-cones-haste-telescopica",
+
+    code: "D-127",
     term: "Distribuidor Aéreo de Cones com Haste Telescópica Antitorção",
     englishTerm: "Telescopic Spool Tree & Anti-Twist Aerial Thread Stand Assembly",
     letter: "D",
@@ -976,6 +1018,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-022-defletor-residuos-texteis-caixa-bobina",
+
+    code: "D-128",
     term: "Defletor de Resíduos Têxteis da Caixa de Bobina",
     englishTerm: "Bobbin Case Lint Deflector & Rotary Hook Fiber Shield",
     letter: "D",
@@ -1022,6 +1066,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-023-desengraxante-biodegradavel-eixos-mancais",
+
+    code: "D-129",
     term: "Desengraxante Biodegradável para Eixos e Mancais de Alta Precisão",
     englishTerm: "Biodegradable Precision Degreaser & Non-Toxic Bearing Cleaner",
     letter: "D",
@@ -1069,6 +1115,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-024-diodo-emissor-laser-cruz-posicionamento",
+
+    code: "D-130",
     term: "Diodo Emissor de Laser em Cruz para Posicionamento do Bastidor",
     englishTerm: "Crosshair Laser Pointer & Optical Needle Drop Positioning System",
     letter: "D",
@@ -1115,6 +1163,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-025-diametro-olho-agulha-espessura-fio",
+
+    code: "D-131",
     term: "Diâmetro do Olho da Agulha vs. Espessura do Fio (Needle Eye Ratio)",
     englishTerm: "Needle Eye Dimension to Thread Thickness Ratio & Clearance Dynamics",
     letter: "D",
@@ -1161,6 +1211,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-026-dureza-superficial-vickers-agulhas-titanio",
+
+    code: "D-132",
     term: "Dureza Superficial Vickers de Agulhas com Revestimento de Titânio",
     englishTerm: "Vickers Surface Hardness (HV) of Titanium Nitride Coated Needles",
     letter: "D",
@@ -1207,6 +1259,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-027-densidade-linear-fios-denier-dtex-ne",
+
+    code: "D-133",
     term: "Densidade Linear de Fios Têxteis: Denier, Dtex e Contagem Ne",
     englishTerm: "Linear Thread Density & Yarn Count Systems (Denier, Dtex, Ne, Nm)",
     letter: "D",
@@ -1253,6 +1307,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-028-detergente-neutro-textil-lavagem-enxovais",
+
+    code: "D-134",
     term: "Detergente Neutro Têxtil para Lavagem de Enxovais Bordados",
     englishTerm: "pH-Neutral Textile Detergent & Color-Fast Embroidery Washing Protocol",
     letter: "D",
@@ -1299,6 +1355,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-029-dureza-mola-estica-fio-calibracao",
+
+    code: "D-135",
     term: "Dureza de Mola do Estica-Fio e Calibração Dinâmica",
     englishTerm: "Check Spring (Take-Up Spring) Tension & Dynamic Stroke Calibration",
     letter: "D",
@@ -1346,6 +1404,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-030-decalque-termico-giz-marcacao-centros",
+
+    code: "D-136",
     term: "Decalque Térmico de Giz para Marcação de Centros sem Manchas",
     englishTerm: "Thermal Chalk Transfer & Heat-Erasable Marking Protocol",
     letter: "D",
@@ -1392,6 +1452,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-031-dublador-fios-metalicos-poliester-invisivel",
+
+    code: "D-137",
     term: "Dublador de Fios Metálicos com Fio de Poliéster Invisível",
     englishTerm: "Metallic Thread Twisting & Invisible Filament Reinforcement Protocol",
     letter: "D",
@@ -1439,6 +1501,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-032-desumidificador-armario-textil-cones",
+
+    code: "D-138",
     term: "Desumidificador de Armário Têxtil para Armazenamento de Cones",
     englishTerm: "Dehumidified Storage Cabinet & Thread Preservation Environment",
     letter: "D",
@@ -1485,6 +1549,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-033-densidade-adaptativa-satim-espessura-coluna",
+
+    code: "D-139",
     term: "Densidade Adaptativa de Ponto Satim por Espessura de Coluna",
     englishTerm: "Auto-Spacing & Variable Density Satin by Column Width Architecture",
     letter: "D",
@@ -1531,6 +1597,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-034-distorcao-paralelogramo-compensacao-trapezoidal",
+
+    code: "D-140",
     term: "Distorção em Paralelogramo e Compensação Trapezoidal",
     englishTerm: "Parallelogram Distortion & Trapezoidal Matrix Shear Compensation",
     letter: "D",
@@ -1578,6 +1646,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-035-decomposicao-cores-rgb-fotobordado",
+
+    code: "D-141",
     term: "Decomposição de Cores RGB para Matrizes de Fotobordado",
     englishTerm: "RGB to CMYK / Thread Color Channel Separation for PhotoStitch",
     letter: "D",
@@ -1625,6 +1695,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-036-deslocamento-tangencial-ponto-entrada",
+
+    code: "D-142",
     term: "Deslocamento Tangencial de Ponto de Entrada (Tangential Entry)",
     englishTerm: "Tangential Entry & Smooth Arc Lead-In Digitizing Architecture",
     letter: "D",
@@ -1671,6 +1743,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-037-densidade-tatami-grade-aberta-sombreamento",
+
+    code: "D-143",
     term: "Densidade de Ponto Tatami em Grade Aberta para Efeito Sombreamento",
     englishTerm: "Open-Grid Tatami Density & Shading Texture Digitizing Protocol",
     letter: "D",
@@ -1717,6 +1791,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-038-duplicacao-espelho-horizontal-vertical",
+
+    code: "D-144",
     term: "Duplicação em Espelho Horizontal e Vertical de Motivos Simétricos",
     englishTerm: "Mirror Duplicate (Horizontal & Vertical Symmetry Reflection)",
     letter: "D",
@@ -1764,6 +1840,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-039-divisao-automatica-pontos-longos-jumper",
+
+    code: "D-145",
     term: "Divisão Automática de Pontos Longos / Ponto Jumper (Jump Stitch Split)",
     englishTerm: "Auto-Split Long Stitch Function & Satin-to-Tatami Length Limiter",
     letter: "D",
@@ -1811,6 +1889,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-040-digitalizacao-contorno-ponto-haste",
+
+    code: "D-146",
     term: "Digitalização de Contorno com Ponto Haste (Stem Stitch Digitizing)",
     englishTerm: "Stem Stitch & French Cordonnet Outline Digitizing Protocol",
     letter: "D",
@@ -1857,6 +1937,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-041-digitalizacao-textura-couro-pitted-tatami",
+
+    code: "D-147",
     term: "Digitalização de Textura de Couro / Preenchimento Pitted Tatami",
     englishTerm: "Leather Texture & Pitted Tatami Motif Fill Digitizing Protocol",
     letter: "D",
@@ -1903,6 +1985,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-042-deformacao-fadiga-elastica-malhas-sinteticas",
+
+    code: "D-148",
     term: "Deformação por Fadiga Elástica de Malhas Sintéticas",
     englishTerm: "Elastic Fatigue & Fiber Plastic Deformation in High-Density Knits",
     letter: "D",
@@ -1950,6 +2034,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-043-densidade-borda-ponto-ziguezague-apliques",
+
+    code: "D-149",
     term: "Densidade de Borda em Ponto Ziguezague para Apliques",
     englishTerm: "Zigzag & E-Stitch Edge Density Optimization for Appliqué Borders",
     letter: "D",
@@ -1997,6 +2083,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-044-diagramacao-vetorial-paineis-colchas-modulares",
+
+    code: "D-150",
     term: "Diagramação Vetorial de Painéis e Colchas Modulares",
     englishTerm: "Modular Quilt & Large Panel Vector Layout Digitizing Protocol",
     letter: "D",
@@ -2044,6 +2132,8 @@ export const NOVOS_VERBETES_LETRA_D: Verbete[] = [
   },
   {
     id: "d-novo-045-diagnostico-arquivo-matriz-corrompido-cabecalho",
+
+    code: "D-151",
     term: "Diagnóstico de Arquivo de Matriz Corrompido e Recuperação de Cabeçalho",
     englishTerm: "Corrupted Embroidery File Diagnostics & Binary Header Recovery Protocol",
     letter: "D",

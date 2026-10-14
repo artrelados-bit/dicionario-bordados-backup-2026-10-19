@@ -38,7 +38,10 @@ export function sortVerbetesByCode(list: Verbete[]): Verbete[] {
       }
       const numA = parseInt(matchA[2], 10);
       const numB = parseInt(matchB[2], 10);
-      return numA - numB;
+      if (numA !== numB) {
+        return numA - numB;
+      }
+      return a.term.localeCompare(b.term, "pt-BR");
     }
 
     if (codeA && codeB) {
@@ -465,37 +468,16 @@ export default function App() {
     setVerbetes((prev) => [newVerbete, ...prev]);
   };
 
-  // Dynamic Sequential Code Mapping per language
+  // Official code mapping ensuring every verbete maintains its official catalog code
   const dynamicCodeMap = useMemo(() => {
     const map = new Map<string, string>();
-    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-    const letterBuckets = new Map<string, { verbete: Verbete; cleanTerm: string }[]>();
-    letters.forEach((l) => letterBuckets.set(l, []));
-
     verbetes.forEach((v) => {
-      if (!v || !v.term) return;
-      const rawTerm = getVerbeteTermInLanguage(v, currentLanguage) || v.term || "";
-      const cleanTerm = rawTerm.trim().replace(/^["'“”«»🟢🟡🔴\s]+/, "");
-      const firstChar = cleanTerm.charAt(0).toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-      const letter = letters.includes(firstChar) ? firstChar : (v.code ? v.code.charAt(0).toUpperCase() : "A");
-      if (!letterBuckets.has(letter)) {
-        letterBuckets.set(letter, []);
+      if (v.code) {
+        map.set(v.id, v.code);
       }
-      letterBuckets.get(letter)!.push({ verbete: v, cleanTerm });
     });
-
-    letterBuckets.forEach((bucket, letter) => {
-      bucket.sort((a, b) => {
-        return a.cleanTerm.localeCompare(b.cleanTerm, currentLanguage === "es" ? "es-ES" : "pt-BR");
-      });
-      bucket.forEach((item, idx) => {
-        const code = `${letter}-${String(idx + 1).padStart(3, "0")}`;
-        map.set(item.verbete.id, code);
-      });
-    });
-
     return map;
-  }, [verbetes, currentLanguage]);
+  }, [verbetes]);
 
   // Filtered Verbetes Logic with Intelligent Relevance Ranking
   const filteredVerbetes = useMemo(() => {
@@ -521,12 +503,25 @@ export default function App() {
         return;
       }
 
-      // Active letter determination based on current language
-      const rawTerm = (getVerbeteTermInLanguage(v, currentLanguage) || v.term || "").trim().replace(/^["'“”«»🟢🟡🔴\s]+/, "");
-      const activeFirstChar = rawTerm.charAt(0).toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-      const verbeteLetter = activeFirstChar;
+      // Active letter determination based on official catalog letter (code, letter, id prefix, or term first char)
+      let verbeteLetter = "";
+      if (v.code) {
+        const codeMatch = v.code.trim().toUpperCase().match(/^([A-Z])-/);
+        if (codeMatch) verbeteLetter = codeMatch[1];
+      }
+      if (!verbeteLetter && v.letter && v.letter.trim().length === 1 && /^[A-Za-z]$/.test(v.letter.trim())) {
+        verbeteLetter = v.letter.trim().toUpperCase();
+      }
+      if (!verbeteLetter && v.id) {
+        const idMatch = v.id.trim().toLowerCase().match(/^([a-z])-/);
+        if (idMatch) verbeteLetter = idMatch[1].toUpperCase();
+      }
+      if (!verbeteLetter) {
+        const rawTerm = (getVerbeteTermInLanguage(v, currentLanguage) || v.term || "").trim().replace(/^["'“”«»🟢🟡🔴\s]+/, "");
+        verbeteLetter = rawTerm.charAt(0).toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      }
 
-      // If there is no search query, filter strictly by selected letter in the active language
+      // If there is no search query, filter strictly by selected letter
       if (!query && selectedLetter) {
         if (verbeteLetter !== selectedLetter) return;
       }
@@ -603,7 +598,7 @@ export default function App() {
           });
           return scoredList.map((item) => item.verbete);
         })()
-      : sortVerbetesForLanguage(scoredList.map((item) => item.verbete), currentLanguage);
+      : sortVerbetesByCode(scoredList.map((item) => item.verbete));
 
     return resultList.map((v) => ({
       ...v,

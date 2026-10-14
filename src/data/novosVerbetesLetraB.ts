@@ -3,6 +3,8 @@ import { Verbete } from "../types";
 export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   {
     id: "b-novo-001-bastidor-grampo-rapido-quick-clamp",
+
+    code: "B-131",
     term: "Bastidor de Grampo Rápido (Quick-Clamp) para Bolsas e Calçados",
     englishTerm: "Quick-Clamp Heavy-Duty Embroidery Frame & Clamping Fixture",
     letter: "B",
@@ -49,6 +51,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-002-bastidor-meia-luva-tubular",
+
+    code: "B-132",
     term: "Bastidor de Meia e Luva para Bordado Tubular",
     englishTerm: "Sock & Glove Tubular Embroidery Frame Attachment",
     letter: "B",
@@ -95,6 +99,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-003-bordado-relevo-fio-cordao-barbante",
+
+    code: "B-133",
     term: "Bordado em Relevo com Fio Cordão / Barbante (Cording Attachment)",
     englishTerm: "Cording Embroidery Attachment & Couching Cord Technique",
     letter: "B",
@@ -140,6 +146,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-004-bico-renda-soluvel-fsl-borders",
+
+    code: "B-134",
     term: "Bico de Renda Solúvel FSL (Free Standing Lace Borders)",
     englishTerm: "Free Standing Lace (FSL) Edging & Soluble Lace Border Protocol",
     letter: "B",
@@ -186,6 +194,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-005-bordado-toalhas-lavabo-faixa-linho",
+
+    code: "B-135",
     term: "Bordado em Toalhas de Lavabo com Faixa de Linho Puro",
     englishTerm: "Linen Inset Hand Towel Embroidery & Mixed-Fabric Stabilization",
     letter: "B",
@@ -231,6 +241,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-006-borracha-microporosa-relevo-3d-puffy",
+
+    code: "B-136",
     term: "Borracha Microporosa de Alta Resiliência para Relevo 3D Puffy",
     englishTerm: "High-Resilience Microcellular EVA Foam for 3D Puffy Embroidery",
     letter: "B",
@@ -277,6 +289,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-007-barra-agulhas-tratamento-ceramico-dlc",
+
+    code: "B-137",
     term: "Barra de Agulhas com Tratamento Cerâmico Antiaderente (DLC Coating)",
     englishTerm: "Diamond-Like Carbon (DLC) & Ceramic Needle Bar Surface Treatment",
     letter: "B",
@@ -322,6 +336,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-008-batedor-linha-guia-oscilante-cabecote",
+
+    code: "B-138",
     term: "Batedor de Linha / Guia Oscilante do Cabeçote",
     englishTerm: "Thread Take-Up Lever Guide & Oscillating Dampener Assembly",
     letter: "B",
@@ -367,6 +383,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-009-braco-livre-tubular-cilindrico-industrial",
+
+    code: "B-139",
     term: "Braço Livre Tubular Cilíndrico da Máquina Industrial",
     englishTerm: "Industrial Cylindrical Free Arm & Tubular Embroidery Platform",
     letter: "B",
@@ -413,6 +431,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-010-botao-parada-emergencia-trava-seguranca",
+
+    code: "B-140",
     term: "Botão de Parada de Emergência e Trava de Segurança Eletromecânica",
     englishTerm: "Emergency Stop Button (E-Stop) & Electromechanical Safety Interlock",
     letter: "B",
@@ -459,6 +479,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-011-bloco-preenchimento-curvilineo-wave-fill",
+
+    code: "B-141",
     term: "Bloco de Preenchimento Curvilíneo / Ponto Ondulado (Wave Fill)",
     englishTerm: "Curvilinear Wave Fill & Contour Stitch Digitizing Architecture",
     letter: "B",
@@ -505,6 +527,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-012-bico-aplicador-cola-temporaria-gel",
+
+    code: "B-142",
     term: "Bico Aplicador de Cola Temporária em Gel para Bordado",
     englishTerm: "Precision Gel Temporary Adhesive Pen & Needle-Safe Fabric Glue",
     letter: "B",
@@ -551,6 +575,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-013-biblioteca-fontes-pre-digitalizadas-esa-vs-truetype",
+
+    code: "B-143",
     term: "Biblioteca de Fontes Pré-Digitalizadas (Fontes ESA) vs. Fontes TrueType Convertidas",
     englishTerm: "Pre-Digitized Keyboard Embroidery Fonts (ESA) vs. TrueType Auto-Converted Fonts",
     letter: "B",
@@ -597,6 +623,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-014-bordado-monocromatico-tons-cinza-photostitch",
+
+    code: "B-144",
     term: "Bordado Monocromático em Tons de Cinza / PhotoStitch de Retratos",
     englishTerm: "Monochrome Grayscale Embroidery & PhotoStitch Portrait Digitizing",
     letter: "B",
@@ -643,6 +671,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-015-borda-flutuante-reforco-perimetro-emblemas",
+
+    code: "B-145",
     term: "Borda Flutuante e Reforço de Perímetro para Emblemas Militares",
     englishTerm: "Floating Border & Reinforced Edge Protocol for Military Patches",
     letter: "B",
@@ -689,6 +719,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-016-bobina-nucleo-magnetico-filamento-continuo",
+
+    code: "B-146",
     term: "Bobina com Núcleo Magnético e Filamento Contínuo (Magnetic Core Bobbin)",
     englishTerm: "Magnetic Core Filament Polyester Pre-Wound Bobbin Technology",
     letter: "B",
@@ -735,6 +767,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-017-bastidor-borda-continua-infinito-barrados",
+
+    code: "B-147",
     term: "Bastidor de Borda Contínua / Bastidor Infinito para Barrados Longos",
     englishTerm: "Continuous Border Hoop & Endless Embroidery Frame System",
     letter: "B",
@@ -781,6 +815,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-018-bancada-antivibratoria-coxins-amortecimento",
+
+    code: "B-148",
     term: "Bancada Antivibratória e Coxins de Amortecimento de Impacto para Máquinas",
     englishTerm: "Anti-Vibration Workstation & Impact-Dampening Mounts for Embroidery Machines",
     letter: "B",
@@ -827,6 +863,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-019-bordado-pesponto-manual-simulado-sashiko",
+
+    code: "B-149",
     term: "Bordado com Pesponto Manual Simulado / Ponto Sashiko no Bastidor",
     englishTerm: "Simulated Hand-Stitch & Machine Sashiko Digitizing Protocol",
     letter: "B",
@@ -873,6 +911,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-020-bainha-invisivel-canto-mitrado-ith",
+
+    code: "B-150",
     term: "Bainha Invisível e Dobradura de Canto Mitrado no Bastidor (ITH Hemming)",
     englishTerm: "In-the-Hoop (ITH) Mitered Corner & Blind Hemming Technique",
     letter: "B",
@@ -919,6 +959,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-021-bordado-couro-ecologico-poliuretano-sem-rasgos",
+
+    code: "B-151",
     term: "Bordado em Couro Ecológico e Poliuretano Laminado sem Rasgos",
     englishTerm: "Eco-Leather & Polyurethane (PU) Tear-Free Embroidery Protocol",
     letter: "B",
@@ -964,6 +1006,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-022-bracadeira-fixacao-pantografo-trava-bastidor",
+
+    code: "B-152",
     term: "Braçadeira de Fixação Rápida do Pantógrafo / Trava de Bastidor Tubular",
     englishTerm: "Pantograph Hoop Clamping Bracket & Tubular Frame Quick-Release Latch",
     letter: "B",
@@ -1010,6 +1054,8 @@ export const NOVOS_VERBETES_LETRA_B: Verbete[] = [
   },
   {
     id: "b-novo-023-batedor-fio-bobina-dedo-desviador-lancadeira",
+
+    code: "B-153",
     term: "Batedor de Fio de Bobina / Dedo Desviador da Lançadeira Rotativa",
     englishTerm: "Rotary Hook Thread Deflector & Bobbin Case Position Finger",
     letter: "B",

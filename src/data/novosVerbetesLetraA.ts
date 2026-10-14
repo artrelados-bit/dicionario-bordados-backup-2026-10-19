@@ -3,6 +3,8 @@ import { Verbete } from "../types";
 export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   {
     id: "a-novo-001-aparelho-lantejoulas-paetes-automatico",
+
+    code: "A-126",
     term: "Aparelho de Lantejoulas e Paetês Automático",
     englishTerm: "Sequin & Spangle Automatic Attachment Device",
     letter: "A",
@@ -47,6 +49,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-002-automacao-troca-cores-sensores",
+
+    code: "A-127",
     term: "Automação de Troca de Cores e Sensores Ópticos de Fio",
     englishTerm: "Auto Color Change & Optical Thread Break Sensor System",
     letter: "A",
@@ -91,6 +95,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-003-agulha-dupla-twin-needle",
+
+    code: "A-128",
     term: "Agulha Dupla / Twin Needle no Bordado Decorativo",
     englishTerm: "Twin Needle & Double Needle Decorative Embroidery",
     letter: "A",
@@ -135,6 +141,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-004-analise-filtro-pontos-curtos",
+
+    code: "A-129",
     term: "Análise e Filtro de Pontos Curtos no Software",
     englishTerm: "Short Stitch Analysis & Density Filter Protocol",
     letter: "A",
@@ -179,6 +187,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-005-anti-pucker-matriz-anti-franzimento",
+
+    code: "A-130",
     term: "Anti-Pucker: Técnicas de Matriz Anti-Franzimento em Tecidos Leves",
     englishTerm: "Anti-Pucker Digitizing Techniques for Lightweight Fabrics",
     letter: "A",
@@ -223,6 +233,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-006-aplique-shaker-visor-transparente",
+
+    code: "A-131",
     term: "Aplique Shaker com Visor Transparente no Bastidor",
     englishTerm: "In-The-Hoop Shaker Appliqué with Clear Window Pocket",
     letter: "A",
@@ -268,6 +280,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-007-aplique-couro-sintetico-montana",
+
+    code: "A-132",
     term: "Aplique em Couro Sintético e Material Montana no Bastidor",
     englishTerm: "Synthetic Leather & Montana Composite In-The-Hoop Appliqué",
     letter: "A",
@@ -313,6 +327,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-008-armazenamento-cuidados-linhas",
+
+    code: "A-133",
     term: "Armazenamento de Carretéis e Cuidados com Linhas de Bordado",
     englishTerm: "Embroidery Thread Storage, Spool Care & Preservation",
     letter: "A",
@@ -357,6 +373,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-009-agulha-ponta-bola-leve-ses",
+
+    code: "A-134",
     term: "Agulha Ponta Bola Leve (SES / Light Ball Point) para Malhas Finas",
     englishTerm: "Light Ball Point Needle (SES / FFG) for Fine Knits",
     letter: "A",
@@ -401,6 +419,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-010-autoteste-calibracao-motores-passo",
+
+    code: "A-135",
     term: "Autoteste de Diagnóstico e Calibração dos Motores de Passo (X e Y)",
     englishTerm: "Self-Diagnostic Test & Stepper Motor Calibration (X/Y Axes)",
     letter: "A",
@@ -446,6 +466,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-011-acrilico-reguas-gabarito-enquadramento",
+
+    code: "A-136",
     term: "Acrílico e Réguas de Gabarito para Enquadramento no Bastidor",
     englishTerm: "Acrylic Placement Templates & Hooping Alignment Rulers",
     letter: "A",
@@ -490,6 +512,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-012-alca-mochila-fitas-gorgurao",
+
+    code: "A-137",
     term: "Alça de Mochila e Fitas de Gorgurão Bordadas no Bastidor",
     englishTerm: "Webbing Straps & Grosgrain Ribbon In-Hoop Embroidery",
     letter: "A",
@@ -535,6 +559,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-013-aplique-reverso-cutwork-bastidor",
+
+    code: "A-138",
     term: "Aplique Reverso e Efeito Cutwork no Bastidor",
     englishTerm: "Reverse Appliqué & In-Hoop Cutwork Protocol",
     letter: "A",
@@ -580,6 +606,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-014-almofada-termica-passamento-seco",
+
+    code: "A-139",
     term: "Almofada Térmica e Passamento a Seco no Pós-Bordado",
     englishTerm: "Thermal Pressing Cushion & Dry Ironing Post-Embroidery Finishing",
     letter: "A",
@@ -625,6 +653,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-015-alimentacao-linha-bobina-mola-retencao",
+
+    code: "A-140",
     term: "Alimentação de Linha da Bobina e Mola de Retenção da Caixa",
     englishTerm: "Bobbin Thread Feeding Dynamics & Case Brake Spring Calibration",
     letter: "A",
@@ -669,6 +699,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-016-ajuste-tensao-superior-tensiometro",
+
+    code: "A-141",
     term: "Ajuste de Tensão Superior com Tensiómetro Dinâmico",
     englishTerm: "Upper Thread Tension Tuning with Dynamic Tension Gauge",
     letter: "A",
@@ -714,6 +746,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-017-alinhamento-angular-ponto-cruz",
+
+    code: "A-142",
     term: "Alinhamento Angular de Desenho em Ponto Cruz Eletrônico",
     englishTerm: "Angular Grid Alignment & Cross-Stitch Electronic Digitizing",
     letter: "A",
@@ -758,6 +792,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-018-acresicimo-compensacao-repuxo-felpas",
+
+    code: "A-143",
     term: "Acréscimo de Compensação de Repuxo em Tecidos Felpudos",
     englishTerm: "Pull Compensation Boost for Terry Cloth & High-Pile Fabrics",
     letter: "A",
@@ -803,6 +839,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-019-aparador-manual-linha-tesoura-snip",
+
+    code: "A-144",
     term: "Aparador Manual de Linha de Precisão (Tesoura Snip de Mola)",
     englishTerm: "Precision Thread Snip & Spring-Action Hand Thread Trimmer",
     letter: "A",
@@ -848,6 +886,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-020-assentamento-termico-bordado-termoprensa",
+
+    code: "A-145",
     term: "Assentamento Térmico de Bordado e Termoprensa no Acabamento",
     englishTerm: "Thermal Setting & Heat-Press Post-Embroidery Flattener",
     letter: "A",
@@ -893,6 +933,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-021-alvejamento-seguro-resistencia-cloro",
+
+    code: "A-146",
     term: "Alvejamento Seguro e Resistência ao Cloro em Linhas de Poliéster",
     englishTerm: "Bleach-Safe & Chlorine Resistance in Polyester Embroidery Threads",
     letter: "A",
@@ -937,6 +979,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-022-autotensionador-eletronico-fio",
+
+    code: "A-147",
     term: "Autotensionador Eletrônico de Fio de Cabeçote",
     englishTerm: "Electronic Active Thread Tensioner & Digital Head Actuator",
     letter: "A",
@@ -982,6 +1026,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-023-abertura-automatica-bastidor-pneumatico",
+
+    code: "A-148",
     term: "Abertura Automática de Bastidor Pneumático Industrial",
     englishTerm: "Pneumatic Auto-Clamping & Quick-Release Industrial Hoop System",
     letter: "A",
@@ -1027,6 +1073,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-024-agulha-fio-la-linhas-espessas",
+
+    code: "A-149",
     term: "Agulha para Fio de Lã e Linhas Espessas (#100/16)",
     englishTerm: "Wool & Heavy Thread Needle (#100/16 - DBxK5 / 130/705 H)",
     letter: "A",
@@ -1072,6 +1120,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-025-aplique-tecido-termocolante-definitivo",
+
+    code: "A-150",
     term: "Aplique com Tecido Termocolante Definitivo no Bastidor",
     englishTerm: "No-Sew Heat-Activated Film Appliqué in the Hoop",
     letter: "A",
@@ -1117,6 +1167,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-026-autoteste-sensor-bobina-alerta-fim",
+
+    code: "A-151",
     term: "Autoteste de Sensor de Bobina e Alerta de Fim de Linha",
     englishTerm: "Low Bobbin Thread Sensor Self-Test & Depletion Warning System",
     letter: "A",
@@ -1162,6 +1214,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-027-alimentador-fio-pre-tensao-torre",
+
+    code: "A-152",
     term: "Alimentador de Fio com Pré-Tensão na Torre de Cones",
     englishTerm: "Thread Stand Pre-Tension Eyelets & Spool Tree Feeder Assembly",
     letter: "A",
@@ -1207,6 +1261,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-028-anti-static-tratamento-antiestatico-fios",
+
+    code: "A-153",
     term: "Anti-Static: Tratamento Antiestático para Fios Metalizados e Sintéticos",
     englishTerm: "Anti-Static Thread Care & Humidity Management for Synthetic Fibers",
     letter: "A",
@@ -1252,6 +1308,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-029-agulha-ponta-lanca-cortante-couro",
+
+    code: "A-154",
     term: "Agulha com Ponta de Lança Cortante (LL / LR) para Couro Legítimo",
     englishTerm: "Leather Point Cutting Needle (LL / LR) for Genuine Leather",
     letter: "A",
@@ -1296,6 +1354,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-030-arremate-ponto-cruzado-cross-tack",
+
+    code: "A-155",
     term: "Arremate em Ponto Cruzado (Cross-Tack) para Bordados Esportivos",
     englishTerm: "Cross-Tack Tie-Off & High-Durability Athletic Locking Stitches",
     letter: "A",
@@ -1341,6 +1401,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-031-aplique-espuma-3d-puffy-delicados",
+
+    code: "A-156",
     term: "Aplique com Espuma 3D Puffy em Tecidos Delicados",
     englishTerm: "3D Puffy Foam Appliqué & Digitizing on Lightweight Fabrics",
     letter: "A",
@@ -1387,6 +1449,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-032-alinhador-optico-camera-integrada",
+
+    code: "A-157",
     term: "Alinhador Óptico com Câmera Digital Integrada no Cabeçote",
     englishTerm: "Built-in Camera Vision & Optical Registration System",
     letter: "A",
@@ -1432,6 +1496,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-novo-033-agulhamento-artistico-la-bastidor",
+
+    code: "A-158",
     term: "Agulhamento Artístico de Lã no Bastidor (Técnica de Feltragem / Needle Felting)",
     englishTerm: "In-the-Hoop Needle Felting & Wool Punching Embroidery Technique",
     letter: "A",
@@ -1477,6 +1543,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-oficial-aquarela-no-bordado-watercolor-embroidery",
+
+    code: "A-159",
     term: "Aquarela no Bordado (Bordado Aquarelado & Efeito Watercolor)",
     englishTerm: "Watercolor Machine Embroidery & Shading Technique",
     letter: "A",
@@ -1544,6 +1612,8 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
   },
   {
     id: "a-avental-de-churrasqueiro-personalizado-masculino",
+
+    code: "A-160",
     term: "Avental de Churrasqueiro Personalizado",
     englishTerm: "Custom Barbecue Apron & Heavy-Duty Grilling Bib",
     letter: "A",

@@ -41,7 +41,8 @@
       "Calcador Especial de Lantejoula",
       "Linha de Monofilamento",
       "Matriz de Alta-Costura"
-    ]
+    ],
+    "code": "A-126"
   },
   {
     "id": "a-novo-002-automacao-troca-cores-sensores",
@@ -85,7 +86,8 @@
       "Bloco de Agulhas",
       "Painel de Comando",
       "Recuo de Pontos"
-    ]
+    ],
+    "code": "A-127"
   },
   {
     "id": "a-novo-003-agulha-dupla-twin-needle",
@@ -129,7 +131,8 @@
       "Estica-Fio",
       "Nervura / Pintuck",
       "Ponto Decorativo"
-    ]
+    ],
+    "code": "A-128"
   },
   {
     "id": "a-novo-004-analise-filtro-pontos-curtos",
@@ -173,7 +176,8 @@
       "Digitalização de Matriz",
       "Compensação de Repuxo",
       "Ninho de Linha"
-    ]
+    ],
+    "code": "A-129"
   },
   {
     "id": "a-novo-005-anti-pucker-matriz-anti-franzimento",
@@ -217,7 +221,8 @@
       "Entretela de Recorte (Cut-Away)",
       "Tensão de Linha",
       "Urdume e Trama"
-    ]
+    ],
+    "code": "A-130"
   },
   {
     "id": "a-novo-006-aplique-shaker-visor-transparente",
@@ -262,7 +267,8 @@
       "Ponto Satim de Vedação",
       "Fita Crepe de Posicionamento",
       "Agulha Microtex"
-    ]
+    ],
+    "code": "A-131"
   },
   {
     "id": "a-novo-007-aplique-couro-sintetico-montana",
@@ -307,7 +313,8 @@
       "Agulha Microtex",
       "Cola Temporária em Spray",
       "Chaveiro In The Hoop (ITH)"
-    ]
+    ],
+    "code": "A-132"
   },
   {
     "id": "a-novo-008-armazenamento-cuidados-linhas",
@@ -351,7 +358,8 @@
       "Redinha de Proteção de Linha",
       "Suporte de Cones",
       "Tensão de Linha"
-    ]
+    ],
+    "code": "A-133"
   },
   {
     "id": "a-novo-009-agulha-ponta-bola-leve-ses",
@@ -395,7 +403,8 @@
       "Entretela de Malha",
       "Chapa de Agulha Furo Único",
       "Ponto de Contorno"
-    ]
+    ],
+    "code": "A-134"
   },
   {
     "id": "a-novo-010-autoteste-calibracao-motores-passo",
@@ -440,7 +449,8 @@
       "Correia Dentada",
       "Deslocamento de Matriz",
       "Manutenção Preventiva"
-    ]
+    ],
+    "code": "A-135"
   },
   {
     "id": "a-novo-011-acrilico-reguas-gabarito-enquadramento",
@@ -484,7 +494,8 @@
       "Caneta Termoapagável",
       "Enquadramento de Peças Prontas",
       "Uniforme Corporativo"
-    ]
+    ],
+    "code": "A-136"
   },
   {
     "id": "a-novo-012-alca-mochila-fitas-gorgurao",
@@ -529,7 +540,8 @@
       "Agulha Topstitch",
       "Plástico Hidrossolúvel",
       "Linhas Guia de Posicionamento"
-    ]
+    ],
+    "code": "A-137"
   },
   {
     "id": "a-novo-013-aplique-reverso-cutwork-bastidor",
@@ -574,7 +586,8 @@
       "Apliquê no Bastidor",
       "Ponto Satim de Vedação",
       "In The Hoop (ITH)"
-    ]
+    ],
+    "code": "A-138"
   },
   {
     "id": "a-novo-014-almofada-termica-passamento-seco",
@@ -619,7 +632,8 @@
       "Acabamento e Limpeza",
       "Linha de Poliéster",
       "Temperatura de Termofixação"
-    ]
+    ],
+    "code": "A-139"
   },
   {
     "id": "a-novo-015-alimentacao-linha-bobina-mola-retencao",
@@ -663,7 +677,8 @@
       "Tensiómetro Towa",
       "Teste do Ioiô",
       "Corte Automático de Fio"
-    ]
+    ],
+    "code": "A-140"
   },
   {
     "id": "a-novo-016-ajuste-tensao-superior-tensiometro",
@@ -708,7 +723,8 @@
       "Gramas-Força (gf)",
       "Equilíbrio de Ponto",
       "Fio Metálico de Bordado"
-    ]
+    ],
+    "code": "A-141"
   },
   {
     "id": "a-novo-017-alinhamento-angular-ponto-cruz",
@@ -752,7 +768,8 @@
       "Tecido Étamine",
       "Grade Cartesiana (Grid)",
       "Bordado Vintage"
-    ]
+    ],
+    "code": "A-142"
   },
   {
     "id": "a-novo-018-acresicimo-compensacao-repuxo-felpas",
@@ -797,7 +814,8 @@
       "Plástico Hidrossolúvel",
       "Ponto Satim",
       "Ponto de Suporte / Underlay"
-    ]
+    ],
+    "code": "A-143"
   },
   {
     "id": "a-novo-019-aparador-manual-linha-tesoura-snip",
@@ -842,7 +860,8 @@
       "Tesoura Pelicano",
       "Corte Automático de Fio",
       "Arremate de Entrada e Saída"
-    ]
+    ],
+    "code": "A-144"
   },
   {
     "id": "a-novo-020-assentamento-termico-bordado-termoprensa",
@@ -887,7 +906,8 @@
       "Folha de Teflon",
       "Acabamento e Limpeza",
       "Temperatura de Termofixação"
-    ]
+    ],
+    "code": "A-145"
   },
   {
     "id": "a-novo-021-alvejamento-seguro-resistencia-cloro",
@@ -931,7 +951,8 @@
       "Solidez da Cor à Lavagem",
       "Higienização de Enxovais",
       "Uniformes Hospitalares"
-    ]
+    ],
+    "code": "A-146"
   },
   {
     "id": "a-novo-022-autotensionador-eletronico-fio",
@@ -976,7 +997,8 @@
       "Firmware da Máquina",
       "Solenóide Digital",
       "Velocidade PPM"
-    ]
+    ],
+    "code": "A-147"
   },
   {
     "id": "a-novo-023-abertura-automatica-bastidor-pneumatico",
@@ -1021,7 +1043,8 @@
       "Pressão de Bastidor",
       "Marca de Bastidor",
       "Produção Seriada Industrial"
-    ]
+    ],
+    "code": "A-148"
   },
   {
     "id": "a-novo-024-agulha-fio-la-linhas-espessas",
@@ -1066,7 +1089,8 @@
       "Chapa de Agulha Furo Largo",
       "Redinha de Proteção de Linha",
       "Efeito Ponto Russo"
-    ]
+    ],
+    "code": "A-149"
   },
   {
     "id": "a-novo-025-aplique-tecido-termocolante-definitivo",
@@ -1111,7 +1135,8 @@
       "Agulha Antiaderente",
       "Prensa Térmica",
       "Apliquê no Bastidor"
-    ]
+    ],
+    "code": "A-150"
   },
   {
     "id": "a-novo-026-autoteste-sensor-bobina-alerta-fim",
@@ -1156,7 +1181,8 @@
       "Lançadeira Rotativa",
       "Painel de Comando",
       "Manutenção Preventiva"
-    ]
+    ],
+    "code": "A-151"
   },
   {
     "id": "a-novo-027-alimentador-fio-pre-tensao-torre",
@@ -1201,7 +1227,8 @@
       "Discos de Tensão",
       "Redinha de Proteção de Linha",
       "Linha de Poliéster Trilobal"
-    ]
+    ],
+    "code": "A-152"
   },
   {
     "id": "a-novo-028-anti-static-tratamento-antiestatico-fios",
@@ -1246,7 +1273,8 @@
       "Umidade Relativa do Ar",
       "Sensor de Quebra de Linha",
       "Atrito Térmico de Linha"
-    ]
+    ],
+    "code": "A-153"
   },
   {
     "id": "a-novo-029-agulha-ponta-lanca-cortante-couro",
@@ -1290,7 +1318,8 @@
       "Comprimento de Ponto",
       "Efeito Picote no Tecido",
       "Ponto Satim"
-    ]
+    ],
+    "code": "A-154"
   },
   {
     "id": "a-novo-030-arremate-ponto-cruzado-cross-tack",
@@ -1335,7 +1364,8 @@
       "Uniformes Esportivos",
       "Conectores de Matriz",
       "Corte Automático de Fio"
-    ]
+    ],
+    "code": "A-155"
   },
   {
     "id": "a-novo-031-aplique-espuma-3d-puffy-delicados",
@@ -1381,7 +1411,8 @@
       "Compensação de Repuxo",
       "Densidade de Ponto",
       "Soprador Térmico"
-    ]
+    ],
+    "code": "A-156"
   },
   {
     "id": "a-novo-032-alinhador-optico-camera-integrada",
@@ -1426,7 +1457,8 @@
       "Ponto Central da Matriz",
       "Bastidor Tubular",
       "Painel Touch Screen"
-    ]
+    ],
+    "code": "A-157"
   },
   {
     "id": "a-novo-033-agulhamento-artistico-la-bastidor",
@@ -1471,7 +1503,8 @@
       "Bordado Livre no Bastidor",
       "Textura Têxtil",
       "Ponto Russo"
-    ]
+    ],
+    "code": "A-158"
   },
   {
     "id": "a-oficial-aquarela-no-bordado-watercolor-embroidery",
@@ -1538,7 +1571,8 @@
       "PULSE MICROSYSTEMS. Watercolor & Sketch Effects in Computerized Embroidery. Toronto, 2022.",
       "SILVA, Janete M. C. Cadernos Técnicos do Ateliê Artrelados: Efeitos Pictóricos e Bordado Aquarelado. São Paulo, 2026."
     ],
-    "updatedAt": "2026-10-04"
+    "updatedAt": "2026-10-04",
+    "code": "A-159"
   },
   {
     "id": "b-novo-001-bastidor-grampo-rapido-quick-clamp",
@@ -1584,7 +1618,8 @@
       "Entretela de Recorte (Cut-Away)",
       "Marca de Bastidor",
       "Velocidade PPM"
-    ]
+    ],
+    "code": "B-131"
   },
   {
     "id": "b-novo-002-bastidor-meia-luva-tubular",
@@ -1630,7 +1665,8 @@
       "Plástico Hidrossolúvel",
       "Compensação de Repuxo",
       "Monograma"
-    ]
+    ],
+    "code": "B-132"
   },
   {
     "id": "b-novo-003-bordado-relevo-fio-cordao-barbante",
@@ -1675,7 +1711,8 @@
       "Bordado Soutache",
       "Monofilamento de Poliamida",
       "Arabesco de Matriz"
-    ]
+    ],
+    "code": "B-133"
   },
   {
     "id": "b-novo-004-bico-renda-soluvel-fsl-borders",
@@ -1721,7 +1758,8 @@
       "Ponto Satim de Vedação",
       "Grade de Suporte / Underlay",
       "Acabamento com Água Morna"
-    ]
+    ],
+    "code": "B-134"
   },
   {
     "id": "b-novo-005-bordado-toalhas-lavabo-faixa-linho",
@@ -1766,7 +1804,8 @@
       "Tecido de Linho Puro",
       "Monograma Tradicional",
       "Cola Temporária em Spray"
-    ]
+    ],
+    "code": "B-135"
   },
   {
     "id": "b-novo-006-borracha-microporosa-relevo-3d-puffy",
@@ -1812,7 +1851,8 @@
       "Ponto Satim de Cobertura",
       "Soprador Térmico",
       "Boné Estruturado"
-    ]
+    ],
+    "code": "B-136"
   },
   {
     "id": "b-novo-007-barra-agulhas-tratamento-ceramico-dlc",
@@ -1857,7 +1897,8 @@
       "Álcool Isopropílico",
       "Velocidade PPM",
       "Reciprocador de Agulha"
-    ]
+    ],
+    "code": "B-137"
   },
   {
     "id": "b-novo-008-batedor-linha-guia-oscilante-cabecote",
@@ -1902,7 +1943,8 @@
       "Discos de Tensão",
       "Velocidade PPM",
       "Quebra de Linha Superior"
-    ]
+    ],
+    "code": "B-138"
   },
   {
     "id": "b-novo-009-braco-livre-tubular-cilindrico-industrial",
@@ -1948,7 +1990,8 @@
       "Mesa Extensora Removível",
       "Pantógrafo",
       "Enquadramento de Camisetas"
-    ]
+    ],
+    "code": "B-139"
   },
   {
     "id": "b-novo-010-botao-parada-emergencia-trava-seguranca",
@@ -1994,7 +2037,8 @@
       "Painel Touch Screen",
       "Norma de Segurança NR-12",
       "Manutenção Preventiva"
-    ]
+    ],
+    "code": "B-140"
   },
   {
     "id": "b-novo-011-bloco-preenchimento-curvilineo-wave-fill",
@@ -2040,7 +2084,8 @@
       "Linha de Poliéster Trilobal",
       "Software de Digitalização",
       "Efeito Óptico de Brilho"
-    ]
+    ],
+    "code": "B-141"
   },
   {
     "id": "b-novo-012-bico-aplicador-cola-temporaria-gel",
@@ -2086,7 +2131,8 @@
       "Agulha Antiaderente",
       "Fita Crepe de Precisão",
       "Técnica de Flutuação"
-    ]
+    ],
+    "code": "B-142"
   },
   {
     "id": "b-novo-013-biblioteca-fontes-pre-digitalizadas-esa-vs-truetype",
@@ -2132,7 +2178,8 @@
       "Espaçamento entre Letras (Kerning)",
       "Digitalização de Microletras",
       "Software de Bordado"
-    ]
+    ],
+    "code": "B-143"
   },
   {
     "id": "b-novo-014-bordado-monocromatico-tons-cinza-photostitch",
@@ -2178,7 +2225,8 @@
       "Densidade de Ponto",
       "Alinhavo de Fixação (Basting)",
       "Entretela de Recorte (Cut-Away)"
-    ]
+    ],
+    "code": "B-144"
   },
   {
     "id": "b-novo-015-borda-flutuante-reforco-perimetro-emblemas",
@@ -2224,7 +2272,8 @@
       "Compensação de Repuxo",
       "Tecido Náilon Cordura",
       "Termocolante Definitivo"
-    ]
+    ],
+    "code": "B-145"
   },
   {
     "id": "b-novo-016-bobina-nucleo-magnetico-filamento-continuo",
@@ -2270,7 +2319,8 @@
       "Tensiómetro Towa",
       "Linha de Bobina Fil-Tec",
       "Equilíbrio de Ponto"
-    ]
+    ],
+    "code": "B-146"
   },
   {
     "id": "b-novo-017-bastidor-borda-continua-infinito-barrados",
@@ -2316,7 +2366,8 @@
       "Bordado de Grandes Formatos",
       "Caneta Fantasma / Apagável",
       "Mesa Extensora"
-    ]
+    ],
+    "code": "B-147"
   },
   {
     "id": "b-novo-018-bancada-antivibratoria-coxins-amortecimento",
@@ -2362,7 +2413,8 @@
       "Ergonomia no Ateliê",
       "Manutenção Preventiva",
       "Motores de Passo (X e Y)"
-    ]
+    ],
+    "code": "B-148"
   },
   {
     "id": "b-novo-019-bordado-pesponto-manual-simulado-sashiko",
@@ -2408,7 +2460,8 @@
       "Agulha Topstitch",
       "Bordado Vintage",
       "Comprimento de Ponto"
-    ]
+    ],
+    "code": "B-149"
   },
   {
     "id": "b-novo-020-bainha-invisivel-canto-mitrado-ith",
@@ -2454,7 +2507,8 @@
       "Entretela Rasga-Fácil",
       "Ponto Caseado",
       "Parada Programada (Stop)"
-    ]
+    ],
+    "code": "B-150"
   },
   {
     "id": "b-novo-021-bordado-couro-ecologico-poliuretano-sem-rasgos",
@@ -2499,7 +2553,8 @@
       "Efeito Picote no Tecido",
       "Material Sintético Montana",
       "Densidade de Ponto"
-    ]
+    ],
+    "code": "B-151"
   },
   {
     "id": "b-novo-022-bracadeira-fixacao-pantografo-trava-bastidor",
@@ -2545,7 +2600,8 @@
       "Motores de Passo (X e Y)",
       "Alinhamento de Contorno",
       "Manutenção Preventiva"
-    ]
+    ],
+    "code": "B-152"
   },
   {
     "id": "b-novo-023-batedor-fio-bobina-dedo-desviador-lancadeira",
@@ -2591,7 +2647,8 @@
       "Tempo de Lançadeira (Hook Timing)",
       "Chapa de Agulha Furo Único",
       "Alavanca Puxa-Fio (Estica-Fio)"
-    ]
+    ],
+    "code": "B-153"
   },
   {
     "id": "c-novo-001-capa-caderneta-vacinacao-ith",
@@ -2638,7 +2695,8 @@
       "Ponto Invisível",
       "Parada Programada (Stop)",
       "Monograma Tradicional"
-    ]
+    ],
+    "code": "C-117"
   },
   {
     "id": "c-novo-002-chaveiro-almofadado-bastidor-ith",
@@ -2685,7 +2743,8 @@
       "Fita de Gorgurão",
       "Lembrancinhas de Maternidade",
       "Multiplicação de Matriz"
-    ]
+    ],
+    "code": "C-118"
   },
   {
     "id": "c-novo-003-cesto-organizador-dobravel-bastidor-ith",
@@ -2732,7 +2791,8 @@
       "Ponto de Alinhavo",
       "Kits de Maternidade",
       "Almofada Térmica"
-    ]
+    ],
+    "code": "C-119"
   },
   {
     "id": "c-novo-004-colarinho-lapela-bordados-alfaiataria",
@@ -2777,7 +2837,8 @@
       "Compensação de Repuxo",
       "Camisaria Sob Medida",
       "Ponto Satim"
-    ]
+    ],
+    "code": "C-120"
   },
   {
     "id": "c-novo-005-calcador-aberto-visao-frontal-open-toe",
@@ -2822,7 +2883,8 @@
       "Bamboleio de Tecido (Flagging)",
       "Apliquê no Bastidor",
       "Tesoura Pelicano"
-    ]
+    ],
+    "code": "C-121"
   },
   {
     "id": "c-novo-006-calcador-rolamento-esferas-sinteticos-vinil",
@@ -2867,7 +2929,8 @@
       "Bastidor Tubular",
       "Atrito Térmico de Linha",
       "Calcador de Bordado"
-    ]
+    ],
+    "code": "C-122"
   },
   {
     "id": "c-novo-007-calcador-mola-compensacao-altura-pecas-espessas",
@@ -2913,7 +2976,8 @@
       "Perda de Passo (Step Loss)",
       "Velocidade PPM",
       "Altura do Calcador"
-    ]
+    ],
+    "code": "C-123"
   },
   {
     "id": "c-novo-008-chapa-agulha-ponto-reto-furo-ovalado-seguranca",
@@ -2959,7 +3023,8 @@
       "Ponto Falso / Pulo de Ponto",
       "Engolimento de Tecido",
       "Suedine e Malhas de Bebê"
-    ]
+    ],
+    "code": "C-124"
   },
   {
     "id": "c-novo-009-caixa-bobina-revestimento-ceramico-baixo-atrito",
@@ -3005,7 +3070,8 @@
       "Lançadeira Rotativa",
       "Equilíbrio de Ponto",
       "Temperatura de Operação"
-    ]
+    ],
+    "code": "C-125"
   },
   {
     "id": "c-novo-010-cartela-cores-fisica-amostras-reais-fios",
@@ -3051,7 +3117,8 @@
       "Espaço de Cores sRGB",
       "Solidez da Cor à Lavagem",
       "Iluminação do Ateliê"
-    ]
+    ],
+    "code": "C-126"
   },
   {
     "id": "c-novo-011-cone-linha-mini-1000m-vs-industrial-5000m",
@@ -3096,7 +3163,8 @@
       "Redinha de Proteção de Linha",
       "Velocidade PPM",
       "Custo por Ponto de Bordado"
-    ]
+    ],
+    "code": "C-127"
   },
   {
     "id": "c-novo-012-caneta-luz-ultravioleta-uv-linhas-fluorescentes",
@@ -3141,7 +3209,8 @@
       "Iluminação do Ateliê",
       "Inspeção de Qualidade",
       "Pijama Infantil Personalizado"
-    ]
+    ],
+    "code": "C-128"
   },
   {
     "id": "c-novo-013-cera-textil-hidrossoluvel-lubrificacao-fios",
@@ -3187,7 +3256,8 @@
       "Silicone Líquido Têxtil",
       "Velocidade PPM",
       "Agulha para Fio Metálico"
-    ]
+    ],
+    "code": "C-129"
   },
   {
     "id": "c-novo-014-cola-fita-dupla-face-soluvel-bastidor",
@@ -3233,7 +3303,8 @@
       "Agulha Antiaderente",
       "Entretela Hidrossolúvel",
       "Necessaire no Bastidor"
-    ]
+    ],
+    "code": "C-130"
   },
   {
     "id": "c-novo-015-conversao-formatos-matriz-pes-jef-dst-exp-xxx",
@@ -3279,7 +3350,8 @@
       "Formato DST (Tajima)",
       "Formato PES (Brother)",
       "Formato JEF (Janome)"
-    ]
+    ],
+    "code": "C-131"
   },
   {
     "id": "c-novo-016-conversao-vetorial-automatica-vs-digitalizacao-manual",
@@ -3325,7 +3397,8 @@
       "Compensação de Repuxo",
       "Ponto de Entrada e Saída",
       "Filtro de Pontos Curtos"
-    ]
+    ],
+    "code": "C-132"
   },
   {
     "id": "c-novo-017-corte-inteligente-fio-reducao-saltos-smart-trimming",
@@ -3371,7 +3444,8 @@
       "Software de Bordado",
       "Arremate de Entrada e Saída",
       "Velocidade PPM"
-    ]
+    ],
+    "code": "C-133"
   },
   {
     "id": "c-novo-018-controle-densidade-degrade-radial-radial-gradient",
@@ -3417,7 +3491,8 @@
       "Efeito Óptico de Brilho",
       "Ponto Tatami de Preenchimento",
       "Comprimento de Ponto"
-    ]
+    ],
+    "code": "C-134"
   },
   {
     "id": "c-novo-019-cruzamento-linhas-suporte-grade-losangular",
@@ -3463,7 +3538,8 @@
       "Software de Bordado",
       "Agulha Ponta Bola Leve (SES)",
       "Tecido Dry-Fit"
-    ]
+    ],
+    "code": "C-135"
   },
   {
     "id": "c-novo-020-compactacao-pontos-curtos-quinas-corner-thinning",
@@ -3509,7 +3585,8 @@
       "Software de Digitalização",
       "Filtro de Pontos Curtos",
       "Simulador de Pontos"
-    ]
+    ],
+    "code": "C-136"
   },
   {
     "id": "c-novo-021-costura-aplique-festone-alma-cordao",
@@ -3555,7 +3632,8 @@
       "Ponto Satim de Vedação",
       "Tesoura Pelicano",
       "Relevo 3D"
-    ]
+    ],
+    "code": "C-137"
   },
   {
     "id": "c-novo-022-costura-contorno-ponto-paris-bastidor",
@@ -3601,7 +3679,8 @@
       "Agulha Microtex",
       "Linha de Algodão Mercerizado",
       "Enxoval de Maternidade"
-    ]
+    ],
+    "code": "C-138"
   },
   {
     "id": "c-novo-023-cobre-leito-acolchoamento-trapunto-geometrico",
@@ -3648,7 +3727,8 @@
       "Manta Acrílica R1",
       "Micro-Quilting de Fundo",
       "Tesoura Pelicano"
-    ]
+    ],
+    "code": "C-139"
   },
   {
     "id": "c-novo-024-cordao-torcido-franjas-passamanarias-bastidor",
@@ -3694,7 +3774,8 @@
       "Arremate de Bloqueio",
       "Abridor de Casas (Desmanchador)",
       "Passamanaria Têxtil"
-    ]
+    ],
+    "code": "C-140"
   },
   {
     "id": "c-novo-025-canutilhos-micangas-dispositivo-automatico",
@@ -3740,7 +3821,8 @@
       "Agulha de Titânio",
       "Alta-Costura Têxtil",
       "Velocidade PPM"
-    ]
+    ],
+    "code": "C-141"
   },
   {
     "id": "c-novo-026-cobertura-costura-interna-gorgurao-vies-ith",
@@ -3786,7 +3868,8 @@
       "Ponto Bean / Pesponto Triplo",
       "Agulha Jeans / Denim",
       "Necessaire no Bastidor"
-    ]
+    ],
+    "code": "C-142"
   },
   {
     "id": "c-novo-027-carcaca-tubular-aluminio-fundido-amortecimento",
@@ -3832,7 +3915,8 @@
       "Tempo de Lançadeira (Hook Timing)",
       "Bancada Antivibratória",
       "Velocidade PPM"
-    ]
+    ],
+    "code": "C-143"
   },
   {
     "id": "c-novo-028-correia-sincronizadora-eixo-superior-kevlar",
@@ -3878,7 +3962,8 @@
       "Pantógrafo",
       "Manutenção Preventiva",
       "Alavanca Puxa-Fio (Estica-Fio)"
-    ]
+    ],
+    "code": "C-144"
   },
   {
     "id": "c-novo-029-came-acionamento-barra-agulha-excentrico",
@@ -3924,7 +4009,8 @@
       "Tempo de Lançadeira (Hook Timing)",
       "Lubrificação com Óleo Mineral",
       "Servomotor Digital"
-    ]
+    ],
+    "code": "C-145"
   },
   {
     "id": "c-novo-030-carretilha-bobina-flange-perfurado",
@@ -3970,7 +4056,8 @@
       "Sensor de Quebra de Linha",
       "Enchedor de Bobina",
       "Equilíbrio de Ponto"
-    ]
+    ],
+    "code": "C-146"
   },
   {
     "id": "c-novo-031-calibrador-espessura-textil-micrometro",
@@ -4016,7 +4103,8 @@
       "Gramatura da Entretela",
       "Manta Acrílica R1",
       "Controle de Qualidade"
-    ]
+    ],
+    "code": "C-147"
   },
   {
     "id": "c-novo-032-cloreto-alquila-higienizacao-lancadeiras",
@@ -4062,7 +4150,8 @@
       "Corte Automático de Fio",
       "Manutenção Preventiva",
       "Lubrificação com Óleo Mineral"
-    ]
+    ],
+    "code": "C-148"
   },
   {
     "id": "c-novo-033-capuz-protecao-anti-poeira-maquinas",
@@ -4108,7 +4197,8 @@
       "Lançadeira Rotativa",
       "Umidade Relativa do Ar",
       "Ergonomia no Ateliê"
-    ]
+    ],
+    "code": "C-149"
   },
   {
     "id": "c-novo-034-compensacao-fracionada-puxao-diagonais",
@@ -4154,7 +4244,8 @@
       "Deformação Geométrica (Ovalização)",
       "Tecido Sarja",
       "Ponto Satim"
-    ]
+    ],
+    "code": "C-150"
   },
   {
     "id": "c-novo-035-curva-bezier-vetorizacao-nos-florais",
@@ -4200,7 +4291,8 @@
       "Compensação de Repuxo",
       "Digitalização Manual",
       "Ângulo de Ponto"
-    ]
+    ],
+    "code": "C-151"
   },
   {
     "id": "c-novo-036-conector-ponto-continuo-ziguezague-fino",
@@ -4246,7 +4338,8 @@
       "Software de Digitalização",
       "Suedine e Malhas de Bebê",
       "Compensação de Repuxo"
-    ]
+    ],
+    "code": "C-152"
   },
   {
     "id": "c-novo-037-camadas-agrupamento-cor-software",
@@ -4293,7 +4386,8 @@
       "Sequência de Cores",
       "Multiplicação de Matriz",
       "In The Hoop (ITH)"
-    ]
+    ],
+    "code": "C-153"
   },
   {
     "id": "c-novo-038-calibracao-monitores-espaco-cores-srgb",
@@ -4339,7 +4433,8 @@
       "Tabela Pantone Têxtil (PMS)",
       "Espaço de Cores sRGB",
       "Iluminação do Ateliê"
-    ]
+    ],
+    "code": "C-154"
   },
   {
     "id": "c-novo-039-chapa-agulha-revestimento-titanio-dourado",
@@ -4385,7 +4480,8 @@
       "Lançadeira Rotativa",
       "Atrito Térmico de Linha",
       "Manutenção Preventiva"
-    ]
+    ],
+    "code": "C-155"
   },
   {
     "id": "c-novo-040-controle-dinamico-aceleracao-curvas-estreitas",
@@ -4431,7 +4527,8 @@
       "Servomotor Digital",
       "Buffer de Memória e Fila de Pontos",
       "Perda de Passo (Step Loss)"
-    ]
+    ],
+    "code": "C-156"
   },
   {
     "id": "d-novo-001-dobradura-canto-mitrado-ponto-reto",
@@ -4477,7 +4574,8 @@
       "Desvirador de Pontas",
       "Ponto Bean / Pesponto Triplo",
       "Mesa Posta"
-    ]
+    ],
+    "code": "D-107"
   },
   {
     "id": "d-novo-002-dublagem-termica-tecidos-filme-termocolante",
@@ -4523,7 +4621,8 @@
       "Prensa Térmica",
       "Tesoura Pelicano",
       "Ponto Satim de Vedação"
-    ]
+    ],
+    "code": "D-108"
   },
   {
     "id": "d-novo-003-desfiamento-controlado-tecido-franjas",
@@ -4569,7 +4668,8 @@
       "Bainha Aberta Computadorizada",
       "Mesa Posta",
       "Acabamento Rústico"
-    ]
+    ],
+    "code": "D-109"
   },
   {
     "id": "d-novo-004-desvio-angular-agulha-costuras-grossas",
@@ -4616,7 +4716,8 @@
       "Tempo de Lançadeira (Hook Timing)",
       "Ponto Falso / Pulo de Ponto",
       "Velocidade PPM"
-    ]
+    ],
+    "code": "D-110"
   },
   {
     "id": "d-novo-005-dedo-posicionador-linha-troca-cores",
@@ -4663,7 +4764,8 @@
       "Solenoide de Acionamento",
       "Velocidade PPM",
       "Acabamento & Limpeza de Bordado"
-    ]
+    ],
+    "code": "D-111"
   },
   {
     "id": "d-novo-006-desenho-floral-ponto-matiz-degrade-suave",
@@ -4709,7 +4811,8 @@
       "Ângulo de Ponto",
       "Software de Digitalização",
       "Cartela de Cores Física"
-    ]
+    ],
+    "code": "D-112"
   },
   {
     "id": "d-novo-007-desvirador-pontas-anatomico-madeira-ith",
@@ -4755,7 +4858,8 @@
       "Dobradura de Canto Mitrado",
       "Acabamento & Limpeza de Bordado",
       "Tesoura Pelicano"
-    ]
+    ],
+    "code": "D-113"
   },
   {
     "id": "d-novo-008-deteccao-quebra-linha-sensor-rotativo",
@@ -4801,7 +4905,8 @@
       "Painel Touch Screen",
       "Velocidade PPM",
       "Manutenção Preventiva"
-    ]
+    ],
+    "code": "D-114"
   },
   {
     "id": "d-novo-009-dupla-camada-entretela-rasgavel-malhas",
@@ -4848,7 +4953,8 @@
       "Cola Temporária em Spray",
       "Compensação de Repuxo",
       "Enquadramento de Camisetas"
-    ]
+    ],
+    "code": "D-115"
   },
   {
     "id": "d-novo-010-dente-arraste-rebaixado-bordado-livre",
@@ -4895,7 +5001,8 @@
       "Quilting Livre (Free-Motion)",
       "Máquinas Híbridas (Costura e Bordado)",
       "Volante Manual"
-    ]
+    ],
+    "code": "D-116"
   },
   {
     "id": "d-novo-011-deslocamento-milimetrico-ponto-inicio",
@@ -4941,7 +5048,8 @@
       "Software de Bordado",
       "Ponto de Salto (Jump Stitch)",
       "Pantógrafo"
-    ]
+    ],
+    "code": "D-117"
   },
   {
     "id": "d-novo-012-divisao-matriz-multiplos-bastidores",
@@ -4988,7 +5096,8 @@
       "Bastidor de Grandes Formatos",
       "Diodo Emissor de Laser em Cruz",
       "Compensação de Repuxo"
-    ]
+    ],
+    "code": "D-118"
   },
   {
     "id": "d-novo-013-disco-tensao-mola-conica-progressiva",
@@ -5034,7 +5143,8 @@
       "Equilíbrio de Ponto",
       "Tensiómetro de Linha Superior",
       "Enfiagem de Linha"
-    ]
+    ],
+    "code": "D-119"
   },
   {
     "id": "d-novo-014-dispositivo-alimentacao-cordao-sutache",
@@ -5080,7 +5190,8 @@
       "Monofilamento de Poliamida",
       "Alta-Costura Têxtil",
       "Velocidade PPM"
-    ]
+    ],
+    "code": "D-120"
   },
   {
     "id": "d-novo-015-dispositivo-corte-linha-lamina-rotativa",
@@ -5126,7 +5237,8 @@
       "Chapa de Agulha Furo Único",
       "Manutenção Preventiva",
       "Velocidade PPM"
-    ]
+    ],
+    "code": "D-121"
   },
   {
     "id": "d-novo-016-dispositivo-lantejoulas-duplas-flip-sequin",
@@ -5172,7 +5284,8 @@
       "Alta-Costura Têxtil",
       "Velocidade PPM",
       "Agulha de Titânio"
-    ]
+    ],
+    "code": "D-122"
   },
   {
     "id": "d-novo-017-driver-potencia-microstepping-motores-passo",
@@ -5218,7 +5331,8 @@
       "Perda de Passo (Step Loss)",
       "Buffer de Memória e Fila de Pontos",
       "Velocidade PPM"
-    ]
+    ],
+    "code": "D-123"
   },
   {
     "id": "d-novo-018-diafragma-optico-sensor-ponto-morto-superior",
@@ -5265,7 +5379,8 @@
       "Painel Touch Screen",
       "Manutenção Preventiva",
       "Servomotor Digital"
-    ]
+    ],
+    "code": "D-124"
   },
   {
     "id": "d-novo-019-duto-ar-comprimido-limpeza-lancadeira",
@@ -5311,7 +5426,8 @@
       "Corte Automático de Fio",
       "Manutenção Preventiva",
       "Toalhas de Banho"
-    ]
+    ],
+    "code": "D-125"
   },
   {
     "id": "d-novo-020-dinamometro-digital-bolso-tensao-linha",
@@ -5358,7 +5474,8 @@
       "Caixa de Bobina",
       "Equilíbrio de Ponto",
       "Controle de Qualidade"
-    ]
+    ],
+    "code": "D-126"
   },
   {
     "id": "d-novo-021-distribuidor-aereo-cones-haste-telescopica",
@@ -5404,7 +5521,8 @@
       "Redinha de Proteção de Linha",
       "Discos de Tensão",
       "Linha de Poliéster Trilobal"
-    ]
+    ],
+    "code": "D-127"
   },
   {
     "id": "d-novo-022-defletor-residuos-texteis-caixa-bobina",
@@ -5450,7 +5568,8 @@
       "Manutenção Preventiva",
       "Lubrificação com Óleo Mineral",
       "Toalhas de Banho"
-    ]
+    ],
+    "code": "D-128"
   },
   {
     "id": "d-novo-023-desengraxante-biodegradavel-eixos-mancais",
@@ -5497,7 +5616,8 @@
       "Pantógrafo",
       "Came de Acionamento",
       "Ergonomia no Ateliê"
-    ]
+    ],
+    "code": "D-129"
   },
   {
     "id": "d-novo-024-diodo-emissor-laser-cruz-posicionamento",
@@ -5543,7 +5663,8 @@
       "Painel Touch Screen",
       "Divisão de Matriz em Múltiplos Bastidores",
       "Gabarito Plástico de Bastidor"
-    ]
+    ],
+    "code": "D-130"
   },
   {
     "id": "d-novo-025-diametro-olho-agulha-espessura-fio",
@@ -5589,7 +5710,8 @@
       "Calibre de Agulha",
       "Linha de Poliéster Trilobal",
       "Quebra de Linha Superior"
-    ]
+    ],
+    "code": "D-131"
   },
   {
     "id": "d-novo-026-dureza-superficial-vickers-agulhas-titanio",
@@ -5635,7 +5757,8 @@
       "Atrito Térmico de Linha",
       "Manutenção Preventiva",
       "Boné Estruturado"
-    ]
+    ],
+    "code": "D-132"
   },
   {
     "id": "d-novo-027-densidade-linear-fios-denier-dtex-ne",
@@ -5681,7 +5804,8 @@
       "Densidade de Ponto",
       "Calibre de Agulha",
       "Linha de Bobina Fil-Tec"
-    ]
+    ],
+    "code": "D-133"
   },
   {
     "id": "d-novo-028-detergente-neutro-textil-lavagem-enxovais",
@@ -5727,7 +5851,8 @@
       "Linha de Poliéster Trilobal",
       "Enxoval de Maternidade",
       "Acabamento & Limpeza de Bordado"
-    ]
+    ],
+    "code": "D-134"
   },
   {
     "id": "d-novo-029-dureza-mola-estica-fio-calibracao",
@@ -5774,7 +5899,8 @@
       "Equilíbrio de Ponto",
       "Manutenção Preventiva",
       "Velocidade PPM"
-    ]
+    ],
+    "code": "D-135"
   },
   {
     "id": "d-novo-030-decalque-termico-giz-marcacao-centros",
@@ -5820,7 +5946,8 @@
       "Ponto Central da Matriz",
       "Enquadramento de Camisetas",
       "Acabamento & Limpeza de Bordado"
-    ]
+    ],
+    "code": "D-136"
   },
   {
     "id": "d-novo-031-dublador-fios-metalicos-poliester-invisivel",
@@ -5867,7 +5994,8 @@
       "Agulha para Fio Metálico",
       "Redinha de Proteção de Linha",
       "Atrito Térmico de Linha"
-    ]
+    ],
+    "code": "D-137"
   },
   {
     "id": "d-novo-032-desumidificador-armario-textil-cones",
@@ -5913,7 +6041,8 @@
       "Linha de Poliéster Trilobal",
       "Linha de Raiom (Viscose)",
       "Manutenção Preventiva"
-    ]
+    ],
+    "code": "D-138"
   },
   {
     "id": "d-novo-033-densidade-adaptativa-satim-espessura-coluna",
@@ -5959,7 +6088,8 @@
       "Monograma Tradicional",
       "Divisão Automática de Pontos Longos",
       "Compensação de Repuxo"
-    ]
+    ],
+    "code": "D-139"
   },
   {
     "id": "d-novo-034-distorcao-paralelogramo-compensacao-trapezoidal",
@@ -6006,7 +6136,8 @@
       "Ponto de Suporte / Underlay",
       "Software de Digitalização",
       "Deformação Geométrica"
-    ]
+    ],
+    "code": "D-140"
   },
   {
     "id": "d-novo-035-decomposicao-cores-rgb-fotobordado",
@@ -6053,7 +6184,8 @@
       "Agulha Microtex",
       "Cartela de Cores Física",
       "Entretela de Recorte (Cut-Away)"
-    ]
+    ],
+    "code": "D-141"
   },
   {
     "id": "d-novo-036-deslocamento-tangencial-ponto-entrada",
@@ -6099,7 +6231,8 @@
       "Software de Digitalização",
       "Amarração Inicial e Final",
       "Compensação de Repuxo"
-    ]
+    ],
+    "code": "D-142"
   },
   {
     "id": "d-novo-037-densidade-tatami-grade-aberta-sombreamento",
@@ -6145,7 +6278,8 @@
       "Densidade de Ponto",
       "Efeito Óptico de Brilho",
       "Compensação de Repuxo"
-    ]
+    ],
+    "code": "D-143"
   },
   {
     "id": "d-novo-038-duplicacao-espelho-horizontal-vertical",
@@ -6192,7 +6326,8 @@
       "Ponto Satim",
       "Monograma Tradicional",
       "Efeito Óptico de Brilho"
-    ]
+    ],
+    "code": "D-144"
   },
   {
     "id": "d-novo-039-divisao-automatica-pontos-longos-jumper",
@@ -6239,7 +6374,8 @@
       "Software de Digitalização",
       "Pantógrafo",
       "Comprimento de Ponto"
-    ]
+    ],
+    "code": "D-145"
   },
   {
     "id": "d-novo-040-digitalizacao-contorno-ponto-haste",
@@ -6285,7 +6421,8 @@
       "Software de Digitalização",
       "Linha de Algodão Mercerizado",
       "Desenho Floral em Ponto Matiz"
-    ]
+    ],
+    "code": "D-146"
   },
   {
     "id": "d-novo-041-digitalizacao-textura-couro-pitted-tatami",
@@ -6331,7 +6468,8 @@
       "Efeito Óptico de Brilho",
       "Densidade de Ponto",
       "Compensação de Repuxo"
-    ]
+    ],
+    "code": "D-147"
   },
   {
     "id": "d-novo-042-deformacao-fadiga-elastica-malhas-sinteticas",
@@ -6378,7 +6516,8 @@
       "Compensação de Repuxo",
       "Técnica de Flutuação",
       "Densidade de Ponto"
-    ]
+    ],
+    "code": "D-148"
   },
   {
     "id": "d-novo-043-densidade-borda-ponto-ziguezague-apliques",
@@ -6425,7 +6564,8 @@
       "Ponto Caseado",
       "Ponto Satim de Vedação",
       "Enxoval de Maternidade"
-    ]
+    ],
+    "code": "D-149"
   },
   {
     "id": "d-novo-044-diagramacao-vetorial-paineis-colchas-modulares",
@@ -6472,7 +6612,8 @@
       "Manta Acrílica R1",
       "Margem de Costura (1/4 de Polegada)",
       "Cortador Rotativo Circular"
-    ]
+    ],
+    "code": "D-150"
   },
   {
     "id": "d-novo-045-diagnostico-arquivo-matriz-corrompido-cabecalho",
@@ -6519,7 +6660,8 @@
       "Formato DST (Tajima)",
       "Software de Bordado",
       "Painel Touch Screen"
-    ]
+    ],
+    "code": "D-151"
   },
   {
     "id": "e-lote1-001-elastano-no-bordado-malhas-stretch",
@@ -6567,7 +6709,8 @@
       "Agulha Ponta Bola (SES)",
       "Alinhavo no Bastidor (Basting Stitch)",
       "Flutuação no Bastidor"
-    ]
+    ],
+    "code": "E-110"
   },
   {
     "id": "e-lote1-002-entretela-agua-quente-vs-fria",
@@ -6613,7 +6756,8 @@
       "Renda Guipir (Free Standing Lace)",
       "PVA (Álcool Polivinílico)",
       "Richelieu Computadorizado"
-    ]
+    ],
+    "code": "E-111"
   },
   {
     "id": "e-lote1-003-eixo-excentrico-barra-agulha",
@@ -6658,7 +6802,8 @@
       "Sincronismo de Lançadeira",
       "Reciprocador",
       "Ponto Morto Inferior (PMI)"
-    ]
+    ],
+    "code": "E-112"
   },
   {
     "id": "e-lote1-004-efeito-chenille-computadorizado",
@@ -6704,7 +6849,8 @@
       "Apliquê Tradicional",
       "Ponto Cheio de Contorno",
       "Linha de Algodão para Bordado"
-    ]
+    ],
+    "code": "E-113"
   },
   {
     "id": "e-lote1-005-enchedor-bobina-sensor-optico",
@@ -6750,7 +6896,8 @@
       "Caixa de Bobina",
       "Tensão de Bobina",
       "Linha de Filamento Contínuo"
-    ]
+    ],
+    "code": "E-114"
   },
   {
     "id": "e-lote1-006-entretela-colarinho-punho-camisaria",
@@ -6796,7 +6943,8 @@
       "Microletras (Small Lettering)",
       "Agulha Microtex",
       "Bastidor Magnético"
-    ]
+    ],
+    "code": "E-115"
   },
   {
     "id": "e-lote1-007-espelho-ponto-mirror-stitching",
@@ -6842,7 +6990,8 @@
       "Trace / Percurso do Bastidor",
       "Ponto de Origem da Matriz",
       "Simetria Axial de Bordado"
-    ]
+    ],
+    "code": "E-116"
   },
   {
     "id": "e-lote1-008-estatistica-quebra-linha-kpi-industrial",
@@ -6888,7 +7037,8 @@
       "Tensão de Linha",
       "Produtividade em PPM",
       "Manutenção Preventiva de Cabeçote"
-    ]
+    ],
+    "code": "E-117"
   },
   {
     "id": "e-lote1-009-engrenagem-conica-helicoidal-lancadeira",
@@ -6934,7 +7084,8 @@
       "Sincronismo de Lançadeira",
       "Graxa com Dissulfeto de Molibdênio",
       "Ponto Morto da Agulha"
-    ]
+    ],
+    "code": "E-118"
   },
   {
     "id": "e-lote1-010-estabilizacao-seda-pura-chiffon-hidrossoluvel",
@@ -6981,7 +7132,8 @@
       "Alta-Costura no Bordado",
       "Agulha Microtex",
       "Densidade Aberta"
-    ]
+    ],
+    "code": "E-119"
   },
   {
     "id": "e-lote1-011-efeito-degrade-tres-cores-tatami",
@@ -7028,7 +7180,8 @@
       "Ponto Tatami",
       "Pintura de Agulha Computadorizada",
       "Gradiente de Cores"
-    ]
+    ],
+    "code": "E-120"
   },
   {
     "id": "e-lote1-012-eliminacao-pontos-curtos-arremate",
@@ -7074,7 +7227,8 @@
       "Corte Automático de Linha",
       "Ponto Pipoca / Loop de Linha",
       "Otimização de Matriz"
-    ]
+    ],
+    "code": "E-121"
   },
   {
     "id": "e-lote1-013-entretela-texturizada-couro-nobuck",
@@ -7120,7 +7274,8 @@
       "Bordado em Couro Legítimo",
       "Bastidor Magnético",
       "Densidade Aberta"
-    ]
+    ],
+    "code": "E-122"
   },
   {
     "id": "e-lote1-014-encolhimento-pos-lavagem-compensacao",
@@ -7166,7 +7321,8 @@
       "Compensação de Tração (Pull Comp)",
       "Entretela Recortável (Cut-Away)",
       "Estabilidade Dimensional"
-    ]
+    ],
+    "code": "E-123"
   },
   {
     "id": "e-lote1-015-eixo-cardan-pantografo-multicabecas",
@@ -7212,7 +7368,8 @@
       "Servomotor de Eixos X e Y",
       "Alinhamento de Contorno",
       "Máquinas Multicabeças"
-    ]
+    ],
+    "code": "E-124"
   },
   {
     "id": "e-lote1-016-espacamento-coluna-ponto-satin",
@@ -7258,7 +7415,8 @@
       "Densidade de Pontos",
       "Compensação de Tração",
       "Espaçamento em Curvas (Auto-Spacing)"
-    ]
+    ],
+    "code": "E-125"
   },
   {
     "id": "e-lote1-017-eletricidade-estatica-fio-metalico",
@@ -7304,7 +7462,8 @@
       "Redinha para Cone de Linha (Thread Net)",
       "Agulha para Fios Metálicos",
       "Silicone para Linha de Bordado"
-    ]
+    ],
+    "code": "E-126"
   },
   {
     "id": "e-lote1-018-entretela-autoadesiva-peel-and-stick",
@@ -7351,7 +7510,8 @@
       "Flutuação no Bastidor",
       "Bordado em Veludo",
       "Bastidor Fast Frame"
-    ]
+    ],
+    "code": "E-127"
   },
   {
     "id": "e-lote1-019-equalizacao-tensao-cores-mesmo-cabecote",
@@ -7398,7 +7558,8 @@
       "Tensão da Linha de Bordado",
       "Linha de Bobina (Regra de 1/3)",
       "Mola Tira-Fio"
-    ]
+    ],
+    "code": "E-128"
   },
   {
     "id": "e-lote1-020-escala-dureza-shore-borracha-eva-3d",
@@ -7445,7 +7606,8 @@
       "Capeamento de Bordas (Capping)",
       "Soprador Térmico para Bordado",
       "EVA Especial para Bordado"
-    ]
+    ],
+    "code": "E-129"
   },
   {
     "id": "e-lote1-021-efeito-pesponto-duplo-saddle-stitch",
@@ -7492,7 +7654,8 @@
       "Comprimento de Passo",
       "Agulha Topstitch",
       "Costura Decorativa de Selaria"
-    ]
+    ],
+    "code": "E-130"
   },
   {
     "id": "e-lote2-022-efeito-ponto-cruz-computadorizado",
@@ -7538,7 +7701,8 @@
       "Linha Fosca para Bordado",
       "Grade Vetorial (Grid)",
       "Petit Point Computadorizado"
-    ]
+    ],
+    "code": "E-131"
   },
   {
     "id": "e-lote2-023-entretela-hidrossoluvel-tecida-lawn-soluble",
@@ -7584,7 +7748,8 @@
       "Renda Guipir (Free Standing Lace)",
       "PVA Tecido",
       "Richelieu Computadorizado"
-    ]
+    ],
+    "code": "E-132"
   },
   {
     "id": "e-lote2-024-engate-rapido-bastidor-tubular",
@@ -7630,7 +7795,8 @@
       "Pantógrafo de Bordado",
       "Pinos de Centragem",
       "Braço Livre de Bordado"
-    ]
+    ],
+    "code": "E-133"
   },
   {
     "id": "e-lote2-025-equalizacao-linha-bobina-pre-enrolada",
@@ -7676,7 +7842,8 @@
       "Tensiômetro Towa",
       "Linha de Filamento Contínuo",
       "Bobina Magnética (Magna-Glide)"
-    ]
+    ],
+    "code": "E-134"
   },
   {
     "id": "e-lote2-026-efeito-moire-ponto-tatami-prevencao",
@@ -7722,7 +7889,8 @@
       "Ângulo de Ponto (Stitch Angle)",
       "Ponto Aleatório (Random Length)",
       "Sarja e Tecidos Texturizados"
-    ]
+    ],
+    "code": "E-135"
   },
   {
     "id": "e-lote2-027-entretela-termodegradavel-heat-away",
@@ -7769,7 +7937,8 @@
       "Termofixação",
       "Bordado em Couro e Camurça",
       "Ferro a Seco de Ateliê"
-    ]
+    ],
+    "code": "E-136"
   },
   {
     "id": "e-lote2-028-extensao-ponto-salto-maxima-jump-stitch",
@@ -7815,7 +7984,8 @@
       "Corte Automático de Linha",
       "Velocidade em PPM",
       "Otimização de Trajeto"
-    ]
+    ],
+    "code": "E-137"
   },
   {
     "id": "e-lote2-029-efeito-trapunto-bastidor-manta-r1-r2",
@@ -7862,7 +8032,8 @@
       "Ponto Meandro (Stippling)",
       "Manta Acrílica R1/R2",
       "Altura do Calcador"
-    ]
+    ],
+    "code": "E-138"
   },
   {
     "id": "e-lote2-030-eixo-comando-mudanca-cor-geneva",
@@ -7909,7 +8080,8 @@
       "Reciprocador",
       "Sensor de Cor do Cabeçote",
       "Parada Superior de Agulha"
-    ]
+    ],
+    "code": "E-139"
   },
   {
     "id": "e-lote2-031-estabilizacao-tule-ilusion-renda-noiva",
@@ -7956,7 +8128,8 @@
       "Alta-Costura Nupcial",
       "Agulha Ponta Bola Fina 60/8",
       "Bordado Tattoo Lace"
-    ]
+    ],
+    "code": "E-140"
   },
   {
     "id": "e-lote2-032-efeito-sombra-difusao-borda-ponto-matiz",
@@ -8004,7 +8177,8 @@
       "Borda Plumada (Feathering)",
       "Sombra Projetada (Drop Shadow)",
       "Profundidade Visual em Matriz"
-    ]
+    ],
+    "code": "E-141"
   },
   {
     "id": "e-lote2-033-enrolamento-excentrico-carretel-bobina",
@@ -8050,7 +8224,8 @@
       "Enchedor de Bobina",
       "Tensiômetro Towa",
       "Ponto Falso (Skipped Stitch)"
-    ]
+    ],
+    "code": "E-142"
   },
   {
     "id": "e-lote2-034-espelho-convexo-concavo-matriz-envelope",
@@ -8097,7 +8272,8 @@
       "Letreiramento em Arco",
       "Ponto Cheio Esportivo",
       "Bézier no Software de Bordado"
-    ]
+    ],
+    "code": "E-143"
   },
   {
     "id": "e-lote2-035-entretela-malha-fusivel-weft-insertion",
@@ -8144,7 +8320,8 @@
       "Entretela Termocolante",
       "Tecido Piquê",
       "Compensação de Repuxo"
-    ]
+    ],
+    "code": "E-144"
   },
   {
     "id": "e-lote2-036-ergonomia-operacional-atelie-bordado",
@@ -8191,7 +8368,8 @@
       "Tesoura com Mola de Retorno",
       "Estação HoopMaster",
       "Iluminação LED para Bordado"
-    ]
+    ],
+    "code": "E-145"
   },
   {
     "id": "e-lote2-037-efeito-granulado-neve-pontos-livres-stipple",
@@ -8237,7 +8415,8 @@
       "Ponto Corrido (Running Stitch)",
       "Densidade Aberta",
       "Quilting no Bastidor"
-    ]
+    ],
+    "code": "E-146"
   },
   {
     "id": "e-lote2-038-escovamento-pos-bordado-fios-la-chenille",
@@ -8285,7 +8464,8 @@
       "Agulha Topstitch",
       "Bordado Realista de Animais",
       "Carda de Escovamento"
-    ]
+    ],
+    "code": "E-147"
   },
   {
     "id": "e-lote2-039-encoder-optico-rotacao-eixo-principal",
@@ -8332,7 +8512,8 @@
       "Parada Superior de Agulha",
       "Sincronismo de Lançadeira",
       "Placa de Controle Eletrônico"
-    ]
+    ],
+    "code": "E-148"
   },
   {
     "id": "e-lote2-040-estabilizacao-felpa-alta-filme-soluvel-roupoes",
@@ -8380,7 +8561,8 @@
       "Tecido Atoalhado (Terry Cloth)",
       "Underlay de Grade de Sustentação",
       "Bordado em Toalhas de Banho"
-    ]
+    ],
+    "code": "E-149"
   },
   {
     "id": "e-lote2-041-efeito-monograma-entrelacado-vitoriano",
@@ -8427,7 +8609,8 @@
       "Ponto Cheio Caligráfico",
       "Heráldica e Brasões",
       "Contraste de Ângulo de Ponto"
-    ]
+    ],
+    "code": "E-150"
   },
   {
     "id": "e-lote2-042-entretela-protecao-avesso-recem-nascido-soft-seal",
@@ -8474,7 +8657,8 @@
       "Nós de Arremate",
       "Oeko-Tex Standard 100",
       "Termocolagem de Acabamento"
-    ]
+    ],
+    "code": "E-151"
   },
   {
     "id": "f-novo-001-feltro-feltro-la-bordado-eletronico",
@@ -12059,7 +12243,8 @@
       "ORGAN NEEDLES. DBxK5 Embroidery Needle Specification Manual. Japan, 2020.",
       "ARTRELADOS. Guia de Agulhas e Calibrações para Bordado Eletrônico. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-002-agulha-ponta-bola",
@@ -12134,7 +12319,8 @@
       "ORGAN NEEDLES. Ball Point Needle Applications in Knitwear Embroidery. Tokyo, 2019.",
       "GROZ-BECKERT. Sewing & Embroidery Needle Technology for Knitted Fabrics. Albstadt, 2022."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-003-agulha-ponta-lanca",
@@ -12206,7 +12392,8 @@
       "SCHMETZ. Leather & Non-Woven Embroidery Needles Guide. Germany, 2020.",
       "GROZ-BECKERT. Cutting Point Needles for Leather Processing. Albstadt, 2021."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-004-aplique-de-bordado",
@@ -12284,7 +12471,8 @@
       "EMBIRD. Appliqué Layering Techniques Manual. 2021.",
       "ARTRELADOS. Guia de Apliquê Profissional e Termocolantes. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-005-arremate-de-ponto",
@@ -12361,7 +12549,8 @@
       "TAJIMA. Machine Embroidery Digitizing Parameters Manual. Nagoya, 2021.",
       "ARTRELADOS. Guia de Durabilidade e Arremates em Matrizes de Bordado. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-006-angulo-de-ponto",
@@ -12437,7 +12626,8 @@
       "GARDNER, Lee. Embroidery Digitizing Theory & Practice. London, 2020.",
       "ARTRELADOS. A Arte dos Ângulos e Reflexão de Luz no Bordado. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-007-ajuste-de-tensao",
@@ -12513,7 +12703,8 @@
       "TOWA. Digital Thread Tension Gauge Operation & Calibration Manual. Japan, 2021.",
       "ARTRELADOS. Calibração Perfeita de Tensão e Diagnóstico de Avesso. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-008-alinhamento-de-contorno",
@@ -12589,7 +12780,8 @@
       "DEAN, Erich. Troubleshooting Machine Embroidery Registration. USA, 2021.",
       "ARTRELADOS. Guia de Compensação de Puxão e Encaixe de Contornos. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-009-abridor-de-casas",
@@ -12666,7 +12858,8 @@
       "PRYM. Quality Sewing Tools & Accessories Manual. Germany, 2020.",
       "ARTRELADOS. Técnicas de Remoção Segura de Bordados e Recuperação de Peças. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-010-autodigitizacao",
@@ -12742,7 +12935,8 @@
       "WILCOM. Auto-Digitizing Best Practices & Limitations. Sydney, 2021.",
       "ARTRELADOS. Programação Manual vs Autodigitização: O Guia Definitivo. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-011-alimentador-de-linha",
@@ -12819,7 +13013,8 @@
       "BARUDAN. Thread Feeding Mechanisms & Maintenance. Japan, 2020.",
       "ARTRELADOS. Manutenção Preventiva de Cabeçotes e Guias de Linha. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-012-acabamento-de-bordado",
@@ -12898,7 +13093,8 @@
       "ARTRELADOS. Manual de Boas Práticas e Acabamento de Bordados. Brasil, 2022.",
       "MADEIRA. Finishing and Care Guidelines for Embroidered Goods. Germany, 2023."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-013-agulha-topstitch-pesponto",
@@ -12959,7 +13155,8 @@
       "MADEIRA. Metallic & Heavy Specialty Threads Processing Guidelines. Freiburg, 2023.",
       "ARTRELADOS. O Segredo das Linhas Grossas e Metálicas no Bordado. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-014-arremate-automatico",
@@ -13022,7 +13219,8 @@
       "KRAUSZ, P. Lock Stitch Engineering and Seam Integrity in Automated Embroidery. New York, 2021.",
       "ARTRELADOS. O Segredo do Bordado Eterno: Como Configurar Arremates Automáticos Perfeitos. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-015-ajuste-de-densidade",
@@ -13083,7 +13281,8 @@
       "WILCOM. Stitch Spacing & Variable Density Mastery Guide. Sydney, 2022.",
       "ARTRELADOS. Densidade Perfeita: Como Evitar Bordados Duros e Falhas de Cobertura. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-016-amortecedor-de-calcador",
@@ -13145,7 +13344,8 @@
       "TAJIMA. Presser Foot Mechanism & Flagging Prevention Technical Manual. Nagoya, 2023.",
       "ARTRELADOS. Altura do Calcador no Bordado: O Ajuste Secreto para Não Marcar Toalhas e Veludos. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-017-abertura-de-campo-de-bordado",
@@ -13208,7 +13408,8 @@
       "BROTHER. Embroidery Machine Installation & Workspace Clearance Guidelines. Nagoya, 2023.",
       "ARTRELADOS. Organização do Ateliê: Como Preparar a Bancada Perfeita Para Bordar Sem Acidentes. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-018-anel-de-vedacao-e-retencao-da-bobina",
@@ -13270,7 +13471,8 @@
       "TAJIMA. Rotary Hook and Bobbin Assembly Maintenance Standards. Nagoya, 2023.",
       "ARTRELADOS. O Segredo da Bobina Perfeita: Como Cuidar da Caixa de Bobina da Sua Máquina. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-019-alinhamento-a-laser-ponteiro-led",
@@ -13332,7 +13534,8 @@
       "TAJIMA. Laser Alignment & Positioning Devices for Commercial Embroidery. Nagoya, 2023.",
       "ARTRELADOS. Alinhamento Perfeito com Mira Laser: Como Acertar o Centro do Bordado de Primeira. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-020-arremate-manual-no-software",
@@ -13394,7 +13597,8 @@
       "KRAUSZ, P. Master Class in Digitizing: Manual Lock Stitches and Clean Backings. New York, 2021.",
       "ARTRELADOS. O Segredo das Microletras: Como Fazer Arremates Manuais Invisíveis. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-021-analise-de-matriz-previa",
@@ -13456,7 +13660,8 @@
       "KRAUSZ, P. Pre-Production Stitch Verification & Error Prevention in Digitizing. New York, 2021.",
       "ARTRELADOS. O Checklist de Ouro: Como Analisar Sua Matriz Antes de Apertar o Play. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-022-agulha-dupla-de-bordado",
@@ -13517,7 +13722,8 @@
       "BERNINA. Decorative Twin Needle Embroidery & Hemming Manual. Steckborn, 2023.",
       "ARTRELADOS. Efeitos Especiais com Agulha Dupla: Como Criar Barrados de Luxo. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-023-autotracado-de-vetores-bitmap",
@@ -13579,7 +13785,8 @@
       "KRAUSZ, P. Vector Graphics Fundamentals for Automated Embroidery Digitizing. New York, 2021.",
       "ARTRELADOS. Do PNG ao Bordado Perfeito: Guia de Vetorização Rápida de Imagens. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-024-ajuste-de-ponto-de-entrada-e-saida",
@@ -13641,7 +13848,8 @@
       "KRAUSZ, P. Seamless Pathing and Object Connectivity in Professional Digitizing. New York, 2021.",
       "ARTRELADOS. O Segredo dos Bordados Sem Corte: Como Otimizar Entradas e Saídas na Matriz. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-025-aquecimento-da-agulha",
@@ -13703,7 +13911,8 @@
       "SCHMETZ. Needle Heat Generation & Synthetic Thread Breakage Analysis. Alsdorf, 2023.",
       "ARTRELADOS. Por Que a Linha Derrete? O Fenômeno do Aquecimento da Agulha no Bordado. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-026-angulo-do-ponto",
@@ -13766,7 +13975,8 @@
       "KRAUSZ, P. Digitizing for Embroidery: Theory of Stitch Direction and Tension Balance. New York, 2021.",
       "ARTRELADOS. O Segredo dos Ângulos de Ponto: Como Criar Efeito 3D e Brilho Acetinado no Bordado. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-027-agulha-para-couro-ponta-cortante",
@@ -13827,7 +14037,8 @@
       "ORGAN NEEDLES. Leather & Heavy Non-Woven Synthetic Materials Needles. Osaka, 2023.",
       "ARTRELADOS. Guia de Bordado em Couro e Sintéticos: Segredos da Agulha Cortante. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-028-ajuste-de-posicionamento-do-bastidor",
@@ -13889,7 +14100,8 @@
       "TAJIMA. Pantograph Motion Control and Origin Offset Calibration. Nagoya, 2023.",
       "ARTRELADOS. Como Usar o Painel da Máquina Para Centralizar Bordados em Segundos. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-029-alavanca-puxa-fio-take-up-lever",
@@ -13951,7 +14163,8 @@
       "BROTHER. Upper Threading Path & Take-Up Lever Mechanism Service Guide. Nagoya, 2023.",
       "ARTRELADOS. O Segredo da Alavanca Puxa-Fio: Por Que Ela é o Coração do Seu Bordado. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-030-auto-compensacao-de-canto-mitered-corner",
@@ -14013,7 +14226,8 @@
       "KRAUSZ, P. Geometric Corner Calculations and Stitch Density Distribution. New York, 2021.",
       "ARTRELADOS. Cantos Perfeitos no Bordado: O Guia do Canto Mitrado em Molduras e Letras. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-031-ajuste-de-folga-da-chapa-de-agulha",
@@ -14074,7 +14288,8 @@
       "BROTHER. Maintenance and Needle Plate Replacement Standards. Nagoya, 2023.",
       "ARTRELADOS. O Segredo da Chapa de Agulha: Como Eliminar o Desfiamento de Linha Misterioso. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-032-angulo-de-inclinacao-do-calcador",
@@ -14135,7 +14350,8 @@
       "BROTHER. Service Manual: Presser Foot Bar Alignment and Timing. Nagoya, 2023.",
       "ARTRELADOS. Regulagem Mecânica do Calcador: Como Alinhar o Pezinho da Sua Máquina de Bordar. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-033-ajuste-de-comprimento-de-ponto",
@@ -14196,7 +14412,8 @@
       "KRAUSZ, P. Fundamentals of Stitch Pitch and Mechanical Limits in Embroidery. New York, 2021.",
       "ARTRELADOS. O Tamanho Certo do Ponto: Como Regular Comprimentos Sem Frouxidão Nem Rasgos. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-034-agulha-para-malha-jersey-stretch",
@@ -14258,7 +14475,8 @@
       "ORGAN NEEDLES. Ball Point Needles (SES / SUK) for Knitted and Elastic Goods. Osaka, 2023.",
       "ARTRELADOS. O Guia Definitivo do Bordado em Malhas: Como Evitar Furos e Ondulações na Roupa. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-035-autodeteccao-de-fim-de-linha-bobina",
@@ -14320,7 +14538,8 @@
       "TAJIMA. Electronic Thread Sensor Systems & Encoder Calibration Manual. Nagoya, 2023.",
       "ARTRELADOS. O Que Fazer Quando a Linha Quebra: Como Retomar o Bordado Sem Deixar Marcas. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-036-arquivo-de-bordado",
@@ -14384,7 +14603,8 @@
       "BROTHER. Embroidery Data Format (.PES/.PEN) Technical Architecture. Nagoya: Brother, 2023.",
       "ARTRELADOS. Guia Definitivo dos Formatos de Bordado: Diferenças Entre EMB, PES, DST e JEF. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-037-area-de-bordado",
@@ -14446,7 +14666,8 @@
       "JANOME. Memory Craft Hoop Range & Sensor Alignment Specifications. Tokyo, 2023.",
       "ARTRELADOS. Área de Bordado vs. Tamanho do Bastidor: Como Aproveitar o Máximo de Espaço Sem Quebrar Agulhas. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-038-ajuste-de-folga-da-lancadeira",
@@ -14509,7 +14730,8 @@
       "KOBAN HOOKS. Industrial Rotary Hooks Installation and Maintenance Manual. Osaka, 2023.",
       "ARTRELADOS. O Coração da Máquina: Tudo Sobre a Lançadeira e Como Evitar Pontos Pulados. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-039-alinhamento-de-matrizes",
@@ -14571,7 +14793,8 @@
       "KRAUSZ, P. Placement, Alignment and Garment Hooping Standards for Commercial Embroidery. New York, 2021.",
       "ARTRELADOS. Alinhamento Perfeito no Peito de Camisetas e Toalhas: O Método Infalível do Ateliê. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-040-adaptador-de-bastidor-de-bones",
@@ -14633,7 +14856,8 @@
       "BROTHER. PR-Series Cap Hoop Installation and Center-Out Digitizing Guide. Nagoya, 2023.",
       "ARTRELADOS. O Guia Supremo do Bordado em Bonés: Como Dominar o Bastidor de Boné Sem Sofrimento. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-041-alinhamento-de-agulha-em-maquinas-multiagulhas",
@@ -14695,7 +14919,8 @@
       "BROTHER. PR-Series Multi-Needle Calibration & Needle Position Test Guide. Nagoya, 2023.",
       "ARTRELADOS. Guia de Manutenção da Máquina Multiagulhas: Como Calibrar Suas Agulhas Sem Mistério. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-042-ajuste-de-ponto-decorativo-motif",
@@ -14757,7 +14982,8 @@
       "BERNINA. Creative Motif Stitching and Cross-Stitch Digitizing Guide. Steckborn, 2023.",
       "ARTRELADOS. A Magia dos Pontos Decorativos: Como Criar Barrados de Luxo com Pontos Motif. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-043-alinhamento-de-bastidor",
@@ -14847,7 +15073,8 @@
       "ARTRELADOS. Guia de Bastidoramento e Simetria no Bordado Eletrônico. Brasil, 2024.",
       "KRAUSZ, Florence. Embroidery Hooping & Alignment Techniques. St. Louis: Creative Needle Press, 2018."
     ],
-    "updatedAt": "2026-08-18"
+    "updatedAt": "2026-08-18",
+    "letter": "A"
   },
   {
     "id": "a-044-amortecedor-de-linha-mola-puxa-fio",
@@ -14934,7 +15161,8 @@
       "TAJIMA TECHNICAL SERVICE. Maintenance & Assembly Guide for Upper Thread Tension Assembly. Nagoya: Tokai Industrial Sewing Machine Co., 2020.",
       "SINGER, Charles. History of Sewing and Embroidery Mechanics. Oxford University Press, 2017."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-045-agulha-asa-wing-needle",
@@ -15023,7 +15251,8 @@
       "SCHMETZ NEEDLES. Specialty Needles Handbook: Hemstitch and Wing Needles in Action. Herzogenrath: Schmetz GmbH, 2021.",
       "COATS & CLARK. Decorative Machine Embroidery & Openwork Guide. Charlotte, 2019."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-046-auto-espacamento-de-pontos",
@@ -15109,7 +15338,8 @@
       "WILCOM INTERNATIONAL. Designing Embroidery: The Complete Density and Stitch Spacing Engineering Manual. Sydney: Wilcom Ltd., 2022.",
       "PULSE MICROSYSTEMS. Vector Geometry in Automated Embroidery Digitizing. Toronto, 2020."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-047-area-de-bordado-efetiva-vs-bastidor",
@@ -15197,7 +15427,8 @@
       "BROTHER EMBROIDERY SYSTEMS. Operation Manual: Hoop Sizes & Maximum Sewing Fields. Nagoya: Brother Industries, 2022.",
       "ISO 10821: Industrial sewing and embroidery machines - Safety requirements. International Organization for Standardization, Geneva, 2019."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-048-adesivo-temporario-em-spray",
@@ -15284,7 +15515,8 @@
       "ODIF FRANCE. Technical Data Sheet: 505 Temporary Fabric Adhesive for Quilting & Embroidery. Marcoussis, 2023.",
       "CLINE, Deborah. Machine Embroidery Essentials: Stabilizers & Adhesives Masterclass. Cincinnati: Krause Publications, 2020."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-049-arremate-de-entrada-e-arremate-de-saida",
@@ -15371,7 +15603,8 @@
       "WILCOM INTERNATIONAL. Embroidery Stitch Locking & Trimming Principles. Sydney, 2021.",
       "EMBROIDERY TRADE ASSOCIATION. Standard Specifications for Commercial Embroidery Durability & Knotting. Dallas, 2019."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-050-alavanca-do-calcador",
@@ -15431,7 +15664,8 @@
       "JANOME. Memory Craft Embroidery Machine Presser Foot Dynamics & Safety Sensors. Tokyo, 2023.",
       "ARTRELADOS. A Importância da Alavanca do Calcador na Tensão Correta do Bordado. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-051-alinhave-no-bastidor-costura-basting",
@@ -15491,7 +15725,8 @@
       "BERNINA. In-the-Hoop Basting and Hooping Techniques for Delicate Fabrics. Steckborn, 2023.",
       "ARTRELADOS. O Poder do Alinhave no Bastidor: Como Bordar Toalhas e Veludos Sem Marcas de Aro. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-052-agulha-titanio-nitreto-de-titanio",
@@ -15552,7 +15787,8 @@
       "SCHMETZ. Gold Embroidery Needles with Titanium Coating: Friction and Wear Analysis. Alsdorf, 2023.",
       "ARTRELADOS. Guia das Agulhas de Titânio: Quando Vale a Pena Usar a Agulha Dourada no Bordado. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-053-agulha-antiaderente-anti-glue",
@@ -15614,7 +15850,8 @@
       "ORGAN NEEDLES. LP Needle Series (Anti-Glue & Synthetic Material Needles). Osaka, 2023.",
       "ARTRELADOS. O Fim da Quebra de Linha em Apliques: O Poder da Agulha Antiaderente. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-054-agulha-microtex-ponta-aguda",
@@ -15676,7 +15913,8 @@
       "ORGAN NEEDLES. SPI Slim Sharp Point Needles for Microfiber and Fine Silk Fabrics. Osaka, 2023.",
       "ARTRELADOS. O Segredo das Letras Minúsculas: Como Usar a Agulha Microtex no Bordado. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-055-agulha-de-ilhos-furadora-borer",
@@ -15737,7 +15975,8 @@
       "BERNINA. CutWork & Broderie Anglaise Eyelet Embroidery Manual. Steckborn, 2023.",
       "ARTRELADOS. A Arte do Richelieu Computadorizado: Como Usar a Agulha Furadora Borer. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-056-aro-do-bastidor-anel-interno-e-externo",
@@ -15799,7 +16038,8 @@
       "JANOME. Hoop Ring Engineering and Fabric Clamping Pressure Standards. Tokyo, 2023.",
       "ARTRELADOS. O Ponto Perfeito Começa no Bastidor: Como Ajustar os Aros Sem Marcar o Tecido. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-057-armazenamento-de-fios-e-cones",
@@ -15861,7 +16101,8 @@
       "GUNOLD. Technical Guide on Thread Preservation and Tensile Strength Maintenance. Kenzingen, 2023.",
       "ARTRELADOS. Por Que Minha Linha Está Quebrando? Como Cuidar e Guardar Seus Cones Corretamente. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-058-atalho-de-teclado-no-software",
@@ -15923,7 +16164,8 @@
       "BROTHER. PE-Design Software User Reference: Tools and Shortcut Keys. Nagoya, 2023.",
       "ARTRELADOS. Multiplique Sua Velocidade: Os Melhores Atalhos para Criar Matrizes de Bordado. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-059-amaciamento-de-bordado-no-avesso-protetor",
@@ -15985,7 +16227,8 @@
       "MADEIRA. Comfort Wear / Stick-Protect: Heat-Sealed Backing for Sensitive Skin. Freiburg, 2023.",
       "ARTRELADOS. O Segredo do Avesso Perfeito para Roupas de Bebê: Guia do Protetor Toque de Pluma. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-060-aplicacao-com-corte-a-laser",
@@ -16047,7 +16290,8 @@
       "TAJIMA. Laser Cutting & Engraving Integration with Industrial Embroidery Equipment. Nagoya, 2023.",
       "ARTRELADOS. A Revolução do Corte a Laser no Bordado: Do Pequeno Ateliê à Grande Indústria. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-061-ajuste-de-salto-e-velocidade-maxima",
@@ -16109,7 +16353,8 @@
       "BROTHER. Embroidery Machine Speed Regulation and Jump Stitch Deceleration Guide. Nagoya, 2023.",
       "ARTRELADOS. O Segredo da Velocidade Certa: Como Regular os Saltos da Máquina Para Não Quebrar Agulhas. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "A"
   },
   {
     "id": "a-062-agulha-lanca-asa-wing-needle",
@@ -16173,7 +16418,8 @@
       "SCHMETZ. Specialty Needles Technical Bulletin: Wing Needles & Hemstitching. Aachen, 2022.",
       "MADEIRA. Openwork and Heirloom Embroidery with Wing Needles. Freiburg, 2021."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-08-22",
+    "letter": "A"
   },
   {
     "id": "a-063-agulha-titanio-pd-titanium-needle",
@@ -16235,7 +16481,8 @@
       "GROZ-BECKERT. GEBEDUR Titanium Nitride Coated Needles Technical Sheet. Albstadt, 2022.",
       "ORGAN NEEDLES. PD (Perfect Durability) Titanium Embroidery Needles Manual. Tokyo, 2021."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-08-22",
+    "letter": "A"
   },
   {
     "id": "a-064-alongamento-de-ponto-stitch-elongation",
@@ -16298,7 +16545,8 @@
       "WILCOM INTERNATIONAL. Stitch Length, Elongation and Density Control Reference. Sydney, 2022.",
       "DEVERSON, B. Creative Machine Stitch Tuning and Elongation Mastery. London, 2021."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-08-22",
+    "letter": "A"
   },
   {
     "id": "a-065-auto-spaced-satin-espacamento-automatico",
@@ -16361,7 +16609,8 @@
       "WILCOM. Satin Stitch Geometric Auto-Spacing & Short Stitches Reference Manual. Sydney, 2022.",
       "TAJIMA DG/ML BY PULSE. Advanced Column Cornering and Curve Management. Dallas, 2021."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-08-22",
+    "letter": "A"
   },
   {
     "id": "a-066-alavanca-do-calcador-presser-foot-lifter",
@@ -16424,7 +16673,8 @@
       "BROTHER. Operation Manual: Presser Foot Lifter & Tension Release Mechanism. Nagoya, 2022.",
       "JANOME. Machine Mechanics: Presser Foot Height and Safety Switch Guide. Tokyo, 2021."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-08-22",
+    "letter": "A"
   },
   {
     "id": "a-067-alinhavo-de-fixacao",
@@ -16490,7 +16740,8 @@
       "KEMP, Amanda. Machine Embroidery: The Basting Stitch Masterclass. London: Textile Press, 2021.",
       "BROTHER INTERNATIONAL. Embroidery Framing and Basting Techniques Guide. Nagoya, 2023."
     ],
-    "updatedAt": "2026-08-23"
+    "updatedAt": "2026-08-23",
+    "letter": "A"
   },
   {
     "id": "a-068-abrasao-de-linha",
@@ -16555,7 +16806,8 @@
       "COATS INDUSTRIAL. Thread Friction and Needle Heat in High-Speed Embroidery. London: Coats Technical Services, 2020.",
       "MADEIRA THREADS. Embroidery Thread Performance & Needle Compatibility Guide. Freiburg, 2022."
     ],
-    "updatedAt": "2026-08-23"
+    "updatedAt": "2026-08-23",
+    "letter": "A"
   },
   {
     "id": "a-069-agulha-titanio",
@@ -16619,7 +16871,8 @@
       "SCHMETZ. Titanium Nitride (TiN) Needles: Industrial & Household Technical Report. Alsdorf, 2021.",
       "ORGAN NEEDLE CO. PD/TN Needles Technical Specifications for Embroidery. Tokyo, 2022."
     ],
-    "updatedAt": "2026-08-23"
+    "updatedAt": "2026-08-23",
+    "letter": "A"
   },
   {
     "id": "a-070-amortecedor-de-linha",
@@ -16684,7 +16937,8 @@
       "TAJIMA TECHNICAL SERVICE. Embroidery Machine Mechanics: Tension Base and Check Spring Adjustment. Nagoya, 2021.",
       "BARUDAN EMBROIDERY. Mechanical Maintenance Manual: Take-up and Spring Calibration. Tokyo, 2020."
     ],
-    "updatedAt": "2026-08-23"
+    "updatedAt": "2026-08-23",
+    "letter": "A"
   },
   {
     "id": "a-071-assentamento-de-ponto",
@@ -16749,7 +17003,8 @@
       "WILCOM INTERNATIONAL. Embroidery Digitizing Guide: Underlay Foundations and Fabric Mechanics. Sydney, 2022.",
       "DEVEREUX, Keith. The Science of Stitch Structure: Underlays and Density Control. Nottingham, 2021."
     ],
-    "updatedAt": "2026-08-23"
+    "updatedAt": "2026-08-23",
+    "letter": "A"
   },
   {
     "id": "a-072-ajuste-de-altura-do-calcador-tecidos-espessos",
@@ -16816,7 +17071,8 @@
       "BROTHER. Embroidery Machine Operation & Presser Foot Height Calibration Manual. Nagoya, 2023.",
       "TAJIMA. High-Thickness Fabric & 3D Foam Hopping Foot Adjustment Guide. Nagoya, 2022."
     ],
-    "updatedAt": "2026-08-24"
+    "updatedAt": "2026-08-24",
+    "letter": "A"
   },
   {
     "id": "a-073-arranjo-circular-e-espelhamento-radial",
@@ -16882,7 +17138,8 @@
       "WILCOM. EmbroideryStudio: Radial & Mirror Symmetry Design Guide. Sydney, 2023.",
       "HATCH EMBROIDERY. Creating Mandalas & Circular Layouts User Manual. Sydney, 2022."
     ],
-    "updatedAt": "2026-08-24"
+    "updatedAt": "2026-08-24",
+    "letter": "A"
   },
   {
     "id": "a-074-abastecimento-automatico-de-bobina-enchedor",
@@ -16949,7 +17206,8 @@
       "JANOME. Memory Craft Bobbin Winding and Thread Tension Guide. Tokyo, 2022.",
       "BROTHER. Embroidery Machine Operation Manual: Independent Bobbin Winding. Nagoya, 2021."
     ],
-    "updatedAt": "2026-08-24"
+    "updatedAt": "2026-08-24",
+    "letter": "A"
   },
   {
     "id": "a-075-angulo-de-chanfro-da-agulha",
@@ -17019,7 +17277,8 @@
       "SCHMETZ NEEDLES. Technical Guide: Scarf Geometry & Loop Formation. Herzogenrath, 2021.",
       "ARTRELADOS. Guia de Anatomia e Mecânica de Agulhas para Bordado. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "A"
   },
   {
     "id": "a-076-arame-guia-fio-de-espiral-dupla",
@@ -20402,7 +20661,8 @@
       "TAJIMA EMBROIDERY SYSTEMS. Framing and Hooping Standards Manual. Nagoya, 2021.",
       "ARTRELADOS. Manual de Bastidoramento e Estabilização Perfeita. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-002-bastidor-magnetico",
@@ -20483,7 +20743,8 @@
       "MIGHTY HOOP SYSTEMS. Magnetic Hooping Guidelines for Commercial Embroidery. USA, 2022.",
       "ARTRELADOS. Guia de Produtividade e Inovações em Bastidores. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-003-bastidor-de-bone",
@@ -20570,7 +20831,8 @@
       "BARUDAN CO. Cap Frame Operation and Digitizing Manual. Ichinomiya, 2021.",
       "ARTRELADOS. Guia de Bordados e Digitalização para Bonés e Superfícies Curvas. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-004-bastidoramento",
@@ -20652,7 +20914,8 @@
       "MADEIRA GARN. Framing and Hooping Best Practices for Quality Embroidery. Freiburg, 2021.",
       "ARTRELADOS. Manual Prático de Bastidoramento e Padronização de Ateliê. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-005-bobina",
@@ -20735,7 +20998,8 @@
       "GUNOLD GMBH. Bobbin Thread & Tension Optimization Guide. Stockstadt, 2021.",
       "ARTRELADOS. Guia de Mecânica Básica e Calibração de Tensão para Bordadeiras. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-006-bobbin",
@@ -20814,7 +21078,8 @@
       "BROTHER EMBROIDERY SYSTEMS. Error Code and Diagnostics Technical Manual. Nagoya, 2022.",
       "ARTRELADOS. Dicionário de Termos Internacionais do Bordado Computadorizado. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-007-bobbin-case",
@@ -20899,7 +21164,8 @@
       "TOWA INDUSTRIAL CO. Operation and Calibration Manual for Bobbin Tension Gauges. Tokyo, 2020.",
       "ARTRELADOS. Manual de Manutenção Preventiva e Tensão de Bobina. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-008-backing",
@@ -20983,7 +21249,8 @@
       "HOLLIS, Deborah. The Complete Guide to Stabilizers & Backings for Machine Embroidery. New York, 2021.",
       "ARTRELADOS. Guia Definitivo de Entretelas, Backings e Toppings. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-009-bordado-eletronico",
@@ -21064,7 +21331,8 @@
       "WILCOM INTERNATIONAL. Principles of Machine Embroidery Digitizing. Sydney, 2021.",
       "ARTRELADOS. Fundamentos do Bordado Eletrônico Contemporâneo. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-010-bordado-livre",
@@ -21146,7 +21414,8 @@
       "GIBSON-ROBERTS, Priscilla. The Art of Freeform Hand Embroidery. London, 2020.",
       "ARTRELADOS. Do Manual ao Eletrônico: Conexões da Arte Têxtil. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-011-bordado-industrial",
@@ -21227,7 +21496,8 @@
       "TAJIMA INDUSTRIES. Multi-Head Automatic Embroidery Machine Technical Manual. Nagoya, 2022.",
       "ARTRELADOS. Gestão e Produtividade na Produção de Bordados Industriais. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-012-bordado-personalizado",
@@ -21309,7 +21579,8 @@
       "SINGER EMBROIDERY. Monograms, Lettering & Personalization Techniques. New York, 2021.",
       "ARTRELADOS. Guia de Atendimento e Vendas para Ateliês de Bordado Personalizado. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-013-bordado-em-alta-densidade",
@@ -21390,7 +21661,8 @@
       "EMBROIDERY DIGITIZING GUILD. Stitch Density and Fabric Displacement Physics. Chicago, 2022.",
       "ARTRELADOS. Controle de Densidade e Estrutura de Pontos no Bordado Moderno. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-014-base-de-pontos-underlay",
@@ -21472,7 +21744,8 @@
       "WILCOM INTERNATIONAL. Underlays and Stitch Anchoring Engineering. Sydney, 2021.",
       "ARTRELADOS. Manual de Estruturação de Subpontos e Bases para Matrizes. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-015-barra-de-agulha",
@@ -21554,7 +21827,8 @@
       "BARUDAN CO. Embroidery Head Mechanics and Needle Bar Timing Manual. Ichinomiya, 2022.",
       "ARTRELADOS. Guia Prático de Manutenção Preventiva e Mecânica para Bordadeiras. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-016-bloqueio-de-matriz",
@@ -21636,7 +21910,8 @@
       "EMBROIDERY SOFTWARE ASSOCIATION. Digital File Standards and Intellectual Property in Embroidery. Boston, 2021.",
       "ARTRELADOS. Gestão de Arquivos, Formatos e Direitos Autorais em Bordado. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-017-brilho-da-linha",
@@ -21719,7 +21994,8 @@
       "MADEIRA THREADS. Optical Properties of Trilobal Polyester and Rayon Filaments. Freiburg, 2022.",
       "ARTRELADOS. Guia Definitivo de Fios, Linhas e Combinações Cromáticas. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-018-bobina-pre-enrolada",
@@ -21800,7 +22076,8 @@
       "FIL-TEC EMBROIDERY THREADS. Pre-Wound Bobbin Technology & Tension Dynamics. Maryland, 2021.",
       "ARTRELADOS. Guia de Otimização e Produtividade com Bobinas Industriais. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-019-bobbin-thread",
@@ -21881,7 +22158,8 @@
       "AMERICAN & EFIRD (A&E). Technical Bulletin: Bobbin Threads and Tension Balance. Mount Holly, 2021.",
       "ARTRELADOS. Calibração de Tensão e Cuidados com a Linha de Bobina. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-020-bordado-em-camadas",
@@ -21963,7 +22241,8 @@
       "WILCOM INTERNATIONAL. Layering, Color Blending and Overlap Management. Sydney, 2022.",
       "ARTRELADOS. Técnicas Avançadas de Camadas e Sombreamento no Bordado Computadorizado. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-021-bordado-em-3d-puff",
@@ -22046,7 +22325,8 @@
       "NEW ERA CAP COMPANY. 3D Puff Embroidery Engineering and Stitch Densities. Buffalo, 2021.",
       "ARTRELADOS. Segredos do Bordado 3D em Bonés e Peças Estruturadas. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-022-bordado-applique",
@@ -22130,7 +22410,8 @@
       "AMERICAN SEWING GUILD. Machine Embroidery Appliqué Fundamentals & Stabilizer Guide. Chicago, 2021.",
       "ARTRELADOS. A Arte do Appliqué Perfeito em Enxovais Infantis. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-023-bordado-continuo",
@@ -22212,7 +22493,8 @@
       "HUSQVARNA VIKING. Endless Embroidery Techniques & Hoop Alignment Manual. Huskvarna, 2021.",
       "ARTRELADOS. Segredos do Bordado Contínuo e Barrados Perfeitos. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-024-bastidor-virtual",
@@ -22293,7 +22575,8 @@
       "EMBIRD EMBROIDERY SOFTWARE. Workspace Configuration and Hoop Templates Guide. Bratislava, 2021.",
       "ARTRELADOS. Configuração de Softwares e Gestão de Áreas de Bordado. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-025-bordado-de-preenchimento-fill-stitch",
@@ -22375,7 +22658,8 @@
       "TAJIMA EMBROIDERY SYSTEMS. Fill Stitch Algorithms and Tatami Pattern Engineering. Nagoya, 2021.",
       "ARTRELADOS. Fundamentos e Técnicas de Ponto de Preenchimento Tatami. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-026-bordado-decorativo",
@@ -22456,7 +22740,8 @@
       "NEEDLEWORK GUILD OF AMERICA. Decorative Embroidery Stitches and Artistry Guide. Philadelphia, 2021.",
       "ARTRELADOS. A Arte do Bordado Decorativo e Enxoval de Alto Padrão. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-027-bordado-digitalizado",
@@ -22537,7 +22822,8 @@
       "WILCOM INTERNATIONAL. The Professional Digitizing Handbook: From Vector Art to Machine Stitches. Sydney, 2021.",
       "ARTRELADOS. Guia Prático de Digitalização e Estrutura de Matrizes. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-028-bordado-industrial-em-larga-escala",
@@ -22619,7 +22905,8 @@
       "TAJIMA INDUSTRIAL SEWING & EMBROIDERY. Multi-Head Productivity Systems & Lean Manufacturing Manual. Nagoya, 2022.",
       "ARTRELADOS. Gestão Produtiva e Escala no Mercado de Bordados. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-029-bordado-livre-artesanal",
@@ -22702,7 +22989,8 @@
       "ROYAL SCHOOL OF NEEDLEWORK. The RSN Book of Embroidery: A Comprehensive Guide to Hand Embroidery. London, 2021.",
       "ARTRELADOS. Inspirações do Bordado Livre para a Digitalização Contemporânea. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-030-bordado-monocromatico",
@@ -22783,7 +23071,8 @@
       "FASHION INSTITUTE OF TECHNOLOGY. Monochromatic Textures in Haute Couture Embroidery. New York, 2020.",
       "ARTRELADOS. A Arte dos Monogramas e Bordados Monocromáticos de Luxo. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-031-bordado-multicolorido",
@@ -22864,7 +23153,8 @@
       "EMBROIDERY TRADE ASSOCIATION. Managing Multi-Color Production Runs and Color Sorting. Dallas, 2021.",
       "ARTRELADOS. Otimização de Cores e Produtividade no Bordado Computadorizado. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-032-bordado-personalizado-em-atelie",
@@ -22946,7 +23236,8 @@
       "EMBROIDERY BUSINESS ASSOCIATION. Boutique Studio Management and Bespoke Embroidery Services. London, 2022.",
       "ARTRELADOS. Gestão e Encantamento de Clientes no Ateliê de Bordado. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-033-bordado-com-aplicacao-de-tecidos",
@@ -23028,7 +23319,8 @@
       "AMERICAN QUILTER'S SOCIETY. Machine Appliqué Masterclass: Techniques, Stabilizers and Finishes. Paducah, 2021.",
       "ARTRELADOS. Guia Completo de Apliques e Texturas no Bordado Computadorizado. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-034-bordado-com-linha-metalica",
@@ -23111,7 +23403,8 @@
       "MADEIRA THREADS. Metallic Embroidery Threads Technical Applications Guide. Freiburg, 2022.",
       "ARTRELADOS. Segredos e Ajustes para Bordar com Linhas Metálicas sem Quebras. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-035-bordado-estrutural-em-camadas",
@@ -23192,7 +23485,8 @@
       "WILCOM INTERNATIONAL. Layering and Underlay Engineering for Difficult Substrates. Sydney, 2022.",
       "ARTRELADOS. Estruturação Avançada de Matrizes para Tecidos Desafiadores. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-036-bordado-em-relevo-termico",
@@ -23274,7 +23568,8 @@
       "HEADWEAR DIGITIZING INSTITUTE. 3D Puff Foam Embroidery & Thermal Finishing Techniques. Los Angeles, 2021.",
       "ARTRELADOS. Guia de Bordados Tridimensionais e Relevos em E.V.A. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-037-bordado-em-bastidor-expandido",
@@ -23356,7 +23651,8 @@
       "BROTHER EMBROIDERY SYSTEMS. Large Field Hooping Guide and Stabilization Dynamics. Tokyo, 2022.",
       "ARTRELADOS. Técnicas de Estabilização e Bastidores de Grande Formato. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-038-base-de-ponto-tatami",
@@ -23442,7 +23738,8 @@
       "WILCOM INTERNATIONAL. EmbroideryStudio Technical Guide: Foundations and Underlays. Sydney, 2021.",
       "ARTRELADOS. Manual de Digitalização e Estrutura de Subpontos. Curitiba, 2023."
     ],
-    "updatedAt": "2026-08-18"
+    "updatedAt": "2026-08-18",
+    "letter": "B"
   },
   {
     "id": "b-039-braco-livre-da-maquina-de-bordar",
@@ -23529,7 +23826,8 @@
       "BROTHER INDUSTRIES. Operation and Maintenance Manual: Tubular Free Arm Embroidery Systems. Nagoya, 2022.",
       "ARTRELADOS. Guia de Equipamentos e Ergonomia no Ateliê de Bordado. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-18"
+    "updatedAt": "2026-08-18",
+    "letter": "B"
   },
   {
     "id": "b-040-bainha-aberta-eletronica",
@@ -23619,7 +23917,8 @@
       "SCHMETZ NEEDLES. Specialty Needles for Machine Embroidery: The Wing Needle Guide. Herzogenrath, 2021.",
       "ARTRELADOS. Guia de Bordados Nobres e Enxoval Clássico. Brasil, 2023."
     ],
-    "updatedAt": "2026-08-18"
+    "updatedAt": "2026-08-18",
+    "letter": "B"
   },
   {
     "id": "b-041-bordado-cutwork",
@@ -23711,7 +24010,8 @@
       "BERNINA INTERNATIONAL. Creative Cutwork & Richelieu Techniques Guide. Steckborn, 2020.",
       "ARTRELADOS. A Arte do Bordado Richelieu Eletrônico. Brasil, 2023."
     ],
-    "updatedAt": "2026-08-18"
+    "updatedAt": "2026-08-18",
+    "letter": "B"
   },
   {
     "id": "b-042-bordado-fringe-ponto-franja",
@@ -23802,7 +24102,8 @@
       "HATCH EMBROIDERY. Mastering 3D Fringe Stitching & Dimensional Effects. Sydney, 2021.",
       "ARTRELADOS. Guia de Efeitos Tridimensionais e Texturas Criativas no Bordado. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-18"
+    "updatedAt": "2026-08-18",
+    "letter": "B"
   },
   {
     "id": "b-043-bitola-e-titulagem-de-linha",
@@ -23894,7 +24195,8 @@
       "COATS INDUSTRIAL. Thread Sizing Systems: Tex, Ticket, and Denier in Modern Embroidery. London, 2020.",
       "ARTRELADOS. Guia de Insumos, Fios e Agulhas para o Ateliê Profissional. Brasil, 2024."
     ],
-    "updatedAt": "2026-08-18"
+    "updatedAt": "2026-08-18",
+    "letter": "B"
   },
   {
     "id": "b-044-bastidor-meia-tubular",
@@ -23953,7 +24255,8 @@
       "HOOPMASTER. Tubular Framing System & Sleeve Embroidery Techniques. Ohio, 2023.",
       "ARTRELADOS. Manual Prático de Bordados em Peças Prontas e Fechadas. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-045-borda-acabamento-satin",
@@ -24012,7 +24315,8 @@
       "MERROW. Principles of Emblem Bordering and Edge Encapsulation. Massachusetts, 2021.",
       "ARTRELADOS. Segredos do Patch Perfeito: Bordas, Cortes e Selagem. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-046-borda-cordone",
@@ -24071,7 +24375,8 @@
       "KRAUSZ, P. Specialty Techniques in Machine Embroidery: Cording, Sequin & Chenille. New York, 2021.",
       "ARTRELADOS. Alta-Costura no Bordado Computadorizado: Cordonê e Rendas. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-047-bordado-richelieu-eletronico",
@@ -24130,7 +24435,8 @@
       "COATS INDUSTRIAL. Machine Lace, Eyelet & Richelieu Thread Mechanics. London, 2021.",
       "ARTRELADOS. A Arte do Richelieu no Bordado Eletrônico: Passo a Passo Completo. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-048-bloqueio-bastidor-mecanico",
@@ -24189,7 +24495,8 @@
       "HOOPMASTER. Physics of Fabric Clamping and Hoop Tension Dynamics. Ohio, 2023.",
       "ARTRELADOS. O Ponto Exato do Bastidor: Nem Frouxo, Nem Esgarçado. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-049-bobinadeira-externa",
@@ -24248,7 +24555,8 @@
       "MADEIRA. Bobbin Winding Density & Tension Guidelines. Freiburg, 2022.",
       "ARTRELADOS. Organização e Produtividade: Como Encher Bobinas em Série no Ateliê. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-050-bordado-couro-sinteticos",
@@ -24308,7 +24616,8 @@
       "MADEIRA. Embroidery on Leather, Suede and Vinyl Guidelines. Freiburg, 2023.",
       "ARTRELADOS. Guia Definitivo do Bordado em Couro e Sintéticos: Sem Furos e Sem Marcas. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-051-barra-tensao-fios",
@@ -24367,7 +24676,8 @@
       "BARUDAN. Upper Thread Path Dynamics and Pre-Tension Tuning. Tokyo, 2023.",
       "ARTRELADOS. Passagem de Linha Perfeita: O Caminho do Cone até a Agulha. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-052-basting-box-caixa-de-alinhavo",
@@ -24431,7 +24741,8 @@
       "JANOME. Memory Craft Embroidery Machine User Guide: Basting Frame Setup. Tokyo, 2023.",
       "ARTRELADOS. O Poder do Basting Box: Como Bordar Toalhas e Roupas Sem Marcar o Bastidor. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-053-barra-de-pressao-e-regulador-do-calcador",
@@ -24494,7 +24805,8 @@
       "BROTHER. Innov-is & BP Series Embroidery Machine Settings Guide. Nagoya, 2023.",
       "ARTRELADOS. O Segredo do Calcador Leve: Como Regular a Pressão Para Bordar Mantas e Sintéticos. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-054-base-de-cones-e-porta-carretel-vertical",
@@ -24556,7 +24868,8 @@
       "BROTHER. Multi-Spool Thread Stand Accessory Manual. Nagoya: Brother Industries, 2023.",
       "ARTRELADOS. O Guia dos Cones Grandes na Máquina Doméstica: Como Usar Torre de Linha Sem Trancos. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-055-bobina-com-nucleo-magnetico-magna-glide",
@@ -24619,7 +24932,8 @@
       "SUPERIOR THREADS. Pre-wound Bobbins vs Self-Wound Bobbins: Tension Analysis. St. George, 2023.",
       "ARTRELADOS. O Segredo do Avesso de Cinema: Por Que as Bobinas Magnéticas Revolucionam o Ateliê. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-056-branching-ramificacao-automatica-no-software",
@@ -24682,7 +24996,8 @@
       "BROTHER. PE-Design 11 Reference Manual: Stitch Flow & Branching Optimization. Nagoya, 2023.",
       "ARTRELADOS. O Segredo do Bordado Sem Cortes: Como Usar o Branching Para Multiplicar Sua Produção. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-057-bloco-tensor-e-discos-de-tensao-superiores",
@@ -24745,7 +25060,8 @@
       "JANOME. Upper Tension Unit Calibration and Cleaning Standards. Tokyo, 2023.",
       "ARTRELADOS. O Segredo dos Pratinhos de Tensão: Por Que a Passagem de Linha Muda Tudo no Bordado. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-058-bastidor-de-bolso-e-grampos-de-fixacao-rapida",
@@ -24809,7 +25125,8 @@
       "BROTHER. Specialty Hoops & Finished Garment Clamping Manual. Nagoya, 2023.",
       "ARTRELADOS. Bordando Bolsos e Peças Prontas: O Guia dos Bastidores de Grampo Rápido. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-059-bordado-em-alto-relevo-3d-puff-eva",
@@ -24872,7 +25189,8 @@
       "MADEIRA THREADS. 3D Puff Embroidery on Caps and Heavy Apparel. Freiburg, 2023.",
       "ARTRELADOS. O Guia Supremo do Bordado 3D com EVA: Como Fazer Relevos Profissionais na Sua Máquina. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-060-blower-soprador-termico-de-acabamento",
@@ -24934,7 +25252,8 @@
       "MADEIRA. Embroidery Finishing, Thread Trimming and Thermal Cleanup Guide. Freiburg, 2023.",
       "ARTRELADOS. O Toque Final do Ateliê: Como Usar o Soprador Térmico Para Acabamentos Impecáveis. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-061-botao-start-stop-e-controle-de-pedal",
@@ -24999,7 +25318,8 @@
       "JANOME. Memory Craft Operation Guide: Electronic Start/Stop Button Functions. Tokyo, 2023.",
       "ARTRELADOS. Operação Prática no Ateliê: Tudo Sobre o Painel e o Botão Start/Stop da Sua Máquina. São Paulo: Artrelados, 2024."
     ],
-    "updatedAt": "2026-08-19"
+    "updatedAt": "2026-08-19",
+    "letter": "B"
   },
   {
     "id": "b-062-bastidor-de-bone-cap-frame-270",
@@ -25063,7 +25383,8 @@
       "TAJIMA. Cap Frame System & Wide Driver 270 Operational Standards. Nagoya, 2022.",
       "BARUDAN. Cap Embroidery Digitizing & Framing Technical Handbook. Tokyo, 2021."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-08-22",
+    "letter": "B"
   },
   {
     "id": "b-063-barra-de-agulha-needle-bar",
@@ -25127,7 +25448,8 @@
       "SCHMETZ. Needle Bar Height Calibration & Rotary Hook Timing Mechanics. Aachen, 2021.",
       "BROTHER. Technical Service Manual: Needle Bar Module Replacement & Alignment. Nagoya, 2022."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-08-22",
+    "letter": "B"
   },
   {
     "id": "b-064-bico-da-lancadeira-hook-point",
@@ -25191,7 +25513,8 @@
       "KOBAN HOOKS. Rotary Hook Timing & Point Maintenance Technical Manual. Osaka, 2021.",
       "TAJIMA. Rotary Hook Timing Synchronization & Scarf Clearance Standards. Nagoya, 2022."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-08-22",
+    "letter": "B"
   },
   {
     "id": "b-065-bainha-aberta-computadorizada-openwork",
@@ -25254,7 +25577,8 @@
       "DEVERSON, B. Heirloom Machine Embroidery & Openwork Techniques. London, 2021.",
       "MADEIRA. Openwork, Richelieu & Ajour Classics for Machine Embroidery. Freiburg, 2022."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-08-22",
+    "letter": "B"
   },
   {
     "id": "b-066-bandeja-de-desbobinamento-porta-cones-thread-stand",
@@ -25317,7 +25641,8 @@
       "SUPERIOR THREADS. Thread Delivery Systems: Horizontal vs Vertical Spool Stands. Utah, 2021.",
       "MADEIRA. Thread Stand Setup and Tension Optimization for King Spools. Freiburg, 2022."
     ],
-    "updatedAt": "2026-08-22"
+    "updatedAt": "2026-08-22",
+    "letter": "B"
   },
   {
     "id": "b-bainha-aberta-em-ponto-cheio",
@@ -26632,7 +26957,8 @@
       "GUNOLD GMBH. Puffy 3D Foam Technical Application Guide. Stockstadt, 2022.",
       "MADEIRA THREADS. 3D Embroidery Techniques and Digitizing Principles. Freiburg, 2023."
     ],
-    "updatedAt": "2026-08-23"
+    "updatedAt": "2026-08-23",
+    "letter": "B"
   },
   {
     "id": "b-068-bobina-de-bordado-linha-de-bobina",
@@ -26695,7 +27021,8 @@
       "COATS THREADS. Bobbin Thread Selection & Tension Calibration Manual. London, 2021.",
       "AMANN GROUP. Technical Guide for High-Speed Embroidery Bobbins. Bönnigheim, 2022."
     ],
-    "updatedAt": "2026-08-23"
+    "updatedAt": "2026-08-23",
+    "letter": "B"
   },
   {
     "id": "b-069-bico-de-pato-tesoura-pelicano-applique",
@@ -26756,7 +27083,8 @@
       "GINGHER CUTLERY. Specialty Scissors & Appliqué Shears Guide. Greensboro, 2021.",
       "ARTRELADOS. Guia de Ferramentas Essenciais do Ateliê de Bordado. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-23"
+    "updatedAt": "2026-08-23",
+    "letter": "B"
   },
   {
     "id": "b-070-borda-em-ponto-cheio-satin-border",
@@ -26818,7 +27146,8 @@
       "WILCOM INTERNATIONAL. Embroidery Digitizing Elements & Border Sealing Standards. Sydney, 2022.",
       "TAJIMA EMBROIDERY. Quality Control in Appliqué Satin Borders. Nagoya, 2021."
     ],
-    "updatedAt": "2026-08-23"
+    "updatedAt": "2026-08-23",
+    "letter": "B"
   },
   {
     "id": "b-071-backing-textil-entretela-estrutural",
@@ -26881,7 +27210,8 @@
       "PELLON CONSUMER PRODUCTS. Embroidery Stabilizers & Backing Selection Guide. New York, 2021.",
       "HOOPMASTER. Proper Backing Selection for Tubular Embroidery. Ohio, 2022."
     ],
-    "updatedAt": "2026-08-23"
+    "updatedAt": "2026-08-23",
+    "letter": "B"
   },
   {
     "id": "b-072-bridge-stitch-ponto-de-ponte-ligacao",
@@ -26942,7 +27272,8 @@
       "WILCOM INTERNATIONAL. Branching & Connector Stitch Optimization Manual. Sydney, 2022.",
       "TAJIMA. High-Speed Production Workflow: Reducing Trims and Cycle Time. Nagoya, 2021."
     ],
-    "updatedAt": "2026-08-23"
+    "updatedAt": "2026-08-23",
+    "letter": "B"
   },
   {
     "id": "b-073-barra-de-agulhas-multiplas-troca-de-cor",
@@ -27004,7 +27335,8 @@
       "BARUDAN EMBROIDERY MACHINERY. Multi-Needle Head Maintenance & Color Change Systems. Kyoto, 2021.",
       "BROTHER INTERNATIONAL. Multi-Needle Professional Series Service Manual. Nagoya, 2022."
     ],
-    "updatedAt": "2026-08-23"
+    "updatedAt": "2026-08-23",
+    "letter": "B"
   },
   {
     "id": "b-074-bastidor-tubular-pecas-cilindricas",
@@ -27066,7 +27398,8 @@
       "TAJIMA SEWING MACHINE CO. Tubular Framing & Garment Hooping Operations. Nagoya, 2021.",
       "MELCO EMBROIDERY SYSTEMS. Free-Arm Tubular Embroidery Best Practices. Denver, 2022."
     ],
-    "updatedAt": "2026-08-23"
+    "updatedAt": "2026-08-23",
+    "letter": "B"
   },
   {
     "id": "b-075-bastidor-de-bone-cap-frame-sistema-270",
@@ -27142,7 +27475,8 @@
       "BARUDAN EMBROIDERY CO. Cap Embroidery Setup and Digitizing Standards. Tóquio, 2022.",
       "ARTRELADOS. Guia Definitivo de Bordados em Bonés e Peças Curvas. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "letter": "B"
   },
   {
     "id": "b-076-bastidor-magnetico-de-neodimio",
@@ -27217,7 +27551,8 @@
       "HOOPMASTER. Mighty Hoop Operational Manual & Garment Holding Standards. Wisconsin, 2023.",
       "ARTRELADOS. Técnicas Avançadas de Bastidoramento e Eliminação de Hoop Burn. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "letter": "B"
   },
   {
     "id": "b-077-bordado-tubular-pecas-fechadas-e-tubulares",
@@ -27292,7 +27627,8 @@
       "MELCO EMBROIDERY SYSTEMS. Free-Arm Tubular Embroidery Best Practices. Denver, 2022.",
       "ARTRELADOS. Manual de Bordados em Peças Prontas, Mangas e Bolsos. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "letter": "B"
   },
   {
     "id": "b-078",
@@ -27362,7 +27698,8 @@
       "MADEIRA GARN. Professional Badge & Emblem Finishing Guide. Freiburg, 2022.",
       "ARTRELADOS. Manual Prático de Produção de Patches, Brasões e Emblemas. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-079",
@@ -27431,7 +27768,8 @@
       "EMBROIDERY TRADE ASSOCIATION. Standard Practice for Fabric Clamping and Framing. Dallas, 2021.",
       "ARTRELADOS. Guia Definitivo do Bastidoramento Perfeito no Bordado Computadorizado. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-080",
@@ -27500,7 +27838,8 @@
       "BERNINA INTERNATIONAL. Creative Machine Embroidery Techniques: Floating and Basting. Steckborn, 2023.",
       "ARTRELADOS. Guia de Fixação e Alinhavo de Segurança para Bordados Perfeitos. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-081",
@@ -27569,7 +27908,8 @@
       "SWF EMBROIDERY MACHINES. Free-Arm Mechanism and Tubular Frame Operations. Seul, 2022.",
       "ARTRELADOS. Anatomia e Operação de Máquinas de Bordar Computadorizadas. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-082",
@@ -27638,7 +27978,8 @@
       "MADEIRA THREADS. Technical Guide: Perfect Tension Ratio in High-Speed Embroidery. Freiburg, 2023.",
       "ARTRELADOS. O Método dos 3 Terços para Tensão Perfeita no Bordado Eletrônico. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-083-bastidor-de-meia-e-punho-mini-clamp",
@@ -27711,7 +28052,8 @@
       "HOOPMASTER / EMS. Clamp Systems for Tubular and Small Garment Embroidery. Dallas, 2021.",
       "ARTRELADOS. Guia de Bordados Especiais em Peças Pequenas, Meias e Alfaiataria. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-084-base-antiestatica-para-cones-de-linha",
@@ -27784,7 +28126,8 @@
       "GUNOLD GMBH. Thread Stand Accessories & Anti-Static Solutions for Modern Ateliers. Stockstadt, 2021.",
       "ARTRELADOS. Eletrostática, Tensão e Boas Práticas de Alimentação de Fios no Bordado. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-085-bloco-excentrico-do-estica-fio",
@@ -27856,7 +28199,8 @@
       "TAJIMA TECHNICAL BULLETIN. Timing and Adjustment of Thread Take-up Lever Cam Mechanism. Nagoya, 2022.",
       "ARTRELADOS. Engenharia Mecânica e Cinemática de Cabeçotes de Bordado Computadorizado. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-086-borda-em-ponto-pico-picot-stitching",
@@ -27930,7 +28274,8 @@
       "MADEIRA GARN. Classic Heirloom Techniques for Fine Table Linen and Babywear. Freiburg, 2023.",
       "ARTRELADOS. Guia de Rendas Computadorizadas, Festonês e Acabamentos Nobres. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-087-balanco-de-ponto-e-compensacao-de-inercia-do-pantografo",
@@ -28003,7 +28348,8 @@
       "BARUDAN CO. Precision Motion Control and Inertia Compensation in Multi-Head Machinery. Ichinomiya, 2021.",
       "ARTRELADOS. Física Mecânica, Inércia e Geometria Perfeita no Bordado Computadorizado. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-088-barramento-can-bus-em-maquinas-de-bordar",
@@ -28076,7 +28422,8 @@
       "TAJIMA EMBROIDERY MACHINERY. Electronic Architecture & High-Speed CAN Bus Diagnostics. Nagoya, 2022.",
       "ARTRELADOS. Engenharia Eletrônica, Barramentos Digitais e Redes em Máquinas de Bordar. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-089-bobinador-externo-de-carretilhas-bobbin-winder",
@@ -28149,7 +28496,8 @@
       "TAJIMA EMBROIDERY SYSTEMS. Auxiliary Equipment: Electric Bobbin Winders User Manual. Nagoya, 2022.",
       "ARTRELADOS. Guia de Gestão de Linhas, Bobinas e Produtividade em Ateliê. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-090-batimento-de-chapa-e-desvio-de-agulha",
@@ -28222,7 +28570,8 @@
       "GROZ-BECKERT. Sewing and Embroidery Machine Needles: Deflection and Clearance Analysis. Albstadt, 2021.",
       "ARTRELADOS. Manual de Diagnóstico de Falhas, Rebarbas e Ajustes Mecânicos. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-091-buffer-de-memoria-e-fila-de-pontos-da-cpu",
@@ -28296,7 +28645,8 @@
       "BARUDAN TECHNICAL PAPERS. Stitch Buffer Management and Memory Allocation. Ichinomiya, 2021.",
       "ARTRELADOS. Computação Embarcada, Memória e Processamento em Bordado Eletrônico. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-092-borda-ondulada-em-festone-frances",
@@ -28369,7 +28719,8 @@
       "MADEIRA GARN. French Heirloom Embroidery and Edge Finishing Masterclass. Freiburg, 2023.",
       "ARTRELADOS. Guia de Bordados Nobres para Cama, Mesa e Banho de Luxo. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-093-barra-estabilizadora-de-tensao-superior-pente-guia-fios",
@@ -28442,7 +28793,8 @@
       "TAJIMA EMBROIDERY SYSTEMS. Multi-Needle Thread Stand & Upper Tension Comb Specifications. Nagoya, 2022.",
       "ARTRELADOS. Guia de Passagem de Fio, Tensores e Alinhamento em Máquinas Industriais. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-094-braco-oscilador-do-corta-fio-inferior",
@@ -28515,7 +28867,8 @@
       "BARUDAN CO. Automatic Thread Trimmer (ATH) Service and Adjustment Manual. Ichinomiya, 2021.",
       "ARTRELADOS. Mecatrônica e Cinemática de Sistemas de Corte em Máquinas de Bordar. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-095-borda-selada-a-laser-corte-termico-de-emblemas",
@@ -28588,7 +28941,8 @@
       "TAJIMA EMBROIDERY SYSTEMS. TLMX Laser Embroidery System Operational Manual. Nagoya, 2021.",
       "ARTRELADOS. Guia de Patches, Emblemas e Corte a Laser no Bordado Moderno. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-096-base-flutuante-em-entretela-hidrossoluvel",
@@ -28661,7 +29015,8 @@
       "MADEIRA GARN. Stabilizer Solutions for Delicate and Pile Fabrics. Freiburg, 2023.",
       "ARTRELADOS. Guia Definitivo de Bastidoramento, Estabilizadores e Base Flutuante. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-097-barra-estabilizadora-de-agulhas-multiplas-e-guia-anti-deflexao",
@@ -28734,7 +29089,8 @@
       "BARUDAN CO. Precision Engineering and Needle Bar Guide Bushing Maintenance. Ichinomiya, 2021.",
       "ARTRELADOS. Engenharia e Cinemática de Precisão em Cabeçotes de Alta Rotação. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-098-borracha-termoplastica-para-apliques-tridimensionais-tpu-patch",
@@ -28807,7 +29163,8 @@
       "GUNOLD GMBH. Specialty 3D Materials and High-Tech Appliqué Techniques. Stockstadt, 2022.",
       "ARTRELADOS. Guia de Insumos Nobres, Relevo 3D e Apliques Modernos em Bordado. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-099-bracadeira-de-fixacao-rapida-para-tubulares-quick-sleeve-clamp",
@@ -28880,7 +29237,8 @@
       "TAJIMA SYSTEMS. Tubular Garment and Sleeve Clamping Solutions Manual. Nagoya, 2021.",
       "ARTRELADOS. Guia de Produtividade, Bastidores Especiais e Peças Tubulares. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-100-borda-de-seguranca-anti-vibracao-e-compensacao-dinamica-de-bordo",
@@ -28953,7 +29311,8 @@
       "BARUDAN CO. Pantograph Resonance Control and Frame Margin Optimization in Large-Field Embroidery. Ichinomiya, 2021.",
       "ARTRELADOS. Mecatrônica Avançada, Dinâmica Estrutural e Algoritmos de Precisão no DIBE. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-28"
+    "updatedAt": "2026-08-28",
+    "letter": "B"
   },
   {
     "id": "b-101-brother-maquinas-de-bordado-eletronico",
@@ -29053,7 +29412,8 @@
       "BROTHER INDUSTRIES LTD. PR-Series Multi-Needle Embroidery Operations and Timing Specifications. Nagoya, 2024.",
       "ARTRELADOS. Guia de Escolha e Calibração de Máquinas Brother para Ateliês. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-05"
+    "updatedAt": "2026-09-05",
+    "letter": "B"
   },
   {
     "id": "b-102-barudan-maquinas-de-bordado-eletronico",
@@ -30372,7 +30732,8 @@
       "AGB ATELIÊ & SUPORTES. Manual Operacional do Gabarito Adaptador de Bonés para Bastidores 13x18 Brother e Janome. São Paulo: AGB, 2023.",
       "ARTRELADOS. Bonés Perfeitos na Máquina Doméstica: O Guia Definitivo do Bastidor 13x18 com Presilha Borboleta. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "B"
   },
   {
     "id": "b-babador-e-prendedor-de-chupeta-acessorios-infantis",
@@ -38500,7 +38861,8 @@
       "WILCOM. Stitch Density and Spacing Reference Manual. Sydney: Wilcom International, 2022.",
       "DEVERSON, D. Complete Embroidery Digitizing Masterclass. London: Textile Press, 2020.",
       "ARTRELADOS. Guia de Densidade e Estruturação de Matrizes. São Paulo: Ateliê Artrelados, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-002-densidade-de-bordado",
@@ -38590,7 +38952,8 @@
       "TAJIMA. Industrial Embroidery Operation & Quality Guide. Nagoya: Tokai Industrial Sewing Machine Co., 2021.",
       "KRAUSZ, P. The Industrial Embroidery Handbook. New York: Textile Media, 2019.",
       "ARTRELADOS. Manual de Planejamento e Precificação no Bordado. São Paulo: Ateliê Artrelados, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-003-densidade-variavel",
@@ -38679,7 +39042,8 @@
       "HATCH BY WILCOM. Creating Realistic Textures with Variable Density. Sydney, 2023.",
       "NICOLAS, C. Art of Shading and Thread Blending in Machine Embroidery. Paris: Éditions Têxteis, 2021.",
       "ARTRELADOS. Técnicas de Degradê e Pintura com Agulha no Bordado Eletrônico. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-004-densidade-excessiva",
@@ -38751,7 +39115,8 @@
       "MADEIRA. Embroidery Troubleshooting & Needle Deflection Manual. Freiburg: Madeira Garnfabrik, 2022.",
       "SCHMETZ. Needle Heat, Friction and Excessive Penetration in Automatic Embroidery. Herzogenrath, 2021.",
       "ARTRELADOS. Prevenção de Falhas Mecânicas e Alívio de Matrizes. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-005-densidade-insuficiente",
@@ -38820,7 +39185,8 @@
       "COATS INDUSTRIAL. Machine Embroidery Coverage, Thread Count and Underlay Dynamics. London, 2021.",
       "EMBIRD. Underlay versus Density Balance in Modern Digitizing. Bratislava, 2023.",
       "ARTRELADOS. Segredos da Cobertura Perfeita sem Sobrecarga de Pontos. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-006-desenho-de-bordado",
@@ -38894,7 +39260,8 @@
       "PUNDOLE, F. Graphic Adaptation for Machine Embroidery Systems. Mumbai: Stitches Publishing, 2020.",
       "LEE, C. From Vector Artwork to Machine Embroidery. Seoul: Design & Threads, 2022.",
       "ARTRELADOS. Guia de Análise Visual e Viabilidade Técnica de Desenhos. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-007-desenho-digitalizado",
@@ -38968,7 +39335,8 @@
       "CORELDRAW. CorelDRAW for Embroidery Designers: Vector Preparation. Ottawa: Alludo, 2023.",
       "ADOBE. Vector Graphics for Textile Application. San Jose: Adobe Press, 2021.",
       "ARTRELADOS. Preparação de Imagens e Vetores para Digitalização Profissional. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-008-digitalizacao-de-bordado",
@@ -39042,7 +39410,8 @@
       "BLANCO, R. Manual de Ponchado y Digitalización Textil. Madri: Ediciones Técnicas, 2021.",
       "WILCOM. Digitizing Fundamentals & Object Properties. Sydney: Wilcom International, 2023.",
       "ARTRELADOS. Fundamentos da Digitalização Profissional de Matrizes. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-009-digitalizacao-manual",
@@ -39117,7 +39486,8 @@
       "GARCIA, E. Advanced Embroidery Digitizing and Node Editing. Barcelona: Marcombo, 2022.",
       "TAJIMA. DGML by Pulse: Advanced Manual Stitch Manipulation. Dallas: Pulse Microsystems, 2023.",
       "ARTRELADOS. Maestria em Digitalização Manual e Otimização de Percurso. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-010-digitalizacao-automatica",
@@ -39191,7 +39561,8 @@
       "BROTHER. PE-Design Auto-Digitizing Features and Limitations. Nagoya: Brother Industries, 2022.",
       "BERNINA. Embroidery Software 9 Designer Manual: Auto-Punch vs Manual. Steckborn, 2023.",
       "ARTRELADOS. Como Auditar e Corrigir Matrizes Automáticas. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-011-digitalizador-de-bordado",
@@ -39266,7 +39637,8 @@
       "NNEP. National Network of Embroidery Professionals Guidebook. Canton: NNEP, 2022.",
       "STITCHES MAGAZINE. The Professional Digitizer: Skills and Market Demands. Atlanta, 2021.",
       "ARTRELADOS. A Profissão de Digitalizador de Bordados no Brasil. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-012-direcao-do-ponto",
@@ -39343,7 +39715,8 @@
       "MADEIRA. Light Reflection and Thread Sheen in Rayon & Polyester. Freiburg, 2021.",
       "WILCOM. Stitch Angles and Multi-Angle Object Mastery. Sydney: Wilcom, 2023.",
       "ARTRELADOS. O Poder do Brilho e Direção dos Pontos na Composição Visual. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-013-direcao-de-costura",
@@ -39417,7 +39790,8 @@
       "BARUDAN. Pantograph Movement and Sewing Path Efficiency. Tokyo: Barudan Co., 2021.",
       "KRAUSZ, P. Digitizing Mechanics: Sewing Direction & Fabric Push. New York, 2020.",
       "ARTRELADOS. Rotas de Costura e Redução de Tempo de Máquina. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-014-direcao-do-bordado",
@@ -39491,7 +39865,8 @@
       "TAJIMA. Hooping Orientation and Garment Clamping Guide. Nagoya, 2022.",
       "BROTHER. Embroidery Orientation & Hoop Alignment Manual. Nagoya, 2023.",
       "ARTRELADOS. Posicionamento Estratégico de Peças no Bastidor. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-015-deslocamento-da-matriz",
@@ -39565,7 +39940,8 @@
       "JANOME. Machine Screen Coordinate System & Design Movement. Tokyo, 2022.",
       "SINGER. EM9305 Embroidery Centering and Positioning Manual. LaVergne, 2021.",
       "ARTRELADOS. Alinhamento a Laser e Centralização Perfeita de Bordados. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-016-deslocamento-de-bastidor",
@@ -39639,7 +40015,8 @@
       "BARUDAN. Servo Motors & Pantograph Motion Mechanics. Tokyo, 2022.",
       "HAPPY JAPAN. HCD2 Series Multi-Needle Mechanics Manual. Yamagata, 2023.",
       "ARTRELADOS. Manutenção e Cuidados com o Sistema de Pantógrafo. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-017-deslocamento-de-ponto",
@@ -39713,7 +40090,8 @@
       "KRAUSZ, P. Troubleshooting Stitch Registration & Fabric Shift. New York: Textile Press, 2021.",
       "MADEIRA. Embroidery Quality Audit: Overcoming Stitch Misalignment. Freiburg, 2023.",
       "ARTRELADOS. Como Eliminar Desalinhamento de Contornos no Bordado. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-018-deslocamento-de-linha",
@@ -39787,7 +40165,8 @@
       "COATS THREADS. Filament Thread Stability & Tension Control in Embroidery. London, 2022.",
       "GUNOLD. Thread Tension, Friction & Laying Precision Guide. Stockstadt, 2021.",
       "ARTRELADOS. Tensão e Fixação de Linhas para Alta Durabilidade. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-019-distancia-entre-pontos",
@@ -39860,7 +40239,8 @@
       "WILCOM. Stitch Length and Pitch Guidelines in Digitizing. Sydney: Wilcom, 2022.",
       "BERNINA. Stitch Length Fundamentals for Freehand and Automated Embroidery. Steckborn, 2021.",
       "ARTRELADOS. Calibração de Comprimento de Ponto para Cada Tipo de Tecido. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-020-distancia-de-seguranca",
@@ -39933,7 +40313,8 @@
       "BROTHER. Safety Clearances and Hoop Margin Operating Instructions. Nagoya, 2022.",
       "TAJIMA. Frame Collision Prevention & Border Clearance Manual. Nagoya, 2021.",
       "ARTRELADOS. Guia de Segurança e Proteção de Bastidores no Ateliê. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-021-densidade-de-pontos-avancada",
@@ -40006,7 +40387,8 @@
       "DEVERSON, D. Master Guide to Stitch Density Calibration. London: Textile Press, 2022.",
       "WILCOM. Fabric Assistant & Automatic Density Calibration Guide. Sydney, 2023.",
       "ARTRELADOS. Tabela Mestra de Calibração de Densidades por Tecido. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-022-densidade-variavel-efeitos",
@@ -40079,7 +40461,8 @@
       "NICOLAS, C. Machine Embroidery as Fine Art: Shading & Perspective. Paris, 2022.",
       "HATCH. Artistic Shading & Gradient Effects in Modern Embroidery. Sydney: Wilcom, 2023.",
       "ARTRELADOS. Efeitos Especiais e Pintura com Agulha no Bordado Computadorizado. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-023-distribuicao-de-pontos",
@@ -40152,7 +40535,8 @@
       "WILCOM. Stitch Distribution, Smart Corners & Density Balancing. Sydney: Wilcom, 2022.",
       "DEVERSON, D. Vector Topologies for Textile Embroidery. London: Textile Press, 2021.",
       "ARTRELADOS. Distribuição Harmônica de Pontos e Tratamento de Cantos Agudos. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-024-desenho-de-bordado-pratica",
@@ -40225,7 +40609,8 @@
       "LEE, C. Practical Artwork Adaptation for Machine Embroidery. Seoul, 2022.",
       "PUNDOLE, F. Graphic Principles for Embroidery Digitizers. Mumbai, 2021.",
       "ARTRELADOS. Metodologia Artrelados de Triagem e Adaptação de Desenhos. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-025-digitalizacao-automatica-regras",
@@ -40299,7 +40684,8 @@
       "BERNINA. Auto-Digitizing Best Practices & Quality Control. Steckborn, 2023.",
       "HATCH. When to Use Auto-Digitize and How to Fix It. Sydney: Wilcom, 2022.",
       "ARTRELADOS. Manual de Sobrevivência e Otimização para Matrizes Automáticas. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-026-digitalizacao-manual-tecnica",
@@ -40374,7 +40760,8 @@
       "GARCIA, E. Decision Making in Advanced Embroidery Digitizing. Barcelona, 2022.",
       "TAJIMA. Pulse DGML Advanced Master Series. Dallas: Pulse Microsystems, 2023.",
       "ARTRELADOS. A Arte da Decisão: Sequenciamento e Estruturação de Matrizes. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-027-digitalizacao-por-objetos",
@@ -40449,7 +40836,8 @@
       "WILCOM. Object-Based Embroidery Design Architecture. Sydney: Wilcom, 2022.",
       "EMBIRD. Working with Vector Objects and Properties in Digitizing. Bratislava, 2023.",
       "ARTRELADOS. O Poder dos Objetos Vetoriais na Criação e Redimensionamento. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-028-desenho-de-matriz",
@@ -40646,7 +41034,8 @@
       "NNEP. Commercial Logo Embroidery: Quality Standards & Lettering. Canton, 2022.",
       "BLANCO, R. Ponchado de Logotipos Corporativos y Marcas. Madri: Ediciones Técnicas, 2021.",
       "ARTRELADOS. Como Bordar Logotipos Perfeitos em Uniformes e Piquê. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-031-desenho-vetorial",
@@ -40720,7 +41109,8 @@
       "ADOBE. Illustrator Vector Graphics Reference Manual. San Jose: Adobe Press, 2022.",
       "CORELDRAW. Working with Bézier Curves & Vector Shapes. Ottawa: Alludo, 2023.",
       "ARTRELADOS. Guia de Vetores Essenciais para Bordadeiras e Programadores. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-032-definicao-de-sequencia",
@@ -40855,7 +41245,8 @@
       "NICOLAS, C. Micro-Detailing and High-Definition Machine Embroidery. Paris, 2022.",
       "MADEIRA. Specialty Threads (40wt vs 60wt) for Fine Lettering and Details. Freiburg, 2023.",
       "ARTRELADOS. Segredos do Detalhamento e Linhas Finas no Bordado Infantil. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-034-direcao-de-preenchimento",
@@ -40931,7 +41322,8 @@
       "WILCOM. Fill Stitch Directions and Fabric Stress Management. Sydney, 2022.",
       "KRAUSZ, P. Fill Stitch Engineering and Directional Aesthetics. New York, 2021.",
       "ARTRELADOS. Ângulos de Preenchimento: Equilíbrio Têxtil e Estética Visual. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-035-distancia-de-salto",
@@ -41006,7 +41398,8 @@
       "TAJIMA. Trimming Mechanisms and Jump Length Parameters. Nagoya, 2022.",
       "BROTHER. Jump Stitch Length and Automatic Thread Trimming. Nagoya, 2023.",
       "ARTRELADOS. Como Configurar Saltos e Eliminar Fiados de Linha na Produção. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-036-diagrama-de-pontos",
@@ -41080,7 +41473,8 @@
       "WILCOM. Stitch View, Needle Points and Sequence Inspection. Sydney, 2022.",
       "TAJIMA. DGML Stitch Editing and Sequence Diagram. Dallas: Pulse Microsystems, 2023.",
       "ARTRELADOS. Como Ler e Auditar o Diagrama de Pontos de uma Matriz. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-037-dimensao-da-matriz",
@@ -41153,7 +41547,8 @@
       "BROTHER. Embroidery Field Limits and Hoop Dimension Chart. Nagoya, 2022.",
       "JANOME. Hoop Sizing and Design Scaling Precautions. Tokyo, 2023.",
       "ARTRELADOS. Guia de Dimensões Padrão para Cada Tipo de Peça e Bastidor. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-038-densidade-de-linha",
@@ -41227,7 +41622,8 @@
       "MADEIRA. Thread Weights (40, 60, 75) and Corresponding Stitch Density. Freiburg, 2023.",
       "GUNOLD. Technical Guide to Specialty Threads & Density Setup. Stockstadt, 2022.",
       "ARTRELADOS. Escolha de Linhas Especiais e Calibração de Densidade. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-039-deteccao-de-cores",
@@ -41301,7 +41697,8 @@
       "WILCOM. Color Palette Reduction & Automatic Color Classification. Sydney, 2022.",
       "BERNINA. Managing Thread Charts and Automatic Color Separation. Steckborn, 2023.",
       "ARTRELADOS. Como Padronizar Paletas de Cores de Linhas Nacionais no Software. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-040-distorcao-do-bordado",
@@ -41374,7 +41771,8 @@
       "KRAUSZ, P. Push and Pull Dynamics in Machine Embroidery. New York: Textile Press, 2021.",
       "TAJIMA. Fabric Distortion Control and Mechanical Stability. Nagoya, 2022.",
       "ARTRELADOS. Guia Definitivo contra Deformações e Repuxo no Bordado. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-041-definicao-do-bordado",
@@ -41449,7 +41847,8 @@
       "SCHMETZ. Needle Sharpness and Edge Definition in Automated Stitching. Germany, 2022.",
       "MADEIRA. Achieving Crisp Lettering and High Definition in Embroidery. Freiburg, 2023.",
       "ARTRELADOS. Como Atingir Nitidez Máxima em Nomes e Detalhes Pequenos. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-042-deformacao-do-bordado",
@@ -41522,7 +41921,8 @@
       "COATS INDUSTRIAL. Puckering and Fabric Deformation: Root Causes & Solutions. London, 2022.",
       "GUNOLD. Hooping Techniques to Prevent Garment Distortion. Stockstadt, 2021.",
       "ARTRELADOS. O Bastidoramento Correto: Como Evitar Franzimentos em Malhas. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-043-defeito-de-bordado",
@@ -41599,7 +41999,8 @@
       "MADEIRA. Complete Embroidery Troubleshooting Guide: From Cause to Cure. Freiburg, 2023.",
       "BARUDAN. Technical Troubleshooting Manual for Commercial Embroidery. Tokyo, 2022.",
       "ARTRELADOS. Manual Mestre de Diagnóstico e Solução de Defeitos no Bordado. São Paulo, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-044-discos-de-tensao",
@@ -43671,7 +44072,8 @@
       "WILCOM INTERNATIONAL. Gradient Density & Accordion Stitching Techniques. Sydney, 2023.",
       "MADEIRA THREADS. Color Blending and Shading in Machine Embroidery. Freiburg, 2022.",
       "ARTRELADOS. Guia de Degradê e Sombreado Realista no Bordado Computadorizado. Curitiba, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-076",
@@ -43740,7 +44142,8 @@
       "SINGER SEWING COMPANY. Mechanics of Feed Dog Systems and Free-Motion Embroidery. Elizabeth, 2021.",
       "BROTHER INDUSTRIES. Service Manual: Feed Dog Mechanism & Embroidery Unit Interlocking. Nagoya, 2022.",
       "ARTRELADOS. Manual de Operação e Mecânica Básica para Bordadeiras. Curitiba, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-077",
@@ -43809,7 +44212,8 @@
       "KAHN, Max. Push and Pull Phenomena in Computerized Embroidery. Nova York, 2022.",
       "WILCOM EMBROIDERYSTUDIO. Digitizing for Fabric Types: Managing Push-Pull Forces. Sydney, 2023.",
       "ARTRELADOS. A Física do Bordado: Dominando o Efeito Push-Pull e Encaixes Perfeitos. Curitiba, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-078",
@@ -43879,7 +44283,8 @@
       "TAJIMA INDUSTRIES. Tajima DST File Specification & Protocol Standard. Nagoya, 2021.",
       "EMBROIDERY SOFTWARE ASSOCIATION. Universal Machine File Formats: The DST Standard. Atlanta, 2022.",
       "ARTRELADOS. Guia Definitivo de Formatos e Extensões de Arquivos de Bordado. Curitiba, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-079",
@@ -43949,7 +44354,8 @@
       "SUPERIOR THREADS. Thread Delivery Systems: Vertical Stands vs Horizontal Pins. Utah, 2022.",
       "MADEIRA GARN. Industrial Thread Feeding and Spool Stand Optimization. Freiburg, 2023.",
       "ARTRELADOS. Acessórios Essenciais e Estrutura de Ateliê de Bordados. Curitiba, 2024."
-    ]
+    ],
+    "letter": "D"
   },
   {
     "id": "d-080-digitalizacao-manual-nos-vetoriais-bezier",
@@ -45206,7 +45612,8 @@
       "AGB ATELIÊ & SUPORTES. Manual Operacional do Gabarito Adaptador de Bonés para Bastidores 13x18 Brother e Janome. São Paulo: AGB, 2023.",
       "ARTRELADOS. Bonés Perfeitos na Máquina Doméstica: O Guia Definitivo do Bastidor 13x18 com Presilha Borboleta. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "D"
   },
   {
     "id": "d-096-distorcao-em-malha-piquet-deformacao-estrutural-polo",
@@ -45288,7 +45695,8 @@
       "COATS INDUSTRIAL. Machine Embroidery on Honeycomb and Textured Knits. London: Coats, 2021.",
       "ARTRELADOS. O Fim da Camisa Polo Enrugada: Segredos de Estabilização e Compensação para Uniformes. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "D"
   },
   {
     "id": "d-097-defletor-de-linha-do-cabecote-separador-anti-enrosco",
@@ -45366,7 +45774,8 @@
       "BROTHER INDUSTRIES. Service Manual: Thread Take-Up & Guide Mechanisms. Nagoya: Brother, 2021.",
       "ARTRELADOS. Cabeçote Impecável: Manutenção dos Guias e Defletores de Linha para Zero Paradas. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "D"
   },
   {
     "id": "d-098-digitalizacao-de-fontes-pequenas-micro-letras",
@@ -45450,7 +45859,8 @@
       "EMBIRD SOFTWARE. Small Text and Monogramming Font Optimization. Košice: Balarad, 2021.",
       "ARTRELADOS. O Segredo das Micro-Letras: Nomes Nítidos e Legíveis em Jalecos e Uniformes. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "D"
   },
   {
     "id": "d-099-dupla-fita-adesiva-de-fixacao-textil",
@@ -45531,7 +45941,8 @@
       "SULKY OF AMERICA. Sticky Stabilizers and Tapes for In-the-Hoop Projects. Port Charlotte: Sulky, 2021.",
       "ARTRELADOS. O Poder da Fixação Flutuante: Como Bordar Bolsos, Golas e Peças Minúsculas sem Marcar. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "D"
   },
   {
     "id": "d-100-desgaste-de-bucha-do-eixo-principal-folga-mecanica",
@@ -45613,7 +46024,8 @@
       "BROTHER INDUSTRIES. Technical Service & Lubrication Specifications for Embroidery Heads. Nagoya: Brother, 2021.",
       "ARTRELADOS. O Coração da Máquina: Como Evitar Folgas de Bucha e Manter Seu Cabeçote Novo por Décadas. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "D"
   },
   {
     "id": "d-101-dobra-de-carneira-posicionamento-faixa-interna-bone",
@@ -45693,7 +46105,8 @@
       "TAJIMA EMBROIDERY SYSTEMS. Cap Driver Operation & Hooping Gauge Adjustments. Nagoya: Tajima, 2021.",
       "ARTRELADOS. O Segredo do Boné Impecável: Como Dobrar a Carneira e Alinhar a Copa sem Erros. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "D"
   },
   {
     "id": "d-102-divisao-automatica-elementos-grandes-quebra-bastidor",
@@ -45774,7 +46187,8 @@
       "BROTHER INDUSTRIES. Multi-Position Frame (130x300mm) Operation & Stitch Splitting Guide. Nagoya: Brother, 2021.",
       "ARTRELADOS. Bordados Gigantes em Bastidores Comuns: O Guia Definitivo da Matriz Dividida sem Emendas. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "D"
   },
   {
     "id": "d-103-dureza-shore-do-calcador-amortecimento-impacto",
@@ -45855,7 +46269,8 @@
       "BROTHER INDUSTRIES. Service Manual: Presser Foot Height Adjustment & Cushion Mechanisms. Nagoya: Brother, 2022.",
       "ARTRELADOS. O Toque Invisível do Calcador: Como Regular a Pressão e Evitar Marcas em Couros e Veludos. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "D"
   },
   {
     "id": "d-104-distorcao-optica-por-iluminacao-de-bancada",
@@ -45935,7 +46350,8 @@
       "TAJIMA EMBROIDERY SYSTEMS. Ergonomic Workstation & Lighting Setup for Embroidery Operators. Nagoya: Tajima, 2022.",
       "ARTRELADOS. Luz Perfeita, Ponto Perfeito: Como Iluminar sua Máquina e Nunca Mais Errar Cores e Centros. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "D"
   },
   {
     "id": "d-105-desvio-de-ponta-de-agulha-deflexao-em-costuras",
@@ -46017,7 +46433,8 @@
       "BROTHER INDUSTRIES. Heavy-Fabric Embroidery Best Practices & Needle Selection. Nagoya: Brother, 2022.",
       "ARTRELADOS. O Fim das Agulhas Quebradas em Costuras Grossas: Segredos de Deflexão e Dureza. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "D"
   },
   {
     "id": "d-digitalizacao-por-zonas-e-alinhamento-multi-bastidor",
@@ -78535,7 +78952,8 @@
       "PULSE MICROSYSTEMS. Next-Generation Neural Vectorization for Apparel Decoration. Toronto, 2023.",
       "ARTRELADOS. A Nova Era da Digitalização: Inteligência Artificial e Produtividade no Bordado. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "letter": "I"
   },
   {
     "id": "i-076-inibicao-pontos-curtos-short-stitch-filtering",
@@ -98095,7 +98513,8 @@
       "MADEIRA THREADS. Bobbinfill Polyester Filaments and Pre-wound Performance. Freiburg, 2022.",
       "ARTRELADOS. Guia Prático de Tensão Perfeita e Calibração de Bobinas. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "letter": "L"
   },
   {
     "id": "l-076-lese-laise-broderie-anglaise-bordado-em-tecido-vazado-com-ilhoses",
@@ -123385,7 +123804,8 @@
       "BROTHER INDUSTRIES. Troubleshooting Thread Breakage Caused by Needle Plate Damage. Nagoya: Brother, 2021.",
       "ARTRELADOS. O Inimigo Invisível da Linha: Como Identificar e Polir a Chapa de Agulha Danificada. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "O"
   },
   {
     "id": "o-088-offset-de-pesponto-de-alinhavo-margem-bastidor",
@@ -123466,7 +123886,8 @@
       "EMBROIDERY DIGITIZING GUILD. Best Practices for Stabilization and Basting Offsets in Commercial Embroidery. Dallas: EDG, 2021.",
       "ARTRELADOS. O Pesponto Perfeito: Como Usar o Alinhavo com Offset para Nunca Mais Perder uma Peça Flutuante. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "O"
   },
   {
     "id": "o-089-ondulacao-de-borda-em-tecidos-finos-efeito-babado",
@@ -123547,7 +123968,8 @@
       "WILCOM INTERNATIONAL. Managing Density and Pull Distortion in Lightweight Materials. Sydney: Wilcom, 2023.",
       "ARTRELADOS. A Arte da Seda e do Cetim: Como Eliminar Ondulações e Bordar Tecidos Fluidos com Perfeição. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "O"
   },
   {
     "id": "o-090-oleo-mineral-branco-de-grau-textil-lubrificante-atoxico",
@@ -123627,7 +124049,8 @@
       "TAJIMA GROUP. Daily Lubrication Chart and Oil Specification for Commercial Embroidery Machinery. Nagoya: Tajima, 2023.",
       "ARTRELADOS. A Gota de Ouro: Como Lubrificar Sua Bordadeira sem Manchar Peças e sem Gastar com Mecânico. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "O"
   },
   {
     "id": "o-091-otimizacao-de-rota-de-conexao-minimizacao-de-saltos",
@@ -123708,7 +124131,8 @@
       "COMMERCIAL EMBROIDERY MAGAZINE. The Cost of Trims: Maximizing Multi-Head Efficiency with Path Optimization. Chicago, 2021.",
       "ARTRELADOS. O Fim das Paradas Inúteis: Como Otimizar Rotas de Nomes e Bordar sem Cortes na Máquina. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "O"
   },
   {
     "id": "o-092-olhal-de-ceramica-da-guia-de-fio-polimento-anti-atrito",
@@ -123789,7 +124213,8 @@
       "TAJIMA TECHNICAL BULLETIN. Eliminating Thread Breakage Caused by Damaged Pigtail Guides. Nagoya: Tajima, 2021.",
       "ARTRELADOS. O Caminho da Linha Perfeita: Como Guias e Olhais de Cerâmica Evitam Quebras de Fio no Ateliê. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "O"
   },
   {
     "id": "o-093-ondulacao-em-ponto-cruz-digital-alinhamento-aida",
@@ -123870,7 +124295,8 @@
       "NEEDLEWORK DIGITIZING QUARTERLY. Eliminating Puckering in Machine Cross-Stitch Linens. London, 2023.",
       "ARTRELADOS. O Charme do Feito à Mão na Máquina: Como Dominar o Ponto Cruz Digital sem Ondular Toalhas. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "O"
   },
   {
     "id": "o-094-otimizacao-de-compensacao-de-repuxo-radial-em-brasoes",
@@ -123953,7 +124379,8 @@
       "STITCHES MAGAZINE. The Oval Problem: Correcting Distortion in Circular Logos. Cleveland, 2021.",
       "ARTRELADOS. O Brasão Perfeito: Como Acabar com o Efeito Ovo e Bordar Círculos Irretocáveis. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "O"
   },
   {
     "id": "o-095-operacao-em-regime-de-turno-continuo-ciclos-termicos",
@@ -124034,7 +124461,8 @@
       "BARUDAN EMBROIDERY TECH. Preventive Maintenance Schedules for Continuous High-Speed Production. Ichinomiya, 2021.",
       "ARTRELADOS. Produção sem Pânico: Como Rodar Grandes Lotes sem Fundir o Motor da Sua Bordadeira. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "O"
   },
   {
     "id": "o-096-overlap-de-preenchimento-tatami-com-angulos-cruzados",
@@ -124117,7 +124545,8 @@
       "STITCHES & EMBROIDERY REVIEW. Eliminating Gap Lines in Commercial Embroidery Digitizing. Atlanta, 2021.",
       "ARTRELADOS. A Fusão Perfeita: Como Emendar Blocos Grandes de Tatami sem Deixar Marcas nem Fendas no Bordado. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "O"
   },
   {
     "id": "o-097-oscilacao-termica-do-fio-de-poliester-ponto-de-fusao",
@@ -124199,7 +124628,8 @@
       "AMERICAN SEWING GUILD. Thermal Degradation and Lubrication of Polyester Embroidery Filaments. Chicago, 2021.",
       "ARTRELADOS. O Fogo da Agulha: Como Vencer o Calor do Atrito e Bordar Jeans sem Derreter a Linha. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "O"
   },
   {
     "id": "o-098-offset-de-contorno-satin-com-cantos-mitrados",
@@ -124282,7 +124712,8 @@
       "EMBROIDERY BUSINESS TECHNIQUES. Eliminating Bulk in Sharp Embroidery Corners and Borders. Denver, 2021.",
       "ARTRELADOS. A Geometria do Canto Perfeito: Como Mitrar Quinas de Satin e Bordar Molduras Impecáveis. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "O"
   },
   {
     "id": "o-099-ondulacao-de-borda-em-brasoes-termicos-resfriamento",
@@ -124366,7 +124797,8 @@
       "STAHLS' INTERNATIONAL. Heat Press Masterclass: Time, Temperature and Pressure for Embroidery Adhesives. Detroit: Stahls, 2023.",
       "ARTRELADOS. Patches Perfeitos: Como Usar o Mármore Frio para Eliminar Ondulações em Brasões Termocolantes. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "O"
   },
   {
     "id": "o-100-organizacao-ergonomica-da-bancada-de-enquadramento",
@@ -124448,7 +124880,8 @@
       "REVISTA BRASILEIRA DE SAÚDE OCUPACIONAL. Ergonomia e Prevenção de LER/DORT em Trabalhadoras do Setor Têxtil e Bordado. São Paulo: Fundacentro, 2023.",
       "ARTRELADOS. A Bancada de Ouro: Como Montar uma Estação de Enquadramento Ergonômica e Dobrar Sua Produção sem Dores. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "O"
   },
   {
     "id": "o-ortogonalidade-eixos-x-y-pantografo-calibracao-esquadro",
@@ -125456,7 +125889,8 @@
       "NATIONAL EMBROIDERY GUILD. Pricing Strategies & Production Economics for Apparel Decorators. Dallas, 2022.",
       "SEBRAE. Formação do Preço de Venda no Artesanato e na Pequena Indústria Têxtil. Brasília, 2023."
     ],
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "letter": "P"
   },
   {
     "id": "p-076-ponto-tatami-preenchimento-e-angulos-de-inclinacao",
@@ -143632,7 +144066,8 @@
       "PULSE MICROSYS. Vector Geometry & Trapezoidal Corner Narrowing in CAD. Toronto, 2022.",
       "ARTRELADOS. Segredos da Programação de Fontes Finas, Serifas e Arabescos de Luxo. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "R"
   },
   {
     "id": "r-078-rebobinamento-concentrico-de-linha-de-bobina",
@@ -143715,7 +144150,8 @@
       "BROTHER EMBROIDERY SYSTEMS. Bobbin Winder Setup and Thread Path Guide. Nagoya, 2021.",
       "ARTRELADOS. O Segredo da Tensão Inferior Perfeita: Bobinas, Molas e Caixas de Linha. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "R"
   },
   {
     "id": "r-079-recobrimento-de-cetim-em-zigue-zague-gradiente",
@@ -143798,7 +144234,8 @@
       "ROYAL SCHOOL OF NEEDLEWORK. Silk Shading and Long & Short Stitch Masterclass. London, 2021.",
       "ARTRELADOS. Guia de Pintura com Agulha, Degradês e Sombreamento no Bordado Computadorizado. Curitiba, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "R"
   },
   {
     "id": "r-080-reducao-de-velocidade-em-saltos-longos",
@@ -145265,7 +145702,8 @@
       "HAPPY JAPAN. Multi-Needle Electronic Head: Rotary Thread Sensor Operation & Maintenance. Yamagata, 2023.",
       "ARTRELADOS. O Espião Eletrônico da Máquina: Segredos da Roda de Pulso, Sensores Ópticos e Fim dos Falsos Alarmes de Linha. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-07"
+    "updatedAt": "2026-09-07",
+    "letter": "R"
   },
   {
     "id": "r-097-recuo-de-ponta-de-agulha-e-sincronismo-calcador",
@@ -145348,7 +145786,8 @@
       "GERMAN TEXTILE ENGINEERING INSTITUTE. High-Speed Needle-Fabric Dynamics and Presser Foot Optimization. Stuttgart, 2021.",
       "ARTRELADOS. O Balé da Agulha e do Calcador: Como Eliminar o Tecido Dançarino e os Pontos Pulados no Ateliê. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "R"
   },
   {
     "id": "r-098-rotacao-angular-de-matrizes-e-deformacao-de-malha",
@@ -145431,7 +145870,8 @@
       "KNITTING & TEXTILE TECHNOLOGY REVIEW. Elastic Recovery and Dimensional Stability in Embroidered Knits. Manchester, 2021.",
       "ARTRELADOS. A Armadilha do Botão de Girar: Como a Rotação de Matrizes no Painel Destrói Camisetas e Como Evitar. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "R"
   },
   {
     "id": "r-099-resina-seladora-de-bordas-de-emblemas-termoselagem",
@@ -145514,7 +145954,8 @@
       "MILITARY SPECIFICATIONS STANDARDS. MIL-DTL-14652: Edge Finishing and Fray Resistance of Embroidered Insignia. Washington, 2023.",
       "ARTRELADOS. O Fim do Desfiamento: Como Selar Bordas de Patches com Resina e Cautério sem Endurecer o Tecido. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "R"
   },
   {
     "id": "r-100-rastreabilidade-e-arquivamento-de-fichas-tecnicas",
@@ -145597,7 +146038,8 @@
       "APPAREL PRODUCTION WORKFLOW. Spec Sheets and Repeat Order Management for Custom Embroiderers. London: APW, 2021.",
       "ARTRELADOS. A Ficha de Ouro do Ateliê: Como a Rastreabilidade Profissional Fideliza Clientes e Acaba com o Retrabalho. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "R"
   },
   {
     "id": "r-restauracao-reparacao-textil-digital-cerzimento",
@@ -157406,7 +157848,8 @@
       "GUNOLD EMBROIDERY. Technical Thread Specifications: From Heavy No. 30 to Ultra-Fine No. 60. Kennesaw, 2021.",
       "ARTRELADOS. Guia Definitivo de Microletras, Títulos de Linhas e Agulhas Especiais. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "letter": "T"
   },
   {
     "id": "t-076-tensao-da-linha-superior-e-calibracao-de-discos",
@@ -157480,7 +157923,8 @@
       "TOWA APPARATUS MFG. Instruction Manual for Digital & Analog Tension Gauges. Tóquio, 2021.",
       "ARTRELADOS. O Segredo da Tensão Perfeita: Calibração Passo a Passo para Ateliês. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-077-tensao-da-linha-da-bobina-e-teste-da-carretilha",
@@ -157554,7 +157998,8 @@
       "GUNOLD EMBROIDERY. Bobbin Thread Tension and Maintenance Standards. Kennesaw, 2022.",
       "ARTRELADOS. Manual de Manutenção Preventiva e Calibração de Caixas de Bobina. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-078-termocolante-definitivo-para-emblemas-e-patches",
@@ -157629,7 +158074,8 @@
       "FREUDENBERG NONWOVENS. Thermoplastic Adhesives for Textile Bonding. Weinheim, 2021.",
       "ARTRELADOS. Segredos da Produção e Aplicação de Patches Profissionais. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-079-tecido-piquet-e-desafios-de-estruturacao",
@@ -157704,7 +158150,8 @@
       "EMBROIDERY MAGAZINE. The Polo Shirt Challenge: Hooping and Stabilizing Piqué. Londres, 2023.",
       "ARTRELADOS. Guia Definitivo de Bordados em Camisas Polo e Malhas Corporativas. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-080-tracao-do-pantografo-nos-eixos-x-e-y",
@@ -157779,7 +158226,8 @@
       "BARUDAN INDUSTRIAL. X-Y Motion Control and Stepper Driver Calibration. Ichinomiya, 2022.",
       "ARTRELADOS. Mecânica Aplicada e Ajustes de Precisão em Máquinas de Bordar. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-081-tipografia-de-microletras-no-bordado",
@@ -157855,7 +158303,8 @@
       "MADEIRA THREADS. Micro-Lettering Thread & Needle Combinations. Freiburg, 2021.",
       "ARTRELADOS. Guia Prático de Microletras Perfeitas para Jalecos e Uniformes. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-082-texturizacao-em-ponto-tatami-e-efeitos-em-relevo",
@@ -157931,7 +158380,8 @@
       "TAJIMA DG. Special Stitch Effects & Pattern Fill Library Guide. Tóquio, 2021.",
       "ARTRELADOS. Efeitos Especiais de Textura e Relevo em Matrizes de Bordado. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-083-teste-da-borboleta-e-teste-i-h-de-tensao",
@@ -158007,7 +158457,8 @@
       "TAJIMA SEWING MACHINE CO. Tension Matrix Testing Procedures. Nagoya, 2021.",
       "ARTRELADOS. Guia de Ajuste Fino e Diagnóstico Visual de Tensões no Bordado. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-084-toalha-felpuda-e-gestao-de-volume",
@@ -158083,7 +158534,8 @@
       "SULKY OF AMERICA. Water Soluble Stabilizers for High-Pile Fabrics. Kennesaw, 2021.",
       "ARTRELADOS. Guia de Bordados Impecáveis em Toalhas e Enxovais Felpudos. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-085-trava-de-seguranca-do-bastidor-e-alavanca-rapida",
@@ -158159,7 +158611,8 @@
       "BROTHER INTERNATIONAL. Fast Hooping Accessories and Lever Frames Manual. Nagoya, 2021.",
       "ARTRELADOS. Ergonomia, Produtividade e Acessórios Modernos para Bordadeiras. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-086-tolerancia-de-folga-da-agulha-na-lancadeira",
@@ -158235,7 +158688,8 @@
       "TAJIMA SEWING MACHINE CO. Maintenance and Hook Clearance Standards. Nagoya, 2022.",
       "ARTRELADOS. Guia de Sincronismo, Troca e Regulagem de Lançadeiras. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-087-tubo-guia-linha-de-teflon-e-conducao-sem-atrito",
@@ -158310,7 +158764,8 @@
       "GUNOLD EMBROIDERY. Machine Accessories & Friction-Free Thread Delivery. Kennesaw, 2022.",
       "ARTRELADOS. Estrutura do Cabeçote e Condução Eficiente de Linhas no Bordado. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-088-transicao-cromatica-por-mesclagem-de-ponto",
@@ -158386,7 +158841,8 @@
       "MADEIRA THREADS. Needle Painting & Thread Shading Techniques. Freiburg, 2021.",
       "ARTRELADOS. Segredos do Hiper-Realismo e Pintura com Agulha no Bordado Computadorizado. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-089-termodecapagem-de-fios-e-limpeza-termica",
@@ -158461,7 +158917,8 @@
       "MADEIRA THREADS. Post-Embroidery Trimming and Heat Treatment Standards. Freiburg, 2021.",
       "ARTRELADOS. Guia de Produtividade, Acabamento e Inspeção Final no Ateliê. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-090-trava-de-seguranca-do-calcador",
@@ -158535,7 +158992,8 @@
       "BARUDAN INDUSTRIAL. Presser Foot Timing and Clearance Standards. Ichinomiya, 2021.",
       "ARTRELADOS. Mecânica Prática de Cabeçotes de Bordado: Calcadores, Agulhas e Lançadeiras. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-091-tecido-tactel-e-microfibra-no-bordado",
@@ -158609,7 +159067,8 @@
       "DUPONT TEXTILES. Tactel Nylon Processing and Stitching Handbook. Wilmington, 2021.",
       "ARTRELADOS. Segredos do Bordado em Tecidos Sintéticos, Tactel e Impermeáveis. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-092-termofixacao-de-entretela-e-adesivos-em-prensa",
@@ -158683,7 +159142,8 @@
       "MADEIRA GARN. Stabilizer Fusing & Backing Application Manual. Freiburg, 2021.",
       "ARTRELADOS. Guia de Termofixação e Adesivação Têxtil no Ateliê de Bordados. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-093-tiras-de-amortecimento-e-revestimento-do-bastidor",
@@ -158758,7 +159218,8 @@
       "EMBROIDERY BUSINESS MAGAZINE. Eliminating Hoop Burn on Delicate Garments. Chicago, 2023.",
       "ARTRELADOS. Técnicas de Enquadramento Perfeito e Proteção de Tecidos Nobres. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-094-torcao-do-fio-no-cone-e-sentido-z-s",
@@ -158833,7 +159294,8 @@
       "AMERICAN & EFIRD (A&E). Industrial Sewing and Embroidery Thread Twist Dynamics. Mount Holly, 2021.",
       "ARTRELADOS. Guia de Ciência dos Materiais Têxteis: Linhas, Torções e Fibras para Bordado. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-095-trapunto-no-bordado-computadorizado",
@@ -158908,7 +159370,8 @@
       "WILCOM EMBROIDERY STUDIO. Trapunto Stitching and Stipple Fill Operations. Sydney, 2023.",
       "ARTRELADOS. Trapunto Moderno: Técnicas de Acolchoamento Tridimensional no Bordado Digital. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-096-tracado-de-linhas-guia-e-marcacao-a-laser",
@@ -158984,7 +159447,8 @@
       "BARUDAN INDUSTRIAL. Crosshair Laser Setup and Origin Calibration Manual. Ichinomiya, 2021.",
       "ARTRELADOS. Guia de Produtividade: Centralização a Laser e Alinhamento Rápido no Ateliê. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-097-temperatura-operacional-da-agulha",
@@ -159059,7 +159523,8 @@
       "SCHMETZ NEEDLES. Titanium Nitride Coating & Friction Reduction Manual. Herzogenrath, 2021.",
       "ARTRELADOS. Guia Avançado de Agulhas e Física da Fricção no Bordado Industrial. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-098-tolerancia-de-encolhimento-textil-pos-lavagem",
@@ -159134,7 +159599,8 @@
       "MADEIRA THREADS. Fabric Stabilization and Wash Performance Matrix. Freiburg, 2021.",
       "ARTRELADOS. Manual de Durabilidade e Comportamento Pós-Lavagem de Bordados. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-099-tensionador-de-fundo-e-freio-de-carretel",
@@ -159209,7 +159675,8 @@
       "ROBISON-ANTON. Industrial Embroidery Thread Stand & Feed Optimization. New York, 2021.",
       "ARTRELADOS. Segredos do Suporte de Fios e Alimentação Suave de Linhas. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-100-trava-de-seguranca-por-sensor-de-para-choque",
@@ -159284,7 +159751,8 @@
       "BARUDAN INDUSTRIAL. X-Y Travel Limits and Optical Sensor Maintenance. Ichinomiya, 2021.",
       "ARTRELADOS. Manual de Engenharia e Proteção Eletromecânica em Máquinas de Bordar. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-101-transparencia-em-tecidos-finos",
@@ -159360,7 +159828,8 @@
       "MADEIRA THREADS. Water-Soluble Stabilizers & Sheer Fabric Solutions. Freiburg, 2021.",
       "ARTRELADOS. Alta Costura no Bordado Computadorizado: Véus, Tules e Tecidos Transparentes. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-102-trilho-de-guia-linear-e-lubrificacao-de-barramentos",
@@ -159436,7 +159905,8 @@
       "TAJIMA EMBROIDERY MACHINERY. Mechanical Maintenance & Lubrication Schedule. Nagoya, 2021.",
       "ARTRELADOS. Guia Completo de Lubrificação e Manutenção Mecânica de Máquinas de Bordar. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-103-troca-rapida-de-bastidores-e-sistema-magnetico",
@@ -159512,7 +159982,8 @@
       "EMBROIDERY TRADE MAGAZINE. Revolutionizing Production with Magnetic Clamping Technology. Londres, 2023.",
       "ARTRELADOS. Inovações e Ergonomia no Ateliê: O Poder dos Bastidores Magnéticos. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "T"
   },
   {
     "id": "t-104-typical-maquinas-de-bordado-eletronico",
@@ -164528,7 +164999,8 @@
       "PULSE MICROSYSTEMS. Advanced Geometric Underlay Strategies for Knitwear. Mississauga, 2021.",
       "ARTRELADOS. Fundamentos da Digitalização Profissional de Matrizes de Bordado. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-076-ultrassom-portatil-para-limpeza-de-lotes",
@@ -164603,7 +165075,8 @@
       "JUKI INDUSTRIAL SEWING. Machine Oil Stain Removal and Spot Cleaning Technologies. Tokyo, 2021.",
       "ARTRELADOS. Guia de Salvamento e Limpeza Profissional de Bordados Manchados. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-077-unidade-de-retencao-de-fio-no-tracionador",
@@ -164677,7 +165150,8 @@
       "BARUDAN EMBROIDERY MACHINERY. Color Change Assembly and Thread Trapper Setup. Ichinomiya, 2021.",
       "ARTRELADOS. Mecânica Aplicada ao Bordado: Manutenção de Cabeçotes e Trocas de Cor. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-078-urdidura-longitudinal-e-resistencia-a-tracao",
@@ -164751,7 +165225,8 @@
       "CALLISTER, W. D. Ciência e Engenharia dos Materiais Têxteis. São Paulo: Blucher, 2022.",
       "ARTRELADOS. Física do Tecido no Bordado Computadorizado: Urdume, Trama e Deformação. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-079-ultra-velocidade-e-compensacao-cinematica",
@@ -164825,7 +165300,8 @@
       "WILCOM EMBROIDERY STUDIO. High-Speed Stitch Optimization & Cornering Algorithms. Sydney, 2022.",
       "ARTRELADOS. Alta Produtividade e Qualidade Extrema no Bordado Industrial. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-080-unidade-de-sensor-encoder-do-eixo-principal",
@@ -164900,7 +165376,8 @@
       "TAJIMA EMBROIDERY SYSTEMS. Electronic Control & Rotary Encoder Technical Guide. Nagoya, 2021.",
       "ARTRELADOS. Eletrônica e Mecatrônica das Máquinas de Bordar Computadorizadas. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-081-underlay-tatami-com-angulo-invertido",
@@ -164975,7 +165452,8 @@
       "BERNINA ARTISTIC SUITE. Large Area Stabilization & Tatami Architectures. Steckborn, 2021.",
       "ARTRELADOS. Segredos da Digitalização de Grandes Brasões e Costas de Jaquetas. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-082-uniformizacao-da-resina-da-entretela-termocolante",
@@ -165049,7 +165527,8 @@
       "VILENE NONWOVENS. Fusible Interlinings Application & Care Standards. Swindon, 2021.",
       "ARTRELADOS. Guia Completo de Entretelas, Adesivos e Estabilização Têxtil. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-083-utilizacao-de-fios-conductivos-para-smart-textiles",
@@ -165123,7 +165602,8 @@
       "MADEIRA GARN. HC - High Conductive Specialty Threads Application Handbook. Freiburg, 2021.",
       "ARTRELADOS. Inovação Têxtil: Bordados Eletrônicos e Wearables Inteligentes. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-084-unidade-de-parada-emergencial-e-rearme-mecanico",
@@ -165199,7 +165679,8 @@
       "TAJIMA INDUSTRIAL MACHINERY. Safety Operations and Emergency Stop Maintenance. Nagoya, 2022.",
       "ARTRELADOS. Manual de Segurança, Saúde Operacional e Ergonomia no Ateliê de Bordados. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-085-underlay-circular-e-radial-para-esferas",
@@ -165275,7 +165756,8 @@
       "TAJIMA DG/ML BY PULSE. Geometric Symmetry & Distortion Control. Mississauga, 2021.",
       "ARTRELADOS. Técnicas Avançadas de Digitalização: Como Bordar Círculos Perfeitos. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-086-umectacao-de-fios-metalicos-com-silicone-fluido",
@@ -165349,7 +165831,8 @@
       "GUNOLD GMBH. Specialty Metallic & Viscose Thread Handling Manual. Stockstadt, 2021.",
       "ARTRELADOS. Segredos do Bordado com Fios Metálicos, Dourados e Prateados. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-087-universalidade-de-formatos-de-arquivos-tst-dst-pes",
@@ -165424,7 +165907,8 @@
       "BROTHER INDUSTRIES. PES & DST Machine Compatibility Protocols. Nagoya, 2021.",
       "ARTRELADOS. Guia Definitivo de Formatos, Conversões e Organização de Matrizes de Bordado. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-088-unidade-de-guia-fio-oscilante-da-mola-tira-fio",
@@ -165499,7 +165983,8 @@
       "BARUDAN INDUSTRIAL. Upper Thread Control and Check Wire Calibration. Ichinomiya, 2021.",
       "ARTRELADOS. Calibração e Manutenção Preventiva do Bloco de Tensões e Molas de Bordado. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-089-underlay-contorno-duplo-e-selagem-de-borda",
@@ -165573,7 +166058,8 @@
       "PULSE SIGNATURE. Column Underlay Architectures and Edge Walls. Mississauga, 2021.",
       "ARTRELADOS. A Arte da Digitalização de Letras e Textos Nítidos no Bordado Digital. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-090-unidade-de-acionamento-solenoide-de-pulo-e-corte",
@@ -165649,7 +166135,8 @@
       "TAJIMA EMBROIDERY MACHINERY. High-Speed Trimming & Jump Solenoid Calibration. Nagoya, 2021.",
       "ARTRELADOS. Mecânica e Eletroeletrônica de Máquinas de Bordar Industriais. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-091-uniformidade-de-tensao-entre-agulhas-multicabecas",
@@ -165723,7 +166210,8 @@
       "TAJIMA EMBROIDERY MACHINERY. Quality Control & Multi-Head Calibration Guide. Nagoya, 2021.",
       "ARTRELADOS. Gestão Industrial e Controle de Qualidade em Parques de Bordado. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-092-unidade-de-pressao-pneumatica-do-bastidor-automatico",
@@ -165798,7 +166286,8 @@
       "HOOPMASTER AUTOMATION. Pneumatic Clamping & Heavy Garment Hooping. Dallas, 2021.",
       "ARTRELADOS. Automação e Engenharia de Processos no Ateliê de Bordados. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-093-underlay-em-zigue-zague-cruzado-para-letras-cursivas",
@@ -165873,7 +166362,8 @@
       "HATCH BY WILCOM. Professional Monogramming & Script Lettering Guide. Melbourne, 2021.",
       "ARTRELADOS. Guia Definitivo de Nomes, Jalecos e Tipografia no Bordado Digital. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-094-utilizacao-de-fios-de-poliester-fosco",
@@ -165948,7 +166438,8 @@
       "GUNOLD GMBH. Poly-Matt & Special Effect Embroidery Filaments Handbook. Stockstadt, 2021.",
       "ARTRELADOS. O Poder das Linhas Especiais: Foscas, Metálicas e Fluorescentes no Bordado. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-095-unidade-de-refrigeracao-e-dissipacao-de-calor-da-cpu",
@@ -166024,7 +166515,8 @@
       "BARUDAN CO. Control Box Cooling Systems and Preventative Cleaning Manual. Ichinomiya, 2021.",
       "ARTRELADOS. Guia de Manutenção Preventiva e Conservação de Máquinas de Bordar. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-096-underlay-para-veludo-e-tecidos-com-pelo-alto",
@@ -166099,7 +166591,8 @@
       "WILCOM EMBROIDERY STUDIO. Velvet and Fleece Underlay Techniques. Sydney, 2021.",
       "ARTRELADOS. Guia Prático de Bordados em Tecidos Desafiadores: Veludo, Toalhas e Malhas. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-097-unidade-centralizadora-e-gabarito-de-enquadramento",
@@ -166175,7 +166668,8 @@
       "STITCHES MAGAZINE. Mastering Uniform Placement & Production Efficiency. Atlanta, 2021.",
       "ARTRELADOS. Ergonomia, Produtividade e Padronização Industrial no Bordado. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-098-utilizacao-de-agulhas-com-ponta-diamante-para-couro",
@@ -166250,7 +166744,8 @@
       "ORGAN NEEDLE CO. Industrial Leather Embroidery Needles (DIA & DH Series). Tokyo, 2021.",
       "ARTRELADOS. Guia de Bordados em Couro, Couro Sintético e Materiais Pesados. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-099-unidade-de-frenagem-magnetica-da-caixa-de-bobina",
@@ -166325,7 +166820,8 @@
       "AMERICAN & EFIRD (A&E). Industrial Bobbin Thread Dynamics and Backlash Prevention. Mount Holly, 2021.",
       "ARTRELADOS. Guia Definitivo da Bobina Perfeita: Linhas de Fundo, Caixas e Tensões. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-100-underlay-tatami-com-densidade-variavel-e-alivio-de-borda",
@@ -166399,7 +166895,8 @@
       "BERNINA ARTISTIC EMBROIDERY. Advanced Needle Painting and Gradient Foundations. Steckborn, 2021.",
       "ARTRELADOS. A Arte do Hiper-Realismo e Pintura com Agulha no Bordado Digital. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-101-utilizacao-de-entretela-soluvel-em-agua-quente",
@@ -166476,7 +166973,8 @@
       "MADEIRA GARN. Avalon Plus & Water Soluble Backing Applications. Freiburg, 2021.",
       "ARTRELADOS. O Universo das Rendas Soltas (FSL), Richelieu e Jóias Têxteis Bordadas. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-102-uniformizacao-de-lotes-e-controle-de-tonalidade",
@@ -166552,7 +167050,8 @@
       "SOCIETY OF DYERS AND COLOURISTS. Textile Coloration and Color Matching Standards. Bradford, 2021.",
       "ARTRELADOS. Gestão Profissional de Insumos e Controle de Qualidade no Bordado. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "U"
   },
   {
     "id": "u-uniformes-profissionais-e-escolares-bordado-seriado",
@@ -170719,7 +171218,8 @@
       "BARUDAN INDUSTRIAL. Technical Guide to Automatic Trimming & Thread Retention. Ichinomiya, 2021.",
       "ARTRELADOS. Mecatrônica Avançada e Solução de Falhas de Corte e Início de Bordado. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "V"
   },
   {
     "id": "v-091-vlieseline-e-entretelas-nao-tecidas-europeias",
@@ -170793,7 +171293,8 @@
       "VILENE INDUSTRIAL. Non-Woven Technology for High-Precision Embroidery. Keighley, 2021.",
       "ARTRELADOS. Guia Técnico dos Estabilizadores e Entretelas Especiais no Bordado de Luxo. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "V"
   },
   {
     "id": "v-092-varredura-e-alinhamento-angular-de-pantografo",
@@ -170867,7 +171368,8 @@
       "SWF EMBROIDERY MACHINERY. Mechanical Alignment and X-Y Axis Orthogonality Manual. Seul, 2021.",
       "ARTRELADOS. Alinhamento de Precisão e Geometria Estrutural em Máquinas de Bordar CNC. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "V"
   },
   {
     "id": "v-093-variacao-de-ponto-cheio-com-borda-rendilhada",
@@ -170941,7 +171443,8 @@
       "BERNINA EMBROIDERY SOFTWARE. Creative Satin Stitch Effects & Shading. Steckborn, 2021.",
       "ARTRELADOS. Efeitos Especiais de Ponto Cheio e Texturas Orgânicas no Bordado Computadorizado. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "V"
   },
   {
     "id": "v-094-ventilacao-e-conforto-termico-em-bordados-esportivos",
@@ -171016,7 +171519,8 @@
       "MADEIRA THREADS. Embroidery on Performance & Technical Athletic Fabrics. Freiburg, 2021.",
       "ARTRELADOS. Guia de Bordado Esportivo de Alto Desempenho e Conforto Térmico. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "V"
   },
   {
     "id": "v-095-vetor-curvilineo-bezier-na-digitalizacao",
@@ -171090,7 +171594,8 @@
       "WILCOM EMBROIDERY STUDIO. Vector Drawing Tools & Node Editing Mastery. Sydney, 2022.",
       "ARTRELADOS. Fundamentos da Geometria Vetorial e Nós de Bezier para Digitalizadores de Elite. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "V"
   },
   {
     "id": "v-096-volatilidade-termica-e-ponto-de-fusao-de-entretelas-termossoluveis",
@@ -171166,7 +171671,8 @@
       "GUNOLD GMBH. Thermogaze & Heat-Disintegrating Stabilizers for Delicate Fabrics. Stockstadt, 2021.",
       "ARTRELADOS. Inovações em Estabilizadores Especiais: Água, Calor e Rasgadeiras Técnicas. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "V"
   },
   {
     "id": "v-097-variacao-de-passo-em-ponto-corrido-triplo",
@@ -171241,7 +171747,8 @@
       "EMBROIDERY DESIGN DIGITIZING. Outline Techniques, Redwork & Vintage Bean Stitches. Londres, 2021.",
       "ARTRELADOS. A Força do Ponto Feijão e Contornos Artísticos no Bordado Moderno. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "V"
   },
   {
     "id": "v-098-vacuo-de-protecao-na-lancadeira-e-prevencao-de-farpas-de-linha",
@@ -171315,7 +171822,8 @@
       "HIROSE VALUABLE HOOKS. High-Speed Embroidery Hook Engineering & Thread Trap Elimination. Tóquio, 2021.",
       "ARTRELADOS. Segredos da Mecânica de Lançadeiras e Cuidados Críticos no Bordado Digital. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "V"
   },
   {
     "id": "v-099-visibilidade-de-ponto-sob-iluminacao-led-com-irc-alto",
@@ -171389,7 +171897,8 @@
       "OSRAM TECHNICAL LIGHTING. High-CRI LED Technology & Color Rendering Accuracy. Munique, 2021.",
       "ARTRELADOS. Ergonomia, Luminotécnica e Organização de Ateliês de Bordado Profissional. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "V"
   },
   {
     "id": "v-100-velocidade-critica-e-frequencia-de-ressonancia-da-maquina",
@@ -171463,7 +171972,8 @@
       "TAJIMA EMBROIDERY SYSTEMS. Machine Frame Dynamics & Anti-Vibration Base Installation. Nagoya, 2022.",
       "ARTRELADOS. Dinâmica Mecânica, Equilíbrio de Forças e Acústica em Máquinas de Bordar. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "V"
   },
   {
     "id": "v-101-variacao-de-tensao-na-passagem-de-juncoes-e-costuras-grossas",
@@ -171538,7 +172048,8 @@
       "SCHMETZ NEEDLES. Reinforced Blade Needles (SERV 7) for Cross-Seam Applications. Herzogenrath, 2021.",
       "ARTRELADOS. Estratégias para Bordados em Peças Pesadas, Costuras e Jeans. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "V"
   },
   {
     "id": "v-102-vedacao-e-impermeabilizacao-de-costuras-bordadas",
@@ -171614,7 +172125,8 @@
       "BEMIS ASSOCIATES. Specialty Thermal Bonding Films & Seam Tapes for Performance Apparel. Shirley, 2021.",
       "ARTRELADOS. Manual de Bordados Técnicos e Impermeabilização para Uniformes de Alta Performance. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "V"
   },
   {
     "id": "v-103-validacao-de-matriz-por-amostra-piloto",
@@ -171688,7 +172200,8 @@
       "STITCHES MAGAZINE. Production Best Practices: The Strike-Off Imperative. Atlanta, 2021.",
       "ARTRELADOS. Gestão da Qualidade Total e Zero Defeito no Ateliê de Bordado Computadorizado. São Paulo, 2024."
     ],
-    "updatedAt": "2026-08-30"
+    "updatedAt": "2026-08-30",
+    "letter": "V"
   },
   {
     "id": "v-104-valvula-dosadora-oleo-restritor-fluxo-capilar",
@@ -171875,7 +172388,8 @@
       "JOURNAL OF TEXTILE MACHINERY. Kinematic Asymmetry and Thread Drag in High-Speed Multi-Head Stitching. Tokyo, 2021.",
       "ARTRELADOS. A Dança dos Cones nas Multicabeças: Como Equilibrar a Tensão em Todas as Cabeças da Máquina. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "V"
   },
   {
     "id": "v-078-viscosidade-de-oleo-textil-iso-vg-10-e-15-lancadeira",
@@ -171958,7 +172472,8 @@
       "TEXTILE MACHINERY TRIBOLOGY. Hydrodynamic Lubrication of Sewing and Embroidery Hooks. Zurich, 2022.",
       "ARTRELADOS. O Mito do Óleo Grosso: Por Que o Óleo Mineral Fino Salva a Lançadeira e Protege as Peças das Clientes. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "V"
   },
   {
     "id": "v-079-vibracao-harmonica-barra-agulha-buchas-bronze",
@@ -172041,7 +172556,8 @@
       "TEXTILE ENGINEERING RESEARCH. Vibration Analysis and Deflection Control in High-Speed Sewing Systems. Aachen, 2021.",
       "ARTRELADOS. A Agulha que Sambar: Como Descobrir Folgas Ocultas na Barra de Agulha e Evitar a Quebra da Lançadeira. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "V"
   },
   {
     "id": "v-080-variacao-de-densidade-em-degrade-bicolor-efeito-ombre",
@@ -172124,7 +172640,8 @@
       "TEXTILE COLOR SCIENCE INSTITUTE. Optical Color Mixing and Surface Reflectance in Trilobal Polyester Threads. Leeds, 2021.",
       "ARTRELADOS. A Pintura com Linhas: O Segredo dos Degradês Ombré sem Endurecer o Tecido. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "V"
   },
   {
     "id": "v-081-valvula-retencao-ar-linha-pneumatica-bastidor",
@@ -172207,7 +172724,8 @@
       "ISO 19973: Pneumatic Fluid Power — Assessment of Component Reliability. Geneva: ISO, 2021.",
       "ARTRELADOS. O Poder do Ar Comprimido no Ateliê: Como Funcionam os Bastidores Pneumáticos e Seus Cuidados. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "V"
   },
   {
     "id": "v-082-visor-nivel-sensor-optico-linha-bobina-lancadeira",
@@ -172290,7 +172808,8 @@
       "SOCIETY OF FIBER SCIENCE AND TECHNOLOGY. Sensor Automation and Thread Consumption Monitoring in Digital Embroidery. Kyoto, 2021.",
       "ARTRELADOS. O Olho Mágico da Bordadeira: Como Cuidar do Sensor de Bobina e Nunca Mais Perder Ponto. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "V"
   },
   {
     "id": "v-083-velvet-touch-e-tratamento-termico-em-veludo-felpudos",
@@ -172373,7 +172892,8 @@
       "TEXTILE FINISHING MANUAL. Steaming and Pile Preservation in Fashion Embroidery. Milan, 2021.",
       "ARTRELADOS. O Segredo do Veludo Real: Como Bordar Tecidos Nobres sem Deixar Marcas de Bastidor e sem Afundar os Pontos. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "V"
   },
   {
     "id": "v-084-variacao-de-angulo-em-florais-e-folhagens-com-eixo-radial",
@@ -172456,7 +172976,8 @@
       "THE EMBROIDERY MANUAL. Advanced Shading, Angle Control and Floral Textures. New York, 2021.",
       "ARTRELADOS. A Luz que Dança nas Linhas: Como Programar Pétalas e Folhas com Brilho Tridimensional. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "V"
   },
   {
     "id": "v-085-vinil-perfurado-entretelas-plasticas-emblemas-patches",
@@ -172539,7 +173060,8 @@
       "JOURNAL OF INDUSTRIAL TEXTILES. Perforated Polymeric Substrates for Embroidery and Composite Badges. Zurich, 2023.",
       "ARTRELADOS. O Segredo dos Patches Militares Indestrutíveis: Como Usar Vinil e Entretelas Plásticas com Segurança. Curitiba, 2024."
     ],
-    "updatedAt": "2026-09-16"
+    "updatedAt": "2026-09-16",
+    "letter": "V"
   },
   {
     "id": "warp-urdume-urdidura-estrutura-longitudinal",

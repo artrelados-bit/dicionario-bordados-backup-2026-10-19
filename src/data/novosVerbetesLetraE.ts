@@ -3,6 +3,8 @@ import { Verbete } from "../types";
 export const NOVOS_VERBETES_LETRA_E: Verbete[] = [
   {
     id: "e-lote1-001-elastano-no-bordado-malhas-stretch",
+
+    code: "E-110",
     term: "Elastano no Bordado (Bordando Malhas e Tecidos com Stretch sem Ondular)",
     englishTerm: "Spandex & Stretch Fabric Embroidery Stabilization",
     letter: "E",
@@ -51,6 +53,8 @@ export const NOVOS_VERBETES_LETRA_E: Verbete[] = [
   },
   {
     id: "e-lote1-002-entretela-agua-quente-vs-fria",
+
+    code: "E-111",
     term: "Entretela de Água Quente vs. Fria (Dissolução Térmica vs. Hidrossolúvel)",
     englishTerm: "Hot-Water Soluble vs. Cold-Water Soluble Stabilizer",
     letter: "E",
@@ -97,6 +101,8 @@ export const NOVOS_VERBETES_LETRA_E: Verbete[] = [
   },
   {
     id: "e-lote1-003-eixo-excentrico-barra-agulha",
+
+    code: "E-112",
     term: "Eixo Excêntrico da Barra de Agulha (Mecânica e Calibração de Folga)",
     englishTerm: "Needle Bar Eccentric Shaft & Clearance Calibration",
     letter: "E",
@@ -142,6 +148,8 @@ export const NOVOS_VERBETES_LETRA_E: Verbete[] = [
   },
   {
     id: "e-lote1-004-efeito-chenille-computadorizado",
+
+    code: "E-113",
     term: "Efeito Chenille Computadorizado (Simulação de Ponto Aveludado com Linha de Algodão)",
     englishTerm: "Faux Chenille & Moss Stitch Simulation in Lockstitch Embroidery",
     letter: "E",
@@ -188,6 +196,8 @@ export const NOVOS_VERBETES_LETRA_E: Verbete[] = [
   },
   {
     id: "e-lote1-005-enchedor-bobina-sensor-optico",
+
+    code: "E-114",
     term: "Enchedor de Bobina Independente com Sensor Óptico",
     englishTerm: "Independent Automatic Bobbin Winder with Optical Sensor",
     letter: "E",
@@ -234,6 +244,8 @@ export const NOVOS_VERBETES_LETRA_E: Verbete[] = [
   },
   {
     id: "e-lote1-006-entretela-colarinho-punho-camisaria",
+
+    code: "E-115",
     term: "Entretela de Colarinho e Punho (Gramaturas e Cuidados na Camisaria)",
     englishTerm: "Shirt Collar & Cuff Interfacing for Precision Monogramming",
     letter: "E",
@@ -280,6 +292,8 @@ export const NOVOS_VERBETES_LETRA_E: Verbete[] = [
   },
   {
     id: "e-lote1-007-espelho-ponto-mirror-stitching",
+
+    code: "E-116",
     term: "Espelho de Ponto (Mirror Stitching & Simetria Rápida no Painel)",
     englishTerm: "Mirror Stitching & Horizontal/Vertical Pattern Inversion",
     letter: "E",
@@ -326,6 +340,8 @@ export const NOVOS_VERBETES_LETRA_E: Verbete[] = [
   },
   {
     id: "e-lote1-008-estatistica-quebra-linha-kpi-industrial",
+
+    code: "E-117",
     term: "Estatística de Quebra de Linha por Milhão de Pontos (KPI de Produtividade)",
     englishTerm: "Thread Breakage Rate per Million Stitches (Industrial KPI)",
     letter: "E",
@@ -372,6 +388,8 @@ export const NOVOS_VERBETES_LETRA_E: Verbete[] = [
   },
   {
     id: "e-lote1-009-engrenagem-conica-helicoidal-lancadeira",
+
+    code: "E-118",
     term: "Engrenagem Cônica Helicoidal da Lançadeira (Ajuste de Folga Angular e Graxa)",
     englishTerm: "Spiral Bevel Gear of Rotary Hook Shaft & Backlash Calibration",
     letter: "E",
@@ -418,6 +436,8 @@ export const NOVOS_VERBETES_LETRA_E: Verbete[] = [
   },
   {
     id: "e-lote1-010-estabilizacao-seda-pura-chiffon-hidrossoluvel",
+
+    code: "E-119",
     term: "Estabilização de Seda Pura e Chiffon com Filme Hidrossolúvel Duplo",
     englishTerm: "Pure Silk & Chiffon Dual-Soluble Sandwich Stabilization",
     letter: "E",
@@ -465,6 +485,8 @@ export const NOVOS_VERBETES_LETRA_E: Verbete[] = [
   },
   {
     id: "e-lote1-011-efeito-degrade-tres-cores-tatami",
+
+    code: "E-120",
     term: "Efeito Degradê em Três Cores com Densidade Progressiva no Tatami",
     englishTerm: "Three-Color Gradient Density Transition in Tatami Fill",
     letter: "E",
@@ -512,6 +534,8 @@ export const NOVOS_VERBETES_LETRA_E: Verbete[] = [
   },
   {
     id: "e-lote1-012-eliminacao-pontos-curtos-arremate",
+
+    code: "E-121",
     term: "Eliminação de Pontos Curtos em Nós de Arremate (Trimming Optimization)",
     englishTerm: "Short Stitch Filtering & Lock Stitch Trimming Optimization",
     letter: "E",
@@ -558,6 +582,8 @@ export const NOVOS_VERBETES_LETRA_E: Verbete[] = [
   },
   {
     id: "e-lote1-013-entretela-texturizada-couro-nobuck",
+
+    code: "E-122",
     term: "Entretela Texturizada para Bordado em Couro Legítimo e Nobuck",
     englishTerm: "Textured Non-Woven Stabilizer for Genuine Leather & Suede",
     letter: "E",
@@ -604,6 +630,8 @@ export const NOVOS_VERBETES_LETRA_E: Verbete[] = [
   },
   {
     id: "e-lote1-014-encolhimento-pos-lavagem-compensacao",
+
+    code: "E-123",
     term: "Encolhimento Têxtil Pós-Lavagem e Fator de Compensação na Matriz",
     englishTerm: "Fabric Wash Shrinkage & Predictive Matrix Scaling",
     letter: "E",
@@ -650,6 +678,8 @@ export const NOVOS_VERBETES_LETRA_E: Verbete[] = [
   },
   {
     id: "e-lote1-015-eixo-cardan-pantografo-multicabecas",
+
+    code: "E-124",
     term: "Eixo Cardan do Pantógrafo (Alinhamento de Eixos X e Y em Multicabeças)",
     englishTerm: "Pantograph Drive Cardan Shaft & X/Y Axial Alignment in Multi-Heads",
     letter: "E",
@@ -696,6 +726,8 @@ export const NOVOS_VERBETES_LETRA_E: Verbete[] = [
   },
   {
     id: "e-lote1-016-espacamento-coluna-ponto-satin",
+
+    code: "E-125",
     term: "Espaçamento de Coluna em Ponto Satin (Density Pitch Modulation)",
     englishTerm: "Satin Column Density Pitch & Stitch Spacing Modulation",
     letter: "E",
@@ -742,6 +774,8 @@ export const NOVOS_VERBETES_LETRA_E: Verbete[] = [
   },
   {
     id: "e-lote1-017-eletricidade-estatica-fio-metalico",
+
+    code: "E-126",
     term: "Eletricidade Estática no Fio Metálico (Fitas Antiestáticas e Aterramento)",
     englishTerm: "Static Electricity in Metallic Thread & Anti-Static Grounding Solutions",
     letter: "E",
@@ -788,6 +822,8 @@ export const NOVOS_VERBETES_LETRA_E: Verbete[] = [
   },
   {
     id: "e-lote1-018-entretela-autoadesiva-peel-and-stick",
+
+    code: "E-127",
     term: "Entretela Autoadesiva Peel-and-Stick (Bordando sem Bastidor / Fast Frames)",
     englishTerm: "Peel-and-Stick Pressure-Sensitive Adhesive Stabilizer",
     letter: "E",
@@ -835,6 +871,8 @@ export const NOVOS_VERBETES_LETRA_E: Verbete[] = [
   },
   {
     id: "e-lote1-019-equalizacao-tensao-cores-mesmo-cabecote",
+
+    code: "E-128",
     term: "Equalização de Tensão entre Cores Claras e Escuras no Mesmo Cabeçote",
     englishTerm: "Tension Equalization Between Light & Dark Thread Colors in Multi-Needle Head",
     letter: "E",
@@ -882,6 +920,8 @@ export const NOVOS_VERBETES_LETRA_E: Verbete[] = [
   },
   {
     id: "e-lote1-020-escala-dureza-shore-borracha-eva-3d",
+
+    code: "E-129",
     term: "Escala de Dureza Shore de Borrachas e Espumas para Alto Relevo 3D",
     englishTerm: "Shore Hardness Scale for 3D Foam & Puff Embroidery",
     letter: "E",
@@ -929,6 +969,8 @@ export const NOVOS_VERBETES_LETRA_E: Verbete[] = [
   },
   {
     id: "e-lote1-021-efeito-pesponto-duplo-saddle-stitch",
+
+    code: "E-130",
     term: "Efeito Pesponto Duplo Artesanal (Saddle Stitch Digitalizado)",
     englishTerm: "Machine Saddle Stitch & Double Topstitch Leather Simulation",
     letter: "E",

@@ -29,6 +29,11 @@ const uniqueMap = new Map<string, Verbete>();
 rawList.forEach((item) => {
   if (!uniqueMap.has(item.id)) {
     uniqueMap.set(item.id, item);
+  } else {
+    const existing = uniqueMap.get(item.id)!;
+    if (!existing.code && item.code) {
+      uniqueMap.set(item.id, { ...existing, code: item.code });
+    }
   }
 });
 

@@ -3,6 +3,8 @@ import { Verbete } from "../types";
 export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   {
     id: "c-novo-001-capa-caderneta-vacinacao-ith",
+
+    code: "C-117",
     term: "Capa de Caderneta de Vacinação no Bastidor (ITH Booklet Cover)",
     englishTerm: "In-the-Hoop (ITH) Vaccine Booklet & Health Passport Cover",
     letter: "C",
@@ -50,6 +52,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-002-chaveiro-almofadado-bastidor-ith",
+
+    code: "C-118",
     term: "Chaveiro Almofadado no Bastidor com Enchimento Siliconado",
     englishTerm: "In-the-Hoop (ITH) Padded Keychain & Stuffed Tag Technique",
     letter: "C",
@@ -97,6 +101,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-003-cesto-organizador-dobravel-bastidor-ith",
+
+    code: "C-119",
     term: "Cesto Organizador Dobrável no Bastidor (Collapsible ITH Fabric Basket)",
     englishTerm: "In-the-Hoop (ITH) Foldable Fabric Basket & Modular Organizer",
     letter: "C",
@@ -144,6 +150,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-004-colarinho-lapela-bordados-alfaiataria",
+
+    code: "C-120",
     term: "Colarinho e Lapela Bordados com Pesponto de Alfaiataria",
     englishTerm: "Tailored Collar & Lapel Machine Embroidery & Pick-Stitch Protocol",
     letter: "C",
@@ -189,6 +197,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-005-calcador-aberto-visao-frontal-open-toe",
+
+    code: "C-121",
     term: "Calcador Aberto de Visão Frontal (Open-Toe Free-Motion Foot)",
     englishTerm: "Open-Toe Free-Motion Embroidery Foot & Vision-Clear Presser Foot",
     letter: "C",
@@ -234,6 +244,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-006-calcador-rolamento-esferas-sinteticos-vinil",
+
+    code: "C-122",
     term: "Calcador de Rolamento de Esferas para Materiais Sintéticos e Vinil",
     englishTerm: "Roller Ball Presser Foot & Non-Stick Feed Foot for Vinyl & Leather",
     letter: "C",
@@ -279,6 +291,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-007-calcador-mola-compensacao-altura-pecas-espessas",
+
+    code: "C-123",
     term: "Calcador com Mola de Compensação de Altura para Peças Espessas",
     englishTerm: "Spring-Action Floating Foot & Dynamic Height Compensation Presser",
     letter: "C",
@@ -325,6 +339,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-008-chapa-agulha-ponto-reto-furo-ovalado-seguranca",
+
+    code: "C-124",
     term: "Chapa de Agulha para Ponto Reto com Furo Ovalado de Segurança",
     englishTerm: "Single-Needle Straight Stitch Throat Plate with Oval Safety Hole",
     letter: "C",
@@ -371,6 +387,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-009-caixa-bobina-revestimento-ceramico-baixo-atrito",
+
+    code: "C-125",
     term: "Caixa de Bobina com Revestimento Cerâmico de Baixo Atrito",
     englishTerm: "Ceramic-Coated Low-Friction Bobbin Case & Heat Dissipating Capsule",
     letter: "C",
@@ -417,6 +435,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-010-cartela-cores-fisica-amostras-reais-fios",
+
+    code: "C-126",
     term: "Cartela de Cores Física com Amostras Reais de Fios Têxteis",
     englishTerm: "Physical Thread Color Card with Real Yarn Windings & Shade Selector",
     letter: "C",
@@ -463,6 +483,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-011-cone-linha-mini-1000m-vs-industrial-5000m",
+
+    code: "C-127",
     term: "Cone de Linha Mini (1.000m) vs. Cone Industrial (5.000m)",
     englishTerm: "Mini-King Spool (1,000m) vs. Industrial Cone (5,000m) Thread Economics",
     letter: "C",
@@ -508,6 +530,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-012-caneta-luz-ultravioleta-uv-linhas-fluorescentes",
+
+    code: "C-128",
     term: "Caneta com Luz Ultravioleta (UV) para Linhas Fluorescentes",
     englishTerm: "Ultraviolet (UV) Blacklight Inspection Pen & Phosphorescent Thread Checker",
     letter: "C",
@@ -553,6 +577,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-013-cera-textil-hidrossoluvel-lubrificacao-fios",
+
+    code: "C-129",
     term: "Cera Têxtil Hidrossolúvel para Lubrificação de Linhas Grossas",
     englishTerm: "Water-Soluble Thread Lubricating Wax & Friction Reducer Compound",
     letter: "C",
@@ -599,6 +625,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-014-cola-fita-dupla-face-soluvel-bastidor",
+
+    code: "C-130",
     term: "Cola em Fita Dupla Face Solúvel para Posicionamento no Bastidor",
     englishTerm: "Water-Soluble Double-Sided Basting Tape & Precision Positioning Strip",
     letter: "C",
@@ -645,6 +673,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-015-conversao-formatos-matriz-pes-jef-dst-exp-xxx",
+
+    code: "C-131",
     term: "Conversão de Formatos de Matriz: PES, JEF, DST, EXP e XXX",
     englishTerm: "Embroidery Machine File Format Conversion (PES, JEF, DST, EXP, XXX)",
     letter: "C",
@@ -691,6 +721,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-016-conversao-vetorial-automatica-vs-digitalizacao-manual",
+
+    code: "C-132",
     term: "Conversão Vetorial Automática vs. Digitalização Manual Ponto a Ponto",
     englishTerm: "Auto-Digitizing Image Conversion vs. Manual Stitch-by-Stitch Digitizing",
     letter: "C",
@@ -737,6 +769,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-017-corte-inteligente-fio-reducao-saltos-smart-trimming",
+
+    code: "C-133",
     term: "Corte Inteligente de Fio com Redução de Saltos (Smart Trimming)",
     englishTerm: "Smart Trimming & Jump Stitch Optimization Algorithm",
     letter: "C",
@@ -783,6 +817,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-018-controle-densidade-degrade-radial-radial-gradient",
+
+    code: "C-134",
     term: "Controle de Densidade em Degradê Radial (Radial Density Gradient)",
     englishTerm: "Radial Density Gradient & Color Blending Stitch Calibration",
     letter: "C",
@@ -829,6 +865,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-019-cruzamento-linhas-suporte-grade-losangular",
+
+    code: "C-135",
     term: "Cruzamento de Linhas de Suporte em Grade Losangular (Diamond Underlay)",
     englishTerm: "Diamond Mesh & Double-Cross Underlay Matrix Architecture",
     letter: "C",
@@ -875,6 +913,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-020-compactacao-pontos-curtos-quinas-corner-thinning",
+
+    code: "C-136",
     term: "Compactação de Pontos Curtos em Quinas Agudas (Corner Thinning)",
     englishTerm: "Corner Stitch Thinning & Short-Stitch Density Management",
     letter: "C",
@@ -921,6 +961,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-021-costura-aplique-festone-alma-cordao",
+
+    code: "C-137",
     term: "Costura de Aplique em Ponto Festonê com Alma de Cordão",
     englishTerm: "Padded Scallop Appliqué Edge & Cord-Reinforced Buttonhole Stitch",
     letter: "C",
@@ -967,6 +1009,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-022-costura-contorno-ponto-paris-bastidor",
+
+    code: "C-138",
     term: "Costura de Contorno em Ponto Paris no Bastidor (Parisian Openwork Stitch)",
     englishTerm: "Parisian Hemstitch & Entre-Deux Contour Stitch Protocol",
     letter: "C",
@@ -1013,6 +1057,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-023-cobre-leito-acolchoamento-trapunto-geometrico",
+
+    code: "C-139",
     term: "Cobre-Leito com Acolchoamento em Trapunto Geométrico no Bastidor",
     englishTerm: "In-the-Hoop (ITH) Geometric Trapunto & Quilted Bedspread Protocol",
     letter: "C",
@@ -1060,6 +1106,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-024-cordao-torcido-franjas-passamanarias-bastidor",
+
+    code: "C-140",
     term: "Cordão Torcido para Franjas e Passamanarias no Bastidor",
     englishTerm: "In-the-Hoop Twisted Cord & Fringe Passementerie Technique",
     letter: "C",
@@ -1106,6 +1154,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-025-canutilhos-micangas-dispositivo-automatico",
+
+    code: "C-141",
     term: "Canutilhos e Miçangas Aplicados com Dispositivo Automático (Beading Device)",
     englishTerm: "Automatic Glass Beads & Bugle Beads Machine Attachment (Beading Device)",
     letter: "C",
@@ -1152,6 +1202,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-026-cobertura-costura-interna-gorgurao-vies-ith",
+
+    code: "C-142",
     term: "Cobertura de Costura Interna com Fita de Gorgurão / Viés no Bastidor",
     englishTerm: "In-the-Hoop (ITH) Seam Binding & Grosgrain Enclosed Edge Protocol",
     letter: "C",
@@ -1198,6 +1250,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-027-carcaca-tubular-aluminio-fundido-amortecimento",
+
+    code: "C-143",
     term: "Carcaça Tubular de Alumínio Fundido e Amortecimento Estrutural",
     englishTerm: "Cast Aluminum Tubular Chassis & Mechanical Vibration Absorption",
     letter: "C",
@@ -1244,6 +1298,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-028-correia-sincronizadora-eixo-superior-kevlar",
+
+    code: "C-144",
     term: "Correia Sincronizadora do Eixo Superior com Alma de Kevlar",
     englishTerm: "Timing Belt with Kevlar / Steel Core & Upper Shaft Synchronization",
     letter: "C",
@@ -1290,6 +1346,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-029-came-acionamento-barra-agulha-excentrico",
+
+    code: "C-145",
     term: "Came de Acionamento da Barra de Agulha e Excêntrico do Cabeçote",
     englishTerm: "Needle Bar Drive Cam & Eccentric Mechanism for Harmonic Motion",
     letter: "C",
@@ -1336,6 +1394,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-030-carretilha-bobina-flange-perfurado",
+
+    code: "C-146",
     term: "Carretilha de Bobina com Flange Perfurado para Alívio de Peso",
     englishTerm: "Perforated Flange Lightweight Aluminum Bobbin & Dynamic Inertia Balancer",
     letter: "C",
@@ -1382,6 +1442,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-031-calibrador-espessura-textil-micrometro",
+
+    code: "C-147",
     term: "Calibrador de Espessura Têxtil / Micrômetro de Tecidos",
     englishTerm: "Textile Dial Thickness Gauge & Fabric Micrometer Measuring Tool",
     letter: "C",
@@ -1428,6 +1490,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-032-cloreto-alquila-higienizacao-lancadeiras",
+
+    code: "C-148",
     term: "Cloreto de Alquila e Higienização de Lançadeiras sem Resíduos",
     englishTerm: "Alkyl Chloride & Non-Residue Solvent Hook Cleaning Protocol",
     letter: "C",
@@ -1474,6 +1538,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-033-capuz-protecao-anti-poeira-maquinas",
+
+    code: "C-149",
     term: "Capuz de Proteção Anti-Poeira para Máquinas de Bordar",
     englishTerm: "Anti-Dust Protective Hood & Breathable Equipment Cover",
     letter: "C",
@@ -1520,6 +1586,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-034-compensacao-fracionada-puxao-diagonais",
+
+    code: "C-150",
     term: "Compensação Fracionada de Puxão em Eixos Diagonais (Fractional Pull Offset)",
     englishTerm: "Fractional Diagonal Pull Compensation & Anisotropic Tension Tuning",
     letter: "C",
@@ -1566,6 +1634,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-035-curva-bezier-vetorizacao-nos-florais",
+
+    code: "C-151",
     term: "Curva de Bézier e Vetorização de Nós em Desenhos Florais",
     englishTerm: "Bézier Curve Vectorization & Node Editing for Floral Digitizing",
     letter: "C",
@@ -1612,6 +1682,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-036-conector-ponto-continuo-ziguezague-fino",
+
+    code: "C-152",
     term: "Conector de Ponto Contínuo em Ziguezague Fino (Running Zigzag Connector)",
     englishTerm: "Running Zigzag Connector & Under-Stitch Concealed Travel Stitch",
     letter: "C",
@@ -1658,6 +1730,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-037-camadas-agrupamento-cor-software",
+
+    code: "C-153",
     term: "Camadas de Agrupamento por Cor no Software (Color Sequencing Layers)",
     englishTerm: "Color Sorting & Grouping Layers Architecture in Digitizing Software",
     letter: "C",
@@ -1705,6 +1779,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-038-calibracao-monitores-espaco-cores-srgb",
+
+    code: "C-154",
     term: "Calibração de Monitores e Espaço de Cores sRGB para Visualização de Linhas",
     englishTerm: "Display Calibration & sRGB Color Gamut Management for Thread Simulation",
     letter: "C",
@@ -1751,6 +1827,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-039-chapa-agulha-revestimento-titanio-dourado",
+
+    code: "C-155",
     term: "Chapa de Agulha com Revestimento de Titânio Dourado Anti-Desgaste",
     englishTerm: "Titanium Nitride (TiN) Gold Coated Throat Plate & Wear-Resistant Needle Insert",
     letter: "C",
@@ -1797,6 +1875,8 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
   },
   {
     id: "c-novo-040-controle-dinamico-aceleracao-curvas-estreitas",
+
+    code: "C-156",
     term: "Controle Dinâmico de Aceleração em Curvas Estreitas (Corner Deceleration)",
     englishTerm: "Dynamic Corner Deceleration & Adaptive Motor Speed Control",
     letter: "C",

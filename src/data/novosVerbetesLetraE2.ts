@@ -3,6 +3,8 @@ import { Verbete } from "../types";
 export const NOVOS_VERBETES_LETRA_E2: Verbete[] = [
   {
     id: "e-lote2-022-efeito-ponto-cruz-computadorizado",
+
+    code: "E-131",
     term: "Efeito Ponto Cruz Computadorizado (Cross Stitch Digitizing & Grid)",
     englishTerm: "Computerized Cross Stitch Digitizing & Mesh Grid Calibration",
     letter: "E",
@@ -49,6 +51,8 @@ export const NOVOS_VERBETES_LETRA_E2: Verbete[] = [
   },
   {
     id: "e-lote2-023-entretela-hidrossoluvel-tecida-lawn-soluble",
+
+    code: "E-132",
     term: "Entretela Hidrossolúvel de Tecelagem Têxtil vs. Filme Plástico (Lawn Soluble)",
     englishTerm: "Woven Water-Soluble Stabilizer (Lawn Soluble) vs. Soluble Plastic Film",
     letter: "E",
@@ -95,6 +99,8 @@ export const NOVOS_VERBETES_LETRA_E2: Verbete[] = [
   },
   {
     id: "e-lote2-024-engate-rapido-bastidor-tubular",
+
+    code: "E-133",
     term: "Engate Rápido de Bastidor Tubular (Clamping Mechanisms & Quick Release)",
     englishTerm: "Tubular Hoop Quick-Release Clamping System & Pantograph Locks",
     letter: "E",
@@ -141,6 +147,8 @@ export const NOVOS_VERBETES_LETRA_E2: Verbete[] = [
   },
   {
     id: "e-lote2-025-equalizacao-linha-bobina-pre-enrolada",
+
+    code: "E-134",
     term: "Equalização de Linha de Bobina em Carretéis Pré-Enrolados (Pre-Wound Bobbins)",
     englishTerm: "Pre-Wound Bobbin Tension Equalization & Sideless Filament Consistency",
     letter: "E",
@@ -187,6 +195,8 @@ export const NOVOS_VERBETES_LETRA_E2: Verbete[] = [
   },
   {
     id: "e-lote2-026-efeito-moire-ponto-tatami-prevencao",
+
+    code: "E-135",
     term: "Efeito Moiré no Ponto Tatami (Prevenção Matemática de Interferência)",
     englishTerm: "Moiré Effect in Tatami Fill & Mathematical Interference Prevention",
     letter: "E",
@@ -233,6 +243,8 @@ export const NOVOS_VERBETES_LETRA_E2: Verbete[] = [
   },
   {
     id: "e-lote2-027-entretela-termodegradavel-heat-away",
+
+    code: "E-136",
     term: "Entretela Termodegradável / Termodestrutível (Heat-Away sem Água)",
     englishTerm: "Heat-Away & Thermal Degradable Stabilizer for Non-Washable Fabrics",
     letter: "E",
@@ -280,6 +292,8 @@ export const NOVOS_VERBETES_LETRA_E2: Verbete[] = [
   },
   {
     id: "e-lote2-028-extensao-ponto-salto-maxima-jump-stitch",
+
+    code: "E-137",
     term: "Extensão de Ponto de Salto Máxima (Jump Stitch Threshold & Speed Limit)",
     englishTerm: "Maximum Jump Stitch Distance & High-Speed Trimming Threshold",
     letter: "E",
@@ -326,6 +340,8 @@ export const NOVOS_VERBETES_LETRA_E2: Verbete[] = [
   },
   {
     id: "e-lote2-029-efeito-trapunto-bastidor-manta-r1-r2",
+
+    code: "E-138",
     term: "Efeito Trapunto no Bastidor com Manta Acrílica R1 e R2",
     englishTerm: "In-the-Hoop Trapunto Technique with High-Loft Batting (R1/R2)",
     letter: "E",
@@ -373,6 +389,8 @@ export const NOVOS_VERBETES_LETRA_E2: Verbete[] = [
   },
   {
     id: "e-lote2-030-eixo-comando-mudanca-cor-geneva",
+
+    code: "E-139",
     term: "Eixo de Comando de Mudança de Cor (Color Change Cam Box & Geneva)",
     englishTerm: "Color Change Cam Box & Geneva Mechanism in Multi-Needle Head",
     letter: "E",
@@ -420,6 +438,8 @@ export const NOVOS_VERBETES_LETRA_E2: Verbete[] = [
   },
   {
     id: "e-lote2-031-estabilizacao-tule-ilusion-renda-noiva",
+
+    code: "E-140",
     term: "Estabilização de Tule Ilusion e Renda Francesa para Moda Noiva",
     englishTerm: "Illusion Tulle & French Lace Stabilization for Bridal Haute-Couture",
     letter: "E",
@@ -467,6 +487,8 @@ export const NOVOS_VERBETES_LETRA_E2: Verbete[] = [
   },
   {
     id: "e-lote2-032-efeito-sombra-difusao-borda-ponto-matiz",
+
+    code: "E-141",
     term: "Efeito Sombra e Difusão de Borda com Ponto Matiz Radial",
     englishTerm: "Drop Shadow & Radial Feathered Edge Stitching",
     letter: "E",
@@ -515,6 +537,8 @@ export const NOVOS_VERBETES_LETRA_E2: Verbete[] = [
   },
   {
     id: "e-lote2-033-enrolamento-excentrico-carretel-bobina",
+
+    code: "E-142",
     term: "Enrolamento Excêntrico de Carretel de Bobina (Vibração e Ruptura de Laço)",
     englishTerm: "Eccentric Bobbin Winding & Thread Tension Oscillation Diagnostics",
     letter: "E",
@@ -561,6 +585,8 @@ export const NOVOS_VERBETES_LETRA_E2: Verbete[] = [
   },
   {
     id: "e-lote2-034-espelho-convexo-concavo-matriz-envelope",
+
+    code: "E-143",
     term: "Espelho Convexo e Côncavo de Matriz (Envelope Distortion Shaping)",
     englishTerm: "Envelope Distortion & Convex/Concave Stitch Reshaping",
     letter: "E",
@@ -608,6 +634,8 @@ export const NOVOS_VERBETES_LETRA_E2: Verbete[] = [
   },
   {
     id: "e-lote2-035-entretela-malha-fusivel-weft-insertion",
+
+    code: "E-144",
     term: "Entretela de Malha Fusível com Elasticidade Unidirecional (Weft Insertion)",
     englishTerm: "Weft Insertion Fusible Knit Stabilizer for Activewear & Polo Shirts",
     letter: "E",
@@ -655,6 +683,8 @@ export const NOVOS_VERBETES_LETRA_E2: Verbete[] = [
   },
   {
     id: "e-lote2-036-ergonomia-operacional-atelie-bordado",
+
+    code: "E-145",
     term: "Ergonomia Operacional no Ateliê de Bordado (Prevenção de LER/DORT)",
     englishTerm: "Ergonomic Workflow & Repetitive Strain Injury Prevention in Embroidery",
     letter: "E",
@@ -702,6 +732,8 @@ export const NOVOS_VERBETES_LETRA_E2: Verbete[] = [
   },
   {
     id: "e-lote2-037-efeito-granulado-neve-pontos-livres-stipple",
+
+    code: "E-146",
     term: "Efeito Granulado / Efeito Neve com Pontos Livres (Stipple & Meander)",
     englishTerm: "Granular Stipple & Snow Texture Infill with Freeform Meander Stitches",
     letter: "E",
@@ -748,6 +780,8 @@ export const NOVOS_VERBETES_LETRA_E2: Verbete[] = [
   },
   {
     id: "e-lote2-038-escovamento-pos-bordado-fios-la-chenille",
+
+    code: "E-147",
     term: "Escovamento Pós-Bordado para Fios de Lã e Chenille (Brushed Embroidery)",
     englishTerm: "Post-Embroidery Wire Brushing for Wool & Acrylic Loop Fluffing",
     letter: "E",
@@ -796,6 +830,8 @@ export const NOVOS_VERBETES_LETRA_E2: Verbete[] = [
   },
   {
     id: "e-lote2-039-encoder-optico-rotacao-eixo-principal",
+
+    code: "E-148",
     term: "Encoder Óptico de Rotação do Eixo Principal (Controle de Graus e Sincronismo)",
     englishTerm: "Main Shaft Optical Rotary Encoder & Angular Degree Synchronizer",
     letter: "E",
@@ -843,6 +879,8 @@ export const NOVOS_VERBETES_LETRA_E2: Verbete[] = [
   },
   {
     id: "e-lote2-040-estabilizacao-felpa-alta-filme-soluvel-roupoes",
+
+    code: "E-149",
     term: "Estabilização de Felpa Alta com Filme Hidrossolúvel em Roupões de Banho",
     englishTerm: "High-Loft Terry Cloth & Bathrobe Water-Soluble Topping Stabilization",
     letter: "E",
@@ -891,6 +929,8 @@ export const NOVOS_VERBETES_LETRA_E2: Verbete[] = [
   },
   {
     id: "e-lote2-041-efeito-monograma-entrelacado-vitoriano",
+
+    code: "E-150",
     term: "Efeito Monograma Entrelaçado Inglês Vitoriano (Interlocking Monograms)",
     englishTerm: "Victorian Interlocking & Intertwined Monogram Digitizing",
     letter: "E",
@@ -938,6 +978,8 @@ export const NOVOS_VERBETES_LETRA_E2: Verbete[] = [
   },
   {
     id: "e-lote2-042-entretela-protecao-avesso-recem-nascido-soft-seal",
+
+    code: "E-151",
     term: "Entretela de Proteção de Avesso para Recém-Nascidos (Cloud Cover / Soft Seal)",
     englishTerm: "Soft-Seal & Cloud Cover Iron-On Tender Backing for Babywear",
     letter: "E",
