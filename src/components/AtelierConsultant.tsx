@@ -13,11 +13,12 @@ import {
   Heart,
   BookOpen,
   Calculator,
-  ExternalLink
+  ExternalLink,
+  Star
 } from "lucide-react";
 import { SupportedLanguage } from "../utils/i18n";
 import { INITIAL_VERBETES } from "../data/initialDictionary";
-import { Verbete } from "../types";
+import { Verbete, SavedDiagnostic } from "../types";
 
 export interface ConsultantAdvice {
   title: string;
@@ -38,10 +39,14 @@ export interface ConsultantAdvice {
 
 interface AtelierConsultantProps {
   currentLanguage?: SupportedLanguage;
+  savedDiagnostics?: SavedDiagnostic[];
+  onToggleSaveDiagnostic?: (diagnostic: SavedDiagnostic) => void;
 }
 
 export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
   currentLanguage = "pt",
+  savedDiagnostics = [],
+  onToggleSaveDiagnostic,
 }) => {
   const [userQuery, setUserQuery] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -49,6 +54,36 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
   const adviceResultRef = useRef<HTMLDivElement>(null);
+
+  const isAdviceFavorited = Boolean(
+    advice &&
+    savedDiagnostics.some(
+      (d) => d.title === advice.title || (d.summary && d.summary === advice.situationSummary)
+    )
+  );
+
+  const handleToggleFavoriteAdvice = () => {
+    if (!advice || !onToggleSaveDiagnostic) return;
+    const diagToSave: SavedDiagnostic = {
+      id: `consultoria-${Date.now()}`,
+      savedAt: new Date().toISOString().split("T")[0],
+      severity: "Média",
+      category: "Consultoria Artrelados",
+      title: advice.title,
+      problemDescription: userQuery || advice.title,
+      summary: advice.situationSummary,
+      stepByStepSolution: advice.rescueActionPlan,
+      recommendedSettings: {
+        stabilizer: advice.recommendedMaterials.stabilizer,
+        needle: advice.recommendedMaterials.needle,
+        speed: advice.recommendedMaterials.thread,
+        tension: advice.recommendedMaterials.specialTools,
+      },
+      preventiveAdvice: advice.preventiveAdvice,
+      artreladosTip: advice.artreladosGoldenTip,
+    };
+    onToggleSaveDiagnostic(diagToSave);
+  };
 
   useEffect(() => {
     if (advice && adviceResultRef.current) {
@@ -147,6 +182,11 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
   const getOfflineFallbackAdvice = (query: string): ConsultantAdvice => {
     const q = query.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
+    // Extração inteligente do nome do usuário
+    const nameMatch = query.match(/(?:meu nome [eé]|me chamo|sou [ao]|aqui [eé] [ao]|chamo-me)\s+([A-ZÁÉÍÓÚÂÊÔÃÕÇ][a-záéíóúâêôãõç]+)/i);
+    const userName = nameMatch ? nameMatch[1] : "";
+    const greeting = userName ? `Olá, ${userName}! ` : "";
+
     // Prioridade Máxima: Panos de Prato / Sacaria / Pano de Copa / Pano Pé-de-Galinha
     if (
       q.includes("prato") ||
@@ -161,7 +201,7 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
       return {
         title: "Primeiros Passos de Sucesso: Guia Completo Artrelados para Bordar Panos de Prato com Perfeição e Lucro",
         situationSummary:
-          "Que escolha maravilhosa para começar no bordado, minha querida! Bordar panos de prato e peças de sacaria é a porta de entrada mais nobre, acolhedora e lucrativa do nosso ateliê. A sacaria (seja a clássica trama pé-de-galinha ou a lisa 100% algodão) é um tecido com espaçamento natural entre os fios. O segredo de ouro para não ter medo e fazer peças que encantam desde o primeiro teste é usar a estabilização correta para a linha não afundar e montar com técnica flutuante sem deformar a barra.",
+          `${greeting}Que escolha maravilhosa para começar no bordado, minha querida! Bordar panos de prato e peças de sacaria é a porta de entrada mais nobre, acolhedora e lucrativa do nosso ateliê. A sacaria (seja a clássica trama pé-de-galinha ou a lisa 100% algodão) é um tecido com espaçamento natural entre os fios. O segredo de ouro para não ter medo e fazer peças que encantam desde o primeiro teste é usar a estabilização correta para a linha não afundar e montar com técnica flutuante sem deformar a barra.`,
         rescueActionPlan: [
           "Passo 1: Preparação da Sacaria e Escolha da Matriz Ideal. Sempre pré-lave ou umedeça e passe a ferro a sacaria antes de cortar ou bordar, pois o algodão puro tem encolhimento natural de 5% a 8%. Para quem está começando, escolha matrizes alegres e leves: apliques fofos com retalhos de tricoline 100% algodão, galinhas e motivos de cozinha em ponto rippled (sombreado) ou barrados florais delicados. Evite matrizes com tatami pesado e denso, que endurecem o pano de prato e dificultam a secagem da louça.",
           "Passo 2: Montagem com Técnica Flutuante no Bastidor. Jamais aperte a sacaria direto no aro do bastidor para não esgarçar a trama nem deixar marcas permanentes de pressão. Estique apenas a entretela rasgável média (40g a 50g) no bastidor bem firme, esticada como a pele de um tambor. Aplique uma leve névoa de cola spray temporária suave e apoie a barra do pano de prato por cima, ativando a função de alinhavo perimetral (basting frame) da sua máquina.",
@@ -1107,18 +1147,18 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
     if (!advice) return;
     const textToCopy = `*🌟 CONSULTORIA ARTRELADOS — DIBE*\n\n` +
       `📌 *${advice.title}*\n\n` +
-      `📖 *Situação:* ${advice.situationSummary}\n\n` +
-      `🛠️ *Passo a Passo de Resgate:*\n${advice.rescueActionPlan.map((s, idx) => `${idx + 1}. ${s}`).join("\n")}\n\n` +
-      `🧵 *Materiais Recomendados:*\n` +
-      (advice.recommendedMaterials.stabilizer ? `• Entretela: ${advice.recommendedMaterials.stabilizer}\n` : "") +
-      (advice.recommendedMaterials.needle ? `• Agulha: ${advice.recommendedMaterials.needle}\n` : "") +
-      (advice.recommendedMaterials.thread ? `• Linha: ${advice.recommendedMaterials.thread}\n` : "") +
-      (advice.recommendedMaterials.specialTools ? `• Ferramentas: ${advice.recommendedMaterials.specialTools}\n` : "") +
-      (advice.commercialVision ? `\n💼 *Visão Comercial & Valor Agregado:*\n${advice.commercialVision}\n` : "") +
-      `\n🛡️ *Prevenção:* ${advice.preventiveAdvice}\n\n` +
-      `💡 *Dica de Ouro Artrelados:* ${advice.artreladosGoldenTip}\n\n` +
-      `📊 *Calculadora Oficial Artrelados (CABE):* Conheça a ferramenta oficial e transforme a gestão e a precificação do seu ateliê: https://www.artrelados.com.br/calculadora-de-bordados-a-maquina-br\n\n` +
-      (advice.relatedDibeTerms && advice.relatedDibeTerms.length > 0 ? `📚 *Verbetes do DIBE Consultados:* ${advice.relatedDibeTerms.join(", ")}\n\n` : "") +
+      `❤️ *1. COMPREENDENDO O SEU DESAFIO:*\n${advice.situationSummary}\n\n` +
+      `🛠️ *2. PASSO A PASSO PRÁTICO PARA SALVAR A PEÇA (OU EXECUTAR O PROJETO):*\n${advice.rescueActionPlan.map((s, idx) => `${idx + 1}. ${s}`).join("\n")}\n\n` +
+      `🧵 *3. MATERIAIS & FERRAMENTAS RECOMENDADAS:*\n` +
+      (advice.recommendedMaterials.stabilizer ? `• ENTRETELA / PELÍCULA: ${advice.recommendedMaterials.stabilizer}\n` : "") +
+      (advice.recommendedMaterials.needle ? `• AGULHA IDEAL: ${advice.recommendedMaterials.needle}\n` : "") +
+      (advice.recommendedMaterials.thread ? `• LINHAS RECOMENDADAS: ${advice.recommendedMaterials.thread}\n` : "") +
+      (advice.recommendedMaterials.specialTools ? `• FERRAMENTAS & MACETES: ${advice.recommendedMaterials.specialTools}\n` : "") +
+      (advice.commercialVision ? `\n💼 *4. VISÃO COMERCIAL & VALOR AGREGADO (OU DICA DE PRODUÇÃO):*\n${advice.commercialVision}\n` : "") +
+      `\n💡 *5. DICA DE OURO ARTRELADOS:*\n${advice.artreladosGoldenTip}\n\n` +
+      (advice.preventiveAdvice ? `🛡️ *6. PARA AS PRÓXIMAS PEÇAS:*\n${advice.preventiveAdvice}\n\n` : "") +
+      (advice.relatedDibeTerms && advice.relatedDibeTerms.length > 0 ? `📖 *7. VERBETES DO DIBE QUE FUNDAMENTARAM ESTA RESPOSTA:*\n${advice.relatedDibeTerms.join(", ")}\n\n` : "") +
+      `📊 *Calculadora Oficial Artrelados (CABE):* https://www.artrelados.com.br/calculadora-de-bordados-a-maquina-br\n\n` +
       `_Compêndio Oficial DIBE Artrelados • www.artrelados.com.br_`;
 
     navigator.clipboard.writeText(textToCopy);
@@ -1263,26 +1303,45 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
               </h4>
             </div>
 
-            <div className="flex items-center space-x-2">
+            <div className="flex flex-wrap items-center gap-2">
+              {/* Botão Principal: Estrelinha de Favoritar no Meu Caderno de Ateliê */}
+              {onToggleSaveDiagnostic && (
+                <button
+                  type="button"
+                  onClick={handleToggleFavoriteAdvice}
+                  className={`px-4 py-2 rounded-xl text-xs font-black transition inline-flex items-center space-x-1.5 cursor-pointer border shadow-2xs ${
+                    isAdviceFavorited
+                      ? "bg-amber-400 text-slate-950 border-amber-500 shadow-xs hover:bg-amber-300"
+                      : "bg-amber-50/90 hover:bg-amber-100 text-amber-950 border-amber-300"
+                  }`}
+                  title={isAdviceFavorited ? "Remover do Meu Caderno de Favoritos" : "Salvar no Meu Caderno de Favoritos (Aba 3)"}
+                >
+                  <Star className={`w-4 h-4 ${isAdviceFavorited ? "text-slate-950 fill-slate-950" : "text-amber-600 fill-amber-400"}`} />
+                  <span>{isAdviceFavorited ? "Salvo no Meu Caderno!" : "Salvar nos Favoritos ⭐"}</span>
+                </button>
+              )}
+
+              {/* Botão de Copiar */}
               <button
                 type="button"
                 onClick={handleCopyAdvice}
-                className="px-4 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold transition inline-flex items-center space-x-1.5 cursor-pointer border border-slate-200 shadow-2xs"
+                className="px-3.5 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold transition inline-flex items-center space-x-1.5 cursor-pointer border border-slate-200 shadow-2xs"
                 title="Copiar orientação para enviar no WhatsApp ou grupo"
               >
                 {copied ? (
                   <>
                     <Check className="w-3.5 h-3.5 text-emerald-600" />
-                    <span className="text-emerald-700 font-black">Copiado com Sucesso!</span>
+                    <span className="text-emerald-700 font-black">Copiado!</span>
                   </>
                 ) : (
                   <>
                     <Copy className="w-3.5 h-3.5 text-slate-700" />
-                    <span>Copiar Conselho</span>
+                    <span>Copiar</span>
                   </>
                 )}
               </button>
 
+              {/* Botão de Nova Consulta */}
               <button
                 type="button"
                 onClick={() => {
@@ -1312,7 +1371,7 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
           <div className="space-y-3">
             <h5 className="text-xs sm:text-sm font-black text-slate-900 uppercase tracking-wider flex items-center gap-2">
               <Wrench className="w-4 h-4 text-amber-600" />
-              <span>Passo a Passo Prático para Salvar a Peça:</span>
+              <span>Passo a Passo Prático para Salvar a Peça (ou Executar o Projeto):</span>
             </h5>
             <div className="space-y-2.5">
               {advice.rescueActionPlan.map((step, idx) => (
@@ -1385,7 +1444,7 @@ export const AtelierConsultant: React.FC<AtelierConsultantProps> = ({
           {advice.commercialVision && (
             <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-emerald-50 via-emerald-100/40 to-teal-50 border border-emerald-300/80 space-y-1.5 shadow-2xs">
               <span className="text-[11px] font-black text-emerald-950 uppercase tracking-wider flex items-center gap-1.5">
-                <span>💼 Visão Comercial & Valor Agregado:</span>
+                <span>💼 Visão Comercial & Valor Agregado (ou Dica de Produção):</span>
               </span>
               <p className="text-xs sm:text-sm text-slate-800 font-semibold leading-relaxed">
                 {advice.commercialVision}

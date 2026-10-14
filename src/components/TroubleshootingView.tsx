@@ -194,7 +194,11 @@ export const TroubleshootingView: React.FC<TroubleshootingViewProps> = ({
 
       {/* SEÇÃO 1: CONSULTORA ARTRELADOS (SOCORRO PARA PEÇAS & QUALQUER DÚVIDA) */}
       {activeTab === "consultant" && (
-        <AtelierConsultant currentLanguage={currentLanguage} />
+        <AtelierConsultant
+          currentLanguage={currentLanguage}
+          savedDiagnostics={savedDiagnostics}
+          onToggleSaveDiagnostic={onToggleSaveDiagnostic}
+        />
       )}
 
       {/* SECTION 1: DIAGNOSTIC ASSISTANT */}
