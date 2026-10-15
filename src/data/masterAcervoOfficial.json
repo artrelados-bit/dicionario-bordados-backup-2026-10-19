@@ -21083,7 +21083,7 @@
   },
   {
     "id": "b-007-bobbin-case",
-    "code": "B-007",
+    "code": "C-007",
     "term": "Caixa de Bobina",
     "level": "Fundamental 🟢",
     "grammarClass": "Substantivo feminino.",
@@ -21165,7 +21165,7 @@
       "ARTRELADOS. Manual de Manutenção Preventiva e Tensão de Bobina. Brasil, 2024."
     ],
     "updatedAt": "2026-08-19",
-    "letter": "B"
+    "letter": "C"
   },
   {
     "id": "b-008-backing",
@@ -22081,7 +22081,7 @@
   },
   {
     "id": "b-019-bobbin-thread",
-    "code": "B-019",
+    "code": "L-019",
     "term": "Linha da Bobina",
     "level": "Fundamental 🟢",
     "grammarClass": "Substantivo feminino.",
@@ -22159,7 +22159,7 @@
       "ARTRELADOS. Calibração de Tensão e Cuidados com a Linha de Bobina. Brasil, 2024."
     ],
     "updatedAt": "2026-08-19",
-    "letter": "B"
+    "letter": "L"
   },
   {
     "id": "b-020-bordado-em-camadas",
@@ -24681,7 +24681,7 @@
   },
   {
     "id": "b-052-basting-box-caixa-de-alinhavo",
-    "code": "B-052",
+    "code": "C-052",
     "term": "Caixa de Alinhavo Perimétrico",
     "level": "Fundamental 🟢",
     "category": "Bastidores & Fixação",
@@ -24742,7 +24742,7 @@
       "ARTRELADOS. O Poder do Basting Box: Como Bordar Toalhas e Roupas Sem Marcar o Bastidor. São Paulo: Artrelados, 2024."
     ],
     "updatedAt": "2026-08-19",
-    "letter": "B"
+    "letter": "C"
   },
   {
     "id": "b-053-barra-de-pressao-e-regulador-do-calcador",
@@ -24937,7 +24937,7 @@
   },
   {
     "id": "b-056-branching-ramificacao-automatica-no-software",
-    "code": "B-056",
+    "code": "R-056",
     "term": "Ramificação Automática de Matriz",
     "level": "Avançado 🔴",
     "category": "Programação de Bordado",
@@ -24997,7 +24997,7 @@
       "ARTRELADOS. O Segredo do Bordado Sem Cortes: Como Usar o Branching Para Multiplicar Sua Produção. São Paulo: Artrelados, 2024."
     ],
     "updatedAt": "2026-08-19",
-    "letter": "B"
+    "letter": "R"
   },
   {
     "id": "b-057-bloco-tensor-e-discos-de-tensao-superiores",
@@ -25194,7 +25194,7 @@
   },
   {
     "id": "b-060-blower-soprador-termico-de-acabamento",
-    "code": "B-060",
+    "code": "S-060",
     "term": "Soprador Térmico para Acabamento",
     "level": "Fundamental 🟢",
     "category": "Acabamento & Manutenção",
@@ -25253,7 +25253,7 @@
       "ARTRELADOS. O Toque Final do Ateliê: Como Usar o Soprador Térmico Para Acabamentos Impecáveis. São Paulo: Artrelados, 2024."
     ],
     "updatedAt": "2026-08-19",
-    "letter": "B"
+    "letter": "S"
   },
   {
     "id": "b-061-botao-start-stop-e-controle-de-pedal",
@@ -26962,7 +26962,7 @@
   },
   {
     "id": "b-068-bobina-de-bordado-linha-de-bobina",
-    "code": "B-068",
+    "code": "L-068",
     "term": "Linha de Bobina para Bordado",
     "pronunciation": "bo-bi-na de bor-da-do / li-nha de bo-bi-na",
     "level": "Fundamental 🟢",
@@ -27022,11 +27022,11 @@
       "AMANN GROUP. Technical Guide for High-Speed Embroidery Bobbins. Bönnigheim, 2022."
     ],
     "updatedAt": "2026-08-23",
-    "letter": "B"
+    "letter": "L"
   },
   {
     "id": "b-069-bico-de-pato-tesoura-pelicano-applique",
-    "code": "B-069",
+    "code": "T-069",
     "term": "Tesoura Bico de Pato",
     "pronunciation": "bi-co de pa-to / te-sou-ra pe-li-ca-no",
     "level": "Fundamental 🟢",
@@ -27084,7 +27084,7 @@
       "ARTRELADOS. Guia de Ferramentas Essenciais do Ateliê de Bordado. Curitiba, 2024."
     ],
     "updatedAt": "2026-08-23",
-    "letter": "B"
+    "letter": "T"
   },
   {
     "id": "b-070-borda-em-ponto-cheio-satin-border",
@@ -27151,7 +27151,7 @@
   },
   {
     "id": "b-071-backing-textil-entretela-estrutural",
-    "code": "B-071",
+    "code": "E-071",
     "term": "Entretela de Fundo",
     "pronunciation": "ba-king tecs-til / en-tre-te-la de fun-do",
     "level": "Fundamental 🟢",
@@ -27211,11 +27211,11 @@
       "HOOPMASTER. Proper Backing Selection for Tubular Embroidery. Ohio, 2022."
     ],
     "updatedAt": "2026-08-23",
-    "letter": "B"
+    "letter": "E"
   },
   {
     "id": "b-072-bridge-stitch-ponto-de-ponte-ligacao",
-    "code": "B-072",
+    "code": "P-072",
     "term": "Ponto de Ligação",
     "pronunciation": "bri-dji stitch / pon-to de pon-te",
     "level": "Intermediário 🟡",
@@ -27273,7 +27273,7 @@
       "TAJIMA. High-Speed Production Workflow: Reducing Trims and Cycle Time. Nagoya, 2021."
     ],
     "updatedAt": "2026-08-23",
-    "letter": "B"
+    "letter": "P"
   },
   {
     "id": "b-073-barra-de-agulhas-multiplas-troca-de-cor",
@@ -34992,7 +34992,7 @@
   },
   {
     "id": "c-063-caixa-transporte-dentes-rebaixados",
-    "code": "C-063",
+    "code": "D-063",
     "term": "Dentes Impulsores Rebaixados",
     "pronunciation": "cai-xa de trans-por-te / den-tes im-pul-so-res",
     "level": "Fundamental 🟢",
@@ -35051,7 +35051,7 @@
       "JANOME. Drop Feed Lever Operation and Maintenance Guide. Tokyo, 2022."
     ],
     "updatedAt": "2026-08-22",
-    "letter": "C"
+    "letter": "D"
   },
   {
     "id": "c-064-curvatura-de-ponto-bezier-tuning",
@@ -35119,7 +35119,7 @@
   },
   {
     "id": "c-065-cera-lubrificante-de-linha-silicone-oil",
-    "code": "C-065",
+    "code": "O-065",
     "term": "Óleo de Silicone Líquido para Linha",
     "pronunciation": "ce-ra e lu-bri-fi-can-te de li-nha",
     "level": "Intermediário 🟡",
@@ -35179,7 +35179,7 @@
       "SUPERIOR THREADS. Sewer's Aid Silicone Lubrication and Thread Friction Control. Utah, 2021."
     ],
     "updatedAt": "2026-08-22",
-    "letter": "C"
+    "letter": "O"
   },
   {
     "id": "c-066-corte-salto-jump-stitch-trim",
@@ -35308,8 +35308,8 @@
   },
   {
     "id": "c-068-chenille-e-ponto-lacada-efeito-toalha",
-    "code": "C-068",
-    "letter": "C",
+    "code": "P-068",
+    "letter": "P",
     "term": "Ponto Chenille e Laçada",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo masculino composto.",
@@ -42246,7 +42246,7 @@
   },
   {
     "id": "d-048-dupla-face-bordado-limpo",
-    "code": "D-048",
+    "code": "B-048",
     "term": "Bordado Dupla Face",
     "level": "Intermediário 🟡",
     "category": "Acabamento & Finalização",
@@ -42303,7 +42303,7 @@
       "ARTRELADOS. O Avesso Perfeito: Técnicas para Encantar Clientes de Enxovais Finos. São Paulo: Artrelados, 2024."
     ],
     "updatedAt": "2026-08-19",
-    "letter": "D"
+    "letter": "B"
   },
   {
     "id": "d-049-debrum-bordado",
@@ -42753,7 +42753,7 @@
   },
   {
     "id": "d-056-deslocamento-por-queda-de-energia-retomada-de-ponto",
-    "code": "D-056",
+    "code": "R-056b",
     "term": "Retomada de Ponto por Queda de Energia",
     "level": "Fundamental 🟢",
     "category": "Operação da Máquina",
@@ -42816,7 +42816,7 @@
       "ARTRELADOS. Salvação de Peças no Ateliê: Como Retomar Bordados Após Quedas de Energia Sem Deixar Marcas. São Paulo: Artrelados, 2024."
     ],
     "updatedAt": "2026-08-19",
-    "letter": "D"
+    "letter": "R"
   },
   {
     "id": "d-057-dinamometro-textil-medidor-de-tensao-towa",
@@ -49692,8 +49692,8 @@
   },
   {
     "id": "e-087-estrutura-fio-poliester-trilobal-algodao-mercerizado",
-    "code": "E-087",
-    "letter": "E",
+    "code": "F-087",
+    "letter": "F",
     "term": "Fio de Poliéster Trilobal vs. Algodão Mercerizado",
     "level": "Intermediário 🟡",
     "grammarClass": "Substantivo feminino composto.",
@@ -50508,8 +50508,8 @@
   },
   {
     "id": "e-095-estudo-friccao-aquecimento-agulhas-titanio",
-    "code": "E-095",
-    "letter": "E",
+    "code": "A-095",
+    "letter": "A",
     "term": "Aquecimento de Agulhas de Titânio",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo masculino composto.",
@@ -51037,8 +51037,8 @@
   },
   {
     "id": "e-100-engenharia-otimizacao-global-trajetoria-reducao-saltos",
-    "code": "E-100",
-    "letter": "E",
+    "code": "O-100",
+    "letter": "O",
     "term": "Otimização Global de Trajetória",
     "level": "Avançado 🔴",
     "grammarClass": "Substantivo feminino composto.",
@@ -52812,9 +52812,9 @@
   },
   {
     "id": "e-024-esterilizacao-e-higienizacao-de-enxovais",
-    "code": "E-024",
+    "code": "H-024",
     "term": "Higienização e Cuidados com Bordados",
-    "letter": "E",
+    "letter": "H",
     "level": "Fundamental 🟢",
     "category": "Boas Práticas & Produtividade",
     "grammarClass": "Substantivo feminino composto.",
@@ -53008,9 +53008,9 @@
   },
   {
     "id": "e-044-extrator-de-parafusos-e-ferramentas-de-chapa-de-agulha",
-    "code": "E-044",
+    "code": "C-044",
     "term": "Chave Moeda e Extrator de Parafusos",
-    "letter": "E",
+    "letter": "C",
     "level": "Fundamental 🟢",
     "category": "Ferramentas & Acessórios",
     "grammarClass": "Substantivo masculino composto.",
@@ -53138,9 +53138,9 @@
   },
   {
     "id": "e-046-eletroima-de-corte-e-solenoide-do-aparador",
-    "code": "E-046",
+    "code": "S-046",
     "term": "Solenoide e Eletroímã de Corte",
-    "letter": "E",
+    "letter": "S",
     "level": "Avançado 🔴",
     "category": "Mecânica & Ajustes",
     "grammarClass": "Substantivo masculino composto.",
@@ -213487,5 +213487,1009 @@
       "ARTRELADOS. Consultoria Técnica Avançada de Matrizes e Bordados. Curitiba, 2024."
     ],
     "updatedAt": "2026-09-08"
+  },
+  {
+    "id": "a-161-avental-masculino-de-cozinha",
+    "code": "A-161",
+    "term": "Avental Masculino de Cozinha",
+    "englishTerm": "Men's Cooking Apron & Culinary Chef Bib Embroidery",
+    "letter": "A",
+    "level": "Intermediário 🟡",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Do francês 'avantau' e do latim 'abante' (que protege a frente do corpo). Na gastronomia contemporânea, o avental de cozinha masculino migrou das cozinhas de serviço para a área social gourmet, tornando-se peça de destaque e presente nobre para pais, chefs amadores e entusiastas da culinária.",
+    "summary": "Diretrizes completas de estabilização, matrizaria e posicionamento anatômico para bordados personalizados em aventais masculinos de cozinha e gastronomia.",
+    "definition": "O Avental Masculino de Cozinha compreende a padronização técnica de matriz, estabilização e bordado computadorizado aplicada a aventais gastronômicos masculinos confeccionados em sarja média, brim peletizado, gabardine de alta densidade e mesclas de algodão com poliéster. Por ser uma peça submetida a vapores de cocção, respingos de azeite e frequentes ciclos de lavagem com detergentes desengordurantes, o bordado no peito exige linhas de poliéster 100% trilobal de alta solidez, entretela recortável estável (Cutaway) e subpontos densos que evitem o afundamento dos fios na trama rústica do tecido.",
+    "howItWorks": [
+      "1. Demarca-se o eixo vertical central do avental e mede-se a altura anatômica do peito: o centro do bordado deve ficar entre 7 cm e 8 cm (cerca de 4 dedos) abaixo do decote superior.",
+      "2. Fixa-se entretela de recorte (Cutaway) de 80 g/m² no bastidor retangular (16x26 cm ou 18x30 cm) bem tensionada como um tambor.",
+      "3. Aplica-se adesivo temporário em spray no verso do avental ou posiciona-se a peça pela técnica de flutuação (floating) para não esmagar a sarja nos aros plásticos.",
+      "4. Utiliza-se agulha calibre 80/12 ou 90/14 ponta universal ou ponta bola leve (SES) e linha de poliéster 40wt com alta tenacidade à tração.",
+      "5. A máquina executa subpontos de ancoragem em tatami aberto antes de preencher as colunas de ponto cheio das letras e do brasão.",
+      "6. Ao término, retira-se o excesso de entretela recortando pelo avesso a cerca de 3 mm do contorno com tesoura de ponta curva de precisão."
+    ],
+    "beginnerExplanation": "É um dos presentes masculinos mais procurados no ateliê para o Dia dos Pais, aniversários e confrarias de cozinha! O cliente sempre quer o nome do cozinheiro, uma frase bem-humorada ou um chapéu de chef com talheres cruzados. O grande segredo para não errar é não prender o tecido grosso direto no bastidor para não deixar marcas brancas no brim; o jeito profissional é prender a entretela no bastidor e colar o avental em cima bem alinhadinho com fita ou cola spray temporária!",
+    "applications": [
+      "Aventais de cozinha em sarja preta com monogramas em fio dourado para chefs amadores.",
+      "Aventais culinários em brim cru e cáqui com brasões gastronômicos de famílias e confrarias.",
+      "Kits de presente com avental de cozinha, pano de prato gourmet e luva térmica combinando.",
+      "Uniformes elegantes para equipes de bistrôs, hamburguerias e restaurantes artesanais."
+    ],
+    "technicalDetails": "Em sarjas e brins culinários entre 200 g/m² e 280 g/m², a Compensação de Repuxo (Pull Compensation) deve ser regulada entre 0,38 mm e 0,45 mm, com densidade de ponto cheio (Satin) calibrada em 0,40 mm. Caso o desenho inclua letras com colunas superiores a 7 mm de largura, deve-se aplicar partição automática em Tatami ou ponto dividido para evitar laçadas frouxas que enrosquem em colheres e facas. Velocidade ideal na bordadeira: 600 a 700 PPM.",
+    "matrixRelations": "Conecta-se diretamente com Compensação de Repuxo (Pull Compensation), Subpontos de Ancoragem (Underlay), Ponto Satim com Partição, Entretela de Recorte (Cutaway), Agulhas de Calibre 80/12 e 90/14, e Velocidade Operacional PPM.",
+    "commonErrors": [
+      "❌ Usar entretela rasgável fina (Tearaway) de 40 g/m², que se desfaz após as primeiras lavagens na máquina e deixa o bordado amassado e enrugado para sempre.",
+      "❌ Centralizar o bordado no meio de todo o comprimento do avental, fazendo o desenho cair na altura da barriga em vez de permanecer elegante e visível no peito.",
+      "❌ Empregar fontes finas e delicadas com traços menores que 1 mm, que afundam nas nervuras da sarja e ficam ilegíveis à distância.",
+      "❌ Apertar o parafuso do aro plástico com força excessiva contra o brim escuro, gerando marcas permanentes de estiramento mecânico (hoop burn)."
+    ],
+    "howToIdentify": "Se as letras do nome parecerem encolhidas no sentido da costura ou o tecido ao redor do brasão franzir após retirar do bastidor, aumente a compensação de repuxo para 0,45 mm e reforce a camada de entretela recortável. Se a linha superior arrebentar nos pontos de preenchimento denso, reduza a velocidade para 650 PPM e troque a agulha por uma nova de calibre 90/14.",
+    "troubleshootingTips": [
+      "Tecido do avental ficou com aro brilhante do bastidor: pulverize água filtrada suavemente com borrifador e passe ferro com vapor médio protegido por um pano de algodão fino.",
+      "Bordado com fios desfiando na passagem pela agulha: verifique se a agulha não está torta ou com a ponta rombuda devido à aspereza da sarja pesada e instale agulha 90/14 nova.",
+      "Nomes com letras desalinhadas em relação ao decote: utilize sempre uma régua em L ou gabarito de acrílico para medir a distância milimétrica exata da borda superior antes de colar o avental."
+    ],
+    "dicaArtrelados": "Regra de ouro do Ateliê Artrelados para aventais culinários: sempre borde antes de montar bolsos adicionais ou alças decorativas caso você esteja confeccionando a peça do zero! Se o avental já vier pronto da confecção, dobre o peito exatamente ao meio no sentido vertical e vinque suavemente a ferro para ter a linha de centro infalível, garantindo que o bordado fique perfeitamente centralizado em relação ao pescoço!",
+    "voceSabia": "O modelo de avental com babador peitoral e tiras cruzadas ou passadas no pescoço foi popularizado no início do século XX e tornou-se a vestimenta oficial das grandes escolas de gastronomia francesas como a Le Cordon Bleu, sendo hoje uma das peças masculinas personalizadas com maior taxa de recomendação entre clientes de ateliê!",
+    "practicalExercise": "Pegue um retalho de sarja preta de 25x25 cm. Prenda uma entretela recortável de 80 g/m² no bastidor e apoie a sarja com adesivo temporário. No seu programa de matrizes, crie um brasão com a inicial do seu sobrenome em ponto cheio de 4 cm de altura com compensação de 0,40 mm e sob-ponto zigue-zague duplo. Borde na máquina e comprove como o acabamento fica plano, nítido e sem nenhuma ondulação!",
+    "quickSummary": "Manual completo de bordado em aventais masculinos de cozinha, com técnicas de alinhamento peitoral, entretelas de recorte laváveis e parâmetros anti-repuxo para sarjas e brins.",
+    "relatedTerms": [
+      "Avental de Churrasqueiro Personalizado",
+      "Bordado em Brim e Sarja",
+      "Entretela de Recorte (Cut-Away)",
+      "Compensação de Repuxo",
+      "Subpontos de Ancoragem (Underlay)",
+      "Técnica de Flutuação (Floating)",
+      "Marca de Bastidor (Hoop Burn)"
+    ],
+    "tags": [
+      "avental-masculino",
+      "cozinha",
+      "gastronomia",
+      "sarja",
+      "brim",
+      "cutaway",
+      "produtos-masculinos",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "EMBROIDERY MAGAZINE. Commercial Kitchen Workwear and Personalized Aprons. London: Stobart Davies, 2023.",
+      "WILCOM. Heavy Twill and Denim Lettering Guidelines. Sydney, 2022.",
+      "SILVA, Janete M. C. Apostila de Produtos Masculinos e Gastronômicos no Ateliê Artrelados. São Paulo, 2026."
+    ],
+    "updatedAt": "2026-10-15"
+  },
+  {
+    "id": "a-162-avental-profissional-masculino",
+    "code": "A-162",
+    "term": "Avental Profissional Masculino",
+    "englishTerm": "Men's Professional Heavy-Duty Work Apron (Barber, Craftsman & Barista)",
+    "letter": "A",
+    "level": "Avançado 🔴",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva masculina.",
+    "origin": "Derivado dos tradicionais aventais de operários, ferreiros, relojoeiros e curtidores da era da Revolução Industrial. Com a valorização do design artesanal e de barbearias tradicionais (barbershops) no século XXI, transformou-se no símbolo de identidade corporativa e elegância funcional masculina.",
+    "summary": "Técnicas avançadas de bordado de alta tenacidade em aventais profissionais de lona pesada, jeans cru e apliques em couro sintético para barbearias, marcenarias e baristas.",
+    "definition": "O Avental Profissional Masculino compreende a metodologia de matrizaria avançada, perfuração pesada e montagem em bastidor aplicada a aventais utilitários de trabalho para profissionais como barbeiros, marceneiros, sommeliers, tatuadores e artesãos de couro. Confeccionados em materiais ultra-resistentes como lona 100% algodão acima de 300 g/m², jeans cru encorpado (12 a 14 oz), sarja naval e detalhes estruturados em couro sintético (recouro ou Montana), esses aventais exigem bordados de altíssima resistência mecânica capazes de suportar o atrito de tesouras, navalhas, ferramentas manuais e lavagens industriais contínuas sem deformar ou perder a vivacidade dos pontos.",
+    "howItWorks": [
+      "1. Analisa-se a localização dos bolsos utilitários e ilhoses metálicos do avental antes de definir o tamanho da matriz (máximo de 14x14 cm no peito ou 10x8 cm no bolso superior).",
+      "2. Emprega-se a técnica de flutuação sobre entretela de recorte pesada de 90 g/m² montada no bastidor com alfinetamento periférico e reforço de fita crepe nas bordas.",
+      "3. Instala-se agulha industrial ou doméstica reforçada de calibre 90/14 ou 100/16 de ponta pontiaguda (Topstitch ou Microtex) para vencer a densidade das fibras da lona.",
+      "4. Utiliza-se linha 100% poliéster trilobal 40wt de alta tenacidade e regula-se a tensão superior com leve alívio para acomodar a espessura do material.",
+      "5. Caso o bordado seja aplicado sobre um bolso de couro sintético ou recouro, programa-se o contorno com ponto festonê ou satim espaçado (densidade 0,50 mm) para não guilhotinar o material sintético.",
+      "6. A máquina opera em velocidade controlada de 550 a 650 PPM para garantir precisão e dissipação térmica da agulha."
+    ],
+    "beginnerExplanation": "Sabe aqueles aventais estilosos que os barbeiros modernos e donos de hamburguerias usam, cheios de bolsos de couro e alças que cruzam nas costas? Eles são peças super valorizadas! O desafio de bordar neles é que o tecido é muito grosso e pesado. Se você tentar enfiar a lona dura no aro do bastidor comum, vai machucar suas mãos e deixar uma marca horrorosa na peça. A técnica profissional é prender apenas a entretela forte no bastidor e bordar com o avental apoiado por cima com cola spray e alfinetes nas beiradas!",
+    "applications": [
+      "Logotipos de barbearias vintage com tesouras e navalhas bordadas com linha acetinada em lona preta.",
+      "Aventais de marcenaria fina e lutheria com monogramas rústicos e identificação de ferramentas.",
+      "Aventais para baristas de cafeterias especiais em jeans escuro com detalhes em couro marrom.",
+      "Uniformes de ateliês de tatuagem e estúdios de arte com artes monocromáticas de alto contraste."
+    ],
+    "technicalDetails": "A lona pesada e o jeans cru exercem enorme força de fricção sobre a agulha; por isso, a Compensação de Repuxo deve ser calibrada em 0,45 mm a 0,55 mm, e os subpontos de ancoragem devem ser compostos por uma esteira dupla de ponto corrido com ângulo de 90 graus em relação aos pontos de acabamento. O uso de agulhas Schmetz ou Groz-Beckert com revestimento de Nitreto de Titânio (Gold) é altamente recomendado para evitar superaquecimento e quebra de fio a velocidades superiores a 600 PPM.",
+    "matrixRelations": "Conecta-se com Agulhas de Titânio (Gold), Entretela de Recorte Cutaway Pesada, Compensação de Repuxo (Pull Compensation), Bordado em Couro Sintético (Montana), Subpontos Duplos e Velocidade de Costura PPM.",
+    "commonErrors": [
+      "❌ Bordar sobre costuras duplas ou ilhoses metálicos de reforço, provocando colisão violenta do calcador ou quebra instantânea da agulha.",
+      "❌ Usar pontos com densidade muito apertada (0,30 mm a 0,35 mm) em couro sintético ou lona emborrachada, criando uma linha de corte que rasga o tecido como picote de papel.",
+      "❌ Tentar prender a lona grossa diretamente nos aros plásticos do bastidor, quebrando a trava plástica ou gerando desnível na área de bordado.",
+      "❌ Esquecer de reforçar o avesso com entretela recortável, resultando em letras deformadas pelas ferramentas pesadas colocadas nos bolsos adjacentes."
+    ],
+    "howToIdentify": "Se a linha superior romper com aspecto esfarelado e aquecido ao toque, a fricção mecânica na agulha está excessiva; reduza a velocidade para 550 PPM e utilize agulha de titânio 90/14. Se as formas circulares do brasão saírem ovaladas, a lona se deslocou sobre a entretela durante as batidas; aumente a ancoragem com alfinetes ou fita de fixação perimetral.",
+    "troubleshootingTips": [
+      "Lona muito dura que oferece resistência na entrada da agulha: amacie levemente o ponto de aplicação com um pouco de vapor de ferro antes de posicionar no bastidor.",
+      "Pulos de ponto ao transpor dobras de tecido: eleve a altura do calcador em 0,5 mm no painel da máquina para permitir a passagem suave pelas espessuras.",
+      "Farpas de linha no avesso: regule a tensão da caixa de bobina para que o fio inferior apareça exatamente em um terço central da largura das colunas de ponto cheio."
+    ],
+    "dicaArtrelados": "Segredo de mestre do Ateliê Artrelados: para aventais com bolsos de couro sintético ou recouro, faça o bordado no bolso antes de costurá-lo no corpo do avental! Isso economiza tempo, elimina o risco de prender o forro por engano e permite um acabamento limpo e impecável que agrega um valor gigantesco à peça!",
+    "voceSabia": "O design de aventais com alças cruzadas nas costas (chamadas de alças em X ou Cross-back) foi criado para evitar dores cervicais em profissionais que passam 10 a 12 horas em pé com ferramentas pesadas nos bolsos, transferindo todo o peso do pescoço para os ombros e a cintura!",
+    "practicalExercise": "Crie no software um logotipo estilizado com ferramentas cruzadas medindo 9x9 cm. Configure a compensação de repuxo em 0,48 mm e densidade de 0,42 mm. Monte um retalho de lona de algodão de 320 g/m² flutuando sobre entretela de recorte de 90 g/m² com agulha 90/14 e execute o bordado a 600 PPM. Avalie a nitidez das linhas finas e o encaixe perfeito das pontas!",
+    "quickSummary": "Metodologia especializada para bordar aventais profissionais masculinos de barbearia e marcenaria em lona e jeans pesado com alta tenacidade, agulhas reforçadas e flutuação de bastidor.",
+    "relatedTerms": [
+      "Avental Masculino de Cozinha",
+      "Bordado em Lona e Tecidos Pesados",
+      "Agulha de Titânio (Gold)",
+      "Técnica de Flutuação (Floating)",
+      "Entretela de Recorte (Cut-Away)",
+      "Compensação de Repuxo",
+      "Picote de Agulha"
+    ],
+    "tags": [
+      "avental-profissional",
+      "barbeiro",
+      "marcenaria",
+      "lona",
+      "jeans-pesado",
+      "recouro",
+      "produtos-masculinos",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "INDUSTRIAL EMBROIDERY WORKWEAR. Heavy Duty Garments and Apron Customization. Chicago: ST Media, 2024.",
+      "SCHMETZ. Needles for Heavy Canvas and Workwear Fabrics. Albstadt, 2023.",
+      "SILVA, Janete M. C. Peças Utilitárias e Uniformes Masculinos de Alta Resistência. São Paulo: Artrelados, 2026."
+    ],
+    "updatedAt": "2026-10-15"
+  },
+  {
+    "id": "a-163-almofada-decorativa-masculina",
+    "code": "A-163",
+    "term": "Almofada Decorativa Masculina",
+    "englishTerm": "Men's Decorative Pillow & Tailored Monogram Embroidery",
+    "letter": "A",
+    "level": "Intermediário 🟡",
+    "category": "Tipos de Tecidos",
+    "grammarClass": "Locução substantiva feminina com adjetivos técnicos.",
+    "origin": "Do árabe 'al-muhaddah' (apoio para o rosto/cabeça). No design de interiores contemporâneo voltado para o público masculino (estilo industrial, escandinavo e rústico chique), a almofada deixou de ter conotação exclusivamente feminina e assumiu identidade sóbria com texturas de alfaiataria, lãs e couros com monogramas personalizados.",
+    "summary": "Estabilização, seleção de tecidos rústicos e matrizes geométricas para bordados sóbrios em almofadas masculinas e ambientes corporativos ou residenciais.",
+    "definition": "A Almofada Decorativa Masculina consiste na padronização técnica de matrizaria, escolha de materiais e estabilização para a confecção e personalização de capas de almofadas destinadas a dormitórios masculinos, salas de estar, home theaters e escritórios executivos. Confeccionadas em tecidos com toque encorpado e visual sóbrio — como linho misto rústico, sarja peletizada, suede com textura de camurça, veludo cotelê e couro sintético fosco —, essas peças recebem bordados de monogramas geométricos, coordenadas geográficas, emblemas náuticos ou automotivos e heráldica moderna. A execução requer equilíbrio rigoroso entre sustentação mecânica do bordado e maciez ao toque, evitando matrizes excessivamente duras que formem placas rígidas que causem desconforto ao deitar ou apoiar o corpo.",
+    "howItWorks": [
+      "1. Corta-se a frente da almofada com sobra de 3 a 4 cm em toda a volta para permitir folga de encolhimento durante o bordado.",
+      "2. Centraliza-se o desenho traçando eixos X e Y com giz de alfaiate ou caneta fantasminha termossensível.",
+      "3. Em tecidos com textura ou felpa curta (como suede ou cotelê), aplica-se um filme plástico hidrossolúvel fino (Solvy) no topo para manter os pontos perfeitamente assentados sobre as fibras.",
+      "4. Utiliza-se entretela recortável (Cutaway) macia de 60 a 70 g/m² no verso para garantir que a capa não deforme mesmo após múltiplos apoios de peso corporal.",
+      "5. Regula-se a máquina com agulha ponta bola fina (SES 75/11 ou 80/12) e linha de poliéster com acabamento fosco (matte) ou acetinado sutil.",
+      "6. Ao término, dissolve-se o filme hidrossolúvel da superfície com borrifador de água e recorta-se a entretela do avesso com tesoura curva rente ao contorno das letras."
+    ],
+    "beginnerExplanation": "Criar almofadas masculinas é uma excelente oportunidade para o ateliê vender para homens solteiros, pais e profissionais liberais! A chave do sucesso está nas cores e nos desenhos: nada de fontes com muitos arabescos ou florzinhas; o público masculino adora letras retas, monogramas clássicos dentro de losangos ou círculos, e tecidos como linho cinza, suede marrom ou azul-marinho. Para a almofada ficar gostosa de encostar e não ficar parecendo uma tábua de madeira dura, programe pontos com densidade aberta e use uma entretela que seja gostosa de pegar!",
+    "applications": [
+      "Almofadas de linho rústico cinza-chumbo com monogramas masculinos bordados em linha preta fosca e prata velha.",
+      "Almofadas de suede caramelo com brasões náuticos e coordenadas geográficas de lugares marcantes.",
+      "Conjuntos de almofadas para poltronas de leitura e escritórios de advocacia em sarja peletizada e veludo cotelê.",
+      "Almofadas decorativas para quartos juvenis masculinos com silhuetas de montanhas e tipografia minimalista."
+    ],
+    "technicalDetails": "Para manter o conforto anatômico da almofada, a densidade do ponto de preenchimento (Tatami) não deve ser menor que 0,44 mm a 0,48 mm, evitando acúmulo excessivo de linha que endureça a almofada. Para letras em ponto cheio (Satin), mantenha densidade entre 0,40 mm e 0,42 mm com Compensação de Repuxo calibrada em 0,35 mm para linho e 0,40 mm para suede. Velocidade recomendada na máquina: 650 a 750 PPM.",
+    "matrixRelations": "Conecta-se com Compensação de Repuxo, Ponto Tatami com Densidade Aberta, Filme Hidrossolúvel Superior (Solvy), Entretela de Recorte Suave, Agulha Ponta Bola (SES) e Linhas Foscas (Matte Thread).",
+    "commonErrors": [
+      "❌ Bordar com densidade pesadíssima de 0,32 mm, transformando o meio da almofada em uma couraça dura e desconfortável para o usuário.",
+      "❌ Esquecer de aplicar o plástico hidrossolúvel sobre suede ou veludo cotelê, fazendo com que as pontas das letras afundem nas frestas do tecido e fiquem serrilhadas.",
+      "❌ Bordar na almofada já montada e cheia com fibra, em vez de bordar apenas no painel frontal antes da costura de fechamento e colocação do zíper.",
+      "❌ Usar entretela rasgável grossa e dura que amassa e racha internamente toda vez que a pessoa se encosta na almofada."
+    ],
+    "howToIdentify": "Se as ranhuras do veludo cotelê ou as fibras do suede estiverem sobressaindo entre as laçadas do bordado, o filme plástico superior foi omitido ou o sob-ponto foi insuficiente; aplique filme hidrossolúvel e reprograme a matriz com sob-ponto em esteira (edge run + tatami sob-ponto). Se o tecido da almofada repuxar para dentro nas laterais do desenho, eleve a compensação de repuxo.",
+    "troubleshootingTips": [
+      "Suede ficou marcado pelo anel do bastidor: escove delicadamente a felpa com uma escova de cerdas macias ou aplique vapor suave sem encostar o ferro no tecido.",
+      "Bordado com aspecto brilhante artificial demais para decoração sóbria: substitua a linha de poliéster brilhante por linha de poliéster fosca (estilo Frosted Matt) ou linha de algodão mercerizado 50wt.",
+      "Zíper repuxado ao costurar a capa após o bordado: lembre-se de conferir o esquadro do tecido após o bordado, pois bordados densos tendem a retrair o painel em até 5 mm."
+    ],
+    "dicaArtrelados": "Pulo do gato do Ateliê Artrelados: ao confeccionar almofadas decorativas em tecidos grossos, use uma entretela de recorte macia (soft cutaway) e aplique uma camada de termocolante protetor de avesso suave (tipo Cloud Cover) sobre os nós após o bordado. Isso garante que, mesmo quando a almofada for usada sem capa interna, o enchimento de pluma ou fibra siliconada não fique enroscando nas linhas do bordado!",
+    "voceSabia": "O monograma em almofadas decorativas masculinas segue uma regra de heráldica tradicional inglesa: quando se borda uma inicial individual de solteiro, usa-se a inicial do sobrenome em tamanho maior no centro ladeada pelas iniciais menores do primeiro e segundo nome, conferindo ar aristocrático e sofisticado à peça!",
+    "practicalExercise": "Crie um painel de linho rústico cinza de 45x45 cm. Programe um monograma geométrico de 10x10 cm com linhas duplas de ponto cordão e preenchimento leve. Prenda com entretela recortável suave, coloque filme solúvel no topo e borde com linha fosca preta. Sinta a textura final com a palma da mão: o bordado deve se integrar ao tecido de maneira macia e acolhedora!",
+    "quickSummary": "Diretrizes completas para produção de almofadas masculinas decorativas em linho, suede e veludo cotelê, unindo monogramas geométricos sóbrios a parâmetros de maciez tátil.",
+    "relatedTerms": [
+      "Bordado em Linho e Tecidos Nobres",
+      "Bordado em Suede e Camurça",
+      "Filme Hidrossolúvel Superior",
+      "Entretela de Recorte Suave (Soft Cut-Away)",
+      "Compensação de Repuxo",
+      "Ponto Tatami com Densidade Aberta",
+      "Protetor de Avesso Macio"
+    ],
+    "tags": [
+      "almofada-masculina",
+      "decoracao",
+      "linho",
+      "suede",
+      "veludo-cotele",
+      "monograma-geometrico",
+      "produtos-masculinos",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "HOME TEXTILES TODAY. Masculine Aesthetics in Custom Decorative Pillows. New York: BridgeTower Media, 2024.",
+      "MADEIRA THREADS. Frosted Matt Thread in Modern Interior Decoration. Freiburg, 2023.",
+      "SILVA, Janete M. C. Linhas e Texturas: O Guia Completo de Almofadas do Ateliê Artrelados. São Paulo, 2026."
+    ],
+    "updatedAt": "2026-10-15"
+  },
+  {
+    "id": "a-164-almofada-personalizada-para-escritorio",
+    "code": "A-164",
+    "term": "Almofada Personalizada para Escritório",
+    "englishTerm": "Custom Office & Ergonomic Lumbar Support Pillow Embroidery",
+    "letter": "A",
+    "level": "Iniciante 🟢 a Intermediário 🟡",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Surgiu com a expansão das estações ergonômicas de trabalho e do home office executivo no início dos anos 2000. Uniu a necessidade médica de apoio lombar à identidade visual corporativa personalizada para executivos, advogados, médicos e profissionais liberais.",
+    "summary": "Guia técnico de bordado em almofadas ergonômicas e lombares de escritório com logomarcas institucionais, tecidos respiráveis e entretelas suaves.",
+    "definition": "A Almofada Personalizada para Escritório é o produto têxtil ergonômico de suporte lombar e assento corporativo personalizado através de bordado computadorizado. Confeccionada predominantemente em tecidos resistentes ao atrito contínuo, à pressão corporal e à transpiração — como tecidos de estofamento corporativo (Crepe Poliéster resistente, Linho Sintético e Neoprene) —, recebe bordados de logomarcas institucionais, monogramas executivos ou nomes de profissionais. A execução técnica exige estabilização firme que suporte a pressão contínua do peso do corpo contra a cadeira sem romper os pontos ou esticar as letras, aliada ao uso obrigatório de entretela protetora termocolante no avesso para que nós e pontas de fio não perfurem o bloco de espuma viscoelástica (Memory Foam) ou tecido de enchimento.",
+    "howItWorks": [
+      "1. Seleciona-se o tecido frontal da capa lombar, garantindo que seja um material de alta gramatura e resistência a atrito contínuo (como sarja pesada, linho sintético ou neoprene de 2 mm).",
+      "2. Fixa-se uma entretela recortável resistente (Cutaway de 80 g/m²) no bastidor com adesivo temporário para posicionar o tecido de capa.",
+      "3. Ajusta-se o tamanho da logomarca ou monograma para que ocupe a faixa superior ou lateral da almofada (máximo 12x8 cm), evitando concentrar pontos densos exatamente no centro onde a coluna lombar faz pressão máxima contínua.",
+      "4. Configura-se agulha ponta bola de calibre 75/11 ou 80/12 para tecidos elásticos/neoprene ou 90/14 para tecidos de tapeçaria rígidos.",
+      "5. Utilizam-se linhas de poliéster 40wt de alta tenacidade que resistam ao atrito diário das roupas e paletós sem desfiar.",
+      "6. Ao finalizar o bordado e recortar a entretela, sela-se o avesso com um filme termoprotetor suave para proteger o núcleo de espuma ergonômica."
+    ],
+    "beginnerExplanation": "É uma das peças mais vendidas para presentes corporativos de fim de ano, formaturas e para profissionais que passam o dia inteiro sentados trabalhando no computador! O grande detalhe de ateliê é: nunca coloque o bordado bem no meiozão onde a pessoa apoia o meio das costas, porque mesmo o melhor bordado do mundo vai incomodar depois de 8 horas sentado. O segredo profissional é colocar a marca ou o nome mais para o alto, perto da borda superior da almofada lombar, ficando lindo na foto e super confortável no uso!",
+    "applications": [
+      "Almofadas lombares ergonômicas em tecido de tapeçaria cinza com brasões de Direito para advogados.",
+      "Almofadas de encosto para clínicas médicas com bordado do símbolo da Medicina e nome do especialista.",
+      "Apoios lombares corporativos com logotipo de empresas de tecnologia e startups para equipes de escritório.",
+      "Kits de trabalho executivo com almofada lombar e organizador de mesa de tecido combinando."
+    ],
+    "technicalDetails": "Para tecidos de estofamento corporativo que possuem elastano ou base de neoprene, a Compensação de Repuxo deve ser calibrada entre 0,40 mm e 0,50 mm, com subpontos cruzados (Cross-hatch underlay) para firmar a base elástica antes das letras. A densidade de ponto cheio deve ser de 0,40 mm a 0,44 mm. Se o tecido for neoprene, utilize velocidade moderada entre 550 e 600 PPM para evitar que a agulha aqueça a borracha interna sintética.",
+    "matrixRelations": "Conecta-se com Compensação de Repuxo (Pull Compensation), Subpontos Cruzados, Entretela de Recorte (Cutaway), Agulhas Ponta Bola (SES), Protetor Termocolante de Avesso e Velocidade Operacional PPM.",
+    "commonErrors": [
+      "❌ Bordar no centro exato da curva lombar com pontos duros e pontudos, causando desconforto físico crônico e dores nas costas do usuário.",
+      "❌ Usar linha de baixa resistência que desfia rapidamente com o atrito diário do cinto, calça jeans e casaco da pessoa sentada.",
+      "❌ Deixar os nós e arremates expostos no avesso sem selagem, rasgando e esfarelando a espuma interna de poliuretano com o movimento da cadeira.",
+      "❌ Usar entretela rasgável fina em tecidos elásticos corporativos, resultando em letras deformadas logo na primeira semana de uso."
+    ],
+    "howToIdentify": "Se as letras do nome corporativo começarem a apresentar pequenos fios rompidos ou bolinhas de atrito após pouco tempo de uso, a densidade de pontos estava muito apertada ou o fio não era poliéster de alta tenacidade. Se o tecido repuxar ao redor do logotipo, aumente a compensação de repuxo e diminua a tensão da linha superior.",
+    "troubleshootingTips": [
+      "Tecido elástico de neoprene com ondulações após bordar: utilize entretela de recorte colada com adesivo temporário e nunca estique o neoprene ao posicionar no bastidor.",
+      "Agulha deixando furos visíveis e esgarçados no tecido corporativo: troque a agulha por uma de ponta bola fina (SES 75/11) para que as fibras se afastem em vez de serem rompidas.",
+      "Almofada lombar com bordado torto: alinhe a matriz tomando como referência a costura inferior da base de apoio da cadeira antes de iniciar a costura."
+    ],
+    "dicaArtrelados": "Regra prática do Ateliê Artrelados: teste a almofada você mesma! Coloque a capa no apoio da sua própria cadeira de costura e encoste as costas com força por 5 minutos. Se você sentir os relevos do bordado cutucando suas costas, o bordado está mal posicionado ou duro demais! Reposicione sempre o brasão nos 30% superiores da almofada para garantir nota dez em ergonomia e elegância corporativa!",
+    "voceSabia": "Estudos ergonômicos da ABNT e normas de saúde ocupacional no Brasil recomendam que apoios lombares tenham curvatura suave e espessura controlada entre 5 cm e 9 cm; um bordado corporativo bem executado nessa faixa agrega sensação de acolhimento e valoriza a imagem profissional de qualquer consultório ou escritório executivo!",
+    "practicalExercise": "Separe um pedaço de tecido de tapeçaria corporativa de 30x40 cm. Crie uma matriz retangular elegante de 10x5 cm com um nome profissional em fonte romana maiúscula. Aplique subpontos de ancoragem e entretela recortável pesada. Borde a 600 PPM e sinta o resultado: as letras devem estar planas como uma placa metálica, prontas para resistir a anos de uso corporativo!",
+    "quickSummary": "Diretrizes completas para bordar almofadas ergonômicas e corporativas de escritório com posicionamento anatômico no terço superior, tecidos anti-atrito e selagem protetora de avesso.",
+    "relatedTerms": [
+      "Almofada Decorativa Masculina",
+      "Bordado em Tecidos de Tapeçaria",
+      "Bordado em Neoprene",
+      "Entretela de Recorte (Cut-Away)",
+      "Compensação de Repuxo",
+      "Protetor de Avesso Macio",
+      "Agulha Ponta Bola (SES)"
+    ],
+    "tags": [
+      "almofada-escritorio",
+      "ergonomia",
+      "corporativo",
+      "home-office",
+      "tapecaria",
+      "cutaway",
+      "produtos-masculinos",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "CORPORATE INTERIORS & TEXTILES. Ergonomic Cushions and Branded Office Accessories. London: Bloomsbury, 2023.",
+      "ABNT NBR 13962. Móveis para escritório - Cadeiras - Requisitos e Métodos de Ensaio. Rio de Janeiro: ABNT, 2020.",
+      "SILVA, Janete M. C. Apostila de Brindes Corporativos e Artigos de Escritório. São Paulo: Artrelados, 2026."
+    ],
+    "updatedAt": "2026-10-15"
+  },
+  {
+    "id": "a-165-acessorios-de-tecido-para-ferramentas",
+    "code": "A-165",
+    "term": "Acessórios de Tecido para Ferramentas",
+    "englishTerm": "Custom Fabric Tool Rolls, Pouches & Organizers Embroidery",
+    "letter": "A",
+    "level": "Avançado 🔴",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva masculina composta.",
+    "origin": "Herança dos estojos de ferramentas em lona encerada utilizados por mecânicos do Exército Britânico e da Força Aérea americana nas décadas de 1930 e 1940 (Wrench Rolls e Tool Pouches). Com a ascensão da cutelaria artesanal, marcenaria fina, escultura e entusiastas de motocicletas, tornou-se item indispensável de organização de luxo e proteção de ferramentas caras.",
+    "summary": "Projeto completo de bordado em estojos roláveis, organizadores e bainhas de lona encerada e cordura para ferramentas manuais e artísticas.",
+    "definition": "Os Acessórios de Tecido para Ferramentas constituem a linha utilitária de alta performance estruturada em tecidos técnicos — incluindo estojos roláveis (Tool Rolls), organizadores modulares de bancada, bolsas de ferramentas com divisórias e bainhas protetoras para cutelaria e marcenaria — personalizados com bordado computadorizado. Esses acessórios recebem bordados de numeração métrica de ferramentas (ex: 8mm, 10mm, 13mm, 17mm), logomarcas de oficinas, nomes de mestres artesãos e brasões de cutelaria. Confeccionados em materiais ultra-robustos como Cordura 500D ou 1000D, lona encerada pesada (acima de 350 g/m²), brim pesado e acabamentos em couro legítimo, o bordado exige matrizes milimétricas, agulhas de alta penetração mecânica, linhas de náilon ou poliéster de máxima tenacidade e técnicas de bastidor sem esmagamento do tecido.",
+    "howItWorks": [
+      "1. Planeja-se a disposição das divisórias de ferramentas (bolsos verticais) na modelagem plana do estojo rolável antes da costura de montagem.",
+      "2. Posicionam-se as marcações numéricas das chaves e o logotipo principal na aba externa ou no topo de cada divisória com margem de segurança de 15 mm das costuras.",
+      "3. Fixa-se uma entretela de recorte de alta estabilidade (Cutaway pesada de 90 g/m² ou entretela tecida resinada) no bastidor retangular grande.",
+      "4. Utiliza-se a técnica de flutuação da lona encerada ou cordura com adesivo temporário e grampos de borda, sem fechar os aros plásticos sobre a lona dura.",
+      "5. Instala-se agulha Schmetz ou Groz-Beckert reforçada de calibre 90/14 ou 100/16 de ponta pontiaguda (Topstitch ou Microtex) para garantir perfuração limpa através do fio grosso da lona.",
+      "6. A máquina borda em velocidade moderada (500 a 600 PPM) com linha de poliéster 40wt de alta resistência a óleos mecânicos e atrito de aço.",
+      "7. Ao finalizar, recorta-se a entretela rente ao avesso e procede-se com a confecção e montagem final do estojo rolável na máquina de costura pesada."
+    ],
+    "beginnerExplanation": "Sabe aqueles estojos de pano maravilhosos que você desenrola em cima da bancada e vê todas as chaves de fenda, formões ou facas artesanais guardadinhos em ordem do menor para o maior com os números bordados em cada bolsinho? É exatamente isso! É uma peça que os artesãos, marceneiros e donos de motos e carros antigos amam de paixão e pagam muito bem por ela. O segredo de ouro no bordado é que você precisa bordar todas as peças e números enquanto o tecido ainda está cortado e aberto, antes de dobrar e fechar os bolsos na máquina de costura!",
+    "applications": [
+      "Estojos roláveis em lona cáqui com numeração bordada de chaves de boca para mecânica de motos clássicas.",
+      "Organizadores em cordura preta para formões de marcenaria fina e ferramentas de entalhe.",
+      "Bainhas e capas de transporte de facas artesanais de churrasco em lona encerada verde militar com brasão bordado.",
+      "Estojos de tecido para pincéis de pintura artística, instrumentos de odontologia ou ferramentas de relojoeiro."
+    ],
+    "technicalDetails": "Em tecidos técnicos como Cordura 1000D e lona encerada de 380 g/m², a densidade de pontos deve ser ajustada para 0,42 mm a 0,46 mm para evitar o corte do tecido pelo impacto excessivo das perfurações. A Compensação de Repuxo deve ser ampla (0,45 mm a 0,55 mm) para compensar a rigidez da trama. Para números pequenos indicativos de ferramentas (com altura de 6 mm a 10 mm), utilize ponto corrido duplo ou fonte especial de ponto cheio simples com traço limpo de 1,2 mm.",
+    "matrixRelations": "Conecta-se com Bordado em Lona e Cordura, Agulhas de Calibre 90/14 e 100/16, Compensação de Repuxo Alta, Subpontos de Travamento, Entretela de Recorte Pesada (Cutaway) e Técnicas de Flutuação.",
+    "commonErrors": [
+      "❌ Deixar para bordar depois que o estojo já está costurado e com os bolsos fechados, tornando impossível prender a peça no bastidor.",
+      "❌ Usar números em ponto cheio muito pequenos (menores que 5 mm), que viram borrões de linha na textura rústica da lona grossa.",
+      "❌ Prender a lona encerada direto nos aros do bastidor tradicional, deixando marcas brancas irreversíveis na cera do tecido (wax marring).",
+      "❌ Usar linhas de algodão ou seda que apodrecem e quebram quando entram em contato com graxa, solventes ou óleos de proteção de ferramentas."
+    ],
+    "howToIdentify": "Se os furos na cordura ficarem esbranquiçados com as fibras de náilon arrebentadas ao redor das letras, a agulha está com ponta inadequada ou sem corte; substitua imediatamente por uma agulha nova Microtex ou Topstitch 90/14. Se a numeração bordada ficar ilegível após o fechamento do bolsinho, aumente a altura das fontes para no mínimo 8 mm.",
+    "troubleshootingTips": [
+      "Lona encerada com manchas esbranquiçadas após manuseio no ateliê: passe rapidamente um soprador térmico ou secador de cabelos com ar quente por alguns segundos sobre a lona para derreter e rejuvenescer a cera perfeitamente.",
+      "Linha superior quebrando nas perfurações duras da cordura: diminua a velocidade para 500 PPM e aplique uma gota de óleo de silicone no guia-fio antes da agulha.",
+      "Dificuldade de alinhamento de números em múltiplos bolsos: crie um único arquivo com todos os números espaçados nas distâncias exatas dos bolsos e borde tudo em uma única descida de bastidor."
+    ],
+    "dicaArtrelados": "Segredo de ouro do Ateliê Artrelados: faça um gabarito de papelão com a modelagem do estojo aberto antes de cortar o tecido! Marque a lápis onde ficarão as costuras de divisão de cada chave ou formão e borde os números exatamente a 1,5 cm abaixo da boca do bolso. Quando o cliente colocar as ferramentas metálicas pesadas dentro, o número continuará 100% visível, criando um produto de grife artesanal incomparável!",
+    "voceSabia": "Estojos roláveis de ferramentas feitos em lona encerada e cordura são considerados itens para a vida inteira (Buy It For Life): com o passar dos anos de uso em oficinas e garagens, o tecido envelhece ganhando marcas e pátina natural, tornando o produto ainda mais bonito e valioso com o tempo!",
+    "practicalExercise": "Corte uma faixa de lona de algodão de 20x50 cm. No software, monte uma régua de números 8, 10, 12, 14, 17 e 19 espaçados a cada 6 cm em fonte sans-serif limpa de 8 mm de altura. Prenda entretela recortável no bastidor longo, posicione a faixa de lona e borde em velocidade moderada com agulha 90/14. Dobre a parte inferior para formar os bolsinhos e comprove a precisão milimétrica!",
+    "quickSummary": "Manual avançado para personalização e bordado em estojos roláveis, organizadores e bainhas de lona encerada e cordura para ferramentas manuais, com numerações métricas e alta resistência.",
+    "relatedTerms": [
+      "Avental Profissional Masculino",
+      "Bordado em Lona e Tecidos Pesados",
+      "Bordado em Cordura e Náilon Balístico",
+      "Técnica de Flutuação (Floating)",
+      "Entretela de Recorte (Cut-Away)",
+      "Compensação de Repuxo",
+      "Agulha Microtex / Topstitch"
+    ],
+    "tags": [
+      "ferramentas",
+      "tool-roll",
+      "estojo-rolavel",
+      "lona-encerada",
+      "cordura",
+      "cutelaria",
+      "marcenaria",
+      "produtos-masculinos",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "HEAVY CANVAS & LEATHER CRAFTS. Traditional Tool Rolls and Workshop Bags. Portland: Timber Press, 2024.",
+      "CORDURA BRAND. Industrial Strength Sewing and Embroidery Guidelines. Wichita: Invista, 2023.",
+      "SILVA, Janete M. C. Utilitários Rústicos e Organizadores de Ateliê: O Guia Artrelados. São Paulo, 2026."
+    ],
+    "updatedAt": "2026-10-15"
+  },
+  {
+    "id": "b-154-bolsa-masculina-personalizada",
+    "code": "B-154",
+    "term": "Bolsa Masculina Personalizada",
+    "englishTerm": "Custom Men's Bag & Crossbody Bag Embroidery",
+    "letter": "B",
+    "level": "Intermediário 🟡",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Do grego 'byrsa' e do latim 'bursa' (bolsa de couro para guardar moedas e pertences). Historicamente portada por viajantes, mensageiros e cavaleiros medievais, a bolsa masculina renasceu na moda contemporânea com as bolsas transversais (crossbody, shoulder bags e totes masculinas), demandando personalização em ateliê com monogramas sóbrios, brasões de família e detalhes de alta alfaiataria.",
+    "summary": "Técnicas de bastidor, estabilização e matrizaria para personalização bordada de bolsas masculinas transversais, carteiro e de ombro em lona, sarja e couro sintético.",
+    "definition": "A Bolsa Masculina Personalizada compreende as diretrizes técnicas de matrizaria, métodos de fixação sem marcas de bastidor e parâmetros de costura aplicados à customização de bolsas utilitárias masculinas (modelos carteiro, tiracolo, shoulder bag, tote e crossbody). Confeccionadas em materiais nobres e pesados como lona de algodão de 280 a 380 g/m², sarja peletizada, jeans encorpado e couro sintético (recouro ou Montana), essas peças exigem alinhamento milimétrico em abas frontais e corpos pré-cortados, subpontos de ancoragem que compensem a rigidez da trama e o emprego de entretelas de recorte (Cutaway) pesadas capazes de suportar a deformação mecânica causada pelo peso de carteiras, chaves e tablets no dia a dia.",
+    "howItWorks": [
+      "1. Caso a bolsa seja confeccionada no ateliê, o bordado deve ser aplicado obrigatoriamente na aba frontal ou no painel exterior enquanto a peça ainda está aberta e plana.",
+      "2. Se a bolsa já estiver pronta da fábrica, abre-se o zíper ou desmancha-se parcialmente a costura interna do forro (fundo falso) para isolar a camada externa sem perfurar o compartimento interno.",
+      "3. Fixa-se uma entretela recortável (Cutaway) pesada de 80 a 90 g/m² no bastidor retangular com forte tensão de tambor.",
+      "4. Utiliza-se a técnica de flutuação (floating) com adesivo temporário e fita crepe nas bordas para posicionar a aba ou painel da bolsa, evitando marcas de esmagamento do aro plástico (hoop burn).",
+      "5. Configura-se agulha reforçada calibre 80/12 ou 90/14 (Topstitch ou ponta bola leve SES) e linha de poliéster 40wt de alta resistência ao atrito.",
+      "6. A máquina executa os pontos de amarração e preenchimento a velocidade controlada (600 a 700 PPM) para manter o paralelismo das letras e brasões.",
+      "7. Ao concluir, recorta-se a entretela rente pelo avesso e recoloca-se o forro fechando a costura com ponto invisível ou pesponto embutido."
+    ],
+    "beginnerExplanation": "A bolsa masculina transversal (aquela shoulder bag que os homens usam cruzada no peito) virou uma verdadeira febre de vendas no ateliê! Eles adoram gravar o nome, as iniciais em formato clássico ou o brasão de seu clube ou profissão. O maior cuidado do iniciante é nunca tentar prender a bolsa grossa inteira com o forro dentro do bastidor, porque a máquina vai costurar o forro junto e a bolsa não vai mais abrir! O segredo é descosturar um pedacinho do forro por dentro, colocar só a parte da frente no bastidor com cola spray e fechar o forro depois!",
+    "applications": [
+      "Bolsas carteiro em sarja preta e cáqui com monogramas masculinos gravados em linha chumbo ou conhaque.",
+      "Shoulder bags juvenis em náilon ou lona com logotipos esportivos e símbolos geométricos minimalistas.",
+      "Totes masculinas de lona pesada para profissionais de arquitetura e design com tipografia limpa.",
+      "Kits de acessórios executivos masculinos contendo bolsa transversal, carteira e chaveiro bordados combinando."
+    ],
+    "technicalDetails": "Em tecidos encorpados como lona de algodão e sarja pesada, a Compensação de Repuxo (Pull Compensation) deve ser regulada entre 0,40 mm e 0,50 mm, e a densidade de ponto cheio (Satin) em 0,40 mm. Se o bordado for aplicado em abas de couro sintético ou recouro, a densidade deve ser relaxada para 0,46 mm a 0,50 mm com subponto em traço central (Center Walk) para não picotar o material sintético. Velocidade ideal recomendada: 600 a 650 PPM.",
+    "matrixRelations": "Conecta-se com Compensação de Repuxo (Pull Compensation), Subponto Central (Center Walk), Entretela de Recorte (Cutaway), Agulhas de Calibre 80/12 e 90/14, Técnica de Flutuação e Abertura de Forro em Peças Prontas.",
+    "commonErrors": [
+      "❌ Bordar a bolsa montada perfurando o forro interno e os bolsos de zíper, inutilizando a funcionalidade dos compartimentos internos.",
+      "❌ Usar entretela rasgável fina (Tearaway), que se esfarela com o peso dos objetos carregados na bolsa, deixando o bordado franzido e solto com o tempo.",
+      "❌ Forçar a bolsa espessa no aro do bastidor tradicional, estragando a trava plástica do bastidor e deixando anéis esbranquiçados permanentes no tecido.",
+      "❌ Usar monogramas com arabescos excessivos e letras cursivas muito finas, que destoam da linguagem sóbria e moderna do vestuário masculino."
+    ],
+    "howToIdentify": "Se o tecido ao redor do monograma estiver puxando e enrugando quando a bolsa recebe peso, a entretela foi fraca demais ou a compensação de repuxo foi insuficiente; adicione uma segunda camada de entretela recortável e aumente a compensação para 0,45 mm. Se a linha superior quebrar nas costuras internas da aba, eleve a altura do calcador em 0,5 mm para transpor os desníveis.",
+    "troubleshootingTips": [
+      "Bolsa pronta com área de bordado apertada que não alcança o centro do bastidor: utilize um bastidor de aba única (Clamp Frame / Fast Frame) ou bastidor magnético profissional.",
+      "Marcas de cola spray no forro ou zíperes: proteja as áreas adjacentes com papel toalha ou plástico filme antes de borrifar o adesivo na entretela.",
+      "Letras com pontas desalinhadas na aba: posicione o gabarito alinhado pela borda inferior da aba e não pela costura superior, pois abas costuradas à mão podem ter variações milimétricas."
+    ],
+    "dicaArtrelados": "Segredo de ouro do Ateliê Artrelados: antes de bordar na aba de bolsas prontas, meça exatamente o espaço que o fecho metálico ou botão de ímã ocupa quando a bolsa está cheia! Já vimos muitas bordadeiras centralizarem o bordado na aba vazia e, na hora em que o cliente fechava o ímã com a carteira dentro, o botão metálico ficava exatamente em cima da primeira letra do nome! Deixe sempre 3 cm de folga livre acima de qualquer fecho!",
+    "voceSabia": "A bolsa tipo tiracolo masculina foi originalmente desenvolvida na Roma Antiga (chamada de 'loculus') para que legionários transportassem suas rações de campanha e ferramentas pessoais em marchas diárias de até 30 quilômetros sem ocupar as mãos destinadas às armas!",
+    "practicalExercise": "Pegue um recorte de lona pesada de 20x20 cm simulando uma aba de bolsa. Aplique entretela de recorte de 80 g/m² no bastidor e cole a lona por flutuação. Programe um monograma moderno de duas letras sem serifa com 4 cm de altura e borda em cordão fino. Execute o bordado na máquina a 650 PPM e confira como a ausência de pressão do aro mantém a lona impecável!",
+    "quickSummary": "Diretrizes essenciais de matrizaria e bastidor para bordar bolsas masculinas personalizadas em lona e sarja, com isolamento de forro interno, técnica de flutuação e parâmetros anti-deformação.",
+    "relatedTerms": [
+      "Bolsa Masculina para Academia",
+      "Bolsa Masculina para Viagem",
+      "Bordado em Lona e Tecidos Pesados",
+      "Técnica de Flutuação (Floating)",
+      "Entretela de Recorte (Cut-Away)",
+      "Bastidor Magnético",
+      "Marca de Bastidor (Hoop Burn)"
+    ],
+    "tags": [
+      "bolsa-masculina",
+      "crossbody",
+      "shoulder-bag",
+      "lona",
+      "sarja",
+      "cutaway",
+      "produtos-masculinos",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "BAG DESIGN & CONSTRUCTION. Contemporary Men's Bags and Accessories. London: Laurence King, 2023.",
+      "INDUSTRIAL EMBROIDERY. Workwear Bags and Luggage Personalization. Chicago: ST Media, 2024.",
+      "SILVA, Janete M. C. Linha Homem: Acessórios e Bolsas Masculinas do Ateliê Artrelados. São Paulo, 2026."
+    ],
+    "updatedAt": "2026-10-15"
+  },
+  {
+    "id": "b-155-bolsa-masculina-para-academia",
+    "code": "B-155",
+    "term": "Bolsa Masculina para Academia",
+    "englishTerm": "Men's Gym Duffel Bag & Sports Gear Bag Embroidery",
+    "letter": "B",
+    "level": "Intermediário 🟡",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Do francês arcaico 'boulette' e da cidade belga de Duffel, célebre pela manufatura de panos cilíndricos grossos desde o século XVII (origem do termo 'duffel bag'). Popularizada entre militares da Marinha na Segunda Guerra Mundial, consolidou-se como o modelo padrão de transporte esportivo masculino para academias, crossfit e clubes atléticos.",
+    "summary": "Estabilização em tecidos esportivos resinados, acesso a bolsos cilíndricos e parametrização anti-desgaste para bordados em bolsas masculinas de academia e treino.",
+    "definition": "A Bolsa Masculina para Academia (Gym Bag / Duffel Bag Esportiva) refere-se ao projeto técnico de matrizaria e execução de bordados em bolsas esportivas cilíndricas ou retangulares masculinas, confeccionadas em tecidos sintéticos técnicos como Poliéster 600D com resina de PVC ou PU (Nylon 600), Ripstop impermeável, Neoprene e telas aeradas (Spacer Mesh). Por ser uma peça submetida ao transporte constante de calçados úmidos, garrafas de água, toalhas suadas e atrito severo com bancos e pisos de academia, o bordado exige fios de poliéster 100% de alta tenacidade resistentes ao cloro e ao mofo, pontos bem amarrados que não se rompam com a expansão volumétrica da bolsa cheia e entretela recortável hidrorrepelente que não apodreça com a umidade interna.",
+    "howItWorks": [
+      "1. Define-se a zona plana de bordado mais acessível da bolsa: tipicamente a aba externa do bolso lateral de calçados ou o painel frontal entre as alças de mão.",
+      "2. Em bolsas prontas com fundo rígido e forro emborrachado, utiliza-se a técnica de desviramento parcial através da abertura total dos zíperes laterais.",
+      "3. Monta-se entretela recortável (Cutaway) média de 70 a 80 g/m² no bastidor retangular com cola spray reposicionável.",
+      "4. Posiciona-se o painel de Nylon 600D flutuando sobre a entretela com alfinetes de segurança posicionados fora da rota do calcador.",
+      "5. Emprega-se agulha calibre 80/12 ponta bola leve (SES) ou agulha afiada Microtex para tecidos plastificados, evitando furos grossos que enfraqueçam a resina impermeabilizante.",
+      "6. A bordadeira trabalha em rotação média de 600 a 700 PPM com tensão superior moderada para que os pontos fiquem encorpados sem franzir o tecido sintético.",
+      "7. Concluído o bordado, aplica-se uma fita seladora termocolante no avesso para restaurar a barreira de impermeabilidade caso a bolsa transporte líquidos."
+    ],
+    "beginnerExplanation": "A bolsa de academia masculina (aquele 'sacolão' estiloso com alça de mão e de ombro) é um dos itens mais fáceis de vender o ano inteiro! Todo homem que treina gosta de ter sua bolsa com o nome ou com o logo do seu box de crossfit, jiu-jítsu ou assessoria de corrida. Como o tecido dessas bolsas geralmente é duro e emborrachado por dentro (aquele Nylon 600 preto), o segredo de ouro é abrir todos os zíperes para esparramar a bolsa e apoiar só o pedaço do bolso no bastidor, sem forçar o zíper debaixo da agulha!",
+    "applications": [
+      "Bolsas duffel esportivas em nylon 600 preto com monogramas e nomes em fontes atléticas em bloco (Varsity).",
+      "Bolsas masculinas de crossfit e natação com logotipos de equipes e identificação de atletas.",
+      "Bolsas esportivas com compartimento inferior isolado para chuteiras personalizadas com números de jogadores.",
+      "Kits de boas-vindas para academias premium e centros de treinamento funcional de alta performance."
+    ],
+    "technicalDetails": "O Poliéster 600D resinado possui pouca elasticidade, mas sofre com excesso de perfurações; portanto, a densidade de ponto cheio deve ser calibrada entre 0,42 mm e 0,45 mm (nunca menor que 0,38 mm para não cortar a resina plástica interna). A Compensação de Repuxo deve ser fixada em 0,40 mm. Empregue subpontos de ancoragem em zigue-zague aberto para criar sustentação sem furar excessivamente a base impermeabilizante. Velocidade ideal: 650 PPM.",
+    "matrixRelations": "Conecta-se com Bordado em Nylon 600D e Ripstop, Compensação de Repuxo, Densidade de Ponto Aberta, Agulhas Ponta Bola Leve (SES), Selagem Impermeabilizante de Avesso e Subponto Zigue-Zague.",
+    "commonErrors": [
+      "❌ Bordar com densidade ultra-pesada de 0,30 mm sobre nylon resinado, agindo como lâmina de perfuração que faz o bolso rasgar com o peso do tênis molhado.",
+      "❌ Bater a agulha sobre os dentes grossos dos zíperes laterais ou cursores metálicos, entortando a barra de agulhas e quebrando o mecanismo.",
+      "❌ Usar entretelas rasgáveis comuns de celulose, que se dissolvem e acumulam mofo com o suor e a umidade das roupas de treino dentro da bolsa.",
+      "❌ Prender a bolsa com fechos metálicos desregulados nos aros plásticos, quebrando a armação do bastidor."
+    ],
+    "howToIdentify": "Se o tecido de náilon apresentar pequenos rasgos entre os pontos de perfuração, a densidade da matriz está alta demais ou a agulha está grossa (troque por agulha 80/12 e abra a densidade para 0,44 mm). Se as letras saírem distorcidas no sentido do comprimento da bolsa, o peso do restante da peça pendurada fora do bastidor está puxando o pantógrafo da máquina; calce a sobra da bolsa sobre uma bancada auxiliar.",
+    "troubleshootingTips": [
+      "Bolsa pesada que puxa o bastidor durante o movimento do pantógrafo: coloque uma cadeira ou mesa de apoio na mesma altura da máquina de bordar para sustentar o peso do corpo da bolsa.",
+      "Dificuldade de encaixar a agulha em bolsos tubulares estreitos: desmonte temporariamente as costuras laterais do bolsinho se estiver costurando a peça do zero antes de montá-la.",
+      "Linha desfiando no tecido emborrachado: passe silicone líquido no guia-fio superior da máquina para reduzir o atrito térmico gerado pela resina de PVC."
+    ],
+    "dicaArtrelados": "Segredo do Ateliê Artrelados para bolsas esportivas masculinas: use sempre fontes de estilo esportivo clássico (aquelas fontes atléticas quadradas, tipo letras de jaqueta universitária americana). Elas têm colunas retas e largas, bordam super rápido na máquina, não enroscam no zíper e dão um visual viril e robusto que os clientes de academia adoram!",
+    "voceSabia": "O tecido 'Ripstop' (muito usado nas bolsas esportivas de alta tecnologia) foi patenteado durante a Segunda Guerra Mundial para paraquedas; ele possui fios reforçados de náilon entrelaçados em formato de quadrículas a cada 5 mm que impedem que qualquer rasgo acidental continue se propagando pelo tecido!",
+    "practicalExercise": "Corte um pedaço de Nylon 600D de 20x25 cm. No programa de matrizes, digite um nome masculino com fonte atlética em bloco medindo 12 cm de largura por 3,5 cm de altura, com compensação de 0,40 mm e sob-ponto zigue-zague aberto. Fixe o tecido flutuando sobre entretela de recorte e borde a 650 PPM. Observe como as letras ficam impecavelmente nítidas e prontas para aguentar anos de treino pesado!",
+    "quickSummary": "Metodologia completa para bordar bolsas masculinas de academia em nylon 600D e tecidos resinados, com controle de densidade anti-rasgo, fontes atléticas e sustentação de peso no pantógrafo.",
+    "relatedTerms": [
+      "Bolsa Masculina Personalizada",
+      "Bolsa para Equipamentos Esportivos",
+      "Bordado em Nylon e Sintéticos",
+      "Poliéster 600D (Nylon 600)",
+      "Tecido Ripstop",
+      "Compensação de Repuxo",
+      "Entretela de Recorte (Cut-Away)"
+    ],
+    "tags": [
+      "bolsa-academia",
+      "duffel-bag",
+      "fitness",
+      "nylon-600",
+      "ripstop",
+      "esportivo",
+      "produtos-masculinos",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "SPORTS GEAR FABRICS & APPAREL. Technical Textiles for Gym Bags and Luggage. Frankfurt: Techtextil, 2023.",
+      "EMBROIDERY MAGAZINE. Digitizing for Heavy Coated Synthetics. London, 2022.",
+      "SILVA, Janete M. C. Guia de Artigos Esportivos e Bolsas Técnicas. São Paulo: Artrelados, 2026."
+    ],
+    "updatedAt": "2026-10-15"
+  },
+  {
+    "id": "b-156-bolsa-masculina-para-viagem",
+    "code": "B-156",
+    "term": "Bolsa Masculina para Viagem",
+    "englishTerm": "Men's Travel Bag & Weekend Duffel Embroidery",
+    "letter": "B",
+    "level": "Avançado 🔴",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Do francês 'voyage' e do latim 'viaticum' (provisão para o caminho). No final do século XIX, com a expansão das viagens ferroviárias e marítimas de luxo, as malas rígidas deram espaço às 'weekend bags' e sacolas de viagem masculinas flexíveis, confeccionadas em couros nobres e lonas encorpadas como símbolo de independência e elegância.",
+    "summary": "Técnicas de matrizaria pesada, posicionamento em malas de mão e ancoragem em couro sintético e lona rústica para bolsas masculinas de viagem.",
+    "definition": "A Bolsa Masculina para Viagem (Weekend Bag / Mala de Mão Masculina / Travel Duffel) compreende a metodologia de personalização bordada de bolsas de viagem masculinas de grande porte, projetadas para bagagem de mão e estadias curtas de fim de semana. Confeccionadas em matérias-primas nobres e de alta gramatura — como lona encerada de 350 a 450 g/m², couro sintético estruturado (recouro, Montana ou camurça sintética), sarja naval e jeans pesado com forros acolchoados —, essas peças exigem bordados de refinada heráldica e solidez mecânica. O bordado precisa resistir ao empilhamento em bagageiros de aviões, esteiras de aeroportos e tração constante de cargas de até 15 kg, demandando reforço estrutural de entretela resinada, compensação de repuxo milimétrica e agulhas industriais de perfuração aguçada.",
+    "howItWorks": [
+      "1. Determina-se a localização ideal do bordado: na tag de bagagem suspensa em couro, na faixa central de reforço entre as alças ou no painel frontal superior da mala.",
+      "2. Em malas confeccionadas sob encomenda, borda-se o painel externo de lona ou couro antes da aplicação da manta espumada e do forro resinado.",
+      "3. Para malas prontas, utiliza-se bastidores especiais de fixação plana com alavanca de pressão ou bastidores magnéticos de alta força (30 a 50 kg de retenção).",
+      "4. Emprega-se entretela de recorte pesada de 90 g/m² combinada com entretela tecida resinada para conferir firmeza absoluta ao tecido encorpado.",
+      "5. Instala-se agulha Schmetz ou Groz-Beckert Topstitch ou ponta lança (calibre 90/14 a 100/16) e linha de poliéster trilobal 40wt de alta resistência a raios UV e atrito.",
+      "6. A velocidade da bordadeira é calibrada entre 500 e 600 PPM para garantir formação precisa da laçada sem deflexão da agulha em costuras sobrepostas.",
+      "7. Concluído o bordado, aplica-se proteção termocolante no avesso para que o forro não sofra fricção com os fios do bordado."
+    ],
+    "beginnerExplanation": "A mala masculina de viagem de mão é o ápice do luxo rústico em presentes masculinos! Médicos, empresários, noivos e advogados compram muito para viagens de trabalho ou passeios de fim de semana. Como a mala é grande, grossa e cheia de alças, bordar na peça já montada é um trabalho desafiador. Se você estiver costurando a mala no ateliê, borde a lona ou o couro antes de juntar as partes; se a mala já vier pronta, o segredo é bordar uma linda etiqueta de identificação em couro sintético e costurá-la na alça ou no peito da mala!",
+    "applications": [
+      "Malas de fim de semana em lona verde militar e alças de couro caramelo com brasões e iniciais gravadas.",
+      "Bolsas de viagem executivas em sarja encerada preta com monogramas elegantes em prata fosca.",
+      "Tags de bagagem em couro sintético personalizadas com nome, telefone e monograma bordado.",
+      "Malas de mão esportivas de luxo para jogadores de golfe, tênis e executivos em trânsito."
+    ],
+    "technicalDetails": "Em lonas enceradas e couros sintéticos para viagem (gramatura superior a 350 g/m²), a Compensação de Repuxo deve ser calibrada entre 0,45 mm e 0,55 mm, e a densidade de ponto cheio mantida entre 0,42 mm e 0,46 mm. Se a matriz contiver fontes serifadas clássicas, a largura mínima das serifas deve ser de 1,2 mm para garantir penetração limpa sem perfurar excessivamente o mesmo ponto. Velocidade máxima recomendada: 550 PPM.",
+    "matrixRelations": "Conecta-se com Bordado em Lona Encerada, Couro Sintético (Montana/Recouro), Agulhas de Calibre 90/14 e 100/16, Compensação de Repuxo Ampliada, Bastidor Magnético e Velocidade Reduzida PPM.",
+    "commonErrors": [
+      "❌ Bater pontos pesados sobre a manta estruturadora interna (EVA ou espuma pack) de uma mala pronta, esmagando o volume térmico e deformando a estrutura rígida da bolsa.",
+      "❌ Usar agulhas de ponta bola fina (70/10 ou 75/11) em lona grossa de viagem, resultando em deflexão da agulha, estalos e quebra na chapa de ponto.",
+      "❌ Borda sobre costuras dobradas de alças de couro sem aumentar a altura do calcador, quebrando a agulha por colisão mecânica.",
+      "❌ Esquecer de selar o avesso do bordado, permitindo que roupas brancas guardadas dentro da mala enrosquem ou sujem em pontas de linha e nós."
+    ],
+    "howToIdentify": "Se o brasão sair descentralizado ou com círculos deformados, a mala pesada tombou ou puxou o pantógrafo durante a movimentação rápida do eixo Y; utilize suportes de mesa laterais e aumente a ancoragem da entretela no bastidor. Se a agulha fizer barulhos estridentes ao perfurar a lona encerada, lubrifique a ponta com um pano levemente umedecido em óleo de silicone.",
+    "troubleshootingTips": [
+      "Lona encerada marcada por pegadas de dedos ou bastidor: passe suavemente ar quente de um secador de cabelos sobre a marca para derreter a cera e restaurar o tom uniforme original.",
+      "Mala pronta que não cabe no braço livre da máquina: borde a personalização em um aplique de couro sintético bem estruturado e pesponte o aplique diretamente na bolsa com máquina de braço.",
+      "Letras com pontas soltas devido ao couro grosso: programe sempre subponto de contorno (Edge Walk) antes dos pontos de preenchimento para ancorar o perímetro do monograma."
+    ],
+    "dicaArtrelados": "Segredo do Ateliê Artrelados: para malas de viagem masculinas, ofereça sempre a opção da Tag de Bagagem em Couro bordada combinando com a mala! Ela é muito mais fácil e rápida de bordar no bastidor pequeno, não tem risco de estragar a mala pronta e os clientes acham extremamente chique e exclusivo!",
+    "voceSabia": "A tradição de personalizar malas de viagem com monogramas e iniciais começou no século XIX com as famílias nobres europeias para facilitar a identificação da bagagem pelos carregadores em portos e estações ferroviárias em uma época em que não existiam etiquetas adesivas com código de barras!",
+    "practicalExercise": "Pegue um pedaço de lona verde militar e um retalho de couro sintético marrom de 10x7 cm. Crie uma tag de viagem retangular com um monograma clássico de 3 letras de 2,5 cm de altura no centro. Use entretela recortável pesada, agulha 90/14 e linha bege fosca. Borde a 550 PPM, faça a costura de borda e adicione uma fivela: você terá um produto de luxo pronto para vender por um excelente valor!",
+    "quickSummary": "Metodologia avançada para bordados em bolsas e malas masculinas de viagem em lona pesada e couro sintético, com alta resistência mecânica, agulhas de titânio e tags de bagagem de luxo.",
+    "relatedTerms": [
+      "Bolsa Masculina Personalizada",
+      "Bolsa Masculina para Academia",
+      "Bordado em Lona e Tecidos Pesados",
+      "Bordado em Couro Sintético",
+      "Bastidor Magnético",
+      "Compensação de Repuxo",
+      "Subponto de Contorno (Edge Walk)"
+    ],
+    "tags": [
+      "bolsa-viagem",
+      "weekend-bag",
+      "mala-de-mao",
+      "lona-encerada",
+      "couro-sintetico",
+      "tag-bagagem",
+      "produtos-masculinos",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "LUGGAGE & LEATHER GOODS INDUSTRY. Craftsmanship in Modern Travel Bags. Milan: Edizioni Savolo, 2024.",
+      "WILCOM. Lettering and Monograms for Heavy Canvas and Leather. Sydney, 2023.",
+      "SILVA, Janete M. C. Malas e Artigos de Viagem no Ateliê Contemporâneo. São Paulo: Artrelados, 2026."
+    ],
+    "updatedAt": "2026-10-15"
+  },
+  {
+    "id": "b-157-bolsa-para-acessorios-eletronicos",
+    "code": "B-157",
+    "term": "Bolsa para Acessórios Eletrônicos",
+    "englishTerm": "Electronic Accessories Organizer & Cable Pouch Embroidery",
+    "letter": "B",
+    "level": "Intermediário 🟡",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Criada a partir dos estojos militares de radiocomunicação e adaptada para o estilo de vida digital nómada do século XXI (Digital Nomad Tech Organizers), organizando fones, carregadores, cabos, discos externos e canetas ópticas com proteção têxtil contra impactos e arranhões.",
+    "summary": "Estabilização em neoprene, tecidos acolchoados e técnicas de bordado para organizadores portáteis de cabos, periféricos e acessórios eletrônicos.",
+    "definition": "A Bolsa para Acessórios Eletrônicos (Tech Organizer / Cable Pouch / Estojo para Gadgets) compreende a metodologia técnica de matrizaria e montagem em bastidor aplicada a estojos acolchoados e organizadores com divisórias elásticas destinados à proteção e transporte de dispositivos eletrônicos (powerbanks, mouses, cabos USB-C, adaptadores e fones de ouvido). Confeccionada em materiais como neoprene de 2 a 3 mm, sarja resinada, náilon Oxford e tecidos acoplados com espuma de poliuretano (manta acrílica ou espuma pack), essa peça exige bordados computadorizados planos, com subpontos cruzados que não afundem nas camadas de amortecimento, densidade controlada para não deformar a elasticidade do tecido e proteção térmica total do avesso para impedir que nós e arremates de linha risquem telas e superfícies plásticas sensíveis de aparelhos de alto valor.",
+    "howItWorks": [
+      "1. Realiza-se o bordado no painel frontal externo do estojo antes da montagem das divisórias elásticas internas e da inserção do zíper perimétrico.",
+      "2. Em tecidos com espuma acoplada ou neoprene, fixa-se uma entretela recortável (Cutaway) macia de 70 g/m² no bastidor com cola spray temporária.",
+      "3. Posiciona-se o tecido sobre a entretela e aplica-se no topo uma película de filme hidrossolúvel fino (Solvy) para impedir que as laçadas do ponto cheio afundem na textura acolchoada.",
+      "4. Emprega-se agulha ponta bola de calibre 75/11 ou 80/12 (SES), garantindo que as fibras de elastano e a borracha interna do neoprene não sejam cortadas pela ponta da agulha.",
+      "5. Utiliza-se linha de poliéster 40wt de alta tenacidade e ajusta-se a máquina para velocidade moderada de 600 a 650 PPM.",
+      "6. Após o bordado, remove-se o plástico superior com leve borrifo de água e aplica-se no avesso um protetor termocolante aveludado (tipo Cloud Cover) para criar acabamento 100% liso e seguro para eletrônicos."
+    ],
+    "beginnerExplanation": "Quem hoje em dia não tem um monte de cabos, carregador de celular, fone de ouvido e pen drive jogados dentro da mochila? Esse estojo organizador de eletrônicos é uma das peças mais vendidas para executivos, estudantes e profissionais de tecnologia! Como o tecido dele é fofinho (com espuma ou neoprene por dentro), se você bordar direto nele, o bordado afunda e fica parecendo um queijo suíço. O segredinho é colocar um plastiquinho hidrossolúvel por cima na hora de bordar e depois passar um ferro no avesso com aquele forrinho macio que não deixa nenhum nózinho arranhar a tela do celular!",
+    "applications": [
+      "Estojos organizadores de cabos em neoprene cinza-chumbo com nomes de profissionais de TI e logotipos de empresas.",
+      "Bolsas de acessórios eletrônicos em náilon resinado preto com monogramas geométricos para executivos.",
+      "Organizadores para criadores de conteúdo e videomakers com identificação de cartões de memória e microfones.",
+      "Brindes corporativos de alto padrão para conferências de tecnologia, startups e lançamentos de produtos digitais."
+    ],
+    "technicalDetails": "Em tecidos espumados e neoprenes de 2 mm a 3 mm, a Compensação de Repuxo deve ser calibrada entre 0,40 mm e 0,48 mm. A densidade de ponto cheio deve permanecer entre 0,40 mm e 0,44 mm com subponto duplo em esteira aberta (Tatami aberto ou ponto zigue-zague com passo longo de 2,5 mm) para criar uma fundação plana sobre a espuma. Velocidade recomendada: 600 PPM para evitar aquecimento da borracha do neoprene.",
+    "matrixRelations": "Conecta-se com Bordado em Neoprene, Tecidos Acolchoados e Espumados, Filme Hidrossolúvel de Topo (Solvy), Agulha Ponta Bola (SES), Compensação de Repuxo e Protetor de Avesso Macio.",
+    "commonErrors": [
+      "❌ Bordar sem filme solúvel sobre tecido acolchoado, fazendo as letras afundarem e parecerem falhadas e deformadas.",
+      "❌ Usar agulhas de ponta agulha afiada de grande calibre (100/16), perfurando e rasgando a lâmina de borracha do neoprene.",
+      "❌ Deixar nós e pontas duras de arremate expostas no avesso, riscando carcaças de computadores, telas e periféricos plásticos caros.",
+      "❌ Usar entretelas rasgáveis duras, que perdem a sustentação após o primeiro mês de uso do estojo."
+    ],
+    "howToIdentify": "Se o tecido de neoprene formar bolsas de ar ou ondas ao redor das letras após retirar do bastidor, a tensão do bastidor esticou o tecido elástico durante a montagem; utilize a técnica de flutuação sem esticar o material. Se a linha inferior branca subir para a frente do bordado, alivie a tensão superior da linha da agulha em 1 a 2 pontos.",
+    "troubleshootingTips": [
+      "Neoprene com marcas de anel do bastidor plástico: use bastidor magnético ou técnica de flutuação para apoiar o neoprene sobre a entretela colada com adesivo temporário.",
+      "Filme hidrossolúvel grudado nas ranhuras do tecido: utilize um cotonete úmido com água morna para dissolver os pequenos resquícios entre as letras.",
+      "Bordado muito rígido que não dobra ao fechar o zíper do estojo: reprograme a matriz reduzindo o número total de pontos e utilizando preenchimentos abertos em vez de blocos sólidos pesados."
+    ],
+    "dicaArtrelados": "Dica especial do Ateliê Artrelados: para estojos de eletrônicos, borde sempre o logotipo ou nome na diagonal ou no canto inferior direito da tampa frontal! Isso deixa a peça com ar moderno e minimalista de produto de marca de tecnologia (estilo Apple e Samsung), além de deixar o centro livre para acomodar o volume interno de carregadores mais gordinhos sem esticar o bordado!",
+    "voceSabia": "O neoprene (borracha de policloropreno) foi a primeira borracha sintética produzida em escala comercial no mundo, patenteada pela empresa DuPont em 1931, sendo hoje um dos materiais favoritos para cases de eletrônicos devido à sua alta absorção de impactos e isolamento térmico!",
+    "practicalExercise": "Corte um quadrado de neoprene de 2,5 mm medindo 18x18 cm. Monte uma entretela recortável no bastidor, cole o neoprene com spray sem esticar e posicione filme solúvel por cima. No software, escreva uma logomarca minimalista em fonte sem serifa com 2,5 cm de altura, sob-ponto central e compensação de 0,42 mm. Borde a 600 PPM e sinta o resultado: letras perfeitamente planas e com acabamento de grife internacional!",
+    "quickSummary": "Manual completo para bordar bolsas e organizadores de acessórios eletrônicos em neoprene e tecidos acolchoados, com filme solúvel superior, proteção de telas no avesso e densidade equilibrada.",
+    "relatedTerms": [
+      "Bolsa para Equipamentos Fotográficos",
+      "Bordado em Neoprene",
+      "Bordado em Tecidos Acolchoados",
+      "Filme Hidrossolúvel Superior",
+      "Protetor de Avesso Macio",
+      "Compensação de Repuxo",
+      "Agulha Ponta Bola (SES)"
+    ],
+    "tags": [
+      "bolsa-eletronicos",
+      "organizador-cabos",
+      "tech-pouch",
+      "neoprene",
+      "gadgets",
+      "corporativo",
+      "produtos-masculinos",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "CONSUMER ELECTRONICS ACCESSORIES DESIGN. Padded Cases and Tech Pouches. Tokyo: Nikkei BP, 2023.",
+      "DUPONT TECHNICAL BULLETINS. Neoprene Fabrics and Industrial Stitching. Wilmington, 2022.",
+      "SILVA, Janete M. C. Artigos Tecnológicos e Acessórios Modernos Bordados. São Paulo: Artrelados, 2026."
+    ],
+    "updatedAt": "2026-10-15"
+  },
+  {
+    "id": "b-158-bolsa-para-equipamentos-fotograficos",
+    "code": "B-158",
+    "term": "Bolsa para Equipamentos Fotográficos",
+    "englishTerm": "Camera Bag & Photographic Equipment Pouch Embroidery",
+    "letter": "B",
+    "level": "Avançado 🔴",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Criada a partir das bolsas de correspondentes de guerra e fotojornalistas da primeira metade do século XX (estilo clássico Billingham e Domke), projetada para suportar chuva, poeira e choques mecânicos, mantendo lentes e câmeras ópticas de alto valor completamente protegidas em campo.",
+    "summary": "Diretrizes avançadas de bordado em bolsas fotográficas técnicas em lona resinada, ripstop e tecidos impermeáveis com isolamento total de avesso.",
+    "definition": "A Bolsa para Equipamentos Fotográficos (Camera Bag / Mochila e Estojo Fotográfico) compreende o conjunto de normas e procedimentos técnicos de matrizaria, impermeabilização e montagem em bastidor aplicados a bolsas e mochilas de proteção para fotógrafos e cinegrafistas. Confeccionadas em materiais de altíssima resistência e impermeabilidade — como Náilon Balístico 1680D, Cordura 1000D, Ripstop militar resinado e lona de algodão impermeabilizada —, essas bolsas contêm espessos blocos de espuma anti-impacto (EVA e espuma celular fechada). O bordado computadorizado é demandado por produtoras audiovisuais, canais de televisão e fotógrafos independentes para identificação profissional e antifurto, exigindo técnicas que não comprometam a vedação contra poeira e umidade nem deixem pontas duras que risquem lentes óticas, filtros e sensores.",
+    "howItWorks": [
+      "1. Realiza-se o bordado exclusivamente na aba de fechamento ou em bolsos frontais destacáveis antes de sua montagem e acolchoamento na fábrica de bolsas.",
+      "2. Em bolsas já montadas, borda-se um patch (emblema termocolante ou com velcro) em base de lona pesada ou cordura com acabamento em ponto cordão festonê de alta densidade.",
+      "3. Caso se borde diretamente no tecido da bolsa, fixa-se entretela recortável (Cutaway) de 90 g/m² no bastidor e utiliza-se a técnica de flutuação com cola temporária.",
+      "4. Emprega-se agulha Schmetz Microtex de ponta afiada ou Topstitch de calibre 90/14 com linha de poliéster 100% trilobal resistente a abrasão e óleos de manutenção de câmeras.",
+      "5. A matriz é programada com compensação de repuxo generosa (0,45 mm a 0,55 mm) para vencer a rigidez extrema do náilon balístico.",
+      "6. Concluída a costura, sela-se o verso com filme de vedação de costuras impermeáveis a quente (Seam Sealing Tape) para restabelecer a proteção contra chuvas e poeira.",
+      "7. Aplica-se acabamento aveludado interno com microfibra para que o avesso nunca entre em contato abrasivo com o corpo da câmera."
+    ],
+    "beginnerExplanation": "Fotógrafos profissionais gastam uma verdadeira fortuna em suas câmeras e lentes, e ter uma bolsa personalizada com o nome e a marca do estúdio deles passa uma imagem de credibilidade incrível! O detalhe mais crítico para o ateliê é: se entrar uma única pontinha de linha dura ou nó solto dentro da bolsa, ele pode riscar a lente de um vidro de milhares de reais. O jeito mais inteligente e profissional de atender esse público é bordar o logotipo em um 'patch' (emblema com velcro) que gruda na bolsa, ou selar o avesso do bordado com um pano de camurça ou microfibra bem macio!",
+    "applications": [
+      "Bolsas de fotojornalismo em lona preta com logotipo do estúdio bordado em linha cinza-chumbo discreta.",
+      "Patches com velcro e identificação de lentes (ex: 24-70mm, 70-200mm) para divisórias acolchoadas de mochilas.",
+      "Mochilas fotográficas para casamentos e eventos corporativos com brasão do profissional bordado na aba superior.",
+      "Capas e estojos para tripés e luzes de estúdio em cordura pesada com nome da produtora audiovisual."
+    ],
+    "technicalDetails": "No Náilon Balístico 1680D e na Cordura 1000D, a agulha encontra forte resistência de perfuração mecânica. A velocidade deve ser limitada a 500 ou 550 PPM para evitar que a agulha aqueça e derreta a resina plástica que reveste o tecido. A densidade de ponto cheio deve ser ajustada para 0,44 mm com subpontos cruzados (Cross-hatch underlay) para ancorar as letras sobre a trama rígida. Fator de compensação de repuxo: 0,48 mm.",
+    "matrixRelations": "Conecta-se com Náilon Balístico 1680D, Cordura 1000D, Agulha Microtex / Topstitch 90/14, Fita de Selagem Impermeável (Seam Seam Tape), Emblemas Bordados com Velcro (Patches) e Compensação de Repuxo.",
+    "commonErrors": [
+      "❌ Perfurar as mantas térmicas e espumas seladas anti-impacto da bolsa pronta, permitindo a infiltração de água da chuva que queima o circuito da câmera.",
+      "❌ Deixar nós e pontas duras de poliéster sem forração protetora no compartimento de lentes, gerando atrito e micro-arranhões em equipamentos caros.",
+      "❌ Usar fontes pequenas e serifadas (menores que 8 mm) no náilon balístico, transformando as letras em bolhas ilegíveis devido à grossura das fibras do tecido.",
+      "❌ Operar em alta velocidade (acima de 750 PPM), entortando a agulha na trama densa e tirando o cabeçote da máquina do tempo."
+    ],
+    "howToIdentify": "Se o tecido de náilon balístico estalar e a máquina emitir ruídos secos de pancada metálica a cada descida da barra de agulha, a agulha está fina demais ou com a ponta rombuda; troque imediatamente por agulha Microtex 90/14 nova. Se a água da chuva infiltrar pelas costuras do bordado durante ensaios ao ar livre, aplique selador impermeabilizante líquido ou fita termocolante no verso.",
+    "troubleshootingTips": [
+      "Bolsa pronta muito armada que não entra no bastidor da máquina: faça a personalização no formato de patch bordado com borda em ponto cordão e aplique na bolsa com velcro militar.",
+      "Fios de náilon da trama da bolsa puxados pela agulha: utilize agulha de ponta agudíssima (Microtex) que perfure os filamentos sem esgarçar os fios de trama.",
+      "Reflexos indesejados da linha do bordado em estúdios de gravação de vídeo: utilize linhas de bordado 100% foscas (Matte/Frosted) que não reflitam luzes de refletores e holofotes."
+    ],
+    "dicaArtrelados": "O pulo do gato do Ateliê Artrelados para o mercado fotográfico: fotógrafos amam discrição e elegância! Evite linhas coloridas berrantes; ofereça bordados monocromáticos (preto sobre preto, chumbo sobre preto, marrom escuro sobre couro). Esse acabamento 'ton-sur-ton' é o padrão internacional das maiores marcas do mundo da fotografia e tem um apelo de venda espetacular!",
+    "voceSabia": "O 'Náilon Balístico' foi originalmente desenvolvido pela empresa DuPont para a confecção de coletes de proteção de aviadores durante a Segunda Guerra Mundial, recebendo o nome de 'balístico' por ter sido projetado para deter estilhaços de bombas e balas perdidas!",
+    "practicalExercise": "Crie um emblema circular de 8 cm de diâmetro com o ícone de uma lente fotográfica e um nome profissional. Programe uma borda externa em ponto festonê duplo com 4 mm de largura e densidade de 0,40 mm. Borde sobre lona preta armada com entretela recortável dupla. Recorte rente com ferro de solda ou tesoura de precisão e costure uma tira de velcro macho no verso: você terá um patch profissional de altíssimo valor de mercado!",
+    "quickSummary": "Diretrizes avançadas para bordados em bolsas de equipamentos fotográficos em náilon balístico e cordura, com técnicas de selagem anti-infiltração, forração protetora de lentes e emblemas em patch com velcro.",
+    "relatedTerms": [
+      "Bolsa para Acessórios Eletrônicos",
+      "Bolsa para Ferramentas",
+      "Bordado em Lona e Tecidos Pesados",
+      "Náilon Balístico 1680D",
+      "Tecido Ripstop",
+      "Patches e Emblemas com Velcro",
+      "Agulha Microtex"
+    ],
+    "tags": [
+      "bolsa-fotografica",
+      "camera-bag",
+      "fotografia",
+      "nylon-balistico",
+      "patch-velcro",
+      "impermeavel",
+      "produtos-masculinos",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "PHOTOGRAPHIC EQUIPMENT DESIGN. Bags, Cases and Protection Systems. Rochester: Eastman Kodak Co., 2023.",
+      "CORDURA & BALLISTIC NYLON. Heavy Industrial Textiles and Seam Protection. Dallas, 2022.",
+      "SILVA, Janete M. C. Patches, Bolsas e Artigos Técnicos de Fotografia. São Paulo: Artrelados, 2026."
+    ],
+    "updatedAt": "2026-10-15"
+  },
+  {
+    "id": "b-159-bolsa-para-ferramentas",
+    "code": "B-159",
+    "term": "Bolsa para Ferramentas",
+    "englishTerm": "Heavy-Duty Tool Bag & Electrician Tote Embroidery",
+    "letter": "B",
+    "level": "Avançado 🔴",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Originada das tradicionais bolsas de carpinteiros e eletricistas navais dos estaleiros da Inglaterra e Estados Unidos no início do século XX. Evoluiu para bolsas estruturadas com fundo rígido emborrachado para suportar até 25 kg de ferramentas pontiagudas, martelos e furadeiras com identificação bordada de marcas e mestres artesãos.",
+    "summary": "Técnicas industriais de bordado em bolsas pesadas de ferramentas em lona de caminhão, cordura e brim resinado com fios resistentes a óleos e graxas.",
+    "definition": "A Bolsa para Ferramentas (Tool Bag / Mala de Ferramentas Pesada / Bolsa de Eletricista e Mecânico) é o artigo utilitário industrial confeccionado para o transporte e organização de ferramentas manuais e elétricas de alto peso e corte (alicates, chaves inglesas, marretas, multímetros e brocas). Estruturada em tecidos com tenacidade extrema — como Lona Encerada 400 g/m², Cordura 1000D, Lona de PVC de caminhão e reforços de polipropileno —, essas bolsas recebem bordados computadorizados com logomarcas de oficinas mecânicas, concessionárias, construtoras e nomes de profissionais técnicos. A execução técnica exige máquinas industriais com altíssimo torque na barra de agulha, agulhas reforçadas calibre 100/16 ou 110/18 de titânio, subcamadas de ancoragem profunda e linhas 100% poliéster trilobal lubrificadas capazes de suportar o ataque contínuo de solventes químicos, poeira de cimento e graxas industriais.",
+    "howItWorks": [
+      "1. Planeja-se o bordado para ser realizado nos bolsos frontais de fita de poliéster ou na aba lateral externa antes da aplicação das arruelas e rebites de aço.",
+      "2. Em bolsas pré-fabricadas com fundo de borracha dura (hard bottom), isola-se o painel frontal através de bastidor de pinça pneumática (Clamp Frame) ou bastidor magnético industrial.",
+      "3. Utiliza-se entretela recortável ultra-pesada de 100 a 120 g/m² ou duas camadas de entretela tecida resinada coladas com spray de alta aderência.",
+      "4. Instala-se agulha Schmetz ou Groz-Beckert DBxK5 com revestimento de Nitreto de Titânio (calibre 100/16 ou 110/18) com ponta aguda reforçada.",
+      "5. Emprega-se linha de poliéster de título 40wt ou 30wt de alta tenacidade e lubrifica-se a linha com uma gota de óleo de silicone no feltro tensor superior.",
+      "6. A velocidade da máquina é limitada a 500 ou 550 PPM para dissipar o calor gerado pela fricção da agulha na borracha ou trama grossa da lona.",
+      "7. Concluído o bordado, queima-se o excesso de fios soltos com ferro de corte térmico e recorta-se a entretela rente ao avesso com tesoura reforçada de alfaiataria."
+    ],
+    "beginnerExplanation": "A bolsa de ferramentas masculina é a peça mais 'bruta' e resistente que pode entrar no seu ateliê! Marceneiros, eletricistas, encanadores e instaladores de ar-condicionado adoram ter a bolsa da empresa com o nome deles bem visível na obra. Como o tecido é duro como sola de sapato e muitas vezes tem uma borracha grossa por dentro, você não pode usar agulha fininha de bordar roupinha de bebê de jeito nenhum! Tem que usar agulha grossa de titânio (agulha 100), linha forte de poliéster e bordar devagarinho para a máquina não sofrer!",
+    "applications": [
+      "Malas de ferramentas de eletricistas em lona azul e preta com logotipo de empresas de engenharia elétrica.",
+      "Bolsas de ferramentas manuais em lona encerada cáqui com monogramas rústicos para marceneiros e artesãos.",
+      "Organizadores de porta-malas para chaves automotivas e cabos de bateria de carros antigos.",
+      "Bolsas utilitárias para técnicos de refrigeração e instalação predial com número de telefone e nome bordados."
+    ],
+    "technicalDetails": "Na lona de caminhão e na Cordura 1000D, a resistência à penetração da agulha é de 3 a 4 vezes maior que em tecidos comuns de vestuário. A densidade de ponto cheio deve ser ajustada entre 0,44 mm e 0,48 mm, com Compensação de Repuxo mínima de 0,50 mm a 0,60 mm. Empregue subpontos cruzados (Cross-hatch) combinados com subponto de contorno (Edge Walk) para ancorar firmemente os pontos sem deformar as formas geométricas. Velocidade máxima: 500 PPM.",
+    "matrixRelations": "Conecta-se com Cordura 1000D e Lona Pesada, Agulhas de Titânio (Gold 100/16), Compensação de Repuxo Máxima, Lubrificação com Silicone Líquido, Bastidor de Pinça (Clamp Frame) e Fios Resistentes a Óleos.",
+    "commonErrors": [
+      "❌ Bater a agulha sobre rebites metálicos de reforço ou arames de armação da boca da bolsa, entortando a barra de agulha e quebrando o mecanismo da máquina.",
+      "❌ Usar linha de bordado comum de viscose/rayon, que apodrece e arrebenta no primeiro contato com graxa, querosene ou óleo desengripante.",
+      "❌ Usar densidade de ponto muito fechada (menor que 0,38 mm), que picota e corta a lona pesada, fazendo o bolso se soltar com o peso de ferramentas de ferro.",
+      "❌ Deixar a máquina bordando em alta velocidade (acima de 700 PPM), superaquecendo a agulha até ela destemperar e quebrar a ponta de aço."
+    ],
+    "howToIdentify": "Se a linha arrebentar continuamente com a ponta esfiapada e derretida, o atrito na passagem da lona grossa está superaquecendo a agulha; reduza a velocidade para 450 PPM, instale uma agulha nova revestida com titânio 100/16 e aplique silicone no fio. Se as letras saírem com contornos tremidos, a bolsa pesada está balançando no bastidor; reforce a fixação com grampos de pressão adicionais.",
+    "troubleshootingTips": [
+      "Bolsa muito pesada que entorta o aro do bastidor plástico: apoie a base da bolsa em caixas ou suportes de madeira alinhados na altura da mesa da máquina de bordar.",
+      "Lona dura que não deixa a linha puxar a laçada: afrouxe ligeiramente a tensão da linha superior em 1,5 a 2 voltas no disco tensor.",
+      "Nomes com letras pequenas ilegíveis: nunca utilize fontes com altura menor que 10 mm em bolsas pesadas de ferramentas; priorize fontes em bloco maiúsculas e traços encorpados."
+    ],
+    "dicaArtrelados": "Dica de ouro do Ateliê Artrelados para bolsas de ferramentas: sempre borde o nome e o número de telefone da empresa do cliente com linha de cor de alto contraste (como amarelo-ouro sobre lona preta ou laranja fluorescente sobre lona azul). Nas obras e construções, essa bolsa fica jogada no chão e chama a atenção de outros clientes, funcionando como o melhor cartão de visitas que o seu cliente poderia ter!",
+    "voceSabia": "Muitas bolsas profissionais modernas de eletricistas e técnicos de aviação são testadas para suportar quedas de até 3 metros de altura carregadas com 20 kg de ferramentas sem romper uma única costura, sendo confeccionadas com os mesmos padrões de tenacidade de paraquedas militares!",
+    "practicalExercise": "Pegue um pedaço de lona de algodão pesada de 350 g/m² de 20x25 cm. Programe no software o nome 'MECÂNICA' em fonte sans-serif maiúscula com 3 cm de altura, compensação de repuxo de 0,55 mm e sob-ponto duplo. Prenda com entretela recortável pesada de 100 g/m², instale agulha de titânio 100/16 e borde a 500 PPM com linha amarela de alta tenacidade. Avalie a robustez e o impacto visual do bordado pronto!",
+    "quickSummary": "Metodologia pesada para bordados em bolsas industriais de ferramentas em lona grossa e cordura, com agulhas de titânio, baixas rotações PPM e linhas resistentes a graxas e solventes.",
+    "relatedTerms": [
+      "Acessórios de Tecido para Ferramentas",
+      "Bolsa para Equipamentos Fotográficos",
+      "Bordado em Lona e Tecidos Pesados",
+      "Agulha de Titânio (Gold)",
+      "Cordura 1000D",
+      "Compensação de Repuxo",
+      "Bastidor de Pinça (Clamp Frame)"
+    ],
+    "tags": [
+      "bolsa-ferramentas",
+      "tool-bag",
+      "oficina",
+      "eletricista",
+      "mecanica",
+      "lona-pesada",
+      "produtos-masculinos",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "INDUSTRIAL TOOL STORAGE & APPAREL. Heavy Stitching Standards for Tool Luggage. Detroit: SME, 2023.",
+      "GROZ-BECKERT. GEBEDUR Titanium Nitride Needles for Coarse Canvas. Albstadt, 2022.",
+      "SILVA, Janete M. C. Linha Industrial e Utilitários de Alta Carga do Ateliê Artrelados. São Paulo, 2026."
+    ],
+    "updatedAt": "2026-10-15"
+  },
+  {
+    "id": "b-160-bolsa-para-marmita",
+    "code": "B-160",
+    "term": "Bolsa para Marmita",
+    "englishTerm": "Insulated Lunch Bag & Thermal Meal Prep Bag Embroidery",
+    "letter": "B",
+    "level": "Intermediário 🟡",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Do francês 'marmite' (recipiente de barro ou metal com tampa usado desde a Idade Média para cozinhar e transportar caldos). No Brasil e no mundo contemporâneo, a 'marmita' se desvencilhou do estigma popular e tornou-se ícone do estilo de vida saudável (fitness meal prep) e economia sustentável corporativa, impulsionando a confecção de bolsas térmicas sofisticadas de uso diário.",
+    "summary": "Técnicas especializadas de bordado em bolsas térmicas para marmita, com preservação de mantas isolantes aluminizadas, tecidos impermeáveis e ergonomia de uso.",
+    "definition": "A Bolsa para Marmita (Thermal Lunch Bag / Bolsa Térmica Masculina e Corporativa / Meal Prep Pouch) compreende o conjunto de técnicas de matrizaria, métodos de bastidor e acabamento aplicados a bolsas e lancheiras térmicas destinadas ao transporte de refeições, frutas e garrafas térmicas. Confeccionadas externamente em tecidos duráveis como sarja peletizada, jeans, poliéster 600D, linho sintético e lona leve, essas peças possuem recheio interno de espuma térmica isolante (Manta ETAFLON aluminizada ou Espuma Pack de 4 mm a 6 mm) e revestimento de PVC cristal ou laminado impermeável soldado por radiofrequência. A execução do bordado exige obrigatoriamente que a costura seja realizada apenas no tecido de capa externa antes da montagem térmica, ou o uso de técnicas de isolamento no bolso frontal, para que as perfurações da agulha não destruam a barreira estanque do isolamento térmico, evitando vazamento de líquidos e perda de temperatura das refeições.",
+    "howItWorks": [
+      "1. Se a bolsa estiver sendo confeccionada no ateliê, o bordado deve ser aplicado exclusivamente no tecido frontal externo antes do acoplamento da manta ETAFLON e do forro laminado.",
+      "2. Se a bolsa já estiver pronta da confecção, o bordado deve ser realizado exclusivamente no bolso externo não-térmico (bolso frontal de talheres ou guardanapos), sem furar a cuba térmica principal.",
+      "3. Fixa-se uma entretela de recorte macia (Cutaway de 70 a 80 g/m²) no bastidor retangular com spray adesivo temporário.",
+      "4. Posiciona-se o tecido externo plano sobre a entretela utilizando a técnica de flutuação para não esmagar a sarja nem o tecido sintético.",
+      "5. Emprega-se agulha ponta bola de calibre 75/11 ou 80/12 (SES) e linha de poliéster trilobal 40wt de alta resistência a lavagens contínuas e desengordurantes.",
+      "6. A máquina opera em velocidade padrão de 650 a 700 PPM com compensação de repuxo regulada em 0,40 mm.",
+      "7. Ao finalizar, recorta-se a entretela do avesso rente ao desenho e sela-se com filme protetor termocolante antes de prosseguir com a montagem da manta térmica de fechamento."
+    ],
+    "beginnerExplanation": "A bolsa térmica de marmita virou um acessório chique de quem trabalha em escritório, faz dieta na academia ou quer economizar no almoço! O maior perigo que o iniciante comete nessa peça é tentar enfiar a bolsa térmica pronta dentro do bastidor e furar a manta de alumínio prateada que fica por dentro. Se a agulha furar a parte prateada, o calor ou o frio vai escapar pelos furinhos da linha e, se um molho de comida vazar lá dentro, ele vai escorrer para fora pelo bordado! O segredo de profissional é bordar somente no bolsinho da frente ou bordar o tecido antes de costurar a manta térmica por dentro!",
+    "applications": [
+      "Bolsas térmicas masculinas em sarja cinza ou preta com monogramas elegantes para executivos e advogados.",
+      "Bolsas de marmita fitness em nylon 600 com logotipos de nutricionistas, academias e marcas de suplementos.",
+      "Kits de alimentação corporativa com bolsa térmica, porta-talheres de tecido e toalhinha de mão bordados combinando.",
+      "Lancheiras térmicas funcionais para profissionais que fazem plantões em hospitais e viagens rodoviárias."
+    ],
+    "technicalDetails": "Em tecidos externos de bolsas térmicas como sarja de algodão e poliéster 600D, a Compensação de Repuxo deve ser calibrada entre 0,38 mm e 0,45 mm com densidade de ponto cheio em 0,40 mm. Caso a matriz inclua letras pequenas com nomes de profissionais em fontes manuscritas, a largura de coluna não deve ser menor que 1 mm para não afundar na textura da sarja. Em tecidos com manta ETAFLON já acoplada (quando o tecido já é dublado de fábrica), a velocidade deve ser reduzida para 550 PPM e a densidade relaxada para 0,44 mm para não picotar a lâmina de alumínio interna.",
+    "matrixRelations": "Conecta-se com Preservação da Manta Térmica (ETAFLON), Bordado em Sarja e Poliéster 600D, Compensação de Repuxo, Técnica de Flutuação (Floating), Entretela de Recorte Macia e Selagem Térmica de Avesso.",
+    "commonErrors": [
+      "❌ Perfurar a câmara térmica interna estanque com a agulha de bordar, destruindo o isolamento térmico e permitindo vazamento de condensação e líquidos.",
+      "❌ Usar entretelas rasgáveis de celulose, que apodrecem e criam mau cheiro com a umidade e vapores quentes emitidos pelas marmitas dentro da bolsa.",
+      "❌ Apertar o aro do bastidor plástico diretamente sobre mantas espumadas já acopladas, marcando e esmagando permanentemente a espuma de isolamento térmico.",
+      "❌ Usar linhas de algodão ou viscose que mancham quando entram em contato com respingos de azeite, molhos de tomate ou vinagres."
+    ],
+    "howToIdentify": "Se a bolsa térmica começar a vazar gotas de água de condensação gelada pelo lado de fora do bordado, a camada aluminizada foi perfurada pela agulha; aplique fita adesiva aluminizada impermeável pelo lado interno para vedar os furos. Se as letras do logotipo ficarem com contornos tortos, o tecido de capa externa se moveu sobre a entretela durante a rotação da máquina; reforce a adesivagem com spray temporário.",
+    "troubleshootingTips": [
+      "Bolsa térmica pronta sem bolso externo onde não se pode furar o forro: faça a personalização através de uma tag ou chaveiro de tecido bordado preso à alça com mosquetão metálico.",
+      "Odor residual de comida retido nas linhas do bordado: instrua o cliente a limpar o exterior com esponja macia, sabão neutro e água morna sem esfregar abrasivamente.",
+      "Zíper da marmiteira prendendo nas sobras de entretela do avesso: apare a entretela recortável a cerca de 2 mm do desenho e passe o ferro com protetor termocolante macio."
+    ],
+    "dicaArtrelados": "Segredo do Ateliê Artrelados para bolsas de marmita: personalize também o porta-talheres de tecido com o mesmo monograma da bolsa! É um conjunto de custo baixíssimo de confecção, que reaproveita as sobras de tecido da própria bolsa térmica e faz o valor de venda do conjunto subir em até 50% nas encomendas para o Dia dos Pais e presentes de fim de ano!",
+    "voceSabia": "A manta térmica aluminizada usada no interior das bolsas de marmita modernas é derivada direta da tecnologia dos cobertores espaciais desenvolvidos pela NASA em 1964 para o programa espacial Apollo, capazes de refletir até 97% da radiação térmica corporal dos astronautas no espaço!",
+    "practicalExercise": "Corte um retângulo de sarja de 25x30 cm que será o painel frontal de uma bolsa de marmita. Prenda entretela recortável no bastidor, cole a sarja e programe no centro um monograma clássico de 5 cm de altura com as iniciais do seu cliente com compensação de 0,40 mm. Borde na máquina e confira como a sarja fica plana, sem nenhuma marca de bastidor e pronta para receber o isolamento térmico por trás!",
+    "quickSummary": "Metodologia segura para bordados em bolsas de marmita e lancheiras térmicas, com preservação absoluta das mantas isolantes, entretelas resistentes à umidade e kits gourmet personalizados.",
+    "relatedTerms": [
+      "Avental Masculino de Cozinha",
+      "Bolsa Masculina Personalizada",
+      "Manta Térmica ETAFLON",
+      "Técnica de Flutuação (Floating)",
+      "Entretela de Recorte (Cut-Away)",
+      "Bordado em Sarja e Brim",
+      "Compensação de Repuxo"
+    ],
+    "tags": [
+      "bolsa-marmita",
+      "bolsa-termica",
+      "lunch-bag",
+      "meal-prep",
+      "etaflon",
+      "gastronomia",
+      "produtos-masculinos",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "THERMAL INSULATION TEXTILES. Insulated Bags and Food Transport Systems. London: Woodhead Publishing, 2023.",
+      "FOOD PACKAGING & APPAREL. Thermal Bag Manufacturing Standards. Zurich: Textile Institute, 2022.",
+      "SILVA, Janete M. C. Utilitários Térmicos e Gastronômicos no Ateliê Artrelados. São Paulo, 2026."
+    ],
+    "updatedAt": "2026-10-15"
+  },
+  {
+    "id": "b-161-bolsa-para-pesca",
+    "code": "B-161",
+    "term": "Bolsa para Pesca",
+    "englishTerm": "Fishing Tackle Bag & Angler Gear Bag Embroidery",
+    "letter": "B",
+    "level": "Avançado 🔴",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Originada das antigas cestas de vime (creels) e bolsas de lona encerada dos pescadores artesanais escoceses e noruegueses do século XVIII. Com o crescimento da pesca esportiva mundial (pesca de tucunaré, robalo, carpas e torneios em alto-mar), converteu-se em sofisticadas 'tackle bags' multifuncionais com estojos de iscas e alta repelência a água salgada.",
+    "summary": "Técnicas de bordado de altíssima resistência a maresia, água doce e radiação solar em bolsas técnicas de pesca e compartimentos de iscas.",
+    "definition": "A Bolsa para Pesca (Fishing Tackle Bag / Bolsa de Pesca Esportiva / Mala de Iscas) é a bagagem utilitária técnica projetada para o transporte de estojos plásticos de iscas artificiais, carretilhas, molinetes, alicates de bico e linhas de monofilamento e multifilamento. Confeccionada em tecidos impermeáveis de alta densidade como Lona Emborrachada de PVC, Poliéster 1200D resinado, Ripstop naval e telas emborrachadas anti-mofo, essa bolsa é submetida a condições ambientais extremas: sol abrasador contínuo em barcos, borrifos de água salgada (maresia corrosiva), lodo, sangue de peixe e atrito em pedras e galhadas. O bordado eletrônico exige fios de poliéster 100% com proteção ultravioleta (UV-resistant), agulhas reforçadas com ponta de corte ou microtex, matrizes com pontos travados que não desfiem com garateias e anzóis pontiagudos, e proteção estanque total das perfurações.",
+    "howItWorks": [
+      "1. Seleciona-se o local de aplicação do bordado: na aba frontal superior do compartimento principal ou no bolso frontal porta-alicates.",
+      "2. Em bolsas confeccionadas no ateliê, o bordado é aplicado no painel de lona emborrachada antes da soldagem térmica ou costura com linha de náilon encerada.",
+      "3. Para bolsas prontas, utiliza-se a técnica de patch bordado com velcro marítimo ou flutuação em bastidor com entretela de recorte de alta gramatura (90 g/m²).",
+      "4. Instala-se agulha Schmetz Microtex ou Topstitch calibre 90/14 ou 100/16 revestida com titânio para penetrar na lona plastificada sem aquecimento do PVC.",
+      "5. Utiliza-se linha 100% poliéster trilobal 40wt com tratamento de proteção UV e resistência química total ao sal e ao cloro.",
+      "6. A velocidade da bordadeira é ajustada entre 550 e 600 PPM para garantir perfeita formação de laçada na lançadeira com materiais espessos.",
+      "7. Concluído o bordado, aplica-se fita seladora termocolante de costuras náuticas no avesso para manter o estojo 100% imune a infiltração de água e umidade."
+    ],
+    "beginnerExplanation": "O público da pesca esportiva é extremamente apaixonado pelo seu hobby e não economiza nem um centavo quando o assunto é o seu equipamento! Pescadores adoram ter bolsas com o nome deles, o peixe favorito bordado (como tucunaré, robalo ou dourado) e o logo da equipe de pesca. Como essas bolsas ficam no barco debaixo de sol escaldante e tomam banho de água com sal o tempo todo, você jamais pode usar linha de má qualidade ou entretela fraca. Tem que usar linha de poliéster boa que não desbota no sol e garantir que nenhuma ponta de anzol enrosque nas letras do bordado!",
+    "applications": [
+      "Bolsas de pesca em lona camuflada ou verde militar com peixes esportivos bordados em alto relevo e cores vibrantes.",
+      "Bolsas técnicas de pesca oceânica em tecido emborrachado azul marinho com logotipos de equipes e capitães de barco.",
+      "Capas de proteção acolchoadas para carretilhas e molinetes de alta precisão com identificação bordada do pescador.",
+      "Bolsas porta-varas e tubos de transporte com monogramas resistentes para viagens de pesca no Pantanal e Amazônia."
+    ],
+    "technicalDetails": "Em tecidos impermeabilizados como Poliéster 1200D e lona emborrachada de 450 g/m², a Compensação de Repuxo deve ser calibrada entre 0,45 mm e 0,55 mm. Para desenhos figurativos de peixes e escamas, utilize pontos Tatami com densidade aberta entre 0,42 mm e 0,46 mm e ângulos alternados de 45 e 135 graus para gerar efeito de brilho holográfico sem sobrecarregar a lona de perfurações. Para letras, adicione sob-ponto duplo de contorno (Double Edge Walk) para ancorar as bordas. Velocidade ideal: 550 PPM.",
+    "matrixRelations": "Conecta-se com Fios de Poliéster com Proteção UV, Lona Emborrachada e Ripstop Naval, Agulha de Titânio Microtex 90/14, Efeito Holográfico no Tatami, Compensação de Repuxo e Fita Seladora Náutica.",
+    "commonErrors": [
+      "❌ Usar linhas de rayon ou algodão, que desbotam em poucas semanas de sol forte e apodrecem com a umidade salina dos barcos de pesca.",
+      "❌ Deixar laçadas compridas de ponto cheio (maiores que 6 mm) no desenho do peixe, que enroscam nas garateias de anzóis afiados e rasgam o bordado.",
+      "❌ Bordar com alta densidade (0,30 mm) em lona de PVC, picotando a lona e transformando a área bordada em um buraco aberto com a primeira chuva.",
+      "❌ Esquecer de selar o verso do bordado, permitindo que a água da chuva entre no bolso e enferruje os anzóis e carretilhas caríssimas do pescador."
+    ],
+    "howToIdentify": "Se a lona emborrachada apresentar pequenas rachaduras ao redor dos pontos após alguns meses de uso, a densidade da matriz foi agressiva demais ou a agulha não tinha ponta afiada para perfurar o PVC limpo. Se a linha superior desfiar durante o bordado, o atrito na lona plastificada gerou aquecimento excessivo; aplique lubrificante de silicone no cone de linha e reduza a velocidade da máquina.",
+    "troubleshootingTips": [
+      "Lona grossa de pesca com dificuldade de prender no bastidor: use a técnica de flutuação com fita adesiva de alta fixação nas bordas sobre entretela de recorte de 90 g/m².",
+      "Bordado de peixe com cores desbotadas pelo sol: oriente o cliente a usar exclusivamente fios de poliéster trilobal de fabricantes reconhecidos (como Madeira Polyneon ou Linhas Corrente) que possuem certificação UV.",
+      "Anzóis enroscando nas letras: programe a matriz com pontos de amarração final (Tie-off) reforçados com 4 micro-pontos e apare todas as sobras de fio com tesoura de ponta curva rente ao tecido."
+    ],
+    "dicaArtrelados": "Segredo do Ateliê Artrelados para bolsas de pesca: desenhe o peixe sempre em posição de ataque dinâmico (com o corpo ligeiramente curvado e a cauda para cima)! Quando o pescador olha para a bolsa dele na proa do barco, essa imagem transmite uma energia vibrante de esporte e adrenalina que valoriza a peça de forma incomparável!",
+    "voceSabia": "A pesca esportiva no Brasil movimenta mais de 3 bilhões de reais por ano, sendo um dos segmentos esportivos que mais cresce no país; estados como Amazonas, Mato Grosso e Goiás possuem pescadores de torneios que investem em uniformes e bolsas técnicas bordadas personalizadas a cada temporada!",
+    "practicalExercise": "Crie no seu software a silhueta de um peixe tucunaré com 10 cm de comprimento. Programe o corpo com ponto Tatami em degradê de verde para amarelo ouro com densidade de 0,44 mm e contornos em ponto cordão fino de 1,5 mm. Borde sobre lona verde militar com entretela de recorte pesada e linha de poliéster brilhante. Veja o brilho escamado que se forma sob a luz do sol!",
+    "quickSummary": "Diretrizes técnicas para bordados em bolsas de pesca esportiva em lona emborrachada e tecidos impermeáveis, com fios resistentes a raios UV, selagem anti-maresia e ancoragem contra anzóis.",
+    "relatedTerms": [
+      "Bolsa para Equipamentos Esportivos",
+      "Bolsa para Ferramentas",
+      "Bordado em Lona e Tecidos Pesados",
+      "Fios de Poliéster com Proteção UV",
+      "Tecido Ripstop",
+      "Compensação de Repuxo",
+      "Efeito Degradê em Pontos Tatami"
+    ],
+    "tags": [
+      "bolsa-pesca",
+      "tackle-bag",
+      "pesca-esportiva",
+      "lona-emborrachada",
+      "protecao-uv",
+      "impermeavel",
+      "produtos-masculinos",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "SPORT FISHING GEAR & APPAREL. Technical Bag Construction and Saltwater Durability. Orlando: ASA, 2024.",
+      "WEATHER RESISTANT TEXTILES. UV Stabilization and Marine Grade Threads. London: Textile Media, 2023.",
+      "SILVA, Janete M. C. Peças Náuticas e Esportivas de Alta Tenacidade. São Paulo: Artrelados, 2026."
+    ],
+    "updatedAt": "2026-10-15"
+  },
+  {
+    "id": "b-162-bolsa-para-equipamentos-esportivos",
+    "code": "B-162",
+    "term": "Bolsa para Equipamentos Esportivos",
+    "englishTerm": "Athletic Equipment Bag & Team Sports Gear Bag Embroidery",
+    "letter": "B",
+    "level": "Intermediário 🟡 a Avançado 🔴",
+    "category": "Técnicas de Bastidor",
+    "grammarClass": "Locução substantiva feminina.",
+    "origin": "Desenvolvida com a profissionalização dos esportes de equipe (futebol, basquete, tênis, artes marciais e natação) no século XX, integrando compartimentos técnicos arejados para calçados, bolsas térmicas para suplementação e divisórias acolchoadas para raquetes e capacetes com identidade de atletas e agremiações.",
+    "summary": "Metodologia de bordado em bolsas esportivas técnicas para modalidades coletivas e individuais em tecidos técnicos respiráveis, lonas leves e telas aeradas.",
+    "definition": "A Bolsa para Equipamentos Esportivos (Team Gear Bag / Bolsa Porta-Chuteiras e Raquetes / Mala Esportiva Técnica) compreende o projeto de matrizaria e execução mecânica de bordados em bolsas especializadas para praticantes de modalidades esportivas específicas (tênis, futebol, jiu-jítsu, natação, ciclismo e golfe). Confeccionadas em uma combinação de tecidos técnicos — como Náilon Diamond Ripstop, Poliéster 600D, Neoprene respirável e telas de ventilação 3D (Air Mesh / Spacer Mesh) —, essas bolsas possuem compartimentos dimensionados para itens volumosos como calçados com cravos, raquetes de fibra de carbono, quimonos pesados e capacetes. O bordado computadorizado é demandado por clubes, agremiações esportivas, academias e atletas de alta performance para identificação de nome, número de camisa, brasão do clube e patrocinadores, exigindo pontos arejados que respeitem a ventilação das telas, ancoragem anti-repuxo e durabilidade extrema a lavagens periódicas.",
+    "howItWorks": [
+      "1. Analisa-se o modelo da bolsa identificando o compartimento mais nobre e acessível: a aba frontal superior, o bolso lateral para calçados ou o painel de fechamento de raquetes.",
+      "2. Em tecidos com tela aerada (Air Mesh) ou aberturas de respiro, nunca se borda diretamente sobre a tela perfurada; o bordado é aplicado sobre uma pala sólida de sarja ou poliéster que contorna o bolso.",
+      "3. Monta-se entretela recortável (Cutaway) estável de 80 g/m² no bastidor retangular com adesivo temporário reposicionável.",
+      "4. Posiciona-se o painel da bolsa esportiva com a técnica de flutuação, garantindo que zíperes longos e alças acolchoadas fiquem soltos fora da área de rotação do cabeçote.",
+      "5. Instala-se agulha ponta bola de calibre 75/11 ou 80/12 (SES) para tecidos sintéticos esportivos ou 90/14 para brins pesados de sacolas de artes marciais.",
+      "6. Utiliza-se linha de poliéster 40wt de alta tenacidade e ajusta-se a máquina para velocidade moderada de 650 a 700 PPM.",
+      "7. Concluído o bordado, recorta-se a entretela rente ao avesso e aplica-se selagem protetora suave para proteger o forro contra o atrito de calçados e equipamentos."
+    ],
+    "beginnerExplanation": "Toda equipe de futebol amador, clube de tênis, escola de jiu-jítsu ou assessoria de corrida adora encomendar bolsas padronizadas para seus atletas! Cada jogador quer a bolsa com o brasão do time, o nome dele e o número da camisa. A grande dica prática para quem está começando é: bolsas de esporte têm muitos zíperes e bolsos tortos. Nunca tente enfiar a bolsa inteira no bastidor espremendo os tecidos. O jeito fácil e profissional é abrir o bolso onde você vai bordar, colar a partezinha no bastidor com cola spray e bordar em velocidade moderada sem pressa!",
+    "applications": [
+      "Bolsas porta-chuteiras em poliéster 600D com escudo do time e número do atleta bordados na lateral.",
+      "Mochilas e bolsas raqueteiras de tênis e beach tennis com monogramas elegantes e nomes de tenistas.",
+      "Sacos de quimono reforçados em tecido trançado de algodão para praticantes de jiu-jítsu e judô.",
+      "Bolsas de viagem esportivas para delegações de atletismo e natação com bandeiras e identificação de patrocinadores."
+    ],
+    "technicalDetails": "Em tecidos técnicos como Poliéster 600D e Ripstop esportivo, a densidade de ponto cheio deve ser calibrada entre 0,40 mm e 0,44 mm, com Compensação de Repuxo mantida entre 0,38 mm e 0,45 mm. Para escudos de equipes que contenham detalhes pequenos e textos circulares (com menos de 5 mm de altura), utilize fontes simples de ponto corrido triplo (Bean Stitch) ou simplifique os traços para que os pontos não congestionem a base de tecido sintético. Velocidade ideal: 650 PPM.",
+    "matrixRelations": "Conecta-se com Bordado em Poliéster 600D e Ripstop, Telas Aeradas (Air Mesh), Ponto Corrido Triplo (Bean Stitch), Compensação de Repuxo, Entretela de Recorte (Cutaway) e Agulhas Ponta Bola (SES).",
+    "commonErrors": [
+      "❌ Bordar diretamente sobre a tela de ventilação perfurada (Air Mesh), engolindo os pontos nos buracos da tela e entortando o formato das letras.",
+      "❌ Usar densidade de ponto excessivamente apertada em tecidos esportivos finos, cortando as fibras e rasgando a bolsa na primeira vez que ela for carregada com equipamentos pesados.",
+      "❌ Bater a agulha sobre alças grossas acolchoadas com espuma de polietileno, quebrando a agulha e desregulando a sincronia da lançadeira.",
+      "❌ Usar entretelas rasgáveis comuns, que se esfarelam com o peso e a umidade de toalhas e uniformes suados após as partidas."
+    ],
+    "howToIdentify": "Se o tecido de ripstop repuxar formando pregas e rugas ao redor do escudo do time, a compensação de repuxo foi insuficiente ou a entretela foi fina demais; aumente a compensação de repuxo para 0,45 mm e use entretela recortável de 80 g/m². Se a linha superior quebrar nas costuras transversais de reforço das alças, diminua a velocidade para 600 PPM e utilize agulha 90/14 nova.",
+    "troubleshootingTips": [
+      "Bolsa pronta com espaço reduzido para bastidor: utilize bastidor pequeno de mangas ou bastidor magnético retangular para alcançar o interior do bolso.",
+      "Números de atletas com laçadas soltas após lavagens: programe subponto de zigue-zague aberto no centro das colunas de ponto cheio para travar a base das letras.",
+      "Manchas de suor e terra sobre as linhas do bordado: utilize exclusivamente fios de poliéster de alta tenacidade, que suportam lavagens com sabão desengraxante sem desbotar."
+    ],
+    "dicaArtrelados": "Regra de ouro do Ateliê Artrelados para bolsas de times e equipes: crie uma matriz padrão com o escudo do clube já calibrado e deixe um campo editável embaixo para trocar apenas o nome e o número de cada atleta! Isso permite que você borde uma encomenda de 20 ou 30 bolsas de um time com extrema rapidez, sem ter que reprogramar a matriz do zero para cada jogador!",
+    "voceSabia": "Muitas marcas famosas de raqueteiras de tênis profissionais incorporam um forro interno de tecnologia 'ThermoGuard', desenvolvido originalmente para isolar tubulações industriais, capaz de proteger a tensão das cordas de tripa natural das raquetes contra variações bruscas de calor e umidade dentro do carro ou no avião!",
+    "practicalExercise": "Crie no seu software um escudo esportivo estilizado de 8x8 cm contendo uma bola de futebol e uma faixa central com o nome de um atleta em fonte atlética maiúscula. Configure compensação de repuxo de 0,42 mm e densidade de 0,40 mm. Monte um retalho de poliéster 600D flutuando sobre entretela de recorte no bastidor e borde na máquina a 650 PPM. Comprove o alinhamento cirúrgico e o acabamento profissional para equipes esportivas!",
+    "quickSummary": "Projeto completo para personalização e bordado em bolsas para equipamentos esportivos em poliéster 600D e ripstop, com técnicas para escudos de clubes, números de atletas e resistência mecânica.",
+    "relatedTerms": [
+      "Bolsa Masculina para Academia",
+      "Bolsa para Pesca",
+      "Bolsa para Equipamentos Fotográficos",
+      "Bordado em Nylon e Sintéticos",
+      "Poliéster 600D (Nylon 600)",
+      "Tecido Ripstop",
+      "Compensação de Repuxo"
+    ],
+    "tags": [
+      "bolsa-esportiva",
+      "raqueteira",
+      "porta-chuteira",
+      "futebol",
+      "tenis",
+      "poliester-600d",
+      "produtos-masculinos",
+      "artrelados"
+    ],
+    "bibliographicReferences": [
+      "ATHLETIC GEAR & TEAM BAGS. Performance Textiles and Club Customization. Chicago: ST Media, 2024.",
+      "TECHNICAL EMBROIDERY FOR SPORTSWEAR. High-Tenacity Threads and Fabrics. London, 2023.",
+      "SILVA, Janete M. C. Linha Esportiva e Artigos de Agremiações do Ateliê Artrelados. São Paulo, 2026."
+    ],
+    "updatedAt": "2026-10-15"
   }
 ]

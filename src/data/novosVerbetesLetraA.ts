@@ -1682,7 +1682,362 @@ export const NOVOS_VERBETES_LETRA_A: Verbete[] = [
       "SILVA, Janete M. C. Cadernos de Produção do Ateliê Artrelados: Peças Gastronômicas e Utilitários Masculinos. São Paulo, 2026."
     ],
     updatedAt: "2026-10-13"
+  },
+  {
+    id: "a-161-avental-masculino-de-cozinha",
+    code: "A-161",
+    term: "Avental Masculino de Cozinha",
+    englishTerm: "Men's Cooking Apron & Culinary Chef Bib Embroidery",
+    letter: "A",
+    level: "Intermediário 🟡",
+    category: "Técnicas de Bastidor",
+    grammarClass: "Locução substantiva masculina.",
+    origin: "Do francês 'avantau' e do latim 'abante' (que protege a frente do corpo). Na gastronomia contemporânea, o avental de cozinha masculino migrou das cozinhas de serviço para a área social gourmet, tornando-se peça de destaque e presente nobre para pais, chefs amadores e entusiastas da culinária.",
+    summary: "Diretrizes completas de estabilização, matrizaria e posicionamento anatômico para bordados personalizados em aventais masculinos de cozinha e gastronomia.",
+    definition: "O Avental Masculino de Cozinha compreende a padronização técnica de matriz, estabilização e bordado computadorizado aplicada a aventais gastronômicos masculinos confeccionados em sarja média, brim peletizado, gabardine de alta densidade e mesclas de algodão com poliéster. Por ser uma peça submetida a vapores de cocção, respingos de azeite e frequentes ciclos de lavagem com detergentes desengordurantes, o bordado no peito exige linhas de poliéster 100% trilobal de alta solidez, entretela recortável estável (Cutaway) e subpontos densos que evitem o afundamento dos fios na trama rústica do tecido.",
+    howItWorks: [
+      "1. Demarca-se o eixo vertical central do avental e mede-se a altura anatômica do peito: o centro do bordado deve ficar entre 7 cm e 8 cm (cerca de 4 dedos) abaixo do decote superior.",
+      "2. Fixa-se entretela de recorte (Cutaway) de 80 g/m² no bastidor retangular (16x26 cm ou 18x30 cm) bem tensionada como um tambor.",
+      "3. Aplica-se adesivo temporário em spray no verso do avental ou posiciona-se a peça pela técnica de flutuação (floating) para não esmagar a sarja nos aros plásticos.",
+      "4. Utiliza-se agulha calibre 80/12 ou 90/14 ponta universal ou ponta bola leve (SES) e linha de poliéster 40wt com alta tenacidade à tração.",
+      "5. A máquina executa subpontos de ancoragem em tatami aberto antes de preencher as colunas de ponto cheio das letras e do brasão.",
+      "6. Ao término, retira-se o excesso de entretela recortando pelo avesso a cerca de 3 mm do contorno com tesoura de ponta curva de precisão."
+    ],
+    beginnerExplanation: "É um dos presentes masculinos mais procurados no ateliê para o Dia dos Pais, aniversários e confrarias de cozinha! O cliente sempre quer o nome do cozinheiro, uma frase bem-humorada ou um chapéu de chef com talheres cruzados. O grande segredo para não errar é não prender o tecido grosso direto no bastidor para não deixar marcas brancas no brim; o jeito profissional é prender a entretela no bastidor e colar o avental em cima bem alinhadinho com fita ou cola spray temporária!",
+    applications: [
+      "Aventais de cozinha em sarja preta com monogramas em fio dourado para chefs amadores.",
+      "Aventais culinários em brim cru e cáqui com brasões gastronômicos de famílias e confrarias.",
+      "Kits de presente com avental de cozinha, pano de prato gourmet e luva térmica combinando.",
+      "Uniformes elegantes para equipes de bistrôs, hamburguerias e restaurantes artesanais."
+    ],
+    technicalDetails: "Em sarjas e brins culinários entre 200 g/m² e 280 g/m², a Compensação de Repuxo (Pull Compensation) deve ser regulada entre 0,38 mm e 0,45 mm, com densidade de ponto cheio (Satin) calibrada em 0,40 mm. Caso o desenho inclua letras com colunas superiores a 7 mm de largura, deve-se aplicar partição automática em Tatami ou ponto dividido para evitar laçadas frouxas que enrosquem em colheres e facas. Velocidade ideal na bordadeira: 600 a 700 PPM.",
+    matrixRelations: "Conecta-se diretamente com Compensação de Repuxo (Pull Compensation), Subpontos de Ancoragem (Underlay), Ponto Satim com Partição, Entretela de Recorte (Cutaway), Agulhas de Calibre 80/12 e 90/14, e Velocidade Operacional PPM.",
+    commonErrors: [
+      "❌ Usar entretela rasgável fina (Tearaway) de 40 g/m², que se desfaz após as primeiras lavagens na máquina e deixa o bordado amassado e enrugado para sempre.",
+      "❌ Centralizar o bordado no meio de todo o comprimento do avental, fazendo o desenho cair na altura da barriga em vez de permanecer elegante e visível no peito.",
+      "❌ Empregar fontes finas e delicadas com traços menores que 1 mm, que afundam nas nervuras da sarja e ficam ilegíveis à distância.",
+      "❌ Apertar o parafuso do aro plástico com força excessiva contra o brim escuro, gerando marcas permanentes de estiramento mecânico (hoop burn)."
+    ],
+    howToIdentify: "Se as letras do nome parecerem encolhidas no sentido da costura ou o tecido ao redor do brasão franzir após retirar do bastidor, aumente a compensação de repuxo para 0,45 mm e reforce a camada de entretela recortável. Se a linha superior arrebentar nos pontos de preenchimento denso, reduza a velocidade para 650 PPM e troque a agulha por uma nova de calibre 90/14.",
+    troubleshootingTips: [
+      "Tecido do avental ficou com aro brilhante do bastidor: pulverize água filtrada suavemente com borrifador e passe ferro com vapor médio protegido por um pano de algodão fino.",
+      "Bordado com fios desfiando na passagem pela agulha: verifique se a agulha não está torta ou com a ponta rombuda devido à aspereza da sarja pesada e instale agulha 90/14 nova.",
+      "Nomes com letras desalinhadas em relação ao decote: utilize sempre uma régua em L ou gabarito de acrílico para medir a distância milimétrica exata da borda superior antes de colar o avental."
+    ],
+    dicaArtrelados: "Regra de ouro do Ateliê Artrelados para aventais culinários: sempre borde antes de montar bolsos adicionais ou alças decorativas caso você esteja confeccionando a peça do zero! Se o avental já vier pronto da confecção, dobre o peito exatamente ao meio no sentido vertical e vinque suavemente a ferro para ter a linha de centro infalível, garantindo que o bordado fique perfeitamente centralizado em relação ao pescoço!",
+    voceSabia: "O modelo de avental com babador peitoral e tiras cruzadas ou passadas no pescoço foi popularizado no início do século XX e tornou-se a vestimenta oficial das grandes escolas de gastronomia francesas como a Le Cordon Bleu, sendo hoje uma das peças masculinas personalizadas com maior taxa de recomendação entre clientes de ateliê!",
+    practicalExercise: "Pegue um retalho de sarja preta de 25x25 cm. Prenda uma entretela recortável de 80 g/m² no bastidor e apoie a sarja com adesivo temporário. No seu programa de matrizes, crie um brasão com a inicial do seu sobrenome em ponto cheio de 4 cm de altura com compensação de 0,40 mm e sob-ponto zigue-zague duplo. Borde na máquina e comprove como o acabamento fica plano, nítido e sem nenhuma ondulação!",
+    quickSummary: "Manual completo de bordado em aventais masculinos de cozinha, com técnicas de alinhamento peitoral, entretelas de recorte laváveis e parâmetros anti-repuxo para sarjas e brins.",
+    relatedTerms: [
+      "Avental de Churrasqueiro Personalizado",
+      "Bordado em Brim e Sarja",
+      "Entretela de Recorte (Cut-Away)",
+      "Compensação de Repuxo",
+      "Subpontos de Ancoragem (Underlay)",
+      "Técnica de Flutuação (Floating)",
+      "Marca de Bastidor (Hoop Burn)"
+    ],
+    tags: [
+      "avental-masculino",
+      "cozinha",
+      "gastronomia",
+      "sarja",
+      "brim",
+      "cutaway",
+      "produtos-masculinos",
+      "artrelados"
+    ],
+    bibliographicReferences: [
+      "EMBROIDERY MAGAZINE. Commercial Kitchen Workwear and Personalized Aprons. London: Stobart Davies, 2023.",
+      "WILCOM. Heavy Twill and Denim Lettering Guidelines. Sydney, 2022.",
+      "SILVA, Janete M. C. Apostila de Produtos Masculinos e Gastronômicos no Ateliê Artrelados. São Paulo, 2026."
+    ],
+    updatedAt: "2026-10-15"
+  },
+  {
+    id: "a-162-avental-profissional-masculino",
+    code: "A-162",
+    term: "Avental Profissional Masculino",
+    englishTerm: "Men's Professional Heavy-Duty Work Apron (Barber, Craftsman & Barista)",
+    letter: "A",
+    level: "Avançado 🔴",
+    category: "Técnicas de Bastidor",
+    grammarClass: "Locução substantiva masculina.",
+    origin: "Derivado dos tradicionais aventais de operários, ferreiros, relojoeiros e curtidores da era da Revolução Industrial. Com a valorização do design artesanal e de barbearias tradicionais (barbershops) no século XXI, transformou-se no símbolo de identidade corporativa e elegância funcional masculina.",
+    summary: "Técnicas avançadas de bordado de alta tenacidade em aventais profissionais de lona pesada, jeans cru e apliques em couro sintético para barbearias, marcenarias e baristas.",
+    definition: "O Avental Profissional Masculino compreende a metodologia de matrizaria avançada, perfuração pesada e montagem em bastidor aplicada a aventais utilitários de trabalho para profissionais como barbeiros, marceneiros, sommeliers, tatuadores e artesãos de couro. Confeccionados em materiais ultra-resistentes como lona 100% algodão acima de 300 g/m², jeans cru encorpado (12 a 14 oz), sarja naval e detalhes estruturados em couro sintético (recouro ou Montana), esses aventais exigem bordados de altíssima resistência mecânica capazes de suportar o atrito de tesouras, navalhas, ferramentas manuais e lavagens industriais contínuas sem deformar ou perder a vivacidade dos pontos.",
+    howItWorks: [
+      "1. Analisa-se a localização dos bolsos utilitários e ilhoses metálicos do avental antes de definir o tamanho da matriz (máximo de 14x14 cm no peito ou 10x8 cm no bolso superior).",
+      "2. Emprega-se a técnica de flutuação sobre entretela de recorte pesada de 90 g/m² montada no bastidor com alfinetamento periférico e reforço de fita crepe nas bordas.",
+      "3. Instala-se agulha industrial ou doméstica reforçada de calibre 90/14 ou 100/16 de ponta pontiaguda (Topstitch ou Microtex) para vencer a densidade das fibras da lona.",
+      "4. Utiliza-se linha 100% poliéster trilobal 40wt de alta tenacidade e regula-se a tensão superior com leve alívio para acomodar a espessura do material.",
+      "5. Caso o bordado seja aplicado sobre um bolso de couro sintético ou recouro, programa-se o contorno com ponto festonê ou satim espaçado (densidade 0,50 mm) para não guilhotinar o material sintético.",
+      "6. A máquina opera em velocidade controlada de 550 a 650 PPM para garantir precisão e dissipação térmica da agulha."
+    ],
+    beginnerExplanation: "Sabe aqueles aventais estilosos que os barbeiros modernos e donos de hamburguerias usam, cheios de bolsos de couro e alças que cruzam nas costas? Eles são peças super valorizadas! O desafio de bordar neles é que o tecido é muito grosso e pesado. Se você tentar enfiar a lona dura no aro do bastidor comum, vai machucar suas mãos e deixar uma marca horrorosa na peça. A técnica profissional é prender apenas a entretela forte no bastidor e bordar com o avental apoiado por cima com cola spray e alfinetes nas beiradas!",
+    applications: [
+      "Logotipos de barbearias vintage com tesouras e navalhas bordadas com linha acetinada em lona preta.",
+      "Aventais de marcenaria fina e lutheria com monogramas rústicos e identificação de ferramentas.",
+      "Aventais para baristas de cafeterias especiais em jeans escuro com detalhes em couro marrom.",
+      "Uniformes de ateliês de tatuagem e estúdios de arte com artes monocromáticas de alto contraste."
+    ],
+    technicalDetails: "A lona pesada e o jeans cru exercem enorme força de fricção sobre a agulha; por isso, a Compensação de Repuxo deve ser calibrada em 0,45 mm a 0,55 mm, e os subpontos de ancoragem devem ser compostos por uma esteira dupla de ponto corrido com ângulo de 90 graus em relação aos pontos de acabamento. O uso de agulhas Schmetz ou Groz-Beckert com revestimento de Nitreto de Titânio (Gold) é altamente recomendado para evitar superaquecimento e quebra de fio a velocidades superiores a 600 PPM.",
+    matrixRelations: "Conecta-se com Agulhas de Titânio (Gold), Entretela de Recorte Cutaway Pesada, Compensação de Repuxo (Pull Compensation), Bordado em Couro Sintético (Montana), Subpontos Duplos e Velocidade de Costura PPM.",
+    commonErrors: [
+      "❌ Bordar sobre costuras duplas ou ilhoses metálicos de reforço, provocando colisão violenta do calcador ou quebra instantânea da agulha.",
+      "❌ Usar pontos com densidade muito apertada (0,30 mm a 0,35 mm) em couro sintético ou lona emborrachada, criando uma linha de corte que rasga o tecido como picote de papel.",
+      "❌ Tentar prender a lona grossa diretamente nos aros plásticos do bastidor, quebrando a trava plástica ou gerando desnível na área de bordado.",
+      "❌ Esquecer de reforçar o avesso com entretela recortável, resultando em letras deformadas pelas ferramentas pesadas colocadas nos bolsos adjacentes."
+    ],
+    howToIdentify: "Se a linha superior romper com aspecto esfarelado e aquecido ao toque, a fricção mecânica na agulha está excessiva; reduza a velocidade para 550 PPM e utilize agulha de titânio 90/14. Se as formas circulares do brasão saírem ovaladas, a lona se deslocou sobre a entretela durante as batidas; aumente a ancoragem com alfinetes ou fita de fixação perimetral.",
+    troubleshootingTips: [
+      "Lona muito dura que oferece resistência na entrada da agulha: amacie levemente o ponto de aplicação com um pouco de vapor de ferro antes de posicionar no bastidor.",
+      "Pulos de ponto ao transpor dobras de tecido: eleve a altura do calcador em 0,5 mm no painel da máquina para permitir a passagem suave pelas espessuras.",
+      "Farpas de linha no avesso: regule a tensão da caixa de bobina para que o fio inferior apareça exatamente em um terço central da largura das colunas de ponto cheio."
+    ],
+    dicaArtrelados: "Segredo de mestre do Ateliê Artrelados: para aventais com bolsos de couro sintético ou recouro, faça o bordado no bolso antes de costurá-lo no corpo do avental! Isso economiza tempo, elimina o risco de prender o forro por engano e permite um acabamento limpo e impecável que agrega um valor gigantesco à peça!",
+    voceSabia: "O design de aventais com alças cruzadas nas costas (chamadas de alças em X ou Cross-back) foi criado para evitar dores cervicais em profissionais que passam 10 a 12 horas em pé com ferramentas pesadas nos bolsos, transferindo todo o peso do pescoço para os ombros e a cintura!",
+    practicalExercise: "Crie no software um logotipo estilizado com ferramentas cruzadas medindo 9x9 cm. Configure a compensação de repuxo em 0,48 mm e densidade de 0,42 mm. Monte um retalho de lona de algodão de 320 g/m² flutuando sobre entretela de recorte de 90 g/m² com agulha 90/14 e execute o bordado a 600 PPM. Avalie a nitidez das linhas finas e o encaixe perfeito das pontas!",
+    quickSummary: "Metodologia especializada para bordar aventais profissionais masculinos de barbearia e marcenaria em lona e jeans pesado com alta tenacidade, agulhas reforçadas e flutuação de bastidor.",
+    relatedTerms: [
+      "Avental Masculino de Cozinha",
+      "Bordado em Lona e Tecidos Pesados",
+      "Agulha de Titânio (Gold)",
+      "Técnica de Flutuação (Floating)",
+      "Entretela de Recorte (Cut-Away)",
+      "Compensação de Repuxo",
+      "Picote de Agulha"
+    ],
+    tags: [
+      "avental-profissional",
+      "barbeiro",
+      "marcenaria",
+      "lona",
+      "jeans-pesado",
+      "recouro",
+      "produtos-masculinos",
+      "artrelados"
+    ],
+    bibliographicReferences: [
+      "INDUSTRIAL EMBROIDERY WORKWEAR. Heavy Duty Garments and Apron Customization. Chicago: ST Media, 2024.",
+      "SCHMETZ. Needles for Heavy Canvas and Workwear Fabrics. Albstadt, 2023.",
+      "SILVA, Janete M. C. Peças Utilitárias e Uniformes Masculinos de Alta Resistência. São Paulo: Artrelados, 2026."
+    ],
+    updatedAt: "2026-10-15"
+  },
+  {
+    id: "a-163-almofada-decorativa-masculina",
+    code: "A-163",
+    term: "Almofada Decorativa Masculina",
+    englishTerm: "Men's Decorative Pillow & Tailored Monogram Embroidery",
+    letter: "A",
+    level: "Intermediário 🟡",
+    category: "Tipos de Tecidos",
+    grammarClass: "Locução substantiva feminina com adjetivos técnicos.",
+    origin: "Do árabe 'al-muhaddah' (apoio para o rosto/cabeça). No design de interiores contemporâneo voltado para o público masculino (estilo industrial, escandinavo e rústico chique), a almofada deixou de ter conotação exclusivamente feminina e assumiu identidade sóbria com texturas de alfaiataria, lãs e couros com monogramas personalizados.",
+    summary: "Estabilização, seleção de tecidos rústicos e matrizes geométricas para bordados sóbrios em almofadas masculinas e ambientes corporativos ou residenciais.",
+    definition: "A Almofada Decorativa Masculina consiste na padronização técnica de matrizaria, escolha de materiais e estabilização para a confecção e personalização de capas de almofadas destinadas a dormitórios masculinos, salas de estar, home theaters e escritórios executivos. Confeccionadas em tecidos com toque encorpado e visual sóbrio — como linho misto rústico, sarja peletizada, suede com textura de camurça, veludo cotelê e couro sintético fosco —, essas peças recebem bordados de monogramas geométricos, coordenadas geográficas, emblemas náuticos ou automotivos e heráldica moderna. A execução requer equilíbrio rigoroso entre sustentação mecânica do bordado e maciez ao toque, evitando matrizes excessivamente duras que formem placas rígidas que causem desconforto ao deitar ou apoiar o corpo.",
+    howItWorks: [
+      "1. Corta-se a frente da almofada com sobra de 3 a 4 cm em toda a volta para permitir folga de encolhimento durante o bordado.",
+      "2. Centraliza-se o desenho traçando eixos X e Y com giz de alfaiate ou caneta fantasminha termossensível.",
+      "3. Em tecidos com textura ou felpa curta (como suede ou cotelê), aplica-se um filme plástico hidrossolúvel fino (Solvy) no topo para manter os pontos perfeitamente assentados sobre as fibras.",
+      "4. Utiliza-se entretela recortável (Cutaway) macia de 60 a 70 g/m² no verso para garantir que a capa não deforme mesmo após múltiplos apoios de peso corporal.",
+      "5. Regula-se a máquina com agulha ponta bola fina (SES 75/11 ou 80/12) e linha de poliéster com acabamento fosco (matte) ou acetinado sutil.",
+      "6. Ao término, dissolve-se o filme hidrossolúvel da superfície com borrifador de água e recorta-se a entretela do avesso com tesoura curva rente ao contorno das letras."
+    ],
+    beginnerExplanation: "Criar almofadas masculinas é uma excelente oportunidade para o ateliê vender para homens solteiros, pais e profissionais liberais! A chave do sucesso está nas cores e nos desenhos: nada de fontes com muitos arabescos ou florzinhas; o público masculino adora letras retas, monogramas clássicos dentro de losangos ou círculos, e tecidos como linho cinza, suede marrom ou azul-marinho. Para a almofada ficar gostosa de encostar e não ficar parecendo uma tábua de madeira dura, programe pontos com densidade aberta e use uma entretela que seja gostosa de pegar!",
+    applications: [
+      "Almofadas de linho rústico cinza-chumbo com monogramas masculinos bordados em linha preta fosca e prata velha.",
+      "Almofadas de suede caramelo com brasões náuticos e coordenadas geográficas de lugares marcantes.",
+      "Conjuntos de almofadas para poltronas de leitura e escritórios de advocacia em sarja peletizada e veludo cotelê.",
+      "Almofadas decorativas para quartos juvenis masculinos com silhuetas de montanhas e tipografia minimalista."
+    ],
+    technicalDetails: "Para manter o conforto anatômico da almofada, a densidade do ponto de preenchimento (Tatami) não deve ser menor que 0,44 mm a 0,48 mm, evitando acúmulo excessivo de linha que endureça a almofada. Para letras em ponto cheio (Satin), mantenha densidade entre 0,40 mm e 0,42 mm com Compensação de Repuxo calibrada em 0,35 mm para linho e 0,40 mm para suede. Velocidade recomendada na máquina: 650 a 750 PPM.",
+    matrixRelations: "Conecta-se com Compensação de Repuxo, Ponto Tatami com Densidade Aberta, Filme Hidrossolúvel Superior (Solvy), Entretela de Recorte Suave, Agulha Ponta Bola (SES) e Linhas Foscas (Matte Thread).",
+    commonErrors: [
+      "❌ Bordar com densidade pesadíssima de 0,32 mm, transformando o meio da almofada em uma couraça dura e desconfortável para o usuário.",
+      "❌ Esquecer de aplicar o plástico hidrossolúvel sobre suede ou veludo cotelê, fazendo com que as pontas das letras afundem nas frestas do tecido e fiquem serrilhadas.",
+      "❌ Bordar na almofada já montada e cheia com fibra, em vez de bordar apenas no painel frontal antes da costura de fechamento e colocação do zíper.",
+      "❌ Usar entretela rasgável grossa e dura que amassa e racha internamente toda vez que a pessoa se encosta na almofada."
+    ],
+    howToIdentify: "Se as ranhuras do veludo cotelê ou as fibras do suede estiverem sobressaindo entre as laçadas do bordado, o filme plástico superior foi omitido ou o sob-ponto foi insuficiente; aplique filme hidrossolúvel e reprograme a matriz com sob-ponto em esteira (edge run + tatami sob-ponto). Se o tecido da almofada repuxar para dentro nas laterais do desenho, eleve a compensação de repuxo.",
+    troubleshootingTips: [
+      "Suede ficou marcado pelo anel do bastidor: escove delicadamente a felpa com uma escova de cerdas macias ou aplique vapor suave sem encostar o ferro no tecido.",
+      "Bordado com aspecto brilhante artificial demais para decoração sóbria: substitua a linha de poliéster brilhante por linha de poliéster fosca (estilo Frosted Matt) ou linha de algodão mercerizado 50wt.",
+      "Zíper repuxado ao costurar a capa após o bordado: lembre-se de conferir o esquadro do tecido após o bordado, pois bordados densos tendem a retrair o painel em até 5 mm."
+    ],
+    dicaArtrelados: "Pulo do gato do Ateliê Artrelados: ao confeccionar almofadas decorativas em tecidos grossos, use uma entretela de recorte macia (soft cutaway) e aplique uma camada de termocolante protetor de avesso suave (tipo Cloud Cover) sobre os nós após o bordado. Isso garante que, mesmo quando a almofada for usada sem capa interna, o enchimento de pluma ou fibra siliconada não fique enroscando nas linhas do bordado!",
+    voceSabia: "O monograma em almofadas decorativas masculinas segue uma regra de heráldica tradicional inglesa: quando se borda uma inicial individual de solteiro, usa-se a inicial do sobrenome em tamanho maior no centro ladeada pelas iniciais menores do primeiro e segundo nome, conferindo ar aristocrático e sofisticado à peça!",
+    practicalExercise: "Crie um painel de linho rústico cinza de 45x45 cm. Programe um monograma geométrico de 10x10 cm com linhas duplas de ponto cordão e preenchimento leve. Prenda com entretela recortável suave, coloque filme solúvel no topo e borde com linha fosca preta. Sinta a textura final com a palma da mão: o bordado deve se integrar ao tecido de maneira macia e acolhedora!",
+    quickSummary: "Diretrizes completas para produção de almofadas masculinas decorativas em linho, suede e veludo cotelê, unindo monogramas geométricos sóbrios a parâmetros de maciez tátil.",
+    relatedTerms: [
+      "Bordado em Linho e Tecidos Nobres",
+      "Bordado em Suede e Camurça",
+      "Filme Hidrossolúvel Superior",
+      "Entretela de Recorte Suave (Soft Cut-Away)",
+      "Compensação de Repuxo",
+      "Ponto Tatami com Densidade Aberta",
+      "Protetor de Avesso Macio"
+    ],
+    tags: [
+      "almofada-masculina",
+      "decoracao",
+      "linho",
+      "suede",
+      "veludo-cotele",
+      "monograma-geometrico",
+      "produtos-masculinos",
+      "artrelados"
+    ],
+    bibliographicReferences: [
+      "HOME TEXTILES TODAY. Masculine Aesthetics in Custom Decorative Pillows. New York: BridgeTower Media, 2024.",
+      "MADEIRA THREADS. Frosted Matt Thread in Modern Interior Decoration. Freiburg, 2023.",
+      "SILVA, Janete M. C. Linhas e Texturas: O Guia Completo de Almofadas do Ateliê Artrelados. São Paulo, 2026."
+    ],
+    updatedAt: "2026-10-15"
+  },
+  {
+    id: "a-164-almofada-personalizada-para-escritorio",
+    code: "A-164",
+    term: "Almofada Personalizada para Escritório",
+    englishTerm: "Custom Office & Ergonomic Lumbar Support Pillow Embroidery",
+    letter: "A",
+    level: "Iniciante 🟢 a Intermediário 🟡",
+    category: "Técnicas de Bastidor",
+    grammarClass: "Locução substantiva feminina.",
+    origin: "Surgiu com a expansão das estações ergonômicas de trabalho e do home office executivo no início dos anos 2000. Uniu a necessidade médica de apoio lombar à identidade visual corporativa personalizada para executivos, advogados, médicos e profissionais liberais.",
+    summary: "Guia técnico de bordado em almofadas ergonômicas e lombares de escritório com logomarcas institucionais, tecidos respiráveis e entretelas suaves.",
+    definition: "A Almofada Personalizada para Escritório é o produto têxtil ergonômico de suporte lombar e assento corporativo personalizado através de bordado computadorizado. Confeccionada predominantemente em tecidos resistentes ao atrito contínuo, à pressão corporal e à transpiração — como tecidos de estofamento corporativo (Crepe Poliéster resistente, Linho Sintético e Neoprene) —, recebe bordados de logomarcas institucionais, monogramas executivos ou nomes de profissionais. A execução técnica exige estabilização firme que suporte a pressão contínua do peso do corpo contra a cadeira sem romper os pontos ou esticar as letras, aliada ao uso obrigatório de entretela protetora termocolante no avesso para que nós e pontas de fio não perfurem o bloco de espuma viscoelástica (Memory Foam) ou tecido de enchimento.",
+    howItWorks: [
+      "1. Seleciona-se o tecido frontal da capa lombar, garantindo que seja um material de alta gramatura e resistência a atrito contínuo (como sarja pesada, linho sintético ou neoprene de 2 mm).",
+      "2. Fixa-se uma entretela recortável resistente (Cutaway de 80 g/m²) no bastidor com adesivo temporário para posicionar o tecido de capa.",
+      "3. Ajusta-se o tamanho da logomarca ou monograma para que ocupe a faixa superior ou lateral da almofada (máximo 12x8 cm), evitando concentrar pontos densos exatamente no centro onde a coluna lombar faz pressão máxima contínua.",
+      "4. Configura-se agulha ponta bola de calibre 75/11 ou 80/12 para tecidos elásticos/neoprene ou 90/14 para tecidos de tapeçaria rígidos.",
+      "5. Utilizam-se linhas de poliéster 40wt de alta tenacidade que resistam ao atrito diário das roupas e paletós sem desfiar.",
+      "6. Ao finalizar o bordado e recortar a entretela, sela-se o avesso com um filme termoprotetor suave para proteger o núcleo de espuma ergonômica."
+    ],
+    beginnerExplanation: "É uma das peças mais vendidas para presentes corporativos de fim de ano, formaturas e para profissionais que passam o dia inteiro sentados trabalhando no computador! O grande detalhe de ateliê é: nunca coloque o bordado bem no meiozão onde a pessoa apoia o meio das costas, porque mesmo o melhor bordado do mundo vai incomodar depois de 8 horas sentado. O segredo profissional é colocar a marca ou o nome mais para o alto, perto da borda superior da almofada lombar, ficando lindo na foto e super confortável no uso!",
+    applications: [
+      "Almofadas lombares ergonômicas em tecido de tapeçaria cinza com brasões de Direito para advogados.",
+      "Almofadas de encosto para clínicas médicas com bordado do símbolo da Medicina e nome do especialista.",
+      "Apoios lombares corporativos com logotipo de empresas de tecnologia e startups para equipes de escritório.",
+      "Kits de trabalho executivo com almofada lombar e organizador de mesa de tecido combinando."
+    ],
+    technicalDetails: "Para tecidos de estofamento corporativo que possuem elastano ou base de neoprene, a Compensação de Repuxo deve ser calibrada entre 0,40 mm e 0,50 mm, com subpontos cruzados (Cross-hatch underlay) para firmar a base elástica antes das letras. A densidade de ponto cheio deve ser de 0,40 mm a 0,44 mm. Se o tecido for neoprene, utilize velocidade moderada entre 550 e 600 PPM para evitar que a agulha aqueça a borracha interna sintética.",
+    matrixRelations: "Conecta-se com Compensação de Repuxo (Pull Compensation), Subpontos Cruzados, Entretela de Recorte (Cutaway), Agulhas Ponta Bola (SES), Protetor Termocolante de Avesso e Velocidade Operacional PPM.",
+    commonErrors: [
+      "❌ Bordar no centro exato da curva lombar com pontos duros e pontudos, causando desconforto físico crônico e dores nas costas do usuário.",
+      "❌ Usar linha de baixa resistência que desfia rapidamente com o atrito diário do cinto, calça jeans e casaco da pessoa sentada.",
+      "❌ Deixar os nós e arremates expostos no avesso sem selagem, rasgando e esfarelando a espuma interna de poliuretano com o movimento da cadeira.",
+      "❌ Usar entretela rasgável fina em tecidos elásticos corporativos, resultando em letras deformadas logo na primeira semana de uso."
+    ],
+    howToIdentify: "Se as letras do nome corporativo começarem a apresentar pequenos fios rompidos ou bolinhas de atrito após pouco tempo de uso, a densidade de pontos estava muito apertada ou o fio não era poliéster de alta tenacidade. Se o tecido repuxar ao redor do logotipo, aumente a compensação de repuxo e diminua a tensão da linha superior.",
+    troubleshootingTips: [
+      "Tecido elástico de neoprene com ondulações após bordar: utilize entretela de recorte colada com adesivo temporário e nunca estique o neoprene ao posicionar no bastidor.",
+      "Agulha deixando furos visíveis e esgarçados no tecido corporativo: troque a agulha por uma de ponta bola fina (SES 75/11) para que as fibras se afastem em vez de serem rompidas.",
+      "Almofada lombar com bordado torto: alinhe a matriz tomando como referência a costura inferior da base de apoio da cadeira antes de iniciar a costura."
+    ],
+    dicaArtrelados: "Regra prática do Ateliê Artrelados: teste a almofada você mesma! Coloque a capa no apoio da sua própria cadeira de costura e encoste as costas com força por 5 minutos. Se você sentir os relevos do bordado cutucando suas costas, o bordado está mal posicionado ou duro demais! Reposicione sempre o brasão nos 30% superiores da almofada para garantir nota dez em ergonomia e elegância corporativa!",
+    voceSabia: "Estudos ergonômicos da ABNT e normas de saúde ocupacional no Brasil recomendam que apoios lombares tenham curvatura suave e espessura controlada entre 5 cm e 9 cm; um bordado corporativo bem executado nessa faixa agrega sensação de acolhimento e valoriza a imagem profissional de qualquer consultório ou escritório executivo!",
+    practicalExercise: "Separe um pedaço de tecido de tapeçaria corporativa de 30x40 cm. Crie uma matriz retangular elegante de 10x5 cm com um nome profissional em fonte romana maiúscula. Aplique subpontos de ancoragem e entretela recortável pesada. Borde a 600 PPM e sinta o resultado: as letras devem estar planas como uma placa metálica, prontas para resistir a anos de uso corporativo!",
+    quickSummary: "Diretrizes completas para bordar almofadas ergonômicas e corporativas de escritório com posicionamento anatômico no terço superior, tecidos anti-atrito e selagem protetora de avesso.",
+    relatedTerms: [
+      "Almofada Decorativa Masculina",
+      "Bordado em Tecidos de Tapeçaria",
+      "Bordado em Neoprene",
+      "Entretela de Recorte (Cut-Away)",
+      "Compensação de Repuxo",
+      "Protetor de Avesso Macio",
+      "Agulha Ponta Bola (SES)"
+    ],
+    tags: [
+      "almofada-escritorio",
+      "ergonomia",
+      "corporativo",
+      "home-office",
+      "tapecaria",
+      "cutaway",
+      "produtos-masculinos",
+      "artrelados"
+    ],
+    bibliographicReferences: [
+      "CORPORATE INTERIORS & TEXTILES. Ergonomic Cushions and Branded Office Accessories. London: Bloomsbury, 2023.",
+      "ABNT NBR 13962. Móveis para escritório - Cadeiras - Requisitos e Métodos de Ensaio. Rio de Janeiro: ABNT, 2020.",
+      "SILVA, Janete M. C. Apostila de Brindes Corporativos e Artigos de Escritório. São Paulo: Artrelados, 2026."
+    ],
+    updatedAt: "2026-10-15"
+  },
+  {
+    id: "a-165-acessorios-de-tecido-para-ferramentas",
+    code: "A-165",
+    term: "Acessórios de Tecido para Ferramentas",
+    englishTerm: "Custom Fabric Tool Rolls, Pouches & Organizers Embroidery",
+    letter: "A",
+    level: "Avançado 🔴",
+    category: "Técnicas de Bastidor",
+    grammarClass: "Locução substantiva masculina composta.",
+    origin: "Herança dos estojos de ferramentas em lona encerada utilizados por mecânicos do Exército Britânico e da Força Aérea americana nas décadas de 1930 e 1940 (Wrench Rolls e Tool Pouches). Com a ascensão da cutelaria artesanal, marcenaria fina, escultura e entusiastas de motocicletas, tornou-se item indispensável de organização de luxo e proteção de ferramentas caras.",
+    summary: "Projeto completo de bordado em estojos roláveis, organizadores e bainhas de lona encerada e cordura para ferramentas manuais e artísticas.",
+    definition: "Os Acessórios de Tecido para Ferramentas constituem a linha utilitária de alta performance estruturada em tecidos técnicos — incluindo estojos roláveis (Tool Rolls), organizadores modulares de bancada, bolsas de ferramentas com divisórias e bainhas protetoras para cutelaria e marcenaria — personalizados com bordado computadorizado. Esses acessórios recebem bordados de numeração métrica de ferramentas (ex: 8mm, 10mm, 13mm, 17mm), logomarcas de oficinas, nomes de mestres artesãos e brasões de cutelaria. Confeccionados em materiais ultra-robustos como Cordura 500D ou 1000D, lona encerada pesada (acima de 350 g/m²), brim pesado e acabamentos em couro legítimo, o bordado exige matrizes milimétricas, agulhas de alta penetração mecânica, linhas de náilon ou poliéster de máxima tenacidade e técnicas de bastidor sem esmagamento do tecido.",
+    howItWorks: [
+      "1. Planeja-se a disposição das divisórias de ferramentas (bolsos verticais) na modelagem plana do estojo rolável antes da costura de montagem.",
+      "2. Posicionam-se as marcações numéricas das chaves e o logotipo principal na aba externa ou no topo de cada divisória com margem de segurança de 15 mm das costuras.",
+      "3. Fixa-se uma entretela de recorte de alta estabilidade (Cutaway pesada de 90 g/m² ou entretela tecida resinada) no bastidor retangular grande.",
+      "4. Utiliza-se a técnica de flutuação da lona encerada ou cordura com adesivo temporário e grampos de borda, sem fechar os aros plásticos sobre a lona dura.",
+      "5. Instala-se agulha Schmetz ou Groz-Beckert reforçada de calibre 90/14 ou 100/16 de ponta pontiaguda (Topstitch ou Microtex) para garantir perfuração limpa através do fio grosso da lona.",
+      "6. A máquina borda em velocidade moderada (500 a 600 PPM) com linha de poliéster 40wt de alta resistência a óleos mecânicos e atrito de aço.",
+      "7. Ao finalizar, recorta-se a entretela rente ao avesso e procede-se com a confecção e montagem final do estojo rolável na máquina de costura pesada."
+    ],
+    beginnerExplanation: "Sabe aqueles estojos de pano maravilhosos que você desenrola em cima da bancada e vê todas as chaves de fenda, formões ou facas artesanais guardadinhos em ordem do menor para o maior com os números bordados em cada bolsinho? É exatamente isso! É uma peça que os artesãos, marceneiros e donos de motos e carros antigos amam de paixão e pagam muito bem por ela. O segredo de ouro no bordado é que você precisa bordar todas as peças e números enquanto o tecido ainda está cortado e aberto, antes de dobrar e fechar os bolsos na máquina de costura!",
+    applications: [
+      "Estojos roláveis em lona cáqui com numeração bordada de chaves de boca para mecânica de motos clássicas.",
+      "Organizadores em cordura preta para formões de marcenaria fina e ferramentas de entalhe.",
+      "Bainhas e capas de transporte de facas artesanais de churrasco em lona encerada verde militar com brasão bordado.",
+      "Estojos de tecido para pincéis de pintura artística, instrumentos de odontologia ou ferramentas de relojoeiro."
+    ],
+    technicalDetails: "Em tecidos técnicos como Cordura 1000D e lona encerada de 380 g/m², a densidade de pontos deve ser ajustada para 0,42 mm a 0,46 mm para evitar o corte do tecido pelo impacto excessivo das perfurações. A Compensação de Repuxo deve ser ampla (0,45 mm a 0,55 mm) para compensar a rigidez da trama. Para números pequenos indicativos de ferramentas (com altura de 6 mm a 10 mm), utilize ponto corrido duplo ou fonte especial de ponto cheio simples com traço limpo de 1,2 mm.",
+    matrixRelations: "Conecta-se com Bordado em Lona e Cordura, Agulhas de Calibre 90/14 e 100/16, Compensação de Repuxo Alta, Subpontos de Travamento, Entretela de Recorte Pesada (Cutaway) e Técnicas de Flutuação.",
+    commonErrors: [
+      "❌ Deixar para bordar depois que o estojo já está costurado e com os bolsos fechados, tornando impossível prender a peça no bastidor.",
+      "❌ Usar números em ponto cheio muito pequenos (menores que 5 mm), que viram borrões de linha na textura rústica da lona grossa.",
+      "❌ Prender a lona encerada direto nos aros do bastidor tradicional, deixando marcas brancas irreversíveis na cera do tecido (wax marring).",
+      "❌ Usar linhas de algodão ou seda que apodrecem e quebram quando entram em contato com graxa, solventes ou óleos de proteção de ferramentas."
+    ],
+    howToIdentify: "Se os furos na cordura ficarem esbranquiçados com as fibras de náilon arrebentadas ao redor das letras, a agulha está com ponta inadequada ou sem corte; substitua imediatamente por uma agulha nova Microtex ou Topstitch 90/14. Se a numeração bordada ficar ilegível após o fechamento do bolsinho, aumente a altura das fontes para no mínimo 8 mm.",
+    troubleshootingTips: [
+      "Lona encerada com manchas esbranquiçadas após manuseio no ateliê: passe rapidamente um soprador térmico ou secador de cabelos com ar quente por alguns segundos sobre a lona para derreter e rejuvenescer a cera perfeitamente.",
+      "Linha superior quebrando nas perfurações duras da cordura: diminua a velocidade para 500 PPM e aplique uma gota de óleo de silicone no guia-fio antes da agulha.",
+      "Dificuldade de alinhamento de números em múltiplos bolsos: crie um único arquivo com todos os números espaçados nas distâncias exatas dos bolsos e borde tudo em uma única descida de bastidor."
+    ],
+    dicaArtrelados: "Segredo de ouro do Ateliê Artrelados: faça um gabarito de papelão com a modelagem do estojo aberto antes de cortar o tecido! Marque a lápis onde ficarão as costuras de divisão de cada chave ou formão e borde os números exatamente a 1,5 cm abaixo da boca do bolso. Quando o cliente colocar as ferramentas metálicas pesadas dentro, o número continuará 100% visível, criando um produto de grife artesanal incomparável!",
+    voceSabia: "Estojos roláveis de ferramentas feitos em lona encerada e cordura são considerados itens para a vida inteira (Buy It For Life): com o passar dos anos de uso em oficinas e garagens, o tecido envelhece ganhando marcas e pátina natural, tornando o produto ainda mais bonito e valioso com o tempo!",
+    practicalExercise: "Corte uma faixa de lona de algodão de 20x50 cm. No software, monte uma régua de números 8, 10, 12, 14, 17 e 19 espaçados a cada 6 cm em fonte sans-serif limpa de 8 mm de altura. Prenda entretela recortável no bastidor longo, posicione a faixa de lona e borde em velocidade moderada com agulha 90/14. Dobre a parte inferior para formar os bolsinhos e comprove a precisão milimétrica!",
+    quickSummary: "Manual avançado para personalização e bordado em estojos roláveis, organizadores e bainhas de lona encerada e cordura para ferramentas manuais, com numerações métricas e alta resistência.",
+    relatedTerms: [
+      "Avental Profissional Masculino",
+      "Bordado em Lona e Tecidos Pesados",
+      "Bordado em Cordura e Náilon Balístico",
+      "Técnica de Flutuação (Floating)",
+      "Entretela de Recorte (Cut-Away)",
+      "Compensação de Repuxo",
+      "Agulha Microtex / Topstitch"
+    ],
+    tags: [
+      "ferramentas",
+      "tool-roll",
+      "estojo-rolavel",
+      "lona-encerada",
+      "cordura",
+      "cutelaria",
+      "marcenaria",
+      "produtos-masculinos",
+      "artrelados"
+    ],
+    bibliographicReferences: [
+      "HEAVY CANVAS & LEATHER CRAFTS. Traditional Tool Rolls and Workshop Bags. Portland: Timber Press, 2024.",
+      "CORDURA BRAND. Industrial Strength Sewing and Embroidery Guidelines. Wichita: Invista, 2023.",
+      "SILVA, Janete M. C. Utilitários Rústicos e Organizadores de Ateliê: O Guia Artrelados. São Paulo, 2026."
+    ],
+    updatedAt: "2026-10-15"
   }
 ];
-
-
