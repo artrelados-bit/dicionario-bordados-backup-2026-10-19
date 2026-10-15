@@ -1920,6 +1920,507 @@ export const NOVOS_VERBETES_LETRA_C: Verbete[] = [
       "Buffer de Memória e Fila de Pontos",
       "Perda de Passo (Step Loss)"
     ]
+  },
+  {
+      "id": "c-novo-041-camiseta-masculina-personalizada",
+      "letter": "C",
+      "term": "Camiseta Masculina Personalizada",
+      "englishTerm": "Custom Men's T-Shirt Embroidery",
+      "level": "Iniciante 🟢",
+      "category": "Técnicas de Bastidor",
+      "grammarClass": "Locução substantiva feminina.",
+      "origin": "Originada como roupa íntima (underwear) pela marinha norte-americana na Primeira Guerra Mundial (1913) e popularizada globalmente nos anos 1950 por astros do cinema, a camiseta de malha tornou-se o item de vestuário mais personalizável do planeta, demandando técnicas específicas de bordado para vencer o estiramento biaxial das malhas circulares de algodão.",
+      "summary": "Diretrizes técnicas para bordado computadorizado em camisetas de meia malha de algodão masculina, com estabilização sem deformação, agulhas de ponta bola e calibração de repuxo.",
+      "definition": "A Camiseta Masculina Personalizada no bordado computadorizado refere-se ao conjunto de processos técnicos de digitalização, estabilização e aplicação de matrizes em camisetas confeccionadas em meia malha circular de algodão (fios 30.1 penteado, 26.1 ou mesclas com poliéster e elastano). Devido à sua estrutura entrelaçada por laçadas elásticas que cedem tanto na largura quanto no comprimento, a camiseta masculina impõe um dos maiores desafios de distorção no bastidor: o risco de estiramento do tecido durante o enquadramento (que gera ondulações perimetrais após soltar a peça), o efeito 'buraco de agulha' decorrente de pontas inadequadas e o repuxamento de preenchimentos densos que transformam o bordado em uma carapaça rígida e desconfortável sobre o tórax.",
+      "howItWorks": [
+          "1. Marcação e gabarito anatômico: Identifica-se o ponto do peito esquerdo posicionando o centro do bordado entre 18 cm e 22 cm abaixo do ombro e alinhado entre 7 cm e 9 cm da costura central da gola para o tamanho masculino padrão (M/G).",
+          "2. Preparação do bastidor: Aplica-se entretela de recorte suave (Cutaway) de 60 a 70 g/m² ou entretela rasgável resinada de alta coesão estrutural, utilizando bastidor magnético ou técnica de flutuação para não esticar a malha.",
+          "3. Fixação sem tensão: O tecido da camiseta deve ser repousado sobre a entretela sem esticar as tramas da malha; puxar o tecido pelas beiradas para 'esticar como um tambor' é o erro mais grave que distorce o bordado ao sair do aro.",
+          "4. Escolha do ferramental de costura: Instala-se agulha Schmetz ou Groz-Beckert calibre 70/10 ou 75/11 com ponta bola fina (SES/FFG), que afasta os fios da malha em vez de perfurá-los.",
+          "5. Execução do bordado: A máquina executa pontos com compensação de repuxo de 0,38 mm a 0,45 mm e velocidade controlada entre 650 e 750 PPM para manter o ponto equilibrado.",
+          "6. Limpeza e remoção de resíduos: A entretela excedente é recortada no avesso deixando margem arredondada de 1 cm, aplicando-se adesivo protetor de avesso macio (fusível) para evitar coceira na pele."
+      ],
+      "beginnerExplanation": "Bordar camiseta de algodão é o serviço mais pedido no ateliê, mas também o que mais assusta quem está começando porque a malha estica para todo lado! O segredo que ninguém conta é: NUNCA estique a camiseta para prender no bastidor como se fosse tambor! Se você esticar na hora de prender, quando tirar do bastidor a malha volta ao tamanho normal e o bordado fica todo engilhado e franzido ao redor. Deite a camiseta bem retinha e suave sobre a entretela colada, use agulha ponta bola fininha (70/10) e o bordado sairá perfeitamente plano!",
+      "applications": [
+          "Camisetas masculinas promocionais e corporativas com logo no peito esquerdo (8 cm a 10 cm).",
+          "Estampas bordadas nas costas com monogramas ou frases minimalistas.",
+          "Personalização de mangas curtas com pequenas bandeiras ou brasões (5 cm a 6 cm).",
+          "Camisetas de marcas próprias e streetwear com bordados tipográficos em ponto cheio e ponto tatami leve."
+      ],
+      "technicalDetails": "Para meia malha 30.1 penteada (160 g/m²): Densidade recomendada de 0,40 mm a 0,42 mm para ponto cheio e 0,45 mm para tatami. Subponto (underlay) obrigatório composto por costura perimetral (Edge Run) e zigue-zague aberto para criar malha de sustentação. Compensação de repuxo: 0,40 mm a 0,45 mm. Agulha: Sistema 130/705 H-S ou DBxK5 calibre 70/10 SES. Velocidade ideal: 700 PPM.",
+      "recommendedSettings": {
+          "speedPPM": "650 - 750 PPM",
+          "needleType": "Ponta Bola Fina (SES / FFG) 70/10 ou 75/11",
+          "stabilizer": "Entretela Recortável (Cutaway) 60-70 g/m² ou Rasga-Fácil Macia Dupla",
+          "density": "0,40 mm a 0,42 mm (ponto cheio) / 0,45 mm (tatami)",
+          "pullCompensation": "0,40 mm a 0,45 mm",
+          "underlay": "Grade leve (Net) ou zigue-zague com contorno perimetral"
+      },
+      "matrixRelations": "Conecta-se diretamente com Estiramento Biaxial, Densidade Aliviada, Compensação de Repuxo (Pull Compensation), Subpontos de Sustentação, Agulha Ponta Bola (SES) e Protetor de Avesso Macio.",
+      "commonErrors": [
+          "❌ Puxar as beiradas da camiseta ao apertar o bastidor, esticando as laçadas e gerando efeito enrugado 'vulcão' após a retirada.",
+          "❌ Utilizar agulha ponta universal afiada (R), que corta os fios de algodão e provoca furos que se abrem após as primeiras lavagens.",
+          "❌ Programar blocos maciços de tatami com densidade excessiva (0,30 mm), criando uma placa de gesso desconfortável sobre o peito.",
+          "❌ Usar entretela rasgável muito dura ou fraca, fazendo as letras circulares ficarem ovais pela deformação da matriz."
+      ],
+      "howToIdentify": "Se ao retirar a camiseta do bastidor o tecido em volta das letras estiver ondulado ou 'franzido', o tecido foi colocado sob tração excessiva no aro. Se após lavar surgirem furinhos minúsculos em volta dos pontos, a agulha utilizada estava romba ou com ponta fina/cortante em vez de ponta bola (SES).",
+      "dicaArtrelados": "Dica de ouro do Ateliê Artrelados: para camisetas masculinas, nunca monte a malha presa no bastidor de parafuso comum! Use a técnica de flutuação: prenda apenas a entretela no bastidor, passe uma borrifada leve de cola spray temporária (ou fita dupla face hidrossolúvel nas bordas) e deite a camiseta por cima com suavidade, alisando com a palma da mão do centro para fora. O bordado fica lisinho como seda e a camiseta nunca sofre marca de anel do bastidor!",
+      "voceSabia": "A camiseta de algodão recebeu o nome popular 'T-Shirt' em inglês porque, quando aberta e estendida sobre uma superfície plana, seu formato de corpo reto e mangas horizontais desenha exatamente a letra maiúscula 'T'!",
+      "practicalExercise": "Pegue uma camiseta de malha velha de treino. No software, programe um círculo de 6 cm com contorno em ponto cheio. Borde o primeiro puxando a camiseta com força no bastidor. Borde o segundo colando a camiseta suavemente com a técnica de flutuação. Retire ambos e meça com uma régua: veja como o primeiro virou uma elipse deformada e cheia de rugas, enquanto o segundo permaneceu um círculo milimetricamente perfeito!",
+      "quickSummary": "Manual definitivo para bordar camisetas masculinas de meia malha: estabilização por flutuação sem esticar o tecido, agulha ponta bola 70/10 SES, compensação de 0,40 mm e alívio de densidade para evitar peso no peitoral.",
+      "relatedTerms": [
+          "Camiseta Polo Masculina Bordada",
+          "Agulha Ponta Bola (SES)",
+          "Compensação de Repuxo",
+          "Técnica de Flutuação",
+          "Entretela de Recorte (Cutaway)",
+          "Protetor de Avesso Macio",
+          "Densidade de Ponto"
+      ],
+      "tags": [
+          "camiseta",
+          "t-shirt",
+          "malha",
+          "masculino",
+          "vestuario",
+          "flutuacao",
+          "algodao",
+          "artrelados"
+      ],
+      "bibliographicReferences": [
+          "BRITISH APPAREL & TEXTILE CONFEDERATION. T-Shirt Embroidery and Knitwear Stabilization. Manchester, 2023.",
+          "GROZ-BECKERT. Manual de Agulhas para Malharias e Bordados em Camisaria. Albstadt: Groz-Beckert KG, 2022.",
+          "SILVA, Janete M. C. Vestuário Masculino e Malhas Finas no Bordado Computadorizado. São Paulo: Artrelados, 2026."
+      ],
+      "updatedAt": "2026-10-15"
+  },
+  {
+      "id": "c-novo-042-camiseta-polo-masculina-bordada",
+      "letter": "C",
+      "term": "Camiseta Polo Masculina Bordada",
+      "englishTerm": "Men's Pique Polo Shirt Embroidery",
+      "level": "Intermediário 🟡",
+      "category": "Técnicas de Bastidor",
+      "grammarClass": "Locução substantiva feminina.",
+      "origin": "Criada pelo tenista francês René Lacoste em 1926 para substituir as camisas sociais rígidas de manga comprida nas quadras de tênis, a camisa polo em malha piquet tornou-se o padrão internacional de elegância casual masculina e corporativa, exigindo técnicas minuciosas para bordar sobre sua superfície favada em favos de abelha sem que os pontos afundem.",
+      "summary": "Guia técnico para bordado em camisas polo masculinas de malha piquet, com matrizes de cobertura, entretela cutaway, posicionamento em relação ao peitilho e agulhas especiais.",
+      "definition": "A Camiseta Polo Masculina Bordada é o processo técnico de personalização de camisas gola polo masculinas confeccionadas em malha piquet (100% algodão ou mista 50/50 algodão e poliéster). Caracterizada pela sua superfície tridimensional formada por pequenas colmeias ou relevos favados (piquet duplo ou simples), essa malha possui vales e elevações que tendem a 'engolir' os pontos de bordado se a matriz não for programada com subpontos específicos de cobertura. Além disso, a presença do peitilho com botões, da gola de retilínea espessa e da abertura de carcela exige posicionamento milimétrico para evitar que o bastidor entorte o alinhamento da peça ou que a agulha atinja os reforços internos da costura.",
+      "howItWorks": [
+          "1. Gabarito de posicionamento: Alinha-se o centro do bordado no peito esquerdo posicionando-o entre o segundo e o terceiro botão da carcela (cerca de 18 cm a 20 cm do ombro) e alinhado a 8 cm da margem externa do peitilho.",
+          "2. Escolha da entretela: Aplica-se obrigatoriamente entretela de recorte suave (Cutaway) de 70 a 80 g/m² no avesso; entretelas rasgáveis comuns quebram após 3 lavagens e deixam o bordado ondulado no piquet.",
+          "3. Filme hidrossolúvel superior (opcional mas recomendado): Em logotipos finos ou monogramas clássicos, posiciona-se uma camada de filme hidrossolúvel (Solvy) sobre o piquet para calçar os pontos de topo e impedir que afundem nos relevos favados.",
+          "4. Enquadramento no bastidor: Enquadra-se o peito esquerdo deixando o peitilho rígido fora da borda de prensagem do aro para não criar desnível de tensão na chapa da máquina.",
+          "5. Montagem da agulha: Utiliza-se agulha calibre 75/11 com ponta bola média (SUK/SES), perfeita para desviar os fios encorpados da malha piquet sem desfiar as colmeias.",
+          "6. Velocidade e parâmetros: Costura-se a 650-700 PPM com compensação de repuxo de 0,42 mm e subpontos densos em grade losangular (tatami aberto)."
+      ],
+      "beginnerExplanation": "A camisa polo é a 'queridinha' das empresas para uniforme de gerentes e diretores! Mas ela tem um relevo todo furadinho em forma de colmeia de abelha chamado piquet. Se você bordar uma letra fininha direto nesse tecido sem preparar a matriz direito, as linhas afundam dentro dos buraquinhos e o bordado parece falhado ou comido pelas traças! Para ficar impecável, você precisa de entretela recortável macia por baixo, subpontos de sustentação que criam um 'chãozinho' firme e, se as letrinhas forem muito pequenas, um pedacinho de plástico solúvel por cima que derrete na água!",
+      "applications": [
+          "Uniformes executivos e corporativos para diretores, recepcionistas e equipes comerciais.",
+          "Camisas polo de clubes de golfe, tênis, polo equestre e iatismo com brasões detalhados.",
+          "Coleções masculinas de moda casual premium com pequenos logos no peitoral (2,5 cm a 4 cm).",
+          "Bordados comemorativos de congressos, feiras de negócios e associações profissionais."
+      ],
+      "technicalDetails": "Para malha piquet 220 g/m²: Subponto de sustentação deve conter Tatami aberto com densidade de 1,2 mm a 45 graus, associado a contorno perimetral (Edge Run). Ponto cheio superior com densidade de 0,38 mm a 0,40 mm. Compensação de repuxo fixada em 0,42 mm a 0,48 mm. Bastidor de tamanho 10x10 cm ou magnético redondo de 13 cm. Agulha recomendada: 75/11 SUK/SES.",
+      "recommendedSettings": {
+          "speedPPM": "650 - 720 PPM",
+          "needleType": "Ponta Bola Média (SUK / SES) 75/11",
+          "stabilizer": "Entretela Recortável (Cutaway) 70-80 g/m² + Filme Hidrossolúvel Superior",
+          "density": "0,38 mm a 0,40 mm (ponto cheio) / 0,42 mm (tatami)",
+          "pullCompensation": "0,42 mm a 0,48 mm",
+          "underlay": "Grade dupla (Double Tatami aberto) + Costura de borda (Edge Run)"
+      },
+      "matrixRelations": "Conecta-se com Malha Piquet, Entretela Recortável (Cutaway), Filme Hidrossolúvel Superior, Subponto de Cobertura (Tatami Underlay), Bastidor Magnético e Alinhamento de Peitilho.",
+      "commonErrors": [
+          "❌ Usar entretela rasgável simples de 40 g/m² que se rompe na primeira lavagem, deixando o logotipo repuxado como um 'fuxico' no peito.",
+          "❌ Prensar a borda grossa do peitilho dos botões sob o aro do bastidor plástico, gerando folga no restante do tecido e pulos de ponto.",
+          "❌ Programar letras minúsculas sem subponto de cobertura, fazendo os fios caírem para dentro dos relevos favados da malha.",
+          "❌ Alinhar o bordado muito perto da axila ou colado demais aos botões, fora da proporção anatômica visual do corpo masculino."
+      ],
+      "howToIdentify": "Se as letras pequenas parecerem 'desdentadas' ou se a trama do tecido aparecer entre os fios bordados, a matriz não possui subponto de grade suficiente ou necessita de filme hidrossolúvel por cima. Se a camisa polo ficar com um anel branco brilhante e amassado permanente no piquet, o bastidor foi apertado em excesso; use protetores de aro ou bastidor magnético.",
+      "dicaArtrelados": "Dica exclusiva do Ateliê Artrelados: para alinhar a polo com perfeição cirúrgica em segundos, dobre a camisa ao meio verticalmente pelo peitilho, estenda sobre a bancada e dê um pique de giz de alfaiate a 19 cm do ombro e alinhado exatamente ao 2º botão! Ao colocar no bastidor magnético, o ponto de laser da máquina pousa exatamente no cruzamento do giz. Você borda 50 polos por hora sem errar um milímetro de simetria!",
+      "voceSabia": "René Lacoste bordou o famoso crocodilo verde em sua camisa polo pessoal em 1926 porque a imprensa esportiva americana o apelidou de 'The Alligator' pela sua tenacidade imbatível nas quadras, tornando o crocodilo o primeiríssimo logotipo visível bordado no exterior de uma roupa esportiva moderna no mundo!",
+      "practicalExercise": "Pegue um retalho de malha piquet. No software de matrizes, digite a palavra 'EXECUTIVE' com 12 mm de altura. Na primeira amostra, configure sem subponto. Na segunda, adicione subponto tatami aberto e cubra com filme solúvel. Borde lado a lado e compare com uma lupa de bordado: o contraste de nitidez e volume é impressionante!",
+      "quickSummary": "Regras de ouro para polos masculinas em piquet: entretela cutaway de recorte, subponto de grade para vencer os favos da malha, agulha ponta bola 75/11 e alinhamento anatômico com o 2º botão.",
+      "relatedTerms": [
+          "Camiseta Masculina Personalizada",
+          "Camisa Social Masculina Bordada",
+          "Malha Piquet",
+          "Entretela de Recorte (Cutaway)",
+          "Filme Hidrossolúvel Superior",
+          "Ponto de Laser de Posicionamento"
+      ],
+      "tags": [
+          "polo",
+          "piquet",
+          "masculino",
+          "corporativo",
+          "cutaway",
+          "uniforme",
+          "artrelados"
+      ],
+      "bibliographicReferences": [
+          "LACOSTE HERITAGE ARCHIVES. The Invention of the Piqué Tennis Shirt. Paris, 2021.",
+          "NEEDLE & THREAD TECHNICAL QUARTERLY. Pique Fabrics and Industrial Embroidery Underlays. Charlotte, 2024.",
+          "SILVA, Janete M. C. Guia Oficial de Camisaria e Polos Bordadas. São Paulo: Artrelados, 2026."
+      ],
+      "updatedAt": "2026-10-15"
+  },
+  {
+      "id": "c-novo-043-camisa-social-masculina-bordada",
+      "letter": "C",
+      "term": "Camisa Social Masculina Bordada",
+      "englishTerm": "Men's Dress Shirt & Tailored Shirt Embroidery",
+      "level": "Avançado 🔴",
+      "category": "Técnicas de Bastidor",
+      "grammarClass": "Locução substantiva feminina.",
+      "origin": "Com raízes na aristocracia renascentista e na alfaiataria londrina de Savile Row no século XIX, a camisa social de tecido plano exigia monogramas manuais no peito e nos punhos para identificação de linhagem e lavanderia, evoluindo para a assinatura máxima de elegância personalizada no vestuário corporativo contemporâneo.",
+      "summary": "Padrão de excelência para bordado em camisas sociais masculinas em tecidos planos finos (tricoline, maquinetado e fio tinto), com monogramas em punho, peito e colarinho.",
+      "definition": "A Camisa Social Masculina Bordada compreende as técnicas de altíssima precisão e sutileza aplicadas na personalização de camisas de alfaiataria confeccionadas em tecidos planos nobres de algodão de fibra longa (tricoline egípcio 80 a 120 fios, cambraia, maquinetado jacquard, oxford fino e fio tinto). Diferente das malhas elásticas, o tecido plano de camisaria não cede, tornando qualquer repuxo, excesso de furos ou densidade desequilibrada imediatamente visível sob a forma de rugas severas (puckering) e deformações na estrutura da peça. A execução requer monogramas milimétricos no punho esquerdo (acima do relógio), na pala traseira, no colarinho ou no peitoral esquerdo (quando não há bolso, ou centralizado 1,5 cm acima da borda do bolso existente), exigindo entretelas solúveis ou rasgáveis extra macias que não agridam a pele nem enrijeçam o caimento fluido da roupa.",
+      "howItWorks": [
+          "1. Definição do local e proporção: Se for monograma no punho, posiciona-se centralizado horizontalmente entre a casa de botão e o botão, cerca de 1,5 cm a 2 cm acima da borda do punho esquerdo (para destros). No peitoral, alinha-se a 18-20 cm da costura do ombro.",
+          "2. Escolha de estabilização invisível: Utiliza-se entretela solúvel em água de 40 g/m² ou entretela rasgável extrafina resinada de corte suave; tecidos nobres jamais devem manter entretelas plásticas ou duras no avesso após o uso.",
+          "3. Bastidor especial ou mini aro: Emprega-se bastidor específico para punho/gola ou mini bastidor de 4x4 cm a 6x6 cm, evitando dobrar e vincar a entretela entretelada da própria camisa.",
+          "4. Ferramental de agulha e linha: Instala-se agulha Schmetz Microtex ponta afiada ou SES calibre 65/9 ou 70/10 com lâmina fina, evitando furar as fibras finas do algodão egípcio. Linha de bordado calibre 60 (mais fina que a 40 tradicional) para monogramas de alta definição.",
+          "5. Calibração da matriz: A densidade de ponto cheio deve ser aliviada (0,45 mm a 0,50 mm) e o subponto deve ser mínimo (apenas costura central de alinhamento) para não empedrar o tecido fino.",
+          "6. Acabamento artesanal: Remove-se a entretela solúvel com vapor ou borrifada de água, passa-se a ferro com pano úmido e inspeciona-se o avesso com tesoura de ponta curva para eliminar qualquer ponta solta."
+      ],
+      "beginnerExplanation": "Bordar camisa social masculina é o ápice do ateliê de luxo! Homens elegantes e noivos adoram bordar as iniciais do nome no punho da camisa onde fica o relógio. Mas atenção: o tecido da camisa social é fino e nobre. Se você usar linha grossa, agulha grossa ou colocar muito ponto, o tecido franze todo e a camisa de 400 reais fica arruinada! O segredo é agulha fininha 65/9, entretela que dissolve na água para o punho ficar macio sem nada arranhando o pulso, e letras bem delicadas e abertas!",
+      "applications": [
+          "Monogramas pessoais em punhos de camisas de noivos, advogados e executivos (iniciais clássicas de 8 mm a 12 mm).",
+          "Logotipos discretos tom sobre tom no peitoral ou pala de camisas executivas.",
+          "Bordados em colarinhos e carcelas internas com mensagens personalizadas ou datas comemorativas.",
+          "Camisas sociais sob medida de alfaiatarias de alto padrão."
+      ],
+      "technicalDetails": "Para tricoline 100% algodão 80/1 ou 100/2: Subponto de alinhamento linear central (Center Run). Densidade de ponto de acabamento: 0,44 mm a 0,48 mm. Compensação de repuxo mínima: 0,25 mm a 0,30 mm para não engrossar as serifas. Agulha: 65/9 Microtex ou 70/10 RG/SES. Linha de bordado recomendada: Poliéster ou Rayon calibre 60/2. Velocidade: 550 a 650 PPM.",
+      "recommendedSettings": {
+          "speedPPM": "550 - 650 PPM",
+          "needleType": "Microtex / Ponta Fina Redonda (RG/SES) 65/9 ou 70/10",
+          "stabilizer": "Entretela Hidrossolúvel de Tecido (Wash-Away) 40-50 g/m² ou Rasga-Fácil Leve 40 g/m²",
+          "density": "0,45 mm a 0,48 mm (ponto cheio fino)",
+          "pullCompensation": "0,25 mm a 0,30 mm",
+          "underlay": "Apenas Costura Linear Central (Center Run Underlay)"
+      },
+      "matrixRelations": "Conecta-se com Tricoline e Fio Tinto, Linha Calibre 60, Agulha Microtex 65/9, Entretela Hidrossolúvel, Franzimento por Ponto (Puckering) e Monograma de Punho.",
+      "commonErrors": [
+          "❌ Usar linha de calibre padrão 40 em letras com menos de 7 mm de altura, embolando os contornos e tornando as letras ilegíveis.",
+          "❌ Utilizar agulha grossa 80/12 ou 90/14 que abre furos visíveis e esgarça as tramas fechadas da tricoline fina.",
+          "❌ Deixar entretela grossa presa no interior do punho, gerando rigidez e desconforto ao contato com a pele do pulso.",
+          "❌ Bordar no punho direito em vez do esquerdo (o punho esquerdo é o padrão internacional de monograma, visível ao lado da pulseira do relógio)."
+      ],
+      "howToIdentify": "Se o tecido ao redor das letras apresentar pequenas rugas radiais apontando para o bordado ('efeito sol'), a tensão da linha está excessivamente apertada ou a matriz possui excesso de densidade de pontos para aquele peso de tecido. Se a agulha estalar ao perfurar o punho, a entretela interna da camisa é resinada pesada e exige agulha Topstitch com ponta afiada e reforço de haste.",
+      "dicaArtrelados": "O segredo de alfaiate do Ateliê Artrelados: antes de prender o punho da camisa no mini bastidor, desabotoe completamente a manga e passe entretela hidrossolúvel fina por dentro do punho. Ao terminar o bordado, pegue um borrifador com água morna e aplique no verso: a entretela desaparece por completo em 5 segundos! O cliente veste a camisa e sente a suavidade original do algodão egípcio sem um único fio pinicando!",
+      "voceSabia": "A tradição do monograma no punho esquerdo começou na corte da Inglaterra vitoriana: como os nobres usavam casacas e paletós fechados em jantares protocolares, apenas a beirada do punho da camisa ficava à mostra ao segurar talheres ou taças, permitindo que os convidados soubessem quem era o cavalheiro pelas iniciais bordadas!",
+      "practicalExercise": "Pegue uma camisa social que não usa mais. Meça o punho esquerdo, marque 1,5 cm acima da borda com giz e borde as suas próprias iniciais em fonte clássica inglesa (com altura de 10 mm) usando agulha 65/9 e entretela solúvel. Lave com água morna e passe: você terá em mãos um artigo digno das melhores camisarias do mundo!",
+      "quickSummary": "Regras de alfaiataria fina para camisa social masculina: monogramas com linha fina calibre 60, agulha 65/9, entretela hidrossolúvel que some na água e alívio de densidade para não enrugar a tricoline.",
+      "relatedTerms": [
+          "Camiseta Polo Masculina Bordada",
+          "Camisa de Uniforme Profissional",
+          "Monograma Tradicional",
+          "Entretela Hidrossolúvel",
+          "Agulha Microtex",
+          "Franzimento por Ponto (Puckering)"
+      ],
+      "tags": [
+          "camisa-social",
+          "monograma",
+          "alfaiataria",
+          "punho",
+          "masculino",
+          "luxo",
+          "artrelados"
+      ],
+      "bibliographicReferences": [
+          "SAVILE ROW BESPOKE ASSOCIATION. Monogramming and Hand Finishes on Fine Tailoring. London: Conran Octopus, 2022.",
+          "SCHMETZ NEEDLE ABC. Microtex Needles in High-Count Shirting Fabrics. Herzogenrath, 2023.",
+          "SILVA, Janete M. C. Alfaiataria e Monogramas no Bordado Computadorizado. São Paulo: Artrelados, 2026."
+      ],
+      "updatedAt": "2026-10-15"
+  },
+  {
+      "id": "c-novo-044-camisa-de-uniforme-profissional",
+      "letter": "C",
+      "term": "Camisa de Uniforme Profissional",
+      "englishTerm": "Workwear & Corporate Uniform Shirt Embroidery",
+      "level": "Intermediário 🟡",
+      "category": "Técnicas de Bastidor",
+      "grammarClass": "Locução substantiva feminina.",
+      "origin": "Desenvolvida com a ascensão da indústria moderna e dos serviços corporativos no século XX para padronização visual, segurança e identificação funcional de colaboradores em empresas, fábricas, hospitais e frotas de atendimento.",
+      "summary": "Guia completo de engenharia de bordado para camisas de uniforme profissional em tecidos mistos pesados, sarja e brim, com linhas resistentes a alvejantes e alta produtividade.",
+      "definition": "A Camisa de Uniforme Profissional no bordado computadorizado abrange os padrões de matrizaria industrial, seleção de insumos de alta tenacidade e métodos de repetibilidade para bordar fardamentos corporativos e operacionais (confeccionados em sarja mista 67% poliéster / 33% algodão, brim pesado, tecido ripstop e tricoline de alta resistência). O uniforme profissional passa por regimes severos de uso contínuo, lavagens diárias com detergentes industriais, cloro, água quente e passadorias mecânicas de alta temperatura. Por essa razão, o bordado não pode desbotar, desfiar, encolher ou romper ao longo de anos de trabalho, exigindo o uso mandatório de linhas 100% poliéster com fixação por corantes de alta dispersão, entretelas termofixadas de suporte estrutural e gabaritos de produção em série para alinhamento milimétrico entre centenas de peças de tamanhos P a GG.",
+      "howItWorks": [
+          "1. Padronização de matriz corporativa: A logomarca da empresa é digitalizada respeitando as diretrizes de manual de identidade visual (brand guidelines), com densidade de 0,40 mm e reforço de subponto em grade para ancorar as letras sobre a sarja pesada.",
+          "2. Seleção de fios de alta resistência: Utiliza-se exclusivamente linha 100% poliéster trilobal (Polyester Thread) com resistência comprovada a alvejantes com cloro e fricção mecânica contínua.",
+          "3. Enquadramento com gabarito de bancada: Utiliza-se gabarito de montagem (Hoop Master ou similar) para posicionar o bolso ou peitoral com exata repetibilidade em lotes de dezenas ou centenas de camisas.",
+          "4. Estabilização estruturada: Aplica-se entretela recortável (Cutaway) de 80 a 90 g/m² ou entretela rasgável de alta gramatura com resina multidirecional.",
+          "5. Montagem da agulha: Agulha industrial calibre 75/11 ou 80/12 ponta redonda regular (RG) ou ponta de bola leve (SES) para penetrar a trama densa da sarja sem desviar.",
+          "6. Costura e controle de lote: A máquina roda a 750-850 PPM mantendo tensão constante na bobina para garantir acabamento idêntico em todas as peças entregues ao cliente corporativo."
+      ],
+      "beginnerExplanation": "Uniforme profissional é o ganha-pão mais constante de um ateliê de bordado! As empresas pedem lotes de 20, 50 ou 500 camisas para seus funcionários. A grande diferença aqui é a resistência: o uniforme é lavado toda semana, às vezes com cândida e sabão forte! Se você usar linha de viscose/rayon comum, o bordado desbota e esfarela em dois meses e o cliente reclama. Use sempre linha 100% poliéster de primeira linha, entretela bem firme e meça a posição com gabarito de régua para todas as camisas ficarem iguaizinhas!",
+      "applications": [
+          "Uniformes corporativos para engenheiros, mecânicos e operários em camisas de brim e sarja.",
+          "Fardamentos de recepcionistas, caixas de supermercado, farmácias e bancos em camisas de tricoline mista.",
+          "Jalecos e camisas de profissionais de saúde com nome do médico e especialidade bordados no peito.",
+          "Camisas de eletricistas e petroquímicos com tecidos retardantes a chama (exigindo fios de aramida Nomex)."
+      ],
+      "technicalDetails": "Para sarja mista 67/33 (210 g/m²): Subponto duplo cruzado (Double Cross-hatch underlay) sob pontos tatami para nivelar as estrias da sarja diagonal. Densidade de acabamento: 0,38 mm a 0,40 mm. Compensação de repuxo: 0,40 mm a 0,45 mm. Agulha recomendada: DBxK5 75/11 ou 80/12 RG. Velocidade: até 850 PPM em máquinas multicabeças industriais.",
+      "recommendedSettings": {
+          "speedPPM": "750 - 850 PPM",
+          "needleType": "Ponta Redonda Regular (RG / R) ou SES 75/11 a 80/12",
+          "stabilizer": "Entretela Recortável (Cutaway) 80-90 g/m² ou Rasga-Fácil Pesada 80 g/m²",
+          "density": "0,38 mm a 0,40 mm",
+          "pullCompensation": "0,40 mm a 0,45 mm",
+          "underlay": "Grade Dupla Cruzada (Double Cross-Hatch) + Contorno Perimetral"
+      },
+      "matrixRelations": "Conecta-se com Linha de Poliéster 100% Trilobal, Tecido de Sarja e Brim, Entretela Recortável Pesada, Gabaritos de Repetibilidade (Hoop Master), Compensação de Repuxo e Máquinas Multicabeças.",
+      "commonErrors": [
+          "❌ Usar linha de rayon/viscose que perde a cor ou se dissolve com produtos clorados e lavagens de lavanderia industrial.",
+          "❌ Não usar gabarito fixo de medição, entregando uma camisa com o logo a 18 cm do ombro e outra a 23 cm no mesmo pedido corporativo.",
+          "❌ Bordar fechando a boca do bolso da camisa por descuido ao prender o bastidor sem afastar o tecido interno do forro.",
+          "❌ Deixar nós e pontas compridas de corte automático no avesso, que desfiam após as primeiras lavagens na máquina de lavar pesada."
+      ],
+      "howToIdentify": "Se a linha do bordado quebrar frequentemente durante a costura na sarja, a agulha está fina demais (use 80/12) ou a trama do tecido possui resina engomada que aquece a agulha; use agulha com revestimento antiaderente (Super Universal / Titânio). Se o bordado desbotar após o cliente lavar, a linha utilizada não era 100% poliéster resistente a cloro.",
+      "dicaArtrelados": "A dica de ouro de produtividade do Ateliê Artrelados: faça um gabarito de acrílico transparente ou papelão cinza paraná com a marcação exata do bolso e do peito esquerdo para cada tamanho de camisa (P, M, G, GG). Quando chegar um lote de 100 uniformes, você encosta o gabarito na gola e dá um pontinho com caneta fantasminha ou giz em 2 segundos por peça. Sua velocidade de enquadramento triplica e todas as peças ficam 100% idênticas!",
+      "voceSabia": "A palavra 'uniforme' vem do latim 'unus' (um só) e 'forma' (aparência), significando literalmente 'ter uma única e idêntica forma'. No bordado computadorizado, a máquina multicabeças foi criada justamente nos anos 1970 para atender a explosão mundial de uniformes corporativos bordados em escala!",
+      "practicalExercise": "Pegue uma camisa de sarja ou brim de uniforme. No software, programe uma matriz corporativa simulando o logo de uma empresa fictícia medindo 9 cm de largura. Calibre a compensação para 0,42 mm e o subponto em grade cruzada. Borde a peça, corte a entretela e lave-a 3 vezes com sabão em pó e água na máquina de lavar: confira como o bordado continua firme, alinhado e brilhante!",
+      "quickSummary": "Padrão industrial para uniformes corporativos: linha 100% poliéster resistente a lavagens pesadas e alvejantes, entretela cutaway de alta tenacidade, agulha 80/12 e gabarito fixo para repetibilidade total.",
+      "relatedTerms": [
+          "Camiseta Polo Masculina Bordada",
+          "Camisa Social Masculina Bordada",
+          "Linha de Poliéster Trilobal",
+          "Tecido Sarja",
+          "Gabarito de Enquadramento",
+          "Máquina Multicabeças"
+      ],
+      "tags": [
+          "uniforme",
+          "corporativo",
+          "sarja",
+          "brim",
+          "poliester",
+          "produtividade",
+          "artrelados"
+      ],
+      "bibliographicReferences": [
+          "ASTM D4037. Standard Performance Specification for Woven Workwear and Uniform Fabrics. West Conshohocken, 2023.",
+          "MADEIRA USA. Polyester Thread Performance in Commercial Laundries. Laconia: Madeira Garnfabrik, 2024.",
+          "SILVA, Janete M. C. Bordado Industrial em Fardamentos e Uniformes Profissionais. São Paulo: Artrelados, 2026."
+      ],
+      "updatedAt": "2026-10-15"
+  },
+  {
+      "id": "c-novo-045-camisa-esportiva-personalizada",
+      "letter": "C",
+      "term": "Camisa Esportiva Personalizada",
+      "englishTerm": "Custom Sportswear & Athletic Performance Jersey Embroidery",
+      "level": "Intermediário 🟡",
+      "category": "Técnicas de Bastidor",
+      "grammarClass": "Locução substantiva feminina.",
+      "origin": "Criada a partir da revolução das fibras sintéticas de poliamida e poliéster na década de 1970 e impulsionada pela tecnologia Dri-FIT e tecidos de microfibra respirável nos anos 1990 para atletas de alto rendimento no futebol, atletismo e esportes olímpicos.",
+      "summary": "Técnicas avançadas para bordar camisas esportivas em tecidos tecnológicos (dry-fit, poliamida e poliéster com elastano), com matrizes ultraleves e proteção dérmica.",
+      "definition": "A Camisa Esportiva Personalizada abrange o conjunto de conhecimentos técnicos aplicados na digitalização e bordado em artigos de vestuário esportivo e uniformes de performance confeccionados em tecidos sintéticos tecnológicos (poliamida respirável, poliéster microfilamentado Dry-Fit, tecidos furadinhos de basquete/futebol e elastano). Esses materiais caracterizam-se pela espessura ultrafina, elasticidade multidirecional, sensibilidade térmica ao atrito da agulha e capacidade de evaporação rápida do suor. Bordar essas peças requer matrizes com densidade propositalmente aliviada (matrizes de 'peso pluma'), para que o bordado não forme uma placa rígida, pesada e abrasiva que raspe no peito do atleta durante o movimento intenso, além de exigir agulhas ponta bola finíssimas para não romper os microfilamentos que compõem o tecido.",
+      "howItWorks": [
+          "1. Análise da gramatura do tecido: Verifica-se a elasticidade e peso do dry-fit (normalmente entre 110 e 140 g/m²); tecidos com furinhos de ventilação exigem cuidado redobrado.",
+          "2. Matriz aliviada e inteligente: Reduz-se a densidade do ponto tatami para 0,44 mm a 0,48 mm e eliminam-se camadas duplas pesadas; logotipos devem respirar com o tecido.",
+          "3. Estabilização sem rigidez: Prende-se entretela recortável suave tipo 'Poly-Mesh' (No-Show Mesh) de 45 a 50 g/m² no bastidor; essa entretela não marca pelo lado direito e mantém a elasticidade natural da malha esportiva.",
+          "4. Fixação por flutuação adesiva: A camisa esportiva é acomodada suavemente sobre a entretela colada, sem tração nem esticamento mecânico.",
+          "5. Aplicação de agulha especial: Utiliza-se agulha Schmetz Stretch ou Groz-Beckert DBxK5 SES calibre 65/9 ou 70/10 com lâmina lisa polida para evitar superaquecimento.",
+          "6. Selagem do avesso anti-atrito: Aplica-se no verso do bordado uma termocolagem de malha ultrafina (Cover-A-Stitch / Soft Touch) para isolar completamente os nós e linhas do atrito com a pele e mamilos do corredor."
+      ],
+      "beginnerExplanation": "Camisa de futebol, corrida e academia é feita de tecido super levinho e fresquinho chamado dry-fit ou poliamida! Mas tem uma pegadinha perigosa: se você colocar um bordado pesado e grosso no peito de uma camisa de corrida, o atleta vai suar, a linha dura vai raspar na pele dele e causar feridas dolorosas durante a maratona! Por isso, o bordado de esporte tem que ser super leve, com poucos pontos, agulha bem fininha (70/10) e uma proteção de tecido macio colada atrás para não arranhar o peito do atleta!",
+      "applications": [
+          "Camisas oficiais de times de futebol, futsal, basquete e vôlei com escudos no peito esquerdo.",
+          "Camisetas de corrida de rua, maratonas e academias de crossfit com logos de patrocinadores.",
+          "Vestuário esportivo de ciclismo, natação e artes marciais.",
+          "Personalização de numeração e nomes em malhas dry-fit respiráveis."
+      ],
+      "technicalDetails": "Para malha Dry-Fit 120 g/m²: Densidade de ponto reduzida para 0,42 mm a 0,46 mm. Subponto mínimo em costura linear e grade aberta (1,8 mm). Compensação de repuxo: 0,40 mm. Agulha: 65/9 ou 70/10 SES/Stretch. Entretela: Poly-Mesh (No-Show Mesh) de 45 g/m². Velocidade: 700 a 750 PPM para prevenir que o atrito aqueça a fibra sintética e derreta os microfilamentos.",
+      "recommendedSettings": {
+          "speedPPM": "680 - 750 PPM",
+          "needleType": "Stretch / Ponta Bola Fina (SES) 65/9 ou 70/10",
+          "stabilizer": "Entretela Macia de Recorte Poly-Mesh (No-Show Mesh) 45-50 g/m²",
+          "density": "0,42 mm a 0,46 mm (matriz aliviada)",
+          "pullCompensation": "0,40 mm a 0,45 mm",
+          "underlay": "Grade Aberta (Open Grid) + Contorno Leve (Light Edge Run)"
+      },
+      "matrixRelations": "Conecta-se com Tecido Dry-Fit, Entretela Poly-Mesh (No-Show), Agulha Stretch / SES 70/10, Protetor Térmico de Avesso (Cover-A-Stitch), Matriz de Densidade Aliviada e Brasões de Times.",
+      "commonErrors": [
+          "❌ Programar matriz sólida pesada com 30.000 pontos no peitoral, criando um 'escudo medieval' que impede a transpiração do atleta e puxa a camisa para baixo.",
+          "❌ Usar entretela rasgável comum grossa que se solta nas lavagens, deixando o escudo enrugado após o primeiro jogo de futebol.",
+          "❌ Empregar agulha grossa de ponta pontuda 90/14 que rasga os filamentos sintéticos e forma furos irreversíveis que desfiam a camisa.",
+          "❌ Não selar o avesso do bordado em camisas de corrida, provocando assaduras por abrasão mecânica no peito do corredor."
+      ],
+      "howToIdentify": "Se a camisa ficar com pequenos furos ao redor do escudo logo após o bordado, a agulha está cortando a malha sintética; troque imediatamente por agulha ponta bola fina (SES 70/10 ou 65/9) e verifique se a ponta não está lascada. Se o escudo ficar ondulado e a camisa parecer franzida nas beiradas do logo, reduza a densidade de pontos da matriz em 15% e aumente a compensação de repuxo.",
+      "dicaArtrelados": "Dica de ouro do Ateliê Artrelados para camisas esportivas: para escudos de times com muitos detalhes, faça um aplique bordado ou patch com recorte a laser em tecido microfibra e borde apenas as bordas em ponto cordão! O escudo fica 70% mais leve do que se fosse todo preenchido em pontos de linha, economiza milhares de pontos de máquina e proporciona o mesmo acabamento oficial que as grandes marcas esportivas (Nike, Adidas, Puma) usam nas seleções do mundo!",
+      "voceSabia": "O tecido Dry-Fit foi desenvolvido nos laboratórios espaciais com o princípio de transporte capilar de umidade: os filamentos internos atraem o suor da pele por capilaridade e o jogam para a superfície externa da camisa, onde o calor e o vento o evaporam quase instantaneamente!",
+      "practicalExercise": "Pegue uma camisa de poliamida ou dry-fit usada. No software, reduza a densidade de um logotipo de 0,38 mm para 0,46 mm. Borde sobre entretela No-Show Mesh colada com spray temporário usando agulha 70/10 SES. Após costurar, aplique o protetor de avesso macio a ferro e dobre a camisa: perceba como o tecido continua macio, elástico e sem dobraduras duras!",
+      "quickSummary": "Manual para peças esportivas em dry-fit: matriz aliviada de peso pluma, entretela No-Show Mesh elástica, agulha ponta bola 70/10 e selagem macia do avesso para conforto total do atleta.",
+      "relatedTerms": [
+          "Camiseta Masculina Personalizada",
+          "Agulha Ponta Bola (SES)",
+          "Entretela de Recorte (Cutaway)",
+          "Protetor de Avesso Macio",
+          "Ponto Tatami",
+          "Emblemas e Patches Bordados"
+      ],
+      "tags": [
+          "esportivo",
+          "dry-fit",
+          "poliamida",
+          "futebol",
+          "corrida",
+          "no-show",
+          "leveza",
+          "artrelados"
+      ],
+      "bibliographicReferences": [
+          "INTERNATIONAL FEDERATION OF TEXTILE CHEMISTS. Synthetic Fibers and Breathable Sportswear Technology. Zurich, 2023.",
+          "NIKE INNOVATION LABS. Moisture Management and Athletic Embellishment Guidelines. Beaverton, 2022.",
+          "SILVA, Janete M. C. Artigos Esportivos e Tecidos Tecnológicos Bordados. São Paulo: Artrelados, 2026."
+      ],
+      "updatedAt": "2026-10-15"
+  },
+  {
+      "id": "c-novo-046-capa-para-notebook",
+      "letter": "C",
+      "term": "Capa para Notebook",
+      "englishTerm": "Laptop Sleeve & Notebook Case Embroidery",
+      "level": "Avançado 🔴",
+      "category": "Técnicas de Bastidor",
+      "grammarClass": "Locução substantiva feminina.",
+      "origin": "Surgida no final dos anos 1990 com a miniaturização dos computadores portáteis e o estilo de trabalho nômade digital, consolidando-se como acessório indispensável de proteção e sofisticação corporativa personalizada.",
+      "summary": "Guia completo de engenharia e bordado para capas de notebook em neoprene, couro sintético, lona e espumas estruturadas, com foco em proteção contra impactos e avesso blindado.",
+      "definition": "A Capa para Notebook (Laptop Sleeve / Estojo de Computador Portátil) no bordado computadorizado compreende o conjunto de técnicas avançadas de estruturação, fixação em bastidor e acabamento interno de capas protetoras destinadas ao transporte seguro de laptops de 13 a 17 polegadas. Confeccionadas em materiais de alta espessura e densidade de impacto — como neoprene de 3 mm a 5 mm, lonas pesadas, courvin, sarjas dubladas com manta acrílica R2 ou espumas de polietileno expandido (EPE) —, essas peças exigem soluções mecânicas específicas para evitar que a agulha desvie ou quebre na espessura, além de demandar técnicas de bastidor aberto (flutuação ou bastidores magnéticos) para não prensar nem esmagar a memória elástica das espumas internas. O bordado deve prever isolamento absoluto do avesso, garantindo que nenhuma ponta rígida de linha ou rebite metálico entre em contato com a tampa de alumínio ou magnésio dos computadores.",
+      "howItWorks": [
+          "1. Fase de corte e pré-montagem: O bordado é executado preferencialmente na parte frontal da capa aberta antes do fechamento das laterais e costura do zíper perimetral.",
+          "2. Estabilização estrutural: Fixa-se entretela recortável (Cutaway) pesada de 90 a 100 g/m² no bastidor; no caso de neoprene ou courvin, o material flutua sobre a entretela fixado com fita adesiva de bordado ou cola em spray temporária sem resíduos.",
+          "3. Compensação de altura e calcador: Regula-se a altura do calcador da máquina para cerca de 1,5 mm a 2 mm acima da superfície do material para não arrastar as camadas espessas nem esmagar a espuma.",
+          "4. Escolha de agulha e linha: Instala-se agulha Schmetz Topstitch ou Microtex calibre 80/12 ou 90/14 com olho alargado e haste reforçada, combinada com linha de poliéster 100% resistente ao atrito de bolsas.",
+          "5. Calibração da matriz: Aumenta-se a compensação de repuxo para 0,45 mm a 0,55 mm para compensar o afundamento dos pontos no volume da manta/neoprene.",
+          "6. Blindagem e forração interna: Aplica-se forro interno aveludado (plush, camurça sintética ou microfibra) que oculta e isola totalmente o avesso do bordado, prevenindo atrito contra o notebook."
+      ],
+      "beginnerExplanation": "Fazer capas de notebook personalizadas com o nome da pessoa ou o logotipo da empresa é um dos trabalhos mais lucrativos do ateliê, porque as pessoas pagam super bem por um produto que protege um computador caro! Mas a capa é gordinha e grossa porque tem espuma, manta ou neoprene por dentro. Se você tentar enfiar isso num bastidor plástico comum apertando o parafuso, você vai quebrar o bastidor ou deixar uma marca branca horrível que nunca mais sai! O segredo de ouro: prenda só a entretela no bastidor, cole o tecido grosso por cima usando cola spray temporária (técnica de flutuação), use agulha forte 90/14 e forre bem o avesso com tecido aveludado!",
+      "applications": [
+          "Capas executivas de couro sintético ou lona impermeável para notebooks corporativos (13\", 14\", 15.6\" e 16\").",
+          "Sleeves de neoprene coloridos com estampas bordadas e monogramas personalizados.",
+          "Projetos completos executados no bastidor (In The Hoop - ITH) com fechamento em zíper ou abas imantadas.",
+          "Brindes institucionais de alto padrão para empresas de tecnologia, startups e escritórios de advocacia."
+      ],
+      "technicalDetails": "Para neoprene 3 mm ou lona acolchoada com manta R2 (150 g/m²): Subponto obrigatório em tatami aberto com 1,0 mm de espaçamento para calçar a espuma e evitar que os pontos de acabamento afundem. Ponto cheio superior com densidade de 0,38 mm. Compensação de repuxo: 0,48 mm a 0,55 mm. Agulha: 90/14 Topstitch ou Microtex. Filme hidrossolúvel fino por cima para materiais com relevo ou pelos. Velocidade da máquina: 600 PPM.",
+      "recommendedSettings": {
+          "speedPPM": "550 - 650 PPM",
+          "needleType": "Topstitch / Microtex com Haste Reforçada 80/12 ou 90/14",
+          "stabilizer": "Entretela Recortável (Cutaway) 90-100 g/m² (Técnica de Flutuação)",
+          "density": "0,38 mm a 0,40 mm",
+          "pullCompensation": "0,48 mm a 0,55 mm",
+          "underlay": "Grade Dupla de Sustentação (Double Grid Underlay)"
+      },
+      "matrixRelations": "Conecta-se com Neoprene e Espumas Estruturadas, Manta Acrílica R2, Agulha Topstitch 90/14, Bastidor Magnético, Técnica de Flutuação e Projetos no Bastidor (In The Hoop - ITH).",
+      "commonErrors": [
+          "❌ Prensar neoprene ou couro ecológico entre os aros do bastidor plástico convencional, esmagando a espuma e criando 'marca de queima' permanente no produto.",
+          "❌ Deixar nós e pontas de arremate de linha expostos no interior da capa, arranhando e riscando a carcaça de alumínio anodizado de computadores topo de linha.",
+          "❌ Usar agulhas finas 70/10 que entortam ao atravessar as múltiplas camadas de acolchoamento, batendo na chapa de agulha e quebrando.",
+          "❌ Não compensar o repuxo no software, fazendo círculos e letras geométricas ficarem deformados pela tração da espuma interna."
+      ],
+      "howToIdentify": "Se a máquina começar a pular pontos ou bater com estalo metálico seco, a haste da agulha está fletindo ao penetrar a espessura da capa; instale imediatamente uma agulha Topstitch 90/14 com haste espessada e aumente a folga do calcador em 1 mm. Se o bordado afundar e sumir dentro da manta, use filme hidrossolúvel superior como calço.",
+      "dicaArtrelados": "O segredo de boutique do Ateliê Artrelados: borde o logotipo ou monograma no terço inferior direito da capa de notebook (a 5 cm da borda inferior e 5 cm da borda lateral direita). Esse posicionamento assimétrico dá um ar super sofisticado de marca de grife de tecnologia minimalista e valoriza a textura do material, fazendo a sua capa se destacar imediatamente nas reuniões de trabalho!",
+      "voceSabia": "O primeiro notebook moderno comercializado com tela dobrável e capa articulada foi o GRiD Compass 1101, lançado em 1982 e utilizado pela NASA a bordo dos ônibus espaciais para cálculo de trajetórias orbitais!",
+      "practicalExercise": "Corte dois retângulos de neoprene de 3 mm medindo 25x35 cm. Prenda entretela recortável de 90 g/m² no bastidor e flutue uma das partes com fita dupla face nas beiradas. Borde um monograma de 5 cm com agulha 90/14 Topstitch e compensação de 0,50 mm. Após bordar, una o forro e sinta a robustez e o acabamento premium da peça!",
+      "quickSummary": "Engenharia de precisão para capas de notebook: técnica de flutuação sem esmagar as espumas, agulha Topstitch 90/14, matriz com compensação reforçada de 0,50 mm e forro interno aveludado anti-risco.",
+      "relatedTerms": [
+          "Capa para Tablet",
+          "Bolsa para Equipamentos Fotográficos",
+          "Bastidor Magnético",
+          "Técnica de Flutuação",
+          "Manta Acrílica R1 e R2",
+          "In The Hoop (ITH)"
+      ],
+      "tags": [
+          "notebook",
+          "laptop",
+          "case",
+          "neoprene",
+          "tecnologia",
+          "estruturado",
+          "flutuacao",
+          "artrelados"
+      ],
+      "bibliographicReferences": [
+          "COMPUTING ACCESSORIES RESEARCH GROUP. Padded Protective Sleeves for Mobile Workstations. Tokyo, 2023.",
+          "SCHMETZ EMBROIDERY NEEDLE GUIDE. Needles for Heavy-Duty and Laminated Materials. Aachen, 2023.",
+          "SILVA, Janete M. C. Capas e Acessórios Tecnológicos no Ateliê de Bordados. São Paulo: Artrelados, 2026."
+      ],
+      "updatedAt": "2026-10-15"
+  },
+  {
+      "id": "c-novo-047-capa-para-tablet",
+      "letter": "C",
+      "term": "Capa para Tablet",
+      "englishTerm": "Tablet Sleeve & Digital Device Pouch Embroidery",
+      "level": "Intermediário 🟡",
+      "category": "Técnicas de Bastidor",
+      "grammarClass": "Locução substantiva feminina.",
+      "origin": "Popularizada a partir do lançamento do iPad pela Apple em 2010, criando um nicho imediato de acessórios utilitários de proteção leve, compacta e estilosa para tablets, e-readers (Kindle) e dispositivos móveis.",
+      "summary": "Métodos de confecção e bordado para capas de tablet no bastidor (ITH) ou planas, com proteção de telas de vidro contra atrito e estruturação em feltro, couro sintético e acolchoamento.",
+      "definition": "A Capa para Tablet no bordado computadorizado compreende os projetos técnicos de personalização e confecção no bastidor (estilo ITH - In The Hoop ou montagem semi-artesanal) de estojos protetores para tablets de 8 a 11 polegadas e leitores digitais. Caracteriza-se pelo equilíbrio entre espessura compacta e amortecimento contra quedas e arranhões, utilizando materiais nobres como feltro de lã pura prensado de 3 mm a 4 mm, couro sintético amigável, tecidos dublados com sarja ou lona e fechamentos magnéticos ou com elástico chato acetinado. O bordado exige calibração rigorosa de simetria geométrica em relação às abas de fechamento, além do mandatório cuidado com a tela de vidro Gorilla Glass dos dispositivos: nenhum avesso pode ter aspereza, pontas de nylon ou nós duros, demandando forração interna integral com microfibra aveludada ou tecido de cetim macio.",
+      "howItWorks": [
+          "1. Dimensionamento do dispositivo: Mede-se o tablet adicionando 1,5 cm nas laterais e na base para margem de costura e folga de inserção suave do aparelho.",
+          "2. Projeto no bastidor (ITH) ou plano: Prende-se a entretela de suporte no bastidor e executa-se a marcação perimetral da capa frontal.",
+          "3. Enquadramento e fixação: Acomoda-se o material (feltro estruturado de 3 mm ou couro sintético dublado) sobre a entretela utilizando a técnica de flutuação com cola temporária ou bastidor magnético.",
+          "4. Bordado personalizado: A máquina executa o bordado decorativo, arabesco, monograma ou logotipo com agulha ponta bola fina 75/11 SES para feltro ou ponta afiada 80/12 para sintéticos.",
+          "5. Montagem do forro aveludado: Posiciona-se o tecido de forro macio direito com direito cobrindo a área bordada para que a máquina execute a costura de união automática.",
+          "6. Desviramento e conferência de tela: Desvira-se a peça, assenta-se com ferro brando e verifica-se se a parte interna que toca a tela do tablet está 100% lisa e aveludada."
+      ],
+      "beginnerExplanation": "A capinha para tablet é um dos projetos mais divertidos e fáceis de vender no ateliê! Ela protege o tablet de riscos na mochila e serve tanto para crianças na escola quanto para profissionais em reuniões. O maior cuidado do mundo aqui é com a tela do tablet: se ficar uma pontinha dura de linha ou entretela áspera por dentro, ela pode riscar o vidro da tela! Por isso, nós sempre colocamos um forrinho de tecido bem macio e gostoso (como pelúcia fininha, microfibra ou camurça) por dentro para abraçar o tablet com carinho!",
+      "applications": [
+          "Capas protetoras em feltro cinza mescla com monograma bordado e aba de couro para iPad e Galaxy Tab.",
+          "Estojos com zíper e bolso externo para cabo e caneta touch (Apple Pencil).",
+          "Capinhas no bastidor (ITH) para leitores digitais (Kindle e Kobo) com elástico colorido de fechamento.",
+          "Acessórios corporativos para equipes comerciais que utilizam tablets em atendimentos externos."
+      ],
+      "technicalDetails": "Para feltro industrial de 3 mm (300 g/m²): Subponto perimetral com compensação de repuxo de 0,40 mm. Densidade de ponto de 0,40 mm a 0,42 mm. Agulha: 75/11 ou 80/12 SES/RG. Para feltros de lã com felpas, recomenda-se uma camada de filme hidrossolúvel superior para impedir que os pelinhos do feltro fiquem aparentes entre os pontos de linha. Velocidade recomendada: 650 PPM.",
+      "recommendedSettings": {
+          "speedPPM": "600 - 700 PPM",
+          "needleType": "Ponta Bola Leve / Universal (SES/RG) 75/11 ou 80/12",
+          "stabilizer": "Entretela Recortável (Cutaway) 70-80 g/m² + Filme Hidrossolúvel Superior",
+          "density": "0,40 mm a 0,42 mm",
+          "pullCompensation": "0,40 mm a 0,45 mm",
+          "underlay": "Costura de Contorno Perimetral (Edge Run) + Zigue-Zague Aberto"
+      },
+      "matrixRelations": "Conecta-se com Feltro Industrial 3mm, Capa para Notebook, Filme Hidrossolúvel Superior, In The Hoop (ITH), Forro Aveludado Anti-Atrito e Bastidor Magnético.",
+      "commonErrors": [
+          "❌ Não colocar forro interno protetor, deixando os nós de arremate do avesso em contato direto com a tela de vidro do tablet.",
+          "❌ Fazer a capa com as medidas exatas do tablet sem prever a espessura tridimensional de 8 mm do aparelho, resultando em uma capa apertada e inutilizável.",
+          "❌ Apertar feltro grosso no bastidor plástico de parafuso, achatando e deformando a densidade compacta do feltro.",
+          "❌ Esquecer o filme solúvel sobre feltros peludos, deixando fiapos escaparem pelo meio das letras do bordado."
+      ],
+      "howToIdentify": "Se as letras parecerem 'peludas' ou se fiapos cinzas do feltro subirem entre as linhas do bordado, use filme hidrossolúvel superior na próxima peça. Se ao colocar o tablet a capa ficar repuxando a costura lateral, adicione mais 1 cm de margem de folga técnica no molde de corte para acomodar a espessura do aparelho.",
+      "dicaArtrelados": "Dica de estilo do Ateliê Artrelados: faça a capa de tablet em feltro cinza chumbo de 3 mm e borde o monograma com linha de poliéster em tom dourado queimado ou cobre! Essa combinação de cinza com metalizado fosco é a campeã de vendas para presentes corporativos executivos: passa uma imagem de produto importado de boutique europeia e tem custo de confecção super acessível!",
+      "voceSabia": "O termo 'Tablet' vem do latim 'tabella' (tábua de escrita), que eram tabuletas de argila ou cera usadas na Mesopotâmia e na Roma Antiga para anotar leis e contas há mais de 4.000 anos, inspirando diretamente o conceito dos computadores em prancheta de hoje!",
+      "practicalExercise": "Corte dois retângulos de feltro de 3 mm medindo 20x26 cm (tamanho perfeito para tablet de 10 polegadas). Flutue a frente no bastidor com filme solúvel por cima, borde uma inicial em ponto cordão com linha cobre e sinta a elegância do contraste. Monte com forro de microfibra e confira a maciez do acabamento!",
+      "quickSummary": "Técnicas essenciais para capas de tablet: confecção em feltro ou materiais estruturados, uso de filme solúvel superior contra felpas, agulha 75/11 e forro de toque macio para proteção integral da tela.",
+      "relatedTerms": [
+          "Capa para Notebook",
+          "In The Hoop (ITH)",
+          "Filme Hidrossolúvel Superior",
+          "Feltro Industrial",
+          "Protetor de Avesso Macio",
+          "Bastidor Magnético"
+      ],
+      "tags": [
+          "tablet",
+          "ipad",
+          "kindle",
+          "feltro",
+          "tecnologia",
+          "ith",
+          "case",
+          "artrelados"
+      ],
+      "bibliographicReferences": [
+          "DESIGN & MOBILE ACCESSORIES ANNUAL. Felt and Leatherette Sleeves for Tablets. Milan, 2023.",
+          "INDUSTRIAL FELT ASSOCIATION. Precision Sewing and Embroidery on Needle-Punched Felts. Frankfurt, 2022.",
+          "SILVA, Janete M. C. Capas e Acessórios Tecnológicos no Ateliê de Bordados. São Paulo: Artrelados, 2026."
+      ],
+      "updatedAt": "2026-10-15"
   }
 ];
-
