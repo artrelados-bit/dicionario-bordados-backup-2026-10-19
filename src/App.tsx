@@ -199,14 +199,14 @@ function sanitizeVerbetesList(list: Verbete[]): Verbete[] {
 
   const combined = Array.from(deduplicatedMap.values());
 
-  // Group verbetes by their official catalog letter (A-Z)
+  // Group verbetes by their true term letter (A-Z)
   const byLetter: Record<string, Verbete[]> = {};
   combined.forEach((v) => {
-    const codeLetter = v.code ? v.code.split("-")[0].toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") : "";
-    let letter = (v.letter || codeLetter || "A").toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    const normTerm = (v.term || "").trim().replace(/^["'“”«»🟢🟡🔴\s]+/, "");
+    let letter = normTerm.charAt(0).toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     if (!letter.match(/^[A-Z]$/)) {
-      const normTerm = (v.term || "").trim().replace(/^[🟢🟡🔴\s]+/, "");
-      letter = normTerm.charAt(0).toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      const codeLetter = v.code ? v.code.split("-")[0].toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") : "";
+      letter = (v.letter || codeLetter || "A").toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
       if (!letter.match(/^[A-Z]$/)) letter = "A";
     }
     if (!byLetter[letter]) {
@@ -503,22 +503,20 @@ export default function App() {
         return;
       }
 
-      // Active letter determination based on official catalog letter (code, letter, id prefix, or term first char)
-      let verbeteLetter = "";
-      if (v.code) {
-        const codeMatch = v.code.trim().toUpperCase().match(/^([A-Z])-/);
-        if (codeMatch) verbeteLetter = codeMatch[1];
+      // Active letter determination based on term's true letter and assigned code
+      const rawTerm = (getVerbeteTermInLanguage(v, currentLanguage) || v.term || "").trim().replace(/^["'“”«»🟢🟡🔴\s]+/, "");
+      let verbeteLetter = rawTerm.charAt(0).toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      if (!verbeteLetter.match(/^[A-Z]$/)) {
+        if (v.code) {
+          const codeMatch = v.code.trim().toUpperCase().match(/^([A-Z])-/);
+          if (codeMatch) verbeteLetter = codeMatch[1];
+        }
       }
       if (!verbeteLetter && v.letter && v.letter.trim().length === 1 && /^[A-Za-z]$/.test(v.letter.trim())) {
         verbeteLetter = v.letter.trim().toUpperCase();
       }
-      if (!verbeteLetter && v.id) {
-        const idMatch = v.id.trim().toLowerCase().match(/^([a-z])-/);
-        if (idMatch) verbeteLetter = idMatch[1].toUpperCase();
-      }
       if (!verbeteLetter) {
-        const rawTerm = (getVerbeteTermInLanguage(v, currentLanguage) || v.term || "").trim().replace(/^["'“”«»🟢🟡🔴\s]+/, "");
-        verbeteLetter = rawTerm.charAt(0).toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        verbeteLetter = "A";
       }
 
       // If there is no search query, filter strictly by selected letter
