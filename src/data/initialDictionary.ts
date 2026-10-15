@@ -11,6 +11,7 @@ import { NOVOS_VERBETES_LETRA_F } from "./novosVerbetesLetraF";
 import { NOVOS_VERBETES_LETRA_G } from "./novosVerbetesLetraG";
 import { ALL_TROUBLESHOOTING_GUIDES } from "./troubleshootingGuides";
 import { MULTI_HEAD_TROUBLESHOOTING_GUIDES } from "./multiHeadTroubleshootingData";
+import { reallocateAndSortVerbetes } from "../utils/alphabeticalSortingRule";
 
 const rawList: Verbete[] = [
   ...(masterAcervo as unknown as Verbete[]),
@@ -37,7 +38,10 @@ rawList.forEach((item) => {
   }
 });
 
-export const INITIAL_VERBETES: Verbete[] = Array.from(uniqueMap.values());
+// Automatic strict alphabetical allocation and sequential numbering
+export const INITIAL_VERBETES: Verbete[] = reallocateAndSortVerbetes(
+  Array.from(uniqueMap.values())
+);
 
 export const INITIAL_TROUBLESHOOTING_GUIDES: TroubleshootingGuide[] = [
   ...ALL_TROUBLESHOOTING_GUIDES,

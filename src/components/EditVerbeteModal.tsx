@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { X, Save, Plus, AlertCircle, Trash2 } from "lucide-react";
 import { Verbete, VerbeteCategory } from "../types";
+import { extractTrueInitialLetter } from "../utils/alphabeticalSortingRule";
 
 interface EditVerbeteModalProps {
   isOpen: boolean;
@@ -92,10 +93,11 @@ export const EditVerbeteModal: React.FC<EditVerbeteModalProps> = ({
       .map((t) => t.trim())
       .filter((t) => t.length > 0);
 
-    const firstLetter = term.trim().charAt(0).toUpperCase();
+    const firstLetter = extractTrueInitialLetter(term);
 
     const updatedVerbete: Verbete = {
       id: verbeteToEdit ? verbeteToEdit.id : `verbete-${Date.now()}`,
+      letter: firstLetter,
       code: code.trim() || `${firstLetter}-${Math.floor(100 + Math.random() * 900)}`,
       term: term.trim(),
       grammarClass: grammarClass.trim() || undefined,

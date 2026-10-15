@@ -20,6 +20,7 @@ import { BookOpen, Search } from "lucide-react";
 import { updateDocumentMeta } from "./utils/seoHelper";
 import { SupportedLanguage, localizeVerbete, getVerbeteTermInLanguage } from "./utils/i18n";
 import { resolveRelatedVerbete, extractCleanSearchQuery } from "./utils/relatedTermsResolver";
+import { reallocateAndSortVerbetes, extractTrueInitialLetter } from "./utils/alphabeticalSortingRule";
 
 // Helper to sort verbetes in ascending order by code (e.g. A-001, A-002, A-003, A-026)
 export function sortVerbetesByCode(list: Verbete[]): Verbete[] {
@@ -198,56 +199,7 @@ function sanitizeVerbetesList(list: Verbete[]): Verbete[] {
   });
 
   const combined = Array.from(deduplicatedMap.values());
-
-  // Group verbetes by their true term letter (A-Z)
-  const byLetter: Record<string, Verbete[]> = {};
-  combined.forEach((v) => {
-    const normTerm = (v.term || "").trim().replace(/^["'“”«»🟢🟡🔴\s]+/, "");
-    let letter = normTerm.charAt(0).toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-    if (!letter.match(/^[A-Z]$/)) {
-      const codeLetter = v.code ? v.code.split("-")[0].toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") : "";
-      letter = (v.letter || codeLetter || "A").toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-      if (!letter.match(/^[A-Z]$/)) letter = "A";
-    }
-    if (!byLetter[letter]) {
-      byLetter[letter] = [];
-    }
-    byLetter[letter].push(v);
-  });
-
-  // Sort each letter group alphabetically by term and assign sequential dynamic codes (A-001, A-002, etc.)
-  const seenIds = new Set<string>();
-  const processed: Verbete[] = [];
-
-  const sortedLetters = Object.keys(byLetter).sort((a, b) => a.localeCompare(b, "pt-BR"));
-  sortedLetters.forEach((letter) => {
-    // Sort strictly alphabetically by term
-    byLetter[letter].sort((a, b) => {
-      const cleanA = (a.term || "").trim().replace(/^[🟢🟡🔴\s]+/, "");
-      const cleanB = (b.term || "").trim().replace(/^[🟢🟡🔴\s]+/, "");
-      return cleanA.localeCompare(cleanB, "pt-BR", { sensitivity: "base" });
-    });
-
-    // Assign sequential dynamic code (A-001, A-002, ...)
-    byLetter[letter].forEach((v, idx) => {
-      const item = { ...v };
-      item.letter = letter;
-      item.code = `${letter}-${String(idx + 1).padStart(3, "0")}`;
-
-      // Ensure unique ID
-      if (seenIds.has(item.id)) {
-        const freshId = `${item.id}-clean-${idx}-${Math.random().toString(36).substring(2, 6)}`;
-        seenIds.add(freshId);
-        item.id = freshId;
-      } else {
-        seenIds.add(item.id);
-      }
-
-      processed.push(item);
-    });
-  });
-
-  return sortVerbetesByCode(processed);
+  return reallocateAndSortVerbetes(combined);
 }
 
 export default function App() {
@@ -463,9 +415,9 @@ export default function App() {
     }
   };
 
-  // Add Single New Verbete (if needed)
+  // Add Single New Verbete with automatic alphabetical allocation
   const handleAddVerbete = (newVerbete: Verbete) => {
-    setVerbetes((prev) => [newVerbete, ...prev]);
+    setVerbetes((prev) => sanitizeVerbetesList([newVerbete, ...prev]));
   };
 
   // Official code mapping ensuring every verbete maintains its official catalog code
@@ -503,21 +455,9 @@ export default function App() {
         return;
       }
 
-      // Active letter determination based on term's true letter and assigned code
-      const rawTerm = (getVerbeteTermInLanguage(v, currentLanguage) || v.term || "").trim().replace(/^["'“”«»🟢🟡🔴\s]+/, "");
-      let verbeteLetter = rawTerm.charAt(0).toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-      if (!verbeteLetter.match(/^[A-Z]$/)) {
-        if (v.code) {
-          const codeMatch = v.code.trim().toUpperCase().match(/^([A-Z])-/);
-          if (codeMatch) verbeteLetter = codeMatch[1];
-        }
-      }
-      if (!verbeteLetter && v.letter && v.letter.trim().length === 1 && /^[A-Za-z]$/.test(v.letter.trim())) {
-        verbeteLetter = v.letter.trim().toUpperCase();
-      }
-      if (!verbeteLetter) {
-        verbeteLetter = "A";
-      }
+      // Active letter determination based on term's true letter via the strict automatic rule
+      const effectiveTerm = getVerbeteTermInLanguage(v, currentLanguage) || v.term;
+      const verbeteLetter = extractTrueInitialLetter(effectiveTerm, v.code, v.letter);
 
       // If there is no search query, filter strictly by selected letter
       if (!query && selectedLetter) {
