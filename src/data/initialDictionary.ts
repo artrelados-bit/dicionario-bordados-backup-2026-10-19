@@ -11,6 +11,7 @@ import { NOVOS_VERBETES_LETRA_F } from "./novosVerbetesLetraF";
 import { NOVOS_VERBETES_LETRA_G } from "./novosVerbetesLetraG";
 import { NOVOS_VERBETES_LETRA_M } from "./novosVerbetesLetraM";
 import { NOVOS_VERBETES_LETRA_N } from "./novosVerbetesLetraN";
+import { NOVOS_VERBETES_ORGANIZADORES } from "./novosVerbetesOrganizadores";
 import { ALL_TROUBLESHOOTING_GUIDES } from "./troubleshootingGuides";
 import { MULTI_HEAD_TROUBLESHOOTING_GUIDES } from "./multiHeadTroubleshootingData";
 import { reallocateAndSortVerbetes } from "../utils/alphabeticalSortingRule";
@@ -28,6 +29,7 @@ const rawList: Verbete[] = [
   ...NOVOS_VERBETES_LETRA_G,
   ...NOVOS_VERBETES_LETRA_M,
   ...NOVOS_VERBETES_LETRA_N,
+  ...NOVOS_VERBETES_ORGANIZADORES,
 ];
 
 const uniqueMap = new Map<string, Verbete>();
