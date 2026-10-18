@@ -14,6 +14,7 @@ import { NOVOS_VERBETES_LETRA_N } from "./novosVerbetesLetraN";
 import { NOVOS_VERBETES_ORGANIZADORES } from "./novosVerbetesOrganizadores";
 import { NOVOS_VERBETES_ACESSORIOS_PESSOAIS } from "./novosVerbetesAcessoriosPessoais";
 import { NOVOS_VERBETES_SACOS } from "./novosVerbetesSacos";
+import { NOVOS_VERBETES_TOALHAS_PARTE1 } from "./novosVerbetesToalhasParte1";
 import { ALL_TROUBLESHOOTING_GUIDES } from "./troubleshootingGuides";
 import { MULTI_HEAD_TROUBLESHOOTING_GUIDES } from "./multiHeadTroubleshootingData";
 import { reallocateAndSortVerbetes } from "../utils/alphabeticalSortingRule";
@@ -34,6 +35,7 @@ const rawList: Verbete[] = [
   ...NOVOS_VERBETES_ORGANIZADORES,
   ...NOVOS_VERBETES_ACESSORIOS_PESSOAIS,
   ...NOVOS_VERBETES_SACOS,
+  ...NOVOS_VERBETES_TOALHAS_PARTE1,
 ];
 
 const uniqueMap = new Map<string, Verbete>();
